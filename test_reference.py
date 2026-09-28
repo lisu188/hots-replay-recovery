@@ -72,11 +72,22 @@ class MetadataTests(unittest.TestCase):
 
     def test_bad_identifiers_are_rejected(self):
         for key in ('m_ngdpRootKey', 'm_replayCompatibilityHash'):
-            for value in (b'', b'\0' * 16, b'a' * 15, 'a' * 16):
+            for value in (b'', b'a' * 15, b'a' * 17, 'a' * 16):
                 header = self.header()
                 header[key]['m_data'] = value
                 with self.subTest(key=key, value=value), self.assertRaises(ValueError):
                     metadata(header)
+
+    def test_observed_zero_compatibility_hash_is_preserved(self):
+        header = self.header()
+        header['m_replayCompatibilityHash']['m_data'] = bytes(16)
+        self.assertEqual(metadata(header)['m_replayCompatibilityHash']['m_data'], bytes(16))
+
+    def test_zero_root_key_is_still_rejected(self):
+        header = self.header()
+        header['m_ngdpRootKey']['m_data'] = bytes(16)
+        with self.assertRaises(ValueError):
+            metadata(header)
 
     def test_noninteger_version_is_rejected(self):
         header = self.header()
