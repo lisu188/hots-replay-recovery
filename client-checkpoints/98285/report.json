@@ -1,0 +1,73 @@
+{
+  "format": "hots-client-binding-experiment-v1",
+  "status": "experimental-not-playback-validated",
+  "declared_client_build": 98285,
+  "declared_client_version": "2.57.0.98285",
+  "schema_build": 96477,
+  "source_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+  "input_checkpoint_sha256": "1fd94e209a4fd28f2f3582d7901db891c5bcb0333af06efd6391d96ff8da3205",
+  "reference_sha256": "05ec458110db57dd5cf6c044cb6b7270d880282ec803abce725f048f91fc3e75",
+  "artifact": {
+    "name": "TEN_GREYMANE_client98285_EXPERIMENTAL.StormReplay",
+    "sha256": "2ecb09f353a30363ad59d04b04d439bb7f0ee623d832000d8d13f7a05dbb0486",
+    "size": 670388,
+    "parts": 12,
+    "base64_roundtrip_validated": true,
+    "exact_recipe_reproduction_validated": true,
+    "github_reproduction_recipe": "client-checkpoints/98285/recipe.json"
+  },
+  "events": {"game": 104257, "message": 155, "tracker": 6614},
+  "metadata_changes": 24,
+  "game_stream_bytes": 1148436,
+  "game_stream_bytes_changed_from_96477": 40,
+  "original_map_preserved": "Dragon Shire",
+  "donor_map_not_transplanted": "Braxis Holdout",
+  "coverage": {
+    "game": {"candidate_types": 20, "reference_types": 24, "candidate_types_not_observed_in_reference": []},
+    "message": {"candidate_types": 3, "reference_types": 5, "candidate_types_not_observed_in_reference": []},
+    "tracker": {"candidate_types": 10, "reference_types": 10, "candidate_types_not_observed_in_reference": []}
+  },
+  "checks": {
+    "protocol_provider": "Blizzard/heroprotocol",
+    "official_reference_all_streams_decode": true,
+    "official_candidate_all_streams_decode": true,
+    "reference_header_details_lobby_streams_binary_roundtrip": true,
+    "candidate_header_details_lobby_streams_binary_roundtrip": true,
+    "mpyq_all_members_equal": true,
+    "member_count": 14,
+    "untouched_members_equal": true,
+    "mpq_v4": {"header_md5": true, "non_overlapping_regions": true, "sizes": true, "table_md5": true},
+    "stormlib": {"tested": false}
+  },
+  "runtime": {
+    "upstream_commit": "9af3ea7150f1a8acb53464c92519a9bbcc7a3594",
+    "schema_git_blob": "86848470ccfeccb3f8649f0948463af506ebef02",
+    "schema_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+    "decoder_git_blob": "8d7597936f17a076c0223d52da0a448fe31db0be",
+    "decoder_sha256": "17bfb926af0f7f79e18f6299dbae50fc2821c53b229235d4f9c857c7ef3e96b1",
+    "mpyq_git_blob": "53f75887a2fb476cbb7f7011baebb756399c4824",
+    "mpyq_sha256": "e10fa2f422d837345f438934a99a3cdf67fa9148c7106d421408e1ecfa83e239",
+    "source_bytes_checked_against_git_blobs": true,
+    "zlib_runtime": "1.3.1"
+  },
+  "local_tests": {
+    "command": "PYTHONPATH=work/offline:. python -m unittest -v test_reference test_client_binding test_reproduce_client",
+    "passed": 36, "failed": 0, "skipped": 0,
+    "old_fixture_tests_use_previously_committed_local_schemas": true,
+    "real_donor_and_candidate_official_validation_executed_separately": true
+  },
+  "target_schema_is_official_exact_build": false,
+  "all_possible_target_event_types_proven": false,
+  "client_playback_validated": false,
+  "simulation_compatibility_validated": false,
+  "raw_donor_published_to_github": false,
+  "limitations": [
+    "The donor was supplied by the user; its header is not a cryptographic authenticity signature.",
+    "Exact protocol98285.py was not available in the inspected Blizzard repository. The observed payloads round-trip with protocol96477.py.",
+    "Every candidate event type occurs in the donor, but this does not prove every field variant or the complete new-client schema.",
+    "Original map caches, ability/unit identifiers and opaque synchronization data remain unchanged.",
+    "Copied version/root/data/hash metadata does not repair changed simulation rules.",
+    "Native StormLib was not run locally for this candidate.",
+    "No HotS game executable has loaded or played this candidate in this environment."
+  ]
+}
