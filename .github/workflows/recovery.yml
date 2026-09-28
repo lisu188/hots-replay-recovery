@@ -15,6 +15,10 @@ on:
 permissions:
   contents: write
 
+defaults:
+  run:
+    shell: bash
+
 concurrency:
   group: replay-recovery-main
   cancel-in-progress: false
@@ -26,19 +30,19 @@ jobs:
     env:
       PYTHONPATH: ${{ github.workspace }}/_upstream:${{ github.workspace }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
         with:
           fetch-depth: 0
           ref: ${{ github.sha }}
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
         with:
           repository: Blizzard/heroprotocol
           ref: 9af3ea7150f1a8acb53464c92519a9bbcc7a3594
           path: _upstream
           persist-credentials: false
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
         with:
-          python-version: '3.13'
+          python-version: '3.11'
       - name: Install independent archive readers
         run: |
           python -m pip install six==1.17.0 mpyq==0.2.5
@@ -90,7 +94,7 @@ jobs:
             fi
           done
           git bundle create work/hots-replay-upgrade.bundle --all
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         if: always()
         with:
           name: replay-recovery-${{ github.run_id }}
