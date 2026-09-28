@@ -4,7 +4,21 @@
       "declared_api_build": 98025,
       "error_type": "ValueError",
       "http_status": null,
-      "replay_id": 65531882,
+      "replay_id": 65533534,
+      "status": "unavailable-or-incompatible"
+    },
+    {
+      "declared_api_build": 98025,
+      "error_type": "ValueError",
+      "http_status": null,
+      "replay_id": 65533529,
+      "status": "unavailable-or-incompatible"
+    },
+    {
+      "declared_api_build": 98025,
+      "error_type": "ValueError",
+      "http_status": null,
+      "replay_id": 65533525,
       "status": "unavailable-or-incompatible"
     }
   ],
@@ -14,8 +28,8 @@
   "profiles": [],
   "schema_build": 96477,
   "searched_id_window": [
-    65531834,
-    65532034
+    65533334,
+    65533534
   ],
   "source": "Heroes Profile documented OpenAPI",
   "status": "no-compatible-reference-in-window"
