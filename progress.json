@@ -1,45 +1,15 @@
 {
   "branch": "main",
   "checkpoints": [
-    {
-      "build": 41810,
-      "commit": "3b985a4",
-      "status": "decoded-and-committed"
-    },
-    {
-      "build": 43905,
-      "game_events": 104257,
-      "semantic_game_event_lines_changed": 10,
-      "sha256": "31fb7fb755b174588fa54a93ef50ebaac9b37103101c60fade4b37e54dadd048",
-      "status": "protocol-roundtrip-valid; client-playback-not-yet-validated"
-    }
+    {"build": 41810, "commit": "3b985a4", "status": "decoded-and-committed"},
+    {"build": 43905, "game_events": 104257, "semantic_game_event_lines_changed": 10, "sha256": "31fb7fb755b174588fa54a93ef50ebaac9b37103101c60fade4b37e54dadd048", "status": "protocol-roundtrip-valid; client-playback-not-yet-validated"}
   ],
   "current_protocol_checkpoints": {
-    "44256": {
-      "client_playback_validated": false,
-      "report": "checkpoints/44256/report.json",
-      "sha256": "71cda528067b3ae4fec30634d37eebf6395fffb6b115ef4a1782e5e24094f167",
-      "upstream_and_stormlib_validated": true
-    },
-    "57547": {
-      "client_playback_validated": false,
-      "report": "checkpoints/57547/report.json",
-      "sha256": "a0537701c640d9b095f43953b480bcfa1d200b613512fa6c1bf819aa985462a0",
-      "upstream_and_stormlib_validated": true
-    },
-    "96477": {
-      "client_playback_validated": false,
-      "report": "checkpoints/96477/report.json",
-      "sha256": "1fd94e209a4fd28f2f3582d7901db891c5bcb0333af06efd6391d96ff8da3205",
-      "upstream_and_stormlib_validated": true
-    }
+    "44256": {"client_playback_validated": false, "report": "checkpoints/44256/report.json", "sha256": "71cda528067b3ae4fec30634d37eebf6395fffb6b115ef4a1782e5e24094f167", "upstream_and_stormlib_validated": true},
+    "57547": {"client_playback_validated": false, "report": "checkpoints/57547/report.json", "sha256": "a0537701c640d9b095f43953b480bcfa1d200b613512fa6c1bf819aa985462a0", "upstream_and_stormlib_validated": true},
+    "96477": {"client_playback_validated": false, "report": "checkpoints/96477/report.json", "sha256": "1fd94e209a4fd28f2f3582d7901db891c5bcb0333af06efd6391d96ff8da3205", "upstream_and_stormlib_validated": true}
   },
-  "decoded_counts": {
-    "SCmdEvent": 4558,
-    "game_events": 104257,
-    "message_events": 155,
-    "tracker_events": 6614
-  },
+  "decoded_counts": {"SCmdEvent": 4558, "game_events": 104257, "message_events": 155, "tracker_events": 6614},
   "github": {
     "binary_policy": "StormReplay artifacts are Base64 text split into deterministic .partNNN files; .sha256 verifies reconstruction",
     "branch": "main",
@@ -54,29 +24,44 @@
   "latest_protocol_checkpoint": 96477,
   "legacy_json_projection": "hots-replay-json-v1",
   "local_head_before_remote_sync": "dc52914",
-  "next": "Obtain authentic build-98025 replay metadata and verify its schema, then test actual client playback and simulation. Do not equate protocol validation with playback.",
+  "next": "Acquire and inspect an authentic replay from the installed live client using reference_replay.py or scripts/collect_reference.ps1; then bind observed metadata experimentally and test actual HotS loading/simulation. Check the queued reference workflow results before assuming public donor discovery ran.",
   "observed_target_client": {
-    "build": 98025,
-    "observation_date": "2026-09-19",
-    "protocol_schema_verified": false,
-    "reference": "references/client-98025.json",
-    "version": "2.55.17.98025"
+    "build": 98025, "observation_date": "2026-09-19", "protocol_schema_verified": false,
+    "reference": "references/client-98025.json", "version": "2.55.17.98025"
   },
   "onedrive_backup": {
     "folder": "HotS Replay Upgrade - TEN_GREYMANE",
     "git_bundle_checkpoint": "161e3d2b5be3e1b139b3a5d045bcc7469a57602e",
     "git_bundle_history_complete": true,
-    "uploaded_protocol_checkpoints": [44256, 57547, 96477]
+    "uploaded_protocol_checkpoints": [44256, 57547, 96477],
+    "reference_tools_archive": "hots-replay-reference-tools-2026-09-28.zip",
+    "reference_tools_archive_sha256": "e096edf9bb9994326f41e5e211bda0afbc851e08807ab211681ce715241d747d",
+    "reference_tools_archive_uploaded": true,
+    "reference_workspace_bundle": "hots-replay-reference-workspace-2026-09-28.bundle",
+    "reference_workspace_local_commit": "011d8ecf5190b3429133e02be5d786cb7cfa1578",
+    "reference_workspace_scope": "Local recovery branch based on 161e3d2, not a replacement for newer GitHub main history; original verified bundle retained."
   },
   "project": "TEN_GREYMANE HotS replay upgrade",
   "source_build": 41810,
   "source_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
   "storage": "OneDrive",
-  "tests": {
-    "failed": 0,
-    "passed": 16,
-    "skipped": 0,
-    "upstream_schema_comparison": true
+  "tests": {"failed": 0, "passed": 16, "skipped": 0, "upstream_schema_comparison": true},
+  "reference_tooling": {
+    "code_commit": "f70275541af1c00de0ef388d193a64d708820126",
+    "documentation": "docs/REFERENCE_WORKFLOW.md",
+    "local_tests": {"passed": 21, "failed": 0, "skipped": 0, "python": "3.13.5", "mpyq_git_blob": "53f75887a2fb476cbb7f7011baebb756399c4824", "schema_provider": "previously committed local schemas", "fresh_official_decoder_run": false, "native_stormlib_run": false},
+    "synthetic_binding_integration_passed": true,
+    "synthetic_fixture_is_not_a_new_playable_build": true,
+    "authentic_modern_donor_acquired": false,
+    "new_client_candidate_created": false,
+    "client_playback_validated": false,
+    "ci_latest_observed_run": 36474249246,
+    "ci_latest_observed_status": "pending",
+    "ci_initial_queued_run": 36471852198,
+    "onedrive_search_complete": false,
+    "onedrive_multiplayer_children": 2079,
+    "onedrive_listing_batch_limit": 200,
+    "windows_collector_executed_on_windows": false
   },
   "verified_protocol_findings": {
     "41810_to_42590": "same relevant protocol",
