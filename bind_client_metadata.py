@@ -122,7 +122,8 @@ def bind(checkpoint: Path, reference: Path, output: Path, expected_build: int,
                     raise AssertionError('Official decoder disagrees with candidate game events')
                 checks = {'mpq_v4': verify_container(path), 'mpyq_all_members_equal': True,
                           'stormlib': stormlib_check(path, members, require_stormlib),
-                          'official_candidate_game_decode': True, 'untouched_members_equal': True}
+                          'official_candidate_game_decode': not local, 'untouched_members_equal': True,
+                          'protocol_provider': 'local' if local else 'Blizzard/heroprotocol'}
             finally:
                 if independent is not None:
                     independent.file.close()
@@ -134,7 +135,7 @@ def bind(checkpoint: Path, reference: Path, output: Path, expected_build: int,
                       'reference_sha256': profile['file_sha256'], 'events': source_report['events'],
                       'artifact': artifact, 'metadata_changes': len(changes), 'container': container,
                       'checks': checks, 'client_playback_validated': False, 'simulation_compatibility_validated': False,
-                      'target_schema_is_official_exact_build': profile['declared_base_matches_schema'],
+                      'target_schema_is_official_exact_build': not local and profile['declared_base_matches_schema'],
                       'limitations': ['The reference is fully decoded, but a newer complete schema is not established.',
                                       'Original map caches, ability/unit identifiers and opaque synchronization data remain unchanged.',
                                       'Copied root/data/hash metadata does not repair changed simulation rules.',
