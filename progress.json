@@ -20,6 +20,12 @@
       "report": "checkpoints/44256/report.json",
       "sha256": "71cda528067b3ae4fec30634d37eebf6395fffb6b115ef4a1782e5e24094f167",
       "upstream_and_stormlib_validated": true
+    },
+    "57547": {
+      "client_playback_validated": false,
+      "report": "checkpoints/57547/report.json",
+      "sha256": "a0537701c640d9b095f43953b480bcfa1d200b613512fa6c1bf819aa985462a0",
+      "upstream_and_stormlib_validated": true
     }
   },
   "decoded_counts": {
@@ -35,7 +41,7 @@
     "repository": "lisu188/hots-replay-recovery"
   },
   "json_projection": "hots-replay-json-v1",
-  "latest_protocol_checkpoint": 44256,
+  "latest_protocol_checkpoint": 57547,
   "local_head_before_remote_sync": "dc52914",
   "next": "Validate authentic target build/data identifiers and real HotS playback; protocol round-trip alone is not sufficient.",
   "project": "TEN_GREYMANE HotS replay upgrade",
