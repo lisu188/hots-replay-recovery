@@ -1,0 +1,22 @@
+{
+  "attempts": [
+    {
+      "declared_api_build": 98025,
+      "error_type": "ValueError",
+      "http_status": null,
+      "replay_id": 65531882,
+      "status": "unavailable-or-incompatible"
+    }
+  ],
+  "client_playback_validated": false,
+  "maximum_downloads": 3,
+  "minimum_build": 98025,
+  "profiles": [],
+  "schema_build": 96477,
+  "searched_id_window": [
+    65531834,
+    65532034
+  ],
+  "source": "Heroes Profile documented OpenAPI",
+  "status": "no-compatible-reference-in-window"
+}
