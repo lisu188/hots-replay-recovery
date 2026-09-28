@@ -125,3 +125,13 @@ Next implementation milestone: semantic + binary migration to build 43905, follo
 ## GitHub publication decision
 
 The user requested that binary files be represented as Base64 text because the GitHub connector cannot upload arbitrary binary content. The source replay and each generated replay checkpoint therefore use `.base64` plus `.sha256` sidecars.
+
+## GitHub publication checkpoint
+
+The user selected `https://github.com/lisu188/hots-replay-recovery` as the remote repository. The repository is public and the connected account has push/admin permissions.
+
+Because the GitHub connector only accepts text payloads, replay binaries are never committed as raw `.StormReplay` files. Each replay is Base64-encoded, wrapped at fixed width, and split into deterministic `*.base64.partNNN` files small enough for connector uploads. The corresponding `.sha256` file is authoritative for reconstruction validation. `scripts/restore_artifact.py` transparently concatenates parts, decodes Base64 and optionally verifies SHA-256.
+
+The first remote snapshot was published to `main` as GitHub commit `4248b86f194d08205d0168747a5629dbef4eaf89`. It contains the decoder/encoder toolchain, semantic projections, migration deltas, chat context, source replay Base64 parts and the build-43905 replay Base64 parts.
+
+The build-43905 checkpoint has passed protocol encode/decode round-trip validation but has not yet been proven playable by a real HotS client. The next engineering task remains crossing the larger build-44256 protocol boundary.
