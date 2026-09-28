@@ -43,17 +43,41 @@
   "github": {
     "binary_policy": "StormReplay artifacts are Base64 text split into deterministic .partNNN files; .sha256 verifies reconstruction",
     "branch": "main",
+    "last_completed_actions_conclusion": "success",
+    "last_completed_actions_run_id": 36469342880,
+    "latest_verified_checkpoint_commit": "161e3d2b5be3e1b139b3a5d045bcc7469a57602e",
     "published_commit": "4248b86f194d08205d0168747a5629dbef4eaf89",
     "repository": "lisu188/hots-replay-recovery"
   },
-  "json_projection": "hots-replay-json-v1",
+  "historical_checkpoint_warning": "The build-43905 artifact predates MPQ-v4 integrity reconstruction; retain for history, not client playback proof.",
+  "json_projection": "hots-replay-json-v2-native-bitvectors",
   "latest_protocol_checkpoint": 96477,
+  "legacy_json_projection": "hots-replay-json-v1",
   "local_head_before_remote_sync": "dc52914",
-  "next": "Validate authentic target build/data identifiers and real HotS playback; protocol round-trip alone is not sufficient.",
+  "next": "Obtain authentic build-98025 replay metadata and verify its schema, then test actual client playback and simulation. Do not equate protocol validation with playback.",
+  "observed_target_client": {
+    "build": 98025,
+    "observation_date": "2026-09-19",
+    "protocol_schema_verified": false,
+    "reference": "references/client-98025.json",
+    "version": "2.55.17.98025"
+  },
+  "onedrive_backup": {
+    "folder": "HotS Replay Upgrade - TEN_GREYMANE",
+    "git_bundle_checkpoint": "161e3d2b5be3e1b139b3a5d045bcc7469a57602e",
+    "git_bundle_history_complete": true,
+    "uploaded_protocol_checkpoints": [44256, 57547, 96477]
+  },
   "project": "TEN_GREYMANE HotS replay upgrade",
   "source_build": 41810,
   "source_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
   "storage": "OneDrive",
+  "tests": {
+    "failed": 0,
+    "passed": 16,
+    "skipped": 0,
+    "upstream_schema_comparison": true
+  },
   "verified_protocol_findings": {
     "41810_to_42590": "same relevant protocol",
     "42742": "SCmdEvent m_cmdFlags 25->24 bits; source does not use removed bit",
