@@ -36,7 +36,7 @@ def best_mpq_payload(raw, max_size=None):
     raise ValueError(f'no encoding fits allocation {max_size}; best is {len(candidates[0][1])}')
 
 
-def patch_replay(source_path, output_path, user_data, replacements):
+def patch_replay(source_path, output_path, user_data, replacements, allow_relocation=True):
     source_path=Path(source_path); output_path=Path(output_path)
     archive=MPQArchive(source_path)
     image=bytearray(source_path.read_bytes())
@@ -54,22 +54,41 @@ def patch_replay(source_path, output_path, user_data, replacements):
         he=archive.get_hash_table_entry(name)
         if he is None: raise KeyError(name)
         idx=he.block_table_index; old=archive.block_table[idx]
-        method,payload=best_mpq_payload(raw,old.archived_size)
-        absolute=archive.header['offset']+old.offset
-        image[absolute:absolute+len(payload)]=payload
-        if len(payload)<old.archived_size:
-            image[absolute+len(payload):absolute+old.archived_size]=b'\x00'*(old.archived_size-len(payload))
+        try:
+            method,payload=best_mpq_payload(raw,old.archived_size)
+            absolute=archive.header['offset']+old.offset
+            image[absolute:absolute+len(payload)]=payload
+            if len(payload)<old.archived_size:
+                image[absolute+len(payload):absolute+old.archived_size]=b'\x00'*(old.archived_size-len(payload))
+            relocated=False
+        except ValueError:
+            if not allow_relocation:
+                raise
+            method,payload=best_mpq_payload(raw)
+            absolute=len(image)
+            relative=absolute-archive.header['offset']
+            if relative < 0 or relative > 0xFFFFFFFF:
+                raise ValueError('relocated MPQ block offset does not fit 32 bits')
+            image.extend(payload)
+            entries[idx][0]=relative
+            relocated=True
+
         entries[idx][1]=len(payload)
         entries[idx][2]=len(raw)
-        if len(payload)<len(raw): entries[idx][3] |= MPQ_FILE_COMPRESS
+        if len(payload)<len(raw):
+            entries[idx][3] |= MPQ_FILE_COMPRESS
+
         report[name]={
             'block_index':idx,
             'method':method,
+            'relocated':relocated,
+            'old_offset':old.offset,
+            'new_offset':entries[idx][0],
             'old_archived_size':old.archived_size,
             'new_archived_size':len(payload),
             'old_size':old.size,
             'new_size':len(raw),
-            'allocation_remaining':old.archived_size-len(payload),
+            'allocation_remaining':None if relocated else old.archived_size-len(payload),
         }
 
     plain=b''.join(struct.pack('<4I',*entry) for entry in entries)
@@ -77,5 +96,11 @@ def patch_replay(source_path, output_path, user_data, replacements):
     encrypted=encrypt_table(plain,key,archive.encryption_table)
     table_at=archive.header['offset']+archive.header['block_table_offset']
     image[table_at:table_at+len(encrypted)]=encrypted
+
+    archive_size=len(image)-archive.header['offset']
+    if archive_size > 0xFFFFFFFF:
+        raise ValueError('MPQ archive size does not fit 32 bits')
+    struct.pack_into('<I',image,archive.header['offset']+8,archive_size)
+
     output_path.write_bytes(image)
     return report
