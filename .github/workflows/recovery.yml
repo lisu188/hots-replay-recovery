@@ -1,0 +1,102 @@
+name: Replay recovery checkpoints
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/recovery.yml'
+      - 'migrate_replay.py'
+      - 'mpq_rebuild.py'
+      - 'verify_checkpoint.py'
+      - 'test_recovery.py'
+      - 'protocol44256.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: replay-recovery-main
+  cancel-in-progress: false
+
+jobs:
+  recover:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    env:
+      PYTHONPATH: ${{ github.workspace }}/_upstream:${{ github.workspace }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ github.sha }}
+      - uses: actions/checkout@v4
+        with:
+          repository: Blizzard/heroprotocol
+          ref: 9af3ea7150f1a8acb53464c92519a9bbcc7a3594
+          path: _upstream
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Install independent archive readers
+        run: |
+          python -m pip install six==1.17.0 mpyq==0.2.5
+          sudo apt-get update -qq
+          sudo apt-get install -y libstorm-dev
+      - name: Restore the original replay
+        run: |
+          mkdir -p work
+          python scripts/restore_artifact.py artifacts/TEN_GREYMANE_source_41810.StormReplay.base64 work/TEN_GREYMANE_source_41810.StormReplay --sha256 artifacts/TEN_GREYMANE_source_41810.StormReplay.sha256
+          test "$(git -C _upstream rev-parse HEAD)" = "9af3ea7150f1a8acb53464c92519a9bbcc7a3594"
+      - name: Test source fidelity and upstream schemas
+        run: python -m unittest -v test_recovery 2>&1 | tee work/tests.log
+      - name: Migrate, independently validate and publish each milestone
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git switch -c recovery-run-${GITHUB_RUN_ID}
+          for build in 44256 57547 96477; do
+            python migrate_replay.py work/TEN_GREYMANE_source_41810.StormReplay --target "$build" | tee "work/migrate-${build}.log"
+            python verify_checkpoint.py "checkpoints/$build" --require-stormlib | tee "work/verify-${build}.log"
+            BUILD="$build" python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+          from migrate_replay import write_json
+          build = int(os.environ['BUILD'])
+          report_path = Path('checkpoints') / str(build) / 'report.json'
+          report = json.loads(report_path.read_text())
+          report['code_commit'] = os.environ['GITHUB_SHA']
+          report['actions_run_id'] = os.environ['GITHUB_RUN_ID']
+          write_json(report_path, report)
+          progress = json.loads(Path('progress.json').read_text())
+          progress.setdefault('current_protocol_checkpoints', {})[str(build)] = {
+              'report': str(report_path),
+              'sha256': report['output_sha256'],
+              'upstream_and_stormlib_validated': True,
+              'client_playback_validated': False,
+          }
+          progress['latest_protocol_checkpoint'] = max(map(int, progress['current_protocol_checkpoints']))
+          progress['next'] = 'Validate authentic target build/data identifiers and real HotS playback; protocol round-trip alone is not sufficient.'
+          write_json('progress.json', progress)
+          PY
+            git add -- checkpoints/"$build"/*.json checkpoints/"$build"/*.jsonl checkpoints/"$build"/*.sha256 checkpoints/"$build"/*.part* progress.json
+            if ! git diff --cached --quiet; then
+              git commit -m "Publish independently verified protocol ${build} checkpoint"
+              git fetch origin main
+              git rebase origin/main
+              git push origin HEAD:main
+            fi
+          done
+          git bundle create work/hots-replay-upgrade.bundle --all
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: replay-recovery-${{ github.run_id }}
+          retention-days: 30
+          path: |
+            checkpoints/
+            work/*.log
+            work/*.bundle
+            progress.json
