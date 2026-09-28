@@ -35,23 +35,22 @@ class BitVector:
 class SemanticDecoder(BitPackedDecoder):
     def _bitarray(self, bounds):
         length = self._int(bounds)
-        return BitVector(length, sum(self._buffer.read_bits(1) << i for i in range(length)))
+        return BitVector(length, self._buffer.read_bits(length))
 
 
 class SemanticEncoder(BitPackedEncoder):
     def _bitarray(self, bounds, value):
         if not isinstance(value, BitVector):
-            raise TypeError('Expected a physical-order BitVector')
+            raise TypeError('Expected a native-protocol BitVector')
         if value.value < 0 or value.value >= 1 << value.length:
             raise ValueError('Invalid bit vector')
         self._int(bounds, value.length)
-        for i in range(value.length):
-            self._buffer.write_bits((value.value >> i) & 1, 1)
+        self._buffer.write_bits(value.value, value.length)
 
 
 def json_value(value):
     if isinstance(value, BitVector):
-        return {'$bitvector': {'length': value.length, 'lsb0': hex(value.value)}}
+        return {'$bitvector': {'length': value.length, 'packed': hex(value.value)}}
     if isinstance(value, bytes):
         return {'$bytes_base64': base64.b64encode(value).decode('ascii')}
     if isinstance(value, dict):
@@ -181,10 +180,12 @@ def adapt(value, p, tid, path, audit):
         if value.length > maximum:
             if not path.endswith('/m_allowedControls'):
                 raise ValueError(f'{path}: cannot narrow bit vector')
-            if value.value != (1 << value.length) - 1 and value.value >> maximum:
+            removed = value.length - maximum
+            tail = value.value & ((1 << removed) - 1)
+            if value.value != (1 << value.length) - 1 and tail:
                 raise ValueError(f'{path}: nonzero unrepresentable control flags')
-            new = BitVector(maximum, value.value & ((1 << maximum) - 1))
-            op = 'restrict-all-controls-to-target-domain' if value.value >> maximum else 'remove-zero-control-tail'
+            new = BitVector(maximum, value.value >> removed)
+            op = 'restrict-all-controls-to-target-domain' if tail else 'remove-zero-control-tail'
             note(audit, path, op, value, new)
             value = new
         check_bound(value.length, args[0], path)
@@ -316,11 +317,11 @@ def migrate(source: Path, target_build: int, root: Path, local=False) -> dict:
             'events': {k: len(v) for k, v in intended_streams.items()},
             'changed_events': changed_counts, 'stream_jsonl_sha256': stream_hashes,
             'semantic_audit_entries': len(audit), 'container': container_report, 'container_checks': container_checks,
-            'projection': 'hots-replay-json-v2-physical-bitvectors',
+            'projection': 'hots-replay-json-v2-native-bitvectors',
             'known_limitations': [
                 'Source dataBuildNum, root key and version tuple are preserved; target metadata is unverified.',
                 'The renamed compatibility hash retains original opaque bytes, not a verified target hash.',
-                'All-controls vectors are restricted to the target representable domain; no catalog equivalence is proven.',
+                'Control-vector narrowing preserves the native most-significant prefix; engine control/catalog equivalence is not proven.',
                 'Opaque sync, resumable and battlelobby members remain unchanged.',
                 'Encoding command flags at a new width does not prove their engine semantics are unchanged.',
                 'No HotS client or deterministic replay simulation was executed.',
