@@ -1,0 +1,36 @@
+{
+  "project": "TEN_GREYMANE HotS replay upgrade",
+  "storage": "OneDrive",
+  "version_control": "git",
+  "branch": "main",
+  "source_build": 41810,
+  "source_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+  "json_projection": "hots-replay-json-v1",
+  "decoded_counts": {
+    "game_events": 104257,
+    "message_events": 155,
+    "tracker_events": 6614,
+    "SCmdEvent": 4558
+  },
+  "verified_protocol_findings": {
+    "41810_to_42590": "same relevant protocol",
+    "42742": "SCmdEvent m_cmdFlags 25->24 bits; source does not use removed bit",
+    "43905": "optional lobby m_ammId can default absent",
+    "44256": "first major semantic re-encode boundary"
+  },
+  "checkpoints": [
+    {
+      "build": 41810,
+      "status": "decoded-and-committed",
+      "commit": "3b985a4"
+    },
+    {
+      "build": 43905,
+      "status": "protocol-roundtrip-valid; client-playback-not-yet-validated",
+      "sha256": "31fb7fb755b174588fa54a93ef50ebaac9b37103101c60fade4b37e54dadd048",
+      "game_events": 104257,
+      "semantic_game_event_lines_changed": 10
+    }
+  ],
+  "next": "Acquire authentic build-43905 replay metadata/data hashes or equivalent build data, then cross the 44256 structural protocol boundary."
+}

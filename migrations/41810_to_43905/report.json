@@ -1,0 +1,32 @@
+{
+  "attributes.events.json": {
+    "changed": false
+  },
+  "details.json": {
+    "changed": false
+  },
+  "game.events.jsonl": {
+    "after_sha256": "7c6526c93838d6fcebd5b9701d189bd4c5d5bd7c472dca7a3d5fd55cae5bfc79",
+    "before_sha256": "ed87857bbaa44b2a6267ed6ab8efdc3944ef77c31921ff362ed0550a8db95b15",
+    "changed_events": 10,
+    "total_events": 104257
+  },
+  "header.json": {
+    "changed": true
+  },
+  "initData.json": {
+    "changed": true
+  },
+  "message.events.jsonl": {
+    "after_sha256": "ca04fabe464be90f76a74ab117b4440401ad54e9aea22e48a00019014d24678e",
+    "before_sha256": "ca04fabe464be90f76a74ab117b4440401ad54e9aea22e48a00019014d24678e",
+    "changed_events": 0,
+    "total_events": 155
+  },
+  "tracker.events.jsonl": {
+    "after_sha256": "48c490cc2d563ec06afa85441fe5d05bc01908fb6d795a3d14a6003baee532ed",
+    "before_sha256": "48c490cc2d563ec06afa85441fe5d05bc01908fb6d795a3d14a6003baee532ed",
+    "changed_events": 0,
+    "total_events": 6614
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "archive": {
+    "files": [
+      {
+        "name": "replay.attributes.events",
+        "sha256": "28cc7329f5a1f9b29eeb09dd605acfd9ba0f9cbcdd8e52fb3a0ed69e10dda6eb",
+        "size": 5573
+      },
+      {
+        "name": "replay.details",
+        "sha256": "70431663598198a9eb9a6a7ad2cdf99616b6b251696bd4743542e19b6626a1bf",
+        "size": 1174
+      },
+      {
+        "name": "replay.game.events",
+        "sha256": "ea69dd77edd02f3ed2c42a2def1faab6dc4d0eb46da291c44f76bfb49a65eed6",
+        "size": 1146911
+      },
+      {
+        "name": "replay.initData",
+        "sha256": "dcc26ba86dcd764a561ea17b9bb79db6361006e761ec66be9871d40fc5c62e27",
+        "size": 4620
+      },
+      {
+        "name": "replay.load.info",
+        "sha256": "7955cb2de90dd9efc6df9fdbf5f5d10c114f4135a9a6b52db1003be749e32f7a",
+        "size": 52
+      },
+      {
+        "name": "replay.message.events",
+        "sha256": "39cf78b40e26cdbdfa593e47f2030c150b825299df6da07edb1829dc0a68d627",
+        "size": 1485
+      },
+      {
+        "name": "replay.resumable.events",
+        "sha256": "149a6dc6b02f74b04801c2830ed5c0416c6204ab8e5760e758c102f21c7a7aa7",
+        "size": 1195
+      },
+      {
+        "name": "replay.server.battlelobby",
+        "sha256": "beea9c9b29a7f1a73806fe37b393f453c84a7faed8d6f89a5b4fcd25967f1f44",
+        "size": 41746
+      },
+      {
+        "name": "replay.smartcam.events",
+        "sha256": "290cdc9f59d6ea5e7c0c6cdfe52b7c8f21164be2599b8b3507eebe01f435cdea",
+        "size": 1534
+      },
+      {
+        "name": "replay.sync.events",
+        "sha256": "62a68b50c8cf0c94da98403dad8cda0f92e02580ec9590b2b32815ee32f8d8ae",
+        "size": 1540
+      },
+      {
+        "name": "replay.tracker.events",
+        "sha256": "1a9a556f9f1fde466d17c4a3a3fbb31cbec8d8086bef97efeb796f1f5175245f",
+        "size": 328838
+      },
+      {
+        "name": "(listfile)",
+        "sha256": "153e197ae3c9c3e4f0bd46a0d449805ea2b78954744005f0a0f2565c36187469",
+        "size": 260
+      }
+    ],
+    "format_version": 3,
+    "mpq_offset": 1024,
+    "sector_size_shift": 5
+  },
+  "format": "hots-replay-json-v1",
+  "protocol_build": 41810,
+  "source": {
+    "name": "source_41810.StormReplay",
+    "sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+    "size": 635140
+  },
+  "streams": {
+    "game": {
+      "count": 104257,
+      "first_gameloop": 0,
+      "last_gameloop": 19732,
+      "types": {
+        "NNet.Game.SCameraUpdateEvent": 17593,
+        "NNet.Game.SCmdEvent": 4558,
+        "NNet.Game.SCmdUpdateTargetPointEvent": 32908,
+        "NNet.Game.SCmdUpdateTargetUnitEvent": 10851,
+        "NNet.Game.SCommandManagerStateEvent": 33546,
+        "NNet.Game.SGameUserLeaveEvent": 2,
+        "NNet.Game.SHeroTalentTreeSelectedEvent": 70,
+        "NNet.Game.SSelectionDeltaEvent": 158,
+        "NNet.Game.STriggerChatMessageEvent": 2,
+        "NNet.Game.STriggerCutsceneEndSceneFiredEvent": 121,
+        "NNet.Game.STriggerDialogControlEvent": 313,
+        "NNet.Game.STriggerPingEvent": 81,
+        "NNet.Game.STriggerSoundLengthSyncEvent": 10,
+        "NNet.Game.STriggerSoundOffsetEvent": 998,
+        "NNet.Game.STriggerSoundtrackDoneEvent": 46,
+        "NNet.Game.STriggerTransmissionCompleteEvent": 181,
+        "NNet.Game.STriggerTransmissionOffsetEvent": 51,
+        "NNet.Game.SUnitClickEvent": 2756,
+        "NNet.Game.SUserFinishedLoadingSyncEvent": 2,
+        "NNet.Game.SUserOptionsEvent": 10
+      }
+    },
+    "message": {
+      "count": 155,
+      "first_gameloop": 0,
+      "last_gameloop": 18617,
+      "types": {
+        "NNet.Game.SChatMessage": 15,
+        "NNet.Game.SLoadingProgressMessage": 91,
+        "NNet.Game.SPingMessage": 49
+      }
+    },
+    "tracker": {
+      "count": 6614,
+      "first_gameloop": 0,
+      "last_gameloop": 19680,
+      "types": {
+        "NNet.Replay.Tracker.SPlayerSetupEvent": 10,
+        "NNet.Replay.Tracker.SScoreResultEvent": 1,
+        "NNet.Replay.Tracker.SStatGameEvent": 677,
+        "NNet.Replay.Tracker.SUnitBornEvent": 2802,
+        "NNet.Replay.Tracker.SUnitDiedEvent": 2666,
+        "NNet.Replay.Tracker.SUnitOwnerChangeEvent": 279,
+        "NNet.Replay.Tracker.SUnitPositionsEvent": 79,
+        "NNet.Replay.Tracker.SUnitRevivedEvent": 45,
+        "NNet.Replay.Tracker.SUnitTypeChangeEvent": 28,
+        "NNet.Replay.Tracker.SUpgradeEvent": 27
+      }
+    }
+  }
+}

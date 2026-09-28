@@ -1,0 +1,268 @@
+{
+  "m_cacheHandles": [
+    {
+      "$bytes_hex": "73326d61000045551f1b228ddb1f72205cbfd444055287100b0f39959be816548162e4081ea85511"
+    },
+    {
+      "$bytes_hex": "73326d61000045551ad94c126eb98a4c1de7b8e6f8aaa153dba52b09d3825e0c89dbc5828db70f76"
+    },
+    {
+      "$bytes_hex": "73326d610000455592d81744c1441bf628ed6ab7e9d19485c860914d8b745a91f6351ff9dcd4e6bb"
+    },
+    {
+      "$bytes_hex": "73326d6100004555a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43"
+    },
+    {
+      "$bytes_hex": "73326d6100004555e0a58745837b3b5351015c933560dbffb178d747009d2d57b4153ef425cf7250"
+    }
+  ],
+  "m_campaignIndex": 0,
+  "m_defaultDifficulty": 7,
+  "m_description": "",
+  "m_difficulty": "",
+  "m_gameSpeed": 4,
+  "m_imageFilePath": "",
+  "m_isBlizzardMap": true,
+  "m_mapFileName": "",
+  "m_miniSave": false,
+  "m_modPaths": null,
+  "m_playerList": [
+    {
+      "m_color": {
+        "m_a": 255,
+        "m_b": 255,
+        "m_g": 92,
+        "m_r": 36
+      },
+      "m_control": 2,
+      "m_handicap": 100,
+      "m_hero": "Brightwing",
+      "m_name": "Daluxe",
+      "m_observe": 0,
+      "m_race": " ",
+      "m_result": 1,
+      "m_teamId": 0,
+      "m_toon": {
+        "m_id": 6262464,
+        "m_programId": "Hero",
+        "m_realm": 1,
+        "m_region": 2
+      },
+      "m_workingSetSlotId": 0
+    },
+    {
+      "m_color": {
+        "m_a": 255,
+        "m_b": 255,
+        "m_g": 92,
+        "m_r": 36
+      },
+      "m_control": 2,
+      "m_handicap": 100,
+      "m_hero": "Anub'arak",
+      "m_name": "lisek188",
+      "m_observe": 0,
+      "m_race": " ",
+      "m_result": 1,
+      "m_teamId": 0,
+      "m_toon": {
+        "m_id": 8932532,
+        "m_programId": "Hero",
+        "m_realm": 1,
+        "m_region": 2
+      },
+      "m_workingSetSlotId": 1
+    },
+    {
+      "m_color": {
+        "m_a": 255,
+        "m_b": 255,
+        "m_g": 92,
+        "m_r": 36
+      },
+      "m_control": 2,
+      "m_handicap": 100,
+      "m_hero": "Greymane",
+      "m_name": "Azazello",
+      "m_observe": 0,
+      "m_race": " ",
+      "m_result": 1,
+      "m_teamId": 0,
+      "m_toon": {
+        "m_id": 667695,
+        "m_programId": "Hero",
+        "m_realm": 1,
+        "m_region": 2
+      },
+      "m_workingSetSlotId": 2
+    },
+    {
+      "m_color": {
+        "m_a": 255,
+        "m_b": 255,
+        "m_g": 92,
+        "m_r": 36
+      },
+      "m_control": 2,
+      "m_handicap": 100,
+      "m_hero": "Kael'thas",
+      "m_name": "marcosky",
+      "m_observe": 0,
+      "m_race": " ",
+      "m_result": 1,
+      "m_teamId": 0,
+      "m_toon": {
+        "m_id": 1879483,
+        "m_programId": "Hero",
+        "m_realm": 1,
+        "m_region": 2
+      },
+      "m_workingSetSlotId": 3
+    },
+    {
+      "m_color": {
+        "m_a": 255,
+        "m_b": 255,
+        "m_g": 92,
+        "m_r": 36
+      },
+      "m_control": 2,
+      "m_handicap": 100,
+      "m_hero": "Nova",
+      "m_name": "Hazunia",
+      "m_observe": 0,
+      "m_race": " ",
+      "m_result": 1,
+      "m_teamId": 0,
+      "m_toon": {
+        "m_id": 2515288,
+        "m_programId": "Hero",
+        "m_realm": 1,
+        "m_region": 2
+      },
+      "m_workingSetSlotId": 4
+    },
+    {
+      "m_color": {
+        "m_a": 255,
+        "m_b": 0,
+        "m_g": 0,
+        "m_r": 255
+      },
+      "m_control": 2,
+      "m_handicap": 100,
+      "m_hero": "Greymane",
+      "m_name": "LHK",
+      "m_observe": 0,
+      "m_race": " ",
+      "m_result": 2,
+      "m_teamId": 1,
+      "m_toon": {
+        "m_id": 455700,
+        "m_programId": "Hero",
+        "m_realm": 1,
+        "m_region": 2
+      },
+      "m_workingSetSlotId": 5
+    },
+    {
+      "m_color": {
+        "m_a": 255,
+        "m_b": 0,
+        "m_g": 0,
+        "m_r": 255
+      },
+      "m_control": 2,
+      "m_handicap": 100,
+      "m_hero": "Kael'thas",
+      "m_name": "Erzha",
+      "m_observe": 0,
+      "m_race": " ",
+      "m_result": 2,
+      "m_teamId": 1,
+      "m_toon": {
+        "m_id": 454807,
+        "m_programId": "Hero",
+        "m_realm": 1,
+        "m_region": 2
+      },
+      "m_workingSetSlotId": 6
+    },
+    {
+      "m_color": {
+        "m_a": 255,
+        "m_b": 0,
+        "m_g": 0,
+        "m_r": 255
+      },
+      "m_control": 2,
+      "m_handicap": 100,
+      "m_hero": "Tyrande",
+      "m_name": "koffcio",
+      "m_observe": 0,
+      "m_race": " ",
+      "m_result": 2,
+      "m_teamId": 1,
+      "m_toon": {
+        "m_id": 2069813,
+        "m_programId": "Hero",
+        "m_realm": 1,
+        "m_region": 2
+      },
+      "m_workingSetSlotId": 7
+    },
+    {
+      "m_color": {
+        "m_a": 255,
+        "m_b": 0,
+        "m_g": 0,
+        "m_r": 255
+      },
+      "m_control": 2,
+      "m_handicap": 100,
+      "m_hero": "Abathur",
+      "m_name": "Gentleman",
+      "m_observe": 0,
+      "m_race": " ",
+      "m_result": 2,
+      "m_teamId": 1,
+      "m_toon": {
+        "m_id": 1318070,
+        "m_programId": "Hero",
+        "m_realm": 1,
+        "m_region": 2
+      },
+      "m_workingSetSlotId": 8
+    },
+    {
+      "m_color": {
+        "m_a": 255,
+        "m_b": 0,
+        "m_g": 0,
+        "m_r": 255
+      },
+      "m_control": 2,
+      "m_handicap": 100,
+      "m_hero": "Sonya",
+      "m_name": "Astory",
+      "m_observe": 0,
+      "m_race": " ",
+      "m_result": 2,
+      "m_teamId": 1,
+      "m_toon": {
+        "m_id": 348494,
+        "m_programId": "Hero",
+        "m_realm": 1,
+        "m_region": 2
+      },
+      "m_workingSetSlotId": 9
+    }
+  ],
+  "m_restartAsTransitionMap": false,
+  "m_thumbnail": {
+    "m_file": "ReplaysPreviewImage.tga"
+  },
+  "m_timeLocalOffset": 72000000000,
+  "m_timeUTC": 131048959887205179,
+  "m_title": "Dragon Shire"
+}
