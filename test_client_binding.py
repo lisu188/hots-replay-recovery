@@ -89,8 +89,8 @@ class BindingIntegrationTests(unittest.TestCase):
                 header['m_version']['m_build'] = 44257
                 header['m_version']['m_baseBuild'] = 44257
                 header['m_dataBuildNum'] = 44257
-                header['m_ngdpRootKey']['m_data'] = b'SYNTHETIC_ONLY__1'
-                header['m_fixedFileHash']['m_data'] = b'SYNTHETIC_ONLY__2'
+                header['m_ngdpRootKey']['m_data'] = b'SYNTHETIC_ONLY_1'
+                header['m_fixedFileHash']['m_data'] = b'SYNTHETIC_ONLY_2'
                 events = list(decode_events(archive.read_file('replay.game.events'), protocol44256, 'game'))
                 for event in events:
                     if event['_event'] == 'NNet.Game.SUserOptionsEvent':
