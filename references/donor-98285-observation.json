@@ -1,0 +1,25 @@
+{
+  "format": "hots-donor-observation-v1",
+  "observed_date": "2026-09-28",
+  "source": "user-provided current-client replay from connected OneDrive",
+  "file_sha256": "05ec458110db57dd5cf6c044cb6b7270d880282ec803abce725f048f91fc3e75",
+  "file_bytes": 980725,
+  "version": {
+    "m_flags": 1,
+    "m_major": 2,
+    "m_minor": 57,
+    "m_revision": 0,
+    "m_build": 98285,
+    "m_baseBuild": 98285
+  },
+  "data_build": 98285,
+  "ngdp_root_key_hex": "b5114c16bd78f1844ab9fe97cbd9c305",
+  "compatibility_hash_hex": "00000000000000000000000000000000",
+  "compatibility_hash_is_zero": true,
+  "elapsed_game_loops": 16239,
+  "header_only": true,
+  "full_reference_validation": false,
+  "client_playback_validated": false,
+  "exact_upstream_protocol_file_available": false,
+  "raw_donor_published_to_github": false
+}
