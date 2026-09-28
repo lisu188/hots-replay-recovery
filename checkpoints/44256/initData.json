@@ -1,0 +1,2528 @@
+{
+  "m_syncLobbyState": {
+    "m_gameDescription": {
+      "m_cacheHandles": [
+        {
+          "$bytes_base64": "czJtYQAARVUfGyKN2x9yIFy/1EQFUocQCw85lZvoFlSBYuQIHqhVEQ=="
+        },
+        {
+          "$bytes_base64": "czJtYQAARVUa2UwSbrmKTB3nuOb4qqFT26UrCdOCXgyJ28WCjbcPdg=="
+        },
+        {
+          "$bytes_base64": "czJtYQAARVWS2BdEwUQb9ijtarfp0ZSFyGCRTYt0WpH2NR/53NTmuw=="
+        },
+        {
+          "$bytes_base64": "czJtYQAARVWh6avNP9JQU8kDqxNSpoV1NyhLMp0IuGsr4t5Jw6t/Qw=="
+        },
+        {
+          "$bytes_base64": "czJtYQAARVXgpYdFg3s7U1EBXJM1YNv/sXjXRwCdLVe0FT70Jc9yUA=="
+        }
+      ],
+      "m_defaultAIBuild": 0,
+      "m_defaultDifficulty": 7,
+      "m_gameCacheName": {
+        "$bytes_base64": "RGZsdA=="
+      },
+      "m_gameOptions": {
+        "m_advancedSharedControl": false,
+        "m_amm": true,
+        "m_ammId": null,
+        "m_battleNet": true,
+        "m_clientDebugFlags": 289,
+        "m_competitive": true,
+        "m_cooperative": false,
+        "m_fog": 0,
+        "m_heroDuplicatesAllowed": true,
+        "m_lockTeams": true,
+        "m_noVictoryOrDefeat": false,
+        "m_observers": 0,
+        "m_practice": false,
+        "m_randomRaces": false,
+        "m_teamsTogether": false,
+        "m_userDifficulty": 0
+      },
+      "m_gameSpeed": 4,
+      "m_gameType": 0,
+      "m_hasExtensionMod": false,
+      "m_isBlizzardMap": true,
+      "m_isCoopMode": false,
+      "m_isPremadeFFA": false,
+      "m_mapAuthorName": {
+        "$bytes_base64": "Mi1IZXJvLTEtMzI3"
+      },
+      "m_mapFileName": {
+        "$bytes_base64": ""
+      },
+      "m_mapFileSyncChecksum": 759447839,
+      "m_mapSizeX": 248,
+      "m_mapSizeY": 208,
+      "m_maxColors": 16,
+      "m_maxControls": 1,
+      "m_maxObservers": 6,
+      "m_maxPlayers": 10,
+      "m_maxRaces": 3,
+      "m_maxTeams": 10,
+      "m_maxUsers": 10,
+      "m_modFileSyncChecksum": 3522231966,
+      "m_randomValue": 2266098015,
+      "m_slotDescriptions": [
+        {
+          "m_allowedAIBuilds": {
+            "$bitvector": {
+              "length": 96,
+              "packed": "0x0"
+            }
+          },
+          "m_allowedColors": {
+            "$bitvector": {
+              "length": 16,
+              "packed": "0x400"
+            }
+          },
+          "m_allowedControls": {
+            "$bitvector": {
+              "length": 255,
+              "packed": "0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            }
+          },
+          "m_allowedDifficulty": {
+            "$bitvector": {
+              "length": 32,
+              "packed": "0xce000000"
+            }
+          },
+          "m_allowedObserveTypes": {
+            "$bitvector": {
+              "length": 3,
+              "packed": "0x7"
+            }
+          },
+          "m_allowedRaces": {
+            "$bitvector": {
+              "length": 3,
+              "packed": "0x4"
+            }
+          }
+        },
+        {
+          "m_allowedAIBuilds": {
+            "$bitvector": {
+              "length": 96,
+              "packed": "0x0"
+            }
+          },
+          "m_allowedColors": {
+            "$bitvector": {
+              "length": 16,
+              "packed": "0x400"
+            }
+          },
+          "m_allowedControls": {
+            "$bitvector": {
+              "length": 255,
+              "packed": "0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            }
+          },
+          "m_allowedDifficulty": {
+            "$bitvector": {
+              "length": 32,
+              "packed": "0xce000000"
+            }
+          },
+          "m_allowedObserveTypes": {
+            "$bitvector": {
+              "length": 3,
+              "packed": "0x7"
+            }
+          },
+          "m_allowedRaces": {
+            "$bitvector": {
+              "length": 3,
+              "packed": "0x4"
+            }
+          }
+        },
+        {
+          "m_allowedAIBuilds": {
+            "$bitvector": {
+              "length": 96,
+              "packed": "0x0"
+            }
+          },
+          "m_allowedColors": {
+            "$bitvector": {
+              "length": 16,
+              "packed": "0x400"
+            }
+          },
+          "m_allowedControls": {
+            "$bitvector": {
+              "length": 255,
+              "packed": "0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            }
+          },
+          "m_allowedDifficulty": {
+            "$bitvector": {
+              "length": 32,
+              "packed": "0xce000000"
+            }
+          },
+          "m_allowedObserveTypes": {
+            "$bitvector": {
+              "length": 3,
+              "packed": "0x7"
+            }
+          },
+          "m_allowedRaces": {
+            "$bitvector": {
+              "length": 3,
+              "packed": "0x4"
+            }
+          }
+        },
+        {
+          "m_allowedAIBuilds": {
+            "$bitvector": {
+              "length": 96,
+              "packed": "0x0"
+            }
+          },
+          "m_allowedColors": {
+            "$bitvector": {
+              "length": 16,
+              "packed": "0x400"
+            }
+          },
+          "m_allowedControls": {
+            "$bitvector": {
+              "length": 255,
+              "packed": "0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            }
+          },
+          "m_allowedDifficulty": {
+            "$bitvector": {
+              "length": 32,
+              "packed": "0xce000000"
+            }
+          },
+          "m_allowedObserveTypes": {
+            "$bitvector": {
+              "length": 3,
+              "packed": "0x7"
+            }
+          },
+          "m_allowedRaces": {
+            "$bitvector": {
+              "length": 3,
+              "packed": "0x4"
+            }
+          }
+        },
+        {
+          "m_allowedAIBuilds": {
+            "$bitvector": {
+              "length": 96,
+              "packed": "0x0"
+            }
+          },
+          "m_allowedColors": {
+            "$bitvector": {
+              "length": 16,
+              "packed": "0x400"
+            }
+          },
+          "m_allowedControls": {
+            "$bitvector": {
+              "length": 255,
+              "packed": "0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            }
+          },
+          "m_allowedDifficulty": {
+            "$bitvector": {
+              "length": 32,
+              "packed": "0xce000000"
+            }
+          },
+          "m_allowedObserveTypes": {
+            "$bitvector": {
+              "length": 3,
+              "packed": "0x7"
+            }
+          },
+          "m_allowedRaces": {
+            "$bitvector": {
+              "length": 3,
+              "packed": "0x4"
+            }
+          }
+        },
+        {
+          "m_allowedAIBuilds": {
+            "$bitvector": {
+              "length": 96,
+              "packed": "0x0"
+            }
+          },
+          "m_allowedColors": {
+            "$bitvector": {
+              "length": 16,
+              "packed": "0x4000"
+            }
+          },
+          "m_allowedControls": {
+            "$bitvector": {
+              "length": 255,
+              "packed": "0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            }
+          },
+          "m_allowedDifficulty": {
+            "$bitvector": {
+              "length": 32,
+              "packed": "0xce000000"
+            }
+          },
+          "m_allowedObserveTypes": {
+            "$bitvector": {
+              "length": 3,
+              "packed": "0x7"
+            }
+          },
+          "m_allowedRaces": {
+            "$bitvector": {
+              "length": 3,
+              "packed": "0x4"
+            }
+          }
+        },
+        {
+          "m_allowedAIBuilds": {
+            "$bitvector": {
+              "length": 96,
+              "packed": "0x0"
+            }
+          },
+          "m_allowedColors": {
+            "$bitvector": {
+              "length": 16,
+              "packed": "0x4000"
+            }
+          },
+          "m_allowedControls": {
+            "$bitvector": {
+              "length": 255,
+              "packed": "0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            }
+          },
+          "m_allowedDifficulty": {
+            "$bitvector": {
+              "length": 32,
+              "packed": "0xce000000"
+            }
+          },
+          "m_allowedObserveTypes": {
+            "$bitvector": {
+              "length": 3,
+              "packed": "0x7"
+            }
+          },
+          "m_allowedRaces": {
+            "$bitvector": {
+              "length": 3,
+              "packed": "0x4"
+            }
+          }
+        },
+        {
+          "m_allowedAIBuilds": {
+            "$bitvector": {
+              "length": 96,
+              "packed": "0x0"
+            }
+          },
+          "m_allowedColors": {
+            "$bitvector": {
+              "length": 16,
+              "packed": "0x4000"
+            }
+          },
+          "m_allowedControls": {
+            "$bitvector": {
+              "length": 255,
+              "packed": "0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            }
+          },
+          "m_allowedDifficulty": {
+            "$bitvector": {
+              "length": 32,
+              "packed": "0xce000000"
+            }
+          },
+          "m_allowedObserveTypes": {
+            "$bitvector": {
+              "length": 3,
+              "packed": "0x7"
+            }
+          },
+          "m_allowedRaces": {
+            "$bitvector": {
+              "length": 3,
+              "packed": "0x4"
+            }
+          }
+        },
+        {
+          "m_allowedAIBuilds": {
+            "$bitvector": {
+              "length": 96,
+              "packed": "0x0"
+            }
+          },
+          "m_allowedColors": {
+            "$bitvector": {
+              "length": 16,
+              "packed": "0x4000"
+            }
+          },
+          "m_allowedControls": {
+            "$bitvector": {
+              "length": 255,
+              "packed": "0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            }
+          },
+          "m_allowedDifficulty": {
+            "$bitvector": {
+              "length": 32,
+              "packed": "0xce000000"
+            }
+          },
+          "m_allowedObserveTypes": {
+            "$bitvector": {
+              "length": 3,
+              "packed": "0x7"
+            }
+          },
+          "m_allowedRaces": {
+            "$bitvector": {
+              "length": 3,
+              "packed": "0x4"
+            }
+          }
+        },
+        {
+          "m_allowedAIBuilds": {
+            "$bitvector": {
+              "length": 96,
+              "packed": "0x0"
+            }
+          },
+          "m_allowedColors": {
+            "$bitvector": {
+              "length": 16,
+              "packed": "0x4000"
+            }
+          },
+          "m_allowedControls": {
+            "$bitvector": {
+              "length": 255,
+              "packed": "0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            }
+          },
+          "m_allowedDifficulty": {
+            "$bitvector": {
+              "length": 32,
+              "packed": "0xce000000"
+            }
+          },
+          "m_allowedObserveTypes": {
+            "$bitvector": {
+              "length": 3,
+              "packed": "0x7"
+            }
+          },
+          "m_allowedRaces": {
+            "$bitvector": {
+              "length": 3,
+              "packed": "0x4"
+            }
+          }
+        },
+        {
+          "m_allowedAIBuilds": {
+            "$bitvector": {
+              "length": 96,
+              "packed": "0x0"
+            }
+          },
+          "m_allowedColors": {
+            "$bitvector": {
+              "length": 16,
+              "packed": "0x100"
+            }
+          },
+          "m_allowedControls": {
+            "$bitvector": {
+              "length": 255,
+              "packed": "0x380000000000000000000000000000000000000000000000000000000000000"
+            }
+          },
+          "m_allowedDifficulty": {
+            "$bitvector": {
+              "length": 32,
+              "packed": "0xce000000"
+            }
+          },
+          "m_allowedObserveTypes": {
+            "$bitvector": {
+              "length": 3,
+              "packed": "0x7"
+            }
+          },
+          "m_allowedRaces": {
+            "$bitvector": {
+              "length": 3,
+              "packed": "0x0"
+            }
+          }
+        },
+        {
+          "m_allowedAIBuilds": {
+            "$bitvector": {
+              "length": 96,
+              "packed": "0x0"
+            }
+          },
+          "m_allowedColors": {
+            "$bitvector": {
+              "length": 16,
+              "packed": "0x100"
+            }
+          },
+          "m_allowedControls": {
+            "$bitvector": {
+              "length": 255,
+              "packed": "0x380000000000000000000000000000000000000000000000000000000000000"
+            }
+          },
+          "m_allowedDifficulty": {
+            "$bitvector": {
+              "length": 32,
+              "packed": "0xce000000"
+            }
+          },
+          "m_allowedObserveTypes": {
+            "$bitvector": {
+              "length": 3,
+              "packed": "0x7"
+            }
+          },
+          "m_allowedRaces": {
+            "$bitvector": {
+              "length": 3,
+              "packed": "0x0"
+            }
+          }
+        },
+        {
+          "m_allowedAIBuilds": {
+            "$bitvector": {
+              "length": 96,
+              "packed": "0x0"
+            }
+          },
+          "m_allowedColors": {
+            "$bitvector": {
+              "length": 16,
+              "packed": "0x100"
+            }
+          },
+          "m_allowedControls": {
+            "$bitvector": {
+              "length": 255,
+              "packed": "0x380000000000000000000000000000000000000000000000000000000000000"
+            }
+          },
+          "m_allowedDifficulty": {
+            "$bitvector": {
+              "length": 32,
+              "packed": "0xce000000"
+            }
+          },
+          "m_allowedObserveTypes": {
+            "$bitvector": {
+              "length": 3,
+              "packed": "0x7"
+            }
+          },
+          "m_allowedRaces": {
+            "$bitvector": {
+              "length": 3,
+              "packed": "0x0"
+            }
+          }
+        },
+        {
+          "m_allowedAIBuilds": {
+            "$bitvector": {
+              "length": 96,
+              "packed": "0x0"
+            }
+          },
+          "m_allowedColors": {
+            "$bitvector": {
+              "length": 16,
+              "packed": "0x100"
+            }
+          },
+          "m_allowedControls": {
+            "$bitvector": {
+              "length": 255,
+              "packed": "0x380000000000000000000000000000000000000000000000000000000000000"
+            }
+          },
+          "m_allowedDifficulty": {
+            "$bitvector": {
+              "length": 32,
+              "packed": "0xce000000"
+            }
+          },
+          "m_allowedObserveTypes": {
+            "$bitvector": {
+              "length": 3,
+              "packed": "0x7"
+            }
+          },
+          "m_allowedRaces": {
+            "$bitvector": {
+              "length": 3,
+              "packed": "0x0"
+            }
+          }
+        },
+        {
+          "m_allowedAIBuilds": {
+            "$bitvector": {
+              "length": 96,
+              "packed": "0x0"
+            }
+          },
+          "m_allowedColors": {
+            "$bitvector": {
+              "length": 16,
+              "packed": "0x100"
+            }
+          },
+          "m_allowedControls": {
+            "$bitvector": {
+              "length": 255,
+              "packed": "0x380000000000000000000000000000000000000000000000000000000000000"
+            }
+          },
+          "m_allowedDifficulty": {
+            "$bitvector": {
+              "length": 32,
+              "packed": "0xce000000"
+            }
+          },
+          "m_allowedObserveTypes": {
+            "$bitvector": {
+              "length": 3,
+              "packed": "0x7"
+            }
+          },
+          "m_allowedRaces": {
+            "$bitvector": {
+              "length": 3,
+              "packed": "0x0"
+            }
+          }
+        },
+        {
+          "m_allowedAIBuilds": {
+            "$bitvector": {
+              "length": 96,
+              "packed": "0x0"
+            }
+          },
+          "m_allowedColors": {
+            "$bitvector": {
+              "length": 16,
+              "packed": "0x100"
+            }
+          },
+          "m_allowedControls": {
+            "$bitvector": {
+              "length": 255,
+              "packed": "0x380000000000000000000000000000000000000000000000000000000000000"
+            }
+          },
+          "m_allowedDifficulty": {
+            "$bitvector": {
+              "length": 32,
+              "packed": "0xce000000"
+            }
+          },
+          "m_allowedObserveTypes": {
+            "$bitvector": {
+              "length": 3,
+              "packed": "0x7"
+            }
+          },
+          "m_allowedRaces": {
+            "$bitvector": {
+              "length": 3,
+              "packed": "0x0"
+            }
+          }
+        }
+      ]
+    },
+    "m_lobbyState": {
+      "m_defaultAIBuild": 0,
+      "m_defaultDifficulty": 7,
+      "m_gameDuration": 0,
+      "m_hostUserId": null,
+      "m_isSinglePlayer": false,
+      "m_maxObservers": 6,
+      "m_maxUsers": 10,
+      "m_phase": 0,
+      "m_pickedMapTag": 0,
+      "m_randomSeed": 2266098015,
+      "m_slots": [
+        {
+          "m_aiBuild": 0,
+          "m_artifacts": [
+            {
+              "$bytes_base64": ""
+            },
+            {
+              "$bytes_base64": ""
+            },
+            {
+              "$bytes_base64": ""
+            }
+          ],
+          "m_colorPref": {
+            "m_color": 3
+          },
+          "m_control": 2,
+          "m_difficulty": 7,
+          "m_handicap": 100,
+          "m_hasSilencePenalty": false,
+          "m_hero": {
+            "$bytes_base64": "RmFlcmllRHJhZ29u"
+          },
+          "m_licenses": [],
+          "m_logoIndex": 0,
+          "m_mount": {
+            "$bytes_base64": "UmFuZG9t"
+          },
+          "m_observe": 0,
+          "m_racePref": {
+            "m_race": null
+          },
+          "m_rewards": [
+            3148219150,
+            3697201488,
+            3692380527,
+            346612031,
+            1440632324,
+            2967222535,
+            1570591754,
+            2045853197,
+            3070064658,
+            265514260,
+            1267027477,
+            2152954648,
+            630609689,
+            1408024091,
+            3410905887,
+            2015261735,
+            156920360,
+            1304752425,
+            1325810475,
+            4030272044,
+            314226240,
+            2398755905,
+            2597363009,
+            3354701638,
+            2334287430,
+            558335051,
+            1036368975,
+            3181138769,
+            2652711002,
+            369683811,
+            1476041829,
+            4207417702,
+            3802788203,
+            299854450,
+            1077957748,
+            1475311988,
+            2855439736,
+            1693585784,
+            1740972419,
+            2214043013,
+            1313832331,
+            291376525,
+            2099374223,
+            731979407,
+            2221782675,
+            989097622,
+            2023578780,
+            2162634909,
+            2279525023,
+            1708443040,
+            4152779953,
+            1352394674,
+            3913368499,
+            1760675260,
+            3858268092,
+            658965704,
+            917859273,
+            1727538126,
+            3865864655,
+            1757027796,
+            4023402722,
+            3897762531,
+            2650345706,
+            3573545711,
+            434677495,
+            3212364025,
+            354732027
+          ],
+          "m_skin": {
+            "$bytes_base64": "UmFuZG9t"
+          },
+          "m_tandemLeaderUserId": null,
+          "m_teamId": 0,
+          "m_toonHandle": {
+            "$bytes_base64": "Mi1IZXJvLTEtNjI2MjQ2NA=="
+          },
+          "m_userId": 0,
+          "m_workingSetSlotId": 0
+        },
+        {
+          "m_aiBuild": 0,
+          "m_artifacts": [
+            {
+              "$bytes_base64": ""
+            },
+            {
+              "$bytes_base64": ""
+            },
+            {
+              "$bytes_base64": ""
+            }
+          ],
+          "m_colorPref": {
+            "m_color": 3
+          },
+          "m_control": 2,
+          "m_difficulty": 7,
+          "m_handicap": 100,
+          "m_hasSilencePenalty": false,
+          "m_hero": {
+            "$bytes_base64": "QW51YmFyYWs="
+          },
+          "m_licenses": [],
+          "m_logoIndex": 0,
+          "m_mount": {
+            "$bytes_base64": "QW51YmFyYWtXaW5ncw=="
+          },
+          "m_observe": 0,
+          "m_racePref": {
+            "m_race": null
+          },
+          "m_rewards": [
+            3697201488,
+            3692380527,
+            346612031,
+            1570591754,
+            265514260,
+            1325810475,
+            4207417702,
+            1475311988,
+            2214043013,
+            731979407,
+            2023578780,
+            2279525023,
+            1760675260,
+            3858268092,
+            4023402722,
+            3897762531,
+            2650345706
+          ],
+          "m_skin": {
+            "$bytes_base64": ""
+          },
+          "m_tandemLeaderUserId": null,
+          "m_teamId": 0,
+          "m_toonHandle": {
+            "$bytes_base64": "Mi1IZXJvLTEtODkzMjUzMg=="
+          },
+          "m_userId": 1,
+          "m_workingSetSlotId": 1
+        },
+        {
+          "m_aiBuild": 0,
+          "m_artifacts": [
+            {
+              "$bytes_base64": ""
+            },
+            {
+              "$bytes_base64": ""
+            },
+            {
+              "$bytes_base64": ""
+            }
+          ],
+          "m_colorPref": {
+            "m_color": 3
+          },
+          "m_control": 2,
+          "m_difficulty": 7,
+          "m_handicap": 100,
+          "m_hasSilencePenalty": false,
+          "m_hero": {
+            "$bytes_base64": "R3JleW1hbmU="
+          },
+          "m_licenses": [],
+          "m_logoIndex": 0,
+          "m_mount": {
+            "$bytes_base64": "QXJtb3JlZEhvcnNl"
+          },
+          "m_observe": 0,
+          "m_racePref": {
+            "m_race": null
+          },
+          "m_rewards": [
+            3148219150,
+            3697201488,
+            3692380527,
+            346612031,
+            4079061754,
+            2967222535,
+            1570591754,
+            1461420044,
+            265514260,
+            147631127,
+            3078024473,
+            630609689,
+            3410905887,
+            156920360,
+            1527540779,
+            1325810475,
+            4030272044,
+            2348575290,
+            2597363009,
+            4135375682,
+            3354701638,
+            2334287430,
+            558335051,
+            2906804819,
+            885085789,
+            4207417702,
+            593816679,
+            1526686573,
+            1430409332,
+            1475311988,
+            2594894455,
+            2855439736,
+            486775423,
+            847978880,
+            1740972419,
+            2214043013,
+            1313832331,
+            731979407,
+            710410901,
+            2440266902,
+            2023578780,
+            2279525023,
+            2982944166,
+            4152779953,
+            1352394674,
+            3913368499,
+            1760675260,
+            3858268092,
+            658965704,
+            917859273,
+            1727538126,
+            3280145875,
+            382825686,
+            3907171548,
+            2557761761,
+            4023402722,
+            3897762531,
+            2650345706,
+            3573545711,
+            3212364025,
+            354732027,
+            4120406783
+          ],
+          "m_skin": {
+            "$bytes_base64": ""
+          },
+          "m_tandemLeaderUserId": null,
+          "m_teamId": 0,
+          "m_toonHandle": {
+            "$bytes_base64": "Mi1IZXJvLTEtNjY3Njk1"
+          },
+          "m_userId": 2,
+          "m_workingSetSlotId": 2
+        },
+        {
+          "m_aiBuild": 0,
+          "m_artifacts": [
+            {
+              "$bytes_base64": ""
+            },
+            {
+              "$bytes_base64": ""
+            },
+            {
+              "$bytes_base64": ""
+            }
+          ],
+          "m_colorPref": {
+            "m_color": 3
+          },
+          "m_control": 2,
+          "m_difficulty": 7,
+          "m_handicap": 100,
+          "m_hasSilencePenalty": false,
+          "m_hero": {
+            "$bytes_base64": "S2FlbHRoYXM="
+          },
+          "m_licenses": [],
+          "m_logoIndex": 0,
+          "m_mount": {
+            "$bytes_base64": "TWFnaWNDYXJwZXQ="
+          },
+          "m_observe": 0,
+          "m_racePref": {
+            "m_race": null
+          },
+          "m_rewards": [
+            3148219150,
+            3697201488,
+            3692380527,
+            346612031,
+            4079061754,
+            942183682,
+            3044657157,
+            2967222535,
+            1570591754,
+            1461420044,
+            3070064658,
+            464541204,
+            265514260,
+            1267027477,
+            3410905887,
+            3078400032,
+            1078302498,
+            156920360,
+            1325810475,
+            4030272044,
+            2348575290,
+            2334287430,
+            558335051,
+            3154918477,
+            3769800280,
+            2652711002,
+            885085789,
+            4113672286,
+            1476041829,
+            4207417702,
+            2635698534,
+            804011881,
+            3035018860,
+            1526686573,
+            299854450,
+            1475311988,
+            2855439736,
+            1693585784,
+            486775423,
+            2214043013,
+            1313832331,
+            291376525,
+            731979407,
+            2482625423,
+            2221782675,
+            2023578780,
+            2279525023,
+            1583269039,
+            4152779953,
+            3913368499,
+            1760675260,
+            3858268092,
+            658965704,
+            917859273,
+            1727538126,
+            3865864655,
+            3708906713,
+            3735056099,
+            3897762531,
+            2650345706,
+            3640137711,
+            3573545711,
+            3212364025,
+            354732027
+          ],
+          "m_skin": {
+            "$bytes_base64": ""
+          },
+          "m_tandemLeaderUserId": null,
+          "m_teamId": 0,
+          "m_toonHandle": {
+            "$bytes_base64": "Mi1IZXJvLTEtMTg3OTQ4Mw=="
+          },
+          "m_userId": 3,
+          "m_workingSetSlotId": 3
+        },
+        {
+          "m_aiBuild": 0,
+          "m_artifacts": [
+            {
+              "$bytes_base64": ""
+            },
+            {
+              "$bytes_base64": ""
+            },
+            {
+              "$bytes_base64": ""
+            }
+          ],
+          "m_colorPref": {
+            "m_color": 3
+          },
+          "m_control": 2,
+          "m_difficulty": 7,
+          "m_handicap": 100,
+          "m_hasSilencePenalty": false,
+          "m_hero": {
+            "$bytes_base64": "Tm92YQ=="
+          },
+          "m_licenses": [],
+          "m_logoIndex": 0,
+          "m_mount": {
+            "$bytes_base64": "SG9yc2VBbG1vbmQ="
+          },
+          "m_observe": 0,
+          "m_racePref": {
+            "m_race": null
+          },
+          "m_rewards": [
+            3148219150,
+            3697201488,
+            3692380527,
+            346612031,
+            1570591754,
+            1905063439,
+            265514260,
+            1267027477,
+            3410905887,
+            156920360,
+            1325810475,
+            4030272044,
+            2348575290,
+            2597363009,
+            2334287430,
+            558335051,
+            2652711002,
+            885085789,
+            1476041829,
+            4207417702,
+            3802788203,
+            299854450,
+            1430409332,
+            1475311988,
+            2214043013,
+            291376525,
+            731979407,
+            989097622,
+            2023578780,
+            2279525023,
+            1352394674,
+            3913368499,
+            1760675260,
+            3858268092,
+            658965704,
+            917859273,
+            1727538126,
+            3865864655,
+            4023402722,
+            3897762531,
+            2650345706,
+            3573545711,
+            3212364025,
+            354732027,
+            2400908539
+          ],
+          "m_skin": {
+            "$bytes_base64": "Tm92YVVsdGltYXRlV2hpdGVQaW5r"
+          },
+          "m_tandemLeaderUserId": null,
+          "m_teamId": 0,
+          "m_toonHandle": {
+            "$bytes_base64": "Mi1IZXJvLTEtMjUxNTI4OA=="
+          },
+          "m_userId": 4,
+          "m_workingSetSlotId": 4
+        },
+        {
+          "m_aiBuild": 0,
+          "m_artifacts": [
+            {
+              "$bytes_base64": ""
+            },
+            {
+              "$bytes_base64": ""
+            },
+            {
+              "$bytes_base64": ""
+            }
+          ],
+          "m_colorPref": {
+            "m_color": 7
+          },
+          "m_control": 2,
+          "m_difficulty": 7,
+          "m_handicap": 100,
+          "m_hasSilencePenalty": false,
+          "m_hero": {
+            "$bytes_base64": "R3JleW1hbmU="
+          },
+          "m_licenses": [],
+          "m_logoIndex": 0,
+          "m_mount": {
+            "$bytes_base64": "TW9uZXlQaWdQaW5r"
+          },
+          "m_observe": 0,
+          "m_racePref": {
+            "m_race": null
+          },
+          "m_rewards": [
+            3697201488,
+            3692380527,
+            346612031,
+            4079061754,
+            942183682,
+            150157827,
+            1381986564,
+            3044657157,
+            2967222535,
+            1570591754,
+            1461420044,
+            2045853197,
+            3070064658,
+            464541204,
+            265514260,
+            4133078293,
+            3119369237,
+            2845245973,
+            1267027477,
+            2743212822,
+            2152954648,
+            3078024473,
+            630609689,
+            3410905887,
+            1834480417,
+            1078302498,
+            156920360,
+            1527540779,
+            1325810475,
+            4030272044,
+            3869959986,
+            3566526260,
+            2348575290,
+            2345865791,
+            2205352255,
+            908447552,
+            314226240,
+            2398755905,
+            2597363009,
+            4135375682,
+            1254583108,
+            3354701638,
+            2334287430,
+            367390791,
+            558335051,
+            1036368975,
+            2963344208,
+            3181138769,
+            3135661650,
+            2981429587,
+            2652711002,
+            4068187,
+            885085789,
+            4113672286,
+            369683811,
+            1476041829,
+            4207417702,
+            593816679,
+            3164229992,
+            804011881,
+            3035018860,
+            3264706161,
+            299854450,
+            1430409332,
+            1475311988,
+            2035163510,
+            2855439736,
+            1693585784,
+            1614653570,
+            1740972419,
+            2214043013,
+            2718637190,
+            650985865,
+            1313832331,
+            291376525,
+            731979407,
+            2221782675,
+            710410901,
+            989097622,
+            6231707,
+            2023578780,
+            4057687196,
+            2162634909,
+            2279525023,
+            1708443040,
+            2149156007,
+            3788820139,
+            4152779953,
+            1352394674,
+            4017304757,
+            1760675260,
+            3858268092,
+            1568210623,
+            658965704,
+            917859273,
+            1727538126,
+            3865864655,
+            3488303057,
+            3280145875,
+            382825686,
+            1283515608,
+            3708906713,
+            690022624,
+            1253027298,
+            4023402722,
+            2434323682,
+            3897762531,
+            2650345706,
+            3640137711,
+            3573545711,
+            838456563,
+            1435206900,
+            4148896500,
+            3212364025,
+            354732027,
+            457580284
+          ],
+          "m_skin": {
+            "$bytes_base64": "R3JleW1hbmVCYXNlVmFyMQ=="
+          },
+          "m_tandemLeaderUserId": null,
+          "m_teamId": 1,
+          "m_toonHandle": {
+            "$bytes_base64": "Mi1IZXJvLTEtNDU1NzAw"
+          },
+          "m_userId": 5,
+          "m_workingSetSlotId": 5
+        },
+        {
+          "m_aiBuild": 0,
+          "m_artifacts": [
+            {
+              "$bytes_base64": ""
+            },
+            {
+              "$bytes_base64": ""
+            },
+            {
+              "$bytes_base64": ""
+            }
+          ],
+          "m_colorPref": {
+            "m_color": 7
+          },
+          "m_control": 2,
+          "m_difficulty": 7,
+          "m_handicap": 100,
+          "m_hasSilencePenalty": false,
+          "m_hero": {
+            "$bytes_base64": "S2FlbHRoYXM="
+          },
+          "m_licenses": [],
+          "m_logoIndex": 0,
+          "m_mount": {
+            "$bytes_base64": "SG9yc2VDb21tb24="
+          },
+          "m_observe": 0,
+          "m_racePref": {
+            "m_race": null
+          },
+          "m_rewards": [
+            3697201488,
+            3692380527,
+            346612031,
+            4079061754,
+            3044657157,
+            2967222535,
+            1570591754,
+            1461420044,
+            265514260,
+            3410905887,
+            1834480417,
+            156920360,
+            1527540779,
+            1325810475,
+            2348575290,
+            4135375682,
+            3354701638,
+            558335051,
+            1036368975,
+            885085789,
+            4113672286,
+            4207417702,
+            3802788203,
+            1526686573,
+            1475311988,
+            2855439736,
+            1693585784,
+            486775423,
+            847978880,
+            2214043013,
+            1313832331,
+            291376525,
+            731979407,
+            2221782675,
+            989097622,
+            2023578780,
+            2279525023,
+            2982944166,
+            3400677042,
+            3913368499,
+            4280721843,
+            1760675260,
+            3858268092,
+            658965704,
+            917859273,
+            2224761549,
+            1727538126,
+            3865864655,
+            1757027796,
+            2557761761,
+            1253027298,
+            3897762531,
+            2650345706,
+            2308778732,
+            3573545711,
+            354732027,
+            3927246588
+          ],
+          "m_skin": {
+            "$bytes_base64": ""
+          },
+          "m_tandemLeaderUserId": null,
+          "m_teamId": 1,
+          "m_toonHandle": {
+            "$bytes_base64": "Mi1IZXJvLTEtNDU0ODA3"
+          },
+          "m_userId": 6,
+          "m_workingSetSlotId": 6
+        },
+        {
+          "m_aiBuild": 0,
+          "m_artifacts": [
+            {
+              "$bytes_base64": ""
+            },
+            {
+              "$bytes_base64": ""
+            },
+            {
+              "$bytes_base64": ""
+            }
+          ],
+          "m_colorPref": {
+            "m_color": 7
+          },
+          "m_control": 2,
+          "m_difficulty": 7,
+          "m_handicap": 100,
+          "m_hasSilencePenalty": false,
+          "m_hero": {
+            "$bytes_base64": "VHlyYW5kZQ=="
+          },
+          "m_licenses": [],
+          "m_logoIndex": 0,
+          "m_mount": {
+            "$bytes_base64": "SG9yc2VDb21tb24="
+          },
+          "m_observe": 0,
+          "m_racePref": {
+            "m_race": null
+          },
+          "m_rewards": [
+            3148219150,
+            3697201488,
+            3692380527,
+            346612031,
+            2967222535,
+            1570591754,
+            1905063439,
+            265514260,
+            1267027477,
+            3410905887,
+            156920360,
+            1325810475,
+            4030272044,
+            2348575290,
+            2205352255,
+            2597363009,
+            558335051,
+            1036368975,
+            885085789,
+            1476041829,
+            4207417702,
+            3802788203,
+            299854450,
+            2217700210,
+            1475311988,
+            2855439736,
+            2214043013,
+            1313832331,
+            731979407,
+            2221782675,
+            989097622,
+            2023578780,
+            2279525023,
+            1760675260,
+            3858268092,
+            917859273,
+            3488303057,
+            3897762531,
+            3212364025
+          ],
+          "m_skin": {
+            "$bytes_base64": ""
+          },
+          "m_tandemLeaderUserId": null,
+          "m_teamId": 1,
+          "m_toonHandle": {
+            "$bytes_base64": "Mi1IZXJvLTEtMjA2OTgxMw=="
+          },
+          "m_userId": 7,
+          "m_workingSetSlotId": 7
+        },
+        {
+          "m_aiBuild": 0,
+          "m_artifacts": [
+            {
+              "$bytes_base64": ""
+            },
+            {
+              "$bytes_base64": ""
+            },
+            {
+              "$bytes_base64": ""
+            }
+          ],
+          "m_colorPref": {
+            "m_color": 7
+          },
+          "m_control": 2,
+          "m_difficulty": 7,
+          "m_handicap": 100,
+          "m_hasSilencePenalty": false,
+          "m_hero": {
+            "$bytes_base64": "QWJhdGh1cg=="
+          },
+          "m_licenses": [],
+          "m_logoIndex": 0,
+          "m_mount": {
+            "$bytes_base64": ""
+          },
+          "m_observe": 0,
+          "m_racePref": {
+            "m_race": null
+          },
+          "m_rewards": [
+            3148219150,
+            3697201488,
+            3692380527,
+            346612031,
+            1570591754,
+            265514260,
+            3410905887,
+            1325810475,
+            2348575290,
+            2597363009,
+            3354701638,
+            558335051,
+            885085789,
+            4207417702,
+            3802788203,
+            299854450,
+            1430409332,
+            1475311988,
+            2214043013,
+            291376525,
+            731979407,
+            2023578780,
+            2279525023,
+            4152779953,
+            1352394674,
+            1760675260,
+            3858268092,
+            3897762531,
+            3573545711,
+            354732027
+          ],
+          "m_skin": {
+            "$bytes_base64": "QWJhdGh1ckNoYXI="
+          },
+          "m_tandemLeaderUserId": null,
+          "m_teamId": 1,
+          "m_toonHandle": {
+            "$bytes_base64": "Mi1IZXJvLTEtMTMxODA3MA=="
+          },
+          "m_userId": 8,
+          "m_workingSetSlotId": 8
+        },
+        {
+          "m_aiBuild": 0,
+          "m_artifacts": [
+            {
+              "$bytes_base64": ""
+            },
+            {
+              "$bytes_base64": ""
+            },
+            {
+              "$bytes_base64": ""
+            }
+          ],
+          "m_colorPref": {
+            "m_color": 7
+          },
+          "m_control": 2,
+          "m_difficulty": 7,
+          "m_handicap": 100,
+          "m_hasSilencePenalty": false,
+          "m_hero": {
+            "$bytes_base64": "QmFyYmFyaWFu"
+          },
+          "m_licenses": [],
+          "m_logoIndex": 0,
+          "m_mount": {
+            "$bytes_base64": "SGVhcnRoc3RvbmVDYXJkUmVk"
+          },
+          "m_observe": 0,
+          "m_racePref": {
+            "m_race": null
+          },
+          "m_rewards": [
+            3148219150,
+            3697201488,
+            3692380527,
+            346612031,
+            2967222535,
+            1570591754,
+            1905063439,
+            3070064658,
+            265514260,
+            3410905887,
+            156920360,
+            1325810475,
+            4030272044,
+            2348575290,
+            2597363009,
+            3354701638,
+            2334287430,
+            558335051,
+            1036368975,
+            2906804819,
+            885085789,
+            1476041829,
+            3802788203,
+            299854450,
+            1430409332,
+            1475311988,
+            3854135939,
+            2214043013,
+            1313832331,
+            731979407,
+            2221782675,
+            989097622,
+            2023578780,
+            2279525023,
+            2982944166,
+            1760675260,
+            3858268092,
+            917859273,
+            1727538126,
+            3865864655,
+            1757027796,
+            3897762531,
+            3573545711,
+            3212364025,
+            354732027
+          ],
+          "m_skin": {
+            "$bytes_base64": "QmFyYmFyaWFuUmVk"
+          },
+          "m_tandemLeaderUserId": null,
+          "m_teamId": 1,
+          "m_toonHandle": {
+            "$bytes_base64": "Mi1IZXJvLTEtMzQ4NDk0"
+          },
+          "m_userId": 9,
+          "m_workingSetSlotId": 9
+        },
+        {
+          "m_aiBuild": 0,
+          "m_artifacts": [
+            {
+              "$bytes_base64": ""
+            },
+            {
+              "$bytes_base64": ""
+            },
+            {
+              "$bytes_base64": ""
+            }
+          ],
+          "m_colorPref": {
+            "m_color": 0
+          },
+          "m_control": 1,
+          "m_difficulty": 7,
+          "m_handicap": 100,
+          "m_hasSilencePenalty": false,
+          "m_hero": {
+            "$bytes_base64": ""
+          },
+          "m_licenses": [],
+          "m_logoIndex": 0,
+          "m_mount": {
+            "$bytes_base64": ""
+          },
+          "m_observe": 1,
+          "m_racePref": {
+            "m_race": null
+          },
+          "m_rewards": [],
+          "m_skin": {
+            "$bytes_base64": ""
+          },
+          "m_tandemLeaderUserId": null,
+          "m_teamId": 0,
+          "m_toonHandle": {
+            "$bytes_base64": ""
+          },
+          "m_userId": null,
+          "m_workingSetSlotId": 15
+        },
+        {
+          "m_aiBuild": 0,
+          "m_artifacts": [
+            {
+              "$bytes_base64": ""
+            },
+            {
+              "$bytes_base64": ""
+            },
+            {
+              "$bytes_base64": ""
+            }
+          ],
+          "m_colorPref": {
+            "m_color": 0
+          },
+          "m_control": 1,
+          "m_difficulty": 7,
+          "m_handicap": 100,
+          "m_hasSilencePenalty": false,
+          "m_hero": {
+            "$bytes_base64": ""
+          },
+          "m_licenses": [],
+          "m_logoIndex": 0,
+          "m_mount": {
+            "$bytes_base64": ""
+          },
+          "m_observe": 1,
+          "m_racePref": {
+            "m_race": null
+          },
+          "m_rewards": [],
+          "m_skin": {
+            "$bytes_base64": ""
+          },
+          "m_tandemLeaderUserId": null,
+          "m_teamId": 0,
+          "m_toonHandle": {
+            "$bytes_base64": ""
+          },
+          "m_userId": null,
+          "m_workingSetSlotId": 14
+        },
+        {
+          "m_aiBuild": 0,
+          "m_artifacts": [
+            {
+              "$bytes_base64": ""
+            },
+            {
+              "$bytes_base64": ""
+            },
+            {
+              "$bytes_base64": ""
+            }
+          ],
+          "m_colorPref": {
+            "m_color": 0
+          },
+          "m_control": 1,
+          "m_difficulty": 7,
+          "m_handicap": 100,
+          "m_hasSilencePenalty": false,
+          "m_hero": {
+            "$bytes_base64": ""
+          },
+          "m_licenses": [],
+          "m_logoIndex": 0,
+          "m_mount": {
+            "$bytes_base64": ""
+          },
+          "m_observe": 1,
+          "m_racePref": {
+            "m_race": null
+          },
+          "m_rewards": [],
+          "m_skin": {
+            "$bytes_base64": ""
+          },
+          "m_tandemLeaderUserId": null,
+          "m_teamId": 0,
+          "m_toonHandle": {
+            "$bytes_base64": ""
+          },
+          "m_userId": null,
+          "m_workingSetSlotId": 13
+        },
+        {
+          "m_aiBuild": 0,
+          "m_artifacts": [
+            {
+              "$bytes_base64": ""
+            },
+            {
+              "$bytes_base64": ""
+            },
+            {
+              "$bytes_base64": ""
+            }
+          ],
+          "m_colorPref": {
+            "m_color": 0
+          },
+          "m_control": 1,
+          "m_difficulty": 7,
+          "m_handicap": 100,
+          "m_hasSilencePenalty": false,
+          "m_hero": {
+            "$bytes_base64": ""
+          },
+          "m_licenses": [],
+          "m_logoIndex": 0,
+          "m_mount": {
+            "$bytes_base64": ""
+          },
+          "m_observe": 1,
+          "m_racePref": {
+            "m_race": null
+          },
+          "m_rewards": [],
+          "m_skin": {
+            "$bytes_base64": ""
+          },
+          "m_tandemLeaderUserId": null,
+          "m_teamId": 0,
+          "m_toonHandle": {
+            "$bytes_base64": ""
+          },
+          "m_userId": null,
+          "m_workingSetSlotId": 12
+        },
+        {
+          "m_aiBuild": 0,
+          "m_artifacts": [
+            {
+              "$bytes_base64": ""
+            },
+            {
+              "$bytes_base64": ""
+            },
+            {
+              "$bytes_base64": ""
+            }
+          ],
+          "m_colorPref": {
+            "m_color": 0
+          },
+          "m_control": 1,
+          "m_difficulty": 7,
+          "m_handicap": 100,
+          "m_hasSilencePenalty": false,
+          "m_hero": {
+            "$bytes_base64": ""
+          },
+          "m_licenses": [],
+          "m_logoIndex": 0,
+          "m_mount": {
+            "$bytes_base64": ""
+          },
+          "m_observe": 1,
+          "m_racePref": {
+            "m_race": null
+          },
+          "m_rewards": [],
+          "m_skin": {
+            "$bytes_base64": ""
+          },
+          "m_tandemLeaderUserId": null,
+          "m_teamId": 0,
+          "m_toonHandle": {
+            "$bytes_base64": ""
+          },
+          "m_userId": null,
+          "m_workingSetSlotId": 11
+        },
+        {
+          "m_aiBuild": 0,
+          "m_artifacts": [
+            {
+              "$bytes_base64": ""
+            },
+            {
+              "$bytes_base64": ""
+            },
+            {
+              "$bytes_base64": ""
+            }
+          ],
+          "m_colorPref": {
+            "m_color": 0
+          },
+          "m_control": 1,
+          "m_difficulty": 7,
+          "m_handicap": 100,
+          "m_hasSilencePenalty": false,
+          "m_hero": {
+            "$bytes_base64": ""
+          },
+          "m_licenses": [],
+          "m_logoIndex": 0,
+          "m_mount": {
+            "$bytes_base64": ""
+          },
+          "m_observe": 1,
+          "m_racePref": {
+            "m_race": null
+          },
+          "m_rewards": [],
+          "m_skin": {
+            "$bytes_base64": ""
+          },
+          "m_tandemLeaderUserId": null,
+          "m_teamId": 0,
+          "m_toonHandle": {
+            "$bytes_base64": ""
+          },
+          "m_userId": null,
+          "m_workingSetSlotId": 10
+        }
+      ]
+    },
+    "m_userInitialData": [
+      {
+        "m_clanLogo": null,
+        "m_clanTag": {
+          "$bytes_base64": ""
+        },
+        "m_combinedRaceLevels": 4294967295,
+        "m_customInterface": false,
+        "m_examine": false,
+        "m_hero": {
+          "$bytes_base64": ""
+        },
+        "m_highestLeague": 0,
+        "m_mount": {
+          "$bytes_base64": ""
+        },
+        "m_name": {
+          "$bytes_base64": "RGFsdXhl"
+        },
+        "m_observe": 0,
+        "m_racePreference": {
+          "m_race": null
+        },
+        "m_randomSeed": 0,
+        "m_skin": {
+          "$bytes_base64": ""
+        },
+        "m_teamPreference": {
+          "m_team": null
+        },
+        "m_testAuto": false,
+        "m_testMap": false,
+        "m_testType": 0,
+        "m_toonHandle": {
+          "$bytes_base64": ""
+        }
+      },
+      {
+        "m_clanLogo": null,
+        "m_clanTag": {
+          "$bytes_base64": ""
+        },
+        "m_combinedRaceLevels": 4294967295,
+        "m_customInterface": false,
+        "m_examine": false,
+        "m_hero": {
+          "$bytes_base64": ""
+        },
+        "m_highestLeague": 0,
+        "m_mount": {
+          "$bytes_base64": ""
+        },
+        "m_name": {
+          "$bytes_base64": "bGlzZWsxODg="
+        },
+        "m_observe": 0,
+        "m_racePreference": {
+          "m_race": null
+        },
+        "m_randomSeed": 0,
+        "m_skin": {
+          "$bytes_base64": ""
+        },
+        "m_teamPreference": {
+          "m_team": null
+        },
+        "m_testAuto": false,
+        "m_testMap": false,
+        "m_testType": 0,
+        "m_toonHandle": {
+          "$bytes_base64": ""
+        }
+      },
+      {
+        "m_clanLogo": null,
+        "m_clanTag": {
+          "$bytes_base64": ""
+        },
+        "m_combinedRaceLevels": 4294967295,
+        "m_customInterface": false,
+        "m_examine": false,
+        "m_hero": {
+          "$bytes_base64": ""
+        },
+        "m_highestLeague": 0,
+        "m_mount": {
+          "$bytes_base64": ""
+        },
+        "m_name": {
+          "$bytes_base64": "QXphemVsbG8="
+        },
+        "m_observe": 0,
+        "m_racePreference": {
+          "m_race": null
+        },
+        "m_randomSeed": 0,
+        "m_skin": {
+          "$bytes_base64": ""
+        },
+        "m_teamPreference": {
+          "m_team": null
+        },
+        "m_testAuto": false,
+        "m_testMap": false,
+        "m_testType": 0,
+        "m_toonHandle": {
+          "$bytes_base64": ""
+        }
+      },
+      {
+        "m_clanLogo": null,
+        "m_clanTag": {
+          "$bytes_base64": ""
+        },
+        "m_combinedRaceLevels": 4294967295,
+        "m_customInterface": false,
+        "m_examine": false,
+        "m_hero": {
+          "$bytes_base64": ""
+        },
+        "m_highestLeague": 0,
+        "m_mount": {
+          "$bytes_base64": ""
+        },
+        "m_name": {
+          "$bytes_base64": "bWFyY29za3k="
+        },
+        "m_observe": 0,
+        "m_racePreference": {
+          "m_race": null
+        },
+        "m_randomSeed": 0,
+        "m_skin": {
+          "$bytes_base64": ""
+        },
+        "m_teamPreference": {
+          "m_team": null
+        },
+        "m_testAuto": false,
+        "m_testMap": false,
+        "m_testType": 0,
+        "m_toonHandle": {
+          "$bytes_base64": ""
+        }
+      },
+      {
+        "m_clanLogo": null,
+        "m_clanTag": {
+          "$bytes_base64": ""
+        },
+        "m_combinedRaceLevels": 4294967295,
+        "m_customInterface": false,
+        "m_examine": false,
+        "m_hero": {
+          "$bytes_base64": ""
+        },
+        "m_highestLeague": 0,
+        "m_mount": {
+          "$bytes_base64": ""
+        },
+        "m_name": {
+          "$bytes_base64": "SGF6dW5pYQ=="
+        },
+        "m_observe": 0,
+        "m_racePreference": {
+          "m_race": null
+        },
+        "m_randomSeed": 0,
+        "m_skin": {
+          "$bytes_base64": ""
+        },
+        "m_teamPreference": {
+          "m_team": null
+        },
+        "m_testAuto": false,
+        "m_testMap": false,
+        "m_testType": 0,
+        "m_toonHandle": {
+          "$bytes_base64": ""
+        }
+      },
+      {
+        "m_clanLogo": null,
+        "m_clanTag": {
+          "$bytes_base64": ""
+        },
+        "m_combinedRaceLevels": 4294967295,
+        "m_customInterface": false,
+        "m_examine": false,
+        "m_hero": {
+          "$bytes_base64": ""
+        },
+        "m_highestLeague": 0,
+        "m_mount": {
+          "$bytes_base64": ""
+        },
+        "m_name": {
+          "$bytes_base64": "TEhL"
+        },
+        "m_observe": 0,
+        "m_racePreference": {
+          "m_race": null
+        },
+        "m_randomSeed": 0,
+        "m_skin": {
+          "$bytes_base64": ""
+        },
+        "m_teamPreference": {
+          "m_team": null
+        },
+        "m_testAuto": false,
+        "m_testMap": false,
+        "m_testType": 0,
+        "m_toonHandle": {
+          "$bytes_base64": ""
+        }
+      },
+      {
+        "m_clanLogo": null,
+        "m_clanTag": {
+          "$bytes_base64": ""
+        },
+        "m_combinedRaceLevels": 4294967295,
+        "m_customInterface": false,
+        "m_examine": false,
+        "m_hero": {
+          "$bytes_base64": ""
+        },
+        "m_highestLeague": 0,
+        "m_mount": {
+          "$bytes_base64": ""
+        },
+        "m_name": {
+          "$bytes_base64": "RXJ6aGE="
+        },
+        "m_observe": 0,
+        "m_racePreference": {
+          "m_race": null
+        },
+        "m_randomSeed": 0,
+        "m_skin": {
+          "$bytes_base64": ""
+        },
+        "m_teamPreference": {
+          "m_team": null
+        },
+        "m_testAuto": false,
+        "m_testMap": false,
+        "m_testType": 0,
+        "m_toonHandle": {
+          "$bytes_base64": ""
+        }
+      },
+      {
+        "m_clanLogo": null,
+        "m_clanTag": {
+          "$bytes_base64": ""
+        },
+        "m_combinedRaceLevels": 4294967295,
+        "m_customInterface": false,
+        "m_examine": false,
+        "m_hero": {
+          "$bytes_base64": ""
+        },
+        "m_highestLeague": 0,
+        "m_mount": {
+          "$bytes_base64": ""
+        },
+        "m_name": {
+          "$bytes_base64": "a29mZmNpbw=="
+        },
+        "m_observe": 0,
+        "m_racePreference": {
+          "m_race": null
+        },
+        "m_randomSeed": 0,
+        "m_skin": {
+          "$bytes_base64": ""
+        },
+        "m_teamPreference": {
+          "m_team": null
+        },
+        "m_testAuto": false,
+        "m_testMap": false,
+        "m_testType": 0,
+        "m_toonHandle": {
+          "$bytes_base64": ""
+        }
+      },
+      {
+        "m_clanLogo": null,
+        "m_clanTag": {
+          "$bytes_base64": ""
+        },
+        "m_combinedRaceLevels": 4294967295,
+        "m_customInterface": false,
+        "m_examine": false,
+        "m_hero": {
+          "$bytes_base64": ""
+        },
+        "m_highestLeague": 0,
+        "m_mount": {
+          "$bytes_base64": ""
+        },
+        "m_name": {
+          "$bytes_base64": "R2VudGxlbWFu"
+        },
+        "m_observe": 0,
+        "m_racePreference": {
+          "m_race": null
+        },
+        "m_randomSeed": 0,
+        "m_skin": {
+          "$bytes_base64": ""
+        },
+        "m_teamPreference": {
+          "m_team": null
+        },
+        "m_testAuto": false,
+        "m_testMap": false,
+        "m_testType": 0,
+        "m_toonHandle": {
+          "$bytes_base64": ""
+        }
+      },
+      {
+        "m_clanLogo": null,
+        "m_clanTag": {
+          "$bytes_base64": ""
+        },
+        "m_combinedRaceLevels": 4294967295,
+        "m_customInterface": false,
+        "m_examine": false,
+        "m_hero": {
+          "$bytes_base64": ""
+        },
+        "m_highestLeague": 0,
+        "m_mount": {
+          "$bytes_base64": ""
+        },
+        "m_name": {
+          "$bytes_base64": "QXN0b3J5"
+        },
+        "m_observe": 0,
+        "m_racePreference": {
+          "m_race": null
+        },
+        "m_randomSeed": 0,
+        "m_skin": {
+          "$bytes_base64": ""
+        },
+        "m_teamPreference": {
+          "m_team": null
+        },
+        "m_testAuto": false,
+        "m_testMap": false,
+        "m_testType": 0,
+        "m_toonHandle": {
+          "$bytes_base64": ""
+        }
+      },
+      {
+        "m_clanLogo": null,
+        "m_clanTag": {
+          "$bytes_base64": ""
+        },
+        "m_combinedRaceLevels": 4294967295,
+        "m_customInterface": false,
+        "m_examine": false,
+        "m_hero": {
+          "$bytes_base64": ""
+        },
+        "m_highestLeague": 0,
+        "m_mount": {
+          "$bytes_base64": ""
+        },
+        "m_name": {
+          "$bytes_base64": ""
+        },
+        "m_observe": 0,
+        "m_racePreference": {
+          "m_race": null
+        },
+        "m_randomSeed": 0,
+        "m_skin": {
+          "$bytes_base64": ""
+        },
+        "m_teamPreference": {
+          "m_team": null
+        },
+        "m_testAuto": false,
+        "m_testMap": false,
+        "m_testType": 0,
+        "m_toonHandle": {
+          "$bytes_base64": ""
+        }
+      },
+      {
+        "m_clanLogo": null,
+        "m_clanTag": {
+          "$bytes_base64": ""
+        },
+        "m_combinedRaceLevels": 4294967295,
+        "m_customInterface": false,
+        "m_examine": false,
+        "m_hero": {
+          "$bytes_base64": ""
+        },
+        "m_highestLeague": 0,
+        "m_mount": {
+          "$bytes_base64": ""
+        },
+        "m_name": {
+          "$bytes_base64": ""
+        },
+        "m_observe": 0,
+        "m_racePreference": {
+          "m_race": null
+        },
+        "m_randomSeed": 0,
+        "m_skin": {
+          "$bytes_base64": ""
+        },
+        "m_teamPreference": {
+          "m_team": null
+        },
+        "m_testAuto": false,
+        "m_testMap": false,
+        "m_testType": 0,
+        "m_toonHandle": {
+          "$bytes_base64": ""
+        }
+      },
+      {
+        "m_clanLogo": null,
+        "m_clanTag": {
+          "$bytes_base64": ""
+        },
+        "m_combinedRaceLevels": 4294967295,
+        "m_customInterface": false,
+        "m_examine": false,
+        "m_hero": {
+          "$bytes_base64": ""
+        },
+        "m_highestLeague": 0,
+        "m_mount": {
+          "$bytes_base64": ""
+        },
+        "m_name": {
+          "$bytes_base64": ""
+        },
+        "m_observe": 0,
+        "m_racePreference": {
+          "m_race": null
+        },
+        "m_randomSeed": 0,
+        "m_skin": {
+          "$bytes_base64": ""
+        },
+        "m_teamPreference": {
+          "m_team": null
+        },
+        "m_testAuto": false,
+        "m_testMap": false,
+        "m_testType": 0,
+        "m_toonHandle": {
+          "$bytes_base64": ""
+        }
+      },
+      {
+        "m_clanLogo": null,
+        "m_clanTag": {
+          "$bytes_base64": ""
+        },
+        "m_combinedRaceLevels": 4294967295,
+        "m_customInterface": false,
+        "m_examine": false,
+        "m_hero": {
+          "$bytes_base64": ""
+        },
+        "m_highestLeague": 0,
+        "m_mount": {
+          "$bytes_base64": ""
+        },
+        "m_name": {
+          "$bytes_base64": ""
+        },
+        "m_observe": 0,
+        "m_racePreference": {
+          "m_race": null
+        },
+        "m_randomSeed": 0,
+        "m_skin": {
+          "$bytes_base64": ""
+        },
+        "m_teamPreference": {
+          "m_team": null
+        },
+        "m_testAuto": false,
+        "m_testMap": false,
+        "m_testType": 0,
+        "m_toonHandle": {
+          "$bytes_base64": ""
+        }
+      },
+      {
+        "m_clanLogo": null,
+        "m_clanTag": {
+          "$bytes_base64": ""
+        },
+        "m_combinedRaceLevels": 4294967295,
+        "m_customInterface": false,
+        "m_examine": false,
+        "m_hero": {
+          "$bytes_base64": ""
+        },
+        "m_highestLeague": 0,
+        "m_mount": {
+          "$bytes_base64": ""
+        },
+        "m_name": {
+          "$bytes_base64": ""
+        },
+        "m_observe": 0,
+        "m_racePreference": {
+          "m_race": null
+        },
+        "m_randomSeed": 0,
+        "m_skin": {
+          "$bytes_base64": ""
+        },
+        "m_teamPreference": {
+          "m_team": null
+        },
+        "m_testAuto": false,
+        "m_testMap": false,
+        "m_testType": 0,
+        "m_toonHandle": {
+          "$bytes_base64": ""
+        }
+      },
+      {
+        "m_clanLogo": null,
+        "m_clanTag": {
+          "$bytes_base64": ""
+        },
+        "m_combinedRaceLevels": 4294967295,
+        "m_customInterface": false,
+        "m_examine": false,
+        "m_hero": {
+          "$bytes_base64": ""
+        },
+        "m_highestLeague": 0,
+        "m_mount": {
+          "$bytes_base64": ""
+        },
+        "m_name": {
+          "$bytes_base64": ""
+        },
+        "m_observe": 0,
+        "m_racePreference": {
+          "m_race": null
+        },
+        "m_randomSeed": 0,
+        "m_skin": {
+          "$bytes_base64": ""
+        },
+        "m_teamPreference": {
+          "m_team": null
+        },
+        "m_testAuto": false,
+        "m_testMap": false,
+        "m_testType": 0,
+        "m_toonHandle": {
+          "$bytes_base64": ""
+        }
+      }
+    ]
+  }
+}

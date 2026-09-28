@@ -1,0 +1,82 @@
+{
+  "actions_run_id": "36469342880",
+  "base64_roundtrip_validated": true,
+  "changed_events": {
+    "game": 4568,
+    "message": 0,
+    "tracker": 0
+  },
+  "client_playback_validated": false,
+  "code_commit": "768d2bfc499ccc9f5d49257622b165cb8379293d",
+  "container": {
+    "archive_size": 669411,
+    "changed_block_indices": [
+      1,
+      3,
+      13
+    ],
+    "format": "MPQ-v4-classic-tables",
+    "het_bet_tables": "removed; classic hash/block tables rebuilt",
+    "member_crc32_md5_updated": true,
+    "raw_chunk_size": 0
+  },
+  "container_checks": {
+    "header_md5": true,
+    "non_overlapping_regions": true,
+    "sizes": true,
+    "table_md5": true
+  },
+  "events": {
+    "game": 104257,
+    "message": 155,
+    "tracker": 6614
+  },
+  "independent_validation": {
+    "blizzard_decoded_all_streams": true,
+    "blizzard_event_counts": {
+      "game": 104257,
+      "message": 155,
+      "tracker": 6614
+    },
+    "md5_omitted_in_original": [
+      "(listfile)"
+    ],
+    "member_crc32_and_available_md5": true,
+    "mpq_v4": {
+      "header_md5": true,
+      "non_overlapping_regions": true,
+      "sizes": true,
+      "table_md5": true
+    },
+    "mpyq_all_members_equal": true,
+    "stormlib": {
+      "all_members_equal": true,
+      "member_count": 14,
+      "tested": true
+    }
+  },
+  "known_limitations": [
+    "Source dataBuildNum, root key and version tuple are preserved; target metadata is unverified.",
+    "The renamed compatibility hash retains original opaque bytes, not a verified target hash.",
+    "Control-vector narrowing preserves the native most-significant prefix; engine control/catalog equivalence is not proven.",
+    "Opaque sync, resumable and battlelobby members remain unchanged.",
+    "Encoding command flags at a new width does not prove their engine semantics are unchanged.",
+    "No HotS client or deterministic replay simulation was executed."
+  ],
+  "output_bytes": 670435,
+  "output_sha256": "71cda528067b3ae4fec30634d37eebf6395fffb6b115ef4a1782e5e24094f167",
+  "projection": "hots-replay-json-v2-native-bitvectors",
+  "protocol_provider": "Blizzard/heroprotocol",
+  "roundtrip_validated": true,
+  "semantic_audit_entries": 4581,
+  "simulation_compatibility_validated": false,
+  "source_build": 41810,
+  "source_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+  "stream_jsonl_sha256": {
+    "game": "b237b11ea1779b66e1079a3f0d958ba7acfe17adc4b3cdbd7633d7eead24bc8a",
+    "message": "0626b2782dfc167fe10e6b21fc2208665f27d0cc8463f8df2eb6610f7ceb7853",
+    "tracker": "2ebf1d7f97828b48f73c27cca3c726fbb0a5bc48ad71dd1ee614dc200427f433"
+  },
+  "target_protocol": 44256,
+  "upstream_commit": "9af3ea7150f1a8acb53464c92519a9bbcc7a3594"
+}
