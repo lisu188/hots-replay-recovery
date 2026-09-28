@@ -1,0 +1,94 @@
+name: Reference replay validation
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/reference.yml'
+      - 'protocol_loader.py'
+      - 'reference_replay.py'
+      - 'test_reference.py'
+      - 'scripts/fetch_public_reference.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+defaults:
+  run:
+    shell: bash
+
+concurrency:
+  group: replay-reference-main
+  cancel-in-progress: false
+
+jobs:
+  reference:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    env:
+      PYTHONPATH: ${{ github.workspace }}/_upstream:${{ github.workspace }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          ref: ${{ github.sha }}
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          repository: Blizzard/heroprotocol
+          ref: 9af3ea7150f1a8acb53464c92519a9bbcc7a3594
+          path: _upstream
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.13'
+      - name: Install and preserve pinned parser runtime
+        run: |
+          python -m pip install six==1.17.0 mpyq==0.2.5
+          mkdir -p work/offline
+          python - <<'PY'
+          import shutil
+          import mpyq
+          shutil.copyfile(mpyq.__file__, 'work/offline/mpyq.py')
+          PY
+          tar -czf work/upstream-runtime.tar.gz -C _upstream heroprotocol LICENSE
+          test "$(git -C _upstream rev-parse HEAD)" = "9af3ea7150f1a8acb53464c92519a9bbcc7a3594"
+      - name: Restore and test the immutable source
+        run: |
+          python scripts/restore_artifact.py artifacts/TEN_GREYMANE_source_41810.StormReplay.base64 work/TEN_GREYMANE_source_41810.StormReplay --sha256 artifacts/TEN_GREYMANE_source_41810.StormReplay.sha256
+          python -m unittest -v test_reference 2>&1 | tee work/reference-tests.log
+      - name: Recheck every published protocol fixture
+        run: |
+          for build in 44256 57547 96477; do
+            base="checkpoints/$build/TEN_GREYMANE_protocol$build.StormReplay"
+            python scripts/restore_artifact.py "$base.base64" "work/fixture-$build.StormReplay" --sha256 "$base.sha256"
+            python reference_replay.py inspect "work/fixture-$build.StormReplay" --schema-build "$build" --expected-build "$build" --output "work/fixture-$build.json"
+          done
+      - name: Attempt documented public reference discovery
+        run: python scripts/fetch_public_reference.py --minimum-build 98025 --schema-build 96477 | tee work/reference-discovery.log
+      - name: Publish discovery evidence and checkpoint history
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git switch -c reference-run-${GITHUB_RUN_ID}
+          git add -- references/probes/*.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Record measured public reference discovery for run ${GITHUB_RUN_ID}"
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
+          fi
+          git bundle create work/hots-replay-reference.bundle --all
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: replay-reference-${{ github.run_id }}
+          retention-days: 30
+          path: |
+            references/probes/
+            work/reference-*.log
+            work/reference-donors/
+            work/fixture-*.json
+            work/upstream-runtime.tar.gz
+            work/offline/
+            work/*.bundle
