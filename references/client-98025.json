@@ -1,0 +1,26 @@
+{
+  "evidence_type": "observed-client-log",
+  "evidence_date_local": "2026-09-19T22:52:25.775+02:00",
+  "source_description": "User's OneDrive Heroes of the Storm/GameLogs/2026-09-19 22.52.25 Graphics.txt; read through the authorized connector on 2026-09-28",
+  "game": "Heroes of the Storm",
+  "version": "2.55.17.98025",
+  "executable_build": 98025,
+  "data_build": 98025,
+  "architecture": "x86_64",
+  "locale_assets": "enUS",
+  "locale_data": "enUS",
+  "executable_path": "C:\\Program Files (x86)\\Heroes of the Storm\\Versions\\Base98025\\HeroesOfTheStorm_x64.exe",
+  "code_branch": "branches/Heroes.55",
+  "code_revision": 667418,
+  "replay_protocol_schema_confirmed": false,
+  "replay_compatibility_hash": null,
+  "ngdp_root_key": null,
+  "reference_replay_available": false,
+  "latest_live_release_claimed": false,
+  "notes": [
+    "This records an installation observed on the log date, not guaranteed current global release metadata.",
+    "Do not use the original build-41810 fixedFileHash as a verified build-98025 replay compatibility hash.",
+    "Do not assume the build-96477 replay schema is identical without a real build-98025 reference replay or independently verified schema.",
+    "Machine/user names, account details, telemetry identifiers and unrelated hardware information are intentionally excluded."
+  ]
+}
