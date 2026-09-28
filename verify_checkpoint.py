@@ -5,7 +5,6 @@ import base64
 import ctypes
 import ctypes.util
 import hashlib
-import importlib
 import itertools
 import json
 import struct
@@ -17,6 +16,9 @@ import mpyq
 from migrate_replay import BitVector, decode_events, protocol, write_json
 from mpq_reader import MPQArchive
 from mpq_rebuild import verify_container
+
+
+SOURCE_LISTFILE_MD5 = '8b539c554452a290100542cc97a05439'
 
 
 def native(value):
@@ -134,17 +136,27 @@ def verify(folder, require_stormlib=False):
         if version != 100 or flags != 5:
             raise AssertionError('Unexpected attributes layout')
         count = len(archive.block_table)
+        omitted_source_digests = []
         for name, raw in members.items():
             if name == '(attributes)' or raw is None:
                 continue
             index = archive.get_hash_table_entry(name).block_table_index
             crc = struct.unpack_from('<I', attrs, 8 + 4 * index)[0]
             start = 8 + 4 * count + 16 * index
-            if crc != zlib.crc32(raw) or attrs[start:start + 16] != hashlib.md5(raw).digest():
-                raise AssertionError(f'Member checksum mismatch: {name}')
+            recorded_md5 = attrs[start:start + 16]
+            actual_md5 = hashlib.md5(raw).digest()
+            if crc != zlib.crc32(raw):
+                raise AssertionError(f'Member CRC32 mismatch: {name}')
+            if name == '(listfile)' and recorded_md5 == bytes(16):
+                if actual_md5.hex() != SOURCE_LISTFILE_MD5:
+                    raise AssertionError('Listfile differs from preserved original')
+                omitted_source_digests.append(name)
+            elif recorded_md5 != actual_md5:
+                raise AssertionError(f'Member MD5 mismatch: {name}')
         report['independent_validation'] = {
             'blizzard_decoded_all_streams': True, 'blizzard_event_counts': counts,
-            'mpyq_all_members_equal': True, 'member_crc32_md5': True,
+            'mpyq_all_members_equal': True, 'member_crc32_and_available_md5': True,
+            'md5_omitted_in_original': omitted_source_digests,
             'stormlib': stormlib_check(path, members, require_stormlib),
             'mpq_v4': verify_container(path),
         }
@@ -153,7 +165,7 @@ def verify(folder, require_stormlib=False):
         return report
     finally:
         archive.close()
-        independent.close()
+        independent.file.close()
 
 
 if __name__ == '__main__':
