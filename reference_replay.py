@@ -76,7 +76,7 @@ def metadata(header: dict) -> dict:
         fields['m_replayCompatibilityHash'] = fields['m_fixedFileHash']
     for key in ('m_ngdpRootKey', 'm_replayCompatibilityHash'):
         raw = fields.get(key, {}).get('m_data')
-        if not isinstance(raw, bytes) or len(raw) != 16 or not any(raw):
+        if not isinstance(raw, bytes) or len(raw) != 16 or (key == 'm_ngdpRootKey' and not any(raw)):
             raise ValueError(f'Missing or invalid reference identifier: {key}')
     data_build = fields.get('m_dataBuildNum')
     if type(data_build) is not int or not 0 < data_build < 2**32:
@@ -163,6 +163,7 @@ def inspect_reference(path: Path, schema_build: int, expected_build: int | None 
                 'declared_base_matches_schema': target['m_version']['m_baseBuild'] == schema_build,
                 'observed_payload_roundtrip': True, 'all_target_event_types_proven': False,
                 'proven_authentic_by_signature': False, 'client_playback_validated': False,
+                'compatibility_hash_is_zero': not any(target['m_replayCompatibilityHash']['m_data']),
                 'streams': streams,
                 'limitations': ['Successful decoding covers only the event types present in this reference.',
                                 'A replay header is self-declared metadata, not an authenticity signature.',
