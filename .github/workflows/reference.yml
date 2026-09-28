@@ -8,6 +8,8 @@ on:
       - 'protocol_loader.py'
       - 'reference_replay.py'
       - 'test_reference.py'
+      - 'bind_client_metadata.py'
+      - 'test_client_binding.py'
       - 'scripts/fetch_public_reference.py'
   workflow_dispatch:
 
@@ -45,6 +47,8 @@ jobs:
       - name: Install and preserve pinned parser runtime
         run: |
           python -m pip install six==1.17.0 mpyq==0.2.5
+          sudo apt-get update -qq
+          sudo apt-get install -y libstorm-dev
           mkdir -p work/offline
           python - <<'PY'
           import shutil
@@ -53,27 +57,57 @@ jobs:
           PY
           tar -czf work/upstream-runtime.tar.gz -C _upstream heroprotocol LICENSE
           test "$(git -C _upstream rev-parse HEAD)" = "9af3ea7150f1a8acb53464c92519a9bbcc7a3594"
-      - name: Restore and test the immutable source
+      - name: Restore immutable source and published fixtures
         run: |
           python scripts/restore_artifact.py artifacts/TEN_GREYMANE_source_41810.StormReplay.base64 work/TEN_GREYMANE_source_41810.StormReplay --sha256 artifacts/TEN_GREYMANE_source_41810.StormReplay.sha256
-          python -m unittest -v test_reference 2>&1 | tee work/reference-tests.log
+          for build in 44256 57547 96477; do
+            base="checkpoints/$build/TEN_GREYMANE_protocol$build.StormReplay"
+            python scripts/restore_artifact.py "$base.base64" "$base" --sha256 "$base.sha256"
+          done
+      - name: Test exact decoding and isolated client binding
+        run: python -m unittest -v test_reference test_client_binding 2>&1 | tee work/reference-tests.log
       - name: Recheck every published protocol fixture
         run: |
           for build in 44256 57547 96477; do
             base="checkpoints/$build/TEN_GREYMANE_protocol$build.StormReplay"
-            python scripts/restore_artifact.py "$base.base64" "work/fixture-$build.StormReplay" --sha256 "$base.sha256"
-            python reference_replay.py inspect "work/fixture-$build.StormReplay" --schema-build "$build" --expected-build "$build" --output "work/fixture-$build.json"
+            python reference_replay.py inspect "$base" --schema-build "$build" --expected-build "$build" --output "work/fixture-$build.json"
           done
       - name: Attempt documented public reference discovery
         run: python scripts/fetch_public_reference.py --minimum-build 98025 --schema-build 96477 | tee work/reference-discovery.log
+      - name: Bind a compatible public reference without claiming playback
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+          from bind_client_metadata import bind
+          from migrate_replay import write_json
+          discovery = json.loads(Path('references/probes/discovery.json').read_text())
+          candidates = []
+          for filename in discovery['profiles'][:1]:
+              profile = json.loads(Path(filename).read_text())
+              replay_id = int(profile['provenance']['replay_id'])
+              build = int(profile['target']['m_version']['m_build'])
+              destination = Path('experiments') / str(build) / os.environ['GITHUB_RUN_ID']
+              result = bind(Path('checkpoints/96477'), Path(f'work/reference-donors/reference-{replay_id}.StormReplay'), destination, build, require_stormlib=True)
+              candidates.append({'folder': str(destination), 'sha256': result['artifact']['sha256'], 'client_playback_validated': False})
+          write_json('references/probes/client-experiments.json', {'candidates': candidates, 'discovery_status': discovery['status'], 'client_playback_validated': False})
+          PY
       - name: Publish discovery evidence and checkpoint history
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git switch -c reference-run-${GITHUB_RUN_ID}
           git add -- references/probes/*.json
+          python - <<'PY'
+          import subprocess
+          from pathlib import Path
+          files = [str(p) for p in Path('experiments').rglob('*') if p.is_file() and (p.suffix in ('.json', '.jsonl', '.sha256') or '.base64.part' in p.name)]
+          if files:
+              subprocess.run(['git', 'add', '--', *files], check=True)
+          PY
           if ! git diff --cached --quiet; then
-            git commit -m "Record measured public reference discovery for run ${GITHUB_RUN_ID}"
+            git commit -m "Record measured reference discovery and experiments for run ${GITHUB_RUN_ID}"
             git fetch origin main
             git rebase origin/main
             git push origin HEAD:main
@@ -86,9 +120,11 @@ jobs:
           retention-days: 30
           path: |
             references/probes/
+            experiments/
             work/reference-*.log
             work/reference-donors/
             work/fixture-*.json
+            work/binding-integration-test.json
             work/upstream-runtime.tar.gz
             work/offline/
             work/*.bundle
