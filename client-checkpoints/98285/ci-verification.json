@@ -1,0 +1,22 @@
+{
+  "format": "hots-client-candidate-ci-v1",
+  "run_id": 36478033637,
+  "tested_commit": "c1222c0b0de442835ca0fe4b6bef142a2fef628e",
+  "sha256": "2ecb09f353a30363ad59d04b04d439bb7f0ee623d832000d8d13f7a05dbb0486",
+  "official_candidate_all_streams_roundtrip": true,
+  "mpyq_all_members_equal": true,
+  "stormlib": {
+    "tested": true,
+    "all_members_equal": true,
+    "member_count": 14
+  },
+  "mpq_v4": {
+    "header_md5": true,
+    "table_md5": true,
+    "sizes": true,
+    "non_overlapping_regions": true
+  },
+  "reference_revalidated_this_run": false,
+  "client_playback_validated": false,
+  "simulation_compatibility_validated": false
+}
