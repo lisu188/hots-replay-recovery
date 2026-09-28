@@ -32,5 +32,12 @@
       "semantic_game_event_lines_changed": 10
     }
   ],
-  "next": "Acquire authentic build-43905 replay metadata/data hashes or equivalent build data, then cross the 44256 structural protocol boundary."
+  "next": "Cross the 44256 structural protocol boundary, validate semantic round-trip, then continue toward the newest compatible client build.",
+  "github": {
+    "repository": "lisu188/hots-replay-recovery",
+    "branch": "main",
+    "published_commit": "4248b86f194d08205d0168747a5629dbef4eaf89",
+    "binary_policy": "StormReplay artifacts are Base64 text split into deterministic .partNNN files; .sha256 verifies reconstruction"
+  },
+  "local_head_before_remote_sync": "dc52914"
 }
