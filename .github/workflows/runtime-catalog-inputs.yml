@@ -28,8 +28,13 @@ jobs:
           curl --fail --location --retry 2 --max-time 120 https://raw.githubusercontent.com/jamiephan/HeroesOfTheStorm_S2MA/2bc3715018424208faf200c141756d9a19f9aafa/s2ma/f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f.s2ma -o work/runtime-inputs/DragonShire-original.s2ma
           echo 'f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f  work/runtime-inputs/DragonShire-original.s2ma' | sha256sum --check
           dpkg-query -W libstorm9 libstorm-dev libtomcrypt1 libtommath1 > work/runtime-inputs/native-packages.txt
-          cp -L /usr/lib/x86_64-linux-gnu/libstorm.so.9 /usr/lib/x86_64-linux-gnu/libtomcrypt.so.1 /usr/lib/x86_64-linux-gnu/libtommath.so.1 work/runtime-inputs/native/
+          for soname in libstorm.so.9 libtomcrypt.so.1 libtommath.so.1; do
+            path=$(ldconfig -p | awk -v name="$soname" '$1 == name { print $NF; exit }')
+            test -n "$path"
+            cp -L "$path" "work/runtime-inputs/native/$soname"
+          done
           cp /usr/include/StormLib.h work/runtime-inputs/native/
+          curl --fail --location --retry 2 --max-time 120 https://raw.githubusercontent.com/jamiephan/HeroesOfTheStorm_Gamedata/0ef1ef4028b3725771c6dd28ca18753006b122d9/mods/heroesdata.stormmod/base.stormdata/triggerlibs/gamelib.galaxy -o work/runtime-inputs/gamelib-reference.galaxy
       - name: Read map script and dependency members without changing the map
         shell: bash
         run: |
