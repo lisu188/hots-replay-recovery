@@ -1,0 +1,11 @@
+{
+  "run_id": 36531011897,
+  "tested_commit": "4b8d1eac889aed427f7b458a7a8379627d66d54c",
+  "test_count": 96,
+  "repeated_generation_identical": true,
+  "matches_local_sha256": true,
+  "candidate_sha256": "20a11a37fb365a17511ad27a8f7d7ebafd11c69f630794108f9d92b9675406b5",
+  "code_sha256": "c58ec89767b657e6a9fe648c4076b8e5c3b18406fe11f2c7b336225485313508",
+  "private_donor_supplied_to_ci": false,
+  "client_playback_validated": false
+}

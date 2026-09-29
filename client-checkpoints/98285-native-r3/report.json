@@ -1,0 +1,67 @@
+{
+  "artifact": {
+    "base64_roundtrip_validated": true,
+    "name": "TEN_GREYMANE_client98285_NATIVE_R3_EXPERIMENTAL.StormReplay",
+    "parts": 22,
+    "sha256": "20a11a37fb365a17511ad27a8f7d7ebafd11c69f630794108f9d92b9675406b5",
+    "size": 1228709
+  },
+  "checks": {
+    "message_tracker_and_map_payloads_preserved": true,
+    "mpyq_payloads_equal": true,
+    "native_stormlib": {
+      "all_members_equal": true,
+      "member_count": 14,
+      "tested": true
+    },
+    "official_observed_payload_roundtrip": true,
+    "r2_lobby_preserved": true
+  },
+  "client_playback_validated": false,
+  "container": {
+    "after": {
+      "archive_bytes": 1227685,
+      "bet_present": true,
+      "header_md5": true,
+      "het_present": true,
+      "mpq_version": 4,
+      "raw_chunk_size": 16384
+    },
+    "before": {
+      "archive_bytes": 634116,
+      "bet_present": true,
+      "header_md5": true,
+      "het_present": true,
+      "mpq_version": 4,
+      "raw_chunk_size": 16384
+    },
+    "writer": "native-StormLib-preserve-extended-format"
+  },
+  "crash_fixed": null,
+  "declared_version": "2.57.0.98285",
+  "format": "hots-live-identity-r3",
+  "game_stream_changed_bytes_from_r2": 20,
+  "limitations": [
+    "Matches the supplied dated live-launch observation, not every future client.",
+    "The original reference profile is reused; CI does not receive private donor bytes.",
+    "R2 lobby and native format are retained, but their relationship to the old crash is unproven.",
+    "Official schema 96477 validates these payloads, not all possible 98285 structures.",
+    "Legacy map dependencies, opaque streams and simulation rules remain unresolved."
+  ],
+  "live_observation": {
+    "code_revision": 668324,
+    "data_build": 98285,
+    "executable_build": 98285,
+    "format": "hots-live-client-observation-v1",
+    "launch_kind": "Battle.net",
+    "observed_local": "2026-09-29T08:11:46.680",
+    "source_sha256": "737b3fefc164d72d608b9f22b5f04232933e213a147e3baa65b228d417dda20e",
+    "version": "2.57.0.98285"
+  },
+  "metadata_changes": 24,
+  "r2_sha256": "4c6adf30e2c5fc9440c46b2c614c09fc6d3d5d6ef4b4f57f68aaf9a92bbe4915",
+  "reference_sha256": "05ec458110db57dd5cf6c044cb6b7270d880282ec803abce725f048f91fc3e75",
+  "source_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+  "status": "experimental-awaiting-client-test",
+  "ui_old_label_removed": null
+}
