@@ -15,4 +15,10 @@
 
 ## Continuation state
 
-At resumption, remote main was c61aea118ce91ce64df487196778fab00658ebd7. The published replay checkpoint was 43905. Prior chat mentions later local work and a OneDrive bundle, but those are not sufficient evidence that a later checkpoint exists on GitHub. Reconstruct and verify missing milestones before claiming them complete.
+Read `progress.json` together with the latest supplement `observations/catalog-capture-2026-09-29.json` and `docs/CATALOG_CAPTURE_VALIDATION_2026-09-29.md`. The old 43905 bootstrap state is historical, not the current checkpoint.
+
+R5 loaded Dragon Shire but desynced at displayed 0:04. R6 repairs packed unit tags; R7 applies a bounded command-flag hypothesis. Neither R6 nor R7 has a confirmed successful client result. The standalone `TEN_GREYMANE_CATALOG_PROBE_98285.StormMap` is diagnostic, not a recovered replay.
+
+The capture importer was tested at `db77fea54f1d1b7ad52a610590cbf8bf9ef173e9`, CI run `36570998775`: 107 tests separately passed on Linux and Windows. It requires collector digests, complete same-session banks, consistent reported version evidence and 48 independent unit anchors. Even passing these checks is only eligibility for unit-catalog review, not authenticated runtime state or verified ability/simulation compatibility.
+
+The next concrete input is the user's `catalog-output-*.zip` produced by the diagnostic launcher. Search the OneDrive project and inspect that capture before generating another numerical mapping. Preserve and report any Galaxy/map error. Do not infer a successful export from the mere presence of the diagnostic package, a bank filename or an old log. Never suppress synchronization checks or substitute another match's sync values.
