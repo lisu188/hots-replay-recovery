@@ -1,0 +1,9 @@
+{
+  "run_id": 36526607713,
+  "tested_commit": "b840de2117e743f11f05d520604e927a488fc1b1",
+  "writer_sha256": "5b405c4c94f739e5e4bf01b1bcabe82720af996f8d046a5178b407eb254e093f",
+  "repeated_native_generation_identical": true,
+  "candidate_sha256": "4c6adf30e2c5fc9440c46b2c614c09fc6d3d5d6ef4b4f57f68aaf9a92bbe4915",
+  "native_writer_used": true,
+  "client_playback_validated": false
+}

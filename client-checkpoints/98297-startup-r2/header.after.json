@@ -1,0 +1,27 @@
+{
+  "m_dataBuildNum": 98297,
+  "m_elapsedGameLoops": 19732,
+  "m_ngdpRootKey": {
+    "m_data": {
+      "$bytes_base64": "TPViFAlfhjsxd2J3xVqPvw=="
+    }
+  },
+  "m_replayCompatibilityHash": {
+    "m_data": {
+      "$bytes_base64": "QXZxuSOlygutD1vsY8Kmjg=="
+    }
+  },
+  "m_signature": {
+    "$bytes_base64": "SGVyb2VzIG9mIHRoZSBTdG9ybSByZXBsYXkbMTE="
+  },
+  "m_type": 2,
+  "m_useScaledTime": false,
+  "m_version": {
+    "m_baseBuild": 98297,
+    "m_build": 98297,
+    "m_flags": 1,
+    "m_major": 2,
+    "m_minor": 57,
+    "m_revision": 0
+  }
+}
