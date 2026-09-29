@@ -1,0 +1,143 @@
+{
+  "all_observed_raw_resumable_streams_roundtrip": true,
+  "client_playback_validated": false,
+  "desync_cause_proven": false,
+  "format": "hots-resumable-layout-observation-v1",
+  "header_read_scope": "legacy versioned-header schema extracts stable version/elapsed fields only; not fresh full donor protocol validation",
+  "private_names_and_donor_binaries_included": false,
+  "references": [
+    {
+      "bytes": 592,
+      "declared_base_build": 93054,
+      "file_sha256": "3aadd2fd628125c9297290792ea97ae4b0c51cf2c6d9d9d450b26a5ad823d6f1",
+      "first_record_gameloop": 610,
+      "header_elapsed_loops": 17285,
+      "kind_counts": {
+        "1": 29,
+        "2": 7,
+        "3": 1,
+        "5": 1
+      },
+      "last_record_gameloop": 17284,
+      "layout": "modern-without-color",
+      "opposite_layout_rejected": true,
+      "order_decreases": 1,
+      "records": 38,
+      "roundtrip_exact": true,
+      "sha256": "b5ace4ea30980baa57ed9f6cedc37c95594f0545a705ce442119e4096fb997db",
+      "sync_all_prefixes_0140": true,
+      "sync_count_equals_full_64_loop_intervals": true,
+      "sync_record_bytes": 5,
+      "sync_record_count": 270
+    },
+    {
+      "bytes": 933,
+      "declared_base_build": 93054,
+      "file_sha256": "78b4d5ae26df7b11f0344c80fa9da49fdd6ddbe5a2927a2fb324c195bff0c459",
+      "first_record_gameloop": 498,
+      "header_elapsed_loops": 33801,
+      "kind_counts": {
+        "1": 52,
+        "2": 8,
+        "3": 1,
+        "5": 1
+      },
+      "last_record_gameloop": 33800,
+      "layout": "modern-without-color",
+      "opposite_layout_rejected": true,
+      "order_decreases": 1,
+      "records": 62,
+      "roundtrip_exact": true,
+      "sha256": "0c83fe949e418ce8af9cb0598c7a782d3a0dfa5ea2433ef2bb73e117df0ed7c7",
+      "sync_all_prefixes_0140": true,
+      "sync_count_equals_full_64_loop_intervals": true,
+      "sync_record_bytes": 5,
+      "sync_record_count": 528
+    },
+    {
+      "bytes": 317,
+      "declared_base_build": 98285,
+      "file_sha256": "05ec458110db57dd5cf6c044cb6b7270d880282ec803abce725f048f91fc3e75",
+      "first_record_gameloop": 610,
+      "header_elapsed_loops": 16239,
+      "kind_counts": {
+        "1": 13,
+        "2": 5,
+        "3": 1,
+        "5": 1
+      },
+      "last_record_gameloop": 16238,
+      "layout": "modern-without-color",
+      "opposite_layout_rejected": true,
+      "order_decreases": 1,
+      "records": 20,
+      "roundtrip_exact": true,
+      "sha256": "5e93ee598273d54c7dc339c45fcf6f6f07b6e9a81fe0257aee5724b90eb336e1",
+      "sync_all_prefixes_0140": true,
+      "sync_count_equals_full_64_loop_intervals": true,
+      "sync_record_bytes": 5,
+      "sync_record_count": 253
+    },
+    {
+      "bytes": 48,
+      "declared_base_build": 98285,
+      "file_sha256": "5a7b05f4a75bc229dbbd74e6cc09e3b411129fc731874cfaa9217432fb85e7dc",
+      "first_record_gameloop": 107,
+      "header_elapsed_loops": 17345,
+      "kind_counts": {
+        "1": 1,
+        "2": 2,
+        "3": 1,
+        "5": 1
+      },
+      "last_record_gameloop": 17344,
+      "layout": "modern-without-color",
+      "opposite_layout_rejected": true,
+      "order_decreases": 0,
+      "records": 4,
+      "roundtrip_exact": true,
+      "sha256": "7e360556bfbd697448792fafc3ab865f29145a840af34eb49f79ce2ed5cd804c",
+      "sync_all_prefixes_0140": true,
+      "sync_count_equals_full_64_loop_intervals": true,
+      "sync_record_bytes": 5,
+      "sync_record_count": 271
+    }
+  ],
+  "schema_status": "empirically observed layouts; no official resumable schema",
+  "source": {
+    "bytes": 1195,
+    "declared_base_build": 41810,
+    "file_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+    "first_record_gameloop": 61,
+    "header_elapsed_loops": 19732,
+    "kind_counts": {
+      "1": 61,
+      "2": 2,
+      "3": 1,
+      "5": 1
+    },
+    "last_record_gameloop": 19731,
+    "layout": "legacy-with-color",
+    "opposite_layout_rejected": true,
+    "order_decreases": 1,
+    "records": 65,
+    "roundtrip_exact": true,
+    "sha256": "149a6dc6b02f74b04801c2830ed5c0416c6204ab8e5760e758c102f21c7a7aa7",
+    "sync_all_prefixes_0140": true,
+    "sync_count_equals_full_64_loop_intervals": true,
+    "sync_record_bytes": 5,
+    "sync_record_count": 308
+  },
+  "source_color_crosscheck": {
+    "all_records_accounted_for": true,
+    "bgra_colors_match_details": 63,
+    "player_names_match_details": 63,
+    "player_records": 63,
+    "system_records_with_white_color": 2
+  },
+  "source_first_record_loop": 61,
+  "source_first_sync_interval_candidate_loop": 64,
+  "source_to_modern_bytes_removed": 260,
+  "source_to_modern_sha256": "2d439945492b06bb4a606451b81c73d7299dd0ce29fe1c9e36ce91621741735c",
+  "sync_interval_is_an_inference": true
+}
