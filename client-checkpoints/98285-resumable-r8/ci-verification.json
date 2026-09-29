@@ -1,0 +1,16 @@
+{
+  "run_id": 36578555002,
+  "tested_commit": "d961c6f9cfb68cb0ab09945acd846ebbcbb7e234",
+  "tests": 429,
+  "failed": 0,
+  "skipped": 0,
+  "repeated_native_generation_identical": true,
+  "candidate_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+  "matches_local_resumable_payload": true,
+  "original_player_color_records_checked": 63,
+  "planner_regeneration_identical": true,
+  "private_donor_supplied_to_ci": false,
+  "sync_payloads_unchanged": true,
+  "client_playback_validated": false,
+  "simulation_compatibility_validated": false
+}

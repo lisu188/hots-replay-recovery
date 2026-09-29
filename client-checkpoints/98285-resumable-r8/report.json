@@ -1,0 +1,233 @@
+{
+  "after": {
+    "bytes": 935,
+    "first_record_gameloop": 61,
+    "kind_counts": {
+      "1": 61,
+      "2": 2,
+      "3": 1,
+      "5": 1
+    },
+    "last_record_gameloop": 19731,
+    "layout": "modern-without-color",
+    "order_decreases": 1,
+    "records": 65,
+    "roundtrip_exact": true,
+    "sha256": "2d439945492b06bb4a606451b81c73d7299dd0ce29fe1c9e36ce91621741735c"
+  },
+  "artifact": {
+    "base64_roundtrip_validated": true,
+    "parts": 43,
+    "sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+    "size": 2438570
+  },
+  "before": {
+    "bytes": 1195,
+    "first_record_gameloop": 61,
+    "kind_counts": {
+      "1": 61,
+      "2": 2,
+      "3": 1,
+      "5": 1
+    },
+    "last_record_gameloop": 19731,
+    "layout": "legacy-with-color",
+    "order_decreases": 1,
+    "records": 65,
+    "roundtrip_exact": true,
+    "sha256": "149a6dc6b02f74b04801c2830ed5c0416c6204ab8e5760e758c102f21c7a7aa7"
+  },
+  "changed_payloads": [
+    "replay.resumable.events"
+  ],
+  "client_playback_validated": false,
+  "container": {
+    "after": {
+      "archive_bytes": 2437546,
+      "bet_present": true,
+      "header_md5": true,
+      "het_present": true,
+      "mpq_version": 4,
+      "raw_chunk_size": 16384
+    },
+    "before": {
+      "archive_bytes": 2437146,
+      "bet_present": true,
+      "header_md5": true,
+      "het_present": true,
+      "mpq_version": 4,
+      "raw_chunk_size": 16384
+    },
+    "writer": "native-StormLib-preserve-extended-format"
+  },
+  "desync_cause_proven": false,
+  "events": {
+    "game": 104257,
+    "message": 155,
+    "tracker": 6614
+  },
+  "exact_current_schema_verified": false,
+  "format": "hots-resumable-layout-experiment-v1",
+  "game_message_tracker_and_sync_payloads_identical": true,
+  "input_integrity": {
+    "all_available_checksums_passed": true,
+    "member_error_mask": 683,
+    "member_verification_flags": {
+      "(attributes)": 256,
+      "(listfile)": 336,
+      "replay.attributes.events": 336,
+      "replay.details": 336,
+      "replay.game.events": 336,
+      "replay.initData": 336,
+      "replay.load.info": 336,
+      "replay.message.events": 336,
+      "replay.resumable.events": 336,
+      "replay.server.battlelobby": 336,
+      "replay.smartcam.events": 336,
+      "replay.sync.events": 336,
+      "replay.sync.history": 256,
+      "replay.tracker.events": 336
+    },
+    "raw_table_results": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    }
+  },
+  "input_sha256": "3cedf89c901c98e43201542dba901797c222e9ce36215f4d234bd43dfc66581e",
+  "known_protocol_payload_roundtrip": true,
+  "limitations": [
+    "The resumable layout is inferred from complete observed source/reference streams, not an official schema.",
+    "Record-kind semantics are not assigned by this converter.",
+    "R7 command flags remain a hypothesis; unit catalogs, instance allocation and original simulation rules remain unresolved.",
+    "The original synchronization payloads are preserved, so this candidate may still desynchronize.",
+    "No HotS executable has played this candidate."
+  ],
+  "member_validation": {
+    "(attributes)": {
+      "after_sha256": "94546d1bdaac17d6d4cd9a145b9b1ad15b8a6a313bf96b70ceefbf49af754838",
+      "before_sha256": "a0071ba29cb812f1026d858f88fe2272a5c8fc08c2fbfd50a684246c3568a8fe",
+      "bytes_identical": false,
+      "independent_reader_equal": true
+    },
+    "(listfile)": {
+      "after_sha256": "153e197ae3c9c3e4f0bd46a0d449805ea2b78954744005f0a0f2565c36187469",
+      "before_sha256": "153e197ae3c9c3e4f0bd46a0d449805ea2b78954744005f0a0f2565c36187469",
+      "bytes_identical": true,
+      "independent_reader_equal": true
+    },
+    "replay.attributes.events": {
+      "after_sha256": "28cc7329f5a1f9b29eeb09dd605acfd9ba0f9cbcdd8e52fb3a0ed69e10dda6eb",
+      "before_sha256": "28cc7329f5a1f9b29eeb09dd605acfd9ba0f9cbcdd8e52fb3a0ed69e10dda6eb",
+      "bytes_identical": true,
+      "independent_reader_equal": true
+    },
+    "replay.details": {
+      "after_sha256": "e27e13151259842b5bceb09b40ff9ab7507ec8d0689b952bacc74b2f503a2e0e",
+      "before_sha256": "e27e13151259842b5bceb09b40ff9ab7507ec8d0689b952bacc74b2f503a2e0e",
+      "bytes_identical": true,
+      "independent_reader_equal": true
+    },
+    "replay.game.events": {
+      "after_sha256": "31df2ab80eeeb56bc543ea0744f75d4d2ec6a5c337b1f38f04ef90d169dab2f0",
+      "before_sha256": "31df2ab80eeeb56bc543ea0744f75d4d2ec6a5c337b1f38f04ef90d169dab2f0",
+      "bytes_identical": true,
+      "independent_reader_equal": true
+    },
+    "replay.initData": {
+      "after_sha256": "b0a805ada431290f170415e794942473044ee56d8ed7b684628e7c219e684e04",
+      "before_sha256": "b0a805ada431290f170415e794942473044ee56d8ed7b684628e7c219e684e04",
+      "bytes_identical": true,
+      "independent_reader_equal": true
+    },
+    "replay.load.info": {
+      "after_sha256": "7955cb2de90dd9efc6df9fdbf5f5d10c114f4135a9a6b52db1003be749e32f7a",
+      "before_sha256": "7955cb2de90dd9efc6df9fdbf5f5d10c114f4135a9a6b52db1003be749e32f7a",
+      "bytes_identical": true,
+      "independent_reader_equal": true
+    },
+    "replay.message.events": {
+      "after_sha256": "39cf78b40e26cdbdfa593e47f2030c150b825299df6da07edb1829dc0a68d627",
+      "before_sha256": "39cf78b40e26cdbdfa593e47f2030c150b825299df6da07edb1829dc0a68d627",
+      "bytes_identical": true,
+      "independent_reader_equal": true
+    },
+    "replay.resumable.events": {
+      "after_sha256": "2d439945492b06bb4a606451b81c73d7299dd0ce29fe1c9e36ce91621741735c",
+      "before_sha256": "149a6dc6b02f74b04801c2830ed5c0416c6204ab8e5760e758c102f21c7a7aa7",
+      "bytes_identical": false,
+      "independent_reader_equal": true
+    },
+    "replay.server.battlelobby": {
+      "after_sha256": "2902a33a450491e8717a8006cef4627f2c12d1c0b854fc4f698dc1de0ade9640",
+      "before_sha256": "2902a33a450491e8717a8006cef4627f2c12d1c0b854fc4f698dc1de0ade9640",
+      "bytes_identical": true,
+      "independent_reader_equal": true
+    },
+    "replay.smartcam.events": {
+      "after_sha256": "290cdc9f59d6ea5e7c0c6cdfe52b7c8f21164be2599b8b3507eebe01f435cdea",
+      "before_sha256": "290cdc9f59d6ea5e7c0c6cdfe52b7c8f21164be2599b8b3507eebe01f435cdea",
+      "bytes_identical": true,
+      "independent_reader_equal": true
+    },
+    "replay.sync.events": {
+      "after_sha256": "62a68b50c8cf0c94da98403dad8cda0f92e02580ec9590b2b32815ee32f8d8ae",
+      "before_sha256": "62a68b50c8cf0c94da98403dad8cda0f92e02580ec9590b2b32815ee32f8d8ae",
+      "bytes_identical": true,
+      "independent_reader_equal": true
+    },
+    "replay.sync.history": {
+      "after_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "before_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes_identical": true,
+      "independent_reader_equal": true
+    },
+    "replay.tracker.events": {
+      "after_sha256": "1a9a556f9f1fde466d17c4a3a3fbb31cbec8d8086bef97efeb796f1f5175245f",
+      "before_sha256": "1a9a556f9f1fde466d17c4a3a3fbb31cbec8d8086bef97efeb796f1f5175245f",
+      "bytes_identical": true,
+      "independent_reader_equal": true
+    }
+  },
+  "observation_sha256": "c72fad298d71b0450353045f82807f2a7d4c0a145276caca948d0fe688bf9702",
+  "old_stream_reconstructible_from_audit": true,
+  "output_integrity": {
+    "all_available_checksums_passed": true,
+    "member_error_mask": 683,
+    "member_verification_flags": {
+      "(attributes)": 256,
+      "(listfile)": 336,
+      "replay.attributes.events": 336,
+      "replay.details": 336,
+      "replay.game.events": 336,
+      "replay.initData": 336,
+      "replay.load.info": 336,
+      "replay.message.events": 336,
+      "replay.resumable.events": 336,
+      "replay.server.battlelobby": 336,
+      "replay.smartcam.events": 336,
+      "replay.sync.events": 336,
+      "replay.sync.history": 256,
+      "replay.tracker.events": 336
+    },
+    "raw_table_results": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    }
+  },
+  "protocol_schema_provider": "Blizzard/heroprotocol",
+  "record_order_preserved": true,
+  "removed_color_fields": 65,
+  "resumable_layout_is_official_schema": false,
+  "schema_build": 96477,
+  "simulation_compatibility_validated": false,
+  "status": "partial-format-repair-not-client-validated",
+  "sync_checks_removed_or_disabled": false
+}
