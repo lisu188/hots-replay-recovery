@@ -1,0 +1,156 @@
+name: Partial R6 unit tag migration
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/unit-tags.yml'
+      - 'repair_unit_tags.py'
+      - 'test_unit_tags.py'
+      - 'observations/unit-tags-98285-2026-09-29.json'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: unit-tags-r6
+  cancel-in-progress: false
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    env:
+      PYTHONPATH: ${{ github.workspace }}/_upstream:${{ github.workspace }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          ref: ${{ github.sha }}
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          repository: Blizzard/heroprotocol
+          ref: 9af3ea7150f1a8acb53464c92519a9bbcc7a3594
+          path: _upstream
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.13'
+      - name: Install independent readers and native writer
+        run: |
+          python -m pip install six==1.17.0 mpyq==0.2.5
+          sudo apt-get update -qq
+          sudo apt-get install -y libstorm-dev
+          mkdir -p work
+          dpkg-query -W libstorm9 libstorm-dev > work/unit-tags-native-packages.txt
+      - name: Check reviewed source and restore immutable R5
+        run: |
+          python - <<'PY'
+          import hashlib
+          import json
+          from pathlib import Path
+          expected = {'repair_unit_tags.py': '43ec99d34aafd73f3c5f3f29d56fcffcc199e5d075f2a344cd7c8064377704e2',
+                      'test_unit_tags.py': 'ed1de8ea0c971b90f7259adc1f914a02625a1921ae6bb20d1aba3c3b264ea969'}
+          for name, digest in expected.items():
+              if hashlib.sha256(Path(name).read_bytes()).hexdigest() != digest:
+                  raise RuntimeError('Reviewed source differs: ' + name)
+          observation = json.loads(Path('observations/unit-tags-98285-2026-09-29.json').read_text())
+          canonical = json.dumps(observation, sort_keys=True, separators=(',', ':')).encode()
+          if hashlib.sha256(canonical).hexdigest() != '81e50ad624bfbda58fe12cf448551eb68629a6bef54628eecc4f2c33e678ccfe':
+              raise RuntimeError('Reference evidence differs from local observations')
+          PY
+          r5=client-checkpoints/98285-dragon-r5/TEN_GREYMANE_client98285_DRAGON_R5_EXPERIMENTAL.StormReplay
+          python scripts/restore_artifact.py "$r5.base64" work/R5.StormReplay --sha256 "$r5.sha256"
+      - name: Run unit tag regression tests
+        run: python -m unittest -v test_unit_tags 2>&1 | tee work/unit-tags-tests.log
+      - name: Generate partial checkpoint twice without modifying sync records
+        run: |
+          python repair_unit_tags.py --source work/R5.StormReplay --observation observations/unit-tags-98285-2026-09-29.json --output work/tags-r6 | tee work/unit-tags-build.log
+          python repair_unit_tags.py --source work/R5.StormReplay --observation observations/unit-tags-98285-2026-09-29.json --output work/tags-r6-repeat > work/unit-tags-repeat.log
+          cmp work/tags-r6/*.StormReplay work/tags-r6-repeat/*.StormReplay
+          python - <<'PY'
+          import hashlib
+          import json
+          import os
+          import re
+          from pathlib import Path
+          from mpq_reader import MPQArchive
+          from repair_unit_tags import read_streams, references, components
+          report = json.loads(Path('work/tags-r6/report.json').read_text())
+          if report['changed_tag_values'] != 15301 or report['changed_events'] != 15293:
+              raise RuntimeError('Unexpected migration scope')
+          if report['events'] != {'game': 104257, 'message': 155, 'tracker': 6614}:
+              raise RuntimeError('Replay event counts changed')
+          if report['status'] != 'partial-format-repair-not-playback-ready':
+              raise RuntimeError('Partial checkpoint misclassified')
+          for key in ('client_playback_validated', 'simulation_compatibility_validated', 'sync_checks_removed_or_disabled'):
+              if report[key] is not False:
+                  raise RuntimeError('Unsupported playback claim or disabled check: ' + key)
+          candidate = next(Path('work/tags-r6').glob('*.StormReplay'))
+          before, tracker = read_streams(Path('work/R5.StormReplay'))
+          after, after_tracker = read_streams(candidate)
+          if after_tracker != tracker:
+              raise RuntimeError('Tracker changed')
+          left, right = list(references(before)), list(references(after))
+          if len(left) != len(right):
+              raise RuntimeError('Reference count changed')
+          for old, new in zip(left, right):
+              if old[:2] != new[:2]:
+                  raise RuntimeError('Event/path changed')
+              if old[4] in (0, 0xffffffff):
+                  if old[4] != new[4]:
+                      raise RuntimeError('Sentinel changed')
+              elif components(old[4], 18) != components(new[4], 22):
+                  raise RuntimeError('Unit index or recycle counter changed')
+          a, b = MPQArchive('work/R5.StormReplay'), MPQArchive(candidate)
+          try:
+              for member in ('replay.sync.events', 'replay.sync.history'):
+                  if a.read_file(member) != b.read_file(member):
+                      raise RuntimeError('Synchronization payload changed: ' + member)
+          finally:
+              a.close()
+              b.close()
+          log = Path('work/unit-tags-tests.log').read_text()
+          count = int(re.search(r'Ran (\d+) tests', log)[1])
+          if count != 35 or 'skipped' in log.lower() or not log.rstrip().endswith('OK'):
+              raise RuntimeError('Unit tests incomplete')
+          result = {'run_id': int(os.environ['GITHUB_RUN_ID']), 'tested_commit': os.environ['GITHUB_SHA'],
+                    'unit_tests_passed': count, 'native_integration_passed': True,
+                    'repeated_generation_identical': True, 'all_tag_components_preserved': True,
+                    'sync_payloads_unchanged': True, 'candidate_sha256': hashlib.sha256(candidate.read_bytes()).hexdigest(),
+                    'private_donor_supplied_to_ci': False, 'client_playback_validated': False,
+                    'simulation_compatibility_validated': False}
+          Path('work/tags-r6/ci-verification.json').write_text(json.dumps(result, indent=2) + '\n')
+          PY
+      - name: Publish partial text checkpoint
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git switch -c unit-tags-r6-${GITHUB_RUN_ID}
+          mkdir -p client-checkpoints/98285-unit-tags-r6
+          cp work/tags-r6/*.json work/tags-r6/*.jsonl work/tags-r6/*.sha256 work/tags-r6/*.base64.part* client-checkpoints/98285-unit-tags-r6/
+          git add -- client-checkpoints/98285-unit-tags-r6
+          git commit -m "Publish partial unit-tag R6 checkpoint for run ${GITHUB_RUN_ID}"
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
+      - name: Preserve complete source history
+        if: always()
+        run: |
+          mkdir -p work
+          git bundle create work/unit-tags-r6-source.bundle --all
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: unit-tags-r6-${{ github.run_id }}
+          retention-days: 30
+          path: |
+            work/tags-r6/
+            work/unit-tags-*.log
+            work/unit-tags-native-packages.txt
+            work/unit-tags-r6-source.bundle
