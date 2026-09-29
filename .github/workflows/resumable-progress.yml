@@ -1,0 +1,105 @@
+name: Record verified R8 progress
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/resumable-progress.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: replay-checkpoint-progress
+  cancel-in-progress: false
+
+jobs:
+  record:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 0
+      - name: Verify published artifact and preserve unrelated progress
+        shell: bash
+        run: |
+          mkdir -p work
+          python - <<'PY'
+          import base64
+          import copy
+          import hashlib
+          import json
+          import subprocess
+          from pathlib import Path
+          key = '98285-resumable-r8'
+          folder = Path('client-checkpoints') / key
+          report = json.loads((folder / 'report.json').read_text())
+          ci = json.loads((folder / 'ci-verification.json').read_text())
+          expected = '4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19'
+          parts = sorted(folder.glob('*.base64.part*'))
+          restored = base64.b64decode(''.join(''.join(p.read_text().split()) for p in parts), validate=True)
+          if hashlib.sha256(restored).hexdigest() != expected or report['artifact']['sha256'] != expected or ci['candidate_sha256'] != expected or len(parts) != 43:
+              raise RuntimeError('R8 artifact reconstruction differs')
+          if ci['run_id'] != 36578555002 or ci['tests'] != 429 or ci['failed'] or ci['skipped']:
+              raise RuntimeError('Unverified R8 CI record')
+          if not ci['sync_payloads_unchanged'] or report['client_playback_validated'] or report['desync_cause_proven']:
+              raise RuntimeError('Unproven playback or altered synchronization')
+          p = json.loads(Path('progress.json').read_text())
+          old = copy.deepcopy(p)
+          if p.get('latest_partial_checkpoint_id') not in ('98285-flags-r7', key):
+              raise RuntimeError('A newer checkpoint must not be replaced by this historical workflow')
+          publication = subprocess.check_output(['git', 'log', '-1', '--format=%H', '--', str(folder)], text=True).strip()
+          p['client_candidates'][key] = {
+              'build': 98285, 'name': 'TEN_GREYMANE_client98285_RESUMABLE_R8_PARTIAL.StormReplay',
+              'status': 'partial-format-repair-not-client-validated', 'report': str(folder / 'report.json'),
+              'documentation': 'docs/RESUMABLE_LAYOUT_R8_2026-09-29.md',
+              'input_sha256': report['input_sha256'], 'sha256': expected,
+              'size': len(restored), 'base64_parts': len(parts), 'changed_payloads': report['changed_payloads'],
+              'removed_color_fields': 65, 'resumable_bytes_before': 1195, 'resumable_bytes_after': 935,
+              'original_resumable_reconstructible': True, 'all_other_replay_payloads_preserved': True,
+              'ci_run': ci['run_id'], 'ci_conclusion': 'success', 'ci_tests_passed': 429,
+              'ci_tests_failed': 0, 'ci_tests_skipped': 0, 'local_focused_tests_passed': 178,
+              'new_resumable_tests': 42, 'recovered_planner_tests': 29,
+              'native_generation_locally_run': False, 'native_ci_validation_passed': True,
+              'private_reference_replays_published': False, 'sync_checks_removed_or_disabled': False,
+              'client_playback_tested': False, 'client_playback_validated': False,
+              'desync_cause_proven': False, 'simulation_compatibility_validated': False}
+          p['latest_client_candidate_id'] = key
+          p['latest_partial_checkpoint_id'] = key
+          p['next'] = 'Test the exact RESUMABLE_R8_PARTIAL replay and record its first error and displayed time. Continue validating a fresh runtime catalog capture when available. No sync check is removed; catalog indices, unit allocation and old simulation rules remain unresolved.'
+          p['github'].update(last_completed_actions_run_id=ci['run_id'], last_completed_actions_conclusion='success',
+                             latest_partial_checkpoint_commit=publication, latest_client_candidate_report_commit=publication,
+                             published_commit=publication, latest_resumable_tested_commit=ci['tested_commit'])
+          p['catalog_migration_plan'] = {'code': 'plan_catalog_migration.py', 'recovered_local_commit': 'd823ea8',
+              'source_links': 49, 'source_fields': 12557, 'source_ability_links': 54,
+              'runtime_capture_observed': False, 'reviewable_links_without_capture': 0,
+              'tests': 29, 'covered_by_ci_run': ci['run_id'], 'source_or_replay_modified': False}
+          changed = {'client_candidates', 'latest_client_candidate_id', 'latest_partial_checkpoint_id', 'next', 'github', 'catalog_migration_plan'}
+          for name, value in old.items():
+              if name not in changed and p[name] != value:
+                  raise RuntimeError('Unrelated progress changed: ' + name)
+          for name, value in old['client_candidates'].items():
+              if name != key and p['client_candidates'][name] != value:
+                  raise RuntimeError('Historical checkpoint changed: ' + name)
+          Path('progress.json').write_text(json.dumps(p, indent=2) + '\n')
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git switch -c resumable-progress-${GITHUB_RUN_ID}
+          git add -- progress.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Record verified partial R8 progress for run ${GITHUB_RUN_ID}"
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
+          fi
+          cp progress.json work/progress.json
+          git bundle create work/resumable-progress-source.bundle --all
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: resumable-progress-${{ github.run_id }}
+          path: work/
+          retention-days: 30
