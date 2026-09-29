@@ -1,0 +1,98 @@
+name: Current catalog declaration investigation
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/catalog-input.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: catalog-input-investigation
+  cancel-in-progress: false
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  inspect:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - name: Fetch and verify the reviewed extractor release
+        run: |
+          mkdir -p work/catalog work/extractor work/raw
+          curl --fail --location --retry 2 --max-time 120 'https://github.com/HeroesToolChest/HeroesDataParser/releases/download/v5.1.0/HeroesDataParser.5.1.0-scd-linux-x64.tar.gz' -o work/extractor.tar.gz
+          echo 'd5db68a8659456c287df3ed65d64c4786a6501e8f1c638008c81032e90da9f9d  work/extractor.tar.gz' | sha256sum --check
+          tar -xzf work/extractor.tar.gz -C work/extractor
+          executable=$(find "$PWD/work/extractor" -type f -name HeroesDataParser)
+          test -n "$executable"
+          test "$(printf '%s\n' "$executable" | wc -l)" -eq 1
+          chmod +x "$executable"
+          printf 'HDP=%s\n' "$executable" >> "$GITHUB_ENV"
+          "$executable" --version | tee work/catalog/extractor-version.log
+          "$executable" casc-extract --help > work/catalog/extractor-help.log
+      - name: Require the live source to report the reference version
+        run: |
+          timeout 180 "$HDP" online --heroes-version 2>&1 | tee work/catalog/live-version.log
+          python - <<'PY'
+          import re
+          from pathlib import Path
+          raw = Path('work/catalog/live-version.log').read_text()
+          versions = set(re.findall(r'\b2\.[0-9]+\.[0-9]+\.[0-9]+(?:_ptr)?\b', raw))
+          if versions != {'2.57.0.98285'}:
+              raise RuntimeError('Do not substitute other client data: ' + repr(versions))
+          PY
+      - name: Extract only data and dependency descriptions into temporary storage
+        run: |
+          timeout 420 "$HDP" casc-extract online -i '**/gamedata/**' -i '**/gamedata.xml' -i '**/documentinfo' -i '**/buildid.txt' -o "$PWD/work/raw" 2>&1 | tee work/catalog/extraction.log
+      - name: Export declaration identities, ordering evidence and content digests only
+        run: |
+          python - <<'PY'
+          import hashlib
+          import json
+          import os
+          import xml.etree.ElementTree as ET
+          from pathlib import Path
+          root = Path('work/raw')
+          records = []
+          metadata = []
+          for path in sorted(root.rglob('*')):
+              if not path.is_file():
+                  continue
+              if path.is_symlink() or path.stat().st_size > 64 * 1024 * 1024:
+                  raise RuntimeError('Unexpected extracted file')
+              raw = path.read_bytes()
+              record = {'path': path.relative_to(root).as_posix(), 'bytes': len(raw), 'sha256': hashlib.sha256(raw).hexdigest()}
+              if path.name.lower() == 'hdp.info':
+                  metadata.append(json.loads(raw))
+              if path.suffix.lower() == '.xml' or path.name.lower() == 'documentinfo':
+                  element = ET.fromstring(raw)
+                  entries = []
+                  for index, child in enumerate(element):
+                      tag = child.tag.rsplit('}', 1)[-1]
+                      if tag.startswith(('CUnit', 'CAbil')):
+                          entries.append({'order': index, 'tag': tag, 'id': child.get('id'), 'default': child.get('default'), 'parent': child.get('parent')})
+                  if entries:
+                      record['declarations'] = entries
+                  if path.name.lower() in ('gamedata.xml', 'documentinfo'):
+                      record['load_references'] = [{'tag': item.tag.rsplit('}', 1)[-1], 'attributes': dict(item.attrib), 'text': (item.text or '').strip()} for item in element.iter() if item is not element and (item.attrib or (item.text or '').strip())]
+              records.append(record)
+          if not records or not any(row.get('declarations') for row in records):
+              raise RuntimeError('No unit or ability declaration evidence extracted')
+          result = {'format': 'hots-catalog-declarations-v1', 'expected_build': 98285, 'extractor_release': '5.1.0', 'extractor_sha256': 'd5db68a8659456c287df3ed65d64c4786a6501e8f1c638008c81032e90da9f9d', 'run_id': os.environ['GITHUB_RUN_ID'], 'extraction_metadata': metadata, 'files': records, 'catalog_indices_validated': False, 'raw_game_assets_exported': False, 'client_playback_validated': False}
+          Path('work/catalog/declarations.json').write_text(json.dumps(result, indent=2) + '\n')
+          print('Exported identity/order evidence from', len(records), 'files; no replay changed')
+          PY
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: catalog-input-${{ github.run_id }}
+          retention-days: 30
+          path: work/catalog/
