@@ -1,0 +1,111 @@
+{
+  "all_event_stream_bytes_identical": true,
+  "all_masks_equal_reference": true,
+  "artifact": {
+    "base64_roundtrip_validated": true,
+    "name": "TEN_GREYMANE_client98285_CONTROLS_R4_EXPERIMENTAL.StormReplay",
+    "parts": 22,
+    "sha256": "edd690c6956b48c1592edf946bc8e01e012220c961b04cf3d86ec983c808367c",
+    "size": 1230829
+  },
+  "cause_of_rejection_proven": false,
+  "changed_replay_members": [
+    "replay.initData"
+  ],
+  "client_playback_validated": false,
+  "container": {
+    "after": {
+      "archive_bytes": 1229805,
+      "bet_present": true,
+      "header_md5": true,
+      "het_present": true,
+      "mpq_version": 4,
+      "raw_chunk_size": 16384
+    },
+    "before": {
+      "archive_bytes": 1227685,
+      "bet_present": true,
+      "header_md5": true,
+      "het_present": true,
+      "mpq_version": 4,
+      "raw_chunk_size": 16384
+    },
+    "writer": "native-StormLib-preserve-extended-format"
+  },
+  "declared_build": 98285,
+  "format": "hots-control-mask-experiment-v1",
+  "header_bytes_identical": true,
+  "input_integrity": {
+    "all_available_checksums_passed": true,
+    "member_error_mask": 683,
+    "member_verification_flags": {
+      "(attributes)": 256,
+      "(listfile)": 336,
+      "replay.attributes.events": 336,
+      "replay.details": 336,
+      "replay.game.events": 336,
+      "replay.initData": 336,
+      "replay.load.info": 336,
+      "replay.message.events": 336,
+      "replay.resumable.events": 336,
+      "replay.server.battlelobby": 336,
+      "replay.smartcam.events": 336,
+      "replay.sync.events": 336,
+      "replay.sync.history": 256,
+      "replay.tracker.events": 336
+    },
+    "raw_table_results": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    }
+  },
+  "input_sha256": "20a11a37fb365a17511ad27a8f7d7ebafd11c69f630794108f9d92b9675406b5",
+  "limitations": [
+    "The observed ten-bit width is not proof that fifteen-bit masks cause rejection.",
+    "The removed suffix contains five set bits for ten player slots and five zero bits for six observer slots.",
+    "All leading ten bits are preserved; this changes allowed-control descriptors, not gameplay commands.",
+    "Legacy battlelobby, dependency and synchronization payloads remain unconverted.",
+    "No HotS executable was run by this generator."
+  ],
+  "metadata_changes": 16,
+  "mpyq_members_equal": true,
+  "new_lobby_bytes": 4222,
+  "observed_payload_roundtrip": true,
+  "old_lobby_bytes": 4232,
+  "other_replay_member_bytes_identical": true,
+  "output_integrity": {
+    "all_available_checksums_passed": true,
+    "member_error_mask": 683,
+    "member_verification_flags": {
+      "(attributes)": 256,
+      "(listfile)": 336,
+      "replay.attributes.events": 336,
+      "replay.details": 336,
+      "replay.game.events": 336,
+      "replay.initData": 336,
+      "replay.load.info": 336,
+      "replay.message.events": 336,
+      "replay.resumable.events": 336,
+      "replay.server.battlelobby": 336,
+      "replay.smartcam.events": 336,
+      "replay.sync.events": 336,
+      "replay.sync.history": 256,
+      "replay.tracker.events": 336
+    },
+    "raw_table_results": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    }
+  },
+  "reference_sha256": "05ec458110db57dd5cf6c044cb6b7270d880282ec803abce725f048f91fc3e75",
+  "schema_build": 96477,
+  "status": "experimental-awaiting-client-test"
+}
