@@ -8,6 +8,8 @@ on:
       - 'repair_dragon_dependencies.py'
       - 'test_dragon_dependencies.py'
       - 'test_empty_mpq_members.py'
+      - 'test_mpyq_empty_members.py'
+      - 'bind_client_metadata.py'
       - 'mpq_reader.py'
       - 'observations/dragon-98285-2026-09-29.json'
   workflow_dispatch:
@@ -61,7 +63,7 @@ jobs:
           r4=client-checkpoints/98285-controls-r4/TEN_GREYMANE_client98285_CONTROLS_R4_EXPERIMENTAL.StormReplay
           python scripts/restore_artifact.py "$r4.base64" work/R4.StormReplay --sha256 "$r4.sha256"
       - name: Test R5 and existing regressions
-        run: python -m unittest -v test_empty_mpq_members test_dragon_dependencies test_control_masks test_live_identity test_startup test_reference test_client_binding test_reproduce_client test_playback_diagnostics test_repack_control 2>&1 | tee work/dragon-tests.log
+        run: python -m unittest -v test_mpyq_empty_members test_empty_mpq_members test_dragon_dependencies test_control_masks test_live_identity test_startup test_reference test_client_binding test_reproduce_client test_playback_diagnostics test_repack_control 2>&1 | tee work/dragon-tests.log
       - name: Generate and independently validate twice
         run: |
           python repair_dragon_dependencies.py --source work/R4.StormReplay --observation observations/dragon-98285-2026-09-29.json --output work/dragon-r5 | tee work/dragon-build.log
@@ -86,8 +88,8 @@ jobs:
           if 'skipped' in log.lower() or not log.rstrip().endswith('OK'):
               raise RuntimeError('The complete test suite did not pass')
           count = int(re.search(r'Ran (\d+) tests', log)[1])
-          if count < 157:
-              raise RuntimeError('Expected at least 157 tests')
+          if count < 166:
+              raise RuntimeError('Expected at least 166 tests')
           result = {'run_id': int(os.environ['GITHUB_RUN_ID']), 'tested_commit': os.environ['GITHUB_SHA'],
                     'test_count': count, 'repeated_generation_identical': True, 'matches_local_sha256': True,
                     'candidate_sha256': report['artifact']['sha256'], 'source_pins': expected,
@@ -100,9 +102,37 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git switch -c dragon-r5-${GITHUB_RUN_ID}
+          git fetch origin main
+          git rebase origin/main
           mkdir -p client-checkpoints/98285-dragon-r5
           cp work/dragon-r5/*.json work/dragon-r5/*.jsonl work/dragon-r5/*.sha256 work/dragon-r5/*.base64.part* client-checkpoints/98285-dragon-r5/
-          git add -- client-checkpoints/98285-dragon-r5
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          report = json.loads(Path('work/dragon-r5/report.json').read_text())
+          verification = json.loads(Path('work/dragon-r5/ci-verification.json').read_text())
+          path = Path('progress.json')
+          progress = json.loads(path.read_text())
+          progress['latest_client_candidate'] = 98285
+          progress['latest_client_candidate_id'] = '98285-dragon-r5'
+          progress['client_candidates']['98285-dragon-r5'] = {
+              'status': 'experimental-awaiting-client-test', 'build': 98285,
+              'report': 'client-checkpoints/98285-dragon-r5/report.json',
+              'name': report['artifact']['name'], 'sha256': report['artifact']['sha256'],
+              'size': report['artifact']['size'], 'base64_parts': report['artifact']['parts'],
+              'reference_sha256': report['reference_sha256'],
+              'changed_members': report['changed_members'], 'metadata_changes': report['changes'],
+              'header_bytes_preserved': report['header_bytes_preserved'],
+              'all_event_bytes_preserved': report['all_event_bytes_preserved'],
+              'ci_run': verification['run_id'], 'ci_validation_passed': True,
+              'tests_passed': verification['test_count'], 'tests_skipped': 0,
+              'same_map_dependencies': 6, 'private_donor_published': False,
+              'client_playback_validated': False, 'simulation_compatibility_validated': False}
+          progress['next'] = 'Test TEN_GREYMANE_client98285_DRAGON_R5_EXPERIMENTAL.StormReplay. Same-map dependency metadata is updated in three members; header and all event streams are unchanged. Record whether mod-data validation passes, map loading starts and the match clock advances. Do not equate parser checks with playback.'
+          progress.setdefault('playback_investigation', {})['next_trial'] = '98285-dragon-r5'
+          path.write_text(json.dumps(progress, indent=2) + '\n')
+          PY
+          git add -- client-checkpoints/98285-dragon-r5 progress.json
           git commit -m "Publish same-map R5 checkpoint for run ${GITHUB_RUN_ID}"
           git fetch origin main
           git rebase origin/main
