@@ -44,18 +44,19 @@
     "binary_policy": "StormReplay artifacts are Base64 text split into deterministic .partNNN files; .sha256 verifies reconstruction",
     "branch": "main",
     "last_completed_actions_conclusion": "success",
-    "last_completed_actions_run_id": 36556354489,
+    "last_completed_actions_run_id": 36578555002,
     "latest_verified_checkpoint_commit": "161e3d2b5be3e1b139b3a5d045bcc7469a57602e",
-    "published_commit": "56562bdf3add773c2fce88f91395f8a1eea2db94",
+    "published_commit": "18e12d356370ed0d8c633a7f02b807451c4eb096",
     "repository": "lisu188/hots-replay-recovery",
-    "latest_client_candidate_report_commit": "10da5cead2291528932abb9c1e392701d9aa05bd",
+    "latest_client_candidate_report_commit": "18e12d356370ed0d8c633a7f02b807451c4eb096",
     "latest_session_documentation_commit": "56562bdf3add773c2fce88f91395f8a1eea2db94",
     "latest_diagnostic_code_commit": "8be19b63863e3a759702764d681dc453858bd10c",
     "latest_diagnostic_documentation_commit": "ae922066e039b896fe175fb62421ad9fbae0d247",
-    "latest_partial_checkpoint_commit": "10da5cead2291528932abb9c1e392701d9aa05bd",
+    "latest_partial_checkpoint_commit": "18e12d356370ed0d8c633a7f02b807451c4eb096",
     "previous_progress_snapshot_commit": "f09fdb4aa4c72df3ff87983ab30d65a495dcc49f",
     "latest_runtime_diagnostic_validation_run": 36568633021,
-    "latest_runtime_diagnostic_code_commit": "821932f673de89e1196d27da53aed5f9669556e1"
+    "latest_runtime_diagnostic_code_commit": "821932f673de89e1196d27da53aed5f9669556e1",
+    "latest_resumable_tested_commit": "d961c6f9cfb68cb0ab09945acd846ebbcbb7e234"
   },
   "historical_checkpoint_warning": "The build-43905 artifact predates MPQ-v4 integrity reconstruction; retain for history, not client playback proof.",
   "json_projection": "hots-replay-json-v2-native-bitvectors",
@@ -63,7 +64,7 @@
   "latest_client_candidate": 98285,
   "legacy_json_projection": "hots-replay-json-v1",
   "local_head_before_remote_sync": "dc52914",
-  "next": "Run the separate hash-checked catalog diagnostic map outside the game installation, collect its dedicated HRC98285 bank ZIP, confirm actual executable version and all reference anchors before using exported indices. R7 remains partial and unverified in the game; preserve synchronization checks.",
+  "next": "Test the exact RESUMABLE_R8_PARTIAL replay and record its first error and displayed time. Continue validating a fresh runtime catalog capture when available. No sync check is removed; catalog indices, unit allocation and old simulation rules remain unresolved.",
   "observed_target_client": {
     "build": 98285,
     "version": "2.57.0.98285",
@@ -317,6 +318,41 @@
       "client_playback_tested": false,
       "client_playback_validated": false,
       "simulation_compatibility_validated": false
+    },
+    "98285-resumable-r8": {
+      "build": 98285,
+      "name": "TEN_GREYMANE_client98285_RESUMABLE_R8_PARTIAL.StormReplay",
+      "status": "partial-format-repair-not-client-validated",
+      "report": "client-checkpoints/98285-resumable-r8/report.json",
+      "documentation": "docs/RESUMABLE_LAYOUT_R8_2026-09-29.md",
+      "input_sha256": "3cedf89c901c98e43201542dba901797c222e9ce36215f4d234bd43dfc66581e",
+      "sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "size": 2438570,
+      "base64_parts": 43,
+      "changed_payloads": [
+        "replay.resumable.events"
+      ],
+      "removed_color_fields": 65,
+      "resumable_bytes_before": 1195,
+      "resumable_bytes_after": 935,
+      "original_resumable_reconstructible": true,
+      "all_other_replay_payloads_preserved": true,
+      "ci_run": 36578555002,
+      "ci_conclusion": "success",
+      "ci_tests_passed": 429,
+      "ci_tests_failed": 0,
+      "ci_tests_skipped": 0,
+      "local_focused_tests_passed": 178,
+      "new_resumable_tests": 42,
+      "recovered_planner_tests": 29,
+      "native_generation_locally_run": false,
+      "native_ci_validation_passed": true,
+      "private_reference_replays_published": false,
+      "sync_checks_removed_or_disabled": false,
+      "client_playback_tested": false,
+      "client_playback_validated": false,
+      "desync_cause_proven": false,
+      "simulation_compatibility_validated": false
     }
   },
   "onedrive_backup": {
@@ -485,7 +521,7 @@
     },
     "next_trial": "98285-flags-r7; unproven command-flag hypothesis; synchronization preserved"
   },
-  "latest_client_candidate_id": "98285-flags-r7",
+  "latest_client_candidate_id": "98285-resumable-r8",
   "startup_repair": {
     "code_commit": "b840de2117e743f11f05d520604e927a488fc1b1",
     "publication_commit": "fdbfb3f1973ab20dd533173de25c541b7e061f97",
@@ -547,7 +583,7 @@
     "client_playback_validated": false,
     "raw_private_references_published": false
   },
-  "latest_partial_checkpoint_id": "98285-flags-r7",
+  "latest_partial_checkpoint_id": "98285-resumable-r8",
   "latest_playback_observation": "observations/r5-desync-2026-09-29.json",
   "catalog_investigation": {
     "code": "catalog_diagnostics.py",
@@ -639,5 +675,17 @@
       "A complete bank set and all 48 unit anchors must be checked before using the export.",
       "Unit anchors do not independently validate every ability index or original simulation rule."
     ]
+  },
+  "catalog_migration_plan": {
+    "code": "plan_catalog_migration.py",
+    "recovered_local_commit": "d823ea8",
+    "source_links": 49,
+    "source_fields": 12557,
+    "source_ability_links": 54,
+    "runtime_capture_observed": false,
+    "reviewable_links_without_capture": 0,
+    "tests": 29,
+    "covered_by_ci_run": 36578555002,
+    "source_or_replay_modified": false
   }
 }
