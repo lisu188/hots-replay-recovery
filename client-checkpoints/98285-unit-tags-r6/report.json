@@ -1,0 +1,207 @@
+{
+  "artifact": {
+    "base64_roundtrip_validated": true,
+    "parts": 33,
+    "sha256": "0613acfcdcda173be31a7dbf4b31a985d62304a35547da18b235256738c22f0c",
+    "size": 1846749
+  },
+  "changed_events": 15293,
+  "changed_tag_values": 15301,
+  "client_playback_validated": false,
+  "container": {
+    "after": {
+      "archive_bytes": 1845725,
+      "bet_present": true,
+      "header_md5": true,
+      "het_present": true,
+      "mpq_version": 4,
+      "raw_chunk_size": 16384
+    },
+    "before": {
+      "archive_bytes": 1254284,
+      "bet_present": true,
+      "header_md5": true,
+      "het_present": true,
+      "mpq_version": 4,
+      "raw_chunk_size": 16384
+    },
+    "writer": "native-StormLib-preserve-extended-format"
+  },
+  "event_counts_preserved": true,
+  "events": {
+    "game": 104257,
+    "message": 155,
+    "tracker": 6614
+  },
+  "format": "hots-unit-tag-migration-v1",
+  "header_and_all_non_game_replay_payloads_preserved": true,
+  "input_integrity": {
+    "all_available_checksums_passed": true,
+    "member_error_mask": 683,
+    "member_verification_flags": {
+      "(attributes)": 256,
+      "(listfile)": 336,
+      "replay.attributes.events": 336,
+      "replay.details": 336,
+      "replay.game.events": 336,
+      "replay.initData": 336,
+      "replay.load.info": 336,
+      "replay.message.events": 336,
+      "replay.resumable.events": 336,
+      "replay.server.battlelobby": 336,
+      "replay.smartcam.events": 336,
+      "replay.sync.events": 336,
+      "replay.sync.history": 256,
+      "replay.tracker.events": 336
+    },
+    "raw_table_results": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    }
+  },
+  "input_sha256": "f5eac2c4de55db9cc834c97825ac89d5fc0bb4807a2b216ba5ca7fbc63e45f11",
+  "layout_after": {
+    "all_observed_non_sentinel_tags_match_tracker": true,
+    "compatible_shifts": [
+      22
+    ],
+    "field_counts": {
+      "m_data/TargetUnit/m_tag": 1614,
+      "m_delta/m_addUnitTags": 92,
+      "m_otherUnit": 33,
+      "m_target/m_tag": 10851,
+      "m_unitTag": 2756
+    },
+    "matching_references_by_shift": {
+      "1": 4,
+      "10": 4,
+      "11": 4,
+      "12": 4,
+      "13": 4,
+      "14": 4,
+      "15": 21,
+      "16": 66,
+      "17": 66,
+      "18": 289,
+      "19": 672,
+      "2": 4,
+      "20": 1520,
+      "21": 2343,
+      "22": 15305,
+      "23": 4742,
+      "24": 2975,
+      "25": 1164,
+      "26": 718,
+      "27": 102,
+      "28": 7,
+      "29": 33,
+      "3": 4,
+      "30": 4,
+      "31": 4,
+      "4": 4,
+      "5": 4,
+      "6": 4,
+      "7": 4,
+      "8": 4,
+      "9": 4
+    },
+    "non_sentinel_references": 15305,
+    "observed_shift": 22,
+    "references": 15346,
+    "scope": "Observed game-event references joined to recorded tracker identities, not live engine state.",
+    "unique_non_sentinel_tags": 957
+  },
+  "layout_before": {
+    "all_observed_non_sentinel_tags_match_tracker": true,
+    "compatible_shifts": [
+      18
+    ],
+    "field_counts": {
+      "m_data/TargetUnit/m_tag": 1614,
+      "m_delta/m_addUnitTags": 92,
+      "m_otherUnit": 33,
+      "m_target/m_tag": 10851,
+      "m_unitTag": 2756
+    },
+    "matching_references_by_shift": {
+      "1": 4,
+      "10": 4,
+      "11": 21,
+      "12": 66,
+      "13": 66,
+      "14": 289,
+      "15": 672,
+      "16": 1520,
+      "17": 2343,
+      "18": 15305,
+      "19": 4742,
+      "2": 4,
+      "20": 2975,
+      "21": 1164,
+      "22": 718,
+      "23": 102,
+      "24": 7,
+      "25": 33,
+      "26": 4,
+      "27": 4,
+      "28": 4,
+      "29": 4,
+      "3": 4,
+      "30": 4,
+      "31": 4,
+      "4": 4,
+      "5": 4,
+      "6": 4,
+      "7": 4,
+      "8": 4,
+      "9": 4
+    },
+    "non_sentinel_references": 15305,
+    "observed_shift": 18,
+    "references": 15346,
+    "scope": "Observed game-event references joined to recorded tracker identities, not live engine state.",
+    "unique_non_sentinel_tags": 957
+  },
+  "limitations": [
+    "Packed representation is corrected, but unit instance indices are still those of the old simulation.",
+    "Numeric unit and ability catalog links have not been rebound.",
+    "Recorded synchronization values remain unchanged; Replay Desync may persist at the first check.",
+    "No game executable has run this checkpoint; do not present it as a recovered match."
+  ],
+  "official_observed_payload_roundtrip": true,
+  "output_integrity": {
+    "all_available_checksums_passed": true,
+    "member_error_mask": 683,
+    "member_verification_flags": {
+      "(attributes)": 256,
+      "(listfile)": 336,
+      "replay.attributes.events": 336,
+      "replay.details": 336,
+      "replay.game.events": 336,
+      "replay.initData": 336,
+      "replay.load.info": 336,
+      "replay.message.events": 336,
+      "replay.resumable.events": 336,
+      "replay.server.battlelobby": 336,
+      "replay.smartcam.events": 336,
+      "replay.sync.events": 336,
+      "replay.sync.history": 256,
+      "replay.tracker.events": 336
+    },
+    "raw_table_results": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    }
+  },
+  "simulation_compatibility_validated": false,
+  "status": "partial-format-repair-not-playback-ready",
+  "sync_checks_removed_or_disabled": false
+}

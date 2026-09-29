@@ -1,0 +1,13 @@
+{
+  "run_id": 36550768136,
+  "tested_commit": "6e42ecd76be9fbc943c07f22ac43c1dfd2b53b2a",
+  "unit_tests_passed": 35,
+  "native_integration_passed": true,
+  "repeated_generation_identical": true,
+  "all_tag_components_preserved": true,
+  "sync_payloads_unchanged": true,
+  "candidate_sha256": "0613acfcdcda173be31a7dbf4b31a985d62304a35547da18b235256738c22f0c",
+  "private_donor_supplied_to_ci": false,
+  "client_playback_validated": false,
+  "simulation_compatibility_validated": false
+}

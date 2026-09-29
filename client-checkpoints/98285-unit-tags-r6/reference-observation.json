@@ -1,0 +1,116 @@
+{
+  "complete_build_schema_verified": false,
+  "format": "hots-observed-unit-tags-v1",
+  "references": [
+    {
+      "declared_build": 98285,
+      "layout": {
+        "all_observed_non_sentinel_tags_match_tracker": true,
+        "compatible_shifts": [
+          22,
+          23
+        ],
+        "field_counts": {
+          "m_delta/m_addUnitTags": 1
+        },
+        "matching_references_by_shift": {
+          "1": 0,
+          "10": 0,
+          "11": 0,
+          "12": 0,
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "2": 0,
+          "20": 0,
+          "21": 0,
+          "22": 1,
+          "23": 1,
+          "24": 0,
+          "25": 0,
+          "26": 0,
+          "27": 0,
+          "28": 0,
+          "29": 0,
+          "3": 0,
+          "30": 0,
+          "31": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0
+        },
+        "non_sentinel_references": 1,
+        "observed_shift": null,
+        "references": 1,
+        "scope": "Observed game-event references joined to recorded tracker identities, not live engine state.",
+        "unique_non_sentinel_tags": 1
+      },
+      "observed_payload_roundtrip": true,
+      "reference_sha256": "5a7b05f4a75bc229dbbd74e6cc09e3b411129fc731874cfaa9217432fb85e7dc"
+    },
+    {
+      "declared_build": 98285,
+      "layout": {
+        "all_observed_non_sentinel_tags_match_tracker": true,
+        "compatible_shifts": [
+          22
+        ],
+        "field_counts": {
+          "m_data/TargetUnit/m_tag": 4772,
+          "m_delta/m_addUnitTags": 58,
+          "m_target/m_tag": 145,
+          "m_unitTag": 1239
+        },
+        "matching_references_by_shift": {
+          "1": 25,
+          "10": 31,
+          "11": 31,
+          "12": 31,
+          "13": 31,
+          "14": 34,
+          "15": 34,
+          "16": 46,
+          "17": 117,
+          "18": 167,
+          "19": 406,
+          "2": 25,
+          "20": 772,
+          "21": 890,
+          "22": 6207,
+          "23": 2274,
+          "24": 1091,
+          "25": 520,
+          "26": 453,
+          "27": 459,
+          "28": 39,
+          "29": 31,
+          "3": 26,
+          "30": 31,
+          "31": 31,
+          "4": 26,
+          "5": 26,
+          "6": 31,
+          "7": 31,
+          "8": 31,
+          "9": 31
+        },
+        "non_sentinel_references": 6207,
+        "observed_shift": 22,
+        "references": 6214,
+        "scope": "Observed game-event references joined to recorded tracker identities, not live engine state.",
+        "unique_non_sentinel_tags": 562
+      },
+      "observed_payload_roundtrip": true,
+      "reference_sha256": "05ec458110db57dd5cf6c044cb6b7270d880282ec803abce725f048f91fc3e75"
+    }
+  ],
+  "runtime_instance_mapping_proven": false,
+  "target_shift": 22
+}
