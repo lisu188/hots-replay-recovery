@@ -1,0 +1,36 @@
+{
+  "format": "hots-catalog-capture-checkpoint-v1",
+  "date": "2026-09-29",
+  "status": "importer-verified-awaiting-real-runtime-capture",
+  "base_remote_head": "8fbbdcbd80ecacabfb429c5f409f5fe0465800f2",
+  "tested_commit": "db77fea54f1d1b7ad52a610590cbf8bf9ef173e9",
+  "ci_run": 36570998775,
+  "ci_conclusion": "success",
+  "new_tests": 43,
+  "tests_per_platform": 107,
+  "ci_platforms": ["Linux", "Windows"],
+  "failed": 0,
+  "skipped": 0,
+  "fixtures": "synthetic captures; no HotS process was launched",
+  "probe_sha256": "a1bc4403fe3f60c6af067ea8ed8a0131ed1d2feaafd1157fe7a1cf5a899d486a",
+  "reference_unit_anchors": 48,
+  "new_replay_created": false,
+  "runtime_capture_observed": false,
+  "client_playback_validated": false,
+  "actual_build_authenticated": false,
+  "last_client_outcome": "R5 rendered Dragon Shire then Replay Desync at displayed 0:04",
+  "next": "Run START_CATALOG_PROBE.cmd from the extracted diagnostic package, exit the map after export, press Enter to collect, then validate the synchronized catalog-output ZIP.",
+  "source_bundle_scope": "Complete Git history through db77fea; later delivery notes are supplied separately.",
+  "package": "hots-catalog-probe-98285-capture.zip",
+  "package_sha256": "6c6c6e9a2744d2c8c416e3eb0c50eb6a3058c65a002cfcb03997ffe3b5edb474",
+  "package_bytes": 2229524,
+  "ci_archive_sha256": {
+    "Linux": "31bfe5c02d6753acd7e7c477f28f85eb58b01ccb085b114586769b06649d19b6",
+    "Windows": "d2dbaeeb9658da61fcb466a27de43b6649d5fb37bddbb9503be6bd041d78b9f0"
+  },
+  "source_sha256": {
+    "import_catalog_capture.py": "b8c501f4f611a33634545bb1a625e50c345208ac885456628a89b2c606265bf4",
+    "test_catalog_capture.py": "82d14061cdc347ed515a17acd075b7591b312bc60081bc2e3948b8bce824c12f",
+    "test_catalog_capture_cli.py": "4a983add2f6b201ed30a6f28a27d85fdb77f77c0c3e9dbedac0bb7e41f6169e1"
+  }
+}
