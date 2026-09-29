@@ -1,0 +1,110 @@
+name: Observed live client identity
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/live-identity.yml'
+      - 'repair_live_identity.py'
+      - 'test_live_identity.py'
+      - 'observations/live-client-2026-09-29-081146.json'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: live-identity-native-r3
+  cancel-in-progress: false
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    env:
+      PYTHONPATH: ${{ github.workspace }}/_upstream:${{ github.workspace }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          ref: ${{ github.sha }}
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          repository: Blizzard/heroprotocol
+          ref: 9af3ea7150f1a8acb53464c92519a9bbcc7a3594
+          path: _upstream
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.13'
+      - name: Install independent readers and native writer
+        run: |
+          python -m pip install six==1.17.0 mpyq==0.2.5
+          sudo apt-get update -qq
+          sudo apt-get install -y libstorm-dev
+          mkdir -p work
+          dpkg-query -W libstorm9 libstorm-dev libtomcrypt1 libtommath1 > work/live-native-packages.txt
+      - name: Restore immutable public inputs
+        run: |
+          source=artifacts/TEN_GREYMANE_source_41810.StormReplay
+          python scripts/restore_artifact.py "$source.base64" work/TEN_GREYMANE_source_41810.StormReplay --sha256 "$source.sha256"
+          r2=client-checkpoints/98297-startup-r2/TEN_GREYMANE_client98297_STARTUP_R2_EXPERIMENTAL.StormReplay
+          python scripts/restore_artifact.py "$r2.base64" work/r2.StormReplay --sha256 "$r2.sha256"
+          fixture=checkpoints/44256/TEN_GREYMANE_protocol44256.StormReplay
+          python scripts/restore_artifact.py "$fixture.base64" "$fixture" --sha256 "$fixture.sha256"
+      - name: Test live identity guards and regressions
+        run: python -m unittest -v test_live_identity test_startup test_reference test_client_binding test_reproduce_client test_playback_diagnostics test_repack_control 2>&1 | tee work/live-tests.log
+      - name: Generate and independently validate native R3
+        run: |
+          python repair_live_identity.py build --source work/TEN_GREYMANE_source_41810.StormReplay --r2 work/r2.StormReplay --profile client-checkpoints/98285/reference-profile.json --observation observations/live-client-2026-09-29-081146.json --output work/native-r3 | tee work/live-build.log
+          python repair_live_identity.py build --source work/TEN_GREYMANE_source_41810.StormReplay --r2 work/r2.StormReplay --profile client-checkpoints/98285/reference-profile.json --observation observations/live-client-2026-09-29-081146.json --output work/native-r3-repeat > work/live-repeat.log
+          cmp work/native-r3/*.StormReplay work/native-r3-repeat/*.StormReplay
+          python - <<'PY'
+          import hashlib
+          import json
+          import os
+          import re
+          from pathlib import Path
+          report = json.loads(Path('work/native-r3/report.json').read_text())
+          if report['artifact']['sha256'] != '20a11a37fb365a17511ad27a8f7d7ebafd11c69f630794108f9d92b9675406b5':
+              raise RuntimeError('CI output differs from locally validated candidate')
+          test_log = Path('work/live-tests.log').read_text()
+          if 'skipped' in test_log.lower() or not test_log.rstrip().endswith('OK'):
+              raise RuntimeError('Tests were not all executed successfully')
+          count = int(re.search(r'Ran (\d+) tests', test_log)[1])
+          result = {'run_id': int(os.environ['GITHUB_RUN_ID']), 'tested_commit': os.environ['GITHUB_SHA'],
+                    'test_count': count, 'repeated_generation_identical': True, 'matches_local_sha256': True,
+                    'candidate_sha256': report['artifact']['sha256'],
+                    'code_sha256': hashlib.sha256(Path('repair_live_identity.py').read_bytes()).hexdigest(),
+                    'private_donor_supplied_to_ci': False, 'client_playback_validated': False}
+          Path('work/native-r3/ci-verification.json').write_text(json.dumps(result, indent=2) + '\n')
+          PY
+      - name: Publish verified Base64 checkpoint
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git switch -c native-r3-${GITHUB_RUN_ID}
+          mkdir -p client-checkpoints/98285-native-r3
+          cp work/native-r3/*.json work/native-r3/*.jsonl work/native-r3/*.sha256 work/native-r3/*.base64.part* client-checkpoints/98285-native-r3/
+          git add -- client-checkpoints/98285-native-r3
+          git commit -m "Publish native R3 matching latest observed client for run ${GITHUB_RUN_ID}"
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
+      - name: Preserve complete source history
+        if: always()
+        run: git bundle create work/live-identity-source.bundle --all
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: live-identity-${{ github.run_id }}
+          retention-days: 30
+          path: |
+            work/native-r3/
+            work/live-*.log
+            work/live-native-packages.txt
+            work/live-identity-source.bundle
