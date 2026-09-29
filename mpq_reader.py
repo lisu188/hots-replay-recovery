@@ -69,7 +69,10 @@ class MPQArchive:
         he=self.get_hash_table_entry(filename)
         if he is None: return None
         be=self.block_table[he.block_table_index]
-        if not (be.flags & MPQ_FILE_EXISTS) or be.archived_size==0: return None
+        if not (be.flags & MPQ_FILE_EXISTS): return None
+        if be.archived_size==0:
+            if be.size!=0: raise ValueError('Nonempty MPQ member has no archived payload')
+            return b''
         self.file.seek(be.offset+self.header['offset'])
         data=self.file.read(be.archived_size)
         if be.flags & MPQ_FILE_ENCRYPTED: raise NotImplementedError('Encrypted MPQ files unsupported')
