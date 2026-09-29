@@ -1,0 +1,84 @@
+{
+  "format": "hots-playback-diagnostic-v1",
+  "outcome": "client-crashed",
+  "observed_local_time": "2026-09-29T06:30:54.907+02:00",
+  "source_report_id_from_screenshot": "751F577A-F693-4C43-831C-2FE39A29404A",
+  "executing_build": 98285,
+  "executing_version": "2.57.0.98285",
+  "launcher_build": 98297,
+  "version_switch_observed": true,
+  "exception": {
+    "address": "0x78",
+    "code": "0xc0000005",
+    "instruction_address": "0x7ff76fda4a20",
+    "instruction_bytes": "48 8b 41 78",
+    "operation": "read",
+    "rcx": "0x0"
+  },
+  "instruction": "mov rax, qword ptr [rcx+0x78]",
+  "null_member_read_confirmed": true,
+  "root_cause_established": false,
+  "symbolized_fault_function": null,
+  "client_playback_validated": false,
+  "input_sha256": {
+    "build_info": "d294ef36d87833120a3d95e9b717994b8ba1f9370253f9fda5085532c632af67",
+    "crash_log": "5132e98d31cf86aa4dbd1a9bbf1c7e582c5f54326fc3ecfb503d35979b2602b4",
+    "minidump": "58c5883c9818695b46eafac93757de5016275bdcac082031d080b7d85385b4dd",
+    "variables": "d96548f2c1ad14f254e9b71e271627d8118ceef7636f41c1e7bce69122448209"
+  },
+  "installation": {
+    "build": 98297,
+    "build_key": "d170b1ad65ebcde3f4252e3088b0c102",
+    "cdn_key": "30725e838106508e9c0b9a0ac53ac886",
+    "version": "2.57.0.98297"
+  },
+  "installation_matches_launcher": true,
+  "last_replay_basename": "TEN_GREYMANE_client98285_EXPERIMENTAL.StormReplay",
+  "replay_basename_matches_variables": true,
+  "replay_sha256": "2ecb09f353a30363ad59d04b04d439bb7f0ee623d832000d8d13f7a05dbb0486",
+  "minidump": {
+    "access_address": "0x78",
+    "access_operation": "read",
+    "architecture": 9,
+    "exception_code": "0xc0000005",
+    "instruction_address": "0x7ff76fda4a20",
+    "rcx": "0x0",
+    "rip": "0x7ff76fda4a20",
+    "thread_id": 42332
+  },
+  "minidump_confirms_text_exception": true,
+  "prior_candidate_ci": {
+    "format": "hots-client-candidate-ci-v1",
+    "run_id": 36478033637,
+    "tested_commit": "c1222c0b0de442835ca0fe4b6bef142a2fef628e",
+    "sha256": "2ecb09f353a30363ad59d04b04d439bb7f0ee623d832000d8d13f7a05dbb0486",
+    "official_candidate_all_streams_roundtrip": true,
+    "mpyq_all_members_equal": true,
+    "stormlib": {"tested": true, "all_members_equal": true, "member_count": 14},
+    "mpq_v4": {"header_md5": true, "table_md5": true, "sizes": true, "non_overlapping_regions": true},
+    "reference_revalidated_this_run": false,
+    "client_playback_validated": false,
+    "simulation_compatibility_validated": false
+  },
+  "diagnostic_ci": {
+    "run_id": 36523138233,
+    "tested_commit": "8be19b63863e3a759702764d681dc453858bd10c",
+    "conclusion": "success",
+    "tests": 22,
+    "failed": 0,
+    "skipped": 0,
+    "includes_real_private_crash_or_donor": false
+  },
+  "local_tests": {
+    "new_diagnostic_and_control_tests": 22,
+    "existing_regression_tests": 36,
+    "failed": 0,
+    "skipped": 0,
+    "execution": "Two completed test invocations; a prior combined invocation exceeded the 45-second tool limit."
+  },
+  "limitations": [
+    "The immediate invalid memory access does not identify the missing object or upstream cause.",
+    "A version-switch observation does not prove a failed download or corrupt installation.",
+    "A build-info version is not a substitute for exact replay schema and compatibility metadata."
+  ]
+}
