@@ -1,0 +1,24 @@
+{
+  "format": "hots-startup-catalog-comparison-v1",
+  "candidate_sha256": "f5eac2c4de55db9cc834c97825ac89d5fc0bb4807a2b216ba5ca7fbc63e45f11",
+  "reference_sha256": "05ec458110db57dd5cf6c044cb6b7270d880282ec803abce725f048f91fc3e75",
+  "reference_map": "Braxis Holdout",
+  "reference_declared_build": 98285,
+  "method": "Single-unit initial selection groups at gameloops up to 256, joined by packed unit tags to tracker SUnitBornEvent names. R5 uses shift 18; the reference uses shift 22.",
+  "observed_links": [
+    {"unit_type": "HeroAnubarak", "r5_unit_link": 739, "reference_unit_link": 468, "r5_selection_loop": 60, "reference_selection_loop": 60},
+    {"unit_type": "HeroKaelthas", "r5_unit_link": 827, "reference_unit_link": 632, "r5_selection_loop": 60, "reference_selection_loop": 52},
+    {"unit_type": "HeroTyrande", "r5_unit_link": 84, "reference_unit_link": 850, "r5_selection_loop": 68, "reference_selection_loop": 83},
+    {"unit_type": "HeroAbathur", "r5_unit_link": 60, "reference_unit_link": 493, "r5_selection_loop": 76, "reference_selection_loop": 52}
+  ],
+  "catalog_values_changed_in_r6": false,
+  "complete_catalog_mapping": false,
+  "cross_map_catalog_invariance_proven": false,
+  "live_unit_instance_mapping_proven": false,
+  "limitations": [
+    "These are actual observed numeric differences, not a verified complete migration table.",
+    "Packed instance tags and unit-type catalog links are different data; correcting the tag packing does not repair these links.",
+    "A different match's tracker does not identify the unit instances created while replaying TEN_GREYMANE.",
+    "No command flags, ability links, synchronization checksums or game rules were changed based on these observations."
+  ]
+}
