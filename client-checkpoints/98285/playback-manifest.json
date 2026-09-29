@@ -1,0 +1,39 @@
+{
+  "candidate_sha256": "2ecb09f353a30363ad59d04b04d439bb7f0ee623d832000d8d13f7a05dbb0486",
+  "client_playback_validated": false,
+  "declared_build": 98285,
+  "dependencies": [
+    {
+      "digest": "1f1b228ddb1f72205cbfd444055287100b0f39959be816548162e4081ea85511",
+      "extension": "s2ma",
+      "region": "EU",
+      "relative_path": "1f/1b/1f1b228ddb1f72205cbfd444055287100b0f39959be816548162e4081ea85511.s2ma"
+    },
+    {
+      "digest": "1ad94c126eb98a4c1de7b8e6f8aaa153dba52b09d3825e0c89dbc5828db70f76",
+      "extension": "s2ma",
+      "region": "EU",
+      "relative_path": "1a/d9/1ad94c126eb98a4c1de7b8e6f8aaa153dba52b09d3825e0c89dbc5828db70f76.s2ma"
+    },
+    {
+      "digest": "92d81744c1441bf628ed6ab7e9d19485c860914d8b745a91f6351ff9dcd4e6bb",
+      "extension": "s2ma",
+      "region": "EU",
+      "relative_path": "92/d8/92d81744c1441bf628ed6ab7e9d19485c860914d8b745a91f6351ff9dcd4e6bb.s2ma"
+    },
+    {
+      "digest": "a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43",
+      "extension": "s2ma",
+      "region": "EU",
+      "relative_path": "a1/e9/a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43.s2ma"
+    },
+    {
+      "digest": "e0a58745837b3b5351015c933560dbffb178d747009d2d57b4153ef425cf7250",
+      "extension": "s2ma",
+      "region": "EU",
+      "relative_path": "e0/a5/e0a58745837b3b5351015c933560dbffb178d747009d2d57b4153ef425cf7250.s2ma"
+    }
+  ],
+  "expected_game_loops": 19732,
+  "format": "hots-playback-manifest-v1"
+}
