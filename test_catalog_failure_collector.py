@@ -188,6 +188,37 @@ class FailureCollectorTests(unittest.TestCase):
         self.assertFalse(self.report['game_installation_modified'])
         self.assertFalse(self.report['export_contents_validated'])
 
+    def test_cloud_tags_are_not_confused_with_junctions(self):
+        escaped = lambda p: str(p).replace("'", "''")
+        ps = ("& '" + escaped(SCRIPT) + "' -GameDocuments '" + escaped(self.docs) +
+              "' -OutputDirectory '" + escaped(self.output) + "' | Out-Null; " +
+              "$r=@(); 0..15 | ForEach-Object { $t=[uint32](2415919130 + ($_ * 4096)); " +
+              "$r += [HRCReplayDiagPath]::IsCloudTag($t) }; " +
+              "$r += [HRCReplayDiagPath]::IsCloudTag([Convert]::ToUInt32('A0000003',16)); " +
+              "$r += [HRCReplayDiagPath]::IsCloudTag([Convert]::ToUInt32('A000000C',16)); " +
+              "$r += [HRCReplayDiagPath]::IsCloudTag([Convert]::ToUInt32('9000001C',16)); " +
+              "$r | ConvertTo-Json -Compress")
+        run = subprocess.run([self.shell, '-NoProfile', '-ExecutionPolicy', 'Bypass', '-Command', ps],
+                             capture_output=True, text=True, timeout=40)
+        self.assertEqual(run.returncode, 0, run.stdout + run.stderr)
+        values = json.loads(run.stdout[run.stdout.index('['):])
+        self.assertEqual(values, [True] * 16 + [False] * 3)
+
+    def test_junction_is_not_traversed(self):
+        outside = self.root / 'outside'; outside.mkdir()
+        (outside / (TOKEN + '_Manifest.StormBank')).write_text('outside-bank')
+        accounts = self.docs / 'Accounts'; accounts.mkdir()
+        link = accounts / 'external'
+        ps = "New-Item -ItemType Junction -Path '" + str(link).replace("'", "''") + "' -Target '" + str(outside).replace("'", "''") + "' | Out-Null"
+        run = subprocess.run([self.shell, '-NoProfile', '-Command', ps], capture_output=True, text=True, timeout=40)
+        self.assertEqual(run.returncode, 0, run.stdout + run.stderr)
+        try:
+            self.run_collect()
+            self.assertEqual(self.report['collected_bank_files'], 0)
+            self.assertIn('linked_input_ignored', self.report['warnings'])
+        finally:
+            link.rmdir()
+
 
 if __name__ == '__main__':
     unittest.main()

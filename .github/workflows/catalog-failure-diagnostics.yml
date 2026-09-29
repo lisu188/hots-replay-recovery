@@ -41,8 +41,8 @@ jobs:
           python - <<'PY'
           import hashlib
           from pathlib import Path
-          pins = {'scripts/collect_catalog_diagnostics.ps1': '2c951966433519db760e5ac9fce809ed957dc613890f3d64c98751d1b88594e9',
-                  'test_catalog_failure_collector.py': '9b180d1eece7ec44d4e6d5902e73860d2ed60eb3849f139693aa9300ac22dc2a'}
+          pins = {'scripts/collect_catalog_diagnostics.ps1': '9e760653e6b584bb53d724bb93942aaa23615ba5b77f5c7a4a435abb2a653d17',
+                  'test_catalog_failure_collector.py': '7a34ad07fbc11ff657394d6e9b1e2fbb6eafc912f117fc1e592127c11a698738'}
           for name, expected in pins.items():
               if hashlib.sha256(Path(name).read_bytes().replace(b'\r\n', b'\n')).hexdigest() != expected:
                   raise RuntimeError('Reviewed text differs: ' + name)
@@ -63,7 +63,7 @@ jobs:
           from pathlib import Path
           log = Path('work/collector/tests.log').read_text()
           count = int(re.search(r'Ran (\d+) tests', log)[1])
-          if count != 21 or 'skipped' in log.lower() or not log.rstrip().endswith('OK'):
+          if count != 23 or 'skipped' in log.lower() or not log.rstrip().endswith('OK'):
               raise RuntimeError('Collector tests did not all pass')
           shell = os.environ['HOTS_TEST_POWERSHELL']
           version = subprocess.check_output([shell, '-NoProfile', '-Command', '$PSVersionTable.PSVersion.ToString()'], text=True).strip()
@@ -71,6 +71,8 @@ jobs:
                     'engine': shell, 'version': version, 'tests_passed': count, 'tests_failed': 0, 'tests_skipped': 0,
                     'powershell_script_executed': True, 'fixtures': 'synthetic local directories and text files',
                     'no_manifest_zip_tested': True, 'all_input_files_preserved': True,
+                    'cloud_tag_policy_tested': True, 'live_cloud_sync_provider_tested': False,
+                    'native_junction_rejection_tested': True,
                     'game_client_started': False, 'actual_user_export_observed': False, 'client_playback_validated': False}
           Path('work/collector/verification.json').write_text(json.dumps(result, indent=2) + '\n')
           for file in ('scripts/collect_catalog_diagnostics.ps1', 'scripts/COLLECT_CATALOG_DIAGNOSTICS.cmd', 'test_catalog_failure_collector.py'):

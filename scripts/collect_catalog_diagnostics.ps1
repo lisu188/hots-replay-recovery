@@ -13,8 +13,39 @@ if (-not $OutputDirectory) { $OutputDirectory = Join-Path $PSScriptRoot ('catalo
 $ZipPath = $OutputDirectory + '.zip'
 if ((Test-Path -LiteralPath $OutputDirectory) -or (Test-Path -LiteralPath $ZipPath)) { throw 'Diagnostic output already exists; no existing file was replaced.' }
 
+if (-not ('HRCReplayDiagPath' -as [type])) {
+    Add-Type -TypeDefinition @'
+using System;
+using System.Runtime.InteropServices;
+public static class HRCReplayDiagPath {
+    [StructLayout(LayoutKind.Sequential, CharSet = CharSet.Unicode)]
+    private struct FindData {
+        public uint attributes;
+        public System.Runtime.InteropServices.ComTypes.FILETIME created, accessed, written;
+        public uint sizeHigh, sizeLow, tag, reserved;
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = 260)] public string name;
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = 14)] public string alternate;
+    }
+    [DllImport("kernel32.dll", EntryPoint = "FindFirstFileW", CharSet = CharSet.Unicode, SetLastError = true)]
+    private static extern IntPtr FindFirstFile(string path, out FindData data);
+    [DllImport("kernel32.dll", SetLastError = true)]
+    [return: MarshalAs(UnmanagedType.Bool)]
+    private static extern bool FindClose(IntPtr handle);
+    public static bool IsCloudTag(uint tag) { return (tag & 0xFFFF0FFFu) == 0x9000001Au; }
+    public static bool IsCloudPlaceholder(string path) {
+        FindData data;
+        IntPtr handle = FindFirstFile(path, out data);
+        if (handle == new IntPtr(-1)) return false;
+        try { return IsCloudTag(data.tag); }
+        finally { FindClose(handle); }
+    }
+}
+'@
+}
+
 function Is-Linked([IO.FileSystemInfo]$Item) {
-    return [bool]($Item.Attributes -band [IO.FileAttributes]::ReparsePoint)
+    if (-not ($Item.Attributes -band [IO.FileAttributes]::ReparsePoint)) { return $false }
+    return (-not [HRCReplayDiagPath]::IsCloudPlaceholder($Item.FullName))
 }
 
 function Get-BoundedFiles([string]$Root, [int]$MaxDepth = 8) {
