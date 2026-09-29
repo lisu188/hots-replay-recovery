@@ -11,6 +11,7 @@ from pathlib import Path
 from encoders import encode_header
 from migrate_replay import SOURCE_SHA256, decode_events, dump, encode_events, write_json
 from mpq_rebuild import rebuild_replay, verify_container
+from mpq_reader import MPQ_FILE_EXISTS
 from protocol_loader import load_protocol
 from reference_replay import TARGET_FIELDS, checked_archive, inspect_reference, native
 
@@ -62,6 +63,22 @@ def publish_binary(path: Path) -> dict:
     return {'sha256': digest, 'size': len(raw), 'parts': len(parts), 'base64_roundtrip_validated': True}
 
 
+
+def independent_member(archive, name: str) -> bytes:
+    entry = archive.get_hash_table_entry(name)
+    if entry is None:
+        raise ValueError(f'Independent archive lacks expected member: {name}')
+    block = archive.block_table[entry.block_table_index]
+    if not (block.flags & MPQ_FILE_EXISTS):
+        raise ValueError(f'Independent archive member is not allocated: {name}')
+    raw = archive.read_file(name)
+    if raw is None and block.size == 0 and block.archived_size == 0:
+        return b''
+    if not isinstance(raw, bytes) or len(raw) != block.size:
+        raise ValueError(f'Independent archive member is truncated: {name}')
+    return raw
+
+
 def bind(checkpoint: Path, reference: Path, output: Path, expected_build: int,
          require_stormlib: bool = False, local: bool = False) -> dict:
     checkpoint, reference, output = Path(checkpoint), Path(reference), Path(output)
@@ -106,7 +123,7 @@ def bind(checkpoint: Path, reference: Path, output: Path, expected_build: int,
                 members = {}
                 for name in dict.fromkeys(names):
                     value = checked.read_file(name)
-                    if independent.read_file(name) != value:
+                    if independent_member(independent, name) != value:
                         raise AssertionError(f'Independent MPQ reader disagrees: {name}')
                     if name not in ('replay.game.events', '(attributes)') and value != archive.read_file(name):
                         raise AssertionError(f'Untouched member changed: {name}')
