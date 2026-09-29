@@ -1,0 +1,13 @@
+{
+  "run_id": 36556354489,
+  "tested_commit": "5ac8aa268818c64654af21c4c14d74d59ff8557b",
+  "tests": 251,
+  "failed": 0,
+  "skipped": 0,
+  "repeated_generation_identical": true,
+  "matches_both_local_generations": true,
+  "candidate_sha256": "3cedf89c901c98e43201542dba901797c222e9ce36215f4d234bd43dfc66581e",
+  "flag_semantics_proven": false,
+  "client_playback_validated": false,
+  "simulation_compatibility_validated": false
+}
