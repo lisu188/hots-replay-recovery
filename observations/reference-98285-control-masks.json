@@ -1,0 +1,10 @@
+{
+  "client_acceptance_of_other_widths_proven": false,
+  "declared_build": 98285,
+  "format": "hots-control-mask-observation-v1",
+  "full_reference_roundtrip": true,
+  "masks": [[10,1023],[10,1023],[10,1023],[10,1023],[10,1023],[10,1023],[10,1023],[10,1023],[10,1023],[10,1023],[10,28],[10,28],[10,28],[10,28],[10,28],[10,28]],
+  "reference_profile_sha256": "f52495f534f5d69989233c067abd153d3b5c839f23c2e8c9856fd5ee7de737ff",
+  "reference_sha256": "05ec458110db57dd5cf6c044cb6b7270d880282ec803abce725f048f91fc3e75",
+  "schema_build": 96477
+}
