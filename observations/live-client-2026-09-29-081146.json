@@ -1,0 +1,10 @@
+{
+  "format": "hots-live-client-observation-v1",
+  "source_sha256": "737b3fefc164d72d608b9f22b5f04232933e213a147e3baa65b228d417dda20e",
+  "observed_local": "2026-09-29T08:11:46.680",
+  "version": "2.57.0.98285",
+  "executable_build": 98285,
+  "data_build": 98285,
+  "launch_kind": "Battle.net",
+  "code_revision": 668324
+}
