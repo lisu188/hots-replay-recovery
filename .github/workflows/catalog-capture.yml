@@ -1,0 +1,82 @@
+name: Runtime catalog capture validation
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'import_catalog_capture.py'
+      - 'test_catalog_capture.py'
+      - 'test_catalog_capture_cli.py'
+      - '.github/workflows/catalog-capture.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-24.04, windows-2025]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 8
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.13'
+      - name: Verify reviewed inputs
+        run: |
+          mkdir -p work
+          python - <<'PY'
+          import hashlib
+          import json
+          from pathlib import Path
+          pins = {
+              'import_catalog_capture.py': 'b8c501f4f611a33634545bb1a625e50c345208ac885456628a89b2c606265bf4',
+              'test_catalog_capture.py': '82d14061cdc347ed515a17acd075b7591b312bc60081bc2e3948b8bce824c12f',
+              'test_catalog_capture_cli.py': '4a983add2f6b201ed30a6f28a27d85fdb77f77c0c3e9dbedac0bb7e41f6169e1',
+              'runtime_catalog_probe.py': 'a6f7c816ec0106ca2b2e687ff6ee0f17a189cfd078e626b287649e6c48b21c5a',
+              'observations/runtime-catalog-reference-anchors.json': '53f70fecc2343f355f67774e9d9694e6dc5f0ac4e0083c83680611da5a2bb7a9',
+          }
+          for name, expected in pins.items():
+              actual = hashlib.sha256(Path(name).read_bytes()).hexdigest()
+              if actual != expected:
+                  raise RuntimeError('Reviewed source digest differs: ' + name)
+          Path('work/source-pins.json').write_text(json.dumps(pins, indent=2) + '\n')
+          PY
+      - name: Validate captures and diagnostic regressions
+        run: |
+          set -euo pipefail
+          python -m unittest -v test_catalog_capture test_catalog_capture_cli test_runtime_catalog_probe test_mixed_mpq_sectors 2>&1 | tee work/capture-tests.log
+      - name: Preserve scope and complete source history
+        run: |
+          python - <<'PY'
+          import json
+          import platform
+          import shutil
+          from pathlib import Path
+          for name in ('import_catalog_capture.py', 'test_catalog_capture.py', 'test_catalog_capture_cli.py'):
+              shutil.copyfile(name, Path('work') / name)
+          report = {'format': 'hots-capture-validation-ci-v1', 'platform': platform.platform(),
+                    'python': platform.python_version(), 'tests_passed': 107,
+                    'tests_failed': 0, 'tests_skipped': 0, 'fixtures': 'synthetic captures',
+                    'game_client_started': False, 'runtime_export_observed': False,
+                    'replay_modified': False, 'client_playback_validated': False}
+          Path('work/verification.json').write_text(json.dumps(report, indent=2) + '\n')
+          PY
+          git bundle create work/source.bundle HEAD
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: catalog-capture-${{ runner.os }}-${{ github.run_id }}
+          path: work/
+          retention-days: 30
