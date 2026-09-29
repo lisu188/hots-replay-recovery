@@ -1,0 +1,102 @@
+name: Inspect exact Dragon Shire runtime probe inputs
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/runtime-catalog-inputs.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  inspect:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Fetch hash-bound map and native archive reader
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p work/runtime-inputs/native work/runtime-inputs/extracted
+          sudo apt-get update -qq
+          sudo apt-get install -y libstorm-dev
+          curl --fail --location --retry 2 --max-time 120 https://raw.githubusercontent.com/jamiephan/HeroesOfTheStorm_S2MA/2bc3715018424208faf200c141756d9a19f9aafa/s2ma/f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f.s2ma -o work/runtime-inputs/DragonShire-original.s2ma
+          echo 'f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f  work/runtime-inputs/DragonShire-original.s2ma' | sha256sum --check
+          dpkg-query -W libstorm9 libstorm-dev libtomcrypt1 libtommath1 > work/runtime-inputs/native-packages.txt
+          cp -L /usr/lib/x86_64-linux-gnu/libstorm.so.9 /usr/lib/x86_64-linux-gnu/libtomcrypt.so.1 /usr/lib/x86_64-linux-gnu/libtommath.so.1 work/runtime-inputs/native/
+          cp /usr/include/StormLib.h work/runtime-inputs/native/
+      - name: Read map script and dependency members without changing the map
+        shell: bash
+        run: |
+          python - <<'PY'
+          import ctypes as c
+          import ctypes.util
+          import hashlib
+          import json
+          from pathlib import Path
+          root = Path('work/runtime-inputs')
+          lib = c.CDLL(ctypes.util.find_library('storm'))
+          lib.SFileOpenArchive.argtypes = [c.c_char_p, c.c_uint32, c.c_uint32, c.POINTER(c.c_void_p)]
+          lib.SFileOpenArchive.restype = c.c_bool
+          lib.SFileOpenFileEx.argtypes = [c.c_void_p, c.c_char_p, c.c_uint32, c.POINTER(c.c_void_p)]
+          lib.SFileOpenFileEx.restype = c.c_bool
+          lib.SFileGetFileSize.argtypes = [c.c_void_p, c.POINTER(c.c_uint32)]
+          lib.SFileGetFileSize.restype = c.c_uint32
+          lib.SFileReadFile.argtypes = [c.c_void_p, c.c_void_p, c.c_uint32, c.POINTER(c.c_uint32), c.c_void_p]
+          lib.SFileReadFile.restype = c.c_bool
+          lib.SFileCloseFile.argtypes = [c.c_void_p]
+          lib.SFileCloseFile.restype = c.c_bool
+          lib.SFileCloseArchive.argtypes = [c.c_void_p]
+          lib.SFileCloseArchive.restype = c.c_bool
+          h = c.c_void_p()
+          if not lib.SFileOpenArchive(str(root / 'DragonShire-original.s2ma').encode(), 0, 0x100, c.byref(h)):
+              raise RuntimeError('Native map open failed')
+          def read(name):
+              f = c.c_void_p()
+              if not lib.SFileOpenFileEx(h, name.encode(), 0, c.byref(f)):
+                  raise RuntimeError('Native member open failed: ' + name)
+              try:
+                  hi = c.c_uint32()
+                  size = lib.SFileGetFileSize(f, c.byref(hi))
+                  if hi.value or size > 32 * 1024 * 1024:
+                      raise RuntimeError('Member exceeds extraction limit: ' + name)
+                  buf, got = c.create_string_buffer(size), c.c_uint32()
+                  if size and (not lib.SFileReadFile(f, buf, size, c.byref(got), None) or got.value != size):
+                      raise RuntimeError('Short member read: ' + name)
+                  return bytes(buf.raw[:size])
+              finally:
+                  lib.SFileCloseFile(f)
+          try:
+              names = read('(listfile)').decode('utf-8-sig').splitlines()
+              rows = []
+              selected = {'mapscript.galaxy', 'documentinfo', 'banklist.xml', 'componentlist.stormcomponents', 'mapinfo'}
+              for name in names:
+                  raw = read(name)
+                  rows.append({'name': name, 'bytes': len(raw), 'sha256': hashlib.sha256(raw).hexdigest()})
+                  if name.lower() in selected:
+                      (root / 'extracted' / name.replace('\\', '_').replace('/', '_')).write_bytes(raw)
+              (root / 'members.json').write_text(json.dumps(rows, indent=2) + '\n')
+              if not any(x['name'].lower() == 'mapscript.galaxy' for x in rows):
+                  raise RuntimeError('Exact map has no readable MapScript.galaxy')
+          finally:
+              lib.SFileCloseArchive(h)
+          manifest = {'source_repo': 'jamiephan/HeroesOfTheStorm_S2MA',
+                      'source_commit': '2bc3715018424208faf200c141756d9a19f9aafa',
+                      'map_sha256': hashlib.sha256((root / 'DragonShire-original.s2ma').read_bytes()).hexdigest(),
+                      'members': len(rows), 'map_modified': False, 'game_executable_started': False,
+                      'runtime_catalog_indices_observed': False}
+          (root / 'manifest.json').write_text(json.dumps(manifest, indent=2) + '\n')
+          print(json.dumps(manifest, indent=2))
+          PY
+          git bundle create work/runtime-inputs/source.bundle --all
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: runtime-catalog-inputs-${{ github.run_id }}
+          path: work/runtime-inputs/
+          retention-days: 30
