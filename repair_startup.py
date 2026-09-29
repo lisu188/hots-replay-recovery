@@ -221,7 +221,7 @@ def repair(source: Path, previous: Path, config: Path, output: Path) -> dict:
                                                 '(attributes)': check.read_file('(attributes)')}, True)
         finally:
             check.close()
-            independent.close()
+            independent.file.close()
         if {k: v['count'] for k, v in profile['streams'].items()} != {'game': 104257, 'message': 155, 'tracker': 6614}:
             raise ValueError('Event count changed')
         for kind in ('message', 'tracker'):
