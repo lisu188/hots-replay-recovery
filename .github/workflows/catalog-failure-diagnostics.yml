@@ -1,0 +1,85 @@
+name: Probe failure diagnostics on Windows
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/collect_catalog_diagnostics.ps1'
+      - 'scripts/COLLECT_CATALOG_DIAGNOSTICS.cmd'
+      - 'test_catalog_failure_collector.py'
+      - '.github/workflows/catalog-failure-diagnostics.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    strategy:
+      fail-fast: false
+      matrix:
+        engine: [powershell, pwsh]
+    runs-on: windows-2025
+    timeout-minutes: 8
+    env:
+      HOTS_TEST_POWERSHELL: ${{ matrix.engine }}
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.13'
+      - name: Verify reviewed text
+        run: |
+          mkdir -p work/collector
+          python - <<'PY'
+          import hashlib
+          from pathlib import Path
+          pins = {'scripts/collect_catalog_diagnostics.ps1': '2c951966433519db760e5ac9fce809ed957dc613890f3d64c98751d1b88594e9',
+                  'test_catalog_failure_collector.py': '9b180d1eece7ec44d4e6d5902e73860d2ed60eb3849f139693aa9300ac22dc2a'}
+          for name, expected in pins.items():
+              if hashlib.sha256(Path(name).read_bytes().replace(b'\r\n', b'\n')).hexdigest() != expected:
+                  raise RuntimeError('Reviewed text differs: ' + name)
+          PY
+      - name: Run the actual PowerShell collector against bounded fixtures
+        run: |
+          set -euo pipefail
+          python -m unittest -v test_catalog_failure_collector 2>&1 | tee work/collector/tests.log
+      - name: Preserve reviewed collector, evidence and source history
+        run: |
+          python - <<'PY'
+          import hashlib
+          import json
+          import os
+          import re
+          import shutil
+          import subprocess
+          from pathlib import Path
+          log = Path('work/collector/tests.log').read_text()
+          count = int(re.search(r'Ran (\d+) tests', log)[1])
+          if count != 21 or 'skipped' in log.lower() or not log.rstrip().endswith('OK'):
+              raise RuntimeError('Collector tests did not all pass')
+          shell = os.environ['HOTS_TEST_POWERSHELL']
+          version = subprocess.check_output([shell, '-NoProfile', '-Command', '$PSVersionTable.PSVersion.ToString()'], text=True).strip()
+          result = {'run_id': int(os.environ['GITHUB_RUN_ID']), 'tested_commit': os.environ['GITHUB_SHA'],
+                    'engine': shell, 'version': version, 'tests_passed': count, 'tests_failed': 0, 'tests_skipped': 0,
+                    'powershell_script_executed': True, 'fixtures': 'synthetic local directories and text files',
+                    'no_manifest_zip_tested': True, 'all_input_files_preserved': True,
+                    'game_client_started': False, 'actual_user_export_observed': False, 'client_playback_validated': False}
+          Path('work/collector/verification.json').write_text(json.dumps(result, indent=2) + '\n')
+          for file in ('scripts/collect_catalog_diagnostics.ps1', 'scripts/COLLECT_CATALOG_DIAGNOSTICS.cmd', 'test_catalog_failure_collector.py'):
+              shutil.copyfile(file, Path('work/collector') / Path(file).name)
+          PY
+          git bundle create work/collector/source.bundle HEAD
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: catalog-failure-${{ matrix.engine }}-${{ github.run_id }}
+          path: work/collector/
+          retention-days: 30
