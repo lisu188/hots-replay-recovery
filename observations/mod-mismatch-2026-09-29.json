@@ -1,0 +1,30 @@
+{
+  "format": "hots-mod-data-rejection-observation-v1",
+  "date": "2026-09-29",
+  "user_visible_error": "The mod data loaded does not match the mod data which was originally used to play this game.",
+  "expected_candidate": "98285-controls-r4",
+  "candidate_attribution": "Inferred from conversation sequence; screenshot does not show filename or build.",
+  "filename_verified_from_new_log": false,
+  "live_client_observation": {
+    "local_time": "2026-09-29T09:12:00.656+02:00",
+    "build": 98285,
+    "data_build": 98285,
+    "version": "2.57.0.98285",
+    "launch": "ordinary Battle.net launch",
+    "explains_mod_mismatch": false
+  },
+  "measured_checksums": [
+    {"reference": "immutable TEN_GREYMANE source", "build": 41810, "map": "Dragon Shire", "map_file_sync_checksum": 759447839, "mod_file_sync_checksum": 3522231966, "dependency_count": 5},
+    {"reference": "CONTROLS_R4 candidate", "build": 98285, "map": "Dragon Shire", "map_file_sync_checksum": 759447839, "mod_file_sync_checksum": 3522231966, "dependency_count": 5},
+    {"reference": "private authentic Braxis reference", "build": 98285, "map": "Braxis Holdout", "map_file_sync_checksum": 1716172187, "mod_file_sync_checksum": 3849009070, "dependency_count": 8},
+    {"reference": "private 2024-11-05 Dragon Shire reference", "build": 93054, "map": "Dragon Shire", "map_file_sync_checksum": 4181095002, "mod_file_sync_checksum": 1605882721, "dependency_count": 6},
+    {"reference": "private 2024-11-05 Battlefield of Eternity reference", "build": 93054, "map": "Battlefield of Eternity", "map_file_sync_checksum": 3195662605, "mod_file_sync_checksum": 2230041899, "dependency_count": 7}
+  ],
+  "measurement_scope": "Headers and initData decoded with preserved Blizzard schema 96477; original source uses 41810. Full additional-reference roundtrip validation pending.",
+  "finding": "The same build 93054 has different mod checksums on two maps; build identity alone is insufficient justification to transplant Braxis mod checksum into Dragon Shire.",
+  "next": "Audit native dependency paths and content checksums; require a verified same-map/current-build dependency reference or a reproducible checksum calculation before publishing a dependency repair.",
+  "engine_checksum_algorithm_verified": false,
+  "client_playback_validated": false,
+  "new_replay_created": false,
+  "raw_private_references_published": false
+}
