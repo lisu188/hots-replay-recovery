@@ -1,0 +1,131 @@
+name: Partial R7 command flag experiment
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/command-flags.yml'
+      - 'repair_command_flags.py'
+      - 'test_command_flags.py'
+      - 'catalog_diagnostics.py'
+      - 'test_catalog_diagnostics.py'
+      - 'observations/command-flags-98285-2026-09-29.json'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: command-flags-r7
+  cancel-in-progress: false
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    env:
+      PYTHONPATH: ${{ github.workspace }}/_upstream:${{ github.workspace }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          ref: ${{ github.sha }}
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          repository: Blizzard/heroprotocol
+          ref: 9af3ea7150f1a8acb53464c92519a9bbcc7a3594
+          path: _upstream
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.13'
+      - name: Install independent readers and native writer
+        run: |
+          python -m pip install six==1.17.0 mpyq==0.2.5
+          sudo apt-get update -qq
+          sudo apt-get install -y libstorm-dev
+          mkdir -p work
+          dpkg-query -W libstorm9 libstorm-dev libtomcrypt1 libtommath1 > work/flags-native-packages.txt
+      - name: Verify reviewed source and restore immutable fixtures
+        run: |
+          python - <<'PY'
+          import hashlib
+          from pathlib import Path
+          pins = {'repair_command_flags.py': 'ac6c1906472098bb6e7adcf1057e333be13cb53fca68b7b5c392def5b5d51d32',
+                  'test_command_flags.py': 'ad1698271f4d827a30af46be9f26f1746b6721bc0eb134d463920c73f356479e',
+                  'catalog_diagnostics.py': '1b28eff54667cae85df90158939d9c22879ac756832ff69354d83191734d917e',
+                  'test_catalog_diagnostics.py': 'ba650dc95a73691ef64230759856b46dc0d541404ea56e0e8a160abe23f77c40',
+                  'observations/command-flags-98285-2026-09-29.json': 'f54b5d93b7d8611d3020a2e076555a7f9d5eec6c48822484fe5309bee0ff9f6c'}
+          for name, digest in pins.items():
+              if hashlib.sha256(Path(name).read_bytes()).hexdigest() != digest:
+                  raise RuntimeError('Source differs from the local reviewed version: ' + name)
+          PY
+          source=artifacts/TEN_GREYMANE_source_41810.StormReplay
+          python scripts/restore_artifact.py "$source.base64" work/TEN_GREYMANE_source_41810.StormReplay --sha256 "$source.sha256"
+          fixture=checkpoints/44256/TEN_GREYMANE_protocol44256.StormReplay
+          python scripts/restore_artifact.py "$fixture.base64" "$fixture" --sha256 "$fixture.sha256"
+          r3=client-checkpoints/98285-native-r3/TEN_GREYMANE_client98285_NATIVE_R3_EXPERIMENTAL.StormReplay
+          python scripts/restore_artifact.py "$r3.base64" "$r3" --sha256 "$r3.sha256"
+          r4=client-checkpoints/98285-controls-r4/TEN_GREYMANE_client98285_CONTROLS_R4_EXPERIMENTAL.StormReplay
+          python scripts/restore_artifact.py "$r4.base64" work/R4.StormReplay --sha256 "$r4.sha256"
+          r6=client-checkpoints/98285-unit-tags-r6/TEN_GREYMANE_client98285_TAGS_R6_PARTIAL.StormReplay
+          python scripts/restore_artifact.py "$r6.base64" work/R6.StormReplay --sha256 "$r6.sha256"
+      - name: Run all focused and prior regression suites
+        run: python -m unittest -v test_command_flags test_catalog_diagnostics test_unit_tags test_mpyq_empty_members test_empty_mpq_members test_dragon_dependencies test_control_masks test_live_identity test_startup test_reference test_client_binding test_reproduce_client test_playback_diagnostics test_repack_control 2>&1 | tee work/flags-tests.log
+      - name: Generate twice and verify preserved payloads
+        run: |
+          python repair_command_flags.py --source work/R6.StormReplay --output work/flags-r7 --observation observations/command-flags-98285-2026-09-29.json | tee work/flags-build.log
+          python repair_command_flags.py --source work/R6.StormReplay --output work/flags-r7-repeat --observation observations/command-flags-98285-2026-09-29.json > work/flags-repeat.log
+          cmp work/flags-r7/*.StormReplay work/flags-r7-repeat/*.StormReplay
+          python - <<'PY'
+          import json
+          import os
+          import re
+          from pathlib import Path
+          report = json.loads(Path('work/flags-r7/report.json').read_text())
+          if report['artifact']['sha256'] != '3cedf89c901c98e43201542dba901797c222e9ce36215f4d234bd43dfc66581e':
+              raise RuntimeError('Native CI output differs from both local builds')
+          if report['client_playback_validated'] or report['hypothesis']['semantics_proven'] or report['sync_checks_removed_or_disabled']:
+              raise RuntimeError('Experiment scope changed')
+          log = Path('work/flags-tests.log').read_text()
+          count = int(re.search(r'Ran (\d+) tests', log)[1])
+          if count < 251 or 'skipped' in log.lower() or not log.rstrip().endswith('OK'):
+              raise RuntimeError('The complete requested regressions did not pass')
+          result = {'run_id': int(os.environ['GITHUB_RUN_ID']), 'tested_commit': os.environ['GITHUB_SHA'],
+                    'tests': count, 'failed': 0, 'skipped': 0, 'repeated_generation_identical': True,
+                    'matches_both_local_generations': True, 'candidate_sha256': report['artifact']['sha256'],
+                    'flag_semantics_proven': False, 'client_playback_validated': False,
+                    'simulation_compatibility_validated': False}
+          Path('work/flags-r7/ci-verification.json').write_text(json.dumps(result, indent=2) + '\n')
+          PY
+      - name: Publish the explicitly partial text checkpoint
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git switch -c flags-r7-${GITHUB_RUN_ID}
+          mkdir -p client-checkpoints/98285-flags-r7
+          cp work/flags-r7/*.json work/flags-r7/*.jsonl work/flags-r7/*.sha256 work/flags-r7/*.base64.part* client-checkpoints/98285-flags-r7/
+          git add -- client-checkpoints/98285-flags-r7
+          git commit -m "Publish partial R7 flag hypothesis for run ${GITHUB_RUN_ID}"
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
+      - name: Preserve complete source history
+        if: always()
+        run: |
+          mkdir -p work
+          git bundle create work/flags-r7-source.bundle --all
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: flags-r7-${{ github.run_id }}
+          retention-days: 30
+          path: |
+            work/flags-r7/
+            work/flags-*.log
+            work/flags-native-packages.txt
+            work/flags-r7-source.bundle
