@@ -1,0 +1,70 @@
+name: Publish verified runtime diagnostic progress
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/publish-runtime-catalog.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          ref: main
+      - name: Verify completed tests and merge progress without replacing historical checkpoints
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          import os
+          import urllib.request
+          from pathlib import Path
+          observation = json.loads(Path('observations/runtime-catalog-delivery.json').read_text())
+          url = 'https://api.github.com/repos/lisu188/hots-replay-recovery/actions/runs/' + str(observation['ci_run'])
+          request = urllib.request.Request(url, headers={'Authorization': 'Bearer ' + os.environ['GH_TOKEN'], 'Accept': 'application/vnd.github+json'})
+          with urllib.request.urlopen(request, timeout=30) as response:
+              run = json.load(response)
+          if run['status'] != 'completed' or run['conclusion'] != 'success' or run['head_sha'] != observation['ci_tested_commit']:
+              raise RuntimeError('Referenced diagnostic validation did not complete successfully')
+          if observation['ci_tests_passed'] != 315 or observation['client_playback_validated'] or observation['runtime_catalog_export_observed']:
+              raise RuntimeError('Unexpected checkpoint claims')
+          progress = json.loads(Path('progress.json').read_text())
+          if progress.get('latest_client_candidate_id') != '98285-flags-r7':
+              raise RuntimeError('A newer candidate requires manual progress reconciliation')
+          progress['runtime_catalog_probe'] = observation
+          progress['next'] = 'Run the separate hash-checked catalog diagnostic map outside the game installation, collect its dedicated HRC98285 bank ZIP, confirm actual executable version and all reference anchors before using exported indices. R7 remains partial and unverified in the game; preserve synchronization checks.'
+          progress['github']['latest_runtime_diagnostic_validation_run'] = observation['ci_run']
+          progress['github']['latest_runtime_diagnostic_code_commit'] = observation['ci_tested_commit']
+          Path('progress.json').write_text(json.dumps(progress, indent=2) + '\n')
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- progress.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Merge verified runtime diagnostic progress while retaining all R7 and earlier history'
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
+          fi
+          mkdir -p work/runtime-publication
+          cp progress.json observations/runtime-catalog-delivery.json docs/RUNTIME_CATALOG_PROBE_README_PL.md scripts/START_CATALOG_PROBE.cmd work/runtime-publication/
+          git rev-parse HEAD > work/runtime-publication/published-commit.txt
+          git bundle create work/runtime-publication/source.bundle --all
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: runtime-catalog-publication-${{ github.run_id }}
+          path: work/runtime-publication/
+          retention-days: 30
