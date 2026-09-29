@@ -1,0 +1,66 @@
+name: Recovered command context audit
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'command_identity_audit.py'
+      - 'test_command_identity_audit.py'
+      - '.github/workflows/command-context-recovered.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.13'
+      - name: Verify recovered source and rerun the complete original audit
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p work/recovered-command
+          python -m pip install six==1.17.0
+          test "$(git hash-object command_identity_audit.py)" = a788be2f664525be1d793d40ec142d02c549979d
+          test "$(git hash-object test_command_identity_audit.py)" = 1fa128bb3fec0be6a3c79fad52a8624e07865f72
+          python -m unittest -v test_command_identity_audit 2>&1 | tee work/recovered-command/tests.log
+          source=artifacts/TEN_GREYMANE_source_41810.StormReplay
+          python scripts/restore_artifact.py "$source.base64" work/original.StormReplay --sha256 "$source.sha256"
+          python command_identity_audit.py --source work/original.StormReplay --output work/recovered-command/audit
+          python command_identity_audit.py --source work/original.StormReplay --output work/command-repeat
+          cmp work/recovered-command/audit/report.json work/command-repeat/report.json
+          cmp work/recovered-command/audit/commands.jsonl work/command-repeat/commands.jsonl
+          python - <<'PY'
+          import json, hashlib, re, os
+          from pathlib import Path
+          log = Path('work/recovered-command/tests.log').read_text()
+          assert int(re.search(r'Ran (\d+) tests', log)[1]) == 40 and log.rstrip().endswith('OK') and 'skipped' not in log.lower()
+          report = json.loads(Path('work/recovered-command/audit/report.json').read_text())
+          assert report['commands'] == 4558 and report['ability_links'] == 54
+          assert not report['client_playback_validated'] and not report['replay_modified']
+          assert hashlib.sha256(Path('work/original.StormReplay').read_bytes()).hexdigest() == 'e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824'
+          result = {'run_id': int(os.environ['GITHUB_RUN_ID']), 'tested_commit': os.environ['GITHUB_SHA'], 'tests_passed':40, 'tests_failed':0, 'tests_skipped':0, 'original_commands':4558, 'repeated_reports_identical':True, 'source_replay_unchanged':True, 'decoder_scope':'Previously committed original protocol; not newly downloaded independent Blizzard source', 'client_playback_validated':False}
+          Path('work/recovered-command/verification.json').write_text(json.dumps(result, indent=2) + '\n')
+          PY
+      - name: Save source and complete history through this tested checkpoint
+        if: always()
+        run: |
+          mkdir -p work/recovered-command
+          cp command_identity_audit.py test_command_identity_audit.py work/recovered-command/
+          git bundle create work/recovered-command/source.bundle HEAD
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: recovered-command-context-${{ github.run_id }}
+          path: work/recovered-command/
+          retention-days: 30
