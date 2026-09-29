@@ -48,13 +48,23 @@ jobs:
           sudo apt-get install -y libstorm-dev
           mkdir -p work/native-runtime
           dpkg-query -W libstorm9 libstorm-dev libtomcrypt1 libtommath1 | tee work/native-runtime/packages.txt
-          for lib in libstorm.so.9 libtomcrypt.so.1 libtommath.so.1; do
-            cp -L "/usr/lib/x86_64-linux-gnu/$lib" "work/native-runtime/$lib"
+          dpkg -L libstorm9 libtomcrypt1 libtommath1 | grep -E '/lib[^/]*\.so(\.[0-9]+)*$' | while IFS= read -r library; do
+            cp -L "$library" "work/native-runtime/$(basename "$library")"
           done
-          cp /usr/include/StormLib.h work/native-runtime/
+          header=$(dpkg -L libstorm-dev | grep '/StormLib.h$')
+          cp "$header" work/native-runtime/
           for package in libstorm9 libtomcrypt1 libtommath1; do
             cp "/usr/share/doc/$package/copyright" "work/native-runtime/$package-copyright.txt"
           done
+          python - <<'PY'
+          import ctypes
+          import ctypes.util
+          library = ctypes.util.find_library('storm')
+          if not library:
+              raise RuntimeError('Installed StormLib is not discoverable')
+          ctypes.CDLL(library)
+          print('Loaded native writer:', library)
+          PY
       - name: Restore hash-bound public inputs
         run: |
           python scripts/restore_artifact.py artifacts/TEN_GREYMANE_source_41810.StormReplay.base64 work/TEN_GREYMANE_source_41810.StormReplay --sha256 artifacts/TEN_GREYMANE_source_41810.StormReplay.sha256
