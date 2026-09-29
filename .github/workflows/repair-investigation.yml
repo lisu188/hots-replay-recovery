@@ -1,0 +1,97 @@
+name: Repair startup investigation
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/repair-investigation.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  investigate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.13'
+      - name: Fetch bounded public configuration and dependency stubs
+        run: |
+          mkdir -p work/repair-investigation
+          python - <<'PY'
+          import concurrent.futures
+          import hashlib
+          import json
+          import urllib.error
+          import urllib.request
+          from pathlib import Path
+
+          root = Path('work/repair-investigation')
+          build_key = 'd170b1ad65ebcde3f4252e3088b0c102'
+          digests = [
+              '1f1b228ddb1f72205cbfd444055287100b0f39959be816548162e4081ea85511',
+              '1ad94c126eb98a4c1de7b8e6f8aaa153dba52b09d3825e0c89dbc5828db70f76',
+              '92d81744c1441bf628ed6ab7e9d19485c860914d8b745a91f6351ff9dcd4e6bb',
+              'a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43',
+              'e0a58745837b3b5351015c933560dbffb178d747009d2d57b4153ef425cf7250',
+              '926cbcc9a5b10774100780b5eee7a4bc408bde871f724a3dc6f22fcdc989f116',
+              'cd145d3ef68bb91851eb6d6a38029b2293af23580b0aef479a5089dbc2c5d474',
+              'ab70ad999efec8a913485130bd5020e720399d79dca3a4c48e47dc86ed7d1de5',
+              '7b679467ad51fe45aad1994289177a83b8ee2244f70f98ddd082b3b4931fb500',
+          ]
+
+          def fetch(name, urls, limit, algorithm=None, expected=None):
+              attempts = []
+              for url in urls:
+                  try:
+                      request = urllib.request.Request(url, headers={'User-Agent': 'hots-replay-recovery/1.0'})
+                      with urllib.request.urlopen(request, timeout=12) as response:
+                          data = response.read(limit + 1)
+                          if len(data) > limit:
+                              raise ValueError('Response exceeds bounded size')
+                      digest = hashlib.new(algorithm, data).hexdigest() if algorithm else None
+                      if expected and digest != expected:
+                          raise ValueError('Content hash does not match requested identifier')
+                      (root / name).write_bytes(data)
+                      result = {'name': name, 'url': url, 'bytes': len(data),
+                                'sha256': hashlib.sha256(data).hexdigest(),
+                                'identifier_verified': bool(expected), 'attempts': attempts}
+                      if name.endswith('.txt'):
+                          result['text'] = data.decode('utf-8-sig')
+                      return result
+                  except Exception as exc:
+                      attempts.append({'url': url, 'error': type(exc).__name__, 'message': str(exc)[:240]})
+              return {'name': name, 'downloaded': False, 'attempts': attempts}
+
+          config_urls = [f'https://eu.cdn.blizzard.com/tpr/Hero-Live-a/config/d1/70/{build_key}',
+                         f'http://eu.cdn.blizzard.com/tpr/Hero-Live-a/config/d1/70/{build_key}']
+          config = fetch('observed-build-config.txt', config_urls, 262144, 'md5', build_key)
+          def dependency(digest):
+              return fetch(digest + '.s2ma',
+                           [f'http://eu.depot.battle.net:1119/{digest}.s2ma',
+                            f'https://eu.depot.battle.net/{digest}.s2ma'],
+                           4194304, 'sha256', digest)
+          with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
+              dependencies = list(pool.map(dependency, digests))
+          report = {'format': 'hots-startup-public-investigation-v1',
+                    'observed_installed_version': '2.57.0.98297',
+                    'input_build_key': build_key, 'build_config': config,
+                    'dependencies': dependencies,
+                    'client_playback_validated': False,
+                    'private_donor_or_crash_memory_uploaded': False}
+          (root / 'report.json').write_text(json.dumps(report, indent=2) + '\n')
+          print(json.dumps(report, indent=2))
+          PY
+      - name: Preserve source checkpoint
+        run: git bundle create work/repair-investigation/source.bundle --all
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: startup-investigation-${{ github.run_id }}
+          path: work/repair-investigation/
+          retention-days: 14
