@@ -1,0 +1,68 @@
+name: Exact-build catalog ordering evidence
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/catalog-order.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  inspect:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - name: Verify and run the pinned extractor
+        run: |
+          mkdir -p work/tool work/raw work/order
+          curl --fail --location --retry 2 --max-time 120 'https://github.com/HeroesToolChest/HeroesDataParser/releases/download/v5.1.0/HeroesDataParser.5.1.0-scd-linux-x64.tar.gz' -o work/tool.tar.gz
+          echo 'd5db68a8659456c287df3ed65d64c4786a6501e8f1c638008c81032e90da9f9d  work/tool.tar.gz' | sha256sum --check
+          tar -xzf work/tool.tar.gz -C work/tool
+          executable=$(find "$PWD/work/tool" -type f -name HeroesDataParser)
+          test "$(printf '%s\n' "$executable" | wc -l)" -eq 1
+          chmod +x "$executable"
+          timeout 180 "$executable" online --heroes-version | tee work/order/version.log
+          grep -Fx '2.57.0.98285' work/order/version.log
+          timeout 420 "$executable" casc-extract online -i '**/gamedata/guids/unit.txt' -i '**/gamedata/guids/abil.txt' -i '**/includes.xml' -i '**/gamedata/gamedata.xml' -i '**/gamedata/configdata.xml' -o "$PWD/work/raw" 2>&1 | tee work/order/extraction.log
+      - name: Export identifiers and file-loading metadata without gameplay parameters
+        run: |
+          python - <<'PY'
+          import hashlib
+          import json
+          import xml.etree.ElementTree as ET
+          from pathlib import Path
+          root = Path('work/raw')
+          result = []
+          for path in sorted(root.rglob('*')):
+              if not path.is_file():
+                  continue
+              if path.is_symlink() or path.stat().st_size > 32 * 1024 * 1024:
+                  raise RuntimeError('Unexpected extracted file')
+              raw = path.read_bytes()
+              item = {'path': path.relative_to(root).as_posix(), 'size': len(raw), 'sha256': hashlib.sha256(raw).hexdigest()}
+              if path.suffix.lower() == '.txt':
+                  item['identifier_lines'] = raw.decode('utf-8-sig').splitlines()
+              elif path.suffix.lower() == '.xml':
+                  tree = ET.fromstring(raw)
+                  item['references'] = [{'tag': node.tag, 'attributes': dict(node.attrib), 'text': (node.text or '').strip()} for node in tree.iter() if node.tag in ('Path', 'Include', 'Catalog', 'HeroArray')]
+              elif path.name == 'hdp.info':
+                  item['metadata'] = json.loads(raw)
+              result.append(item)
+          if not any('identifier_lines' in item for item in result):
+              raise RuntimeError('No identifier tables recovered')
+          Path('work/order/ordering-evidence.json').write_text(json.dumps({'format':'hots-catalog-order-evidence-v1','expected_build':98285,'indices_verified':False,'files':result}, indent=2)+'\n')
+          PY
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: catalog-order-${{ github.run_id }}
+          path: work/order/
+          retention-days: 30
