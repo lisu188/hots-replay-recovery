@@ -1,0 +1,38 @@
+{
+  "format": "hots-playback-observation-v1",
+  "observation_local_time": "2026-09-29T06:30:54.907+02:00",
+  "candidate": "TEN_GREYMANE_client98285_EXPERIMENTAL.StormReplay",
+  "expected_candidate_sha256": "2ecb09f353a30363ad59d04b04d439bb7f0ee623d832000d8d13f7a05dbb0486",
+  "candidate_path_confirmed_by_crash_variables": true,
+  "installed_launcher_build": 98297,
+  "executing_replay_build": 98285,
+  "executing_replay_version": "2.57.0.98285",
+  "data_build": 98285,
+  "launcher_chain": ["Base98297/HeroesOfTheStorm_x64.exe", "Support64/HeroesSwitcher_x64.exe", "Base98285/HeroesOfTheStorm_x64.exe"],
+  "root_key": "b5114c16bd78f1844ab9fe97cbd9c305",
+  "build_key": "d170b1ad65ebcde3f4252e3088b0c102",
+  "cdn_key": "30725e838106508e9c0b9a0ac53ac886",
+  "outcome": "client-crashed",
+  "client_playback_validated": false,
+  "exception": {
+    "code": "0xc0000005",
+    "operation": "read",
+    "address": "0x78",
+    "thread": "Main Thread",
+    "rcx": "0x0",
+    "instruction_bytes": "48 8b 41 78",
+    "instruction": "mov rax, qword ptr [rcx+0x78]",
+    "function_names_available": false
+  },
+  "graphics_device_creation": "success",
+  "recorded_ngdp_request": "FETCH_OK; competing requests subsequently cancelled",
+  "conclusions": [
+    "The observed legacy launch is build 98285, not original build 41810.",
+    "The active launcher changed to 98297 after acquisition of the 98285 donor.",
+    "This is a real playback failure despite successful structural tests.",
+    "The immediate fault is a null-pointer member read; the missing object's identity and upstream cause are not established.",
+    "The evidence does not justify calling this a network or graphics initialization failure.",
+    "Relabelling the file as 98297 alone would not establish simulation compatibility."
+  ],
+  "privacy": "Raw dumps, account details and absolute user paths are not published."
+}
