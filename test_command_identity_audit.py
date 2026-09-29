@@ -67,7 +67,7 @@ class MaskTests(unittest.TestCase):
 
     def test_empty_subgroup_rejected(self):
         delta = selection(())['m_delta']; delta['m_addSubgroups'] = [{'m_count': 0, 'm_unitLink': 0}]
-        with self.assertRaises(ValueError): apply_delta((), delta, ORDERS[0])['m_delta'], ORDERS[0])
+        with self.assertRaises(ValueError): apply_delta((), delta, ORDERS[0])
 
     def test_out_of_range_link(self):
         delta = selection()['m_delta']; delta['m_addSubgroups'][0]['m_unitLink'] = 65536
