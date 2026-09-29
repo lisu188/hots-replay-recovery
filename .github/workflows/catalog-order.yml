@@ -37,6 +37,7 @@ jobs:
           python - <<'PY'
           import hashlib
           import json
+          import re
           import xml.etree.ElementTree as ET
           from pathlib import Path
           root = Path('work/raw')
@@ -61,11 +62,18 @@ jobs:
               item = {'path': path.relative_to(root).as_posix(), 'size': len(raw), 'sha256': hashlib.sha256(raw).hexdigest()}
               tokens = []
               for ordinal, owner in enumerate(element):
-                  owner_kind = owner.tag
+                  ancestry = {}
+                  def walk(node, parents):
+                      ancestry[node] = parents + [node.tag]
+                      for child in node:
+                          walk(child, ancestry[node])
+                  walk(owner, [])
                   for subindex, node in enumerate(owner.iter()):
                       for attribute, value in node.attrib.items():
-                          if value in all_names:
-                              tokens.append({'owner_order': ordinal, 'owner_kind': owner_kind, 'owner_id': owner.get('id'), 'node_order': subindex, 'tag': node.tag, 'attribute': attribute, 'value': value, 'owner_default': owner.get('default')})
+                          relevant_name = re.fullmatch(r'[A-Za-z_][A-Za-z0-9_]{0,255}', value)
+                          candidate_ref = relevant_name and (('unit' in (node.tag + attribute).lower() and attribute != 'index') or (owner.tag == 'CValidatorUnitType' and node.tag == 'Value') or (owner.tag == 'CUnit' and attribute in ('id', 'parent')))
+                          if value in all_names or candidate_ref:
+                              tokens.append({'owner_order': ordinal, 'owner_kind': owner.tag, 'owner_id': owner.get('id'), 'node_order': subindex, 'ancestry': ancestry[node], 'tag': node.tag, 'attribute': attribute, 'value': value, 'owner_default': owner.get('default'), 'declared_unit': value in catalog_names['Unit'], 'declared_ability': value in catalog_names['Abil']})
               if tokens:
                   item['identity_tokens'] = tokens
               if path.name.lower() in ('includes.xml', 'gamedata.xml', 'documentinfo', 'configdata.xml'):
@@ -74,7 +82,7 @@ jobs:
           if not catalog_names['Unit'] or not catalog_names['Abil']:
               raise RuntimeError('Missing catalog declarations')
           metadata = [json.loads(path.read_bytes()) for path in root.rglob('hdp.info')]
-          result = {'format':'hots-catalog-order-evidence-v2','expected_build':98285,'indices_verified':False,'extractor_sha256':'d5db68a8659456c287df3ed65d64c4786a6501e8f1c638008c81032e90da9f9d','extraction_metadata':metadata,'known_names':{key:sorted(value) for key,value in catalog_names.items()},'requested_unit_and_ability_guid_tables_found':False,'files':records}
+          result = {'format':'hots-catalog-order-evidence-v3','expected_build':98285,'indices_verified':False,'extractor_sha256':'d5db68a8659456c287df3ed65d64c4786a6501e8f1c638008c81032e90da9f9d','extraction_metadata':metadata,'known_names':{key:sorted(value) for key,value in catalog_names.items()},'requested_unit_and_ability_guid_tables_found':False,'files':records}
           Path('work/order/ordering-evidence.json').write_text(json.dumps(result, indent=2)+'\n')
           PY
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
