@@ -1,0 +1,36 @@
+{
+  "format": "hots-user-playback-observation-v1",
+  "reported_after_candidate": "TEN_GREYMANE_client98285_NATIVE_R3_EXPERIMENTAL.StormReplay",
+  "candidate_sha256": "20a11a37fb365a17511ad27a8f7d7ebafd11c69f630794108f9d92b9675406b5",
+  "date": "2026-09-29",
+  "visible_message": "Unable to open replay.",
+  "filename_visible_in_screenshot": false,
+  "candidate_attribution": "inferred from immediately preceding R3 test instruction, not from screenshot text",
+  "client_playback_validated": false,
+  "new_crash_proven": false,
+  "latest_log_returned_by_scoped_search": "2026-09-29 08.11.46 Graphics.txt",
+  "latest_log_build": 98285,
+  "new_log_explaining_rejection_found": false,
+  "raw_mpq_verification": {
+    "scope": "local original, R3 and private Braxis reference",
+    "header_het_bet_hash_block_and_hiblock_verification_errors": 0,
+    "per_member_crc_md5_and_raw_md5_error_bits": 0,
+    "raw_donor_published": false,
+    "engine_acceptance_proven": false
+  },
+  "new_control_mask_observation": {
+    "field": "m_syncLobbyState.m_gameDescription.m_slotDescriptions[*].m_allowedControls",
+    "source_width": 255,
+    "r3_width": 15,
+    "reference_width": 10,
+    "slot_count": 16,
+    "r3_patterns": [{"width": 15, "value": 32767, "count": 10}, {"width": 15, "value": 896, "count": 6}],
+    "reference_patterns": [{"width": 10, "value": 1023, "count": 10}, {"width": 10, "value": 28, "count": 6}],
+    "reference_sha256": "05ec458110db57dd5cf6c044cb6b7270d880282ec803abce725f048f91fc3e75",
+    "migration_used_serialized_length_limit_as_width": true,
+    "mask_difference_proven": true,
+    "mask_difference_caused_rejection": null,
+    "next_experiment": "Change only these 16 lobby masks to the observed 98285 width, preserving their leading ten bits and every other semantic field. Do not retarget the build again."
+  },
+  "remaining_unsupported_members": ["replay.server.battlelobby", "replay.resumable.events", "replay.smartcam.events", "replay.sync.events", "replay.sync.history", "replay.load.info"]
+}
