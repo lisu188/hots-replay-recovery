@@ -1,0 +1,23 @@
+{
+  "format": "hots-playback-observation-v1",
+  "date": "2026-09-29",
+  "candidate_id": "98285-dragon-r5",
+  "candidate_filename": "TEN_GREYMANE_client98285_DRAGON_R5_EXPERIMENTAL.StormReplay",
+  "candidate_sha256": "f5eac2c4de55db9cc834c97825ac89d5fc0bb4807a2b216ba5ca7fbc63e45f11",
+  "outcome": "map-visible-then-replay-desync",
+  "visible_error": "Replay Desync!",
+  "visible_replay_clock": "0:04 / 20:33",
+  "visible_match_countdown": "-00:34",
+  "map_and_player_labels_visible": true,
+  "filename_confirmed_by_fresh_variables": true,
+  "variables_modified_utc": "2026-09-29T09:17:52Z",
+  "evidence": [
+    "User screenshot image(20260929-091801).png; filename and build are not visible in the image itself.",
+    "Fresh OneDrive Variables.txt lastReplayFilePath ends in the exact R5 filename; private directory and account fields are not published."
+  ],
+  "complete_playback_validated": false,
+  "simulation_compatibility_validated": false,
+  "first_divergent_gameloop_identified": false,
+  "root_cause_established": false,
+  "investigation": "Inspect original versus converted startup events and preserved sync payloads. Do not conflate displaying the map with faithful replay playback; do not retarget the client or borrow checksums from a different match."
+}
