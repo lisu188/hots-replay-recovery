@@ -1,0 +1,16 @@
+{
+  "run_id": 36544856084,
+  "tested_commit": "644560b5510ad47fdeed16c6c00e4b3ed989ddc6",
+  "test_count": 166,
+  "repeated_generation_identical": true,
+  "matches_local_sha256": true,
+  "candidate_sha256": "f5eac2c4de55db9cc834c97825ac89d5fc0bb4807a2b216ba5ca7fbc63e45f11",
+  "source_pins": {
+    "repair_dragon_dependencies.py": "b74f7f3f6293a5f2199ba545b2f58f842ce25d0965276701cf87f0e4cddf6a0c",
+    "test_dragon_dependencies.py": "38866f59024b0df43bf5bcc24b21dcb8bb80b2397a1a2b754d869918e9ccf8fd",
+    "observations/dragon-98285-2026-09-29.json": "f912fdcafdb57759280200619f4f7ab7f7a67b86a62453c19af20a8c7f68e13c"
+  },
+  "private_donor_supplied_to_ci": false,
+  "client_playback_validated": false,
+  "simulation_compatibility_validated": false
+}

@@ -1,0 +1,118 @@
+{
+  "all_event_bytes_preserved": true,
+  "artifact": {
+    "base64_roundtrip_validated": true,
+    "name": "TEN_GREYMANE_client98285_DRAGON_R5_EXPERIMENTAL.StormReplay",
+    "parts": 23,
+    "sha256": "f5eac2c4de55db9cc834c97825ac89d5fc0bb4807a2b216ba5ca7fbc63e45f11",
+    "size": 1255308
+  },
+  "battlelobby_prefix": {
+    "new_prefix_bytes": 1033,
+    "old_prefix_bytes": 861,
+    "path_count_after": 6,
+    "path_count_before": 5,
+    "tail_bytes": 40885,
+    "tail_bytes_preserved": true,
+    "tail_sha256": "1d67f38df429887986187ae2594085ec70d4080a1fd7e4249cac83c3137e1b60"
+  },
+  "build": 98285,
+  "changed_members": [
+    "replay.initData",
+    "replay.details",
+    "replay.server.battlelobby"
+  ],
+  "changes": 5,
+  "client_playback_validated": false,
+  "container": {
+    "after": {
+      "archive_bytes": 1254284,
+      "bet_present": true,
+      "header_md5": true,
+      "het_present": true,
+      "mpq_version": 4,
+      "raw_chunk_size": 16384
+    },
+    "before": {
+      "archive_bytes": 1229805,
+      "bet_present": true,
+      "header_md5": true,
+      "het_present": true,
+      "mpq_version": 4,
+      "raw_chunk_size": 16384
+    },
+    "writer": "native-StormLib-preserve-extended-format"
+  },
+  "events": {
+    "game": 104257,
+    "message": 155,
+    "tracker": 6614
+  },
+  "format": "hots-dragon-dependency-repair-v1",
+  "header_bytes_preserved": true,
+  "independent_mpyq_equal": true,
+  "limitations": [
+    "The donor is a custom game; the recorded matchmaking settings are retained, not copied.",
+    "Map/mod checksums and three dependency lists are matched to the observed same-map reference.",
+    "Cache references do not embed or independently validate the referenced mod files.",
+    "The rest of the 2016 battlelobby and opaque synchronization data remain unchanged.",
+    "Numeric ability/unit catalogs and 2016 game rules are not ported by changing dependency metadata.",
+    "No HotS executable was run; observed-payload validation uses schema 96477."
+  ],
+  "map_checksum_after": 886294905,
+  "map_checksum_before": 759447839,
+  "mod_checksum_after": 2276260760,
+  "mod_checksum_before": 3522231966,
+  "native_checksums": {
+    "all_available_checksums_passed": true,
+    "member_error_mask": 683,
+    "member_verification_flags": {
+      "(attributes)": 256,
+      "(listfile)": 336,
+      "replay.attributes.events": 336,
+      "replay.details": 336,
+      "replay.game.events": 336,
+      "replay.initData": 336,
+      "replay.load.info": 336,
+      "replay.message.events": 336,
+      "replay.resumable.events": 336,
+      "replay.server.battlelobby": 336,
+      "replay.smartcam.events": 336,
+      "replay.sync.events": 336,
+      "replay.sync.history": 256,
+      "replay.tracker.events": 336
+    },
+    "raw_table_results": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    }
+  },
+  "native_payload_check": {
+    "all_members_equal": true,
+    "member_count": 14,
+    "tested": true
+  },
+  "reference_mode_differences_not_copied": {
+    "m_amm": {
+      "candidate": true,
+      "reference": false
+    },
+    "m_ammId": {
+      "candidate": 50001,
+      "reference": null
+    },
+    "m_competitive": {
+      "candidate": true,
+      "reference": false
+    }
+  },
+  "reference_observation_sha256": "ce5a016a1c01e920c173590b4873225b37fbf18efb8d2f59a84f9bea19c75b73",
+  "reference_sha256": "5a7b05f4a75bc229dbbd74e6cc09e3b411129fc731874cfaa9217432fb85e7dc",
+  "simulation_compatibility_validated": false,
+  "source_sha256": "edd690c6956b48c1592edf946bc8e01e012220c961b04cf3d86ec983c808367c",
+  "status": "experimental-awaiting-client-test"
+}

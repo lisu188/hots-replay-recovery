@@ -1,0 +1,59 @@
+{
+  "base_build": 98285,
+  "build": 98285,
+  "client_playback_observed_by_tool": false,
+  "compatibility_hash": "00000000000000000000000000000000",
+  "data_build": 98285,
+  "event_counts": {
+    "game": 156,
+    "message": 0,
+    "tracker": 7555
+  },
+  "format": "hots-dragon-dependency-observation-v1",
+  "full_reference_roundtrip": true,
+  "game_options": {
+    "m_advancedSharedControl": false,
+    "m_amm": false,
+    "m_ammId": null,
+    "m_battleNet": true,
+    "m_clientDebugFlags": 289,
+    "m_competitive": false,
+    "m_cooperative": false,
+    "m_fog": 0,
+    "m_heroDuplicatesAllowed": true,
+    "m_lockTeams": true,
+    "m_noVictoryOrDefeat": false,
+    "m_observers": 0,
+    "m_practice": false,
+    "m_randomRaces": false,
+    "m_teamsTogether": false,
+    "m_userDifficulty": 0
+  },
+  "handles_hex": [
+    "73326d61000045551f1b228ddb1f72205cbfd444055287100b0f39959be816548162e4081ea85511",
+    "73326d61000045551ad94c126eb98a4c1de7b8e6f8aaa153dba52b09d3825e0c89dbc5828db70f76",
+    "73326d610000455592d81744c1441bf628ed6ab7e9d19485c860914d8b745a91f6351ff9dcd4e6bb",
+    "73326d6100004555a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43",
+    "73326d6100004555baae53ca97aa2a0cf370cadbef747a321fd9677c607d5c353878e645bcc14bf9",
+    "73326d6100004555f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f"
+  ],
+  "has_extension_mod": false,
+  "is_blizzard_map": true,
+  "map_author_hex": "322d4865726f2d312d333237",
+  "map_checksum": 886294905,
+  "map_file_name_hex": "",
+  "map_size": [
+    248,
+    208
+  ],
+  "map_title": "Dragon Shire",
+  "mod_checksum": 2276260760,
+  "native_checksums_passed": true,
+  "reference_bytes": 124915,
+  "reference_prefix_bytes": 1033,
+  "reference_prefix_roundtrip": true,
+  "reference_prefix_sha256": "a1c8537ec89a1e77684a015c9ca88278a75a34dc1d5eeb3d5a52fc5ef1a86bd8",
+  "reference_sha256": "5a7b05f4a75bc229dbbd74e6cc09e3b411129fc731874cfaa9217432fb85e7dc",
+  "root": "b5114c16bd78f1844ab9fe97cbd9c305",
+  "schema_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84"
+}
