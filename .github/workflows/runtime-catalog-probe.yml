@@ -1,0 +1,154 @@
+name: Runtime catalog diagnostic map
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/runtime-catalog-probe.yml'
+      - 'runtime_catalog_probe.py'
+      - 'test_runtime_catalog_probe.py'
+      - 'scripts/run_catalog_probe.ps1'
+      - 'observations/runtime-catalog-reference-anchors.json'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    env:
+      PYTHONPATH: ${{ github.workspace }}/_upstream:${{ github.workspace }}
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          ref: ${{ github.sha }}
+          persist-credentials: false
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          repository: Blizzard/heroprotocol
+          ref: 9af3ea7150f1a8acb53464c92519a9bbcc7a3594
+          path: _upstream
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.13'
+      - name: Install native writer and independent reader
+        run: |
+          python -m pip install six==1.17.0 mpyq==0.2.5
+          sudo apt-get update -qq
+          sudo apt-get install -y libstorm-dev
+          mkdir -p work/runtime-probe-evidence
+          dpkg-query -W libstorm9 libstorm-dev libtomcrypt1 libtommath1 > work/runtime-probe-evidence/native-packages.txt
+      - name: Verify reviewed code and immutable fixtures
+        run: |
+          python - <<'PY'
+          import hashlib
+          from pathlib import Path
+          pins = {'runtime_catalog_probe.py': 'a6f7c816ec0106ca2b2e687ff6ee0f17a189cfd078e626b287649e6c48b21c5a',
+                  'test_runtime_catalog_probe.py': '2faf419b956078a0b778b890054e526cfe7dfe1a0e02065e9e4f04eee10adaa4',
+                  'scripts/run_catalog_probe.ps1': '8c14a49ed7659a9c9853048ad596ada2720209d9bf006be019c73776581ec915',
+                  'observations/runtime-catalog-reference-anchors.json': '53f70fecc2343f355f67774e9d9694e6dc5f0ac4e0083c83680611da5a2bb7a9'}
+          for name, digest in pins.items():
+              if hashlib.sha256(Path(name).read_bytes()).hexdigest() != digest:
+                  raise RuntimeError('Source differs from the reviewed local file: ' + name)
+          PY
+          source=artifacts/TEN_GREYMANE_source_41810.StormReplay
+          python scripts/restore_artifact.py "$source.base64" work/TEN_GREYMANE_source_41810.StormReplay --sha256 "$source.sha256"
+          fixture=checkpoints/44256/TEN_GREYMANE_protocol44256.StormReplay
+          python scripts/restore_artifact.py "$fixture.base64" "$fixture" --sha256 "$fixture.sha256"
+          r3=client-checkpoints/98285-native-r3/TEN_GREYMANE_client98285_NATIVE_R3_EXPERIMENTAL.StormReplay
+          python scripts/restore_artifact.py "$r3.base64" "$r3" --sha256 "$r3.sha256"
+          r4=client-checkpoints/98285-controls-r4/TEN_GREYMANE_client98285_CONTROLS_R4_EXPERIMENTAL.StormReplay
+          python scripts/restore_artifact.py "$r4.base64" work/R4.StormReplay --sha256 "$r4.sha256"
+          r6=client-checkpoints/98285-unit-tags-r6/TEN_GREYMANE_client98285_TAGS_R6_PARTIAL.StormReplay
+          python scripts/restore_artifact.py "$r6.base64" work/R6.StormReplay --sha256 "$r6.sha256"
+          curl --fail --location --retry 2 --max-time 120 https://raw.githubusercontent.com/jamiephan/HeroesOfTheStorm_S2MA/2bc3715018424208faf200c141756d9a19f9aafa/s2ma/f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f.s2ma -o work/DragonShire.s2ma
+          echo 'f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f  work/DragonShire.s2ma' | sha256sum --check
+      - name: Run existing and new regression suites
+        run: python -m unittest -v test_runtime_catalog_probe test_command_flags test_catalog_diagnostics test_unit_tags test_mpyq_empty_members test_empty_mpq_members test_dragon_dependencies test_control_masks test_live_identity test_startup test_reference test_client_binding test_reproduce_client test_playback_diagnostics test_repack_control 2>&1 | tee work/runtime-probe-evidence/tests.log
+      - name: Parse PowerShell without executing the Windows launcher
+        shell: pwsh
+        run: |
+          $tokens = $null
+          $errors = $null
+          [System.Management.Automation.Language.Parser]::ParseFile((Join-Path $env:GITHUB_WORKSPACE 'scripts/run_catalog_probe.ps1'), [ref]$tokens, [ref]$errors) | Out-Null
+          if ($errors.Count -gt 0) { $errors | Format-List | Out-String | Write-Error; exit 1 }
+          'PowerShell parser: no syntax errors; Windows launch and collection not executed.' | Set-Content work/runtime-probe-evidence/powershell-parse.txt
+      - name: Generate twice and independently verify all map payloads
+        run: |
+          python runtime_catalog_probe.py build work/DragonShire.s2ma --output work/runtime-probe | tee work/runtime-probe-evidence/build.log
+          python runtime_catalog_probe.py build work/DragonShire.s2ma --output work/runtime-probe-repeat > work/runtime-probe-evidence/repeat.log
+          cmp work/runtime-probe/*.StormMap work/runtime-probe-repeat/*.StormMap
+          python - <<'PY'
+          import ctypes as c
+          import hashlib
+          import json
+          import os
+          import re
+          from pathlib import Path
+          import mpyq
+          from bind_client_metadata import independent_member
+          from runtime_catalog_probe import Storm, OUTPUT, MAP_SHA256
+          root = Path('work/runtime-probe')
+          path = root / OUTPUT
+          report = json.loads((root / 'probe-report.json').read_text())
+          if report['probe_sha256'] != 'a1bc4403fe3f60c6af067ea8ed8a0131ed1d2feaafd1157fe7a1cf5a899d486a':
+              raise RuntimeError('CI map differs from the locally generated diagnostic')
+          s = Storm()
+          expected = s.members(path)
+          independent = mpyq.MPQArchive(str(path), listfile=False)
+          try:
+              for name, raw in expected.items():
+                  if independent_member(independent, name) != raw:
+                      raise RuntimeError('Independent map reader disagrees: ' + name)
+          finally:
+              independent.file.close()
+          s.lib.SFileVerifyFile.argtypes = [c.c_void_p, c.c_char_p, c.c_uint32]
+          s.lib.SFileVerifyFile.restype = c.c_uint32
+          s.lib.SFileVerifyRawData.argtypes = [c.c_void_p, c.c_uint32, c.c_char_p]
+          s.lib.SFileVerifyRawData.restype = c.c_int
+          handle = s.open(path)
+          try:
+              raw_tables = {str(k): s.lib.SFileVerifyRawData(handle, k, None) for k in range(1, 7)}
+              checksums = {n: s.lib.SFileVerifyFile(handle, n.encode(), 15) for n in expected}
+          finally:
+              s.lib.SFileCloseArchive(handle)
+          if any(raw_tables.values()) or any(v & 0x02ab for v in checksums.values()):
+              raise RuntimeError('Native map checksum validation failed')
+          log = Path('work/runtime-probe-evidence/tests.log').read_text()
+          count = int(re.search(r'Ran (\d+) tests', log)[1])
+          if count < 296 or not log.rstrip().endswith('OK') or 'skipped' in log.lower():
+              raise RuntimeError('Complete regressions did not pass')
+          verify = {'run_id': int(os.environ['GITHUB_RUN_ID']), 'tested_commit': os.environ['GITHUB_SHA'],
+                    'tests_passed': count, 'tests_failed': 0, 'tests_skipped': 0,
+                    'source_map_sha256': MAP_SHA256, 'probe_sha256': report['probe_sha256'],
+                    'all_listed_payloads_read_by_mpyq': len(expected), 'native_raw_table_results': raw_tables,
+                    'native_file_verification_flags': checksums, 'repeated_generation_identical': True,
+                    'matches_local_map': True, 'powershell_syntax_parsed': True,
+                    'windows_launcher_executed': False, 'galaxy_compilation_verified': False,
+                    'runtime_catalog_export_observed': False, 'client_playback_validated': False,
+                    'replay_modified': False, 'strong_archive_signature_authenticity_claimed': False}
+          (root / 'ci-verification.json').write_text(json.dumps(verify, indent=2) + '\n')
+          PY
+          cp scripts/run_catalog_probe.ps1 work/runtime-probe/
+          cp runtime_catalog_probe.py test_runtime_catalog_probe.py work/runtime-probe-evidence/
+          cp observations/runtime-catalog-reference-anchors.json work/runtime-probe/
+      - name: Preserve complete source history
+        if: always()
+        run: |
+          mkdir -p work/runtime-probe-evidence
+          git bundle create work/runtime-probe-evidence/source.bundle --all
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: runtime-probe-${{ github.run_id }}
+          path: |
+            work/runtime-probe/
+            work/runtime-probe-evidence/
+          retention-days: 30
