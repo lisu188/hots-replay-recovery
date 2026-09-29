@@ -1,0 +1,144 @@
+{
+  "client_playback_validated": false,
+  "flag_semantics_proven": false,
+  "format": "hots-command-flag-observation-v1",
+  "references": [
+    {
+      "declared_build": 98285,
+      "histogram": [
+        {
+          "flags": 256,
+          "shapes": {
+            "explicit:None": 128,
+            "explicit:TargetPoint": 393,
+            "explicit:TargetUnit": 159
+          }
+        },
+        {
+          "flags": 266,
+          "shapes": {
+            "implicit:TargetPoint": 4
+          }
+        },
+        {
+          "flags": 33024,
+          "shapes": {
+            "explicit:TargetPoint": 1
+          }
+        },
+        {
+          "flags": 524544,
+          "shapes": {
+            "explicit:None": 569
+          }
+        },
+        {
+          "flags": 524552,
+          "shapes": {
+            "implicit:TargetPoint": 10727,
+            "implicit:TargetUnit": 3768
+          }
+        },
+        {
+          "flags": 557320,
+          "shapes": {
+            "implicit:TargetPoint": 25
+          }
+        },
+        {
+          "flags": 1048832,
+          "shapes": {
+            "explicit:TargetPoint": 1403,
+            "explicit:TargetUnit": 845
+          }
+        },
+        {
+          "flags": 1310976,
+          "shapes": {
+            "explicit:None": 44
+          }
+        },
+        {
+          "flags": 9437440,
+          "shapes": {
+            "explicit:TargetPoint": 21
+          }
+        }
+      ],
+      "observed_payload_roundtrip": true,
+      "sha256": "05ec458110db57dd5cf6c044cb6b7270d880282ec803abce725f048f91fc3e75"
+    },
+    {
+      "declared_build": 98285,
+      "histogram": [
+        {
+          "flags": 524552,
+          "shapes": {
+            "implicit:TargetPoint": 3
+          }
+        }
+      ],
+      "observed_payload_roundtrip": true,
+      "sha256": "5a7b05f4a75bc229dbbd74e6cc09e3b411129fc731874cfaa9217432fb85e7dc"
+    }
+  ],
+  "source": {
+    "declared_build": 98285,
+    "histogram": [
+      {
+        "flags": 256,
+        "shapes": {
+          "explicit:None": 68,
+          "explicit:TargetPoint": 712,
+          "explicit:TargetUnit": 508
+        }
+      },
+      {
+        "flags": 266,
+        "shapes": {
+          "implicit:TargetPoint": 7
+        }
+      },
+      {
+        "flags": 65792,
+        "shapes": {
+          "explicit:TargetPoint": 3
+        }
+      },
+      {
+        "flags": 524544,
+        "shapes": {
+          "explicit:None": 16
+        }
+      },
+      {
+        "flags": 1048832,
+        "shapes": {
+          "explicit:None": 606
+        }
+      },
+      {
+        "flags": 1048840,
+        "shapes": {
+          "implicit:TargetPoint": 1175,
+          "implicit:TargetUnit": 740
+        }
+      },
+      {
+        "flags": 1114376,
+        "shapes": {
+          "implicit:TargetPoint": 66
+        }
+      },
+      {
+        "flags": 2097408,
+        "shapes": {
+          "explicit:TargetPoint": 291,
+          "explicit:TargetUnit": 366
+        }
+      }
+    ],
+    "observed_payload_roundtrip": true,
+    "sha256": "0613acfcdcda173be31a7dbf4b31a985d62304a35547da18b235256738c22f0c"
+  }
+}
