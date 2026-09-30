@@ -1,0 +1,134 @@
+name: J2 capture import and catalog plan
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'import_catalog_journal.py'
+      - 'test_catalog_journal_import.py'
+      - '.github/workflows/catalog-journal-import.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-24.04, windows-2025]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 10
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.13'
+      - name: Verify published source and execute diagnostic regressions
+        run: |
+          set -euo pipefail
+          mkdir -p work/journal-import
+          python -m pip install six==1.17.0
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib
+          pins = {'import_catalog_journal.py':'91d4ea675b059026ca29cb3d990039b442f43089f92e0aa173244b55f83d31cb',
+                  'test_catalog_journal_import.py':'c033227292ccedbcea3ffef7b52ec4b877479b233292a726d91ff5c41f7eddac'}
+          for name, expected in pins.items():
+              assert hashlib.sha256(Path(name).read_bytes().replace(b'\r\n', b'\n')).hexdigest() == expected, name
+          PY
+          python -m unittest -v test_catalog_journal_import test_catalog_journal test_catalog_migration_plan test_catalog_capture test_catalog_capture_cli test_command_identity_audit 2>&1 | tee work/journal-import/tests.log
+      - name: Run the complete read-only pipeline against the original with synthetic capture fixtures
+        run: |
+          set -euo pipefail
+          source=artifacts/TEN_GREYMANE_source_41810.StormReplay
+          python scripts/restore_artifact.py "$source.base64" work/original.StormReplay --sha256 "$source.sha256"
+          python - <<'PY'
+          import hashlib, json, os, re
+          from pathlib import Path
+          from import_catalog_journal import run
+          from test_catalog_journal_import import make_zip
+          source = Path('work/original.StormReplay')
+          before = hashlib.sha256(source.read_bytes()).hexdigest()
+          root = Path('work/journal-import')
+          outcomes = {}
+          for label, journals in [('SYNTHETIC-matching-anchors', None), ('SYNTHETIC-no-journal', {})]:
+              capture = root / (label + '.zip')
+              make_zip(capture, journals=journals)
+              summaries = []
+              for repeat in range(2):
+                  summaries.append(run(capture, root / (label + '-' + str(repeat)), source))
+              assert summaries[0] == summaries[1]
+              for filename in ['capture.json', 'plan.json', 'summary.json']:
+                  assert (root / (label + '-0') / filename).read_bytes() == (root / (label + '-1') / filename).read_bytes()
+              coverage = summaries[0]['plan_coverage']
+              assert coverage['source_links'] == 49 and coverage['source_fields'] == 12557 and coverage['source_ability_links'] == 54
+              assert coverage['mapped_ability_links'] == 0
+              assert not summaries[0]['replay_modified'] and not summaries[0]['client_playback_validated']
+              plan = json.loads((root / (label + '-0') / 'plan.json').read_text())
+              assert not plan['replay_ready_for_playback'] and 'original_synchronization_equivalence_unverified' in plan['blocking_checks']
+              if journals == {}:
+                  assert coverage['reviewable_links'] == 0 and not summaries[0]['ready_for_unit_catalog_review']
+              outcomes[label] = {'capture_status':summaries[0]['status'], 'coverage':coverage, 'reports_identical':True}
+          assert hashlib.sha256(source.read_bytes()).hexdigest() == before == 'e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824'
+          log = (root / 'tests.log').read_text()
+          assert int(re.search(r'Ran (\d+) tests', log)[1]) == 175 and log.rstrip().endswith('OK') and 'skipped' not in log.lower()
+          result = {'format':'hots-j2-import-ci-v1', 'run_id':int(os.environ['GITHUB_RUN_ID']),
+                    'tested_commit':os.environ['GITHUB_SHA'], 'platform':os.name,
+                    'tests_passed':175, 'tests_failed':0, 'tests_skipped':0, 'new_distinct_tests':27,
+                    'integration_inputs':'real immutable original replay plus SYNTHETIC catalog captures',
+                    'integration_results':outcomes, 'source_unchanged':True,
+                    'real_runtime_capture_observed':False, 'new_replay_created':False,
+                    'client_playback_validated':False, 'native_stormlib_run':False,
+                    'fresh_upstream_decoder_run':False}
+          (root / 'verification.json').write_text(json.dumps(result, indent=2) + '\n')
+          PY
+      - name: Feed actual Windows collector output into the importer without launching HotS
+        if: runner.os == 'Windows'
+        run: |
+          python - <<'PY'
+          import json, shutil, subprocess
+          from pathlib import Path
+          from import_catalog_journal import validate_capture
+          from test_catalog_journal_import import ANCHORS, full_journal
+          root = Path('work/journal-import')
+          results = []
+          for engine in ('powershell', 'pwsh'):
+              for present in (False, True):
+                  label = engine + ('-with-synthetic-journal' if present else '-without-journal')
+                  home = root / ('fixture-' + label)
+                  docs = home / 'Documents with spaces'
+                  docs.mkdir(parents=True)
+                  if present:
+                      (docs / 'HRC98285_20260929_J2.txt').write_bytes(full_journal())
+                  output = home / 'collected'
+                  command = [engine, '-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', 'scripts/run_catalog_journal.ps1', '-Mode', 'Collect', '-GameDocuments', str(docs.resolve()), '-OutputDirectory', str(output.resolve())]
+                  completed = subprocess.run(command, capture_output=True, text=True, timeout=60)
+                  assert completed.returncode == 0, completed.stdout + completed.stderr
+                  result = validate_capture(Path(str(output) + '.zip'), ANCHORS)
+                  assert not result['ready_for_unit_catalog_review'] and not result['client_playback_validated']
+                  assert 'collector_did_not_launch_this_probe' in result['blocking_checks']
+                  if not present:
+                      assert 'no_journal_collected' in result['blocking_checks']
+                  (root / (label + '-result.json')).write_text(json.dumps(result, indent=2) + '\n')
+                  results.append({'engine':engine, 'synthetic_journal_present':present, 'collector_executed':True, 'importer_executed':True, 'blocked_as_expected':True, 'game_started':False})
+                  shutil.rmtree(home)
+          (root / 'windows-producer-consumer.json').write_text(json.dumps(results, indent=2) + '\n')
+          PY
+      - name: Preserve complete source history through this checkpoint
+        if: runner.os == 'Linux'
+        run: git bundle create work/journal-import/source.bundle HEAD
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: j2-import-${{ matrix.os }}-${{ github.run_id }}
+          path: work/journal-import/
+          retention-days: 30
