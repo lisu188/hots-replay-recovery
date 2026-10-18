@@ -391,3 +391,18 @@ The publication-binding v2 retains original artifact and published Git blob
 digests/sizes, verifies identical JSON values and every staged file hash.
 Executed research-code hashes are unchanged. Original artifact receipts retain
 their original CRLF report digests; they are not relabeled published hashes.
+
+
+## Verified source/evidence backup through 1e31a3d - 2026-10-18
+
+Complete regression39161650744 passed the published1e31a3d source: all three
+lanes846tests/40modules with declared38Linux/4Windows skips, actualNGSfixture
+executed and no failures/errors/unexpectedskips. The small source delta
+ac52010..1e31a3d and new docs/projections are backed up as
+hots-offline-evidence-1e31a3d.zip (373204bytes,
+SHA25606b01243ef256c30e87470595f4e166f3e9a1b777ea21395365a7b2a2911dcb4).
+Existing OneDrive checkpoint upload succeeded; fresh cloud size/QuickXor equals
+local bytes. No independent remote SHA256 download claim is made. Preserve the
+three earlier base/addendum archives listed in the manifest. This later receipt
+is bookkeeping after the backed-up source commit. No new replay/client outcome;
+R8 and the unfinished offline-only full-upgrade objective remain unchanged.
