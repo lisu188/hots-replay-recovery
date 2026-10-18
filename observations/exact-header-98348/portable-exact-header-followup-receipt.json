@@ -1,0 +1,89 @@
+{
+  "format": "hots-portable-exact-header-followup-receipt-v1",
+  "allowlist": [
+    {
+      "file": "recover_current_eu_heroesdata_header.py",
+      "bytes": 12148,
+      "sha256": "080615308fd50f4015b8ee0e562a79240b64dc6b0d9cc1d51923d4fc953676f9"
+    },
+    {
+      "file": "test_recover_current_eu_heroesdata_header.py",
+      "bytes": 2811,
+      "sha256": "0937e62e8509622c2f68b1a560db40df21761b0bbafda809140b74636830eacc"
+    },
+    {
+      "file": "README_PORTABLE_EXACT_RECOVERY.md",
+      "bytes": 5195,
+      "sha256": "511cbbe2d11b12855742befcc48fc4928ba9479e2e72e31b4c8c1bd56fe448e4"
+    },
+    {
+      "file": "portable-reproduction.json",
+      "bytes": 2337,
+      "sha256": "678f22eb276ff47278d9e272d41057d254bdd524da2065d1285cfba1176ccbe4"
+    }
+  ],
+  "dependency_sources": [
+    {
+      "file": "lossless_wire.py",
+      "sha256": "9d725f9be88c4185419a306ef995e82a774d174a93912ffd381cced2d6ebb7a7"
+    },
+    {
+      "file": "battlelobby_header_attributes.py",
+      "sha256": "ce10b4ee3eeaacc1e6431f13291851e1f2fc2e8a8e3b3da5301a414d9749a868"
+    },
+    {
+      "file": "project_attribute_nodes.py",
+      "sha256": "73b3d94269a12c117613edb25f3fa590c2af8947b2de9f11bc7baf4e4133f677"
+    },
+    {
+      "file": "../collection-registry-ready/experimental_registry_merge.py",
+      "sha256": "f2d8fd373991fd7e03264f03379e29121b2e14bbbe01e01bde5e37cb2b108bfd"
+    },
+    {
+      "file": "../collection-registry-ready/registry_insertion_control.py",
+      "sha256": "5e252a35ad36fbece6c27f14667e46bedc071871f1c6a5d3453fea7580e3be50"
+    }
+  ],
+  "frozen_original_executed_assembler_sha256": "2270d7b098aef10a2e65d38c4ec7d0a496d04d0e560eeb85d1f9fd5e82907e77",
+  "original_experiment_report_sha256": "186ea4280bea39ff2434571d18300002d147572ce766b873503e1d29b5b89fee",
+  "original_independent_review_sha256": "281f873fce779d17be0c443faf87cb0fa7610547ce554b9004807b92c9c98072",
+  "synthetic_guard_tests": {
+    "count": 8,
+    "all_passed": true,
+    "names": [
+      "test_mismatching_digest_creates_no_file_or_sibling",
+      "test_exact_digest_and_complete_wire_creates_exact_bytes",
+      "test_existing_output_is_refused_and_preserved",
+      "test_exact_hash_with_trailing_wire_bytes_still_cannot_write",
+      "test_noncanonical_expected_digest_rejected_before_write",
+      "test_header_over_size_bound_never_written",
+      "test_input_over_limit_is_refused",
+      "test_cli_refuses_existing_report_before_reading_inputs"
+    ],
+    "genuine_inputs_used_by_unit_tests": false
+  },
+  "fresh_explicit_input_portable_reproduction": {
+    "all_current_context_derived_from_actual_inputs": true,
+    "full_observed_core_reverified": true,
+    "exact_target_sha256": "f644ce88b9d1a1c15af40be380be285f3d2ffcaf901dc9c15da367e763ee75c0",
+    "bytes": 222049,
+    "both_candidate_hashes": [
+      "de56b149b10ed06cc13a00ef601e86b59cfb0b2533ea4cb6ec47a784251f1d88",
+      "f644ce88b9d1a1c15af40be380be285f3d2ffcaf901dc9c15da367e763ee75c0"
+    ],
+    "accepted_private_output_byte_identical_to_independently_reviewed_original": true,
+    "no_machine_specific_input_path_or_CI_report_authority": true
+  },
+  "hosted_full_reproduction_run": false,
+  "hosted_CI_input_limit": "The parent freshly observed404 for both exact oldEUdepot inputs. Synthetic guard CI is separate from the complete local input reproduction.",
+  "integration_plan": [
+    "Keep original executed research source and receipts frozen.",
+    "Publish the portableCLI, eight guard tests, README and new local reproduction receipt using this allowlist; retain pure helper import paths.",
+    "Run synthetic guards on Windows/Linux without raw data acquisition. Full input reproduction requires separately supplied exactSHAprivateheaders/currentreplay.",
+    "Keep all rawheaders/replays and both private exactf644bodies outsideGit.",
+    "Report static-object recovery separately from replay conversion, entitlement semantics and engineplayback."
+  ],
+  "raw_input_or_output_body_in_allowlist": false,
+  "replay_modified": false,
+  "client_launched": false
+}

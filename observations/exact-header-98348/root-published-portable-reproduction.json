@@ -1,0 +1,76 @@
+{
+  "format": "hots-portable-exact-current-EU-header-reproduction-v1",
+  "inputs": {
+    "source_header_sha256": "f115def2b9adbc67cfdd8bb4255cff1a8b44a8c921e98f56eebe20708660a7c9",
+    "prior_header_sha256": "29f66c9eca1844826ad55f63eb8fd32a2d6e74ddb7931a8e835fb951f58e184d",
+    "reference_replay_sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4",
+    "reference_bytes": 978482,
+    "schema_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+    "build_base_data": 98348,
+    "root_md5": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+    "explicit_participant_region": 2,
+    "target_package_index": 3
+  },
+  "target_sha256": "f644ce88b9d1a1c15af40be380be285f3d2ffcaf901dc9c15da367e763ee75c0",
+  "attempts": [
+    {
+      "candidate": 1,
+      "original_array_insertion_gaps": [
+        545,
+        893,
+        1501,
+        1875,
+        2733,
+        3272,
+        4227,
+        4230,
+        5130
+      ],
+      "bytes": 222049,
+      "sha256": "de56b149b10ed06cc13a00ef601e86b59cfb0b2533ea4cb6ec47a784251f1d88",
+      "matches_advertised_target": false,
+      "mismatching_candidate_written": false
+    },
+    {
+      "candidate": 2,
+      "original_array_insertion_gaps": [
+        545,
+        893,
+        1502,
+        1875,
+        2733,
+        3272,
+        4227,
+        4230,
+        5130
+      ],
+      "bytes": 222049,
+      "sha256": "f644ce88b9d1a1c15af40be380be285f3d2ffcaf901dc9c15da367e763ee75c0",
+      "matches_advertised_target": true,
+      "mismatching_candidate_written": false
+    }
+  ],
+  "exact_current_header_recovered": true,
+  "independent_complete_wire_decode_on_match": true,
+  "current_14_attribute_definitions_and_12_locales_observed": true,
+  "recipe_hypotheses_accepted_only_by_exact_full_SHA": [
+    "Allother65662fieldsunchanged",
+    "Field7+9shift",
+    "Ninehistoricalsingletonregistryinsertions"
+  ],
+  "changed_path_groups": [
+    "root/0/0/1",
+    "root/0/4/8/*/1/0",
+    "root/0/5",
+    "root/0/7/*/2/{0,1}/2",
+    "root/0/8/*/1/0",
+    "root/0/24"
+  ],
+  "raw_header_or_player_values_in_report": false,
+  "network_used": false,
+  "replay_modified": false,
+  "client_launched": false,
+  "simulation_or_conversion_proven": false,
+  "output_written": true,
+  "producer_sha256": "62fcfdb1f0cd2a3fae469149a15d4658b22a77aea17988497ab354cfcb26c41c"
+}

@@ -474,3 +474,28 @@ executed SHA pins remain truthful. OlderinputURLs404; do not claim CI rebuilt
 the realheader. No rawheaders inGit, newreplay, clientlaunch or deterministic
 playback proof. EUDragonfinalpackage,3missingUSheaders, availability/207legacy
 aliases and opaqueplayer conversion remain separate work. R8 unchanged.
+
+
+## Portable exact-header reproduction - 2026-10-18
+
+Root recover_current_eu_heroesdata_header.py now accepts explicit source65662,
+prior65661 and currentEUreplay paths, verifies actual complete core/schema/root/
+region/package/terminalhandle context and reconstructs inRAM. Only FULLf644SHA
+permits independent complete decode and exclusiveheader creation. Existing
+outputs/reports refused; mismatch creates noheader. Root actualCLI reproduced
+222049-byte f644 after pure AST-identical registry helper extraction, recorded
+in root-published-portable-reproduction.json. Eight writeguard tests and seven
+registry invariant tests pass; independent root transform review passes.
+
+Complete CI39165393339 at07304a0 passed879tests/42modules on all3lanes,
+38declaredLinux/4Windows skips, actualNGSfixture and genuineEUcore/lobby checks
+executed. It did not reconstruct the realheader. This later portable milestone
+adds15tests; record its remote result separately. Raw headers remain outsideGit.
+
+Three known US/EUCore/Teams/Heroes pairs have identical archivepayload digests,
+attribute field5 and outerroot1 bytes, but30/31 regional leaf differences in
+identities/namespaces/workingSet/locales/dependencies. Do not use a region-only
+replacement. A bounded five-division HeroesLounge EUDragon route found no replay
+links/zero matches in87standings rows (242128HTMLbytes); this is scoped evidence,
+not global absence. No more replay downloads or clientlaunch. R8 unchanged and
+full replay conversion/simulation remains unfinished.

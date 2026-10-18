@@ -1,0 +1,92 @@
+{
+  "format": "hots-bounded-current-eu-dragon-source-outcome-v1",
+  "created_at_utc": "2026-10-18T20:56:21.142621+00:00",
+  "producer_sha256": "56f8cd2fc64f85473a9403676e9f01775f1f8b754d396c933a0185f06d5a9e4b",
+  "request_helper_sha256": "6a5a91d9bc3e2531546214f75b868f8b02d07788da162319ac764921082aded0",
+  "private_request_ledger_sha256": "617e2720df4ba83670cd6f221cd2a0e390b9c91218da95744e3ce34e07d16d85",
+  "sources": [
+    {
+      "url": "https://heroeslounge.gg/eu-season-31/division-1",
+      "http_status": 200,
+      "bytes": 46312,
+      "sha256": "7a2862a0227e8fc3845d934494dc460d8bc6f1f6bf4b4826c0a1e08a59542663",
+      "acquired_at_utc": "2026-10-18T20:55:17.447072+00:00",
+      "standings_rows": 14,
+      "all_standings_match_counts_zero": true,
+      "observed_match_view_links": 0,
+      "observed_replay_links": 0
+    },
+    {
+      "url": "https://heroeslounge.gg/eu-season-31/division-2",
+      "http_status": 200,
+      "bytes": 49033,
+      "sha256": "0e4df7e7f5d32b60238a008b3268787cb79fba1f73f942106ef1a899eb5143b8",
+      "acquired_at_utc": "2026-10-18T20:55:26.364136+00:00",
+      "standings_rows": 18,
+      "all_standings_match_counts_zero": true,
+      "observed_match_view_links": 0,
+      "observed_replay_links": 0
+    },
+    {
+      "url": "https://heroeslounge.gg/eu-season-31/division-3",
+      "http_status": 200,
+      "bytes": 49033,
+      "sha256": "f15695d3119ee2cd5685359a36c2da4ea6e3916a05148b4368d2ab376773f457",
+      "acquired_at_utc": "2026-10-18T20:55:30.087968+00:00",
+      "standings_rows": 18,
+      "all_standings_match_counts_zero": true,
+      "observed_match_view_links": 0,
+      "observed_replay_links": 0
+    },
+    {
+      "url": "https://heroeslounge.gg/eu-season-31/division-4",
+      "http_status": 200,
+      "bytes": 50858,
+      "sha256": "589f5ad2eb580c933de5ff04e8dfbd2a474398c636f35fec7aa471c39d401158",
+      "acquired_at_utc": "2026-10-18T20:55:33.034650+00:00",
+      "standings_rows": 22,
+      "all_standings_match_counts_zero": true,
+      "observed_match_view_links": 0,
+      "observed_replay_links": 0
+    },
+    {
+      "url": "https://heroeslounge.gg/eu-season-31/division-5",
+      "http_status": 200,
+      "bytes": 46892,
+      "sha256": "5c23864da1177c2254a95842ae39b6032268aa80804ffea8850e7abf41f64e98",
+      "acquired_at_utc": "2026-10-18T20:55:36.442514+00:00",
+      "standings_rows": 15,
+      "all_standings_match_counts_zero": true,
+      "observed_match_view_links": 0,
+      "observed_replay_links": 0
+    }
+  ],
+  "HTML_pages_downloaded": 5,
+  "HTML_bytes_downloaded": 242128,
+  "caps": {
+    "HTML_pages": 10,
+    "aggregate_HTML_bytes": 2097152,
+    "replay_files": 1,
+    "replay_bytes": 5242880
+  },
+  "replay_files_downloaded": 0,
+  "current_EU_Dragon_Shire_candidate_admitted": false,
+  "existing_saved_source_context": {
+    "current_control_match_url": "https://heroeslounge.gg/match/view/27515",
+    "current_control_primary_page_date": "05 Oct 2026 19:00 (UTC +00:00)",
+    "current_control_map": "Lost Cavern",
+    "saved_other_match_primary_map_names": [
+      "Silver City",
+      "Lost Cavern",
+      "Braxis Outpost"
+    ],
+    "saved_offseason_pages": "offseason30-31 groups A/B/C"
+  },
+  "next_bounded_route": "A completed regular-map match on the linked EU season31 division pages would supply a direct map-filtered replay URL. These five observed pages currently contain no match links and every standings match count is zero.",
+  "limitations": [
+    "No claim is made that current EU Dragon Shire replays do not exist; this is only the result of the five exact primary pages and previously saved source context.",
+    "Map/date filtering would only select a candidate; its actual replay build, map, region and package handles would still need binary verification.",
+    "No random match IDs or unlisted upload paths were requested. No new replay was downloaded and no client was launched.",
+    "Team names, timeline contents, player identities, raw HTML and private replay/header bytes are not projected."
+  ]
+}

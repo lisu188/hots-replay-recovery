@@ -1,0 +1,44 @@
+{
+  "format": "hots-published-portable-header-module-transform-review-v1",
+  "status": "pass",
+  "material_findings": [],
+  "root_CLI_normalized_source_equal_frozen_except_pure_module_import": true,
+  "pure_module_functions_AST_exact": [
+    "checked",
+    "position_candidates",
+    "iter_candidate_vectors"
+  ],
+  "pure_module_only_docstring_constants_functions_no_import_or_I_O": true,
+  "pure_attribute_helpers_equal_frozen_after_newline_normalization": true,
+  "root_sources": [
+    {
+      "path": "recover_current_eu_heroesdata_header.py",
+      "bytes": 12147,
+      "sha256": "62fcfdb1f0cd2a3fae469149a15d4658b22a77aea17988497ab354cfcb26c41c"
+    },
+    {
+      "path": "registry_header_candidates.py",
+      "bytes": 4481,
+      "sha256": "b245aa9bc1415d67cd7861821088b773a2d5cd976dd1e69db84db2691c2113f6"
+    },
+    {
+      "path": "lossless_wire.py",
+      "bytes": 11513,
+      "sha256": "9d725f9be88c4185419a306ef995e82a774d174a93912ffd381cced2d6ebb7a7"
+    },
+    {
+      "path": "battlelobby_header_attributes.py",
+      "bytes": 4741,
+      "sha256": "ce10b4ee3eeaacc1e6431f13291851e1f2fc2e8a8e3b3da5301a414d9749a868"
+    },
+    {
+      "path": "project_attribute_nodes.py",
+      "bytes": 4156,
+      "sha256": "73b3d94269a12c117613edb25f3fa590c2af8947b2de9f11bc7baf4e4133f677"
+    }
+  ],
+  "frozen_actual_reproduction_review_receipt_sha256": "8365936e9ba1aedfa03bb9f6d99a3d17bbf2d79aecf7d748eff4849b29371716",
+  "new_network_requests": 0,
+  "client_launched": false,
+  "replay_or_repo_modified": false
+}

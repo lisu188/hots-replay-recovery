@@ -62,3 +62,10 @@ original and R8 replays were rehashed unchanged. R8 still declares98285.
 No client launched, no replay was generated and deterministic playback is
 unproven. Remaining work includes opaque player fields, availability/legacy
 aliases and catalog/ability/unit-instance/rule synchronization compatibility.
+
+## Later portable reproduction
+
+The supported root CLI and explicit input recipe are now described in
+PORTABLE_EXACT_EU_HEADER_RECOVERY_2026-10-18.md. Actual root execution reproduced
+the complete target hash after the pure registry module extraction. The frozen
+original producers above remain unchanged.

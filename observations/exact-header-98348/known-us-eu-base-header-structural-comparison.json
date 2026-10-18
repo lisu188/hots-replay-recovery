@@ -1,0 +1,1472 @@
+{
+  "format": "hots-known-US-EU-three-base-header-structural-comparison-v1",
+  "pairing_rule": "Exact primary filename plus identical SHA256 archive-payload digest; no pairing by listposition or regionalrecency.",
+  "pairs": [
+    {
+      "role_proven_by_filename_and_equal_archive_payload_digest": "Core.StormMod",
+      "source_headers": [
+        {
+          "scope": "US",
+          "header_sha256": "3392997d3afe27a33371b58cfaff37af5b67bda09ee9131e52bae0a0c80b2b76",
+          "package_id": 243551,
+          "package_version": 65582,
+          "filename": "Core.StormMod",
+          "archive_extension": "s2ma",
+          "archive_region": "US",
+          "archive_payload_sha256": "1f1b228ddb1f72205cbfd444055287100b0f39959be816548162e4081ea85511"
+        },
+        {
+          "scope": "EU",
+          "header_sha256": "8605dedcd84ee88bf5e4f21a354d4e5e0dd7e11f932a61955bef4d0dec7ec354",
+          "package_id": 169990,
+          "package_version": 65580,
+          "filename": "Core.StormMod",
+          "archive_extension": "s2ma",
+          "archive_region": "EU",
+          "archive_payload_sha256": "1f1b228ddb1f72205cbfd444055287100b0f39959be816548162e4081ea85511"
+        }
+      ],
+      "same_archive_payload_digest": true,
+      "full_archive_handles_equal": false,
+      "wire_header_shapes_equal": true,
+      "changed_header_fields": [
+        {
+          "path": "root/0/0",
+          "primary_label": "package_identity",
+          "US_shape": {
+            "wire_tag": 5,
+            "fields": 2
+          },
+          "EU_shape": {
+            "wire_tag": 5,
+            "fields": 2
+          },
+          "US_wire_sha256": "3d71e433dda79317751fbeb94c5fde3a9f3af020d1e9695203b74d2bb44a36df",
+          "EU_wire_sha256": "ce56a83343e76c0e56477ef5505215bc6db65acf8d574cf3299fe2f05fff4fd5",
+          "generic_values_equal": false
+        },
+        {
+          "path": "root/0/2",
+          "primary_label": "archive_handle",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "US_wire_sha256": "83061e182bd18f3d77c1ec6a31ac1ff034399b2a3454dcb7b0bd59fd434ac200",
+          "EU_wire_sha256": "112ea6afe1f006d5b051e0a9a91ee738f82c279372d84ccbf8396fbd6e798844",
+          "generic_values_equal": false
+        },
+        {
+          "path": "root/0/3",
+          "primary_label": "map_namespace",
+          "US_shape": {
+            "wire_tag": 9
+          },
+          "EU_shape": {
+            "wire_tag": 9
+          },
+          "US_wire_sha256": "1e2aaf8bb97fca48a9f086d742f156a1800cd2f0b254e3f3da8882c00f16571d",
+          "EU_wire_sha256": "ec4c1f516f15770735f81bad0724cec3a13b41837817b7e08f5576b91dea03f2",
+          "generic_values_equal": false
+        },
+        {
+          "path": "root/0/4",
+          "primary_label": "working_set",
+          "US_shape": {
+            "wire_tag": 5,
+            "fields": 12
+          },
+          "EU_shape": {
+            "wire_tag": 5,
+            "fields": 12
+          },
+          "US_wire_sha256": "ec3b29be3e79f9080d29a780d5828e414fd7758e4be9793a3867dd8346a224c7",
+          "EU_wire_sha256": "d6c05528568119965449190b683943680d93a8fdbc982248625a4f966fe7ffe0",
+          "generic_values_equal": false
+        },
+        {
+          "path": "root/0/8",
+          "primary_label": "locale_table",
+          "US_shape": {
+            "wire_tag": 0,
+            "length": 12
+          },
+          "EU_shape": {
+            "wire_tag": 0,
+            "length": 12
+          },
+          "US_wire_sha256": "48a3251ba59b23c77e3b9d30435c2493d0a125dd2e4728100270a188d3109973",
+          "EU_wire_sha256": "1c7b2b3c20cc35ba1f1fb4b531387bf1800efdc9162f7eddc34dddec2e84f77b",
+          "generic_values_equal": false
+        }
+      ],
+      "changed_leaf_paths_only_no_values": [
+        {
+          "path": "root/0/0/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 9
+          },
+          "EU_shape": {
+            "wire_tag": 9
+          }
+        },
+        {
+          "path": "root/0/0/1",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 9
+          },
+          "EU_shape": {
+            "wire_tag": 9
+          }
+        },
+        {
+          "path": "root/0/2",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/3",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 9
+          },
+          "EU_shape": {
+            "wire_tag": 9
+          }
+        },
+        {
+          "path": "root/0/4/7/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/4/7/1",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/4/8/0/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/4/8/1/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/4/8/2/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/4/8/3/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/4/8/4/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/4/8/5/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/4/8/6/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/4/8/7/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/4/8/8/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/4/8/9/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/4/8/10/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/4/8/11/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/8/0/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/8/1/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/8/2/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/8/3/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/8/4/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/8/5/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/8/6/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/8/7/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/8/8/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/8/9/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/8/10/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/8/11/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        }
+      ],
+      "outer_field1_wire_equal": true,
+      "attribute_definitions_wire_equal": true,
+      "module_dependency_pairs": {
+        "US": [],
+        "EU": []
+      }
+    },
+    {
+      "role_proven_by_filename_and_equal_archive_payload_digest": "Heroes.StormMod",
+      "source_headers": [
+        {
+          "scope": "US",
+          "header_sha256": "4b6fdc8eccc9eca107f7c6e5eae6c7c604e718ded019f4f4110a92300b54313f",
+          "package_id": 243552,
+          "package_version": 65552,
+          "filename": "Heroes.StormMod",
+          "archive_extension": "s2ma",
+          "archive_region": "US",
+          "archive_payload_sha256": "92d81744c1441bf628ed6ab7e9d19485c860914d8b745a91f6351ff9dcd4e6bb"
+        },
+        {
+          "scope": "EU",
+          "header_sha256": "c433f7acb071f5adf34363ef7228f49f48eb278ac6d12ac35a6fbb35ff9369b7",
+          "package_id": 169991,
+          "package_version": 65552,
+          "filename": "Heroes.StormMod",
+          "archive_extension": "s2ma",
+          "archive_region": "EU",
+          "archive_payload_sha256": "92d81744c1441bf628ed6ab7e9d19485c860914d8b745a91f6351ff9dcd4e6bb"
+        }
+      ],
+      "same_archive_payload_digest": true,
+      "full_archive_handles_equal": false,
+      "wire_header_shapes_equal": true,
+      "changed_header_fields": [
+        {
+          "path": "root/0/0",
+          "primary_label": "package_identity",
+          "US_shape": {
+            "wire_tag": 5,
+            "fields": 2
+          },
+          "EU_shape": {
+            "wire_tag": 5,
+            "fields": 2
+          },
+          "US_wire_sha256": "40eee1368e473e682079acbc1f8cac96304569cb29f98e15a744bce09303ebcb",
+          "EU_wire_sha256": "d119e398e48dc4d92eafaef5ff27b1f4f27ad5cdc7701812cf250b9c9c8316bf",
+          "generic_values_equal": false
+        },
+        {
+          "path": "root/0/2",
+          "primary_label": "archive_handle",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "US_wire_sha256": "0ba715353e9c9336ea9410e3cc85db0725a0b7d01b4eb21ff479589cb29964f3",
+          "EU_wire_sha256": "0a192625a27422dbf593db6761476ef928bb79d29d1a2ff763d9ceb813581f2b",
+          "generic_values_equal": false
+        },
+        {
+          "path": "root/0/3",
+          "primary_label": "map_namespace",
+          "US_shape": {
+            "wire_tag": 9
+          },
+          "EU_shape": {
+            "wire_tag": 9
+          },
+          "US_wire_sha256": "151bcd3892d6f748f3b3a6e72ec06c99c79b64355c18dfbfa2674b36ae6eee70",
+          "EU_wire_sha256": "70b6c5e1b1dd4193f972095ecec8318b93c7a6224048f3d0981d5033d6285d34",
+          "generic_values_equal": false
+        },
+        {
+          "path": "root/0/4",
+          "primary_label": "working_set",
+          "US_shape": {
+            "wire_tag": 5,
+            "fields": 12
+          },
+          "EU_shape": {
+            "wire_tag": 5,
+            "fields": 12
+          },
+          "US_wire_sha256": "d3a9ed23edaa6142f9dbe88c0df51f603d8fe454e11aeb5744a66a7097c021e5",
+          "EU_wire_sha256": "6baded32ffdb940d347edd86cbc12d3e63679031da27c50cbfb7f64e7729e090",
+          "generic_values_equal": false
+        },
+        {
+          "path": "root/0/8",
+          "primary_label": "locale_table",
+          "US_shape": {
+            "wire_tag": 0,
+            "length": 12
+          },
+          "EU_shape": {
+            "wire_tag": 0,
+            "length": 12
+          },
+          "US_wire_sha256": "ee5b7655863d1fea4c88d9616a4793cf979c955f65bc7af66dde2aa2b4c44037",
+          "EU_wire_sha256": "26c1d910d37b5942bc1ad5814b5fa9991b9234d18b31af7c422a96dc37ca3c19",
+          "generic_values_equal": false
+        },
+        {
+          "path": "root/0/14",
+          "primary_label": "extra_dependencies",
+          "US_shape": {
+            "wire_tag": 0,
+            "length": 1
+          },
+          "EU_shape": {
+            "wire_tag": 0,
+            "length": 1
+          },
+          "US_wire_sha256": "282e8cc22f4a533130bd25ad79fe44b91ec76c812c0acad47db8829c81fc54be",
+          "EU_wire_sha256": "7dab7950eab5e72e39dc3ee762e39cf29a9222c8d6c396ae839da4969a8649f7",
+          "generic_values_equal": false
+        }
+      ],
+      "changed_leaf_paths_only_no_values": [
+        {
+          "path": "root/0/0/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 9
+          },
+          "EU_shape": {
+            "wire_tag": 9
+          }
+        },
+        {
+          "path": "root/0/2",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/3",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 9
+          },
+          "EU_shape": {
+            "wire_tag": 9
+          }
+        },
+        {
+          "path": "root/0/4/7/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/4/7/1",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/4/8/0/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/4/8/1/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/4/8/2/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/4/8/3/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/4/8/4/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/4/8/5/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/4/8/6/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/4/8/7/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/4/8/8/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/4/8/9/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/4/8/10/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/4/8/11/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/8/0/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/8/1/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/8/2/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/8/3/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/8/4/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/8/5/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/8/6/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/8/7/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/8/8/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/8/9/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/8/10/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/8/11/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/14/0/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 9
+          },
+          "EU_shape": {
+            "wire_tag": 9
+          }
+        }
+      ],
+      "outer_field1_wire_equal": true,
+      "attribute_definitions_wire_equal": true,
+      "module_dependency_pairs": {
+        "US": [
+          {
+            "id": 243551,
+            "version": 0
+          }
+        ],
+        "EU": [
+          {
+            "id": 169990,
+            "version": 0
+          }
+        ]
+      }
+    },
+    {
+      "role_proven_by_filename_and_equal_archive_payload_digest": "Teams10.StormMod",
+      "source_headers": [
+        {
+          "scope": "US",
+          "header_sha256": "82cf19ac9ceb903631db0994023efba040a1ccfbb0e920033a742d62cb65a77b",
+          "package_id": 243563,
+          "package_version": 65561,
+          "filename": "Teams10.StormMod",
+          "archive_extension": "s2ma",
+          "archive_region": "US",
+          "archive_payload_sha256": "1ad94c126eb98a4c1de7b8e6f8aaa153dba52b09d3825e0c89dbc5828db70f76"
+        },
+        {
+          "scope": "EU",
+          "header_sha256": "154724c2bc9830f8be306833c064da19063aaf3206327a6b9bcc7c56cdf7f84a",
+          "package_id": 170002,
+          "package_version": 65559,
+          "filename": "Teams10.StormMod",
+          "archive_extension": "s2ma",
+          "archive_region": "EU",
+          "archive_payload_sha256": "1ad94c126eb98a4c1de7b8e6f8aaa153dba52b09d3825e0c89dbc5828db70f76"
+        }
+      ],
+      "same_archive_payload_digest": true,
+      "full_archive_handles_equal": false,
+      "wire_header_shapes_equal": true,
+      "changed_header_fields": [
+        {
+          "path": "root/0/0",
+          "primary_label": "package_identity",
+          "US_shape": {
+            "wire_tag": 5,
+            "fields": 2
+          },
+          "EU_shape": {
+            "wire_tag": 5,
+            "fields": 2
+          },
+          "US_wire_sha256": "105d93b11d528d2ae55c224ebc11669cd99d14610dd716b85347b5c2d50fab73",
+          "EU_wire_sha256": "9baee4a402c6a1232155a07ccbf0e79ec040391574bef676ca46831d283f736a",
+          "generic_values_equal": false
+        },
+        {
+          "path": "root/0/2",
+          "primary_label": "archive_handle",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "US_wire_sha256": "fc36389d8921830070ad840a086edbd55ea151ea7e0ba6204e226de2414eef65",
+          "EU_wire_sha256": "4065a9e4a473a1145af9a1688d41b7bed9aeb5ec020d9496bfc69645f243e77c",
+          "generic_values_equal": false
+        },
+        {
+          "path": "root/0/3",
+          "primary_label": "map_namespace",
+          "US_shape": {
+            "wire_tag": 9
+          },
+          "EU_shape": {
+            "wire_tag": 9
+          },
+          "US_wire_sha256": "21f9b3a0b4a963139a2b8cfaa50e0a1c4eb1ce256579211f54d0e0fe84521342",
+          "EU_wire_sha256": "f3e56376f4e97369e98661bbaa0d4c4bf9f69d62f8def7df36e0bdd9ab28c158",
+          "generic_values_equal": false
+        },
+        {
+          "path": "root/0/4",
+          "primary_label": "working_set",
+          "US_shape": {
+            "wire_tag": 5,
+            "fields": 12
+          },
+          "EU_shape": {
+            "wire_tag": 5,
+            "fields": 12
+          },
+          "US_wire_sha256": "fb9d56365d9f8e7e2bbe1437cbdb56939bd092974b5a499da7c334b6b74fbf7a",
+          "EU_wire_sha256": "9d329f5753f37a615d8cb2107b182d60b53f6819985f043f850d73cdf8841728",
+          "generic_values_equal": false
+        },
+        {
+          "path": "root/0/8",
+          "primary_label": "locale_table",
+          "US_shape": {
+            "wire_tag": 0,
+            "length": 12
+          },
+          "EU_shape": {
+            "wire_tag": 0,
+            "length": 12
+          },
+          "US_wire_sha256": "eacd90ab5bdc1bbf3bd234656c22f041c01f3aff4191c4aef660828c3a39a02d",
+          "EU_wire_sha256": "2203fd0b120d2fa417035c03d7d49c3791f58bad99991122eb7e01d45c6561a6",
+          "generic_values_equal": false
+        },
+        {
+          "path": "root/0/14",
+          "primary_label": "extra_dependencies",
+          "US_shape": {
+            "wire_tag": 0,
+            "length": 1
+          },
+          "EU_shape": {
+            "wire_tag": 0,
+            "length": 1
+          },
+          "US_wire_sha256": "282e8cc22f4a533130bd25ad79fe44b91ec76c812c0acad47db8829c81fc54be",
+          "EU_wire_sha256": "7dab7950eab5e72e39dc3ee762e39cf29a9222c8d6c396ae839da4969a8649f7",
+          "generic_values_equal": false
+        }
+      ],
+      "changed_leaf_paths_only_no_values": [
+        {
+          "path": "root/0/0/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 9
+          },
+          "EU_shape": {
+            "wire_tag": 9
+          }
+        },
+        {
+          "path": "root/0/0/1",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 9
+          },
+          "EU_shape": {
+            "wire_tag": 9
+          }
+        },
+        {
+          "path": "root/0/2",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/3",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 9
+          },
+          "EU_shape": {
+            "wire_tag": 9
+          }
+        },
+        {
+          "path": "root/0/4/7/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/4/7/1",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/4/8/0/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/4/8/1/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/4/8/2/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/4/8/3/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/4/8/4/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/4/8/5/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/4/8/6/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/4/8/7/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/4/8/8/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/4/8/9/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/4/8/10/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/4/8/11/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/8/0/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/8/1/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/8/2/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/8/3/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/8/4/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/8/5/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/8/6/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/8/7/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/8/8/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/8/9/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/8/10/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/8/11/1/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          },
+          "EU_shape": {
+            "wire_tag": 2,
+            "bytes": 40
+          }
+        },
+        {
+          "path": "root/0/14/0/0",
+          "difference": "payload-or-retained-spelling",
+          "US_shape": {
+            "wire_tag": 9
+          },
+          "EU_shape": {
+            "wire_tag": 9
+          }
+        }
+      ],
+      "outer_field1_wire_equal": true,
+      "attribute_definitions_wire_equal": true,
+      "module_dependency_pairs": {
+        "US": [
+          {
+            "id": 243551,
+            "version": 0
+          }
+        ],
+        "EU": [
+          {
+            "id": 169990,
+            "version": 0
+          }
+        ]
+      }
+    }
+  ],
+  "private_creator_player_or_account_values_emitted": false,
+  "raw_header_bodies_emitted": false,
+  "new_network_requests": 0,
+  "client_launched": false,
+  "replay_or_repo_modified": false,
+  "no_US_header_reconstruction_attempted": true,
+  "limits": [
+    "Equal archive payload hashes do not make complete regional headers identical.",
+    "Differences are reported as paths, wire shapes and subtree hashes without scalar or blob contents; only static package/module IDs and versions are literal.",
+    "Threeknownpairs do not establish a generalEU-toUSmapping rule or unknownheaderfields."
+  ]
+}

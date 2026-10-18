@@ -1,0 +1,53 @@
+{
+  "format": "hots-complete-offline-exact-header-codec-CI-v1",
+  "run_id": 39165393339,
+  "tested_commit": "07304a0f6a621b025e79269ee543ca16e001283b",
+  "conclusion": "success",
+  "url": "https://github.com/lisu188/hots-replay-recovery/actions/runs/39165393339",
+  "jobs": [
+    {
+      "id": 117787373326,
+      "lane": "Windows / PowerShell 7 complete corpus",
+      "conclusion": "success",
+      "modules": 42,
+      "tests_discovered": 879,
+      "tests_run": 879,
+      "declared_skips": 4,
+      "unexpected_skips": 0,
+      "actual_NGS_fixture_executed": true,
+      "current_EU_streams_and_lobby_check_executed": true,
+      "url": "https://github.com/lisu188/hots-replay-recovery/actions/runs/39165393339/job/117787373326"
+    },
+    {
+      "id": 117787373500,
+      "lane": "Linux complete corpus",
+      "conclusion": "success",
+      "modules": 42,
+      "tests_discovered": 879,
+      "tests_run": 879,
+      "declared_skips": 38,
+      "unexpected_skips": 0,
+      "actual_NGS_fixture_executed": true,
+      "current_EU_streams_and_lobby_check_executed": true,
+      "url": "https://github.com/lisu188/hots-replay-recovery/actions/runs/39165393339/job/117787373500"
+    },
+    {
+      "id": 117787373529,
+      "lane": "Windows / PowerShell 5.1 complete corpus",
+      "conclusion": "success",
+      "modules": 42,
+      "tests_discovered": 879,
+      "tests_run": 879,
+      "declared_skips": 4,
+      "unexpected_skips": 0,
+      "actual_NGS_fixture_executed": true,
+      "current_EU_streams_and_lobby_check_executed": true,
+      "url": "https://github.com/lisu188/hots-replay-recovery/actions/runs/39165393339/job/117787373529"
+    }
+  ],
+  "actual_f644_header_reconstruction_executed_in_CI": false,
+  "real_header_proof_scope": "Independent local RAM assembly and exact full content hash; headers absent from hosted inputs.",
+  "client_launched": false,
+  "new_replay_generated": false,
+  "full_upgrade_complete": false
+}
