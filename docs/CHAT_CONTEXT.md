@@ -146,7 +146,10 @@ behavior; none is broadened to execute publishers on pull requests.
 `.github/workflows/offline-regressions.yml` adds a separate PR, main and manual
 baseline with `contents: read`, no persisted checkout credentials, pinned Blizzard
 commit `9af3ea7150f1a8acb53464c92519a9bbcc7a3594`, six 1.17.0 and mpyq 0.2.5.
-It runs Linux and Windows with both PowerShell 7 and Windows PowerShell 5.1.
+It runs Python 3.11 on Linux and Windows with both PowerShell 7 and Windows
+PowerShell 5.1. The pinned upstream version package imports `imp`, removed in
+newer Python, so this baseline retains its supported interpreter instead of
+patching third-party schema code.
 Inputs are restored from tracked Base64 with checked SHA-256 values. No checkpoint,
 map, capture package, game installation or publication workflow is changed.
 
