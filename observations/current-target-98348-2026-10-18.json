@@ -1,0 +1,140 @@
+{
+  "format": "hots-current-target-observation-v1",
+  "observed_at_utc": "2026-10-18T15:43:41.6149949Z",
+  "status": "current-target-verified-no-new-playback",
+  "source_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+  "original_replay_rehashed": true,
+  "live_target": {
+    "manifest_url": "https://eu.patch.battle.net/hero/versions",
+    "manifest_sha256": "f94345ccb04cd3c794ceceb7395efbe6e314eb9a0aec7cb6c3a779b400d74cf4",
+    "manifest_sequence": 4058626,
+    "region": "eu",
+    "version": "2.57.0.98348",
+    "build": 98348,
+    "build_config": "a64c9b7ebf1c6a811ffefad97865ed80",
+    "cdn_config": "9575c98a819e557a3e6ec7b003428124",
+    "installed_version_matches_manifest": true,
+    "installed_executable_sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+    "running_process_verified": false
+  },
+  "official_protocol": {
+    "repository": "Blizzard/heroprotocol",
+    "commit": "9af3ea7150f1a8acb53464c92519a9bbcc7a3594",
+    "highest_schema_build": 96477,
+    "exact_target_schema_available": false
+  },
+  "latest_replay": {
+    "id": "98285-resumable-r8",
+    "sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+    "declared_build": 98285,
+    "matches_current_live_build": false,
+    "client_playback_validated": false
+  },
+  "public_reference_discovery": {
+    "attempts": [
+      {
+        "declared_api_build": 98348,
+        "error_type": "HTTPError",
+        "http_status": 403,
+        "replay_id": 66126514,
+        "stage": "download",
+        "status": "download-unavailable"
+      },
+      {
+        "declared_api_build": 98348,
+        "error_type": "HTTPError",
+        "http_status": 403,
+        "replay_id": 66126513,
+        "stage": "download",
+        "status": "download-unavailable"
+      },
+      {
+        "declared_api_build": 98348,
+        "error_type": "HTTPError",
+        "http_status": 403,
+        "replay_id": 66126512,
+        "stage": "download",
+        "status": "download-unavailable"
+      }
+    ],
+    "client_playback_validated": false,
+    "maximum_downloads": 3,
+    "minimum_build": 98348,
+    "profiles": [],
+    "schema_build": 96477,
+    "searched_id_window": [
+      66126314,
+      66126514
+    ],
+    "source": "Heroes Profile documented OpenAPI",
+    "status": "no-validated-reference-in-window"
+  },
+  "original_cache_assets": [
+    {
+      "expected_sha256": "1f1b228ddb1f72205cbfd444055287100b0f39959be816548162e4081ea85511",
+      "sha256": "1f1b228ddb1f72205cbfd444055287100b0f39959be816548162e4081ea85511",
+      "size_bytes": 28,
+      "digest_verified": true,
+      "role": "current_standard_data_redirect",
+      "standard_data_target": "Core.StormMod"
+    },
+    {
+      "expected_sha256": "1ad94c126eb98a4c1de7b8e6f8aaa153dba52b09d3825e0c89dbc5828db70f76",
+      "sha256": "1ad94c126eb98a4c1de7b8e6f8aaa153dba52b09d3825e0c89dbc5828db70f76",
+      "size_bytes": 31,
+      "digest_verified": true,
+      "role": "current_standard_data_redirect",
+      "standard_data_target": "Teams10.StormMod"
+    },
+    {
+      "expected_sha256": "92d81744c1441bf628ed6ab7e9d19485c860914d8b745a91f6351ff9dcd4e6bb",
+      "sha256": "92d81744c1441bf628ed6ab7e9d19485c860914d8b745a91f6351ff9dcd4e6bb",
+      "size_bytes": 30,
+      "digest_verified": true,
+      "role": "current_standard_data_redirect",
+      "standard_data_target": "Heroes.StormMod"
+    },
+    {
+      "expected_sha256": "a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43",
+      "sha256": "a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43",
+      "size_bytes": 34,
+      "digest_verified": true,
+      "role": "current_standard_data_redirect",
+      "standard_data_target": "HeroesData.StormMod"
+    },
+    {
+      "expected_sha256": "e0a58745837b3b5351015c933560dbffb178d747009d2d57b4153ef425cf7250",
+      "sha256": "e0a58745837b3b5351015c933560dbffb178d747009d2d57b4153ef425cf7250",
+      "size_bytes": 2129774,
+      "digest_verified": true,
+      "role": "old_map_archive",
+      "standard_data_target": null
+    }
+  ],
+  "historical_standard_mod_bytes_recovered": false,
+  "actual_j2_capture_found": false,
+  "new_replay_generated": false,
+  "client_playback_run": false,
+  "full_match_playback_validated": false,
+  "local_tool_tests": {
+    "modules": [
+      "test_public_reference",
+      "test_reference",
+      "test_client_binding"
+    ],
+    "passed": 33,
+    "skipped": 1,
+    "failed": 0,
+    "skip_reason": "Existing client-binding integration fixture 44256 was not restored locally.",
+    "new_public_reference_tests_passed": 11,
+    "native_game_test": false
+  },
+  "last_explicit_playback_outcome": "R5 rendered Dragon Shire, then Replay Desync at displayed 0:04",
+  "limits": [
+    "Installed files and the live release manifest establish the target, not a running-game outcome.",
+    "All three current public object requests returned HTTP 403 before any replay bytes were acquired or decoded.",
+    "The original map is present, but its standard-data redirects do not embed historical 41810 game rules.",
+    "The existing J2 map and importer remain bound to build 98285; no 98348 catalog was measured.",
+    "No synchronization values, catalog links, player commands or replay metadata were changed."
+  ]
+}

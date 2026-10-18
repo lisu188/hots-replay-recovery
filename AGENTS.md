@@ -44,3 +44,20 @@ Read `observations/journal-import-checkpoint-2026-09-30.json` and `docs/JOURNAL_
 CI 36675547724 at 6ab371d passed 175 tests separately on Linux and Windows, including 27 new tests, plus four actual Windows collector-to-importer fixture cases across PowerShell and pwsh. Full-source integration used SYNTHETIC captures, not a real engine export. Never promote its 23 fixture name matches into new observations or replay changes. No actual J2 capture or new R8 playback outcome was found in the scoped searches. The source bundle preserves complete history through 6ab371d; later documentation is included separately in the dated backup.
 
 Keep the delivered J2 map and launcher unchanged until new evidence warrants changing them. Inspect a real synchronized journal-output ZIP; diagnose a missing or failed export rather than manufacturing another mapping. Catalog review eligibility is not authenticated process identity, ability equivalence, unit-instance mapping or deterministic playback.
+
+## Current live target — 2026-10-18
+
+Read `docs/CONTINUATION_98348_2026-10-18.md` and
+`observations/current-target-98348-2026-10-18.json` as additive state. The official
+EU live manifest and installed client agree on **2.57.0.98348**. R8 is still the
+latest replay and declares 98285; no new playable checkpoint or engine outcome
+was produced. All three current public Heroes Profile objects returned HTTP
+403 before download. This is not schema incompatibility. The updated public
+reference tool distinguishes acquisition failures from validation failures.
+
+The original map exists locally and matches its content hash; the four original
+standard-data cache handles are redirects, not historical mod payloads. No real
+J2 export was found. Preserve the old J2 package and its 98285 identity; do not
+label unmeasured 98348 catalogs or copied anchors as verified. Next obtain an
+authorized native-client result and genuine current-build reference/capture;
+retain all old sync data and the full-match recovery objective.

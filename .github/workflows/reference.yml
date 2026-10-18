@@ -10,6 +10,7 @@ on:
       - 'test_reference.py'
       - 'bind_client_metadata.py'
       - 'test_client_binding.py'
+      - 'test_public_reference.py'
       - 'scripts/fetch_public_reference.py'
   workflow_dispatch:
 
@@ -65,7 +66,7 @@ jobs:
             python scripts/restore_artifact.py "$base.base64" "$base" --sha256 "$base.sha256"
           done
       - name: Test exact decoding and isolated client binding
-        run: python -m unittest -v test_reference test_client_binding 2>&1 | tee work/reference-tests.log
+        run: python -m unittest -v test_reference test_client_binding test_public_reference 2>&1 | tee work/reference-tests.log
       - name: Recheck every published protocol fixture
         run: |
           for build in 44256 57547 96477; do
@@ -122,7 +123,6 @@ jobs:
             references/probes/
             experiments/
             work/reference-*.log
-            work/reference-donors/
             work/fixture-*.json
             work/binding-integration-test.json
             work/upstream-runtime.tar.gz

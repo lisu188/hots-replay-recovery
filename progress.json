@@ -64,7 +64,7 @@
   "latest_client_candidate": 98285,
   "legacy_json_projection": "hots-replay-json-v1",
   "local_head_before_remote_sync": "dc52914",
-  "next": "Test the exact RESUMABLE_R8_PARTIAL replay and record its first error and displayed time. Continue validating a fresh runtime catalog capture when available. No sync check is removed; catalog indices, unit allocation and old simulation rules remain unresolved.",
+  "next": "Obtain an authorized native-client result and a genuine 98348 reference/catalog capture. The official EU live target is 2.57.0.98348, while R8 declares 98285. Keep original sync data and all earlier candidates; do not relabel the existing 98285 J2 package or treat HTTP 403 acquisition failures as schema incompatibility.",
   "observed_target_client": {
     "build": 98285,
     "version": "2.57.0.98285",
@@ -687,5 +687,15 @@
     "tests": 29,
     "covered_by_ci_run": 36578555002,
     "source_or_replay_modified": false
+  },
+  "current_live_target_2026_10_18": {
+    "build": 98348,
+    "version": "2.57.0.98348",
+    "observation": "observations/current-target-98348-2026-10-18.json",
+    "documentation": "docs/CONTINUATION_98348_2026-10-18.md",
+    "latest_replay_id": "98285-resumable-r8",
+    "new_replay_generated": false,
+    "client_playback_validated": false,
+    "real_current_reference_acquired": false
   }
 }
