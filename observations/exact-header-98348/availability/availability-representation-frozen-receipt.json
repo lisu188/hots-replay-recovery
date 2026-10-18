@@ -1,0 +1,89 @@
+{
+  "format": "hots-availability-representation-frozen-receipt-v1",
+  "contains_player_ownership_or_identity_data": false,
+  "allowlisted_files": [
+    {
+      "relative_to_work": "availability-representation-ready/audit_availability_representation.py",
+      "bytes": 16938,
+      "sha256": "bd8eae93fd8334e6155a691acc3f2785a3d79556828b23f6aaf8c5363b89d65f"
+    },
+    {
+      "relative_to_work": "availability-representation-ready/test_audit_availability_representation.py",
+      "bytes": 8053,
+      "sha256": "1d93c4304a9c7a1ac5e5a2c86a26d15981eb24df000b8221d53ef0542816771c"
+    },
+    {
+      "relative_to_work": "availability-representation-ready/availability-representation-15-cases-v2.json",
+      "bytes": 82724,
+      "sha256": "4eb427fd8e8910aa0bd33588823da182927891da28c4174da1b6f7a344d9a81d"
+    }
+  ],
+  "runtime_dependency_digests": [
+    {
+      "repo_relative_path": "audit_battlelobby_mod_metadata.py",
+      "bytes": 11881,
+      "sha256": "8dad2d923957cdfc44bec5690fe075c16d6e204651e09cc88cbf8503abcdd7c9"
+    },
+    {
+      "repo_relative_path": "battlelobby_tail.py",
+      "bytes": 15319,
+      "sha256": "2a1289148bdcc2b53b2c7e5d8bcdc67e5ef2ecb8840acea071153753610b5f7b"
+    },
+    {
+      "repo_relative_path": "collection_license_audit.py",
+      "bytes": 26397,
+      "sha256": "e08784ba9130e3bfa6b75bdc11af5f9655f21ed500d90cd6f2721bf60638da32"
+    },
+    {
+      "repo_relative_path": "mpq_reader.py",
+      "bytes": 6231,
+      "sha256": "9e940dae67c5d457483c814e6169e6e5d0a1cc5a1dcfdbd76dcf9026f1fa0033"
+    },
+    {
+      "repo_relative_path": "protocol_loader.py",
+      "bytes": 1780,
+      "sha256": "bb3147ba27dd6d0e33be93ab7ffff1922f1b53c59b38326b6ac786d8a7125b82"
+    }
+  ],
+  "synthetic_tests": {
+    "tests": 20,
+    "passed": 20,
+    "skipped": 0,
+    "command": "python -B -m unittest discover -s work/availability-representation-ready -p test_*.py",
+    "scope": "Synthetic domain/refusal/privacy/position-permutation and exact bounded bijection-count controls; not real replay fixtures."
+  },
+  "actual_audit": {
+    "cases": 15,
+    "replay_file_bytes_including_R8_duplicate": 18284640,
+    "selected_decoded_member_bytes": 5507667,
+    "availability_bytes": 2270720,
+    "all16_positions_checked_each_case": true,
+    "zero_present_every_case": true,
+    "nonzero_alphabet_single_one_bit_pattern_every_case": true,
+    "literal_two_pattern_alphabet_identical_all15": true,
+    "zero_and_all16_bits_set_alphabet": false,
+    "active_and_varying_positions_each_case": [
+      10
+    ],
+    "details_participant_population_equal_active_and_varying_all_cases": true,
+    "joint_details_participant_equal_population_permutations": 5760,
+    "joint_working_nonzero_implies_populated_permutations": 8709120,
+    "joint_lobby_ordinal_nonzero_implies_populated_permutations": 0,
+    "source_replay_digests_unchanged": true
+  },
+  "raw_cell_values_patterns_bit_positions_masks_account_IDs_per_position_flags_or_player_values_in_allowlist": false,
+  "ownership_or_semantic_permutation_inferred": false,
+  "new_or_missing_license_availability_filled": false,
+  "replay_header_or_member_written": false,
+  "client_launched": false,
+  "network_used": false,
+  "repo_modified": false,
+  "limitations": [
+    "A single nonzero pattern and positional correlations are format constraints, not evidence of ownership/entitlement meaning.",
+    "There are5760compatible participant-position permutations and8709120occupied-working-slot implications; no unique semantic permutation is selected.",
+    "Four current cases have1or2extra occupied toon entries beyond replay.details participants; those extra positions are not inferred to own or lack any asset.",
+    "Original/R8 share the source tail and count as two cases, not independent observations.",
+    "The optional selected-loadout License anchor check was not performed.",
+    "Only the explicit three-file allowlist is publication-ready; raw inputs, the earlier v1 exploratory result and other scratch remain excluded."
+  ]
+}

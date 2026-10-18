@@ -1,0 +1,195 @@
+{
+  "format": "hots-map-namespace-bounded-offline-stability-check-v2",
+  "outcome": "regional-additive-package-id-relation-observed-hypothesis-only-no-US-assembly",
+  "inputs": {
+    "cache_inventory_sha256": "20e9af06a9fb2fe63ec06c1426ae5a79661731f0baa6145d4060f3908f5b3120",
+    "known_pair_diff_sha256": "4ee4feb1a562f8b7f765535e333815df93710884fc46d70b042d484e0c1769df"
+  },
+  "EU_HeroesData_cached_version_stability": {
+    "headers": 13,
+    "distinct_package_ids": 1,
+    "distinct_versions": 13,
+    "distinct_namespace_values": 1,
+    "namespace_unsigned_bit_length_range": [
+      18,
+      18
+    ],
+    "all_cached_HD_namespace_equal_exact_recovered65663": true,
+    "namespace_values_or_digests_emitted": false
+  },
+  "old5_vs_known_current_roles": [
+    {
+      "old_header_sha256": "439eab2a4f3f7d224e5820486ab0cc161729f3de3d2d5ce2e80b35dc7eed3a88",
+      "role": "Heroes.StormMod",
+      "old_package_id": 169991,
+      "old_package_version": 65550,
+      "namespace_unsigned_bit_length": 18,
+      "known_current_same_role_available": true,
+      "same_package_id_as_current_role": true,
+      "namespace_equal_current_same_role": true,
+      "namespace_equal_any13cached_EU_HD": false
+    },
+    {
+      "old_header_sha256": "565fa52da08615e47c6105dc3036e925e80aa57d12b7bf5fd5c6757b12e7b5bd",
+      "role": "Core.StormMod",
+      "old_package_id": 169990,
+      "old_package_version": 65554,
+      "namespace_unsigned_bit_length": 18,
+      "known_current_same_role_available": true,
+      "same_package_id_as_current_role": true,
+      "namespace_equal_current_same_role": true,
+      "namespace_equal_any13cached_EU_HD": false
+    },
+    {
+      "old_header_sha256": "593cb51398ea52786c53e9c86d8f4d217148d452a691b38ef67d2a0d3add2596",
+      "role": "Teams10.StormMod",
+      "old_package_id": 170002,
+      "old_package_version": 65554,
+      "namespace_unsigned_bit_length": 18,
+      "known_current_same_role_available": true,
+      "same_package_id_as_current_role": true,
+      "namespace_equal_current_same_role": true,
+      "namespace_equal_any13cached_EU_HD": false
+    },
+    {
+      "old_header_sha256": "9bdcdbb192244902f650020fa302951b0fd1f5487aad0096df01ddccd7b4acd2",
+      "role": "(10)DragonShire.StormMap",
+      "old_package_id": 170010,
+      "old_package_version": 65568,
+      "namespace_unsigned_bit_length": 18,
+      "known_current_same_role_available": false,
+      "same_package_id_as_current_role": null,
+      "namespace_equal_current_same_role": null,
+      "namespace_equal_any13cached_EU_HD": false
+    },
+    {
+      "old_header_sha256": "b34d0f30dc3b9cf47694982106a04006a49ce43422e02f71ed18b33b7bfcc6c4",
+      "role": "HeroesData.StormMod",
+      "old_package_id": 169992,
+      "old_package_version": 65558,
+      "namespace_unsigned_bit_length": 18,
+      "known_current_same_role_available": true,
+      "same_package_id_as_current_role": true,
+      "namespace_equal_current_same_role": true,
+      "namespace_equal_any13cached_EU_HD": true
+    }
+  ],
+  "limited_direct_formula_negative_controls": [
+    {
+      "representation": "full40byte_archive_handle_CRC32",
+      "matching_known_controls": 0,
+      "controls": 6
+    },
+    {
+      "representation": "full40byte_archive_handle_SHA256_first32_BE",
+      "matching_known_controls": 0,
+      "controls": 6
+    },
+    {
+      "representation": "full40byte_archive_handle_SHA256_first32_LE",
+      "matching_known_controls": 0,
+      "controls": 6
+    },
+    {
+      "representation": "archive_payload_digest_first32_BE",
+      "matching_known_controls": 0,
+      "controls": 6
+    },
+    {
+      "representation": "archive_payload_digest_first32_LE",
+      "matching_known_controls": 0,
+      "controls": 6
+    },
+    {
+      "representation": "package_id_u32_identity",
+      "matching_known_controls": 0,
+      "controls": 6
+    },
+    {
+      "representation": "package_id_doubled",
+      "matching_known_controls": 0,
+      "controls": 6
+    },
+    {
+      "representation": "package_id_doubled_plus1",
+      "matching_known_controls": 0,
+      "controls": 6
+    }
+  ],
+  "limited_package_id_relation_controls": [
+    {
+      "scope": "US",
+      "controls": 3,
+      "namespace_minus_package_id_constant": true,
+      "namespace_xor_package_id_constant": false,
+      "numeric_constants_not_emitted": true
+    },
+    {
+      "scope": "EU",
+      "controls": 3,
+      "namespace_minus_package_id_constant": true,
+      "namespace_xor_package_id_constant": false,
+      "numeric_constants_not_emitted": true
+    },
+    {
+      "scope": "ALL",
+      "controls": 6,
+      "namespace_minus_package_id_constant": false,
+      "namespace_xor_package_id_constant": false,
+      "numeric_constants_not_emitted": true
+    }
+  ],
+  "known6_control_targets_are_distinct_namespace_values": 6,
+  "hypothesis_qualified_by_all6_positive_controls": true,
+  "bounded_prior_metadata_value_search_receipt_sha256": "acdb464cb19ea4a47b81d9765fa5eb5299c0ab87a98491cba7d6be9d3a2bfa73",
+  "no_private_namespace_publisher_or_account_literals_emitted": true,
+  "US_header_assembled_or_written": false,
+  "new_network_requests": 0,
+  "client_launched": false,
+  "replay_or_repo_modified": false,
+  "limits": [
+    "The tested formulas are negative representation checks only, not an exhaustive search or semantic attribution.",
+    "Within-package historical stability does not identify theUSHDvalue when no exactoldUSHDheader is available.",
+    "A namespace transfer or brute force is not authorized by these controls; only the completeknownUStargetSHA can accept anyfutureexplicitlyreviewed reconstruction.",
+    "The additive regional relation is a newly observed hypothesis validated on the listed heldout controls; onlyfullknownUS_targetSHA can authenticate anyheaderbuiltusingit."
+  ],
+  "regional_additive_package_id_hypothesis": {
+    "relation": "mapNamespace = package_id + independently_known_regional_offset",
+    "derive_one_offset_from_current_Core_only_per_region": true,
+    "six_known_base_control_matches": 6,
+    "heldout_Teams_and_Heroes_control_matches": 4,
+    "wrong_module_trials": 12,
+    "wrong_module_matches": 0,
+    "old_five_EU_independent_checks": [
+      {
+        "role": "Heroes.StormMod",
+        "header_sha256": "439eab2a4f3f7d224e5820486ab0cc161729f3de3d2d5ce2e80b35dc7eed3a88",
+        "matches_EU_delta_derived_only_from_currentCore": true
+      },
+      {
+        "role": "Core.StormMod",
+        "header_sha256": "565fa52da08615e47c6105dc3036e925e80aa57d12b7bf5fd5c6757b12e7b5bd",
+        "matches_EU_delta_derived_only_from_currentCore": true
+      },
+      {
+        "role": "Teams10.StormMod",
+        "header_sha256": "593cb51398ea52786c53e9c86d8f4d217148d452a691b38ef67d2a0d3add2596",
+        "matches_EU_delta_derived_only_from_currentCore": true
+      },
+      {
+        "role": "(10)DragonShire.StormMap",
+        "header_sha256": "9bdcdbb192244902f650020fa302951b0fd1f5487aad0096df01ddccd7b4acd2",
+        "matches_EU_delta_derived_only_from_currentCore": true
+      },
+      {
+        "role": "HeroesData.StormMod",
+        "header_sha256": "b34d0f30dc3b9cf47694982106a04006a49ce43422e02f71ed18b33b7bfcc6c4",
+        "matches_EU_delta_derived_only_from_currentCore": true
+      }
+    ],
+    "exact_recovered_EU65663_HD_heldout_match": true,
+    "numeric_offset_or_namespace_values_not_emitted": true,
+    "does_not_prove_general_derivation_or_unknown_US_object": true,
+    "US_HD_value_not_written_or_assembled": true
+  }
+}

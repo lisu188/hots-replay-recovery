@@ -1,0 +1,161 @@
+{
+  "format": "hots-US-header-and-availability-byte-publication-bindings-v1",
+  "files": [
+    {
+      "source_relative_to_task_work": "header-reconstruction/known-us-eu-base-header-structural-comparison.json",
+      "published_path": "observations/exact-header-98348/known-us-eu-base-header-structural-comparison.json",
+      "bytes": 39422,
+      "producer_and_published_sha256": "4ee4feb1a562f8b7f765535e333815df93710884fc46d70b042d484e0c1769df",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "header-reconstruction/us-heroesdata-recovery-source-exposure-assessment-v2.json",
+      "published_path": "observations/exact-header-98348/us/us-heroesdata-recovery-source-exposure-assessment-v2.json",
+      "bytes": 18598,
+      "producer_and_published_sha256": "acdb464cb19ea4a47b81d9765fa5eb5299c0ab87a98491cba7d6be9d3a2bfa73",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "header-reconstruction/map-namespace-offline-stability-check-v2.json",
+      "published_path": "observations/exact-header-98348/us/map-namespace-offline-stability-check-v2.json",
+      "bytes": 7466,
+      "producer_and_published_sha256": "68b4f0e6e35b5104980a67ea45117f95edbc2a5f9276ba7c418685dbb99cbe1b",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "header-reconstruction/regional_header_controls.py",
+      "published_path": "research/exact-header-98348/us/regional_header_controls.py",
+      "bytes": 12289,
+      "producer_and_published_sha256": "7cf886a8fdf8cbaad8c69dda116798a3e6caef1f3b90342b7d0a5eb7e422a6cd",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "header-reconstruction/three-known-regional-whole-header-controls.json",
+      "published_path": "observations/exact-header-98348/us/three-known-regional-whole-header-controls.json",
+      "bytes": 2605,
+      "producer_and_published_sha256": "db95fd9e2e932c302e2eb282162d57af12f997d426b1f890213b1b948cbf9c95",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "header-reconstruction/attempt_exact_us_headers.py",
+      "published_path": "research/exact-header-98348/us/attempt_exact_us_headers.py",
+      "bytes": 8815,
+      "producer_and_published_sha256": "1c00b6b3d6d0d3a9c6102dc9f3bd99db507ade62c3dd1d6aed9498e0e1085231",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "header-reconstruction/authorized-three-US-header-trials.json",
+      "published_path": "observations/exact-header-98348/us/authorized-three-US-header-trials.json",
+      "bytes": 5026,
+      "producer_and_published_sha256": "3902c1fd08d11deacba24742128412aa9135575c4a9898c9e8b9a6cd1ac9c73c",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "header-reconstruction/verify_authorized_us_trials_receipt.py",
+      "published_path": "research/exact-header-98348/us/verify_authorized_us_trials_receipt.py",
+      "bytes": 5565,
+      "producer_and_published_sha256": "24db7b1c192fe1a337bcace2c363225f70e4b908ca8545c06e200379eac30d0c",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "header-reconstruction/authorized-three-US-trials-frozen-verification.json",
+      "published_path": "observations/exact-header-98348/us/authorized-three-US-trials-frozen-verification.json",
+      "bytes": 2160,
+      "producer_and_published_sha256": "56f104181639b5b2b369a9f11dc2e57ca10edea464aa58fea7a377daf66772a8",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "header-reconstruction/US-header-milestone-source-metadata-allowlist.json",
+      "published_path": "observations/exact-header-98348/us/US-header-milestone-source-metadata-allowlist.json",
+      "bytes": 3043,
+      "producer_and_published_sha256": "0d5f77193a8ef96cddf7f3cae2b634a13322c2c5f746da0836ad966bad5d84f4",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "header-reconstruction/namespace-and-source-exposure-independent-review.json",
+      "published_path": "observations/exact-header-98348/us/namespace-and-source-exposure-independent-review.json",
+      "bytes": 5897,
+      "producer_and_published_sha256": "dd44a08d9fcb4517c6bb50f66d9f89b1ed08d81c6255d80819c253d8e8561861",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "header-reconstruction/three-US-header-trials-independent-review.json",
+      "published_path": "observations/exact-header-98348/us/three-US-header-trials-independent-review.json",
+      "bytes": 5585,
+      "producer_and_published_sha256": "5ee97b1e4d098a660ac14b1e86d282a42532588adc660095fc97dfda9961a0b8",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "header-reconstruction/remaining-DataMod-field-exposure-assessment.json",
+      "published_path": "observations/exact-header-98348/us/remaining-DataMod-field-exposure-assessment.json",
+      "bytes": 3961,
+      "producer_and_published_sha256": "6429340fa6873e7388d61c100cd419446418ff26de383d236c5c255b8f1b464f",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "header-reconstruction/single-DataMod-preserved-namespace-trial.json",
+      "published_path": "observations/exact-header-98348/us/single-DataMod-preserved-namespace-trial.json",
+      "bytes": 2397,
+      "producer_and_published_sha256": "ef4f6b3f07d3433879329ced58e0457c4c1b6dd8863f91a5dffe3282da986e2a",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "header-reconstruction/independently_verify_three_us_trials.py",
+      "published_path": "research/exact-header-98348/us/independently_verify_three_us_trials.py",
+      "bytes": 10480,
+      "producer_and_published_sha256": "023b52f18c6a463e8452aae7ae24a365d88ce59ae9ff2450fc53741329b35cd4",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "header-reconstruction/attempt_exact_datamod_preserved_namespace.py",
+      "published_path": "research/exact-header-98348/us/attempt_exact_datamod_preserved_namespace.py",
+      "bytes": 9096,
+      "producer_and_published_sha256": "8d4ba4f822cb8617bc1a81aac627127d067d562715eec6521c5ddc401be9c70e",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "availability-representation-ready/audit_availability_representation.py",
+      "published_path": "research/exact-header-98348/availability/audit_availability_representation.py",
+      "bytes": 16938,
+      "producer_and_published_sha256": "bd8eae93fd8334e6155a691acc3f2785a3d79556828b23f6aaf8c5363b89d65f",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "availability-representation-ready/test_audit_availability_representation.py",
+      "published_path": "research/exact-header-98348/availability/test_audit_availability_representation.py",
+      "bytes": 8053,
+      "producer_and_published_sha256": "1d93c4304a9c7a1ac5e5a2c86a26d15981eb24df000b8221d53ef0542816771c",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "availability-representation-ready/availability-representation-15-cases-v2.json",
+      "published_path": "observations/exact-header-98348/availability/availability-representation-15-cases-v2.json",
+      "bytes": 82724,
+      "producer_and_published_sha256": "4eb427fd8e8910aa0bd33588823da182927891da28c4174da1b6f7a344d9a81d",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "availability-representation-ready/availability-representation-frozen-receipt.json",
+      "published_path": "observations/exact-header-98348/availability/availability-representation-frozen-receipt.json",
+      "bytes": 4011,
+      "producer_and_published_sha256": "f5e53dff738b1902810b196a97f712706f4e6edb7f2770718fffc94908e326ae",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "availability-representation-ready/availability-representation-independent-review.json",
+      "published_path": "observations/exact-header-98348/availability/availability-representation-independent-review.json",
+      "bytes": 1077,
+      "producer_and_published_sha256": "ebf70ac62dd3f87bf8784e45d089a77be4d0b6233148bb19092cf52c6d3b7648",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "availability-representation-ready/root-availability-independent-review.json",
+      "published_path": "observations/exact-header-98348/availability/root-availability-independent-review.json",
+      "bytes": 700,
+      "producer_and_published_sha256": "d1974975fe0d14b66a1a64b17535971ebf4dfd987e0e3f05549dde8935183231",
+      "byte_preserved": true
+    }
+  ],
+  "raw_headers_replays_or_private_values_published": false,
+  "source_preserving_attributes_already_in_place": true
+}

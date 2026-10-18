@@ -1,0 +1,121 @@
+{
+  "actual_US_member_sha256": "ab03d9533081e9d69d205a6adec9df6a0aaf5ff47a05ecc8bf670b6760b0ab55",
+  "actual_US_replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+  "actual_trials": 3,
+  "all_source_inputs_unchanged": true,
+  "client_launched": false,
+  "exact_missing_objects_recovered": 2,
+  "format": "hots-authorized-at-most-three-exact-US-header-trials-v1",
+  "latter_two_conditioned_on_exact_US_HD_success": true,
+  "limits": [
+    "OnlycompleteactualadvertisedfullSHA256acceptsanobject; mismatchesarenotsaved.",
+    "Rawheadersremainprivate; noclouduploadispartofthisexperiment.",
+    "Exactstaticobjectrecoveryisnotareplayconversionorplaybackproof."
+  ],
+  "maximum_trials": 3,
+  "mismatching_bodies_saved": false,
+  "namespace_control_inputs": [
+    {
+      "bytes": 29402,
+      "role": "Core.StormMod",
+      "sha256": "3392997d3afe27a33371b58cfaff37af5b67bda09ee9131e52bae0a0c80b2b76"
+    },
+    {
+      "bytes": 1657,
+      "role": "Heroes.StormMod",
+      "sha256": "4b6fdc8eccc9eca107f7c6e5eae6c7c604e718ded019f4f4110a92300b54313f"
+    },
+    {
+      "bytes": 30069,
+      "role": "Teams10.StormMod",
+      "sha256": "82cf19ac9ceb903631db0994023efba040a1ccfbb0e920033a742d62cb65a77b"
+    }
+  ],
+  "namespace_creator_or_player_literals_emitted": false,
+  "new_network_requests": 0,
+  "producer_sha256": "1c00b6b3d6d0d3a9c6102dc9f3bd99db507ade62c3dd1d6aed9498e0e1085231",
+  "raw_bodies_publishable": false,
+  "regional_recipe_source_sha256": "7cf886a8fdf8cbaad8c69dda116798a3e6caef1f3b90342b7d0a5eb7e422a6cd",
+  "replay_modified": false,
+  "results": [
+    {
+      "accepted_private_file": "recovered-headers-private/0633db0bcff394a95e6d3e62a54190c2c33ee6c39af555a5d6268ac6e26c936a.s2mh",
+      "bytes": 222049,
+      "candidate_body_emitted": false,
+      "candidate_body_saved": true,
+      "candidate_sha256": "0633db0bcff394a95e6d3e62a54190c2c33ee6c39af555a5d6268ac6e26c936a",
+      "independent_generic_complete_EOF": true,
+      "independent_package_identity_verified": true,
+      "matches_actual_advertised_full_SHA256": true,
+      "maximum_recipe_attempts": 1,
+      "role": "HeroesData",
+      "source_header_sha256": "f644ce88b9d1a1c15af40be380be285f3d2ffcaf901dc9c15da367e763ee75c0",
+      "status": "exact-target-recovered",
+      "target_sha256": "0633db0bcff394a95e6d3e62a54190c2c33ee6c39af555a5d6268ac6e26c936a",
+      "trial": 1
+    },
+    {
+      "bytes": 1660,
+      "candidate_body_emitted": false,
+      "candidate_body_saved": false,
+      "candidate_sha256": "bcbacce6174dac21f9c289f4dd6a7e6b40873c15cc96c3624a37204c4793aa67",
+      "matches_actual_advertised_full_SHA256": false,
+      "maximum_recipe_attempts": 1,
+      "role": "Dragon-module",
+      "source_header_sha256": "33a1c5c9cd0e3d808c2a942c392fa2b5cc7077457bdbe62adad158b86ef8a4fd",
+      "status": "whole-target-hash-mismatch",
+      "target_sha256": "42afeaf8be79bff738e3387c15261b2c71474a63618ecfe8d38f5beb2985b57a",
+      "trial": 2
+    },
+    {
+      "accepted_private_file": "recovered-headers-private/3c2d7d5c17b8a5351c03d7bfb40159ca158694176b81d51bbd1d12abadc2e429.s2mh",
+      "bytes": 4057,
+      "candidate_body_emitted": false,
+      "candidate_body_saved": true,
+      "candidate_sha256": "3c2d7d5c17b8a5351c03d7bfb40159ca158694176b81d51bbd1d12abadc2e429",
+      "independent_generic_complete_EOF": true,
+      "independent_package_identity_verified": true,
+      "matches_actual_advertised_full_SHA256": true,
+      "maximum_recipe_attempts": 1,
+      "role": "Dragon-map",
+      "source_header_sha256": "f4103504b365e00dd873b171be164b9e3736c29fd3ded08c794ca4df84f44a41",
+      "status": "exact-target-recovered",
+      "target_sha256": "3c2d7d5c17b8a5351c03d7bfb40159ca158694176b81d51bbd1d12abadc2e429",
+      "trial": 3
+    }
+  ],
+  "three_full_control_report_sha256": "db95fd9e2e932c302e2eb282162d57af12f997d426b1f890213b1b948cbf9c95",
+  "trial_source_and_actual_target_inputs": [
+    {
+      "actual_target_handle_sha256": "0633db0bcff394a95e6d3e62a54190c2c33ee6c39af555a5d6268ac6e26c936a",
+      "actual_target_package_id_version": [
+        243553,
+        65665
+      ],
+      "role": "HeroesData",
+      "source_bytes": 222049,
+      "source_header_sha256": "f644ce88b9d1a1c15af40be380be285f3d2ffcaf901dc9c15da367e763ee75c0"
+    },
+    {
+      "actual_target_handle_sha256": "42afeaf8be79bff738e3387c15261b2c71474a63618ecfe8d38f5beb2985b57a",
+      "actual_target_package_id_version": [
+        280539,
+        16
+      ],
+      "role": "Dragon-module",
+      "source_bytes": 1660,
+      "source_header_sha256": "33a1c5c9cd0e3d808c2a942c392fa2b5cc7077457bdbe62adad158b86ef8a4fd"
+    },
+    {
+      "actual_target_handle_sha256": "3c2d7d5c17b8a5351c03d7bfb40159ca158694176b81d51bbd1d12abadc2e429",
+      "actual_target_package_id_version": [
+        243571,
+        65624
+      ],
+      "role": "Dragon-map",
+      "source_bytes": 4057,
+      "source_header_sha256": "f4103504b365e00dd873b171be164b9e3736c29fd3ded08c794ca4df84f44a41"
+    }
+  ],
+  "trials_per_target": 1
+}

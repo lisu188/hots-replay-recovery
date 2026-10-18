@@ -1,0 +1,54 @@
+{
+  "all3_whole_known_US_objects_reproduced_exactly": true,
+  "candidate_bodies_written_or_emitted": false,
+  "client_launched": false,
+  "control_count": 3,
+  "controls": [
+    {
+      "EU_source_sha256": "8605dedcd84ee88bf5e4f21a354d4e5e0dd7e11f932a61955bef4d0dec7ec354",
+      "US_target_sha256": "3392997d3afe27a33371b58cfaff37af5b67bda09ee9131e52bae0a0c80b2b76",
+      "bytes": 29402,
+      "complete_independent_generic_decode": true,
+      "namespace_offset_derived_from_other_two_US_modules_only": true,
+      "role": "Core.StormMod",
+      "target_namespace_not_used_in_candidate_construction": true,
+      "whole_known_US_header_sha256_and_bytes_exact": true,
+      "wrong_module_negative_trials": 2
+    },
+    {
+      "EU_source_sha256": "c433f7acb071f5adf34363ef7228f49f48eb278ac6d12ac35a6fbb35ff9369b7",
+      "US_target_sha256": "4b6fdc8eccc9eca107f7c6e5eae6c7c604e718ded019f4f4110a92300b54313f",
+      "bytes": 1657,
+      "complete_independent_generic_decode": true,
+      "namespace_offset_derived_from_other_two_US_modules_only": true,
+      "role": "Heroes.StormMod",
+      "target_namespace_not_used_in_candidate_construction": true,
+      "whole_known_US_header_sha256_and_bytes_exact": true,
+      "wrong_module_negative_trials": 2
+    },
+    {
+      "EU_source_sha256": "154724c2bc9830f8be306833c064da19063aaf3206327a6b9bcc7c56cdf7f84a",
+      "US_target_sha256": "82cf19ac9ceb903631db0994023efba040a1ccfbb0e920033a742d62cb65a77b",
+      "bytes": 30069,
+      "complete_independent_generic_decode": true,
+      "namespace_offset_derived_from_other_two_US_modules_only": true,
+      "role": "Teams10.StormMod",
+      "target_namespace_not_used_in_candidate_construction": true,
+      "whole_known_US_header_sha256_and_bytes_exact": true,
+      "wrong_module_negative_trials": 2
+    }
+  ],
+  "format": "hots-known-three-EU-to-US-whole-header-controls-v1",
+  "limits": [
+    "Threewholeobjects validate this specific observedregionalrecipe on knowncontrols only.",
+    "OnlythefullactualadvertisedUStargetSHAcanauthenticateanyseparatelyreviewedmissingheaderattempt.",
+    "No timestamp, creator, signature or availability semantics inferred."
+  ],
+  "missing_US_HeroesData_attempted": false,
+  "namespace_or_publisher_literals_emitted": false,
+  "new_network_requests": 0,
+  "producer_sha256": "7cf886a8fdf8cbaad8c69dda116798a3e6caef1f3b90342b7d0a5eb7e422a6cd",
+  "replay_modified": false,
+  "source_US_member_sha256": "ab03d9533081e9d69d205a6adec9df6a0aaf5ff47a05ecc8bf670b6760b0ab55",
+  "source_US_replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c"
+}

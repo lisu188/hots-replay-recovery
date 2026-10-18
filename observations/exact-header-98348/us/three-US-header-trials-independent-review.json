@@ -1,0 +1,120 @@
+{
+  "actual_build_base_data": 98348,
+  "actual_root": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+  "client_launched": false,
+  "core_streams": {
+    "game": {
+      "binary_roundtrip": true,
+      "count": 154012,
+      "sha256": "8fe55ded03f0351290beba9f8d2b519c549d1cf32fd7bec7d04205a71510b5ee"
+    },
+    "message": {
+      "binary_roundtrip": true,
+      "count": 135,
+      "sha256": "959c368afc0f9ba65dfde4321fe1a0c362e14bed88e9079d8ea96ffd1544981f"
+    },
+    "tracker": {
+      "binary_roundtrip": true,
+      "count": 7155,
+      "sha256": "aac1ee0b170eef3f4178c7269778f762b61d5ddff3a3d03af3184aa610640b8d"
+    }
+  },
+  "exact_saved_objects_read_and_verified": 2,
+  "format": "hots-three-US-header-trials-independent-review-v1",
+  "fresh_core_observed_payload_roundtrip": true,
+  "fresh_whole_known_controls": 3,
+  "header_body_writes_by_review": 0,
+  "limitations": [
+    "This verifies two specific complete static objects and one rejected hypothesis.",
+    "The Dragon-module target remains missing; its candidate body was not saved.",
+    "No general regional transformation or namespace ownership interpretation is established.",
+    "No replay conversion, simulation or playback acceptance follows from these checks."
+  ],
+  "namespace_creator_player_literals_emitted": false,
+  "network_requests": 0,
+  "new_candidate_recipes_tried": 0,
+  "private_header_inventory_unchanged_during_review": true,
+  "replay_modified": false,
+  "result": "PASS",
+  "results": [
+    {
+      "actual_package_id_version": [
+        243553,
+        65665
+      ],
+      "actual_replay_terminal_and_metadata_bound": true,
+      "actual_terminal_target_sha256": "0633db0bcff394a95e6d3e62a54190c2c33ee6c39af555a5d6268ac6e26c936a",
+      "bytes": 222049,
+      "candidate_sha256": "0633db0bcff394a95e6d3e62a54190c2c33ee6c39af555a5d6268ac6e26c936a",
+      "full_target_sha256_matches": true,
+      "independent_complete_generic_EOF": true,
+      "lossless_Node_agrees_with_independent_generic": true,
+      "matches_frozen_trial_report": true,
+      "role": "HeroesData",
+      "saved_private_file_byte_identical_and_full_SHA_verified": true,
+      "source_header_sha256": "f644ce88b9d1a1c15af40be380be285f3d2ffcaf901dc9c15da367e763ee75c0"
+    },
+    {
+      "actual_package_id_version": [
+        280539,
+        16
+      ],
+      "actual_replay_terminal_and_metadata_bound": true,
+      "actual_terminal_target_sha256": "42afeaf8be79bff738e3387c15261b2c71474a63618ecfe8d38f5beb2985b57a",
+      "bytes": 1660,
+      "candidate_sha256": "bcbacce6174dac21f9c289f4dd6a7e6b40873c15cc96c3624a37204c4793aa67",
+      "full_target_sha256_matches": false,
+      "independent_complete_generic_EOF": true,
+      "lossless_Node_agrees_with_independent_generic": true,
+      "matches_frozen_trial_report": true,
+      "no_target_or_mismatching_candidate_digest_file_present": true,
+      "role": "Dragon-module",
+      "source_header_sha256": "33a1c5c9cd0e3d808c2a942c392fa2b5cc7077457bdbe62adad158b86ef8a4fd"
+    },
+    {
+      "actual_package_id_version": [
+        243571,
+        65624
+      ],
+      "actual_replay_terminal_and_metadata_bound": true,
+      "actual_terminal_target_sha256": "3c2d7d5c17b8a5351c03d7bfb40159ca158694176b81d51bbd1d12abadc2e429",
+      "bytes": 4057,
+      "candidate_sha256": "3c2d7d5c17b8a5351c03d7bfb40159ca158694176b81d51bbd1d12abadc2e429",
+      "full_target_sha256_matches": true,
+      "independent_complete_generic_EOF": true,
+      "lossless_Node_agrees_with_independent_generic": true,
+      "matches_frozen_trial_report": true,
+      "role": "Dragon-map",
+      "saved_private_file_byte_identical_and_full_SHA_verified": true,
+      "source_header_sha256": "f4103504b365e00dd873b171be164b9e3736c29fd3ded08c794ca4df84f44a41"
+    }
+  ],
+  "reviewed_source_and_report_hashes": {
+    "attempt_exact_us_headers.py": "1c00b6b3d6d0d3a9c6102dc9f3bd99db507ade62c3dd1d6aed9498e0e1085231",
+    "authorized-three-US-header-trials.json": "3902c1fd08d11deacba24742128412aa9135575c4a9898c9e8b9a6cd1ac9c73c",
+    "lossless_wire.py": "9d725f9be88c4185419a306ef995e82a774d174a93912ffd381cced2d6ebb7a7",
+    "namespace-and-source-exposure-independent-review.json": "dd44a08d9fcb4517c6bb50f66d9f89b1ed08d81c6255d80819c253d8e8561861",
+    "recover_current_eu_heroesdata_header.py": "080615308fd50f4015b8ee0e562a79240b64dc6b0d9cc1d51923d4fc953676f9",
+    "regional_header_controls.py": "7cf886a8fdf8cbaad8c69dda116798a3e6caef1f3b90342b7d0a5eb7e422a6cd",
+    "three-known-regional-whole-header-controls.json": "db95fd9e2e932c302e2eb282162d57af12f997d426b1f890213b1b948cbf9c95"
+  },
+  "reviewer_source_sha256": "023b52f18c6a463e8452aae7ae24a365d88ce59ae9ff2450fc53741329b35cd4",
+  "schema_build": 96477,
+  "schema_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+  "source_guard_review": {
+    "actual_terminal_target_hard_pinned": true,
+    "bounded_reads_and_candidates": true,
+    "existing_output_refused": true,
+    "full_SHA_and_independent_EOF_before_exclusive_private_save": true,
+    "known_3_control_producer_and_report_hard_pinned": true,
+    "later_two_conditioned_on_exact_HD_success": true,
+    "mismatch_not_written_by_reviewed_branch": true,
+    "one_recipe_per_each_of_three_targets": true
+  },
+  "source_member_sha256": "ab03d9533081e9d69d205a6adec9df6a0aaf5ff47a05ecc8bf670b6760b0ab55",
+  "source_replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+  "trials_repeated_in_RAM": 3,
+  "whole_known_controls_exact": true,
+  "wrapper_main_or_save_function_invoked_by_review": false,
+  "wrong_module_negative_trials": 6
+}

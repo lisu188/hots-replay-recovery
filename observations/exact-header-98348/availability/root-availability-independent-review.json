@@ -1,0 +1,13 @@
+{
+  "format": "hots-root-availability-representation-independent-review-v1",
+  "case_count": 15,
+  "producer_sha256": "bd8eae93fd8334e6155a691acc3f2785a3d79556828b23f6aaf8c5363b89d65f",
+  "source_report_sha256": "4eb427fd8e8910aa0bd33588823da182927891da28c4174da1b6f7a344d9a81d",
+  "fresh_all15_case_recomputation_JSON_exact": true,
+  "focused_tests_passed": 20,
+  "privacy_source_review": "Counts/booleans only; private per-position flags and literal alphabets stay RAM-only; no raw patterns or slot/account values emitted.",
+  "source_and_R8_unchanged": true,
+  "ownership_or_unique_slot_mapping_inferred": false,
+  "new_player_header_replay_or_member_written": false,
+  "client_launched": false
+}

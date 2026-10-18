@@ -1,0 +1,20 @@
+{
+  "actual_position_or_pattern_ownership_not_established": true,
+  "client_launched": false,
+  "focused_tests_failed_or_skipped": 0,
+  "focused_tests_passed": 20,
+  "format": "hots-availability-representation-independent-review-v1",
+  "fresh_JSON_values_equal_frozen_v2": true,
+  "fresh_same_producer_real_case_recomputation": 15,
+  "header_or_replay_bodies_written": 0,
+  "network_requests": 0,
+  "no_material_findings": true,
+  "reviewed_exact_permanent_DP_bound": 65536,
+  "scope": "Read-only source review, focused tests and fresh hash-bound 15-case recomputation; not an independent semantic ownership model.",
+  "source_and_test_and_report_pins": {
+    "audit_availability_representation.py": "bd8eae93fd8334e6155a691acc3f2785a3d79556828b23f6aaf8c5363b89d65f",
+    "availability-representation-15-cases-v2.json": "4eb427fd8e8910aa0bd33588823da182927891da28c4174da1b6f7a344d9a81d",
+    "test_audit_availability_representation.py": "1d93c4304a9c7a1ac5e5a2c86a26d15981eb24df000b8221d53ef0542816771c"
+  },
+  "source_bounds_and_private_flags_not_serialized_reviewed": true
+}

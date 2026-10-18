@@ -1,0 +1,554 @@
+{
+  "format": "hots-US-heroesdata-recovery-feasibility-source-exposure-v2",
+  "status": "most-field-sources-controlled-map-namespace-unresolved-no-assembly",
+  "known_pair_structural_diff_sha256": "4ee4feb1a562f8b7f765535e333815df93710884fc46d70b042d484e0c1769df",
+  "known_pair_replay_exposure_controls": [
+    {
+      "role": "Core.StormMod",
+      "region": "US",
+      "identity_archive_visuals_both_locale_tables_and_dependencies_equal_actual_replay_metadata": true
+    },
+    {
+      "role": "Core.StormMod",
+      "region": "EU",
+      "identity_archive_visuals_both_locale_tables_and_dependencies_equal_actual_replay_metadata": true
+    },
+    {
+      "role": "Teams10.StormMod",
+      "region": "US",
+      "identity_archive_visuals_both_locale_tables_and_dependencies_equal_actual_replay_metadata": true
+    },
+    {
+      "role": "Teams10.StormMod",
+      "region": "EU",
+      "identity_archive_visuals_both_locale_tables_and_dependencies_equal_actual_replay_metadata": true
+    },
+    {
+      "role": "Heroes.StormMod",
+      "region": "US",
+      "identity_archive_visuals_both_locale_tables_and_dependencies_equal_actual_replay_metadata": true
+    },
+    {
+      "role": "Heroes.StormMod",
+      "region": "EU",
+      "identity_archive_visuals_both_locale_tables_and_dependencies_equal_actual_replay_metadata": true
+    }
+  ],
+  "map_namespace_equality_only": {
+    "each_of_three_modules_equal_within_region": {
+      "US": false,
+      "EU": false
+    },
+    "common_US_and_EU_values_equal": false,
+    "literal_values_or_hashes_not_emitted": true
+  },
+  "actual_US_context": {
+    "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+    "member_sha256": "ff3bbca0308e77889d481f64ac915e6ee68f299b4d4dda4d54f620740a5786ad",
+    "executable_base_data_build": 98348,
+    "root_key": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+    "target_package_id": 243553,
+    "target_package_version": 65665,
+    "target_terminal_handle": {
+      "extension": "s2mh",
+      "region": "US",
+      "digest": "0633db0bcff394a95e6d3e62a54190c2c33ee6c39af555a5d6268ac6e26c936a",
+      "relative_path": "06/33/0633db0bcff394a95e6d3e62a54190c2c33ee6c39af555a5d6268ac6e26c936a.s2mh"
+    },
+    "target_prefix_handle": {
+      "extension": "s2ma",
+      "region": "US",
+      "digest": "a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43",
+      "relative_path": "a1/e9/a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43.s2ma"
+    },
+    "visual_file_handles_observed": 3,
+    "locales_observed": 12,
+    "dependency_id_version_pairs": [
+      {
+        "0": 243552,
+        "1": 0
+      }
+    ]
+  },
+  "same_current_static_data": {
+    "all14_US_attribute_definitions_equal_recovered_EU_after_known_package_locale_rebase": true,
+    "US5418_registry_equals_recovered_EU_first_occurrence_order": true,
+    "availability_values_not_read": true
+  },
+  "field_source_assessment": [
+    {
+      "path": "root/0/0",
+      "source": "ActualUSmetadata package identity/version observed directly."
+    },
+    {
+      "path": "root/0/2",
+      "source": "ActualUSdependency-prefix full archive handle observed directly."
+    },
+    {
+      "path": "root/0/4/7",
+      "source": "ActualUSmetadata visual files observed directly; sixknownheader/replay controls match."
+    },
+    {
+      "path": "root/0/4/8 and root/0/8",
+      "source": "ActualUSlocalehandles observed directly; both tables match all sixknowncontrols."
+    },
+    {
+      "path": "root/0/14",
+      "source": "ActualUSmetadata dependency pairs observed directly; sixknowncontrols match."
+    },
+    {
+      "path": "root/0/3",
+      "source": "Unresolved: namespace values differ across the three known modules within BOTHUSandEU; there is no common regional namespace. No namespace may be transferred from another module."
+    },
+    {
+      "path": "remainingfields",
+      "source": "ThreeknownUS/EUpairs have no otherchangedfield; HDfield5genericvalues alreadyequal. CopyingotherrecoveredEUHDfields stillrequireswholeUS_targetSHA, not regionalinference."
+    }
+  ],
+  "required_acceptance": "Only complete actualUSadvertised header SHA256; no output body or acceptance until exact match.",
+  "unresolved": [
+    "USrawregistry multiplicities are not directly observed in the5418deduplicated battlelobby list; reusingEU5497 remains a hypothesis until wholehash.",
+    "The3baseheader controls do not give a common regional namespace or establish how unseenHDnamespace is derived. No direct21/24/32bit or full-octet-reversed scalar match exists in any of6corresponding metadata records.",
+    "Creator/publisher/account fields must not be copied from unrelated identity data or guessed; no such literals are output here."
+  ],
+  "US_header_assembled_or_written": false,
+  "private_player_or_publisher_values_emitted": false,
+  "new_network_requests": 0,
+  "client_launched": false,
+  "replay_or_repo_modified": false,
+  "supersedes_erroneous_prose_in_v1": true,
+  "namespace_source_search_controls": [
+    {
+      "region": "US",
+      "role": "Core.StormMod",
+      "namespace_node_type": "signed-magnitude_integer_wire9",
+      "namespace_unsigned_bit_length": 19,
+      "corresponding_record_bit_scan": [
+        {
+          "width": 21,
+          "representation": "integer",
+          "matching_relative_bit_offsets": []
+        },
+        {
+          "width": 24,
+          "representation": "integer",
+          "matching_relative_bit_offsets": []
+        },
+        {
+          "width": 24,
+          "representation": "full_3octet_reverse",
+          "matching_relative_bit_offsets": []
+        },
+        {
+          "width": 32,
+          "representation": "integer",
+          "matching_relative_bit_offsets": []
+        },
+        {
+          "width": 32,
+          "representation": "full_4octet_reverse",
+          "matching_relative_bit_offsets": []
+        }
+      ],
+      "physical_byte_pattern_scan": [
+        {
+          "representation": "u24_big",
+          "pattern_bytes": 3,
+          "whole_member_byte_aligned_hits": 0,
+          "corresponding_mod_record_hits": 0,
+          "outside_corresponding_record_hits": 0
+        },
+        {
+          "representation": "u24_little",
+          "pattern_bytes": 3,
+          "whole_member_byte_aligned_hits": 0,
+          "corresponding_mod_record_hits": 0,
+          "outside_corresponding_record_hits": 0
+        },
+        {
+          "representation": "u32_big",
+          "pattern_bytes": 4,
+          "whole_member_byte_aligned_hits": 0,
+          "corresponding_mod_record_hits": 0,
+          "outside_corresponding_record_hits": 0
+        },
+        {
+          "representation": "u32_little",
+          "pattern_bytes": 4,
+          "whole_member_byte_aligned_hits": 0,
+          "corresponding_mod_record_hits": 0,
+          "outside_corresponding_record_hits": 0
+        },
+        {
+          "representation": "canonical_signed_magnitude_varint",
+          "pattern_bytes": 3,
+          "whole_member_byte_aligned_hits": 0,
+          "corresponding_mod_record_hits": 0,
+          "outside_corresponding_record_hits": 0
+        }
+      ],
+      "wrong_module_control_distinct_namespace_values": 2
+    },
+    {
+      "region": "US",
+      "role": "Heroes.StormMod",
+      "namespace_node_type": "signed-magnitude_integer_wire9",
+      "namespace_unsigned_bit_length": 19,
+      "corresponding_record_bit_scan": [
+        {
+          "width": 21,
+          "representation": "integer",
+          "matching_relative_bit_offsets": []
+        },
+        {
+          "width": 24,
+          "representation": "integer",
+          "matching_relative_bit_offsets": []
+        },
+        {
+          "width": 24,
+          "representation": "full_3octet_reverse",
+          "matching_relative_bit_offsets": []
+        },
+        {
+          "width": 32,
+          "representation": "integer",
+          "matching_relative_bit_offsets": []
+        },
+        {
+          "width": 32,
+          "representation": "full_4octet_reverse",
+          "matching_relative_bit_offsets": []
+        }
+      ],
+      "physical_byte_pattern_scan": [
+        {
+          "representation": "u24_big",
+          "pattern_bytes": 3,
+          "whole_member_byte_aligned_hits": 0,
+          "corresponding_mod_record_hits": 0,
+          "outside_corresponding_record_hits": 0
+        },
+        {
+          "representation": "u24_little",
+          "pattern_bytes": 3,
+          "whole_member_byte_aligned_hits": 0,
+          "corresponding_mod_record_hits": 0,
+          "outside_corresponding_record_hits": 0
+        },
+        {
+          "representation": "u32_big",
+          "pattern_bytes": 4,
+          "whole_member_byte_aligned_hits": 0,
+          "corresponding_mod_record_hits": 0,
+          "outside_corresponding_record_hits": 0
+        },
+        {
+          "representation": "u32_little",
+          "pattern_bytes": 4,
+          "whole_member_byte_aligned_hits": 0,
+          "corresponding_mod_record_hits": 0,
+          "outside_corresponding_record_hits": 0
+        },
+        {
+          "representation": "canonical_signed_magnitude_varint",
+          "pattern_bytes": 3,
+          "whole_member_byte_aligned_hits": 0,
+          "corresponding_mod_record_hits": 0,
+          "outside_corresponding_record_hits": 0
+        }
+      ],
+      "wrong_module_control_distinct_namespace_values": 2
+    },
+    {
+      "region": "US",
+      "role": "Teams10.StormMod",
+      "namespace_node_type": "signed-magnitude_integer_wire9",
+      "namespace_unsigned_bit_length": 19,
+      "corresponding_record_bit_scan": [
+        {
+          "width": 21,
+          "representation": "integer",
+          "matching_relative_bit_offsets": []
+        },
+        {
+          "width": 24,
+          "representation": "integer",
+          "matching_relative_bit_offsets": []
+        },
+        {
+          "width": 24,
+          "representation": "full_3octet_reverse",
+          "matching_relative_bit_offsets": []
+        },
+        {
+          "width": 32,
+          "representation": "integer",
+          "matching_relative_bit_offsets": []
+        },
+        {
+          "width": 32,
+          "representation": "full_4octet_reverse",
+          "matching_relative_bit_offsets": []
+        }
+      ],
+      "physical_byte_pattern_scan": [
+        {
+          "representation": "u24_big",
+          "pattern_bytes": 3,
+          "whole_member_byte_aligned_hits": 0,
+          "corresponding_mod_record_hits": 0,
+          "outside_corresponding_record_hits": 0
+        },
+        {
+          "representation": "u24_little",
+          "pattern_bytes": 3,
+          "whole_member_byte_aligned_hits": 0,
+          "corresponding_mod_record_hits": 0,
+          "outside_corresponding_record_hits": 0
+        },
+        {
+          "representation": "u32_big",
+          "pattern_bytes": 4,
+          "whole_member_byte_aligned_hits": 0,
+          "corresponding_mod_record_hits": 0,
+          "outside_corresponding_record_hits": 0
+        },
+        {
+          "representation": "u32_little",
+          "pattern_bytes": 4,
+          "whole_member_byte_aligned_hits": 0,
+          "corresponding_mod_record_hits": 0,
+          "outside_corresponding_record_hits": 0
+        },
+        {
+          "representation": "canonical_signed_magnitude_varint",
+          "pattern_bytes": 3,
+          "whole_member_byte_aligned_hits": 0,
+          "corresponding_mod_record_hits": 0,
+          "outside_corresponding_record_hits": 0
+        }
+      ],
+      "wrong_module_control_distinct_namespace_values": 2
+    },
+    {
+      "region": "EU",
+      "role": "Teams10.StormMod",
+      "namespace_node_type": "signed-magnitude_integer_wire9",
+      "namespace_unsigned_bit_length": 18,
+      "corresponding_record_bit_scan": [
+        {
+          "width": 21,
+          "representation": "integer",
+          "matching_relative_bit_offsets": []
+        },
+        {
+          "width": 24,
+          "representation": "integer",
+          "matching_relative_bit_offsets": []
+        },
+        {
+          "width": 24,
+          "representation": "full_3octet_reverse",
+          "matching_relative_bit_offsets": []
+        },
+        {
+          "width": 32,
+          "representation": "integer",
+          "matching_relative_bit_offsets": []
+        },
+        {
+          "width": 32,
+          "representation": "full_4octet_reverse",
+          "matching_relative_bit_offsets": []
+        }
+      ],
+      "physical_byte_pattern_scan": [
+        {
+          "representation": "u24_big",
+          "pattern_bytes": 3,
+          "whole_member_byte_aligned_hits": 0,
+          "corresponding_mod_record_hits": 0,
+          "outside_corresponding_record_hits": 0
+        },
+        {
+          "representation": "u24_little",
+          "pattern_bytes": 3,
+          "whole_member_byte_aligned_hits": 0,
+          "corresponding_mod_record_hits": 0,
+          "outside_corresponding_record_hits": 0
+        },
+        {
+          "representation": "u32_big",
+          "pattern_bytes": 4,
+          "whole_member_byte_aligned_hits": 0,
+          "corresponding_mod_record_hits": 0,
+          "outside_corresponding_record_hits": 0
+        },
+        {
+          "representation": "u32_little",
+          "pattern_bytes": 4,
+          "whole_member_byte_aligned_hits": 0,
+          "corresponding_mod_record_hits": 0,
+          "outside_corresponding_record_hits": 0
+        },
+        {
+          "representation": "canonical_signed_magnitude_varint",
+          "pattern_bytes": 3,
+          "whole_member_byte_aligned_hits": 0,
+          "corresponding_mod_record_hits": 0,
+          "outside_corresponding_record_hits": 0
+        }
+      ],
+      "wrong_module_control_distinct_namespace_values": 2
+    },
+    {
+      "region": "EU",
+      "role": "Core.StormMod",
+      "namespace_node_type": "signed-magnitude_integer_wire9",
+      "namespace_unsigned_bit_length": 18,
+      "corresponding_record_bit_scan": [
+        {
+          "width": 21,
+          "representation": "integer",
+          "matching_relative_bit_offsets": []
+        },
+        {
+          "width": 24,
+          "representation": "integer",
+          "matching_relative_bit_offsets": []
+        },
+        {
+          "width": 24,
+          "representation": "full_3octet_reverse",
+          "matching_relative_bit_offsets": []
+        },
+        {
+          "width": 32,
+          "representation": "integer",
+          "matching_relative_bit_offsets": []
+        },
+        {
+          "width": 32,
+          "representation": "full_4octet_reverse",
+          "matching_relative_bit_offsets": []
+        }
+      ],
+      "physical_byte_pattern_scan": [
+        {
+          "representation": "u24_big",
+          "pattern_bytes": 3,
+          "whole_member_byte_aligned_hits": 0,
+          "corresponding_mod_record_hits": 0,
+          "outside_corresponding_record_hits": 0
+        },
+        {
+          "representation": "u24_little",
+          "pattern_bytes": 3,
+          "whole_member_byte_aligned_hits": 0,
+          "corresponding_mod_record_hits": 0,
+          "outside_corresponding_record_hits": 0
+        },
+        {
+          "representation": "u32_big",
+          "pattern_bytes": 4,
+          "whole_member_byte_aligned_hits": 0,
+          "corresponding_mod_record_hits": 0,
+          "outside_corresponding_record_hits": 0
+        },
+        {
+          "representation": "u32_little",
+          "pattern_bytes": 4,
+          "whole_member_byte_aligned_hits": 0,
+          "corresponding_mod_record_hits": 0,
+          "outside_corresponding_record_hits": 0
+        },
+        {
+          "representation": "canonical_signed_magnitude_varint",
+          "pattern_bytes": 3,
+          "whole_member_byte_aligned_hits": 0,
+          "corresponding_mod_record_hits": 0,
+          "outside_corresponding_record_hits": 0
+        }
+      ],
+      "wrong_module_control_distinct_namespace_values": 2
+    },
+    {
+      "region": "EU",
+      "role": "Heroes.StormMod",
+      "namespace_node_type": "signed-magnitude_integer_wire9",
+      "namespace_unsigned_bit_length": 18,
+      "corresponding_record_bit_scan": [
+        {
+          "width": 21,
+          "representation": "integer",
+          "matching_relative_bit_offsets": []
+        },
+        {
+          "width": 24,
+          "representation": "integer",
+          "matching_relative_bit_offsets": []
+        },
+        {
+          "width": 24,
+          "representation": "full_3octet_reverse",
+          "matching_relative_bit_offsets": []
+        },
+        {
+          "width": 32,
+          "representation": "integer",
+          "matching_relative_bit_offsets": []
+        },
+        {
+          "width": 32,
+          "representation": "full_4octet_reverse",
+          "matching_relative_bit_offsets": []
+        }
+      ],
+      "physical_byte_pattern_scan": [
+        {
+          "representation": "u24_big",
+          "pattern_bytes": 3,
+          "whole_member_byte_aligned_hits": 0,
+          "corresponding_mod_record_hits": 0,
+          "outside_corresponding_record_hits": 0
+        },
+        {
+          "representation": "u24_little",
+          "pattern_bytes": 3,
+          "whole_member_byte_aligned_hits": 0,
+          "corresponding_mod_record_hits": 0,
+          "outside_corresponding_record_hits": 0
+        },
+        {
+          "representation": "u32_big",
+          "pattern_bytes": 4,
+          "whole_member_byte_aligned_hits": 0,
+          "corresponding_mod_record_hits": 0,
+          "outside_corresponding_record_hits": 0
+        },
+        {
+          "representation": "u32_little",
+          "pattern_bytes": 4,
+          "whole_member_byte_aligned_hits": 0,
+          "corresponding_mod_record_hits": 0,
+          "outside_corresponding_record_hits": 0
+        },
+        {
+          "representation": "canonical_signed_magnitude_varint",
+          "pattern_bytes": 3,
+          "whole_member_byte_aligned_hits": 0,
+          "corresponding_mod_record_hits": 0,
+          "outside_corresponding_record_hits": 0
+        }
+      ],
+      "wrong_module_control_distinct_namespace_values": 2
+    }
+  ],
+  "namespace_default_or_transfer_authorized": false,
+  "limits": [
+    "Directscalar and bytepattern negative searches do not exclude transformed, compressed, hashed, split or otherwidth representations.",
+    "Wrongmodule controls have no positive matching source mapping to validate; no internal field attribution is inferred.",
+    "V1contained a contradictory prose assumption despite correctly recordedFALSEregional equality flags; use onlythisv2."
+  ]
+}

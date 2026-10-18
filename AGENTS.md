@@ -520,3 +520,27 @@ approval review rejected its cloud upload and a specific user question is
 pending. Do not retrythat payload without approval. This later receipt is not
 inside thef97e57abackup. Keepallprevious5basearchives. No client/newreplay or
 full-upgrade completion; original/R8 unchanged.
+
+
+## Two exact current US recoveries and availability representation - 2026-10-18
+
+Read docs/US_HEADER_RECOVERY_AND_AVAILABILITY_2026-10-18.md and new us/availability
+receipts. All3knownUSbaseheaders were reconstructedWHOLE-byte/fullSHA from EU
+with actualUSmetadata and namespaceoffset held out from each testedtarget;
+6wrongmodule controls reject, independentroot/reviewer repeatsPASS. Missing
+USHD243553/65665/0633... (222049B) and Dragonmap243571/65624/3c2d... (4057B)
+nowexactfulladvertisedSHA matches, genericEOF/wire/privateactualreplaybindings
+andindependentRAMrepeatPASS. Rawheaders remainprivate. CurrentUSset5of6exact.
+
+DataMod280539/16/42afe remainsunresolved. Initialbcbacce negative and separate
+one-shot source-namespace-preservation50d7f158 negative are unsaved. The EU
+DataMod lies outside the base namespace relation; misses do not identifyactual
+USnamespace/otherfields. Stoprecipespendingconcretenewsourceevidence.
+
+Availability15case/2270720B representationaudit20tests and two independentfresh
+JSON-exact rerunsPASS. Two2Bpatterns globallyidentical, zero+one-set-bitpattern;
+notall16bitsset.10active/varying positions matchdetails participants but5760
+bijections remain; workingoccupiedrelation8709120 andordinal0. Fourcurrentcases
+haveextraoccupiedobservers. No patterns/IDs/vectors emitted orownership/default/
+unique-slot mapping inferred. Local20tests separatefrom894CI sourcebaseline.
+Original/R8 unchanged, no client ornewreplay; fullupgrade unfinished.

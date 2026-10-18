@@ -1,0 +1,111 @@
+{
+  "actual_US_package_id_version": [
+    280539,
+    16
+  ],
+  "actual_US_target_terminal_sha256": "42afeaf8be79bff738e3387c15261b2c71474a63618ecfe8d38f5beb2985b57a",
+  "additional_candidate_recipes_or_bodies_created": 0,
+  "client_launched": false,
+  "format": "hots-remaining-DataMod-field-exposure-assessment-v1",
+  "known_exact_US_HD_and_Dragon_map_share_known_US_base_offset": true,
+  "known_exact_positive_header_sha256": [
+    "0633db0bcff394a95e6d3e62a54190c2c33ee6c39af555a5d6268ac6e26c936a",
+    "3c2d7d5c17b8a5351c03d7bfb40159ca158694176b81d51bbd1d12abadc2e429"
+  ],
+  "limits": [
+    "The failed full SHA proves only that at least one hypothesized field differs.",
+    "The EU namespace relation failure limits the base recipe; it does not reveal the target namespace.",
+    "No field is defaulted, guessed, transferred or probed in a new candidate.",
+    "No namespace ownership semantics or general regional transformation is established."
+  ],
+  "namespace_creator_account_player_literals_emitted": false,
+  "new_network_requests": 0,
+  "previous_candidate_not_accepted_or_saved": true,
+  "previous_single_candidate_sha256": "bcbacce6174dac21f9c289f4dd6a7e6b40873c15cc96c3624a37204c4793aa67",
+  "primary_field_name_source": {
+    "ReadS2MH_line": 719,
+    "commit": "b48c60a697b12ae1dc8681a2d42ce313958ce94a",
+    "local_source_sha256": "6098d11befb24eba99f0c554118b34c9d180486dca212f7d02c10564f57f0064",
+    "path": "s2m.go",
+    "repository": "sc2-arcade-watcher/s2mdec"
+  },
+  "remaining_field_sources": [
+    {
+      "name": "header identity/version",
+      "path": "root/0/0",
+      "source": "Actual US ModParams identity and repeated identity; directly bound."
+    },
+    {
+      "name": "archiveHandle",
+      "path": "root/0/2",
+      "source": "Actual US dependency-prefix full s2ma handle; payload equals EU source."
+    },
+    {
+      "name": "workingSet visual handles",
+      "path": "root/0/4/7",
+      "source": "Actual US ModParams s2mv array; independently known six-header binding controls."
+    },
+    {
+      "name": "localization links",
+      "path": "root/0/4/8 and root/0/8",
+      "source": "Actual US locale handles by exact locale identity; template order preserved."
+    },
+    {
+      "name": "extraDependencies",
+      "path": "root/0/14",
+      "source": "Actual US ModParams dependency ID/version pairs."
+    },
+    {
+      "name": "arcadeInfo",
+      "path": "root/0/19",
+      "source": "EU template absent and actual US ModParams static flag absent."
+    },
+    {
+      "name": "mapNamespace",
+      "path": "root/0/3",
+      "source": "Current US value unobserved. EU DataMod source fails the base-module additive relation. Applying a base US offset is an unaccepted hypothesis for this module."
+    },
+    {
+      "name": "template remainder",
+      "path": "remaining fields",
+      "source": "Prior failed recipe preserved these EU fields. Whole-target mismatch does not localize a differing field or authenticate their US values."
+    }
+  ],
+  "replay_modified": false,
+  "reviewer_source_sha256": "bd9ea4411bccd802c8441a51ef58ab7fc6ed91d68fedd3b3053ece9e03c9a8dc",
+  "source_EU_header_sha256": "33a1c5c9cd0e3d808c2a942c392fa2b5cc7077457bdbe62adad158b86ef8a4fd",
+  "source_EU_namespace_minus_package_id_equals_known_EU_base_offset": false,
+  "source_and_actual_target_static_arcade_info_absent": true,
+  "source_archive_payload_equals_actual_US_prefix_payload": true,
+  "source_attribute_count": 0,
+  "source_bytes": 1660,
+  "source_member_sha256": "ab03d9533081e9d69d205a6adec9df6a0aaf5ff47a05ecc8bf670b6760b0ab55",
+  "source_package_id_version": [
+    196228,
+    16
+  ],
+  "source_replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+  "source_root_header_field_keys": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    9,
+    10,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    22,
+    24
+  ],
+  "status": "unresolved-no-new-candidate"
+}

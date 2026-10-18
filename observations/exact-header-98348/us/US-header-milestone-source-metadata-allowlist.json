@@ -1,0 +1,71 @@
+{
+  "allowlisted_file_count": 9,
+  "authorized_missing_header_trials_completed": 3,
+  "correction": "Namespace values differ per module. Only the observed namespace-minus-package-ID relation is shared within each tested region; no literal namespace or general semantic mapping is published.",
+  "exact_missing_US_header_objects_recovered": 2,
+  "exact_recovered_targets": [
+    "0633db0bcff394a95e6d3e62a54190c2c33ee6c39af555a5d6268ac6e26c936a",
+    "3c2d7d5c17b8a5351c03d7bfb40159ca158694176b81d51bbd1d12abadc2e429"
+  ],
+  "files": [
+    {
+      "bytes": 39422,
+      "file": "known-us-eu-base-header-structural-comparison.json",
+      "sha256": "4ee4feb1a562f8b7f765535e333815df93710884fc46d70b042d484e0c1769df"
+    },
+    {
+      "bytes": 18598,
+      "file": "us-heroesdata-recovery-source-exposure-assessment-v2.json",
+      "sha256": "acdb464cb19ea4a47b81d9765fa5eb5299c0ab87a98491cba7d6be9d3a2bfa73"
+    },
+    {
+      "bytes": 7466,
+      "file": "map-namespace-offline-stability-check-v2.json",
+      "sha256": "68b4f0e6e35b5104980a67ea45117f95edbc2a5f9276ba7c418685dbb99cbe1b"
+    },
+    {
+      "bytes": 12289,
+      "file": "regional_header_controls.py",
+      "sha256": "7cf886a8fdf8cbaad8c69dda116798a3e6caef1f3b90342b7d0a5eb7e422a6cd"
+    },
+    {
+      "bytes": 2605,
+      "file": "three-known-regional-whole-header-controls.json",
+      "sha256": "db95fd9e2e932c302e2eb282162d57af12f997d426b1f890213b1b948cbf9c95"
+    },
+    {
+      "bytes": 8815,
+      "file": "attempt_exact_us_headers.py",
+      "sha256": "1c00b6b3d6d0d3a9c6102dc9f3bd99db507ade62c3dd1d6aed9498e0e1085231"
+    },
+    {
+      "bytes": 5026,
+      "file": "authorized-three-US-header-trials.json",
+      "sha256": "3902c1fd08d11deacba24742128412aa9135575c4a9898c9e8b9a6cd1ac9c73c"
+    },
+    {
+      "bytes": 5565,
+      "file": "verify_authorized_us_trials_receipt.py",
+      "sha256": "24db7b1c192fe1a337bcace2c363225f70e4b908ca8545c06e200379eac30d0c"
+    },
+    {
+      "bytes": 2160,
+      "file": "authorized-three-US-trials-frozen-verification.json",
+      "sha256": "56f104181639b5b2b369a9f11dc2e57ca10edea464aa58fea7a377daf66772a8"
+    }
+  ],
+  "format": "hots-US-exact-header-source-metadata-allowlist-v1",
+  "freeze_source_sha256": "5d74801c7652240137ab9fccc6cb123ccd555a2556fe7e53be742f9ebdb766e4",
+  "known_whole_header_positive_controls": 3,
+  "namespace_creator_account_or_player_literals_emitted": false,
+  "new_candidate_trials_or_network_requests_by_freezer": 0,
+  "raw_body_cloud_transfer_authorized_by_this_receipt": false,
+  "raw_headers_replays_members_cache_objects_or_private_subdirectories_allowed": false,
+  "scope": "Exact static package object reconstruction; no replay conversion, ownership migration or playback proof.",
+  "superseded_v1_assessments_explicitly_excluded": [
+    "us-heroesdata-recovery-source-exposure-assessment.json",
+    "map-namespace-offline-stability-check.json"
+  ],
+  "unresolved_actual_target": "42afeaf8be79bff738e3387c15261b2c71474a63618ecfe8d38f5beb2985b57a",
+  "wrong_module_negative_controls": 6
+}

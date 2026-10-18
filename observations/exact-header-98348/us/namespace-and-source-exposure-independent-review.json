@@ -1,0 +1,138 @@
+{
+  "format": "hots-namespace-and-source-exposure-independent-review-v1",
+  "namespace_controls": [
+    {
+      "region": "US",
+      "known_modules": 3,
+      "Core_derived_heldout_matches": 2,
+      "offset_derived_from_other_two_leave_one_out_matches": 3,
+      "distinct_namespace_values": 3,
+      "regional_offset_or_namespace_literals_emitted": false
+    },
+    {
+      "region": "EU",
+      "known_modules": 3,
+      "Core_derived_heldout_matches": 2,
+      "offset_derived_from_other_two_leave_one_out_matches": 3,
+      "distinct_namespace_values": 3,
+      "regional_offset_or_namespace_literals_emitted": false
+    }
+  ],
+  "wrong_module_trials": 12,
+  "wrong_module_matches": 0,
+  "cached_EU_HD_versions_checked": 13,
+  "cached_EU_HD_all_match_current_Core_regional_offset": true,
+  "cached_EU_HD_bytes_read": 2135504,
+  "recovered_EU_HD_heldout_offset_match": true,
+  "known_header_source_exposure": [
+    {
+      "region": "US",
+      "role": "Core.StormMod",
+      "actual_package_identity_archive_visuals_locales_and_dependencies_all_equal": true,
+      "locale_comparison_uses_exact_locale_identity_not_unproven_array_order": true,
+      "actual_terminal_header_matches_known_full_SHA": true
+    },
+    {
+      "region": "US",
+      "role": "Heroes.StormMod",
+      "actual_package_identity_archive_visuals_locales_and_dependencies_all_equal": true,
+      "locale_comparison_uses_exact_locale_identity_not_unproven_array_order": true,
+      "actual_terminal_header_matches_known_full_SHA": true
+    },
+    {
+      "region": "US",
+      "role": "Teams10.StormMod",
+      "actual_package_identity_archive_visuals_locales_and_dependencies_all_equal": true,
+      "locale_comparison_uses_exact_locale_identity_not_unproven_array_order": true,
+      "actual_terminal_header_matches_known_full_SHA": true
+    },
+    {
+      "region": "EU",
+      "role": "Core.StormMod",
+      "actual_package_identity_archive_visuals_locales_and_dependencies_all_equal": true,
+      "locale_comparison_uses_exact_locale_identity_not_unproven_array_order": true,
+      "actual_terminal_header_matches_known_full_SHA": true
+    },
+    {
+      "region": "EU",
+      "role": "Heroes.StormMod",
+      "actual_package_identity_archive_visuals_locales_and_dependencies_all_equal": true,
+      "locale_comparison_uses_exact_locale_identity_not_unproven_array_order": true,
+      "actual_terminal_header_matches_known_full_SHA": true
+    },
+    {
+      "region": "EU",
+      "role": "Teams10.StormMod",
+      "actual_package_identity_archive_visuals_locales_and_dependencies_all_equal": true,
+      "locale_comparison_uses_exact_locale_identity_not_unproven_array_order": true,
+      "actual_terminal_header_matches_known_full_SHA": true
+    }
+  ],
+  "fresh_actual_reference_contexts": {
+    "US": {
+      "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+      "member_sha256": "ff3bbca0308e77889d481f64ac915e6ee68f299b4d4dda4d54f620740a5786ad",
+      "fresh_official_semantic_all_observed_core_roundtrip": true,
+      "core_counts": {
+        "game": 211947,
+        "message": 203,
+        "tracker": 9519
+      },
+      "schema_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+      "build_base_data": 98348,
+      "root_md5": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "actual_participant_region": 1,
+      "availability_or_player_tail_values_read": false
+    },
+    "EU": {
+      "replay_sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4",
+      "member_sha256": "62a6c46d2f5b17139b72cd0b84a1ceeeac76b04a7a254889943d61c413d8adf1",
+      "fresh_official_semantic_all_observed_core_roundtrip": true,
+      "core_counts": {
+        "game": 144708,
+        "message": 99,
+        "tracker": 6181
+      },
+      "schema_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+      "build_base_data": 98348,
+      "root_md5": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "actual_participant_region": 2,
+      "availability_or_player_tail_values_read": false
+    }
+  },
+  "actual_HD_target_sources": [
+    {
+      "region": "US",
+      "package_id": 243553,
+      "package_version": 65665,
+      "terminal_sha256": "0633db0bcff394a95e6d3e62a54190c2c33ee6c39af555a5d6268ac6e26c936a",
+      "terminal_region": "US",
+      "prefix_archive_payload_sha256": "a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43",
+      "actual_visual_handle_count": 3,
+      "actual_locales": 12,
+      "actual_dependency_pair_count": 1,
+      "all14_attributes_equal_recovered_EU": true,
+      "5418_first_occurrence_registry_equal_recovered_EU": true
+    },
+    {
+      "region": "EU",
+      "package_id": 169992,
+      "package_version": 65663,
+      "terminal_sha256": "f644ce88b9d1a1c15af40be380be285f3d2ffcaf901dc9c15da367e763ee75c0",
+      "terminal_region": "EU",
+      "prefix_archive_payload_sha256": "a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43",
+      "actual_visual_handle_count": 3,
+      "actual_locales": 12,
+      "actual_dependency_pair_count": 1,
+      "all14_attributes_equal_recovered_EU": true,
+      "5418_first_occurrence_registry_equal_recovered_EU": true
+    }
+  ],
+  "namespace_or_offset_literals_or_digests_emitted": false,
+  "general_regional_rule_or_namespace_ownership_semantics_proven": false,
+  "header_assembly_or_body_write_performed": false,
+  "conditional_US_assembly_acceptance": "The assembler is not yet reviewed by this receipt. Require3wholeknownUSheaderSHAcontrols beforeONEUSHD_RAMcandidate; full0633SHAonlyacceptance andno mismatchingbodywrites.",
+  "producer_sha256": "3c88013103e23d7e5e7dcd2e8fec74715a8d7210655d08c0551b80b671abf2d5",
+  "no_new_network_requests": true,
+  "no_client_or_replay_write": true
+}
