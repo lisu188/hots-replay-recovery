@@ -700,3 +700,40 @@ Native client License::Id is32bit, distinct from resource-map64bit identifier.
 No ownership or32byte availability semantics, missingDataMod namespace, complete
 conversion or simulation result is established. Private inputs remain outside
 Git. No client execution. Original/R8 unchanged; R8 still declares98285.
+
+
+## Native ResourceAccessMatrix representation - 2026-10-19
+
+Read docs/NATIVE_RESOURCE_MATRIX_2026-10-19.md and native-resource-matrix receipts.
+Actual native type5830 is count32 x ScopeResources[16] x ResourceState/u16,
+distinct from ResourceAccessList. StartGameRequest places resourceMap, matrix,
+disabled-list adjacently. Fresh21 controls bind boundaries, all113778rows /
+1820448cells and exact block bytes with fullEOF/private/build/root guards.
+All5418 ordered resource IDs agree. No state bits, ownership, entitlement,
+scope/player assignment, license filling or historical mapping is inferred.
+One static PE read; actual audit61324571 explicit input bytes,3640896 row bytes.
+12local research tests PASS; independent code/static/saved-report review PASS,
+without claiming another fresh actual-matrix run. Raw values/patterns remainRAM.
+
+Portable v3 independent code review14tests PASS, post-recursion cap and mutation
+rejection verified; root14new+20existingtail testsPASS. Eight-attempt oldfixture
+search includes2blocked calls,4GitHub+2web calls; no exact41810/header acquisition
+in that search. Filename39445 and one unversioned fixture are not build proof.
+Later bounded header acquisition must be recorded separately. No client/replay
+write/full-upgrade completion. R8 remains98285; old174 layout remains unbound.
+
+
+The native-reader source checkpoint af8ef7c passed complete CI run 39173281503:
+908 tests across 45 root modules on each of Linux, Windows PowerShell 7 and Windows
+PowerShell 5.1. All 14 new tests executed, and each lane decoded ten actual EU
+ClientInfo records with matching anchors, identities, ends and exact spans.
+Declared skips remain 38 on Linux and 4 on each Windows lane. The actual NGS
+range fixture and current EU core/lobby checks executed. These hosted checks
+did not inspect the installed PE, private dumps or rerun the 21-case matrix audit.
+
+A subsequent 4096-byte HTTP 206 prefix read of the formerly unversioned public
+fixture reports 2.35.0.66488 with executable/base/data66488, excluding it as an
+41810 candidate. Exact Content-Range and immutable commit URL are retained.
+The prefix was decoded with the pinned official schema, then discarded; no
+full replay/Gitblob hash or complete archive validation is claimed. This header
+check is separate from the earlier eight-attempt zero-acquisition search.

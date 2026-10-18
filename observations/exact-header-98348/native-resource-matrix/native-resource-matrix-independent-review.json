@@ -1,0 +1,43 @@
+{
+  "PE_or_replay_opened_in_this_review": false,
+  "actual21_case_producer_rerun_in_this_review": false,
+  "errors": 0,
+  "explicit_producer_read_bytes": 61324571,
+  "failures": 0,
+  "focused_tests": 12,
+  "format": "hots-native-resource-matrix-independent-code-review-v1",
+  "limits": [
+    "This review independently reran synthetic tests and static-shape checks, and verified saved source/report/corpus pins and aggregate arithmetic.",
+    "The21-case actual producer result was inspected, not recomputed by reopening the PE or replays in this review.",
+    "Static names and exact16-u16 row structure establish representation only; ownership, entitlement rules, scope-to-player mapping, license filling and historical conversion are not inferred."
+  ],
+  "network_client_repo_or_cloud_used": false,
+  "private_player_or_matrix_values_emitted": false,
+  "producer_sha256": "b43b918a07546505e5b2c0e5fd6fe29cb442ce45e31ee1d4e29ad7aeed75454d",
+  "remaining_material_findings": [],
+  "reviewed_checks": [
+    "Exact pinned PE/BSN/static graph projection and parent adjacency",
+    "Distinct ResourceAccessList is not substituted for ResourceAccessMatrix",
+    "Big-endian byte-aligned scalars, bounded counts and exact byte extent",
+    "Exact resource-map/matrix/disabled-list boundaries and whole selected-block reencoding",
+    "Current98348 root/schema/profile gates and unchanged legacy/current input pins",
+    "Full mod/tail EOF plus private details/initData slot/Toon/seed guards",
+    "Aggregate-only reports with no cell values, vectors, vector hashes, masks or account/slot identifiers"
+  ],
+  "reviewed_file_sha256s": {
+    "native-resource-matrix-21case-binding-v2.json": "99300ec26b68f8caa82d133592c142378ba7c1be56629472b9e259d1468687fd",
+    "native-resource-matrix-frozen-receipt.json": "ad7a1d57c83eae37f633798ebf1a9f4d7f3f6ee74504defc1272cf930eaf53fa",
+    "native-resource-matrix-static-98348.json": "c2c8deb0775bc35e3621dbd2567b39fd9159590263a0fd777c54ce79d5dcb7c7",
+    "project_native_resource_matrix.py": "47ba59ad6998615a75ae691a943e6b24dd2d73fde5afc0cd3f350c85c1023120",
+    "resource_matrix_binding.py": "2fb1621437c377a3de5b50c8b5f846f0d22af0d27a839903bfd5a6dd2eea2069",
+    "test_resource_matrix_binding.py": "c9c10d22d9bf81810fbc61d320fe7cccfefd6567359ac2bf45696162b81a5347"
+  },
+  "reviewed_static_shape": "ResourceIdentifierMap<u64 LicenseId> followed by ResourceAccessMatrix<ScopeResources[16] ResourceState/u16> then DisabledHeroList<FourCC>.",
+  "saved_actual_case_count": 21,
+  "saved_actual_case_digests_equal_earlier_independent_corpus": true,
+  "saved_actual_matrix_rows": 113778,
+  "saved_actual_source_pins_and_aggregate_read_accounting_verified": true,
+  "saved_actual_u16_cells": 1820448,
+  "skips": 0,
+  "static_shape_validation_rerun": true
+}

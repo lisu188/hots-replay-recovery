@@ -1,0 +1,280 @@
+{
+  "Firecrawl_requests_blocked_before_search": 2,
+  "format": "hots-legacy-fixture-bounded-search-v1",
+  "frozen_sources": [
+    {
+      "connector_content_utf8_bytes": 10291,
+      "connector_content_utf8_sha256": "19df138b7af1b5ac881222e0ed2f59bf9ad2f07ec7430ecee17ea4f0b4eab019",
+      "file": "barrett-tree.body.json",
+      "url": "https://api.github.com/repos/barrett777/Heroes.ReplayParser/git/trees/master?recursive=1"
+    },
+    {
+      "connector_content_utf8_bytes": 52219,
+      "connector_content_utf8_sha256": "eb8dc2a87ad8cc6411b6a30ce87a754357e6e7c0214e6e48f0c9c80cbbcb0675",
+      "file": "htc-tree.body.json",
+      "url": "https://api.github.com/repos/HeroesToolChest/Heroes.StormReplayParser/git/trees/main?recursive=1"
+    },
+    {
+      "connector_content_utf8_bytes": 3767,
+      "connector_content_utf8_sha256": "ef5ddd1409c9289452a9a351553083bac72d4ddecf3a642770e0f2ab2bdf601e",
+      "file": "hots-parser-tree.body.json",
+      "url": "https://api.github.com/repos/ebshimizu/hots-parser/git/trees/master?recursive=1"
+    },
+    {
+      "connector_content_utf8_bytes": 55,
+      "connector_content_utf8_sha256": "4af480b8ee5b87b369a76c49bd22c9a783908272ebffbe97898f8ab0f0772a5f",
+      "file": "exact-build-fixture-code-search.body.json",
+      "url": "https://api.github.com/search/code?q=41810%20StormReplay%20-filename%3Aprotocol41810.py&per_page=8"
+    }
+  ],
+  "operations": [
+    {
+      "number": 1,
+      "outcome": "402_insufficient_credits_request_not_run",
+      "query": "\"41810\" \"StormReplay\" -protocol41810.py",
+      "tool": "Firecrawl.search"
+    },
+    {
+      "number": 2,
+      "outcome": "402_insufficient_credits_request_not_run",
+      "query": "Heroes ReplayParser test fixtures 2016 StormReplay github",
+      "tool": "Firecrawl.search"
+    },
+    {
+      "number": 3,
+      "outcome": "complete39_entry_author_owned_tree_no_replay_fixtures",
+      "url": "https://api.github.com/repos/barrett777/Heroes.ReplayParser/git/trees/master?recursive=1"
+    },
+    {
+      "number": 4,
+      "outcome": "complete183_entry_author_owned_tree_no_exact41810_path",
+      "url": "https://api.github.com/repos/HeroesToolChest/Heroes.StormReplayParser/git/trees/main?recursive=1"
+    },
+    {
+      "domains": [
+        "github.com"
+      ],
+      "number": 5,
+      "outcome": "No qualifying HotS fixture result in returned web results; unrelated GitHub issue-number matches.",
+      "query": "\"41810\" replay",
+      "tool": "web.search_query"
+    },
+    {
+      "domains": [
+        "github.com"
+      ],
+      "number": 6,
+      "outcome": "No qualifying HotS fixture result in returned web results; not an exhaustive absence claim.",
+      "query": "\"41810\" \"fixtures\"",
+      "tool": "web.search_query"
+    },
+    {
+      "number": 7,
+      "outcome": "complete16_entry_author_owned_tree_one_unversioned_replay_fixture",
+      "url": "https://api.github.com/repos/ebshimizu/hots-parser/git/trees/master?recursive=1"
+    },
+    {
+      "number": 8,
+      "outcome": "zero_indexed_code_results_incomplete_false",
+      "url": "https://api.github.com/search/code?q=41810%20StormReplay%20-filename%3Aprotocol41810.py&per_page=8"
+    }
+  ],
+  "outcome": {
+    "candidate_bodies_downloaded": 0,
+    "client_launched": false,
+    "client_or_PDB_downloaded": false,
+    "exact41810_fixture_listing_found": false,
+    "new_replay_header_builds_verified": 0,
+    "new_replays_or_headers_downloaded": 0,
+    "private_player_values_emitted": false,
+    "repo_modified": false
+  },
+  "producer_sha256": "44ed27c6e24ab01016851da85e9bc9d8fffd61fa79377a1bf65b2af22f47e2f3",
+  "scope_limits": [
+    "Repository trees bind only these observed current trees, not every branch or historical commit.",
+    "Build39445 is only a fixture filename label here. Its body/header was not acquired or verified.",
+    "The unversioned towers-of-doom fixture is2183482listed bytes; no build/date inference or eligibility was made.",
+    "There are22 HTC replay paths but20 unique blobs:20 test paths plus2 benchmark duplicates.",
+    "No dated tournament archive was admitted and no guessed old-client or generated-protocol acquisition was used.",
+    "Connector content hashes bind saved UTF8 text; raw HTTP transport byte counts and web-search envelopes were not exposed.",
+    "Stopped after8 initial attempts. Finding no exact41810listing here does not establish global absence."
+  ],
+  "source_attempts_used": 8,
+  "source_operation_cap": 8,
+  "successful_GitHub_metadata_operations": 4,
+  "target_build": 41810,
+  "target_version": "0.17.0.41810",
+  "tree_projections": {
+    "barrett-tree.body.json": {
+      "entries": 39,
+      "paths_containing_exact_build": 0,
+      "replay_candidates": [],
+      "replay_paths": 0,
+      "test_replay_paths": 0,
+      "tree_sha": "4d97eb614648650baa9a9b6789fe37c31b40025c",
+      "truncated": false,
+      "unique_replay_blobs": 0
+    },
+    "hots-parser-tree.body.json": {
+      "entries": 16,
+      "paths_containing_exact_build": 0,
+      "replay_candidates": [
+        {
+          "git_blob_sha1": "6a554be1dd6a51a422ceb630c9ed692c46297284",
+          "header_downloaded_or_build_verified": false,
+          "listed_bytes": 2183482,
+          "path": "test/replays/towers-of-doom.StormReplay"
+        }
+      ],
+      "replay_paths": 1,
+      "test_replay_paths": 0,
+      "tree_sha": "e45df6beb2bde6bbedd883cf86ea419a4a7868c0",
+      "truncated": false,
+      "unique_replay_blobs": 1
+    },
+    "htc-tree.body.json": {
+      "entries": 183,
+      "paths_containing_exact_build": 0,
+      "replay_candidates": [
+        {
+          "git_blob_sha1": "1ae1167950aba8082a0e14076e408d83e547fd0c",
+          "header_downloaded_or_build_verified": false,
+          "listed_bytes": 1292284,
+          "path": "Heroes.StormReplayParser.Benchmarks/Replays/LostCavernNonSingleUnit1_76517.StormR"
+        },
+        {
+          "git_blob_sha1": "1b3fc1761f256236a95cc5eba1e3f3ab65d3efe1",
+          "header_downloaded_or_build_verified": false,
+          "listed_bytes": 657815,
+          "path": "Heroes.StormReplayParser.Benchmarks/Replays/SilverCity1_85267.StormR"
+        },
+        {
+          "git_blob_sha1": "4996eedcfeba7968b600f198cabb2ba9dc22d9d0",
+          "header_downloaded_or_build_verified": false,
+          "listed_bytes": 174489,
+          "path": "Tests/Heroes.StormReplayParser.Tests/Replays/AIBraxisHoldout1_90670.StormR"
+        },
+        {
+          "git_blob_sha1": "cc5bcbe07c3d112949d32828972e26f87bef89f5",
+          "header_downloaded_or_build_verified": false,
+          "listed_bytes": 146976,
+          "path": "Tests/Heroes.StormReplayParser.Tests/Replays/AIDragonShire1_75589.StormR"
+        },
+        {
+          "git_blob_sha1": "b1907f8c8f51f25afb3ff3add1b58458660d46dd",
+          "header_downloaded_or_build_verified": false,
+          "listed_bytes": 2762215,
+          "path": "Tests/Heroes.StormReplayParser.Tests/Replays/CustomBattlefieldofEternity1_65006.StormR"
+        },
+        {
+          "git_blob_sha1": "8f02e0aeee7f0a7b2121b7e977282e8de668c7be",
+          "header_downloaded_or_build_verified": false,
+          "listed_bytes": 1447659,
+          "path": "Tests/Heroes.StormReplayParser.Tests/Replays/CustomHGC2018BattlefieldofEternity1_68509.StormR"
+        },
+        {
+          "git_blob_sha1": "4a71110797561a162f6527c6f8d7e4741f800915",
+          "header_downloaded_or_build_verified": false,
+          "listed_bytes": 1035360,
+          "path": "Tests/Heroes.StormReplayParser.Tests/Replays/EnemyTeamChat1.StormR"
+        },
+        {
+          "git_blob_sha1": "1916d19fa89a4a9849830187735f50670e4e13b3",
+          "header_downloaded_or_build_verified": false,
+          "listed_bytes": 314467,
+          "path": "Tests/Heroes.StormReplayParser.Tests/Replays/EscapeFromBraxis(Heroic)1_70200.StormR"
+        },
+        {
+          "git_blob_sha1": "13d229349233d537593310165af680e89602002c",
+          "header_downloaded_or_build_verified": false,
+          "listed_bytes": 606489,
+          "path": "Tests/Heroes.StormReplayParser.Tests/Replays/HanamuraSL1_89566.StormR"
+        },
+        {
+          "git_blob_sha1": "8f81b782d1aaf83ba8fc8146492116bcce74525a",
+          "header_downloaded_or_build_verified": false,
+          "listed_bytes": 948985,
+          "path": "Tests/Heroes.StormReplayParser.Tests/Replays/HanamuraTemple1_75132.StormR"
+        },
+        {
+          "git_blob_sha1": "e30c5683b917a0e2206a69cb92418f75b776154e",
+          "header_downloaded_or_build_verified": false,
+          "listed_bytes": 1128928,
+          "path": "Tests/Heroes.StormReplayParser.Tests/Replays/HanamuraTemple2_67679.StormR"
+        },
+        {
+          "git_blob_sha1": "49cdf2fa1b48013c8da3409dcaacd1451a246d2b",
+          "header_downloaded_or_build_verified": false,
+          "listed_bytes": 592152,
+          "path": "Tests/Heroes.StormReplayParser.Tests/Replays/IndustrialDistrictMacPlayers1_91418.StormR"
+        },
+        {
+          "git_blob_sha1": "1ae1167950aba8082a0e14076e408d83e547fd0c",
+          "header_downloaded_or_build_verified": false,
+          "listed_bytes": 1292284,
+          "path": "Tests/Heroes.StormReplayParser.Tests/Replays/LostCavernNonSingleUnit1_76517.StormR"
+        },
+        {
+          "git_blob_sha1": "6acf01270399915689630ae9fc82b1f7551045ff",
+          "header_downloaded_or_build_verified": false,
+          "listed_bytes": 136003,
+          "path": "Tests/Heroes.StormReplayParser.Tests/Replays/LostCavernTeamAllLeft1.StormR"
+        },
+        {
+          "git_blob_sha1": "bbbba301e08ee1e9c2492f4405004373636ad754",
+          "header_downloaded_or_build_verified": false,
+          "listed_bytes": 797520,
+          "path": "Tests/Heroes.StormReplayParser.Tests/Replays/MissingWorkSetSlotId1.StormR"
+        },
+        {
+          "git_blob_sha1": "4b4b3591a30482d870cb240edbfbd54ded622bdc",
+          "header_downloaded_or_build_verified": false,
+          "listed_bytes": 1363334,
+          "path": "Tests/Heroes.StormReplayParser.Tests/Replays/NoPlayerNamesNoTag1_77548.StormR"
+        },
+        {
+          "git_blob_sha1": "55964ff9e37c74f76b1f4a576aba25ec639c66cf",
+          "header_downloaded_or_build_verified": false,
+          "listed_bytes": 95679,
+          "path": "Tests/Heroes.StormReplayParser.Tests/Replays/ObserversTeamChat1.StormR"
+        },
+        {
+          "git_blob_sha1": "1b3fc1761f256236a95cc5eba1e3f3ab65d3efe1",
+          "header_downloaded_or_build_verified": false,
+          "listed_bytes": 657815,
+          "path": "Tests/Heroes.StormReplayParser.Tests/Replays/SilverCity1_85267.StormR"
+        },
+        {
+          "git_blob_sha1": "b0e992431267bd6b43e1994481b10a6f3edc1a29",
+          "header_downloaded_or_build_verified": false,
+          "listed_bytes": 95718,
+          "path": "Tests/Heroes.StormReplayParser.Tests/Replays/TeamWithObserverChat1.StormR"
+        },
+        {
+          "git_blob_sha1": "8ff1b28c5b07e2d48425dcd097072f2953e94ef9",
+          "header_downloaded_or_build_verified": false,
+          "listed_bytes": 652332,
+          "path": "Tests/Heroes.StormReplayParser.Tests/Replays/TowersofDoom1_39445.StormR"
+        },
+        {
+          "git_blob_sha1": "41b2c49e257e6e3ffdf81e198bd43fb22e1c8217",
+          "header_downloaded_or_build_verified": false,
+          "listed_bytes": 918545,
+          "path": "Tests/Heroes.StormReplayParser.Tests/Replays/VolskayaFoundry1_77548.StormR"
+        },
+        {
+          "git_blob_sha1": "8ed0888cb1ad12a5d26b4ab0c493328c87be7c9c",
+          "header_downloaded_or_build_verified": false,
+          "listed_bytes": 907177,
+          "path": "Tests/Heroes.StormReplayParser.Tests/Replays/WarheadJunctionDisconnectingPlayer1_91418.StormR"
+        }
+      ],
+      "replay_paths": 22,
+      "test_replay_paths": 20,
+      "tree_sha": "d381dd9c273205c0fd7ac402c75eef98c6fa6c78",
+      "truncated": false,
+      "unique_replay_blobs": 20
+    }
+  },
+  "web_search_queries": 2
+}

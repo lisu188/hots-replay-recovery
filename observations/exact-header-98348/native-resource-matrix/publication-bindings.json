@@ -1,0 +1,155 @@
+{
+  "format": "hots-native-resource-matrix-publication-bindings-v1",
+  "base_commit": "af8ef7ca774f1908902dca42e27a5f424e92fbbe",
+  "files": [
+    {
+      "source_relative_to_task_work": "native-resource-matrix-ready/native-resource-matrix-frozen-receipt.json",
+      "published_path": "observations/exact-header-98348/native-resource-matrix/native-resource-matrix-frozen-receipt.json",
+      "bytes": 2656,
+      "published_and_executed_sha256": "ad7a1d57c83eae37f633798ebf1a9f4d7f3f6ee74504defc1272cf930eaf53fa",
+      "source_bytes_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "native-resource-matrix-ready/project_native_resource_matrix.py",
+      "published_path": "research/exact-header-98348/native-resource-matrix/project_native_resource_matrix.py",
+      "bytes": 3919,
+      "published_and_executed_sha256": "47ba59ad6998615a75ae691a943e6b24dd2d73fde5afc0cd3f350c85c1023120",
+      "source_bytes_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "native-resource-matrix-ready/native-resource-matrix-static-98348.json",
+      "published_path": "observations/exact-header-98348/native-resource-matrix/native-resource-matrix-static-98348.json",
+      "bytes": 5569,
+      "published_and_executed_sha256": "c2c8deb0775bc35e3621dbd2567b39fd9159590263a0fd777c54ce79d5dcb7c7",
+      "source_bytes_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "native-resource-matrix-ready/resource_matrix_binding.py",
+      "published_path": "research/exact-header-98348/native-resource-matrix/resource_matrix_binding.py",
+      "bytes": 16710,
+      "published_and_executed_sha256": "2fb1621437c377a3de5b50c8b5f846f0d22af0d27a839903bfd5a6dd2eea2069",
+      "source_bytes_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "native-resource-matrix-ready/test_resource_matrix_binding.py",
+      "published_path": "research/exact-header-98348/native-resource-matrix/test_resource_matrix_binding.py",
+      "bytes": 4250,
+      "published_and_executed_sha256": "c9c10d22d9bf81810fbc61d320fe7cccfefd6567359ac2bf45696162b81a5347",
+      "source_bytes_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "native-resource-matrix-ready/native-resource-matrix-21case-binding-v2.json",
+      "published_path": "observations/exact-header-98348/native-resource-matrix/native-resource-matrix-21case-binding-v2.json",
+      "bytes": 20898,
+      "published_and_executed_sha256": "99300ec26b68f8caa82d133592c142378ba7c1be56629472b9e259d1468687fd",
+      "source_bytes_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "native-resource-matrix-independent-review/native-resource-matrix-independent-review.json",
+      "published_path": "observations/exact-header-98348/native-resource-matrix/native-resource-matrix-independent-review.json",
+      "bytes": 2786,
+      "published_and_executed_sha256": "c3751fb033474d6c77c00df9fed04d4c2735b5bf9b195eae8550d32126c5ce7f",
+      "source_bytes_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "native-resource-matrix-independent-review/review_resource_matrix.py",
+      "published_path": "research/exact-header-98348/native-resource-matrix/review_resource_matrix.py",
+      "bytes": 9158,
+      "published_and_executed_sha256": "b43b918a07546505e5b2c0e5fd6fe29cb442ce45e31ee1d4e29ad7aeed75454d",
+      "source_bytes_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "native-client-independent-review/portable-ClientInfo-v3-independent-review.json",
+      "published_path": "observations/exact-header-98348/native-bsn/portable-ClientInfo-v3-independent-review.json",
+      "bytes": 2690,
+      "published_and_executed_sha256": "a49a69a70a73c81fba8b83ce622dd22f1058e1b4389c4edff1439f6ef8681ca1",
+      "source_bytes_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "native-client-independent-review/review_portable_clientinfo_v3.py",
+      "published_path": "research/exact-header-98348/native-bsn/review_portable_clientinfo_v3.py",
+      "bytes": 8166,
+      "published_and_executed_sha256": "deb4bbc50d7c836d6c7e1dc345978d7747f1988ca82b1eeb20bf63c263c3aa04",
+      "source_bytes_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "legacy-replay-controls-search/legacy-fixture-search-frozen-receipt.json",
+      "published_path": "observations/exact-header-98348/legacy-replay-controls/legacy-fixture-search-frozen-receipt.json",
+      "bytes": 1178,
+      "published_and_executed_sha256": "324321035ccb48f530a80e66254b0666b3c10b804162f0fa383c1856a76928cb",
+      "source_bytes_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "legacy-replay-controls-search/barrett-tree.body.json",
+      "published_path": "observations/exact-header-98348/legacy-replay-controls/barrett-tree.body.json",
+      "bytes": 10291,
+      "published_and_executed_sha256": "19df138b7af1b5ac881222e0ed2f59bf9ad2f07ec7430ecee17ea4f0b4eab019",
+      "source_bytes_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "legacy-replay-controls-search/htc-tree.body.json",
+      "published_path": "observations/exact-header-98348/legacy-replay-controls/htc-tree.body.json",
+      "bytes": 52219,
+      "published_and_executed_sha256": "eb8dc2a87ad8cc6411b6a30ce87a754357e6e7c0214e6e48f0c9c80cbbcb0675",
+      "source_bytes_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "legacy-replay-controls-search/hots-parser-tree.body.json",
+      "published_path": "observations/exact-header-98348/legacy-replay-controls/hots-parser-tree.body.json",
+      "bytes": 3767,
+      "published_and_executed_sha256": "ef5ddd1409c9289452a9a351553083bac72d4ddecf3a642770e0f2ab2bdf601e",
+      "source_bytes_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "legacy-replay-controls-search/exact-build-fixture-code-search.body.json",
+      "published_path": "observations/exact-header-98348/legacy-replay-controls/exact-build-fixture-code-search.body.json",
+      "bytes": 55,
+      "published_and_executed_sha256": "4af480b8ee5b87b369a76c49bd22c9a783908272ebffbe97898f8ab0f0772a5f",
+      "source_bytes_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "legacy-replay-controls-search/record_legacy_fixture_search.py",
+      "published_path": "research/exact-header-98348/legacy-replay-controls/record_legacy_fixture_search.py",
+      "bytes": 5722,
+      "published_and_executed_sha256": "44ed27c6e24ab01016851da85e9bc9d8fffd61fa79377a1bf65b2af22f47e2f3",
+      "source_bytes_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "legacy-replay-controls-search/legacy-fixture-eight-operation-ledger.json",
+      "published_path": "observations/exact-header-98348/legacy-replay-controls/legacy-fixture-eight-operation-ledger.json",
+      "bytes": 11959,
+      "published_and_executed_sha256": "71ffc085533935dafc1467f218827d941d215619428cc75d7e5ce2f5aba02bb6",
+      "source_bytes_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "complete-offline-908-native-ClientInfo-CI.json",
+      "published_path": "observations/exact-header-98348/native-bsn/complete-offline-908-native-ClientInfo-CI.json",
+      "bytes": 2385,
+      "published_and_executed_sha256": "fa04442920b9392cdbf675515e9fe8c658a6e71afdd86c82de22784c1a8cc0ce",
+      "source_bytes_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "legacy-replay-controls-search/one-fixture-header-frozen-receipt.json",
+      "published_path": "observations/exact-header-98348/legacy-replay-controls/one-fixture-header-frozen-receipt.json",
+      "bytes": 1057,
+      "published_and_executed_sha256": "a1497090ccf80b3d6c55f33b08551ed7b17d9e3d3955f3f972b84895481a1242",
+      "source_bytes_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "legacy-replay-controls-search/inspect_one_fixture_header.py",
+      "published_path": "research/exact-header-98348/legacy-replay-controls/inspect_one_fixture_header.py",
+      "bytes": 7110,
+      "published_and_executed_sha256": "4c9cef28cc83667490e2c8c96a16fd7e6117e48875d7a39c1a6fdf8cd0fe0df3",
+      "source_bytes_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "legacy-replay-controls-search/one-fixture-header-observation.json",
+      "published_path": "observations/exact-header-98348/legacy-replay-controls/one-fixture-header-observation.json",
+      "bytes": 2350,
+      "published_and_executed_sha256": "3940b2804a6f6911ccd2956a15e7c3f6e37ee4a6910f870e4d68c8a88e68c2cd",
+      "source_bytes_preserved": true
+    }
+  ],
+  "raw_game_inputs_or_private_values_published": false,
+  "ownership_or_bit_index_semantics_or_legacy_conversion_proven": false
+}

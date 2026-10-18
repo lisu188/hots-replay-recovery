@@ -1,0 +1,27 @@
+{
+  "allowlisted_files": [
+    {
+      "bytes": 7110,
+      "file": "inspect_one_fixture_header.py",
+      "sha256": "4c9cef28cc83667490e2c8c96a16fd7e6117e48875d7a39c1a6fdf8cd0fe0df3"
+    },
+    {
+      "bytes": 2350,
+      "file": "one-fixture-header-observation.json",
+      "sha256": "3940b2804a6f6911ccd2956a15e7c3f6e37ee4a6910f870e4d68c8a88e68c2cd"
+    }
+  ],
+  "application_prefix_bytes": 4096,
+  "connector_metadata_whitespace_note": "Private saved commit metadata is normalized UTF8 with a final LF; hash binds that saved text, not raw HTTP transport.",
+  "format": "legacy-one-fixture-header-frozen-receipt-v1",
+  "full_body_acquired": false,
+  "header_actual_build": 66488,
+  "initial_sandbox_DNS_attempt_body_bytes": 0,
+  "private_source_commit_metadata_not_for_publication": {
+    "file": "fixture-source-commit.private.json",
+    "sha256": "23070c63c7f5f914eae141de00a5b1f1e154fd3c79c7f56f99958cee1b396034"
+  },
+  "raw_prefix_body_saved": false,
+  "successful_header_HTTP_requests": 1,
+  "whole_file_SHA_or_Gitblob_validation_claimed": false
+}

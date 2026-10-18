@@ -1,0 +1,56 @@
+{
+  "client_launched": false,
+  "decoded_header_allowlist": {
+    "MPQ_archive_offset": 1024,
+    "MPQ_user_data_size": 512,
+    "MPQ_user_header_bytes": 119,
+    "NGDP_root": "95289a8ff263c92fd87586eef423b486",
+    "data_build": 66488,
+    "version": {
+      "m_baseBuild": 66488,
+      "m_build": 66488,
+      "m_flags": 1,
+      "m_major": 2,
+      "m_minor": 35,
+      "m_revision": 0
+    }
+  },
+  "exact41810": false,
+  "format": "legacy-public-fixture-header-observation-v1",
+  "full_fixture_acquisition": null,
+  "header_prefix_sha256": "6b8f741eca4fb25e53ac4e7ddce93f5483145440926944cb2d89f55a3dc27407",
+  "header_schema_build": 96477,
+  "header_schema_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+  "limits": [
+    "The bounded prefix identifies the parsed version; its hash is not a full-file Git-blob or SHA256 validation.",
+    "The source commit and fixture listing bind the intended immutable path; only an exact41810 result permits the separately guarded full download."
+  ],
+  "listed_git_blob_sha1": "6a554be1dd6a51a422ceb630c9ed692c46297284",
+  "listed_object_bytes": 2183482,
+  "producer_sha256": "4c9cef28cc83667490e2c8c96a16fd7e6117e48875d7a39c1a6fdf8cd0fe0df3",
+  "raw_players_or_messages_emitted": false,
+  "raw_prefix_body_saved_or_published": false,
+  "repo_modified": false,
+  "request": {
+    "Accept-Encoding": "identity",
+    "Range": "bytes=0-4095",
+    "redirects_allowed": false
+  },
+  "response": {
+    "Range_honored": true,
+    "application_body_bytes_read": 4096,
+    "application_read_cap": 4096,
+    "content_encoding": null,
+    "content_length": "4096",
+    "content_range": "bytes 0-4095/2183482",
+    "response_closed_after_bounded_read": true,
+    "status": 206,
+    "underlying_transport_buffer_bytes_measured": false
+  },
+  "source_commit": "e45df6beb2bde6bbedd883cf86ea419a4a7868c0",
+  "source_commit_connector_content_sha256": "23070c63c7f5f914eae141de00a5b1f1e154fd3c79c7f56f99958cee1b396034",
+  "source_commit_tree": "12187ed1421c7509aabf87b2408569cee54859d5",
+  "source_tree_metadata_sha256": "ef5ddd1409c9289452a9a351553083bac72d4ddecf3a642770e0f2ab2bdf601e",
+  "source_url": "https://raw.githubusercontent.com/ebshimizu/hots-parser/e45df6beb2bde6bbedd883cf86ea419a4a7868c0/test/replays/towers-of-doom.StormReplay",
+  "whole_fixture_SHA_or_Gitblob_verified": false
+}

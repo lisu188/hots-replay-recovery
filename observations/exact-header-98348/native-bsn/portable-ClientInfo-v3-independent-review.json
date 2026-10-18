@@ -1,0 +1,41 @@
+{
+  "PE_or_replay_reopened_in_this_review": false,
+  "actual_portable_corpus_producer_rerun_in_this_review": false,
+  "errors": 0,
+  "failures": 0,
+  "focused_synthetic_tests": 14,
+  "format": "hots-portable-ClientInfo-v3-independent-review-v1",
+  "limits": [
+    "The saved fresh exact-local-source21/222 result was hash/aggregate/cohort checked, not independently rerun in this code-only review.",
+    "The earlier independent native reader supplied separate actual21/222 bit/identity/end/reencoding proof.",
+    "Native decoding and observed-tail crossbinding do not establish historical174-bit conversion, entitlement semantics or full replay/client compatibility."
+  ],
+  "network_or_client_or_repo_write_used": false,
+  "postorder_field_budget_regression_independently_reproduced_and_fixed": true,
+  "prior_independent_actual_reader_receipt_sha256": "f077a91d3059380f4390e8fad7b1e6d85d63c84c4f78ec16ae4d5ea7b68ee505",
+  "private_values_or_vectors_or_account_identifiers_emitted": false,
+  "producer_sha256": "deb4bbc50d7c836d6c7e1dc345978d7747f1988ca82b1eeb20bf63c263c3aa04",
+  "read_only_reencode_same_width_token_mutation_refused": true,
+  "remaining_material_findings": [],
+  "reviewed_file_sha256s": {
+    "README_NATIVE_CLIENTINFO.md": "1389db6604e19acfbf5e32c9bfd8c675860c44b1b71b4585246bbf7aba62f7ff",
+    "native-clientinfo-frozen-receipt-v3.json": "1bc68a48f1e75491625488a8c4ddc1cd103874611401a3a3b19e2bc47dc1e16b",
+    "native_clientinfo.py": "e0abd0b674c97b87f6a1510edc08704eebeca0ad9d43ac0537d5eaaa3eb9b202",
+    "native_clientinfo_schema_98348.json": "6e8711939ede15505debb043ae626b5c529749557d7e824226863c92e4f6a229",
+    "portable-native-clientinfo-21control-verification-v3-local-source.json": "903617b7f41af0a8377fea6227487dc94582c59babaf3b164bf745abb4120400",
+    "test_native_clientinfo.py": "8e0b680dda9d14753a3747fb0d8579237d56f731a0c47976ba768b556b65e086",
+    "verify_native_clientinfo_controls.py": "e32af54bb79725b0d98c5fefa3d3b78942bd1761308ba8cbefb2a31b84668fb6"
+  },
+  "reviewed_guards": [
+    "Explicit authenticated profile and immutable source/hash/span binding",
+    "Pinned104-type schema/provenance and bounded regular-file read",
+    "Depth, preappend field, wire token, array, bit-array and UTF8/ASCII byte/character limits",
+    "Disabled dataclass repr and aggregate-only adapter result",
+    "Current observed-tail adapter independently validates unchanged member, thirteen anchors, complete record ends and private scope/Toon equality"
+  ],
+  "saved_actual_proof_cases": 21,
+  "saved_actual_proof_cases_equal_prior_independent_decoder_cases": true,
+  "saved_actual_proof_hash_checked": true,
+  "saved_actual_proof_players": 222,
+  "skips": 0
+}

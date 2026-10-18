@@ -1,0 +1,62 @@
+{
+  "format": "hots-native-ClientInfo-908-complete-offline-CI-v1",
+  "tested_commit": "af8ef7ca774f1908902dca42e27a5f424e92fbbe",
+  "run_id": 39173281503,
+  "url": "https://github.com/lisu188/hots-replay-recovery/actions/runs/39173281503",
+  "conclusion": "success",
+  "jobs": [
+    {
+      "id": 117810638665,
+      "lane": "Linux complete corpus",
+      "url": "https://github.com/lisu188/hots-replay-recovery/actions/runs/39173281503/job/117810638665",
+      "conclusion": "success",
+      "modules": 45,
+      "tests_discovered": 908,
+      "tests_run": 908,
+      "declared_skips": 38,
+      "unexpected_skips": 0,
+      "new_native_reader_tests_executed": 14,
+      "current_EU_native_ClientInfo_records_checked": 10,
+      "current_EU_native_spans_reencode_exact": true,
+      "actual_NGS_fixture_test_executed": true,
+      "current_EU_core_streams_and_lobby_checks_executed": true
+    },
+    {
+      "id": 117810638916,
+      "lane": "Windows / PowerShell 7 complete corpus",
+      "url": "https://github.com/lisu188/hots-replay-recovery/actions/runs/39173281503/job/117810638916",
+      "conclusion": "success",
+      "modules": 45,
+      "tests_discovered": 908,
+      "tests_run": 908,
+      "declared_skips": 4,
+      "unexpected_skips": 0,
+      "new_native_reader_tests_executed": 14,
+      "current_EU_native_ClientInfo_records_checked": 10,
+      "current_EU_native_spans_reencode_exact": true,
+      "actual_NGS_fixture_test_executed": true,
+      "current_EU_core_streams_and_lobby_checks_executed": true
+    },
+    {
+      "id": 117810638942,
+      "lane": "Windows / PowerShell 5.1 complete corpus",
+      "url": "https://github.com/lisu188/hots-replay-recovery/actions/runs/39173281503/job/117810638942",
+      "conclusion": "success",
+      "modules": 45,
+      "tests_discovered": 908,
+      "tests_run": 908,
+      "declared_skips": 4,
+      "unexpected_skips": 0,
+      "new_native_reader_tests_executed": 14,
+      "current_EU_native_ClientInfo_records_checked": 10,
+      "current_EU_native_spans_reencode_exact": true,
+      "actual_NGS_fixture_test_executed": true,
+      "current_EU_core_streams_and_lobby_checks_executed": true
+    }
+  ],
+  "actual_21_control_research_reexecuted_in_hosted_CI": false,
+  "installed_PE_or_preserved_dumps_used_in_CI": false,
+  "client_launched": false,
+  "new_replay_generated": false,
+  "full_upgrade_complete": false
+}

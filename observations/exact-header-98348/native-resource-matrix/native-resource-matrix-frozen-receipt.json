@@ -1,0 +1,70 @@
+{
+  "format": "native-resource-matrix-frozen-allowlist-v1",
+  "recorded_at_utc": "2026-10-18T22:38:59.572Z",
+  "allowlisted_files": [
+    {
+      "name": "project_native_resource_matrix.py",
+      "bytes": 3919,
+      "sha256": "47ba59ad6998615a75ae691a943e6b24dd2d73fde5afc0cd3f350c85c1023120"
+    },
+    {
+      "name": "native-resource-matrix-static-98348.json",
+      "bytes": 5569,
+      "sha256": "c2c8deb0775bc35e3621dbd2567b39fd9159590263a0fd777c54ce79d5dcb7c7"
+    },
+    {
+      "name": "resource_matrix_binding.py",
+      "bytes": 16710,
+      "sha256": "2fb1621437c377a3de5b50c8b5f846f0d22af0d27a839903bfd5a6dd2eea2069"
+    },
+    {
+      "name": "test_resource_matrix_binding.py",
+      "bytes": 4250,
+      "sha256": "c9c10d22d9bf81810fbc61d320fe7cccfefd6567359ac2bf45696162b81a5347"
+    },
+    {
+      "name": "native-resource-matrix-21case-binding-v2.json",
+      "bytes": 20898,
+      "sha256": "99300ec26b68f8caa82d133592c142378ba7c1be56629472b9e259d1468687fd"
+    }
+  ],
+  "validation": {
+    "focused_tests_run": 12,
+    "failures": 0,
+    "errors": 0,
+    "skips": 0,
+    "actual_current_cases": 21,
+    "all_source_guards_unchanged": true,
+    "static_PE_reads": 1,
+    "static_PE_bytes_read": 53573840,
+    "latest_binding_actual_reads": {
+      "PE_read_bytes_in_separate_static_projection_stage": 53573840,
+      "PE_reads_in_this_binding_stage": 0,
+      "accounting_scope": "All explicit provenance/profile/guard/source-verification reads and inherited MPQ reads; implicit import/runtime filesystem reads excluded.",
+      "decoded_matrix_row_bytes": 3640896,
+      "distinct_replay_bytes_including_original_R8": 29002257,
+      "distinct_replay_files": 23,
+      "explicit_analysis_read_bytes": 61324571,
+      "read_categories": {
+        "MPQ_file_reads": 2484664,
+        "guard_rehash_reads": 58004514,
+        "provenance_metadata": 484157,
+        "static_projection_provenance": 11138
+      },
+      "selected_decoded_member_bytes": 8675407,
+      "source_code_verification_read_bytes": 340098
+    }
+  },
+  "historical_local_only": {
+    "file": "native-resource-matrix-21case-binding.json",
+    "sha256": "545b5f5b1c2c87c18af0d47bde5f88520cc79e3f53ea1762c88ca98050b2b49d",
+    "reason_not_allowlisted": "Initial actual21 result preserved; v2 explicitly counts source-verification and static-projection reads and binds test source. Actual matrix conclusions unchanged."
+  },
+  "privacy": {
+    "raw_private_block_or_cell_values_saved": false,
+    "ownership_or_bit_index_meaning_claimed": false,
+    "replay_header_or_member_written": false,
+    "client_or_network_used": false,
+    "repo_or_cloud_modified": false
+  }
+}

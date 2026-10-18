@@ -1,0 +1,254 @@
+{
+  "PE_bytes_read": 53573840,
+  "PE_read_passes": 1,
+  "embedded_blob_sha256": "ce3b1f764575730f2c08c89eed73ea843ec4cc702b727c9577ca071ce610e741",
+  "format": "hots-native-resource-matrix-static-projection-v1",
+  "game_code_loaded_or_executed": false,
+  "independent_metadata_review_sha256": "9d378748169662bf862f9c947448b986f66463a1fee1949ba524023f8804eb3b",
+  "limits": [
+    "Selected static metadata only; no ownership, bit-index or old-version meaning inferred.",
+    "Parent contains other members; this export is explicitly a selected graph, not its complete schema."
+  ],
+  "metadata_parser_sha256": "0c8021fdcb761a27ca9860f72161110e1156f518678430b9570a49fc20f85f06",
+  "parent": {
+    "bytes": 33,
+    "id": 5842,
+    "kind": "STRUCT",
+    "name": "Battlenet::Event::S2GameEngine::StartGameRequest",
+    "offset": 80386
+  },
+  "private_player_values_or_raw_binary_body_emitted": false,
+  "producer_sha256": "47ba59ad6998615a75ae691a943e6b24dd2d73fde5afc0cd3f350c85c1023120",
+  "selected_parent_members": [
+    {
+      "member_index": 4,
+      "name": "m_resourceMap",
+      "tag": -3,
+      "type_id": 5847
+    },
+    {
+      "member_index": 5,
+      "name": "m_accessMatrix",
+      "tag": -2,
+      "type_id": 5848
+    },
+    {
+      "member_index": 6,
+      "name": "m_disabledHeroList",
+      "tag": -1,
+      "type_id": 5849
+    }
+  ],
+  "selected_records": [
+    {
+      "bounds": {
+        "bits": 64,
+        "int_type": 7,
+        "max": 18446744073709551615,
+        "min": 0,
+        "variable": true
+      },
+      "bytes": 19,
+      "header": 9,
+      "id": 17,
+      "kind": "INT",
+      "name": "Battlenet::u64",
+      "offset": 33486
+    },
+    {
+      "bounds": {
+        "bits": 16,
+        "int_type": 3,
+        "max": 65535,
+        "min": 0,
+        "variable": true
+      },
+      "bytes": 7,
+      "header": 9,
+      "id": 58,
+      "kind": "INT",
+      "name": "Battlenet::u16",
+      "offset": 34350
+    },
+    {
+      "bytes": 5,
+      "element_type": 17,
+      "header": 16,
+      "id": 396,
+      "kind": "USER",
+      "name": "Battlenet::BattlePay::LicenseId",
+      "offset": 37235
+    },
+    {
+      "bounds": {
+        "bits": 8,
+        "int_type": 1,
+        "max": 128,
+        "min": 0,
+        "variable": true
+      },
+      "bytes": 9,
+      "element_type": 1776,
+      "header": 1,
+      "id": 1751,
+      "kind": "ARRAY",
+      "name": "Battlenet::S2Game::DisabledHeroList",
+      "offset": 47833
+    },
+    {
+      "bytes": 1,
+      "header": 8,
+      "id": 1776,
+      "kind": "FOURCC",
+      "name": null,
+      "offset": 48100
+    },
+    {
+      "bytes": 5,
+      "element_type": 58,
+      "header": 16,
+      "id": 2422,
+      "kind": "USER",
+      "name": "Battlenet::S2Map::ResourceState",
+      "offset": 52759
+    },
+    {
+      "bounds": {
+        "bits": 16,
+        "int_type": 3,
+        "max": 65535,
+        "min": 0,
+        "variable": true
+      },
+      "bytes": 11,
+      "element_type": 2505,
+      "header": 1,
+      "id": 2498,
+      "kind": "ARRAY",
+      "name": "Battlenet::S2Map::ResourceIdentifierMap",
+      "offset": 53351
+    },
+    {
+      "bytes": 5,
+      "element_type": 2509,
+      "header": 16,
+      "id": 2505,
+      "kind": "USER",
+      "name": null,
+      "offset": 53404
+    },
+    {
+      "bytes": 5,
+      "element_type": 396,
+      "header": 16,
+      "id": 2509,
+      "kind": "USER",
+      "name": "Battlenet::S2Map::ResourceIdentifier",
+      "offset": 53420
+    },
+    {
+      "bounds": {
+        "bits": 32,
+        "int_type": 5,
+        "max": 4294967295,
+        "min": 0,
+        "variable": true
+      },
+      "bytes": 15,
+      "element_type": 5831,
+      "header": 1,
+      "id": 5830,
+      "kind": "ARRAY",
+      "name": "Battlenet::Event::S2GameEngine::ResourceAccessMatrix",
+      "offset": 80288
+    },
+    {
+      "bytes": 5,
+      "element_type": 5832,
+      "header": 16,
+      "id": 5831,
+      "kind": "USER",
+      "name": null,
+      "offset": 80303
+    },
+    {
+      "bounds": {
+        "bits": 0,
+        "int_type": 1,
+        "max": 16,
+        "min": 16,
+        "variable": true
+      },
+      "bytes": 9,
+      "element_type": 5833,
+      "header": 1,
+      "id": 5832,
+      "kind": "ARRAY",
+      "name": "Battlenet::S2Map::ScopeResources",
+      "offset": 80308
+    },
+    {
+      "bytes": 5,
+      "element_type": 2422,
+      "header": 16,
+      "id": 5833,
+      "kind": "USER",
+      "name": null,
+      "offset": 80317
+    },
+    {
+      "bytes": 5,
+      "element_type": 2498,
+      "header": 16,
+      "id": 5847,
+      "kind": "USER",
+      "name": null,
+      "offset": 80439
+    },
+    {
+      "bytes": 5,
+      "element_type": 5830,
+      "header": 16,
+      "id": 5848,
+      "kind": "USER",
+      "name": null,
+      "offset": 80444
+    },
+    {
+      "bytes": 5,
+      "element_type": 1751,
+      "header": 16,
+      "id": 5849,
+      "kind": "USER",
+      "name": null,
+      "offset": 80449
+    },
+    {
+      "bounds": {
+        "bits": 32,
+        "int_type": 5,
+        "max": 4294967295,
+        "min": 0,
+        "variable": true
+      },
+      "bytes": 15,
+      "element_type": 7982,
+      "header": 1,
+      "id": 7981,
+      "kind": "ARRAY",
+      "name": "Battlenet::S2Map::ResourceAccessList",
+      "offset": 97816
+    },
+    {
+      "bytes": 5,
+      "element_type": 2422,
+      "header": 16,
+      "id": 7982,
+      "kind": "USER",
+      "name": null,
+      "offset": 97831
+    }
+  ],
+  "source_PE_bytes": 53573840,
+  "source_PE_sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9"
+}
