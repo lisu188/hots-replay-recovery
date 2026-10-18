@@ -1,0 +1,93 @@
+{
+  "format": "hots-native-MapInfo-921-complete-offline-CI-v1",
+  "tested_commit": "4531b643c5b46398f0ffae9558e50538b4319170",
+  "run_id": 39176244114,
+  "url": "https://github.com/lisu188/hots-replay-recovery/actions/runs/39176244114",
+  "conclusion": "success",
+  "jobs": [
+    {
+      "id": 117819575563,
+      "lane": "Linux complete corpus",
+      "url": "https://github.com/lisu188/hots-replay-recovery/actions/runs/39176244114/job/117819575563",
+      "conclusion": "success",
+      "modules": 46,
+      "tests_discovered": 921,
+      "tests_run": 921,
+      "declared_skips": 38,
+      "unexpected_skips": 0,
+      "failures": 0,
+      "errors": 0,
+      "new_native_MapInfo_tests_executed": 13,
+      "existing_native_ClientInfo_tests_executed": 14,
+      "current_EU_native_MapInfo_records_checked": 8,
+      "current_EU_native_ClientInfo_records_checked": 10,
+      "all_actual_native_spans_reencode_exact": true,
+      "actual_NGS_fixture_test_executed": true,
+      "current_EU_core_counts": {
+        "game": 144708,
+        "message": 99,
+        "tracker": 6181
+      },
+      "current_EU_complete_lobby_EOF_checked": true,
+      "job_log_characters_inspected": 209642
+    },
+    {
+      "id": 117819575360,
+      "lane": "Windows / PowerShell 7 complete corpus",
+      "url": "https://github.com/lisu188/hots-replay-recovery/actions/runs/39176244114/job/117819575360",
+      "conclusion": "success",
+      "modules": 46,
+      "tests_discovered": 921,
+      "tests_run": 921,
+      "declared_skips": 4,
+      "unexpected_skips": 0,
+      "failures": 0,
+      "errors": 0,
+      "new_native_MapInfo_tests_executed": 13,
+      "existing_native_ClientInfo_tests_executed": 14,
+      "current_EU_native_MapInfo_records_checked": 8,
+      "current_EU_native_ClientInfo_records_checked": 10,
+      "all_actual_native_spans_reencode_exact": true,
+      "actual_NGS_fixture_test_executed": true,
+      "current_EU_core_counts": {
+        "game": 144708,
+        "message": 99,
+        "tracker": 6181
+      },
+      "current_EU_complete_lobby_EOF_checked": true,
+      "job_log_characters_inspected": 202748
+    },
+    {
+      "id": 117819575580,
+      "lane": "Windows / PowerShell 5.1 complete corpus",
+      "url": "https://github.com/lisu188/hots-replay-recovery/actions/runs/39176244114/job/117819575580",
+      "conclusion": "success",
+      "modules": 46,
+      "tests_discovered": 921,
+      "tests_run": 921,
+      "declared_skips": 4,
+      "unexpected_skips": 0,
+      "failures": 0,
+      "errors": 0,
+      "new_native_MapInfo_tests_executed": 13,
+      "existing_native_ClientInfo_tests_executed": 14,
+      "current_EU_native_MapInfo_records_checked": 8,
+      "current_EU_native_ClientInfo_records_checked": 10,
+      "all_actual_native_spans_reencode_exact": true,
+      "actual_NGS_fixture_test_executed": true,
+      "current_EU_core_counts": {
+        "game": 144708,
+        "message": 99,
+        "tracker": 6181
+      },
+      "current_EU_complete_lobby_EOF_checked": true,
+      "job_log_characters_inspected": 202834
+    }
+  ],
+  "actual_21_control_research_reexecuted_in_hosted_CI": false,
+  "header_field14_research_tests_executed_in_hosted_CI": false,
+  "installed_PE_or_preserved_dumps_used_in_CI": false,
+  "client_launched": false,
+  "new_replay_generated": false,
+  "full_upgrade_complete": false
+}

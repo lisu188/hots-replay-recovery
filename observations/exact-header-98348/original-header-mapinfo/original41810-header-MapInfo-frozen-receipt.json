@@ -1,0 +1,71 @@
+{
+  "format": "original41810-header-MapInfo-evidence-frozen-receipt-v1",
+  "files": [
+    {
+      "name": "assess_original_header_mapinfo.py",
+      "bytes": 14087,
+      "sha256": "ace17756bdd8355abf2b4cbe79b264648f135a3fbf26bca0aa6dd2211f57fba4"
+    },
+    {
+      "name": "test_original_header_mapinfo.py",
+      "bytes": 1903,
+      "sha256": "de23a8d5324a99307f5cf03c10f2c14e951530954c942341288fc7c00d193ac6"
+    },
+    {
+      "name": "original41810-cached-header-MapInfo-evidence.json",
+      "bytes": 32562,
+      "sha256": "1a4b18326303388b12f7d7a72415a5cd8973717954b30154370fb5927727bda3"
+    },
+    {
+      "name": "README.md",
+      "bytes": 3398,
+      "sha256": "06c73934155ccb5f4408988581e3e18fa940b6688943b438ab55ea90fb31768d"
+    }
+  ],
+  "actual_successful_runs": 1,
+  "synthetic_tests": 8,
+  "failures": 0,
+  "errors": 0,
+  "skips": 0,
+  "actual_exact_headers": 5,
+  "exact_common_named_comparisons": 75,
+  "explicit_empty_versioned_arrays_at_root_0_17": 5,
+  "complete_current_schema_failures_retained": 5,
+  "historical_extra_Bnet_tags": [
+    6,
+    11,
+    23
+  ],
+  "current_missing_Bnet_tags": [
+    24
+  ],
+  "header_reads_successful_bytes": 218746,
+  "prior_aborted_header_read_bytes": 24685,
+  "total_lane_header_read_bytes": 243431,
+  "header_byte_cap": 262144,
+  "successful_replay_read_bytes": 1270280,
+  "prior_aborted_replay_read_bytes": 635140,
+  "total_lane_replay_read_bytes": 1905420,
+  "prior_attempts": [
+    {
+      "failure": "Windows relative source-pin path spelling",
+      "before_any_replay_or_header_read": true
+    },
+    {
+      "failure": "Equivalent versioned-decoder dataclasses loaded with different Python module identities",
+      "replay_read_bytes": 635140,
+      "header_read_bytes": 24685,
+      "actual_format_failure_claimed": false
+    }
+  ],
+  "full_current_schema_used_unchanged_for_legacy": false,
+  "old_names_schema_permission_semantics_or_conversion_authenticated": false,
+  "network_client_PE_repo_or_cloud_used": false,
+  "raw_bodies_private_values_or_per_value_digests_emitted": false,
+  "limits": [
+    "Positive correspondence of explicit header17empty-array and candidate field only; self-described versioned framing does not prove old bitpacked width.",
+    "Current native field names remain a historical hypothesis; unknown historical tags are preserved as mismatches.",
+    "All before/after guards refer to the one successful final run; prior attempts are separately counted."
+  ],
+  "R8_or39445_replays_opened": false
+}

@@ -1,0 +1,20 @@
+{
+  "EU_public_fields": {
+    "BuildConfig": "a64c9b7ebf1c6a811ffefad97865ed80",
+    "BuildId": "98348",
+    "CDNConfig": "9575c98a819e557a3e6ec7b003428124",
+    "KeyRing": "",
+    "ProductConfig": "a0c5874544505acfa8952db0b0a4e48f",
+    "Region": "eu",
+    "VersionsName": "2.57.0.98348"
+  },
+  "HTTP_status": 200,
+  "body_bytes": 874,
+  "body_sha256": "f94345ccb04cd3c794ceceb7395efbe6e314eb9a0aec7cb6c3a779b400d74cf4",
+  "checked_at_utc": "2026-10-18T23:29:24.127900+00:00",
+  "current_target_still_matches_frozen_reference_context": true,
+  "format": "hots-live-official-target-after-MapInfo-v1",
+  "game_client_launched": false,
+  "raw_replay_or_player_data_used": false,
+  "source_url": "https://eu.patch.battle.net/hero/versions"
+}

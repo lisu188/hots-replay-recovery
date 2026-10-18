@@ -1,0 +1,878 @@
+{
+  "actual_header_read_bytes_including_before_after_guards": 218746,
+  "aggregate": {
+    "exact_headers_available": 5,
+    "exact_shared_field_matches": 75,
+    "exact_shared_field_mismatches": 0,
+    "explicit_shared_field_comparisons": 75,
+    "missing_headers": 0,
+    "named_subfield_binding_failures": 0
+  },
+  "all_source_and_input_guards_unchanged": true,
+  "baseline_member_roundtrip_and_5_candidate_record_boundaries_exact": true,
+  "current_named_graph_sha256": "56fa4fedd97e63737c2c575e63c728d9389d015243ff6acd25020c4d62834147",
+  "derived_legacy_hypothesis_receipt_sha256": "de29dfe84d6906fda09768c7e545d8c1053e641e44d21372692b0f45d6529477",
+  "distinct_header_bytes": 109373,
+  "format": "original41810-cached-header-MapInfo-evidence-v1",
+  "header_limit": 6,
+  "header_raw_byte_limit_including_guards": 262144,
+  "headers": [
+    {
+      "BnetHeader_tag_delta": {
+        "extra_historical_tags": [
+          6,
+          11,
+          23
+        ],
+        "missing_current_tags": [
+          24
+        ],
+        "path": "root/0"
+      },
+      "bytes": 24685,
+      "full_current_named_graph_result": "ValueError",
+      "header_sha256": "565fa52da08615e47c6105dc3036e925e80aa57d12b7bf5fd5c6757b12e7b5bd",
+      "index": 0,
+      "prefix_archive_and_candidate_handle_exact": true,
+      "root_tag_delta": {
+        "extra_historical_tags": [],
+        "missing_current_tags": [],
+        "path": "root"
+      },
+      "shared_current_named_fields": [
+        {
+          "candidate_MapInfo_field": "m_handle",
+          "equal_exact_no_locale_rebase": true,
+          "field": "header identity",
+          "header_current_named_path": "Header/m_bnet/m_handle",
+          "status": "compared",
+          "wire_path": "root/0/0",
+          "wire_tag": 5
+        },
+        {
+          "candidate_MapInfo_field": "m_mapName",
+          "equal_exact_no_locale_rebase": true,
+          "field": "display name",
+          "header_current_named_path": "Header/m_bnet/m_workingSet/m_name",
+          "status": "compared",
+          "wire_path": "root/0/4/0",
+          "wire_tag": 5
+        },
+        {
+          "candidate_MapInfo_field": "m_mapDescription",
+          "equal_exact_no_locale_rebase": true,
+          "field": "display description",
+          "header_current_named_path": "Header/m_bnet/m_workingSet/m_description",
+          "status": "compared",
+          "wire_path": "root/0/4/1",
+          "wire_tag": 5
+        },
+        {
+          "candidate_MapInfo_field": "m_mapThumbnail",
+          "equal_exact_no_locale_rebase": true,
+          "field": "thumbnail",
+          "header_current_named_path": "Header/m_bnet/m_workingSet/m_thumbnail",
+          "status": "compared",
+          "wire_path": "root/0/4/2",
+          "wire_tag": 4
+        },
+        {
+          "candidate_MapInfo_field": "m_bigMap",
+          "equal_exact_no_locale_rebase": true,
+          "field": "big map",
+          "header_current_named_path": "Header/m_bnet/m_workingSet/m_bigMap",
+          "status": "compared",
+          "wire_path": "root/0/4/3",
+          "wire_tag": 4
+        },
+        {
+          "candidate_MapInfo_field": "m_maxPlayers",
+          "equal_exact_no_locale_rebase": true,
+          "field": "maximum players",
+          "header_current_named_path": "Header/m_bnet/m_workingSet/m_maxPlayers",
+          "status": "compared",
+          "wire_path": "root/0/4/4",
+          "wire_tag": 9
+        },
+        {
+          "candidate_MapInfo_field": "m_visualFiles",
+          "equal_exact_no_locale_rebase": true,
+          "field": "visual files",
+          "header_current_named_path": "Header/m_bnet/m_workingSet/m_visualFiles",
+          "status": "compared",
+          "wire_path": "root/0/4/7",
+          "wire_tag": 0
+        },
+        {
+          "candidate_MapInfo_field": "m_mapSize",
+          "equal_exact_no_locale_rebase": true,
+          "field": "map size",
+          "header_current_named_path": "Header/m_bnet/m_size",
+          "status": "compared",
+          "wire_path": "root/0/9",
+          "wire_tag": 4
+        },
+        {
+          "candidate_MapInfo_field": "m_tileset",
+          "equal_exact_no_locale_rebase": true,
+          "field": "tileset",
+          "header_current_named_path": "Header/m_bnet/m_tileset",
+          "status": "compared",
+          "wire_path": "root/0/10",
+          "wire_tag": 4
+        },
+        {
+          "candidate_MapInfo_field": "m_labels",
+          "equal_exact_no_locale_rebase": true,
+          "field": "labels",
+          "header_current_named_path": "Header/m_bnet/m_labels",
+          "status": "compared",
+          "wire_path": "root/0/18",
+          "wire_tag": 0
+        },
+        {
+          "candidate_MapInfo_field": "m_defaultVariantIndex",
+          "equal_exact_no_locale_rebase": true,
+          "field": "default variant index",
+          "header_current_named_path": "Header/m_bnet/m_defaultVariantIndex",
+          "status": "compared",
+          "wire_path": "root/0/12",
+          "wire_tag": 9
+        },
+        {
+          "candidate_MapInfo_field": "m_arcadeGameInfo",
+          "equal_exact_no_locale_rebase": true,
+          "field": "arcade info",
+          "header_current_named_path": "Header/m_bnet/m_arcadeData",
+          "status": "compared",
+          "wire_path": "root/0/19",
+          "wire_tag": 4
+        },
+        {
+          "candidate_MapInfo_field": "m_extraDependencies",
+          "equal_exact_no_locale_rebase": true,
+          "field": "extra dependencies",
+          "header_current_named_path": "Header/m_bnet/m_extraDependencies",
+          "status": "compared",
+          "wire_path": "root/0/14",
+          "wire_tag": 0
+        },
+        {
+          "candidate_MapInfo_field": "m_addMultiMod",
+          "equal_exact_no_locale_rebase": true,
+          "field": "add multiple mods",
+          "header_current_named_path": "Header/m_bnet/m_addMultiMod",
+          "status": "compared",
+          "wire_path": "root/0/22",
+          "wire_tag": 6
+        },
+        {
+          "candidate_MapInfo_field": "m_requiredPermissions",
+          "candidate_array_empty": true,
+          "equal_exact_no_locale_rebase": true,
+          "explicit_tag_present": true,
+          "field": "required permissions",
+          "header_array_empty": true,
+          "header_current_named_path": "Header/m_bnet/m_requiredPermissions",
+          "status": "compared",
+          "versioned_ARRAY_wire_tag": true,
+          "wire_path": "root/0/17",
+          "wire_tag": 0
+        }
+      ],
+      "status": "exact_digest_full_versioned_decode_roundtrip"
+    },
+    {
+      "BnetHeader_tag_delta": {
+        "extra_historical_tags": [
+          6,
+          11,
+          23
+        ],
+        "missing_current_tags": [
+          24
+        ],
+        "path": "root/0"
+      },
+      "bytes": 30375,
+      "full_current_named_graph_result": "ValueError",
+      "header_sha256": "593cb51398ea52786c53e9c86d8f4d217148d452a691b38ef67d2a0d3add2596",
+      "index": 1,
+      "prefix_archive_and_candidate_handle_exact": true,
+      "root_tag_delta": {
+        "extra_historical_tags": [],
+        "missing_current_tags": [],
+        "path": "root"
+      },
+      "shared_current_named_fields": [
+        {
+          "candidate_MapInfo_field": "m_handle",
+          "equal_exact_no_locale_rebase": true,
+          "field": "header identity",
+          "header_current_named_path": "Header/m_bnet/m_handle",
+          "status": "compared",
+          "wire_path": "root/0/0",
+          "wire_tag": 5
+        },
+        {
+          "candidate_MapInfo_field": "m_mapName",
+          "equal_exact_no_locale_rebase": true,
+          "field": "display name",
+          "header_current_named_path": "Header/m_bnet/m_workingSet/m_name",
+          "status": "compared",
+          "wire_path": "root/0/4/0",
+          "wire_tag": 5
+        },
+        {
+          "candidate_MapInfo_field": "m_mapDescription",
+          "equal_exact_no_locale_rebase": true,
+          "field": "display description",
+          "header_current_named_path": "Header/m_bnet/m_workingSet/m_description",
+          "status": "compared",
+          "wire_path": "root/0/4/1",
+          "wire_tag": 5
+        },
+        {
+          "candidate_MapInfo_field": "m_mapThumbnail",
+          "equal_exact_no_locale_rebase": true,
+          "field": "thumbnail",
+          "header_current_named_path": "Header/m_bnet/m_workingSet/m_thumbnail",
+          "status": "compared",
+          "wire_path": "root/0/4/2",
+          "wire_tag": 4
+        },
+        {
+          "candidate_MapInfo_field": "m_bigMap",
+          "equal_exact_no_locale_rebase": true,
+          "field": "big map",
+          "header_current_named_path": "Header/m_bnet/m_workingSet/m_bigMap",
+          "status": "compared",
+          "wire_path": "root/0/4/3",
+          "wire_tag": 4
+        },
+        {
+          "candidate_MapInfo_field": "m_maxPlayers",
+          "equal_exact_no_locale_rebase": true,
+          "field": "maximum players",
+          "header_current_named_path": "Header/m_bnet/m_workingSet/m_maxPlayers",
+          "status": "compared",
+          "wire_path": "root/0/4/4",
+          "wire_tag": 9
+        },
+        {
+          "candidate_MapInfo_field": "m_visualFiles",
+          "equal_exact_no_locale_rebase": true,
+          "field": "visual files",
+          "header_current_named_path": "Header/m_bnet/m_workingSet/m_visualFiles",
+          "status": "compared",
+          "wire_path": "root/0/4/7",
+          "wire_tag": 0
+        },
+        {
+          "candidate_MapInfo_field": "m_mapSize",
+          "equal_exact_no_locale_rebase": true,
+          "field": "map size",
+          "header_current_named_path": "Header/m_bnet/m_size",
+          "status": "compared",
+          "wire_path": "root/0/9",
+          "wire_tag": 4
+        },
+        {
+          "candidate_MapInfo_field": "m_tileset",
+          "equal_exact_no_locale_rebase": true,
+          "field": "tileset",
+          "header_current_named_path": "Header/m_bnet/m_tileset",
+          "status": "compared",
+          "wire_path": "root/0/10",
+          "wire_tag": 4
+        },
+        {
+          "candidate_MapInfo_field": "m_labels",
+          "equal_exact_no_locale_rebase": true,
+          "field": "labels",
+          "header_current_named_path": "Header/m_bnet/m_labels",
+          "status": "compared",
+          "wire_path": "root/0/18",
+          "wire_tag": 0
+        },
+        {
+          "candidate_MapInfo_field": "m_defaultVariantIndex",
+          "equal_exact_no_locale_rebase": true,
+          "field": "default variant index",
+          "header_current_named_path": "Header/m_bnet/m_defaultVariantIndex",
+          "status": "compared",
+          "wire_path": "root/0/12",
+          "wire_tag": 9
+        },
+        {
+          "candidate_MapInfo_field": "m_arcadeGameInfo",
+          "equal_exact_no_locale_rebase": true,
+          "field": "arcade info",
+          "header_current_named_path": "Header/m_bnet/m_arcadeData",
+          "status": "compared",
+          "wire_path": "root/0/19",
+          "wire_tag": 4
+        },
+        {
+          "candidate_MapInfo_field": "m_extraDependencies",
+          "equal_exact_no_locale_rebase": true,
+          "field": "extra dependencies",
+          "header_current_named_path": "Header/m_bnet/m_extraDependencies",
+          "status": "compared",
+          "wire_path": "root/0/14",
+          "wire_tag": 0
+        },
+        {
+          "candidate_MapInfo_field": "m_addMultiMod",
+          "equal_exact_no_locale_rebase": true,
+          "field": "add multiple mods",
+          "header_current_named_path": "Header/m_bnet/m_addMultiMod",
+          "status": "compared",
+          "wire_path": "root/0/22",
+          "wire_tag": 6
+        },
+        {
+          "candidate_MapInfo_field": "m_requiredPermissions",
+          "candidate_array_empty": true,
+          "equal_exact_no_locale_rebase": true,
+          "explicit_tag_present": true,
+          "field": "required permissions",
+          "header_array_empty": true,
+          "header_current_named_path": "Header/m_bnet/m_requiredPermissions",
+          "status": "compared",
+          "versioned_ARRAY_wire_tag": true,
+          "wire_path": "root/0/17",
+          "wire_tag": 0
+        }
+      ],
+      "status": "exact_digest_full_versioned_decode_roundtrip"
+    },
+    {
+      "BnetHeader_tag_delta": {
+        "extra_historical_tags": [
+          6,
+          11,
+          23
+        ],
+        "missing_current_tags": [
+          24
+        ],
+        "path": "root/0"
+      },
+      "bytes": 1621,
+      "full_current_named_graph_result": "ValueError",
+      "header_sha256": "439eab2a4f3f7d224e5820486ab0cc161729f3de3d2d5ce2e80b35dc7eed3a88",
+      "index": 2,
+      "prefix_archive_and_candidate_handle_exact": true,
+      "root_tag_delta": {
+        "extra_historical_tags": [],
+        "missing_current_tags": [],
+        "path": "root"
+      },
+      "shared_current_named_fields": [
+        {
+          "candidate_MapInfo_field": "m_handle",
+          "equal_exact_no_locale_rebase": true,
+          "field": "header identity",
+          "header_current_named_path": "Header/m_bnet/m_handle",
+          "status": "compared",
+          "wire_path": "root/0/0",
+          "wire_tag": 5
+        },
+        {
+          "candidate_MapInfo_field": "m_mapName",
+          "equal_exact_no_locale_rebase": true,
+          "field": "display name",
+          "header_current_named_path": "Header/m_bnet/m_workingSet/m_name",
+          "status": "compared",
+          "wire_path": "root/0/4/0",
+          "wire_tag": 5
+        },
+        {
+          "candidate_MapInfo_field": "m_mapDescription",
+          "equal_exact_no_locale_rebase": true,
+          "field": "display description",
+          "header_current_named_path": "Header/m_bnet/m_workingSet/m_description",
+          "status": "compared",
+          "wire_path": "root/0/4/1",
+          "wire_tag": 5
+        },
+        {
+          "candidate_MapInfo_field": "m_mapThumbnail",
+          "equal_exact_no_locale_rebase": true,
+          "field": "thumbnail",
+          "header_current_named_path": "Header/m_bnet/m_workingSet/m_thumbnail",
+          "status": "compared",
+          "wire_path": "root/0/4/2",
+          "wire_tag": 4
+        },
+        {
+          "candidate_MapInfo_field": "m_bigMap",
+          "equal_exact_no_locale_rebase": true,
+          "field": "big map",
+          "header_current_named_path": "Header/m_bnet/m_workingSet/m_bigMap",
+          "status": "compared",
+          "wire_path": "root/0/4/3",
+          "wire_tag": 4
+        },
+        {
+          "candidate_MapInfo_field": "m_maxPlayers",
+          "equal_exact_no_locale_rebase": true,
+          "field": "maximum players",
+          "header_current_named_path": "Header/m_bnet/m_workingSet/m_maxPlayers",
+          "status": "compared",
+          "wire_path": "root/0/4/4",
+          "wire_tag": 9
+        },
+        {
+          "candidate_MapInfo_field": "m_visualFiles",
+          "equal_exact_no_locale_rebase": true,
+          "field": "visual files",
+          "header_current_named_path": "Header/m_bnet/m_workingSet/m_visualFiles",
+          "status": "compared",
+          "wire_path": "root/0/4/7",
+          "wire_tag": 0
+        },
+        {
+          "candidate_MapInfo_field": "m_mapSize",
+          "equal_exact_no_locale_rebase": true,
+          "field": "map size",
+          "header_current_named_path": "Header/m_bnet/m_size",
+          "status": "compared",
+          "wire_path": "root/0/9",
+          "wire_tag": 4
+        },
+        {
+          "candidate_MapInfo_field": "m_tileset",
+          "equal_exact_no_locale_rebase": true,
+          "field": "tileset",
+          "header_current_named_path": "Header/m_bnet/m_tileset",
+          "status": "compared",
+          "wire_path": "root/0/10",
+          "wire_tag": 4
+        },
+        {
+          "candidate_MapInfo_field": "m_labels",
+          "equal_exact_no_locale_rebase": true,
+          "field": "labels",
+          "header_current_named_path": "Header/m_bnet/m_labels",
+          "status": "compared",
+          "wire_path": "root/0/18",
+          "wire_tag": 0
+        },
+        {
+          "candidate_MapInfo_field": "m_defaultVariantIndex",
+          "equal_exact_no_locale_rebase": true,
+          "field": "default variant index",
+          "header_current_named_path": "Header/m_bnet/m_defaultVariantIndex",
+          "status": "compared",
+          "wire_path": "root/0/12",
+          "wire_tag": 9
+        },
+        {
+          "candidate_MapInfo_field": "m_arcadeGameInfo",
+          "equal_exact_no_locale_rebase": true,
+          "field": "arcade info",
+          "header_current_named_path": "Header/m_bnet/m_arcadeData",
+          "status": "compared",
+          "wire_path": "root/0/19",
+          "wire_tag": 4
+        },
+        {
+          "candidate_MapInfo_field": "m_extraDependencies",
+          "equal_exact_no_locale_rebase": true,
+          "field": "extra dependencies",
+          "header_current_named_path": "Header/m_bnet/m_extraDependencies",
+          "status": "compared",
+          "wire_path": "root/0/14",
+          "wire_tag": 0
+        },
+        {
+          "candidate_MapInfo_field": "m_addMultiMod",
+          "equal_exact_no_locale_rebase": true,
+          "field": "add multiple mods",
+          "header_current_named_path": "Header/m_bnet/m_addMultiMod",
+          "status": "compared",
+          "wire_path": "root/0/22",
+          "wire_tag": 6
+        },
+        {
+          "candidate_MapInfo_field": "m_requiredPermissions",
+          "candidate_array_empty": true,
+          "equal_exact_no_locale_rebase": true,
+          "explicit_tag_present": true,
+          "field": "required permissions",
+          "header_array_empty": true,
+          "header_current_named_path": "Header/m_bnet/m_requiredPermissions",
+          "status": "compared",
+          "versioned_ARRAY_wire_tag": true,
+          "wire_path": "root/0/17",
+          "wire_tag": 0
+        }
+      ],
+      "status": "exact_digest_full_versioned_decode_roundtrip"
+    },
+    {
+      "BnetHeader_tag_delta": {
+        "extra_historical_tags": [
+          6,
+          11,
+          23
+        ],
+        "missing_current_tags": [
+          24
+        ],
+        "path": "root/0"
+      },
+      "bytes": 48647,
+      "full_current_named_graph_result": "ValueError",
+      "header_sha256": "b34d0f30dc3b9cf47694982106a04006a49ce43422e02f71ed18b33b7bfcc6c4",
+      "index": 3,
+      "prefix_archive_and_candidate_handle_exact": true,
+      "root_tag_delta": {
+        "extra_historical_tags": [],
+        "missing_current_tags": [],
+        "path": "root"
+      },
+      "shared_current_named_fields": [
+        {
+          "candidate_MapInfo_field": "m_handle",
+          "equal_exact_no_locale_rebase": true,
+          "field": "header identity",
+          "header_current_named_path": "Header/m_bnet/m_handle",
+          "status": "compared",
+          "wire_path": "root/0/0",
+          "wire_tag": 5
+        },
+        {
+          "candidate_MapInfo_field": "m_mapName",
+          "equal_exact_no_locale_rebase": true,
+          "field": "display name",
+          "header_current_named_path": "Header/m_bnet/m_workingSet/m_name",
+          "status": "compared",
+          "wire_path": "root/0/4/0",
+          "wire_tag": 5
+        },
+        {
+          "candidate_MapInfo_field": "m_mapDescription",
+          "equal_exact_no_locale_rebase": true,
+          "field": "display description",
+          "header_current_named_path": "Header/m_bnet/m_workingSet/m_description",
+          "status": "compared",
+          "wire_path": "root/0/4/1",
+          "wire_tag": 5
+        },
+        {
+          "candidate_MapInfo_field": "m_mapThumbnail",
+          "equal_exact_no_locale_rebase": true,
+          "field": "thumbnail",
+          "header_current_named_path": "Header/m_bnet/m_workingSet/m_thumbnail",
+          "status": "compared",
+          "wire_path": "root/0/4/2",
+          "wire_tag": 4
+        },
+        {
+          "candidate_MapInfo_field": "m_bigMap",
+          "equal_exact_no_locale_rebase": true,
+          "field": "big map",
+          "header_current_named_path": "Header/m_bnet/m_workingSet/m_bigMap",
+          "status": "compared",
+          "wire_path": "root/0/4/3",
+          "wire_tag": 4
+        },
+        {
+          "candidate_MapInfo_field": "m_maxPlayers",
+          "equal_exact_no_locale_rebase": true,
+          "field": "maximum players",
+          "header_current_named_path": "Header/m_bnet/m_workingSet/m_maxPlayers",
+          "status": "compared",
+          "wire_path": "root/0/4/4",
+          "wire_tag": 9
+        },
+        {
+          "candidate_MapInfo_field": "m_visualFiles",
+          "equal_exact_no_locale_rebase": true,
+          "field": "visual files",
+          "header_current_named_path": "Header/m_bnet/m_workingSet/m_visualFiles",
+          "status": "compared",
+          "wire_path": "root/0/4/7",
+          "wire_tag": 0
+        },
+        {
+          "candidate_MapInfo_field": "m_mapSize",
+          "equal_exact_no_locale_rebase": true,
+          "field": "map size",
+          "header_current_named_path": "Header/m_bnet/m_size",
+          "status": "compared",
+          "wire_path": "root/0/9",
+          "wire_tag": 4
+        },
+        {
+          "candidate_MapInfo_field": "m_tileset",
+          "equal_exact_no_locale_rebase": true,
+          "field": "tileset",
+          "header_current_named_path": "Header/m_bnet/m_tileset",
+          "status": "compared",
+          "wire_path": "root/0/10",
+          "wire_tag": 4
+        },
+        {
+          "candidate_MapInfo_field": "m_labels",
+          "equal_exact_no_locale_rebase": true,
+          "field": "labels",
+          "header_current_named_path": "Header/m_bnet/m_labels",
+          "status": "compared",
+          "wire_path": "root/0/18",
+          "wire_tag": 0
+        },
+        {
+          "candidate_MapInfo_field": "m_defaultVariantIndex",
+          "equal_exact_no_locale_rebase": true,
+          "field": "default variant index",
+          "header_current_named_path": "Header/m_bnet/m_defaultVariantIndex",
+          "status": "compared",
+          "wire_path": "root/0/12",
+          "wire_tag": 9
+        },
+        {
+          "candidate_MapInfo_field": "m_arcadeGameInfo",
+          "equal_exact_no_locale_rebase": true,
+          "field": "arcade info",
+          "header_current_named_path": "Header/m_bnet/m_arcadeData",
+          "status": "compared",
+          "wire_path": "root/0/19",
+          "wire_tag": 4
+        },
+        {
+          "candidate_MapInfo_field": "m_extraDependencies",
+          "equal_exact_no_locale_rebase": true,
+          "field": "extra dependencies",
+          "header_current_named_path": "Header/m_bnet/m_extraDependencies",
+          "status": "compared",
+          "wire_path": "root/0/14",
+          "wire_tag": 0
+        },
+        {
+          "candidate_MapInfo_field": "m_addMultiMod",
+          "equal_exact_no_locale_rebase": true,
+          "field": "add multiple mods",
+          "header_current_named_path": "Header/m_bnet/m_addMultiMod",
+          "status": "compared",
+          "wire_path": "root/0/22",
+          "wire_tag": 6
+        },
+        {
+          "candidate_MapInfo_field": "m_requiredPermissions",
+          "candidate_array_empty": true,
+          "equal_exact_no_locale_rebase": true,
+          "explicit_tag_present": true,
+          "field": "required permissions",
+          "header_array_empty": true,
+          "header_current_named_path": "Header/m_bnet/m_requiredPermissions",
+          "status": "compared",
+          "versioned_ARRAY_wire_tag": true,
+          "wire_path": "root/0/17",
+          "wire_tag": 0
+        }
+      ],
+      "status": "exact_digest_full_versioned_decode_roundtrip"
+    },
+    {
+      "BnetHeader_tag_delta": {
+        "extra_historical_tags": [
+          6,
+          11,
+          23
+        ],
+        "missing_current_tags": [
+          24
+        ],
+        "path": "root/0"
+      },
+      "bytes": 4045,
+      "full_current_named_graph_result": "ValueError",
+      "header_sha256": "9bdcdbb192244902f650020fa302951b0fd1f5487aad0096df01ddccd7b4acd2",
+      "index": 4,
+      "prefix_archive_and_candidate_handle_exact": true,
+      "root_tag_delta": {
+        "extra_historical_tags": [],
+        "missing_current_tags": [],
+        "path": "root"
+      },
+      "shared_current_named_fields": [
+        {
+          "candidate_MapInfo_field": "m_handle",
+          "equal_exact_no_locale_rebase": true,
+          "field": "header identity",
+          "header_current_named_path": "Header/m_bnet/m_handle",
+          "status": "compared",
+          "wire_path": "root/0/0",
+          "wire_tag": 5
+        },
+        {
+          "candidate_MapInfo_field": "m_mapName",
+          "equal_exact_no_locale_rebase": true,
+          "field": "display name",
+          "header_current_named_path": "Header/m_bnet/m_workingSet/m_name",
+          "status": "compared",
+          "wire_path": "root/0/4/0",
+          "wire_tag": 5
+        },
+        {
+          "candidate_MapInfo_field": "m_mapDescription",
+          "equal_exact_no_locale_rebase": true,
+          "field": "display description",
+          "header_current_named_path": "Header/m_bnet/m_workingSet/m_description",
+          "status": "compared",
+          "wire_path": "root/0/4/1",
+          "wire_tag": 5
+        },
+        {
+          "candidate_MapInfo_field": "m_mapThumbnail",
+          "equal_exact_no_locale_rebase": true,
+          "field": "thumbnail",
+          "header_current_named_path": "Header/m_bnet/m_workingSet/m_thumbnail",
+          "status": "compared",
+          "wire_path": "root/0/4/2",
+          "wire_tag": 4
+        },
+        {
+          "candidate_MapInfo_field": "m_bigMap",
+          "equal_exact_no_locale_rebase": true,
+          "field": "big map",
+          "header_current_named_path": "Header/m_bnet/m_workingSet/m_bigMap",
+          "status": "compared",
+          "wire_path": "root/0/4/3",
+          "wire_tag": 4
+        },
+        {
+          "candidate_MapInfo_field": "m_maxPlayers",
+          "equal_exact_no_locale_rebase": true,
+          "field": "maximum players",
+          "header_current_named_path": "Header/m_bnet/m_workingSet/m_maxPlayers",
+          "status": "compared",
+          "wire_path": "root/0/4/4",
+          "wire_tag": 9
+        },
+        {
+          "candidate_MapInfo_field": "m_visualFiles",
+          "equal_exact_no_locale_rebase": true,
+          "field": "visual files",
+          "header_current_named_path": "Header/m_bnet/m_workingSet/m_visualFiles",
+          "status": "compared",
+          "wire_path": "root/0/4/7",
+          "wire_tag": 0
+        },
+        {
+          "candidate_MapInfo_field": "m_mapSize",
+          "equal_exact_no_locale_rebase": true,
+          "field": "map size",
+          "header_current_named_path": "Header/m_bnet/m_size",
+          "status": "compared",
+          "wire_path": "root/0/9",
+          "wire_tag": 4
+        },
+        {
+          "candidate_MapInfo_field": "m_tileset",
+          "equal_exact_no_locale_rebase": true,
+          "field": "tileset",
+          "header_current_named_path": "Header/m_bnet/m_tileset",
+          "status": "compared",
+          "wire_path": "root/0/10",
+          "wire_tag": 4
+        },
+        {
+          "candidate_MapInfo_field": "m_labels",
+          "equal_exact_no_locale_rebase": true,
+          "field": "labels",
+          "header_current_named_path": "Header/m_bnet/m_labels",
+          "status": "compared",
+          "wire_path": "root/0/18",
+          "wire_tag": 0
+        },
+        {
+          "candidate_MapInfo_field": "m_defaultVariantIndex",
+          "equal_exact_no_locale_rebase": true,
+          "field": "default variant index",
+          "header_current_named_path": "Header/m_bnet/m_defaultVariantIndex",
+          "status": "compared",
+          "wire_path": "root/0/12",
+          "wire_tag": 9
+        },
+        {
+          "candidate_MapInfo_field": "m_arcadeGameInfo",
+          "equal_exact_no_locale_rebase": true,
+          "field": "arcade info",
+          "header_current_named_path": "Header/m_bnet/m_arcadeData",
+          "status": "compared",
+          "wire_path": "root/0/19",
+          "wire_tag": 4
+        },
+        {
+          "candidate_MapInfo_field": "m_extraDependencies",
+          "equal_exact_no_locale_rebase": true,
+          "field": "extra dependencies",
+          "header_current_named_path": "Header/m_bnet/m_extraDependencies",
+          "status": "compared",
+          "wire_path": "root/0/14",
+          "wire_tag": 0
+        },
+        {
+          "candidate_MapInfo_field": "m_addMultiMod",
+          "equal_exact_no_locale_rebase": true,
+          "field": "add multiple mods",
+          "header_current_named_path": "Header/m_bnet/m_addMultiMod",
+          "status": "compared",
+          "wire_path": "root/0/22",
+          "wire_tag": 6
+        },
+        {
+          "candidate_MapInfo_field": "m_requiredPermissions",
+          "candidate_array_empty": true,
+          "equal_exact_no_locale_rebase": true,
+          "explicit_tag_present": true,
+          "field": "required permissions",
+          "header_array_empty": true,
+          "header_current_named_path": "Header/m_bnet/m_requiredPermissions",
+          "status": "compared",
+          "versioned_ARRAY_wire_tag": true,
+          "wire_path": "root/0/17",
+          "wire_tag": 0
+        }
+      ],
+      "status": "exact_digest_full_versioned_decode_roundtrip"
+    }
+  ],
+  "lane_total_header_bytes_including_aborted_attempt": 243431,
+  "limits": [
+    "Current native names and types supply explicit common-field comparison paths only; exact historical semantics are not authenticated.",
+    "The sole candidate delta is permission-array count31to7/max127; original boundaries and token spans are compared to the separately frozen historical baseline.",
+    "Missing/extra tags and subfield binding failures are retained; absent fields are never defaulted.",
+    "Versioned array count framing is self-described and does not establish the historical bitpacked count width or permission meanings.",
+    "No R8/39445 replay or other local archive was opened; all values remain RAM except approved aggregate booleans/counts and source hashes."
+  ],
+  "member_sha256": "beea9c9b29a7f1a73806fe37b393f453c84a7faed8d6f89a5b4fcd25967f1f44",
+  "network_client_PE_repo_or_cloud_used": false,
+  "old_names_or_permission_semantics_authenticated": false,
+  "old_to_current_conversion_rule_proven": false,
+  "original_root_and_base_build41810_authenticated": true,
+  "prior_aborted_adapter_type_identity_check_header_read_bytes": 24685,
+  "private_values_namespace_authors_accounts_or_raw_bodies_emitted": false,
+  "producer_sha256": "ace17756bdd8355abf2b4cbe79b264648f135a3fbf26bca0aa6dd2211f57fba4",
+  "replay_read_bytes_including_before_after_guards": 1270280,
+  "replay_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+  "source_pins": {
+    "current-header-field-exposure/native-header-mapinfo-selected-graph.json": "56fa4fedd97e63737c2c575e63c728d9389d015243ff6acd25020c4d62834147",
+    "current-header-field-exposure/review_header_field_exposure.py": "4a5a7b8483413ea40b49c1ce49d1fd78dd54649ccecaa7c04e9c090cc683dac0",
+    "header-reconstruction/lossless_wire.py": "9d725f9be88c4185419a306ef995e82a774d174a93912ffd381cced2d6ebb7a7",
+    "legacy-header-mapinfo-evidence/assess_original_header_mapinfo.py": "ace17756bdd8355abf2b4cbe79b264648f135a3fbf26bca0aa6dd2211f57fba4",
+    "legacy-mapinfo-hypothesis/legacy-MapInfo-count-width-hypothesis.json": "de29dfe84d6906fda09768c7e545d8c1053e641e44d21372692b0f45d6529477",
+    "mod-metadata-publish-ready/depot_s2mh_wire.py": "a55cc6a33ac194f53c900113d2b755ce23ec051518279c23d91092d8557501a5",
+    "mod-package-handles-and-realms.json": "b4a19eebeb171eb1a1f044ffe740ba39a524bd2c2b2c713f02266d50873e2265",
+    "native-client-codec-ready/native_clientinfo.py": "e0abd0b674c97b87f6a1510edc08704eebeca0ad9d43ac0537d5eaaa3eb9b202",
+    "repo/audit_battlelobby_mod_metadata.py": "8dad2d923957cdfc44bec5690fe075c16d6e204651e09cc88cbf8503abcdd7c9",
+    "repo/battlelobby_attribute_layer.py": "3faf056fa8123f66e73dd551fcab2fb05fd9ccba5643826ec6835c771672aeee",
+    "repo/mod_data_audit.py": "3a4c7d1ed6ea1c001a4b4cce80eaa01bca637701deff391d7e02e3f6c37b4999",
+    "repo/mpq_reader.py": "9e940dae67c5d457483c814e6169e6e5d0a1cc5a1dcfdbd76dcf9026f1fa0033"
+  }
+}

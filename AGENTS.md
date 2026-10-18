@@ -832,3 +832,38 @@ fields and the target namespace remain unobserved; no new recipe is supported.
 Source/archive/core/simulation proof remain distinct. No rawPE/fullBSN/header/
 replay/playerdata published. Original/R8 unchanged; no client/newreplay and
 full migration unfinished. See exact publication-bindings for frozen bytes.
+
+
+## MapInfo complete CI, source backup and original-header constraints - 2026-10-19
+
+The MapInfo source checkpoint 4531b64 passed complete CI39176244114 on Linux,
+Windows PowerShell7 and PowerShell5.1. Each lane discovered46root modules and
+ran921tests, with38declaredLinux/4Windows skips, zero failures/errors/unexpected
+skips. All13newMapInfo and14existingClientInfo tests executed. Each lane also
+checked8actualEUMapInfo and10ClientInfo records with exact native span bytes,
+EU144708game/99message/6181tracker/fullLobbyEOF, and actual NGSrangefixture.
+The21case/136record research,14header research and preserved-dump reads remain
+separate local evidence. No hosted current PE, private header or dump claim.
+
+Source-only cbc2113..4531b64 bundle and ZIP are verified in the existing OneDrive
+project checkpoint: hots-offline-native-mapinfo-source-4531b64.zip,322542B,
+SHA256c02717a75651e05a4cbc1b2b6d3ce6e0c8b6ee1c5d18f627de22aa8ff3d34433.
+All65source blobs across3commits were fetched from public GitHub and matched
+exact SHA256/Git identities. All37ZIPentries accounted for:35exact public Git
+blobs, verified bundle, generated relative-path/pin manifest. Fresh cloud size
+and QuickXor match; no independent remoteSHA256. Preserve10prerequisite source
+archives. Later CI/cloud/original-header receipts are outside that source ZIP.
+
+Read docs/ORIGINAL_HEADER_MAPINFO_2026-10-19.md and original-header-mapinfo
+receipts. All5exact original headers, including originalDragon, match75shared
+named fields against the derived count7MapInfo hypothesis. Each explicitly has
+root/0/17 as an empty versioned ARRAY; no absent field defaulted. All5complete
+currentHeader bindings fail with old extra Bnet tags6,11,23 and missing24.
+8synthetic guard tests PASS; total header reads243431B<262144 including an
+aborted adapter check, with no further actual-header reread needed. This is an
+independent empty-array correspondence; it does not authenticate old native
+names/count width/permissions or authorize a conversion. Original/R8 unchanged.
+
+Official live EU manifest refreshed2026-10-18T23:29:24UTC remains2.57.0.98348,
+same874B/SHA as prior observation. No game client or new replay. Full migration
+and deterministic compatibility remain unfinished.
