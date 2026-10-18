@@ -232,3 +232,48 @@ drift: its canonical1201-byte blob MD5d170b1ad65ebcde3f4252e3088b0c102 is now
 materialized locally and pinnedLF in .gitattributes. Its7BuildConfigTests pass.
 This focused correction does not relabel the broader run as passing or duplicate
 the separate PR branch's prepared regression lane. No replay or client changed.
+
+
+## Passing canonical CI and direct-candidate planner — 2026-10-18
+
+Run39156842765 at1366ae0 passed Linux+Windows, each71focused tests,2real attribute
+fixtures,3mod cases,14complete-tail fixtures and10content-addressed header
+bindings/4arcade sections. Both source-static reports have identicalSHA256
+abc902b7bcf3fc000da99a4444db1b11307b7dbe8816bbc174572012b5ce5820.
+This supersedes the failed newline-binding run, not the separate unsuccessful
+broader sandbox discovery result. No client or replay write was performed.
+
+The new `plan_collection_candidates.py` accepts the exact hash-bound98348
+license projection and its bound catalog-only collection observation. Local
+13focused tests pass including the actual fixture. Its new report explicitly
+keeps56candidates (54without recorded reward-declaration reasons+2with parent
+reasons),207unresolved names, field-level unresolved reasons, namespace
+collisions and duplicate blockers. It never marks the whole collection eligible,
+infers aliases or writes ownership/member/replay data. Its separate small
+Python-only CI avoids another game-data extraction; record its result separately.
+R8 remains latest, the full upgrade objective is unfinished and no client launch
+is permitted under the user's current instruction.
+
+
+## Verified candidate plan CI — 2026-10-18
+
+Run39157801856 at7ce68ca passed both Windows+Linux, each13tests/no skips and
+an actual pinned-source CLI reproduction of56candidates/207unresolved names.
+This is separate from the71-test/full14-fixture format CI and33-test exact-data
+collector run. All intended offline milestones are published; no new replay
+exists. Preserve original/R8 and the offline-only/full-upgrade goal, which
+remains unfinished because legacy aliases, opaque player-field migration,
+package/catalog/ability/instance/rule/sync compatibility remain unresolved.
+
+
+## Incremental source backup through ac52010 — 2026-10-18
+
+The verified source delta6fffca8..ac52010, current docs and focused-CI/candidate
+reports are saved as hots-offline-static-catalog-ac52010.zip (807013bytes,
+SHA256b5cc33e7810f6a35dc88bc4917c91898eb87bc670f1c75b8db8eb14cb9a327a1).
+It requires the existing base7e23a6a archive and6fffca8 addendum; preserve both.
+Upload to the existing OneDrive checkpoint folder succeeded, and fresh cloud
+size/QuickXor matches local bytes. QuickXor is not cryptographic, and no remote
+SHA256 re-download was performed. The archive includes all new source and CI
+throughac52010; this later upload receipt is separate bookkeeping. No raw donor,
+new replay or client result is included. Keep the full-upgrade goal unfinished.

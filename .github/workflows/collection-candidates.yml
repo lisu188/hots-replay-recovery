@@ -1,0 +1,58 @@
+name: Offline collection candidate plan
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/collection-candidates.yml'
+      - 'plan_collection_candidates.py'
+      - 'test_plan_collection_candidates.py'
+      - 'collection_license_audit.py'
+      - 'observations/collection-identities-2026-10-18.json'
+      - 'observations/collection-license-current-98348.json'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  candidates:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-24.04, windows-2025]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 5
+    env:
+      COLLECTION_PLAN_FIXTURES: ${{ github.workspace }}
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.13'
+      - name: Test strict source, version, candidate and output guards
+        run: python -B -m unittest -v test_plan_collection_candidates
+      - name: Reproduce exact-name candidates from published static evidence
+        run: |
+          mkdir -p work
+          python -B plan_collection_candidates.py --licenses observations/collection-license-current-98348.json --collection-observation observations/collection-identities-2026-10-18.json --output work/collection-candidate-plan.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          report = json.loads(Path('work/collection-candidate-plan.json').read_text())
+          expected = {'legacy_names': 263, 'current_observed_ids': 5418, 'single_observed_license_candidates': 56, 'single_without_record_reasons': 54, 'single_with_record_reasons': 2, 'unresolved_names': 207}
+          if any(report['counts'].get(key) != value for key, value in expected.items()):
+              raise RuntimeError('Observed candidate counts changed')
+          if report['whole_collection_conversion_eligible'] or report['replay_modified'] or report['client_launched'] or report['contains_player_ownership_or_identity_data']:
+              raise RuntimeError('Candidate-only constraints changed')
+          print('Reproduced 56 candidates and 207 unresolved names; no replay conversion')
+          PY
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: collection-candidate-plan-${{ matrix.os }}-${{ github.run_id }}
+          retention-days: 30
+          path: work/collection-candidate-plan.json

@@ -1,0 +1,23 @@
+{
+  "format": "hots-static-catalog-cloud-backup-verification-v1",
+  "source_commit": "ac52010f9db7d4d16223868e362df9be08065d94",
+  "archive_filename": "hots-offline-static-catalog-ac52010.zip",
+  "archive_bytes": 807013,
+  "local_sha256": "b5cc33e7810f6a35dc88bc4917c91898eb87bc670f1c75b8db8eb14cb9a327a1",
+  "local_quick_xor_hash": "lD4t4X7iyzqrrTswdFvCMNSoxxo=",
+  "fresh_cloud_quick_xor_hash": "lD4t4X7iyzqrrTswdFvCMNSoxxo=",
+  "fresh_cloud_size_matches": true,
+  "fresh_cloud_quick_xor_matches": true,
+  "cloud_upload_reported_success": true,
+  "fresh_cloud_item_metadata_verified": true,
+  "quick_xor_is_cryptographic": false,
+  "remote_content_redownload_sha256_verified": false,
+  "remote_redownload_attempted_this_checkpoint": false,
+  "prior_checkpoint_redownload_result": "HTTP403 serviceReadOnly; not retried for this checkpoint",
+  "incremental_bundle_requires_commit": "6fffca80f9476458e07543c497901188091aaec1",
+  "previous_backup_files_preserved": true,
+  "client_launched": false,
+  "contains_new_replay": false,
+  "archive_manifest_records_preupload_state": true,
+  "backup_receipt_is_later_bookkeeping_not_inside_archived_source_commit": true
+}
