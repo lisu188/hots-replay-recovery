@@ -213,3 +213,22 @@ hash guard was broadened. The new canonical-lf fourteen-fixture report repeats
 all EOF/member/private identity/seed checks successfully; keep older reports as
 history with their original working-copy digest. Record the subsequent remote
 run separately; the failed run is not passing CI.
+
+
+## Measured current collection evidence and broader check — 2026-10-18
+
+Run39156204685 succeeded,33Linux tests allpassed. Bot38469fa published exact98348
+XML-declaration evidence:5418/5418 observed current collection IDs have direct
+License candidates;5419 direct IDs exist. Legacy263names yield56 exact-name
+observed candidates (54without recorded declaration reason,2with unresolved
+parents),6exact records without a direct License and201absent exact names.
+Do not promote this into a263-name migration. Preserve207 unresolved names and
+all availability bytes. See dated direct-candidate assessment and collection doc.
+
+One broader sandbox discovery run at93a5d0b ran761tests with4failures,9errors,
+4skips. Permission-limited rename/junction operations and missing R3/R4/native
+fixtures remain explicitly recorded. One failure was historical config CRLF
+drift: its canonical1201-byte blob MD5d170b1ad65ebcde3f4252e3088b0c102 is now
+materialized locally and pinnedLF in .gitattributes. Its7BuildConfigTests pass.
+This focused correction does not relabel the broader run as passing or duplicate
+the separate PR branch's prepared regression lane. No replay or client changed.

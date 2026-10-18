@@ -1,0 +1,1907 @@
+{
+  "format": "hots-current98348-direct-legacy-candidate-assessment-v1",
+  "utc": "2026-10-18T19:00:48.994328+00:00",
+  "source": {
+    "repository_path": "observations/collection-license-current-98348.json",
+    "published_blob_sha1": "863c7375d0c2e42964dabf55876f90f1facf2c34",
+    "sha256": "c8f03ddbc859feb5c2dc1836761201b5e6fea4632ce0325817abdd7299c8aa22",
+    "bytes": 9580143,
+    "workflow_run": "https://github.com/lisu188/hots-replay-recovery/actions/runs/39156204685",
+    "publisher_commit": "38469fa",
+    "version_binding": {
+      "expected_version": "2.57.0.98348",
+      "matching_hdp_info_files": 1,
+      "metadata": [
+        {
+          "bytes": 130,
+          "is_ptr": false,
+          "observed_version_strings": [
+            "2.57.0.98348"
+          ],
+          "path": "mods/hdp.info",
+          "sha256": "eeb8bc05408d3fd33291abbfd81f708af4a3d2a55911b09da80a486030ca3681",
+          "version_field": "Version"
+        }
+      ],
+      "status": "version-log-and-extracted-metadata-match",
+      "version_log": {
+        "bytes": 13,
+        "observed_versions": [
+          "2.57.0.98348"
+        ],
+        "sha256": "ae610ceda87a81444a79cf937752a74f8bc6869f0015c48cba74e32970cfa839"
+      }
+    },
+    "projection_sha256": "0fa8a041fa8d6b9ba22ba6ff8be10d4f42beccc7d9577d0b6ead2d8e0fa909c9"
+  },
+  "counts": {
+    "selected_fields": 13398,
+    "source_bytes": 79556139,
+    "source_files": 5576,
+    "tracked_declarations": 10199,
+    "tree_entries": 6976,
+    "xml_files": 5575,
+    "current_observed_ids": 5418,
+    "current_ids_with_direct_license_candidates": 5418,
+    "current_ids_without_direct_license_candidates": 0,
+    "all_direct_license_ids": 5419,
+    "legacy_names": 263,
+    "legacy_names_with_exact_reward_records": 62,
+    "legacy_names_with_one_observed_literal_license": 56,
+    "legacy_names_with_multiple_observed_literal_licenses": 0,
+    "legacy_names_with_exact_record_but_no_observed_license": 6,
+    "legacy_names_without_exact_reward_record": 201,
+    "legacy_names_without_observed_literal_license_candidate": 207,
+    "unique_license_values_among56_candidates": 56,
+    "candidate_names_with_unresolved_record_reasons": 2,
+    "duplicate_direct_license_ids": 49,
+    "duplicate_record_identities": 35,
+    "license_product_namespace_collisions": 398
+  },
+  "one_observed_literal_license_candidates": [
+    {
+      "legacy_name": "Abathur",
+      "reward_declaration_indexes": [
+        257
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "direct_license_candidates": [
+        10219
+      ],
+      "observed_current_license_candidates": [
+        10219
+      ],
+      "unresolved_record_reasons": [],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/abathurdata/abathurdata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "Anubarak",
+      "reward_declaration_indexes": [
+        312
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "direct_license_candidates": [
+        10694
+      ],
+      "observed_current_license_candidates": [
+        10694
+      ],
+      "unresolved_record_reasons": [],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/anubarakdata/anubarakdata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "Artanis",
+      "reward_declaration_indexes": [
+        365
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "direct_license_candidates": [
+        11524
+      ],
+      "observed_current_license_candidates": [
+        11524
+      ],
+      "unresolved_record_reasons": [],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/artanisdata/artanisdata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "Arthas",
+      "reward_declaration_indexes": [
+        419
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "direct_license_candidates": [
+        10109
+      ],
+      "observed_current_license_candidates": [
+        10109
+      ],
+      "unresolved_record_reasons": [],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/arthasdata/arthasdata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "Azmodan",
+      "reward_declaration_indexes": [
+        485
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "direct_license_candidates": [
+        10871
+      ],
+      "observed_current_license_candidates": [
+        10871
+      ],
+      "unresolved_record_reasons": [],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/azmodandata/azmodandata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "AzmodanSkinAzmodunk",
+      "reward_declaration_indexes": [
+        496
+      ],
+      "reward_types": [
+        "CRewardSkin"
+      ],
+      "direct_license_candidates": [
+        17919
+      ],
+      "observed_current_license_candidates": [
+        17919
+      ],
+      "unresolved_record_reasons": [],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/azmodandata/azmodanskindata/azmodanazmodunkdata/azmodanazmodunkbasedata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "BlackheartsDoubloon",
+      "reward_declaration_indexes": [
+        4908
+      ],
+      "reward_types": [
+        "CRewardMount"
+      ],
+      "direct_license_candidates": [
+        18358
+      ],
+      "observed_current_license_candidates": [
+        18358
+      ],
+      "unresolved_record_reasons": [],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mountdoubloondata/mount_ridesurf_doubloonbasedata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "Butcher",
+      "reward_declaration_indexes": [
+        687
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "direct_license_candidates": [
+        11508
+      ],
+      "observed_current_license_candidates": [
+        11508
+      ],
+      "unresolved_record_reasons": [],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/butcherdata/butcherdata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "Chen",
+      "reward_declaration_indexes": [
+        757
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "direct_license_candidates": [
+        10692
+      ],
+      "observed_current_license_candidates": [
+        10692
+      ],
+      "unresolved_record_reasons": [],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/chendata/chendata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "Cho",
+      "reward_declaration_indexes": [
+        8333
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "direct_license_candidates": [
+        16282
+      ],
+      "observed_current_license_candidates": [
+        16282
+      ],
+      "unresolved_record_reasons": [],
+      "declaration_sources": [
+        "mods/heromods/chogall.stormmod/base.stormdata/gamedata/chogalldata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "Dehaka",
+      "reward_declaration_indexes": [
+        8685
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "direct_license_candidates": [
+        16830
+      ],
+      "observed_current_license_candidates": [
+        16830
+      ],
+      "unresolved_record_reasons": [],
+      "declaration_sources": [
+        "mods/heromods/dehaka.stormmod/base.stormdata/gamedata/dehakadata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "Diablo",
+      "reward_declaration_indexes": [
+        967
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "direct_license_candidates": [
+        10111
+      ],
+      "observed_current_license_candidates": [
+        10111
+      ],
+      "unresolved_record_reasons": [],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/diablodata/diablodata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "Direwolf",
+      "reward_declaration_indexes": [
+        4806
+      ],
+      "reward_types": [
+        "CRewardMount"
+      ],
+      "direct_license_candidates": [
+        18382
+      ],
+      "observed_current_license_candidates": [
+        18382
+      ],
+      "unresolved_record_reasons": [],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mountdirewolfdata/mount_ride_direwolfbasedata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "Falstad",
+      "reward_declaration_indexes": [
+        1099
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "direct_license_candidates": [
+        10112
+      ],
+      "observed_current_license_candidates": [
+        10112
+      ],
+      "unresolved_record_reasons": [],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/falstaddata/falstaddata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "Gall",
+      "reward_declaration_indexes": [
+        8336
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "direct_license_candidates": [
+        16503
+      ],
+      "observed_current_license_candidates": [
+        16503
+      ],
+      "unresolved_record_reasons": [],
+      "declaration_sources": [
+        "mods/heromods/chogall.stormmod/base.stormdata/gamedata/chogalldata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "Greymane",
+      "reward_declaration_indexes": [
+        1141
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "direct_license_candidates": [
+        16428
+      ],
+      "observed_current_license_candidates": [
+        16428
+      ],
+      "unresolved_record_reasons": [],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/genndata/genndata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "HearthstoneCard",
+      "reward_declaration_indexes": [
+        5040
+      ],
+      "reward_types": [
+        "CRewardMount"
+      ],
+      "direct_license_candidates": [
+        18439
+      ],
+      "observed_current_license_candidates": [
+        18439
+      ],
+      "unresolved_record_reasons": [],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mounthearthstonecarddata/mount_ridesurf_hearthstonecardbasedata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "Horse",
+      "reward_declaration_indexes": [
+        7450
+      ],
+      "reward_types": [
+        "CRewardIcon"
+      ],
+      "direct_license_candidates": [
+        10182
+      ],
+      "observed_current_license_candidates": [
+        10182
+      ],
+      "unresolved_record_reasons": [
+        "parent_inheritance_not_resolved"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/rewarddata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "Illidan",
+      "reward_declaration_indexes": [
+        1198
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "direct_license_candidates": [
+        10196
+      ],
+      "observed_current_license_candidates": [
+        10196
+      ],
+      "unresolved_record_reasons": [],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/illidandata/illidandata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "Jaina",
+      "reward_declaration_indexes": [
+        1255
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "direct_license_candidates": [
+        11013
+      ],
+      "observed_current_license_candidates": [
+        11013
+      ],
+      "unresolved_record_reasons": [],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/jainadata/jainadata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "Kaelthas",
+      "reward_declaration_indexes": [
+        1330
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "direct_license_candidates": [
+        11336
+      ],
+      "observed_current_license_candidates": [
+        11336
+      ],
+      "unresolved_record_reasons": [],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/kaelthasdata/kaelthasdata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "Kerrigan",
+      "reward_declaration_indexes": [
+        1388
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "direct_license_candidates": [
+        10113
+      ],
+      "observed_current_license_candidates": [
+        10113
+      ],
+      "unresolved_record_reasons": [],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/kerrigandata/kerrigandata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "Leoric",
+      "reward_declaration_indexes": [
+        1539
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "direct_license_candidates": [
+        11514
+      ],
+      "observed_current_license_candidates": [
+        11514
+      ],
+      "unresolved_record_reasons": [],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/leoricdata/leoricdata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "LiLi",
+      "reward_declaration_indexes": [
+        1590
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "direct_license_candidates": [
+        10270
+      ],
+      "observed_current_license_candidates": [
+        10270
+      ],
+      "unresolved_record_reasons": [],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/lilidata/lilidata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "LostVikings",
+      "reward_declaration_indexes": [
+        1649
+      ],
+      "reward_types": [
+        "CRewardSkin"
+      ],
+      "direct_license_candidates": [
+        11227
+      ],
+      "observed_current_license_candidates": [
+        11227
+      ],
+      "unresolved_record_reasons": [],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/lostvikingsdata/lostvikingsskindata/lostvikingsbasedata/lostvikingsbasedata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "LunarDragon",
+      "reward_declaration_indexes": [
+        4917
+      ],
+      "reward_types": [
+        "CRewardMount"
+      ],
+      "direct_license_candidates": [
+        19926
+      ],
+      "observed_current_license_candidates": [
+        19926
+      ],
+      "unresolved_record_reasons": [],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mountdragonlunardata/mount_ride_dragonlunarbasedata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "LunarTiger",
+      "reward_declaration_indexes": [
+        5690
+      ],
+      "reward_types": [
+        "CRewardMount"
+      ],
+      "direct_license_candidates": [
+        18457
+      ],
+      "observed_current_license_candidates": [
+        18457
+      ],
+      "unresolved_record_reasons": [],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mounttigerlunardata/mount_ride_tigerlunarbasedata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "MagicCarpet",
+      "reward_declaration_indexes": [
+        4689
+      ],
+      "reward_types": [
+        "CRewardMount"
+      ],
+      "direct_license_candidates": [
+        18460
+      ],
+      "observed_current_license_candidates": [
+        18460
+      ],
+      "unresolved_record_reasons": [],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mountcarpetdata/mount_ridesurf_carpetbasedata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "Malfurion",
+      "reward_declaration_indexes": [
+        1673
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "direct_license_candidates": [
+        10114
+      ],
+      "observed_current_license_candidates": [
+        10114
+      ],
+      "unresolved_record_reasons": [],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/malfuriondata/malfuriondata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "Mechanospider",
+      "reward_declaration_indexes": [
+        5567
+      ],
+      "reward_types": [
+        "CRewardMount"
+      ],
+      "direct_license_candidates": [
+        18469
+      ],
+      "observed_current_license_candidates": [
+        18469
+      ],
+      "unresolved_record_reasons": [],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mountspiderbasedata/mount_ridebeast_spiderbasedata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "Muradin",
+      "reward_declaration_indexes": [
+        1857
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "direct_license_candidates": [
+        10115
+      ],
+      "observed_current_license_candidates": [
+        10115
+      ],
+      "unresolved_record_reasons": [],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/muradindata/muradindata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "Murky",
+      "reward_declaration_indexes": [
+        1914
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "direct_license_candidates": [
+        10271
+      ],
+      "observed_current_license_candidates": [
+        10271
+      ],
+      "unresolved_record_reasons": [],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/murkydata/murkydata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "NexusCharger",
+      "reward_declaration_indexes": [
+        4385
+      ],
+      "reward_types": [
+        "CRewardMount"
+      ],
+      "direct_license_candidates": [
+        18478
+      ],
+      "observed_current_license_candidates": [
+        18478
+      ],
+      "unresolved_record_reasons": [],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/horsedata/mount_ride_horsenexuschargerbasedata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "Nova",
+      "reward_declaration_indexes": [
+        2032
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "direct_license_candidates": [
+        10116
+      ],
+      "observed_current_license_candidates": [
+        10116
+      ],
+      "unresolved_record_reasons": [],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/novadata/novadata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "RainbowUnicorn",
+      "reward_declaration_indexes": [
+        4468
+      ],
+      "reward_types": [
+        "CRewardMount"
+      ],
+      "direct_license_candidates": [
+        18499
+      ],
+      "observed_current_license_candidates": [
+        18499
+      ],
+      "unresolved_record_reasons": [],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/horsedata/mount_ride_horseunicornbasedata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "Raynor",
+      "reward_declaration_indexes": [
+        2093
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "direct_license_candidates": [
+        10197
+      ],
+      "observed_current_license_candidates": [
+        10197
+      ],
+      "unresolved_record_reasons": [],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/raynordata/raynordata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "Rehgar",
+      "reward_declaration_indexes": [
+        2184
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "direct_license_candidates": [
+        10572
+      ],
+      "observed_current_license_candidates": [
+        10572
+      ],
+      "unresolved_record_reasons": [],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/rehgardata/rehgardata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "Rexxar",
+      "reward_declaration_indexes": [
+        2269
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "direct_license_candidates": [
+        15175
+      ],
+      "observed_current_license_candidates": [
+        15175
+      ],
+      "unresolved_record_reasons": [],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/rexxardata/rexxardata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "RexxarSkinMaster",
+      "reward_declaration_indexes": [
+        2296
+      ],
+      "reward_types": [
+        "CRewardSkin"
+      ],
+      "direct_license_candidates": [
+        19663
+      ],
+      "observed_current_license_candidates": [
+        19663
+      ],
+      "unresolved_record_reasons": [],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/rexxardata/rexxarskindata/rexxarultimatedata/rexxarultimatebasedata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "SgtHammer",
+      "reward_declaration_indexes": [
+        2309
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "direct_license_candidates": [
+        10124
+      ],
+      "observed_current_license_candidates": [
+        10124
+      ],
+      "unresolved_record_reasons": [],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/sgthammerdata/sgthammerdata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "StarChariot",
+      "reward_declaration_indexes": [
+        5600
+      ],
+      "reward_types": [
+        "CRewardMount"
+      ],
+      "direct_license_candidates": [
+        18520
+      ],
+      "observed_current_license_candidates": [
+        18520
+      ],
+      "unresolved_record_reasons": [],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mountstarchariotdata/mount_ridesurf_starchariotbasedata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "Stitches",
+      "reward_declaration_indexes": [
+        2358
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "direct_license_candidates": [
+        10117
+      ],
+      "observed_current_license_candidates": [
+        10117
+      ],
+      "unresolved_record_reasons": [],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/stitchesdata/stitchesdata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "StitchesBeachParty",
+      "reward_declaration_indexes": [
+        2365
+      ],
+      "reward_types": [
+        "CRewardSkin"
+      ],
+      "direct_license_candidates": [
+        19855
+      ],
+      "observed_current_license_candidates": [
+        19855
+      ],
+      "unresolved_record_reasons": [],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/stitchesdata/stitchesskindata/stitchesbeachpartydata/stitchesbeachpartybasedata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "Sylvanas",
+      "reward_declaration_indexes": [
+        2439
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "direct_license_candidates": [
+        11314
+      ],
+      "observed_current_license_candidates": [
+        11314
+      ],
+      "unresolved_record_reasons": [],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/sylvanasdata/sylvanasdata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "Tassadar",
+      "reward_declaration_indexes": [
+        2508
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "direct_license_candidates": [
+        10118
+      ],
+      "observed_current_license_candidates": [
+        10118
+      ],
+      "unresolved_record_reasons": [],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/tassadardata/tassadardata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "Thrall",
+      "reward_declaration_indexes": [
+        2562
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "direct_license_candidates": [
+        11119
+      ],
+      "observed_current_license_candidates": [
+        11119
+      ],
+      "unresolved_record_reasons": [],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/thralldata/thralldata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "TreasureGoblin",
+      "reward_declaration_indexes": [
+        5731
+      ],
+      "reward_types": [
+        "CRewardMount"
+      ],
+      "direct_license_candidates": [
+        18526
+      ],
+      "observed_current_license_candidates": [
+        18526
+      ],
+      "unresolved_record_reasons": [],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mounttreasuregoblindata/mount_ride_treasuregoblinbasedata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "Tychus",
+      "reward_declaration_indexes": [
+        2664
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "direct_license_candidates": [
+        10120
+      ],
+      "observed_current_license_candidates": [
+        10120
+      ],
+      "unresolved_record_reasons": [],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/tychusdata/tychusdata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "Tyrael",
+      "reward_declaration_indexes": [
+        2721
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "direct_license_candidates": [
+        10121
+      ],
+      "observed_current_license_candidates": [
+        10121
+      ],
+      "unresolved_record_reasons": [],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/tyraeldata/tyraeldata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "TyraelsCharger",
+      "reward_declaration_indexes": [
+        4461
+      ],
+      "reward_types": [
+        "CRewardMount"
+      ],
+      "direct_license_candidates": [
+        18529
+      ],
+      "observed_current_license_candidates": [
+        18529
+      ],
+      "unresolved_record_reasons": [],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/horsedata/mount_ride_horsetyraelschargerbasedata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "Tyrande",
+      "reward_declaration_indexes": [
+        2776
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "direct_license_candidates": [
+        10122
+      ],
+      "observed_current_license_candidates": [
+        10122
+      ],
+      "unresolved_record_reasons": [],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/tyrandedata/tyrandedata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "Uther",
+      "reward_declaration_indexes": [
+        2832
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "direct_license_candidates": [
+        10123
+      ],
+      "observed_current_license_candidates": [
+        10123
+      ],
+      "unresolved_record_reasons": [],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/utherdata/utherdata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "VoidSpeeder",
+      "reward_declaration_indexes": [
+        5758
+      ],
+      "reward_types": [
+        "CRewardMount"
+      ],
+      "direct_license_candidates": [
+        18532
+      ],
+      "observed_current_license_candidates": [
+        18532
+      ],
+      "unresolved_record_reasons": [],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mountvoidspeederdata/mount_ridesurf_voidspeederbasedata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "Vulture",
+      "reward_declaration_indexes": [
+        5794
+      ],
+      "reward_types": [
+        "CRewardMount"
+      ],
+      "direct_license_candidates": [
+        18535
+      ],
+      "observed_current_license_candidates": [
+        18535
+      ],
+      "unresolved_record_reasons": [
+        "parent_inheritance_not_resolved"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mountvulturedata/mount_ridebike_vulturebasedata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "Zagara",
+      "reward_declaration_indexes": [
+        3047
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "direct_license_candidates": [
+        10126
+      ],
+      "observed_current_license_candidates": [
+        10126
+      ],
+      "unresolved_record_reasons": [],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/zagaradata/zagaradata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "Zeratul",
+      "reward_declaration_indexes": [
+        3100
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "direct_license_candidates": [
+        10127
+      ],
+      "observed_current_license_candidates": [
+        10127
+      ],
+      "unresolved_record_reasons": [],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/zeratuldata/zeratuldata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    }
+  ],
+  "exact_record_without_observed_license_candidates": [
+    {
+      "legacy_name": "CannotEarn",
+      "reward_declaration_indexes": [
+        6380
+      ],
+      "reward_types": [
+        "CRewardIcon"
+      ],
+      "direct_license_candidates": [],
+      "observed_current_license_candidates": [],
+      "unresolved_record_reasons": [
+        "parent_inheritance_not_resolved"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/rewarddata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "ChoGallPromo",
+      "reward_declaration_indexes": [
+        8334
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "direct_license_candidates": [],
+      "observed_current_license_candidates": [],
+      "unresolved_record_reasons": [
+        "parent_inheritance_not_resolved"
+      ],
+      "declaration_sources": [
+        "mods/heromods/chogall.stormmod/base.stormdata/gamedata/chogalldata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "TestMountRide",
+      "reward_declaration_indexes": [
+        7521
+      ],
+      "reward_types": [
+        "CRewardIcon"
+      ],
+      "direct_license_candidates": [],
+      "observed_current_license_candidates": [],
+      "unresolved_record_reasons": [
+        "parent_inheritance_not_resolved"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/rewarddata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "TestMountRideBeast",
+      "reward_declaration_indexes": [
+        7522
+      ],
+      "reward_types": [
+        "CRewardIcon"
+      ],
+      "direct_license_candidates": [],
+      "observed_current_license_candidates": [],
+      "unresolved_record_reasons": [
+        "parent_inheritance_not_resolved"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/rewarddata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "TestMountRideBike",
+      "reward_declaration_indexes": [
+        7524
+      ],
+      "reward_types": [
+        "CRewardIcon"
+      ],
+      "direct_license_candidates": [],
+      "observed_current_license_candidates": [],
+      "unresolved_record_reasons": [
+        "parent_inheritance_not_resolved"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/rewarddata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    },
+    {
+      "legacy_name": "TestMountRideSurf",
+      "reward_declaration_indexes": [
+        7523
+      ],
+      "reward_types": [
+        "CRewardIcon"
+      ],
+      "direct_license_candidates": [],
+      "observed_current_license_candidates": [],
+      "unresolved_record_reasons": [
+        "parent_inheritance_not_resolved"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/rewarddata.xml"
+      ],
+      "effective_catalog_or_legacy_mapping_proven": false
+    }
+  ],
+  "legacy_names_without_exact_reward_record": [
+    "2015WorldChampionshipMount",
+    "AbathurSkinMaster",
+    "AbathurSkinPajamathur",
+    "AbathurSkinSkelethur",
+    "AnubarakSkinCybarak",
+    "AnubarakSkinLoveBug",
+    "AnubarakSkinMaster",
+    "Archon",
+    "ArtanisSkinMaster",
+    "ArtanisSkinPurifier",
+    "ArthasSkinCrimsonCount",
+    "ArthasSkinDeathKnight",
+    "ArthasSkinFrostWyrm",
+    "ArthasSkinLichPrince",
+    "ArthasSkinMaster",
+    "ArtifactSlot2",
+    "ArtifactSlot3",
+    "AzmodanSkinAzguldan",
+    "AzmodanSkinMaster",
+    "AzmodunkMount",
+    "BFG",
+    "Billie",
+    "Bombardment",
+    "Brightwing",
+    "BrightwingSkinFlyingMonkey",
+    "BrightwingSkinMaster",
+    "BrightwingSkinMonarch",
+    "ButcherSkinIron",
+    "ButcherSkinMaster",
+    "ButchersBeast",
+    "ChenSkinElder",
+    "ChenSkinMaster",
+    "ChenSkinWarmaster",
+    "ChogallSkinCorruptor",
+    "ChogallSkinMaster",
+    "CloudSerpent",
+    "Cocoon",
+    "Cyberwolf",
+    "DehakaSkinMaster",
+    "DiabloSkinArchangel",
+    "DiabloSkinKaijo",
+    "DiabloSkinLurkablo",
+    "DiabloSkinMaster",
+    "DiabloUltimate2",
+    "DivineStorm",
+    "ETC",
+    "ETCSkinGlamMetal",
+    "ETCSkinMaster",
+    "ETCSkinPureCountry",
+    "FalstadSkinBuccaneer",
+    "FalstadSkinMaster",
+    "FalstadSkinStormLord",
+    "FelStalker",
+    "Gazlowe",
+    "GazloweSkinBigTop",
+    "GazloweSkinMadMartian",
+    "GazloweSkinMaster",
+    "GazloweSkinSciFi",
+    "GoldenCyberWolf",
+    "GoldenLunarTiger",
+    "GravOBomb3000",
+    "GreymaneSkinMaster",
+    "GreymaneSkinRingmaster",
+    "Haymaker",
+    "HeadlessHorseman",
+    "HinterlandBlast",
+    "IllidanSkinLunar",
+    "IllidanSkinMaster",
+    "IllidanSkinShando",
+    "IllidanSkinSpectre",
+    "IllidansNightmare",
+    "IronsideDirewolf",
+    "JainaSkinLunar",
+    "JainaSkinMaster",
+    "JainaSkinTempestRegalia",
+    "JainaSkinWinterVeil",
+    "Johanna",
+    "JohannaSkinCenturion",
+    "JohannaSkinMaster",
+    "JudgementCharger",
+    "KaelthasSkinMaster",
+    "KaelthasSkinStormpunk",
+    "KerriganSkinCountess",
+    "KerriganSkinMaster",
+    "KerriganSkinSuccubus",
+    "Kharazim",
+    "KharazimSkinJadeDragon",
+    "KharazimSkinMaster",
+    "LeoricSkinMaster",
+    "LeoricSkinSpaceLord",
+    "LeoricSkinVrykul",
+    "LiLiSkinExplorer",
+    "LiLiSkinFestival",
+    "LiLiSkinMaster",
+    "LiMing",
+    "LiMingSkinMaster",
+    "LiMingSkinStarPrincess",
+    "LostVikingsSkinMaster",
+    "LostVikingsSkinPajamaParty",
+    "LtMorales",
+    "Lunara",
+    "LunaraSkinMaster",
+    "LunaraSkinSentinel",
+    "Maelstrom",
+    "MalfurionSkinBetrayer",
+    "MalfurionSkinMaster",
+    "MalfurionSkinStormMantle",
+    "MalthaelsPhantomSteed",
+    "MarshalsOutrider",
+    "MechaDehaka",
+    "MiniMe",
+    "MoralesSkinApothecary",
+    "MoralesSkinDrLove",
+    "MoralesSkinMaster",
+    "MuradinSkinKandyKing",
+    "MuradinSkinMagni",
+    "MuradinSkinMaster",
+    "MurkySkinFunnyBunny",
+    "MurkySkinGrunty",
+    "MurkySkinMaster",
+    "Nazeebo",
+    "NazeeboSkinGrimskull",
+    "NazeeboSkinHarlequin",
+    "NazeeboSkinMaster",
+    "NazeeboWarhorse",
+    "NexusBattleBeast",
+    "NovaSkinMaster",
+    "NovaSkinNovazon",
+    "NovaSkinRollerDerby",
+    "NovaSkinSpectre",
+    "PiggyBank",
+    "RainofVengeance",
+    "RaynorSkinCommander",
+    "RaynorSkinMarshal",
+    "RaynorSkinMaster",
+    "RaynorSkinStarsAndStripes",
+    "RehgarSkinGreatfatherWinter",
+    "RehgarSkinIronClaw",
+    "RehgarSkinMaster",
+    "Reigndeer",
+    "RexxarSkinFrostlord",
+    "RingMastersPride",
+    "SgtHammerSkinDoomHammer",
+    "SgtHammerSkinMaster",
+    "SgtHammerSkinWarWorld3",
+    "Sonya",
+    "SonyaSkinMaster",
+    "SonyaSkinSuper",
+    "SonyaSkinWrath",
+    "StarbreakerMount",
+    "Starfall",
+    "StitchesSkinBikini",
+    "StitchesSkinChef",
+    "StitchesSkinGreatfatherWinter",
+    "StitchesSkinMaster",
+    "StitchesSkinPsycho",
+    "SummonSindragosa",
+    "SummonUltralisk",
+    "Swordwall",
+    "SylvanasSkinMaster",
+    "SylvanasSkinRangerGeneral",
+    "SylvanasSkinSugarPlum",
+    "TassadarSkinCryptKing",
+    "TassadarSkinMaster",
+    "TassadarSkinMecha",
+    "ThrallSkinEarthbreaker",
+    "ThrallSkinHellhammer",
+    "ThrallSkinMaster",
+    "TreasureGoblinMount",
+    "TwilightDream",
+    "TychusSkinInfested",
+    "TychusSkinMaster",
+    "TychusSkinPrisoner",
+    "TychusUltimate2",
+    "TyraelSkinDemonic",
+    "TyraelSkinMaster",
+    "TyraelSkinSeraphim",
+    "TyrandeSkinBloodElf",
+    "TyrandeSkinMaster",
+    "TyrandeSkinWarden",
+    "UtherSkinJudgement",
+    "UtherSkinLumberjack",
+    "UtherSkinMaster",
+    "UtherSkinMedic",
+    "Valla",
+    "VallaSkinAngelic",
+    "VallaSkinMaster",
+    "VallaSkinVampireHunter",
+    "VoidPrison",
+    "Warhorse",
+    "WonderBillie",
+    "Xul",
+    "XulSkinMaster",
+    "XulSkinSerpentKing",
+    "ZagaraSkinDesertQueen",
+    "ZagaraSkinInsectoid",
+    "ZagaraSkinMaster",
+    "ZeratulSkinHighTemplar",
+    "ZeratulSkinMaster",
+    "ZeratulSkinRonin",
+    "ZeratulSkinZergHunter"
+  ],
+  "direct_license_ids_not_observed_in_current_collection": [
+    1209137
+  ],
+  "loadout_required_reward_field_counts": {
+    "CHero unresolved": 3,
+    "CSkin literal": 1769,
+    "CSkin unresolved": 5,
+    "CMount literal": 643
+  },
+  "direct_literal_required_reward_join_counts": {
+    "CSkin one_observed_literal_license": 1768,
+    "CMount one_observed_literal_license": 632,
+    "CMount no_observed_literal_license": 11,
+    "CSkin no_observed_literal_license": 1
+  },
+  "required_reward_template_declarations": [
+    {
+      "declaration_index": 0,
+      "type": "CHero",
+      "id": null,
+      "default": "1",
+      "source": "mods/core.stormmod/base.stormdata/gamedata/herodata.xml",
+      "field": {
+        "attributes": {
+          "value": "##id##"
+        },
+        "direct_literal_candidate": false,
+        "unresolved": [
+          "template_not_resolved"
+        ]
+      },
+      "record_unresolved": [
+        "no_concrete_record_id",
+        "default_declaration_not_resolved"
+      ]
+    },
+    {
+      "declaration_index": 2324,
+      "type": "CSkin",
+      "id": "SgtHammerMobster19Common",
+      "default": "1",
+      "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/sgthammerdata/sgthammerskindata/sgthammermobster19data/sgthammermobster19basedata.xml",
+      "field": {
+        "attributes": {
+          "value": "##id##"
+        },
+        "direct_literal_candidate": false,
+        "unresolved": [
+          "template_not_resolved"
+        ]
+      },
+      "record_unresolved": [
+        "default_declaration_not_resolved"
+      ]
+    },
+    {
+      "declaration_index": 9170,
+      "type": "CSkin",
+      "id": "JunkratMobster19Common",
+      "default": "1",
+      "source": "mods/heromods/junkrat.stormmod/base.stormdata/gamedata/junkratskindata/junkratmobster19data/junkratmobster19basedata.xml",
+      "field": {
+        "attributes": {
+          "value": "##id##"
+        },
+        "direct_literal_candidate": false,
+        "unresolved": [
+          "template_not_resolved"
+        ]
+      },
+      "record_unresolved": [
+        "default_declaration_not_resolved"
+      ]
+    },
+    {
+      "declaration_index": 9586,
+      "type": "CSkin",
+      "id": "OrpheaMobster19Common",
+      "default": "1",
+      "source": "mods/heromods/orphea.stormmod/base.stormdata/gamedata/orpheaskindata/orpheamobster19data/orpheamobster19basedata.xml",
+      "field": {
+        "attributes": {
+          "value": "##id##"
+        },
+        "direct_literal_candidate": false,
+        "unresolved": [
+          "template_not_resolved"
+        ]
+      },
+      "record_unresolved": [
+        "default_declaration_not_resolved"
+      ]
+    },
+    {
+      "declaration_index": 10004,
+      "type": "CSkin",
+      "id": "WhitemaneMobster19Common",
+      "default": "1",
+      "source": "mods/heromods/whitemane.stormmod/base.stormdata/gamedata/whitemaneskindata/whitemanemobster19data/whitemanemobster19basedata.xml",
+      "field": {
+        "attributes": {
+          "value": "##id##"
+        },
+        "direct_literal_candidate": false,
+        "unresolved": [
+          "template_not_resolved"
+        ]
+      },
+      "record_unresolved": [
+        "default_declaration_not_resolved"
+      ]
+    }
+  ],
+  "explicit_loadout_reward_fields_on_legacy_named_records": [
+    {
+      "declaration_index": 498,
+      "type": "CSkin",
+      "id": "AzmodanSkinAzmodunk",
+      "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/azmodandata/azmodanskindata/azmodanazmodunkdata/azmodanazmodunkbasedata.xml",
+      "direct_field": {
+        "attributes": {
+          "value": "AzmodanSkinAzmodunk"
+        },
+        "direct_literal_candidate": true,
+        "unresolved": []
+      },
+      "record_unresolved": [
+        "parent_inheritance_not_resolved"
+      ]
+    },
+    {
+      "declaration_index": 2298,
+      "type": "CSkin",
+      "id": "RexxarSkinMaster",
+      "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/rexxardata/rexxarskindata/rexxarultimatedata/rexxarultimatebasedata.xml",
+      "direct_field": {
+        "attributes": {
+          "value": "RexxarSkinMaster"
+        },
+        "direct_literal_candidate": true,
+        "unresolved": []
+      },
+      "record_unresolved": [
+        "parent_inheritance_not_resolved"
+      ]
+    },
+    {
+      "declaration_index": 2367,
+      "type": "CSkin",
+      "id": "StitchesBeachParty",
+      "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/stitchesdata/stitchesskindata/stitchesbeachpartydata/stitchesbeachpartybasedata.xml",
+      "direct_field": {
+        "attributes": {
+          "value": "StitchesBeachParty"
+        },
+        "direct_literal_candidate": true,
+        "unresolved": []
+      },
+      "record_unresolved": [
+        "parent_inheritance_not_resolved"
+      ]
+    },
+    {
+      "declaration_index": 4384,
+      "type": "CMount",
+      "id": "NexusCharger",
+      "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/horsedata/mount_ride_horsenexuschargerbasedata.xml",
+      "direct_field": {
+        "attributes": {
+          "value": "NexusCharger"
+        },
+        "direct_literal_candidate": true,
+        "unresolved": []
+      },
+      "record_unresolved": [
+        "parent_inheritance_not_resolved"
+      ]
+    },
+    {
+      "declaration_index": 4460,
+      "type": "CMount",
+      "id": "TyraelsCharger",
+      "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/horsedata/mount_ride_horsetyraelschargerbasedata.xml",
+      "direct_field": {
+        "attributes": {
+          "value": "TyraelsCharger"
+        },
+        "direct_literal_candidate": true,
+        "unresolved": []
+      },
+      "record_unresolved": [
+        "parent_inheritance_not_resolved"
+      ]
+    },
+    {
+      "declaration_index": 4467,
+      "type": "CMount",
+      "id": "RainbowUnicorn",
+      "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/horsedata/mount_ride_horseunicornbasedata.xml",
+      "direct_field": {
+        "attributes": {
+          "value": "RainbowUnicorn"
+        },
+        "direct_literal_candidate": true,
+        "unresolved": []
+      },
+      "record_unresolved": [
+        "parent_inheritance_not_resolved"
+      ]
+    },
+    {
+      "declaration_index": 4688,
+      "type": "CMount",
+      "id": "MagicCarpet",
+      "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mountcarpetdata/mount_ridesurf_carpetbasedata.xml",
+      "direct_field": {
+        "attributes": {
+          "value": "MagicCarpet"
+        },
+        "direct_literal_candidate": true,
+        "unresolved": []
+      },
+      "record_unresolved": [
+        "parent_inheritance_not_resolved"
+      ]
+    },
+    {
+      "declaration_index": 4805,
+      "type": "CMount",
+      "id": "Direwolf",
+      "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mountdirewolfdata/mount_ride_direwolfbasedata.xml",
+      "direct_field": {
+        "attributes": {
+          "value": "Direwolf"
+        },
+        "direct_literal_candidate": true,
+        "unresolved": []
+      },
+      "record_unresolved": [
+        "parent_inheritance_not_resolved"
+      ]
+    },
+    {
+      "declaration_index": 4907,
+      "type": "CMount",
+      "id": "BlackheartsDoubloon",
+      "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mountdoubloondata/mount_ridesurf_doubloonbasedata.xml",
+      "direct_field": {
+        "attributes": {
+          "value": "BlackheartsDoubloon"
+        },
+        "direct_literal_candidate": true,
+        "unresolved": []
+      },
+      "record_unresolved": [
+        "parent_inheritance_not_resolved"
+      ]
+    },
+    {
+      "declaration_index": 4916,
+      "type": "CMount",
+      "id": "LunarDragon",
+      "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mountdragonlunardata/mount_ride_dragonlunarbasedata.xml",
+      "direct_field": {
+        "attributes": {
+          "value": "LunarDragon"
+        },
+        "direct_literal_candidate": true,
+        "unresolved": []
+      },
+      "record_unresolved": [
+        "parent_inheritance_not_resolved"
+      ]
+    },
+    {
+      "declaration_index": 5039,
+      "type": "CMount",
+      "id": "HearthstoneCard",
+      "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mounthearthstonecarddata/mount_ridesurf_hearthstonecardbasedata.xml",
+      "direct_field": {
+        "attributes": {
+          "value": "HearthstoneCard"
+        },
+        "direct_literal_candidate": true,
+        "unresolved": []
+      },
+      "record_unresolved": [
+        "parent_inheritance_not_resolved"
+      ]
+    },
+    {
+      "declaration_index": 5566,
+      "type": "CMount",
+      "id": "Mechanospider",
+      "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mountspiderbasedata/mount_ridebeast_spiderbasedata.xml",
+      "direct_field": {
+        "attributes": {
+          "value": "Mechanospider"
+        },
+        "direct_literal_candidate": true,
+        "unresolved": []
+      },
+      "record_unresolved": [
+        "parent_inheritance_not_resolved"
+      ]
+    },
+    {
+      "declaration_index": 5599,
+      "type": "CMount",
+      "id": "StarChariot",
+      "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mountstarchariotdata/mount_ridesurf_starchariotbasedata.xml",
+      "direct_field": {
+        "attributes": {
+          "value": "StarChariot"
+        },
+        "direct_literal_candidate": true,
+        "unresolved": []
+      },
+      "record_unresolved": [
+        "parent_inheritance_not_resolved"
+      ]
+    },
+    {
+      "declaration_index": 5689,
+      "type": "CMount",
+      "id": "LunarTiger",
+      "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mounttigerlunardata/mount_ride_tigerlunarbasedata.xml",
+      "direct_field": {
+        "attributes": {
+          "value": "LunarTiger"
+        },
+        "direct_literal_candidate": true,
+        "unresolved": []
+      },
+      "record_unresolved": [
+        "parent_inheritance_not_resolved"
+      ]
+    },
+    {
+      "declaration_index": 5730,
+      "type": "CMount",
+      "id": "TreasureGoblin",
+      "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mounttreasuregoblindata/mount_ride_treasuregoblinbasedata.xml",
+      "direct_field": {
+        "attributes": {
+          "value": "TreasureGoblin"
+        },
+        "direct_literal_candidate": true,
+        "unresolved": []
+      },
+      "record_unresolved": [
+        "parent_inheritance_not_resolved"
+      ]
+    },
+    {
+      "declaration_index": 5757,
+      "type": "CMount",
+      "id": "VoidSpeeder",
+      "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mountvoidspeederdata/mount_ridesurf_voidspeederbasedata.xml",
+      "direct_field": {
+        "attributes": {
+          "value": "VoidSpeeder"
+        },
+        "direct_literal_candidate": true,
+        "unresolved": []
+      },
+      "record_unresolved": [
+        "parent_inheritance_not_resolved"
+      ]
+    },
+    {
+      "declaration_index": 5793,
+      "type": "CMount",
+      "id": "Vulture",
+      "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mountvulturedata/mount_ridebike_vulturebasedata.xml",
+      "direct_field": {
+        "attributes": {
+          "value": "Vulture"
+        },
+        "direct_literal_candidate": true,
+        "unresolved": []
+      },
+      "record_unresolved": [
+        "parent_inheritance_not_resolved"
+      ]
+    }
+  ],
+  "assessment": {
+    "direct_literal_links_observed": true,
+    "effective_inheritance_or_template_linkage_resolved": false,
+    "legacy_aliases_registered": false,
+    "whole_collection_conversion_eligible": false,
+    "source_availability_or_ownership_values_inspected": false,
+    "source_174_to_current198_player_block_migration_resolved": false,
+    "next_safe_offline_stage": "Hash-bound candidate planning/diagnostics for56 exact names, retaining all207 unresolved names and every original availability block; no current-tail/replay writing.",
+    "remaining_requirements": [
+      "Authentic legacy rename/license evidence for201 missing names and the six exact rewards with no direct license.",
+      "Active dependency/catalog load order and effective inheritance/array/template semantics; source ordinals alone do not establish them.",
+      "Evidence for ownership/availability and omitted-license behavior, without donor account state or invented defaults.",
+      "Source-backed174-to198 player-block conversion; current named fields outside that block do not provide it."
+    ],
+    "limits": [
+      "Direct local scalar candidates are syntactic declarations, not proof of effective runtime catalogs or historical entitlement equivalence.",
+      "The extractor included all matching game XML, including unrelated map/mod overrides; their active ordering is unresolved.",
+      "The published projection contains no raw XML load-reference graph; inherited defaults/templates cannot be certified from this comparison alone."
+    ]
+  }
+}

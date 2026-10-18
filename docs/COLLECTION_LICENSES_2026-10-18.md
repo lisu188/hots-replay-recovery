@@ -31,11 +31,23 @@ than substituting data. Bulk extraction occurs in temporary GitHub runner
 storage. Only measured identifiers, source-relative paths/digests and diagnostic
 provenance are published; raw game XML is not uploaded.
 
-At this checkpoint the workflow has been prepared and locally checked. An
-actual successful remote extraction must be recorded separately before its
-results are described as observed current-build evidence. An agreeing version
-log and metadata are provenance evidence, not a digital signature or runtime
-proof. No game client is launched.
+The actual [run39156204685](https://github.com/lisu188/hots-replay-recovery/actions/runs/39156204685)
+passed33 Linux tests, exact version checks, extraction and publication. It
+extracted5739 total files; the collector examined5575 XML files plus hdp.info,
+79,556,139 source bytes and10,199 tracked declarations. All5418 observed current
+IDs have direct License candidates. One additional direct License is absent
+from the observed list. The measured projection is version-bound98348 evidence,
+with generator commit/run and source-file digests. Version/log agreement is
+provenance evidence, not a digital signature or runtime proof.
+
+For the263 legacy names,56 have one exact-name observed literal license
+candidate each. Two of these declarations retain unresolved parents;54 have
+no recorded unresolved declaration reason. Six exact-name records lack a direct
+License and201 names have no exact current reward record, leaving207 without a
+direct observed candidate. These are candidate relationships, not an applied
+migration or established old-name equivalence. Duplicates, inherited/default
+semantics, omission/ownership states and renames remain unresolved. The raw
+collection availability bytes have not been changed.
 
 Primary implementation sources:
 

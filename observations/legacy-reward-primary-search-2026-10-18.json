@@ -1,0 +1,24 @@
+{
+  "format": "hots-bounded-legacy-reward-primary-search-v1",
+  "observed_utc": "2026-10-18T18:55:54.9355416Z",
+  "scope": "Four targeted searches restricted to public GitHub primary sources; no downloads",
+  "queries": [
+    "\"LunaraSkinMaster\" \"License\"",
+    "\"ETCSkinMaster\" XML reward",
+    "\"VallaSkinMaster\" catalog 2016",
+    "\"LunaraSkinMaster\" \"VallaSkinMaster\""
+  ],
+  "domain_filter": [
+    "github.com"
+  ],
+  "queries_count": 4,
+  "search_result": "No results returned",
+  "qualifying_old_reward_metadata_sources": [],
+  "new_downloads": 0,
+  "legacy_rename_license_binding_found": false,
+  "limits": [
+    "Search results do not establish that no historical repository or archive exists.",
+    "No current alias guess, generated rename mapping or replay change was produced.",
+    "The prior public game-data repository query before2017-04-25 also returned no commits, but was not repeated in this bounded search."
+  ]
+}
