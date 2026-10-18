@@ -232,3 +232,24 @@ drift: its canonical1201-byte blob MD5d170b1ad65ebcde3f4252e3088b0c102 is now
 materialized locally and pinnedLF in .gitattributes. Its7BuildConfigTests pass.
 This focused correction does not relabel the broader run as passing or duplicate
 the separate PR branch's prepared regression lane. No replay or client changed.
+
+
+## Passing canonical CI and direct-candidate planner — 2026-10-18
+
+Run39156842765 at1366ae0 passed Linux+Windows, each71focused tests,2real attribute
+fixtures,3mod cases,14complete-tail fixtures and10content-addressed header
+bindings/4arcade sections. Both source-static reports have identicalSHA256
+abc902b7bcf3fc000da99a4444db1b11307b7dbe8816bbc174572012b5ce5820.
+This supersedes the failed newline-binding run, not the separate unsuccessful
+broader sandbox discovery result. No client or replay write was performed.
+
+The new `plan_collection_candidates.py` accepts the exact hash-bound98348
+license projection and its bound catalog-only collection observation. Local
+13focused tests pass including the actual fixture. Its new report explicitly
+keeps56candidates (54without recorded reward-declaration reasons+2with parent
+reasons),207unresolved names, field-level unresolved reasons, namespace
+collisions and duplicate blockers. It never marks the whole collection eligible,
+infers aliases or writes ownership/member/replay data. Its separate small
+Python-only CI avoids another game-data extraction; record its result separately.
+R8 remains latest, the full upgrade objective is unfinished and no client launch
+is permitted under the user's current instruction.

@@ -1,0 +1,4879 @@
+{
+  "format": "hots-collection-candidate-plan-v1",
+  "target_version": "2.57.0.98348",
+  "licenses_sha256": "c8f03ddbc859feb5c2dc1836761201b5e6fea4632ce0325817abdd7299c8aa22",
+  "collection_observation_sha256": "0fa8a041fa8d6b9ba22ba6ff8be10d4f42beccc7d9577d0b6ead2d8e0fa909c9",
+  "counts": {
+    "legacy_names": 263,
+    "current_observed_ids": 5418,
+    "single_observed_license_candidates": 56,
+    "single_without_record_reasons": 54,
+    "single_with_record_reasons": 2,
+    "unresolved_names": 207,
+    "unresolved_status_counts": {
+      "no-exact-reward-record": 201,
+      "no-observed-literal-license": 6
+    }
+  },
+  "candidates": [
+    {
+      "legacy_name": "2015WorldChampionshipMount",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Abathur",
+      "status": "single-observed-literal-license",
+      "observed_license_candidates": [
+        10219
+      ],
+      "direct_license_candidates": [
+        10219
+      ],
+      "reward_declaration_indexes": [
+        257
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/abathurdata/abathurdata.xml"
+      ],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": true,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "AbathurSkinMaster",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "AbathurSkinPajamathur",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "AbathurSkinSkelethur",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Anubarak",
+      "status": "single-observed-literal-license",
+      "observed_license_candidates": [
+        10694
+      ],
+      "direct_license_candidates": [
+        10694
+      ],
+      "reward_declaration_indexes": [
+        312
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/anubarakdata/anubarakdata.xml"
+      ],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": true,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "AnubarakSkinCybarak",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "AnubarakSkinLoveBug",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "AnubarakSkinMaster",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Archon",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Artanis",
+      "status": "single-observed-literal-license",
+      "observed_license_candidates": [
+        11524
+      ],
+      "direct_license_candidates": [
+        11524
+      ],
+      "reward_declaration_indexes": [
+        365
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/artanisdata/artanisdata.xml"
+      ],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": true,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "ArtanisSkinMaster",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "ArtanisSkinPurifier",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Arthas",
+      "status": "single-observed-literal-license",
+      "observed_license_candidates": [
+        10109
+      ],
+      "direct_license_candidates": [
+        10109
+      ],
+      "reward_declaration_indexes": [
+        419
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/arthasdata/arthasdata.xml"
+      ],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": true,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "ArthasSkinCrimsonCount",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "ArthasSkinDeathKnight",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "ArthasSkinFrostWyrm",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "ArthasSkinLichPrince",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "ArthasSkinMaster",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "ArtifactSlot2",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "ArtifactSlot3",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Azmodan",
+      "status": "single-observed-literal-license",
+      "observed_license_candidates": [
+        10871
+      ],
+      "direct_license_candidates": [
+        10871
+      ],
+      "reward_declaration_indexes": [
+        485
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/azmodandata/azmodandata.xml"
+      ],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": true,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "AzmodanSkinAzguldan",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "AzmodanSkinAzmodunk",
+      "status": "single-observed-literal-license",
+      "observed_license_candidates": [
+        17919
+      ],
+      "direct_license_candidates": [
+        17919
+      ],
+      "reward_declaration_indexes": [
+        496
+      ],
+      "reward_types": [
+        "CRewardSkin"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/azmodandata/azmodanskindata/azmodanazmodunkdata/azmodanazmodunkbasedata.xml"
+      ],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": true,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "AzmodanSkinMaster",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "AzmodunkMount",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "BFG",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Billie",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "BlackheartsDoubloon",
+      "status": "single-observed-literal-license",
+      "observed_license_candidates": [
+        18358
+      ],
+      "direct_license_candidates": [
+        18358
+      ],
+      "reward_declaration_indexes": [
+        4908
+      ],
+      "reward_types": [
+        "CRewardMount"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mountdoubloondata/mount_ridesurf_doubloonbasedata.xml"
+      ],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": true,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Bombardment",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Brightwing",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "BrightwingSkinFlyingMonkey",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "BrightwingSkinMaster",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "BrightwingSkinMonarch",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Butcher",
+      "status": "single-observed-literal-license",
+      "observed_license_candidates": [
+        11508
+      ],
+      "direct_license_candidates": [
+        11508
+      ],
+      "reward_declaration_indexes": [
+        687
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/butcherdata/butcherdata.xml"
+      ],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": true,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "ButcherSkinIron",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "ButcherSkinMaster",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "ButchersBeast",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "CannotEarn",
+      "status": "no-observed-literal-license",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [
+        6380
+      ],
+      "reward_types": [
+        "CRewardIcon"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/rewarddata.xml"
+      ],
+      "declaration_unresolved_reasons": [
+        "parent_inheritance_not_resolved"
+      ],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Chen",
+      "status": "single-observed-literal-license",
+      "observed_license_candidates": [
+        10692
+      ],
+      "direct_license_candidates": [
+        10692
+      ],
+      "reward_declaration_indexes": [
+        757
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/chendata/chendata.xml"
+      ],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": true,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "ChenSkinElder",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "ChenSkinMaster",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "ChenSkinWarmaster",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Cho",
+      "status": "single-observed-literal-license",
+      "observed_license_candidates": [
+        16282
+      ],
+      "direct_license_candidates": [
+        16282
+      ],
+      "reward_declaration_indexes": [
+        8333
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "declaration_sources": [
+        "mods/heromods/chogall.stormmod/base.stormdata/gamedata/chogalldata.xml"
+      ],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": true,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "ChoGallPromo",
+      "status": "no-observed-literal-license",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [
+        8334
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "declaration_sources": [
+        "mods/heromods/chogall.stormmod/base.stormdata/gamedata/chogalldata.xml"
+      ],
+      "declaration_unresolved_reasons": [
+        "parent_inheritance_not_resolved"
+      ],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "ChogallSkinCorruptor",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "ChogallSkinMaster",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "CloudSerpent",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Cocoon",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Cyberwolf",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Dehaka",
+      "status": "single-observed-literal-license",
+      "observed_license_candidates": [
+        16830
+      ],
+      "direct_license_candidates": [
+        16830
+      ],
+      "reward_declaration_indexes": [
+        8685
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "declaration_sources": [
+        "mods/heromods/dehaka.stormmod/base.stormdata/gamedata/dehakadata.xml"
+      ],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": true,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "DehakaSkinMaster",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Diablo",
+      "status": "single-observed-literal-license",
+      "observed_license_candidates": [
+        10111
+      ],
+      "direct_license_candidates": [
+        10111
+      ],
+      "reward_declaration_indexes": [
+        967
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/diablodata/diablodata.xml"
+      ],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": true,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "DiabloSkinArchangel",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "DiabloSkinKaijo",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "DiabloSkinLurkablo",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "DiabloSkinMaster",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "DiabloUltimate2",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Direwolf",
+      "status": "single-observed-literal-license",
+      "observed_license_candidates": [
+        18382
+      ],
+      "direct_license_candidates": [
+        18382
+      ],
+      "reward_declaration_indexes": [
+        4806
+      ],
+      "reward_types": [
+        "CRewardMount"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mountdirewolfdata/mount_ride_direwolfbasedata.xml"
+      ],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": true,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "DivineStorm",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "ETC",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "ETCSkinGlamMetal",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "ETCSkinMaster",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "ETCSkinPureCountry",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Falstad",
+      "status": "single-observed-literal-license",
+      "observed_license_candidates": [
+        10112
+      ],
+      "direct_license_candidates": [
+        10112
+      ],
+      "reward_declaration_indexes": [
+        1099
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/falstaddata/falstaddata.xml"
+      ],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": true,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [
+        10112
+      ],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "FalstadSkinBuccaneer",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "FalstadSkinMaster",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "FalstadSkinStormLord",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "FelStalker",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Gall",
+      "status": "single-observed-literal-license",
+      "observed_license_candidates": [
+        16503
+      ],
+      "direct_license_candidates": [
+        16503
+      ],
+      "reward_declaration_indexes": [
+        8336
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "declaration_sources": [
+        "mods/heromods/chogall.stormmod/base.stormdata/gamedata/chogalldata.xml"
+      ],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": true,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Gazlowe",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "GazloweSkinBigTop",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "GazloweSkinMadMartian",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "GazloweSkinMaster",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "GazloweSkinSciFi",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "GoldenCyberWolf",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "GoldenLunarTiger",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "GravOBomb3000",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Greymane",
+      "status": "single-observed-literal-license",
+      "observed_license_candidates": [
+        16428
+      ],
+      "direct_license_candidates": [
+        16428
+      ],
+      "reward_declaration_indexes": [
+        1141
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/genndata/genndata.xml"
+      ],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": true,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "GreymaneSkinMaster",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "GreymaneSkinRingmaster",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Haymaker",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "HeadlessHorseman",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "HearthstoneCard",
+      "status": "single-observed-literal-license",
+      "observed_license_candidates": [
+        18439
+      ],
+      "direct_license_candidates": [
+        18439
+      ],
+      "reward_declaration_indexes": [
+        5040
+      ],
+      "reward_types": [
+        "CRewardMount"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mounthearthstonecarddata/mount_ridesurf_hearthstonecardbasedata.xml"
+      ],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": true,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "HinterlandBlast",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Horse",
+      "status": "single-observed-literal-license",
+      "observed_license_candidates": [
+        10182
+      ],
+      "direct_license_candidates": [
+        10182
+      ],
+      "reward_declaration_indexes": [
+        7450
+      ],
+      "reward_types": [
+        "CRewardIcon"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/rewarddata.xml"
+      ],
+      "declaration_unresolved_reasons": [
+        "parent_inheritance_not_resolved"
+      ],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Illidan",
+      "status": "single-observed-literal-license",
+      "observed_license_candidates": [
+        10196
+      ],
+      "direct_license_candidates": [
+        10196
+      ],
+      "reward_declaration_indexes": [
+        1198
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/illidandata/illidandata.xml"
+      ],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": true,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "IllidanSkinLunar",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "IllidanSkinMaster",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "IllidanSkinShando",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "IllidanSkinSpectre",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "IllidansNightmare",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "IronsideDirewolf",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Jaina",
+      "status": "single-observed-literal-license",
+      "observed_license_candidates": [
+        11013
+      ],
+      "direct_license_candidates": [
+        11013
+      ],
+      "reward_declaration_indexes": [
+        1255
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/jainadata/jainadata.xml"
+      ],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": true,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "JainaSkinLunar",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "JainaSkinMaster",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "JainaSkinTempestRegalia",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "JainaSkinWinterVeil",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Johanna",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "JohannaSkinCenturion",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "JohannaSkinMaster",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "JudgementCharger",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Kaelthas",
+      "status": "single-observed-literal-license",
+      "observed_license_candidates": [
+        11336
+      ],
+      "direct_license_candidates": [
+        11336
+      ],
+      "reward_declaration_indexes": [
+        1330
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/kaelthasdata/kaelthasdata.xml"
+      ],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": true,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "KaelthasSkinMaster",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "KaelthasSkinStormpunk",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Kerrigan",
+      "status": "single-observed-literal-license",
+      "observed_license_candidates": [
+        10113
+      ],
+      "direct_license_candidates": [
+        10113
+      ],
+      "reward_declaration_indexes": [
+        1388
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/kerrigandata/kerrigandata.xml"
+      ],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": true,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [
+        10113
+      ],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "KerriganSkinCountess",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "KerriganSkinMaster",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "KerriganSkinSuccubus",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Kharazim",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "KharazimSkinJadeDragon",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "KharazimSkinMaster",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Leoric",
+      "status": "single-observed-literal-license",
+      "observed_license_candidates": [
+        11514
+      ],
+      "direct_license_candidates": [
+        11514
+      ],
+      "reward_declaration_indexes": [
+        1539
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/leoricdata/leoricdata.xml"
+      ],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": true,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "LeoricSkinMaster",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "LeoricSkinSpaceLord",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "LeoricSkinVrykul",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "LiLi",
+      "status": "single-observed-literal-license",
+      "observed_license_candidates": [
+        10270
+      ],
+      "direct_license_candidates": [
+        10270
+      ],
+      "reward_declaration_indexes": [
+        1590
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/lilidata/lilidata.xml"
+      ],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": true,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "LiLiSkinExplorer",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "LiLiSkinFestival",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "LiLiSkinMaster",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "LiMing",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "LiMingSkinMaster",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "LiMingSkinStarPrincess",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "LostVikings",
+      "status": "single-observed-literal-license",
+      "observed_license_candidates": [
+        11227
+      ],
+      "direct_license_candidates": [
+        11227
+      ],
+      "reward_declaration_indexes": [
+        1649
+      ],
+      "reward_types": [
+        "CRewardSkin"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/lostvikingsdata/lostvikingsskindata/lostvikingsbasedata/lostvikingsbasedata.xml"
+      ],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": true,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "LostVikingsSkinMaster",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "LostVikingsSkinPajamaParty",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "LtMorales",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "LunarDragon",
+      "status": "single-observed-literal-license",
+      "observed_license_candidates": [
+        19926
+      ],
+      "direct_license_candidates": [
+        19926
+      ],
+      "reward_declaration_indexes": [
+        4917
+      ],
+      "reward_types": [
+        "CRewardMount"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mountdragonlunardata/mount_ride_dragonlunarbasedata.xml"
+      ],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": true,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "LunarTiger",
+      "status": "single-observed-literal-license",
+      "observed_license_candidates": [
+        18457
+      ],
+      "direct_license_candidates": [
+        18457
+      ],
+      "reward_declaration_indexes": [
+        5690
+      ],
+      "reward_types": [
+        "CRewardMount"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mounttigerlunardata/mount_ride_tigerlunarbasedata.xml"
+      ],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": true,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Lunara",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "LunaraSkinMaster",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "LunaraSkinSentinel",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Maelstrom",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "MagicCarpet",
+      "status": "single-observed-literal-license",
+      "observed_license_candidates": [
+        18460
+      ],
+      "direct_license_candidates": [
+        18460
+      ],
+      "reward_declaration_indexes": [
+        4689
+      ],
+      "reward_types": [
+        "CRewardMount"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mountcarpetdata/mount_ridesurf_carpetbasedata.xml"
+      ],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": true,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Malfurion",
+      "status": "single-observed-literal-license",
+      "observed_license_candidates": [
+        10114
+      ],
+      "direct_license_candidates": [
+        10114
+      ],
+      "reward_declaration_indexes": [
+        1673
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/malfuriondata/malfuriondata.xml"
+      ],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": true,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [
+        10114
+      ],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "MalfurionSkinBetrayer",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "MalfurionSkinMaster",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "MalfurionSkinStormMantle",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "MalthaelsPhantomSteed",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "MarshalsOutrider",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "MechaDehaka",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Mechanospider",
+      "status": "single-observed-literal-license",
+      "observed_license_candidates": [
+        18469
+      ],
+      "direct_license_candidates": [
+        18469
+      ],
+      "reward_declaration_indexes": [
+        5567
+      ],
+      "reward_types": [
+        "CRewardMount"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mountspiderbasedata/mount_ridebeast_spiderbasedata.xml"
+      ],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": true,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "MiniMe",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "MoralesSkinApothecary",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "MoralesSkinDrLove",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "MoralesSkinMaster",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Muradin",
+      "status": "single-observed-literal-license",
+      "observed_license_candidates": [
+        10115
+      ],
+      "direct_license_candidates": [
+        10115
+      ],
+      "reward_declaration_indexes": [
+        1857
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/muradindata/muradindata.xml"
+      ],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": true,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [
+        10115
+      ],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "MuradinSkinKandyKing",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "MuradinSkinMagni",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "MuradinSkinMaster",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Murky",
+      "status": "single-observed-literal-license",
+      "observed_license_candidates": [
+        10271
+      ],
+      "direct_license_candidates": [
+        10271
+      ],
+      "reward_declaration_indexes": [
+        1914
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/murkydata/murkydata.xml"
+      ],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": true,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "MurkySkinFunnyBunny",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "MurkySkinGrunty",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "MurkySkinMaster",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Nazeebo",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "NazeeboSkinGrimskull",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "NazeeboSkinHarlequin",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "NazeeboSkinMaster",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "NazeeboWarhorse",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "NexusBattleBeast",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "NexusCharger",
+      "status": "single-observed-literal-license",
+      "observed_license_candidates": [
+        18478
+      ],
+      "direct_license_candidates": [
+        18478
+      ],
+      "reward_declaration_indexes": [
+        4385
+      ],
+      "reward_types": [
+        "CRewardMount"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/horsedata/mount_ride_horsenexuschargerbasedata.xml"
+      ],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": true,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Nova",
+      "status": "single-observed-literal-license",
+      "observed_license_candidates": [
+        10116
+      ],
+      "direct_license_candidates": [
+        10116
+      ],
+      "reward_declaration_indexes": [
+        2032
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/novadata/novadata.xml"
+      ],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": true,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [
+        10116
+      ],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "NovaSkinMaster",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "NovaSkinNovazon",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "NovaSkinRollerDerby",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "NovaSkinSpectre",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "PiggyBank",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "RainbowUnicorn",
+      "status": "single-observed-literal-license",
+      "observed_license_candidates": [
+        18499
+      ],
+      "direct_license_candidates": [
+        18499
+      ],
+      "reward_declaration_indexes": [
+        4468
+      ],
+      "reward_types": [
+        "CRewardMount"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/horsedata/mount_ride_horseunicornbasedata.xml"
+      ],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": true,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "RainofVengeance",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Raynor",
+      "status": "single-observed-literal-license",
+      "observed_license_candidates": [
+        10197
+      ],
+      "direct_license_candidates": [
+        10197
+      ],
+      "reward_declaration_indexes": [
+        2093
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/raynordata/raynordata.xml"
+      ],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": true,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "RaynorSkinCommander",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "RaynorSkinMarshal",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "RaynorSkinMaster",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "RaynorSkinStarsAndStripes",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Rehgar",
+      "status": "single-observed-literal-license",
+      "observed_license_candidates": [
+        10572
+      ],
+      "direct_license_candidates": [
+        10572
+      ],
+      "reward_declaration_indexes": [
+        2184
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/rehgardata/rehgardata.xml"
+      ],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": true,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "RehgarSkinGreatfatherWinter",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "RehgarSkinIronClaw",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "RehgarSkinMaster",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Reigndeer",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Rexxar",
+      "status": "single-observed-literal-license",
+      "observed_license_candidates": [
+        15175
+      ],
+      "direct_license_candidates": [
+        15175
+      ],
+      "reward_declaration_indexes": [
+        2269
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/rexxardata/rexxardata.xml"
+      ],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": true,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "RexxarSkinFrostlord",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "RexxarSkinMaster",
+      "status": "single-observed-literal-license",
+      "observed_license_candidates": [
+        19663
+      ],
+      "direct_license_candidates": [
+        19663
+      ],
+      "reward_declaration_indexes": [
+        2296
+      ],
+      "reward_types": [
+        "CRewardSkin"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/rexxardata/rexxarskindata/rexxarultimatedata/rexxarultimatebasedata.xml"
+      ],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": true,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "RingMastersPride",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "SgtHammer",
+      "status": "single-observed-literal-license",
+      "observed_license_candidates": [
+        10124
+      ],
+      "direct_license_candidates": [
+        10124
+      ],
+      "reward_declaration_indexes": [
+        2309
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/sgthammerdata/sgthammerdata.xml"
+      ],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": true,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [
+        10124
+      ],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "SgtHammerSkinDoomHammer",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "SgtHammerSkinMaster",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "SgtHammerSkinWarWorld3",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Sonya",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "SonyaSkinMaster",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "SonyaSkinSuper",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "SonyaSkinWrath",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "StarChariot",
+      "status": "single-observed-literal-license",
+      "observed_license_candidates": [
+        18520
+      ],
+      "direct_license_candidates": [
+        18520
+      ],
+      "reward_declaration_indexes": [
+        5600
+      ],
+      "reward_types": [
+        "CRewardMount"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mountstarchariotdata/mount_ridesurf_starchariotbasedata.xml"
+      ],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": true,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "StarbreakerMount",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Starfall",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Stitches",
+      "status": "single-observed-literal-license",
+      "observed_license_candidates": [
+        10117
+      ],
+      "direct_license_candidates": [
+        10117
+      ],
+      "reward_declaration_indexes": [
+        2358
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/stitchesdata/stitchesdata.xml"
+      ],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": true,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [
+        10117
+      ],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "StitchesBeachParty",
+      "status": "single-observed-literal-license",
+      "observed_license_candidates": [
+        19855
+      ],
+      "direct_license_candidates": [
+        19855
+      ],
+      "reward_declaration_indexes": [
+        2365
+      ],
+      "reward_types": [
+        "CRewardSkin"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/stitchesdata/stitchesskindata/stitchesbeachpartydata/stitchesbeachpartybasedata.xml"
+      ],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": true,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "StitchesSkinBikini",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "StitchesSkinChef",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "StitchesSkinGreatfatherWinter",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "StitchesSkinMaster",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "StitchesSkinPsycho",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "SummonSindragosa",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "SummonUltralisk",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Swordwall",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Sylvanas",
+      "status": "single-observed-literal-license",
+      "observed_license_candidates": [
+        11314
+      ],
+      "direct_license_candidates": [
+        11314
+      ],
+      "reward_declaration_indexes": [
+        2439
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/sylvanasdata/sylvanasdata.xml"
+      ],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": true,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "SylvanasSkinMaster",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "SylvanasSkinRangerGeneral",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "SylvanasSkinSugarPlum",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Tassadar",
+      "status": "single-observed-literal-license",
+      "observed_license_candidates": [
+        10118
+      ],
+      "direct_license_candidates": [
+        10118
+      ],
+      "reward_declaration_indexes": [
+        2508
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/tassadardata/tassadardata.xml"
+      ],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": true,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [
+        10118
+      ],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "TassadarSkinCryptKing",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "TassadarSkinMaster",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "TassadarSkinMecha",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "TestMountRide",
+      "status": "no-observed-literal-license",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [
+        7521
+      ],
+      "reward_types": [
+        "CRewardIcon"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/rewarddata.xml"
+      ],
+      "declaration_unresolved_reasons": [
+        "parent_inheritance_not_resolved"
+      ],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "TestMountRideBeast",
+      "status": "no-observed-literal-license",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [
+        7522
+      ],
+      "reward_types": [
+        "CRewardIcon"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/rewarddata.xml"
+      ],
+      "declaration_unresolved_reasons": [
+        "parent_inheritance_not_resolved"
+      ],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "TestMountRideBike",
+      "status": "no-observed-literal-license",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [
+        7524
+      ],
+      "reward_types": [
+        "CRewardIcon"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/rewarddata.xml"
+      ],
+      "declaration_unresolved_reasons": [
+        "parent_inheritance_not_resolved"
+      ],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "TestMountRideSurf",
+      "status": "no-observed-literal-license",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [
+        7523
+      ],
+      "reward_types": [
+        "CRewardIcon"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/rewarddata.xml"
+      ],
+      "declaration_unresolved_reasons": [
+        "parent_inheritance_not_resolved"
+      ],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Thrall",
+      "status": "single-observed-literal-license",
+      "observed_license_candidates": [
+        11119
+      ],
+      "direct_license_candidates": [
+        11119
+      ],
+      "reward_declaration_indexes": [
+        2562
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/thralldata/thralldata.xml"
+      ],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": true,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "ThrallSkinEarthbreaker",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "ThrallSkinHellhammer",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "ThrallSkinMaster",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "TreasureGoblin",
+      "status": "single-observed-literal-license",
+      "observed_license_candidates": [
+        18526
+      ],
+      "direct_license_candidates": [
+        18526
+      ],
+      "reward_declaration_indexes": [
+        5731
+      ],
+      "reward_types": [
+        "CRewardMount"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mounttreasuregoblindata/mount_ride_treasuregoblinbasedata.xml"
+      ],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": true,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "TreasureGoblinMount",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "TwilightDream",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Tychus",
+      "status": "single-observed-literal-license",
+      "observed_license_candidates": [
+        10120
+      ],
+      "direct_license_candidates": [
+        10120
+      ],
+      "reward_declaration_indexes": [
+        2664
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/tychusdata/tychusdata.xml"
+      ],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": true,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [
+        10120
+      ],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "TychusSkinInfested",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "TychusSkinMaster",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "TychusSkinPrisoner",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "TychusUltimate2",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Tyrael",
+      "status": "single-observed-literal-license",
+      "observed_license_candidates": [
+        10121
+      ],
+      "direct_license_candidates": [
+        10121
+      ],
+      "reward_declaration_indexes": [
+        2721
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/tyraeldata/tyraeldata.xml"
+      ],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": true,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [
+        10121
+      ],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "TyraelSkinDemonic",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "TyraelSkinMaster",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "TyraelSkinSeraphim",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "TyraelsCharger",
+      "status": "single-observed-literal-license",
+      "observed_license_candidates": [
+        18529
+      ],
+      "direct_license_candidates": [
+        18529
+      ],
+      "reward_declaration_indexes": [
+        4461
+      ],
+      "reward_types": [
+        "CRewardMount"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/horsedata/mount_ride_horsetyraelschargerbasedata.xml"
+      ],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": true,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Tyrande",
+      "status": "single-observed-literal-license",
+      "observed_license_candidates": [
+        10122
+      ],
+      "direct_license_candidates": [
+        10122
+      ],
+      "reward_declaration_indexes": [
+        2776
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/tyrandedata/tyrandedata.xml"
+      ],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": true,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [
+        10122
+      ],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "TyrandeSkinBloodElf",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "TyrandeSkinMaster",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "TyrandeSkinWarden",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Uther",
+      "status": "single-observed-literal-license",
+      "observed_license_candidates": [
+        10123
+      ],
+      "direct_license_candidates": [
+        10123
+      ],
+      "reward_declaration_indexes": [
+        2832
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/utherdata/utherdata.xml"
+      ],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": true,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [
+        10123
+      ],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "UtherSkinJudgement",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "UtherSkinLumberjack",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "UtherSkinMaster",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "UtherSkinMedic",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Valla",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "VallaSkinAngelic",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "VallaSkinMaster",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "VallaSkinVampireHunter",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "VoidPrison",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "VoidSpeeder",
+      "status": "single-observed-literal-license",
+      "observed_license_candidates": [
+        18532
+      ],
+      "direct_license_candidates": [
+        18532
+      ],
+      "reward_declaration_indexes": [
+        5758
+      ],
+      "reward_types": [
+        "CRewardMount"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mountvoidspeederdata/mount_ridesurf_voidspeederbasedata.xml"
+      ],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": true,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Vulture",
+      "status": "single-observed-literal-license",
+      "observed_license_candidates": [
+        18535
+      ],
+      "direct_license_candidates": [
+        18535
+      ],
+      "reward_declaration_indexes": [
+        5794
+      ],
+      "reward_types": [
+        "CRewardMount"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mountvulturedata/mount_ridebike_vulturebasedata.xml"
+      ],
+      "declaration_unresolved_reasons": [
+        "parent_inheritance_not_resolved"
+      ],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Warhorse",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "WonderBillie",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Xul",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "XulSkinMaster",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "XulSkinSerpentKing",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Zagara",
+      "status": "single-observed-literal-license",
+      "observed_license_candidates": [
+        10126
+      ],
+      "direct_license_candidates": [
+        10126
+      ],
+      "reward_declaration_indexes": [
+        3047
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/zagaradata/zagaradata.xml"
+      ],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": true,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [
+        10126
+      ],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "ZagaraSkinDesertQueen",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "ZagaraSkinInsectoid",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "ZagaraSkinMaster",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "Zeratul",
+      "status": "single-observed-literal-license",
+      "observed_license_candidates": [
+        10127
+      ],
+      "direct_license_candidates": [
+        10127
+      ],
+      "reward_declaration_indexes": [
+        3100
+      ],
+      "reward_types": [
+        "CRewardHero"
+      ],
+      "declaration_sources": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/zeratuldata/zeratuldata.xml"
+      ],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": true,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [
+        10127
+      ],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "ZeratulSkinHighTemplar",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "ZeratulSkinMaster",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "ZeratulSkinRonin",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    },
+    {
+      "legacy_name": "ZeratulSkinZergHunter",
+      "status": "no-exact-reward-record",
+      "observed_license_candidates": [],
+      "direct_license_candidates": [],
+      "reward_declaration_indexes": [],
+      "reward_types": [],
+      "declaration_sources": [],
+      "declaration_unresolved_reasons": [],
+      "one_candidate_without_record_reasons": false,
+      "license_field_unresolved_reasons": [],
+      "numeric_product_namespace_collisions": [],
+      "license_values_with_multiple_reward_declarations": [],
+      "alias_or_effective_mapping_proven": false,
+      "other_legacy_names_sharing_candidate": []
+    }
+  ],
+  "contains_player_ownership_or_identity_data": false,
+  "aliases_registered": false,
+  "effective_catalog_mapping_proven": false,
+  "whole_collection_conversion_eligible": false,
+  "replay_modified": false,
+  "client_launched": false,
+  "limitations": [
+    "Exact-name literal candidates only; source ordinals are not runtime catalog indexes.",
+    "License, ProductId and HyperlinkId remain separate namespaces; collisions do not establish aliases.",
+    "Catalog order, inheritance, defaults, templates, availability and entitlement conversion remain unresolved."
+  ]
+}

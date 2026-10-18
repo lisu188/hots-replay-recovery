@@ -1,0 +1,50 @@
+{
+  "format": "hots-offline-canonical-fixtures-ci-v1",
+  "run_url": "https://github.com/lisu188/hots-replay-recovery/actions/runs/39156842765",
+  "head_sha": "1366ae050cb6b2395e88f072cfc8054ce77362e9",
+  "status": "completed",
+  "conclusion": "success",
+  "upstream_commit": "9af3ea7150f1a8acb53464c92519a9bbcc7a3594",
+  "canonical_schema_sha256": {
+    "41810": "879d228d9d8acd21d63563538dd15841aaf49259ee0bb468b8a46b6a4ef866fd",
+    "96477": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84"
+  },
+  "jobs": [
+    {
+      "id": 117761708022,
+      "name": "offline-layer (windows-2025)",
+      "status": "completed",
+      "conclusion": "success",
+      "focused_tests": 71,
+      "attribute_fixture_files": 2,
+      "mod_fixture_cases": 3,
+      "complete_tail_replay_fixtures": 14,
+      "public_current_controls_downloaded_and_hash_verified": 12,
+      "source_header_files_downloaded_and_hash_verified": 5,
+      "authenticated_header_bindings": 10,
+      "authenticated_arcade_section_bindings": 4,
+      "source_static_report_sha256": "abc902b7bcf3fc000da99a4444db1b11307b7dbe8816bbc174572012b5ce5820"
+    },
+    {
+      "id": 117761708197,
+      "name": "offline-layer (ubuntu-24.04)",
+      "status": "completed",
+      "conclusion": "success",
+      "focused_tests": 71,
+      "attribute_fixture_files": 2,
+      "mod_fixture_cases": 3,
+      "complete_tail_replay_fixtures": 14,
+      "public_current_controls_downloaded_and_hash_verified": 12,
+      "source_header_files_downloaded_and_hash_verified": 5,
+      "authenticated_header_bindings": 10,
+      "authenticated_arcade_section_bindings": 4,
+      "source_static_report_sha256": "abc902b7bcf3fc000da99a4444db1b11307b7dbe8816bbc174572012b5ce5820"
+    }
+  ],
+  "supersedes_failed_run": "https://github.com/lisu188/hots-replay-recovery/actions/runs/39156545185",
+  "fixture_bytes_unchanged": true,
+  "client_launched": false,
+  "replay_or_member_written": false,
+  "whole_replay_upgrade_or_playback_validated": false,
+  "broader_sandbox_test_run_is_separate": "observations/full-local-discover-93a5d0b-2026-10-18.json"
+}

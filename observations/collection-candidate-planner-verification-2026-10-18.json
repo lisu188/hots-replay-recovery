@@ -1,0 +1,49 @@
+{
+  "format": "hots-collection-candidate-planner-verification-v1",
+  "verification": "passed",
+  "tests": 13,
+  "tests_skipped": 0,
+  "actual_cli_executed": true,
+  "counts": {
+    "legacy_names": 263,
+    "current_observed_ids": 5418,
+    "single_observed_license_candidates": 56,
+    "single_without_record_reasons": 54,
+    "single_with_record_reasons": 2,
+    "unresolved_names": 207,
+    "unresolved_status_counts": {
+      "no-exact-reward-record": 201,
+      "no-observed-literal-license": 6
+    }
+  },
+  "inputs": {
+    "licenses_sha256": "c8f03ddbc859feb5c2dc1836761201b5e6fea4632ce0325817abdd7299c8aa22",
+    "collection_observation_sha256": "0fa8a041fa8d6b9ba22ba6ff8be10d4f42beccc7d9577d0b6ead2d8e0fa909c9"
+  },
+  "files": [
+    {
+      "path": "plan_collection_candidates.py",
+      "bytes": 16754,
+      "sha256": "8ce3878aa1b8627cdca08166cae357d41b3085fcba44a36a953faa6720cfa6a5"
+    },
+    {
+      "path": "test_plan_collection_candidates.py",
+      "bytes": 10723,
+      "sha256": "230fda9faaee9201680c2de9ed71733e95dd1e217340ac1034939265279d4d9a"
+    },
+    {
+      "path": "README_COLLECTION_CANDIDATES.md",
+      "bytes": 2782,
+      "sha256": "b6721f3471943a0bab2a075ef80647f33d74df4d3731331034682e788a7857ca"
+    },
+    {
+      "path": "collection-candidate-plan-current98348-v2.json",
+      "bytes": 179467,
+      "sha256": "ef5a30c5937f2400213edd42ce0c4ac079e716e7e50c8f2fe96ed5f92a5676a7"
+    }
+  ],
+  "replay_modified": false,
+  "player_ownership_or_identity_accessed": false,
+  "client_launched": false,
+  "candidate_only": true
+}
