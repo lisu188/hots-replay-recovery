@@ -135,3 +135,47 @@ Because the GitHub connector only accepts text payloads, replay binaries are nev
 The first remote snapshot was published to `main` as GitHub commit `4248b86f194d08205d0168747a5629dbef4eaf89`. It contains the decoder/encoder toolchain, semantic projections, migration deltas, chat context, source replay Base64 parts and the build-43905 replay Base64 parts.
 
 The build-43905 checkpoint has passed protocol encode/decode round-trip validation but has not yet been proven playable by a real HotS client. The next engineering task remains crossing the larger build-44256 protocol boundary.
+
+
+## Offline pull-request regression baseline — 2026-10-18
+
+The portfolio review requested a complete read-only PR regression check. The
+existing 26 workflows retain their targeted main/manual scopes and publication
+behavior; none is broadened to execute publishers on pull requests.
+
+`.github/workflows/offline-regressions.yml` adds a separate PR, main and manual
+baseline with `contents: read`, no persisted checkout credentials, pinned Blizzard
+commit `9af3ea7150f1a8acb53464c92519a9bbcc7a3594`, six 1.17.0 and mpyq 0.2.5.
+It runs Linux and Windows with both PowerShell 7 and Windows PowerShell 5.1.
+Inputs are restored from tracked Base64 with checked SHA-256 values. No checkpoint,
+map, capture package, game installation or publication workflow is changed.
+
+The inventory contained 33 root test modules and 710 test methods. The new runner
+adds ten regression-gate tests in a 34th module. It discovers every root
+`test_*.py`, refuses empty modules, import errors and zero tests, and reports
+actual module/test counts, failure/error IDs and skip reasons. Missing fixtures,
+parser dependencies and Linux StormLib fail setup instead of silently skipping.
+Existing test modules remain unchanged, avoiding their generator path triggers.
+
+Linux explicitly excludes the two Windows filesystem collector classes (38
+cases). Windows explicitly excludes four native StormLib-success cases, covered
+by the Linux lane. Pure parsing, malformed-input and missing-library guards stay
+active on both platforms. Any other skip fails the baseline. Collector tests use
+temporary fake document/game directories; their launch guards fail before any
+client can start. Full offline success is not native playback, current-catalog,
+whole-parser or deterministic-simulation acceptance. R8 and all earlier recorded
+outcomes remain unchanged; the current no-HotS-launch instruction remains active.
+
+To reproduce after restoring the workflow's four inputs and installing its
+pinned dependencies, configure PYTHONPATH using the host's `os.pathsep`, include
+`_upstream` and the repository root, and select `HOTS_TEST_POWERSHELL=pwsh` or
+`powershell` on Windows. Linux also requires `libstorm-dev`. Run from the root:
+
+```text
+python scripts/run_offline_regressions.py --report work/offline-unit-regression.json
+```
+
+The compact new report must not already exist. CI uploads only that JSON summary,
+not replay bytes, player/chat data, donor files, generated maps or capture ZIPs.
+Local validation of the runner's ten isolated gate tests passed on Windows.
+The complete corpus is assigned to hosted CI; workflow creation is not a CI pass.
