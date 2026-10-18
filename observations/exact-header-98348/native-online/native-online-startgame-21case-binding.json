@@ -1,0 +1,4220 @@
+{
+  "actual_reads": {
+    "PE_reads_in_this_stage": 0,
+    "distinct_replay_bytes_including_original_R8": 29002257,
+    "distinct_replay_files": 23,
+    "explicit_analysis_input_bytes": 64206086,
+    "read_categories": {
+      "MPQ_file_reads": 2484664,
+      "guard_rehash_reads": 58004514,
+      "native_schema_and_shared_types_pin_reads": 2902809,
+      "producer_source_guard": 12002,
+      "provenance_metadata": 484157,
+      "runtime_source_guards": 317940
+    },
+    "scope": "Explicit metadata/profile/source guards, native pins and MPQ reads; implicit imports/interpreter reads excluded.",
+    "selected_decoded_member_bytes": 8675407
+  },
+  "aggregate": {
+    "ClientInfo_records": 222,
+    "EOF_zero_padding_bit_histogram": {
+      "0": 3,
+      "1": 1,
+      "2": 5,
+      "3": 2,
+      "4": 2,
+      "5": 1,
+      "6": 1,
+      "7": 6
+    },
+    "MapInfo_records": 136,
+    "all12_named_anchors_per_message_match": true,
+    "all_whole_members_decode_to_EOF_and_reencode_exact": true,
+    "decoded_native_fields": 8897304,
+    "named_root_fields_per_message": 25,
+    "native_root_type": 5917,
+    "selected_schema_types": 513,
+    "wire_tokens": 3314146
+  },
+  "all_current_original_and_R8_source_hashes_unchanged": true,
+  "canonical_identity_schema_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+  "cases": [
+    {
+      "actual_build_base_data": 98348,
+      "actual_root": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "crossbinding": {
+        "ClientInfo_records": 12,
+        "MapInfo_records": 6,
+        "all_ClientInfo_record_boundaries_match": true,
+        "all_MapInfo_record_boundaries_match": true,
+        "all_named_surrounding_anchors_match": true,
+        "named_surrounding_anchors_checked": 12
+      },
+      "fresh_core_event_decode_performed": false,
+      "fresh_observed_full_mod_tail_EOF_and_private_gates": true,
+      "id": "current-us-01",
+      "native_OnlineStartGameRequest": {
+        "EOF_alignment_padding_bits": 0,
+        "archive_build_root_or_full_replay_compatibility_claimed": false,
+        "complete_EOF_and_readonly_whole_member_reencoding_exact": true,
+        "decoded_fields": 423660,
+        "member_bytes": 282976,
+        "member_sha256": "ab03d9533081e9d69d205a6adec9df6a0aaf5ff47a05ecc8bf670b6760b0ab55",
+        "named_root_fields": 25,
+        "native_payload_end_bit": 2263808,
+        "native_payload_start_bit": 0,
+        "private_author_client_license_network_or_player_values_emitted": false,
+        "profile": "online-start-98348",
+        "root_field_spans": [
+          {
+            "end_bit": 2228368,
+            "kind": "STRUCT",
+            "name": "StartGameRequest",
+            "start_bit": 0
+          },
+          {
+            "end_bit": 2228400,
+            "kind": "BLOB",
+            "name": "m_randomSeed",
+            "start_bit": 2228368
+          },
+          {
+            "end_bit": 2228432,
+            "kind": "INT",
+            "name": "m_clientId",
+            "start_bit": 2228400
+          },
+          {
+            "end_bit": 2237569,
+            "kind": "ARRAY",
+            "name": "m_clientInfoList",
+            "start_bit": 2228432
+          },
+          {
+            "end_bit": 2237633,
+            "kind": "STRUCT",
+            "name": "m_voiceSessionId",
+            "start_bit": 2237569
+          },
+          {
+            "end_bit": 2237634,
+            "kind": "OPTIONAL",
+            "name": "m_ammHandle",
+            "start_bit": 2237633
+          },
+          {
+            "end_bit": 2237635,
+            "kind": "BOOL",
+            "name": "m_isCompetitive",
+            "start_bit": 2237634
+          },
+          {
+            "end_bit": 2237636,
+            "kind": "BOOL",
+            "name": "m_isRanked",
+            "start_bit": 2237635
+          },
+          {
+            "end_bit": 2237637,
+            "kind": "BOOL",
+            "name": "m_isPractice",
+            "start_bit": 2237636
+          },
+          {
+            "end_bit": 2237638,
+            "kind": "BOOL",
+            "name": "m_isCooperative",
+            "start_bit": 2237637
+          },
+          {
+            "end_bit": 2237639,
+            "kind": "BOOL",
+            "name": "m_saveStats",
+            "start_bit": 2237638
+          },
+          {
+            "end_bit": 2237640,
+            "kind": "BOOL",
+            "name": "m_saveReplay",
+            "start_bit": 2237639
+          },
+          {
+            "end_bit": 2237736,
+            "kind": "STRUCT",
+            "name": "m_instanceHandle",
+            "start_bit": 2237640
+          },
+          {
+            "end_bit": 2238083,
+            "kind": "OPTIONAL",
+            "name": "m_ladderStats",
+            "start_bit": 2237736
+          },
+          {
+            "end_bit": 2238472,
+            "kind": "OPTIONAL",
+            "name": "m_races",
+            "start_bit": 2238083
+          },
+          {
+            "end_bit": 2248725,
+            "kind": "ARRAY",
+            "name": "m_clientUnlockableInfoList",
+            "start_bit": 2238472
+          },
+          {
+            "end_bit": 2248763,
+            "kind": "ARRAY",
+            "name": "m_achievementTags",
+            "start_bit": 2248725
+          },
+          {
+            "end_bit": 2249344,
+            "kind": "ARRAY",
+            "name": "m_clientLicensesList",
+            "start_bit": 2248763
+          },
+          {
+            "end_bit": 2249376,
+            "kind": "INT",
+            "name": "m_currentTurn",
+            "start_bit": 2249344
+          },
+          {
+            "end_bit": 2249408,
+            "kind": "INT",
+            "name": "m_turnIntervalMS",
+            "start_bit": 2249376
+          },
+          {
+            "end_bit": 2249440,
+            "kind": "INT",
+            "name": "m_currentSyncEventNumber",
+            "start_bit": 2249408
+          },
+          {
+            "end_bit": 2249441,
+            "kind": "OPTIONAL",
+            "name": "m_tournamentInfo",
+            "start_bit": 2249440
+          },
+          {
+            "end_bit": 2263806,
+            "kind": "ARRAY",
+            "name": "m_heroMasteryTiers",
+            "start_bit": 2249441
+          },
+          {
+            "end_bit": 2263807,
+            "kind": "OPTIONAL",
+            "name": "m_rejoinSaveCacheHandle",
+            "start_bit": 2263806
+          },
+          {
+            "end_bit": 2263808,
+            "kind": "OPTIONAL",
+            "name": "m_rejoinSaveElapsedGameLoops",
+            "start_bit": 2263807
+          }
+        ],
+        "root_type_id": 5917,
+        "safe_array_counts": {
+          "/StartGameRequest/m_accessMatrix": 5418,
+          "/StartGameRequest/m_disabledHeroList": 0,
+          "/StartGameRequest/m_mapInfoList": 6,
+          "/StartGameRequest/m_resourceMap": 5418,
+          "/m_achievementTags": 1,
+          "/m_clientInfoList": 12,
+          "/m_clientLicensesList": 12,
+          "/m_clientUnlockableInfoList": 12,
+          "/m_heroMasteryTiers": 87
+        },
+        "schema_sha256": "0fd61c8ef3b0aeef647912fd9e35308e70c39da9e2980004d06b1b92e0c96640",
+        "wire_tokens": 157802
+      },
+      "prior_core_profile_bound": true,
+      "profile_sha256": "c17a1a9f0aa24000b7556379cf5274e59cf92824636ed63125f694406f5efa4f",
+      "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c"
+    },
+    {
+      "actual_build_base_data": 98348,
+      "actual_root": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "crossbinding": {
+        "ClientInfo_records": 10,
+        "MapInfo_records": 6,
+        "all_ClientInfo_record_boundaries_match": true,
+        "all_MapInfo_record_boundaries_match": true,
+        "all_named_surrounding_anchors_match": true,
+        "named_surrounding_anchors_checked": 12
+      },
+      "fresh_core_event_decode_performed": false,
+      "fresh_observed_full_mod_tail_EOF_and_private_gates": true,
+      "id": "current-us-02",
+      "native_OnlineStartGameRequest": {
+        "EOF_alignment_padding_bits": 7,
+        "archive_build_root_or_full_replay_compatibility_claimed": false,
+        "complete_EOF_and_readonly_whole_member_reencoding_exact": true,
+        "decoded_fields": 423541,
+        "member_bytes": 282800,
+        "member_sha256": "ff3bbca0308e77889d481f64ac915e6ee68f299b4d4dda4d54f620740a5786ad",
+        "named_root_fields": 25,
+        "native_payload_end_bit": 2262393,
+        "native_payload_start_bit": 0,
+        "private_author_client_license_network_or_player_values_emitted": false,
+        "profile": "online-start-98348",
+        "root_field_spans": [
+          {
+            "end_bit": 2228368,
+            "kind": "STRUCT",
+            "name": "StartGameRequest",
+            "start_bit": 0
+          },
+          {
+            "end_bit": 2228400,
+            "kind": "BLOB",
+            "name": "m_randomSeed",
+            "start_bit": 2228368
+          },
+          {
+            "end_bit": 2228432,
+            "kind": "INT",
+            "name": "m_clientId",
+            "start_bit": 2228400
+          },
+          {
+            "end_bit": 2236097,
+            "kind": "ARRAY",
+            "name": "m_clientInfoList",
+            "start_bit": 2228432
+          },
+          {
+            "end_bit": 2236161,
+            "kind": "STRUCT",
+            "name": "m_voiceSessionId",
+            "start_bit": 2236097
+          },
+          {
+            "end_bit": 2236162,
+            "kind": "OPTIONAL",
+            "name": "m_ammHandle",
+            "start_bit": 2236161
+          },
+          {
+            "end_bit": 2236163,
+            "kind": "BOOL",
+            "name": "m_isCompetitive",
+            "start_bit": 2236162
+          },
+          {
+            "end_bit": 2236164,
+            "kind": "BOOL",
+            "name": "m_isRanked",
+            "start_bit": 2236163
+          },
+          {
+            "end_bit": 2236165,
+            "kind": "BOOL",
+            "name": "m_isPractice",
+            "start_bit": 2236164
+          },
+          {
+            "end_bit": 2236166,
+            "kind": "BOOL",
+            "name": "m_isCooperative",
+            "start_bit": 2236165
+          },
+          {
+            "end_bit": 2236167,
+            "kind": "BOOL",
+            "name": "m_saveStats",
+            "start_bit": 2236166
+          },
+          {
+            "end_bit": 2236168,
+            "kind": "BOOL",
+            "name": "m_saveReplay",
+            "start_bit": 2236167
+          },
+          {
+            "end_bit": 2236264,
+            "kind": "STRUCT",
+            "name": "m_instanceHandle",
+            "start_bit": 2236168
+          },
+          {
+            "end_bit": 2236345,
+            "kind": "OPTIONAL",
+            "name": "m_ladderStats",
+            "start_bit": 2236264
+          },
+          {
+            "end_bit": 2236670,
+            "kind": "OPTIONAL",
+            "name": "m_races",
+            "start_bit": 2236345
+          },
+          {
+            "end_bit": 2246911,
+            "kind": "ARRAY",
+            "name": "m_clientUnlockableInfoList",
+            "start_bit": 2236670
+          },
+          {
+            "end_bit": 2246949,
+            "kind": "ARRAY",
+            "name": "m_achievementTags",
+            "start_bit": 2246911
+          },
+          {
+            "end_bit": 2247434,
+            "kind": "ARRAY",
+            "name": "m_clientLicensesList",
+            "start_bit": 2246949
+          },
+          {
+            "end_bit": 2247466,
+            "kind": "INT",
+            "name": "m_currentTurn",
+            "start_bit": 2247434
+          },
+          {
+            "end_bit": 2247498,
+            "kind": "INT",
+            "name": "m_turnIntervalMS",
+            "start_bit": 2247466
+          },
+          {
+            "end_bit": 2247530,
+            "kind": "INT",
+            "name": "m_currentSyncEventNumber",
+            "start_bit": 2247498
+          },
+          {
+            "end_bit": 2247531,
+            "kind": "OPTIONAL",
+            "name": "m_tournamentInfo",
+            "start_bit": 2247530
+          },
+          {
+            "end_bit": 2262391,
+            "kind": "ARRAY",
+            "name": "m_heroMasteryTiers",
+            "start_bit": 2247531
+          },
+          {
+            "end_bit": 2262392,
+            "kind": "OPTIONAL",
+            "name": "m_rejoinSaveCacheHandle",
+            "start_bit": 2262391
+          },
+          {
+            "end_bit": 2262393,
+            "kind": "OPTIONAL",
+            "name": "m_rejoinSaveElapsedGameLoops",
+            "start_bit": 2262392
+          }
+        ],
+        "root_type_id": 5917,
+        "safe_array_counts": {
+          "/StartGameRequest/m_accessMatrix": 5418,
+          "/StartGameRequest/m_disabledHeroList": 0,
+          "/StartGameRequest/m_mapInfoList": 6,
+          "/StartGameRequest/m_resourceMap": 5418,
+          "/m_achievementTags": 1,
+          "/m_clientInfoList": 10,
+          "/m_clientLicensesList": 10,
+          "/m_clientUnlockableInfoList": 10,
+          "/m_heroMasteryTiers": 90
+        },
+        "schema_sha256": "0fd61c8ef3b0aeef647912fd9e35308e70c39da9e2980004d06b1b92e0c96640",
+        "wire_tokens": 157755
+      },
+      "prior_core_profile_bound": true,
+      "profile_sha256": "d76b9a67ab39f4171a1eee8d19fbb129578cb211d82088f4b259ac755580a6c9",
+      "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e"
+    },
+    {
+      "actual_build_base_data": 98348,
+      "actual_root": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "crossbinding": {
+        "ClientInfo_records": 11,
+        "MapInfo_records": 6,
+        "all_ClientInfo_record_boundaries_match": true,
+        "all_MapInfo_record_boundaries_match": true,
+        "all_named_surrounding_anchors_match": true,
+        "named_surrounding_anchors_checked": 12
+      },
+      "fresh_core_event_decode_performed": false,
+      "fresh_observed_full_mod_tail_EOF_and_private_gates": true,
+      "id": "current-us-03",
+      "native_OnlineStartGameRequest": {
+        "EOF_alignment_padding_bits": 7,
+        "archive_build_root_or_full_replay_compatibility_claimed": false,
+        "complete_EOF_and_readonly_whole_member_reencoding_exact": true,
+        "decoded_fields": 423650,
+        "member_bytes": 282923,
+        "member_sha256": "851a60b11ebc4c752070a82bf2ebb6073428d3a4f20becbda77f7829f336c7ff",
+        "named_root_fields": 25,
+        "native_payload_end_bit": 2263377,
+        "native_payload_start_bit": 0,
+        "private_author_client_license_network_or_player_values_emitted": false,
+        "profile": "online-start-98348",
+        "root_field_spans": [
+          {
+            "end_bit": 2228368,
+            "kind": "STRUCT",
+            "name": "StartGameRequest",
+            "start_bit": 0
+          },
+          {
+            "end_bit": 2228400,
+            "kind": "BLOB",
+            "name": "m_randomSeed",
+            "start_bit": 2228368
+          },
+          {
+            "end_bit": 2228432,
+            "kind": "INT",
+            "name": "m_clientId",
+            "start_bit": 2228400
+          },
+          {
+            "end_bit": 2237313,
+            "kind": "ARRAY",
+            "name": "m_clientInfoList",
+            "start_bit": 2228432
+          },
+          {
+            "end_bit": 2237377,
+            "kind": "STRUCT",
+            "name": "m_voiceSessionId",
+            "start_bit": 2237313
+          },
+          {
+            "end_bit": 2237378,
+            "kind": "OPTIONAL",
+            "name": "m_ammHandle",
+            "start_bit": 2237377
+          },
+          {
+            "end_bit": 2237379,
+            "kind": "BOOL",
+            "name": "m_isCompetitive",
+            "start_bit": 2237378
+          },
+          {
+            "end_bit": 2237380,
+            "kind": "BOOL",
+            "name": "m_isRanked",
+            "start_bit": 2237379
+          },
+          {
+            "end_bit": 2237381,
+            "kind": "BOOL",
+            "name": "m_isPractice",
+            "start_bit": 2237380
+          },
+          {
+            "end_bit": 2237382,
+            "kind": "BOOL",
+            "name": "m_isCooperative",
+            "start_bit": 2237381
+          },
+          {
+            "end_bit": 2237383,
+            "kind": "BOOL",
+            "name": "m_saveStats",
+            "start_bit": 2237382
+          },
+          {
+            "end_bit": 2237384,
+            "kind": "BOOL",
+            "name": "m_saveReplay",
+            "start_bit": 2237383
+          },
+          {
+            "end_bit": 2237480,
+            "kind": "STRUCT",
+            "name": "m_instanceHandle",
+            "start_bit": 2237384
+          },
+          {
+            "end_bit": 2237675,
+            "kind": "OPTIONAL",
+            "name": "m_ladderStats",
+            "start_bit": 2237480
+          },
+          {
+            "end_bit": 2238032,
+            "kind": "OPTIONAL",
+            "name": "m_races",
+            "start_bit": 2237675
+          },
+          {
+            "end_bit": 2247847,
+            "kind": "ARRAY",
+            "name": "m_clientUnlockableInfoList",
+            "start_bit": 2238032
+          },
+          {
+            "end_bit": 2247885,
+            "kind": "ARRAY",
+            "name": "m_achievementTags",
+            "start_bit": 2247847
+          },
+          {
+            "end_bit": 2248418,
+            "kind": "ARRAY",
+            "name": "m_clientLicensesList",
+            "start_bit": 2247885
+          },
+          {
+            "end_bit": 2248450,
+            "kind": "INT",
+            "name": "m_currentTurn",
+            "start_bit": 2248418
+          },
+          {
+            "end_bit": 2248482,
+            "kind": "INT",
+            "name": "m_turnIntervalMS",
+            "start_bit": 2248450
+          },
+          {
+            "end_bit": 2248514,
+            "kind": "INT",
+            "name": "m_currentSyncEventNumber",
+            "start_bit": 2248482
+          },
+          {
+            "end_bit": 2248515,
+            "kind": "OPTIONAL",
+            "name": "m_tournamentInfo",
+            "start_bit": 2248514
+          },
+          {
+            "end_bit": 2263375,
+            "kind": "ARRAY",
+            "name": "m_heroMasteryTiers",
+            "start_bit": 2248515
+          },
+          {
+            "end_bit": 2263376,
+            "kind": "OPTIONAL",
+            "name": "m_rejoinSaveCacheHandle",
+            "start_bit": 2263375
+          },
+          {
+            "end_bit": 2263377,
+            "kind": "OPTIONAL",
+            "name": "m_rejoinSaveElapsedGameLoops",
+            "start_bit": 2263376
+          }
+        ],
+        "root_type_id": 5917,
+        "safe_array_counts": {
+          "/StartGameRequest/m_accessMatrix": 5418,
+          "/StartGameRequest/m_disabledHeroList": 0,
+          "/StartGameRequest/m_mapInfoList": 6,
+          "/StartGameRequest/m_resourceMap": 5418,
+          "/m_achievementTags": 1,
+          "/m_clientInfoList": 11,
+          "/m_clientLicensesList": 11,
+          "/m_clientUnlockableInfoList": 11,
+          "/m_heroMasteryTiers": 90
+        },
+        "schema_sha256": "0fd61c8ef3b0aeef647912fd9e35308e70c39da9e2980004d06b1b92e0c96640",
+        "wire_tokens": 157804
+      },
+      "prior_core_profile_bound": true,
+      "profile_sha256": "70dacf6b9f67b9dace7b7938d81f2ed2595a461630621a00279d0a336b20df87",
+      "replay_sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db"
+    },
+    {
+      "actual_build_base_data": 98348,
+      "actual_root": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "crossbinding": {
+        "ClientInfo_records": 11,
+        "MapInfo_records": 6,
+        "all_ClientInfo_record_boundaries_match": true,
+        "all_MapInfo_record_boundaries_match": true,
+        "all_named_surrounding_anchors_match": true,
+        "named_surrounding_anchors_checked": 12
+      },
+      "fresh_core_event_decode_performed": false,
+      "fresh_observed_full_mod_tail_EOF_and_private_gates": true,
+      "id": "current-us-04",
+      "native_OnlineStartGameRequest": {
+        "EOF_alignment_padding_bits": 4,
+        "archive_build_root_or_full_replay_compatibility_claimed": false,
+        "complete_EOF_and_readonly_whole_member_reencoding_exact": true,
+        "decoded_fields": 423680,
+        "member_bytes": 282915,
+        "member_sha256": "a96d3c7185c7f1745ffdf59c58e4f99000e2d9995ab748ecbf610b4ce21cadc2",
+        "named_root_fields": 25,
+        "native_payload_end_bit": 2263316,
+        "native_payload_start_bit": 0,
+        "private_author_client_license_network_or_player_values_emitted": false,
+        "profile": "online-start-98348",
+        "root_field_spans": [
+          {
+            "end_bit": 2228368,
+            "kind": "STRUCT",
+            "name": "StartGameRequest",
+            "start_bit": 0
+          },
+          {
+            "end_bit": 2228400,
+            "kind": "BLOB",
+            "name": "m_randomSeed",
+            "start_bit": 2228368
+          },
+          {
+            "end_bit": 2228432,
+            "kind": "INT",
+            "name": "m_clientId",
+            "start_bit": 2228400
+          },
+          {
+            "end_bit": 2236897,
+            "kind": "ARRAY",
+            "name": "m_clientInfoList",
+            "start_bit": 2228432
+          },
+          {
+            "end_bit": 2236961,
+            "kind": "STRUCT",
+            "name": "m_voiceSessionId",
+            "start_bit": 2236897
+          },
+          {
+            "end_bit": 2236962,
+            "kind": "OPTIONAL",
+            "name": "m_ammHandle",
+            "start_bit": 2236961
+          },
+          {
+            "end_bit": 2236963,
+            "kind": "BOOL",
+            "name": "m_isCompetitive",
+            "start_bit": 2236962
+          },
+          {
+            "end_bit": 2236964,
+            "kind": "BOOL",
+            "name": "m_isRanked",
+            "start_bit": 2236963
+          },
+          {
+            "end_bit": 2236965,
+            "kind": "BOOL",
+            "name": "m_isPractice",
+            "start_bit": 2236964
+          },
+          {
+            "end_bit": 2236966,
+            "kind": "BOOL",
+            "name": "m_isCooperative",
+            "start_bit": 2236965
+          },
+          {
+            "end_bit": 2236967,
+            "kind": "BOOL",
+            "name": "m_saveStats",
+            "start_bit": 2236966
+          },
+          {
+            "end_bit": 2236968,
+            "kind": "BOOL",
+            "name": "m_saveReplay",
+            "start_bit": 2236967
+          },
+          {
+            "end_bit": 2237064,
+            "kind": "STRUCT",
+            "name": "m_instanceHandle",
+            "start_bit": 2236968
+          },
+          {
+            "end_bit": 2237449,
+            "kind": "OPTIONAL",
+            "name": "m_ladderStats",
+            "start_bit": 2237064
+          },
+          {
+            "end_bit": 2237806,
+            "kind": "OPTIONAL",
+            "name": "m_races",
+            "start_bit": 2237449
+          },
+          {
+            "end_bit": 2247621,
+            "kind": "ARRAY",
+            "name": "m_clientUnlockableInfoList",
+            "start_bit": 2237806
+          },
+          {
+            "end_bit": 2247659,
+            "kind": "ARRAY",
+            "name": "m_achievementTags",
+            "start_bit": 2247621
+          },
+          {
+            "end_bit": 2248192,
+            "kind": "ARRAY",
+            "name": "m_clientLicensesList",
+            "start_bit": 2247659
+          },
+          {
+            "end_bit": 2248224,
+            "kind": "INT",
+            "name": "m_currentTurn",
+            "start_bit": 2248192
+          },
+          {
+            "end_bit": 2248256,
+            "kind": "INT",
+            "name": "m_turnIntervalMS",
+            "start_bit": 2248224
+          },
+          {
+            "end_bit": 2248288,
+            "kind": "INT",
+            "name": "m_currentSyncEventNumber",
+            "start_bit": 2248256
+          },
+          {
+            "end_bit": 2248289,
+            "kind": "OPTIONAL",
+            "name": "m_tournamentInfo",
+            "start_bit": 2248288
+          },
+          {
+            "end_bit": 2263314,
+            "kind": "ARRAY",
+            "name": "m_heroMasteryTiers",
+            "start_bit": 2248289
+          },
+          {
+            "end_bit": 2263315,
+            "kind": "OPTIONAL",
+            "name": "m_rejoinSaveCacheHandle",
+            "start_bit": 2263314
+          },
+          {
+            "end_bit": 2263316,
+            "kind": "OPTIONAL",
+            "name": "m_rejoinSaveElapsedGameLoops",
+            "start_bit": 2263315
+          }
+        ],
+        "root_type_id": 5917,
+        "safe_array_counts": {
+          "/StartGameRequest/m_accessMatrix": 5418,
+          "/StartGameRequest/m_disabledHeroList": 0,
+          "/StartGameRequest/m_mapInfoList": 6,
+          "/StartGameRequest/m_resourceMap": 5418,
+          "/m_achievementTags": 1,
+          "/m_clientInfoList": 11,
+          "/m_clientLicensesList": 11,
+          "/m_clientUnlockableInfoList": 11,
+          "/m_heroMasteryTiers": 91
+        },
+        "schema_sha256": "0fd61c8ef3b0aeef647912fd9e35308e70c39da9e2980004d06b1b92e0c96640",
+        "wire_tokens": 157825
+      },
+      "prior_core_profile_bound": true,
+      "profile_sha256": "2d562fc390e48ef72010e3081d217d9ce4833594f8a7df793b2c4cc2a33cd998",
+      "replay_sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a"
+    },
+    {
+      "actual_build_base_data": 98348,
+      "actual_root": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "crossbinding": {
+        "ClientInfo_records": 10,
+        "MapInfo_records": 6,
+        "all_ClientInfo_record_boundaries_match": true,
+        "all_MapInfo_record_boundaries_match": true,
+        "all_named_surrounding_anchors_match": true,
+        "named_surrounding_anchors_checked": 12
+      },
+      "fresh_core_event_decode_performed": false,
+      "fresh_observed_full_mod_tail_EOF_and_private_gates": true,
+      "id": "current-us-05",
+      "native_OnlineStartGameRequest": {
+        "EOF_alignment_padding_bits": 5,
+        "archive_build_root_or_full_replay_compatibility_claimed": false,
+        "complete_EOF_and_readonly_whole_member_reencoding_exact": true,
+        "decoded_fields": 423481,
+        "member_bytes": 282768,
+        "member_sha256": "2f2a5a0712b0f13259e64371c8e7947db4cb67f9a03aff74cdd490730d8b7a23",
+        "named_root_fields": 25,
+        "native_payload_end_bit": 2262139,
+        "native_payload_start_bit": 0,
+        "private_author_client_license_network_or_player_values_emitted": false,
+        "profile": "online-start-98348",
+        "root_field_spans": [
+          {
+            "end_bit": 2228368,
+            "kind": "STRUCT",
+            "name": "StartGameRequest",
+            "start_bit": 0
+          },
+          {
+            "end_bit": 2228400,
+            "kind": "BLOB",
+            "name": "m_randomSeed",
+            "start_bit": 2228368
+          },
+          {
+            "end_bit": 2228432,
+            "kind": "INT",
+            "name": "m_clientId",
+            "start_bit": 2228400
+          },
+          {
+            "end_bit": 2236481,
+            "kind": "ARRAY",
+            "name": "m_clientInfoList",
+            "start_bit": 2228432
+          },
+          {
+            "end_bit": 2236545,
+            "kind": "STRUCT",
+            "name": "m_voiceSessionId",
+            "start_bit": 2236481
+          },
+          {
+            "end_bit": 2236546,
+            "kind": "OPTIONAL",
+            "name": "m_ammHandle",
+            "start_bit": 2236545
+          },
+          {
+            "end_bit": 2236547,
+            "kind": "BOOL",
+            "name": "m_isCompetitive",
+            "start_bit": 2236546
+          },
+          {
+            "end_bit": 2236548,
+            "kind": "BOOL",
+            "name": "m_isRanked",
+            "start_bit": 2236547
+          },
+          {
+            "end_bit": 2236549,
+            "kind": "BOOL",
+            "name": "m_isPractice",
+            "start_bit": 2236548
+          },
+          {
+            "end_bit": 2236550,
+            "kind": "BOOL",
+            "name": "m_isCooperative",
+            "start_bit": 2236549
+          },
+          {
+            "end_bit": 2236551,
+            "kind": "BOOL",
+            "name": "m_saveStats",
+            "start_bit": 2236550
+          },
+          {
+            "end_bit": 2236552,
+            "kind": "BOOL",
+            "name": "m_saveReplay",
+            "start_bit": 2236551
+          },
+          {
+            "end_bit": 2236648,
+            "kind": "STRUCT",
+            "name": "m_instanceHandle",
+            "start_bit": 2236552
+          },
+          {
+            "end_bit": 2236805,
+            "kind": "OPTIONAL",
+            "name": "m_ladderStats",
+            "start_bit": 2236648
+          },
+          {
+            "end_bit": 2237130,
+            "kind": "OPTIONAL",
+            "name": "m_races",
+            "start_bit": 2236805
+          },
+          {
+            "end_bit": 2246987,
+            "kind": "ARRAY",
+            "name": "m_clientUnlockableInfoList",
+            "start_bit": 2237130
+          },
+          {
+            "end_bit": 2247025,
+            "kind": "ARRAY",
+            "name": "m_achievementTags",
+            "start_bit": 2246987
+          },
+          {
+            "end_bit": 2247510,
+            "kind": "ARRAY",
+            "name": "m_clientLicensesList",
+            "start_bit": 2247025
+          },
+          {
+            "end_bit": 2247542,
+            "kind": "INT",
+            "name": "m_currentTurn",
+            "start_bit": 2247510
+          },
+          {
+            "end_bit": 2247574,
+            "kind": "INT",
+            "name": "m_turnIntervalMS",
+            "start_bit": 2247542
+          },
+          {
+            "end_bit": 2247606,
+            "kind": "INT",
+            "name": "m_currentSyncEventNumber",
+            "start_bit": 2247574
+          },
+          {
+            "end_bit": 2247607,
+            "kind": "OPTIONAL",
+            "name": "m_tournamentInfo",
+            "start_bit": 2247606
+          },
+          {
+            "end_bit": 2262137,
+            "kind": "ARRAY",
+            "name": "m_heroMasteryTiers",
+            "start_bit": 2247607
+          },
+          {
+            "end_bit": 2262138,
+            "kind": "OPTIONAL",
+            "name": "m_rejoinSaveCacheHandle",
+            "start_bit": 2262137
+          },
+          {
+            "end_bit": 2262139,
+            "kind": "OPTIONAL",
+            "name": "m_rejoinSaveElapsedGameLoops",
+            "start_bit": 2262138
+          }
+        ],
+        "root_type_id": 5917,
+        "safe_array_counts": {
+          "/StartGameRequest/m_accessMatrix": 5418,
+          "/StartGameRequest/m_disabledHeroList": 0,
+          "/StartGameRequest/m_mapInfoList": 6,
+          "/StartGameRequest/m_resourceMap": 5418,
+          "/m_achievementTags": 1,
+          "/m_clientInfoList": 10,
+          "/m_clientLicensesList": 10,
+          "/m_clientUnlockableInfoList": 10,
+          "/m_heroMasteryTiers": 88
+        },
+        "schema_sha256": "0fd61c8ef3b0aeef647912fd9e35308e70c39da9e2980004d06b1b92e0c96640",
+        "wire_tokens": 157725
+      },
+      "prior_core_profile_bound": true,
+      "profile_sha256": "dfb09d83dd8c4f8c5bd055a87a66088e3ff85ed2ee0a04487fe51ba28412e92e",
+      "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c"
+    },
+    {
+      "actual_build_base_data": 98348,
+      "actual_root": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "crossbinding": {
+        "ClientInfo_records": 10,
+        "MapInfo_records": 6,
+        "all_ClientInfo_record_boundaries_match": true,
+        "all_MapInfo_record_boundaries_match": true,
+        "all_named_surrounding_anchors_match": true,
+        "named_surrounding_anchors_checked": 12
+      },
+      "fresh_core_event_decode_performed": false,
+      "fresh_observed_full_mod_tail_EOF_and_private_gates": true,
+      "id": "current-us-06",
+      "native_OnlineStartGameRequest": {
+        "EOF_alignment_padding_bits": 2,
+        "archive_build_root_or_full_replay_compatibility_claimed": false,
+        "complete_EOF_and_readonly_whole_member_reencoding_exact": true,
+        "decoded_fields": 423571,
+        "member_bytes": 282840,
+        "member_sha256": "41fa82787dad98164af19a8dcba3d6204fad73d347fc55e3e1935e7bff4fbc23",
+        "named_root_fields": 25,
+        "native_payload_end_bit": 2262718,
+        "native_payload_start_bit": 0,
+        "private_author_client_license_network_or_player_values_emitted": false,
+        "profile": "online-start-98348",
+        "root_field_spans": [
+          {
+            "end_bit": 2228368,
+            "kind": "STRUCT",
+            "name": "StartGameRequest",
+            "start_bit": 0
+          },
+          {
+            "end_bit": 2228400,
+            "kind": "BLOB",
+            "name": "m_randomSeed",
+            "start_bit": 2228368
+          },
+          {
+            "end_bit": 2228432,
+            "kind": "INT",
+            "name": "m_clientId",
+            "start_bit": 2228400
+          },
+          {
+            "end_bit": 2236473,
+            "kind": "ARRAY",
+            "name": "m_clientInfoList",
+            "start_bit": 2228432
+          },
+          {
+            "end_bit": 2236537,
+            "kind": "STRUCT",
+            "name": "m_voiceSessionId",
+            "start_bit": 2236473
+          },
+          {
+            "end_bit": 2236538,
+            "kind": "OPTIONAL",
+            "name": "m_ammHandle",
+            "start_bit": 2236537
+          },
+          {
+            "end_bit": 2236539,
+            "kind": "BOOL",
+            "name": "m_isCompetitive",
+            "start_bit": 2236538
+          },
+          {
+            "end_bit": 2236540,
+            "kind": "BOOL",
+            "name": "m_isRanked",
+            "start_bit": 2236539
+          },
+          {
+            "end_bit": 2236541,
+            "kind": "BOOL",
+            "name": "m_isPractice",
+            "start_bit": 2236540
+          },
+          {
+            "end_bit": 2236542,
+            "kind": "BOOL",
+            "name": "m_isCooperative",
+            "start_bit": 2236541
+          },
+          {
+            "end_bit": 2236543,
+            "kind": "BOOL",
+            "name": "m_saveStats",
+            "start_bit": 2236542
+          },
+          {
+            "end_bit": 2236544,
+            "kind": "BOOL",
+            "name": "m_saveReplay",
+            "start_bit": 2236543
+          },
+          {
+            "end_bit": 2236640,
+            "kind": "STRUCT",
+            "name": "m_instanceHandle",
+            "start_bit": 2236544
+          },
+          {
+            "end_bit": 2236835,
+            "kind": "OPTIONAL",
+            "name": "m_ladderStats",
+            "start_bit": 2236640
+          },
+          {
+            "end_bit": 2237160,
+            "kind": "OPTIONAL",
+            "name": "m_races",
+            "start_bit": 2236835
+          },
+          {
+            "end_bit": 2247401,
+            "kind": "ARRAY",
+            "name": "m_clientUnlockableInfoList",
+            "start_bit": 2237160
+          },
+          {
+            "end_bit": 2247439,
+            "kind": "ARRAY",
+            "name": "m_achievementTags",
+            "start_bit": 2247401
+          },
+          {
+            "end_bit": 2247924,
+            "kind": "ARRAY",
+            "name": "m_clientLicensesList",
+            "start_bit": 2247439
+          },
+          {
+            "end_bit": 2247956,
+            "kind": "INT",
+            "name": "m_currentTurn",
+            "start_bit": 2247924
+          },
+          {
+            "end_bit": 2247988,
+            "kind": "INT",
+            "name": "m_turnIntervalMS",
+            "start_bit": 2247956
+          },
+          {
+            "end_bit": 2248020,
+            "kind": "INT",
+            "name": "m_currentSyncEventNumber",
+            "start_bit": 2247988
+          },
+          {
+            "end_bit": 2248021,
+            "kind": "OPTIONAL",
+            "name": "m_tournamentInfo",
+            "start_bit": 2248020
+          },
+          {
+            "end_bit": 2262716,
+            "kind": "ARRAY",
+            "name": "m_heroMasteryTiers",
+            "start_bit": 2248021
+          },
+          {
+            "end_bit": 2262717,
+            "kind": "OPTIONAL",
+            "name": "m_rejoinSaveCacheHandle",
+            "start_bit": 2262716
+          },
+          {
+            "end_bit": 2262718,
+            "kind": "OPTIONAL",
+            "name": "m_rejoinSaveElapsedGameLoops",
+            "start_bit": 2262717
+          }
+        ],
+        "root_type_id": 5917,
+        "safe_array_counts": {
+          "/StartGameRequest/m_accessMatrix": 5418,
+          "/StartGameRequest/m_disabledHeroList": 0,
+          "/StartGameRequest/m_mapInfoList": 6,
+          "/StartGameRequest/m_resourceMap": 5418,
+          "/m_achievementTags": 1,
+          "/m_clientInfoList": 10,
+          "/m_clientLicensesList": 10,
+          "/m_clientUnlockableInfoList": 10,
+          "/m_heroMasteryTiers": 89
+        },
+        "schema_sha256": "0fd61c8ef3b0aeef647912fd9e35308e70c39da9e2980004d06b1b92e0c96640",
+        "wire_tokens": 157762
+      },
+      "prior_core_profile_bound": true,
+      "profile_sha256": "7176cf12f3f6c7ad71919f5a8b4899594d3dfd23a2ab56e5cd0475d9dcebb1c7",
+      "replay_sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4"
+    },
+    {
+      "actual_build_base_data": 98348,
+      "actual_root": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "crossbinding": {
+        "ClientInfo_records": 10,
+        "MapInfo_records": 6,
+        "all_ClientInfo_record_boundaries_match": true,
+        "all_MapInfo_record_boundaries_match": true,
+        "all_named_surrounding_anchors_match": true,
+        "named_surrounding_anchors_checked": 12
+      },
+      "fresh_core_event_decode_performed": false,
+      "fresh_observed_full_mod_tail_EOF_and_private_gates": true,
+      "id": "current-us-07",
+      "native_OnlineStartGameRequest": {
+        "EOF_alignment_padding_bits": 1,
+        "archive_build_root_or_full_replay_compatibility_claimed": false,
+        "complete_EOF_and_readonly_whole_member_reencoding_exact": true,
+        "decoded_fields": 423493,
+        "member_bytes": 282779,
+        "member_sha256": "0d63889a740e4c0556b915aa1ee0b88bf7394bef76411c401d327b44e4058b9d",
+        "named_root_fields": 25,
+        "native_payload_end_bit": 2262231,
+        "native_payload_start_bit": 0,
+        "private_author_client_license_network_or_player_values_emitted": false,
+        "profile": "online-start-98348",
+        "root_field_spans": [
+          {
+            "end_bit": 2228368,
+            "kind": "STRUCT",
+            "name": "StartGameRequest",
+            "start_bit": 0
+          },
+          {
+            "end_bit": 2228400,
+            "kind": "BLOB",
+            "name": "m_randomSeed",
+            "start_bit": 2228368
+          },
+          {
+            "end_bit": 2228432,
+            "kind": "INT",
+            "name": "m_clientId",
+            "start_bit": 2228400
+          },
+          {
+            "end_bit": 2236073,
+            "kind": "ARRAY",
+            "name": "m_clientInfoList",
+            "start_bit": 2228432
+          },
+          {
+            "end_bit": 2236137,
+            "kind": "STRUCT",
+            "name": "m_voiceSessionId",
+            "start_bit": 2236073
+          },
+          {
+            "end_bit": 2236138,
+            "kind": "OPTIONAL",
+            "name": "m_ammHandle",
+            "start_bit": 2236137
+          },
+          {
+            "end_bit": 2236139,
+            "kind": "BOOL",
+            "name": "m_isCompetitive",
+            "start_bit": 2236138
+          },
+          {
+            "end_bit": 2236140,
+            "kind": "BOOL",
+            "name": "m_isRanked",
+            "start_bit": 2236139
+          },
+          {
+            "end_bit": 2236141,
+            "kind": "BOOL",
+            "name": "m_isPractice",
+            "start_bit": 2236140
+          },
+          {
+            "end_bit": 2236142,
+            "kind": "BOOL",
+            "name": "m_isCooperative",
+            "start_bit": 2236141
+          },
+          {
+            "end_bit": 2236143,
+            "kind": "BOOL",
+            "name": "m_saveStats",
+            "start_bit": 2236142
+          },
+          {
+            "end_bit": 2236144,
+            "kind": "BOOL",
+            "name": "m_saveReplay",
+            "start_bit": 2236143
+          },
+          {
+            "end_bit": 2236240,
+            "kind": "STRUCT",
+            "name": "m_instanceHandle",
+            "start_bit": 2236144
+          },
+          {
+            "end_bit": 2236321,
+            "kind": "OPTIONAL",
+            "name": "m_ladderStats",
+            "start_bit": 2236240
+          },
+          {
+            "end_bit": 2236646,
+            "kind": "OPTIONAL",
+            "name": "m_races",
+            "start_bit": 2236321
+          },
+          {
+            "end_bit": 2247079,
+            "kind": "ARRAY",
+            "name": "m_clientUnlockableInfoList",
+            "start_bit": 2236646
+          },
+          {
+            "end_bit": 2247117,
+            "kind": "ARRAY",
+            "name": "m_achievementTags",
+            "start_bit": 2247079
+          },
+          {
+            "end_bit": 2247602,
+            "kind": "ARRAY",
+            "name": "m_clientLicensesList",
+            "start_bit": 2247117
+          },
+          {
+            "end_bit": 2247634,
+            "kind": "INT",
+            "name": "m_currentTurn",
+            "start_bit": 2247602
+          },
+          {
+            "end_bit": 2247666,
+            "kind": "INT",
+            "name": "m_turnIntervalMS",
+            "start_bit": 2247634
+          },
+          {
+            "end_bit": 2247698,
+            "kind": "INT",
+            "name": "m_currentSyncEventNumber",
+            "start_bit": 2247666
+          },
+          {
+            "end_bit": 2247699,
+            "kind": "OPTIONAL",
+            "name": "m_tournamentInfo",
+            "start_bit": 2247698
+          },
+          {
+            "end_bit": 2262229,
+            "kind": "ARRAY",
+            "name": "m_heroMasteryTiers",
+            "start_bit": 2247699
+          },
+          {
+            "end_bit": 2262230,
+            "kind": "OPTIONAL",
+            "name": "m_rejoinSaveCacheHandle",
+            "start_bit": 2262229
+          },
+          {
+            "end_bit": 2262231,
+            "kind": "OPTIONAL",
+            "name": "m_rejoinSaveElapsedGameLoops",
+            "start_bit": 2262230
+          }
+        ],
+        "root_type_id": 5917,
+        "safe_array_counts": {
+          "/StartGameRequest/m_accessMatrix": 5418,
+          "/StartGameRequest/m_disabledHeroList": 0,
+          "/StartGameRequest/m_mapInfoList": 6,
+          "/StartGameRequest/m_resourceMap": 5418,
+          "/m_achievementTags": 1,
+          "/m_clientInfoList": 10,
+          "/m_clientLicensesList": 10,
+          "/m_clientUnlockableInfoList": 10,
+          "/m_heroMasteryTiers": 88
+        },
+        "schema_sha256": "0fd61c8ef3b0aeef647912fd9e35308e70c39da9e2980004d06b1b92e0c96640",
+        "wire_tokens": 157727
+      },
+      "prior_core_profile_bound": true,
+      "profile_sha256": "5072c639bd48e5f74ceb2121a3c3ba660272a989cbb77ec711e2ad3e3c149b3a",
+      "replay_sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c"
+    },
+    {
+      "actual_build_base_data": 98348,
+      "actual_root": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "crossbinding": {
+        "ClientInfo_records": 10,
+        "MapInfo_records": 6,
+        "all_ClientInfo_record_boundaries_match": true,
+        "all_MapInfo_record_boundaries_match": true,
+        "all_named_surrounding_anchors_match": true,
+        "named_surrounding_anchors_checked": 12
+      },
+      "fresh_core_event_decode_performed": false,
+      "fresh_observed_full_mod_tail_EOF_and_private_gates": true,
+      "id": "current-us-08",
+      "native_OnlineStartGameRequest": {
+        "EOF_alignment_padding_bits": 6,
+        "archive_build_root_or_full_replay_compatibility_claimed": false,
+        "complete_EOF_and_readonly_whole_member_reencoding_exact": true,
+        "decoded_fields": 423499,
+        "member_bytes": 282765,
+        "member_sha256": "88f5317afe6462d5b6f9f9e5444e0ee93aa21f0bbf395c0437df39b26d11c29e",
+        "named_root_fields": 25,
+        "native_payload_end_bit": 2262114,
+        "native_payload_start_bit": 0,
+        "private_author_client_license_network_or_player_values_emitted": false,
+        "profile": "online-start-98348",
+        "root_field_spans": [
+          {
+            "end_bit": 2228368,
+            "kind": "STRUCT",
+            "name": "StartGameRequest",
+            "start_bit": 0
+          },
+          {
+            "end_bit": 2228400,
+            "kind": "BLOB",
+            "name": "m_randomSeed",
+            "start_bit": 2228368
+          },
+          {
+            "end_bit": 2228432,
+            "kind": "INT",
+            "name": "m_clientId",
+            "start_bit": 2228400
+          },
+          {
+            "end_bit": 2236137,
+            "kind": "ARRAY",
+            "name": "m_clientInfoList",
+            "start_bit": 2228432
+          },
+          {
+            "end_bit": 2236201,
+            "kind": "STRUCT",
+            "name": "m_voiceSessionId",
+            "start_bit": 2236137
+          },
+          {
+            "end_bit": 2236202,
+            "kind": "OPTIONAL",
+            "name": "m_ammHandle",
+            "start_bit": 2236201
+          },
+          {
+            "end_bit": 2236203,
+            "kind": "BOOL",
+            "name": "m_isCompetitive",
+            "start_bit": 2236202
+          },
+          {
+            "end_bit": 2236204,
+            "kind": "BOOL",
+            "name": "m_isRanked",
+            "start_bit": 2236203
+          },
+          {
+            "end_bit": 2236205,
+            "kind": "BOOL",
+            "name": "m_isPractice",
+            "start_bit": 2236204
+          },
+          {
+            "end_bit": 2236206,
+            "kind": "BOOL",
+            "name": "m_isCooperative",
+            "start_bit": 2236205
+          },
+          {
+            "end_bit": 2236207,
+            "kind": "BOOL",
+            "name": "m_saveStats",
+            "start_bit": 2236206
+          },
+          {
+            "end_bit": 2236208,
+            "kind": "BOOL",
+            "name": "m_saveReplay",
+            "start_bit": 2236207
+          },
+          {
+            "end_bit": 2236304,
+            "kind": "STRUCT",
+            "name": "m_instanceHandle",
+            "start_bit": 2236208
+          },
+          {
+            "end_bit": 2236423,
+            "kind": "OPTIONAL",
+            "name": "m_ladderStats",
+            "start_bit": 2236304
+          },
+          {
+            "end_bit": 2236748,
+            "kind": "OPTIONAL",
+            "name": "m_races",
+            "start_bit": 2236423
+          },
+          {
+            "end_bit": 2246797,
+            "kind": "ARRAY",
+            "name": "m_clientUnlockableInfoList",
+            "start_bit": 2236748
+          },
+          {
+            "end_bit": 2246835,
+            "kind": "ARRAY",
+            "name": "m_achievementTags",
+            "start_bit": 2246797
+          },
+          {
+            "end_bit": 2247320,
+            "kind": "ARRAY",
+            "name": "m_clientLicensesList",
+            "start_bit": 2246835
+          },
+          {
+            "end_bit": 2247352,
+            "kind": "INT",
+            "name": "m_currentTurn",
+            "start_bit": 2247320
+          },
+          {
+            "end_bit": 2247384,
+            "kind": "INT",
+            "name": "m_turnIntervalMS",
+            "start_bit": 2247352
+          },
+          {
+            "end_bit": 2247416,
+            "kind": "INT",
+            "name": "m_currentSyncEventNumber",
+            "start_bit": 2247384
+          },
+          {
+            "end_bit": 2247417,
+            "kind": "OPTIONAL",
+            "name": "m_tournamentInfo",
+            "start_bit": 2247416
+          },
+          {
+            "end_bit": 2262112,
+            "kind": "ARRAY",
+            "name": "m_heroMasteryTiers",
+            "start_bit": 2247417
+          },
+          {
+            "end_bit": 2262113,
+            "kind": "OPTIONAL",
+            "name": "m_rejoinSaveCacheHandle",
+            "start_bit": 2262112
+          },
+          {
+            "end_bit": 2262114,
+            "kind": "OPTIONAL",
+            "name": "m_rejoinSaveElapsedGameLoops",
+            "start_bit": 2262113
+          }
+        ],
+        "root_type_id": 5917,
+        "safe_array_counts": {
+          "/StartGameRequest/m_accessMatrix": 5418,
+          "/StartGameRequest/m_disabledHeroList": 0,
+          "/StartGameRequest/m_mapInfoList": 6,
+          "/StartGameRequest/m_resourceMap": 5418,
+          "/m_achievementTags": 1,
+          "/m_clientInfoList": 10,
+          "/m_clientLicensesList": 10,
+          "/m_clientUnlockableInfoList": 10,
+          "/m_heroMasteryTiers": 89
+        },
+        "schema_sha256": "0fd61c8ef3b0aeef647912fd9e35308e70c39da9e2980004d06b1b92e0c96640",
+        "wire_tokens": 157736
+      },
+      "prior_core_profile_bound": true,
+      "profile_sha256": "29d8f97fea994b919913612bda0b923ebdf49cacbd7b9b3a0c82de4fd090d2cc",
+      "replay_sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7"
+    },
+    {
+      "actual_build_base_data": 98348,
+      "actual_root": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "crossbinding": {
+        "ClientInfo_records": 10,
+        "MapInfo_records": 6,
+        "all_ClientInfo_record_boundaries_match": true,
+        "all_MapInfo_record_boundaries_match": true,
+        "all_named_surrounding_anchors_match": true,
+        "named_surrounding_anchors_checked": 12
+      },
+      "fresh_core_event_decode_performed": false,
+      "fresh_observed_full_mod_tail_EOF_and_private_gates": true,
+      "id": "current-us-09",
+      "native_OnlineStartGameRequest": {
+        "EOF_alignment_padding_bits": 3,
+        "archive_build_root_or_full_replay_compatibility_claimed": false,
+        "complete_EOF_and_readonly_whole_member_reencoding_exact": true,
+        "decoded_fields": 423562,
+        "member_bytes": 282827,
+        "member_sha256": "171ca2a107ef8a59a8959d5f6d3fe46691a2ad2b0c9411da1bf83380b9e4ead1",
+        "named_root_fields": 25,
+        "native_payload_end_bit": 2262613,
+        "native_payload_start_bit": 0,
+        "private_author_client_license_network_or_player_values_emitted": false,
+        "profile": "online-start-98348",
+        "root_field_spans": [
+          {
+            "end_bit": 2228368,
+            "kind": "STRUCT",
+            "name": "StartGameRequest",
+            "start_bit": 0
+          },
+          {
+            "end_bit": 2228400,
+            "kind": "BLOB",
+            "name": "m_randomSeed",
+            "start_bit": 2228368
+          },
+          {
+            "end_bit": 2228432,
+            "kind": "INT",
+            "name": "m_clientId",
+            "start_bit": 2228400
+          },
+          {
+            "end_bit": 2236529,
+            "kind": "ARRAY",
+            "name": "m_clientInfoList",
+            "start_bit": 2228432
+          },
+          {
+            "end_bit": 2236593,
+            "kind": "STRUCT",
+            "name": "m_voiceSessionId",
+            "start_bit": 2236529
+          },
+          {
+            "end_bit": 2236594,
+            "kind": "OPTIONAL",
+            "name": "m_ammHandle",
+            "start_bit": 2236593
+          },
+          {
+            "end_bit": 2236595,
+            "kind": "BOOL",
+            "name": "m_isCompetitive",
+            "start_bit": 2236594
+          },
+          {
+            "end_bit": 2236596,
+            "kind": "BOOL",
+            "name": "m_isRanked",
+            "start_bit": 2236595
+          },
+          {
+            "end_bit": 2236597,
+            "kind": "BOOL",
+            "name": "m_isPractice",
+            "start_bit": 2236596
+          },
+          {
+            "end_bit": 2236598,
+            "kind": "BOOL",
+            "name": "m_isCooperative",
+            "start_bit": 2236597
+          },
+          {
+            "end_bit": 2236599,
+            "kind": "BOOL",
+            "name": "m_saveStats",
+            "start_bit": 2236598
+          },
+          {
+            "end_bit": 2236600,
+            "kind": "BOOL",
+            "name": "m_saveReplay",
+            "start_bit": 2236599
+          },
+          {
+            "end_bit": 2236696,
+            "kind": "STRUCT",
+            "name": "m_instanceHandle",
+            "start_bit": 2236600
+          },
+          {
+            "end_bit": 2236853,
+            "kind": "OPTIONAL",
+            "name": "m_ladderStats",
+            "start_bit": 2236696
+          },
+          {
+            "end_bit": 2237178,
+            "kind": "OPTIONAL",
+            "name": "m_races",
+            "start_bit": 2236853
+          },
+          {
+            "end_bit": 2247131,
+            "kind": "ARRAY",
+            "name": "m_clientUnlockableInfoList",
+            "start_bit": 2237178
+          },
+          {
+            "end_bit": 2247169,
+            "kind": "ARRAY",
+            "name": "m_achievementTags",
+            "start_bit": 2247131
+          },
+          {
+            "end_bit": 2247654,
+            "kind": "ARRAY",
+            "name": "m_clientLicensesList",
+            "start_bit": 2247169
+          },
+          {
+            "end_bit": 2247686,
+            "kind": "INT",
+            "name": "m_currentTurn",
+            "start_bit": 2247654
+          },
+          {
+            "end_bit": 2247718,
+            "kind": "INT",
+            "name": "m_turnIntervalMS",
+            "start_bit": 2247686
+          },
+          {
+            "end_bit": 2247750,
+            "kind": "INT",
+            "name": "m_currentSyncEventNumber",
+            "start_bit": 2247718
+          },
+          {
+            "end_bit": 2247751,
+            "kind": "OPTIONAL",
+            "name": "m_tournamentInfo",
+            "start_bit": 2247750
+          },
+          {
+            "end_bit": 2262611,
+            "kind": "ARRAY",
+            "name": "m_heroMasteryTiers",
+            "start_bit": 2247751
+          },
+          {
+            "end_bit": 2262612,
+            "kind": "OPTIONAL",
+            "name": "m_rejoinSaveCacheHandle",
+            "start_bit": 2262611
+          },
+          {
+            "end_bit": 2262613,
+            "kind": "OPTIONAL",
+            "name": "m_rejoinSaveElapsedGameLoops",
+            "start_bit": 2262612
+          }
+        ],
+        "root_type_id": 5917,
+        "safe_array_counts": {
+          "/StartGameRequest/m_accessMatrix": 5418,
+          "/StartGameRequest/m_disabledHeroList": 0,
+          "/StartGameRequest/m_mapInfoList": 6,
+          "/StartGameRequest/m_resourceMap": 5418,
+          "/m_achievementTags": 1,
+          "/m_clientInfoList": 10,
+          "/m_clientLicensesList": 10,
+          "/m_clientUnlockableInfoList": 10,
+          "/m_heroMasteryTiers": 90
+        },
+        "schema_sha256": "0fd61c8ef3b0aeef647912fd9e35308e70c39da9e2980004d06b1b92e0c96640",
+        "wire_tokens": 157764
+      },
+      "prior_core_profile_bound": true,
+      "profile_sha256": "fd9481babfe54374857ee2ed5d55dc6de1c4faba1b194e9ca1ca0422544546cd",
+      "replay_sha256": "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd"
+    },
+    {
+      "actual_build_base_data": 98348,
+      "actual_root": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "crossbinding": {
+        "ClientInfo_records": 12,
+        "MapInfo_records": 6,
+        "all_ClientInfo_record_boundaries_match": true,
+        "all_MapInfo_record_boundaries_match": true,
+        "all_named_surrounding_anchors_match": true,
+        "named_surrounding_anchors_checked": 12
+      },
+      "fresh_core_event_decode_performed": false,
+      "fresh_observed_full_mod_tail_EOF_and_private_gates": true,
+      "id": "current-us-10",
+      "native_OnlineStartGameRequest": {
+        "EOF_alignment_padding_bits": 3,
+        "archive_build_root_or_full_replay_compatibility_claimed": false,
+        "complete_EOF_and_readonly_whole_member_reencoding_exact": true,
+        "decoded_fields": 423753,
+        "member_bytes": 283035,
+        "member_sha256": "2bacf43f671d86cd6aa3e483d02161b71d8ed101fa9a30596693edf719837039",
+        "named_root_fields": 25,
+        "native_payload_end_bit": 2264277,
+        "native_payload_start_bit": 0,
+        "private_author_client_license_network_or_player_values_emitted": false,
+        "profile": "online-start-98348",
+        "root_field_spans": [
+          {
+            "end_bit": 2228368,
+            "kind": "STRUCT",
+            "name": "StartGameRequest",
+            "start_bit": 0
+          },
+          {
+            "end_bit": 2228400,
+            "kind": "BLOB",
+            "name": "m_randomSeed",
+            "start_bit": 2228368
+          },
+          {
+            "end_bit": 2228432,
+            "kind": "INT",
+            "name": "m_clientId",
+            "start_bit": 2228400
+          },
+          {
+            "end_bit": 2237561,
+            "kind": "ARRAY",
+            "name": "m_clientInfoList",
+            "start_bit": 2228432
+          },
+          {
+            "end_bit": 2237625,
+            "kind": "STRUCT",
+            "name": "m_voiceSessionId",
+            "start_bit": 2237561
+          },
+          {
+            "end_bit": 2237626,
+            "kind": "OPTIONAL",
+            "name": "m_ammHandle",
+            "start_bit": 2237625
+          },
+          {
+            "end_bit": 2237627,
+            "kind": "BOOL",
+            "name": "m_isCompetitive",
+            "start_bit": 2237626
+          },
+          {
+            "end_bit": 2237628,
+            "kind": "BOOL",
+            "name": "m_isRanked",
+            "start_bit": 2237627
+          },
+          {
+            "end_bit": 2237629,
+            "kind": "BOOL",
+            "name": "m_isPractice",
+            "start_bit": 2237628
+          },
+          {
+            "end_bit": 2237630,
+            "kind": "BOOL",
+            "name": "m_isCooperative",
+            "start_bit": 2237629
+          },
+          {
+            "end_bit": 2237631,
+            "kind": "BOOL",
+            "name": "m_saveStats",
+            "start_bit": 2237630
+          },
+          {
+            "end_bit": 2237632,
+            "kind": "BOOL",
+            "name": "m_saveReplay",
+            "start_bit": 2237631
+          },
+          {
+            "end_bit": 2237728,
+            "kind": "STRUCT",
+            "name": "m_instanceHandle",
+            "start_bit": 2237632
+          },
+          {
+            "end_bit": 2237961,
+            "kind": "OPTIONAL",
+            "name": "m_ladderStats",
+            "start_bit": 2237728
+          },
+          {
+            "end_bit": 2238350,
+            "kind": "OPTIONAL",
+            "name": "m_races",
+            "start_bit": 2237961
+          },
+          {
+            "end_bit": 2248699,
+            "kind": "ARRAY",
+            "name": "m_clientUnlockableInfoList",
+            "start_bit": 2238350
+          },
+          {
+            "end_bit": 2248737,
+            "kind": "ARRAY",
+            "name": "m_achievementTags",
+            "start_bit": 2248699
+          },
+          {
+            "end_bit": 2249318,
+            "kind": "ARRAY",
+            "name": "m_clientLicensesList",
+            "start_bit": 2248737
+          },
+          {
+            "end_bit": 2249350,
+            "kind": "INT",
+            "name": "m_currentTurn",
+            "start_bit": 2249318
+          },
+          {
+            "end_bit": 2249382,
+            "kind": "INT",
+            "name": "m_turnIntervalMS",
+            "start_bit": 2249350
+          },
+          {
+            "end_bit": 2249414,
+            "kind": "INT",
+            "name": "m_currentSyncEventNumber",
+            "start_bit": 2249382
+          },
+          {
+            "end_bit": 2249415,
+            "kind": "OPTIONAL",
+            "name": "m_tournamentInfo",
+            "start_bit": 2249414
+          },
+          {
+            "end_bit": 2264275,
+            "kind": "ARRAY",
+            "name": "m_heroMasteryTiers",
+            "start_bit": 2249415
+          },
+          {
+            "end_bit": 2264276,
+            "kind": "OPTIONAL",
+            "name": "m_rejoinSaveCacheHandle",
+            "start_bit": 2264275
+          },
+          {
+            "end_bit": 2264277,
+            "kind": "OPTIONAL",
+            "name": "m_rejoinSaveElapsedGameLoops",
+            "start_bit": 2264276
+          }
+        ],
+        "root_type_id": 5917,
+        "safe_array_counts": {
+          "/StartGameRequest/m_accessMatrix": 5418,
+          "/StartGameRequest/m_disabledHeroList": 0,
+          "/StartGameRequest/m_mapInfoList": 6,
+          "/StartGameRequest/m_resourceMap": 5418,
+          "/m_achievementTags": 1,
+          "/m_clientInfoList": 12,
+          "/m_clientLicensesList": 12,
+          "/m_clientUnlockableInfoList": 12,
+          "/m_heroMasteryTiers": 90
+        },
+        "schema_sha256": "0fd61c8ef3b0aeef647912fd9e35308e70c39da9e2980004d06b1b92e0c96640",
+        "wire_tokens": 157849
+      },
+      "prior_core_profile_bound": true,
+      "profile_sha256": "a35175588e549f7089fa64cae51f6c867592b35d9ab8fbe90c7e1d217f31f111",
+      "replay_sha256": "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e"
+    },
+    {
+      "actual_build_base_data": 98348,
+      "actual_root": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "crossbinding": {
+        "ClientInfo_records": 10,
+        "MapInfo_records": 6,
+        "all_ClientInfo_record_boundaries_match": true,
+        "all_MapInfo_record_boundaries_match": true,
+        "all_named_surrounding_anchors_match": true,
+        "named_surrounding_anchors_checked": 12
+      },
+      "fresh_core_event_decode_performed": false,
+      "fresh_observed_full_mod_tail_EOF_and_private_gates": true,
+      "id": "current-us-11",
+      "native_OnlineStartGameRequest": {
+        "EOF_alignment_padding_bits": 2,
+        "archive_build_root_or_full_replay_compatibility_claimed": false,
+        "complete_EOF_and_readonly_whole_member_reencoding_exact": true,
+        "decoded_fields": 423595,
+        "member_bytes": 282837,
+        "member_sha256": "3812de9f6dedefb3c4adc2bb69ce90c4f691eb0814d91e89ca4f16e66d57ef46",
+        "named_root_fields": 25,
+        "native_payload_end_bit": 2262694,
+        "native_payload_start_bit": 0,
+        "private_author_client_license_network_or_player_values_emitted": false,
+        "profile": "online-start-98348",
+        "root_field_spans": [
+          {
+            "end_bit": 2228368,
+            "kind": "STRUCT",
+            "name": "StartGameRequest",
+            "start_bit": 0
+          },
+          {
+            "end_bit": 2228400,
+            "kind": "BLOB",
+            "name": "m_randomSeed",
+            "start_bit": 2228368
+          },
+          {
+            "end_bit": 2228432,
+            "kind": "INT",
+            "name": "m_clientId",
+            "start_bit": 2228400
+          },
+          {
+            "end_bit": 2236465,
+            "kind": "ARRAY",
+            "name": "m_clientInfoList",
+            "start_bit": 2228432
+          },
+          {
+            "end_bit": 2236529,
+            "kind": "STRUCT",
+            "name": "m_voiceSessionId",
+            "start_bit": 2236465
+          },
+          {
+            "end_bit": 2236530,
+            "kind": "OPTIONAL",
+            "name": "m_ammHandle",
+            "start_bit": 2236529
+          },
+          {
+            "end_bit": 2236531,
+            "kind": "BOOL",
+            "name": "m_isCompetitive",
+            "start_bit": 2236530
+          },
+          {
+            "end_bit": 2236532,
+            "kind": "BOOL",
+            "name": "m_isRanked",
+            "start_bit": 2236531
+          },
+          {
+            "end_bit": 2236533,
+            "kind": "BOOL",
+            "name": "m_isPractice",
+            "start_bit": 2236532
+          },
+          {
+            "end_bit": 2236534,
+            "kind": "BOOL",
+            "name": "m_isCooperative",
+            "start_bit": 2236533
+          },
+          {
+            "end_bit": 2236535,
+            "kind": "BOOL",
+            "name": "m_saveStats",
+            "start_bit": 2236534
+          },
+          {
+            "end_bit": 2236536,
+            "kind": "BOOL",
+            "name": "m_saveReplay",
+            "start_bit": 2236535
+          },
+          {
+            "end_bit": 2236632,
+            "kind": "STRUCT",
+            "name": "m_instanceHandle",
+            "start_bit": 2236536
+          },
+          {
+            "end_bit": 2236865,
+            "kind": "OPTIONAL",
+            "name": "m_ladderStats",
+            "start_bit": 2236632
+          },
+          {
+            "end_bit": 2237190,
+            "kind": "OPTIONAL",
+            "name": "m_races",
+            "start_bit": 2236865
+          },
+          {
+            "end_bit": 2247047,
+            "kind": "ARRAY",
+            "name": "m_clientUnlockableInfoList",
+            "start_bit": 2237190
+          },
+          {
+            "end_bit": 2247085,
+            "kind": "ARRAY",
+            "name": "m_achievementTags",
+            "start_bit": 2247047
+          },
+          {
+            "end_bit": 2247570,
+            "kind": "ARRAY",
+            "name": "m_clientLicensesList",
+            "start_bit": 2247085
+          },
+          {
+            "end_bit": 2247602,
+            "kind": "INT",
+            "name": "m_currentTurn",
+            "start_bit": 2247570
+          },
+          {
+            "end_bit": 2247634,
+            "kind": "INT",
+            "name": "m_turnIntervalMS",
+            "start_bit": 2247602
+          },
+          {
+            "end_bit": 2247666,
+            "kind": "INT",
+            "name": "m_currentSyncEventNumber",
+            "start_bit": 2247634
+          },
+          {
+            "end_bit": 2247667,
+            "kind": "OPTIONAL",
+            "name": "m_tournamentInfo",
+            "start_bit": 2247666
+          },
+          {
+            "end_bit": 2262692,
+            "kind": "ARRAY",
+            "name": "m_heroMasteryTiers",
+            "start_bit": 2247667
+          },
+          {
+            "end_bit": 2262693,
+            "kind": "OPTIONAL",
+            "name": "m_rejoinSaveCacheHandle",
+            "start_bit": 2262692
+          },
+          {
+            "end_bit": 2262694,
+            "kind": "OPTIONAL",
+            "name": "m_rejoinSaveElapsedGameLoops",
+            "start_bit": 2262693
+          }
+        ],
+        "root_type_id": 5917,
+        "safe_array_counts": {
+          "/StartGameRequest/m_accessMatrix": 5418,
+          "/StartGameRequest/m_disabledHeroList": 0,
+          "/StartGameRequest/m_mapInfoList": 6,
+          "/StartGameRequest/m_resourceMap": 5418,
+          "/m_achievementTags": 1,
+          "/m_clientInfoList": 10,
+          "/m_clientLicensesList": 10,
+          "/m_clientUnlockableInfoList": 10,
+          "/m_heroMasteryTiers": 91
+        },
+        "schema_sha256": "0fd61c8ef3b0aeef647912fd9e35308e70c39da9e2980004d06b1b92e0c96640",
+        "wire_tokens": 157783
+      },
+      "prior_core_profile_bound": true,
+      "profile_sha256": "0b998c363430aeec02c3005124f747da5787b2d10bf72732ee952bd5ddc14d6b",
+      "replay_sha256": "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f"
+    },
+    {
+      "actual_build_base_data": 98348,
+      "actual_root": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "crossbinding": {
+        "ClientInfo_records": 10,
+        "MapInfo_records": 6,
+        "all_ClientInfo_record_boundaries_match": true,
+        "all_MapInfo_record_boundaries_match": true,
+        "all_named_surrounding_anchors_match": true,
+        "named_surrounding_anchors_checked": 12
+      },
+      "fresh_core_event_decode_performed": false,
+      "fresh_observed_full_mod_tail_EOF_and_private_gates": true,
+      "id": "current-us-12",
+      "native_OnlineStartGameRequest": {
+        "EOF_alignment_padding_bits": 2,
+        "archive_build_root_or_full_replay_compatibility_claimed": false,
+        "complete_EOF_and_readonly_whole_member_reencoding_exact": true,
+        "decoded_fields": 423490,
+        "member_bytes": 282755,
+        "member_sha256": "c02a3f8e2a7d22b59f71d4b4ad9f57f62a394dead326ff085ecca77ed449504a",
+        "named_root_fields": 25,
+        "native_payload_end_bit": 2262038,
+        "native_payload_start_bit": 0,
+        "private_author_client_license_network_or_player_values_emitted": false,
+        "profile": "online-start-98348",
+        "root_field_spans": [
+          {
+            "end_bit": 2228368,
+            "kind": "STRUCT",
+            "name": "StartGameRequest",
+            "start_bit": 0
+          },
+          {
+            "end_bit": 2228400,
+            "kind": "BLOB",
+            "name": "m_randomSeed",
+            "start_bit": 2228368
+          },
+          {
+            "end_bit": 2228432,
+            "kind": "INT",
+            "name": "m_clientId",
+            "start_bit": 2228400
+          },
+          {
+            "end_bit": 2236041,
+            "kind": "ARRAY",
+            "name": "m_clientInfoList",
+            "start_bit": 2228432
+          },
+          {
+            "end_bit": 2236105,
+            "kind": "STRUCT",
+            "name": "m_voiceSessionId",
+            "start_bit": 2236041
+          },
+          {
+            "end_bit": 2236106,
+            "kind": "OPTIONAL",
+            "name": "m_ammHandle",
+            "start_bit": 2236105
+          },
+          {
+            "end_bit": 2236107,
+            "kind": "BOOL",
+            "name": "m_isCompetitive",
+            "start_bit": 2236106
+          },
+          {
+            "end_bit": 2236108,
+            "kind": "BOOL",
+            "name": "m_isRanked",
+            "start_bit": 2236107
+          },
+          {
+            "end_bit": 2236109,
+            "kind": "BOOL",
+            "name": "m_isPractice",
+            "start_bit": 2236108
+          },
+          {
+            "end_bit": 2236110,
+            "kind": "BOOL",
+            "name": "m_isCooperative",
+            "start_bit": 2236109
+          },
+          {
+            "end_bit": 2236111,
+            "kind": "BOOL",
+            "name": "m_saveStats",
+            "start_bit": 2236110
+          },
+          {
+            "end_bit": 2236112,
+            "kind": "BOOL",
+            "name": "m_saveReplay",
+            "start_bit": 2236111
+          },
+          {
+            "end_bit": 2236208,
+            "kind": "STRUCT",
+            "name": "m_instanceHandle",
+            "start_bit": 2236112
+          },
+          {
+            "end_bit": 2236251,
+            "kind": "OPTIONAL",
+            "name": "m_ladderStats",
+            "start_bit": 2236208
+          },
+          {
+            "end_bit": 2236576,
+            "kind": "OPTIONAL",
+            "name": "m_races",
+            "start_bit": 2236251
+          },
+          {
+            "end_bit": 2246721,
+            "kind": "ARRAY",
+            "name": "m_clientUnlockableInfoList",
+            "start_bit": 2236576
+          },
+          {
+            "end_bit": 2246759,
+            "kind": "ARRAY",
+            "name": "m_achievementTags",
+            "start_bit": 2246721
+          },
+          {
+            "end_bit": 2247244,
+            "kind": "ARRAY",
+            "name": "m_clientLicensesList",
+            "start_bit": 2246759
+          },
+          {
+            "end_bit": 2247276,
+            "kind": "INT",
+            "name": "m_currentTurn",
+            "start_bit": 2247244
+          },
+          {
+            "end_bit": 2247308,
+            "kind": "INT",
+            "name": "m_turnIntervalMS",
+            "start_bit": 2247276
+          },
+          {
+            "end_bit": 2247340,
+            "kind": "INT",
+            "name": "m_currentSyncEventNumber",
+            "start_bit": 2247308
+          },
+          {
+            "end_bit": 2247341,
+            "kind": "OPTIONAL",
+            "name": "m_tournamentInfo",
+            "start_bit": 2247340
+          },
+          {
+            "end_bit": 2262036,
+            "kind": "ARRAY",
+            "name": "m_heroMasteryTiers",
+            "start_bit": 2247341
+          },
+          {
+            "end_bit": 2262037,
+            "kind": "OPTIONAL",
+            "name": "m_rejoinSaveCacheHandle",
+            "start_bit": 2262036
+          },
+          {
+            "end_bit": 2262038,
+            "kind": "OPTIONAL",
+            "name": "m_rejoinSaveElapsedGameLoops",
+            "start_bit": 2262037
+          }
+        ],
+        "root_type_id": 5917,
+        "safe_array_counts": {
+          "/StartGameRequest/m_accessMatrix": 5418,
+          "/StartGameRequest/m_disabledHeroList": 0,
+          "/StartGameRequest/m_mapInfoList": 6,
+          "/StartGameRequest/m_resourceMap": 5418,
+          "/m_achievementTags": 1,
+          "/m_clientInfoList": 10,
+          "/m_clientLicensesList": 10,
+          "/m_clientUnlockableInfoList": 10,
+          "/m_heroMasteryTiers": 89
+        },
+        "schema_sha256": "0fd61c8ef3b0aeef647912fd9e35308e70c39da9e2980004d06b1b92e0c96640",
+        "wire_tokens": 157731
+      },
+      "prior_core_profile_bound": true,
+      "profile_sha256": "f78a46019ad2ba71c0ef1885feb5e19bef0f6c10a72e9a0eaf7e7621d705c77f",
+      "replay_sha256": "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77"
+    },
+    {
+      "actual_build_base_data": 98348,
+      "actual_root": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "crossbinding": {
+        "ClientInfo_records": 10,
+        "MapInfo_records": 8,
+        "all_ClientInfo_record_boundaries_match": true,
+        "all_MapInfo_record_boundaries_match": true,
+        "all_named_surrounding_anchors_match": true,
+        "named_surrounding_anchors_checked": 12
+      },
+      "fresh_core_event_decode_performed": false,
+      "fresh_observed_full_mod_tail_EOF_and_private_gates": true,
+      "id": "current-eu-01",
+      "native_OnlineStartGameRequest": {
+        "EOF_alignment_padding_bits": 0,
+        "archive_build_root_or_full_replay_compatibility_claimed": false,
+        "complete_EOF_and_readonly_whole_member_reencoding_exact": true,
+        "decoded_fields": 424200,
+        "member_bytes": 284879,
+        "member_sha256": "62a6c46d2f5b17139b72cd0b84a1ceeeac76b04a7a254889943d61c413d8adf1",
+        "named_root_fields": 25,
+        "native_payload_end_bit": 2279032,
+        "native_payload_start_bit": 0,
+        "private_author_client_license_network_or_player_values_emitted": false,
+        "profile": "online-start-98348",
+        "root_field_spans": [
+          {
+            "end_bit": 2246024,
+            "kind": "STRUCT",
+            "name": "StartGameRequest",
+            "start_bit": 0
+          },
+          {
+            "end_bit": 2246056,
+            "kind": "BLOB",
+            "name": "m_randomSeed",
+            "start_bit": 2246024
+          },
+          {
+            "end_bit": 2246088,
+            "kind": "INT",
+            "name": "m_clientId",
+            "start_bit": 2246056
+          },
+          {
+            "end_bit": 2253929,
+            "kind": "ARRAY",
+            "name": "m_clientInfoList",
+            "start_bit": 2246088
+          },
+          {
+            "end_bit": 2253993,
+            "kind": "STRUCT",
+            "name": "m_voiceSessionId",
+            "start_bit": 2253929
+          },
+          {
+            "end_bit": 2253994,
+            "kind": "OPTIONAL",
+            "name": "m_ammHandle",
+            "start_bit": 2253993
+          },
+          {
+            "end_bit": 2253995,
+            "kind": "BOOL",
+            "name": "m_isCompetitive",
+            "start_bit": 2253994
+          },
+          {
+            "end_bit": 2253996,
+            "kind": "BOOL",
+            "name": "m_isRanked",
+            "start_bit": 2253995
+          },
+          {
+            "end_bit": 2253997,
+            "kind": "BOOL",
+            "name": "m_isPractice",
+            "start_bit": 2253996
+          },
+          {
+            "end_bit": 2253998,
+            "kind": "BOOL",
+            "name": "m_isCooperative",
+            "start_bit": 2253997
+          },
+          {
+            "end_bit": 2253999,
+            "kind": "BOOL",
+            "name": "m_saveStats",
+            "start_bit": 2253998
+          },
+          {
+            "end_bit": 2254000,
+            "kind": "BOOL",
+            "name": "m_saveReplay",
+            "start_bit": 2253999
+          },
+          {
+            "end_bit": 2254096,
+            "kind": "STRUCT",
+            "name": "m_instanceHandle",
+            "start_bit": 2254000
+          },
+          {
+            "end_bit": 2254139,
+            "kind": "OPTIONAL",
+            "name": "m_ladderStats",
+            "start_bit": 2254096
+          },
+          {
+            "end_bit": 2254464,
+            "kind": "OPTIONAL",
+            "name": "m_races",
+            "start_bit": 2254139
+          },
+          {
+            "end_bit": 2264705,
+            "kind": "ARRAY",
+            "name": "m_clientUnlockableInfoList",
+            "start_bit": 2254464
+          },
+          {
+            "end_bit": 2264743,
+            "kind": "ARRAY",
+            "name": "m_achievementTags",
+            "start_bit": 2264705
+          },
+          {
+            "end_bit": 2265228,
+            "kind": "ARRAY",
+            "name": "m_clientLicensesList",
+            "start_bit": 2264743
+          },
+          {
+            "end_bit": 2265260,
+            "kind": "INT",
+            "name": "m_currentTurn",
+            "start_bit": 2265228
+          },
+          {
+            "end_bit": 2265292,
+            "kind": "INT",
+            "name": "m_turnIntervalMS",
+            "start_bit": 2265260
+          },
+          {
+            "end_bit": 2265324,
+            "kind": "INT",
+            "name": "m_currentSyncEventNumber",
+            "start_bit": 2265292
+          },
+          {
+            "end_bit": 2265325,
+            "kind": "OPTIONAL",
+            "name": "m_tournamentInfo",
+            "start_bit": 2265324
+          },
+          {
+            "end_bit": 2279030,
+            "kind": "ARRAY",
+            "name": "m_heroMasteryTiers",
+            "start_bit": 2265325
+          },
+          {
+            "end_bit": 2279031,
+            "kind": "OPTIONAL",
+            "name": "m_rejoinSaveCacheHandle",
+            "start_bit": 2279030
+          },
+          {
+            "end_bit": 2279032,
+            "kind": "OPTIONAL",
+            "name": "m_rejoinSaveElapsedGameLoops",
+            "start_bit": 2279031
+          }
+        ],
+        "root_type_id": 5917,
+        "safe_array_counts": {
+          "/StartGameRequest/m_accessMatrix": 5418,
+          "/StartGameRequest/m_disabledHeroList": 0,
+          "/StartGameRequest/m_mapInfoList": 8,
+          "/StartGameRequest/m_resourceMap": 5418,
+          "/m_achievementTags": 1,
+          "/m_clientInfoList": 10,
+          "/m_clientLicensesList": 10,
+          "/m_clientUnlockableInfoList": 10,
+          "/m_heroMasteryTiers": 83
+        },
+        "schema_sha256": "0fd61c8ef3b0aeef647912fd9e35308e70c39da9e2980004d06b1b92e0c96640",
+        "wire_tokens": 158055
+      },
+      "prior_core_profile_bound": true,
+      "profile_sha256": "255f13b2d9dd52763b94d4aa8d1e99624c4d38eb8e545e205549bffce3be9feb",
+      "replay_sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4"
+    },
+    {
+      "actual_build_base_data": 98348,
+      "actual_root": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "crossbinding": {
+        "ClientInfo_records": 10,
+        "MapInfo_records": 7,
+        "all_ClientInfo_record_boundaries_match": true,
+        "all_MapInfo_record_boundaries_match": true,
+        "all_named_surrounding_anchors_match": true,
+        "named_surrounding_anchors_checked": 12
+      },
+      "fresh_core_event_decode_performed": false,
+      "fresh_observed_full_mod_tail_EOF_and_private_gates": true,
+      "id": "crossmap-01",
+      "native_OnlineStartGameRequest": {
+        "EOF_alignment_padding_bits": 7,
+        "archive_build_root_or_full_replay_compatibility_claimed": false,
+        "complete_EOF_and_readonly_whole_member_reencoding_exact": true,
+        "decoded_fields": 423826,
+        "member_bytes": 283836,
+        "member_sha256": "ac55028f802c1dc318629af7267aad7c45f0cb8bed9b9420d22c844b8823df87",
+        "named_root_fields": 25,
+        "native_payload_end_bit": 2270681,
+        "native_payload_start_bit": 0,
+        "private_author_client_license_network_or_player_values_emitted": false,
+        "profile": "online-start-98348",
+        "root_field_spans": [
+          {
+            "end_bit": 2235896,
+            "kind": "STRUCT",
+            "name": "StartGameRequest",
+            "start_bit": 0
+          },
+          {
+            "end_bit": 2235928,
+            "kind": "BLOB",
+            "name": "m_randomSeed",
+            "start_bit": 2235896
+          },
+          {
+            "end_bit": 2235960,
+            "kind": "INT",
+            "name": "m_clientId",
+            "start_bit": 2235928
+          },
+          {
+            "end_bit": 2244233,
+            "kind": "ARRAY",
+            "name": "m_clientInfoList",
+            "start_bit": 2235960
+          },
+          {
+            "end_bit": 2244297,
+            "kind": "STRUCT",
+            "name": "m_voiceSessionId",
+            "start_bit": 2244233
+          },
+          {
+            "end_bit": 2244298,
+            "kind": "OPTIONAL",
+            "name": "m_ammHandle",
+            "start_bit": 2244297
+          },
+          {
+            "end_bit": 2244299,
+            "kind": "BOOL",
+            "name": "m_isCompetitive",
+            "start_bit": 2244298
+          },
+          {
+            "end_bit": 2244300,
+            "kind": "BOOL",
+            "name": "m_isRanked",
+            "start_bit": 2244299
+          },
+          {
+            "end_bit": 2244301,
+            "kind": "BOOL",
+            "name": "m_isPractice",
+            "start_bit": 2244300
+          },
+          {
+            "end_bit": 2244302,
+            "kind": "BOOL",
+            "name": "m_isCooperative",
+            "start_bit": 2244301
+          },
+          {
+            "end_bit": 2244303,
+            "kind": "BOOL",
+            "name": "m_saveStats",
+            "start_bit": 2244302
+          },
+          {
+            "end_bit": 2244304,
+            "kind": "BOOL",
+            "name": "m_saveReplay",
+            "start_bit": 2244303
+          },
+          {
+            "end_bit": 2244400,
+            "kind": "STRUCT",
+            "name": "m_instanceHandle",
+            "start_bit": 2244304
+          },
+          {
+            "end_bit": 2244633,
+            "kind": "OPTIONAL",
+            "name": "m_ladderStats",
+            "start_bit": 2244400
+          },
+          {
+            "end_bit": 2244958,
+            "kind": "OPTIONAL",
+            "name": "m_races",
+            "start_bit": 2244633
+          },
+          {
+            "end_bit": 2255199,
+            "kind": "ARRAY",
+            "name": "m_clientUnlockableInfoList",
+            "start_bit": 2244958
+          },
+          {
+            "end_bit": 2255237,
+            "kind": "ARRAY",
+            "name": "m_achievementTags",
+            "start_bit": 2255199
+          },
+          {
+            "end_bit": 2255722,
+            "kind": "ARRAY",
+            "name": "m_clientLicensesList",
+            "start_bit": 2255237
+          },
+          {
+            "end_bit": 2255754,
+            "kind": "INT",
+            "name": "m_currentTurn",
+            "start_bit": 2255722
+          },
+          {
+            "end_bit": 2255786,
+            "kind": "INT",
+            "name": "m_turnIntervalMS",
+            "start_bit": 2255754
+          },
+          {
+            "end_bit": 2255818,
+            "kind": "INT",
+            "name": "m_currentSyncEventNumber",
+            "start_bit": 2255786
+          },
+          {
+            "end_bit": 2255819,
+            "kind": "OPTIONAL",
+            "name": "m_tournamentInfo",
+            "start_bit": 2255818
+          },
+          {
+            "end_bit": 2270679,
+            "kind": "ARRAY",
+            "name": "m_heroMasteryTiers",
+            "start_bit": 2255819
+          },
+          {
+            "end_bit": 2270680,
+            "kind": "OPTIONAL",
+            "name": "m_rejoinSaveCacheHandle",
+            "start_bit": 2270679
+          },
+          {
+            "end_bit": 2270681,
+            "kind": "OPTIONAL",
+            "name": "m_rejoinSaveElapsedGameLoops",
+            "start_bit": 2270680
+          }
+        ],
+        "root_type_id": 5917,
+        "safe_array_counts": {
+          "/StartGameRequest/m_accessMatrix": 5418,
+          "/StartGameRequest/m_disabledHeroList": 0,
+          "/StartGameRequest/m_mapInfoList": 7,
+          "/StartGameRequest/m_resourceMap": 5418,
+          "/m_achievementTags": 1,
+          "/m_clientInfoList": 10,
+          "/m_clientLicensesList": 10,
+          "/m_clientUnlockableInfoList": 10,
+          "/m_heroMasteryTiers": 90
+        },
+        "schema_sha256": "0fd61c8ef3b0aeef647912fd9e35308e70c39da9e2980004d06b1b92e0c96640",
+        "wire_tokens": 157895
+      },
+      "prior_core_profile_bound": true,
+      "profile_sha256": "21bfaf86b58aecab3a68bc6612ce0178dfecdda08ed3af5297ce21f8be52cea0",
+      "replay_sha256": "afcf49a656068f343173fc79afff2d2ebf15066f531cb192382cdba9d1ea3272"
+    },
+    {
+      "actual_build_base_data": 98348,
+      "actual_root": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "crossbinding": {
+        "ClientInfo_records": 10,
+        "MapInfo_records": 7,
+        "all_ClientInfo_record_boundaries_match": true,
+        "all_MapInfo_record_boundaries_match": true,
+        "all_named_surrounding_anchors_match": true,
+        "named_surrounding_anchors_checked": 12
+      },
+      "fresh_core_event_decode_performed": false,
+      "fresh_observed_full_mod_tail_EOF_and_private_gates": true,
+      "id": "crossmap-02",
+      "native_OnlineStartGameRequest": {
+        "EOF_alignment_padding_bits": 7,
+        "archive_build_root_or_full_replay_compatibility_claimed": false,
+        "complete_EOF_and_readonly_whole_member_reencoding_exact": true,
+        "decoded_fields": 423801,
+        "member_bytes": 283809,
+        "member_sha256": "d380ed381e57d8d6c7d279e486610b620b136557a687f446d90aa87f2724d71d",
+        "named_root_fields": 25,
+        "native_payload_end_bit": 2270465,
+        "native_payload_start_bit": 0,
+        "private_author_client_license_network_or_player_values_emitted": false,
+        "profile": "online-start-98348",
+        "root_field_spans": [
+          {
+            "end_bit": 2235872,
+            "kind": "STRUCT",
+            "name": "StartGameRequest",
+            "start_bit": 0
+          },
+          {
+            "end_bit": 2235904,
+            "kind": "BLOB",
+            "name": "m_randomSeed",
+            "start_bit": 2235872
+          },
+          {
+            "end_bit": 2235936,
+            "kind": "INT",
+            "name": "m_clientId",
+            "start_bit": 2235904
+          },
+          {
+            "end_bit": 2244017,
+            "kind": "ARRAY",
+            "name": "m_clientInfoList",
+            "start_bit": 2235936
+          },
+          {
+            "end_bit": 2244081,
+            "kind": "STRUCT",
+            "name": "m_voiceSessionId",
+            "start_bit": 2244017
+          },
+          {
+            "end_bit": 2244082,
+            "kind": "OPTIONAL",
+            "name": "m_ammHandle",
+            "start_bit": 2244081
+          },
+          {
+            "end_bit": 2244083,
+            "kind": "BOOL",
+            "name": "m_isCompetitive",
+            "start_bit": 2244082
+          },
+          {
+            "end_bit": 2244084,
+            "kind": "BOOL",
+            "name": "m_isRanked",
+            "start_bit": 2244083
+          },
+          {
+            "end_bit": 2244085,
+            "kind": "BOOL",
+            "name": "m_isPractice",
+            "start_bit": 2244084
+          },
+          {
+            "end_bit": 2244086,
+            "kind": "BOOL",
+            "name": "m_isCooperative",
+            "start_bit": 2244085
+          },
+          {
+            "end_bit": 2244087,
+            "kind": "BOOL",
+            "name": "m_saveStats",
+            "start_bit": 2244086
+          },
+          {
+            "end_bit": 2244088,
+            "kind": "BOOL",
+            "name": "m_saveReplay",
+            "start_bit": 2244087
+          },
+          {
+            "end_bit": 2244184,
+            "kind": "STRUCT",
+            "name": "m_instanceHandle",
+            "start_bit": 2244088
+          },
+          {
+            "end_bit": 2244417,
+            "kind": "OPTIONAL",
+            "name": "m_ladderStats",
+            "start_bit": 2244184
+          },
+          {
+            "end_bit": 2244742,
+            "kind": "OPTIONAL",
+            "name": "m_races",
+            "start_bit": 2244417
+          },
+          {
+            "end_bit": 2254983,
+            "kind": "ARRAY",
+            "name": "m_clientUnlockableInfoList",
+            "start_bit": 2244742
+          },
+          {
+            "end_bit": 2255021,
+            "kind": "ARRAY",
+            "name": "m_achievementTags",
+            "start_bit": 2254983
+          },
+          {
+            "end_bit": 2255506,
+            "kind": "ARRAY",
+            "name": "m_clientLicensesList",
+            "start_bit": 2255021
+          },
+          {
+            "end_bit": 2255538,
+            "kind": "INT",
+            "name": "m_currentTurn",
+            "start_bit": 2255506
+          },
+          {
+            "end_bit": 2255570,
+            "kind": "INT",
+            "name": "m_turnIntervalMS",
+            "start_bit": 2255538
+          },
+          {
+            "end_bit": 2255602,
+            "kind": "INT",
+            "name": "m_currentSyncEventNumber",
+            "start_bit": 2255570
+          },
+          {
+            "end_bit": 2255603,
+            "kind": "OPTIONAL",
+            "name": "m_tournamentInfo",
+            "start_bit": 2255602
+          },
+          {
+            "end_bit": 2270463,
+            "kind": "ARRAY",
+            "name": "m_heroMasteryTiers",
+            "start_bit": 2255603
+          },
+          {
+            "end_bit": 2270464,
+            "kind": "OPTIONAL",
+            "name": "m_rejoinSaveCacheHandle",
+            "start_bit": 2270463
+          },
+          {
+            "end_bit": 2270465,
+            "kind": "OPTIONAL",
+            "name": "m_rejoinSaveElapsedGameLoops",
+            "start_bit": 2270464
+          }
+        ],
+        "root_type_id": 5917,
+        "safe_array_counts": {
+          "/StartGameRequest/m_accessMatrix": 5418,
+          "/StartGameRequest/m_disabledHeroList": 0,
+          "/StartGameRequest/m_mapInfoList": 7,
+          "/StartGameRequest/m_resourceMap": 5418,
+          "/m_achievementTags": 1,
+          "/m_clientInfoList": 10,
+          "/m_clientLicensesList": 10,
+          "/m_clientUnlockableInfoList": 10,
+          "/m_heroMasteryTiers": 90
+        },
+        "schema_sha256": "0fd61c8ef3b0aeef647912fd9e35308e70c39da9e2980004d06b1b92e0c96640",
+        "wire_tokens": 157886
+      },
+      "prior_core_profile_bound": true,
+      "profile_sha256": "e435d58d1a1dea9fee5fafbc705813acbde1a22ea235b25c04188c9cae7b95a5",
+      "replay_sha256": "fe801daf9df44f10db2b950989308c8ee2fa55c03b4adfef7ac383b4d46583bf"
+    },
+    {
+      "actual_build_base_data": 98348,
+      "actual_root": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "crossbinding": {
+        "ClientInfo_records": 12,
+        "MapInfo_records": 10,
+        "all_ClientInfo_record_boundaries_match": true,
+        "all_MapInfo_record_boundaries_match": true,
+        "all_named_surrounding_anchors_match": true,
+        "named_surrounding_anchors_checked": 12
+      },
+      "fresh_core_event_decode_performed": false,
+      "fresh_observed_full_mod_tail_EOF_and_private_gates": true,
+      "id": "crossmap-03",
+      "native_OnlineStartGameRequest": {
+        "EOF_alignment_padding_bits": 2,
+        "archive_build_root_or_full_replay_compatibility_claimed": false,
+        "complete_EOF_and_readonly_whole_member_reencoding_exact": true,
+        "decoded_fields": 424202,
+        "member_bytes": 282281,
+        "member_sha256": "27eb0499a7359f3a0c366ba96a9c537a00fdbde3109239d7873e4359f66e4414",
+        "named_root_fields": 25,
+        "native_payload_end_bit": 2258246,
+        "native_payload_start_bit": 0,
+        "private_author_client_license_network_or_player_values_emitted": false,
+        "profile": "online-start-98348",
+        "root_field_spans": [
+          {
+            "end_bit": 2222960,
+            "kind": "STRUCT",
+            "name": "StartGameRequest",
+            "start_bit": 0
+          },
+          {
+            "end_bit": 2222992,
+            "kind": "BLOB",
+            "name": "m_randomSeed",
+            "start_bit": 2222960
+          },
+          {
+            "end_bit": 2223024,
+            "kind": "INT",
+            "name": "m_clientId",
+            "start_bit": 2222992
+          },
+          {
+            "end_bit": 2232177,
+            "kind": "ARRAY",
+            "name": "m_clientInfoList",
+            "start_bit": 2223024
+          },
+          {
+            "end_bit": 2232241,
+            "kind": "STRUCT",
+            "name": "m_voiceSessionId",
+            "start_bit": 2232177
+          },
+          {
+            "end_bit": 2232242,
+            "kind": "OPTIONAL",
+            "name": "m_ammHandle",
+            "start_bit": 2232241
+          },
+          {
+            "end_bit": 2232243,
+            "kind": "BOOL",
+            "name": "m_isCompetitive",
+            "start_bit": 2232242
+          },
+          {
+            "end_bit": 2232244,
+            "kind": "BOOL",
+            "name": "m_isRanked",
+            "start_bit": 2232243
+          },
+          {
+            "end_bit": 2232245,
+            "kind": "BOOL",
+            "name": "m_isPractice",
+            "start_bit": 2232244
+          },
+          {
+            "end_bit": 2232246,
+            "kind": "BOOL",
+            "name": "m_isCooperative",
+            "start_bit": 2232245
+          },
+          {
+            "end_bit": 2232247,
+            "kind": "BOOL",
+            "name": "m_saveStats",
+            "start_bit": 2232246
+          },
+          {
+            "end_bit": 2232248,
+            "kind": "BOOL",
+            "name": "m_saveReplay",
+            "start_bit": 2232247
+          },
+          {
+            "end_bit": 2232344,
+            "kind": "STRUCT",
+            "name": "m_instanceHandle",
+            "start_bit": 2232248
+          },
+          {
+            "end_bit": 2232425,
+            "kind": "OPTIONAL",
+            "name": "m_ladderStats",
+            "start_bit": 2232344
+          },
+          {
+            "end_bit": 2232814,
+            "kind": "OPTIONAL",
+            "name": "m_races",
+            "start_bit": 2232425
+          },
+          {
+            "end_bit": 2243163,
+            "kind": "ARRAY",
+            "name": "m_clientUnlockableInfoList",
+            "start_bit": 2232814
+          },
+          {
+            "end_bit": 2243201,
+            "kind": "ARRAY",
+            "name": "m_achievementTags",
+            "start_bit": 2243163
+          },
+          {
+            "end_bit": 2243782,
+            "kind": "ARRAY",
+            "name": "m_clientLicensesList",
+            "start_bit": 2243201
+          },
+          {
+            "end_bit": 2243814,
+            "kind": "INT",
+            "name": "m_currentTurn",
+            "start_bit": 2243782
+          },
+          {
+            "end_bit": 2243846,
+            "kind": "INT",
+            "name": "m_turnIntervalMS",
+            "start_bit": 2243814
+          },
+          {
+            "end_bit": 2243878,
+            "kind": "INT",
+            "name": "m_currentSyncEventNumber",
+            "start_bit": 2243846
+          },
+          {
+            "end_bit": 2243879,
+            "kind": "OPTIONAL",
+            "name": "m_tournamentInfo",
+            "start_bit": 2243878
+          },
+          {
+            "end_bit": 2258244,
+            "kind": "ARRAY",
+            "name": "m_heroMasteryTiers",
+            "start_bit": 2243879
+          },
+          {
+            "end_bit": 2258245,
+            "kind": "OPTIONAL",
+            "name": "m_rejoinSaveCacheHandle",
+            "start_bit": 2258244
+          },
+          {
+            "end_bit": 2258246,
+            "kind": "OPTIONAL",
+            "name": "m_rejoinSaveElapsedGameLoops",
+            "start_bit": 2258245
+          }
+        ],
+        "root_type_id": 5917,
+        "safe_array_counts": {
+          "/StartGameRequest/m_accessMatrix": 5418,
+          "/StartGameRequest/m_disabledHeroList": 0,
+          "/StartGameRequest/m_mapInfoList": 10,
+          "/StartGameRequest/m_resourceMap": 5418,
+          "/m_achievementTags": 1,
+          "/m_clientInfoList": 12,
+          "/m_clientLicensesList": 12,
+          "/m_clientUnlockableInfoList": 12,
+          "/m_heroMasteryTiers": 87
+        },
+        "schema_sha256": "0fd61c8ef3b0aeef647912fd9e35308e70c39da9e2980004d06b1b92e0c96640",
+        "wire_tokens": 157992
+      },
+      "prior_core_profile_bound": true,
+      "profile_sha256": "3ea61d6358f35d25f80d11c3f0cbd1dcbf91f4565b5ddfcdf1031d431d21f7ab",
+      "replay_sha256": "9872b043e48093abc65e11b7b6d091861e83fc4d202b40b745824da647cb6ef3"
+    },
+    {
+      "actual_build_base_data": 98348,
+      "actual_root": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "crossbinding": {
+        "ClientInfo_records": 12,
+        "MapInfo_records": 6,
+        "all_ClientInfo_record_boundaries_match": true,
+        "all_MapInfo_record_boundaries_match": true,
+        "all_named_surrounding_anchors_match": true,
+        "named_surrounding_anchors_checked": 12
+      },
+      "fresh_core_event_decode_performed": false,
+      "fresh_observed_full_mod_tail_EOF_and_private_gates": true,
+      "id": "crossmap-04",
+      "native_OnlineStartGameRequest": {
+        "EOF_alignment_padding_bits": 2,
+        "archive_build_root_or_full_replay_compatibility_claimed": false,
+        "complete_EOF_and_readonly_whole_member_reencoding_exact": true,
+        "decoded_fields": 423665,
+        "member_bytes": 282979,
+        "member_sha256": "243febffe96fe902cdb00172d9350b3469faa7aaf3e8c2f14c0ee7e36310e760",
+        "named_root_fields": 25,
+        "native_payload_end_bit": 2263830,
+        "native_payload_start_bit": 0,
+        "private_author_client_license_network_or_player_values_emitted": false,
+        "profile": "online-start-98348",
+        "root_field_spans": [
+          {
+            "end_bit": 2228416,
+            "kind": "STRUCT",
+            "name": "StartGameRequest",
+            "start_bit": 0
+          },
+          {
+            "end_bit": 2228448,
+            "kind": "BLOB",
+            "name": "m_randomSeed",
+            "start_bit": 2228416
+          },
+          {
+            "end_bit": 2228480,
+            "kind": "INT",
+            "name": "m_clientId",
+            "start_bit": 2228448
+          },
+          {
+            "end_bit": 2237609,
+            "kind": "ARRAY",
+            "name": "m_clientInfoList",
+            "start_bit": 2228480
+          },
+          {
+            "end_bit": 2237673,
+            "kind": "STRUCT",
+            "name": "m_voiceSessionId",
+            "start_bit": 2237609
+          },
+          {
+            "end_bit": 2237674,
+            "kind": "OPTIONAL",
+            "name": "m_ammHandle",
+            "start_bit": 2237673
+          },
+          {
+            "end_bit": 2237675,
+            "kind": "BOOL",
+            "name": "m_isCompetitive",
+            "start_bit": 2237674
+          },
+          {
+            "end_bit": 2237676,
+            "kind": "BOOL",
+            "name": "m_isRanked",
+            "start_bit": 2237675
+          },
+          {
+            "end_bit": 2237677,
+            "kind": "BOOL",
+            "name": "m_isPractice",
+            "start_bit": 2237676
+          },
+          {
+            "end_bit": 2237678,
+            "kind": "BOOL",
+            "name": "m_isCooperative",
+            "start_bit": 2237677
+          },
+          {
+            "end_bit": 2237679,
+            "kind": "BOOL",
+            "name": "m_saveStats",
+            "start_bit": 2237678
+          },
+          {
+            "end_bit": 2237680,
+            "kind": "BOOL",
+            "name": "m_saveReplay",
+            "start_bit": 2237679
+          },
+          {
+            "end_bit": 2237776,
+            "kind": "STRUCT",
+            "name": "m_instanceHandle",
+            "start_bit": 2237680
+          },
+          {
+            "end_bit": 2238009,
+            "kind": "OPTIONAL",
+            "name": "m_ladderStats",
+            "start_bit": 2237776
+          },
+          {
+            "end_bit": 2238398,
+            "kind": "OPTIONAL",
+            "name": "m_races",
+            "start_bit": 2238009
+          },
+          {
+            "end_bit": 2248747,
+            "kind": "ARRAY",
+            "name": "m_clientUnlockableInfoList",
+            "start_bit": 2238398
+          },
+          {
+            "end_bit": 2248785,
+            "kind": "ARRAY",
+            "name": "m_achievementTags",
+            "start_bit": 2248747
+          },
+          {
+            "end_bit": 2249366,
+            "kind": "ARRAY",
+            "name": "m_clientLicensesList",
+            "start_bit": 2248785
+          },
+          {
+            "end_bit": 2249398,
+            "kind": "INT",
+            "name": "m_currentTurn",
+            "start_bit": 2249366
+          },
+          {
+            "end_bit": 2249430,
+            "kind": "INT",
+            "name": "m_turnIntervalMS",
+            "start_bit": 2249398
+          },
+          {
+            "end_bit": 2249462,
+            "kind": "INT",
+            "name": "m_currentSyncEventNumber",
+            "start_bit": 2249430
+          },
+          {
+            "end_bit": 2249463,
+            "kind": "OPTIONAL",
+            "name": "m_tournamentInfo",
+            "start_bit": 2249462
+          },
+          {
+            "end_bit": 2263828,
+            "kind": "ARRAY",
+            "name": "m_heroMasteryTiers",
+            "start_bit": 2249463
+          },
+          {
+            "end_bit": 2263829,
+            "kind": "OPTIONAL",
+            "name": "m_rejoinSaveCacheHandle",
+            "start_bit": 2263828
+          },
+          {
+            "end_bit": 2263830,
+            "kind": "OPTIONAL",
+            "name": "m_rejoinSaveElapsedGameLoops",
+            "start_bit": 2263829
+          }
+        ],
+        "root_type_id": 5917,
+        "safe_array_counts": {
+          "/StartGameRequest/m_accessMatrix": 5418,
+          "/StartGameRequest/m_disabledHeroList": 0,
+          "/StartGameRequest/m_mapInfoList": 6,
+          "/StartGameRequest/m_resourceMap": 5418,
+          "/m_achievementTags": 1,
+          "/m_clientInfoList": 12,
+          "/m_clientLicensesList": 12,
+          "/m_clientUnlockableInfoList": 12,
+          "/m_heroMasteryTiers": 87
+        },
+        "schema_sha256": "0fd61c8ef3b0aeef647912fd9e35308e70c39da9e2980004d06b1b92e0c96640",
+        "wire_tokens": 157803
+      },
+      "prior_core_profile_bound": true,
+      "profile_sha256": "4b196df65763da5d7d990515a83582d041548dc89b2394e05f9232730193d433",
+      "replay_sha256": "98ac891fa4fb8e1698e5fc35609fcf75abfe7e89aee9c7f05afff93b10338ab3"
+    },
+    {
+      "actual_build_base_data": 98348,
+      "actual_root": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "crossbinding": {
+        "ClientInfo_records": 10,
+        "MapInfo_records": 6,
+        "all_ClientInfo_record_boundaries_match": true,
+        "all_MapInfo_record_boundaries_match": true,
+        "all_named_surrounding_anchors_match": true,
+        "named_surrounding_anchors_checked": 12
+      },
+      "fresh_core_event_decode_performed": false,
+      "fresh_observed_full_mod_tail_EOF_and_private_gates": true,
+      "id": "crossmap-05",
+      "native_OnlineStartGameRequest": {
+        "EOF_alignment_padding_bits": 7,
+        "archive_build_root_or_full_replay_compatibility_claimed": false,
+        "complete_EOF_and_readonly_whole_member_reencoding_exact": true,
+        "decoded_fields": 423541,
+        "member_bytes": 282800,
+        "member_sha256": "f12415239a8fc50a4fe96a5bb87b5419571c743ad111c793b5a5a1b96a3d4dba",
+        "named_root_fields": 25,
+        "native_payload_end_bit": 2262393,
+        "native_payload_start_bit": 0,
+        "private_author_client_license_network_or_player_values_emitted": false,
+        "profile": "online-start-98348",
+        "root_field_spans": [
+          {
+            "end_bit": 2228368,
+            "kind": "STRUCT",
+            "name": "StartGameRequest",
+            "start_bit": 0
+          },
+          {
+            "end_bit": 2228400,
+            "kind": "BLOB",
+            "name": "m_randomSeed",
+            "start_bit": 2228368
+          },
+          {
+            "end_bit": 2228432,
+            "kind": "INT",
+            "name": "m_clientId",
+            "start_bit": 2228400
+          },
+          {
+            "end_bit": 2236097,
+            "kind": "ARRAY",
+            "name": "m_clientInfoList",
+            "start_bit": 2228432
+          },
+          {
+            "end_bit": 2236161,
+            "kind": "STRUCT",
+            "name": "m_voiceSessionId",
+            "start_bit": 2236097
+          },
+          {
+            "end_bit": 2236162,
+            "kind": "OPTIONAL",
+            "name": "m_ammHandle",
+            "start_bit": 2236161
+          },
+          {
+            "end_bit": 2236163,
+            "kind": "BOOL",
+            "name": "m_isCompetitive",
+            "start_bit": 2236162
+          },
+          {
+            "end_bit": 2236164,
+            "kind": "BOOL",
+            "name": "m_isRanked",
+            "start_bit": 2236163
+          },
+          {
+            "end_bit": 2236165,
+            "kind": "BOOL",
+            "name": "m_isPractice",
+            "start_bit": 2236164
+          },
+          {
+            "end_bit": 2236166,
+            "kind": "BOOL",
+            "name": "m_isCooperative",
+            "start_bit": 2236165
+          },
+          {
+            "end_bit": 2236167,
+            "kind": "BOOL",
+            "name": "m_saveStats",
+            "start_bit": 2236166
+          },
+          {
+            "end_bit": 2236168,
+            "kind": "BOOL",
+            "name": "m_saveReplay",
+            "start_bit": 2236167
+          },
+          {
+            "end_bit": 2236264,
+            "kind": "STRUCT",
+            "name": "m_instanceHandle",
+            "start_bit": 2236168
+          },
+          {
+            "end_bit": 2236345,
+            "kind": "OPTIONAL",
+            "name": "m_ladderStats",
+            "start_bit": 2236264
+          },
+          {
+            "end_bit": 2236670,
+            "kind": "OPTIONAL",
+            "name": "m_races",
+            "start_bit": 2236345
+          },
+          {
+            "end_bit": 2246911,
+            "kind": "ARRAY",
+            "name": "m_clientUnlockableInfoList",
+            "start_bit": 2236670
+          },
+          {
+            "end_bit": 2246949,
+            "kind": "ARRAY",
+            "name": "m_achievementTags",
+            "start_bit": 2246911
+          },
+          {
+            "end_bit": 2247434,
+            "kind": "ARRAY",
+            "name": "m_clientLicensesList",
+            "start_bit": 2246949
+          },
+          {
+            "end_bit": 2247466,
+            "kind": "INT",
+            "name": "m_currentTurn",
+            "start_bit": 2247434
+          },
+          {
+            "end_bit": 2247498,
+            "kind": "INT",
+            "name": "m_turnIntervalMS",
+            "start_bit": 2247466
+          },
+          {
+            "end_bit": 2247530,
+            "kind": "INT",
+            "name": "m_currentSyncEventNumber",
+            "start_bit": 2247498
+          },
+          {
+            "end_bit": 2247531,
+            "kind": "OPTIONAL",
+            "name": "m_tournamentInfo",
+            "start_bit": 2247530
+          },
+          {
+            "end_bit": 2262391,
+            "kind": "ARRAY",
+            "name": "m_heroMasteryTiers",
+            "start_bit": 2247531
+          },
+          {
+            "end_bit": 2262392,
+            "kind": "OPTIONAL",
+            "name": "m_rejoinSaveCacheHandle",
+            "start_bit": 2262391
+          },
+          {
+            "end_bit": 2262393,
+            "kind": "OPTIONAL",
+            "name": "m_rejoinSaveElapsedGameLoops",
+            "start_bit": 2262392
+          }
+        ],
+        "root_type_id": 5917,
+        "safe_array_counts": {
+          "/StartGameRequest/m_accessMatrix": 5418,
+          "/StartGameRequest/m_disabledHeroList": 0,
+          "/StartGameRequest/m_mapInfoList": 6,
+          "/StartGameRequest/m_resourceMap": 5418,
+          "/m_achievementTags": 1,
+          "/m_clientInfoList": 10,
+          "/m_clientLicensesList": 10,
+          "/m_clientUnlockableInfoList": 10,
+          "/m_heroMasteryTiers": 90
+        },
+        "schema_sha256": "0fd61c8ef3b0aeef647912fd9e35308e70c39da9e2980004d06b1b92e0c96640",
+        "wire_tokens": 157755
+      },
+      "prior_core_profile_bound": true,
+      "profile_sha256": "3256be4b60c5e8553e28e80044e60eb2289558e1749f31100f3cc2e1a0933923",
+      "replay_sha256": "715e309bba5d3151d3e1b47461041627db7644d91a8b549c309950e44d6067e8"
+    },
+    {
+      "actual_build_base_data": 98348,
+      "actual_root": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "crossbinding": {
+        "ClientInfo_records": 11,
+        "MapInfo_records": 8,
+        "all_ClientInfo_record_boundaries_match": true,
+        "all_MapInfo_record_boundaries_match": true,
+        "all_named_surrounding_anchors_match": true,
+        "named_surrounding_anchors_checked": 12
+      },
+      "fresh_core_event_decode_performed": false,
+      "fresh_observed_full_mod_tail_EOF_and_private_gates": true,
+      "id": "crossmap-06",
+      "native_OnlineStartGameRequest": {
+        "EOF_alignment_padding_bits": 7,
+        "archive_build_root_or_full_replay_compatibility_claimed": false,
+        "complete_EOF_and_readonly_whole_member_reencoding_exact": true,
+        "decoded_fields": 423964,
+        "member_bytes": 284719,
+        "member_sha256": "0f1c2c70125ca58772c1c8f06ae7bcdf46e69adfb7bc6d5ff5ef567f7c3aa688",
+        "named_root_fields": 25,
+        "native_payload_end_bit": 2277745,
+        "native_payload_start_bit": 0,
+        "private_author_client_license_network_or_player_values_emitted": false,
+        "profile": "online-start-98348",
+        "root_field_spans": [
+          {
+            "end_bit": 2243408,
+            "kind": "STRUCT",
+            "name": "StartGameRequest",
+            "start_bit": 0
+          },
+          {
+            "end_bit": 2243440,
+            "kind": "BLOB",
+            "name": "m_randomSeed",
+            "start_bit": 2243408
+          },
+          {
+            "end_bit": 2243472,
+            "kind": "INT",
+            "name": "m_clientId",
+            "start_bit": 2243440
+          },
+          {
+            "end_bit": 2252145,
+            "kind": "ARRAY",
+            "name": "m_clientInfoList",
+            "start_bit": 2243472
+          },
+          {
+            "end_bit": 2252209,
+            "kind": "STRUCT",
+            "name": "m_voiceSessionId",
+            "start_bit": 2252145
+          },
+          {
+            "end_bit": 2252210,
+            "kind": "OPTIONAL",
+            "name": "m_ammHandle",
+            "start_bit": 2252209
+          },
+          {
+            "end_bit": 2252211,
+            "kind": "BOOL",
+            "name": "m_isCompetitive",
+            "start_bit": 2252210
+          },
+          {
+            "end_bit": 2252212,
+            "kind": "BOOL",
+            "name": "m_isRanked",
+            "start_bit": 2252211
+          },
+          {
+            "end_bit": 2252213,
+            "kind": "BOOL",
+            "name": "m_isPractice",
+            "start_bit": 2252212
+          },
+          {
+            "end_bit": 2252214,
+            "kind": "BOOL",
+            "name": "m_isCooperative",
+            "start_bit": 2252213
+          },
+          {
+            "end_bit": 2252215,
+            "kind": "BOOL",
+            "name": "m_saveStats",
+            "start_bit": 2252214
+          },
+          {
+            "end_bit": 2252216,
+            "kind": "BOOL",
+            "name": "m_saveReplay",
+            "start_bit": 2252215
+          },
+          {
+            "end_bit": 2252312,
+            "kind": "STRUCT",
+            "name": "m_instanceHandle",
+            "start_bit": 2252216
+          },
+          {
+            "end_bit": 2252469,
+            "kind": "OPTIONAL",
+            "name": "m_ladderStats",
+            "start_bit": 2252312
+          },
+          {
+            "end_bit": 2252826,
+            "kind": "OPTIONAL",
+            "name": "m_races",
+            "start_bit": 2252469
+          },
+          {
+            "end_bit": 2262545,
+            "kind": "ARRAY",
+            "name": "m_clientUnlockableInfoList",
+            "start_bit": 2252826
+          },
+          {
+            "end_bit": 2262583,
+            "kind": "ARRAY",
+            "name": "m_achievementTags",
+            "start_bit": 2262545
+          },
+          {
+            "end_bit": 2263116,
+            "kind": "ARRAY",
+            "name": "m_clientLicensesList",
+            "start_bit": 2262583
+          },
+          {
+            "end_bit": 2263148,
+            "kind": "INT",
+            "name": "m_currentTurn",
+            "start_bit": 2263116
+          },
+          {
+            "end_bit": 2263180,
+            "kind": "INT",
+            "name": "m_turnIntervalMS",
+            "start_bit": 2263148
+          },
+          {
+            "end_bit": 2263212,
+            "kind": "INT",
+            "name": "m_currentSyncEventNumber",
+            "start_bit": 2263180
+          },
+          {
+            "end_bit": 2263213,
+            "kind": "OPTIONAL",
+            "name": "m_tournamentInfo",
+            "start_bit": 2263212
+          },
+          {
+            "end_bit": 2277743,
+            "kind": "ARRAY",
+            "name": "m_heroMasteryTiers",
+            "start_bit": 2263213
+          },
+          {
+            "end_bit": 2277744,
+            "kind": "OPTIONAL",
+            "name": "m_rejoinSaveCacheHandle",
+            "start_bit": 2277743
+          },
+          {
+            "end_bit": 2277745,
+            "kind": "OPTIONAL",
+            "name": "m_rejoinSaveElapsedGameLoops",
+            "start_bit": 2277744
+          }
+        ],
+        "root_type_id": 5917,
+        "safe_array_counts": {
+          "/StartGameRequest/m_accessMatrix": 5418,
+          "/StartGameRequest/m_disabledHeroList": 0,
+          "/StartGameRequest/m_mapInfoList": 8,
+          "/StartGameRequest/m_resourceMap": 5418,
+          "/m_achievementTags": 1,
+          "/m_clientInfoList": 11,
+          "/m_clientLicensesList": 11,
+          "/m_clientUnlockableInfoList": 11,
+          "/m_heroMasteryTiers": 88
+        },
+        "schema_sha256": "0fd61c8ef3b0aeef647912fd9e35308e70c39da9e2980004d06b1b92e0c96640",
+        "wire_tokens": 157977
+      },
+      "prior_core_profile_bound": true,
+      "profile_sha256": "bd03f3e27134998b088e1bfd10e70ff34d006057eb094455b154a8173e16e084",
+      "replay_sha256": "1230eee79fd3b50a3ee471c587bc77dd14aef67d57bf22cd8df52e877329323a"
+    },
+    {
+      "actual_build_base_data": 98348,
+      "actual_root": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "crossbinding": {
+        "ClientInfo_records": 10,
+        "MapInfo_records": 6,
+        "all_ClientInfo_record_boundaries_match": true,
+        "all_MapInfo_record_boundaries_match": true,
+        "all_named_surrounding_anchors_match": true,
+        "named_surrounding_anchors_checked": 12
+      },
+      "fresh_core_event_decode_performed": false,
+      "fresh_observed_full_mod_tail_EOF_and_private_gates": true,
+      "id": "crossmap-07",
+      "native_OnlineStartGameRequest": {
+        "EOF_alignment_padding_bits": 0,
+        "archive_build_root_or_full_replay_compatibility_claimed": false,
+        "complete_EOF_and_readonly_whole_member_reencoding_exact": true,
+        "decoded_fields": 423475,
+        "member_bytes": 282787,
+        "member_sha256": "73dc4ed1ac0682108dc301174662672f102a5d07c330a29876c5840b17687466",
+        "named_root_fields": 25,
+        "native_payload_end_bit": 2262296,
+        "native_payload_start_bit": 0,
+        "private_author_client_license_network_or_player_values_emitted": false,
+        "profile": "online-start-98348",
+        "root_field_spans": [
+          {
+            "end_bit": 2228368,
+            "kind": "STRUCT",
+            "name": "StartGameRequest",
+            "start_bit": 0
+          },
+          {
+            "end_bit": 2228400,
+            "kind": "BLOB",
+            "name": "m_randomSeed",
+            "start_bit": 2228368
+          },
+          {
+            "end_bit": 2228432,
+            "kind": "INT",
+            "name": "m_clientId",
+            "start_bit": 2228400
+          },
+          {
+            "end_bit": 2236497,
+            "kind": "ARRAY",
+            "name": "m_clientInfoList",
+            "start_bit": 2228432
+          },
+          {
+            "end_bit": 2236561,
+            "kind": "STRUCT",
+            "name": "m_voiceSessionId",
+            "start_bit": 2236497
+          },
+          {
+            "end_bit": 2236562,
+            "kind": "OPTIONAL",
+            "name": "m_ammHandle",
+            "start_bit": 2236561
+          },
+          {
+            "end_bit": 2236563,
+            "kind": "BOOL",
+            "name": "m_isCompetitive",
+            "start_bit": 2236562
+          },
+          {
+            "end_bit": 2236564,
+            "kind": "BOOL",
+            "name": "m_isRanked",
+            "start_bit": 2236563
+          },
+          {
+            "end_bit": 2236565,
+            "kind": "BOOL",
+            "name": "m_isPractice",
+            "start_bit": 2236564
+          },
+          {
+            "end_bit": 2236566,
+            "kind": "BOOL",
+            "name": "m_isCooperative",
+            "start_bit": 2236565
+          },
+          {
+            "end_bit": 2236567,
+            "kind": "BOOL",
+            "name": "m_saveStats",
+            "start_bit": 2236566
+          },
+          {
+            "end_bit": 2236568,
+            "kind": "BOOL",
+            "name": "m_saveReplay",
+            "start_bit": 2236567
+          },
+          {
+            "end_bit": 2236664,
+            "kind": "STRUCT",
+            "name": "m_instanceHandle",
+            "start_bit": 2236568
+          },
+          {
+            "end_bit": 2236935,
+            "kind": "OPTIONAL",
+            "name": "m_ladderStats",
+            "start_bit": 2236664
+          },
+          {
+            "end_bit": 2237260,
+            "kind": "OPTIONAL",
+            "name": "m_races",
+            "start_bit": 2236935
+          },
+          {
+            "end_bit": 2247309,
+            "kind": "ARRAY",
+            "name": "m_clientUnlockableInfoList",
+            "start_bit": 2237260
+          },
+          {
+            "end_bit": 2247347,
+            "kind": "ARRAY",
+            "name": "m_achievementTags",
+            "start_bit": 2247309
+          },
+          {
+            "end_bit": 2247832,
+            "kind": "ARRAY",
+            "name": "m_clientLicensesList",
+            "start_bit": 2247347
+          },
+          {
+            "end_bit": 2247864,
+            "kind": "INT",
+            "name": "m_currentTurn",
+            "start_bit": 2247832
+          },
+          {
+            "end_bit": 2247896,
+            "kind": "INT",
+            "name": "m_turnIntervalMS",
+            "start_bit": 2247864
+          },
+          {
+            "end_bit": 2247928,
+            "kind": "INT",
+            "name": "m_currentSyncEventNumber",
+            "start_bit": 2247896
+          },
+          {
+            "end_bit": 2247929,
+            "kind": "OPTIONAL",
+            "name": "m_tournamentInfo",
+            "start_bit": 2247928
+          },
+          {
+            "end_bit": 2262294,
+            "kind": "ARRAY",
+            "name": "m_heroMasteryTiers",
+            "start_bit": 2247929
+          },
+          {
+            "end_bit": 2262295,
+            "kind": "OPTIONAL",
+            "name": "m_rejoinSaveCacheHandle",
+            "start_bit": 2262294
+          },
+          {
+            "end_bit": 2262296,
+            "kind": "OPTIONAL",
+            "name": "m_rejoinSaveElapsedGameLoops",
+            "start_bit": 2262295
+          }
+        ],
+        "root_type_id": 5917,
+        "safe_array_counts": {
+          "/StartGameRequest/m_accessMatrix": 5418,
+          "/StartGameRequest/m_disabledHeroList": 0,
+          "/StartGameRequest/m_mapInfoList": 6,
+          "/StartGameRequest/m_resourceMap": 5418,
+          "/m_achievementTags": 1,
+          "/m_clientInfoList": 10,
+          "/m_clientLicensesList": 10,
+          "/m_clientUnlockableInfoList": 10,
+          "/m_heroMasteryTiers": 87
+        },
+        "schema_sha256": "0fd61c8ef3b0aeef647912fd9e35308e70c39da9e2980004d06b1b92e0c96640",
+        "wire_tokens": 157719
+      },
+      "prior_core_profile_bound": true,
+      "profile_sha256": "c0ee5d66c7a866f3cd673f31b7930bcbe9c6747dee6ea51c00103d4523780f26",
+      "replay_sha256": "db40f495edb70b2127b97cae4f479de19e18e61b2a5a0e0413052b571e1dbf7e"
+    },
+    {
+      "actual_build_base_data": 98348,
+      "actual_root": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "crossbinding": {
+        "ClientInfo_records": 11,
+        "MapInfo_records": 6,
+        "all_ClientInfo_record_boundaries_match": true,
+        "all_MapInfo_record_boundaries_match": true,
+        "all_named_surrounding_anchors_match": true,
+        "named_surrounding_anchors_checked": 12
+      },
+      "fresh_core_event_decode_performed": false,
+      "fresh_observed_full_mod_tail_EOF_and_private_gates": true,
+      "id": "crossmap-08",
+      "native_OnlineStartGameRequest": {
+        "EOF_alignment_padding_bits": 4,
+        "archive_build_root_or_full_replay_compatibility_claimed": false,
+        "complete_EOF_and_readonly_whole_member_reencoding_exact": true,
+        "decoded_fields": 423655,
+        "member_bytes": 282962,
+        "member_sha256": "cc6a0833f001a34b03c96680dd59ef22a23459b64057f65de40e6f2900b0a773",
+        "named_root_fields": 25,
+        "native_payload_end_bit": 2263692,
+        "native_payload_start_bit": 0,
+        "private_author_client_license_network_or_player_values_emitted": false,
+        "profile": "online-start-98348",
+        "root_field_spans": [
+          {
+            "end_bit": 2228416,
+            "kind": "STRUCT",
+            "name": "StartGameRequest",
+            "start_bit": 0
+          },
+          {
+            "end_bit": 2228448,
+            "kind": "BLOB",
+            "name": "m_randomSeed",
+            "start_bit": 2228416
+          },
+          {
+            "end_bit": 2228480,
+            "kind": "INT",
+            "name": "m_clientId",
+            "start_bit": 2228448
+          },
+          {
+            "end_bit": 2237505,
+            "kind": "ARRAY",
+            "name": "m_clientInfoList",
+            "start_bit": 2228480
+          },
+          {
+            "end_bit": 2237569,
+            "kind": "STRUCT",
+            "name": "m_voiceSessionId",
+            "start_bit": 2237505
+          },
+          {
+            "end_bit": 2237570,
+            "kind": "OPTIONAL",
+            "name": "m_ammHandle",
+            "start_bit": 2237569
+          },
+          {
+            "end_bit": 2237571,
+            "kind": "BOOL",
+            "name": "m_isCompetitive",
+            "start_bit": 2237570
+          },
+          {
+            "end_bit": 2237572,
+            "kind": "BOOL",
+            "name": "m_isRanked",
+            "start_bit": 2237571
+          },
+          {
+            "end_bit": 2237573,
+            "kind": "BOOL",
+            "name": "m_isPractice",
+            "start_bit": 2237572
+          },
+          {
+            "end_bit": 2237574,
+            "kind": "BOOL",
+            "name": "m_isCooperative",
+            "start_bit": 2237573
+          },
+          {
+            "end_bit": 2237575,
+            "kind": "BOOL",
+            "name": "m_saveStats",
+            "start_bit": 2237574
+          },
+          {
+            "end_bit": 2237576,
+            "kind": "BOOL",
+            "name": "m_saveReplay",
+            "start_bit": 2237575
+          },
+          {
+            "end_bit": 2237672,
+            "kind": "STRUCT",
+            "name": "m_instanceHandle",
+            "start_bit": 2237576
+          },
+          {
+            "end_bit": 2237867,
+            "kind": "OPTIONAL",
+            "name": "m_ladderStats",
+            "start_bit": 2237672
+          },
+          {
+            "end_bit": 2238224,
+            "kind": "OPTIONAL",
+            "name": "m_races",
+            "start_bit": 2237867
+          },
+          {
+            "end_bit": 2248327,
+            "kind": "ARRAY",
+            "name": "m_clientUnlockableInfoList",
+            "start_bit": 2238224
+          },
+          {
+            "end_bit": 2248365,
+            "kind": "ARRAY",
+            "name": "m_achievementTags",
+            "start_bit": 2248327
+          },
+          {
+            "end_bit": 2248898,
+            "kind": "ARRAY",
+            "name": "m_clientLicensesList",
+            "start_bit": 2248365
+          },
+          {
+            "end_bit": 2248930,
+            "kind": "INT",
+            "name": "m_currentTurn",
+            "start_bit": 2248898
+          },
+          {
+            "end_bit": 2248962,
+            "kind": "INT",
+            "name": "m_turnIntervalMS",
+            "start_bit": 2248930
+          },
+          {
+            "end_bit": 2248994,
+            "kind": "INT",
+            "name": "m_currentSyncEventNumber",
+            "start_bit": 2248962
+          },
+          {
+            "end_bit": 2248995,
+            "kind": "OPTIONAL",
+            "name": "m_tournamentInfo",
+            "start_bit": 2248994
+          },
+          {
+            "end_bit": 2263690,
+            "kind": "ARRAY",
+            "name": "m_heroMasteryTiers",
+            "start_bit": 2248995
+          },
+          {
+            "end_bit": 2263691,
+            "kind": "OPTIONAL",
+            "name": "m_rejoinSaveCacheHandle",
+            "start_bit": 2263690
+          },
+          {
+            "end_bit": 2263692,
+            "kind": "OPTIONAL",
+            "name": "m_rejoinSaveElapsedGameLoops",
+            "start_bit": 2263691
+          }
+        ],
+        "root_type_id": 5917,
+        "safe_array_counts": {
+          "/StartGameRequest/m_accessMatrix": 5418,
+          "/StartGameRequest/m_disabledHeroList": 0,
+          "/StartGameRequest/m_mapInfoList": 6,
+          "/StartGameRequest/m_resourceMap": 5418,
+          "/m_achievementTags": 1,
+          "/m_clientInfoList": 11,
+          "/m_clientLicensesList": 11,
+          "/m_clientUnlockableInfoList": 11,
+          "/m_heroMasteryTiers": 89
+        },
+        "schema_sha256": "0fd61c8ef3b0aeef647912fd9e35308e70c39da9e2980004d06b1b92e0c96640",
+        "wire_tokens": 157801
+      },
+      "prior_core_profile_bound": true,
+      "profile_sha256": "ca8abe7788e0a4018b406ac332d0c64304b91c9992204b34176347ae73466681",
+      "replay_sha256": "d41417f0fd11a1d512e30fa77882bdebf220432bd7e9412b40440cb79a7c9cec"
+    }
+  ],
+  "current_cases": 21,
+  "format": "hots-native-whole-OnlineStartGameRequest-21case-binding-v1",
+  "full_upgrade_complete": false,
+  "game_client_or_DLL_executed": false,
+  "historical_conversion_or_deterministic_compatibility_proven": false,
+  "network_used": false,
+  "portable_module_sha256": "4a77f974d439f8f44eaac9afd8d4de99a8b6e12e96464f82fa7daf0e6aefd543",
+  "prior_local_attempts": [
+    {
+      "cases_decoded_before_failure": 1,
+      "exception_class": "KeyError",
+      "failure": "Validator used aggregate opaque path instead of its actual /0 token path",
+      "format_failure_claimed": false,
+      "prior_attempt_input_reads_in_successful_final_run_ledger": false
+    }
+  ],
+  "private_author_player_license_or_network_values_emitted": false,
+  "producer_sha256": "fcd530536d262c75a3677cadc535d182187a77a45d956356fe43d31dc6ee735c",
+  "replay_or_header_written": false,
+  "runtime_source_sha256s": {
+    "audit_availability_representation": "bd8eae93fd8334e6155a691acc3f2785a3d79556828b23f6aaf8c5363b89d65f",
+    "audit_battlelobby_mod_metadata": "8dad2d923957cdfc44bec5690fe075c16d6e204651e09cc88cbf8503abcdd7c9",
+    "audit_expanded_account_vectors": "2f020152115324ef7e309807a9d988bc65b62eb8dcf6e8077988b29cdd2dd9ca",
+    "audit_repeated_account_vectors": "66fdf4a017ddaf0a8a2b816572a8bdaae6993e0f041632a7d19e3647cbada6ac",
+    "battlelobby_attribute_layer": "3faf056fa8123f66e73dd551fcab2fb05fd9ccba5643826ec6835c771672aeee",
+    "battlelobby_tail": "2a1289148bdcc2b53b2c7e5d8bcdc67e5ef2ecb8840acea071153753610b5f7b",
+    "collection_license_audit": "e08784ba9130e3bfa6b75bdc11af5f9655f21ed500d90cd6f2721bf60638da32",
+    "mpq_reader": "9e940dae67c5d457483c814e6169e6e5d0a1cc5a1dcfdbd76dcf9026f1fa0033",
+    "native_clientinfo": "e0abd0b674c97b87f6a1510edc08704eebeca0ad9d43ac0537d5eaaa3eb9b202",
+    "native_startgame": "4a77f974d439f8f44eaac9afd8d4de99a8b6e12e96464f82fa7daf0e6aefd543",
+    "protocol_loader": "bb3147ba27dd6d0e33be93ab7ffff1922f1b53c59b38326b6ac786d8a7125b82"
+  },
+  "schema_sha256": "0fd61c8ef3b0aeef647912fd9e35308e70c39da9e2980004d06b1b92e0c96640",
+  "source_PE_sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+  "source_embedded_bytecode_sha256": "ce3b1f764575730f2c08c89eed73ea843ec4cc702b727c9577ca071ce610e741",
+  "source_manifests": {
+    "EU_binding_sha256": "413b87f7224b18020b4170542c6db1ee5b970e21936ec975efa5d92260b01464",
+    "cohort_manifest_sha256": "fc6dbc312dac9143bfe450d661f8033a04c2ce4eec51878618e2a517f8faf609",
+    "eight_other_map_catalog_table_sha256": "7e13c5f046c79a9ea0db240fd50c04628173568d0e838e6f89b659a744406219"
+  }
+}

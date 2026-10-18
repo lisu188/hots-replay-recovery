@@ -867,3 +867,25 @@ names/count width/permissions or authorize a conversion. Original/R8 unchanged.
 Official live EU manifest refreshed2026-10-18T23:29:24UTC remains2.57.0.98348,
 same874B/SHA as prior observation. No game client or new replay. Full migration
 and deterministic compatibility remain unfinished.
+
+
+## Complete native online lobby structure - 2026-10-19
+
+Read docs/NATIVE_ONLINE_STARTGAME_2026-10-19.md and native-online receipts.
+Native type5917 OnlineStartGameRequest is the ENTIRE current battlelobby member,
+starting at bit0. The selected513-type graph names all25root fields. All21current
+controls consume the exact whole member and reproduce everybyte, with12named
+surrounding anchors/case,136MapInfo ends and222ClientInfo ends. The aggregate
+is8897304typed fields and3314146wire tokens. EOFpadding0..7bits is explicitly
+separate and must be zero. The portable reader has local independent budgets
+and never changes shared native_clientinfo globals. All14focused synthetic
+tests pass. No native PE or game process is needed for portable decoding.
+
+CI now checks one actual currentEU whole member in addition to prior streams,
+8MapInfos/10ClientInfos. Inspect hosted run logs before claiming new CI results.
+The21case corpus is local evidence; no hosted private corpus claim. Old opaque
+postplayer group names are not native field boundaries: licenses useu32 IDs,
+globalResourceMap usesu64 IDs, and neither establishes ownership or scope bits.
+This milestone is read-only. No original/R8 changed, no client launched, no new
+replay written. Historical conversion and deterministic compatibility remain
+unproven; full replay upgrade is unfinished.

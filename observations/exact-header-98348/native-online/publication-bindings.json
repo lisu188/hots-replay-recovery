@@ -1,0 +1,79 @@
+{
+  "actual_current_controls": 21,
+  "base_commit": "e3e9ac8a7ab59e6292fd2522e60237cf05fc51eb",
+  "client_launched": false,
+  "files": [
+    {
+      "byte_preserved": true,
+      "bytes": 12906,
+      "git_blob_sha1": "c9c6c823a6fcd275f04e49ae5e68eb6566cfe877",
+      "sha256": "4a77f974d439f8f44eaac9afd8d4de99a8b6e12e96464f82fa7daf0e6aefd543",
+      "source": "work/native-online-codec-ready/native_startgame.py",
+      "target": "native_startgame.py"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 15736,
+      "git_blob_sha1": "3f8f13a9a7e3fe5c83105345a76a24bf84f648a9",
+      "sha256": "e9ee35f9b5774ce6307e7697185e88eee6797299e2b921e87e8e4ac88f412173",
+      "source": "work/native-online-codec-ready/test_native_startgame.py",
+      "target": "test_native_startgame.py"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 125279,
+      "git_blob_sha1": "9ca9a7b53e329cbf634de9ca3810bacf6abdbd2f",
+      "sha256": "0fd61c8ef3b0aeef647912fd9e35308e70c39da9e2980004d06b1b92e0c96640",
+      "source": "work/native-online-codec-ready/native_startgame_schema_98348.json",
+      "target": "native_startgame_schema_98348.json"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 3250,
+      "git_blob_sha1": "17d9b690b488e3bd9195c2c63f711c136e603cd2",
+      "sha256": "a38b811f206bf8918eff08fefdc6d2816ef7268840949891fc7bbc472d34e6dc",
+      "source": "work/native-online-codec-ready/README_NATIVE_STARTGAME.md",
+      "target": "docs/NATIVE_ONLINE_STARTGAME_2026-10-19.md"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 1426,
+      "git_blob_sha1": "4bc5f4027506657c0912a8294d5f685acd4f0ca4",
+      "sha256": "c36e87f03b9d746a3c830d903a95ffc83c987b73bd4f3fb2fc1ef79876628ca9",
+      "source": "work/native-online-codec-ready/native-online-portable-frozen-receipt.json",
+      "target": "observations/exact-header-98348/native-online/native-online-portable-frozen-receipt.json"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 12002,
+      "git_blob_sha1": "a0ffc5b84a6f7e89d9f639ae05a6d1670959d54d",
+      "sha256": "fcd530536d262c75a3677cadc535d182187a77a45d956356fe43d31dc6ee735c",
+      "source": "work/native-online-codec-ready/bind_native_startgame_controls.py",
+      "target": "research/exact-header-98348/native-online/bind_native_startgame_controls.py"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 130257,
+      "git_blob_sha1": "01340a9036cbdd7e797087bc2b6f1033828aeb4f",
+      "sha256": "756a5ab92f7910a7e217a884d0609375b6ae050d169935b58b58de9147f357f1",
+      "source": "work/native-online-codec-ready/native-online-startgame-21case-binding.json",
+      "target": "observations/exact-header-98348/native-online/native-online-startgame-21case-binding.json"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 1772,
+      "git_blob_sha1": "277983a6202ae9a0c1ca20548ec269ac1406a268",
+      "sha256": "b5ba6507ae8ba0a4631b81de61c895b9181e3d6b3b2d33bc3f8a06f94037ccae",
+      "source": "work/project_native_online_start.py",
+      "target": "research/exact-header-98348/native-online/project_native_online_start.py"
+    }
+  ],
+  "format": "hots-native-online-publication-binding-v1",
+  "frozen_sources_preserved_without_normalization": true,
+  "full_upgrade_complete": false,
+  "local_focused_tests_passed": 14,
+  "new_hosted_CI_result_claimed": false,
+  "raw_inputs_included": false,
+  "whole_message_EOF_and_bytes_exact": true,
+  "workflow_sha256": "e0bf923731e4ca6d65c51fcd1d490c40131ea284f79d2c1856988b80fbda83d3"
+}

@@ -121,7 +121,7 @@ jobs:
           with Path(os.environ['HOTS_EU_REFERENCE_CONTROL']).open('xb') as stream:
               stream.write(raw)
           PY
-      - name: Verify current EU streams, package versions, lobby suffix and native ClientInfo/MapInfo
+      - name: Verify current EU streams, packages and complete native OnlineStartGameRequest
         run: |
           python - <<'PY'
           import os
@@ -179,6 +179,19 @@ jobs:
           assert native_maps['last_two_field_width_histogram'] == [{'widths': [1, 31], 'records': 8}]
           assert native_maps['required_permission_count_histogram'] == {0: 8}
           print({'native_MapInfo_records_checked': 8, 'native_MapInfo_span_reencoding_exact': True})
+          from native_startgame import audit_current_startgame
+          whole = audit_current_startgame(raw)
+          assert whole['root_type_id'] == 5917 and whole['named_root_fields'] == 25
+          assert whole['native_payload_start_bit'] == 0
+          assert whole['native_payload_end_bit'] + whole['EOF_alignment_padding_bits'] == len(raw)*8
+          assert whole['complete_EOF_and_readonly_whole_member_reencoding_exact']
+          assert whole['schema_sha256'] == '0fd61c8ef3b0aeef647912fd9e35308e70c39da9e2980004d06b1b92e0c96640'
+          assert whole['safe_array_counts']['/StartGameRequest/m_mapInfoList'] == 8
+          assert whole['safe_array_counts']['/StartGameRequest/m_resourceMap'] == 5418
+          assert whole['safe_array_counts']['/StartGameRequest/m_accessMatrix'] == 5418
+          assert whole['safe_array_counts']['/m_clientInfoList'] == 10
+          assert whole['decoded_fields'] == 424200 and whole['wire_tokens'] == 158055
+          print({'native_OnlineStartGameRequest_root': 5917, 'complete_member_EOF_and_bytes_exact': True, 'named_root_fields': 25})
           reader = _Reader(raw)
           reader.position = mods['mod_metadata_end_bit']
           terminal = [cache_handle(reader.blob(40)) for _ in range(reader.bits(6))]
@@ -195,7 +208,7 @@ jobs:
           assert prefix == [cache_handle(value) for value in initial['m_syncLobbyState']['m_gameDescription']['m_cacheHandles']]
           assert len(prefix) == 8 and {handle['region'] for handle in prefix} == {'EU'}
           write_json('work/current-eu-profile.json', profile)
-          write_json('work/current-eu-structure.json', {'format': 'hots-current-eu-ci-structure-v1', 'replay_sha256': profile['file_sha256'], 'base_package_id_version_pairs': identities[:4], 'terminal_header_digests': [handle['digest'] for handle in terminal], 'prefix_and_independent_stream_handles_equal': True, 'tail': tail.report, 'native_ClientInfo': native, 'native_MapInfo': native_maps, 'private_crosscheck': checks, 'client_launched': False, 'replay_modified': False, 'simulation_or_conversion_proven': False})
+          write_json('work/current-eu-structure.json', {'format': 'hots-current-eu-ci-structure-v1', 'replay_sha256': profile['file_sha256'], 'base_package_id_version_pairs': identities[:4], 'terminal_header_digests': [handle['digest'] for handle in terminal], 'prefix_and_independent_stream_handles_equal': True, 'tail': tail.report, 'native_ClientInfo': native, 'native_MapInfo': native_maps, 'native_OnlineStartGameRequest': whole, 'private_crosscheck': checks, 'client_launched': False, 'replay_modified': False, 'simulation_or_conversion_proven': False})
           print({'current_EU_stream_counts': {kind: data['count'] for kind, data in profile['streams'].items()}, 'complete_lobby_EOF': True, 'base_packages': identities[:4]})
           PY
       - name: Discover and run every root test module with explicit platform gaps
