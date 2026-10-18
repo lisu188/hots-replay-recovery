@@ -1,0 +1,543 @@
+{
+  "format": "hots-exact-missing-eu-header-reconstruction-feasibility-v1",
+  "target_header_sha256": "f644ce88b9d1a1c15af40be380be285f3d2ffcaf901dc9c15da367e763ee75c0",
+  "target_package_id": 169992,
+  "target_version": 65663,
+  "source_headers": [
+    {
+      "version": 65661,
+      "sha256": "29f66c9eca1844826ad55f63eb8fd32a2d6e74ddb7931a8e835fb951f58e184d",
+      "bytes": 221133,
+      "wire_eof_complete": true,
+      "root_shape": {
+        "kind": "dict",
+        "length": 2,
+        "keys": [
+          0,
+          1
+        ]
+      },
+      "outer1_shape": {
+        "kind": "dict",
+        "length": 1,
+        "keys": [
+          0
+        ]
+      },
+      "outer1_canonical_tree_sha256": "d86bc1f96b58d5c1225fcd22d3e1186c2a6bf9f29b44c55f3f4aebb310668f8b",
+      "outer1_children": {
+        "0": {
+          "kind": "int"
+        }
+      }
+    },
+    {
+      "version": 65662,
+      "sha256": "f115def2b9adbc67cfdd8bb4255cff1a8b44a8c921e98f56eebe20708660a7c9",
+      "bytes": 221689,
+      "wire_eof_complete": true,
+      "root_shape": {
+        "kind": "dict",
+        "length": 2,
+        "keys": [
+          0,
+          1
+        ]
+      },
+      "outer1_shape": {
+        "kind": "dict",
+        "length": 1,
+        "keys": [
+          0
+        ]
+      },
+      "outer1_canonical_tree_sha256": "d86bc1f96b58d5c1225fcd22d3e1186c2a6bf9f29b44c55f3f4aebb310668f8b",
+      "outer1_children": {
+        "0": {
+          "kind": "int"
+        }
+      }
+    }
+  ],
+  "observed_changed_top_fields": [
+    {
+      "path": "root/0/0",
+      "before_shape": {
+        "kind": "dict",
+        "length": 2,
+        "keys": [
+          0,
+          1
+        ]
+      },
+      "after_shape": {
+        "kind": "dict",
+        "length": 2,
+        "keys": [
+          0,
+          1
+        ]
+      },
+      "equal": false,
+      "changed_descendant_groups": 1,
+      "primary_name_or_explicit_unknown": "header.id/version"
+    },
+    {
+      "path": "root/0/4",
+      "before_shape": {
+        "kind": "dict",
+        "length": 12,
+        "keys": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "after_shape": {
+        "kind": "dict",
+        "length": 12,
+        "keys": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "equal": false,
+      "changed_descendant_groups": 12,
+      "primary_name_or_explicit_unknown": "workingSet.localeTable"
+    },
+    {
+      "path": "root/0/5",
+      "before_shape": {
+        "kind": "list",
+        "length": 14
+      },
+      "after_shape": {
+        "kind": "list",
+        "length": 14
+      },
+      "equal": false,
+      "changed_descendant_groups": 4164,
+      "primary_name_or_explicit_unknown": "attributes (value definitions, visuals, localization indices)"
+    },
+    {
+      "path": "root/0/7",
+      "before_shape": {
+        "kind": "list",
+        "length": 139
+      },
+      "after_shape": {
+        "kind": "list",
+        "length": 139
+      },
+      "equal": false,
+      "changed_descendant_groups": 99,
+      "primary_name_or_explicit_unknown": "unknown field; primary source TODO resultDefinitions / score IDs"
+    },
+    {
+      "path": "root/0/8",
+      "before_shape": {
+        "kind": "list",
+        "length": 12
+      },
+      "after_shape": {
+        "kind": "list",
+        "length": 12
+      },
+      "equal": false,
+      "changed_descendant_groups": 12,
+      "primary_name_or_explicit_unknown": "localeTable"
+    },
+    {
+      "path": "root/0/24",
+      "before_shape": {
+        "kind": "list",
+        "length": 5480
+      },
+      "after_shape": {
+        "kind": "list",
+        "length": 5488
+      },
+      "equal": false,
+      "changed_descendant_groups": 1,
+      "primary_name_or_explicit_unknown": "numeric registry; current replay exposes first-occurrence deduplicated sequence"
+    }
+  ],
+  "root1_equal": true,
+  "root1_exact_observed_shape": "struct {0: integer}; no blob, bitarray, array or choice",
+  "root1_has_observed_rsa_signature_blob": false,
+  "root1_semantics_known": false,
+  "signature_absence_in_every_possible_future_header_proven": false,
+  "localization_comparison": [
+    {
+      "version": 65661,
+      "locales": 12,
+      "working_set_and_main_locale_tables_equal": true,
+      "prior_locale_handles_equal_current_at_mod_indices": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0
+      }
+    },
+    {
+      "version": 65662,
+      "locales": 12,
+      "working_set_and_main_locale_tables_equal": true,
+      "prior_locale_handles_equal_current_at_mod_indices": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0
+      }
+    }
+  ],
+  "attribute_comparison": [
+    {
+      "index": 0,
+      "namespace": 999,
+      "identifier": 3004,
+      "previous_value_count": 5,
+      "latest_cached_value_count": 5,
+      "current_battlelobby_identity_present": true,
+      "current_value_count": 5,
+      "cached_values_equal_current_by_fourcc_orientation": {
+        "big": true,
+        "little": false
+      },
+      "changed_descendant_groups": 0,
+      "change_path_groups": {}
+    },
+    {
+      "index": 1,
+      "namespace": 999,
+      "identifier": 4002,
+      "previous_value_count": 92,
+      "latest_cached_value_count": 93,
+      "current_battlelobby_identity_present": true,
+      "current_value_count": 93,
+      "cached_values_equal_current_by_fourcc_orientation": {
+        "big": true,
+        "little": false
+      },
+      "changed_descendant_groups": 1,
+      "change_path_groups": {
+        "1": 1
+      }
+    },
+    {
+      "index": 2,
+      "namespace": 999,
+      "identifier": 4023,
+      "previous_value_count": 91,
+      "latest_cached_value_count": 92,
+      "current_battlelobby_identity_present": true,
+      "current_value_count": 92,
+      "cached_values_equal_current_by_fourcc_orientation": {
+        "big": true,
+        "little": false
+      },
+      "changed_descendant_groups": 2,
+      "change_path_groups": {
+        "1": 1,
+        "2": 1
+      }
+    },
+    {
+      "index": 3,
+      "namespace": 999,
+      "identifier": 4025,
+      "previous_value_count": 91,
+      "latest_cached_value_count": 92,
+      "current_battlelobby_identity_present": true,
+      "current_value_count": 92,
+      "cached_values_equal_current_by_fourcc_orientation": {
+        "big": true,
+        "little": false
+      },
+      "changed_descendant_groups": 2,
+      "change_path_groups": {
+        "1": 1,
+        "2": 1
+      }
+    },
+    {
+      "index": 4,
+      "namespace": 999,
+      "identifier": 4043,
+      "previous_value_count": 91,
+      "latest_cached_value_count": 92,
+      "current_battlelobby_identity_present": true,
+      "current_value_count": 92,
+      "cached_values_equal_current_by_fourcc_orientation": {
+        "big": true,
+        "little": false
+      },
+      "changed_descendant_groups": 2,
+      "change_path_groups": {
+        "1": 1,
+        "2": 1
+      }
+    },
+    {
+      "index": 5,
+      "namespace": 999,
+      "identifier": 4028,
+      "previous_value_count": 91,
+      "latest_cached_value_count": 92,
+      "current_battlelobby_identity_present": true,
+      "current_value_count": 92,
+      "cached_values_equal_current_by_fourcc_orientation": {
+        "big": true,
+        "little": false
+      },
+      "changed_descendant_groups": 2,
+      "change_path_groups": {
+        "1": 1,
+        "2": 1
+      }
+    },
+    {
+      "index": 6,
+      "namespace": 999,
+      "identifier": 4030,
+      "previous_value_count": 91,
+      "latest_cached_value_count": 92,
+      "current_battlelobby_identity_present": true,
+      "current_value_count": 92,
+      "cached_values_equal_current_by_fourcc_orientation": {
+        "big": true,
+        "little": false
+      },
+      "changed_descendant_groups": 2,
+      "change_path_groups": {
+        "1": 1,
+        "2": 1
+      }
+    },
+    {
+      "index": 7,
+      "namespace": 999,
+      "identifier": 4045,
+      "previous_value_count": 91,
+      "latest_cached_value_count": 92,
+      "current_battlelobby_identity_present": true,
+      "current_value_count": 92,
+      "cached_values_equal_current_by_fourcc_orientation": {
+        "big": true,
+        "little": false
+      },
+      "changed_descendant_groups": 2,
+      "change_path_groups": {
+        "1": 1,
+        "2": 1
+      }
+    },
+    {
+      "index": 8,
+      "namespace": 999,
+      "identifier": 4003,
+      "previous_value_count": 1764,
+      "latest_cached_value_count": 1764,
+      "current_battlelobby_identity_present": true,
+      "current_value_count": 1773,
+      "cached_values_equal_current_by_fourcc_orientation": {
+        "big": false,
+        "little": false
+      },
+      "changed_descendant_groups": 3198,
+      "change_path_groups": {
+        "1": 3197,
+        "2": 1
+      }
+    },
+    {
+      "index": 9,
+      "namespace": 999,
+      "identifier": 4004,
+      "previous_value_count": 673,
+      "latest_cached_value_count": 677,
+      "current_battlelobby_identity_present": true,
+      "current_value_count": 677,
+      "cached_values_equal_current_by_fourcc_orientation": {
+        "big": true,
+        "little": false
+      },
+      "changed_descendant_groups": 2,
+      "change_path_groups": {
+        "1": 1,
+        "2": 1
+      }
+    },
+    {
+      "index": 10,
+      "namespace": 999,
+      "identifier": 4032,
+      "previous_value_count": 205,
+      "latest_cached_value_count": 204,
+      "current_battlelobby_identity_present": true,
+      "current_value_count": 204,
+      "cached_values_equal_current_by_fourcc_orientation": {
+        "big": true,
+        "little": false
+      },
+      "changed_descendant_groups": 2,
+      "change_path_groups": {
+        "1": 1,
+        "2": 1
+      }
+    },
+    {
+      "index": 11,
+      "namespace": 999,
+      "identifier": 4033,
+      "previous_value_count": 872,
+      "latest_cached_value_count": 872,
+      "current_battlelobby_identity_present": true,
+      "current_value_count": 872,
+      "cached_values_equal_current_by_fourcc_orientation": {
+        "big": true,
+        "little": false
+      },
+      "changed_descendant_groups": 873,
+      "change_path_groups": {
+        "1": 872,
+        "2": 1
+      }
+    },
+    {
+      "index": 12,
+      "namespace": 999,
+      "identifier": 4035,
+      "previous_value_count": 75,
+      "latest_cached_value_count": 75,
+      "current_battlelobby_identity_present": true,
+      "current_value_count": 75,
+      "cached_values_equal_current_by_fourcc_orientation": {
+        "big": true,
+        "little": false
+      },
+      "changed_descendant_groups": 74,
+      "change_path_groups": {
+        "1": 73,
+        "2": 1
+      }
+    },
+    {
+      "index": 13,
+      "namespace": 999,
+      "identifier": 4034,
+      "previous_value_count": 909,
+      "latest_cached_value_count": 914,
+      "current_battlelobby_identity_present": true,
+      "current_value_count": 914,
+      "cached_values_equal_current_by_fourcc_orientation": {
+        "big": true,
+        "little": false
+      },
+      "changed_descendant_groups": 2,
+      "change_path_groups": {
+        "1": 1,
+        "2": 1
+      }
+    }
+  ],
+  "unknown_field7_changes": {
+    "groups": 99,
+    "all_are_integer_leaves_at_score_like_item_path": true,
+    "path_pattern": "root/0/7/<index>/2/<0-or-1>/2",
+    "semantics_and_target_values_reconstructed": false
+  },
+  "registry_independent_report": {
+    "file": "../collection-registry-ready/static-package-registry-comparison.json",
+    "sha256": "f3d2562a541394a2d5400bb12de4f4c70c746d8626f41bb0a0580488bdf62cc8"
+  },
+  "latest_cached_registry_raw_count": 5488,
+  "latest_cached_registry_distinct_count": 5409,
+  "latest_cached_registry_duplicate_occurrences": 79,
+  "target_observed_distinct_registry_count": 5418,
+  "missing_distinct_registry_ids_vs_latest_cache": 9,
+  "current_distinct_sequence_does_not_determine_duplicate_multiplicity_or_positions": true,
+  "all_remaining_changes_deterministically_known": false,
+  "reconstruction_from_available_inputs_established": false,
+  "bounded_ram_candidate_generation_attempted": false,
+  "target_hash_match_observed": false,
+  "reason_no_candidate_attempt": "Current context supplies a deduplicated registry and package identity but does not determine raw duplicate layout or every changed static metadata/localization field. No timestamp, signature, duplicate layout or unknown scalar is guessed.",
+  "source_provenance": {
+    "primary_s2m_source_url": "https://github.com/sc2-arcade-watcher/s2mdec/blob/b48c60a697b12ae1dc8681a2d42ce313958ce94a/s2m.go#L719-L836",
+    "saved_primary_source_file_sha256": "6098d11befb24eba99f0c554118b34c9d180486dca212f7d02c10564f57f0064",
+    "source_version_mapping": "ReadS2MH ignores outer field1; it names workingSet, attributes, localeTable and leaves field7 TODO.",
+    "private_full_structural_diff_sha256": "2f448b92be278af042a4fa608ca15ab7fd8880512020ce41b065091f15d18ee8",
+    "local_helpers": [
+      {
+        "file": "inspect_missing_header_feasibility.py",
+        "sha256": "ac5ac393c658500aaf41bb971d001484151616eb8b6e98e354f13446adba98ca"
+      },
+      {
+        "file": "summarize_missing_header_feasibility.py",
+        "sha256": "8c751fcdf4153f34c5169efbb98d3be4c3e626b920204f380c6abf83977d4bf6"
+      }
+    ],
+    "primary_anchors": {
+      "instance_id_version": "L170-L185",
+      "working_set_locales": "L250-L290",
+      "attribute_value_visuals": "L312-L355",
+      "attribute_definition": "L358-L399",
+      "outer_header_1_not_interpreted": "L719-L740",
+      "header_main_fields": "L750-L775",
+      "numeric_registry_field24": "L827-L836"
+    }
+  },
+  "network_used": false,
+  "headers_generated_or_replays_written": false,
+  "publisher_account_values_emitted": false,
+  "client_launched": false,
+  "locale_binding_positive_controls": [
+    {
+      "mod_index": 0,
+      "header_sha256": "8605dedcd84ee88bf5e4f21a354d4e5e0dd7e11f932a61955bef4d0dec7ec354",
+      "locale_count": 12,
+      "current_replay_exact_handle_matches_at_same_mod_index": 12
+    },
+    {
+      "mod_index": 1,
+      "header_sha256": "154724c2bc9830f8be306833c064da19063aaf3206327a6b9bcc7c56cdf7f84a",
+      "locale_count": 12,
+      "current_replay_exact_handle_matches_at_same_mod_index": 12
+    },
+    {
+      "mod_index": 2,
+      "header_sha256": "c433f7acb071f5adf34363ef7228f49f48eb278ac6d12ac35a6fbb35ff9369b7",
+      "locale_count": 12,
+      "current_replay_exact_handle_matches_at_same_mod_index": 12
+    }
+  ],
+  "current_heroesdata_twelve_locale_handles_available_in_replay": true,
+  "current_locales_do_not_supply_all_missing_header_fields": true
+}

@@ -1,0 +1,397 @@
+{
+  "availability_receipt_sha256": "ba8938db00088d869d6bd5d0aa2e45c41b5b79d2755d6dd778605384da7ce89f",
+  "closest_cached_registry_missing9_current_XML_reward_records_and_extra_counterexample": [
+    {
+      "declaration": {
+        "declaration_index": 838,
+        "default": null,
+        "fields": {
+          "License": [
+            {
+              "attributes": {
+                "value": "1063346"
+              },
+              "direct_literal_candidate": true,
+              "numeric_value": 1063346,
+              "unresolved": []
+            }
+          ]
+        },
+        "id": "CrusaderOWC20Var3",
+        "parent": null,
+        "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/crusaderdata/crusaderskindata/crusaderowc20data/crusaderowc20var3data.xml",
+        "type": "CRewardSkin",
+        "unresolved": [],
+        "xml_child_ordinal": 0
+      },
+      "observed_5418_membership": {
+        "1063346": true
+      },
+      "source_bytes": 443,
+      "source_sha256": "125a4bc0998ce1ab28cd357cd125918c56dafedea828014f496c1f1af2f99b74"
+    },
+    {
+      "declaration": {
+        "declaration_index": 840,
+        "default": null,
+        "fields": {
+          "License": [
+            {
+              "attributes": {
+                "value": "1063866"
+              },
+              "direct_literal_candidate": true,
+              "numeric_value": 1063866,
+              "unresolved": []
+            }
+          ]
+        },
+        "id": "CrusaderOWC20Var4",
+        "parent": null,
+        "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/crusaderdata/crusaderskindata/crusaderowc20data/crusaderowc20var4data.xml",
+        "type": "CRewardSkin",
+        "unresolved": [],
+        "xml_child_ordinal": 2
+      },
+      "observed_5418_membership": {
+        "1063866": true
+      },
+      "source_bytes": 1106,
+      "source_sha256": "2cb9163c0b86e70a87b3d7b432cc3ee4c1bd601ce9d0dbb978e905af52a83569"
+    },
+    {
+      "declaration": {
+        "declaration_index": 842,
+        "default": null,
+        "fields": {
+          "License": [
+            {
+              "attributes": {
+                "value": "1063867"
+              },
+              "direct_literal_candidate": true,
+              "numeric_value": 1063867,
+              "unresolved": []
+            }
+          ]
+        },
+        "id": "CrusaderOWC20Var5",
+        "parent": null,
+        "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/crusaderdata/crusaderskindata/crusaderowc20data/crusaderowc20var5data.xml",
+        "type": "CRewardSkin",
+        "unresolved": [],
+        "xml_child_ordinal": 2
+      },
+      "observed_5418_membership": {
+        "1063867": true
+      },
+      "source_bytes": 1436,
+      "source_sha256": "99586df2b7a38c1b18059410a1435831bc1ecd37e37c1efe1e1838c8b1d2b90c"
+    },
+    {
+      "declaration": {
+        "declaration_index": 925,
+        "default": null,
+        "fields": {
+          "License": [
+            {
+              "attributes": {
+                "value": "1064006"
+              },
+              "direct_literal_candidate": true,
+              "numeric_value": 1064006,
+              "unresolved": []
+            }
+          ]
+        },
+        "id": "DemonHunterOWC20Var3",
+        "parent": null,
+        "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/demonhunterdata/demonhunterskindata/demonhunterowc20data/demonhunterowc20var3data.xml",
+        "type": "CRewardSkin",
+        "unresolved": [],
+        "xml_child_ordinal": 0
+      },
+      "observed_5418_membership": {
+        "1064006": true
+      },
+      "source_bytes": 456,
+      "source_sha256": "076d2565193aa71e196a16ebea57f1ad9ece816a897db1007b4e19222a7dceac"
+    },
+    {
+      "declaration": {
+        "declaration_index": 927,
+        "default": null,
+        "fields": {
+          "License": [
+            {
+              "attributes": {
+                "value": "1064007"
+              },
+              "direct_literal_candidate": true,
+              "numeric_value": 1064007,
+              "unresolved": []
+            }
+          ]
+        },
+        "id": "DemonHunterOWC20Var4",
+        "parent": null,
+        "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/demonhunterdata/demonhunterskindata/demonhunterowc20data/demonhunterowc20var4data.xml",
+        "type": "CRewardSkin",
+        "unresolved": [],
+        "xml_child_ordinal": 2
+      },
+      "observed_5418_membership": {
+        "1064007": true
+      },
+      "source_bytes": 1533,
+      "source_sha256": "62fc64301179f02e4e3e1456cd4c5e6f9171574f0a04fb355b471335adbe7a51"
+    },
+    {
+      "declaration": {
+        "declaration_index": 929,
+        "default": null,
+        "fields": {
+          "License": [
+            {
+              "attributes": {
+                "value": "1064026"
+              },
+              "direct_literal_candidate": true,
+              "numeric_value": 1064026,
+              "unresolved": []
+            }
+          ]
+        },
+        "id": "DemonHunterOWC20Var5",
+        "parent": null,
+        "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/demonhunterdata/demonhunterskindata/demonhunterowc20data/demonhunterowc20var5data.xml",
+        "type": "CRewardSkin",
+        "unresolved": [],
+        "xml_child_ordinal": 2
+      },
+      "observed_5418_membership": {
+        "1064026": true
+      },
+      "source_bytes": 1307,
+      "source_sha256": "617b2b852e14896f61495f429ad4f695a39ad293078344e42b55b4996816ee60"
+    },
+    {
+      "declaration": {
+        "declaration_index": 2155,
+        "default": null,
+        "fields": {
+          "License": [
+            {
+              "attributes": {
+                "value": "1063868"
+              },
+              "direct_literal_candidate": true,
+              "numeric_value": 1063868,
+              "unresolved": []
+            }
+          ]
+        },
+        "id": "RaynorOWC20Var3",
+        "parent": null,
+        "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/raynordata/raynorskindata/raynorowc20data/raynorowc20var3data.xml",
+        "type": "CRewardSkin",
+        "unresolved": [],
+        "xml_child_ordinal": 0
+      },
+      "observed_5418_membership": {
+        "1063868": true
+      },
+      "source_bytes": 431,
+      "source_sha256": "cb94a6dac81548a8a8bd66e1a8ebe7a3cd9b7beeb8ce379b786615be79ea30b0"
+    },
+    {
+      "declaration": {
+        "declaration_index": 2157,
+        "default": null,
+        "fields": {
+          "License": [
+            {
+              "attributes": {
+                "value": "1063869"
+              },
+              "direct_literal_candidate": true,
+              "numeric_value": 1063869,
+              "unresolved": []
+            }
+          ]
+        },
+        "id": "RaynorOWC20Var4",
+        "parent": null,
+        "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/raynordata/raynorskindata/raynorowc20data/raynorowc20var4data.xml",
+        "type": "CRewardSkin",
+        "unresolved": [],
+        "xml_child_ordinal": 2
+      },
+      "observed_5418_membership": {
+        "1063869": true
+      },
+      "source_bytes": 1214,
+      "source_sha256": "09ed160007a6f2af28398b1870f38c3161957e57b24d92e4547d44862f8aef0c"
+    },
+    {
+      "declaration": {
+        "declaration_index": 2159,
+        "default": null,
+        "fields": {
+          "License": [
+            {
+              "attributes": {
+                "value": "1063886"
+              },
+              "direct_literal_candidate": true,
+              "numeric_value": 1063886,
+              "unresolved": []
+            }
+          ]
+        },
+        "id": "RaynorOWC20Var5",
+        "parent": null,
+        "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/raynordata/raynorskindata/raynorowc20data/raynorowc20var5data.xml",
+        "type": "CRewardSkin",
+        "unresolved": [],
+        "xml_child_ordinal": 2
+      },
+      "observed_5418_membership": {
+        "1063886": true
+      },
+      "source_bytes": 1214,
+      "source_sha256": "9fef883de81a03a9d85e9645099ec13269afd93ed1c5feafdbe7f571030a1127"
+    },
+    {
+      "declaration": {
+        "declaration_index": 9499,
+        "default": null,
+        "fields": {
+          "License": [
+            {
+              "attributes": {
+                "value": "1209137"
+              },
+              "direct_literal_candidate": true,
+              "numeric_value": 1209137,
+              "unresolved": []
+            }
+          ]
+        },
+        "id": "MephistoMoophisto",
+        "parent": null,
+        "source": "mods/heromods/mephisto.stormmod/base.stormdata/gamedata/mephistoskindata/mephistomoophistodata/mephistomoophistobasedata.xml",
+        "type": "CRewardSkin",
+        "unresolved": [],
+        "xml_child_ordinal": 25
+      },
+      "observed_5418_membership": {
+        "1209137": false
+      },
+      "source_bytes": 11875,
+      "source_sha256": "1ffc494b82880336bd6d35a9ce7c52ad514b18847def25438db76c33a245f2c5"
+    }
+  ],
+  "conclusions": {
+    "HyperlinkId_legacy_ownership_mapping_proven": false,
+    "all13_current_ordered_raw8byte_registries_identical": true,
+    "all_raw_XML_Licenses_equal_observed_registry": false,
+    "availability_flag_or_ownership_meaning_proven": false,
+    "availability_has_nonconstant_match_state": true,
+    "current_complete_authentic_package_registry_binding_established": false,
+    "current_registry_order_generator_algorithm_proven": false,
+    "old_ordered_global_registry_is_static_package_bound": true
+  },
+  "current_XML_projection_sha256": "c8f03ddbc859feb5c2dc1836761201b5e6fea4632ce0325817abdd7299c8aa22",
+  "extra1209137_related_loadout_records": [
+    {
+      "declaration_index": 9500,
+      "default": "1",
+      "fields": {},
+      "id": "MephistoMoophistoCommon",
+      "parent": null,
+      "source": "mods/heromods/mephisto.stormmod/base.stormdata/gamedata/mephistoskindata/mephistomoophistodata/mephistomoophistobasedata.xml",
+      "type": "CSkin",
+      "unresolved": [
+        "default_declaration_not_resolved"
+      ],
+      "xml_child_ordinal": 26
+    },
+    {
+      "declaration_index": 9501,
+      "default": null,
+      "fields": {
+        "HyperlinkId": [
+          {
+            "attributes": {
+              "value": "Moophisto"
+            },
+            "direct_literal_candidate": true,
+            "unresolved": []
+          }
+        ],
+        "ProductId": [
+          {
+            "attributes": {
+              "value": "2122489"
+            },
+            "direct_literal_candidate": true,
+            "numeric_value": 2122489,
+            "unresolved": []
+          }
+        ],
+        "RequiredRewardArray": [
+          {
+            "attributes": {
+              "value": "MephistoMoophisto"
+            },
+            "direct_literal_candidate": true,
+            "unresolved": []
+          }
+        ]
+      },
+      "id": "MephistoMoophisto",
+      "parent": "MephistoMoophistoCommon",
+      "source": "mods/heromods/mephisto.stormmod/base.stormdata/gamedata/mephistoskindata/mephistomoophistodata/mephistomoophistobasedata.xml",
+      "type": "CSkin",
+      "unresolved": [
+        "parent_inheritance_not_resolved"
+      ],
+      "xml_child_ordinal": 27
+    }
+  ],
+  "format": "hots-collection-registry-primary-source-semantics-assessment-v1",
+  "limitations": [
+    "All9 missing cached-registry IDs have current direct CRewardSkin License records, but do not provide the absent exact current package header.",
+    "The1209137 MephistoMoophisto raw XML reward is absent from every observed5418 registry. Selected-field projection contains no effective disable/availability reason.",
+    "No per-slot value, availability hash, player identity, raw header or raw XML is exported. No replay rewrite was performed."
+  ],
+  "primary_sources": [
+    {
+      "local_source_excerpt_sha256": "6ec4e1eb96f0e0321afb1df5d6f7f234453d610ba37d30dc5f40b572f6776fc4",
+      "scope": "Excerpt from lines719-855; no complete-file SHA is claimed.",
+      "supported_observation": "Field23 comment gives an SC2 voice-pack-name example; field24 comment suggests possible reward IDs. No authoritative HotS ownership or generation name is assigned.",
+      "url": "https://github.com/sc2-arcade-watcher/s2mdec/blob/b48c60a697b12ae1dc8681a2d42ce313958ce94a/s2m.go#L827-L837"
+    },
+    {
+      "local_source_excerpt_sha256": "51ea8292d4ca7df88e35867e6f05cd071d03d8771c4ce1c33572134fc3b3851a",
+      "scope": "Full small public source file.",
+      "supported_observation": "SetHyperlinkIdProperty copies the current XML hyperlinkid string into a HyperlinkId property.",
+      "url": "https://github.com/HeroesToolChest/HeroesDataParser/blob/1c2488069392d6c465faecb9abb150ec16664688/HeroesDataParser/Infrastructure/XmlDataParsers/DataParser.cs#L78-L84"
+    },
+    {
+      "local_source_excerpt_sha256": "52001c998c9dd8abaa64bfca503f6f6d45f32cab5e5d7ff2273c6e342ae918c7",
+      "scope": "Full small public source file.",
+      "supported_observation": "A missing HyperlinkId falls back to the current catalog record ID. The code establishes no legacy entitlement migration semantics.",
+      "url": "https://github.com/HeroesToolChest/HeroesDataParser/blob/1c2488069392d6c465faecb9abb150ec16664688/HeroesDataParser/Infrastructure/XmlDataParsers/StoreItemParserBase.cs#L81-L84"
+    },
+    {
+      "local_source_excerpt_sha256": "b940d66d6dd2ff120305f5c847caf147bbd857b19a48639c5df84a65210ff8a7",
+      "scope": "Full small public interface.",
+      "supported_observation": "The interface describes a hyperlink-ID property and provides no ownership or alias contract.",
+      "url": "https://github.com/HeroesToolChest/Heroes.Element/blob/0e8b1bf97df6d65c190c578df05bca0d0b59f99a/Heroes.Element/Models/ObjectProperties/IHyperlinkId.cs"
+    }
+  ],
+  "producer_sha256": "54510a51c6c28983ba87d52362807408931e80151ac07bd79657099d43062c0f",
+  "registry_receipt_sha256": "f3d2562a541394a2d5400bb12de4f4c70c746d8626f41bb0a0580488bdf62cc8"
+}

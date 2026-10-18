@@ -1,0 +1,60 @@
+{
+  "format": "hots-availability15-and-eu-ci-independent-review-v1",
+  "status": "pass-with-explicit-reviewed-draft-scope",
+  "material_findings": [],
+  "availability": {
+    "producer_sha256": "db9806fd0b9cebd987eeeafff4e92cc60d4eeb51de2865718724ff5cce83fffe",
+    "frozen_report_sha256": "ba8938db00088d869d6bd5d0aa2e45c41b5b79d2755d6dd778605384da7ce89f",
+    "fresh_all15actual_cases_equal_frozen_JSON_values": true,
+    "case_count": 15,
+    "current_cases": 13,
+    "distinct_full_availability_blobs_including_legacy": 14,
+    "all13current_registries_identical": true,
+    "all13current_availability_blobs_distinct": true,
+    "original_r8_availability_equal": true,
+    "no_case_all_zero_or_all_rows_identical": true,
+    "all15complete_member_EOF_and_same_profile_byte_roundtrip": true,
+    "all15replay_hashes_verified_before_and_after": true,
+    "availability_bytes_hashes_cells_slot_ids_not_reported": true
+  },
+  "tests": {
+    "registry_tests": 12,
+    "availability_aggregate_tests": 3,
+    "total_passed": 15,
+    "skipped": 0
+  },
+  "eu_ci_draft": {
+    "path": "work/eu_replay_ci_steps.yml",
+    "reviewed_sha256": "b9fe3f794f673125d4eefad04a22bfd40c9f02979c7e289570cb3703c700818d",
+    "python_blocks_AST_parse": 2,
+    "parent_full_workflow_default_shell_bash_checked": true,
+    "required_fixture_environment": "HOTS_EU_REFERENCE_CONTROL",
+    "fixture_bytes": 978482,
+    "fixture_sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4",
+    "download_no_redirects": true,
+    "bounded_expected_length_plus_one_read": true,
+    "exclusive_write_only_after_size_and_digest_check": true,
+    "official_plus_semantic_core_roundtrip_and_event_counts_checked": true,
+    "canonical_schema_hash_guard_present": true,
+    "full_tail_EOF_roundtrip_private_crosschecks_and_seeds_checked": true,
+    "all8EUhandles_crosschecked_to_details_and_initdata": true,
+    "exact4base_package_id_version_pairs_asserted": true,
+    "report_fields_sanitized": true,
+    "explicit_base_and_data_build_assertions_present_in_reviewed_bytes": false,
+    "explicit_initdata_slot_match10_assertion_present_in_reviewed_bytes": false,
+    "parent_stated_additions_before_own_local_run": [
+      "Assert header baseBuild and dataBuild both98348 explicitly",
+      "Assert initData identity_and_slot_matches equals10 explicitly"
+    ],
+    "no_network_or_fixture_verification_code_executed_by_reviewer": true
+  },
+  "limits": [
+    "This review freshly recomputed actual availability results but did not reacquire the EU fixture or execute the draft full-core CI block.",
+    "The draft snippet review covers its recorded SHA; root owns final insertion, fixture environment, artifact allowlist and later CI outcome.",
+    "Aggregate equality/counts establish no bit flags, entitlement semantics, full migration or simulation compatibility.",
+    "Private availability/player tokens exist in RAM during reviewed full-tail parsing; only aggregate/equality outcomes are emitted."
+  ],
+  "new_network_requests": 0,
+  "client_launched": false,
+  "replay_or_repo_modified": false
+}

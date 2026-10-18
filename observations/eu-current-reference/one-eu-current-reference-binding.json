@@ -1,0 +1,759 @@
+{
+  "format": "hots-public-eu-reference-binding-v1",
+  "file": "heroeslounge-27515-g1-20261005.StormReplay",
+  "file_sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4",
+  "file_bytes": 978482,
+  "profile_file": "heroeslounge-27515-g1-20261005.profile.json",
+  "profile_sha256": "255f13b2d9dd52763b94d4aa8d1e99624c4d38eb8e545e205549bffce3be9feb",
+  "declared_version": {
+    "m_flags": 1,
+    "m_major": 2,
+    "m_minor": 57,
+    "m_revision": 0,
+    "m_build": 98348,
+    "m_baseBuild": 98348
+  },
+  "data_build": 98348,
+  "root_md5": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+  "map_title": "Lost Cavern",
+  "details_player_region_set": [
+    2
+  ],
+  "details_player_count": 10,
+  "prefix_handles": [
+    {
+      "extension": "s2ma",
+      "region": "EU",
+      "digest": "1f1b228ddb1f72205cbfd444055287100b0f39959be816548162e4081ea85511",
+      "relative_path": "1f/1b/1f1b228ddb1f72205cbfd444055287100b0f39959be816548162e4081ea85511.s2ma"
+    },
+    {
+      "extension": "s2ma",
+      "region": "EU",
+      "digest": "1ad94c126eb98a4c1de7b8e6f8aaa153dba52b09d3825e0c89dbc5828db70f76",
+      "relative_path": "1a/d9/1ad94c126eb98a4c1de7b8e6f8aaa153dba52b09d3825e0c89dbc5828db70f76.s2ma"
+    },
+    {
+      "extension": "s2ma",
+      "region": "EU",
+      "digest": "92d81744c1441bf628ed6ab7e9d19485c860914d8b745a91f6351ff9dcd4e6bb",
+      "relative_path": "92/d8/92d81744c1441bf628ed6ab7e9d19485c860914d8b745a91f6351ff9dcd4e6bb.s2ma"
+    },
+    {
+      "extension": "s2ma",
+      "region": "EU",
+      "digest": "a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43",
+      "relative_path": "a1/e9/a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43.s2ma"
+    },
+    {
+      "extension": "s2ma",
+      "region": "EU",
+      "digest": "3b1dd5f27edd879d41fa806fbbd2b4e1589a3c920d0a377c778385f99441d40a",
+      "relative_path": "3b/1d/3b1dd5f27edd879d41fa806fbbd2b4e1589a3c920d0a377c778385f99441d40a.s2ma"
+    },
+    {
+      "extension": "s2ma",
+      "region": "EU",
+      "digest": "8253d0f96358557a0119b6cba7dc20dad941552bfa785b1396f76b4c85a81b1c",
+      "relative_path": "82/53/8253d0f96358557a0119b6cba7dc20dad941552bfa785b1396f76b4c85a81b1c.s2ma"
+    },
+    {
+      "extension": "s2ma",
+      "region": "EU",
+      "digest": "d653b243b01cceefd7e50fb8b2e4864a26a100c4e2cb1e38ccae6e5b2665c360",
+      "relative_path": "d6/53/d653b243b01cceefd7e50fb8b2e4864a26a100c4e2cb1e38ccae6e5b2665c360.s2ma"
+    },
+    {
+      "extension": "s2ma",
+      "region": "EU",
+      "digest": "ab9867fa3ecc52c8330553a120af5853f6673b6e42a9e393ee82dd6629fb7e93",
+      "relative_path": "ab/98/ab9867fa3ecc52c8330553a120af5853f6673b6e42a9e393ee82dd6629fb7e93.s2ma"
+    }
+  ],
+  "details_init_prefix_handles_identical_in_order": true,
+  "mod_metadata": {
+    "format": "hots-battlelobby-mod-metadata-audit-v2",
+    "profile": "current-observed",
+    "profile_label_is_backward_compatible": true,
+    "arcade_section_interpretation": "counted-section-headers-and-localized-items",
+    "member_bytes": 284879,
+    "member_sha256": "62a6c46d2f5b17139b72cd0b84a1ceeeac76b04a7a254889943d61c413d8adf1",
+    "start_bit": 491952,
+    "mod_metadata_end_bit": 509641,
+    "terminal_handles_end_bit": 512208,
+    "section_bytes": 2532,
+    "section_sha256": "9018ecf13fe21bd4049186f0deb1254a4a3dffacb33da3d0d21d89b07c243a04",
+    "after_section_bytes": 220853,
+    "after_section_sha256": "d3ca96ce686dedd4e12de12eb482d55a3f1e9b907feefcdafab9da91ae84343c",
+    "header_unknown128": {
+      "bits": 128,
+      "packed_sha256": "5cba1ea2afc4cb902e6a3b629b14012aa5b467bd9097342f7b68f51f3c42b469",
+      "set_bits": 18
+    },
+    "legacy_extra_three_bits": null,
+    "used_mod_count": 8,
+    "mod_metadata_count": 8,
+    "terminal_s2mh_count": 8,
+    "repeated_mod_identities_valid": true,
+    "dependency_identifier_components_resolved": true,
+    "dependency_version_fields_preserved": true,
+    "dependency_version_resolution_semantics_validated": false,
+    "dependency_pairs_sha256": "044bd7d2011b241d8928211479cd2d8c2fcecf3503960674e55042b873f4b5ba",
+    "entries": [
+      {
+        "index": 0,
+        "start_bit": 492636,
+        "cache_handle_count": 2,
+        "cafebabe_bit": 494105,
+        "cafebabe_valid": true,
+        "static_arcade_info_flag_bit": 494201,
+        "has_static_arcade_info": false,
+        "dependency_count": 0,
+        "final_unknown_filler_bits": 32,
+        "final_unknown_filler_value": 0,
+        "end_bit": 494240
+      },
+      {
+        "index": 1,
+        "start_bit": 494240,
+        "cache_handle_count": 2,
+        "cafebabe_bit": 495705,
+        "cafebabe_valid": true,
+        "static_arcade_info_flag_bit": 495801,
+        "has_static_arcade_info": false,
+        "dependency_count": 1,
+        "final_unknown_filler_bits": 32,
+        "final_unknown_filler_value": 0,
+        "end_bit": 495904
+      },
+      {
+        "index": 2,
+        "start_bit": 495904,
+        "cache_handle_count": 2,
+        "cafebabe_bit": 497337,
+        "cafebabe_valid": true,
+        "static_arcade_info_flag_bit": 497433,
+        "has_static_arcade_info": false,
+        "dependency_count": 1,
+        "final_unknown_filler_bits": 32,
+        "final_unknown_filler_value": 0,
+        "end_bit": 497536
+      },
+      {
+        "index": 3,
+        "start_bit": 497536,
+        "cache_handle_count": 3,
+        "cafebabe_bit": 499321,
+        "cafebabe_valid": true,
+        "static_arcade_info_flag_bit": 499417,
+        "has_static_arcade_info": true,
+        "arcade_auxiliary_arrays_observed_empty": true,
+        "game_info_screenshots_count": 0,
+        "how_to_play_screenshots_count": 0,
+        "how_to_play_section_start_bit": 499437,
+        "how_to_play_section_end_bit": 499448,
+        "how_to_play_sections": {
+          "section_header_count": 0,
+          "localized_item_count": 0,
+          "all_localization_colors_absent": true,
+          "canonical_numeric_sha256": "643d5437104296e21d906ecb15b2c96ad278f20cfc4af53b12bb6069bd853726",
+          "interpretation": "static-package-arcade-section-array"
+        },
+        "patch_note_section_start_bit": 499448,
+        "patch_note_section_end_bit": 499459,
+        "patch_note_sections": {
+          "section_header_count": 0,
+          "localized_item_count": 0,
+          "all_localization_colors_absent": true,
+          "canonical_numeric_sha256": "643d5437104296e21d906ecb15b2c96ad278f20cfc4af53b12bb6069bd853726",
+          "interpretation": "static-package-arcade-section-array"
+        },
+        "has_map_icon": false,
+        "matchmaker_tag_count": 1,
+        "dependency_count": 1,
+        "final_unknown_filler_bits": 32,
+        "final_unknown_filler_value": 0,
+        "end_bit": 499623
+      },
+      {
+        "index": 4,
+        "start_bit": 499623,
+        "cache_handle_count": 2,
+        "cafebabe_bit": 501057,
+        "cafebabe_valid": true,
+        "static_arcade_info_flag_bit": 501153,
+        "has_static_arcade_info": true,
+        "arcade_auxiliary_arrays_observed_empty": true,
+        "game_info_screenshots_count": 0,
+        "how_to_play_screenshots_count": 0,
+        "how_to_play_section_start_bit": 501173,
+        "how_to_play_section_end_bit": 501607,
+        "how_to_play_sections": {
+          "section_header_count": 5,
+          "localized_item_count": 1,
+          "all_localization_colors_absent": true,
+          "canonical_numeric_sha256": "550246fff70c856b45d55e790185a59cea3adcbd4b2157adb93858a6a85370ac",
+          "interpretation": "static-package-arcade-section-array"
+        },
+        "patch_note_section_start_bit": 501607,
+        "patch_note_section_end_bit": 501618,
+        "patch_note_sections": {
+          "section_header_count": 0,
+          "localized_item_count": 0,
+          "all_localization_colors_absent": true,
+          "canonical_numeric_sha256": "643d5437104296e21d906ecb15b2c96ad278f20cfc4af53b12bb6069bd853726",
+          "interpretation": "static-package-arcade-section-array"
+        },
+        "has_map_icon": false,
+        "matchmaker_tag_count": 0,
+        "dependency_count": 1,
+        "final_unknown_filler_bits": 32,
+        "final_unknown_filler_value": 0,
+        "end_bit": 501750
+      },
+      {
+        "index": 5,
+        "start_bit": 501750,
+        "cache_handle_count": 2,
+        "cafebabe_bit": 503185,
+        "cafebabe_valid": true,
+        "static_arcade_info_flag_bit": 503281,
+        "has_static_arcade_info": true,
+        "arcade_auxiliary_arrays_observed_empty": true,
+        "game_info_screenshots_count": 0,
+        "how_to_play_screenshots_count": 0,
+        "how_to_play_section_start_bit": 503301,
+        "how_to_play_section_end_bit": 503735,
+        "how_to_play_sections": {
+          "section_header_count": 5,
+          "localized_item_count": 1,
+          "all_localization_colors_absent": true,
+          "canonical_numeric_sha256": "dc53614d2c1e727818eaf66c47938b5edafd28fa6ae7920e9cae3b35d5860017",
+          "interpretation": "static-package-arcade-section-array"
+        },
+        "patch_note_section_start_bit": 503735,
+        "patch_note_section_end_bit": 503746,
+        "patch_note_sections": {
+          "section_header_count": 0,
+          "localized_item_count": 0,
+          "all_localization_colors_absent": true,
+          "canonical_numeric_sha256": "643d5437104296e21d906ecb15b2c96ad278f20cfc4af53b12bb6069bd853726",
+          "interpretation": "static-package-arcade-section-array"
+        },
+        "has_map_icon": false,
+        "matchmaker_tag_count": 0,
+        "dependency_count": 2,
+        "final_unknown_filler_bits": 32,
+        "final_unknown_filler_value": 0,
+        "end_bit": 503942
+      },
+      {
+        "index": 6,
+        "start_bit": 503942,
+        "cache_handle_count": 3,
+        "cafebabe_bit": 505697,
+        "cafebabe_valid": true,
+        "static_arcade_info_flag_bit": 505793,
+        "has_static_arcade_info": true,
+        "arcade_auxiliary_arrays_observed_empty": true,
+        "game_info_screenshots_count": 0,
+        "how_to_play_screenshots_count": 0,
+        "how_to_play_section_start_bit": 505813,
+        "how_to_play_section_end_bit": 506247,
+        "how_to_play_sections": {
+          "section_header_count": 5,
+          "localized_item_count": 1,
+          "all_localization_colors_absent": true,
+          "canonical_numeric_sha256": "47aa5b59814b1855c493d77e222694ee25c91d9d04f0993acb10595a69bf93a9",
+          "interpretation": "static-package-arcade-section-array"
+        },
+        "patch_note_section_start_bit": 506247,
+        "patch_note_section_end_bit": 506258,
+        "patch_note_sections": {
+          "section_header_count": 0,
+          "localized_item_count": 0,
+          "all_localization_colors_absent": true,
+          "canonical_numeric_sha256": "643d5437104296e21d906ecb15b2c96ad278f20cfc4af53b12bb6069bd853726",
+          "interpretation": "static-package-arcade-section-array"
+        },
+        "has_map_icon": false,
+        "matchmaker_tag_count": 0,
+        "dependency_count": 1,
+        "final_unknown_filler_bits": 32,
+        "final_unknown_filler_value": 0,
+        "end_bit": 506390
+      },
+      {
+        "index": 7,
+        "start_bit": 506390,
+        "cache_handle_count": 4,
+        "cafebabe_bit": 508574,
+        "cafebabe_valid": true,
+        "static_arcade_info_flag_bit": 508670,
+        "has_static_arcade_info": true,
+        "arcade_auxiliary_arrays_observed_empty": true,
+        "game_info_screenshots_count": 1,
+        "how_to_play_screenshots_count": 0,
+        "how_to_play_section_start_bit": 508783,
+        "how_to_play_section_end_bit": 509332,
+        "how_to_play_sections": {
+          "section_header_count": 5,
+          "localized_item_count": 6,
+          "all_localization_colors_absent": true,
+          "canonical_numeric_sha256": "31b12fb56d95e7a178d095b142b1da656001f336921952fa4ed08b6aa241d9c2",
+          "interpretation": "static-package-arcade-section-array"
+        },
+        "patch_note_section_start_bit": 509332,
+        "patch_note_section_end_bit": 509343,
+        "patch_note_sections": {
+          "section_header_count": 0,
+          "localized_item_count": 0,
+          "all_localization_colors_absent": true,
+          "canonical_numeric_sha256": "643d5437104296e21d906ecb15b2c96ad278f20cfc4af53b12bb6069bd853726",
+          "interpretation": "static-package-arcade-section-array"
+        },
+        "has_map_icon": true,
+        "matchmaker_tag_count": 1,
+        "dependency_count": 2,
+        "final_unknown_filler_bits": 32,
+        "final_unknown_filler_value": 0,
+        "end_bit": 509641
+      }
+    ],
+    "same_profile_full_member_roundtrip_exact": true,
+    "numeric_and_blob_fields_observed": 755,
+    "raw_blob_or_identity_values_emitted": false,
+    "conversion_performed": false,
+    "full_member_semantics_validated": false,
+    "current_profile_compatibility_proven": false,
+    "client_launched": false,
+    "playback_or_simulation_validated": false,
+    "attribute_profile": "observed-11"
+  },
+  "mod_package_bindings": [
+    {
+      "index": 0,
+      "mod_id": 169990,
+      "version": 65580,
+      "creator_string_toon_region": 2,
+      "creator_string_toon_realm": 1,
+      "creator_toon_region": 2,
+      "creator_toon_realm": 1,
+      "visual_cache_handles": [
+        {
+          "extension": "s2mv",
+          "region": "EU",
+          "digest": "9df061a77575e35fb015fbdf43ce201d3ba313e1d4738e1410a9832b773a5f8f",
+          "relative_path": "9d/f0/9df061a77575e35fb015fbdf43ce201d3ba313e1d4738e1410a9832b773a5f8f.s2mv"
+        },
+        {
+          "extension": "s2mv",
+          "region": "EU",
+          "digest": "ddb18dc612d002264aab60b65f8272e69100bb07d4d4ec8fbe641bf838cae467",
+          "relative_path": "dd/b1/ddb18dc612d002264aab60b65f8272e69100bb07d4d4ec8fbe641bf838cae467.s2mv"
+        }
+      ],
+      "dependency_version_pairs": [],
+      "terminal_s2mh_handle": {
+        "extension": "s2mh",
+        "region": "EU",
+        "digest": "8605dedcd84ee88bf5e4f21a354d4e5e0dd7e11f932a61955bef4d0dec7ec354",
+        "relative_path": "86/05/8605dedcd84ee88bf5e4f21a354d4e5e0dd7e11f932a61955bef4d0dec7ec354.s2mh"
+      }
+    },
+    {
+      "index": 1,
+      "mod_id": 170002,
+      "version": 65559,
+      "creator_string_toon_region": 2,
+      "creator_string_toon_realm": 1,
+      "creator_toon_region": 2,
+      "creator_toon_realm": 1,
+      "visual_cache_handles": [
+        {
+          "extension": "s2mv",
+          "region": "EU",
+          "digest": "9df061a77575e35fb015fbdf43ce201d3ba313e1d4738e1410a9832b773a5f8f",
+          "relative_path": "9d/f0/9df061a77575e35fb015fbdf43ce201d3ba313e1d4738e1410a9832b773a5f8f.s2mv"
+        },
+        {
+          "extension": "s2mv",
+          "region": "EU",
+          "digest": "ddb18dc612d002264aab60b65f8272e69100bb07d4d4ec8fbe641bf838cae467",
+          "relative_path": "dd/b1/ddb18dc612d002264aab60b65f8272e69100bb07d4d4ec8fbe641bf838cae467.s2mv"
+        }
+      ],
+      "dependency_version_pairs": [
+        {
+          "mod_id": 169990,
+          "version": 0
+        }
+      ],
+      "terminal_s2mh_handle": {
+        "extension": "s2mh",
+        "region": "EU",
+        "digest": "154724c2bc9830f8be306833c064da19063aaf3206327a6b9bcc7c56cdf7f84a",
+        "relative_path": "15/47/154724c2bc9830f8be306833c064da19063aaf3206327a6b9bcc7c56cdf7f84a.s2mh"
+      }
+    },
+    {
+      "index": 2,
+      "mod_id": 169991,
+      "version": 65552,
+      "creator_string_toon_region": 2,
+      "creator_string_toon_realm": 1,
+      "creator_toon_region": 2,
+      "creator_toon_realm": 1,
+      "visual_cache_handles": [
+        {
+          "extension": "s2mv",
+          "region": "EU",
+          "digest": "9df061a77575e35fb015fbdf43ce201d3ba313e1d4738e1410a9832b773a5f8f",
+          "relative_path": "9d/f0/9df061a77575e35fb015fbdf43ce201d3ba313e1d4738e1410a9832b773a5f8f.s2mv"
+        },
+        {
+          "extension": "s2mv",
+          "region": "EU",
+          "digest": "39c2f52057897d0a27b9a2cacd3e81948d50708a5e09dcac6e74b10399e63bf5",
+          "relative_path": "39/c2/39c2f52057897d0a27b9a2cacd3e81948d50708a5e09dcac6e74b10399e63bf5.s2mv"
+        }
+      ],
+      "dependency_version_pairs": [
+        {
+          "mod_id": 169990,
+          "version": 0
+        }
+      ],
+      "terminal_s2mh_handle": {
+        "extension": "s2mh",
+        "region": "EU",
+        "digest": "c433f7acb071f5adf34363ef7228f49f48eb278ac6d12ac35a6fbb35ff9369b7",
+        "relative_path": "c4/33/c433f7acb071f5adf34363ef7228f49f48eb278ac6d12ac35a6fbb35ff9369b7.s2mh"
+      }
+    },
+    {
+      "index": 3,
+      "mod_id": 169992,
+      "version": 65663,
+      "creator_string_toon_region": 2,
+      "creator_string_toon_realm": 1,
+      "creator_toon_region": 2,
+      "creator_toon_realm": 1,
+      "visual_cache_handles": [
+        {
+          "extension": "s2mv",
+          "region": "EU",
+          "digest": "9df061a77575e35fb015fbdf43ce201d3ba313e1d4738e1410a9832b773a5f8f",
+          "relative_path": "9d/f0/9df061a77575e35fb015fbdf43ce201d3ba313e1d4738e1410a9832b773a5f8f.s2mv"
+        },
+        {
+          "extension": "s2mv",
+          "region": "EU",
+          "digest": "879c65e7670adc5db49b4b2e91022d6c1e84d8e6912edfd8eff9e321d35a7f69",
+          "relative_path": "87/9c/879c65e7670adc5db49b4b2e91022d6c1e84d8e6912edfd8eff9e321d35a7f69.s2mv"
+        },
+        {
+          "extension": "s2mv",
+          "region": "EU",
+          "digest": "83a6b69cb83560a495493e1734df264f95d78f62da63c87d949a2f4767f7f4b3",
+          "relative_path": "83/a6/83a6b69cb83560a495493e1734df264f95d78f62da63c87d949a2f4767f7f4b3.s2mv"
+        }
+      ],
+      "dependency_version_pairs": [
+        {
+          "mod_id": 169991,
+          "version": 0
+        }
+      ],
+      "terminal_s2mh_handle": {
+        "extension": "s2mh",
+        "region": "EU",
+        "digest": "f644ce88b9d1a1c15af40be380be285f3d2ffcaf901dc9c15da367e763ee75c0",
+        "relative_path": "f6/44/f644ce88b9d1a1c15af40be380be285f3d2ffcaf901dc9c15da367e763ee75c0.s2mh"
+      }
+    },
+    {
+      "index": 4,
+      "mod_id": 195670,
+      "version": 35,
+      "creator_string_toon_region": 2,
+      "creator_string_toon_realm": 1,
+      "creator_toon_region": 2,
+      "creator_toon_realm": 1,
+      "visual_cache_handles": [
+        {
+          "extension": "s2mv",
+          "region": "EU",
+          "digest": "9df061a77575e35fb015fbdf43ce201d3ba313e1d4738e1410a9832b773a5f8f",
+          "relative_path": "9d/f0/9df061a77575e35fb015fbdf43ce201d3ba313e1d4738e1410a9832b773a5f8f.s2mv"
+        },
+        {
+          "extension": "s2mv",
+          "region": "EU",
+          "digest": "49af314be23aad5d8319d79d85346389b2d9d06d983886c32f4c0cad0b99c43c",
+          "relative_path": "49/af/49af314be23aad5d8319d79d85346389b2d9d06d983886c32f4c0cad0b99c43c.s2mv"
+        }
+      ],
+      "dependency_version_pairs": [
+        {
+          "mod_id": 169992,
+          "version": 0
+        }
+      ],
+      "terminal_s2mh_handle": {
+        "extension": "s2mh",
+        "region": "EU",
+        "digest": "f873aeccd750d9ee6f53368a1221b4cff9008297b1f8df7e1abe1a65994a2974",
+        "relative_path": "f8/73/f873aeccd750d9ee6f53368a1221b4cff9008297b1f8df7e1abe1a65994a2974.s2mh"
+      }
+    },
+    {
+      "index": 5,
+      "mod_id": 196215,
+      "version": 41,
+      "creator_string_toon_region": 2,
+      "creator_string_toon_realm": 1,
+      "creator_toon_region": 2,
+      "creator_toon_realm": 1,
+      "visual_cache_handles": [
+        {
+          "extension": "s2mv",
+          "region": "EU",
+          "digest": "9df061a77575e35fb015fbdf43ce201d3ba313e1d4738e1410a9832b773a5f8f",
+          "relative_path": "9d/f0/9df061a77575e35fb015fbdf43ce201d3ba313e1d4738e1410a9832b773a5f8f.s2mv"
+        },
+        {
+          "extension": "s2mv",
+          "region": "EU",
+          "digest": "e04e7a22ce350d9a8aaf29bda8dfa9fefb4aaa073d66fa9dcc3d8b5fec838bf9",
+          "relative_path": "e0/4e/e04e7a22ce350d9a8aaf29bda8dfa9fefb4aaa073d66fa9dcc3d8b5fec838bf9.s2mv"
+        }
+      ],
+      "dependency_version_pairs": [
+        {
+          "mod_id": 169992,
+          "version": 0
+        },
+        {
+          "mod_id": 195670,
+          "version": 0
+        }
+      ],
+      "terminal_s2mh_handle": {
+        "extension": "s2mh",
+        "region": "EU",
+        "digest": "dda69919d973c3c2b677255127badb40201f8a1c89466bf8e8542b2500d10739",
+        "relative_path": "dd/a6/dda69919d973c3c2b677255127badb40201f8a1c89466bf8e8542b2500d10739.s2mh"
+      }
+    },
+    {
+      "index": 6,
+      "mod_id": 191184,
+      "version": 49,
+      "creator_string_toon_region": 2,
+      "creator_string_toon_realm": 1,
+      "creator_toon_region": 2,
+      "creator_toon_realm": 1,
+      "visual_cache_handles": [
+        {
+          "extension": "s2mv",
+          "region": "EU",
+          "digest": "9df061a77575e35fb015fbdf43ce201d3ba313e1d4738e1410a9832b773a5f8f",
+          "relative_path": "9d/f0/9df061a77575e35fb015fbdf43ce201d3ba313e1d4738e1410a9832b773a5f8f.s2mv"
+        },
+        {
+          "extension": "s2mv",
+          "region": "EU",
+          "digest": "ea728f8f29480c0e67fd31f2bd874a650d7f90c3528c18b3a970225be384b721",
+          "relative_path": "ea/72/ea728f8f29480c0e67fd31f2bd874a650d7f90c3528c18b3a970225be384b721.s2mv"
+        },
+        {
+          "extension": "s2mv",
+          "region": "EU",
+          "digest": "f0bd9ebbbc5ca5a55a8b61c04b6149f2f5e633e4b4053ea2a69cfc2d54bf8364",
+          "relative_path": "f0/bd/f0bd9ebbbc5ca5a55a8b61c04b6149f2f5e633e4b4053ea2a69cfc2d54bf8364.s2mv"
+        }
+      ],
+      "dependency_version_pairs": [
+        {
+          "mod_id": 196215,
+          "version": 0
+        }
+      ],
+      "terminal_s2mh_handle": {
+        "extension": "s2mh",
+        "region": "EU",
+        "digest": "d80b9d8d1b141a6f29d55099fefb5bafabbef07c4c18697aa4a405278274b70b",
+        "relative_path": "d8/0b/d80b9d8d1b141a6f29d55099fefb5bafabbef07c4c18697aa4a405278274b70b.s2mh"
+      }
+    },
+    {
+      "index": 7,
+      "mod_id": 191185,
+      "version": 44,
+      "creator_string_toon_region": 2,
+      "creator_string_toon_realm": 1,
+      "creator_toon_region": 2,
+      "creator_toon_realm": 1,
+      "visual_cache_handles": [
+        {
+          "extension": "s2mv",
+          "region": "EU",
+          "digest": "7cdca02ed12465841b1174c10ebd2bea81235c21e09b1ccc63449b7929d2bc8b",
+          "relative_path": "7c/dc/7cdca02ed12465841b1174c10ebd2bea81235c21e09b1ccc63449b7929d2bc8b.s2mv"
+        },
+        {
+          "extension": "s2mv",
+          "region": "EU",
+          "digest": "bb2c0164bcd6f938f12977162eaaac8bfa07d59f736dc0477dd4d143434e0a63",
+          "relative_path": "bb/2c/bb2c0164bcd6f938f12977162eaaac8bfa07d59f736dc0477dd4d143434e0a63.s2mv"
+        },
+        {
+          "extension": "s2mv",
+          "region": "EU",
+          "digest": "a035dde834b0d066f3e9bd6fc23e0b77e1d806c587be7bfee4657a67d36b102a",
+          "relative_path": "a0/35/a035dde834b0d066f3e9bd6fc23e0b77e1d806c587be7bfee4657a67d36b102a.s2mv"
+        },
+        {
+          "extension": "s2mv",
+          "region": "EU",
+          "digest": "290a306a9c73d4377e73d1a4345335d18169bec7f868ba46f479addc81ea69e7",
+          "relative_path": "29/0a/290a306a9c73d4377e73d1a4345335d18169bec7f868ba46f479addc81ea69e7.s2mv"
+        }
+      ],
+      "dependency_version_pairs": [
+        {
+          "mod_id": 191184,
+          "version": 0
+        },
+        {
+          "mod_id": 170002,
+          "version": 0
+        }
+      ],
+      "terminal_s2mh_handle": {
+        "extension": "s2mh",
+        "region": "EU",
+        "digest": "98aeafdb2922b4ea6f340719736268aa8b135ddf78d5767ec35200d4e4b5818e",
+        "relative_path": "98/ae/98aeafdb2922b4ea6f340719736268aa8b135ddf78d5767ec35200d4e4b5818e.s2mh"
+      }
+    }
+  ],
+  "tail_report": {
+    "format": "hots-battlelobby-tail-audit-v1",
+    "profile": "current-tail",
+    "member_sha256": "62a6c46d2f5b17139b72cd0b84a1ceeeac76b04a7a254889943d61c413d8adf1",
+    "member_bytes": 284879,
+    "tail_sha256": "d3ca96ce686dedd4e12de12eb482d55a3f1e9b907feefcdafab9da91ae84343c",
+    "tail_bytes": 220853,
+    "boundaries_bits": {
+      "tail_start": 512208,
+      "collections_end": 2246016,
+      "players_end": 2253929,
+      "mode_end": 2254010,
+      "payload_end": 2279032
+    },
+    "trailing_padding_bits": 0,
+    "collection_count": 5418,
+    "collection_entry_sizes": [
+      8
+    ],
+    "collection_representation": "fixed-eight-byte-opaque-identifiers",
+    "availability_count": 5418,
+    "availability_bytes": 173376,
+    "disabled_hero_count": 0,
+    "player_count": 10,
+    "player_unknown_block_bits": 198,
+    "player_unknown_blocks_nonzero": 10,
+    "player_unknown_blocks_set_bits_total": 620,
+    "community_named_build32_distinct_values": [
+      98348
+    ],
+    "community_named_build32_verified_client_build": false,
+    "hero_table_count": 10,
+    "hero_icon_record_count": 101,
+    "cstm_count": 1,
+    "a41_or_a48_count": 10,
+    "allheroes_count": 83,
+    "tokens": 12081,
+    "complete_eof_covered": true,
+    "same_profile_full_member_roundtrip_exact": true,
+    "private_names_toons_slots_or_ownership_values_emitted": false,
+    "unknown_semantics_inferred": false,
+    "cross_profile_conversion_supported": false,
+    "replay_modified": false,
+    "client_launched": false,
+    "playback_or_simulation_validated": false
+  },
+  "tail_crosscheck": {
+    "format": "hots-battlelobby-tail-private-crosscheck-v1",
+    "players_checked": 10,
+    "details_player_count": 10,
+    "details_identity_multiset_equal": true,
+    "details_identity_and_slot_matches": 10,
+    "all_details_participants_match_tail_by_slot": true,
+    "tail_entries_not_present_in_details": 0,
+    "initdata_occupied_slots": 10,
+    "initdata_identity_multiset_equal": true,
+    "initdata_identity_and_slot_matches": 10,
+    "seed_matches_lobby": true,
+    "seed_matches_game_description": true,
+    "disabled_hero_list_equal": true,
+    "private_identity_values_emitted": false,
+    "program_id_normalization": "tail32-bit FourCC converted to four big-endian bytes equals decoded details FourCC bytes",
+    "slot_mismatch_repaired": false
+  },
+  "exact_terminal_header_cache_probes": [
+    {
+      "digest": "8605dedcd84ee88bf5e4f21a354d4e5e0dd7e11f932a61955bef4d0dec7ec354",
+      "file_bytes": 29402,
+      "sha256": "8605dedcd84ee88bf5e4f21a354d4e5e0dd7e11f932a61955bef4d0dec7ec354",
+      "matches_handle": true
+    },
+    {
+      "digest": "154724c2bc9830f8be306833c064da19063aaf3206327a6b9bcc7c56cdf7f84a",
+      "file_bytes": 30069,
+      "sha256": "154724c2bc9830f8be306833c064da19063aaf3206327a6b9bcc7c56cdf7f84a",
+      "matches_handle": true
+    },
+    {
+      "digest": "c433f7acb071f5adf34363ef7228f49f48eb278ac6d12ac35a6fbb35ff9369b7",
+      "file_bytes": 1657,
+      "sha256": "c433f7acb071f5adf34363ef7228f49f48eb278ac6d12ac35a6fbb35ff9369b7",
+      "matches_handle": true
+    },
+    {
+      "digest": "f644ce88b9d1a1c15af40be380be285f3d2ffcaf901dc9c15da367e763ee75c0",
+      "present_at_exact_cache_path": false
+    },
+    {
+      "digest": "f873aeccd750d9ee6f53368a1221b4cff9008297b1f8df7e1abe1a65994a2974",
+      "file_bytes": 1892,
+      "sha256": "f873aeccd750d9ee6f53368a1221b4cff9008297b1f8df7e1abe1a65994a2974",
+      "matches_handle": true
+    },
+    {
+      "digest": "dda69919d973c3c2b677255127badb40201f8a1c89466bf8e8542b2500d10739",
+      "file_bytes": 1899,
+      "sha256": "dda69919d973c3c2b677255127badb40201f8a1c89466bf8e8542b2500d10739",
+      "matches_handle": true
+    },
+    {
+      "digest": "d80b9d8d1b141a6f29d55099fefb5bafabbef07c4c18697aa4a405278274b70b",
+      "file_bytes": 2291,
+      "sha256": "d80b9d8d1b141a6f29d55099fefb5bafabbef07c4c18697aa4a405278274b70b",
+      "matches_handle": true
+    },
+    {
+      "digest": "98aeafdb2922b4ea6f340719736268aa8b135ddf78d5767ec35200d4e4b5818e",
+      "file_bytes": 3598,
+      "sha256": "98aeafdb2922b4ea6f340719736268aa8b135ddf78d5767ec35200d4e4b5818e",
+      "matches_handle": true
+    }
+  ],
+  "region_inferred_from_organization": false,
+  "raw_player_or_chat_data_emitted": false,
+  "replay_modified": false,
+  "client_launched": false,
+  "simulation_compatibility_proven": false
+}

@@ -1,0 +1,254 @@
+{
+  "JSON_values_unchanged_by_newline_normalization": true,
+  "client_launched": false,
+  "copied_files": [
+    {
+      "CRLF_to_LF_only": false,
+      "producer_bytes": 11571,
+      "producer_sha256": "f12823877757e80e2285b86972c7e1dee3674eb851ebeb1f6daa368c19276175",
+      "published_bytes": 11571,
+      "published_sha256": "f12823877757e80e2285b86972c7e1dee3674eb851ebeb1f6daa368c19276175",
+      "repository_path": "compare_package_collection_registries.py",
+      "source_name": "compare_package_collection_registries.py"
+    },
+    {
+      "CRLF_to_LF_only": false,
+      "producer_bytes": 4275,
+      "producer_sha256": "292d60bdbbd14c4845595c89ff4f3989d9a55fea3aa4292aff204f21ff5137b3",
+      "published_bytes": 4275,
+      "published_sha256": "292d60bdbbd14c4845595c89ff4f3989d9a55fea3aa4292aff204f21ff5137b3",
+      "repository_path": "test_compare_package_collection_registries.py",
+      "source_name": "test_compare_package_collection_registries.py"
+    },
+    {
+      "CRLF_to_LF_only": false,
+      "producer_bytes": 6719,
+      "producer_sha256": "db9806fd0b9cebd987eeeafff4e92cc60d4eeb51de2865718724ff5cce83fffe",
+      "published_bytes": 6719,
+      "published_sha256": "db9806fd0b9cebd987eeeafff4e92cc60d4eeb51de2865718724ff5cce83fffe",
+      "repository_path": "research/collection-registry-98348/audit_collection_availability_aggregates.py",
+      "source_name": "audit_collection_availability_aggregates.py"
+    },
+    {
+      "CRLF_to_LF_only": false,
+      "producer_bytes": 1376,
+      "producer_sha256": "3ff615e4a01934bd2f84d61902175f729da1b5ee62eccce262a9559b6a73c25a",
+      "published_bytes": 1376,
+      "published_sha256": "3ff615e4a01934bd2f84d61902175f729da1b5ee62eccce262a9559b6a73c25a",
+      "repository_path": "research/collection-registry-98348/test_availability_aggregate.py",
+      "source_name": "test_availability_aggregate.py"
+    },
+    {
+      "CRLF_to_LF_only": false,
+      "producer_bytes": 6061,
+      "producer_sha256": "54510a51c6c28983ba87d52362807408931e80151ac07bd79657099d43062c0f",
+      "published_bytes": 6061,
+      "published_sha256": "54510a51c6c28983ba87d52362807408931e80151ac07bd79657099d43062c0f",
+      "repository_path": "research/collection-registry-98348/record_registry_semantics_findings.py",
+      "source_name": "record_registry_semantics_findings.py"
+    },
+    {
+      "CRLF_to_LF_only": false,
+      "producer_bytes": 44255,
+      "producer_sha256": "f3d2562a541394a2d5400bb12de4f4c70c746d8626f41bb0a0580488bdf62cc8",
+      "published_bytes": 44255,
+      "published_sha256": "f3d2562a541394a2d5400bb12de4f4c70c746d8626f41bb0a0580488bdf62cc8",
+      "repository_path": "observations/package-registry/static-package-registry-comparison.json",
+      "source_name": "static-package-registry-comparison.json"
+    },
+    {
+      "CRLF_to_LF_only": false,
+      "producer_bytes": 14109,
+      "producer_sha256": "ba8938db00088d869d6bd5d0aa2e45c41b5b79d2755d6dd778605384da7ce89f",
+      "published_bytes": 14109,
+      "published_sha256": "ba8938db00088d869d6bd5d0aa2e45c41b5b79d2755d6dd778605384da7ce89f",
+      "repository_path": "observations/package-registry/availability-aggregate-15-cases.json",
+      "source_name": "availability-aggregate-15-cases.json"
+    },
+    {
+      "CRLF_to_LF_only": false,
+      "producer_bytes": 14022,
+      "producer_sha256": "a78450111a87ef75851287a7afa4c7b3e474f43db77c3be630a3bb1310853042",
+      "published_bytes": 14022,
+      "published_sha256": "a78450111a87ef75851287a7afa4c7b3e474f43db77c3be630a3bb1310853042",
+      "repository_path": "observations/package-registry/registry-semantics-primary-source-findings.json",
+      "source_name": "registry-semantics-primary-source-findings.json"
+    },
+    {
+      "CRLF_to_LF_only": false,
+      "producer_bytes": 7673,
+      "producer_sha256": "d96943c4857bd9c5334730943898fbddc2ad7961d86d75eb90f46b4f34e57d0f",
+      "published_bytes": 7673,
+      "published_sha256": "d96943c4857bd9c5334730943898fbddc2ad7961d86d75eb90f46b4f34e57d0f",
+      "repository_path": "observations/package-registry/package-registry-and-ngs27-independent-review-v2.json",
+      "source_name": "package-registry-and-ngs27-independent-review-v2.json"
+    },
+    {
+      "CRLF_to_LF_only": true,
+      "producer_bytes": 1118,
+      "producer_sha256": "9430b8e9991d3f8ce8dc4950aecd7a6f3b9f66a66b47f086aeabe8dcfda15293",
+      "published_bytes": 1097,
+      "published_sha256": "37f21d3e501268678a82b6a708e5e8a96e5a58d1507e08b675d964f6074df845",
+      "repository_path": "observations/eu-current-reference/one-eu-candidate-acquisition.json",
+      "source_name": "one-eu-candidate-acquisition.json"
+    },
+    {
+      "CRLF_to_LF_only": true,
+      "producer_bytes": 3710,
+      "producer_sha256": "255f13b2d9dd52763b94d4aa8d1e99624c4d38eb8e545e205549bffce3be9feb",
+      "published_bytes": 3609,
+      "published_sha256": "b0ba7dc12d401f1bf83f4ca53a39c6a2f7b46cb7611282e3e7e06eb51332cfff",
+      "repository_path": "observations/eu-current-reference/heroeslounge-27515-g1-20261005.profile.json",
+      "source_name": "heroeslounge-27515-g1-20261005.profile.json"
+    },
+    {
+      "CRLF_to_LF_only": true,
+      "producer_bytes": 28922,
+      "producer_sha256": "413b87f7224b18020b4170542c6db1ee5b970e21936ec975efa5d92260b01464",
+      "published_bytes": 28163,
+      "published_sha256": "1348643d3c9224be9e37a7229a59458d1bbd8673839023a10b619f79a9cf7a23",
+      "repository_path": "observations/eu-current-reference/one-eu-current-reference-binding.json",
+      "source_name": "one-eu-current-reference-binding.json"
+    },
+    {
+      "CRLF_to_LF_only": true,
+      "producer_bytes": 3705,
+      "producer_sha256": "b5b5ba38c571076d48a1f7d664f57820844038363ebcac51ce4ebbea81d05042",
+      "published_bytes": 3621,
+      "published_sha256": "cc11840a836a128b4ec17e06cc689513149b7524e3b70c8ca82baa62722e2ae9",
+      "repository_path": "observations/eu-current-reference/four-eu-base-header-acquisition.json",
+      "source_name": "four-eu-base-header-acquisition.json"
+    },
+    {
+      "CRLF_to_LF_only": false,
+      "producer_bytes": 2626,
+      "producer_sha256": "5e25b72f273699199902ed605e22bdfd49c6ca96c57bbd4044f7c096aa3a3fee",
+      "published_bytes": 2626,
+      "published_sha256": "5e25b72f273699199902ed605e22bdfd49c6ca96c57bbd4044f7c096aa3a3fee",
+      "repository_path": "research/eu-current-reference-98348/inspect_lounge_page.py",
+      "source_name": "inspect_lounge_page.py"
+    },
+    {
+      "CRLF_to_LF_only": false,
+      "producer_bytes": 2296,
+      "producer_sha256": "77d822ce01d76fa869e6efd7b9a7e8799a008b2db73572f8741e9a71bfa8ee4c",
+      "published_bytes": 2296,
+      "published_sha256": "77d822ce01d76fa869e6efd7b9a7e8799a008b2db73572f8741e9a71bfa8ee4c",
+      "repository_path": "research/eu-current-reference-98348/find_dated_candidate.py",
+      "source_name": "find_dated_candidate.py"
+    },
+    {
+      "CRLF_to_LF_only": false,
+      "producer_bytes": 3007,
+      "producer_sha256": "8ae8fa3ea90d55e75e960dd7ac1941a66caf47909649994a531d57da0b7d04b1",
+      "published_bytes": 3007,
+      "published_sha256": "8ae8fa3ea90d55e75e960dd7ac1941a66caf47909649994a531d57da0b7d04b1",
+      "repository_path": "research/eu-current-reference-98348/acquire_one_lounge.py",
+      "source_name": "acquire_one_lounge.py"
+    },
+    {
+      "CRLF_to_LF_only": false,
+      "producer_bytes": 5328,
+      "producer_sha256": "e59cfdffe796ea093d8b70289a80fb5d198431931b15f8a7cdb8ffcc648a4ea1",
+      "published_bytes": 5328,
+      "published_sha256": "e59cfdffe796ea093d8b70289a80fb5d198431931b15f8a7cdb8ffcc648a4ea1",
+      "repository_path": "research/eu-current-reference-98348/inspect_eu_binding.py",
+      "source_name": "inspect_eu_binding.py"
+    },
+    {
+      "CRLF_to_LF_only": false,
+      "producer_bytes": 4194,
+      "producer_sha256": "7229f96ce4d6e77ec30e8c5d89caec3b9db1df65e92bc1d90085de921a3d89ad",
+      "published_bytes": 4194,
+      "published_sha256": "7229f96ce4d6e77ec30e8c5d89caec3b9db1df65e92bc1d90085de921a3d89ad",
+      "repository_path": "research/eu-current-reference-98348/fetch_four_eu_base_headers.py",
+      "source_name": "fetch_four_eu_base_headers.py"
+    },
+    {
+      "CRLF_to_LF_only": false,
+      "producer_bytes": 5394,
+      "producer_sha256": "196e9414c8d526275d501b9da7b4a853e85005a2a7359e530a58bd0155d28134",
+      "published_bytes": 5394,
+      "published_sha256": "196e9414c8d526275d501b9da7b4a853e85005a2a7359e530a58bd0155d28134",
+      "repository_path": "research/eu-current-reference-98348/finalize_eu_reference_receipt.py",
+      "source_name": "finalize_eu_reference_receipt.py"
+    },
+    {
+      "CRLF_to_LF_only": true,
+      "producer_bytes": 8117,
+      "producer_sha256": "ebf0dedba31d350729d68d6d1361a6ab02d741bb4cc0736628a692a1cc536c6e",
+      "published_bytes": 7922,
+      "published_sha256": "f242f1e922134da62e196cf62be80d9e198f111053911ad3d998be22cc1560bf",
+      "repository_path": "observations/eu-current-reference/one-eu-current-reference-final-receipt.json",
+      "source_name": "one-eu-current-reference-final-receipt.json"
+    },
+    {
+      "CRLF_to_LF_only": false,
+      "producer_bytes": 2706,
+      "producer_sha256": "a5d70a5781b9578c53f477c586e355e21d29f2ba0f6856f2cb7fa71fc5d245bf",
+      "published_bytes": 2706,
+      "published_sha256": "a5d70a5781b9578c53f477c586e355e21d29f2ba0f6856f2cb7fa71fc5d245bf",
+      "repository_path": "observations/eu-current-reference/root-independent-core-recheck.json",
+      "source_name": "root-independent-core-recheck.json"
+    },
+    {
+      "CRLF_to_LF_only": true,
+      "producer_bytes": 15448,
+      "producer_sha256": "882c7c18847970eb88489167b31dff90ca25b3e0a72ff8c907eb6b8949666b0c",
+      "published_bytes": 14905,
+      "published_sha256": "85f1f68974979791d37aa1952164304ad4ca12bc271e53a6f3de4ccc5cef2afd",
+      "repository_path": "observations/eu-current-reference/missing-current-eu-header-reconstruction-feasibility-v2.json",
+      "source_name": "missing-current-eu-header-reconstruction-feasibility-v2.json"
+    },
+    {
+      "CRLF_to_LF_only": false,
+      "producer_bytes": 55021,
+      "producer_sha256": "e32649ca9d1afd502bedb2ae02c4527b869f5400b0024b54e4b5042adbf5fdd0",
+      "published_bytes": 55021,
+      "published_sha256": "e32649ca9d1afd502bedb2ae02c4527b869f5400b0024b54e4b5042adbf5fdd0",
+      "repository_path": "observations/ngs-partial-roster-tracker-screening-remaining27-2026-10-18.json",
+      "source_name": "partial-roster-tracker-screening-remaining27.json"
+    },
+    {
+      "CRLF_to_LF_only": false,
+      "producer_bytes": 11790,
+      "producer_sha256": "ceed4446ee47825a19a112e309ae98bca2b7c23c64c1516b827abc98ee385b48",
+      "published_bytes": 11790,
+      "published_sha256": "ceed4446ee47825a19a112e309ae98bca2b7c23c64c1516b827abc98ee385b48",
+      "repository_path": "observations/player-opaque-additional-primary-investigation.json",
+      "source_name": "player-opaque-additional-primary-investigation.json"
+    },
+    {
+      "CRLF_to_LF_only": false,
+      "producer_bytes": 94244,
+      "producer_sha256": "c158bc361e579bf98b5cf554c5b0a1233fe09c80a8e5a977c171371b112bb875",
+      "published_bytes": 94244,
+      "published_sha256": "c158bc361e579bf98b5cf554c5b0a1233fe09c80a8e5a977c171371b112bb875",
+      "repository_path": "observations/player-header-build-pattern-test.json",
+      "source_name": "player-header-build-pattern-test.json"
+    },
+    {
+      "CRLF_to_LF_only": false,
+      "producer_bytes": 5538,
+      "producer_sha256": "7a67c4682ae673a07bfcea5dc635bb1548b54a9ae07a3294eba7560c2f3f5037",
+      "published_bytes": 5538,
+      "published_sha256": "7a67c4682ae673a07bfcea5dc635bb1548b54a9ae07a3294eba7560c2f3f5037",
+      "repository_path": "research/player-opaque-98348/check_player_header_build_patterns.py",
+      "source_name": "check_player_header_build_patterns.py"
+    },
+    {
+      "CRLF_to_LF_only": false,
+      "producer_bytes": 3087,
+      "producer_sha256": "d89c4ed29402f941c90256b4ba5f11a150e91702e1f082c05a18e99960f033d6",
+      "published_bytes": 3087,
+      "published_sha256": "d89c4ed29402f941c90256b4ba5f11a150e91702e1f082c05a18e99960f033d6",
+      "repository_path": "observations/package-registry/availability15-and-eu-ci-independent-review.json",
+      "source_name": "availability15-and-eu-ci-independent-review.json"
+    }
+  ],
+  "executed_code_sha256_preserved": true,
+  "format": "hots-package-registry-and-EU-source-publication-binding-v1",
+  "new_workflow_verification_report": "observations/eu-current-reference/root-final-CI-snippet-verification.json",
+  "raw_replay_headers_or_HTML_published": false,
+  "replay_modified": false
+}

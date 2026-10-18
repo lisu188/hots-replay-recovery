@@ -406,3 +406,32 @@ local bytes. No independent remote SHA256 download claim is made. Preserve the
 three earlier base/addendum archives listed in the manifest. This later receipt
 is bookkeeping after the backed-up source commit. No new replay/client outcome;
 R8 and the unfinished offline-only full-upgrade objective remain unchanged.
+
+
+## Genuine current EU reference and static registry proof - 2026-10-18
+
+One public Heroes Lounge Lost Cavern replay (978482bytes, SHA256a3c97e9a...a01c4)
+passes exact98348 build/base/data/root gates, all observed official/semantic
+core roundtrips (144708/99/6181 events), full mod/tail EOF and private slot/seed
+checks. EU is explicit in player/creator regions and all8 terminal handles.
+It binds shared base packages169990/65580,170002/65559,169991/65552,169992/65663.
+First3exact headers downloaded/SHA/wireverified and equal cachedbytes; fourth
+f644ce88...ee75c0 returns404 and is outside all13cached HeroesData versions.
+None of previous936 relaxed combinations is this current full tuple. ARAM
+does not bind the final Dragon package. No missing header substitution.
+
+New registry auditor12tests and independent33header reproduction establish
+original HeroesData264names -> first-dedup263 EXACToriginal/R8order; other4old
+registries empty. All28cached candidates/936combos fail current5418coverage.
+Closest65662 raw5488/unique5409 is exact current relative order missing9OWC20
+tints, each bound to currentXMLLicense. License1209137 exists in rawXML but
+not observedregistry, so all-declaration concatenation is not a generationrule.
+
+Availability15case aggregate has13identicalcurrent keylists,13differentcurrent
+availabilityblobs, original/R8same; nonezero/constant. Do not zero-fill or copy
+availability as static data. Registry keylist proof does not resolve the32byte
+record semantics or207legacy conversions. Actual research source stays frozen.
+Full offline CI now includes boundedSHAcurrentEUfixture+stream/lobby/package
+checks and12newregistrytests; record its remote result separately. Remaining27
+NGScandidates screened within162HTTP206/48405bytes; no newNova/Abathur.
+R8unchanged, no client launched, full upgrade remains unfinished.

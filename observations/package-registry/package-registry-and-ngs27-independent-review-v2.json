@@ -1,0 +1,167 @@
+{
+  "format": "hots-package-registry-and-ngs27-independent-review-v2",
+  "status": "pass-with-explicit-scope-limits",
+  "material_findings": [],
+  "producer_review": {
+    "path": "compare_package_collection_registries.py",
+    "sha256": "f12823877757e80e2285b86972c7e1dee3674eb851ebeb1f6daa368c19276175",
+    "synthetic_tests_run": 12,
+    "passed": 12,
+    "skipped": 0,
+    "actual_cli_report_reproduced_byte_exact_sha256": "f3d2562a541394a2d5400bb12de4f4c70c746d8626f41bb0a0580488bdf62cc8",
+    "all33header_reads_content_verified": true,
+    "actual_header_bytes_read": 2536878
+  },
+  "separate_independent_comparison_report_sha256": "ee41bcd97ae294becf64767777ea22fbe1d9197559ff0a2c0d314ddf6fe07de0",
+  "full_independent_case_and_nine_record_details_sha256": "3299bbbd764d13fbae2e7d2824cf3a3ce6db4039cfa00b0e9a2e7cf2cd4a04c7",
+  "four_actual_member_collection_arrays_redecoded_exact": true,
+  "catalog_only_collection_observation_sha256": "0fa8a041fa8d6b9ba22ba6ff8be10d4f42beccc7d9577d0b6ead2d8e0fa909c9",
+  "old_static_registry": {
+    "header_sha256": "b34d0f30dc3b9cf47694982106a04006a49ce43422e02f71ed18b33b7bfcc6c4",
+    "field23_raw_names": 264,
+    "first_occurrence_unique_names": 263,
+    "exact_original_and_r8_collection_order": true,
+    "duplicate": {
+      "name": "ChoGallPromo",
+      "indexes": [
+        12,
+        31
+      ]
+    },
+    "all_four_other_old_header_field23_empty": true
+  },
+  "current_cache_comparison": {
+    "cache_candidates": 28,
+    "heroesdata_candidates": 13,
+    "non_heroesdata_candidates": 15,
+    "all_non_heroesdata_field23_and24_empty_or_absent": true,
+    "candidate_products": 936,
+    "complete_registry_set_matches": 0,
+    "complete_registry_order_matches": 0,
+    "strongest_candidate": {
+      "header_sha256": "f115def2b9adbc67cfdd8bb4255cff1a8b44a8c921e98f56eebe20708660a7c9",
+      "package_id": 169992,
+      "package_version": 65662,
+      "region": "EU",
+      "field23_count": 0,
+      "field24_count": 5488,
+      "first_dedup_count": 5409,
+      "missing_current_count": 9,
+      "extra_current_count": 0,
+      "equals_complete_current_order": false,
+      "equals_current_order_after_missing_excluded": true
+    },
+    "nine_missing_in_observed_order": [
+      {
+        "license_id": 1064006,
+        "current_collection_index": 541,
+        "declaration_index": 925,
+        "record_id": "DemonHunterOWC20Var3",
+        "type": "CRewardSkin",
+        "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/demonhunterdata/demonhunterskindata/demonhunterowc20data/demonhunterowc20var3data.xml"
+      },
+      {
+        "license_id": 1064007,
+        "current_collection_index": 886,
+        "declaration_index": 927,
+        "record_id": "DemonHunterOWC20Var4",
+        "type": "CRewardSkin",
+        "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/demonhunterdata/demonhunterskindata/demonhunterowc20data/demonhunterowc20var4data.xml"
+      },
+      {
+        "license_id": 1063867,
+        "current_collection_index": 1492,
+        "declaration_index": 842,
+        "record_id": "CrusaderOWC20Var5",
+        "type": "CRewardSkin",
+        "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/crusaderdata/crusaderskindata/crusaderowc20data/crusaderowc20var5data.xml"
+      },
+      {
+        "license_id": 1064026,
+        "current_collection_index": 1862,
+        "declaration_index": 929,
+        "record_id": "DemonHunterOWC20Var5",
+        "type": "CRewardSkin",
+        "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/demonhunterdata/demonhunterskindata/demonhunterowc20data/demonhunterowc20var5data.xml"
+      },
+      {
+        "license_id": 1063868,
+        "current_collection_index": 2709,
+        "declaration_index": 2155,
+        "record_id": "RaynorOWC20Var3",
+        "type": "CRewardSkin",
+        "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/raynordata/raynorskindata/raynorowc20data/raynorowc20var3data.xml"
+      },
+      {
+        "license_id": 1063886,
+        "current_collection_index": 3245,
+        "declaration_index": 2159,
+        "record_id": "RaynorOWC20Var5",
+        "type": "CRewardSkin",
+        "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/raynordata/raynorskindata/raynorowc20data/raynorowc20var5data.xml"
+      },
+      {
+        "license_id": 1063866,
+        "current_collection_index": 4187,
+        "declaration_index": 840,
+        "record_id": "CrusaderOWC20Var4",
+        "type": "CRewardSkin",
+        "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/crusaderdata/crusaderskindata/crusaderowc20data/crusaderowc20var4data.xml"
+      },
+      {
+        "license_id": 1063869,
+        "current_collection_index": 4191,
+        "declaration_index": 2157,
+        "record_id": "RaynorOWC20Var4",
+        "type": "CRewardSkin",
+        "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/raynordata/raynorskindata/raynorowc20data/raynorowc20var4data.xml"
+      },
+      {
+        "license_id": 1063346,
+        "current_collection_index": 5068,
+        "declaration_index": 838,
+        "record_id": "CrusaderOWC20Var3",
+        "type": "CRewardSkin",
+        "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/crusaderdata/crusaderskindata/crusaderowc20data/crusaderowc20var3data.xml"
+      }
+    ]
+  },
+  "nine_direct_literal_record_bindings": {
+    "projection_sha256": "c8f03ddbc859feb5c2dc1836761201b5e6fea4632ce0325817abdd7299c8aa22",
+    "expected_version": "2.57.0.98348",
+    "metadata_IsPtr": false,
+    "each_missing_id_has_exactly_one_direct_CRewardSkin_License_declaration": true,
+    "families": [
+      "CrusaderOWC20Var3/4/5",
+      "DemonHunterOWC20Var3/4/5",
+      "RaynorOWC20Var3/4/5"
+    ]
+  },
+  "ngs27_review": {
+    "source_report_sha256": "e32649ca9d1afd502bedb2ae02c4527b869f5400b0024b54e4b5042adbf5fdd0",
+    "candidate_projection_sha256": "8f26885d488a47f4407a0f04dd8db8cb20f7125812d79761deb707337bcdbe32",
+    "selected_keys_recomputed_exact": true,
+    "selected_count": 27,
+    "all_retained_header_details_build_root_98348": true,
+    "request_count_recomputed": 162,
+    "response_body_bytes_recomputed": 48405,
+    "every_retained_request_206": true,
+    "one_bootstrap_then_five_if_match_ranges_per_object": true,
+    "nova_or_abathur_rosters": 0,
+    "tracker_streams_requested": 0,
+    "new_requests_by_reviewer": 0
+  },
+  "limits": [
+    "Old header exact static list/order binding does not establish entitlement/availability semantics.",
+    "Current EU cached headers match archive payload digests but none is authenticated as build98348 metadata; f115 is not selected as a current header.",
+    "Removing nine direct License IDs is a comparison operation, not a conversion or authorization to omit them.",
+    "No candidate among the936 products has a full observed current registry because only the HeroesData candidate contributes nonempty registries.",
+    "The27screen review checks retained provenance, source binding, selection and arithmetic; raw ranged header/details bytes were intentionally not saved and were not independently redecoded by this review.",
+    "No full27object acquisition, SHA256, tracker absence, parser acceptance, catalog link mapping or playback proof follows from metadata screening.",
+    "Source review found no material bounds, privacy or output-clobber finding in the scoped frozen research producer; this is not a general untrusted-input certification."
+  ],
+  "new_network_requests": 0,
+  "client_launched": false,
+  "raw_private_player_account_or_availability_values_emitted": false,
+  "replay_or_repo_modified": false
+}

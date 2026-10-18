@@ -1,0 +1,281 @@
+{
+  "format": "hots-player-opaque-additional-primary-source-investigation-v1",
+  "outcome": "no-authenticated-internal-layout-or-cross-profile-conversion-found-in-bounded-new-source-search",
+  "prior_evidence_read": [
+    "observations/player-opaque-block-primary-sources-2026-10-18.json",
+    "observations/player-opaque-block-forensic-summary-2026-10-18.json",
+    "battlelobby_tail.py"
+  ],
+  "prior_289_representation_group_correlations_not_repeated": true,
+  "new_primary_source_review": [
+    {
+      "url": "https://raw.githubusercontent.com/barrett777/Heroes.ReplayParser/4d97eb614648650baa9a9b6789fe37c31b40025c/Heroes.ReplayParser/MPQFiles/ReplayServerBattlelobby.cs",
+      "finding": "Older C# predecessor reads the player region using anonymous byte skips; it provides no internal scalar names for the opaque block.",
+      "lines": [
+        260,
+        342
+      ],
+      "fetched_utf8_bytes": 27474,
+      "fetched_utf8_sha256": "b54ccf8366b7ba1f64a6bdc52ca47a2a1994148c76a0cf2b6e90269e7c9f8249",
+      "key": "opaque-barrett"
+    },
+    {
+      "url": "https://api.github.com/repos/barrett777/Heroes.ReplayParser/commits/78740f73dd16d5ee098f1f50af1cf28c8095f48a",
+      "finding": "Historical detailed parser explicitly excludes builds <=43259 at the same era as the schema2-to3 transition; update adds no semantics for the skipped data.",
+      "lines": [],
+      "fetched_utf8_bytes": 13906,
+      "fetched_utf8_sha256": "6665b0b2e7ce0caeae58daecd938f070ba677f0663ad3a43f386d1db92374e76",
+      "key": "opaque-extra-0"
+    },
+    {
+      "url": "https://api.github.com/repos/barrett777/Heroes.ReplayParser/commits/b006abef3284daa62bb2cda8349ffc911f69a41e",
+      "finding": "First partial 2016 parser already refuses detailed player parsing for <=43259 and otherwise uses fixed unnamed byte skips.",
+      "lines": [],
+      "fetched_utf8_bytes": 20874,
+      "fetched_utf8_sha256": "5bc42777f94cb90f5bcfa864de5730008b64fbb9ad9b093f556fc6ac6ba49cb8",
+      "key": "opaque-extra-1"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/GaryIrick/hots-db/4e07bface9575a0ad24f94b9de4580d086c30165/src/lib/addAdditionalParseInfo.js",
+      "finding": "JavaScript party reader derives from Barrett C# and skips25bytes then24bits in the player region; the numbers are not declarations of198/174 internal boundaries.",
+      "lines": [
+        166,
+        205
+      ],
+      "fetched_utf8_bytes": 9089,
+      "fetched_utf8_sha256": "058547d247bf57be9ba59262af489a325393719c002f3c2b12c09a35e03c5193",
+      "key": "opaque-source-js-party"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ebshimizu/hots-parser/e45df6beb2bde6bbedd883cf86ea419a4a7868c0/parser.js",
+      "finding": "JavaScript replay parser uses raw battlelobby only for scanning BattleTag strings; no structural174/198-bit player parser.",
+      "lines": [
+        197,
+        242
+      ],
+      "fetched_utf8_bytes": 114474,
+      "fetched_utf8_sha256": "3e3a0638490aaa23e0ac90d1bb883257e495984b7ab641e89160750734c5431e",
+      "key": "opaque-source-js-parser"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/matella/storm-codex/8598a8a941b22f4c30f33ebed7ad9e2e3a5ea68c/crates/storm-lobby/src/lib.rs",
+      "finding": "Rust lobby parser uses regex extraction of strings; it provides no bit-packed player-record decomposition. Its comments about absent numeric Toon information are not accepted here as authoritative because the existing verified structural decoder already reads it.",
+      "lines": [
+        134,
+        186
+      ],
+      "fetched_utf8_bytes": 9593,
+      "fetched_utf8_sha256": "8b55d6fd89c2b5c7aae37df1f326f0cd52ce87d98bdc0fe4af0b8f200fabc97e",
+      "key": "opaque-source-rust-lobby"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/aifedespaix/hots-stats/ff2cb3a8f26e66e5c0d09eccc54e1592d3deb84b/daemon-python/src/parser.py",
+      "finding": "Python raw-lobby use scans for BattleTag discriminators rather than decoding the unknown packed player block.",
+      "lines": [
+        137,
+        167
+      ],
+      "fetched_utf8_bytes": 83584,
+      "fetched_utf8_sha256": "ccff89fa36edb19ff355acf1e35269aa68d8a4fde9b463e818c193aad62bd653",
+      "key": "opaque-source-python-lobby"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/kanghyojun/sc2ts/7231349eb094b854394484358691e2e22546d637/src/sc2-replay.ts",
+      "finding": "TypeScript lists battlelobby as an extractable archive file; its implemented structured parse methods cover other official streams, with no battlelobby parser.",
+      "lines": [
+        20,
+        31,
+        58,
+        80,
+        101,
+        132
+      ],
+      "fetched_utf8_bytes": 6923,
+      "fetched_utf8_sha256": "4a3968036bb8a47da50477a0b409e711805a3aec68c4d84eb60e45d9620b2876",
+      "key": "opaque-source-sc2ts-main"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Farof/heroprotocoljs/fb8bb189d2d7b83208c6d3c8fd647fc7745b5b3c/Readme.md",
+      "finding": "This JavaScript port explicitly lists battlelobby among unsupported archive files.",
+      "lines": [
+        99,
+        106
+      ],
+      "fetched_utf8_bytes": 6379,
+      "fetched_utf8_sha256": "50238908dc21be9127972419e3c31d0755355f05378ec03c5a9dbc7d02c8639b",
+      "key": "opaque-extra-4"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Blizzard/s2protocol/3b40c5ef01834096b4305172ef5485ec00133dcc/README.md",
+      "finding": "Official supported-decoder inventory names header, details, initData and event streams, without a battlelobby schema.",
+      "lines": [
+        7,
+        15
+      ],
+      "fetched_utf8_bytes": 3871,
+      "fetched_utf8_sha256": "16da8a3ff0a5360f6772d7eefe51c8b0cf5e1049edf86ce13ce6dd8249488574",
+      "key": "opaque-source-blizzarddoc"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/icza/sc2gears/402e050fc3767dd44e00326607d9a9353d082519/src-util/hu/belicza/andras/sc2gears/sc2replay/S2mhParser.java",
+      "finding": "Java helper has only a commented battlelobby filename while parsing the self-describing s2mh format; it contains no packed player-record schema.",
+      "lines": [
+        24,
+        45
+      ],
+      "fetched_utf8_bytes": 1130,
+      "fetched_utf8_sha256": "455961457d687d2b502c1d4d7d5c1626f133a2c7bc675e605856b89ea642a03f",
+      "key": "opaque-extra-3"
+    }
+  ],
+  "bounded_indexed_searches": [
+    {
+      "tool": "GitHub code search",
+      "query": "battlelobby",
+      "repositories": [
+        "ggtracker/sc2reader"
+      ],
+      "topn": 10,
+      "returned_matches": 0
+    },
+    {
+      "tool": "GitHub code search",
+      "query": "battlelobby",
+      "repositories": [
+        "ascendedguard/sc2replay-csharp"
+      ],
+      "topn": 6,
+      "returned_matches": 0
+    },
+    {
+      "tool": "GitHub code search",
+      "query": "battlelobby",
+      "repositories": [
+        "zsol/sc2pp",
+        "matthiaslantsch/sc2rep",
+        "joelwurtz/Sc2ReplayParser"
+      ],
+      "topn": 10,
+      "returned_matches": 0
+    },
+    {
+      "tool": "GitHub code search",
+      "query": "battlelobby",
+      "repositories": [
+        "icza/scelight"
+      ],
+      "topn": 6,
+      "returned_matching_paths": [
+        "src-app/hu/scelight/sc2/rep/factory/RepContent.java"
+      ],
+      "finding": "archive-member enum only; no player-field schema in returned result"
+    },
+    {
+      "tool": "GitHub code search",
+      "query": "battlelobby",
+      "repositories": [
+        "Blizzard/s2client-proto"
+      ],
+      "topn": 10,
+      "returned_matches": 0
+    },
+    {
+      "tool": "GitHub code search",
+      "query": "battlelobby",
+      "owner": "Blizzard",
+      "topn": 20,
+      "returned_matching_paths": [
+        "Blizzard/s2protocol/docs/tutorial_API.rst"
+      ],
+      "finding": "archive member inventory, not its format"
+    },
+    {
+      "tool": "GitHub code search",
+      "query": "\"ReadBitArray(198)\"",
+      "topn": 20,
+      "returned_matching_paths": [
+        "HeroesToolChest/Heroes.StormReplayParser/Heroes.StormReplayParser/MpqFiles/ReplayServerBattlelobby.cs"
+      ],
+      "finding": "same already-reviewed unnamed skip"
+    },
+    {
+      "tool": "GitHub code search",
+      "query": "\"battlelobby\" \"bit\"",
+      "topn": 30,
+      "finding": "screened returned primary parser implementations; relevant full-text reviews retained above"
+    },
+    {
+      "tool": "GitHub code search",
+      "query": "\"server.battlelobby\" \"parse\"",
+      "topn": 30,
+      "finding": "screened returned primary parser implementations; relevant full-text reviews retained above"
+    },
+    {
+      "tool": "GitHub commit search",
+      "query": "198",
+      "repository": "HeroesToolChest/Heroes.StormReplayParser",
+      "topn": 10,
+      "returned_matches": 0
+    },
+    {
+      "tool": "GitHub commit search",
+      "query": "174",
+      "repository": "HeroesToolChest/Heroes.StormReplayParser",
+      "topn": 10,
+      "returned_matches": 0
+    },
+    {
+      "tool": "GitHub commit search",
+      "query": "unknown battlelobby",
+      "repository": "barrett777/Heroes.ReplayParser",
+      "topn": 10,
+      "returned_matches": 0
+    },
+    {
+      "tool": "GitHub API path history",
+      "repository": "barrett777/Heroes.ReplayParser",
+      "path": "Heroes.ReplayParser/MPQFiles/ReplayServerBattlelobby.cs",
+      "per_page": 100,
+      "returned_commits": 50,
+      "finding": "first partial decoder and transition-era change reviewed explicitly; no named internal fields established"
+    }
+  ],
+  "targeted_new_header_build_test": {
+    "replay_cases": 14,
+    "player_or_observer_records": 146,
+    "independent_historical_matches": 1,
+    "historical_record_instances_including_r8": 20,
+    "current_records": 126,
+    "actual_header_build_unsigned32_opaque_matches": 0,
+    "original41810_whole_player_record_hits": 0,
+    "r8_header98285_whole_player_record_hits": 0,
+    "current98348_whole_player_record_hits": 126,
+    "all_current_hits_at_existing_community_named_build32": true,
+    "reversed_full_u32_header_build_hits_anywhere_in_record": 0,
+    "wrong_observed_build_control_hits": 0,
+    "wrong_slot_control_inapplicable_to_match_global_header": true,
+    "simple_shifted_header_build_explanation_supported": false,
+    "bit_shift_default_or_field_semantics_inferred": false,
+    "report": {
+      "path": "player-header-build-pattern-test.json",
+      "sha256": "c158bc361e579bf98b5cf554c5b0a1233fe09c80a8e5a977c171371b112bb875"
+    },
+    "scratch_reproducer": {
+      "path": "check_player_header_build_patterns.py",
+      "sha256": "7a67c4682ae673a07bfcea5dc635bb1548b54a9ae07a3294eba7560c2f3f5037"
+    }
+  },
+  "next_evidence_needed": "A primary named structure or authenticated cross-version serialization correspondence; existing repeated width-only declarations and current unrelated-player controls do not identify the added24bits.",
+  "limits": [
+    "GitHub code search is indexed and bounded; zero returned results do not establish absence from all source history or repositories.",
+    "Generic battlelobby queries returned unrelated repositories as well; only relevant primary parser sources were used.",
+    "Fetched text digests describe UTF-8 tool-returned source bodies, not a claim about independently downloaded Git object bytes.",
+    "Bit-pattern checks cover complete32-bit header-build and full octet reversal only; compressed, narrower, transformed or composite encodings are not excluded.",
+    "The two historical cases preserve one match and are not independent samples.",
+    "Current header-build positives locate a field outside the opaque block and do not validate its old semantics."
+  ],
+  "source_values_modified": false,
+  "private_player_or_account_values_emitted": false,
+  "replay_or_repo_modified": false,
+  "client_launched": false
+}

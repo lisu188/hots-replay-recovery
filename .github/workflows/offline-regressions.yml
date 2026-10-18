@@ -37,6 +37,7 @@ jobs:
     env:
       HOTS_TEST_POWERSHELL: ${{ matrix.powershell }}
       NGS_RANGE_CONTROL: work/known-sky.StormReplay
+      HOTS_EU_REFERENCE_CONTROL: work/current-eu.StormReplay
       PYTHONDONTWRITEBYTECODE: '1'
       # Apply before both checkouts; pinned schema hashes require Git blob bytes.
       GIT_CONFIG_COUNT: '1'
@@ -102,13 +103,91 @@ jobs:
           with path.open('xb') as stream:
               stream.write(raw)
           PY
+      - name: Acquire the SHA-bound current EU reference
+        run: |
+          python - <<'PY'
+          import hashlib
+          import os
+          from pathlib import Path
+          import urllib.request
+          from ngs_range_details import NoRedirect
+          url = 'https://heroeslounge.gg/storage/app/uploads/public/6ac/402/4c8/6ac4024c86d1b923997665.stormreplay'
+          with urllib.request.build_opener(NoRedirect).open(url, timeout=45) as response:
+              if response.code != 200:
+                  raise RuntimeError('Current EU reference is unavailable')
+              raw = response.read(978482 + 1)
+          if len(raw) != 978482 or hashlib.sha256(raw).hexdigest() != 'a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4':
+              raise RuntimeError('Current EU reference size or digest differs')
+          with Path(os.environ['HOTS_EU_REFERENCE_CONTROL']).open('xb') as stream:
+              stream.write(raw)
+          PY
+      - name: Verify current EU streams, exact package versions and complete lobby suffix
+        run: |
+          python - <<'PY'
+          import os
+          from pathlib import Path
+          from reference_replay import checked_archive, inspect_reference
+          from protocol_loader import load_protocol
+          from migrate_replay import write_json
+          from audit_battlelobby_mod_metadata import audit_member
+          from battlelobby_attribute_layer import _Reader
+          from battlelobby_tail import decode_tail, crosscheck
+          from dependency_audit import cache_handle
+          from mod_data_audit import dependency_prefix
+          path = Path(os.environ['HOTS_EU_REFERENCE_CONTROL'])
+          profile = inspect_reference(path, 96477, 98348)
+          assert profile['file_sha256'] == 'a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4'
+          assert profile['target']['m_version']['m_baseBuild'] == profile['target']['m_dataBuildNum'] == 98348
+          assert profile['schema_file_sha256'] == 'e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84'
+          assert profile['target']['m_ngdpRootKey']['m_data'].hex() == 'c3b3c8bc82e3a5a62e550fdde9a40c28'
+          assert {kind: data['count'] for kind, data in profile['streams'].items()} == {'game': 144708, 'message': 99, 'tracker': 6181}
+          p = load_protocol(96477)
+          archive = checked_archive(path)
+          try:
+              details = p.decode_replay_details(archive.read_file('replay.details'))
+              initial = p.decode_replay_initdata(archive.read_file('replay.initData'))
+              raw = archive.read_file('replay.server.battlelobby')
+          finally:
+              archive.close()
+          assert {player['m_toon']['m_region'] for player in details['m_playerList']} == {2}
+          mods = audit_member(raw, 'observed-11', 'current-observed')
+          tail = decode_tail(raw, mods['terminal_handles_end_bit'], 'current-tail')
+          checks = crosscheck(tail, details, initial)
+          assert checks['players_checked'] == checks['details_player_count'] == 10
+          assert checks['details_identity_and_slot_matches'] == checks['initdata_identity_and_slot_matches'] == 10
+          assert checks['all_details_participants_match_tail_by_slot']
+          assert checks['details_identity_multiset_equal'] and checks['initdata_identity_multiset_equal']
+          assert checks['seed_matches_lobby'] and checks['seed_matches_game_description']
+          assert checks['disabled_hero_list_equal']
+          reader = _Reader(raw)
+          reader.position = mods['mod_metadata_end_bit']
+          terminal = [cache_handle(reader.blob(40)) for _ in range(reader.bits(6))]
+          assert reader.position == mods['terminal_handles_end_bit']
+          assert len(terminal) == 8 and {handle['region'] for handle in terminal} == {'EU'}
+          assert terminal[3]['digest'] == 'f644ce88b9d1a1c15af40be380be285f3d2ffcaf901dc9c15da367e763ee75c0'
+          identities = []
+          for entry in mods['entries']:
+              reader.position = entry['start_bit']
+              identities.append([reader.bits(32), reader.bits(32)])
+          assert identities[:4] == [[169990, 65580], [170002, 65559], [169991, 65552], [169992, 65663]]
+          prefix = [cache_handle(bytes.fromhex(value)) for value in dependency_prefix(raw)['handles']]
+          assert prefix == [cache_handle(value) for value in details['m_cacheHandles']]
+          assert prefix == [cache_handle(value) for value in initial['m_syncLobbyState']['m_gameDescription']['m_cacheHandles']]
+          assert len(prefix) == 8 and {handle['region'] for handle in prefix} == {'EU'}
+          write_json('work/current-eu-profile.json', profile)
+          write_json('work/current-eu-structure.json', {'format': 'hots-current-eu-ci-structure-v1', 'replay_sha256': profile['file_sha256'], 'base_package_id_version_pairs': identities[:4], 'terminal_header_digests': [handle['digest'] for handle in terminal], 'prefix_and_independent_stream_handles_equal': True, 'tail': tail.report, 'private_crosscheck': checks, 'client_launched': False, 'replay_modified': False, 'simulation_or_conversion_proven': False})
+          print({'current_EU_stream_counts': {kind: data['count'] for kind, data in profile['streams'].items()}, 'complete_lobby_EOF': True, 'base_packages': identities[:4]})
+          PY
       - name: Discover and run every root test module with explicit platform gaps
         run: python scripts/run_offline_regressions.py --report work/offline-unit-regression.json
-      - name: Retain counts, test IDs and skip reasons only
+      - name: Retain counts and sanitized current EU reference evidence
         if: always()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         with:
           name: offline-unit-${{ matrix.os }}-${{ matrix.powershell || 'python' }}-${{ github.run_id }}
-          path: work/offline-unit-regression.json
+          path: |
+            work/offline-unit-regression.json
+            work/current-eu-profile.json
+            work/current-eu-structure.json
           if-no-files-found: warn
           retention-days: 14

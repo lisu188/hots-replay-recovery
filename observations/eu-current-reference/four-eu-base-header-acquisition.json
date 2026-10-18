@@ -1,0 +1,84 @@
+{
+  "format": "hots-exact-current-eu-base-header-acquisition-v1",
+  "acquired_at_utc": "2026-10-18T20:21:57.104515+00:00",
+  "source_replay_sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4",
+  "source_binding_sha256": "413b87f7224b18020b4170542c6db1ee5b970e21936ec975efa5d92260b01464",
+  "maximum_objects": 4,
+  "maximum_per_header_bytes": 524288,
+  "maximum_aggregate_bytes": 1048576,
+  "downloaded_body_bytes": 61128,
+  "endpoint_primary_url": "https://github.com/ggtracker/sc2reader/blob/e10fc9344417d0aa9649e4ed8d6423e38f6af4c9/sc2reader/utils.py",
+  "decoder_source_file_sha256": "4a2f5e7d6107860b397c0ad043d1f036509e4e3eb94b564226623a2c2392ae6b",
+  "results": [
+    {
+      "index": 0,
+      "mod_id": 169990,
+      "version": 65580,
+      "url": "https://eu-s2-depot.classic.blizzard.com/8605dedcd84ee88bf5e4f21a354d4e5e0dd7e11f932a61955bef4d0dec7ec354.s2mh",
+      "expected_sha256": "8605dedcd84ee88bf5e4f21a354d4e5e0dd7e11f932a61955bef4d0dec7ec354",
+      "status": "sha256-and-complete-versioned-wire-verified",
+      "http_status": 200,
+      "bytes": 29402,
+      "sha256": "8605dedcd84ee88bf5e4f21a354d4e5e0dd7e11f932a61955bef4d0dec7ec354",
+      "local_file": "base-headers-private/8605dedcd84ee88bf5e4f21a354d4e5e0dd7e11f932a61955bef4d0dec7ec354.s2mh",
+      "versioned_outer_tags": [
+        0,
+        1
+      ],
+      "complete_wire_eof": true,
+      "etag": "\"7d43d06ed8a09d9d21217c33dc5a87a1\"",
+      "last_modified": "Sat, 03 Feb 2024 14:56:08 GMT"
+    },
+    {
+      "index": 1,
+      "mod_id": 170002,
+      "version": 65559,
+      "url": "https://eu-s2-depot.classic.blizzard.com/154724c2bc9830f8be306833c064da19063aaf3206327a6b9bcc7c56cdf7f84a.s2mh",
+      "expected_sha256": "154724c2bc9830f8be306833c064da19063aaf3206327a6b9bcc7c56cdf7f84a",
+      "status": "sha256-and-complete-versioned-wire-verified",
+      "http_status": 200,
+      "bytes": 30069,
+      "sha256": "154724c2bc9830f8be306833c064da19063aaf3206327a6b9bcc7c56cdf7f84a",
+      "local_file": "base-headers-private/154724c2bc9830f8be306833c064da19063aaf3206327a6b9bcc7c56cdf7f84a.s2mh",
+      "versioned_outer_tags": [
+        0,
+        1
+      ],
+      "complete_wire_eof": true,
+      "etag": "\"a0201f8b4ad4d119a15e898f82f6b3f0\"",
+      "last_modified": "Sat, 03 Feb 2024 05:49:20 GMT"
+    },
+    {
+      "index": 2,
+      "mod_id": 169991,
+      "version": 65552,
+      "url": "https://eu-s2-depot.classic.blizzard.com/c433f7acb071f5adf34363ef7228f49f48eb278ac6d12ac35a6fbb35ff9369b7.s2mh",
+      "expected_sha256": "c433f7acb071f5adf34363ef7228f49f48eb278ac6d12ac35a6fbb35ff9369b7",
+      "status": "sha256-and-complete-versioned-wire-verified",
+      "http_status": 200,
+      "bytes": 1657,
+      "sha256": "c433f7acb071f5adf34363ef7228f49f48eb278ac6d12ac35a6fbb35ff9369b7",
+      "local_file": "base-headers-private/c433f7acb071f5adf34363ef7228f49f48eb278ac6d12ac35a6fbb35ff9369b7.s2mh",
+      "versioned_outer_tags": [
+        0,
+        1
+      ],
+      "complete_wire_eof": true,
+      "etag": "\"6658b7b1e767d2ca60cc5e8639e180b3\"",
+      "last_modified": "Sun, 04 Feb 2024 04:48:50 GMT"
+    },
+    {
+      "index": 3,
+      "mod_id": 169992,
+      "version": 65663,
+      "url": "https://eu-s2-depot.classic.blizzard.com/f644ce88b9d1a1c15af40be380be285f3d2ffcaf901dc9c15da367e763ee75c0.s2mh",
+      "expected_sha256": "f644ce88b9d1a1c15af40be380be285f3d2ffcaf901dc9c15da367e763ee75c0",
+      "status": "acquisition-failed",
+      "http_status": 404,
+      "error_type": "HTTPError"
+    }
+  ],
+  "raw_headers_publishable": false,
+  "client_launched": false,
+  "replay_modified": false
+}

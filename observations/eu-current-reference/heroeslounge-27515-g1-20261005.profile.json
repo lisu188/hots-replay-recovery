@@ -1,0 +1,101 @@
+{
+  "all_target_event_types_proven": false,
+  "client_playback_validated": false,
+  "compatibility_hash_is_zero": true,
+  "declared_base_matches_schema": false,
+  "file_bytes": 978482,
+  "file_sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4",
+  "format": "hots-reference-profile-v1",
+  "limitations": [
+    "Successful decoding covers only the event types present in this reference.",
+    "A replay header is self-declared metadata, not an authenticity signature.",
+    "Matching serialization does not establish identical simulation or catalogs."
+  ],
+  "observed_payload_roundtrip": true,
+  "protocol_provider": "Blizzard/heroprotocol",
+  "proven_authentic_by_signature": false,
+  "schema_build": 96477,
+  "schema_file_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+  "streams": {
+    "game": {
+      "binary_roundtrip": true,
+      "count": 144708,
+      "event_types": {
+        "NNet.Game.SCameraUpdateEvent": 10979,
+        "NNet.Game.SCmdEvent": 26899,
+        "NNet.Game.SCmdUpdateTargetPointEvent": 53877,
+        "NNet.Game.SCmdUpdateTargetUnitEvent": 194,
+        "NNet.Game.SCommandManagerStateEvent": 23407,
+        "NNet.Game.SGameUserLeaveEvent": 8,
+        "NNet.Game.SHeroTalentTreeSelectedEvent": 70,
+        "NNet.Game.SSelectionDeltaEvent": 37,
+        "NNet.Game.STriggerChatMessageEvent": 6,
+        "NNet.Game.STriggerCutsceneEndSceneFiredEvent": 113,
+        "NNet.Game.STriggerDialogControlEvent": 7923,
+        "NNet.Game.STriggerKeyPressedEvent": 12378,
+        "NNet.Game.STriggerPingEvent": 3,
+        "NNet.Game.STriggerSoundLengthSyncEvent": 10,
+        "NNet.Game.STriggerSoundOffsetEvent": 923,
+        "NNet.Game.STriggerSoundtrackDoneEvent": 32,
+        "NNet.Game.STriggerTargetModeUpdateEvent": 7392,
+        "NNet.Game.SUnitClickEvent": 445,
+        "NNet.Game.SUserFinishedLoadingSyncEvent": 2,
+        "NNet.Game.SUserOptionsEvent": 10
+      },
+      "sha256": "c7fba3ffbae7cf8ce1c348d0478f8e5cb81b2e3991791e21a793638cf058a52d"
+    },
+    "message": {
+      "binary_roundtrip": true,
+      "count": 99,
+      "event_types": {
+        "NNet.Game.SChatMessage": 6,
+        "NNet.Game.SLoadingProgressMessage": 90,
+        "NNet.Game.SPingMessage": 3
+      },
+      "sha256": "f8bb085e4877ea4cb662418922dd387e7bb8b3105d6ff4425a7fd73837a12add"
+    },
+    "tracker": {
+      "binary_roundtrip": true,
+      "count": 6181,
+      "event_types": {
+        "NNet.Replay.Tracker.SPlayerSetupEvent": 10,
+        "NNet.Replay.Tracker.SScoreResultEvent": 1,
+        "NNet.Replay.Tracker.SStatGameEvent": 862,
+        "NNet.Replay.Tracker.SUnitBornEvent": 2498,
+        "NNet.Replay.Tracker.SUnitDiedEvent": 2493,
+        "NNet.Replay.Tracker.SUnitOwnerChangeEvent": 136,
+        "NNet.Replay.Tracker.SUnitPositionsEvent": 75,
+        "NNet.Replay.Tracker.SUnitRevivedEvent": 54,
+        "NNet.Replay.Tracker.SUnitTypeChangeEvent": 6,
+        "NNet.Replay.Tracker.SUpgradeEvent": 46
+      },
+      "sha256": "129a09eff04b60e77232d1070f049c3d2ca809627dca9d1cb389ffe656b62e1b"
+    }
+  },
+  "target": {
+    "m_dataBuildNum": 98348,
+    "m_ngdpRootKey": {
+      "m_data": {
+        "$bytes_base64": "w7PIvILjpaYuVQ/d6aQMKA=="
+      }
+    },
+    "m_replayCompatibilityHash": {
+      "m_data": {
+        "$bytes_base64": "AAAAAAAAAAAAAAAAAAAAAA=="
+      }
+    },
+    "m_version": {
+      "m_baseBuild": 98348,
+      "m_build": 98348,
+      "m_flags": 1,
+      "m_major": 2,
+      "m_minor": 57,
+      "m_revision": 0
+    }
+  },
+  "user_options": {
+    "m_baseBuildNum": 98348,
+    "m_buildNum": 98348,
+    "m_versionFlags": 0
+  }
+}

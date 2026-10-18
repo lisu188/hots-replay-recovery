@@ -1,0 +1,2113 @@
+{
+  "format": "hots-bounded-ngs-partial-roster-tracker-screening-v1",
+  "observed_utc": "2026-10-18T20:18:23.832093+00:00",
+  "candidate_projection_sha256": "8f26885d488a47f4407a0f04dd8db8cb20f7125812d79761deb707337bcdbe32",
+  "source_projection_count": 85,
+  "previously_downloaded_keys_excluded": 18,
+  "maximum_candidates": 27,
+  "prior_metadata_screens_excluded": 40,
+  "portable_range_helper_sha256": "9a3d6c4a0d004b33449b80aa657e52d7f311b535b3472521525c62ff88aa5758",
+  "selected_candidates": 27,
+  "inspected_candidates": 27,
+  "response_bytes": 48405,
+  "requests": 162,
+  "global_response_byte_cap": 524288,
+  "global_request_cap": 220,
+  "per_object_response_byte_cap": 131072,
+  "mpyq_version": "0.2.5",
+  "mpyq_source_sha256": "526d3e3ae1f5254d8bc32e0248b0763ec5998f350846876c38794373983bed78",
+  "canonical_blizzard_schema_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+  "exact_current_root_key": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+  "results": [
+    {
+      "url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-8-2026_Bunker_Fun_Time_vs_Bork_Side_of_the_Moon_Infernal_Shrines.stormReplay",
+      "date_label": "2026-10-08",
+      "status": "header-details-decoded",
+      "version": {
+        "m_major": 2,
+        "m_minor": 57,
+        "m_revision": 0,
+        "m_build": 98348,
+        "m_baseBuild": 98348
+      },
+      "data_build": 98348,
+      "ngdp_root_key": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "map": "Infernal Shrines",
+      "selected_hero_names": [
+        "Deathwing",
+        "E.T.C.",
+        "Falstad",
+        "Johanna",
+        "Leoric",
+        "Orphea",
+        "Sonya",
+        "Stukov",
+        "Tassadar",
+        "Whitemane"
+      ],
+      "details_sha256": "69019fe584a4f782fb871ca189a26081c089727c2727ae0eff3054788804055c",
+      "details_bytes": 1264,
+      "object_bytes": 1064797,
+      "stable_etag": "\"062834d0f1fc565a73559f32128893ca\"",
+      "request_count": 6,
+      "response_bytes": 1851,
+      "ranges": [
+        {
+          "start": 0,
+          "end": 15,
+          "if_match_supplied": false,
+          "status": 206,
+          "body_bytes": 16
+        },
+        {
+          "start": 16,
+          "end": 134,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 119
+        },
+        {
+          "start": 1024,
+          "end": 1055,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 32
+        },
+        {
+          "start": 1064061,
+          "end": 1064572,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 512
+        },
+        {
+          "start": 1064573,
+          "end": 1064796,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 224
+        },
+        {
+          "start": 2256,
+          "end": 3203,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 948
+        }
+      ]
+    },
+    {
+      "url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-7-2026_Xul_Gin_Distillery_vs_FC_Hong_Kong_Towers_of_Doom.stormReplay",
+      "date_label": "2026-10-07",
+      "status": "header-details-decoded",
+      "version": {
+        "m_major": 2,
+        "m_minor": 57,
+        "m_revision": 0,
+        "m_build": 98348,
+        "m_baseBuild": 98348
+      },
+      "data_build": 98348,
+      "ngdp_root_key": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "map": "Towers of Doom",
+      "selected_hero_names": [
+        "Anduin",
+        "Dehaka",
+        "Garrosh",
+        "Leoric",
+        "Li-Ming",
+        "Maiev",
+        "Orphea",
+        "Stitches",
+        "Tychus",
+        "Uther"
+      ],
+      "details_sha256": "8295a3aa0931a28f753fad52d70380e31ca273c97ea8ca58a28332e53f010985",
+      "details_bytes": 1174,
+      "object_bytes": 741021,
+      "stable_etag": "\"0071872f0406ba42584bb9a716ce8e82\"",
+      "request_count": 6,
+      "response_bytes": 1752,
+      "ranges": [
+        {
+          "start": 0,
+          "end": 15,
+          "if_match_supplied": false,
+          "status": 206,
+          "body_bytes": 16
+        },
+        {
+          "start": 16,
+          "end": 134,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 119
+        },
+        {
+          "start": 1024,
+          "end": 1055,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 32
+        },
+        {
+          "start": 740285,
+          "end": 740796,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 512
+        },
+        {
+          "start": 740797,
+          "end": 741020,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 224
+        },
+        {
+          "start": 2256,
+          "end": 3104,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 849
+        }
+      ]
+    },
+    {
+      "url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-7-2026_Xul_Gin_Distillery_vs_FC_Hong_Kong_Garden_of_Terror.stormReplay",
+      "date_label": "2026-10-07",
+      "status": "header-details-decoded",
+      "version": {
+        "m_major": 2,
+        "m_minor": 57,
+        "m_revision": 0,
+        "m_build": 98348,
+        "m_baseBuild": 98348
+      },
+      "data_build": 98348,
+      "ngdp_root_key": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "map": "Garden of Terror",
+      "selected_hero_names": [
+        "Chen",
+        "Chromie",
+        "E.T.C.",
+        "Falstad",
+        "Kharazim",
+        "Ragnaros",
+        "Samuro",
+        "Sonya",
+        "Uther",
+        "Zagara"
+      ],
+      "details_sha256": "687b5d811acc89c595ecfda4b19e227d126df9342754814c518ef009b19706cd",
+      "details_bytes": 1176,
+      "object_bytes": 1053808,
+      "stable_etag": "\"e4b7781f54304534d06c593d06cddb63\"",
+      "request_count": 6,
+      "response_bytes": 1762,
+      "ranges": [
+        {
+          "start": 0,
+          "end": 15,
+          "if_match_supplied": false,
+          "status": 206,
+          "body_bytes": 16
+        },
+        {
+          "start": 16,
+          "end": 134,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 119
+        },
+        {
+          "start": 1024,
+          "end": 1055,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 32
+        },
+        {
+          "start": 1053072,
+          "end": 1053583,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 512
+        },
+        {
+          "start": 1053584,
+          "end": 1053807,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 224
+        },
+        {
+          "start": 2256,
+          "end": 3114,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 859
+        }
+      ]
+    },
+    {
+      "url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-7-2026_Xul_Gin_Distillery_vs_FC_Hong_Kong_Battlefield_of_Eternity.stormReplay",
+      "date_label": "2026-10-07",
+      "status": "header-details-decoded",
+      "version": {
+        "m_major": 2,
+        "m_minor": 57,
+        "m_revision": 0,
+        "m_build": 98348,
+        "m_baseBuild": 98348
+      },
+      "data_build": 98348,
+      "ngdp_root_key": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "map": "Battlefield of Eternity",
+      "selected_hero_names": [
+        "Arthas",
+        "Brightwing",
+        "Deckard",
+        "Garrosh",
+        "Greymane",
+        "Hanzo",
+        "Leoric",
+        "Li-Ming",
+        "Muradin",
+        "Valla"
+      ],
+      "details_sha256": "d5237b92b627eabb3d275aa4a38e2cafa5e201fcc0c3af0718b7e111428fb9a5",
+      "details_bytes": 1231,
+      "object_bytes": 916775,
+      "stable_etag": "\"f2ae848d36688bf8e08422878208902d\"",
+      "request_count": 6,
+      "response_bytes": 1832,
+      "ranges": [
+        {
+          "start": 0,
+          "end": 15,
+          "if_match_supplied": false,
+          "status": 206,
+          "body_bytes": 16
+        },
+        {
+          "start": 16,
+          "end": 134,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 119
+        },
+        {
+          "start": 1024,
+          "end": 1055,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 32
+        },
+        {
+          "start": 916039,
+          "end": 916550,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 512
+        },
+        {
+          "start": 916551,
+          "end": 916774,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 224
+        },
+        {
+          "start": 2256,
+          "end": 3184,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 929
+        }
+      ]
+    },
+    {
+      "url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-7-2026_Tactical_Feed_vs_Protectors_of_Shakuras_Garden_of_Terror.stormReplay",
+      "date_label": "2026-10-07",
+      "status": "header-details-decoded",
+      "version": {
+        "m_major": 2,
+        "m_minor": 57,
+        "m_revision": 0,
+        "m_build": 98348,
+        "m_baseBuild": 98348
+      },
+      "data_build": 98348,
+      "ngdp_root_key": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "map": "Garden of Terror",
+      "selected_hero_names": [
+        "Falstad",
+        "Hanzo",
+        "Hogger",
+        "Johanna",
+        "Kael'thas",
+        "Rehgar",
+        "Thrall",
+        "Tyrande",
+        "Varian",
+        "Yrel"
+      ],
+      "details_sha256": "a52bab094d1cc9e12077787ef431bb83a2238547f3f02772bde97628c8a2c639",
+      "details_bytes": 1185,
+      "object_bytes": 1623683,
+      "stable_etag": "\"fa2a60dc91d218976db342338a1df7d0\"",
+      "request_count": 6,
+      "response_bytes": 1757,
+      "ranges": [
+        {
+          "start": 0,
+          "end": 15,
+          "if_match_supplied": false,
+          "status": 206,
+          "body_bytes": 16
+        },
+        {
+          "start": 16,
+          "end": 134,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 119
+        },
+        {
+          "start": 1024,
+          "end": 1055,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 32
+        },
+        {
+          "start": 1622947,
+          "end": 1623458,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 512
+        },
+        {
+          "start": 1623459,
+          "end": 1623682,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 224
+        },
+        {
+          "start": 2256,
+          "end": 3109,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 854
+        }
+      ]
+    },
+    {
+      "url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-7-2026_Randy_Newman_vs_Macro_Machines_Tomb_of_the_Spider_Queen.stormReplay",
+      "date_label": "2026-10-07",
+      "status": "header-details-decoded",
+      "version": {
+        "m_major": 2,
+        "m_minor": 57,
+        "m_revision": 0,
+        "m_build": 98348,
+        "m_baseBuild": 98348
+      },
+      "data_build": 98348,
+      "ngdp_root_key": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "map": "Tomb of the Spider Queen",
+      "selected_hero_names": [
+        "Ana",
+        "Anub'arak",
+        "Gul'dan",
+        "Hanzo",
+        "Jaina",
+        "Kharazim",
+        "Stitches",
+        "The Butcher",
+        "Thrall",
+        "Uther"
+      ],
+      "details_sha256": "880807a96b4e24fd2d17bb2c76030e2937caf74c3e962d9259a68eaca0cf35bb",
+      "details_bytes": 1198,
+      "object_bytes": 1085855,
+      "stable_etag": "\"59fff7061613b032b4dd493d6e948c42\"",
+      "request_count": 6,
+      "response_bytes": 1763,
+      "ranges": [
+        {
+          "start": 0,
+          "end": 15,
+          "if_match_supplied": false,
+          "status": 206,
+          "body_bytes": 16
+        },
+        {
+          "start": 16,
+          "end": 134,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 119
+        },
+        {
+          "start": 1024,
+          "end": 1055,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 32
+        },
+        {
+          "start": 1085119,
+          "end": 1085630,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 512
+        },
+        {
+          "start": 1085631,
+          "end": 1085854,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 224
+        },
+        {
+          "start": 2256,
+          "end": 3115,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 860
+        }
+      ]
+    },
+    {
+      "url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-7-2026_Randy_Newman_vs_Macro_Machines_Battlefield_of_Eternity.stormReplay",
+      "date_label": "2026-10-07",
+      "status": "header-details-decoded",
+      "version": {
+        "m_major": 2,
+        "m_minor": 57,
+        "m_revision": 0,
+        "m_build": 98348,
+        "m_baseBuild": 98348
+      },
+      "data_build": 98348,
+      "ngdp_root_key": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "map": "Battlefield of Eternity",
+      "selected_hero_names": [
+        "Anduin",
+        "Blaze",
+        "Hanzo",
+        "Johanna",
+        "Malthael",
+        "Probius",
+        "Qhira",
+        "Rehgar",
+        "Tychus",
+        "Yrel"
+      ],
+      "details_sha256": "887c4293f20b9fcaa6a0fcec3aef3030d552b408e5d7fbd51e3b3b05206d062d",
+      "details_bytes": 1239,
+      "object_bytes": 1053151,
+      "stable_etag": "\"d9bf7c0e55d15613315217015c977dfd\"",
+      "request_count": 6,
+      "response_bytes": 1792,
+      "ranges": [
+        {
+          "start": 0,
+          "end": 15,
+          "if_match_supplied": false,
+          "status": 206,
+          "body_bytes": 16
+        },
+        {
+          "start": 16,
+          "end": 134,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 119
+        },
+        {
+          "start": 1024,
+          "end": 1055,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 32
+        },
+        {
+          "start": 1052415,
+          "end": 1052926,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 512
+        },
+        {
+          "start": 1052927,
+          "end": 1053150,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 224
+        },
+        {
+          "start": 2256,
+          "end": 3144,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 889
+        }
+      ]
+    },
+    {
+      "url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-7-2026_Protectors_of_Aiur_vs_Cats_On_My_Saddle_Cursed_Hollow.stormReplay",
+      "date_label": "2026-10-07",
+      "status": "header-details-decoded",
+      "version": {
+        "m_major": 2,
+        "m_minor": 57,
+        "m_revision": 0,
+        "m_build": 98348,
+        "m_baseBuild": 98348
+      },
+      "data_build": 98348,
+      "ngdp_root_key": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "map": "Cursed Hollow",
+      "selected_hero_names": [
+        "Blaze",
+        "Dehaka",
+        "Falstad",
+        "Johanna",
+        "Muradin",
+        "Rehgar",
+        "Sylvanas",
+        "Valla",
+        "Whitemane",
+        "Zeratul"
+      ],
+      "details_sha256": "c206ffd9a0bde5255021f53b3a9dad96d8833f8eb477ec91c427ff0b6d7fac5b",
+      "details_bytes": 1170,
+      "object_bytes": 1269571,
+      "stable_etag": "\"7fa8cebf34fcb5f2131b1c3209c82cf3\"",
+      "request_count": 6,
+      "response_bytes": 1757,
+      "ranges": [
+        {
+          "start": 0,
+          "end": 15,
+          "if_match_supplied": false,
+          "status": 206,
+          "body_bytes": 16
+        },
+        {
+          "start": 16,
+          "end": 134,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 119
+        },
+        {
+          "start": 1024,
+          "end": 1055,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 32
+        },
+        {
+          "start": 1268835,
+          "end": 1269346,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 512
+        },
+        {
+          "start": 1269347,
+          "end": 1269570,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 224
+        },
+        {
+          "start": 2256,
+          "end": 3109,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 854
+        }
+      ]
+    },
+    {
+      "url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-7-2026_Protectors_of_Aiur_vs_Cats_On_My_Saddle_Alterac_Pass.stormReplay",
+      "date_label": "2026-10-07",
+      "status": "header-details-decoded",
+      "version": {
+        "m_major": 2,
+        "m_minor": 57,
+        "m_revision": 0,
+        "m_build": 98348,
+        "m_baseBuild": 98348
+      },
+      "data_build": 98348,
+      "ngdp_root_key": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "map": "Alterac Pass",
+      "selected_hero_names": [
+        "Chromie",
+        "Falstad",
+        "Hogger",
+        "Johanna",
+        "Malfurion",
+        "Muradin",
+        "Qhira",
+        "Sonya",
+        "Valla",
+        "Whitemane"
+      ],
+      "details_sha256": "b40be402643a222db3dfa0164b149c66153a02f5ca4d2ebeee54436bf03d14f7",
+      "details_bytes": 1211,
+      "object_bytes": 902493,
+      "stable_etag": "\"7d520159a24dcad0cee2ae71af4a5ee5\"",
+      "request_count": 6,
+      "response_bytes": 1792,
+      "ranges": [
+        {
+          "start": 0,
+          "end": 15,
+          "if_match_supplied": false,
+          "status": 206,
+          "body_bytes": 16
+        },
+        {
+          "start": 16,
+          "end": 134,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 119
+        },
+        {
+          "start": 1024,
+          "end": 1055,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 32
+        },
+        {
+          "start": 901757,
+          "end": 902268,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 512
+        },
+        {
+          "start": 902269,
+          "end": 902492,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 224
+        },
+        {
+          "start": 2256,
+          "end": 3144,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 889
+        }
+      ]
+    },
+    {
+      "url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-7-2026_Objective_Optional_vs_NO_CC_NO_PROBLEM_Towers_of_Doom.stormReplay",
+      "date_label": "2026-10-07",
+      "status": "header-details-decoded",
+      "version": {
+        "m_major": 2,
+        "m_minor": 57,
+        "m_revision": 0,
+        "m_build": 98348,
+        "m_baseBuild": 98348
+      },
+      "data_build": 98348,
+      "ngdp_root_key": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "map": "Towers of Doom",
+      "selected_hero_names": [
+        "Deckard",
+        "E.T.C.",
+        "Hogger",
+        "Leoric",
+        "Lunara",
+        "Maiev",
+        "Raynor",
+        "Sylvanas",
+        "Tyrael",
+        "Uther"
+      ],
+      "details_sha256": "7534cfe40c06b6f9751d05abc8c55c60614e955a6c90484937b36ca9b4bbaeaf",
+      "details_bytes": 1163,
+      "object_bytes": 737268,
+      "stable_etag": "\"a18b2200792dcaf40ef551968a3741a4\"",
+      "request_count": 6,
+      "response_bytes": 1743,
+      "ranges": [
+        {
+          "start": 0,
+          "end": 15,
+          "if_match_supplied": false,
+          "status": 206,
+          "body_bytes": 16
+        },
+        {
+          "start": 16,
+          "end": 134,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 119
+        },
+        {
+          "start": 1024,
+          "end": 1055,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 32
+        },
+        {
+          "start": 736532,
+          "end": 737043,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 512
+        },
+        {
+          "start": 737044,
+          "end": 737267,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 224
+        },
+        {
+          "start": 2256,
+          "end": 3095,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 840
+        }
+      ]
+    },
+    {
+      "url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-7-2026_Objective_Optional_vs_NO_CC_NO_PROBLEM_Cursed_Hollow.stormReplay",
+      "date_label": "2026-10-07",
+      "status": "header-details-decoded",
+      "version": {
+        "m_major": 2,
+        "m_minor": 57,
+        "m_revision": 0,
+        "m_build": 98348,
+        "m_baseBuild": 98348
+      },
+      "data_build": 98348,
+      "ngdp_root_key": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "map": "Cursed Hollow",
+      "selected_hero_names": [
+        "Anduin",
+        "Deckard",
+        "Diablo",
+        "Hogger",
+        "Johanna",
+        "Leoric",
+        "Li-Ming",
+        "The Lost Vikings",
+        "Tychus",
+        "Valla"
+      ],
+      "details_sha256": "ea75596ad4c8bb2254dcc7fb3120c81c37581a272dbe8c26a1ed7a8642749a57",
+      "details_bytes": 1173,
+      "object_bytes": 935599,
+      "stable_etag": "\"7b4122b332ee3f0172de100d59a269fb\"",
+      "request_count": 6,
+      "response_bytes": 1747,
+      "ranges": [
+        {
+          "start": 0,
+          "end": 15,
+          "if_match_supplied": false,
+          "status": 206,
+          "body_bytes": 16
+        },
+        {
+          "start": 16,
+          "end": 134,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 119
+        },
+        {
+          "start": 1024,
+          "end": 1055,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 32
+        },
+        {
+          "start": 934863,
+          "end": 935374,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 512
+        },
+        {
+          "start": 935375,
+          "end": 935598,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 224
+        },
+        {
+          "start": 2256,
+          "end": 3099,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 844
+        }
+      ]
+    },
+    {
+      "url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-7-2026_Objective_Optional_vs_NO_CC_NO_PROBLEM_Alterac_Pass.stormReplay",
+      "date_label": "2026-10-07",
+      "status": "header-details-decoded",
+      "version": {
+        "m_major": 2,
+        "m_minor": 57,
+        "m_revision": 0,
+        "m_build": 98348,
+        "m_baseBuild": 98348
+      },
+      "data_build": 98348,
+      "ngdp_root_key": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "map": "Alterac Pass",
+      "selected_hero_names": [
+        "Anduin",
+        "Anub'arak",
+        "E.T.C.",
+        "Greymane",
+        "Leoric",
+        "Maiev",
+        "Ragnaros",
+        "Rehgar",
+        "Sylvanas",
+        "Valla"
+      ],
+      "details_sha256": "54aff2c894ba70112213079adf316f00a556cb8bb34f80dc362af7bb88100544",
+      "details_bytes": 1209,
+      "object_bytes": 846457,
+      "stable_etag": "\"646ea983fa451e13e029f11540e08f20\"",
+      "request_count": 6,
+      "response_bytes": 1795,
+      "ranges": [
+        {
+          "start": 0,
+          "end": 15,
+          "if_match_supplied": false,
+          "status": 206,
+          "body_bytes": 16
+        },
+        {
+          "start": 16,
+          "end": 134,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 119
+        },
+        {
+          "start": 1024,
+          "end": 1055,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 32
+        },
+        {
+          "start": 845721,
+          "end": 846232,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 512
+        },
+        {
+          "start": 846233,
+          "end": 846456,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 224
+        },
+        {
+          "start": 2256,
+          "end": 3147,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 892
+        }
+      ]
+    },
+    {
+      "url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-7-2026_Is_Shoopufff_Still_Inting_vs_Good_Players_Bad_Decisions_Towers_of_Doom.stormReplay",
+      "date_label": "2026-10-07",
+      "status": "header-details-decoded",
+      "version": {
+        "m_major": 2,
+        "m_minor": 57,
+        "m_revision": 0,
+        "m_build": 98348,
+        "m_baseBuild": 98348
+      },
+      "data_build": 98348,
+      "ngdp_root_key": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "map": "Towers of Doom",
+      "selected_hero_names": [
+        "Brightwing",
+        "Diablo",
+        "Garrosh",
+        "Li-Ming",
+        "Medivh",
+        "Qhira",
+        "The Lost Vikings",
+        "Thrall",
+        "Tychus",
+        "Whitemane"
+      ],
+      "details_sha256": "88a55bc73554db26c40ed96d2927289e2d53e9b452d8c4d2c68a7660166b0775",
+      "details_bytes": 1204,
+      "object_bytes": 912218,
+      "stable_etag": "\"d3cf4ef8398edf90b49f5e81f6d8e3d4\"",
+      "request_count": 6,
+      "response_bytes": 1785,
+      "ranges": [
+        {
+          "start": 0,
+          "end": 15,
+          "if_match_supplied": false,
+          "status": 206,
+          "body_bytes": 16
+        },
+        {
+          "start": 16,
+          "end": 134,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 119
+        },
+        {
+          "start": 1024,
+          "end": 1055,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 32
+        },
+        {
+          "start": 911482,
+          "end": 911993,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 512
+        },
+        {
+          "start": 911994,
+          "end": 912217,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 224
+        },
+        {
+          "start": 2256,
+          "end": 3137,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 882
+        }
+      ]
+    },
+    {
+      "url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-7-2026_Is_Shoopufff_Still_Inting_vs_Good_Players_Bad_Decisions_Braxis_Holdout.stormReplay",
+      "date_label": "2026-10-07",
+      "status": "header-details-decoded",
+      "version": {
+        "m_major": 2,
+        "m_minor": 57,
+        "m_revision": 0,
+        "m_build": 98348,
+        "m_baseBuild": 98348
+      },
+      "data_build": 98348,
+      "ngdp_root_key": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "map": "Braxis Holdout",
+      "selected_hero_names": [
+        "Anub'arak",
+        "Gul'dan",
+        "Illidan",
+        "Jaina",
+        "Muradin",
+        "Qhira",
+        "Rehgar",
+        "Samuro",
+        "Valla",
+        "Whitemane"
+      ],
+      "details_sha256": "66b03413f9ad07cff20b9604abdda083d7587de72ea6dfd16d05a3f4723a8eb3",
+      "details_bytes": 1280,
+      "object_bytes": 837434,
+      "stable_etag": "\"cff4c3c4d8d3e4709a1be2216156e17a\"",
+      "request_count": 6,
+      "response_bytes": 1886,
+      "ranges": [
+        {
+          "start": 0,
+          "end": 15,
+          "if_match_supplied": false,
+          "status": 206,
+          "body_bytes": 16
+        },
+        {
+          "start": 16,
+          "end": 134,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 119
+        },
+        {
+          "start": 1024,
+          "end": 1055,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 32
+        },
+        {
+          "start": 836698,
+          "end": 837209,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 512
+        },
+        {
+          "start": 837210,
+          "end": 837433,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 224
+        },
+        {
+          "start": 2256,
+          "end": 3238,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 983
+        }
+      ]
+    },
+    {
+      "url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-7-2026_Frank_s_Furters_vs_Crimson_Cyber_Squad_Cursed_Hollow.stormReplay",
+      "date_label": "2026-10-07",
+      "status": "header-details-decoded",
+      "version": {
+        "m_major": 2,
+        "m_minor": 57,
+        "m_revision": 0,
+        "m_build": 98348,
+        "m_baseBuild": 98348
+      },
+      "data_build": 98348,
+      "ngdp_root_key": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "map": "Cursed Hollow",
+      "selected_hero_names": [
+        "Anub'arak",
+        "Deckard",
+        "Dehaka",
+        "Garrosh",
+        "Hogger",
+        "Li-Ming",
+        "L\u00facio",
+        "Raynor",
+        "Rexxar",
+        "Valla"
+      ],
+      "details_sha256": "a2226f1b757821a9ffee8d9541a00dd9d2979336f132a59ac075052848b9e028",
+      "details_bytes": 1171,
+      "object_bytes": 1123204,
+      "stable_etag": "\"934505bf5e1c09b1f08211fadd0ce468\"",
+      "request_count": 6,
+      "response_bytes": 1763,
+      "ranges": [
+        {
+          "start": 0,
+          "end": 15,
+          "if_match_supplied": false,
+          "status": 206,
+          "body_bytes": 16
+        },
+        {
+          "start": 16,
+          "end": 134,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 119
+        },
+        {
+          "start": 1024,
+          "end": 1055,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 32
+        },
+        {
+          "start": 1122468,
+          "end": 1122979,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 512
+        },
+        {
+          "start": 1122980,
+          "end": 1123203,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 224
+        },
+        {
+          "start": 2256,
+          "end": 3115,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 860
+        }
+      ]
+    },
+    {
+      "url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-7-2026_Frank_s_Furters_vs_Crimson_Cyber_Squad_Battlefield_of_Eternity.stormReplay",
+      "date_label": "2026-10-07",
+      "status": "header-details-decoded",
+      "version": {
+        "m_major": 2,
+        "m_minor": 57,
+        "m_revision": 0,
+        "m_build": 98348,
+        "m_baseBuild": 98348
+      },
+      "data_build": 98348,
+      "ngdp_root_key": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "map": "Battlefield of Eternity",
+      "selected_hero_names": [
+        "Anub'arak",
+        "Blaze",
+        "Deckard",
+        "Diablo",
+        "Falstad",
+        "Li-Ming",
+        "Rehgar",
+        "Rexxar",
+        "Tychus",
+        "Valla"
+      ],
+      "details_sha256": "ea03989e47386a6071c56f7fe1d19fc5571e9e62e64e461e032a34267db96f03",
+      "details_bytes": 1222,
+      "object_bytes": 1810786,
+      "stable_etag": "\"1f79d6ba0d4e6245ef80bb836d02226d\"",
+      "request_count": 6,
+      "response_bytes": 1815,
+      "ranges": [
+        {
+          "start": 0,
+          "end": 15,
+          "if_match_supplied": false,
+          "status": 206,
+          "body_bytes": 16
+        },
+        {
+          "start": 16,
+          "end": 134,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 119
+        },
+        {
+          "start": 1024,
+          "end": 1055,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 32
+        },
+        {
+          "start": 1810050,
+          "end": 1810561,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 512
+        },
+        {
+          "start": 1810562,
+          "end": 1810785,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 224
+        },
+        {
+          "start": 2256,
+          "end": 3167,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 912
+        }
+      ]
+    },
+    {
+      "url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-7-2026_Crit_Kickers_vs_Mango_Fever_Infernal_Shrines.stormReplay",
+      "date_label": "2026-10-07",
+      "status": "header-details-decoded",
+      "version": {
+        "m_major": 2,
+        "m_minor": 57,
+        "m_revision": 0,
+        "m_build": 98348,
+        "m_baseBuild": 98348
+      },
+      "data_build": 98348,
+      "ngdp_root_key": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "map": "Infernal Shrines",
+      "selected_hero_names": [
+        "Ana",
+        "Blaze",
+        "Deckard",
+        "Diablo",
+        "Hanzo",
+        "Hogger",
+        "Malthael",
+        "Orphea",
+        "Thrall",
+        "Tyrael"
+      ],
+      "details_sha256": "d258c19b02fcc8ee0968de8e3e87fd0492331ffa604f578f8e7708871846f463",
+      "details_bytes": 1243,
+      "object_bytes": 1005291,
+      "stable_etag": "\"13dd73fa66e055d9c9a405da436ae383\"",
+      "request_count": 6,
+      "response_bytes": 1824,
+      "ranges": [
+        {
+          "start": 0,
+          "end": 15,
+          "if_match_supplied": false,
+          "status": 206,
+          "body_bytes": 16
+        },
+        {
+          "start": 16,
+          "end": 134,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 119
+        },
+        {
+          "start": 1024,
+          "end": 1055,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 32
+        },
+        {
+          "start": 1004555,
+          "end": 1005066,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 512
+        },
+        {
+          "start": 1005067,
+          "end": 1005290,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 224
+        },
+        {
+          "start": 2256,
+          "end": 3176,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 921
+        }
+      ]
+    },
+    {
+      "url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-7-2026_Crit_Kickers_vs_Mango_Fever_Garden_of_Terror.stormReplay",
+      "date_label": "2026-10-07",
+      "status": "header-details-decoded",
+      "version": {
+        "m_major": 2,
+        "m_minor": 57,
+        "m_revision": 0,
+        "m_build": 98348,
+        "m_baseBuild": 98348
+      },
+      "data_build": 98348,
+      "ngdp_root_key": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "map": "Garden of Terror",
+      "selected_hero_names": [
+        "Anduin",
+        "Blaze",
+        "Cassia",
+        "Falstad",
+        "Gul'dan",
+        "Johanna",
+        "Maiev",
+        "Rehgar",
+        "Tyrael",
+        "Yrel"
+      ],
+      "details_sha256": "0e9fdc6b4bc8e7cb24a2ba5997ff6b654eacbfe78a35f47e02d7f8eca817f9b5",
+      "details_bytes": 1160,
+      "object_bytes": 1155153,
+      "stable_etag": "\"a87722648616b5e83deac583121dde9c\"",
+      "request_count": 6,
+      "response_bytes": 1750,
+      "ranges": [
+        {
+          "start": 0,
+          "end": 15,
+          "if_match_supplied": false,
+          "status": 206,
+          "body_bytes": 16
+        },
+        {
+          "start": 16,
+          "end": 134,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 119
+        },
+        {
+          "start": 1024,
+          "end": 1055,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 32
+        },
+        {
+          "start": 1154417,
+          "end": 1154928,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 512
+        },
+        {
+          "start": 1154929,
+          "end": 1155152,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 224
+        },
+        {
+          "start": 2256,
+          "end": 3102,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 847
+        }
+      ]
+    },
+    {
+      "url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-7-2026_COSMOS_vs_Phoenix_Rising_Amethyst_Tomb_of_the_Spider_Queen.stormReplay",
+      "date_label": "2026-10-07",
+      "status": "header-details-decoded",
+      "version": {
+        "m_major": 2,
+        "m_minor": 57,
+        "m_revision": 0,
+        "m_build": 98348,
+        "m_baseBuild": 98348
+      },
+      "data_build": 98348,
+      "ngdp_root_key": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "map": "Tomb of the Spider Queen",
+      "selected_hero_names": [
+        "Brightwing",
+        "Greymane",
+        "Kael'thas",
+        "Leoric",
+        "Muradin",
+        "Rehgar",
+        "Sylvanas",
+        "Thrall",
+        "Tyrael",
+        "Yrel"
+      ],
+      "details_sha256": "35c4e5149562c7eadf48324ad1f89b7f949e6ce4f3649cbac50d10a33de11f71",
+      "details_bytes": 1200,
+      "object_bytes": 1983537,
+      "stable_etag": "\"bb65e31498f999a676bfe2dda3de4298\"",
+      "request_count": 6,
+      "response_bytes": 1776,
+      "ranges": [
+        {
+          "start": 0,
+          "end": 15,
+          "if_match_supplied": false,
+          "status": 206,
+          "body_bytes": 16
+        },
+        {
+          "start": 16,
+          "end": 134,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 119
+        },
+        {
+          "start": 1024,
+          "end": 1055,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 32
+        },
+        {
+          "start": 1982801,
+          "end": 1983312,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 512
+        },
+        {
+          "start": 1983313,
+          "end": 1983536,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 224
+        },
+        {
+          "start": 2256,
+          "end": 3128,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 873
+        }
+      ]
+    },
+    {
+      "url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-7-2026_COSMOS_vs_Phoenix_Rising_Amethyst_Battlefield_of_Eternity.stormReplay",
+      "date_label": "2026-10-07",
+      "status": "header-details-decoded",
+      "version": {
+        "m_major": 2,
+        "m_minor": 57,
+        "m_revision": 0,
+        "m_build": 98348,
+        "m_baseBuild": 98348
+      },
+      "data_build": 98348,
+      "ngdp_root_key": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "map": "Battlefield of Eternity",
+      "selected_hero_names": [
+        "Artanis",
+        "Blaze",
+        "Brightwing",
+        "Deckard",
+        "Diablo",
+        "Hanzo",
+        "Johanna",
+        "Li-Ming",
+        "Tassadar",
+        "Tychus"
+      ],
+      "details_sha256": "070a8e3ed530e6f3ad9379116eb1eb14376d9c941110c525ab4e6e2312700b23",
+      "details_bytes": 1239,
+      "object_bytes": 852169,
+      "stable_etag": "\"8c3e234d6cb36e824d41fb36ae6301a5\"",
+      "request_count": 6,
+      "response_bytes": 1830,
+      "ranges": [
+        {
+          "start": 0,
+          "end": 15,
+          "if_match_supplied": false,
+          "status": 206,
+          "body_bytes": 16
+        },
+        {
+          "start": 16,
+          "end": 134,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 119
+        },
+        {
+          "start": 1024,
+          "end": 1055,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 32
+        },
+        {
+          "start": 851433,
+          "end": 851944,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 512
+        },
+        {
+          "start": 851945,
+          "end": 852168,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 224
+        },
+        {
+          "start": 2256,
+          "end": 3182,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 927
+        }
+      ]
+    },
+    {
+      "url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-6-2026_Spooky_Ghosts_vs_BG_I_Need_My_Caster_Role_Infernal_Shrines.stormReplay",
+      "date_label": "2026-10-06",
+      "status": "header-details-decoded",
+      "version": {
+        "m_major": 2,
+        "m_minor": 57,
+        "m_revision": 0,
+        "m_build": 98348,
+        "m_baseBuild": 98348
+      },
+      "data_build": 98348,
+      "ngdp_root_key": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "map": "Infernal Shrines",
+      "selected_hero_names": [
+        "D.Va",
+        "Dehaka",
+        "Greymane",
+        "Junkrat",
+        "L\u00facio",
+        "Maiev",
+        "Stukov",
+        "Tychus",
+        "Tyrael",
+        "Varian"
+      ],
+      "details_sha256": "829efb8e28d3f14ffb881d943749c9651ebab73485453b8d4cd30ae4db2dd1be",
+      "details_bytes": 1264,
+      "object_bytes": 1249734,
+      "stable_etag": "\"ea9963332c31c4f0036f9a74e7ca20dc\"",
+      "request_count": 6,
+      "response_bytes": 1830,
+      "ranges": [
+        {
+          "start": 0,
+          "end": 15,
+          "if_match_supplied": false,
+          "status": 206,
+          "body_bytes": 16
+        },
+        {
+          "start": 16,
+          "end": 134,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 119
+        },
+        {
+          "start": 1024,
+          "end": 1055,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 32
+        },
+        {
+          "start": 1248998,
+          "end": 1249509,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 512
+        },
+        {
+          "start": 1249510,
+          "end": 1249733,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 224
+        },
+        {
+          "start": 2256,
+          "end": 3182,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 927
+        }
+      ]
+    },
+    {
+      "url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-6-2026_Spooky_Ghosts_vs_BG_I_Need_My_Caster_Role_Braxis_Holdout.stormReplay",
+      "date_label": "2026-10-06",
+      "status": "header-details-decoded",
+      "version": {
+        "m_major": 2,
+        "m_minor": 57,
+        "m_revision": 0,
+        "m_build": 98348,
+        "m_baseBuild": 98348
+      },
+      "data_build": 98348,
+      "ngdp_root_key": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "map": "Braxis Holdout",
+      "selected_hero_names": [
+        "Anub'arak",
+        "Auriel",
+        "Greymane",
+        "Johanna",
+        "Junkrat",
+        "Kel'Thuzad",
+        "Leoric",
+        "L\u00facio",
+        "Valla",
+        "Yrel"
+      ],
+      "details_sha256": "2a4f428d1b3470b9c7c0d7807a210b1af592de03fea793226f6087d0269425a0",
+      "details_bytes": 1270,
+      "object_bytes": 777117,
+      "stable_etag": "\"9c9bf251514e0dd6001a9113e20f9f34\"",
+      "request_count": 6,
+      "response_bytes": 1873,
+      "ranges": [
+        {
+          "start": 0,
+          "end": 15,
+          "if_match_supplied": false,
+          "status": 206,
+          "body_bytes": 16
+        },
+        {
+          "start": 16,
+          "end": 134,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 119
+        },
+        {
+          "start": 1024,
+          "end": 1055,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 32
+        },
+        {
+          "start": 776381,
+          "end": 776892,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 512
+        },
+        {
+          "start": 776893,
+          "end": 777116,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 224
+        },
+        {
+          "start": 2256,
+          "end": 3225,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 970
+        }
+      ]
+    },
+    {
+      "url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-6-2026_Can_t_Connect_Stuns_vs_The_Part_Timers_Towers_of_Doom.stormReplay",
+      "date_label": "2026-10-06",
+      "status": "header-details-decoded",
+      "version": {
+        "m_major": 2,
+        "m_minor": 57,
+        "m_revision": 0,
+        "m_build": 98348,
+        "m_baseBuild": 98348
+      },
+      "data_build": 98348,
+      "ngdp_root_key": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "map": "Towers of Doom",
+      "selected_hero_names": [
+        "Blaze",
+        "E.T.C.",
+        "Fenix",
+        "Jaina",
+        "Li Li",
+        "Sonya",
+        "Stitches",
+        "Sylvanas",
+        "Tassadar",
+        "Uther"
+      ],
+      "details_sha256": "3a506c45d90d72532b6a9929afa3e434e026fe9126312a4a9de98854f7d3b239",
+      "details_bytes": 1169,
+      "object_bytes": 1316335,
+      "stable_etag": "\"105a5f277a0494946cdec87ed1c67ab5\"",
+      "request_count": 6,
+      "response_bytes": 1755,
+      "ranges": [
+        {
+          "start": 0,
+          "end": 15,
+          "if_match_supplied": false,
+          "status": 206,
+          "body_bytes": 16
+        },
+        {
+          "start": 16,
+          "end": 134,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 119
+        },
+        {
+          "start": 1024,
+          "end": 1055,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 32
+        },
+        {
+          "start": 1315599,
+          "end": 1316110,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 512
+        },
+        {
+          "start": 1316111,
+          "end": 1316334,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 224
+        },
+        {
+          "start": 2256,
+          "end": 3107,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 852
+        }
+      ]
+    },
+    {
+      "url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-6-2026_Can_t_Connect_Stuns_vs_The_Part_Timers_Battlefield_of_Eternity.stormReplay",
+      "date_label": "2026-10-06",
+      "status": "header-details-decoded",
+      "version": {
+        "m_major": 2,
+        "m_minor": 57,
+        "m_revision": 0,
+        "m_build": 98348,
+        "m_baseBuild": 98348
+      },
+      "data_build": 98348,
+      "ngdp_root_key": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "map": "Battlefield of Eternity",
+      "selected_hero_names": [
+        "Ana",
+        "Anduin",
+        "Chromie",
+        "Johanna",
+        "Leoric",
+        "Li-Ming",
+        "Raynor",
+        "Sonya",
+        "Sylvanas",
+        "Tyrael"
+      ],
+      "details_sha256": "b1b54223772873d98fd4584f1467b860348342d98fe11a1d710d0e5144f40e6f",
+      "details_bytes": 1221,
+      "object_bytes": 1147379,
+      "stable_etag": "\"baf1068d956040f07bd469e828806899\"",
+      "request_count": 6,
+      "response_bytes": 1796,
+      "ranges": [
+        {
+          "start": 0,
+          "end": 15,
+          "if_match_supplied": false,
+          "status": 206,
+          "body_bytes": 16
+        },
+        {
+          "start": 16,
+          "end": 134,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 119
+        },
+        {
+          "start": 1024,
+          "end": 1055,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 32
+        },
+        {
+          "start": 1146643,
+          "end": 1147154,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 512
+        },
+        {
+          "start": 1147155,
+          "end": 1147378,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 224
+        },
+        {
+          "start": 2256,
+          "end": 3148,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 893
+        }
+      ]
+    },
+    {
+      "url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-6-2026_Boogans_Forever_vs_LTK_-_Shaken_Not_Tilted_Towers_of_Doom.stormReplay",
+      "date_label": "2026-10-06",
+      "status": "header-details-decoded",
+      "version": {
+        "m_major": 2,
+        "m_minor": 57,
+        "m_revision": 0,
+        "m_build": 98348,
+        "m_baseBuild": 98348
+      },
+      "data_build": 98348,
+      "ngdp_root_key": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "map": "Towers of Doom",
+      "selected_hero_names": [
+        "Auriel",
+        "Blaze",
+        "Diablo",
+        "Falstad",
+        "Gul'dan",
+        "Stukov",
+        "Sylvanas",
+        "The Lost Vikings",
+        "Tychus",
+        "Tyrael"
+      ],
+      "details_sha256": "c5000a677714c01cfaba9bacaf3e37b4cb32e6a98ec59516d52d2655e428f37f",
+      "details_bytes": 1196,
+      "object_bytes": 874017,
+      "stable_etag": "\"225c80912489c7976f3bc2f896f6c4fe\"",
+      "request_count": 6,
+      "response_bytes": 1770,
+      "ranges": [
+        {
+          "start": 0,
+          "end": 15,
+          "if_match_supplied": false,
+          "status": 206,
+          "body_bytes": 16
+        },
+        {
+          "start": 16,
+          "end": 134,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 119
+        },
+        {
+          "start": 1024,
+          "end": 1055,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 32
+        },
+        {
+          "start": 873281,
+          "end": 873792,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 512
+        },
+        {
+          "start": 873793,
+          "end": 874016,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 224
+        },
+        {
+          "start": 2256,
+          "end": 3122,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 867
+        }
+      ]
+    },
+    {
+      "url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-6-2026_Boogans_Forever_vs_LTK_-_Shaken_Not_Tilted_Garden_of_Terror.stormReplay",
+      "date_label": "2026-10-06",
+      "status": "header-details-decoded",
+      "version": {
+        "m_major": 2,
+        "m_minor": 57,
+        "m_revision": 0,
+        "m_build": 98348,
+        "m_baseBuild": 98348
+      },
+      "data_build": 98348,
+      "ngdp_root_key": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "map": "Garden of Terror",
+      "selected_hero_names": [
+        "Auriel",
+        "Deathwing",
+        "Dehaka",
+        "Greymane",
+        "Gul'dan",
+        "Jaina",
+        "Johanna",
+        "Ragnaros",
+        "Rehgar",
+        "Varian"
+      ],
+      "details_sha256": "ab7d26ddd2a25c61008bdd169d051dccafabaca89b8ef3abd4d9ec0812c40bc8",
+      "details_bytes": 1193,
+      "object_bytes": 916195,
+      "stable_etag": "\"d415c7ca30a996d2e6dfcfb95bfc437d\"",
+      "request_count": 6,
+      "response_bytes": 1781,
+      "ranges": [
+        {
+          "start": 0,
+          "end": 15,
+          "if_match_supplied": false,
+          "status": 206,
+          "body_bytes": 16
+        },
+        {
+          "start": 16,
+          "end": 134,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 119
+        },
+        {
+          "start": 1024,
+          "end": 1055,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 32
+        },
+        {
+          "start": 915459,
+          "end": 915970,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 512
+        },
+        {
+          "start": 915971,
+          "end": 916194,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 224
+        },
+        {
+          "start": 2256,
+          "end": 3133,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 878
+        }
+      ]
+    },
+    {
+      "url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-6-2026_Boogans_Forever_vs_LTK_-_Shaken_Not_Tilted_Battlefield_of_Eternity.stormReplay",
+      "date_label": "2026-10-06",
+      "status": "header-details-decoded",
+      "version": {
+        "m_major": 2,
+        "m_minor": 57,
+        "m_revision": 0,
+        "m_build": 98348,
+        "m_baseBuild": 98348
+      },
+      "data_build": 98348,
+      "ngdp_root_key": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "map": "Battlefield of Eternity",
+      "selected_hero_names": [
+        "Anduin",
+        "Artanis",
+        "Blaze",
+        "Brightwing",
+        "Greymane",
+        "Hanzo",
+        "Johanna",
+        "Muradin",
+        "Qhira",
+        "Sgt. Hammer"
+      ],
+      "details_sha256": "92cbd531aae62c6ac217b0b4eb6b6c91209387ff777cff136afa9f2a807e9a74",
+      "details_bytes": 1245,
+      "object_bytes": 1001869,
+      "stable_etag": "\"2a1032b5ebe9ffae7f93bc2f6f0b63eb\"",
+      "request_count": 6,
+      "response_bytes": 1828,
+      "ranges": [
+        {
+          "start": 0,
+          "end": 15,
+          "if_match_supplied": false,
+          "status": 206,
+          "body_bytes": 16
+        },
+        {
+          "start": 16,
+          "end": 134,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 119
+        },
+        {
+          "start": 1024,
+          "end": 1055,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 32
+        },
+        {
+          "start": 1001133,
+          "end": 1001644,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 512
+        },
+        {
+          "start": 1001645,
+          "end": 1001868,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 224
+        },
+        {
+          "start": 2256,
+          "end": 3180,
+          "if_match_supplied": true,
+          "status": 206,
+          "body_bytes": 925
+        }
+      ]
+    }
+  ],
+  "full_replay_sha256_verified": false,
+  "full_stream_or_parser_compatibility_proven": false,
+  "full_object_download_performed": false,
+  "raw_private_details_or_tracker_written": false,
+  "client_launched": false,
+  "replay_modified": false,
+  "limitations": [
+    "Partial header/details and optionally tracker only; no full replay acquisition or payload-wide validation.",
+    "Selected heroes do not prove talent choices or spawned target units; tracker observations are separate.",
+    "Only observed current event type names are counted; no unit-link or ability mapping is inferred."
+  ]
+}

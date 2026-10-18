@@ -1,0 +1,38 @@
+{
+  "base_package_id_version_pairs": [
+    [
+      169990,
+      65580
+    ],
+    [
+      170002,
+      65559
+    ],
+    [
+      169991,
+      65552
+    ],
+    [
+      169992,
+      65663
+    ]
+  ],
+  "both_embedded_Python_blocks_AST_parsed": true,
+  "client_launched": false,
+  "event_counts": {
+    "game": 144708,
+    "message": 99,
+    "tracker": 6181
+  },
+  "explicit_base_data_and_10_init_slot_assertions_present_and_passed": true,
+  "final_steps_sha256": "b9fe3f794f673125d4eefad04a22bfd40c9f02979c7e289570cb3703c700818d",
+  "format": "hots-current-EU-final-CI-snippet-root-verification-v1",
+  "previous_independent_draft_review_sha256": "d89c4ed29402f941c90256b4ba5f11a150e91702e1f082c05a18e99960f033d6",
+  "prior_review_draft_pending_assertions_now_added": true,
+  "remote_CI_result": "must be recorded separately",
+  "replay_modified": false,
+  "replay_sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4",
+  "same_verification_block_executed_locally": true,
+  "source_schema_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+  "workflow_sha256": "13c97e10750afb925c0947a12b8f4fdbaef287ce120372b5325a05632fe27d12"
+}

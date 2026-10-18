@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "acquired_at_utc": "2026-10-18T20:19:22.056644+00:00",
+  "source_match_url": "https://heroeslounge.gg/match/view/27515",
+  "source_match_html_sha256": "b36bb1d352cb0808429458780dd233314b4987cb7cc4e17cc74932e2733d86f4",
+  "scheduled_primary_page": "05 Oct 2026 19:00 (UTC +00:00)",
+  "primary_page_map": "Lost Cavern",
+  "source_discovery_file_sha256": "413a564a811b9002e456b77ab376a581edea494246df6e87ccc27d92f806db17",
+  "requested_url": "https://heroeslounge.gg/storage/app/uploads/public/6ac/402/4c8/6ac4024c86d1b923997665.stormreplay",
+  "final_url": "https://heroeslounge.gg/storage/app/uploads/public/6ac/402/4c8/6ac4024c86d1b923997665.stormreplay",
+  "http_status": 200,
+  "content_length": "978482",
+  "etag": "\"eee32-65d1d5c148e4d\"",
+  "last_modified": "Mon, 05 Oct 2026 20:02:20 GMT",
+  "maximum_bytes": 3145728,
+  "file": "heroeslounge-27515-g1-20261005.StormReplay",
+  "file_bytes": 978482,
+  "file_sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4",
+  "download_is_compatibility_proof": false,
+  "raw_replay_publication": false
+}

@@ -1,0 +1,195 @@
+{
+  "format": "hots-one-genuine-current-eu-reference-receipt-v1",
+  "created_at_utc": "2026-10-18T20:23:16.244375+00:00",
+  "source_match_url": "https://heroeslounge.gg/match/view/27515",
+  "source_replay_url": "https://heroeslounge.gg/storage/app/uploads/public/6ac/402/4c8/6ac4024c86d1b923997665.stormreplay",
+  "replay_file_sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4",
+  "replay_file_bytes": 978482,
+  "raw_replay_or_header_in_publication_allowlist": false,
+  "declared_build_base_data": 98348,
+  "root_md5": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+  "verified_core_events": {
+    "game": 144708,
+    "message": 99,
+    "tracker": 6181
+  },
+  "official_and_semantic_full_observed_core_roundtrips": true,
+  "schema_build": 96477,
+  "schema_file_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+  "details_player_region_set": [
+    2
+  ],
+  "all_mod_creator_regions": [
+    2
+  ],
+  "all_terminal_handle_regions": [
+    "EU"
+  ],
+  "tail_identity_slot_seed_crosscheck_passed": true,
+  "mod_and_tail_same_profile_full_member_roundtrips": true,
+  "base_package_bindings": [
+    {
+      "index": 0,
+      "mod_id": 169990,
+      "version": 65580,
+      "terminal_handle": {
+        "extension": "s2mh",
+        "region": "EU",
+        "digest": "8605dedcd84ee88bf5e4f21a354d4e5e0dd7e11f932a61955bef4d0dec7ec354",
+        "relative_path": "86/05/8605dedcd84ee88bf5e4f21a354d4e5e0dd7e11f932a61955bef4d0dec7ec354.s2mh"
+      },
+      "prefix_archive_handle": {
+        "extension": "s2ma",
+        "region": "EU",
+        "digest": "1f1b228ddb1f72205cbfd444055287100b0f39959be816548162e4081ea85511",
+        "relative_path": "1f/1b/1f1b228ddb1f72205cbfd444055287100b0f39959be816548162e4081ea85511.s2ma"
+      },
+      "cached_previous_candidate_count": 6,
+      "exact_current_tuple_previously_cached": true,
+      "header_acquisition_status": "sha256-and-complete-versioned-wire-verified",
+      "header_http_status": 200,
+      "header_identity_equals_replay_tuple": true,
+      "header_archive_equals_replay_prefix": true,
+      "cached_header_bytes_equal_download": true,
+      "complete_wire_eof": true
+    },
+    {
+      "index": 1,
+      "mod_id": 170002,
+      "version": 65559,
+      "terminal_handle": {
+        "extension": "s2mh",
+        "region": "EU",
+        "digest": "154724c2bc9830f8be306833c064da19063aaf3206327a6b9bcc7c56cdf7f84a",
+        "relative_path": "15/47/154724c2bc9830f8be306833c064da19063aaf3206327a6b9bcc7c56cdf7f84a.s2mh"
+      },
+      "prefix_archive_handle": {
+        "extension": "s2ma",
+        "region": "EU",
+        "digest": "1ad94c126eb98a4c1de7b8e6f8aaa153dba52b09d3825e0c89dbc5828db70f76",
+        "relative_path": "1a/d9/1ad94c126eb98a4c1de7b8e6f8aaa153dba52b09d3825e0c89dbc5828db70f76.s2ma"
+      },
+      "cached_previous_candidate_count": 4,
+      "exact_current_tuple_previously_cached": true,
+      "header_acquisition_status": "sha256-and-complete-versioned-wire-verified",
+      "header_http_status": 200,
+      "header_identity_equals_replay_tuple": true,
+      "header_archive_equals_replay_prefix": true,
+      "cached_header_bytes_equal_download": true,
+      "complete_wire_eof": true
+    },
+    {
+      "index": 2,
+      "mod_id": 169991,
+      "version": 65552,
+      "terminal_handle": {
+        "extension": "s2mh",
+        "region": "EU",
+        "digest": "c433f7acb071f5adf34363ef7228f49f48eb278ac6d12ac35a6fbb35ff9369b7",
+        "relative_path": "c4/33/c433f7acb071f5adf34363ef7228f49f48eb278ac6d12ac35a6fbb35ff9369b7.s2mh"
+      },
+      "prefix_archive_handle": {
+        "extension": "s2ma",
+        "region": "EU",
+        "digest": "92d81744c1441bf628ed6ab7e9d19485c860914d8b745a91f6351ff9dcd4e6bb",
+        "relative_path": "92/d8/92d81744c1441bf628ed6ab7e9d19485c860914d8b745a91f6351ff9dcd4e6bb.s2ma"
+      },
+      "cached_previous_candidate_count": 3,
+      "exact_current_tuple_previously_cached": true,
+      "header_acquisition_status": "sha256-and-complete-versioned-wire-verified",
+      "header_http_status": 200,
+      "header_identity_equals_replay_tuple": true,
+      "header_archive_equals_replay_prefix": true,
+      "cached_header_bytes_equal_download": true,
+      "complete_wire_eof": true
+    },
+    {
+      "index": 3,
+      "mod_id": 169992,
+      "version": 65663,
+      "terminal_handle": {
+        "extension": "s2mh",
+        "region": "EU",
+        "digest": "f644ce88b9d1a1c15af40be380be285f3d2ffcaf901dc9c15da367e763ee75c0",
+        "relative_path": "f6/44/f644ce88b9d1a1c15af40be380be285f3d2ffcaf901dc9c15da367e763ee75c0.s2mh"
+      },
+      "prefix_archive_handle": {
+        "extension": "s2ma",
+        "region": "EU",
+        "digest": "a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43",
+        "relative_path": "a1/e9/a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43.s2ma"
+      },
+      "cached_previous_candidate_count": 13,
+      "exact_current_tuple_previously_cached": false,
+      "header_acquisition_status": "acquisition-failed",
+      "header_http_status": 404
+    }
+  ],
+  "previous_cache_graph_sha256": "8031964a1041105a9def673d5bbf86e3b5251c519a8df4610d4f3641eac12741",
+  "missing_exact_current_heroesdata_header": true,
+  "cached_936_combinations_are_now_currently_eligible": false,
+  "downloaded_successful_header_body_bytes": 61128,
+  "allowlist": [
+    {
+      "file": "one-eu-candidate-acquisition.json",
+      "bytes": 1118,
+      "sha256": "9430b8e9991d3f8ce8dc4950aecd7a6f3b9f66a66b47f086aeabe8dcfda15293"
+    },
+    {
+      "file": "heroeslounge-27515-g1-20261005.profile.json",
+      "bytes": 3710,
+      "sha256": "255f13b2d9dd52763b94d4aa8d1e99624c4d38eb8e545e205549bffce3be9feb"
+    },
+    {
+      "file": "one-eu-current-reference-binding.json",
+      "bytes": 28922,
+      "sha256": "413b87f7224b18020b4170542c6db1ee5b970e21936ec975efa5d92260b01464"
+    },
+    {
+      "file": "four-eu-base-header-acquisition.json",
+      "bytes": 3705,
+      "sha256": "b5b5ba38c571076d48a1f7d664f57820844038363ebcac51ce4ebbea81d05042"
+    },
+    {
+      "file": "inspect_lounge_page.py",
+      "bytes": 2626,
+      "sha256": "5e25b72f273699199902ed605e22bdfd49c6ca96c57bbd4044f7c096aa3a3fee"
+    },
+    {
+      "file": "find_dated_candidate.py",
+      "bytes": 2296,
+      "sha256": "77d822ce01d76fa869e6efd7b9a7e8799a008b2db73572f8741e9a71bfa8ee4c"
+    },
+    {
+      "file": "acquire_one_lounge.py",
+      "bytes": 3007,
+      "sha256": "8ae8fa3ea90d55e75e960dd7ac1941a66caf47909649994a531d57da0b7d04b1"
+    },
+    {
+      "file": "inspect_eu_binding.py",
+      "bytes": 5328,
+      "sha256": "e59cfdffe796ea093d8b70289a80fb5d198431931b15f8a7cdb8ffcc648a4ea1"
+    },
+    {
+      "file": "fetch_four_eu_base_headers.py",
+      "bytes": 4194,
+      "sha256": "7229f96ce4d6e77ec30e8c5d89caec3b9db1df65e92bc1d90085de921a3d89ad"
+    },
+    {
+      "file": "finalize_eu_reference_receipt.py",
+      "bytes": 5394,
+      "sha256": "196e9414c8d526275d501b9da7b4a853e85005a2a7359e530a58bd0155d28134"
+    }
+  ],
+  "limitations": [
+    "Lost Cavern is an ARAM map; this replay binds shared EU base metadata, not the Dragon Shire final map package.",
+    "The exact currently advertised HeroesData EU header returned404 and is absent at its exact conventional cache path; none of13oldercached candidates is substituted.",
+    "The previous936relaxed cached combinations are not current choices: all lack the observed exact HeroesData tuple/header.",
+    "S2MH package metadata has no verified client-build field; replay provenance supplies the98348 context.",
+    "A public tournament origin and content hashes are provenance, not a publisher authenticity signature.",
+    "No player names, account identifiers, ownership masks or chat contents are projected.",
+    "Whole-target schema coverage, simulation/playback and old-to-current conversion remain unproven."
+  ],
+  "replay_modified": false,
+  "client_launched": false
+}
