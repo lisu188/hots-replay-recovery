@@ -1,0 +1,832 @@
+{
+  "format": "hots-header-attribute-projection-control-v1",
+  "current_member_sha256": "62a6c46d2f5b17139b72cd0b84a1ceeeac76b04a7a254889943d61c413d8adf1",
+  "projected_attribute_count": 87,
+  "complete_attribute_region_boundary_verified": true,
+  "base_controls": [
+    {
+      "header_sha256": "8605dedcd84ee88bf5e4f21a354d4e5e0dd7e11f932a61955bef4d0dec7ec354",
+      "package_identity": {
+        "0": 169990,
+        "1": 65580
+      },
+      "attribute_count": 58,
+      "exact_attributes": 58,
+      "details": [
+        {
+          "identity": [
+            999,
+            1000
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            1001
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            3000
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            3006
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            500
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            3009
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            4000
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            3007
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            3008
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            3010
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            4001
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            3011
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            3012
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            4005
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            4006
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            4007
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            4053
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            4047
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            4048
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            4049
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            4050
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            4051
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            4052
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            4008
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            4054
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            4009
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            4010
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            4018
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            4012
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            4013
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            4014
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            4015
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            4017
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            4019
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            4036
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            4038
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            4037
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            4039
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            4040
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            4041
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            4042
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            4020
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            4021
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            4022
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            4027
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            4024
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            4026
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            4044
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            4029
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            4031
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            4046
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            2001
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            2002
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            2003
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            2004
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            2005
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            2007
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            2008
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        }
+      ],
+      "max_attribute_localization_index": 591,
+      "field7_record_count": 0
+    },
+    {
+      "header_sha256": "154724c2bc9830f8be306833c064da19063aaf3206327a6b9bcc7c56cdf7f84a",
+      "package_identity": {
+        "0": 170002,
+        "1": 65559
+      },
+      "attribute_count": 15,
+      "exact_attributes": 15,
+      "details": [
+        {
+          "identity": [
+            999,
+            3002
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            2006
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            2000
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            2011
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            2012
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            2013
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            2014
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            2015
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            2016
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            2019
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            2020
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            2017
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            2023
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            2018
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        },
+        {
+          "identity": [
+            999,
+            2024
+          ],
+          "exact": true,
+          "mismatch_paths": [],
+          "mismatch_path_count": 0
+        }
+      ],
+      "max_attribute_localization_index": 727,
+      "field7_record_count": 0
+    },
+    {
+      "header_sha256": "c433f7acb071f5adf34363ef7228f49f48eb278ac6d12ac35a6fbb35ff9369b7",
+      "package_identity": {
+        "0": 169991,
+        "1": 65552
+      },
+      "attribute_count": 0,
+      "exact_attributes": 0,
+      "details": [],
+      "max_attribute_localization_index": 0,
+      "field7_record_count": 0
+    }
+  ],
+  "heroesdata_index_controls": [
+    {
+      "version": 65661,
+      "header_sha256": "29f66c9eca1844826ad55f63eb8fd32a2d6e74ddb7931a8e835fb951f58e184d",
+      "max_attribute_localization_index": 5099,
+      "field7_nonzero_localization_indices": 99,
+      "field7_min_index": 5100,
+      "field7_max_index": 5198,
+      "field7_starts_immediately_after_attributes": true,
+      "current_projected_max_attribute_localization_index": 5122,
+      "target_attribute_count": 14,
+      "target_value_count": 5165,
+      "target_missing_values_vs_cached": [
+        {
+          "identity": [
+            999,
+            4002
+          ],
+          "prior_values": 92,
+          "target_values": 93
+        },
+        {
+          "identity": [
+            999,
+            4023
+          ],
+          "prior_values": 91,
+          "target_values": 92
+        },
+        {
+          "identity": [
+            999,
+            4025
+          ],
+          "prior_values": 91,
+          "target_values": 92
+        },
+        {
+          "identity": [
+            999,
+            4043
+          ],
+          "prior_values": 91,
+          "target_values": 92
+        },
+        {
+          "identity": [
+            999,
+            4028
+          ],
+          "prior_values": 91,
+          "target_values": 92
+        },
+        {
+          "identity": [
+            999,
+            4030
+          ],
+          "prior_values": 91,
+          "target_values": 92
+        },
+        {
+          "identity": [
+            999,
+            4045
+          ],
+          "prior_values": 91,
+          "target_values": 92
+        },
+        {
+          "identity": [
+            999,
+            4003
+          ],
+          "prior_values": 1764,
+          "target_values": 1773
+        },
+        {
+          "identity": [
+            999,
+            4004
+          ],
+          "prior_values": 673,
+          "target_values": 677
+        },
+        {
+          "identity": [
+            999,
+            4032
+          ],
+          "prior_values": 205,
+          "target_values": 204
+        },
+        {
+          "identity": [
+            999,
+            4034
+          ],
+          "prior_values": 909,
+          "target_values": 914
+        }
+      ]
+    },
+    {
+      "version": 65662,
+      "header_sha256": "f115def2b9adbc67cfdd8bb4255cff1a8b44a8c921e98f56eebe20708660a7c9",
+      "max_attribute_localization_index": 5113,
+      "field7_nonzero_localization_indices": 99,
+      "field7_min_index": 5114,
+      "field7_max_index": 5212,
+      "field7_starts_immediately_after_attributes": true,
+      "current_projected_max_attribute_localization_index": 5122,
+      "target_attribute_count": 14,
+      "target_value_count": 5165,
+      "target_missing_values_vs_cached": [
+        {
+          "identity": [
+            999,
+            4003
+          ],
+          "prior_values": 1764,
+          "target_values": 1773
+        }
+      ]
+    }
+  ],
+  "header_candidates_generated": false,
+  "client_launched": false,
+  "raw_player_fields_emitted": false
+}

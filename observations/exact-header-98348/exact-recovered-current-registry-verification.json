@@ -1,0 +1,166 @@
+{
+  "actual_current_EU_replay_advertised_binding": {
+    "mod_id": 169992,
+    "mod_index": 3,
+    "terminal_extension": "s2mh",
+    "terminal_region": "EU",
+    "terminal_sha256": "f644ce88b9d1a1c15af40be380be285f3d2ffcaf901dc9c15da367e763ee75c0",
+    "version": 65663
+  },
+  "all_input_digests_unchanged_after_verification": true,
+  "client_launched": false,
+  "contains_player_ownership_or_identity_data": false,
+  "earlier_failed_XML_multiplicity_control_remains_failed": true,
+  "format": "hots-recovered-exact-current-package-registry-verification-v1",
+  "full_header_digest_equals_actual_advertised_terminal_digest": true,
+  "inputs": {
+    "R8-partial": {
+      "bytes": 2438570,
+      "sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19"
+    },
+    "base_header": {
+      "bytes": 221689,
+      "complete_wire_decode": true,
+      "mod_id": 169992,
+      "sha256": "f115def2b9adbc67cfdd8bb4255cff1a8b44a8c921e98f56eebe20708660a7c9",
+      "version": 65662
+    },
+    "collection_observation": {
+      "bytes": 177925,
+      "sha256": "0fa8a041fa8d6b9ba22ba6ff8be10d4f42beccc7d9577d0b6ead2d8e0fa909c9"
+    },
+    "current98348-EU": {
+      "bytes": 978482,
+      "sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4"
+    },
+    "eu_binding": {
+      "bytes": 28922,
+      "sha256": "413b87f7224b18020b4170542c6db1ee5b970e21936ec975efa5d92260b01464"
+    },
+    "original41810": {
+      "bytes": 635140,
+      "sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824"
+    },
+    "prior_header": {
+      "bytes": 221133,
+      "complete_wire_decode": true,
+      "mod_id": 169992,
+      "sha256": "29f66c9eca1844826ad55f63eb8fd32a2d6e74ddb7931a8e835fb951f58e184d",
+      "version": 65661
+    },
+    "recovered_header": {
+      "bytes": 222049,
+      "complete_wire_decode": true,
+      "mod_id": 169992,
+      "sha256": "f644ce88b9d1a1c15af40be380be285f3d2ffcaf901dc9c15da367e763ee75c0",
+      "version": 65663
+    }
+  },
+  "limitations": [
+    "Authentication is the exact full-header SHA advertised by the genuine current EU replay; registry comparison alone would not authenticate a candidate.",
+    "The earlier unchanged-base-plus-nine model was a hypothesis until this complete-header hash match. Historical failed and hypothesis receipts remain unchanged.",
+    "This verifies a static package registry and its first-occurrence relation to observed collection identifiers. Per-player availability bytes and ownership semantics are not established.",
+    "No legacy-name to current-license migration, runtime compatibility or upgraded replay execution is claimed.",
+    "Gap positions are before original base-array indices, with no shift for earlier insertions."
+  ],
+  "raw_header_registry_body_or_replay_written": false,
+  "registry": {
+    "accepted_unshifted_base_gap_positions": [
+      545,
+      893,
+      1502,
+      1875,
+      2733,
+      3272,
+      4227,
+      4230,
+      5130
+    ],
+    "all_base_values_and_multiplicities_retained_in_exact_order": true,
+    "base_raw_count": 5488,
+    "candidate_count_checked_in_RAM": 2,
+    "exact_registry_candidate_ordinal": 2,
+    "new_id_evidence": [
+      {
+        "base_raw_occurrences": 0,
+        "current_unique_index": 541,
+        "id": 1064006,
+        "insert_before_unshifted_base_index": 545,
+        "prior_raw_occurrences": 1,
+        "recovered_raw_occurrences": 1
+      },
+      {
+        "base_raw_occurrences": 0,
+        "current_unique_index": 886,
+        "id": 1064007,
+        "insert_before_unshifted_base_index": 893,
+        "prior_raw_occurrences": 1,
+        "recovered_raw_occurrences": 1
+      },
+      {
+        "base_raw_occurrences": 0,
+        "current_unique_index": 1492,
+        "id": 1063867,
+        "insert_before_unshifted_base_index": 1502,
+        "prior_raw_occurrences": 1,
+        "recovered_raw_occurrences": 1
+      },
+      {
+        "base_raw_occurrences": 0,
+        "current_unique_index": 1862,
+        "id": 1064026,
+        "insert_before_unshifted_base_index": 1875,
+        "prior_raw_occurrences": 1,
+        "recovered_raw_occurrences": 1
+      },
+      {
+        "base_raw_occurrences": 0,
+        "current_unique_index": 2709,
+        "id": 1063868,
+        "insert_before_unshifted_base_index": 2733,
+        "prior_raw_occurrences": 1,
+        "recovered_raw_occurrences": 1
+      },
+      {
+        "base_raw_occurrences": 0,
+        "current_unique_index": 3245,
+        "id": 1063886,
+        "insert_before_unshifted_base_index": 3272,
+        "prior_raw_occurrences": 1,
+        "recovered_raw_occurrences": 1
+      },
+      {
+        "base_raw_occurrences": 0,
+        "current_unique_index": 4187,
+        "id": 1063866,
+        "insert_before_unshifted_base_index": 4227,
+        "prior_raw_occurrences": 1,
+        "recovered_raw_occurrences": 1
+      },
+      {
+        "base_raw_occurrences": 0,
+        "current_unique_index": 4191,
+        "id": 1063869,
+        "insert_before_unshifted_base_index": 4230,
+        "prior_raw_occurrences": 1,
+        "recovered_raw_occurrences": 1
+      },
+      {
+        "base_raw_occurrences": 0,
+        "current_unique_index": 5068,
+        "id": 1063346,
+        "insert_before_unshifted_base_index": 5130,
+        "prior_raw_occurrences": 1,
+        "recovered_raw_occurrences": 1
+      }
+    ],
+    "prior_raw_count": 5480,
+    "recovered_counter_equals_base_plus_nine_singletons": true,
+    "recovered_first_occurrence_count": 5418,
+    "recovered_first_occurrence_order_exact_current_observation": true,
+    "recovered_first_occurrence_ordered_values_sha256": "969b942f5eb53b7d952b2bfea055b96905014a8f5a8dde9929a355c9b1764b96",
+    "recovered_raw_count": 5497,
+    "recovered_raw_ordered_values_sha256": "2801d473d53e78b40ca660dfabd366574b7402d6759a77324383eb35e07c13fa"
+  },
+  "source_producer_sha256": "87bf0bb9b5e063372f37544e700f5d64a5ec843c719a388f4661581c58cef17d"
+}

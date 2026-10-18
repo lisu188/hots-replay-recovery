@@ -1,0 +1,206 @@
+{
+  "format": "hots-exact-header-publication-byte-bindings-v1",
+  "exact_recovered_header_sha256": "f644ce88b9d1a1c15af40be380be285f3d2ffcaf901dc9c15da367e763ee75c0",
+  "exact_recovered_header_bytes": 222049,
+  "raw_headers_in_git": false,
+  "client_launched": false,
+  "files": [
+    {
+      "source_relative_to_task_work": "header-reconstruction/lossless_wire.py",
+      "published_path": "lossless_wire.py",
+      "bytes": 11513,
+      "producer_and_published_sha256": "9d725f9be88c4185419a306ef995e82a774d174a93912ffd381cced2d6ebb7a7",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "header-reconstruction/test_lossless_wire.py",
+      "published_path": "test_lossless_wire.py",
+      "bytes": 7880,
+      "producer_and_published_sha256": "ad48664de1687698bb7fd3666ee5607518d479010b5a61e04947415b6b3c7788",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "header-reconstruction/battlelobby_header_attributes.py",
+      "published_path": "research/exact-header-98348/battlelobby_header_attributes.py",
+      "bytes": 4741,
+      "producer_and_published_sha256": "ce10b4ee3eeaacc1e6431f13291851e1f2fc2e8a8e3b3da5301a414d9749a868",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "header-reconstruction/project_attribute_nodes.py",
+      "published_path": "research/exact-header-98348/project_attribute_nodes.py",
+      "bytes": 4156,
+      "producer_and_published_sha256": "73b3d94269a12c117613edb25f3fa590c2af8947b2de9f11bc7baf4e4133f677",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "header-reconstruction/check_attribute_projection.py",
+      "published_path": "research/exact-header-98348/check_attribute_projection.py",
+      "bytes": 4175,
+      "producer_and_published_sha256": "7e86de6a249d3c984829277a3e7ca5c6e9061888f5d79dd00cd2b9b500474169",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "header-reconstruction/verify_attribute_node_projection.py",
+      "published_path": "research/exact-header-98348/verify_attribute_node_projection.py",
+      "bytes": 5896,
+      "producer_and_published_sha256": "0bdc20c3f61f99119bbdf00689805f2d6cda7d5e29844377e40fb3c3f3da2fe8",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "header-reconstruction/verify_lossless_wire.py",
+      "published_path": "research/exact-header-98348/verify_lossless_wire.py",
+      "bytes": 4984,
+      "producer_and_published_sha256": "8ccf0e4a62cd6d7966513d7fd7e71187f9ea06950f522d7ccfb878fe18e09067",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "header-reconstruction/assemble_exact_current_header.py",
+      "published_path": "research/exact-header-98348/assemble_exact_current_header.py",
+      "bytes": 10016,
+      "producer_and_published_sha256": "2270d7b098aef10a2e65d38c4ec7d0a496d04d0e560eeb85d1f9fd5e82907e77",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "header-reconstruction/README_LOSSLESS_WIRE.md",
+      "published_path": "research/exact-header-98348/README_LOSSLESS_WIRE.md",
+      "bytes": 4941,
+      "producer_and_published_sha256": "1cb982ef61188186a2cc475e52cf7685d1b8d04f14ea66a3c7fc90b0dcd66a41",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "collection-registry-ready/experimental_registry_merge.py",
+      "published_path": "research/exact-header-98348/registry/experimental_registry_merge.py",
+      "bytes": 7318,
+      "producer_and_published_sha256": "f2d8fd373991fd7e03264f03379e29121b2e14bbbe01e01bde5e37cb2b108bfd",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "collection-registry-ready/test_experimental_registry_merge.py",
+      "published_path": "research/exact-header-98348/registry/test_experimental_registry_merge.py",
+      "bytes": 2564,
+      "producer_and_published_sha256": "b5ead6d84c132a9c55dc76b85367638f52ac15afee546abbe90b1dda85a554a3",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "collection-registry-ready/registry_insertion_control.py",
+      "published_path": "research/exact-header-98348/registry/registry_insertion_control.py",
+      "bytes": 9744,
+      "producer_and_published_sha256": "5e252a35ad36fbece6c27f14667e46bedc071871f1c6a5d3453fea7580e3be50",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "collection-registry-ready/test_registry_insertion_control.py",
+      "published_path": "research/exact-header-98348/registry/test_registry_insertion_control.py",
+      "bytes": 2529,
+      "producer_and_published_sha256": "a71e5dd6dfb2ac10f7e2acd697ac1a1124e5674a161225a17934d22ef46a0794",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "collection-registry-ready/historical_registry_delta.py",
+      "published_path": "research/exact-header-98348/registry/historical_registry_delta.py",
+      "bytes": 4897,
+      "producer_and_published_sha256": "7fbc8207dcd183fcac0a8e6a04d2aea56b19a6b3261bdc0b706d732e59fb2517",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "header-reconstruction/attribute-projection-localized-controls.json",
+      "published_path": "observations/exact-header-98348/attribute-projection-localized-controls.json",
+      "bytes": 18607,
+      "producer_and_published_sha256": "729f261c6aa972836634afd1e5765bb92271b72489dbd1b20afb9e6494fa24f4",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "header-reconstruction/attribute-wire-projection-controls.json",
+      "published_path": "observations/exact-header-98348/attribute-wire-projection-controls.json",
+      "bytes": 4174,
+      "producer_and_published_sha256": "7a3591d9d1fddc9795a0d3f6986b858883062a54718cc46a46d5812cc9cf9930",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "header-reconstruction/lossless-wire36-control-verification.json",
+      "published_path": "observations/exact-header-98348/lossless-wire36-control-verification.json",
+      "bytes": 19965,
+      "producer_and_published_sha256": "12d2381bf0a125d2d81d2ab4644942e488d44ea92e8982ef3300edcd22aab488",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "header-reconstruction/lossless-wire-research-ready-receipt.json",
+      "published_path": "observations/exact-header-98348/lossless-wire-research-ready-receipt.json",
+      "bytes": 3086,
+      "producer_and_published_sha256": "4aef005eed14f6a3796760ffb0ab58451e61689de2c2c8d632777ae5c8fcd3d5",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "header-reconstruction/attribute-and-registry-independent-review.json",
+      "published_path": "observations/exact-header-98348/attribute-and-registry-independent-review.json",
+      "bytes": 4839,
+      "producer_and_published_sha256": "377e6e906c73024bd16891c6dd3f4f9f818434dd9d3c0c7bbf6da9bd7974e938",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "header-reconstruction/exact-current-eu-heroesdata-reconstruction-experiment.json",
+      "published_path": "observations/exact-header-98348/exact-current-eu-heroesdata-reconstruction-experiment.json",
+      "bytes": 11958,
+      "producer_and_published_sha256": "186ea4280bea39ff2434571d18300002d147572ce766b873503e1d29b5b89fee",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "header-reconstruction/exact-current-header-independent-review.json",
+      "published_path": "observations/exact-header-98348/exact-current-header-independent-review.json",
+      "bytes": 3965,
+      "producer_and_published_sha256": "281f873fce779d17be0c443faf87cb0fa7610547ce554b9004807b92c9c98072",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "header-reconstruction/public-input-availability.json",
+      "published_path": "observations/exact-header-98348/public-input-availability.json",
+      "bytes": 780,
+      "producer_and_published_sha256": "426b965ee027478fb7b41cb37ea6724894efc853a38d566a72f88c56bbbbe69b",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "collection-registry-ready/EXPERIMENTAL-registry-insertion-position-metadata.json",
+      "published_path": "observations/exact-header-98348/EXPERIMENTAL-registry-insertion-position-metadata.json",
+      "bytes": 4168,
+      "producer_and_published_sha256": "0286c50b772003b67eb52dad0aafaf1989abc429c5e3bf2d3fa684a3ab2eee5c",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "collection-registry-ready/registry-multiplicity-control-negative.json",
+      "published_path": "observations/exact-header-98348/registry-multiplicity-control-negative.json",
+      "bytes": 34660,
+      "producer_and_published_sha256": "d4b2b4a4a55f0cc21b9712267905b3ae4acdaf5d6ee451de22c0dbf6e8cf8da8",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "collection-registry-ready/historical-registry-65661-to-65662-delta.json",
+      "published_path": "observations/exact-header-98348/historical-registry-65661-to-65662-delta.json",
+      "bytes": 4112,
+      "producer_and_published_sha256": "2f772b8524e59ce5ec96fe99bb0c09c8c7c259a982bcdc0f0f66c4140381f8eb",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "eu-replay-search-20261018/prior-heroesdata-field7-delta-summary-v2.json",
+      "published_path": "observations/exact-header-98348/prior-heroesdata-field7-delta-summary-v2.json",
+      "bytes": 5938,
+      "producer_and_published_sha256": "f7ffbeb4f796e47fe7901e64c4aa6048f362bba4daf18370238e151bd7bcbdb4",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "eu-replay-search-20261018/english-locale-index-recoverability-v2.json",
+      "published_path": "observations/exact-header-98348/english-locale-index-recoverability-v2.json",
+      "bytes": 3203,
+      "producer_and_published_sha256": "0e78069dab9deed4d9df16ead096d019a190283692cd6ac41e3c832964c8ae97",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "collection-registry-ready/exact-recovered-current-registry-verification.json",
+      "published_path": "observations/exact-header-98348/exact-recovered-current-registry-verification.json",
+      "bytes": 5927,
+      "producer_and_published_sha256": "24747807a43ff7cbf7f6fdca205dfb6160b717769c827619ef1b3789ef4dcc69",
+      "byte_preserved": true
+    }
+  ],
+  "source_scope": "Research producers preserve actual executed bytes and machine-bound original paths. Portable wire codec and its21tests are at repository root. No whole-header reconstruction portability claim is made by these frozen producers."
+}

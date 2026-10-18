@@ -6,3 +6,9 @@
 scripts/read_independent_replay.ps1 text eol=lf
 references/build-98297.config text eol=lf
 research/installed-casc-98348/enumerate_local_casc.ps1 text eol=lf
+
+# Preserve executed frozen research source/receipt bytes and their pinned hashes.
+lossless_wire.py -text
+test_lossless_wire.py -text
+research/exact-header-98348/** -text
+observations/exact-header-98348/** -text

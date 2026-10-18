@@ -1,0 +1,93 @@
+{
+  "format": "hots-exact-EU-heroesdata-header-independent-review-v1",
+  "status": "exact-advertised-static-object-independently-reproduced",
+  "material_findings": [],
+  "reconstruction_source_and_report_reviewed": true,
+  "assembler_source_sha256": "2270d7b098aef10a2e65d38c4ec7d0a496d04d0e560eeb85d1f9fd5e82907e77",
+  "producer_report_sha256": "186ea4280bea39ff2434571d18300002d147572ce766b873503e1d29b5b89fee",
+  "source_helpers_verified": [
+    {
+      "file": "lossless_wire.py",
+      "sha256": "9d725f9be88c4185419a306ef995e82a774d174a93912ffd381cced2d6ebb7a7"
+    },
+    {
+      "file": "battlelobby_header_attributes.py",
+      "sha256": "ce10b4ee3eeaacc1e6431f13291851e1f2fc2e8a8e3b3da5301a414d9749a868"
+    },
+    {
+      "file": "project_attribute_nodes.py",
+      "sha256": "73b3d94269a12c117613edb25f3fa590c2af8947b2de9f11bc7baf4e4133f677"
+    },
+    {
+      "file": "../collection-registry-ready/experimental_registry_merge.py",
+      "sha256": "f2d8fd373991fd7e03264f03379e29121b2e14bbbe01e01bde5e37cb2b108bfd"
+    },
+    {
+      "file": "assemble_exact_current_header.py",
+      "sha256": "2270d7b098aef10a2e65d38c4ec7d0a496d04d0e560eeb85d1f9fd5e82907e77"
+    }
+  ],
+  "direct_actual_replay_binding": {
+    "replay_sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4",
+    "member_sha256": "62a6c46d2f5b17139b72cd0b84a1ceeeac76b04a7a254889943d61c413d8adf1",
+    "header_executable_base_data_build": 98348,
+    "root_key": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+    "details_player_region_set": [
+      2
+    ],
+    "package_id": 169992,
+    "package_version": 65663,
+    "terminal_handle_index": 3,
+    "terminal_handle_region": "EU",
+    "advertised_header_sha256": "f644ce88b9d1a1c15af40be380be285f3d2ffcaf901dc9c15da367e763ee75c0",
+    "read_from_actual_pinned_replay_independently_of_binding_report": true
+  },
+  "private_saved_header": {
+    "bytes": 222049,
+    "sha256": "f644ce88b9d1a1c15af40be380be285f3d2ffcaf901dc9c15da367e763ee75c0",
+    "complete_generic_decoder_EOF": true,
+    "package_id": 169992,
+    "package_version": 65663,
+    "lossless_and_separate_generic_decoders_equal": true,
+    "parse_encode_full_byte_equality": true
+  },
+  "independent_RAM_only_algorithm_reexecution": {
+    "assembler_module_not_imported_or_executed": true,
+    "results": [
+      {
+        "candidate": 1,
+        "bytes": 222049,
+        "sha256": "de56b149b10ed06cc13a00ef601e86b59cfb0b2533ea4cb6ec47a784251f1d88",
+        "matches_advertised_full_target_SHA256": false,
+        "private_saved_file_byte_equal": false
+      },
+      {
+        "candidate": 2,
+        "bytes": 222049,
+        "sha256": "f644ce88b9d1a1c15af40be380be285f3d2ffcaf901dc9c15da367e763ee75c0",
+        "matches_advertised_full_target_SHA256": true,
+        "private_saved_file_byte_equal": true
+      }
+    ],
+    "same_two_candidate_hashes_as_producer": true,
+    "candidate2_exact_saved_private_file_bytes": true,
+    "no_candidate_bytes_written_by_reviewer": true,
+    "negative_candidate1_full_target_digest_guard_rejected": true,
+    "source_headers_replay_and_private_file_unchanged": true
+  },
+  "save_guard_review": {
+    "body_write_inside_full_sha_equality_branch_only": true,
+    "complete_generic_decode_and_identity_checks_before_exclusive_write": true,
+    "only_exact_matching_private_body_present": true,
+    "mismatch_body_not_saved": true
+  },
+  "scope": [
+    "The complete content SHA256 identifies the exact static header advertised by the98348EUreplay, resolving this previously missing object.",
+    "The two registry-position alternatives have different wholeheaderSHA256; onlycandidate2matches.",
+    "This proves neither general24-bitopaque-player migration, availability semantics, replay conversion nor deterministic simulation/playback.",
+    "No raw header/private creator or player fields are included in this receipt."
+  ],
+  "new_network_requests": 0,
+  "client_launched": false,
+  "replay_or_repo_modified": false
+}

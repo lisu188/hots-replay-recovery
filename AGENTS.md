@@ -454,3 +454,23 @@ match local bytes. No independent remote SHA256 claim. Keep all four required
 earlier archives in its manifest. This later bookkeeping receipt is outside
 the backed-up4897152source. No new replay or client outcome; R8 and the
 unfinished offline-only full-upgrade objective remain unchanged.
+
+
+## Exact current EU HeroesData header recovered - 2026-10-18
+
+Read docs/EXACT_EU_HEADER_RECOVERY_2026-10-18.md and observations/exact-header-98348.
+The222049-byte HeroesData169992/65663 header was reconstructed inRAM and matches
+the FULL genuinecurrentEUreplay SHA256f644ce88b9d1a1c15af40be380be285f3d2ffcaf901dc9c15da367e763ee75c0.
+Independent RAM assembly reproduces both candidate digests; onlygap1502matches.
+The exact private header passes independent generic completeEOF and lossless
+roundtrip. Its rawregistry5497/unique5418,12localehandles,14attribute definitions
+and99scorelocalization keys are artifact-authenticated. This supersedes the
+missingEUHeroesDataobject state, not the earlier depot404 or failedXMLcontrol.
+
+New boundedlosslesscodec21tests and36authenticcontrolheaders pass; attribute
+projection73wireexactcontrols/5negativecontrols and registry7tests/2alternatives
+also pass. Source/receipts are frozen with byte-preserving attributes so actual
+executed SHA pins remain truthful. OlderinputURLs404; do not claim CI rebuilt
+the realheader. No rawheaders inGit, newreplay, clientlaunch or deterministic
+playback proof. EUDragonfinalpackage,3missingUSheaders, availability/207legacy
+aliases and opaqueplayer conversion remain separate work. R8 unchanged.

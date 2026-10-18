@@ -1,0 +1,167 @@
+{
+  "all_current_missing9_IDs_were_in_older": true,
+  "candidate_vectors_or_header_bytes_emitted": false,
+  "client_launched": false,
+  "current_catalog_observation_sha256": "0fa8a041fa8d6b9ba22ba6ff8be10d4f42beccc7d9577d0b6ead2d8e0fa909c9",
+  "current_missing9_all_exactly_once_in_authenticated_older": true,
+  "current_missing9_occurrences_in_older": {
+    "1063346": 1,
+    "1063866": 1,
+    "1063867": 1,
+    "1063868": 1,
+    "1063869": 1,
+    "1063886": 1,
+    "1064006": 1,
+    "1064007": 1,
+    "1064026": 1
+  },
+  "current_registry_count": 5418,
+  "format": "hots-authenticated-historical-registry-delta-v1",
+  "future_raw5497_count_established": false,
+  "future_registry_or_header_authenticated": false,
+  "greedy_alignment_is_unique_or_semantic_removal_mapping": false,
+  "limitations": [
+    "The raw+8 count change comprises20new unique IDs, removal of9old IDs and3duplicate10975occurrences. It is not an eight-insertion positive control.",
+    "All9 IDs absent from65662 but present in current replay registry exist once in65661; this is direct historical multiplicity evidence, not a current-header proof.",
+    "A greedy exact subsequence alignment is diagnostic and is not claimed unique or to establish catalog removal semantics.",
+    "The unchanged-source XML multiplicity control remains failed. No declaration is filtered to force equality."
+  ],
+  "newer": {
+    "distinct_count": 5409,
+    "header_sha256": "f115def2b9adbc67cfdd8bb4255cff1a8b44a8c921e98f56eebe20708660a7c9",
+    "package_id": 169992,
+    "package_version": 65662,
+    "raw_count": 5488
+  },
+  "newer_only_occurrence_differences": {
+    "1165332": 1,
+    "1167708": 1,
+    "1167728": 1,
+    "1172642": 1,
+    "1172643": 1,
+    "1172644": 1,
+    "1172661": 1,
+    "1183822": 1,
+    "1183841": 1,
+    "1183842": 1,
+    "1183843": 1,
+    "1190881": 1,
+    "1190882": 1,
+    "1190883": 1,
+    "1190884": 1,
+    "1190885": 1,
+    "1191223": 1,
+    "1191224": 1,
+    "1191225": 1,
+    "1191238": 1
+  },
+  "newly_added_unique_IDs": [
+    1165332,
+    1167708,
+    1167728,
+    1172642,
+    1172643,
+    1172644,
+    1172661,
+    1183822,
+    1183841,
+    1183842,
+    1183843,
+    1190881,
+    1190882,
+    1190883,
+    1190884,
+    1190885,
+    1191223,
+    1191224,
+    1191225,
+    1191238
+  ],
+  "older": {
+    "distinct_count": 5398,
+    "header_sha256": "29f66c9eca1844826ad55f63eb8fd32a2d6e74ddb7931a8e835fb951f58e184d",
+    "package_id": 169992,
+    "package_version": 65661,
+    "raw_count": 5480
+  },
+  "older_newer_unique_union_equals_current_registry": true,
+  "older_only_occurrence_differences": {
+    "10975": 3,
+    "1063346": 1,
+    "1063866": 1,
+    "1063867": 1,
+    "1063868": 1,
+    "1063869": 1,
+    "1063886": 1,
+    "1064006": 1,
+    "1064007": 1,
+    "1064026": 1
+  },
+  "one_greedy_subsequence_alignment_deletions": [
+    {
+      "older_raw_index": 403,
+      "value": 10975
+    },
+    {
+      "older_raw_index": 543,
+      "value": 1064006
+    },
+    {
+      "older_raw_index": 890,
+      "value": 1064007
+    },
+    {
+      "older_raw_index": 1498,
+      "value": 1063867
+    },
+    {
+      "older_raw_index": 1645,
+      "value": 10975
+    },
+    {
+      "older_raw_index": 1870,
+      "value": 1064026
+    },
+    {
+      "older_raw_index": 2726,
+      "value": 1063868
+    },
+    {
+      "older_raw_index": 3265,
+      "value": 1063886
+    },
+    {
+      "older_raw_index": 4219,
+      "value": 1063866
+    },
+    {
+      "older_raw_index": 4223,
+      "value": 1063869
+    },
+    {
+      "older_raw_index": 5123,
+      "value": 1063346
+    },
+    {
+      "older_raw_index": 5305,
+      "value": 10975
+    }
+  ],
+  "raw_count_delta": 8,
+  "remove_all_new_IDs_from_newer_equals_older_raw": false,
+  "remove_all_new_IDs_from_newer_is_exact_older_subsequence": true,
+  "removed_unique_IDs": [
+    1063346,
+    1063866,
+    1063867,
+    1063868,
+    1063869,
+    1063886,
+    1064006,
+    1064007,
+    1064026
+  ],
+  "replay_modified": false,
+  "simple_eight_ID_insertion_positive_control_passed": false,
+  "source_producer_sha256": "7fbc8207dcd183fcac0a8e6a04d2aea56b19a6b3261bdc0b706d732e59fb2517"
+}

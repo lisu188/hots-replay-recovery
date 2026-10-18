@@ -1,0 +1,115 @@
+{
+  "format": "hots-observed-attribute-wire-projection-controls-v1",
+  "source_replay_sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4",
+  "source_member_sha256": "62a6c46d2f5b17139b72cd0b84a1ceeeac76b04a7a254889943d61c413d8adf1",
+  "authenticated_controls": [
+    {
+      "header_sha256": "8605dedcd84ee88bf5e4f21a354d4e5e0dd7e11f932a61955bef4d0dec7ec354",
+      "attribute_count": 58,
+      "field5_wire_bytes": 27754,
+      "field5_wire_sha256": "b4b2e299539b1a0739859c6f0512ba71d304ba0fa8cfbd09f19e6bf3a35dd407",
+      "projection_generic_equal": true,
+      "projection_wire_bytes_equal": true,
+      "source_whole_header_unchanged": true
+    },
+    {
+      "header_sha256": "154724c2bc9830f8be306833c064da19063aaf3206327a6b9bcc7c56cdf7f84a",
+      "attribute_count": 15,
+      "field5_wire_bytes": 28408,
+      "field5_wire_sha256": "b52c507a2d5bc99afc8d03db7b0de5f22deba34a907d1bdc95d3789e06585c56",
+      "projection_generic_equal": true,
+      "projection_wire_bytes_equal": true,
+      "source_whole_header_unchanged": true
+    },
+    {
+      "header_sha256": "c433f7acb071f5adf34363ef7228f49f48eb278ac6d12ac35a6fbb35ff9369b7",
+      "attribute_count": 0,
+      "field5_wire_bytes": 2,
+      "field5_wire_sha256": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "projection_generic_equal": true,
+      "projection_wire_bytes_equal": true,
+      "source_whole_header_unchanged": true
+    }
+  ],
+  "total_authenticated_definitions": 73,
+  "all_authenticated_field5_subtrees_wire_exact": true,
+  "negative_controls": [
+    {
+      "case": "swapped_attribute_identities",
+      "rejected": true
+    },
+    {
+      "case": "floating_point_in_integer_wire_field",
+      "rejected": true
+    },
+    {
+      "case": "new_optional_shape_without_authenticated_template",
+      "rejected": true
+    },
+    {
+      "case": "wrong_global_localization_table_index",
+      "rejected": true
+    },
+    {
+      "case": "unsupported_nonempty_value_requirement_bits",
+      "rejected": true
+    }
+  ],
+  "current_heroesdata_projection": {
+    "source_template_header_sha256": "f115def2b9adbc67cfdd8bb4255cff1a8b44a8c921e98f56eebe20708660a7c9",
+    "attribute_count": 14,
+    "value_count": 5165,
+    "new_fourcc_values_vs_template": 9,
+    "removed_fourcc_values_vs_template": 0,
+    "maximum_localization_index": 5122,
+    "field5_wire_bytes": 182808,
+    "field5_wire_sha256": "4bdecf19e9a86732877e6efc65a64b1e7e513c6e7e0761b8a7eea376bb2be41c",
+    "all_generic_target_fields_equal_observed_replay_projection": true,
+    "all_wire_tags_taken_from_compatible_authenticated_templates": true,
+    "source_template_whole_header_unchanged": true,
+    "is_accepted_current_header": false
+  },
+  "conditional_field7_hypothesis": {
+    "historical65661_max_attr_index": 5099,
+    "historical65661_score_index_range": [
+      5100,
+      5198
+    ],
+    "historical65662_max_attr_index": 5113,
+    "historical65662_score_index_range": [
+      5114,
+      5212
+    ],
+    "current_observed_max_attr_index": 5122,
+    "candidate_current_field7_range_if_same_rule": [
+      5123,
+      5221
+    ],
+    "candidate_delta_from65662": 9,
+    "current_exact_localization_entries_available": false,
+    "hypothesis_verified_by_target_full_SHA256": false
+  },
+  "source_helpers": [
+    {
+      "file": "battlelobby_header_attributes.py",
+      "sha256": "ce10b4ee3eeaacc1e6431f13291851e1f2fc2e8a8e3b3da5301a414d9749a868"
+    },
+    {
+      "file": "project_attribute_nodes.py",
+      "sha256": "73b3d94269a12c117613edb25f3fa590c2af8947b2de9f11bc7baf4e4133f677"
+    },
+    {
+      "file": "verify_attribute_node_projection.py",
+      "sha256": "0bdc20c3f61f99119bbdf00689805f2d6cda7d5e29844377e40fb3c3f3da2fe8"
+    },
+    {
+      "file": "lossless_wire.py",
+      "sha256": "9d725f9be88c4185419a306ef995e82a774d174a93912ffd381cced2d6ebb7a7"
+    }
+  ],
+  "header_assembled_or_written": false,
+  "no_target_or_playback_acceptance_claim": true,
+  "network_used": false,
+  "client_launched": false,
+  "raw_player_fields_emitted": false
+}

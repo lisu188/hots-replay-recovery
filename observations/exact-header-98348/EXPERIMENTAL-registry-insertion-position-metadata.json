@@ -1,0 +1,144 @@
+{
+  "XML_multiplicity_control_remains_failed": true,
+  "XML_multiplicity_control_used_or_passed": false,
+  "actual_RAM_vector_postconditions_checked": 2,
+  "authentic_target_header_obtained": false,
+  "base_header_sha256": "f115def2b9adbc67cfdd8bb4255cff1a8b44a8c921e98f56eebe20708660a7c9",
+  "client_launched": false,
+  "collection_observation_sha256": "0fa8a041fa8d6b9ba22ba6ff8be10d4f42beccc7d9577d0b6ead2d8e0fa909c9",
+  "current_registry_multiplicity_proven": false,
+  "format": "hots-EXPERIMENTAL-registry-position-hypothesis-v1",
+  "full_header_SHA_only_acceptance": "f644ce88b9d1a1c15af40be380be285f3d2ffcaf901dc9c15da367e763ee75c0",
+  "intervals": [
+    {
+      "current_unique_index": 541,
+      "id": 1064006,
+      "lower_gap": 545,
+      "prior_immediate_next_id": 26117,
+      "prior_immediate_previous_id": 19859,
+      "prior_raw_index": 543,
+      "upper_gap": 545
+    },
+    {
+      "current_unique_index": 886,
+      "id": 1064007,
+      "lower_gap": 893,
+      "prior_immediate_next_id": 18671,
+      "prior_immediate_previous_id": 27359,
+      "prior_raw_index": 890,
+      "upper_gap": 893
+    },
+    {
+      "current_unique_index": 1492,
+      "id": 1063867,
+      "lower_gap": 1501,
+      "prior_immediate_next_id": 38763,
+      "prior_immediate_previous_id": 10975,
+      "prior_raw_index": 1498,
+      "upper_gap": 1502
+    },
+    {
+      "current_unique_index": 1862,
+      "id": 1064026,
+      "lower_gap": 1875,
+      "prior_immediate_next_id": 24678,
+      "prior_immediate_previous_id": 19976,
+      "prior_raw_index": 1870,
+      "upper_gap": 1875
+    },
+    {
+      "current_unique_index": 2709,
+      "id": 1063868,
+      "lower_gap": 2733,
+      "prior_immediate_next_id": 24829,
+      "prior_immediate_previous_id": 53430,
+      "prior_raw_index": 2726,
+      "upper_gap": 2733
+    },
+    {
+      "current_unique_index": 3245,
+      "id": 1063886,
+      "lower_gap": 3272,
+      "prior_immediate_next_id": 17937,
+      "prior_immediate_previous_id": 30205,
+      "prior_raw_index": 3265,
+      "upper_gap": 3272
+    },
+    {
+      "current_unique_index": 4187,
+      "id": 1063866,
+      "lower_gap": 4227,
+      "prior_immediate_next_id": 53389,
+      "prior_immediate_previous_id": 52109,
+      "prior_raw_index": 4219,
+      "upper_gap": 4227
+    },
+    {
+      "current_unique_index": 4191,
+      "id": 1063869,
+      "lower_gap": 4230,
+      "prior_immediate_next_id": 19666,
+      "prior_immediate_previous_id": 24901,
+      "prior_raw_index": 4223,
+      "upper_gap": 4230
+    },
+    {
+      "current_unique_index": 5068,
+      "id": 1063346,
+      "lower_gap": 5130,
+      "prior_immediate_next_id": 49745,
+      "prior_immediate_previous_id": 19695,
+      "prior_raw_index": 5123,
+      "upper_gap": 5130
+    }
+  ],
+  "limitations": [
+    "This is the explicitly authorized unchanged65662+one occurrence per9historically observed IDs hypothesis.",
+    "The failed rawXML multiplicity control is not repaired or overridden by this model.",
+    "Raw5497 length and duplicate multiplicities are hypotheses; only an exact complete advertised f644SHA may authenticate assembled bytes.",
+    "Position tuples are gaps BEFORE the original5488-array element; all indices are unshifted. Gaps may equal len(base).",
+    "Two alternatives are retained even if prior neighboring literals favor one. No header or registry body is written."
+  ],
+  "new_ids_in_current_order": [
+    1064006,
+    1064007,
+    1063867,
+    1064026,
+    1063868,
+    1063886,
+    1063866,
+    1063869,
+    1063346
+  ],
+  "player_values_read_or_emitted": false,
+  "position_tuple_count": 2,
+  "position_tuples": [
+    [
+      545,
+      893,
+      1501,
+      1875,
+      2733,
+      3272,
+      4227,
+      4230,
+      5130
+    ],
+    [
+      545,
+      893,
+      1502,
+      1875,
+      2733,
+      3272,
+      4227,
+      4230,
+      5130
+    ]
+  ],
+  "prior_header_sha256": "29f66c9eca1844826ad55f63eb8fd32a2d6e74ddb7931a8e835fb951f58e184d",
+  "raw_candidate_count_HYPOTHESIS": 5497,
+  "registry_body_header_or_replay_written": false,
+  "search_nodes": 17,
+  "source_producer_sha256": "f2d8fd373991fd7e03264f03379e29121b2e14bbbe01e01bde5e37cb2b108bfd"
+}

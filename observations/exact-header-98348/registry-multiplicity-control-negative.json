@@ -1,0 +1,1102 @@
+{
+  "all_mismatching_XML_declarations_and_flags": [
+    {
+      "License_field_index": 0,
+      "record": {
+        "declaration_index": 222,
+        "default": null,
+        "fields": {
+          "License": [
+            {
+              "attributes": {
+                "value": "17748"
+              },
+              "direct_literal_candidate": true,
+              "numeric_value": 17748,
+              "unresolved": []
+            }
+          ]
+        },
+        "id": "AbathurA2",
+        "parent": "StormAnnouncer",
+        "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/announcers/genjiannouncervodata.xml",
+        "type": "CRewardAnnouncerPack",
+        "unresolved": [
+          "parent_inheritance_not_resolved"
+        ],
+        "xml_child_ordinal": 1
+      },
+      "source_bytes": 25202,
+      "source_sha256": "210a522aba6a6022dd192dbedf54f626ad7d5fbccd4bf72b0c02f33598edbe91"
+    },
+    {
+      "License_field_index": 0,
+      "record": {
+        "declaration_index": 304,
+        "default": null,
+        "fields": {
+          "License": [
+            {
+              "attributes": {
+                "value": "17748"
+              },
+              "direct_literal_candidate": true,
+              "numeric_value": 17748,
+              "unresolved": []
+            }
+          ]
+        },
+        "id": "AbathurA",
+        "parent": "StormAnnouncer",
+        "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/abathurdata/abathursounddata/abathurbasevodata.xml",
+        "type": "CRewardAnnouncerPack",
+        "unresolved": [
+          "parent_inheritance_not_resolved"
+        ],
+        "xml_child_ordinal": 1
+      },
+      "source_bytes": 75718,
+      "source_sha256": "673ab2e4502dc7856b49ef673a77eb28376f08f7673343134734fd1b8ef6b6ba"
+    },
+    {
+      "License_field_index": 0,
+      "record": {
+        "declaration_index": 735,
+        "default": null,
+        "fields": {
+          "License": [
+            {
+              "attributes": {
+                "value": "10975"
+              },
+              "direct_literal_candidate": true,
+              "numeric_value": 10975,
+              "unresolved": []
+            }
+          ]
+        },
+        "id": "ButcherToys21Var1",
+        "parent": null,
+        "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/butcherdata/butcherskindata/butchertoys21data/butchertoys21var1data.xml",
+        "type": "CRewardSkin",
+        "unresolved": [],
+        "xml_child_ordinal": 2
+      },
+      "source_bytes": 2540,
+      "source_sha256": "3ed4b41569189f724a47a4618ab71009efe6167f2b28d4da736596d32802e2ed"
+    },
+    {
+      "License_field_index": 0,
+      "record": {
+        "declaration_index": 737,
+        "default": null,
+        "fields": {
+          "License": [
+            {
+              "attributes": {
+                "value": "10975"
+              },
+              "direct_literal_candidate": true,
+              "numeric_value": 10975,
+              "unresolved": []
+            }
+          ]
+        },
+        "id": "ButcherToys21Var2",
+        "parent": null,
+        "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/butcherdata/butcherskindata/butchertoys21data/butchertoys21var2data.xml",
+        "type": "CRewardSkin",
+        "unresolved": [],
+        "xml_child_ordinal": 2
+      },
+      "source_bytes": 2540,
+      "source_sha256": "78111f6e2e39742a23e60830c1429c625c10a874cd094bd40dda15630885e31a"
+    },
+    {
+      "License_field_index": 0,
+      "record": {
+        "declaration_index": 739,
+        "default": null,
+        "fields": {
+          "License": [
+            {
+              "attributes": {
+                "value": "10975"
+              },
+              "direct_literal_candidate": true,
+              "numeric_value": 10975,
+              "unresolved": []
+            }
+          ]
+        },
+        "id": "ButcherToys21Var3",
+        "parent": null,
+        "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/butcherdata/butcherskindata/butchertoys21data/butchertoys21var3data.xml",
+        "type": "CRewardSkin",
+        "unresolved": [],
+        "xml_child_ordinal": 2
+      },
+      "source_bytes": 2459,
+      "source_sha256": "f89b0d710bbf361e409d1a446600e140b283c2353a80e3dd3294a90c4b26dbef"
+    },
+    {
+      "License_field_index": 0,
+      "record": {
+        "declaration_index": 741,
+        "default": null,
+        "fields": {
+          "License": [
+            {
+              "attributes": {
+                "value": "10975"
+              },
+              "direct_literal_candidate": true,
+              "numeric_value": 10975,
+              "unresolved": []
+            }
+          ]
+        },
+        "id": "ButcherToys21Var4",
+        "parent": null,
+        "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/butcherdata/butcherskindata/butchertoys21data/butchertoys21var4data.xml",
+        "type": "CRewardSkin",
+        "unresolved": [],
+        "xml_child_ordinal": 2
+      },
+      "source_bytes": 2459,
+      "source_sha256": "0fa06a28a2e63e03ab0b40b89fa98ae2e6d0ae4cd9809d7a565aba1b934143ae"
+    },
+    {
+      "License_field_index": 0,
+      "record": {
+        "declaration_index": 1177,
+        "default": null,
+        "fields": {
+          "License": [
+            {
+              "attributes": {
+                "value": "10975"
+              },
+              "direct_literal_candidate": true,
+              "numeric_value": 10975,
+              "unresolved": []
+            }
+          ]
+        },
+        "id": "GreymaneEnforcerVar2",
+        "parent": null,
+        "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/genndata/gennskindata/gennenforcerdata/gennenforcervar2data.xml",
+        "type": "CRewardSkin",
+        "unresolved": [],
+        "xml_child_ordinal": 6
+      },
+      "source_bytes": 5614,
+      "source_sha256": "99998721b932d966452ca5322f1be0a5c84424f8bdeda65abb932d1f0d34fcb0"
+    },
+    {
+      "License_field_index": 0,
+      "record": {
+        "declaration_index": 2100,
+        "default": null,
+        "fields": {
+          "License": [
+            {
+              "attributes": {
+                "value": "10975"
+              },
+              "direct_literal_candidate": true,
+              "numeric_value": 10975,
+              "unresolved": []
+            }
+          ]
+        },
+        "id": "RaynorBaseVar3",
+        "parent": null,
+        "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/raynordata/raynorskindata/raynorbasedata/raynorvar3data.xml",
+        "type": "CRewardSkin",
+        "unresolved": [],
+        "xml_child_ordinal": 4
+      },
+      "source_bytes": 2570,
+      "source_sha256": "2c2d7db0e0573d4005084bb299fc98f66b2dda6dfc2b63d5936a8c206a07531e"
+    },
+    {
+      "License_field_index": 0,
+      "record": {
+        "declaration_index": 2102,
+        "default": null,
+        "fields": {
+          "License": [
+            {
+              "attributes": {
+                "value": "10975"
+              },
+              "direct_literal_candidate": true,
+              "numeric_value": 10975,
+              "unresolved": []
+            }
+          ]
+        },
+        "id": "RaynorBaseVar4",
+        "parent": null,
+        "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/raynordata/raynorskindata/raynorbasedata/raynorvar4data.xml",
+        "type": "CRewardSkin",
+        "unresolved": [],
+        "xml_child_ordinal": 4
+      },
+      "source_bytes": 2570,
+      "source_sha256": "bf7f91b01943d3efef1b52ee2e2a4336f50e4c69ed67436d9fc4dab024ad077b"
+    },
+    {
+      "License_field_index": 0,
+      "record": {
+        "declaration_index": 2887,
+        "default": null,
+        "fields": {
+          "License": [
+            {
+              "attributes": {
+                "value": "10975"
+              },
+              "direct_literal_candidate": true,
+              "numeric_value": 10975,
+              "unresolved": []
+            }
+          ]
+        },
+        "id": "WitchDoctorSkinVar3",
+        "parent": null,
+        "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/witchdoctordata/witchdoctorskindata/witchdoctorbasedata/witchdoctorvar3data.xml",
+        "type": "CRewardSkin",
+        "unresolved": [],
+        "xml_child_ordinal": 5
+      },
+      "source_bytes": 2726,
+      "source_sha256": "4a291faa20029e3fcca39b81d24a8f5f96115bbe8b56f54e6c9a31d544437adf"
+    },
+    {
+      "License_field_index": 0,
+      "record": {
+        "declaration_index": 3807,
+        "default": null,
+        "fields": {
+          "License": [
+            {
+              "attributes": {
+                "value": "10975"
+              },
+              "direct_literal_candidate": true,
+              "numeric_value": 10975,
+              "unresolved": []
+            }
+          ]
+        },
+        "id": "SprayStaticEnforcerJohanna",
+        "parent": null,
+        "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/lootbox/sprays/spraystaticenforcerjohanna.xml",
+        "type": "CRewardSpray",
+        "unresolved": [
+          "duplicate_record_identity_catalog_order_not_resolved"
+        ],
+        "xml_child_ordinal": 0
+      },
+      "source_bytes": 481,
+      "source_sha256": "bb93dcaf02b1025a6bb9b8d76a59e1d5da4f0d0260674d19aa220fb84d418a30"
+    },
+    {
+      "License_field_index": 0,
+      "record": {
+        "declaration_index": 4706,
+        "default": null,
+        "fields": {
+          "License": [
+            {
+              "attributes": {
+                "value": "10975"
+              },
+              "direct_literal_candidate": true,
+              "numeric_value": 10975,
+              "unresolved": []
+            }
+          ]
+        },
+        "id": "MountCatFireVar3",
+        "parent": null,
+        "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mountcatfiredata/mount_ride_catfirevar3data.xml",
+        "type": "CRewardMount",
+        "unresolved": [],
+        "xml_child_ordinal": 2
+      },
+      "source_bytes": 1435,
+      "source_sha256": "fbe54f356ab1fd1900a5240a154ece2768c0d55916c205c164a7aac6391be6d9"
+    },
+    {
+      "License_field_index": 0,
+      "record": {
+        "declaration_index": 4709,
+        "default": null,
+        "fields": {
+          "License": [
+            {
+              "attributes": {
+                "value": "10975"
+              },
+              "direct_literal_candidate": true,
+              "numeric_value": 10975,
+              "unresolved": []
+            }
+          ]
+        },
+        "id": "MountCatFireVar4",
+        "parent": null,
+        "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mountcatfiredata/mount_ride_catfirevar4data.xml",
+        "type": "CRewardMount",
+        "unresolved": [],
+        "xml_child_ordinal": 2
+      },
+      "source_bytes": 1435,
+      "source_sha256": "afbeb00ef78c08dc4ce013e358781325c1ec9dd5bc8c559614d0b0f18fc5f856"
+    },
+    {
+      "License_field_index": 0,
+      "record": {
+        "declaration_index": 5089,
+        "default": null,
+        "fields": {
+          "License": [
+            {
+              "attributes": {
+                "value": "10975"
+              },
+              "direct_literal_candidate": true,
+              "numeric_value": 10975,
+              "unresolved": []
+            }
+          ]
+        },
+        "id": "MountLion_Rank16_00_Var4",
+        "parent": "PromoMountRewardParent",
+        "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mountlionrank16basedata/mount_ride_lionrank16var4data.xml",
+        "type": "CRewardMount",
+        "unresolved": [
+          "parent_inheritance_not_resolved"
+        ],
+        "xml_child_ordinal": 2
+      },
+      "source_bytes": 2001,
+      "source_sha256": "626303851d01d4269d674390fbd866b595ee1ef42ed2e404ba75c1dc37b89ede"
+    },
+    {
+      "License_field_index": 0,
+      "record": {
+        "declaration_index": 5092,
+        "default": null,
+        "fields": {
+          "License": [
+            {
+              "attributes": {
+                "value": "10975"
+              },
+              "direct_literal_candidate": true,
+              "numeric_value": 10975,
+              "unresolved": []
+            }
+          ]
+        },
+        "id": "MountLion_Rank16_00_Var5",
+        "parent": null,
+        "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mountlionrank16basedata/mount_ride_lionrank16var5data.xml",
+        "type": "CRewardMount",
+        "unresolved": [],
+        "xml_child_ordinal": 2
+      },
+      "source_bytes": 1975,
+      "source_sha256": "dff025cfb4e7713d3fdb73692836f4315c174600c7e7f53d46e2a6e0e8308206"
+    },
+    {
+      "License_field_index": 0,
+      "record": {
+        "declaration_index": 5105,
+        "default": null,
+        "fields": {
+          "License": [
+            {
+              "attributes": {
+                "value": "10975"
+              },
+              "direct_literal_candidate": true,
+              "numeric_value": 10975,
+              "unresolved": []
+            }
+          ]
+        },
+        "id": "MountLion_Rank16_01_Var3",
+        "parent": null,
+        "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mountlionrank16epicdata/mount_ride_lionrank16epicvar3data.xml",
+        "type": "CRewardMount",
+        "unresolved": [],
+        "xml_child_ordinal": 3
+      },
+      "source_bytes": 1834,
+      "source_sha256": "ba8cc37c26f7e4924bffdcb62b01b060aaecaa50c93f1f2e1e2406fc17c9f086"
+    },
+    {
+      "License_field_index": 0,
+      "record": {
+        "declaration_index": 5108,
+        "default": null,
+        "fields": {
+          "License": [
+            {
+              "attributes": {
+                "value": "10975"
+              },
+              "direct_literal_candidate": true,
+              "numeric_value": 10975,
+              "unresolved": []
+            }
+          ]
+        },
+        "id": "MountLion_Rank16_01_Var4",
+        "parent": null,
+        "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mountlionrank16epicdata/mount_ride_lionrank16epicvar4data.xml",
+        "type": "CRewardMount",
+        "unresolved": [],
+        "xml_child_ordinal": 2
+      },
+      "source_bytes": 1973,
+      "source_sha256": "76379c4a3d2ada6e817d7d8c9014074b0fe6aff78321506eb5a1bfd165f6f690"
+    },
+    {
+      "License_field_index": 0,
+      "record": {
+        "declaration_index": 5111,
+        "default": null,
+        "fields": {
+          "License": [
+            {
+              "attributes": {
+                "value": "10975"
+              },
+              "direct_literal_candidate": true,
+              "numeric_value": 10975,
+              "unresolved": []
+            }
+          ]
+        },
+        "id": "MountLion_Rank16_01_Var5",
+        "parent": null,
+        "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mountlionrank16epicdata/mount_ride_lionrank16epicvar5data.xml",
+        "type": "CRewardMount",
+        "unresolved": [],
+        "xml_child_ordinal": 2
+      },
+      "source_bytes": 1979,
+      "source_sha256": "48cb920778257ac03a9d920b12b804802bfc95e087124fd36be1f74f549ed393"
+    },
+    {
+      "License_field_index": 0,
+      "record": {
+        "declaration_index": 5277,
+        "default": null,
+        "fields": {
+          "License": [
+            {
+              "attributes": {
+                "value": "10975"
+              },
+              "direct_literal_candidate": true,
+              "numeric_value": 10975,
+              "unresolved": []
+            }
+          ]
+        },
+        "id": "MountPig_Rank18_00Var3",
+        "parent": null,
+        "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mountpigrank18basedata/mount_ride_pigrank18var3data.xml",
+        "type": "CRewardMount",
+        "unresolved": [],
+        "xml_child_ordinal": 2
+      },
+      "source_bytes": 1751,
+      "source_sha256": "14cab1097c5c7cc329f05de4878930aa4a2bfc6b82a8a3097cb05620313bca46"
+    },
+    {
+      "License_field_index": 0,
+      "record": {
+        "declaration_index": 5280,
+        "default": null,
+        "fields": {
+          "License": [
+            {
+              "attributes": {
+                "value": "10975"
+              },
+              "direct_literal_candidate": true,
+              "numeric_value": 10975,
+              "unresolved": []
+            }
+          ]
+        },
+        "id": "MountPig_Rank18_00Var4",
+        "parent": null,
+        "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mountpigrank18basedata/mount_ride_pigrank18var4data.xml",
+        "type": "CRewardMount",
+        "unresolved": [],
+        "xml_child_ordinal": 2
+      },
+      "source_bytes": 1485,
+      "source_sha256": "fecf7df424a157b2bb4c0c0beb8769122161ca0de69c2947144407ec522ad1e7"
+    },
+    {
+      "License_field_index": 0,
+      "record": {
+        "declaration_index": 5292,
+        "default": null,
+        "fields": {
+          "License": [
+            {
+              "attributes": {
+                "value": "10975"
+              },
+              "direct_literal_candidate": true,
+              "numeric_value": 10975,
+              "unresolved": []
+            }
+          ]
+        },
+        "id": "MountPig_Rank18_01Var3",
+        "parent": null,
+        "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mountpigrank18epicdata/mount_ride_pigrank18epicvar3data.xml",
+        "type": "CRewardMount",
+        "unresolved": [],
+        "xml_child_ordinal": 2
+      },
+      "source_bytes": 1751,
+      "source_sha256": "e7836d461e23a18478ede47ee9723bfbd965a26546b9e88be61de395552e8580"
+    },
+    {
+      "License_field_index": 0,
+      "record": {
+        "declaration_index": 5295,
+        "default": null,
+        "fields": {
+          "License": [
+            {
+              "attributes": {
+                "value": "10975"
+              },
+              "direct_literal_candidate": true,
+              "numeric_value": 10975,
+              "unresolved": []
+            }
+          ]
+        },
+        "id": "MountPig_Rank18_01Var4",
+        "parent": null,
+        "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mountpigrank18epicdata/mount_ride_pigrank18epicvar4data.xml",
+        "type": "CRewardMount",
+        "unresolved": [],
+        "xml_child_ordinal": 2
+      },
+      "source_bytes": 1485,
+      "source_sha256": "cd00ea0564bdb1b631b6d3bf9e8b70a6bbad8bd4f93989e8cb16899b9e0b5455"
+    },
+    {
+      "License_field_index": 0,
+      "record": {
+        "declaration_index": 5350,
+        "default": null,
+        "fields": {
+          "License": [
+            {
+              "attributes": {
+                "value": "10975"
+              },
+              "direct_literal_candidate": true,
+              "numeric_value": 10975,
+              "unresolved": []
+            }
+          ]
+        },
+        "id": "MountRamWCAV_00",
+        "parent": null,
+        "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mountramwcavbasedata/mount_ride_ramwcavbasedata.xml",
+        "type": "CRewardIcon",
+        "unresolved": [],
+        "xml_child_ordinal": 3
+      },
+      "source_bytes": 24845,
+      "source_sha256": "0ffedb0b9bc7357a54e265a0ff2d1c0b6499f616dd6abb9c1e5e719f27bee052"
+    },
+    {
+      "License_field_index": 0,
+      "record": {
+        "declaration_index": 5581,
+        "default": null,
+        "fields": {
+          "License": [
+            {
+              "attributes": {
+                "value": "10975"
+              },
+              "direct_literal_candidate": true,
+              "numeric_value": 10975,
+              "unresolved": []
+            }
+          ]
+        },
+        "id": "MountSpiderEnforcerVar2",
+        "parent": null,
+        "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mountspiderenforcerdata/mount_ridebeast_spiderenforcervar2data.xml",
+        "type": "CRewardMount",
+        "unresolved": [],
+        "xml_child_ordinal": 2
+      },
+      "source_bytes": 1575,
+      "source_sha256": "f2bca8040cb9129b82a845400ee4345e9510e1aa4089cf7666ceac573561919b"
+    },
+    {
+      "License_field_index": 0,
+      "record": {
+        "declaration_index": 5584,
+        "default": null,
+        "fields": {
+          "License": [
+            {
+              "attributes": {
+                "value": "10975"
+              },
+              "direct_literal_candidate": true,
+              "numeric_value": 10975,
+              "unresolved": []
+            }
+          ]
+        },
+        "id": "MountSpiderEnforcerVar3",
+        "parent": null,
+        "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mountspiderenforcerdata/mount_ridebeast_spiderenforcervar3data.xml",
+        "type": "CRewardMount",
+        "unresolved": [],
+        "xml_child_ordinal": 2
+      },
+      "source_bytes": 1575,
+      "source_sha256": "2b82eb6b0c3127ce6ed0455bd517e912cbbd34efc0968251580080fb08364e84"
+    },
+    {
+      "License_field_index": 0,
+      "record": {
+        "declaration_index": 5663,
+        "default": null,
+        "fields": {
+          "License": [
+            {
+              "attributes": {
+                "value": "10975"
+              },
+              "direct_literal_candidate": true,
+              "numeric_value": 10975,
+              "unresolved": []
+            }
+          ]
+        },
+        "id": "MountCoastalSharkShark18Surfboard",
+        "parent": null,
+        "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mountsurfshark18data/mount_ridesurf_surfshark18var1data.xml",
+        "type": "CRewardMount",
+        "unresolved": [
+          "duplicate_record_identity_catalog_order_not_resolved"
+        ],
+        "xml_child_ordinal": 2
+      },
+      "source_bytes": 1284,
+      "source_sha256": "01a5d0c0a5a3263ad31a1d9b3573dac12a8b01a41241399a84375dcbc12d7c4d"
+    },
+    {
+      "License_field_index": 0,
+      "record": {
+        "declaration_index": 5669,
+        "default": null,
+        "fields": {
+          "License": [
+            {
+              "attributes": {
+                "value": "10975"
+              },
+              "direct_literal_candidate": true,
+              "numeric_value": 10975,
+              "unresolved": []
+            }
+          ]
+        },
+        "id": "MountCoastalSharkShark18Surfboard",
+        "parent": null,
+        "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mountsurfshark18data/mount_ridesurf_surfshark18var3data.xml",
+        "type": "CRewardMount",
+        "unresolved": [
+          "duplicate_record_identity_catalog_order_not_resolved"
+        ],
+        "xml_child_ordinal": 2
+      },
+      "source_bytes": 1284,
+      "source_sha256": "025895edcf41c063faf3150a3e808f8ad2ddc9deb7d07931f6dda55d1930af27"
+    },
+    {
+      "License_field_index": 0,
+      "record": {
+        "declaration_index": 5819,
+        "default": null,
+        "fields": {
+          "License": [
+            {
+              "attributes": {
+                "value": "10975"
+              },
+              "direct_literal_candidate": true,
+              "numeric_value": 10975,
+              "unresolved": []
+            }
+          ]
+        },
+        "id": "MountWolfWCAV_00",
+        "parent": null,
+        "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mountwolfwcavbasedata/mount_ride_wolfwcavbasedata.xml",
+        "type": "CRewardIcon",
+        "unresolved": [],
+        "xml_child_ordinal": 3
+      },
+      "source_bytes": 18470,
+      "source_sha256": "a2b805f29ad1859d718373c11e3f3da380b008d96fd559e6a1d36e317d6fbae8"
+    },
+    {
+      "License_field_index": 0,
+      "record": {
+        "declaration_index": 6016,
+        "default": null,
+        "fields": {
+          "License": [
+            {
+              "attributes": {
+                "value": "10975"
+              },
+              "direct_literal_candidate": true,
+              "numeric_value": 10975,
+              "unresolved": []
+            }
+          ]
+        },
+        "id": "HeroesDummyProduct1",
+        "parent": null,
+        "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/rewarddata.xml",
+        "type": "CRewardIcon",
+        "unresolved": [],
+        "xml_child_ordinal": 218
+      },
+      "source_bytes": 497505,
+      "source_sha256": "873eaf657fd2dad08ee4aac44e9cbf8368852cc96ae57e16a709d9c9be917b1d"
+    },
+    {
+      "License_field_index": 0,
+      "record": {
+        "declaration_index": 8144,
+        "default": null,
+        "fields": {
+          "License": [
+            {
+              "attributes": {
+                "value": "10975"
+              },
+              "direct_literal_candidate": true,
+              "numeric_value": 10975,
+              "unresolved": []
+            }
+          ]
+        },
+        "id": "AmazonBaseVar4",
+        "parent": null,
+        "source": "mods/heromods/amazon.stormmod/base.stormdata/gamedata/amazonskindata/amazonbasedata/amazonvar4data.xml",
+        "type": "CRewardSkin",
+        "unresolved": [],
+        "xml_child_ordinal": 3
+      },
+      "source_bytes": 2602,
+      "source_sha256": "7662c77ba83b320d328f60b34031b30906840ce3d00251d414695484756421ec"
+    },
+    {
+      "License_field_index": 0,
+      "record": {
+        "declaration_index": 9117,
+        "default": null,
+        "fields": {
+          "License": [
+            {
+              "attributes": {
+                "value": "10975"
+              },
+              "direct_literal_candidate": true,
+              "numeric_value": 10975,
+              "unresolved": []
+            }
+          ]
+        },
+        "id": "ImperiusBaseVar3",
+        "parent": null,
+        "source": "mods/heromods/imperius.stormmod/base.stormdata/gamedata/imperiusskindata/imperiusbasedata/imperiusvar3data.xml",
+        "type": "CRewardSkin",
+        "unresolved": [],
+        "xml_child_ordinal": 3
+      },
+      "source_bytes": 3375,
+      "source_sha256": "07281c07dd2f2b94f8dd8fc6f080928f3ea3430a0d12e3e265903f9c5668fef5"
+    },
+    {
+      "License_field_index": 0,
+      "record": {
+        "declaration_index": 9120,
+        "default": null,
+        "fields": {
+          "License": [
+            {
+              "attributes": {
+                "value": "10975"
+              },
+              "direct_literal_candidate": true,
+              "numeric_value": 10975,
+              "unresolved": []
+            }
+          ]
+        },
+        "id": "ImperiusBaseVar4",
+        "parent": null,
+        "source": "mods/heromods/imperius.stormmod/base.stormdata/gamedata/imperiusskindata/imperiusbasedata/imperiusvar4data.xml",
+        "type": "CRewardSkin",
+        "unresolved": [],
+        "xml_child_ordinal": 3
+      },
+      "source_bytes": 3318,
+      "source_sha256": "84ac8170719efd026e8c327cc45799427638d7cea555fd2f5d53aa7b37102723"
+    },
+    {
+      "License_field_index": 0,
+      "record": {
+        "declaration_index": 9432,
+        "default": null,
+        "fields": {
+          "License": [
+            {
+              "attributes": {
+                "value": "10975"
+              },
+              "direct_literal_candidate": true,
+              "numeric_value": 10975,
+              "unresolved": []
+            }
+          ]
+        },
+        "id": "MedivhKnightOwlVar4",
+        "parent": null,
+        "source": "mods/heromods/medivh.stormmod/base.stormdata/gamedata/medivhskindata/medivhknightowldata/medivhknightowlvar4data.xml",
+        "type": "CRewardSkin",
+        "unresolved": [],
+        "xml_child_ordinal": 5
+      },
+      "source_bytes": 4211,
+      "source_sha256": "fedb479fffe76ce1cecb88d0425874d0fa1d66d99ddb3705d4fdd7f6d47728f7"
+    },
+    {
+      "License_field_index": 0,
+      "record": {
+        "declaration_index": 9493,
+        "default": null,
+        "fields": {
+          "License": [
+            {
+              "attributes": {
+                "value": "10975"
+              },
+              "direct_literal_candidate": true,
+              "numeric_value": 10975,
+              "unresolved": []
+            }
+          ]
+        },
+        "id": "MephistoBaseVar3",
+        "parent": null,
+        "source": "mods/heromods/mephisto.stormmod/base.stormdata/gamedata/mephistoskindata/mephistobasedata/mephistovar3data.xml",
+        "type": "CRewardSkin",
+        "unresolved": [],
+        "xml_child_ordinal": 3
+      },
+      "source_bytes": 3170,
+      "source_sha256": "1e2b6a653f0b698e1ad501b55953ee9a6b2b6b149010389dd5b291117a34e124"
+    },
+    {
+      "License_field_index": 0,
+      "record": {
+        "declaration_index": 9496,
+        "default": null,
+        "fields": {
+          "License": [
+            {
+              "attributes": {
+                "value": "10975"
+              },
+              "direct_literal_candidate": true,
+              "numeric_value": 10975,
+              "unresolved": []
+            }
+          ]
+        },
+        "id": "MephistoBaseVar4",
+        "parent": null,
+        "source": "mods/heromods/mephisto.stormmod/base.stormdata/gamedata/mephistoskindata/mephistobasedata/mephistovar4data.xml",
+        "type": "CRewardSkin",
+        "unresolved": [],
+        "xml_child_ordinal": 3
+      },
+      "source_bytes": 3172,
+      "source_sha256": "52679bfa4846404f185fb36486f18b7c7ce53bc76bfabc190707677a41cbef62"
+    },
+    {
+      "License_field_index": 0,
+      "record": {
+        "declaration_index": 9849,
+        "default": null,
+        "fields": {
+          "License": [
+            {
+              "attributes": {
+                "value": "10975"
+              },
+              "direct_literal_candidate": true,
+              "numeric_value": 10975,
+              "unresolved": []
+            }
+          ]
+        },
+        "id": "ValeeraBaseVar3",
+        "parent": null,
+        "source": "mods/heromods/valeera.stormmod/base.stormdata/gamedata/valeeraskindata/valeerabasedata/valeeravar3data.xml",
+        "type": "CRewardSkin",
+        "unresolved": [],
+        "xml_child_ordinal": 3
+      },
+      "source_bytes": 3133,
+      "source_sha256": "fdf618cadf3a932ac864a6369596497a028b702b35b758793208f71c0a135724"
+    },
+    {
+      "License_field_index": 0,
+      "record": {
+        "declaration_index": 9851,
+        "default": null,
+        "fields": {
+          "License": [
+            {
+              "attributes": {
+                "value": "10975"
+              },
+              "direct_literal_candidate": true,
+              "numeric_value": 10975,
+              "unresolved": []
+            }
+          ]
+        },
+        "id": "ValeeraBaseVar4",
+        "parent": null,
+        "source": "mods/heromods/valeera.stormmod/base.stormdata/gamedata/valeeraskindata/valeerabasedata/valeeravar4data.xml",
+        "type": "CRewardSkin",
+        "unresolved": [],
+        "xml_child_ordinal": 3
+      },
+      "source_bytes": 2971,
+      "source_sha256": "01ccbbb416970ccd9cb5d37ccff09b91276e3f736c93da39abcbbd69c9b674f9"
+    }
+  ],
+  "assumed_raw_current5497_count_established": false,
+  "cached_header_sha256": "f115def2b9adbc67cfdd8bb4255cff1a8b44a8c921e98f56eebe20708660a7c9",
+  "cached_package_id": 169992,
+  "cached_package_version": 65662,
+  "candidate_cap": 1024,
+  "candidate_space_size_established": null,
+  "candidate_vectors_generated": 0,
+  "client_launched": false,
+  "collection_observation_sha256": "0fa8a041fa8d6b9ba22ba6ff8be10d4f42beccc7d9577d0b6ead2d8e0fa909c9",
+  "current_XML_projection_sha256": "c8f03ddbc859feb5c2dc1836761201b5e6fea4632ce0325817abdd7299c8aa22",
+  "format": "hots-registry-multiplicity-control-and-insertion-refusal-v1",
+  "insertion_enumeration_status": "not-attempted-exact-multiplicity-control-failed",
+  "iterator_API_available_but_actual_prerequisite_refused": true,
+  "limitations": [
+    "All9 new observedIDs have one direct currentXML License occurrence, but the full unchanged-license multiplicity control fails.",
+    "The3 extra XML occurrences across2 existingIDs are retained with every declaration; no arbitrary duplicate, override or unloaded-file filter is applied.",
+    "Zero generated vectors means prerequisite refusal, not proof that the hypothetical insertion space is empty.",
+    "The iterator returns integer vectors only. It does not encode, patch, sign, save or authenticate package headers.",
+    "Any future candidate remains a hypothesis until the full advertised f644 content-addressed SHA matches."
+  ],
+  "missing_authentic_header_sha256": "f644ce88b9d1a1c15af40be380be285f3d2ffcaf901dc9c15da367e763ee75c0",
+  "private_player_values_read_or_emitted": false,
+  "raw_header_or_replay_written": false,
+  "scopes": {
+    "all_direct_CReward_License_fields": {
+      "XML_only_occurrence_differences": {
+        "10975": 2,
+        "17748": 1
+      },
+      "distinct_XML_License_count": 5419,
+      "distinct_package_count": 5409,
+      "exact_multiplicity_control_passed": false,
+      "excluded_nonregistry_XML_occurrences": {
+        "1209137": 1
+      },
+      "existing_unique_order_control_passed": true,
+      "filtered_XML_License_count": 5491,
+      "filtered_XML_distinct_count": 5409,
+      "missing_current_ID_XML_occurrences": {
+        "1063346": 1,
+        "1063866": 1,
+        "1063867": 1,
+        "1063868": 1,
+        "1063869": 1,
+        "1063886": 1,
+        "1064006": 1,
+        "1064007": 1,
+        "1064026": 1
+      },
+      "package_only_occurrence_differences": {},
+      "raw_XML_License_count": 5501,
+      "raw_package_count": 5488,
+      "single_occurrence_insertion_prerequisite_passed": false
+    },
+    "concrete_nondefault_direct_CReward_License_fields": {
+      "XML_only_occurrence_differences": {
+        "10975": 2,
+        "17748": 1
+      },
+      "distinct_XML_License_count": 5419,
+      "distinct_package_count": 5409,
+      "exact_multiplicity_control_passed": false,
+      "excluded_nonregistry_XML_occurrences": {
+        "1209137": 1
+      },
+      "existing_unique_order_control_passed": true,
+      "filtered_XML_License_count": 5491,
+      "filtered_XML_distinct_count": 5409,
+      "missing_current_ID_XML_occurrences": {
+        "1063346": 1,
+        "1063866": 1,
+        "1063867": 1,
+        "1063868": 1,
+        "1063869": 1,
+        "1063886": 1,
+        "1064006": 1,
+        "1064007": 1,
+        "1064026": 1
+      },
+      "package_only_occurrence_differences": {},
+      "raw_XML_License_count": 5501,
+      "raw_package_count": 5488,
+      "single_occurrence_insertion_prerequisite_passed": false
+    }
+  },
+  "single_occurrence_assumption_supported": false,
+  "source_producer_sha256": "5e252a35ad36fbece6c27f14667e46bedc071871f1c6a5d3453fea7580e3be50"
+}

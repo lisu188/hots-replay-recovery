@@ -1,0 +1,69 @@
+{
+  "format": "hots-exact-english-locale-index-binding-v1",
+  "prior_header_sha256": "f115def2b9adbc67cfdd8bb4255cff1a8b44a8c921e98f56eebe20708660a7c9",
+  "prior_locale_sha256": "93a59eb549173a0b74d3eb8cecfebcb92e2490878f76a08fdf72b65fc5ad8bf4",
+  "prior_locale_bytes": 211414,
+  "SHA_verified_before_XML_parse": true,
+  "prior_header_exact_advertised_enUS_handle_matches_locale": true,
+  "primary_s2ml_XML_format_url": "https://github.com/sc2-arcade-watcher/s2mdec/blob/b48c60a697b12ae1dc8681a2d42ce313958ce94a/s2m.go#L945-L978",
+  "primary_index_lookup_url": "https://github.com/sc2-arcade-watcher/s2mdec/blob/b48c60a697b12ae1dc8681a2d42ce313958ce94a/s2m.go#L988-L994",
+  "XML_entry_count": 5212,
+  "XML_node_count": 5213,
+  "XML_root": "Locale",
+  "XML_duplicate_ids": 0,
+  "field7_key_tables_all_zero": true,
+  "all_field7_nonzero_index_refs": {
+    "references": 99,
+    "distinct_old_indices": 99,
+    "old_indices_resolved_in_digest_bound_XML": 99,
+    "missing_old_indices": 0,
+    "nonempty_resolved_old_values": 99,
+    "resolved_values_unique_in_prior_entire_XML": 91,
+    "target_current_unique_text_candidates": null
+  },
+  "changed_99_index_refs": {
+    "references": 99,
+    "distinct_old_indices": 99,
+    "old_indices_resolved_in_digest_bound_XML": 99,
+    "missing_old_indices": 0,
+    "nonempty_resolved_old_values": 99,
+    "resolved_values_unique_in_prior_entire_XML": 91,
+    "target_current_unique_text_candidates": null
+  },
+  "exact_record0_current_score_name_match_records": 96,
+  "refs_in_exact_score_named_records": {
+    "references": 63,
+    "distinct_old_indices": 63,
+    "old_indices_resolved_in_digest_bound_XML": 63,
+    "missing_old_indices": 0,
+    "nonempty_resolved_old_values": 63,
+    "resolved_values_unique_in_prior_entire_XML": 57,
+    "target_current_unique_text_candidates": null
+  },
+  "current_locale_sha256": "2c248a08ceef7e63fc56448ef1a195d8fbbf26253e1d8c282939e6d7f51af44c",
+  "current_locale_cache_present": false,
+  "current_locale_http_status": 404,
+  "current_locale_available_for_text_join": false,
+  "current_index_recovery_performed": false,
+  "current_index_recoverability": "No current localized entries available; exact old-text-to-current-unique-text join cannot run. Prior-index resolution is a positive structural control only.",
+  "target_delta_inferred": false,
+  "header_candidates_generated": false,
+  "raw_locale_text_stat_values_or_player_fields_emitted": false,
+  "source_reports": [
+    {
+      "file": "two-english-locales-acquisition.json",
+      "sha256": "92cce0d7c4fd8ff4648e3b7e4f045460f73713a1c5c30dc169ce1115c30fc4f1"
+    },
+    {
+      "file": "prior-heroesdata-field7-delta-summary-v2.json",
+      "sha256": "f7ffbeb4f796e47fe7901e64c4aa6048f362bba4daf18370238e151bd7bcbdb4"
+    }
+  ],
+  "helper_sha256": "10dd7e0b0b179d690408a64ac555f02f809491b53c1c8e9457d2c2f5ab7a249a",
+  "client_launched": false,
+  "prior_XML_ids_form_exact_1_to_5212_range": true,
+  "field7_nonzero_keys_reference_exact_final99_locale_ids": true,
+  "old_nonunique_text_references": 8,
+  "current_unique_text_join_completed": false,
+  "other_locale_or_endpoint_requested": false
+}

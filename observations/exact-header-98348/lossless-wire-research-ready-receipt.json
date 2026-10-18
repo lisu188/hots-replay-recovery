@@ -1,0 +1,90 @@
+{
+  "format": "hots-lossless-wire-research-ready-receipt-v1",
+  "status": "ready-for-private-full-target-digest-gated-experiment",
+  "files": [
+    {
+      "name": "lossless_wire.py",
+      "bytes": 11513,
+      "sha256": "9d725f9be88c4185419a306ef995e82a774d174a93912ffd381cced2d6ebb7a7"
+    },
+    {
+      "name": "test_lossless_wire.py",
+      "bytes": 7880,
+      "sha256": "ad48664de1687698bb7fd3666ee5607518d479010b5a61e04947415b6b3c7788"
+    },
+    {
+      "name": "verify_lossless_wire.py",
+      "bytes": 4984,
+      "sha256": "8ccf0e4a62cd6d7966513d7fd7e71187f9ea06950f522d7ccfb878fe18e09067"
+    },
+    {
+      "name": "README_LOSSLESS_WIRE.md",
+      "bytes": 4941,
+      "sha256": "1cb982ef61188186a2cc475e52cf7685d1b8d04f14ea66a3c7fc90b0dcd66a41"
+    },
+    {
+      "name": "lossless-wire36-control-verification.json",
+      "bytes": 19965,
+      "sha256": "12d2381bf0a125d2d81d2ab4644942e488d44ea92e8982ef3300edcd22aab488"
+    }
+  ],
+  "primary_semantics": {
+    "repository": "Blizzard/heroprotocol",
+    "commit": "9af3ea7150f1a8acb53464c92519a9bbcc7a3594",
+    "path": "heroprotocol/decoders.py",
+    "task_local_source_sha256": "c5e4e7c588ebc2ef722ab9fd9def2e67e309c45d451639cfdee3126b0f616a42",
+    "relevant_lines": [
+      197,
+      270
+    ],
+    "wire_integer_encoding": "signed-magnitude, low first-octet sign bit"
+  },
+  "independent_generic_decoder_sha256": "4a2f5e7d6107860b397c0ad043d1f036509e4e3eb94b564226623a2c2392ae6b",
+  "focused_tests": {
+    "run": 21,
+    "passed": 21,
+    "skipped": 0
+  },
+  "authentic_control_checks": {
+    "headers": 36,
+    "original_eu": 5,
+    "cached_payload_match_candidates": 28,
+    "exact_current_us_handles": 3,
+    "header_bytes": 2598006,
+    "every_input_sha256_matches_content_handle": true,
+    "parse_encode_byte_exact": true,
+    "cloned_parse_encode_byte_exact": true,
+    "all_generic_values_equal_separate_decoder": true,
+    "all_source_digests_unchanged_after_read": true
+  },
+  "api": [
+    "parse(raw_bytes) -> Node",
+    "encode(node) -> bytes",
+    "clone(node) -> independent mutable Node",
+    "to_generic(node) -> depot_s2mh_wire compatible values",
+    "node.field(existing_integer_key) -> child Node",
+    "node.set_field(existing_integer_key, child_Node)"
+  ],
+  "preserved_distinctions": [
+    "wire tags0..9",
+    "struct field order and key spelling",
+    "choice tag and child",
+    "optional absence versus present child",
+    "counted blob2 versus fixed4-byte tag7 versus fixed8-byte tag8",
+    "bit-array count, raw bytes and unused bits",
+    "unmodified varint spellings including negativezero/nonminimal; changed values encoded canonically"
+  ],
+  "limits": {
+    "input_and_output_bytes": 2097152,
+    "nodes": 200000,
+    "depth": 64,
+    "counted_elements_bits_or_blob_bytes": 200000,
+    "varint_octets": 10
+  },
+  "raw_headers_private_values_or_candidate_bodies_emitted": false,
+  "target_header_reconstruction_proven": false,
+  "replay_conversion_or_playback_proven": false,
+  "new_network_requests": 0,
+  "client_launched": false,
+  "repo_or_existing_headers_modified": false
+}

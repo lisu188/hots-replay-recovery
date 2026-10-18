@@ -1,0 +1,21 @@
+{
+  "format": "hots-reconstruction-public-input-availability-v1",
+  "maximum_requests": 2,
+  "maximum_body_bytes_per_object": 524288,
+  "raw_objects_saved": false,
+  "client_launched": false,
+  "results": [
+    {
+      "url": "https://eu-s2-depot.classic.blizzard.com/29f66c9eca1844826ad55f63eb8fd32a2d6e74ddb7931a8e835fb951f58e184d.s2mh",
+      "expected_sha256": "29f66c9eca1844826ad55f63eb8fd32a2d6e74ddb7931a8e835fb951f58e184d",
+      "http_status": 404,
+      "body_read": false
+    },
+    {
+      "url": "https://eu-s2-depot.classic.blizzard.com/f115def2b9adbc67cfdd8bb4255cff1a8b44a8c921e98f56eebe20708660a7c9.s2mh",
+      "expected_sha256": "f115def2b9adbc67cfdd8bb4255cff1a8b44a8c921e98f56eebe20708660a7c9",
+      "http_status": 404,
+      "body_read": false
+    }
+  ]
+}

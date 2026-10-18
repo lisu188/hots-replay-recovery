@@ -1,0 +1,107 @@
+{
+  "format": "hots-attribute-projection-and-registry-hypothesis-independent-review-v1",
+  "status": "pass-for-bounded-full-target-digest-gated-experiment",
+  "material_findings": [],
+  "reviewed_files": [
+    {
+      "path": "header-reconstruction/battlelobby_header_attributes.py",
+      "bytes": 4741,
+      "sha256": "ce10b4ee3eeaacc1e6431f13291851e1f2fc2e8a8e3b3da5301a414d9749a868"
+    },
+    {
+      "path": "header-reconstruction/project_attribute_nodes.py",
+      "bytes": 4156,
+      "sha256": "73b3d94269a12c117613edb25f3fa590c2af8947b2de9f11bc7baf4e4133f677"
+    },
+    {
+      "path": "header-reconstruction/verify_attribute_node_projection.py",
+      "bytes": 5896,
+      "sha256": "0bdc20c3f61f99119bbdf00689805f2d6cda7d5e29844377e40fb3c3f3da2fe8"
+    },
+    {
+      "path": "header-reconstruction/attribute-wire-projection-controls.json",
+      "bytes": 4174,
+      "sha256": "7a3591d9d1fddc9795a0d3f6986b858883062a54718cc46a46d5812cc9cf9930"
+    },
+    {
+      "path": "header-reconstruction/lossless_wire.py",
+      "bytes": 11513,
+      "sha256": "9d725f9be88c4185419a306ef995e82a774d174a93912ffd381cced2d6ebb7a7"
+    },
+    {
+      "path": "collection-registry-ready/experimental_registry_merge.py",
+      "bytes": 7318,
+      "sha256": "f2d8fd373991fd7e03264f03379e29121b2e14bbbe01e01bde5e37cb2b108bfd"
+    },
+    {
+      "path": "collection-registry-ready/test_experimental_registry_merge.py",
+      "bytes": 2564,
+      "sha256": "b5ead6d84c132a9c55dc76b85367638f52ac15afee546abbe90b1dda85a554a3"
+    },
+    {
+      "path": "collection-registry-ready/EXPERIMENTAL-registry-insertion-position-metadata.json",
+      "bytes": 4168,
+      "sha256": "0286c50b772003b67eb52dad0aafaf1989abc429c5e3bf2d3fa684a3ab2eee5c"
+    },
+    {
+      "path": "collection-registry-ready/registry-multiplicity-control-negative.json",
+      "bytes": 34660,
+      "sha256": "d4b2b4a4a55f0cc21b9712267905b3ae4acdaf5d6ee451de22c0dbf6e8cf8da8"
+    }
+  ],
+  "fresh_authentic_attribute_controls": {
+    "source_replay_sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4",
+    "definitions": 73,
+    "Core": 58,
+    "Teams": 15,
+    "Heroes": 0,
+    "field5_wire_bytes_equal_all_three_authentic_headers": true,
+    "all_source_whole_headers_unchanged": true,
+    "all5_negative_controls_rejected": true,
+    "duplicate_projection_identities_absent_in_actual_source": true
+  },
+  "fresh_current_heroesdata_projection": {
+    "definitions": 14,
+    "values": 5165,
+    "wire_bytes": 182808,
+    "wire_sha256": "4bdecf19e9a86732877e6efc65a64b1e7e513c6e7e0761b8a7eea376bb2be41c",
+    "max_observed_localization_index": 5122,
+    "all_generic_fields_equal_replay_projection": true,
+    "template_source_unchanged": true,
+    "accepted_current_header": false
+  },
+  "fresh_experimental_registry_checks": {
+    "synthetic_tests_passed": 7,
+    "actual_position_metadata_matches_frozen": true,
+    "RAM_vectors": 2,
+    "raw_vector_lengths": [
+      5497,
+      5497
+    ],
+    "all_current_first_occurrence_order_exact5418": true,
+    "all5488base_values_and_multiplicities_unchanged": true,
+    "source_base_array_unchanged": true,
+    "new9singleton_multiplicity_proven_current": false,
+    "prior65661_single_occurrence_evidence_checked": true,
+    "failed_XML_multiplicity_control_remains_failed": true
+  },
+  "reviewed_mapping_guards": [
+    "Every projected attribute start/end equals the already decoded full attribute layer boundary.",
+    "Unknown nonempty value requirement fields are rejected.",
+    "Localization rebasing changes only structurally known keys and requires the expected global table index.",
+    "Node mapping requires existing definition identity/order and authenticated compatible field/optional/choice shapes, retains wire tags, and checks generic postcondition.",
+    "The iterator preserves both allowed position choices without selecting one using hypothetical prior-neighbor semantics."
+  ],
+  "whole_target_SHA256_required_for_any_reconstruction_acceptance": "f644ce88b9d1a1c15af40be380be285f3d2ffcaf901dc9c15da367e763ee75c0",
+  "limits": [
+    "The73controls authenticate the observed Core/Teams mapping; the currentHeroesData wholeheader remains unverified.",
+    "Known-template projection is evidence of compatible serialization, not a guarantee of exact target tags/layout; wholef644SHA is the acceptance gate.",
+    "Field7localization shift9 and registry5497/singleton multiplicities remain explicit experiment assumptions.",
+    "No timestamp, signature or creator field is inferred from these controls.",
+    "Assembly source/report was not present at this receipt; its final SHA guard requires separate review."
+  ],
+  "new_network_requests": 0,
+  "client_launched": false,
+  "raw_private_player_or_candidate_header_bodies_written": false,
+  "repo_or_source_replays_modified": false
+}

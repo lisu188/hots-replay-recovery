@@ -1,0 +1,194 @@
+{
+  "format": "hots-prior-heroesdata-field7-index-deltas-v1",
+  "inputs": [
+    {
+      "version": 65661,
+      "sha256": "29f66c9eca1844826ad55f63eb8fd32a2d6e74ddb7931a8e835fb951f58e184d",
+      "complete_wire_eof": true
+    },
+    {
+      "version": 65662,
+      "sha256": "f115def2b9adbc67cfdd8bb4255cff1a8b44a8c921e98f56eebe20708660a7c9",
+      "complete_wire_eof": true
+    }
+  ],
+  "field7_record_count": 139,
+  "field7_total_leaf_count": 2561,
+  "changed_integer_leaves": {
+    "count": 99,
+    "delta_histogram": {
+      "14": 99
+    },
+    "before_min": 5100,
+    "before_max": 5198,
+    "after_min": 5114,
+    "after_max": 5212
+  },
+  "changed_path_pattern": "root/0/7/<record_index>/2/<0-or-1>/2",
+  "changed_subfield_groups": {
+    "0": {
+      "count": 41,
+      "delta_histogram": {
+        "14": 41
+      },
+      "before_min": 5100,
+      "before_max": 5198,
+      "after_min": 5114,
+      "after_max": 5212
+    },
+    "1": {
+      "count": 58,
+      "delta_histogram": {
+        "14": 58
+      },
+      "before_min": 5104,
+      "before_max": 5183,
+      "after_min": 5118,
+      "after_max": 5197
+    }
+  },
+  "distinct_before_after_pairs": 99,
+  "each_changed_before_value_has_exactly_one_after_value": true,
+  "changed_pairs_strictly_monotone_when_sorted_by_before": true,
+  "delta_runs_sorted_by_prior_integer_value": [
+    {
+      "delta": 14,
+      "first_before_index": 5100,
+      "last_before_index": 5198,
+      "first_after_index": 5114,
+      "last_after_index": 5212,
+      "distinct_pairs": 99
+    }
+  ],
+  "unchanged_leaf_count": 2462,
+  "all_non_integer_leaves_equal": true,
+  "record_top_level_shape_census": [
+    {
+      "count": 14,
+      "fields": [
+        {
+          "key": 0,
+          "type": "bytes"
+        },
+        {
+          "key": 1,
+          "type": "dict"
+        },
+        {
+          "key": 2,
+          "type": "dict"
+        },
+        {
+          "key": 3,
+          "type": "list"
+        },
+        {
+          "key": 4,
+          "type": "int"
+        },
+        {
+          "key": 5,
+          "type": "int"
+        },
+        {
+          "key": 6,
+          "type": "NoneType"
+        },
+        {
+          "key": 7,
+          "type": "NoneType"
+        },
+        {
+          "key": 8,
+          "type": "NoneType"
+        },
+        {
+          "key": 9,
+          "type": "NoneType"
+        }
+      ]
+    },
+    {
+      "count": 125,
+      "fields": [
+        {
+          "key": 0,
+          "type": "bytes"
+        },
+        {
+          "key": 1,
+          "type": "dict"
+        },
+        {
+          "key": 2,
+          "type": "dict"
+        },
+        {
+          "key": 3,
+          "type": "list"
+        },
+        {
+          "key": 4,
+          "type": "int"
+        },
+        {
+          "key": 5,
+          "type": "int"
+        },
+        {
+          "key": 6,
+          "type": "NoneType"
+        },
+        {
+          "key": 7,
+          "type": "NoneType"
+        },
+        {
+          "key": 8,
+          "type": "NoneType"
+        },
+        {
+          "key": 9,
+          "type": "bytes"
+        }
+      ]
+    }
+  ],
+  "current_replay_sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4",
+  "tracker_stream_sha256": "129a09eff04b60e77232d1070f049c3d2ca809627dca9d1cb389ffe656b62e1b",
+  "current_score_result_events": 1,
+  "score_stat_name_count": 133,
+  "score_stat_distinct_name_count": 133,
+  "field7_whole_blob_leaves_checked": 264,
+  "field7_blob_exact_matches_to_score_stat_names": 97,
+  "exact_match_path_templates": {
+    "0": 96,
+    "9": 1
+  },
+  "numeric_or_substring_matches_used_as_binding": false,
+  "field7_target_values_or_name_semantics_proven": false,
+  "root7_named_parser_status": "Pinned s2mdec source leaves field7 as TODO score IDs/resultDefinitions; observed subtrees can be compared with the named readLocalizationTableKey shape but are not assigned semantic names here.",
+  "primary_source_url": "https://github.com/sc2-arcade-watcher/s2mdec/blob/b48c60a697b12ae1dc8681a2d42ce313958ce94a/s2m.go#L770-L775",
+  "unknown_insertion_count_or_target_offset_inferred": false,
+  "raw_player_names_or_score_values_emitted": false,
+  "headers_or_replays_generated": false,
+  "network_used": false,
+  "client_launched": false,
+  "field7_exact_record0_stat_name_matches": 96,
+  "field7_other_blob_matches": 1,
+  "affected_record_count": 81,
+  "affected_records_with_exact_record0_stat_name_match": 45,
+  "changed_subtrees_match_primary_LocalizationTableKey_shape": true,
+  "changed_subtree_table_fields_unchanged": true,
+  "changed_subtree_color_fields_unchanged": true,
+  "all_99_prior_index_values_form_contiguous_unique_range": true,
+  "all_99_after_index_values_form_contiguous_unique_range": true,
+  "source_record_names_or_other_blobs_changed_between_headers": false,
+  "current_tracker_schema_supplies_localization_table_indices": false,
+  "current_tail_named_score_stat_index_binding_available": false,
+  "interpretation": "The observed historical transition is exactly one +14 rank-preserving shift in subtrees matching the documented localization-key wire shape. Exact score-name joins identify96record names; this does not authenticate target65663localization indices or authorize applying+14again.",
+  "primary_localization_key_url": "https://github.com/sc2-arcade-watcher/s2mdec/blob/b48c60a697b12ae1dc8681a2d42ce313958ce94a/s2m.go#L188-L207",
+  "blizzard_schema_url": "https://github.com/Blizzard/heroprotocol/blob/9af3ea7150f1a8acb53464c92519a9bbcc7a3594/heroprotocol/versions/protocol96477.py#L221-L223",
+  "blizzard_schema_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+  "research_helper_sha256": "0c7dbd1f537c49f4d1e351c98f985eef7e4e8c00a22258540675da59e2a43f5c"
+}
