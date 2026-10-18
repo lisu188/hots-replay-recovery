@@ -638,3 +638,40 @@ CompleteofflineCI39169427494 atd3e0af9 also passed all3lanes894tests/44modules,
 fixture andgenuineEUcurrentcore/lobby checks executed. No privateCASC/history/
 realheaderrecovery or28vector/8endpoint researchtest claim inhostedCI. This
 receipt islaterbookkeeping outside the source-onlyd3e0af9ZIP.
+
+
+## Native serialization labels and preserved 41810 module evidence - 2026-10-19
+
+Read docs/NATIVE_AND_PRESERVED_41810_EVIDENCE_2026-10-19.md and the matching
+native-serialization, preserved41810, player-block-history and catalog receipts.
+Byte-only inspection binds the 53,573,840-byte current PE to SHA256 efdf5a2f...dca9.
+Independent checks reproduce all 320 selected literals, 11 contexts (33,666 bytes),
+29 RTTI structures, and the text-version/fixed-word distinction. Observed
+ClientLicensesList and BnetHeader neighborhoods establish no field membership,
+bit layout, ownership meaning or missing namespace value. Nine selected integer
+address scans have no matches. Investigate the embedded table/index grammar.
+No client image or DLL was loaded, no debugger/injection used, and no binary copied.
+
+Five preserved 2022 dump module/RSDS records identify the old 0.17.0.41810 image:
+size 89,478,144, checksum 45,759,189, timestamp 1458935250; PDB GUID
+7BF26548-FE37-4F3F-94F0-218512BDB807, age 49. The old executable/PDB body is unavailable.
+Only metadata and first 45 Error-header lines are decoded. Their generic
+NGDP:E_DATA_ERROR identifies neither an object nor its cause. Full input hashes
+are unchanged; root independently verifies first-module structures and headers.
+Memory streams, later diagnostic hex/session sections and Variables remain unread.
+
+Separate 15 manifest/NGDP/trace files total 13,364 bytes, read twice. Five identical
+740-byte manifests declare 88481, BuildKey 0534650161f366f2f048320d85b32893 and
+CDNKey c53d29ee65044954474c758516b15ab4. The old replay root is absent in those
+15 texts. Independent captured-read recomputation matches JSON and serialized
+bytes. These manifests do not establish which content the old executable loaded.
+Keep module identity, saved content manifest and replay root separate; no original
+41810 BuildConfig is recovered.
+
+The additional 6 catalog-route, 10 historical-archive and 8 player-history calls
+are scoped negative evidence. Unsupported endpoints do not imply source absence.
+No 41810 catalogs or internal 174-to-198-bit layout are admitted. Static research
+checks are local evidence, separate from unit/hosted CI and engine proof. Raw
+binaries, dumps, logs and private values remain outside Git. Original/R8 are
+unchanged, full migration remains unfinished, and no further guessed header
+recipe is supported. Frozen producer bytes are bound in publication-bindings.json.

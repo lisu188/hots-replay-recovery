@@ -1,0 +1,37 @@
+{
+  "schema": "legacy-catalog-archives-2016-frozen-receipt-v1",
+  "recorded_at_utc": "2026-10-18T22:03:35.872Z",
+  "allowlisted_files": [
+    {
+      "relative_file": "source-search-projection.json",
+      "size_bytes": 7654,
+      "sha256": "1f07525bc100407c26ab8682628935038d355417d9b14de59eb7f9803e02d449",
+      "json_parse_passed": true
+    },
+    {
+      "relative_file": "research-ledger.json",
+      "size_bytes": 5925,
+      "sha256": "0ee7996db1da297677668c576dfc7c15996d21a5cfe990bb4252ae01f5775732",
+      "json_parse_passed": true
+    }
+  ],
+  "verification": {
+    "both_saved_json_inputs_reopened_and_sha256_verified": true,
+    "ten_operation_sequence_verified": true,
+    "seven_returned_utf8_source_content_hashes_present": true,
+    "measured_connector_content_sum_bytes": 91299,
+    "web_search_envelope_byte_counts_unknown": 2,
+    "exact41810_or_2016_catalogs_admitted": 0,
+    "version_or_alias_mapping_claims": 0
+  },
+  "source_hash_scope": "SHA256 binds the exact UTF8 content returned by each successful GitHub connector fetch. Full raw API metadata is not saved; public file blob SHA1s and sanitized projections are retained.",
+  "limitations": [
+    "This is a scoped negative discovery receipt, not proof that no historical archive exists.",
+    "No catalog XML, repository archive or complete game archive was downloaded.",
+    "Search result transport bytes are not available; do not present 91299 as total network bytes."
+  ],
+  "not_performed": [
+    "No additional source requests after operation10.",
+    "No client launch, CDN key guess, replay/header write, repo or cloud mutation."
+  ]
+}

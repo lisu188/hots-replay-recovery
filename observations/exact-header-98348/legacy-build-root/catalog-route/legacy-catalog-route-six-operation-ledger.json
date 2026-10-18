@@ -1,0 +1,112 @@
+{
+  "format": "hots-six-operation-primary-catalog-route-v1",
+  "target": {
+    "version": "0.17.0.41810",
+    "build": 41810,
+    "root": "83d43a8647bb5ca5caa6f2f09064da55",
+    "source_registry_authenticated_header_sha256": "b34d0f30dc3b9cf47694982106a04006a49ce43422e02f71ed18b33b7bfcc6c4"
+  },
+  "maximum_primary_operations": 6,
+  "actual_primary_operations": 6,
+  "operations": [
+    {
+      "operation": 1,
+      "kind": "GitHub_connector_code_search",
+      "query": "LunaraSkinMaster",
+      "returned_result_count": 0,
+      "scope": "Connector search index, no exhaustive GitHub-global coverage claim"
+    },
+    {
+      "operation": 2,
+      "kind": "GitHub_tags_API_attempt",
+      "url": "https://api.github.com/repos/HeroesToolChest/heroes-data/tags?per_page=100",
+      "status": "connector_unsupported_endpoint",
+      "error_code": "INVALID_ARGUMENT"
+    },
+    {
+      "operation": 3,
+      "kind": "GitHub_dated_commit_API_query",
+      "url": "https://api.github.com/repos/HeroesToolChest/heroes-data/commits?until=2017-01-01T00%3A00%3A00Z&per_page=1",
+      "cutoff": "2017-01-01T00:00:00Z",
+      "returned_commits": 0,
+      "connector_content_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "scope": "default branch reachable history at retrieval; no explicit alternate ref"
+    },
+    {
+      "operation": 4,
+      "kind": "GitHub_dated_commit_API_query",
+      "url": "https://api.github.com/repos/jamiephan/HeroesOfTheStorm_GameData/commits?until=2017-01-01T00%3A00%3A00Z&per_page=1",
+      "cutoff": "2017-01-01T00:00:00Z",
+      "returned_commits": 0,
+      "connector_content_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "scope": "default branch reachable history at retrieval; no explicit alternate ref"
+    },
+    {
+      "operation": 5,
+      "kind": "GitHub_dated_commit_API_query",
+      "url": "https://api.github.com/repos/heroespatchnotes/heroes-talents/commits?until=2017-01-01T00%3A00%3A00Z&per_page=1",
+      "cutoff": "2017-01-01T00:00:00Z",
+      "returned_commits": 0,
+      "connector_content_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "scope": "default branch reachable history at retrieval; no explicit alternate ref"
+    },
+    {
+      "operation": 6,
+      "kind": "GitHub_one_level_version_directory",
+      "url": "https://api.github.com/repos/HeroesToolChest/heroes-data/contents/heroesdata",
+      "repository_ref_scope": "default branch at retrieval",
+      "entry_count": 133,
+      "projection_sha256": "5e669708e96462a2083386e80496a4afaae9640cb22e83fbb7801aa50d6573cd",
+      "projection_file": "heroesdata-version-directory-projection.json"
+    }
+  ],
+  "dated_commit_query_evidence": [
+    {
+      "operation": 3,
+      "url": "https://api.github.com/repos/HeroesToolChest/heroes-data/commits?until=2017-01-01T00%3A00%3A00Z&per_page=1",
+      "query_result": [],
+      "connector_returned_UTF8_content_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "repository_ref_scope": "default branch reachable history at retrieval; no explicit alternate ref"
+    },
+    {
+      "operation": 4,
+      "url": "https://api.github.com/repos/jamiephan/HeroesOfTheStorm_GameData/commits?until=2017-01-01T00%3A00%3A00Z&per_page=1",
+      "query_result": [],
+      "connector_returned_UTF8_content_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "repository_ref_scope": "default branch reachable history at retrieval; no explicit alternate ref"
+    },
+    {
+      "operation": 5,
+      "url": "https://api.github.com/repos/heroespatchnotes/heroes-talents/commits?until=2017-01-01T00%3A00%3A00Z&per_page=1",
+      "query_result": [],
+      "connector_returned_UTF8_content_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "repository_ref_scope": "default branch reachable history at retrieval; no explicit alternate ref"
+    }
+  ],
+  "version_directory_coverage": {
+    "listed_directories": 133,
+    "all_entries_are_directories": true,
+    "first_listed_version": "2.47.2.76003",
+    "lowest_build_in_list": 76003,
+    "highest_build_in_list": 97039,
+    "contains_exact_target_version": false,
+    "contains_any41810_version": false,
+    "lower_bound_version_directory_git_tree_sha1": "35a17b3db609bde953fdcf08fa4f945662d9167c"
+  },
+  "exact41810_pinned_catalog_snapshot_identified": false,
+  "original2016_reward_XML_or_legacy_license_rules_obtained": false,
+  "current_names_used_as_original_mapping_proof": false,
+  "recursive_repo_or_tree_reads": 0,
+  "full_repository_or_archive_downloads": 0,
+  "CDN_requests": 0,
+  "client_launched": false,
+  "repo_modified": false,
+  "private_player_or_ownership_data_read_or_emitted": false,
+  "limitations": [
+    "A zero code-search result is limited to the connector search index, not proof of absence from all GitHub history.",
+    "Dated commit queries inspect only reachable default-branch history; later-added old snapshots, other branches, tags, deleted history and external archives were not exhausted.",
+    "The tags API URL was rejected as unsupported by the connector. It was counted toward the cap and is not evidence that tags are absent.",
+    "The133-directory listing is one level only and binds observed directory names to their Git tree IDs; it is not a recursive tree or an exact41810 catalog.",
+    "No later/current asset identifier or approximate2016 date is promoted to an original alias/license mapping."
+  ]
+}

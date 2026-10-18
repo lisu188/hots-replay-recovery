@@ -1,0 +1,41 @@
+{
+  "JSON_report_bytes": 156753,
+  "PE_files_read": 1,
+  "PE_read_passes": 2,
+  "allowlisted_files": [
+    {
+      "bytes": 15759,
+      "name": "inspect_native_serialization_labels.py",
+      "sha256": "4c43053e77a9ee4997ab972f6d039f31e1e92902c5e58d514aa90b0af4bdb523"
+    },
+    {
+      "bytes": 94239,
+      "name": "native-serialization-labels-98348.json",
+      "sha256": "6aed9e391b79c2b3252c544c8d1b31065ef6f21380db6928123281f8ca49c2e3"
+    },
+    {
+      "bytes": 9045,
+      "name": "inspect_native_descriptor_contexts.py",
+      "sha256": "974707a2a0f8ae680153f3df367eda67bd7da31f0da0f1753ae0690831ca4dab"
+    },
+    {
+      "bytes": 62514,
+      "name": "native-descriptor-contexts-98348.json",
+      "sha256": "31d4bb69ea626f94ff39cce4528b78bb5c0185a8284915756f17d5b9e8aafda2"
+    },
+    {
+      "bytes": 4085,
+      "name": "README_NATIVE_SERIALIZATION_LABELS.md",
+      "sha256": "ec476aee74c3c88aaa275385667e5d0a4ad7df6f486602f867047f89235400d2"
+    }
+  ],
+  "cumulative_PE_bytes_read": 107147680,
+  "descriptor_context_union_bytes": 33666,
+  "format": "hots-native-byte-only-research-frozen-allowlist-v1",
+  "game_or_client_code_executed_or_loaded": false,
+  "maximum_JSON_report_bytes": 262144,
+  "maximum_context_union_bytes": 65536,
+  "new_network_requests": 0,
+  "no_opaque_or_availability_semantic_conversion_proven": true,
+  "repo_modified": false
+}

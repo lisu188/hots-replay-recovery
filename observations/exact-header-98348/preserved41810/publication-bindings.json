@@ -1,0 +1,200 @@
+{
+  "format": "hots-native-and-preserved-legacy-research-publication-bindings-v1",
+  "base_commit": "113dd7b4aa5e02287e62dc817cec4fe95ef1a65f",
+  "files": [
+    {
+      "source_relative_to_task_work": "native-serialization-98348/native-serialization-frozen-receipt.json",
+      "published_path": "observations/exact-header-98348/native-serialization/native-serialization-frozen-receipt.json",
+      "bytes": 1372,
+      "executed_producer_and_published_sha256": "92a619233605f0cc54d39c9c1e61f4d88237a0ff4b9b2535f480f1d0c3bf0cca",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "native-serialization-98348/inspect_native_serialization_labels.py",
+      "published_path": "research/exact-header-98348/native-serialization/inspect_native_serialization_labels.py",
+      "bytes": 15759,
+      "executed_producer_and_published_sha256": "4c43053e77a9ee4997ab972f6d039f31e1e92902c5e58d514aa90b0af4bdb523",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "native-serialization-98348/native-serialization-labels-98348.json",
+      "published_path": "observations/exact-header-98348/native-serialization/native-serialization-labels-98348.json",
+      "bytes": 94239,
+      "executed_producer_and_published_sha256": "6aed9e391b79c2b3252c544c8d1b31065ef6f21380db6928123281f8ca49c2e3",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "native-serialization-98348/inspect_native_descriptor_contexts.py",
+      "published_path": "research/exact-header-98348/native-serialization/inspect_native_descriptor_contexts.py",
+      "bytes": 9045,
+      "executed_producer_and_published_sha256": "974707a2a0f8ae680153f3df367eda67bd7da31f0da0f1753ae0690831ca4dab",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "native-serialization-98348/native-descriptor-contexts-98348.json",
+      "published_path": "observations/exact-header-98348/native-serialization/native-descriptor-contexts-98348.json",
+      "bytes": 62514,
+      "executed_producer_and_published_sha256": "31d4bb69ea626f94ff39cce4528b78bb5c0185a8284915756f17d5b9e8aafda2",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "native-serialization-98348/README_NATIVE_SERIALIZATION_LABELS.md",
+      "published_path": "research/exact-header-98348/native-serialization/README_NATIVE_SERIALIZATION_LABELS.md",
+      "bytes": 4085,
+      "executed_producer_and_published_sha256": "ec476aee74c3c88aaa275385667e5d0a4ad7df6f486602f867047f89235400d2",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "native-serialization-independent-review/native-serialization-independent-review.json",
+      "published_path": "observations/exact-header-98348/native-serialization/native-serialization-independent-review.json",
+      "bytes": 3804,
+      "executed_producer_and_published_sha256": "cc9d92cb9c0650574f1858c605c12614cc7f5c6904fd4f24040eeb2bbd274c02",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "native-serialization-independent-review/review_native_serialization.py",
+      "published_path": "research/exact-header-98348/native-serialization/review_native_serialization.py",
+      "bytes": 20525,
+      "executed_producer_and_published_sha256": "6ca465415c55ddf93b90315eb7d2c91a616f4bf7f7be1bdfbf69001218a8fb76",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "native-reference-98348/native-label-pointer-byte-matches.json",
+      "published_path": "observations/exact-header-98348/native-serialization/native-label-pointer-byte-matches.json",
+      "bytes": 3139,
+      "executed_producer_and_published_sha256": "e3caedf1bba7261b3e1153fb92dff1dad74d8ca661637dd1fd3fbf41584a73ee",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "inspect_native_label_references.py",
+      "published_path": "research/exact-header-98348/native-serialization/inspect_native_label_references.py",
+      "bytes": 2892,
+      "executed_producer_and_published_sha256": "289cda7cbd1e0f853034f34c3c13c15d23ef56f85c701f3d549fe464b2a14618",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "legacy41810-ngdp-metadata/preserved41810-NGDP-build-metadata.json",
+      "published_path": "observations/exact-header-98348/preserved41810/preserved41810-NGDP-build-metadata.json",
+      "bytes": 7834,
+      "executed_producer_and_published_sha256": "35901fd7f0d3ea774fedabe8e9f76cc13b1d788001c18f5bf0a7d1675b3131e0",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "inspect_legacy41810_ngdp.py",
+      "published_path": "research/exact-header-98348/preserved41810/inspect_legacy41810_ngdp.py",
+      "bytes": 4281,
+      "executed_producer_and_published_sha256": "1124bec56be4e7249180752cf96992f1499124eeb88f72be05b021b802d06266",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "legacy41810-ngdp-independent-review/legacy41810-ngdp-independent-review.json",
+      "published_path": "observations/exact-header-98348/preserved41810/legacy41810-ngdp-independent-review.json",
+      "bytes": 4672,
+      "executed_producer_and_published_sha256": "42f5e56bf7fe4f15cd3b0050b3c75f57eaef3e209b492c07a5dd25ad0c2c9a3c",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "legacy41810-ngdp-independent-review/verify_preserved_ngdp_metadata.py",
+      "published_path": "research/exact-header-98348/preserved41810/verify_preserved_ngdp_metadata.py",
+      "bytes": 9070,
+      "executed_producer_and_published_sha256": "cc84c3b100d91673a56ae1fd2d948f8d99ff547077924ebe96f8c8fd60f75c8c",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "legacy41810-crash-metadata/five-preserved41810-module-metadata.json",
+      "published_path": "observations/exact-header-98348/preserved41810/five-preserved41810-module-metadata.json",
+      "bytes": 18795,
+      "executed_producer_and_published_sha256": "a40cde35e02707ff2c484dcc98b2bafa4a86bd30eae1ddf2d6b6fc98f7fb85ea",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "legacy41810-crash-metadata/inspect_preserved_minidump_modules.py",
+      "published_path": "research/exact-header-98348/preserved41810/inspect_preserved_minidump_modules.py",
+      "bytes": 12745,
+      "executed_producer_and_published_sha256": "d8e66f93e365bc55d35a82c76c40fa0b179d960483a57ca6cc850f24310292b2",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "legacy41810-crash-independent-review/root-preserved41810-crash-independent-review.json",
+      "published_path": "observations/exact-header-98348/preserved41810/root-preserved41810-crash-independent-review.json",
+      "bytes": 1702,
+      "executed_producer_and_published_sha256": "0c5d34e8eee2f27e524f9ce41f556c0cfba743cb583fb8704f70c563f1e5e9eb",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "verify_legacy_crash_identity_independently.py",
+      "published_path": "research/exact-header-98348/preserved41810/verify_legacy_crash_identity_independently.py",
+      "bytes": 6021,
+      "executed_producer_and_published_sha256": "e9f8e1033c810d4875b24fdff886e7eeac7ef93a598d85326cf59807488bbc8a",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "legacy-build-root-research/catalog-route/legacy-catalog-route-frozen-receipt.json",
+      "published_path": "observations/exact-header-98348/legacy-build-root/catalog-route/legacy-catalog-route-frozen-receipt.json",
+      "bytes": 909,
+      "executed_producer_and_published_sha256": "4bbbb63a775703cc1aec92f215e3a7d96652b5d80657caafa0ff92d84d93bcbf",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "legacy-build-root-research/catalog-route/heroesdata-version-directory-projection.json",
+      "published_path": "observations/exact-header-98348/legacy-build-root/catalog-route/heroesdata-version-directory-projection.json",
+      "bytes": 17718,
+      "executed_producer_and_published_sha256": "5e669708e96462a2083386e80496a4afaae9640cb22e83fbb7801aa50d6573cd",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "legacy-build-root-research/catalog-route/legacy-catalog-route-six-operation-ledger.json",
+      "published_path": "observations/exact-header-98348/legacy-build-root/catalog-route/legacy-catalog-route-six-operation-ledger.json",
+      "bytes": 5539,
+      "executed_producer_and_published_sha256": "c38917400459782f94810b89e9e24a08628420543fee41379095e5e60257e71f",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "legacy-catalog-archives-2016/frozen-receipt.json",
+      "published_path": "observations/exact-header-98348/legacy-catalog-archives/frozen-receipt.json",
+      "bytes": 1626,
+      "executed_producer_and_published_sha256": "5de328c86b5d4670a988b91b7daea4cce568c89ac4919ca2b16336a2c94abcaf",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "legacy-catalog-archives-2016/source-search-projection.json",
+      "published_path": "observations/exact-header-98348/legacy-catalog-archives/source-search-projection.json",
+      "bytes": 7654,
+      "executed_producer_and_published_sha256": "1f07525bc100407c26ab8682628935038d355417d9b14de59eb7f9803e02d449",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "legacy-catalog-archives-2016/research-ledger.json",
+      "published_path": "observations/exact-header-98348/legacy-catalog-archives/research-ledger.json",
+      "bytes": 5925,
+      "executed_producer_and_published_sha256": "0ee7996db1da297677668c576dfc7c15996d21a5cfe990bb4252ae01f5775732",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "player-block-source-research/player-block-primary-history-followup.json",
+      "published_path": "observations/exact-header-98348/player-block-history/player-block-primary-history-followup.json",
+      "bytes": 13962,
+      "executed_producer_and_published_sha256": "fb938eea58916db0b6e64dd565858cc779d03ae0fc5156f0a265406a68cb4320",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "player-block-source-research/record_player_block_source_findings.py",
+      "published_path": "research/exact-header-98348/player-block-history/record_player_block_source_findings.py",
+      "bytes": 9718,
+      "executed_producer_and_published_sha256": "5ea703900cca18d0abeff7c009f5aaa1eff9ef51da5cb1022e2895518045a5c2",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "player-block-source-research/new-primary-call-evidence.json",
+      "published_path": "observations/exact-header-98348/player-block-history/new-primary-call-evidence.json",
+      "bytes": 34018,
+      "executed_producer_and_published_sha256": "5cfe0485997f8b0ba2776eb2b65078fc99197e959ae3579c6565d1250e697cc4",
+      "byte_preserved": true
+    }
+  ],
+  "raw_binaries_dumps_logs_headers_replays_variables_or_private_values_published": false,
+  "schema_or_semantic_conversion_established": false,
+  "new_unit_or_hosted_CI_claim": false,
+  "root_source_and_frozen_hashes_reviewed": true,
+  "native_NGDP_and_old_module_independent_checks_reviewed": true
+}

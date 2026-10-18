@@ -1,0 +1,114 @@
+{
+  "actual_loaded_dump_module_build_proof": "separate investigation; no dump was read in this review",
+  "all_five_manifests_byte_identical": true,
+  "all_reviewed_source_and_report_bytes_unchanged": true,
+  "bounded_read_capture": {
+    "Variables_Error_text_minidump_or_other_memory_content_reads": 0,
+    "distinct_input_bytes": 13364,
+    "exact_public_metadata_files": 15,
+    "folders": 5,
+    "maximum_file_bytes": 32768,
+    "metadata_bytes_read": 26728,
+    "metadata_read_calls": 30,
+    "other_content_files_read": 0,
+    "producer_source_hash_read_calls": 1,
+    "source_input_paths_reported": false
+  },
+  "client_launched": false,
+  "format": "hots-preserved41810-NGDP-metadata-independent-review-v1",
+  "fresh_manifest_public_projections": [
+    {
+      "build_manifest_sha256": "9b99aaae34342d18704c29d7021f3b84f87b874f7784e9c6a3b10e353f043f2b",
+      "id": "crash41810-01",
+      "public_build_fields": [
+        {
+          "Active": "1",
+          "Branch": "eu",
+          "Build Key": "0534650161f366f2f048320d85b32893",
+          "CDN Key": "c53d29ee65044954474c758516b15ab4",
+          "Version": "2.55.3.88481"
+        }
+      ]
+    },
+    {
+      "build_manifest_sha256": "9b99aaae34342d18704c29d7021f3b84f87b874f7784e9c6a3b10e353f043f2b",
+      "id": "crash41810-02",
+      "public_build_fields": [
+        {
+          "Active": "1",
+          "Branch": "eu",
+          "Build Key": "0534650161f366f2f048320d85b32893",
+          "CDN Key": "c53d29ee65044954474c758516b15ab4",
+          "Version": "2.55.3.88481"
+        }
+      ]
+    },
+    {
+      "build_manifest_sha256": "9b99aaae34342d18704c29d7021f3b84f87b874f7784e9c6a3b10e353f043f2b",
+      "id": "crash41810-03",
+      "public_build_fields": [
+        {
+          "Active": "1",
+          "Branch": "eu",
+          "Build Key": "0534650161f366f2f048320d85b32893",
+          "CDN Key": "c53d29ee65044954474c758516b15ab4",
+          "Version": "2.55.3.88481"
+        }
+      ]
+    },
+    {
+      "build_manifest_sha256": "9b99aaae34342d18704c29d7021f3b84f87b874f7784e9c6a3b10e353f043f2b",
+      "id": "crash41810-04",
+      "public_build_fields": [
+        {
+          "Active": "1",
+          "Branch": "eu",
+          "Build Key": "0534650161f366f2f048320d85b32893",
+          "CDN Key": "c53d29ee65044954474c758516b15ab4",
+          "Version": "2.55.3.88481"
+        }
+      ]
+    },
+    {
+      "build_manifest_sha256": "9b99aaae34342d18704c29d7021f3b84f87b874f7784e9c6a3b10e353f043f2b",
+      "id": "crash41810-05",
+      "public_build_fields": [
+        {
+          "Active": "1",
+          "Branch": "eu",
+          "Build Key": "0534650161f366f2f048320d85b32893",
+          "CDN Key": "c53d29ee65044954474c758516b15ab4",
+          "Version": "2.55.3.88481"
+        }
+      ]
+    }
+  ],
+  "fresh_report_JSON_matches_frozen": true,
+  "fresh_serialized_report_bytes_match_frozen": true,
+  "frozen_report_sha256": "35901fd7f0d3ea774fedabe8e9f76cc13b1d788001c18f5bf0a7d1675b3131e0",
+  "limitations": [
+    "These fifteen allowlisted public metadata files do not exhaust other crash-folder contents or historical metadata sources.",
+    "Only literal case-insensitive32hex root text absence is established; no alternate encoding or other identity representation is excluded.",
+    "The weak timestamp-prefix label extraction is retained as executed, not treated as a meaningful schema or absence result.",
+    "Folder names alone do not authenticate module build or original content; metadata88481 does not prove which data the old executable loaded."
+  ],
+  "literal_original_root": "83d43a8647bb5ca5caa6f2f09064da55",
+  "literal_original_root_occurrences_in_15_UTF8_inputs": 0,
+  "material_findings": [],
+  "producer_analyze_called_in_RAM_only": true,
+  "producer_main_or_output_directory_creation_invoked": false,
+  "producer_source_sha256": "1124bec56be4e7249180752cf96992f1499124eeb88f72be05b021b802d06266",
+  "producer_write_attempts": 0,
+  "raw_log_or_manifest_bodies_exported": false,
+  "repo_modified": false,
+  "result": "PASS",
+  "review_source_sha256": "cc84c3b100d91673a56ae1fd2d948f8d99ff547077924ebe96f8c8fd60f75c8c",
+  "root_attribution_review_sha256": "d078024b051ea1c2b9fcb381c4307ea5987c74b7a9c0405de4405bebb00991c3",
+  "scope_of_conclusion": "Five preserved .build.info files report88481 identities; no exact41810 BuildConfig attribution is established by these metadata files.",
+  "unexpected_network_attempts": 0,
+  "weak_build_line_label_extractor": {
+    "empty_public_labeled_build_hashes_does_not_mean_all_metadata_absent": true,
+    "not_promoted_to_evidence_of_old_BuildConfig_absence": true,
+    "timestamp_prefixes_are_not_metadata_field_names": true
+  }
+}

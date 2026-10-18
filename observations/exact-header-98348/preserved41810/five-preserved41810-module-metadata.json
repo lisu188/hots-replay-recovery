@@ -1,0 +1,536 @@
+{
+  "Variables_NGDP_buildinfo_chats_or_session_files_read": false,
+  "all_ten_input_file_digests_unchanged": true,
+  "case_count": 5,
+  "cases": [
+    {
+      "Error_text": {
+        "GetLastError": 0,
+        "architecture": "x86_64",
+        "build_branch": "Heroes.17",
+        "build_number": 41810,
+        "bytes": 51802,
+        "error_type": "e_errorIdStreaming",
+        "header_lines_inspected": 45,
+        "later_memory_process_parameters_or_session_sections_parsed": false,
+        "sha256_after": "964f335a017aa6f6ab9c47c1402d243f3ba00c2d2118964b831df7a7c4d12314",
+        "sha256_before": "964f335a017aa6f6ab9c47c1402d243f3ba00c2d2118964b831df7a7c4d12314",
+        "static_error_category": "e_errorIdStreaming (NGDP:E_DATA_ERROR)",
+        "static_error_message": "An error occurred downloading game data from Blizzard's servers. Please check your internet connection and try again later."
+      },
+      "case_id": "crash-1",
+      "dump": {
+        "bytes": 223322,
+        "directory_stream_count": 8,
+        "directory_stream_types_and_sizes": [
+          {
+            "declared_bytes": 436,
+            "stream_type": 3
+          },
+          {
+            "declared_bytes": 7348,
+            "stream_type": 4
+          },
+          {
+            "declared_bytes": 1924,
+            "stream_type": 5
+          },
+          {
+            "declared_bytes": 56,
+            "stream_type": 7
+          },
+          {
+            "declared_bytes": 832,
+            "stream_type": 15
+          },
+          {
+            "declared_bytes": 19,
+            "stream_type": 4096
+          },
+          {
+            "declared_bytes": 0,
+            "stream_type": 0
+          },
+          {
+            "declared_bytes": 0,
+            "stream_type": 0
+          }
+        ],
+        "dump_timestamp": 1658952607,
+        "dump_timestamp_UTC": "2022-07-27T20:10:07+00:00",
+        "flags": "0x40",
+        "header_checksum": 0,
+        "header_version": 1669375891,
+        "memory_thread_exception_or_context_stream_contents_decoded": false,
+        "module_count": 68,
+        "sha256_after": "329aba46b2e5803e6e19e613470c0b3a7a517ccbc532b1e8be79e123e3286842",
+        "sha256_before": "329aba46b2e5803e6e19e613470c0b3a7a517ccbc532b1e8be79e123e3286842",
+        "signature": "MDMP",
+        "target": {
+          "CodeView": {
+            "GUID": "7BF26548-FE37-4F3F-94F0-218512BDB807",
+            "GUID_age_symbol_index": "7BF26548FE374F3F94F0218512BDB80731",
+            "PDB_basename": "HeroesOfTheStorm_x64.pdb",
+            "age_decimal": 49,
+            "age_hex": "31",
+            "signature": "RSDS"
+          },
+          "PE_checksum": 45759189,
+          "PE_timestamp": 1458935250,
+          "PE_timestamp_UTC": "2016-03-25T19:47:30+00:00",
+          "base_of_image": "0x7ff6950f0000",
+          "file_version": [
+            0,
+            17,
+            0,
+            41810
+          ],
+          "module_basename": "HeroesOfTheStorm_x64.exe",
+          "module_list_ordinal": 0,
+          "module_path_contains_Base41810": true,
+          "private_original_path_probe": {
+            "local_drive_metadata_check_performed": false,
+            "original_local_drive_currently_available": false,
+            "original_module_path_exists_now": null
+          },
+          "product_version": [
+            0,
+            17,
+            0,
+            41810
+          ],
+          "size_of_image": 89478144
+        }
+      },
+      "folder_time_label_only": "2022-07-27 22.10.05"
+    },
+    {
+      "Error_text": {
+        "GetLastError": 0,
+        "architecture": "x86_64",
+        "build_branch": "Heroes.17",
+        "build_number": 41810,
+        "bytes": 51681,
+        "error_type": "e_errorIdStreaming",
+        "header_lines_inspected": 45,
+        "later_memory_process_parameters_or_session_sections_parsed": false,
+        "sha256_after": "08a2fda9f6f0ce4efa695cbeb43f3b5688906f60fd5a1dafbef68123f78903fa",
+        "sha256_before": "08a2fda9f6f0ce4efa695cbeb43f3b5688906f60fd5a1dafbef68123f78903fa",
+        "static_error_category": "e_errorIdStreaming (NGDP:E_DATA_ERROR)",
+        "static_error_message": "An error occurred downloading game data from Blizzard's servers. Please check your internet connection and try again later."
+      },
+      "case_id": "crash-2",
+      "dump": {
+        "bytes": 228573,
+        "directory_stream_count": 8,
+        "directory_stream_types_and_sizes": [
+          {
+            "declared_bytes": 436,
+            "stream_type": 3
+          },
+          {
+            "declared_bytes": 7240,
+            "stream_type": 4
+          },
+          {
+            "declared_bytes": 2004,
+            "stream_type": 5
+          },
+          {
+            "declared_bytes": 56,
+            "stream_type": 7
+          },
+          {
+            "declared_bytes": 832,
+            "stream_type": 15
+          },
+          {
+            "declared_bytes": 19,
+            "stream_type": 4096
+          },
+          {
+            "declared_bytes": 0,
+            "stream_type": 0
+          },
+          {
+            "declared_bytes": 0,
+            "stream_type": 0
+          }
+        ],
+        "dump_timestamp": 1658952691,
+        "dump_timestamp_UTC": "2022-07-27T20:11:31+00:00",
+        "flags": "0x40",
+        "header_checksum": 0,
+        "header_version": 1669375891,
+        "memory_thread_exception_or_context_stream_contents_decoded": false,
+        "module_count": 67,
+        "sha256_after": "8e5389aee3fd02efd1f29abf5a4cb4394378f1989ee8d1e60666ce1c38ac8221",
+        "sha256_before": "8e5389aee3fd02efd1f29abf5a4cb4394378f1989ee8d1e60666ce1c38ac8221",
+        "signature": "MDMP",
+        "target": {
+          "CodeView": {
+            "GUID": "7BF26548-FE37-4F3F-94F0-218512BDB807",
+            "GUID_age_symbol_index": "7BF26548FE374F3F94F0218512BDB80731",
+            "PDB_basename": "HeroesOfTheStorm_x64.pdb",
+            "age_decimal": 49,
+            "age_hex": "31",
+            "signature": "RSDS"
+          },
+          "PE_checksum": 45759189,
+          "PE_timestamp": 1458935250,
+          "PE_timestamp_UTC": "2016-03-25T19:47:30+00:00",
+          "base_of_image": "0x7ff6950f0000",
+          "file_version": [
+            0,
+            17,
+            0,
+            41810
+          ],
+          "module_basename": "HeroesOfTheStorm_x64.exe",
+          "module_list_ordinal": 0,
+          "module_path_contains_Base41810": true,
+          "private_original_path_probe": {
+            "local_drive_metadata_check_performed": false,
+            "original_local_drive_currently_available": false,
+            "original_module_path_exists_now": null
+          },
+          "product_version": [
+            0,
+            17,
+            0,
+            41810
+          ],
+          "size_of_image": 89478144
+        }
+      },
+      "folder_time_label_only": "2022-07-27 22.11.31"
+    },
+    {
+      "Error_text": {
+        "GetLastError": 0,
+        "architecture": "x86_64",
+        "build_branch": "Heroes.17",
+        "build_number": 41810,
+        "bytes": 51688,
+        "error_type": "e_errorIdStreaming",
+        "header_lines_inspected": 45,
+        "later_memory_process_parameters_or_session_sections_parsed": false,
+        "sha256_after": "6bb71d5b9f9b4acee66ba83b96ce6ac9c26648f3c4ceb60db4d1bef6fe8743b0",
+        "sha256_before": "6bb71d5b9f9b4acee66ba83b96ce6ac9c26648f3c4ceb60db4d1bef6fe8743b0",
+        "static_error_category": "e_errorIdStreaming (NGDP:E_DATA_ERROR)",
+        "static_error_message": "An error occurred downloading game data from Blizzard's servers. Please check your internet connection and try again later."
+      },
+      "case_id": "crash-3",
+      "dump": {
+        "bytes": 224917,
+        "directory_stream_count": 8,
+        "directory_stream_types_and_sizes": [
+          {
+            "declared_bytes": 436,
+            "stream_type": 3
+          },
+          {
+            "declared_bytes": 7240,
+            "stream_type": 4
+          },
+          {
+            "declared_bytes": 1844,
+            "stream_type": 5
+          },
+          {
+            "declared_bytes": 56,
+            "stream_type": 7
+          },
+          {
+            "declared_bytes": 832,
+            "stream_type": 15
+          },
+          {
+            "declared_bytes": 19,
+            "stream_type": 4096
+          },
+          {
+            "declared_bytes": 0,
+            "stream_type": 0
+          },
+          {
+            "declared_bytes": 0,
+            "stream_type": 0
+          }
+        ],
+        "dump_timestamp": 1660068637,
+        "dump_timestamp_UTC": "2022-08-09T18:10:37+00:00",
+        "flags": "0x40",
+        "header_checksum": 0,
+        "header_version": 1669375891,
+        "memory_thread_exception_or_context_stream_contents_decoded": false,
+        "module_count": 67,
+        "sha256_after": "7ad05f754a27c725b6eb54400a3eb7a11e965fd232cf87e6de1eeca41ab200a2",
+        "sha256_before": "7ad05f754a27c725b6eb54400a3eb7a11e965fd232cf87e6de1eeca41ab200a2",
+        "signature": "MDMP",
+        "target": {
+          "CodeView": {
+            "GUID": "7BF26548-FE37-4F3F-94F0-218512BDB807",
+            "GUID_age_symbol_index": "7BF26548FE374F3F94F0218512BDB80731",
+            "PDB_basename": "HeroesOfTheStorm_x64.pdb",
+            "age_decimal": 49,
+            "age_hex": "31",
+            "signature": "RSDS"
+          },
+          "PE_checksum": 45759189,
+          "PE_timestamp": 1458935250,
+          "PE_timestamp_UTC": "2016-03-25T19:47:30+00:00",
+          "base_of_image": "0x7ff6e8890000",
+          "file_version": [
+            0,
+            17,
+            0,
+            41810
+          ],
+          "module_basename": "HeroesOfTheStorm_x64.exe",
+          "module_list_ordinal": 0,
+          "module_path_contains_Base41810": true,
+          "private_original_path_probe": {
+            "local_drive_metadata_check_performed": false,
+            "original_local_drive_currently_available": false,
+            "original_module_path_exists_now": null
+          },
+          "product_version": [
+            0,
+            17,
+            0,
+            41810
+          ],
+          "size_of_image": 89478144
+        }
+      },
+      "folder_time_label_only": "2022-08-09 20.10.37"
+    },
+    {
+      "Error_text": {
+        "GetLastError": 0,
+        "architecture": "x86_64",
+        "build_branch": "Heroes.17",
+        "build_number": 41810,
+        "bytes": 51571,
+        "error_type": "e_errorIdStreaming",
+        "header_lines_inspected": 45,
+        "later_memory_process_parameters_or_session_sections_parsed": false,
+        "sha256_after": "b3d8bce7b673dca4eb2b2e46813239e80ede9228f31d977601b4f24f17a7787e",
+        "sha256_before": "b3d8bce7b673dca4eb2b2e46813239e80ede9228f31d977601b4f24f17a7787e",
+        "static_error_category": "e_errorIdStreaming (NGDP:E_DATA_ERROR)",
+        "static_error_message": "An error occurred downloading game data from Blizzard's servers. Please check your internet connection and try again later."
+      },
+      "case_id": "crash-4",
+      "dump": {
+        "bytes": 226145,
+        "directory_stream_count": 8,
+        "directory_stream_types_and_sizes": [
+          {
+            "declared_bytes": 436,
+            "stream_type": 3
+          },
+          {
+            "declared_bytes": 7132,
+            "stream_type": 4
+          },
+          {
+            "declared_bytes": 1924,
+            "stream_type": 5
+          },
+          {
+            "declared_bytes": 56,
+            "stream_type": 7
+          },
+          {
+            "declared_bytes": 832,
+            "stream_type": 15
+          },
+          {
+            "declared_bytes": 19,
+            "stream_type": 4096
+          },
+          {
+            "declared_bytes": 0,
+            "stream_type": 0
+          },
+          {
+            "declared_bytes": 0,
+            "stream_type": 0
+          }
+        ],
+        "dump_timestamp": 1660068731,
+        "dump_timestamp_UTC": "2022-08-09T18:12:11+00:00",
+        "flags": "0x40",
+        "header_checksum": 0,
+        "header_version": 1669375891,
+        "memory_thread_exception_or_context_stream_contents_decoded": false,
+        "module_count": 66,
+        "sha256_after": "53f7534e7d3f66c5f28159a4ae4c0b7f317fb7d1d48528a29391d35ef1910291",
+        "sha256_before": "53f7534e7d3f66c5f28159a4ae4c0b7f317fb7d1d48528a29391d35ef1910291",
+        "signature": "MDMP",
+        "target": {
+          "CodeView": {
+            "GUID": "7BF26548-FE37-4F3F-94F0-218512BDB807",
+            "GUID_age_symbol_index": "7BF26548FE374F3F94F0218512BDB80731",
+            "PDB_basename": "HeroesOfTheStorm_x64.pdb",
+            "age_decimal": 49,
+            "age_hex": "31",
+            "signature": "RSDS"
+          },
+          "PE_checksum": 45759189,
+          "PE_timestamp": 1458935250,
+          "PE_timestamp_UTC": "2016-03-25T19:47:30+00:00",
+          "base_of_image": "0x7ff6e8890000",
+          "file_version": [
+            0,
+            17,
+            0,
+            41810
+          ],
+          "module_basename": "HeroesOfTheStorm_x64.exe",
+          "module_list_ordinal": 0,
+          "module_path_contains_Base41810": true,
+          "private_original_path_probe": {
+            "local_drive_metadata_check_performed": false,
+            "original_local_drive_currently_available": false,
+            "original_module_path_exists_now": null
+          },
+          "product_version": [
+            0,
+            17,
+            0,
+            41810
+          ],
+          "size_of_image": 89478144
+        }
+      },
+      "folder_time_label_only": "2022-08-09 20.12.10"
+    },
+    {
+      "Error_text": {
+        "GetLastError": 0,
+        "architecture": "x86_64",
+        "build_branch": "Heroes.17",
+        "build_number": 41810,
+        "bytes": 51687,
+        "error_type": "e_errorIdStreaming",
+        "header_lines_inspected": 45,
+        "later_memory_process_parameters_or_session_sections_parsed": false,
+        "sha256_after": "d43788f92b5e507b2e5422d6c806bb04e1e0e82bf6f65b1acbed9cfd2c43ef83",
+        "sha256_before": "d43788f92b5e507b2e5422d6c806bb04e1e0e82bf6f65b1acbed9cfd2c43ef83",
+        "static_error_category": "e_errorIdStreaming (NGDP:E_DATA_ERROR)",
+        "static_error_message": "An error occurred downloading game data from Blizzard's servers. Please check your internet connection and try again later."
+      },
+      "case_id": "crash-5",
+      "dump": {
+        "bytes": 226806,
+        "directory_stream_count": 8,
+        "directory_stream_types_and_sizes": [
+          {
+            "declared_bytes": 436,
+            "stream_type": 3
+          },
+          {
+            "declared_bytes": 7240,
+            "stream_type": 4
+          },
+          {
+            "declared_bytes": 1972,
+            "stream_type": 5
+          },
+          {
+            "declared_bytes": 56,
+            "stream_type": 7
+          },
+          {
+            "declared_bytes": 832,
+            "stream_type": 15
+          },
+          {
+            "declared_bytes": 19,
+            "stream_type": 4096
+          },
+          {
+            "declared_bytes": 0,
+            "stream_type": 0
+          },
+          {
+            "declared_bytes": 0,
+            "stream_type": 0
+          }
+        ],
+        "dump_timestamp": 1660068822,
+        "dump_timestamp_UTC": "2022-08-09T18:13:42+00:00",
+        "flags": "0x40",
+        "header_checksum": 0,
+        "header_version": 1669375891,
+        "memory_thread_exception_or_context_stream_contents_decoded": false,
+        "module_count": 67,
+        "sha256_after": "7d45251b48e6af37265b57813d5c5bb4886547db763bcee0d6adf191a78dcebf",
+        "sha256_before": "7d45251b48e6af37265b57813d5c5bb4886547db763bcee0d6adf191a78dcebf",
+        "signature": "MDMP",
+        "target": {
+          "CodeView": {
+            "GUID": "7BF26548-FE37-4F3F-94F0-218512BDB807",
+            "GUID_age_symbol_index": "7BF26548FE374F3F94F0218512BDB80731",
+            "PDB_basename": "HeroesOfTheStorm_x64.pdb",
+            "age_decimal": 49,
+            "age_hex": "31",
+            "signature": "RSDS"
+          },
+          "PE_checksum": 45759189,
+          "PE_timestamp": 1458935250,
+          "PE_timestamp_UTC": "2016-03-25T19:47:30+00:00",
+          "base_of_image": "0x7ff6e8890000",
+          "file_version": [
+            0,
+            17,
+            0,
+            41810
+          ],
+          "module_basename": "HeroesOfTheStorm_x64.exe",
+          "module_list_ordinal": 0,
+          "module_path_contains_Base41810": true,
+          "private_original_path_probe": {
+            "local_drive_metadata_check_performed": false,
+            "original_local_drive_currently_available": false,
+            "original_module_path_exists_now": null
+          },
+          "product_version": [
+            0,
+            17,
+            0,
+            41810
+          ],
+          "size_of_image": 89478144
+        }
+      },
+      "folder_time_label_only": "2022-08-09 20.13.42"
+    }
+  ],
+  "client_or_debugger_launched": false,
+  "counting_scope": "Distinct crash inputs are capped at2MiB. Opaque before/after hash passes and selected metadata reads are counted separately; this run does not cap repeated read traffic at2MiB.",
+  "distinct_input_bytes": 1388192,
+  "distinct_input_files": 10,
+  "distinct_input_limit_bytes": 2097152,
+  "format": "hots-five-preserved41810-crash-module-metadata-v1",
+  "limits": [
+    "The reported executable version is0.17.0.41810; crash folder dates and preserved .build.info must be interpreted separately.",
+    "Module-list PE metadata and CodeView identify a reported loaded module; no complete executable or PDB was acquired or hashed.",
+    "Image bases are observed load addresses and differ across crash dates; SizeOfImage is an in-memory image extent, not a file length.",
+    "The generic NGDP:E_DATA_ERROR streaming message does not identify a missing content key, actual historical root or the underlying network/content failure.",
+    "Only header/directory/module metadata and first45Error header lines are parsed. Raw memory, threads, exceptions, contexts, later process fields and session information are not decoded or copied.",
+    "The source files were processed in place; no raw dump or Error log is saved in the work folder."
+  ],
+  "network_requests": 0,
+  "producer_SHA256": "d8e66f93e365bc55d35a82c76c40fa0b179d960483a57ca6cc850f24310292b2",
+  "raw_dump_Error_file_or_memory_contents_copied": false,
+  "raw_module_PDB_or_other_local_paths_emitted": false,
+  "reader_run_byte_counts": {
+    "opaque_hash_bytes": 2776384,
+    "selected_metadata_bytes": 72745
+  },
+  "same_target_module_version_PE_metadata_and_CodeView_identity_all_cases": true,
+  "target_identity_is_reported_by_artifacts_not_a_complete_executable_SHA": true
+}

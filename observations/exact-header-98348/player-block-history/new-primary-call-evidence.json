@@ -1,0 +1,253 @@
+{
+  "format": "hots-player-opaque-new-primary-call-evidence-v1",
+  "maximum_new_primary_calls": 8,
+  "actual_new_primary_calls": 8,
+  "calls": [
+    {
+      "id": 1,
+      "tool": "github_search_commits",
+      "args": {
+        "query": "player",
+        "repository_full_name": [
+          "EugenPolyakov/HOTS_battlelobby",
+          "HeroesToolChest/Heroes.StormReplayParser"
+        ],
+        "topn": 15
+      },
+      "result": {
+        "commits": [
+          {
+            "sha": "c99390da34cfe0583bf985e1d4442996d94384a7",
+            "message": "added player property PlayerDisconnects",
+            "url": "https://github.com/HeroesToolChest/Heroes.StormReplayParser/commit/c99390da34cfe0583bf985e1d4442996d94384a7",
+            "repository": "HeroesToolChest/Heroes.StormReplayParser",
+            "created_at": "2023-12-25T18:15:33.000-06:00"
+          },
+          {
+            "sha": "e4b29f0443e9a8e056a1e318145b0493a8603dd7",
+            "message": "Added player property IsPlatformMac",
+            "url": "https://github.com/HeroesToolChest/Heroes.StormReplayParser/commit/e4b29f0443e9a8e056a1e318145b0493a8603dd7",
+            "repository": "HeroesToolChest/Heroes.StormReplayParser",
+            "created_at": "2023-12-22T22:01:15.000-06:00"
+          },
+          {
+            "sha": "544494a44f4e9293bb79d27bed858c1fa5b49833",
+            "message": "add some methods for players",
+            "url": "https://github.com/HeroesToolChest/Heroes.StormReplayParser/commit/544494a44f4e9293bb79d27bed858c1fa5b49833",
+            "repository": "HeroesToolChest/Heroes.StormReplayParser",
+            "created_at": "2023-07-24T12:24:16.000-05:00"
+          },
+          {
+            "sha": "3c52c75755ab3ed98651b2b298ad98d82fc00f7e",
+            "message": "added structure visualization in readme\nfixed names\nfixed player info errors\nfixed some bugs",
+            "url": "https://github.com/EugenPolyakov/HOTS_battlelobby/commit/3c52c75755ab3ed98651b2b298ad98d82fc00f7e",
+            "repository": "EugenPolyakov/HOTS_battlelobby",
+            "created_at": "2023-07-22T00:20:53.000+03:00"
+          },
+          {
+            "sha": "1bde6eb105a5fe61b95839d747c690508d57f741",
+            "message": "Fixed for no player name and without tag",
+            "url": "https://github.com/HeroesToolChest/Heroes.StormReplayParser/commit/1bde6eb105a5fe61b95839d747c690508d57f741",
+            "repository": "HeroesToolChest/Heroes.StormReplayParser",
+            "created_at": "2021-07-31T11:46:20.000-05:00"
+          },
+          {
+            "sha": "ab96b52be00d8713409a7edbe0879ae5d1035c7b",
+            "message": "Added player hero talents",
+            "url": "https://github.com/HeroesToolChest/Heroes.StormReplayParser/commit/ab96b52be00d8713409a7edbe0879ae5d1035c7b",
+            "repository": "HeroesToolChest/Heroes.StormReplayParser",
+            "created_at": "2020-08-01T14:41:48.000-05:00"
+          },
+          {
+            "sha": "e2e786be00d74a83d56f6834d516d8aeb51a31f5",
+            "message": "Updated draft picks to include teams and players",
+            "url": "https://github.com/HeroesToolChest/Heroes.StormReplayParser/commit/e2e786be00d74a83d56f6834d516d8aeb51a31f5",
+            "repository": "HeroesToolChest/Heroes.StormReplayParser",
+            "created_at": "2020-08-16T12:36:02.000-05:00"
+          },
+          {
+            "sha": "7a7da2062081f2d6793db9b0f699332e36d65f3e",
+            "message": "Added replay property to determin if the battlobby player info section was parsed",
+            "url": "https://github.com/HeroesToolChest/Heroes.StormReplayParser/commit/7a7da2062081f2d6793db9b0f699332e36d65f3e",
+            "repository": "HeroesToolChest/Heroes.StormReplayParser",
+            "created_at": "2021-01-03T15:00:31.000-06:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "tool": "github_search_issues",
+      "args": {
+        "query": "repo:EugenPolyakov/HOTS_battlelobby \"Unk2\"",
+        "topn": 8
+      },
+      "result": {
+        "returned_issue_count": 0
+      }
+    },
+    {
+      "id": 3,
+      "tool": "github_search_issues",
+      "args": {
+        "query": "repo:HeroesToolChest/Heroes.StormReplayParser \"battlelobby\"",
+        "topn": 12
+      },
+      "result": {
+        "returned_issue_count": 0
+      }
+    },
+    {
+      "id": 4,
+      "tool": "github_fetch_commit",
+      "args": {
+        "repo_full_name": "EugenPolyakov/HOTS_battlelobby",
+        "commit_sha": "3c52c75755ab3ed98651b2b298ad98d82fc00f7e"
+      },
+      "result": {
+        "sha": "3c52c75755ab3ed98651b2b298ad98d82fc00f7e",
+        "message": "added structure visualization in readme\nfixed names\nfixed player info errors\nfixed some bugs",
+        "url": "https://github.com/EugenPolyakov/HOTS_battlelobby/commit/3c52c75755ab3ed98651b2b298ad98d82fc00f7e",
+        "files": [
+          {
+            "filename": "README.md",
+            "patch": "@@ -2,3 +2,310 @@\n \n Structure of \"replay.server.battlelobby\" for Heroes of the storm replay.\n All others file can be found at https://github.com/Blizzard/heroprotocol\n+\n+Visualization for last version (array of Byte is byte aligned):\n+\n+      record[:0 + 0]\n+        Attributes: record[:0 + 0]\n+          m_cacheFileNames: array [:6 + 0] of array [:10 + 0] of Byte\n+          m_cacheHandles: array [:6 + 0] of record[:0 + 0]\n+              m_FileType: array [:0 + 4] of Byte\n+              m_Realm: array [:0 + 4] of Byte\n+              m_SHA256Hash: array [:0 + 32] of Byte\n+            end\n+          EnabledAttributes: array [:9 + 0] of record[:0 + 0]\n+              Namespace: Integer(:32 + 0)\n+              AttrId: Integer(:32 + 0)\n+              SupportedValues: array [:12 + 0] of record[:0 + 0]\n+                  ValueName: array [:0 + 32] of bit\n+                  first: Optional:1 of (record[:0 + 0]\n+                      f32: Optional:1 of (Integer(:32 + 0))\n+                      NewField6: Integer(:6 + 0)\n+                      word: Integer(:16 + 0)\n+                    end)\n+                  second: Optional:1 of (record[:0 + 0]\n+                      f32: Optional:1 of (Integer(:32 + 0))\n+                      NewField6: Integer(:6 + 0)\n+                      word: Integer(:16 + 0)\n+                    end)\n+                  f70: Optional:1 of (record[:0 + 0]\n+                      NewField6: Integer(:6 + 0)\n+                      NewField32: Integer(:32 + 0)\n+                      NewField16: Integer(:16 + 0)\n+                      NewField16: Integer(:16 + 0)\n+                    end)\n+                  f1: array [:0 + 1] of bit\n+                  f1: array [:0 + 1] of bit\n+                  f1: array [:0 + 1] of bit\n+                end\n+              EnabledWithAttribs: Optional:1 of (record[:0 + 0]\n+                  NewField25: array [:0 + 25] of bit\n+                  AttribsValues: array [:5 + 0] of record[:0 + 0]\n+                      NewField5: array [:0 + 5] of bit\n+                      Namespace: Integer(:32 + 0)\n+                      AttrId: Integer(:32 + 0)\n+                      Values: array [:12 + 0] of array [:0 + 32] of bit\n+                    end\n+                end)\n+              _end: record[:0 + 0]\n+                NewField5: array [:0 + 5] of bit\n+                NewField5: array [:0 + 5] of bit\n+                NewField5: array [:0 + 5] of bit\n+                NewField: array [:0 + 32] of bit\n+                a170: array [:8 + 0] of record[:0 + 0]\n+                    b5: array [:0 + 5] of bit\n+                    b165: array [:0 + 165] of bit\n+                    b15: array [:0 + 15] of bit\n+                  end\n+                NewField: record[:0 + 0]\n+                  b11: array [:0 + 11] of bit\n+                  f1: array [:0 + 1] of bit\n+                  b9: array [:0 + 9] of bit\n+                end\n+              end\n+            end\n+        end\n+        PlayerSelectedAttributes: record[:0 + 0]\n+          NewField: array [:0 + 30] of bit\n+          NewField: Integer(:16 + 0)\n+          NewField: array [:0 + 81] of bit\n+          Attributes: array [:9 + 0] of record[:0 + 0]\n+              Namespace: Integer(:32 + 0)\n+              AttrId: Integer(:32 + 0)\n+              Values: case (:8 + 0) of\n+                GlobalValue(0): record[:0 + 0]\n+                  ValueIndex: array [:0 + 11] of bit\n+                  IsSet: array [:0 + 1] of bit\n+                end\n+                ByPlayerValue(1): array [:5 + 0] of record[:0 + 0]\n+                    ValueIndex: array [:0 + 11] of bit\n+                    IsSet: array [:0 + 1] of bit\n+                  end\n+              end\n+            end\n+        end\n+        Locales: record[:0 + 0]\n+          s2mv: array [:6 + 0] of record[:0 + 0]\n+              m_FileType: array [:0 + 4] of Byte\n+              m_Realm: array [:0 + 4] of Byte\n+              m_SHA256Hash: array [:0 + 32] of Byte\n+            end\n+          Langs: array [:5 + 0] of record[:0 + 0]\n+              Lang: array [:0 + 32] of bit\n+              s2ml: array [:6 + 0] of record[:0 + 0]\n+                  m_FileType: array [:0 + 4] of Byte\n+                  m_Realm: array [:0 + 4] of Byte\n+                  m_SHA256Hash: array [:0 + 32] of Byte\n+                end\n+            end\n+          fil: array [:0 + 128] of bit\n+          UsedMods: array [:5 + 0] of record[:0 + 0]\n+              ModId: record[:0 + 0]\n+                id: Integer(:32 + 0)\n+                ofs: Integer(:32 + 0)\n+              end\n+              Priority: array [:0 + 4] of bit\n+            end\n+        end\n+        ModParams: array [:7 + 0] of record[:0 + 0]\n+            ModId: record[:0 + 0]\n+              id: Integer(:32 + 0)\n+              ofs: Integer(:32 + 0)\n+            end\n+            n16: Integer(:16 + 0)\n+            n16: Integer(:16 + 0)\n+            n24: Integer(:24 + 0)\n+            n7: Integer(:7 + 0)\n+            n15: Integer(:15 + 0)\n+            f2: array [:0 + 2] of bit\n+            fil: array [:0 + 74] of bit\n+            s2mv: array [:6 + 0] of record[:0 + 0]\n+                m_FileType: array [:0 + 4] of Byte\n+                m_Realm: array [:0 + 4] of Byte\n+                m_SHA256Hash: array [:0 + 32] of Byte\n+              end\n+            flag: array [:0 + 1] of bit\n+            m_stringToon: record[:0 + 0]\n+              m_region: Integer(:8 + 0)\n+              m_programId: array [:0 + 32] of bit\n+              m_realm: Integer(:32 + 0)\n+              m_globalName: array [:7 + 2] of Byte\n+            end\n+            m_toon: record[:0 + 0]\n+              m_region: Integer(:8 + 0)\n+              m_programId: array [:0 + 32] of bit\n+              m_realm: Integer(:32 + 0)\n+              m_id: Integer(:64 + 0)\n+            end\n+            trttt: record[:0 + 0]\n+              b32: Optional:1 of (array [:0 + 32] of bit)\n+              b23: Optional:1 of (array [:0 + 23] of bit)\n+              b1: array [:0 + 1] of bit\n+              b32: Optional:1 of (array [:0 + 32] of bit)\n+              b3: array [:0 + 3] of bit\n+              b30: Integer(:30 + 0)\n+              b3: array [:0 + 3] of bit\n+            end\n+            filler: record[:0 + 0]\n+              word: array [:0 + 16] of bit\n+              b8: array [:0 + 8] of bit\n+              b8: array [:0 + 8] of bit\n+              b34: array [:0 + 34] of bit\n+              f54: Optional:1 of (array [:0 + 54] of bit)\n+              b1: array [:0 + 1] of bit\n+              b5: array [:0 + 5] of bit\n+              b5: array [:0 + 5] of bit\n+              b5: array [:0 + 5] of bit\n+            end\n+            bbbb: record[:0 + 0]\n+              ModId: record[:0 + 0]\n+                id: Integer(:32 + 0)\n+                ofs: Integer(:32 + 0)\n+              end\n+              n32: Integer(:32 + 0)\n+              f: array [:0 + 1] of bit\n+              n21: Integer(:21 + 0)\n+              CAFEBABE: Integer(:32 + 0)\n+            end\n+            fil28: Integer(:28 + 0)\n+            fil: array [:0 + 36] of bit\n+            hero: Optional:1 of (record[:0 + 0]\n+                b11: array [:0 + 11] of bit\n+                a93: array [:4 + 0] of record[:0 + 0]\n+                    num: Integer(:6 + 0)\n+                    b32: Integer(:32 + 0)\n+                    b16: Integer(:16 + 0)\n+                    b16: Integer(:16 + 0)\n+                    b23: Integer(:23 + 0)\n+                  end\n+                b4: array [:0 + 4] of bit\n+                a8*5: case (:4 + 0) of\n+                  None(0): array [:0 + 0] of bit\n+                  None(1): array [:0 + 0] of bit\n+                  None(2): array [:0 + 0] of bit\n+                  None(3): array [:0 + 0] of bit\n+                  None(4): array [:0 + 0] of bit\n+                  Data(5): record[:0 + 0]\n+                    b40: array [:0 + 40] of bit\n+                    b16: array [:0 + 16] of bit\n+                    b79: array [:0 + 79] of bit\n+                    b160: array [:0 + 160] of bit\n+                    b105: array [:0 + 105] of bit\n+                  end\n+                end\n+                a23: array [:7 + 0] of array [:0 + 23] of bit\n+                b11: array [:0 + 11] of bit\n+                bb: Optional:1 of (record[:0 + 0]\n+                    b38: array [:0 + 38] of bit\n+                    b16: Integer(:16 + 0)\n+                    b16: Integer(:16 + 0)\n+                  end)\n+                b1: array [:0 + 1] of bit\n+                hero: array [:5 + 0] of array [:0 + 32] of bit\n+                b23: array [:0 + 23] of bit\n+              end)\n+            ModDependencies: array [:6 + 0] of record[:0 + 0]\n+                id: Integer(:32 + 0)\n+                ofs: Integer(:32 + 0)\n+              end\n+            fil: array [:0 + 32] of bit\n+          end\n+        s2mh: array [:6 + 0] of record[:0 + 0]\n+            m_FileType: array [:0 + 4] of Byte\n+            m_Realm: array [:0 + 4] of Byte\n+            m_SHA256Hash: array [:0 + 32] of Byte\n+          end\n+        skins: array [:16 + 0] of array [:0 + 64] of bit\n+        hasSkins: array [:32 + 0] of array [:0 + 256] of bit\n+        InitData: record[:0 + 0]\n+          m_disabledHeroList: array [:8 + 0] of array [:0 + 32] of bit\n+          m_randomSeed: array [:0 + 32] of bit\n+          unk: array [:0 + 32] of bit\n+        end\n+        playersInfo: array [:5 + 0] of record[:0 + 0]\n+            m_Unk1: record[:0 + 0]\n+              m_Unk1: array [:0 + 32] of bit\n+              m_SlotId: array [:0 + 5] of bit\n+              m_toon: record[:0 + 0]\n+                m_region: Integer(:8 + 0)\n+                m_programId: array [:0 + 32] of bit\n+                m_realm: Integer(:32 + 0)\n+                m_id: Integer(:64 + 0)\n+              end\n+              m_Name: record[:0 + 0]\n+                m_stringToon: record[:0 + 0]\n+                  m_region: Integer(:8 + 0)\n+                  m_programId: array [:0 + 32] of bit\n+                  m_realm: Integer(:32 + 0)\n+                  m_globalName: array [:7 + 2] of Byte\n+                end\n+                m_Flags: array [:0 + 1] of bit\n+              end\n+              m_Unk4: array [:0 + 2] of bit\n+              m_SecName: Optional:1 of (record[:0 + 0]\n+                  m_Unk1: array [:0 + 2] of bit\n+                  m_stringToon: record[:0 + 0]\n+                    m_region: Integer(:8 + 0)\n+                    m_programId: array [:0 + 32] of bit\n+                    m_realm: Integer(:32 + 0)\n+                    m_globalName: array [:7 + 2] of Byte\n+                  end\n+                  m_Flags: array [:0 + 1] of bit\n+                end)\n+            end\n+            m_Unk2: array [:0 + 198] of bit\n+            m_Unk3: Optional:1 of (array [:0 + 64] of bit)\n+            m_Unk4: record[:0 + 0]\n+              m_UnkFlags1: array [:0 + 2] of bit\n+              m_Unk1: array [:0 + 35] of bit\n+              m_hasSilencePenalty: array [:0 + 1] of bit\n+              m_Unk2: array [:0 + 1] of bit\n+              m_hasVoiceSilencePenalty: array [:0 + 1] of bit\n+              m_isBlizzardStaff: array [:0 + 1] of bit\n+            end\n+            m_PartyInfo: Optional:1 of (array [:0 + 64] of bit)\n+            m_TagInfo: Optional:1 of (array [:7 + 0] of Byte)\n+            m_PlayerLevel: array [:0 + 32] of bit\n+            m_hasActiveBoost: array [:0 + 1] of bit\n+          end\n+        _end: record[:0 + 0]\n+          sss: array [:0 + 64] of bit\n+          m_toon: case (:1 + 0) of\n+            filler(0): array [:0 + 16] of bit\n+            m_toon(1): record[:0 + 0]\n+              m_region: Integer(:8 + 0)\n+              m_programId: array [:0 + 32] of bit\n+              m_realm: Integer(:32 + 0)\n+              m_id: Integer(:64 + 0)\n+            end\n+          end\n+          b87: array [:0 + 87] of bit\n+          a38: array [:4 + 1] of array [:0 + 38] of bit\n+          Unk: array [:0 + 1] of bit\n+          Neut: array [:4 + 1] of array [:0 + 32] of bit\n+          Hero: array [:5 + 0] of record[:0 + 0]\n+              b32: Integer(:32 + 0)\n+              HeroIcon: array [:11 + 0] of record[:0 + 0]\n+                  Hero: array [:0 + 32] of bit\n+                  ICON: Integer(:32 + 0)\n+                  b32: Integer(:32 + 0)\n+                end\n+              b11: array [:0 + 11] of bit\n+            end\n+          CSTM: array [:6 + 0] of array [:0 + 32] of bit\n+          a48: array [:5 + 0] of record[:0 + 0]\n+              b32: Integer(:32 + 0)\n+              b16: array [:0 + 16] of bit\n+            end\n+          b23: array [:0 + 23] of bit\n+          b32: array [:0 + 32] of bit\n+          _end_filler: array [:0 + 10] of bit\n+          b32: array [:0 + 32] of bit\n+          AllHeroes: array [:10 + 0] of record[:0 + 0]\n+              Name: array [:0 + 32] of bit\n+              b5: array [:0 + 5] of bit\n+              b128: array [:0 + 128] of bit\n+            end\n+          NewField: array [:0 + 2] of bit\n+        end\n+      end\n\\ No newline at end of file"
+          },
+          {
+            "filename": "battlelobby.py",
+            "patch": null
+          }
+        ],
+        "test_fixture_files_not_opened_or_downloaded": []
+      }
+    },
+    {
+      "id": 5,
+      "tool": "github_fetch_commit",
+      "args": {
+        "repo_full_name": "HeroesToolChest/Heroes.StormReplayParser",
+        "commit_sha": "e4b29f0443e9a8e056a1e318145b0493a8603dd7"
+      },
+      "result": {
+        "sha": "e4b29f0443e9a8e056a1e318145b0493a8603dd7",
+        "message": "Added player property IsPlatformMac",
+        "url": "https://github.com/HeroesToolChest/Heroes.StormReplayParser/commit/e4b29f0443e9a8e056a1e318145b0493a8603dd7",
+        "files": [
+          {
+            "filename": "Heroes.StormReplayParser/MpqFiles/ReplayGameEvents.cs",
+            "patch": "@@ -66,7 +66,11 @@ public static void Parse(StormReplay replay, ReadOnlySpan<byte> source)\n                         [13] = new StormGameEventData(bitReader.ReadBlobAsString(9)), // m_hotkeyProfile\n                     };\n \n+                    if (player is not null)\n+                        player.IsPlatformMac = structure[8]!.Boolean!.Value;\n+\n                     gameEvent = new StormGameEvent(player, timeStamp, gameEventType, new StormGameEventData(structure));\n+\n                     break;\n                 case StormGameEventType.SBankFileEvent:\n                     structure = new StormDataStructure<StormGameEventData>(1)\n@@ -1061,7 +1065,8 @@ public static void Parse(StormReplay replay, ReadOnlySpan<byte> source)\n \n                     gameEvent = new StormGameEvent(player, timeStamp, gameEventType, new StormGameEventData(structure));\n \n-                    SetPlayerTalent(player!, gameEvent.Value);\n+                    if (player is not null)\n+                        SetPlayerTalent(player, gameEvent.Value);\n \n                     break;\n                 case StormGameEventType.SHeroTalentTreeSelectionPanelToggledEvent:"
+          },
+          {
+            "filename": "Heroes.StormReplayParser/Player/StormPlayer.cs",
+            "patch": "@@ -103,6 +103,11 @@ public int? AccountLevel\n     /// </summary>\n     public long? PartyValue { get; set; } = null;\n \n+    /// <summary>\n+    /// Gets or sets a value indicating whether the player's platform is a mac.\n+    /// </summary>\n+    public bool IsPlatformMac { get; set; }\n+\n     /// <summary>\n     /// Gets or sets the computer player difficulty.\n     /// </summary>"
+          }
+        ],
+        "test_fixture_files_not_opened_or_downloaded": [
+          "Tests/Heroes.StormReplayParser.Tests/IndustrialDistrictMacPlayers1ReplayParserTests.cs",
+          "Tests/Heroes.StormReplayParser.Tests/Replays/IndustrialDistrictMacPlayers1.StormR"
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "tool": "github_fetch_commit",
+      "args": {
+        "repo_full_name": "HeroesToolChest/Heroes.StormReplayParser",
+        "commit_sha": "1bde6eb105a5fe61b95839d747c690508d57f741"
+      },
+      "result": {
+        "sha": "1bde6eb105a5fe61b95839d747c690508d57f741",
+        "message": "Fixed for no player name and without tag",
+        "url": "https://github.com/HeroesToolChest/Heroes.StormReplayParser/commit/1bde6eb105a5fe61b95839d747c690508d57f741",
+        "files": [
+          {
+            "filename": "Heroes.StormReplayParser/MpqFiles/ReplayServerBattlelobby.cs",
+            "patch": "@@ -399,9 +399,13 @@ public static void Parse(StormReplay replay, ReadOnlySpan<byte> source)\n                 if (!string.IsNullOrEmpty(battleTagName) && poundIndex < 0)\n                     throw new StormParseException($\"{_exceptionHeader}: Invalid battletag\");\n \n-                ReadOnlySpan<char> namePart = battleTagName.AsSpan().Slice(0, poundIndex);\n-                if (!namePart.SequenceEqual(player.Name))\n-                    throw new StormParseException($\"{_exceptionHeader}: Mismatch on battletag name with player name\");\n+                // check if there is no tag number\n+                if (poundIndex >= 0)\n+                {\n+                    ReadOnlySpan<char> namePart = battleTagName.AsSpan().Slice(0, poundIndex);\n+                    if (!namePart.SequenceEqual(player.Name))\n+                        throw new StormParseException($\"{_exceptionHeader}: Mismatch on battletag name with player name\");\n+                }\n \n                 player.BattleTagName = battleTagName;\n "
+          }
+        ],
+        "test_fixture_files_not_opened_or_downloaded": [
+          "Tests/Heroes.StormReplayParser.Tests/NoPlayerNamesNoTag_77548ReplayParserTests.cs",
+          "Tests/Heroes.StormReplayParser.Tests/Replays/NoPlayerNamesNoTag_77548.StormR"
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "tool": "github_search_commits",
+      "args": {
+        "query": "",
+        "repository_full_name": "EugenPolyakov/HOTS_battlelobby",
+        "topn": 30
+      },
+      "result": {
+        "commits": [
+          {
+            "sha": "85625327fd5623368410e5270a7eeb4869b40af9",
+            "message": "Added version list and all visualizations",
+            "url": "https://github.com/EugenPolyakov/HOTS_battlelobby/commit/85625327fd5623368410e5270a7eeb4869b40af9",
+            "repository": "EugenPolyakov/HOTS_battlelobby",
+            "created_at": "2023-07-27T19:57:40Z"
+          },
+          {
+            "sha": "dacda134582b82b5c073d2ceaae675331624ffe0",
+            "message": "Fixed some bugs in old versions\nUpdated visualization",
+            "url": "https://github.com/EugenPolyakov/HOTS_battlelobby/commit/dacda134582b82b5c073d2ceaae675331624ffe0",
+            "repository": "EugenPolyakov/HOTS_battlelobby",
+            "created_at": "2023-07-27T19:47:12Z"
+          },
+          {
+            "sha": "3c52c75755ab3ed98651b2b298ad98d82fc00f7e",
+            "message": "added structure visualization in readme\nfixed names\nfixed player info errors\nfixed some bugs",
+            "url": "https://github.com/EugenPolyakov/HOTS_battlelobby/commit/3c52c75755ab3ed98651b2b298ad98d82fc00f7e",
+            "repository": "EugenPolyakov/HOTS_battlelobby",
+            "created_at": "2023-07-21T21:20:53Z"
+          },
+          {
+            "sha": "2d4d7535ee61bbd212aa10ac00dd4ead25200b09",
+            "message": "Create README.md",
+            "url": "https://github.com/EugenPolyakov/HOTS_battlelobby/commit/2d4d7535ee61bbd212aa10ac00dd4ead25200b09",
+            "repository": "EugenPolyakov/HOTS_battlelobby",
+            "created_at": "2023-07-19T23:25:56Z"
+          },
+          {
+            "sha": "b36cc5624d4b0b89167bfc57eb2d9b68601c8b65",
+            "message": "initial commit",
+            "url": "https://github.com/EugenPolyakov/HOTS_battlelobby/commit/b36cc5624d4b0b89167bfc57eb2d9b68601c8b65",
+            "repository": "EugenPolyakov/HOTS_battlelobby",
+            "created_at": "2023-07-19T23:23:38Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "tool": "github_fetch_commit",
+      "args": {
+        "repo_full_name": "EugenPolyakov/HOTS_battlelobby",
+        "commit_sha": "dacda134582b82b5c073d2ceaae675331624ffe0"
+      },
+      "result": {
+        "sha": "dacda134582b82b5c073d2ceaae675331624ffe0",
+        "message": "Fixed some bugs in old versions\nUpdated visualization",
+        "url": "https://github.com/EugenPolyakov/HOTS_battlelobby/commit/dacda134582b82b5c073d2ceaae675331624ffe0",
+        "files": [
+          {
+            "filename": "README.md",
+            "patch": "@@ -34,9 +34,9 @@ Visualization for last version (array of Byte is byte aligned):\n                       NewField16: Integer(:16 + 0)\n                       NewField16: Integer(:16 + 0)\n                     end)\n-                  f1: array [:0 + 1] of bit\n-                  f1: array [:0 + 1] of bit\n-                  f1: array [:0 + 1] of bit\n+                  f1: Boolean:1\n+                  f1: Boolean:1\n+                  f1: Boolean:1\n                 end\n               EnabledWithAttribs: Optional:1 of (record[:0 + 0]\n                   NewField25: array [:0 + 25] of bit\n@@ -59,7 +59,7 @@ Visualization for last version (array of Byte is byte aligned):\n                   end\n                 NewField: record[:0 + 0]\n                   b11: array [:0 + 11] of bit\n-                  f1: array [:0 + 1] of bit\n+                  f1: Boolean:1\n                   b9: array [:0 + 9] of bit\n                 end\n               end\n@@ -75,11 +75,11 @@ Visualization for last version (array of Byte is byte aligned):\n               Values: case (:8 + 0) of\n                 GlobalValue(0): record[:0 + 0]\n                   ValueIndex: array [:0 + 11] of bit\n-                  IsSet: array [:0 + 1] of bit\n+                  IsSet: Boolean:1\n                 end\n                 ByPlayerValue(1): array [:5 + 0] of record[:0 + 0]\n                     ValueIndex: array [:0 + 11] of bit\n-                    IsSet: array [:0 + 1] of bit\n+                    IsSet: Boolean:1\n                   end\n               end\n             end\n@@ -124,7 +124,7 @@ Visualization for last version (array of Byte is byte aligned):\n                 m_Realm: array [:0 + 4] of Byte\n                 m_SHA256Hash: array [:0 + 32] of Byte\n               end\n-            flag: array [:0 + 1] of bit\n+            flag: Boolean:1\n             m_stringToon: record[:0 + 0]\n               m_region: Integer(:8 + 0)\n               m_programId: array [:0 + 32] of bit\n@@ -140,7 +140,7 @@ Visualization for last version (array of Byte is byte aligned):\n             trttt: record[:0 + 0]\n               b32: Optional:1 of (array [:0 + 32] of bit)\n               b23: Optional:1 of (array [:0 + 23] of bit)\n-              b1: array [:0 + 1] of bit\n+              b1: Boolean:1\n               b32: Optional:1 of (array [:0 + 32] of bit)\n               b3: array [:0 + 3] of bit\n               b30: Integer(:30 + 0)\n@@ -152,7 +152,7 @@ Visualization for last version (array of Byte is byte aligned):\n               b8: array [:0 + 8] of bit\n               b34: array [:0 + 34] of bit\n               f54: Optional:1 of (array [:0 + 54] of bit)\n-              b1: array [:0 + 1] of bit\n+              b1: Boolean:1\n               b5: array [:0 + 5] of bit\n               b5: array [:0 + 5] of bit\n               b5: array [:0 + 5] of bit\n@@ -163,7 +163,7 @@ Visualization for last version (array of Byte is byte aligned):\n                 ofs: Integer(:32 + 0)\n               end\n               n32: Integer(:32 + 0)\n-              f: array [:0 + 1] of bit\n+              f: Boolean:1\n               n21: Integer(:21 + 0)\n               CAFEBABE: Integer(:32 + 0)\n             end\n@@ -200,7 +200,7 @@ Visualization for last version (array of Byte is byte aligned):\n                     b16: Integer(:16 + 0)\n                     b16: Integer(:16 + 0)\n                   end)\n-                b1: array [:0 + 1] of bit\n+                b1: Boolean:1\n                 hero: array [:5 + 0] of array [:0 + 32] of bit\n                 b23: array [:0 + 23] of bit\n               end)\n@@ -219,13 +219,13 @@ Visualization for last version (array of Byte is byte aligned):\n         hasSkins: array [:32 + 0] of array [:0 + 256] of bit\n         InitData: record[:0 + 0]\n           m_disabledHeroList: array [:8 + 0] of array [:0 + 32] of bit\n-          m_randomSeed: array [:0 + 32] of bit\n-          unk: array [:0 + 32] of bit\n+          m_randomSeed: Integer(:32 + 0)\n+          unk: Integer(:32 + 0)\n         end\n         playersInfo: array [:5 + 0] of record[:0 + 0]\n             m_Unk1: record[:0 + 0]\n               m_Unk1: array [:0 + 32] of bit\n-              m_SlotId: array [:0 + 5] of bit\n+              m_SlotId: Integer(:5 + 0)\n               m_toon: record[:0 + 0]\n                 m_region: Integer(:8 + 0)\n                 m_programId: array [:0 + 32] of bit\n@@ -239,7 +239,7 @@ Visualization for last version (array of Byte is byte aligned):\n                   m_realm: Integer(:32 + 0)\n                   m_globalName: array [:7 + 2] of Byte\n                 end\n-                m_Flags: array [:0 + 1] of bit\n+                m_Flags: Boolean:1\n               end\n               m_Unk4: array [:0 + 2] of bit\n               m_SecName: Optional:1 of (record[:0 + 0]\n@@ -250,23 +250,30 @@ Visualization for last version (array of Byte is byte aligned):\n                     m_realm: Integer(:32 + 0)\n                     m_globalName: array [:7 + 2] of Byte\n                   end\n-                  m_Flags: array [:0 + 1] of bit\n+                  m_Flags: Boolean:1\n                 end)\n             end\n             m_Unk2: array [:0 + 198] of bit\n             m_Unk3: Optional:1 of (array [:0 + 64] of bit)\n             m_Unk4: record[:0 + 0]\n-              m_UnkFlags1: array [:0 + 2] of bit\n-              m_Unk1: array [:0 + 35] of bit\n-              m_hasSilencePenalty: array [:0 + 1] of bit\n-              m_Unk2: array [:0 + 1] of bit\n-              m_hasVoiceSilencePenalty: array [:0 + 1] of bit\n-              m_isBlizzardStaff: array [:0 + 1] of bit\n+              m_UnkFlags: array [:0 + 4] of bit\n+              m_build: Integer(:32 + 0)\n+              m_Skins: case (:1 + 0) of\n+                m_Skins(0): record[:0 + 0]\n+                  m_Skins: array [:12 + 0] of bit\n+                  unk: Boolean:1\n+                end\n+                none(1): array [:0 + 0] of bit\n+              end\n+              m_hasSilencePenalty: Boolean:1\n+              unk2: Boolean:1\n+              m_hasVoiceSilencePenalty: Boolean:1\n+              m_isBlizzardStaff: Boolean:1\n             end\n             m_PartyInfo: Optional:1 of (array [:0 + 64] of bit)\n             m_TagInfo: Optional:1 of (array [:7 + 0] of Byte)\n-            m_PlayerLevel: array [:0 + 32] of bit\n-            m_hasActiveBoost: array [:0 + 1] of bit\n+            m_PlayerLevel: Integer(:32 + 0)\n+            m_hasActiveBoost: Boolean:1\n           end\n         _end: record[:0 + 0]\n           sss: array [:0 + 64] of bit\n@@ -276,18 +283,19 @@ Visualization for last version (array of Byte is byte aligned):\n               m_region: Integer(:8 + 0)\n               m_programId: array [:0 + 32] of bit\n               m_realm: Integer(:32 + 0)\n-              m_id: Integer(:64 + 0)\n+              m_ammId: array [:0 + 32] of bit\n+              unk: array [:0 + 32] of bit\n             end\n           end\n           b87: array [:0 + 87] of bit\n           a38: array [:4 + 1] of array [:0 + 38] of bit\n-          Unk: array [:0 + 1] of bit\n+          unk: Boolean:1\n           Neut: array [:4 + 1] of array [:0 + 32] of bit\n           Hero: array [:5 + 0] of record[:0 + 0]\n               b32: Integer(:32 + 0)\n               HeroIcon: array [:11 + 0] of record[:0 + 0]\n                   Hero: array [:0 + 32] of bit\n-                  ICON: Integer(:32 + 0)\n+                  ICON: array [:0 + 32] of bit\n                   b32: Integer(:32 + 0)\n                 end\n               b11: array [:0 + 11] of bit"
+          },
+          {
+            "filename": "battlelobby.py",
+            "patch": null
+          }
+        ],
+        "test_fixture_files_not_opened_or_downloaded": []
+      }
+    }
+  ],
+  "limits": [
+    "Commit patch text is the tool-returned source projection, not an independently downloaded canonical Git blob.",
+    "A null generated-Python patch remains unavailable; no claim that its full history was reviewed.",
+    "No fixture binary or replay was fetched; fixture filenames in commit metadata do not constitute acquisitions.",
+    "All new calls are read-only GitHub primary-source/search requests; no player data is opened."
+  ]
+}

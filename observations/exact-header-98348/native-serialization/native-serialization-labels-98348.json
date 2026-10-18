@@ -1,0 +1,3345 @@
+{
+  "RTTI_data_structure_candidates": [
+    {
+      "name_location": {
+        "file_offset": 50122096,
+        "rva": 50126192,
+        "section": ".data"
+      },
+      "type_label": ".?AUStatsMultiplayer@Base@HsProfileObj@@",
+      "validated_data_structure_candidates": [
+        {
+          "class_hierarchy_rva": 46184152,
+          "complete_object_locator": {
+            "file_offset": 46180016,
+            "rva": 46184112,
+            "section": ".rdata"
+          },
+          "constructor_displacement_offset": 0,
+          "offset_in_complete_object": 0,
+          "type_descriptor_rva": 50126176
+        }
+      ]
+    },
+    {
+      "name_location": {
+        "file_offset": 50127968,
+        "rva": 50132064,
+        "section": ".data"
+      },
+      "type_label": ".?AV?$Callback@XAEBV?$Vector@PEBVWordCollection@Words@@@@AEBV1@@@",
+      "validated_data_structure_candidates": [
+        {
+          "class_hierarchy_rva": 46193176,
+          "complete_object_locator": {
+            "file_offset": 46189040,
+            "rva": 46193136,
+            "section": ".rdata"
+          },
+          "constructor_displacement_offset": 0,
+          "offset_in_complete_object": 0,
+          "type_descriptor_rva": 50132048
+        }
+      ]
+    },
+    {
+      "name_location": {
+        "file_offset": 50128912,
+        "rva": 50133008,
+        "section": ".data"
+      },
+      "type_label": ".?AV?$FunctionParam1Arg2@XPEAVSystem@@AEBV?$Vector@PEBVWordCollection@Words@@@@AEBV2@@Callback@Internal@@",
+      "validated_data_structure_candidates": [
+        {
+          "class_hierarchy_rva": 46194600,
+          "complete_object_locator": {
+            "file_offset": 46190464,
+            "rva": 46194560,
+            "section": ".rdata"
+          },
+          "constructor_displacement_offset": 0,
+          "offset_in_complete_object": 0,
+          "type_descriptor_rva": 50132992
+        }
+      ]
+    },
+    {
+      "name_location": {
+        "file_offset": 50129200,
+        "rva": 50133296,
+        "section": ".data"
+      },
+      "type_label": ".?AV?$SharedCountDestruct@V?$FunctionParam1Arg2@XPEAVSystem@@AEBV?$Vector@PEBVWordCollection@Words@@@@AEBV2@@Callback@Internal@@$0A@@Internal@@",
+      "validated_data_structure_candidates": [
+        {
+          "class_hierarchy_rva": 46194856,
+          "complete_object_locator": {
+            "file_offset": 46190720,
+            "rva": 46194816,
+            "section": ".rdata"
+          },
+          "constructor_displacement_offset": 0,
+          "offset_in_complete_object": 0,
+          "type_descriptor_rva": 50133280
+        }
+      ]
+    },
+    {
+      "name_location": {
+        "file_offset": 50131696,
+        "rva": 50135792,
+        "section": ".data"
+      },
+      "type_label": ".?AV?$SharedCountDelete@V?$ArrayLength@UPlayerData@Summary@S2Game@HsBnet@@$0BA@_K@@$0A@@Internal@@",
+      "validated_data_structure_candidates": [
+        {
+          "class_hierarchy_rva": 46197856,
+          "complete_object_locator": {
+            "file_offset": 46193720,
+            "rva": 46197816,
+            "section": ".rdata"
+          },
+          "constructor_displacement_offset": 0,
+          "offset_in_complete_object": 0,
+          "type_descriptor_rva": 50135776
+        }
+      ]
+    },
+    {
+      "name_location": {
+        "file_offset": 50136016,
+        "rva": 50140112,
+        "section": ".data"
+      },
+      "type_label": ".?AV?$SharedCountDestruct@VReplayPostTask@Creep@@$0A@@Internal@@",
+      "validated_data_structure_candidates": [
+        {
+          "class_hierarchy_rva": 46201672,
+          "complete_object_locator": {
+            "file_offset": 46197536,
+            "rva": 46201632,
+            "section": ".rdata"
+          },
+          "constructor_displacement_offset": 0,
+          "offset_in_complete_object": 0,
+          "type_descriptor_rva": 50140096
+        }
+      ]
+    },
+    {
+      "name_location": {
+        "file_offset": 50137344,
+        "rva": 50141440,
+        "section": ".data"
+      },
+      "type_label": ".?AVReplayConnectResponseContext@S2Game@Layer@Creep@@",
+      "validated_data_structure_candidates": [
+        {
+          "class_hierarchy_rva": 46202928,
+          "complete_object_locator": {
+            "file_offset": 46198792,
+            "rva": 46202888,
+            "section": ".rdata"
+          },
+          "constructor_displacement_offset": 0,
+          "offset_in_complete_object": 0,
+          "type_descriptor_rva": 50141424
+        }
+      ]
+    },
+    {
+      "name_location": {
+        "file_offset": 50157776,
+        "rva": 50161872,
+        "section": ".data"
+      },
+      "type_label": ".?AV?$SharedCountDelete@VWordCollectionImporter@Words@Creep@@$0A@@Internal@@",
+      "validated_data_structure_candidates": [
+        {
+          "class_hierarchy_rva": 46224200,
+          "complete_object_locator": {
+            "file_offset": 46220064,
+            "rva": 46224160,
+            "section": ".rdata"
+          },
+          "constructor_displacement_offset": 0,
+          "offset_in_complete_object": 0,
+          "type_descriptor_rva": 50161856
+        }
+      ]
+    },
+    {
+      "name_location": {
+        "file_offset": 50157872,
+        "rva": 50161968,
+        "section": ".data"
+      },
+      "type_label": ".?AV?$FunctionParam2Arg1@XV?$SharedPtr@VWordCollectionImporter@Words@Creep@@$0A@@@PEAVWordCollection@Words@@AEBUResolvedStreamItem@Cache@HsBnet@@@Callback@Internal@@",
+      "validated_data_structure_candidates": [
+        {
+          "class_hierarchy_rva": 46224328,
+          "complete_object_locator": {
+            "file_offset": 46220192,
+            "rva": 46224288,
+            "section": ".rdata"
+          },
+          "constructor_displacement_offset": 0,
+          "offset_in_complete_object": 0,
+          "type_descriptor_rva": 50161952
+        }
+      ]
+    },
+    {
+      "name_location": {
+        "file_offset": 50169264,
+        "rva": 50173360,
+        "section": ".data"
+      },
+      "type_label": ".?AV?$BSNEncodedObjectPtr@URewardInfo@Starcraft2@Event@HsBnet@@UEventProtocol@@$00@HsBSN@@",
+      "validated_data_structure_candidates": [
+        {
+          "class_hierarchy_rva": 46232192,
+          "complete_object_locator": {
+            "file_offset": 46228056,
+            "rva": 46232152,
+            "section": ".rdata"
+          },
+          "constructor_displacement_offset": 0,
+          "offset_in_complete_object": 0,
+          "type_descriptor_rva": 50173344
+        }
+      ]
+    },
+    {
+      "name_location": {
+        "file_offset": 50180168,
+        "rva": 50184264,
+        "section": ".data"
+      },
+      "type_label": ".?AVS2ReplayLobbyCacheCallback@Creep@@",
+      "validated_data_structure_candidates": [
+        {
+          "class_hierarchy_rva": 46243040,
+          "complete_object_locator": {
+            "file_offset": 46238904,
+            "rva": 46243000,
+            "section": ".rdata"
+          },
+          "constructor_displacement_offset": 0,
+          "offset_in_complete_object": 0,
+          "type_descriptor_rva": 50184248
+        }
+      ]
+    },
+    {
+      "name_location": {
+        "file_offset": 50180224,
+        "rva": 50184320,
+        "section": ".data"
+      },
+      "type_label": ".?AV?$Callback@XAEBUGetReplayInfoResponse@Event@Request@S2GameEngine@2HsBnet@@@@",
+      "validated_data_structure_candidates": [
+        {
+          "class_hierarchy_rva": 46243160,
+          "complete_object_locator": {
+            "file_offset": 46239024,
+            "rva": 46243120,
+            "section": ".rdata"
+          },
+          "constructor_displacement_offset": 0,
+          "offset_in_complete_object": 0,
+          "type_descriptor_rva": 50184304
+        }
+      ]
+    },
+    {
+      "name_location": {
+        "file_offset": 50180336,
+        "rva": 50184432,
+        "section": ".data"
+      },
+      "type_label": ".?AV?$SharedCountDestruct@UHeaderDownloadContext@S2ReplayLobbyCacheCallback@Creep@@$0A@@Internal@@",
+      "validated_data_structure_candidates": [
+        {
+          "class_hierarchy_rva": 46243280,
+          "complete_object_locator": {
+            "file_offset": 46239144,
+            "rva": 46243240,
+            "section": ".rdata"
+          },
+          "constructor_displacement_offset": 0,
+          "offset_in_complete_object": 0,
+          "type_descriptor_rva": 50184416
+        }
+      ]
+    },
+    {
+      "name_location": {
+        "file_offset": 50180464,
+        "rva": 50184560,
+        "section": ".data"
+      },
+      "type_label": ".?AV?$MethodParam0Arg0@VS2ReplayLobbyCacheCallback@Creep@@PEAV12@X@Callback@Internal@@",
+      "validated_data_structure_candidates": [
+        {
+          "class_hierarchy_rva": 46243408,
+          "complete_object_locator": {
+            "file_offset": 46239272,
+            "rva": 46243368,
+            "section": ".rdata"
+          },
+          "constructor_displacement_offset": 0,
+          "offset_in_complete_object": 0,
+          "type_descriptor_rva": 50184544
+        }
+      ]
+    },
+    {
+      "name_location": {
+        "file_offset": 50180576,
+        "rva": 50184672,
+        "section": ".data"
+      },
+      "type_label": ".?AV?$MethodParam0Arg1@VS2ReplayLobbyCacheCallback@Creep@@PEAV12@XG@Callback@Internal@@",
+      "validated_data_structure_candidates": [
+        {
+          "class_hierarchy_rva": 46243536,
+          "complete_object_locator": {
+            "file_offset": 46239400,
+            "rva": 46243496,
+            "section": ".rdata"
+          },
+          "constructor_displacement_offset": 0,
+          "offset_in_complete_object": 0,
+          "type_descriptor_rva": 50184656
+        }
+      ]
+    },
+    {
+      "name_location": {
+        "file_offset": 50180688,
+        "rva": 50184784,
+        "section": ".data"
+      },
+      "type_label": ".?AV?$MethodParam0Arg1@VS2ReplayLobbyCacheCallback@Creep@@PEAV12@XAEBUGetReplayInfoResponse@Event@Request@S2GameEngine@4HsBnet@@@Callback@Internal@@",
+      "validated_data_structure_candidates": [
+        {
+          "class_hierarchy_rva": 46243664,
+          "complete_object_locator": {
+            "file_offset": 46239528,
+            "rva": 46243624,
+            "section": ".rdata"
+          },
+          "constructor_displacement_offset": 0,
+          "offset_in_complete_object": 0,
+          "type_descriptor_rva": 50184768
+        }
+      ]
+    },
+    {
+      "name_location": {
+        "file_offset": 50180864,
+        "rva": 50184960,
+        "section": ".data"
+      },
+      "type_label": ".?AV?$MethodParam0Arg2@VS2ReplayLobbyCacheCallback@Creep@@PEAV12@XIG@Callback@Internal@@",
+      "validated_data_structure_candidates": [
+        {
+          "class_hierarchy_rva": 46243792,
+          "complete_object_locator": {
+            "file_offset": 46239656,
+            "rva": 46243752,
+            "section": ".rdata"
+          },
+          "constructor_displacement_offset": 0,
+          "offset_in_complete_object": 0,
+          "type_descriptor_rva": 50184944
+        }
+      ]
+    },
+    {
+      "name_location": {
+        "file_offset": 50180976,
+        "rva": 50185072,
+        "section": ".data"
+      },
+      "type_label": ".?AV?$SharedCountDestruct@V?$MethodParam0Arg0@VS2ReplayLobbyCacheCallback@Creep@@PEAV12@X@Callback@Internal@@$0A@@Internal@@",
+      "validated_data_structure_candidates": [
+        {
+          "class_hierarchy_rva": 46243920,
+          "complete_object_locator": {
+            "file_offset": 46239784,
+            "rva": 46243880,
+            "section": ".rdata"
+          },
+          "constructor_displacement_offset": 0,
+          "offset_in_complete_object": 0,
+          "type_descriptor_rva": 50185056
+        }
+      ]
+    },
+    {
+      "name_location": {
+        "file_offset": 50181120,
+        "rva": 50185216,
+        "section": ".data"
+      },
+      "type_label": ".?AV?$SharedCountDestruct@V?$MethodParam0Arg1@VS2ReplayLobbyCacheCallback@Creep@@PEAV12@XG@Callback@Internal@@$0A@@Internal@@",
+      "validated_data_structure_candidates": [
+        {
+          "class_hierarchy_rva": 46244048,
+          "complete_object_locator": {
+            "file_offset": 46239912,
+            "rva": 46244008,
+            "section": ".rdata"
+          },
+          "constructor_displacement_offset": 0,
+          "offset_in_complete_object": 0,
+          "type_descriptor_rva": 50185200
+        }
+      ]
+    },
+    {
+      "name_location": {
+        "file_offset": 50181264,
+        "rva": 50185360,
+        "section": ".data"
+      },
+      "type_label": ".?AV?$SharedCountDestruct@V?$MethodParam0Arg1@VS2ReplayLobbyCacheCallback@Creep@@PEAV12@XAEBUGetReplayInfoResponse@Event@Request@S2GameEngine@4HsBnet@@@Callback@Internal@@$0A@@Internal@@",
+      "validated_data_structure_candidates": [
+        {
+          "class_hierarchy_rva": 46244176,
+          "complete_object_locator": {
+            "file_offset": 46240040,
+            "rva": 46244136,
+            "section": ".rdata"
+          },
+          "constructor_displacement_offset": 0,
+          "offset_in_complete_object": 0,
+          "type_descriptor_rva": 50185344
+        }
+      ]
+    },
+    {
+      "name_location": {
+        "file_offset": 50181472,
+        "rva": 50185568,
+        "section": ".data"
+      },
+      "type_label": ".?AV?$SharedCountDestruct@V?$MethodParam0Arg2@VS2ReplayLobbyCacheCallback@Creep@@PEAV12@XIG@Callback@Internal@@$0A@@Internal@@",
+      "validated_data_structure_candidates": [
+        {
+          "class_hierarchy_rva": 46244304,
+          "complete_object_locator": {
+            "file_offset": 46240168,
+            "rva": 46244264,
+            "section": ".rdata"
+          },
+          "constructor_displacement_offset": 0,
+          "offset_in_complete_object": 0,
+          "type_descriptor_rva": 50185552
+        }
+      ]
+    },
+    {
+      "name_location": {
+        "file_offset": 50181616,
+        "rva": 50185712,
+        "section": ".data"
+      },
+      "type_label": ".?AVReplayFileUploadTask@Creep@@",
+      "validated_data_structure_candidates": [
+        {
+          "class_hierarchy_rva": 46244432,
+          "complete_object_locator": {
+            "file_offset": 46240296,
+            "rva": 46244392,
+            "section": ".rdata"
+          },
+          "constructor_displacement_offset": 0,
+          "offset_in_complete_object": 0,
+          "type_descriptor_rva": 50185696
+        }
+      ]
+    },
+    {
+      "name_location": {
+        "file_offset": 50181792,
+        "rva": 50185888,
+        "section": ".data"
+      },
+      "type_label": ".?AV?$MethodParam0Arg1@VReplayPostTask@Creep@@PEAV12@XAEBV?$Array@E$0CI@@@@Callback@Internal@@",
+      "validated_data_structure_candidates": [
+        {
+          "class_hierarchy_rva": 46244816,
+          "complete_object_locator": {
+            "file_offset": 46240680,
+            "rva": 46244776,
+            "section": ".rdata"
+          },
+          "constructor_displacement_offset": 0,
+          "offset_in_complete_object": 0,
+          "type_descriptor_rva": 50185872
+        }
+      ]
+    },
+    {
+      "name_location": {
+        "file_offset": 50181904,
+        "rva": 50186000,
+        "section": ".data"
+      },
+      "type_label": ".?AV?$MethodParam0Arg1@VReplayPostTask@Creep@@PEAV12@XG@Callback@Internal@@",
+      "validated_data_structure_candidates": [
+        {
+          "class_hierarchy_rva": 46244944,
+          "complete_object_locator": {
+            "file_offset": 46240808,
+            "rva": 46244904,
+            "section": ".rdata"
+          },
+          "constructor_displacement_offset": 0,
+          "offset_in_complete_object": 0,
+          "type_descriptor_rva": 50185984
+        }
+      ]
+    },
+    {
+      "name_location": {
+        "file_offset": 50182000,
+        "rva": 50186096,
+        "section": ".data"
+      },
+      "type_label": ".?AV?$MethodParam0Arg2@VReplayPostTask@Creep@@PEAV12@XAEBV?$Array@E$0CI@@@E@Callback@Internal@@",
+      "validated_data_structure_candidates": [
+        {
+          "class_hierarchy_rva": 46245072,
+          "complete_object_locator": {
+            "file_offset": 46240936,
+            "rva": 46245032,
+            "section": ".rdata"
+          },
+          "constructor_displacement_offset": 0,
+          "offset_in_complete_object": 0,
+          "type_descriptor_rva": 50186080
+        }
+      ]
+    },
+    {
+      "name_location": {
+        "file_offset": 50182112,
+        "rva": 50186208,
+        "section": ".data"
+      },
+      "type_label": ".?AV?$SharedCountDestruct@VReplayFileUploadTask@Creep@@$0A@@Internal@@",
+      "validated_data_structure_candidates": [
+        {
+          "class_hierarchy_rva": 46245200,
+          "complete_object_locator": {
+            "file_offset": 46241064,
+            "rva": 46245160,
+            "section": ".rdata"
+          },
+          "constructor_displacement_offset": 0,
+          "offset_in_complete_object": 0,
+          "type_descriptor_rva": 50186192
+        }
+      ]
+    },
+    {
+      "name_location": {
+        "file_offset": 50182208,
+        "rva": 50186304,
+        "section": ".data"
+      },
+      "type_label": ".?AV?$SharedCountDestruct@V?$MethodParam0Arg1@VReplayPostTask@Creep@@PEAV12@XAEBV?$Array@E$0CI@@@@Callback@Internal@@$0A@@Internal@@",
+      "validated_data_structure_candidates": [
+        {
+          "class_hierarchy_rva": 46245328,
+          "complete_object_locator": {
+            "file_offset": 46241192,
+            "rva": 46245288,
+            "section": ".rdata"
+          },
+          "constructor_displacement_offset": 0,
+          "offset_in_complete_object": 0,
+          "type_descriptor_rva": 50186288
+        }
+      ]
+    },
+    {
+      "name_location": {
+        "file_offset": 50182368,
+        "rva": 50186464,
+        "section": ".data"
+      },
+      "type_label": ".?AV?$SharedCountDestruct@V?$MethodParam0Arg1@VReplayPostTask@Creep@@PEAV12@XG@Callback@Internal@@$0A@@Internal@@",
+      "validated_data_structure_candidates": [
+        {
+          "class_hierarchy_rva": 46245456,
+          "complete_object_locator": {
+            "file_offset": 46241320,
+            "rva": 46245416,
+            "section": ".rdata"
+          },
+          "constructor_displacement_offset": 0,
+          "offset_in_complete_object": 0,
+          "type_descriptor_rva": 50186448
+        }
+      ]
+    },
+    {
+      "name_location": {
+        "file_offset": 50182512,
+        "rva": 50186608,
+        "section": ".data"
+      },
+      "type_label": ".?AV?$SharedCountDestruct@V?$MethodParam0Arg2@VReplayPostTask@Creep@@PEAV12@XAEBV?$Array@E$0CI@@@E@Callback@Internal@@$0A@@Internal@@",
+      "validated_data_structure_candidates": [
+        {
+          "class_hierarchy_rva": 46245584,
+          "complete_object_locator": {
+            "file_offset": 46241448,
+            "rva": 46245544,
+            "section": ".rdata"
+          },
+          "constructor_displacement_offset": 0,
+          "offset_in_complete_object": 0,
+          "type_descriptor_rva": 50186592
+        }
+      ]
+    }
+  ],
+  "availability32byte_record_meaning_proven": false,
+  "binary_copy_or_disassembly_dump_saved": false,
+  "code_instructions_decoded": false,
+  "debugger_process_or_injection_used": false,
+  "excluded_non_label_counts": {
+    "non-label-or-long-ASCII": 329
+  },
+  "existing_disassembler_detection": {
+    "Ghidra_directories_present": [
+      "C:\\tools\\ghidra_12.0.4_PUBLIC",
+      "C:\\tools\\Ghidra"
+    ],
+    "Ghidra_or_headless_analysis_invoked": false,
+    "PATH_tools": {
+      "dumpbin": null,
+      "llvm-objdump": null,
+      "objdump": null
+    },
+    "Python_modules": {
+      "capstone": false,
+      "iced_x86": false,
+      "lief": false,
+      "pefile": false,
+      "yara": false
+    }
+  },
+  "format": "hots-native-serialization-label-research-v1",
+  "game_image_executed_or_loaded": false,
+  "game_or_client_DLL_loaded": false,
+  "instruction_boundaries_proven": false,
+  "limitations": [
+    "String presence and even an RTTI data relationship do not establish a serializer or field layout.",
+    "Reward catalog type/property names are separated from possible serialization labels; neither alone binds the opaque fields.",
+    "No disassembler was installed. Raw opcode byte forms are unvalidated hints, not established instruction crossreferences.",
+    "Only allowlisted short static labels are emitted; paths, arbitrary format strings and longer/non-label text are excluded.",
+    "No old-build executable comparison, game execution, player-data interpretation or replay rewrite is performed."
+  ],
+  "new_network_requests": 0,
+  "old174_to_new198_mapping_proven": false,
+  "producer_sha256": "4c43053e77a9ee4997ab972f6d039f31e1e92902c5e58d514aa90b0af4bdb523",
+  "raw_RIP_relative_byte_hints": [],
+  "repo_modified": false,
+  "safe_label_counts": {
+    "MSVC-RTTI-type-name-candidate": 108,
+    "field-spelling-candidate": 200,
+    "map-namespace-label": 4,
+    "other-target-keyword-label": 2129,
+    "replay-stream-or-battlelobby-label": 53,
+    "reward-catalog-type-label": 58,
+    "serialization-word-label": 15
+  },
+  "saved_label_counts": {
+    "MSVC-RTTI-type-name-candidate": 108,
+    "field-spelling-candidate": 48,
+    "map-namespace-label": 4,
+    "other-target-keyword-label": 44,
+    "replay-stream-or-battlelobby-label": 53,
+    "reward-catalog-type-label": 48,
+    "serialization-word-label": 15
+  },
+  "sections": [
+    {
+      "characteristics": 1610612768,
+      "name": ".text",
+      "raw_offset": 2048,
+      "raw_size": 40028160,
+      "rva": 4096,
+      "virtual_size": 40027324
+    },
+    {
+      "characteristics": 1073741888,
+      "name": ".rdata",
+      "raw_offset": 40030208,
+      "raw_size": 9441280,
+      "rva": 40034304,
+      "virtual_size": 9439360
+    },
+    {
+      "characteristics": 3221225536,
+      "name": ".data",
+      "raw_offset": 49471488,
+      "raw_size": 733184,
+      "rva": 49475584,
+      "virtual_size": 20224452
+    },
+    {
+      "characteristics": 1073741888,
+      "name": ".pdata",
+      "raw_offset": 50204672,
+      "raw_size": 2451456,
+      "rva": 69701632,
+      "virtual_size": 2450340
+    },
+    {
+      "characteristics": 1073741888,
+      "name": "_RDATA",
+      "raw_offset": 52656128,
+      "raw_size": 47104,
+      "rva": 72155136,
+      "virtual_size": 45104
+    },
+    {
+      "characteristics": 1073741888,
+      "name": ".rsrc",
+      "raw_offset": 52703232,
+      "raw_size": 364544,
+      "rva": 72204288,
+      "virtual_size": 363464
+    },
+    {
+      "characteristics": 1107296320,
+      "name": ".reloc",
+      "raw_offset": 53067776,
+      "raw_size": 495616,
+      "rva": 72568832,
+      "virtual_size": 495444
+    }
+  ],
+  "selected_label_limit": 320,
+  "selected_labels": [
+    {
+      "category": "replay-stream-or-battlelobby-label",
+      "encoding": "ASCII",
+      "file_offset": 40882376,
+      "label": "CBattleLobbySlotPulldown",
+      "rva": 40886472,
+      "section": ".rdata"
+    },
+    {
+      "category": "replay-stream-or-battlelobby-label",
+      "encoding": "ASCII",
+      "file_offset": 40883936,
+      "label": "CBattleLobbyTeamPanel",
+      "rva": 40888032,
+      "section": ".rdata"
+    },
+    {
+      "category": "replay-stream-or-battlelobby-label",
+      "encoding": "ASCII",
+      "file_offset": 40884264,
+      "label": "CBattleLobbyVersusPanel",
+      "rva": 40888360,
+      "section": ".rdata"
+    },
+    {
+      "category": "replay-stream-or-battlelobby-label",
+      "encoding": "ASCII",
+      "file_offset": 40889656,
+      "label": "BattleLobbyAttributeEntryFrame",
+      "rva": 40893752,
+      "section": ".rdata"
+    },
+    {
+      "category": "replay-stream-or-battlelobby-label",
+      "encoding": "ASCII",
+      "file_offset": 40889688,
+      "label": "BattleLobbyAttributePulldown",
+      "rva": 40893784,
+      "section": ".rdata"
+    },
+    {
+      "category": "replay-stream-or-battlelobby-label",
+      "encoding": "ASCII",
+      "file_offset": 40889720,
+      "label": "BattleLobbyAttributesPanel",
+      "rva": 40893816,
+      "section": ".rdata"
+    },
+    {
+      "category": "replay-stream-or-battlelobby-label",
+      "encoding": "ASCII",
+      "file_offset": 40889752,
+      "label": "BattleLobbyPanel",
+      "rva": 40893848,
+      "section": ".rdata"
+    },
+    {
+      "category": "replay-stream-or-battlelobby-label",
+      "encoding": "ASCII",
+      "file_offset": 40889776,
+      "label": "BattleLobbyPlayerFrame",
+      "rva": 40893872,
+      "section": ".rdata"
+    },
+    {
+      "category": "replay-stream-or-battlelobby-label",
+      "encoding": "ASCII",
+      "file_offset": 40889800,
+      "label": "BattleLobbyPlayerTypeFrame",
+      "rva": 40893896,
+      "section": ".rdata"
+    },
+    {
+      "category": "replay-stream-or-battlelobby-label",
+      "encoding": "ASCII",
+      "file_offset": 40889832,
+      "label": "BattleLobbyResumePanel",
+      "rva": 40893928,
+      "section": ".rdata"
+    },
+    {
+      "category": "replay-stream-or-battlelobby-label",
+      "encoding": "ASCII",
+      "file_offset": 40889856,
+      "label": "BattleLobbySlotFrame",
+      "rva": 40893952,
+      "section": ".rdata"
+    },
+    {
+      "category": "replay-stream-or-battlelobby-label",
+      "encoding": "ASCII",
+      "file_offset": 40889880,
+      "label": "BattleLobbySlotPulldown",
+      "rva": 40893976,
+      "section": ".rdata"
+    },
+    {
+      "category": "replay-stream-or-battlelobby-label",
+      "encoding": "ASCII",
+      "file_offset": 40889904,
+      "label": "BattleLobbyTeamPanel",
+      "rva": 40894000,
+      "section": ".rdata"
+    },
+    {
+      "category": "replay-stream-or-battlelobby-label",
+      "encoding": "ASCII",
+      "file_offset": 40889928,
+      "label": "BattleLobbyVersusPanel",
+      "rva": 40894024,
+      "section": ".rdata"
+    },
+    {
+      "category": "replay-stream-or-battlelobby-label",
+      "encoding": "ASCII",
+      "file_offset": 40899608,
+      "label": "CBattleLobbySlotFrame",
+      "rva": 40903704,
+      "section": ".rdata"
+    },
+    {
+      "category": "replay-stream-or-battlelobby-label",
+      "encoding": "ASCII",
+      "file_offset": 40900880,
+      "label": "CBattleLobbyAttributeEntryFrame",
+      "rva": 40904976,
+      "section": ".rdata"
+    },
+    {
+      "category": "replay-stream-or-battlelobby-label",
+      "encoding": "ASCII",
+      "file_offset": 40901096,
+      "label": "CBattleLobbyAttributePulldown",
+      "rva": 40905192,
+      "section": ".rdata"
+    },
+    {
+      "category": "replay-stream-or-battlelobby-label",
+      "encoding": "ASCII",
+      "file_offset": 40902520,
+      "label": "CBattleLobbyAttributesPanel",
+      "rva": 40906616,
+      "section": ".rdata"
+    },
+    {
+      "category": "replay-stream-or-battlelobby-label",
+      "encoding": "ASCII",
+      "file_offset": 40912640,
+      "label": "CBattleLobbyPanel",
+      "rva": 40916736,
+      "section": ".rdata"
+    },
+    {
+      "category": "replay-stream-or-battlelobby-label",
+      "encoding": "ASCII",
+      "file_offset": 40912800,
+      "label": "CBattleLobbyPlayerFrame",
+      "rva": 40916896,
+      "section": ".rdata"
+    },
+    {
+      "category": "replay-stream-or-battlelobby-label",
+      "encoding": "ASCII",
+      "file_offset": 40912912,
+      "label": "CBattleLobbyPlayerTypeFrame",
+      "rva": 40917008,
+      "section": ".rdata"
+    },
+    {
+      "category": "replay-stream-or-battlelobby-label",
+      "encoding": "ASCII",
+      "file_offset": 40915376,
+      "label": "CBattleLobbyResumePanel",
+      "rva": 40919472,
+      "section": ".rdata"
+    },
+    {
+      "category": "replay-stream-or-battlelobby-label",
+      "encoding": "ASCII",
+      "file_offset": 41049736,
+      "label": "CBattleLobbyAttributeFrame",
+      "rva": 41053832,
+      "section": ".rdata"
+    },
+    {
+      "category": "replay-stream-or-battlelobby-label",
+      "encoding": "ASCII",
+      "file_offset": 41050728,
+      "label": "CBattleLobbyAttributePulldownData",
+      "rva": 41054824,
+      "section": ".rdata"
+    },
+    {
+      "category": "replay-stream-or-battlelobby-label",
+      "encoding": "ASCII",
+      "file_offset": 41057576,
+      "label": "BattleLobbyPlayerType",
+      "rva": 41061672,
+      "section": ".rdata"
+    },
+    {
+      "category": "replay-stream-or-battlelobby-label",
+      "encoding": "ASCII",
+      "file_offset": 41667784,
+      "label": "replay.key.frame.toc",
+      "rva": 41671880,
+      "section": ".rdata"
+    },
+    {
+      "category": "replay-stream-or-battlelobby-label",
+      "encoding": "ASCII",
+      "file_offset": 41668128,
+      "label": "replay.details",
+      "rva": 41672224,
+      "section": ".rdata"
+    },
+    {
+      "category": "replay-stream-or-battlelobby-label",
+      "encoding": "ASCII",
+      "file_offset": 41668144,
+      "label": "replay.initData",
+      "rva": 41672240,
+      "section": ".rdata"
+    },
+    {
+      "category": "replay-stream-or-battlelobby-label",
+      "encoding": "ASCII",
+      "file_offset": 41668160,
+      "label": "replay.game.events",
+      "rva": 41672256,
+      "section": ".rdata"
+    },
+    {
+      "category": "replay-stream-or-battlelobby-label",
+      "encoding": "ASCII",
+      "file_offset": 41668184,
+      "label": "replay.message.events",
+      "rva": 41672280,
+      "section": ".rdata"
+    },
+    {
+      "category": "replay-stream-or-battlelobby-label",
+      "encoding": "ASCII",
+      "file_offset": 41668208,
+      "label": "replay.sync.events",
+      "rva": 41672304,
+      "section": ".rdata"
+    },
+    {
+      "category": "replay-stream-or-battlelobby-label",
+      "encoding": "ASCII",
+      "file_offset": 41668232,
+      "label": "replay.sync.history",
+      "rva": 41672328,
+      "section": ".rdata"
+    },
+    {
+      "category": "replay-stream-or-battlelobby-label",
+      "encoding": "ASCII",
+      "file_offset": 41668256,
+      "label": "replay.tracker.events",
+      "rva": 41672352,
+      "section": ".rdata"
+    },
+    {
+      "category": "replay-stream-or-battlelobby-label",
+      "encoding": "ASCII",
+      "file_offset": 41668280,
+      "label": "replay.smartcam.events",
+      "rva": 41672376,
+      "section": ".rdata"
+    },
+    {
+      "category": "replay-stream-or-battlelobby-label",
+      "encoding": "ASCII",
+      "file_offset": 41668304,
+      "label": "replay.attributes.events",
+      "rva": 41672400,
+      "section": ".rdata"
+    },
+    {
+      "category": "replay-stream-or-battlelobby-label",
+      "encoding": "ASCII",
+      "file_offset": 41668336,
+      "label": "replay.resumable.events",
+      "rva": 41672432,
+      "section": ".rdata"
+    },
+    {
+      "category": "replay-stream-or-battlelobby-label",
+      "encoding": "ASCII",
+      "file_offset": 41668360,
+      "label": "replay.load.info",
+      "rva": 41672456,
+      "section": ".rdata"
+    },
+    {
+      "category": "replay-stream-or-battlelobby-label",
+      "encoding": "ASCII",
+      "file_offset": 41668384,
+      "label": "replay.event.info",
+      "rva": 41672480,
+      "section": ".rdata"
+    },
+    {
+      "category": "replay-stream-or-battlelobby-label",
+      "encoding": "ASCII",
+      "file_offset": 41668408,
+      "label": "replay.server.battlelobby",
+      "rva": 41672504,
+      "section": ".rdata"
+    },
+    {
+      "category": "replay-stream-or-battlelobby-label",
+      "encoding": "ASCII",
+      "file_offset": 41668440,
+      "label": "replay.local.battlelobby",
+      "rva": 41672536,
+      "section": ".rdata"
+    },
+    {
+      "category": "map-namespace-label",
+      "encoding": "ASCII",
+      "file_offset": 43476303,
+      "label": "m_mapNamespace",
+      "rva": 43480399,
+      "section": ".rdata"
+    },
+    {
+      "category": "map-namespace-label",
+      "encoding": "ASCII",
+      "file_offset": 44469556,
+      "label": "m_mapNamespace",
+      "rva": 44473652,
+      "section": ".rdata"
+    },
+    {
+      "category": "map-namespace-label",
+      "encoding": "ASCII",
+      "file_offset": 44881286,
+      "label": "m_mapNamespace",
+      "rva": 44885382,
+      "section": ".rdata"
+    },
+    {
+      "category": "map-namespace-label",
+      "encoding": "ASCII",
+      "file_offset": 44985911,
+      "label": "m_mapNamespace",
+      "rva": 44990007,
+      "section": ".rdata"
+    },
+    {
+      "category": "replay-stream-or-battlelobby-label",
+      "encoding": "ASCII",
+      "file_offset": 50076760,
+      "label": ".?AVCBattleLobbyVersusPanel@@",
+      "rva": 50080856,
+      "section": ".data"
+    },
+    {
+      "category": "replay-stream-or-battlelobby-label",
+      "encoding": "ASCII",
+      "file_offset": 50077816,
+      "label": ".?AVCBattleLobbyTeamPanel@@",
+      "rva": 50081912,
+      "section": ".data"
+    },
+    {
+      "category": "replay-stream-or-battlelobby-label",
+      "encoding": "ASCII",
+      "file_offset": 50077912,
+      "label": ".?AVCBattleLobbySlotPulldown@@",
+      "rva": 50082008,
+      "section": ".data"
+    },
+    {
+      "category": "replay-stream-or-battlelobby-label",
+      "encoding": "ASCII",
+      "file_offset": 50078000,
+      "label": ".?AVCBattleLobbyResumePanel@@",
+      "rva": 50082096,
+      "section": ".data"
+    },
+    {
+      "category": "replay-stream-or-battlelobby-label",
+      "encoding": "ASCII",
+      "file_offset": 50078176,
+      "label": ".?AVCBattleLobbyPlayerTypeFrame@@",
+      "rva": 50082272,
+      "section": ".data"
+    },
+    {
+      "category": "replay-stream-or-battlelobby-label",
+      "encoding": "ASCII",
+      "file_offset": 50078280,
+      "label": ".?AVCBattleLobbyPlayerFrame@@",
+      "rva": 50082376,
+      "section": ".data"
+    },
+    {
+      "category": "replay-stream-or-battlelobby-label",
+      "encoding": "ASCII",
+      "file_offset": 50078376,
+      "label": ".?AVCBattleLobbyPanel@@",
+      "rva": 50082472,
+      "section": ".data"
+    },
+    {
+      "category": "replay-stream-or-battlelobby-label",
+      "encoding": "ASCII",
+      "file_offset": 50078816,
+      "label": ".?AVCBattleLobbyAttributesPanel@@",
+      "rva": 50082912,
+      "section": ".data"
+    },
+    {
+      "category": "replay-stream-or-battlelobby-label",
+      "encoding": "ASCII",
+      "file_offset": 50078960,
+      "label": ".?AVCBattleLobbyAttributePulldown@@",
+      "rva": 50083056,
+      "section": ".data"
+    },
+    {
+      "category": "replay-stream-or-battlelobby-label",
+      "encoding": "ASCII",
+      "file_offset": 50079056,
+      "label": ".?AVCBattleLobbyAttributeEntryFrame@@",
+      "rva": 50083152,
+      "section": ".data"
+    },
+    {
+      "category": "replay-stream-or-battlelobby-label",
+      "encoding": "ASCII",
+      "file_offset": 50079160,
+      "label": ".?AVCBattleLobbyAttributeFrame@@",
+      "rva": 50083256,
+      "section": ".data"
+    },
+    {
+      "category": "replay-stream-or-battlelobby-label",
+      "encoding": "ASCII",
+      "file_offset": 50079264,
+      "label": ".?AVCBattleLobbySlotFrame@@",
+      "rva": 50083360,
+      "section": ".data"
+    },
+    {
+      "category": "replay-stream-or-battlelobby-label",
+      "encoding": "ASCII",
+      "file_offset": 50092304,
+      "label": ".?AV?$CEnumFieldT@W4EBattleLobbyPlayerType@@@@",
+      "rva": 50096400,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50057104,
+      "label": ".?AVCWaitingForPlayersDialog@@",
+      "rva": 50061200,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50057152,
+      "label": ".?AVCWaitingPlayerListBoxItem@@",
+      "rva": 50061248,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50062440,
+      "label": ".?AVCResumeReplayDialog@@",
+      "rva": 50066536,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50062488,
+      "label": ".?AVCReplayPanel@@",
+      "rva": 50066584,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50062648,
+      "label": ".?AVCPlayerUpgradesFrame@@",
+      "rva": 50066744,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50062744,
+      "label": ".?AVCPlayerScoreValueFrame@@",
+      "rva": 50066840,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50062792,
+      "label": ".?AVCPlayerRaceIconFrame@@",
+      "rva": 50066888,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50062840,
+      "label": ".?AVCPlayerProductionFrame@@",
+      "rva": 50066936,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50062936,
+      "label": ".?AVCPlayerOwnedUnitsFrame@@",
+      "rva": 50067032,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50063024,
+      "label": ".?AVCPlayerNameFrame@@",
+      "rva": 50067120,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50063064,
+      "label": ".?AVCPlayerLogoTextFrame@@",
+      "rva": 50067160,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50063112,
+      "label": ".?AVCPlayerLogoImageFrame@@",
+      "rva": 50067208,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50063208,
+      "label": ".?AVCPlayerHeroSelectedTalentTreeFrame@@",
+      "rva": 50067304,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50063272,
+      "label": ".?AVCPlayerHeroNameFrame@@",
+      "rva": 50067368,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50063320,
+      "label": ".?AVCPlayerHeroLevelFrame@@",
+      "rva": 50067416,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50063368,
+      "label": ".?AVCPlayerHeroIconFrame@@",
+      "rva": 50067464,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50063416,
+      "label": ".?AVCPlayerDeathIndicatorFrame@@",
+      "rva": 50067512,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50063472,
+      "label": ".?AVCPlayerBlockFrame@@",
+      "rva": 50067568,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50063512,
+      "label": ".?AVCPlayerFrame@@",
+      "rva": 50067608,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50064680,
+      "label": ".?AVCHeroTalentsPanelPlayerFrame@@",
+      "rva": 50068776,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50064888,
+      "label": ".?AVCHeroLeaderPanelPlayerFrame@@",
+      "rva": 50068984,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50067288,
+      "label": ".?AV?$CEnumFieldT@W4EPlayerRelationship@@@@",
+      "rva": 50071384,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50068128,
+      "label": ".?AV?$CEnumFieldT@W4EVersusModePlayerSide@@@@",
+      "rva": 50072224,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50069624,
+      "label": ".?AVCPlayerColorArrayField@@",
+      "rva": 50073720,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50072240,
+      "label": ".?AVCReplayFilePanel@@",
+      "rva": 50076336,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50072280,
+      "label": ".?AVCReplayFilePanelListBoxItem@@",
+      "rva": 50076376,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50073624,
+      "label": ".?AVCCollectionContextMenu@@",
+      "rva": 50077720,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50073672,
+      "label": ".?AVCCollectionCategoryTileList@@",
+      "rva": 50077768,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50073728,
+      "label": ".?AVCCollectionCategoryTileListItem@@",
+      "rva": 50077824,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50075672,
+      "label": ".?AVCBrawlRewardPanel@@",
+      "rva": 50079768,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50078096,
+      "label": ".?AVCReplayEventItem@@",
+      "rva": 50082192,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50079400,
+      "label": ".?AVCBlockedPlayerItem@@",
+      "rva": 50083496,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50079976,
+      "label": ".?AVCScreenReplay@@",
+      "rva": 50084072,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50080840,
+      "label": ".?AVCScreenCollection@@",
+      "rva": 50084936,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50081216,
+      "label": ".?AVCSaveReplayDialog@@",
+      "rva": 50085312,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50081256,
+      "label": ".?AVCRewardTooltip@@",
+      "rva": 50085352,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50081296,
+      "label": ".?AVCRewardSpecificContainerPanel@@",
+      "rva": 50085392,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50081352,
+      "label": ".?AVCRewardNotificationFrame@@",
+      "rva": 50085448,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50081400,
+      "label": ".?AVCRewardMapFrame@@",
+      "rva": 50085496,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50081440,
+      "label": ".?AVCRewardMapTileListItem@@",
+      "rva": 50085536,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50081488,
+      "label": ".?AVCRewardLockIcon@@",
+      "rva": 50085584,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50081528,
+      "label": ".?AVCRewardCacheFrame@@",
+      "rva": 50085624,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50081696,
+      "label": ".?AVCRenameReplayDialog@@",
+      "rva": 50085792,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50082000,
+      "label": ".?AVCRecruitRewardTileListItem@@",
+      "rva": 50086096,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50082144,
+      "label": ".?AVCScoreScreenPointReward@@",
+      "rva": 50086240,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50082320,
+      "label": ".?AVCQuestRewardTileListItem@@",
+      "rva": 50086416,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50082720,
+      "label": ".?AVCPurchaseRewardPanel@@",
+      "rva": 50086816,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50083176,
+      "label": ".?AVCPlayerRoleGamesTileListItem@@",
+      "rva": 50087272,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50083232,
+      "label": ".?AVCPlayerMostPlayedHeroTileListItem@@",
+      "rva": 50087328,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50083504,
+      "label": ".?AVCProfilePlayerProgressionPanel@@",
+      "rva": 50087600,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50083768,
+      "label": ".?AVCHeroCollectionTileListItem@@",
+      "rva": 50087864,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50084400,
+      "label": ".?AVCPlayerSetting@@",
+      "rva": 50088496,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50084440,
+      "label": ".?AVCPlayerScoreValueResultTalentFrame@@",
+      "rva": 50088536,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50084512,
+      "label": ".?AVCPlayerScoreValueResultUniqueTagNameFrame@@",
+      "rva": 50088608,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50084576,
+      "label": ".?AVCPlayerScoreValueResultUniqueTagFrame@@",
+      "rva": 50088672,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50084640,
+      "label": ".?AVCPlayerScoreValueResultNumberFrame@@",
+      "rva": 50088736,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50084704,
+      "label": ".?AVCPlayerScoreValueResultNameFrame@@",
+      "rva": 50088800,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50084760,
+      "label": ".?AVCPlayerScoreValueResultFrame@@",
+      "rva": 50088856,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50084816,
+      "label": ".?AVCPlayerScoreResultFrame@@",
+      "rva": 50088912,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50084864,
+      "label": ".?AVCPlayerRewardsPanel@@",
+      "rva": 50088960,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50084912,
+      "label": ".?AVCRewardBreakdownItem@@",
+      "rva": 50089008,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50084960,
+      "label": ".?AVCRewardTileListItem@@",
+      "rva": 50089056,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50085008,
+      "label": ".?AVCScoreRewardTileListItem@@",
+      "rva": 50089104,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50085056,
+      "label": ".?AVCScoreRewardItem@@",
+      "rva": 50089152,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50085136,
+      "label": ".?AVCPlayedGamePlayerFrame@@",
+      "rva": 50089232,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50086144,
+      "label": ".?AVCMultiplayerLoadingPanelTandemPlayerFrame@@",
+      "rva": 50090240,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50086208,
+      "label": ".?AVCMultiplayerLoadingPanelGameUserFrame@@",
+      "rva": 50090304,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50086272,
+      "label": ".?AVCMultiplayerLoadingPanel@@",
+      "rva": 50090368,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50086320,
+      "label": ".?AVCMultiplayerLoadingPanelPlayerFrame@@",
+      "rva": 50090416,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50086928,
+      "label": ".?AVCLootChestRewardsTileListItem@@",
+      "rva": 50091024,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50086984,
+      "label": ".?AVCLootChestRewardsPanel@@",
+      "rva": 50091080,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50090120,
+      "label": ".?AVCHeroLoadingPanelPlayerFrame@@",
+      "rva": 50094216,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50094944,
+      "label": ".?AV?$CEnumFieldT@W4EPlayerNameState@CHeroDraftSlotFrame@@@@",
+      "rva": 50099040,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50095440,
+      "label": ".?AV?$CEnumFieldT@W4EBrawlRewardState@@@@",
+      "rva": 50099536,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50095824,
+      "label": ".?AV?$CEnumFieldT@W4ELootChestRewardType@@@@",
+      "rva": 50099920,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50096224,
+      "label": ".?AV?$CEnumFieldT@W4EProgressionRewardType@@@@",
+      "rva": 50100320,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50096288,
+      "label": ".?AV?$CEnumFieldT@W4ERewardSourceType@@@@",
+      "rva": 50100384,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50096496,
+      "label": ".?AV?$CEnumFieldT@W4EBestValueGrouping@CPlayerScoreValueResultNumberFrame@@@@",
+      "rva": 50100592,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50097072,
+      "label": ".?AV?$CEnumFieldT@W4EQuestLogPlayerProgressionState@@@@",
+      "rva": 50101168,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50122096,
+      "label": ".?AUStatsMultiplayer@Base@HsProfileObj@@",
+      "rva": 50126192,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50127968,
+      "label": ".?AV?$Callback@XAEBV?$Vector@PEBVWordCollection@Words@@@@AEBV1@@@",
+      "rva": 50132064,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50128912,
+      "label": ".?AV?$FunctionParam1Arg2@XPEAVSystem@@AEBV?$Vector@PEBVWordCollection@Words@@@@AEBV2@@Callback@Internal@@",
+      "rva": 50133008,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50129200,
+      "label": ".?AV?$SharedCountDestruct@V?$FunctionParam1Arg2@XPEAVSystem@@AEBV?$Vector@PEBVWordCollection@Words@@@@AEBV2@@Callback@Internal@@$0A@@Internal@@",
+      "rva": 50133296,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50131696,
+      "label": ".?AV?$SharedCountDelete@V?$ArrayLength@UPlayerData@Summary@S2Game@HsBnet@@$0BA@_K@@$0A@@Internal@@",
+      "rva": 50135792,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50136016,
+      "label": ".?AV?$SharedCountDestruct@VReplayPostTask@Creep@@$0A@@Internal@@",
+      "rva": 50140112,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50137344,
+      "label": ".?AVReplayConnectResponseContext@S2Game@Layer@Creep@@",
+      "rva": 50141440,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50157776,
+      "label": ".?AV?$SharedCountDelete@VWordCollectionImporter@Words@Creep@@$0A@@Internal@@",
+      "rva": 50161872,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50157872,
+      "label": ".?AV?$FunctionParam2Arg1@XV?$SharedPtr@VWordCollectionImporter@Words@Creep@@$0A@@@PEAVWordCollection@Words@@AEBUResolvedStreamItem@Cache@HsBnet@@@Callback@Internal@@",
+      "rva": 50161968,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50169264,
+      "label": ".?AV?$BSNEncodedObjectPtr@URewardInfo@Starcraft2@Event@HsBnet@@UEventProtocol@@$00@HsBSN@@",
+      "rva": 50173360,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50180168,
+      "label": ".?AVS2ReplayLobbyCacheCallback@Creep@@",
+      "rva": 50184264,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50180224,
+      "label": ".?AV?$Callback@XAEBUGetReplayInfoResponse@Event@Request@S2GameEngine@2HsBnet@@@@",
+      "rva": 50184320,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50180336,
+      "label": ".?AV?$SharedCountDestruct@UHeaderDownloadContext@S2ReplayLobbyCacheCallback@Creep@@$0A@@Internal@@",
+      "rva": 50184432,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50180464,
+      "label": ".?AV?$MethodParam0Arg0@VS2ReplayLobbyCacheCallback@Creep@@PEAV12@X@Callback@Internal@@",
+      "rva": 50184560,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50180576,
+      "label": ".?AV?$MethodParam0Arg1@VS2ReplayLobbyCacheCallback@Creep@@PEAV12@XG@Callback@Internal@@",
+      "rva": 50184672,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50180688,
+      "label": ".?AV?$MethodParam0Arg1@VS2ReplayLobbyCacheCallback@Creep@@PEAV12@XAEBUGetReplayInfoResponse@Event@Request@S2GameEngine@4HsBnet@@@Callback@Internal@@",
+      "rva": 50184784,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50180864,
+      "label": ".?AV?$MethodParam0Arg2@VS2ReplayLobbyCacheCallback@Creep@@PEAV12@XIG@Callback@Internal@@",
+      "rva": 50184960,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50180976,
+      "label": ".?AV?$SharedCountDestruct@V?$MethodParam0Arg0@VS2ReplayLobbyCacheCallback@Creep@@PEAV12@X@Callback@Internal@@$0A@@Internal@@",
+      "rva": 50185072,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50181120,
+      "label": ".?AV?$SharedCountDestruct@V?$MethodParam0Arg1@VS2ReplayLobbyCacheCallback@Creep@@PEAV12@XG@Callback@Internal@@$0A@@Internal@@",
+      "rva": 50185216,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50181264,
+      "label": ".?AV?$SharedCountDestruct@V?$MethodParam0Arg1@VS2ReplayLobbyCacheCallback@Creep@@PEAV12@XAEBUGetReplayInfoResponse@Event@Request@S2GameEngine@4HsBnet@@@Callback@Internal@@$0A@@Internal@@",
+      "rva": 50185360,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50181472,
+      "label": ".?AV?$SharedCountDestruct@V?$MethodParam0Arg2@VS2ReplayLobbyCacheCallback@Creep@@PEAV12@XIG@Callback@Internal@@$0A@@Internal@@",
+      "rva": 50185568,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50181616,
+      "label": ".?AVReplayFileUploadTask@Creep@@",
+      "rva": 50185712,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50181792,
+      "label": ".?AV?$MethodParam0Arg1@VReplayPostTask@Creep@@PEAV12@XAEBV?$Array@E$0CI@@@@Callback@Internal@@",
+      "rva": 50185888,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50181904,
+      "label": ".?AV?$MethodParam0Arg1@VReplayPostTask@Creep@@PEAV12@XG@Callback@Internal@@",
+      "rva": 50186000,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50182000,
+      "label": ".?AV?$MethodParam0Arg2@VReplayPostTask@Creep@@PEAV12@XAEBV?$Array@E$0CI@@@E@Callback@Internal@@",
+      "rva": 50186096,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50182112,
+      "label": ".?AV?$SharedCountDestruct@VReplayFileUploadTask@Creep@@$0A@@Internal@@",
+      "rva": 50186208,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50182208,
+      "label": ".?AV?$SharedCountDestruct@V?$MethodParam0Arg1@VReplayPostTask@Creep@@PEAV12@XAEBV?$Array@E$0CI@@@@Callback@Internal@@$0A@@Internal@@",
+      "rva": 50186304,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50182368,
+      "label": ".?AV?$SharedCountDestruct@V?$MethodParam0Arg1@VReplayPostTask@Creep@@PEAV12@XG@Callback@Internal@@$0A@@Internal@@",
+      "rva": 50186464,
+      "section": ".data"
+    },
+    {
+      "category": "MSVC-RTTI-type-name-candidate",
+      "encoding": "ASCII",
+      "file_offset": 50182512,
+      "label": ".?AV?$SharedCountDestruct@V?$MethodParam0Arg2@VReplayPostTask@Creep@@PEAV12@XAEBV?$Array@E$0CI@@@E@Callback@Internal@@$0A@@Internal@@",
+      "rva": 50186608,
+      "section": ".data"
+    },
+    {
+      "category": "field-spelling-candidate",
+      "encoding": "ASCII",
+      "file_offset": 41040496,
+      "label": "m_statsMultiplayer",
+      "rva": 41044592,
+      "section": ".rdata"
+    },
+    {
+      "category": "field-spelling-candidate",
+      "encoding": "ASCII",
+      "file_offset": 41041304,
+      "label": "m_tournamentTrophyCollection",
+      "rva": 41045400,
+      "section": ".rdata"
+    },
+    {
+      "category": "field-spelling-candidate",
+      "encoding": "ASCII",
+      "file_offset": 41041352,
+      "label": "m_heroesLastRewardedSeason",
+      "rva": 41045448,
+      "section": ".rdata"
+    },
+    {
+      "category": "field-spelling-candidate",
+      "encoding": "ASCII",
+      "file_offset": 41652376,
+      "label": "m_replay",
+      "rva": 41656472,
+      "section": ".rdata"
+    },
+    {
+      "category": "field-spelling-candidate",
+      "encoding": "ASCII",
+      "file_offset": 43375785,
+      "label": "m_maxPlayers",
+      "rva": 43379881,
+      "section": ".rdata"
+    },
+    {
+      "category": "field-spelling-candidate",
+      "encoding": "ASCII",
+      "file_offset": 43379876,
+      "label": "m_licenseIds",
+      "rva": 43383972,
+      "section": ".rdata"
+    },
+    {
+      "category": "field-spelling-candidate",
+      "encoding": "ASCII",
+      "file_offset": 43381940,
+      "label": "m_licenses",
+      "rva": 43386036,
+      "section": ".rdata"
+    },
+    {
+      "category": "field-spelling-candidate",
+      "encoding": "ASCII",
+      "file_offset": 43383538,
+      "label": "m_licenseId",
+      "rva": 43387634,
+      "section": ".rdata"
+    },
+    {
+      "category": "field-spelling-candidate",
+      "encoding": "ASCII",
+      "file_offset": 43384811,
+      "label": "m_playerId",
+      "rva": 43388907,
+      "section": ".rdata"
+    },
+    {
+      "category": "field-spelling-candidate",
+      "encoding": "ASCII",
+      "file_offset": 43385044,
+      "label": "m_playerUnits",
+      "rva": 43389140,
+      "section": ".rdata"
+    },
+    {
+      "category": "field-spelling-candidate",
+      "encoding": "ASCII",
+      "file_offset": 43386272,
+      "label": "m_players",
+      "rva": 43390368,
+      "section": ".rdata"
+    },
+    {
+      "category": "field-spelling-candidate",
+      "encoding": "ASCII",
+      "file_offset": 43389853,
+      "label": "m_playerTarget",
+      "rva": 43393949,
+      "section": ".rdata"
+    },
+    {
+      "category": "field-spelling-candidate",
+      "encoding": "ASCII",
+      "file_offset": 43393431,
+      "label": "m_licenseResult",
+      "rva": 43397527,
+      "section": ".rdata"
+    },
+    {
+      "category": "field-spelling-candidate",
+      "encoding": "ASCII",
+      "file_offset": 43393499,
+      "label": "m_licenseCatalog",
+      "rva": 43397595,
+      "section": ".rdata"
+    },
+    {
+      "category": "field-spelling-candidate",
+      "encoding": "ASCII",
+      "file_offset": 43396498,
+      "label": "m_licenseInstance",
+      "rva": 43400594,
+      "section": ".rdata"
+    },
+    {
+      "category": "field-spelling-candidate",
+      "encoding": "ASCII",
+      "file_offset": 43398461,
+      "label": "m_rewards",
+      "rva": 43402557,
+      "section": ".rdata"
+    },
+    {
+      "category": "field-spelling-candidate",
+      "encoding": "ASCII",
+      "file_offset": 43399073,
+      "label": "m_playerIndex",
+      "rva": 43403169,
+      "section": ".rdata"
+    },
+    {
+      "category": "field-spelling-candidate",
+      "encoding": "ASCII",
+      "file_offset": 43405997,
+      "label": "m_playerLevelRewards",
+      "rva": 43410093,
+      "section": ".rdata"
+    },
+    {
+      "category": "field-spelling-candidate",
+      "encoding": "ASCII",
+      "file_offset": 43406018,
+      "label": "m_heroLevelRewards",
+      "rva": 43410114,
+      "section": ".rdata"
+    },
+    {
+      "category": "field-spelling-candidate",
+      "encoding": "ASCII",
+      "file_offset": 43409204,
+      "label": "m_saveReplay",
+      "rva": 43413300,
+      "section": ".rdata"
+    },
+    {
+      "category": "field-spelling-candidate",
+      "encoding": "ASCII",
+      "file_offset": 43411645,
+      "label": "m_playerUnlockableInfoList",
+      "rva": 43415741,
+      "section": ".rdata"
+    },
+    {
+      "category": "field-spelling-candidate",
+      "encoding": "ASCII",
+      "file_offset": 43411753,
+      "label": "m_playerScope",
+      "rva": 43415849,
+      "section": ".rdata"
+    },
+    {
+      "category": "field-spelling-candidate",
+      "encoding": "ASCII",
+      "file_offset": 43411877,
+      "label": "m_sharedPlayerInfo",
+      "rva": 43415973,
+      "section": ".rdata"
+    },
+    {
+      "category": "field-spelling-candidate",
+      "encoding": "ASCII",
+      "file_offset": 43411914,
+      "label": "m_playerLevel",
+      "rva": 43416010,
+      "section": ".rdata"
+    },
+    {
+      "category": "field-spelling-candidate",
+      "encoding": "ASCII",
+      "file_offset": 43413133,
+      "label": "m_playerTiers",
+      "rva": 43417229,
+      "section": ".rdata"
+    },
+    {
+      "category": "field-spelling-candidate",
+      "encoding": "ASCII",
+      "file_offset": 43415048,
+      "label": "m_profileDataCollection",
+      "rva": 43419144,
+      "section": ".rdata"
+    },
+    {
+      "category": "field-spelling-candidate",
+      "encoding": "ASCII",
+      "file_offset": 43417295,
+      "label": "m_playerResults",
+      "rva": 43421391,
+      "section": ".rdata"
+    },
+    {
+      "category": "field-spelling-candidate",
+      "encoding": "ASCII",
+      "file_offset": 43417575,
+      "label": "m_playerResultCode",
+      "rva": 43421671,
+      "section": ".rdata"
+    },
+    {
+      "category": "field-spelling-candidate",
+      "encoding": "ASCII",
+      "file_offset": 43417616,
+      "label": "m_licensesUsed",
+      "rva": 43421712,
+      "section": ".rdata"
+    },
+    {
+      "category": "field-spelling-candidate",
+      "encoding": "ASCII",
+      "file_offset": 43417702,
+      "label": "m_playerHeroes",
+      "rva": 43421798,
+      "section": ".rdata"
+    },
+    {
+      "category": "field-spelling-candidate",
+      "encoding": "ASCII",
+      "file_offset": 43419687,
+      "label": "m_potentiallyActivePlayers",
+      "rva": 43423783,
+      "section": ".rdata"
+    },
+    {
+      "category": "field-spelling-candidate",
+      "encoding": "ASCII",
+      "file_offset": 43421500,
+      "label": "m_deltaBrawlReward",
+      "rva": 43425596,
+      "section": ".rdata"
+    },
+    {
+      "category": "field-spelling-candidate",
+      "encoding": "ASCII",
+      "file_offset": 43421585,
+      "label": "m_playerAmm",
+      "rva": 43425681,
+      "section": ".rdata"
+    },
+    {
+      "category": "field-spelling-candidate",
+      "encoding": "ASCII",
+      "file_offset": 43423807,
+      "label": "m_rewardName",
+      "rva": 43427903,
+      "section": ".rdata"
+    },
+    {
+      "category": "field-spelling-candidate",
+      "encoding": "ASCII",
+      "file_offset": 43423820,
+      "label": "m_baseRewardGain",
+      "rva": 43427916,
+      "section": ".rdata"
+    },
+    {
+      "category": "field-spelling-candidate",
+      "encoding": "ASCII",
+      "file_offset": 43423847,
+      "label": "m_totalRewardGain",
+      "rva": 43427943,
+      "section": ".rdata"
+    },
+    {
+      "category": "field-spelling-candidate",
+      "encoding": "ASCII",
+      "file_offset": 43426143,
+      "label": "m_replayHandle",
+      "rva": 43430239,
+      "section": ".rdata"
+    },
+    {
+      "category": "field-spelling-candidate",
+      "encoding": "ASCII",
+      "file_offset": 43426603,
+      "label": "m_clientLicensesList",
+      "rva": 43430699,
+      "section": ".rdata"
+    },
+    {
+      "category": "field-spelling-candidate",
+      "encoding": "ASCII",
+      "file_offset": 43427831,
+      "label": "m_playerRace",
+      "rva": 43431927,
+      "section": ".rdata"
+    },
+    {
+      "category": "field-spelling-candidate",
+      "encoding": "ASCII",
+      "file_offset": 43447173,
+      "label": "m_recurringAccountRewards",
+      "rva": 43451269,
+      "section": ".rdata"
+    },
+    {
+      "category": "field-spelling-candidate",
+      "encoding": "ASCII",
+      "file_offset": 43447199,
+      "label": "m_recurringHeroRewards",
+      "rva": 43451295,
+      "section": ".rdata"
+    },
+    {
+      "category": "field-spelling-candidate",
+      "encoding": "ASCII",
+      "file_offset": 43447222,
+      "label": "m_chestRewards",
+      "rva": 43451318,
+      "section": ".rdata"
+    },
+    {
+      "category": "field-spelling-candidate",
+      "encoding": "ASCII",
+      "file_offset": 43447568,
+      "label": "m_license",
+      "rva": 43451664,
+      "section": ".rdata"
+    },
+    {
+      "category": "field-spelling-candidate",
+      "encoding": "ASCII",
+      "file_offset": 43448534,
+      "label": "m_rewardsPerGame",
+      "rva": 43452630,
+      "section": ".rdata"
+    },
+    {
+      "category": "field-spelling-candidate",
+      "encoding": "ASCII",
+      "file_offset": 43448551,
+      "label": "m_partySizeRewards",
+      "rva": 43452647,
+      "section": ".rdata"
+    },
+    {
+      "category": "field-spelling-candidate",
+      "encoding": "ASCII",
+      "file_offset": 43449060,
+      "label": "m_playerLevelRatingOffsets",
+      "rva": 43453156,
+      "section": ".rdata"
+    },
+    {
+      "category": "field-spelling-candidate",
+      "encoding": "ASCII",
+      "file_offset": 43451801,
+      "label": "m_reward",
+      "rva": 43455897,
+      "section": ".rdata"
+    },
+    {
+      "category": "field-spelling-candidate",
+      "encoding": "ASCII",
+      "file_offset": 43477672,
+      "label": "m_maxHumanPlayers",
+      "rva": 43481768,
+      "section": ".rdata"
+    },
+    {
+      "category": "serialization-word-label",
+      "encoding": "ASCII",
+      "file_offset": 42156992,
+      "label": "Unable to serialize message",
+      "rva": 42161088,
+      "section": ".rdata"
+    },
+    {
+      "category": "serialization-word-label",
+      "encoding": "ASCII",
+      "file_offset": 42157024,
+      "label": "Rejected.SerializeFailure",
+      "rva": 42161120,
+      "section": ".rdata"
+    },
+    {
+      "category": "serialization-word-label",
+      "encoding": "ASCII",
+      "file_offset": 42187304,
+      "label": "Could not serialize the content to a protocol buffer.",
+      "rva": 42191400,
+      "section": ".rdata"
+    },
+    {
+      "category": "serialization-word-label",
+      "encoding": "ASCII",
+      "file_offset": 42192480,
+      "label": "CHECK failed: (byte_size_before_serialization) == (byte_size_after_serialization): ",
+      "rva": 42196576,
+      "section": ".rdata"
+    },
+    {
+      "category": "serialization-word-label",
+      "encoding": "ASCII",
+      "file_offset": 42192576,
+      "label": "Protocol message was modified concurrently during serialization.",
+      "rva": 42196672,
+      "section": ".rdata"
+    },
+    {
+      "category": "serialization-word-label",
+      "encoding": "ASCII",
+      "file_offset": 42192656,
+      "label": "CHECK failed: (bytes_produced_by_serialization) == (byte_size_before_serialization): ",
+      "rva": 42196752,
+      "section": ".rdata"
+    },
+    {
+      "category": "serialization-word-label",
+      "encoding": "ASCII",
+      "file_offset": 42192752,
+      "label": "Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.",
+      "rva": 42196848,
+      "section": ".rdata"
+    },
+    {
+      "category": "serialization-word-label",
+      "encoding": "ASCII",
+      "file_offset": 42203136,
+      "label": "Protocol message serialized itself in invalid fashion.",
+      "rva": 42207232,
+      "section": ".rdata"
+    },
+    {
+      "category": "serialization-word-label",
+      "encoding": "ASCII",
+      "file_offset": 42203744,
+      "label": "Unexpected failure while serializing option submessage ",
+      "rva": 42207840,
+      "section": ".rdata"
+    },
+    {
+      "category": "serialization-word-label",
+      "encoding": "ASCII",
+      "file_offset": 42219232,
+      "label": ": Protocol message serialized to a size different from what was originally expected.  Perhaps it was modified by another thread during serialization?",
+      "rva": 42223328,
+      "section": ".rdata"
+    },
+    {
+      "category": "serialization-word-label",
+      "encoding": "ASCII",
+      "file_offset": 42274288,
+      "label": "failed to serialize VoiceRequest",
+      "rva": 42278384,
+      "section": ".rdata"
+    },
+    {
+      "category": "serialization-word-label",
+      "encoding": "ASCII",
+      "file_offset": 43367446,
+      "label": "TRACKED_CRITERIA_FLAG_SERIALIZED",
+      "rva": 43371542,
+      "section": ".rdata"
+    },
+    {
+      "category": "serialization-word-label",
+      "encoding": "ASCII",
+      "file_offset": 44368902,
+      "label": "TRACKED_CRITERIA_FLAG_SERIALIZED",
+      "rva": 44372998,
+      "section": ".rdata"
+    },
+    {
+      "category": "serialization-word-label",
+      "encoding": "ASCII",
+      "file_offset": 44784890,
+      "label": "TRACKED_CRITERIA_FLAG_SERIALIZED",
+      "rva": 44788986,
+      "section": ".rdata"
+    },
+    {
+      "category": "serialization-word-label",
+      "encoding": "ASCII",
+      "file_offset": 44958474,
+      "label": "TRACKED_CRITERIA_FLAG_SERIALIZED",
+      "rva": 44962570,
+      "section": ".rdata"
+    },
+    {
+      "category": "reward-catalog-type-label",
+      "encoding": "ASCII",
+      "file_offset": 40752488,
+      "label": "CReward",
+      "rva": 40756584,
+      "section": ".rdata"
+    },
+    {
+      "category": "reward-catalog-type-label",
+      "encoding": "ASCII",
+      "file_offset": 40752544,
+      "label": "CRewardDecal",
+      "rva": 40756640,
+      "section": ".rdata"
+    },
+    {
+      "category": "reward-catalog-type-label",
+      "encoding": "ASCII",
+      "file_offset": 40752616,
+      "label": "CRewardIcon",
+      "rva": 40756712,
+      "section": ".rdata"
+    },
+    {
+      "category": "reward-catalog-type-label",
+      "encoding": "ASCII",
+      "file_offset": 40752688,
+      "label": "CRewardModel",
+      "rva": 40756784,
+      "section": ".rdata"
+    },
+    {
+      "category": "reward-catalog-type-label",
+      "encoding": "ASCII",
+      "file_offset": 40752768,
+      "label": "CRewardPortrait",
+      "rva": 40756864,
+      "section": ".rdata"
+    },
+    {
+      "category": "reward-catalog-type-label",
+      "encoding": "ASCII",
+      "file_offset": 40752840,
+      "label": "CRewardBadge",
+      "rva": 40756936,
+      "section": ".rdata"
+    },
+    {
+      "category": "reward-catalog-type-label",
+      "encoding": "ASCII",
+      "file_offset": 40752912,
+      "label": "CRewardPoints",
+      "rva": 40757008,
+      "section": ".rdata"
+    },
+    {
+      "category": "reward-catalog-type-label",
+      "encoding": "ASCII",
+      "file_offset": 40752984,
+      "label": "CRewardTrophy",
+      "rva": 40757080,
+      "section": ".rdata"
+    },
+    {
+      "category": "reward-catalog-type-label",
+      "encoding": "ASCII",
+      "file_offset": 40753056,
+      "label": "CRewardHero",
+      "rva": 40757152,
+      "section": ".rdata"
+    },
+    {
+      "category": "reward-catalog-type-label",
+      "encoding": "ASCII",
+      "file_offset": 40753128,
+      "label": "CRewardSkin",
+      "rva": 40757224,
+      "section": ".rdata"
+    },
+    {
+      "category": "reward-catalog-type-label",
+      "encoding": "ASCII",
+      "file_offset": 40753200,
+      "label": "CRewardMount",
+      "rva": 40757296,
+      "section": ".rdata"
+    },
+    {
+      "category": "reward-catalog-type-label",
+      "encoding": "ASCII",
+      "file_offset": 40753272,
+      "label": "CRewardBoost",
+      "rva": 40757368,
+      "section": ".rdata"
+    },
+    {
+      "category": "reward-catalog-type-label",
+      "encoding": "ASCII",
+      "file_offset": 40753344,
+      "label": "CRewardGroup",
+      "rva": 40757440,
+      "section": ".rdata"
+    },
+    {
+      "category": "reward-catalog-type-label",
+      "encoding": "ASCII",
+      "file_offset": 40753416,
+      "label": "CRewardGold",
+      "rva": 40757512,
+      "section": ".rdata"
+    },
+    {
+      "category": "reward-catalog-type-label",
+      "encoding": "ASCII",
+      "file_offset": 40753488,
+      "label": "CRewardShards",
+      "rva": 40757584,
+      "section": ".rdata"
+    },
+    {
+      "category": "reward-catalog-type-label",
+      "encoding": "ASCII",
+      "file_offset": 40753568,
+      "label": "CRewardLootChest",
+      "rva": 40757664,
+      "section": ".rdata"
+    },
+    {
+      "category": "reward-catalog-type-label",
+      "encoding": "ASCII",
+      "file_offset": 40753656,
+      "label": "CRewardAnnouncerPack",
+      "rva": 40757752,
+      "section": ".rdata"
+    },
+    {
+      "category": "reward-catalog-type-label",
+      "encoding": "ASCII",
+      "file_offset": 40753752,
+      "label": "CRewardVoiceLine",
+      "rva": 40757848,
+      "section": ".rdata"
+    },
+    {
+      "category": "reward-catalog-type-label",
+      "encoding": "ASCII",
+      "file_offset": 40753840,
+      "label": "CRewardEmoticonPack",
+      "rva": 40757936,
+      "section": ".rdata"
+    },
+    {
+      "category": "reward-catalog-type-label",
+      "encoding": "ASCII",
+      "file_offset": 40753928,
+      "label": "CRewardBanner",
+      "rva": 40758024,
+      "section": ".rdata"
+    },
+    {
+      "category": "reward-catalog-type-label",
+      "encoding": "ASCII",
+      "file_offset": 40754000,
+      "label": "CRewardSpray",
+      "rva": 40758096,
+      "section": ".rdata"
+    },
+    {
+      "category": "reward-catalog-type-label",
+      "encoding": "ASCII",
+      "file_offset": 40754080,
+      "label": "CRewardHeroMastery",
+      "rva": 40758176,
+      "section": ".rdata"
+    },
+    {
+      "category": "reward-catalog-type-label",
+      "encoding": "ASCII",
+      "file_offset": 40882440,
+      "label": "CRewardTileListItem",
+      "rva": 40886536,
+      "section": ".rdata"
+    },
+    {
+      "category": "reward-catalog-type-label",
+      "encoding": "ASCII",
+      "file_offset": 40883776,
+      "label": "CRewardBreakdownItem",
+      "rva": 40887872,
+      "section": ".rdata"
+    },
+    {
+      "category": "reward-catalog-type-label",
+      "encoding": "ASCII",
+      "file_offset": 40890480,
+      "label": "CRewardCacheFrame",
+      "rva": 40894576,
+      "section": ".rdata"
+    },
+    {
+      "category": "reward-catalog-type-label",
+      "encoding": "ASCII",
+      "file_offset": 40893344,
+      "label": "CRewardLockIcon",
+      "rva": 40897440,
+      "section": ".rdata"
+    },
+    {
+      "category": "reward-catalog-type-label",
+      "encoding": "ASCII",
+      "file_offset": 40898064,
+      "label": "CRewardMapTileListItem",
+      "rva": 40902160,
+      "section": ".rdata"
+    },
+    {
+      "category": "reward-catalog-type-label",
+      "encoding": "ASCII",
+      "file_offset": 40899216,
+      "label": "CRewardMapFrame",
+      "rva": 40903312,
+      "section": ".rdata"
+    },
+    {
+      "category": "reward-catalog-type-label",
+      "encoding": "ASCII",
+      "file_offset": 40899312,
+      "label": "CRewardNotificationFrame",
+      "rva": 40903408,
+      "section": ".rdata"
+    },
+    {
+      "category": "reward-catalog-type-label",
+      "encoding": "ASCII",
+      "file_offset": 40899448,
+      "label": "CRewardSpecificContainerPanel",
+      "rva": 40903544,
+      "section": ".rdata"
+    },
+    {
+      "category": "reward-catalog-type-label",
+      "encoding": "ASCII",
+      "file_offset": 40899696,
+      "label": "CRewardTooltip",
+      "rva": 40903792,
+      "section": ".rdata"
+    },
+    {
+      "category": "reward-catalog-type-label",
+      "encoding": "ASCII",
+      "file_offset": 41377144,
+      "label": "CRewardTileListData",
+      "rva": 41381240,
+      "section": ".rdata"
+    },
+    {
+      "category": "reward-catalog-type-label",
+      "encoding": "ASCII",
+      "file_offset": 41381560,
+      "label": "CRewardBreakdownData",
+      "rva": 41385656,
+      "section": ".rdata"
+    },
+    {
+      "category": "reward-catalog-type-label",
+      "encoding": "ASCII",
+      "file_offset": 41414000,
+      "label": "CRewardMapTileListData",
+      "rva": 41418096,
+      "section": ".rdata"
+    },
+    {
+      "category": "reward-catalog-type-label",
+      "encoding": "ASCII",
+      "file_offset": 45733920,
+      "label": "CRewardLink",
+      "rva": 45738016,
+      "section": ".rdata"
+    },
+    {
+      "category": "reward-catalog-type-label",
+      "encoding": "ASCII",
+      "file_offset": 45911384,
+      "label": "CReward",
+      "rva": 45915480,
+      "section": ".rdata"
+    },
+    {
+      "category": "reward-catalog-type-label",
+      "encoding": "ASCII",
+      "file_offset": 45911392,
+      "label": "CRewardDecal",
+      "rva": 45915488,
+      "section": ".rdata"
+    },
+    {
+      "category": "reward-catalog-type-label",
+      "encoding": "ASCII",
+      "file_offset": 45911408,
+      "label": "CRewardIcon",
+      "rva": 45915504,
+      "section": ".rdata"
+    },
+    {
+      "category": "reward-catalog-type-label",
+      "encoding": "ASCII",
+      "file_offset": 45911424,
+      "label": "CRewardModel",
+      "rva": 45915520,
+      "section": ".rdata"
+    },
+    {
+      "category": "reward-catalog-type-label",
+      "encoding": "ASCII",
+      "file_offset": 45911440,
+      "label": "CRewardPortrait",
+      "rva": 45915536,
+      "section": ".rdata"
+    },
+    {
+      "category": "reward-catalog-type-label",
+      "encoding": "ASCII",
+      "file_offset": 45911456,
+      "label": "CRewardBadge",
+      "rva": 45915552,
+      "section": ".rdata"
+    },
+    {
+      "category": "reward-catalog-type-label",
+      "encoding": "ASCII",
+      "file_offset": 45911472,
+      "label": "CRewardPoints",
+      "rva": 45915568,
+      "section": ".rdata"
+    },
+    {
+      "category": "reward-catalog-type-label",
+      "encoding": "ASCII",
+      "file_offset": 45911488,
+      "label": "CRewardTrophy",
+      "rva": 45915584,
+      "section": ".rdata"
+    },
+    {
+      "category": "reward-catalog-type-label",
+      "encoding": "ASCII",
+      "file_offset": 45911504,
+      "label": "CRewardHero",
+      "rva": 45915600,
+      "section": ".rdata"
+    },
+    {
+      "category": "reward-catalog-type-label",
+      "encoding": "ASCII",
+      "file_offset": 45911520,
+      "label": "CRewardSkin",
+      "rva": 45915616,
+      "section": ".rdata"
+    },
+    {
+      "category": "reward-catalog-type-label",
+      "encoding": "ASCII",
+      "file_offset": 45911536,
+      "label": "CRewardMount",
+      "rva": 45915632,
+      "section": ".rdata"
+    },
+    {
+      "category": "reward-catalog-type-label",
+      "encoding": "ASCII",
+      "file_offset": 45911552,
+      "label": "CRewardBoost",
+      "rva": 45915648,
+      "section": ".rdata"
+    },
+    {
+      "category": "reward-catalog-type-label",
+      "encoding": "ASCII",
+      "file_offset": 45911568,
+      "label": "CRewardGroup",
+      "rva": 45915664,
+      "section": ".rdata"
+    },
+    {
+      "category": "other-target-keyword-label",
+      "encoding": "ASCII",
+      "file_offset": 40108696,
+      "label": "replayinterface",
+      "rva": 40112792,
+      "section": ".rdata"
+    },
+    {
+      "category": "other-target-keyword-label",
+      "encoding": "ASCII",
+      "file_offset": 40109304,
+      "label": "displayreplaytime",
+      "rva": 40113400,
+      "section": ".rdata"
+    },
+    {
+      "category": "other-target-keyword-label",
+      "encoding": "ASCII",
+      "file_offset": 40111248,
+      "label": "localplayerfinder",
+      "rva": 40115344,
+      "section": ".rdata"
+    },
+    {
+      "category": "other-target-keyword-label",
+      "encoding": "ASCII",
+      "file_offset": 40113336,
+      "label": "BattlenetAPI_GetLicenseInstances",
+      "rva": 40117432,
+      "section": ".rdata"
+    },
+    {
+      "category": "other-target-keyword-label",
+      "encoding": "ASCII",
+      "file_offset": 40113376,
+      "label": "BattlenetAPI_HasAnyLicense",
+      "rva": 40117472,
+      "section": ".rdata"
+    },
+    {
+      "category": "other-target-keyword-label",
+      "encoding": "ASCII",
+      "file_offset": 40113408,
+      "label": "BattlenetAPI_HasLicense",
+      "rva": 40117504,
+      "section": ".rdata"
+    },
+    {
+      "category": "other-target-keyword-label",
+      "encoding": "ASCII",
+      "file_offset": 40113432,
+      "label": "BattlenetAPI_HasLicenseIgnoringExpiration",
+      "rva": 40117528,
+      "section": ".rdata"
+    },
+    {
+      "category": "other-target-keyword-label",
+      "encoding": "ASCII",
+      "file_offset": 40129712,
+      "label": "build-replay-hash",
+      "rva": 40133808,
+      "section": ".rdata"
+    },
+    {
+      "category": "other-target-keyword-label",
+      "encoding": "ASCII",
+      "file_offset": 40143008,
+      "label": "REPLAY-DESYNC",
+      "rva": 40147104,
+      "section": ".rdata"
+    },
+    {
+      "category": "other-target-keyword-label",
+      "encoding": "ASCII",
+      "file_offset": 40158616,
+      "label": "CollectionCategory",
+      "rva": 40162712,
+      "section": ".rdata"
+    },
+    {
+      "category": "other-target-keyword-label",
+      "encoding": "ASCII",
+      "file_offset": 40159048,
+      "label": "Reward",
+      "rva": 40163144,
+      "section": ".rdata"
+    },
+    {
+      "category": "other-target-keyword-label",
+      "encoding": "ASCII",
+      "file_offset": 40184944,
+      "label": "CReplayPanel",
+      "rva": 40189040,
+      "section": ".rdata"
+    },
+    {
+      "category": "other-target-keyword-label",
+      "encoding": "ASCII",
+      "file_offset": 40185016,
+      "label": "CWaitingForPlayersDialog",
+      "rva": 40189112,
+      "section": ".rdata"
+    },
+    {
+      "category": "other-target-keyword-label",
+      "encoding": "ASCII",
+      "file_offset": 40188160,
+      "label": "CanShowWaitingForPlayersDialog",
+      "rva": 40192256,
+      "section": ".rdata"
+    },
+    {
+      "category": "other-target-keyword-label",
+      "encoding": "ASCII",
+      "file_offset": 40191088,
+      "label": "LeaveGame(CantFindPlayerId)",
+      "rva": 40195184,
+      "section": ".rdata"
+    },
+    {
+      "category": "other-target-keyword-label",
+      "encoding": "ASCII",
+      "file_offset": 40195784,
+      "label": "Players",
+      "rva": 40199880,
+      "section": ".rdata"
+    },
+    {
+      "category": "other-target-keyword-label",
+      "encoding": "ASCII",
+      "file_offset": 40199688,
+      "label": "PlayerId ",
+      "rva": 40203784,
+      "section": ".rdata"
+    },
+    {
+      "category": "other-target-keyword-label",
+      "encoding": "ASCII",
+      "file_offset": 40199824,
+      "label": "IsReplaying",
+      "rva": 40203920,
+      "section": ".rdata"
+    },
+    {
+      "category": "other-target-keyword-label",
+      "encoding": "ASCII",
+      "file_offset": 40199840,
+      "label": "IsResumingReplay",
+      "rva": 40203936,
+      "section": ".rdata"
+    },
+    {
+      "category": "other-target-keyword-label",
+      "encoding": "ASCII",
+      "file_offset": 40230144,
+      "label": "MultiplayerButton",
+      "rva": 40234240,
+      "section": ".rdata"
+    },
+    {
+      "category": "other-target-keyword-label",
+      "encoding": "ASCII",
+      "file_offset": 40230872,
+      "label": "[player]",
+      "rva": 40234968,
+      "section": ".rdata"
+    },
+    {
+      "category": "other-target-keyword-label",
+      "encoding": "ASCII",
+      "file_offset": 40237864,
+      "label": "IgnorePlayerPrimaryLogo",
+      "rva": 40241960,
+      "section": ".rdata"
+    },
+    {
+      "category": "other-target-keyword-label",
+      "encoding": "ASCII",
+      "file_offset": 40237888,
+      "label": "IgnorePlayerSecondaryLogo",
+      "rva": 40241984,
+      "section": ".rdata"
+    },
+    {
+      "category": "other-target-keyword-label",
+      "encoding": "ASCII",
+      "file_offset": 40237920,
+      "label": "PlayerLogoEntry",
+      "rva": 40242016,
+      "section": ".rdata"
+    },
+    {
+      "category": "other-target-keyword-label",
+      "encoding": "ASCII",
+      "file_offset": 40238304,
+      "label": "PlayerPrimary",
+      "rva": 40242400,
+      "section": ".rdata"
+    },
+    {
+      "category": "other-target-keyword-label",
+      "encoding": "ASCII",
+      "file_offset": 40238320,
+      "label": "PlayerSecondary",
+      "rva": 40242416,
+      "section": ".rdata"
+    },
+    {
+      "category": "other-target-keyword-label",
+      "encoding": "ASCII",
+      "file_offset": 40246696,
+      "label": "CWaitingPlayerListBoxData",
+      "rva": 40250792,
+      "section": ".rdata"
+    },
+    {
+      "category": "other-target-keyword-label",
+      "encoding": "ASCII",
+      "file_offset": 40247704,
+      "label": "CWaitingPlayerListBoxItem",
+      "rva": 40251800,
+      "section": ".rdata"
+    },
+    {
+      "category": "other-target-keyword-label",
+      "encoding": "ASCII",
+      "file_offset": 40263752,
+      "label": "Player",
+      "rva": 40267848,
+      "section": ".rdata"
+    },
+    {
+      "category": "other-target-keyword-label",
+      "encoding": "ASCII",
+      "file_offset": 40265216,
+      "label": "CResumeReplayDialog",
+      "rva": 40269312,
+      "section": ".rdata"
+    },
+    {
+      "category": "other-target-keyword-label",
+      "encoding": "ASCII",
+      "file_offset": 40267648,
+      "label": "HeroLeaderPanelPlayerFrame",
+      "rva": 40271744,
+      "section": ".rdata"
+    },
+    {
+      "category": "other-target-keyword-label",
+      "encoding": "ASCII",
+      "file_offset": 40267680,
+      "label": "HeroTalentsPanelPlayerFrame",
+      "rva": 40271776,
+      "section": ".rdata"
+    },
+    {
+      "category": "other-target-keyword-label",
+      "encoding": "ASCII",
+      "file_offset": 40268320,
+      "label": "PlayerBlockFrame",
+      "rva": 40272416,
+      "section": ".rdata"
+    },
+    {
+      "category": "other-target-keyword-label",
+      "encoding": "ASCII",
+      "file_offset": 40268344,
+      "label": "PlayerDeathIndicatorFrame",
+      "rva": 40272440,
+      "section": ".rdata"
+    },
+    {
+      "category": "other-target-keyword-label",
+      "encoding": "ASCII",
+      "file_offset": 40268376,
+      "label": "PlayerFrame",
+      "rva": 40272472,
+      "section": ".rdata"
+    },
+    {
+      "category": "other-target-keyword-label",
+      "encoding": "ASCII",
+      "file_offset": 40268392,
+      "label": "PlayerHeroIconFrame",
+      "rva": 40272488,
+      "section": ".rdata"
+    },
+    {
+      "category": "other-target-keyword-label",
+      "encoding": "ASCII",
+      "file_offset": 40268416,
+      "label": "PlayerHeroLevelFrame",
+      "rva": 40272512,
+      "section": ".rdata"
+    },
+    {
+      "category": "other-target-keyword-label",
+      "encoding": "ASCII",
+      "file_offset": 40268440,
+      "label": "PlayerHeroNameFrame",
+      "rva": 40272536,
+      "section": ".rdata"
+    },
+    {
+      "category": "other-target-keyword-label",
+      "encoding": "ASCII",
+      "file_offset": 40268464,
+      "label": "PlayerHeroSelectedTalentTreeFrame",
+      "rva": 40272560,
+      "section": ".rdata"
+    },
+    {
+      "category": "other-target-keyword-label",
+      "encoding": "ASCII",
+      "file_offset": 40268504,
+      "label": "PlayerLogoImageFrame",
+      "rva": 40272600,
+      "section": ".rdata"
+    },
+    {
+      "category": "other-target-keyword-label",
+      "encoding": "ASCII",
+      "file_offset": 40268528,
+      "label": "PlayerLogoTextFrame",
+      "rva": 40272624,
+      "section": ".rdata"
+    },
+    {
+      "category": "other-target-keyword-label",
+      "encoding": "ASCII",
+      "file_offset": 40268552,
+      "label": "PlayerNameFrame",
+      "rva": 40272648,
+      "section": ".rdata"
+    },
+    {
+      "category": "other-target-keyword-label",
+      "encoding": "ASCII",
+      "file_offset": 40268568,
+      "label": "PlayerOwnedUnitsFrame",
+      "rva": 40272664,
+      "section": ".rdata"
+    },
+    {
+      "category": "other-target-keyword-label",
+      "encoding": "ASCII",
+      "file_offset": 40268592,
+      "label": "PlayerProductionFrame",
+      "rva": 40272688,
+      "section": ".rdata"
+    }
+  ],
+  "selected_labels_are_truncated": true,
+  "serializer_field_semantics_proven": false,
+  "source": {
+    "PE32plus": true,
+    "PE_machine": "0x8664",
+    "PE_timestamp": 1791173268,
+    "bytes": 53573840,
+    "image_base": 5368709120,
+    "path": "C:\\Program Files (x86)\\Heroes of the Storm\\Versions\\Base98348\\HeroesOfTheStorm_x64.exe",
+    "sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+    "single_bounded_PE_read": true,
+    "size_of_image": 73064448,
+    "source_size_and_mtime_unchanged": true,
+    "version_resources": [
+      {
+        "fixed": {
+          "file_version_words": [
+            2,
+            57,
+            0,
+            32812
+          ],
+          "product_version_words": [
+            2,
+            57,
+            0,
+            32812
+          ]
+        },
+        "strings": {
+          "CompanyName": "Blizzard Entertainment, Inc.",
+          "FileDescription": "Heroes of the Storm",
+          "FileVersion": "2.57.0.98348",
+          "OriginalFilename": "Heroes of the Storm.exe",
+          "ProductName": "Heroes of the Storm (Retail)",
+          "ProductVersion": "Version 2.57.0.98348"
+        }
+      }
+    ]
+  },
+  "target_terms": [
+    "replay",
+    "battlelobby",
+    "player",
+    "license",
+    "reward",
+    "collection",
+    "serialization",
+    "availability",
+    "MapNamespace"
+  ]
+}

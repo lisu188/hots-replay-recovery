@@ -1,0 +1,20 @@
+{
+  "format": "hots-six-operation-catalog-route-frozen-receipt-v1",
+  "allowlisted_files": [
+    {
+      "relative_to_work": "legacy-build-root-research/catalog-route/heroesdata-version-directory-projection.json",
+      "bytes": 17718,
+      "sha256": "5e669708e96462a2083386e80496a4afaae9640cb22e83fbb7801aa50d6573cd"
+    },
+    {
+      "relative_to_work": "legacy-build-root-research/catalog-route/legacy-catalog-route-six-operation-ledger.json",
+      "bytes": 5539,
+      "sha256": "c38917400459782f94810b89e9e24a08628420543fee41379095e5e60257e71f"
+    }
+  ],
+  "primary_operations": 6,
+  "scope": "One connector search, one unsupported tags API attempt, three dated default-branch commit queries, one nonrecursive version-directory listing.",
+  "exact41810_catalog_or_original_reward_XML_found": false,
+  "current_names_promoted_as_original_proof": false,
+  "CDN_client_archive_or_repo_actions": false
+}

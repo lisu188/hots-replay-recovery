@@ -1,0 +1,238 @@
+{
+  "Variables_Error_text_or_minidump_memory_read": false,
+  "client_launched": false,
+  "distinct_input_bytes": 13364,
+  "distinct_input_files": 15,
+  "explicit_input_reads_bytes": 26728,
+  "folders": [
+    {
+      "files": [
+        {
+          "bytes": 740,
+          "kind": "build_manifest",
+          "literal_original_replay_root_occurs": false,
+          "public_build_fields": [
+            {
+              "Active": "1",
+              "Branch": "eu",
+              "Build Key": "0534650161f366f2f048320d85b32893",
+              "CDN Key": "c53d29ee65044954474c758516b15ab4",
+              "Version": "2.55.3.88481"
+            }
+          ],
+          "sha256": "9b99aaae34342d18704c29d7021f3b84f87b874f7784e9c6a3b10e353f043f2b",
+          "source_unchanged": true
+        },
+        {
+          "build_line_labels_only": [
+            "[20220727T22"
+          ],
+          "bytes": 3921,
+          "kind": "NGDP_diagnostics",
+          "literal_original_replay_root_occurs": false,
+          "public_labeled_build_hashes": [],
+          "sha256": "f2c2b05da2cbd0c1f6a3c3a2e1ea0818b90e5ba1649b6ed97e4e686d8ebc9ed5",
+          "source_unchanged": true
+        },
+        {
+          "build_line_labels_only": [
+            "NGDP error"
+          ],
+          "bytes": 53,
+          "kind": "NGDP_trace",
+          "literal_original_replay_root_occurs": false,
+          "public_labeled_build_hashes": [],
+          "sha256": "a6678e6e9c97110be07cbca129eb1a4cf11b6ba57520c81bb89b2160a14347cd",
+          "source_unchanged": true
+        }
+      ],
+      "id": "crash41810-01"
+    },
+    {
+      "files": [
+        {
+          "bytes": 740,
+          "kind": "build_manifest",
+          "literal_original_replay_root_occurs": false,
+          "public_build_fields": [
+            {
+              "Active": "1",
+              "Branch": "eu",
+              "Build Key": "0534650161f366f2f048320d85b32893",
+              "CDN Key": "c53d29ee65044954474c758516b15ab4",
+              "Version": "2.55.3.88481"
+            }
+          ],
+          "sha256": "9b99aaae34342d18704c29d7021f3b84f87b874f7784e9c6a3b10e353f043f2b",
+          "source_unchanged": true
+        },
+        {
+          "build_line_labels_only": [
+            "[20220727T22"
+          ],
+          "bytes": 1373,
+          "kind": "NGDP_diagnostics",
+          "literal_original_replay_root_occurs": false,
+          "public_labeled_build_hashes": [],
+          "sha256": "c05453039621da4d824d8f7f4c55acf4c1a4151c140b3d7db3c104bdc590cfe4",
+          "source_unchanged": true
+        },
+        {
+          "build_line_labels_only": [
+            "NGDP error"
+          ],
+          "bytes": 53,
+          "kind": "NGDP_trace",
+          "literal_original_replay_root_occurs": false,
+          "public_labeled_build_hashes": [],
+          "sha256": "a6678e6e9c97110be07cbca129eb1a4cf11b6ba57520c81bb89b2160a14347cd",
+          "source_unchanged": true
+        }
+      ],
+      "id": "crash41810-02"
+    },
+    {
+      "files": [
+        {
+          "bytes": 740,
+          "kind": "build_manifest",
+          "literal_original_replay_root_occurs": false,
+          "public_build_fields": [
+            {
+              "Active": "1",
+              "Branch": "eu",
+              "Build Key": "0534650161f366f2f048320d85b32893",
+              "CDN Key": "c53d29ee65044954474c758516b15ab4",
+              "Version": "2.55.3.88481"
+            }
+          ],
+          "sha256": "9b99aaae34342d18704c29d7021f3b84f87b874f7784e9c6a3b10e353f043f2b",
+          "source_unchanged": true
+        },
+        {
+          "build_line_labels_only": [
+            "[20220809T20"
+          ],
+          "bytes": 1373,
+          "kind": "NGDP_diagnostics",
+          "literal_original_replay_root_occurs": false,
+          "public_labeled_build_hashes": [],
+          "sha256": "b287d83cfad2937b042a0a74ff2cf3873b1d53aaa576b5352df294ff25ed1bc7",
+          "source_unchanged": true
+        },
+        {
+          "build_line_labels_only": [
+            "NGDP error"
+          ],
+          "bytes": 53,
+          "kind": "NGDP_trace",
+          "literal_original_replay_root_occurs": false,
+          "public_labeled_build_hashes": [],
+          "sha256": "a6678e6e9c97110be07cbca129eb1a4cf11b6ba57520c81bb89b2160a14347cd",
+          "source_unchanged": true
+        }
+      ],
+      "id": "crash41810-03"
+    },
+    {
+      "files": [
+        {
+          "bytes": 740,
+          "kind": "build_manifest",
+          "literal_original_replay_root_occurs": false,
+          "public_build_fields": [
+            {
+              "Active": "1",
+              "Branch": "eu",
+              "Build Key": "0534650161f366f2f048320d85b32893",
+              "CDN Key": "c53d29ee65044954474c758516b15ab4",
+              "Version": "2.55.3.88481"
+            }
+          ],
+          "sha256": "9b99aaae34342d18704c29d7021f3b84f87b874f7784e9c6a3b10e353f043f2b",
+          "source_unchanged": true
+        },
+        {
+          "build_line_labels_only": [
+            "[20220809T20"
+          ],
+          "bytes": 1359,
+          "kind": "NGDP_diagnostics",
+          "literal_original_replay_root_occurs": false,
+          "public_labeled_build_hashes": [],
+          "sha256": "fad65fa13377c6354856f15242dfaabf518a4284de70dd8a015f9c25d66e2194",
+          "source_unchanged": true
+        },
+        {
+          "build_line_labels_only": [
+            "NGDP error"
+          ],
+          "bytes": 53,
+          "kind": "NGDP_trace",
+          "literal_original_replay_root_occurs": false,
+          "public_labeled_build_hashes": [],
+          "sha256": "a6678e6e9c97110be07cbca129eb1a4cf11b6ba57520c81bb89b2160a14347cd",
+          "source_unchanged": true
+        }
+      ],
+      "id": "crash41810-04"
+    },
+    {
+      "files": [
+        {
+          "bytes": 740,
+          "kind": "build_manifest",
+          "literal_original_replay_root_occurs": false,
+          "public_build_fields": [
+            {
+              "Active": "1",
+              "Branch": "eu",
+              "Build Key": "0534650161f366f2f048320d85b32893",
+              "CDN Key": "c53d29ee65044954474c758516b15ab4",
+              "Version": "2.55.3.88481"
+            }
+          ],
+          "sha256": "9b99aaae34342d18704c29d7021f3b84f87b874f7784e9c6a3b10e353f043f2b",
+          "source_unchanged": true
+        },
+        {
+          "build_line_labels_only": [
+            "[20220809T20"
+          ],
+          "bytes": 1373,
+          "kind": "NGDP_diagnostics",
+          "literal_original_replay_root_occurs": false,
+          "public_labeled_build_hashes": [],
+          "sha256": "159a6799d5b2b3752303369fdfd11db91a81bd03b379eabe4125ec42c7812ad2",
+          "source_unchanged": true
+        },
+        {
+          "build_line_labels_only": [
+            "NGDP error"
+          ],
+          "bytes": 53,
+          "kind": "NGDP_trace",
+          "literal_original_replay_root_occurs": false,
+          "public_labeled_build_hashes": [],
+          "sha256": "a6678e6e9c97110be07cbca129eb1a4cf11b6ba57520c81bb89b2160a14347cd",
+          "source_unchanged": true
+        }
+      ],
+      "id": "crash41810-05"
+    }
+  ],
+  "format": "hots-preserved41810-crash-NGDP-metadata-v1",
+  "game_storage_modified": false,
+  "limitations": [
+    "Crash folder B41810 labels do not by themselves authenticate the accompanying content build.",
+    "Only the explicitly allowlisted public manifest fields and build/root/config labels are emitted; raw log bodies and all other values remain private.",
+    "No original41810 BuildConfig is inferred from a newer manifest."
+  ],
+  "limits": {
+    "bytes": 131072,
+    "files": 15
+  },
+  "original_replay_root": "83d43a8647bb5ca5caa6f2f09064da55",
+  "producer_sha256": "1124bec56be4e7249180752cf96992f1499124eeb88f72be05b021b802d06266",
+  "raw_logs_copied_or_published": false
+}

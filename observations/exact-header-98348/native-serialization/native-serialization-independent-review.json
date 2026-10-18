@@ -1,0 +1,93 @@
+{
+  "allowlisted_inputs": [
+    {
+      "bytes": 15759,
+      "name": "inspect_native_serialization_labels.py",
+      "sha256": "4c43053e77a9ee4997ab972f6d039f31e1e92902c5e58d514aa90b0af4bdb523"
+    },
+    {
+      "bytes": 94239,
+      "name": "native-serialization-labels-98348.json",
+      "sha256": "6aed9e391b79c2b3252c544c8d1b31065ef6f21380db6928123281f8ca49c2e3"
+    },
+    {
+      "bytes": 9045,
+      "name": "inspect_native_descriptor_contexts.py",
+      "sha256": "974707a2a0f8ae680153f3df367eda67bd7da31f0da0f1753ae0690831ca4dab"
+    },
+    {
+      "bytes": 62514,
+      "name": "native-descriptor-contexts-98348.json",
+      "sha256": "31d4bb69ea626f94ff39cce4528b78bb5c0185a8284915756f17d5b9e8aafda2"
+    },
+    {
+      "bytes": 4085,
+      "name": "README_NATIVE_SERIALIZATION_LABELS.md",
+      "sha256": "ec476aee74c3c88aaa275385667e5d0a4ad7df6f486602f867047f89235400d2"
+    }
+  ],
+  "format": "hots-native-serialization-independent-review-v1",
+  "frozen_receipt_sha256": "92a619233605f0cc54d39c9c1e61f4d88237a0ff4b9b2535f480f1d0c3bf0cca",
+  "limitations": [
+    "Reuses reviewed pure protobuf grammar helpers for negative candidate reproduction; PE/version/literal/location/union checks are separately implemented.",
+    "No complete protobuf schema, serializer function or runtime field correspondence is identified."
+  ],
+  "manual_source_review": [
+    "Both research mains refuse an existing report and read the pinned PE as data only.",
+    "Physical offsets, RVAs and version-resource text are distinct; the fixed 16-bit version cannot carry build98348 directly.",
+    "Context-family observations are literal adjacency, without asserting descriptor membership or replay-field semantics.",
+    "The protobuf result is restricted to the implemented contiguous framed grammar and bounded contexts.",
+    "Raw RIP forms lack established instruction boundaries; zero hits cannot prove absence of references.",
+    "No serialization bit widths, availability meaning, opaque player mapping or missing namespace value is inferred."
+  ],
+  "material_findings": [],
+  "not_performed": [
+    "No client/game DLL import, executable load, execution, debugger, Ghidra, disassembly, network, repo/cloud write or raw binary export."
+  ],
+  "reviewer_source_sha256": "6ca465415c55ddf93b90315eb7d2c91a616f4bf7f7be1bdfbf69001218a8fb76",
+  "source_PE": {
+    "actual_PE_bytes_read": 53573840,
+    "bytes": 53573840,
+    "read_passes": 1,
+    "sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+    "source_size_and_mtime_unchanged": true
+  },
+  "verdict": "PASS",
+  "verified": {
+    "all_context_rows_exact": true,
+    "all_selected_literal_bytes_and_locations": 320,
+    "bounded_complete_DescriptorProto_candidates": 0,
+    "bounded_complete_FieldDescriptorProto_candidates": 0,
+    "combined_JSON_report_bytes": 156753,
+    "context_union_bytes": 33666,
+    "five_file_pins_and_producer_report_bindings": true,
+    "fixed_file_version_16bit_words": [
+      2,
+      57,
+      0,
+      32812
+    ],
+    "fixed_last_word_is_98348_mod65536": true,
+    "full_scan_family_counts": {
+      "MSVC-RTTI-type-name-candidate": 108,
+      "field-spelling-candidate": 200,
+      "map-namespace-label": 4,
+      "other-target-keyword-label": 2129,
+      "replay-stream-or-battlelobby-label": 53,
+      "reward-catalog-type-label": 58,
+      "serialization-word-label": 15
+    },
+    "independent_PE_section_table_and_RVA_mapping": true,
+    "narrow_raw_RIP_byte_hints": 0,
+    "reported_RTTI_type_rows": 29,
+    "resource_FileVersion": "2.57.0.98348",
+    "selected_inventory_exact": true,
+    "target_occurrences": {
+      "m_clientLicensesList": 3,
+      "m_licenseCatalog": 2,
+      "m_licenseInstance": 2,
+      "m_mapNamespace": 4
+    },
+    "validated_COL_structures": 29
+  }
+}

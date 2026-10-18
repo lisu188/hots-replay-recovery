@@ -1,0 +1,161 @@
+{
+  "schema": "legacy-catalog-archives-2016-source-projection-v1",
+  "code_searches": [
+    {
+      "operation": 1,
+      "query": "ChoGallPromo",
+      "total_count": 22,
+      "incomplete_results": false,
+      "returned_items": 8,
+      "items": [
+        {
+          "repository": "SC2Mapster/SC2GameData",
+          "path": "mods/heromods/chogall.stormmod/enus.stormdata/LocalizedData/GameStrings.txt",
+          "git_blob_sha1": "cf93b571087c37754e86ee696b80a6a5b50e7346",
+          "pinned_blob_url": "https://github.com/SC2Mapster/SC2GameData/blob/6dd323aae4209a01f110719a00b4e8f7a88389bc/mods/heromods/chogall.stormmod/enus.stormdata/LocalizedData/GameStrings.txt"
+        },
+        {
+          "repository": "jamiephan/HeroesOfTheStorm_Gamedata",
+          "path": "mods/heromods/chogall.stormmod/zhcn.stormdata/localizeddata/gamestrings.txt",
+          "git_blob_sha1": "211bdac4be651776912a1af3ad6249e207a4ac76",
+          "pinned_blob_url": "https://github.com/jamiephan/HeroesOfTheStorm_Gamedata/blob/e3e57cb640f18002a4feebe3872cefe04072d814/mods/heromods/chogall.stormmod/zhcn.stormdata/localizeddata/gamestrings.txt"
+        },
+        {
+          "repository": "jamiephan/HeroesOfTheStorm_Gamedata",
+          "path": "mods/heromods/chogall.stormmod/enus.stormdata/localizeddata/gamestrings.txt",
+          "git_blob_sha1": "0c1f9905c84eee4c947fd25dfed28ad3b3236f9f",
+          "pinned_blob_url": "https://github.com/jamiephan/HeroesOfTheStorm_Gamedata/blob/e3e57cb640f18002a4feebe3872cefe04072d814/mods/heromods/chogall.stormmod/enus.stormdata/localizeddata/gamestrings.txt"
+        },
+        {
+          "repository": "jamiephan/HeroesOfTheStorm_Gamedata",
+          "path": "mods/heromods/chogall.stormmod/zhtw.stormdata/localizeddata/gamestrings.txt",
+          "git_blob_sha1": "17d7877f6e5d394996ff598d72fa90b5cc154bf1",
+          "pinned_blob_url": "https://github.com/jamiephan/HeroesOfTheStorm_Gamedata/blob/e3e57cb640f18002a4feebe3872cefe04072d814/mods/heromods/chogall.stormmod/zhtw.stormdata/localizeddata/gamestrings.txt"
+        },
+        {
+          "repository": "jamiephan/HeroesOfTheStorm_Gamedata",
+          "path": "mods/heromods/chogall.stormmod/ptbr.stormdata/localizeddata/gamestrings.txt",
+          "git_blob_sha1": "4ddb15097472def51cead0e7e9ad55b0604b5709",
+          "pinned_blob_url": "https://github.com/jamiephan/HeroesOfTheStorm_Gamedata/blob/e3e57cb640f18002a4feebe3872cefe04072d814/mods/heromods/chogall.stormmod/ptbr.stormdata/localizeddata/gamestrings.txt"
+        },
+        {
+          "repository": "jamiephan/HeroesOfTheStorm_Gamedata",
+          "path": "mods/heromods/chogall.stormmod/itit.stormdata/localizeddata/gamestrings.txt",
+          "git_blob_sha1": "dd9bfc583c5529d48ab90bd6e10161241e081e05",
+          "pinned_blob_url": "https://github.com/jamiephan/HeroesOfTheStorm_Gamedata/blob/e3e57cb640f18002a4feebe3872cefe04072d814/mods/heromods/chogall.stormmod/itit.stormdata/localizeddata/gamestrings.txt"
+        },
+        {
+          "repository": "jamiephan/HeroesOfTheStorm_Gamedata",
+          "path": "mods/heromods/chogall.stormmod/esmx.stormdata/localizeddata/gamestrings.txt",
+          "git_blob_sha1": "d355b55231d29c27eac0cf8e3e64384546160b08",
+          "pinned_blob_url": "https://github.com/jamiephan/HeroesOfTheStorm_Gamedata/blob/e3e57cb640f18002a4feebe3872cefe04072d814/mods/heromods/chogall.stormmod/esmx.stormdata/localizeddata/gamestrings.txt"
+        },
+        {
+          "repository": "jamiephan/HeroesOfTheStorm_Gamedata",
+          "path": "mods/heromods/chogall.stormmod/eses.stormdata/localizeddata/gamestrings.txt",
+          "git_blob_sha1": "197554a910d3d1f76833f80e9b555139e0f0448c",
+          "pinned_blob_url": "https://github.com/jamiephan/HeroesOfTheStorm_Gamedata/blob/e3e57cb640f18002a4feebe3872cefe04072d814/mods/heromods/chogall.stormmod/eses.stormdata/localizeddata/gamestrings.txt"
+        }
+      ],
+      "classification": "Localized GameStrings file metadata; not reward XML and not version-bound 2016 evidence."
+    },
+    {
+      "operation": 2,
+      "query": "41810 Heroes",
+      "total_count": 9024,
+      "incomplete_results": false,
+      "returned_items": 8,
+      "unrelated_items_omitted": 5,
+      "relevant_lead_metadata_only": [
+        {
+          "repository": "nexus-patch-notes/nexus-patch-notes.github.io",
+          "path": "heroes/cho.html",
+          "git_blob_sha1": "b2e1c69ca0a9e1272acb8ffbb552bf92962bee2f",
+          "pinned_blob_url": "https://github.com/nexus-patch-notes/nexus-patch-notes.github.io/blob/8fbb0736bc67891bb232c774abcb08ef64465eb2/heroes/cho.html"
+        },
+        {
+          "repository": "nexus-patch-notes/nexus-patch-notes.github.io",
+          "path": "heroes/etc.html",
+          "git_blob_sha1": "8d0ead8efd5f6b729c492179aa18dff25f7b8a60",
+          "pinned_blob_url": "https://github.com/nexus-patch-notes/nexus-patch-notes.github.io/blob/8fbb0736bc67891bb232c774abcb08ef64465eb2/heroes/etc.html"
+        },
+        {
+          "repository": "heroesshare/heroes-convert",
+          "path": "src/Intervene.php",
+          "git_blob_sha1": "15751f54f0711cfa034e12c8d906c67c74dbe974",
+          "pinned_blob_url": "https://github.com/heroesshare/heroes-convert/blob/5237307b328b736297d5b314a0969ac8bcd0b5fc/src/Intervene.php"
+        }
+      ],
+      "classification": "Broad query mostly unrelated; three potentially HotS-related leads not fetched, no catalog/version admission."
+    },
+    {
+      "operation": 3,
+      "query": "\"0.17.0.41810\"",
+      "total_count": 0,
+      "incomplete_results": false,
+      "returned_items": 0
+    },
+    {
+      "operation": 4,
+      "query": "LunaraSkinMaster",
+      "total_count": 0,
+      "incomplete_results": false,
+      "returned_items": 0
+    }
+  ],
+  "archive_branch_inventory": {
+    "operation": 7,
+    "repository": "SC2Mapster/SC2GameData",
+    "page": 1,
+    "per_page": 100,
+    "returned_count": 4,
+    "branches": [
+      {
+        "name": "master",
+        "commit_sha1": "6dd323aae4209a01f110719a00b4e8f7a88389bc"
+      },
+      {
+        "name": "s2c",
+        "commit_sha1": "e1c1b310a6e7b598d3c04f563c37304185adf2cf"
+      },
+      {
+        "name": "sc2/wol/17164",
+        "commit_sha1": "3effa3426ff34d59d62337d54863f720971fb008"
+      },
+      {
+        "name": "sc2/4.10.0.75689-linux",
+        "commit_sha1": "db03e82a9e091888d904a43245fc56fd6d0bbedb"
+      }
+    ],
+    "limitation": "Listed branches only; no recursive tree, tags or earlier commit history queried in this task."
+  },
+  "archive_readme": {
+    "operation": 8,
+    "repository": "SC2Mapster/SC2GameData",
+    "ref": "6dd323aae4209a01f110719a00b4e8f7a88389bc",
+    "relative_file": "README.md",
+    "returned_utf8_bytes": 242,
+    "facts": [
+      "Describes GameData, UI and Galaxy files.",
+      "States active updates have stopped because tooling/automation is broken and maintenance unavailable.",
+      "Contains no HotS build41810 or 2016 extraction-version binding."
+    ]
+  },
+  "archive_readme_commit": {
+    "operation": 10,
+    "repository": "SC2Mapster/SC2GameData",
+    "commit_sha1": "6dd323aae4209a01f110719a00b4e8f7a88389bc",
+    "committer_timestamp_utc": "2026-06-29T08:32:36Z",
+    "parent_commit_sha1s": [
+      "a24eb472ec084967fafd48e95ef2733ec3a77a09"
+    ],
+    "changed_files": [
+      {
+        "relative_file": "README.md",
+        "status": "modified"
+      }
+    ],
+    "conclusion": "This commit dates the README maintenance notice; it does not date the game-data extraction."
+  },
+  "privacy": "Only public repository/file identities retained. Unrelated search metadata and all author/committer identities omitted."
+}

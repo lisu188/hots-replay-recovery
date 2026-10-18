@@ -1,0 +1,110 @@
+{
+  "PE_image_base": 5368709120,
+  "PE_parser_source_sha256": "4c43053e77a9ee4997ab972f6d039f31e1e92902c5e58d514aa90b0af4bdb523",
+  "classification": "Raw integer-address byte matches only; pointer origin, relocation, instruction boundary and semantic use unproven.",
+  "format": "hots-native-exact-label-pointer-byte-reference-candidates-v1",
+  "full_PE_input_bytes": 53573840,
+  "full_PE_input_read_passes": 1,
+  "network_used": false,
+  "new_header_candidate": false,
+  "pinned_initial_report_sha256": "6aed9e391b79c2b3252c544c8d1b31065ef6f21380db6928123281f8ca49c2e3",
+  "producer_sha256": "289cda7cbd1e0f853034f34c3c13c15d23ef56f85c701f3d549fe464b2a14618",
+  "raw_binary_bytes_emitted_or_copied": false,
+  "references": [
+    {
+      "absolute_VA_u64_byte_matches": [],
+      "image_RVA_u32_byte_matches": [],
+      "label": "m_mapNamespace",
+      "location": {
+        "file_offset": 43476303,
+        "rva": 43480399,
+        "section": ".rdata"
+      }
+    },
+    {
+      "absolute_VA_u64_byte_matches": [],
+      "image_RVA_u32_byte_matches": [],
+      "label": "m_mapNamespace",
+      "location": {
+        "file_offset": 44469556,
+        "rva": 44473652,
+        "section": ".rdata"
+      }
+    },
+    {
+      "absolute_VA_u64_byte_matches": [],
+      "image_RVA_u32_byte_matches": [],
+      "label": "m_mapNamespace",
+      "location": {
+        "file_offset": 44881286,
+        "rva": 44885382,
+        "section": ".rdata"
+      }
+    },
+    {
+      "absolute_VA_u64_byte_matches": [],
+      "image_RVA_u32_byte_matches": [],
+      "label": "m_mapNamespace",
+      "location": {
+        "file_offset": 44985911,
+        "rva": 44990007,
+        "section": ".rdata"
+      }
+    },
+    {
+      "absolute_VA_u64_byte_matches": [],
+      "image_RVA_u32_byte_matches": [],
+      "label": "m_licenseIds",
+      "location": {
+        "file_offset": 43379876,
+        "rva": 43383972,
+        "section": ".rdata"
+      }
+    },
+    {
+      "absolute_VA_u64_byte_matches": [],
+      "image_RVA_u32_byte_matches": [],
+      "label": "m_licenses",
+      "location": {
+        "file_offset": 43381940,
+        "rva": 43386036,
+        "section": ".rdata"
+      }
+    },
+    {
+      "absolute_VA_u64_byte_matches": [],
+      "image_RVA_u32_byte_matches": [],
+      "label": "m_licenseCatalog",
+      "location": {
+        "file_offset": 43393499,
+        "rva": 43397595,
+        "section": ".rdata"
+      }
+    },
+    {
+      "absolute_VA_u64_byte_matches": [],
+      "image_RVA_u32_byte_matches": [],
+      "label": "m_licenseInstance",
+      "location": {
+        "file_offset": 43396498,
+        "rva": 43400594,
+        "section": ".rdata"
+      }
+    },
+    {
+      "absolute_VA_u64_byte_matches": [],
+      "image_RVA_u32_byte_matches": [],
+      "label": "m_clientLicensesList",
+      "location": {
+        "file_offset": 43426603,
+        "rva": 43430699,
+        "section": ".rdata"
+      }
+    }
+  ],
+  "replay_read_or_written": false,
+  "selected_labels": 9,
+  "source_PE_bytes": 53573840,
+  "source_PE_sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+  "target_image_executed_or_loaded": false
+}

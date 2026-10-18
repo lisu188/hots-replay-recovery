@@ -1,0 +1,2273 @@
+{
+  "PE_parser_source_sha256": "4c43053e77a9ee4997ab972f6d039f31e1e92902c5e58d514aa90b0af4bdb523",
+  "additional_PE_byte_read_passes": 1,
+  "complete_protobuf_DescriptorProto_candidates": [],
+  "context_union_bytes": 33666,
+  "contexts_are_label_metadata_only_no_raw_body_dump": true,
+  "cumulative_PE_bytes_read": 107147680,
+  "disassembler_or_debugger_used": false,
+  "format": "hots-native-bounded-descriptor-context-research-v1",
+  "game_or_client_code_executed_or_loaded": false,
+  "initial_report_sha256": "6aed9e391b79c2b3252c544c8d1b31065ef6f21380db6928123281f8ca49c2e3",
+  "limitations": [
+    "A protobuf-compatible field/message grammar needs complete-container/type-context verification before attribution.",
+    "Nearby labels alone do not establish shared type membership or a connection to replay.server.battlelobby.",
+    "No code crossreference, serialization bit width, account value or missing MapNamespace value is inferred."
+  ],
+  "maximum_context_union_bytes": 65536,
+  "new_header_candidate": false,
+  "new_network_requests": 0,
+  "opaque174_to198_or_32byte_layout_bound": false,
+  "producer_sha256": "974707a2a0f8ae680153f3df367eda67bd7da31f0da0f1753ae0690831ca4dab",
+  "replay_modified": false,
+  "source_PE_bytes": 53573840,
+  "source_PE_sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+  "source_size_and_mtime_unchanged": true,
+  "target_occurrences": [
+    {
+      "complete_protobuf_FieldDescriptorProto_candidates": [],
+      "file_offset": 43396498,
+      "nearest_allowlisted_labels": [
+        {
+          "file_offset": 43395908,
+          "label": "Battlenet::Client::BattlePay::ValidatePurchase",
+          "rva": 43400004,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43395955,
+          "label": "Battlenet::Client::BattlePay::ValidatePurchaseRequest",
+          "rva": 43400051,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43396009,
+          "label": "ValidatePurchase",
+          "rva": 43400105,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43396026,
+          "label": "m_currencyId",
+          "rva": 43400122,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43396039,
+          "label": "Battlenet::Client::BattlePay::ValidatePurchaseResponse",
+          "rva": 43400135,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43396094,
+          "label": "Battlenet::Client::BattlePay::ValidatePurchaseResponse::Result",
+          "rva": 43400190,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43396157,
+          "label": "Battlenet::Client::BattlePay::ValidatePurchaseResponse::Result::Success",
+          "rva": 43400253,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43396229,
+          "label": "Battlenet::Client::BattlePay::ValidatePurchaseResponse::Result::Failure",
+          "rva": 43400325,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43396301,
+          "label": "Battlenet::Client::BattlePay::UseLicenses",
+          "rva": 43400397,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43396343,
+          "label": "Battlenet::Client::BattlePay::UseLicensesRequest",
+          "rva": 43400439,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43396392,
+          "label": "UseLicenses",
+          "rva": 43400488,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43396404,
+          "label": "Battlenet::Client::BattlePay::UseLicensesResponse",
+          "rva": 43400500,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43396454,
+          "label": "Battlenet::Client::BattlePay::LicenseUpdate",
+          "rva": 43400550,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43396498,
+          "label": "m_licenseInstance",
+          "rva": 43400594,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43396516,
+          "label": "m_isAddition",
+          "rva": 43400612,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43396529,
+          "label": "Battlenet::Client::BattlePay::BalanceUpdate",
+          "rva": 43400625,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43396573,
+          "label": "Battlenet::Client::BattlePay::ProductUpdate",
+          "rva": 43400669,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43396617,
+          "label": "Battlenet::Client::BattlePay::ServiceUpdate",
+          "rva": 43400713,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43396661,
+          "label": "m_available",
+          "rva": 43400757,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43396673,
+          "label": "m_throttled",
+          "rva": 43400769,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43396685,
+          "label": "m_moneyEnabled",
+          "rva": 43400781,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43396700,
+          "label": "Battlenet::Client::BattlePay::TransactionUpdate",
+          "rva": 43400796,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43396748,
+          "label": "m_cancellable",
+          "rva": 43400844,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43396762,
+          "label": "Battlenet::Client::BattlePay::DetermineChestContents",
+          "rva": 43400858,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43396815,
+          "label": "m_chestType",
+          "rva": 43400911,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43396827,
+          "label": "Battlenet::Client::BattlePay::DetermineChestContentsRequest",
+          "rva": 43400923,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43396887,
+          "label": "DetermineChestContents",
+          "rva": 43400983,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43396910,
+          "label": "Battlenet::Client::BattlePay::DetermineChestContentsResponse",
+          "rva": 43401006,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43396971,
+          "label": "Battlenet::Client::BattlePay::DetermineChestContentsResponse::Result",
+          "rva": 43401067,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43397040,
+          "label": "error",
+          "rva": 43401136,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43397046,
+          "label": "Battlenet::Client::BattlePay::DetermineChestContentsResponse::Result::Error",
+          "rva": 43401142,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43397122,
+          "label": "Battlenet::Client::BattlePay::DetermineChestContentsResponse::Result::Success",
+          "rva": 43401218,
+          "section": ".rdata"
+        }
+      ],
+      "neighbor_label_window_end": 43398546,
+      "neighbor_label_window_start": 43392475,
+      "protobuf_name_key_length_prefix_matches": false,
+      "rva": 43400594,
+      "section": ".rdata",
+      "target": "m_licenseInstance"
+    },
+    {
+      "complete_protobuf_FieldDescriptorProto_candidates": [],
+      "file_offset": 44395354,
+      "nearest_allowlisted_labels": [
+        {
+          "file_offset": 44394764,
+          "label": "Battlenet::Client::BattlePay::ValidatePurchase",
+          "rva": 44398860,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44394811,
+          "label": "Battlenet::Client::BattlePay::ValidatePurchaseRequest",
+          "rva": 44398907,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44394865,
+          "label": "ValidatePurchase",
+          "rva": 44398961,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44394882,
+          "label": "m_currencyId",
+          "rva": 44398978,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44394895,
+          "label": "Battlenet::Client::BattlePay::ValidatePurchaseResponse",
+          "rva": 44398991,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44394950,
+          "label": "Battlenet::Client::BattlePay::ValidatePurchaseResponse::Result",
+          "rva": 44399046,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44395013,
+          "label": "Battlenet::Client::BattlePay::ValidatePurchaseResponse::Result::Success",
+          "rva": 44399109,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44395085,
+          "label": "Battlenet::Client::BattlePay::ValidatePurchaseResponse::Result::Failure",
+          "rva": 44399181,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44395157,
+          "label": "Battlenet::Client::BattlePay::UseLicenses",
+          "rva": 44399253,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44395199,
+          "label": "Battlenet::Client::BattlePay::UseLicensesRequest",
+          "rva": 44399295,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44395248,
+          "label": "UseLicenses",
+          "rva": 44399344,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44395260,
+          "label": "Battlenet::Client::BattlePay::UseLicensesResponse",
+          "rva": 44399356,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44395310,
+          "label": "Battlenet::Client::BattlePay::LicenseUpdate",
+          "rva": 44399406,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44395354,
+          "label": "m_licenseInstance",
+          "rva": 44399450,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44395372,
+          "label": "m_isAddition",
+          "rva": 44399468,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44395385,
+          "label": "Battlenet::Client::BattlePay::BalanceUpdate",
+          "rva": 44399481,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44395429,
+          "label": "Battlenet::Client::BattlePay::ProductUpdate",
+          "rva": 44399525,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44395473,
+          "label": "Battlenet::Client::BattlePay::ServiceUpdate",
+          "rva": 44399569,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44395517,
+          "label": "m_available",
+          "rva": 44399613,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44395529,
+          "label": "m_throttled",
+          "rva": 44399625,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44395541,
+          "label": "m_moneyEnabled",
+          "rva": 44399637,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44395556,
+          "label": "Battlenet::Client::BattlePay::TransactionUpdate",
+          "rva": 44399652,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44395604,
+          "label": "m_cancellable",
+          "rva": 44399700,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44395618,
+          "label": "Battlenet::Client::BattlePay::DetermineChestContents",
+          "rva": 44399714,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44395671,
+          "label": "m_chestType",
+          "rva": 44399767,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44395683,
+          "label": "Battlenet::Client::BattlePay::DetermineChestContentsRequest",
+          "rva": 44399779,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44395743,
+          "label": "DetermineChestContents",
+          "rva": 44399839,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44395766,
+          "label": "Battlenet::Client::BattlePay::DetermineChestContentsResponse",
+          "rva": 44399862,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44395827,
+          "label": "Battlenet::Client::BattlePay::DetermineChestContentsResponse::Result",
+          "rva": 44399923,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44395896,
+          "label": "error",
+          "rva": 44399992,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44395902,
+          "label": "Battlenet::Client::BattlePay::DetermineChestContentsResponse::Result::Error",
+          "rva": 44399998,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44395978,
+          "label": "Battlenet::Client::BattlePay::DetermineChestContentsResponse::Result::Success",
+          "rva": 44400074,
+          "section": ".rdata"
+        }
+      ],
+      "neighbor_label_window_end": 44397402,
+      "neighbor_label_window_start": 44391311,
+      "protobuf_name_key_length_prefix_matches": false,
+      "rva": 44399450,
+      "section": ".rdata",
+      "target": "m_licenseInstance"
+    },
+    {
+      "complete_protobuf_FieldDescriptorProto_candidates": [],
+      "file_offset": 43393499,
+      "nearest_allowlisted_labels": [
+        {
+          "file_offset": 43393089,
+          "label": "USE_LICENSES",
+          "rva": 43397185,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43393102,
+          "label": "DETERMINE_CHEST_CONTENTS",
+          "rva": 43397198,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43393127,
+          "label": "ACCEPT_CHEST_CONTENTS",
+          "rva": 43397223,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43393149,
+          "label": "REROLL_CHEST_CONTENTS",
+          "rva": 43397245,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43393171,
+          "label": "UPDATED_CHEST_COUNT",
+          "rva": 43397267,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43393191,
+          "label": "BOOST_PURCHASE_APPLIED",
+          "rva": 43397287,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43393214,
+          "label": "Battlenet::Client::BattlePay::Balance",
+          "rva": 43397310,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43393252,
+          "label": "Battlenet::Client::BattlePay::GetInfo",
+          "rva": 43397348,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43393290,
+          "label": "Battlenet::Client::BattlePay::BalanceList",
+          "rva": 43397386,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43393332,
+          "label": "Battlenet::Client::BattlePay::GetInfoRequest",
+          "rva": 43397428,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43393377,
+          "label": "GetInfo",
+          "rva": 43397473,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43393385,
+          "label": "Battlenet::Client::BattlePay::GetInfoResponse",
+          "rva": 43397481,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43393431,
+          "label": "m_licenseResult",
+          "rva": 43397527,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43393447,
+          "label": "m_lootChestResult",
+          "rva": 43397543,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43393465,
+          "label": "m_accountCountry",
+          "rva": 43397561,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43393482,
+          "label": "m_productCatalog",
+          "rva": 43397578,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43393499,
+          "label": "m_licenseCatalog",
+          "rva": 43397595,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43393516,
+          "label": "m_currencies",
+          "rva": 43397612,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43393529,
+          "label": "m_balances",
+          "rva": 43397625,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43393540,
+          "label": "m_lootChests",
+          "rva": 43397636,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43393553,
+          "label": "Battlenet::Loot::ChestCountList",
+          "rva": 43397649,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43393585,
+          "label": "Battlenet::Loot::ChestCount",
+          "rva": 43397681,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43393613,
+          "label": "m_chestId",
+          "rva": 43397709,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43393623,
+          "label": "m_count",
+          "rva": 43397719,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43393631,
+          "label": "Battlenet::Loot::ChestId",
+          "rva": 43397727,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43393656,
+          "label": "Battlenet::Client::BattlePay::BeginPurchase",
+          "rva": 43397752,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43393700,
+          "label": "Battlenet::Client::BattlePay::BeginPurchaseRequest",
+          "rva": 43397796,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43393751,
+          "label": "BeginPurchase",
+          "rva": 43397847,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43393765,
+          "label": "m_fingerprint",
+          "rva": 43397861,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43393779,
+          "label": "m_scoreScreenBoost",
+          "rva": 43397875,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43393798,
+          "label": "Battlenet::Client::BattlePay::BeginPurchaseResponse",
+          "rva": 43397894,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43393850,
+          "label": "Battlenet::Client::BattlePay::BeginPurchaseResponse::Result",
+          "rva": 43397946,
+          "section": ".rdata"
+        }
+      ],
+      "neighbor_label_window_end": 43398546,
+      "neighbor_label_window_start": 43392475,
+      "protobuf_name_key_length_prefix_matches": false,
+      "rva": 43397595,
+      "section": ".rdata",
+      "target": "m_licenseCatalog"
+    },
+    {
+      "complete_protobuf_FieldDescriptorProto_candidates": [],
+      "file_offset": 44392335,
+      "nearest_allowlisted_labels": [
+        {
+          "file_offset": 44391938,
+          "label": "DETERMINE_CHEST_CONTENTS",
+          "rva": 44396034,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44391963,
+          "label": "ACCEPT_CHEST_CONTENTS",
+          "rva": 44396059,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44391985,
+          "label": "REROLL_CHEST_CONTENTS",
+          "rva": 44396081,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44392007,
+          "label": "UPDATED_CHEST_COUNT",
+          "rva": 44396103,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44392027,
+          "label": "BOOST_PURCHASE_APPLIED",
+          "rva": 44396123,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44392050,
+          "label": "Battlenet::Client::BattlePay::Balance",
+          "rva": 44396146,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44392088,
+          "label": "Battlenet::Client::BattlePay::GetInfo",
+          "rva": 44396184,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44392126,
+          "label": "Battlenet::Client::BattlePay::BalanceList",
+          "rva": 44396222,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44392168,
+          "label": "Battlenet::Client::BattlePay::GetInfoRequest",
+          "rva": 44396264,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44392213,
+          "label": "GetInfo",
+          "rva": 44396309,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44392221,
+          "label": "Battlenet::Client::BattlePay::GetInfoResponse",
+          "rva": 44396317,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44392267,
+          "label": "m_licenseResult",
+          "rva": 44396363,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44392283,
+          "label": "m_lootChestResult",
+          "rva": 44396379,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44392301,
+          "label": "m_accountCountry",
+          "rva": 44396397,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44392318,
+          "label": "m_productCatalog",
+          "rva": 44396414,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44392335,
+          "label": "m_licenseCatalog",
+          "rva": 44396431,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44392352,
+          "label": "m_currencies",
+          "rva": 44396448,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44392365,
+          "label": "m_balances",
+          "rva": 44396461,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44392376,
+          "label": "m_lootChests",
+          "rva": 44396472,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44392389,
+          "label": "Battlenet::Loot::ChestCountList",
+          "rva": 44396485,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44392421,
+          "label": "Battlenet::Loot::ChestCount",
+          "rva": 44396517,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44392449,
+          "label": "m_chestId",
+          "rva": 44396545,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44392459,
+          "label": "m_count",
+          "rva": 44396555,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44392467,
+          "label": "Battlenet::Loot::ChestId",
+          "rva": 44396563,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44392492,
+          "label": "Battlenet::Client::BattlePay::BeginPurchase",
+          "rva": 44396588,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44392536,
+          "label": "Battlenet::Client::BattlePay::BeginPurchaseRequest",
+          "rva": 44396632,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44392587,
+          "label": "BeginPurchase",
+          "rva": 44396683,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44392601,
+          "label": "m_fingerprint",
+          "rva": 44396697,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44392615,
+          "label": "m_scoreScreenBoost",
+          "rva": 44396711,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44392634,
+          "label": "Battlenet::Client::BattlePay::BeginPurchaseResponse",
+          "rva": 44396730,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44392686,
+          "label": "m_result",
+          "rva": 44396782,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44392695,
+          "label": "Battlenet::Client::BattlePay::BeginPurchaseResponse::Result",
+          "rva": 44396791,
+          "section": ".rdata"
+        }
+      ],
+      "neighbor_label_window_end": 44397402,
+      "neighbor_label_window_start": 44391311,
+      "protobuf_name_key_length_prefix_matches": false,
+      "rva": 44396431,
+      "section": ".rdata",
+      "target": "m_licenseCatalog"
+    },
+    {
+      "complete_protobuf_FieldDescriptorProto_candidates": [],
+      "file_offset": 43426603,
+      "nearest_allowlisted_labels": [
+        {
+          "file_offset": 43426175,
+          "label": "Battlenet::S2Game::Replay::LobbyContextData",
+          "rva": 43430271,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43426219,
+          "label": "Battlenet::S2Map::ArchiveCacheHandleList",
+          "rva": 43430315,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43426260,
+          "label": "Battlenet::S2Game::Replay::LobbyType::Enum",
+          "rva": 43430356,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43426303,
+          "label": "WATCH",
+          "rva": 43430399,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43426309,
+          "label": "RECOVER",
+          "rva": 43430405,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43426317,
+          "label": "Battlenet::Client::S2Game::EncodedGameDataVersion",
+          "rva": 43430413,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43426367,
+          "label": "m_serviceRevision",
+          "rva": 43430463,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43426385,
+          "label": "m_clientVersion",
+          "rva": 43430481,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43426401,
+          "label": "Battlenet::Client::S2Game::EncodedGameDataHeader",
+          "rva": 43430497,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43426450,
+          "label": "m_mapCacheHandles",
+          "rva": 43430546,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43426468,
+          "label": "m_workingSet",
+          "rva": 43430564,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43426481,
+          "label": "m_definitionList",
+          "rva": 43430577,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43426498,
+          "label": "m_headerCacheHandles",
+          "rva": 43430594,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43426519,
+          "label": "m_resourceMap",
+          "rva": 43430615,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43426533,
+          "label": "m_resourceAccessList",
+          "rva": 43430629,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43426554,
+          "label": "m_ladderStats",
+          "rva": 43430650,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43426568,
+          "label": "m_races",
+          "rva": 43430664,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43426576,
+          "label": "m_clientUnlockableInfoList",
+          "rva": 43430672,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43426603,
+          "label": "m_clientLicensesList",
+          "rva": 43430699,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43426624,
+          "label": "m_turnIntervalMS",
+          "rva": 43430720,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43426641,
+          "label": "m_numTurns",
+          "rva": 43430737,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43426652,
+          "label": "m_numDataStructs",
+          "rva": 43430748,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43426669,
+          "label": "Battlenet::S2Map::HeaderCacheHandleList",
+          "rva": 43430765,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43426709,
+          "label": "Battlenet::S2Map::ResourceIdentifierMap",
+          "rva": 43430805,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43426749,
+          "label": "Battlenet::S2Map::ResourceAccessListBitsList",
+          "rva": 43430845,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43426794,
+          "label": "Battlenet::Client::S2GameDefines::ClientLicensesList",
+          "rva": 43430890,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43426847,
+          "label": "Battlenet::S2Map::ResourceIdentifier",
+          "rva": 43430943,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43426884,
+          "label": "Battlenet::Client::S2GameDefines::ClientLicenses",
+          "rva": 43430980,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43426933,
+          "label": "Battlenet::Client::S2Game::TurnDataChoice",
+          "rva": 43431029,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43426975,
+          "label": "Battlenet::Client::S2Game::TurnDataChoice::Data",
+          "rva": 43431071,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43427023,
+          "label": "turnCollection",
+          "rva": 43431119,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43427038,
+          "label": "playerJoinedNotify",
+          "rva": 43431134,
+          "section": ".rdata"
+        }
+      ],
+      "neighbor_label_window_end": 43428651,
+      "neighbor_label_window_start": 43425579,
+      "protobuf_name_key_length_prefix_matches": false,
+      "rva": 43430699,
+      "section": ".rdata",
+      "target": "m_clientLicensesList"
+    },
+    {
+      "complete_protobuf_FieldDescriptorProto_candidates": [],
+      "file_offset": 44428978,
+      "nearest_allowlisted_labels": [
+        {
+          "file_offset": 44428550,
+          "label": "Battlenet::S2Game::Replay::LobbyContextData",
+          "rva": 44432646,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44428594,
+          "label": "Battlenet::S2Map::ArchiveCacheHandleList",
+          "rva": 44432690,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44428635,
+          "label": "Battlenet::S2Game::Replay::LobbyType::Enum",
+          "rva": 44432731,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44428678,
+          "label": "WATCH",
+          "rva": 44432774,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44428684,
+          "label": "RECOVER",
+          "rva": 44432780,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44428692,
+          "label": "Battlenet::Client::S2Game::EncodedGameDataVersion",
+          "rva": 44432788,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44428742,
+          "label": "m_serviceRevision",
+          "rva": 44432838,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44428760,
+          "label": "m_clientVersion",
+          "rva": 44432856,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44428776,
+          "label": "Battlenet::Client::S2Game::EncodedGameDataHeader",
+          "rva": 44432872,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44428825,
+          "label": "m_mapCacheHandles",
+          "rva": 44432921,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44428843,
+          "label": "m_workingSet",
+          "rva": 44432939,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44428856,
+          "label": "m_definitionList",
+          "rva": 44432952,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44428873,
+          "label": "m_headerCacheHandles",
+          "rva": 44432969,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44428894,
+          "label": "m_resourceMap",
+          "rva": 44432990,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44428908,
+          "label": "m_resourceAccessList",
+          "rva": 44433004,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44428929,
+          "label": "m_ladderStats",
+          "rva": 44433025,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44428943,
+          "label": "m_races",
+          "rva": 44433039,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44428951,
+          "label": "m_clientUnlockableInfoList",
+          "rva": 44433047,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44428978,
+          "label": "m_clientLicensesList",
+          "rva": 44433074,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44428999,
+          "label": "m_turnIntervalMS",
+          "rva": 44433095,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44429016,
+          "label": "m_numTurns",
+          "rva": 44433112,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44429027,
+          "label": "m_numDataStructs",
+          "rva": 44433123,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44429044,
+          "label": "Battlenet::S2Map::HeaderCacheHandleList",
+          "rva": 44433140,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44429084,
+          "label": "Battlenet::S2Map::ResourceIdentifierMap",
+          "rva": 44433180,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44429124,
+          "label": "Battlenet::S2Map::ResourceAccessListBitsList",
+          "rva": 44433220,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44429169,
+          "label": "Battlenet::Client::S2GameDefines::ClientLicensesList",
+          "rva": 44433265,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44429222,
+          "label": "Battlenet::S2Map::ResourceIdentifier",
+          "rva": 44433318,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44429259,
+          "label": "Battlenet::Client::S2GameDefines::ClientLicenses",
+          "rva": 44433355,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44429308,
+          "label": "Battlenet::Client::S2Game::TurnDataChoice",
+          "rva": 44433404,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44429350,
+          "label": "Battlenet::Client::S2Game::TurnDataChoice::Data",
+          "rva": 44433446,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44429398,
+          "label": "turnCollection",
+          "rva": 44433494,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44429413,
+          "label": "playerJoinedNotify",
+          "rva": 44433509,
+          "section": ".rdata"
+        }
+      ],
+      "neighbor_label_window_end": 44431026,
+      "neighbor_label_window_start": 44427954,
+      "protobuf_name_key_length_prefix_matches": false,
+      "rva": 44433074,
+      "section": ".rdata",
+      "target": "m_clientLicensesList"
+    },
+    {
+      "complete_protobuf_FieldDescriptorProto_candidates": [],
+      "file_offset": 44828424,
+      "nearest_allowlisted_labels": [
+        {
+          "file_offset": 44827995,
+          "label": "Battlenet::IP4::Address",
+          "rva": 44832091,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44828019,
+          "label": "Battlenet::IP4::Port",
+          "rva": 44832115,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44828040,
+          "label": "Battlenet::S2Map::ArchiveCacheHandleList",
+          "rva": 44832136,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44828081,
+          "label": "Battlenet::S2Game::Replay::LobbyType::Enum",
+          "rva": 44832177,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44828124,
+          "label": "WATCH",
+          "rva": 44832220,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44828130,
+          "label": "RECOVER",
+          "rva": 44832226,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44828138,
+          "label": "Battlenet::Client::S2Game::EncodedGameDataVersion",
+          "rva": 44832234,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44828188,
+          "label": "m_serviceRevision",
+          "rva": 44832284,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44828206,
+          "label": "m_clientVersion",
+          "rva": 44832302,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44828222,
+          "label": "Battlenet::Client::S2Game::EncodedGameDataHeader",
+          "rva": 44832318,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44828271,
+          "label": "m_mapCacheHandles",
+          "rva": 44832367,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44828289,
+          "label": "m_workingSet",
+          "rva": 44832385,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44828302,
+          "label": "m_definitionList",
+          "rva": 44832398,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44828319,
+          "label": "m_headerCacheHandles",
+          "rva": 44832415,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44828340,
+          "label": "m_resourceMap",
+          "rva": 44832436,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44828354,
+          "label": "m_resourceAccessList",
+          "rva": 44832450,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44828375,
+          "label": "m_ladderStats",
+          "rva": 44832471,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44828389,
+          "label": "m_races",
+          "rva": 44832485,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44828397,
+          "label": "m_clientUnlockableInfoList",
+          "rva": 44832493,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44828424,
+          "label": "m_clientLicensesList",
+          "rva": 44832520,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44828445,
+          "label": "m_turnIntervalMS",
+          "rva": 44832541,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44828462,
+          "label": "m_numTurns",
+          "rva": 44832558,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44828473,
+          "label": "m_numDataStructs",
+          "rva": 44832569,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44828490,
+          "label": "Battlenet::S2Map::HeaderCacheHandleList",
+          "rva": 44832586,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44828530,
+          "label": "Battlenet::S2Map::ResourceIdentifierMap",
+          "rva": 44832626,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44828570,
+          "label": "Battlenet::S2Map::ResourceAccessListBitsList",
+          "rva": 44832666,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44828615,
+          "label": "Battlenet::Client::S2GameDefines::ClientLicensesList",
+          "rva": 44832711,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44828668,
+          "label": "Battlenet::S2Map::ResourceIdentifier",
+          "rva": 44832764,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44828705,
+          "label": "Battlenet::Client::S2GameDefines::ClientLicenses",
+          "rva": 44832801,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44828754,
+          "label": "Battlenet::License::IdList",
+          "rva": 44832850,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44828781,
+          "label": "Battlenet::Client::S2Game::TurnDataChoice",
+          "rva": 44832877,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44828823,
+          "label": "Battlenet::Client::S2Game::TurnDataChoice::Data",
+          "rva": 44832919,
+          "section": ".rdata"
+        }
+      ],
+      "neighbor_label_window_end": 44830472,
+      "neighbor_label_window_start": 44827400,
+      "protobuf_name_key_length_prefix_matches": false,
+      "rva": 44832520,
+      "section": ".rdata",
+      "target": "m_clientLicensesList"
+    },
+    {
+      "complete_protobuf_FieldDescriptorProto_candidates": [],
+      "file_offset": 43476303,
+      "nearest_allowlisted_labels": [
+        {
+          "file_offset": 43476010,
+          "label": "m_memberId",
+          "rva": 43480106,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43476021,
+          "label": "Battlenet::S2Map::AuthorNameSearch",
+          "rva": 43480117,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43476056,
+          "label": "m_authorName",
+          "rva": 43480152,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43476069,
+          "label": "m_startIndex",
+          "rva": 43480165,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43476082,
+          "label": "Battlenet::S2Map::MapSearch",
+          "rva": 43480178,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43476110,
+          "label": "m_search",
+          "rva": 43480206,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43476119,
+          "label": "m_filterType",
+          "rva": 43480215,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43476132,
+          "label": "m_arcade",
+          "rva": 43480228,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43476141,
+          "label": "m_hideClusterChildren",
+          "rva": 43480237,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43476163,
+          "label": "m_showClusterParents",
+          "rva": 43480259,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43476184,
+          "label": "m_filterValue",
+          "rva": 43480280,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43476198,
+          "label": "Battlenet::S2Map::Name",
+          "rva": 43480294,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43476221,
+          "label": "Battlenet::S2Map::LocalizedName",
+          "rva": 43480317,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43476253,
+          "label": "Battlenet::S2Map::BnetHeader",
+          "rva": 43480349,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43476282,
+          "label": "m_archiveCacheHandle",
+          "rva": 43480378,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43476303,
+          "label": "m_mapNamespace",
+          "rva": 43480399,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43476318,
+          "label": "m_definitions",
+          "rva": 43480414,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43476332,
+          "label": "m_resultDefinitions",
+          "rva": 43480428,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43476352,
+          "label": "m_tileset",
+          "rva": 43480448,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43476362,
+          "label": "m_defaultVariantIndex",
+          "rva": 43480458,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43476384,
+          "label": "m_variants",
+          "rva": 43480480,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43476395,
+          "label": "m_extraDependencies",
+          "rva": 43480491,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43476415,
+          "label": "m_addDefaultPermissions",
+          "rva": 43480511,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43476439,
+          "label": "m_labels",
+          "rva": 43480535,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43476448,
+          "label": "m_arcadeData",
+          "rva": 43480544,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43476461,
+          "label": "m_addMultiMod",
+          "rva": 43480557,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43476475,
+          "label": "m_resourceList",
+          "rva": 43480571,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43476490,
+          "label": "Battlenet::S2Map::GameHeader",
+          "rva": 43480586,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43476519,
+          "label": "m_dummy",
+          "rva": 43480615,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43476527,
+          "label": "Battlenet::Toon::DisplayName",
+          "rva": 43480623,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43476556,
+          "label": "Battlenet::MatchMaker::CoopMode::Enum",
+          "rva": 43480652,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 43476594,
+          "label": "WITH_AI",
+          "rva": 43480690,
+          "section": ".rdata"
+        }
+      ],
+      "neighbor_label_window_end": 43478351,
+      "neighbor_label_window_start": 43475279,
+      "protobuf_name_key_length_prefix_matches": false,
+      "rva": 43480399,
+      "section": ".rdata",
+      "target": "m_mapNamespace"
+    },
+    {
+      "complete_protobuf_FieldDescriptorProto_candidates": [],
+      "file_offset": 44469556,
+      "nearest_allowlisted_labels": [
+        {
+          "file_offset": 44469263,
+          "label": "autoSelect",
+          "rva": 44473359,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44469274,
+          "label": "Battlenet::S2Map::AuthorNameSearch",
+          "rva": 44473370,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44469309,
+          "label": "m_authorName",
+          "rva": 44473405,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44469322,
+          "label": "m_startIndex",
+          "rva": 44473418,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44469335,
+          "label": "Battlenet::S2Map::MapSearch",
+          "rva": 44473431,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44469363,
+          "label": "m_search",
+          "rva": 44473459,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44469372,
+          "label": "m_filterType",
+          "rva": 44473468,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44469385,
+          "label": "m_arcade",
+          "rva": 44473481,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44469394,
+          "label": "m_hideClusterChildren",
+          "rva": 44473490,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44469416,
+          "label": "m_showClusterParents",
+          "rva": 44473512,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44469437,
+          "label": "m_filterValue",
+          "rva": 44473533,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44469451,
+          "label": "Battlenet::S2Map::Name",
+          "rva": 44473547,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44469474,
+          "label": "Battlenet::S2Map::LocalizedName",
+          "rva": 44473570,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44469506,
+          "label": "Battlenet::S2Map::BnetHeader",
+          "rva": 44473602,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44469535,
+          "label": "m_archiveCacheHandle",
+          "rva": 44473631,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44469556,
+          "label": "m_mapNamespace",
+          "rva": 44473652,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44469571,
+          "label": "m_definitions",
+          "rva": 44473667,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44469585,
+          "label": "m_resultDefinitions",
+          "rva": 44473681,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44469605,
+          "label": "m_tileset",
+          "rva": 44473701,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44469615,
+          "label": "m_defaultVariantIndex",
+          "rva": 44473711,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44469637,
+          "label": "m_variants",
+          "rva": 44473733,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44469648,
+          "label": "m_extraDependencies",
+          "rva": 44473744,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44469668,
+          "label": "m_addDefaultPermissions",
+          "rva": 44473764,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44469692,
+          "label": "m_labels",
+          "rva": 44473788,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44469701,
+          "label": "m_arcadeData",
+          "rva": 44473797,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44469714,
+          "label": "m_addMultiMod",
+          "rva": 44473810,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44469728,
+          "label": "m_resourceList",
+          "rva": 44473824,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44469743,
+          "label": "Battlenet::S2Map::GameHeader",
+          "rva": 44473839,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44469772,
+          "label": "m_dummy",
+          "rva": 44473868,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44469780,
+          "label": "Battlenet::Toon::DisplayName",
+          "rva": 44473876,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44469809,
+          "label": "Battlenet::MatchMaker::CoopMode::Enum",
+          "rva": 44473905,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44469847,
+          "label": "WITH_AI",
+          "rva": 44473943,
+          "section": ".rdata"
+        }
+      ],
+      "neighbor_label_window_end": 44471604,
+      "neighbor_label_window_start": 44468532,
+      "protobuf_name_key_length_prefix_matches": false,
+      "rva": 44473652,
+      "section": ".rdata",
+      "target": "m_mapNamespace"
+    },
+    {
+      "complete_protobuf_FieldDescriptorProto_candidates": [],
+      "file_offset": 44881286,
+      "nearest_allowlisted_labels": [
+        {
+          "file_offset": 44880968,
+          "label": "m_attributeNs",
+          "rva": 44885064,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44880982,
+          "label": "m_showRID",
+          "rva": 44885078,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44880992,
+          "label": "Battlenet::S2Map::InfoList",
+          "rva": 44885088,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44881019,
+          "label": "Battlenet::S2Map::GroupType::Enum",
+          "rva": 44885115,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44881057,
+          "label": "Battlenet::S2Map::MapGroup",
+          "rva": 44885153,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44881084,
+          "label": "Battlenet::S2Map::GameGroup",
+          "rva": 44885180,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44881112,
+          "label": "Battlenet::S2Map::VariantInfo",
+          "rva": 44885208,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44881142,
+          "label": "m_lockedAttributes",
+          "rva": 44885238,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44881161,
+          "label": "m_instanceRestrictions",
+          "rva": 44885257,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44881184,
+          "label": "m_achievementTags",
+          "rva": 44885280,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44881202,
+          "label": "Battlenet::S2Map::VariantInfoList",
+          "rva": 44885298,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44881236,
+          "label": "Battlenet::S2Map::BnetHeader",
+          "rva": 44885332,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44881265,
+          "label": "m_archiveCacheHandle",
+          "rva": 44885361,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44881286,
+          "label": "m_mapNamespace",
+          "rva": 44885382,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44881301,
+          "label": "m_definitions",
+          "rva": 44885397,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44881315,
+          "label": "m_resultDefinitions",
+          "rva": 44885411,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44881335,
+          "label": "m_addDefaultPermissions",
+          "rva": 44885431,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44881359,
+          "label": "m_arcadeData",
+          "rva": 44885455,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44881372,
+          "label": "m_resourceList",
+          "rva": 44885468,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44881387,
+          "label": "Battlenet::S2Map::GameHeader",
+          "rva": 44885483,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44881416,
+          "label": "m_dummy",
+          "rva": 44885512,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44881424,
+          "label": "Battlenet::S2Map::Header",
+          "rva": 44885520,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44881449,
+          "label": "m_bnet",
+          "rva": 44885545,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44881456,
+          "label": "Battlenet::S2Map::CategoryMask",
+          "rva": 44885552,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44881487,
+          "label": "Battlenet::S2Map::MapFlags",
+          "rva": 44885583,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44881514,
+          "label": "Battlenet::S2Map::VersionFlags",
+          "rva": 44885610,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44881545,
+          "label": "Battlenet::S2Map::MapFlag::Enum",
+          "rva": 44885641,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44881581,
+          "label": "UNDEPENDABLE",
+          "rva": 44885677,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44881594,
+          "label": "SHOW_RID",
+          "rva": 44885690,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44881603,
+          "label": "SKIP_INITIAL_DOWNLOAD",
+          "rva": 44885699,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44881625,
+          "label": "IS_MELEE",
+          "rva": 44885721,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44881634,
+          "label": "IS_CLUSTER",
+          "rva": 44885730,
+          "section": ".rdata"
+        }
+      ],
+      "neighbor_label_window_end": 44883334,
+      "neighbor_label_window_start": 44880262,
+      "protobuf_name_key_length_prefix_matches": false,
+      "rva": 44885382,
+      "section": ".rdata",
+      "target": "m_mapNamespace"
+    },
+    {
+      "complete_protobuf_FieldDescriptorProto_candidates": [],
+      "file_offset": 44985911,
+      "nearest_allowlisted_labels": [
+        {
+          "file_offset": 44985636,
+          "label": "m_sectionData",
+          "rva": 44989732,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44985650,
+          "label": "Battlenet::S2Map::ArcadeGameInfo",
+          "rva": 44989746,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44985683,
+          "label": "m_visualizationFiles",
+          "rva": 44989779,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44985704,
+          "label": "m_localizationFiles",
+          "rva": 44989800,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44985724,
+          "label": "m_gameInfoScreenshots",
+          "rva": 44989820,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44985746,
+          "label": "m_howToPlayScreenshots",
+          "rva": 44989842,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44985769,
+          "label": "m_howToPlaySections",
+          "rva": 44989865,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44985789,
+          "label": "m_patchNoteSections",
+          "rva": 44989885,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44985809,
+          "label": "m_mapIcon",
+          "rva": 44989905,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44985819,
+          "label": "m_tutorialLink",
+          "rva": 44989915,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44985834,
+          "label": "m_matchmakerTags",
+          "rva": 44989930,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44985851,
+          "label": "m_website",
+          "rva": 44989947,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44985861,
+          "label": "Battlenet::S2Map::BnetHeader",
+          "rva": 44989957,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44985890,
+          "label": "m_archiveCacheHandle",
+          "rva": 44989986,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44985911,
+          "label": "m_mapNamespace",
+          "rva": 44990007,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44985926,
+          "label": "m_workingSet",
+          "rva": 44990022,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44985939,
+          "label": "m_definitions",
+          "rva": 44990035,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44985953,
+          "label": "m_resultDefinitions",
+          "rva": 44990049,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44985973,
+          "label": "m_size",
+          "rva": 44990069,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44985980,
+          "label": "m_tileset",
+          "rva": 44990076,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44985990,
+          "label": "m_defaultVariantIndex",
+          "rva": 44990086,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44986012,
+          "label": "m_variants",
+          "rva": 44990108,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44986023,
+          "label": "m_extraDependencies",
+          "rva": 44990119,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44986043,
+          "label": "m_addDefaultPermissions",
+          "rva": 44990139,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44986067,
+          "label": "m_relevantPermissions",
+          "rva": 44990163,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44986089,
+          "label": "m_arcadeData",
+          "rva": 44990185,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44986102,
+          "label": "m_addMultiMod",
+          "rva": 44990198,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44986116,
+          "label": "m_resourceList",
+          "rva": 44990212,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44986131,
+          "label": "Battlenet::S2Map::GameHeader",
+          "rva": 44990227,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44986160,
+          "label": "m_dummy",
+          "rva": 44990256,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44986168,
+          "label": "Battlenet::S2Map::Header",
+          "rva": 44990264,
+          "section": ".rdata"
+        },
+        {
+          "file_offset": 44986193,
+          "label": "m_bnet",
+          "rva": 44990289,
+          "section": ".rdata"
+        }
+      ],
+      "neighbor_label_window_end": 44987959,
+      "neighbor_label_window_start": 44984887,
+      "protobuf_name_key_length_prefix_matches": false,
+      "rva": 44990007,
+      "section": ".rdata",
+      "target": "m_mapNamespace"
+    }
+  ],
+  "total_PE_read_passes_for_this_research": 2
+}

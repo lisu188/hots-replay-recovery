@@ -1,0 +1,30 @@
+{
+  "Variables_or_NGDP_read": false,
+  "all10_input_hashes_unchanged": true,
+  "all_first45line_Error_static_claims_verified": true,
+  "all_module_version_image_identity_and_RSDS_fields_reproduced": true,
+  "client_or_debugger_launched": false,
+  "complete_executable_or_PDB_SHA_established": false,
+  "documented_header_and_first_module_record_layout_used": true,
+  "format": "hots-preserved41810-crash-root-independent-structure-review-v1",
+  "full_file_hash_pass_bytes": 2776384,
+  "historical_CASC_root_or_BuildConfig_established": false,
+  "independently_verified_cases": 5,
+  "limits": [
+    "Only module zero is independently decoded, after validating the frozen target ordinal; no non-target module names are read.",
+    "Historical executable metadata is not an authenticated historical content manifest or full executable body.",
+    "The generic streaming error identifies neither a failed CDN object nor its underlying cause."
+  ],
+  "material_findings": [],
+  "network_requests": 0,
+  "other_module_identities_or_memory_streams_decoded": false,
+  "primary_layout_sources": [
+    "https://learn.microsoft.com/en-us/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_header",
+    "https://learn.microsoft.com/en-us/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_module",
+    "https://learn.microsoft.com/en-us/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_module_list"
+  ],
+  "raw_source_paths_or_memory_published": false,
+  "review_source_sha256": "e9f8e1033c810d4875b24fdff886e7eeac7ef93a598d85326cf59807488bbc8a",
+  "reviewed_report_sha256": "a40cde35e02707ff2c484dcc98b2bafa4a86bd30eae1ddf2d6b6fc98f7fb85ea",
+  "selected_metadata_read_bytes": 12839
+}

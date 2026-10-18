@@ -1,0 +1,117 @@
+{
+  "schema": "legacy-catalog-archives-2016-research-ledger-v1",
+  "purpose": "Bounded primary-source discovery for original HotS 0.17.0.41810 catalog evidence.",
+  "target": {
+    "version": "0.17.0.41810",
+    "build": 41810,
+    "original_replay_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+    "ngdp_root": "83d43a8647bb5ca5caa6f2f09064da55",
+    "fixed_file_hash": "c585f3548fb8f9776fa1fba4dfec2b9a",
+    "authenticated_heroesdata_s2mh_sha256": "b34d0f30dc3b9cf47694982106a04006a49ce43422e02f71ed18b33b7bfcc6c4",
+    "registry_observation_sha256": "0fa8a041fa8d6b9ba22ba6ff8be10d4f42beccc7d9577d0b6ead2d8e0fa909c9",
+    "scope_binding": "Target constants provided by already-verified task evidence; no replay or header reread performed for this research."
+  },
+  "limits": {
+    "source_operation_cap": 10,
+    "source_operations_used": 10,
+    "aggregate_body_budget_bytes": 2097152,
+    "measured_connector_utf8_source_content_bytes": 91299,
+    "search_envelopes_without_raw_byte_measurement": 2,
+    "transport_byte_total_known": false,
+    "raw_catalog_or_game_archive_bodies_downloaded": 0,
+    "only_fetched_repository_file_body_bytes": 242,
+    "full_repository_or_recursive_tree_fetches": 0,
+    "cdn_requests": 0,
+    "client_launches": 0
+  },
+  "operations": [
+    {
+      "operation": 1,
+      "url": "https://api.github.com/search/code?q=ChoGallPromo&per_page=8",
+      "returned_utf8_content_bytes": 43805,
+      "content_sha256": "d9edca7d73dcf824ee94aa125cc6106aea8cbf66cba00dfc4d93689810a71af0",
+      "outcome": "indexed-code-search-metadata"
+    },
+    {
+      "operation": 2,
+      "url": "https://api.github.com/search/code?q=41810%20Heroes&per_page=8",
+      "returned_utf8_content_bytes": 40787,
+      "content_sha256": "6c1fcbe7bdbeedcc74dd446780856472b45e5c61e312de864d1f6657639cdfcf",
+      "outcome": "indexed-code-search-metadata"
+    },
+    {
+      "operation": 3,
+      "url": "https://api.github.com/search/code?q=%220.17.0.41810%22&per_page=5",
+      "returned_utf8_content_bytes": 55,
+      "content_sha256": "4af480b8ee5b87b369a76c49bd22c9a783908272ebffbe97898f8ab0f0772a5f",
+      "outcome": "indexed-code-search-zero-results"
+    },
+    {
+      "operation": 4,
+      "url": "https://api.github.com/search/code?q=LunaraSkinMaster&per_page=5",
+      "returned_utf8_content_bytes": 55,
+      "content_sha256": "4af480b8ee5b87b369a76c49bd22c9a783908272ebffbe97898f8ab0f0772a5f",
+      "outcome": "indexed-code-search-zero-results"
+    },
+    {
+      "operation": 5,
+      "url": "https://api.github.com/search/repositories?q=%22Heroes%20of%20the%20Storm%22%20data%20created%3A%3C2017-01-01&per_page=8",
+      "returned_utf8_content_bytes": 0,
+      "content_sha256": null,
+      "outcome": "unsupported-repository-search-endpoint"
+    },
+    {
+      "operation": 6,
+      "tool": "web.search_query",
+      "query": "site:github.com \"Heroes of the Storm\" \"GameData\" \"2016\"",
+      "outcome": "No qualifying extracted catalog archive among returned search results.",
+      "linked_file_fetches": 0,
+      "raw_response_byte_count": null
+    },
+    {
+      "operation": 7,
+      "url": "https://api.github.com/repos/SC2Mapster/SC2GameData/branches?per_page=100",
+      "returned_utf8_content_bytes": 841,
+      "content_sha256": "1417286423938cfac84a48c7bc84962a7f847bd00073597037ea33769d5f0878"
+    },
+    {
+      "operation": 8,
+      "url": "https://api.github.com/repos/SC2Mapster/SC2GameData/contents/README.md?ref=6dd323aae4209a01f110719a00b4e8f7a88389bc",
+      "returned_utf8_content_bytes": 242,
+      "content_sha256": "37a1bcca3c9d4991895f114a4a7c0168c022f147d616d93be821aa237b312c88"
+    },
+    {
+      "operation": 9,
+      "tool": "web.search_query",
+      "query": "site:github.com heroesjson \"data\"",
+      "outcome": "No qualifying 2016 HotS archive; returned unrelated JSON projects and already-known HeroesToolChest sources.",
+      "linked_file_fetches": 0,
+      "raw_response_byte_count": null
+    },
+    {
+      "operation": 10,
+      "url": "https://api.github.com/repos/SC2Mapster/SC2GameData/commits/6dd323aae4209a01f110719a00b4e8f7a88389bc",
+      "returned_utf8_content_bytes": 5514,
+      "content_sha256": "a99ef72947b00028083b844098ecd7ba0b13a2038fafb58c294b9456c27f10cb"
+    }
+  ],
+  "findings": {
+    "exact_41810_snapshot_identified": false,
+    "genuinely_2016_version_bound_snapshot_identified": false,
+    "new_reward_alias_or_transition_evidence_identified": false,
+    "new_archive_lead": "SC2Mapster/SC2GameData contains ChoGallPromo localized GameStrings metadata, with four listed branches and maintenance-notice README.",
+    "admitted_catalog_snapshots": 0
+  },
+  "interpretation_limits": [
+    "Zero code-search results cover only the queried indexed code; they do not establish absence from all branches, tags, history or other archives.",
+    "The unsupported repository-search request is an acquisition limitation, not an empty repository-search result.",
+    "ChoGallPromo localization occurrences do not identify CReward definitions, ownership semantics, a legacy alias or an extracted build.",
+    "No 2016 inference is made from SC2Mapster branch names, and the README-only 2026 commit does not establish game-data age.",
+    "The broad 41810 Heroes query is noisy; only returned relevant lead metadata is retained, without fetching those leads.",
+    "The measured 91299-byte source total excludes raw web-search transport/envelopes, whose exact byte counts were not exposed or retained.",
+    "The earlier pre-2017 default-branch queries and HeroesToolChest 133-version directory inventory were not repeated.",
+    "No current-name substitution, CDN-key guess, replay/header mutation, engine acceptance or conversion claim follows."
+  ],
+  "stop_reason": "Ten new source/search operations used; bounded lane stopped without further acquisition.",
+  "recorded_at_utc": "2026-10-18T22:03:19.793Z"
+}
