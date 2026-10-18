@@ -1,0 +1,37 @@
+{
+  "format": "hots-combined-battlelobby-offline-ci-observation-v1",
+  "run": 39153672088,
+  "url": "https://github.com/lisu188/hots-replay-recovery/actions/runs/39153672088",
+  "tested_commit": "7e23a6af94268d333338f7be9ebd0b04212ab23b",
+  "conclusion": "success",
+  "jobs": [
+    {
+      "id": 117752328370,
+      "name": "offline-layer (ubuntu-24.04)",
+      "conclusion": "success",
+      "focused_tests_passed": 37,
+      "attribute_real_fixture_files": 2,
+      "mod_audit_cases": 3,
+      "mod_audit_cases_include_in_memory_attribute_conversion": true,
+      "client_executed": false,
+      "replay_or_member_written": false
+    },
+    {
+      "id": 117752328576,
+      "name": "offline-layer (windows-2025)",
+      "conclusion": "success",
+      "focused_tests_passed": 37,
+      "attribute_real_fixture_files": 2,
+      "mod_audit_cases": 3,
+      "mod_audit_cases_include_in_memory_attribute_conversion": true,
+      "client_executed": false,
+      "replay_or_member_written": false
+    }
+  ],
+  "local_combined_tests_passed": 56,
+  "local_mod_fixture_cases": 5,
+  "independent_mutation_and_boundary_probes": 10,
+  "independent_cli_bound_probes": 2,
+  "replay_fully_upgraded": false,
+  "client_playback_validated": false
+}

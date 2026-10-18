@@ -99,3 +99,21 @@ conversion, and two genuine current controls. The original/R8 files remain
 unchanged. Independent review added ten real-member mutation/boundary probes
 and two CLI input-bound probes, all with their expected outcomes. Unknown
 dependency-offset and hero-payload semantics remain explicitly unvalidated.
+
+
+## Published CI and source backup
+
+CI run 39153672088 at 7e23a6a completed successfully on Linux and Windows.
+Each job passed 37 focused tests, restored and checked the original/R8 files,
+then passed three mod-audit cases including the in-memory attribute conversion.
+The run wrote JSON evidence only and launched no game client. See
+`observations/combined-battlelobby-ci-2026-10-18.json`.
+
+A full-history Git bundle through 7e23a6a was verified with `git bundle verify`
+and archived with the progress and diagnostic evidence. The 7,575,279-byte ZIP
+was uploaded into a new dated subfolder of the existing OneDrive project.
+Fresh cloud metadata agrees with local size and Microsoft's QuickXor hash.
+The local ZIP SHA256 is retained. A remote content re-download returned HTTP403
+serviceReadOnly, so independent remote SHA256 verification is not claimed.
+Existing OneDrive artifacts were preserved. See
+`observations/source-backup-2026-10-18.json`.

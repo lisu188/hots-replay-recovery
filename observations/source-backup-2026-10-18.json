@@ -1,0 +1,22 @@
+{
+  "commit": "7e23a6af94268d333338f7be9ebd0b04212ab23b",
+  "archive_filename": "hots-offline-98348-7e23a6a.zip",
+  "archive_bytes": 7575279,
+  "local_sha256": "64a5ab10d78298f1b99197b42d266a5420e0a7f89d9fbd63156365ed8fc426e1",
+  "local_quick_xor_hash": "ozsdaxT3ilYgOYnrm/Mf2XF2Pgc=",
+  "fresh_cloud_quick_xor_hash": "ozsdaxT3ilYgOYnrm/Mf2XF2Pgc=",
+  "fresh_cloud_size_matches": true,
+  "fresh_cloud_quick_xor_matches": true,
+  "cloud_upload_reported_success": true,
+  "fresh_cloud_item_metadata_verified": true,
+  "quick_xor_is_cryptographic": false,
+  "remote_content_redownload_sha256_verified": false,
+  "redownload_failure": "HTTP 403 serviceReadOnly: Database Is Read Only",
+  "algorithm_source": "https://learn.microsoft.com/en-us/onedrive/developer/code-snippets/quickxorhash",
+  "limits": [
+    "Cloud existence, size and QuickXor metadata match local bytes; remote SHA256 was not independently verified.",
+    "The backup manifest inside the archive records its creation state before cloud upload."
+  ],
+  "format": "hots-source-backup-observation-v1",
+  "old_onedrive_files_overwritten": false
+}

@@ -140,3 +140,20 @@ was changed, and the user's no-HotS-launch constraint remains active.
 Attribute-layer CI run 39152968629 at f928ec7 passed on Linux and Windows,
 23 focused tests and real original/R8 fixture checks on each. New mod-audit
 code has separate checks; do not relabel the earlier CI run as testing it.
+
+
+## Verified combined offline validation — 2026-10-18
+
+Run 39153672088 at 7e23a6a passed both Linux and Windows: 37 focused tests,
+two real attribute fixture files and three mod-audit cases per job. Local
+combined regressions passed 56 tests. The read-only mod audit and source
+comparison remain diagnostics; none resolves the two unknown old hero
+payloads, all remaining catalog/ability/instance/rule/sync differences or
+full current-build playback. Keep the no-client instruction and full replay
+upgrade objective active. R8 remains the latest replay.
+
+The full-history source backup through 7e23a6a is uploaded in the new dated
+OneDrive checkpoint folder. Fresh cloud size/QuickXor metadata matches local
+bytes; remote re-download returned403 serviceReadOnly, so no independent
+remote SHA256 claim is made. Preserve old cloud files. Later validation-only
+notes must accompany that base bundle rather than rewriting older artifacts.

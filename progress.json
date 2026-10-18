@@ -785,6 +785,65 @@
     "combined_regression_tests_passed_locally": 56,
     "fixture_cases_verified_locally": 5,
     "independent_real_member_mutation_and_boundary_checks": 10,
-    "independent_cli_bound_checks": 2
+    "independent_cli_bound_checks": 2,
+    "ci": {
+      "format": "hots-combined-battlelobby-offline-ci-observation-v1",
+      "run": 39153672088,
+      "url": "https://github.com/lisu188/hots-replay-recovery/actions/runs/39153672088",
+      "tested_commit": "7e23a6af94268d333338f7be9ebd0b04212ab23b",
+      "conclusion": "success",
+      "jobs": [
+        {
+          "id": 117752328370,
+          "name": "offline-layer (ubuntu-24.04)",
+          "conclusion": "success",
+          "focused_tests_passed": 37,
+          "attribute_real_fixture_files": 2,
+          "mod_audit_cases": 3,
+          "mod_audit_cases_include_in_memory_attribute_conversion": true,
+          "client_executed": false,
+          "replay_or_member_written": false
+        },
+        {
+          "id": 117752328576,
+          "name": "offline-layer (windows-2025)",
+          "conclusion": "success",
+          "focused_tests_passed": 37,
+          "attribute_real_fixture_files": 2,
+          "mod_audit_cases": 3,
+          "mod_audit_cases_include_in_memory_attribute_conversion": true,
+          "client_executed": false,
+          "replay_or_member_written": false
+        }
+      ],
+      "local_combined_tests_passed": 56,
+      "local_mod_fixture_cases": 5,
+      "independent_mutation_and_boundary_probes": 10,
+      "independent_cli_bound_probes": 2,
+      "replay_fully_upgraded": false,
+      "client_playback_validated": false
+    }
+  },
+  "source_backup_2026_10_18": {
+    "commit": "7e23a6af94268d333338f7be9ebd0b04212ab23b",
+    "archive_filename": "hots-offline-98348-7e23a6a.zip",
+    "archive_bytes": 7575279,
+    "local_sha256": "64a5ab10d78298f1b99197b42d266a5420e0a7f89d9fbd63156365ed8fc426e1",
+    "local_quick_xor_hash": "ozsdaxT3ilYgOYnrm/Mf2XF2Pgc=",
+    "fresh_cloud_quick_xor_hash": "ozsdaxT3ilYgOYnrm/Mf2XF2Pgc=",
+    "fresh_cloud_size_matches": true,
+    "fresh_cloud_quick_xor_matches": true,
+    "cloud_upload_reported_success": true,
+    "fresh_cloud_item_metadata_verified": true,
+    "quick_xor_is_cryptographic": false,
+    "remote_content_redownload_sha256_verified": false,
+    "redownload_failure": "HTTP 403 serviceReadOnly: Database Is Read Only",
+    "algorithm_source": "https://learn.microsoft.com/en-us/onedrive/developer/code-snippets/quickxorhash",
+    "limits": [
+      "Cloud existence, size and QuickXor metadata match local bytes; remote SHA256 was not independently verified.",
+      "The backup manifest inside the archive records its creation state before cloud upload."
+    ],
+    "format": "hots-source-backup-observation-v1",
+    "old_onedrive_files_overwritten": false
   }
 }
