@@ -1,0 +1,39 @@
+{
+  "format": "hots-collection-candidate-plan-ci-v1",
+  "run_url": "https://github.com/lisu188/hots-replay-recovery/actions/runs/39157801856",
+  "head_sha": "7ce68ca3a05ae996d5e27e27000811e10b81a069",
+  "status": "completed",
+  "conclusion": "success",
+  "license_projection_sha256": "c8f03ddbc859feb5c2dc1836761201b5e6fea4632ce0325817abdd7299c8aa22",
+  "plan_sha256": "ef5a30c5937f2400213edd42ce0c4ac079e716e7e50c8f2fe96ed5f92a5676a7",
+  "jobs": [
+    {
+      "id": 117764556075,
+      "name": "candidates (windows-2025)",
+      "status": "completed",
+      "conclusion": "success",
+      "tests_passed": 13,
+      "tests_skipped": 0,
+      "actual_fixture_cli_reproduced": true
+    },
+    {
+      "id": 117764556257,
+      "name": "candidates (ubuntu-24.04)",
+      "status": "completed",
+      "conclusion": "success",
+      "tests_passed": 13,
+      "tests_skipped": 0,
+      "actual_fixture_cli_reproduced": true
+    }
+  ],
+  "counts": {
+    "legacy_names": 263,
+    "single_observed_license_candidates": 56,
+    "single_without_record_reasons": 54,
+    "single_with_record_reasons": 2,
+    "unresolved_names": 207
+  },
+  "client_launched": false,
+  "replay_modified": false,
+  "effective_mapping_or_conversion_proven": false
+}

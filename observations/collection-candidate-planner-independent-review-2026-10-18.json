@@ -1,0 +1,48 @@
+{
+  "format": "hots-collection-candidate-planner-independent-review-v1",
+  "status": "pass",
+  "scope": "Read-only exact-name direct-License candidate planning; no replay migration or runtime claim.",
+  "reviewed_sha256": {
+    "plan_collection_candidates.py": "8ce3878aa1b8627cdca08166cae357d41b3085fcba44a36a953faa6720cfa6a5",
+    "test_plan_collection_candidates.py": "230fda9faaee9201680c2de9ed71733e95dd1e217340ac1034939265279d4d9a",
+    "collection_license_audit.py": "e08784ba9130e3bfa6b75bdc11af5f9655f21ed500d90cd6f2721bf60638da32"
+  },
+  "independent_tests": {
+    "command": "python -B -m unittest -v test_plan_collection_candidates",
+    "actual_fixture_directory_enabled": true,
+    "tests": 13,
+    "failures": 0,
+    "errors": 0,
+    "skips": 0
+  },
+  "fresh_actual_in_memory_recomputation": {
+    "licenses_sha256": "c8f03ddbc859feb5c2dc1836761201b5e6fea4632ce0325817abdd7299c8aa22",
+    "observation_sha256": "0fa8a041fa8d6b9ba22ba6ff8be10d4f42beccc7d9577d0b6ead2d8e0fa909c9",
+    "exact_saved_report_v2_byte_equality": true,
+    "report_sha256": "ef5a30c5937f2400213edd42ce0c4ac079e716e7e50c8f2fe96ed5f92a5676a7",
+    "legacy_names": 263,
+    "current_observed_ids": 5418,
+    "single_observed_license_candidates": 56,
+    "single_without_record_reasons": 54,
+    "single_with_record_reasons": 2,
+    "unresolved_names": 207
+  },
+  "resolved_review_finding": "Missing stored duplicate-record reason labels cannot hide a duplicate identity blocker: the planner now uses independently recomputed duplicate identity indexes, and the omitted-label regression passed.",
+  "reviewed_guards": [
+    "The default API and CLI require the exact measured static projection SHA256.",
+    "Version binding requires the exact live 98348 version and expected build configuration; PTR and unsupported proof flags are rejected.",
+    "Catalog-only observation binding and recomputed direct comparison must match the input projection.",
+    "Selected field names, declaration schemas, source paths, canonical indices and unsigned 64-bit literal agreement are validated.",
+    "License and ProductId namespaces remain separate; duplicate values and identities do not become aliases.",
+    "Both inputs use bounded regular-file reads; CLI output uses a size cap and exclusive new-file creation."
+  ],
+  "remaining_material_findings": [],
+  "limitations": [
+    "The explicit API expected_sha256 override is intended for deliberately trusted alternate or synthetic projections; the CLI exposes no override.",
+    "The 56 exact-name literal candidates are not effective catalog mappings; two retain parent inheritance blockers and 207 names remain unresolved.",
+    "No ownership conversion, aliases, replay changes, client launch or deterministic compatibility was established."
+  ],
+  "repository_modified": false,
+  "replay_modified": false,
+  "client_launched": false
+}

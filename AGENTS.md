@@ -253,3 +253,14 @@ infers aliases or writes ownership/member/replay data. Its separate small
 Python-only CI avoids another game-data extraction; record its result separately.
 R8 remains latest, the full upgrade objective is unfinished and no client launch
 is permitted under the user's current instruction.
+
+
+## Verified candidate plan CI — 2026-10-18
+
+Run39157801856 at7ce68ca passed both Windows+Linux, each13tests/no skips and
+an actual pinned-source CLI reproduction of56candidates/207unresolved names.
+This is separate from the71-test/full14-fixture format CI and33-test exact-data
+collector run. All intended offline milestones are published; no new replay
+exists. Preserve original/R8 and the offline-only/full-upgrade goal, which
+remains unfinished because legacy aliases, opaque player-field migration,
+package/catalog/ability/instance/rule/sync compatibility remain unresolved.
