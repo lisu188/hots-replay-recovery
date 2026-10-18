@@ -91,6 +91,7 @@ class OfflineRunnerTests(unittest.TestCase):
         self.assertFalse(runner.expected_skip(case, reason, 'linux'))
         self.assertFalse(runner.expected_skip(case, 'missing fixture', 'win32'))
         self.assertFalse(runner.expected_skip('some.other.test', reason, 'win32'))
+        self.assertFalse(runner.expected_skip('some.other.test', None, 'win32'))
 
     def test_missing_or_modified_hash_bound_fixture_fails_before_discovery(self):
         with tempfile.TemporaryDirectory() as directory:

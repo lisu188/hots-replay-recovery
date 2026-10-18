@@ -44,8 +44,9 @@ def platform_skip_reason(test_id: str, platform: str) -> str | None:
     return None
 
 
-def expected_skip(test_id: str, reason: str, platform: str) -> bool:
-    if platform_skip_reason(test_id, platform) == reason:
+def expected_skip(test_id: str, reason: str | None, platform: str) -> bool:
+    declared = platform_skip_reason(test_id, platform)
+    if declared is not None and declared == reason:
         return True
     return (platform == 'win32'
             and test_id == 'test_collection_license_audit.SyntheticLicenseCollectorTests.test_symlink_tree_is_not_followed'
