@@ -1,0 +1,56 @@
+{
+  "format": "hots-complete-offline-portable-header-CI-v1",
+  "run_id": 39165828602,
+  "tested_commit": "f97e57a566e6d0fdd282edce0db825b58db2589f",
+  "conclusion": "success",
+  "url": "https://github.com/lisu188/hots-replay-recovery/actions/runs/39165828602",
+  "jobs": [
+    {
+      "id": 117788462097,
+      "lane": "Windows / PowerShell 7 complete corpus",
+      "conclusion": "success",
+      "modules": 44,
+      "tests_discovered": 894,
+      "tests_run": 894,
+      "declared_skips": 4,
+      "unexpected_skips": 0,
+      "new_header_guard_and_registry_tests_executed": 15,
+      "actual_NGS_fixture_executed": true,
+      "current_EU_streams_and_lobby_check_executed": true,
+      "url": "https://github.com/lisu188/hots-replay-recovery/actions/runs/39165828602/job/117788462097"
+    },
+    {
+      "id": 117788462268,
+      "lane": "Linux complete corpus",
+      "conclusion": "success",
+      "modules": 44,
+      "tests_discovered": 894,
+      "tests_run": 894,
+      "declared_skips": 38,
+      "unexpected_skips": 0,
+      "new_header_guard_and_registry_tests_executed": 15,
+      "actual_NGS_fixture_executed": true,
+      "current_EU_streams_and_lobby_check_executed": true,
+      "url": "https://github.com/lisu188/hots-replay-recovery/actions/runs/39165828602/job/117788462268"
+    },
+    {
+      "id": 117788462356,
+      "lane": "Windows / PowerShell 5.1 complete corpus",
+      "conclusion": "success",
+      "modules": 44,
+      "tests_discovered": 894,
+      "tests_run": 894,
+      "declared_skips": 4,
+      "unexpected_skips": 0,
+      "new_header_guard_and_registry_tests_executed": 15,
+      "actual_NGS_fixture_executed": true,
+      "current_EU_streams_and_lobby_check_executed": true,
+      "url": "https://github.com/lisu188/hots-replay-recovery/actions/runs/39165828602/job/117788462356"
+    }
+  ],
+  "actual_f644_header_reconstruction_executed_in_CI": false,
+  "real_header_proof_scope": "Root published CLI and independently repeated local RAM assembly/full SHA; old headers are not hosted CI fixtures.",
+  "client_launched": false,
+  "new_replay_generated": false,
+  "full_upgrade_complete": false
+}

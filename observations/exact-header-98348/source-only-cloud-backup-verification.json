@@ -1,0 +1,22 @@
+{
+  "format": "hots-exact-header-source-only-cloud-backup-v1",
+  "source_commit": "f97e57a566e6d0fdd282edce0db825b58db2589f",
+  "archive": "hots-offline-exact-header-source-f97e57a.zip",
+  "bytes": 168632,
+  "sha256": "32d9c801ae62793d3d3a7519ea60210b4fb6c0b64d81d2098438116ce07bdbb5",
+  "local_and_cloud_quick_xor_hash": "NGpbNwayzp0zMkqtOK6aecpo1Ck=",
+  "fresh_cloud_size_matches": true,
+  "fresh_cloud_quick_xor_matches": true,
+  "cloud_upload_succeeded": true,
+  "independent_remote_sha256_verified": false,
+  "quick_xor_is_cryptographic": false,
+  "source_bundle_and_zip_inventory_verified": true,
+  "contains_static_headers": false,
+  "contains_replay_or_player_records": false,
+  "raw_header_archive_kept_local": true,
+  "raw_header_cloud_upload_approved": false,
+  "upload_destination": "Existing HotS Replay Upgrade - TEN_GREYMANE / checkpoint-2026-10-18-offline folder",
+  "contains_new_replay": false,
+  "client_launched": false,
+  "full_upgrade_complete": false
+}

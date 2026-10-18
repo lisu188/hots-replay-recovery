@@ -499,3 +499,24 @@ replacement. A bounded five-division HeroesLounge EUDragon route found no replay
 links/zero matches in87standings rows (242128HTMLbytes); this is scoped evidence,
 not global absence. No more replay downloads or clientlaunch. R8 unchanged and
 full replay conversion/simulation remains unfinished.
+
+
+## Verified894-test source and source-only cloud backup - 2026-10-18
+
+Complete offline39165828602 atf97e57a passed allthree lanes894tests/44modules,
+no failures/errors/unexpectedskips,38declaredLinux/4Windows skips. All15new
+outputguard/registry tests actuallyexecuted, plusNGSfixture and genuineEUcore/
+lobby checks. Actualf644reconstruction remains independently verified LOCAL
+fullSHA evidence, not a hostedCI fixture claim. OfficialEUmanifest rechecked
+2026-10-18T21:04:20Z still2.57.0.98348/samebuildconfig;874bytes SHA recorded.
+
+The source delta4897152..f97e57a plus sanitized reports is backedup as
+hots-offline-exact-header-source-f97e57a.zip,168632bytes SHA256
+32d9c801ae62793d3d3a7519ea60210b4fb6c0b64d81d2098438116ce07bdbb5.
+ExistingOneDrivefolder upload andfreshsize/QuickXor matchverified; no independent
+remoteSHA256. This source-only ZIP contains no rawheaders/replays/playerrecords.
+The separate298106-byte localarchive with3staticheaders remainslocal: automatic
+approval review rejected its cloud upload and a specific user question is
+pending. Do not retrythat payload without approval. This later receipt is not
+inside thef97e57abackup. Keepallprevious5basearchives. No client/newreplay or
+full-upgrade completion; original/R8 unchanged.
