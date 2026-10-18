@@ -1,0 +1,288 @@
+{
+  "format": "hots-primary-historical-battlelobby-schema-evidence-v1",
+  "observed_at_utc": "2026-10-18T18:10:04.8293526Z",
+  "scope": "Primary-source research and independent unchanged-reader diagnostic only",
+  "repo": "EugenPolyakov/HOTS_battlelobby",
+  "commit": "85625327fd5623368410e5270a7eeb4869b40af9",
+  "source_files": [
+    {
+      "path": "historical-schemas/1.txt",
+      "bytes": 9467,
+      "sha256": "237a5d48d353fd7ccc2021ba881abe3cfdd40a079a0bc5acfed4a1459dde41b1",
+      "url": "https://github.com/EugenPolyakov/HOTS_battlelobby/blob/85625327fd5623368410e5270a7eeb4869b40af9/lobby/1.txt"
+    },
+    {
+      "path": "historical-schemas/10.txt",
+      "bytes": 10348,
+      "sha256": "25ba390895735839f205b322649b2999360864c1c63e38f0c4d950ee769829f0",
+      "url": "https://github.com/EugenPolyakov/HOTS_battlelobby/blob/85625327fd5623368410e5270a7eeb4869b40af9/lobby/10.txt"
+    },
+    {
+      "path": "historical-schemas/11.txt",
+      "bytes": 10429,
+      "sha256": "06b6ffc8632ed606e7c7356be7f80eb92c461f1f533749c23ae4defc9f451548",
+      "url": "https://github.com/EugenPolyakov/HOTS_battlelobby/blob/85625327fd5623368410e5270a7eeb4869b40af9/lobby/11.txt"
+    },
+    {
+      "path": "historical-schemas/12.txt",
+      "bytes": 10453,
+      "sha256": "a44d83137fa13d270e8139cf1a028a38d36b4f6a7af2c3ec4e8f86e4c2124c91",
+      "url": "https://github.com/EugenPolyakov/HOTS_battlelobby/blob/85625327fd5623368410e5270a7eeb4869b40af9/lobby/12.txt"
+    },
+    {
+      "path": "historical-schemas/13.txt",
+      "bytes": 10487,
+      "sha256": "ed3f49c07f14c2d9bcf623829108424b245004907d3a92fca0449d7ebbb8fbe1",
+      "url": "https://github.com/EugenPolyakov/HOTS_battlelobby/blob/85625327fd5623368410e5270a7eeb4869b40af9/lobby/13.txt"
+    },
+    {
+      "path": "historical-schemas/14.txt",
+      "bytes": 10525,
+      "sha256": "d2941810202deba19a32104d1e1799302a845954ff0be745fac3019519e7ddaa",
+      "url": "https://github.com/EugenPolyakov/HOTS_battlelobby/blob/85625327fd5623368410e5270a7eeb4869b40af9/lobby/14.txt"
+    },
+    {
+      "path": "historical-schemas/15.txt",
+      "bytes": 10590,
+      "sha256": "33651f238feba55f7a6b156eabc1eed1e2fe5a324ceb04c7a757b39b7c4def34",
+      "url": "https://github.com/EugenPolyakov/HOTS_battlelobby/blob/85625327fd5623368410e5270a7eeb4869b40af9/lobby/15.txt"
+    },
+    {
+      "path": "historical-schemas/2.txt",
+      "bytes": 9525,
+      "sha256": "e33f5cc20afe17476908df1cfb01198f9cb16b5fa9d919c40a05efad9b08b9f1",
+      "url": "https://github.com/EugenPolyakov/HOTS_battlelobby/blob/85625327fd5623368410e5270a7eeb4869b40af9/lobby/2.txt"
+    },
+    {
+      "path": "historical-schemas/3.txt",
+      "bytes": 9526,
+      "sha256": "a5d243cf66bbf874caa475bbe347e690b4a636d00a24a5e3b31da829a77529d5",
+      "url": "https://github.com/EugenPolyakov/HOTS_battlelobby/blob/85625327fd5623368410e5270a7eeb4869b40af9/lobby/3.txt"
+    },
+    {
+      "path": "historical-schemas/4.txt",
+      "bytes": 9526,
+      "sha256": "deba9ae11fb96ea13394fdde5021ea612b67aee92f68912039c0f7f325504727",
+      "url": "https://github.com/EugenPolyakov/HOTS_battlelobby/blob/85625327fd5623368410e5270a7eeb4869b40af9/lobby/4.txt"
+    },
+    {
+      "path": "historical-schemas/5.txt",
+      "bytes": 10100,
+      "sha256": "28bb0f73314452144d74a76f593bb83dc8cad196a1a862550dcc643bd11754e0",
+      "url": "https://github.com/EugenPolyakov/HOTS_battlelobby/blob/85625327fd5623368410e5270a7eeb4869b40af9/lobby/5.txt"
+    },
+    {
+      "path": "historical-schemas/6.txt",
+      "bytes": 10119,
+      "sha256": "6e37f25232cb47f18b5650055736c04ebcdafeaa225e19c90878138c3f397114",
+      "url": "https://github.com/EugenPolyakov/HOTS_battlelobby/blob/85625327fd5623368410e5270a7eeb4869b40af9/lobby/6.txt"
+    },
+    {
+      "path": "historical-schemas/7.txt",
+      "bytes": 10145,
+      "sha256": "0b8c6bf7ee91f750ea8e377d00a991a0d4d3e7d465756d3d6c1fce27b24ad240",
+      "url": "https://github.com/EugenPolyakov/HOTS_battlelobby/blob/85625327fd5623368410e5270a7eeb4869b40af9/lobby/7.txt"
+    },
+    {
+      "path": "historical-schemas/8.txt",
+      "bytes": 10126,
+      "sha256": "a3d8dd342d4e4093943925fe9339285919ebd8b56ce280f5515c3c061e9dee7a",
+      "url": "https://github.com/EugenPolyakov/HOTS_battlelobby/blob/85625327fd5623368410e5270a7eeb4869b40af9/lobby/8.txt"
+    },
+    {
+      "path": "historical-schemas/9.txt",
+      "bytes": 10306,
+      "sha256": "904fb938f615dd7db269a49300071dd32c0883174ba9c1440b1b3e0e4fdd4470",
+      "url": "https://github.com/EugenPolyakov/HOTS_battlelobby/blob/85625327fd5623368410e5270a7eeb4869b40af9/lobby/9.txt"
+    },
+    {
+      "path": "historical-schemas/battlelobby.py",
+      "bytes": 362237,
+      "sha256": "bc64d436fbf83829061ea991a1e1e47c09be0d9de3af4f7dd2742c10dce919a3",
+      "url": "https://github.com/EugenPolyakov/HOTS_battlelobby/blob/85625327fd5623368410e5270a7eeb4869b40af9/battlelobby.py"
+    },
+    {
+      "path": "historical-schemas/README.md",
+      "bytes": 12693,
+      "sha256": "e5a9d6524f18ed97f8f5378feff5d3b360bd6aa71e4feebe3bbfe611ad941ee8",
+      "url": "https://github.com/EugenPolyakov/HOTS_battlelobby/blob/85625327fd5623368410e5270a7eeb4869b40af9/README.md"
+    },
+    {
+      "path": "historical-schemas/version-list.md",
+      "bytes": 2972,
+      "sha256": "ef259f435117a40a2333577c8f1b4a1b1d606c2cfb2268a66086d50e4ca8b643",
+      "url": "https://github.com/EugenPolyakov/HOTS_battlelobby/blob/85625327fd5623368410e5270a7eeb4869b40af9/lobby/version%20list.md"
+    }
+  ],
+  "historical_build_41810": {
+    "schema": "lobby/2.txt",
+    "version_list_anchor": "https://github.com/EugenPolyakov/HOTS_battlelobby/blob/85625327fd5623368410e5270a7eeb4869b40af9/lobby/version%20list.md#L4-L10",
+    "python_mapping_anchor": "https://github.com/EugenPolyakov/HOTS_battlelobby/blob/85625327fd5623368410e5270a7eeb4869b40af9/battlelobby.py#L7217-L7218",
+    "python_type_id": 541,
+    "python_root_anchor": "https://github.com/EugenPolyakov/HOTS_battlelobby/blob/85625327fd5623368410e5270a7eeb4869b40af9/battlelobby.py#L543",
+    "post_locale": {
+      "anchor": "https://github.com/EugenPolyakov/HOTS_battlelobby/blob/85625327fd5623368410e5270a7eeb4869b40af9/lobby/2.txt#L93-L102",
+      "filler_bits": 131,
+      "used_mods_count_bits": 6,
+      "mod_params_count_bits": 6
+    },
+    "optional_hero": {
+      "anchor": "https://github.com/EugenPolyakov/HOTS_battlelobby/blob/85625327fd5623368410e5270a7eeb4869b40af9/lobby/2.txt#L164-L183",
+      "generator_anchor": "https://github.com/EugenPolyakov/HOTS_battlelobby/blob/85625327fd5623368410e5270a7eeb4869b40af9/battlelobby.py#L426-L446",
+      "a93_fixed_bits": 4,
+      "b4_fixed_bits": 4,
+      "a8x5_fixed_bits": 4,
+      "following_fixed_bitarrays": [
+        120,
+        150,
+        29,
+        148
+      ],
+      "following_total_bits": 447,
+      "a23_fixed_bits": 7,
+      "old_4_bit_value_is_declared_choice": false,
+      "semantic_names_available": false
+    },
+    "mod_params_tail": {
+      "anchor": "https://github.com/EugenPolyakov/HOTS_battlelobby/blob/85625327fd5623368410e5270a7eeb4869b40af9/lobby/2.txt#L184-L188",
+      "dependency_count_bits": 6,
+      "filler_bits": 8
+    }
+  },
+  "documented_evolution": [
+    {
+      "schema": "lobby/4.txt",
+      "builds": [
+        44256,
+        44468,
+        44737,
+        44797,
+        44941,
+        45024,
+        45228,
+        45635,
+        45815,
+        45889,
+        45949,
+        46158,
+        46416,
+        46446,
+        46690,
+        46787,
+        46869,
+        46889,
+        47133
+      ],
+      "anchor": "https://github.com/EugenPolyakov/HOTS_battlelobby/blob/85625327fd5623368410e5270a7eeb4869b40af9/lobby/4.txt#L93-L102",
+      "filler_bits": 128,
+      "used_mods_count_bits": 5,
+      "mod_params_count_bits": 6
+    },
+    {
+      "schema": "lobby/5.txt",
+      "builds": [
+        47024,
+        47219,
+        47479,
+        47903
+      ],
+      "anchor": "https://github.com/EugenPolyakov/HOTS_battlelobby/blob/85625327fd5623368410e5270a7eeb4869b40af9/lobby/5.txt#L164-L203",
+      "mod_params_count_bits": 7,
+      "a93_count_bits": 4,
+      "a93_element_bits": 93,
+      "choice_tag_bits": 4,
+      "empty_choices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "choice5_bitarrays": [
+        40,
+        16,
+        79,
+        160,
+        105
+      ],
+      "choice5_payload_bits": 400,
+      "a23_count_bits": 7,
+      "a23_element_bits": 23,
+      "mod_params_tail_bits": 32
+    }
+  ],
+  "version_gating_caution": "Version-list membership is an explicit set, not a verified monotonic build threshold; group4 includes47133 while group5 includes47024 and group6 starts47801.",
+  "primary_errata": [
+    {
+      "url": "https://github.com/barrett777/Heroes.ReplayParser/issues/123#issuecomment-1644070886",
+      "date": "2023-07-20",
+      "finding": "Author reverse-engineered replay samples; field names are statistical guesses and structure coverage was mostly personal replays."
+    },
+    {
+      "url": "https://github.com/barrett777/Heroes.ReplayParser/issues/123#issuecomment-1646253549",
+      "date": "2023-07-21",
+      "finding": "Author acknowledged quick updates broke PlayersInfo and preferred the structure description over earlier Python."
+    },
+    {
+      "url": "https://github.com/barrett777/Heroes.ReplayParser/issues/123#issuecomment-1655428575",
+      "date": "2023-07-28",
+      "finding": "Author fixed old-version bugs and published structures, but PTR version assignments remained inferred from major versions."
+    },
+    {
+      "url": "https://github.com/barrett777/Heroes.ReplayParser/issues/123#issuecomment-1656675119",
+      "date": "2023-07-29",
+      "finding": "Per-player m_build becomes actual build in2.39.0.69228; it is not build in2.38.69264."
+    }
+  ],
+  "source_history": [
+    {
+      "commit": "dacda134582b82b5c073d2ceaae675331624ffe0",
+      "date": "2023-07-27",
+      "message": "Fixed some bugs in old versions; Updated visualization"
+    },
+    {
+      "commit": "3c52c75755ab3ed98651b2b298ad98d82fc00f7e",
+      "date": "2023-07-21",
+      "message": "Added structure visualization; fixed names/player info/errors"
+    },
+    {
+      "commit": "b36cc5624d4b0b89167bfc57eb2d9b68601c8b65",
+      "date": "2023-07-19",
+      "message": "Initial commit"
+    }
+  ],
+  "modern_consumer": {
+    "repo": "HeroesToolChest/Heroes.StormReplayParser",
+    "commit": "d381dd9c273205c0fd7ac402c75eef98c6fa6c78",
+    "choice_anchor": "https://github.com/HeroesToolChest/Heroes.StormReplayParser/blob/d381dd9c273205c0fd7ac402c75eef98c6fa6c78/Heroes.StormReplayParser/MpqFiles/ReplayServerBattlelobby.cs#L852-L893",
+    "choice_body": "Four-bit tag0..4 empty; tag5 payload400bits; others throw",
+    "parser_dll_sha256": "5a6dfa2651df7271d4063e8277e9a5e32e93fe2e0e12ff95e27a7a82f58f3ca7"
+  },
+  "finding": "No primary source establishes a semantic or lossless mapping from the old fixed447-bit body to modern choice5/400bits. Old value3 is not declared a choice tag by the historical schema. Retagging, zeroing, shortening or deleting this body is unsupported.",
+  "official_schema_limit": {
+    "url": "https://github.com/Blizzard/heroprotocol/issues/84",
+    "finding": "Request for battlelobby schema remains open; no official schema or comment supplied there."
+  },
+  "independent_hybrid_check": {
+    "report": "direct-mod-envelope-hybrid-observation.json",
+    "report_sha256": "75004d9f37b284512bbffcc0509c326a775d022b45f39ec727537419edd29657",
+    "input_sha256": "cdf6ba347edbe86eb97ed1b90540262daa107d43ecf60dbde8c320ae6c073392",
+    "input_bytes": 42120,
+    "supplied_builds": [
+      98285,
+      98348
+    ],
+    "status": "decoder-exception",
+    "error_type": "System.ArgumentOutOfRangeException",
+    "method": "ReplayServerBattlelobby.Parse",
+    "il_offset": 1946,
+    "call_il_offset": 1949,
+    "call": "BitReader.ReadAlignedBytes(8)",
+    "location": "current skins-array body after s2mh loop and16-bit count",
+    "both_genuine_current_members_return_parsed": true,
+    "hybrid_is_profile_compatible": false
+  },
+  "replays_modified": false,
+  "dlls_modified": false,
+  "client_launched": false
+}

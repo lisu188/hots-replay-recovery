@@ -8,6 +8,9 @@ on:
       - 'battlelobby_attribute_layer.py'
       - 'test_battlelobby_attribute_layer.py'
       - 'scripts/verify_battlelobby_layer.py'
+      - 'audit_battlelobby_mod_metadata.py'
+      - 'test_audit_battlelobby_mod_metadata.py'
+      - 'scripts/verify_battlelobby_mod_metadata.py'
   workflow_dispatch:
 
 permissions:
@@ -49,7 +52,7 @@ jobs:
       - name: Install pinned small parser dependencies
         run: python -m pip install six==1.17.0 mpyq==0.2.5
       - name: Test malformed inputs, field preservation and inverse conversion
-        run: python -m unittest -v test_battlelobby_attribute_layer
+        run: python -m unittest -v test_battlelobby_attribute_layer test_audit_battlelobby_mod_metadata
       - name: Restore hash-bound original and R8 without launching HotS
         run: |
           mkdir -p work
@@ -57,9 +60,13 @@ jobs:
           python scripts/restore_artifact.py client-checkpoints/98285-resumable-r8/TEN_GREYMANE_client98285_RESUMABLE_R8_PARTIAL.StormReplay.base64 work/r8.StormReplay --sha256 client-checkpoints/98285-resumable-r8/TEN_GREYMANE_client98285_RESUMABLE_R8_PARTIAL.StormReplay.sha256
       - name: Verify real source semantics and exact reversible member conversion
         run: python scripts/verify_battlelobby_layer.py --original work/original.StormReplay --candidate work/r8.StormReplay --output work/battlelobby-layer-verification.json
+      - name: Audit historical mod metadata and preserve unknown hero payloads
+        run: python scripts/verify_battlelobby_mod_metadata.py --original work/original.StormReplay --candidate work/r8.StormReplay --output work/legacy-mod-metadata-verification.json
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         if: always()
         with:
           name: offline-battlelobby-layer-${{ matrix.os }}-${{ github.run_id }}
           retention-days: 30
-          path: work/battlelobby-layer-verification.json
+          path: |
+            work/battlelobby-layer-verification.json
+            work/legacy-mod-metadata-verification.json

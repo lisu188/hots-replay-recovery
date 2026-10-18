@@ -1,0 +1,43 @@
+{
+  "format": "hots-mod-auditer-review-verification-v1",
+  "reviewed_files": [
+    {
+      "name": "audit_battlelobby_mod_metadata.py",
+      "bytes": 11220,
+      "sha256": "52f5dd29d24628a927b21f80e60d1148cedd9afb0e93a259a9c425ef7af3105b"
+    },
+    {
+      "name": "test_audit_battlelobby_mod_metadata.py",
+      "bytes": 7326,
+      "sha256": "646e2e33d04c43f8c117f91b3c7e103fb8e3a7f5d59db4b0e412880eac89c634"
+    },
+    {
+      "name": "verify_battlelobby_mod_metadata.py",
+      "bytes": 4574,
+      "sha256": "f6882ab1674c9e416f0fdf14a43a4feec7dd1802aeb0114eb7a1e82bdde4f113"
+    },
+    {
+      "name": "README_MOD_METADATA_DIAGNOSIS.md",
+      "bytes": 5894,
+      "sha256": "dd233b8cb9a9c4cde67f0471d48ebf25de1878c73a0d5404e72fa3403ccd721b"
+    },
+    {
+      "name": "mod-metadata-fixture-verification-v3.json",
+      "bytes": 24902,
+      "sha256": "8e76259ef850ff6312c1e69c077a5854b9106e8df891ad3f08dfbf69eea9a406"
+    }
+  ],
+  "focused_tests_passed": 14,
+  "independent_real_member_mutation_checks_passed": 10,
+  "integration_cases_passed": 5,
+  "independent_mutation_report_sha256": "69ecaa726dd07135c4bd5b6bd4814cf9e57ca015cdc0efe9f12331f46be9867a",
+  "independent_fixture_report_sha256": "8e76259ef850ff6312c1e69c077a5854b9106e8df891ad3f08dfbf69eea9a406",
+  "original_replay_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+  "r8_replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+  "resolved_finding": "Full dependency-pair resolution claim narrowed to ID-component resolution, paired field preservation and hashing, offset semantics explicitly unvalidated",
+  "replay_or_member_written": false,
+  "client_launched": false,
+  "remaining_actionable_findings": [],
+  "final_cli_read_guard_checks_passed": 2,
+  "final_review": "Frozen five-file revision, including bounded replay reads and v3 fixture report"
+}

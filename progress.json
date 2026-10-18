@@ -725,6 +725,66 @@
     "next_failure": "Old mod metadata reaches unsupported current ChoiceSection2 tag",
     "client_launched": false,
     "client_playback_validated": false,
-    "combined_regression_tests_passed_locally": 42
+    "combined_regression_tests_passed_locally": 42,
+    "ci": {
+      "format": "hots-battlelobby-offline-ci-observation-v1",
+      "workflow_run": 39152968629,
+      "tested_commit": "f928ec71824ada89f480a79299f4be0656c61955",
+      "conclusion": "success",
+      "url": "https://github.com/lisu188/hots-replay-recovery/actions/runs/39152968629",
+      "jobs": [
+        {
+          "id": 117750216428,
+          "name": "offline-layer (windows-2025)",
+          "conclusion": "success",
+          "focused_tests_passed": 23,
+          "restored_real_fixtures_verified": 2,
+          "client_executed": false,
+          "new_replay_created": false
+        },
+        {
+          "id": 117750216670,
+          "name": "offline-layer (ubuntu-24.04)",
+          "conclusion": "success",
+          "focused_tests_passed": 23,
+          "restored_real_fixtures_verified": 2,
+          "client_executed": false,
+          "new_replay_created": false
+        }
+      ],
+      "local_combined_tests_passed": 42,
+      "local_original_r8_current_reference_fixtures_verified": 4,
+      "client_playback_validated": false
+    }
+  },
+  "expanded_current_reference_cohort_2026_10_18": {
+    "genuine_98348_dragon_controls": 12,
+    "additional_downloads": 5,
+    "additional_admitted_current_controls": 4,
+    "excluded_actual_build": 98304,
+    "observed_unit_pairs": 33,
+    "unresolved_types": 17,
+    "observation": "observations/expanded-current-reference-cohort-2026-10-18.json",
+    "catalog_comparison": "observations/expanded-current-catalog-comparison-2026-10-18.json",
+    "replay_modified": false,
+    "client_launched": false
+  },
+  "legacy_mod_metadata_2026_10_18": {
+    "code": "audit_battlelobby_mod_metadata.py",
+    "documentation": "docs/LEGACY_MOD_METADATA_2026-10-18.md",
+    "observation": "observations/legacy-mod-layer-2026-10-18.json",
+    "historical_schema": "observations/historical-battlelobby-schema-2026-10-18.json",
+    "actual_source_mod_records": 5,
+    "actual_source_hero_payloads": 2,
+    "unknown_hero_payload_bits_each": 447,
+    "old_four_bit_value_declared_as_choice": false,
+    "hero_payload_semantic_mapping_established": false,
+    "replay_or_member_written": false,
+    "client_launched": false,
+    "focused_tests_passed_locally": 14,
+    "combined_regression_tests_passed_locally": 56,
+    "fixture_cases_verified_locally": 5,
+    "independent_real_member_mutation_and_boundary_checks": 10,
+    "independent_cli_bound_checks": 2
   }
 }

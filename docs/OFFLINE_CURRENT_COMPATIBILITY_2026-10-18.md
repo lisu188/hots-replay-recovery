@@ -118,3 +118,14 @@ remains R8; the last explicit replay playback result remains R5's displayed
 layers, catalogs, 54 old ability links, unit-instance allocation, historical
 rules and synchronization to be reconciled. No new full-match compatibility
 or native playback claim is made.
+
+
+## Later bounded expansion and historical mod audit
+
+The remaining five keys from the saved Dragon Shire listing were downloaded.
+Four are actual 98348 controls; one dated October 5 is build 98304 and was
+excluded. The current cohort now contains 12 recordings and still supports
+33 pairs with 17 unresolved types. See the expanded-current observations.
+The historical mod-layer diagnosis is in `LEGACY_MOD_METADATA_2026-10-18.md`.
+Attribute-layer CI 39152968629 passed both platforms at f928ec7; this result
+predates the separately added mod audit. Full replay recovery remains open.

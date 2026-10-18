@@ -108,3 +108,35 @@ member compatibility or whole-parser success. The remaining source suffix
 stays byte-identical and requires its own migration. Keep R8 as the latest
 replay until a properly audited later replay actually exists. No client
 launch is authorized under the user's current explicit offline-only goal.
+
+
+## Historical mod metadata and expanded controls — 2026-10-18
+
+The later read-only `audit_battlelobby_mod_metadata.py` and
+`docs/LEGACY_MOD_METADATA_2026-10-18.md` walk the exact source mod section,
+with all scalars/blobs privately reconstructed and unchanged. Actual source
+and R8 have five used mods and five metadata entries, not the misaligned
+current-layout diagnostic's 16/18. Five CAFEBABE sentinels and five terminal
+s2mh handles validate the observed boundaries. Dependency ID components
+resolve; offset fields are retained and hashed but their semantics remain
+explicitly unvalidated.
+
+The primary community source explicitly lists build 41810 under schema 2.
+Its old four-bit field of value 3 is fixed data, not a declared choice tag.
+Two following 447-bit unknown payloads contain nonzero information. No
+source proves their mapping to the modern counted/choice structure. Never
+retag, clear, drop 47 bits, or copy another replay's hero metadata to force
+acceptance. An envelope-only scratch hybrid still fails the unchanged C#
+reader and is not a new replay or a compatible format profile.
+
+The saved NGS Dragon listing is now exhausted at 13 downloaded files: 12
+genuine current 98348 controls and one October 5 file actually built with
+98304, excluded from the current cohort. Date labels are not build proof.
+The expanded proposal remains 33 unambiguous unit pairs and 17 unresolved
+types. See the new expanded-current observations; preserve the earlier
+eight-control evidence as history. No new replay was created, no sync data
+was changed, and the user's no-HotS-launch constraint remains active.
+
+Attribute-layer CI run 39152968629 at f928ec7 passed on Linux and Windows,
+23 focused tests and real original/R8 fixture checks on each. New mod-audit
+code has separate checks; do not relabel the earlier CI run as testing it.

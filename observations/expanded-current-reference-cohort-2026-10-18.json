@@ -1,0 +1,401 @@
+{
+  "attempts": [
+    {
+      "api_key_date": "2026-10-07",
+      "bytes": 917495,
+      "decoded_header": {
+        "client_playback_validated": false,
+        "file_bytes": 917495,
+        "file_sha256": "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+        "header_only": true,
+        "target": {
+          "m_dataBuildNum": 98348,
+          "m_ngdpRootKey": {
+            "m_data": {
+              "$bytes_base64": "w7PIvILjpaYuVQ/d6aQMKA=="
+            }
+          },
+          "m_replayCompatibilityHash": {
+            "m_data": {
+              "$bytes_base64": "AAAAAAAAAAAAAAAAAAAAAA=="
+            }
+          },
+          "m_version": {
+            "m_baseBuild": 98348,
+            "m_build": 98348,
+            "m_flags": 1,
+            "m_major": 2,
+            "m_minor": 57,
+            "m_revision": 0
+          }
+        }
+      },
+      "decoded_map": "Dragon Shire",
+      "final_url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-7-2026_Tactical_Feed_vs_Protectors_of_Shakuras_Dragon_Shire.stormReplay",
+      "http_status": 200,
+      "local_filename": "ngs-remaining-01-20261007-dragon.StormReplay",
+      "map_file_sync_checksum": 886294905,
+      "mod_file_sync_checksum": 13528913,
+      "previously_unresolved_catalog_entries": [
+        {
+          "links": [
+            {
+              "distinct_unit_instances": 11,
+              "fields": 137,
+              "link": 294
+            }
+          ],
+          "unit_type": "TownCannonTowerL2"
+        },
+        {
+          "links": [
+            {
+              "distinct_unit_instances": 4,
+              "fields": 45,
+              "link": 296
+            }
+          ],
+          "unit_type": "TownCannonTowerL3"
+        }
+      ],
+      "previously_unresolved_types_in_tracker": [
+        "TownCannonTowerDead",
+        "TownCannonTowerL2",
+        "TownCannonTowerL3",
+        "TownGateL3BLURBRVisionBlocked"
+      ],
+      "profile_filename": "ngs-remaining-01-20261007-dragon.StormReplay.profile.json",
+      "public_key": "ngs_10-7-2026_Tactical_Feed_vs_Protectors_of_Shakuras_Dragon_Shire.stormReplay",
+      "root_key": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "sha256": "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+      "status": "observed-payload-verified",
+      "tracker_hero_types": [
+        "HeroAnduin",
+        "HeroFaerieDragon",
+        "HeroFalstad",
+        "HeroHogger",
+        "HeroImperius",
+        "HeroStitches",
+        "HeroSylvanas",
+        "HeroTychus",
+        "HeroTyrael",
+        "HeroWizard"
+      ],
+      "unit_inventory_filename": "ngs-remaining-01-20261007-dragon.StormReplay.unit-inventory.json",
+      "url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-7-2026_Tactical_Feed_vs_Protectors_of_Shakuras_Dragon_Shire.stormReplay"
+    },
+    {
+      "api_key_date": "2026-10-07",
+      "bytes": 1283019,
+      "decoded_header": {
+        "client_playback_validated": false,
+        "file_bytes": 1283019,
+        "file_sha256": "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+        "header_only": true,
+        "target": {
+          "m_dataBuildNum": 98348,
+          "m_ngdpRootKey": {
+            "m_data": {
+              "$bytes_base64": "w7PIvILjpaYuVQ/d6aQMKA=="
+            }
+          },
+          "m_replayCompatibilityHash": {
+            "m_data": {
+              "$bytes_base64": "AAAAAAAAAAAAAAAAAAAAAA=="
+            }
+          },
+          "m_version": {
+            "m_baseBuild": 98348,
+            "m_build": 98348,
+            "m_flags": 1,
+            "m_major": 2,
+            "m_minor": 57,
+            "m_revision": 0
+          }
+        }
+      },
+      "decoded_map": "Dragon Shire",
+      "final_url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-7-2026_Crit_Kickers_vs_Mango_Fever_Dragon_Shire.stormReplay",
+      "http_status": 200,
+      "local_filename": "ngs-remaining-02-20261007-dragon.StormReplay",
+      "map_file_sync_checksum": 886294905,
+      "mod_file_sync_checksum": 13528913,
+      "previously_unresolved_catalog_entries": [
+        {
+          "links": [
+            {
+              "distinct_unit_instances": 6,
+              "fields": 95,
+              "link": 294
+            }
+          ],
+          "unit_type": "TownCannonTowerL2"
+        },
+        {
+          "links": [
+            {
+              "distinct_unit_instances": 2,
+              "fields": 19,
+              "link": 296
+            }
+          ],
+          "unit_type": "TownCannonTowerL3"
+        }
+      ],
+      "previously_unresolved_types_in_tracker": [
+        "TownCannonTowerDead",
+        "TownCannonTowerL2",
+        "TownCannonTowerL3",
+        "TownGateL3BLURBRVisionBlocked"
+      ],
+      "profile_filename": "ngs-remaining-02-20261007-dragon.StormReplay.profile.json",
+      "public_key": "ngs_10-7-2026_Crit_Kickers_vs_Mango_Fever_Dragon_Shire.stormReplay",
+      "root_key": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "sha256": "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+      "status": "observed-payload-verified",
+      "tracker_hero_types": [
+        "HeroAlarak",
+        "HeroArthas",
+        "HeroChromie",
+        "HeroCrusader",
+        "HeroDemonHunter",
+        "HeroFirebat",
+        "HeroHogger",
+        "HeroMaiev",
+        "HeroStukov",
+        "HeroWhitemane"
+      ],
+      "unit_inventory_filename": "ngs-remaining-02-20261007-dragon.StormReplay.unit-inventory.json",
+      "url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-7-2026_Crit_Kickers_vs_Mango_Fever_Dragon_Shire.stormReplay"
+    },
+    {
+      "api_key_date": "2026-10-07",
+      "bytes": 1188774,
+      "decoded_header": {
+        "client_playback_validated": false,
+        "file_bytes": 1188774,
+        "file_sha256": "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+        "header_only": true,
+        "target": {
+          "m_dataBuildNum": 98348,
+          "m_ngdpRootKey": {
+            "m_data": {
+              "$bytes_base64": "w7PIvILjpaYuVQ/d6aQMKA=="
+            }
+          },
+          "m_replayCompatibilityHash": {
+            "m_data": {
+              "$bytes_base64": "AAAAAAAAAAAAAAAAAAAAAA=="
+            }
+          },
+          "m_version": {
+            "m_baseBuild": 98348,
+            "m_build": 98348,
+            "m_flags": 1,
+            "m_major": 2,
+            "m_minor": 57,
+            "m_revision": 0
+          }
+        }
+      },
+      "decoded_map": "Dragon Shire",
+      "final_url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-7-2026_COSMOS_vs_Phoenix_Rising_Amethyst_Dragon_Shire.stormReplay",
+      "http_status": 200,
+      "local_filename": "ngs-remaining-03-20261007-dragon.StormReplay",
+      "map_file_sync_checksum": 886294905,
+      "mod_file_sync_checksum": 13528913,
+      "previously_unresolved_catalog_entries": [
+        {
+          "links": [
+            {
+              "distinct_unit_instances": 8,
+              "fields": 130,
+              "link": 294
+            }
+          ],
+          "unit_type": "TownCannonTowerL2"
+        },
+        {
+          "links": [
+            {
+              "distinct_unit_instances": 4,
+              "fields": 39,
+              "link": 296
+            }
+          ],
+          "unit_type": "TownCannonTowerL3"
+        }
+      ],
+      "previously_unresolved_types_in_tracker": [
+        "TownCannonTowerDead",
+        "TownCannonTowerL2",
+        "TownCannonTowerL3",
+        "TownGateL3BLURBRVisionBlocked"
+      ],
+      "profile_filename": "ngs-remaining-03-20261007-dragon.StormReplay.profile.json",
+      "public_key": "ngs_10-7-2026_COSMOS_vs_Phoenix_Rising_Amethyst_Dragon_Shire.stormReplay",
+      "root_key": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "sha256": "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+      "status": "observed-payload-verified",
+      "tracker_hero_types": [
+        "HeroAnduin",
+        "HeroChromie",
+        "HeroFaerieDragon",
+        "HeroL90ETC",
+        "HeroLeoric",
+        "HeroMuradin",
+        "HeroSylvanas",
+        "HeroTinker",
+        "HeroTychus",
+        "HeroWizard"
+      ],
+      "unit_inventory_filename": "ngs-remaining-03-20261007-dragon.StormReplay.unit-inventory.json",
+      "url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-7-2026_COSMOS_vs_Phoenix_Rising_Amethyst_Dragon_Shire.stormReplay"
+    },
+    {
+      "api_key_date": "2026-10-06",
+      "bytes": 1209005,
+      "decoded_header": {
+        "client_playback_validated": false,
+        "file_bytes": 1209005,
+        "file_sha256": "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77",
+        "header_only": true,
+        "target": {
+          "m_dataBuildNum": 98348,
+          "m_ngdpRootKey": {
+            "m_data": {
+              "$bytes_base64": "w7PIvILjpaYuVQ/d6aQMKA=="
+            }
+          },
+          "m_replayCompatibilityHash": {
+            "m_data": {
+              "$bytes_base64": "AAAAAAAAAAAAAAAAAAAAAA=="
+            }
+          },
+          "m_version": {
+            "m_baseBuild": 98348,
+            "m_build": 98348,
+            "m_flags": 1,
+            "m_major": 2,
+            "m_minor": 57,
+            "m_revision": 0
+          }
+        }
+      },
+      "decoded_map": "Dragon Shire",
+      "final_url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-6-2026_Can_t_Connect_Stuns_vs_The_Part_Timers_Dragon_Shire.stormReplay",
+      "http_status": 200,
+      "local_filename": "ngs-remaining-04-20261006-dragon.StormReplay",
+      "map_file_sync_checksum": 886294905,
+      "mod_file_sync_checksum": 13528913,
+      "previously_unresolved_catalog_entries": [
+        {
+          "links": [
+            {
+              "distinct_unit_instances": 1,
+              "fields": 2,
+              "link": 296
+            }
+          ],
+          "unit_type": "TownCannonTowerDead"
+        },
+        {
+          "links": [
+            {
+              "distinct_unit_instances": 12,
+              "fields": 231,
+              "link": 294
+            }
+          ],
+          "unit_type": "TownCannonTowerL2"
+        },
+        {
+          "links": [
+            {
+              "distinct_unit_instances": 3,
+              "fields": 53,
+              "link": 296
+            }
+          ],
+          "unit_type": "TownCannonTowerL3"
+        }
+      ],
+      "previously_unresolved_types_in_tracker": [
+        "TownCannonTowerDead",
+        "TownCannonTowerL2",
+        "TownCannonTowerL3",
+        "TownGateL3BLURBRVisionBlocked"
+      ],
+      "profile_filename": "ngs-remaining-04-20261006-dragon.StormReplay.profile.json",
+      "public_key": "ngs_10-6-2026_Can_t_Connect_Stuns_vs_The_Part_Timers_Dragon_Shire.stormReplay",
+      "root_key": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "sha256": "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77",
+      "status": "observed-payload-verified",
+      "tracker_hero_types": [
+        "HeroAnduin",
+        "HeroAnubarak",
+        "HeroFalstad",
+        "HeroFirebat",
+        "HeroGreymane",
+        "HeroJunkrat",
+        "HeroL90ETC",
+        "HeroLeoric",
+        "HeroLucio",
+        "HeroSylvanas"
+      ],
+      "unit_inventory_filename": "ngs-remaining-04-20261006-dragon.StormReplay.unit-inventory.json",
+      "url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-6-2026_Can_t_Connect_Stuns_vs_The_Part_Timers_Dragon_Shire.stormReplay"
+    },
+    {
+      "api_key_date": "2026-10-05",
+      "bytes": 1084265,
+      "decoded_header": {
+        "client_playback_validated": false,
+        "file_bytes": 1084265,
+        "file_sha256": "d0b3309a40123379193e62f4a2c6cd7af2013ce64880a6fa5ea445c22e5dc4d7",
+        "header_only": true,
+        "target": {
+          "m_dataBuildNum": 98304,
+          "m_ngdpRootKey": {
+            "m_data": {
+              "$bytes_base64": "l3fpv77hcXCRj1LiVk/LUg=="
+            }
+          },
+          "m_replayCompatibilityHash": {
+            "m_data": {
+              "$bytes_base64": "AAAAAAAAAAAAAAAAAAAAAA=="
+            }
+          },
+          "m_version": {
+            "m_baseBuild": 98304,
+            "m_build": 98304,
+            "m_flags": 1,
+            "m_major": 2,
+            "m_minor": 57,
+            "m_revision": 0
+          }
+        }
+      },
+      "exclusion_reason": "Decoded executable/base/data build is outside cohort",
+      "final_url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-5-2026_Spooky_Ghosts_vs_Braincellmates_Dragon_Shire.stormReplay",
+      "http_status": 200,
+      "local_filename": "ngs-remaining-05-20261005-dragon.StormReplay",
+      "public_key": "ngs_10-5-2026_Spooky_Ghosts_vs_Braincellmates_Dragon_Shire.stormReplay",
+      "sha256": "d0b3309a40123379193e62f4a2c6cd7af2013ce64880a6fa5ea445c22e5dc4d7",
+      "status": "excluded-different-build",
+      "url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-5-2026_Spooky_Ghosts_vs_Braincellmates_Dragon_Shire.stormReplay"
+    }
+  ],
+  "completed_at_utc": "2026-10-18T18:14:37.952210+00:00",
+  "downloaded_bytes": 5682558,
+  "format": "hots-ngs-remaining-five-observation-v1",
+  "game_client_launched": false,
+  "max_bytes_per_file_exclusive": 5000000,
+  "max_downloads": 5,
+  "max_total_download_bytes_exclusive": 20000000,
+  "new_listing_performed": false,
+  "observed_at_utc": "2026-10-18T18:13:48.366760+00:00",
+  "replay_modified": false,
+  "selection_source": "ngs-extra-discovery-20261018.json",
+  "verified_new_reference_count": 4
+}
