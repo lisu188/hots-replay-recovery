@@ -1,0 +1,19 @@
+{
+  "format": "hots-license-collector-local-validation-v1",
+  "utc": "2026-10-18T18:51:18.749090+00:00",
+  "python_version": "3.11.9",
+  "unit_fixture_kind": "synthetic-only-not-authentic-game-evidence",
+  "tests_run": 33,
+  "tests_passed": 32,
+  "tests_skipped": 1,
+  "skip_reasons": [
+    "Host does not permit synthetic symlink creation"
+  ],
+  "real_public_xml_subset_fresh_reparse_matches_saved_report": true,
+  "real_subset_version_bound": false,
+  "source_hashes": {
+    "collection_license_audit.py": "e08784ba9130e3bfa6b75bdc11af5f9655f21ed500d90cd6f2721bf60638da32",
+    "test_collection_license_audit.py": "825739291f606be445cf8c14163260ea453eef8fb910ce3f9bd8f2dd0efe3636",
+    "public-xml-subset-unbound-verification.json": "36a0d0a72a892f7b388fd9d478e711b4c28f220495c8e8ef7d9b41c60ced5295"
+  }
+}

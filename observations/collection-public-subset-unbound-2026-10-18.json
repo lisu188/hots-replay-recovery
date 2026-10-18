@@ -1,0 +1,295 @@
+{
+  "format": "hots-public-collection-license-subset-summary-v1",
+  "full_private_local_report_sha256": "36a0d0a72a892f7b388fd9d478e711b4c28f220495c8e8ef7d9b41c60ced5295",
+  "input_provenance": {
+    "exact_current_build_proof": false,
+    "fixture_data_synthetic": false,
+    "kind": "real-public-XML-subset-with-unbound-game-version",
+    "repository": "https://github.com/jamiephan/HeroesOfTheStorm_Gamedata",
+    "revision": "e3e57cb640f18002a4feebe3872cefe04072d814"
+  },
+  "version_binding": {
+    "expected_version": null,
+    "matching_hdp_info_files": 0,
+    "metadata": [],
+    "status": "unbound",
+    "version_log": null
+  },
+  "source_files": [
+    {
+      "bytes": 2251,
+      "kind": "XML",
+      "path": "core-herodata.xml",
+      "sha256": "8a0a8f48d4608cfbcd46f1881395100ad240fedbd790479e3023069d8e9056b8",
+      "tracked_declarations": 1,
+      "xml_elements": 34,
+      "xml_root": "Catalog"
+    },
+    {
+      "bytes": 1290,
+      "kind": "XML",
+      "path": "core-rewarddata.xml",
+      "sha256": "750c4895bcf79a03d7018a37628faab0ed7988534e265edf391cb68bd561a3f3",
+      "tracked_declarations": 9,
+      "xml_elements": 28,
+      "xml_root": "Catalog"
+    },
+    {
+      "bytes": 4773,
+      "kind": "XML",
+      "path": "demonhunterultimatebasedata.xml",
+      "sha256": "f777c58d4e36b648bfb7a181eaba81a3fed2ef3daec382a9ade128836d081d82",
+      "tracked_declarations": 3,
+      "xml_elements": 63,
+      "xml_root": "Catalog"
+    },
+    {
+      "bytes": 6678,
+      "kind": "XML",
+      "path": "dryadultimatebasedata.xml",
+      "sha256": "fa2244c72166a29c951a84d806818a6c8c79e6b4ee024b3ddef5a664773cdf74",
+      "tracked_declarations": 3,
+      "xml_elements": 90,
+      "xml_root": "Catalog"
+    },
+    {
+      "bytes": 15256,
+      "kind": "XML",
+      "path": "herodata.xml",
+      "sha256": "f39bc54277cec03c773bffb8cb2c183a69b96c75884937937e4d60b04733adad",
+      "tracked_declarations": 20,
+      "xml_elements": 267,
+      "xml_root": "Catalog"
+    },
+    {
+      "bytes": 276044,
+      "kind": "XML",
+      "path": "kaelthasdata.xml",
+      "sha256": "39cf6954288e32edd73dfed13f82e45ab5f944a54f9f3fa9adaf2aacc7ffc13b",
+      "tracked_declarations": 7,
+      "xml_elements": 4199,
+      "xml_root": "Catalog"
+    },
+    {
+      "bytes": 2712,
+      "kind": "XML",
+      "path": "l90etcultimatebasedata.xml",
+      "sha256": "72cfef5e7116cb5f3d0240a347d0f67d2b2e87a2808938d42aae11c026182bfe",
+      "tracked_declarations": 3,
+      "xml_elements": 39,
+      "xml_root": "Catalog"
+    },
+    {
+      "bytes": 33211,
+      "kind": "XML",
+      "path": "mount_ride_goatadultbilliedata.xml",
+      "sha256": "6266bf699281813f8d2895c725ff7da3b1d1ad4104b5f135a7991aeb524a4c42",
+      "tracked_declarations": 3,
+      "xml_elements": 492,
+      "xml_root": "Catalog"
+    },
+    {
+      "bytes": 9940,
+      "kind": "XML",
+      "path": "mount_ridesurf_bannerazmodunkbasedata.xml",
+      "sha256": "751a43ec10649cc9b7257d1c83fc227adc97da7d7f495fcca955415431e85c83",
+      "tracked_declarations": 3,
+      "xml_elements": 140,
+      "xml_root": "Catalog"
+    },
+    {
+      "bytes": 4049,
+      "kind": "XML",
+      "path": "mountdata.xml",
+      "sha256": "ad9507835b15486ca419eb2032e7d00b99508405512be34fb5162c41bcc17e7a",
+      "tracked_declarations": 20,
+      "xml_elements": 54,
+      "xml_root": "Catalog"
+    },
+    {
+      "bytes": 8670,
+      "kind": "XML",
+      "path": "rehgargfwinterbasedata.xml",
+      "sha256": "ec9a4bfb002ffdc40ef43c84e32fb78d72931ad2b95dde5020fb165aedafdc92",
+      "tracked_declarations": 3,
+      "xml_elements": 105,
+      "xml_root": "Catalog"
+    },
+    {
+      "bytes": 497505,
+      "kind": "XML",
+      "path": "rewarddata.xml",
+      "sha256": "873eaf657fd2dad08ee4aac44e9cbf8368852cc96ae57e16a709d9c9be917b1d",
+      "tracked_declarations": 2188,
+      "xml_elements": 8932,
+      "xml_root": "Catalog"
+    },
+    {
+      "bytes": 1275,
+      "kind": "XML",
+      "path": "skindata.xml",
+      "sha256": "bab5781cc3f6483a406aa1c2292dbf22dec517c6e573468b014e8a22050a8f4d",
+      "tracked_declarations": 3,
+      "xml_elements": 19,
+      "xml_root": "Catalog"
+    },
+    {
+      "bytes": 5692,
+      "kind": "XML",
+      "path": "stitchespsychobasedata.xml",
+      "sha256": "4bd22cfadfdbecb23a42696ab35bbc4eb9d075e44f8622c8cb3e4c09381340db",
+      "tracked_declarations": 3,
+      "xml_elements": 87,
+      "xml_root": "Catalog"
+    },
+    {
+      "bytes": 10467,
+      "kind": "XML",
+      "path": "uthermedicbasedata.xml",
+      "sha256": "14fbea5cd8850cfbcd1ab5bea16b3f939a98e2d5fb866ad365d769c65bd9d3f0",
+      "tracked_declarations": 3,
+      "xml_elements": 134,
+      "xml_root": "Catalog"
+    }
+  ],
+  "counts": {
+    "selected_fields": 2219,
+    "source_bytes": 879813,
+    "source_files": 15,
+    "tracked_declarations": 2272,
+    "tree_entries": 27,
+    "xml_files": 15
+  },
+  "direct_comparison": {
+    "current_observed_unique_ids": 5418,
+    "legacy_observed_unique_names": 263,
+    "direct_license_unique_ids": 1418,
+    "current_ids_with_direct_license_declarations": 1418,
+    "current_ids_without_direct_license_declarations": 4000,
+    "license_product_namespace_collisions": [
+      {
+        "license_declaration_indexes": [
+          484
+        ],
+        "numeric_id": 22693,
+        "product_declaration_indexes": [
+          1758
+        ]
+      },
+      {
+        "license_declaration_indexes": [
+          1860
+        ],
+        "numeric_id": 23664,
+        "product_declaration_indexes": [
+          50
+        ]
+      },
+      {
+        "license_declaration_indexes": [
+          707
+        ],
+        "numeric_id": 25001,
+        "product_declaration_indexes": [
+          12
+        ]
+      },
+      {
+        "license_declaration_indexes": [
+          683
+        ],
+        "numeric_id": 25010,
+        "product_declaration_indexes": [
+          15
+        ]
+      },
+      {
+        "license_declaration_indexes": [
+          673
+        ],
+        "numeric_id": 25016,
+        "product_declaration_indexes": [
+          45
+        ]
+      }
+    ],
+    "exact_legacy_record_name_candidates": [
+      {
+        "candidates_present_in_current_collection": [],
+        "direct_numeric_license_candidates": [],
+        "legacy_to_current_mapping_proven": false,
+        "reward_declaration_indexes": [
+          611
+        ],
+        "source_collection_name": "CannotEarn"
+      },
+      {
+        "candidates_present_in_current_collection": [
+          10182
+        ],
+        "direct_numeric_license_candidates": [
+          10182
+        ],
+        "legacy_to_current_mapping_proven": false,
+        "reward_declaration_indexes": [
+          1681
+        ],
+        "source_collection_name": "Horse"
+      },
+      {
+        "candidates_present_in_current_collection": [
+          11336
+        ],
+        "direct_numeric_license_candidates": [
+          11336
+        ],
+        "legacy_to_current_mapping_proven": false,
+        "reward_declaration_indexes": [
+          37
+        ],
+        "source_collection_name": "Kaelthas"
+      },
+      {
+        "candidates_present_in_current_collection": [],
+        "direct_numeric_license_candidates": [],
+        "legacy_to_current_mapping_proven": false,
+        "reward_declaration_indexes": [
+          1752
+        ],
+        "source_collection_name": "TestMountRide"
+      },
+      {
+        "candidates_present_in_current_collection": [],
+        "direct_numeric_license_candidates": [],
+        "legacy_to_current_mapping_proven": false,
+        "reward_declaration_indexes": [
+          1753
+        ],
+        "source_collection_name": "TestMountRideBeast"
+      },
+      {
+        "candidates_present_in_current_collection": [],
+        "direct_numeric_license_candidates": [],
+        "legacy_to_current_mapping_proven": false,
+        "reward_declaration_indexes": [
+          1755
+        ],
+        "source_collection_name": "TestMountRideBike"
+      },
+      {
+        "candidates_present_in_current_collection": [],
+        "direct_numeric_license_candidates": [],
+        "legacy_to_current_mapping_proven": false,
+        "reward_declaration_indexes": [
+          1754
+        ],
+        "source_collection_name": "TestMountRideSurf"
+      }
+    ],
+    "coverage_is_effective_catalog_or_mapping_proof": false
+  },
+  "duplicate_direct_license_keys": 34,
+  "duplicate_record_identities": 0,
+  "legacy_to_current_mapping_proven": false,
+  "replay_modified": false
+}

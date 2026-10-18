@@ -157,3 +157,16 @@ OneDrive checkpoint folder. Fresh cloud size/QuickXor metadata matches local
 bytes; remote re-download returned403 serviceReadOnly, so no independent
 remote SHA256 claim is made. Preserve old cloud files. Later validation-only
 notes must accompany that base bundle rather than rewriting older artifacts.
+
+
+## Static collection evidence workflow — 2026-10-18
+
+`docs/COLLECTION_LICENSES_2026-10-18.md` and the catalog-only observation
+introduce a bounded direct-declaration collector. The old263-name/current5418-ID
+representation difference is observed; no ownership conversion or rename mapping
+is established. Fifteen version-unbound public XML files provide1418 direct
+License matches, not complete current catalog proof. The new workflow requires
+the official live98348 manifest, extractor version and actual named Version plus
+IsPtr=false extracted metadata before publishing measured results. Its first
+remote outcome must be recorded separately. Local33tests ran32passed/1Windows
+synthetic-symlink skip. No client is launched; R8 remains the latest replay.
