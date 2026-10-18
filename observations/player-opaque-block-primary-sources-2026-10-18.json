@@ -1,0 +1,254 @@
+{
+  "format": "hots-player-opaque-block-primary-comparison-v1",
+  "utc": "2026-10-18T18:55:08.853765+00:00",
+  "schema_sources": [
+    {
+      "schema": 1,
+      "bytes": 9467,
+      "sha256": "237a5d48d353fd7ccc2021ba881abe3cfdd40a079a0bc5acfed4a1459dde41b1",
+      "verified_against_existing_pinned_source_inventory": true,
+      "url": "https://github.com/EugenPolyakov/HOTS_battlelobby/blob/85625327fd5623368410e5270a7eeb4869b40af9/lobby/1.txt#L232",
+      "line": 232,
+      "declaration": "m_Unk2: array [:0 + 174] of bit",
+      "bits": 174,
+      "declares_internal_scalars": false
+    },
+    {
+      "schema": 2,
+      "bytes": 9525,
+      "sha256": "e33f5cc20afe17476908df1cfb01198f9cb16b5fa9d919c40a05efad9b08b9f1",
+      "verified_against_existing_pinned_source_inventory": true,
+      "url": "https://github.com/EugenPolyakov/HOTS_battlelobby/blob/85625327fd5623368410e5270a7eeb4869b40af9/lobby/2.txt#L232",
+      "line": 232,
+      "declaration": "m_Unk2: array [:0 + 174] of bit",
+      "bits": 174,
+      "declares_internal_scalars": false
+    },
+    {
+      "schema": 3,
+      "bytes": 9526,
+      "sha256": "a5d243cf66bbf874caa475bbe347e690b4a636d00a24a5e3b31da829a77529d5",
+      "verified_against_existing_pinned_source_inventory": true,
+      "url": "https://github.com/EugenPolyakov/HOTS_battlelobby/blob/85625327fd5623368410e5270a7eeb4869b40af9/lobby/3.txt#L232",
+      "line": 232,
+      "declaration": "m_Unk2: array [:0 + 198] of bit",
+      "bits": 198,
+      "declares_internal_scalars": false
+    },
+    {
+      "schema": 4,
+      "bytes": 9526,
+      "sha256": "deba9ae11fb96ea13394fdde5021ea612b67aee92f68912039c0f7f325504727",
+      "verified_against_existing_pinned_source_inventory": true,
+      "url": "https://github.com/EugenPolyakov/HOTS_battlelobby/blob/85625327fd5623368410e5270a7eeb4869b40af9/lobby/4.txt#L232",
+      "line": 232,
+      "declaration": "m_Unk2: array [:0 + 198] of bit",
+      "bits": 198,
+      "declares_internal_scalars": false
+    },
+    {
+      "schema": 5,
+      "bytes": 10100,
+      "sha256": "28bb0f73314452144d74a76f593bb83dc8cad196a1a862550dcc643bd11754e0",
+      "verified_against_existing_pinned_source_inventory": true,
+      "url": "https://github.com/EugenPolyakov/HOTS_battlelobby/blob/85625327fd5623368410e5270a7eeb4869b40af9/lobby/5.txt#L247",
+      "line": 247,
+      "declaration": "m_Unk2: array [:0 + 198] of bit",
+      "bits": 198,
+      "declares_internal_scalars": false
+    },
+    {
+      "schema": 6,
+      "bytes": 10119,
+      "sha256": "6e37f25232cb47f18b5650055736c04ebcdafeaa225e19c90878138c3f397114",
+      "verified_against_existing_pinned_source_inventory": true,
+      "url": "https://github.com/EugenPolyakov/HOTS_battlelobby/blob/85625327fd5623368410e5270a7eeb4869b40af9/lobby/6.txt#L247",
+      "line": 247,
+      "declaration": "m_Unk2: array [:0 + 198] of bit",
+      "bits": 198,
+      "declares_internal_scalars": false
+    },
+    {
+      "schema": 7,
+      "bytes": 10145,
+      "sha256": "0b8c6bf7ee91f750ea8e377d00a991a0d4d3e7d465756d3d6c1fce27b24ad240",
+      "verified_against_existing_pinned_source_inventory": true,
+      "url": "https://github.com/EugenPolyakov/HOTS_battlelobby/blob/85625327fd5623368410e5270a7eeb4869b40af9/lobby/7.txt#L247",
+      "line": 247,
+      "declaration": "m_Unk2: array [:0 + 198] of bit",
+      "bits": 198,
+      "declares_internal_scalars": false
+    },
+    {
+      "schema": 8,
+      "bytes": 10126,
+      "sha256": "a3d8dd342d4e4093943925fe9339285919ebd8b56ce280f5515c3c061e9dee7a",
+      "verified_against_existing_pinned_source_inventory": true,
+      "url": "https://github.com/EugenPolyakov/HOTS_battlelobby/blob/85625327fd5623368410e5270a7eeb4869b40af9/lobby/8.txt#L247",
+      "line": 247,
+      "declaration": "m_Unk2: array [:0 + 198] of bit",
+      "bits": 198,
+      "declares_internal_scalars": false
+    },
+    {
+      "schema": 9,
+      "bytes": 10306,
+      "sha256": "904fb938f615dd7db269a49300071dd32c0883174ba9c1440b1b3e0e4fdd4470",
+      "verified_against_existing_pinned_source_inventory": true,
+      "url": "https://github.com/EugenPolyakov/HOTS_battlelobby/blob/85625327fd5623368410e5270a7eeb4869b40af9/lobby/9.txt#L247",
+      "line": 247,
+      "declaration": "m_Unk2: array [:0 + 198] of bit",
+      "bits": 198,
+      "declares_internal_scalars": false
+    },
+    {
+      "schema": 10,
+      "bytes": 10348,
+      "sha256": "25ba390895735839f205b322649b2999360864c1c63e38f0c4d950ee769829f0",
+      "verified_against_existing_pinned_source_inventory": true,
+      "url": "https://github.com/EugenPolyakov/HOTS_battlelobby/blob/85625327fd5623368410e5270a7eeb4869b40af9/lobby/10.txt#L248",
+      "line": 248,
+      "declaration": "m_Unk2: array [:0 + 198] of bit",
+      "bits": 198,
+      "declares_internal_scalars": false
+    },
+    {
+      "schema": 11,
+      "bytes": 10429,
+      "sha256": "06b6ffc8632ed606e7c7356be7f80eb92c461f1f533749c23ae4defc9f451548",
+      "verified_against_existing_pinned_source_inventory": true,
+      "url": "https://github.com/EugenPolyakov/HOTS_battlelobby/blob/85625327fd5623368410e5270a7eeb4869b40af9/lobby/11.txt#L248",
+      "line": 248,
+      "declaration": "m_Unk2: array [:0 + 198] of bit",
+      "bits": 198,
+      "declares_internal_scalars": false
+    },
+    {
+      "schema": 12,
+      "bytes": 10453,
+      "sha256": "a44d83137fa13d270e8139cf1a028a38d36b4f6a7af2c3ec4e8f86e4c2124c91",
+      "verified_against_existing_pinned_source_inventory": true,
+      "url": "https://github.com/EugenPolyakov/HOTS_battlelobby/blob/85625327fd5623368410e5270a7eeb4869b40af9/lobby/12.txt#L248",
+      "line": 248,
+      "declaration": "m_Unk2: array [:0 + 198] of bit",
+      "bits": 198,
+      "declares_internal_scalars": false
+    },
+    {
+      "schema": 13,
+      "bytes": 10487,
+      "sha256": "ed3f49c07f14c2d9bcf623829108424b245004907d3a92fca0449d7ebbb8fbe1",
+      "verified_against_existing_pinned_source_inventory": true,
+      "url": "https://github.com/EugenPolyakov/HOTS_battlelobby/blob/85625327fd5623368410e5270a7eeb4869b40af9/lobby/13.txt#L248",
+      "line": 248,
+      "declaration": "m_Unk2: array [:0 + 198] of bit",
+      "bits": 198,
+      "declares_internal_scalars": false
+    },
+    {
+      "schema": 14,
+      "bytes": 10525,
+      "sha256": "d2941810202deba19a32104d1e1799302a845954ff0be745fac3019519e7ddaa",
+      "verified_against_existing_pinned_source_inventory": true,
+      "url": "https://github.com/EugenPolyakov/HOTS_battlelobby/blob/85625327fd5623368410e5270a7eeb4869b40af9/lobby/14.txt#L248",
+      "line": 248,
+      "declaration": "m_Unk2: array [:0 + 198] of bit",
+      "bits": 198,
+      "declares_internal_scalars": false
+    },
+    {
+      "schema": 15,
+      "bytes": 10590,
+      "sha256": "33651f238feba55f7a6b156eabc1eed1e2fe5a324ceb04c7a757b39b7c4def34",
+      "verified_against_existing_pinned_source_inventory": true,
+      "url": "https://github.com/EugenPolyakov/HOTS_battlelobby/blob/85625327fd5623368410e5270a7eeb4869b40af9/lobby/15.txt#L249",
+      "line": 249,
+      "declaration": "m_Unk2: array [:0 + 198] of bit",
+      "bits": 198,
+      "declares_internal_scalars": false
+    }
+  ],
+  "schema2_to_schema3_entire_player_record_diff": [
+    "--- schema2-playersInfo",
+    "+++ schema3-playersInfo",
+    "@@ -29,7 +29,7 @@",
+    "             m_Flags: Boolean:1",
+    "           end)",
+    "       end",
+    "-      m_Unk2: array [:0 + 174] of bit",
+    "+      m_Unk2: array [:0 + 198] of bit",
+    "       m_Unk3: Optional:1 of (array [:0 + 64] of bit)",
+    "       m_Unk4: record[:0 + 0]",
+    "         m_UnkFlags: array [:0 + 4] of bit"
+  ],
+  "schema2_to_schema3_only_player_record_declaration_change_is_opaque_width": true,
+  "version_list": {
+    "url": "https://github.com/EugenPolyakov/HOTS_battlelobby/blob/85625327fd5623368410e5270a7eeb4869b40af9/lobby/version%20list.md",
+    "sha256": "ef259f435117a40a2333577c8f1b4a1b1d606c2cfb2268a66086d50e4ca8b643",
+    "original41810_schema": 2,
+    "last_listed_schema2_build": 43259,
+    "first_listed_schema3_build": 43481,
+    "listed_HotS2_boundary_build": 51978,
+    "precise_transition_build_between_listed_samples_proven": false
+  },
+  "generator_corroboration": {
+    "url": "https://github.com/EugenPolyakov/HOTS_battlelobby/blob/85625327fd5623368410e5270a7eeb4869b40af9/battlelobby.py",
+    "sha256": "bc64d436fbf83829061ea991a1e1e47c09be0d9de3af4f7dd2742c10dce919a3",
+    "old_type489_line491": "('_bitarray', [(174, 0)]), #489",
+    "later_type761_line763": "('_bitarray', [(198, 0)]), #761",
+    "both_types_are_bitarrays_without_child_field_definitions": true
+  },
+  "current_independent_reader": {
+    "url": "https://github.com/HeroesToolChest/Heroes.StormReplayParser/blob/d381dd9c273205c0fd7ac402c75eef98c6fa6c78/Heroes.StormReplayParser/MpqFiles/ReplayServerBattlelobby.cs#L460",
+    "sha256": "755b3738620a544ebb3e2d69b15e0b865cac99784bc9a47df9f731363b46a341",
+    "line": 460,
+    "declaration": "bitReader.ReadBitArray(198);",
+    "internal_fields_named": false
+  },
+  "adjacent_stable_envelope": [
+    "preceded by numeric/string toon, name flags and optional secondary string toon",
+    "followed by optional64 m_Unk3, four unknown flags, named32 m_build, collection choice and silence flag"
+  ],
+  "later_named_player_fields_outside_the_opaque_block": [
+    {
+      "name": "AccountLevel",
+      "width": 32,
+      "build_guard": 51978,
+      "source": "https://github.com/HeroesToolChest/Heroes.StormReplayParser/blob/d381dd9c273205c0fd7ac402c75eef98c6fa6c78/Heroes.StormReplayParser/MpqFiles/ReplayServerBattlelobby.cs#L501"
+    },
+    {
+      "name": "unknown_bool_and_IsVoiceSilenced",
+      "width": 2,
+      "build_guard": 61718,
+      "source": "https://github.com/HeroesToolChest/Heroes.StormReplayParser/blob/d381dd9c273205c0fd7ac402c75eef98c6fa6c78/Heroes.StormReplayParser/MpqFiles/ReplayServerBattlelobby.cs#L478"
+    },
+    {
+      "name": "IsBlizzardStaff",
+      "width": 1,
+      "build_guard": 66977,
+      "source": "https://github.com/HeroesToolChest/Heroes.StormReplayParser/blob/d381dd9c273205c0fd7ac402c75eef98c6fa6c78/Heroes.StormReplayParser/MpqFiles/ReplayServerBattlelobby.cs#L484"
+    },
+    {
+      "name": "HasActiveBoost",
+      "width": 1,
+      "build_guard": 69947,
+      "source": "https://github.com/HeroesToolChest/Heroes.StormReplayParser/blob/d381dd9c273205c0fd7ac402c75eef98c6fa6c78/Heroes.StormReplayParser/MpqFiles/ReplayServerBattlelobby.cs#L504"
+    }
+  ],
+  "conclusion": {
+    "declared_opaque_width_delta_bits": 24,
+    "stable_internal_scalar_decomposition_proven": false,
+    "positions_or_meaning_of_added_24_bits_proven": false,
+    "old_174_bits_embedding_in_current198_proven": false,
+    "safe_default_or_padding_value_proven": false,
+    "source_values_modified": false,
+    "replay_or_private_player_data_opened": false,
+    "client_launched": false
+  },
+  "limits": [
+    "Schema width delta is not evidence that24 zeros can be appended or inserted.",
+    "Matching unknown field names do not identify internal field boundaries or cross-version bit placement.",
+    "Later named player/account fields occur outside this opaque block and cannot explain its24-bit increase.",
+    "This comparison covers the pinned community schemas and independent reader; it does not prove the absence of any other documentation."
+  ]
+}

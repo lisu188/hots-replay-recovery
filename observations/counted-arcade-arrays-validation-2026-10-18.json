@@ -1,0 +1,95 @@
+{
+  "format": "hots-counted-arcade-arrays-final-verification-v1",
+  "files": [
+    {
+      "name": "audit_battlelobby_mod_metadata.py",
+      "bytes": 11881,
+      "sha256": "8dad2d923957cdfc44bec5690fe075c16d6e204651e09cc88cbf8503abcdd7c9",
+      "repository_path": "audit_battlelobby_mod_metadata.py"
+    },
+    {
+      "name": "test_audit_battlelobby_mod_metadata.py",
+      "bytes": 8270,
+      "sha256": "76dc0b24aa3d5286ef715d6031dbe65453b4aa04e985a353cac82203100c8f09",
+      "repository_path": "test_audit_battlelobby_mod_metadata.py"
+    },
+    {
+      "name": "verify_battlelobby_mod_metadata.py",
+      "bytes": 4640,
+      "sha256": "148410f7cd52981bddbc0cda1c8c7b462a0ebfbf3ac2ce22e5a1c258f3403898",
+      "repository_path": "scripts/verify_battlelobby_mod_metadata.py"
+    },
+    {
+      "name": "battlelobby_arcade_sections.py",
+      "bytes": 6923,
+      "sha256": "7ab101128268a5a838771760f80a8e3975020ddcaa1d58f12351d21a2190bf27",
+      "repository_path": "battlelobby_arcade_sections.py"
+    },
+    {
+      "name": "depot_s2mh_wire.py",
+      "bytes": 3618,
+      "sha256": "4a2f5e7d6107860b397c0ad043d1f036509e4e3eb94b564226623a2c2392ae6b",
+      "repository_path": "depot_s2mh_wire.py"
+    },
+    {
+      "name": "test_battlelobby_arcade_sections.py",
+      "bytes": 5967,
+      "sha256": "c9a3cafe6598ee16d100b642706aa0c7388becbcf0178dee6d2f4945cb7b68e5",
+      "repository_path": "test_battlelobby_arcade_sections.py"
+    },
+    {
+      "name": "verify_authenticated_arcade_sections.py",
+      "bytes": 8397,
+      "sha256": "3eb231c97281944536b1aaa798dd03bb369de5bfb52b12568bf294031e0025af",
+      "repository_path": "scripts/verify_authenticated_arcade_sections.py"
+    },
+    {
+      "name": "README_AUTHENTICATED_ARCADE_SECTIONS.md",
+      "bytes": 5846,
+      "sha256": "b5b6608104e0f909db09f6d9d55042027e719d74d722b94ad43afd50323480c6",
+      "repository_path": "docs/AUTHENTICATED_ARCADE_SECTIONS_2026-10-18.md"
+    },
+    {
+      "name": "mod-metadata-counted-arrays-fixture-verification-v2.json",
+      "bytes": 33692,
+      "sha256": "d65470b42525fcd9d0f02104e48ef1b03b92073f3e2660c7a5c51e67136d31ff",
+      "repository_path": "observations/mod-metadata-counted-arrays-2026-10-18.json"
+    },
+    {
+      "name": "authenticated-arcade-section-binding-v4.json",
+      "bytes": 24084,
+      "sha256": "8115e3f38cae7eb8decb62d59fb3129926e591ee16d72a5bd603d51c53575bba",
+      "repository_path": "observations/authenticated-arcade-section-binding-2026-10-18.json"
+    }
+  ],
+  "focused_combined_tests_passed": 28,
+  "real_mod_fixture_cases_passed": 5,
+  "authenticated_header_member_cases_passed": 4,
+  "authenticated_header_bindings": 16,
+  "authenticated_sections_from_unique_old_headers": 2,
+  "observed_section_roundtrips": 8,
+  "complete_tail_review_tests_passed": 20,
+  "complete_tail_real_cases_passed": 14,
+  "tail_integration_report_sha256": "0e877763b035dd66b3f725b43d37fed39928c0cf9673de819835bd56f63e097a",
+  "source_and_r8_replay_digests_unchanged": true,
+  "baseline_independent_dll_modified": false,
+  "raw_headers_published": false,
+  "replay_or_member_modified": false,
+  "client_launched": false,
+  "remaining_limitations": [
+    "Three current US headers with remaining package metadata returned404; EU requests for all six US hashes returned404.",
+    "R8 old map header archive handle differs from its updated dependency prefix.",
+    "Unknown auxiliary arcade arrays and nonempty tutorial links are explicitly outside observed profiles.",
+    "No full current package regeneration, cross-profile conversion or playback compatibility is claimed."
+  ],
+  "historical_reports_retained": true,
+  "backward_compatible_cli_profile_labels": true,
+  "new_reports_use_counted_arrays_and_package_versions": true,
+  "repository_text_line_endings": "LF",
+  "line_ending_normalization_only": [
+    {
+      "repository_path": "depot_s2mh_wire.py",
+      "reviewed_sha256_before_LF_normalization": "a55cc6a33ac194f53c900113d2b755ce23ec051518279c23d91092d8557501a5"
+    }
+  ]
+}

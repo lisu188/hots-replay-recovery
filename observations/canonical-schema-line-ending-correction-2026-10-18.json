@@ -1,0 +1,33 @@
+{
+  "format": "hots-canonical-schema-line-ending-correction-v1",
+  "upstream_commit": "9af3ea7150f1a8acb53464c92519a9bbcc7a3594",
+  "schemas": [
+    {
+      "build": 41810,
+      "canonical_git_blob_sha256": "879d228d9d8acd21d63563538dd15841aaf49259ee0bb468b8a46b6a4ef866fd",
+      "working_copy_before_sha256": "a970f10719f29787c7ea25359a908a1f8d99e7f9a721ec91cd8c1dcb38fd112c",
+      "canonical_bytes": 25890,
+      "LF_only": true,
+      "working_copy_differs_only_by_line_endings": true
+    },
+    {
+      "build": 96477,
+      "canonical_git_blob_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+      "working_copy_before_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+      "canonical_bytes": 26921,
+      "LF_only": true,
+      "working_copy_differs_only_by_line_endings": true
+    }
+  ],
+  "earlier_41810_hash_was_CRLF_working_copy_not_canonical_Git_blob": true,
+  "old_fixture_reports_retained": true,
+  "client_launched": false,
+  "schema_semantic_content_modified": false,
+  "fresh_fixture_report": {
+    "repository_path": "observations/full-tail-fourteen-fixtures-canonical-lf-2026-10-18.json",
+    "sha256": "9dd939c615f13884a63bf905c82345eb320f107d205e3af3cc55a6a1cc34644f",
+    "actual_replays": 14,
+    "all_private_identity_seed_checks_and_exact_member_reencoding_passed": true
+  },
+  "supersedes_failed_ci_run": "https://github.com/lisu188/hots-replay-recovery/actions/runs/39156545185"
+}

@@ -170,3 +170,65 @@ the official live98348 manifest, extractor version and actual named Version plus
 IsPtr=false extracted metadata before publishing measured results. Its first
 remote outcome must be recorded separately. Local33tests ran32passed/1Windows
 synthetic-symlink skip. No client is launched; R8 remains the latest replay.
+
+
+## Named static arrays and complete member coverage — 2026-10-18
+
+`docs/AUTHENTICATED_ARCADE_SECTIONS_2026-10-18.md` supersedes the old447-bit
+unknown-hero interpretation above. All five original s2mh headers were fetched
+from Blizzard's current depot endpoint and SHA256-verified. Package id/version
+and extraDependencies match. Two headers' howToPlaySections numerically reproduce
+the member bits: genuine four-bit array count3, three80-bit headers and nine
+localized items. The unchanged community C# reader misreads this as choice3.
+Neither47-bit deletion nor3-to5 retagging is justified. New audits use generic
+counted arrays for both profiles. Original reports remain historical evidence.
+
+R8's old map archive handle still conflicts with its newer dependency prefix.
+Only three current US package headers were acquired; the other three returned404,
+and EU requests for all six US hashes returned404. Current observed arrays are
+not relabeled authenticated header bindings when exact headers are unavailable.
+Twelve current controls have identical static mod sections despite different
+selected hero rosters; region-specific package equivalence is not established.
+
+`docs/BATTLELOBBY_TAIL_2026-10-18.md` covers the remaining suffix through strict
+EOF and full-member byte reconstruction. All14 actual fixtures (original,R8,
+12current controls) pass private identity/slot and both random-seed crosschecks.
+Local focused tests:28mod/arcade+20tail+23attribute=71. Remote results for the
+expanded workflow must be recorded separately. The174-to198-bit player block
+remains opaque in every pinned source; no insertion/default is proven. Full
+tail serialization coverage is not a cross-profile migration, full parser
+acceptance or deterministic compatibility. R8 remains the latest replay. Keep
+the offline-only instruction and full replay upgrade objective active.
+
+
+## Canonical upstream line endings — 2026-10-18
+
+CI39156545185 exposed an exact-source hash mistake in the new tail verifier:
+the41810 hash a970f107... was a CRLF checkout, while the pinned official Git
+blob is879d228d9d8acd21d63563538dd15841aaf49259ee0bb468b8a46b6a4ef866fd.
+Windows also checked out96477 as CRLF. The verifier now requires the actual
+41810 Git blob digest, and CI materializes and hash-checks both exact upstream
+blobs from pinned9af3ea7 on each OS. No schema semantics were changed and no
+hash guard was broadened. The new canonical-lf fourteen-fixture report repeats
+all EOF/member/private identity/seed checks successfully; keep older reports as
+history with their original working-copy digest. Record the subsequent remote
+run separately; the failed run is not passing CI.
+
+
+## Measured current collection evidence and broader check — 2026-10-18
+
+Run39156204685 succeeded,33Linux tests allpassed. Bot38469fa published exact98348
+XML-declaration evidence:5418/5418 observed current collection IDs have direct
+License candidates;5419 direct IDs exist. Legacy263names yield56 exact-name
+observed candidates (54without recorded declaration reason,2with unresolved
+parents),6exact records without a direct License and201absent exact names.
+Do not promote this into a263-name migration. Preserve207 unresolved names and
+all availability bytes. See dated direct-candidate assessment and collection doc.
+
+One broader sandbox discovery run at93a5d0b ran761tests with4failures,9errors,
+4skips. Permission-limited rename/junction operations and missing R3/R4/native
+fixtures remain explicitly recorded. One failure was historical config CRLF
+drift: its canonical1201-byte blob MD5d170b1ad65ebcde3f4252e3088b0c102 is now
+materialized locally and pinnedLF in .gitattributes. Its7BuildConfigTests pass.
+This focused correction does not relabel the broader run as passing or duplicate
+the separate PR branch's prepared regression lane. No replay or client changed.

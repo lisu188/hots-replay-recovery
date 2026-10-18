@@ -1,0 +1,86 @@
+{
+  "format": "hots-single-local-unittest-discovery-observation-v1",
+  "repository_commit": "93a5d0bdabd6655015cc20e25afb8e9b2c1be83a",
+  "command": "python -B -m unittest discover -q",
+  "python_version": "3.11.9",
+  "platform": "Windows sandbox",
+  "dependency_sources": ["task work/python-deps", "task work/heroprotocol", "repository"],
+  "full_suite_runs_performed": 1,
+  "tests_run": 761,
+  "elapsed_seconds": 58.970,
+  "failures": 4,
+  "errors": 9,
+  "skips": 4,
+  "exit_code": 1,
+  "focused_71_test_failure_observed": false,
+  "full_suite_success_claimed": false,
+  "failure_classification": {
+    "sandbox_permission_failures": [
+      "test_catalog_failure_collector.FailureCollectorTests.test_junction_is_not_traversed",
+      "test_catalog_journal_collector.JournalCollectorTests.test_junction_not_followed",
+      "test_catalog_journal_import.JournalImportTests.test_cli_exit_codes_distinguish_review_blocked_and_malformed"
+    ],
+    "exact_byte_fixture_drift": [
+      "test_startup.BuildConfigTests.test_pinned_current_metadata"
+    ]
+  },
+  "error_classification": {
+    "sandbox_rename_or_replace_winerror_5": [
+      "test_catalog_journal_import.JournalImportTests.test_deterministic_output_and_input_preserved",
+      "test_public_reference.OfflineDiscoveryIntegrationTests.setUpClass",
+      "test_reproduce_client.CandidateReproductionTests.test_reproduces_exact_file_and_all_base64_parts",
+      "test_reproduce_client.CandidateReproductionTests.test_tampered_digests_publish_nothing:header_before_sha256",
+      "test_reproduce_client.CandidateReproductionTests.test_tampered_digests_publish_nothing:game_before_sha256",
+      "test_reproduce_client.CandidateReproductionTests.test_tampered_digests_publish_nothing:game_after_sha256",
+      "test_reproduce_client.CandidateReproductionTests.test_tampered_digests_publish_nothing:output_sha256"
+    ],
+    "required_fixture_absent": [
+      "test_control_masks.NativeFixtureTests.setUpClass:R3",
+      "test_dragon_dependencies.ActualR4Tests.setUpClass:R4"
+    ]
+  },
+  "config_drift_evidence": {
+    "path": "references/build-98297.config",
+    "expected_md5": "d170b1ad65ebcde3f4252e3088b0c102",
+    "working_bytes": 1229,
+    "working_md5": "5447fa50683437e60d881a13e9420564",
+    "working_crlf_count": 28,
+    "head_git_blob_bytes": 1201,
+    "head_git_blob_md5": "d170b1ad65ebcde3f4252e3088b0c102",
+    "working_crlf_to_lf_exactly_equals_git_blob": true,
+    "fixture_or_guard_changed": false
+  },
+  "skip_explanation": {
+    "quiet_runner_did_not_emit_individual_skip_receipts": true,
+    "postrun_discovery_only_found_three_decorator_skips": [
+      "test_client_binding.BindingIntegrationTests.test_synthetic_donor_is_a_test_fixture_not_a_playback_claim:44256 fixture absent",
+      "test_repack_control.RepackIntegrationTests.test_container_only_control_preserves_all_payloads:44256 fixture absent",
+      "test_startup.NativeWriterTests.test_replace_preserves_extended_tables_and_unchanged_members:StormLib absent"
+    ],
+    "remaining_dynamic_skip_explained_by": "The only dynamic skipTest in the corpus is the Windows symlink-creation guard in test_collection_license_audit; individual receipt unavailable under -q"
+  },
+  "postrun_fixture_preservation": {
+    "task_original_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+    "repository_original_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+    "task_r8_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+    "repository_r3_present": false,
+    "repository_r4_present": false,
+    "repository_44256_present": false
+  },
+  "separate_pr_branch_readonly_observation": {
+    "branch": "codex/offline-pr-regression-20261018",
+    "head": "3eb6f19f0bc24928209d1641d863f3ca8ee35b5d",
+    "scope": "Adds a dedicated complete offline regression runner/workflow/tests/docs; restores required fixtures and labels platform exclusions explicitly",
+    "branch_runner_executed": false,
+    "branch_mutated_or_merged": false,
+    "branch_messaged": false
+  },
+  "limitations": [
+    "This is one direct local discovery run in a Windows sandbox, not the separately prepared Linux/Windows CI baseline.",
+    "No rerun or fixture restoration was performed to remove environmental failures.",
+    "The exact-byte config failure is proven CRLF checkout drift; this observation does not weaken its content guard.",
+    "Core client playback and deterministic simulation were not exercised."
+  ],
+  "client_launched": false,
+  "code_or_replay_modified_by_this_task": false
+}

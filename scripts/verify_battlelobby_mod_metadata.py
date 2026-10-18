@@ -59,11 +59,11 @@ def verify(original, candidate, references):
         raise LayerError('Old source mod section or suffix preservation differs')
     if sha256(_read(original)) != ORIGINAL_SHA256 or sha256(_read(candidate)) != R8_SHA256:
         raise LayerError('A pinned input changed during verification')
-    return dict(format='hots-battlelobby-mod-metadata-fixture-verification-v1',
+    return dict(format='hots-battlelobby-mod-metadata-fixture-verification-v2',
                 sources=source_provenance(), results=results,
                 source_section_and_suffix_exact_in_original_r8_and_attr_candidate=True,
                 synthetic_or_real_native_client_used=False, replay_or_member_written=False,
-                conclusion='Two nonzero447-bit historical hero payloads have no established current semantic mapping')
+                conclusion='Source static arcade sections are counted arrays, privately preserved exactly; complete current package coherence and replay compatibility remain separate')
 
 
 if __name__ == '__main__':

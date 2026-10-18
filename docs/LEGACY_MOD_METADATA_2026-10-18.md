@@ -1,3 +1,8 @@
+> Later evidence: the earlier fixed447/unknown-hero interpretation below is
+> superseded by [content-addressed static arcade arrays](AUTHENTICATED_ARCADE_SECTIONS_2026-10-18.md).
+> This document preserves the initial diagnostic history. No bits should be
+> removed or retagged based on that earlier interpretation.
+
 # Historical battlelobby mod metadata: bounded offline diagnosis
 
 The unchanged original and R8 still carry the same 1399-byte historical mod

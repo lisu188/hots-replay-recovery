@@ -8,9 +8,9 @@ from audit_battlelobby_mod_metadata import LayerError, audit_metadata, main
 # Fixed small metadata-section goldens. They contain one synthetic mod, a name
 # blob XY, a CAFEBABE sentinel, a terminal s2mh handle and an opaque END suffix.
 LEGACY = bytes.fromhex('000000000000000000000000000000000001000015000000000501000005020000000100000000000000000000000000000000000000000000000000000000000058590000000000000000000000000000000000000000000000000000000000000000000000050200000001000000000000ca7f5d5f000000000000000000000173326d68000000000000000000000000000000000000000000000000000000000000000000000000454e44')
-LEGACY_HERO = bytes.fromhex('000000000000000000000000000000000001000015000000000501000005020000000100000000000000000000000000000000000000000000000000000000000058590000000000000000000000000000000000000000000000000000000000000000000000050200000001000000000000ca7f5d5f000000000000000002002001000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000500004932b93701000000000173326d68000000000000000000000000000000000000000000000000000000000000000000000000454e44')
+LEGACY_HERO = bytes.fromhex('000000000000000000000000000000000001000015000000000501000005020000000100000000000000000000000000000000000000000000000000000000000058590000000000000000000000000000000000000000000000000000000000000000000000050200000001000000000000ca7f5d5f000000000000000002002001000a0000000000000000000e00000003020000000010000000040000001200000b00000c00000d00000f000201000402000901001400001500004932b93701000000000173326d68000000000000000000000000000000000000000000000000000000000000000000000000454e44')
 CURRENT = bytes.fromhex('00000000000000000000000000000000010000010a00000021020000002a0000000100000000000000000000000000000000000000000000000000000000000058590000000000000000000000000000000000000000000000000000000000000000000000050200000001000000000000ca7f5d5f000000000000000000000000000173326d68000000000000000000000000000000000000000000000000000000000000000000000000454e44')
-CURRENT_HERO = bytes.fromhex('00000000000000000000000000000000010000010a00000021020000002a0000000100000000000000000000000000000000000000000000000000000000000058590000000000000000000000000000000000000000000000000000000000000000000000050200000001000000000000ca7f5d5f0000000000000000020040010000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000049195c9b03000000000000000173326d68000000000000000000000000000000000000000000000000000000000000000000000000454e44')
+CURRENT_HERO = bytes.fromhex('00000000000000000000000000000000010000010a00000021020000002a0000000100000000000000000000000000000000000000000000000000000000000058590000000000000000000000000000000000000000000000000000000000000000000000050200000001000000000000ca7f5d5f000000000000000002004001000a00000000020000000000000000010200000000000000000100000000000000000001020000000000000000010000000200000b00004932b93701000000000000000173326d68000000000000000000000000000000000000000000000000000000000000000000000000454e44')
 
 
 def flip(raw, bit):
@@ -29,27 +29,26 @@ class MetadataAuditTests(unittest.TestCase):
         self.assertEqual(report['after_section_bytes'], 3)
         self.assertTrue(report['same_profile_full_member_roundtrip_exact'])
 
-    def test_fixed_legacy_hero_kept_unknown(self):
+    def test_historical_arcade_is_named_array_data(self):
         entry = audit_metadata(LEGACY_HERO, 0, 'historical-fixed')['entries'][0]
-        fixed = entry['historical_fixed_fields']
-        self.assertEqual((fixed['a93'], fixed['b4'], fixed['a8x5'], fixed['a23']), (0, 0, 3, 5))
-        self.assertEqual(fixed['unknown_payload']['bits'], 447)
-        self.assertEqual(fixed['unknown_payload']['set_bits'], 1)
-        self.assertFalse(fixed['authoritative_choice_semantics'])
-        self.assertFalse(fixed['current_mapping_established'])
-        self.assertEqual(entry['hero_id_count'], 1)
+        self.assertTrue(entry['has_static_arcade_info'])
+        self.assertEqual((entry['how_to_play_sections']['section_header_count'], entry['how_to_play_sections']['localized_item_count']), (3, 9))
+        self.assertEqual(entry['how_to_play_section_end_bit']-entry['how_to_play_section_start_bit'], 458)
+        self.assertEqual(entry['matchmaker_tag_count'], 1)
+        self.assertNotIn('historical_fixed_fields', entry)
+        self.assertNotIn('current_choice', entry)
 
     def test_fixed_current_no_hero(self):
         report = audit_metadata(CURRENT, 0, 'current-observed')
         self.assertIsNone(report['legacy_extra_three_bits'])
         self.assertEqual(report['entries'][0]['final_unknown_filler_bits'], 32)
 
-    def test_fixed_current_choice5(self):
+    def test_current_five_headers_are_an_array(self):
         entry = audit_metadata(CURRENT_HERO, 0, 'current-observed')['entries'][0]
-        self.assertEqual(entry['current_choice']['tag'], 5)
-        self.assertEqual(entry['current_choice']['payload_bits'], 400)
-        self.assertEqual(entry['current_a93_record_count'], 0)
-        self.assertEqual(entry['current_a23_record_count'], 0)
+        self.assertEqual((entry['how_to_play_sections']['section_header_count'], entry['how_to_play_sections']['localized_item_count']), (5, 1))
+        self.assertEqual(entry['how_to_play_section_end_bit']-entry['how_to_play_section_start_bit'], 434)
+        self.assertEqual(entry['game_info_screenshots_count'], 0)
+        self.assertEqual(entry['how_to_play_screenshots_count'], 0)
 
     def test_wrong_profile_refused(self):
         for raw, profile in ((LEGACY, 'current-observed'), (CURRENT, 'historical-fixed')):
@@ -70,11 +69,24 @@ class MetadataAuditTests(unittest.TestCase):
         with self.assertRaisesRegex(LayerError, 'magic'):
             audit_metadata(LEGACY.replace(b's2mh', b'EVIL'), 0, 'historical-fixed')
 
-    def test_current_unknown_choice_refused(self):
-        bit = audit_metadata(CURRENT_HERO, 0, 'current-observed')['entries'][0]['current_choice']['bit']
-        # Four-bit5 (0101) ->13 (1101), always outside current0..5.
-        with self.assertRaisesRegex(LayerError, 'choice'):
-            audit_metadata(flip(CURRENT_HERO, bit), 0, 'current-observed')
+    def test_invalid_arcade_list_format_refused(self):
+        entry = audit_metadata(CURRENT_HERO, 0, 'current-observed')['entries'][0]
+        bit = entry['how_to_play_section_start_bit']+4+23+32
+        data = bytearray(CURRENT_HERO)
+        for position in (bit, bit+1): data[position//8] |= 1 << (position%8)
+        with self.assertRaisesRegex(LayerError, 'list type'):
+            audit_metadata(bytes(data), 0, 'current-observed')
+
+    def test_uninterpreted_nonempty_auxiliary_arcade_arrays_refused(self):
+        bit = audit_metadata(LEGACY_HERO, 0, 'historical-fixed')['entries'][0]['static_arcade_info_flag_bit']+1
+        with self.assertRaisesRegex(LayerError, 'auxiliary'):
+            audit_metadata(flip(LEGACY_HERO, bit), 0, 'historical-fixed')
+
+    def test_unobserved_tutorial_link_refused(self):
+        entry = audit_metadata(LEGACY_HERO, 0, 'historical-fixed')['entries'][0]
+        bit = entry['patch_note_section_end_bit']+1  # after the absent map-icon flag
+        with self.assertRaisesRegex(LayerError, 'tutorial'):
+            audit_metadata(flip(LEGACY_HERO, bit), 0, 'historical-fixed')
 
     def test_truncated_handle_refused(self):
         with self.assertRaises(LayerError):
@@ -100,8 +112,8 @@ class MetadataAuditTests(unittest.TestCase):
         self.assertFalse(report['full_member_semantics_validated'])
         self.assertFalse(report['current_profile_compatibility_proven'])
         self.assertFalse(report['client_launched'])
-        self.assertTrue(report['dependency_offset_fields_preserved'])
-        self.assertFalse(report['dependency_offsets_semantically_validated'])
+        self.assertTrue(report['dependency_version_fields_preserved'])
+        self.assertFalse(report['dependency_version_resolution_semantics_validated'])
 
     def test_existing_report_never_overwritten(self):
         with tempfile.TemporaryDirectory() as tmp:
