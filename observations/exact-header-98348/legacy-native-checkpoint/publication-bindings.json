@@ -1,0 +1,251 @@
+{
+  "base_commit": "bddab92ff373c75e74b2ef9e9725934b203c95ad",
+  "byte_policy": "Frozen sources and JSON receipts copied without normalization; research/observation subtree -text attributes preserve raw Git bytes.",
+  "excluded_frozen_entries": [
+    {
+      "file": "legacy-39445-control/htc39445-control.sha256",
+      "frozen_receipt_sha256": "07b4e56b6878a7c98f837ac1dde6954342572f82fbfedf6ccf1f1131fa6d7a57",
+      "reason": "Only allowlisted Python and JSON are published in this checkpoint."
+    }
+  ],
+  "excluded_private_roles": [
+    "minidumps and selected memory fragment bodies",
+    "raw replays and MPQ members",
+    "raw native PE/header objects",
+    "canonical upstream protocol/source bodies"
+  ],
+  "files": [
+    {
+      "bytes": 1932,
+      "frozen_receipt_sha256": "a0756e24b4954c3640a5e3e8cbe7ee6771b46c3cbd4a0afffc7616014cd443ec",
+      "git_blob_sha1": "61d63185ae4979a56863edd8af8ca963473ccc26",
+      "sha256": "a0756e24b4954c3640a5e3e8cbe7ee6771b46c3cbd4a0afffc7616014cd443ec",
+      "source": "work/legacy41810-fragment-probe/old41810-fragment-frozen-receipt.json",
+      "target": "observations/exact-header-98348/old-image-fragments/old41810-fragment-frozen-receipt.json"
+    },
+    {
+      "bytes": 15634,
+      "frozen_receipt_sha256": "a0756e24b4954c3640a5e3e8cbe7ee6771b46c3cbd4a0afffc7616014cd443ec",
+      "git_blob_sha1": "c2ecdb94b246afada041781fcad224480ac0a4b8",
+      "sha256": "d2ce992a468030e02ef6c0e5640704470a328751aac21a4255405dc18c70319d",
+      "source": "work/legacy41810-fragment-probe/probe_approved_image_fragments.py",
+      "target": "research/exact-header-98348/old-image-fragments/probe_approved_image_fragments.py"
+    },
+    {
+      "bytes": 4830,
+      "frozen_receipt_sha256": "a0756e24b4954c3640a5e3e8cbe7ee6771b46c3cbd4a0afffc7616014cd443ec",
+      "git_blob_sha1": "b2383f8a3030c7c5343028a4e78d0802fd4b98c7",
+      "sha256": "8bcc81abe649d07226846a24c858650e9115a8672638f80e47d0065dacbe0ac1",
+      "source": "work/legacy41810-fragment-probe/test_approved_image_fragments.py",
+      "target": "research/exact-header-98348/old-image-fragments/test_approved_image_fragments.py"
+    },
+    {
+      "bytes": 8830,
+      "frozen_receipt_sha256": "a0756e24b4954c3640a5e3e8cbe7ee6771b46c3cbd4a0afffc7616014cd443ec",
+      "git_blob_sha1": "1e8e25d0ad0abf21ecd4ce46bbcfa17c7fa96a9e",
+      "sha256": "8ede290703328baa956a64568075e9ae3cbebc1acc5dff2ab278219780a0c425",
+      "source": "work/legacy41810-fragment-probe/old41810-approved-image-fragment-BSN-probe.json",
+      "target": "observations/exact-header-98348/old-image-fragments/old41810-approved-image-fragment-BSN-probe.json"
+    },
+    {
+      "bytes": 2418,
+      "frozen_receipt_sha256": "3c87d0f49563698a91c610784290e8e8f08fdf51b72c077e25152c16d1a32106",
+      "git_blob_sha1": "a5cdb8b2923e28c8a2faf0540f19a1191dc71b90",
+      "sha256": "3c87d0f49563698a91c610784290e8e8f08fdf51b72c077e25152c16d1a32106",
+      "source": "work/htc-fixture-headers-ready/htc20-header-observation-frozen-receipt.json",
+      "target": "observations/exact-header-98348/historical-fixture-screen/htc20-header-observation-frozen-receipt.json"
+    },
+    {
+      "bytes": 38193,
+      "frozen_receipt_sha256": "3c87d0f49563698a91c610784290e8e8f08fdf51b72c077e25152c16d1a32106",
+      "git_blob_sha1": "6a65909f6706b5ee677863fc18e87703bdfa6bee",
+      "sha256": "841e5f0ccdb00ada0d6fbdfb80282f649f14da8f6c8d8d6e1a2bc0dcdd20e2da",
+      "source": "work/htc-fixture-headers-ready/source-binding.json",
+      "target": "observations/exact-header-98348/historical-fixture-screen/source-binding.json"
+    },
+    {
+      "bytes": 15116,
+      "frozen_receipt_sha256": "3c87d0f49563698a91c610784290e8e8f08fdf51b72c077e25152c16d1a32106",
+      "git_blob_sha1": "90df67ead53014d5e83628e195f82a53a0a3d80f",
+      "sha256": "5635b7c67c7e20a6fff9c2e0d6db821eb49c9e364956bc26f30f3d6b1fa3e3b0",
+      "source": "work/htc-fixture-headers-ready/inspect_htc_fixture_headers.py",
+      "target": "research/exact-header-98348/historical-fixture-screen/inspect_htc_fixture_headers.py"
+    },
+    {
+      "bytes": 6480,
+      "frozen_receipt_sha256": "3c87d0f49563698a91c610784290e8e8f08fdf51b72c077e25152c16d1a32106",
+      "git_blob_sha1": "1a941013962ae552d405330abeaf841fc7075f9b",
+      "sha256": "93f999cdf47c02235ad860271c9c2304264614c3119d1dfcd7b21a4dd3f8613c",
+      "source": "work/htc-fixture-headers-ready/test_inspect_htc_fixture_headers.py",
+      "target": "research/exact-header-98348/historical-fixture-screen/test_inspect_htc_fixture_headers.py"
+    },
+    {
+      "bytes": 33559,
+      "frozen_receipt_sha256": "3c87d0f49563698a91c610784290e8e8f08fdf51b72c077e25152c16d1a32106",
+      "git_blob_sha1": "921194734817894c36da7fd9b4baecb8b0e71985",
+      "sha256": "1e5d2b70a75d572eb4b5229bf861621e858e7e5346711eaa950e5d45d294c80c",
+      "source": "work/htc-fixture-headers-ready/htc-20-unique-fixture-header-observation.json",
+      "target": "observations/exact-header-98348/historical-fixture-screen/htc-20-unique-fixture-header-observation.json"
+    },
+    {
+      "bytes": 2182,
+      "frozen_receipt_sha256": "07b4e56b6878a7c98f837ac1dde6954342572f82fbfedf6ccf1f1131fa6d7a57",
+      "git_blob_sha1": "c772a7e7085d3eb8bf8799221f8e789a6e3fdcdb",
+      "sha256": "07b4e56b6878a7c98f837ac1dde6954342572f82fbfedf6ccf1f1131fa6d7a57",
+      "source": "work/legacy-39445-control/39445-control-frozen-receipt.json",
+      "target": "observations/exact-header-98348/39445-control/39445-control-frozen-receipt.json"
+    },
+    {
+      "bytes": 3062,
+      "frozen_receipt_sha256": "07b4e56b6878a7c98f837ac1dde6954342572f82fbfedf6ccf1f1131fa6d7a57",
+      "git_blob_sha1": "d4d7cf63c276eaf663152d0cecb57982a089ec8d",
+      "sha256": "4b4c6b45ab5d7b80673399d2a9af5ffabc972ef9f321babfd5cd8f4e6f0e7f22",
+      "source": "work/acquire_one_39445_control.py",
+      "target": "research/exact-header-98348/39445-control/acquire_one_39445_control.py"
+    },
+    {
+      "bytes": 8876,
+      "frozen_receipt_sha256": "07b4e56b6878a7c98f837ac1dde6954342572f82fbfedf6ccf1f1131fa6d7a57",
+      "git_blob_sha1": "6ecd65b05e5040c30267f226acb71641a920dbe9",
+      "sha256": "3dfeb904fc0df2d91eb519c09bcf3111ce7d2c0b6507ec0327ebb6551de2843f",
+      "source": "work/inspect_39445_control.py",
+      "target": "research/exact-header-98348/39445-control/inspect_39445_control.py"
+    },
+    {
+      "bytes": 10340,
+      "frozen_receipt_sha256": "07b4e56b6878a7c98f837ac1dde6954342572f82fbfedf6ccf1f1131fa6d7a57",
+      "git_blob_sha1": "68f641fb7ba3d8216fd87bead2869c92c86287a1",
+      "sha256": "74a9677d24e1ad7dfe4d29bd7a59e58e825b983f2428689553fb33a0977bd22c",
+      "source": "work/diagnose_39445_schema1_players.py",
+      "target": "research/exact-header-98348/39445-control/diagnose_39445_schema1_players.py"
+    },
+    {
+      "bytes": 1214,
+      "frozen_receipt_sha256": "07b4e56b6878a7c98f837ac1dde6954342572f82fbfedf6ccf1f1131fa6d7a57",
+      "git_blob_sha1": "1fa7820cccb41771a615096743388caf37645467",
+      "sha256": "f36e915e255c8043cb839b0e3eb0cf02e48d59b715d4a8c142cf19ac80fdb0b7",
+      "source": "work/legacy-39445-control/39445-full-acquisition.json",
+      "target": "observations/exact-header-98348/39445-control/39445-full-acquisition.json"
+    },
+    {
+      "bytes": 3309,
+      "frozen_receipt_sha256": "07b4e56b6878a7c98f837ac1dde6954342572f82fbfedf6ccf1f1131fa6d7a57",
+      "git_blob_sha1": "871bf90681118f398ea5c400d531c3c38f6e69e7",
+      "sha256": "6f4559dd1b72cd1325ad737f04c24274eef9273895f15d9f313d1fbe9e3e0485",
+      "source": "work/legacy-39445-control/39445-core-and-unchanged-tail-observation.json",
+      "target": "observations/exact-header-98348/39445-control/39445-core-and-unchanged-tail-observation.json"
+    },
+    {
+      "bytes": 2413,
+      "frozen_receipt_sha256": "07b4e56b6878a7c98f837ac1dde6954342572f82fbfedf6ccf1f1131fa6d7a57",
+      "git_blob_sha1": "0ce33f6d33cde0e725bb9e6bc7132bcc62d83bc6",
+      "sha256": "6cfd94ec7e58d19b1439abc71604a09b4fbb604a63daa33999a2bf25902effd3",
+      "source": "work/legacy-39445-control/39445-schema1-player-diagnostic-v2.json",
+      "target": "observations/exact-header-98348/39445-control/39445-schema1-player-diagnostic-v2.json"
+    },
+    {
+      "bytes": 2248,
+      "frozen_receipt_sha256": "f6a657aaf46c52ab47936ae527cec0f4bb1e6b9d35d324e2c10140822ed7f4ca",
+      "git_blob_sha1": "ac35830763b79014ade4afe1bb389d81ab12d44a",
+      "sha256": "f6a657aaf46c52ab47936ae527cec0f4bb1e6b9d35d324e2c10140822ed7f4ca",
+      "source": "work/native-namespace-exposure/native-namespace-exposure-frozen-receipt.json",
+      "target": "observations/exact-header-98348/native-namespace/native-namespace-exposure-frozen-receipt.json"
+    },
+    {
+      "bytes": 4312,
+      "frozen_receipt_sha256": "f6a657aaf46c52ab47936ae527cec0f4bb1e6b9d35d324e2c10140822ed7f4ca",
+      "git_blob_sha1": "9abed1ec9dc20dd26bfe2f824581c316eb76648d",
+      "sha256": "5324d3b8327b8fb32e38b66e12572b90beeb43eb1e3fd6ecb712689e0c480fae",
+      "source": "work/native-namespace-exposure/project_namespace_graph.py",
+      "target": "research/exact-header-98348/native-namespace/project_namespace_graph.py"
+    },
+    {
+      "bytes": 94813,
+      "frozen_receipt_sha256": "f6a657aaf46c52ab47936ae527cec0f4bb1e6b9d35d324e2c10140822ed7f4ca",
+      "git_blob_sha1": "62d689ffd80ea840d038fca406090d9054f630a1",
+      "sha256": "2db88802fec04e587e7203c32ab16d25578e56a6f377e04f5d933938f0246baf",
+      "source": "work/native-namespace-exposure/native-formal-namespace-selected-graph.json",
+      "target": "observations/exact-header-98348/native-namespace/native-formal-namespace-selected-graph.json"
+    },
+    {
+      "bytes": 11476,
+      "frozen_receipt_sha256": "f6a657aaf46c52ab47936ae527cec0f4bb1e6b9d35d324e2c10140822ed7f4ca",
+      "git_blob_sha1": "7a923e5ef4c5da09b4487c30a734941ed4770e6c",
+      "sha256": "8d2e222b54b8376f54a5314de645ec2224f275411a8e74e465c5e1e47e910a8c",
+      "source": "work/native-namespace-exposure/assess_formal_namespace_exposure.py",
+      "target": "research/exact-header-98348/native-namespace/assess_formal_namespace_exposure.py"
+    },
+    {
+      "bytes": 6848,
+      "frozen_receipt_sha256": "f6a657aaf46c52ab47936ae527cec0f4bb1e6b9d35d324e2c10140822ed7f4ca",
+      "git_blob_sha1": "86abefb9ad7a0b28eab0cf233d1e362d1fa12cfc",
+      "sha256": "5b624fd190cd15f327508f7d23ade8472c72a9ba3d13b45b2f1e77319f6b85db",
+      "source": "work/native-namespace-exposure/native-formal-namespace-exposure-assessment.json",
+      "target": "observations/exact-header-98348/native-namespace/native-formal-namespace-exposure-assessment.json"
+    },
+    {
+      "bytes": 3179,
+      "frozen_receipt_sha256": "f6a657aaf46c52ab47936ae527cec0f4bb1e6b9d35d324e2c10140822ed7f4ca",
+      "git_blob_sha1": "2d67c56cd4e38aeddee402395309271c14cabda2",
+      "sha256": "2c82ededdff8cf5254a0f7280faec683f874ea3bf3f0044f3f5400e108956f63",
+      "source": "work/native-namespace-exposure/test_formal_namespace_carriers.py",
+      "target": "research/exact-header-98348/native-namespace/test_formal_namespace_carriers.py"
+    },
+    {
+      "bytes": 2393,
+      "frozen_receipt_sha256": null,
+      "git_blob_sha1": "73d2cb1ad140d5c815605e677af7941297f85f3f",
+      "sha256": "153debbe166e33aa2e107f061769920cb99c8fa61ac7baaecc5e2b35c707df12",
+      "source": "work/legacy41810-fragment-independent-review/old41810-fragment-independent-review.json",
+      "target": "observations/exact-header-98348/old-image-fragments/old41810-fragment-independent-review.json"
+    },
+    {
+      "bytes": 8190,
+      "frozen_receipt_sha256": null,
+      "git_blob_sha1": "e081a20319fa5942f9337bb6a94011b797e80b93",
+      "sha256": "bd0b6df2b7f9cb58130b794938b3e04c838a618f575f551633733c5dd908faab",
+      "source": "work/legacy41810-fragment-independent-review/review_fragment_probe.py",
+      "target": "research/exact-header-98348/old-image-fragments/review_fragment_probe.py"
+    },
+    {
+      "bytes": 10336,
+      "frozen_receipt_sha256": null,
+      "git_blob_sha1": "50dfda3386bbc7ffe7c484550ab6aa070f867b40",
+      "sha256": "385ffa6f70cd4874a67a5eb87797537f77beb48b6a26e84be8a30282e8ed029f",
+      "source": "work/evaluate_legacy_client_hypothesis.py",
+      "target": "research/exact-header-98348/legacy-client-constraints/evaluate_legacy_client_hypothesis.py"
+    },
+    {
+      "bytes": 3679,
+      "frozen_receipt_sha256": null,
+      "git_blob_sha1": "b16d0114ab20243f383d050fafd254cbe114c97c",
+      "sha256": "00fe626b972732ab606d7a300761e4152dffca6a9344fa4e3ad4046b9c54a976",
+      "source": "work/legacy-client-layout-constraints.json",
+      "target": "observations/exact-header-98348/legacy-client-constraints/legacy-client-layout-constraints.json"
+    },
+    {
+      "bytes": 7333,
+      "frozen_receipt_sha256": null,
+      "git_blob_sha1": "190e23c797583b750079d4593e58b0de4740e6a6",
+      "sha256": "6287dd1d546e4f70d6b9d9acb3e56d83b429cf183099f686bae3c37923549ab3",
+      "source": "work/publish-legacy-native-checkpoint/verify_publication.py",
+      "target": "research/exact-header-98348/legacy-native-checkpoint/verify_publication.py"
+    },
+    {
+      "bytes": 1298,
+      "frozen_receipt_sha256": null,
+      "git_blob_sha1": "b0c86b25f3bf96768532161efa68052aaec81deb",
+      "sha256": "136b8390abd5db931e4617b4557ef107e10cf7f7e8bc5f41640ee730ff6aa469",
+      "source": null,
+      "target": "observations/exact-header-98348/legacy-native-checkpoint/checkpoint-validation.json"
+    }
+  ],
+  "format": "legacy-native-research-publication-bindings-v1",
+  "frozen_receipt_producer_not_copied": "HTC freeze helper is outside its explicit four-file allowlist; its digest remains recorded in the untouched frozen receipt.",
+  "original_R8_constraints_explicit_source_pins": [
+    "385ffa6f70cd4874a67a5eb87797537f77beb48b6a26e84be8a30282e8ed029f",
+    "00fe626b972732ab606d7a300761e4152dffca6a9344fa4e3ad4046b9c54a976"
+  ],
+  "publication_date": "2026-10-19",
+  "relocation_note": "Original producer paths and false repo/cloud flags describe their earlier scratch run. They are retained as historical source snapshots and are not portable standalone commands. The portable verifier only opens published files."
+}

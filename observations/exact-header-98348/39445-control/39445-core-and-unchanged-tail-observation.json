@@ -1,0 +1,99 @@
+{
+  "actual_header_NGDP_root": "b3959e128489be464b4ef50eb6259480",
+  "actual_header_data_build": 39445,
+  "actual_header_version": {
+    "m_baseBuild": 39445,
+    "m_build": 39445,
+    "m_flags": 1,
+    "m_major": 0,
+    "m_minor": 15,
+    "m_revision": 2
+  },
+  "client_launched": false,
+  "existing_parser_profiles_modified": false,
+  "fixture_sha256": "32803cf56e4377a18ea74c908af3d840637faeb7803aaca943f8807ade70ba87",
+  "format": "authenticated39445-control-core-and-historical-layout-v1",
+  "old41810_schema_or_full_migration_proven": false,
+  "original_R8_before_after_guards_pass": true,
+  "raw_player_or_messages_emitted": false,
+  "replay_written_or_converted": false,
+  "results": {
+    "battlelobby": {
+      "attribute_and_mod_metadata_passed": true,
+      "exception_class": "LayerError",
+      "exception_values_or_message_emitted": false,
+      "member_sha256": "4deae39a1656618254667ae161b6dec0e7173a0e6e9dedb365ca5cce319adbc1",
+      "stack": [
+        {
+          "file": "inspect_39445_control.py",
+          "function": "analyze",
+          "line": 86
+        },
+        {
+          "file": "battlelobby_tail.py",
+          "function": "decode_tail",
+          "line": 168
+        }
+      ],
+      "stage": "unchanged_historical_tail",
+      "status": "failed",
+      "terminal_handles_end_bit": 203968
+    },
+    "details": {
+      "binary_roundtrip": true,
+      "bytes": 1209,
+      "sha256": "3db6571392d021b3b794c7c269cca2723de4a24ab061d6508c2b7938602a25d6",
+      "status": "passed"
+    },
+    "game": {
+      "UserOptions_builds": [
+        39445
+      ],
+      "UserOptions_match_header": true,
+      "binary_roundtrip": true,
+      "bytes": 1165094,
+      "event_count": 120572,
+      "official_semantic_payloads_equal": true,
+      "sha256": "f71e0659180e69502f7010952b6d70d73690cec0aa646a43e043a7d99d3a6de6",
+      "status": "passed"
+    },
+    "header": {
+      "binary_roundtrip": true,
+      "sha256": "407af511b02ef69de55f06d81cc84caa60f38d387849c82e75aa872affabe23b",
+      "status": "passed"
+    },
+    "initData": {
+      "binary_roundtrip": true,
+      "bytes": 4748,
+      "sha256": "8bab5503ef4c3050f0779b33ec59767c101edf02d77a2623afef98eedf6d3d97",
+      "status": "passed"
+    },
+    "message": {
+      "binary_roundtrip": true,
+      "bytes": 2610,
+      "event_count": 262,
+      "official_semantic_payloads_equal": true,
+      "sha256": "b26c3d1660fa25a031eeff044925408b1470e319306fd533b495363be9ab64dd",
+      "status": "passed"
+    },
+    "tracker": {
+      "binary_roundtrip": true,
+      "bytes": 382456,
+      "event_count": 6430,
+      "official_semantic_payloads_equal": true,
+      "sha256": "d01202dfbcd2927f2ccdaf44d62d5680cf46ec77d5c8bd4ac3d24c28627e3481",
+      "status": "passed"
+    }
+  },
+  "schema": {
+    "Git_blob_sha1": "457c6234946e71c9883fdffecb9ef923f7f19cee",
+    "canonical_LF_sha256": "0898b2e8608c58b24a4a8f71585af7a028a0265d4d61a8074c124de97a577148",
+    "canonical_bytes": 29195,
+    "normalization": "CRLF-to-LF only; canonical bytes match upstream Git blob",
+    "source_raw_sha256": "bfd4009e61d712c046d1ef3cf4fe42152348f72e2aaf2bf8e92174feb1e69dd6",
+    "upstream_commit": "9af3ea7150f1a8acb53464c92519a9bbcc7a3594"
+  },
+  "source_files": {
+    "producer": "3dfeb904fc0df2d91eb519c09bcf3111ce7d2c0b6507ec0327ebb6551de2843f"
+  }
+}

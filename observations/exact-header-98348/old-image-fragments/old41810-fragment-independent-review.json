@@ -1,0 +1,39 @@
+{
+  "actual_producer_analyze_called_in_this_review": false,
+  "errors": 0,
+  "failures": 0,
+  "format": "old41810-fragment-static-independent-review-v1",
+  "limits": [
+    "This is a source, synthetic-test and saved-proof review. The five real dump hashes or selected memory bytes were not reread.",
+    "Zero candidates is limited to the two captured ranges and heuristic constructor-version window1..16.",
+    "No section/code/data classification, complete historical schema, historical ClientInfo width or serialization conversion is established."
+  ],
+  "network_client_debugger_repo_or_cloud_used": false,
+  "prior_descriptor_receipt_sha256": "86fdb4c998ee393a56fa9165af16d472438aee7eb3221610a3eededa366ad27f",
+  "prior_module_receipt_sha256": "a40cde35e02707ff2c484dcc98b2bafa4a86bd30eae1ddf2d6b6fc98f7fb85ea",
+  "private_memory_bytes_strings_pointer_or_module_values_emitted": false,
+  "producer_sha256": "bd0b6df2b7f9cb58130b794938b3e04c838a618f575f551633733c5dd908faab",
+  "real_dumps_or_pointed_memory_reopened_in_this_review": false,
+  "remaining_material_findings": [],
+  "reviewed_file_sha256s": {
+    "old41810-approved-image-fragment-BSN-probe.json": "8ede290703328baa956a64568075e9ae3cbebc1acc5dff2ab278219780a0c425",
+    "old41810-fragment-frozen-receipt.json": "a0756e24b4954c3640a5e3e8cbe7ee6771b46c3cbd4a0afffc7616014cd443ec",
+    "probe_approved_image_fragments.py": "d2ce992a468030e02ef6c0e5640704470a328751aac21a4255405dc18c70319d",
+    "test_approved_image_fragments.py": "8bcc81abe649d07226846a24c858650e9115a8672638f80e47d0065dacbe0ac1"
+  },
+  "reviewed_guards": [
+    "Opaque full-file hash before and after each bounded run",
+    "Exact authenticated old module/version/24-byte RSDS and descriptor identity",
+    "Only two wholly-module approved RVA/length pairs can reach the selected read callback",
+    "Single-case1036-byte and aggregate64KiB selected metadata limits",
+    "No string reads, pointer traversal, thread/custom/heap/stack decoding or fragment concatenation",
+    "Complete constructor geometry/type grammar is required; partial candidates are not promoted"
+  ],
+  "saved_actual_cases": 5,
+  "saved_complete_type_grammar_candidates": 0,
+  "saved_exact_approved_image_bytes_per_case": 1036,
+  "saved_source_pins_case_bindings_and_read_accounting_recomputed": true,
+  "saved_total_selected_image_bytes": 5180,
+  "skips": 0,
+  "synthetic_tests": 13
+}

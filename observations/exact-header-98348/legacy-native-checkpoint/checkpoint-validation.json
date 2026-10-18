@@ -1,0 +1,34 @@
+{
+  "actual_private_producers_rerun_for_publication": false,
+  "base_commit": "bddab92ff373c75e74b2ef9e9725934b203c95ad",
+  "focused_tests": {
+    "HTC_prefix": 10,
+    "errors": 0,
+    "failures": 0,
+    "fragment": 13,
+    "namespace_carriers": 10,
+    "skips": 0,
+    "total": 33
+  },
+  "format": "legacy-native-checkpoint-publication-validation-v1",
+  "frozen_payload_bytes": 305862,
+  "frozen_payloads_checked": 26,
+  "initial_relocated_command_refused_missing_excluded_HTC_API_cache_dependency_in_two_tests": true,
+  "limits": [
+    "Tests use synthetic input and mocks; saved actual evidence gates are checked separately.",
+    "No new independently executed actual39445 or original/R8 parse is claimed in the publication pass.",
+    "No historical native schema, seven-bit semantic rule, missing US namespace or replay conversion is established."
+  ],
+  "new_hosted_CI_result_claimed": false,
+  "new_network_acquisition_or_game_execution": false,
+  "original_R8_and_root_modules_untouched_by_publisher": true,
+  "portable_focused_tests": {
+    "errors": 0,
+    "failures": 0,
+    "historical_HTC_metadata_tests_not_repeated_after_relocation": 2,
+    "skips": 0,
+    "total": 31
+  },
+  "private_dumps_replays_headers_PE_or_upstream_bodies_copied": false,
+  "validation_date": "2026-10-19"
+}

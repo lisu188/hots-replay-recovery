@@ -1,0 +1,218 @@
+{
+  "all_five_dump_hashes_unchanged": true,
+  "case_count": 5,
+  "cases": [
+    {
+      "case_id": "crash-1",
+      "dump_bytes": 223322,
+      "dump_sha256_before_and_after": "329aba46b2e5803e6e19e613470c0b3a7a517ccbc532b1e8be79e123e3286842",
+      "fragments": [
+        {
+          "bytes": 1032,
+          "image_relative_start": 33779264,
+          "probe": {
+            "complete_type_grammar_candidate_count": 0,
+            "complete_type_grammar_candidates": [],
+            "constructor_shape_header_candidates": 0,
+            "header_candidates_requiring_uncaptured_bytes": 0,
+            "selected_bytes": 1032
+          },
+          "sha256": "47f3881fd0f93f0e52cbd53f6119fa7874236f9b757971141a656f4ba251b222"
+        },
+        {
+          "bytes": 4,
+          "image_relative_start": 33790432,
+          "probe": {
+            "complete_type_grammar_candidate_count": 0,
+            "complete_type_grammar_candidates": [],
+            "constructor_shape_header_candidates": 0,
+            "header_candidates_requiring_uncaptured_bytes": 0,
+            "selected_bytes": 4
+          },
+          "sha256": "67abdd721024f0ff4e0b3f4c2fc13bc5bad42d0b7851d456d88d203d15aaa450"
+        }
+      ],
+      "header_module_fixed_versions_RSDS_and_descriptors_revalidated": true,
+      "selected_pointed_image_bytes": 1036
+    },
+    {
+      "case_id": "crash-2",
+      "dump_bytes": 228573,
+      "dump_sha256_before_and_after": "8e5389aee3fd02efd1f29abf5a4cb4394378f1989ee8d1e60666ce1c38ac8221",
+      "fragments": [
+        {
+          "bytes": 1032,
+          "image_relative_start": 33779264,
+          "probe": {
+            "complete_type_grammar_candidate_count": 0,
+            "complete_type_grammar_candidates": [],
+            "constructor_shape_header_candidates": 0,
+            "header_candidates_requiring_uncaptured_bytes": 0,
+            "selected_bytes": 1032
+          },
+          "sha256": "47f3881fd0f93f0e52cbd53f6119fa7874236f9b757971141a656f4ba251b222"
+        },
+        {
+          "bytes": 4,
+          "image_relative_start": 33790432,
+          "probe": {
+            "complete_type_grammar_candidate_count": 0,
+            "complete_type_grammar_candidates": [],
+            "constructor_shape_header_candidates": 0,
+            "header_candidates_requiring_uncaptured_bytes": 0,
+            "selected_bytes": 4
+          },
+          "sha256": "67abdd721024f0ff4e0b3f4c2fc13bc5bad42d0b7851d456d88d203d15aaa450"
+        }
+      ],
+      "header_module_fixed_versions_RSDS_and_descriptors_revalidated": true,
+      "selected_pointed_image_bytes": 1036
+    },
+    {
+      "case_id": "crash-3",
+      "dump_bytes": 224917,
+      "dump_sha256_before_and_after": "7ad05f754a27c725b6eb54400a3eb7a11e965fd232cf87e6de1eeca41ab200a2",
+      "fragments": [
+        {
+          "bytes": 1032,
+          "image_relative_start": 33779264,
+          "probe": {
+            "complete_type_grammar_candidate_count": 0,
+            "complete_type_grammar_candidates": [],
+            "constructor_shape_header_candidates": 0,
+            "header_candidates_requiring_uncaptured_bytes": 0,
+            "selected_bytes": 1032
+          },
+          "sha256": "a9cc8b3321e79974c1a6bf39a883972c84e926d39a6c83d8330ba3a54d85bdd1"
+        },
+        {
+          "bytes": 4,
+          "image_relative_start": 33790432,
+          "probe": {
+            "complete_type_grammar_candidate_count": 0,
+            "complete_type_grammar_candidates": [],
+            "constructor_shape_header_candidates": 0,
+            "header_candidates_requiring_uncaptured_bytes": 0,
+            "selected_bytes": 4
+          },
+          "sha256": "67abdd721024f0ff4e0b3f4c2fc13bc5bad42d0b7851d456d88d203d15aaa450"
+        }
+      ],
+      "header_module_fixed_versions_RSDS_and_descriptors_revalidated": true,
+      "selected_pointed_image_bytes": 1036
+    },
+    {
+      "case_id": "crash-4",
+      "dump_bytes": 226145,
+      "dump_sha256_before_and_after": "53f7534e7d3f66c5f28159a4ae4c0b7f317fb7d1d48528a29391d35ef1910291",
+      "fragments": [
+        {
+          "bytes": 1032,
+          "image_relative_start": 33779264,
+          "probe": {
+            "complete_type_grammar_candidate_count": 0,
+            "complete_type_grammar_candidates": [],
+            "constructor_shape_header_candidates": 0,
+            "header_candidates_requiring_uncaptured_bytes": 0,
+            "selected_bytes": 1032
+          },
+          "sha256": "a9cc8b3321e79974c1a6bf39a883972c84e926d39a6c83d8330ba3a54d85bdd1"
+        },
+        {
+          "bytes": 4,
+          "image_relative_start": 33790432,
+          "probe": {
+            "complete_type_grammar_candidate_count": 0,
+            "complete_type_grammar_candidates": [],
+            "constructor_shape_header_candidates": 0,
+            "header_candidates_requiring_uncaptured_bytes": 0,
+            "selected_bytes": 4
+          },
+          "sha256": "67abdd721024f0ff4e0b3f4c2fc13bc5bad42d0b7851d456d88d203d15aaa450"
+        }
+      ],
+      "header_module_fixed_versions_RSDS_and_descriptors_revalidated": true,
+      "selected_pointed_image_bytes": 1036
+    },
+    {
+      "case_id": "crash-5",
+      "dump_bytes": 226806,
+      "dump_sha256_before_and_after": "7d45251b48e6af37265b57813d5c5bb4886547db763bcee0d6adf191a78dcebf",
+      "fragments": [
+        {
+          "bytes": 1032,
+          "image_relative_start": 33779264,
+          "probe": {
+            "complete_type_grammar_candidate_count": 0,
+            "complete_type_grammar_candidates": [],
+            "constructor_shape_header_candidates": 0,
+            "header_candidates_requiring_uncaptured_bytes": 0,
+            "selected_bytes": 1032
+          },
+          "sha256": "a9cc8b3321e79974c1a6bf39a883972c84e926d39a6c83d8330ba3a54d85bdd1"
+        },
+        {
+          "bytes": 4,
+          "image_relative_start": 33790432,
+          "probe": {
+            "complete_type_grammar_candidate_count": 0,
+            "complete_type_grammar_candidates": [],
+            "constructor_shape_header_candidates": 0,
+            "header_candidates_requiring_uncaptured_bytes": 0,
+            "selected_bytes": 4
+          },
+          "sha256": "67abdd721024f0ff4e0b3f4c2fc13bc5bad42d0b7851d456d88d203d15aaa450"
+        }
+      ],
+      "header_module_fixed_versions_RSDS_and_descriptors_revalidated": true,
+      "selected_pointed_image_bytes": 1036
+    }
+  ],
+  "complete_constructor_type_grammar_candidates": 0,
+  "cross_case_fragment_reproducibility": [
+    {
+      "bytes": 1032,
+      "different_byte_count_max": 4,
+      "different_byte_count_min": 0,
+      "different_case_pairs": 6,
+      "distinct_fragment_SHA256_count": 2,
+      "exact_equal_case_pairs": 4,
+      "image_relative_start": 33779264
+    },
+    {
+      "bytes": 4,
+      "different_byte_count_max": 0,
+      "different_byte_count_min": 0,
+      "different_case_pairs": 0,
+      "distinct_fragment_SHA256_count": 1,
+      "exact_equal_case_pairs": 10,
+      "image_relative_start": 33790432
+    }
+  ],
+  "discontinuous_fragments_concatenated_as_a_schema": false,
+  "format": "hots-five41810-approved-image-fragment-BSN-probe-v1",
+  "fragment_strings_addresses_or_pointers_decoded_or_emitted": false,
+  "game_process_debugger_or_native_code_loaded": false,
+  "limits": [
+    "Full-file hash passes are opaque; only header/directory/target-module/24-byteRSDS/memory-descriptor metadata are structurally decoded.",
+    "Only the two exact allowed wholly-module image ranges are read as pointed memory. No names or pointer-sized values from those fragments are decoded.",
+    "The version-word1..16 constructor heuristic is bounded and not source-proven exhaustive. No complete candidate is promoted from partial/unavailable bytes.",
+    "No strings, dump-string entries or pointers are followed during candidate probing; complete type grammar facts alone would not prove a named schema.",
+    "No old ClientInfo width, field name, serialization layout or executable section classification follows from this bounded probe."
+  ],
+  "network_or_repo_cloud_writes": false,
+  "other_pointed_memory_heap_stack_thread_or_custom_data_read_or_decoded": false,
+  "pinned_descriptor_receipt_sha256": "86fdb4c998ee393a56fa9165af16d472438aee7eb3221610a3eededa366ad27f",
+  "pinned_module_receipt_sha256": "a40cde35e02707ff2c484dcc98b2bafa4a86bd30eae1ddf2d6b6fc98f7fb85ea",
+  "producer_sha256": "d2ce992a468030e02ef6c0e5640704470a328751aac21a4255405dc18c70319d",
+  "raw_dump_or_fragment_bytes_exported": false,
+  "read_counts": {
+    "opaque_full_file_hash_bytes": 2259526,
+    "pinned_receipt_bytes": 27052,
+    "selected_metadata_bytes": 10988,
+    "selected_pointed_image_bytes": 5180
+  },
+  "selected_image_byte_limit_per_case": 1036,
+  "selected_metadata_limit_total_bytes": 65536,
+  "static_code_data_or_PE_section_classification_performed": false
+}

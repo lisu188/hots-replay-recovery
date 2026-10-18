@@ -1,0 +1,60 @@
+{
+  "format": "native-formal-namespace-exposure-frozen-receipt-v1",
+  "recorded_at_utc": "2026-10-18T23:08:32.115Z",
+  "allowlisted_files": [
+    {
+      "name": "project_namespace_graph.py",
+      "bytes": 4312,
+      "sha256": "5324d3b8327b8fb32e38b66e12572b90beeb43eb1e3fd6ecb712689e0c480fae"
+    },
+    {
+      "name": "native-formal-namespace-selected-graph.json",
+      "bytes": 94813,
+      "sha256": "2db88802fec04e587e7203c32ab16d25578e56a6f377e04f5d933938f0246baf"
+    },
+    {
+      "name": "assess_formal_namespace_exposure.py",
+      "bytes": 11476,
+      "sha256": "8d2e222b54b8376f54a5314de645ec2224f275411a8e74e465c5e1e47e910a8c"
+    },
+    {
+      "name": "native-formal-namespace-exposure-assessment.json",
+      "bytes": 6848,
+      "sha256": "5b624fd190cd15f327508f7d23ade8472c72a9ba3d13b45b2f1e77319f6b85db"
+    },
+    {
+      "name": "test_formal_namespace_carriers.py",
+      "bytes": 3179,
+      "sha256": "2c82ededdff8cf5254a0f7280faec683f874ea3bf3f0044f3f5400e108956f63"
+    }
+  ],
+  "validation": {
+    "synthetic_tests_run": 10,
+    "failures": 0,
+    "errors": 0,
+    "skips": 0,
+    "known_exact_US_headers": 5,
+    "source_EU_DataMod_headers": 1,
+    "actual_current_US_replays": 1,
+    "all_header_and_replay_hash_guards_unchanged": true,
+    "static_PE_reads": 1,
+    "static_PE_read_bytes": 53573840
+  },
+  "result": {
+    "observed_definition_pairs": 87,
+    "known_header_union_definition_pairs": 87,
+    "unmatched_definition_pairs": 0,
+    "typed_namespace_occurrences": 278,
+    "distinct_prefix_namespace_value_count": 1,
+    "known_mapNamespace_values_matching_any_prefix_handle_namespace": 0,
+    "DataMod_namespace_exposed_or_chosen": false
+  },
+  "limits": [
+    "Namespace145carrier graph and named32-bit domain are established; no namespace/account value/digest/offset is exported.",
+    "S2MapInfo namespace absence is formaltype-graph evidence; its full actualwire binding is a separate root lane.",
+    "No USDataMod definition ownership is inferred from attributefield7 or other coincident scalars.",
+    "No whole-native-prefix decode, raw4byte search, brute force, candidateheader or reinterpretation of count9vsindex11."
+  ],
+  "repo_or_cloud_modified": false,
+  "network_or_game_used": false
+}

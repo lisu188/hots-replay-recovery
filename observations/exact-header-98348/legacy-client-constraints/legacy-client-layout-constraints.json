@@ -1,0 +1,98 @@
+{
+  "format": "legacy-ClientInfo-narrow-candidate-constraint-v1",
+  "interpretation": "Only count7 and count31 are tested. Current-named first5-field prefix reencoding and alignment are exact on these source bytes, including endpoint branch1. Candidate7 remains structurally consistent; candidate31 cannot fit even within the remaining physical member. Structural alignment does not authenticate old field names, optional semantics or a conversion rule.64541 remains a source observation, not a verified old client build.",
+  "old_ClientInfo_schema_authenticated": false,
+  "old_to_current_conversion_rule_established": false,
+  "original_R8_candidate_slices_identical_in_order": true,
+  "private_network_profile_or_account_values_emitted": false,
+  "replay_header_or_client_build_semantics_reconciled": false,
+  "replay_or_profile_modified": false,
+  "results": [
+    {
+      "actual_observed_community_build32_values": [
+        64541
+      ],
+      "candidate31_all_counts_nonzero": true,
+      "candidate31_permission_payload_exceeds_remaining_member_records": 10,
+      "candidate7_all_175bit_boundaries_exact": true,
+      "candidate7_count_histogram": {
+        "0": 10
+      },
+      "candidate7_rating_flags_and_build_anchors_exact": true,
+      "choice2_histogram": {
+        "1": 10
+      },
+      "community_build32_matches_auth_header_records": 0,
+      "current_native_first5_named_fields_prefix_complete_match": true,
+      "four_post_rating_flag_histogram": [
+        {
+          "flags": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "records": 10
+        }
+      ],
+      "header_build": 41810,
+      "id": "original41810",
+      "member_sha256": "beea9c9b29a7f1a73806fe37b393f453c84a7faed8d6f89a5b4fcd25967f1f44",
+      "players": 10,
+      "previous_secondary_flag_histogram": {
+        "1": 10
+      },
+      "rating_optional_flag_histogram": {
+        "0": 10
+      },
+      "replay_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+      "required_private_crosschecks_passed": true
+    },
+    {
+      "actual_observed_community_build32_values": [
+        64541
+      ],
+      "candidate31_all_counts_nonzero": true,
+      "candidate31_permission_payload_exceeds_remaining_member_records": 10,
+      "candidate7_all_175bit_boundaries_exact": true,
+      "candidate7_count_histogram": {
+        "0": 10
+      },
+      "candidate7_rating_flags_and_build_anchors_exact": true,
+      "choice2_histogram": {
+        "1": 10
+      },
+      "community_build32_matches_auth_header_records": 0,
+      "current_native_first5_named_fields_prefix_complete_match": true,
+      "four_post_rating_flag_histogram": [
+        {
+          "flags": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "records": 10
+        }
+      ],
+      "header_build": 98285,
+      "id": "R8",
+      "member_sha256": "2902a33a450491e8717a8006cef4627f2c12d1c0b854fc4f698dc1de0ade9640",
+      "players": 10,
+      "previous_secondary_flag_histogram": {
+        "1": 10
+      },
+      "rating_optional_flag_histogram": {
+        "0": 10
+      },
+      "replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "required_private_crosschecks_passed": true
+    }
+  ],
+  "source_hashes": {
+    "native_reader": "e0abd0b674c97b87f6a1510edc08704eebeca0ad9d43ac0537d5eaaa3eb9b202",
+    "native_selected_schema": "6e8711939ede15505debb043ae626b5c529749557d7e824226863c92e4f6a229",
+    "prior_historical_schema2": "e33f5cc20afe17476908df1cfb01198f9cb16b5fa9d919c40a05efad9b08b9f1",
+    "producer": "385ffa6f70cd4874a67a5eb87797537f77beb48b6a26e84be8a30282e8ed029f"
+  }
+}

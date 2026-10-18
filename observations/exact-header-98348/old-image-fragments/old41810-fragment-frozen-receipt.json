@@ -1,0 +1,52 @@
+{
+  "format": "old41810-approved-image-fragment-frozen-receipt-v1",
+  "recorded_at_utc": "2026-10-18T23:00:08.089Z",
+  "allowlisted_files": [
+    {
+      "name": "probe_approved_image_fragments.py",
+      "bytes": 15634,
+      "sha256": "d2ce992a468030e02ef6c0e5640704470a328751aac21a4255405dc18c70319d"
+    },
+    {
+      "name": "test_approved_image_fragments.py",
+      "bytes": 4830,
+      "sha256": "8bcc81abe649d07226846a24c858650e9115a8672638f80e47d0065dacbe0ac1"
+    },
+    {
+      "name": "old41810-approved-image-fragment-BSN-probe.json",
+      "bytes": 8830,
+      "sha256": "8ede290703328baa956a64568075e9ae3cbebc1acc5dff2ab278219780a0c425"
+    }
+  ],
+  "validation": {
+    "synthetic_tests_run": 13,
+    "failures": 0,
+    "errors": 0,
+    "skips": 0,
+    "actual_successful_analysis_runs": 1,
+    "all_five_dump_hash_guards_unchanged": true,
+    "all_case_selected_bytes": 1036,
+    "total_selected_pointed_image_bytes": 5180,
+    "complete_type_grammar_candidates": 0
+  },
+  "successful_run_read_counts": {
+    "opaque_full_file_hash_bytes": 2259526,
+    "pinned_receipt_bytes": 27052,
+    "selected_metadata_bytes": 10988,
+    "selected_pointed_image_bytes": 5180
+  },
+  "prior_preflight": {
+    "failed_before_any_dump_open_or_hash_or_pointed_image_read": true,
+    "reason": "Exact folder-name assumption refused; corrected to one unique approveddate*B41810 Error folder per pinned date.",
+    "pinned_receipt_bytes_read": 27052,
+    "selected_dump_metadata_bytes": 0,
+    "selected_pointed_image_bytes": 0
+  },
+  "limits": [
+    "Negative result is restricted to the two approved ranges and constructor-version heuristic1..16.",
+    "No strings/pointer values/raw fragment bodies or section/code/data classifications are output.",
+    "No complete old native schema or old ClientInfo widths are established."
+  ],
+  "raw_private_bodies_saved": false,
+  "network_game_process_debugger_repo_or_cloud_used": false
+}

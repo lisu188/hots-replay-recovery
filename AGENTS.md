@@ -762,3 +762,42 @@ constants; cached exact-name negatives and full limited search metadata are
 pinned. Root reproduces the saved ledger JSON exactly. No source definition was
 accepted, no state-bit or ownership mapping inferred, and no global absence
 claimed. Original/R8 unchanged; no client or new replay/full migration completion.
+
+
+## Historical layout and formal namespace research - 2026-10-19
+
+The source/JSON checkpoint in docs/HISTORICAL_LAYOUT_AND_NAMESPACE_2026-10-19.md
+publishes five bounded lanes with exact frozen byte bindings. Five old41810
+preserved dumps supplied only the two approved image fragments:1036 bytes/case,
+5180 total. No complete BSN candidate in those ranges/version1..16 heuristic;
+no old native schema or widths established. Independent saved-proof/source
+review reran13 synthetic tests without reopening dumps.
+
+HTC20 immutable fixture prefixes:20 strict206 reads/81920 application bytes,
+20 decoded headers,zero41810;24 canonical Git trees recomputed. Prefix SHA is
+not whole-file authentication. A separate652332-byte full39445 control has
+fullSHA/Gitblob and all six core stream checks. Its unchanged historical-tail
+failure remains retained. Separate pinned schema1 diagnostic passes EOF,
+reencoding and10 private identity/seed gates; no41810 schema follows.
+
+Original/R8:only count7/count31 tested. Seven-bit count candidate fits175-bit
+boundaries; current31-bit count is physically impossible in all20 records.
+Current-named first-five-field prefix alignment does not authenticate old
+field names/semantics. Community build32 values64541/60636 do not match source
+header builds. No old-to-current value conversion or seven-bit parser change.
+
+Formal namespace145 is nativeu32. S2MapInfo graph has no path to that type.
+Five exactUS headers account for all87 observed definition pairs; no formally
+attributed missingUS DataMod namespace exposed. EU source zero definitions
+and root namespace do not establish US value/package ownership. Count9 is
+DefinitionList count width; observed11 is index width. No arbitrary4byte scan,
+offset choice, candidate header or full native-prefix claim in this lane.
+
+Frozen sources/reports copied byte-exact under new exact-header subdirectories;
+33 focused scratch tests pass/no skips;31 self-contained relocated tests pass.
+Two HTC metadata tests retain private-cache dependencies and are not repeated
+after relocation;24 public Git trees independently recompute. Saved-proof gates
+pass. Producers retain private scratch dependencies; publication verifier uses
+only public checkpoint files. No new actual private-input rerun, hosted CI,
+client launch, replay write, ownership mapping or migration completion.
+Original/R8 unchanged; no backup or root module/CI/output-status changes here.

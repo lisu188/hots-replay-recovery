@@ -1,0 +1,838 @@
+{
+  "aggregate": {
+    "HTTP_attempts": 20,
+    "acquisition_failures": 0,
+    "actual_build_histogram": {
+      "39445": 1,
+      "65006": 1,
+      "67679": 1,
+      "68509": 1,
+      "70200": 1,
+      "72649": 1,
+      "75132": 1,
+      "75589": 1,
+      "76517": 1,
+      "77548": 2,
+      "85267": 1,
+      "89566": 1,
+      "90670": 1,
+      "91418": 3,
+      "98025": 3
+    },
+    "application_body_bytes_read": 81920,
+    "benchmark_duplicate_paths_skipped": 2,
+    "exact41810_candidates": 0,
+    "header_decode_failures": 0,
+    "header_decode_successes": 20,
+    "replay_paths": 22,
+    "strict206_prefixes_acquired": 20,
+    "unique_replay_blobs": 20
+  },
+  "client_launched": false,
+  "format": "htc-public-unique-fixture-header-observation-v1",
+  "full_replay_acquisitions": 0,
+  "immutable_source": {
+    "actual_root_tree_sha": "0a913bb21a505392dc8a7eb265203654f03196b1",
+    "all183entry_tuples_equal_primary_canonical_tree": true,
+    "cached_top_level_sha_was_commit_label_not_canonical_tree_sha": true,
+    "cached_tree_sha256": "eb8dc2a87ad8cc6411b6a30ce87a754357e6e7c0214e6e48f0c9c80cbbcb0675",
+    "canonical_Git_trees_recomputed": 24,
+    "commit_sha": "d381dd9c273205c0fd7ac402c75eef98c6fa6c78",
+    "repository": "HeroesToolChest/Heroes.StormReplayParser",
+    "source_binding_sha256": "841e5f0ccdb00ada0d6fbdfb80282f649f14da8f6c8d8d6e1a2bc0dcdd20e2da"
+  },
+  "limits": [
+    "Only prefix header versions are decoded; immutable URL/tree provenance is not a whole-file Git-blob/SHA256 validation.",
+    "Transport failures are recorded as acquisition outcomes and never relabeled schema failures.",
+    "The body allowance counts application bytes returned by the one capped read; underlying socket/TLS buffering is not measured.",
+    "Filename build/date labels were not used to classify eligibility.",
+    "No whole replay is fetched by this producer; an exact41810 result alone qualifies for the separately authorized\u22643MiB full Git-blob/SHA256+parse stage."
+  ],
+  "official_header_decoder": {
+    "Blizzard_upstream_commit": "9af3ea7150f1a8acb53464c92519a9bbcc7a3594",
+    "decoder_source_sha256": "c5e4e7c588ebc2ef722ab9fd9def2e67e309c45d451639cfdee3126b0f616a42",
+    "schema_build": 96477,
+    "schema_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84"
+  },
+  "prefixes_retained_only_in_RAM": true,
+  "producer_sha256": "5635b7c67c7e20a6fff9c2e0d6db821eb49c9e364956bc26f30f3d6b1fa3e3b0",
+  "raw_prefixes_or_players_or_messages_saved": false,
+  "repo_or_cloud_modified": false,
+  "request_policy": {
+    "Range": "bytes=0-4095",
+    "body_read_cap_per_request": 4096,
+    "exact206_and_ContentRange_total_required": true,
+    "global_prefix_body_cap": 81920,
+    "identity_encoding_only": true,
+    "public_host_only": "raw.githubusercontent.com",
+    "redirects_proxies_and_retries_allowed": false,
+    "unique_fixture_cap": 20,
+    "whole200_fallback_allowed": false
+  },
+  "results": [
+    {
+      "acquisition_failure": null,
+      "acquisition_outcome": "strict206_prefix_acquired",
+      "decoded_header": {
+        "MPQ_archive_offset": 1024,
+        "MPQ_user_data_size": 512,
+        "MPQ_user_header_bytes": 119,
+        "NGDP_root": "3646fea920f4f819a348c15a63ccd957",
+        "data_build": 90670,
+        "version": {
+          "m_baseBuild": 90670,
+          "m_build": 90670,
+          "m_flags": 1,
+          "m_major": 2,
+          "m_minor": 55,
+          "m_revision": 3
+        }
+      },
+      "duplicate_paths": [],
+      "exact41810": false,
+      "git_blob_sha1": "4996eedcfeba7968b600f198cabb2ba9dc22d9d0",
+      "header_decode_outcome": "success",
+      "header_prefix_sha256": "e8089dee426eec330f627bc42a58248bcdc83e5da6d71dde0688c19c153b42ea",
+      "listed_bytes": 174489,
+      "path": "Tests/Heroes.StormReplayParser.Tests/Replays/AIBraxisHoldout1_90670.StormR",
+      "response": {
+        "application_body_bytes_read": 4096,
+        "body_read_calls": 1,
+        "content_encoding": null,
+        "content_length": "4096",
+        "content_range": "bytes 0-4095/174489",
+        "etag": "\"d530604682d2b4b4c9cff70f5c2a5e105454abc72098ccd2d88ab6f80f55215e\"",
+        "request_attempted": true,
+        "response_closed": true,
+        "status": 206
+      },
+      "url": "https://raw.githubusercontent.com/HeroesToolChest/Heroes.StormReplayParser/d381dd9c273205c0fd7ac402c75eef98c6fa6c78/Tests/Heroes.StormReplayParser.Tests/Replays/AIBraxisHoldout1_90670.StormR"
+    },
+    {
+      "acquisition_failure": null,
+      "acquisition_outcome": "strict206_prefix_acquired",
+      "decoded_header": {
+        "MPQ_archive_offset": 1024,
+        "MPQ_user_data_size": 512,
+        "MPQ_user_header_bytes": 119,
+        "NGDP_root": "f3c74afe7edba0d2bf180311fde7aaa0",
+        "data_build": 75589,
+        "version": {
+          "m_baseBuild": 75589,
+          "m_build": 75589,
+          "m_flags": 1,
+          "m_major": 2,
+          "m_minor": 47,
+          "m_revision": 0
+        }
+      },
+      "duplicate_paths": [],
+      "exact41810": false,
+      "git_blob_sha1": "cc5bcbe07c3d112949d32828972e26f87bef89f5",
+      "header_decode_outcome": "success",
+      "header_prefix_sha256": "a8101f281a93996f4cebb3823c2d792d6ef83a1a05303021aa77ed018a8dd1a4",
+      "listed_bytes": 146976,
+      "path": "Tests/Heroes.StormReplayParser.Tests/Replays/AIDragonShire1_75589.StormR",
+      "response": {
+        "application_body_bytes_read": 4096,
+        "body_read_calls": 1,
+        "content_encoding": null,
+        "content_length": "4096",
+        "content_range": "bytes 0-4095/146976",
+        "etag": "\"c767b554680f2a6d65ae3cfcf6b0c5e7ed02f4b17eb210eb36e30faf1548be09\"",
+        "request_attempted": true,
+        "response_closed": true,
+        "status": 206
+      },
+      "url": "https://raw.githubusercontent.com/HeroesToolChest/Heroes.StormReplayParser/d381dd9c273205c0fd7ac402c75eef98c6fa6c78/Tests/Heroes.StormReplayParser.Tests/Replays/AIDragonShire1_75589.StormR"
+    },
+    {
+      "acquisition_failure": null,
+      "acquisition_outcome": "strict206_prefix_acquired",
+      "decoded_header": {
+        "MPQ_archive_offset": 1024,
+        "MPQ_user_data_size": 512,
+        "MPQ_user_header_bytes": 119,
+        "NGDP_root": "68842a60efef988cf37610a8105336c8",
+        "data_build": 65006,
+        "version": {
+          "m_baseBuild": 65006,
+          "m_build": 65006,
+          "m_flags": 1,
+          "m_major": 2,
+          "m_minor": 32,
+          "m_revision": 3
+        }
+      },
+      "duplicate_paths": [],
+      "exact41810": false,
+      "git_blob_sha1": "b1907f8c8f51f25afb3ff3add1b58458660d46dd",
+      "header_decode_outcome": "success",
+      "header_prefix_sha256": "2d5d5fea090914342db865aa2b5adae748ac479e81be65a1ad361e0d2165ca24",
+      "listed_bytes": 2762215,
+      "path": "Tests/Heroes.StormReplayParser.Tests/Replays/CustomBattlefieldofEternity1_65006.StormR",
+      "response": {
+        "application_body_bytes_read": 4096,
+        "body_read_calls": 1,
+        "content_encoding": null,
+        "content_length": "4096",
+        "content_range": "bytes 0-4095/2762215",
+        "etag": "\"7803697bc2051ac487b7e7bd2a913ccf7f4cf44e1d2a30be308ff9fa2905f79e\"",
+        "request_attempted": true,
+        "response_closed": true,
+        "status": 206
+      },
+      "url": "https://raw.githubusercontent.com/HeroesToolChest/Heroes.StormReplayParser/d381dd9c273205c0fd7ac402c75eef98c6fa6c78/Tests/Heroes.StormReplayParser.Tests/Replays/CustomBattlefieldofEternity1_65006.StormR"
+    },
+    {
+      "acquisition_failure": null,
+      "acquisition_outcome": "strict206_prefix_acquired",
+      "decoded_header": {
+        "MPQ_archive_offset": 1024,
+        "MPQ_user_data_size": 512,
+        "MPQ_user_header_bytes": 119,
+        "NGDP_root": "c1220aa4add3506193819283e75d1122",
+        "data_build": 68509,
+        "version": {
+          "m_baseBuild": 68509,
+          "m_build": 68509,
+          "m_flags": 1,
+          "m_major": 2,
+          "m_minor": 37,
+          "m_revision": 1
+        }
+      },
+      "duplicate_paths": [],
+      "exact41810": false,
+      "git_blob_sha1": "8f02e0aeee7f0a7b2121b7e977282e8de668c7be",
+      "header_decode_outcome": "success",
+      "header_prefix_sha256": "0f08923e81223580eb635ecad362960681c82e3b766e4fd61f83de5efc6e23e0",
+      "listed_bytes": 1447659,
+      "path": "Tests/Heroes.StormReplayParser.Tests/Replays/CustomHGC2018BattlefieldofEternity1_68509.StormR",
+      "response": {
+        "application_body_bytes_read": 4096,
+        "body_read_calls": 1,
+        "content_encoding": null,
+        "content_length": "4096",
+        "content_range": "bytes 0-4095/1447659",
+        "etag": "\"e3356b81e2e76f0e2856159ff5eea52d1ce1255127e1009bc753ebdae9ab55b3\"",
+        "request_attempted": true,
+        "response_closed": true,
+        "status": 206
+      },
+      "url": "https://raw.githubusercontent.com/HeroesToolChest/Heroes.StormReplayParser/d381dd9c273205c0fd7ac402c75eef98c6fa6c78/Tests/Heroes.StormReplayParser.Tests/Replays/CustomHGC2018BattlefieldofEternity1_68509.StormR"
+    },
+    {
+      "acquisition_failure": null,
+      "acquisition_outcome": "strict206_prefix_acquired",
+      "decoded_header": {
+        "MPQ_archive_offset": 1024,
+        "MPQ_user_data_size": 512,
+        "MPQ_user_header_bytes": 119,
+        "NGDP_root": "511141a38b06a0b3824d9cfe0532f551",
+        "data_build": 98025,
+        "version": {
+          "m_baseBuild": 98025,
+          "m_build": 98025,
+          "m_flags": 1,
+          "m_major": 2,
+          "m_minor": 55,
+          "m_revision": 17
+        }
+      },
+      "duplicate_paths": [],
+      "exact41810": false,
+      "git_blob_sha1": "4a71110797561a162f6527c6f8d7e4741f800915",
+      "header_decode_outcome": "success",
+      "header_prefix_sha256": "b1cf745ff290054bca46f8e4d385bf43a63dacdccefe0f88d0a6179cd7ea4a4c",
+      "listed_bytes": 1035360,
+      "path": "Tests/Heroes.StormReplayParser.Tests/Replays/EnemyTeamChat1.StormR",
+      "response": {
+        "application_body_bytes_read": 4096,
+        "body_read_calls": 1,
+        "content_encoding": null,
+        "content_length": "4096",
+        "content_range": "bytes 0-4095/1035360",
+        "etag": "\"ce3f97ad96cd255c21366cc73cfc6a5f4627c69a57eaf2de3ae93c06e46d6d06\"",
+        "request_attempted": true,
+        "response_closed": true,
+        "status": 206
+      },
+      "url": "https://raw.githubusercontent.com/HeroesToolChest/Heroes.StormReplayParser/d381dd9c273205c0fd7ac402c75eef98c6fa6c78/Tests/Heroes.StormReplayParser.Tests/Replays/EnemyTeamChat1.StormR"
+    },
+    {
+      "acquisition_failure": null,
+      "acquisition_outcome": "strict206_prefix_acquired",
+      "decoded_header": {
+        "MPQ_archive_offset": 1024,
+        "MPQ_user_data_size": 512,
+        "MPQ_user_header_bytes": 119,
+        "NGDP_root": "90717d4ea1702e2fdf88ba74fd7d5b50",
+        "data_build": 70200,
+        "version": {
+          "m_baseBuild": 70200,
+          "m_build": 70200,
+          "m_flags": 1,
+          "m_major": 2,
+          "m_minor": 40,
+          "m_revision": 0
+        }
+      },
+      "duplicate_paths": [],
+      "exact41810": false,
+      "git_blob_sha1": "1916d19fa89a4a9849830187735f50670e4e13b3",
+      "header_decode_outcome": "success",
+      "header_prefix_sha256": "5c983448bb97da231f936cbdb37fa2a711a478e8fc0233e552c0d43d0fd23526",
+      "listed_bytes": 314467,
+      "path": "Tests/Heroes.StormReplayParser.Tests/Replays/EscapeFromBraxis(Heroic)1_70200.StormR",
+      "response": {
+        "application_body_bytes_read": 4096,
+        "body_read_calls": 1,
+        "content_encoding": null,
+        "content_length": "4096",
+        "content_range": "bytes 0-4095/314467",
+        "etag": "\"1d36feb09b51b3e9cd7ddf319475e9bfc72caa53021bad4f5820151a30fc9c1b\"",
+        "request_attempted": true,
+        "response_closed": true,
+        "status": 206
+      },
+      "url": "https://raw.githubusercontent.com/HeroesToolChest/Heroes.StormReplayParser/d381dd9c273205c0fd7ac402c75eef98c6fa6c78/Tests/Heroes.StormReplayParser.Tests/Replays/EscapeFromBraxis%28Heroic%291_70200.StormR"
+    },
+    {
+      "acquisition_failure": null,
+      "acquisition_outcome": "strict206_prefix_acquired",
+      "decoded_header": {
+        "MPQ_archive_offset": 1024,
+        "MPQ_user_data_size": 512,
+        "MPQ_user_header_bytes": 119,
+        "NGDP_root": "6991cecf95c1917af07b52c9a063d64c",
+        "data_build": 89566,
+        "version": {
+          "m_baseBuild": 89566,
+          "m_build": 89566,
+          "m_flags": 1,
+          "m_major": 2,
+          "m_minor": 55,
+          "m_revision": 3
+        }
+      },
+      "duplicate_paths": [],
+      "exact41810": false,
+      "git_blob_sha1": "13d229349233d537593310165af680e89602002c",
+      "header_decode_outcome": "success",
+      "header_prefix_sha256": "3f81f9771fe637dcee5ac4c118e3f0bdb4eac348443e7dbf5d2dd0ebb2f0d3d3",
+      "listed_bytes": 606489,
+      "path": "Tests/Heroes.StormReplayParser.Tests/Replays/HanamuraSL1_89566.StormR",
+      "response": {
+        "application_body_bytes_read": 4096,
+        "body_read_calls": 1,
+        "content_encoding": null,
+        "content_length": "4096",
+        "content_range": "bytes 0-4095/606489",
+        "etag": "\"03945ee798bdb37ea723376404c275c9c9254d114e105ae0669f5f7798eeb5e3\"",
+        "request_attempted": true,
+        "response_closed": true,
+        "status": 206
+      },
+      "url": "https://raw.githubusercontent.com/HeroesToolChest/Heroes.StormReplayParser/d381dd9c273205c0fd7ac402c75eef98c6fa6c78/Tests/Heroes.StormReplayParser.Tests/Replays/HanamuraSL1_89566.StormR"
+    },
+    {
+      "acquisition_failure": null,
+      "acquisition_outcome": "strict206_prefix_acquired",
+      "decoded_header": {
+        "MPQ_archive_offset": 1024,
+        "MPQ_user_data_size": 512,
+        "MPQ_user_header_bytes": 119,
+        "NGDP_root": "049fc5bd55fe0f681792efdb96b3e503",
+        "data_build": 75132,
+        "version": {
+          "m_baseBuild": 75132,
+          "m_build": 75132,
+          "m_flags": 1,
+          "m_major": 2,
+          "m_minor": 46,
+          "m_revision": 1
+        }
+      },
+      "duplicate_paths": [],
+      "exact41810": false,
+      "git_blob_sha1": "8f81b782d1aaf83ba8fc8146492116bcce74525a",
+      "header_decode_outcome": "success",
+      "header_prefix_sha256": "f08279c10c897feb7ef43971d73522148ad55878a18c4edb6def071899ab9716",
+      "listed_bytes": 948985,
+      "path": "Tests/Heroes.StormReplayParser.Tests/Replays/HanamuraTemple1_75132.StormR",
+      "response": {
+        "application_body_bytes_read": 4096,
+        "body_read_calls": 1,
+        "content_encoding": null,
+        "content_length": "4096",
+        "content_range": "bytes 0-4095/948985",
+        "etag": "\"c1b5b11be81e9761f6edc80c544054d8558894eea7573a6aeed3ae7a49d89d47\"",
+        "request_attempted": true,
+        "response_closed": true,
+        "status": 206
+      },
+      "url": "https://raw.githubusercontent.com/HeroesToolChest/Heroes.StormReplayParser/d381dd9c273205c0fd7ac402c75eef98c6fa6c78/Tests/Heroes.StormReplayParser.Tests/Replays/HanamuraTemple1_75132.StormR"
+    },
+    {
+      "acquisition_failure": null,
+      "acquisition_outcome": "strict206_prefix_acquired",
+      "decoded_header": {
+        "MPQ_archive_offset": 1024,
+        "MPQ_user_data_size": 512,
+        "MPQ_user_header_bytes": 119,
+        "NGDP_root": "e0c6b7c9fde6ecf7e78159a1e450009b",
+        "data_build": 67679,
+        "version": {
+          "m_baseBuild": 67679,
+          "m_build": 67679,
+          "m_flags": 1,
+          "m_major": 2,
+          "m_minor": 37,
+          "m_revision": 0
+        }
+      },
+      "duplicate_paths": [],
+      "exact41810": false,
+      "git_blob_sha1": "e30c5683b917a0e2206a69cb92418f75b776154e",
+      "header_decode_outcome": "success",
+      "header_prefix_sha256": "ef1f88cffecbc7c818ec60963f19681739f606ca094e0703046da361f48e3aa9",
+      "listed_bytes": 1128928,
+      "path": "Tests/Heroes.StormReplayParser.Tests/Replays/HanamuraTemple2_67679.StormR",
+      "response": {
+        "application_body_bytes_read": 4096,
+        "body_read_calls": 1,
+        "content_encoding": null,
+        "content_length": "4096",
+        "content_range": "bytes 0-4095/1128928",
+        "etag": "\"06978a3876b941ea8351b36fcae195984ce04ecb0ec669f5ff7e43408b84af1c\"",
+        "request_attempted": true,
+        "response_closed": true,
+        "status": 206
+      },
+      "url": "https://raw.githubusercontent.com/HeroesToolChest/Heroes.StormReplayParser/d381dd9c273205c0fd7ac402c75eef98c6fa6c78/Tests/Heroes.StormReplayParser.Tests/Replays/HanamuraTemple2_67679.StormR"
+    },
+    {
+      "acquisition_failure": null,
+      "acquisition_outcome": "strict206_prefix_acquired",
+      "decoded_header": {
+        "MPQ_archive_offset": 1024,
+        "MPQ_user_data_size": 512,
+        "MPQ_user_header_bytes": 119,
+        "NGDP_root": "83d00c353b05549333edb25145c83b74",
+        "data_build": 91418,
+        "version": {
+          "m_baseBuild": 91418,
+          "m_build": 91418,
+          "m_flags": 1,
+          "m_major": 2,
+          "m_minor": 55,
+          "m_revision": 4
+        }
+      },
+      "duplicate_paths": [],
+      "exact41810": false,
+      "git_blob_sha1": "49cdf2fa1b48013c8da3409dcaacd1451a246d2b",
+      "header_decode_outcome": "success",
+      "header_prefix_sha256": "72b61ef612b79880a15fca0c70048e0c91abadd1e1a466fa30222aefcbd9d58e",
+      "listed_bytes": 592152,
+      "path": "Tests/Heroes.StormReplayParser.Tests/Replays/IndustrialDistrictMacPlayers1_91418.StormR",
+      "response": {
+        "application_body_bytes_read": 4096,
+        "body_read_calls": 1,
+        "content_encoding": null,
+        "content_length": "4096",
+        "content_range": "bytes 0-4095/592152",
+        "etag": "\"c8b5d92255fdeb71e65b4c2b9b6dd498d1b3299f952db1f9e4a85e75db52d24b\"",
+        "request_attempted": true,
+        "response_closed": true,
+        "status": 206
+      },
+      "url": "https://raw.githubusercontent.com/HeroesToolChest/Heroes.StormReplayParser/d381dd9c273205c0fd7ac402c75eef98c6fa6c78/Tests/Heroes.StormReplayParser.Tests/Replays/IndustrialDistrictMacPlayers1_91418.StormR"
+    },
+    {
+      "acquisition_failure": null,
+      "acquisition_outcome": "strict206_prefix_acquired",
+      "decoded_header": {
+        "MPQ_archive_offset": 1024,
+        "MPQ_user_data_size": 512,
+        "MPQ_user_header_bytes": 119,
+        "NGDP_root": "2120a2abd11575650813df952cc3dc2a",
+        "data_build": 76517,
+        "version": {
+          "m_baseBuild": 76517,
+          "m_build": 76517,
+          "m_flags": 1,
+          "m_major": 2,
+          "m_minor": 48,
+          "m_revision": 1
+        }
+      },
+      "duplicate_paths": [
+        "Heroes.StormReplayParser.Benchmarks/Replays/LostCavernNonSingleUnit1_76517.StormR"
+      ],
+      "exact41810": false,
+      "git_blob_sha1": "1ae1167950aba8082a0e14076e408d83e547fd0c",
+      "header_decode_outcome": "success",
+      "header_prefix_sha256": "a3d3939406bf100dedca83947bfc313af2c337c4e8ee11ce99a3a1e53a7f9dd9",
+      "listed_bytes": 1292284,
+      "path": "Tests/Heroes.StormReplayParser.Tests/Replays/LostCavernNonSingleUnit1_76517.StormR",
+      "response": {
+        "application_body_bytes_read": 4096,
+        "body_read_calls": 1,
+        "content_encoding": null,
+        "content_length": "4096",
+        "content_range": "bytes 0-4095/1292284",
+        "etag": "\"c3911c6376f6b57e3b1de5326953246dbb20ac6001f91ee8730f4e24f4fb0b9a\"",
+        "request_attempted": true,
+        "response_closed": true,
+        "status": 206
+      },
+      "url": "https://raw.githubusercontent.com/HeroesToolChest/Heroes.StormReplayParser/d381dd9c273205c0fd7ac402c75eef98c6fa6c78/Tests/Heroes.StormReplayParser.Tests/Replays/LostCavernNonSingleUnit1_76517.StormR"
+    },
+    {
+      "acquisition_failure": null,
+      "acquisition_outcome": "strict206_prefix_acquired",
+      "decoded_header": {
+        "MPQ_archive_offset": 1024,
+        "MPQ_user_data_size": 512,
+        "MPQ_user_header_bytes": 118,
+        "NGDP_root": "83d00c353b05549333edb25145c83b74",
+        "data_build": 91418,
+        "version": {
+          "m_baseBuild": 91418,
+          "m_build": 91418,
+          "m_flags": 1,
+          "m_major": 2,
+          "m_minor": 55,
+          "m_revision": 4
+        }
+      },
+      "duplicate_paths": [],
+      "exact41810": false,
+      "git_blob_sha1": "6acf01270399915689630ae9fc82b1f7551045ff",
+      "header_decode_outcome": "success",
+      "header_prefix_sha256": "be8e2e15828e17e759e4a65458206bb0535e76dc79315eb13f6bad00191bb8ba",
+      "listed_bytes": 136003,
+      "path": "Tests/Heroes.StormReplayParser.Tests/Replays/LostCavernTeamAllLeft1.StormR",
+      "response": {
+        "application_body_bytes_read": 4096,
+        "body_read_calls": 1,
+        "content_encoding": null,
+        "content_length": "4096",
+        "content_range": "bytes 0-4095/136003",
+        "etag": "\"e3fbbd503052f6db08d98fc28b68fb533844ec1660a5869e5207cf6bed943c78\"",
+        "request_attempted": true,
+        "response_closed": true,
+        "status": 206
+      },
+      "url": "https://raw.githubusercontent.com/HeroesToolChest/Heroes.StormReplayParser/d381dd9c273205c0fd7ac402c75eef98c6fa6c78/Tests/Heroes.StormReplayParser.Tests/Replays/LostCavernTeamAllLeft1.StormR"
+    },
+    {
+      "acquisition_failure": null,
+      "acquisition_outcome": "strict206_prefix_acquired",
+      "decoded_header": {
+        "MPQ_archive_offset": 1024,
+        "MPQ_user_data_size": 512,
+        "MPQ_user_header_bytes": 119,
+        "NGDP_root": "af1f613ee8f946d481347ebaebf24c17",
+        "data_build": 72649,
+        "version": {
+          "m_baseBuild": 72649,
+          "m_build": 72649,
+          "m_flags": 1,
+          "m_major": 2,
+          "m_minor": 43,
+          "m_revision": 3
+        }
+      },
+      "duplicate_paths": [],
+      "exact41810": false,
+      "git_blob_sha1": "bbbba301e08ee1e9c2492f4405004373636ad754",
+      "header_decode_outcome": "success",
+      "header_prefix_sha256": "9c071bc967a5ee6f47a1b3e093545abe2bea527bd722cb1405286068c7f4de89",
+      "listed_bytes": 797520,
+      "path": "Tests/Heroes.StormReplayParser.Tests/Replays/MissingWorkSetSlotId1.StormR",
+      "response": {
+        "application_body_bytes_read": 4096,
+        "body_read_calls": 1,
+        "content_encoding": null,
+        "content_length": "4096",
+        "content_range": "bytes 0-4095/797520",
+        "etag": "\"8816c4e7d8e4f3e4d74ce857455ee98fc64be5871ffda2f76b8de1ac11c1a875\"",
+        "request_attempted": true,
+        "response_closed": true,
+        "status": 206
+      },
+      "url": "https://raw.githubusercontent.com/HeroesToolChest/Heroes.StormReplayParser/d381dd9c273205c0fd7ac402c75eef98c6fa6c78/Tests/Heroes.StormReplayParser.Tests/Replays/MissingWorkSetSlotId1.StormR"
+    },
+    {
+      "acquisition_failure": null,
+      "acquisition_outcome": "strict206_prefix_acquired",
+      "decoded_header": {
+        "MPQ_archive_offset": 1024,
+        "MPQ_user_data_size": 512,
+        "MPQ_user_header_bytes": 119,
+        "NGDP_root": "edadfc6b64bda6d0fa0e145eef4cdbe6",
+        "data_build": 77548,
+        "version": {
+          "m_baseBuild": 77548,
+          "m_build": 77548,
+          "m_flags": 1,
+          "m_major": 2,
+          "m_minor": 49,
+          "m_revision": 0
+        }
+      },
+      "duplicate_paths": [],
+      "exact41810": false,
+      "git_blob_sha1": "4b4b3591a30482d870cb240edbfbd54ded622bdc",
+      "header_decode_outcome": "success",
+      "header_prefix_sha256": "dabcdc45e23853b4bcbed6d1335b218cc12f3f97127c1bc490ba713c6f37971d",
+      "listed_bytes": 1363334,
+      "path": "Tests/Heroes.StormReplayParser.Tests/Replays/NoPlayerNamesNoTag1_77548.StormR",
+      "response": {
+        "application_body_bytes_read": 4096,
+        "body_read_calls": 1,
+        "content_encoding": null,
+        "content_length": "4096",
+        "content_range": "bytes 0-4095/1363334",
+        "etag": "\"12aee220ec414b85bfc2d2125bc59c9e6e94c0d39a818725b1d8fe14f5090aef\"",
+        "request_attempted": true,
+        "response_closed": true,
+        "status": 206
+      },
+      "url": "https://raw.githubusercontent.com/HeroesToolChest/Heroes.StormReplayParser/d381dd9c273205c0fd7ac402c75eef98c6fa6c78/Tests/Heroes.StormReplayParser.Tests/Replays/NoPlayerNamesNoTag1_77548.StormR"
+    },
+    {
+      "acquisition_failure": null,
+      "acquisition_outcome": "strict206_prefix_acquired",
+      "decoded_header": {
+        "MPQ_archive_offset": 1024,
+        "MPQ_user_data_size": 512,
+        "MPQ_user_header_bytes": 118,
+        "NGDP_root": "511141a38b06a0b3824d9cfe0532f551",
+        "data_build": 98025,
+        "version": {
+          "m_baseBuild": 98025,
+          "m_build": 98025,
+          "m_flags": 1,
+          "m_major": 2,
+          "m_minor": 55,
+          "m_revision": 17
+        }
+      },
+      "duplicate_paths": [],
+      "exact41810": false,
+      "git_blob_sha1": "55964ff9e37c74f76b1f4a576aba25ec639c66cf",
+      "header_decode_outcome": "success",
+      "header_prefix_sha256": "560ade82f7fb87ff2f1ddd54f27ebe5f2cde5a73d02a5a926731c8e2d1d0dd74",
+      "listed_bytes": 95679,
+      "path": "Tests/Heroes.StormReplayParser.Tests/Replays/ObserversTeamChat1.StormR",
+      "response": {
+        "application_body_bytes_read": 4096,
+        "body_read_calls": 1,
+        "content_encoding": null,
+        "content_length": "4096",
+        "content_range": "bytes 0-4095/95679",
+        "etag": "\"81204af55c97a16c295120eb7fb59aed00f240c7d1ebf23e37c176043da7cada\"",
+        "request_attempted": true,
+        "response_closed": true,
+        "status": 206
+      },
+      "url": "https://raw.githubusercontent.com/HeroesToolChest/Heroes.StormReplayParser/d381dd9c273205c0fd7ac402c75eef98c6fa6c78/Tests/Heroes.StormReplayParser.Tests/Replays/ObserversTeamChat1.StormR"
+    },
+    {
+      "acquisition_failure": null,
+      "acquisition_outcome": "strict206_prefix_acquired",
+      "decoded_header": {
+        "MPQ_archive_offset": 1024,
+        "MPQ_user_data_size": 512,
+        "MPQ_user_header_bytes": 119,
+        "NGDP_root": "61366a2c15d47036ef4f7ce7745f5e11",
+        "data_build": 85267,
+        "version": {
+          "m_baseBuild": 85267,
+          "m_build": 85267,
+          "m_flags": 1,
+          "m_major": 2,
+          "m_minor": 54,
+          "m_revision": 1
+        }
+      },
+      "duplicate_paths": [
+        "Heroes.StormReplayParser.Benchmarks/Replays/SilverCity1_85267.StormR"
+      ],
+      "exact41810": false,
+      "git_blob_sha1": "1b3fc1761f256236a95cc5eba1e3f3ab65d3efe1",
+      "header_decode_outcome": "success",
+      "header_prefix_sha256": "b173a7a0526fff3137d42fdc4fe19df4551542bc096d88300734dc4aa59dbb5c",
+      "listed_bytes": 657815,
+      "path": "Tests/Heroes.StormReplayParser.Tests/Replays/SilverCity1_85267.StormR",
+      "response": {
+        "application_body_bytes_read": 4096,
+        "body_read_calls": 1,
+        "content_encoding": null,
+        "content_length": "4096",
+        "content_range": "bytes 0-4095/657815",
+        "etag": "\"511ce8024276bcdb6b5ba7a12e6e289c1a6b36bec044d57e744715fde890ea13\"",
+        "request_attempted": true,
+        "response_closed": true,
+        "status": 206
+      },
+      "url": "https://raw.githubusercontent.com/HeroesToolChest/Heroes.StormReplayParser/d381dd9c273205c0fd7ac402c75eef98c6fa6c78/Tests/Heroes.StormReplayParser.Tests/Replays/SilverCity1_85267.StormR"
+    },
+    {
+      "acquisition_failure": null,
+      "acquisition_outcome": "strict206_prefix_acquired",
+      "decoded_header": {
+        "MPQ_archive_offset": 1024,
+        "MPQ_user_data_size": 512,
+        "MPQ_user_header_bytes": 118,
+        "NGDP_root": "511141a38b06a0b3824d9cfe0532f551",
+        "data_build": 98025,
+        "version": {
+          "m_baseBuild": 98025,
+          "m_build": 98025,
+          "m_flags": 1,
+          "m_major": 2,
+          "m_minor": 55,
+          "m_revision": 17
+        }
+      },
+      "duplicate_paths": [],
+      "exact41810": false,
+      "git_blob_sha1": "b0e992431267bd6b43e1994481b10a6f3edc1a29",
+      "header_decode_outcome": "success",
+      "header_prefix_sha256": "461dc790b47a5740b63f8a6cc9536e6200d5e121a46b04fd1e9332e434a293dd",
+      "listed_bytes": 95718,
+      "path": "Tests/Heroes.StormReplayParser.Tests/Replays/TeamWithObserverChat1.StormR",
+      "response": {
+        "application_body_bytes_read": 4096,
+        "body_read_calls": 1,
+        "content_encoding": null,
+        "content_length": "4096",
+        "content_range": "bytes 0-4095/95718",
+        "etag": "\"a9ab95f56e735851fe526151dfee63a10fd469ba9b526f94a0c44a6115ec6660\"",
+        "request_attempted": true,
+        "response_closed": true,
+        "status": 206
+      },
+      "url": "https://raw.githubusercontent.com/HeroesToolChest/Heroes.StormReplayParser/d381dd9c273205c0fd7ac402c75eef98c6fa6c78/Tests/Heroes.StormReplayParser.Tests/Replays/TeamWithObserverChat1.StormR"
+    },
+    {
+      "acquisition_failure": null,
+      "acquisition_outcome": "strict206_prefix_acquired",
+      "decoded_header": {
+        "MPQ_archive_offset": 1024,
+        "MPQ_user_data_size": 512,
+        "MPQ_user_header_bytes": 119,
+        "NGDP_root": "b3959e128489be464b4ef50eb6259480",
+        "data_build": 39445,
+        "version": {
+          "m_baseBuild": 39445,
+          "m_build": 39445,
+          "m_flags": 1,
+          "m_major": 0,
+          "m_minor": 15,
+          "m_revision": 2
+        }
+      },
+      "duplicate_paths": [],
+      "exact41810": false,
+      "git_blob_sha1": "8ff1b28c5b07e2d48425dcd097072f2953e94ef9",
+      "header_decode_outcome": "success",
+      "header_prefix_sha256": "9663ddd305fdbd6564b26f32f8ac7bb434f8a727a5a4be026abeb2bc42e815b6",
+      "listed_bytes": 652332,
+      "path": "Tests/Heroes.StormReplayParser.Tests/Replays/TowersofDoom1_39445.StormR",
+      "response": {
+        "application_body_bytes_read": 4096,
+        "body_read_calls": 1,
+        "content_encoding": null,
+        "content_length": "4096",
+        "content_range": "bytes 0-4095/652332",
+        "etag": "\"33adaca6534abe5bee66a5015beaeb4de06e5197386980db64bae3c9d48a945c\"",
+        "request_attempted": true,
+        "response_closed": true,
+        "status": 206
+      },
+      "url": "https://raw.githubusercontent.com/HeroesToolChest/Heroes.StormReplayParser/d381dd9c273205c0fd7ac402c75eef98c6fa6c78/Tests/Heroes.StormReplayParser.Tests/Replays/TowersofDoom1_39445.StormR"
+    },
+    {
+      "acquisition_failure": null,
+      "acquisition_outcome": "strict206_prefix_acquired",
+      "decoded_header": {
+        "MPQ_archive_offset": 1024,
+        "MPQ_user_data_size": 512,
+        "MPQ_user_header_bytes": 119,
+        "NGDP_root": "edadfc6b64bda6d0fa0e145eef4cdbe6",
+        "data_build": 77548,
+        "version": {
+          "m_baseBuild": 77548,
+          "m_build": 77548,
+          "m_flags": 1,
+          "m_major": 2,
+          "m_minor": 49,
+          "m_revision": 0
+        }
+      },
+      "duplicate_paths": [],
+      "exact41810": false,
+      "git_blob_sha1": "41b2c49e257e6e3ffdf81e198bd43fb22e1c8217",
+      "header_decode_outcome": "success",
+      "header_prefix_sha256": "7fbe665484cc7d307fa85361c30ba5fd55d003e180758e032c2ff3f7213d98a9",
+      "listed_bytes": 918545,
+      "path": "Tests/Heroes.StormReplayParser.Tests/Replays/VolskayaFoundry1_77548.StormR",
+      "response": {
+        "application_body_bytes_read": 4096,
+        "body_read_calls": 1,
+        "content_encoding": null,
+        "content_length": "4096",
+        "content_range": "bytes 0-4095/918545",
+        "etag": "\"8b53641388cd4af15ca6a91a3cb3fc56bade1091228f209ae4685381d8a97f5e\"",
+        "request_attempted": true,
+        "response_closed": true,
+        "status": 206
+      },
+      "url": "https://raw.githubusercontent.com/HeroesToolChest/Heroes.StormReplayParser/d381dd9c273205c0fd7ac402c75eef98c6fa6c78/Tests/Heroes.StormReplayParser.Tests/Replays/VolskayaFoundry1_77548.StormR"
+    },
+    {
+      "acquisition_failure": null,
+      "acquisition_outcome": "strict206_prefix_acquired",
+      "decoded_header": {
+        "MPQ_archive_offset": 1024,
+        "MPQ_user_data_size": 512,
+        "MPQ_user_header_bytes": 119,
+        "NGDP_root": "83d00c353b05549333edb25145c83b74",
+        "data_build": 91418,
+        "version": {
+          "m_baseBuild": 91418,
+          "m_build": 91418,
+          "m_flags": 1,
+          "m_major": 2,
+          "m_minor": 55,
+          "m_revision": 4
+        }
+      },
+      "duplicate_paths": [],
+      "exact41810": false,
+      "git_blob_sha1": "8ed0888cb1ad12a5d26b4ab0c493328c87be7c9c",
+      "header_decode_outcome": "success",
+      "header_prefix_sha256": "a3e5170de18a3f20814f2b37a86c3a5f50d13bd39ed1204127d63882866f0741",
+      "listed_bytes": 907177,
+      "path": "Tests/Heroes.StormReplayParser.Tests/Replays/WarheadJunctionDisconnectingPlayer1_91418.StormR",
+      "response": {
+        "application_body_bytes_read": 4096,
+        "body_read_calls": 1,
+        "content_encoding": null,
+        "content_length": "4096",
+        "content_range": "bytes 0-4095/907177",
+        "etag": "\"4df64fc2123fbda698437c9407dcb380f2cc6fd9074722c71b7b9424d3785488\"",
+        "request_attempted": true,
+        "response_closed": true,
+        "status": 206
+      },
+      "url": "https://raw.githubusercontent.com/HeroesToolChest/Heroes.StormReplayParser/d381dd9c273205c0fd7ac402c75eef98c6fa6c78/Tests/Heroes.StormReplayParser.Tests/Replays/WarheadJunctionDisconnectingPlayer1_91418.StormR"
+    }
+  ]
+}

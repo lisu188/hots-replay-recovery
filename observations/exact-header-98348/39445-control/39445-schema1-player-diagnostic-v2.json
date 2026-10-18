@@ -1,0 +1,61 @@
+{
+  "client_launched": false,
+  "existing_parser_or_profile_modified": false,
+  "fixture_sha256": "32803cf56e4377a18ea74c908af3d840637faeb7803aaca943f8807ade70ba87",
+  "format": "39445-schema1-specific-readonly-player-diagnostic-v1",
+  "limits": [
+    "This separate diagnostic applies only the pinned community schema1 to this exact public39445 fixture.",
+    "Current-native first5 fields are tested as a prefix hypothesis, not authenticated historical field semantics.",
+    "A structurally aligned community build32 remains a source observation; no ownership or migration interpretation follows."
+  ],
+  "member_sha256": "4deae39a1656618254667ae161b6dec0e7173a0e6e9dedb365ca5cce319adbc1",
+  "native_reader_sha256": "e0abd0b674c97b87f6a1510edc08704eebeca0ad9d43ac0537d5eaaa3eb9b202",
+  "native_selected_schema_sha256": "6e8711939ede15505debb043ae626b5c529749557d7e824226863c92e4f6a229",
+  "old41810_schema_or_conversion_rule_proven": false,
+  "original_R8_guards_preserved": true,
+  "producer_sha256": "74a9677d24e1ad7dfe4d29bd7a59e58e825b983f2428689553fb33a0977bd22c",
+  "raw_player_values_emitted": false,
+  "result": {
+    "candidate31_permission_payload_physically_impossible_records": 10,
+    "candidate7_175bit_boundary_matches": 10,
+    "candidate7_count_histogram": {
+      "0": 10
+    },
+    "choice2_histogram": {
+      "1": 10
+    },
+    "collection_count": 232,
+    "community_build32_matches_header39445_records": 0,
+    "community_build32_values_at_source1_anchor": [
+      60636
+    ],
+    "full_schema1_EOF_and_member_reencoding_exact": true,
+    "native_current_first5_prefix_matches": 10,
+    "players": 10,
+    "players_end_bit": 303600,
+    "post_block_optional64_histogram": {
+      "0": 10
+    },
+    "post_rating_flags_histogram": [
+      {
+        "flags": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "records": 10
+      }
+    ],
+    "previous_secondary_presence_histogram": {
+      "1": 10
+    },
+    "required_private_identity_seed_gates_passed": true,
+    "status": "passed"
+  },
+  "source1_sha256": "237a5d48d353fd7ccc2021ba881abe3cfdd40a079a0bc5acfed4a1459dde41b1",
+  "source1_vs2_only_difference": "schema1 omits per-player party optional64",
+  "source2_sha256": "e33f5cc20afe17476908df1cfb01198f9cb16b5fa9d919c40a05efad9b08b9f1",
+  "source_commit": "85625327fd5623368410e5270a7eeb4869b40af9",
+  "unchanged_historical_tail_failure_superseded": false
+}

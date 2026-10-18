@@ -1,0 +1,25 @@
+{
+  "HTTP": {
+    "ETag": "\"33adaca6534abe5bee66a5015beaeb4de06e5197386980db64bae3c9d48a945c\"",
+    "application_body_bytes": 652332,
+    "application_read_cap": 652333,
+    "content_encoding": null,
+    "content_length": "652332",
+    "content_range": "bytes 0-652331/652332",
+    "redirects_allowed": false,
+    "response_closed": true,
+    "status": 206
+  },
+  "bytes": 652332,
+  "client_launched": false,
+  "format": "authorized39445-public-fixture-acquisition-v1",
+  "players_or_messages_emitted": false,
+  "private_file": "htc39445.private.StormReplay",
+  "producer_sha256": "4b4c6b45ab5d7b80673399d2a9af5ffabc972ef9f321babfd5cd8f4e6f0e7f22",
+  "raw_fixture_for_publication": false,
+  "sha256": "32803cf56e4377a18ea74c908af3d840637faeb7803aaca943f8807ade70ba87",
+  "source_commit": "d381dd9c273205c0fd7ac402c75eef98c6fa6c78",
+  "source_url": "https://raw.githubusercontent.com/HeroesToolChest/Heroes.StormReplayParser/d381dd9c273205c0fd7ac402c75eef98c6fa6c78/Tests/Heroes.StormReplayParser.Tests/Replays/TowersofDoom1_39445.StormR",
+  "verified_git_blob_sha1": "8ff1b28c5b07e2d48425dcd097072f2953e94ef9",
+  "verified_prefix4096_sha256": "9663ddd305fdbd6564b26f32f8ac7bb434f8a727a5a4be026abeb2bc42e815b6"
+}

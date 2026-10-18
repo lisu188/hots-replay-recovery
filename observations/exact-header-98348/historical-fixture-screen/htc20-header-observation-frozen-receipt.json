@@ -1,0 +1,55 @@
+{
+  "allowlisted_files": [
+    {
+      "bytes": 38193,
+      "file": "source-binding.json",
+      "sha256": "841e5f0ccdb00ada0d6fbdfb80282f649f14da8f6c8d8d6e1a2bc0dcdd20e2da"
+    },
+    {
+      "bytes": 15116,
+      "file": "inspect_htc_fixture_headers.py",
+      "sha256": "5635b7c67c7e20a6fff9c2e0d6db821eb49c9e364956bc26f30f3d6b1fa3e3b0"
+    },
+    {
+      "bytes": 6480,
+      "file": "test_inspect_htc_fixture_headers.py",
+      "sha256": "93f999cdf47c02235ad860271c9c2304264614c3119d1dfcd7b21a4dd3f8613c"
+    },
+    {
+      "bytes": 33559,
+      "file": "htc-20-unique-fixture-header-observation.json",
+      "sha256": "1e5d2b70a75d572eb4b5229bf861621e858e7e5346711eaa950e5d45d294c80c"
+    }
+  ],
+  "format": "htc20-header-observation-frozen-receipt-v1",
+  "limits": [
+    "Prefix SHA256 values are not full Git-blob or whole-file SHA256 verification.",
+    "No exact41810 candidate was found, so the conditional full-replay acquisition/parse authorization was not exercised.",
+    "The older39445header and other versions are observed metadata only; no174/198field conversion follows."
+  ],
+  "network_accounting_note": "Two primary GitHub API metadata reads preceded20strictRange fixture requests. A default-sandbox DNS probe failed11001 before any HTTP; the20fixture requests used the authorized public HTTPS escalation. No fixture retries or ignored-Range fallback occurred.",
+  "official_decoder": {
+    "canonical_decoder_LF_sha256": "17bfb926af0f7f79e18f6299dbae50fc2821c53b229235d4f9c857c7ef3e96b1",
+    "schema_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+    "upstream_commit": "9af3ea7150f1a8acb53464c92519a9bbcc7a3594",
+    "working_decoder_CRLF_normalizes_exactly_to_pinned_Git_blob": true,
+    "working_decoder_sha256": "c5e4e7c588ebc2ef722ab9fd9def2e67e309c45d451639cfdee3126b0f616a42"
+  },
+  "privacy": {
+    "client_launched": false,
+    "raw_prefixes_replay_bodies_player_or_message_values_saved": false,
+    "repo_or_cloud_modified": false
+  },
+  "producer_sha256": "2b61ab7a6a47085abf6cfc2db3a1f0d281559c362231feb7333b976899d5c0d6",
+  "validation": {
+    "application_HTTP_body_bytes": 81920,
+    "canonical_Git_trees_recomputed_offline": 24,
+    "errors": 0,
+    "exact41810_candidates": 0,
+    "failures": 0,
+    "focused_offline_tests_previously_executed": 10,
+    "full_replays_downloaded": 0,
+    "skips": 0,
+    "unique_actual_headers_decoded": 20
+  }
+}
