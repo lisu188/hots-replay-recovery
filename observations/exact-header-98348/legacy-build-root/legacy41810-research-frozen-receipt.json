@@ -1,0 +1,90 @@
+{
+  "format": "hots-legacy41810-bounded-primary-research-frozen-receipt-v1",
+  "allowlisted_files": [
+    {
+      "relative_to_work": "legacy-build-root-research/fetch_primary_history.py",
+      "bytes": 2630,
+      "sha256": "557f8833dcdf8bae202190ccdaf62e71b02e0b9c9143cd8b8514530a120ea3b8"
+    },
+    {
+      "relative_to_work": "legacy-build-root-research/record_legacy_build_research.py",
+      "bytes": 9757,
+      "sha256": "fb04c50dfaa1f0e5f75fe672442634b3adb242c1bc6b7940c88f2602b671897e"
+    },
+    {
+      "relative_to_work": "legacy-build-root-research/legacy41810-primary-research-outcome.json",
+      "bytes": 7914,
+      "sha256": "e01531a006f0205853e78086fa6b71e89f1efb8a60af0f0f7716abf5b04c7284"
+    },
+    {
+      "relative_to_work": "legacy-build-root-research/history-newest.body.json",
+      "bytes": 1733,
+      "sha256": "df5071abe7aed29b93a1429241ef973f8e0365431ae185f735905c9b88369c64"
+    },
+    {
+      "relative_to_work": "legacy-build-root-research/history-newest.request.json",
+      "bytes": 321,
+      "sha256": "146abb5119978dd395d535a2bb8ddf0350f6a4ad92892a2cf8a4d4c333fa87cc"
+    },
+    {
+      "relative_to_work": "legacy-build-root-research/history-reported-last-page.body.json",
+      "bytes": 1735,
+      "sha256": "5dfc3c236cfc45b2792294b92ab1332054952d604819a1797018ed9de461c902"
+    },
+    {
+      "relative_to_work": "legacy-build-root-research/history-reported-last-page.request.json",
+      "bytes": 322,
+      "sha256": "b3be297eb9289c51758a9bbc8b44266f7e1b549f414ae412d347cb55656bb827"
+    },
+    {
+      "relative_to_work": "legacy-build-root-research/history-arithmetic-last-page.body.json",
+      "bytes": 495,
+      "sha256": "4b32078d72dbf6412f307b06474ec4a307f3e139c250bb57a223d0043e4bd3f6"
+    },
+    {
+      "relative_to_work": "legacy-build-root-research/history-arithmetic-last-page.request.json",
+      "bytes": 321,
+      "sha256": "4f66c63e0082bdd0777b0983290c7362fcb8b0c145faebe1591dfcf16690a4e4"
+    },
+    {
+      "relative_to_work": "legacy-build-root-research/earliest-observed-versions.body.json",
+      "bytes": 1629,
+      "sha256": "394313bfd683966a085d0e5e3d3ae9c907a2fc4fc8a1f8c948ae1a05d61bebd0"
+    },
+    {
+      "relative_to_work": "legacy-build-root-research/earliest-observed-versions.request.json",
+      "bytes": 309,
+      "sha256": "7f25c1582faa76a43cea84faec20a059f5c192b889316b1b9429fad3a6fa6a0f"
+    }
+  ],
+  "actual_primary_fetch_or_search_operations": 12,
+  "direct_primary_API_body_bytes": 5592,
+  "source_header_root": "83d43a8647bb5ca5caa6f2f09064da55",
+  "source_fixed_file_hash": "c585f3548fb8f9776fa1fba4dfec2b9a",
+  "source_version": "0.17.0.41810",
+  "original_replay_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+  "original_source_unchanged": true,
+  "oldest_observed_monitor_manifest": {
+    "seqn": 1070978,
+    "created_at": "2022-06-10T22:11:07.975919Z",
+    "version": "2.55.2.88122",
+    "build_config": "dbf59f1c7f77eff9fc4ece5e6b0f87d7"
+  },
+  "found_exact41810_BuildConfig_or_encoding_key": false,
+  "obtained_authenticated41810_catalogs_or_identity_rules": false,
+  "CDN_object_requests": 0,
+  "full_client_SDK_archive_downloads": 0,
+  "raw_replay_or_player_values_in_allowlist": false,
+  "client_launched": false,
+  "repo_modified": false,
+  "reproduction": {
+    "mode": "offline saved-response and original-header verification",
+    "producer": "record_legacy_build_research.py",
+    "checks": "Pinned four API body hashes plus matching request receipts; actual41810header/version/root/fixedhash and original unchanged; observed tailpage arithmetic and88122manifest."
+  },
+  "limitations": [
+    "A12-operation scoped negative, not a global absence claim.",
+    "The documented API tail is demonstrably newer than the desired source build; all202history manifests were not fetched.",
+    "The replay root and fixedhash are observed identities only. No guessed BuildConfig, encoding-key identity or CDN request was made."
+  ]
+}

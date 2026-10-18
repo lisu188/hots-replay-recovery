@@ -1,0 +1,103 @@
+{
+  "acquisition_failure_count": 5,
+  "actual_body_bytes_read": 0,
+  "actual_object_requests": 5,
+  "application_retries": 0,
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-10-18T21:36:56.320057+00:00",
+      "body_bytes_read": 0,
+      "body_saved": false,
+      "expected_sha256": "42afeaf8be79bff738e3387c15261b2c71474a63618ecfe8d38f5beb2985b57a",
+      "http_status": 404,
+      "id": "modern-KR",
+      "primary_source_role": "modern",
+      "reason": "HTTP_error",
+      "status": "acquisition_failed",
+      "url": "https://kr-s2-depot.classic.blizzard.com/42afeaf8be79bff738e3387c15261b2c71474a63618ecfe8d38f5beb2985b57a.s2mh"
+    },
+    {
+      "attempted_at_utc": "2026-10-18T21:37:00.189843+00:00",
+      "body_bytes_read": 0,
+      "body_saved": false,
+      "expected_sha256": "42afeaf8be79bff738e3387c15261b2c71474a63618ecfe8d38f5beb2985b57a",
+      "http_status": 404,
+      "id": "modern-CN",
+      "primary_source_role": "modern",
+      "reason": "HTTP_error",
+      "status": "acquisition_failed",
+      "url": "https://cn-s2-depot.necdn.leihuo.netease.com/42afeaf8be79bff738e3387c15261b2c71474a63618ecfe8d38f5beb2985b57a.s2mh"
+    },
+    {
+      "attempted_at_utc": "2026-10-18T21:37:02.148573+00:00",
+      "body_bytes_read": 0,
+      "body_saved": false,
+      "error_type": "URLError",
+      "expected_sha256": "42afeaf8be79bff738e3387c15261b2c71474a63618ecfe8d38f5beb2985b57a",
+      "id": "legacy-US",
+      "primary_source_role": "legacy",
+      "reason": "transport_failure",
+      "status": "acquisition_failed",
+      "url": "http://us.depot.battle.net:1119/42afeaf8be79bff738e3387c15261b2c71474a63618ecfe8d38f5beb2985b57a.s2mh"
+    },
+    {
+      "attempted_at_utc": "2026-10-18T21:37:02.180166+00:00",
+      "body_bytes_read": 0,
+      "body_saved": false,
+      "error_type": "URLError",
+      "expected_sha256": "42afeaf8be79bff738e3387c15261b2c71474a63618ecfe8d38f5beb2985b57a",
+      "id": "legacy-EU",
+      "primary_source_role": "legacy",
+      "reason": "transport_failure",
+      "status": "acquisition_failed",
+      "url": "http://eu.depot.battle.net:1119/42afeaf8be79bff738e3387c15261b2c71474a63618ecfe8d38f5beb2985b57a.s2mh"
+    },
+    {
+      "attempted_at_utc": "2026-10-18T21:37:02.212464+00:00",
+      "body_bytes_read": 0,
+      "body_saved": false,
+      "error_type": "URLError",
+      "expected_sha256": "42afeaf8be79bff738e3387c15261b2c71474a63618ecfe8d38f5beb2985b57a",
+      "id": "legacy-KR",
+      "primary_source_role": "legacy",
+      "reason": "transport_failure",
+      "status": "acquisition_failed",
+      "url": "http://kr.depot.battle.net:1119/42afeaf8be79bff738e3387c15261b2c71474a63618ecfe8d38f5beb2985b57a.s2mh"
+    }
+  ],
+  "client_launched": false,
+  "credentials_or_authentication_used": false,
+  "expected_object_sha256": "42afeaf8be79bff738e3387c15261b2c71474a63618ecfe8d38f5beb2985b57a",
+  "expected_package": {
+    "mod_id": 280539,
+    "version": 16
+  },
+  "format": "hots-exact-missing-US-datamod-alternate-public-acquisition-v1",
+  "game_cache_replay_repo_or_cloud_modified": false,
+  "limitations": [
+    "Alternate regions are exact-digest object searches, not content or regional identity substitution.",
+    "HTTP/status/transport failure is acquisition evidence only; no incompatible header interpretation is inferred.",
+    "No legacy fallback, GCP/internal host, credential, redirected request or full archive request is made after an endpoint failure.",
+    "Only an entire exact expected SHA and complete package280539/version16 decode permits a private body save."
+  ],
+  "maximum_aggregate_body_bytes": 1048576,
+  "maximum_body_bytes_per_object": 524288,
+  "maximum_object_requests": 6,
+  "primary_endpoint_source_evidence_sha256": "73d53ab5de28afccf651818a0801e17368678b2a4dedd11cdb58469e0aa75bae",
+  "prior_acquisition_receipt_sha256": "babd5479656ce1c4fa6b8ad5d7a0dfbe81574ff9117f8adfeaabef165b85d8ef",
+  "prior_target_attempts_not_repeated": [
+    {
+      "http_status": 404,
+      "url": "https://us-s2-depot.classic.blizzard.com/42afeaf8be79bff738e3387c15261b2c71474a63618ecfe8d38f5beb2985b57a.s2mh"
+    },
+    {
+      "http_status": 404,
+      "url": "https://eu-s2-depot.classic.blizzard.com/42afeaf8be79bff738e3387c15261b2c71474a63618ecfe8d38f5beb2985b57a.s2mh"
+    }
+  ],
+  "raw_body_in_publication_allowlist": false,
+  "redirects_followed": 0,
+  "source_producer_sha256": "f6ed7abedfe59df1b9df2fb0c7900e67d4e800590055bc6aa5f60bc62ba2ee60",
+  "validation_failure_count": 0,
+  "verified_exact_object_saved_privately": false
+}

@@ -1,0 +1,27 @@
+{
+  "CASC_opened_by_this_recompute": false,
+  "all12allowlisted_sources_and_receipts_unchanged": true,
+  "client_launched": false,
+  "current_local_game_text_Git_blob_hashes_repeated": true,
+  "executed_recompute_source_sha256": "645636413d47b8995daccca77c3b7648522f5c9b97488bcf8f37ceaf5d67f104",
+  "findings_report_sha256": "827aef5bc8ff4de516a720ec61a04c27c07517145177cfca23124b1faa056185",
+  "format": "hots-current-access-semantics-root-independent-recompute-v1",
+  "four_saved_CASC_operation_guards_crosschecked_not_reexecuted": true,
+  "four_source_function_branches_rechecked_by_producer": true,
+  "fresh_report_JSON_values_equal_frozen_report": true,
+  "frozen_allowlist_sha256": "c869cbec5a1cc399794e8314740597b7d420a86cbd8f704606bfa072b92fc554",
+  "incorrect_NPC_registry_examples_absent_crosscheck_repeated": true,
+  "limitations": [
+    "This repeats the frozen static producer and locally authenticated inputs; it is not an independent implementation of the engine access API.",
+    "Remote public-source blob fetch provenance is supplied by the original evidence; this review independently recalculates local Git blob identities only.",
+    "No field23-to24 migration, availability ownership or player-cell semantics is established."
+  ],
+  "network_requests": 0,
+  "new_unit_tests_or_CI_claimed": false,
+  "old264_raw263unique_and_current5497_raw5418unique_registry_bindings_repeated": true,
+  "original_writer_intercepted_no_report_overwritten": true,
+  "remote_primary_source_retrieval_independently_repeated": false,
+  "replay_read_or_written": false,
+  "root_review_source_sha256": "5810a19d455538d54b49ce5024d9a12f5858afb4b62cc5b2bff985a372e16ff3",
+  "six_existing_static_inputs_full_MD5_SHA_and_size_checks_repeated": true
+}

@@ -1,0 +1,63 @@
+{
+  "format": "hots-local-casc-metadata-enumeration-v1",
+  "powershell": "7.6.5",
+  "runtime": ".NET 10.0.11",
+  "dll_sha256": "8be4b72776a3a4eca6708cc204860c51592c8f886224dd6ccbdec03b6fa82a11",
+  "version": "2.57.0.98348",
+  "build_key": "a64c9b7ebf1c6a811ffefad97865ed80",
+  "root": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+  "config_parsed_from_scratch_copies": true,
+  "installed_indices_and_data_access": "explicit-read-only",
+  "online_fallback_flag": false,
+  "denying_http_handler_canary_passed": true,
+  "cache_enabled": false,
+  "load_flags": "None",
+  "configuration_only": false,
+  "game_client_launched": false,
+  "game_storage_modified": false,
+  "file_contents_exported": true,
+  "actual_root_content_md5": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+  "package_names_initialized": 1556,
+  "total_text_bytes_read": 290010,
+  "members": [
+    {
+      "casc_path": "mods/core.stormmod/base.stormdata/TriggerLibs/natives.galaxy",
+      "saved_name": "natives.galaxy",
+      "bytes": 12725,
+      "casc_content_md5": "e1d7c30e04ead19186867ff51dddfc4b",
+      "encoded_key": "c50571054dda45e9abfb810339d844c1",
+      "package_index": 28,
+      "sha256": "a3187849bb3c08abd0078e0ff309c8495a296e965181d4ac54692662d29892e3",
+      "full_casc_content_md5_verified": true,
+      "read": true
+    },
+    {
+      "casc_path": "mods/core.stormmod/base.stormdata/TriggerLibs/NativeLib_h.galaxy",
+      "saved_name": "NativeLib_h.galaxy",
+      "bytes": 46875,
+      "casc_content_md5": "81e0c0b0d2bcc9de56e6bdc2f546db0a",
+      "encoded_key": "e32e9688f87e607f5b4a6b2d6d10ee99",
+      "package_index": 28,
+      "sha256": "0e1db3fa2911e37ea672d10da16350983d6190cfc37153e63fa4b8fa3a46a48e",
+      "full_casc_content_md5_verified": true,
+      "read": true
+    },
+    {
+      "casc_path": "mods/core.stormmod/base.stormdata/TriggerLibs/NativeLib.galaxy",
+      "saved_name": "NativeLib.galaxy",
+      "bytes": 230410,
+      "casc_content_md5": "05311ee8298166017d5d1e39737d93e9",
+      "encoded_key": "661ecd9ee77323c6c1c3e28c938ec0df",
+      "package_index": 28,
+      "sha256": "c7df2bc2fc3b43acffcc54f37a605af646e5dfedbdcb383a54ddc3bc06ebf876",
+      "full_casc_content_md5_verified": true,
+      "read": true
+    }
+  ],
+  "scope": "only-three-MNDX-confirmed-Core-native-text-members-2MiB-total",
+  "resolution": "unchanged-private-MNDX-lookup-with-original-package-catalog-values",
+  "library_clear_succeeded": false,
+  "library_clear_exception_type": "System.NullReferenceException",
+  "installed_config_hashes_unchanged": true,
+  "blocked_http_attempts_during_casc": 0
+}

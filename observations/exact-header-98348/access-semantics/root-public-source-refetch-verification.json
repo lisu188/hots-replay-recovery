@@ -1,0 +1,47 @@
+{
+  "format": "hots-public-primary-blob-root-refetch-verification-v1",
+  "transport": "connected GitHub fetch_blob API",
+  "requests": 4,
+  "complete_returned_ASCII_sources_hashed": true,
+  "SHA256_implementation_known_vectors_verified": [
+    "empty",
+    "abc"
+  ],
+  "raw_source_body_saved_or_published": false,
+  "checks": [
+    {
+      "name": "hotsAccessHeroesBlob",
+      "git_blob_sha1": "0cf700ed3ae8e5b6dff5c812d2de9bddd7899b0b",
+      "bytes": 268519,
+      "full_returned_source_sha256": "15f0314a1c48a0391e76e22360847e7ef0c91b12a29da15d79453045c175a683",
+      "matches_local_frozen_evidence": true
+    },
+    {
+      "name": "hotsAccessConfigBlob",
+      "git_blob_sha1": "f63298d1a04a7148ca6b32cc161a2eed82da5152",
+      "bytes": 170805,
+      "full_returned_source_sha256": "af36997a0aab3dfcc571d5827568cc678b29313d57b8ea549138d4e77228d052",
+      "matches_local_frozen_evidence": true
+    },
+    {
+      "name": "hotsDepotModernSourceBlob",
+      "git_blob_sha1": "893cc8c99e91202811db936c96babf9f8c9795ff",
+      "bytes": 11121,
+      "full_returned_source_sha256": "2a3a98df7ed48a0f1794ae61b87e1a02e5e368970b8b7d3681f67d1c59698db8",
+      "matches_local_frozen_evidence": true
+    },
+    {
+      "name": "hotsDepotLegacySourceBlob",
+      "git_blob_sha1": "76ea3dac94da026adc0b4864a9bdd87b7265e86c",
+      "bytes": 12701,
+      "full_returned_source_sha256": "60d359afcf5d7e5b9c923e1146063b400ea4a91ef6dc927f1a953ad25f287b48",
+      "matches_local_frozen_evidence": true
+    }
+  ],
+  "client_launched": false,
+  "headers_or_replays_downloaded": false,
+  "limitations": [
+    "This verifies exact public source blobs against recorded local hashes; it does not establish engine runtime or availability-cell semantics.",
+    "The legacy endpoint source is now pinned by its immutable Git blob rather than relying on moving master."
+  ]
+}

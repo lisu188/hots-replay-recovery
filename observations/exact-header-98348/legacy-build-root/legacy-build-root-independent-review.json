@@ -1,0 +1,108 @@
+{
+  "all_allowlisted_bytes_and_hashes_verified": true,
+  "all_reviewed_inputs_unchanged": true,
+  "allowlisted_file_count": 11,
+  "client_launched": false,
+  "direct_API_body_bytes": 5592,
+  "format": "hots-legacy-build-root-independent-review-v1",
+  "four_direct_API_evidence_records": [
+    {
+      "body_bytes": 1733,
+      "body_sha256": "df5071abe7aed29b93a1429241ef973f8e0365431ae185f735905c9b88369c64",
+      "exact_URL_query_verified": true,
+      "label": "history-newest",
+      "request_receipt_sha256": "146abb5119978dd395d535a2bb8ddf0350f6a4ad92892a2cf8a4d4c333fa87cc"
+    },
+    {
+      "body_bytes": 1735,
+      "body_sha256": "5dfc3c236cfc45b2792294b92ab1332054952d604819a1797018ed9de461c902",
+      "exact_URL_query_verified": true,
+      "label": "history-reported-last-page",
+      "request_receipt_sha256": "b3be297eb9289c51758a9bbc8b44266f7e1b549f414ae412d347cb55656bb827"
+    },
+    {
+      "body_bytes": 495,
+      "body_sha256": "4b32078d72dbf6412f307b06474ec4a307f3e139c250bb57a223d0043e4bd3f6",
+      "exact_URL_query_verified": true,
+      "label": "history-arithmetic-last-page",
+      "request_receipt_sha256": "4f66c63e0082bdd0777b0983290c7362fcb8b0c145faebe1591dfcf16690a4e4"
+    },
+    {
+      "body_bytes": 1629,
+      "body_sha256": "394313bfd683966a085d0e5e3d3ae9c907a2fc4fc8a1f8c948ae1a05d61bebd0",
+      "exact_URL_query_verified": true,
+      "label": "earliest-observed-versions",
+      "request_receipt_sha256": "7f25c1582faa76a43cea84faec20a059f5c192b889316b1b9429fad3a6fa6a0f"
+    }
+  ],
+  "fresh_original_header": {
+    "build_base_data": 41810,
+    "canonical_schema_sha256": "879d228d9d8acd21d63563538dd15841aaf49259ee0bb468b8a46b6a4ef866fd",
+    "fixed_file_hash": "c585f3548fb8f9776fa1fba4dfec2b9a",
+    "header_binary_roundtrip_exact": true,
+    "no_details_player_chat_or_availability_read": true,
+    "replay_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+    "root": "83d43a8647bb5ca5caa6f2f09064da55",
+    "version": "0.17.0.41810"
+  },
+  "fresh_report_JSON_matches_frozen": true,
+  "fresh_report_serialized_bytes_match_frozen": true,
+  "fresh_report_sha256": "e01531a006f0205853e78086fa6b71e89f1efb8a60af0f0f7716abf5b04c7284",
+  "history_pagination": {
+    "API_observed_per_page": 10,
+    "API_reported_pages": 20,
+    "API_reported_total": 202,
+    "all202_manifests_fetched": false,
+    "arithmetic_pages": 21,
+    "fetched_pages": [
+      1,
+      20,
+      21
+    ],
+    "fetched_record_counts": [
+      10,
+      10,
+      2
+    ],
+    "page20_demonstrably_not_final": true,
+    "unique_records_fetched": 22
+  },
+  "limitations": [
+    "Review validates saved primary responses and local source/header evidence; it makes no fresh server-state claim.",
+    "The first eight descriptive discovery/page/tool ledger entries were inspected for consistency, not independently rerun.",
+    "Observed22history entries and one88122manifest do not establish global absence of41810metadata.",
+    "No raw original replay/player data is included in this receipt."
+  ],
+  "material_findings": [],
+  "new_network_requests": 0,
+  "oldest_observed_manifest": {
+    "build": 88122,
+    "build_config": "dbf59f1c7f77eff9fc4ece5e6b0f87d7",
+    "created_at": "2022-06-10T22:11:07.975919Z",
+    "regions": [
+      "cn",
+      "eu",
+      "kr",
+      "sg",
+      "tw",
+      "us"
+    ],
+    "seqn": 1070978,
+    "version": "2.55.2.88122"
+  },
+  "producer_analyze_only_called_in_RAM": true,
+  "producer_main_or_fetcher_called": false,
+  "producer_report_write_attempts": 0,
+  "repo_modified": false,
+  "result": "PASS",
+  "review_source_sha256": "a2e1b098c0ca56d8c1c43eea77486d60bf93a63556a9d043c629d23ff5e26a2d",
+  "reviewed_frozen_receipt_sha256": "5ec4b9d2526156e0102734802caac4ed7266f77356b70a6ae4a8987a99736ccd",
+  "source_review": {
+    "fetcher_https_host_route_redirect_and_size_guards_reviewed": true,
+    "four_fetches_are_small_API_routes_not_CDN_objects": true,
+    "middle_pages_and_other_monitor_generations_explicitly_unsearched": true,
+    "no_exact41810_BuildConfig_or_original_catalog_claim": true,
+    "replay_root_or_fixedhash_not_reinterpreted_as_BuildConfig_or_EKey": true
+  },
+  "unexpected_network_attempts": 0
+}

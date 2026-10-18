@@ -582,3 +582,38 @@ profiles, does not rerun core event decode. Researchtests local, separate894CI.
 Private vectors/accounts/permutations absent from public output; no generated
 availability/replay/clientlaunch. Original/R8 guards unchanged, fullupgrade
 unfinished. Frozen code remains byte-preserved; see publication-bindings.json.
+
+
+## Authenticated access helpers and bounded acquisition limits - 2026-10-18
+
+Read docs/ACCESS_SEMANTICS_AND_SOURCE_LIMITS_2026-10-18.md and new access-semantics,
+us/depot-search, legacy-build-root receipts. SixcurrentCASCtext779428B complete
+MD5/SHA and4zeroHTTP/canary/configunchanged guards pass; retainedClearNullRef.
+ActualHeroesLib/Config localGitblob identities and fullrootrefetchedpublicSHA
+match pinnedpublicsource. Fourcurrenthelpers combine rewards and free/practice/
+rotation/modebranches, notownership oravailability32B semantics. Authold263
+registry DOES NOT contain NovaHoloCloneCloaked/AbathurEvolvedMonstrosity/
+TownCannonTower; keep their unit-catalog investigation separate. Oldspelling
+groups145Skin/8otherMount/110remaining are notcatalogclasses. Staticfindings
+RAM-exact rootrecompute + independentreviewPASS, no newunit/CIclaim.
+
+ExactDataMod42afe stillmissing:5newdocumentedroutes, KR/CNHTTPS404 and3legacy
+URLError,0bodybytes/0save/5acquisitionfails/0validationfails. PriorUS/EU404not
+repeated.8localguards+independentfakeopener5attemptreproducePASS. Bothcomplete
+primaryURLsourceblobs rootrefetched/fullSHAverified; no moreheaderspeculation.
+
+Original41810header root83d43a8647bb5ca5caa6f2f09064da55/fixedc585f3548fb8f9776fa1fba4dfec2b9a
+freshverified.12operationprimaryhistorysearch foundno41810config/EKey/catalog;
+BlizzTrack202records/10perpage needs21pages despite20reported, final2ontail.
+Oldestobservedmanifest2022-06-10/88122, not41810.4APIresponses5592B and offline
+exactreproducer+independentreview retained; scopednegative, notglobalabsence.
+No CDNrequests/keyreinterpretation/fullclientdownloads, no client/newreplay.
+Original/R8 unchanged and fullupgradeunfinished. Raw6game-text/headerbodies
+remainprivate; frozenresearch sources/hashes exact in publication-bindings.
+
+
+CompleteofflineCI39168917474 atd8f0f8e passed all3lanes894tests/44modules;
+38declaredLinux/4Windows skips, zero failures/errors/unexpectedskips. Actual
+NGSfixture andcurrentEU144708/99/6181/fullLobbyEOF checks executed. Frozen
+28vector/8endpoint tests and staticaccess/historyactualproof remain LOCAL,
+not hostedCI orengineproof. See availability/vectors/complete-offline-894-vector-milestone-CI.json.

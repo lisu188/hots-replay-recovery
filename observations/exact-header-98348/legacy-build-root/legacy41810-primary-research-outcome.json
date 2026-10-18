@@ -1,0 +1,186 @@
+{
+  "CDN_object_requests": 0,
+  "actual_primary_fetch_or_search_operations": 12,
+  "authenticated41810_raw_catalog_or_license_rule_source_obtained": false,
+  "canonical_header_schema_sha256": "879d228d9d8acd21d63563538dd15841aaf49259ee0bb468b8a46b6a4ef866fd",
+  "client_launched": false,
+  "direct_API_body_bytes": 5592,
+  "direct_primary_response_evidence": [
+    {
+      "acquired_at_utc": "2026-10-18T21:40:34.870088+00:00",
+      "body_bytes": 1733,
+      "body_file": "history-newest.body.json",
+      "body_sha256": "df5071abe7aed29b93a1429241ef973f8e0365431ae185f735905c9b88369c64",
+      "http_status": 200,
+      "label": "history-newest",
+      "request_receipt_file": "history-newest.request.json",
+      "request_receipt_sha256": "146abb5119978dd395d535a2bb8ddf0350f6a4ad92892a2cf8a4d4c333fa87cc",
+      "url": "https://blizztrack.com/api/manifest/hero/seqn?file=versions&page=1&limit=1"
+    },
+    {
+      "acquired_at_utc": "2026-10-18T21:41:10.047875+00:00",
+      "body_bytes": 1735,
+      "body_file": "history-reported-last-page.body.json",
+      "body_sha256": "5dfc3c236cfc45b2792294b92ab1332054952d604819a1797018ed9de461c902",
+      "http_status": 200,
+      "label": "history-reported-last-page",
+      "request_receipt_file": "history-reported-last-page.request.json",
+      "request_receipt_sha256": "b3be297eb9289c51758a9bbc8b44266f7e1b549f414ae412d347cb55656bb827",
+      "url": "https://blizztrack.com/api/manifest/hero/seqn?file=versions&page=20&limit=1"
+    },
+    {
+      "acquired_at_utc": "2026-10-18T21:41:14.239999+00:00",
+      "body_bytes": 495,
+      "body_file": "history-arithmetic-last-page.body.json",
+      "body_sha256": "4b32078d72dbf6412f307b06474ec4a307f3e139c250bb57a223d0043e4bd3f6",
+      "http_status": 200,
+      "label": "history-arithmetic-last-page",
+      "request_receipt_file": "history-arithmetic-last-page.request.json",
+      "request_receipt_sha256": "4f66c63e0082bdd0777b0983290c7362fcb8b0c145faebe1591dfcf16690a4e4",
+      "url": "https://blizztrack.com/api/manifest/hero/seqn?file=versions&page=21&limit=1"
+    },
+    {
+      "acquired_at_utc": "2026-10-18T21:41:38.889928+00:00",
+      "body_bytes": 1629,
+      "body_file": "earliest-observed-versions.body.json",
+      "body_sha256": "394313bfd683966a085d0e5e3d3ae9c907a2fc4fc8a1f8c948ae1a05d61bebd0",
+      "http_status": 200,
+      "label": "earliest-observed-versions",
+      "request_receipt_file": "earliest-observed-versions.request.json",
+      "request_receipt_sha256": "7f25c1582faa76a43cea84faec20a059f5c192b889316b1b9429fad3a6fa6a0f",
+      "url": "https://blizztrack.com/api/manifest/hero/versions?seqn=1070978"
+    }
+  ],
+  "exact41810_BuildConfig_found": false,
+  "exact41810_encoding_key_found": false,
+  "format": "hots-legacy41810-build-root-bounded-primary-research-v1",
+  "full_client_SDK_archive_downloads": 0,
+  "limitations": [
+    "This is a twelve-operation bounded negative lookup, not proof that the original build metadata is unavailable everywhere.",
+    "Only observed history pages1/20/21 and the oldest returned version manifest were retrieved. Middle pages and other monitor generations were not exhausted.",
+    "The current documented history tail returns a2022 manifest for88122. No old41810 BuildConfig was inferred from that different build.",
+    "The replay root field and fixed-file hash were preserved as observed identities; no unknown content-key/encoding-key conversion or CDN filename was guessed.",
+    "Primary monitor records are provenance observations rather than cryptographic publisher signatures."
+  ],
+  "maximum_primary_fetch_or_search_operations": 12,
+  "observed_history_boundary": {
+    "API_reported_last_page_20_was_not_actually_final": true,
+    "API_reported_per_page": 10,
+    "API_reported_records": 202,
+    "API_reported_total_pages": 20,
+    "all202_version_manifests_fetched_or_searched": false,
+    "arithmetic_page_count": 21,
+    "fetched_history_pages": [
+      1,
+      20,
+      21
+    ],
+    "fetched_history_records": 22,
+    "observed_page21_record_count": 2,
+    "oldest_manifest_regions": [
+      "cn",
+      "eu",
+      "kr",
+      "sg",
+      "tw",
+      "us"
+    ],
+    "oldest_returned_created_at": "2022-06-10T22:11:07.975919Z",
+    "oldest_returned_manifest_build": 88122,
+    "oldest_returned_manifest_build_config": "dbf59f1c7f77eff9fc4ece5e6b0f87d7",
+    "oldest_returned_manifest_version": "2.55.2.88122",
+    "oldest_returned_seqn": 1070978,
+    "requested_limit_was_1_but_observed_per_page_was_10": true
+  },
+  "old_string_to_current_license_identity_mapping_proven": false,
+  "operation_ledger": [
+    {
+      "kind": "primary_repository_discovery_search",
+      "number": 1,
+      "outcome": "no_results",
+      "query": "site:github.com \"ngdp-builds\" \"hero\""
+    },
+    {
+      "kind": "primary_repository_discovery_search",
+      "number": 2,
+      "outcome": "no_results",
+      "query": "site:github.com \"BlizzTrack\" \"hero\" \"versions\""
+    },
+    {
+      "kind": "primary_source_discovery_search",
+      "number": 3,
+      "outcome": "combined_batch_identified_primary_monitor_and_library_sources_no_41810_config",
+      "query": "NGDP build archive Heroes Storm GitHub buildconfig"
+    },
+    {
+      "kind": "primary_monitor_discovery_search",
+      "number": 4,
+      "outcome": "combined_batch_identified_primary_monitor_and_library_sources_no_41810_config",
+      "query": "\"hero\" \"builds\" \"BlizzTrack\""
+    },
+    {
+      "kind": "primary_monitor_page",
+      "number": 5,
+      "outcome": "homepage_read_and_documented_API_link_observed",
+      "url": "https://www.blizztrack.com/en"
+    },
+    {
+      "kind": "primary_monitor_exact_build_search",
+      "number": 6,
+      "outcome": "no_results",
+      "query": "site:blizztrack.com/config/hero \"B41810\""
+    },
+    {
+      "kind": "primary_API_documentation",
+      "number": 7,
+      "outcome": "documented_hero_seqn_and_versions_routes_with_page_limit_and_seqn_parameters",
+      "url": "https://www.blizztrack.com/docs"
+    },
+    {
+      "kind": "primary_history_API_web_tool_attempt",
+      "number": 8,
+      "outcome": "web_tool_could_not_access_URL_no_server_status_established",
+      "url": "https://www.blizztrack.com/api/manifest/hero/seqn?file=versions&page=1&limit=1"
+    },
+    {
+      "evidence_label": "history-newest",
+      "kind": "primary_history_API_direct",
+      "number": 9
+    },
+    {
+      "evidence_label": "history-reported-last-page",
+      "kind": "primary_history_API_direct",
+      "number": 10
+    },
+    {
+      "evidence_label": "history-arithmetic-last-page",
+      "kind": "primary_history_API_direct",
+      "number": 11
+    },
+    {
+      "evidence_label": "earliest-observed-versions",
+      "kind": "primary_version_manifest_direct",
+      "number": 12
+    }
+  ],
+  "original_replay_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+  "original_source_digest_unchanged": true,
+  "player_names_account_IDs_or_ownership_data_emitted": false,
+  "primary_history_route_documentation": "https://www.blizztrack.com/docs",
+  "remaining_authoritative_inputs_needed": [
+    "An archived41810 BuildConfig bound to the exact replay root and fixed-file hash, with its actual encoding metadata keys.",
+    "Authenticated original catalog/reward definitions or original collection/license rules; later88122 or current data cannot substitute."
+  ],
+  "repo_modified": false,
+  "root_or_fixed_hash_reinterpreted_as_BuildConfig_or_EKey": false,
+  "source_header_projection": {
+    "base_build": 41810,
+    "build": 41810,
+    "data_build": 41810,
+    "m_fixedFileHash_m_data": "c585f3548fb8f9776fa1fba4dfec2b9a",
+    "m_ngdpRootKey_m_data": "83d43a8647bb5ca5caa6f2f09064da55",
+    "version": "0.17.0.41810"
+  },
+  "source_producer_sha256": "fb04c50dfaa1f0e5f75fe672442634b3adb242c1bc6b7940c88f2602b671897e",
+  "web_tool_search_or_page_transfer_bytes_measured": false
+}

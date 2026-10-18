@@ -1,0 +1,52 @@
+{
+  "additional_synthetic_full_producer_run": {
+    "HTTP404_failures": 2,
+    "URLError_failures": 3,
+    "body_bytes_read": 0,
+    "fixed_plan_order_exact": true,
+    "no_application_retries_or_redirects": true,
+    "private_bodies_saved": 0,
+    "requests_to_fake_opener": 5
+  },
+  "all_frozen_sources_reports_and_prior_receipt_unchanged": true,
+  "client_launched": false,
+  "focused_synthetic_tests_passed": 8,
+  "focused_test_errors_failures_or_skips": 0,
+  "format": "hots-exact-datamod-alternate-search-independent-review-v1",
+  "frozen_allowlist_receipt_sha256": "d98e81ac9a7605e5e64366b2bbc4f35e9cb6dc87c028f52027b27ac4fadf5d90",
+  "limits": [
+    "Recorded actual network outcomes are checked against frozen evidence; no live request or independent packet-level observation is performed.",
+    "Primary function excerpts and recorded source pins are available locally; full remote source objects were not independently retrieved in this offline review.",
+    "All five recorded attempts failed acquisition before body reads. They establish neither header incompatibility nor exact object recovery.",
+    "The additional producer execution uses a synthetic opener only; its temporary metadata report is discarded and the frozen actual report is preserved."
+  ],
+  "material_findings_in_recorded_actual_scope": [],
+  "primary_source_review": {
+    "full_primary_sources_refetched_or_rehashed_by_reviewer": false,
+    "recorded_source_function_excerpts_support_exact_endpoint_plan": true,
+    "source_blob_and_full_source_hash_pins_preserved": true
+  },
+  "prior_acquisition_receipt_sha256": "babd5479656ce1c4fa6b8ad5d7a0dfbe81574ff9117f8adfeaabef165b85d8ef",
+  "privacy": {
+    "public_exact_content_handle_and_package_tuple_only": true,
+    "raw_bodies_response_messages_accounts_credentials_or_private_paths_emitted": false
+  },
+  "replay_or_repo_modified": false,
+  "review_source_sha256": "a8a501179467c4efc4b64a60a280cd611756ce4a5d552cdde107e120f9d9bf81",
+  "reviewed_frozen_input_pins": {
+    "endpoint-primary-source-provenance.json": "73d53ab5de28afccf651818a0801e17368678b2a4dedd11cdb58469e0aa75bae",
+    "exact-datamod-alternate-endpoint-acquisition.json": "405d06816b2e34771c232c96cded7d79a08349d7f11962ec0e9c7b80deee8fb5",
+    "search_exact_public_datamod.py": "f6ed7abedfe59df1b9df2fb0c7900e67d4e800590055bc6aa5f60bc62ba2ee60",
+    "test_search_exact_public_datamod.py": "013baba922a05678556b192ac7f8e779228c5bce986f1a7d743a5c99e0df8806"
+  },
+  "reviewer_network_requests": 0,
+  "saved_actual_receipt_consistency": {
+    "prior_two_404_URLs_not_repeated": true,
+    "recorded_HTTP404_failures": 2,
+    "recorded_URLError_failures": 3,
+    "recorded_body_bytes_read": 0,
+    "recorded_private_bodies_saved": 0,
+    "recorded_requests": 5,
+    "recorded_validation_failures": 0
+  }
+}

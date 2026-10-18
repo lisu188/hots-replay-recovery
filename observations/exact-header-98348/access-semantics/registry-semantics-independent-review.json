@@ -1,0 +1,68 @@
+{
+  "actual_four_access_function_branches_and_config_entries_reviewed": true,
+  "availability32byte_binding_or_ownership_meaning_established": false,
+  "body_MD5_and_SHA256_match_saved_root_bound_reports": true,
+  "current5497_raw_5418_unique_registry_verified": true,
+  "derivative_guard_source_review_passed": true,
+  "format": "hots-registry-access-semantics-independent-review-v1",
+  "four_saved_operations_canary_passed_and_zero_HTTP": true,
+  "limits": [
+    "Saved operation reports and source guards are reviewed; no fresh CASC open or denying-handler canary is executed.",
+    "Local git blob IDs match the IDs recorded for the public commit; remote fetch provenance remains reported evidence rather than an independently repeated request.",
+    "Current access helpers show reward checks plus free/practice/rotation/mode branches, not PlayerHasReward implementation or old/current availability-bit semantics.",
+    "The three named NPC-style symbols are absent from the authenticated old263 registry; this is a corrected scoped membership fact, not global catalog absence.",
+    "SC2 declaration and bounded historical-search evidence remain separate from authenticated HotS historical native API proof."
+  ],
+  "local_public_blob_identifiers_recomputed_exactly": true,
+  "material_findings_in_scoped_review": [],
+  "network_requests": 0,
+  "new_CASC_open_or_extraction": false,
+  "new_unit_tests_or_CI_claimed": false,
+  "old263_registry_and_three_corrected_named_unit_negatives_verified": true,
+  "raw_game_texts_in_public_allowlist": false,
+  "raw_text_or_header_body_written": false,
+  "remote_commit_blob_link_provenance_independently_refetched": false,
+  "review_source_sha256": "c94db36b889084ac8dca466087868af27d8ca5d80f1442d133262f4e9d23f68f",
+  "reviewed_final_allowlist_sha256": "c869cbec5a1cc399794e8314740597b7d420a86cbd8f704606bfa072b92fc554",
+  "reviewed_findings_v2_sha256": "827aef5bc8ff4de516a720ec61a04c27c07517145177cfca23124b1faa056185",
+  "six_private_bodies": [
+    {
+      "bytes": 12725,
+      "content_MD5_matches_saved_CASC_key": true,
+      "file": "natives.galaxy",
+      "sha256": "a3187849bb3c08abd0078e0ff309c8495a296e965181d4ac54692662d29892e3"
+    },
+    {
+      "bytes": 46875,
+      "content_MD5_matches_saved_CASC_key": true,
+      "file": "NativeLib_h.galaxy",
+      "sha256": "0e1db3fa2911e37ea672d10da16350983d6190cfc37153e63fa4b8fa3a46a48e"
+    },
+    {
+      "bytes": 230410,
+      "content_MD5_matches_saved_CASC_key": true,
+      "file": "NativeLib.galaxy",
+      "sha256": "c7df2bc2fc3b43acffcc54f37a605af646e5dfedbdcb383a54ddc3bc06ebf876"
+    },
+    {
+      "bytes": 268519,
+      "content_MD5_matches_saved_CASC_key": true,
+      "file": "HeroesLib.galaxy",
+      "sha256": "15f0314a1c48a0391e76e22360847e7ef0c91b12a29da15d79453045c175a683"
+    },
+    {
+      "bytes": 50094,
+      "content_MD5_matches_saved_CASC_key": true,
+      "file": "HeroesLib_h.galaxy",
+      "sha256": "21d0147e00969baddb9e32e9d6bda3adc3bcb5c28f56fa52b4f4ba98e5cde891"
+    },
+    {
+      "bytes": 170805,
+      "content_MD5_matches_saved_CASC_key": true,
+      "file": "ConfigData.xml",
+      "sha256": "af36997a0aab3dfcc571d5827568cc678b29313d57b8ea549138d4e77228d052"
+    }
+  ],
+  "six_private_body_total_bytes": 779428,
+  "twelve_allowlisted_files_hash_verified": true
+}

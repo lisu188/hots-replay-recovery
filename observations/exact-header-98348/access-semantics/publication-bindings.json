@@ -1,0 +1,284 @@
+{
+  "format": "hots-current-access-and-bounded-source-research-publication-v1",
+  "base_commit": "d8f0f8ec07e2402400c3f5405da698aea77e0d9c",
+  "files": [
+    {
+      "source_relative_to_task_work": "licensed-registry-semantics/inventory_installed_native_filenames.ps1",
+      "published_path": "research/exact-header-98348/access-semantics/inventory_installed_native_filenames.ps1",
+      "bytes": 11749,
+      "executed_producer_and_published_sha256": "c6c95d551d24104058dc0fce0b3ca7a86a126a21ac892a9e603b516d9f1df136",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "licensed-registry-semantics/inventory_installed_heroes_library_filenames.ps1",
+      "published_path": "research/exact-header-98348/access-semantics/inventory_installed_heroes_library_filenames.ps1",
+      "bytes": 11765,
+      "executed_producer_and_published_sha256": "2d309978dfbb6a09cfb037050c392005779284a96a548e80e251d823b9737cdf",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "licensed-registry-semantics/read_three_installed_native_members.ps1",
+      "published_path": "research/exact-header-98348/access-semantics/read_three_installed_native_members.ps1",
+      "bytes": 12806,
+      "executed_producer_and_published_sha256": "b4c70c6c47c07c933aba54c8dc937368b4f7aa61fe07b46b2b3347af7ee080fe",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "licensed-registry-semantics/read_three_installed_heroes_members.ps1",
+      "published_path": "research/exact-header-98348/access-semantics/read_three_installed_heroes_members.ps1",
+      "bytes": 13225,
+      "executed_producer_and_published_sha256": "94384d37a1297c62a08575c710ba3f363cf419d68768aa37be0e7120e1b44896",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "licensed-registry-semantics/prepare_native_read_helper.py",
+      "published_path": "research/exact-header-98348/access-semantics/prepare_native_read_helper.py",
+      "bytes": 4952,
+      "executed_producer_and_published_sha256": "5b6aba8fbe669a0dcd58f728232bf79a2423464ed4a884d048e52b6d5f81621a",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "licensed-registry-semantics/record_registry_semantics_findings.py",
+      "published_path": "research/exact-header-98348/access-semantics/record_registry_semantics_findings.py",
+      "bytes": 13161,
+      "executed_producer_and_published_sha256": "645636413d47b8995daccca77c3b7648522f5c9b97488bcf8f37ceaf5d67f104",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "licensed-registry-semantics/installed-native-filename-inventory.json",
+      "published_path": "observations/exact-header-98348/access-semantics/installed-native-filename-inventory.json",
+      "bytes": 1431,
+      "executed_producer_and_published_sha256": "a8aa2ed045f32e77d5685d4353f48a48b9e6a35557d1b82508f1a6f1f8bd83b2",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "licensed-registry-semantics/installed-heroes-library-filename-inventory.json",
+      "published_path": "observations/exact-header-98348/access-semantics/installed-heroes-library-filename-inventory.json",
+      "bytes": 1446,
+      "executed_producer_and_published_sha256": "8c1a72201994e9792f9f8ed0e845f7c89db21b3c4d7ea07738e2e41fede34f20",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "licensed-registry-semantics/installed-native-three-members.json",
+      "published_path": "observations/exact-header-98348/access-semantics/installed-native-three-members.json",
+      "bytes": 2625,
+      "executed_producer_and_published_sha256": "1c0c2d8dddd636cbb3f806a3a68b2627724dbe1e886a48fd5c36ed76d3347b76",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "licensed-registry-semantics/installed-heroes-three-members.json",
+      "published_path": "observations/exact-header-98348/access-semantics/installed-heroes-three-members.json",
+      "bytes": 2731,
+      "executed_producer_and_published_sha256": "595196b880f57d18ffc6ed6ac2a742829e1540f431c04bebd8e10bf570bc042b",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "licensed-registry-semantics/registry-access-semantics-findings-v2.json",
+      "published_path": "observations/exact-header-98348/access-semantics/registry-access-semantics-findings-v2.json",
+      "bytes": 12933,
+      "executed_producer_and_published_sha256": "827aef5bc8ff4de516a720ec61a04c27c07517145177cfca23124b1faa056185",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "licensed-registry-semantics/README_REGISTRY_ACCESS_SEMANTICS.md",
+      "published_path": "research/exact-header-98348/access-semantics/README_REGISTRY_ACCESS_SEMANTICS.md",
+      "bytes": 5033,
+      "executed_producer_and_published_sha256": "c8c64060915e756aa311b6c8532133941c2d567cd427ad086c674a56e6ff022a",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "licensed-registry-semantics/registry-semantics-final-allowlist.json",
+      "published_path": "observations/exact-header-98348/access-semantics/registry-semantics-final-allowlist.json",
+      "bytes": 2639,
+      "executed_producer_and_published_sha256": "c869cbec5a1cc399794e8314740597b7d420a86cbd8f704606bfa072b92fc554",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "exact-datamod-search-ready/search_exact_public_datamod.py",
+      "published_path": "research/exact-header-98348/us/depot-search/search_exact_public_datamod.py",
+      "bytes": 9029,
+      "executed_producer_and_published_sha256": "f6ed7abedfe59df1b9df2fb0c7900e67d4e800590055bc6aa5f60bc62ba2ee60",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "exact-datamod-search-ready/test_search_exact_public_datamod.py",
+      "published_path": "research/exact-header-98348/us/depot-search/test_search_exact_public_datamod.py",
+      "bytes": 2822,
+      "executed_producer_and_published_sha256": "013baba922a05678556b192ac7f8e779228c5bce986f1a7d743a5c99e0df8806",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "exact-datamod-search-ready/endpoint-primary-source-provenance.json",
+      "published_path": "observations/exact-header-98348/us/depot-search/endpoint-primary-source-provenance.json",
+      "bytes": 2296,
+      "executed_producer_and_published_sha256": "73d53ab5de28afccf651818a0801e17368678b2a4dedd11cdb58469e0aa75bae",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "exact-datamod-search-ready/exact-datamod-alternate-endpoint-acquisition.json",
+      "published_path": "observations/exact-header-98348/us/depot-search/exact-datamod-alternate-endpoint-acquisition.json",
+      "bytes": 4530,
+      "executed_producer_and_published_sha256": "405d06816b2e34771c232c96cded7d79a08349d7f11962ec0e9c7b80deee8fb5",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "exact-datamod-search-ready/exact-datamod-search-frozen-receipt.json",
+      "published_path": "observations/exact-header-98348/us/depot-search/exact-datamod-search-frozen-receipt.json",
+      "bytes": 3056,
+      "executed_producer_and_published_sha256": "d98e81ac9a7605e5e64366b2bbc4f35e9cb6dc87c028f52027b27ac4fadf5d90",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "legacy-build-root-research/fetch_primary_history.py",
+      "published_path": "research/exact-header-98348/legacy-build-root/fetch_primary_history.py",
+      "bytes": 2630,
+      "executed_producer_and_published_sha256": "557f8833dcdf8bae202190ccdaf62e71b02e0b9c9143cd8b8514530a120ea3b8",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "legacy-build-root-research/record_legacy_build_research.py",
+      "published_path": "research/exact-header-98348/legacy-build-root/record_legacy_build_research.py",
+      "bytes": 9757,
+      "executed_producer_and_published_sha256": "fb04c50dfaa1f0e5f75fe672442634b3adb242c1bc6b7940c88f2602b671897e",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "legacy-build-root-research/legacy41810-primary-research-outcome.json",
+      "published_path": "observations/exact-header-98348/legacy-build-root/legacy41810-primary-research-outcome.json",
+      "bytes": 7914,
+      "executed_producer_and_published_sha256": "e01531a006f0205853e78086fa6b71e89f1efb8a60af0f0f7716abf5b04c7284",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "legacy-build-root-research/history-newest.body.json",
+      "published_path": "observations/exact-header-98348/legacy-build-root/history-newest.body.json",
+      "bytes": 1733,
+      "executed_producer_and_published_sha256": "df5071abe7aed29b93a1429241ef973f8e0365431ae185f735905c9b88369c64",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "legacy-build-root-research/history-newest.request.json",
+      "published_path": "observations/exact-header-98348/legacy-build-root/history-newest.request.json",
+      "bytes": 321,
+      "executed_producer_and_published_sha256": "146abb5119978dd395d535a2bb8ddf0350f6a4ad92892a2cf8a4d4c333fa87cc",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "legacy-build-root-research/history-reported-last-page.body.json",
+      "published_path": "observations/exact-header-98348/legacy-build-root/history-reported-last-page.body.json",
+      "bytes": 1735,
+      "executed_producer_and_published_sha256": "5dfc3c236cfc45b2792294b92ab1332054952d604819a1797018ed9de461c902",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "legacy-build-root-research/history-reported-last-page.request.json",
+      "published_path": "observations/exact-header-98348/legacy-build-root/history-reported-last-page.request.json",
+      "bytes": 322,
+      "executed_producer_and_published_sha256": "b3be297eb9289c51758a9bbc8b44266f7e1b549f414ae412d347cb55656bb827",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "legacy-build-root-research/history-arithmetic-last-page.body.json",
+      "published_path": "observations/exact-header-98348/legacy-build-root/history-arithmetic-last-page.body.json",
+      "bytes": 495,
+      "executed_producer_and_published_sha256": "4b32078d72dbf6412f307b06474ec4a307f3e139c250bb57a223d0043e4bd3f6",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "legacy-build-root-research/history-arithmetic-last-page.request.json",
+      "published_path": "observations/exact-header-98348/legacy-build-root/history-arithmetic-last-page.request.json",
+      "bytes": 321,
+      "executed_producer_and_published_sha256": "4f66c63e0082bdd0777b0983290c7362fcb8b0c145faebe1591dfcf16690a4e4",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "legacy-build-root-research/earliest-observed-versions.body.json",
+      "published_path": "observations/exact-header-98348/legacy-build-root/earliest-observed-versions.body.json",
+      "bytes": 1629,
+      "executed_producer_and_published_sha256": "394313bfd683966a085d0e5e3d3ae9c907a2fc4fc8a1f8c948ae1a05d61bebd0",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "legacy-build-root-research/earliest-observed-versions.request.json",
+      "published_path": "observations/exact-header-98348/legacy-build-root/earliest-observed-versions.request.json",
+      "bytes": 309,
+      "executed_producer_and_published_sha256": "7f25c1582faa76a43cea84faec20a059f5c192b889316b1b9429fad3a6fa6a0f",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "legacy-build-root-research/legacy41810-research-frozen-receipt.json",
+      "published_path": "observations/exact-header-98348/legacy-build-root/legacy41810-research-frozen-receipt.json",
+      "bytes": 3967,
+      "executed_producer_and_published_sha256": "5ec4b9d2526156e0102734802caac4ed7266f77356b70a6ae4a8987a99736ccd",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "registry-semantics-independent-review/registry-semantics-independent-review.json",
+      "published_path": "observations/exact-header-98348/access-semantics/registry-semantics-independent-review.json",
+      "bytes": 3307,
+      "executed_producer_and_published_sha256": "d0ad7f2f3602cc69835f7df9d20d8e6fe268d1432849e0ea73bb13673a530c3c",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "registry-semantics-independent-review/verify_registry_semantics.py",
+      "published_path": "research/exact-header-98348/access-semantics/verify_registry_semantics.py",
+      "bytes": 12108,
+      "executed_producer_and_published_sha256": "c94db36b889084ac8dca466087868af27d8ca5d80f1442d133262f4e9d23f68f",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "exact-datamod-search-independent-review/exact-datamod-search-independent-review.json",
+      "published_path": "observations/exact-header-98348/us/depot-search/exact-datamod-search-independent-review.json",
+      "bytes": 2804,
+      "executed_producer_and_published_sha256": "8a1354f9fd1a9ee4e5908200907158e822b9f32780133f54fb9b0582c8cb33b0",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "exact-datamod-search-independent-review/verify_exact_datamod_search.py",
+      "published_path": "research/exact-header-98348/us/depot-search/verify_exact_datamod_search.py",
+      "bytes": 10552,
+      "executed_producer_and_published_sha256": "a8a501179467c4efc4b64a60a280cd611756ce4a5d552cdde107e120f9d9bf81",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "licensed-registry-semantics/root-registry-semantics-recompute.json",
+      "published_path": "observations/exact-header-98348/access-semantics/root-registry-semantics-recompute.json",
+      "bytes": 1746,
+      "executed_producer_and_published_sha256": "5587f7c7b84483228ac89d5075bebe35720fbec19b315405d7879ffdd0644263",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "review_semantics_in_memory.py",
+      "published_path": "research/exact-header-98348/access-semantics/review_semantics_in_memory.py",
+      "bytes": 3352,
+      "executed_producer_and_published_sha256": "5810a19d455538d54b49ce5024d9a12f5858afb4b62cc5b2bff985a372e16ff3",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "root-public-source-refetch-verification.json",
+      "published_path": "observations/exact-header-98348/access-semantics/root-public-source-refetch-verification.json",
+      "bytes": 1854,
+      "executed_producer_and_published_sha256": "12233344fdb02a713e7220313f49bb530cf4e5e2905e3e8a5c694eff47064032",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "legacy-build-root-independent-review/legacy-build-root-independent-review.json",
+      "published_path": "observations/exact-header-98348/legacy-build-root/legacy-build-root-independent-review.json",
+      "bytes": 4203,
+      "executed_producer_and_published_sha256": "d078024b051ea1c2b9fcb381c4307ea5987c74b7a9c0405de4405bebb00991c3",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "legacy-build-root-independent-review/verify_legacy_build_research.py",
+      "published_path": "research/exact-header-98348/legacy-build-root/verify_legacy_build_research.py",
+      "bytes": 10928,
+      "executed_producer_and_published_sha256": "a2e1b098c0ca56d8c1c43eea77486d60bf93a63556a9d043c629d23ff5e26a2d",
+      "byte_preserved": true
+    }
+  ],
+  "raw_replays_headers_Galaxy_XML_bodies_or_private_values_published": false,
+  "current_access_semantics_do_not_establish_availability_bit_mapping": true,
+  "all_endpoint_failures_are_acquisition_not_validation_failures": true,
+  "legacy_history_negative_is_scoped_not_global_absence": true,
+  "root_full_public_source_blob_refetches_and_hashes_verified": true
+}

@@ -1,0 +1,9 @@
+{
+  "url": "https://blizztrack.com/api/manifest/hero/seqn?file=versions&page=21&limit=1",
+  "requested_at_utc": "2026-10-18T21:41:14.239999+00:00",
+  "maximum_bytes": 131072,
+  "redirects_followed": 0,
+  "http_status": 200,
+  "bytes": 495,
+  "sha256": "4b32078d72dbf6412f307b06474ec4a307f3e139c250bb57a223d0043e4bd3f6"
+}

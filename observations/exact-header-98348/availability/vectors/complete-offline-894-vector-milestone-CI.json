@@ -1,0 +1,55 @@
+{
+  "format": "hots-complete-offline-vector-milestone-CI-v1",
+  "run_id": 39168917474,
+  "tested_commit": "d8f0f8ec07e2402400c3f5405da698aea77e0d9c",
+  "url": "https://github.com/lisu188/hots-replay-recovery/actions/runs/39168917474",
+  "conclusion": "success",
+  "jobs": [
+    {
+      "id": 117797688831,
+      "lane": "Windows / PowerShell 5.1 complete corpus",
+      "url": "https://github.com/lisu188/hots-replay-recovery/actions/runs/39168917474/job/117797688831",
+      "conclusion": "success",
+      "modules": 44,
+      "tests_discovered": 894,
+      "tests_run": 894,
+      "declared_skips": 4,
+      "unexpected_skips": 0,
+      "actual_NGS_fixture_test_executed": true,
+      "current_EU_streams_and_lobby_check_executed": true
+    },
+    {
+      "id": 117797689038,
+      "lane": "Linux complete corpus",
+      "url": "https://github.com/lisu188/hots-replay-recovery/actions/runs/39168917474/job/117797689038",
+      "conclusion": "success",
+      "modules": 44,
+      "tests_discovered": 894,
+      "tests_run": 894,
+      "declared_skips": 38,
+      "unexpected_skips": 0,
+      "actual_NGS_fixture_test_executed": true,
+      "current_EU_streams_and_lobby_check_executed": true
+    },
+    {
+      "id": 117797689060,
+      "lane": "Windows / PowerShell 7 complete corpus",
+      "url": "https://github.com/lisu188/hots-replay-recovery/actions/runs/39168917474/job/117797689060",
+      "conclusion": "success",
+      "modules": 44,
+      "tests_discovered": 894,
+      "tests_run": 894,
+      "declared_skips": 4,
+      "unexpected_skips": 0,
+      "actual_NGS_fixture_test_executed": true,
+      "current_EU_streams_and_lobby_check_executed": true
+    }
+  ],
+  "research28_vector_and8_endpoint_tests_executed_in_CI": false,
+  "static_CASC_or_history_research_executed_in_CI": false,
+  "local_proof_scope": "28 vector tests plus independent actual13/21 JSON reproduction;8 endpoint guards plus full synthetic opener review; static access and legacy history actual-input checks and independent reviews.",
+  "real_header_reconstruction_executed_in_CI": false,
+  "client_launched": false,
+  "new_replay_generated": false,
+  "full_upgrade_complete": false
+}

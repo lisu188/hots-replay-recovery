@@ -1,0 +1,32 @@
+{
+  "format": "hots-exact-datamod-public-endpoint-primary-sources-v1",
+  "sources": [
+    {
+      "role": "modern",
+      "url": "https://github.com/ggtracker/sc2reader/blob/e10fc9344417d0aa9649e4ed8d6423e38f6af4c9/sc2reader/utils.py",
+      "commit": "e10fc9344417d0aa9649e4ed8d6423e38f6af4c9",
+      "ref": null,
+      "git_blob_sha1": "893cc8c99e91202811db936c96babf9f8c9795ff",
+      "full_source_sha256": "2a3a98df7ed48a0f1794ae61b87e1a02e5e368970b8b7d3681f67d1c59698db8",
+      "function_start_line": 196,
+      "function_end_line": 207,
+      "exact_function_excerpt": "def get_resource_url(region, hash, type):\n    url_template = \"{}://{}-s2-depot.{}/{}.{}\"\n    scheme = \"https\"\n    domain = \"classic.blizzard.com\"\n\n    if region == \"sea\":\n        region = \"us\"\n    elif region == \"cn\":\n        domain = \"necdn.leihuo.netease.com\"\n    return url_template.format(scheme, region, domain, hash, type)\n"
+    },
+    {
+      "role": "legacy",
+      "url": "https://github.com/ZephyrBlu/s2protocol-py3/blob/master/s2_cli.py",
+      "commit": null,
+      "ref": "master at retrieval",
+      "git_blob_sha1": "76ea3dac94da026adc0b4864a9bdd87b7265e86c",
+      "full_source_sha256": "60d359afcf5d7e5b9c923e1146063b400ea4a91ef6dc927f1a953ad25f287b48",
+      "function_start_line": 112,
+      "function_end_line": 130,
+      "exact_function_excerpt": "def cache_handle_uri(handle):\n    \"\"\"\n    Convert a 'cache handle' from a binary string to a string URI\n    \"\"\"\n    handle_hex = binascii.b2a_hex(handle)\n    purpose = convert_fourcc(handle_hex[0:8]) # first 4 bytes\n    region = convert_fourcc(handle_hex[8:16]) # next 4 bytes\n    content_hash = handle_hex[16:]\n  \n    uri = ''.join([\n        'http://',\n        region.lower(),\n        '.depot.battle.net:1119/',\n        content_hash.lower(), '.',\n        purpose.lower()\n      ])\n    return uri\n"
+    }
+  ],
+  "limitations": [
+    "The modern regional endpoints are documented template instantiations, not proof the exact US object exists in those regions.",
+    "Legacy plainHTTP depot routes are a historical client-library format; redirects will not be followed and authentication is not attempted.",
+    "No undocumented/internal/storage/GCP hosts are inferred from third-party host lists."
+  ]
+}

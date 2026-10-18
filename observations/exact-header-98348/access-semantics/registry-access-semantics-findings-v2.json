@@ -1,0 +1,299 @@
+{
+  "actual_CASC_and_public_source_binding": [
+    {
+      "GitHub_returned_blob_equals_current_CASC_blob": true,
+      "file": "HeroesLib.galaxy",
+      "git_blob_sha1": "0cf700ed3ae8e5b6dff5c812d2de9bddd7899b0b",
+      "public_commit": "e3e57cb640f18002a4feebe3872cefe04072d814",
+      "url": "https://github.com/jamiephan/HeroesOfTheStorm_Gamedata/blob/e3e57cb640f18002a4feebe3872cefe04072d814/mods/heroesdata.stormmod/base.stormdata/triggerlibs/heroeslib.galaxy"
+    },
+    {
+      "GitHub_returned_blob_equals_current_CASC_blob": true,
+      "file": "ConfigData.xml",
+      "git_blob_sha1": "f63298d1a04a7148ca6b32cc161a2eed82da5152",
+      "public_commit": "e3e57cb640f18002a4feebe3872cefe04072d814",
+      "url": "https://github.com/jamiephan/HeroesOfTheStorm_Gamedata/blob/e3e57cb640f18002a4feebe3872cefe04072d814/mods/heroesdata.stormmod/base.stormdata/gamedata/configdata.xml#L1065"
+    }
+  ],
+  "actual_decoded_root_md5": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+  "bounded_lexical_negatives": {
+    "absence_from_complete_engine_API_not_claimed": true,
+    "six_read_texts": {
+      "CUnitLicense": 0,
+      "PlayerHasAccessTo": 0,
+      "PlayerHasLicense": 0,
+      "PlayerHasReward": 4,
+      "UnitLicense": 0
+    },
+    "three_Core_native_texts": {
+      "HyperlinkId": 0,
+      "collection": 0,
+      "entitle": 0,
+      "license": 0,
+      "reward": 0
+    }
+  },
+  "client_launched": false,
+  "conclusions": {
+    "PlayerHasReward_calls_bound_to_availability32byte_record_bits": false,
+    "account_ownership_or_slot_pattern_meaning_proven": false,
+    "current_reward_dependent_access_helpers_and_free_access_branches_proven": true,
+    "legacy_alias_or_207_name_mappings_added": 0,
+    "legacy_field23_to_current_field24_semantic_conversion_proven": false,
+    "legacy_personal_ownership_meaning_proven": false
+  },
+  "current_Config_FreeToPlayRewardArray": {
+    "catalog_names": [
+      "UnlockExtraFreeToPlayHero1",
+      "UnlockExtraFreeToPlayHero2",
+      "UnlockExtraFreeToPlayHero3",
+      "UnlockExtraFreeToPlayHero4"
+    ],
+    "line_end": 1068,
+    "line_start": 1065,
+    "source_sha256": "af36997a0aab3dfcc571d5827568cc678b29313d57b8ea549138d4e77228d052"
+  },
+  "current_authenticated_functions": [
+    {
+      "function": "libCore_gf_MetagameIsHeroInRotationForPlayer",
+      "line_end": 2377,
+      "line_start": 2344,
+      "source_sha256": "15f0314a1c48a0391e76e22360847e7ef0c91b12a29da15d79453045c175a683",
+      "static_source_observation": "Required free-rotation reward checks increase the permitted rotation-slot count before a hero-list comparison.",
+      "url": "https://github.com/jamiephan/HeroesOfTheStorm_Gamedata/blob/e3e57cb640f18002a4feebe3872cefe04072d814/mods/heroesdata.stormmod/base.stormdata/triggerlibs/heroeslib.galaxy#L2344"
+    },
+    {
+      "function": "libCore_gf_MetagameDoesPlayerHaveAccessToHero",
+      "line_end": 2438,
+      "line_start": 2403,
+      "source_sha256": "15f0314a1c48a0391e76e22360847e7ef0c91b12a29da15d79453045c175a683",
+      "static_source_observation": "Hero access checks required rewards, with explicit AI/human-selection rules and rotation, practice, freebie, TryMe and offline branches.",
+      "url": "https://github.com/jamiephan/HeroesOfTheStorm_Gamedata/blob/e3e57cb640f18002a4feebe3872cefe04072d814/mods/heroesdata.stormmod/base.stormdata/triggerlibs/heroeslib.galaxy#L2403"
+    },
+    {
+      "function": "libCore_gf_MetagameDoesPlayerHaveAccessToSkin",
+      "line_end": 2467,
+      "line_start": 2440,
+      "source_sha256": "15f0314a1c48a0391e76e22360847e7ef0c91b12a29da15d79453045c175a683",
+      "static_source_observation": "Skin access checks all required rewards, with first-skin, TryMe and offline branches.",
+      "url": "https://github.com/jamiephan/HeroesOfTheStorm_Gamedata/blob/e3e57cb640f18002a4feebe3872cefe04072d814/mods/heroesdata.stormmod/base.stormdata/triggerlibs/heroeslib.galaxy#L2440"
+    },
+    {
+      "function": "libCore_gf_MetagameDoesPlayerHaveAccessToMount",
+      "line_end": 2495,
+      "line_start": 2469,
+      "source_sha256": "15f0314a1c48a0391e76e22360847e7ef0c91b12a29da15d79453045c175a683",
+      "static_source_observation": "Mount access checks all required rewards, with free-play, first-mount, TryMe and offline branches.",
+      "url": "https://github.com/jamiephan/HeroesOfTheStorm_Gamedata/blob/e3e57cb640f18002a4feebe3872cefe04072d814/mods/heroesdata.stormmod/base.stormdata/triggerlibs/heroeslib.galaxy#L2469"
+    }
+  ],
+  "format": "hots-static-registry-current-access-API-semantics-v1",
+  "fresh_static_registry_crosscheck": {
+    "catalog_observation_sha256": "0fa8a041fa8d6b9ba22ba6ff8be10d4f42beccc7d9577d0b6ead2d8e0fa909c9",
+    "checked_named_unit_membership": {
+      "AbathurEvolvedMonstrosity": false,
+      "NovaHoloCloneCloaked": false,
+      "TownCannonTower": false
+    },
+    "claimed_three_named_units_are_not_in_old263_registry": true,
+    "current_field": 24,
+    "current_field23_absent": true,
+    "current_first_dedup_count": 5418,
+    "current_first_dedup_equals_two_current_catalog_observations": true,
+    "current_header_sha256": "0633db0bcff394a95e6d3e62a54190c2c33ee6c39af555a5d6268ac6e26c936a",
+    "current_raw_count": 5497,
+    "current_type": "array-of-wire-integers",
+    "old_field": 23,
+    "old_first_dedup_count": 263,
+    "old_first_dedup_equals_original_and_R8": true,
+    "old_header_sha256": "b34d0f30dc3b9cf47694982106a04006a49ce43422e02f71ed18b33b7bfcc6c4",
+    "old_lexical_groups_only_not_catalog_types": [
+      {
+        "count": 145,
+        "first_source_order_samples": [
+          "LunaraSkinMaster",
+          "StitchesSkinPsycho",
+          "ETCSkinMaster",
+          "VallaSkinMaster",
+          "UtherSkinMedic"
+        ],
+        "rule": "case-sensitive-name-contains-Skin"
+      },
+      {
+        "count": 8,
+        "first_source_order_samples": [
+          "AzmodunkMount",
+          "2015WorldChampionshipMount",
+          "TreasureGoblinMount",
+          "StarbreakerMount",
+          "TestMountRideBeast"
+        ],
+        "rule": "remaining-name-contains-Mount"
+      },
+      {
+        "count": 110,
+        "first_source_order_samples": [
+          "Reigndeer",
+          "GoldenLunarTiger",
+          "Direwolf",
+          "Kaelthas",
+          "ChoGallPromo"
+        ],
+        "rule": "remaining-names"
+      }
+    ],
+    "old_raw_count": 264,
+    "old_type": "array-of-ASCII-byte-blobs",
+    "registry_is_package_bound_not_a_per_player_list": true,
+    "this_alone_does_not_assign_32byte_record_semantics": true
+  },
+  "guards": {
+    "actual_MNDX_names_confirmed_before_selective_reads": true,
+    "cache_enabled": false,
+    "configuration_loader_ReadWrite_access_limited_to_existing_task_copies": true,
+    "four_operations_HTTP_handler_canary_passed": true,
+    "four_operations_HTTP_transport_attempts": 0,
+    "installed_config_hashes_unchanged": true,
+    "installed_index_data_streams_explicit_read_only": true,
+    "online_fallback_enabled": false,
+    "original_CASC_guard_provenance": "research/installed-casc-98348/primary-source-guard-provenance.json",
+    "partial_private_path_Clear_NullReferenceException_retained": true,
+    "unchanged_managed_DLL_SHA256": "8be4b72776a3a4eca6708cc204860c51592c8f886224dd6ccbdec03b6fa82a11"
+  },
+  "historical_search": {
+    "exact_negative_terms": [
+      "CUnitLicense",
+      "UnitHasLicense",
+      "UnitHasReward",
+      "LicensedUnit"
+    ],
+    "negative_scope": "Bounded GitHub/web exact-symbol searches and the six named current text files; no global absence claim.",
+    "qualifying_HotS41810_native_or_CUnitLicense_source_found": false
+  },
+  "installed_version": "2.57.0.98348",
+  "limitations": [
+    "Native helper files do not contain the complete engine-native declaration set.",
+    "The current functions show access checks and their branches, not the implementation of PlayerHasReward.",
+    "No primary41810 declaration or code binds the old name registry to a licensed-unit API.",
+    "The two wire arrays are static registry universes; per-entry availability interpretation remains a distinct problem.",
+    "No ownership projection, alias guess, default value, new replay or conversion is produced."
+  ],
+  "maximum_files": 8,
+  "maximum_total_bytes": 2097152,
+  "native_and_text_file_count": 6,
+  "new_header_trials": 0,
+  "operation_reports": [
+    {
+      "bytes": 1431,
+      "name": "installed-native-filename-inventory.json",
+      "sha256": "a8aa2ed045f32e77d5685d4353f48a48b9e6a35557d1b82508f1a6f1f8bd83b2"
+    },
+    {
+      "bytes": 1446,
+      "name": "installed-heroes-library-filename-inventory.json",
+      "sha256": "8c1a72201994e9792f9f8ed0e845f7c89db21b3c4d7ea07738e2e41fede34f20"
+    },
+    {
+      "bytes": 2625,
+      "name": "installed-native-three-members.json",
+      "sha256": "1c0c2d8dddd636cbb3f806a3a68b2627724dbe1e886a48fd5c36ed76d3347b76"
+    },
+    {
+      "bytes": 2731,
+      "name": "installed-heroes-three-members.json",
+      "sha256": "595196b880f57d18ffc6ed6ac2a742829e1540f431c04bebd8e10bf570bc042b"
+    }
+  ],
+  "private_static_text_inputs": [
+    {
+      "bytes": 12725,
+      "casc_content_md5": "e1d7c30e04ead19186867ff51dddfc4b",
+      "casc_path": "mods/core.stormmod/base.stormdata/TriggerLibs/natives.galaxy",
+      "encoded_key": "c50571054dda45e9abfb810339d844c1",
+      "sha256": "a3187849bb3c08abd0078e0ff309c8495a296e965181d4ac54692662d29892e3"
+    },
+    {
+      "bytes": 46875,
+      "casc_content_md5": "81e0c0b0d2bcc9de56e6bdc2f546db0a",
+      "casc_path": "mods/core.stormmod/base.stormdata/TriggerLibs/NativeLib_h.galaxy",
+      "encoded_key": "e32e9688f87e607f5b4a6b2d6d10ee99",
+      "sha256": "0e1db3fa2911e37ea672d10da16350983d6190cfc37153e63fa4b8fa3a46a48e"
+    },
+    {
+      "bytes": 230410,
+      "casc_content_md5": "05311ee8298166017d5d1e39737d93e9",
+      "casc_path": "mods/core.stormmod/base.stormdata/TriggerLibs/NativeLib.galaxy",
+      "encoded_key": "661ecd9ee77323c6c1c3e28c938ec0df",
+      "sha256": "c7df2bc2fc3b43acffcc54f37a605af646e5dfedbdcb383a54ddc3bc06ebf876"
+    },
+    {
+      "bytes": 268519,
+      "casc_content_md5": "164c495b986e3823217a0cb9111ba4e0",
+      "casc_path": "mods/heroesdata.stormmod/base.stormdata/TriggerLibs/HeroesLib.galaxy",
+      "encoded_key": "01792baf14f40f5188f7f779aa7193b7",
+      "sha256": "15f0314a1c48a0391e76e22360847e7ef0c91b12a29da15d79453045c175a683"
+    },
+    {
+      "bytes": 50094,
+      "casc_content_md5": "9a7350e09736f3d4910c4d29a6e1338a",
+      "casc_path": "mods/heroesdata.stormmod/base.stormdata/TriggerLibs/HeroesLib_h.galaxy",
+      "encoded_key": "c05421093daabd1cb3d071cdf435e4cc",
+      "sha256": "21d0147e00969baddb9e32e9d6bda3adc3bcb5c28f56fa52b4f4ba98e5cde891"
+    },
+    {
+      "bytes": 170805,
+      "casc_content_md5": "f4772f0bb234d68e42dff0f6bf445241",
+      "casc_path": "mods/heroesdata.stormmod/base.stormdata/GameData/ConfigData.xml",
+      "encoded_key": "d3878e1f8114b6b6c23d724443e349bf",
+      "sha256": "af36997a0aab3dfcc571d5827568cc678b29313d57b8ea549138d4e77228d052"
+    }
+  ],
+  "producer_sha256": "645636413d47b8995daccca77c3b7648522f5c9b97488bcf8f37ceaf5d67f104",
+  "raw_player_or_account_data_read_or_emitted": false,
+  "raw_text_publishable": false,
+  "replay_modified": false,
+  "replay_or_availability_bytes_read": false,
+  "research_sources": [
+    {
+      "bytes": 11749,
+      "name": "inventory_installed_native_filenames.ps1",
+      "sha256": "c6c95d551d24104058dc0fce0b3ca7a86a126a21ac892a9e603b516d9f1df136"
+    },
+    {
+      "bytes": 12806,
+      "name": "read_three_installed_native_members.ps1",
+      "sha256": "b4c70c6c47c07c933aba54c8dc937368b4f7aa61fe07b46b2b3347af7ee080fe"
+    },
+    {
+      "bytes": 11765,
+      "name": "inventory_installed_heroes_library_filenames.ps1",
+      "sha256": "2d309978dfbb6a09cfb037050c392005779284a96a548e80e251d823b9737cdf"
+    },
+    {
+      "bytes": 13225,
+      "name": "read_three_installed_heroes_members.ps1",
+      "sha256": "94384d37a1297c62a08575c710ba3f363cf419d68768aa37be0e7120e1b44896"
+    },
+    {
+      "bytes": 4952,
+      "name": "prepare_native_read_helper.py",
+      "sha256": "5b6aba8fbe669a0dcd58f728232bf79a2423464ed4a884d048e52b6d5f81621a"
+    },
+    {
+      "bytes": 13161,
+      "name": "record_registry_semantics_findings.py",
+      "sha256": "645636413d47b8995daccca77c3b7648522f5c9b97488bcf8f37ceaf5d67f104"
+    }
+  ],
+  "separate_SC2_primary_declaration_evidence": {
+    "declarations": [
+      "PlayerHasLicense(int,int)",
+      "PlayerHasAccessTo(int,string)",
+      "PlayerHasReward(int,string)"
+    ],
+    "scope": "SC2 public game-data source only; not authenticated HotS41810 or98348 native declaration proof.",
+    "url": "https://github.com/SC2Mapster/SC2GameData/blob/6dd323aae4209a01f110719a00b4e8f7a88389bc/mods/core.sc2mod/base.sc2data/TriggerLibs/natives.galaxy"
+  },
+  "status": "current-access-API-authenticated-historical-transition-unresolved",
+  "total_native_and_text_bytes": 779428
+}

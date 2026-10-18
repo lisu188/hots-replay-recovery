@@ -1,0 +1,76 @@
+{
+  "actual_controls": "six full CASC contentMD5/SHA bodies, four function bodies, exact old/current package registry bindings, three incorrect NPC-name negatives, four network-denying operations",
+  "allowlisted_files": [
+    {
+      "bytes": 11749,
+      "name": "inventory_installed_native_filenames.ps1",
+      "sha256": "c6c95d551d24104058dc0fce0b3ca7a86a126a21ac892a9e603b516d9f1df136"
+    },
+    {
+      "bytes": 11765,
+      "name": "inventory_installed_heroes_library_filenames.ps1",
+      "sha256": "2d309978dfbb6a09cfb037050c392005779284a96a548e80e251d823b9737cdf"
+    },
+    {
+      "bytes": 12806,
+      "name": "read_three_installed_native_members.ps1",
+      "sha256": "b4c70c6c47c07c933aba54c8dc937368b4f7aa61fe07b46b2b3347af7ee080fe"
+    },
+    {
+      "bytes": 13225,
+      "name": "read_three_installed_heroes_members.ps1",
+      "sha256": "94384d37a1297c62a08575c710ba3f363cf419d68768aa37be0e7120e1b44896"
+    },
+    {
+      "bytes": 4952,
+      "name": "prepare_native_read_helper.py",
+      "sha256": "5b6aba8fbe669a0dcd58f728232bf79a2423464ed4a884d048e52b6d5f81621a"
+    },
+    {
+      "bytes": 13161,
+      "name": "record_registry_semantics_findings.py",
+      "sha256": "645636413d47b8995daccca77c3b7648522f5c9b97488bcf8f37ceaf5d67f104"
+    },
+    {
+      "bytes": 1431,
+      "name": "installed-native-filename-inventory.json",
+      "sha256": "a8aa2ed045f32e77d5685d4353f48a48b9e6a35557d1b82508f1a6f1f8bd83b2"
+    },
+    {
+      "bytes": 1446,
+      "name": "installed-heroes-library-filename-inventory.json",
+      "sha256": "8c1a72201994e9792f9f8ed0e845f7c89db21b3c4d7ea07738e2e41fede34f20"
+    },
+    {
+      "bytes": 2625,
+      "name": "installed-native-three-members.json",
+      "sha256": "1c0c2d8dddd636cbb3f806a3a68b2627724dbe1e886a48fd5c36ed76d3347b76"
+    },
+    {
+      "bytes": 2731,
+      "name": "installed-heroes-three-members.json",
+      "sha256": "595196b880f57d18ffc6ed6ac2a742829e1540f431c04bebd8e10bf570bc042b"
+    },
+    {
+      "bytes": 12933,
+      "name": "registry-access-semantics-findings-v2.json",
+      "sha256": "827aef5bc8ff4de516a720ec61a04c27c07517145177cfca23124b1faa056185"
+    },
+    {
+      "bytes": 5033,
+      "name": "README_REGISTRY_ACCESS_SEMANTICS.md",
+      "sha256": "c8c64060915e756aa311b6c8532133941c2d567cd427ad086c674a56e6ff022a"
+    }
+  ],
+  "format": "hots-registry-semantics-publish-allowlist-v1",
+  "new_unit_tests_or_CI_claimed": false,
+  "private_files_excluded": [
+    "natives.galaxy",
+    "NativeLib_h.galaxy",
+    "NativeLib.galaxy",
+    "HeroesLib.galaxy",
+    "HeroesLib_h.galaxy",
+    "ConfigData.xml"
+  ],
+  "raw_game_texts_publishable": false
+}

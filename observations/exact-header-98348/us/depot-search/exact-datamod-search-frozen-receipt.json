@@ -1,0 +1,65 @@
+{
+  "format": "hots-missing-exact-datamod-search-frozen-receipt-v1",
+  "allowlisted_files": [
+    {
+      "relative_to_work": "exact-datamod-search-ready/search_exact_public_datamod.py",
+      "bytes": 9029,
+      "sha256": "f6ed7abedfe59df1b9df2fb0c7900e67d4e800590055bc6aa5f60bc62ba2ee60"
+    },
+    {
+      "relative_to_work": "exact-datamod-search-ready/test_search_exact_public_datamod.py",
+      "bytes": 2822,
+      "sha256": "013baba922a05678556b192ac7f8e779228c5bce986f1a7d743a5c99e0df8806"
+    },
+    {
+      "relative_to_work": "exact-datamod-search-ready/endpoint-primary-source-provenance.json",
+      "bytes": 2296,
+      "sha256": "73d53ab5de28afccf651818a0801e17368678b2a4dedd11cdb58469e0aa75bae"
+    },
+    {
+      "relative_to_work": "exact-datamod-search-ready/exact-datamod-alternate-endpoint-acquisition.json",
+      "bytes": 4530,
+      "sha256": "405d06816b2e34771c232c96cded7d79a08349d7f11962ec0e9c7b80deee8fb5"
+    }
+  ],
+  "expected_sha256": "42afeaf8be79bff738e3387c15261b2c71474a63618ecfe8d38f5beb2985b57a",
+  "expected_package": {
+    "mod_id": 280539,
+    "version": 16
+  },
+  "synthetic_guard_tests": {
+    "tests": 8,
+    "passed": 8,
+    "skipped": 0,
+    "scope": "Synthetic complete/truncated/oversize/unknown-length body controls, redirect/URL refusal and independent full-SHA plus package guards; no network fixtures."
+  },
+  "actual_outcome": {
+    "new_object_requests": 5,
+    "response_body_bytes_read": 0,
+    "acquisition_failures": 5,
+    "validation_failures": 0,
+    "verified_private_body_saved": false,
+    "application_retries": 0,
+    "redirects_followed": 0
+  },
+  "HTTP_object_not_found_endpoints": [
+    "https://kr-s2-depot.classic.blizzard.com/42afeaf8be79bff738e3387c15261b2c71474a63618ecfe8d38f5beb2985b57a.s2mh",
+    "https://cn-s2-depot.necdn.leihuo.netease.com/42afeaf8be79bff738e3387c15261b2c71474a63618ecfe8d38f5beb2985b57a.s2mh"
+  ],
+  "transport_failure_endpoints": [
+    "http://us.depot.battle.net:1119/42afeaf8be79bff738e3387c15261b2c71474a63618ecfe8d38f5beb2985b57a.s2mh",
+    "http://eu.depot.battle.net:1119/42afeaf8be79bff738e3387c15261b2c71474a63618ecfe8d38f5beb2985b57a.s2mh",
+    "http://kr.depot.battle.net:1119/42afeaf8be79bff738e3387c15261b2c71474a63618ecfe8d38f5beb2985b57a.s2mh"
+  ],
+  "raw_object_body_in_allowlist": false,
+  "credentials_used": false,
+  "client_launched": false,
+  "game_cache_replays_repo_or_cloud_written": false,
+  "limitations": [
+    "No exact object was acquired, so the result provides acquisition failures rather than decode or compatibility evidence.",
+    "US/EU classic HTTPS target URLs were already404in the prior receipt and were not retried.",
+    "Alternate region URL searches do not substitute a regional package; the only acceptance guard remains the full exact expected SHA and package280539/version16.",
+    "Legacy transport errors were retained as URLError category without raw error messages; their DNS/connection causes are not separately established.",
+    "No undocumented mirror or internal/GCP/storage host was requested."
+  ]
+}
