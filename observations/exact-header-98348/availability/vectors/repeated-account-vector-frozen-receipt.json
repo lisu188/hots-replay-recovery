@@ -1,0 +1,79 @@
+{
+  "format": "hots-private-account-vector-frozen-receipt-v1",
+  "allowlisted_files": [
+    {
+      "relative_to_work": "availability-vector-ready/audit_repeated_account_vectors.py",
+      "bytes": 16195,
+      "sha256": "66fdf4a017ddaf0a8a2b816572a8bdaae6993e0f041632a7d19e3647cbada6ac"
+    },
+    {
+      "relative_to_work": "availability-vector-ready/test_audit_repeated_account_vectors.py",
+      "bytes": 7613,
+      "sha256": "14802fa1ad76f8fc3edafe6ff893fcf2d6100abacec240cb1a8e0c4f0130a309"
+    },
+    {
+      "relative_to_work": "availability-vector-ready/repeated-account-vector-comparison-13-cases-v2.json",
+      "bytes": 11782,
+      "sha256": "1b0203fe36da7e42e72d4de6062e0ae8cc8dbd745e6af1119d188b1546a83d75"
+    }
+  ],
+  "contains_player_identity_or_ownership_values": false,
+  "synthetic_tests": {
+    "tests": 16,
+    "passed": 16,
+    "skipped": 0,
+    "command": "python -B -m unittest discover -s work/availability-vector-ready -p test_*.py",
+    "coverage": "Exact/different cross-replay pair counts, two-byte mismatch bounds, all-arrangement enumeration, no-repeat control, account/position/value renaming privacy, serialization refusal, malformed inputs and cap refusal."
+  },
+  "actual_evidence": {
+    "current_cases": 13,
+    "source_manifests": {
+      "EU_binding_sha256": "413b87f7224b18020b4170542c6db1ee5b970e21936ec975efa5d92260b01464",
+      "cohort_manifest_sha256": "fc6dbc312dac9143bfe450d661f8033a04c2ce4eec51878618e2a517f8faf609"
+    },
+    "identity_schema_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+    "current_replay_bytes": 15210930,
+    "selected_decoded_member_bytes": 5412731,
+    "current_availability_bytes": 2253888,
+    "participant_column_vector_bytes": 1408680,
+    "cross_replay_pairs": 7800,
+    "all_fifteen_source_replay_digests_unchanged_including_original_R8": true,
+    "direct_pair_statistics": {
+      "different_accounts_across_replays": {
+        "different_vector_pairs": 7781,
+        "differing_pairs_mismatched_registry_rows_max": 3845,
+        "differing_pairs_mismatched_registry_rows_min": 347,
+        "differing_pairs_total_mismatched_registry_rows": 11976297,
+        "exact_vector_pairs": 0,
+        "vector_pairs": 7781
+      },
+      "same_account_across_replays": {
+        "different_vector_pairs": 7,
+        "differing_pairs_mismatched_registry_rows_max": 8,
+        "differing_pairs_mismatched_registry_rows_min": 1,
+        "differing_pairs_total_mismatched_registry_rows": 25,
+        "exact_vector_pairs": 12,
+        "vector_pairs": 19
+      }
+    },
+    "compatible_active_arrangements": 2880,
+    "maximum_same_account_exact_pairs": 12,
+    "arrangements_attaining_maximum": 2,
+    "arrangements_making_every_repeated_pair_equal": 0
+  },
+  "privacy": {
+    "raw_vectors_or_hashes_accounts_slot_IDs_presence_signatures_or_permutations_emitted": false,
+    "ownership_or_unique_semantic_mapping_inferred": false,
+    "new_license_availability_filled": false
+  },
+  "client_launched": false,
+  "network_used": false,
+  "repo_modified": false,
+  "limitations": [
+    "Private exact-byte vector equality is an observed correlation, not ownership or required-equality semantics.",
+    "The720factor belongs to six always-participating positions; only two never-participating positions contribute2empty permutations. All2880active arrangements are assessed.",
+    "Two arrangements tie for strongest same-account consistency and no arrangement makes all19repeated-account pairs equal. No mapping is selected.",
+    "Only current details participants are compared; observers/nonparticipants are excluded. Original/R8 are hash-protected without conversion.",
+    "The earlier prototype report and all raw inputs are excluded from this explicit allowlist."
+  ]
+}

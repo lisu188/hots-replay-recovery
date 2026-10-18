@@ -1,0 +1,122 @@
+{
+  "format": "hots-expanded-private-vector-frozen-receipt-v1",
+  "allowlisted_files": [
+    {
+      "relative_to_work": "availability-vector-expanded-ready/audit_expanded_account_vectors.py",
+      "bytes": 19777,
+      "sha256": "2f020152115324ef7e309807a9d988bc65b62eb8dcf6e8077988b29cdd2dd9ca"
+    },
+    {
+      "relative_to_work": "availability-vector-expanded-ready/test_audit_expanded_account_vectors.py",
+      "bytes": 4464,
+      "sha256": "1c232c528290812117fa215ccc3f061c5b1b973b25198e7e74eaaed6aa3bb3ca"
+    },
+    {
+      "relative_to_work": "availability-vector-expanded-ready/expanded-vector-comparison-up-to21-cases.json",
+      "bytes": 24436,
+      "sha256": "647ce289f873e145fad72329ace453b56a52cc9f42ff1e35ae12c47c9fd9937f"
+    }
+  ],
+  "contains_player_identity_ownership_or_cell_values": false,
+  "synthetic_tests": {
+    "tests": 12,
+    "passed": 12,
+    "skipped": 0,
+    "command": "python -B -m unittest discover -s work/availability-vector-expanded-ready -p test_*.py",
+    "coverage": "Frozen13-case comparison equivalence,21-case bounds, malformed lengths/private renaming, distinct/total/availability budgets, exact overlapping MPQ read accounting and pre-IO refusal."
+  },
+  "actual_evidence": {
+    "attempted_existing_current_controls": 21,
+    "admitted_current_controls": 21,
+    "admitted_additional_controls": 8,
+    "existing_source_or_decode_failure_count": 0,
+    "network_acquisition_attempts": 0,
+    "prior13_report_sha256": "1b0203fe36da7e42e72d4de6062e0ae8cc8dbd745e6af1119d188b1546a83d75",
+    "prior13_producer_sha256": "66fdf4a017ddaf0a8a2b816572a8bdaae6993e0f041632a7d19e3647cbada6ac",
+    "prior13_comparison_reproduced_exactly": true,
+    "source_manifests": {
+      "EU_binding_sha256": "413b87f7224b18020b4170542c6db1ee5b970e21936ec975efa5d92260b01464",
+      "cohort_manifest_sha256": "fc6dbc312dac9143bfe450d661f8033a04c2ce4eec51878618e2a517f8faf609",
+      "eight_other_map_catalog_table_sha256": "7e13c5f046c79a9ea0db240fd50c04628173568d0e838e6f89b659a744406219"
+    },
+    "all21_registry_orders_equal": true,
+    "all_source_replays_unchanged_including_original_R8": true,
+    "read_bounds": {
+      "active_arrangements": 4096,
+      "current_cases": 21,
+      "decoded_availability_bytes": 8388608,
+      "distinct_replay_input_bytes": 41943040,
+      "explicit_analysis_input_reads": 188743680
+    },
+    "actual_reads": {
+      "accounting_scope": "All explicit metadata reads, replay guard reads and every inherited MPQ file read, including overlapping header/table reads; runtime executable/import filesystem reads are excluded.",
+      "decoded_availability_bytes": 3640896,
+      "distinct_replay_input_bytes_including_original_R8_guards": 29002257,
+      "distinct_replay_input_files_including_original_R8_guards": 23,
+      "explicit_analysis_input_read_bytes": 61018250,
+      "read_byte_categories": {
+        "MPQ_file_reads": 2484664,
+        "guard_rehash_reads": 58004514,
+        "provenance_metadata": 529072
+      },
+      "selected_decoded_member_bytes": 8675407
+    },
+    "direct_pair_statistics": {
+      "different_accounts_across_replays": {
+        "different_vector_pairs": 20919,
+        "differing_pairs_mismatched_registry_rows_max": 3845,
+        "differing_pairs_mismatched_registry_rows_min": 346,
+        "differing_pairs_total_mismatched_registry_rows": 32892514,
+        "exact_vector_pairs": 0,
+        "vector_pairs": 20919
+      },
+      "same_account_across_replays": {
+        "different_vector_pairs": 22,
+        "differing_pairs_mismatched_registry_rows_max": 12,
+        "differing_pairs_mismatched_registry_rows_min": 1,
+        "differing_pairs_total_mismatched_registry_rows": 74,
+        "exact_vector_pairs": 59,
+        "vector_pairs": 81
+      }
+    },
+    "presence_constraints": {
+      "all_compatible_position_bijections": 240,
+      "always_participant_positions": 5,
+      "distinct_active_arrangements_enumerated": 240,
+      "identity_active_arrangement_checked": true,
+      "never_participant_permutations_not_enumerated": 1,
+      "never_participant_positions": 1,
+      "signature_group_sizes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        5
+      ],
+      "varying_participation_positions": 10
+    },
+    "maximum_same_account_exact_pairs": 59,
+    "arrangements_attaining_maximum": 1,
+    "arrangements_making_every_same_account_pair_equal": 0
+  },
+  "raw_vectors_hashes_account_keys_slots_presence_signatures_or_permutations_emitted": false,
+  "ownership_or_unique_semantic_mapping_inferred": false,
+  "license_availability_values_generated": false,
+  "raw_replay_header_member_written": false,
+  "client_launched": false,
+  "network_used": false,
+  "repo_modified": false,
+  "limitations": [
+    "The one arrangement attaining maximum observed consistency is a statistical result; no semantic participant-cell mapping or ownership interpretation is established or emitted.",
+    "Repeated-account differences remain observed: no arrangement makes all81repeated-account pairs equal.",
+    "Existing bound profiles supply earlier core-stream checks; this audit freshly checks actual98348build/root, fullmod/tailEOF-roundtrip and private identities/slots/seeds. Core event decoding is not rerun.",
+    "Exact read accounting covers explicit analysis metadata/replay/MPQ reads and guard rehashes, excluding runtime executable/import filesystem activity.",
+    "Previous15-case and13-case evidence remains unchanged. Only the explicit three-file allowlist is included; no raw fixtures or earlierprototype files."
+  ]
+}

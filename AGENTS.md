@@ -563,3 +563,22 @@ no cloudrawuploadattempt. EarlierEU3headerarchivepermissionquestion remains
 pending; neverretryitsrejectedcloudpayloadwithoutapproval. Thislaterreceipt
 isoutsidebackedup537555b. Original/R8 hashes recheckedunchanged.5/6USheaders,
 DataMod42afe unresolved, no client/newreplay/full-upgradecompletion.
+
+
+## Availability vectors across21current controls - 2026-10-18
+
+Read docs/AVAILABILITY_VECTORS_21_CONTROLS_2026-10-18.md and availability/vectors
+research/receipts. Frozen13:5760=2880active x2never-participant arrangements,
+12/19same-account exact,0/7781different-account exact,2statisticalmaxima.
+Extension admits all8existing other-map controls:21cases/0failures/0acquisition;
+frozen13comparison reproduced exactly.240active arrangements exhaustively
+checked,59/81same-account exact,0/20919different exact,1statisticalmaximum at
+direct working-set alignment.22same-account pairs still differ1-12rows/74total;
+no arrangement makes all81equal. No ownership or semantic mapping is selected.
+28focusedtests/no skips and independent fresh13+21JSON-exact reproductionPASS.
+Actual explicitreads61018250B/distinctreplay29002257B/availability3640896B.
+Extension fresh actual98348/root+fulltail/privatecrosschecks binds prior core
+profiles, does not rerun core event decode. Researchtests local, separate894CI.
+Private vectors/accounts/permutations absent from public output; no generated
+availability/replay/clientlaunch. Original/R8 guards unchanged, fullupgrade
+unfinished. Frozen code remains byte-preserved; see publication-bindings.json.

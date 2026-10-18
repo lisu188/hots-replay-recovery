@@ -1,0 +1,84 @@
+{
+  "format": "hots-frozen-vector-research-publication-bindings-v1",
+  "base_commit": "8efbf57929d2624954c766cf1a58b9f9c6da93ed",
+  "files": [
+    {
+      "source_relative_to_task_work": "availability-vector-ready/audit_repeated_account_vectors.py",
+      "published_path": "research/exact-header-98348/availability/vectors/audit_repeated_account_vectors.py",
+      "bytes": 16195,
+      "executed_producer_and_published_sha256": "66fdf4a017ddaf0a8a2b816572a8bdaae6993e0f041632a7d19e3647cbada6ac",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "availability-vector-ready/test_audit_repeated_account_vectors.py",
+      "published_path": "research/exact-header-98348/availability/vectors/test_audit_repeated_account_vectors.py",
+      "bytes": 7613,
+      "executed_producer_and_published_sha256": "14802fa1ad76f8fc3edafe6ff893fcf2d6100abacec240cb1a8e0c4f0130a309",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "availability-vector-ready/repeated-account-vector-comparison-13-cases-v2.json",
+      "published_path": "observations/exact-header-98348/availability/vectors/repeated-account-vector-comparison-13-cases-v2.json",
+      "bytes": 11782,
+      "executed_producer_and_published_sha256": "1b0203fe36da7e42e72d4de6062e0ae8cc8dbd745e6af1119d188b1546a83d75",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "availability-vector-ready/repeated-account-vector-frozen-receipt.json",
+      "published_path": "observations/exact-header-98348/availability/vectors/repeated-account-vector-frozen-receipt.json",
+      "bytes": 3775,
+      "executed_producer_and_published_sha256": "2ae95af61a34ecee3f83d61962f2c7a6c0e4559ed0568d7cb1094698ecff6c05",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "availability-vector-expanded-ready/audit_expanded_account_vectors.py",
+      "published_path": "research/exact-header-98348/availability/vectors/audit_expanded_account_vectors.py",
+      "bytes": 19777,
+      "executed_producer_and_published_sha256": "2f020152115324ef7e309807a9d988bc65b62eb8dcf6e8077988b29cdd2dd9ca",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "availability-vector-expanded-ready/test_audit_expanded_account_vectors.py",
+      "published_path": "research/exact-header-98348/availability/vectors/test_audit_expanded_account_vectors.py",
+      "bytes": 4464,
+      "executed_producer_and_published_sha256": "1c232c528290812117fa215ccc3f061c5b1b973b25198e7e74eaaed6aa3bb3ca",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "availability-vector-expanded-ready/expanded-vector-comparison-up-to21-cases.json",
+      "published_path": "observations/exact-header-98348/availability/vectors/expanded-vector-comparison-up-to21-cases.json",
+      "bytes": 24436,
+      "executed_producer_and_published_sha256": "647ce289f873e145fad72329ace453b56a52cc9f42ff1e35ae12c47c9fd9937f",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "availability-vector-expanded-ready/expanded-vector-frozen-receipt.json",
+      "published_path": "observations/exact-header-98348/availability/vectors/expanded-vector-frozen-receipt.json",
+      "bytes": 5619,
+      "executed_producer_and_published_sha256": "cfc588f7d607501120dd4ed5088d01dc3d1288327f5be3807418c05632ae559b",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "availability-vector-independent-review/availability-vector-independent-review.json",
+      "published_path": "observations/exact-header-98348/availability/vectors/availability-vector-independent-review.json",
+      "bytes": 4908,
+      "executed_producer_and_published_sha256": "f4bcf780b12e81b9f948358abebf62b43a626f5fd32955488c53779e4fb4711a",
+      "byte_preserved": true
+    },
+    {
+      "source_relative_to_task_work": "availability-vector-independent-review/verify_vector_audits.py",
+      "published_path": "research/exact-header-98348/availability/vectors/verify_vector_audits.py",
+      "bytes": 8472,
+      "executed_producer_and_published_sha256": "a14a87bec6d30fd8e3dce6c475ae21fea01de9fca0c92d0fbbdf98f97262f485",
+      "byte_preserved": true
+    }
+  ],
+  "raw_replays_headers_Galaxy_text_or_private_vectors_published": false,
+  "root_review": {
+    "all_frozen_hashes_verified": true,
+    "source_and_report_scope_inspected": true,
+    "independent_actual13_and21_JSON_reproductions_reviewed": true,
+    "unique_statistical_maximum_does_not_select_semantic_mapping": true,
+    "focused_tests_are_local_not_hosted_CI": true
+  }
+}

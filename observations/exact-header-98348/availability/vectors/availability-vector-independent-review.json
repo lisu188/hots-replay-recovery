@@ -1,0 +1,85 @@
+{
+  "client_launched": false,
+  "focused_test_failures_errors_or_skips": 0,
+  "focused_tests_run": 28,
+  "format": "hots-frozen-vector-audits-independent-review-v1",
+  "fresh_hash_bound_aggregate_recomputations": [
+    {
+      "active_arrangements_attaining_maximum": 2,
+      "active_arrangements_exhaustively_checked": 2880,
+      "cases": 13,
+      "different_account_exact_pairs": 0,
+      "different_account_pairs": 7781,
+      "elapsed_seconds": 10.734,
+      "fresh_JSON_values_exactly_match_frozen_report": true,
+      "identity_reaches_statistical_maximum": true,
+      "maximum_same_account_exact_pairs": 12,
+      "never_participant_permutations_counted_separately": 2,
+      "presence_bijections": 5760,
+      "same_account_exact_pairs": 12,
+      "same_account_pairs": 19
+    },
+    {
+      "active_arrangements_attaining_maximum": 1,
+      "active_arrangements_exhaustively_checked": 240,
+      "cases": 21,
+      "different_account_exact_pairs": 0,
+      "different_account_pairs": 20919,
+      "elapsed_seconds": 27.016,
+      "fresh_JSON_values_exactly_match_frozen_report": true,
+      "identity_reaches_statistical_maximum": true,
+      "input_read_accounting": {
+        "accounting_scope": "All explicit metadata reads, replay guard reads and every inherited MPQ file read, including overlapping header/table reads; runtime executable/import filesystem reads are excluded.",
+        "decoded_availability_bytes": 3640896,
+        "distinct_replay_input_bytes_including_original_R8_guards": 29002257,
+        "distinct_replay_input_files_including_original_R8_guards": 23,
+        "explicit_analysis_input_read_bytes": 61018250,
+        "read_byte_categories": {
+          "MPQ_file_reads": 2484664,
+          "guard_rehash_reads": 58004514,
+          "provenance_metadata": 529072
+        },
+        "selected_decoded_member_bytes": 8675407
+      },
+      "maximum_same_account_exact_pairs": 59,
+      "never_participant_permutations_counted_separately": 1,
+      "presence_bijections": 240,
+      "same_account_exact_pairs": 59,
+      "same_account_pairs": 81
+    }
+  ],
+  "frozen_sources_and_reports_unchanged": true,
+  "limits": [
+    "Fresh computations reproduce the reviewed producers; they are not an independent ownership model.",
+    "The 13-case producer binds existing current context through pinned replay/manifests; the 21-case extension additionally checks fresh actual header build/base/data/root and bound prior core profiles.",
+    "Unique statistical maximum at identity is an observed correlation; no participant-to-cell semantic mapping, entitlement or migration rule is selected.",
+    "Runtime executable/import filesystem reads are outside the declared explicit analysis-input accounting scope."
+  ],
+  "network_requests": 0,
+  "replay_header_or_member_written": false,
+  "repo_modified": false,
+  "review_source_sha256": "a14a87bec6d30fd8e3dce6c475ae21fea01de9fca0c92d0fbbdf98f97262f485",
+  "reviewed_input_pins": {
+    "availability-vector-expanded-ready/audit_expanded_account_vectors.py": "2f020152115324ef7e309807a9d988bc65b62eb8dcf6e8077988b29cdd2dd9ca",
+    "availability-vector-expanded-ready/expanded-vector-comparison-up-to21-cases.json": "647ce289f873e145fad72329ace453b56a52cc9f42ff1e35ae12c47c9fd9937f",
+    "availability-vector-expanded-ready/expanded-vector-frozen-receipt.json": "cfc588f7d607501120dd4ed5088d01dc3d1288327f5be3807418c05632ae559b",
+    "availability-vector-expanded-ready/test_audit_expanded_account_vectors.py": "1c232c528290812117fa215ccc3f061c5b1b973b25198e7e74eaaed6aa3bb3ca",
+    "availability-vector-ready/audit_repeated_account_vectors.py": "66fdf4a017ddaf0a8a2b816572a8bdaae6993e0f041632a7d19e3647cbada6ac",
+    "availability-vector-ready/repeated-account-vector-comparison-13-cases-v2.json": "1b0203fe36da7e42e72d4de6062e0ae8cc8dbd745e6af1119d188b1546a83d75",
+    "availability-vector-ready/repeated-account-vector-frozen-receipt.json": "2ae95af61a34ecee3f83d61962f2c7a6c0e4559ed0568d7cb1094698ecff6c05",
+    "availability-vector-ready/test_audit_repeated_account_vectors.py": "14802fa1ad76f8fc3edafe6ff893fcf2d6100abacec240cb1a8e0c4f0130a309"
+  },
+  "source_review": {
+    "all_active_presence_arrangements_exhaustively_checked_without_truncation": true,
+    "canonical_protocol_SHA_required": true,
+    "exact_bytes_used_for_private_vector_equality": true,
+    "full_tail_EOF_and_same_profile_roundtrip_gates": true,
+    "no_material_findings_in_reviewed_actual_input_scope": true,
+    "no_private_vector_values_hashes_account_keys_slots_signatures_or_permutations_emitted": true,
+    "no_semantic_mapping_or_ownership_adopted": true,
+    "private_details_initdata_tail_identity_position_and_seed_gates": true,
+    "same_ordered_5418_registry_required": true,
+    "thirteen_case_context_uses_existing_hash_pinned_provenance": true,
+    "twenty_one_case_fresh_build_base_data_root_and_bound_core_profile_gates": true
+  }
+}
