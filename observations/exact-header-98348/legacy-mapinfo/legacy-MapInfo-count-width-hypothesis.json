@@ -1,0 +1,445 @@
+{
+  "all_three_source_before_after_sha256_guards_passed": true,
+  "authenticated_current_schema_sha256": "3900a63c0799474becd2ecfb03eece4f8c523a965b38e539264867d5cdf2075c",
+  "cases": [
+    {
+      "actual_header_build": 41810,
+      "baseline_entries": 5,
+      "baseline_full_member_roundtrip_exact": true,
+      "entries": [
+        {
+          "baseline_end_bit": 206448,
+          "baseline_start_bit": 205187,
+          "derived_7bit_count_graph": {
+            "all_32_root_fields_contiguous": true,
+            "arcade_section_boundaries_match_where_present": true,
+            "end_and_handle_pair_equal_baseline": true,
+            "final_two_widths": [
+              1,
+              7
+            ],
+            "independent_token_span_reconstruction_exact": true,
+            "permission_count": 0,
+            "status": "structurally_consistent"
+          },
+          "index": 0,
+          "unmodified_current_graph": {
+            "end_bit": 270216,
+            "historical_entry_end_equal": false,
+            "status": "decoded"
+          }
+        },
+        {
+          "baseline_end_bit": 208088,
+          "baseline_start_bit": 206448,
+          "derived_7bit_count_graph": {
+            "all_32_root_fields_contiguous": true,
+            "arcade_section_boundaries_match_where_present": true,
+            "end_and_handle_pair_equal_baseline": true,
+            "final_two_widths": [
+              1,
+              7
+            ],
+            "independent_token_span_reconstruction_exact": true,
+            "permission_count": 0,
+            "status": "structurally_consistent"
+          },
+          "index": 1,
+          "unmodified_current_graph": {
+            "end_bit": 271856,
+            "historical_entry_end_equal": false,
+            "status": "decoded"
+          }
+        },
+        {
+          "baseline_end_bit": 209376,
+          "baseline_start_bit": 208088,
+          "derived_7bit_count_graph": {
+            "all_32_root_fields_contiguous": true,
+            "arcade_section_boundaries_match_where_present": true,
+            "end_and_handle_pair_equal_baseline": true,
+            "final_two_widths": [
+              1,
+              7
+            ],
+            "independent_token_span_reconstruction_exact": true,
+            "permission_count": 0,
+            "status": "structurally_consistent"
+          },
+          "index": 2,
+          "unmodified_current_graph": {
+            "end_bit": 273144,
+            "historical_entry_end_equal": false,
+            "status": "decoded"
+          }
+        },
+        {
+          "baseline_end_bit": 211566,
+          "baseline_start_bit": 209376,
+          "derived_7bit_count_graph": {
+            "all_32_root_fields_contiguous": true,
+            "arcade_section_boundaries_match_where_present": true,
+            "end_and_handle_pair_equal_baseline": true,
+            "final_two_widths": [
+              1,
+              7
+            ],
+            "independent_token_span_reconstruction_exact": true,
+            "permission_count": 0,
+            "status": "structurally_consistent"
+          },
+          "index": 3,
+          "unmodified_current_graph": {
+            "end_bit": 276102,
+            "historical_entry_end_equal": false,
+            "status": "decoded"
+          }
+        },
+        {
+          "baseline_end_bit": 214289,
+          "baseline_start_bit": 211566,
+          "derived_7bit_count_graph": {
+            "all_32_root_fields_contiguous": true,
+            "arcade_section_boundaries_match_where_present": true,
+            "end_and_handle_pair_equal_baseline": true,
+            "final_two_widths": [
+              1,
+              7
+            ],
+            "independent_token_span_reconstruction_exact": true,
+            "permission_count": 0,
+            "status": "structurally_consistent"
+          },
+          "index": 4,
+          "unmodified_current_graph": {
+            "exception_class": "LayerError",
+            "exception_message_emitted": false,
+            "field_path": "/m_requiredPermissions",
+            "implied_payload_exceeds_remaining_member": true,
+            "implied_permission_payload_bits": 131491296,
+            "kind": "ARRAY",
+            "permission_count_positive": true,
+            "reader_bit_at_failure": 214313,
+            "start_bit": 214282,
+            "status": "failed",
+            "type_id": 1828
+          }
+        }
+      ],
+      "historical_profile": "historical-fixed",
+      "id": "original41810",
+      "member_sha256": "beea9c9b29a7f1a73806fe37b393f453c84a7faed8d6f89a5b4fcd25967f1f44",
+      "replay_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824"
+    },
+    {
+      "actual_header_build": 98285,
+      "baseline_entries": 5,
+      "baseline_full_member_roundtrip_exact": true,
+      "entries": [
+        {
+          "baseline_end_bit": 207824,
+          "baseline_start_bit": 206563,
+          "derived_7bit_count_graph": {
+            "all_32_root_fields_contiguous": true,
+            "arcade_section_boundaries_match_where_present": true,
+            "end_and_handle_pair_equal_baseline": true,
+            "final_two_widths": [
+              1,
+              7
+            ],
+            "independent_token_span_reconstruction_exact": true,
+            "permission_count": 0,
+            "status": "structurally_consistent"
+          },
+          "index": 0,
+          "unmodified_current_graph": {
+            "end_bit": 271592,
+            "historical_entry_end_equal": false,
+            "status": "decoded"
+          }
+        },
+        {
+          "baseline_end_bit": 209464,
+          "baseline_start_bit": 207824,
+          "derived_7bit_count_graph": {
+            "all_32_root_fields_contiguous": true,
+            "arcade_section_boundaries_match_where_present": true,
+            "end_and_handle_pair_equal_baseline": true,
+            "final_two_widths": [
+              1,
+              7
+            ],
+            "independent_token_span_reconstruction_exact": true,
+            "permission_count": 0,
+            "status": "structurally_consistent"
+          },
+          "index": 1,
+          "unmodified_current_graph": {
+            "end_bit": 273232,
+            "historical_entry_end_equal": false,
+            "status": "decoded"
+          }
+        },
+        {
+          "baseline_end_bit": 210752,
+          "baseline_start_bit": 209464,
+          "derived_7bit_count_graph": {
+            "all_32_root_fields_contiguous": true,
+            "arcade_section_boundaries_match_where_present": true,
+            "end_and_handle_pair_equal_baseline": true,
+            "final_two_widths": [
+              1,
+              7
+            ],
+            "independent_token_span_reconstruction_exact": true,
+            "permission_count": 0,
+            "status": "structurally_consistent"
+          },
+          "index": 2,
+          "unmodified_current_graph": {
+            "end_bit": 274520,
+            "historical_entry_end_equal": false,
+            "status": "decoded"
+          }
+        },
+        {
+          "baseline_end_bit": 212942,
+          "baseline_start_bit": 210752,
+          "derived_7bit_count_graph": {
+            "all_32_root_fields_contiguous": true,
+            "arcade_section_boundaries_match_where_present": true,
+            "end_and_handle_pair_equal_baseline": true,
+            "final_two_widths": [
+              1,
+              7
+            ],
+            "independent_token_span_reconstruction_exact": true,
+            "permission_count": 0,
+            "status": "structurally_consistent"
+          },
+          "index": 3,
+          "unmodified_current_graph": {
+            "end_bit": 277478,
+            "historical_entry_end_equal": false,
+            "status": "decoded"
+          }
+        },
+        {
+          "baseline_end_bit": 215665,
+          "baseline_start_bit": 212942,
+          "derived_7bit_count_graph": {
+            "all_32_root_fields_contiguous": true,
+            "arcade_section_boundaries_match_where_present": true,
+            "end_and_handle_pair_equal_baseline": true,
+            "final_two_widths": [
+              1,
+              7
+            ],
+            "independent_token_span_reconstruction_exact": true,
+            "permission_count": 0,
+            "status": "structurally_consistent"
+          },
+          "index": 4,
+          "unmodified_current_graph": {
+            "exception_class": "LayerError",
+            "exception_message_emitted": false,
+            "field_path": "/m_requiredPermissions",
+            "implied_payload_exceeds_remaining_member": true,
+            "implied_permission_payload_bits": 131491296,
+            "kind": "ARRAY",
+            "permission_count_positive": true,
+            "reader_bit_at_failure": 215689,
+            "start_bit": 215658,
+            "status": "failed",
+            "type_id": 1828
+          }
+        }
+      ],
+      "historical_profile": "historical-fixed",
+      "id": "R8",
+      "member_sha256": "2902a33a450491e8717a8006cef4627f2c12d1c0b854fc4f698dc1de0ade9640",
+      "replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19"
+    },
+    {
+      "actual_header_build": 39445,
+      "baseline_entries": 6,
+      "baseline_full_member_roundtrip_exact": true,
+      "entries": [
+        {
+          "baseline_end_bit": 192832,
+          "baseline_start_bit": 191599,
+          "derived_7bit_count_graph": {
+            "all_32_root_fields_contiguous": true,
+            "arcade_section_boundaries_match_where_present": true,
+            "end_and_handle_pair_equal_baseline": true,
+            "final_two_widths": [
+              1,
+              7
+            ],
+            "independent_token_span_reconstruction_exact": true,
+            "permission_count": 0,
+            "status": "structurally_consistent"
+          },
+          "index": 0,
+          "unmodified_current_graph": {
+            "end_bit": 284152,
+            "historical_entry_end_equal": false,
+            "status": "decoded"
+          }
+        },
+        {
+          "baseline_end_bit": 194448,
+          "baseline_start_bit": 192832,
+          "derived_7bit_count_graph": {
+            "all_32_root_fields_contiguous": true,
+            "arcade_section_boundaries_match_where_present": true,
+            "end_and_handle_pair_equal_baseline": true,
+            "final_two_widths": [
+              1,
+              7
+            ],
+            "independent_token_span_reconstruction_exact": true,
+            "permission_count": 0,
+            "status": "structurally_consistent"
+          },
+          "index": 1,
+          "unmodified_current_graph": {
+            "end_bit": 285768,
+            "historical_entry_end_equal": false,
+            "status": "decoded"
+          }
+        },
+        {
+          "baseline_end_bit": 195712,
+          "baseline_start_bit": 194448,
+          "derived_7bit_count_graph": {
+            "all_32_root_fields_contiguous": true,
+            "arcade_section_boundaries_match_where_present": true,
+            "end_and_handle_pair_equal_baseline": true,
+            "final_two_widths": [
+              1,
+              7
+            ],
+            "independent_token_span_reconstruction_exact": true,
+            "permission_count": 0,
+            "status": "structurally_consistent"
+          },
+          "index": 2,
+          "unmodified_current_graph": {
+            "end_bit": 287032,
+            "historical_entry_end_equal": false,
+            "status": "decoded"
+          }
+        },
+        {
+          "baseline_end_bit": 197878,
+          "baseline_start_bit": 195712,
+          "derived_7bit_count_graph": {
+            "all_32_root_fields_contiguous": true,
+            "arcade_section_boundaries_match_where_present": true,
+            "end_and_handle_pair_equal_baseline": true,
+            "final_two_widths": [
+              1,
+              7
+            ],
+            "independent_token_span_reconstruction_exact": true,
+            "permission_count": 0,
+            "status": "structurally_consistent"
+          },
+          "index": 3,
+          "unmodified_current_graph": {
+            "end_bit": 296302,
+            "historical_entry_end_equal": false,
+            "status": "decoded"
+          }
+        },
+        {
+          "baseline_end_bit": 199662,
+          "baseline_start_bit": 197878,
+          "derived_7bit_count_graph": {
+            "all_32_root_fields_contiguous": true,
+            "arcade_section_boundaries_match_where_present": true,
+            "end_and_handle_pair_equal_baseline": true,
+            "final_two_widths": [
+              1,
+              7
+            ],
+            "independent_token_span_reconstruction_exact": true,
+            "permission_count": 0,
+            "status": "structurally_consistent"
+          },
+          "index": 4,
+          "unmodified_current_graph": {
+            "end_bit": 298086,
+            "historical_entry_end_equal": false,
+            "status": "decoded"
+          }
+        },
+        {
+          "baseline_end_bit": 202041,
+          "baseline_start_bit": 199662,
+          "derived_7bit_count_graph": {
+            "all_32_root_fields_contiguous": true,
+            "arcade_section_boundaries_match_where_present": true,
+            "end_and_handle_pair_equal_baseline": true,
+            "final_two_widths": [
+              1,
+              7
+            ],
+            "independent_token_span_reconstruction_exact": true,
+            "permission_count": 0,
+            "status": "structurally_consistent"
+          },
+          "index": 5,
+          "unmodified_current_graph": {
+            "exception_class": "LayerError",
+            "exception_message_emitted": false,
+            "field_path": "/m_requiredPermissions",
+            "implied_payload_exceeds_remaining_member": true,
+            "implied_permission_payload_bits": 156657120,
+            "kind": "ARRAY",
+            "permission_count_positive": true,
+            "reader_bit_at_failure": 202065,
+            "start_bit": 202034,
+            "status": "failed",
+            "type_id": 1828
+          }
+        }
+      ],
+      "historical_profile": "historical-fixed",
+      "id": "authenticated39445",
+      "member_sha256": "4deae39a1656618254667ae161b6dec0e7173a0e6e9dedb365ca5cce319adbc1",
+      "replay_sha256": "32803cf56e4377a18ea74c908af3d840637faeb7803aaca943f8807ade70ba87"
+    }
+  ],
+  "changed_current_graph_paths_only": {
+    "records/1828/bounds/bits": {
+      "from": 31,
+      "to": 7
+    },
+    "records/1828/bounds/max": {
+      "from": 2147483647,
+      "to": 127
+    }
+  },
+  "client_network_or_PE_used": false,
+  "format": "hots-derived-legacy-MapInfo-count-width-hypothesis-v1",
+  "interpretation": "Only one derived current-graph alteration was tested. A structural fit and exact source-span reencoding do not authenticate historical field names, permission semantics or a transformation. The frozen historical metadata baseline remains independent.",
+  "old_schema_authenticated": false,
+  "old_to_current_conversion_rule_proven": false,
+  "original_R8_hypothesis_wire_tokens_equal_in_order": true,
+  "production_profiles_or_schema_modified": false,
+  "replay_disk_read_bytes_including_before_after_guards": 7452084,
+  "replay_header_or_private_data_written": false,
+  "source_hashes": {
+    "audit_battlelobby_mod_metadata.py": "8dad2d923957cdfc44bec5690fe075c16d6e204651e09cc88cbf8503abcdd7c9",
+    "battlelobby_arcade_sections.py": "7ab101128268a5a838771760f80a8e3975020ddcaa1d58f12351d21a2190bf27",
+    "battlelobby_attribute_layer.py": "3faf056fa8123f66e73dd551fcab2fb05fd9ccba5643826ec6835c771672aeee",
+    "mpq_reader.py": "9e940dae67c5d457483c814e6169e6e5d0a1cc5a1dcfdbd76dcf9026f1fa0033",
+    "native_clientinfo.py": "e0abd0b674c97b87f6a1510edc08704eebeca0ad9d43ac0537d5eaaa3eb9b202",
+    "native_mapinfo.py": "b7bd41881c171a606fa3fe5844590e8d935d5ed2e42cb418cd2fcbc859710810",
+    "native_mapinfo_schema_98348.json": "3900a63c0799474becd2ecfb03eece4f8c523a965b38e539264867d5cdf2075c",
+    "probe_legacy_mapinfo.py": "49c5629669306b88c74be6eb745d6d88eb2088031dd6b5bcaf5583fb28456c7e",
+    "verify_native_mapinfo_review.py": "4e5825d5a416b6278e8a087d29ae5ddd91c291f9f2b04fc26bf2481e68e7e624"
+  }
+}

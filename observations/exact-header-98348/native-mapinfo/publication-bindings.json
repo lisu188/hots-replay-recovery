@@ -1,0 +1,183 @@
+{
+  "actual21control_records": 136,
+  "base_commit": "810e00857a5100ac933ed1c2bc2693d3846b8f96",
+  "client_launched": false,
+  "files": [
+    {
+      "byte_preserved": true,
+      "bytes": 8923,
+      "git_blob_sha1": "f2fd8cd2c059c93ca21e0b475c656847d717e55a",
+      "sha256": "b7bd41881c171a606fa3fe5844590e8d935d5ed2e42cb418cd2fcbc859710810",
+      "source": "work/native-mapinfo-ready/native_mapinfo.py",
+      "target": "native_mapinfo.py"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 45724,
+      "git_blob_sha1": "d9e59d7684bf4d5c164656cdea81643890e55f2d",
+      "sha256": "3900a63c0799474becd2ecfb03eece4f8c523a965b38e539264867d5cdf2075c",
+      "source": "work/native-mapinfo-ready/native_mapinfo_schema_98348.json",
+      "target": "native_mapinfo_schema_98348.json"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 12858,
+      "git_blob_sha1": "56522f53c5b1ed6600d3daa783f253027a72425e",
+      "sha256": "f5a506596d3f00ae9b73d9e957f9aa5b1191da72b0897bf551d6569703f6a757",
+      "source": "work/native-mapinfo-ready/test_native_mapinfo.py",
+      "target": "test_native_mapinfo.py"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 4036,
+      "git_blob_sha1": "cf3a344661a2b3c308cdddc83cc38884d5cc899a",
+      "sha256": "41f1103a2a7370bf8113a57d243687d2f8c6c16204b4d5f7afd03ddbfc48573f",
+      "source": "work/native-mapinfo-ready/README_NATIVE_MAPINFO.md",
+      "target": "docs/NATIVE_MAPINFO_2026-10-19.md"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 9307,
+      "git_blob_sha1": "d8d83c5a726b0595a46f5c60f6b79fbbb7886dcf",
+      "sha256": "9e2e0489fb0988e8830ff4dc87bb53675f88a847f5182e3e12d97785b191cf52",
+      "source": "work/native-mapinfo-ready/bind_native_mapinfo_controls.py",
+      "target": "research/exact-header-98348/native-mapinfo/bind_native_mapinfo_controls.py"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 1894,
+      "git_blob_sha1": "e6baebacb4728be57b2abdd780aa345c0c29e484",
+      "sha256": "c54bd9562638583420e953a8c31820ebd4b389352f5cf583eaa3b37c586c239f",
+      "source": "work/project_native_mapinfo.py",
+      "target": "research/exact-header-98348/native-mapinfo/project_native_mapinfo.py"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 9915,
+      "git_blob_sha1": "4c29b8cbdad78e4bd723ca88ae2c8c751ef11cf2",
+      "sha256": "4e5825d5a416b6278e8a087d29ae5ddd91c291f9f2b04fc26bf2481e68e7e624",
+      "source": "work/native-mapinfo-review/verify_native_mapinfo_review.py",
+      "target": "research/exact-header-98348/native-mapinfo/verify_native_mapinfo_review.py"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 31362,
+      "git_blob_sha1": "565e1c4e0d06c48449f598158a2d9ca906281b48",
+      "sha256": "2188684e79939cdd2c08929de0e9ca798def21b7865d65d1567abd6591713154",
+      "source": "work/native-mapinfo-ready/native-mapinfo-21case-binding.json",
+      "target": "observations/exact-header-98348/native-mapinfo/native-mapinfo-21case-binding.json"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 3936,
+      "git_blob_sha1": "37bc0b362939e3dba8757b40ba3b0ee9ad6512db",
+      "sha256": "c6532152b8e6c375de7d7f3a0d38fd0b1dcd38f4f252986b6a26f1ec8d18543e",
+      "source": "work/native-mapinfo-review/native-mapinfo-independent-review.json",
+      "target": "observations/exact-header-98348/native-mapinfo/native-mapinfo-independent-review.json"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 2133,
+      "git_blob_sha1": "cf7baae1810afa8000e1cf9977c35de1b3bc229c",
+      "sha256": "2817a3efe2319abc4680558c894c57ca5535ff692456dd3e8bd94a9f15f3837f",
+      "source": "work/native-mapinfo-ready/native-mapinfo-frozen-receipt.json",
+      "target": "observations/exact-header-98348/native-mapinfo/native-mapinfo-frozen-receipt.json"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 12794,
+      "git_blob_sha1": "dc2f570de4900171810c54e3aebc894067576520",
+      "sha256": "49c5629669306b88c74be6eb745d6d88eb2088031dd6b5bcaf5583fb28456c7e",
+      "source": "work/legacy-mapinfo-hypothesis/probe_legacy_mapinfo.py",
+      "target": "research/exact-header-98348/legacy-mapinfo/probe_legacy_mapinfo.py"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 16237,
+      "git_blob_sha1": "4f9a4079f1c01ceb00da7d05bbce62c0b068e78e",
+      "sha256": "de29dfe84d6906fda09768c7e545d8c1053e641e44d21372692b0f45d6529477",
+      "source": "work/legacy-mapinfo-hypothesis/legacy-MapInfo-count-width-hypothesis.json",
+      "target": "observations/exact-header-98348/legacy-mapinfo/legacy-MapInfo-count-width-hypothesis.json"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 1062,
+      "git_blob_sha1": "01ba546b691531daa0c639966f475164d2c76b4d",
+      "sha256": "94da8731efc5a550dcb584f28cc73eb39c18f602361e93ef8189800cf9a1d38c",
+      "source": "work/legacy-mapinfo-hypothesis/legacy-MapInfo-frozen-receipt.json",
+      "target": "observations/exact-header-98348/legacy-mapinfo/legacy-MapInfo-frozen-receipt.json"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 2915,
+      "git_blob_sha1": "a0e2c53937fdd5f77f6dfcb8c45075bf09f6d86e",
+      "sha256": "69d6f3120851f94cc85a60e6eda2321ceb88464fc423808b092f4767da727e19",
+      "source": "work/legacy-mapinfo-hypothesis/README.md",
+      "target": "docs/LEGACY_MAPINFO_COUNT_CONSTRAINT_2026-10-19.md"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 3394,
+      "git_blob_sha1": "1d534d55c928354dedea0f0a29c90095e2edd959",
+      "sha256": "bd4928c718378fc4208e34ba795f725603e6e7dbb23499da151cebb5c019124c",
+      "source": "work/current-header-field-exposure/project_header_field_graph.py",
+      "target": "research/exact-header-98348/header-field-exposure/project_header_field_graph.py"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 93202,
+      "git_blob_sha1": "2159308ab2ca491dee497b00464d447e2c153a5d",
+      "sha256": "56fa4fedd97e63737c2c575e63c728d9389d015243ff6acd25020c4d62834147",
+      "source": "work/current-header-field-exposure/native-header-mapinfo-selected-graph.json",
+      "target": "observations/exact-header-98348/header-field-exposure/native-header-mapinfo-selected-graph.json"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 24067,
+      "git_blob_sha1": "9472e779abed607183108a88977b23ddf975c76e",
+      "sha256": "4a5a7b8483413ea40b49c1ce49d1fd78dd54649ccecaa7c04e9c090cc683dac0",
+      "source": "work/current-header-field-exposure/review_header_field_exposure.py",
+      "target": "research/exact-header-98348/header-field-exposure/review_header_field_exposure.py"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 5855,
+      "git_blob_sha1": "b4aad150ea08891974dae418722fc86c8f1907d2",
+      "sha256": "394b289bc8d081c23e192f71a9a1f66805c90d27d8f4db7581695fa28edf5fac",
+      "source": "work/current-header-field-exposure/test_header_field_exposure.py",
+      "target": "research/exact-header-98348/header-field-exposure/test_header_field_exposure.py"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 45284,
+      "git_blob_sha1": "d9a0af94fb41678683a970c2dcfe4959e928ed5c",
+      "sha256": "e5c2bf46ee0253962f9fb9dd316dbbef0256399b370a86e643bbc9faca751c66",
+      "source": "work/current-header-field-exposure/native-mapinfo-header-field-exposure-v2.json",
+      "target": "observations/exact-header-98348/header-field-exposure/native-mapinfo-header-field-exposure-v2.json"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 3857,
+      "git_blob_sha1": "02bb6b7e9758d6ce3aec6f1858358df3c0a80207",
+      "sha256": "a2c192cc14218f9dfc51c4e198506762520ab0b1175e1bcc10214f48fe3d7fbe",
+      "source": "work/current-header-field-exposure/freeze_header_field_exposure.py",
+      "target": "research/exact-header-98348/header-field-exposure/freeze_header_field_exposure.py"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 3029,
+      "git_blob_sha1": "af4bda0d7354fe8811ef457be3822aa20166e6ed",
+      "sha256": "0688123a2a103f23514db67b288f40b9119690139b8927b17868d4a809d6b788",
+      "source": "work/current-header-field-exposure/header-field-exposure-frozen-receipt.json",
+      "target": "observations/exact-header-98348/header-field-exposure/header-field-exposure-frozen-receipt.json"
+    }
+  ],
+  "format": "hots-native-mapinfo-publication-binding-v1",
+  "frozen_sources_preserved_without_normalization": true,
+  "full_upgrade_complete": false,
+  "independent_actual_records": 6,
+  "local_focused_tests_passed": 13,
+  "new_hosted_CI_result_claimed": false,
+  "raw_inputs_included": false,
+  "workflow_sha256": "d250eddd22a6f2452664f57c891f30416b70bfb224f6195ad177383c043f2059"
+}

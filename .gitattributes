@@ -17,3 +17,7 @@ observations/exact-header-98348/** -text whitespace=cr-at-eol
 native_clientinfo.py -text whitespace=cr-at-eol
 test_native_clientinfo.py -text whitespace=cr-at-eol
 native_clientinfo_schema_98348.json -text whitespace=cr-at-eol
+
+native_mapinfo.py -text whitespace=cr-at-eol
+test_native_mapinfo.py -text whitespace=cr-at-eol
+native_mapinfo_schema_98348.json -text whitespace=cr-at-eol

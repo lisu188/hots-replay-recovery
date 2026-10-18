@@ -1,0 +1,2516 @@
+{
+  "format": "hots-authenticated-native-MapInfo-selected-closure-v1",
+  "ordered_root_fields": [
+    "m_handle",
+    "m_mapVersion",
+    "m_mapName",
+    "m_mapDescription",
+    "m_mapThumbnail",
+    "m_bigMap",
+    "m_maxPlayers",
+    "m_visualFiles",
+    "m_authorRealName",
+    "m_authorToonName",
+    "m_authorToonHandle",
+    "m_mapSize",
+    "m_tileset",
+    "m_labels",
+    "m_defaultVariantIndex",
+    "m_variants",
+    "m_isLinked",
+    "m_isLocked",
+    "m_isPrivate",
+    "m_isMod",
+    "m_isExtensionMod",
+    "m_isSkipInitialDownload",
+    "m_isMelee",
+    "m_isCluster",
+    "m_clusterParent",
+    "m_clusterChildren",
+    "m_isHiddenLobby",
+    "m_profileRecordAddress",
+    "m_arcadeGameInfo",
+    "m_extraDependencies",
+    "m_addMultiMod",
+    "m_requiredPermissions"
+  ],
+  "private_author_or_player_values_included": false,
+  "profile": "mapinfo-98348",
+  "raw_PE_or_full_BSN_blob_included": false,
+  "records": [
+    {
+      "bounds": {
+        "bits": 32,
+        "int_type": 5,
+        "max": 4294967295,
+        "min": 0,
+        "variable": true
+      },
+      "bytes": 11,
+      "header": 9,
+      "id": 1,
+      "kind": "INT",
+      "name": "Battlenet::u32",
+      "offset": 33345
+    },
+    {
+      "bounds": {
+        "bits": 6,
+        "int_type": 1,
+        "max": 32,
+        "min": 0,
+        "variable": true
+      },
+      "bytes": 5,
+      "header": 15,
+      "id": 3,
+      "kind": "STRING",
+      "name": "Battlenet::Account::NamePart",
+      "offset": 33363
+    },
+    {
+      "bounds": {
+        "bits": 1,
+        "int_type": 1,
+        "max": 1,
+        "min": 0,
+        "variable": false
+      },
+      "bytes": 13,
+      "count": 2,
+      "field_names": [
+        "m_givenName",
+        "m_surname"
+      ],
+      "field_types": [
+        5,
+        6
+      ],
+      "header": 206,
+      "id": 4,
+      "kind": "STRUCT",
+      "name": "Battlenet::Account::FullName",
+      "offset": 33368,
+      "tags": [
+        0,
+        1
+      ]
+    },
+    {
+      "bytes": 5,
+      "element_type": 3,
+      "header": 16,
+      "id": 5,
+      "kind": "USER",
+      "name": null,
+      "offset": 33381
+    },
+    {
+      "bytes": 5,
+      "element_type": 3,
+      "header": 16,
+      "id": 6,
+      "kind": "USER",
+      "name": null,
+      "offset": 33386
+    },
+    {
+      "bounds": {
+        "bits": 8,
+        "int_type": 1,
+        "max": 255,
+        "min": 0,
+        "variable": true
+      },
+      "bytes": 5,
+      "header": 9,
+      "id": 9,
+      "kind": "INT",
+      "name": "Battlenet::u8",
+      "offset": 33401
+    },
+    {
+      "bounds": {
+        "bits": 64,
+        "int_type": 7,
+        "max": 18446744073709551615,
+        "min": 0,
+        "variable": true
+      },
+      "bytes": 19,
+      "header": 9,
+      "id": 17,
+      "kind": "INT",
+      "name": "Battlenet::u64",
+      "offset": 33486
+    },
+    {
+      "bytes": 1,
+      "header": 8,
+      "id": 41,
+      "kind": "FOURCC",
+      "name": "Battlenet::Program::Id",
+      "offset": 34089
+    },
+    {
+      "bounds": {
+        "bits": 16,
+        "int_type": 3,
+        "max": 65535,
+        "min": 0,
+        "variable": true
+      },
+      "bytes": 7,
+      "header": 9,
+      "id": 58,
+      "kind": "INT",
+      "name": "Battlenet::u16",
+      "offset": 34350
+    },
+    {
+      "bounds": {
+        "bits": 0,
+        "int_type": 1,
+        "max": 40,
+        "min": 40,
+        "variable": false
+      },
+      "bytes": 3,
+      "header": 132,
+      "id": 136,
+      "kind": "BLOB",
+      "name": "Battlenet::Cache::Handle",
+      "offset": 35115
+    },
+    {
+      "bounds": {
+        "bits": 4,
+        "int_type": 1,
+        "max": 16,
+        "min": 1,
+        "variable": true
+      },
+      "bytes": 5,
+      "header": 9,
+      "id": 147,
+      "kind": "INT",
+      "name": "Battlenet::Attribute::MaxPlayers",
+      "offset": 35208
+    },
+    {
+      "bounds": {
+        "bits": 6,
+        "int_type": 1,
+        "max": 32,
+        "min": 0,
+        "variable": true
+      },
+      "bytes": 5,
+      "header": 9,
+      "id": 150,
+      "kind": "INT",
+      "name": "Battlenet::Attribute::VisualFileIndex",
+      "offset": 35225
+    },
+    {
+      "bounds": {
+        "bits": 6,
+        "int_type": 1,
+        "max": 32,
+        "min": 0,
+        "variable": true
+      },
+      "bytes": 5,
+      "header": 9,
+      "id": 151,
+      "kind": "INT",
+      "name": "Battlenet::Attribute::StringFileIndex",
+      "offset": 35230
+    },
+    {
+      "bounds": {
+        "bits": 1,
+        "int_type": 1,
+        "max": 1,
+        "min": 0,
+        "variable": false
+      },
+      "bytes": 13,
+      "count": 2,
+      "field_names": [
+        "m_scope",
+        "m_id"
+      ],
+      "field_types": [
+        182,
+        183
+      ],
+      "header": 206,
+      "id": 181,
+      "kind": "STRUCT",
+      "name": "Battlenet::Permission::Handle",
+      "offset": 35472,
+      "tags": [
+        0,
+        1
+      ]
+    },
+    {
+      "bytes": 5,
+      "element_type": 184,
+      "header": 16,
+      "id": 182,
+      "kind": "USER",
+      "name": null,
+      "offset": 35485
+    },
+    {
+      "bytes": 5,
+      "element_type": 17,
+      "header": 16,
+      "id": 183,
+      "kind": "USER",
+      "name": null,
+      "offset": 35490
+    },
+    {
+      "bytes": 1,
+      "header": 8,
+      "id": 184,
+      "kind": "FOURCC",
+      "name": "Battlenet::Permission::Scope",
+      "offset": 35495
+    },
+    {
+      "bytes": 1,
+      "header": 8,
+      "id": 188,
+      "kind": "FOURCC",
+      "name": "Battlenet::Attribute::EntryCode",
+      "offset": 35519
+    },
+    {
+      "bounds": {
+        "bits": 3,
+        "int_type": 1,
+        "max": 4,
+        "min": 0,
+        "variable": false
+      },
+      "bytes": 25,
+      "count": 5,
+      "field_names": [
+        "m_visualFileIndex",
+        "m_top",
+        "m_left",
+        "m_height",
+        "m_width"
+      ],
+      "field_types": [
+        192,
+        193,
+        194,
+        195,
+        196
+      ],
+      "header": 206,
+      "id": 191,
+      "kind": "STRUCT",
+      "name": "Battlenet::Attribute::ArtId",
+      "offset": 35536,
+      "tags": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "bytes": 5,
+      "element_type": 150,
+      "header": 16,
+      "id": 192,
+      "kind": "USER",
+      "name": null,
+      "offset": 35561
+    },
+    {
+      "bytes": 5,
+      "element_type": 58,
+      "header": 16,
+      "id": 193,
+      "kind": "USER",
+      "name": null,
+      "offset": 35566
+    },
+    {
+      "bytes": 5,
+      "element_type": 58,
+      "header": 16,
+      "id": 194,
+      "kind": "USER",
+      "name": null,
+      "offset": 35571
+    },
+    {
+      "bytes": 5,
+      "element_type": 58,
+      "header": 16,
+      "id": 195,
+      "kind": "USER",
+      "name": null,
+      "offset": 35576
+    },
+    {
+      "bytes": 5,
+      "element_type": 58,
+      "header": 16,
+      "id": 196,
+      "kind": "USER",
+      "name": null,
+      "offset": 35581
+    },
+    {
+      "bytes": 5,
+      "element_type": 1,
+      "header": 16,
+      "id": 197,
+      "kind": "USER",
+      "name": "Battlenet::Attribute::RGBA",
+      "offset": 35586
+    },
+    {
+      "bounds": {
+        "bits": 2,
+        "int_type": 1,
+        "max": 2,
+        "min": 0,
+        "variable": false
+      },
+      "bytes": 17,
+      "count": 3,
+      "field_names": [
+        "m_colorHint",
+        "m_fileIndex",
+        "m_id"
+      ],
+      "field_types": [
+        199,
+        200,
+        201
+      ],
+      "header": 206,
+      "id": 198,
+      "kind": "STRUCT",
+      "name": "Battlenet::Attribute::LocalizedString",
+      "offset": 35591,
+      "tags": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "bytes": 5,
+      "element_type": 202,
+      "header": 11,
+      "id": 199,
+      "kind": "OPTIONAL",
+      "name": null,
+      "offset": 35608
+    },
+    {
+      "bytes": 5,
+      "element_type": 151,
+      "header": 16,
+      "id": 200,
+      "kind": "USER",
+      "name": null,
+      "offset": 35613
+    },
+    {
+      "bytes": 5,
+      "element_type": 58,
+      "header": 16,
+      "id": 201,
+      "kind": "USER",
+      "name": null,
+      "offset": 35618
+    },
+    {
+      "bytes": 5,
+      "element_type": 197,
+      "header": 16,
+      "id": 202,
+      "kind": "USER",
+      "name": null,
+      "offset": 35623
+    },
+    {
+      "bounds": {
+        "bits": 6,
+        "int_type": 1,
+        "max": 32,
+        "min": 0,
+        "variable": true
+      },
+      "bytes": 9,
+      "element_type": 205,
+      "header": 1,
+      "id": 204,
+      "kind": "ARRAY",
+      "name": "Battlenet::Attribute::StringFileTable",
+      "offset": 35633
+    },
+    {
+      "bytes": 5,
+      "element_type": 136,
+      "header": 16,
+      "id": 205,
+      "kind": "USER",
+      "name": null,
+      "offset": 35642
+    },
+    {
+      "bounds": {
+        "bits": 1,
+        "int_type": 1,
+        "max": 1,
+        "min": 0,
+        "variable": false
+      },
+      "bytes": 13,
+      "count": 2,
+      "field_names": [
+        "m_locale",
+        "m_stringFileTable"
+      ],
+      "field_types": [
+        207,
+        208
+      ],
+      "header": 206,
+      "id": 206,
+      "kind": "STRUCT",
+      "name": "Battlenet::Attribute::LocaleTableEntry",
+      "offset": 35647,
+      "tags": [
+        0,
+        1
+      ]
+    },
+    {
+      "bytes": 5,
+      "element_type": 209,
+      "header": 16,
+      "id": 207,
+      "kind": "USER",
+      "name": null,
+      "offset": 35660
+    },
+    {
+      "bytes": 5,
+      "element_type": 204,
+      "header": 16,
+      "id": 208,
+      "kind": "USER",
+      "name": null,
+      "offset": 35665
+    },
+    {
+      "bytes": 1,
+      "header": 8,
+      "id": 209,
+      "kind": "FOURCC",
+      "name": "Battlenet::Locale::Id",
+      "offset": 35670
+    },
+    {
+      "bounds": {
+        "bits": 5,
+        "int_type": 1,
+        "max": 16,
+        "min": 0,
+        "variable": true
+      },
+      "bytes": 9,
+      "element_type": 211,
+      "header": 1,
+      "id": 210,
+      "kind": "ARRAY",
+      "name": "Battlenet::Attribute::LocaleTable",
+      "offset": 35671
+    },
+    {
+      "bytes": 5,
+      "element_type": 206,
+      "header": 16,
+      "id": 211,
+      "kind": "USER",
+      "name": null,
+      "offset": 35680
+    },
+    {
+      "bounds": {
+        "bits": 2,
+        "int_type": 1,
+        "max": 2,
+        "min": 0,
+        "variable": false
+      },
+      "bytes": 17,
+      "count": 3,
+      "field_names": [
+        "m_text",
+        "m_tip",
+        "m_art"
+      ],
+      "field_types": [
+        213,
+        214,
+        215
+      ],
+      "header": 206,
+      "id": 212,
+      "kind": "STRUCT",
+      "name": "Battlenet::Attribute::Visual",
+      "offset": 35685,
+      "tags": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "bytes": 5,
+      "element_type": 216,
+      "header": 11,
+      "id": 213,
+      "kind": "OPTIONAL",
+      "name": null,
+      "offset": 35702
+    },
+    {
+      "bytes": 5,
+      "element_type": 217,
+      "header": 11,
+      "id": 214,
+      "kind": "OPTIONAL",
+      "name": null,
+      "offset": 35707
+    },
+    {
+      "bytes": 5,
+      "element_type": 218,
+      "header": 11,
+      "id": 215,
+      "kind": "OPTIONAL",
+      "name": null,
+      "offset": 35712
+    },
+    {
+      "bytes": 5,
+      "element_type": 198,
+      "header": 16,
+      "id": 216,
+      "kind": "USER",
+      "name": null,
+      "offset": 35717
+    },
+    {
+      "bytes": 5,
+      "element_type": 198,
+      "header": 16,
+      "id": 217,
+      "kind": "USER",
+      "name": null,
+      "offset": 35722
+    },
+    {
+      "bytes": 5,
+      "element_type": 191,
+      "header": 16,
+      "id": 218,
+      "kind": "USER",
+      "name": null,
+      "offset": 35727
+    },
+    {
+      "bounds": {
+        "bits": 6,
+        "int_type": 1,
+        "max": 32,
+        "min": 0,
+        "variable": true
+      },
+      "bytes": 9,
+      "element_type": 306,
+      "header": 1,
+      "id": 305,
+      "kind": "ARRAY",
+      "name": "Battlenet::Attribute::VisualFileTable",
+      "offset": 36394
+    },
+    {
+      "bytes": 5,
+      "element_type": 136,
+      "header": 16,
+      "id": 306,
+      "kind": "USER",
+      "name": null,
+      "offset": 36403
+    },
+    {
+      "bytes": 5,
+      "element_type": 188,
+      "header": 16,
+      "id": 334,
+      "kind": "USER",
+      "name": "Battlenet::Attribute::Blizzard::GameSpeed",
+      "offset": 36839
+    },
+    {
+      "bytes": 5,
+      "element_type": 1,
+      "header": 16,
+      "id": 882,
+      "kind": "USER",
+      "name": "Battlenet::Label",
+      "offset": 41114
+    },
+    {
+      "bounds": {
+        "bits": 2,
+        "int_type": 1,
+        "max": 3,
+        "min": 0,
+        "variable": false
+      },
+      "bytes": 21,
+      "count": 4,
+      "field_names": [
+        "m_region",
+        "m_programId",
+        "m_realm",
+        "m_name"
+      ],
+      "field_types": [
+        916,
+        917,
+        918,
+        919
+      ],
+      "header": 206,
+      "id": 911,
+      "kind": "STRUCT",
+      "name": "Battlenet::Toon::FullName",
+      "offset": 41333,
+      "tags": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "bytes": 5,
+      "element_type": 921,
+      "header": 16,
+      "id": 916,
+      "kind": "USER",
+      "name": null,
+      "offset": 41384
+    },
+    {
+      "bytes": 5,
+      "element_type": 41,
+      "header": 16,
+      "id": 917,
+      "kind": "USER",
+      "name": null,
+      "offset": 41389
+    },
+    {
+      "bytes": 5,
+      "element_type": 922,
+      "header": 16,
+      "id": 918,
+      "kind": "USER",
+      "name": null,
+      "offset": 41394
+    },
+    {
+      "bytes": 5,
+      "element_type": 923,
+      "header": 16,
+      "id": 919,
+      "kind": "USER",
+      "name": null,
+      "offset": 41399
+    },
+    {
+      "bytes": 5,
+      "element_type": 9,
+      "header": 16,
+      "id": 921,
+      "kind": "USER",
+      "name": "Battlenet::Region",
+      "offset": 41413
+    },
+    {
+      "bytes": 5,
+      "element_type": 1,
+      "header": 16,
+      "id": 922,
+      "kind": "USER",
+      "name": "Battlenet::Realm::Id",
+      "offset": 41418
+    },
+    {
+      "bounds": {
+        "bits": 5,
+        "int_type": 1,
+        "max": 25,
+        "min": 2,
+        "variable": true
+      },
+      "bytes": 5,
+      "header": 15,
+      "id": 923,
+      "kind": "STRING",
+      "name": "Battlenet::Toon::Name",
+      "offset": 41423
+    },
+    {
+      "bounds": {
+        "bits": 1,
+        "int_type": 1,
+        "max": 1,
+        "min": 0,
+        "variable": false
+      },
+      "bytes": 13,
+      "count": 2,
+      "field_names": [
+        "m_label",
+        "m_id"
+      ],
+      "field_types": [
+        947,
+        948
+      ],
+      "header": 206,
+      "id": 945,
+      "kind": "STRUCT",
+      "name": "Battlenet::Profile::RecordAddress",
+      "offset": 41585,
+      "tags": [
+        0,
+        1
+      ]
+    },
+    {
+      "bounds": {
+        "bits": 2,
+        "int_type": 1,
+        "max": 3,
+        "min": 0,
+        "variable": false
+      },
+      "bytes": 21,
+      "count": 4,
+      "field_names": [
+        "m_region",
+        "m_programId",
+        "m_realm",
+        "m_id"
+      ],
+      "field_types": [
+        949,
+        950,
+        951,
+        952
+      ],
+      "header": 206,
+      "id": 946,
+      "kind": "STRUCT",
+      "name": "Battlenet::Toon::Handle",
+      "offset": 41598,
+      "tags": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "bytes": 5,
+      "element_type": 882,
+      "header": 16,
+      "id": 947,
+      "kind": "USER",
+      "name": null,
+      "offset": 41619
+    },
+    {
+      "bytes": 5,
+      "element_type": 953,
+      "header": 16,
+      "id": 948,
+      "kind": "USER",
+      "name": null,
+      "offset": 41624
+    },
+    {
+      "bytes": 5,
+      "element_type": 921,
+      "header": 16,
+      "id": 949,
+      "kind": "USER",
+      "name": null,
+      "offset": 41629
+    },
+    {
+      "bytes": 5,
+      "element_type": 41,
+      "header": 16,
+      "id": 950,
+      "kind": "USER",
+      "name": null,
+      "offset": 41634
+    },
+    {
+      "bytes": 5,
+      "element_type": 922,
+      "header": 16,
+      "id": 951,
+      "kind": "USER",
+      "name": null,
+      "offset": 41639
+    },
+    {
+      "bytes": 5,
+      "element_type": 954,
+      "header": 16,
+      "id": 952,
+      "kind": "USER",
+      "name": null,
+      "offset": 41644
+    },
+    {
+      "bytes": 5,
+      "element_type": 17,
+      "header": 16,
+      "id": 953,
+      "kind": "USER",
+      "name": "Battlenet::Profile::RecordId",
+      "offset": 41649
+    },
+    {
+      "bytes": 5,
+      "element_type": 17,
+      "header": 16,
+      "id": 954,
+      "kind": "USER",
+      "name": "Battlenet::Toon::Id",
+      "offset": 41654
+    },
+    {
+      "bounds": {
+        "bits": 6,
+        "int_type": 1,
+        "max": 32,
+        "min": 0,
+        "variable": true
+      },
+      "bytes": 5,
+      "header": 9,
+      "id": 1750,
+      "kind": "INT",
+      "name": "Battlenet::S2Map::VariantIndex",
+      "offset": 47828
+    },
+    {
+      "bounds": {
+        "bits": 31,
+        "int_type": 5,
+        "max": 2147483647,
+        "min": 0,
+        "variable": true
+      },
+      "bytes": 15,
+      "element_type": 1848,
+      "header": 1,
+      "id": 1828,
+      "kind": "ARRAY",
+      "name": "Battlenet::Permission::HandleList",
+      "offset": 48402
+    },
+    {
+      "bounds": {
+        "bits": 1,
+        "int_type": 1,
+        "max": 1,
+        "min": 0,
+        "variable": false
+      },
+      "bytes": 13,
+      "count": 2,
+      "field_names": [
+        "m_handle",
+        "m_type"
+      ],
+      "field_types": [
+        1853,
+        1854
+      ],
+      "header": 206,
+      "id": 1836,
+      "kind": "STRUCT",
+      "name": "Battlenet::S2Map::LinkEntry",
+      "offset": 48460,
+      "tags": [
+        0,
+        1
+      ]
+    },
+    {
+      "bytes": 5,
+      "element_type": 181,
+      "header": 16,
+      "id": 1848,
+      "kind": "USER",
+      "name": null,
+      "offset": 48522
+    },
+    {
+      "bytes": 5,
+      "element_type": 1865,
+      "header": 16,
+      "id": 1853,
+      "kind": "USER",
+      "name": null,
+      "offset": 48571
+    },
+    {
+      "bytes": 5,
+      "element_type": 1866,
+      "header": 16,
+      "id": 1854,
+      "kind": "USER",
+      "name": null,
+      "offset": 48576
+    },
+    {
+      "bounds": {
+        "bits": 1,
+        "int_type": 1,
+        "max": 1,
+        "min": 0,
+        "variable": false
+      },
+      "bytes": 13,
+      "count": 2,
+      "field_names": [
+        "m_id",
+        "m_version"
+      ],
+      "field_types": [
+        1874,
+        1875
+      ],
+      "header": 206,
+      "id": 1865,
+      "kind": "STRUCT",
+      "name": "Battlenet::S2Map::Handle",
+      "offset": 48627,
+      "tags": [
+        0,
+        1
+      ]
+    },
+    {
+      "bounds": {
+        "bits": 4,
+        "int_type": 1,
+        "max": 15,
+        "min": 0,
+        "variable": true
+      },
+      "bytes": 10,
+      "count": 3,
+      "field_names": [
+        "PRIMARY",
+        "OPTIONAL",
+        "DEPENDENCY"
+      ],
+      "header": 7,
+      "id": 1866,
+      "kind": "ENUM",
+      "name": "Battlenet::S2Map::LinkEntryType::Enum",
+      "offset": 48640,
+      "tags": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "bytes": 5,
+      "element_type": 1879,
+      "header": 16,
+      "id": 1874,
+      "kind": "USER",
+      "name": null,
+      "offset": 48685
+    },
+    {
+      "bytes": 5,
+      "element_type": 1880,
+      "header": 16,
+      "id": 1875,
+      "kind": "USER",
+      "name": null,
+      "offset": 48690
+    },
+    {
+      "bytes": 5,
+      "element_type": 1,
+      "header": 16,
+      "id": 1879,
+      "kind": "USER",
+      "name": "Battlenet::S2Map::Id",
+      "offset": 48724
+    },
+    {
+      "bytes": 5,
+      "element_type": 1,
+      "header": 16,
+      "id": 1880,
+      "kind": "USER",
+      "name": "Battlenet::S2Map::Version",
+      "offset": 48729
+    },
+    {
+      "bounds": {
+        "bits": 2,
+        "int_type": 1,
+        "max": 2,
+        "min": 0,
+        "variable": false
+      },
+      "bytes": 17,
+      "count": 3,
+      "field_names": [
+        "m_variantIndex",
+        "m_speed",
+        "m_entries"
+      ],
+      "field_types": [
+        3199,
+        3200,
+        3201
+      ],
+      "header": 206,
+      "id": 3197,
+      "kind": "STRUCT",
+      "name": "Battlenet::S2Map::ShortLink",
+      "offset": 58888,
+      "tags": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "bytes": 5,
+      "element_type": 1750,
+      "header": 16,
+      "id": 3199,
+      "kind": "USER",
+      "name": null,
+      "offset": 58930
+    },
+    {
+      "bytes": 5,
+      "element_type": 334,
+      "header": 16,
+      "id": 3200,
+      "kind": "USER",
+      "name": null,
+      "offset": 58935
+    },
+    {
+      "bounds": {
+        "bits": 3,
+        "int_type": 1,
+        "max": 5,
+        "min": 0,
+        "variable": true
+      },
+      "bytes": 9,
+      "element_type": 3207,
+      "header": 1,
+      "id": 3201,
+      "kind": "ARRAY",
+      "name": null,
+      "offset": 58940
+    },
+    {
+      "bytes": 5,
+      "element_type": 1836,
+      "header": 16,
+      "id": 3207,
+      "kind": "USER",
+      "name": null,
+      "offset": 58974
+    },
+    {
+      "bounds": {
+        "bits": 5,
+        "int_type": 1,
+        "max": 16,
+        "min": 0,
+        "variable": true
+      },
+      "bytes": 9,
+      "element_type": 4523,
+      "header": 1,
+      "id": 4513,
+      "kind": "ARRAY",
+      "name": "Battlenet::S2Map::LabelList",
+      "offset": 69675
+    },
+    {
+      "bounds": {
+        "bits": 1,
+        "int_type": 1,
+        "max": 1,
+        "min": 0,
+        "variable": false
+      },
+      "bytes": 13,
+      "count": 2,
+      "field_names": [
+        "m_horizontal",
+        "m_vertical"
+      ],
+      "field_types": [
+        4528,
+        4529
+      ],
+      "header": 206,
+      "id": 4520,
+      "kind": "STRUCT",
+      "name": "Battlenet::S2Map::MapSize",
+      "offset": 69710,
+      "tags": [
+        0,
+        1
+      ]
+    },
+    {
+      "bytes": 5,
+      "element_type": 4531,
+      "header": 16,
+      "id": 4523,
+      "kind": "USER",
+      "name": null,
+      "offset": 69733
+    },
+    {
+      "bounds": {
+        "bits": 4,
+        "int_type": 1,
+        "max": 9,
+        "min": 0,
+        "variable": false
+      },
+      "bytes": 45,
+      "count": 10,
+      "field_names": [
+        "m_visualizationFiles",
+        "m_localizationFiles",
+        "m_gameInfoScreenshots",
+        "m_howToPlayScreenshots",
+        "m_howToPlaySections",
+        "m_patchNoteSections",
+        "m_mapIcon",
+        "m_tutorialLink",
+        "m_matchmakerTags",
+        "m_website"
+      ],
+      "field_types": [
+        4532,
+        4533,
+        4534,
+        4535,
+        4536,
+        4537,
+        4538,
+        4539,
+        4540,
+        4541
+      ],
+      "header": 206,
+      "id": 4524,
+      "kind": "STRUCT",
+      "name": "Battlenet::S2Map::ArcadeGameInfo",
+      "offset": 69738,
+      "tags": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "bytes": 5,
+      "element_type": 58,
+      "header": 16,
+      "id": 4528,
+      "kind": "USER",
+      "name": null,
+      "offset": 69834
+    },
+    {
+      "bytes": 5,
+      "element_type": 58,
+      "header": 16,
+      "id": 4529,
+      "kind": "USER",
+      "name": null,
+      "offset": 69839
+    },
+    {
+      "bytes": 1,
+      "header": 8,
+      "id": 4531,
+      "kind": "FOURCC",
+      "name": "Battlenet::S2Map::Label",
+      "offset": 69905
+    },
+    {
+      "bytes": 5,
+      "element_type": 305,
+      "header": 16,
+      "id": 4532,
+      "kind": "USER",
+      "name": null,
+      "offset": 69906
+    },
+    {
+      "bytes": 5,
+      "element_type": 210,
+      "header": 16,
+      "id": 4533,
+      "kind": "USER",
+      "name": null,
+      "offset": 69911
+    },
+    {
+      "bytes": 5,
+      "element_type": 4566,
+      "header": 16,
+      "id": 4534,
+      "kind": "USER",
+      "name": null,
+      "offset": 69916
+    },
+    {
+      "bytes": 5,
+      "element_type": 4566,
+      "header": 16,
+      "id": 4535,
+      "kind": "USER",
+      "name": null,
+      "offset": 69921
+    },
+    {
+      "bytes": 5,
+      "element_type": 4567,
+      "header": 16,
+      "id": 4536,
+      "kind": "USER",
+      "name": null,
+      "offset": 69926
+    },
+    {
+      "bytes": 5,
+      "element_type": 4567,
+      "header": 16,
+      "id": 4537,
+      "kind": "USER",
+      "name": null,
+      "offset": 69931
+    },
+    {
+      "bytes": 5,
+      "element_type": 4568,
+      "header": 11,
+      "id": 4538,
+      "kind": "OPTIONAL",
+      "name": null,
+      "offset": 69936
+    },
+    {
+      "bytes": 5,
+      "element_type": 4569,
+      "header": 11,
+      "id": 4539,
+      "kind": "OPTIONAL",
+      "name": null,
+      "offset": 69941
+    },
+    {
+      "bounds": {
+        "bits": 5,
+        "int_type": 1,
+        "max": 16,
+        "min": 0,
+        "variable": true
+      },
+      "bytes": 9,
+      "element_type": 4570,
+      "header": 1,
+      "id": 4540,
+      "kind": "ARRAY",
+      "name": null,
+      "offset": 69946
+    },
+    {
+      "bytes": 5,
+      "element_type": 198,
+      "header": 16,
+      "id": 4541,
+      "kind": "USER",
+      "name": null,
+      "offset": 69955
+    },
+    {
+      "bounds": {
+        "bits": 4,
+        "int_type": 1,
+        "max": 10,
+        "min": 0,
+        "variable": true
+      },
+      "bytes": 9,
+      "element_type": 4584,
+      "header": 1,
+      "id": 4566,
+      "kind": "ARRAY",
+      "name": "Battlenet::S2Map::ScreenshotList",
+      "offset": 70084
+    },
+    {
+      "bounds": {
+        "bits": 1,
+        "int_type": 1,
+        "max": 1,
+        "min": 0,
+        "variable": false
+      },
+      "bytes": 13,
+      "count": 2,
+      "field_names": [
+        "m_headers",
+        "m_sectionData"
+      ],
+      "field_types": [
+        4585,
+        4586
+      ],
+      "header": 206,
+      "id": 4567,
+      "kind": "STRUCT",
+      "name": "Battlenet::S2Map::ArcadeDataSection",
+      "offset": 70093,
+      "tags": [
+        0,
+        1
+      ]
+    },
+    {
+      "bytes": 5,
+      "element_type": 191,
+      "header": 16,
+      "id": 4568,
+      "kind": "USER",
+      "name": null,
+      "offset": 70106
+    },
+    {
+      "bytes": 5,
+      "element_type": 3197,
+      "header": 16,
+      "id": 4569,
+      "kind": "USER",
+      "name": null,
+      "offset": 70111
+    },
+    {
+      "bytes": 1,
+      "header": 8,
+      "id": 4570,
+      "kind": "FOURCC",
+      "name": null,
+      "offset": 70116
+    },
+    {
+      "bounds": {
+        "bits": 1,
+        "int_type": 1,
+        "max": 1,
+        "min": 0,
+        "variable": false
+      },
+      "bytes": 13,
+      "count": 2,
+      "field_names": [
+        "m_category",
+        "m_mode"
+      ],
+      "field_types": [
+        4588,
+        4589
+      ],
+      "header": 206,
+      "id": 4578,
+      "kind": "STRUCT",
+      "name": "Battlenet::S2Map::VariantId",
+      "offset": 70167,
+      "tags": [
+        0,
+        1
+      ]
+    },
+    {
+      "bytes": 5,
+      "element_type": 4590,
+      "header": 16,
+      "id": 4584,
+      "kind": "USER",
+      "name": null,
+      "offset": 70201
+    },
+    {
+      "bounds": {
+        "bits": 4,
+        "int_type": 1,
+        "max": 10,
+        "min": 0,
+        "variable": true
+      },
+      "bytes": 9,
+      "element_type": 4591,
+      "header": 1,
+      "id": 4585,
+      "kind": "ARRAY",
+      "name": null,
+      "offset": 70206
+    },
+    {
+      "bounds": {
+        "bits": 7,
+        "int_type": 1,
+        "max": 100,
+        "min": 0,
+        "variable": true
+      },
+      "bytes": 9,
+      "element_type": 4592,
+      "header": 1,
+      "id": 4586,
+      "kind": "ARRAY",
+      "name": null,
+      "offset": 70215
+    },
+    {
+      "bytes": 5,
+      "element_type": 4594,
+      "header": 16,
+      "id": 4588,
+      "kind": "USER",
+      "name": null,
+      "offset": 70229
+    },
+    {
+      "bytes": 5,
+      "element_type": 4595,
+      "header": 16,
+      "id": 4589,
+      "kind": "USER",
+      "name": null,
+      "offset": 70234
+    },
+    {
+      "bounds": {
+        "bits": 1,
+        "int_type": 1,
+        "max": 1,
+        "min": 0,
+        "variable": false
+      },
+      "bytes": 13,
+      "count": 2,
+      "field_names": [
+        "m_picture",
+        "m_caption"
+      ],
+      "field_types": [
+        4596,
+        4597
+      ],
+      "header": 206,
+      "id": 4590,
+      "kind": "STRUCT",
+      "name": "Battlenet::S2Map::Screenshot",
+      "offset": 70239,
+      "tags": [
+        0,
+        1
+      ]
+    },
+    {
+      "bytes": 5,
+      "element_type": 4598,
+      "header": 16,
+      "id": 4591,
+      "kind": "USER",
+      "name": null,
+      "offset": 70252
+    },
+    {
+      "bytes": 5,
+      "element_type": 198,
+      "header": 16,
+      "id": 4592,
+      "kind": "USER",
+      "name": null,
+      "offset": 70257
+    },
+    {
+      "bytes": 5,
+      "element_type": 4601,
+      "header": 16,
+      "id": 4594,
+      "kind": "USER",
+      "name": "Battlenet::S2Map::Category",
+      "offset": 70275
+    },
+    {
+      "bytes": 5,
+      "element_type": 4601,
+      "header": 16,
+      "id": 4595,
+      "kind": "USER",
+      "name": "Battlenet::S2Map::Mode",
+      "offset": 70280
+    },
+    {
+      "bytes": 5,
+      "element_type": 191,
+      "header": 16,
+      "id": 4596,
+      "kind": "USER",
+      "name": null,
+      "offset": 70285
+    },
+    {
+      "bytes": 5,
+      "element_type": 198,
+      "header": 16,
+      "id": 4597,
+      "kind": "USER",
+      "name": null,
+      "offset": 70290
+    },
+    {
+      "bounds": {
+        "bits": 2,
+        "int_type": 1,
+        "max": 3,
+        "min": 0,
+        "variable": false
+      },
+      "bytes": 21,
+      "count": 4,
+      "field_names": [
+        "m_title",
+        "m_startOffset",
+        "m_listType",
+        "m_subtitle"
+      ],
+      "field_types": [
+        4602,
+        4603,
+        4604,
+        4605
+      ],
+      "header": 206,
+      "id": 4598,
+      "kind": "STRUCT",
+      "name": "Battlenet::S2Map::SectionHeader",
+      "offset": 70295,
+      "tags": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "bytes": 5,
+      "element_type": 9,
+      "header": 16,
+      "id": 4601,
+      "kind": "USER",
+      "name": "Battlenet::S2Map::CategoryModeId",
+      "offset": 70326
+    },
+    {
+      "bytes": 5,
+      "element_type": 198,
+      "header": 16,
+      "id": 4602,
+      "kind": "USER",
+      "name": null,
+      "offset": 70331
+    },
+    {
+      "bytes": 5,
+      "element_type": 1,
+      "header": 16,
+      "id": 4603,
+      "kind": "USER",
+      "name": null,
+      "offset": 70336
+    },
+    {
+      "bytes": 5,
+      "element_type": 4607,
+      "header": 16,
+      "id": 4604,
+      "kind": "USER",
+      "name": null,
+      "offset": 70341
+    },
+    {
+      "bytes": 5,
+      "element_type": 198,
+      "header": 16,
+      "id": 4605,
+      "kind": "USER",
+      "name": null,
+      "offset": 70346
+    },
+    {
+      "bounds": {
+        "bits": 2,
+        "int_type": 1,
+        "max": 2,
+        "min": 0,
+        "variable": false
+      },
+      "bytes": 5,
+      "count": 3,
+      "field_names": [
+        "BULLETED_LIST",
+        "NUMBERED_LIST",
+        "NO_LIST"
+      ],
+      "header": 135,
+      "id": 4607,
+      "kind": "ENUM",
+      "name": "Battlenet::S2Map::SectionType::Enum",
+      "offset": 70356,
+      "tags": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "bounds": {
+        "bits": 5,
+        "int_type": 0,
+        "max": -1,
+        "min": -32,
+        "variable": false
+      },
+      "bytes": 133,
+      "count": 32,
+      "field_names": [
+        "m_handle",
+        "m_mapVersion",
+        "m_mapName",
+        "m_mapDescription",
+        "m_mapThumbnail",
+        "m_bigMap",
+        "m_maxPlayers",
+        "m_visualFiles",
+        "m_authorRealName",
+        "m_authorToonName",
+        "m_authorToonHandle",
+        "m_mapSize",
+        "m_tileset",
+        "m_labels",
+        "m_defaultVariantIndex",
+        "m_variants",
+        "m_isLinked",
+        "m_isLocked",
+        "m_isPrivate",
+        "m_isMod",
+        "m_isExtensionMod",
+        "m_isSkipInitialDownload",
+        "m_isMelee",
+        "m_isCluster",
+        "m_clusterParent",
+        "m_clusterChildren",
+        "m_isHiddenLobby",
+        "m_profileRecordAddress",
+        "m_arcadeGameInfo",
+        "m_extraDependencies",
+        "m_addMultiMod",
+        "m_requiredPermissions"
+      ],
+      "field_types": [
+        5853,
+        5854,
+        5855,
+        5856,
+        5857,
+        5858,
+        5859,
+        5860,
+        5861,
+        5862,
+        5863,
+        5864,
+        5865,
+        5866,
+        5867,
+        5868,
+        5869,
+        5870,
+        5871,
+        5872,
+        5873,
+        5874,
+        5875,
+        5876,
+        5877,
+        5878,
+        5879,
+        5880,
+        5881,
+        5882,
+        5883,
+        5884
+      ],
+      "header": 206,
+      "id": 5852,
+      "kind": "STRUCT",
+      "name": "Battlenet::Event::S2Maps::S2MapInfo",
+      "offset": 80468,
+      "tags": [
+        -32,
+        -31,
+        -30,
+        -29,
+        -28,
+        -27,
+        -26,
+        -25,
+        -24,
+        -23,
+        -22,
+        -21,
+        -20,
+        -19,
+        -18,
+        -17,
+        -16,
+        -15,
+        -14,
+        -13,
+        -12,
+        -11,
+        -10,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1
+      ]
+    },
+    {
+      "bytes": 5,
+      "element_type": 1865,
+      "header": 16,
+      "id": 5853,
+      "kind": "USER",
+      "name": null,
+      "offset": 80601
+    },
+    {
+      "bytes": 5,
+      "element_type": 5885,
+      "header": 16,
+      "id": 5854,
+      "kind": "USER",
+      "name": null,
+      "offset": 80606
+    },
+    {
+      "bytes": 5,
+      "element_type": 198,
+      "header": 16,
+      "id": 5855,
+      "kind": "USER",
+      "name": null,
+      "offset": 80611
+    },
+    {
+      "bytes": 5,
+      "element_type": 198,
+      "header": 16,
+      "id": 5856,
+      "kind": "USER",
+      "name": null,
+      "offset": 80616
+    },
+    {
+      "bytes": 5,
+      "element_type": 5886,
+      "header": 11,
+      "id": 5857,
+      "kind": "OPTIONAL",
+      "name": null,
+      "offset": 80621
+    },
+    {
+      "bytes": 5,
+      "element_type": 5887,
+      "header": 11,
+      "id": 5858,
+      "kind": "OPTIONAL",
+      "name": null,
+      "offset": 80626
+    },
+    {
+      "bytes": 5,
+      "element_type": 147,
+      "header": 16,
+      "id": 5859,
+      "kind": "USER",
+      "name": null,
+      "offset": 80631
+    },
+    {
+      "bytes": 5,
+      "element_type": 305,
+      "header": 16,
+      "id": 5860,
+      "kind": "USER",
+      "name": null,
+      "offset": 80636
+    },
+    {
+      "bytes": 5,
+      "element_type": 5888,
+      "header": 11,
+      "id": 5861,
+      "kind": "OPTIONAL",
+      "name": null,
+      "offset": 80641
+    },
+    {
+      "bytes": 5,
+      "element_type": 911,
+      "header": 16,
+      "id": 5862,
+      "kind": "USER",
+      "name": null,
+      "offset": 80646
+    },
+    {
+      "bytes": 5,
+      "element_type": 946,
+      "header": 16,
+      "id": 5863,
+      "kind": "USER",
+      "name": null,
+      "offset": 80651
+    },
+    {
+      "bytes": 5,
+      "element_type": 5889,
+      "header": 11,
+      "id": 5864,
+      "kind": "OPTIONAL",
+      "name": null,
+      "offset": 80656
+    },
+    {
+      "bytes": 5,
+      "element_type": 5890,
+      "header": 11,
+      "id": 5865,
+      "kind": "OPTIONAL",
+      "name": null,
+      "offset": 80661
+    },
+    {
+      "bytes": 5,
+      "element_type": 4513,
+      "header": 16,
+      "id": 5866,
+      "kind": "USER",
+      "name": null,
+      "offset": 80666
+    },
+    {
+      "bytes": 5,
+      "element_type": 1750,
+      "header": 16,
+      "id": 5867,
+      "kind": "USER",
+      "name": null,
+      "offset": 80671
+    },
+    {
+      "bytes": 5,
+      "element_type": 5891,
+      "header": 16,
+      "id": 5868,
+      "kind": "USER",
+      "name": null,
+      "offset": 80676
+    },
+    {
+      "bytes": 1,
+      "header": 5,
+      "id": 5869,
+      "kind": "BOOL",
+      "name": null,
+      "offset": 80681
+    },
+    {
+      "bytes": 1,
+      "header": 5,
+      "id": 5870,
+      "kind": "BOOL",
+      "name": null,
+      "offset": 80682
+    },
+    {
+      "bytes": 1,
+      "header": 5,
+      "id": 5871,
+      "kind": "BOOL",
+      "name": null,
+      "offset": 80683
+    },
+    {
+      "bytes": 1,
+      "header": 5,
+      "id": 5872,
+      "kind": "BOOL",
+      "name": null,
+      "offset": 80684
+    },
+    {
+      "bytes": 1,
+      "header": 5,
+      "id": 5873,
+      "kind": "BOOL",
+      "name": null,
+      "offset": 80685
+    },
+    {
+      "bytes": 1,
+      "header": 5,
+      "id": 5874,
+      "kind": "BOOL",
+      "name": null,
+      "offset": 80686
+    },
+    {
+      "bytes": 1,
+      "header": 5,
+      "id": 5875,
+      "kind": "BOOL",
+      "name": null,
+      "offset": 80687
+    },
+    {
+      "bytes": 1,
+      "header": 5,
+      "id": 5876,
+      "kind": "BOOL",
+      "name": null,
+      "offset": 80688
+    },
+    {
+      "bytes": 5,
+      "element_type": 5892,
+      "header": 11,
+      "id": 5877,
+      "kind": "OPTIONAL",
+      "name": null,
+      "offset": 80689
+    },
+    {
+      "bounds": {
+        "bits": 12,
+        "int_type": 3,
+        "max": 2048,
+        "min": 0,
+        "variable": true
+      },
+      "bytes": 11,
+      "element_type": 5893,
+      "header": 1,
+      "id": 5878,
+      "kind": "ARRAY",
+      "name": null,
+      "offset": 80694
+    },
+    {
+      "bytes": 1,
+      "header": 5,
+      "id": 5879,
+      "kind": "BOOL",
+      "name": null,
+      "offset": 80705
+    },
+    {
+      "bytes": 5,
+      "element_type": 945,
+      "header": 16,
+      "id": 5880,
+      "kind": "USER",
+      "name": null,
+      "offset": 80706
+    },
+    {
+      "bytes": 5,
+      "element_type": 5894,
+      "header": 11,
+      "id": 5881,
+      "kind": "OPTIONAL",
+      "name": null,
+      "offset": 80711
+    },
+    {
+      "bounds": {
+        "bits": 6,
+        "int_type": 1,
+        "max": 32,
+        "min": 0,
+        "variable": true
+      },
+      "bytes": 9,
+      "element_type": 5895,
+      "header": 1,
+      "id": 5882,
+      "kind": "ARRAY",
+      "name": null,
+      "offset": 80716
+    },
+    {
+      "bytes": 1,
+      "header": 5,
+      "id": 5883,
+      "kind": "BOOL",
+      "name": null,
+      "offset": 80725
+    },
+    {
+      "bytes": 5,
+      "element_type": 1828,
+      "header": 16,
+      "id": 5884,
+      "kind": "USER",
+      "name": null,
+      "offset": 80726
+    },
+    {
+      "bounds": {
+        "bits": 1,
+        "int_type": 0,
+        "max": -1,
+        "min": -2,
+        "variable": false
+      },
+      "bytes": 13,
+      "count": 2,
+      "field_names": [
+        "m_major",
+        "m_minor"
+      ],
+      "field_types": [
+        5896,
+        5897
+      ],
+      "header": 206,
+      "id": 5885,
+      "kind": "STRUCT",
+      "name": "Battlenet::Event::S2Maps::Version",
+      "offset": 80731,
+      "tags": [
+        -2,
+        -1
+      ]
+    },
+    {
+      "bytes": 5,
+      "element_type": 191,
+      "header": 16,
+      "id": 5886,
+      "kind": "USER",
+      "name": null,
+      "offset": 80744
+    },
+    {
+      "bytes": 5,
+      "element_type": 191,
+      "header": 16,
+      "id": 5887,
+      "kind": "USER",
+      "name": null,
+      "offset": 80749
+    },
+    {
+      "bytes": 5,
+      "element_type": 4,
+      "header": 16,
+      "id": 5888,
+      "kind": "USER",
+      "name": null,
+      "offset": 80754
+    },
+    {
+      "bytes": 5,
+      "element_type": 4520,
+      "header": 16,
+      "id": 5889,
+      "kind": "USER",
+      "name": null,
+      "offset": 80759
+    },
+    {
+      "bytes": 5,
+      "element_type": 198,
+      "header": 16,
+      "id": 5890,
+      "kind": "USER",
+      "name": null,
+      "offset": 80764
+    },
+    {
+      "bounds": {
+        "bits": 5,
+        "int_type": 1,
+        "max": 32,
+        "min": 1,
+        "variable": true
+      },
+      "bytes": 9,
+      "element_type": 5898,
+      "header": 1,
+      "id": 5891,
+      "kind": "ARRAY",
+      "name": "Battlenet::Event::S2Maps::S2MapVariantInfoList",
+      "offset": 80769
+    },
+    {
+      "bytes": 5,
+      "element_type": 1879,
+      "header": 16,
+      "id": 5892,
+      "kind": "USER",
+      "name": null,
+      "offset": 80778
+    },
+    {
+      "bytes": 5,
+      "element_type": 1879,
+      "header": 16,
+      "id": 5893,
+      "kind": "USER",
+      "name": null,
+      "offset": 80783
+    },
+    {
+      "bytes": 5,
+      "element_type": 4524,
+      "header": 16,
+      "id": 5894,
+      "kind": "USER",
+      "name": null,
+      "offset": 80788
+    },
+    {
+      "bytes": 5,
+      "element_type": 1865,
+      "header": 16,
+      "id": 5895,
+      "kind": "USER",
+      "name": null,
+      "offset": 80793
+    },
+    {
+      "bytes": 5,
+      "element_type": 5899,
+      "header": 16,
+      "id": 5896,
+      "kind": "USER",
+      "name": null,
+      "offset": 80798
+    },
+    {
+      "bytes": 5,
+      "element_type": 5900,
+      "header": 16,
+      "id": 5897,
+      "kind": "USER",
+      "name": null,
+      "offset": 80803
+    },
+    {
+      "bytes": 5,
+      "element_type": 5901,
+      "header": 16,
+      "id": 5898,
+      "kind": "USER",
+      "name": null,
+      "offset": 80808
+    },
+    {
+      "bytes": 5,
+      "element_type": 58,
+      "header": 16,
+      "id": 5899,
+      "kind": "USER",
+      "name": "Battlenet::S2Map::MajorVersion",
+      "offset": 80813
+    },
+    {
+      "bytes": 5,
+      "element_type": 58,
+      "header": 16,
+      "id": 5900,
+      "kind": "USER",
+      "name": "Battlenet::S2Map::MinorVersion",
+      "offset": 80818
+    },
+    {
+      "bounds": {
+        "bits": 4,
+        "int_type": 0,
+        "max": -1,
+        "min": -11,
+        "variable": false
+      },
+      "bytes": 49,
+      "count": 11,
+      "field_names": [
+        "m_variantId",
+        "m_categoryName",
+        "m_modeName",
+        "m_categoryDescription",
+        "m_modeDescription",
+        "m_visual",
+        "m_maxTeamSize",
+        "m_maxHumanPlayers",
+        "m_maxOpenSlots",
+        "m_mapHandle",
+        "m_variantIndex"
+      ],
+      "field_types": [
+        5902,
+        5903,
+        5904,
+        5905,
+        5906,
+        5907,
+        5908,
+        5909,
+        5910,
+        5911,
+        5912
+      ],
+      "header": 206,
+      "id": 5901,
+      "kind": "STRUCT",
+      "name": "Battlenet::Event::S2Maps::S2MapVariantInfo",
+      "offset": 80823,
+      "tags": [
+        -11,
+        -10,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1
+      ]
+    },
+    {
+      "bytes": 5,
+      "element_type": 4578,
+      "header": 16,
+      "id": 5902,
+      "kind": "USER",
+      "name": null,
+      "offset": 80872
+    },
+    {
+      "bytes": 5,
+      "element_type": 198,
+      "header": 16,
+      "id": 5903,
+      "kind": "USER",
+      "name": null,
+      "offset": 80877
+    },
+    {
+      "bytes": 5,
+      "element_type": 198,
+      "header": 16,
+      "id": 5904,
+      "kind": "USER",
+      "name": null,
+      "offset": 80882
+    },
+    {
+      "bytes": 5,
+      "element_type": 5913,
+      "header": 11,
+      "id": 5905,
+      "kind": "OPTIONAL",
+      "name": null,
+      "offset": 80887
+    },
+    {
+      "bytes": 5,
+      "element_type": 5914,
+      "header": 11,
+      "id": 5906,
+      "kind": "OPTIONAL",
+      "name": null,
+      "offset": 80892
+    },
+    {
+      "bytes": 5,
+      "element_type": 212,
+      "header": 16,
+      "id": 5907,
+      "kind": "USER",
+      "name": null,
+      "offset": 80897
+    },
+    {
+      "bytes": 5,
+      "element_type": 147,
+      "header": 16,
+      "id": 5908,
+      "kind": "USER",
+      "name": null,
+      "offset": 80902
+    },
+    {
+      "bytes": 5,
+      "element_type": 5915,
+      "header": 11,
+      "id": 5909,
+      "kind": "OPTIONAL",
+      "name": null,
+      "offset": 80907
+    },
+    {
+      "bytes": 5,
+      "element_type": 5916,
+      "header": 11,
+      "id": 5910,
+      "kind": "OPTIONAL",
+      "name": null,
+      "offset": 80912
+    },
+    {
+      "bytes": 5,
+      "element_type": 1865,
+      "header": 16,
+      "id": 5911,
+      "kind": "USER",
+      "name": null,
+      "offset": 80917
+    },
+    {
+      "bytes": 5,
+      "element_type": 1,
+      "header": 16,
+      "id": 5912,
+      "kind": "USER",
+      "name": null,
+      "offset": 80922
+    },
+    {
+      "bytes": 5,
+      "element_type": 198,
+      "header": 16,
+      "id": 5913,
+      "kind": "USER",
+      "name": null,
+      "offset": 80927
+    },
+    {
+      "bytes": 5,
+      "element_type": 198,
+      "header": 16,
+      "id": 5914,
+      "kind": "USER",
+      "name": null,
+      "offset": 80932
+    },
+    {
+      "bytes": 5,
+      "element_type": 147,
+      "header": 16,
+      "id": 5915,
+      "kind": "USER",
+      "name": null,
+      "offset": 80937
+    },
+    {
+      "bytes": 5,
+      "element_type": 147,
+      "header": 16,
+      "id": 5916,
+      "kind": "USER",
+      "name": null,
+      "offset": 80942
+    }
+  ],
+  "root_type_id": 5852,
+  "selected_type_count": 191,
+  "source_PE_sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+  "source_embedded_bytecode_sha256": "ce3b1f764575730f2c08c89eed73ea843ec4cc702b727c9577ca071ce610e741"
+}

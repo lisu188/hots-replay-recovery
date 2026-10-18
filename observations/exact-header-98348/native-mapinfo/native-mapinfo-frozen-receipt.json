@@ -1,0 +1,60 @@
+{
+  "actual_MapInfo_records": 136,
+  "actual_current_controls": 21,
+  "client_launched": false,
+  "files": [
+    {
+      "bytes": 8923,
+      "path": "native-mapinfo-ready/native_mapinfo.py",
+      "sha256": "b7bd41881c171a606fa3fe5844590e8d935d5ed2e42cb418cd2fcbc859710810"
+    },
+    {
+      "bytes": 45724,
+      "path": "native-mapinfo-ready/native_mapinfo_schema_98348.json",
+      "sha256": "3900a63c0799474becd2ecfb03eece4f8c523a965b38e539264867d5cdf2075c"
+    },
+    {
+      "bytes": 12858,
+      "path": "native-mapinfo-ready/test_native_mapinfo.py",
+      "sha256": "f5a506596d3f00ae9b73d9e957f9aa5b1191da72b0897bf551d6569703f6a757"
+    },
+    {
+      "bytes": 9307,
+      "path": "native-mapinfo-ready/bind_native_mapinfo_controls.py",
+      "sha256": "9e2e0489fb0988e8830ff4dc87bb53675f88a847f5182e3e12d97785b191cf52"
+    },
+    {
+      "bytes": 4036,
+      "path": "native-mapinfo-ready/README_NATIVE_MAPINFO.md",
+      "sha256": "41f1103a2a7370bf8113a57d243687d2f8c6c16204b4d5f7afd03ddbfc48573f"
+    },
+    {
+      "bytes": 31362,
+      "path": "native-mapinfo-ready/native-mapinfo-21case-binding.json",
+      "sha256": "2188684e79939cdd2c08929de0e9ca798def21b7865d65d1567abd6591713154"
+    },
+    {
+      "bytes": 1894,
+      "path": "project_native_mapinfo.py",
+      "sha256": "c54bd9562638583420e953a8c31820ebd4b389352f5cf583eaa3b37c586c239f"
+    },
+    {
+      "bytes": 3936,
+      "path": "native-mapinfo-review/native-mapinfo-independent-review.json",
+      "sha256": "c6532152b8e6c375de7d7f3a0d38fd0b1dcd38f4f252986b6a26f1ec8d18543e"
+    },
+    {
+      "bytes": 9915,
+      "path": "native-mapinfo-review/verify_native_mapinfo_review.py",
+      "sha256": "4e5825d5a416b6278e8a087d29ae5ddd91c291f9f2b04fc26bf2481e68e7e624"
+    }
+  ],
+  "focused_tests_failures_errors_skips": 0,
+  "focused_tests_passed": 13,
+  "format": "hots-native-mapinfo-source-and-observation-freeze-v1",
+  "full_upgrade_complete": false,
+  "independent_physical_bit_reencode_actual_records": 6,
+  "native_root_fields": 32,
+  "raw_PE_or_full_BSN_blob_or_headers_or_replay_or_private_values_included": false,
+  "selected_schema_types": 191
+}

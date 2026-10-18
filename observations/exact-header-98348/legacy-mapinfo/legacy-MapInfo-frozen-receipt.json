@@ -1,0 +1,31 @@
+{
+  "actual_cases": 3,
+  "conversion_or_header_replay_write": false,
+  "derived_complete_32field_boundary_and_bitexact_records": 16,
+  "files": [
+    {
+      "bytes": 12794,
+      "name": "probe_legacy_mapinfo.py",
+      "sha256": "49c5629669306b88c74be6eb745d6d88eb2088031dd6b5bcaf5583fb28456c7e"
+    },
+    {
+      "bytes": 16237,
+      "name": "legacy-MapInfo-count-width-hypothesis.json",
+      "sha256": "de29dfe84d6906fda09768c7e545d8c1053e641e44d21372692b0f45d6529477"
+    },
+    {
+      "bytes": 2915,
+      "name": "README.md",
+      "sha256": "69d6f3120851f94cc85a60e6eda2321ceb88464fc423808b092f4767da727e19"
+    }
+  ],
+  "format": "hots-derived-legacy-MapInfo-research-frozen-receipt-v1",
+  "historical_records": 16,
+  "network_client_or_PE_used": false,
+  "old_schema_authenticated": false,
+  "only_hypothesis_delta": "type1828 bounds.bits31to7 andmax2147483647to127",
+  "production_profiles_modified": false,
+  "raw_inputs_included": false,
+  "unmodified_current_graph_last_record_failures": 3,
+  "unmodified_current_graph_wrong_end_records": 13
+}

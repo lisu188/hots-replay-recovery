@@ -1,0 +1,109 @@
+{
+  "PE_reads": 0,
+  "actual_build_base_data": 98348,
+  "actual_member_sha256": "ab03d9533081e9d69d205a6adec9df6a0aaf5ff47a05ecc8bf670b6760b0ab55",
+  "actual_records": [
+    {
+      "end_bit": 482688,
+      "independent_physical_bits_checked_including_leading_alignment": 1584,
+      "index": 0,
+      "named_root_fields_contiguous": 32,
+      "start_bit": 481108,
+      "wire_tokens_reconstructed": 76
+    },
+    {
+      "end_bit": 484328,
+      "independent_physical_bits_checked_including_leading_alignment": 1640,
+      "index": 1,
+      "named_root_fields_contiguous": 32,
+      "start_bit": 482688,
+      "wire_tokens_reconstructed": 78
+    },
+    {
+      "end_bit": 485936,
+      "independent_physical_bits_checked_including_leading_alignment": 1608,
+      "index": 2,
+      "named_root_fields_contiguous": 32,
+      "start_bit": 484328,
+      "wire_tokens_reconstructed": 77
+    },
+    {
+      "end_bit": 487999,
+      "independent_physical_bits_checked_including_leading_alignment": 2063,
+      "index": 3,
+      "named_root_fields_contiguous": 32,
+      "start_bit": 485936,
+      "wire_tokens_reconstructed": 95
+    },
+    {
+      "end_bit": 489608,
+      "independent_physical_bits_checked_including_leading_alignment": 1616,
+      "index": 4,
+      "named_root_fields_contiguous": 32,
+      "start_bit": 487999,
+      "wire_tokens_reconstructed": 77
+    },
+    {
+      "end_bit": 492625,
+      "independent_physical_bits_checked_including_leading_alignment": 3017,
+      "index": 5,
+      "named_root_fields_contiguous": 32,
+      "start_bit": 489608,
+      "wire_tokens_reconstructed": 159
+    }
+  ],
+  "actual_replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+  "actual_root": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+  "changed_metadata_offset_rejected": true,
+  "focused_synthetic_tests": {
+    "fixture_values_invented": true,
+    "passed": 13,
+    "run": 13,
+    "skipped": 0,
+    "writer_independent_of_library_writer": true
+  },
+  "format": "hots-native-MapInfo-independent-review-v1",
+  "independent_token_physical_reconstruction_exact": true,
+  "limits": [
+    "Review covers the pinned current 191-type MapInfo closure and one genuine six-record control.",
+    "The 21-case producer is source-reviewed separately; this review does not rerun it.",
+    "No historical mapping, missing namespace recovery or full replay upgrade follows."
+  ],
+  "material_findings": [],
+  "native_audit_facts": {
+    "all_consumed_spans_reencode_exact": true,
+    "all_native_ends_and_identities_match_observed_records": true,
+    "full_replay_compatibility_claimed": false,
+    "last_two_field_width_histogram": [
+      {
+        "records": 6,
+        "widths": [
+          1,
+          31
+        ]
+      }
+    ],
+    "named_fields_per_record": 32,
+    "profile": "mapinfo-98348",
+    "raw_author_or_player_values_emitted": false,
+    "records_checked": 6,
+    "required_permission_count_histogram": {
+      "0": 6
+    },
+    "schema_sha256": "3900a63c0799474becd2ecfb03eece4f8c523a965b38e539264867d5cdf2075c"
+  },
+  "network_or_client_used": false,
+  "private_details_init_and_tail_gates_passed": true,
+  "raw_or_private_values_written": false,
+  "replay_bytes_read_once_from_disk": 1113273,
+  "root_fields": 32,
+  "schema_closed_types": 191,
+  "selected_member_bytes_decoded": 418477,
+  "source_hashes": {
+    "native-mapinfo-ready/native_mapinfo.py": "b7bd41881c171a606fa3fe5844590e8d935d5ed2e42cb418cd2fcbc859710810",
+    "native-mapinfo-ready/native_mapinfo_schema_98348.json": "3900a63c0799474becd2ecfb03eece4f8c523a965b38e539264867d5cdf2075c",
+    "native-mapinfo-review/test_native_mapinfo.py": "f5a506596d3f00ae9b73d9e957f9aa5b1191da72b0897bf551d6569703f6a757",
+    "native-mapinfo-review/verify_native_mapinfo_review.py": "4e5825d5a416b6278e8a087d29ae5ddd91c291f9f2b04fc26bf2481e68e7e624",
+    "native_clientinfo.py": "e0abd0b674c97b87f6a1510edc08704eebeca0ad9d43ac0537d5eaaa3eb9b202"
+  }
+}

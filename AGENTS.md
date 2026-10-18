@@ -801,3 +801,34 @@ pass. Producers retain private scratch dependencies; publication verifier uses
 only public checkpoint files. No new actual private-input rerun, hosted CI,
 client launch, replay write, ownership mapping or migration completion.
 Original/R8 unchanged; no backup or root module/CI/output-status changes here.
+
+
+## Native MapInfo and historical count constraint - 2026-10-19
+
+Read docs/NATIVE_MAPINFO_2026-10-19.md and native-mapinfo source/observations.
+The separately pinned191-type snapshot names all32S2MapInfo fields. All21
+current controls/136records match complete ends, handle identities and exact
+consumed bit spans, with fresh build/root/fulltail/privateidentity/seed guards.
+Last32bits resolve to m_addMultiMod1 plus m_requiredPermissions count31, empty
+in all136.13focused testsPASS; independentphysical-bit reconstructionPASS on
+6actualUSDragon records. Independent382-type PE projection matches all191
+selected records exactly. No PE/client is needed by the portable root reader.
+CI adds8actualEUMapInfo records; inspect new run logs before claiming its result.
+
+Read docs/LEGACY_MAPINFO_COUNT_CONSTRAINT_2026-10-19.md and legacy-mapinfo
+receipt. One explicitly derived RAM-only graph changes only PermissionList
+type1828 count31to7/max127. Original5+R8same5+genuine39445six all32fieldends,
+identities, arcade section boundaries and independentphysicalbits match; all
+16counts zero/finalwidths[1,7]. Original/R8derivedtokensidentical. Current
+unmodifiedgraph has13wrongends+3lastrecordphysicalpayloadfailures. This is
+structural consistency, not authenticatedoldnative semantics or a conversion
+rule. Frozen production profiles are unchanged; do not silently zeroextend.
+
+Header-field-exposure receipts bind all15sharednamed fields and9commonvariant
+fields per each5exactUSheaders to MapInfo. EUDataMod retains12/15exact;3
+differences(identity/visuals/deps)werealreadyreplacedbytheearlierrecipe.
+Header.root1 is GameHeader.m_dummy BOOL, not an author record. Other header-only
+fields and the target namespace remain unobserved; no new recipe is supported.
+Source/archive/core/simulation proof remain distinct. No rawPE/fullBSN/header/
+replay/playerdata published. Original/R8 unchanged; no client/newreplay and
+full migration unfinished. See exact publication-bindings for frozen bytes.

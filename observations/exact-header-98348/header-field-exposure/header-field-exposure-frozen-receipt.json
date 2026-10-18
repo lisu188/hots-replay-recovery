@@ -1,0 +1,68 @@
+{
+  "actual21case136record_owner_receipt_sha256": "2188684e79939cdd2c08929de0e9ca798def21b7865d65d1567abd6591713154",
+  "allowlisted_files": [
+    {
+      "bytes": 3394,
+      "file": "project_header_field_graph.py",
+      "sha256": "bd4928c718378fc4208e34ba795f725603e6e7dbb23499da151cebb5c019124c"
+    },
+    {
+      "bytes": 93202,
+      "file": "native-header-mapinfo-selected-graph.json",
+      "sha256": "56fa4fedd97e63737c2c575e63c728d9389d015243ff6acd25020c4d62834147"
+    },
+    {
+      "bytes": 24067,
+      "file": "review_header_field_exposure.py",
+      "sha256": "4a5a7b8483413ea40b49c1ce49d1fd78dd54649ccecaa7c04e9c090cc683dac0"
+    },
+    {
+      "bytes": 5855,
+      "file": "test_header_field_exposure.py",
+      "sha256": "394b289bc8d081c23e192f71a9a1f66805c90d27d8f4db7581695fa28edf5fac"
+    },
+    {
+      "bytes": 45284,
+      "file": "native-mapinfo-header-field-exposure-v2.json",
+      "sha256": "e5c2bf46ee0253962f9fb9dd316dbbef0256399b370a86e643bbc9faca751c66"
+    },
+    {
+      "bytes": 3857,
+      "file": "freeze_header_field_exposure.py",
+      "sha256": "a2c192cc14218f9dfc51c4e198506762520ab0b1175e1bcc10214f48fe3d7fbe"
+    }
+  ],
+  "comparison_stage_PE_read_passes": 0,
+  "excluded_historical_report": "native-mapinfo-header-field-exposure.json",
+  "excluded_historical_report_reason": "Initial comparison result predates explicit per-field native type-link table. v2 retains identical75/45/25andtarget conclusions with final source binding.",
+  "format": "native-header-field-exposure-frozen-receipt-v1",
+  "full_US_DataMod_header_recovered": false,
+  "limits": [
+    "This is a named-field exposure assessment, not a new header-candidate experiment.",
+    "Full unknown target metadata remains unproven beyond the directly compared fields.",
+    "Outer root1 is authenticated as GameHeader with one BOOL named m_dummy; five known controls and the EUtemplate agree, but target value is not observed.",
+    "No author/flag/namespace mapping is inferred from equal numbers or boolean coincidence."
+  ],
+  "matched_selected_schema_sha256": "3900a63c0799474becd2ecfb03eece4f8c523a965b38e539264867d5cdf2075c",
+  "network_or_client_or_repo_cloud_writes": false,
+  "private_author_namespace_creator_player_literals_or_per_value_hashes_emitted": false,
+  "raw_candidate_header_or_replay_written": false,
+  "root1_GameHeader_dummy_value_for_missing_target_claimed": false,
+  "source_experiment_PE_read_passes": 1,
+  "validation": {
+    "common_variant_value_matches": 45,
+    "direct_named_value_matches": 75,
+    "errors": 0,
+    "failures": 0,
+    "focused_synthetic_tests_executed": 14,
+    "known_complete_US_headers": 5,
+    "named_root_fields": 32,
+    "native_MapInfo_records_independently_walked_in_this_comparison": 6,
+    "selected_MapInfo_records_compared_exact": 191,
+    "skips": 0,
+    "target_common_variant_fields_exact": 9,
+    "target_exposed_retained_fields_exact": 12,
+    "unexposed_retained_groups_including_namespace": 18,
+    "wrong_module_identity_negative_controls": 25
+  }
+}

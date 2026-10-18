@@ -1,0 +1,1196 @@
+{
+  "EU_DataMod_comparisons": [
+    {
+      "MapInfo_field": "m_handle",
+      "equal": false,
+      "field": "header identity",
+      "header_named_path": "Header/m_bnet/m_handle",
+      "locale_indices_rebased_by_12_exact_handles": 0
+    },
+    {
+      "MapInfo_field": "m_mapName",
+      "equal": true,
+      "field": "display name",
+      "header_named_path": "Header/m_bnet/m_workingSet/m_name",
+      "locale_indices_rebased_by_12_exact_handles": 0
+    },
+    {
+      "MapInfo_field": "m_mapDescription",
+      "equal": true,
+      "field": "display description",
+      "header_named_path": "Header/m_bnet/m_workingSet/m_description",
+      "locale_indices_rebased_by_12_exact_handles": 0
+    },
+    {
+      "MapInfo_field": "m_mapThumbnail",
+      "equal": true,
+      "field": "thumbnail",
+      "header_named_path": "Header/m_bnet/m_workingSet/m_thumbnail",
+      "locale_indices_rebased_by_12_exact_handles": 0
+    },
+    {
+      "MapInfo_field": "m_bigMap",
+      "equal": true,
+      "field": "big map",
+      "header_named_path": "Header/m_bnet/m_workingSet/m_bigMap",
+      "locale_indices_rebased_by_12_exact_handles": 0
+    },
+    {
+      "MapInfo_field": "m_maxPlayers",
+      "equal": true,
+      "field": "maximum players",
+      "header_named_path": "Header/m_bnet/m_workingSet/m_maxPlayers",
+      "locale_indices_rebased_by_12_exact_handles": 0
+    },
+    {
+      "MapInfo_field": "m_visualFiles",
+      "equal": false,
+      "field": "visual files",
+      "header_named_path": "Header/m_bnet/m_workingSet/m_visualFiles",
+      "locale_indices_rebased_by_12_exact_handles": 0
+    },
+    {
+      "MapInfo_field": "m_mapSize",
+      "equal": true,
+      "field": "map size",
+      "header_named_path": "Header/m_bnet/m_size",
+      "locale_indices_rebased_by_12_exact_handles": 0
+    },
+    {
+      "MapInfo_field": "m_tileset",
+      "equal": true,
+      "field": "tileset",
+      "header_named_path": "Header/m_bnet/m_tileset",
+      "locale_indices_rebased_by_12_exact_handles": 0
+    },
+    {
+      "MapInfo_field": "m_labels",
+      "equal": true,
+      "field": "labels",
+      "header_named_path": "Header/m_bnet/m_labels",
+      "locale_indices_rebased_by_12_exact_handles": 0
+    },
+    {
+      "MapInfo_field": "m_defaultVariantIndex",
+      "equal": true,
+      "field": "default variant index",
+      "header_named_path": "Header/m_bnet/m_defaultVariantIndex",
+      "locale_indices_rebased_by_12_exact_handles": 0
+    },
+    {
+      "MapInfo_field": "m_arcadeGameInfo",
+      "equal": true,
+      "field": "arcade info",
+      "header_named_path": "Header/m_bnet/m_arcadeData",
+      "locale_indices_rebased_by_12_exact_handles": 0
+    },
+    {
+      "MapInfo_field": "m_extraDependencies",
+      "equal": false,
+      "field": "extra dependencies",
+      "header_named_path": "Header/m_bnet/m_extraDependencies",
+      "locale_indices_rebased_by_12_exact_handles": 0
+    },
+    {
+      "MapInfo_field": "m_addMultiMod",
+      "equal": true,
+      "field": "add multiple mods",
+      "header_named_path": "Header/m_bnet/m_addMultiMod",
+      "locale_indices_rebased_by_12_exact_handles": 0
+    },
+    {
+      "MapInfo_field": "m_requiredPermissions",
+      "equal": true,
+      "field": "required permissions",
+      "header_named_path": "Header/m_bnet/m_requiredPermissions",
+      "locale_indices_rebased_by_12_exact_handles": 0
+    }
+  ],
+  "EU_DataMod_exposed_common_variant_fields_exact": 9,
+  "EU_DataMod_exposed_retained_fields_exact": 12,
+  "EU_DataMod_source_sha256": "33a1c5c9cd0e3d808c2a942c392fa2b5cc7077457bdbe62adad158b86ef8a4fd",
+  "EU_DataMod_variants": [
+    {
+      "field_equalities": {
+        "m_categoryDescription": true,
+        "m_categoryName": true,
+        "m_maxHumanPlayers": true,
+        "m_maxOpenSlots": true,
+        "m_maxTeamSize": true,
+        "m_modeDescription": true,
+        "m_modeName": true,
+        "m_variantId": true,
+        "m_visual": true
+      },
+      "native_variant_index_in_bounds_and_map_handle_matches": true,
+      "nine_common_named_fields_equal": true
+    }
+  ],
+  "EU_source_mismatches_already_replaced_by_prior_recipe": [
+    "m_handle",
+    "m_visualFiles",
+    "m_extraDependencies"
+  ],
+  "PE_reads_in_this_comparison_stage": 0,
+  "actual_missing_US_DataMod_terminal_sha256": "42afeaf8be79bff738e3387c15261b2c71474a63618ecfe8d38f5beb2985b57a",
+  "aggregate": {
+    "all_direct_comparisons_required_no_index_rebasing": true,
+    "exact_common_named_field_comparisons": 75,
+    "exact_common_variant_field_comparisons": 45,
+    "known_US_headers": 5,
+    "wrong_module_handle_negative_comparisons": 25
+  },
+  "all6_exact_record_ends_and_consumed_bit_reencoding": true,
+  "author_field_names_not_in_actual_s2mh_Header_schema": [
+    "m_authorRealName",
+    "m_authorToonName",
+    "m_authorToonHandle"
+  ],
+  "authors_and_server_flags_are_not_outer_root1": true,
+  "client_network_repo_or_cloud_used": false,
+  "controls": [
+    {
+      "common_fields": [
+        {
+          "MapInfo_field": "m_handle",
+          "equal": true,
+          "field": "header identity",
+          "header_named_path": "Header/m_bnet/m_handle",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_mapName",
+          "equal": true,
+          "field": "display name",
+          "header_named_path": "Header/m_bnet/m_workingSet/m_name",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_mapDescription",
+          "equal": true,
+          "field": "display description",
+          "header_named_path": "Header/m_bnet/m_workingSet/m_description",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_mapThumbnail",
+          "equal": true,
+          "field": "thumbnail",
+          "header_named_path": "Header/m_bnet/m_workingSet/m_thumbnail",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_bigMap",
+          "equal": true,
+          "field": "big map",
+          "header_named_path": "Header/m_bnet/m_workingSet/m_bigMap",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_maxPlayers",
+          "equal": true,
+          "field": "maximum players",
+          "header_named_path": "Header/m_bnet/m_workingSet/m_maxPlayers",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_visualFiles",
+          "equal": true,
+          "field": "visual files",
+          "header_named_path": "Header/m_bnet/m_workingSet/m_visualFiles",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_mapSize",
+          "equal": true,
+          "field": "map size",
+          "header_named_path": "Header/m_bnet/m_size",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_tileset",
+          "equal": true,
+          "field": "tileset",
+          "header_named_path": "Header/m_bnet/m_tileset",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_labels",
+          "equal": true,
+          "field": "labels",
+          "header_named_path": "Header/m_bnet/m_labels",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_defaultVariantIndex",
+          "equal": true,
+          "field": "default variant index",
+          "header_named_path": "Header/m_bnet/m_defaultVariantIndex",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_arcadeGameInfo",
+          "equal": true,
+          "field": "arcade info",
+          "header_named_path": "Header/m_bnet/m_arcadeData",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_extraDependencies",
+          "equal": true,
+          "field": "extra dependencies",
+          "header_named_path": "Header/m_bnet/m_extraDependencies",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_addMultiMod",
+          "equal": true,
+          "field": "add multiple mods",
+          "header_named_path": "Header/m_bnet/m_addMultiMod",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_requiredPermissions",
+          "equal": true,
+          "field": "required permissions",
+          "header_named_path": "Header/m_bnet/m_requiredPermissions",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        }
+      ],
+      "header_sha256": "3392997d3afe27a33371b58cfaff37af5b67bda09ee9131e52bae0a0c80b2b76",
+      "strict_full_versioned_native_graph_binding": true,
+      "variant_counts_equal": true,
+      "variants": [
+        {
+          "field_equalities": {
+            "m_categoryDescription": true,
+            "m_categoryName": true,
+            "m_maxHumanPlayers": true,
+            "m_maxOpenSlots": true,
+            "m_maxTeamSize": true,
+            "m_modeDescription": true,
+            "m_modeName": true,
+            "m_variantId": true,
+            "m_visual": true
+          },
+          "native_variant_index_in_bounds_and_map_handle_matches": true,
+          "nine_common_named_fields_equal": true
+        }
+      ]
+    },
+    {
+      "common_fields": [
+        {
+          "MapInfo_field": "m_handle",
+          "equal": true,
+          "field": "header identity",
+          "header_named_path": "Header/m_bnet/m_handle",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_mapName",
+          "equal": true,
+          "field": "display name",
+          "header_named_path": "Header/m_bnet/m_workingSet/m_name",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_mapDescription",
+          "equal": true,
+          "field": "display description",
+          "header_named_path": "Header/m_bnet/m_workingSet/m_description",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_mapThumbnail",
+          "equal": true,
+          "field": "thumbnail",
+          "header_named_path": "Header/m_bnet/m_workingSet/m_thumbnail",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_bigMap",
+          "equal": true,
+          "field": "big map",
+          "header_named_path": "Header/m_bnet/m_workingSet/m_bigMap",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_maxPlayers",
+          "equal": true,
+          "field": "maximum players",
+          "header_named_path": "Header/m_bnet/m_workingSet/m_maxPlayers",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_visualFiles",
+          "equal": true,
+          "field": "visual files",
+          "header_named_path": "Header/m_bnet/m_workingSet/m_visualFiles",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_mapSize",
+          "equal": true,
+          "field": "map size",
+          "header_named_path": "Header/m_bnet/m_size",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_tileset",
+          "equal": true,
+          "field": "tileset",
+          "header_named_path": "Header/m_bnet/m_tileset",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_labels",
+          "equal": true,
+          "field": "labels",
+          "header_named_path": "Header/m_bnet/m_labels",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_defaultVariantIndex",
+          "equal": true,
+          "field": "default variant index",
+          "header_named_path": "Header/m_bnet/m_defaultVariantIndex",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_arcadeGameInfo",
+          "equal": true,
+          "field": "arcade info",
+          "header_named_path": "Header/m_bnet/m_arcadeData",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_extraDependencies",
+          "equal": true,
+          "field": "extra dependencies",
+          "header_named_path": "Header/m_bnet/m_extraDependencies",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_addMultiMod",
+          "equal": true,
+          "field": "add multiple mods",
+          "header_named_path": "Header/m_bnet/m_addMultiMod",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_requiredPermissions",
+          "equal": true,
+          "field": "required permissions",
+          "header_named_path": "Header/m_bnet/m_requiredPermissions",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        }
+      ],
+      "header_sha256": "4b6fdc8eccc9eca107f7c6e5eae6c7c604e718ded019f4f4110a92300b54313f",
+      "strict_full_versioned_native_graph_binding": true,
+      "variant_counts_equal": true,
+      "variants": [
+        {
+          "field_equalities": {
+            "m_categoryDescription": true,
+            "m_categoryName": true,
+            "m_maxHumanPlayers": true,
+            "m_maxOpenSlots": true,
+            "m_maxTeamSize": true,
+            "m_modeDescription": true,
+            "m_modeName": true,
+            "m_variantId": true,
+            "m_visual": true
+          },
+          "native_variant_index_in_bounds_and_map_handle_matches": true,
+          "nine_common_named_fields_equal": true
+        }
+      ]
+    },
+    {
+      "common_fields": [
+        {
+          "MapInfo_field": "m_handle",
+          "equal": true,
+          "field": "header identity",
+          "header_named_path": "Header/m_bnet/m_handle",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_mapName",
+          "equal": true,
+          "field": "display name",
+          "header_named_path": "Header/m_bnet/m_workingSet/m_name",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_mapDescription",
+          "equal": true,
+          "field": "display description",
+          "header_named_path": "Header/m_bnet/m_workingSet/m_description",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_mapThumbnail",
+          "equal": true,
+          "field": "thumbnail",
+          "header_named_path": "Header/m_bnet/m_workingSet/m_thumbnail",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_bigMap",
+          "equal": true,
+          "field": "big map",
+          "header_named_path": "Header/m_bnet/m_workingSet/m_bigMap",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_maxPlayers",
+          "equal": true,
+          "field": "maximum players",
+          "header_named_path": "Header/m_bnet/m_workingSet/m_maxPlayers",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_visualFiles",
+          "equal": true,
+          "field": "visual files",
+          "header_named_path": "Header/m_bnet/m_workingSet/m_visualFiles",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_mapSize",
+          "equal": true,
+          "field": "map size",
+          "header_named_path": "Header/m_bnet/m_size",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_tileset",
+          "equal": true,
+          "field": "tileset",
+          "header_named_path": "Header/m_bnet/m_tileset",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_labels",
+          "equal": true,
+          "field": "labels",
+          "header_named_path": "Header/m_bnet/m_labels",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_defaultVariantIndex",
+          "equal": true,
+          "field": "default variant index",
+          "header_named_path": "Header/m_bnet/m_defaultVariantIndex",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_arcadeGameInfo",
+          "equal": true,
+          "field": "arcade info",
+          "header_named_path": "Header/m_bnet/m_arcadeData",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_extraDependencies",
+          "equal": true,
+          "field": "extra dependencies",
+          "header_named_path": "Header/m_bnet/m_extraDependencies",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_addMultiMod",
+          "equal": true,
+          "field": "add multiple mods",
+          "header_named_path": "Header/m_bnet/m_addMultiMod",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_requiredPermissions",
+          "equal": true,
+          "field": "required permissions",
+          "header_named_path": "Header/m_bnet/m_requiredPermissions",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        }
+      ],
+      "header_sha256": "82cf19ac9ceb903631db0994023efba040a1ccfbb0e920033a742d62cb65a77b",
+      "strict_full_versioned_native_graph_binding": true,
+      "variant_counts_equal": true,
+      "variants": [
+        {
+          "field_equalities": {
+            "m_categoryDescription": true,
+            "m_categoryName": true,
+            "m_maxHumanPlayers": true,
+            "m_maxOpenSlots": true,
+            "m_maxTeamSize": true,
+            "m_modeDescription": true,
+            "m_modeName": true,
+            "m_variantId": true,
+            "m_visual": true
+          },
+          "native_variant_index_in_bounds_and_map_handle_matches": true,
+          "nine_common_named_fields_equal": true
+        }
+      ]
+    },
+    {
+      "common_fields": [
+        {
+          "MapInfo_field": "m_handle",
+          "equal": true,
+          "field": "header identity",
+          "header_named_path": "Header/m_bnet/m_handle",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_mapName",
+          "equal": true,
+          "field": "display name",
+          "header_named_path": "Header/m_bnet/m_workingSet/m_name",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_mapDescription",
+          "equal": true,
+          "field": "display description",
+          "header_named_path": "Header/m_bnet/m_workingSet/m_description",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_mapThumbnail",
+          "equal": true,
+          "field": "thumbnail",
+          "header_named_path": "Header/m_bnet/m_workingSet/m_thumbnail",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_bigMap",
+          "equal": true,
+          "field": "big map",
+          "header_named_path": "Header/m_bnet/m_workingSet/m_bigMap",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_maxPlayers",
+          "equal": true,
+          "field": "maximum players",
+          "header_named_path": "Header/m_bnet/m_workingSet/m_maxPlayers",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_visualFiles",
+          "equal": true,
+          "field": "visual files",
+          "header_named_path": "Header/m_bnet/m_workingSet/m_visualFiles",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_mapSize",
+          "equal": true,
+          "field": "map size",
+          "header_named_path": "Header/m_bnet/m_size",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_tileset",
+          "equal": true,
+          "field": "tileset",
+          "header_named_path": "Header/m_bnet/m_tileset",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_labels",
+          "equal": true,
+          "field": "labels",
+          "header_named_path": "Header/m_bnet/m_labels",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_defaultVariantIndex",
+          "equal": true,
+          "field": "default variant index",
+          "header_named_path": "Header/m_bnet/m_defaultVariantIndex",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_arcadeGameInfo",
+          "equal": true,
+          "field": "arcade info",
+          "header_named_path": "Header/m_bnet/m_arcadeData",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_extraDependencies",
+          "equal": true,
+          "field": "extra dependencies",
+          "header_named_path": "Header/m_bnet/m_extraDependencies",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_addMultiMod",
+          "equal": true,
+          "field": "add multiple mods",
+          "header_named_path": "Header/m_bnet/m_addMultiMod",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_requiredPermissions",
+          "equal": true,
+          "field": "required permissions",
+          "header_named_path": "Header/m_bnet/m_requiredPermissions",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        }
+      ],
+      "header_sha256": "0633db0bcff394a95e6d3e62a54190c2c33ee6c39af555a5d6268ac6e26c936a",
+      "strict_full_versioned_native_graph_binding": true,
+      "variant_counts_equal": true,
+      "variants": [
+        {
+          "field_equalities": {
+            "m_categoryDescription": true,
+            "m_categoryName": true,
+            "m_maxHumanPlayers": true,
+            "m_maxOpenSlots": true,
+            "m_maxTeamSize": true,
+            "m_modeDescription": true,
+            "m_modeName": true,
+            "m_variantId": true,
+            "m_visual": true
+          },
+          "native_variant_index_in_bounds_and_map_handle_matches": true,
+          "nine_common_named_fields_equal": true
+        }
+      ]
+    },
+    {
+      "common_fields": [
+        {
+          "MapInfo_field": "m_handle",
+          "equal": true,
+          "field": "header identity",
+          "header_named_path": "Header/m_bnet/m_handle",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_mapName",
+          "equal": true,
+          "field": "display name",
+          "header_named_path": "Header/m_bnet/m_workingSet/m_name",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_mapDescription",
+          "equal": true,
+          "field": "display description",
+          "header_named_path": "Header/m_bnet/m_workingSet/m_description",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_mapThumbnail",
+          "equal": true,
+          "field": "thumbnail",
+          "header_named_path": "Header/m_bnet/m_workingSet/m_thumbnail",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_bigMap",
+          "equal": true,
+          "field": "big map",
+          "header_named_path": "Header/m_bnet/m_workingSet/m_bigMap",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_maxPlayers",
+          "equal": true,
+          "field": "maximum players",
+          "header_named_path": "Header/m_bnet/m_workingSet/m_maxPlayers",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_visualFiles",
+          "equal": true,
+          "field": "visual files",
+          "header_named_path": "Header/m_bnet/m_workingSet/m_visualFiles",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_mapSize",
+          "equal": true,
+          "field": "map size",
+          "header_named_path": "Header/m_bnet/m_size",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_tileset",
+          "equal": true,
+          "field": "tileset",
+          "header_named_path": "Header/m_bnet/m_tileset",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_labels",
+          "equal": true,
+          "field": "labels",
+          "header_named_path": "Header/m_bnet/m_labels",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_defaultVariantIndex",
+          "equal": true,
+          "field": "default variant index",
+          "header_named_path": "Header/m_bnet/m_defaultVariantIndex",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_arcadeGameInfo",
+          "equal": true,
+          "field": "arcade info",
+          "header_named_path": "Header/m_bnet/m_arcadeData",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_extraDependencies",
+          "equal": true,
+          "field": "extra dependencies",
+          "header_named_path": "Header/m_bnet/m_extraDependencies",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_addMultiMod",
+          "equal": true,
+          "field": "add multiple mods",
+          "header_named_path": "Header/m_bnet/m_addMultiMod",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        },
+        {
+          "MapInfo_field": "m_requiredPermissions",
+          "equal": true,
+          "field": "required permissions",
+          "header_named_path": "Header/m_bnet/m_requiredPermissions",
+          "locale_indices_rebased_by_12_exact_handles": 0
+        }
+      ],
+      "header_sha256": "3c2d7d5c17b8a5351c03d7bfb40159ca158694176b81d51bbd1d12abadc2e429",
+      "strict_full_versioned_native_graph_binding": true,
+      "variant_counts_equal": true,
+      "variants": [
+        {
+          "field_equalities": {
+            "m_categoryDescription": true,
+            "m_categoryName": true,
+            "m_maxHumanPlayers": true,
+            "m_maxOpenSlots": true,
+            "m_maxTeamSize": true,
+            "m_modeDescription": true,
+            "m_modeName": true,
+            "m_variantId": true,
+            "m_visual": true
+          },
+          "native_variant_index_in_bounds_and_map_handle_matches": true,
+          "nine_common_named_fields_equal": true
+        }
+      ]
+    }
+  ],
+  "exact_current_native_MapInfo_entries": 6,
+  "formal_outer_root1_definition": {
+    "Header_type_id": 4376,
+    "field_name": "m_game",
+    "field_tag": 1,
+    "members": [
+      {
+        "kind": "BOOL",
+        "name": "m_dummy",
+        "tag": 0
+      }
+    ],
+    "resolved_type_id": 4449,
+    "resolved_type_name": "Battlenet::S2Map::GameHeader"
+  },
+  "format": "hots-native-MapInfo-header-field-exposure-v1",
+  "header_candidates_bodies_or_replays_created": 0,
+  "limits": [
+    "This lane compares32named currentMapInfo fields with five known exact wholeUSheaders and the authenticatedEUDataMod template; it does not authenticate an unknown wholeUSDataMod header.",
+    "Shared native type/field names supply the mapping. Constant-valued equalities alone are not used to infer a new semantic relationship.",
+    "All75direct known-header comparisons matched without localization rebasing; no EU-to-US locale-handle rewrite or regional hash substitution was used.",
+    "Authors, profile addresses and private/locked/mod cluster flags in MapInfo are not a Header.root1 author structure. No author or namespace value is emitted or transferred.",
+    "Eighteen retained field groups, including namespace, remain unexposed by MapInfo. Empty arrays or the common dummy BOOL do not prove their unknown target values.",
+    "No newcandidate is assembled; the complete advertised42afeSHA remains the only acceptance criterion for any separately authorized reconstruction."
+  ],
+  "named_native_field_schema_links": [
+    {
+      "MapInfo_named_field": "m_handle",
+      "MapInfo_resolved_type_id": 1865,
+      "MapInfo_resolved_type_name": "Battlenet::S2Map::Handle",
+      "field": "header identity",
+      "header_resolved_type_id": 1865,
+      "header_resolved_type_name": "Battlenet::S2Map::Handle",
+      "header_wire_path": "root/0/0",
+      "named_value_types_compatible": true,
+      "physical_container_type_ids_identical": true,
+      "scope": "Shared value/member semantics only; array/optional count or presence prefix widths are validated in their own wire profiles."
+    },
+    {
+      "MapInfo_named_field": "m_mapName",
+      "MapInfo_resolved_type_id": 198,
+      "MapInfo_resolved_type_name": "Battlenet::Attribute::LocalizedString",
+      "field": "display name",
+      "header_resolved_type_id": 198,
+      "header_resolved_type_name": "Battlenet::Attribute::LocalizedString",
+      "header_wire_path": "root/0/4/0",
+      "named_value_types_compatible": true,
+      "physical_container_type_ids_identical": true,
+      "scope": "Shared value/member semantics only; array/optional count or presence prefix widths are validated in their own wire profiles."
+    },
+    {
+      "MapInfo_named_field": "m_mapDescription",
+      "MapInfo_resolved_type_id": 198,
+      "MapInfo_resolved_type_name": "Battlenet::Attribute::LocalizedString",
+      "field": "display description",
+      "header_resolved_type_id": 198,
+      "header_resolved_type_name": "Battlenet::Attribute::LocalizedString",
+      "header_wire_path": "root/0/4/1",
+      "named_value_types_compatible": true,
+      "physical_container_type_ids_identical": true,
+      "scope": "Shared value/member semantics only; array/optional count or presence prefix widths are validated in their own wire profiles."
+    },
+    {
+      "MapInfo_named_field": "m_mapThumbnail",
+      "MapInfo_resolved_type_id": 5857,
+      "MapInfo_resolved_type_name": null,
+      "field": "thumbnail",
+      "header_resolved_type_id": 310,
+      "header_resolved_type_name": null,
+      "header_wire_path": "root/0/4/2",
+      "named_value_types_compatible": true,
+      "physical_container_type_ids_identical": false,
+      "scope": "Shared value/member semantics only; array/optional count or presence prefix widths are validated in their own wire profiles."
+    },
+    {
+      "MapInfo_named_field": "m_bigMap",
+      "MapInfo_resolved_type_id": 5858,
+      "MapInfo_resolved_type_name": null,
+      "field": "big map",
+      "header_resolved_type_id": 311,
+      "header_resolved_type_name": null,
+      "header_wire_path": "root/0/4/3",
+      "named_value_types_compatible": true,
+      "physical_container_type_ids_identical": false,
+      "scope": "Shared value/member semantics only; array/optional count or presence prefix widths are validated in their own wire profiles."
+    },
+    {
+      "MapInfo_named_field": "m_maxPlayers",
+      "MapInfo_resolved_type_id": 147,
+      "MapInfo_resolved_type_name": "Battlenet::Attribute::MaxPlayers",
+      "field": "maximum players",
+      "header_resolved_type_id": 147,
+      "header_resolved_type_name": "Battlenet::Attribute::MaxPlayers",
+      "header_wire_path": "root/0/4/4",
+      "named_value_types_compatible": true,
+      "physical_container_type_ids_identical": true,
+      "scope": "Shared value/member semantics only; array/optional count or presence prefix widths are validated in their own wire profiles."
+    },
+    {
+      "MapInfo_named_field": "m_visualFiles",
+      "MapInfo_resolved_type_id": 305,
+      "MapInfo_resolved_type_name": "Battlenet::Attribute::VisualFileTable",
+      "field": "visual files",
+      "header_resolved_type_id": 305,
+      "header_resolved_type_name": "Battlenet::Attribute::VisualFileTable",
+      "header_wire_path": "root/0/4/7",
+      "named_value_types_compatible": true,
+      "physical_container_type_ids_identical": true,
+      "scope": "Shared value/member semantics only; array/optional count or presence prefix widths are validated in their own wire profiles."
+    },
+    {
+      "MapInfo_named_field": "m_mapSize",
+      "MapInfo_resolved_type_id": 5864,
+      "MapInfo_resolved_type_name": null,
+      "field": "map size",
+      "header_resolved_type_id": 4486,
+      "header_resolved_type_name": null,
+      "header_wire_path": "root/0/9",
+      "named_value_types_compatible": true,
+      "physical_container_type_ids_identical": false,
+      "scope": "Shared value/member semantics only; array/optional count or presence prefix widths are validated in their own wire profiles."
+    },
+    {
+      "MapInfo_named_field": "m_tileset",
+      "MapInfo_resolved_type_id": 5865,
+      "MapInfo_resolved_type_name": null,
+      "field": "tileset",
+      "header_resolved_type_id": 4487,
+      "header_resolved_type_name": null,
+      "header_wire_path": "root/0/10",
+      "named_value_types_compatible": true,
+      "physical_container_type_ids_identical": false,
+      "scope": "Shared value/member semantics only; array/optional count or presence prefix widths are validated in their own wire profiles."
+    },
+    {
+      "MapInfo_named_field": "m_labels",
+      "MapInfo_resolved_type_id": 4513,
+      "MapInfo_resolved_type_name": "Battlenet::S2Map::LabelList",
+      "field": "labels",
+      "header_resolved_type_id": 4513,
+      "header_resolved_type_name": "Battlenet::S2Map::LabelList",
+      "header_wire_path": "root/0/18",
+      "named_value_types_compatible": true,
+      "physical_container_type_ids_identical": true,
+      "scope": "Shared value/member semantics only; array/optional count or presence prefix widths are validated in their own wire profiles."
+    },
+    {
+      "MapInfo_named_field": "m_defaultVariantIndex",
+      "MapInfo_resolved_type_id": 1750,
+      "MapInfo_resolved_type_name": "Battlenet::S2Map::VariantIndex",
+      "field": "default variant index",
+      "header_resolved_type_id": 1750,
+      "header_resolved_type_name": "Battlenet::S2Map::VariantIndex",
+      "header_wire_path": "root/0/12",
+      "named_value_types_compatible": true,
+      "physical_container_type_ids_identical": true,
+      "scope": "Shared value/member semantics only; array/optional count or presence prefix widths are validated in their own wire profiles."
+    },
+    {
+      "MapInfo_named_field": "m_arcadeGameInfo",
+      "MapInfo_resolved_type_id": 5881,
+      "MapInfo_resolved_type_name": null,
+      "field": "arcade info",
+      "header_resolved_type_id": 4495,
+      "header_resolved_type_name": null,
+      "header_wire_path": "root/0/19",
+      "named_value_types_compatible": true,
+      "physical_container_type_ids_identical": false,
+      "scope": "Shared value/member semantics only; array/optional count or presence prefix widths are validated in their own wire profiles."
+    },
+    {
+      "MapInfo_named_field": "m_extraDependencies",
+      "MapInfo_resolved_type_id": 5882,
+      "MapInfo_resolved_type_name": null,
+      "field": "extra dependencies",
+      "header_resolved_type_id": 4490,
+      "header_resolved_type_name": null,
+      "header_wire_path": "root/0/14",
+      "named_value_types_compatible": true,
+      "physical_container_type_ids_identical": false,
+      "scope": "Shared value/member semantics only; array/optional count or presence prefix widths are validated in their own wire profiles."
+    },
+    {
+      "MapInfo_named_field": "m_addMultiMod",
+      "MapInfo_resolved_type_id": 5883,
+      "MapInfo_resolved_type_name": null,
+      "field": "add multiple mods",
+      "header_resolved_type_id": 4496,
+      "header_resolved_type_name": null,
+      "header_wire_path": "root/0/22",
+      "named_value_types_compatible": true,
+      "physical_container_type_ids_identical": false,
+      "scope": "Shared value/member semantics only; array/optional count or presence prefix widths are validated in their own wire profiles."
+    },
+    {
+      "MapInfo_named_field": "m_requiredPermissions",
+      "MapInfo_resolved_type_id": 1828,
+      "MapInfo_resolved_type_name": "Battlenet::Permission::HandleList",
+      "field": "required permissions",
+      "header_resolved_type_id": 4512,
+      "header_resolved_type_name": "Battlenet::Permission::HandleArray",
+      "header_wire_path": "root/0/17",
+      "named_value_types_compatible": true,
+      "physical_container_type_ids_identical": false,
+      "scope": "Shared value/member semantics only; array/optional count or presence prefix widths are validated in their own wire profiles."
+    }
+  ],
+  "namespace_author_creator_player_values_or_private_digests_emitted": false,
+  "native_selected_graph_sha256": "56fa4fedd97e63737c2c575e63c728d9389d015243ff6acd25020c4d62834147",
+  "new_contradiction_among_exposed_retained_fields": false,
+  "old_recipe_fully_authenticated_except_namespace": false,
+  "outer_root1_EU_DataMod_equals_all5_US_controls": true,
+  "outer_root1_US_control_value_cardinality": 1,
+  "outer_root1_single_dummy_BOOL_shape_all6": true,
+  "primary_crossgame_reader": {
+    "ReadS2MH_line": 719,
+    "commit": "b48c60a697b12ae1dc8681a2d42ce313958ce94a",
+    "local_sha256": "6098d11befb24eba99f0c554118b34c9d180486dca212f7d02c10564f57f0064",
+    "path": "s2m.go",
+    "repository": "sc2-arcade-watcher/s2mdec",
+    "scope": "SC2 reader names the same BnetHeader paths and explicitly descends outerfield0; it does not name outerfield1. CurrentHotS native graph plus actual bytes name root1."
+  },
+  "producer_sha256": "4a5a7b8483413ea40b49c1ce49d1fd78dd54649ccecaa7c04e9c090cc683dac0",
+  "root21case136record_binding_not_rerun_in_this_lane": true,
+  "root21case_binding_receipt_sha256": "2188684e79939cdd2c08929de0e9ca798def21b7865d65d1567abd6591713154",
+  "selected_MapInfo_schema_comparison": {
+    "all191_complete_record_dictionaries_exact": true,
+    "comparison_source": "Separately projected382-type closure from the same hash-pinnedPE, using the shared reviewed metadata grammar parser.",
+    "ordered32_root_fields_exact": true,
+    "schema_sha256": "3900a63c0799474becd2ecfb03eece4f8c523a965b38e539264867d5cdf2075c"
+  },
+  "selected_graph_types": 382,
+  "separate_graph_projection_PE_read_bytes": 53573840,
+  "shared_native_research_decoder_sha256": "14cd9d119b4b26a5b479f410412377e2c93c7fab6c813bc5df42e74e0e2772d9",
+  "source_PE_sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+  "source_US_member_sha256": "ab03d9533081e9d69d205a6adec9df6a0aaf5ff47a05ecc8bf670b6760b0ab55",
+  "source_US_replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+  "source_embedded_BSN_sha256": "ce3b1f764575730f2c08c89eed73ea843ec4cc702b727c9577ca071ce610e741",
+  "unexposed_retained_field_group_count_including_namespace": 18,
+  "unexposed_retained_field_groups": [
+    {
+      "header_named_path": "Header/m_bnet/m_name",
+      "source_shape": {
+        "kind": "bytes",
+        "value_emitted": false
+      },
+      "status": "No corresponding field in the32-member S2MapInfo; retained target value is not authenticated by this lane.",
+      "wire_path": "root/0/1"
+    },
+    {
+      "header_named_path": "Header/m_bnet/m_mapNamespace",
+      "source_shape": {
+        "kind": "int",
+        "value_emitted": false
+      },
+      "status": "No corresponding field in the32-member S2MapInfo; retained target value is not authenticated by this lane.",
+      "wire_path": "root/0/3"
+    },
+    {
+      "header_named_path": "Header/m_bnet/m_workingSet/m_specialScope",
+      "source_shape": {
+        "kind": "int",
+        "value_emitted": false
+      },
+      "status": "No corresponding field in the32-member S2MapInfo; retained target value is not authenticated by this lane.",
+      "wire_path": "root/0/4/5"
+    },
+    {
+      "header_named_path": "Header/m_bnet/m_workingSet/m_instances",
+      "source_shape": {
+        "elements": 0,
+        "kind": "array"
+      },
+      "status": "No corresponding field in the32-member S2MapInfo; retained target value is not authenticated by this lane.",
+      "wire_path": "root/0/4/6"
+    },
+    {
+      "header_named_path": "Header/m_bnet/m_workingSet/m_visibilityOverrides",
+      "source_shape": {
+        "elements": 0,
+        "kind": "array"
+      },
+      "status": "No corresponding field in the32-member S2MapInfo; retained target value is not authenticated by this lane.",
+      "wire_path": "root/0/4/9"
+    },
+    {
+      "header_named_path": "Header/m_bnet/m_workingSet/m_indexRestrictions",
+      "source_shape": {
+        "elements": 0,
+        "kind": "array"
+      },
+      "status": "No corresponding field in the32-member S2MapInfo; retained target value is not authenticated by this lane.",
+      "wire_path": "root/0/4/10"
+    },
+    {
+      "header_named_path": "Header/m_bnet/m_workingSet/m_permissionRestrictions",
+      "source_shape": {
+        "elements": 0,
+        "kind": "array"
+      },
+      "status": "No corresponding field in the32-member S2MapInfo; retained target value is not authenticated by this lane.",
+      "wire_path": "root/0/4/11"
+    },
+    {
+      "header_named_path": "Header/m_bnet/m_definitions",
+      "source_shape": {
+        "elements": 0,
+        "kind": "array"
+      },
+      "status": "No corresponding field in the32-member S2MapInfo; retained target value is not authenticated by this lane.",
+      "wire_path": "root/0/5"
+    },
+    {
+      "header_named_path": "Header/m_bnet/m_resultDefinitions",
+      "source_shape": {
+        "elements": 0,
+        "kind": "array"
+      },
+      "status": "No corresponding field in the32-member S2MapInfo; retained target value is not authenticated by this lane.",
+      "wire_path": "root/0/7"
+    },
+    {
+      "header_named_path": "Header/m_bnet/m_addDefaultPermissions",
+      "source_shape": {
+        "kind": "int",
+        "value_emitted": false
+      },
+      "status": "No corresponding field in the32-member S2MapInfo; retained target value is not authenticated by this lane.",
+      "wire_path": "root/0/15"
+    },
+    {
+      "header_named_path": "Header/m_bnet/m_relevantPermissions",
+      "source_shape": {
+        "elements": 0,
+        "kind": "array"
+      },
+      "status": "No corresponding field in the32-member S2MapInfo; retained target value is not authenticated by this lane.",
+      "wire_path": "root/0/16"
+    },
+    {
+      "header_named_path": "Header/m_bnet/m_resourceList",
+      "source_shape": {
+        "elements": 0,
+        "kind": "array"
+      },
+      "status": "No corresponding field in the32-member S2MapInfo; retained target value is not authenticated by this lane.",
+      "wire_path": "root/0/24"
+    },
+    {
+      "header_named_path": "Header/m_game/m_dummy",
+      "source_shape": {
+        "kind": "int",
+        "value_emitted": false
+      },
+      "status": "No corresponding field in the32-member S2MapInfo; retained target value is not authenticated by this lane.",
+      "wire_path": "root/1/0"
+    },
+    {
+      "header_named_path": "Header/m_bnet/m_variants[]/m_instances",
+      "source_shape": {
+        "elements": 0,
+        "kind": "array"
+      },
+      "status": "Omitted from S2MapVariantInfo; retained target value is not authenticated by this lane."
+    },
+    {
+      "header_named_path": "Header/m_bnet/m_variants[]/m_lockedAttributes",
+      "source_shape": {
+        "elements": 0,
+        "kind": "array"
+      },
+      "status": "Omitted from S2MapVariantInfo; retained target value is not authenticated by this lane."
+    },
+    {
+      "header_named_path": "Header/m_bnet/m_variants[]/m_visibilityOverrides",
+      "source_shape": {
+        "elements": 0,
+        "kind": "array"
+      },
+      "status": "Omitted from S2MapVariantInfo; retained target value is not authenticated by this lane."
+    },
+    {
+      "header_named_path": "Header/m_bnet/m_variants[]/m_instanceRestrictions",
+      "source_shape": {
+        "elements": 0,
+        "kind": "array"
+      },
+      "status": "Omitted from S2MapVariantInfo; retained target value is not authenticated by this lane."
+    },
+    {
+      "header_named_path": "Header/m_bnet/m_variants[]/m_achievementTags",
+      "source_shape": {
+        "elements": 0,
+        "kind": "array"
+      },
+      "status": "Omitted from S2MapVariantInfo; retained target value is not authenticated by this lane."
+    }
+  ]
+}
