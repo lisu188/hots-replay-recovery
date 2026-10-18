@@ -44,6 +44,14 @@ def platform_skip_reason(test_id: str, platform: str) -> str | None:
     return None
 
 
+def expected_skip(test_id: str, reason: str, platform: str) -> bool:
+    if platform_skip_reason(test_id, platform) == reason:
+        return True
+    return (platform == 'win32'
+            and test_id == 'test_collection_license_audit.SyntheticLicenseCollectorTests.test_symlink_tree_is_not_followed'
+            and reason == 'Host does not permit synthetic symlink creation')
+
+
 class PlatformSkip(unittest.TestCase):
     """Keep each excluded case's original identity and an explicit skip receipt."""
 
@@ -120,7 +128,7 @@ def run_corpus(modules, cases, platform: str, stream=None):
         selected.append(PlatformSkip(case.id(), reason) if reason else case)
     result = unittest.TextTestRunner(stream=stream, verbosity=2).run(unittest.TestSuite(selected))
     skips = [{'test': case.id(), 'reason': reason} for case, reason in result.skipped]
-    unexpected_skips = [row for row in skips if not platform_skip_reason(row['test'], platform)]
+    unexpected_skips = [row for row in skips if not expected_skip(row['test'], row['reason'], platform)]
     success = (result.wasSuccessful() and result.testsRun == len(cases)
                and not unexpected_skips and not result.expectedFailures)
     report = {

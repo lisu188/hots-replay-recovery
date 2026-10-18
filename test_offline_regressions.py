@@ -83,6 +83,15 @@ class OfflineRunnerTests(unittest.TestCase):
         self.assertIsNone(runner.platform_skip_reason(
             'test_control_masks.NativeFixtureTests.test_all_available_checksums_pass', 'linux'))
 
+    def test_only_the_precise_windows_symlink_capability_skip_is_accepted(self):
+        case = 'test_collection_license_audit.SyntheticLicenseCollectorTests.test_symlink_tree_is_not_followed'
+        reason = 'Host does not permit synthetic symlink creation'
+        self.assertIsNone(runner.platform_skip_reason(case, 'win32'))
+        self.assertTrue(runner.expected_skip(case, reason, 'win32'))
+        self.assertFalse(runner.expected_skip(case, reason, 'linux'))
+        self.assertFalse(runner.expected_skip(case, 'missing fixture', 'win32'))
+        self.assertFalse(runner.expected_skip('some.other.test', reason, 'win32'))
+
     def test_missing_or_modified_hash_bound_fixture_fails_before_discovery(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
