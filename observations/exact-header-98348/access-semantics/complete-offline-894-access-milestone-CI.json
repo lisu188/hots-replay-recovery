@@ -1,0 +1,55 @@
+{
+  "format": "hots-complete-offline-access-source-milestone-CI-v1",
+  "run_id": 39169427494,
+  "tested_commit": "d3e0af926e9980912037bd45bd36b741cd4bc70c",
+  "url": "https://github.com/lisu188/hots-replay-recovery/actions/runs/39169427494",
+  "conclusion": "success",
+  "jobs": [
+    {
+      "id": 117799201929,
+      "lane": "Linux complete corpus",
+      "url": "https://github.com/lisu188/hots-replay-recovery/actions/runs/39169427494/job/117799201929",
+      "conclusion": "success",
+      "modules": 44,
+      "tests_discovered": 894,
+      "tests_run": 894,
+      "declared_skips": 38,
+      "unexpected_skips": 0,
+      "actual_NGS_fixture_test_executed": true,
+      "current_EU_streams_and_lobby_check_executed": true
+    },
+    {
+      "id": 117799202022,
+      "lane": "Windows / PowerShell 7 complete corpus",
+      "url": "https://github.com/lisu188/hots-replay-recovery/actions/runs/39169427494/job/117799202022",
+      "conclusion": "success",
+      "modules": 44,
+      "tests_discovered": 894,
+      "tests_run": 894,
+      "declared_skips": 4,
+      "unexpected_skips": 0,
+      "actual_NGS_fixture_test_executed": true,
+      "current_EU_streams_and_lobby_check_executed": true
+    },
+    {
+      "id": 117799202026,
+      "lane": "Windows / PowerShell 5.1 complete corpus",
+      "url": "https://github.com/lisu188/hots-replay-recovery/actions/runs/39169427494/job/117799202026",
+      "conclusion": "success",
+      "modules": 44,
+      "tests_discovered": 894,
+      "tests_run": 894,
+      "declared_skips": 4,
+      "unexpected_skips": 0,
+      "actual_NGS_fixture_test_executed": true,
+      "current_EU_streams_and_lobby_check_executed": true
+    }
+  ],
+  "research28_vector_and8_endpoint_tests_executed_in_CI": false,
+  "static_CASC_or_history_research_executed_in_CI": false,
+  "local_proof_scope": "28 vector tests and13/21 actual JSON recomputations;8 endpoint guards and full synthetic opener review; authenticated access-source and bounded history saved-input checks plus independent reviews.",
+  "real_header_reconstruction_executed_in_CI": false,
+  "client_launched": false,
+  "new_replay_generated": false,
+  "full_upgrade_complete": false
+}

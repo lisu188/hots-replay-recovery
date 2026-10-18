@@ -617,3 +617,24 @@ CompleteofflineCI39168917474 atd8f0f8e passed all3lanes894tests/44modules;
 NGSfixture andcurrentEU144708/99/6181/fullLobbyEOF checks executed. Frozen
 28vector/8endpoint tests and staticaccess/historyactualproof remain LOCAL,
 not hostedCI orengineproof. See availability/vectors/complete-offline-894-vector-milestone-CI.json.
+
+
+## Verified vectors/access source-only backup throughd3e0af9 - 2026-10-18
+
+Source/evidence delta537555b..d3e0af9 is backedup as
+hots-offline-vectors-access-source-d3e0af9.zip,192422B SHA256
+523034d2afbda9737244a3595d3eb68bd89f210b6577b8e811e53dd1f08c7570.
+Bundle and ZIPinventory verify; no rawheaders/replays/game-text/playerrecords.
+ExistingOneDrivecheckpoint upload succeeded, fresh cloudsize/QuickXor matches
+local. No independent remoteSHA256 claim. Preserve all7earlier sourcearchives.
+This later receipt is outside the backedupsource. Original/R8 hashes rechecked
+unchanged; current21-case/sourceproof updates are in the taskoutputs status.
+Earlier rawEUheaderarchive cloudapproval question remains pending; no raw
+archive retried or uploaded. No client/newreplay/full-upgradecompletion.
+
+
+CompleteofflineCI39169427494 atd3e0af9 also passed all3lanes894tests/44modules,
+38declaredLinux/4Windows skips, no failures/errors/unexpectedskips. ActualNGS
+fixture andgenuineEUcurrentcore/lobby checks executed. No privateCASC/history/
+realheaderrecovery or28vector/8endpoint researchtest claim inhostedCI. This
+receipt islaterbookkeeping outside the source-onlyd3e0af9ZIP.

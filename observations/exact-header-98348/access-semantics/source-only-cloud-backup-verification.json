@@ -1,0 +1,21 @@
+{
+  "format": "hots-vectors-access-source-only-cloud-backup-v1",
+  "archive": "hots-offline-vectors-access-source-d3e0af9.zip",
+  "source_commit": "d3e0af926e9980912037bd45bd36b741cd4bc70c",
+  "bytes": 192422,
+  "sha256": "523034d2afbda9737244a3595d3eb68bd89f210b6577b8e811e53dd1f08c7570",
+  "local_and_cloud_quick_xor_hash": "hwCCCr6WVycd7ggeno3xB+h0kro=",
+  "cloud_upload_succeeded": true,
+  "fresh_cloud_size_matches": true,
+  "fresh_cloud_quick_xor_matches": true,
+  "independent_remote_sha256_verified": false,
+  "quick_xor_is_cryptographic": false,
+  "source_bundle_and_zip_inventory_verified": true,
+  "contains_static_headers": false,
+  "contains_game_texts": false,
+  "contains_replay_or_player_records": false,
+  "requires_previous_source_archive": "hots-offline-US-header-source-537555b.zip",
+  "client_launched": false,
+  "new_replay_generated": false,
+  "full_upgrade_complete": false
+}
