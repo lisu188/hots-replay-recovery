@@ -277,3 +277,33 @@ size/QuickXor matches local bytes. QuickXor is not cryptographic, and no remote
 SHA256 re-download was performed. The archive includes all new source and CI
 throughac52010; this later upload receipt is separate bookkeeping. No raw donor,
 new replay or client result is included. Keep the full-upgrade goal unfinished.
+
+
+## Additional current controls and unresolved-field research — 2026-10-18
+
+The later offline evidence expansion adds6current98348 replays on6other maps,
+7,247,399bytes total. Independent review confirms183equal type/link comparisons
+across75shared types, no disagreements; a fresh Abathur control core audit and
+separate lifecycle walker agree with saved results. These yield9new other-map
+candidates,42combined unambiguous candidates, while the33Dragon-only decisions
+remain unchanged. All6share4base handles but have different further packages
+and mod checksums. Do not infer full cross-map independence or automatically
+apply the9candidates. Exact URLs/digests/context are retained; raw donors are not.
+
+The player-opaque forensic summary authenticates no named internal slice or
+174-to198-bit conversion:146varying known-field groups have no matching slice,
+constant hits fail wrong-player/match controls, and the adjacent known identifier
+is a strong positive control. Do not append24zeros or transplant account data.
+
+The header recovery investigation SHA-checks591cached headers. EU candidates
+point to all6currentpayloaddigests but admit936unselected version combinations
+under unproven zero-version semantics; no98348header binding was obtained.
+The exact3USdepot objects still404. Do not truncate depot SHA256 into CASC keys
+or select regional versions by recency. CASC contents were not enumerated.
+
+Nineteen inspected public XML files now match98348projection file digests exactly.
+Their old-name hits are visual model references; their explicit conversion table
+maps currencies/loot chests, not source entitlements. This bounded subset does not
+rule out fields elsewhere. A broader exact-build alias scan is still separate.
+R8 remains latest; full upgrade, replay determinism and gameplay stay unproven.
+The user continues to prohibit launching HotS.

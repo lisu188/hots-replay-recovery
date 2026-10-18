@@ -1,0 +1,356 @@
+{
+  "format": "hots-bounded-crossmap-controls-v1",
+  "results": [
+    {
+      "id": "crossmap-01",
+      "file": "crossmap-01-Sky_Temple.StormReplay",
+      "bytes": 1357323,
+      "sha256": "afcf49a656068f343173fc79afff2d2ebf15066f531cb192382cdba9d1ea3272",
+      "public_url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-16-2026_Protectors_of_Shakuras_vs_Crowd_Control_Syndicate_Sky_Temple.stormReplay",
+      "map": "Sky Temple",
+      "selected_hero_names": [
+        "Abathur",
+        "Brightwing",
+        "Dehaka",
+        "E.T.C.",
+        "Greymane",
+        "Kael'thas",
+        "Li-Ming",
+        "Sonya",
+        "Stukov",
+        "Varian"
+      ],
+      "target_version": {
+        "m_flags": 1,
+        "m_major": 2,
+        "m_minor": 57,
+        "m_revision": 0,
+        "m_build": 98348,
+        "m_baseBuild": 98348
+      },
+      "root": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "core_stream_roundtrips_exact": true,
+      "dependency_context": {
+        "handles": [
+          "73326d61000055531f1b228ddb1f72205cbfd444055287100b0f39959be816548162e4081ea85511",
+          "73326d61000055531ad94c126eb98a4c1de7b8e6f8aaa153dba52b09d3825e0c89dbc5828db70f76",
+          "73326d610000555392d81744c1441bf628ed6ab7e9d19485c860914d8b745a91f6351ff9dcd4e6bb",
+          "73326d6100005553a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43",
+          "73326d61000055539935b24e9a2402a9ade69fad7c3d7d872f0df07b1890b0a7b6e2651e7617bfad",
+          "73326d61000055535425cd6e7ab2fca9e373293ac929bb7d13da240aac2a2489ba4848345de2824e",
+          "73326d6100005553889da151b127b6b5091a26c0395b7787a74cd3f4dea69521512cf027129a009e"
+        ],
+        "relative_paths": [
+          "1f/1b/1f1b228ddb1f72205cbfd444055287100b0f39959be816548162e4081ea85511.s2ma",
+          "1a/d9/1ad94c126eb98a4c1de7b8e6f8aaa153dba52b09d3825e0c89dbc5828db70f76.s2ma",
+          "92/d8/92d81744c1441bf628ed6ab7e9d19485c860914d8b745a91f6351ff9dcd4e6bb.s2ma",
+          "a1/e9/a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43.s2ma",
+          "99/35/9935b24e9a2402a9ade69fad7c3d7d872f0df07b1890b0a7b6e2651e7617bfad.s2ma",
+          "54/25/5425cd6e7ab2fca9e373293ac929bb7d13da240aac2a2489ba4848345de2824e.s2ma",
+          "88/9d/889da151b127b6b5091a26c0395b7787a74cd3f4dea69521512cf027129a009e.s2ma"
+        ],
+        "prefix_roundtrip_exact": true,
+        "matching_ordered_prefix_handles_with_dragon": 4,
+        "same_ordered_nonmap_prefix": false,
+        "mod_file_sync_checksum": 3720355390,
+        "map_file_sync_checksum": 2556837657
+      },
+      "inventory_sha256": "07ea01bc8885d783192cfaa120e48a48ef8b95cbed7f010da03c57a18f55efbe",
+      "cross_map_migration_eligibility_claimed": false
+    },
+    {
+      "id": "crossmap-02",
+      "file": "crossmap-02-Battlefield_of_Eternity.StormReplay",
+      "bytes": 1133707,
+      "sha256": "fe801daf9df44f10db2b950989308c8ee2fa55c03b4adfef7ac383b4d46583bf",
+      "public_url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-16-2026_Protectors_of_Shakuras_vs_Crowd_Control_Syndicate_Battlefield_of_Eternity.stormReplay",
+      "map": "Battlefield of Eternity",
+      "selected_hero_names": [
+        "Arthas",
+        "Blaze",
+        "Leoric",
+        "Li-Ming",
+        "L\u00facio",
+        "Mal'Ganis",
+        "Raynor",
+        "Thrall",
+        "Tyrande",
+        "Valla"
+      ],
+      "target_version": {
+        "m_flags": 1,
+        "m_major": 2,
+        "m_minor": 57,
+        "m_revision": 0,
+        "m_build": 98348,
+        "m_baseBuild": 98348
+      },
+      "root": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "core_stream_roundtrips_exact": true,
+      "dependency_context": {
+        "handles": [
+          "73326d61000055531f1b228ddb1f72205cbfd444055287100b0f39959be816548162e4081ea85511",
+          "73326d61000055531ad94c126eb98a4c1de7b8e6f8aaa153dba52b09d3825e0c89dbc5828db70f76",
+          "73326d610000555392d81744c1441bf628ed6ab7e9d19485c860914d8b745a91f6351ff9dcd4e6bb",
+          "73326d6100005553a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43",
+          "73326d6100005553b660c912af45fab1e57d5a646ddad4634175e69c8e0486b81ddb203b239988ca",
+          "73326d6100005553c2bca8c4ebfe13dbbaf03fc37337b695b8d683c893217c450c6e209c81ee2514",
+          "73326d61000055531860ffa5906bb6ee8054ed080a4afcefaa534d4643ce0781aad84623724442b2"
+        ],
+        "relative_paths": [
+          "1f/1b/1f1b228ddb1f72205cbfd444055287100b0f39959be816548162e4081ea85511.s2ma",
+          "1a/d9/1ad94c126eb98a4c1de7b8e6f8aaa153dba52b09d3825e0c89dbc5828db70f76.s2ma",
+          "92/d8/92d81744c1441bf628ed6ab7e9d19485c860914d8b745a91f6351ff9dcd4e6bb.s2ma",
+          "a1/e9/a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43.s2ma",
+          "b6/60/b660c912af45fab1e57d5a646ddad4634175e69c8e0486b81ddb203b239988ca.s2ma",
+          "c2/bc/c2bca8c4ebfe13dbbaf03fc37337b695b8d683c893217c450c6e209c81ee2514.s2ma",
+          "18/60/1860ffa5906bb6ee8054ed080a4afcefaa534d4643ce0781aad84623724442b2.s2ma"
+        ],
+        "prefix_roundtrip_exact": true,
+        "matching_ordered_prefix_handles_with_dragon": 4,
+        "same_ordered_nonmap_prefix": false,
+        "mod_file_sync_checksum": 1314354243,
+        "map_file_sync_checksum": 1447449266
+      },
+      "inventory_sha256": "e759cf26ed245a47379997e6429b61ef8306756a754b92dec72113ed84a19795",
+      "cross_map_migration_eligibility_claimed": false
+    },
+    {
+      "id": "crossmap-03",
+      "file": "crossmap-03-Volskaya_Foundry.StormReplay",
+      "bytes": 1485554,
+      "sha256": "9872b043e48093abc65e11b7b6d091861e83fc4d202b40b745824da647cb6ef3",
+      "public_url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-16-2026_Protectors_of_Aiur_vs_Pepegas_on_Ice_Volskaya_Foundry.stormReplay",
+      "map": "Volskaya Foundry",
+      "selected_hero_names": [
+        "Anduin",
+        "Blaze",
+        "Chromie",
+        "E.T.C.",
+        "Falstad",
+        "Hanzo",
+        "Leoric",
+        "Muradin",
+        "Stukov",
+        "Tychus"
+      ],
+      "target_version": {
+        "m_flags": 1,
+        "m_major": 2,
+        "m_minor": 57,
+        "m_revision": 0,
+        "m_build": 98348,
+        "m_baseBuild": 98348
+      },
+      "root": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "core_stream_roundtrips_exact": true,
+      "dependency_context": {
+        "handles": [
+          "73326d61000055531f1b228ddb1f72205cbfd444055287100b0f39959be816548162e4081ea85511",
+          "73326d61000055531ad94c126eb98a4c1de7b8e6f8aaa153dba52b09d3825e0c89dbc5828db70f76",
+          "73326d610000555392d81744c1441bf628ed6ab7e9d19485c860914d8b745a91f6351ff9dcd4e6bb",
+          "73326d6100005553a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43",
+          "73326d610000555376d6840006fa652dd2cb922d2c4d316a493e0c360640a1b78cd91a4c0e83a7fe",
+          "73326d61000055539ebc783e1ab460a5b505517a66721cf223b9e99087ce0a2322c0e7ac2bf35cc4",
+          "73326d6100005553e0427185953d79e23f83d8b233b90f6a8de54d7c67c61674e436ceb14d6299db",
+          "73326d6100005553211119c1862a0ca8e19185f8d7c55a38ccbfec2032cd563d91e5b5d0ad3dff08",
+          "73326d61000055531a2f4212184915bffce06fa2f70ca927c82726414550e50671411eeafd4bf7f3",
+          "73326d6100005553d952569f975d31a83e9d12d6b488589044e325ba92871aef62e104ed1859202e"
+        ],
+        "relative_paths": [
+          "1f/1b/1f1b228ddb1f72205cbfd444055287100b0f39959be816548162e4081ea85511.s2ma",
+          "1a/d9/1ad94c126eb98a4c1de7b8e6f8aaa153dba52b09d3825e0c89dbc5828db70f76.s2ma",
+          "92/d8/92d81744c1441bf628ed6ab7e9d19485c860914d8b745a91f6351ff9dcd4e6bb.s2ma",
+          "a1/e9/a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43.s2ma",
+          "76/d6/76d6840006fa652dd2cb922d2c4d316a493e0c360640a1b78cd91a4c0e83a7fe.s2ma",
+          "9e/bc/9ebc783e1ab460a5b505517a66721cf223b9e99087ce0a2322c0e7ac2bf35cc4.s2ma",
+          "e0/42/e0427185953d79e23f83d8b233b90f6a8de54d7c67c61674e436ceb14d6299db.s2ma",
+          "21/11/211119c1862a0ca8e19185f8d7c55a38ccbfec2032cd563d91e5b5d0ad3dff08.s2ma",
+          "1a/2f/1a2f4212184915bffce06fa2f70ca927c82726414550e50671411eeafd4bf7f3.s2ma",
+          "d9/52/d952569f975d31a83e9d12d6b488589044e325ba92871aef62e104ed1859202e.s2ma"
+        ],
+        "prefix_roundtrip_exact": true,
+        "matching_ordered_prefix_handles_with_dragon": 4,
+        "same_ordered_nonmap_prefix": false,
+        "mod_file_sync_checksum": 1099099167,
+        "map_file_sync_checksum": 277557624
+      },
+      "inventory_sha256": "e64b7edbd3b638a70419756c87e29e315c79d8ac969dc9462cdabdb4143ef3ba",
+      "cross_map_migration_eligibility_claimed": false
+    },
+    {
+      "id": "crossmap-04",
+      "file": "crossmap-04-Tomb_of_the_Spider_Queen.StormReplay",
+      "bytes": 1247616,
+      "sha256": "98ac891fa4fb8e1698e5fc35609fcf75abfe7e89aee9c7f05afff93b10338ab3",
+      "public_url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-16-2026_Protectors_of_Aiur_vs_Pepegas_on_Ice_Tomb_of_the_Spider_Queen.stormReplay",
+      "map": "Tomb of the Spider Queen",
+      "selected_hero_names": [
+        "Anduin",
+        "Azmodan",
+        "Blaze",
+        "Johanna",
+        "Mei",
+        "Rehgar",
+        "Sgt. Hammer",
+        "Sylvanas",
+        "Tyrande",
+        "Yrel"
+      ],
+      "target_version": {
+        "m_flags": 1,
+        "m_major": 2,
+        "m_minor": 57,
+        "m_revision": 0,
+        "m_build": 98348,
+        "m_baseBuild": 98348
+      },
+      "root": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "core_stream_roundtrips_exact": true,
+      "dependency_context": {
+        "handles": [
+          "73326d61000055531f1b228ddb1f72205cbfd444055287100b0f39959be816548162e4081ea85511",
+          "73326d61000055531ad94c126eb98a4c1de7b8e6f8aaa153dba52b09d3825e0c89dbc5828db70f76",
+          "73326d610000555392d81744c1441bf628ed6ab7e9d19485c860914d8b745a91f6351ff9dcd4e6bb",
+          "73326d6100005553a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43",
+          "73326d6100005553833384ef25dd541d279ca7774e93105188de5c08aa801bd0aab4f62a89d78a03",
+          "73326d6100005553a713e0d47c677fd2b99f9ee8398c22a3e30cc018fcc83d1dda3c09b31f1e76c1"
+        ],
+        "relative_paths": [
+          "1f/1b/1f1b228ddb1f72205cbfd444055287100b0f39959be816548162e4081ea85511.s2ma",
+          "1a/d9/1ad94c126eb98a4c1de7b8e6f8aaa153dba52b09d3825e0c89dbc5828db70f76.s2ma",
+          "92/d8/92d81744c1441bf628ed6ab7e9d19485c860914d8b745a91f6351ff9dcd4e6bb.s2ma",
+          "a1/e9/a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43.s2ma",
+          "83/33/833384ef25dd541d279ca7774e93105188de5c08aa801bd0aab4f62a89d78a03.s2ma",
+          "a7/13/a713e0d47c677fd2b99f9ee8398c22a3e30cc018fcc83d1dda3c09b31f1e76c1.s2ma"
+        ],
+        "prefix_roundtrip_exact": true,
+        "matching_ordered_prefix_handles_with_dragon": 4,
+        "same_ordered_nonmap_prefix": false,
+        "mod_file_sync_checksum": 3334967394,
+        "map_file_sync_checksum": 2209509714
+      },
+      "inventory_sha256": "5ff098e956d8caaa1d322eec7a0aadfb87f8131b5467e56aee45f14934929f8e",
+      "cross_map_migration_eligibility_claimed": false
+    },
+    {
+      "id": "crossmap-05",
+      "file": "crossmap-05-Towers_of_Doom.StormReplay",
+      "bytes": 1138445,
+      "sha256": "715e309bba5d3151d3e1b47461041627db7644d91a8b549c309950e44d6067e8",
+      "public_url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-16-2026_Hat_saika_and_r_vs_Stormblessed_Towers_of_Doom.stormReplay",
+      "map": "Towers of Doom",
+      "selected_hero_names": [
+        "Blaze",
+        "Brightwing",
+        "Chen",
+        "Deathwing",
+        "Hanzo",
+        "Johanna",
+        "Li-Ming",
+        "Thrall",
+        "Tyrael",
+        "Uther"
+      ],
+      "target_version": {
+        "m_flags": 1,
+        "m_major": 2,
+        "m_minor": 57,
+        "m_revision": 0,
+        "m_build": 98348,
+        "m_baseBuild": 98348
+      },
+      "root": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "core_stream_roundtrips_exact": true,
+      "dependency_context": {
+        "handles": [
+          "73326d61000055531f1b228ddb1f72205cbfd444055287100b0f39959be816548162e4081ea85511",
+          "73326d61000055531ad94c126eb98a4c1de7b8e6f8aaa153dba52b09d3825e0c89dbc5828db70f76",
+          "73326d610000555392d81744c1441bf628ed6ab7e9d19485c860914d8b745a91f6351ff9dcd4e6bb",
+          "73326d6100005553a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43",
+          "73326d6100005553e2e5aece28c5acf33cec9c6c4896c241cdb5d5a2ffbbb517601d47e6c93469ee",
+          "73326d610000555360f3737b16c5f687d214ad90746b0e32900ab796ddf4a907a380a7cd6037d672"
+        ],
+        "relative_paths": [
+          "1f/1b/1f1b228ddb1f72205cbfd444055287100b0f39959be816548162e4081ea85511.s2ma",
+          "1a/d9/1ad94c126eb98a4c1de7b8e6f8aaa153dba52b09d3825e0c89dbc5828db70f76.s2ma",
+          "92/d8/92d81744c1441bf628ed6ab7e9d19485c860914d8b745a91f6351ff9dcd4e6bb.s2ma",
+          "a1/e9/a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43.s2ma",
+          "e2/e5/e2e5aece28c5acf33cec9c6c4896c241cdb5d5a2ffbbb517601d47e6c93469ee.s2ma",
+          "60/f3/60f3737b16c5f687d214ad90746b0e32900ab796ddf4a907a380a7cd6037d672.s2ma"
+        ],
+        "prefix_roundtrip_exact": true,
+        "matching_ordered_prefix_handles_with_dragon": 4,
+        "same_ordered_nonmap_prefix": false,
+        "mod_file_sync_checksum": 3698428329,
+        "map_file_sync_checksum": 298281936
+      },
+      "inventory_sha256": "fbb96d88d0ff81c6d12b68449bff03c2b8d769477e0c5067366660961d51ffd5",
+      "cross_map_migration_eligibility_claimed": false
+    },
+    {
+      "id": "crossmap-06",
+      "file": "crossmap-06-Infernal_Shrines.StormReplay",
+      "bytes": 884754,
+      "sha256": "1230eee79fd3b50a3ee471c587bc77dd14aef67d57bf22cd8df52e877329323a",
+      "public_url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-15-2026_Frank_s_Furters_vs_Toxic_Lizards_Infernal_Shrines.stormReplay",
+      "map": "Infernal Shrines",
+      "selected_hero_names": [
+        "Brightwing",
+        "Chromie",
+        "D.Va",
+        "Johanna",
+        "Kael'thas",
+        "Leoric",
+        "Maiev",
+        "Malfurion",
+        "Muradin",
+        "Raynor"
+      ],
+      "target_version": {
+        "m_flags": 1,
+        "m_major": 2,
+        "m_minor": 57,
+        "m_revision": 0,
+        "m_build": 98348,
+        "m_baseBuild": 98348
+      },
+      "root": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "core_stream_roundtrips_exact": true,
+      "dependency_context": {
+        "handles": [
+          "73326d61000055531f1b228ddb1f72205cbfd444055287100b0f39959be816548162e4081ea85511",
+          "73326d61000055531ad94c126eb98a4c1de7b8e6f8aaa153dba52b09d3825e0c89dbc5828db70f76",
+          "73326d610000555392d81744c1441bf628ed6ab7e9d19485c860914d8b745a91f6351ff9dcd4e6bb",
+          "73326d6100005553a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43",
+          "73326d6100005553b660c912af45fab1e57d5a646ddad4634175e69c8e0486b81ddb203b239988ca",
+          "73326d61000055531b8a5a8e3574f6a19a30b5b419d16cd75fc40c1078c4747e956599f2a8a70cf7",
+          "73326d6100005553adcc82ad3b9530219193032066e3a44cfb7c5f77931981ef1b1b49028e501419",
+          "73326d6100005553fddf3267c510a29b4ad55ada48096860054969095cf025a54f91b15fc310714e"
+        ],
+        "relative_paths": [
+          "1f/1b/1f1b228ddb1f72205cbfd444055287100b0f39959be816548162e4081ea85511.s2ma",
+          "1a/d9/1ad94c126eb98a4c1de7b8e6f8aaa153dba52b09d3825e0c89dbc5828db70f76.s2ma",
+          "92/d8/92d81744c1441bf628ed6ab7e9d19485c860914d8b745a91f6351ff9dcd4e6bb.s2ma",
+          "a1/e9/a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43.s2ma",
+          "b6/60/b660c912af45fab1e57d5a646ddad4634175e69c8e0486b81ddb203b239988ca.s2ma",
+          "1b/8a/1b8a5a8e3574f6a19a30b5b419d16cd75fc40c1078c4747e956599f2a8a70cf7.s2ma",
+          "ad/cc/adcc82ad3b9530219193032066e3a44cfb7c5f77931981ef1b1b49028e501419.s2ma",
+          "fd/df/fddf3267c510a29b4ad55ada48096860054969095cf025a54f91b15fc310714e.s2ma"
+        ],
+        "prefix_roundtrip_exact": true,
+        "matching_ordered_prefix_handles_with_dragon": 4,
+        "same_ordered_nonmap_prefix": false,
+        "mod_file_sync_checksum": 594213797,
+        "map_file_sync_checksum": 2072599531
+      },
+      "inventory_sha256": "0095b9fc8b81efee64c066772524bd84d594b483e461a546affbb4b87c07ece9",
+      "cross_map_migration_eligibility_claimed": false
+    }
+  ],
+  "downloaded_bytes": 7247399,
+  "source_index_sha256": "51cea7d89c0afe887a31c6bc549c0a35b740e997c4d8e8d195b3eef8c602610c",
+  "client_launched": false,
+  "replay_modified": false,
+  "cross_map_catalog_independence_proven": false
+}

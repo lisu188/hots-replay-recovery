@@ -1,0 +1,224 @@
+{
+  "format": "hots-player-opaque-block-forensic-summary-v1",
+  "conclusion": "no-authenticated-internal-field-or-cross-profile-conversion-established",
+  "scope": {
+    "replays": 14,
+    "current98348_replays": 12,
+    "current_player_or_observer_records": 126,
+    "historical_records_including_r8_duplicate": 20,
+    "independent_historical_records": 10,
+    "original_block_bits": 174,
+    "current_block_bits": 198,
+    "all_replay_digests_verified_before_and_after": true,
+    "canonical_schema_sha256": {
+      "41810": "879d228d9d8acd21d63563538dd15841aaf49259ee0bb468b8a46b6a4ef866fd",
+      "96477": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84"
+    },
+    "full_tail_eof_and_same_profile_member_roundtrip_checked": true,
+    "independent_initdata_details_identity_slot_crosschecks_passed": true
+  },
+  "known_field_search": {
+    "field_representation_groups": 289,
+    "groups_with_multiple_source_values": 146,
+    "varying_source_groups_with_any_opaque_match": 0,
+    "method": "All relative offsets; complete scalar/blob representations16..127bits from official decoded initData/details and complete4-octet attributes. Explicit u64-to-u32 only when full value fits; byte-order reversal tested as a representation hypothesis.",
+    "constant_only_matches": "logoIndex, user.randomSeed and user.testType; every fixed-offset hit also matched100percent wrong-player and wrong-case permutations, so no semantic attribution accepted.",
+    "complete_composites": [
+      {
+        "profile": "historical",
+        "field": "details/m_color/a-r-g-b",
+        "records": 20,
+        "width": 32,
+        "records_with_any_hit": 0,
+        "fixed_offsets_matching_every_record": []
+      },
+      {
+        "profile": "historical",
+        "field": "details/m_toon/region-program-realm-id",
+        "records": 20,
+        "width": 136,
+        "records_with_any_hit": 0,
+        "fixed_offsets_matching_every_record": []
+      },
+      {
+        "profile": "current",
+        "field": "details/m_color/a-r-g-b",
+        "records": 120,
+        "width": 32,
+        "records_with_any_hit": 0,
+        "fixed_offsets_matching_every_record": []
+      },
+      {
+        "profile": "current",
+        "field": "details/m_toon/region-program-realm-id",
+        "records": 120,
+        "width": 136,
+        "records_with_any_hit": 0,
+        "fixed_offsets_matching_every_record": []
+      }
+    ],
+    "all_scope_attributes": {
+      "records": 146,
+      "records_with_any_match": 0,
+      "matching_offsets": 0,
+      "requires_scope_to_player_assumption": false,
+      "full_four_octet_attributes_only": true,
+      "both_octet_orders_tested": true,
+      "raw_values_emitted": false
+    }
+  },
+  "positive_control": {
+    "field": "initData.m_slots.m_toonHandle parsed identifier",
+    "target": "adjacent numeric-toon64 field outside the opaque block",
+    "records": 146,
+    "matches": 146,
+    "wrong_player_trials": 1384,
+    "wrong_player_matches": 0
+  },
+  "whole_block_evidence": [
+    {
+      "profile": "historical",
+      "records": 20,
+      "unique_complete_blocks": 10,
+      "repeated_private_identities": 10,
+      "repeated_identity_instances": 20,
+      "repeated_identities_with_identical_complete_blocks": 10,
+      "player_or_account_values_emitted": false
+    },
+    {
+      "profile": "current",
+      "records": 126,
+      "unique_complete_blocks": 126,
+      "repeated_private_identities": 13,
+      "repeated_identity_instances": 29,
+      "repeated_identities_with_identical_complete_blocks": 0,
+      "player_or_account_values_emitted": false
+    }
+  ],
+  "original_r8_blocks_equal_by_independent_slots": true,
+  "limitations": [
+    "No source names the internal fields of either opaque block.",
+    "Search excludes catalog ownership/reward arrays and short scalar widths below16bits; it cannot rule out compact bitfields, hashes, time-varying state, encryption or other representations.",
+    "Original andR8 preserve the same historical observations and are not independent samples.",
+    "Current blocks differ across all126records, including each repeated private identity; this does not identify which internal fields vary.",
+    "Attribute scope-to-player correspondence is not needed for the separate all-scope search.",
+    "No named layout,24-bit insertion location/default or cross-profile conversion was inferred."
+  ],
+  "provenance": {
+    "full_observation": {
+      "path": "player-opaque-known-field-correlation-v6.json",
+      "bytes": 107719,
+      "sha256": "4bdf2fc6fe8528ce6e8e443095759e64e8bec046f44a2dcb62772ea52ad27f12"
+    },
+    "script": {
+      "path": "inspect_player_opaque.py",
+      "bytes": 16690,
+      "sha256": "0d345b21f985dde4aac608c9a1bc57b6269edcfa3f31be95b70d251669cbce67"
+    },
+    "cohort_manifest_sha256": "fc6dbc312dac9143bfe450d661f8033a04c2ce4eec51878618e2a517f8faf609",
+    "case_digests": [
+      {
+        "id": "original41810",
+        "replay_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+        "member_sha256": "beea9c9b29a7f1a73806fe37b393f453c84a7faed8d6f89a5b4fcd25967f1f44",
+        "players": 10,
+        "opaque_bits": 174
+      },
+      {
+        "id": "r8",
+        "replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+        "member_sha256": "2902a33a450491e8717a8006cef4627f2c12d1c0b854fc4f698dc1de0ade9640",
+        "players": 10,
+        "opaque_bits": 174
+      },
+      {
+        "id": "current-01",
+        "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+        "member_sha256": "ab03d9533081e9d69d205a6adec9df6a0aaf5ff47a05ecc8bf670b6760b0ab55",
+        "players": 12,
+        "opaque_bits": 198
+      },
+      {
+        "id": "current-02",
+        "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+        "member_sha256": "ff3bbca0308e77889d481f64ac915e6ee68f299b4d4dda4d54f620740a5786ad",
+        "players": 10,
+        "opaque_bits": 198
+      },
+      {
+        "id": "current-03",
+        "replay_sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+        "member_sha256": "851a60b11ebc4c752070a82bf2ebb6073428d3a4f20becbda77f7829f336c7ff",
+        "players": 11,
+        "opaque_bits": 198
+      },
+      {
+        "id": "current-04",
+        "replay_sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+        "member_sha256": "a96d3c7185c7f1745ffdf59c58e4f99000e2d9995ab748ecbf610b4ce21cadc2",
+        "players": 11,
+        "opaque_bits": 198
+      },
+      {
+        "id": "current-05",
+        "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+        "member_sha256": "2f2a5a0712b0f13259e64371c8e7947db4cb67f9a03aff74cdd490730d8b7a23",
+        "players": 10,
+        "opaque_bits": 198
+      },
+      {
+        "id": "current-06",
+        "replay_sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+        "member_sha256": "41fa82787dad98164af19a8dcba3d6204fad73d347fc55e3e1935e7bff4fbc23",
+        "players": 10,
+        "opaque_bits": 198
+      },
+      {
+        "id": "current-07",
+        "replay_sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+        "member_sha256": "0d63889a740e4c0556b915aa1ee0b88bf7394bef76411c401d327b44e4058b9d",
+        "players": 10,
+        "opaque_bits": 198
+      },
+      {
+        "id": "current-08",
+        "replay_sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+        "member_sha256": "88f5317afe6462d5b6f9f9e5444e0ee93aa21f0bbf395c0437df39b26d11c29e",
+        "players": 10,
+        "opaque_bits": 198
+      },
+      {
+        "id": "current-09",
+        "replay_sha256": "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+        "member_sha256": "171ca2a107ef8a59a8959d5f6d3fe46691a2ad2b0c9411da1bf83380b9e4ead1",
+        "players": 10,
+        "opaque_bits": 198
+      },
+      {
+        "id": "current-10",
+        "replay_sha256": "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+        "member_sha256": "2bacf43f671d86cd6aa3e483d02161b71d8ed101fa9a30596693edf719837039",
+        "players": 12,
+        "opaque_bits": 198
+      },
+      {
+        "id": "current-11",
+        "replay_sha256": "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+        "member_sha256": "3812de9f6dedefb3c4adc2bb69ce90c4f691eb0814d91e89ca4f16e66d57ef46",
+        "players": 10,
+        "opaque_bits": 198
+      },
+      {
+        "id": "current-12",
+        "replay_sha256": "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77",
+        "member_sha256": "c02a3f8e2a7d22b59f71d4b4ad9f57f62a394dead326ff085ecca77ed449504a",
+        "players": 10,
+        "opaque_bits": 198
+      }
+    ]
+  },
+  "raw_player_identity_account_block_or_ownership_values_emitted": false,
+  "replay_modified": false,
+  "repo_modified": false,
+  "client_launched": false
+}

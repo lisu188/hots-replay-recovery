@@ -1,0 +1,489 @@
+{
+  "format": "hots-bounded-public-explicit-legacy-alias-field-research-v1",
+  "utc": "2026-10-18T19:24:27.038265+00:00",
+  "catalog_only_projection_sha256": "0fa8a041fa8d6b9ba22ba6ff8be10d4f42beccc7d9577d0b6ead2d8e0fa909c9",
+  "source_name_count": 263,
+  "unresolved_names_checked": 207,
+  "public_game_xml_snapshot_exact98348_bound": false,
+  "xml_files": [
+    {
+      "file": "heroesdata-configdata.xml",
+      "source": "https://raw.githubusercontent.com/jamiephan/HeroesOfTheStorm_Gamedata/e3e57cb640f18002a4feebe3872cefe04072d814/mods/heroesdata.stormmod/base.stormdata/gamedata/configdata.xml",
+      "bytes": 170805,
+      "sha256": "af36997a0aab3dfcc571d5827568cc678b29313d57b8ea549138d4e77228d052",
+      "legacy_alias_conversion_tag_counts": {
+        "ProgressionRewardConversionArray": 10
+      }
+    },
+    {
+      "file": "lootchestrewards.xml",
+      "source": "https://raw.githubusercontent.com/jamiephan/HeroesOfTheStorm_Gamedata/e3e57cb640f18002a4feebe3872cefe04072d814/mods/gameplaymods/lootbox.stormmod/base.stormdata/gamedata/lootchestrewards.xml",
+      "bytes": 34282,
+      "sha256": "aa9e5b618b760929479d76388e3a8f8f6c1da11c7dc130216e71582546ba83c0",
+      "legacy_alias_conversion_tag_counts": {}
+    },
+    {
+      "file": "lootchestrewardsoverride.xml",
+      "source": "https://raw.githubusercontent.com/jamiephan/HeroesOfTheStorm_Gamedata/e3e57cb640f18002a4feebe3872cefe04072d814/mods/gameplaymods/lootbox.stormmod/base.stormdata/gamedata/lootchestrewardsoverride.xml",
+      "bytes": 1211,
+      "sha256": "3410aa5bd305f187390c9285fcbc4e82a845dfb1df23940b2ca3203523438bcc",
+      "legacy_alias_conversion_tag_counts": {}
+    },
+    {
+      "file": "progression20-configdata.xml",
+      "source": "https://raw.githubusercontent.com/jamiephan/HeroesOfTheStorm_Gamedata/e3e57cb640f18002a4feebe3872cefe04072d814/mods/gameplaymods/progression20.stormmod/base.stormdata/gamedata/configdata.xml",
+      "bytes": 8359,
+      "sha256": "109888d09ec4377fd7e65a4d3fc6e23b7c9281ea7b9430fbb0689022260698c4",
+      "legacy_alias_conversion_tag_counts": {}
+    },
+    {
+      "file": "core-herodata.xml",
+      "source": "https://raw.githubusercontent.com/jamiephan/HeroesOfTheStorm_Gamedata/e3e57cb640f18002a4feebe3872cefe04072d814/mods/core.stormmod/base.stormdata/gamedata/herodata.xml",
+      "bytes": 2251,
+      "sha256": "8a0a8f48d4608cfbcd46f1881395100ad240fedbd790479e3023069d8e9056b8",
+      "legacy_alias_conversion_tag_counts": {}
+    },
+    {
+      "file": "core-rewarddata.xml",
+      "source": "https://raw.githubusercontent.com/jamiephan/HeroesOfTheStorm_Gamedata/e3e57cb640f18002a4feebe3872cefe04072d814/mods/core.stormmod/base.stormdata/gamedata/rewarddata.xml",
+      "bytes": 1290,
+      "sha256": "750c4895bcf79a03d7018a37628faab0ed7988534e265edf391cb68bd561a3f3",
+      "legacy_alias_conversion_tag_counts": {}
+    },
+    {
+      "file": "demonhunterultimatebasedata.xml",
+      "source": "https://raw.githubusercontent.com/jamiephan/HeroesOfTheStorm_Gamedata/e3e57cb640f18002a4feebe3872cefe04072d814/mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/demonhunterdata/demonhunterskindata/demonhunterultimatedata/demonhunterultimatebasedata.xml",
+      "bytes": 4773,
+      "sha256": "f777c58d4e36b648bfb7a181eaba81a3fed2ef3daec382a9ade128836d081d82",
+      "legacy_alias_conversion_tag_counts": {}
+    },
+    {
+      "file": "dryadultimatebasedata.xml",
+      "source": "https://raw.githubusercontent.com/jamiephan/HeroesOfTheStorm_Gamedata/e3e57cb640f18002a4feebe3872cefe04072d814/mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/dryaddata/dryadskindata/dryadultimatedata/dryadultimatebasedata.xml",
+      "bytes": 6678,
+      "sha256": "fa2244c72166a29c951a84d806818a6c8c79e6b4ee024b3ddef5a664773cdf74",
+      "legacy_alias_conversion_tag_counts": {}
+    },
+    {
+      "file": "herodata.xml",
+      "source": "https://raw.githubusercontent.com/jamiephan/HeroesOfTheStorm_Gamedata/e3e57cb640f18002a4feebe3872cefe04072d814/mods/heroesdata.stormmod/base.stormdata/gamedata/herodata.xml",
+      "bytes": 15256,
+      "sha256": "f39bc54277cec03c773bffb8cb2c183a69b96c75884937937e4d60b04733adad",
+      "legacy_alias_conversion_tag_counts": {}
+    },
+    {
+      "file": "kaelthasdata.xml",
+      "source": "https://raw.githubusercontent.com/jamiephan/HeroesOfTheStorm_Gamedata/e3e57cb640f18002a4feebe3872cefe04072d814/mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/kaelthasdata/kaelthasdata.xml",
+      "bytes": 276044,
+      "sha256": "39cf6954288e32edd73dfed13f82e45ab5f944a54f9f3fa9adaf2aacc7ffc13b",
+      "legacy_alias_conversion_tag_counts": {
+        "Aliases": 9,
+        "HotkeyAlias": 2
+      }
+    },
+    {
+      "file": "l90etcultimatebasedata.xml",
+      "source": "https://raw.githubusercontent.com/jamiephan/HeroesOfTheStorm_Gamedata/e3e57cb640f18002a4feebe3872cefe04072d814/mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/l90etcdata/l90etcskindata/l90etcultimatedata/l90etcultimatebasedata.xml",
+      "bytes": 2712,
+      "sha256": "72cfef5e7116cb5f3d0240a347d0f67d2b2e87a2808938d42aae11c026182bfe",
+      "legacy_alias_conversion_tag_counts": {}
+    },
+    {
+      "file": "mount_ride_goatadultbilliedata.xml",
+      "source": "https://raw.githubusercontent.com/jamiephan/HeroesOfTheStorm_Gamedata/e3e57cb640f18002a4feebe3872cefe04072d814/mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mountgoatadultbilliedata/mount_ride_goatadultbilliedata.xml",
+      "bytes": 33211,
+      "sha256": "6266bf699281813f8d2895c725ff7da3b1d1ad4104b5f135a7991aeb524a4c42",
+      "legacy_alias_conversion_tag_counts": {}
+    },
+    {
+      "file": "mount_ridesurf_bannerazmodunkbasedata.xml",
+      "source": "https://raw.githubusercontent.com/jamiephan/HeroesOfTheStorm_Gamedata/e3e57cb640f18002a4feebe3872cefe04072d814/mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mountbannerazmodunkdata/mount_ridesurf_bannerazmodunkbasedata.xml",
+      "bytes": 9940,
+      "sha256": "751a43ec10649cc9b7257d1c83fc227adc97da7d7f495fcca955415431e85c83",
+      "legacy_alias_conversion_tag_counts": {}
+    },
+    {
+      "file": "mountdata.xml",
+      "source": "https://raw.githubusercontent.com/jamiephan/HeroesOfTheStorm_Gamedata/e3e57cb640f18002a4feebe3872cefe04072d814/mods/heroesdata.stormmod/base.stormdata/gamedata/mountdata.xml",
+      "bytes": 4049,
+      "sha256": "ad9507835b15486ca419eb2032e7d00b99508405512be34fb5162c41bcc17e7a",
+      "legacy_alias_conversion_tag_counts": {}
+    },
+    {
+      "file": "rehgargfwinterbasedata.xml",
+      "source": "https://raw.githubusercontent.com/jamiephan/HeroesOfTheStorm_Gamedata/e3e57cb640f18002a4feebe3872cefe04072d814/mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/rehgardata/rehgarskindata/rehgargfwinterdata/rehgargfwinterbasedata.xml",
+      "bytes": 8670,
+      "sha256": "ec9a4bfb002ffdc40ef43c84e32fb78d72931ad2b95dde5020fb165aedafdc92",
+      "legacy_alias_conversion_tag_counts": {}
+    },
+    {
+      "file": "rewarddata.xml",
+      "source": "https://raw.githubusercontent.com/jamiephan/HeroesOfTheStorm_Gamedata/e3e57cb640f18002a4feebe3872cefe04072d814/mods/heroesdata.stormmod/base.stormdata/gamedata/rewarddata.xml",
+      "bytes": 497505,
+      "sha256": "873eaf657fd2dad08ee4aac44e9cbf8368852cc96ae57e16a709d9c9be917b1d",
+      "legacy_alias_conversion_tag_counts": {}
+    },
+    {
+      "file": "skindata.xml",
+      "source": "https://raw.githubusercontent.com/jamiephan/HeroesOfTheStorm_Gamedata/e3e57cb640f18002a4feebe3872cefe04072d814/mods/heroesdata.stormmod/base.stormdata/gamedata/skindata.xml",
+      "bytes": 1275,
+      "sha256": "bab5781cc3f6483a406aa1c2292dbf22dec517c6e573468b014e8a22050a8f4d",
+      "legacy_alias_conversion_tag_counts": {}
+    },
+    {
+      "file": "stitchespsychobasedata.xml",
+      "source": "https://raw.githubusercontent.com/jamiephan/HeroesOfTheStorm_Gamedata/e3e57cb640f18002a4feebe3872cefe04072d814/mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/stitchesdata/stitchesskindata/stitchespsychodata/stitchespsychobasedata.xml",
+      "bytes": 5692,
+      "sha256": "4bd22cfadfdbecb23a42696ab35bbc4eb9d075e44f8622c8cb3e4c09381340db",
+      "legacy_alias_conversion_tag_counts": {}
+    },
+    {
+      "file": "uthermedicbasedata.xml",
+      "source": "https://raw.githubusercontent.com/jamiephan/HeroesOfTheStorm_Gamedata/e3e57cb640f18002a4feebe3872cefe04072d814/mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/utherdata/utherskindata/uthermedicdata/uthermedicbasedata.xml",
+      "bytes": 10467,
+      "sha256": "14fbea5cd8850cfbcd1ab5bea16b3f939a98e2d5fb866ad365d769c65bd9d3f0",
+      "legacy_alias_conversion_tag_counts": {}
+    }
+  ],
+  "model_sources": [
+    {
+      "file": "IStoreItem.cs",
+      "source": "https://raw.githubusercontent.com/HeroesToolChest/Heroes.Element/0e8b1bf97df6d65c190c578df05bca0d0b59f99a/Heroes.Element/Models/IStoreItem.cs",
+      "bytes": 767,
+      "sha256": "b012f5f6153ff2c41cef547e6b9378c630919a1fe1631fa9cdc192d0a0ffc639",
+      "legacy_alias_migration_license_word_lines": [],
+      "declared_auto_properties": []
+    },
+    {
+      "file": "Mount.cs",
+      "source": "https://raw.githubusercontent.com/HeroesToolChest/Heroes.Element/0e8b1bf97df6d65c190c578df05bca0d0b59f99a/Heroes.Element/Models/Mount.cs",
+      "bytes": 813,
+      "sha256": "1d3b54451241667cf105041fe14a646471de1b9e885b5926ab27f8e3cd6a88e2",
+      "legacy_alias_migration_license_word_lines": [],
+      "declared_auto_properties": [
+        "MountCategory",
+        "VariationMountIds"
+      ]
+    },
+    {
+      "file": "RewardPortrait.cs",
+      "source": "https://raw.githubusercontent.com/HeroesToolChest/Heroes.Element/0e8b1bf97df6d65c190c578df05bca0d0b59f99a/Heroes.Element/Models/RewardPortrait.cs",
+      "bytes": 1394,
+      "sha256": "34979421422b0ffea986249000e871312f7fe24c0b97a5f72c4b8a67a0df145e",
+      "legacy_alias_migration_license_word_lines": [],
+      "declared_auto_properties": [
+        "DescriptionUnearned",
+        "PortraitPackId",
+        "HeroId",
+        "IconSlot",
+        "Image",
+        "TextureSheet"
+      ]
+    },
+    {
+      "file": "Skin.cs",
+      "source": "https://raw.githubusercontent.com/HeroesToolChest/Heroes.Element/0e8b1bf97df6d65c190c578df05bca0d0b59f99a/Heroes.Element/Models/Skin.cs",
+      "bytes": 1123,
+      "sha256": "6d57f4ce33efd297030dabaf596e83d4fe64fa52f8d1d2e38e43321aaf170ca3",
+      "legacy_alias_migration_license_word_lines": [],
+      "declared_auto_properties": [
+        "Features",
+        "VariationSkinIds",
+        "VoiceLineIds"
+      ]
+    },
+    {
+      "file": "StoreItem.cs",
+      "source": "https://raw.githubusercontent.com/HeroesToolChest/Heroes.Element/0e8b1bf97df6d65c190c578df05bca0d0b59f99a/Heroes.Element/Models/StoreItem.cs",
+      "bytes": 1524,
+      "sha256": "6b6ab7b42f2cb3eede81902fbbf9b24ce33bb553e5e6b0efc02beb8c81d35c29",
+      "legacy_alias_migration_license_word_lines": [],
+      "declared_auto_properties": [
+        "Name",
+        "SortName",
+        "HyperlinkId",
+        "Franchise",
+        "Rarity",
+        "ReleaseDate",
+        "Category",
+        "Event",
+        "SearchText",
+        "Description",
+        "InfoText"
+      ]
+    }
+  ],
+  "representative_exact_literal_hits": [],
+  "unresolved_source_name_occurrences_outside_id_attributes": [
+    {
+      "source_file": "stitchespsychobasedata.xml",
+      "record_ordinal": 9,
+      "node_ordinal_within_record": 1,
+      "record_type": "CSkin",
+      "record_id": "StitchesPsychoCommon",
+      "record_parent": null,
+      "field_tag": "ReplacementArray",
+      "attributes": {
+        "Catalog": "Model",
+        "From": "HeroStitches",
+        "To": "StitchesSkinPsycho"
+      },
+      "matched_names": [
+        "StitchesSkinPsycho"
+      ],
+      "matched_attribute_names": [
+        "To"
+      ],
+      "entitlement_alias_proven": false
+    },
+    {
+      "source_file": "stitchespsychobasedata.xml",
+      "record_ordinal": 9,
+      "node_ordinal_within_record": 12,
+      "record_type": "CSkin",
+      "record_id": "StitchesPsychoCommon",
+      "record_parent": null,
+      "field_tag": "DisplayModel",
+      "attributes": {
+        "value": "StitchesSkinPsycho"
+      },
+      "matched_names": [
+        "StitchesSkinPsycho"
+      ],
+      "matched_attribute_names": [
+        "value"
+      ],
+      "entitlement_alias_proven": false
+    },
+    {
+      "source_file": "stitchespsychobasedata.xml",
+      "record_ordinal": 9,
+      "node_ordinal_within_record": 14,
+      "record_type": "CSkin",
+      "record_id": "StitchesPsychoCommon",
+      "record_parent": null,
+      "field_tag": "Models",
+      "attributes": {
+        "value": "StitchesSkinPsycho"
+      },
+      "matched_names": [
+        "StitchesSkinPsycho"
+      ],
+      "matched_attribute_names": [
+        "value"
+      ],
+      "entitlement_alias_proven": false
+    },
+    {
+      "source_file": "uthermedicbasedata.xml",
+      "record_ordinal": 22,
+      "node_ordinal_within_record": 1,
+      "record_type": "CSkin",
+      "record_id": "UtherMedicCommon",
+      "record_parent": null,
+      "field_tag": "ReplacementArray",
+      "attributes": {
+        "Catalog": "Model",
+        "From": "HeroUther",
+        "To": "UtherSkinMedic"
+      },
+      "matched_names": [
+        "UtherSkinMedic"
+      ],
+      "matched_attribute_names": [
+        "To"
+      ],
+      "entitlement_alias_proven": false
+    },
+    {
+      "source_file": "uthermedicbasedata.xml",
+      "record_ordinal": 22,
+      "node_ordinal_within_record": 30,
+      "record_type": "CSkin",
+      "record_id": "UtherMedicCommon",
+      "record_parent": null,
+      "field_tag": "DisplayModel",
+      "attributes": {
+        "value": "UtherSkinMedic"
+      },
+      "matched_names": [
+        "UtherSkinMedic"
+      ],
+      "matched_attribute_names": [
+        "value"
+      ],
+      "entitlement_alias_proven": false
+    },
+    {
+      "source_file": "uthermedicbasedata.xml",
+      "record_ordinal": 22,
+      "node_ordinal_within_record": 32,
+      "record_type": "CSkin",
+      "record_id": "UtherMedicCommon",
+      "record_parent": null,
+      "field_tag": "Models",
+      "attributes": {
+        "value": "UtherSkinMedic"
+      },
+      "matched_names": [
+        "UtherSkinMedic"
+      ],
+      "matched_attribute_names": [
+        "value"
+      ],
+      "entitlement_alias_proven": false
+    }
+  ],
+  "progression_reward_conversion_entries": [
+    {
+      "source_file": "heroesdata-configdata.xml",
+      "record_type": "CConfig",
+      "record_id": "Config",
+      "field_tag": "ProgressionRewardConversionArray",
+      "attributes": {
+        "index": "AccountGem",
+        "value": "GemPlaceholder"
+      },
+      "matches_any_source_collection_name": false
+    },
+    {
+      "source_file": "heroesdata-configdata.xml",
+      "record_type": "CConfig",
+      "record_id": "Config",
+      "field_tag": "ProgressionRewardConversionArray",
+      "attributes": {
+        "index": "AccountCommonLootChest",
+        "value": "AccountLootChestCommon"
+      },
+      "matches_any_source_collection_name": false
+    },
+    {
+      "source_file": "heroesdata-configdata.xml",
+      "record_type": "CConfig",
+      "record_id": "Config",
+      "field_tag": "ProgressionRewardConversionArray",
+      "attributes": {
+        "index": "AccountRareLootChest",
+        "value": "AccountLootChestRare"
+      },
+      "matches_any_source_collection_name": false
+    },
+    {
+      "source_file": "heroesdata-configdata.xml",
+      "record_type": "CConfig",
+      "record_id": "Config",
+      "field_tag": "ProgressionRewardConversionArray",
+      "attributes": {
+        "index": "AccountEpicLootChest",
+        "value": "AccountLootChestEpic"
+      },
+      "matches_any_source_collection_name": false
+    },
+    {
+      "source_file": "heroesdata-configdata.xml",
+      "record_type": "CConfig",
+      "record_id": "Config",
+      "field_tag": "ProgressionRewardConversionArray",
+      "attributes": {
+        "index": "HeroGold",
+        "value": "ProgressionGoldReward"
+      },
+      "matches_any_source_collection_name": false
+    },
+    {
+      "source_file": "heroesdata-configdata.xml",
+      "record_type": "CConfig",
+      "record_id": "Config",
+      "field_tag": "ProgressionRewardConversionArray",
+      "attributes": {
+        "index": "HeroLootChest",
+        "value": "HeroLootChestCommon"
+      },
+      "matches_any_source_collection_name": false
+    },
+    {
+      "source_file": "heroesdata-configdata.xml",
+      "record_type": "CConfig",
+      "record_id": "Config",
+      "field_tag": "ProgressionRewardConversionArray",
+      "attributes": {
+        "index": "AccountUpgradeCommonLootChest",
+        "value": "CommonProgChestReward"
+      },
+      "matches_any_source_collection_name": false
+    },
+    {
+      "source_file": "heroesdata-configdata.xml",
+      "record_type": "CConfig",
+      "record_id": "Config",
+      "field_tag": "ProgressionRewardConversionArray",
+      "attributes": {
+        "index": "AccountUpgradeRareLootChest",
+        "value": "RareProgChestReward"
+      },
+      "matches_any_source_collection_name": false
+    },
+    {
+      "source_file": "heroesdata-configdata.xml",
+      "record_type": "CConfig",
+      "record_id": "Config",
+      "field_tag": "ProgressionRewardConversionArray",
+      "attributes": {
+        "index": "AccountUpgradeEpicLootChest",
+        "value": "EpicProgChestReward"
+      },
+      "matches_any_source_collection_name": false
+    },
+    {
+      "source_file": "heroesdata-configdata.xml",
+      "record_type": "CConfig",
+      "record_id": "Config",
+      "field_tag": "ProgressionRewardConversionArray",
+      "attributes": {
+        "index": "AccountUpgradeVeteranLootChest",
+        "value": "VeteranChestReward"
+      },
+      "matches_any_source_collection_name": false
+    }
+  ],
+  "explicit_reward_alias_or_migration_fields_matching_unresolved_names": [],
+  "conclusions": {
+    "representative_names_found": [],
+    "outside_id_matching_names": [
+      "StitchesSkinPsycho",
+      "UtherSkinMedic"
+    ],
+    "explicit_entitlement_aliases_proven": false,
+    "progression_conversion_entries_matching_source_names": 0,
+    "legacy_to_current_license_conversion_authorized_by_evidence": false
+  },
+  "bounded_primary_search": {
+    "queries": [
+      "\"Heroes of the Storm\" XML \"LegacyId\"",
+      "\"HeroesOfTheStorm_Gamedata\" \"Legacy\" \"Reward\"",
+      "\"LunaraSkinMaster\" XML",
+      "\"ETCSkinMaster\" reward"
+    ],
+    "result": "No results returned; not evidence of global absence"
+  },
+  "focused_remote_scanner_proposal": {
+    "reason": "Exact unresolved names survive in visual/reference fields outside record IDs; measure their actual98348 contexts before assigning roles.",
+    "input": "The same catalog-only263-name projection, with207 unresolved names independently recomputed and hash-bound.",
+    "acquisition": "Reuse pinned HDP5.1.0 and exact official98348 build/config, live log and PascalCase Version/IsPtr=false hdp.info gates.",
+    "scope": "Re-extract only game XML on the ephemeral Actions runner; scan exact whole attribute/text values, with no fuzzy or inferred aliases.",
+    "publish_only": [
+      "Per-file relative path, byte size and digest for matched files.",
+      "Matching node ordinal/path and scalar attributes/text, owning catalog record type/id/parent/default, and exact matched source names.",
+      "Direct License/RequiredRewardArray/AttributeId/VariationArray/DisplayModel and Model replacement reference nodes for the owning skin/mount record, with defaults and indexed operations unresolved.",
+      "Counts/names of relevant alias/migration/conversion field tags, including an explicit zero result when no source name matches."
+    ],
+    "interpretation": "Separate CModel/actor/visual references from CReward identity/alias declarations. A model reference is not an entitlement rename. No license mapping is emitted automatically.",
+    "bounds": "Reuse collector tree/byte/XML/DTD/link guards; bound matches per-file and globally; no rawXML/artwork/client assets in outputs."
+  },
+  "limitations": [
+    "Only19 XML snippets and five selected model classes were inspected, not every current game field or schema.",
+    "The typed JSON model library intentionally exposes selected fields; its omissions cannot prove raw XML lacks other metadata.",
+    "Current visual asset references and shared parent/model paths do not establish historical reward entitlement equivalence or ownership migration.",
+    "No new replay, ownership matrix, alias mapping or repository change was produced."
+  ]
+}

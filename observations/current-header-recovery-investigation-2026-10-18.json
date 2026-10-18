@@ -1,0 +1,92 @@
+{
+  "format": "hots-current-header-recovery-investigation-v1",
+  "status": "bounded-search-complete-exact-three-us-headers-not-recovered",
+  "exact_missing_us_s2mh": [
+    "0633db0bcff394a95e6d3e62a54190c2c33ee6c39af555a5d6268ac6e26c936a",
+    "42afeaf8be79bff738e3387c15261b2c71474a63618ecfe8d38f5beb2985b57a",
+    "3c2d7d5c17b8a5351c03d7bfb40159ca158694176b81d51bbd1d12abadc2e429"
+  ],
+  "observations": {
+    "exact_depot_probe": {
+      "report": "current-depot-redirect-probe-network-20261018.json",
+      "sha256": "f7ad9398f9f2b54119108b5434795302025fa08dd0d7cb0fa8c60ef1ac386e81",
+      "known_control_http_status": 200,
+      "known_control_sha256_verified": true,
+      "three_missing_http_statuses": [404, 404, 404],
+      "any_redirect_observed": false,
+      "server": "Google-Edge-Cache",
+      "new_header_downloaded": false
+    },
+    "local_battle_net_cache_scan": {
+      "report": "cached-s2mh-identity-scan-20261018.json",
+      "sha256": "20e9af06a9fb2fe63ec06c1426ae5a79661731f0baa6145d4060f3908f5b3120",
+      "headers": 591,
+      "bytes": 7568915,
+      "all_sha256_verified": true,
+      "all_fully_wire_decoded": true,
+      "exact_current_us_terminal_digests_found": 0,
+      "current_us_package_ids_found": 0
+    },
+    "same_payload_eu_header_graph": {
+      "report": "cached-eu-package-graph-observation-20261018.json",
+      "sha256": "8031964a1041105a9def673d5bbf86e3b5251c519a8df4610d4f3641eac12741",
+      "all_six_archive_payload_digests_have_eu_headers": true,
+      "candidate_counts_by_archive_role": {
+        "Core": 6,
+        "Teams10": 4,
+        "Heroes": 3,
+        "HeroesData": 13,
+        "DataMod": 1,
+        "DragonShireMap": 1
+      },
+      "candidate_sets_before_dependency_filters": 936,
+      "all_23_observed_dependency_versions_are_zero": true,
+      "sets_with_literal_exact_dependency_version_matching": 0,
+      "sets_if_zero_is_treated_as_unconstrained": 936,
+      "zero_version_resolution_semantics_proven": false,
+      "unique_target_set_established": false,
+      "build_98348_binding_established": false
+    }
+  },
+  "primary_sources": [
+    {
+      "url": "https://github.com/ggtracker/sc2reader/blob/e10fc9344417d0aa9649e4ed8d6423e38f6af4c9/sc2reader/utils.py",
+      "finding": "Depot handles contain type, region and a content-based digest. Current route is HTTPS region-s2-depot.classic.blizzard.com/digest.type. The only named remapping is SEA to US; CN has a separate host. No US-to-EU fallback is declared."
+    },
+    {
+      "url": "https://github.com/hometlt/ModKit-Blizzard/blob/78104889bed092d901516044bd90734df8d5caac/starcraft2/modules/game/battlenet/content-sources/public-depot.ts#L91-L165",
+      "finding": "Reads bounded cache entries at the two-prefix SHA256 path, then exact regional depot URLs; checks SHA256. It follows a returned redirect to the corresponding depot-storage host. The actual three missing-object responses contained no redirect."
+    },
+    {
+      "url": "https://github.com/sc2-arcade-watcher/s2mdec/blob/b48c60a697b12ae1dc8681a2d42ce313958ce94a/s2m.go#L719-L836",
+      "finding": "Names package id/version, archiveHandle, workingSet, variants and extraDependencies. It does not name an authenticated client-build field. Header format revision is inferred from the maximum field number, not client build."
+    },
+    {
+      "url": "https://github.com/ladislav-zezula/CascLib/blob/38a34665624b8775bb875274b36191b21c38d97b/src/CascOpenFile.cpp#L332-L402",
+      "finding": "CASC resolves files through a root filename/file-ID mapping or a 16-byte CKey/EKey. A 32-byte depot SHA256 is a different key namespace and is not a valid direct CASC identifier."
+    },
+    {
+      "url": "https://github.com/ladislav-zezula/CascLib/blob/38a34665624b8775bb875274b36191b21c38d97b/src/CascRootFile_MNDX.cpp#L2818-L2868",
+      "finding": "The Heroes root handler maps package/file names to CKeys. Exact installed filenames or authenticated root entries would be required for a bounded CASC lookup; this investigation did not enumerate the CASC root."
+    }
+  ],
+  "casc_scope_and_next_step": {
+    "installed_config_declares_build_98348": true,
+    "no_loose_s2mh_name_found_under_installed_game": true,
+    "no_ready_local_casc_reader_found_in_task_tools": true,
+    "casc_archive_contents_were_not_enumerated": true,
+    "casc_absence_claimed": false,
+    "bounded_next_step": "Use a reviewed read-only CASC reader to open the exact installed 98348 build root and enumerate only package metadata/header filenames. Read only identified small members; accept an exact missing depot header solely if its full SHA256 matches, or treat named package build metadata as separate evidence. Do not truncate or reinterpret the depot SHA256 as a CKey."
+  },
+  "limitations": [
+    "Same SHA256 Standard Data redirect files do not bind the dynamic installed mod contents to a particular build.",
+    "Same archive payload hashes across EU/US do not make regional header identities interchangeable.",
+    "The observed zero-version dependency edges do not authenticate one of the 936 EU header combinations.",
+    "No highest-version heuristic, header substitution or current-build metadata claim was made.",
+    "Firecrawl developer search succeeded, but subsequent scrape calls failed because the connected account had no credits; source reads continued through GitHub."
+  ],
+  "publisher_or_author_fields_emitted": false,
+  "repository_modified": false,
+  "replay_or_member_modified": false,
+  "client_launched": false
+}

@@ -1,0 +1,186 @@
+{
+  "format": "hots-public-alias-snippets-current98348-digest-binding-v1",
+  "utc": "2026-10-18T19:26:01.654789+00:00",
+  "current_extraction_projection": {
+    "repository_path": "observations/collection-license-current-98348.json",
+    "published_blob_sha1": "863c7375d0c2e42964dabf55876f90f1facf2c34",
+    "sha256": "c8f03ddbc859feb5c2dc1836761201b5e6fea4632ce0325817abdd7299c8aa22",
+    "bytes": 9580143,
+    "publisher_commit": "38469fa",
+    "workflow_run": "https://github.com/lisu188/hots-replay-recovery/actions/runs/39156204685",
+    "version_binding": {
+      "expected_version": "2.57.0.98348",
+      "matching_hdp_info_files": 1,
+      "metadata": [
+        {
+          "bytes": 130,
+          "is_ptr": false,
+          "observed_version_strings": [
+            "2.57.0.98348"
+          ],
+          "path": "mods/hdp.info",
+          "sha256": "eeb8bc05408d3fd33291abbfd81f708af4a3d2a55911b09da80a486030ca3681",
+          "version_field": "Version"
+        }
+      ],
+      "status": "version-log-and-extracted-metadata-match",
+      "version_log": {
+        "bytes": 13,
+        "observed_versions": [
+          "2.57.0.98348"
+        ],
+        "sha256": "ae610ceda87a81444a79cf937752a74f8bc6869f0015c48cba74e32970cfa839"
+      }
+    }
+  },
+  "earlier_bounded_alias_findings_sha256": "e0297e4588c52bfe20616faf44b104ac1672c1505cd29a83041d723c6397f611",
+  "matched_file_count": 19,
+  "matched_files": [
+    {
+      "relative_game_path": "mods/heroesdata.stormmod/base.stormdata/gamedata/configdata.xml",
+      "public_source": "https://raw.githubusercontent.com/jamiephan/HeroesOfTheStorm_Gamedata/e3e57cb640f18002a4feebe3872cefe04072d814/mods/heroesdata.stormmod/base.stormdata/gamedata/configdata.xml",
+      "bytes": 170805,
+      "sha256": "af36997a0aab3dfcc571d5827568cc678b29313d57b8ea549138d4e77228d052",
+      "exact_current98348_file_digest_match": true
+    },
+    {
+      "relative_game_path": "mods/gameplaymods/lootbox.stormmod/base.stormdata/gamedata/lootchestrewards.xml",
+      "public_source": "https://raw.githubusercontent.com/jamiephan/HeroesOfTheStorm_Gamedata/e3e57cb640f18002a4feebe3872cefe04072d814/mods/gameplaymods/lootbox.stormmod/base.stormdata/gamedata/lootchestrewards.xml",
+      "bytes": 34282,
+      "sha256": "aa9e5b618b760929479d76388e3a8f8f6c1da11c7dc130216e71582546ba83c0",
+      "exact_current98348_file_digest_match": true
+    },
+    {
+      "relative_game_path": "mods/gameplaymods/lootbox.stormmod/base.stormdata/gamedata/lootchestrewardsoverride.xml",
+      "public_source": "https://raw.githubusercontent.com/jamiephan/HeroesOfTheStorm_Gamedata/e3e57cb640f18002a4feebe3872cefe04072d814/mods/gameplaymods/lootbox.stormmod/base.stormdata/gamedata/lootchestrewardsoverride.xml",
+      "bytes": 1211,
+      "sha256": "3410aa5bd305f187390c9285fcbc4e82a845dfb1df23940b2ca3203523438bcc",
+      "exact_current98348_file_digest_match": true
+    },
+    {
+      "relative_game_path": "mods/gameplaymods/progression20.stormmod/base.stormdata/gamedata/configdata.xml",
+      "public_source": "https://raw.githubusercontent.com/jamiephan/HeroesOfTheStorm_Gamedata/e3e57cb640f18002a4feebe3872cefe04072d814/mods/gameplaymods/progression20.stormmod/base.stormdata/gamedata/configdata.xml",
+      "bytes": 8359,
+      "sha256": "109888d09ec4377fd7e65a4d3fc6e23b7c9281ea7b9430fbb0689022260698c4",
+      "exact_current98348_file_digest_match": true
+    },
+    {
+      "relative_game_path": "mods/core.stormmod/base.stormdata/gamedata/herodata.xml",
+      "public_source": "https://raw.githubusercontent.com/jamiephan/HeroesOfTheStorm_Gamedata/e3e57cb640f18002a4feebe3872cefe04072d814/mods/core.stormmod/base.stormdata/gamedata/herodata.xml",
+      "bytes": 2251,
+      "sha256": "8a0a8f48d4608cfbcd46f1881395100ad240fedbd790479e3023069d8e9056b8",
+      "exact_current98348_file_digest_match": true
+    },
+    {
+      "relative_game_path": "mods/core.stormmod/base.stormdata/gamedata/rewarddata.xml",
+      "public_source": "https://raw.githubusercontent.com/jamiephan/HeroesOfTheStorm_Gamedata/e3e57cb640f18002a4feebe3872cefe04072d814/mods/core.stormmod/base.stormdata/gamedata/rewarddata.xml",
+      "bytes": 1290,
+      "sha256": "750c4895bcf79a03d7018a37628faab0ed7988534e265edf391cb68bd561a3f3",
+      "exact_current98348_file_digest_match": true
+    },
+    {
+      "relative_game_path": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/demonhunterdata/demonhunterskindata/demonhunterultimatedata/demonhunterultimatebasedata.xml",
+      "public_source": "https://raw.githubusercontent.com/jamiephan/HeroesOfTheStorm_Gamedata/e3e57cb640f18002a4feebe3872cefe04072d814/mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/demonhunterdata/demonhunterskindata/demonhunterultimatedata/demonhunterultimatebasedata.xml",
+      "bytes": 4773,
+      "sha256": "f777c58d4e36b648bfb7a181eaba81a3fed2ef3daec382a9ade128836d081d82",
+      "exact_current98348_file_digest_match": true
+    },
+    {
+      "relative_game_path": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/dryaddata/dryadskindata/dryadultimatedata/dryadultimatebasedata.xml",
+      "public_source": "https://raw.githubusercontent.com/jamiephan/HeroesOfTheStorm_Gamedata/e3e57cb640f18002a4feebe3872cefe04072d814/mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/dryaddata/dryadskindata/dryadultimatedata/dryadultimatebasedata.xml",
+      "bytes": 6678,
+      "sha256": "fa2244c72166a29c951a84d806818a6c8c79e6b4ee024b3ddef5a664773cdf74",
+      "exact_current98348_file_digest_match": true
+    },
+    {
+      "relative_game_path": "mods/heroesdata.stormmod/base.stormdata/gamedata/herodata.xml",
+      "public_source": "https://raw.githubusercontent.com/jamiephan/HeroesOfTheStorm_Gamedata/e3e57cb640f18002a4feebe3872cefe04072d814/mods/heroesdata.stormmod/base.stormdata/gamedata/herodata.xml",
+      "bytes": 15256,
+      "sha256": "f39bc54277cec03c773bffb8cb2c183a69b96c75884937937e4d60b04733adad",
+      "exact_current98348_file_digest_match": true
+    },
+    {
+      "relative_game_path": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/kaelthasdata/kaelthasdata.xml",
+      "public_source": "https://raw.githubusercontent.com/jamiephan/HeroesOfTheStorm_Gamedata/e3e57cb640f18002a4feebe3872cefe04072d814/mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/kaelthasdata/kaelthasdata.xml",
+      "bytes": 276044,
+      "sha256": "39cf6954288e32edd73dfed13f82e45ab5f944a54f9f3fa9adaf2aacc7ffc13b",
+      "exact_current98348_file_digest_match": true
+    },
+    {
+      "relative_game_path": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/l90etcdata/l90etcskindata/l90etcultimatedata/l90etcultimatebasedata.xml",
+      "public_source": "https://raw.githubusercontent.com/jamiephan/HeroesOfTheStorm_Gamedata/e3e57cb640f18002a4feebe3872cefe04072d814/mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/l90etcdata/l90etcskindata/l90etcultimatedata/l90etcultimatebasedata.xml",
+      "bytes": 2712,
+      "sha256": "72cfef5e7116cb5f3d0240a347d0f67d2b2e87a2808938d42aae11c026182bfe",
+      "exact_current98348_file_digest_match": true
+    },
+    {
+      "relative_game_path": "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mountgoatadultbilliedata/mount_ride_goatadultbilliedata.xml",
+      "public_source": "https://raw.githubusercontent.com/jamiephan/HeroesOfTheStorm_Gamedata/e3e57cb640f18002a4feebe3872cefe04072d814/mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mountgoatadultbilliedata/mount_ride_goatadultbilliedata.xml",
+      "bytes": 33211,
+      "sha256": "6266bf699281813f8d2895c725ff7da3b1d1ad4104b5f135a7991aeb524a4c42",
+      "exact_current98348_file_digest_match": true
+    },
+    {
+      "relative_game_path": "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mountbannerazmodunkdata/mount_ridesurf_bannerazmodunkbasedata.xml",
+      "public_source": "https://raw.githubusercontent.com/jamiephan/HeroesOfTheStorm_Gamedata/e3e57cb640f18002a4feebe3872cefe04072d814/mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mountbannerazmodunkdata/mount_ridesurf_bannerazmodunkbasedata.xml",
+      "bytes": 9940,
+      "sha256": "751a43ec10649cc9b7257d1c83fc227adc97da7d7f495fcca955415431e85c83",
+      "exact_current98348_file_digest_match": true
+    },
+    {
+      "relative_game_path": "mods/heroesdata.stormmod/base.stormdata/gamedata/mountdata.xml",
+      "public_source": "https://raw.githubusercontent.com/jamiephan/HeroesOfTheStorm_Gamedata/e3e57cb640f18002a4feebe3872cefe04072d814/mods/heroesdata.stormmod/base.stormdata/gamedata/mountdata.xml",
+      "bytes": 4049,
+      "sha256": "ad9507835b15486ca419eb2032e7d00b99508405512be34fb5162c41bcc17e7a",
+      "exact_current98348_file_digest_match": true
+    },
+    {
+      "relative_game_path": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/rehgardata/rehgarskindata/rehgargfwinterdata/rehgargfwinterbasedata.xml",
+      "public_source": "https://raw.githubusercontent.com/jamiephan/HeroesOfTheStorm_Gamedata/e3e57cb640f18002a4feebe3872cefe04072d814/mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/rehgardata/rehgarskindata/rehgargfwinterdata/rehgargfwinterbasedata.xml",
+      "bytes": 8670,
+      "sha256": "ec9a4bfb002ffdc40ef43c84e32fb78d72931ad2b95dde5020fb165aedafdc92",
+      "exact_current98348_file_digest_match": true
+    },
+    {
+      "relative_game_path": "mods/heroesdata.stormmod/base.stormdata/gamedata/rewarddata.xml",
+      "public_source": "https://raw.githubusercontent.com/jamiephan/HeroesOfTheStorm_Gamedata/e3e57cb640f18002a4feebe3872cefe04072d814/mods/heroesdata.stormmod/base.stormdata/gamedata/rewarddata.xml",
+      "bytes": 497505,
+      "sha256": "873eaf657fd2dad08ee4aac44e9cbf8368852cc96ae57e16a709d9c9be917b1d",
+      "exact_current98348_file_digest_match": true
+    },
+    {
+      "relative_game_path": "mods/heroesdata.stormmod/base.stormdata/gamedata/skindata.xml",
+      "public_source": "https://raw.githubusercontent.com/jamiephan/HeroesOfTheStorm_Gamedata/e3e57cb640f18002a4feebe3872cefe04072d814/mods/heroesdata.stormmod/base.stormdata/gamedata/skindata.xml",
+      "bytes": 1275,
+      "sha256": "bab5781cc3f6483a406aa1c2292dbf22dec517c6e573468b014e8a22050a8f4d",
+      "exact_current98348_file_digest_match": true
+    },
+    {
+      "relative_game_path": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/stitchesdata/stitchesskindata/stitchespsychodata/stitchespsychobasedata.xml",
+      "public_source": "https://raw.githubusercontent.com/jamiephan/HeroesOfTheStorm_Gamedata/e3e57cb640f18002a4feebe3872cefe04072d814/mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/stitchesdata/stitchesskindata/stitchespsychodata/stitchespsychobasedata.xml",
+      "bytes": 5692,
+      "sha256": "4bd22cfadfdbecb23a42696ab35bbc4eb9d075e44f8622c8cb3e4c09381340db",
+      "exact_current98348_file_digest_match": true
+    },
+    {
+      "relative_game_path": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/utherdata/utherskindata/uthermedicdata/uthermedicbasedata.xml",
+      "public_source": "https://raw.githubusercontent.com/jamiephan/HeroesOfTheStorm_Gamedata/e3e57cb640f18002a4feebe3872cefe04072d814/mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/utherdata/utherskindata/uthermedicdata/uthermedicbasedata.xml",
+      "bytes": 10467,
+      "sha256": "14fbea5cd8850cfbcd1ab5bea16b3f939a98e2d5fb866ad365d769c65bd9d3f0",
+      "exact_current98348_file_digest_match": true
+    }
+  ],
+  "conclusions": {
+    "all19_inspected_public_XML_files_now_bound_to_actual98348_bytes": true,
+    "representative_exact_name_hits_in_these_files": [],
+    "non_id_node_roles_remain_visual_references_not_entitlement_aliases": true,
+    "explicit_reward_alias_or_migration_matches_found": false,
+    "whole_public_repository_bound_to_current_build": false,
+    "legacy_conversion_or_ownership_semantics_proven": false
+  },
+  "limits": [
+    "This adds exact file identity binding to the19 inspected snippets; earlier unbound research reports remain historical.",
+    "It does not establish effective dependency load order, catalog inheritance, reward renaming or applicability of arbitrary uninspected mirror files.",
+    "No raw game XML is included in this supplemental JSON and no replay/ownership data was opened."
+  ]
+}

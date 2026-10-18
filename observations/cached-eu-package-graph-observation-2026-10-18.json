@@ -1,0 +1,644 @@
+{
+  "format": "hots-cached-eu-package-graph-observation-v1",
+  "source_handle_manifest_sha256": "b4a19eebeb171eb1a1f044ffe740ba39a524bd2c2b2c713f02266d50873e2265",
+  "archive_groups": [
+    {
+      "archive_digest": "1f1b228ddb1f72205cbfd444055287100b0f39959be816548162e4081ea85511",
+      "candidate_count": 6,
+      "candidates": [
+        {
+          "header_sha256": "ec19295da5dde5636a5a914c8039808c0ebc4d515eec06e9bfbb539a0289f183",
+          "bytes": 23112,
+          "package_id": 169990,
+          "package_version": 65547,
+          "archive_type": "s2ma",
+          "archive_region": "EU",
+          "archive_digest": "1f1b228ddb1f72205cbfd444055287100b0f39959be816548162e4081ea85511",
+          "extra_dependencies": [],
+          "header_max_field": 23,
+          "outer_other_field_python_type": "dict",
+          "contains_integer_equal_to_98348": false,
+          "build_98348_binding_established": false,
+          "archive_exact_full_handle_matches_current_us_prefix": false
+        },
+        {
+          "header_sha256": "b0ecdd5004cd7da40980f761a17fd96def04019c62801119f949ab447b941e95",
+          "bytes": 24774,
+          "package_id": 169990,
+          "package_version": 65564,
+          "archive_type": "s2ma",
+          "archive_region": "EU",
+          "archive_digest": "1f1b228ddb1f72205cbfd444055287100b0f39959be816548162e4081ea85511",
+          "extra_dependencies": [],
+          "header_max_field": 23,
+          "outer_other_field_python_type": "dict",
+          "contains_integer_equal_to_98348": false,
+          "build_98348_binding_established": false,
+          "archive_exact_full_handle_matches_current_us_prefix": false
+        },
+        {
+          "header_sha256": "76d9aa735b346a7f318e3a3530fb8cdaa0fa09e6540f1821f860b5ff455c079f",
+          "bytes": 26643,
+          "package_id": 169990,
+          "package_version": 65568,
+          "archive_type": "s2ma",
+          "archive_region": "EU",
+          "archive_digest": "1f1b228ddb1f72205cbfd444055287100b0f39959be816548162e4081ea85511",
+          "extra_dependencies": [],
+          "header_max_field": 24,
+          "outer_other_field_python_type": "dict",
+          "contains_integer_equal_to_98348": false,
+          "build_98348_binding_established": false,
+          "archive_exact_full_handle_matches_current_us_prefix": false
+        },
+        {
+          "header_sha256": "a3383b35156f40fdf0fc8dc8f3afef574a0024ed87020def1d43d496e6c37f08",
+          "bytes": 27010,
+          "package_id": 169990,
+          "package_version": 65570,
+          "archive_type": "s2ma",
+          "archive_region": "EU",
+          "archive_digest": "1f1b228ddb1f72205cbfd444055287100b0f39959be816548162e4081ea85511",
+          "extra_dependencies": [],
+          "header_max_field": 24,
+          "outer_other_field_python_type": "dict",
+          "contains_integer_equal_to_98348": false,
+          "build_98348_binding_established": false,
+          "archive_exact_full_handle_matches_current_us_prefix": false
+        },
+        {
+          "header_sha256": "f18fbeaec2da3fbe4a1558792ef4dff9af3dd5a45259c5dd50ad91d5a361da6d",
+          "bytes": 29039,
+          "package_id": 169990,
+          "package_version": 65575,
+          "archive_type": "s2ma",
+          "archive_region": "EU",
+          "archive_digest": "1f1b228ddb1f72205cbfd444055287100b0f39959be816548162e4081ea85511",
+          "extra_dependencies": [],
+          "header_max_field": 24,
+          "outer_other_field_python_type": "dict",
+          "contains_integer_equal_to_98348": false,
+          "build_98348_binding_established": false,
+          "archive_exact_full_handle_matches_current_us_prefix": false
+        },
+        {
+          "header_sha256": "8605dedcd84ee88bf5e4f21a354d4e5e0dd7e11f932a61955bef4d0dec7ec354",
+          "bytes": 29402,
+          "package_id": 169990,
+          "package_version": 65580,
+          "archive_type": "s2ma",
+          "archive_region": "EU",
+          "archive_digest": "1f1b228ddb1f72205cbfd444055287100b0f39959be816548162e4081ea85511",
+          "extra_dependencies": [],
+          "header_max_field": 24,
+          "outer_other_field_python_type": "dict",
+          "contains_integer_equal_to_98348": false,
+          "build_98348_binding_established": false,
+          "archive_exact_full_handle_matches_current_us_prefix": false
+        }
+      ]
+    },
+    {
+      "archive_digest": "1ad94c126eb98a4c1de7b8e6f8aaa153dba52b09d3825e0c89dbc5828db70f76",
+      "candidate_count": 4,
+      "candidates": [
+        {
+          "header_sha256": "334afa668cf8dba260383f6320fff83d72e4635140cf8a0134f356129697b0ee",
+          "bytes": 30454,
+          "package_id": 170002,
+          "package_version": 65547,
+          "archive_type": "s2ma",
+          "archive_region": "EU",
+          "archive_digest": "1ad94c126eb98a4c1de7b8e6f8aaa153dba52b09d3825e0c89dbc5828db70f76",
+          "extra_dependencies": [
+            {
+              "id": 169990,
+              "version": 0
+            }
+          ],
+          "header_max_field": 23,
+          "outer_other_field_python_type": "dict",
+          "contains_integer_equal_to_98348": false,
+          "build_98348_binding_established": false,
+          "archive_exact_full_handle_matches_current_us_prefix": false
+        },
+        {
+          "header_sha256": "a62781146874243eaa6a227a9839229301e09a336868a9e1d9a0e34a29dfa77c",
+          "bytes": 30370,
+          "package_id": 170002,
+          "package_version": 65556,
+          "archive_type": "s2ma",
+          "archive_region": "EU",
+          "archive_digest": "1ad94c126eb98a4c1de7b8e6f8aaa153dba52b09d3825e0c89dbc5828db70f76",
+          "extra_dependencies": [
+            {
+              "id": 169990,
+              "version": 0
+            }
+          ],
+          "header_max_field": 23,
+          "outer_other_field_python_type": "dict",
+          "contains_integer_equal_to_98348": false,
+          "build_98348_binding_established": false,
+          "archive_exact_full_handle_matches_current_us_prefix": false
+        },
+        {
+          "header_sha256": "9dfd9f50018756f46a72ad4189edb1682d4cf8c1e25e3f41d7b0ff5ae2900767",
+          "bytes": 30412,
+          "package_id": 170002,
+          "package_version": 65558,
+          "archive_type": "s2ma",
+          "archive_region": "EU",
+          "archive_digest": "1ad94c126eb98a4c1de7b8e6f8aaa153dba52b09d3825e0c89dbc5828db70f76",
+          "extra_dependencies": [
+            {
+              "id": 169990,
+              "version": 0
+            }
+          ],
+          "header_max_field": 24,
+          "outer_other_field_python_type": "dict",
+          "contains_integer_equal_to_98348": false,
+          "build_98348_binding_established": false,
+          "archive_exact_full_handle_matches_current_us_prefix": false
+        },
+        {
+          "header_sha256": "154724c2bc9830f8be306833c064da19063aaf3206327a6b9bcc7c56cdf7f84a",
+          "bytes": 30069,
+          "package_id": 170002,
+          "package_version": 65559,
+          "archive_type": "s2ma",
+          "archive_region": "EU",
+          "archive_digest": "1ad94c126eb98a4c1de7b8e6f8aaa153dba52b09d3825e0c89dbc5828db70f76",
+          "extra_dependencies": [
+            {
+              "id": 169990,
+              "version": 0
+            }
+          ],
+          "header_max_field": 24,
+          "outer_other_field_python_type": "dict",
+          "contains_integer_equal_to_98348": false,
+          "build_98348_binding_established": false,
+          "archive_exact_full_handle_matches_current_us_prefix": false
+        }
+      ]
+    },
+    {
+      "archive_digest": "92d81744c1441bf628ed6ab7e9d19485c860914d8b745a91f6351ff9dcd4e6bb",
+      "candidate_count": 3,
+      "candidates": [
+        {
+          "header_sha256": "c919709fd01f6e519762a6bfa5746acd57a95e1d8f22425401aebd2fc3e857b2",
+          "bytes": 1727,
+          "package_id": 169991,
+          "package_version": 65547,
+          "archive_type": "s2ma",
+          "archive_region": "EU",
+          "archive_digest": "92d81744c1441bf628ed6ab7e9d19485c860914d8b745a91f6351ff9dcd4e6bb",
+          "extra_dependencies": [
+            {
+              "id": 169990,
+              "version": 0
+            }
+          ],
+          "header_max_field": 23,
+          "outer_other_field_python_type": "dict",
+          "contains_integer_equal_to_98348": false,
+          "build_98348_binding_established": false,
+          "archive_exact_full_handle_matches_current_us_prefix": false
+        },
+        {
+          "header_sha256": "e808cc5a7e191622bfe1354f848154107ae9bbeacfacc54cb9b63f1bfab1871a",
+          "bytes": 1615,
+          "package_id": 169991,
+          "package_version": 65551,
+          "archive_type": "s2ma",
+          "archive_region": "EU",
+          "archive_digest": "92d81744c1441bf628ed6ab7e9d19485c860914d8b745a91f6351ff9dcd4e6bb",
+          "extra_dependencies": [
+            {
+              "id": 169990,
+              "version": 0
+            }
+          ],
+          "header_max_field": 23,
+          "outer_other_field_python_type": "dict",
+          "contains_integer_equal_to_98348": false,
+          "build_98348_binding_established": false,
+          "archive_exact_full_handle_matches_current_us_prefix": false
+        },
+        {
+          "header_sha256": "c433f7acb071f5adf34363ef7228f49f48eb278ac6d12ac35a6fbb35ff9369b7",
+          "bytes": 1657,
+          "package_id": 169991,
+          "package_version": 65552,
+          "archive_type": "s2ma",
+          "archive_region": "EU",
+          "archive_digest": "92d81744c1441bf628ed6ab7e9d19485c860914d8b745a91f6351ff9dcd4e6bb",
+          "extra_dependencies": [
+            {
+              "id": 169990,
+              "version": 0
+            }
+          ],
+          "header_max_field": 24,
+          "outer_other_field_python_type": "dict",
+          "contains_integer_equal_to_98348": false,
+          "build_98348_binding_established": false,
+          "archive_exact_full_handle_matches_current_us_prefix": false
+        }
+      ]
+    },
+    {
+      "archive_digest": "a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43",
+      "candidate_count": 13,
+      "candidates": [
+        {
+          "header_sha256": "dcf7aadfa67980ddb6f4805e1850e9d2586bcd900b5f05cb996eb222d9906af2",
+          "bytes": 28921,
+          "package_id": 169992,
+          "package_version": 65547,
+          "archive_type": "s2ma",
+          "archive_region": "EU",
+          "archive_digest": "a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43",
+          "extra_dependencies": [
+            {
+              "id": 169991,
+              "version": 0
+            }
+          ],
+          "header_max_field": 23,
+          "outer_other_field_python_type": "dict",
+          "contains_integer_equal_to_98348": false,
+          "build_98348_binding_established": false,
+          "archive_exact_full_handle_matches_current_us_prefix": false
+        },
+        {
+          "header_sha256": "bf6d1d17ca2dfb9e2d2b83fe802197b2e35f4b7a2b7c3cea7dabcc54a20a0764",
+          "bytes": 139049,
+          "package_id": 169992,
+          "package_version": 65576,
+          "archive_type": "s2ma",
+          "archive_region": "EU",
+          "archive_digest": "a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43",
+          "extra_dependencies": [
+            {
+              "id": 169991,
+              "version": 0
+            }
+          ],
+          "header_max_field": 23,
+          "outer_other_field_python_type": "dict",
+          "contains_integer_equal_to_98348": false,
+          "build_98348_binding_established": false,
+          "archive_exact_full_handle_matches_current_us_prefix": false
+        },
+        {
+          "header_sha256": "7a266aa0eac68accb4712ef361f80882f4dae0691c525a50f4d8ae21f2b9fb17",
+          "bytes": 139049,
+          "package_id": 169992,
+          "package_version": 65577,
+          "archive_type": "s2ma",
+          "archive_region": "EU",
+          "archive_digest": "a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43",
+          "extra_dependencies": [
+            {
+              "id": 169991,
+              "version": 0
+            }
+          ],
+          "header_max_field": 23,
+          "outer_other_field_python_type": "dict",
+          "contains_integer_equal_to_98348": false,
+          "build_98348_binding_established": false,
+          "archive_exact_full_handle_matches_current_us_prefix": false
+        },
+        {
+          "header_sha256": "8e0d64650c2df98c167ed16634fc9d00fa9c234487accff2ae016205a613f12f",
+          "bytes": 139049,
+          "package_id": 169992,
+          "package_version": 65578,
+          "archive_type": "s2ma",
+          "archive_region": "EU",
+          "archive_digest": "a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43",
+          "extra_dependencies": [
+            {
+              "id": 169991,
+              "version": 0
+            }
+          ],
+          "header_max_field": 23,
+          "outer_other_field_python_type": "dict",
+          "contains_integer_equal_to_98348": false,
+          "build_98348_binding_established": false,
+          "archive_exact_full_handle_matches_current_us_prefix": false
+        },
+        {
+          "header_sha256": "7fade83f10e09e17516082a5b7ed1dcbd6c4c8ffa3d0c618eb58b49969bb0c54",
+          "bytes": 140820,
+          "package_id": 169992,
+          "package_version": 65579,
+          "archive_type": "s2ma",
+          "archive_region": "EU",
+          "archive_digest": "a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43",
+          "extra_dependencies": [
+            {
+              "id": 169991,
+              "version": 0
+            }
+          ],
+          "header_max_field": 23,
+          "outer_other_field_python_type": "dict",
+          "contains_integer_equal_to_98348": false,
+          "build_98348_binding_established": false,
+          "archive_exact_full_handle_matches_current_us_prefix": false
+        },
+        {
+          "header_sha256": "f0b6ae99b4267fa1969a2dd0d36f16535af38cdf6bad9032fb913a92e59e17bb",
+          "bytes": 147436,
+          "package_id": 169992,
+          "package_version": 65580,
+          "archive_type": "s2ma",
+          "archive_region": "EU",
+          "archive_digest": "a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43",
+          "extra_dependencies": [
+            {
+              "id": 169991,
+              "version": 0
+            }
+          ],
+          "header_max_field": 23,
+          "outer_other_field_python_type": "dict",
+          "contains_integer_equal_to_98348": false,
+          "build_98348_binding_established": false,
+          "archive_exact_full_handle_matches_current_us_prefix": false
+        },
+        {
+          "header_sha256": "fd5be8c17e09fb07bb51489c3071110b667c0b092386503c8b9984eb46f57d2d",
+          "bytes": 151944,
+          "package_id": 169992,
+          "package_version": 65600,
+          "archive_type": "s2ma",
+          "archive_region": "EU",
+          "archive_digest": "a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43",
+          "extra_dependencies": [
+            {
+              "id": 169991,
+              "version": 0
+            }
+          ],
+          "header_max_field": 24,
+          "outer_other_field_python_type": "dict",
+          "contains_integer_equal_to_98348": false,
+          "build_98348_binding_established": false,
+          "archive_exact_full_handle_matches_current_us_prefix": false
+        },
+        {
+          "header_sha256": "b0a2eac068bd747ea19b65bc8bef87cb278bb72536f728fe01475b4b778d90ed",
+          "bytes": 173272,
+          "package_id": 169992,
+          "package_version": 65609,
+          "archive_type": "s2ma",
+          "archive_region": "EU",
+          "archive_digest": "a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43",
+          "extra_dependencies": [
+            {
+              "id": 169991,
+              "version": 0
+            }
+          ],
+          "header_max_field": 24,
+          "outer_other_field_python_type": "dict",
+          "contains_integer_equal_to_98348": false,
+          "build_98348_binding_established": false,
+          "archive_exact_full_handle_matches_current_us_prefix": false
+        },
+        {
+          "header_sha256": "fccc7060c9afca41d8c0b22a8b00a7aa7f29f92d767ce14d8141f605d266e7fa",
+          "bytes": 193118,
+          "package_id": 169992,
+          "package_version": 65621,
+          "archive_type": "s2ma",
+          "archive_region": "EU",
+          "archive_digest": "a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43",
+          "extra_dependencies": [
+            {
+              "id": 169991,
+              "version": 0
+            }
+          ],
+          "header_max_field": 24,
+          "outer_other_field_python_type": "dict",
+          "contains_integer_equal_to_98348": false,
+          "build_98348_binding_established": false,
+          "archive_exact_full_handle_matches_current_us_prefix": false
+        },
+        {
+          "header_sha256": "bb1e522c592b1927a314da8a9d1fae51028c96a3264b4f25fc9c00348f83cba4",
+          "bytes": 220012,
+          "package_id": 169992,
+          "package_version": 65646,
+          "archive_type": "s2ma",
+          "archive_region": "EU",
+          "archive_digest": "a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43",
+          "extra_dependencies": [
+            {
+              "id": 169991,
+              "version": 0
+            }
+          ],
+          "header_max_field": 24,
+          "outer_other_field_python_type": "dict",
+          "contains_integer_equal_to_98348": false,
+          "build_98348_binding_established": false,
+          "archive_exact_full_handle_matches_current_us_prefix": false
+        },
+        {
+          "header_sha256": "6bc9ef2ec81f54b8c42e5a7e0d6976177928cb0eb1d4c51fb68be5f84f371e49",
+          "bytes": 220012,
+          "package_id": 169992,
+          "package_version": 65647,
+          "archive_type": "s2ma",
+          "archive_region": "EU",
+          "archive_digest": "a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43",
+          "extra_dependencies": [
+            {
+              "id": 169991,
+              "version": 0
+            }
+          ],
+          "header_max_field": 24,
+          "outer_other_field_python_type": "dict",
+          "contains_integer_equal_to_98348": false,
+          "build_98348_binding_established": false,
+          "archive_exact_full_handle_matches_current_us_prefix": false
+        },
+        {
+          "header_sha256": "29f66c9eca1844826ad55f63eb8fd32a2d6e74ddb7931a8e835fb951f58e184d",
+          "bytes": 221133,
+          "package_id": 169992,
+          "package_version": 65661,
+          "archive_type": "s2ma",
+          "archive_region": "EU",
+          "archive_digest": "a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43",
+          "extra_dependencies": [
+            {
+              "id": 169991,
+              "version": 0
+            }
+          ],
+          "header_max_field": 24,
+          "outer_other_field_python_type": "dict",
+          "contains_integer_equal_to_98348": false,
+          "build_98348_binding_established": false,
+          "archive_exact_full_handle_matches_current_us_prefix": false
+        },
+        {
+          "header_sha256": "f115def2b9adbc67cfdd8bb4255cff1a8b44a8c921e98f56eebe20708660a7c9",
+          "bytes": 221689,
+          "package_id": 169992,
+          "package_version": 65662,
+          "archive_type": "s2ma",
+          "archive_region": "EU",
+          "archive_digest": "a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43",
+          "extra_dependencies": [
+            {
+              "id": 169991,
+              "version": 0
+            }
+          ],
+          "header_max_field": 24,
+          "outer_other_field_python_type": "dict",
+          "contains_integer_equal_to_98348": false,
+          "build_98348_binding_established": false,
+          "archive_exact_full_handle_matches_current_us_prefix": false
+        }
+      ]
+    },
+    {
+      "archive_digest": "baae53ca97aa2a0cf370cadbef747a321fd9677c607d5c353878e645bcc14bf9",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "header_sha256": "33a1c5c9cd0e3d808c2a942c392fa2b5cc7077457bdbe62adad158b86ef8a4fd",
+          "bytes": 1660,
+          "package_id": 196228,
+          "package_version": 16,
+          "archive_type": "s2ma",
+          "archive_region": "EU",
+          "archive_digest": "baae53ca97aa2a0cf370cadbef747a321fd9677c607d5c353878e645bcc14bf9",
+          "extra_dependencies": [
+            {
+              "id": 169992,
+              "version": 0
+            }
+          ],
+          "header_max_field": 24,
+          "outer_other_field_python_type": "dict",
+          "contains_integer_equal_to_98348": false,
+          "build_98348_binding_established": false,
+          "archive_exact_full_handle_matches_current_us_prefix": false
+        }
+      ]
+    },
+    {
+      "archive_digest": "f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "header_sha256": "f4103504b365e00dd873b171be164b9e3736c29fd3ded08c794ca4df84f44a41",
+          "bytes": 4057,
+          "package_id": 170010,
+          "package_version": 65620,
+          "archive_type": "s2ma",
+          "archive_region": "EU",
+          "archive_digest": "f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f",
+          "extra_dependencies": [
+            {
+              "id": 196228,
+              "version": 0
+            },
+            {
+              "id": 170002,
+              "version": 0
+            }
+          ],
+          "header_max_field": 24,
+          "outer_other_field_python_type": "dict",
+          "contains_integer_equal_to_98348": false,
+          "build_98348_binding_established": false,
+          "archive_exact_full_handle_matches_current_us_prefix": false
+        }
+      ]
+    }
+  ],
+  "all_six_current_archive_payload_digests_have_cached_eu_headers": true,
+  "candidate_sets_without_dependency_filters": 936,
+  "dependency_pair_count": 23,
+  "dependency_version_zero_count": 23,
+  "candidate_sets_with_literal_exact_dependency_versions": 0,
+  "candidate_sets_if_zero_version_is_treated_as_unconstrained": 936,
+  "zero_version_semantics_proven": false,
+  "unique_target_selection_established": false,
+  "archive_metadata": [
+    {
+      "archive_digest": "1f1b228ddb1f72205cbfd444055287100b0f39959be816548162e4081ea85511",
+      "bytes": 28,
+      "kind": "standard_data_redirect",
+      "target": "Standard Data: Core.StormMod"
+    },
+    {
+      "archive_digest": "1ad94c126eb98a4c1de7b8e6f8aaa153dba52b09d3825e0c89dbc5828db70f76",
+      "bytes": 31,
+      "kind": "standard_data_redirect",
+      "target": "Standard Data: Teams10.StormMod"
+    },
+    {
+      "archive_digest": "92d81744c1441bf628ed6ab7e9d19485c860914d8b745a91f6351ff9dcd4e6bb",
+      "bytes": 30,
+      "kind": "standard_data_redirect",
+      "target": "Standard Data: Heroes.StormMod"
+    },
+    {
+      "archive_digest": "a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43",
+      "bytes": 34,
+      "kind": "standard_data_redirect",
+      "target": "Standard Data: HeroesData.StormMod"
+    },
+    {
+      "archive_digest": "baae53ca97aa2a0cf370cadbef747a321fd9677c607d5c353878e645bcc14bf9",
+      "bytes": 15301,
+      "kind": "MPQ",
+      "document_header_sha256": "c28505f68837fd30a8cdb0baa2a73706752d083953823d0eef1e72431945fa21",
+      "document_header_bytes": 1069,
+      "document_header_fourcc_hex": "6f726548",
+      "document_header_format_version": 8,
+      "first_12_build_bytes_hex": "080000000000000000000000",
+      "build_98348_binding_established": false
+    },
+    {
+      "archive_digest": "f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f",
+      "bytes": 2228175,
+      "kind": "MPQ",
+      "document_header_sha256": "4dc1cfb2b684c4b601f592563ff9af751b47c99153c41ccd5189c81d561bfb75",
+      "document_header_bytes": 22540,
+      "document_header_fourcc_hex": "6f726548",
+      "document_header_format_version": 8,
+      "first_12_build_bytes_hex": "0402370c6a7201006a720100",
+      "build_98348_binding_established": false
+    }
+  ],
+  "primary_package_dependency_schema": "https://github.com/sc2-arcade-watcher/s2mdec/blob/b48c60a697b12ae1dc8681a2d42ce313958ce94a/s2m.go#L170-L185",
+  "primary_header_schema": "https://github.com/sc2-arcade-watcher/s2mdec/blob/b48c60a697b12ae1dc8681a2d42ce313958ce94a/s2m.go#L719-L836",
+  "build_98348_binding_established": false,
+  "publisher_or_author_fields_emitted": false,
+  "source_or_replay_modified": false,
+  "client_launched": false,
+  "limitations": [
+    "Identical content-addressed Standard Data redirects can refer to different installed build contents.",
+    "The source schema names package id/version and extraDependencies but no verified client-build field.",
+    "The relaxed graph count is a diagnostic hypothesis only; zero dependency versions are not silently resolved.",
+    "No header was selected, rebased across regions, copied into a member or declared current-build metadata."
+  ]
+}

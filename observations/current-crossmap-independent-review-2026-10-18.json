@@ -1,0 +1,137 @@
+{
+  "format": "hots-crossmap-independent-review-v1",
+  "review": "passed",
+  "acquisition_sha256": "ff45527e54b24adf0d817d77447ed98ebfec0efef4e3cd26c61ab8600ae47483",
+  "observation_sha256": "ca77f920c31af007dd762480a191d956b4b639d3dee55c141a3c954debd99449",
+  "references": [
+    {
+      "id": "crossmap-01",
+      "map": "Sky Temple",
+      "replay_sha256": "afcf49a656068f343173fc79afff2d2ebf15066f531cb192382cdba9d1ea3272",
+      "profile_sha256": "21bfaf86b58aecab3a68bc6612ce0178dfecdda08ed3af5297ce21f8be52cea0",
+      "inventory_sha256": "07ea01bc8885d783192cfaa120e48a48ef8b95cbed7f010da03c57a18f55efbe",
+      "shared_equal_types": 36
+    },
+    {
+      "id": "crossmap-02",
+      "map": "Battlefield of Eternity",
+      "replay_sha256": "fe801daf9df44f10db2b950989308c8ee2fa55c03b4adfef7ac383b4d46583bf",
+      "profile_sha256": "e435d58d1a1dea9fee5fafbc705813acbde1a22ea235b25c04188c9cae7b95a5",
+      "inventory_sha256": "e759cf26ed245a47379997e6429b61ef8306756a754b92dec72113ed84a19795",
+      "shared_equal_types": 28
+    },
+    {
+      "id": "crossmap-03",
+      "map": "Volskaya Foundry",
+      "replay_sha256": "9872b043e48093abc65e11b7b6d091861e83fc4d202b40b745824da647cb6ef3",
+      "profile_sha256": "3ea61d6358f35d25f80d11c3f0cbd1dcbf91f4565b5ddfcdf1031d431d21f7ab",
+      "inventory_sha256": "e64b7edbd3b638a70419756c87e29e315c79d8ac969dc9462cdabdb4143ef3ba",
+      "shared_equal_types": 35
+    },
+    {
+      "id": "crossmap-04",
+      "map": "Tomb of the Spider Queen",
+      "replay_sha256": "98ac891fa4fb8e1698e5fc35609fcf75abfe7e89aee9c7f05afff93b10338ab3",
+      "profile_sha256": "4b196df65763da5d7d990515a83582d041548dc89b2394e05f9232730193d433",
+      "inventory_sha256": "5ff098e956d8caaa1d322eec7a0aadfb87f8131b5467e56aee45f14934929f8e",
+      "shared_equal_types": 36
+    },
+    {
+      "id": "crossmap-05",
+      "map": "Towers of Doom",
+      "replay_sha256": "715e309bba5d3151d3e1b47461041627db7644d91a8b549c309950e44d6067e8",
+      "profile_sha256": "3256be4b60c5e8553e28e80044e60eb2289558e1749f31100f3cc2e1a0933923",
+      "inventory_sha256": "fbb96d88d0ff81c6d12b68449bff03c2b8d769477e0c5067366660961d51ffd5",
+      "shared_equal_types": 20
+    },
+    {
+      "id": "crossmap-06",
+      "map": "Infernal Shrines",
+      "replay_sha256": "1230eee79fd3b50a3ee471c587bc77dd14aef67d57bf22cd8df52e877329323a",
+      "profile_sha256": "bd03f3e27134998b088e1bfd10e70ff34d006057eb094455b154a8173e16e084",
+      "inventory_sha256": "0095b9fc8b81efee64c066772524bd84d594b483e461a546affbb4b87c07ece9",
+      "shared_equal_types": 28
+    }
+  ],
+  "replay_bytes_verified": 7247399,
+  "profile_replay_and_raw_stream_hashes_bound": true,
+  "fresh_abathur_control": {
+    "id": "crossmap-01",
+    "replay_sha256": "afcf49a656068f343173fc79afff2d2ebf15066f531cb192382cdba9d1ea3272",
+    "core_profile_identical": true,
+    "counts": {
+      "game": 215735,
+      "message": 142,
+      "tracker": 11580
+    },
+    "independent_official_event_live_catalog_table_equal": true,
+    "unit_types": 51,
+    "fields_total": 7490,
+    "fields_classified": 7352
+  },
+  "shared_type_link_comparisons": 183,
+  "distinct_shared_types": 75,
+  "shared_disagreements": 0,
+  "independent_candidate_table_equal": true,
+  "dragon_candidates_unchanged": 33,
+  "combined_candidates": 42,
+  "new_other_map_candidates": [
+    {
+      "unit_type": "AbathurLocustBombardStrain",
+      "before": 33,
+      "after": 488
+    },
+    {
+      "unit_type": "AbathurLocustNest",
+      "before": 37,
+      "after": 498
+    },
+    {
+      "unit_type": "AbathurLocustNormal",
+      "before": 32,
+      "after": 487
+    },
+    {
+      "unit_type": "AbathurSymbiote",
+      "before": 302,
+      "after": 438
+    },
+    {
+      "unit_type": "AbathurToxicNest",
+      "before": 35,
+      "after": 496
+    },
+    {
+      "unit_type": "HeroAbathur",
+      "before": 60,
+      "after": 493
+    },
+    {
+      "unit_type": "HeroKaelthas",
+      "before": 827,
+      "after": 632
+    },
+    {
+      "unit_type": "HeroTyrande",
+      "before": 84,
+      "after": 850
+    },
+    {
+      "unit_type": "TownGateL3BLURBRVisionBlocked",
+      "before": 513,
+      "after": 278
+    }
+  ],
+  "all_share_only_first_four_ordered_handles_with_dragon": true,
+  "remaining_dependency_contexts_and_mod_checksums_differ": true,
+  "cross_map_independence_or_migration_eligibility_proven": false,
+  "raw_player_or_message_data_emitted": false,
+  "replay_modified": false,
+  "repo_modified": false,
+  "client_launched": false,
+  "script_sha256": "f187c4639773eeaa9d3c6d0832603b57cd2a24fb0767a376f6958c0fb256d4c8",
+  "limitations": [
+    "Fresh full core roundtrip repeated on one Abathur control; other five profiles checked by bound replay/profile/raw stream digests.",
+    "Observed agreement does not prove arbitrary-map catalog equivalence or migration eligibility."
+  ]
+}
