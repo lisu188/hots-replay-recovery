@@ -1,25 +1,28 @@
 {
   "attempts": [
     {
-      "declared_api_build": 98285,
-      "error_type": "ValueError",
-      "http_status": null,
-      "replay_id": 65555854,
-      "status": "unavailable-or-incompatible"
+      "declared_api_build": 98348,
+      "error_type": "HTTPError",
+      "http_status": 403,
+      "replay_id": 66126982,
+      "stage": "download",
+      "status": "download-unavailable"
     },
     {
-      "declared_api_build": 98285,
-      "error_type": "ValueError",
-      "http_status": null,
-      "replay_id": 65555853,
-      "status": "unavailable-or-incompatible"
+      "declared_api_build": 98348,
+      "error_type": "HTTPError",
+      "http_status": 403,
+      "replay_id": 66126981,
+      "stage": "download",
+      "status": "download-unavailable"
     },
     {
-      "declared_api_build": 98285,
-      "error_type": "ValueError",
-      "http_status": null,
-      "replay_id": 65555852,
-      "status": "unavailable-or-incompatible"
+      "declared_api_build": 98348,
+      "error_type": "HTTPError",
+      "http_status": 403,
+      "replay_id": 66126980,
+      "stage": "download",
+      "status": "download-unavailable"
     }
   ],
   "client_playback_validated": false,
@@ -28,9 +31,9 @@
   "profiles": [],
   "schema_build": 96477,
   "searched_id_window": [
-    65555654,
-    65555854
+    66126782,
+    66126982
   ],
   "source": "Heroes Profile documented OpenAPI",
-  "status": "no-compatible-reference-in-window"
+  "status": "no-validated-reference-in-window"
 }
