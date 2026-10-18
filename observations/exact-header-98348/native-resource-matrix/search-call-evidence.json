@@ -1,0 +1,937 @@
+{
+  "format": "hots-resource-state-primary-lookup-call-evidence-v1",
+  "external_tool_calls": 4,
+  "search_queries": 6,
+  "primary_source_bodies_fetched": 0,
+  "calls": [
+    {
+      "id": 1,
+      "tool": "web.run",
+      "queries": [
+        "\"ResourceAccessMatrix\"",
+        "\"Battlenet::S2Map::ResourceState\"",
+        "\"ScopeResources\" \"Battlenet\""
+      ],
+      "result": "Merged results supplied only an unrelated Go authorization DTO documentation page; no relevant Battlenet definition was returned.",
+      "unrelated_result": "https://pkg.go.dev/github.com/aptlogica/sereni-base@v0.1.0/internal/dto"
+    },
+    {
+      "id": 2,
+      "tool": "GitHub fetch: public code-search",
+      "query": "ResourceAccessMatrix",
+      "url": "https://api.github.com/search/code?q=ResourceAccessMatrix",
+      "total_count": 32,
+      "incomplete_results": false,
+      "returned": 30,
+      "repositories": [
+        "Dev940/SecureWorkNexus",
+        "Keenmate/keen-auth-permissions",
+        "ahsanmuslimm/SOC-Detection-Lab",
+        "aptlogica/sereni-base",
+        "davidyokum/auth-kit",
+        "gratefulagents/gratefulagents",
+        "hoanglong2206/noblee-ecommerce-frontend",
+        "kashif147/user-service",
+        "pfthomaz/abparts",
+        "souluk319/Cywell-OpsLens",
+        "typecad/hal",
+        "yosoykyle/SIA-TALA"
+      ],
+      "returned_item_metadata": [
+        {
+          "repository": "aptlogica/sereni-base",
+          "path": "internal/dto/rbac_management.go",
+          "sha": "a73b59c1e2703b30aca05570ce3cef6b5d06c25d",
+          "url": "https://github.com/aptlogica/sereni-base/blob/0eb280c742bbb43efcadae72537e033609414e10/internal/dto/rbac_management.go"
+        },
+        {
+          "repository": "aptlogica/sereni-base",
+          "path": "internal/services/interfaces/rbac_management.go",
+          "sha": "4259d71cd9e871cd52f8041dc61058675101f791",
+          "url": "https://github.com/aptlogica/sereni-base/blob/0eb280c742bbb43efcadae72537e033609414e10/internal/services/interfaces/rbac_management.go"
+        },
+        {
+          "repository": "aptlogica/sereni-base",
+          "path": "internal/services/rbac/rbac_management.go",
+          "sha": "8f58d4efdec17a2bb1d42366ef43758f0dc45105",
+          "url": "https://github.com/aptlogica/sereni-base/blob/0eb280c742bbb43efcadae72537e033609414e10/internal/services/rbac/rbac_management.go"
+        },
+        {
+          "repository": "hoanglong2206/noblee-ecommerce-frontend",
+          "path": "src/app/admin/roles/page.tsx",
+          "sha": "566511b9bd7a8a81a7610a8a83e5c9c0feb6327a",
+          "url": "https://github.com/hoanglong2206/noblee-ecommerce-frontend/blob/2b74136715b0356f80565e473901d127a6887c66/src/app/admin/roles/page.tsx"
+        },
+        {
+          "repository": "kashif147/user-service",
+          "path": "docs/README-RBAC.md",
+          "sha": "1625194a6c35b00c2e5fdadbfb979b646ac7daf9",
+          "url": "https://github.com/kashif147/user-service/blob/33853d822e7aba95fc83eebb133c6776acba1e01/docs/README-RBAC.md"
+        },
+        {
+          "repository": "davidyokum/auth-kit",
+          "path": "src/resources/index.ts",
+          "sha": "5c26a60d1ac89adc44958cc5cab3d50f7b25b505",
+          "url": "https://github.com/davidyokum/auth-kit/blob/1235ddc26ef034acb51f17d30d28afd88dab48b1/src/resources/index.ts"
+        },
+        {
+          "repository": "davidyokum/auth-kit",
+          "path": "src/server/index.ts",
+          "sha": "ec4d4bbdf46e678a98f532a4ba0c6b0e91b71456",
+          "url": "https://github.com/davidyokum/auth-kit/blob/1235ddc26ef034acb51f17d30d28afd88dab48b1/src/server/index.ts"
+        },
+        {
+          "repository": "davidyokum/auth-kit",
+          "path": "src/shared/policy.ts",
+          "sha": "96e7763d67fd81b5a7453159291f42a91c2b925c",
+          "url": "https://github.com/davidyokum/auth-kit/blob/1235ddc26ef034acb51f17d30d28afd88dab48b1/src/shared/policy.ts"
+        },
+        {
+          "repository": "Dev940/SecureWorkNexus",
+          "path": "frontend/src/services/accessPolicyService.js",
+          "sha": "db36b6e3f513d7057f747a2b073e82e7b6716bb2",
+          "url": "https://github.com/Dev940/SecureWorkNexus/blob/2e976764d093b143c9e8279f7d0f24407eedba09/frontend/src/services/accessPolicyService.js"
+        },
+        {
+          "repository": "ahsanmuslimm/SOC-Detection-Lab",
+          "path": "src/backend/domain-3-authorization/access-control/src/index.ts",
+          "sha": "cf6ea20a73872e667834a35fc7a8f1896f61aeb4",
+          "url": "https://github.com/ahsanmuslimm/SOC-Detection-Lab/blob/3e1c6bf905053f9f2931d83a65a7719e4e53b65e/src/backend/domain-3-authorization/access-control/src/index.ts"
+        },
+        {
+          "repository": "souluk319/Cywell-OpsLens",
+          "path": "apps/api/src/server.ts",
+          "sha": "d0ce8b6224dc3a2e9014bef8be0d2ab52d30f72b",
+          "url": "https://github.com/souluk319/Cywell-OpsLens/blob/5ad0b75f090fd61c4e3b948a672582973d511513/apps/api/src/server.ts"
+        },
+        {
+          "repository": "Dev940/SecureWorkNexus",
+          "path": "frontend/src/pages/AccessPolicies.jsx",
+          "sha": "4e597966bede32b2c573b50721e705aa7ac907ed",
+          "url": "https://github.com/Dev940/SecureWorkNexus/blob/2e976764d093b143c9e8279f7d0f24407eedba09/frontend/src/pages/AccessPolicies.jsx"
+        },
+        {
+          "repository": "pfthomaz/abparts",
+          "path": "backend/app/enhanced_rbac.py",
+          "sha": "de6057b412c96821618d9811d457532d9171e065",
+          "url": "https://github.com/pfthomaz/abparts/blob/fd0790bc60ac8caaad615bf56975cfaba172c07c/backend/app/enhanced_rbac.py"
+        },
+        {
+          "repository": "souluk319/Cywell-OpsLens",
+          "path": "apps/api/src/ocpClient.ts",
+          "sha": "d898bad0bed0e74d69097fc4201b9bdb82375272",
+          "url": "https://github.com/souluk319/Cywell-OpsLens/blob/5ad0b75f090fd61c4e3b948a672582973d511513/apps/api/src/ocpClient.ts"
+        },
+        {
+          "repository": "pfthomaz/abparts",
+          "path": "backend/ENHANCED_RBAC_IMPLEMENTATION_SUMMARY.md",
+          "sha": "46f9536bd5d49aa8752462f4d8184b34b85c2237",
+          "url": "https://github.com/pfthomaz/abparts/blob/fd0790bc60ac8caaad615bf56975cfaba172c07c/backend/ENHANCED_RBAC_IMPLEMENTATION_SUMMARY.md"
+        },
+        {
+          "repository": "ahsanmuslimm/SOC-Detection-Lab",
+          "path": "src/backend/domain-3-authorization/access-control/src/types.ts",
+          "sha": "e63fc1852607ca58afed8d2d6b22d02370c16554",
+          "url": "https://github.com/ahsanmuslimm/SOC-Detection-Lab/blob/3e1c6bf905053f9f2931d83a65a7719e4e53b65e/src/backend/domain-3-authorization/access-control/src/types.ts"
+        },
+        {
+          "repository": "ahsanmuslimm/SOC-Detection-Lab",
+          "path": "src/backend/domain-3-authorization/access-control/src/main.ts",
+          "sha": "15d9ecc2c03fa0858b7639b54e39c29d6933f6d3",
+          "url": "https://github.com/ahsanmuslimm/SOC-Detection-Lab/blob/3e1c6bf905053f9f2931d83a65a7719e4e53b65e/src/backend/domain-3-authorization/access-control/src/main.ts"
+        },
+        {
+          "repository": "souluk319/Cywell-OpsLens",
+          "path": "apps/web/src/lib/api.ts",
+          "sha": "d533169cd095e94da7dc372a64897daa3dd24fbc",
+          "url": "https://github.com/souluk319/Cywell-OpsLens/blob/5ad0b75f090fd61c4e3b948a672582973d511513/apps/web/src/lib/api.ts"
+        },
+        {
+          "repository": "Keenmate/keen-auth-permissions",
+          "path": "lib/keen_auth_permissions/database/models/auth_get_resource_access_matrix_model.ex",
+          "sha": "c2bb48c421fddafa430549c6f280bbad920b3a6b",
+          "url": "https://github.com/Keenmate/keen-auth-permissions/blob/d4363da63b044b3b666a8dfcc44a2650e4cc36c6/lib/keen_auth_permissions/database/models/auth_get_resource_access_matrix_model.ex"
+        },
+        {
+          "repository": "typecad/hal",
+          "path": "packages/cuttlefish/src/diagnostics/md-writer.ts",
+          "sha": "7a531b7b5188813b13a3df4dd74ea7dae1aeee95",
+          "url": "https://github.com/typecad/hal/blob/e3c93c172b825016e077a1b632f6448de77c6195/packages/cuttlefish/src/diagnostics/md-writer.ts"
+        },
+        {
+          "repository": "Keenmate/keen-auth-permissions",
+          "path": "lib/keen_auth_permissions/database/parsers/auth_get_resource_access_matrix_processor.ex",
+          "sha": "8624f183671a76f1c62c04a2e2d0c6f63389bde3",
+          "url": "https://github.com/Keenmate/keen-auth-permissions/blob/d4363da63b044b3b666a8dfcc44a2650e4cc36c6/lib/keen_auth_permissions/database/parsers/auth_get_resource_access_matrix_processor.ex"
+        },
+        {
+          "repository": "souluk319/Cywell-OpsLens",
+          "path": "packages/contracts/src/types.ts",
+          "sha": "01658b31c3659940fbe91fb39b89bb5bd839004a",
+          "url": "https://github.com/souluk319/Cywell-OpsLens/blob/5ad0b75f090fd61c4e3b948a672582973d511513/packages/contracts/src/types.ts"
+        },
+        {
+          "repository": "souluk319/Cywell-OpsLens",
+          "path": "apps/web/src/components/OcpResourceExplorer.tsx",
+          "sha": "b965d47ac7867dc9e39c39b4b40db0870fac014f",
+          "url": "https://github.com/souluk319/Cywell-OpsLens/blob/5ad0b75f090fd61c4e3b948a672582973d511513/apps/web/src/components/OcpResourceExplorer.tsx"
+        },
+        {
+          "repository": "Keenmate/keen-auth-permissions",
+          "path": "lib/keen_auth_permissions/database/db_context.ex",
+          "sha": "db2416def004afdc2f539902b189c7eddda64f1f",
+          "url": "https://github.com/Keenmate/keen-auth-permissions/blob/d4363da63b044b3b666a8dfcc44a2650e4cc36c6/lib/keen_auth_permissions/database/db_context.ex"
+        },
+        {
+          "repository": "yosoykyle/SIA-TALA",
+          "path": "tests/Feature/RoleAccessMatrixTest.php",
+          "sha": "5a59eab8959eefc3ba969f89fc6d0d6766a3d205",
+          "url": "https://github.com/yosoykyle/SIA-TALA/blob/3bdd0186186008372bde03444c61127fda416471/tests/Feature/RoleAccessMatrixTest.php"
+        },
+        {
+          "repository": "aptlogica/sereni-base",
+          "path": "tests/services/workspace/management_stubs_test.go",
+          "sha": "8d25a44a67e811a41f306e698e9600c45d50410c",
+          "url": "https://github.com/aptlogica/sereni-base/blob/0eb280c742bbb43efcadae72537e033609414e10/tests/services/workspace/management_stubs_test.go"
+        },
+        {
+          "repository": "aptlogica/sereni-base",
+          "path": "tests/services/auth/user_management_test.go",
+          "sha": "b5e52f017a6b440065cc6d3deee012ddfc69ab61",
+          "url": "https://github.com/aptlogica/sereni-base/blob/0eb280c742bbb43efcadae72537e033609414e10/tests/services/auth/user_management_test.go"
+        },
+        {
+          "repository": "aptlogica/sereni-base",
+          "path": "tests/services/rbac/rbac_management_more_test.go",
+          "sha": "cb76dae4b5ab1645fa3705388f8ac2a0086f31f4",
+          "url": "https://github.com/aptlogica/sereni-base/blob/0eb280c742bbb43efcadae72537e033609414e10/tests/services/rbac/rbac_management_more_test.go"
+        },
+        {
+          "repository": "aptlogica/sereni-base",
+          "path": "tests/services/rbac/rbac_management_misc_edge_test.go",
+          "sha": "c08d1bd086b31626c48a490f1214a5a36ce300f4",
+          "url": "https://github.com/aptlogica/sereni-base/blob/0eb280c742bbb43efcadae72537e033609414e10/tests/services/rbac/rbac_management_misc_edge_test.go"
+        },
+        {
+          "repository": "gratefulagents/gratefulagents",
+          "path": "internal/dashboard/collaboration_handlers_test.go",
+          "sha": "0014f4269efa2211ac40d24f12cd93a7d7906a59",
+          "url": "https://github.com/gratefulagents/gratefulagents/blob/b93ea50f2cd136206c5ad476b9b1d9d0f58ed165/internal/dashboard/collaboration_handlers_test.go"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "tool": "GitHub fetch: public code-search",
+      "query": "ScopeResources",
+      "url": "https://api.github.com/search/code?q=ScopeResources&per_page=100",
+      "total_count": 3736,
+      "incomplete_results": false,
+      "returned": 100,
+      "repositories": [
+        "619motorsports/newksEditor",
+        "ASHUTOSH-SWAIN-GIT/casper-mcp",
+        "AjayDhattarwal/Browser",
+        "CAPHTECH/pce-memory",
+        "DPS0340/clusterproof",
+        "DungKHoang/Old-NotUsed-Import-Export-OneView-Resources",
+        "EnergizedProtection/mirror",
+        "FlysoftBeta/classapp",
+        "Fortigi/IdentityAtlas",
+        "HellsCrimson/ArcLoom",
+        "HoussemDellai/aks-course",
+        "K415mm/mcp_course",
+        "MatoiDev/Kaleidoscope",
+        "Navneet6263/green-crm",
+        "Ohislawrence/olili",
+        "PATILYASHH/VPC",
+        "SecureAuthCorp/ciam-sample-ios-apps",
+        "Yashraj-sherke/Wexa_Ai_Assignement",
+        "Zykairotis/claude-context-core",
+        "armincms/papyrus",
+        "aws-samples/sample-least-privilege-iam-for-ai-agents",
+        "ballcat-projects/ballcat-admin-ui-vue3",
+        "ballcat-projects/ballcat-ui-vue",
+        "bkegley/luminate",
+        "bonc-ai/cogseed",
+        "cabloy/cabloy",
+        "cirosantilli/expired-domain-names-by-day-2012",
+        "cirosantilli/expired-domain-names-by-day-2023",
+        "cisagov/thorium",
+        "dotnetcadet/azure-bicep-common",
+        "duranserkan/DRN-Project",
+        "eclipse-amlen/amlen",
+        "eirueimi/unified-cd",
+        "eried/EasyScopeX",
+        "eryajf/kite-desktop",
+        "eventsourcing/es4j",
+        "eylulsenakumral/auto-company-clean",
+        "fixpoint-labs/flow-state-dev",
+        "gaarx/Gaarx",
+        "giuseppemargherita1-bot/local_planner_app",
+        "go-sigma/sigma",
+        "guanbear/OctoClaw",
+        "infovvspl/eddva_frontend",
+        "jullienl/HPE-COM-PowerShell-Library",
+        "kubernetes/kubernetes",
+        "legimenes/articles-OpenIddictAuthorizationServer",
+        "migtools/crane",
+        "mikekelly/gap",
+        "naterkane/deutsche-policy-portal",
+        "noemdb/cfla",
+        "npgall/cqengine",
+        "palantir/osdk-ts",
+        "panoukos41/couchdb-openiddict",
+        "peterjarian/plakk",
+        "pulumi/schema-tools",
+        "rafay99-epic/envpilot.dev",
+        "saero-ai/vscode-xcaffold",
+        "scc-digitalhub/AAC",
+        "testng-team/testng-eclipse",
+        "thisyearnofear/cognivern",
+        "touridev/actix-web-rust",
+        "tuan31an/Shared-Lab-and-Equipment-Booking-System-Backend",
+        "utibeabasi6/mercek",
+        "voidvec/fulla",
+        "vonajs/vona",
+        "zovajs/zova"
+      ],
+      "returned_item_metadata": [
+        {
+          "repository": "utibeabasi6/mercek",
+          "path": "src/features/sentinel/detect.ts",
+          "sha": "0d02fef87a44cc5bd5fc1a30088316086b08818f",
+          "url": "https://github.com/utibeabasi6/mercek/blob/7ebd7bc7be3764c9ae20d37d2d26c287e3332e1a/src/features/sentinel/detect.ts"
+        },
+        {
+          "repository": "bkegley/luminate",
+          "path": "packages/backend/utils/mongo/src/abstract/scopeEnums.ts",
+          "sha": "6ddf520ff0ca2a6e7ad9a3c9ea336c6d96bc086b",
+          "url": "https://github.com/bkegley/luminate/blob/f7737347a86a9da643349606f83147c04e3c62d7/packages/backend/utils/mongo/src/abstract/scopeEnums.ts"
+        },
+        {
+          "repository": "FlysoftBeta/classapp",
+          "path": "server/runtime/scope.ts",
+          "sha": "1a9230381bd07d720ae347c9241cc6e9344b4f5a",
+          "url": "https://github.com/FlysoftBeta/classapp/blob/1865473cbe09b720b0b97da8fc930e0f67607a16/server/runtime/scope.ts"
+        },
+        {
+          "repository": "touridev/actix-web-rust",
+          "path": "src/scope.rs",
+          "sha": "437d3fdc3e06ff050fe40058fa0a7bdd43689718",
+          "url": "https://github.com/touridev/actix-web-rust/blob/1949790d2101734228e90028061b6177b9c22b31/src/scope.rs"
+        },
+        {
+          "repository": "bonc-ai/cogseed",
+          "path": "src/main/ipc/personal-context.ts",
+          "sha": "71565a5a64efaa290adf8248feb0c5499159ac5e",
+          "url": "https://github.com/bonc-ai/cogseed/blob/5c62d950e7b2569e9e4c15a3e6879afc9872ff84/src/main/ipc/personal-context.ts"
+        },
+        {
+          "repository": "HellsCrimson/ArcLoom",
+          "path": "web/src/lib/model/scope.ts",
+          "sha": "65b8522d9c3f61aff4f6a1f693cc7b0596c83839",
+          "url": "https://github.com/HellsCrimson/ArcLoom/blob/1ab5edbb36342c518bf124c5de5af2b110ef42ca/web/src/lib/model/scope.ts"
+        },
+        {
+          "repository": "guanbear/OctoClaw",
+          "path": "extensions/octoclaw-runtime/src/runtime-payloads.ts",
+          "sha": "3cce70769ced487301201f8c8444cee7c6e46546",
+          "url": "https://github.com/guanbear/OctoClaw/blob/62157626b4e6a7c20f13a886d1e38a424cdc5f1d/extensions/octoclaw-runtime/src/runtime-payloads.ts"
+        },
+        {
+          "repository": "Ohislawrence/olili",
+          "path": "app/Models/CommunityPost.php",
+          "sha": "fe504f07492cf7c19d98e329525264eebc83ca9e",
+          "url": "https://github.com/Ohislawrence/olili/blob/caf330bf1ebd3ef2972590a955d013720a3b3452/app/Models/CommunityPost.php"
+        },
+        {
+          "repository": "armincms/papyrus",
+          "path": "src/Models/PapyrusPage.php",
+          "sha": "9d4db294a9fdf97aec0895874084a2f32f14883c",
+          "url": "https://github.com/armincms/papyrus/blob/8d66983070a34574aa5f4b66da6a04cddaa2b362/src/Models/PapyrusPage.php"
+        },
+        {
+          "repository": "aws-samples/sample-least-privilege-iam-for-ai-agents",
+          "path": "problem-1-iam-scoping/src/engine/policy-engine.ts",
+          "sha": "46b36c8b11c5053369c653b53890a7b9cac3b7a2",
+          "url": "https://github.com/aws-samples/sample-least-privilege-iam-for-ai-agents/blob/764f3fc71191aadd8d40c8545d892e1e2a6befa1/problem-1-iam-scoping/src/engine/policy-engine.ts"
+        },
+        {
+          "repository": "infovvspl/eddva_frontend",
+          "path": "src/hooks/use-admin.ts",
+          "sha": "33c993f1f2a68b3680f86158e9f113571aff7c03",
+          "url": "https://github.com/infovvspl/eddva_frontend/blob/232ced1c13ee1a8f7980ebb2c5af15ed786157bc/src/hooks/use-admin.ts"
+        },
+        {
+          "repository": "K415mm/mcp_course",
+          "path": "webapp/app/Models/GameCard.php",
+          "sha": "46fa8675227636395c75a1f87fa5b2c02f1ddc01",
+          "url": "https://github.com/K415mm/mcp_course/blob/be3aeb36e69541a68e5546531b9c1632dc53d4c1/webapp/app/Models/GameCard.php"
+        },
+        {
+          "repository": "voidvec/fulla",
+          "path": "libs/drogon/src/controllers/RoleScopeAdminController.cc",
+          "sha": "19393af3ed76b5aef3767e3902b5d90fc85170e4",
+          "url": "https://github.com/voidvec/fulla/blob/3084bcc5e19352cef18909bd4c6805e70244abd7/libs/drogon/src/controllers/RoleScopeAdminController.cc"
+        },
+        {
+          "repository": "peterjarian/plakk",
+          "path": ".repos/effect-alchemy/packages/alchemy/src/AWS/EKS/BindingHttp.ts",
+          "sha": "952dcd02d4171dffb711688b926bcf395c035d85",
+          "url": "https://github.com/peterjarian/plakk/blob/38a28a2446055c4f18287187f518c47531b61931/.repos/effect-alchemy/packages/alchemy/src/AWS/EKS/BindingHttp.ts"
+        },
+        {
+          "repository": "kubernetes/kubernetes",
+          "path": "pkg/kubelet/cm/memorymanager/policy_static.go",
+          "sha": "5cc9469f83c0d25d25def73f624828ad0ee617f4",
+          "url": "https://github.com/kubernetes/kubernetes/blob/7f9d9d6a3d6e48be4d8d261c9474618d7f8d303d/pkg/kubelet/cm/memorymanager/policy_static.go"
+        },
+        {
+          "repository": "tuan31an/Shared-Lab-and-Equipment-Booking-System-Backend",
+          "path": "LabBooking.Application/Features/Dashboard/Queries/GetUsageDashboardQuery.cs",
+          "sha": "e9d65e9b2bc7d1b6830fa89df85799e891958985",
+          "url": "https://github.com/tuan31an/Shared-Lab-and-Equipment-Booking-System-Backend/blob/6761880436e23b2a94032fb5276ac408f6079cc9/LabBooking.Application/Features/Dashboard/Queries/GetUsageDashboardQuery.cs"
+        },
+        {
+          "repository": "palantir/osdk-ts",
+          "path": "packages/agents/src/public/experimental.ts",
+          "sha": "6a10d1e0be6b743af8bdc991ea463e55c77a8a77",
+          "url": "https://github.com/palantir/osdk-ts/blob/15d1f2c3810379adc2670bad5bb8de8a43d21358/packages/agents/src/public/experimental.ts"
+        },
+        {
+          "repository": "palantir/osdk-ts",
+          "path": "packages/functions/src/public/experimental.ts",
+          "sha": "487110124ad385f80964373bbb0a9bc916c34b91",
+          "url": "https://github.com/palantir/osdk-ts/blob/15d1f2c3810379adc2670bad5bb8de8a43d21358/packages/functions/src/public/experimental.ts"
+        },
+        {
+          "repository": "cabloy/cabloy",
+          "path": "vona/packages-cli/cli-set-api/src/lib/bean/cli.tools.metadata.ts",
+          "sha": "1b872aa118aea47cd1cb4547b6a60099db5a05c6",
+          "url": "https://github.com/cabloy/cabloy/blob/30e676833b0eb352e287bc4a8fdc6950657844eb/vona/packages-cli/cli-set-api/src/lib/bean/cli.tools.metadata.ts"
+        },
+        {
+          "repository": "cabloy/cabloy",
+          "path": "zova/packages-cli/cli-set-front/src/lib/bean/cli.tools.metadata.ts",
+          "sha": "e6e621a2e257b12c514da4c47711f4fb56584c65",
+          "url": "https://github.com/cabloy/cabloy/blob/30e676833b0eb352e287bc4a8fdc6950657844eb/zova/packages-cli/cli-set-front/src/lib/bean/cli.tools.metadata.ts"
+        },
+        {
+          "repository": "cabloy/cabloy",
+          "path": "vona/packages-cli/cli-set-api/src/lib/bean/toolsMetadata/generateScope.ts",
+          "sha": "80f6b1e978ee6764fdf50e08b697b5b73298c841",
+          "url": "https://github.com/cabloy/cabloy/blob/30e676833b0eb352e287bc4a8fdc6950657844eb/vona/packages-cli/cli-set-api/src/lib/bean/toolsMetadata/generateScope.ts"
+        },
+        {
+          "repository": "cabloy/cabloy",
+          "path": "zova/packages-cli/cli-set-front/src/lib/bean/toolsMetadata/generateScope.ts",
+          "sha": "ba9c64d695a249e25c0c43637873aa576b65011f",
+          "url": "https://github.com/cabloy/cabloy/blob/30e676833b0eb352e287bc4a8fdc6950657844eb/zova/packages-cli/cli-set-front/src/lib/bean/toolsMetadata/generateScope.ts"
+        },
+        {
+          "repository": "eclipse-amlen/amlen",
+          "path": "server_gui/unbranded/idx/resources.js",
+          "sha": "ec40b815a2e0e7cc67b72ee98c53ecf85db7d3a1",
+          "url": "https://github.com/eclipse-amlen/amlen/blob/ded471fac5de8dc6c1fed8b4fb334f44f1ed61be/server_gui/unbranded/idx/resources.js"
+        },
+        {
+          "repository": "ballcat-projects/ballcat-admin-ui-vue3",
+          "path": "src/api/system/role/types.ts",
+          "sha": "adc0b179ad5dc7f23f377f7ff1b072c2038ac486",
+          "url": "https://github.com/ballcat-projects/ballcat-admin-ui-vue3/blob/2447ab04ac531a4c0e15b3c9627ebf439dd7ddc3/src/api/system/role/types.ts"
+        },
+        {
+          "repository": "cabloy/cabloy",
+          "path": "vona/packages-cli/cli-set-api/src/lib/bean/toolsMetadata/generateScopeResources.ts",
+          "sha": "90b632a9be17d6cb602fd0202a73e20212e48192",
+          "url": "https://github.com/cabloy/cabloy/blob/30e676833b0eb352e287bc4a8fdc6950657844eb/vona/packages-cli/cli-set-api/src/lib/bean/toolsMetadata/generateScopeResources.ts"
+        },
+        {
+          "repository": "utibeabasi6/mercek",
+          "path": "src/features/sentinel/useSentinel.ts",
+          "sha": "126e710f0e915aee07e4e4b3f5ee90f379fed58e",
+          "url": "https://github.com/utibeabasi6/mercek/blob/7ebd7bc7be3764c9ae20d37d2d26c287e3332e1a/src/features/sentinel/useSentinel.ts"
+        },
+        {
+          "repository": "ballcat-projects/ballcat-ui-vue",
+          "path": "src/views/system/role/SysRoleModalForm.vue",
+          "sha": "3f00f06748c5554d864df95456e0c670b68c7927",
+          "url": "https://github.com/ballcat-projects/ballcat-ui-vue/blob/147f5c457770014723ee156a4eabfec6af582d2f/src/views/system/role/SysRoleModalForm.vue"
+        },
+        {
+          "repository": "pulumi/schema-tools",
+          "path": "internal/normalize/token_remap.go",
+          "sha": "ba1bca431a2dd5f29007be124596149d7e55aa2a",
+          "url": "https://github.com/pulumi/schema-tools/blob/14ec5dc4229c95c4cf19ae53ad2d3048bed06535/internal/normalize/token_remap.go"
+        },
+        {
+          "repository": "ballcat-projects/ballcat-admin-ui-vue3",
+          "path": "src/views/system/role/SysRoleFormModal.vue",
+          "sha": "8c1b3b0402856e4e5ef3c67960888eaa734a2ce4",
+          "url": "https://github.com/ballcat-projects/ballcat-admin-ui-vue3/blob/2447ab04ac531a4c0e15b3c9627ebf439dd7ddc3/src/views/system/role/SysRoleFormModal.vue"
+        },
+        {
+          "repository": "zovajs/zova",
+          "path": "packages-cli/cli-set-front/src/lib/bean/cli.tools.metadata.ts",
+          "sha": "36e1380aeedcc0fc2537d247e5054f7c39358396",
+          "url": "https://github.com/zovajs/zova/blob/70d0fd6dc57f57f1ca0864a705924d3052cff836/packages-cli/cli-set-front/src/lib/bean/cli.tools.metadata.ts"
+        },
+        {
+          "repository": "utibeabasi6/mercek",
+          "path": "src/features/sentinel/useVulnFindings.ts",
+          "sha": "b0e1334fc157d4098c8039cb020837fa6835a495",
+          "url": "https://github.com/utibeabasi6/mercek/blob/7ebd7bc7be3764c9ae20d37d2d26c287e3332e1a/src/features/sentinel/useVulnFindings.ts"
+        },
+        {
+          "repository": "pulumi/schema-tools",
+          "path": "internal/compare/engine.go",
+          "sha": "554a661d6f78710305c8a46dfdada2837593492d",
+          "url": "https://github.com/pulumi/schema-tools/blob/14ec5dc4229c95c4cf19ae53ad2d3048bed06535/internal/compare/engine.go"
+        },
+        {
+          "repository": "duranserkan/DRN-Project",
+          "path": "DRN.Framework.Utils/Cancellation/CancellationScope.cs",
+          "sha": "eaa78d8a9e09004cb3a7d994d074fd3d2f7e4e7f",
+          "url": "https://github.com/duranserkan/DRN-Project/blob/22a9ec7b6c543d79ad049c5359007686e58e0df1/DRN.Framework.Utils/Cancellation/CancellationScope.cs"
+        },
+        {
+          "repository": "mikekelly/gap",
+          "path": "management-go/models.go",
+          "sha": "da6ebe3649411e4fea434429bf7e6e0feb0aa11a",
+          "url": "https://github.com/mikekelly/gap/blob/0e83784f1f47ab0098c2ed8595ada46852a1f89b/management-go/models.go"
+        },
+        {
+          "repository": "zovajs/zova",
+          "path": "packages-cli/cli-set-front/src/lib/bean/toolsMetadata/generateScope.ts",
+          "sha": "28a6224744a46ebb3eb90b273baa04d8fd86ac8b",
+          "url": "https://github.com/zovajs/zova/blob/70d0fd6dc57f57f1ca0864a705924d3052cff836/packages-cli/cli-set-front/src/lib/bean/toolsMetadata/generateScope.ts"
+        },
+        {
+          "repository": "scc-digitalhub/AAC",
+          "path": "src/main/resources/public/html/app/scopes.html",
+          "sha": "b3de372f4f871532a74adfef1aea7f5a0aa89f4a",
+          "url": "https://github.com/scc-digitalhub/AAC/blob/f946102986af5e6324b881b68486648563e89e99/src/main/resources/public/html/app/scopes.html"
+        },
+        {
+          "repository": "testng-team/testng-eclipse",
+          "path": "testng-eclipse-plugin/src/main/org/testng/eclipse/util/param/ParameterSolver.java",
+          "sha": "729e36afe4769db68961b4909b0fdfd202b15215",
+          "url": "https://github.com/testng-team/testng-eclipse/blob/1f12aec501e7b8bc61ccb68faf4363a740dfb542/testng-eclipse-plugin/src/main/org/testng/eclipse/util/param/ParameterSolver.java"
+        },
+        {
+          "repository": "gaarx/Gaarx",
+          "path": "examples/healthChecker/main.go",
+          "sha": "bc775e066495eea2f2f7086b31b4d0c22bff2353",
+          "url": "https://github.com/gaarx/Gaarx/blob/c36f6ee400906357a8747fc91d9e638e9066d087/examples/healthChecker/main.go"
+        },
+        {
+          "repository": "panoukos41/couchdb-openiddict",
+          "path": "README.md",
+          "sha": "de356fa387e01dd71d6806702f60c198e859db80",
+          "url": "https://github.com/panoukos41/couchdb-openiddict/blob/322cf18ef350282dfc9968a724618786b9b4b7ae/README.md"
+        },
+        {
+          "repository": "vonajs/vona",
+          "path": "packages-cli/cli-set-api/src/lib/bean/cli.tools.metadata.ts",
+          "sha": "8c7b6ec3bef730b19b9a2f6423573ed2b05a71c7",
+          "url": "https://github.com/vonajs/vona/blob/3e6c390e0c0073cdae20ed7b2a6ddf3211c6b6de/packages-cli/cli-set-api/src/lib/bean/cli.tools.metadata.ts"
+        },
+        {
+          "repository": "npgall/cqengine",
+          "path": "code/src/main/java/com/googlecode/cqengine/ConcurrentIndexedCollection.java",
+          "sha": "7585cbc7c786967bcabc3bfc24d1231cb39963ac",
+          "url": "https://github.com/npgall/cqengine/blob/a06923bca69719c51c622543fa0c2d63e71e8fab/code/src/main/java/com/googlecode/cqengine/ConcurrentIndexedCollection.java"
+        },
+        {
+          "repository": "ASHUTOSH-SWAIN-GIT/casper-mcp",
+          "path": "internal/awslive/result.go",
+          "sha": "d4291bccd201d0d356b9127b3f283831e20868ef",
+          "url": "https://github.com/ASHUTOSH-SWAIN-GIT/casper-mcp/blob/22d591c9c2c9806a3f28d6b48a2bb5db9d01f134/internal/awslive/result.go"
+        },
+        {
+          "repository": "vonajs/vona",
+          "path": "packages-cli/cli-set-api/src/lib/bean/toolsMetadata/generateScope.ts",
+          "sha": "80f6b1e978ee6764fdf50e08b697b5b73298c841",
+          "url": "https://github.com/vonajs/vona/blob/3e6c390e0c0073cdae20ed7b2a6ddf3211c6b6de/packages-cli/cli-set-api/src/lib/bean/toolsMetadata/generateScope.ts"
+        },
+        {
+          "repository": "gaarx/Gaarx",
+          "path": "examples/healthChecker/entities/resource.go",
+          "sha": "c864e519404ad9ca7232f0441a248e2546b4a779",
+          "url": "https://github.com/gaarx/Gaarx/blob/c36f6ee400906357a8747fc91d9e638e9066d087/examples/healthChecker/entities/resource.go"
+        },
+        {
+          "repository": "Navneet6263/green-crm",
+          "path": "frontend/components/leads/shared/useLeadScopeResources.js",
+          "sha": "dff8260a65714fdbb8dc6e9ea38270e2ff69d18f",
+          "url": "https://github.com/Navneet6263/green-crm/blob/50259af53fec93d40cbaa30bc85553cdc03cf915/frontend/components/leads/shared/useLeadScopeResources.js"
+        },
+        {
+          "repository": "DungKHoang/Old-NotUsed-Import-Export-OneView-Resources",
+          "path": "Export-OVResources.ps1",
+          "sha": "69b901a1d549e8bfa7896fba4617f98c854c1bb0",
+          "url": "https://github.com/DungKHoang/Old-NotUsed-Import-Export-OneView-Resources/blob/0eedaa8a10edb2fd7d160981f352ff23e04c5aec/Export-OVResources.ps1"
+        },
+        {
+          "repository": "SecureAuthCorp/ciam-sample-ios-apps",
+          "path": "simple-pkce/simple-pkce/ScopesView.swift",
+          "sha": "a0a5db4e84cb89bae3c3d587fbb7815fe27c8e2e",
+          "url": "https://github.com/SecureAuthCorp/ciam-sample-ios-apps/blob/8909051d5b7ea27d7ab415dab086ee9b6548fcfb/simple-pkce/simple-pkce/ScopesView.swift"
+        },
+        {
+          "repository": "DPS0340/clusterproof",
+          "path": "internal/cluster/scopes.go",
+          "sha": "e61f975523d9e9bc5aabc6570d7e5bc972acaa6a",
+          "url": "https://github.com/DPS0340/clusterproof/blob/e0c5ed7bbe0715eea3ba48a84c508a5628a137b8/internal/cluster/scopes.go"
+        },
+        {
+          "repository": "DungKHoang/Old-NotUsed-Import-Export-OneView-Resources",
+          "path": "Import-OVResources.ps1",
+          "sha": "5d866a451209e46f44883797eb7f8f759ec91e88",
+          "url": "https://github.com/DungKHoang/Old-NotUsed-Import-Export-OneView-Resources/blob/0eedaa8a10edb2fd7d160981f352ff23e04c5aec/Import-OVResources.ps1"
+        },
+        {
+          "repository": "bkegley/luminate",
+          "path": "packages/backend/utils/mongo/src/scripts/generateScopeTypes.ts",
+          "sha": "57e9f502a59ffdef0fae929d284489f3e23e992f",
+          "url": "https://github.com/bkegley/luminate/blob/f7737347a86a9da643349606f83147c04e3c62d7/packages/backend/utils/mongo/src/scripts/generateScopeTypes.ts"
+        },
+        {
+          "repository": "CAPHTECH/pce-memory",
+          "path": "apps/pce-memory/src/layer/scope.ts",
+          "sha": "9c107d222f5f5dca8f548fc1cf57095864e5218b",
+          "url": "https://github.com/CAPHTECH/pce-memory/blob/12c74e25da7d6eaeeae5decc254342c5d34be702/apps/pce-memory/src/layer/scope.ts"
+        },
+        {
+          "repository": "gaarx/Gaarx",
+          "path": "examples/healthChecker/services/checker.go",
+          "sha": "f89d4959568a2f119f7581132de23951908c0022",
+          "url": "https://github.com/gaarx/Gaarx/blob/c36f6ee400906357a8747fc91d9e638e9066d087/examples/healthChecker/services/checker.go"
+        },
+        {
+          "repository": "naterkane/deutsche-policy-portal",
+          "path": "src/deutsche/idx/resources.js",
+          "sha": "1f8f6c11b79ce0a0ec62f8b83568f141c04fb73b",
+          "url": "https://github.com/naterkane/deutsche-policy-portal/blob/df8ef8112aaba64369d91fa20932646c8c720385/src/deutsche/idx/resources.js"
+        },
+        {
+          "repository": "CAPHTECH/pce-memory",
+          "path": "docs/spec/tlaplus/pce_v2_effect.tla",
+          "sha": "784b4f365ce62439c4b2ac2561903f240a6335bb",
+          "url": "https://github.com/CAPHTECH/pce-memory/blob/12c74e25da7d6eaeeae5decc254342c5d34be702/docs/spec/tlaplus/pce_v2_effect.tla"
+        },
+        {
+          "repository": "CAPHTECH/pce-memory",
+          "path": "docs/spec/tlaplus/pce_v4_hybrid.tla",
+          "sha": "6c3b7d3f4a330d67503a97d750394e54d2c78bdc",
+          "url": "https://github.com/CAPHTECH/pce-memory/blob/12c74e25da7d6eaeeae5decc254342c5d34be702/docs/spec/tlaplus/pce_v4_hybrid.tla"
+        },
+        {
+          "repository": "cirosantilli/expired-domain-names-by-day-2012",
+          "path": "04/28/35",
+          "sha": "5ca50713c25875b0e30930411937f746b95eeb54",
+          "url": "https://github.com/cirosantilli/expired-domain-names-by-day-2012/blob/013b32d907472f2ec4066ab42e601d6390fb73ff/04/28/35"
+        },
+        {
+          "repository": "CAPHTECH/pce-memory",
+          "path": "docs/adr/0001-formal-design-v1-v2-hybrid.md",
+          "sha": "897c7b1d6fc0c0f89d50bebe31a6092c54d4f532",
+          "url": "https://github.com/CAPHTECH/pce-memory/blob/12c74e25da7d6eaeeae5decc254342c5d34be702/docs/adr/0001-formal-design-v1-v2-hybrid.md"
+        },
+        {
+          "repository": "scc-digitalhub/AAC",
+          "path": "src/main/resources/public/js/realmapps.js",
+          "sha": "23f6397614cf8c709661430e4663b45df1f47479",
+          "url": "https://github.com/scc-digitalhub/AAC/blob/f946102986af5e6324b881b68486648563e89e99/src/main/resources/public/js/realmapps.js"
+        },
+        {
+          "repository": "EnergizedProtection/mirror",
+          "path": "active/filter/ck-malware.txt",
+          "sha": "0c29231fd6117552607215051709817fd8f47f4f",
+          "url": "https://github.com/EnergizedProtection/mirror/blob/d8509f92f09e52f8815c0bbb47a195ee282b681d/active/filter/ck-malware.txt"
+        },
+        {
+          "repository": "SecureAuthCorp/ciam-sample-ios-apps",
+          "path": "simple-pkce/simple-pkce/Models/ModelData.swift",
+          "sha": "52d936d034f1f365eb058e610ae1a12a1ed6276f",
+          "url": "https://github.com/SecureAuthCorp/ciam-sample-ios-apps/blob/8909051d5b7ea27d7ab415dab086ee9b6548fcfb/simple-pkce/simple-pkce/Models/ModelData.swift"
+        },
+        {
+          "repository": "CAPHTECH/pce-memory",
+          "path": "docs/spec/tlaplus/pce_v1v2_integrated.tla",
+          "sha": "3e433d4737ec9f5bfa22fbf3d5e8ece069c89259",
+          "url": "https://github.com/CAPHTECH/pce-memory/blob/12c74e25da7d6eaeeae5decc254342c5d34be702/docs/spec/tlaplus/pce_v1v2_integrated.tla"
+        },
+        {
+          "repository": "bkegley/luminate",
+          "path": "packages/backend/api/src/infra/projections/RolesProjection/RolesProjection.ts",
+          "sha": "1ddd180ea720d13a1cd2c8c0e31f2789bf6072db",
+          "url": "https://github.com/bkegley/luminate/blob/f7737347a86a9da643349606f83147c04e3c62d7/packages/backend/api/src/infra/projections/RolesProjection/RolesProjection.ts"
+        },
+        {
+          "repository": "jullienl/HPE-COM-PowerShell-Library",
+          "path": "Modules/GLP-Services.psm1",
+          "sha": "c5b386bfc4be1c137c8acdf0d9b8ebdb9393115a",
+          "url": "https://github.com/jullienl/HPE-COM-PowerShell-Library/blob/cae921f251e6e9a275fc5cde8a1751e634d89880/Modules/GLP-Services.psm1"
+        },
+        {
+          "repository": "eried/EasyScopeX",
+          "path": "EasyScope/FormNetwork.cs",
+          "sha": "7469dddcad4f5e0236a8b61a01ea9d9dd582b113",
+          "url": "https://github.com/eried/EasyScopeX/blob/5e3cc660633c2b9d676f224cb7e11f6531c92958/EasyScope/FormNetwork.cs"
+        },
+        {
+          "repository": "eried/EasyScopeX",
+          "path": "EasyScope/FormConnect.cs",
+          "sha": "7b3df46edc966088ebbe2e688d66229b57a12fc7",
+          "url": "https://github.com/eried/EasyScopeX/blob/5e3cc660633c2b9d676f224cb7e11f6531c92958/EasyScope/FormConnect.cs"
+        },
+        {
+          "repository": "rafay99-epic/envpilot.dev",
+          "path": "convex/features/api/keys.ts",
+          "sha": "60f219e925f04a7a13a48e5ced09236325fdfe0b",
+          "url": "https://github.com/rafay99-epic/envpilot.dev/blob/cd5eb7bfffff71c7a435cf85b366aff6f6dd8dda/convex/features/api/keys.ts"
+        },
+        {
+          "repository": "panoukos41/couchdb-openiddict",
+          "path": "src/OpenIddict.CouchDB/CouchDbOpenIddictViewOptions.cs",
+          "sha": "f2e8d2a6a1da8dacb7b7f3287afb7011f2b48e35",
+          "url": "https://github.com/panoukos41/couchdb-openiddict/blob/322cf18ef350282dfc9968a724618786b9b4b7ae/src/OpenIddict.CouchDB/CouchDbOpenIddictViewOptions.cs"
+        },
+        {
+          "repository": "legimenes/articles-OpenIddictAuthorizationServer",
+          "path": "src/AuthorizationServer/Endpoints/AuthorizationEndpoint.cs",
+          "sha": "7cd2c562836a71400146791c5220d7d00829b0ff",
+          "url": "https://github.com/legimenes/articles-OpenIddictAuthorizationServer/blob/e173eb51ccc78b59911bcba6dd422b96ca2d5f09/src/AuthorizationServer/Endpoints/AuthorizationEndpoint.cs"
+        },
+        {
+          "repository": "rafay99-epic/envpilot.dev",
+          "path": "convex/features/api/authorize.ts",
+          "sha": "2e58b93264ce0f31baeb4e82e56ecf8d4f6cddb6",
+          "url": "https://github.com/rafay99-epic/envpilot.dev/blob/cd5eb7bfffff71c7a435cf85b366aff6f6dd8dda/convex/features/api/authorize.ts"
+        },
+        {
+          "repository": "619motorsports/newksEditor",
+          "path": "src/kn5-workspace.js",
+          "sha": "d0c69705e2906fd0014ec4b77d699bdd8a94ccf0",
+          "url": "https://github.com/619motorsports/newksEditor/blob/93d21a4999fe37ee7b1c2cf7ad34cc81b2fcd771/src/kn5-workspace.js"
+        },
+        {
+          "repository": "CAPHTECH/pce-memory",
+          "path": "docs/spec/verification_results.md",
+          "sha": "b7743a43a7b1b4e6a9a3a76699c28803c8888b16",
+          "url": "https://github.com/CAPHTECH/pce-memory/blob/12c74e25da7d6eaeeae5decc254342c5d34be702/docs/spec/verification_results.md"
+        },
+        {
+          "repository": "go-sigma/sigma",
+          "path": "pkg/authz/scope.go",
+          "sha": "f22da63b1277a6b87daa3525833c11f98f28ba8e",
+          "url": "https://github.com/go-sigma/sigma/blob/fbc503d4e64d61a5021595ad7c901331ab032a92/pkg/authz/scope.go"
+        },
+        {
+          "repository": "npgall/cqengine",
+          "path": "code/src/main/java/com/googlecode/cqengine/persistence/composite/CompositePersistence.java",
+          "sha": "10d755fc25fd7aadb0aabbf9b65a49ceb11f605b",
+          "url": "https://github.com/npgall/cqengine/blob/a06923bca69719c51c622543fa0c2d63e71e8fab/code/src/main/java/com/googlecode/cqengine/persistence/composite/CompositePersistence.java"
+        },
+        {
+          "repository": "ASHUTOSH-SWAIN-GIT/casper-mcp",
+          "path": "internal/mcp/server.go",
+          "sha": "4c7b5ea7d20e94ffbe1d4a6def30c41078f0d289",
+          "url": "https://github.com/ASHUTOSH-SWAIN-GIT/casper-mcp/blob/22d591c9c2c9806a3f28d6b48a2bb5db9d01f134/internal/mcp/server.go"
+        },
+        {
+          "repository": "npgall/cqengine",
+          "path": "code/src/main/java/com/googlecode/cqengine/persistence/offheap/OffHeapPersistence.java",
+          "sha": "cf23b1b5ec1105488ab33705b8a992c8589ca248",
+          "url": "https://github.com/npgall/cqengine/blob/a06923bca69719c51c622543fa0c2d63e71e8fab/code/src/main/java/com/googlecode/cqengine/persistence/offheap/OffHeapPersistence.java"
+        },
+        {
+          "repository": "eried/EasyScopeX",
+          "path": "EasyScope/FormAdd.cs",
+          "sha": "ac01c219d5b2cb293a4009968d5f74d2ae135967",
+          "url": "https://github.com/eried/EasyScopeX/blob/5e3cc660633c2b9d676f224cb7e11f6531c92958/EasyScope/FormAdd.cs"
+        },
+        {
+          "repository": "Yashraj-sherke/Wexa_Ai_Assignement",
+          "path": "server/src/services/simulatorService.ts",
+          "sha": "39e9b03bb4b16e07b4e979b367ededeb1d4b414e",
+          "url": "https://github.com/Yashraj-sherke/Wexa_Ai_Assignement/blob/d916a7b8f6f5f498bd85cc20900faa7eda7e2a45/server/src/services/simulatorService.ts"
+        },
+        {
+          "repository": "cirosantilli/expired-domain-names-by-day-2023",
+          "path": "07/17/33",
+          "sha": "c8598c9a691f887b7234d7f07fdb0b1550d3cf5a",
+          "url": "https://github.com/cirosantilli/expired-domain-names-by-day-2023/blob/35b1756a9255a3dfccede8624f724af869d812a1/07/17/33"
+        },
+        {
+          "repository": "eryajf/kite-desktop",
+          "path": "ui/src/pages/simple-list-page.tsx",
+          "sha": "ec307fb0922a301417f42401fc4d4633969d8283",
+          "url": "https://github.com/eryajf/kite-desktop/blob/f9497303712fcd7cad0bcca8781f3d4f04a6280d/ui/src/pages/simple-list-page.tsx"
+        },
+        {
+          "repository": "migtools/crane",
+          "path": "cmd/export/cluster.go",
+          "sha": "12c173d60808aea00c1b292ec26d0c4c71522d9f",
+          "url": "https://github.com/migtools/crane/blob/a4ac96c0a4d37e032b0ae99412c8a05f109bc1c7/cmd/export/cluster.go"
+        },
+        {
+          "repository": "rafay99-epic/envpilot.dev",
+          "path": "convex/features/api/helpers.ts",
+          "sha": "e6c31f037be0577200e80a9bef205cbe4119a3ca",
+          "url": "https://github.com/rafay99-epic/envpilot.dev/blob/cd5eb7bfffff71c7a435cf85b366aff6f6dd8dda/convex/features/api/helpers.ts"
+        },
+        {
+          "repository": "fixpoint-labs/flow-state-dev",
+          "path": "packages/react/src/internal/mergeResourceChangeIntoSnapshot.ts",
+          "sha": "49e8603eaf79c0db8161db234e8da205267a6134",
+          "url": "https://github.com/fixpoint-labs/flow-state-dev/blob/87a4ef0aef4f721b4438dd32743f279535d16bb0/packages/react/src/internal/mergeResourceChangeIntoSnapshot.ts"
+        },
+        {
+          "repository": "thisyearnofear/cognivern",
+          "path": "tooling/scripts/hackathon/red-team-harness.ts",
+          "sha": "560c02350114385ba83240d8d8c477d7fed92c1c",
+          "url": "https://github.com/thisyearnofear/cognivern/blob/a8605cb20cecf5acbeb38e1c2aacd8b185df6d15/tooling/scripts/hackathon/red-team-harness.ts"
+        },
+        {
+          "repository": "noemdb/cfla",
+          "path": "app/Livewire/Coordinacion/ResourceList.php",
+          "sha": "84bfbe53dad15277fc51e35dd9bc2a3ee2ac09bc",
+          "url": "https://github.com/noemdb/cfla/blob/38d1d5fe43f32bffa49dce49798659ea1b259ccc/app/Livewire/Coordinacion/ResourceList.php"
+        },
+        {
+          "repository": "eirueimi/unified-cd",
+          "path": "internal/gittemplate/inline.go",
+          "sha": "b177b3fb725340f9439b141700d5d86e9391b9d5",
+          "url": "https://github.com/eirueimi/unified-cd/blob/5c1008b20b7b9f742a69fff2c0def4ecd6045fed/internal/gittemplate/inline.go"
+        },
+        {
+          "repository": "eventsourcing/es4j",
+          "path": "eventsourcing-core/src/main/java/com/eventsourcing/index/EventJournalPersistence.java",
+          "sha": "cfa4711b9f4d16b76eea6c3ac52d8ad3d332c4f5",
+          "url": "https://github.com/eventsourcing/es4j/blob/34ce67b31b41cc9894410cb5e957968965b1e0b7/eventsourcing-core/src/main/java/com/eventsourcing/index/EventJournalPersistence.java"
+        },
+        {
+          "repository": "dotnetcadet/azure-bicep-common",
+          "path": "modules/monitor-private-link-scope/monitor-private-link-scope.bicep",
+          "sha": "ab8118318ca7847d103fd40bf15bd92a4c4d7ff7",
+          "url": "https://github.com/dotnetcadet/azure-bicep-common/blob/6de909959a77eda0e2c5ef94c976d138c23a42ad/modules/monitor-private-link-scope/monitor-private-link-scope.bicep"
+        },
+        {
+          "repository": "Zykairotis/claude-context-core",
+          "path": "src/ui/app.tsx",
+          "sha": "b885a432734903f07b873c8d1f3349b92bcf9959",
+          "url": "https://github.com/Zykairotis/claude-context-core/blob/5b02fcb584c436a7a5f737206e7870770039629b/src/ui/app.tsx"
+        },
+        {
+          "repository": "voidvec/fulla",
+          "path": "libs/drogon/include/fulla/drogon/controllers/RoleScopeAdminController.h",
+          "sha": "b464714b3f48b1e797cd3fcf452e49e9b5184d4c",
+          "url": "https://github.com/voidvec/fulla/blob/3084bcc5e19352cef18909bd4c6805e70244abd7/libs/drogon/include/fulla/drogon/controllers/RoleScopeAdminController.h"
+        },
+        {
+          "repository": "MatoiDev/Kaleidoscope",
+          "path": "Kaleidoscope/Model/Helper/KaleidoscopeResources.swift",
+          "sha": "6e0e6cfdb5d2b18dfbf0a06ed4e5222a7fa47551",
+          "url": "https://github.com/MatoiDev/Kaleidoscope/blob/c46c258280826ebac573151ce78baebda64ca015/Kaleidoscope/Model/Helper/KaleidoscopeResources.swift"
+        },
+        {
+          "repository": "giuseppemargherita1-bot/local_planner_app",
+          "path": "APP.txt",
+          "sha": "3bbea2068091dbf6a1a8b2b56e3925c30088b881",
+          "url": "https://github.com/giuseppemargherita1-bot/local_planner_app/blob/0c3c1caa1c07d728da7aebff0c3571e155e5e06d/APP.txt"
+        },
+        {
+          "repository": "cisagov/thorium",
+          "path": "megathor/roles/traefik/templates/traefik.yaml.j2",
+          "sha": "ed08a621ba6b39b441f24af90bb89c8c53fec57b",
+          "url": "https://github.com/cisagov/thorium/blob/b7ef11d2acf1ac4d0cf4c3b37653603f8aa778af/megathor/roles/traefik/templates/traefik.yaml.j2"
+        },
+        {
+          "repository": "giuseppemargherita1-bot/local_planner_app",
+          "path": "appO.txt",
+          "sha": "9ba707ed53c3fee1b67a2c5cfec1258415a6f9a2",
+          "url": "https://github.com/giuseppemargherita1-bot/local_planner_app/blob/0c3c1caa1c07d728da7aebff0c3571e155e5e06d/appO.txt"
+        },
+        {
+          "repository": "CAPHTECH/pce-memory",
+          "path": "apps/pce-memory/src/state/layerScopeState.ts",
+          "sha": "613999dc192f2ff8e867624bd527d319f1a07cc6",
+          "url": "https://github.com/CAPHTECH/pce-memory/blob/12c74e25da7d6eaeeae5decc254342c5d34be702/apps/pce-memory/src/state/layerScopeState.ts"
+        },
+        {
+          "repository": "saero-ai/vscode-xcaffold",
+          "path": "src/treeViewProvider.ts",
+          "sha": "97c6e198ec95029a344212ff1d6a01961c95c45a",
+          "url": "https://github.com/saero-ai/vscode-xcaffold/blob/c762c142ba0c5015c3af64f585e157661aaba599/src/treeViewProvider.ts"
+        },
+        {
+          "repository": "Fortigi/IdentityAtlas",
+          "path": "tools/crawlers/azure-rm/AzureRMCrawler.Functions.ps1",
+          "sha": "404e0560678976b98dfb6dbcf4c89aa8050ab716",
+          "url": "https://github.com/Fortigi/IdentityAtlas/blob/037e0d40891b7d4172f250b09669720ec34005dd/tools/crawlers/azure-rm/AzureRMCrawler.Functions.ps1"
+        },
+        {
+          "repository": "AjayDhattarwal/Browser",
+          "path": "app/src/main/assets/adBlockFile_24.txt",
+          "sha": "6a79e5d078e9647bd946522e84aaf08f246df88b",
+          "url": "https://github.com/AjayDhattarwal/Browser/blob/25836dfd54429986ca2e583dd52ae3621a996d13/app/src/main/assets/adBlockFile_24.txt"
+        },
+        {
+          "repository": "eylulsenakumral/auto-company-clean",
+          "path": "projects/pool-leak-detector/src/detector.ts",
+          "sha": "ea5c457b6bb8faab64644999431ef2ac716e9b98",
+          "url": "https://github.com/eylulsenakumral/auto-company-clean/blob/6c487556abf5d3cf3a19b419147564bfff356895/projects/pool-leak-detector/src/detector.ts"
+        },
+        {
+          "repository": "PATILYASHH/VPC",
+          "path": "frontend/src/components/apps/JarvisChat.jsx",
+          "sha": "313fc45cc2db8ba96f1255667bf9fa48b5965eaf",
+          "url": "https://github.com/PATILYASHH/VPC/blob/9dc8e1704b1d75473fae58e5445d7c6c018b5c91/frontend/src/components/apps/JarvisChat.jsx"
+        },
+        {
+          "repository": "HoussemDellai/aks-course",
+          "path": "80_aks_backup/backup_vault.tf",
+          "sha": "ebedc166c24145965a2f28ad6de3b13590c9c361",
+          "url": "https://github.com/HoussemDellai/aks-course/blob/a506aa0078d117696fcb1759306467ab0e8f03ff/80_aks_backup/backup_vault.tf"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "tool": "GitHub fetch: public code-search",
+      "query": "ResourceState S2Map",
+      "url": "https://api.github.com/search/code?q=ResourceState+S2Map&per_page=100",
+      "total_count": 2,
+      "incomplete_results": false,
+      "returned": 2,
+      "repositories": [
+        "deta/surf",
+        "mobilex1122/hayvuh-engine"
+      ],
+      "returned_item_metadata": [
+        {
+          "repository": "deta/surf",
+          "path": "packages/services/src/lib/resources/resources.svelte.ts",
+          "sha": "55b2a536c3269d08593d10409e47b40323aeddd3",
+          "url": "https://github.com/deta/surf/blob/5e36a177faf550a680934c577a94f7e8e9ca3099/packages/services/src/lib/resources/resources.svelte.ts"
+        },
+        {
+          "repository": "mobilex1122/hayvuh-engine",
+          "path": "engine/loader.ts",
+          "sha": "5b7423c289883b8090d058ad311273e0ad2e30d9",
+          "url": "https://github.com/mobilex1122/hayvuh-engine/blob/93d9b9038958c637fe545301d85fb7e1614d7959/engine/loader.ts"
+        }
+      ]
+    }
+  ],
+  "scope_limits": [
+    "Search result metadata is not a fetched source definition.",
+    "ResourceAccessMatrix page returned30of32hits; the remaining2were not fetched.",
+    "ScopeResources is a noisy generic identifier; only first100of3736hits were returned.",
+    "GitHub search covers its current index/default-branch state and is not a proof that source does not exist.",
+    "No source constants, flag assignments or scope-index meaning were adopted from unrelated projects."
+  ]
+}

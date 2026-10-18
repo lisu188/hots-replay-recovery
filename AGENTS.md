@@ -737,3 +737,28 @@ fixture reports 2.35.0.66488 with executable/base/data66488, excluding it as an
 The prefix was decoded with the pinned official schema, then discarded; no
 full replay/Gitblob hash or complete archive validation is claimed. This header
 check is separate from the earlier eight-attempt zero-acquisition search.
+
+
+## Native reader and matrix CI and source backup - 2026-10-19
+
+Complete offline CI39173707346 at cbc2113 passed all three lanes:908 tests across
+45 root modules;38 declared Linux skips and4 Windows skips. All14 native-reader
+unit tests,10 actual EU ClientInfo records, EU core/lobby and NGS fixture checks
+executed. The21-case matrix research and12 focused matrix tests remain local,
+with separate independent code/static/saved-corpus review; no hosted actual-PE,
+dump or complete-matrix-corpus claim.
+
+Source-only delta3e5ebb7..cbc2113 is saved as hots-offline-native-bsn-source-cbc2113.zip,
+264527 bytes, SHA256bdab412e6b9bfe08d13e25a2773c19ccf025ce61fa75877722de9db6ced4df62.
+The bundle/inventory verify. All35 copied source/evidence entries exactly match
+already-public Git blobs. Initial upload approval rejection was resolved after
+complete public-payload and existing personal-project destination checks; upload
+then succeeded and fresh cloud size/QuickXor match. No independent remote SHA256
+claim. Preserve all nine prerequisite source archives. This receipt is later
+than the archive and does not alter its backed-up commit.
+
+Four external tool calls/six queries found no ResourceState flags or scope-index
+constants; cached exact-name negatives and full limited search metadata are
+pinned. Root reproduces the saved ledger JSON exactly. No source definition was
+accepted, no state-bit or ownership mapping inferred, and no global absence
+claimed. Original/R8 unchanged; no client or new replay/full migration completion.

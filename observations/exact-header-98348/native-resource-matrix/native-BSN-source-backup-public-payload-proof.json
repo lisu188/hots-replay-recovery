@@ -1,0 +1,231 @@
+{
+  "format": "hots-source-backup-public-payload-proof-v1",
+  "archive": "hots-offline-native-bsn-source-cbc2113.zip",
+  "bytes": 264527,
+  "sha256": "bdab412e6b9bfe08d13e25a2773c19ccf025ce61fa75877722de9db6ced4df62",
+  "public_repository": "https://github.com/lisu188/hots-replay-recovery",
+  "repository_currently_public_verified_via_GitHub_API": true,
+  "published_source_commit": "cbc211309a6a0b3867f4721bf2067358a3057b16",
+  "already_public_prerequisite_commit": "3e5ebb7cee76e42c97ecf498d2a4e558b8e8bb2a",
+  "git_bundle_verified": true,
+  "git_bundle_single_published_head": true,
+  "git_delta_commit_count": 2,
+  "bundle_created_by_controlled_git_bundle_base_to_HEAD_command": true,
+  "all_nonbundle_source_entries_match_already_public_Git_blob_bytes": true,
+  "generated_manifest_contains_only_source_pins_relative_inventory_and_backup_chain": true,
+  "archive_contains_raw_binaries_full_schema_blob_dumps_logs_replays_headers_or_private_player_records": false,
+  "files": [
+    {
+      "public_repository_path": "AGENTS.md",
+      "bytes": 50084,
+      "sha256": "908eae5bcc1ea95dbcc635fa71b41de025b6158023267b0870a377ea1619436d",
+      "exact_bytes_in_published_commit": true
+    },
+    {
+      "public_repository_path": "docs/NATIVE_BSN_AND_CLIENTINFO_2026-10-19.md",
+      "bytes": 5962,
+      "sha256": "c201a17aa8b9445a262ed5caf8e82fa9d423ebcd60dc196cdee4a0153f52042b",
+      "exact_bytes_in_published_commit": true
+    },
+    {
+      "public_repository_path": "docs/NATIVE_RESOURCE_MATRIX_2026-10-19.md",
+      "bytes": 4364,
+      "sha256": "052024e3e124e269fdd78e88ef61d4f08841774f5343b33a4c3f836b63ff5043",
+      "exact_bytes_in_published_commit": true
+    },
+    {
+      "public_repository_path": "observations/exact-header-98348/legacy-replay-controls/barrett-tree.body.json",
+      "bytes": 10291,
+      "sha256": "19df138b7af1b5ac881222e0ed2f59bf9ad2f07ec7430ecee17ea4f0b4eab019",
+      "exact_bytes_in_published_commit": true
+    },
+    {
+      "public_repository_path": "observations/exact-header-98348/legacy-replay-controls/exact-build-fixture-code-search.body.json",
+      "bytes": 55,
+      "sha256": "4af480b8ee5b87b369a76c49bd22c9a783908272ebffbe97898f8ab0f0772a5f",
+      "exact_bytes_in_published_commit": true
+    },
+    {
+      "public_repository_path": "observations/exact-header-98348/legacy-replay-controls/hots-parser-tree.body.json",
+      "bytes": 3767,
+      "sha256": "ef5ddd1409c9289452a9a351553083bac72d4ddecf3a642770e0f2ab2bdf601e",
+      "exact_bytes_in_published_commit": true
+    },
+    {
+      "public_repository_path": "observations/exact-header-98348/legacy-replay-controls/htc-tree.body.json",
+      "bytes": 52219,
+      "sha256": "eb8dc2a87ad8cc6411b6a30ce87a754357e6e7c0214e6e48f0c9c80cbbcb0675",
+      "exact_bytes_in_published_commit": true
+    },
+    {
+      "public_repository_path": "observations/exact-header-98348/legacy-replay-controls/legacy-fixture-eight-operation-ledger.json",
+      "bytes": 11959,
+      "sha256": "71ffc085533935dafc1467f218827d941d215619428cc75d7e5ce2f5aba02bb6",
+      "exact_bytes_in_published_commit": true
+    },
+    {
+      "public_repository_path": "observations/exact-header-98348/legacy-replay-controls/legacy-fixture-search-frozen-receipt.json",
+      "bytes": 1178,
+      "sha256": "324321035ccb48f530a80e66254b0666b3c10b804162f0fa383c1856a76928cb",
+      "exact_bytes_in_published_commit": true
+    },
+    {
+      "public_repository_path": "observations/exact-header-98348/legacy-replay-controls/one-fixture-header-frozen-receipt.json",
+      "bytes": 1057,
+      "sha256": "a1497090ccf80b3d6c55f33b08551ed7b17d9e3d3955f3f972b84895481a1242",
+      "exact_bytes_in_published_commit": true
+    },
+    {
+      "public_repository_path": "observations/exact-header-98348/legacy-replay-controls/one-fixture-header-observation.json",
+      "bytes": 2350,
+      "sha256": "3940b2804a6f6911ccd2956a15e7c3f6e37ee4a6910f870e4d68c8a88e68c2cd",
+      "exact_bytes_in_published_commit": true
+    },
+    {
+      "public_repository_path": "observations/exact-header-98348/native-bsn/bsn-primary-source-provenance.json",
+      "bytes": 15418,
+      "sha256": "10a65095b099f71ae69c225a7dc9842adb110ce9243d80bfe79229a3533112ea",
+      "exact_bytes_in_published_commit": true
+    },
+    {
+      "public_repository_path": "observations/exact-header-98348/native-bsn/complete-offline-894-native-legacy-milestone-CI.json",
+      "bytes": 2159,
+      "sha256": "603b78f8e12d00471817e7696455e4c42a3afc67dc2dcf6687273c4872ed8a4f",
+      "exact_bytes_in_published_commit": true
+    },
+    {
+      "public_repository_path": "observations/exact-header-98348/native-bsn/complete-offline-908-native-ClientInfo-CI.json",
+      "bytes": 2385,
+      "sha256": "fa04442920b9392cdbf675515e9fe8c658a6e71afdd86c82de22784c1a8cc0ce",
+      "exact_bytes_in_published_commit": true
+    },
+    {
+      "public_repository_path": "observations/exact-header-98348/native-bsn/embedded-string-table-boundaries-98348.json",
+      "bytes": 12030,
+      "sha256": "01f6405923ac7fae41f5937492aab8fc4d4bc60f873a7b800fbc1b6ab1e7aaf1",
+      "exact_bytes_in_published_commit": true
+    },
+    {
+      "public_repository_path": "observations/exact-header-98348/native-bsn/legacy-limits/old41810-image-capture-descriptor-feasibility.json",
+      "bytes": 8257,
+      "sha256": "86fdb4c998ee393a56fa9165af16d472438aee7eb3221610a3eededa366ad27f",
+      "exact_bytes_in_published_commit": true
+    },
+    {
+      "public_repository_path": "observations/exact-header-98348/native-bsn/legacy-limits/older-clientinfo-primary-research.json",
+      "bytes": 7470,
+      "sha256": "5f33c39c01a1b9da7ee1de529a520b10f18398f27899f9d678d88d626c16f375",
+      "exact_bytes_in_published_commit": true
+    },
+    {
+      "public_repository_path": "observations/exact-header-98348/native-bsn/native-bsn-independent-framing.json",
+      "bytes": 5172,
+      "sha256": "dbe8bd08d6e0fd4463017a721c06e2fae298a8dc4a40b79043b19776bca6ecf4",
+      "exact_bytes_in_published_commit": true
+    },
+    {
+      "public_repository_path": "observations/exact-header-98348/native-bsn/native-BSN-metadata-98348-v2.json",
+      "bytes": 96671,
+      "sha256": "cf7204cb7b26f4d1cdcf92930bee154932fa2cbe9f27f4d10daf7be6ef3f0256",
+      "exact_bytes_in_published_commit": true
+    },
+    {
+      "public_repository_path": "observations/exact-header-98348/native-bsn/native-BSN-parser-independent-review.json",
+      "bytes": 3206,
+      "sha256": "9d378748169662bf862f9c947448b986f66463a1fee1949ba524023f8804eb3b",
+      "exact_bytes_in_published_commit": true
+    },
+    {
+      "public_repository_path": "observations/exact-header-98348/native-bsn/native-ClientInfo-current-21case-binding.json",
+      "bytes": 11932,
+      "sha256": "a0145b4e33ffca51f2658486f55c78a6a3b97744ad085d6026009f6d534377b5",
+      "exact_bytes_in_published_commit": true
+    },
+    {
+      "public_repository_path": "observations/exact-header-98348/native-bsn/native-clientinfo-frozen-receipt-v3.json",
+      "bytes": 1656,
+      "sha256": "1bc68a48f1e75491625488a8c4ddc1cd103874611401a3a3b19e2bc47dc1e16b",
+      "exact_bytes_in_published_commit": true
+    },
+    {
+      "public_repository_path": "observations/exact-header-98348/native-bsn/native-ClientInfo-independent-review.json",
+      "bytes": 9005,
+      "sha256": "f077a91d3059380f4390e8fad7b1e6d85d63c84c4f78ec16ae4d5ea7b68ee505",
+      "exact_bytes_in_published_commit": true
+    },
+    {
+      "public_repository_path": "observations/exact-header-98348/native-bsn/native-legacy-source-only-cloud-backup-verification.json",
+      "bytes": 965,
+      "sha256": "d07f131aad54d225aa83924820f730be8cae4aa22f26cd3a61ecc3645f493ae8",
+      "exact_bytes_in_published_commit": true
+    },
+    {
+      "public_repository_path": "observations/exact-header-98348/native-bsn/official-target-after-native-research.json",
+      "bytes": 747,
+      "sha256": "c576a9ba98b9fd363cab9883465edf7121a02b5d3eac6cb4f8519511810035cb",
+      "exact_bytes_in_published_commit": true
+    },
+    {
+      "public_repository_path": "observations/exact-header-98348/native-bsn/original-R8-guards-after-native-schema.json",
+      "bytes": 536,
+      "sha256": "4db57cd43fb214416a355cfb4e5227044a4740b7850c2d45d4a11799b3a18d78",
+      "exact_bytes_in_published_commit": true
+    },
+    {
+      "public_repository_path": "observations/exact-header-98348/native-bsn/portable-ClientInfo-v3-independent-review.json",
+      "bytes": 2690,
+      "sha256": "a49a69a70a73c81fba8b83ce622dd22f1058e1b4389c4edff1439f6ef8681ca1",
+      "exact_bytes_in_published_commit": true
+    },
+    {
+      "public_repository_path": "observations/exact-header-98348/native-bsn/portable-native-clientinfo-21control-verification-v3-local-source.json",
+      "bytes": 27731,
+      "sha256": "903617b7f41af0a8377fea6227487dc94582c59babaf3b164bf745abb4120400",
+      "exact_bytes_in_published_commit": true
+    },
+    {
+      "public_repository_path": "observations/exact-header-98348/native-bsn/publication-bindings.json",
+      "bytes": 13695,
+      "sha256": "62396b8bd819937f4cf2d14b13d298b82bfa37e98f8a85037430f06fd036cb8c",
+      "exact_bytes_in_published_commit": true
+    },
+    {
+      "public_repository_path": "observations/exact-header-98348/native-bsn/root-native-BSN-focused-tests.json",
+      "bytes": 337,
+      "sha256": "9b5ba15bedc8c5aa6265ccde5d5f1eef3b251a84641ecaa1f1aff662a0207bf2",
+      "exact_bytes_in_published_commit": true
+    },
+    {
+      "public_repository_path": "observations/exact-header-98348/native-resource-matrix/native-resource-matrix-21case-binding-v2.json",
+      "bytes": 20898,
+      "sha256": "99300ec26b68f8caa82d133592c142378ba7c1be56629472b9e259d1468687fd",
+      "exact_bytes_in_published_commit": true
+    },
+    {
+      "public_repository_path": "observations/exact-header-98348/native-resource-matrix/native-resource-matrix-frozen-receipt.json",
+      "bytes": 2656,
+      "sha256": "ad7a1d57c83eae37f633798ebf1a9f4d7f3f6ee74504defc1272cf930eaf53fa",
+      "exact_bytes_in_published_commit": true
+    },
+    {
+      "public_repository_path": "observations/exact-header-98348/native-resource-matrix/native-resource-matrix-independent-review.json",
+      "bytes": 2786,
+      "sha256": "c3751fb033474d6c77c00df9fed04d4c2735b5bf9b195eae8550d32126c5ce7f",
+      "exact_bytes_in_published_commit": true
+    },
+    {
+      "public_repository_path": "observations/exact-header-98348/native-resource-matrix/native-resource-matrix-static-98348.json",
+      "bytes": 5569,
+      "sha256": "c2c8deb0775bc35e3621dbd2567b39fd9159590263a0fd777c54ce79d5dcb7c7",
+      "exact_bytes_in_published_commit": true
+    },
+    {
+      "public_repository_path": "observations/exact-header-98348/native-resource-matrix/publication-bindings.json",
+      "bytes": 8673,
+      "sha256": "37c6d8b9bbb2399c7adfcfee4fd1250595089663eefe1bf0e08d0153d41beba0",
+      "exact_bytes_in_published_commit": true
+    }
+  ],
+  "external_destination_fresh_metadata_drive_type": "personal",
+  "external_destination_existing_project_folder": "HotS Replay Upgrade - TEN_GREYMANE / checkpoint-2026-10-18-offline"
+}

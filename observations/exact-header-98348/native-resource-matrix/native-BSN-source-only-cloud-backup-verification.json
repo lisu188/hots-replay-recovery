@@ -1,0 +1,21 @@
+{
+  "format": "hots-native-BSN-source-only-cloud-backup-v1",
+  "archive": "hots-offline-native-bsn-source-cbc2113.zip",
+  "source_commit": "cbc211309a6a0b3867f4721bf2067358a3057b16",
+  "bytes": 264527,
+  "sha256": "bdab412e6b9bfe08d13e25a2773c19ccf025ce61fa75877722de9db6ced4df62",
+  "local_and_cloud_quick_xor_hash": "tVWJMkcdkr3pvGFxI/CVe3WF7YE=",
+  "cloud_upload_succeeded": true,
+  "fresh_cloud_size_matches": true,
+  "fresh_cloud_quick_xor_matches": true,
+  "independent_remote_sha256_verified": false,
+  "quick_xor_is_cryptographic": false,
+  "source_bundle_and_zip_inventory_verified": true,
+  "all_nonbundle_source_entries_equal_already_public_Git_blobs": true,
+  "initial_automatic_review_rejection_resolved_after_complete_public_payload_and_personal_destination_checks": true,
+  "contains_raw_game_binaries_schema_blobs_dumps_logs_headers_replays_or_player_records": false,
+  "requires_previous_source_archive": "hots-offline-native-legacy-source-3e5ebb7.zip",
+  "client_launched": false,
+  "new_replay_generated": false,
+  "full_upgrade_complete": false
+}

@@ -1,0 +1,44 @@
+{
+  "format": "hots-native-matrix-CI-backup-and-semantic-lookup-bindings-v1",
+  "backed_up_source_commit": "cbc211309a6a0b3867f4721bf2067358a3057b16",
+  "receipt_is_later_than_archive": true,
+  "files": [
+    {
+      "source_relative_to_task_work": "complete-offline-908-native-matrix-CI.json",
+      "published_path": "observations/exact-header-98348/native-resource-matrix/complete-offline-908-native-matrix-CI.json",
+      "bytes": 2451,
+      "exact_source_and_published_sha256": "4c406845a252d75bad1705edcd5be9410ed79d1043ebd4e932d21dc2bce26d00"
+    },
+    {
+      "source_relative_to_task_work": "native-BSN-source-only-cloud-backup-verification.json",
+      "published_path": "observations/exact-header-98348/native-resource-matrix/native-BSN-source-only-cloud-backup-verification.json",
+      "bytes": 1067,
+      "exact_source_and_published_sha256": "391c760fa34ed5bb36ab924228b846723127356dc172bc9b69d93c9571afea45"
+    },
+    {
+      "source_relative_to_task_work": "native-BSN-source-backup-public-payload-proof.json",
+      "published_path": "observations/exact-header-98348/native-resource-matrix/native-BSN-source-backup-public-payload-proof.json",
+      "bytes": 11106,
+      "exact_source_and_published_sha256": "d9e04930f225ae560d00613f1430cbdc4b6388903e4eff06d424a6ffe93656cb"
+    },
+    {
+      "source_relative_to_task_work": "resource-state-primary-lookup/resource-state-scoped-primary-lookup.json",
+      "published_path": "observations/exact-header-98348/native-resource-matrix/resource-state-scoped-primary-lookup.json",
+      "bytes": 9303,
+      "exact_source_and_published_sha256": "45ab40273e3b34add244967b06af487dda387569d5266709807d13ab2173a45b"
+    },
+    {
+      "source_relative_to_task_work": "resource-state-primary-lookup/record_resource_state_lookup.py",
+      "published_path": "research/exact-header-98348/native-resource-matrix/record_resource_state_lookup.py",
+      "bytes": 5707,
+      "exact_source_and_published_sha256": "c9e63ebbda167cd55bb961ecb528c58175952e1d2335b9d5e18bf0c42ce7a277"
+    },
+    {
+      "source_relative_to_task_work": "resource-state-primary-lookup/search-call-evidence.json",
+      "published_path": "observations/exact-header-98348/native-resource-matrix/search-call-evidence.json",
+      "bytes": 50794,
+      "exact_source_and_published_sha256": "ee07ebe9c5e7bd1b6b7bf6347b41111f1271a462b9fa4977ac1a95837e4be504"
+    }
+  ],
+  "raw_game_inputs_private_values_or_cloud_identity_keys_included": false
+}

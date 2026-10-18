@@ -1,0 +1,249 @@
+{
+  "accepted_constants_or_guessed_semantic_mappings": [],
+  "account_queries_or_live_ownership_queries_used": false,
+  "cached_inputs": [
+    {
+      "bytes": 14022,
+      "exact_type_name_hits": {
+        "ResourceAccessList": 0,
+        "ResourceAccessMatrix": 0,
+        "ResourceState": 0,
+        "ScopeResources": 0
+      },
+      "file": "registry-semantics-primary-source-findings.json",
+      "sha256": "a78450111a87ef75851287a7afa4c7b3e474f43db77c3be630a3bb1310853042"
+    },
+    {
+      "bytes": 12933,
+      "exact_type_name_hits": {
+        "ResourceAccessList": 0,
+        "ResourceAccessMatrix": 0,
+        "ResourceState": 0,
+        "ScopeResources": 0
+      },
+      "file": "registry-access-semantics-findings-v2.json",
+      "sha256": "827aef5bc8ff4de516a720ec61a04c27c07517145177cfca23124b1faa056185"
+    },
+    {
+      "bytes": 12725,
+      "exact_type_name_hits": {
+        "ResourceAccessList": 0,
+        "ResourceAccessMatrix": 0,
+        "ResourceState": 0,
+        "ScopeResources": 0
+      },
+      "file": "natives.galaxy",
+      "sha256": "a3187849bb3c08abd0078e0ff309c8495a296e965181d4ac54692662d29892e3"
+    },
+    {
+      "bytes": 46875,
+      "exact_type_name_hits": {
+        "ResourceAccessList": 0,
+        "ResourceAccessMatrix": 0,
+        "ResourceState": 0,
+        "ScopeResources": 0
+      },
+      "file": "NativeLib_h.galaxy",
+      "sha256": "0e1db3fa2911e37ea672d10da16350983d6190cfc37153e63fa4b8fa3a46a48e"
+    },
+    {
+      "bytes": 230410,
+      "exact_type_name_hits": {
+        "ResourceAccessList": 0,
+        "ResourceAccessMatrix": 0,
+        "ResourceState": 0,
+        "ScopeResources": 0
+      },
+      "file": "NativeLib.galaxy",
+      "sha256": "c7df2bc2fc3b43acffcc54f37a605af646e5dfedbdcb383a54ddc3bc06ebf876"
+    },
+    {
+      "bytes": 50094,
+      "exact_type_name_hits": {
+        "ResourceAccessList": 0,
+        "ResourceAccessMatrix": 0,
+        "ResourceState": 0,
+        "ScopeResources": 0
+      },
+      "file": "HeroesLib_h.galaxy",
+      "sha256": "21d0147e00969baddb9e32e9d6bda3adc3bcb5c28f56fa52b4f4ba98e5cde891"
+    },
+    {
+      "bytes": 268519,
+      "exact_type_name_hits": {
+        "ResourceAccessList": 0,
+        "ResourceAccessMatrix": 0,
+        "ResourceState": 0,
+        "ScopeResources": 0
+      },
+      "file": "HeroesLib.galaxy",
+      "sha256": "15f0314a1c48a0391e76e22360847e7ef0c91b12a29da15d79453045c175a683"
+    },
+    {
+      "bytes": 13962,
+      "exact_type_name_hits": {
+        "ResourceAccessList": 0,
+        "ResourceAccessMatrix": 0,
+        "ResourceState": 0,
+        "ScopeResources": 0
+      },
+      "file": "player-block-primary-history-followup.json",
+      "sha256": "fb938eea58916db0b6e64dd565858cc779d03ae0fc5156f0a265406a68cb4320"
+    }
+  ],
+  "calls": [
+    {
+      "id": 1,
+      "queries": [
+        "\"ResourceAccessMatrix\"",
+        "\"Battlenet::S2Map::ResourceState\"",
+        "\"ScopeResources\" \"Battlenet\""
+      ],
+      "result": "Merged results supplied only an unrelated Go authorization DTO documentation page; no relevant Battlenet definition was returned.",
+      "tool": "web.run",
+      "unrelated_result": "https://pkg.go.dev/github.com/aptlogica/sereni-base@v0.1.0/internal/dto"
+    },
+    {
+      "id": 2,
+      "incomplete_results": false,
+      "query": "ResourceAccessMatrix",
+      "repositories": [
+        "Dev940/SecureWorkNexus",
+        "Keenmate/keen-auth-permissions",
+        "ahsanmuslimm/SOC-Detection-Lab",
+        "aptlogica/sereni-base",
+        "davidyokum/auth-kit",
+        "gratefulagents/gratefulagents",
+        "hoanglong2206/noblee-ecommerce-frontend",
+        "kashif147/user-service",
+        "pfthomaz/abparts",
+        "souluk319/Cywell-OpsLens",
+        "typecad/hal",
+        "yosoykyle/SIA-TALA"
+      ],
+      "returned": 30,
+      "tool": "GitHub fetch: public code-search",
+      "total_count": 32,
+      "url": "https://api.github.com/search/code?q=ResourceAccessMatrix"
+    },
+    {
+      "id": 3,
+      "incomplete_results": false,
+      "query": "ScopeResources",
+      "repositories": [
+        "619motorsports/newksEditor",
+        "ASHUTOSH-SWAIN-GIT/casper-mcp",
+        "AjayDhattarwal/Browser",
+        "CAPHTECH/pce-memory",
+        "DPS0340/clusterproof",
+        "DungKHoang/Old-NotUsed-Import-Export-OneView-Resources",
+        "EnergizedProtection/mirror",
+        "FlysoftBeta/classapp",
+        "Fortigi/IdentityAtlas",
+        "HellsCrimson/ArcLoom",
+        "HoussemDellai/aks-course",
+        "K415mm/mcp_course",
+        "MatoiDev/Kaleidoscope",
+        "Navneet6263/green-crm",
+        "Ohislawrence/olili",
+        "PATILYASHH/VPC",
+        "SecureAuthCorp/ciam-sample-ios-apps",
+        "Yashraj-sherke/Wexa_Ai_Assignement",
+        "Zykairotis/claude-context-core",
+        "armincms/papyrus",
+        "aws-samples/sample-least-privilege-iam-for-ai-agents",
+        "ballcat-projects/ballcat-admin-ui-vue3",
+        "ballcat-projects/ballcat-ui-vue",
+        "bkegley/luminate",
+        "bonc-ai/cogseed",
+        "cabloy/cabloy",
+        "cirosantilli/expired-domain-names-by-day-2012",
+        "cirosantilli/expired-domain-names-by-day-2023",
+        "cisagov/thorium",
+        "dotnetcadet/azure-bicep-common",
+        "duranserkan/DRN-Project",
+        "eclipse-amlen/amlen",
+        "eirueimi/unified-cd",
+        "eried/EasyScopeX",
+        "eryajf/kite-desktop",
+        "eventsourcing/es4j",
+        "eylulsenakumral/auto-company-clean",
+        "fixpoint-labs/flow-state-dev",
+        "gaarx/Gaarx",
+        "giuseppemargherita1-bot/local_planner_app",
+        "go-sigma/sigma",
+        "guanbear/OctoClaw",
+        "infovvspl/eddva_frontend",
+        "jullienl/HPE-COM-PowerShell-Library",
+        "kubernetes/kubernetes",
+        "legimenes/articles-OpenIddictAuthorizationServer",
+        "migtools/crane",
+        "mikekelly/gap",
+        "naterkane/deutsche-policy-portal",
+        "noemdb/cfla",
+        "npgall/cqengine",
+        "palantir/osdk-ts",
+        "panoukos41/couchdb-openiddict",
+        "peterjarian/plakk",
+        "pulumi/schema-tools",
+        "rafay99-epic/envpilot.dev",
+        "saero-ai/vscode-xcaffold",
+        "scc-digitalhub/AAC",
+        "testng-team/testng-eclipse",
+        "thisyearnofear/cognivern",
+        "touridev/actix-web-rust",
+        "tuan31an/Shared-Lab-and-Equipment-Booking-System-Backend",
+        "utibeabasi6/mercek",
+        "voidvec/fulla",
+        "vonajs/vona",
+        "zovajs/zova"
+      ],
+      "returned": 100,
+      "tool": "GitHub fetch: public code-search",
+      "total_count": 3736,
+      "url": "https://api.github.com/search/code?q=ScopeResources&per_page=100"
+    },
+    {
+      "id": 4,
+      "incomplete_results": false,
+      "query": "ResourceState S2Map",
+      "repositories": [
+        "deta/surf",
+        "mobilex1122/hayvuh-engine"
+      ],
+      "returned": 2,
+      "tool": "GitHub fetch: public code-search",
+      "total_count": 2,
+      "url": "https://api.github.com/search/code?q=ResourceState+S2Map&per_page=100"
+    }
+  ],
+  "client_or_repo_or_cloud_modified": false,
+  "existing_native_evidence": {
+    "ResourceState": "A named USER alias resolves to an unsigned16-bit INT, not an ENUM in this selected graph.",
+    "ScopeResources": "A fixed16-element array supplies no per-index member names in this selected graph.",
+    "scope": "This is authenticated current98348 metadata already independently bound to21 matrices; no new external semantics were discovered."
+  },
+  "external_tool_calls": 4,
+  "format": "hots-resource-state-scoped-primary-lookup-v1",
+  "limits": [
+    "Search result metadata is not a fetched source definition.",
+    "ResourceAccessMatrix page returned30of32hits; the remaining2were not fetched.",
+    "ScopeResources is a noisy generic identifier; only first100of3736hits were returned.",
+    "GitHub search covers its current index/default-branch state and is not a proof that source does not exist.",
+    "No source constants, flag assignments or scope-index meaning were adopted from unrelated projects.",
+    "The API returned only first30of32ResourceAccessMatrix hits and first100of3736genericScopeResources hits; this is not an exhaustive code audit.",
+    "Repository descriptions and paths supplied context only; result bodies were not fetched or treated as semantic definitions.",
+    "Cached public Galaxy natives and prior source-research receipts contain none of the exact four type names.",
+    "The absence of an ENUM record in the selected current graph does not prove that implementation constants or flags do not exist elsewhere."
+  ],
+  "native_static_projection_sha256": "c2c8deb0775bc35e3621dbd2567b39fd9159590263a0fd777c54ce79d5dcb7c7",
+  "new_primary_flag_definitions_found": false,
+  "new_primary_scope_index_mapping_found": false,
+  "player_values_matrix_patterns_or_private_identifiers_emitted": false,
+  "primary_source_bodies_fetched": 0,
+  "producer_sha256": "c9e63ebbda167cd55bb961ecb528c58175952e1d2335b9d5e18bf0c42ce7a277",
+  "replay_or_PE_or_matrix_values_read": false,
+  "result": "Scoped negative. No concrete author-owned Battlenet flag constant or index definition was obtained within the four-call budget.",
+  "search_call_evidence_sha256": "ee07ebe9c5e7bd1b6b7bf6347b41111f1271a462b9fa4977ac1a95837e4be504",
+  "search_queries": 6
+}
