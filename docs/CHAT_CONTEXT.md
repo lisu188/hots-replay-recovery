@@ -135,3 +135,66 @@ Because the GitHub connector only accepts text payloads, replay binaries are nev
 The first remote snapshot was published to `main` as GitHub commit `4248b86f194d08205d0168747a5629dbef4eaf89`. It contains the decoder/encoder toolchain, semantic projections, migration deltas, chat context, source replay Base64 parts and the build-43905 replay Base64 parts.
 
 The build-43905 checkpoint has passed protocol encode/decode round-trip validation but has not yet been proven playable by a real HotS client. The next engineering task remains crossing the larger build-44256 protocol boundary.
+
+
+## Offline pull-request regression baseline â€” 2026-10-18
+
+The portfolio review requested a complete read-only PR regression check. The
+existing targeted workflows retain their main/manual scopes and publication
+behavior; none is broadened to execute publishers on pull requests.
+
+`.github/workflows/offline-regressions.yml` adds a separate PR, main and manual
+baseline with `contents: read`, no persisted checkout credentials, pinned Blizzard
+commit `9af3ea7150f1a8acb53464c92519a9bbcc7a3594`, six 1.17.0 and mpyq 0.2.5.
+It runs Python 3.11 on Linux and Windows with both PowerShell 7 and Windows
+PowerShell 5.1. The pinned upstream version package imports `imp`, removed in
+newer Python, so this baseline retains its supported interpreter instead of
+patching third-party schema code.
+Inputs are restored from tracked Base64 with checked SHA-256 values. No checkpoint,
+map, capture package, game installation or publication workflow is changed.
+
+The initial source inventory at `6fffca8` contained 33 root test modules and
+710 test methods. The runner adds eleven gate tests. Combined CI at concurrent
+main `1b92e78` discovered 37 root modules and 788 tests, including later collection,
+arcade and full-tail tests automatically. It discovers every root
+`test_*.py`, refuses empty modules, import errors and zero tests, and reports
+actual module/test counts, failure/error IDs and skip reasons. Missing fixtures,
+parser dependencies and Linux StormLib fail setup instead of silently skipping.
+Existing test modules remain unchanged, avoiding their generator path triggers.
+
+Linux explicitly excludes the two Windows filesystem collector classes (38
+cases). Windows explicitly excludes four native StormLib-success cases, covered
+by the Linux lane. Pure parsing, malformed-input and missing-library guards stay
+active on both platforms. The collection-license synthetic symlink test also
+permits its exact existing Windows capability skip if that host cannot create
+symlinks; it executes normally when supported. Any other skip fails the baseline. Collector tests use
+temporary fake document/game directories; their launch guards fail before any
+client can start. Full offline success is not native playback, current-catalog,
+whole-parser or deterministic-simulation acceptance. R8 and all earlier recorded
+outcomes remain unchanged; the current no-HotS-launch instruction remains active.
+
+To reproduce after restoring the workflow's four inputs and installing its
+pinned dependencies, configure PYTHONPATH using the host's `os.pathsep`, include
+`_upstream` and the repository root, and select `HOTS_TEST_POWERSHELL=pwsh` or
+`powershell` on Windows. Linux also requires `libstorm-dev`. Run from the root:
+
+```text
+python scripts/run_offline_regressions.py --report work/offline-unit-regression.json
+```
+
+The compact new report must not already exist. CI uploads only that JSON summary,
+not replay bytes, player/chat data, donor files, generated maps or capture ZIPs.
+Local validation of the runner's eleven isolated gate tests passed on Windows
+and Linux.
+The complete corpus is assigned to hosted CI; workflow creation is not a CI pass.
+
+
+The first combined Python 3.11 run (`39157117628`, PR head `6bacef1` merged with
+main `1b92e78`) passed Linux. Both Windows lanes exposed a canonical schema-byte
+mismatch in existing `ActualR4Tests.setUpClass`: 788 discovered, 781 run, one
+error and four declared skips. The gate correctly rejected that partial run.
+Job-level Git configuration now disables autocrlf before both checkouts, retaining
+exact pinned upstream bytes on Windows instead of weakening the hash guard.
+Current main is merged into the PR without force-pushing or changing other work.
+The corrected three-job outcome must be recorded separately; the failed Windows
+runs are not passing CI.
