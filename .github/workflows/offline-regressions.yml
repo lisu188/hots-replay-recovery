@@ -121,7 +121,7 @@ jobs:
           with Path(os.environ['HOTS_EU_REFERENCE_CONTROL']).open('xb') as stream:
               stream.write(raw)
           PY
-      - name: Verify current EU streams, exact package versions and complete lobby suffix
+      - name: Verify current EU streams, package versions, lobby suffix and native ClientInfo
         run: |
           python - <<'PY'
           import os
@@ -159,6 +159,17 @@ jobs:
           assert checks['details_identity_multiset_equal'] and checks['initdata_identity_multiset_equal']
           assert checks['seed_matches_lobby'] and checks['seed_matches_game_description']
           assert checks['disabled_hero_list_equal']
+          from native_clientinfo import audit_current_client_infos
+          native = audit_current_client_infos(raw, tail)
+          assert native['players_checked'] == 10
+          assert native['native_ClientInfo_complete_ends_match']
+          assert native['all_13_named_anchors_match'] and native['private_native_scope_and_toon_match']
+          assert native['all_consumed_spans_reencode_exact']
+          assert native['named_segment_width_histogram'] == [{'widths': [8, 64, 96, 31], 'records': 10}]
+          assert native['TalkerId_choice_histogram'] == {0: 10}
+          assert native['permission_count_histogram'] == {0: 10}
+          assert native['observed_opaque_starts_one_bit_inside_native_network_field_records'] == 10
+          print({'native_ClientInfo_records_checked': 10, 'native_ClientInfo_span_reencoding_exact': True})
           reader = _Reader(raw)
           reader.position = mods['mod_metadata_end_bit']
           terminal = [cache_handle(reader.blob(40)) for _ in range(reader.bits(6))]
@@ -175,7 +186,7 @@ jobs:
           assert prefix == [cache_handle(value) for value in initial['m_syncLobbyState']['m_gameDescription']['m_cacheHandles']]
           assert len(prefix) == 8 and {handle['region'] for handle in prefix} == {'EU'}
           write_json('work/current-eu-profile.json', profile)
-          write_json('work/current-eu-structure.json', {'format': 'hots-current-eu-ci-structure-v1', 'replay_sha256': profile['file_sha256'], 'base_package_id_version_pairs': identities[:4], 'terminal_header_digests': [handle['digest'] for handle in terminal], 'prefix_and_independent_stream_handles_equal': True, 'tail': tail.report, 'private_crosscheck': checks, 'client_launched': False, 'replay_modified': False, 'simulation_or_conversion_proven': False})
+          write_json('work/current-eu-structure.json', {'format': 'hots-current-eu-ci-structure-v1', 'replay_sha256': profile['file_sha256'], 'base_package_id_version_pairs': identities[:4], 'terminal_header_digests': [handle['digest'] for handle in terminal], 'prefix_and_independent_stream_handles_equal': True, 'tail': tail.report, 'native_ClientInfo': native, 'private_crosscheck': checks, 'client_launched': False, 'replay_modified': False, 'simulation_or_conversion_proven': False})
           print({'current_EU_stream_counts': {kind: data['count'] for kind, data in profile['streams'].items()}, 'complete_lobby_EOF': True, 'base_packages': identities[:4]})
           PY
       - name: Discover and run every root test module with explicit platform gaps

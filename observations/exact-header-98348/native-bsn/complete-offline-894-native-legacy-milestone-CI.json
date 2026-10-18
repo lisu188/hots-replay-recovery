@@ -1,0 +1,54 @@
+{
+  "format": "hots-complete-offline-native-and-preserved-legacy-milestone-CI-v1",
+  "run_id": 39171182146,
+  "tested_commit": "3e5ebb7cee76e42c97ecf498d2a4e558b8e8bb2a",
+  "url": "https://github.com/lisu188/hots-replay-recovery/actions/runs/39171182146",
+  "conclusion": "success",
+  "jobs": [
+    {
+      "id": 117804384956,
+      "lane": "Windows / PowerShell 5.1 complete corpus",
+      "url": "https://github.com/lisu188/hots-replay-recovery/actions/runs/39171182146/job/117804384956",
+      "conclusion": "success",
+      "modules": 44,
+      "tests_discovered": 894,
+      "tests_run": 894,
+      "declared_skips": 4,
+      "unexpected_skips": 0,
+      "actual_NGS_fixture_test_executed": true,
+      "current_EU_streams_and_lobby_check_executed": true
+    },
+    {
+      "id": 117804385133,
+      "lane": "Windows / PowerShell 7 complete corpus",
+      "url": "https://github.com/lisu188/hots-replay-recovery/actions/runs/39171182146/job/117804385133",
+      "conclusion": "success",
+      "modules": 44,
+      "tests_discovered": 894,
+      "tests_run": 894,
+      "declared_skips": 4,
+      "unexpected_skips": 0,
+      "actual_NGS_fixture_test_executed": true,
+      "current_EU_streams_and_lobby_check_executed": true
+    },
+    {
+      "id": 117804385198,
+      "lane": "Linux complete corpus",
+      "url": "https://github.com/lisu188/hots-replay-recovery/actions/runs/39171182146/job/117804385198",
+      "conclusion": "success",
+      "modules": 44,
+      "tests_discovered": 894,
+      "tests_run": 894,
+      "declared_skips": 38,
+      "unexpected_skips": 0,
+      "actual_NGS_fixture_test_executed": true,
+      "current_EU_streams_and_lobby_check_executed": true
+    }
+  ],
+  "native_PE_or_preserved_crash_actual_research_executed_in_CI": false,
+  "local_proof_scope": "One-pass independent native label/context/version checks; preserved NGDP exact captured-read recomputation; documented independent first-module/CodeView and Error-header checks. Actual game artifacts remain private.",
+  "real_header_reconstruction_executed_in_CI": false,
+  "client_launched": false,
+  "new_replay_generated": false,
+  "full_upgrade_complete": false
+}

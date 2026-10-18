@@ -12,3 +12,8 @@ lossless_wire.py -text whitespace=cr-at-eol
 test_lossless_wire.py -text whitespace=cr-at-eol
 research/exact-header-98348/** -text whitespace=cr-at-eol
 observations/exact-header-98348/** -text whitespace=cr-at-eol
+
+# Preserve the authenticated portable native ClientInfo closure and executed codec.
+native_clientinfo.py -text whitespace=cr-at-eol
+test_native_clientinfo.py -text whitespace=cr-at-eol
+native_clientinfo_schema_98348.json -text whitespace=cr-at-eol

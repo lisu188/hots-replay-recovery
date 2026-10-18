@@ -1,0 +1,20 @@
+{
+  "format": "hots-original-and-R8-guards-after-native-schema-v1",
+  "checked_at_utc": "2026-10-18T22:28:45.607296+00:00",
+  "replays": [
+    {
+      "label": "original",
+      "bytes": 635140,
+      "sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+      "unchanged": true
+    },
+    {
+      "label": "R8",
+      "bytes": 2438570,
+      "sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "unchanged": true
+    }
+  ],
+  "client_launched": false,
+  "replay_written": false
+}

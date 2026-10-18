@@ -1,0 +1,437 @@
+{
+  "PE_parser_source_sha256": "4c43053e77a9ee4997ab972f6d039f31e1e92902c5e58d514aa90b0af4bdb523",
+  "debugger_disassembler_or_process_used": false,
+  "distinct_maximal_spans": 1,
+  "format": "hots-native-maximal-NUL-string-span-research-v1",
+  "game_or_client_image_executed_or_loaded": false,
+  "layout_174_198_or_availability32B_semantics_proven": false,
+  "limitations": [
+    "A maximal printable/NUL span proves physical bounds and C-string segmentation only.",
+    "Leading/trailing printable bytes or NUL padding can belong to adjacent data; an actual runtime string-table base is not inferred.",
+    "Raw pointer-pattern and exact offset-array probes are data observations, not code crossreferences or semantic use proof.",
+    "No complete typed-schema grammar or serializer widths are established unless a separate validated container is identified."
+  ],
+  "maximum_span_bytes": 2097152,
+  "new_header_candidate": false,
+  "new_network_requests": 0,
+  "producer_sha256": "2fd64e6a470f6b4fde4135c7b2f68bd7c418679bfb87ef43d94ae155fc07ee1e",
+  "raw_binary_or_complete_string_table_dump_saved": false,
+  "repo_modified": false,
+  "requested_anchors": [
+    {
+      "file_offset": 43426603,
+      "name": "m_clientLicensesList"
+    },
+    {
+      "file_offset": 43476303,
+      "name": "m_mapNamespace"
+    }
+  ],
+  "results": [
+    {
+      "NUL_byte_count": 6940,
+      "all_nonempty_tokens_have_NUL_terminators": true,
+      "all_span_bytes_are_NUL_or_printable_ASCII": true,
+      "both_boundaries_reached_inside_2MiB_cap": true,
+      "boundary_numeric_quantity_matches": [],
+      "candidate_base_pointer_byte_matches": [
+        {
+          "base_hypothesis": "maximal_ASCII_or_NUL_span_start",
+          "location": {
+            "file_offset": 43363804,
+            "rva": 43367900,
+            "section": ".rdata"
+          },
+          "raw_integer_byte_matches": {
+            "absolute_VA_u64": [],
+            "image_RVA_u32": []
+          }
+        }
+      ],
+      "distinct_nonempty_token_count": 6937,
+      "first_eight_token_summaries": [
+        {
+          "NUL_terminated": true,
+          "bytes": 22,
+          "location": {
+            "file_offset": 43363804,
+            "rva": 43367900,
+            "section": ".rdata"
+          },
+          "relative_offset": 0,
+          "safe_label": "Battlenet::Account::Id"
+        },
+        {
+          "NUL_terminated": true,
+          "bytes": 14,
+          "location": {
+            "file_offset": 43363827,
+            "rva": 43367923,
+            "section": ".rdata"
+          },
+          "relative_offset": 23,
+          "safe_label": "Battlenet::u32"
+        },
+        {
+          "NUL_terminated": true,
+          "bytes": 24,
+          "location": {
+            "file_offset": 43363842,
+            "rva": 43367938,
+            "section": ".rdata"
+          },
+          "relative_offset": 38,
+          "safe_label": "Battlenet::Account::Mail"
+        },
+        {
+          "NUL_terminated": true,
+          "bytes": 28,
+          "location": {
+            "file_offset": 43363867,
+            "rva": 43367963,
+            "section": ".rdata"
+          },
+          "relative_offset": 63,
+          "safe_label": "Battlenet::Account::NamePart"
+        },
+        {
+          "NUL_terminated": true,
+          "bytes": 28,
+          "location": {
+            "file_offset": 43363896,
+            "rva": 43367992,
+            "section": ".rdata"
+          },
+          "relative_offset": 92,
+          "safe_label": "Battlenet::Account::FullName"
+        },
+        {
+          "NUL_terminated": true,
+          "bytes": 11,
+          "location": {
+            "file_offset": 43363925,
+            "rva": 43368021,
+            "section": ".rdata"
+          },
+          "relative_offset": 121,
+          "safe_label": "m_givenName"
+        },
+        {
+          "NUL_terminated": true,
+          "bytes": 9,
+          "location": {
+            "file_offset": 43363937,
+            "rva": 43368033,
+            "section": ".rdata"
+          },
+          "relative_offset": 133,
+          "safe_label": "m_surname"
+        },
+        {
+          "NUL_terminated": true,
+          "bytes": 28,
+          "location": {
+            "file_offset": 43363947,
+            "rva": 43368043,
+            "section": ".rdata"
+          },
+          "relative_offset": 143,
+          "safe_label": "Battlenet::Account::Password"
+        }
+      ],
+      "following_boundary_byte": 29,
+      "last_eight_token_summaries": [
+        {
+          "NUL_terminated": true,
+          "bytes": 7,
+          "location": {
+            "file_offset": 43560605,
+            "rva": 43564701,
+            "section": ".rdata"
+          },
+          "relative_offset": 196801,
+          "safe_label": "VIRTUAL"
+        },
+        {
+          "NUL_terminated": true,
+          "bytes": 3,
+          "location": {
+            "file_offset": 43560613,
+            "rva": 43564709,
+            "section": ".rdata"
+          },
+          "relative_offset": 196809,
+          "safe_label": null
+        },
+        {
+          "NUL_terminated": true,
+          "bytes": 3,
+          "location": {
+            "file_offset": 43560617,
+            "rva": 43564713,
+            "section": ".rdata"
+          },
+          "relative_offset": 196813,
+          "safe_label": null
+        },
+        {
+          "NUL_terminated": true,
+          "bytes": 3,
+          "location": {
+            "file_offset": 43560621,
+            "rva": 43564717,
+            "section": ".rdata"
+          },
+          "relative_offset": 196817,
+          "safe_label": null
+        },
+        {
+          "NUL_terminated": true,
+          "bytes": 2,
+          "location": {
+            "file_offset": 43560625,
+            "rva": 43564721,
+            "section": ".rdata"
+          },
+          "relative_offset": 196821,
+          "safe_label": null
+        },
+        {
+          "NUL_terminated": true,
+          "bytes": 35,
+          "location": {
+            "file_offset": 43560628,
+            "rva": 43564724,
+            "section": ".rdata"
+          },
+          "relative_offset": 196824,
+          "safe_label": "Battlenet::ConnectionProtocol::Enum"
+        },
+        {
+          "NUL_terminated": true,
+          "bytes": 3,
+          "location": {
+            "file_offset": 43560664,
+            "rva": 43564760,
+            "section": ".rdata"
+          },
+          "relative_offset": 196860,
+          "safe_label": null
+        },
+        {
+          "NUL_terminated": true,
+          "bytes": 4,
+          "location": {
+            "file_offset": 43560668,
+            "rva": 43564764,
+            "section": ".rdata"
+          },
+          "relative_offset": 196864,
+          "safe_label": "GGCP"
+        }
+      ],
+      "maximal_span_end_exclusive": {
+        "file_offset": 43560676,
+        "rva": 43564772,
+        "section": ".rdata"
+      },
+      "maximal_span_start": {
+        "file_offset": 43363804,
+        "rva": 43367900,
+        "section": ".rdata"
+      },
+      "nonempty_token_count": 6937,
+      "ordered_offset_array_probes": [
+        {
+          "entries": 8,
+          "exact_consecutive_u32_offset_sequence_matches": [],
+          "first_nonempty_token_index": 0,
+          "individual_scalar_matches_not_claimed_as_references": true,
+          "relative_to": "maximal_span_start",
+          "rotated_sequence_negative_matches": []
+        },
+        {
+          "entries": 8,
+          "exact_consecutive_u32_offset_sequence_matches": [],
+          "first_nonempty_token_index": 2468,
+          "individual_scalar_matches_not_claimed_as_references": true,
+          "relative_to": "maximal_span_start",
+          "rotated_sequence_negative_matches": []
+        },
+        {
+          "entries": 8,
+          "exact_consecutive_u32_offset_sequence_matches": [],
+          "first_nonempty_token_index": 4102,
+          "individual_scalar_matches_not_claimed_as_references": true,
+          "relative_to": "maximal_span_start",
+          "rotated_sequence_negative_matches": []
+        }
+      ],
+      "preceding_boundary_byte": 204,
+      "prefix_aligned_u32_words": [
+        {
+          "file_offset": 43363740,
+          "u32_le": 2197357824
+        },
+        {
+          "file_offset": 43363744,
+          "u32_le": 1324942592
+        },
+        {
+          "file_offset": 43363748,
+          "u32_le": 1375274240
+        },
+        {
+          "file_offset": 43363752,
+          "u32_le": 1425605888
+        },
+        {
+          "file_offset": 43363756,
+          "u32_le": 1475937536
+        },
+        {
+          "file_offset": 43363760,
+          "u32_le": 2247689472
+        },
+        {
+          "file_offset": 43363764,
+          "u32_le": 2314798336
+        },
+        {
+          "file_offset": 43363768,
+          "u32_le": 2381907200
+        },
+        {
+          "file_offset": 43363772,
+          "u32_le": 2516124928
+        },
+        {
+          "file_offset": 43363776,
+          "u32_le": 2583233792
+        },
+        {
+          "file_offset": 43363780,
+          "u32_le": 2650342656
+        },
+        {
+          "file_offset": 43363784,
+          "u32_le": 2717451520
+        },
+        {
+          "file_offset": 43363788,
+          "u32_le": 2767783168
+        },
+        {
+          "file_offset": 43363792,
+          "u32_le": 2501509888
+        },
+        {
+          "file_offset": 43363796,
+          "u32_le": 3371762944
+        },
+        {
+          "file_offset": 43363800,
+          "u32_le": 3438871808
+        }
+      ],
+      "span_bytes": 196872,
+      "span_sha256": "4156f62d1566e6d28d3447615e61f3785415f91abc25923c495f2d5e6beae89d",
+      "suffix_aligned_u32_words": [
+        {
+          "file_offset": 43560676,
+          "u32_le": 5917
+        },
+        {
+          "file_offset": 43560680,
+          "u32_le": 5962
+        },
+        {
+          "file_offset": 43560684,
+          "u32_le": 5973
+        },
+        {
+          "file_offset": 43560688,
+          "u32_le": 1414
+        },
+        {
+          "file_offset": 43560692,
+          "u32_le": 1419
+        },
+        {
+          "file_offset": 43560696,
+          "u32_le": 6060
+        },
+        {
+          "file_offset": 43560700,
+          "u32_le": 6134
+        },
+        {
+          "file_offset": 43560704,
+          "u32_le": 6160
+        },
+        {
+          "file_offset": 43560708,
+          "u32_le": 1614
+        },
+        {
+          "file_offset": 43560712,
+          "u32_le": 6183
+        },
+        {
+          "file_offset": 43560716,
+          "u32_le": 1620
+        },
+        {
+          "file_offset": 43560720,
+          "u32_le": 6185
+        },
+        {
+          "file_offset": 43560724,
+          "u32_le": 6193
+        },
+        {
+          "file_offset": 43560728,
+          "u32_le": 6201
+        },
+        {
+          "file_offset": 43560732,
+          "u32_le": 6206
+        },
+        {
+          "file_offset": 43560736,
+          "u32_le": 6378
+        }
+      ],
+      "target_tokens": [
+        {
+          "NUL_terminated": true,
+          "label": "m_clientLicensesList",
+          "location": {
+            "file_offset": 43426603,
+            "rva": 43430699,
+            "section": ".rdata"
+          },
+          "nonempty_token_index_zero_based": 2472,
+          "relative_to_maximal_span_start": 62799
+        },
+        {
+          "NUL_terminated": true,
+          "label": "m_mapNamespace",
+          "location": {
+            "file_offset": 43476303,
+            "rva": 43480399,
+            "section": ".rdata"
+          },
+          "nonempty_token_index_zero_based": 4106,
+          "relative_to_maximal_span_start": 112499
+        }
+      ],
+      "true_runtime_table_base_or_reference_format_established": false
+    }
+  ],
+  "source_PE_bytes": 53573840,
+  "source_PE_sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+  "source_size_and_mtime_unchanged": true,
+  "this_operation_PE_bytes_read": 53573840,
+  "this_operation_PE_read_passes": 1
+}

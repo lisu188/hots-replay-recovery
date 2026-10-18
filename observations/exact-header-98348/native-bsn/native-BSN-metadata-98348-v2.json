@@ -1,0 +1,3604 @@
+{
+  "conditional_198_boundary_hypothesis": {
+    "TalkerInfo_invalid_choice_then_next_fields_bits": [
+      8,
+      64,
+      32,
+      64,
+      31
+    ],
+    "legacy_auditer_consumes_one_of_these_bits_as_secondary_present_before_198": true,
+    "requires_actual_replay_binding": true,
+    "sum_bits": 199
+  },
+  "container": {
+    "DumpString_lookup_count": 15214,
+    "PE_file_offset": 43169040,
+    "PE_rva": 43173136,
+    "all_15215_dump_words_null_or_true_name_token_start": true,
+    "all_8330_dump_offsets_in_section": true,
+    "all_8330_type_offsets_ordered_unique_in_section": true,
+    "all_8330_type_records_and_child_type_references_validated": true,
+    "bytes": 391633,
+    "dump_info_bytes": 257729,
+    "dump_info_start": 43302944,
+    "dump_offsets_start": 43269624,
+    "dump_words": 15215,
+    "dump_zero_words": 5370,
+    "end_exclusive": 43560673,
+    "following_alignment_matches": true,
+    "following_alignment_zero_bytes": 3,
+    "last_type_record_alignment_zero_bytes": 2,
+    "name_pool_start": 43363804,
+    "second_header_word_uninterpreted": 0,
+    "sha256": "ce3b1f764575730f2c08c89eed73ea843ec4cc702b727c9577ca071ce610e741",
+    "type_count": 8330,
+    "type_info_bytes": 67244,
+    "type_info_start": 43202380,
+    "type_offsets_start": 43169060,
+    "unique_complete_static_names": 6937,
+    "version": 7
+  },
+  "format": "hots-current-native-BSN-metadata-v1",
+  "game_code_executed_or_loaded": false,
+  "header_bit6_counts_uninterpreted": {
+    "False": 7364,
+    "True": 966
+  },
+  "limits": [
+    "Cross-game primary source suggested the grammar; actual current record/name/reference validation supplies local evidence.",
+    "DumpString index0/type-name and subsequent member names are an observed current convention validated by selected known header fields.",
+    "Header bit6 and separate native codeInfo/member memory offsets are uninterpreted.",
+    "This report alone does not bind named fields to replay player bits or ownership semantics."
+  ],
+  "meta_type_counts": {
+    "ARRAY": 459,
+    "ASCII_STRING": 65,
+    "BIT_ARRAY": 5,
+    "BLOB": 46,
+    "BOOL": 245,
+    "CHOICE": 212,
+    "ENUM": 185,
+    "FOURCC": 94,
+    "INT": 39,
+    "NULL": 45,
+    "OPTIONAL": 487,
+    "REAL32": 37,
+    "REAL64": 29,
+    "STRING": 103,
+    "STRUCT": 1605,
+    "USER": 4674
+  },
+  "network_requests": 0,
+  "raw_binary_or_full_schema_dump_saved": false,
+  "selected_native_type_projections": {
+    "Battlenet::Client::ComSat::TalkerId::Id": {
+      "members": [
+        {
+          "name": "invalid",
+          "tag": 0,
+          "type_chain": [
+            {
+              "PE_file_offset": 43210490,
+              "PE_rva": 43214586,
+              "bytes": 1,
+              "header": 10,
+              "id": 926,
+              "kind": "NULL",
+              "name": "Battlenet::Client::ComSat::TalkerId::Id::Invalid",
+              "offset": 41450
+            }
+          ]
+        },
+        {
+          "name": "datagramConnectionEndPoint",
+          "tag": 1,
+          "type_chain": [
+            {
+              "PE_file_offset": 43210491,
+              "PE_rva": 43214587,
+              "bounds": {
+                "bits": 0,
+                "int_type": 0,
+                "max": -1,
+                "min": -1,
+                "variable": false
+              },
+              "bytes": 9,
+              "header": 142,
+              "id": 927,
+              "kind": "STRUCT",
+              "name": "Battlenet::Client::ComSat::TalkerId::Id::DatagramConnectionEndPoint",
+              "offset": 41451
+            }
+          ]
+        },
+        {
+          "name": "stream",
+          "tag": 2,
+          "type_chain": [
+            {
+              "PE_file_offset": 43210500,
+              "PE_rva": 43214596,
+              "bounds": {
+                "bits": 0,
+                "int_type": 0,
+                "max": -1,
+                "min": -1,
+                "variable": false
+              },
+              "bytes": 9,
+              "header": 142,
+              "id": 928,
+              "kind": "STRUCT",
+              "name": "Battlenet::Client::ComSat::TalkerId::Id::Stream",
+              "offset": 41460
+            }
+          ]
+        }
+      ],
+      "type": [
+        {
+          "PE_file_offset": 43210473,
+          "PE_rva": 43214569,
+          "bounds": {
+            "bits": 2,
+            "int_type": 1,
+            "max": 2,
+            "min": 0,
+            "variable": false
+          },
+          "bytes": 17,
+          "header": 134,
+          "id": 925,
+          "kind": "CHOICE",
+          "name": "Battlenet::Client::ComSat::TalkerId::Id",
+          "offset": 41433
+        }
+      ]
+    },
+    "Battlenet::Client::ComSat::TalkerInfo": {
+      "members": [
+        {
+          "name": "m_enabled",
+          "tag": -2,
+          "type_chain": [
+            {
+              "PE_file_offset": 43210418,
+              "PE_rva": 43214514,
+              "bytes": 1,
+              "header": 5,
+              "id": 914,
+              "kind": "BOOL",
+              "name": null,
+              "offset": 41378
+            }
+          ]
+        },
+        {
+          "name": "m_id",
+          "tag": -1,
+          "type_chain": [
+            {
+              "PE_file_offset": 43210419,
+              "PE_rva": 43214515,
+              "bytes": 5,
+              "header": 16,
+              "id": 915,
+              "kind": "USER",
+              "name": null,
+              "offset": 41379
+            },
+            {
+              "PE_file_offset": 43210444,
+              "PE_rva": 43214540,
+              "bounds": {
+                "bits": 0,
+                "int_type": 0,
+                "max": -1,
+                "min": -1,
+                "variable": false
+              },
+              "bytes": 9,
+              "header": 206,
+              "id": 920,
+              "kind": "STRUCT",
+              "name": "Battlenet::Client::ComSat::TalkerId",
+              "offset": 41404
+            }
+          ]
+        }
+      ],
+      "type": [
+        {
+          "PE_file_offset": 43210360,
+          "PE_rva": 43214456,
+          "bounds": {
+            "bits": 1,
+            "int_type": 0,
+            "max": -1,
+            "min": -2,
+            "variable": false
+          },
+          "bytes": 13,
+          "header": 206,
+          "id": 910,
+          "kind": "STRUCT",
+          "name": "Battlenet::Client::ComSat::TalkerInfo",
+          "offset": 41320
+        }
+      ]
+    },
+    "Battlenet::Client::S2Game::EncodedGameDataHeader": {
+      "members": [
+        {
+          "name": "m_mapCacheHandles",
+          "tag": -25,
+          "type_chain": [
+            {
+              "PE_file_offset": 43222273,
+              "PE_rva": 43226369,
+              "bytes": 5,
+              "header": 16,
+              "id": 2472,
+              "kind": "USER",
+              "name": null,
+              "offset": 53233
+            },
+            {
+              "PE_file_offset": 43222122,
+              "PE_rva": 43226218,
+              "bounds": {
+                "bits": 6,
+                "int_type": 1,
+                "max": 32,
+                "min": 0,
+                "variable": true
+              },
+              "bytes": 9,
+              "header": 1,
+              "id": 2465,
+              "kind": "ARRAY",
+              "name": "Battlenet::S2Map::ArchiveCacheHandleList",
+              "offset": 53082
+            },
+            {
+              "PE_file_offset": 43222140,
+              "PE_rva": 43226236,
+              "bytes": 5,
+              "header": 16,
+              "id": 2467,
+              "kind": "USER",
+              "name": null,
+              "offset": 53100
+            },
+            {
+              "PE_file_offset": 43204155,
+              "PE_rva": 43208251,
+              "bounds": {
+                "bits": 0,
+                "int_type": 1,
+                "max": 40,
+                "min": 40,
+                "variable": false
+              },
+              "bytes": 3,
+              "header": 132,
+              "id": 136,
+              "kind": "BLOB",
+              "name": "Battlenet::Cache::Handle",
+              "offset": 35115
+            }
+          ]
+        },
+        {
+          "name": "m_workingSet",
+          "tag": -24,
+          "type_chain": [
+            {
+              "PE_file_offset": 43222278,
+              "PE_rva": 43226374,
+              "bytes": 5,
+              "header": 16,
+              "id": 2473,
+              "kind": "USER",
+              "name": null,
+              "offset": 53238
+            },
+            {
+              "PE_file_offset": 43205448,
+              "PE_rva": 43209544,
+              "bounds": {
+                "bits": 4,
+                "int_type": 1,
+                "max": 11,
+                "min": 0,
+                "variable": false
+              },
+              "bytes": 53,
+              "header": 206,
+              "id": 307,
+              "kind": "STRUCT",
+              "name": "Battlenet::Attribute::WorkingSet",
+              "offset": 36408
+            }
+          ]
+        },
+        {
+          "name": "m_definitionList",
+          "tag": -23,
+          "type_chain": [
+            {
+              "PE_file_offset": 43222283,
+              "PE_rva": 43226379,
+              "bytes": 5,
+              "header": 16,
+              "id": 2474,
+              "kind": "USER",
+              "name": null,
+              "offset": 53243
+            },
+            {
+              "PE_file_offset": 43205355,
+              "PE_rva": 43209451,
+              "bounds": {
+                "bits": 9,
+                "int_type": 3,
+                "max": 256,
+                "min": 0,
+                "variable": true
+              },
+              "bytes": 11,
+              "header": 1,
+              "id": 294,
+              "kind": "ARRAY",
+              "name": "Battlenet::Attribute::DefinitionList",
+              "offset": 36315
+            },
+            {
+              "PE_file_offset": 43205366,
+              "PE_rva": 43209462,
+              "bytes": 5,
+              "header": 16,
+              "id": 295,
+              "kind": "USER",
+              "name": null,
+              "offset": 36326
+            },
+            {
+              "PE_file_offset": 43205260,
+              "PE_rva": 43209356,
+              "bounds": {
+                "bits": 4,
+                "int_type": 1,
+                "max": 9,
+                "min": 0,
+                "variable": false
+              },
+              "bytes": 45,
+              "header": 206,
+              "id": 283,
+              "kind": "STRUCT",
+              "name": "Battlenet::Attribute::Definition",
+              "offset": 36220
+            }
+          ]
+        },
+        {
+          "name": "m_debugFlags",
+          "tag": -22,
+          "type_chain": [
+            {
+              "PE_file_offset": 43222288,
+              "PE_rva": 43226384,
+              "bytes": 5,
+              "header": 16,
+              "id": 2475,
+              "kind": "USER",
+              "name": null,
+              "offset": 53248
+            },
+            {
+              "PE_file_offset": 43202526,
+              "PE_rva": 43206622,
+              "bounds": {
+                "bits": 64,
+                "int_type": 7,
+                "max": 18446744073709551615,
+                "min": 0,
+                "variable": true
+              },
+              "bytes": 19,
+              "header": 9,
+              "id": 17,
+              "kind": "INT",
+              "name": "Battlenet::u64",
+              "offset": 33486
+            }
+          ]
+        },
+        {
+          "name": "m_mapLink",
+          "tag": -21,
+          "type_chain": [
+            {
+              "PE_file_offset": 43222293,
+              "PE_rva": 43226389,
+              "bytes": 5,
+              "header": 16,
+              "id": 2476,
+              "kind": "USER",
+              "name": null,
+              "offset": 53253
+            },
+            {
+              "PE_file_offset": 43216824,
+              "PE_rva": 43220920,
+              "bounds": {
+                "bits": 2,
+                "int_type": 1,
+                "max": 3,
+                "min": 0,
+                "variable": false
+              },
+              "bytes": 22,
+              "header": 78,
+              "id": 1747,
+              "kind": "STRUCT",
+              "name": "Battlenet::S2Map::Link",
+              "offset": 47784
+            }
+          ]
+        },
+        {
+          "name": "m_headerCacheHandles",
+          "tag": -20,
+          "type_chain": [
+            {
+              "PE_file_offset": 43222298,
+              "PE_rva": 43226394,
+              "bytes": 5,
+              "header": 16,
+              "id": 2477,
+              "kind": "USER",
+              "name": null,
+              "offset": 53258
+            },
+            {
+              "PE_file_offset": 43222382,
+              "PE_rva": 43226478,
+              "bounds": {
+                "bits": 6,
+                "int_type": 1,
+                "max": 32,
+                "min": 0,
+                "variable": true
+              },
+              "bytes": 9,
+              "header": 1,
+              "id": 2497,
+              "kind": "ARRAY",
+              "name": "Battlenet::S2Map::HeaderCacheHandleList",
+              "offset": 53342
+            },
+            {
+              "PE_file_offset": 43222439,
+              "PE_rva": 43226535,
+              "bytes": 5,
+              "header": 16,
+              "id": 2504,
+              "kind": "USER",
+              "name": null,
+              "offset": 53399
+            },
+            {
+              "PE_file_offset": 43204155,
+              "PE_rva": 43208251,
+              "bounds": {
+                "bits": 0,
+                "int_type": 1,
+                "max": 40,
+                "min": 40,
+                "variable": false
+              },
+              "bytes": 3,
+              "header": 132,
+              "id": 136,
+              "kind": "BLOB",
+              "name": "Battlenet::Cache::Handle",
+              "offset": 35115
+            }
+          ]
+        },
+        {
+          "name": "m_resourceMap",
+          "tag": -19,
+          "type_chain": [
+            {
+              "PE_file_offset": 43222303,
+              "PE_rva": 43226399,
+              "bytes": 5,
+              "header": 16,
+              "id": 2478,
+              "kind": "USER",
+              "name": null,
+              "offset": 53263
+            },
+            {
+              "PE_file_offset": 43222391,
+              "PE_rva": 43226487,
+              "bounds": {
+                "bits": 16,
+                "int_type": 3,
+                "max": 65535,
+                "min": 0,
+                "variable": true
+              },
+              "bytes": 11,
+              "header": 1,
+              "id": 2498,
+              "kind": "ARRAY",
+              "name": "Battlenet::S2Map::ResourceIdentifierMap",
+              "offset": 53351
+            },
+            {
+              "PE_file_offset": 43222444,
+              "PE_rva": 43226540,
+              "bytes": 5,
+              "header": 16,
+              "id": 2505,
+              "kind": "USER",
+              "name": null,
+              "offset": 53404
+            },
+            {
+              "PE_file_offset": 43222460,
+              "PE_rva": 43226556,
+              "bytes": 5,
+              "header": 16,
+              "id": 2509,
+              "kind": "USER",
+              "name": "Battlenet::S2Map::ResourceIdentifier",
+              "offset": 53420
+            },
+            {
+              "PE_file_offset": 43206275,
+              "PE_rva": 43210371,
+              "bytes": 5,
+              "header": 16,
+              "id": 396,
+              "kind": "USER",
+              "name": "Battlenet::BattlePay::LicenseId",
+              "offset": 37235
+            },
+            {
+              "PE_file_offset": 43202526,
+              "PE_rva": 43206622,
+              "bounds": {
+                "bits": 64,
+                "int_type": 7,
+                "max": 18446744073709551615,
+                "min": 0,
+                "variable": true
+              },
+              "bytes": 19,
+              "header": 9,
+              "id": 17,
+              "kind": "INT",
+              "name": "Battlenet::u64",
+              "offset": 33486
+            }
+          ]
+        },
+        {
+          "name": "m_randomSeed",
+          "tag": -18,
+          "type_chain": [
+            {
+              "PE_file_offset": 43222308,
+              "PE_rva": 43226404,
+              "bytes": 5,
+              "header": 16,
+              "id": 2479,
+              "kind": "USER",
+              "name": null,
+              "offset": 53268
+            },
+            {
+              "PE_file_offset": 43217549,
+              "PE_rva": 43221645,
+              "bounds": {
+                "bits": 0,
+                "int_type": 1,
+                "max": 4,
+                "min": 4,
+                "variable": false
+              },
+              "bytes": 3,
+              "header": 132,
+              "id": 1845,
+              "kind": "BLOB",
+              "name": "Battlenet::S2Game::RandomSeed",
+              "offset": 48509
+            }
+          ]
+        },
+        {
+          "name": "m_clientId",
+          "tag": -17,
+          "type_chain": [
+            {
+              "PE_file_offset": 43222313,
+              "PE_rva": 43226409,
+              "bytes": 5,
+              "header": 16,
+              "id": 2480,
+              "kind": "USER",
+              "name": null,
+              "offset": 53273
+            },
+            {
+              "PE_file_offset": 43216187,
+              "PE_rva": 43220283,
+              "bytes": 5,
+              "header": 16,
+              "id": 1670,
+              "kind": "USER",
+              "name": "Battlenet::S2Game::ClientId",
+              "offset": 47147
+            },
+            {
+              "PE_file_offset": 43202385,
+              "PE_rva": 43206481,
+              "bounds": {
+                "bits": 32,
+                "int_type": 5,
+                "max": 4294967295,
+                "min": 0,
+                "variable": true
+              },
+              "bytes": 11,
+              "header": 9,
+              "id": 1,
+              "kind": "INT",
+              "name": "Battlenet::u32",
+              "offset": 33345
+            }
+          ]
+        },
+        {
+          "name": "m_clientInfoList",
+          "tag": -16,
+          "type_chain": [
+            {
+              "PE_file_offset": 43222318,
+              "PE_rva": 43226414,
+              "bytes": 5,
+              "header": 16,
+              "id": 2481,
+              "kind": "USER",
+              "name": null,
+              "offset": 53278
+            },
+            {
+              "PE_file_offset": 43216631,
+              "PE_rva": 43220727,
+              "bounds": {
+                "bits": 5,
+                "int_type": 1,
+                "max": 16,
+                "min": 0,
+                "variable": true
+              },
+              "bytes": 9,
+              "header": 1,
+              "id": 1702,
+              "kind": "ARRAY",
+              "name": "Battlenet::Client::S2GameDefines::ClientInfoList",
+              "offset": 47591
+            },
+            {
+              "PE_file_offset": 43216819,
+              "PE_rva": 43220915,
+              "bytes": 5,
+              "header": 16,
+              "id": 1746,
+              "kind": "USER",
+              "name": null,
+              "offset": 47779
+            },
+            {
+              "PE_file_offset": 43217004,
+              "PE_rva": 43221100,
+              "bounds": {
+                "bits": 5,
+                "int_type": 0,
+                "max": -1,
+                "min": -18,
+                "variable": false
+              },
+              "bytes": 77,
+              "header": 206,
+              "id": 1768,
+              "kind": "STRUCT",
+              "name": "Battlenet::Client::S2GameDefines::ClientInfo",
+              "offset": 47964
+            }
+          ]
+        },
+        {
+          "name": "m_resourceAccessList",
+          "tag": -15,
+          "type_chain": [
+            {
+              "PE_file_offset": 43222323,
+              "PE_rva": 43226419,
+              "bytes": 5,
+              "header": 16,
+              "id": 2482,
+              "kind": "USER",
+              "name": null,
+              "offset": 53283
+            },
+            {
+              "PE_file_offset": 43222402,
+              "PE_rva": 43226498,
+              "bounds": {
+                "bits": 5,
+                "int_type": 1,
+                "max": 16,
+                "min": 0,
+                "variable": true
+              },
+              "bytes": 9,
+              "header": 1,
+              "id": 2499,
+              "kind": "ARRAY",
+              "name": "Battlenet::S2Map::ResourceAccessListBitsList",
+              "offset": 53362
+            },
+            {
+              "PE_file_offset": 43222449,
+              "PE_rva": 43226545,
+              "bytes": 5,
+              "header": 16,
+              "id": 2506,
+              "kind": "USER",
+              "name": null,
+              "offset": 53409
+            },
+            {
+              "PE_file_offset": 43216952,
+              "PE_rva": 43221048,
+              "bounds": {
+                "bits": 15,
+                "int_type": 3,
+                "max": 32257,
+                "min": 0,
+                "variable": true
+              },
+              "bytes": 7,
+              "header": 3,
+              "id": 1762,
+              "kind": "BIT_ARRAY",
+              "name": "Battlenet::S2Map::ResourceAccessListBits",
+              "offset": 47912
+            }
+          ]
+        },
+        {
+          "name": "m_voiceSessionId",
+          "tag": -14,
+          "type_chain": [
+            {
+              "PE_file_offset": 43222328,
+              "PE_rva": 43226424,
+              "bytes": 5,
+              "header": 16,
+              "id": 2483,
+              "kind": "USER",
+              "name": null,
+              "offset": 53288
+            },
+            {
+              "PE_file_offset": 43210931,
+              "PE_rva": 43215027,
+              "bounds": {
+                "bits": 1,
+                "int_type": 0,
+                "max": -1,
+                "min": -2,
+                "variable": false
+              },
+              "bytes": 13,
+              "header": 206,
+              "id": 983,
+              "kind": "STRUCT",
+              "name": "Battlenet::ComSat::SessionIdUnion",
+              "offset": 41891
+            }
+          ]
+        },
+        {
+          "name": "m_ammHandle",
+          "tag": -13,
+          "type_chain": [
+            {
+              "PE_file_offset": 43222333,
+              "PE_rva": 43226429,
+              "bytes": 5,
+              "header": 11,
+              "id": 2484,
+              "kind": "OPTIONAL",
+              "name": null,
+              "offset": 53293
+            },
+            {
+              "PE_file_offset": 43222411,
+              "PE_rva": 43226507,
+              "bytes": 5,
+              "header": 16,
+              "id": 2500,
+              "kind": "USER",
+              "name": null,
+              "offset": 53371
+            },
+            {
+              "PE_file_offset": 43217100,
+              "PE_rva": 43221196,
+              "bounds": {
+                "bits": 3,
+                "int_type": 1,
+                "max": 4,
+                "min": 0,
+                "variable": false
+              },
+              "bytes": 25,
+              "header": 206,
+              "id": 1772,
+              "kind": "STRUCT",
+              "name": "Battlenet::MatchMaker::Handle",
+              "offset": 48060
+            }
+          ]
+        },
+        {
+          "name": "m_isCompetitive",
+          "tag": -12,
+          "type_chain": [
+            {
+              "PE_file_offset": 43222338,
+              "PE_rva": 43226434,
+              "bytes": 1,
+              "header": 5,
+              "id": 2485,
+              "kind": "BOOL",
+              "name": null,
+              "offset": 53298
+            }
+          ]
+        },
+        {
+          "name": "m_isRanked",
+          "tag": -11,
+          "type_chain": [
+            {
+              "PE_file_offset": 43222339,
+              "PE_rva": 43226435,
+              "bytes": 1,
+              "header": 5,
+              "id": 2486,
+              "kind": "BOOL",
+              "name": null,
+              "offset": 53299
+            }
+          ]
+        },
+        {
+          "name": "m_isPractice",
+          "tag": -10,
+          "type_chain": [
+            {
+              "PE_file_offset": 43222340,
+              "PE_rva": 43226436,
+              "bytes": 1,
+              "header": 5,
+              "id": 2487,
+              "kind": "BOOL",
+              "name": null,
+              "offset": 53300
+            }
+          ]
+        },
+        {
+          "name": "m_isCooperative",
+          "tag": -9,
+          "type_chain": [
+            {
+              "PE_file_offset": 43222341,
+              "PE_rva": 43226437,
+              "bytes": 1,
+              "header": 5,
+              "id": 2488,
+              "kind": "BOOL",
+              "name": null,
+              "offset": 53301
+            }
+          ]
+        },
+        {
+          "name": "m_instanceHandle",
+          "tag": -8,
+          "type_chain": [
+            {
+              "PE_file_offset": 43222342,
+              "PE_rva": 43226438,
+              "bytes": 5,
+              "header": 16,
+              "id": 2489,
+              "kind": "USER",
+              "name": null,
+              "offset": 53302
+            },
+            {
+              "PE_file_offset": 43216851,
+              "PE_rva": 43220947,
+              "bounds": {
+                "bits": 2,
+                "int_type": 1,
+                "max": 2,
+                "min": 0,
+                "variable": false
+              },
+              "bytes": 17,
+              "header": 206,
+              "id": 1749,
+              "kind": "STRUCT",
+              "name": "Battlenet::S2Master::InstanceHandle",
+              "offset": 47811
+            }
+          ]
+        },
+        {
+          "name": "m_ladderStats",
+          "tag": -7,
+          "type_chain": [
+            {
+              "PE_file_offset": 43222347,
+              "PE_rva": 43226443,
+              "bytes": 5,
+              "header": 11,
+              "id": 2490,
+              "kind": "OPTIONAL",
+              "name": null,
+              "offset": 53307
+            },
+            {
+              "PE_file_offset": 43222416,
+              "PE_rva": 43226512,
+              "bytes": 5,
+              "header": 16,
+              "id": 2501,
+              "kind": "USER",
+              "name": null,
+              "offset": 53376
+            },
+            {
+              "PE_file_offset": 43216882,
+              "PE_rva": 43220978,
+              "bounds": {
+                "bits": 4,
+                "int_type": 1,
+                "max": 16,
+                "min": 1,
+                "variable": true
+              },
+              "bytes": 9,
+              "header": 1,
+              "id": 1752,
+              "kind": "ARRAY",
+              "name": "Battlenet::Client::S2GameDefines::LadderStatsList",
+              "offset": 47842
+            },
+            {
+              "PE_file_offset": 43217141,
+              "PE_rva": 43221237,
+              "bytes": 5,
+              "header": 16,
+              "id": 1777,
+              "kind": "USER",
+              "name": null,
+              "offset": 48101
+            },
+            {
+              "PE_file_offset": 43217351,
+              "PE_rva": 43221447,
+              "bounds": {
+                "bits": 2,
+                "int_type": 0,
+                "max": -1,
+                "min": -3,
+                "variable": false
+              },
+              "bytes": 17,
+              "header": 206,
+              "id": 1815,
+              "kind": "STRUCT",
+              "name": "Battlenet::Client::S2GameDefines::LadderStats",
+              "offset": 48311
+            }
+          ]
+        },
+        {
+          "name": "m_races",
+          "tag": -6,
+          "type_chain": [
+            {
+              "PE_file_offset": 43222352,
+              "PE_rva": 43226448,
+              "bytes": 5,
+              "header": 11,
+              "id": 2491,
+              "kind": "OPTIONAL",
+              "name": null,
+              "offset": 53312
+            },
+            {
+              "PE_file_offset": 43222421,
+              "PE_rva": 43226517,
+              "bounds": {
+                "bits": 4,
+                "int_type": 1,
+                "max": 16,
+                "min": 1,
+                "variable": true
+              },
+              "bytes": 9,
+              "header": 1,
+              "id": 2502,
+              "kind": "ARRAY",
+              "name": null,
+              "offset": 53381
+            },
+            {
+              "PE_file_offset": 43222454,
+              "PE_rva": 43226550,
+              "bytes": 1,
+              "header": 8,
+              "id": 2507,
+              "kind": "FOURCC",
+              "name": null,
+              "offset": 53414
+            }
+          ]
+        },
+        {
+          "name": "m_clientUnlockableInfoList",
+          "tag": -5,
+          "type_chain": [
+            {
+              "PE_file_offset": 43222357,
+              "PE_rva": 43226453,
+              "bytes": 5,
+              "header": 16,
+              "id": 2492,
+              "kind": "USER",
+              "name": null,
+              "offset": 53317
+            },
+            {
+              "PE_file_offset": 43217422,
+              "PE_rva": 43221518,
+              "bounds": {
+                "bits": 5,
+                "int_type": 1,
+                "max": 16,
+                "min": 0,
+                "variable": true
+              },
+              "bytes": 9,
+              "header": 1,
+              "id": 1826,
+              "kind": "ARRAY",
+              "name": "Battlenet::Client::S2GameDefines::ClientUnlockableInfoList",
+              "offset": 48382
+            },
+            {
+              "PE_file_offset": 43217552,
+              "PE_rva": 43221648,
+              "bytes": 5,
+              "header": 16,
+              "id": 1846,
+              "kind": "USER",
+              "name": null,
+              "offset": 48512
+            },
+            {
+              "PE_file_offset": 43217622,
+              "PE_rva": 43221718,
+              "bounds": {
+                "bits": 2,
+                "int_type": 0,
+                "max": -1,
+                "min": -3,
+                "variable": false
+              },
+              "bytes": 17,
+              "header": 206,
+              "id": 1856,
+              "kind": "STRUCT",
+              "name": "Battlenet::Client::S2GameDefines::ClientUnlockableInfo",
+              "offset": 48582
+            }
+          ]
+        },
+        {
+          "name": "m_clientLicensesList",
+          "tag": -4,
+          "type_chain": [
+            {
+              "PE_file_offset": 43222362,
+              "PE_rva": 43226458,
+              "bytes": 5,
+              "header": 16,
+              "id": 2493,
+              "kind": "USER",
+              "name": null,
+              "offset": 53322
+            },
+            {
+              "PE_file_offset": 43222430,
+              "PE_rva": 43226526,
+              "bounds": {
+                "bits": 5,
+                "int_type": 1,
+                "max": 16,
+                "min": 0,
+                "variable": true
+              },
+              "bytes": 9,
+              "header": 1,
+              "id": 2503,
+              "kind": "ARRAY",
+              "name": "Battlenet::Client::S2GameDefines::ClientLicensesList",
+              "offset": 53390
+            },
+            {
+              "PE_file_offset": 43222455,
+              "PE_rva": 43226551,
+              "bytes": 5,
+              "header": 16,
+              "id": 2508,
+              "kind": "USER",
+              "name": null,
+              "offset": 53415
+            },
+            {
+              "PE_file_offset": 43222465,
+              "PE_rva": 43226561,
+              "bounds": {
+                "bits": 1,
+                "int_type": 0,
+                "max": -1,
+                "min": -2,
+                "variable": false
+              },
+              "bytes": 13,
+              "header": 206,
+              "id": 2510,
+              "kind": "STRUCT",
+              "name": "Battlenet::Client::S2GameDefines::ClientLicenses",
+              "offset": 53425
+            }
+          ]
+        },
+        {
+          "name": "m_turnIntervalMS",
+          "tag": -3,
+          "type_chain": [
+            {
+              "PE_file_offset": 43222367,
+              "PE_rva": 43226463,
+              "bytes": 5,
+              "header": 16,
+              "id": 2494,
+              "kind": "USER",
+              "name": null,
+              "offset": 53327
+            },
+            {
+              "PE_file_offset": 43202385,
+              "PE_rva": 43206481,
+              "bounds": {
+                "bits": 32,
+                "int_type": 5,
+                "max": 4294967295,
+                "min": 0,
+                "variable": true
+              },
+              "bytes": 11,
+              "header": 9,
+              "id": 1,
+              "kind": "INT",
+              "name": "Battlenet::u32",
+              "offset": 33345
+            }
+          ]
+        },
+        {
+          "name": "m_numTurns",
+          "tag": -2,
+          "type_chain": [
+            {
+              "PE_file_offset": 43222372,
+              "PE_rva": 43226468,
+              "bytes": 5,
+              "header": 16,
+              "id": 2495,
+              "kind": "USER",
+              "name": null,
+              "offset": 53332
+            },
+            {
+              "PE_file_offset": 43216917,
+              "PE_rva": 43221013,
+              "bytes": 5,
+              "header": 16,
+              "id": 1755,
+              "kind": "USER",
+              "name": "Battlenet::S2Game::TurnNumber",
+              "offset": 47877
+            },
+            {
+              "PE_file_offset": 43202385,
+              "PE_rva": 43206481,
+              "bounds": {
+                "bits": 32,
+                "int_type": 5,
+                "max": 4294967295,
+                "min": 0,
+                "variable": true
+              },
+              "bytes": 11,
+              "header": 9,
+              "id": 1,
+              "kind": "INT",
+              "name": "Battlenet::u32",
+              "offset": 33345
+            }
+          ]
+        },
+        {
+          "name": "m_numDataStructs",
+          "tag": -1,
+          "type_chain": [
+            {
+              "PE_file_offset": 43222377,
+              "PE_rva": 43226473,
+              "bytes": 5,
+              "header": 16,
+              "id": 2496,
+              "kind": "USER",
+              "name": null,
+              "offset": 53337
+            },
+            {
+              "PE_file_offset": 43202526,
+              "PE_rva": 43206622,
+              "bounds": {
+                "bits": 64,
+                "int_type": 7,
+                "max": 18446744073709551615,
+                "min": 0,
+                "variable": true
+              },
+              "bytes": 19,
+              "header": 9,
+              "id": 17,
+              "kind": "INT",
+              "name": "Battlenet::u64",
+              "offset": 33486
+            }
+          ]
+        }
+      ],
+      "type": [
+        {
+          "PE_file_offset": 43222168,
+          "PE_rva": 43226264,
+          "bounds": {
+            "bits": 5,
+            "int_type": 0,
+            "max": -1,
+            "min": -25,
+            "variable": false
+          },
+          "bytes": 105,
+          "header": 206,
+          "id": 2471,
+          "kind": "STRUCT",
+          "name": "Battlenet::Client::S2Game::EncodedGameDataHeader",
+          "offset": 53128
+        }
+      ]
+    },
+    "Battlenet::Client::S2GameDefines::ClientInfo": {
+      "members": [
+        {
+          "name": "m_clientId",
+          "tag": -18,
+          "type_chain": [
+            {
+              "PE_file_offset": 43217230,
+              "PE_rva": 43221326,
+              "bytes": 5,
+              "header": 16,
+              "id": 1790,
+              "kind": "USER",
+              "name": null,
+              "offset": 48190
+            },
+            {
+              "PE_file_offset": 43216187,
+              "PE_rva": 43220283,
+              "bytes": 5,
+              "header": 16,
+              "id": 1670,
+              "kind": "USER",
+              "name": "Battlenet::S2Game::ClientId",
+              "offset": 47147
+            },
+            {
+              "PE_file_offset": 43202385,
+              "PE_rva": 43206481,
+              "bounds": {
+                "bits": 32,
+                "int_type": 5,
+                "max": 4294967295,
+                "min": 0,
+                "variable": true
+              },
+              "bytes": 11,
+              "header": 9,
+              "id": 1,
+              "kind": "INT",
+              "name": "Battlenet::u32",
+              "offset": 33345
+            }
+          ]
+        },
+        {
+          "name": "m_playerScope",
+          "tag": -17,
+          "type_chain": [
+            {
+              "PE_file_offset": 43217235,
+              "PE_rva": 43221331,
+              "bytes": 5,
+              "header": 16,
+              "id": 1791,
+              "kind": "USER",
+              "name": null,
+              "offset": 48195
+            },
+            {
+              "PE_file_offset": 43204195,
+              "PE_rva": 43208291,
+              "bounds": {
+                "bits": 5,
+                "int_type": 1,
+                "max": 31,
+                "min": 0,
+                "variable": true
+              },
+              "bytes": 29,
+              "header": 7,
+              "id": 142,
+              "kind": "ENUM",
+              "name": "Battlenet::Attribute::Scope::Enum",
+              "offset": 35155
+            }
+          ]
+        },
+        {
+          "name": "m_toonHandle",
+          "tag": -16,
+          "type_chain": [
+            {
+              "PE_file_offset": 43217240,
+              "PE_rva": 43221336,
+              "bytes": 5,
+              "header": 16,
+              "id": 1792,
+              "kind": "USER",
+              "name": null,
+              "offset": 48200
+            },
+            {
+              "PE_file_offset": 43210638,
+              "PE_rva": 43214734,
+              "bounds": {
+                "bits": 2,
+                "int_type": 1,
+                "max": 3,
+                "min": 0,
+                "variable": false
+              },
+              "bytes": 21,
+              "header": 206,
+              "id": 946,
+              "kind": "STRUCT",
+              "name": "Battlenet::Toon::Handle",
+              "offset": 41598
+            }
+          ]
+        },
+        {
+          "name": "m_toonName",
+          "tag": -15,
+          "type_chain": [
+            {
+              "PE_file_offset": 43217245,
+              "PE_rva": 43221341,
+              "bytes": 5,
+              "header": 16,
+              "id": 1793,
+              "kind": "USER",
+              "name": null,
+              "offset": 48205
+            },
+            {
+              "PE_file_offset": 43210373,
+              "PE_rva": 43214469,
+              "bounds": {
+                "bits": 2,
+                "int_type": 1,
+                "max": 3,
+                "min": 0,
+                "variable": false
+              },
+              "bytes": 21,
+              "header": 206,
+              "id": 911,
+              "kind": "STRUCT",
+              "name": "Battlenet::Toon::FullName",
+              "offset": 41333
+            }
+          ]
+        },
+        {
+          "name": "m_talkerInfo",
+          "tag": -14,
+          "type_chain": [
+            {
+              "PE_file_offset": 43217250,
+              "PE_rva": 43221346,
+              "bytes": 5,
+              "header": 16,
+              "id": 1794,
+              "kind": "USER",
+              "name": null,
+              "offset": 48210
+            },
+            {
+              "PE_file_offset": 43210360,
+              "PE_rva": 43214456,
+              "bounds": {
+                "bits": 1,
+                "int_type": 0,
+                "max": -1,
+                "min": -2,
+                "variable": false
+              },
+              "bytes": 13,
+              "header": 206,
+              "id": 910,
+              "kind": "STRUCT",
+              "name": "Battlenet::Client::ComSat::TalkerInfo",
+              "offset": 41320
+            }
+          ]
+        },
+        {
+          "name": "m_talkerNetworkId",
+          "tag": -13,
+          "type_chain": [
+            {
+              "PE_file_offset": 43217255,
+              "PE_rva": 43221351,
+              "bytes": 5,
+              "header": 16,
+              "id": 1795,
+              "kind": "USER",
+              "name": null,
+              "offset": 48215
+            },
+            {
+              "PE_file_offset": 43210355,
+              "PE_rva": 43214451,
+              "bytes": 5,
+              "header": 16,
+              "id": 909,
+              "kind": "USER",
+              "name": "Battlenet::ComSat::TalkerNetworkId",
+              "offset": 41315
+            },
+            {
+              "PE_file_offset": 43202441,
+              "PE_rva": 43206537,
+              "bounds": {
+                "bits": 8,
+                "int_type": 1,
+                "max": 255,
+                "min": 0,
+                "variable": true
+              },
+              "bytes": 5,
+              "header": 9,
+              "id": 9,
+              "kind": "INT",
+              "name": "Battlenet::u8",
+              "offset": 33401
+            }
+          ]
+        },
+        {
+          "name": "m_voiceSessionId",
+          "tag": -12,
+          "type_chain": [
+            {
+              "PE_file_offset": 43217260,
+              "PE_rva": 43221356,
+              "bytes": 5,
+              "header": 16,
+              "id": 1796,
+              "kind": "USER",
+              "name": null,
+              "offset": 48220
+            },
+            {
+              "PE_file_offset": 43213859,
+              "PE_rva": 43217955,
+              "bytes": 5,
+              "header": 16,
+              "id": 1370,
+              "kind": "USER",
+              "name": "Battlenet::ComSat::SessionId",
+              "offset": 44819
+            },
+            {
+              "PE_file_offset": 43202526,
+              "PE_rva": 43206622,
+              "bounds": {
+                "bits": 64,
+                "int_type": 7,
+                "max": 18446744073709551615,
+                "min": 0,
+                "variable": true
+              },
+              "bytes": 19,
+              "header": 9,
+              "id": 17,
+              "kind": "INT",
+              "name": "Battlenet::u64",
+              "offset": 33486
+            }
+          ]
+        },
+        {
+          "name": "m_profileAddress",
+          "tag": -11,
+          "type_chain": [
+            {
+              "PE_file_offset": 43217265,
+              "PE_rva": 43221361,
+              "bytes": 5,
+              "header": 16,
+              "id": 1797,
+              "kind": "USER",
+              "name": null,
+              "offset": 48225
+            },
+            {
+              "PE_file_offset": 43210625,
+              "PE_rva": 43214721,
+              "bounds": {
+                "bits": 1,
+                "int_type": 1,
+                "max": 1,
+                "min": 0,
+                "variable": false
+              },
+              "bytes": 13,
+              "header": 206,
+              "id": 945,
+              "kind": "STRUCT",
+              "name": "Battlenet::Profile::RecordAddress",
+              "offset": 41585
+            }
+          ]
+        },
+        {
+          "name": "m_relevantPermissions",
+          "tag": -10,
+          "type_chain": [
+            {
+              "PE_file_offset": 43217270,
+              "PE_rva": 43221366,
+              "bytes": 5,
+              "header": 16,
+              "id": 1798,
+              "kind": "USER",
+              "name": null,
+              "offset": 48230
+            },
+            {
+              "PE_file_offset": 43217442,
+              "PE_rva": 43221538,
+              "bounds": {
+                "bits": 31,
+                "int_type": 5,
+                "max": 2147483647,
+                "min": 0,
+                "variable": true
+              },
+              "bytes": 15,
+              "header": 1,
+              "id": 1828,
+              "kind": "ARRAY",
+              "name": "Battlenet::Permission::HandleList",
+              "offset": 48402
+            },
+            {
+              "PE_file_offset": 43217562,
+              "PE_rva": 43221658,
+              "bytes": 5,
+              "header": 16,
+              "id": 1848,
+              "kind": "USER",
+              "name": null,
+              "offset": 48522
+            },
+            {
+              "PE_file_offset": 43204512,
+              "PE_rva": 43208608,
+              "bounds": {
+                "bits": 1,
+                "int_type": 1,
+                "max": 1,
+                "min": 0,
+                "variable": false
+              },
+              "bytes": 13,
+              "header": 206,
+              "id": 181,
+              "kind": "STRUCT",
+              "name": "Battlenet::Permission::Handle",
+              "offset": 35472
+            }
+          ]
+        },
+        {
+          "name": "m_rating",
+          "tag": -9,
+          "type_chain": [
+            {
+              "PE_file_offset": 43217275,
+              "PE_rva": 43221371,
+              "bytes": 5,
+              "header": 11,
+              "id": 1799,
+              "kind": "OPTIONAL",
+              "name": null,
+              "offset": 48235
+            },
+            {
+              "PE_file_offset": 43217457,
+              "PE_rva": 43221553,
+              "bytes": 5,
+              "header": 16,
+              "id": 1829,
+              "kind": "USER",
+              "name": null,
+              "offset": 48417
+            },
+            {
+              "PE_file_offset": 43217567,
+              "PE_rva": 43221663,
+              "bytes": 1,
+              "header": 13,
+              "id": 1849,
+              "kind": "REAL64",
+              "name": "Battlenet::Ladder::Rating",
+              "offset": 48527
+            }
+          ]
+        },
+        {
+          "name": "m_clanTag",
+          "tag": -8,
+          "type_chain": [
+            {
+              "PE_file_offset": 43217280,
+              "PE_rva": 43221376,
+              "bytes": 5,
+              "header": 11,
+              "id": 1800,
+              "kind": "OPTIONAL",
+              "name": null,
+              "offset": 48240
+            },
+            {
+              "PE_file_offset": 43217462,
+              "PE_rva": 43221558,
+              "bytes": 5,
+              "header": 16,
+              "id": 1830,
+              "kind": "USER",
+              "name": null,
+              "offset": 48422
+            },
+            {
+              "PE_file_offset": 43217568,
+              "PE_rva": 43221664,
+              "bounds": {
+                "bits": 3,
+                "int_type": 1,
+                "max": 6,
+                "min": 0,
+                "variable": true
+              },
+              "bytes": 5,
+              "header": 15,
+              "id": 1850,
+              "kind": "STRING",
+              "name": "Battlenet::Club::ClubTag",
+              "offset": 48528
+            }
+          ]
+        },
+        {
+          "name": "m_clanLogo",
+          "tag": -7,
+          "type_chain": [
+            {
+              "PE_file_offset": 43217285,
+              "PE_rva": 43221381,
+              "bytes": 5,
+              "header": 11,
+              "id": 1801,
+              "kind": "OPTIONAL",
+              "name": null,
+              "offset": 48245
+            },
+            {
+              "PE_file_offset": 43217467,
+              "PE_rva": 43221563,
+              "bytes": 5,
+              "header": 16,
+              "id": 1831,
+              "kind": "USER",
+              "name": null,
+              "offset": 48427
+            },
+            {
+              "PE_file_offset": 43204155,
+              "PE_rva": 43208251,
+              "bounds": {
+                "bits": 0,
+                "int_type": 1,
+                "max": 40,
+                "min": 40,
+                "variable": false
+              },
+              "bytes": 3,
+              "header": 132,
+              "id": 136,
+              "kind": "BLOB",
+              "name": "Battlenet::Cache::Handle",
+              "offset": 35115
+            }
+          ]
+        },
+        {
+          "name": "m_highestLeague",
+          "tag": -6,
+          "type_chain": [
+            {
+              "PE_file_offset": 43217290,
+              "PE_rva": 43221386,
+              "bytes": 5,
+              "header": 11,
+              "id": 1802,
+              "kind": "OPTIONAL",
+              "name": null,
+              "offset": 48250
+            },
+            {
+              "PE_file_offset": 43217472,
+              "PE_rva": 43221568,
+              "bytes": 5,
+              "header": 16,
+              "id": 1832,
+              "kind": "USER",
+              "name": null,
+              "offset": 48432
+            },
+            {
+              "PE_file_offset": 43202441,
+              "PE_rva": 43206537,
+              "bounds": {
+                "bits": 8,
+                "int_type": 1,
+                "max": 255,
+                "min": 0,
+                "variable": true
+              },
+              "bytes": 5,
+              "header": 9,
+              "id": 9,
+              "kind": "INT",
+              "name": "Battlenet::u8",
+              "offset": 33401
+            }
+          ]
+        },
+        {
+          "name": "m_clientBuildVersion",
+          "tag": -5,
+          "type_chain": [
+            {
+              "PE_file_offset": 43217295,
+              "PE_rva": 43221391,
+              "bytes": 5,
+              "header": 11,
+              "id": 1803,
+              "kind": "OPTIONAL",
+              "name": null,
+              "offset": 48255
+            },
+            {
+              "PE_file_offset": 43217477,
+              "PE_rva": 43221573,
+              "bytes": 5,
+              "header": 16,
+              "id": 1833,
+              "kind": "USER",
+              "name": null,
+              "offset": 48437
+            },
+            {
+              "PE_file_offset": 43202385,
+              "PE_rva": 43206481,
+              "bounds": {
+                "bits": 32,
+                "int_type": 5,
+                "max": 4294967295,
+                "min": 0,
+                "variable": true
+              },
+              "bytes": 11,
+              "header": 9,
+              "id": 1,
+              "kind": "INT",
+              "name": "Battlenet::u32",
+              "offset": 33345
+            }
+          ]
+        },
+        {
+          "name": "m_sharedPlayerInfo",
+          "tag": -4,
+          "type_chain": [
+            {
+              "PE_file_offset": 43217300,
+              "PE_rva": 43221396,
+              "bytes": 5,
+              "header": 16,
+              "id": 1804,
+              "kind": "USER",
+              "name": null,
+              "offset": 48260
+            },
+            {
+              "PE_file_offset": 43217482,
+              "PE_rva": 43221578,
+              "bounds": {
+                "bits": 1,
+                "int_type": 1,
+                "max": 1,
+                "min": 0,
+                "variable": false
+              },
+              "bytes": 13,
+              "header": 134,
+              "id": 1834,
+              "kind": "CHOICE",
+              "name": "Battlenet::S2Game::SharedPlayerInfo",
+              "offset": 48442
+            }
+          ]
+        },
+        {
+          "name": "m_accountNickname",
+          "tag": -3,
+          "type_chain": [
+            {
+              "PE_file_offset": 43217305,
+              "PE_rva": 43221401,
+              "bytes": 5,
+              "header": 11,
+              "id": 1805,
+              "kind": "OPTIONAL",
+              "name": null,
+              "offset": 48265
+            },
+            {
+              "PE_file_offset": 43217495,
+              "PE_rva": 43221591,
+              "bytes": 5,
+              "header": 16,
+              "id": 1835,
+              "kind": "USER",
+              "name": null,
+              "offset": 48455
+            },
+            {
+              "PE_file_offset": 43202870,
+              "PE_rva": 43206966,
+              "bounds": {
+                "bits": 5,
+                "int_type": 1,
+                "max": 27,
+                "min": 0,
+                "variable": true
+              },
+              "bytes": 5,
+              "header": 15,
+              "id": 26,
+              "kind": "STRING",
+              "name": "Battlenet::Account::Nickname",
+              "offset": 33830
+            }
+          ]
+        },
+        {
+          "name": "m_playerLevel",
+          "tag": -2,
+          "type_chain": [
+            {
+              "PE_file_offset": 43217310,
+              "PE_rva": 43221406,
+              "bytes": 5,
+              "header": 16,
+              "id": 1806,
+              "kind": "USER",
+              "name": null,
+              "offset": 48270
+            },
+            {
+              "PE_file_offset": 43202385,
+              "PE_rva": 43206481,
+              "bounds": {
+                "bits": 32,
+                "int_type": 5,
+                "max": 4294967295,
+                "min": 0,
+                "variable": true
+              },
+              "bytes": 11,
+              "header": 9,
+              "id": 1,
+              "kind": "INT",
+              "name": "Battlenet::u32",
+              "offset": 33345
+            }
+          ]
+        },
+        {
+          "name": "m_hasActiveBoost",
+          "tag": -1,
+          "type_chain": [
+            {
+              "PE_file_offset": 43217315,
+              "PE_rva": 43221411,
+              "bytes": 1,
+              "header": 5,
+              "id": 1807,
+              "kind": "BOOL",
+              "name": null,
+              "offset": 48275
+            }
+          ]
+        }
+      ],
+      "type": [
+        {
+          "PE_file_offset": 43217004,
+          "PE_rva": 43221100,
+          "bounds": {
+            "bits": 5,
+            "int_type": 0,
+            "max": -1,
+            "min": -18,
+            "variable": false
+          },
+          "bytes": 77,
+          "header": 206,
+          "id": 1768,
+          "kind": "STRUCT",
+          "name": "Battlenet::Client::S2GameDefines::ClientInfo",
+          "offset": 47964
+        }
+      ]
+    },
+    "Battlenet::Client::S2GameDefines::ClientLicenses": {
+      "members": [
+        {
+          "name": "m_clientId",
+          "tag": -2,
+          "type_chain": [
+            {
+              "PE_file_offset": 43222478,
+              "PE_rva": 43226574,
+              "bytes": 5,
+              "header": 16,
+              "id": 2511,
+              "kind": "USER",
+              "name": null,
+              "offset": 53438
+            },
+            {
+              "PE_file_offset": 43216187,
+              "PE_rva": 43220283,
+              "bytes": 5,
+              "header": 16,
+              "id": 1670,
+              "kind": "USER",
+              "name": "Battlenet::S2Game::ClientId",
+              "offset": 47147
+            },
+            {
+              "PE_file_offset": 43202385,
+              "PE_rva": 43206481,
+              "bounds": {
+                "bits": 32,
+                "int_type": 5,
+                "max": 4294967295,
+                "min": 0,
+                "variable": true
+              },
+              "bytes": 11,
+              "header": 9,
+              "id": 1,
+              "kind": "INT",
+              "name": "Battlenet::u32",
+              "offset": 33345
+            }
+          ]
+        },
+        {
+          "name": "m_licenses",
+          "tag": -1,
+          "type_chain": [
+            {
+              "PE_file_offset": 43222483,
+              "PE_rva": 43226579,
+              "bytes": 5,
+              "header": 16,
+              "id": 2512,
+              "kind": "USER",
+              "name": null,
+              "offset": 53443
+            },
+            {
+              "PE_file_offset": 43210344,
+              "PE_rva": 43214440,
+              "bounds": {
+                "bits": 16,
+                "int_type": 3,
+                "max": 32768,
+                "min": 0,
+                "variable": true
+              },
+              "bytes": 11,
+              "header": 1,
+              "id": 908,
+              "kind": "ARRAY",
+              "name": "Battlenet::License::IdList",
+              "offset": 41304
+            },
+            {
+              "PE_file_offset": 43210413,
+              "PE_rva": 43214509,
+              "bytes": 5,
+              "header": 16,
+              "id": 913,
+              "kind": "USER",
+              "name": null,
+              "offset": 41373
+            },
+            {
+              "PE_file_offset": 43210058,
+              "PE_rva": 43214154,
+              "bytes": 5,
+              "header": 16,
+              "id": 866,
+              "kind": "USER",
+              "name": "Battlenet::License::Id",
+              "offset": 41018
+            },
+            {
+              "PE_file_offset": 43202385,
+              "PE_rva": 43206481,
+              "bounds": {
+                "bits": 32,
+                "int_type": 5,
+                "max": 4294967295,
+                "min": 0,
+                "variable": true
+              },
+              "bytes": 11,
+              "header": 9,
+              "id": 1,
+              "kind": "INT",
+              "name": "Battlenet::u32",
+              "offset": 33345
+            }
+          ]
+        }
+      ],
+      "type": [
+        {
+          "PE_file_offset": 43222465,
+          "PE_rva": 43226561,
+          "bounds": {
+            "bits": 1,
+            "int_type": 0,
+            "max": -1,
+            "min": -2,
+            "variable": false
+          },
+          "bytes": 13,
+          "header": 206,
+          "id": 2510,
+          "kind": "STRUCT",
+          "name": "Battlenet::Client::S2GameDefines::ClientLicenses",
+          "offset": 53425
+        }
+      ]
+    },
+    "Battlenet::Client::S2GameDefines::ClientLicensesList": {
+      "type": [
+        {
+          "PE_file_offset": 43222430,
+          "PE_rva": 43226526,
+          "bounds": {
+            "bits": 5,
+            "int_type": 1,
+            "max": 16,
+            "min": 0,
+            "variable": true
+          },
+          "bytes": 9,
+          "header": 1,
+          "id": 2503,
+          "kind": "ARRAY",
+          "name": "Battlenet::Client::S2GameDefines::ClientLicensesList",
+          "offset": 53390
+        },
+        {
+          "PE_file_offset": 43222455,
+          "PE_rva": 43226551,
+          "bytes": 5,
+          "header": 16,
+          "id": 2508,
+          "kind": "USER",
+          "name": null,
+          "offset": 53415
+        },
+        {
+          "PE_file_offset": 43222465,
+          "PE_rva": 43226561,
+          "bounds": {
+            "bits": 1,
+            "int_type": 0,
+            "max": -1,
+            "min": -2,
+            "variable": false
+          },
+          "bytes": 13,
+          "header": 206,
+          "id": 2510,
+          "kind": "STRUCT",
+          "name": "Battlenet::Client::S2GameDefines::ClientLicenses",
+          "offset": 53425
+        }
+      ]
+    },
+    "Battlenet::License::Id": {
+      "type": [
+        {
+          "PE_file_offset": 43210058,
+          "PE_rva": 43214154,
+          "bytes": 5,
+          "header": 16,
+          "id": 866,
+          "kind": "USER",
+          "name": "Battlenet::License::Id",
+          "offset": 41018
+        },
+        {
+          "PE_file_offset": 43202385,
+          "PE_rva": 43206481,
+          "bounds": {
+            "bits": 32,
+            "int_type": 5,
+            "max": 4294967295,
+            "min": 0,
+            "variable": true
+          },
+          "bytes": 11,
+          "header": 9,
+          "id": 1,
+          "kind": "INT",
+          "name": "Battlenet::u32",
+          "offset": 33345
+        }
+      ]
+    },
+    "Battlenet::Permission::Handle": {
+      "members": [
+        {
+          "name": "m_scope",
+          "tag": 0,
+          "type_chain": [
+            {
+              "PE_file_offset": 43204525,
+              "PE_rva": 43208621,
+              "bytes": 5,
+              "header": 16,
+              "id": 182,
+              "kind": "USER",
+              "name": null,
+              "offset": 35485
+            },
+            {
+              "PE_file_offset": 43204535,
+              "PE_rva": 43208631,
+              "bytes": 1,
+              "header": 8,
+              "id": 184,
+              "kind": "FOURCC",
+              "name": "Battlenet::Permission::Scope",
+              "offset": 35495
+            }
+          ]
+        },
+        {
+          "name": "m_id",
+          "tag": 1,
+          "type_chain": [
+            {
+              "PE_file_offset": 43204530,
+              "PE_rva": 43208626,
+              "bytes": 5,
+              "header": 16,
+              "id": 183,
+              "kind": "USER",
+              "name": null,
+              "offset": 35490
+            },
+            {
+              "PE_file_offset": 43202526,
+              "PE_rva": 43206622,
+              "bounds": {
+                "bits": 64,
+                "int_type": 7,
+                "max": 18446744073709551615,
+                "min": 0,
+                "variable": true
+              },
+              "bytes": 19,
+              "header": 9,
+              "id": 17,
+              "kind": "INT",
+              "name": "Battlenet::u64",
+              "offset": 33486
+            }
+          ]
+        }
+      ],
+      "type": [
+        {
+          "PE_file_offset": 43204512,
+          "PE_rva": 43208608,
+          "bounds": {
+            "bits": 1,
+            "int_type": 1,
+            "max": 1,
+            "min": 0,
+            "variable": false
+          },
+          "bytes": 13,
+          "header": 206,
+          "id": 181,
+          "kind": "STRUCT",
+          "name": "Battlenet::Permission::Handle",
+          "offset": 35472
+        }
+      ]
+    },
+    "Battlenet::Profile::RecordAddress": {
+      "members": [
+        {
+          "name": "m_label",
+          "tag": 0,
+          "type_chain": [
+            {
+              "PE_file_offset": 43210659,
+              "PE_rva": 43214755,
+              "bytes": 5,
+              "header": 16,
+              "id": 947,
+              "kind": "USER",
+              "name": null,
+              "offset": 41619
+            },
+            {
+              "PE_file_offset": 43210154,
+              "PE_rva": 43214250,
+              "bytes": 5,
+              "header": 16,
+              "id": 882,
+              "kind": "USER",
+              "name": "Battlenet::Label",
+              "offset": 41114
+            },
+            {
+              "PE_file_offset": 43202385,
+              "PE_rva": 43206481,
+              "bounds": {
+                "bits": 32,
+                "int_type": 5,
+                "max": 4294967295,
+                "min": 0,
+                "variable": true
+              },
+              "bytes": 11,
+              "header": 9,
+              "id": 1,
+              "kind": "INT",
+              "name": "Battlenet::u32",
+              "offset": 33345
+            }
+          ]
+        },
+        {
+          "name": "m_id",
+          "tag": 1,
+          "type_chain": [
+            {
+              "PE_file_offset": 43210664,
+              "PE_rva": 43214760,
+              "bytes": 5,
+              "header": 16,
+              "id": 948,
+              "kind": "USER",
+              "name": null,
+              "offset": 41624
+            },
+            {
+              "PE_file_offset": 43210689,
+              "PE_rva": 43214785,
+              "bytes": 5,
+              "header": 16,
+              "id": 953,
+              "kind": "USER",
+              "name": "Battlenet::Profile::RecordId",
+              "offset": 41649
+            },
+            {
+              "PE_file_offset": 43202526,
+              "PE_rva": 43206622,
+              "bounds": {
+                "bits": 64,
+                "int_type": 7,
+                "max": 18446744073709551615,
+                "min": 0,
+                "variable": true
+              },
+              "bytes": 19,
+              "header": 9,
+              "id": 17,
+              "kind": "INT",
+              "name": "Battlenet::u64",
+              "offset": 33486
+            }
+          ]
+        }
+      ],
+      "type": [
+        {
+          "PE_file_offset": 43210625,
+          "PE_rva": 43214721,
+          "bounds": {
+            "bits": 1,
+            "int_type": 1,
+            "max": 1,
+            "min": 0,
+            "variable": false
+          },
+          "bytes": 13,
+          "header": 206,
+          "id": 945,
+          "kind": "STRUCT",
+          "name": "Battlenet::Profile::RecordAddress",
+          "offset": 41585
+        }
+      ]
+    },
+    "Battlenet::S2Game::SharedPlayerInfo": {
+      "members": [
+        {
+          "name": "infoS2",
+          "tag": 0,
+          "type_chain": [
+            {
+              "PE_file_offset": 43217573,
+              "PE_rva": 43221669,
+              "bounds": {
+                "bits": 1,
+                "int_type": 0,
+                "max": -1,
+                "min": -2,
+                "variable": false
+              },
+              "bytes": 13,
+              "header": 142,
+              "id": 1851,
+              "kind": "STRUCT",
+              "name": "Battlenet::S2Game::SharedPlayerInfo::InfoS2",
+              "offset": 48533
+            }
+          ]
+        },
+        {
+          "name": "infoHero",
+          "tag": 1,
+          "type_chain": [
+            {
+              "PE_file_offset": 43217586,
+              "PE_rva": 43221682,
+              "bounds": {
+                "bits": 3,
+                "int_type": 0,
+                "max": -1,
+                "min": -5,
+                "variable": false
+              },
+              "bytes": 25,
+              "header": 142,
+              "id": 1852,
+              "kind": "STRUCT",
+              "name": "Battlenet::S2Game::SharedPlayerInfo::InfoHero",
+              "offset": 48546
+            }
+          ]
+        }
+      ],
+      "type": [
+        {
+          "PE_file_offset": 43217482,
+          "PE_rva": 43221578,
+          "bounds": {
+            "bits": 1,
+            "int_type": 1,
+            "max": 1,
+            "min": 0,
+            "variable": false
+          },
+          "bytes": 13,
+          "header": 134,
+          "id": 1834,
+          "kind": "CHOICE",
+          "name": "Battlenet::S2Game::SharedPlayerInfo",
+          "offset": 48442
+        }
+      ]
+    },
+    "Battlenet::S2Game::SharedPlayerInfo::InfoHero": {
+      "members": [
+        {
+          "name": "m_isSilenced",
+          "tag": -5,
+          "type_chain": [
+            {
+              "PE_file_offset": 43217658,
+              "PE_rva": 43221754,
+              "bytes": 1,
+              "header": 5,
+              "id": 1860,
+              "kind": "BOOL",
+              "name": null,
+              "offset": 48618
+            }
+          ]
+        },
+        {
+          "name": "m_isLobbyVoiceSilenced",
+          "tag": -4,
+          "type_chain": [
+            {
+              "PE_file_offset": 43217659,
+              "PE_rva": 43221755,
+              "bytes": 1,
+              "header": 5,
+              "id": 1861,
+              "kind": "BOOL",
+              "name": null,
+              "offset": 48619
+            }
+          ]
+        },
+        {
+          "name": "m_isTeamVoiceSilenced",
+          "tag": -3,
+          "type_chain": [
+            {
+              "PE_file_offset": 43217660,
+              "PE_rva": 43221756,
+              "bytes": 1,
+              "header": 5,
+              "id": 1862,
+              "kind": "BOOL",
+              "name": null,
+              "offset": 48620
+            }
+          ]
+        },
+        {
+          "name": "m_isBlizzardStaff",
+          "tag": -2,
+          "type_chain": [
+            {
+              "PE_file_offset": 43217661,
+              "PE_rva": 43221757,
+              "bytes": 1,
+              "header": 5,
+              "id": 1863,
+              "kind": "BOOL",
+              "name": null,
+              "offset": 48621
+            }
+          ]
+        },
+        {
+          "name": "m_partyAddress",
+          "tag": -1,
+          "type_chain": [
+            {
+              "PE_file_offset": 43217662,
+              "PE_rva": 43221758,
+              "bytes": 5,
+              "header": 11,
+              "id": 1864,
+              "kind": "OPTIONAL",
+              "name": null,
+              "offset": 48622
+            },
+            {
+              "PE_file_offset": 43217720,
+              "PE_rva": 43221816,
+              "bytes": 5,
+              "header": 16,
+              "id": 1873,
+              "kind": "USER",
+              "name": null,
+              "offset": 48680
+            },
+            {
+              "PE_file_offset": 43217751,
+              "PE_rva": 43221847,
+              "bounds": {
+                "bits": 1,
+                "int_type": 0,
+                "max": -1,
+                "min": -2,
+                "variable": false
+              },
+              "bytes": 13,
+              "header": 206,
+              "id": 1878,
+              "kind": "STRUCT",
+              "name": "Battlenet::S2Game::PartyAddress",
+              "offset": 48711
+            }
+          ]
+        }
+      ],
+      "type": [
+        {
+          "PE_file_offset": 43217586,
+          "PE_rva": 43221682,
+          "bounds": {
+            "bits": 3,
+            "int_type": 0,
+            "max": -1,
+            "min": -5,
+            "variable": false
+          },
+          "bytes": 25,
+          "header": 142,
+          "id": 1852,
+          "kind": "STRUCT",
+          "name": "Battlenet::S2Game::SharedPlayerInfo::InfoHero",
+          "offset": 48546
+        }
+      ]
+    },
+    "Battlenet::S2Map::BnetHeader": {
+      "members": [
+        {
+          "name": "m_handle",
+          "tag": 0,
+          "type_chain": [
+            {
+              "PE_file_offset": 43238530,
+              "PE_rva": 43242626,
+              "bytes": 5,
+              "header": 16,
+              "id": 4478,
+              "kind": "USER",
+              "name": null,
+              "offset": 69490
+            },
+            {
+              "PE_file_offset": 43217667,
+              "PE_rva": 43221763,
+              "bounds": {
+                "bits": 1,
+                "int_type": 1,
+                "max": 1,
+                "min": 0,
+                "variable": false
+              },
+              "bytes": 13,
+              "header": 206,
+              "id": 1865,
+              "kind": "STRUCT",
+              "name": "Battlenet::S2Map::Handle",
+              "offset": 48627
+            }
+          ]
+        },
+        {
+          "name": "m_name",
+          "tag": 1,
+          "type_chain": [
+            {
+              "PE_file_offset": 43238535,
+              "PE_rva": 43242631,
+              "bytes": 5,
+              "header": 16,
+              "id": 4479,
+              "kind": "USER",
+              "name": null,
+              "offset": 69495
+            },
+            {
+              "PE_file_offset": 43238273,
+              "PE_rva": 43242369,
+              "bounds": {
+                "bits": 7,
+                "int_type": 1,
+                "max": 80,
+                "min": 0,
+                "variable": true
+              },
+              "bytes": 5,
+              "header": 15,
+              "id": 4443,
+              "kind": "STRING",
+              "name": "Battlenet::S2Map::Name",
+              "offset": 69233
+            }
+          ]
+        },
+        {
+          "name": "m_archiveCacheHandle",
+          "tag": 2,
+          "type_chain": [
+            {
+              "PE_file_offset": 43238540,
+              "PE_rva": 43242636,
+              "bytes": 5,
+              "header": 16,
+              "id": 4480,
+              "kind": "USER",
+              "name": null,
+              "offset": 69500
+            },
+            {
+              "PE_file_offset": 43204155,
+              "PE_rva": 43208251,
+              "bounds": {
+                "bits": 0,
+                "int_type": 1,
+                "max": 40,
+                "min": 40,
+                "variable": false
+              },
+              "bytes": 3,
+              "header": 132,
+              "id": 136,
+              "kind": "BLOB",
+              "name": "Battlenet::Cache::Handle",
+              "offset": 35115
+            }
+          ]
+        },
+        {
+          "name": "m_mapNamespace",
+          "tag": 3,
+          "type_chain": [
+            {
+              "PE_file_offset": 43238545,
+              "PE_rva": 43242641,
+              "bytes": 5,
+              "header": 16,
+              "id": 4481,
+              "kind": "USER",
+              "name": null,
+              "offset": 69505
+            },
+            {
+              "PE_file_offset": 43204238,
+              "PE_rva": 43208334,
+              "bytes": 5,
+              "header": 16,
+              "id": 145,
+              "kind": "USER",
+              "name": "Battlenet::Attribute::NameSpace",
+              "offset": 35198
+            },
+            {
+              "PE_file_offset": 43202385,
+              "PE_rva": 43206481,
+              "bounds": {
+                "bits": 32,
+                "int_type": 5,
+                "max": 4294967295,
+                "min": 0,
+                "variable": true
+              },
+              "bytes": 11,
+              "header": 9,
+              "id": 1,
+              "kind": "INT",
+              "name": "Battlenet::u32",
+              "offset": 33345
+            }
+          ]
+        },
+        {
+          "name": "m_workingSet",
+          "tag": 4,
+          "type_chain": [
+            {
+              "PE_file_offset": 43238550,
+              "PE_rva": 43242646,
+              "bytes": 5,
+              "header": 16,
+              "id": 4482,
+              "kind": "USER",
+              "name": null,
+              "offset": 69510
+            },
+            {
+              "PE_file_offset": 43205448,
+              "PE_rva": 43209544,
+              "bounds": {
+                "bits": 4,
+                "int_type": 1,
+                "max": 11,
+                "min": 0,
+                "variable": false
+              },
+              "bytes": 53,
+              "header": 206,
+              "id": 307,
+              "kind": "STRUCT",
+              "name": "Battlenet::Attribute::WorkingSet",
+              "offset": 36408
+            }
+          ]
+        },
+        {
+          "name": "m_definitions",
+          "tag": 5,
+          "type_chain": [
+            {
+              "PE_file_offset": 43238555,
+              "PE_rva": 43242651,
+              "bytes": 5,
+              "header": 16,
+              "id": 4483,
+              "kind": "USER",
+              "name": null,
+              "offset": 69515
+            },
+            {
+              "PE_file_offset": 43205355,
+              "PE_rva": 43209451,
+              "bounds": {
+                "bits": 9,
+                "int_type": 3,
+                "max": 256,
+                "min": 0,
+                "variable": true
+              },
+              "bytes": 11,
+              "header": 1,
+              "id": 294,
+              "kind": "ARRAY",
+              "name": "Battlenet::Attribute::DefinitionList",
+              "offset": 36315
+            },
+            {
+              "PE_file_offset": 43205366,
+              "PE_rva": 43209462,
+              "bytes": 5,
+              "header": 16,
+              "id": 295,
+              "kind": "USER",
+              "name": null,
+              "offset": 36326
+            },
+            {
+              "PE_file_offset": 43205260,
+              "PE_rva": 43209356,
+              "bounds": {
+                "bits": 4,
+                "int_type": 1,
+                "max": 9,
+                "min": 0,
+                "variable": false
+              },
+              "bytes": 45,
+              "header": 206,
+              "id": 283,
+              "kind": "STRUCT",
+              "name": "Battlenet::Attribute::Definition",
+              "offset": 36220
+            }
+          ]
+        },
+        {
+          "name": "m_resultDefinitions",
+          "tag": 7,
+          "type_chain": [
+            {
+              "PE_file_offset": 43238560,
+              "PE_rva": 43242656,
+              "bytes": 5,
+              "header": 16,
+              "id": 4484,
+              "kind": "USER",
+              "name": null,
+              "offset": 69520
+            },
+            {
+              "PE_file_offset": 43238671,
+              "PE_rva": 43242767,
+              "bounds": {
+                "bits": 13,
+                "int_type": 3,
+                "max": 4096,
+                "min": 0,
+                "variable": true
+              },
+              "bytes": 11,
+              "header": 1,
+              "id": 4507,
+              "kind": "ARRAY",
+              "name": "Battlenet::Result::DefinitionList",
+              "offset": 69631
+            },
+            {
+              "PE_file_offset": 43238745,
+              "PE_rva": 43242841,
+              "bytes": 5,
+              "header": 16,
+              "id": 4519,
+              "kind": "USER",
+              "name": null,
+              "offset": 69705
+            },
+            {
+              "PE_file_offset": 43238829,
+              "PE_rva": 43242925,
+              "bounds": {
+                "bits": 4,
+                "int_type": 1,
+                "max": 9,
+                "min": 0,
+                "variable": false
+              },
+              "bytes": 45,
+              "header": 206,
+              "id": 4527,
+              "kind": "STRUCT",
+              "name": "Battlenet::Result::Definition",
+              "offset": 69789
+            }
+          ]
+        },
+        {
+          "name": "m_locales",
+          "tag": 8,
+          "type_chain": [
+            {
+              "PE_file_offset": 43238565,
+              "PE_rva": 43242661,
+              "bytes": 5,
+              "header": 16,
+              "id": 4485,
+              "kind": "USER",
+              "name": null,
+              "offset": 69525
+            },
+            {
+              "PE_file_offset": 43204711,
+              "PE_rva": 43208807,
+              "bounds": {
+                "bits": 5,
+                "int_type": 1,
+                "max": 16,
+                "min": 0,
+                "variable": true
+              },
+              "bytes": 9,
+              "header": 1,
+              "id": 210,
+              "kind": "ARRAY",
+              "name": "Battlenet::Attribute::LocaleTable",
+              "offset": 35671
+            },
+            {
+              "PE_file_offset": 43204720,
+              "PE_rva": 43208816,
+              "bytes": 5,
+              "header": 16,
+              "id": 211,
+              "kind": "USER",
+              "name": null,
+              "offset": 35680
+            },
+            {
+              "PE_file_offset": 43204687,
+              "PE_rva": 43208783,
+              "bounds": {
+                "bits": 1,
+                "int_type": 1,
+                "max": 1,
+                "min": 0,
+                "variable": false
+              },
+              "bytes": 13,
+              "header": 206,
+              "id": 206,
+              "kind": "STRUCT",
+              "name": "Battlenet::Attribute::LocaleTableEntry",
+              "offset": 35647
+            }
+          ]
+        },
+        {
+          "name": "m_size",
+          "tag": 9,
+          "type_chain": [
+            {
+              "PE_file_offset": 43238570,
+              "PE_rva": 43242666,
+              "bytes": 5,
+              "header": 11,
+              "id": 4486,
+              "kind": "OPTIONAL",
+              "name": null,
+              "offset": 69530
+            },
+            {
+              "PE_file_offset": 43238682,
+              "PE_rva": 43242778,
+              "bytes": 5,
+              "header": 16,
+              "id": 4508,
+              "kind": "USER",
+              "name": null,
+              "offset": 69642
+            },
+            {
+              "PE_file_offset": 43238750,
+              "PE_rva": 43242846,
+              "bounds": {
+                "bits": 1,
+                "int_type": 1,
+                "max": 1,
+                "min": 0,
+                "variable": false
+              },
+              "bytes": 13,
+              "header": 206,
+              "id": 4520,
+              "kind": "STRUCT",
+              "name": "Battlenet::S2Map::MapSize",
+              "offset": 69710
+            }
+          ]
+        },
+        {
+          "name": "m_tileset",
+          "tag": 10,
+          "type_chain": [
+            {
+              "PE_file_offset": 43238575,
+              "PE_rva": 43242671,
+              "bytes": 5,
+              "header": 11,
+              "id": 4487,
+              "kind": "OPTIONAL",
+              "name": null,
+              "offset": 69535
+            },
+            {
+              "PE_file_offset": 43238687,
+              "PE_rva": 43242783,
+              "bytes": 5,
+              "header": 16,
+              "id": 4509,
+              "kind": "USER",
+              "name": null,
+              "offset": 69647
+            },
+            {
+              "PE_file_offset": 43204631,
+              "PE_rva": 43208727,
+              "bounds": {
+                "bits": 2,
+                "int_type": 1,
+                "max": 2,
+                "min": 0,
+                "variable": false
+              },
+              "bytes": 17,
+              "header": 206,
+              "id": 198,
+              "kind": "STRUCT",
+              "name": "Battlenet::Attribute::LocalizedString",
+              "offset": 35591
+            }
+          ]
+        },
+        {
+          "name": "m_defaultVariantIndex",
+          "tag": 12,
+          "type_chain": [
+            {
+              "PE_file_offset": 43238580,
+              "PE_rva": 43242676,
+              "bytes": 5,
+              "header": 16,
+              "id": 4488,
+              "kind": "USER",
+              "name": null,
+              "offset": 69540
+            },
+            {
+              "PE_file_offset": 43216868,
+              "PE_rva": 43220964,
+              "bounds": {
+                "bits": 6,
+                "int_type": 1,
+                "max": 32,
+                "min": 0,
+                "variable": true
+              },
+              "bytes": 5,
+              "header": 9,
+              "id": 1750,
+              "kind": "INT",
+              "name": "Battlenet::S2Map::VariantIndex",
+              "offset": 47828
+            }
+          ]
+        },
+        {
+          "name": "m_variants",
+          "tag": 13,
+          "type_chain": [
+            {
+              "PE_file_offset": 43238585,
+              "PE_rva": 43242681,
+              "bytes": 5,
+              "header": 16,
+              "id": 4489,
+              "kind": "USER",
+              "name": null,
+              "offset": 69545
+            },
+            {
+              "PE_file_offset": 43238692,
+              "PE_rva": 43242788,
+              "bounds": {
+                "bits": 6,
+                "int_type": 1,
+                "max": 32,
+                "min": 0,
+                "variable": true
+              },
+              "bytes": 9,
+              "header": 1,
+              "id": 4510,
+              "kind": "ARRAY",
+              "name": "Battlenet::S2Map::VariantInfoList",
+              "offset": 69652
+            },
+            {
+              "PE_file_offset": 43238763,
+              "PE_rva": 43242859,
+              "bytes": 5,
+              "header": 16,
+              "id": 4521,
+              "kind": "USER",
+              "name": null,
+              "offset": 69723
+            },
+            {
+              "PE_file_offset": 43238884,
+              "PE_rva": 43242980,
+              "bounds": {
+                "bits": 4,
+                "int_type": 1,
+                "max": 13,
+                "min": 0,
+                "variable": false
+              },
+              "bytes": 61,
+              "header": 206,
+              "id": 4530,
+              "kind": "STRUCT",
+              "name": "Battlenet::S2Map::VariantInfo",
+              "offset": 69844
+            }
+          ]
+        },
+        {
+          "name": "m_extraDependencies",
+          "tag": 14,
+          "type_chain": [
+            {
+              "PE_file_offset": 43238590,
+              "PE_rva": 43242686,
+              "bounds": {
+                "bits": 6,
+                "int_type": 1,
+                "max": 32,
+                "min": 0,
+                "variable": true
+              },
+              "bytes": 9,
+              "header": 1,
+              "id": 4490,
+              "kind": "ARRAY",
+              "name": null,
+              "offset": 69550
+            },
+            {
+              "PE_file_offset": 43238701,
+              "PE_rva": 43242797,
+              "bytes": 5,
+              "header": 16,
+              "id": 4511,
+              "kind": "USER",
+              "name": null,
+              "offset": 69661
+            },
+            {
+              "PE_file_offset": 43217667,
+              "PE_rva": 43221763,
+              "bounds": {
+                "bits": 1,
+                "int_type": 1,
+                "max": 1,
+                "min": 0,
+                "variable": false
+              },
+              "bytes": 13,
+              "header": 206,
+              "id": 1865,
+              "kind": "STRUCT",
+              "name": "Battlenet::S2Map::Handle",
+              "offset": 48627
+            }
+          ]
+        },
+        {
+          "name": "m_addDefaultPermissions",
+          "tag": 15,
+          "type_chain": [
+            {
+              "PE_file_offset": 43238599,
+              "PE_rva": 43242695,
+              "bytes": 1,
+              "header": 5,
+              "id": 4491,
+              "kind": "BOOL",
+              "name": null,
+              "offset": 69559
+            }
+          ]
+        },
+        {
+          "name": "m_relevantPermissions",
+          "tag": 16,
+          "type_chain": [
+            {
+              "PE_file_offset": 43238600,
+              "PE_rva": 43242696,
+              "bytes": 5,
+              "header": 16,
+              "id": 4492,
+              "kind": "USER",
+              "name": null,
+              "offset": 69560
+            },
+            {
+              "PE_file_offset": 43238706,
+              "PE_rva": 43242802,
+              "bounds": {
+                "bits": 7,
+                "int_type": 1,
+                "max": 100,
+                "min": 0,
+                "variable": true
+              },
+              "bytes": 9,
+              "header": 1,
+              "id": 4512,
+              "kind": "ARRAY",
+              "name": "Battlenet::Permission::HandleArray",
+              "offset": 69666
+            },
+            {
+              "PE_file_offset": 43238768,
+              "PE_rva": 43242864,
+              "bytes": 5,
+              "header": 16,
+              "id": 4522,
+              "kind": "USER",
+              "name": null,
+              "offset": 69728
+            },
+            {
+              "PE_file_offset": 43204512,
+              "PE_rva": 43208608,
+              "bounds": {
+                "bits": 1,
+                "int_type": 1,
+                "max": 1,
+                "min": 0,
+                "variable": false
+              },
+              "bytes": 13,
+              "header": 206,
+              "id": 181,
+              "kind": "STRUCT",
+              "name": "Battlenet::Permission::Handle",
+              "offset": 35472
+            }
+          ]
+        },
+        {
+          "name": "m_requiredPermissions",
+          "tag": 17,
+          "type_chain": [
+            {
+              "PE_file_offset": 43238605,
+              "PE_rva": 43242701,
+              "bytes": 5,
+              "header": 16,
+              "id": 4493,
+              "kind": "USER",
+              "name": null,
+              "offset": 69565
+            },
+            {
+              "PE_file_offset": 43238706,
+              "PE_rva": 43242802,
+              "bounds": {
+                "bits": 7,
+                "int_type": 1,
+                "max": 100,
+                "min": 0,
+                "variable": true
+              },
+              "bytes": 9,
+              "header": 1,
+              "id": 4512,
+              "kind": "ARRAY",
+              "name": "Battlenet::Permission::HandleArray",
+              "offset": 69666
+            },
+            {
+              "PE_file_offset": 43238768,
+              "PE_rva": 43242864,
+              "bytes": 5,
+              "header": 16,
+              "id": 4522,
+              "kind": "USER",
+              "name": null,
+              "offset": 69728
+            },
+            {
+              "PE_file_offset": 43204512,
+              "PE_rva": 43208608,
+              "bounds": {
+                "bits": 1,
+                "int_type": 1,
+                "max": 1,
+                "min": 0,
+                "variable": false
+              },
+              "bytes": 13,
+              "header": 206,
+              "id": 181,
+              "kind": "STRUCT",
+              "name": "Battlenet::Permission::Handle",
+              "offset": 35472
+            }
+          ]
+        },
+        {
+          "name": "m_labels",
+          "tag": 18,
+          "type_chain": [
+            {
+              "PE_file_offset": 43238610,
+              "PE_rva": 43242706,
+              "bytes": 5,
+              "header": 16,
+              "id": 4494,
+              "kind": "USER",
+              "name": null,
+              "offset": 69570
+            },
+            {
+              "PE_file_offset": 43238715,
+              "PE_rva": 43242811,
+              "bounds": {
+                "bits": 5,
+                "int_type": 1,
+                "max": 16,
+                "min": 0,
+                "variable": true
+              },
+              "bytes": 9,
+              "header": 1,
+              "id": 4513,
+              "kind": "ARRAY",
+              "name": "Battlenet::S2Map::LabelList",
+              "offset": 69675
+            },
+            {
+              "PE_file_offset": 43238773,
+              "PE_rva": 43242869,
+              "bytes": 5,
+              "header": 16,
+              "id": 4523,
+              "kind": "USER",
+              "name": null,
+              "offset": 69733
+            },
+            {
+              "PE_file_offset": 43238945,
+              "PE_rva": 43243041,
+              "bytes": 1,
+              "header": 8,
+              "id": 4531,
+              "kind": "FOURCC",
+              "name": "Battlenet::S2Map::Label",
+              "offset": 69905
+            }
+          ]
+        },
+        {
+          "name": "m_arcadeData",
+          "tag": 19,
+          "type_chain": [
+            {
+              "PE_file_offset": 43238615,
+              "PE_rva": 43242711,
+              "bytes": 5,
+              "header": 11,
+              "id": 4495,
+              "kind": "OPTIONAL",
+              "name": null,
+              "offset": 69575
+            },
+            {
+              "PE_file_offset": 43238724,
+              "PE_rva": 43242820,
+              "bytes": 5,
+              "header": 16,
+              "id": 4514,
+              "kind": "USER",
+              "name": null,
+              "offset": 69684
+            },
+            {
+              "PE_file_offset": 43238778,
+              "PE_rva": 43242874,
+              "bounds": {
+                "bits": 4,
+                "int_type": 1,
+                "max": 9,
+                "min": 0,
+                "variable": false
+              },
+              "bytes": 45,
+              "header": 206,
+              "id": 4524,
+              "kind": "STRUCT",
+              "name": "Battlenet::S2Map::ArcadeGameInfo",
+              "offset": 69738
+            }
+          ]
+        },
+        {
+          "name": "m_addMultiMod",
+          "tag": 22,
+          "type_chain": [
+            {
+              "PE_file_offset": 43238620,
+              "PE_rva": 43242716,
+              "bytes": 1,
+              "header": 5,
+              "id": 4496,
+              "kind": "BOOL",
+              "name": null,
+              "offset": 69580
+            }
+          ]
+        },
+        {
+          "name": "m_resourceList",
+          "tag": 24,
+          "type_chain": [
+            {
+              "PE_file_offset": 43238621,
+              "PE_rva": 43242717,
+              "bytes": 5,
+              "header": 16,
+              "id": 4497,
+              "kind": "USER",
+              "name": null,
+              "offset": 69581
+            },
+            {
+              "PE_file_offset": 43222391,
+              "PE_rva": 43226487,
+              "bounds": {
+                "bits": 16,
+                "int_type": 3,
+                "max": 65535,
+                "min": 0,
+                "variable": true
+              },
+              "bytes": 11,
+              "header": 1,
+              "id": 2498,
+              "kind": "ARRAY",
+              "name": "Battlenet::S2Map::ResourceIdentifierMap",
+              "offset": 53351
+            },
+            {
+              "PE_file_offset": 43222444,
+              "PE_rva": 43226540,
+              "bytes": 5,
+              "header": 16,
+              "id": 2505,
+              "kind": "USER",
+              "name": null,
+              "offset": 53404
+            },
+            {
+              "PE_file_offset": 43222460,
+              "PE_rva": 43226556,
+              "bytes": 5,
+              "header": 16,
+              "id": 2509,
+              "kind": "USER",
+              "name": "Battlenet::S2Map::ResourceIdentifier",
+              "offset": 53420
+            },
+            {
+              "PE_file_offset": 43206275,
+              "PE_rva": 43210371,
+              "bytes": 5,
+              "header": 16,
+              "id": 396,
+              "kind": "USER",
+              "name": "Battlenet::BattlePay::LicenseId",
+              "offset": 37235
+            },
+            {
+              "PE_file_offset": 43202526,
+              "PE_rva": 43206622,
+              "bounds": {
+                "bits": 64,
+                "int_type": 7,
+                "max": 18446744073709551615,
+                "min": 0,
+                "variable": true
+              },
+              "bytes": 19,
+              "header": 9,
+              "id": 17,
+              "kind": "INT",
+              "name": "Battlenet::u64",
+              "offset": 33486
+            }
+          ]
+        }
+      ],
+      "type": [
+        {
+          "PE_file_offset": 43238294,
+          "PE_rva": 43242390,
+          "bounds": {
+            "bits": 5,
+            "int_type": 1,
+            "max": 24,
+            "min": 0,
+            "variable": false
+          },
+          "bytes": 107,
+          "header": 78,
+          "id": 4448,
+          "kind": "STRUCT",
+          "name": "Battlenet::S2Map::BnetHeader",
+          "offset": 69254
+        }
+      ]
+    },
+    "Battlenet::S2Map::ResourceAccessListBits": {
+      "type": [
+        {
+          "PE_file_offset": 43216952,
+          "PE_rva": 43221048,
+          "bounds": {
+            "bits": 15,
+            "int_type": 3,
+            "max": 32257,
+            "min": 0,
+            "variable": true
+          },
+          "bytes": 7,
+          "header": 3,
+          "id": 1762,
+          "kind": "BIT_ARRAY",
+          "name": "Battlenet::S2Map::ResourceAccessListBits",
+          "offset": 47912
+        }
+      ]
+    }
+  },
+  "source_PE_bytes": 53573840,
+  "source_PE_sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+  "source_hashes": {
+    "inspect_bsn_schema.py": "9d2dd5b6b95a600ebef8603ccb5b298c4778105a63960df4c67eb34de7f76f0c",
+    "parse_bsn_metadata.py": "0c8021fdcb761a27ca9860f72161110e1156f518678430b9570a49fc20f85f06",
+    "test_parse_bsn_metadata.py": "038fa8040205176f3188aea2b584c2267e0599f57327a0f0e3fb8790254e139d"
+  }
+}

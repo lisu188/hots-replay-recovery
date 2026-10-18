@@ -1,0 +1,200 @@
+{
+  "PE_stream_bytes_hashed": 53573840,
+  "actual_ClientInfo_records": 222,
+  "actual_cases": 21,
+  "all_observed_TalkerId_choices_invalid_and_permission_arrays_empty": true,
+  "all_observed_first_network_bits_zero": true,
+  "all_records_18_native_fields_13_baseline_anchors_private_Toon_and_end_boundaries_exact": true,
+  "all_reference_replay_hashes_unchanged": true,
+  "cases": [
+    {
+      "all18_native_fields_13_anchors_private_identity_boundaries_and_reencoding_exact": true,
+      "id": "current-us-01",
+      "records": 12,
+      "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c"
+    },
+    {
+      "all18_native_fields_13_anchors_private_identity_boundaries_and_reencoding_exact": true,
+      "id": "current-us-02",
+      "records": 10,
+      "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e"
+    },
+    {
+      "all18_native_fields_13_anchors_private_identity_boundaries_and_reencoding_exact": true,
+      "id": "current-us-03",
+      "records": 11,
+      "replay_sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db"
+    },
+    {
+      "all18_native_fields_13_anchors_private_identity_boundaries_and_reencoding_exact": true,
+      "id": "current-us-04",
+      "records": 11,
+      "replay_sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a"
+    },
+    {
+      "all18_native_fields_13_anchors_private_identity_boundaries_and_reencoding_exact": true,
+      "id": "current-us-05",
+      "records": 10,
+      "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c"
+    },
+    {
+      "all18_native_fields_13_anchors_private_identity_boundaries_and_reencoding_exact": true,
+      "id": "current-us-06",
+      "records": 10,
+      "replay_sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4"
+    },
+    {
+      "all18_native_fields_13_anchors_private_identity_boundaries_and_reencoding_exact": true,
+      "id": "current-us-07",
+      "records": 10,
+      "replay_sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c"
+    },
+    {
+      "all18_native_fields_13_anchors_private_identity_boundaries_and_reencoding_exact": true,
+      "id": "current-us-08",
+      "records": 10,
+      "replay_sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7"
+    },
+    {
+      "all18_native_fields_13_anchors_private_identity_boundaries_and_reencoding_exact": true,
+      "id": "current-us-09",
+      "records": 10,
+      "replay_sha256": "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd"
+    },
+    {
+      "all18_native_fields_13_anchors_private_identity_boundaries_and_reencoding_exact": true,
+      "id": "current-us-10",
+      "records": 12,
+      "replay_sha256": "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e"
+    },
+    {
+      "all18_native_fields_13_anchors_private_identity_boundaries_and_reencoding_exact": true,
+      "id": "current-us-11",
+      "records": 10,
+      "replay_sha256": "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f"
+    },
+    {
+      "all18_native_fields_13_anchors_private_identity_boundaries_and_reencoding_exact": true,
+      "id": "current-us-12",
+      "records": 10,
+      "replay_sha256": "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77"
+    },
+    {
+      "all18_native_fields_13_anchors_private_identity_boundaries_and_reencoding_exact": true,
+      "id": "current-eu-01",
+      "records": 10,
+      "replay_sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4"
+    },
+    {
+      "all18_native_fields_13_anchors_private_identity_boundaries_and_reencoding_exact": true,
+      "id": "crossmap-01",
+      "records": 10,
+      "replay_sha256": "afcf49a656068f343173fc79afff2d2ebf15066f531cb192382cdba9d1ea3272"
+    },
+    {
+      "all18_native_fields_13_anchors_private_identity_boundaries_and_reencoding_exact": true,
+      "id": "crossmap-02",
+      "records": 10,
+      "replay_sha256": "fe801daf9df44f10db2b950989308c8ee2fa55c03b4adfef7ac383b4d46583bf"
+    },
+    {
+      "all18_native_fields_13_anchors_private_identity_boundaries_and_reencoding_exact": true,
+      "id": "crossmap-03",
+      "records": 12,
+      "replay_sha256": "9872b043e48093abc65e11b7b6d091861e83fc4d202b40b745824da647cb6ef3"
+    },
+    {
+      "all18_native_fields_13_anchors_private_identity_boundaries_and_reencoding_exact": true,
+      "id": "crossmap-04",
+      "records": 12,
+      "replay_sha256": "98ac891fa4fb8e1698e5fc35609fcf75abfe7e89aee9c7f05afff93b10338ab3"
+    },
+    {
+      "all18_native_fields_13_anchors_private_identity_boundaries_and_reencoding_exact": true,
+      "id": "crossmap-05",
+      "records": 10,
+      "replay_sha256": "715e309bba5d3151d3e1b47461041627db7644d91a8b549c309950e44d6067e8"
+    },
+    {
+      "all18_native_fields_13_anchors_private_identity_boundaries_and_reencoding_exact": true,
+      "id": "crossmap-06",
+      "records": 11,
+      "replay_sha256": "1230eee79fd3b50a3ee471c587bc77dd14aef67d57bf22cd8df52e877329323a"
+    },
+    {
+      "all18_native_fields_13_anchors_private_identity_boundaries_and_reencoding_exact": true,
+      "id": "crossmap-07",
+      "records": 10,
+      "replay_sha256": "db40f495edb70b2127b97cae4f479de19e18e61b2a5a0e0413052b571e1dbf7e"
+    },
+    {
+      "all18_native_fields_13_anchors_private_identity_boundaries_and_reencoding_exact": true,
+      "id": "crossmap-08",
+      "records": 11,
+      "replay_sha256": "d41417f0fd11a1d512e30fa77882bdebf220432bd7e9412b40440cb79a7c9cec"
+    }
+  ],
+  "embedded_BSN_SHA256": "ce3b1f764575730f2c08c89eed73ea843ec4cc702b727c9577ca071ce610e741",
+  "format": "hots-native-ClientInfo-independent-graph-wire-review-v1",
+  "game_client_or_target_code_loaded_or_executed": false,
+  "independent_operation_encoder_reproduces_every_consumed_ClientInfo_bit": true,
+  "independent_reachable_ClientInfo_graph_types": 104,
+  "independently_validated_native_type_records": 8330,
+  "limits": [
+    "The independent reader implements the same native format grammar with separate metadata and wire code; agreement is limited to the hash-pinned actual PE and current replay controls.",
+    "Current199-bit named segment is established; no174-bit historical layout or cross-version value transformation is established.",
+    "The old profile names a network bit as a secondary-name marker. Observed zero first bits explain its successful current fixtures; the synthetic alternative demonstrates narrower profile coverage.",
+    "All actual TalkerId branches are invalid0 and permission arrays empty; authentic other branches are not claimed.",
+    "These are structural and private identity/boundary checks, not player ownership semantics, complete native runtime equivalence or playback proof."
+  ],
+  "material_findings_in_actual_current_scope": [],
+  "named_segment_total_bits": 199,
+  "native_named_segment_widths_bits": [
+    8,
+    64,
+    96,
+    31
+  ],
+  "network_requests": 0,
+  "one_bit_RAM_negative_control": {
+    "body_saved": false,
+    "exactly_one_first_network_wire_bit_flipped_in_RAM": true,
+    "independent_native_boundary_and_reencoding_still_exact": true,
+    "old_observed_tail_rejects": true,
+    "same_mutation_as_frozen_producer_verified_privately": true,
+    "synthetic_control_is_not_an_authentic_replay": true
+  },
+  "portable104_type_graph_equals_independent_raw_BSN_projection": true,
+  "portable_schema_SHA256": "6e8711939ede15505debb043ae626b5c529749557d7e824226863c92e4f6a229",
+  "prior_secondary_marker_consumes_first_native_network_bit_then_skips_remaining198": true,
+  "producer_decoder_or_metadata_parser_executed_by_reviewer": false,
+  "raw_player_network_profile_permission_or_identity_values_emitted": false,
+  "replay_and_metadata_budget_bytes": 57899625,
+  "replay_and_metadata_budget_counts": {
+    "MPQ_file_reads": 2484664,
+    "guard_rehash_reads": 54930804,
+    "provenance_metadata": 484157
+  },
+  "replay_or_member_written": false,
+  "review_sources": [
+    {
+      "file": "independent_bsn_graph.py",
+      "sha256": "2eefcbd2d57e4461a882adfb283c6c20da35a5ad517d49ac329055f38e387ec3"
+    },
+    {
+      "file": "independent_client_bits.py",
+      "sha256": "544efb3f38af402cab5eeadb2c101756f6155d41c36ac2d8db56598dc44fd5a4"
+    },
+    {
+      "file": "review_native_client_binding.py",
+      "sha256": "3ce5d6658c8f798c47baf8a2ed7266659554bc7d9054992aa6bbe116f48306e3"
+    }
+  ],
+  "reviewed_producer_pins": {
+    "native-BSN-metadata-98348-v2.json": "cf7204cb7b26f4d1cdcf92930bee154932fa2cbe9f27f4d10daf7be6ef3f0256",
+    "native-ClientInfo-current-21case-binding.json": "a0145b4e33ffca51f2658486f55c78a6a3b97744ad085d6026009f6d534377b5",
+    "native_client_layout.py": "14cd9d119b4b26a5b479f410412377e2c93c7fab6c813bc5df42e74e0e2772d9"
+  },
+  "source_PE_SHA256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+  "static_closure_canonical_JSON_SHA256": "a66894294b5a310df6e31fa0193f985013531f82aca4c967b48d1196093160ba"
+}

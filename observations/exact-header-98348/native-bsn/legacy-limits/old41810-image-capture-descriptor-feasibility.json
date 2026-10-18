@@ -1,0 +1,226 @@
+{
+  "all_source_dump_hashes_unchanged_and_equal_existing_pins": true,
+  "any_old_image_bytes_declared_captured": true,
+  "case_count": 5,
+  "cases": [
+    {
+      "all_captured_ranges_declared_bytes": 193690,
+      "case_id": "crash-1",
+      "dump_SHA256_after": "329aba46b2e5803e6e19e613470c0b3a7a517ccbc532b1e8be79e123e3286842",
+      "dump_SHA256_before": "329aba46b2e5803e6e19e613470c0b3a7a517ccbc532b1e8be79e123e3286842",
+      "dump_bytes": 223322,
+      "first4096_image_bytes_covered": 0,
+      "first4096_image_bytes_fully_covered": false,
+      "image_intersections": [
+        {
+          "byte_count": 1032,
+          "image_relative_start": 33779264,
+          "original_range_entirely_within_image": true
+        },
+        {
+          "byte_count": 4,
+          "image_relative_start": 33790432,
+          "original_range_entirely_within_image": true
+        }
+      ],
+      "memory_contents_PE_header_bytes_or_section_table_read": false,
+      "memory_list_descriptor_stream_bytes": 1924,
+      "memory_range_count": 120,
+      "module_identity": {
+        "PDB_GUID": "7BF26548-FE37-4F3F-94F0-218512BDB807",
+        "PDB_age": 49,
+        "SizeOfImage": 89478144,
+        "basename": "HeroesOfTheStorm_x64.exe",
+        "file_version": [
+          0,
+          17,
+          0,
+          41810
+        ]
+      },
+      "ranges_entirely_within_image": 2,
+      "ranges_with_any_image_overlap": 2,
+      "ranges_without_image_overlap": 118,
+      "unique_captured_image_bytes": 1036
+    },
+    {
+      "all_captured_ranges_declared_bytes": 199073,
+      "case_id": "crash-2",
+      "dump_SHA256_after": "8e5389aee3fd02efd1f29abf5a4cb4394378f1989ee8d1e60666ce1c38ac8221",
+      "dump_SHA256_before": "8e5389aee3fd02efd1f29abf5a4cb4394378f1989ee8d1e60666ce1c38ac8221",
+      "dump_bytes": 228573,
+      "first4096_image_bytes_covered": 0,
+      "first4096_image_bytes_fully_covered": false,
+      "image_intersections": [
+        {
+          "byte_count": 1032,
+          "image_relative_start": 33779264,
+          "original_range_entirely_within_image": true
+        },
+        {
+          "byte_count": 4,
+          "image_relative_start": 33790432,
+          "original_range_entirely_within_image": true
+        }
+      ],
+      "memory_contents_PE_header_bytes_or_section_table_read": false,
+      "memory_list_descriptor_stream_bytes": 2004,
+      "memory_range_count": 125,
+      "module_identity": {
+        "PDB_GUID": "7BF26548-FE37-4F3F-94F0-218512BDB807",
+        "PDB_age": 49,
+        "SizeOfImage": 89478144,
+        "basename": "HeroesOfTheStorm_x64.exe",
+        "file_version": [
+          0,
+          17,
+          0,
+          41810
+        ]
+      },
+      "ranges_entirely_within_image": 2,
+      "ranges_with_any_image_overlap": 2,
+      "ranges_without_image_overlap": 123,
+      "unique_captured_image_bytes": 1036
+    },
+    {
+      "all_captured_ranges_declared_bytes": 195519,
+      "case_id": "crash-3",
+      "dump_SHA256_after": "7ad05f754a27c725b6eb54400a3eb7a11e965fd232cf87e6de1eeca41ab200a2",
+      "dump_SHA256_before": "7ad05f754a27c725b6eb54400a3eb7a11e965fd232cf87e6de1eeca41ab200a2",
+      "dump_bytes": 224917,
+      "first4096_image_bytes_covered": 0,
+      "first4096_image_bytes_fully_covered": false,
+      "image_intersections": [
+        {
+          "byte_count": 1032,
+          "image_relative_start": 33779264,
+          "original_range_entirely_within_image": true
+        },
+        {
+          "byte_count": 4,
+          "image_relative_start": 33790432,
+          "original_range_entirely_within_image": true
+        }
+      ],
+      "memory_contents_PE_header_bytes_or_section_table_read": false,
+      "memory_list_descriptor_stream_bytes": 1844,
+      "memory_range_count": 115,
+      "module_identity": {
+        "PDB_GUID": "7BF26548-FE37-4F3F-94F0-218512BDB807",
+        "PDB_age": 49,
+        "SizeOfImage": 89478144,
+        "basename": "HeroesOfTheStorm_x64.exe",
+        "file_version": [
+          0,
+          17,
+          0,
+          41810
+        ]
+      },
+      "ranges_entirely_within_image": 2,
+      "ranges_with_any_image_overlap": 2,
+      "ranges_without_image_overlap": 113,
+      "unique_captured_image_bytes": 1036
+    },
+    {
+      "all_captured_ranges_declared_bytes": 196879,
+      "case_id": "crash-4",
+      "dump_SHA256_after": "53f7534e7d3f66c5f28159a4ae4c0b7f317fb7d1d48528a29391d35ef1910291",
+      "dump_SHA256_before": "53f7534e7d3f66c5f28159a4ae4c0b7f317fb7d1d48528a29391d35ef1910291",
+      "dump_bytes": 226145,
+      "first4096_image_bytes_covered": 0,
+      "first4096_image_bytes_fully_covered": false,
+      "image_intersections": [
+        {
+          "byte_count": 1032,
+          "image_relative_start": 33779264,
+          "original_range_entirely_within_image": true
+        },
+        {
+          "byte_count": 4,
+          "image_relative_start": 33790432,
+          "original_range_entirely_within_image": true
+        }
+      ],
+      "memory_contents_PE_header_bytes_or_section_table_read": false,
+      "memory_list_descriptor_stream_bytes": 1924,
+      "memory_range_count": 120,
+      "module_identity": {
+        "PDB_GUID": "7BF26548-FE37-4F3F-94F0-218512BDB807",
+        "PDB_age": 49,
+        "SizeOfImage": 89478144,
+        "basename": "HeroesOfTheStorm_x64.exe",
+        "file_version": [
+          0,
+          17,
+          0,
+          41810
+        ]
+      },
+      "ranges_entirely_within_image": 2,
+      "ranges_with_any_image_overlap": 2,
+      "ranges_without_image_overlap": 118,
+      "unique_captured_image_bytes": 1036
+    },
+    {
+      "all_captured_ranges_declared_bytes": 197280,
+      "case_id": "crash-5",
+      "dump_SHA256_after": "7d45251b48e6af37265b57813d5c5bb4886547db763bcee0d6adf191a78dcebf",
+      "dump_SHA256_before": "7d45251b48e6af37265b57813d5c5bb4886547db763bcee0d6adf191a78dcebf",
+      "dump_bytes": 226806,
+      "first4096_image_bytes_covered": 0,
+      "first4096_image_bytes_fully_covered": false,
+      "image_intersections": [
+        {
+          "byte_count": 1032,
+          "image_relative_start": 33779264,
+          "original_range_entirely_within_image": true
+        },
+        {
+          "byte_count": 4,
+          "image_relative_start": 33790432,
+          "original_range_entirely_within_image": true
+        }
+      ],
+      "memory_contents_PE_header_bytes_or_section_table_read": false,
+      "memory_list_descriptor_stream_bytes": 1972,
+      "memory_range_count": 123,
+      "module_identity": {
+        "PDB_GUID": "7BF26548-FE37-4F3F-94F0-218512BDB807",
+        "PDB_age": 49,
+        "SizeOfImage": 89478144,
+        "basename": "HeroesOfTheStorm_x64.exe",
+        "file_version": [
+          0,
+          17,
+          0,
+          41810
+        ]
+      },
+      "ranges_entirely_within_image": 2,
+      "ranges_with_any_image_overlap": 2,
+      "ranges_without_image_overlap": 121,
+      "unique_captured_image_bytes": 1036
+    }
+  ],
+  "client_process_or_debugger_launched": false,
+  "descriptor_format": "MINIDUMP_MEMORY_LIST: ULONG32count plus16-byte MINIDUMP_MEMORY_DESCRIPTOR entries, from Microsoft Windows SDK minidumpapiset.h",
+  "format": "hots-five41810-minidump-image-range-descriptor-feasibility-v1",
+  "limits": [
+    "Only descriptor metadata is parsed; before/after SHA passes are opaque and counted separately.",
+    "Image-relative intersections describe declared capture coverage only. No MZ/PE signature, section table or BSN schema bytes are read or authenticated.",
+    "Absence of captured old image bytes in these five dumps would rule out direct old-image/schema extraction from their memory ranges, not from other artifacts."
+  ],
+  "network_requests": 0,
+  "pointed_to_memory_ranges_thread_context_heap_or_PE_contents_decoded": false,
+  "prior_authenticated_module_receipt_SHA256": "a40cde35e02707ff2c484dcc98b2bafa4a86bd30eae1ddf2d6b6fc98f7fb85ea",
+  "producer_SHA256": "12f52599693bbd54db776ccb6c6fd17ab1ff0772eb94a7a4fcd1f8a104669f78",
+  "raw_VAs_nonimage_addresses_file_paths_or_memory_contents_emitted": false,
+  "raw_dump_or_memory_bytes_copied": false,
+  "reader_run_byte_counts": {
+    "opaque_hash_bytes": 2259526,
+    "selected_descriptor_and_module_metadata_bytes": 10868
+  },
+  "selected_metadata_limit_bytes": 65536
+}

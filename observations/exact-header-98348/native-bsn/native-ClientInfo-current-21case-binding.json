@@ -1,0 +1,259 @@
+{
+  "aggregate": {
+    "TalkerId_choice_histogram": {
+      "0": 222
+    },
+    "all_13_anchors_match": true,
+    "all_full_ClientInfo_reencodings_exact": true,
+    "all_prior_opaque_starts_one_bit_into_network_field": true,
+    "first_network_field_bit_histogram": {
+      "0": 222
+    },
+    "named_width_histogram": [
+      {
+        "records": 222,
+        "widths": [
+          8,
+          64,
+          96,
+          31
+        ]
+      }
+    ],
+    "native_segment_bits_histogram": {
+      "199": 222
+    },
+    "prior_opaque_remaining_bits_histogram": {
+      "198": 222
+    },
+    "relevant_permission_count_histogram": {
+      "0": 222
+    }
+  },
+  "current_32_byte_availability_semantics_proven": false,
+  "current_cases": 21,
+  "current_player_records": 222,
+  "format": "hots-native-ClientInfo-current-binding-v1",
+  "game_code_executed_or_loaded": false,
+  "input_read_accounting": {
+    "MPQ_file_reads": 2484664,
+    "guard_rehash_reads": 54930804,
+    "provenance_metadata": 484157
+  },
+  "input_read_bytes": 57899625,
+  "limits": [
+    "Only actual current98348 controls are decoded with this native schema.",
+    "Exact reencoding checks structural preservation; independent existing initData/details gates authenticate identity and boundaries.",
+    "Static field names do not establish ownership meaning or a legacy-to-current value transformation."
+  ],
+  "old_174_layout_proven": false,
+  "private_player_values_or_network_identifiers_emitted": false,
+  "replay_or_member_written": false,
+  "results": [
+    {
+      "all_native_ClientInfo_ends_and_reencoding_exact": true,
+      "id": "current-us-01",
+      "member_sha256": "ab03d9533081e9d69d205a6adec9df6a0aaf5ff47a05ecc8bf670b6760b0ab55",
+      "players": 12,
+      "profile_sha256": "c17a1a9f0aa24000b7556379cf5274e59cf92824636ed63125f694406f5efa4f",
+      "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+      "required_private_crosschecks_passed": true
+    },
+    {
+      "all_native_ClientInfo_ends_and_reencoding_exact": true,
+      "id": "current-us-02",
+      "member_sha256": "ff3bbca0308e77889d481f64ac915e6ee68f299b4d4dda4d54f620740a5786ad",
+      "players": 10,
+      "profile_sha256": "d76b9a67ab39f4171a1eee8d19fbb129578cb211d82088f4b259ac755580a6c9",
+      "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+      "required_private_crosschecks_passed": true
+    },
+    {
+      "all_native_ClientInfo_ends_and_reencoding_exact": true,
+      "id": "current-us-03",
+      "member_sha256": "851a60b11ebc4c752070a82bf2ebb6073428d3a4f20becbda77f7829f336c7ff",
+      "players": 11,
+      "profile_sha256": "70dacf6b9f67b9dace7b7938d81f2ed2595a461630621a00279d0a336b20df87",
+      "replay_sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+      "required_private_crosschecks_passed": true
+    },
+    {
+      "all_native_ClientInfo_ends_and_reencoding_exact": true,
+      "id": "current-us-04",
+      "member_sha256": "a96d3c7185c7f1745ffdf59c58e4f99000e2d9995ab748ecbf610b4ce21cadc2",
+      "players": 11,
+      "profile_sha256": "2d562fc390e48ef72010e3081d217d9ce4833594f8a7df793b2c4cc2a33cd998",
+      "replay_sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+      "required_private_crosschecks_passed": true
+    },
+    {
+      "all_native_ClientInfo_ends_and_reencoding_exact": true,
+      "id": "current-us-05",
+      "member_sha256": "2f2a5a0712b0f13259e64371c8e7947db4cb67f9a03aff74cdd490730d8b7a23",
+      "players": 10,
+      "profile_sha256": "dfb09d83dd8c4f8c5bd055a87a66088e3ff85ed2ee0a04487fe51ba28412e92e",
+      "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+      "required_private_crosschecks_passed": true
+    },
+    {
+      "all_native_ClientInfo_ends_and_reencoding_exact": true,
+      "id": "current-us-06",
+      "member_sha256": "41fa82787dad98164af19a8dcba3d6204fad73d347fc55e3e1935e7bff4fbc23",
+      "players": 10,
+      "profile_sha256": "7176cf12f3f6c7ad71919f5a8b4899594d3dfd23a2ab56e5cd0475d9dcebb1c7",
+      "replay_sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+      "required_private_crosschecks_passed": true
+    },
+    {
+      "all_native_ClientInfo_ends_and_reencoding_exact": true,
+      "id": "current-us-07",
+      "member_sha256": "0d63889a740e4c0556b915aa1ee0b88bf7394bef76411c401d327b44e4058b9d",
+      "players": 10,
+      "profile_sha256": "5072c639bd48e5f74ceb2121a3c3ba660272a989cbb77ec711e2ad3e3c149b3a",
+      "replay_sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+      "required_private_crosschecks_passed": true
+    },
+    {
+      "all_native_ClientInfo_ends_and_reencoding_exact": true,
+      "id": "current-us-08",
+      "member_sha256": "88f5317afe6462d5b6f9f9e5444e0ee93aa21f0bbf395c0437df39b26d11c29e",
+      "players": 10,
+      "profile_sha256": "29d8f97fea994b919913612bda0b923ebdf49cacbd7b9b3a0c82de4fd090d2cc",
+      "replay_sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+      "required_private_crosschecks_passed": true
+    },
+    {
+      "all_native_ClientInfo_ends_and_reencoding_exact": true,
+      "id": "current-us-09",
+      "member_sha256": "171ca2a107ef8a59a8959d5f6d3fe46691a2ad2b0c9411da1bf83380b9e4ead1",
+      "players": 10,
+      "profile_sha256": "fd9481babfe54374857ee2ed5d55dc6de1c4faba1b194e9ca1ca0422544546cd",
+      "replay_sha256": "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+      "required_private_crosschecks_passed": true
+    },
+    {
+      "all_native_ClientInfo_ends_and_reencoding_exact": true,
+      "id": "current-us-10",
+      "member_sha256": "2bacf43f671d86cd6aa3e483d02161b71d8ed101fa9a30596693edf719837039",
+      "players": 12,
+      "profile_sha256": "a35175588e549f7089fa64cae51f6c867592b35d9ab8fbe90c7e1d217f31f111",
+      "replay_sha256": "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+      "required_private_crosschecks_passed": true
+    },
+    {
+      "all_native_ClientInfo_ends_and_reencoding_exact": true,
+      "id": "current-us-11",
+      "member_sha256": "3812de9f6dedefb3c4adc2bb69ce90c4f691eb0814d91e89ca4f16e66d57ef46",
+      "players": 10,
+      "profile_sha256": "0b998c363430aeec02c3005124f747da5787b2d10bf72732ee952bd5ddc14d6b",
+      "replay_sha256": "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+      "required_private_crosschecks_passed": true
+    },
+    {
+      "all_native_ClientInfo_ends_and_reencoding_exact": true,
+      "id": "current-us-12",
+      "member_sha256": "c02a3f8e2a7d22b59f71d4b4ad9f57f62a394dead326ff085ecca77ed449504a",
+      "players": 10,
+      "profile_sha256": "f78a46019ad2ba71c0ef1885feb5e19bef0f6c10a72e9a0eaf7e7621d705c77f",
+      "replay_sha256": "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77",
+      "required_private_crosschecks_passed": true
+    },
+    {
+      "all_native_ClientInfo_ends_and_reencoding_exact": true,
+      "id": "current-eu-01",
+      "member_sha256": "62a6c46d2f5b17139b72cd0b84a1ceeeac76b04a7a254889943d61c413d8adf1",
+      "players": 10,
+      "profile_sha256": "255f13b2d9dd52763b94d4aa8d1e99624c4d38eb8e545e205549bffce3be9feb",
+      "replay_sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4",
+      "required_private_crosschecks_passed": true
+    },
+    {
+      "all_native_ClientInfo_ends_and_reencoding_exact": true,
+      "id": "crossmap-01",
+      "member_sha256": "ac55028f802c1dc318629af7267aad7c45f0cb8bed9b9420d22c844b8823df87",
+      "players": 10,
+      "profile_sha256": "21bfaf86b58aecab3a68bc6612ce0178dfecdda08ed3af5297ce21f8be52cea0",
+      "replay_sha256": "afcf49a656068f343173fc79afff2d2ebf15066f531cb192382cdba9d1ea3272",
+      "required_private_crosschecks_passed": true
+    },
+    {
+      "all_native_ClientInfo_ends_and_reencoding_exact": true,
+      "id": "crossmap-02",
+      "member_sha256": "d380ed381e57d8d6c7d279e486610b620b136557a687f446d90aa87f2724d71d",
+      "players": 10,
+      "profile_sha256": "e435d58d1a1dea9fee5fafbc705813acbde1a22ea235b25c04188c9cae7b95a5",
+      "replay_sha256": "fe801daf9df44f10db2b950989308c8ee2fa55c03b4adfef7ac383b4d46583bf",
+      "required_private_crosschecks_passed": true
+    },
+    {
+      "all_native_ClientInfo_ends_and_reencoding_exact": true,
+      "id": "crossmap-03",
+      "member_sha256": "27eb0499a7359f3a0c366ba96a9c537a00fdbde3109239d7873e4359f66e4414",
+      "players": 12,
+      "profile_sha256": "3ea61d6358f35d25f80d11c3f0cbd1dcbf91f4565b5ddfcdf1031d431d21f7ab",
+      "replay_sha256": "9872b043e48093abc65e11b7b6d091861e83fc4d202b40b745824da647cb6ef3",
+      "required_private_crosschecks_passed": true
+    },
+    {
+      "all_native_ClientInfo_ends_and_reencoding_exact": true,
+      "id": "crossmap-04",
+      "member_sha256": "243febffe96fe902cdb00172d9350b3469faa7aaf3e8c2f14c0ee7e36310e760",
+      "players": 12,
+      "profile_sha256": "4b196df65763da5d7d990515a83582d041548dc89b2394e05f9232730193d433",
+      "replay_sha256": "98ac891fa4fb8e1698e5fc35609fcf75abfe7e89aee9c7f05afff93b10338ab3",
+      "required_private_crosschecks_passed": true
+    },
+    {
+      "all_native_ClientInfo_ends_and_reencoding_exact": true,
+      "id": "crossmap-05",
+      "member_sha256": "f12415239a8fc50a4fe96a5bb87b5419571c743ad111c793b5a5a1b96a3d4dba",
+      "players": 10,
+      "profile_sha256": "3256be4b60c5e8553e28e80044e60eb2289558e1749f31100f3cc2e1a0933923",
+      "replay_sha256": "715e309bba5d3151d3e1b47461041627db7644d91a8b549c309950e44d6067e8",
+      "required_private_crosschecks_passed": true
+    },
+    {
+      "all_native_ClientInfo_ends_and_reencoding_exact": true,
+      "id": "crossmap-06",
+      "member_sha256": "0f1c2c70125ca58772c1c8f06ae7bcdf46e69adfb7bc6d5ff5ef567f7c3aa688",
+      "players": 11,
+      "profile_sha256": "bd03f3e27134998b088e1bfd10e70ff34d006057eb094455b154a8173e16e084",
+      "replay_sha256": "1230eee79fd3b50a3ee471c587bc77dd14aef67d57bf22cd8df52e877329323a",
+      "required_private_crosschecks_passed": true
+    },
+    {
+      "all_native_ClientInfo_ends_and_reencoding_exact": true,
+      "id": "crossmap-07",
+      "member_sha256": "73dc4ed1ac0682108dc301174662672f102a5d07c330a29876c5840b17687466",
+      "players": 10,
+      "profile_sha256": "c0ee5d66c7a866f3cd673f31b7930bcbe9c6747dee6ea51c00103d4523780f26",
+      "replay_sha256": "db40f495edb70b2127b97cae4f479de19e18e61b2a5a0e0413052b571e1dbf7e",
+      "required_private_crosschecks_passed": true
+    },
+    {
+      "all_native_ClientInfo_ends_and_reencoding_exact": true,
+      "id": "crossmap-08",
+      "member_sha256": "cc6a0833f001a34b03c96680dd59ef22a23459b64057f65de40e6f2900b0a773",
+      "players": 11,
+      "profile_sha256": "ca8abe7788e0a4018b406ac332d0c64304b91c9992204b34176347ae73466681",
+      "replay_sha256": "d41417f0fd11a1d512e30fa77882bdebf220432bd7e9412b40440cb79a7c9cec",
+      "required_private_crosschecks_passed": true
+    }
+  ],
+  "single_bit_RAM_network_branch_negative_control": {
+    "RAM_mutated_member_sha256": "8ed083b6382296badfb961a23ccf2430173d4b7dd518b25077f8fd90eda0250c",
+    "body_saved": false,
+    "changed_only_first_bit_of_native_u8_network_field": true,
+    "exactly_one_wire_bit_changed": true,
+    "native_full_ClientInfo_boundary_and_reencoding_pass": true,
+    "prior_observed_tail_decoder_rejects": true,
+    "source_member_sha256": "ab03d9533081e9d69d205a6adec9df6a0aaf5ff47a05ecc8bf670b6760b0ab55",
+    "synthetic_mutation_is_not_an_authentic_replay": true
+  },
+  "source_PE_sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+  "source_embedded_bytecode_sha256": "ce3b1f764575730f2c08c89eed73ea843ec4cc702b727c9577ca071ce610e741",
+  "source_hashes": {
+    "cohort_loader": "2f020152115324ef7e309807a9d988bc65b62eb8dcf6e8077988b29cdd2dd9ca",
+    "native_client_layout.py": "14cd9d119b4b26a5b479f410412377e2c93c7fab6c813bc5df42e74e0e2772d9"
+  }
+}

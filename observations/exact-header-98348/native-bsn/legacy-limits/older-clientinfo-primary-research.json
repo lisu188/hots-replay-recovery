@@ -1,0 +1,204 @@
+{
+  "format": "older-clientinfo-primary-source-research-v1",
+  "target": "Seek older typed ClientInfo declarations using exact m_talkerNetworkId and paired m_relevantPermissions/m_profileAddress, without assuming HotS41810 identity.",
+  "limits": {
+    "GitHub_source_or_code_search_calls_used": 4,
+    "maximum_calls": 4,
+    "PE_or_replay_reads": 0,
+    "client_launches": 0,
+    "raw_upstream_bodies_saved_or_published": false,
+    "repo_or_cloud_writes": false
+  },
+  "operations": [
+    {
+      "operation": 1,
+      "url": "https://api.github.com/search/code?q=m_talkerNetworkId&per_page=5",
+      "status": "fulfilled",
+      "git_blob_sha1": null
+    },
+    {
+      "operation": 2,
+      "url": "https://api.github.com/search/code?q=m_relevantPermissions%20m_profileAddress&per_page=5",
+      "status": "fulfilled",
+      "git_blob_sha1": null
+    },
+    {
+      "operation": 3,
+      "url": "https://github.com/SatyPardus/wowdecomp15595/blob/959b0b85c5f55c565328d7c3ca33027a65e41327/WoW/Source/Battlenet/BattlenetProtocolTypes.h",
+      "status": "fulfilled",
+      "git_blob_sha1": "86bd0bd8d9a94aca700f4d02679f9513f4d6a119"
+    },
+    {
+      "operation": 4,
+      "url": "https://github.com/ncarrillo/superiority/blob/d312643305790a4215171f6717741a8e26e9e8c9/core/src/games/sc2/native/schema/chat.rs",
+      "status": "fulfilled",
+      "git_blob_sha1": "9c403ae7adc8172a89447a035143c10b206441a2"
+    }
+  ],
+  "search_results": [
+    {
+      "operation": 1,
+      "query": "m_talkerNetworkId",
+      "total_count": 1,
+      "incomplete_results": false,
+      "returned_items": 1,
+      "matched_source_operation": 4
+    },
+    {
+      "operation": 2,
+      "query": "m_relevantPermissions m_profileAddress",
+      "total_count": 1,
+      "incomplete_results": false,
+      "returned_items": 1,
+      "matched_source_operation": 3
+    }
+  ],
+  "source_bodies": [
+    {
+      "operation": 3,
+      "repository": "SatyPardus/wowdecomp15595",
+      "commit": "959b0b85c5f55c565328d7c3ca33027a65e41327",
+      "relative_file": "WoW/Source/Battlenet/BattlenetProtocolTypes.h",
+      "expected_git_blob_sha1": "86bd0bd8d9a94aca700f4d02679f9513f4d6a119",
+      "measured": {
+        "bytes": 107177,
+        "sha256": "93ea8dc775ada14f05f4dd85485a7271d38e9d0a86abeed93c048c1ece2f250d",
+        "git_blob_sha1": "86bd0bd8d9a94aca700f4d02679f9513f4d6a119"
+      }
+    },
+    {
+      "operation": 4,
+      "repository": "ncarrillo/superiority",
+      "commit": "d312643305790a4215171f6717741a8e26e9e8c9",
+      "relative_file": "core/src/games/sc2/native/schema/chat.rs",
+      "expected_git_blob_sha1": "9c403ae7adc8172a89447a035143c10b206441a2",
+      "measured": {
+        "bytes": 18701,
+        "sha256": "74f460deeef4cc6aca13ac7cc748c0121d42a4e0762be834db67f35a9093ce60",
+        "git_blob_sha1": "9c403ae7adc8172a89447a035143c10b206441a2"
+      }
+    }
+  ],
+  "findings": [
+    {
+      "id": "SC2-chat-talker-network-id",
+      "source_operation": 4,
+      "source_url": "https://github.com/ncarrillo/superiority/blob/d312643305790a4215171f6717741a8e26e9e8c9/core/src/games/sc2/native/schema/chat.rs#L190-L200",
+      "lines": [
+        190,
+        200
+      ],
+      "owner": "ChatMemberStatusSingleTalkerNetworkId",
+      "exact_member": "m_talkerNetworkId",
+      "declared_host_type": "u8",
+      "facts": [
+        "Rust FromBsn record uses the exact BSN-name annotation m_talkerNetworkId for talker_network_id:u8.",
+        "Adjacent ChatMemberStatusSingleTalkerInfo is a separate record and refers to ClientComSatTalkerInfo."
+      ],
+      "limits": [
+        "An unsigned8-bit Rust host type is not by itself proof of an8-bit BSN wire width.",
+        "No ClientInfo declaration or HotS41810 version binding occurs in this fetched file."
+      ]
+    },
+    {
+      "id": "WoW-profile-address-owner",
+      "source_operation": 3,
+      "source_url": "https://github.com/SatyPardus/wowdecomp15595/blob/959b0b85c5f55c565328d7c3ca33027a65e41327/WoW/Source/Battlenet/BattlenetProtocolTypes.h#L1383-L1391",
+      "lines": [
+        1383,
+        1391
+      ],
+      "owner": "Battlenet::Party::ReadyProcess::JoinAmm",
+      "exact_member": "m_profileAddress",
+      "declared_host_type": "Battlenet::Profile::RecordAddress",
+      "referenced_record": {
+        "source_url": "https://github.com/SatyPardus/wowdecomp15595/blob/959b0b85c5f55c565328d7c3ca33027a65e41327/WoW/Source/Battlenet/BattlenetProtocolTypes.h#L698-L706",
+        "lines": [
+          698,
+          706
+        ],
+        "declared_members": [
+          {
+            "name": "m_label",
+            "type": "uint32_t",
+            "annotated_native_offset": 0
+          },
+          {
+            "name": "m_id",
+            "type": "uint64_t",
+            "annotated_native_offset": 8
+          }
+        ]
+      },
+      "limits": [
+        "The actual owner is a party JoinAmm record, not ClientInfo.",
+        "Native offsets and integer storage widths do not establish BSN/replay wire widths."
+      ]
+    },
+    {
+      "id": "WoW-permissions-owner",
+      "source_operation": 3,
+      "source_url": "https://github.com/SatyPardus/wowdecomp15595/blob/959b0b85c5f55c565328d7c3ca33027a65e41327/WoW/Source/Battlenet/BattlenetProtocolTypes.h#L964-L982",
+      "lines": [
+        964,
+        982
+      ],
+      "owner": "Battlenet::S2Map::BnetHeader",
+      "exact_member": "m_relevantPermissions",
+      "declared_host_type": "BSN::Array<Battlenet::Permission::Handle,100>",
+      "referenced_record": {
+        "source_url": "https://github.com/SatyPardus/wowdecomp15595/blob/959b0b85c5f55c565328d7c3ca33027a65e41327/WoW/Source/Battlenet/BattlenetProtocolTypes.h#L427-L437",
+        "lines": [
+          427,
+          437
+        ],
+        "declared_members": [
+          {
+            "name": "m_scope",
+            "type": "BSN::FourCC",
+            "annotated_native_offset": 0
+          },
+          {
+            "name": "m_id",
+            "type": "uint64_t",
+            "annotated_native_offset": 8
+          }
+        ]
+      },
+      "limits": [
+        "Same-file co-occurrence with m_profileAddress belongs to different owners and is not a ClientInfo declaration.",
+        "Capacity100 and native offsets do not establish serialization count or member bit widths."
+      ]
+    }
+  ],
+  "exact_occurrence_counts": {
+    "WoW_header": {
+      "ClientInfo": 0,
+      "m_talkerNetworkId": 0,
+      "m_talkerInfo": 0,
+      "m_profileAddress": 1,
+      "m_relevantPermissions": 1
+    },
+    "SC2_chat_schema": {
+      "ClientInfo": 0,
+      "m_talkerNetworkId": 1,
+      "m_talkerInfo": 1,
+      "m_profileAddress": 0,
+      "m_relevantPermissions": 0
+    }
+  },
+  "outcome": {
+    "older_typed_ClientInfo_found": false,
+    "HotS41810_version_bound_ClientInfo_found": false,
+    "old_174bit_layout_established": false,
+    "explanation_for_added24bits_established": false
+  },
+  "limits_of_negative_result": [
+    "Code searches cover the returned indexed GitHub code, not all tags/branches/history.",
+    "Only two exact fetched source files were inspected; this is not global absence evidence.",
+    "The repository name wowdecomp15595 and SC2 schema path do not bind either body to HotS41810.",
+    "Current HotS PE ClientInfo1768 metadata is a separate evidence lane; no fields or widths are copied from these crossgame sources."
+  ],
+  "stop_reason": "All four authorized source calls used; no further acquisition.",
+  "recorded_at_utc": "2026-10-18T22:22:49.311Z"
+}

@@ -1,0 +1,157 @@
+{
+  "anchors": {
+    "aligned_following_boundary": 43560676,
+    "final_NUL_terminated_string": "GGCP",
+    "final_dump_string_pointer_value": 391628,
+    "final_dump_string_pointer_word_file_offset": 43363800,
+    "final_string_ends_at_container_end": true,
+    "final_string_file_offset": 43560668,
+    "final_string_pointer_is_in_dump_info_not_top_level_dump_offset_table": true,
+    "immediately_following_alignment_NUL_bytes": 3,
+    "literal_names": [
+      {
+        "NUL_terminated_literal_verified": true,
+        "file_offset": 43393499,
+        "name": "m_licenseCatalog",
+        "relative_container_offset": 224459,
+        "rva": 43397595,
+        "section": ".rdata"
+      },
+      {
+        "NUL_terminated_literal_verified": true,
+        "file_offset": 43396498,
+        "name": "m_licenseInstance",
+        "relative_container_offset": 227458,
+        "rva": 43400594,
+        "section": ".rdata"
+      },
+      {
+        "NUL_terminated_literal_verified": true,
+        "file_offset": 43426603,
+        "name": "m_clientLicensesList",
+        "relative_container_offset": 257563,
+        "rva": 43430699,
+        "section": ".rdata"
+      },
+      {
+        "NUL_terminated_literal_verified": true,
+        "file_offset": 43476303,
+        "name": "m_mapNamespace",
+        "relative_container_offset": 307263,
+        "rva": 43480399,
+        "section": ".rdata"
+      }
+    ]
+  },
+  "container": {
+    "bytes": 391633,
+    "declared_dump_info_bytes": 257729,
+    "declared_type_info_bytes": 67244,
+    "file_end_exclusive": 43560673,
+    "file_offset": 43169040,
+    "header_and_intervals_are_contiguous": true,
+    "intervals": [
+      {
+        "bytes": 20,
+        "file_end_exclusive": 43169060,
+        "file_start": 43169040,
+        "name": "header",
+        "relative_end_exclusive": 20,
+        "relative_start": 0,
+        "rva_start": 43173136,
+        "section": ".rdata"
+      },
+      {
+        "bytes": 33320,
+        "file_end_exclusive": 43202380,
+        "file_start": 43169060,
+        "name": "type_offset_table",
+        "relative_end_exclusive": 33340,
+        "relative_start": 20,
+        "rva_start": 43173156,
+        "section": ".rdata"
+      },
+      {
+        "bytes": 67244,
+        "file_end_exclusive": 43269624,
+        "file_start": 43202380,
+        "name": "type_info",
+        "relative_end_exclusive": 100584,
+        "relative_start": 33340,
+        "rva_start": 43206476,
+        "section": ".rdata"
+      },
+      {
+        "bytes": 33320,
+        "file_end_exclusive": 43302944,
+        "file_start": 43269624,
+        "name": "dump_offset_table",
+        "relative_end_exclusive": 133904,
+        "relative_start": 100584,
+        "rva_start": 43273720,
+        "section": ".rdata"
+      },
+      {
+        "bytes": 257729,
+        "file_end_exclusive": 43560673,
+        "file_start": 43302944,
+        "name": "dump_info",
+        "relative_end_exclusive": 391633,
+        "relative_start": 133904,
+        "rva_start": 43307040,
+        "section": ".rdata"
+      }
+    ],
+    "rva": 43173136,
+    "section": ".rdata",
+    "sha256": "ce3b1f764575730f2c08c89eed73ea843ec4cc702b727c9577ca071ce610e741",
+    "type_count": 8330,
+    "unknown_second_word": 0,
+    "version_word": 7
+  },
+  "documented_source_provenance_sha256": "10a65095b099f71ae69c225a7dc9842adb110ce9243d80bfe79229a3533112ea",
+  "format": "native-bsn-independent-framing-v1",
+  "limitations": [
+    "Validates constructor geometry, all top-level table target bounds and four literal anchors, not complete type-record grammar.",
+    "Dump-info pointers are not automatically string pointers; the one final-string pointer is separately checked.",
+    "The reference source does not mandate version7 or name its second header word; those are observed current PE values.",
+    "Framing and label presence do not establish HotS replay field layouts, serialization bit widths or availability semantics."
+  ],
+  "material_findings": [],
+  "operations": {
+    "imported_agent_producer": false,
+    "network_requests": 0,
+    "raw_blob_or_binary_body_saved": false,
+    "repo_or_cloud_writes": false,
+    "upstream_native_or_client_code_loaded_or_executed": false
+  },
+  "producer_sha256": "f1d29707d24eb75eaa9df90520e73c58f67439cf349234458e70915b9f677557",
+  "source_PE": {
+    "actual_PE_bytes_read": 53573840,
+    "bytes": 53573840,
+    "read_passes": 1,
+    "sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+    "size_and_mtime_unchanged": true
+  },
+  "table_checks": {
+    "dump_entries_checked": 8330,
+    "dump_target_section_counts": {
+      ".rdata": 8330
+    },
+    "last_top_level_dump_offset_word_file_position": 43302940,
+    "nonzero_dump_offset_max": 194748,
+    "nonzero_dump_offset_min": 133908,
+    "nonzero_dump_offset_unique_count": 2962,
+    "nonzero_dump_offsets_inside_declared_dump_info": true,
+    "type_entries_checked": 8330,
+    "type_offset_max": 100572,
+    "type_offset_min": 33340,
+    "type_offset_unique_count": 8330,
+    "type_offsets_inside_declared_type_info": true,
+    "type_target_section_counts": {
+      ".rdata": 8330
+    },
+    "zero_dump_entries": 0
+  },
+  "verdict": "PASS"
+}

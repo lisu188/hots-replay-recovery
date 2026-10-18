@@ -1,0 +1,14 @@
+{
+  "format": "hots-root-native-BSN-focused-test-result-v1",
+  "tests_run": 31,
+  "failures": 0,
+  "errors": 0,
+  "skips": 0,
+  "test_modules": [
+    "test_parse_bsn_metadata",
+    "test_embedded_string_table",
+    "test_native_client_layout"
+  ],
+  "client_launched": false,
+  "actual_replay_binding_executed_by_this_test_run": false
+}

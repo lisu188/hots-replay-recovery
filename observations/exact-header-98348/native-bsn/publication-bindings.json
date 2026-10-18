@@ -1,0 +1,263 @@
+{
+  "format": "hots-native-BSN-and-current-ClientInfo-publication-bindings-v1",
+  "base_commit": "3e5ebb7cee76e42c97ecf498d2a4e558b8e8bb2a",
+  "files": [
+    {
+      "source_relative_to_task": "work/native-embedded-schema-98348/inspect_bsn_schema.py",
+      "published_path": "research/exact-header-98348/native-bsn/inspect_bsn_schema.py",
+      "bytes": 5902,
+      "published_sha256": "9d2dd5b6b95a600ebef8603ccb5b298c4778105a63960df4c67eb34de7f76f0c",
+      "source_bytes_preserved": true
+    },
+    {
+      "source_relative_to_task": "work/native-embedded-schema-98348/native-BSN-metadata-98348-v2.json",
+      "published_path": "observations/exact-header-98348/native-bsn/native-BSN-metadata-98348-v2.json",
+      "bytes": 96671,
+      "published_sha256": "cf7204cb7b26f4d1cdcf92930bee154932fa2cbe9f27f4d10daf7be6ef3f0256",
+      "source_bytes_preserved": true
+    },
+    {
+      "source_relative_to_task": "work/native-embedded-schema-98348/parse_bsn_metadata.py",
+      "published_path": "research/exact-header-98348/native-bsn/parse_bsn_metadata.py",
+      "bytes": 8377,
+      "published_sha256": "0c8021fdcb761a27ca9860f72161110e1156f518678430b9570a49fc20f85f06",
+      "source_bytes_preserved": true
+    },
+    {
+      "source_relative_to_task": "work/native-embedded-schema-98348/test_parse_bsn_metadata.py",
+      "published_path": "research/exact-header-98348/native-bsn/test_parse_bsn_metadata.py",
+      "bytes": 4153,
+      "published_sha256": "038fa8040205176f3188aea2b584c2267e0599f57327a0f0e3fb8790254e139d",
+      "source_bytes_preserved": true
+    },
+    {
+      "source_relative_to_task": "work/native-embedded-schema-98348/native_client_layout.py",
+      "published_path": "research/exact-header-98348/native-bsn/native_client_layout.py",
+      "bytes": 14601,
+      "published_sha256": "14cd9d119b4b26a5b479f410412377e2c93c7fab6c813bc5df42e74e0e2772d9",
+      "source_bytes_preserved": true
+    },
+    {
+      "source_relative_to_task": "work/native-embedded-schema-98348/test_native_client_layout.py",
+      "published_path": "research/exact-header-98348/native-bsn/test_native_client_layout.py",
+      "bytes": 3709,
+      "published_sha256": "abe345ca0a8cedcc13f2d6aafbc51dee5a9c87a0689db233d60c4bda738bf6ba",
+      "source_bytes_preserved": true
+    },
+    {
+      "source_relative_to_task": "work/native-embedded-schema-98348/native-ClientInfo-current-21case-binding.json",
+      "published_path": "observations/exact-header-98348/native-bsn/native-ClientInfo-current-21case-binding.json",
+      "bytes": 11932,
+      "published_sha256": "a0145b4e33ffca51f2658486f55c78a6a3b97744ad085d6026009f6d534377b5",
+      "source_bytes_preserved": true
+    },
+    {
+      "source_relative_to_task": "work/native-embedded-schema-98348/inspect_embedded_string_table.py",
+      "published_path": "research/exact-header-98348/native-bsn/inspect_embedded_string_table.py",
+      "bytes": 9854,
+      "published_sha256": "2fd64e6a470f6b4fde4135c7b2f68bd7c418679bfb87ef43d94ae155fc07ee1e",
+      "source_bytes_preserved": true
+    },
+    {
+      "source_relative_to_task": "work/native-embedded-schema-98348/test_embedded_string_table.py",
+      "published_path": "research/exact-header-98348/native-bsn/test_embedded_string_table.py",
+      "bytes": 2110,
+      "published_sha256": "17ac0f5981c4a0686c042ea996fc803a9a744e54848f9e347ca4cf079ad860fe",
+      "source_bytes_preserved": true
+    },
+    {
+      "source_relative_to_task": "work/native-embedded-schema-98348/embedded-string-table-boundaries-98348.json",
+      "published_path": "observations/exact-header-98348/native-bsn/embedded-string-table-boundaries-98348.json",
+      "bytes": 12030,
+      "published_sha256": "01f6405923ac7fae41f5937492aab8fc4d4bc60f873a7b800fbc1b6ab1e7aaf1",
+      "source_bytes_preserved": true
+    },
+    {
+      "source_relative_to_task": "work/native-bsn-parser-independent-review/native-BSN-parser-independent-review.json",
+      "published_path": "observations/exact-header-98348/native-bsn/native-BSN-parser-independent-review.json",
+      "bytes": 3206,
+      "published_sha256": "9d378748169662bf862f9c947448b986f66463a1fee1949ba524023f8804eb3b",
+      "source_bytes_preserved": true
+    },
+    {
+      "source_relative_to_task": "work/native-bsn-parser-independent-review/review_native_bsn_parser.py",
+      "published_path": "research/exact-header-98348/native-bsn/review_native_bsn_parser.py",
+      "bytes": 14620,
+      "published_sha256": "797ff692e4e9418e43f0d34e5692b9fbdcf0cec200938608feb6a23c4f7f0932",
+      "source_bytes_preserved": true
+    },
+    {
+      "source_relative_to_task": "work/native-bsn-independent-framing/native-bsn-independent-framing.json",
+      "published_path": "observations/exact-header-98348/native-bsn/native-bsn-independent-framing.json",
+      "bytes": 5172,
+      "published_sha256": "dbe8bd08d6e0fd4463017a721c06e2fae298a8dc4a40b79043b19776bca6ecf4",
+      "source_bytes_preserved": true
+    },
+    {
+      "source_relative_to_task": "work/native-bsn-independent-framing/verify_native_bsn_framing.py",
+      "published_path": "research/exact-header-98348/native-bsn/verify_native_bsn_framing.py",
+      "bytes": 10568,
+      "published_sha256": "f1d29707d24eb75eaa9df90520e73c58f67439cf349234458e70915b9f677557",
+      "source_bytes_preserved": true
+    },
+    {
+      "source_relative_to_task": "work/bsn-primary-provenance/bsn-primary-source-provenance.json",
+      "published_path": "observations/exact-header-98348/native-bsn/bsn-primary-source-provenance.json",
+      "bytes": 15418,
+      "published_sha256": "10a65095b099f71ae69c225a7dc9842adb110ce9243d80bfe79229a3533112ea",
+      "source_bytes_preserved": true
+    },
+    {
+      "source_relative_to_task": "work/bsn-primary-provenance/record_bsn_primary_provenance.py",
+      "published_path": "research/exact-header-98348/native-bsn/record_bsn_primary_provenance.py",
+      "bytes": 10387,
+      "published_sha256": "7a4fb9a39d2d2a3a6b520849df175c945548c79296e978935cca7a4d9d50b98d",
+      "source_bytes_preserved": true
+    },
+    {
+      "source_relative_to_task": "work/legacy41810-image-range-feasibility/old41810-image-capture-descriptor-feasibility.json",
+      "published_path": "observations/exact-header-98348/native-bsn/legacy-limits/old41810-image-capture-descriptor-feasibility.json",
+      "bytes": 8257,
+      "published_sha256": "86fdb4c998ee393a56fa9165af16d472438aee7eb3221610a3eededa366ad27f",
+      "source_bytes_preserved": true
+    },
+    {
+      "source_relative_to_task": "work/legacy41810-image-range-feasibility/inspect_image_range_descriptors.py",
+      "published_path": "research/exact-header-98348/native-bsn/legacy-limits/inspect_image_range_descriptors.py",
+      "bytes": 9566,
+      "published_sha256": "12f52599693bbd54db776ccb6c6fd17ab1ff0772eb94a7a4fcd1f8a104669f78",
+      "source_bytes_preserved": true
+    },
+    {
+      "source_relative_to_task": "work/older-clientinfo-primary-research/older-clientinfo-primary-research.json",
+      "published_path": "observations/exact-header-98348/native-bsn/legacy-limits/older-clientinfo-primary-research.json",
+      "bytes": 7470,
+      "published_sha256": "5f33c39c01a1b9da7ee1de529a520b10f18398f27899f9d678d88d626c16f375",
+      "source_bytes_preserved": true
+    },
+    {
+      "source_relative_to_task": "work/check_live_target_after_native.py",
+      "published_path": "research/exact-header-98348/native-bsn/check_live_target_after_native.py",
+      "bytes": 1743,
+      "published_sha256": "e38eca621c026828897462b10a59d8e3f3f782ba628868a8b2122079ddb655db",
+      "source_bytes_preserved": true
+    },
+    {
+      "source_relative_to_task": "work/official-target-after-native-research.json",
+      "published_path": "observations/exact-header-98348/native-bsn/official-target-after-native-research.json",
+      "bytes": 747,
+      "published_sha256": "c576a9ba98b9fd363cab9883465edf7121a02b5d3eac6cb4f8519511810035cb",
+      "source_bytes_preserved": true
+    },
+    {
+      "source_relative_to_task": "work/complete-offline-894-native-legacy-milestone-CI.json",
+      "published_path": "observations/exact-header-98348/native-bsn/complete-offline-894-native-legacy-milestone-CI.json",
+      "bytes": 2159,
+      "published_sha256": "603b78f8e12d00471817e7696455e4c42a3afc67dc2dcf6687273c4872ed8a4f",
+      "source_bytes_preserved": true
+    },
+    {
+      "source_relative_to_task": "work/native-legacy-source-only-cloud-backup-verification.json",
+      "published_path": "observations/exact-header-98348/native-bsn/native-legacy-source-only-cloud-backup-verification.json",
+      "bytes": 965,
+      "published_sha256": "d07f131aad54d225aa83924820f730be8cae4aa22f26cd3a61ecc3645f493ae8",
+      "source_bytes_preserved": true
+    },
+    {
+      "source_relative_to_task": "work/original-R8-guards-after-native-schema.json",
+      "published_path": "observations/exact-header-98348/native-bsn/original-R8-guards-after-native-schema.json",
+      "bytes": 536,
+      "published_sha256": "4db57cd43fb214416a355cfb4e5227044a4740b7850c2d45d4a11799b3a18d78",
+      "source_bytes_preserved": true
+    },
+    {
+      "source_relative_to_task": "work/root-native-BSN-focused-tests.json",
+      "published_path": "observations/exact-header-98348/native-bsn/root-native-BSN-focused-tests.json",
+      "bytes": 337,
+      "published_sha256": "9b5ba15bedc8c5aa6265ccde5d5f1eef3b251a84641ecaa1f1aff662a0207bf2",
+      "source_bytes_preserved": true
+    },
+    {
+      "source_relative_to_task": "work/native-client-independent-review/native-ClientInfo-independent-review.json",
+      "published_path": "observations/exact-header-98348/native-bsn/native-ClientInfo-independent-review.json",
+      "bytes": 9005,
+      "published_sha256": "f077a91d3059380f4390e8fad7b1e6d85d63c84c4f78ec16ae4d5ea7b68ee505",
+      "source_bytes_preserved": true
+    },
+    {
+      "source_relative_to_task": "work/native-client-independent-review/independent_bsn_graph.py",
+      "published_path": "research/exact-header-98348/native-bsn/independent_bsn_graph.py",
+      "bytes": 5606,
+      "published_sha256": "2eefcbd2d57e4461a882adfb283c6c20da35a5ad517d49ac329055f38e387ec3",
+      "source_bytes_preserved": true
+    },
+    {
+      "source_relative_to_task": "work/native-client-independent-review/independent_client_bits.py",
+      "published_path": "research/exact-header-98348/native-bsn/independent_client_bits.py",
+      "bytes": 4015,
+      "published_sha256": "544efb3f38af402cab5eeadb2c101756f6155d41c36ac2d8db56598dc44fd5a4",
+      "source_bytes_preserved": true
+    },
+    {
+      "source_relative_to_task": "work/native-client-independent-review/review_native_client_binding.py",
+      "published_path": "research/exact-header-98348/native-bsn/review_native_client_binding.py",
+      "bytes": 12023,
+      "published_sha256": "3ce5d6658c8f798c47baf8a2ed7266659554bc7d9054992aa6bbe116f48306e3",
+      "source_bytes_preserved": true
+    },
+    {
+      "source_relative_to_task": "work/native-client-codec-ready/native_clientinfo.py",
+      "published_path": "native_clientinfo.py",
+      "bytes": 12950,
+      "published_sha256": "e0abd0b674c97b87f6a1510edc08704eebeca0ad9d43ac0537d5eaaa3eb9b202",
+      "source_bytes_preserved": true
+    },
+    {
+      "source_relative_to_task": "work/native-client-codec-ready/native_clientinfo_schema_98348.json",
+      "published_path": "native_clientinfo_schema_98348.json",
+      "bytes": 26773,
+      "published_sha256": "6e8711939ede15505debb043ae626b5c529749557d7e824226863c92e4f6a229",
+      "source_bytes_preserved": true
+    },
+    {
+      "source_relative_to_task": "work/native-client-codec-ready/test_native_clientinfo.py",
+      "published_path": "test_native_clientinfo.py",
+      "bytes": 7078,
+      "published_sha256": "8e0b680dda9d14753a3747fb0d8579237d56f731a0c47976ba768b556b65e086",
+      "source_bytes_preserved": true
+    },
+    {
+      "source_relative_to_task": "work/native-client-codec-ready/verify_native_clientinfo_controls.py",
+      "published_path": "research/exact-header-98348/native-bsn/verify_native_clientinfo_controls.py",
+      "bytes": 4627,
+      "published_sha256": "e32af54bb79725b0d98c5fefa3d3b78942bd1761308ba8cbefb2a31b84668fb6",
+      "source_bytes_preserved": true
+    },
+    {
+      "source_relative_to_task": "work/native-client-codec-ready/portable-native-clientinfo-21control-verification-v3-local-source.json",
+      "published_path": "observations/exact-header-98348/native-bsn/portable-native-clientinfo-21control-verification-v3-local-source.json",
+      "bytes": 27731,
+      "published_sha256": "903617b7f41af0a8377fea6227487dc94582c59babaf3b164bf745abb4120400",
+      "source_bytes_preserved": true
+    },
+    {
+      "source_relative_to_task": "work/native-client-codec-ready/README_NATIVE_CLIENTINFO.md",
+      "published_path": "research/exact-header-98348/native-bsn/README_NATIVE_CLIENTINFO.md",
+      "bytes": 3168,
+      "published_sha256": "1389db6604e19acfbf5e32c9bfd8c675860c44b1b71b4585246bbf7aba62f7ff",
+      "source_bytes_preserved": true
+    },
+    {
+      "source_relative_to_task": "work/native-client-codec-ready/native-clientinfo-frozen-receipt-v3.json",
+      "published_path": "observations/exact-header-98348/native-bsn/native-clientinfo-frozen-receipt-v3.json",
+      "bytes": 1656,
+      "published_sha256": "1bc68a48f1e75491625488a8c4ddc1cd103874611401a3a3b19e2bc47dc1e16b",
+      "source_bytes_preserved": true
+    }
+  ],
+  "raw_game_binaries_schema_blobs_dumps_logs_headers_replays_or_private_values_published": false,
+  "current_native_layout_bound_to_actual_replays": true,
+  "old_41810_native_layout_or_migration_proven": false,
+  "client_launched": false,
+  "full_upgrade_complete": false
+}

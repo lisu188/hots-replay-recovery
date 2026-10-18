@@ -1,0 +1,75 @@
+{
+  "PE_read_passes": 1,
+  "actual_PE_bytes_read": 53573840,
+  "embedded_blob_sha256": "ce3b1f764575730f2c08c89eed73ea843ec4cc702b727c9577ca071ce610e741",
+  "focused_tests_errors": 0,
+  "focused_tests_failures": 0,
+  "focused_tests_run": 13,
+  "focused_tests_skipped": 0,
+  "format": "native-BSN-parser-independent-review-v1",
+  "independent_all_type_records_and_graph_edges_exact": true,
+  "independent_statistics": {
+    "dump_words": 15215,
+    "materialized_tags": 6884,
+    "name_pool_offset": 194764,
+    "name_reference_count": 15214,
+    "name_tokens": 6937,
+    "zero_dump_words": 5370
+  },
+  "independent_synthetic_positive_negative_checks": [
+    "aggregate_dense_enums_with_shared_dump_records",
+    "all_zero_dump_records_controlled_error",
+    "unreferenced_unterminated_name",
+    "unreferenced_nonASCII_name",
+    "sparse_enum_aliases_preserved",
+    "duplicate_choice_tags",
+    "duplicate_struct_tags",
+    "dense_empty_struct_min1_max0_preserved",
+    "unknown_zero_type_kind"
+  ],
+  "manual_review": [
+    "BE32 framing/offsets, integer sign and width, fixed/nonfixed bounds, dense/sparse counts and references match pinned source facts.",
+    "Enum duplicate values are preserved; structure/choice duplicate tags reject. Dense empty ranges and only final zero alignment are explicit.",
+    "All current8330 type records, child type IDs, dump names and member-name sequences independently agree.",
+    "Header bit6 and native codeInfo offsets remain uninterpreted; no ownership or old174-layout meaning follows."
+  ],
+  "material_findings_remaining": [],
+  "meta_type_counts": {
+    "ARRAY": 459,
+    "ASCII_STRING": 65,
+    "BIT_ARRAY": 5,
+    "BLOB": 46,
+    "BOOL": 245,
+    "CHOICE": 212,
+    "ENUM": 185,
+    "FOURCC": 94,
+    "INT": 39,
+    "NULL": 45,
+    "OPTIONAL": 487,
+    "REAL32": 37,
+    "REAL64": 29,
+    "STRING": 103,
+    "STRUCT": 1605,
+    "USER": 4674
+  },
+  "not_performed": [
+    "No client/native code execution, replay read, network, raw binary/full schema output, repo/cloud write."
+  ],
+  "records_compared": 8330,
+  "resolved_initial_findings": {
+    "aggregate_dense_enum_expansion_budget": "fixed before allocation; shared-dump32enum fixture now rejects at budget1000",
+    "all_zero_dump_records": "fixed to MetadataError",
+    "initial_parser_sha256": "026c81c53a8f47171eebe577bbbad06b267485784889c618ce9cb1303f43fb3e",
+    "unreferenced_unterminated_name_pool": "fixed to reject"
+  },
+  "reviewed_input_pins": {
+    "inspect_bsn_schema.py": "9d2dd5b6b95a600ebef8603ccb5b298c4778105a63960df4c67eb34de7f76f0c",
+    "native-BSN-metadata-98348-v2.json": "cf7204cb7b26f4d1cdcf92930bee154932fa2cbe9f27f4d10daf7be6ef3f0256",
+    "parse_bsn_metadata.py": "0c8021fdcb761a27ca9860f72161110e1156f518678430b9570a49fc20f85f06",
+    "test_parse_bsn_metadata.py": "038fa8040205176f3188aea2b584c2267e0599f57327a0f0e3fb8790254e139d"
+  },
+  "reviewer_source_sha256": "797ff692e4e9418e43f0d34e5692b9fbdcf0cec200938608feb6a23c4f7f0932",
+  "scope_limit": "This verifies metadata grammar/type graph. Actual replay-to-native field binding is reviewed separately.",
+  "source_PE_sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+  "verdict": "PASS"
+}

@@ -1,0 +1,45 @@
+{
+  "actual_ClientInfo_records": 222,
+  "actual_controls": 21,
+  "actual_producer_imports_exact_local_source_not_staged_repo": true,
+  "excluded_report": "portable-native-clientinfo-21control-verification-v3.json",
+  "excluded_report_reason": "Earlier producer import could resolve staged repo copy; excluded from final evidence. Fresh exact-path producer used instead.",
+  "files": [
+    {
+      "bytes": 12950,
+      "file": "native_clientinfo.py",
+      "sha256": "e0abd0b674c97b87f6a1510edc08704eebeca0ad9d43ac0537d5eaaa3eb9b202"
+    },
+    {
+      "bytes": 26773,
+      "file": "native_clientinfo_schema_98348.json",
+      "sha256": "6e8711939ede15505debb043ae626b5c529749557d7e824226863c92e4f6a229"
+    },
+    {
+      "bytes": 7078,
+      "file": "test_native_clientinfo.py",
+      "sha256": "8e0b680dda9d14753a3747fb0d8579237d56f731a0c47976ba768b556b65e086"
+    },
+    {
+      "bytes": 4627,
+      "file": "verify_native_clientinfo_controls.py",
+      "sha256": "e32af54bb79725b0d98c5fefa3d3b78942bd1761308ba8cbefb2a31b84668fb6"
+    },
+    {
+      "bytes": 27731,
+      "file": "portable-native-clientinfo-21control-verification-v3-local-source.json",
+      "sha256": "903617b7f41af0a8377fea6227487dc94582c59babaf3b164bf745abb4120400"
+    },
+    {
+      "bytes": 3168,
+      "file": "README_NATIVE_CLIENTINFO.md",
+      "sha256": "1389db6604e19acfbf5e32c9bfd8c675860c44b1b71b4585246bbf7aba62f7ff"
+    }
+  ],
+  "focused_tests": 14,
+  "format": "native-clientinfo-ready-receipt-v3",
+  "old_profiles_changed": false,
+  "post_recursion_field_cap_checked": true,
+  "read_only_reencode_refuses_same_width_token_mutation": true,
+  "repo_modified": false
+}

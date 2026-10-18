@@ -675,3 +675,28 @@ checks are local evidence, separate from unit/hosted CI and engine proof. Raw
 binaries, dumps, logs and private values remain outside Git. Original/R8 are
 unchanged, full migration remains unfinished, and no further guessed header
 recipe is supported. Frozen producer bytes are bound in publication-bindings.json.
+
+
+## Native BSN and current ClientInfo binding - 2026-10-19
+
+Read docs/NATIVE_BSN_AND_CLIENTINFO_2026-10-19.md and the native-bsn receipts.
+The actual 98348 PE contains a complete 391633-byte BSN metadata container,
+8330 types. Cross-game public source suggested the grammar; actual HotS record,
+reference and name validation supplies the binding. Do not treat cross-game
+source as an exact HotS release. Header bit6/native memory offsets are unknown.
+
+Current ClientInfo has 18 named fields. All21 current controls/222player records
+bind all13 anchors, player ends and exact consumed-bit reencoding. After invalid
+TalkerId, network8+voice64+profile96+empty permission-count31 total199bits. The
+frozen current-tail profile incorrectly consumes the first network bit as a
+secondary-present flag and treats the remaining198 as opaque. All actual first
+bits are0, so this did not break that cohort's byte reconstruction. A one-bit RAM
+negative control preserves native layout and makes the old profile reject.
+Preserve historical/current observed profiles and their old receipts. Use the
+separate explicitly pinned native reader for new current ClientInfo inspection.
+The old174 region is unproven; do not zero-extend or infer a 41810 migration.
+
+Native client License::Id is32bit, distinct from resource-map64bit identifier.
+No ownership or32byte availability semantics, missingDataMod namespace, complete
+conversion or simulation result is established. Private inputs remain outside
+Git. No client execution. Original/R8 unchanged; R8 still declares98285.
