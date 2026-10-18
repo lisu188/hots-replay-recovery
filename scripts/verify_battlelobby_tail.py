@@ -9,7 +9,7 @@ from battlelobby_tail import LayerError, crosscheck, decode_tail, digest, summar
 
 R8_SHA256='4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19'
 CANONICAL_SHA256='e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84'
-ORIGINAL_SCHEMA_SHA256='a970f10719f29787c7ea25359a908a1f8d99e7f9a721ec91cd8c1dcb38fd112c'
+ORIGINAL_SCHEMA_SHA256='879d228d9d8acd21d63563538dd15841aaf49259ee0bb468b8a46b6a4ef866fd'
 
 
 def verify_one(path, label, expected, modern):

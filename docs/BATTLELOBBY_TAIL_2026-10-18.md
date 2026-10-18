@@ -81,3 +81,8 @@ corruption, truncation, extra bytes, EOF padding, immutable encoding, privacy,
 and exclusive JSON output. This is complete observed suffix serialization
 coverage. It does not establish a migration between the profiles, modern
 engine acceptance, deterministic simulation or playable replay recovery.
+
+The newer canonical-LF fixture report corrects the original41810 schema hash
+from a CRLF checkout to the exact pinned Git blob879d228d...866fd. See
+`observations/canonical-schema-line-ending-correction-2026-10-18.json`; the
+older report remains historical. The fourteen fixtures were rerun successfully.

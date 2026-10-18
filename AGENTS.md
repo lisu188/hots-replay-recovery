@@ -199,3 +199,17 @@ remains opaque in every pinned source; no insertion/default is proven. Full
 tail serialization coverage is not a cross-profile migration, full parser
 acceptance or deterministic compatibility. R8 remains the latest replay. Keep
 the offline-only instruction and full replay upgrade objective active.
+
+
+## Canonical upstream line endings — 2026-10-18
+
+CI39156545185 exposed an exact-source hash mistake in the new tail verifier:
+the41810 hash a970f107... was a CRLF checkout, while the pinned official Git
+blob is879d228d9d8acd21d63563538dd15841aaf49259ee0bb468b8a46b6a4ef866fd.
+Windows also checked out96477 as CRLF. The verifier now requires the actual
+41810 Git blob digest, and CI materializes and hash-checks both exact upstream
+blobs from pinned9af3ea7 on each OS. No schema semantics were changed and no
+hash guard was broadened. The new canonical-lf fourteen-fixture report repeats
+all EOF/member/private identity/seed checks successfully; keep older reports as
+history with their original working-copy digest. Record the subsequent remote
+run separately; the failed run is not passing CI.

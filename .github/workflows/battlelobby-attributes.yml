@@ -56,6 +56,28 @@ jobs:
           with open(os.environ['GITHUB_ENV'], 'a', encoding='utf-8') as stream:
               stream.write('PYTHONPATH=' + os.pathsep.join([str(root / '_upstream'), str(root)]) + '\n')
           PY
+      - name: Materialize exact pinned upstream Git blobs on both platforms
+        run: |
+          python - <<'PY'
+          import hashlib
+          import subprocess
+          from pathlib import Path
+          root = Path('_upstream')
+          commit = '9af3ea7150f1a8acb53464c92519a9bbcc7a3594'
+          actual = subprocess.run(['git', '-C', str(root), 'rev-parse', 'HEAD'], capture_output=True, text=True, check=True).stdout.strip()
+          if actual != commit:
+              raise RuntimeError('Pinned upstream checkout changed')
+          for build, expected in ((41810, '879d228d9d8acd21d63563538dd15841aaf49259ee0bb468b8a46b6a4ef866fd'), (96477, 'e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84')):
+              relative = f'heroprotocol/versions/protocol{build}.py'
+              raw = subprocess.run(['git', '-C', str(root), 'show', commit + ':' + relative], capture_output=True, check=True).stdout
+              if hashlib.sha256(raw).hexdigest() != expected:
+                  raise RuntimeError('Canonical upstream blob digest differs')
+              path = root / relative
+              if path.read_text(encoding='utf-8').encode('utf-8') != raw:
+                  raise RuntimeError('Upstream file differs beyond checkout line endings')
+              path.write_bytes(raw)
+          print('Both official schema files exactly match their pinned Git blobs')
+          PY
       - name: Install pinned small parser dependencies
         run: python -m pip install six==1.17.0 mpyq==0.2.5
       - name: Test malformed inputs, field preservation and inverse conversion
