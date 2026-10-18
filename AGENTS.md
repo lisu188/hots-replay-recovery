@@ -264,3 +264,16 @@ collector run. All intended offline milestones are published; no new replay
 exists. Preserve original/R8 and the offline-only/full-upgrade goal, which
 remains unfinished because legacy aliases, opaque player-field migration,
 package/catalog/ability/instance/rule/sync compatibility remain unresolved.
+
+
+## Incremental source backup through ac52010 — 2026-10-18
+
+The verified source delta6fffca8..ac52010, current docs and focused-CI/candidate
+reports are saved as hots-offline-static-catalog-ac52010.zip (807013bytes,
+SHA256b5cc33e7810f6a35dc88bc4917c91898eb87bc670f1c75b8db8eb14cb9a327a1).
+It requires the existing base7e23a6a archive and6fffca8 addendum; preserve both.
+Upload to the existing OneDrive checkpoint folder succeeded, and fresh cloud
+size/QuickXor matches local bytes. QuickXor is not cryptographic, and no remote
+SHA256 re-download was performed. The archive includes all new source and CI
+throughac52010; this later upload receipt is separate bookkeeping. No raw donor,
+new replay or client result is included. Keep the full-upgrade goal unfinished.
