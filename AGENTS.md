@@ -89,3 +89,22 @@ historical J2 launch did run B98348, then ended during loading without an
 observed export or established cause. The user now requests offline testing
 without running the client; continue with that constraint. R8 remains the
 latest replay and no new playback or simulation compatibility is established.
+
+
+## Reversible battlelobby attribute layer — 2026-10-18
+
+Read `docs/BATTLELOBBY_ATTRIBUTE_LAYER_2026-10-18.md` and the fixture and
+independent-reader observations. The new bounded codec widens actual old
+attribute-count/index fields, preserving every decoded numeric/unknown field,
+source setting, dependency path, locale and complete opaque suffix. It checks
+same-profile and inverse byte equality. All 428 source attribute values agree
+with the separately decoded original attributes stream. R8's prospective
+member is 42106 bytes, SHA bee7a6367574224321539ab21f0613e7c8e369a588327a2758ec53d64efe5edd.
+
+This creates member files and reports only, never a replay checkpoint. The
+unchanged independent decoder now advances past attributes and fails later
+in mod metadata (ChoiceSection2); this is evidence of a partial fix, not full
+member compatibility or whole-parser success. The remaining source suffix
+stays byte-identical and requires its own migration. Keep R8 as the latest
+replay until a properly audited later replay actually exists. No client
+launch is authorized under the user's current explicit offline-only goal.

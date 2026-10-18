@@ -1,0 +1,307 @@
+{
+  "format": "hots-current-mod-metadata-readonly-trace-v1",
+  "source_commit": "d381dd9c273205c0fd7ac402c75eef98c6fa6c78",
+  "source_file": "Heroes.StormReplayParser/MpqFiles/ReplayServerBattlelobby.cs",
+  "source_lines": [
+    196,
+    368
+  ],
+  "strings_or_player_identifiers_emitted": false,
+  "native_parser_results_are_separate": true,
+  "results": [
+    {
+      "id": "original-current-tail-diagnostic",
+      "member_sha256": "beea9c9b29a7f1a73806fe37b393f453c84a7faed8d6f89a5b4fcd25967f1f44",
+      "start_bit": 204704,
+      "entries": [
+        {
+          "index": 0,
+          "start_bit": 205932,
+          "cache_handle_count": 1,
+          "hero_flag_bit": 207049,
+          "hero_flag": 0,
+          "dependency_count": 21,
+          "end_bit": 208432
+        },
+        {
+          "index": 1,
+          "start_bit": 208432,
+          "cache_handle_count": 12,
+          "hero_flag_bit": 213609,
+          "hero_flag": 0,
+          "dependency_count": 0,
+          "end_bit": 213648
+        },
+        {
+          "index": 2,
+          "start_bit": 213648,
+          "cache_handle_count": 0,
+          "hero_flag_bit": 214473,
+          "hero_flag": 0,
+          "dependency_count": 58,
+          "end_bit": 218224
+        },
+        {
+          "index": 3,
+          "start_bit": 218224,
+          "cache_handle_count": 28,
+          "hero_flag_bit": 228425,
+          "hero_flag": 1,
+          "hero_records_count": 1,
+          "choice_section_2_bit": 228538,
+          "choice_section_2_tag": 10
+        }
+      ],
+      "used_mod_count": 16,
+      "mod_metadata_count": 18,
+      "status": "unsupported-choice-matches-csharp-branch",
+      "end_bit": 228542
+    },
+    {
+      "id": "r8-current-tail-diagnostic",
+      "member_sha256": "2902a33a450491e8717a8006cef4627f2c12d1c0b854fc4f698dc1de0ade9640",
+      "start_bit": 206080,
+      "entries": [
+        {
+          "index": 0,
+          "start_bit": 207308,
+          "cache_handle_count": 1,
+          "hero_flag_bit": 208425,
+          "hero_flag": 0,
+          "dependency_count": 21,
+          "end_bit": 209808
+        },
+        {
+          "index": 1,
+          "start_bit": 209808,
+          "cache_handle_count": 12,
+          "hero_flag_bit": 214985,
+          "hero_flag": 0,
+          "dependency_count": 0,
+          "end_bit": 215024
+        },
+        {
+          "index": 2,
+          "start_bit": 215024,
+          "cache_handle_count": 0,
+          "hero_flag_bit": 215849,
+          "hero_flag": 0,
+          "dependency_count": 58,
+          "end_bit": 219600
+        },
+        {
+          "index": 3,
+          "start_bit": 219600,
+          "cache_handle_count": 28,
+          "hero_flag_bit": 229801,
+          "hero_flag": 1,
+          "hero_records_count": 1,
+          "choice_section_2_bit": 229914,
+          "choice_section_2_tag": 10
+        }
+      ],
+      "used_mod_count": 16,
+      "mod_metadata_count": 18,
+      "status": "unsupported-choice-matches-csharp-branch",
+      "end_bit": 229918
+    },
+    {
+      "id": "r8-attribute-layer-converted",
+      "member_sha256": "bee7a6367574224321539ab21f0613e7c8e369a588327a2758ec53d64efe5edd",
+      "start_bit": 207584,
+      "entries": [
+        {
+          "index": 0,
+          "start_bit": 208812,
+          "cache_handle_count": 1,
+          "hero_flag_bit": 209929,
+          "hero_flag": 0,
+          "dependency_count": 21,
+          "end_bit": 211312
+        },
+        {
+          "index": 1,
+          "start_bit": 211312,
+          "cache_handle_count": 12,
+          "hero_flag_bit": 216489,
+          "hero_flag": 0,
+          "dependency_count": 0,
+          "end_bit": 216528
+        },
+        {
+          "index": 2,
+          "start_bit": 216528,
+          "cache_handle_count": 0,
+          "hero_flag_bit": 217353,
+          "hero_flag": 0,
+          "dependency_count": 58,
+          "end_bit": 221104
+        },
+        {
+          "index": 3,
+          "start_bit": 221104,
+          "cache_handle_count": 28,
+          "hero_flag_bit": 231305,
+          "hero_flag": 1,
+          "hero_records_count": 1,
+          "choice_section_2_bit": 231418,
+          "choice_section_2_tag": 10
+        }
+      ],
+      "used_mod_count": 16,
+      "mod_metadata_count": 18,
+      "status": "unsupported-choice-matches-csharp-branch",
+      "end_bit": 231422
+    },
+    {
+      "id": "protectors-actual",
+      "member_sha256": "ab03d9533081e9d69d205a6adec9df6a0aaf5ff47a05ecc8bf670b6760b0ab55",
+      "start_bit": 480560,
+      "entries": [
+        {
+          "index": 0,
+          "start_bit": 481108,
+          "cache_handle_count": 2,
+          "hero_flag_bit": 482649,
+          "hero_flag": 0,
+          "dependency_count": 0,
+          "end_bit": 482688
+        },
+        {
+          "index": 1,
+          "start_bit": 482688,
+          "cache_handle_count": 2,
+          "hero_flag_bit": 484225,
+          "hero_flag": 0,
+          "dependency_count": 1,
+          "end_bit": 484328
+        },
+        {
+          "index": 2,
+          "start_bit": 484328,
+          "cache_handle_count": 2,
+          "hero_flag_bit": 485833,
+          "hero_flag": 0,
+          "dependency_count": 1,
+          "end_bit": 485936
+        },
+        {
+          "index": 3,
+          "start_bit": 485936,
+          "cache_handle_count": 3,
+          "hero_flag_bit": 487793,
+          "hero_flag": 1,
+          "hero_records_count": 0,
+          "choice_section_2_bit": 487813,
+          "choice_section_2_tag": 0,
+          "next_23bit_count": 0,
+          "hero_ids_count": 1,
+          "dependency_count": 1,
+          "end_bit": 487999
+        },
+        {
+          "index": 4,
+          "start_bit": 487999,
+          "cache_handle_count": 2,
+          "hero_flag_bit": 489505,
+          "hero_flag": 0,
+          "dependency_count": 1,
+          "end_bit": 489608
+        },
+        {
+          "index": 5,
+          "start_bit": 489608,
+          "cache_handle_count": 4,
+          "hero_flag_bit": 491862,
+          "hero_flag": 1,
+          "hero_records_count": 0,
+          "choice_section_2_bit": 491882,
+          "choice_section_2_tag": 5,
+          "next_23bit_count": 1,
+          "hero_ids_count": 1,
+          "dependency_count": 2,
+          "end_bit": 492625
+        }
+      ],
+      "used_mod_count": 6,
+      "mod_metadata_count": 6,
+      "status": "all-mod-metadata-walked",
+      "end_bit": 492625
+    },
+    {
+      "id": "stormblessed-actual",
+      "member_sha256": "ff3bbca0308e77889d481f64ac915e6ee68f299b4d4dda4d54f620740a5786ad",
+      "start_bit": 480560,
+      "entries": [
+        {
+          "index": 0,
+          "start_bit": 481108,
+          "cache_handle_count": 2,
+          "hero_flag_bit": 482649,
+          "hero_flag": 0,
+          "dependency_count": 0,
+          "end_bit": 482688
+        },
+        {
+          "index": 1,
+          "start_bit": 482688,
+          "cache_handle_count": 2,
+          "hero_flag_bit": 484225,
+          "hero_flag": 0,
+          "dependency_count": 1,
+          "end_bit": 484328
+        },
+        {
+          "index": 2,
+          "start_bit": 484328,
+          "cache_handle_count": 2,
+          "hero_flag_bit": 485833,
+          "hero_flag": 0,
+          "dependency_count": 1,
+          "end_bit": 485936
+        },
+        {
+          "index": 3,
+          "start_bit": 485936,
+          "cache_handle_count": 3,
+          "hero_flag_bit": 487793,
+          "hero_flag": 1,
+          "hero_records_count": 0,
+          "choice_section_2_bit": 487813,
+          "choice_section_2_tag": 0,
+          "next_23bit_count": 0,
+          "hero_ids_count": 1,
+          "dependency_count": 1,
+          "end_bit": 487999
+        },
+        {
+          "index": 4,
+          "start_bit": 487999,
+          "cache_handle_count": 2,
+          "hero_flag_bit": 489505,
+          "hero_flag": 0,
+          "dependency_count": 1,
+          "end_bit": 489608
+        },
+        {
+          "index": 5,
+          "start_bit": 489608,
+          "cache_handle_count": 4,
+          "hero_flag_bit": 491862,
+          "hero_flag": 1,
+          "hero_records_count": 0,
+          "choice_section_2_bit": 491882,
+          "choice_section_2_tag": 5,
+          "next_23bit_count": 1,
+          "hero_ids_count": 1,
+          "dependency_count": 2,
+          "end_bit": 492625
+        }
+      ],
+      "used_mod_count": 6,
+      "mod_metadata_count": 6,
+      "status": "all-mod-metadata-walked",
+      "end_bit": 492625
+    }
+  ]
+}

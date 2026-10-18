@@ -709,5 +709,22 @@
     "observation": "observations/offline-eight-current-references-2026-10-18.json",
     "r8_full_independent_reader_acceptance": false,
     "r8_known_failure": "Legacy battlelobby attribute value-count and index widths"
+  },
+  "battlelobby_attribute_layer_2026_10_18": {
+    "module": "battlelobby_attribute_layer.py",
+    "documentation": "docs/BATTLELOBBY_ATTRIBUTE_LAYER_2026-10-18.md",
+    "fixture_evidence": "observations/battlelobby-layer-fixtures-2026-10-18.json",
+    "independent_evidence": "observations/battlelobby-layer-independent-2026-10-18.json",
+    "focused_tests_passed_locally": 23,
+    "real_fixtures_verified_locally": 4,
+    "old_attribute_values_crosschecked": 428,
+    "transformed_r8_member_sha256": "bee7a6367574224321539ab21f0613e7c8e369a588327a2758ec53d64efe5edd",
+    "source_replay_preserved": true,
+    "new_replay_created": false,
+    "full_member_compatibility": false,
+    "next_failure": "Old mod metadata reaches unsupported current ChoiceSection2 tag",
+    "client_launched": false,
+    "client_playback_validated": false,
+    "combined_regression_tests_passed_locally": 42
   }
 }
