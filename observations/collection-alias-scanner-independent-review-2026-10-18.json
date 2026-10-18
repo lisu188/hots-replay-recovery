@@ -1,0 +1,40 @@
+{
+  "format": "hots-alias-scanner-independent-review-v2",
+  "status": "pass",
+  "tests": 30,
+  "failures": 0,
+  "errors": 0,
+  "skips": 0,
+  "source_sha256": {
+    "scan_collection_alias_nodes.py": "42994bd447ccd56cc2b285a3576c45655bc8e0d9fb328ca91b259204fc1b80aa",
+    "test_scan_collection_alias_nodes.py": "a7a73551a606e15a1e433bda3f1522913461a57e352fbce1f1647166be6ae914"
+  },
+  "fresh_genuine_subset_recomputation_equals_saved_report": true,
+  "genuine_subset_report_sha256": "2eaf17d3c37f461247520d846cf9438d9112ee50b6e8728e0a35b4f4afdc6b9a",
+  "actual_XML_files_scanned": 19,
+  "actual_legacy_match_count": 13,
+  "actual_legacy_match_role_counts": {
+    "visual-or-audio-asset-reference": 8,
+    "reward-record-identity": 5
+  },
+  "fixed_unit_queries": [
+    "NovaHoloCloneCloaked",
+    "NovaHoloClone",
+    "AbathurEvolvedMonstrosity",
+    "TownCannonTowerL2Standalone"
+  ],
+  "all_subset_unit_global_absence_values_are_null": true,
+  "delta_review": [
+    "Top-level record tails belong to Catalog, with a focused ownership regression.",
+    "Four immutable direct Catalog/CUnit identity queries run independently of the207collection names.",
+    "CUnit parent/default and same-owner BehaviorArray/UnitAlias fields retain unresolved semantics and bounds.",
+    "No numeric link, replacement, inheritance, entitlement or ownership inference is performed."
+  ],
+  "remaining_material_findings": [],
+  "limits": [
+    "The full5575file extraction was not available locally.",
+    "Fresh real-data reproduction covers only19pinned public snippets and is explicitly incomplete."
+  ],
+  "repo_modified": false,
+  "client_launched": false
+}

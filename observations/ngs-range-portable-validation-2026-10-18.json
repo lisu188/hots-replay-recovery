@@ -1,0 +1,31 @@
+{
+  "format": "hots-ngs-range-portable-validation-v1",
+  "status": "pass",
+  "unit_tests": {
+    "tests": 15,
+    "failures": 0,
+    "errors": 0,
+    "skips": 0,
+    "authentic_offline_control_enabled": true
+  },
+  "source_sha256": {
+    "ngs_range_details.py": "a92119f100652e0ba21611d6d8735f1f5bfd715c9f97c628751742c4e549daf4",
+    "test_ngs_range_details.py": "434f17a25e729a1383407fe521d37ba2ba558b7abab03dc8f20194023d16ee6a",
+    "README_NGS_RANGE_DETAILS.md": "03726f37f7afd1642422ee3101d971489f953577fff48b6b1193d604baf0f2f2"
+  },
+  "evidence_sha256": {
+    "ngs-range-details-control-proof.json": "2ed9c9c76be89e922ddbe4540edce74796f5198a1217f9660426681774144fd1",
+    "partial-roster-tracker-screening-40.json": "eb7bf555b3e7b72b0270b7fb96bc6ce5604a2e1142a97609125047e3ae3dd592"
+  },
+  "additional_network_requests_performed_for_portable_freeze": false,
+  "exact_sector_boundary_refused_before_io": true,
+  "no_work_layout_or_sys_path_dependency": true,
+  "partial_only_limits_preserved": true,
+  "client_launched": false,
+  "replay_or_repo_modified": false,
+  "repository_final_newline_normalization": {
+    "reviewed_module_sha256": "a92119f100652e0ba21611d6d8735f1f5bfd715c9f97c628751742c4e549daf4",
+    "published_module_sha256": "9a3d6c4a0d004b33449b80aa657e52d7f311b535b3472521525c62ff88aa5758",
+    "removed_final_blank_lines_only": true
+  }
+}

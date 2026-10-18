@@ -1,0 +1,133 @@
+{
+  "format": "hots-screened-nova-full-acquisition-v1",
+  "partial_screen_sha256": "eb7bf555b3e7b72b0270b7fb96bc6ce5604a2e1142a97609125047e3ae3dd592",
+  "results": [
+    {
+      "id": "crossmap-07",
+      "file": "crossmap-07-Cursed_Hollow-Nova.StormReplay",
+      "bytes": 1689868,
+      "sha256": "db40f495edb70b2127b97cae4f479de19e18e61b2a5a0e0413052b571e1dbf7e",
+      "public_url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-10-2026_Anomaly_vs_Good_Lordy_Cursed_Hollow.stormReplay",
+      "stable_screened_etag": "\"4b2021d5af569580919daea168ec980a\"",
+      "full_acquisition_used_if_match": true,
+      "map": "Cursed Hollow",
+      "selected_hero_names": [
+        "Blaze",
+        "Brightwing",
+        "Falstad",
+        "Gul'dan",
+        "Johanna",
+        "Nova",
+        "Ragnaros",
+        "Tyrande",
+        "Valeera",
+        "Yrel"
+      ],
+      "target_version": {
+        "m_flags": 1,
+        "m_major": 2,
+        "m_minor": 57,
+        "m_revision": 0,
+        "m_build": 98348,
+        "m_baseBuild": 98348
+      },
+      "root": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "core_stream_roundtrips_exact": true,
+      "dependency_context": {
+        "handles": [
+          "73326d61000055531f1b228ddb1f72205cbfd444055287100b0f39959be816548162e4081ea85511",
+          "73326d61000055531ad94c126eb98a4c1de7b8e6f8aaa153dba52b09d3825e0c89dbc5828db70f76",
+          "73326d610000555392d81744c1441bf628ed6ab7e9d19485c860914d8b745a91f6351ff9dcd4e6bb",
+          "73326d6100005553a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43",
+          "73326d6100005553eb893d39e0ef05c6219a12b1a31c904a7e79be5b232e88207cc0a35c0f9d0f15",
+          "73326d61000055537751c274aa96c7b58e89c757eeb89e05f28e5c369e463ec6d51bf172681bd3a9"
+        ],
+        "relative_paths": [
+          "1f/1b/1f1b228ddb1f72205cbfd444055287100b0f39959be816548162e4081ea85511.s2ma",
+          "1a/d9/1ad94c126eb98a4c1de7b8e6f8aaa153dba52b09d3825e0c89dbc5828db70f76.s2ma",
+          "92/d8/92d81744c1441bf628ed6ab7e9d19485c860914d8b745a91f6351ff9dcd4e6bb.s2ma",
+          "a1/e9/a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43.s2ma",
+          "eb/89/eb893d39e0ef05c6219a12b1a31c904a7e79be5b232e88207cc0a35c0f9d0f15.s2ma",
+          "77/51/7751c274aa96c7b58e89c757eeb89e05f28e5c369e463ec6d51bf172681bd3a9.s2ma"
+        ],
+        "prefix_roundtrip_exact": true,
+        "matching_ordered_prefix_handles_with_dragon": 4,
+        "same_ordered_nonmap_prefix": false,
+        "mod_file_sync_checksum": 1450600711,
+        "map_file_sync_checksum": 3185272335
+      },
+      "inventory_sha256": "3503d60357380db194f19bbd13ac08977bedbf2d79abce6c4cf14b53be2a9c1f",
+      "tracker_nova_type_occurrences": {
+        "HeroNova": 1,
+        "NovaHoloClone": 116
+      },
+      "cross_map_migration_eligibility_claimed": false
+    },
+    {
+      "id": "crossmap-08",
+      "file": "crossmap-08-Tomb-Nova.StormReplay",
+      "bytes": 1780350,
+      "sha256": "d41417f0fd11a1d512e30fa77882bdebf220432bd7e9412b40440cb79a7c9cec",
+      "public_url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-14-2026_Roll1Esports_vs_Phoenix_Rising_Amethyst_Tomb_of_the_Spider_Queen.stormReplay",
+      "stable_screened_etag": "\"76ce433289249e7810c28bb7ef4d27ab\"",
+      "full_acquisition_used_if_match": true,
+      "map": "Tomb of the Spider Queen",
+      "selected_hero_names": [
+        "Anduin",
+        "Blaze",
+        "E.T.C.",
+        "Junkrat",
+        "Leoric",
+        "Malfurion",
+        "Muradin",
+        "Nova",
+        "Tassadar",
+        "Tychus"
+      ],
+      "target_version": {
+        "m_flags": 1,
+        "m_major": 2,
+        "m_minor": 57,
+        "m_revision": 0,
+        "m_build": 98348,
+        "m_baseBuild": 98348
+      },
+      "root": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "core_stream_roundtrips_exact": true,
+      "dependency_context": {
+        "handles": [
+          "73326d61000055531f1b228ddb1f72205cbfd444055287100b0f39959be816548162e4081ea85511",
+          "73326d61000055531ad94c126eb98a4c1de7b8e6f8aaa153dba52b09d3825e0c89dbc5828db70f76",
+          "73326d610000555392d81744c1441bf628ed6ab7e9d19485c860914d8b745a91f6351ff9dcd4e6bb",
+          "73326d6100005553a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43",
+          "73326d6100005553833384ef25dd541d279ca7774e93105188de5c08aa801bd0aab4f62a89d78a03",
+          "73326d6100005553a713e0d47c677fd2b99f9ee8398c22a3e30cc018fcc83d1dda3c09b31f1e76c1"
+        ],
+        "relative_paths": [
+          "1f/1b/1f1b228ddb1f72205cbfd444055287100b0f39959be816548162e4081ea85511.s2ma",
+          "1a/d9/1ad94c126eb98a4c1de7b8e6f8aaa153dba52b09d3825e0c89dbc5828db70f76.s2ma",
+          "92/d8/92d81744c1441bf628ed6ab7e9d19485c860914d8b745a91f6351ff9dcd4e6bb.s2ma",
+          "a1/e9/a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43.s2ma",
+          "83/33/833384ef25dd541d279ca7774e93105188de5c08aa801bd0aab4f62a89d78a03.s2ma",
+          "a7/13/a713e0d47c677fd2b99f9ee8398c22a3e30cc018fcc83d1dda3c09b31f1e76c1.s2ma"
+        ],
+        "prefix_roundtrip_exact": true,
+        "matching_ordered_prefix_handles_with_dragon": 4,
+        "same_ordered_nonmap_prefix": false,
+        "mod_file_sync_checksum": 3334967394,
+        "map_file_sync_checksum": 2209509714
+      },
+      "inventory_sha256": "9782fe7d513e3e7167e92bf82006ccb6b407bfc2651190458250a09365020df2",
+      "tracker_nova_type_occurrences": {
+        "HeroNova": 1,
+        "NovaHoloClone": 129
+      },
+      "cross_map_migration_eligibility_claimed": false
+    }
+  ],
+  "downloaded_bytes": 3470218,
+  "overall_other_map_downloaded_bytes": 10717617,
+  "overall_download_cap": 12582912,
+  "client_launched": false,
+  "replay_modified": false
+}

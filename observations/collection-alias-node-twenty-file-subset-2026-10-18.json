@@ -1,0 +1,849 @@
+{
+  "aliases_registered": false,
+  "all_projected_XML_files_exact_digest_verified": false,
+  "client_launched": false,
+  "collection_observation_sha256": "0fa8a041fa8d6b9ba22ba6ff8be10d4f42beccc7d9577d0b6ead2d8e0fa909c9",
+  "complete_absence_scope_established": false,
+  "contains_player_ownership_or_identity_data": false,
+  "entitlement_or_ownership_mapping_proven": false,
+  "expected_xml_files": 5575,
+  "expected_xml_inventory_sha256": "16da750b8cf647230afa5698b2e5cf2b0e0143ce0372a92e883e9841eca0807e",
+  "format": "hots-exact-current-legacy-name-xml-node-scan-v1",
+  "fresh_extracted_metadata": [],
+  "fresh_version_log": null,
+  "genuine_subset_verification": {
+    "kind": "genuine-20-public-files-incomplete-inventory",
+    "nineteen_file_provenance_sha256": "e0297e4588c52bfe20616faf44b104ac1672c1505cd29a83041d723c6397f611",
+    "no_global_absence_or_alias_claim": true,
+    "nova_observation_sha256": "7e6a7b804e401c97e15f1967c4a6e990520d22f520405add50ea500299c08c0f",
+    "scanner_sha256": "42994bd447ccd56cc2b285a3576c45655bc8e0d9fb328ca91b259204fc1b80aa"
+  },
+  "inheritance_or_catalog_load_order_resolved": false,
+  "limitations": [
+    "Every match is an exact whole attribute, element text or tail-text value; names embedded in paths, substrings or differently cased text are not matches.",
+    "Visual/model/audio references and reward record IDs are classified separately from named alias/migration fields. Classification is not semantic proof.",
+    "Related scalar fields belong to the same owning record only; no cross-record, inheritance, template or reward/license join is performed.",
+    "Absence means no exact literal in the scanned XML scope. It says nothing about encoded, constructed, binary or server-side aliases.",
+    "Fresh hdp.info timestamps can differ from the original metadata digest; Version/IsPtr and metadata paths are checked, and fresh digests are retained.",
+    "Subset reports never establish full inventory coverage or global absence."
+  ],
+  "match_count": 13,
+  "match_role_counts": {
+    "reward-record-identity": 5,
+    "visual-or-audio-asset-reference": 8
+  },
+  "matched_file_provenance": [
+    {
+      "bytes": 5692,
+      "path": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/stitchesdata/stitchesskindata/stitchespsychodata/stitchespsychobasedata.xml",
+      "sha256": "4bd22cfadfdbecb23a42696ab35bbc4eb9d075e44f8622c8cb3e4c09381340db"
+    },
+    {
+      "bytes": 10467,
+      "path": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/utherdata/utherskindata/uthermedicdata/uthermedicbasedata.xml",
+      "sha256": "14fbea5cd8850cfbcd1ab5bea16b3f939a98e2d5fb866ad365d769c65bd9d3f0"
+    },
+    {
+      "bytes": 497505,
+      "path": "mods/heroesdata.stormmod/base.stormdata/gamedata/rewarddata.xml",
+      "sha256": "873eaf657fd2dad08ee4aac44e9cbf8368852cc96ae57e16a709d9c9be917b1d"
+    }
+  ],
+  "matches": [
+    {
+      "alias_or_entitlement_mapping_proven": false,
+      "attribute_name": "id",
+      "file": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/stitchesdata/stitchesskindata/stitchespsychodata/stitchespsychobasedata.xml",
+      "matched_value": "StitchesSkinPsycho",
+      "node_path": "Catalog[0]/CModel[3]",
+      "owner": {
+        "id": "StitchesSkinPsycho",
+        "kind": "CModel"
+      },
+      "owner_node_path": "Catalog[0]/CModel[3]",
+      "role": "visual-or-audio-asset-reference"
+    },
+    {
+      "alias_or_entitlement_mapping_proven": false,
+      "attribute_name": "To",
+      "file": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/stitchesdata/stitchesskindata/stitchespsychodata/stitchespsychobasedata.xml",
+      "matched_value": "StitchesSkinPsycho",
+      "node_path": "Catalog[0]/CSkin[9]/ReplacementArray[0]",
+      "owner": {
+        "id": "StitchesPsychoCommon",
+        "kind": "CSkin"
+      },
+      "owner_node_path": "Catalog[0]/CSkin[9]",
+      "role": "visual-or-audio-asset-reference"
+    },
+    {
+      "alias_or_entitlement_mapping_proven": false,
+      "attribute_name": "value",
+      "file": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/stitchesdata/stitchesskindata/stitchespsychodata/stitchespsychobasedata.xml",
+      "matched_value": "StitchesSkinPsycho",
+      "node_path": "Catalog[0]/CSkin[9]/DisplayModel[11]",
+      "owner": {
+        "id": "StitchesPsychoCommon",
+        "kind": "CSkin"
+      },
+      "owner_node_path": "Catalog[0]/CSkin[9]",
+      "role": "visual-or-audio-asset-reference"
+    },
+    {
+      "alias_or_entitlement_mapping_proven": false,
+      "attribute_name": "value",
+      "file": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/stitchesdata/stitchesskindata/stitchespsychodata/stitchespsychobasedata.xml",
+      "matched_value": "StitchesSkinPsycho",
+      "node_path": "Catalog[0]/CSkin[9]/ModelGroups[12]/Models[0]",
+      "owner": {
+        "id": "StitchesPsychoCommon",
+        "kind": "CSkin"
+      },
+      "owner_node_path": "Catalog[0]/CSkin[9]",
+      "role": "visual-or-audio-asset-reference"
+    },
+    {
+      "alias_or_entitlement_mapping_proven": false,
+      "attribute_name": "id",
+      "file": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/utherdata/utherskindata/uthermedicdata/uthermedicbasedata.xml",
+      "matched_value": "UtherSkinMedic",
+      "node_path": "Catalog[0]/CModel[12]",
+      "owner": {
+        "id": "UtherSkinMedic",
+        "kind": "CModel"
+      },
+      "owner_node_path": "Catalog[0]/CModel[12]",
+      "role": "visual-or-audio-asset-reference"
+    },
+    {
+      "alias_or_entitlement_mapping_proven": false,
+      "attribute_name": "To",
+      "file": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/utherdata/utherskindata/uthermedicdata/uthermedicbasedata.xml",
+      "matched_value": "UtherSkinMedic",
+      "node_path": "Catalog[0]/CSkin[22]/ReplacementArray[0]",
+      "owner": {
+        "id": "UtherMedicCommon",
+        "kind": "CSkin"
+      },
+      "owner_node_path": "Catalog[0]/CSkin[22]",
+      "role": "visual-or-audio-asset-reference"
+    },
+    {
+      "alias_or_entitlement_mapping_proven": false,
+      "attribute_name": "value",
+      "file": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/utherdata/utherskindata/uthermedicdata/uthermedicbasedata.xml",
+      "matched_value": "UtherSkinMedic",
+      "node_path": "Catalog[0]/CSkin[22]/DisplayModel[29]",
+      "owner": {
+        "id": "UtherMedicCommon",
+        "kind": "CSkin"
+      },
+      "owner_node_path": "Catalog[0]/CSkin[22]",
+      "role": "visual-or-audio-asset-reference"
+    },
+    {
+      "alias_or_entitlement_mapping_proven": false,
+      "attribute_name": "value",
+      "file": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/utherdata/utherskindata/uthermedicdata/uthermedicbasedata.xml",
+      "matched_value": "UtherSkinMedic",
+      "node_path": "Catalog[0]/CSkin[22]/ModelGroups[30]/Models[0]",
+      "owner": {
+        "id": "UtherMedicCommon",
+        "kind": "CSkin"
+      },
+      "owner_node_path": "Catalog[0]/CSkin[22]",
+      "role": "visual-or-audio-asset-reference"
+    },
+    {
+      "alias_or_entitlement_mapping_proven": false,
+      "attribute_name": "id",
+      "file": "mods/heroesdata.stormmod/base.stormdata/gamedata/rewarddata.xml",
+      "matched_value": "CannotEarn",
+      "node_path": "Catalog[0]/CRewardIcon[582]",
+      "owner": {
+        "id": "CannotEarn",
+        "kind": "CRewardIcon"
+      },
+      "owner_node_path": "Catalog[0]/CRewardIcon[582]",
+      "role": "reward-record-identity"
+    },
+    {
+      "alias_or_entitlement_mapping_proven": false,
+      "attribute_name": "id",
+      "file": "mods/heroesdata.stormmod/base.stormdata/gamedata/rewarddata.xml",
+      "matched_value": "TestMountRide",
+      "node_path": "Catalog[0]/CRewardIcon[1723]",
+      "owner": {
+        "id": "TestMountRide",
+        "kind": "CRewardIcon"
+      },
+      "owner_node_path": "Catalog[0]/CRewardIcon[1723]",
+      "role": "reward-record-identity"
+    },
+    {
+      "alias_or_entitlement_mapping_proven": false,
+      "attribute_name": "id",
+      "file": "mods/heroesdata.stormmod/base.stormdata/gamedata/rewarddata.xml",
+      "matched_value": "TestMountRideBeast",
+      "node_path": "Catalog[0]/CRewardIcon[1724]",
+      "owner": {
+        "id": "TestMountRideBeast",
+        "kind": "CRewardIcon"
+      },
+      "owner_node_path": "Catalog[0]/CRewardIcon[1724]",
+      "role": "reward-record-identity"
+    },
+    {
+      "alias_or_entitlement_mapping_proven": false,
+      "attribute_name": "id",
+      "file": "mods/heroesdata.stormmod/base.stormdata/gamedata/rewarddata.xml",
+      "matched_value": "TestMountRideSurf",
+      "node_path": "Catalog[0]/CRewardIcon[1725]",
+      "owner": {
+        "id": "TestMountRideSurf",
+        "kind": "CRewardIcon"
+      },
+      "owner_node_path": "Catalog[0]/CRewardIcon[1725]",
+      "role": "reward-record-identity"
+    },
+    {
+      "alias_or_entitlement_mapping_proven": false,
+      "attribute_name": "id",
+      "file": "mods/heroesdata.stormmod/base.stormdata/gamedata/rewarddata.xml",
+      "matched_value": "TestMountRideBike",
+      "node_path": "Catalog[0]/CRewardIcon[1726]",
+      "owner": {
+        "id": "TestMountRideBike",
+        "kind": "CRewardIcon"
+      },
+      "owner_node_path": "Catalog[0]/CRewardIcon[1726]",
+      "role": "reward-record-identity"
+    }
+  ],
+  "names_not_seen_in_scanned_files": [
+    "2015WorldChampionshipMount",
+    "AbathurSkinMaster",
+    "AbathurSkinPajamathur",
+    "AbathurSkinSkelethur",
+    "AnubarakSkinCybarak",
+    "AnubarakSkinLoveBug",
+    "AnubarakSkinMaster",
+    "Archon",
+    "ArtanisSkinMaster",
+    "ArtanisSkinPurifier",
+    "ArthasSkinCrimsonCount",
+    "ArthasSkinDeathKnight",
+    "ArthasSkinFrostWyrm",
+    "ArthasSkinLichPrince",
+    "ArthasSkinMaster",
+    "ArtifactSlot2",
+    "ArtifactSlot3",
+    "AzmodanSkinAzguldan",
+    "AzmodanSkinMaster",
+    "AzmodunkMount",
+    "BFG",
+    "Billie",
+    "Bombardment",
+    "Brightwing",
+    "BrightwingSkinFlyingMonkey",
+    "BrightwingSkinMaster",
+    "BrightwingSkinMonarch",
+    "ButcherSkinIron",
+    "ButcherSkinMaster",
+    "ButchersBeast",
+    "ChenSkinElder",
+    "ChenSkinMaster",
+    "ChenSkinWarmaster",
+    "ChoGallPromo",
+    "ChogallSkinCorruptor",
+    "ChogallSkinMaster",
+    "CloudSerpent",
+    "Cocoon",
+    "Cyberwolf",
+    "DehakaSkinMaster",
+    "DiabloSkinArchangel",
+    "DiabloSkinKaijo",
+    "DiabloSkinLurkablo",
+    "DiabloSkinMaster",
+    "DiabloUltimate2",
+    "DivineStorm",
+    "ETC",
+    "ETCSkinGlamMetal",
+    "ETCSkinMaster",
+    "ETCSkinPureCountry",
+    "FalstadSkinBuccaneer",
+    "FalstadSkinMaster",
+    "FalstadSkinStormLord",
+    "FelStalker",
+    "Gazlowe",
+    "GazloweSkinBigTop",
+    "GazloweSkinMadMartian",
+    "GazloweSkinMaster",
+    "GazloweSkinSciFi",
+    "GoldenCyberWolf",
+    "GoldenLunarTiger",
+    "GravOBomb3000",
+    "GreymaneSkinMaster",
+    "GreymaneSkinRingmaster",
+    "Haymaker",
+    "HeadlessHorseman",
+    "HinterlandBlast",
+    "IllidanSkinLunar",
+    "IllidanSkinMaster",
+    "IllidanSkinShando",
+    "IllidanSkinSpectre",
+    "IllidansNightmare",
+    "IronsideDirewolf",
+    "JainaSkinLunar",
+    "JainaSkinMaster",
+    "JainaSkinTempestRegalia",
+    "JainaSkinWinterVeil",
+    "Johanna",
+    "JohannaSkinCenturion",
+    "JohannaSkinMaster",
+    "JudgementCharger",
+    "KaelthasSkinMaster",
+    "KaelthasSkinStormpunk",
+    "KerriganSkinCountess",
+    "KerriganSkinMaster",
+    "KerriganSkinSuccubus",
+    "Kharazim",
+    "KharazimSkinJadeDragon",
+    "KharazimSkinMaster",
+    "LeoricSkinMaster",
+    "LeoricSkinSpaceLord",
+    "LeoricSkinVrykul",
+    "LiLiSkinExplorer",
+    "LiLiSkinFestival",
+    "LiLiSkinMaster",
+    "LiMing",
+    "LiMingSkinMaster",
+    "LiMingSkinStarPrincess",
+    "LostVikingsSkinMaster",
+    "LostVikingsSkinPajamaParty",
+    "LtMorales",
+    "Lunara",
+    "LunaraSkinMaster",
+    "LunaraSkinSentinel",
+    "Maelstrom",
+    "MalfurionSkinBetrayer",
+    "MalfurionSkinMaster",
+    "MalfurionSkinStormMantle",
+    "MalthaelsPhantomSteed",
+    "MarshalsOutrider",
+    "MechaDehaka",
+    "MiniMe",
+    "MoralesSkinApothecary",
+    "MoralesSkinDrLove",
+    "MoralesSkinMaster",
+    "MuradinSkinKandyKing",
+    "MuradinSkinMagni",
+    "MuradinSkinMaster",
+    "MurkySkinFunnyBunny",
+    "MurkySkinGrunty",
+    "MurkySkinMaster",
+    "Nazeebo",
+    "NazeeboSkinGrimskull",
+    "NazeeboSkinHarlequin",
+    "NazeeboSkinMaster",
+    "NazeeboWarhorse",
+    "NexusBattleBeast",
+    "NovaSkinMaster",
+    "NovaSkinNovazon",
+    "NovaSkinRollerDerby",
+    "NovaSkinSpectre",
+    "PiggyBank",
+    "RainofVengeance",
+    "RaynorSkinCommander",
+    "RaynorSkinMarshal",
+    "RaynorSkinMaster",
+    "RaynorSkinStarsAndStripes",
+    "RehgarSkinGreatfatherWinter",
+    "RehgarSkinIronClaw",
+    "RehgarSkinMaster",
+    "Reigndeer",
+    "RexxarSkinFrostlord",
+    "RingMastersPride",
+    "SgtHammerSkinDoomHammer",
+    "SgtHammerSkinMaster",
+    "SgtHammerSkinWarWorld3",
+    "Sonya",
+    "SonyaSkinMaster",
+    "SonyaSkinSuper",
+    "SonyaSkinWrath",
+    "StarbreakerMount",
+    "Starfall",
+    "StitchesSkinBikini",
+    "StitchesSkinChef",
+    "StitchesSkinGreatfatherWinter",
+    "StitchesSkinMaster",
+    "SummonSindragosa",
+    "SummonUltralisk",
+    "Swordwall",
+    "SylvanasSkinMaster",
+    "SylvanasSkinRangerGeneral",
+    "SylvanasSkinSugarPlum",
+    "TassadarSkinCryptKing",
+    "TassadarSkinMaster",
+    "TassadarSkinMecha",
+    "ThrallSkinEarthbreaker",
+    "ThrallSkinHellhammer",
+    "ThrallSkinMaster",
+    "TreasureGoblinMount",
+    "TwilightDream",
+    "TychusSkinInfested",
+    "TychusSkinMaster",
+    "TychusSkinPrisoner",
+    "TychusUltimate2",
+    "TyraelSkinDemonic",
+    "TyraelSkinMaster",
+    "TyraelSkinSeraphim",
+    "TyrandeSkinBloodElf",
+    "TyrandeSkinMaster",
+    "TyrandeSkinWarden",
+    "UtherSkinJudgement",
+    "UtherSkinLumberjack",
+    "UtherSkinMaster",
+    "Valla",
+    "VallaSkinAngelic",
+    "VallaSkinMaster",
+    "VallaSkinVampireHunter",
+    "VoidPrison",
+    "Warhorse",
+    "WonderBillie",
+    "Xul",
+    "XulSkinMaster",
+    "XulSkinSerpentKing",
+    "ZagaraSkinDesertQueen",
+    "ZagaraSkinInsectoid",
+    "ZagaraSkinMaster",
+    "ZeratulSkinHighTemplar",
+    "ZeratulSkinMaster",
+    "ZeratulSkinRonin",
+    "ZeratulSkinZergHunter"
+  ],
+  "names_seen_in_scanned_files": [
+    "CannotEarn",
+    "StitchesSkinPsycho",
+    "TestMountRide",
+    "TestMountRideBeast",
+    "TestMountRideBike",
+    "TestMountRideSurf",
+    "UtherSkinMedic"
+  ],
+  "projection_sha256": "c8f03ddbc859feb5c2dc1836761201b5e6fea4632ce0325817abdd7299c8aa22",
+  "projection_version_binding": {
+    "expected_version": "2.57.0.98348",
+    "matching_hdp_info_files": 1,
+    "metadata": [
+      {
+        "bytes": 130,
+        "is_ptr": false,
+        "observed_version_strings": [
+          "2.57.0.98348"
+        ],
+        "path": "mods/hdp.info",
+        "sha256": "eeb8bc05408d3fd33291abbfd81f708af4a3d2a55911b09da80a486030ca3681",
+        "version_field": "Version"
+      }
+    ],
+    "status": "version-log-and-extracted-metadata-match",
+    "version_log": {
+      "bytes": 13,
+      "observed_versions": [
+        "2.57.0.98348"
+      ],
+      "sha256": "ae610ceda87a81444a79cf937752a74f8bc6869f0015c48cba74e32970cfa839"
+    }
+  },
+  "raw_XML_exported": false,
+  "related_owning_record_fields": [
+    {
+      "direct_fields": [
+        {
+          "field": {
+            "attributes": {
+              "value": "StitchesSkinPsycho"
+            },
+            "direct_literal_candidate": true,
+            "unresolved": []
+          },
+          "node_path": "Catalog[0]/CSkin[9]/DisplayModel[11]",
+          "tag": "DisplayModel"
+        }
+      ],
+      "file": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/stitchesdata/stitchesskindata/stitchespsychodata/stitchespsychobasedata.xml",
+      "inheritance_or_cross_record_join_performed": false,
+      "matching_node_indexes_within_file": [
+        1,
+        2,
+        3
+      ],
+      "owner": {
+        "id": "StitchesPsychoCommon",
+        "kind": "CSkin"
+      },
+      "owner_node_path": "Catalog[0]/CSkin[9]"
+    },
+    {
+      "direct_fields": [
+        {
+          "field": {
+            "attributes": {
+              "value": "UtherSkinMedic"
+            },
+            "direct_literal_candidate": true,
+            "unresolved": []
+          },
+          "node_path": "Catalog[0]/CSkin[22]/DisplayModel[29]",
+          "tag": "DisplayModel"
+        }
+      ],
+      "file": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/utherdata/utherskindata/uthermedicdata/uthermedicbasedata.xml",
+      "inheritance_or_cross_record_join_performed": false,
+      "matching_node_indexes_within_file": [
+        1,
+        2,
+        3
+      ],
+      "owner": {
+        "id": "UtherMedicCommon",
+        "kind": "CSkin"
+      },
+      "owner_node_path": "Catalog[0]/CSkin[22]"
+    }
+  ],
+  "replay_modified": false,
+  "scanned_xml_bytes": 1279695,
+  "scanned_xml_files": 20,
+  "scanned_xml_inventory_sha256": "15e5b4112992e44a1a44c8cb3706cd6edef2587d11ed0ce100dc7c25854e915b",
+  "scope": "subset-pinned-XML-file-digests-only",
+  "target_version": "2.57.0.98348",
+  "unit_identity_queries": {
+    "complete_pinned_XML_inventory_verified": false,
+    "direct_Catalog_CUnit_declarations": [
+      {
+        "bytes": 185225,
+        "catalog_child_ordinal": 443,
+        "default": null,
+        "direct_fields": [
+          {
+            "field": {
+              "attributes": {
+                "Link": "NovaPermanentCloak"
+              },
+              "field_semantics_resolved": false,
+              "unresolved": [],
+              "unsupported_attribute_names": []
+            },
+            "tag": "BehaviorArray"
+          },
+          {
+            "field": {
+              "attributes": {
+                "Link": "NovaPermanentCloakDisableController"
+              },
+              "field_semantics_resolved": false,
+              "unresolved": [],
+              "unsupported_attribute_names": []
+            },
+            "tag": "BehaviorArray"
+          },
+          {
+            "field": {
+              "attributes": {
+                "Link": "ExcellentMana"
+              },
+              "field_semantics_resolved": false,
+              "unresolved": [],
+              "unsupported_attribute_names": []
+            },
+            "tag": "BehaviorArray"
+          },
+          {
+            "field": {
+              "attributes": {
+                "Link": "HeroGenericPermanentHallucinationFlag"
+              },
+              "field_semantics_resolved": false,
+              "unresolved": [],
+              "unsupported_attribute_names": []
+            },
+            "tag": "BehaviorArray"
+          },
+          {
+            "field": {
+              "attributes": {
+                "Link": "VitalAliasUnitTracker"
+              },
+              "field_semantics_resolved": false,
+              "unresolved": [],
+              "unsupported_attribute_names": []
+            },
+            "tag": "BehaviorArray"
+          },
+          {
+            "field": {
+              "attributes": {
+                "Link": "NovaHoloDecoyXPGlobeFinder"
+              },
+              "field_semantics_resolved": false,
+              "unresolved": [],
+              "unsupported_attribute_names": []
+            },
+            "tag": "BehaviorArray"
+          }
+        ],
+        "file": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/novadata/novadata.xml",
+        "id": "NovaHoloClone",
+        "inheritance_or_alias_resolution_performed": false,
+        "kind": "CUnit",
+        "parent": "StormBasicHeroicUnit",
+        "sha256": "721086138a01ff65659616556ea617c85f968d8bd28ec888fa6397bde0ce113a"
+      }
+    ],
+    "inheritance_catalog_order_or_UnitAlias_semantics_resolved": false,
+    "numeric_unit_links_or_replacements_inferred": false,
+    "queries": [
+      "NovaHoloCloneCloaked",
+      "NovaHoloClone",
+      "AbathurEvolvedMonstrosity",
+      "TownCannonTowerL2Standalone"
+    ],
+    "results": [
+      {
+        "absent_from_all_projected_XML": null,
+        "declaration_count": 0,
+        "id": "NovaHoloCloneCloaked",
+        "not_seen_in_scanned_XML": true
+      },
+      {
+        "absent_from_all_projected_XML": null,
+        "declaration_count": 1,
+        "id": "NovaHoloClone",
+        "not_seen_in_scanned_XML": false
+      },
+      {
+        "absent_from_all_projected_XML": null,
+        "declaration_count": 0,
+        "id": "AbathurEvolvedMonstrosity",
+        "not_seen_in_scanned_XML": true
+      },
+      {
+        "absent_from_all_projected_XML": null,
+        "declaration_count": 0,
+        "id": "TownCannonTowerL2Standalone",
+        "not_seen_in_scanned_XML": true
+      }
+    ]
+  },
+  "unresolved_names": [
+    "2015WorldChampionshipMount",
+    "AbathurSkinMaster",
+    "AbathurSkinPajamathur",
+    "AbathurSkinSkelethur",
+    "AnubarakSkinCybarak",
+    "AnubarakSkinLoveBug",
+    "AnubarakSkinMaster",
+    "Archon",
+    "ArtanisSkinMaster",
+    "ArtanisSkinPurifier",
+    "ArthasSkinCrimsonCount",
+    "ArthasSkinDeathKnight",
+    "ArthasSkinFrostWyrm",
+    "ArthasSkinLichPrince",
+    "ArthasSkinMaster",
+    "ArtifactSlot2",
+    "ArtifactSlot3",
+    "AzmodanSkinAzguldan",
+    "AzmodanSkinMaster",
+    "AzmodunkMount",
+    "BFG",
+    "Billie",
+    "Bombardment",
+    "Brightwing",
+    "BrightwingSkinFlyingMonkey",
+    "BrightwingSkinMaster",
+    "BrightwingSkinMonarch",
+    "ButcherSkinIron",
+    "ButcherSkinMaster",
+    "ButchersBeast",
+    "CannotEarn",
+    "ChenSkinElder",
+    "ChenSkinMaster",
+    "ChenSkinWarmaster",
+    "ChoGallPromo",
+    "ChogallSkinCorruptor",
+    "ChogallSkinMaster",
+    "CloudSerpent",
+    "Cocoon",
+    "Cyberwolf",
+    "DehakaSkinMaster",
+    "DiabloSkinArchangel",
+    "DiabloSkinKaijo",
+    "DiabloSkinLurkablo",
+    "DiabloSkinMaster",
+    "DiabloUltimate2",
+    "DivineStorm",
+    "ETC",
+    "ETCSkinGlamMetal",
+    "ETCSkinMaster",
+    "ETCSkinPureCountry",
+    "FalstadSkinBuccaneer",
+    "FalstadSkinMaster",
+    "FalstadSkinStormLord",
+    "FelStalker",
+    "Gazlowe",
+    "GazloweSkinBigTop",
+    "GazloweSkinMadMartian",
+    "GazloweSkinMaster",
+    "GazloweSkinSciFi",
+    "GoldenCyberWolf",
+    "GoldenLunarTiger",
+    "GravOBomb3000",
+    "GreymaneSkinMaster",
+    "GreymaneSkinRingmaster",
+    "Haymaker",
+    "HeadlessHorseman",
+    "HinterlandBlast",
+    "IllidanSkinLunar",
+    "IllidanSkinMaster",
+    "IllidanSkinShando",
+    "IllidanSkinSpectre",
+    "IllidansNightmare",
+    "IronsideDirewolf",
+    "JainaSkinLunar",
+    "JainaSkinMaster",
+    "JainaSkinTempestRegalia",
+    "JainaSkinWinterVeil",
+    "Johanna",
+    "JohannaSkinCenturion",
+    "JohannaSkinMaster",
+    "JudgementCharger",
+    "KaelthasSkinMaster",
+    "KaelthasSkinStormpunk",
+    "KerriganSkinCountess",
+    "KerriganSkinMaster",
+    "KerriganSkinSuccubus",
+    "Kharazim",
+    "KharazimSkinJadeDragon",
+    "KharazimSkinMaster",
+    "LeoricSkinMaster",
+    "LeoricSkinSpaceLord",
+    "LeoricSkinVrykul",
+    "LiLiSkinExplorer",
+    "LiLiSkinFestival",
+    "LiLiSkinMaster",
+    "LiMing",
+    "LiMingSkinMaster",
+    "LiMingSkinStarPrincess",
+    "LostVikingsSkinMaster",
+    "LostVikingsSkinPajamaParty",
+    "LtMorales",
+    "Lunara",
+    "LunaraSkinMaster",
+    "LunaraSkinSentinel",
+    "Maelstrom",
+    "MalfurionSkinBetrayer",
+    "MalfurionSkinMaster",
+    "MalfurionSkinStormMantle",
+    "MalthaelsPhantomSteed",
+    "MarshalsOutrider",
+    "MechaDehaka",
+    "MiniMe",
+    "MoralesSkinApothecary",
+    "MoralesSkinDrLove",
+    "MoralesSkinMaster",
+    "MuradinSkinKandyKing",
+    "MuradinSkinMagni",
+    "MuradinSkinMaster",
+    "MurkySkinFunnyBunny",
+    "MurkySkinGrunty",
+    "MurkySkinMaster",
+    "Nazeebo",
+    "NazeeboSkinGrimskull",
+    "NazeeboSkinHarlequin",
+    "NazeeboSkinMaster",
+    "NazeeboWarhorse",
+    "NexusBattleBeast",
+    "NovaSkinMaster",
+    "NovaSkinNovazon",
+    "NovaSkinRollerDerby",
+    "NovaSkinSpectre",
+    "PiggyBank",
+    "RainofVengeance",
+    "RaynorSkinCommander",
+    "RaynorSkinMarshal",
+    "RaynorSkinMaster",
+    "RaynorSkinStarsAndStripes",
+    "RehgarSkinGreatfatherWinter",
+    "RehgarSkinIronClaw",
+    "RehgarSkinMaster",
+    "Reigndeer",
+    "RexxarSkinFrostlord",
+    "RingMastersPride",
+    "SgtHammerSkinDoomHammer",
+    "SgtHammerSkinMaster",
+    "SgtHammerSkinWarWorld3",
+    "Sonya",
+    "SonyaSkinMaster",
+    "SonyaSkinSuper",
+    "SonyaSkinWrath",
+    "StarbreakerMount",
+    "Starfall",
+    "StitchesSkinBikini",
+    "StitchesSkinChef",
+    "StitchesSkinGreatfatherWinter",
+    "StitchesSkinMaster",
+    "StitchesSkinPsycho",
+    "SummonSindragosa",
+    "SummonUltralisk",
+    "Swordwall",
+    "SylvanasSkinMaster",
+    "SylvanasSkinRangerGeneral",
+    "SylvanasSkinSugarPlum",
+    "TassadarSkinCryptKing",
+    "TassadarSkinMaster",
+    "TassadarSkinMecha",
+    "TestMountRide",
+    "TestMountRideBeast",
+    "TestMountRideBike",
+    "TestMountRideSurf",
+    "ThrallSkinEarthbreaker",
+    "ThrallSkinHellhammer",
+    "ThrallSkinMaster",
+    "TreasureGoblinMount",
+    "TwilightDream",
+    "TychusSkinInfested",
+    "TychusSkinMaster",
+    "TychusSkinPrisoner",
+    "TychusUltimate2",
+    "TyraelSkinDemonic",
+    "TyraelSkinMaster",
+    "TyraelSkinSeraphim",
+    "TyrandeSkinBloodElf",
+    "TyrandeSkinMaster",
+    "TyrandeSkinWarden",
+    "UtherSkinJudgement",
+    "UtherSkinLumberjack",
+    "UtherSkinMaster",
+    "UtherSkinMedic",
+    "Valla",
+    "VallaSkinAngelic",
+    "VallaSkinMaster",
+    "VallaSkinVampireHunter",
+    "VoidPrison",
+    "Warhorse",
+    "WonderBillie",
+    "Xul",
+    "XulSkinMaster",
+    "XulSkinSerpentKing",
+    "ZagaraSkinDesertQueen",
+    "ZagaraSkinInsectoid",
+    "ZagaraSkinMaster",
+    "ZeratulSkinHighTemplar",
+    "ZeratulSkinMaster",
+    "ZeratulSkinRonin",
+    "ZeratulSkinZergHunter"
+  ]
+}

@@ -1,0 +1,859 @@
+{
+  "format": "hots-current-crossmap-catalog-observation-v2",
+  "earlier_six_control_report_sha256": "ca77f920c31af007dd762480a191d956b4b639d3dee55c141a3c954debd99449",
+  "nova_full_acquisition_sha256": "96ffb21cd332e6feca8889b2b999dab140a99d8e360c89449bfa26c73ee949c3",
+  "bounded_partial_screen_sha256": "eb7bf555b3e7b72b0270b7fb96bc6ce5604a2e1142a97609125047e3ae3dd592",
+  "source_index_sha256": "51cea7d89c0afe887a31c6bc549c0a35b740e997c4d8e8d195b3eef8c602610c",
+  "acquisition_sha256": "ff45527e54b24adf0d817d77447ed98ebfec0efef4e3cd26c61ab8600ae47483",
+  "previous_dragon_report_sha256": "fc6dbc312dac9143bfe450d661f8033a04c2ce4eec51878618e2a517f8faf609",
+  "source_replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+  "source_inventory_sha256": "8ac9b02046036d8d165958d737e7f2f0d0da276f48df46a23791e1ee34643eba",
+  "added_reference_count": 8,
+  "downloaded_bytes": 10717617,
+  "references": [
+    {
+      "id": "crossmap-01",
+      "replay_file": "crossmap-01-Sky_Temple.StormReplay",
+      "replay_sha256": "afcf49a656068f343173fc79afff2d2ebf15066f531cb192382cdba9d1ea3272",
+      "replay_bytes": 1357323,
+      "public_url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-16-2026_Protectors_of_Shakuras_vs_Crowd_Control_Syndicate_Sky_Temple.stormReplay",
+      "map": "Sky Temple",
+      "selected_hero_names": [
+        "Abathur",
+        "Brightwing",
+        "Dehaka",
+        "E.T.C.",
+        "Greymane",
+        "Kael'thas",
+        "Li-Ming",
+        "Sonya",
+        "Stukov",
+        "Varian"
+      ],
+      "profile_sha256": "21bfaf86b58aecab3a68bc6612ce0178dfecdda08ed3af5297ce21f8be52cea0",
+      "inventory_sha256": "07ea01bc8885d783192cfaa120e48a48ef8b95cbed7f010da03c57a18f55efbe",
+      "schema_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+      "root": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "build": 98348,
+      "core_stream_roundtrips_exact": true,
+      "shared_type_count": 36,
+      "equal_type_link_sets": 36,
+      "disagreements": [],
+      "dependency_context": {
+        "handles": [
+          "73326d61000055531f1b228ddb1f72205cbfd444055287100b0f39959be816548162e4081ea85511",
+          "73326d61000055531ad94c126eb98a4c1de7b8e6f8aaa153dba52b09d3825e0c89dbc5828db70f76",
+          "73326d610000555392d81744c1441bf628ed6ab7e9d19485c860914d8b745a91f6351ff9dcd4e6bb",
+          "73326d6100005553a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43",
+          "73326d61000055539935b24e9a2402a9ade69fad7c3d7d872f0df07b1890b0a7b6e2651e7617bfad",
+          "73326d61000055535425cd6e7ab2fca9e373293ac929bb7d13da240aac2a2489ba4848345de2824e",
+          "73326d6100005553889da151b127b6b5091a26c0395b7787a74cd3f4dea69521512cf027129a009e"
+        ],
+        "relative_paths": [
+          "1f/1b/1f1b228ddb1f72205cbfd444055287100b0f39959be816548162e4081ea85511.s2ma",
+          "1a/d9/1ad94c126eb98a4c1de7b8e6f8aaa153dba52b09d3825e0c89dbc5828db70f76.s2ma",
+          "92/d8/92d81744c1441bf628ed6ab7e9d19485c860914d8b745a91f6351ff9dcd4e6bb.s2ma",
+          "a1/e9/a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43.s2ma",
+          "99/35/9935b24e9a2402a9ade69fad7c3d7d872f0df07b1890b0a7b6e2651e7617bfad.s2ma",
+          "54/25/5425cd6e7ab2fca9e373293ac929bb7d13da240aac2a2489ba4848345de2824e.s2ma",
+          "88/9d/889da151b127b6b5091a26c0395b7787a74cd3f4dea69521512cf027129a009e.s2ma"
+        ],
+        "prefix_roundtrip_exact": true,
+        "matching_ordered_prefix_handles_with_dragon": 4,
+        "same_ordered_nonmap_prefix": false,
+        "mod_file_sync_checksum": 3720355390,
+        "map_file_sync_checksum": 2556837657
+      }
+    },
+    {
+      "id": "crossmap-02",
+      "replay_file": "crossmap-02-Battlefield_of_Eternity.StormReplay",
+      "replay_sha256": "fe801daf9df44f10db2b950989308c8ee2fa55c03b4adfef7ac383b4d46583bf",
+      "replay_bytes": 1133707,
+      "public_url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-16-2026_Protectors_of_Shakuras_vs_Crowd_Control_Syndicate_Battlefield_of_Eternity.stormReplay",
+      "map": "Battlefield of Eternity",
+      "selected_hero_names": [
+        "Arthas",
+        "Blaze",
+        "Leoric",
+        "Li-Ming",
+        "L\u00facio",
+        "Mal'Ganis",
+        "Raynor",
+        "Thrall",
+        "Tyrande",
+        "Valla"
+      ],
+      "profile_sha256": "e435d58d1a1dea9fee5fafbc705813acbde1a22ea235b25c04188c9cae7b95a5",
+      "inventory_sha256": "e759cf26ed245a47379997e6429b61ef8306756a754b92dec72113ed84a19795",
+      "schema_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+      "root": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "build": 98348,
+      "core_stream_roundtrips_exact": true,
+      "shared_type_count": 28,
+      "equal_type_link_sets": 28,
+      "disagreements": [],
+      "dependency_context": {
+        "handles": [
+          "73326d61000055531f1b228ddb1f72205cbfd444055287100b0f39959be816548162e4081ea85511",
+          "73326d61000055531ad94c126eb98a4c1de7b8e6f8aaa153dba52b09d3825e0c89dbc5828db70f76",
+          "73326d610000555392d81744c1441bf628ed6ab7e9d19485c860914d8b745a91f6351ff9dcd4e6bb",
+          "73326d6100005553a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43",
+          "73326d6100005553b660c912af45fab1e57d5a646ddad4634175e69c8e0486b81ddb203b239988ca",
+          "73326d6100005553c2bca8c4ebfe13dbbaf03fc37337b695b8d683c893217c450c6e209c81ee2514",
+          "73326d61000055531860ffa5906bb6ee8054ed080a4afcefaa534d4643ce0781aad84623724442b2"
+        ],
+        "relative_paths": [
+          "1f/1b/1f1b228ddb1f72205cbfd444055287100b0f39959be816548162e4081ea85511.s2ma",
+          "1a/d9/1ad94c126eb98a4c1de7b8e6f8aaa153dba52b09d3825e0c89dbc5828db70f76.s2ma",
+          "92/d8/92d81744c1441bf628ed6ab7e9d19485c860914d8b745a91f6351ff9dcd4e6bb.s2ma",
+          "a1/e9/a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43.s2ma",
+          "b6/60/b660c912af45fab1e57d5a646ddad4634175e69c8e0486b81ddb203b239988ca.s2ma",
+          "c2/bc/c2bca8c4ebfe13dbbaf03fc37337b695b8d683c893217c450c6e209c81ee2514.s2ma",
+          "18/60/1860ffa5906bb6ee8054ed080a4afcefaa534d4643ce0781aad84623724442b2.s2ma"
+        ],
+        "prefix_roundtrip_exact": true,
+        "matching_ordered_prefix_handles_with_dragon": 4,
+        "same_ordered_nonmap_prefix": false,
+        "mod_file_sync_checksum": 1314354243,
+        "map_file_sync_checksum": 1447449266
+      }
+    },
+    {
+      "id": "crossmap-03",
+      "replay_file": "crossmap-03-Volskaya_Foundry.StormReplay",
+      "replay_sha256": "9872b043e48093abc65e11b7b6d091861e83fc4d202b40b745824da647cb6ef3",
+      "replay_bytes": 1485554,
+      "public_url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-16-2026_Protectors_of_Aiur_vs_Pepegas_on_Ice_Volskaya_Foundry.stormReplay",
+      "map": "Volskaya Foundry",
+      "selected_hero_names": [
+        "Anduin",
+        "Blaze",
+        "Chromie",
+        "E.T.C.",
+        "Falstad",
+        "Hanzo",
+        "Leoric",
+        "Muradin",
+        "Stukov",
+        "Tychus"
+      ],
+      "profile_sha256": "3ea61d6358f35d25f80d11c3f0cbd1dcbf91f4565b5ddfcdf1031d431d21f7ab",
+      "inventory_sha256": "e64b7edbd3b638a70419756c87e29e315c79d8ac969dc9462cdabdb4143ef3ba",
+      "schema_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+      "root": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "build": 98348,
+      "core_stream_roundtrips_exact": true,
+      "shared_type_count": 35,
+      "equal_type_link_sets": 35,
+      "disagreements": [],
+      "dependency_context": {
+        "handles": [
+          "73326d61000055531f1b228ddb1f72205cbfd444055287100b0f39959be816548162e4081ea85511",
+          "73326d61000055531ad94c126eb98a4c1de7b8e6f8aaa153dba52b09d3825e0c89dbc5828db70f76",
+          "73326d610000555392d81744c1441bf628ed6ab7e9d19485c860914d8b745a91f6351ff9dcd4e6bb",
+          "73326d6100005553a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43",
+          "73326d610000555376d6840006fa652dd2cb922d2c4d316a493e0c360640a1b78cd91a4c0e83a7fe",
+          "73326d61000055539ebc783e1ab460a5b505517a66721cf223b9e99087ce0a2322c0e7ac2bf35cc4",
+          "73326d6100005553e0427185953d79e23f83d8b233b90f6a8de54d7c67c61674e436ceb14d6299db",
+          "73326d6100005553211119c1862a0ca8e19185f8d7c55a38ccbfec2032cd563d91e5b5d0ad3dff08",
+          "73326d61000055531a2f4212184915bffce06fa2f70ca927c82726414550e50671411eeafd4bf7f3",
+          "73326d6100005553d952569f975d31a83e9d12d6b488589044e325ba92871aef62e104ed1859202e"
+        ],
+        "relative_paths": [
+          "1f/1b/1f1b228ddb1f72205cbfd444055287100b0f39959be816548162e4081ea85511.s2ma",
+          "1a/d9/1ad94c126eb98a4c1de7b8e6f8aaa153dba52b09d3825e0c89dbc5828db70f76.s2ma",
+          "92/d8/92d81744c1441bf628ed6ab7e9d19485c860914d8b745a91f6351ff9dcd4e6bb.s2ma",
+          "a1/e9/a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43.s2ma",
+          "76/d6/76d6840006fa652dd2cb922d2c4d316a493e0c360640a1b78cd91a4c0e83a7fe.s2ma",
+          "9e/bc/9ebc783e1ab460a5b505517a66721cf223b9e99087ce0a2322c0e7ac2bf35cc4.s2ma",
+          "e0/42/e0427185953d79e23f83d8b233b90f6a8de54d7c67c61674e436ceb14d6299db.s2ma",
+          "21/11/211119c1862a0ca8e19185f8d7c55a38ccbfec2032cd563d91e5b5d0ad3dff08.s2ma",
+          "1a/2f/1a2f4212184915bffce06fa2f70ca927c82726414550e50671411eeafd4bf7f3.s2ma",
+          "d9/52/d952569f975d31a83e9d12d6b488589044e325ba92871aef62e104ed1859202e.s2ma"
+        ],
+        "prefix_roundtrip_exact": true,
+        "matching_ordered_prefix_handles_with_dragon": 4,
+        "same_ordered_nonmap_prefix": false,
+        "mod_file_sync_checksum": 1099099167,
+        "map_file_sync_checksum": 277557624
+      }
+    },
+    {
+      "id": "crossmap-04",
+      "replay_file": "crossmap-04-Tomb_of_the_Spider_Queen.StormReplay",
+      "replay_sha256": "98ac891fa4fb8e1698e5fc35609fcf75abfe7e89aee9c7f05afff93b10338ab3",
+      "replay_bytes": 1247616,
+      "public_url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-16-2026_Protectors_of_Aiur_vs_Pepegas_on_Ice_Tomb_of_the_Spider_Queen.stormReplay",
+      "map": "Tomb of the Spider Queen",
+      "selected_hero_names": [
+        "Anduin",
+        "Azmodan",
+        "Blaze",
+        "Johanna",
+        "Mei",
+        "Rehgar",
+        "Sgt. Hammer",
+        "Sylvanas",
+        "Tyrande",
+        "Yrel"
+      ],
+      "profile_sha256": "4b196df65763da5d7d990515a83582d041548dc89b2394e05f9232730193d433",
+      "inventory_sha256": "5ff098e956d8caaa1d322eec7a0aadfb87f8131b5467e56aee45f14934929f8e",
+      "schema_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+      "root": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "build": 98348,
+      "core_stream_roundtrips_exact": true,
+      "shared_type_count": 36,
+      "equal_type_link_sets": 36,
+      "disagreements": [],
+      "dependency_context": {
+        "handles": [
+          "73326d61000055531f1b228ddb1f72205cbfd444055287100b0f39959be816548162e4081ea85511",
+          "73326d61000055531ad94c126eb98a4c1de7b8e6f8aaa153dba52b09d3825e0c89dbc5828db70f76",
+          "73326d610000555392d81744c1441bf628ed6ab7e9d19485c860914d8b745a91f6351ff9dcd4e6bb",
+          "73326d6100005553a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43",
+          "73326d6100005553833384ef25dd541d279ca7774e93105188de5c08aa801bd0aab4f62a89d78a03",
+          "73326d6100005553a713e0d47c677fd2b99f9ee8398c22a3e30cc018fcc83d1dda3c09b31f1e76c1"
+        ],
+        "relative_paths": [
+          "1f/1b/1f1b228ddb1f72205cbfd444055287100b0f39959be816548162e4081ea85511.s2ma",
+          "1a/d9/1ad94c126eb98a4c1de7b8e6f8aaa153dba52b09d3825e0c89dbc5828db70f76.s2ma",
+          "92/d8/92d81744c1441bf628ed6ab7e9d19485c860914d8b745a91f6351ff9dcd4e6bb.s2ma",
+          "a1/e9/a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43.s2ma",
+          "83/33/833384ef25dd541d279ca7774e93105188de5c08aa801bd0aab4f62a89d78a03.s2ma",
+          "a7/13/a713e0d47c677fd2b99f9ee8398c22a3e30cc018fcc83d1dda3c09b31f1e76c1.s2ma"
+        ],
+        "prefix_roundtrip_exact": true,
+        "matching_ordered_prefix_handles_with_dragon": 4,
+        "same_ordered_nonmap_prefix": false,
+        "mod_file_sync_checksum": 3334967394,
+        "map_file_sync_checksum": 2209509714
+      }
+    },
+    {
+      "id": "crossmap-05",
+      "replay_file": "crossmap-05-Towers_of_Doom.StormReplay",
+      "replay_sha256": "715e309bba5d3151d3e1b47461041627db7644d91a8b549c309950e44d6067e8",
+      "replay_bytes": 1138445,
+      "public_url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-16-2026_Hat_saika_and_r_vs_Stormblessed_Towers_of_Doom.stormReplay",
+      "map": "Towers of Doom",
+      "selected_hero_names": [
+        "Blaze",
+        "Brightwing",
+        "Chen",
+        "Deathwing",
+        "Hanzo",
+        "Johanna",
+        "Li-Ming",
+        "Thrall",
+        "Tyrael",
+        "Uther"
+      ],
+      "profile_sha256": "3256be4b60c5e8553e28e80044e60eb2289558e1749f31100f3cc2e1a0933923",
+      "inventory_sha256": "fbb96d88d0ff81c6d12b68449bff03c2b8d769477e0c5067366660961d51ffd5",
+      "schema_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+      "root": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "build": 98348,
+      "core_stream_roundtrips_exact": true,
+      "shared_type_count": 20,
+      "equal_type_link_sets": 20,
+      "disagreements": [],
+      "dependency_context": {
+        "handles": [
+          "73326d61000055531f1b228ddb1f72205cbfd444055287100b0f39959be816548162e4081ea85511",
+          "73326d61000055531ad94c126eb98a4c1de7b8e6f8aaa153dba52b09d3825e0c89dbc5828db70f76",
+          "73326d610000555392d81744c1441bf628ed6ab7e9d19485c860914d8b745a91f6351ff9dcd4e6bb",
+          "73326d6100005553a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43",
+          "73326d6100005553e2e5aece28c5acf33cec9c6c4896c241cdb5d5a2ffbbb517601d47e6c93469ee",
+          "73326d610000555360f3737b16c5f687d214ad90746b0e32900ab796ddf4a907a380a7cd6037d672"
+        ],
+        "relative_paths": [
+          "1f/1b/1f1b228ddb1f72205cbfd444055287100b0f39959be816548162e4081ea85511.s2ma",
+          "1a/d9/1ad94c126eb98a4c1de7b8e6f8aaa153dba52b09d3825e0c89dbc5828db70f76.s2ma",
+          "92/d8/92d81744c1441bf628ed6ab7e9d19485c860914d8b745a91f6351ff9dcd4e6bb.s2ma",
+          "a1/e9/a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43.s2ma",
+          "e2/e5/e2e5aece28c5acf33cec9c6c4896c241cdb5d5a2ffbbb517601d47e6c93469ee.s2ma",
+          "60/f3/60f3737b16c5f687d214ad90746b0e32900ab796ddf4a907a380a7cd6037d672.s2ma"
+        ],
+        "prefix_roundtrip_exact": true,
+        "matching_ordered_prefix_handles_with_dragon": 4,
+        "same_ordered_nonmap_prefix": false,
+        "mod_file_sync_checksum": 3698428329,
+        "map_file_sync_checksum": 298281936
+      }
+    },
+    {
+      "id": "crossmap-06",
+      "replay_file": "crossmap-06-Infernal_Shrines.StormReplay",
+      "replay_sha256": "1230eee79fd3b50a3ee471c587bc77dd14aef67d57bf22cd8df52e877329323a",
+      "replay_bytes": 884754,
+      "public_url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-15-2026_Frank_s_Furters_vs_Toxic_Lizards_Infernal_Shrines.stormReplay",
+      "map": "Infernal Shrines",
+      "selected_hero_names": [
+        "Brightwing",
+        "Chromie",
+        "D.Va",
+        "Johanna",
+        "Kael'thas",
+        "Leoric",
+        "Maiev",
+        "Malfurion",
+        "Muradin",
+        "Raynor"
+      ],
+      "profile_sha256": "bd03f3e27134998b088e1bfd10e70ff34d006057eb094455b154a8173e16e084",
+      "inventory_sha256": "0095b9fc8b81efee64c066772524bd84d594b483e461a546affbb4b87c07ece9",
+      "schema_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+      "root": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "build": 98348,
+      "core_stream_roundtrips_exact": true,
+      "shared_type_count": 28,
+      "equal_type_link_sets": 28,
+      "disagreements": [],
+      "dependency_context": {
+        "handles": [
+          "73326d61000055531f1b228ddb1f72205cbfd444055287100b0f39959be816548162e4081ea85511",
+          "73326d61000055531ad94c126eb98a4c1de7b8e6f8aaa153dba52b09d3825e0c89dbc5828db70f76",
+          "73326d610000555392d81744c1441bf628ed6ab7e9d19485c860914d8b745a91f6351ff9dcd4e6bb",
+          "73326d6100005553a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43",
+          "73326d6100005553b660c912af45fab1e57d5a646ddad4634175e69c8e0486b81ddb203b239988ca",
+          "73326d61000055531b8a5a8e3574f6a19a30b5b419d16cd75fc40c1078c4747e956599f2a8a70cf7",
+          "73326d6100005553adcc82ad3b9530219193032066e3a44cfb7c5f77931981ef1b1b49028e501419",
+          "73326d6100005553fddf3267c510a29b4ad55ada48096860054969095cf025a54f91b15fc310714e"
+        ],
+        "relative_paths": [
+          "1f/1b/1f1b228ddb1f72205cbfd444055287100b0f39959be816548162e4081ea85511.s2ma",
+          "1a/d9/1ad94c126eb98a4c1de7b8e6f8aaa153dba52b09d3825e0c89dbc5828db70f76.s2ma",
+          "92/d8/92d81744c1441bf628ed6ab7e9d19485c860914d8b745a91f6351ff9dcd4e6bb.s2ma",
+          "a1/e9/a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43.s2ma",
+          "b6/60/b660c912af45fab1e57d5a646ddad4634175e69c8e0486b81ddb203b239988ca.s2ma",
+          "1b/8a/1b8a5a8e3574f6a19a30b5b419d16cd75fc40c1078c4747e956599f2a8a70cf7.s2ma",
+          "ad/cc/adcc82ad3b9530219193032066e3a44cfb7c5f77931981ef1b1b49028e501419.s2ma",
+          "fd/df/fddf3267c510a29b4ad55ada48096860054969095cf025a54f91b15fc310714e.s2ma"
+        ],
+        "prefix_roundtrip_exact": true,
+        "matching_ordered_prefix_handles_with_dragon": 4,
+        "same_ordered_nonmap_prefix": false,
+        "mod_file_sync_checksum": 594213797,
+        "map_file_sync_checksum": 2072599531
+      }
+    },
+    {
+      "id": "crossmap-07",
+      "replay_file": "crossmap-07-Cursed_Hollow-Nova.StormReplay",
+      "replay_sha256": "db40f495edb70b2127b97cae4f479de19e18e61b2a5a0e0413052b571e1dbf7e",
+      "replay_bytes": 1689868,
+      "public_url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-10-2026_Anomaly_vs_Good_Lordy_Cursed_Hollow.stormReplay",
+      "map": "Cursed Hollow",
+      "selected_hero_names": [
+        "Blaze",
+        "Brightwing",
+        "Falstad",
+        "Gul'dan",
+        "Johanna",
+        "Nova",
+        "Ragnaros",
+        "Tyrande",
+        "Valeera",
+        "Yrel"
+      ],
+      "profile_sha256": "c0ee5d66c7a866f3cd673f31b7930bcbe9c6747dee6ea51c00103d4523780f26",
+      "inventory_sha256": "3503d60357380db194f19bbd13ac08977bedbf2d79abce6c4cf14b53be2a9c1f",
+      "schema_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+      "root": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "build": 98348,
+      "core_stream_roundtrips_exact": true,
+      "shared_type_count": 37,
+      "equal_type_link_sets": 37,
+      "disagreements": [],
+      "dependency_context": {
+        "handles": [
+          "73326d61000055531f1b228ddb1f72205cbfd444055287100b0f39959be816548162e4081ea85511",
+          "73326d61000055531ad94c126eb98a4c1de7b8e6f8aaa153dba52b09d3825e0c89dbc5828db70f76",
+          "73326d610000555392d81744c1441bf628ed6ab7e9d19485c860914d8b745a91f6351ff9dcd4e6bb",
+          "73326d6100005553a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43",
+          "73326d6100005553eb893d39e0ef05c6219a12b1a31c904a7e79be5b232e88207cc0a35c0f9d0f15",
+          "73326d61000055537751c274aa96c7b58e89c757eeb89e05f28e5c369e463ec6d51bf172681bd3a9"
+        ],
+        "relative_paths": [
+          "1f/1b/1f1b228ddb1f72205cbfd444055287100b0f39959be816548162e4081ea85511.s2ma",
+          "1a/d9/1ad94c126eb98a4c1de7b8e6f8aaa153dba52b09d3825e0c89dbc5828db70f76.s2ma",
+          "92/d8/92d81744c1441bf628ed6ab7e9d19485c860914d8b745a91f6351ff9dcd4e6bb.s2ma",
+          "a1/e9/a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43.s2ma",
+          "eb/89/eb893d39e0ef05c6219a12b1a31c904a7e79be5b232e88207cc0a35c0f9d0f15.s2ma",
+          "77/51/7751c274aa96c7b58e89c757eeb89e05f28e5c369e463ec6d51bf172681bd3a9.s2ma"
+        ],
+        "prefix_roundtrip_exact": true,
+        "matching_ordered_prefix_handles_with_dragon": 4,
+        "same_ordered_nonmap_prefix": false,
+        "mod_file_sync_checksum": 1450600711,
+        "map_file_sync_checksum": 3185272335
+      }
+    },
+    {
+      "id": "crossmap-08",
+      "replay_file": "crossmap-08-Tomb-Nova.StormReplay",
+      "replay_sha256": "d41417f0fd11a1d512e30fa77882bdebf220432bd7e9412b40440cb79a7c9cec",
+      "replay_bytes": 1780350,
+      "public_url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-14-2026_Roll1Esports_vs_Phoenix_Rising_Amethyst_Tomb_of_the_Spider_Queen.stormReplay",
+      "map": "Tomb of the Spider Queen",
+      "selected_hero_names": [
+        "Anduin",
+        "Blaze",
+        "E.T.C.",
+        "Junkrat",
+        "Leoric",
+        "Malfurion",
+        "Muradin",
+        "Nova",
+        "Tassadar",
+        "Tychus"
+      ],
+      "profile_sha256": "ca8abe7788e0a4018b406ac332d0c64304b91c9992204b34176347ae73466681",
+      "inventory_sha256": "9782fe7d513e3e7167e92bf82006ccb6b407bfc2651190458250a09365020df2",
+      "schema_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+      "root": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "build": 98348,
+      "core_stream_roundtrips_exact": true,
+      "shared_type_count": 36,
+      "equal_type_link_sets": 36,
+      "disagreements": [],
+      "dependency_context": {
+        "handles": [
+          "73326d61000055531f1b228ddb1f72205cbfd444055287100b0f39959be816548162e4081ea85511",
+          "73326d61000055531ad94c126eb98a4c1de7b8e6f8aaa153dba52b09d3825e0c89dbc5828db70f76",
+          "73326d610000555392d81744c1441bf628ed6ab7e9d19485c860914d8b745a91f6351ff9dcd4e6bb",
+          "73326d6100005553a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43",
+          "73326d6100005553833384ef25dd541d279ca7774e93105188de5c08aa801bd0aab4f62a89d78a03",
+          "73326d6100005553a713e0d47c677fd2b99f9ee8398c22a3e30cc018fcc83d1dda3c09b31f1e76c1"
+        ],
+        "relative_paths": [
+          "1f/1b/1f1b228ddb1f72205cbfd444055287100b0f39959be816548162e4081ea85511.s2ma",
+          "1a/d9/1ad94c126eb98a4c1de7b8e6f8aaa153dba52b09d3825e0c89dbc5828db70f76.s2ma",
+          "92/d8/92d81744c1441bf628ed6ab7e9d19485c860914d8b745a91f6351ff9dcd4e6bb.s2ma",
+          "a1/e9/a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43.s2ma",
+          "83/33/833384ef25dd541d279ca7774e93105188de5c08aa801bd0aab4f62a89d78a03.s2ma",
+          "a7/13/a713e0d47c677fd2b99f9ee8398c22a3e30cc018fcc83d1dda3c09b31f1e76c1.s2ma"
+        ],
+        "prefix_roundtrip_exact": true,
+        "matching_ordered_prefix_handles_with_dragon": 4,
+        "same_ordered_nonmap_prefix": false,
+        "mod_file_sync_checksum": 3334967394,
+        "map_file_sync_checksum": 2209509714
+      }
+    }
+  ],
+  "observed_equal_type_link_sets": 256,
+  "distinct_shared_type_names": 79,
+  "observed_shared_type_disagreements": 0,
+  "new_unit_link_candidates_from_other_maps": [
+    {
+      "unit_type": "AbathurLocustBombardStrain",
+      "before": 33,
+      "after": 488
+    },
+    {
+      "unit_type": "AbathurLocustNest",
+      "before": 37,
+      "after": 498
+    },
+    {
+      "unit_type": "AbathurLocustNormal",
+      "before": 32,
+      "after": 487
+    },
+    {
+      "unit_type": "AbathurSymbiote",
+      "before": 302,
+      "after": 438
+    },
+    {
+      "unit_type": "AbathurToxicNest",
+      "before": 35,
+      "after": 496
+    },
+    {
+      "unit_type": "HeroAbathur",
+      "before": 60,
+      "after": 493
+    },
+    {
+      "unit_type": "HeroKaelthas",
+      "before": 827,
+      "after": 632
+    },
+    {
+      "unit_type": "HeroNova",
+      "before": 75,
+      "after": 112
+    },
+    {
+      "unit_type": "HeroTyrande",
+      "before": 84,
+      "after": 850
+    },
+    {
+      "unit_type": "NovaHoloClone",
+      "before": 89,
+      "after": 743
+    },
+    {
+      "unit_type": "TownGateL3BLURBRVisionBlocked",
+      "before": 513,
+      "after": 278
+    }
+  ],
+  "combined_observed_pairs": 44,
+  "combined_unresolved_types": [
+    {
+      "unit_type": "AbathurEvolvedMonstrosity",
+      "source_links": [
+        36
+      ],
+      "target_links": [],
+      "reason": "not_observed_in_current_references"
+    },
+    {
+      "unit_type": "NovaHoloCloneCloaked",
+      "source_links": [
+        207
+      ],
+      "target_links": [],
+      "reason": "not_observed_in_current_references"
+    },
+    {
+      "unit_type": "TownCannonTowerDead",
+      "source_links": [
+        531
+      ],
+      "target_links": [
+        296
+      ],
+      "reason": "ambiguous_link_to_type"
+    },
+    {
+      "unit_type": "TownCannonTowerL2",
+      "source_links": [
+        531
+      ],
+      "target_links": [
+        294
+      ],
+      "reason": "ambiguous_link_to_type"
+    },
+    {
+      "unit_type": "TownCannonTowerL2Standalone",
+      "source_links": [
+        532
+      ],
+      "target_links": [],
+      "reason": "not_observed_in_current_references"
+    },
+    {
+      "unit_type": "TownCannonTowerL3",
+      "source_links": [
+        533
+      ],
+      "target_links": [
+        296
+      ],
+      "reason": "ambiguous_link_to_type"
+    }
+  ],
+  "candidate_mapping": {
+    "observed_pairs": [
+      {
+        "unit_type": "AbathurLocustBombardStrain",
+        "before": 33,
+        "after": 488
+      },
+      {
+        "unit_type": "AbathurLocustNest",
+        "before": 37,
+        "after": 498
+      },
+      {
+        "unit_type": "AbathurLocustNormal",
+        "before": 32,
+        "after": 487
+      },
+      {
+        "unit_type": "AbathurSymbiote",
+        "before": 302,
+        "after": 438
+      },
+      {
+        "unit_type": "AbathurToxicNest",
+        "before": 35,
+        "after": 496
+      },
+      {
+        "unit_type": "AnubarakBeetleSpitBeetle",
+        "before": 737,
+        "after": 500
+      },
+      {
+        "unit_type": "CatapultMinion",
+        "before": 378,
+        "after": 159
+      },
+      {
+        "unit_type": "FootmanMinion",
+        "before": 421,
+        "after": 201
+      },
+      {
+        "unit_type": "HeroAbathur",
+        "before": 60,
+        "after": 493
+      },
+      {
+        "unit_type": "HeroAnubarak",
+        "before": 739,
+        "after": 468
+      },
+      {
+        "unit_type": "HeroBarbarian",
+        "before": 63,
+        "after": 542
+      },
+      {
+        "unit_type": "HeroFaerieDragon",
+        "before": 64,
+        "after": 470
+      },
+      {
+        "unit_type": "HeroGreymane",
+        "before": 807,
+        "after": 614
+      },
+      {
+        "unit_type": "HeroKaelthas",
+        "before": 827,
+        "after": 632
+      },
+      {
+        "unit_type": "HeroNova",
+        "before": 75,
+        "after": 112
+      },
+      {
+        "unit_type": "HeroTyrande",
+        "before": 84,
+        "after": 850
+      },
+      {
+        "unit_type": "KingsCore",
+        "before": 595,
+        "after": 336
+      },
+      {
+        "unit_type": "MercDefenderMeleeKnight",
+        "before": 527,
+        "after": 290
+      },
+      {
+        "unit_type": "MercDefenderRangedMage",
+        "before": 528,
+        "after": 291
+      },
+      {
+        "unit_type": "MercDefenderSiegeGiant",
+        "before": 559,
+        "after": 315
+      },
+      {
+        "unit_type": "MercLanerMeleeKnight",
+        "before": 562,
+        "after": 318
+      },
+      {
+        "unit_type": "MercLanerRangedMage",
+        "before": 529,
+        "after": 292
+      },
+      {
+        "unit_type": "MercLanerSiegeGiant",
+        "before": 558,
+        "after": 314
+      },
+      {
+        "unit_type": "NovaHoloClone",
+        "before": 89,
+        "after": 743
+      },
+      {
+        "unit_type": "RangedMinion",
+        "before": 594,
+        "after": 335
+      },
+      {
+        "unit_type": "TownCannonTowerL3Standalone",
+        "before": 534,
+        "after": 297
+      },
+      {
+        "unit_type": "TownGateL215BLUR",
+        "before": 499,
+        "after": 264
+      },
+      {
+        "unit_type": "TownGateL215BRUL",
+        "before": 502,
+        "after": 267
+      },
+      {
+        "unit_type": "TownGateL3BLURBRVisionBlocked",
+        "before": 513,
+        "after": 278
+      },
+      {
+        "unit_type": "TownGateL3BRULTRVisionBlocked",
+        "before": 516,
+        "after": 281
+      },
+      {
+        "unit_type": "TownGateL3VerticalRightVisionBlocked",
+        "before": 510,
+        "after": 275
+      },
+      {
+        "unit_type": "TownMoonwellL2",
+        "before": 537,
+        "after": 299
+      },
+      {
+        "unit_type": "TownMoonwellL3",
+        "before": 538,
+        "after": 300
+      },
+      {
+        "unit_type": "TownTownHallL2",
+        "before": 569,
+        "after": 324
+      },
+      {
+        "unit_type": "TownTownHallL3",
+        "before": 548,
+        "after": 310
+      },
+      {
+        "unit_type": "TownWallRadial14L3",
+        "before": 648,
+        "after": 387
+      },
+      {
+        "unit_type": "TownWallRadial17L3",
+        "before": 657,
+        "after": 396
+      },
+      {
+        "unit_type": "TownWallRadial18L2",
+        "before": 659,
+        "after": 398
+      },
+      {
+        "unit_type": "TownWallRadial18L3",
+        "before": 660,
+        "after": 399
+      },
+      {
+        "unit_type": "TownWallRadial19L2",
+        "before": 662,
+        "after": 401
+      },
+      {
+        "unit_type": "TownWallRadial4L2",
+        "before": 617,
+        "after": 356
+      },
+      {
+        "unit_type": "TownWallRadial5L2",
+        "before": 620,
+        "after": 359
+      },
+      {
+        "unit_type": "VehicleDragon",
+        "before": 67,
+        "after": 29
+      },
+      {
+        "unit_type": "WizardMinion",
+        "before": 420,
+        "after": 200
+      }
+    ],
+    "unresolved": [
+      {
+        "unit_type": "AbathurEvolvedMonstrosity",
+        "source_links": [
+          36
+        ],
+        "target_links": [],
+        "reason": "not_observed_in_current_references"
+      },
+      {
+        "unit_type": "NovaHoloCloneCloaked",
+        "source_links": [
+          207
+        ],
+        "target_links": [],
+        "reason": "not_observed_in_current_references"
+      },
+      {
+        "unit_type": "TownCannonTowerDead",
+        "source_links": [
+          531
+        ],
+        "target_links": [
+          296
+        ],
+        "reason": "ambiguous_link_to_type"
+      },
+      {
+        "unit_type": "TownCannonTowerL2",
+        "source_links": [
+          531
+        ],
+        "target_links": [
+          294
+        ],
+        "reason": "ambiguous_link_to_type"
+      },
+      {
+        "unit_type": "TownCannonTowerL2Standalone",
+        "source_links": [
+          532
+        ],
+        "target_links": [],
+        "reason": "not_observed_in_current_references"
+      },
+      {
+        "unit_type": "TownCannonTowerL3",
+        "source_links": [
+          533
+        ],
+        "target_links": [
+          296
+        ],
+        "reason": "ambiguous_link_to_type"
+      }
+    ],
+    "complete_catalog": false,
+    "cross_map_catalog_independence_proven": false,
+    "automatically_applied": false
+  },
+  "source_dragon_admitted_pairs_unchanged": 33,
+  "current_dragon_target_link_directly_observed_for_new_candidates": false,
+  "cross_map_catalog_independence_proven": false,
+  "automatically_applied": false,
+  "replay_modified": false,
+  "client_launched": false,
+  "limitations": [
+    "Shared link agreement is observed only for the reported types/matches, not all units or arbitrary maps.",
+    "All eight controls share the first four base dependency handles with Dragon, but their other packages and mod checksums differ.",
+    "New other-map candidates require Dragon/context validation before migration eligibility; no existing33-pair decision is widened automatically.",
+    "The original unit-instance allocation, abilities, rules and sync remain separate unresolved requirements."
+  ]
+}

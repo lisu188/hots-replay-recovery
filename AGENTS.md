@@ -307,3 +307,36 @@ maps currencies/loot chests, not source entitlements. This bounded subset does n
 rule out fields elsewhere. A broader exact-build alias scan is still separate.
 R8 remains latest; full upgrade, replay determinism and gameplay stay unproven.
 The user continues to prohibit launching HotS.
+
+
+## Bounded replay screening and exact XML scanner — 2026-10-18
+
+The NGS ranged metadata control matched complete local header/details with6HTTP206
+requests/1821bodybytes. The prototype then screened40objects within243requests/
+205526bodybytes, allobserved98348/rootgates; these remainpartial metadata evidence.
+The new portable ngs_range_details.py has15passing focused tests, including an
+authentic offline fixture, bounded inflation/sector refusal and strict transport
+guards. It does not validate fullobjects or infer unitmapping. No rawplayers,
+chat or donors are published. Dedicated2OSfixtureCI is separate fromliveproof.
+
+Two selected Nova objects were fully acquired with their observed strongETag
+If-Match and independently protocol-roundtripped. Other-map downloads total
+10,717,617bytes under12MiB. The8other-map controls nowyield256equal comparisons/
+79sharedtypes and44combined candidatepairs, includingHeroNova75->112 and
+NovaHoloClone89->743. The earlier33Dragon-only decisions remain unchanged; the
+11othermapcandidates do not establishcrossmap independence/automaticeligibility.
+BothNova trackers have noNovaHoloCloneCloaked typename. One exact98348NovaXML
+file declaresNovaHoloClone withcloakbehaviors; itsCloaked absence remainsfile-only.
+
+scan_collection_alias_nodes.py has30focused tests and independent19/20-file
+realdata checks. It requires every5575XML descriptor/hash/metric plus fresh
+version/IsPtr metadata before claimingcomplete coverage. It keeps207collection
+queries separate from4fixed CUnitidentity queries, noalias/effectivecatalog
+orownership mapping. The forthcoming exact-extraction workflow outcome must
+be recorded separately; subset absence flags remainnull. RawXML staystemporary.
+
+The concurrent completeoffline regression workflow was preserved during rebase.
+Run39159375110 at3d786d2 passed801tests/38modules in each of3prepared lanes,
+with explicit skips:38Linux,4Windows/pwsh,4Windows/PowerShell5.1. This broader
+prepared-corpus evidence does not erase the earlier local limited result and
+does not prove engineplayback. R8 remains latest; no client was launched.

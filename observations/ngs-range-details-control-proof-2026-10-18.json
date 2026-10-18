@@ -1,0 +1,65 @@
+{
+  "format": "hots-ngs-range-details-local-control-proof-v1",
+  "source_url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-16-2026_Protectors_of_Shakuras_vs_Crowd_Control_Syndicate_Sky_Temple.stormReplay",
+  "complete_local_sha256": "afcf49a656068f343173fc79afff2d2ebf15066f531cb192382cdba9d1ea3272",
+  "object_bytes": 1357323,
+  "stable_etag": "\"0177084783b016e161d0c4a7d90b0a0a\"",
+  "requests": [
+    {
+      "start": 0,
+      "end": 15,
+      "if_match_supplied": false,
+      "status": 206,
+      "body_bytes": 16
+    },
+    {
+      "start": 16,
+      "end": 134,
+      "if_match_supplied": true,
+      "status": 206,
+      "body_bytes": 119
+    },
+    {
+      "start": 1024,
+      "end": 1055,
+      "if_match_supplied": true,
+      "status": 206,
+      "body_bytes": 32
+    },
+    {
+      "start": 1356587,
+      "end": 1357098,
+      "if_match_supplied": true,
+      "status": 206,
+      "body_bytes": 512
+    },
+    {
+      "start": 1357099,
+      "end": 1357322,
+      "if_match_supplied": true,
+      "status": 206,
+      "body_bytes": 224
+    },
+    {
+      "start": 2256,
+      "end": 3173,
+      "if_match_supplied": true,
+      "status": 206,
+      "body_bytes": 918
+    }
+  ],
+  "request_count": 6,
+  "response_bytes": 1821,
+  "header_equal": true,
+  "details_equal": true,
+  "details_bytes": 1232,
+  "details_sha256": "570d27e3f489fa49c99a4792ea0b062040515785a267ef035bbfb948874146d9",
+  "mpyq_version": "0.2.5",
+  "mpyq_source_sha256": "526d3e3ae1f5254d8bc32e0248b0763ec5998f350846876c38794373983bed78",
+  "response_byte_cap": 131072,
+  "request_cap": 24,
+  "raw_details_or_private_players_written": false,
+  "full_object_fallback": false,
+  "client_launched": false,
+  "replay_modified": false
+}

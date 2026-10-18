@@ -1,0 +1,42 @@
+{
+  "format": "hots-complete-offline-regressions-current-evidence-v1",
+  "run_url": "https://github.com/lisu188/hots-replay-recovery/actions/runs/39159375110",
+  "head_sha": "3d786d2f",
+  "status": "completed",
+  "conclusion": "success",
+  "modules": 38,
+  "jobs": [
+    {
+      "id": 117769251348,
+      "name": "Windows / PowerShell 7 complete corpus",
+      "tests_discovered_and_run": 801,
+      "skipped": 4,
+      "failures": 0,
+      "errors": 0,
+      "conclusion": "success"
+    },
+    {
+      "id": 117769251389,
+      "name": "Linux complete corpus",
+      "tests_discovered_and_run": 801,
+      "skipped": 38,
+      "failures": 0,
+      "errors": 0,
+      "conclusion": "success"
+    },
+    {
+      "id": 117769251392,
+      "name": "Windows / PowerShell 5.1 complete corpus",
+      "tests_discovered_and_run": 801,
+      "skipped": 4,
+      "failures": 0,
+      "errors": 0,
+      "conclusion": "success"
+    }
+  ],
+  "scope": "Prepared historical fixture corpus and platform-specific offline tests; skips remain explicit in run artifacts.",
+  "supersedes_scope_limited_local_result": false,
+  "old_local_failure_report_retained": true,
+  "client_launched": false,
+  "whole_replay_upgrade_or_playback_proven": false
+}

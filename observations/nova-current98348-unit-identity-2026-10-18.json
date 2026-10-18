@@ -1,0 +1,230 @@
+{
+  "NovaHoloCloneCloaked_CUnit_declared_in_this_file": false,
+  "alias_or_replacement_proven": false,
+  "bytes": 185225,
+  "declarations": [
+    {
+      "catalog_child_ordinal": 443,
+      "direct_behavior_ability_weapon_references": [
+        {
+          "attributes": {
+            "Link": "move"
+          },
+          "child_ordinal": 12,
+          "tag": "AbilArray"
+        },
+        {
+          "attributes": {
+            "Link": "HoldFire"
+          },
+          "child_ordinal": 13,
+          "tag": "AbilArray"
+        },
+        {
+          "attributes": {
+            "Link": "attack"
+          },
+          "child_ordinal": 14,
+          "tag": "AbilArray"
+        },
+        {
+          "attributes": {
+            "Link": "NovaSnipeStorm"
+          },
+          "child_ordinal": 15,
+          "tag": "AbilArray"
+        },
+        {
+          "attributes": {
+            "Link": "NovaPinningShot"
+          },
+          "child_ordinal": 16,
+          "tag": "AbilArray"
+        },
+        {
+          "attributes": {
+            "Link": "NovaAttackDummy"
+          },
+          "child_ordinal": 17,
+          "tag": "AbilArray"
+        },
+        {
+          "attributes": {
+            "Link": "NovaPermanentCloak"
+          },
+          "child_ordinal": 18,
+          "tag": "BehaviorArray"
+        },
+        {
+          "attributes": {
+            "Link": "NovaPermanentCloakDisableController"
+          },
+          "child_ordinal": 19,
+          "tag": "BehaviorArray"
+        },
+        {
+          "attributes": {
+            "Link": "ExcellentMana"
+          },
+          "child_ordinal": 20,
+          "tag": "BehaviorArray"
+        },
+        {
+          "attributes": {
+            "Link": "HeroGenericPermanentHallucinationFlag"
+          },
+          "child_ordinal": 21,
+          "tag": "BehaviorArray"
+        },
+        {
+          "attributes": {
+            "Link": "VitalAliasUnitTracker"
+          },
+          "child_ordinal": 22,
+          "tag": "BehaviorArray"
+        },
+        {
+          "attributes": {
+            "Link": "NovaHoloDecoyXPGlobeFinder"
+          },
+          "child_ordinal": 23,
+          "tag": "BehaviorArray"
+        },
+        {
+          "attributes": {
+            "Link": "HoloCloneWeapon"
+          },
+          "child_ordinal": 24,
+          "tag": "WeaponArray"
+        }
+      ],
+      "id": "NovaHoloClone",
+      "kind": "CUnit",
+      "parent": "StormBasicHeroicUnit"
+    }
+  ],
+  "exact_attribute_references": [
+    {
+      "attribute": "value",
+      "node_kind": "PlacementModel",
+      "owner_id": "NovaHoloClonePlacementUnit",
+      "owner_kind": "CActorUnit",
+      "value": "NovaHoloClone"
+    },
+    {
+      "attribute": "id",
+      "node_kind": "CActorUnit",
+      "owner_id": "NovaHoloClone",
+      "owner_kind": "CActorUnit",
+      "value": "NovaHoloClone"
+    },
+    {
+      "attribute": "unitName",
+      "node_kind": "CActorUnit",
+      "owner_id": "NovaHoloClone",
+      "owner_kind": "CActorUnit",
+      "value": "NovaHoloClone"
+    },
+    {
+      "attribute": "value",
+      "node_kind": "SpawnUnit",
+      "owner_id": "NovaHoloCloneCreateUnit",
+      "owner_kind": "CEffectCreateUnit",
+      "value": "NovaHoloClone"
+    },
+    {
+      "attribute": "value",
+      "node_kind": "Entry",
+      "owner_id": "Nova",
+      "owner_kind": "CHero",
+      "value": "NovaHoloClone"
+    },
+    {
+      "attribute": "value",
+      "node_kind": "Entry",
+      "owner_id": "Nova",
+      "owner_kind": "CHero",
+      "value": "NovaHoloClone"
+    },
+    {
+      "attribute": "value",
+      "node_kind": "Entry",
+      "owner_id": "Nova",
+      "owner_kind": "CHero",
+      "value": "NovaHoloClone"
+    },
+    {
+      "attribute": "value",
+      "node_kind": "Entry",
+      "owner_id": "NovaNewRemoteDelivery",
+      "owner_kind": "CTalent",
+      "value": "NovaHoloClone"
+    },
+    {
+      "attribute": "id",
+      "node_kind": "CUnit",
+      "owner_id": "NovaHoloClone",
+      "owner_kind": "CUnit",
+      "value": "NovaHoloClone"
+    },
+    {
+      "attribute": "value",
+      "node_kind": "Value",
+      "owner_id": "CasterIsNotNovaHoloDecoy",
+      "owner_kind": "CValidatorUnitType",
+      "value": "NovaHoloClone"
+    },
+    {
+      "attribute": "value",
+      "node_kind": "Value",
+      "owner_id": "IsNovaHoloClone",
+      "owner_kind": "CValidatorUnitType",
+      "value": "NovaHoloClone"
+    },
+    {
+      "attribute": "value",
+      "node_kind": "Value",
+      "owner_id": "TargetIsNotHoloClone",
+      "owner_kind": "CValidatorUnitType",
+      "value": "NovaHoloClone"
+    },
+    {
+      "attribute": "value",
+      "node_kind": "Value",
+      "owner_id": "CasterIsNotNovaHoloClone",
+      "owner_kind": "CValidatorUnitType",
+      "value": "NovaHoloClone"
+    },
+    {
+      "attribute": "value",
+      "node_kind": "Value",
+      "owner_id": "CasterIsNovaHoloDecoy",
+      "owner_kind": "CValidatorUnitType",
+      "value": "NovaHoloClone"
+    }
+  ],
+  "exact_current98348_XML_digest_match": true,
+  "format": "hots-single-current-XML-Nova-unit-identity-observation-v1",
+  "limitations": [
+    "Only this one exact current XML file was inspected; a missing declaration here is not proof of global catalog absence.",
+    "NovaHoloClone directly names NovaPermanentCloak behaviors, but this does not prove a replacement or alias for NovaHoloCloneCloaked.",
+    "No numeric current unit link is inferred from static XML."
+  ],
+  "parent_or_catalog_order_resolved": false,
+  "parser_metrics": {
+    "tracked_declarations": 5,
+    "xml_elements": 3058,
+    "xml_root": "Catalog"
+  },
+  "player_data_exported": false,
+  "projection_sha256": "c8f03ddbc859feb5c2dc1836761201b5e6fea4632ce0325817abdd7299c8aa22",
+  "public_source": "https://raw.githubusercontent.com/jamiephan/HeroesOfTheStorm_Gamedata/e3e57cb640f18002a4feebe3872cefe04072d814/mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/novadata/novadata.xml",
+  "raw_XML_exported": false,
+  "relative_game_path": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/novadata/novadata.xml",
+  "requested_name_byte_occurrences": {
+    "NovaHoloClone": 66,
+    "NovaHoloCloneCloaked": 0
+  },
+  "sha256": "721086138a01ff65659616556ea617c85f968d8bd28ec888fa6397bde0ce113a",
+  "target_version": "2.57.0.98348"
+}
