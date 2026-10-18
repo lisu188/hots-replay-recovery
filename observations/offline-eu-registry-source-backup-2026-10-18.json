@@ -1,0 +1,73 @@
+{
+  "archive": "hots-offline-eu-registry-4897152.zip",
+  "bundle_and_zip_inventory_verified": true,
+  "bytes": 153056,
+  "client_launched": false,
+  "cloud_upload_succeeded": true,
+  "commit": "489715268fe9d46a189d9730753cbb5873ef47e9",
+  "contains_new_replay": false,
+  "format": "hots-offline-EU-registry-source-backup-verification-v1",
+  "fresh_cloud_quick_xor_matches": true,
+  "fresh_cloud_size_matches": true,
+  "full_upgrade_complete": false,
+  "independent_remote_sha256_verified": false,
+  "latest_source_ci": {
+    "conclusion": "success",
+    "jobs": [
+      {
+        "actual_EU_stream_and_complete_lobby_check_executed": true,
+        "actual_NGS_range_fixture_executed": true,
+        "conclusion": "success",
+        "declared_skips": 4,
+        "discovered_tests": 858,
+        "id": 117783710964,
+        "lane": "Windows / PowerShell 5.1 complete corpus",
+        "modules": 41,
+        "tests_run": 858,
+        "unexpected_skips": 0,
+        "url": "https://github.com/lisu188/hots-replay-recovery/actions/runs/39164232875/job/117783710964"
+      },
+      {
+        "actual_EU_stream_and_complete_lobby_check_executed": true,
+        "actual_NGS_range_fixture_executed": true,
+        "conclusion": "success",
+        "declared_skips": 38,
+        "discovered_tests": 858,
+        "id": 117783711037,
+        "lane": "Linux complete corpus",
+        "modules": 41,
+        "tests_run": 858,
+        "unexpected_skips": 0,
+        "url": "https://github.com/lisu188/hots-replay-recovery/actions/runs/39164232875/job/117783711037"
+      },
+      {
+        "actual_EU_stream_and_complete_lobby_check_executed": true,
+        "actual_NGS_range_fixture_executed": true,
+        "conclusion": "success",
+        "declared_skips": 4,
+        "discovered_tests": 858,
+        "id": 117783711374,
+        "lane": "Windows / PowerShell 7 complete corpus",
+        "modules": 41,
+        "tests_run": 858,
+        "unexpected_skips": 0,
+        "url": "https://github.com/lisu188/hots-replay-recovery/actions/runs/39164232875/job/117783711374"
+      }
+    ],
+    "run_id": 39164232875,
+    "tested_commit": "489715268fe9d46a189d9730753cbb5873ef47e9",
+    "url": "https://github.com/lisu188/hots-replay-recovery/actions/runs/39164232875"
+  },
+  "local_and_cloud_quick_xor_hash": "98iaeAmpGKhuJjv/Hs+kwT3HAAI=",
+  "quick_xor_is_cryptographic": false,
+  "required_base_commit": "1e31a3dbb50709b1e3bbf984bb1bf5ea401d832c",
+  "requires_previous_archives": [
+    "hots-offline-98348-7e23a6a.zip",
+    "hots-offline-validation-6fffca8.zip",
+    "hots-offline-static-catalog-ac52010.zip",
+    "hots-offline-evidence-1e31a3d.zip"
+  ],
+  "sha256": "994e33a81453735cec45326d0bf63f3fb6543db63703b55fb6652f0510bc6820",
+  "upload_destination": "Existing HotS Replay Upgrade - TEN_GREYMANE / checkpoint-2026-10-18-offline folder",
+  "verified_at_utc": "2026-10-18 20:46:41 UTC"
+}

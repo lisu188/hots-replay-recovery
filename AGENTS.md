@@ -435,3 +435,22 @@ Full offline CI now includes boundedSHAcurrentEUfixture+stream/lobby/package
 checks and12newregistrytests; record its remote result separately. Remaining27
 NGScandidates screened within162HTTP206/48405bytes; no newNova/Abathur.
 R8unchanged, no client launched, full upgrade remains unfinished.
+
+
+## Verified EU/registry CI and source backup through 4897152 - 2026-10-18
+
+Complete offline regression39164232875 passed published4897152 on Linux and
+both Windows PowerShell lanes:858discovered/run tests in41modules, no failures,
+errors or unexpected skips; declared38Linux/4Windows skips. The actual pinned
+NGS range fixture ran. Each lane also acquired and verified the genuine current
+EU fixture:144708game/99message/6181tracker events, complete lobby EOF and exact
+four shared package tuples through HeroesData169992/65663.
+
+The verified small source delta1e31a3d..4897152 and sanitized docs/projections are
+saved as hots-offline-eu-registry-4897152.zip (153056bytes, SHA256
+994e33a81453735cec45326d0bf63f3fb6543db63703b55fb6652f0510bc6820).
+Existing OneDrive checkpoint upload succeeded; fresh cloud size and QuickXor
+match local bytes. No independent remote SHA256 claim. Keep all four required
+earlier archives in its manifest. This later bookkeeping receipt is outside
+the backed-up4897152source. No new replay or client outcome; R8 and the
+unfinished offline-only full-upgrade objective remain unchanged.
