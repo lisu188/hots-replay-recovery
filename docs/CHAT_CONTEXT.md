@@ -153,9 +153,10 @@ patching third-party schema code.
 Inputs are restored from tracked Base64 with checked SHA-256 values. No checkpoint,
 map, capture package, game installation or publication workflow is changed.
 
-After rebasing onto the concurrent collection-license checkpoint `843a158`, the
-source inventory contains 34 existing root test modules and 743 test methods.
-The runner adds eleven gate tests in a 35th module. It discovers every root
+The initial source inventory at `6fffca8` contained 33 root test modules and
+710 test methods. The runner adds eleven gate tests. Combined CI at concurrent
+main `1b92e78` discovered 37 root modules and 788 tests, including later collection,
+arcade and full-tail tests automatically. It discovers every root
 `test_*.py`, refuses empty modules, import errors and zero tests, and reports
 actual module/test counts, failure/error IDs and skip reasons. Missing fixtures,
 parser dependencies and Linux StormLib fail setup instead of silently skipping.
@@ -186,3 +187,14 @@ not replay bytes, player/chat data, donor files, generated maps or capture ZIPs.
 Local validation of the runner's eleven isolated gate tests passed on Windows
 and Linux.
 The complete corpus is assigned to hosted CI; workflow creation is not a CI pass.
+
+
+The first combined Python 3.11 run (`39157117628`, PR head `6bacef1` merged with
+main `1b92e78`) passed Linux. Both Windows lanes exposed a canonical schema-byte
+mismatch in existing `ActualR4Tests.setUpClass`: 788 discovered, 781 run, one
+error and four declared skips. The gate correctly rejected that partial run.
+Job-level Git configuration now disables autocrlf before both checkouts, retaining
+exact pinned upstream bytes on Windows instead of weakening the hash guard.
+Current main is merged into the PR without force-pushing or changing other work.
+The corrected three-job outcome must be recorded separately; the failed Windows
+runs are not passing CI.
