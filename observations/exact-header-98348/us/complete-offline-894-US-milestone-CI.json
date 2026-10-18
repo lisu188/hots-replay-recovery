@@ -1,0 +1,54 @@
+{
+  "format": "hots-complete-offline-US-recovery-milestone-CI-v1",
+  "run_id": 39167582802,
+  "url": "https://github.com/lisu188/hots-replay-recovery/actions/runs/39167582802",
+  "tested_commit": "537555bb439ed1abd6ecbb94fe112f43c6e235a3",
+  "conclusion": "success",
+  "jobs": [
+    {
+      "id": 117793651776,
+      "lane": "Linux complete corpus",
+      "conclusion": "success",
+      "modules": 44,
+      "tests_discovered": 894,
+      "tests_run": 894,
+      "declared_skips": 38,
+      "unexpected_skips": 0,
+      "actual_NGS_fixture_test_executed": true,
+      "current_EU_streams_and_lobby_check_executed": true,
+      "url": "https://github.com/lisu188/hots-replay-recovery/actions/runs/39167582802/job/117793651776"
+    },
+    {
+      "id": 117793652043,
+      "lane": "Windows / PowerShell 7 complete corpus",
+      "conclusion": "success",
+      "modules": 44,
+      "tests_discovered": 894,
+      "tests_run": 894,
+      "declared_skips": 4,
+      "unexpected_skips": 0,
+      "actual_NGS_fixture_test_executed": true,
+      "current_EU_streams_and_lobby_check_executed": true,
+      "url": "https://github.com/lisu188/hots-replay-recovery/actions/runs/39167582802/job/117793652043"
+    },
+    {
+      "id": 117793652110,
+      "lane": "Windows / PowerShell 5.1 complete corpus",
+      "conclusion": "success",
+      "modules": 44,
+      "tests_discovered": 894,
+      "tests_run": 894,
+      "declared_skips": 4,
+      "unexpected_skips": 0,
+      "actual_NGS_fixture_test_executed": true,
+      "current_EU_streams_and_lobby_check_executed": true,
+      "url": "https://github.com/lisu188/hots-replay-recovery/actions/runs/39167582802/job/117793652110"
+    }
+  ],
+  "real_EU_US_header_reconstruction_executed_in_CI": false,
+  "availability20_tests_executed_in_CI": false,
+  "local_proof_scope": "Frozen regional full-header control/trials+independent RAM repeats;20 availability tests+15-case JSON-exact independent recomputations. Raw inputs are not hosted fixtures.",
+  "client_launched": false,
+  "new_replay_generated": false,
+  "full_upgrade_complete": false
+}

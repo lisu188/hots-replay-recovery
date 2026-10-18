@@ -544,3 +544,22 @@ bijections remain; workingoccupiedrelation8709120 andordinal0. Fourcurrentcases
 haveextraoccupiedobservers. No patterns/IDs/vectors emitted orownership/default/
 unique-slot mapping inferred. Local20tests separatefrom894CI sourcebaseline.
 Original/R8 unchanged, no client ornewreplay; fullupgrade unfinished.
+
+
+## VerifiedUS-recovery milestone CI and cloud source backup - 2026-10-18
+
+Complete offline39167582802 at537555b passed894tests/44modules on all3lanes,
+38declaredLinux/4Windows skips, no failures/errors/unexpectedskips; actualNGS
+fixture andcurrentEUcore/lobby checks executed. Realheader reconstruction and
+20availability tests remain explicitlyLOCAL evidence, independently reproduced.
+
+Source/evidence deltaf97e57a..537555b is in hots-offline-US-header-source-537555b.zip,
+112081bytes SHA2562b4507c7931a8cd2de8b9ec96be12b441c549d235017fa6b354db7abf12928e3.
+ExistingOneDriveupload succeeded withfreshsize/QuickXor match; no independent
+remoteSHA256. It contains no rawheaders,replays orplayerrecords. Preserve prior
+sixrequiredsource archives. Two exactUSheaders also havea45278-byte LOCALzip,
+SHA2562cc529da11bf69b98c21309a93ee007cd97c95107031a0cc15fa7e35ccba555b;
+no cloudrawuploadattempt. EarlierEU3headerarchivepermissionquestion remains
+pending; neverretryitsrejectedcloudpayloadwithoutapproval. Thislaterreceipt
+isoutsidebackedup537555b. Original/R8 hashes recheckedunchanged.5/6USheaders,
+DataMod42afe unresolved, no client/newreplay/full-upgradecompletion.

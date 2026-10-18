@@ -1,0 +1,21 @@
+{
+  "format": "hots-US-header-source-only-cloud-backup-v1",
+  "source_commit": "537555bb439ed1abd6ecbb94fe112f43c6e235a3",
+  "archive": "hots-offline-US-header-source-537555b.zip",
+  "bytes": 112081,
+  "sha256": "2b4507c7931a8cd2de8b9ec96be12b441c549d235017fa6b354db7abf12928e3",
+  "local_and_cloud_quick_xor_hash": "qErLPJSBxu87agvIzTZHicsG/94=",
+  "source_bundle_and_zip_inventory_verified": true,
+  "fresh_cloud_size_matches": true,
+  "fresh_cloud_quick_xor_matches": true,
+  "independent_remote_sha256_verified": false,
+  "quick_xor_is_cryptographic": false,
+  "cloud_upload_succeeded": true,
+  "contains_static_headers": false,
+  "contains_replay_or_player_records": false,
+  "requires_previous_source_archive": "hots-offline-exact-header-source-f97e57a.zip",
+  "raw_US_headers_kept_local": true,
+  "new_replay_generated": false,
+  "client_launched": false,
+  "full_upgrade_complete": false
+}
