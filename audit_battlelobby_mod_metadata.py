@@ -12,6 +12,7 @@ import json
 from pathlib import Path
 
 from battlelobby_attribute_layer import MAX_MEMBER_BYTES, LayerError, _Reader, _Writer, _read, decode_layer
+from battlelobby_arcade_sections import read_localization_key, read_section, summary as section_summary
 
 HISTORICAL_COMMIT = '85625327fd5623368410e5270a7eeb4869b40af9'
 CURRENT_COMMIT = 'd381dd9c273205c0fd7ac402c75eef98c6fa6c78'
@@ -122,41 +123,37 @@ def audit_metadata(raw: bytes, start_bit: int, profile: str) -> dict:
             raise LayerError('Mod metadata CAFEBABE sentinel is invalid')
         entry['cafebabe_valid'] = True
         opaque(28); opaque(36)
-        entry['hero_flag_bit'] = audit.position
-        has_hero = bool(read(1))
-        entry['has_hero_metadata'] = has_hero
-        if has_hero:
-            opaque(11)
-            if legacy:
-                fixed_start = audit.position
-                fixed_a93, fixed_b4, fixed_a8x5 = read(4), read(4), read(4)
-                payload = opaque(447)  # primary2: 120 + 150 + 29 + 148
-                fixed_a23 = read(7)
-                entry['historical_fixed_fields'] = dict(start_bit=fixed_start,
-                    a93=fixed_a93, b4=fixed_b4, a8x5=fixed_a8x5, a23=fixed_a23,
-                    unknown_payload=payload, authoritative_choice_semantics=False,
-                    current_mapping_established=False)
-            else:
+        entry['static_arcade_info_flag_bit'] = audit.position
+        has_arcade = bool(read(1))
+        entry['has_static_arcade_info'] = has_arcade
+        if has_arcade:
+            # Two empty auxiliary arrays in the authenticated/observed cases.
+            # Their individual count widths remain outside this narrow proof.
+            if opaque(11)['set_bits']:
+                raise LayerError('Nonempty auxiliary arcade arrays are outside the observed profiles')
+            entry['arcade_auxiliary_arrays_observed_empty'] = True
+            for name in ('game_info_screenshots', 'how_to_play_screenshots'):
                 count = read(4)
-                entry['current_a93_record_count'] = count
-                for _ in range(count): opaque(93)
-                opaque(4)
-                tag_bit = audit.position
-                tag = read(4)
-                if tag > 5:
-                    raise LayerError('Unsupported current hero-choice tag')
-                entry['current_choice'] = dict(bit=tag_bit, tag=tag, payload_bits=400 if tag == 5 else 0)
-                if tag == 5: opaque(400)
-                count = read(7)
-                entry['current_a23_record_count'] = count
-                for _ in range(count): opaque(23)
-            opaque(11)
-            if read(1): opaque(70)
-            read(1)
+                entry[name + '_count'] = count
+                for _ in range(count):
+                    opaque(70)  # Picture: index6 + top/left/height/width16.
+                    read_localization_key(read)
+            entry['how_to_play_section_start_bit'] = audit.position
+            section = read_section(read)
+            entry['how_to_play_section_end_bit'] = audit.position
+            entry['how_to_play_sections'] = section_summary(section)
+            entry['patch_note_section_start_bit'] = audit.position
+            section = read_section(read)
+            entry['patch_note_section_end_bit'] = audit.position
+            entry['patch_note_sections'] = section_summary(section)
+            entry['has_map_icon'] = bool(read(1))
+            if entry['has_map_icon']: opaque(70)
+            if read(1):
+                raise LayerError('Nonempty arcade tutorial link is outside the observed profiles')
             count = read(5)
-            entry['hero_id_count'] = count
+            entry['matchmaker_tag_count'] = count
             for _ in range(count): read(32)
-            opaque(23)
+            read_localization_key(read)
         count = read(6)
         entry['dependency_count'] = count
         for _ in range(count): dependency_pairs.append((read(32), read(32)))
@@ -175,7 +172,9 @@ def audit_metadata(raw: bytes, start_bit: int, profile: str) -> dict:
     for _ in range(count): audit.blob(40, (b's2mh',))
     end = audit.position
     audit.finish()
-    return dict(format='hots-battlelobby-mod-metadata-audit-v1', profile=profile,
+    return dict(format='hots-battlelobby-mod-metadata-audit-v2', profile=profile,
+        profile_label_is_backward_compatible=True,
+        arcade_section_interpretation='counted-section-headers-and-localized-items',
         member_bytes=len(raw), member_sha256=sha256(raw), start_bit=start_bit,
         mod_metadata_end_bit=metadata_end, terminal_handles_end_bit=end,
         section_bytes=(end-start_bit)//8, section_sha256=sha256(raw[start_bit//8:end//8]),
@@ -183,7 +182,7 @@ def audit_metadata(raw: bytes, start_bit: int, profile: str) -> dict:
         header_unknown128=header128, legacy_extra_three_bits=extra,
         used_mod_count=len(used_mods), mod_metadata_count=len(entries), terminal_s2mh_count=count,
         repeated_mod_identities_valid=True, dependency_identifier_components_resolved=True,
-        dependency_offset_fields_preserved=True, dependency_offsets_semantically_validated=False,
+        dependency_version_fields_preserved=True, dependency_version_resolution_semantics_validated=False,
         dependency_pairs_sha256=sha256(b''.join(value.to_bytes(4, 'big') for pair in dependency_pairs for value in pair)),
         entries=entries, same_profile_full_member_roundtrip_exact=True,
         numeric_and_blob_fields_observed=audit.field_count,
@@ -205,6 +204,8 @@ def source_provenance():
     return dict(historical_version_mapping_url=historical+'version%20list.md',
         historical_source_url=historical+'2.txt', historical_later_comparison_url=historical+'5.txt',
         current_source_url=f'https://github.com/HeroesToolChest/Heroes.StormReplayParser/blob/{CURRENT_COMMIT}/Heroes.StormReplayParser/MpqFiles/ReplayServerBattlelobby.cs',
+        named_arcade_source_url='https://github.com/sc2-arcade-watcher/s2mdec/blob/b48c60a697b12ae1dc8681a2d42ce313958ce94a/s2m.go#L571-L610',
+        historical_fixed447_interpretation_superseded_by_authenticated_arrays=True,
         schemas_are_community_reverse_engineered=True,
         modern_reference_builds_are_separate_evidence=True)
 
@@ -227,10 +228,10 @@ def main(argv=None):
         result = audit_member(_read(member), attribute_profile, metadata_profile)
         result['id'] = label
         results.append(result)
-    output = dict(format='hots-battlelobby-mod-metadata-diagnosis-v1',
+    output = dict(format='hots-battlelobby-mod-metadata-diagnosis-v2',
                   sources=source_provenance(), results=results,
                   no_replay_or_member_written=True,
-                  conclusion='Historical fixed hero payloads have no established semantics-preserving current mapping')
+                  conclusion='Static arcade sections use counted header/item arrays; package-version coherence and full replay compatibility remain separate')
     with args.report.open('x', encoding='utf-8', newline='\n') as stream:
         json.dump(output, stream, indent=2)
         stream.write('\n')

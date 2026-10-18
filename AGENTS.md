@@ -170,3 +170,32 @@ the official live98348 manifest, extractor version and actual named Version plus
 IsPtr=false extracted metadata before publishing measured results. Its first
 remote outcome must be recorded separately. Local33tests ran32passed/1Windows
 synthetic-symlink skip. No client is launched; R8 remains the latest replay.
+
+
+## Named static arrays and complete member coverage — 2026-10-18
+
+`docs/AUTHENTICATED_ARCADE_SECTIONS_2026-10-18.md` supersedes the old447-bit
+unknown-hero interpretation above. All five original s2mh headers were fetched
+from Blizzard's current depot endpoint and SHA256-verified. Package id/version
+and extraDependencies match. Two headers' howToPlaySections numerically reproduce
+the member bits: genuine four-bit array count3, three80-bit headers and nine
+localized items. The unchanged community C# reader misreads this as choice3.
+Neither47-bit deletion nor3-to5 retagging is justified. New audits use generic
+counted arrays for both profiles. Original reports remain historical evidence.
+
+R8's old map archive handle still conflicts with its newer dependency prefix.
+Only three current US package headers were acquired; the other three returned404,
+and EU requests for all six US hashes returned404. Current observed arrays are
+not relabeled authenticated header bindings when exact headers are unavailable.
+Twelve current controls have identical static mod sections despite different
+selected hero rosters; region-specific package equivalence is not established.
+
+`docs/BATTLELOBBY_TAIL_2026-10-18.md` covers the remaining suffix through strict
+EOF and full-member byte reconstruction. All14 actual fixtures (original,R8,
+12current controls) pass private identity/slot and both random-seed crosschecks.
+Local focused tests:28mod/arcade+20tail+23attribute=71. Remote results for the
+expanded workflow must be recorded separately. The174-to198-bit player block
+remains opaque in every pinned source; no insertion/default is proven. Full
+tail serialization coverage is not a cross-profile migration, full parser
+acceptance or deterministic compatibility. R8 remains the latest replay. Keep
+the offline-only instruction and full replay upgrade objective active.
