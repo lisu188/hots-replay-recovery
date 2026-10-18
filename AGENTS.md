@@ -61,3 +61,31 @@ J2 export was found. Preserve the old J2 package and its 98285 identity; do not
 label unmeasured 98348 catalogs or copied anchors as verified. Next obtain an
 authorized native-client result and genuine current-build reference/capture;
 retain all old sync data and the full-match recovery objective.
+
+
+## Offline current-reference checkpoint — 2026-10-18
+
+Read `docs/OFFLINE_CURRENT_COMPATIBILITY_2026-10-18.md` and
+`observations/offline-eight-current-references-2026-10-18.json` as newer additive
+state. Eight genuine public NGS Dragon Shire replays now verify executable,
+base and data build 98348, with exact observed core-stream round-trips using
+the canonical pinned Blizzard 96477 schema. This supersedes the earlier
+no-current-reference-acquired state; Heroes Profile's separate 403 outcomes
+remain valid. Public source URLs and hashes are retained; raw donors and
+player/chat contents are not published.
+
+The independent unmodified .NET reader fully accepts Stormblessed, encounters
+a pregame mapper mismatch on Protectors, and fails in R8 battlelobby attribute
+definitions. Its isolated core readers complete on all three and agree with
+Python event counts; this is not full parser acceptance for R8 or Protectors.
+R8 retains old attribute count/index widths after its dependency-prefix update.
+Investigate reversible, source-preserving transcoding; never copy donor
+attribute catalogs, defaults, player identities or sync data.
+
+All eight controls agree on mod checksum 13528913; R8 still declares 2276260760.
+The map checksum and observed dependency paths agree with current controls.
+Catalog mappings remain partial and ambiguity must remain explicit. The
+historical J2 launch did run B98348, then ended during loading without an
+observed export or established cause. The user now requests offline testing
+without running the client; continue with that constraint. R8 remains the
+latest replay and no new playback or simulation compatibility is established.

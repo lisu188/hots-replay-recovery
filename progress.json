@@ -696,6 +696,18 @@
     "latest_replay_id": "98285-resumable-r8",
     "new_replay_generated": false,
     "client_playback_validated": false,
-    "real_current_reference_acquired": false
+    "real_current_reference_acquired": true
+  },
+  "offline_current_reference_checkpoint_2026_10_18": {
+    "all_observed_core_stream_roundtrips": true,
+    "client_launched_for_offline_tests": false,
+    "client_playback_validated": false,
+    "documentation": "docs/OFFLINE_CURRENT_COMPATIBILITY_2026-10-18.md",
+    "genuine_98348_dragon_reference_count": 8,
+    "independent_reader_count_agreement": true,
+    "new_replay_generated": false,
+    "observation": "observations/offline-eight-current-references-2026-10-18.json",
+    "r8_full_independent_reader_acceptance": false,
+    "r8_known_failure": "Legacy battlelobby attribute value-count and index widths"
   }
 }

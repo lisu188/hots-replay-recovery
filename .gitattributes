@@ -3,3 +3,4 @@
 *.jsonl text eol=lf
 *.py text eol=lf
 *.md text eol=lf
+scripts/read_independent_replay.ps1 text eol=lf

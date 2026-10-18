@@ -1,0 +1,396 @@
+{
+  "ability_identity_mapping_proven": false,
+  "all_references_map_file_sync_checksum": 886294905,
+  "all_references_mod_file_sync_checksum": 13528913,
+  "all_references_root_key": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+  "candidate_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+  "candidate_vs_first_two_references": [
+    {
+      "blocking_reasons": [
+        "same_version",
+        "same_data_build",
+        "same_root_key"
+      ],
+      "candidate_only_dependencies": [],
+      "candidate_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "checks": {
+        "independent_file": true,
+        "not_known_experiment": true,
+        "same_data_build": false,
+        "same_map_dimensions": true,
+        "same_map_title": true,
+        "same_replay_compatibility_hash": true,
+        "same_root_key": false,
+        "same_version": false
+      },
+      "checksum_transplant_validated": false,
+      "checksums": {
+        "map_file_sync_checksum": {
+          "candidate": 886294905,
+          "equal": true,
+          "reference": 886294905
+        },
+        "mod_file_sync_checksum": {
+          "candidate": 2276260760,
+          "equal": false,
+          "reference": 13528913
+        }
+      },
+      "client_playback_validated": false,
+      "eligible_for_same_map_investigation": false,
+      "format": "hots-mod-data-comparison-v1",
+      "ordered_dependencies_equal": true,
+      "reference_only_dependencies": [],
+      "reference_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+      "shared_prefix_count": 6,
+      "simulation_compatibility_validated": false,
+      "warning": "Eligibility is only a prerequisite for investigation. Do not treat copying expected checksums as porting the map or game rules."
+    },
+    {
+      "blocking_reasons": [
+        "same_version",
+        "same_data_build",
+        "same_root_key"
+      ],
+      "candidate_only_dependencies": [],
+      "candidate_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "checks": {
+        "independent_file": true,
+        "not_known_experiment": true,
+        "same_data_build": false,
+        "same_map_dimensions": true,
+        "same_map_title": true,
+        "same_replay_compatibility_hash": true,
+        "same_root_key": false,
+        "same_version": false
+      },
+      "checksum_transplant_validated": false,
+      "checksums": {
+        "map_file_sync_checksum": {
+          "candidate": 886294905,
+          "equal": true,
+          "reference": 886294905
+        },
+        "mod_file_sync_checksum": {
+          "candidate": 2276260760,
+          "equal": false,
+          "reference": 13528913
+        }
+      },
+      "client_playback_validated": false,
+      "eligible_for_same_map_investigation": false,
+      "format": "hots-mod-data-comparison-v1",
+      "ordered_dependencies_equal": true,
+      "reference_only_dependencies": [],
+      "reference_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+      "shared_prefix_count": 6,
+      "simulation_compatibility_validated": false,
+      "warning": "Eligibility is only a prerequisite for investigation. Do not treat copying expected checksums as porting the map or game rules."
+    }
+  ],
+  "catalog_complete": false,
+  "catalog_mapping_evidence": "observations/ngs-eight-reference-catalog-comparison-2026-10-18.json",
+  "client_launched_for_offline_tests": false,
+  "client_playback_validated": false,
+  "date": "2026-10-18",
+  "first_three_container_and_resumable_checks": [
+    {
+      "file_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "full_native_archive_verification": false,
+      "independent_mpyq_payloads_equal": true,
+      "member_count": 14,
+      "resumable": {
+        "bytes": 935,
+        "modern_layout_roundtrip": true,
+        "records": 65
+      }
+    },
+    {
+      "file_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+      "full_native_archive_verification": false,
+      "independent_mpyq_payloads_equal": true,
+      "member_count": 14,
+      "resumable": {
+        "bytes": 284,
+        "modern_layout_roundtrip": true,
+        "records": 21
+      }
+    },
+    {
+      "file_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+      "full_native_archive_verification": false,
+      "independent_mpyq_payloads_equal": true,
+      "member_count": 14,
+      "resumable": {
+        "bytes": 459,
+        "modern_layout_roundtrip": true,
+        "records": 30
+      }
+    }
+  ],
+  "format": "hots-eight-current-reference-offline-checkpoint-v1",
+  "independent_reader_evidence": "observations/independent-reader-2026-10-18.json",
+  "limitations": [
+    "The pinned official 96477 schema exactly round-trips these observed 98348 payloads, not all possible 98348 events.",
+    "Independent reader counts agree; full event-payload semantic equality was not independently compared.",
+    "Public API parsing succeeds for Stormblessed, fails in a mapper for Protectors, and fails in legacy battlelobby attributes for R8.",
+    "Map dependency paths and map checksum agree, but R8 has stale target metadata and mod checksum.",
+    "Name/index observations do not resolve all old unit links, abilities, unit allocation, original rules, or sync semantics.",
+    "Public raw replays, player names and chat contents are not published."
+  ],
+  "map_title": "Dragon Shire",
+  "original_catalog_entries_equal_r8": true,
+  "original_sync_payload_preserved_r8": true,
+  "reference_count": 8,
+  "references": [
+    {
+      "bytes": 1113273,
+      "data_build": 98348,
+      "observed_payload_roundtrip": true,
+      "schema_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+      "sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+      "streams": {
+        "game": {
+          "count": 154012,
+          "sha256": "8fe55ded03f0351290beba9f8d2b519c549d1cf32fd7bec7d04205a71510b5ee"
+        },
+        "message": {
+          "count": 135,
+          "sha256": "959c368afc0f9ba65dfde4321fe1a0c362e14bed88e9079d8ea96ffd1544981f"
+        },
+        "tracker": {
+          "count": 7155,
+          "sha256": "aac1ee0b170eef3f4178c7269778f762b61d5ddff3a3d03af3184aa610640b8d"
+        }
+      },
+      "url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-16-2026_Protectors_of_Aiur_vs_Pepegas_on_Ice_Dragon_Shire.stormReplay",
+      "version": {
+        "m_baseBuild": 98348,
+        "m_build": 98348,
+        "m_flags": 1,
+        "m_major": 2,
+        "m_minor": 57,
+        "m_revision": 0
+      }
+    },
+    {
+      "bytes": 1544389,
+      "data_build": 98348,
+      "observed_payload_roundtrip": true,
+      "schema_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+      "sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+      "streams": {
+        "game": {
+          "count": 211947,
+          "sha256": "9ffd36eb1dd1d467bf456e2c4ab51e97d4b3437dd690bcad81f5f6e440757fe5"
+        },
+        "message": {
+          "count": 203,
+          "sha256": "60304be1f4818e021fee6987ac5412119ac37d149eea7badce25717c677c9b18"
+        },
+        "tracker": {
+          "count": 9519,
+          "sha256": "152fa91c7a0db6a83d718e6d8f70ad1af86035a7a971493d7055688be8de49fc"
+        }
+      },
+      "url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-16-2026_Hat_saika_and_r_vs_Stormblessed_Dragon_Shire.stormReplay",
+      "version": {
+        "m_baseBuild": 98348,
+        "m_build": 98348,
+        "m_flags": 1,
+        "m_major": 2,
+        "m_minor": 57,
+        "m_revision": 0
+      }
+    },
+    {
+      "bytes": 1161874,
+      "data_build": 98348,
+      "observed_payload_roundtrip": true,
+      "schema_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+      "sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+      "streams": {
+        "game": {
+          "count": 155242,
+          "sha256": "e83eae7da8008b5263abe73c60aab5ef9af03096935707fb12752f1392bdaffd"
+        },
+        "message": {
+          "count": 124,
+          "sha256": "6b7b69734b728cf872bfb61002984bf448c2a2369a868440df23e2269d76ae22"
+        },
+        "tracker": {
+          "count": 6759,
+          "sha256": "b64208e7282c219214defe1175bf78b210c1891594b1a744add3c2cf7756dec3"
+        }
+      },
+      "url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-15-2026_Bunker_Fun_Time_vs_Macro_Machines_Dragon_Shire.stormReplay",
+      "version": {
+        "m_baseBuild": 98348,
+        "m_build": 98348,
+        "m_flags": 1,
+        "m_major": 2,
+        "m_minor": 57,
+        "m_revision": 0
+      }
+    },
+    {
+      "bytes": 1240746,
+      "data_build": 98348,
+      "observed_payload_roundtrip": true,
+      "schema_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+      "sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+      "streams": {
+        "game": {
+          "count": 185410,
+          "sha256": "90732412a482ea008ebf99469c1892ab2b36f876aa40060648b33de72c11d452"
+        },
+        "message": {
+          "count": 167,
+          "sha256": "957da11ac9f5087c4a9c143815b2df0086340b451bffe5957f94478af7eb5b9b"
+        },
+        "tracker": {
+          "count": 9301,
+          "sha256": "5c0785aa6297fc5ece0afb43d2f88b2deaab3afc8278beedc9fad3e831b565ef"
+        }
+      },
+      "url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-14-2026_gillyShark_at_Bingo_night_vs_Tricky_Gooses_Dragon_Shire.stormReplay",
+      "version": {
+        "m_baseBuild": 98348,
+        "m_build": 98348,
+        "m_flags": 1,
+        "m_major": 2,
+        "m_minor": 57,
+        "m_revision": 0
+      }
+    },
+    {
+      "bytes": 750402,
+      "data_build": 98348,
+      "observed_payload_roundtrip": true,
+      "schema_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+      "sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+      "streams": {
+        "game": {
+          "count": 97639,
+          "sha256": "2a6c720487fe31eecc299ec2093935f0c89e7c29ac35f4206cabe0161329fe9e"
+        },
+        "message": {
+          "count": 107,
+          "sha256": "994a245463f459ec1f30751eb9d7f72adf8ab19fb4d26092b6d6fbbcbdf53cde"
+        },
+        "tracker": {
+          "count": 6639,
+          "sha256": "cbc1fc35b8e34b98d0061739340c6f8feb24ebf579fa5c884c4ca36184963bf1"
+        }
+      },
+      "url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-14-2026_Xul_Gin_Distillery_vs_Tactical_Feed_Dragon_Shire.stormReplay",
+      "version": {
+        "m_baseBuild": 98348,
+        "m_build": 98348,
+        "m_flags": 1,
+        "m_major": 2,
+        "m_minor": 57,
+        "m_revision": 0
+      }
+    },
+    {
+      "bytes": 1250999,
+      "data_build": 98348,
+      "observed_payload_roundtrip": true,
+      "schema_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+      "sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+      "streams": {
+        "game": {
+          "count": 201357,
+          "sha256": "24ab440e4af8eef3d55713fb9e77ec796cb2b092724480856af9605b2b6bf821"
+        },
+        "message": {
+          "count": 145,
+          "sha256": "f65fa8b50957112dfa0558690797f0b281ffd5ad0f346031ff7c19d27bdf6094"
+        },
+        "tracker": {
+          "count": 10917,
+          "sha256": "4c9b43ed3fb414e7bd65c10df7c2d456b29cb42dc39aafc4fd27419cee0a3cfe"
+        }
+      },
+      "url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-13-2026_Gen_M_Esports_vs_The_Part_Timers_Dragon_Shire.stormReplay",
+      "version": {
+        "m_baseBuild": 98348,
+        "m_build": 98348,
+        "m_flags": 1,
+        "m_major": 2,
+        "m_minor": 57,
+        "m_revision": 0
+      }
+    },
+    {
+      "bytes": 1482008,
+      "data_build": 98348,
+      "observed_payload_roundtrip": true,
+      "schema_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+      "sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+      "streams": {
+        "game": {
+          "count": 236362,
+          "sha256": "6a08faa8a777b7e95c768becafeb91dc354deb613b08b9570e7202d5c6f4324c"
+        },
+        "message": {
+          "count": 114,
+          "sha256": "968a657a57172134e5cc6b988be86cf3237c05555170fd2d3ca0581922825099"
+        },
+        "tracker": {
+          "count": 12486,
+          "sha256": "92f34f3ac520c349f3ba6dff012598bea91eb4317e4c8e302bcf8ec535cde742"
+        }
+      },
+      "url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-12-2026_Hot_s_Dads_vs_The_Part_Timers_Dragon_Shire.stormReplay",
+      "version": {
+        "m_baseBuild": 98348,
+        "m_build": 98348,
+        "m_flags": 1,
+        "m_major": 2,
+        "m_minor": 57,
+        "m_revision": 0
+      }
+    },
+    {
+      "bytes": 1090464,
+      "data_build": 98348,
+      "observed_payload_roundtrip": true,
+      "schema_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+      "sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+      "streams": {
+        "game": {
+          "count": 148479,
+          "sha256": "ba7e0014bd0cacfec8a57ad1b2d9e0b6ddee22c306d8c37a582399f4a045139f"
+        },
+        "message": {
+          "count": 120,
+          "sha256": "cf665156eff65450973ef9cd2cdb4be5b3285ba8f0b96de7f4b50657b8950f82"
+        },
+        "tracker": {
+          "count": 8594,
+          "sha256": "541d5fdecd50da91232f0f99398100d48d0fb7fbea236c9ff0bb0dd311d2efe4"
+        }
+      },
+      "url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-8-2026_Bunker_Fun_Time_vs_Bork_Side_of_the_Moon_Dragon_Shire.stormReplay",
+      "version": {
+        "m_baseBuild": 98348,
+        "m_build": 98348,
+        "m_flags": 1,
+        "m_major": 2,
+        "m_minor": 57,
+        "m_revision": 0
+      }
+    }
+  ],
+  "replay_modified": false,
+  "simulation_compatibility_proven": false,
+  "source_api": "https://www.nexusgamingseries.org/api/schedule/fetch/reported/matches",
+  "source_api_payload": {
+    "season": 22
+  },
+  "source_repository_commit": "4c4ad4d5a1d0a5d27bec8c2a4dd839ee6cefbc8d",
+  "target_build": 98348,
+  "total_downloaded_replay_bytes": 9634155
+}

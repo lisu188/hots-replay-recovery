@@ -1,0 +1,3048 @@
+{
+  "automatically_applied": false,
+  "canonical_blizzard_schema_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+  "client_playback_validated": false,
+  "format": "hots-ngs-eight-reference-catalog-comparison-v1",
+  "formerly_unambiguous_now_blocked_names": [],
+  "limitations": [
+    "A pair requires one source link, one observed target link and unique reverse names on both sides.",
+    "Lifecycle labels sharing a numeric link remain blocked even with multiple recordings.",
+    "Observed name/link agreement does not establish ability semantics, runtime object allocation or deterministic replay equivalence.",
+    "All eight controls are actual downloaded Dragon Shire replays; no synthetic catalog fixture is used."
+  ],
+  "new_unambiguous_unit_type_names": [
+    "AnubarakBeetleSpitBeetle",
+    "HeroAnubarak",
+    "HeroBarbarian",
+    "HeroGreymane",
+    "TownCannonTowerL3Standalone",
+    "TownGateL3VerticalRightVisionBlocked",
+    "TownWallRadial17L3",
+    "TownWallRadial18L3"
+  ],
+  "observed_at_utc": "2026-10-18T17:54:57.224280+00:00",
+  "observed_pair_count": 33,
+  "proposed_unit_mapping": {
+    "automatically_applied": false,
+    "complete_catalog": false,
+    "cross_map_catalog_independence_proven": false,
+    "observed_pairs": [
+      {
+        "after": 500,
+        "before": 737,
+        "unit_type": "AnubarakBeetleSpitBeetle"
+      },
+      {
+        "after": 159,
+        "before": 378,
+        "unit_type": "CatapultMinion"
+      },
+      {
+        "after": 201,
+        "before": 421,
+        "unit_type": "FootmanMinion"
+      },
+      {
+        "after": 468,
+        "before": 739,
+        "unit_type": "HeroAnubarak"
+      },
+      {
+        "after": 542,
+        "before": 63,
+        "unit_type": "HeroBarbarian"
+      },
+      {
+        "after": 470,
+        "before": 64,
+        "unit_type": "HeroFaerieDragon"
+      },
+      {
+        "after": 614,
+        "before": 807,
+        "unit_type": "HeroGreymane"
+      },
+      {
+        "after": 336,
+        "before": 595,
+        "unit_type": "KingsCore"
+      },
+      {
+        "after": 290,
+        "before": 527,
+        "unit_type": "MercDefenderMeleeKnight"
+      },
+      {
+        "after": 291,
+        "before": 528,
+        "unit_type": "MercDefenderRangedMage"
+      },
+      {
+        "after": 315,
+        "before": 559,
+        "unit_type": "MercDefenderSiegeGiant"
+      },
+      {
+        "after": 318,
+        "before": 562,
+        "unit_type": "MercLanerMeleeKnight"
+      },
+      {
+        "after": 292,
+        "before": 529,
+        "unit_type": "MercLanerRangedMage"
+      },
+      {
+        "after": 314,
+        "before": 558,
+        "unit_type": "MercLanerSiegeGiant"
+      },
+      {
+        "after": 335,
+        "before": 594,
+        "unit_type": "RangedMinion"
+      },
+      {
+        "after": 297,
+        "before": 534,
+        "unit_type": "TownCannonTowerL3Standalone"
+      },
+      {
+        "after": 264,
+        "before": 499,
+        "unit_type": "TownGateL215BLUR"
+      },
+      {
+        "after": 267,
+        "before": 502,
+        "unit_type": "TownGateL215BRUL"
+      },
+      {
+        "after": 281,
+        "before": 516,
+        "unit_type": "TownGateL3BRULTRVisionBlocked"
+      },
+      {
+        "after": 275,
+        "before": 510,
+        "unit_type": "TownGateL3VerticalRightVisionBlocked"
+      },
+      {
+        "after": 299,
+        "before": 537,
+        "unit_type": "TownMoonwellL2"
+      },
+      {
+        "after": 300,
+        "before": 538,
+        "unit_type": "TownMoonwellL3"
+      },
+      {
+        "after": 324,
+        "before": 569,
+        "unit_type": "TownTownHallL2"
+      },
+      {
+        "after": 310,
+        "before": 548,
+        "unit_type": "TownTownHallL3"
+      },
+      {
+        "after": 387,
+        "before": 648,
+        "unit_type": "TownWallRadial14L3"
+      },
+      {
+        "after": 396,
+        "before": 657,
+        "unit_type": "TownWallRadial17L3"
+      },
+      {
+        "after": 398,
+        "before": 659,
+        "unit_type": "TownWallRadial18L2"
+      },
+      {
+        "after": 399,
+        "before": 660,
+        "unit_type": "TownWallRadial18L3"
+      },
+      {
+        "after": 401,
+        "before": 662,
+        "unit_type": "TownWallRadial19L2"
+      },
+      {
+        "after": 356,
+        "before": 617,
+        "unit_type": "TownWallRadial4L2"
+      },
+      {
+        "after": 359,
+        "before": 620,
+        "unit_type": "TownWallRadial5L2"
+      },
+      {
+        "after": 29,
+        "before": 67,
+        "unit_type": "VehicleDragon"
+      },
+      {
+        "after": 200,
+        "before": 420,
+        "unit_type": "WizardMinion"
+      }
+    ],
+    "unresolved": [
+      {
+        "reason": "not_observed_in_current_references",
+        "source_links": [
+          36
+        ],
+        "target_links": [],
+        "unit_type": "AbathurEvolvedMonstrosity"
+      },
+      {
+        "reason": "not_observed_in_current_references",
+        "source_links": [
+          33
+        ],
+        "target_links": [],
+        "unit_type": "AbathurLocustBombardStrain"
+      },
+      {
+        "reason": "not_observed_in_current_references",
+        "source_links": [
+          37
+        ],
+        "target_links": [],
+        "unit_type": "AbathurLocustNest"
+      },
+      {
+        "reason": "not_observed_in_current_references",
+        "source_links": [
+          32
+        ],
+        "target_links": [],
+        "unit_type": "AbathurLocustNormal"
+      },
+      {
+        "reason": "not_observed_in_current_references",
+        "source_links": [
+          302
+        ],
+        "target_links": [],
+        "unit_type": "AbathurSymbiote"
+      },
+      {
+        "reason": "not_observed_in_current_references",
+        "source_links": [
+          35
+        ],
+        "target_links": [],
+        "unit_type": "AbathurToxicNest"
+      },
+      {
+        "reason": "not_observed_in_current_references",
+        "source_links": [
+          60
+        ],
+        "target_links": [],
+        "unit_type": "HeroAbathur"
+      },
+      {
+        "reason": "not_observed_in_current_references",
+        "source_links": [
+          827
+        ],
+        "target_links": [],
+        "unit_type": "HeroKaelthas"
+      },
+      {
+        "reason": "not_observed_in_current_references",
+        "source_links": [
+          75
+        ],
+        "target_links": [],
+        "unit_type": "HeroNova"
+      },
+      {
+        "reason": "not_observed_in_current_references",
+        "source_links": [
+          84
+        ],
+        "target_links": [],
+        "unit_type": "HeroTyrande"
+      },
+      {
+        "reason": "not_observed_in_current_references",
+        "source_links": [
+          89
+        ],
+        "target_links": [],
+        "unit_type": "NovaHoloClone"
+      },
+      {
+        "reason": "not_observed_in_current_references",
+        "source_links": [
+          207
+        ],
+        "target_links": [],
+        "unit_type": "NovaHoloCloneCloaked"
+      },
+      {
+        "reason": "ambiguous_link_to_type",
+        "source_links": [
+          531
+        ],
+        "target_links": [
+          296
+        ],
+        "unit_type": "TownCannonTowerDead"
+      },
+      {
+        "reason": "ambiguous_link_to_type",
+        "source_links": [
+          531
+        ],
+        "target_links": [
+          294
+        ],
+        "unit_type": "TownCannonTowerL2"
+      },
+      {
+        "reason": "not_observed_in_current_references",
+        "source_links": [
+          532
+        ],
+        "target_links": [],
+        "unit_type": "TownCannonTowerL2Standalone"
+      },
+      {
+        "reason": "ambiguous_link_to_type",
+        "source_links": [
+          533
+        ],
+        "target_links": [
+          296
+        ],
+        "unit_type": "TownCannonTowerL3"
+      },
+      {
+        "reason": "not_observed_in_current_references",
+        "source_links": [
+          513
+        ],
+        "target_links": [],
+        "unit_type": "TownGateL3BLURBRVisionBlocked"
+      }
+    ]
+  },
+  "reference_count": 8,
+  "references": [
+    {
+      "build": 98348,
+      "inventory_file": "offline98348-cohort/ngs-20261016-protectors-dragon.unit-inventory.json",
+      "inventory_file_sha256": "1be459391ca638b4dca81bc3118b1616b103f3f02a2fcf663f7e086f8224055c",
+      "observed_payload_roundtrip": true,
+      "profile_file": "offline98348-cohort/ngs-20261016-protectors-dragon.profile.json",
+      "profile_file_sha256": "c17a1a9f0aa24000b7556379cf5274e59cf92824636ed63125f694406f5efa4f",
+      "public_url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-16-2026_Protectors_of_Aiur_vs_Pepegas_on_Ice_Dragon_Shire.stormReplay",
+      "replay_bytes": 1113273,
+      "replay_digest_verified": true,
+      "replay_file": "reference-donors/ngs-20261016-protectors-dragon.StormReplay",
+      "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+      "schema_file_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84"
+    },
+    {
+      "build": 98348,
+      "inventory_file": "offline98348-cohort/ngs-20261016-stormblessed-dragon.unit-inventory.json",
+      "inventory_file_sha256": "2b1a7b0932df625c6b4aa9113a186ac569197db5cdff021d229c3730ad6f73a8",
+      "observed_payload_roundtrip": true,
+      "profile_file": "offline98348-cohort/ngs-20261016-stormblessed-dragon.profile.json",
+      "profile_file_sha256": "d76b9a67ab39f4171a1eee8d19fbb129578cb211d82088f4b259ac755580a6c9",
+      "public_url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-16-2026_Hat_saika_and_r_vs_Stormblessed_Dragon_Shire.stormReplay",
+      "replay_bytes": 1544389,
+      "replay_digest_verified": true,
+      "replay_file": "reference-donors/ngs-20261016-stormblessed-dragon.StormReplay",
+      "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+      "schema_file_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84"
+    },
+    {
+      "build": 98348,
+      "inventory_file": "reference-donors/ngs-extra-01-20261015-dragon.StormReplay.unit-inventory.json",
+      "inventory_file_sha256": "31058be533247028e1ac3d3a5dbbe609ee8cf43ba9d317af5217d865da1c99b1",
+      "observed_payload_roundtrip": true,
+      "profile_file": "reference-donors/ngs-extra-01-20261015-dragon.StormReplay.profile.json",
+      "profile_file_sha256": "70dacf6b9f67b9dace7b7938d81f2ed2595a461630621a00279d0a336b20df87",
+      "public_url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-15-2026_Bunker_Fun_Time_vs_Macro_Machines_Dragon_Shire.stormReplay",
+      "replay_bytes": 1161874,
+      "replay_digest_verified": true,
+      "replay_file": "reference-donors/ngs-extra-01-20261015-dragon.StormReplay",
+      "replay_sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+      "schema_file_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84"
+    },
+    {
+      "build": 98348,
+      "inventory_file": "reference-donors/ngs-extra-02-20261014-dragon.StormReplay.unit-inventory.json",
+      "inventory_file_sha256": "8cca5fe863191a375d0adc2f6e381f6cc3c17cb0fb06a6acb9a25f9b4f529db5",
+      "observed_payload_roundtrip": true,
+      "profile_file": "reference-donors/ngs-extra-02-20261014-dragon.StormReplay.profile.json",
+      "profile_file_sha256": "2d562fc390e48ef72010e3081d217d9ce4833594f8a7df793b2c4cc2a33cd998",
+      "public_url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-14-2026_gillyShark_at_Bingo_night_vs_Tricky_Gooses_Dragon_Shire.stormReplay",
+      "replay_bytes": 1240746,
+      "replay_digest_verified": true,
+      "replay_file": "reference-donors/ngs-extra-02-20261014-dragon.StormReplay",
+      "replay_sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+      "schema_file_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84"
+    },
+    {
+      "build": 98348,
+      "inventory_file": "reference-donors/ngs-extra-03-20261014-dragon.StormReplay.unit-inventory.json",
+      "inventory_file_sha256": "2d577a90b431c36a8ec0dd2ae73c0a75803b64d61b87106aa73101deda4c13cc",
+      "observed_payload_roundtrip": true,
+      "profile_file": "reference-donors/ngs-extra-03-20261014-dragon.StormReplay.profile.json",
+      "profile_file_sha256": "dfb09d83dd8c4f8c5bd055a87a66088e3ff85ed2ee0a04487fe51ba28412e92e",
+      "public_url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-14-2026_Xul_Gin_Distillery_vs_Tactical_Feed_Dragon_Shire.stormReplay",
+      "replay_bytes": 750402,
+      "replay_digest_verified": true,
+      "replay_file": "reference-donors/ngs-extra-03-20261014-dragon.StormReplay",
+      "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+      "schema_file_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84"
+    },
+    {
+      "build": 98348,
+      "inventory_file": "reference-donors/ngs-extra-04-20261013-dragon.StormReplay.unit-inventory.json",
+      "inventory_file_sha256": "ad6f895bcd21d5c1b4a3e2ee73e7d09e62914103069c8571237601701e49a063",
+      "observed_payload_roundtrip": true,
+      "profile_file": "reference-donors/ngs-extra-04-20261013-dragon.StormReplay.profile.json",
+      "profile_file_sha256": "7176cf12f3f6c7ad71919f5a8b4899594d3dfd23a2ab56e5cd0475d9dcebb1c7",
+      "public_url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-13-2026_Gen_M_Esports_vs_The_Part_Timers_Dragon_Shire.stormReplay",
+      "replay_bytes": 1250999,
+      "replay_digest_verified": true,
+      "replay_file": "reference-donors/ngs-extra-04-20261013-dragon.StormReplay",
+      "replay_sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+      "schema_file_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84"
+    },
+    {
+      "build": 98348,
+      "inventory_file": "reference-donors/ngs-extra-05-20261012-dragon.StormReplay.unit-inventory.json",
+      "inventory_file_sha256": "6a70b614d89052ed7cb78768b267ba8fefd4679fbe91c0f342e7516a15c9af60",
+      "observed_payload_roundtrip": true,
+      "profile_file": "reference-donors/ngs-extra-05-20261012-dragon.StormReplay.profile.json",
+      "profile_file_sha256": "5072c639bd48e5f74ceb2121a3c3ba660272a989cbb77ec711e2ad3e3c149b3a",
+      "public_url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-12-2026_Hot_s_Dads_vs_The_Part_Timers_Dragon_Shire.stormReplay",
+      "replay_bytes": 1482008,
+      "replay_digest_verified": true,
+      "replay_file": "reference-donors/ngs-extra-05-20261012-dragon.StormReplay",
+      "replay_sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+      "schema_file_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84"
+    },
+    {
+      "build": 98348,
+      "inventory_file": "reference-donors/ngs-extra-06-20261008-dragon.StormReplay.unit-inventory.json",
+      "inventory_file_sha256": "cdec8f37a218b466424e83e07292b4685678411aa1922be74d078d64b2e35273",
+      "observed_payload_roundtrip": true,
+      "profile_file": "reference-donors/ngs-extra-06-20261008-dragon.StormReplay.profile.json",
+      "profile_file_sha256": "29d8f97fea994b919913612bda0b923ebdf49cacbd7b9b3a0c82de4fd090d2cc",
+      "public_url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-8-2026_Bunker_Fun_Time_vs_Bork_Side_of_the_Moon_Dragon_Shire.stormReplay",
+      "replay_bytes": 1090464,
+      "replay_digest_verified": true,
+      "replay_file": "reference-donors/ngs-extra-06-20261008-dragon.StormReplay",
+      "replay_sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+      "schema_file_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84"
+    }
+  ],
+  "replay_modified": false,
+  "sidecar_binding_limits": [
+    "Each replay is freshly SHA-256 checked against the recorded download and canonical profile.",
+    "Inventory sidecar hashes are recorded; inventories are reused from the prior actual replay analyses and are not regenerated here."
+  ],
+  "simulation_compatibility_validated": false,
+  "source": {
+    "build": 98285,
+    "inventory_file": "offline98348-cohort/TEN_GREYMANE_client98285_RESUMABLE_R8_PARTIAL.unit-inventory.json",
+    "inventory_file_sha256": "8ac9b02046036d8d165958d737e7f2f0d0da276f48df46a23791e1ee34643eba",
+    "observed_payload_roundtrip": true,
+    "profile_file": "offline98348-cohort/TEN_GREYMANE_client98285_RESUMABLE_R8_PARTIAL.profile.json",
+    "profile_file_sha256": "d10df5c1df5cfd78630fb539796e8f60779972b23aeeb161e69158fedf650b1c",
+    "replay_bytes": 2438570,
+    "replay_digest_verified": true,
+    "replay_file": "native-20261018/TEN_GREYMANE_client98285_RESUMABLE_R8_PARTIAL.StormReplay",
+    "replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+    "schema_file_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84"
+  },
+  "source_link_aliases": [
+    {
+      "source_link": 531,
+      "source_replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "unit_types": [
+        "TownCannonTowerDead",
+        "TownCannonTowerL2"
+      ]
+    }
+  ],
+  "source_unit_link_provenance": [
+    {
+      "decision": {
+        "reason": "not_observed_in_current_references",
+        "source_links": [
+          36
+        ],
+        "state": "unresolved",
+        "target_links": [],
+        "unit_type": "AbathurEvolvedMonstrosity"
+      },
+      "source_observations": [
+        {
+          "distinct_unit_instances": 6,
+          "fields": 191,
+          "link": 36
+        }
+      ],
+      "source_replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "target_observations": [],
+      "unit_type": "AbathurEvolvedMonstrosity"
+    },
+    {
+      "decision": {
+        "reason": "not_observed_in_current_references",
+        "source_links": [
+          33
+        ],
+        "state": "unresolved",
+        "target_links": [],
+        "unit_type": "AbathurLocustBombardStrain"
+      },
+      "source_observations": [
+        {
+          "distinct_unit_instances": 13,
+          "fields": 50,
+          "link": 33
+        }
+      ],
+      "source_replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "target_observations": [],
+      "unit_type": "AbathurLocustBombardStrain"
+    },
+    {
+      "decision": {
+        "reason": "not_observed_in_current_references",
+        "source_links": [
+          37
+        ],
+        "state": "unresolved",
+        "target_links": [],
+        "unit_type": "AbathurLocustNest"
+      },
+      "source_observations": [
+        {
+          "distinct_unit_instances": 1,
+          "fields": 18,
+          "link": 37
+        }
+      ],
+      "source_replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "target_observations": [],
+      "unit_type": "AbathurLocustNest"
+    },
+    {
+      "decision": {
+        "reason": "not_observed_in_current_references",
+        "source_links": [
+          32
+        ],
+        "state": "unresolved",
+        "target_links": [],
+        "unit_type": "AbathurLocustNormal"
+      },
+      "source_observations": [
+        {
+          "distinct_unit_instances": 11,
+          "fields": 17,
+          "link": 32
+        }
+      ],
+      "source_replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "target_observations": [],
+      "unit_type": "AbathurLocustNormal"
+    },
+    {
+      "decision": {
+        "reason": "not_observed_in_current_references",
+        "source_links": [
+          302
+        ],
+        "state": "unresolved",
+        "target_links": [],
+        "unit_type": "AbathurSymbiote"
+      },
+      "source_observations": [
+        {
+          "distinct_unit_instances": 69,
+          "fields": 69,
+          "link": 302
+        }
+      ],
+      "source_replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "target_observations": [],
+      "unit_type": "AbathurSymbiote"
+    },
+    {
+      "decision": {
+        "reason": "not_observed_in_current_references",
+        "source_links": [
+          35
+        ],
+        "state": "unresolved",
+        "target_links": [],
+        "unit_type": "AbathurToxicNest"
+      },
+      "source_observations": [
+        {
+          "distinct_unit_instances": 13,
+          "fields": 65,
+          "link": 35
+        }
+      ],
+      "source_replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "target_observations": [],
+      "unit_type": "AbathurToxicNest"
+    },
+    {
+      "decision": {
+        "after": 500,
+        "before": 737,
+        "state": "observed_unambiguous_pair",
+        "unit_type": "AnubarakBeetleSpitBeetle"
+      },
+      "source_observations": [
+        {
+          "distinct_unit_instances": 25,
+          "fields": 88,
+          "link": 737
+        }
+      ],
+      "source_replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "target_observations": [
+        {
+          "distinct_unit_instances": 10,
+          "fields": 15,
+          "inventory_file": "reference-donors/ngs-extra-03-20261014-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+          "target_link": 500
+        }
+      ],
+      "unit_type": "AnubarakBeetleSpitBeetle"
+    },
+    {
+      "decision": {
+        "after": 159,
+        "before": 378,
+        "state": "observed_unambiguous_pair",
+        "unit_type": "CatapultMinion"
+      },
+      "source_observations": [
+        {
+          "distinct_unit_instances": 1,
+          "fields": 3,
+          "link": 378
+        }
+      ],
+      "source_replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "target_observations": [
+        {
+          "distinct_unit_instances": 9,
+          "fields": 79,
+          "inventory_file": "offline98348-cohort/ngs-20261016-protectors-dragon.unit-inventory.json",
+          "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+          "target_link": 159
+        },
+        {
+          "distinct_unit_instances": 7,
+          "fields": 33,
+          "inventory_file": "offline98348-cohort/ngs-20261016-stormblessed-dragon.unit-inventory.json",
+          "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+          "target_link": 159
+        },
+        {
+          "distinct_unit_instances": 3,
+          "fields": 12,
+          "inventory_file": "reference-donors/ngs-extra-01-20261015-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+          "target_link": 159
+        },
+        {
+          "distinct_unit_instances": 18,
+          "fields": 106,
+          "inventory_file": "reference-donors/ngs-extra-02-20261014-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+          "target_link": 159
+        },
+        {
+          "distinct_unit_instances": 8,
+          "fields": 47,
+          "inventory_file": "reference-donors/ngs-extra-03-20261014-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+          "target_link": 159
+        },
+        {
+          "distinct_unit_instances": 23,
+          "fields": 164,
+          "inventory_file": "reference-donors/ngs-extra-04-20261013-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+          "target_link": 159
+        },
+        {
+          "distinct_unit_instances": 32,
+          "fields": 214,
+          "inventory_file": "reference-donors/ngs-extra-05-20261012-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+          "target_link": 159
+        },
+        {
+          "distinct_unit_instances": 9,
+          "fields": 57,
+          "inventory_file": "reference-donors/ngs-extra-06-20261008-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+          "target_link": 159
+        }
+      ],
+      "unit_type": "CatapultMinion"
+    },
+    {
+      "decision": {
+        "after": 201,
+        "before": 421,
+        "state": "observed_unambiguous_pair",
+        "unit_type": "FootmanMinion"
+      },
+      "source_observations": [
+        {
+          "distinct_unit_instances": 208,
+          "fields": 991,
+          "link": 421
+        }
+      ],
+      "source_replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "target_observations": [
+        {
+          "distinct_unit_instances": 161,
+          "fields": 322,
+          "inventory_file": "offline98348-cohort/ngs-20261016-protectors-dragon.unit-inventory.json",
+          "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+          "target_link": 201
+        },
+        {
+          "distinct_unit_instances": 201,
+          "fields": 347,
+          "inventory_file": "offline98348-cohort/ngs-20261016-stormblessed-dragon.unit-inventory.json",
+          "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+          "target_link": 201
+        },
+        {
+          "distinct_unit_instances": 162,
+          "fields": 275,
+          "inventory_file": "reference-donors/ngs-extra-01-20261015-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+          "target_link": 201
+        },
+        {
+          "distinct_unit_instances": 194,
+          "fields": 553,
+          "inventory_file": "reference-donors/ngs-extra-02-20261014-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+          "target_link": 201
+        },
+        {
+          "distinct_unit_instances": 123,
+          "fields": 240,
+          "inventory_file": "reference-donors/ngs-extra-03-20261014-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+          "target_link": 201
+        },
+        {
+          "distinct_unit_instances": 188,
+          "fields": 396,
+          "inventory_file": "reference-donors/ngs-extra-04-20261013-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+          "target_link": 201
+        },
+        {
+          "distinct_unit_instances": 232,
+          "fields": 642,
+          "inventory_file": "reference-donors/ngs-extra-05-20261012-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+          "target_link": 201
+        },
+        {
+          "distinct_unit_instances": 216,
+          "fields": 543,
+          "inventory_file": "reference-donors/ngs-extra-06-20261008-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+          "target_link": 201
+        }
+      ],
+      "unit_type": "FootmanMinion"
+    },
+    {
+      "decision": {
+        "reason": "not_observed_in_current_references",
+        "source_links": [
+          60
+        ],
+        "state": "unresolved",
+        "target_links": [],
+        "unit_type": "HeroAbathur"
+      },
+      "source_observations": [
+        {
+          "distinct_unit_instances": 1,
+          "fields": 39,
+          "link": 60
+        }
+      ],
+      "source_replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "target_observations": [],
+      "unit_type": "HeroAbathur"
+    },
+    {
+      "decision": {
+        "after": 468,
+        "before": 739,
+        "state": "observed_unambiguous_pair",
+        "unit_type": "HeroAnubarak"
+      },
+      "source_observations": [
+        {
+          "distinct_unit_instances": 1,
+          "fields": 791,
+          "link": 739
+        }
+      ],
+      "source_replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "target_observations": [
+        {
+          "distinct_unit_instances": 1,
+          "fields": 199,
+          "inventory_file": "reference-donors/ngs-extra-03-20261014-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+          "target_link": 468
+        }
+      ],
+      "unit_type": "HeroAnubarak"
+    },
+    {
+      "decision": {
+        "after": 542,
+        "before": 63,
+        "state": "observed_unambiguous_pair",
+        "unit_type": "HeroBarbarian"
+      },
+      "source_observations": [
+        {
+          "distinct_unit_instances": 1,
+          "fields": 710,
+          "link": 63
+        }
+      ],
+      "source_replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "target_observations": [
+        {
+          "distinct_unit_instances": 1,
+          "fields": 535,
+          "inventory_file": "reference-donors/ngs-extra-02-20261014-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+          "target_link": 542
+        },
+        {
+          "distinct_unit_instances": 1,
+          "fields": 220,
+          "inventory_file": "reference-donors/ngs-extra-06-20261008-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+          "target_link": 542
+        }
+      ],
+      "unit_type": "HeroBarbarian"
+    },
+    {
+      "decision": {
+        "after": 470,
+        "before": 64,
+        "state": "observed_unambiguous_pair",
+        "unit_type": "HeroFaerieDragon"
+      },
+      "source_observations": [
+        {
+          "distinct_unit_instances": 1,
+          "fields": 501,
+          "link": 64
+        }
+      ],
+      "source_replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "target_observations": [
+        {
+          "distinct_unit_instances": 1,
+          "fields": 68,
+          "inventory_file": "offline98348-cohort/ngs-20261016-protectors-dragon.unit-inventory.json",
+          "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+          "target_link": 470
+        },
+        {
+          "distinct_unit_instances": 1,
+          "fields": 90,
+          "inventory_file": "offline98348-cohort/ngs-20261016-stormblessed-dragon.unit-inventory.json",
+          "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+          "target_link": 470
+        }
+      ],
+      "unit_type": "HeroFaerieDragon"
+    },
+    {
+      "decision": {
+        "after": 614,
+        "before": 807,
+        "state": "observed_unambiguous_pair",
+        "unit_type": "HeroGreymane"
+      },
+      "source_observations": [
+        {
+          "distinct_unit_instances": 2,
+          "fields": 1083,
+          "link": 807
+        }
+      ],
+      "source_replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "target_observations": [
+        {
+          "distinct_unit_instances": 1,
+          "fields": 150,
+          "inventory_file": "reference-donors/ngs-extra-03-20261014-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+          "target_link": 614
+        }
+      ],
+      "unit_type": "HeroGreymane"
+    },
+    {
+      "decision": {
+        "reason": "not_observed_in_current_references",
+        "source_links": [
+          827
+        ],
+        "state": "unresolved",
+        "target_links": [],
+        "unit_type": "HeroKaelthas"
+      },
+      "source_observations": [
+        {
+          "distinct_unit_instances": 2,
+          "fields": 1066,
+          "link": 827
+        }
+      ],
+      "source_replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "target_observations": [],
+      "unit_type": "HeroKaelthas"
+    },
+    {
+      "decision": {
+        "reason": "not_observed_in_current_references",
+        "source_links": [
+          75
+        ],
+        "state": "unresolved",
+        "target_links": [],
+        "unit_type": "HeroNova"
+      },
+      "source_observations": [
+        {
+          "distinct_unit_instances": 1,
+          "fields": 202,
+          "link": 75
+        }
+      ],
+      "source_replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "target_observations": [],
+      "unit_type": "HeroNova"
+    },
+    {
+      "decision": {
+        "reason": "not_observed_in_current_references",
+        "source_links": [
+          84
+        ],
+        "state": "unresolved",
+        "target_links": [],
+        "unit_type": "HeroTyrande"
+      },
+      "source_observations": [
+        {
+          "distinct_unit_instances": 1,
+          "fields": 502,
+          "link": 84
+        }
+      ],
+      "source_replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "target_observations": [],
+      "unit_type": "HeroTyrande"
+    },
+    {
+      "decision": {
+        "after": 336,
+        "before": 595,
+        "state": "observed_unambiguous_pair",
+        "unit_type": "KingsCore"
+      },
+      "source_observations": [
+        {
+          "distinct_unit_instances": 1,
+          "fields": 235,
+          "link": 595
+        }
+      ],
+      "source_replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "target_observations": [
+        {
+          "distinct_unit_instances": 1,
+          "fields": 85,
+          "inventory_file": "offline98348-cohort/ngs-20261016-protectors-dragon.unit-inventory.json",
+          "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+          "target_link": 336
+        },
+        {
+          "distinct_unit_instances": 2,
+          "fields": 137,
+          "inventory_file": "offline98348-cohort/ngs-20261016-stormblessed-dragon.unit-inventory.json",
+          "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+          "target_link": 336
+        },
+        {
+          "distinct_unit_instances": 1,
+          "fields": 62,
+          "inventory_file": "reference-donors/ngs-extra-01-20261015-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+          "target_link": 336
+        },
+        {
+          "distinct_unit_instances": 1,
+          "fields": 82,
+          "inventory_file": "reference-donors/ngs-extra-02-20261014-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+          "target_link": 336
+        },
+        {
+          "distinct_unit_instances": 1,
+          "fields": 62,
+          "inventory_file": "reference-donors/ngs-extra-03-20261014-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+          "target_link": 336
+        },
+        {
+          "distinct_unit_instances": 1,
+          "fields": 88,
+          "inventory_file": "reference-donors/ngs-extra-04-20261013-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+          "target_link": 336
+        },
+        {
+          "distinct_unit_instances": 1,
+          "fields": 146,
+          "inventory_file": "reference-donors/ngs-extra-05-20261012-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+          "target_link": 336
+        },
+        {
+          "distinct_unit_instances": 1,
+          "fields": 112,
+          "inventory_file": "reference-donors/ngs-extra-06-20261008-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+          "target_link": 336
+        }
+      ],
+      "unit_type": "KingsCore"
+    },
+    {
+      "decision": {
+        "after": 290,
+        "before": 527,
+        "state": "observed_unambiguous_pair",
+        "unit_type": "MercDefenderMeleeKnight"
+      },
+      "source_observations": [
+        {
+          "distinct_unit_instances": 18,
+          "fields": 348,
+          "link": 527
+        }
+      ],
+      "source_replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "target_observations": [
+        {
+          "distinct_unit_instances": 19,
+          "fields": 267,
+          "inventory_file": "offline98348-cohort/ngs-20261016-protectors-dragon.unit-inventory.json",
+          "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+          "target_link": 290
+        },
+        {
+          "distinct_unit_instances": 33,
+          "fields": 280,
+          "inventory_file": "offline98348-cohort/ngs-20261016-stormblessed-dragon.unit-inventory.json",
+          "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+          "target_link": 290
+        },
+        {
+          "distinct_unit_instances": 15,
+          "fields": 148,
+          "inventory_file": "reference-donors/ngs-extra-01-20261015-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+          "target_link": 290
+        },
+        {
+          "distinct_unit_instances": 27,
+          "fields": 403,
+          "inventory_file": "reference-donors/ngs-extra-02-20261014-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+          "target_link": 290
+        },
+        {
+          "distinct_unit_instances": 24,
+          "fields": 262,
+          "inventory_file": "reference-donors/ngs-extra-03-20261014-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+          "target_link": 290
+        },
+        {
+          "distinct_unit_instances": 33,
+          "fields": 587,
+          "inventory_file": "reference-donors/ngs-extra-04-20261013-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+          "target_link": 290
+        },
+        {
+          "distinct_unit_instances": 36,
+          "fields": 713,
+          "inventory_file": "reference-donors/ngs-extra-05-20261012-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+          "target_link": 290
+        },
+        {
+          "distinct_unit_instances": 18,
+          "fields": 266,
+          "inventory_file": "reference-donors/ngs-extra-06-20261008-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+          "target_link": 290
+        }
+      ],
+      "unit_type": "MercDefenderMeleeKnight"
+    },
+    {
+      "decision": {
+        "after": 291,
+        "before": 528,
+        "state": "observed_unambiguous_pair",
+        "unit_type": "MercDefenderRangedMage"
+      },
+      "source_observations": [
+        {
+          "distinct_unit_instances": 6,
+          "fields": 236,
+          "link": 528
+        }
+      ],
+      "source_replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "target_observations": [
+        {
+          "distinct_unit_instances": 7,
+          "fields": 75,
+          "inventory_file": "offline98348-cohort/ngs-20261016-protectors-dragon.unit-inventory.json",
+          "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+          "target_link": 291
+        },
+        {
+          "distinct_unit_instances": 9,
+          "fields": 49,
+          "inventory_file": "offline98348-cohort/ngs-20261016-stormblessed-dragon.unit-inventory.json",
+          "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+          "target_link": 291
+        },
+        {
+          "distinct_unit_instances": 5,
+          "fields": 40,
+          "inventory_file": "reference-donors/ngs-extra-01-20261015-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+          "target_link": 291
+        },
+        {
+          "distinct_unit_instances": 9,
+          "fields": 110,
+          "inventory_file": "reference-donors/ngs-extra-02-20261014-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+          "target_link": 291
+        },
+        {
+          "distinct_unit_instances": 8,
+          "fields": 64,
+          "inventory_file": "reference-donors/ngs-extra-03-20261014-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+          "target_link": 291
+        },
+        {
+          "distinct_unit_instances": 11,
+          "fields": 208,
+          "inventory_file": "reference-donors/ngs-extra-04-20261013-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+          "target_link": 291
+        },
+        {
+          "distinct_unit_instances": 12,
+          "fields": 163,
+          "inventory_file": "reference-donors/ngs-extra-05-20261012-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+          "target_link": 291
+        },
+        {
+          "distinct_unit_instances": 6,
+          "fields": 81,
+          "inventory_file": "reference-donors/ngs-extra-06-20261008-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+          "target_link": 291
+        }
+      ],
+      "unit_type": "MercDefenderRangedMage"
+    },
+    {
+      "decision": {
+        "after": 315,
+        "before": 559,
+        "state": "observed_unambiguous_pair",
+        "unit_type": "MercDefenderSiegeGiant"
+      },
+      "source_observations": [
+        {
+          "distinct_unit_instances": 14,
+          "fields": 479,
+          "link": 559
+        }
+      ],
+      "source_replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "target_observations": [
+        {
+          "distinct_unit_instances": 16,
+          "fields": 238,
+          "inventory_file": "offline98348-cohort/ngs-20261016-protectors-dragon.unit-inventory.json",
+          "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+          "target_link": 315
+        },
+        {
+          "distinct_unit_instances": 20,
+          "fields": 173,
+          "inventory_file": "offline98348-cohort/ngs-20261016-stormblessed-dragon.unit-inventory.json",
+          "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+          "target_link": 315
+        },
+        {
+          "distinct_unit_instances": 18,
+          "fields": 210,
+          "inventory_file": "reference-donors/ngs-extra-01-20261015-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+          "target_link": 315
+        },
+        {
+          "distinct_unit_instances": 20,
+          "fields": 343,
+          "inventory_file": "reference-donors/ngs-extra-02-20261014-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+          "target_link": 315
+        },
+        {
+          "distinct_unit_instances": 14,
+          "fields": 190,
+          "inventory_file": "reference-donors/ngs-extra-03-20261014-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+          "target_link": 315
+        },
+        {
+          "distinct_unit_instances": 20,
+          "fields": 326,
+          "inventory_file": "reference-donors/ngs-extra-04-20261013-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+          "target_link": 315
+        },
+        {
+          "distinct_unit_instances": 18,
+          "fields": 398,
+          "inventory_file": "reference-donors/ngs-extra-05-20261012-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+          "target_link": 315
+        },
+        {
+          "distinct_unit_instances": 14,
+          "fields": 197,
+          "inventory_file": "reference-donors/ngs-extra-06-20261008-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+          "target_link": 315
+        }
+      ],
+      "unit_type": "MercDefenderSiegeGiant"
+    },
+    {
+      "decision": {
+        "after": 318,
+        "before": 562,
+        "state": "observed_unambiguous_pair",
+        "unit_type": "MercLanerMeleeKnight"
+      },
+      "source_observations": [
+        {
+          "distinct_unit_instances": 12,
+          "fields": 140,
+          "link": 562
+        }
+      ],
+      "source_replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "target_observations": [
+        {
+          "distinct_unit_instances": 18,
+          "fields": 141,
+          "inventory_file": "offline98348-cohort/ngs-20261016-protectors-dragon.unit-inventory.json",
+          "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+          "target_link": 318
+        },
+        {
+          "distinct_unit_instances": 21,
+          "fields": 137,
+          "inventory_file": "offline98348-cohort/ngs-20261016-stormblessed-dragon.unit-inventory.json",
+          "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+          "target_link": 318
+        },
+        {
+          "distinct_unit_instances": 11,
+          "fields": 48,
+          "inventory_file": "reference-donors/ngs-extra-01-20261015-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+          "target_link": 318
+        },
+        {
+          "distinct_unit_instances": 18,
+          "fields": 105,
+          "inventory_file": "reference-donors/ngs-extra-02-20261014-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+          "target_link": 318
+        },
+        {
+          "distinct_unit_instances": 19,
+          "fields": 84,
+          "inventory_file": "reference-donors/ngs-extra-03-20261014-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+          "target_link": 318
+        },
+        {
+          "distinct_unit_instances": 26,
+          "fields": 162,
+          "inventory_file": "reference-donors/ngs-extra-04-20261013-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+          "target_link": 318
+        },
+        {
+          "distinct_unit_instances": 22,
+          "fields": 134,
+          "inventory_file": "reference-donors/ngs-extra-05-20261012-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+          "target_link": 318
+        },
+        {
+          "distinct_unit_instances": 12,
+          "fields": 77,
+          "inventory_file": "reference-donors/ngs-extra-06-20261008-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+          "target_link": 318
+        }
+      ],
+      "unit_type": "MercLanerMeleeKnight"
+    },
+    {
+      "decision": {
+        "after": 292,
+        "before": 529,
+        "state": "observed_unambiguous_pair",
+        "unit_type": "MercLanerRangedMage"
+      },
+      "source_observations": [
+        {
+          "distinct_unit_instances": 6,
+          "fields": 64,
+          "link": 529
+        }
+      ],
+      "source_replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "target_observations": [
+        {
+          "distinct_unit_instances": 7,
+          "fields": 67,
+          "inventory_file": "offline98348-cohort/ngs-20261016-protectors-dragon.unit-inventory.json",
+          "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+          "target_link": 292
+        },
+        {
+          "distinct_unit_instances": 9,
+          "fields": 43,
+          "inventory_file": "offline98348-cohort/ngs-20261016-stormblessed-dragon.unit-inventory.json",
+          "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+          "target_link": 292
+        },
+        {
+          "distinct_unit_instances": 4,
+          "fields": 17,
+          "inventory_file": "reference-donors/ngs-extra-01-20261015-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+          "target_link": 292
+        },
+        {
+          "distinct_unit_instances": 7,
+          "fields": 58,
+          "inventory_file": "reference-donors/ngs-extra-02-20261014-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+          "target_link": 292
+        },
+        {
+          "distinct_unit_instances": 8,
+          "fields": 73,
+          "inventory_file": "reference-donors/ngs-extra-03-20261014-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+          "target_link": 292
+        },
+        {
+          "distinct_unit_instances": 11,
+          "fields": 129,
+          "inventory_file": "reference-donors/ngs-extra-04-20261013-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+          "target_link": 292
+        },
+        {
+          "distinct_unit_instances": 11,
+          "fields": 167,
+          "inventory_file": "reference-donors/ngs-extra-05-20261012-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+          "target_link": 292
+        },
+        {
+          "distinct_unit_instances": 4,
+          "fields": 23,
+          "inventory_file": "reference-donors/ngs-extra-06-20261008-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+          "target_link": 292
+        }
+      ],
+      "unit_type": "MercLanerRangedMage"
+    },
+    {
+      "decision": {
+        "after": 314,
+        "before": 558,
+        "state": "observed_unambiguous_pair",
+        "unit_type": "MercLanerSiegeGiant"
+      },
+      "source_observations": [
+        {
+          "distinct_unit_instances": 4,
+          "fields": 71,
+          "link": 558
+        }
+      ],
+      "source_replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "target_observations": [
+        {
+          "distinct_unit_instances": 16,
+          "fields": 83,
+          "inventory_file": "offline98348-cohort/ngs-20261016-protectors-dragon.unit-inventory.json",
+          "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+          "target_link": 314
+        },
+        {
+          "distinct_unit_instances": 18,
+          "fields": 91,
+          "inventory_file": "offline98348-cohort/ngs-20261016-stormblessed-dragon.unit-inventory.json",
+          "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+          "target_link": 314
+        },
+        {
+          "distinct_unit_instances": 15,
+          "fields": 72,
+          "inventory_file": "reference-donors/ngs-extra-01-20261015-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+          "target_link": 314
+        },
+        {
+          "distinct_unit_instances": 20,
+          "fields": 223,
+          "inventory_file": "reference-donors/ngs-extra-02-20261014-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+          "target_link": 314
+        },
+        {
+          "distinct_unit_instances": 12,
+          "fields": 131,
+          "inventory_file": "reference-donors/ngs-extra-03-20261014-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+          "target_link": 314
+        },
+        {
+          "distinct_unit_instances": 19,
+          "fields": 174,
+          "inventory_file": "reference-donors/ngs-extra-04-20261013-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+          "target_link": 314
+        },
+        {
+          "distinct_unit_instances": 18,
+          "fields": 205,
+          "inventory_file": "reference-donors/ngs-extra-05-20261012-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+          "target_link": 314
+        },
+        {
+          "distinct_unit_instances": 10,
+          "fields": 75,
+          "inventory_file": "reference-donors/ngs-extra-06-20261008-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+          "target_link": 314
+        }
+      ],
+      "unit_type": "MercLanerSiegeGiant"
+    },
+    {
+      "decision": {
+        "reason": "not_observed_in_current_references",
+        "source_links": [
+          89
+        ],
+        "state": "unresolved",
+        "target_links": [],
+        "unit_type": "NovaHoloClone"
+      },
+      "source_observations": [
+        {
+          "distinct_unit_instances": 1,
+          "fields": 1,
+          "link": 89
+        }
+      ],
+      "source_replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "target_observations": [],
+      "unit_type": "NovaHoloClone"
+    },
+    {
+      "decision": {
+        "reason": "not_observed_in_current_references",
+        "source_links": [
+          207
+        ],
+        "state": "unresolved",
+        "target_links": [],
+        "unit_type": "NovaHoloCloneCloaked"
+      },
+      "source_observations": [
+        {
+          "distinct_unit_instances": 2,
+          "fields": 31,
+          "link": 207
+        }
+      ],
+      "source_replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "target_observations": [],
+      "unit_type": "NovaHoloCloneCloaked"
+    },
+    {
+      "decision": {
+        "after": 335,
+        "before": 594,
+        "state": "observed_unambiguous_pair",
+        "unit_type": "RangedMinion"
+      },
+      "source_observations": [
+        {
+          "distinct_unit_instances": 269,
+          "fields": 1206,
+          "link": 594
+        }
+      ],
+      "source_replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "target_observations": [
+        {
+          "distinct_unit_instances": 234,
+          "fields": 583,
+          "inventory_file": "offline98348-cohort/ngs-20261016-protectors-dragon.unit-inventory.json",
+          "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+          "target_link": 335
+        },
+        {
+          "distinct_unit_instances": 274,
+          "fields": 532,
+          "inventory_file": "offline98348-cohort/ngs-20261016-stormblessed-dragon.unit-inventory.json",
+          "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+          "target_link": 335
+        },
+        {
+          "distinct_unit_instances": 216,
+          "fields": 418,
+          "inventory_file": "reference-donors/ngs-extra-01-20261015-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+          "target_link": 335
+        },
+        {
+          "distinct_unit_instances": 319,
+          "fields": 994,
+          "inventory_file": "reference-donors/ngs-extra-02-20261014-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+          "target_link": 335
+        },
+        {
+          "distinct_unit_instances": 191,
+          "fields": 422,
+          "inventory_file": "reference-donors/ngs-extra-03-20261014-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+          "target_link": 335
+        },
+        {
+          "distinct_unit_instances": 255,
+          "fields": 556,
+          "inventory_file": "reference-donors/ngs-extra-04-20261013-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+          "target_link": 335
+        },
+        {
+          "distinct_unit_instances": 295,
+          "fields": 779,
+          "inventory_file": "reference-donors/ngs-extra-05-20261012-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+          "target_link": 335
+        },
+        {
+          "distinct_unit_instances": 313,
+          "fields": 852,
+          "inventory_file": "reference-donors/ngs-extra-06-20261008-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+          "target_link": 335
+        }
+      ],
+      "unit_type": "RangedMinion"
+    },
+    {
+      "decision": {
+        "reason": "ambiguous_link_to_type",
+        "source_links": [
+          531
+        ],
+        "state": "unresolved",
+        "target_links": [
+          296
+        ],
+        "unit_type": "TownCannonTowerDead"
+      },
+      "source_observations": [
+        {
+          "distinct_unit_instances": 1,
+          "fields": 2,
+          "link": 531
+        }
+      ],
+      "source_replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "target_observations": [
+        {
+          "distinct_unit_instances": 1,
+          "fields": 1,
+          "inventory_file": "offline98348-cohort/ngs-20261016-stormblessed-dragon.unit-inventory.json",
+          "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+          "target_link": 296
+        },
+        {
+          "distinct_unit_instances": 1,
+          "fields": 1,
+          "inventory_file": "reference-donors/ngs-extra-04-20261013-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+          "target_link": 296
+        }
+      ],
+      "unit_type": "TownCannonTowerDead"
+    },
+    {
+      "decision": {
+        "reason": "ambiguous_link_to_type",
+        "source_links": [
+          531
+        ],
+        "state": "unresolved",
+        "target_links": [
+          294
+        ],
+        "unit_type": "TownCannonTowerL2"
+      },
+      "source_observations": [
+        {
+          "distinct_unit_instances": 12,
+          "fields": 407,
+          "link": 531
+        }
+      ],
+      "source_replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "target_observations": [
+        {
+          "distinct_unit_instances": 9,
+          "fields": 140,
+          "inventory_file": "offline98348-cohort/ngs-20261016-protectors-dragon.unit-inventory.json",
+          "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+          "target_link": 294
+        },
+        {
+          "distinct_unit_instances": 11,
+          "fields": 105,
+          "inventory_file": "offline98348-cohort/ngs-20261016-stormblessed-dragon.unit-inventory.json",
+          "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+          "target_link": 294
+        },
+        {
+          "distinct_unit_instances": 11,
+          "fields": 73,
+          "inventory_file": "reference-donors/ngs-extra-01-20261015-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+          "target_link": 294
+        },
+        {
+          "distinct_unit_instances": 10,
+          "fields": 249,
+          "inventory_file": "reference-donors/ngs-extra-02-20261014-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+          "target_link": 294
+        },
+        {
+          "distinct_unit_instances": 7,
+          "fields": 71,
+          "inventory_file": "reference-donors/ngs-extra-03-20261014-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+          "target_link": 294
+        },
+        {
+          "distinct_unit_instances": 9,
+          "fields": 141,
+          "inventory_file": "reference-donors/ngs-extra-04-20261013-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+          "target_link": 294
+        },
+        {
+          "distinct_unit_instances": 10,
+          "fields": 220,
+          "inventory_file": "reference-donors/ngs-extra-05-20261012-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+          "target_link": 294
+        },
+        {
+          "distinct_unit_instances": 9,
+          "fields": 119,
+          "inventory_file": "reference-donors/ngs-extra-06-20261008-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+          "target_link": 294
+        }
+      ],
+      "unit_type": "TownCannonTowerL2"
+    },
+    {
+      "decision": {
+        "reason": "not_observed_in_current_references",
+        "source_links": [
+          532
+        ],
+        "state": "unresolved",
+        "target_links": [],
+        "unit_type": "TownCannonTowerL2Standalone"
+      },
+      "source_observations": [
+        {
+          "distinct_unit_instances": 4,
+          "fields": 140,
+          "link": 532
+        }
+      ],
+      "source_replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "target_observations": [],
+      "unit_type": "TownCannonTowerL2Standalone"
+    },
+    {
+      "decision": {
+        "reason": "ambiguous_link_to_type",
+        "source_links": [
+          533
+        ],
+        "state": "unresolved",
+        "target_links": [
+          296
+        ],
+        "unit_type": "TownCannonTowerL3"
+      },
+      "source_observations": [
+        {
+          "distinct_unit_instances": 5,
+          "fields": 40,
+          "link": 533
+        }
+      ],
+      "source_replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "target_observations": [
+        {
+          "distinct_unit_instances": 3,
+          "fields": 14,
+          "inventory_file": "offline98348-cohort/ngs-20261016-protectors-dragon.unit-inventory.json",
+          "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+          "target_link": 296
+        },
+        {
+          "distinct_unit_instances": 4,
+          "fields": 62,
+          "inventory_file": "offline98348-cohort/ngs-20261016-stormblessed-dragon.unit-inventory.json",
+          "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+          "target_link": 296
+        },
+        {
+          "distinct_unit_instances": 4,
+          "fields": 52,
+          "inventory_file": "reference-donors/ngs-extra-01-20261015-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+          "target_link": 296
+        },
+        {
+          "distinct_unit_instances": 4,
+          "fields": 73,
+          "inventory_file": "reference-donors/ngs-extra-02-20261014-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+          "target_link": 296
+        },
+        {
+          "distinct_unit_instances": 4,
+          "fields": 73,
+          "inventory_file": "reference-donors/ngs-extra-03-20261014-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+          "target_link": 296
+        },
+        {
+          "distinct_unit_instances": 4,
+          "fields": 91,
+          "inventory_file": "reference-donors/ngs-extra-04-20261013-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+          "target_link": 296
+        },
+        {
+          "distinct_unit_instances": 5,
+          "fields": 98,
+          "inventory_file": "reference-donors/ngs-extra-05-20261012-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+          "target_link": 296
+        },
+        {
+          "distinct_unit_instances": 2,
+          "fields": 30,
+          "inventory_file": "reference-donors/ngs-extra-06-20261008-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+          "target_link": 296
+        }
+      ],
+      "unit_type": "TownCannonTowerL3"
+    },
+    {
+      "decision": {
+        "after": 297,
+        "before": 534,
+        "state": "observed_unambiguous_pair",
+        "unit_type": "TownCannonTowerL3Standalone"
+      },
+      "source_observations": [
+        {
+          "distinct_unit_instances": 3,
+          "fields": 80,
+          "link": 534
+        }
+      ],
+      "source_replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "target_observations": [
+        {
+          "distinct_unit_instances": 1,
+          "fields": 2,
+          "inventory_file": "reference-donors/ngs-extra-02-20261014-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+          "target_link": 297
+        }
+      ],
+      "unit_type": "TownCannonTowerL3Standalone"
+    },
+    {
+      "decision": {
+        "after": 264,
+        "before": 499,
+        "state": "observed_unambiguous_pair",
+        "unit_type": "TownGateL215BLUR"
+      },
+      "source_observations": [
+        {
+          "distinct_unit_instances": 3,
+          "fields": 82,
+          "link": 499
+        }
+      ],
+      "source_replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "target_observations": [
+        {
+          "distinct_unit_instances": 2,
+          "fields": 10,
+          "inventory_file": "offline98348-cohort/ngs-20261016-protectors-dragon.unit-inventory.json",
+          "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+          "target_link": 264
+        },
+        {
+          "distinct_unit_instances": 3,
+          "fields": 7,
+          "inventory_file": "offline98348-cohort/ngs-20261016-stormblessed-dragon.unit-inventory.json",
+          "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+          "target_link": 264
+        },
+        {
+          "distinct_unit_instances": 1,
+          "fields": 10,
+          "inventory_file": "reference-donors/ngs-extra-01-20261015-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+          "target_link": 264
+        },
+        {
+          "distinct_unit_instances": 2,
+          "fields": 7,
+          "inventory_file": "reference-donors/ngs-extra-02-20261014-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+          "target_link": 264
+        },
+        {
+          "distinct_unit_instances": 2,
+          "fields": 13,
+          "inventory_file": "reference-donors/ngs-extra-03-20261014-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+          "target_link": 264
+        },
+        {
+          "distinct_unit_instances": 2,
+          "fields": 12,
+          "inventory_file": "reference-donors/ngs-extra-04-20261013-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+          "target_link": 264
+        },
+        {
+          "distinct_unit_instances": 1,
+          "fields": 6,
+          "inventory_file": "reference-donors/ngs-extra-05-20261012-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+          "target_link": 264
+        }
+      ],
+      "unit_type": "TownGateL215BLUR"
+    },
+    {
+      "decision": {
+        "after": 267,
+        "before": 502,
+        "state": "observed_unambiguous_pair",
+        "unit_type": "TownGateL215BRUL"
+      },
+      "source_observations": [
+        {
+          "distinct_unit_instances": 2,
+          "fields": 31,
+          "link": 502
+        }
+      ],
+      "source_replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "target_observations": [
+        {
+          "distinct_unit_instances": 1,
+          "fields": 1,
+          "inventory_file": "offline98348-cohort/ngs-20261016-protectors-dragon.unit-inventory.json",
+          "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+          "target_link": 267
+        },
+        {
+          "distinct_unit_instances": 2,
+          "fields": 2,
+          "inventory_file": "offline98348-cohort/ngs-20261016-stormblessed-dragon.unit-inventory.json",
+          "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+          "target_link": 267
+        },
+        {
+          "distinct_unit_instances": 1,
+          "fields": 16,
+          "inventory_file": "reference-donors/ngs-extra-02-20261014-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+          "target_link": 267
+        },
+        {
+          "distinct_unit_instances": 1,
+          "fields": 1,
+          "inventory_file": "reference-donors/ngs-extra-03-20261014-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+          "target_link": 267
+        },
+        {
+          "distinct_unit_instances": 2,
+          "fields": 34,
+          "inventory_file": "reference-donors/ngs-extra-05-20261012-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+          "target_link": 267
+        },
+        {
+          "distinct_unit_instances": 3,
+          "fields": 7,
+          "inventory_file": "reference-donors/ngs-extra-06-20261008-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+          "target_link": 267
+        }
+      ],
+      "unit_type": "TownGateL215BRUL"
+    },
+    {
+      "decision": {
+        "reason": "not_observed_in_current_references",
+        "source_links": [
+          513
+        ],
+        "state": "unresolved",
+        "target_links": [],
+        "unit_type": "TownGateL3BLURBRVisionBlocked"
+      },
+      "source_observations": [
+        {
+          "distinct_unit_instances": 1,
+          "fields": 3,
+          "link": 513
+        }
+      ],
+      "source_replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "target_observations": [],
+      "unit_type": "TownGateL3BLURBRVisionBlocked"
+    },
+    {
+      "decision": {
+        "after": 281,
+        "before": 516,
+        "state": "observed_unambiguous_pair",
+        "unit_type": "TownGateL3BRULTRVisionBlocked"
+      },
+      "source_observations": [
+        {
+          "distinct_unit_instances": 1,
+          "fields": 6,
+          "link": 516
+        }
+      ],
+      "source_replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "target_observations": [
+        {
+          "distinct_unit_instances": 1,
+          "fields": 15,
+          "inventory_file": "offline98348-cohort/ngs-20261016-stormblessed-dragon.unit-inventory.json",
+          "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+          "target_link": 281
+        },
+        {
+          "distinct_unit_instances": 1,
+          "fields": 7,
+          "inventory_file": "reference-donors/ngs-extra-01-20261015-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+          "target_link": 281
+        },
+        {
+          "distinct_unit_instances": 1,
+          "fields": 5,
+          "inventory_file": "reference-donors/ngs-extra-03-20261014-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+          "target_link": 281
+        },
+        {
+          "distinct_unit_instances": 1,
+          "fields": 21,
+          "inventory_file": "reference-donors/ngs-extra-04-20261013-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+          "target_link": 281
+        }
+      ],
+      "unit_type": "TownGateL3BRULTRVisionBlocked"
+    },
+    {
+      "decision": {
+        "after": 275,
+        "before": 510,
+        "state": "observed_unambiguous_pair",
+        "unit_type": "TownGateL3VerticalRightVisionBlocked"
+      },
+      "source_observations": [
+        {
+          "distinct_unit_instances": 1,
+          "fields": 8,
+          "link": 510
+        }
+      ],
+      "source_replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "target_observations": [
+        {
+          "distinct_unit_instances": 1,
+          "fields": 9,
+          "inventory_file": "reference-donors/ngs-extra-01-20261015-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+          "target_link": 275
+        },
+        {
+          "distinct_unit_instances": 1,
+          "fields": 3,
+          "inventory_file": "reference-donors/ngs-extra-03-20261014-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+          "target_link": 275
+        },
+        {
+          "distinct_unit_instances": 1,
+          "fields": 4,
+          "inventory_file": "reference-donors/ngs-extra-04-20261013-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+          "target_link": 275
+        }
+      ],
+      "unit_type": "TownGateL3VerticalRightVisionBlocked"
+    },
+    {
+      "decision": {
+        "after": 299,
+        "before": 537,
+        "state": "observed_unambiguous_pair",
+        "unit_type": "TownMoonwellL2"
+      },
+      "source_observations": [
+        {
+          "distinct_unit_instances": 6,
+          "fields": 367,
+          "link": 537
+        }
+      ],
+      "source_replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "target_observations": [
+        {
+          "distinct_unit_instances": 6,
+          "fields": 79,
+          "inventory_file": "offline98348-cohort/ngs-20261016-protectors-dragon.unit-inventory.json",
+          "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+          "target_link": 299
+        },
+        {
+          "distinct_unit_instances": 6,
+          "fields": 144,
+          "inventory_file": "offline98348-cohort/ngs-20261016-stormblessed-dragon.unit-inventory.json",
+          "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+          "target_link": 299
+        },
+        {
+          "distinct_unit_instances": 5,
+          "fields": 87,
+          "inventory_file": "reference-donors/ngs-extra-01-20261015-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+          "target_link": 299
+        },
+        {
+          "distinct_unit_instances": 6,
+          "fields": 71,
+          "inventory_file": "reference-donors/ngs-extra-02-20261014-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+          "target_link": 299
+        },
+        {
+          "distinct_unit_instances": 5,
+          "fields": 58,
+          "inventory_file": "reference-donors/ngs-extra-03-20261014-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+          "target_link": 299
+        },
+        {
+          "distinct_unit_instances": 6,
+          "fields": 196,
+          "inventory_file": "reference-donors/ngs-extra-04-20261013-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+          "target_link": 299
+        },
+        {
+          "distinct_unit_instances": 6,
+          "fields": 113,
+          "inventory_file": "reference-donors/ngs-extra-05-20261012-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+          "target_link": 299
+        },
+        {
+          "distinct_unit_instances": 6,
+          "fields": 148,
+          "inventory_file": "reference-donors/ngs-extra-06-20261008-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+          "target_link": 299
+        }
+      ],
+      "unit_type": "TownMoonwellL2"
+    },
+    {
+      "decision": {
+        "after": 300,
+        "before": 538,
+        "state": "observed_unambiguous_pair",
+        "unit_type": "TownMoonwellL3"
+      },
+      "source_observations": [
+        {
+          "distinct_unit_instances": 5,
+          "fields": 128,
+          "link": 538
+        }
+      ],
+      "source_replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "target_observations": [
+        {
+          "distinct_unit_instances": 3,
+          "fields": 21,
+          "inventory_file": "offline98348-cohort/ngs-20261016-protectors-dragon.unit-inventory.json",
+          "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+          "target_link": 300
+        },
+        {
+          "distinct_unit_instances": 4,
+          "fields": 8,
+          "inventory_file": "offline98348-cohort/ngs-20261016-stormblessed-dragon.unit-inventory.json",
+          "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+          "target_link": 300
+        },
+        {
+          "distinct_unit_instances": 3,
+          "fields": 12,
+          "inventory_file": "reference-donors/ngs-extra-01-20261015-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+          "target_link": 300
+        },
+        {
+          "distinct_unit_instances": 3,
+          "fields": 29,
+          "inventory_file": "reference-donors/ngs-extra-02-20261014-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+          "target_link": 300
+        },
+        {
+          "distinct_unit_instances": 3,
+          "fields": 37,
+          "inventory_file": "reference-donors/ngs-extra-03-20261014-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+          "target_link": 300
+        },
+        {
+          "distinct_unit_instances": 4,
+          "fields": 88,
+          "inventory_file": "reference-donors/ngs-extra-04-20261013-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+          "target_link": 300
+        },
+        {
+          "distinct_unit_instances": 5,
+          "fields": 40,
+          "inventory_file": "reference-donors/ngs-extra-05-20261012-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+          "target_link": 300
+        },
+        {
+          "distinct_unit_instances": 2,
+          "fields": 17,
+          "inventory_file": "reference-donors/ngs-extra-06-20261008-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+          "target_link": 300
+        }
+      ],
+      "unit_type": "TownMoonwellL3"
+    },
+    {
+      "decision": {
+        "after": 324,
+        "before": 569,
+        "state": "observed_unambiguous_pair",
+        "unit_type": "TownTownHallL2"
+      },
+      "source_observations": [
+        {
+          "distinct_unit_instances": 6,
+          "fields": 327,
+          "link": 569
+        }
+      ],
+      "source_replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "target_observations": [
+        {
+          "distinct_unit_instances": 4,
+          "fields": 171,
+          "inventory_file": "offline98348-cohort/ngs-20261016-protectors-dragon.unit-inventory.json",
+          "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+          "target_link": 324
+        },
+        {
+          "distinct_unit_instances": 5,
+          "fields": 149,
+          "inventory_file": "offline98348-cohort/ngs-20261016-stormblessed-dragon.unit-inventory.json",
+          "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+          "target_link": 324
+        },
+        {
+          "distinct_unit_instances": 2,
+          "fields": 134,
+          "inventory_file": "reference-donors/ngs-extra-01-20261015-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+          "target_link": 324
+        },
+        {
+          "distinct_unit_instances": 5,
+          "fields": 373,
+          "inventory_file": "reference-donors/ngs-extra-02-20261014-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+          "target_link": 324
+        },
+        {
+          "distinct_unit_instances": 3,
+          "fields": 158,
+          "inventory_file": "reference-donors/ngs-extra-03-20261014-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+          "target_link": 324
+        },
+        {
+          "distinct_unit_instances": 3,
+          "fields": 120,
+          "inventory_file": "reference-donors/ngs-extra-04-20261013-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+          "target_link": 324
+        },
+        {
+          "distinct_unit_instances": 4,
+          "fields": 379,
+          "inventory_file": "reference-donors/ngs-extra-05-20261012-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+          "target_link": 324
+        },
+        {
+          "distinct_unit_instances": 3,
+          "fields": 136,
+          "inventory_file": "reference-donors/ngs-extra-06-20261008-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+          "target_link": 324
+        }
+      ],
+      "unit_type": "TownTownHallL2"
+    },
+    {
+      "decision": {
+        "after": 310,
+        "before": 548,
+        "state": "observed_unambiguous_pair",
+        "unit_type": "TownTownHallL3"
+      },
+      "source_observations": [
+        {
+          "distinct_unit_instances": 3,
+          "fields": 250,
+          "link": 548
+        }
+      ],
+      "source_replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "target_observations": [
+        {
+          "distinct_unit_instances": 2,
+          "fields": 67,
+          "inventory_file": "offline98348-cohort/ngs-20261016-protectors-dragon.unit-inventory.json",
+          "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+          "target_link": 310
+        },
+        {
+          "distinct_unit_instances": 3,
+          "fields": 60,
+          "inventory_file": "offline98348-cohort/ngs-20261016-stormblessed-dragon.unit-inventory.json",
+          "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+          "target_link": 310
+        },
+        {
+          "distinct_unit_instances": 2,
+          "fields": 59,
+          "inventory_file": "reference-donors/ngs-extra-01-20261015-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+          "target_link": 310
+        },
+        {
+          "distinct_unit_instances": 2,
+          "fields": 93,
+          "inventory_file": "reference-donors/ngs-extra-02-20261014-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+          "target_link": 310
+        },
+        {
+          "distinct_unit_instances": 3,
+          "fields": 127,
+          "inventory_file": "reference-donors/ngs-extra-03-20261014-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+          "target_link": 310
+        },
+        {
+          "distinct_unit_instances": 3,
+          "fields": 85,
+          "inventory_file": "reference-donors/ngs-extra-04-20261013-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+          "target_link": 310
+        },
+        {
+          "distinct_unit_instances": 2,
+          "fields": 168,
+          "inventory_file": "reference-donors/ngs-extra-05-20261012-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+          "target_link": 310
+        },
+        {
+          "distinct_unit_instances": 2,
+          "fields": 68,
+          "inventory_file": "reference-donors/ngs-extra-06-20261008-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+          "target_link": 310
+        }
+      ],
+      "unit_type": "TownTownHallL3"
+    },
+    {
+      "decision": {
+        "after": 387,
+        "before": 648,
+        "state": "observed_unambiguous_pair",
+        "unit_type": "TownWallRadial14L3"
+      },
+      "source_observations": [
+        {
+          "distinct_unit_instances": 1,
+          "fields": 6,
+          "link": 648
+        }
+      ],
+      "source_replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "target_observations": [
+        {
+          "distinct_unit_instances": 1,
+          "fields": 3,
+          "inventory_file": "offline98348-cohort/ngs-20261016-stormblessed-dragon.unit-inventory.json",
+          "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+          "target_link": 387
+        },
+        {
+          "distinct_unit_instances": 1,
+          "fields": 5,
+          "inventory_file": "reference-donors/ngs-extra-03-20261014-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+          "target_link": 387
+        },
+        {
+          "distinct_unit_instances": 1,
+          "fields": 1,
+          "inventory_file": "reference-donors/ngs-extra-04-20261013-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+          "target_link": 387
+        }
+      ],
+      "unit_type": "TownWallRadial14L3"
+    },
+    {
+      "decision": {
+        "after": 396,
+        "before": 657,
+        "state": "observed_unambiguous_pair",
+        "unit_type": "TownWallRadial17L3"
+      },
+      "source_observations": [
+        {
+          "distinct_unit_instances": 1,
+          "fields": 5,
+          "link": 657
+        }
+      ],
+      "source_replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "target_observations": [
+        {
+          "distinct_unit_instances": 1,
+          "fields": 1,
+          "inventory_file": "reference-donors/ngs-extra-01-20261015-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+          "target_link": 396
+        },
+        {
+          "distinct_unit_instances": 1,
+          "fields": 10,
+          "inventory_file": "reference-donors/ngs-extra-03-20261014-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+          "target_link": 396
+        },
+        {
+          "distinct_unit_instances": 1,
+          "fields": 5,
+          "inventory_file": "reference-donors/ngs-extra-04-20261013-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+          "target_link": 396
+        }
+      ],
+      "unit_type": "TownWallRadial17L3"
+    },
+    {
+      "decision": {
+        "after": 398,
+        "before": 659,
+        "state": "observed_unambiguous_pair",
+        "unit_type": "TownWallRadial18L2"
+      },
+      "source_observations": [
+        {
+          "distinct_unit_instances": 3,
+          "fields": 15,
+          "link": 659
+        }
+      ],
+      "source_replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "target_observations": [
+        {
+          "distinct_unit_instances": 1,
+          "fields": 1,
+          "inventory_file": "offline98348-cohort/ngs-20261016-protectors-dragon.unit-inventory.json",
+          "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+          "target_link": 398
+        },
+        {
+          "distinct_unit_instances": 4,
+          "fields": 10,
+          "inventory_file": "offline98348-cohort/ngs-20261016-stormblessed-dragon.unit-inventory.json",
+          "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+          "target_link": 398
+        },
+        {
+          "distinct_unit_instances": 2,
+          "fields": 5,
+          "inventory_file": "reference-donors/ngs-extra-01-20261015-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+          "target_link": 398
+        },
+        {
+          "distinct_unit_instances": 1,
+          "fields": 3,
+          "inventory_file": "reference-donors/ngs-extra-02-20261014-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+          "target_link": 398
+        },
+        {
+          "distinct_unit_instances": 3,
+          "fields": 14,
+          "inventory_file": "reference-donors/ngs-extra-03-20261014-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+          "target_link": 398
+        },
+        {
+          "distinct_unit_instances": 4,
+          "fields": 32,
+          "inventory_file": "reference-donors/ngs-extra-04-20261013-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+          "target_link": 398
+        },
+        {
+          "distinct_unit_instances": 2,
+          "fields": 4,
+          "inventory_file": "reference-donors/ngs-extra-05-20261012-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+          "target_link": 398
+        },
+        {
+          "distinct_unit_instances": 2,
+          "fields": 8,
+          "inventory_file": "reference-donors/ngs-extra-06-20261008-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+          "target_link": 398
+        }
+      ],
+      "unit_type": "TownWallRadial18L2"
+    },
+    {
+      "decision": {
+        "after": 399,
+        "before": 660,
+        "state": "observed_unambiguous_pair",
+        "unit_type": "TownWallRadial18L3"
+      },
+      "source_observations": [
+        {
+          "distinct_unit_instances": 1,
+          "fields": 3,
+          "link": 660
+        }
+      ],
+      "source_replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "target_observations": [
+        {
+          "distinct_unit_instances": 1,
+          "fields": 6,
+          "inventory_file": "reference-donors/ngs-extra-03-20261014-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+          "target_link": 399
+        },
+        {
+          "distinct_unit_instances": 1,
+          "fields": 3,
+          "inventory_file": "reference-donors/ngs-extra-04-20261013-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+          "target_link": 399
+        }
+      ],
+      "unit_type": "TownWallRadial18L3"
+    },
+    {
+      "decision": {
+        "after": 401,
+        "before": 662,
+        "state": "observed_unambiguous_pair",
+        "unit_type": "TownWallRadial19L2"
+      },
+      "source_observations": [
+        {
+          "distinct_unit_instances": 3,
+          "fields": 12,
+          "link": 662
+        }
+      ],
+      "source_replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "target_observations": [
+        {
+          "distinct_unit_instances": 1,
+          "fields": 4,
+          "inventory_file": "offline98348-cohort/ngs-20261016-protectors-dragon.unit-inventory.json",
+          "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+          "target_link": 401
+        },
+        {
+          "distinct_unit_instances": 1,
+          "fields": 12,
+          "inventory_file": "offline98348-cohort/ngs-20261016-stormblessed-dragon.unit-inventory.json",
+          "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+          "target_link": 401
+        },
+        {
+          "distinct_unit_instances": 1,
+          "fields": 1,
+          "inventory_file": "reference-donors/ngs-extra-01-20261015-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+          "target_link": 401
+        },
+        {
+          "distinct_unit_instances": 2,
+          "fields": 5,
+          "inventory_file": "reference-donors/ngs-extra-02-20261014-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+          "target_link": 401
+        },
+        {
+          "distinct_unit_instances": 1,
+          "fields": 3,
+          "inventory_file": "reference-donors/ngs-extra-03-20261014-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+          "target_link": 401
+        },
+        {
+          "distinct_unit_instances": 2,
+          "fields": 12,
+          "inventory_file": "reference-donors/ngs-extra-04-20261013-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+          "target_link": 401
+        },
+        {
+          "distinct_unit_instances": 1,
+          "fields": 1,
+          "inventory_file": "reference-donors/ngs-extra-05-20261012-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+          "target_link": 401
+        }
+      ],
+      "unit_type": "TownWallRadial19L2"
+    },
+    {
+      "decision": {
+        "after": 356,
+        "before": 617,
+        "state": "observed_unambiguous_pair",
+        "unit_type": "TownWallRadial4L2"
+      },
+      "source_observations": [
+        {
+          "distinct_unit_instances": 3,
+          "fields": 17,
+          "link": 617
+        }
+      ],
+      "source_replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "target_observations": [
+        {
+          "distinct_unit_instances": 2,
+          "fields": 3,
+          "inventory_file": "offline98348-cohort/ngs-20261016-protectors-dragon.unit-inventory.json",
+          "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+          "target_link": 356
+        },
+        {
+          "distinct_unit_instances": 2,
+          "fields": 6,
+          "inventory_file": "offline98348-cohort/ngs-20261016-stormblessed-dragon.unit-inventory.json",
+          "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+          "target_link": 356
+        },
+        {
+          "distinct_unit_instances": 2,
+          "fields": 8,
+          "inventory_file": "reference-donors/ngs-extra-05-20261012-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+          "target_link": 356
+        },
+        {
+          "distinct_unit_instances": 1,
+          "fields": 9,
+          "inventory_file": "reference-donors/ngs-extra-06-20261008-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+          "target_link": 356
+        }
+      ],
+      "unit_type": "TownWallRadial4L2"
+    },
+    {
+      "decision": {
+        "after": 359,
+        "before": 620,
+        "state": "observed_unambiguous_pair",
+        "unit_type": "TownWallRadial5L2"
+      },
+      "source_observations": [
+        {
+          "distinct_unit_instances": 3,
+          "fields": 17,
+          "link": 620
+        }
+      ],
+      "source_replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "target_observations": [
+        {
+          "distinct_unit_instances": 3,
+          "fields": 8,
+          "inventory_file": "offline98348-cohort/ngs-20261016-protectors-dragon.unit-inventory.json",
+          "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+          "target_link": 359
+        },
+        {
+          "distinct_unit_instances": 4,
+          "fields": 30,
+          "inventory_file": "offline98348-cohort/ngs-20261016-stormblessed-dragon.unit-inventory.json",
+          "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+          "target_link": 359
+        },
+        {
+          "distinct_unit_instances": 1,
+          "fields": 1,
+          "inventory_file": "reference-donors/ngs-extra-01-20261015-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+          "target_link": 359
+        },
+        {
+          "distinct_unit_instances": 3,
+          "fields": 28,
+          "inventory_file": "reference-donors/ngs-extra-02-20261014-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+          "target_link": 359
+        },
+        {
+          "distinct_unit_instances": 1,
+          "fields": 1,
+          "inventory_file": "reference-donors/ngs-extra-03-20261014-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+          "target_link": 359
+        },
+        {
+          "distinct_unit_instances": 2,
+          "fields": 11,
+          "inventory_file": "reference-donors/ngs-extra-04-20261013-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+          "target_link": 359
+        },
+        {
+          "distinct_unit_instances": 4,
+          "fields": 48,
+          "inventory_file": "reference-donors/ngs-extra-05-20261012-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+          "target_link": 359
+        },
+        {
+          "distinct_unit_instances": 3,
+          "fields": 23,
+          "inventory_file": "reference-donors/ngs-extra-06-20261008-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+          "target_link": 359
+        }
+      ],
+      "unit_type": "TownWallRadial5L2"
+    },
+    {
+      "decision": {
+        "after": 29,
+        "before": 67,
+        "state": "observed_unambiguous_pair",
+        "unit_type": "VehicleDragon"
+      },
+      "source_observations": [
+        {
+          "distinct_unit_instances": 4,
+          "fields": 674,
+          "link": 67
+        }
+      ],
+      "source_replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "target_observations": [
+        {
+          "distinct_unit_instances": 4,
+          "fields": 354,
+          "inventory_file": "offline98348-cohort/ngs-20261016-protectors-dragon.unit-inventory.json",
+          "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+          "target_link": 29
+        },
+        {
+          "distinct_unit_instances": 3,
+          "fields": 98,
+          "inventory_file": "offline98348-cohort/ngs-20261016-stormblessed-dragon.unit-inventory.json",
+          "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+          "target_link": 29
+        },
+        {
+          "distinct_unit_instances": 2,
+          "fields": 101,
+          "inventory_file": "reference-donors/ngs-extra-01-20261015-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+          "target_link": 29
+        },
+        {
+          "distinct_unit_instances": 5,
+          "fields": 191,
+          "inventory_file": "reference-donors/ngs-extra-02-20261014-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+          "target_link": 29
+        },
+        {
+          "distinct_unit_instances": 3,
+          "fields": 194,
+          "inventory_file": "reference-donors/ngs-extra-03-20261014-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+          "target_link": 29
+        },
+        {
+          "distinct_unit_instances": 5,
+          "fields": 377,
+          "inventory_file": "reference-donors/ngs-extra-04-20261013-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+          "target_link": 29
+        },
+        {
+          "distinct_unit_instances": 5,
+          "fields": 237,
+          "inventory_file": "reference-donors/ngs-extra-05-20261012-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+          "target_link": 29
+        },
+        {
+          "distinct_unit_instances": 3,
+          "fields": 215,
+          "inventory_file": "reference-donors/ngs-extra-06-20261008-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+          "target_link": 29
+        }
+      ],
+      "unit_type": "VehicleDragon"
+    },
+    {
+      "decision": {
+        "after": 200,
+        "before": 420,
+        "state": "observed_unambiguous_pair",
+        "unit_type": "WizardMinion"
+      },
+      "source_observations": [
+        {
+          "distinct_unit_instances": 84,
+          "fields": 436,
+          "link": 420
+        }
+      ],
+      "source_replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "target_observations": [
+        {
+          "distinct_unit_instances": 64,
+          "fields": 199,
+          "inventory_file": "offline98348-cohort/ngs-20261016-protectors-dragon.unit-inventory.json",
+          "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+          "target_link": 200
+        },
+        {
+          "distinct_unit_instances": 52,
+          "fields": 91,
+          "inventory_file": "offline98348-cohort/ngs-20261016-stormblessed-dragon.unit-inventory.json",
+          "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+          "target_link": 200
+        },
+        {
+          "distinct_unit_instances": 73,
+          "fields": 151,
+          "inventory_file": "reference-donors/ngs-extra-01-20261015-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+          "target_link": 200
+        },
+        {
+          "distinct_unit_instances": 80,
+          "fields": 205,
+          "inventory_file": "reference-donors/ngs-extra-02-20261014-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+          "target_link": 200
+        },
+        {
+          "distinct_unit_instances": 66,
+          "fields": 174,
+          "inventory_file": "reference-donors/ngs-extra-03-20261014-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+          "target_link": 200
+        },
+        {
+          "distinct_unit_instances": 82,
+          "fields": 201,
+          "inventory_file": "reference-donors/ngs-extra-04-20261013-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+          "target_link": 200
+        },
+        {
+          "distinct_unit_instances": 88,
+          "fields": 347,
+          "inventory_file": "reference-donors/ngs-extra-05-20261012-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+          "target_link": 200
+        },
+        {
+          "distinct_unit_instances": 98,
+          "fields": 285,
+          "inventory_file": "reference-donors/ngs-extra-06-20261008-dragon.StormReplay.unit-inventory.json",
+          "replay_sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+          "target_link": 200
+        }
+      ],
+      "unit_type": "WizardMinion"
+    }
+  ],
+  "source_unit_type_count": 50,
+  "target_link_aliases": [
+    {
+      "files_observing_multiple_names_at_link": [
+        "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+        "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e"
+      ],
+      "observations": [
+        {
+          "evidence": [
+            {
+              "distinct_unit_instances": 1,
+              "fields": 1,
+              "inventory_file": "offline98348-cohort/ngs-20261016-stormblessed-dragon.unit-inventory.json",
+              "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+              "target_link": 296
+            },
+            {
+              "distinct_unit_instances": 1,
+              "fields": 1,
+              "inventory_file": "reference-donors/ngs-extra-04-20261013-dragon.StormReplay.unit-inventory.json",
+              "replay_sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+              "target_link": 296
+            }
+          ],
+          "unit_type": "TownCannonTowerDead"
+        },
+        {
+          "evidence": [
+            {
+              "distinct_unit_instances": 3,
+              "fields": 14,
+              "inventory_file": "offline98348-cohort/ngs-20261016-protectors-dragon.unit-inventory.json",
+              "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+              "target_link": 296
+            },
+            {
+              "distinct_unit_instances": 4,
+              "fields": 62,
+              "inventory_file": "offline98348-cohort/ngs-20261016-stormblessed-dragon.unit-inventory.json",
+              "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+              "target_link": 296
+            },
+            {
+              "distinct_unit_instances": 4,
+              "fields": 52,
+              "inventory_file": "reference-donors/ngs-extra-01-20261015-dragon.StormReplay.unit-inventory.json",
+              "replay_sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+              "target_link": 296
+            },
+            {
+              "distinct_unit_instances": 4,
+              "fields": 73,
+              "inventory_file": "reference-donors/ngs-extra-02-20261014-dragon.StormReplay.unit-inventory.json",
+              "replay_sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+              "target_link": 296
+            },
+            {
+              "distinct_unit_instances": 4,
+              "fields": 73,
+              "inventory_file": "reference-donors/ngs-extra-03-20261014-dragon.StormReplay.unit-inventory.json",
+              "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+              "target_link": 296
+            },
+            {
+              "distinct_unit_instances": 4,
+              "fields": 91,
+              "inventory_file": "reference-donors/ngs-extra-04-20261013-dragon.StormReplay.unit-inventory.json",
+              "replay_sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+              "target_link": 296
+            },
+            {
+              "distinct_unit_instances": 5,
+              "fields": 98,
+              "inventory_file": "reference-donors/ngs-extra-05-20261012-dragon.StormReplay.unit-inventory.json",
+              "replay_sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+              "target_link": 296
+            },
+            {
+              "distinct_unit_instances": 2,
+              "fields": 30,
+              "inventory_file": "reference-donors/ngs-extra-06-20261008-dragon.StormReplay.unit-inventory.json",
+              "replay_sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+              "target_link": 296
+            }
+          ],
+          "unit_type": "TownCannonTowerL3"
+        }
+      ],
+      "target_link": 296,
+      "unit_types": [
+        "TownCannonTowerDead",
+        "TownCannonTowerL3"
+      ]
+    }
+  ],
+  "two_reference_baseline": {
+    "observed_pair_count": 25,
+    "unresolved_type_count": 25
+  },
+  "unresolved_reason_counts": {
+    "ambiguous_link_to_type": 3,
+    "not_observed_in_current_references": 14
+  },
+  "unresolved_type_count": 17
+}

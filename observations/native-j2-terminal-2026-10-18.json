@@ -1,0 +1,82 @@
+{
+  "application_event_query": {
+    "all_events_in_interval": 0,
+    "ids": [
+      1000,
+      1001,
+      1002
+    ],
+    "matching_heroes_events": 0,
+    "performed_outside_sandbox": true,
+    "query_error_ids": [
+      "NoMatchingEventsFound,Microsoft.PowerShell.Commands.GetWinEventCommand"
+    ]
+  },
+  "attempt_terminal": true,
+  "conclusion": "The J2 attempt ended during loading. Available logs do not establish a native exception, exit code, faulting module, Galaxy compilation outcome or journal export.",
+  "current_graphics_log_sha256": "5ac6d1b7f476437b4e83246d542d09aa20a27e0238c2d0b0bf226db120f961e1",
+  "exception_code": null,
+  "exit_code": null,
+  "faulting_module": null,
+  "format": "hots-native-j2-terminal-diagnosis-v1",
+  "game_restarted": false,
+  "launch_pid": 25052,
+  "launch_pid_present": false,
+  "launch_window_start_utc": "2026-10-18T16:39:00.0000000Z",
+  "limits": [
+    "Absence of Application events is not proof of a clean exit.",
+    "Windows WER archive file access was incomplete; its readable root had no HeroesOfTheStorm directory.",
+    "No memory dump or unrelated log content was read or copied.",
+    "No screenshot, UI interaction, process termination or game relaunch was performed."
+  ],
+  "matching_game_process_count": 0,
+  "observed_at_utc": "2026-10-18T16:56:04.8956196Z",
+  "prior_launch_evidence": "native-j2-log-diagnostics-20261018.json",
+  "raw_personal_logs_copied": false,
+  "recent_game_document_files": [
+    {
+      "last_write_time_utc": "2026-10-18T16:39:19.1489353Z",
+      "relative_path": "GameLogs/2026-10-18 18.39.16 Graphics.txt",
+      "size_bytes": 3223
+    },
+    {
+      "last_write_time_utc": "2026-10-18T16:39:05.2858651Z",
+      "relative_path": "GameLogs/SystemInfo.txt",
+      "size_bytes": 6241
+    },
+    {
+      "last_write_time_utc": "2026-10-18T16:51:15.4155570Z",
+      "relative_path": "Variables.txt",
+      "size_bytes": 3587
+    }
+  ],
+  "relevant_fresh_dump_or_wer_observed": false,
+  "scoped_searches": [
+    {
+      "result": "No fresh relevant dump, WER, Galaxy/compiler error or exact J2 journal found.",
+      "scope": "HotS game documents, LocalAppData HotS, LocalAppData Temp"
+    },
+    {
+      "matching_heroes_directories": 0,
+      "recursive_file_enumeration_errors": 79,
+      "result": "No Heroes archive directory; unrelated archive file access restrictions limit recursive completeness.",
+      "root_directory_enumeration_errors": 0,
+      "scope": "Windows WER ReportArchive"
+    },
+    {
+      "enumeration_errors": 0,
+      "fresh_report_count": 0,
+      "scope": "Windows WER ReportQueue"
+    },
+    {
+      "exists": false,
+      "scope": "LocalAppData Microsoft/Windows/WER"
+    },
+    {
+      "enumeration_errors": 0,
+      "fresh_dump_count": 0,
+      "scope": "LocalAppData CrashDumps"
+    }
+  ],
+  "user_reported_game_ended_itself_while_loading": true
+}

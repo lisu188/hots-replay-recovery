@@ -1,0 +1,45 @@
+{
+  "format": "hots-independent-reader-portability-checks-v1",
+  "observed_at_utc": "2026-10-18T18:02:48.9131738Z",
+  "script_sha256": "f97823c433485a19100310e3266a3f02edc4c74f762130128c06a4a90eae9b92",
+  "reader_report_sha256": "291e66fe034ad92d63f2ded3f492f0bc8febbed1a1ee99d63f3eacff6d2336a1",
+  "checks": [
+    {
+      "passed": true,
+      "check": "three-actual-inputs-public-statuses-and-independent-counts-preserved"
+    },
+    {
+      "passed": true,
+      "check": "existing-output-refused"
+    },
+    {
+      "passed": true,
+      "check": "existing-output-unchanged"
+    },
+    {
+      "passed": true,
+      "check": "mismatched-profile-count-refused-without-output"
+    },
+    {
+      "passed": true,
+      "check": "same-size-dll-tamper-refused-before-load-without-output"
+    },
+    {
+      "passed": true,
+      "check": "no-hardcoded-local-input-bindings"
+    },
+    {
+      "passed": true,
+      "check": "optional-python-profile-omitted-actual-current-replay-success"
+    }
+  ],
+  "canonical_serialization": {
+    "encoding": "UTF-8 without BOM",
+    "three_input_report_verified": true,
+    "line_endings": "LF",
+    "script_verified": true,
+    "optional_profile_report_verified": true,
+    "single_final_lf": true
+  },
+  "client_launched": false
+}

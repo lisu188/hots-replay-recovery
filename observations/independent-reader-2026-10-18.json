@@ -1,0 +1,409 @@
+{
+  "format": "hots-independent-dotnet-reader-observation-v2",
+  "observed_at_utc": "2026-10-18T18:02:45.0983098Z",
+  "parser_repository_commit": "d381dd9c273205c0fd7ac402c75eef98c6fa6c78",
+  "assemblies": [
+    {
+      "id": "Heroes.MpqTool",
+      "version": "1.4.0",
+      "sha256": "0d15438f3b692537a037a55fdb82a536539a186aaf21f0a5239e74a1bc384a0f",
+      "bytes": 40448
+    },
+    {
+      "id": "Heroes.StormReplayParser",
+      "version": "2.3.0",
+      "sha256": "5a6dfa2651df7271d4063e8277e9a5e32e93fe2e0e12ff95e27a7a82f58f3ca7",
+      "bytes": 145408
+    }
+  ],
+  "runtime": ".NET 10.0.11",
+  "parse_options": {
+    "tracker": true,
+    "game": true,
+    "messages": true,
+    "allow_ptr": false
+  },
+  "client_launched": false,
+  "sdk_installed": false,
+  "simulation_compatibility_proven": false,
+  "results": [
+    {
+      "id": "replay-001",
+      "input_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+      "input_bytes": 1113273,
+      "public_api": {
+        "status": "Exception",
+        "summary": {
+          "version": "2.57.0.98348",
+          "build": 98348,
+          "base_build": 98348,
+          "elapsed_game_loops": 16006,
+          "players_count": 10,
+          "game_event_count": 0,
+          "tracker_event_count": 0,
+          "message_count": 0,
+          "reader_event_classes": {
+            "game": null,
+            "tracker": null,
+            "messages": []
+          },
+          "battlelobby_player_info_parsed": true
+        },
+        "errors": [
+          {
+            "type": "Heroes.StormReplayParser.StormParseException",
+            "method": null,
+            "known_message_code": null,
+            "frames": []
+          },
+          {
+            "type": "Heroes.StormReplayParser.StormParseException",
+            "method": "Heroes.StormReplayParser.PregameMapper.TransferTo",
+            "known_message_code": "pregame-to-replay-mismatch",
+            "frames": [
+              {
+                "method": "Heroes.StormReplayParser.PregameMapper.TransferTo",
+                "il_offset": 178
+              },
+              {
+                "method": "Heroes.StormReplayParser.StormReplay+<>c.<ParseReplayServerBattlelobby>b__175_0",
+                "il_offset": 25
+              },
+              {
+                "method": "Heroes.StormReplayParser.StormReplay.ParseMpqFile",
+                "il_offset": 61
+              },
+              {
+                "method": "Heroes.StormReplayParser.StormReplay.ParseReplayServerBattlelobby",
+                "il_offset": 32
+              },
+              {
+                "method": "Heroes.StormReplayParser.StormReplay.Parse",
+                "il_offset": 229
+              },
+              {
+                "method": "Heroes.StormReplayParser.StormReplay.ParseStormReplay",
+                "il_offset": 0
+              }
+            ]
+          }
+        ]
+      },
+      "isolated_core_readers": {
+        "status": "isolated-core-readers-completed",
+        "excluded_stage": "ParseReplayServerBattlelobby/PregameMapper.TransferTo",
+        "full_parse_success_claimed": false,
+        "stages": [
+          {
+            "stage": "header",
+            "status": "completed"
+          },
+          {
+            "stage": "replay.details",
+            "status": "completed"
+          },
+          {
+            "stage": "replay.initData",
+            "status": "completed"
+          },
+          {
+            "stage": "replay.attributes.events",
+            "status": "completed"
+          },
+          {
+            "stage": "replay.game.events",
+            "status": "completed"
+          },
+          {
+            "stage": "replay.tracker.events",
+            "status": "completed"
+          },
+          {
+            "stage": "replay.message.events",
+            "status": "completed"
+          }
+        ],
+        "errors": [],
+        "summary": {
+          "version": "2.57.0.98348",
+          "build": 98348,
+          "base_build": 98348,
+          "elapsed_game_loops": 16006,
+          "players_count": 10,
+          "game_event_count": 154012,
+          "tracker_event_count": 7155,
+          "message_count": 135,
+          "reader_event_classes": {
+            "game": "Heroes.StormReplayParser.GameEvent.StormGameEvent",
+            "tracker": "Heroes.StormReplayParser.TrackerEvent.StormTrackerEvent",
+            "messages": [
+              "Heroes.StormReplayParser.MessageEvent.ChatMessage",
+              "Heroes.StormReplayParser.MessageEvent.LoadingProgressMessage",
+              "Heroes.StormReplayParser.MessageEvent.PingMessage"
+            ]
+          },
+          "battlelobby_player_info_parsed": false
+        }
+      },
+      "python_comparison": {
+        "profile_sha256": "c17a1a9f0aa24000b7556379cf5274e59cf92824636ed63125f694406f5efa4f",
+        "schema_build": 96477,
+        "observed_payload_roundtrip": true,
+        "header_build_equal": true,
+        "base_build_equal": true,
+        "game_event_count": 154012,
+        "tracker_event_count": 7155,
+        "message_count": 135,
+        "game_count_equal": true,
+        "tracker_count_equal": true,
+        "message_count_equal": true,
+        "event_payload_equality_not_tested": true
+      },
+      "input_unchanged": true
+    },
+    {
+      "id": "replay-002",
+      "input_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+      "input_bytes": 1544389,
+      "public_api": {
+        "status": "Success",
+        "summary": {
+          "version": "2.57.0.98348",
+          "build": 98348,
+          "base_build": 98348,
+          "elapsed_game_loops": 21061,
+          "players_count": 10,
+          "game_event_count": 211947,
+          "tracker_event_count": 9519,
+          "message_count": 203,
+          "reader_event_classes": {
+            "game": "Heroes.StormReplayParser.GameEvent.StormGameEvent",
+            "tracker": "Heroes.StormReplayParser.TrackerEvent.StormTrackerEvent",
+            "messages": [
+              "Heroes.StormReplayParser.MessageEvent.ChatMessage",
+              "Heroes.StormReplayParser.MessageEvent.LoadingProgressMessage",
+              "Heroes.StormReplayParser.MessageEvent.PingMessage",
+              "Heroes.StormReplayParser.MessageEvent.PlayerAnnounceMessage"
+            ]
+          },
+          "battlelobby_player_info_parsed": true
+        },
+        "errors": []
+      },
+      "isolated_core_readers": {
+        "status": "isolated-core-readers-completed",
+        "excluded_stage": "ParseReplayServerBattlelobby/PregameMapper.TransferTo",
+        "full_parse_success_claimed": false,
+        "stages": [
+          {
+            "stage": "header",
+            "status": "completed"
+          },
+          {
+            "stage": "replay.details",
+            "status": "completed"
+          },
+          {
+            "stage": "replay.initData",
+            "status": "completed"
+          },
+          {
+            "stage": "replay.attributes.events",
+            "status": "completed"
+          },
+          {
+            "stage": "replay.game.events",
+            "status": "completed"
+          },
+          {
+            "stage": "replay.tracker.events",
+            "status": "completed"
+          },
+          {
+            "stage": "replay.message.events",
+            "status": "completed"
+          }
+        ],
+        "errors": [],
+        "summary": {
+          "version": "2.57.0.98348",
+          "build": 98348,
+          "base_build": 98348,
+          "elapsed_game_loops": 21061,
+          "players_count": 10,
+          "game_event_count": 211947,
+          "tracker_event_count": 9519,
+          "message_count": 203,
+          "reader_event_classes": {
+            "game": "Heroes.StormReplayParser.GameEvent.StormGameEvent",
+            "tracker": "Heroes.StormReplayParser.TrackerEvent.StormTrackerEvent",
+            "messages": [
+              "Heroes.StormReplayParser.MessageEvent.ChatMessage",
+              "Heroes.StormReplayParser.MessageEvent.LoadingProgressMessage",
+              "Heroes.StormReplayParser.MessageEvent.PingMessage",
+              "Heroes.StormReplayParser.MessageEvent.PlayerAnnounceMessage"
+            ]
+          },
+          "battlelobby_player_info_parsed": false
+        }
+      },
+      "python_comparison": {
+        "profile_sha256": "d76b9a67ab39f4171a1eee8d19fbb129578cb211d82088f4b259ac755580a6c9",
+        "schema_build": 96477,
+        "observed_payload_roundtrip": true,
+        "header_build_equal": true,
+        "base_build_equal": true,
+        "game_event_count": 211947,
+        "tracker_event_count": 9519,
+        "message_count": 203,
+        "game_count_equal": true,
+        "tracker_count_equal": true,
+        "message_count_equal": true,
+        "event_payload_equality_not_tested": true
+      },
+      "input_unchanged": true
+    },
+    {
+      "id": "replay-003",
+      "input_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "input_bytes": 2438570,
+      "public_api": {
+        "status": "Exception",
+        "summary": {
+          "version": "2.57.0.98285",
+          "build": 98285,
+          "base_build": 98285,
+          "elapsed_game_loops": 19732,
+          "players_count": 10,
+          "game_event_count": 0,
+          "tracker_event_count": 0,
+          "message_count": 0,
+          "reader_event_classes": {
+            "game": null,
+            "tracker": null,
+            "messages": []
+          },
+          "battlelobby_player_info_parsed": false
+        },
+        "errors": [
+          {
+            "type": "Heroes.StormReplayParser.StormParseException",
+            "method": null,
+            "known_message_code": null,
+            "frames": []
+          },
+          {
+            "type": "System.IndexOutOfRangeException",
+            "method": "Internal.Runtime.CompilerHelpers.ThrowHelpers.ThrowIndexOutOfRangeException",
+            "known_message_code": null,
+            "frames": [
+              {
+                "method": "Internal.Runtime.CompilerHelpers.ThrowHelpers.ThrowIndexOutOfRangeException",
+                "il_offset": 5
+              },
+              {
+                "method": "Heroes.MpqTool.BitReader.ReadBoolean",
+                "il_offset": 0
+              },
+              {
+                "method": "Heroes.StormReplayParser.MpqFiles.ReplayServerBattlelobby.Parse",
+                "il_offset": 657
+              },
+              {
+                "method": "Heroes.StormReplayParser.StormReplay+<>c.<ParseReplayServerBattlelobby>b__175_0",
+                "il_offset": 17
+              },
+              {
+                "method": "Heroes.StormReplayParser.StormReplay.ParseMpqFile",
+                "il_offset": 61
+              },
+              {
+                "method": "Heroes.StormReplayParser.StormReplay.ParseReplayServerBattlelobby",
+                "il_offset": 32
+              },
+              {
+                "method": "Heroes.StormReplayParser.StormReplay.Parse",
+                "il_offset": 229
+              },
+              {
+                "method": "Heroes.StormReplayParser.StormReplay.ParseStormReplay",
+                "il_offset": 0
+              }
+            ]
+          }
+        ]
+      },
+      "isolated_core_readers": {
+        "status": "isolated-core-readers-completed",
+        "excluded_stage": "ParseReplayServerBattlelobby/PregameMapper.TransferTo",
+        "full_parse_success_claimed": false,
+        "stages": [
+          {
+            "stage": "header",
+            "status": "completed"
+          },
+          {
+            "stage": "replay.details",
+            "status": "completed"
+          },
+          {
+            "stage": "replay.initData",
+            "status": "completed"
+          },
+          {
+            "stage": "replay.attributes.events",
+            "status": "completed"
+          },
+          {
+            "stage": "replay.game.events",
+            "status": "completed"
+          },
+          {
+            "stage": "replay.tracker.events",
+            "status": "completed"
+          },
+          {
+            "stage": "replay.message.events",
+            "status": "completed"
+          }
+        ],
+        "errors": [],
+        "summary": {
+          "version": "2.57.0.98285",
+          "build": 98285,
+          "base_build": 98285,
+          "elapsed_game_loops": 19732,
+          "players_count": 10,
+          "game_event_count": 104257,
+          "tracker_event_count": 6614,
+          "message_count": 155,
+          "reader_event_classes": {
+            "game": "Heroes.StormReplayParser.GameEvent.StormGameEvent",
+            "tracker": "Heroes.StormReplayParser.TrackerEvent.StormTrackerEvent",
+            "messages": [
+              "Heroes.StormReplayParser.MessageEvent.ChatMessage",
+              "Heroes.StormReplayParser.MessageEvent.LoadingProgressMessage",
+              "Heroes.StormReplayParser.MessageEvent.PingMessage"
+            ]
+          },
+          "battlelobby_player_info_parsed": false
+        }
+      },
+      "python_comparison": {
+        "profile_sha256": "d10df5c1df5cfd78630fb539796e8f60779972b23aeeb161e69158fedf650b1c",
+        "schema_build": 96477,
+        "observed_payload_roundtrip": true,
+        "header_build_equal": true,
+        "base_build_equal": true,
+        "game_event_count": 104257,
+        "tracker_event_count": 6614,
+        "message_count": 155,
+        "game_count_equal": true,
+        "tracker_count_equal": true,
+        "message_count_equal": true,
+        "event_payload_equality_not_tested": true
+      },
+      "input_unchanged": true
+    }
+  ]
+}

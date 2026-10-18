@@ -1,0 +1,53 @@
+{
+  "additional_scopes": [
+    "Installed Heroes of the Storm folder",
+    "ProgramData Blizzard Entertainment/Heroes of the Storm",
+    "LocalAppData Blizzard Entertainment/Heroes of the Storm",
+    "Documents filename search excluding build/vendor trees",
+    "LocalAppData/Temp filename search"
+  ],
+  "exact_j2_journal_filename": "HRC98285_20260929_J2.txt",
+  "exact_j2_journal_files_found": 0,
+  "exact_map_argument_observed": true,
+  "format": "hots-native-j2-log-diagnostics-v1",
+  "game_action_performed": false,
+  "graphics_error_lines": [],
+  "launch_window_start_utc": "2026-10-18T16:39:00.0000000Z",
+  "limits": [
+    "No exact J2 journal, new UserLogs output, Galaxy/compiler log or map-error file was found in the inspected scopes.",
+    "The fresh Graphics log proves executable/data build 98348 and the exact J2 map argument, not map compilation, initialization or export.",
+    "No native screen or UI error text was inspected by this read-only log observation.",
+    "A still-running process, unflushed output, other output locations or an on-screen error are not ruled out.",
+    "Only relevant metadata and allowlisted version lines are saved; raw Variables/SystemInfo logs and account identifiers are excluded.",
+    "Graphics bytes were read into a bounded memory snapshot with shared read/write access; the live file may change after observation."
+  ],
+  "map_filename": "TEN_GREYMANE_CATALOG_JOURNAL_98285.StormMap",
+  "map_sha256": "4733de8491521fac99a26b41c1691f65c8fd894e8ac14f200dfa7afe905672be",
+  "native_galaxy_compilation_verified": false,
+  "observed_at_utc": "2026-10-18T16:42:21.5901180Z",
+  "observed_version_lines": [
+    "GFX  18:39:16.823 Heroes of the Storm (B98348)",
+    "GFX  18:39:16.823 <Version>                       2.57.0.98348",
+    "GFX  18:39:16.823 <DataBuild>                     B98348"
+  ],
+  "recent_game_document_files": [
+    {
+      "last_write_time_utc": "2026-10-18T16:39:19.1489353Z",
+      "relative_path": "GameLogs/2026-10-18 18.39.16 Graphics.txt",
+      "size_bytes": 3223
+    },
+    {
+      "last_write_time_utc": "2026-10-18T16:39:05.2858651Z",
+      "relative_path": "GameLogs/SystemInfo.txt",
+      "size_bytes": 6241
+    },
+    {
+      "last_write_time_utc": "2026-10-18T16:39:34.4205396Z",
+      "relative_path": "Variables.txt",
+      "size_bytes": 3587
+    }
+  ],
+  "runtime_catalog_export_observed": false,
+  "source_graphics_log": "GameLogs/2026-10-18 18.39.16 Graphics.txt",
+  "source_graphics_log_snapshot_sha256": "5ac6d1b7f476437b4e83246d542d09aa20a27e0238c2d0b0bf226db120f961e1"
+}

@@ -1,0 +1,34 @@
+{
+  "format": "hots-independent-parser-packages-v1",
+  "verified_at_utc": "2026-10-18T17:06:00.6254121Z",
+  "target_framework": "net10.0",
+  "total_package_bytes": 243688,
+  "packages": [
+    {
+      "id": "Heroes.StormReplayParser",
+      "version": "2.3.0",
+      "catalog_url": "https://api.nuget.org/v3/catalog0/data/2026.09.18.01.30.55/heroes.stormreplayparser.2.3.0.json",
+      "package_url": "https://api.nuget.org/v3-flatcontainer/heroes.stormreplayparser/2.3.0/heroes.stormreplayparser.2.3.0.nupkg",
+      "package_bytes": 169678,
+      "nuget_sha512": "WzsYW3of7FcIn/Du1/3avsjfz5EnwJpyuoxfA6EIFTaYHqgHv0pOHOxSXE3tK3Q+KN0MZ59jK/by7zGjpq9X1w==",
+      "nuget_sha512_verified": true,
+      "assembly": "Heroes.StormReplayParser.dll",
+      "assembly_bytes": 145408,
+      "assembly_sha256": "5a6dfa2651df7271d4063e8277e9a5e32e93fe2e0e12ff95e27a7a82f58f3ca7",
+      "repository_commit": "d381dd9c273205c0fd7ac402c75eef98c6fa6c78"
+    },
+    {
+      "id": "Heroes.MpqTool",
+      "version": "1.4.0",
+      "catalog_url": "https://api.nuget.org/v3/catalog0/data/2026.08.13.21.05.02/heroes.mpqtool.1.4.0.json",
+      "package_url": "https://api.nuget.org/v3-flatcontainer/heroes.mpqtool/1.4.0/heroes.mpqtool.1.4.0.nupkg",
+      "package_bytes": 74010,
+      "nuget_sha512": "f+LeaE/AL6SwLc/mhCSS/UlQyZ1boyhiPa2oQdahC3xeIZnSMAHWpcmtbgrO1DELHrJrzFkAqe4z4C1ddNi4Qg==",
+      "nuget_sha512_verified": true,
+      "assembly": "Heroes.MpqTool.dll",
+      "assembly_bytes": 40448,
+      "assembly_sha256": "0d15438f3b692537a037a55fdb82a536539a186aaf21f0a5239e74a1bc384a0f",
+      "repository_commit": "469f6db9cc49fb9828e25e21f3d0f29a868cb94f"
+    }
+  ]
+}
