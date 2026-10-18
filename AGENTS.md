@@ -340,3 +340,18 @@ Run39159375110 at3d786d2 passed801tests/38modules in each of3prepared lanes,
 with explicit skips:38Linux,4Windows/pwsh,4Windows/PowerShell5.1. This broader
 prepared-corpus evidence does not erase the earlier local limited result and
 does not prove engineplayback. R8 remains latest; no client was launched.
+
+
+## Full XML evidence and prepared-fixture correction - 2026-10-18
+
+Run39160460385 at4f3757a passed30tests and all5575exact XML checks; botccb25a1
+published238exactmatches for63legacy names. Absence applies to this projected
+XML scope; numeric links/replacement/entitlement semantics are not inferred.
+Dedicated Range run39160460366 passed15tests on both OS including realfixture.
+
+Complete regression39160460383 correctly failed on one unexpected missing NGS
+fixture skip per lane:846tests/40modules ran with no unittestfailures/errors,
+but skips were39Linux/5eachWindows. The workflow now stages the same bounded
+SHA-pinned public fixture and sets NGS_RANGE_CONTROL. No whitelist, assertion
+or runner was weakened. Record the corrected run separately; no client or
+replay write occurred, and R8/full-upgrade state remains unchanged.

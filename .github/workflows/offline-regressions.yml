@@ -36,6 +36,7 @@ jobs:
         shell: bash
     env:
       HOTS_TEST_POWERSHELL: ${{ matrix.powershell }}
+      NGS_RANGE_CONTROL: work/known-sky.StormReplay
       PYTHONDONTWRITEBYTECODE: '1'
       # Apply before both checkouts; pinned schema hashes require Git blob bytes.
       GIT_CONFIG_COUNT: '1'
@@ -81,6 +82,26 @@ jobs:
           python scripts/restore_artifact.py "$r3.base64" "$r3" --sha256 "$r3.sha256"
           r4=client-checkpoints/98285-controls-r4/TEN_GREYMANE_client98285_CONTROLS_R4_EXPERIMENTAL.StormReplay
           python scripts/restore_artifact.py "$r4.base64" work/R4.StormReplay --sha256 "$r4.sha256"
+      - name: Acquire one SHA-bound public fixture for offline range transport tests
+        run: |
+          python - <<'PY'
+          import hashlib
+          from pathlib import Path
+          import urllib.request
+          from ngs_range_details import NoRedirect
+          url = 'https://s3.amazonaws.com/ngs-replay-storage/ngs_10-16-2026_Protectors_of_Shakuras_vs_Crowd_Control_Syndicate_Sky_Temple.stormReplay'
+          expected_bytes = 1357323
+          with urllib.request.build_opener(NoRedirect).open(url, timeout=45) as response:
+              if response.code != 200:
+                  raise RuntimeError('Known control is unavailable')
+              raw = response.read(expected_bytes + 1)
+          if len(raw) != expected_bytes or hashlib.sha256(raw).hexdigest() != 'afcf49a656068f343173fc79afff2d2ebf15066f531cb192382cdba9d1ea3272':
+              raise RuntimeError('Known control digest or size differs')
+          path = Path('work/known-sky.StormReplay')
+          path.parent.mkdir(exist_ok=True)
+          with path.open('xb') as stream:
+              stream.write(raw)
+          PY
       - name: Discover and run every root test module with explicit platform gaps
         run: python scripts/run_offline_regressions.py --report work/offline-unit-regression.json
       - name: Retain counts, test IDs and skip reasons only

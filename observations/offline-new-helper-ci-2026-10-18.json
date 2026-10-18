@@ -1,0 +1,76 @@
+{
+  "alias_workflow": {
+    "complete_pinned_xml_files": 5575,
+    "conclusion": "success",
+    "focused_tests": 30,
+    "job_id": 117772489842,
+    "matched_names": 63,
+    "matches": 238,
+    "published_data_commit": "ccb25a1",
+    "report_sha256": "bfbc51bb4c5270cfc13ba5199821795ae4e9dfea9d2ef114a2ba954c5e274bfc",
+    "run_id": 39160460385,
+    "skips": 0,
+    "url": "https://github.com/lisu188/hots-replay-recovery/actions/runs/39160460385",
+    "xml_bytes": 79556009
+  },
+  "client_launched": false,
+  "complete_regression_before_fixture_fix": {
+    "conclusion": "failure",
+    "discovered_and_run_per_job": 846,
+    "jobs": [
+      {
+        "job_id": 117772490144,
+        "platform": "windows-pwsh7",
+        "skips": 5
+      },
+      {
+        "job_id": 117772490331,
+        "platform": "linux",
+        "skips": 39
+      },
+      {
+        "job_id": 117772490454,
+        "platform": "windows-powershell51",
+        "skips": 5
+      }
+    ],
+    "module_count": 40,
+    "reason": "Set NGS_RANGE_CONTROL to the SHA-pinned already-downloaded control",
+    "run_id": 39160460383,
+    "runner_correctly_refused_missing_fixture": true,
+    "unexpected_skip": "test_ngs_range_details.RangeTests.test_actual_control_fake_ranges_match_unmodified_mpyq",
+    "unittest_errors_per_job": 0,
+    "unittest_failures_per_job": 0,
+    "url": "https://github.com/lisu188/hots-replay-recovery/actions/runs/39160460383"
+  },
+  "correction": {
+    "assertions_or_runner_changed": false,
+    "new_run_result": "must be recorded separately",
+    "skip_whitelist_changed": false,
+    "stage_same_bounded_sha_bound_public_fixture_as_dedicated_range_workflow": true
+  },
+  "format": "hots-offline-new-helper-ci-v1",
+  "full_upgrade_complete": false,
+  "range_workflow": {
+    "actual_sha_bound_fixture_test_executed": true,
+    "conclusion": "success",
+    "jobs": [
+      {
+        "job_id": 117772489695,
+        "platform": "linux",
+        "skips": 0,
+        "tests_run": 15
+      },
+      {
+        "job_id": 117772489918,
+        "platform": "windows",
+        "skips": 0,
+        "tests_run": 15
+      }
+    ],
+    "run_id": 39160460366,
+    "url": "https://github.com/lisu188/hots-replay-recovery/actions/runs/39160460366"
+  },
+  "replay_modified": false,
+  "tested_commit": "4f3757aec0edbeaa111908e7e3ae398cb3f07426"
+}
