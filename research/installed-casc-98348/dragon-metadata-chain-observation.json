@@ -1,0 +1,74 @@
+{
+  "format": "hots-root-bound-dragon-metadata-chain-observation-v1",
+  "root": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+  "root_version": "2.57.0.98348",
+  "inspected_only_three_saved_members": true,
+  "xml_documentinfo": {
+    "root": "DocInfo",
+    "top_level_fields": [
+      "Dependencies"
+    ],
+    "dependency_references": [
+      "bnet:Heroes of the Storm (Data Mod)/0.0/999,file:Mods/HeroesData.StormMod"
+    ],
+    "parsed_bnet_dependency": {
+      "name": "Heroes of the Storm (Data Mod)",
+      "version_text": "0.0",
+      "catalog_id": 999,
+      "local_path": "Mods/HeroesData.StormMod"
+    },
+    "self_published_catalog_id_declared": false,
+    "region_or_specific_s2mh_handle_declared": false
+  },
+  "componentlist": {
+    "root": "Components",
+    "component_count": 14,
+    "dependency_routing_field_declared": false
+  },
+  "binary_documentheader": {
+    "first_four_bytes_hex": "6f726548",
+    "u32_little_endian_at4": 8,
+    "is_blizzard_self_describing_s2mh_outer_struct": false,
+    "following_fields_interpreted": false
+  },
+  "member_handle_search": [
+    {
+      "member": "DocumentHeader",
+      "bytes": 1069,
+      "sha256": "c28505f68837fd30a8cdb0baa2a73706752d083953823d0eef1e72431945fa21",
+      "direct_s2mh_depot_handles": [],
+      "known_current_us_s2mh_digests_embedded_raw": [],
+      "known_current_us_s2mh_digests_embedded_hex": [],
+      "http_or_https_url_marker_present": false
+    },
+    {
+      "member": "DocumentInfo",
+      "bytes": 202,
+      "sha256": "14011927f94f9fb7531bc2f7ec533fd00881eba9a2c34b01e21a7049c0a48056",
+      "direct_s2mh_depot_handles": [],
+      "known_current_us_s2mh_digests_embedded_raw": [],
+      "known_current_us_s2mh_digests_embedded_hex": [],
+      "http_or_https_url_marker_present": false
+    },
+    {
+      "member": "ComponentList.StormComponents",
+      "bytes": 1040,
+      "sha256": "0686ae8f21934555d26bd29cf5f3b37162ad76794e16e10a7a26d5edb8b38461",
+      "direct_s2mh_depot_handles": [],
+      "known_current_us_s2mh_digests_embedded_raw": [],
+      "known_current_us_s2mh_digests_embedded_hex": [],
+      "http_or_https_url_marker_present": false
+    }
+  ],
+  "exact_missing_us_s2mh_recovered": false,
+  "new_primary_route_to_missing_three_s2mh_established": false,
+  "limitations": [
+    "The only explicit package reference is a dependency999 with version text0.0; it provides no region or exact content handle. No floating-version or cross-region resolution is inferred.",
+    "The binary DocumentHeader is not the self-describing depot s2mh outer container. Fields beyond its observed prefix were not assigned guessed meanings.",
+    "No direct handle or known hash match is evidence only for the tested representations in these three members; unnamed or differently encoded data was not ruled out.",
+    "Local installed module identity and cached public map archive identity remain distinct."
+  ],
+  "raw_creator_player_or_account_fields_emitted": false,
+  "no_additional_file_extraction": true,
+  "client_launched": false
+}

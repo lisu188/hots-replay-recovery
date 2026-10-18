@@ -1,0 +1,137 @@
+{
+  "all_executed_research_source_hashes_preserved": true,
+  "all_published_hashes_checked_against_git_index": true,
+  "client_launched": false,
+  "exact_missing_s2mh_recovered": false,
+  "format": "hots-installed-casc-publication-binding-v2",
+  "independent_review_path": "observations/installed-casc-independent-review-2026-10-18.json",
+  "independent_review_sha256": "367d6735d722adbfa84f10d2836877707279191579929991dace1e47f1e6e5e3",
+  "normalization_did_not_change_JSON_values": true,
+  "producer_JSON_reports_normalized_to_LF": [
+    "research/installed-casc-98348/local-casc-config-only.json",
+    "research/installed-casc-98348/local-casc-dragon-metadata.json"
+  ],
+  "published_files": [
+    {
+      "CRLF_to_LF_JSON_serialization_only": false,
+      "producer_bytes": 8495,
+      "producer_sha256": "f82f159ca3465eca409d6492757300639b88f4c4bed952da1758d9725dd9af3a",
+      "published_bytes": 8495,
+      "published_sha256": "f82f159ca3465eca409d6492757300639b88f4c4bed952da1758d9725dd9af3a",
+      "repository_path": "observations/installed-casc-98348-metadata-2026-10-18.json",
+      "source": "local-casc-98348-metadata-summary.json"
+    },
+    {
+      "CRLF_to_LF_JSON_serialization_only": false,
+      "producer_bytes": 5692,
+      "producer_sha256": "8221feb41450a09542a08612991e7ea2a89e9e38f3c3af0abf91c9c03a9ee6cb",
+      "published_bytes": 5692,
+      "published_sha256": "8221feb41450a09542a08612991e7ea2a89e9e38f3c3af0abf91c9c03a9ee6cb",
+      "repository_path": "docs/INSTALLED_CASC_METADATA_2026-10-18.md",
+      "source": "README_READONLY_CASC.md"
+    },
+    {
+      "CRLF_to_LF_JSON_serialization_only": false,
+      "producer_bytes": 11299,
+      "producer_sha256": "34893626c0c266b5b9dbd15ea1f81e59c625a2b8f08c6fa08b28a050b8b733da",
+      "published_bytes": 11299,
+      "published_sha256": "34893626c0c266b5b9dbd15ea1f81e59c625a2b8f08c6fa08b28a050b8b733da",
+      "repository_path": "research/installed-casc-98348/enumerate_local_casc.ps1",
+      "source": "enumerate_local_casc.ps1"
+    },
+    {
+      "CRLF_to_LF_JSON_serialization_only": false,
+      "producer_bytes": 2256,
+      "producer_sha256": "5867fb9735fd5411c91c3eeb072ce19e6695beac1873ad0fe77cc9ef42a17f6d",
+      "published_bytes": 2256,
+      "published_sha256": "5867fb9735fd5411c91c3eeb072ce19e6695beac1873ad0fe77cc9ef42a17f6d",
+      "repository_path": "research/installed-casc-98348/stage_local_casc_config.py",
+      "source": "stage_local_casc_config.py"
+    },
+    {
+      "CRLF_to_LF_JSON_serialization_only": false,
+      "producer_bytes": 1918,
+      "producer_sha256": "89b7519319d57939311d103405b33b7b49aed688e7bb88b066d97f24ca277664",
+      "published_bytes": 1918,
+      "published_sha256": "89b7519319d57939311d103405b33b7b49aed688e7bb88b066d97f24ca277664",
+      "repository_path": "research/installed-casc-98348/save_verified_casclib.py",
+      "source": "save_verified_casclib.py"
+    },
+    {
+      "CRLF_to_LF_JSON_serialization_only": false,
+      "producer_bytes": 1177,
+      "producer_sha256": "2a8e15adf996b310af6e2e9010aae5524a1ccf4646ae77c0e5f1564f16fdbf71",
+      "published_bytes": 1177,
+      "published_sha256": "2a8e15adf996b310af6e2e9010aae5524a1ccf4646ae77c0e5f1564f16fdbf71",
+      "repository_path": "research/installed-casc-98348/saved-casclib-provenance.json",
+      "source": "saved-casclib-provenance.json"
+    },
+    {
+      "CRLF_to_LF_JSON_serialization_only": false,
+      "producer_bytes": 1119,
+      "producer_sha256": "daf4d11d4abff690253c401cdb6c0559a6642fa6a1900299c3cd117a0600f762",
+      "published_bytes": 1119,
+      "published_sha256": "daf4d11d4abff690253c401cdb6c0559a6642fa6a1900299c3cd117a0600f762",
+      "repository_path": "research/installed-casc-98348/staged-config-provenance.json",
+      "source": "staged-config-provenance.json"
+    },
+    {
+      "CRLF_to_LF_JSON_serialization_only": false,
+      "producer_bytes": 16333,
+      "producer_sha256": "68be2a68dd3bd73e3a406845f343bf7c2e0955947acd5a7780ab733e26c8a37f",
+      "published_bytes": 16333,
+      "published_sha256": "68be2a68dd3bd73e3a406845f343bf7c2e0955947acd5a7780ab733e26c8a37f",
+      "repository_path": "research/installed-casc-98348/primary-source-guard-provenance.json",
+      "source": "primary-source-guard-provenance.json"
+    },
+    {
+      "CRLF_to_LF_JSON_serialization_only": true,
+      "producer_bytes": 750,
+      "producer_sha256": "80d2f300363f9cc5d39c805cef46e9065aea627fd0148b6365db95f79b048af9",
+      "published_bytes": 731,
+      "published_sha256": "6ade5ca760bfd1535dff2064e43303d9b63754e36e53848ad41aa9d678e8893a",
+      "repository_path": "research/installed-casc-98348/local-casc-config-only.json",
+      "source": "local-casc-config-only.json"
+    },
+    {
+      "CRLF_to_LF_JSON_serialization_only": false,
+      "producer_bytes": 25977,
+      "producer_sha256": "00cef59debfa159d1a8e7c112decadb492e8574621b97c76a3dae95929fbbfb9",
+      "published_bytes": 25977,
+      "published_sha256": "00cef59debfa159d1a8e7c112decadb492e8574621b97c76a3dae95929fbbfb9",
+      "repository_path": "research/installed-casc-98348/local-casc-strict-metadata-filenames.json",
+      "source": "local-casc-strict-metadata-filenames.json"
+    },
+    {
+      "CRLF_to_LF_JSON_serialization_only": true,
+      "producer_bytes": 2617,
+      "producer_sha256": "b299f4f445f24aedc37fab6dac6a8fef8d60340c5d36960e8585c024af44cb74",
+      "published_bytes": 2559,
+      "published_sha256": "9103a860223f4e0ffc4258554ced0d1729029a1810081ae8fec9be37e11cb4a7",
+      "repository_path": "research/installed-casc-98348/local-casc-dragon-metadata.json",
+      "source": "local-casc-dragon-metadata.json"
+    },
+    {
+      "CRLF_to_LF_JSON_serialization_only": false,
+      "producer_bytes": 2275,
+      "producer_sha256": "b3ef8ddc6c084e3cd0b03f2edec6bb2793a5e67aa9904e161ff25ce0e7ee1fc5",
+      "published_bytes": 2275,
+      "published_sha256": "b3ef8ddc6c084e3cd0b03f2edec6bb2793a5e67aa9904e161ff25ce0e7ee1fc5",
+      "repository_path": "research/installed-casc-98348/casc-current-dragon-cache-crosscheck-v2.json",
+      "source": "casc-current-dragon-cache-crosscheck-v2.json"
+    },
+    {
+      "CRLF_to_LF_JSON_serialization_only": false,
+      "producer_bytes": 3016,
+      "producer_sha256": "255a47ac087ce450e4f0861125a141592b8d9f61706c991927ab256e63a8428b",
+      "published_bytes": 3016,
+      "published_sha256": "255a47ac087ce450e4f0861125a141592b8d9f61706c991927ab256e63a8428b",
+      "repository_path": "research/installed-casc-98348/dragon-metadata-chain-observation.json",
+      "source": "dragon-metadata-chain-observation.json"
+    }
+  ],
+  "raw_metadata_or_dll_published": false,
+  "replay_modified": false,
+  "review_outcome": "pass-no-material-findings",
+  "source_allowlist_sha256": "1fbe89d569a7d78a3d7c66224722fb15cf6bc8b7d5c720750a882e273607a083"
+}

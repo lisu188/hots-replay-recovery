@@ -1,0 +1,37 @@
+{
+  "additional_verified_mappings": 0,
+  "client_launched": false,
+  "five_hyperlink_values_equal": true,
+  "format": "hots-collection-reference-graph-root-review-v1",
+  "graph_sha256": "3e261691b55247f0997668dab4082d2d32972efc187277da76ecdeb0ac12eca2",
+  "helper_sha256": "2be51fd1bc9a3c31eab5c81b7cc9894916f46032b4868778d41adb6bf8fed505",
+  "independent_candidate_count_distribution": {
+    "3": 16,
+    "4": 12,
+    "5": 5
+  },
+  "independent_global_type_id_counts": {
+    "hyperlink_owners": {
+      "global_duplicates": 0,
+      "references": 5
+    },
+    "hyperlink_rewards": {
+      "global_duplicates": 0,
+      "references": 5
+    },
+    "visual_children": {
+      "global_duplicates": 0,
+      "references": 121
+    },
+    "visual_rewards": {
+      "global_duplicates": 0,
+      "references": 121
+    }
+  },
+  "independent_parent_child_reward_join_sets_equal": true,
+  "initial_review_comparison": "An in-memory integer-keyed Counter differs from JSON string keys; repeat comparison uses standard JSON serialization for key normalization. No source or report guard changed.",
+  "replay_modified": false,
+  "scope": "Independent joins over exact published derived XML data; no raw XML extraction or effective catalog resolution",
+  "semantic_JSON_reproduction_equal": true,
+  "unresolved_names": 207
+}

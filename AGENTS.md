@@ -355,3 +355,39 @@ but skips were39Linux/5eachWindows. The workflow now stages the same bounded
 SHA-pinned public fixture and sets NGS_RANGE_CONTROL. No whitelist, assertion
 or runner was weakened. Record the corrected run separately; no client or
 replay write occurred, and R8/full-upgrade state remains unchanged.
+
+
+## Complete current XML assessment and offline installed storage - 2026-10-18
+
+The complete 5575-XML report is now assessed in dated collection-reference docs
+and projections. NovaHoloCloneCloaked has zero direct CUnit declarations in that
+XML scope; NovaHoloClone/AbathurEvolvedMonstrosity have one each and the tower
+has eight, including Dragon. No numeric replacement is inferred. The 33 visual
+families each have 3-5 current License candidates (121 total); same-file-only
+uniqueness is false. Five HyperlinkId/reward chains are source-reference
+candidates only. Independent joins/global identity counts agree. Keep existing
+56 exact-name candidates and all 207 unresolved conversion names unchanged.
+
+Installed CASC was opened offline with verified managed DLL provenance and
+read-only index/data paths. Configuration ReadWrite opens used scratch copies;
+a denying HTTP handler passed its canary and operations recorded zero requests.
+Actual root MD5 matches c3b3c8bc82e3a5a62e550fdde9a40c28. All 1208637 filenames
+were scanned: 324 exact metadata names and no .s2mh filenames, a filename-only
+absence observation. Three identified Dragon metadata files total 2311 bytes,
+all MD5/CKey verified, and differ from cached map metadata. The only explicit
+dependency999/0.0/local path gives no new exact header route. Partial-path Clear
+NullReference is retained. Independent review passed; raw members/DLL stay local.
+Frozen machine-bound research sources are retained under research/ with docs.
+
+Corrected CI39160865689 at8c91741 passed all three prepared lanes: 846 discovered
+and run tests/40 modules, no failures/errors/unexpected skips, declared skips
+38 Linux and4 per Windows lane. The genuine NGS fixture test actually ran.
+Earlier failed run39160460383 stays historical. Original and R8 SHA256 values
+were rechecked unchanged; no client launched, no new replay, full upgrade remains
+unfinished under the offline-only user instruction.
+
+Two PowerShell-produced CASC JSON reports are stored as LF by .gitattributes.
+The publication-binding v2 retains original artifact and published Git blob
+digests/sizes, verifies identical JSON values and every staged file hash.
+Executed research-code hashes are unchanged. Original artifact receipts retain
+their original CRLF report digests; they are not relabeled published hashes.

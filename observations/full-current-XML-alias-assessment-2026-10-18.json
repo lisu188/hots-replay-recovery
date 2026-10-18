@@ -1,0 +1,609 @@
+{
+  "additional_verified_legacy_name_to_license_mappings": 0,
+  "assessed_utc": "2026-10-18T19:55:22.682644+00:00",
+  "exact_matches": 238,
+  "format": "hots-full-current-XML-alias-scan-independent-assessment-v1",
+  "full_projected_XML_digest_verification_passed": true,
+  "generation_provenance": {
+    "collector_sha256": "e08784ba9130e3bfa6b75bdc11af5f9655f21ed500d90cd6f2721bf60638da32",
+    "expected_build_config": "a64c9b7ebf1c6a811ffefad97865ed80",
+    "extractor_archive_sha256": "d5db68a8659456c287df3ed65d64c4786a6501e8f1c638008c81032e90da9f9d",
+    "extractor_release": "5.1.0",
+    "github_run_id": "39160460385",
+    "official_manifest_sha256": "f94345ccb04cd3c794ceceb7395efbe6e314eb9a0aec7cb6c3a779b400d74cf4",
+    "repository_commit": "4f3757aec0edbeaa111908e7e3ae398cb3f07426",
+    "scanner_sha256": "42994bd447ccd56cc2b285a3576c45655bc8e0d9fb328ca91b259204fc1b80aa",
+    "workflow_url": "https://github.com/lisu188/hots-replay-recovery/actions/runs/39160460385"
+  },
+  "head_commit": "4f3757aec0edbeaa111908e7e3ae398cb3f07426",
+  "job_id": 117772489842,
+  "legacy_query_names": 207,
+  "limitations": [
+    "Full coverage is the 5,575 projected gamedata XML files; it does not cover arbitrary binary, server-side or constructed aliases.",
+    "HyperlinkId is preserved as a distinct field. Its equality to an old collection name is not proof of legacy entitlement migration.",
+    "Candidate reward joins are literal source references only; inheritance and catalog order remain unresolved.",
+    "Unit declaration presence or absence provides no numeric catalog link and proves no runtime replacement.",
+    "This assessment inspected published report bytes and CI job logs, and did not rerun the remote 80 MB extraction locally."
+  ],
+  "match_roles": {
+    "catalog-record-identity": 8,
+    "reward-record-identity": 6,
+    "unclassified-exact-literal-reference": 58,
+    "visual-or-audio-asset-reference": 166
+  },
+  "material_scanner_correctness_findings": [],
+  "names_not_seen": 144,
+  "names_seen": 63,
+  "player_data_exported": false,
+  "published_report_bytes": 205548,
+  "published_report_commit": "ccb25a17ed3728b3be71c9a61e23e7804bb7dc6b",
+  "published_report_git_blob_sha1": "10b5cea002c6dba0333a983b5fbda644fdb610d2",
+  "published_report_sha256": "bfbc51bb4c5270cfc13ba5199821795ae4e9dfea9d2ef114a2ba954c5e274bfc",
+  "raw_XML_exported": false,
+  "representative_master_names": {
+    "ETCSkinMaster": {
+      "exact_matches": 0
+    },
+    "LunaraSkinMaster": {
+      "exact_matches": 0
+    },
+    "VallaSkinMaster": {
+      "exact_matches": 0
+    }
+  },
+  "same_owner_HyperlinkId_reward_candidate_chains": [
+    {
+      "cross_record_join_is_syntactic_only": true,
+      "legacy_alias_or_entitlement_mapping_proven": false,
+      "legacy_literal": "IllidansNightmare",
+      "matching_field": "HyperlinkId",
+      "node_path": "Catalog[0]/CMount[2]/HyperlinkId[7]",
+      "owner": {
+        "id": "IllidanHorse",
+        "kind": "CMount"
+      },
+      "owner_unresolved": [
+        [
+          "parent_inheritance_not_resolved"
+        ]
+      ],
+      "same_owner_direct_RequiredRewardArray_literals": [
+        "IllidanHorse"
+      ],
+      "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/horsedata/mount_ride_horseillidansnightmarebasedata.xml",
+      "syntactic_reward_targets": [
+        {
+          "direct_License_values": [
+            18448
+          ],
+          "id": "IllidanHorse",
+          "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/horsedata/mount_ride_horseillidansnightmarebasedata.xml",
+          "type": "CRewardMount",
+          "unresolved": []
+        }
+      ]
+    },
+    {
+      "cross_record_join_is_syntactic_only": true,
+      "legacy_alias_or_entitlement_mapping_proven": false,
+      "legacy_literal": "GoldenCyberWolf",
+      "matching_field": "HyperlinkId",
+      "node_path": "Catalog[0]/CMount[2]/HyperlinkId[7]",
+      "owner": {
+        "id": "CyberWolfGold",
+        "kind": "CMount"
+      },
+      "owner_unresolved": [
+        [
+          "parent_inheritance_not_resolved"
+        ]
+      ],
+      "same_owner_direct_RequiredRewardArray_literals": [
+        "CyberWolfGold"
+      ],
+      "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mountcyberwolfgolddata/mount_ride_cyberwolfgoldbasedata.xml",
+      "syntactic_reward_targets": [
+        {
+          "direct_License_values": [
+            18427
+          ],
+          "id": "CyberWolfGold",
+          "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mountcyberwolfgolddata/mount_ride_cyberwolfgoldbasedata.xml",
+          "type": "CRewardMount",
+          "unresolved": []
+        }
+      ]
+    },
+    {
+      "cross_record_join_is_syntactic_only": true,
+      "legacy_alias_or_entitlement_mapping_proven": false,
+      "legacy_literal": "WonderBillie",
+      "matching_field": "HyperlinkId",
+      "node_path": "Catalog[0]/CMount[2]/HyperlinkId[7]",
+      "owner": {
+        "id": "BillieGoat",
+        "kind": "CMount"
+      },
+      "owner_unresolved": [
+        [
+          "parent_inheritance_not_resolved"
+        ]
+      ],
+      "same_owner_direct_RequiredRewardArray_literals": [
+        "BillieGoat"
+      ],
+      "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mountgoatwonderdata/mount_ride_goatwonderbasedata.xml",
+      "syntactic_reward_targets": [
+        {
+          "direct_License_values": [
+            18538
+          ],
+          "id": "BillieGoat",
+          "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mountgoatwonderdata/mount_ride_goatwonderbasedata.xml",
+          "type": "CRewardMount",
+          "unresolved": [
+            "parent_inheritance_not_resolved"
+          ]
+        }
+      ]
+    },
+    {
+      "cross_record_join_is_syntactic_only": true,
+      "legacy_alias_or_entitlement_mapping_proven": false,
+      "legacy_literal": "PiggyBank",
+      "matching_field": "HyperlinkId",
+      "node_path": "Catalog[0]/CMount[3]/HyperlinkId[5]",
+      "owner": {
+        "id": "MoneyPig",
+        "kind": "CMount"
+      },
+      "owner_unresolved": [
+        [
+          "parent_inheritance_not_resolved"
+        ]
+      ],
+      "same_owner_direct_RequiredRewardArray_literals": [
+        "MoneyPig"
+      ],
+      "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mountmoneypigdata/mount_ride_moneypigbasedata.xml",
+      "syntactic_reward_targets": [
+        {
+          "direct_License_values": [
+            18490
+          ],
+          "id": "MoneyPig",
+          "source": "mods/heroesdata.stormmod/base.stormdata/gamedata/mounts/mountmoneypigdata/mount_ride_moneypigbasedata.xml",
+          "type": "CRewardMount",
+          "unresolved": []
+        }
+      ]
+    },
+    {
+      "cross_record_join_is_syntactic_only": true,
+      "legacy_alias_or_entitlement_mapping_proven": false,
+      "legacy_literal": "MechaDehaka",
+      "matching_field": "HyperlinkId",
+      "node_path": "Catalog[0]/CSkin[27]/HyperlinkId[10]",
+      "owner": {
+        "id": "DehakaMecha",
+        "kind": "CSkin"
+      },
+      "owner_unresolved": [
+        [
+          "parent_inheritance_not_resolved"
+        ]
+      ],
+      "same_owner_direct_RequiredRewardArray_literals": [
+        "DehakaMecha"
+      ],
+      "source": "mods/heromods/dehaka.stormmod/base.stormdata/gamedata/dehakaskindata/dehakamechadata/dehakamechabasedata.xml",
+      "syntactic_reward_targets": [
+        {
+          "direct_License_values": [
+            18008
+          ],
+          "id": "DehakaMecha",
+          "source": "mods/heromods/dehaka.stormmod/base.stormdata/gamedata/dehakaskindata/dehakamechadata/dehakamechabasedata.xml",
+          "type": "CRewardSkin",
+          "unresolved": []
+        }
+      ]
+    }
+  ],
+  "scope": "complete-pinned-XML-inventory",
+  "tests_observed_in_CI_log": {
+    "executed": 30,
+    "result": "pass"
+  },
+  "unclassified_match_groups": {
+    "CAbilEffectTarget.ProducedUnitArray@value": 1,
+    "CConversation.SpeakerCharacter@value": 21,
+    "CEffectApplyBehavior.Behavior@value": 1,
+    "CHero.HyperlinkId@value": 12,
+    "CMount.HyperlinkId@value": 10,
+    "CSkin.HyperlinkId@value": 1,
+    "CSkin.ModelMacroRun@Models": 3,
+    "CSkin.ReplacementArray@From": 2,
+    "CTargetSortBehaviorCount.Behavior@value": 1,
+    "CVoiceOver.Character@value": 6
+  },
+  "unit_identity_queries": {
+    "complete_pinned_XML_inventory_verified": true,
+    "direct_Catalog_CUnit_declarations": [
+      {
+        "bytes": 3195,
+        "catalog_child_ordinal": 15,
+        "default": null,
+        "direct_fields": [
+          {
+            "field": {
+              "attributes": {
+                "Link": "TutorialTowerRangeBehavior"
+              },
+              "field_semantics_resolved": false,
+              "unresolved": [],
+              "unsupported_attribute_names": []
+            },
+            "tag": "BehaviorArray"
+          }
+        ],
+        "file": "mods/heroes.stormmod/base.stormmaps/maps/heroes/singleplayermaps/startingexperience/tutorial01.stormmap/base.stormdata/gamedata/unitdata.xml",
+        "id": "TownCannonTowerL2Standalone",
+        "inheritance_or_alias_resolution_performed": false,
+        "kind": "CUnit",
+        "parent": null,
+        "sha256": "f92d0f9a156a828ee81515a96fd87abb187b0250d41f54e88404e4fd0fa679b5"
+      },
+      {
+        "bytes": 2718,
+        "catalog_child_ordinal": 11,
+        "default": null,
+        "direct_fields": [
+          {
+            "field": {
+              "attributes": {
+                "Link": "TutorialTowerRangeBehavior"
+              },
+              "field_semantics_resolved": false,
+              "unresolved": [],
+              "unsupported_attribute_names": []
+            },
+            "tag": "BehaviorArray"
+          }
+        ],
+        "file": "mods/heroes.stormmod/base.stormmaps/maps/heroes/singleplayermaps/startingexperience/tutorialmapmechanics.stormmap/base.stormdata/gamedata/unitdata.xml",
+        "id": "TownCannonTowerL2Standalone",
+        "inheritance_or_alias_resolution_performed": false,
+        "kind": "CUnit",
+        "parent": null,
+        "sha256": "d174fddbd2bc01acac89069913d344e310a0903efd830700c6bd0ff02103e751"
+      },
+      {
+        "bytes": 311994,
+        "catalog_child_ordinal": 682,
+        "default": null,
+        "direct_fields": [
+          {
+            "field": {
+              "attributes": {
+                "Link": "HeroicSummon"
+              },
+              "field_semantics_resolved": false,
+              "unresolved": [],
+              "unsupported_attribute_names": []
+            },
+            "tag": "BehaviorArray"
+          },
+          {
+            "field": {
+              "attributes": {
+                "Link": "SpecialCaseNPCTakedownParticipant"
+              },
+              "field_semantics_resolved": false,
+              "unresolved": [],
+              "unsupported_attribute_names": []
+            },
+            "tag": "BehaviorArray"
+          },
+          {
+            "field": {
+              "attributes": {
+                "Link": "AbathurMonstrositySpawn"
+              },
+              "field_semantics_resolved": false,
+              "unresolved": [],
+              "unsupported_attribute_names": []
+            },
+            "tag": "BehaviorArray"
+          },
+          {
+            "field": {
+              "attributes": {
+                "Link": "HeroGenericIsFat"
+              },
+              "field_semantics_resolved": false,
+              "unresolved": [],
+              "unsupported_attribute_names": []
+            },
+            "tag": "BehaviorArray"
+          },
+          {
+            "field": {
+              "attributes": {
+                "Link": "HeroGenericHasNoStatusBar"
+              },
+              "field_semantics_resolved": false,
+              "unresolved": [],
+              "unsupported_attribute_names": []
+            },
+            "tag": "BehaviorArray"
+          },
+          {
+            "field": {
+              "attributes": {
+                "Link": "HeroGenericMapMechanicPickupDisallowed"
+              },
+              "field_semantics_resolved": false,
+              "unresolved": [],
+              "unsupported_attribute_names": []
+            },
+            "tag": "BehaviorArray"
+          }
+        ],
+        "file": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/abathurdata/abathurdata.xml",
+        "id": "AbathurEvolvedMonstrosity",
+        "inheritance_or_alias_resolution_performed": false,
+        "kind": "CUnit",
+        "parent": "StormSummonActive",
+        "sha256": "b2ecee56c24e3a6e62c904f066f858dd5fb9fa144c2e17af423320efaf9c69e1"
+      },
+      {
+        "bytes": 185225,
+        "catalog_child_ordinal": 443,
+        "default": null,
+        "direct_fields": [
+          {
+            "field": {
+              "attributes": {
+                "Link": "NovaPermanentCloak"
+              },
+              "field_semantics_resolved": false,
+              "unresolved": [],
+              "unsupported_attribute_names": []
+            },
+            "tag": "BehaviorArray"
+          },
+          {
+            "field": {
+              "attributes": {
+                "Link": "NovaPermanentCloakDisableController"
+              },
+              "field_semantics_resolved": false,
+              "unresolved": [],
+              "unsupported_attribute_names": []
+            },
+            "tag": "BehaviorArray"
+          },
+          {
+            "field": {
+              "attributes": {
+                "Link": "ExcellentMana"
+              },
+              "field_semantics_resolved": false,
+              "unresolved": [],
+              "unsupported_attribute_names": []
+            },
+            "tag": "BehaviorArray"
+          },
+          {
+            "field": {
+              "attributes": {
+                "Link": "HeroGenericPermanentHallucinationFlag"
+              },
+              "field_semantics_resolved": false,
+              "unresolved": [],
+              "unsupported_attribute_names": []
+            },
+            "tag": "BehaviorArray"
+          },
+          {
+            "field": {
+              "attributes": {
+                "Link": "VitalAliasUnitTracker"
+              },
+              "field_semantics_resolved": false,
+              "unresolved": [],
+              "unsupported_attribute_names": []
+            },
+            "tag": "BehaviorArray"
+          },
+          {
+            "field": {
+              "attributes": {
+                "Link": "NovaHoloDecoyXPGlobeFinder"
+              },
+              "field_semantics_resolved": false,
+              "unresolved": [],
+              "unsupported_attribute_names": []
+            },
+            "tag": "BehaviorArray"
+          }
+        ],
+        "file": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/novadata/novadata.xml",
+        "id": "NovaHoloClone",
+        "inheritance_or_alias_resolution_performed": false,
+        "kind": "CUnit",
+        "parent": "StormBasicHeroicUnit",
+        "sha256": "721086138a01ff65659616556ea617c85f968d8bd28ec888fa6397bde0ce113a"
+      },
+      {
+        "bytes": 188555,
+        "catalog_child_ordinal": 201,
+        "default": null,
+        "direct_fields": [
+          {
+            "field": {
+              "attributes": {
+                "Link": "TowerAttackUnitTracker"
+              },
+              "field_semantics_resolved": false,
+              "unresolved": [],
+              "unsupported_attribute_names": []
+            },
+            "tag": "BehaviorArray"
+          },
+          {
+            "field": {
+              "attributes": {
+                "Link": "TownCannonTowerNoDeath"
+              },
+              "field_semantics_resolved": false,
+              "unresolved": [],
+              "unsupported_attribute_names": []
+            },
+            "tag": "BehaviorArray"
+          },
+          {
+            "field": {
+              "attributes": {
+                "Link": "BuildingLightDamage"
+              },
+              "field_semantics_resolved": false,
+              "unresolved": [],
+              "unsupported_attribute_names": []
+            },
+            "tag": "BehaviorArray"
+          },
+          {
+            "field": {
+              "attributes": {
+                "Link": "BuildingHeavyDamage"
+              },
+              "field_semantics_resolved": false,
+              "unresolved": [],
+              "unsupported_attribute_names": []
+            },
+            "tag": "BehaviorArray"
+          }
+        ],
+        "file": "mods/heroesdata.stormmod/base.stormdata/gamedata/unitdata.xml",
+        "id": "TownCannonTowerL2Standalone",
+        "inheritance_or_alias_resolution_performed": false,
+        "kind": "CUnit",
+        "parent": "StormBaseTownStructure",
+        "sha256": "e313828c13bf3b053abd3d58e5d78da72b111202977f0873617eefbfadc61bd5"
+      },
+      {
+        "bytes": 1462,
+        "catalog_child_ordinal": 4,
+        "default": null,
+        "direct_fields": [],
+        "file": "mods/heroesmapmods/battlegroundmapmods/dragonshire.stormmod/base.stormdata/gamedata/unitdata.xml",
+        "id": "TownCannonTowerL2Standalone",
+        "inheritance_or_alias_resolution_performed": false,
+        "kind": "CUnit",
+        "parent": null,
+        "sha256": "871c23230d951d1fd7bf61e57b51cf0d3e0e275c85a00a3bcd794223d9cf4217"
+      },
+      {
+        "bytes": 1038,
+        "catalog_child_ordinal": 3,
+        "default": null,
+        "direct_fields": [],
+        "file": "mods/heroesmapmods/battlegroundmapmods/gardenofterrordata.stormmod/base.stormdata/gamedata/unitdata.xml",
+        "id": "TownCannonTowerL2Standalone",
+        "inheritance_or_alias_resolution_performed": false,
+        "kind": "CUnit",
+        "parent": null,
+        "sha256": "19962144abe8564ce1e10935f2f4f098522ba3d0a622b6740bfa25454b03efe7"
+      },
+      {
+        "bytes": 958,
+        "catalog_child_ordinal": 3,
+        "default": null,
+        "direct_fields": [],
+        "file": "mods/heroesmapmods/battlegroundmapmods/gardenofterrordata_classic.stormmod/base.stormdata/gamedata/unitdata.xml",
+        "id": "TownCannonTowerL2Standalone",
+        "inheritance_or_alias_resolution_performed": false,
+        "kind": "CUnit",
+        "parent": null,
+        "sha256": "9d3188cbb68262248225c99c828bffccad95cf0c02654d180c1cfb8da64333fa"
+      },
+      {
+        "bytes": 13287,
+        "catalog_child_ordinal": 25,
+        "default": null,
+        "direct_fields": [],
+        "file": "mods/heroesmapmods/battlegroundmapmods/tombofthespiderqueen.stormmod/base.stormdata/gamedata/unitdata.xml",
+        "id": "TownCannonTowerL2Standalone",
+        "inheritance_or_alias_resolution_performed": false,
+        "kind": "CUnit",
+        "parent": null,
+        "sha256": "32d25d21a64c8835d7a59b8bb6014acda5c5299694a35d0b25be23607e32d2f6"
+      },
+      {
+        "bytes": 23548,
+        "catalog_child_ordinal": 34,
+        "default": null,
+        "direct_fields": [
+          {
+            "field": {
+              "attributes": {
+                "Link": "TowerSpawnPushSearch"
+              },
+              "field_semantics_resolved": false,
+              "unresolved": [],
+              "unsupported_attribute_names": []
+            },
+            "tag": "BehaviorArray"
+          }
+        ],
+        "file": "mods/heroesmapmods/battlegroundmapmods/towersofdoom.stormmod/base.stormdata/gamedata/unitdata.xml",
+        "id": "TownCannonTowerL2Standalone",
+        "inheritance_or_alias_resolution_performed": false,
+        "kind": "CUnit",
+        "parent": null,
+        "sha256": "ab67e3f8d02c30083db5eeafdb9cc3abbf1fac63be75172fe57bc626ea8a9a0e"
+      }
+    ],
+    "inheritance_catalog_order_or_UnitAlias_semantics_resolved": false,
+    "numeric_unit_links_or_replacements_inferred": false,
+    "queries": [
+      "NovaHoloCloneCloaked",
+      "NovaHoloClone",
+      "AbathurEvolvedMonstrosity",
+      "TownCannonTowerL2Standalone"
+    ],
+    "results": [
+      {
+        "absent_from_all_projected_XML": true,
+        "declaration_count": 0,
+        "id": "NovaHoloCloneCloaked",
+        "not_seen_in_scanned_XML": true
+      },
+      {
+        "absent_from_all_projected_XML": false,
+        "declaration_count": 1,
+        "id": "NovaHoloClone",
+        "not_seen_in_scanned_XML": false
+      },
+      {
+        "absent_from_all_projected_XML": false,
+        "declaration_count": 1,
+        "id": "AbathurEvolvedMonstrosity",
+        "not_seen_in_scanned_XML": false
+      },
+      {
+        "absent_from_all_projected_XML": false,
+        "declaration_count": 8,
+        "id": "TownCannonTowerL2Standalone",
+        "not_seen_in_scanned_XML": false
+      }
+    ]
+  },
+  "workflow_conclusion_observed": "success",
+  "workflow_url": "https://github.com/lisu188/hots-replay-recovery/actions/runs/39160460385",
+  "xml_bytes": 79556009,
+  "xml_files": 5575,
+  "xml_inventory_sha256": "16da750b8cf647230afa5698b2e5cf2b0e0143ce0372a92e883e9841eca0807e"
+}

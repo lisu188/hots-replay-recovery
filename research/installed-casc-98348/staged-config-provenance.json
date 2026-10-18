@@ -1,0 +1,32 @@
+{
+  "format": "hots-local-casc-config-stage-v1",
+  "version": "2.57.0.98348",
+  "build_key": "a64c9b7ebf1c6a811ffefad97865ed80",
+  "cdn_key": "9575c98a819e557a3e6ec7b003428124",
+  "declared_root": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+  "declared_encoding": "0fe63ea1a99c443078ea7d75d53acbae e6f9f577e9a8bbce335176984e911ce0",
+  "encoding_size": "92601731 92532104",
+  "build_name": "B98348",
+  "build_uid": "hero",
+  "game_storage_modified": false,
+  "files": [
+    {
+      "path": ".build.info",
+      "bytes": 686,
+      "sha256": "ecc84a6a3189feb275d5be98d66a5e4eac94eaae1c9f50249276c93ce914b558",
+      "installed_source_unchanged": true
+    },
+    {
+      "path": "HeroesData/config/a6/4c/a64c9b7ebf1c6a811ffefad97865ed80",
+      "bytes": 1202,
+      "sha256": "9c5817913f3505e5bbb8e2bbe6775fcfb568ec7d23d2f685707b254830070f84",
+      "installed_source_unchanged": true
+    },
+    {
+      "path": "HeroesData/config/95/75/9575c98a819e557a3e6ec7b003428124",
+      "bytes": 7897,
+      "sha256": "83ef02e2e537aed16ef4cffe8128a460a947537621c14c9e5acd0940b1707c75",
+      "installed_source_unchanged": true
+    }
+  ]
+}

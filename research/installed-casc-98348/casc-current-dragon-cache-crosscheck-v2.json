@@ -1,0 +1,49 @@
+{
+  "format": "hots-casc-current-dragon-cache-crosscheck-v2",
+  "cache_archive_sha256": "f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f",
+  "cache_archive_sha256_matches_current_replay_archive_handle": true,
+  "casc_version": "2.57.0.98348",
+  "casc_root": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+  "actual_root_content_md5": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+  "members": [
+    {
+      "member": "DocumentHeader",
+      "cache_archive_member_sha256": "4dc1cfb2b684c4b601f592563ff9af751b47c99153c41ccd5189c81d561bfb75",
+      "casc_bytes": 1069,
+      "casc_sha256": "c28505f68837fd30a8cdb0baa2a73706752d083953823d0eef1e72431945fa21",
+      "byte_equal": false,
+      "cache_member_bytes": 22540
+    },
+    {
+      "member": "DocumentInfo",
+      "cache_archive_member_sha256": "fb2da9a2ebec3757be2c83b8d613beff55d6d5ef367c87dc97223eece183b7dd",
+      "casc_bytes": 202,
+      "casc_sha256": "14011927f94f9fb7531bc2f7ec533fd00881eba9a2c34b01e21a7049c0a48056",
+      "byte_equal": false,
+      "cache_member_bytes": 1264
+    },
+    {
+      "member": "ComponentList.StormComponents",
+      "cache_archive_member_sha256": "c4a332a98f674bef1135c1f6b93c195c82fd485915be77388e85a4b1357a501c",
+      "casc_bytes": 1040,
+      "casc_sha256": "0686ae8f21934555d26bd29cf5f3b37162ad76794e16e10a7a26d5edb8b38461",
+      "byte_equal": false,
+      "cache_member_bytes": 1386
+    }
+  ],
+  "server_generated_s2mh_identity_equivalence_proven": false,
+  "all_http_blocked_before_transport": true,
+  "casc_http_attempts": 0,
+  "game_storage_modified": false,
+  "cache_archive_bytes": 2228175,
+  "comparison_scope": "named-local-dragonshire.stormmod versus cached-f557-map-archive; dependency roles are not asserted equivalent",
+  "known_current_us_s2mh_digests": [
+    "3392997d3afe27a33371b58cfaff37af5b67bda09ee9131e52bae0a0c80b2b76",
+    "82cf19ac9ceb903631db0994023efba040a1ccfbb0e920033a742d62cb65a77b",
+    "4b6fdc8eccc9eca107f7c6e5eae6c7c604e718ded019f4f4110a92300b54313f",
+    "0633db0bcff394a95e6d3e62a54190c2c33ee6c39af555a5d6268ac6e26c936a",
+    "42afeaf8be79bff738e3387c15261b2c71474a63618ecfe8d38f5beb2985b57a",
+    "3c2d7d5c17b8a5351c03d7bfb40159ca158694176b81d51bbd1d12abadc2e429"
+  ],
+  "local_documentheader_sha256_matches_any_current_us_s2mh_digest": false
+}

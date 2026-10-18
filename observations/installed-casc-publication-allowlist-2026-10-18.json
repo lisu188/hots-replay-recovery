@@ -1,0 +1,98 @@
+{
+  "format": "hots-installed98348-casc-publish-review-receipt-v1",
+  "status": "frozen-pending-independent-review",
+  "executed_reader_sha256": "34893626c0c266b5b9dbd15ea1f81e59c625a2b8f08c6fa08b28a050b8b733da",
+  "substantive_summary_sha256": "f82f159ca3465eca409d6492757300639b88f4c4bed952da1758d9725dd9af3a",
+  "readme_updated_only_after_summary_freeze": true,
+  "executed_code_changed_after_proof": false,
+  "suggested_publication": {
+    "receipt": "observations/installed-casc-98348-metadata-2026-10-18.json",
+    "docs": "docs/INSTALLED_CASC_METADATA_2026-10-18.md",
+    "research_sources": "research/installed-casc-98348/",
+    "research_only_machine_bound_helpers": true
+  },
+  "allowed_files": [
+    {
+      "source": "local-casc-98348-metadata-summary.json",
+      "bytes": 8495,
+      "sha256": "f82f159ca3465eca409d6492757300639b88f4c4bed952da1758d9725dd9af3a"
+    },
+    {
+      "source": "README_READONLY_CASC.md",
+      "bytes": 5692,
+      "sha256": "8221feb41450a09542a08612991e7ea2a89e9e38f3c3af0abf91c9c03a9ee6cb"
+    },
+    {
+      "source": "enumerate_local_casc.ps1",
+      "bytes": 11299,
+      "sha256": "34893626c0c266b5b9dbd15ea1f81e59c625a2b8f08c6fa08b28a050b8b733da"
+    },
+    {
+      "source": "stage_local_casc_config.py",
+      "bytes": 2256,
+      "sha256": "5867fb9735fd5411c91c3eeb072ce19e6695beac1873ad0fe77cc9ef42a17f6d"
+    },
+    {
+      "source": "save_verified_casclib.py",
+      "bytes": 1918,
+      "sha256": "89b7519319d57939311d103405b33b7b49aed688e7bb88b066d97f24ca277664"
+    },
+    {
+      "source": "saved-casclib-provenance.json",
+      "bytes": 1177,
+      "sha256": "2a8e15adf996b310af6e2e9010aae5524a1ccf4646ae77c0e5f1564f16fdbf71"
+    },
+    {
+      "source": "staged-config-provenance.json",
+      "bytes": 1119,
+      "sha256": "daf4d11d4abff690253c401cdb6c0559a6642fa6a1900299c3cd117a0600f762"
+    },
+    {
+      "source": "primary-source-guard-provenance.json",
+      "bytes": 16333,
+      "sha256": "68be2a68dd3bd73e3a406845f343bf7c2e0955947acd5a7780ab733e26c8a37f"
+    },
+    {
+      "source": "local-casc-config-only.json",
+      "bytes": 750,
+      "sha256": "80d2f300363f9cc5d39c805cef46e9065aea627fd0148b6365db95f79b048af9"
+    },
+    {
+      "source": "local-casc-strict-metadata-filenames.json",
+      "bytes": 25977,
+      "sha256": "00cef59debfa159d1a8e7c112decadb492e8574621b97c76a3dae95929fbbfb9"
+    },
+    {
+      "source": "local-casc-dragon-metadata.json",
+      "bytes": 2617,
+      "sha256": "b299f4f445f24aedc37fab6dac6a8fef8d60340c5d36960e8585c024af44cb74"
+    },
+    {
+      "source": "casc-current-dragon-cache-crosscheck-v2.json",
+      "bytes": 2275,
+      "sha256": "b3ef8ddc6c084e3cd0b03f2edec6bb2793a5e67aa9904e161ff25ce0e7ee1fc5"
+    },
+    {
+      "source": "dragon-metadata-chain-observation.json",
+      "bytes": 3016,
+      "sha256": "255a47ac087ce450e4f0861125a141592b8d9f61706c991927ab256e63a8428b"
+    }
+  ],
+  "exclusions": [
+    "CascLib.dll",
+    "all raw dragonshire-*.bin files",
+    "config-copy directory",
+    "cache/temp/log directories",
+    "NuGet package archives",
+    "initial ambiguous404 metadata probe",
+    "broad filename filter report as a primary narrowed observation"
+  ],
+  "known_limitations": [
+    "The previous frozen summary README hash is historical; use this final receipt hash for the README only.",
+    "No raw metadata, software DLL or copied installed config payloads should be committed.",
+    "No normal complete publicAPI acceptance is inferred from the selective private MNDX path; Clear NullReferenceException remains recorded.",
+    "No route to missing3exactUSs2mh or replayconversion established."
+  ],
+  "no_additional_game_extraction_after_three_members": true,
+  "game_client_launched": false
+}

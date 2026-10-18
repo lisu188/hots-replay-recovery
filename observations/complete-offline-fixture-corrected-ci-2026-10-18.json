@@ -1,0 +1,42 @@
+{
+  "actual_sha_bound_ngs_fixture_test_executed_in_every_job": true,
+  "client_launched": false,
+  "conclusion": "success",
+  "correction": "The same bounded1357323-byte SHA-pinned NGS replay fixture used by dedicated Range CI is now staged for complete discovery; no assertions or skip whitelist changed.",
+  "errors_per_job": 0,
+  "failures_per_job": 0,
+  "format": "hots-complete-offline-regression-fixture-correction-v1",
+  "full_upgrade_complete": false,
+  "jobs": [
+    {
+      "conclusion": "success",
+      "id": 117773696029,
+      "platform": "linux",
+      "skips": 38,
+      "tests_run": 846
+    },
+    {
+      "conclusion": "success",
+      "id": 117773695700,
+      "platform": "windows-pwsh7",
+      "skips": 4,
+      "tests_run": 846
+    },
+    {
+      "conclusion": "success",
+      "id": 117773695662,
+      "platform": "windows-powershell51",
+      "skips": 4,
+      "tests_run": 846
+    }
+  ],
+  "modules": 40,
+  "previous_failed_run_retained": 39160460383,
+  "replay_modified": false,
+  "run_id": 39160865689,
+  "scope": "Source/parser/fixture verification only; no game client or deterministic playback verification",
+  "tested_commit": "8c9174131f79c3a14928411931be99c826bb1d2d",
+  "tests_discovered_and_run_per_job": 846,
+  "unexpected_skips_per_job": 0,
+  "url": "https://github.com/lisu188/hots-replay-recovery/actions/runs/39160865689"
+}

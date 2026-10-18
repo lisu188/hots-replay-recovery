@@ -1,0 +1,28 @@
+{
+  "format": "hots-local-casc-managed-dll-provenance-v1",
+  "package_url": "https://api.nuget.org/v3-flatcontainer/heroes.xmldata/1.1.1/heroes.xmldata.1.1.1.nupkg",
+  "package_bytes": 424343,
+  "package_sha256": "8794feaf1c0a7466e0ece7ec47bb6b35f8ef08b41b64ee4e21edaf3fe0dd7174",
+  "package_sha512": "9VGSlxKeM3aBKBvtLuvoSc98Ze/VUoiWF7jic3HinzoJSRh4jp2C7CnyZET4QnWUWu7MibuJX8cWfaQGzoWmBQ==",
+  "official_nuget_catalog_sha512_verified": true,
+  "catalog_registration": "https://api.nuget.org/v3/registration5-semver1/heroes.xmldata/1.1.1.json",
+  "repository_commit": "1cfc5150320079c79cb7d618778ef5afcb11a3fc",
+  "casc_submodule_commit": "205154e3c269d5e2a7c099e5bb77050185599d21",
+  "saved_files": [
+    {
+      "path": "CascLib.dll",
+      "package_entry": "lib/net10.0/CascLib.dll",
+      "bytes": 277504,
+      "sha256": "8be4b72776a3a4eca6708cc204860c51592c8f886224dd6ccbdec03b6fa82a11"
+    },
+    {
+      "path": "Heroes.XmlData.LICENSE",
+      "package_entry": "LICENSE",
+      "bytes": 1075,
+      "sha256": "938dbeba6050ae967cbcc0ed4f7940279a8ac57ecf952eada23b80892a136608"
+    }
+  ],
+  "package_archive_saved": false,
+  "game_opened": false,
+  "dll_loaded": false
+}

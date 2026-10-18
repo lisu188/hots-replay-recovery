@@ -1,0 +1,219 @@
+{
+  "format": "hots-installed98348-casc-metadata-summary-v1",
+  "outcome": "root-bound-three-member-metadata-observed-no-missing-s2mh-recovered",
+  "package": {
+    "url": "https://api.nuget.org/v3-flatcontainer/heroes.xmldata/1.1.1/heroes.xmldata.1.1.1.nupkg",
+    "bytes": 424343,
+    "sha256": "8794feaf1c0a7466e0ece7ec47bb6b35f8ef08b41b64ee4e21edaf3fe0dd7174",
+    "sha512": "9VGSlxKeM3aBKBvtLuvoSc98Ze/VUoiWF7jic3HinzoJSRh4jp2C7CnyZET4QnWUWu7MibuJX8cWfaQGzoWmBQ==",
+    "official_catalog_sha512_verified": true
+  },
+  "dll": {
+    "path": "CascLib.dll",
+    "package_entry": "lib/net10.0/CascLib.dll",
+    "bytes": 277504,
+    "sha256": "8be4b72776a3a4eca6708cc204860c51592c8f886224dd6ccbdec03b6fa82a11"
+  },
+  "runtime": {
+    "powershell": "7.6.5",
+    "dotnet": ".NET 10.0.11",
+    "bcl_references_only": true,
+    "sdk_installed": false
+  },
+  "installed_build": {
+    "version": "2.57.0.98348",
+    "build_key": "a64c9b7ebf1c6a811ffefad97865ed80",
+    "cdn_key": "9575c98a819e557a3e6ec7b003428124",
+    "root_key": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+    "actual_root_content_md5": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+    "config_digests": [
+      {
+        "path": ".build.info",
+        "bytes": 686,
+        "sha256": "ecc84a6a3189feb275d5be98d66a5e4eac94eaae1c9f50249276c93ce914b558",
+        "installed_source_unchanged": true
+      },
+      {
+        "path": "HeroesData/config/a6/4c/a64c9b7ebf1c6a811ffefad97865ed80",
+        "bytes": 1202,
+        "sha256": "9c5817913f3505e5bbb8e2bbe6775fcfb568ec7d23d2f685707b254830070f84",
+        "installed_source_unchanged": true
+      },
+      {
+        "path": "HeroesData/config/95/75/9575c98a819e557a3e6ec7b003428124",
+        "bytes": 7897,
+        "sha256": "83ef02e2e537aed16ef4cffe8128a460a947537621c14c9e5acd0940b1707c75",
+        "installed_source_unchanged": true
+      }
+    ]
+  },
+  "read_only_guards": {
+    "config_loader_readwrite_access_redirected_to_verified_scratch_copies": true,
+    "installed_data_and_indices_explicit_read_access": true,
+    "cache_enabled": false,
+    "load_flags": "None",
+    "online_fallback_flag": false,
+    "unconditional_source_fallback_also_blocked_by_denying_http_handler": true,
+    "denying_handler_canary_verified": true,
+    "actual_casc_http_attempts": 0,
+    "config_hashes_unchanged": true,
+    "all_logs_cache_temp_working_directory_task_local": true
+  },
+  "filename_observation": {
+    "declared_and_enumerated_names": 1208637,
+    "enumeration_limit": 1500000,
+    "exact_metadata_names": 324,
+    "documentheader": 108,
+    "documentinfo": 108,
+    "componentlist": 108,
+    "s2mh_filename_matches": 0,
+    "asset_contents_exported": false,
+    "named_absence_does_not_prove_unnamed_content_absence": true
+  },
+  "identified_member_reads": {
+    "module_path": "mods/heroesmapmods/battlegroundmapmods/dragonshire.stormmod/",
+    "member_count": 3,
+    "total_bytes": 2311,
+    "per_member_limit": 2097152,
+    "all_actual_content_md5s_match_casc_ckeys": true,
+    "members": [
+      {
+        "casc_path": "mods/heroesmapmods/battlegroundmapmods/dragonshire.stormmod/DocumentHeader",
+        "saved_name": "dragonshire-DocumentHeader.bin",
+        "bytes": 1069,
+        "casc_content_md5": "ada6f0180ab65d3716049b734d20cb70",
+        "encoded_key": "75ad79e79d8d5c6ea489ad99303b346b",
+        "package_index": 100,
+        "sha256": "c28505f68837fd30a8cdb0baa2a73706752d083953823d0eef1e72431945fa21",
+        "full_casc_content_md5_verified": true
+      },
+      {
+        "casc_path": "mods/heroesmapmods/battlegroundmapmods/dragonshire.stormmod/DocumentInfo",
+        "saved_name": "dragonshire-DocumentInfo.bin",
+        "bytes": 202,
+        "casc_content_md5": "2afa7dd133194bbd77da44699220bbfb",
+        "encoded_key": "10acedff285da2a17f4b4fdd4bbd210d",
+        "package_index": 100,
+        "sha256": "14011927f94f9fb7531bc2f7ec533fd00881eba9a2c34b01e21a7049c0a48056",
+        "full_casc_content_md5_verified": true
+      },
+      {
+        "casc_path": "mods/heroesmapmods/battlegroundmapmods/dragonshire.stormmod/ComponentList.StormComponents",
+        "saved_name": "dragonshire-ComponentList.StormComponents.bin",
+        "bytes": 1040,
+        "casc_content_md5": "8bdb03d0addb8c3dbb3648e5ce1fa917",
+        "encoded_key": "be73c7868f824d0c36904b748df895d1",
+        "package_index": 100,
+        "sha256": "0686ae8f21934555d26bd29cf5f3b37162ad76794e16e10a7a26d5edb8b38461",
+        "full_casc_content_md5_verified": true
+      }
+    ],
+    "cached_f557_map_members_all_different": true,
+    "local_module_and_cached_map_dependency_roles_not_asserted_equivalent": true
+  },
+  "chain_assessment": {
+    "explicit_dependency": {
+      "name": "Heroes of the Storm (Data Mod)",
+      "version_text": "0.0",
+      "catalog_id": 999,
+      "local_path": "Mods/HeroesData.StormMod"
+    },
+    "region_or_exact_s2mh_handle_in_explicit_dependency": false,
+    "known_s2mh_digest_or_direct_handle_matches": 0,
+    "binary_documentheader_container_differs_from_depot_s2mh": true,
+    "unverified_binary_fields_not_interpreted": true,
+    "new_route_to_three_missing_us_s2mh_established": false
+  },
+  "cleanup": {
+    "unmodified_clear_returned_normally": false,
+    "exception": "System.NullReferenceException",
+    "scope": "private filename-only/selective lookup omitted full storage tree initialization; not a claim about normal complete public workflow",
+    "data_maps_and_indices_disposed_before_null_tree_access_by_pinned_source_order": true,
+    "short_lived_reader_processes_exited": true
+  },
+  "earlier_attempts": {
+    "first_store_open_passed": true,
+    "first_scan_stopped_at_one_million_name_preflight_guard": true,
+    "cleanup_masked_guard_in_initial_tool_output": true,
+    "first_nuget_probe_404_was_sha512_sidecar_endpoint_not_absent_package": true,
+    "old_broad_filename_token_filter_430_included_106_asset_filenames_refined_to_324_metadata_names": true
+  },
+  "files": [
+    {
+      "path": "README_READONLY_CASC.md",
+      "bytes": 4267,
+      "sha256": "3de89086cf1ae16e640ef9a6459871aa32e26cb3df9faa635ff561e1072b5817"
+    },
+    {
+      "path": "enumerate_local_casc.ps1",
+      "bytes": 11299,
+      "sha256": "34893626c0c266b5b9dbd15ea1f81e59c625a2b8f08c6fa08b28a050b8b733da"
+    },
+    {
+      "path": "stage_local_casc_config.py",
+      "bytes": 2256,
+      "sha256": "5867fb9735fd5411c91c3eeb072ce19e6695beac1873ad0fe77cc9ef42a17f6d"
+    },
+    {
+      "path": "save_verified_casclib.py",
+      "bytes": 1918,
+      "sha256": "89b7519319d57939311d103405b33b7b49aed688e7bb88b066d97f24ca277664"
+    },
+    {
+      "path": "saved-casclib-provenance.json",
+      "bytes": 1177,
+      "sha256": "2a8e15adf996b310af6e2e9010aae5524a1ccf4646ae77c0e5f1564f16fdbf71"
+    },
+    {
+      "path": "staged-config-provenance.json",
+      "bytes": 1119,
+      "sha256": "daf4d11d4abff690253c401cdb6c0559a6642fa6a1900299c3cd117a0600f762"
+    },
+    {
+      "path": "primary-source-guard-provenance.json",
+      "bytes": 16333,
+      "sha256": "68be2a68dd3bd73e3a406845f343bf7c2e0955947acd5a7780ab733e26c8a37f"
+    },
+    {
+      "path": "local-casc-config-only.json",
+      "bytes": 750,
+      "sha256": "80d2f300363f9cc5d39c805cef46e9065aea627fd0148b6365db95f79b048af9"
+    },
+    {
+      "path": "local-casc-root-enumeration-v2.json",
+      "bytes": 38937,
+      "sha256": "aa69c101c98b40831b814728f2e162c39b4be88c11f40b884311f75746ecfdd0"
+    },
+    {
+      "path": "local-casc-strict-metadata-filenames.json",
+      "bytes": 25977,
+      "sha256": "00cef59debfa159d1a8e7c112decadb492e8574621b97c76a3dae95929fbbfb9"
+    },
+    {
+      "path": "local-casc-dragon-metadata.json",
+      "bytes": 2617,
+      "sha256": "b299f4f445f24aedc37fab6dac6a8fef8d60340c5d36960e8585c024af44cb74"
+    },
+    {
+      "path": "casc-current-dragon-cache-crosscheck-v2.json",
+      "bytes": 2275,
+      "sha256": "b3ef8ddc6c084e3cd0b03f2edec6bb2793a5e67aa9904e161ff25ce0e7ee1fc5"
+    },
+    {
+      "path": "dragon-metadata-chain-observation.json",
+      "bytes": 3016,
+      "sha256": "255a47ac087ce450e4f0861125a141592b8d9f61706c991927ab256e63a8428b"
+    },
+    {
+      "path": "Heroes.XmlData.LICENSE",
+      "bytes": 1075,
+      "sha256": "938dbeba6050ae967cbcc0ed4f7940279a8ac57ecf952eada23b80892a136608"
+    }
+  ],
+  "raw_binary_members_and_dll_publishable": false,
+  "raw_player_creator_or_account_values_emitted": false,
+  "game_storage_modified": false,
+  "repo_modified": false,
+  "client_launched": false,
+  "full_parser_or_playback_success_claimed": false
+}

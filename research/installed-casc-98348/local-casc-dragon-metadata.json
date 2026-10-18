@@ -1,0 +1,59 @@
+{
+  "format": "hots-local-casc-metadata-enumeration-v1",
+  "powershell": "7.6.5",
+  "runtime": ".NET 10.0.11",
+  "dll_sha256": "8be4b72776a3a4eca6708cc204860c51592c8f886224dd6ccbdec03b6fa82a11",
+  "version": "2.57.0.98348",
+  "build_key": "a64c9b7ebf1c6a811ffefad97865ed80",
+  "root": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+  "config_parsed_from_scratch_copies": true,
+  "installed_indices_and_data_access": "explicit-read-only",
+  "online_fallback_flag": false,
+  "denying_http_handler_canary_passed": true,
+  "cache_enabled": false,
+  "load_flags": "None",
+  "configuration_only": false,
+  "game_client_launched": false,
+  "game_storage_modified": false,
+  "file_contents_exported": true,
+  "actual_root_content_md5": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+  "package_names_initialized": 1556,
+  "members": [
+    {
+      "casc_path": "mods/heroesmapmods/battlegroundmapmods/dragonshire.stormmod/DocumentHeader",
+      "saved_name": "dragonshire-DocumentHeader.bin",
+      "bytes": 1069,
+      "casc_content_md5": "ada6f0180ab65d3716049b734d20cb70",
+      "encoded_key": "75ad79e79d8d5c6ea489ad99303b346b",
+      "package_index": 100,
+      "sha256": "c28505f68837fd30a8cdb0baa2a73706752d083953823d0eef1e72431945fa21",
+      "full_casc_content_md5_verified": true
+    },
+    {
+      "casc_path": "mods/heroesmapmods/battlegroundmapmods/dragonshire.stormmod/DocumentInfo",
+      "saved_name": "dragonshire-DocumentInfo.bin",
+      "bytes": 202,
+      "casc_content_md5": "2afa7dd133194bbd77da44699220bbfb",
+      "encoded_key": "10acedff285da2a17f4b4fdd4bbd210d",
+      "package_index": 100,
+      "sha256": "14011927f94f9fb7531bc2f7ec533fd00881eba9a2c34b01e21a7049c0a48056",
+      "full_casc_content_md5_verified": true
+    },
+    {
+      "casc_path": "mods/heroesmapmods/battlegroundmapmods/dragonshire.stormmod/ComponentList.StormComponents",
+      "saved_name": "dragonshire-ComponentList.StormComponents.bin",
+      "bytes": 1040,
+      "casc_content_md5": "8bdb03d0addb8c3dbb3648e5ce1fa917",
+      "encoded_key": "be73c7868f824d0c36904b748df895d1",
+      "package_index": 100,
+      "sha256": "0686ae8f21934555d26bd29cf5f3b37162ad76794e16e10a7a26d5edb8b38461",
+      "full_casc_content_md5_verified": true
+    }
+  ],
+  "scope": "only-three-identified-DragonShire-metadata-members",
+  "resolution": "unchanged-private-MNDX-lookup-with-original-package-catalog-values",
+  "library_clear_succeeded": false,
+  "library_clear_exception_type": "System.NullReferenceException",
+  "installed_config_hashes_unchanged": true,
+  "blocked_http_attempts_during_casc": 0
+}

@@ -1,0 +1,494 @@
+{
+  "format": "hots-casc-primary-source-guard-provenance-v1",
+  "heroes_xmldata_package_commit": "1cfc5150320079c79cb7d618778ef5afcb11a3fc",
+  "casc_submodule_commit": "205154e3c269d5e2a7c099e5bb77050185599d21",
+  "files": [
+    {
+      "repository": "HeroesToolChest/Heroes.XmlData",
+      "ref": "v1.1.1",
+      "path": "Heroes.XmlData/Heroes.XmlData.csproj",
+      "git_blob_sha": "c07d6e48adc4673ff1a2d01200f4d62c0e21e5e7",
+      "url": "https://github.com/HeroesToolChest/Heroes.XmlData/blob/v1.1.1/Heroes.XmlData/Heroes.XmlData.csproj",
+      "excerpts": [
+        {
+          "line": 4,
+          "text": "    <TargetFrameworks>net9.0;net10.0</TargetFrameworks>"
+        },
+        {
+          "line": 40,
+          "text": "    <PackageReference Include=\"StyleCop.Analyzers\" Version=\"1.2.0-beta.556\">"
+        },
+        {
+          "line": 41,
+          "text": "      <PrivateAssets>all</PrivateAssets>"
+        },
+        {
+          "line": 42,
+          "text": "      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>"
+        },
+        {
+          "line": 43,
+          "text": "    </PackageReference>"
+        },
+        {
+          "line": 44,
+          "text": "    <PackageReference Include=\"TestableIO.System.IO.Abstractions.Wrappers\" Version=\"22.3.0\" />"
+        },
+        {
+          "line": 45,
+          "text": "    <PackageReference Include=\"U8XmlParser\" Version=\"1.6.1\" />"
+        },
+        {
+          "line": 46,
+          "text": "  </ItemGroup>"
+        },
+        {
+          "line": 47,
+          "text": ""
+        },
+        {
+          "line": 48,
+          "text": "  <ItemGroup>"
+        },
+        {
+          "line": 49,
+          "text": "    <ProjectReference Include=\"..\\CascLib\\CascLib\\CascLib.csproj\" PrivateAssets=\"all\" />"
+        },
+        {
+          "line": 50,
+          "text": "  </ItemGroup>"
+        },
+        {
+          "line": 51,
+          "text": ""
+        },
+        {
+          "line": 52,
+          "text": "  <Target Name=\"CopyProjectReferencesToPackage\" DependsOnTargets=\"BuildOnlySettings;ResolveReferences\">"
+        },
+        {
+          "line": 53,
+          "text": "    <ItemGroup>"
+        },
+        {
+          "line": 54,
+          "text": "      <BuildOutputInPackage Include=\"@(ReferenceCopyLocalPaths-&gt;WithMetadataValue('ReferenceSourceTarget', 'ProjectReference')-&gt;WithMetadataValue('PrivateAssets', 'All'))\" />"
+        }
+      ]
+    },
+    {
+      "repository": "HeroesToolChest/Heroes.XmlData",
+      "ref": "v1.1.1",
+      "path": ".gitmodules",
+      "git_blob_sha": "d311268a200f9e9abcf1a168279204eaf9735926",
+      "url": "https://github.com/HeroesToolChest/Heroes.XmlData/blob/v1.1.1/.gitmodules",
+      "excerpts": [
+        {
+          "line": 1,
+          "text": "[submodule \"CascLib\"]"
+        },
+        {
+          "line": 2,
+          "text": "\tpath = CascLib"
+        },
+        {
+          "line": 3,
+          "text": "\turl = https://github.com/koliva8245/CascLib.git"
+        }
+      ]
+    },
+    {
+      "repository": "koliva8245/CascLib",
+      "ref": "205154e3c269d5e2a7c099e5bb77050185599d21",
+      "path": "CascLib/CascLib.csproj",
+      "git_blob_sha": "a06a7e4e446b8d2424987b07e25ef409eaa1227a",
+      "url": "https://github.com/koliva8245/CascLib/blob/205154e3c269d5e2a7c099e5bb77050185599d21/CascLib/CascLib.csproj",
+      "excerpts": [
+        {
+          "line": 4,
+          "text": "    <TargetFrameworks>net9.0;net10.0</TargetFrameworks>"
+        },
+        {
+          "line": 5,
+          "text": "    <Copyright>Copyright © TOM_RUS 2014-2022</Copyright>"
+        },
+        {
+          "line": 6,
+          "text": "    <LangVersion>latest</LangVersion>"
+        },
+        {
+          "line": 7,
+          "text": "    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>"
+        },
+        {
+          "line": 8,
+          "text": "    <PackageProjectUrl>https://github.com/WoW-Tools/CascLib</PackageProjectUrl>"
+        },
+        {
+          "line": 9,
+          "text": "    <RepositoryUrl>https://github.com/WoW-Tools/CascLib.git</RepositoryUrl>"
+        },
+        {
+          "line": 10,
+          "text": "    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>"
+        },
+        {
+          "line": 11,
+          "text": "    <Authors>TOM_RUS</Authors>"
+        },
+        {
+          "line": 12,
+          "text": "    <Version>1.0.0</Version>"
+        },
+        {
+          "line": 13,
+          "text": "    <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>"
+        },
+        {
+          "line": 14,
+          "text": "  </PropertyGroup>"
+        }
+      ]
+    },
+    {
+      "repository": "koliva8245/CascLib",
+      "ref": "205154e3c269d5e2a7c099e5bb77050185599d21",
+      "path": "CascLib/CASCConfig.cs",
+      "git_blob_sha": "165c5a84adc6f4a3e267a8cfe785103ae8d74f37",
+      "url": "https://github.com/koliva8245/CascLib/blob/205154e3c269d5e2a7c099e5bb77050185599d21/CascLib/CASCConfig.cs",
+      "excerpts": [
+        {
+          "line": 137,
+          "text": "        public static bool UseOnlineFallbackForMissingFiles { get; set; } = true;"
+        },
+        {
+          "line": 138,
+          "text": "        public static LoadFlags LoadFlags { get; set; } = LoadFlags.FileIndex;"
+        },
+        {
+          "line": 268,
+          "text": "            string buildInfoPath = Path.Combine(basePath, \".build.info\");"
+        },
+        {
+          "line": 273,
+          "text": "            Logger.Init(loggerOptions);"
+        },
+        {
+          "line": 275,
+          "text": "            var config = new CASCConfig { OnlineMode = false, BasePath = basePath, Product = product };"
+        },
+        {
+          "line": 277,
+          "text": "            using (Stream buildInfoStream = new FileStream(buildInfoPath, FileMode.Open))"
+        },
+        {
+          "line": 304,
+          "text": "            string dataFolder = CASCGame.GetDataFolder(config.GameType);"
+        },
+        {
+          "line": 331,
+          "text": "                using (Stream stream = new FileStream(buildCfgPath, FileMode.Open))"
+        },
+        {
+          "line": 357,
+          "text": "                using (Stream stream = new FileStream(cdnCfgPath, FileMode.Open))"
+        },
+        {
+          "line": 363,
+          "text": "            CDNCache.Init(config);"
+        },
+        {
+          "line": 368,
+          "text": "        public string BasePath { get; private set; }"
+        },
+        {
+          "line": 378,
+          "text": "        public MD5Hash RootCKey => _Builds[ActiveBuild][\"root\"][0].FromHexString().ToMD5();"
+        }
+      ]
+    },
+    {
+      "repository": "koliva8245/CascLib",
+      "ref": "205154e3c269d5e2a7c099e5bb77050185599d21",
+      "path": "CascLib/CASCHandlerBase.cs",
+      "git_blob_sha": "1223bf22be575d697a501c2b0ec168d38b8c83c2",
+      "url": "https://github.com/koliva8245/CascLib/blob/205154e3c269d5e2a7c099e5bb77050185599d21/CascLib/CASCHandlerBase.cs",
+      "excerpts": [
+        {
+          "line": 79,
+          "text": "                if (Config.OnlineMode)"
+        },
+        {
+          "line": 80,
+          "text": "                    return OpenFileOnline(tempEKey);"
+        },
+        {
+          "line": 81,
+          "text": "                else"
+        },
+        {
+          "line": 82,
+          "text": "                    return OpenFileLocal(tempEKey);"
+        },
+        {
+          "line": 90,
+          "text": "            catch// (Exception exc) when (!(exc is BLTEDecoderException))"
+        },
+        {
+          "line": 91,
+          "text": "            {"
+        },
+        {
+          "line": 92,
+          "text": "                return OpenFileOnline(tempEKey);"
+        },
+        {
+          "line": 148,
+          "text": "            MemoryMappedFile dataFile = GetDataStream(idxInfo.Index);"
+        },
+        {
+          "line": 150,
+          "text": "            var accessor = dataFile.CreateViewStream(idxInfo.Offset, idxInfo.Size, MemoryMappedFileAccess.Read);"
+        },
+        {
+          "line": 280,
+          "text": "                FileStream fs = new FileStream(dataFile, FileMode.Open, FileAccess.Read, FileShare.ReadWrite);"
+        },
+        {
+          "line": 281,
+          "text": "                stream = MemoryMappedFile.CreateFromFile(fs, null, 0, MemoryMappedFileAccess.Read, HandleInheritability.None, false);"
+        }
+      ]
+    },
+    {
+      "repository": "koliva8245/CascLib",
+      "ref": "205154e3c269d5e2a7c099e5bb77050185599d21",
+      "path": "CascLib/IndexHandlerBase.cs",
+      "git_blob_sha": "384b621cec2e02faa45b3958c3ade2d955d76b98",
+      "url": "https://github.com/koliva8245/CascLib/blob/205154e3c269d5e2a7c099e5bb77050185599d21/CascLib/IndexHandlerBase.cs",
+      "excerpts": [
+        {
+          "line": 190,
+          "text": "                    using (FileStream fs = new FileStream(path, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))"
+        },
+        {
+          "line": 195,
+          "text": "                    DownloadIndexFile(archive, dataIndex);"
+        }
+      ]
+    },
+    {
+      "repository": "koliva8245/CascLib",
+      "ref": "205154e3c269d5e2a7c099e5bb77050185599d21",
+      "path": "CascLib/LocalIndexHandler.cs",
+      "git_blob_sha": "e1bcb4ef200169105cd2f65ca3c7d4b5c201780d",
+      "url": "https://github.com/koliva8245/CascLib/blob/205154e3c269d5e2a7c099e5bb77050185599d21/CascLib/LocalIndexHandler.cs",
+      "excerpts": [
+        {
+          "line": 46,
+          "text": "            using (var fs = new FileStream(idx, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))"
+        }
+      ]
+    },
+    {
+      "repository": "koliva8245/CascLib",
+      "ref": "205154e3c269d5e2a7c099e5bb77050185599d21",
+      "path": "CascLib/CDNCache.cs",
+      "git_blob_sha": "490c9e63748a702babc5cb1d53542ad4d226d974",
+      "url": "https://github.com/koliva8245/CascLib/blob/205154e3c269d5e2a7c099e5bb77050185599d21/CascLib/CDNCache.cs",
+      "excerpts": [
+        {
+          "line": 28,
+          "text": "        public static bool Enabled { get; set; } = true;"
+        },
+        {
+          "line": 29,
+          "text": "        public static bool CacheData { get; set; } = false;"
+        },
+        {
+          "line": 32,
+          "text": "        public static string CachePath { get; set; } = \"cache\";"
+        },
+        {
+          "line": 144,
+          "text": "            if (!Enabled)"
+        },
+        {
+          "line": 145,
+          "text": "                return null;"
+        },
+        {
+          "line": 297,
+          "text": "            Directory.CreateDirectory(Path.GetDirectoryName(path));"
+        },
+        {
+          "line": 310,
+          "text": "                    using (Stream fs = new FileStream(tempPath, FileMode.Create, FileAccess.Write))"
+        }
+      ]
+    },
+    {
+      "repository": "koliva8245/CascLib",
+      "ref": "205154e3c269d5e2a7c099e5bb77050185599d21",
+      "path": "CascLib/Logger.cs",
+      "git_blob_sha": "f6cd4582b8b35a9d35820127086f01d27d6eb77a",
+      "url": "https://github.com/koliva8245/CascLib/blob/205154e3c269d5e2a7c099e5bb77050185599d21/CascLib/Logger.cs",
+      "excerpts": [
+        {
+          "line": 14,
+          "text": "        public string LogFileName => \"debug.log\";"
+        },
+        {
+          "line": 30,
+          "text": "        public static void Init(ILoggerOptions opts = null)"
+        },
+        {
+          "line": 32,
+          "text": "            options = opts ?? new LoggerOptionsDefault();"
+        },
+        {
+          "line": 33,
+          "text": "            fs = new FileStream(options.LogFileName, FileMode.Create, FileAccess.Write, FileShare.ReadWrite);"
+        }
+      ]
+    },
+    {
+      "repository": "koliva8245/CascLib",
+      "ref": "205154e3c269d5e2a7c099e5bb77050185599d21",
+      "path": "CascLib/CASCHandler.cs",
+      "git_blob_sha": "eb67c70917b1f87ab3a0d52892a69c8dbb13fb7a",
+      "url": "https://github.com/koliva8245/CascLib/blob/205154e3c269d5e2a7c099e5bb77050185599d21/CascLib/CASCHandler.cs",
+      "excerpts": [
+        {
+          "line": 116,
+          "text": "        public static CASCHandler OpenStorage(CASCConfig config, HttpClient httpClient, ProgressReporter worker = null)"
+        },
+        {
+          "line": 118,
+          "text": "            HttpClientService.SetHttpClient(httpClient);"
+        },
+        {
+          "line": 120,
+          "text": "            return Open(config, worker);"
+        },
+        {
+          "line": 306,
+          "text": "        public void Clear()"
+        },
+        {
+          "line": 311,
+          "text": "            foreach (var stream in DataStreams)"
+        },
+        {
+          "line": 312,
+          "text": "                stream.Value.Dispose();"
+        },
+        {
+          "line": 314,
+          "text": "            DataStreams.Clear();"
+        },
+        {
+          "line": 316,
+          "text": "            EncodingHandler?.Clear();"
+        },
+        {
+          "line": 325,
+          "text": "            RootHandler?.Clear();"
+        }
+      ]
+    },
+    {
+      "repository": "koliva8245/CascLib",
+      "ref": "205154e3c269d5e2a7c099e5bb77050185599d21",
+      "path": "CascLib/RootHandlers/MNDXRootHandler.cs",
+      "git_blob_sha": "606b9f384c097b677a3f5c24b249fff507bd4180",
+      "url": "https://github.com/koliva8245/CascLib/blob/205154e3c269d5e2a7c099e5bb77050185599d21/CascLib/RootHandlers/MNDXRootHandler.cs",
+      "excerpts": [
+        {
+          "line": 77,
+          "text": "        private MARFileNameDB[] MarFiles = new MARFileNameDB[CASC_MAX_MAR_FILES];"
+        },
+        {
+          "line": 82,
+          "text": "        private Dictionary<int, string> Packages = new Dictionary<int, string>();"
+        },
+        {
+          "line": 84,
+          "text": "        private Dictionary<string, int> IndexByPackages = new Dictionary<string, int>();"
+        },
+        {
+          "line": 89,
+          "text": "        public override int Count => MarFiles[2].NumFiles;"
+        },
+        {
+          "line": 239,
+          "text": "        private int FindMNDXPackage(string fileName)"
+        },
+        {
+          "line": 254,
+          "text": "                if (IndexByPackagesSpanLookup.TryGetValue(part, out pkgIndex))"
+        },
+        {
+          "line": 261,
+          "text": "        private CASC_ROOT_ENTRY_MNDX FindMNDXInfo(string path, int dwPackage)"
+        },
+        {
+          "line": 265,
+          "text": "                SearchMask = path.Substring(Packages[dwPackage].Length + 1).ToLower()"
+        },
+        {
+          "line": 267,
+          "text": "            MARFileNameDB marFile1 = MarFiles[1];"
+        },
+        {
+          "line": 269,
+          "text": "            if (marFile1.FindFileInDatabase(result))"
+        },
+        {
+          "line": 271,
+          "text": "                var pRootEntry = mndxRootEntriesValid[result.FileNameIndex];"
+        },
+        {
+          "line": 273,
+          "text": "                while ((pRootEntry.Flags & 0x00FFFFFF) != dwPackage)"
+        },
+        {
+          "line": 283,
+          "text": "                return pRootEntry;"
+        },
+        {
+          "line": 330,
+          "text": "            foreach (var result in MarFiles[0].EnumerateFiles())"
+        },
+        {
+          "line": 332,
+          "text": "                Packages.Add(result.FileNameIndex, result.FoundPath);"
+        },
+        {
+          "line": 333,
+          "text": "                IndexByPackages.Add(result.FoundPath, result.FileNameIndex);"
+        },
+        {
+          "line": 370,
+          "text": "            foreach (var result in MarFiles[2].EnumerateFiles())"
+        },
+        {
+          "line": 372,
+          "text": "                string file = result.FoundPath;"
+        },
+        {
+          "line": 424,
+          "text": "            Root.Files.Clear();"
+        },
+        {
+          "line": 425,
+          "text": "            Root.Folders.Clear();"
+        },
+        {
+          "line": 1125,
+          "text": "        public IEnumerable<MNDXSearchResult> EnumerateFiles()"
+        }
+      ]
+    }
+  ]
+}

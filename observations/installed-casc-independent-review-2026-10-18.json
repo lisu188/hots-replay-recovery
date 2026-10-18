@@ -1,0 +1,153 @@
+{
+  "format": "hots-installed98348-casc-independent-review-v1",
+  "review_status": "pass-with-explicit-scope-limits",
+  "material_findings": [],
+  "final_allowlist_receipt_sha256": "1fbe89d569a7d78a3d7c66224722fb15cf6bc8b7d5c720750a882e273607a083",
+  "allowlisted_files_rehashed": [
+    {
+      "source": "local-casc-98348-metadata-summary.json",
+      "bytes": 8495,
+      "sha256": "f82f159ca3465eca409d6492757300639b88f4c4bed952da1758d9725dd9af3a"
+    },
+    {
+      "source": "README_READONLY_CASC.md",
+      "bytes": 5692,
+      "sha256": "8221feb41450a09542a08612991e7ea2a89e9e38f3c3af0abf91c9c03a9ee6cb"
+    },
+    {
+      "source": "enumerate_local_casc.ps1",
+      "bytes": 11299,
+      "sha256": "34893626c0c266b5b9dbd15ea1f81e59c625a2b8f08c6fa08b28a050b8b733da"
+    },
+    {
+      "source": "stage_local_casc_config.py",
+      "bytes": 2256,
+      "sha256": "5867fb9735fd5411c91c3eeb072ce19e6695beac1873ad0fe77cc9ef42a17f6d"
+    },
+    {
+      "source": "save_verified_casclib.py",
+      "bytes": 1918,
+      "sha256": "89b7519319d57939311d103405b33b7b49aed688e7bb88b066d97f24ca277664"
+    },
+    {
+      "source": "saved-casclib-provenance.json",
+      "bytes": 1177,
+      "sha256": "2a8e15adf996b310af6e2e9010aae5524a1ccf4646ae77c0e5f1564f16fdbf71"
+    },
+    {
+      "source": "staged-config-provenance.json",
+      "bytes": 1119,
+      "sha256": "daf4d11d4abff690253c401cdb6c0559a6642fa6a1900299c3cd117a0600f762"
+    },
+    {
+      "source": "primary-source-guard-provenance.json",
+      "bytes": 16333,
+      "sha256": "68be2a68dd3bd73e3a406845f343bf7c2e0955947acd5a7780ab733e26c8a37f"
+    },
+    {
+      "source": "local-casc-config-only.json",
+      "bytes": 750,
+      "sha256": "80d2f300363f9cc5d39c805cef46e9065aea627fd0148b6365db95f79b048af9"
+    },
+    {
+      "source": "local-casc-strict-metadata-filenames.json",
+      "bytes": 25977,
+      "sha256": "00cef59debfa159d1a8e7c112decadb492e8574621b97c76a3dae95929fbbfb9"
+    },
+    {
+      "source": "local-casc-dragon-metadata.json",
+      "bytes": 2617,
+      "sha256": "b299f4f445f24aedc37fab6dac6a8fef8d60340c5d36960e8585c024af44cb74"
+    },
+    {
+      "source": "casc-current-dragon-cache-crosscheck-v2.json",
+      "bytes": 2275,
+      "sha256": "b3ef8ddc6c084e3cd0b03f2edec6bb2793a5e67aa9904e161ff25ce0e7ee1fc5"
+    },
+    {
+      "source": "dragon-metadata-chain-observation.json",
+      "bytes": 3016,
+      "sha256": "255a47ac087ce450e4f0861125a141592b8d9f61706c991927ab256e63a8428b"
+    }
+  ],
+  "reviewed_primary_source": {
+    "heroes_xmldata_commit": "1cfc5150320079c79cb7d618778ef5afcb11a3fc",
+    "casclib_gitlink_commit": "205154e3c269d5e2a7c099e5bb77050185599d21",
+    "fresh_github_tree_blob_ids_matched_retained_provenance": true
+  },
+  "source_review": {
+    "config_loader_default_readwrite_redirected_to_scratch_copies": true,
+    "installed_index_and_data_access_explicit_read": true,
+    "cache_disabled_and_task_local_auxiliary_paths": true,
+    "unconditional_online_fallback_guarded_by_rejecting_http_handler": true,
+    "canary_and_zero_actual_attempts_retained_in_original_reports": true,
+    "selective_package_lookup_matches_original_private_api_order": true,
+    "root_encoding_key_lookup_and_full_md5_binding_checked": true,
+    "no_game_client_launch_in_reviewed_sources": true,
+    "clear_null_tree_exception_preserved_as_partial_path_limit": true
+  },
+  "saved_member_rehashes": [
+    {
+      "name": "dragonshire-DocumentHeader.bin",
+      "bytes": 1069,
+      "sha256": "c28505f68837fd30a8cdb0baa2a73706752d083953823d0eef1e72431945fa21",
+      "md5_equals_casc_ckey": true
+    },
+    {
+      "name": "dragonshire-DocumentInfo.bin",
+      "bytes": 202,
+      "sha256": "14011927f94f9fb7531bc2f7ec533fd00881eba9a2c34b01e21a7049c0a48056",
+      "md5_equals_casc_ckey": true
+    },
+    {
+      "name": "dragonshire-ComponentList.StormComponents.bin",
+      "bytes": 1040,
+      "sha256": "0686ae8f21934555d26bd29cf5f3b37162ad76794e16e10a7a26d5edb8b38461",
+      "md5_equals_casc_ckey": true
+    }
+  ],
+  "current_installed_config_rehashes": [
+    {
+      "name": ".build.info",
+      "bytes": 686,
+      "sha256": "ecc84a6a3189feb275d5be98d66a5e4eac94eaae1c9f50249276c93ce914b558",
+      "installed_equals_staged_copy": true
+    },
+    {
+      "name": "HeroesData/config/a6/4c/a64c9b7ebf1c6a811ffefad97865ed80",
+      "bytes": 1202,
+      "sha256": "9c5817913f3505e5bbb8e2bbe6775fcfb568ec7d23d2f685707b254830070f84",
+      "installed_equals_staged_copy": true
+    },
+    {
+      "name": "HeroesData/config/95/75/9575c98a819e557a3e6ec7b003428124",
+      "bytes": 7897,
+      "sha256": "83ef02e2e537aed16ef4cffe8128a460a947537621c14c9e5acd0940b1707c75",
+      "installed_equals_staged_copy": true
+    }
+  ],
+  "saved_dll_sha256": "8be4b72776a3a4eca6708cc204860c51592c8f886224dd6ccbdec03b6fa82a11",
+  "observed_version": "2.57.0.98348",
+  "observed_root_md5": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+  "complete_name_count": 1208637,
+  "exact_metadata_filename_count": 324,
+  "independent_checks": {
+    "all_final_allowlist_bytes_match": true,
+    "all_three_saved_raw_metadata_sha256_and_ckey_md5_match": true,
+    "three_current_config_inputs_equal_staged_copies_and_receipts": true,
+    "build_and_cdn_config_md5_equal_named_keys": true,
+    "exact_filename_distribution_recomputed": true,
+    "retained_full_scan_refilter_previously_recomputed": true,
+    "no_extraction_or_dll_execution_during_review": true,
+    "no_client_launch_during_review": true
+  },
+  "limits": [
+    "Independent review inspected source, retained operation receipts, and saved bytes; it did not reopen CASC storage or independently capture OS network traffic.",
+    "Original operation zero HTTP attempts is corroborated by the reviewed rejecting-handler implementation and retained reports; no whole-machine traffic claim.",
+    "NuGet package archive was verified by the producing agent; this review rehashed the saved DLL and retained provenance without redownloading the package.",
+    "The full decoded-root MD5 derives from the original operation; this review checked its agreement with current installed configuration and all saved member CKeys without reopening root storage.",
+    "No exact current missing US s2mh recovered, unnamed embedded content absence established, complete public API acceptance, replay conversion or playback proved.",
+    "Raw metadata, DLL and installed configuration copies remain excluded from publication.",
+    "Final README hash supersedes the older README entry inside the frozen substantive summary."
+  ]
+}
