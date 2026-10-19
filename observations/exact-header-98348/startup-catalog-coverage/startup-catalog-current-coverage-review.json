@@ -1,0 +1,541 @@
+{
+  "automatic_migration_or_runtime_equivalence_proven": false,
+  "catalog_values_or_replay_modified": false,
+  "conclusion": "The old two startup NULL anchors were limited98285 reference coverage. Both exact recorded tracker types already have hash-bound unambiguous same-map98348 observations. No new donor or guessed hero/morph alias is needed for those two fields. Kaelthas has a current other-map candidate only.",
+  "current_observed_candidates_for_startup_fields": 4,
+  "decoder_registry_failure_identified": false,
+  "format": "hots-startup-catalog-current-coverage-review-v1",
+  "historical_NULL_anchor_fields_now_observed": 2,
+  "limits": [
+    "Saved core profiles and catalog inventories are hash-bound; raw replay bodies were not reread in this metadata review.",
+    "These20 saved catalog inventories are not a fresh catalog inventory for the21st EU ARAM control; no global21-file absence claim is made.",
+    "A selected hero is not evidence that a specific summon, clone, morph or building state produced a usable catalog-link observation.",
+    "Cross-map observed agreement remains a candidate and does not prove current Dragon Kaelthas or general map independence.",
+    "The six full-match unresolved types are separate from the four startup fields. Ambiguous tower aliases must not be collapsed."
+  ],
+  "metadata_bytes_read_including_before_after_checks": 1111068,
+  "metadata_input_inventory": [
+    {
+      "bytes": 2610,
+      "path": "repo/observations/startup-interval-r8-2026-09-29.json",
+      "sha256": "766b6e1df30852cf15b9741f0c083aa4940d9cdeda487f411f85324e0b3d5bb5"
+    },
+    {
+      "bytes": 1976,
+      "path": "repo/observations/runtime-catalog-reference-anchors.json",
+      "sha256": "53f70fecc2343f355f67774e9d9694e6dc5f0ac4e0083c83680611da5a2bb7a9"
+    },
+    {
+      "bytes": 154449,
+      "path": "repo/observations/expanded-current-catalog-comparison-2026-10-18.json",
+      "sha256": "fc6dbc312dac9143bfe450d661f8033a04c2ce4eec51878618e2a517f8faf609"
+    },
+    {
+      "bytes": 31975,
+      "path": "repo/observations/current-crossmap-eight-catalog-observation-2026-10-18.json",
+      "sha256": "7e13c5f046c79a9ea0db240fd50c04628173568d0e838e6f89b659a744406219"
+    },
+    {
+      "bytes": 9982,
+      "path": "repo/audit_startup_interval.py",
+      "sha256": "94387dda437f4390b6fd346fd38012869e168460bccee08f52f1897439c245bb"
+    },
+    {
+      "bytes": 13414,
+      "path": "repo/catalog_diagnostics.py",
+      "sha256": "1b28eff54667cae85df90158939d9c22879ac756832ff69354d83191734d917e"
+    },
+    {
+      "bytes": 13879,
+      "path": "repo/repair_unit_tags.py",
+      "sha256": "43ec99d34aafd73f3c5f3f29d56fcffcc199e5d075f2a344cd7c8064377704e2"
+    },
+    {
+      "bytes": 12708,
+      "path": "startup-unanchored-catalog-review/review_startup_catalog_coverage.py",
+      "sha256": "0f7261c3cd6809e04bfdc96777bbbd2929d5499b11bc7c75ccc12dc70ed67fd9"
+    },
+    {
+      "bytes": 12479,
+      "path": "offline98348-cohort/TEN_GREYMANE_client98285_RESUMABLE_R8_PARTIAL.unit-inventory.json",
+      "sha256": "8ac9b02046036d8d165958d737e7f2f0d0da276f48df46a23791e1ee34643eba"
+    },
+    {
+      "bytes": 10714,
+      "path": "offline98348-cohort/ngs-20261016-protectors-dragon.unit-inventory.json",
+      "sha256": "1be459391ca638b4dca81bc3118b1616b103f3f02a2fcf663f7e086f8224055c"
+    },
+    {
+      "bytes": 4138,
+      "path": "offline98348-cohort/ngs-20261016-protectors-dragon.profile.json",
+      "sha256": "c17a1a9f0aa24000b7556379cf5274e59cf92824636ed63125f694406f5efa4f"
+    },
+    {
+      "bytes": 11650,
+      "path": "offline98348-cohort/ngs-20261016-stormblessed-dragon.unit-inventory.json",
+      "sha256": "2b1a7b0932df625c6b4aa9113a186ac569197db5cdff021d229c3730ad6f73a8"
+    },
+    {
+      "bytes": 4129,
+      "path": "offline98348-cohort/ngs-20261016-stormblessed-dragon.profile.json",
+      "sha256": "d76b9a67ab39f4171a1eee8d19fbb129578cb211d82088f4b259ac755580a6c9"
+    },
+    {
+      "bytes": 9860,
+      "path": "reference-donors/ngs-extra-01-20261015-dragon.StormReplay.unit-inventory.json",
+      "sha256": "31058be533247028e1ac3d3a5dbbe609ee8cf43ba9d317af5217d865da1c99b1"
+    },
+    {
+      "bytes": 4312,
+      "path": "reference-donors/ngs-extra-01-20261015-dragon.StormReplay.profile.json",
+      "sha256": "70dacf6b9f67b9dace7b7938d81f2ed2595a461630621a00279d0a336b20df87"
+    },
+    {
+      "bytes": 11437,
+      "path": "reference-donors/ngs-extra-02-20261014-dragon.StormReplay.unit-inventory.json",
+      "sha256": "8cca5fe863191a375d0adc2f6e381f6cc3c17cb0fb06a6acb9a25f9b4f529db5"
+    },
+    {
+      "bytes": 4271,
+      "path": "reference-donors/ngs-extra-02-20261014-dragon.StormReplay.profile.json",
+      "sha256": "2d562fc390e48ef72010e3081d217d9ce4833594f8a7df793b2c4cc2a33cd998"
+    },
+    {
+      "bytes": 11051,
+      "path": "reference-donors/ngs-extra-03-20261014-dragon.StormReplay.unit-inventory.json",
+      "sha256": "2d577a90b431c36a8ec0dd2ae73c0a75803b64d61b87106aa73101deda4c13cc"
+    },
+    {
+      "bytes": 4096,
+      "path": "reference-donors/ngs-extra-03-20261014-dragon.StormReplay.profile.json",
+      "sha256": "dfb09d83dd8c4f8c5bd055a87a66088e3ff85ed2ee0a04487fe51ba28412e92e"
+    },
+    {
+      "bytes": 11836,
+      "path": "reference-donors/ngs-extra-04-20261013-dragon.StormReplay.unit-inventory.json",
+      "sha256": "ad6f895bcd21d5c1b4a3e2ee73e7d09e62914103069c8571237601701e49a063"
+    },
+    {
+      "bytes": 4315,
+      "path": "reference-donors/ngs-extra-04-20261013-dragon.StormReplay.profile.json",
+      "sha256": "7176cf12f3f6c7ad71919f5a8b4899594d3dfd23a2ab56e5cd0475d9dcebb1c7"
+    },
+    {
+      "bytes": 10260,
+      "path": "reference-donors/ngs-extra-05-20261012-dragon.StormReplay.unit-inventory.json",
+      "sha256": "6a70b614d89052ed7cb78768b267ba8fefd4679fbe91c0f342e7516a15c9af60"
+    },
+    {
+      "bytes": 4205,
+      "path": "reference-donors/ngs-extra-05-20261012-dragon.StormReplay.profile.json",
+      "sha256": "5072c639bd48e5f74ceb2121a3c3ba660272a989cbb77ec711e2ad3e3c149b3a"
+    },
+    {
+      "bytes": 9883,
+      "path": "reference-donors/ngs-extra-06-20261008-dragon.StormReplay.unit-inventory.json",
+      "sha256": "cdec8f37a218b466424e83e07292b4685678411aa1922be74d078d64b2e35273"
+    },
+    {
+      "bytes": 4155,
+      "path": "reference-donors/ngs-extra-06-20261008-dragon.StormReplay.profile.json",
+      "sha256": "29d8f97fea994b919913612bda0b923ebdf49cacbd7b9b3a0c82de4fd090d2cc"
+    },
+    {
+      "bytes": 9364,
+      "path": "reference-donors/ngs-remaining-01-20261007-dragon.StormReplay.unit-inventory.json",
+      "sha256": "fdd97b50bcf442665e7cfb60a9cd2357e61aceea97363076a749371b07be77b3"
+    },
+    {
+      "bytes": 4042,
+      "path": "reference-donors/ngs-remaining-01-20261007-dragon.StormReplay.profile.json",
+      "sha256": "fd9481babfe54374857ee2ed5d55dc6de1c4faba1b194e9ca1ca0422544546cd"
+    },
+    {
+      "bytes": 9754,
+      "path": "reference-donors/ngs-remaining-02-20261007-dragon.StormReplay.unit-inventory.json",
+      "sha256": "6ef79fcdd06bbb80a77e17c0572ffe90d526e9ebfa4eb962b804dbe768a7a376"
+    },
+    {
+      "bytes": 4186,
+      "path": "reference-donors/ngs-remaining-02-20261007-dragon.StormReplay.profile.json",
+      "sha256": "a35175588e549f7089fa64cae51f6c867592b35d9ab8fbe90c7e1d217f31f111"
+    },
+    {
+      "bytes": 10111,
+      "path": "reference-donors/ngs-remaining-03-20261007-dragon.StormReplay.unit-inventory.json",
+      "sha256": "aed71d02b34f733fb4ba3a499af80b5650761b52bc078271698efb9552da5d96"
+    },
+    {
+      "bytes": 4038,
+      "path": "reference-donors/ngs-remaining-03-20261007-dragon.StormReplay.profile.json",
+      "sha256": "0b998c363430aeec02c3005124f747da5787b2d10bf72732ee952bd5ddc14d6b"
+    },
+    {
+      "bytes": 11063,
+      "path": "reference-donors/ngs-remaining-04-20261006-dragon.StormReplay.unit-inventory.json",
+      "sha256": "822d1698e763ff8ba851d40f135b618de0a5f063baf1cf6949bffaf9a9855f9b"
+    },
+    {
+      "bytes": 4042,
+      "path": "reference-donors/ngs-remaining-04-20261006-dragon.StormReplay.profile.json",
+      "sha256": "f78a46019ad2ba71c0ef1885feb5e19bef0f6c10a72e9a0eaf7e7621d705c77f"
+    },
+    {
+      "bytes": 12635,
+      "path": "replay-search-20261018/crossmap-01-Sky_Temple.StormReplay.inventory.v2.json",
+      "sha256": "07ea01bc8885d783192cfaa120e48a48ef8b95cbed7f010da03c57a18f55efbe"
+    },
+    {
+      "bytes": 3982,
+      "path": "replay-search-20261018/crossmap-01-Sky_Temple.StormReplay.profile.v2.json",
+      "sha256": "21bfaf86b58aecab3a68bc6612ce0178dfecdda08ed3af5297ce21f8be52cea0"
+    },
+    {
+      "bytes": 11841,
+      "path": "replay-search-20261018/crossmap-02-Battlefield_of_Eternity.StormReplay.inventory.v2.json",
+      "sha256": "e759cf26ed245a47379997e6429b61ef8306756a754b92dec72113ed84a19795"
+    },
+    {
+      "bytes": 3983,
+      "path": "replay-search-20261018/crossmap-02-Battlefield_of_Eternity.StormReplay.profile.v2.json",
+      "sha256": "e435d58d1a1dea9fee5fafbc705813acbde1a22ea235b25c04188c9cae7b95a5"
+    },
+    {
+      "bytes": 12122,
+      "path": "replay-search-20261018/crossmap-03-Volskaya_Foundry.StormReplay.inventory.v2.json",
+      "sha256": "e64b7edbd3b638a70419756c87e29e315c79d8ac969dc9462cdabdb4143ef3ba"
+    },
+    {
+      "bytes": 4037,
+      "path": "replay-search-20261018/crossmap-03-Volskaya_Foundry.StormReplay.profile.v2.json",
+      "sha256": "3ea61d6358f35d25f80d11c3f0cbd1dcbf91f4565b5ddfcdf1031d431d21f7ab"
+    },
+    {
+      "bytes": 12296,
+      "path": "replay-search-20261018/crossmap-04-Tomb_of_the_Spider_Queen.StormReplay.inventory.v2.json",
+      "sha256": "5ff098e956d8caaa1d322eec7a0aadfb87f8131b5467e56aee45f14934929f8e"
+    },
+    {
+      "bytes": 4042,
+      "path": "replay-search-20261018/crossmap-04-Tomb_of_the_Spider_Queen.StormReplay.profile.v2.json",
+      "sha256": "4b196df65763da5d7d990515a83582d041548dc89b2394e05f9232730193d433"
+    },
+    {
+      "bytes": 8495,
+      "path": "replay-search-20261018/crossmap-05-Towers_of_Doom.StormReplay.inventory.v2.json",
+      "sha256": "fbb96d88d0ff81c6d12b68449bff03c2b8d769477e0c5067366660961d51ffd5"
+    },
+    {
+      "bytes": 3943,
+      "path": "replay-search-20261018/crossmap-05-Towers_of_Doom.StormReplay.profile.v2.json",
+      "sha256": "3256be4b60c5e8553e28e80044e60eb2289558e1749f31100f3cc2e1a0933923"
+    },
+    {
+      "bytes": 10654,
+      "path": "replay-search-20261018/crossmap-06-Infernal_Shrines.StormReplay.inventory.v2.json",
+      "sha256": "0095b9fc8b81efee64c066772524bd84d594b483e461a546affbb4b87c07ece9"
+    },
+    {
+      "bytes": 3826,
+      "path": "replay-search-20261018/crossmap-06-Infernal_Shrines.StormReplay.profile.v2.json",
+      "sha256": "bd03f3e27134998b088e1bfd10e70ff34d006057eb094455b154a8173e16e084"
+    },
+    {
+      "bytes": 13070,
+      "path": "replay-search-20261018/crossmap-07-Cursed_Hollow-Nova.StormReplay.inventory.v2.json",
+      "sha256": "3503d60357380db194f19bbd13ac08977bedbf2d79abce6c4cf14b53be2a9c1f"
+    },
+    {
+      "bytes": 4050,
+      "path": "replay-search-20261018/crossmap-07-Cursed_Hollow-Nova.StormReplay.profile.v2.json",
+      "sha256": "c0ee5d66c7a866f3cd673f31b7930bcbe9c6747dee6ea51c00103d4523780f26"
+    },
+    {
+      "bytes": 12236,
+      "path": "replay-search-20261018/crossmap-08-Tomb-Nova.StormReplay.inventory.v2.json",
+      "sha256": "9782fe7d513e3e7167e92bf82006ccb6b407bfc2651190458250a09365020df2"
+    },
+    {
+      "bytes": 3938,
+      "path": "replay-search-20261018/crossmap-08-Tomb-Nova.StormReplay.profile.v2.json",
+      "sha256": "ca8abe7788e0a4018b406ac332d0c64304b91c9992204b34176347ae73466681"
+    }
+  ],
+  "method": "Selection subgroup unit tags join to chronological tracker lifecycle state using repaired packed-tagshift22. Only alive identities strictly before the event tick are admitted; same-tick transitions/dead/unknown/mixed groups are excluded. This is recorded identity evidence, not new engine live allocation.",
+  "other_map_controls": 8,
+  "personal_or_raw_replay_values_emitted": false,
+  "recomputed_combined_pair_count": 44,
+  "recomputed_combined_unresolved_count": 6,
+  "remaining_full_match_unresolved_types": [
+    {
+      "hero_roster_context_only": [
+        "crossmap-01"
+      ],
+      "hero_roster_establishes_specific_spawn_type_or_catalog_link": false,
+      "reason": "not_observed_in_current_references",
+      "source_links": [
+        36
+      ],
+      "target_links": [],
+      "unit_type": "AbathurEvolvedMonstrosity"
+    },
+    {
+      "hero_roster_context_only": [
+        "crossmap-07",
+        "crossmap-08"
+      ],
+      "hero_roster_establishes_specific_spawn_type_or_catalog_link": false,
+      "reason": "not_observed_in_current_references",
+      "source_links": [
+        207
+      ],
+      "target_links": [],
+      "unit_type": "NovaHoloCloneCloaked"
+    },
+    {
+      "hero_roster_context_only": [],
+      "hero_roster_establishes_specific_spawn_type_or_catalog_link": false,
+      "reason": "ambiguous_link_to_type",
+      "source_links": [
+        531
+      ],
+      "target_links": [
+        296
+      ],
+      "unit_type": "TownCannonTowerDead"
+    },
+    {
+      "hero_roster_context_only": [],
+      "hero_roster_establishes_specific_spawn_type_or_catalog_link": false,
+      "reason": "ambiguous_link_to_type",
+      "source_links": [
+        531
+      ],
+      "target_links": [
+        294
+      ],
+      "unit_type": "TownCannonTowerL2"
+    },
+    {
+      "hero_roster_context_only": [],
+      "hero_roster_establishes_specific_spawn_type_or_catalog_link": false,
+      "reason": "not_observed_in_current_references",
+      "source_links": [
+        532
+      ],
+      "target_links": [],
+      "unit_type": "TownCannonTowerL2Standalone"
+    },
+    {
+      "hero_roster_context_only": [],
+      "hero_roster_establishes_specific_spawn_type_or_catalog_link": false,
+      "reason": "ambiguous_link_to_type",
+      "source_links": [
+        533
+      ],
+      "target_links": [
+        296
+      ],
+      "unit_type": "TownCannonTowerL3"
+    }
+  ],
+  "replay_PE_old_header_dump_network_reads": 0,
+  "same_map_controls": 12,
+  "saved_catalog_controls_checked": 20,
+  "source_replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+  "startup_fields": [
+    {
+      "current_98348_observed_candidate": 614,
+      "current_observation_evidence": [
+        {
+          "catalog_link": 614,
+          "classified_field_count": 150,
+          "id": "dragon-05",
+          "inventory_sha256": "2d577a90b431c36a8ec0dd2ae73c0a75803b64d61b87106aa73101deda4c13cc",
+          "map": "Dragon Shire",
+          "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+          "same_target_map": true
+        },
+        {
+          "catalog_link": 614,
+          "classified_field_count": 320,
+          "id": "dragon-12",
+          "inventory_sha256": "822d1698e763ff8ba851d40f135b618de0a5f063baf1cf6949bffaf9a9855f9b",
+          "map": "Dragon Shire",
+          "replay_sha256": "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77",
+          "same_target_map": true
+        },
+        {
+          "catalog_link": 614,
+          "classified_field_count": 145,
+          "id": "crossmap-01",
+          "inventory_sha256": "07ea01bc8885d783192cfaa120e48a48ef8b95cbed7f010da03c57a18f55efbe",
+          "map": "Sky Temple",
+          "replay_sha256": "afcf49a656068f343173fc79afff2d2ebf15066f531cb192382cdba9d1ea3272",
+          "same_target_map": false
+        }
+      ],
+      "event_index": 22,
+      "gameloop": 52,
+      "historical_98285_anchor": null,
+      "recorded_identity_classification": "known_alive_strictly_before_event",
+      "same_map_current_anchor_observed": true,
+      "source_catalog_link": 807,
+      "tracker_unit_type": "HeroGreymane"
+    },
+    {
+      "current_98348_observed_candidate": 470,
+      "current_observation_evidence": [
+        {
+          "catalog_link": 470,
+          "classified_field_count": 68,
+          "id": "dragon-01",
+          "inventory_sha256": "1be459391ca638b4dca81bc3118b1616b103f3f02a2fcf663f7e086f8224055c",
+          "map": "Dragon Shire",
+          "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+          "same_target_map": true
+        },
+        {
+          "catalog_link": 470,
+          "classified_field_count": 90,
+          "id": "dragon-02",
+          "inventory_sha256": "2b1a7b0932df625c6b4aa9113a186ac569197db5cdff021d229c3730ad6f73a8",
+          "map": "Dragon Shire",
+          "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+          "same_target_map": true
+        },
+        {
+          "catalog_link": 470,
+          "classified_field_count": 70,
+          "id": "dragon-09",
+          "inventory_sha256": "fdd97b50bcf442665e7cfb60a9cd2357e61aceea97363076a749371b07be77b3",
+          "map": "Dragon Shire",
+          "replay_sha256": "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+          "same_target_map": true
+        },
+        {
+          "catalog_link": 470,
+          "classified_field_count": 43,
+          "id": "dragon-11",
+          "inventory_sha256": "aed71d02b34f733fb4ba3a499af80b5650761b52bc078271698efb9552da5d96",
+          "map": "Dragon Shire",
+          "replay_sha256": "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+          "same_target_map": true
+        },
+        {
+          "catalog_link": 470,
+          "classified_field_count": 192,
+          "id": "crossmap-01",
+          "inventory_sha256": "07ea01bc8885d783192cfaa120e48a48ef8b95cbed7f010da03c57a18f55efbe",
+          "map": "Sky Temple",
+          "replay_sha256": "afcf49a656068f343173fc79afff2d2ebf15066f531cb192382cdba9d1ea3272",
+          "same_target_map": false
+        },
+        {
+          "catalog_link": 470,
+          "classified_field_count": 127,
+          "id": "crossmap-05",
+          "inventory_sha256": "fbb96d88d0ff81c6d12b68449bff03c2b8d769477e0c5067366660961d51ffd5",
+          "map": "Towers of Doom",
+          "replay_sha256": "715e309bba5d3151d3e1b47461041627db7644d91a8b549c309950e44d6067e8",
+          "same_target_map": false
+        },
+        {
+          "catalog_link": 470,
+          "classified_field_count": 110,
+          "id": "crossmap-06",
+          "inventory_sha256": "0095b9fc8b81efee64c066772524bd84d594b483e461a546affbb4b87c07ece9",
+          "map": "Infernal Shrines",
+          "replay_sha256": "1230eee79fd3b50a3ee471c587bc77dd14aef67d57bf22cd8df52e877329323a",
+          "same_target_map": false
+        },
+        {
+          "catalog_link": 470,
+          "classified_field_count": 183,
+          "id": "crossmap-07",
+          "inventory_sha256": "3503d60357380db194f19bbd13ac08977bedbf2d79abce6c4cf14b53be2a9c1f",
+          "map": "Cursed Hollow",
+          "replay_sha256": "db40f495edb70b2127b97cae4f479de19e18e61b2a5a0e0413052b571e1dbf7e",
+          "same_target_map": false
+        }
+      ],
+      "event_index": 23,
+      "gameloop": 59,
+      "historical_98285_anchor": null,
+      "recorded_identity_classification": "known_alive_strictly_before_event",
+      "same_map_current_anchor_observed": true,
+      "source_catalog_link": 64,
+      "tracker_unit_type": "HeroFaerieDragon"
+    },
+    {
+      "current_98348_observed_candidate": 468,
+      "current_observation_evidence": [
+        {
+          "catalog_link": 468,
+          "classified_field_count": 199,
+          "id": "dragon-05",
+          "inventory_sha256": "2d577a90b431c36a8ec0dd2ae73c0a75803b64d61b87106aa73101deda4c13cc",
+          "map": "Dragon Shire",
+          "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+          "same_target_map": true
+        },
+        {
+          "catalog_link": 468,
+          "classified_field_count": 642,
+          "id": "dragon-12",
+          "inventory_sha256": "822d1698e763ff8ba851d40f135b618de0a5f063baf1cf6949bffaf9a9855f9b",
+          "map": "Dragon Shire",
+          "replay_sha256": "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77",
+          "same_target_map": true
+        }
+      ],
+      "event_index": 24,
+      "gameloop": 60,
+      "historical_98285_anchor": 468,
+      "recorded_identity_classification": "known_alive_strictly_before_event",
+      "same_map_current_anchor_observed": true,
+      "source_catalog_link": 739,
+      "tracker_unit_type": "HeroAnubarak"
+    },
+    {
+      "current_98348_observed_candidate": 632,
+      "current_observation_evidence": [
+        {
+          "catalog_link": 632,
+          "classified_field_count": 96,
+          "id": "crossmap-01",
+          "inventory_sha256": "07ea01bc8885d783192cfaa120e48a48ef8b95cbed7f010da03c57a18f55efbe",
+          "map": "Sky Temple",
+          "replay_sha256": "afcf49a656068f343173fc79afff2d2ebf15066f531cb192382cdba9d1ea3272",
+          "same_target_map": false
+        },
+        {
+          "catalog_link": 632,
+          "classified_field_count": 92,
+          "id": "crossmap-06",
+          "inventory_sha256": "0095b9fc8b81efee64c066772524bd84d594b483e461a546affbb4b87c07ece9",
+          "map": "Infernal Shrines",
+          "replay_sha256": "1230eee79fd3b50a3ee471c587bc77dd14aef67d57bf22cd8df52e877329323a",
+          "same_target_map": false
+        }
+      ],
+      "event_index": 25,
+      "gameloop": 60,
+      "historical_98285_anchor": 632,
+      "recorded_identity_classification": "known_alive_strictly_before_event",
+      "same_map_current_anchor_observed": false,
+      "source_catalog_link": 827,
+      "tracker_unit_type": "HeroKaelthas"
+    }
+  ],
+  "startup_fields_with_same_map_current_anchor": 3,
+  "startup_interval": {
+    "start_inclusive": 0,
+    "stop_exclusive": 64
+  },
+  "target_context": {
+    "build_base_data": 98348,
+    "root": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+    "same_map": "Dragon Shire"
+  }
+}

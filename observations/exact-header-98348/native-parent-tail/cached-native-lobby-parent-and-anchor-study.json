@@ -1,0 +1,656 @@
+{
+  "alternative_native_roots": [
+    5962,
+    5951
+  ],
+  "cached_native_parent_edges": [
+    {
+      "child_id": 5842,
+      "depth": 1,
+      "kind": "USER",
+      "member_name": null,
+      "parent_id": 5918,
+      "parent_name": null
+    },
+    {
+      "child_id": 5842,
+      "depth": 1,
+      "kind": "USER",
+      "member_name": null,
+      "parent_id": 5963,
+      "parent_name": null
+    },
+    {
+      "child_id": 5918,
+      "depth": 2,
+      "kind": "STRUCT",
+      "member_name": "StartGameRequest",
+      "parent_id": 5917,
+      "parent_name": "Battlenet::Event::S2GameEngine::OnlineStartGameRequest"
+    },
+    {
+      "child_id": 5963,
+      "depth": 2,
+      "kind": "STRUCT",
+      "member_name": "StartGameRequest",
+      "parent_id": 5962,
+      "parent_name": "Battlenet::Event::S2GameEngine::OfflineStartGameRequest"
+    },
+    {
+      "child_id": 5917,
+      "depth": 3,
+      "kind": "USER",
+      "member_name": null,
+      "parent_id": 6070,
+      "parent_name": "Battlenet::Event::S2GameEngine::Response::Event::StartGame"
+    },
+    {
+      "child_id": 5962,
+      "depth": 3,
+      "kind": "USER",
+      "member_name": null,
+      "parent_id": 6073,
+      "parent_name": "Battlenet::Event::S2GameEngine::Response::Event::StartOfflineGame"
+    },
+    {
+      "child_id": 6070,
+      "depth": 4,
+      "kind": "CHOICE",
+      "member_name": "StartGame",
+      "parent_id": 6062,
+      "parent_name": "Battlenet::Event::S2GameEngine::Response::Event"
+    },
+    {
+      "child_id": 6062,
+      "depth": 5,
+      "kind": "USER",
+      "member_name": null,
+      "parent_id": 6061,
+      "parent_name": null
+    },
+    {
+      "child_id": 6061,
+      "depth": 6,
+      "kind": "STRUCT",
+      "member_name": "m_event",
+      "parent_id": 6060,
+      "parent_name": "Battlenet::Event::S2GameEngine::Response"
+    }
+  ],
+  "cached_parent_members_for_resource_matrix": [
+    {
+      "member_index": 4,
+      "name": "m_resourceMap",
+      "tag": -3,
+      "type_id": 5847
+    },
+    {
+      "member_index": 5,
+      "name": "m_accessMatrix",
+      "tag": -2,
+      "type_id": 5848
+    },
+    {
+      "member_index": 6,
+      "name": "m_disabledHeroList",
+      "tag": -1,
+      "type_id": 5849
+    }
+  ],
+  "cached_source_bytes_read": 378411,
+  "candidate_native_body_root": {
+    "id": 5917,
+    "name": "Battlenet::Event::S2GameEngine::OnlineStartGameRequest",
+    "proposed_start_bit": 0,
+    "reason": "It contains StartGameRequest, which contains the independently bound MapInfo/resource-map/matrix/disabled-list sequence.",
+    "whole_member_fit_not_yet_tested_here": true
+  },
+  "community_sources": {
+    "historical_schema_2": "https://github.com/EugenPolyakov/HOTS_battlelobby/blob/85625327fd5623368410e5270a7eeb4869b40af9/lobby/2.txt",
+    "historical_schema_5": "https://github.com/EugenPolyakov/HOTS_battlelobby/blob/85625327fd5623368410e5270a7eeb4869b40af9/lobby/5.txt",
+    "independent_current_Csharp": "https://github.com/HeroesToolChest/Heroes.StormReplayParser/blob/d381dd9c273205c0fd7ac402c75eef98c6fa6c78/Heroes.StormReplayParser/MpqFiles/ReplayServerBattlelobby.cs"
+  },
+  "complete_cached_StartGameRequest": {
+    "bounds": {
+      "bits": 3,
+      "int_type": 0,
+      "max": -1,
+      "min": -7,
+      "variable": false
+    },
+    "bytes": 33,
+    "id": 5842,
+    "kind": "STRUCT",
+    "members": [
+      {
+        "name": "StartRequest",
+        "tag": -7,
+        "type_id": 5843,
+        "type_kind": "USER",
+        "type_name": null
+      },
+      {
+        "name": "m_mapLink",
+        "tag": -6,
+        "type_id": 5844,
+        "type_kind": "USER",
+        "type_name": null
+      },
+      {
+        "name": "m_mapInfoList",
+        "tag": -5,
+        "type_id": 5845,
+        "type_kind": "USER",
+        "type_name": null
+      },
+      {
+        "name": "m_headerCacheHandles",
+        "tag": -4,
+        "type_id": 5846,
+        "type_kind": "USER",
+        "type_name": null
+      },
+      {
+        "name": "m_resourceMap",
+        "tag": -3,
+        "type_id": 5847,
+        "type_kind": "USER",
+        "type_name": null
+      },
+      {
+        "name": "m_accessMatrix",
+        "tag": -2,
+        "type_id": 5848,
+        "type_kind": "USER",
+        "type_name": null
+      },
+      {
+        "name": "m_disabledHeroList",
+        "tag": -1,
+        "type_id": 5849,
+        "type_kind": "USER",
+        "type_name": null
+      }
+    ],
+    "name": "Battlenet::Event::S2GameEngine::StartGameRequest",
+    "offset": 80386
+  },
+  "exact_anchor_tests_for_new_complete_projection": [
+    {
+      "candidate": "StartRequest5834 child0/1",
+      "observed": "dependency paths count6/length10/byte-aligned strings, then cache-handles count6/fixed40B",
+      "status": "hypothesis: missing cached child names"
+    },
+    {
+      "candidate": "StartRequest5834 m_definitionList child2",
+      "observed": "attribute table count9; value-count12/index11 under observed-11 profile",
+      "status": "count9 matches cached native294; names/complete definition closure still needed"
+    },
+    {
+      "candidate": "StartRequest5834 m_workingSet child3",
+      "observed": "working-set127bit prefix, selected count9, visual-file count6 and locale-table count5",
+      "status": "candidate grouping; full fieldwise verification needed"
+    },
+    {
+      "candidate": "StartRequest5834 child4",
+      "observed": "128bits immediately after locale_handles_end",
+      "status": "hypothesis: missing cached child name"
+    },
+    {
+      "candidate": "StartGameRequest5842 m_mapLink",
+      "observed": "used-mod list count5 with id32/version32/linktype4",
+      "status": "test named link closure"
+    },
+    {
+      "candidate": "StartGameRequest5842 m_mapInfoList",
+      "observed": "count7 followed by exact current32field MapInfo spans",
+      "status": "191child closure and spans already bound"
+    },
+    {
+      "candidate": "StartGameRequest5842 m_headerCacheHandles",
+      "observed": "count6 then aligned40B s2mh handles ending at tail_start",
+      "status": "test full cached-handle list closure"
+    },
+    {
+      "candidate": "StartGameRequest5842 m_resourceMap/m_accessMatrix/m_disabledHeroList",
+      "observed": "collections count16\u00d7u64; matrix count32\u00d7fixed16\u00d7u16; disabled count8\u00d7FourCC",
+      "status": "selected native graph and current21-case binding already exist"
+    },
+    {
+      "candidate": "OnlineStartGameRequest5917 remaining24fields",
+      "observed": "tail init32+32, player-list count5/ClientInfo1768, post-player fields through EOF",
+      "status": "complete parent graph needed; no guessed names assigned"
+    }
+  ],
+  "existing_bound_child_roots": {
+    "ClientInfo": {
+      "closure_types": 104,
+      "id": 1768
+    },
+    "MapInfo": {
+      "closure_types": 191,
+      "id": 5852
+    }
+  },
+  "format": "hots-cached-native-lobby-parent-and-anchor-study-v1",
+  "generic_current_decoder_capacity_warning": {
+    "MAX_TOKENS_also_caps_fields": 100000,
+    "known_current_matrix_cells": 86688,
+    "meaning": "A current full-root probe may hit the existing field budget even with valid syntax; do not silently relax a production pin or treat that limit as a schema contradiction.",
+    "minimum_fields_for_three_node_scalar_chain": 260064
+  },
+  "limits": [
+    "The namespace ancestor graph intentionally omits members not reaching namespace145; its retained member lists are not complete decoder schemas.",
+    "The fixed9 definition/selection count is separate from observed-11 index capacity11/value-count12; these are not a native count mismatch.",
+    "This study proposes bounded anchors only and establishes no whole-root parse, old schema or conversion."
+  ],
+  "needed_new_projection": {
+    "all_8330_type_names_required_here": false,
+    "complete_roots": [
+      5834,
+      5842,
+      5917,
+      5962,
+      5951
+    ],
+    "reverse_ancestors_of": [
+      1768,
+      5830
+    ]
+  },
+  "new_PE_replay_header_fragment_network_reads": 0,
+  "private_data_written": false,
+  "production_profile_replay_or_header_modified": false,
+  "remaining_observed_tail_scalar_source_anchors": [
+    {
+      "observed_path": "/init/random_seed",
+      "source_function": "scalar",
+      "source_line": 152,
+      "width_expression": "32"
+    },
+    {
+      "observed_path": "/init/unknown32",
+      "source_function": "scalar",
+      "source_line": 153,
+      "width_expression": "32"
+    },
+    {
+      "observed_path": "/end/unknown64",
+      "source_function": "opaque",
+      "source_line": 197,
+      "width_expression": "64"
+    },
+    {
+      "observed_path": "/end/mode_toon_choice",
+      "source_function": "scalar",
+      "source_line": 198,
+      "width_expression": "1"
+    },
+    {
+      "observed_path": "/end/mode_filler16",
+      "source_function": "opaque",
+      "source_line": 202,
+      "width_expression": "16"
+    },
+    {
+      "observed_path": "/end/unknown87",
+      "source_function": "opaque",
+      "source_line": 204,
+      "width_expression": "87"
+    },
+    {
+      "observed_path": "/end/a38_count_minus1",
+      "source_function": "scalar",
+      "source_line": 205,
+      "width_expression": "4"
+    },
+    {
+      "observed_path": "/end/unknown_bool",
+      "source_function": "scalar",
+      "source_line": 206,
+      "width_expression": "1"
+    },
+    {
+      "observed_path": "/end/neut_count_minus1",
+      "source_function": "scalar",
+      "source_line": 207,
+      "width_expression": "4"
+    },
+    {
+      "observed_path": "/end/hero_tables/count",
+      "source_function": "scalar",
+      "source_line": 209,
+      "width_expression": "5"
+    },
+    {
+      "observed_path": "/end/cstm/count",
+      "source_function": "scalar",
+      "source_line": 218,
+      "width_expression": "6"
+    },
+    {
+      "observed_path": "/end/a41_or_a48/count",
+      "source_function": "scalar",
+      "source_line": 220,
+      "width_expression": "5"
+    },
+    {
+      "observed_path": "/end/unknown23",
+      "source_function": "opaque",
+      "source_line": 224,
+      "width_expression": "23"
+    },
+    {
+      "observed_path": "/end/unknown32a",
+      "source_function": "scalar",
+      "source_line": 225,
+      "width_expression": "32"
+    },
+    {
+      "observed_path": "/end/unknown10",
+      "source_function": "opaque",
+      "source_line": 226,
+      "width_expression": "10"
+    },
+    {
+      "observed_path": "/end/unknown32b",
+      "source_function": "scalar",
+      "source_line": 227,
+      "width_expression": "32"
+    },
+    {
+      "observed_path": "/end/allheroes/count",
+      "source_function": "scalar",
+      "source_line": 230,
+      "width_expression": "10"
+    },
+    {
+      "observed_path": "/end/unknown2",
+      "source_function": "opaque",
+      "source_line": 235,
+      "width_expression": "2"
+    },
+    {
+      "observed_path": "/end/padding",
+      "source_function": "scalar",
+      "source_line": 240,
+      "width_expression": "padding"
+    }
+  ],
+  "selected_partial_cached_records": [
+    {
+      "cached_retained_members_only": [
+        {
+          "name": "m_definitionList",
+          "tag": -3,
+          "type_id": 5837,
+          "type_kind": "USER",
+          "type_name": null
+        },
+        {
+          "name": "m_workingSet",
+          "tag": -2,
+          "type_id": 5838,
+          "type_kind": "USER",
+          "type_name": null
+        }
+      ],
+      "dense_count_when_struct": 5,
+      "id": 5834,
+      "kind": "STRUCT",
+      "name": "Battlenet::Event::S2GameEngine::StartRequest",
+      "native_bounds": {
+        "bits": 3,
+        "int_type": 0,
+        "max": -1,
+        "min": -5,
+        "variable": false
+      },
+      "native_record_bytes": 25
+    },
+    {
+      "cached_retained_members_only": [
+        {
+          "name": "StartRequest",
+          "tag": -7,
+          "type_id": 5843,
+          "type_kind": "USER",
+          "type_name": null
+        }
+      ],
+      "dense_count_when_struct": 7,
+      "id": 5842,
+      "kind": "STRUCT",
+      "name": "Battlenet::Event::S2GameEngine::StartGameRequest",
+      "native_bounds": {
+        "bits": 3,
+        "int_type": 0,
+        "max": -1,
+        "min": -7,
+        "variable": false
+      },
+      "native_record_bytes": 33
+    },
+    {
+      "cached_retained_members_only": [
+        {
+          "name": "StartGameRequest",
+          "tag": -25,
+          "type_id": 5918,
+          "type_kind": "USER",
+          "type_name": null
+        }
+      ],
+      "dense_count_when_struct": 25,
+      "id": 5917,
+      "kind": "STRUCT",
+      "name": "Battlenet::Event::S2GameEngine::OnlineStartGameRequest",
+      "native_bounds": {
+        "bits": 5,
+        "int_type": 0,
+        "max": -1,
+        "min": -25,
+        "variable": false
+      },
+      "native_record_bytes": 105
+    },
+    {
+      "cached_retained_members_only": [
+        {
+          "name": "StartGameRequest",
+          "tag": -7,
+          "type_id": 5963,
+          "type_kind": "USER",
+          "type_name": null
+        }
+      ],
+      "dense_count_when_struct": 7,
+      "id": 5962,
+      "kind": "STRUCT",
+      "name": "Battlenet::Event::S2GameEngine::OfflineStartGameRequest",
+      "native_bounds": {
+        "bits": 3,
+        "int_type": 0,
+        "max": -1,
+        "min": -7,
+        "variable": false
+      },
+      "native_record_bytes": 33
+    },
+    {
+      "cached_retained_members_only": [
+        {
+          "name": "StartRequest",
+          "tag": -9,
+          "type_id": 5952,
+          "type_kind": "USER",
+          "type_name": null
+        }
+      ],
+      "dense_count_when_struct": 9,
+      "id": 5951,
+      "kind": "STRUCT",
+      "name": "Battlenet::Event::S2GameEngine::StartReplayRequest",
+      "native_bounds": {
+        "bits": 4,
+        "int_type": 0,
+        "max": -1,
+        "min": -9,
+        "variable": false
+      },
+      "native_record_bytes": 41
+    },
+    {
+      "cached_retained_members_only": [
+        {
+          "name": "m_finalWorkingSet",
+          "tag": -5,
+          "type_id": 1785,
+          "type_kind": "USER",
+          "type_name": null
+        }
+      ],
+      "dense_count_when_struct": 5,
+      "id": 1767,
+      "kind": "STRUCT",
+      "name": "Battlenet::Client::S2GameDefines::LoadingPhaseInfo",
+      "native_bounds": {
+        "bits": 3,
+        "int_type": 0,
+        "max": -1,
+        "min": -5,
+        "variable": false
+      },
+      "native_record_bytes": 25
+    },
+    {
+      "cached_retained_members_only": [
+        {
+          "name": "StartGame",
+          "tag": 7,
+          "type_id": 6070,
+          "type_kind": "USER",
+          "type_name": "Battlenet::Event::S2GameEngine::Response::Event::StartGame"
+        },
+        {
+          "name": "GamePhase",
+          "tag": 8,
+          "type_id": 6071,
+          "type_kind": "STRUCT",
+          "type_name": "Battlenet::Event::S2GameEngine::Response::Event::GamePhase"
+        },
+        {
+          "name": "StartOfflineGame",
+          "tag": 10,
+          "type_id": 6073,
+          "type_kind": "USER",
+          "type_name": "Battlenet::Event::S2GameEngine::Response::Event::StartOfflineGame"
+        },
+        {
+          "name": "StartReplay",
+          "tag": 13,
+          "type_id": 6076,
+          "type_kind": "USER",
+          "type_name": "Battlenet::Event::S2GameEngine::Response::Event::StartReplay"
+        }
+      ],
+      "dense_count_when_struct": null,
+      "id": 6062,
+      "kind": "CHOICE",
+      "name": "Battlenet::Event::S2GameEngine::Response::Event",
+      "native_bounds": {
+        "bits": 5,
+        "int_type": 1,
+        "max": 21,
+        "min": 0,
+        "variable": false
+      },
+      "native_record_bytes": 93
+    },
+    {
+      "cached_retained_members_only": [
+        {
+          "name": "m_event",
+          "tag": -3,
+          "type_id": 6061,
+          "type_kind": "USER",
+          "type_name": null
+        }
+      ],
+      "dense_count_when_struct": 1,
+      "id": 6060,
+      "kind": "STRUCT",
+      "name": "Battlenet::Event::S2GameEngine::Response",
+      "native_bounds": {
+        "bits": 0,
+        "int_type": 0,
+        "max": -3,
+        "min": -3,
+        "variable": false
+      },
+      "native_record_bytes": 9
+    }
+  ],
+  "source_files": {
+    "cached_namespace_graph": {
+      "bytes": 94813,
+      "path": "native-namespace-exposure/native-formal-namespace-selected-graph.json",
+      "sha256": "2db88802fec04e587e7203c32ab16d25578e56a6f377e04f5d933938f0246baf"
+    },
+    "cached_native_metadata": {
+      "bytes": 96671,
+      "path": "native-embedded-schema-98348/native-BSN-metadata-98348-v2.json",
+      "sha256": "cf7204cb7b26f4d1cdcf92930bee154932fa2cbe9f27f4d10daf7be6ef3f0256"
+    },
+    "cached_resource_matrix_graph": {
+      "bytes": 5569,
+      "path": "native-resource-matrix-ready/native-resource-matrix-static-98348.json",
+      "sha256": "c2c8deb0775bc35e3621dbd2567b39fd9159590263a0fd777c54ce79d5dcb7c7"
+    },
+    "current_native_ClientInfo_closure": {
+      "bytes": 26773,
+      "path": "native-client-codec-ready/native_clientinfo_schema_98348.json",
+      "sha256": "6e8711939ede15505debb043ae626b5c529749557d7e824226863c92e4f6a229"
+    },
+    "current_native_MapInfo_closure": {
+      "bytes": 45724,
+      "path": "native-mapinfo-ready/native_mapinfo_schema_98348.json",
+      "sha256": "3900a63c0799474becd2ecfb03eece4f8c523a965b38e539264867d5cdf2075c"
+    },
+    "historical_source_2": {
+      "bytes": 9525,
+      "path": "independent-parser/historical-schemas/2.txt",
+      "sha256": "e33f5cc20afe17476908df1cfb01198f9cb16b5fa9d919c40a05efad9b08b9f1"
+    },
+    "historical_source_5": {
+      "bytes": 10100,
+      "path": "independent-parser/historical-schemas/5.txt",
+      "sha256": "28bb0f73314452144d74a76f593bb83dc8cad196a1a862550dcc643bd11754e0"
+    },
+    "observed_attribute_source": {
+      "bytes": 18596,
+      "path": "battlelobby_attribute_layer.py",
+      "sha256": "3faf056fa8123f66e73dd551fcab2fb05fd9ccba5643826ec6835c771672aeee"
+    },
+    "observed_mod_metadata_source": {
+      "bytes": 11881,
+      "path": "audit_battlelobby_mod_metadata.py",
+      "sha256": "8dad2d923957cdfc44bec5690fe075c16d6e204651e09cc88cbf8503abcdd7c9"
+    },
+    "observed_tail_source": {
+      "bytes": 15319,
+      "path": "battlelobby_tail.py",
+      "sha256": "2a1289148bdcc2b53b2c7e5d8bcdc67e5ef2ecb8840acea071153753610b5f7b"
+    },
+    "pinned_independent_Csharp": {
+      "bytes": 33048,
+      "path": "independent-parser/historical-schemas/ReplayServerBattlelobby.pinned.cs",
+      "sha256": "755b3738620a544ebb3e2d69b15e0b865cac99784bc9a47df9f731363b46a341"
+    },
+    "producer": {
+      "bytes": 10392,
+      "path": "native-lobby-parent-study/study_cached_lobby_parents.py",
+      "sha256": "a5fcc7aac5bc781535e226069519d1e23de87a2be813fb312f1ed3c6459ae752"
+    }
+  }
+}

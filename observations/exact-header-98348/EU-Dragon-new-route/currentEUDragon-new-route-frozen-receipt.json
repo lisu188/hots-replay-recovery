@@ -1,0 +1,60 @@
+{
+  "format": "bounded-currentEUDragon-new-route-frozen-receipt-v1",
+  "files": [
+    {
+      "file": "probe_primary_route_first_batch.py",
+      "bytes": 5104,
+      "sha256": "274e9799592ec08be3a5466eddcdd545911f856fa619c82f334f405e6a60eb6d"
+    },
+    {
+      "file": "probe_new_primary_route.py",
+      "bytes": 5434,
+      "sha256": "b9d44d34e6ac57d8c57c10c897795e8818bf93317ab623dd8bb4536c112f7320"
+    },
+    {
+      "file": "probe_observed_replay_header.py",
+      "bytes": 5271,
+      "sha256": "6c52a0738da6e04da3cdc2ad65cc31de614af780e777b6b7983a6d241c0a65e0"
+    },
+    {
+      "file": "probe_27490_dragon_header.py",
+      "bytes": 5354,
+      "sha256": "f676331c73458c518e281f194e5aff071dc6ba288f182df14f3aa25f8fb404e9"
+    },
+    {
+      "file": "finalize_new_route_observation.py",
+      "bytes": 5911,
+      "sha256": "da41478414a499c68369d56d6c8c889613608fd6d04651f8ef524752e3ff4d31"
+    },
+    {
+      "file": "route-ledger.json",
+      "bytes": 17000,
+      "sha256": "597d4f9f0fb1385962d9f182941b769edb197a7484c208b0940014b41c2fdbe4"
+    },
+    {
+      "file": "current-EU-Dragon-new-route-observation.json",
+      "bytes": 4283,
+      "sha256": "6c80d0b64ccc7de5f4aa9fa724979fa523d24dfd69da82523a3c8badb9f8cf39"
+    }
+  ],
+  "allowlist_excludes": [
+    "*.private.html",
+    "raw replay headers",
+    "StormReplay files",
+    "player/chat/account data"
+  ],
+  "validation": {
+    "offline_summary_verifier": "PASS; exact executed-source and private-primary-page hashes, acquisition counts and actual version rejections checked; no new requests",
+    "new_currentEUDragon_donor": false,
+    "full_replay_downloads": 0,
+    "client_launches": 0,
+    "logical_external_operations": 8,
+    "instrumented_HTTP_requests": 5,
+    "instrumented_application_body_bytes": 728834
+  },
+  "limits": [
+    "Metadata/search evidence and header prefixes only; no full replay schema/tail/dependency/region proof.",
+    "No repeated prefix decoding because raw prefixes were RAM-only.",
+    "No actual currentEUDragon package/version binding found."
+  ]
+}

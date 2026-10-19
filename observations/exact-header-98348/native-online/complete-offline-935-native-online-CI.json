@@ -1,0 +1,101 @@
+{
+  "format": "hots-complete-offline-native-online-CI-v1",
+  "source_commit": "404702a448c2a86cc32c8b55e903b0aeb645652a",
+  "run_id": 39178786673,
+  "run_url": "https://github.com/lisu188/hots-replay-recovery/actions/runs/39178786673",
+  "final_run_attempt": 2,
+  "final_conclusion": "success",
+  "root_test_modules": 47,
+  "tests_per_lane": 935,
+  "all_three_decoded_job_logs_inspected": true,
+  "platform_jobs": [
+    {
+      "job_id": 117905437922,
+      "log_characters": 207312,
+      "run_summary": [
+        "Ran 935 tests in 117.956s",
+        "OK (skipped=4)",
+        "{\"module_count\": 47, \"discovered_tests\": 935, \"tests_run\": 935, \"successful\": true}"
+      ],
+      "native_startgame_tests_passed": 14,
+      "actual_EU_whole_member_exact": true,
+      "executed_mapinfo_tests": 13,
+      "executed_clientinfo_tests": 14,
+      "skipped_lines": 4,
+      "unexpected_failures": [],
+      "platform": "Windows PowerShell 5.1",
+      "execution_reused_from_attempt1": false
+    },
+    {
+      "job_id": 117905439378,
+      "log_characters": 214089,
+      "run_summary": [
+        "Ran 935 tests in 90.586s",
+        "OK (skipped=38)",
+        "{\"module_count\": 47, \"discovered_tests\": 935, \"tests_run\": 935, \"successful\": true}"
+      ],
+      "native_startgame_tests_passed": 14,
+      "actual_EU_whole_member_exact": true,
+      "executed_mapinfo_tests": 13,
+      "executed_clientinfo_tests": 14,
+      "skipped_lines": 38,
+      "unexpected_failures": [],
+      "platform": "Linux",
+      "execution_reused_from_attempt1": true
+    },
+    {
+      "job_id": 117905440254,
+      "log_characters": 207224,
+      "run_summary": [
+        "Ran 935 tests in 125.297s",
+        "OK (skipped=4)",
+        "{\"module_count\": 47, \"discovered_tests\": 935, \"tests_run\": 935, \"successful\": true}"
+      ],
+      "native_startgame_tests_passed": 14,
+      "actual_EU_whole_member_exact": true,
+      "executed_mapinfo_tests": 13,
+      "executed_clientinfo_tests": 14,
+      "skipped_lines": 4,
+      "unexpected_failures": [],
+      "platform": "Windows PowerShell 7",
+      "execution_reused_from_attempt1": true
+    }
+  ],
+  "initial_failure_preserved": {
+    "job_id": 117826936330,
+    "platform": "Windows PowerShell 5.1",
+    "test": "test_catalog_failure_collector.FailureCollectorTests.test_chunk_without_manifest_not_reported_as_export",
+    "kind": "subprocess.TimeoutExpired",
+    "timeout_seconds": 40,
+    "replay_compatibility_steps_passed": true,
+    "new_native_tests_passed": 14,
+    "retry": "Single failed-job retry; no source or timeout change",
+    "retry_job_id": 117905437922,
+    "retry_succeeded": true
+  },
+  "actual_current_EU_control": {
+    "replay_sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4",
+    "actual_build_base_data": 98348,
+    "actual_root": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+    "core_event_counts": {
+      "game": 144708,
+      "message": 99,
+      "tracker": 6181
+    },
+    "full_observed_lobby_EOF": true,
+    "MapInfo_records": 8,
+    "ClientInfo_records": 10,
+    "complete_native_root_type": 5917,
+    "named_root_fields": 25,
+    "typed_fields": 424200,
+    "wire_tokens": 158055,
+    "whole_member_EOF_and_readonly_bytes_exact": true,
+    "private_identity_seed_and_handle_checks_passed": true
+  },
+  "actual_NGS_range_fixture_executed": true,
+  "complete_private_21case_corpus_or_PE_or_dump_in_hosted_CI": false,
+  "game_client_launched": false,
+  "replay_modified": false,
+  "historical_conversion_or_simulation_compatibility_proven": false,
+  "full_upgrade_complete": false
+}

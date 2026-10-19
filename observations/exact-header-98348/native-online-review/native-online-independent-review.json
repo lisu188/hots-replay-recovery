@@ -1,0 +1,91 @@
+{
+  "cached_authenticated_schema_overlap": {
+    "PE_reopened": false,
+    "all_records_exact": true,
+    "entire513_independently_rederived_from_PE_in_this_review": false,
+    "records_compared": 293
+  },
+  "explicit_read_bytes": {
+    "cached_authenticated_projection": 93202,
+    "frozen_after_guards": 285604,
+    "frozen_source_schema_and_reports": 285604,
+    "one_pinned_replay": 1113273,
+    "runtime_source_guards": 120938
+  },
+  "focused_tests": {
+    "fixture_kind": "invented independent physical writer",
+    "passed": 14,
+    "run": 14,
+    "skipped": 0,
+    "temporary_files_relocated_to_review_workspace": true
+  },
+  "format": "whole-native-online-StartGameRequest-independent-review-v1",
+  "limitations": [
+    "Only one existing pinned replay was reread; the21-case aggregate was inspected and hash-bound, not independently rerun in full.",
+    "The physical walker independently checks bit I/O, field spans and scalar/blob values against the same authenticated513 schema; it does not independently recover native schema semantics.",
+    "Before/after hashes cover source/schema/report files. Replay content is hashed on its one bounded read; final stat metadata is checked without a second replay-content read.",
+    "No PE, dumps, old headers, network, game client, native code, full core-event decode or replay mutation was used.",
+    "Decoded player/author/network/license values remain inRAM; only safe counts, extents and whole-file/member input hashes are reported."
+  ],
+  "material_findings": [],
+  "one_actual_current_control": {
+    "actual_NGDP_root": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+    "actual_executable_base_data_build": 98348,
+    "file_metadata_unchanged_after_audit": true,
+    "fresh_summary_JSON_exact_to_frozen21_case": true,
+    "member_sha256": "ab03d9533081e9d69d205a6adec9df6a0aaf5ff47a05ecc8bf670b6760b0ab55",
+    "one_file_read_bytes": 1113273,
+    "physical_reconstruction": {
+      "all_postorder_field_ids_kinds_paths_and_spans_match": true,
+      "all_scalar_blob_values_compared_privately": true,
+      "blob_tokens": 146,
+      "decoded_fields": 423660,
+      "payload_end_bit": 2263808,
+      "payload_start_bit": 0,
+      "scalar_tokens": 157656,
+      "uses_codec_bit_reader_or_writer": false,
+      "whole_physical_bits_reencoded_exact": true,
+      "wire_tokens": 157802,
+      "zero_EOF_padding_bits": 0
+    },
+    "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+    "second_replay_content_read_performed": false
+  },
+  "prior_local_attempts": [
+    {
+      "actual_replay_reads_before_failure": 0,
+      "category": "Sandbox default TemporaryDirectory PermissionError; rerun uses review-workspace temporary directory",
+      "errors": 1,
+      "synthetic_tests_completed": 14
+    },
+    {
+      "actual_replay_reads": 0,
+      "initial_command": "CMD multiline environment setup did not execute test runner; not counted as validation"
+    }
+  ],
+  "review_producer_sha256": "16bb5a9cc4a8566cacdfaed9261ccdb1f0c6183d99e0a553720ed9939ae0dc91",
+  "reviewed_inputs_sha256": {
+    "native-online-portable-frozen-receipt.json": "c36e87f03b9d746a3c830d903a95ffc83c987b73bd4f3fb2fc1ef79876628ca9",
+    "native-online-startgame-21case-binding.json": "756a5ab92f7910a7e217a884d0609375b6ae050d169935b58b58de9147f357f1",
+    "native_startgame.py": "4a77f974d439f8f44eaac9afd8d4de99a8b6e12e96464f82fa7daf0e6aefd543",
+    "native_startgame_schema_98348.json": "0fd61c8ef3b0aeef647912fd9e35308e70c39da9e2980004d06b1b92e0c96640",
+    "test_native_startgame.py": "e9ee35f9b5774ce6307e7697185e88eee6797299e2b921e87e8e4ac88f412173"
+  },
+  "runtime_source_sha256s": {
+    "bit_io": "3faf056fa8123f66e73dd551fcab2fb05fd9ccba5643826ec6835c771672aeee",
+    "codec": "4a77f974d439f8f44eaac9afd8d4de99a8b6e12e96464f82fa7daf0e6aefd543",
+    "mpyq": "526d3e3ae1f5254d8bc32e0248b0763ec5998f350846876c38794373983bed78",
+    "protocol_loader": "bb3147ba27dd6d0e33be93ab7ffff1922f1b53c59b38326b6ac786d8a7125b82",
+    "shared": "e0abd0b674c97b87f6a1510edc08704eebeca0ad9d43ac0537d5eaaa3eb9b202"
+  },
+  "source_review": {
+    "no_historical_transform_or_playback_claim": "PASS",
+    "preentry_and_postrecursive_field_cap": "PASS",
+    "private_repr_and_aggregate_summary_scope": "PASS",
+    "readonly_same_width_scalar_blob_token_mutation_rejection": "PASS",
+    "separate_field_token_depth_array_string_bounds": "PASS",
+    "shared_module_globals_unchanged": "PASS",
+    "source_and_schema_pinning": "PASS",
+    "strict_alignment_and_0_to7_zero_EOF_pad": "PASS"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "format": "hots-startup-catalog-current-coverage-frozen-v1",
+  "files": [
+    {
+      "path": "review_startup_catalog_coverage.py",
+      "bytes": 12708,
+      "sha256": "0f7261c3cd6809e04bfdc96777bbbd2929d5499b11bc7c75ccc12dc70ed67fd9"
+    },
+    {
+      "path": "startup-catalog-current-coverage-review.json",
+      "bytes": 21851,
+      "sha256": "8ad237b10067acf552384df4f5e2b6112d56d7113024a1575ede4dfdc186524e"
+    }
+  ],
+  "metadata_bytes_read_including_guards": 1111068,
+  "metadata_file_count": 49,
+  "replay_PE_old_header_dump_network_reads": 0,
+  "field_count": 4,
+  "same_map_current_anchors": 3,
+  "crossmap_only_current_anchor_types": [
+    "HeroKaelthas"
+  ],
+  "complete_match_pair_count": 44,
+  "complete_match_unresolved_types": 6,
+  "no_conversion": true
+}

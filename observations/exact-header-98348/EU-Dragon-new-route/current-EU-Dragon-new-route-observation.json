@@ -1,0 +1,74 @@
+{
+  "format": "bounded-new-current-EU-Dragon-route-observation-v1",
+  "ledger_sha256": "597d4f9f0fb1385962d9f182941b769edb197a7484c208b0940014b41c2fdbe4",
+  "producer_source_sha256": {
+    "probe_primary_route_first_batch.py": "274e9799592ec08be3a5466eddcdd545911f856fa619c82f334f405e6a60eb6d",
+    "probe_new_primary_route.py": "b9d44d34e6ac57d8c57c10c897795e8818bf93317ab623dd8bb4536c112f7320",
+    "probe_observed_replay_header.py": "6c52a0738da6e04da3cdc2ad65cc31de614af780e777b6b7983a6d241c0a65e0",
+    "probe_27490_dragon_header.py": "f676331c73458c518e281f194e5aff071dc6ba288f182df14f3aa25f8fb404e9",
+    "finalize_new_route_observation.py": "da41478414a499c68369d56d6c8c889613608fd6d04651f8ef524752e3ff4d31"
+  },
+  "scope": {
+    "original_external_operation_cap": 6,
+    "specific_followup_page_prefix_extension": 2,
+    "logical_external_operations": 8,
+    "directly_instrumented_HTTP_requests": 5,
+    "web_tool_operations": 3,
+    "web_tool_underlying_HTTP_requests_and_body_bytes": "not exposed; not included in instrumented byte count",
+    "instrumented_application_body_bytes": 728834,
+    "instrumented_HTML_bytes": 720642,
+    "strict_prefix_bytes": 8192,
+    "full_replay_downloads": 0,
+    "client_launches": 0,
+    "no_redirects_or_hidden_retries_in_instrumented_requests": true
+  },
+  "header_screenings": [
+    {
+      "source_match_url": "https://heroeslounge.gg/match/view/27430",
+      "source_replay_url": "https://heroeslounge.gg/storage/app/uploads/public/6a8/caf/635/6a8caf6351df7599798737.stormreplay",
+      "primary_page_map": "DragonShire",
+      "actual_executable_base_data_build": 97771,
+      "actual_NGDP_root": "da00890abd8a013d6cccfbdc2ec63650",
+      "strict206_prefix_bytes": 4096,
+      "prefix_sha256": "24cfaa974a9d1870ea13e53694599883f986720f0e2ddd5a336508dece861e70",
+      "replay_total_bytes_from_Content_Range": 842016,
+      "full_replay_acquired": false,
+      "actual_replay_region_decoded": false,
+      "admitted_as_currentEUDragon": false
+    },
+    {
+      "source_match_url": "https://www.heroeslounge.gg/en/match/view/27490",
+      "source_replay_url": "https://www.heroeslounge.gg/storage/app/uploads/public/6ab/6bc/c74/6ab6bcc74f259555834288.stormreplay",
+      "primary_page_map": "DragonShire",
+      "actual_executable_base_data_build": 98025,
+      "actual_NGDP_root": "511141a38b06a0b3824d9cfe0532f551",
+      "strict206_prefix_bytes": 4096,
+      "prefix_sha256": "a70f11a5721c6216793a171c66758950a63179c85912f6815a61c4337dba86c7",
+      "replay_total_bytes_from_Content_Range": 1164133,
+      "full_replay_acquired": false,
+      "actual_replay_region_decoded": false,
+      "admitted_as_currentEUDragon": false
+    }
+  ],
+  "result": {
+    "new_actual98348EUDragon_reference": false,
+    "currentEUDragon_package_tuple_established": false,
+    "currentEUDragon_s2mh_handle_established": false,
+    "index_date_and_EU_league_labels_not_used_as_actual_build_or_region_proof": true
+  },
+  "new_primary_route_evidence": {
+    "season30_division3_cup_match": "https://www.heroeslounge.gg/en/match/view/27490",
+    "official_scheduled_page_date": "25Sep2026 17:00UTC",
+    "actual_header_build": 98025,
+    "season31_official_round1_date": "19Oct2026",
+    "season31_date_source": "https://www.heroeslounge.gg/blog/post/signups-open-season-31"
+  },
+  "limits": [
+    "A first web.open could not access the NexusRumble table; its acquisition failure was not labeled replay/schema incompatibility.",
+    "Two genuine DragonShire primary page links were tested using pinned official header decoding; both were rejected before whole-file acquisition.",
+    "EU labels are primary competition metadata only; no replay.details/initData/lobby region or package graph was decoded from these older prefixes.",
+    "No broad absence claim, latest-version inference, payload-based version substitution or playable-migration claim follows.",
+    "Raw prefixes were retained only in RAM. This offline summary validates saved metadata and source/page hashes; it is not a second independent decoding of prefix bytes.",
+    "No player, account, chat, availability or author data is emitted; private HTML remains excluded from the publication allowlist."
+  ]
+}

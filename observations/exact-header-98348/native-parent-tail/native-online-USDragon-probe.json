@@ -1,0 +1,228 @@
+{
+  "PE_reads_in_probe_stage": 0,
+  "completed_native_fields": 423660,
+  "current_observed_mod_tail_full_EOF_roundtrip_passed": true,
+  "decode_succeeded": true,
+  "elapsed_seconds": 2.141,
+  "explicit_research_field_and_wire_token_cap": 500000,
+  "first_failure": null,
+  "format": "hots-current-native-OnlineStartGameRequest-one-control-probe-v1",
+  "game_client_or_DLL_executed": false,
+  "member_bytes": 282976,
+  "member_end_bit": 2263808,
+  "member_sha256": "ab03d9533081e9d69d205a6adec9df6a0aaf5ff47a05ecc8bf670b6760b0ab55",
+  "native_root_type": 5917,
+  "observed_anchor_checks": {
+    "ClientInfoList_end": {
+      "equal": true,
+      "native_end_bit": 2237569,
+      "observed_end_bit": 2237569
+    },
+    "HeaderCacheHandles_end": {
+      "equal": true,
+      "native_end_bit": 494552,
+      "observed_end_bit": 494552
+    },
+    "MapInfoList_end": {
+      "equal": true,
+      "native_end_bit": 492625,
+      "observed_end_bit": 492625
+    }
+  },
+  "prior_attempts": [
+    {
+      "completed_report_or_guard_claim": false,
+      "failure": "Local replay path variable shadowed by anchor path before final guard/report",
+      "replay_bytes_read": 1113273
+    }
+  ],
+  "private_scalar_values_emitted": false,
+  "producer_sha256": "2ad570b3e0c9ce48ecc2e3915ea954d3e11e1fa80ebf18332d131c3e970ead60",
+  "production_caps_or_schema_modified": false,
+  "reader_end_bit": 2263808,
+  "root_field_spans": [
+    {
+      "end_bit": 2228368,
+      "kind": "STRUCT",
+      "name": "StartGameRequest",
+      "start_bit": 0,
+      "type_id": 5842
+    },
+    {
+      "end_bit": 2228400,
+      "kind": "BLOB",
+      "name": "m_randomSeed",
+      "start_bit": 2228368,
+      "type_id": 1845
+    },
+    {
+      "end_bit": 2228432,
+      "kind": "INT",
+      "name": "m_clientId",
+      "start_bit": 2228400,
+      "type_id": 1
+    },
+    {
+      "end_bit": 2237569,
+      "kind": "ARRAY",
+      "name": "m_clientInfoList",
+      "start_bit": 2228432,
+      "type_id": 1702
+    },
+    {
+      "end_bit": 2237633,
+      "kind": "STRUCT",
+      "name": "m_voiceSessionId",
+      "start_bit": 2237569,
+      "type_id": 983
+    },
+    {
+      "end_bit": 2237634,
+      "kind": "OPTIONAL",
+      "name": "m_ammHandle",
+      "start_bit": 2237633,
+      "type_id": 5923
+    },
+    {
+      "end_bit": 2237635,
+      "kind": "BOOL",
+      "name": "m_isCompetitive",
+      "start_bit": 2237634,
+      "type_id": 5924
+    },
+    {
+      "end_bit": 2237636,
+      "kind": "BOOL",
+      "name": "m_isRanked",
+      "start_bit": 2237635,
+      "type_id": 5925
+    },
+    {
+      "end_bit": 2237637,
+      "kind": "BOOL",
+      "name": "m_isPractice",
+      "start_bit": 2237636,
+      "type_id": 5926
+    },
+    {
+      "end_bit": 2237638,
+      "kind": "BOOL",
+      "name": "m_isCooperative",
+      "start_bit": 2237637,
+      "type_id": 5927
+    },
+    {
+      "end_bit": 2237639,
+      "kind": "BOOL",
+      "name": "m_saveStats",
+      "start_bit": 2237638,
+      "type_id": 5928
+    },
+    {
+      "end_bit": 2237640,
+      "kind": "BOOL",
+      "name": "m_saveReplay",
+      "start_bit": 2237639,
+      "type_id": 5929
+    },
+    {
+      "end_bit": 2237736,
+      "kind": "STRUCT",
+      "name": "m_instanceHandle",
+      "start_bit": 2237640,
+      "type_id": 1749
+    },
+    {
+      "end_bit": 2238083,
+      "kind": "OPTIONAL",
+      "name": "m_ladderStats",
+      "start_bit": 2237736,
+      "type_id": 5931
+    },
+    {
+      "end_bit": 2238472,
+      "kind": "OPTIONAL",
+      "name": "m_races",
+      "start_bit": 2238083,
+      "type_id": 5932
+    },
+    {
+      "end_bit": 2248725,
+      "kind": "ARRAY",
+      "name": "m_clientUnlockableInfoList",
+      "start_bit": 2238472,
+      "type_id": 1826
+    },
+    {
+      "end_bit": 2248763,
+      "kind": "ARRAY",
+      "name": "m_achievementTags",
+      "start_bit": 2248725,
+      "type_id": 5934
+    },
+    {
+      "end_bit": 2249344,
+      "kind": "ARRAY",
+      "name": "m_clientLicensesList",
+      "start_bit": 2248763,
+      "type_id": 2503
+    },
+    {
+      "end_bit": 2249376,
+      "kind": "INT",
+      "name": "m_currentTurn",
+      "start_bit": 2249344,
+      "type_id": 1
+    },
+    {
+      "end_bit": 2249408,
+      "kind": "INT",
+      "name": "m_turnIntervalMS",
+      "start_bit": 2249376,
+      "type_id": 1
+    },
+    {
+      "end_bit": 2249440,
+      "kind": "INT",
+      "name": "m_currentSyncEventNumber",
+      "start_bit": 2249408,
+      "type_id": 1
+    },
+    {
+      "end_bit": 2249441,
+      "kind": "OPTIONAL",
+      "name": "m_tournamentInfo",
+      "start_bit": 2249440,
+      "type_id": 5939
+    },
+    {
+      "end_bit": 2263806,
+      "kind": "ARRAY",
+      "name": "m_heroMasteryTiers",
+      "start_bit": 2249441,
+      "type_id": 1827
+    },
+    {
+      "end_bit": 2263807,
+      "kind": "OPTIONAL",
+      "name": "m_rejoinSaveCacheHandle",
+      "start_bit": 2263806,
+      "type_id": 5941
+    },
+    {
+      "end_bit": 2263808,
+      "kind": "OPTIONAL",
+      "name": "m_rejoinSaveElapsedGameLoops",
+      "start_bit": 2263807,
+      "type_id": 5942
+    }
+  ],
+  "root_start_bit": 0,
+  "schema_sha256": "0fd61c8ef3b0aeef647912fd9e35308e70c39da9e2980004d06b1b92e0c96640",
+  "selected_types": 513,
+  "source_PE_sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+  "source_replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+  "source_unchanged": true,
+  "whole_member_reencoding_exact": true,
+  "wire_tokens": 157802
+}

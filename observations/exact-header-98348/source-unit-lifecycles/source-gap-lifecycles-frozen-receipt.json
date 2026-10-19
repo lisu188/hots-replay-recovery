@@ -1,0 +1,31 @@
+{
+  "format": "hots-source-gap-lifecycles-frozen-v1",
+  "files": [
+    {
+      "path": "inspect_source_gap_lifecycles.py",
+      "bytes": 11946,
+      "sha256": "6fab8e01370bd01f8e3321ff10756a18680c681e4e802ecc1b0b7d141336d35c"
+    },
+    {
+      "path": "source-unobserved-unit-lifecycles.json",
+      "bytes": 24304,
+      "sha256": "eb46626eddc92bffa63f97c9a2c09de9ae8967162e5a2f3dea4449730693e801"
+    },
+    {
+      "path": "README_SOURCE_GAP_LIFECYCLES.md",
+      "bytes": 3559,
+      "sha256": "44e0dac1fab9256c65dde84b254cd4f57a09eba4ad40d33297510afa5bb8a6c0"
+    }
+  ],
+  "original_R8_targeted_aggregate_equal": true,
+  "actual_stream_checks": {
+    "cases": 2,
+    "game_events_per_case": 104257,
+    "tracker_events_per_case": 6614,
+    "official_semantic_equal": true,
+    "byte_roundtrip_exact": true
+  },
+  "replay_disk_bytes": 3708850,
+  "raw_private_input_included": false,
+  "unit_catalog_alias_or_target_link_assigned": false
+}

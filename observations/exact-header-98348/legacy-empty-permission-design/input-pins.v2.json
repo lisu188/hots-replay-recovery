@@ -1,0 +1,87 @@
+[
+  {
+    "path": "work/legacy-header-mapinfo-evidence/original41810-cached-header-MapInfo-evidence.json",
+    "bytes": 32562,
+    "sha256": "1a4b18326303388b12f7d7a72415a5cd8973717954b30154370fb5927727bda3"
+  },
+  {
+    "path": "work/legacy-client-layout-constraints.json",
+    "bytes": 3679,
+    "sha256": "00fe626b972732ab606d7a300761e4152dffca6a9344fa4e3ad4046b9c54a976"
+  },
+  {
+    "path": "work/legacy-39445-control/39445-schema1-player-diagnostic-v2.json",
+    "bytes": 2413,
+    "sha256": "6cfd94ec7e58d19b1439abc71604a09b4fbb604a63daa33999a2bf25902effd3"
+  },
+  {
+    "path": "work/legacy-mapinfo-hypothesis/legacy-MapInfo-count-width-hypothesis.json",
+    "bytes": 16237,
+    "sha256": "de29dfe84d6906fda09768c7e545d8c1053e641e44d21372692b0f45d6529477"
+  },
+  {
+    "path": "work/native-client-codec-ready/native_clientinfo_schema_98348.json",
+    "bytes": 26773,
+    "sha256": "6e8711939ede15505debb043ae626b5c529749557d7e824226863c92e4f6a229"
+  },
+  {
+    "path": "work/native-mapinfo-ready/native_mapinfo_schema_98348.json",
+    "bytes": 45724,
+    "sha256": "3900a63c0799474becd2ecfb03eece4f8c523a965b38e539264867d5cdf2075c"
+  },
+  {
+    "path": "work/independent-parser/historical-schemas/1.txt",
+    "bytes": 9467,
+    "sha256": "237a5d48d353fd7ccc2021ba881abe3cfdd40a079a0bc5acfed4a1459dde41b1"
+  },
+  {
+    "path": "work/independent-parser/historical-schemas/2.txt",
+    "bytes": 9525,
+    "sha256": "e33f5cc20afe17476908df1cfb01198f9cb16b5fa9d919c40a05efad9b08b9f1"
+  },
+  {
+    "path": "work/independent-parser/historical-schemas/5.txt",
+    "bytes": 10100,
+    "sha256": "28bb0f73314452144d74a76f593bb83dc8cad196a1a862550dcc643bd11754e0"
+  },
+  {
+    "path": "work/evaluate_legacy_client_hypothesis.py",
+    "bytes": 10336,
+    "sha256": "385ffa6f70cd4874a67a5eb87797537f77beb48b6a26e84be8a30282e8ed029f"
+  },
+  {
+    "path": "work/diagnose_39445_schema1_players.py",
+    "bytes": 10340,
+    "sha256": "74a9677d24e1ad7dfe4d29bd7a59e58e825b983f2428689553fb33a0977bd22c"
+  },
+  {
+    "path": "work/native-lobby-parent-study/native_startgame_schema_98348.json",
+    "bytes": 125279,
+    "sha256": "0fd61c8ef3b0aeef647912fd9e35308e70c39da9e2980004d06b1b92e0c96640"
+  },
+  {
+    "path": "work/heroprotocol/heroprotocol/versions/protocol41810.py",
+    "bytes": 25890,
+    "sha256": "879d228d9d8acd21d63563538dd15841aaf49259ee0bb468b8a46b6a4ef866fd"
+  },
+  {
+    "path": "work/heroprotocol/heroprotocol/versions/protocol96477.py",
+    "bytes": 26921,
+    "sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84"
+  },
+  {
+    "path": "work/current-parser-research/ReplayInitData.cs",
+    "bytes": 14046,
+    "sha256": "bc7438e1179576d837bc4c641dc0ebf53e656db4f2f9813ef677b4621ebca920"
+  },
+  {
+    "path": "work/htc-fixture-headers-ready/source-binding.json",
+    "bytes": 38193,
+    "sha256": "841e5f0ccdb00ada0d6fbdfb80282f649f14da8f6c8d8d6e1a2bc0dcdd20e2da"
+  },
+  {
+    "path": "repo/battlelobby_tail.py",
+    "bytes": 15319,
+    "sha256": "2a1289148bdcc2b53b2c7e5d8bcdc67e5ef2ecb8840acea071153753610b5f7b"
+  }
+]

@@ -1,0 +1,51 @@
+{
+  "format": "hots-cached-native-parent-tail-layout-study-frozen-v1",
+  "files": [
+    {
+      "path": "study_cached_lobby_parents.py",
+      "bytes": 10392,
+      "sha256": "a5fcc7aac5bc781535e226069519d1e23de87a2be813fb312f1ed3c6459ae752"
+    },
+    {
+      "path": "cached-native-lobby-parent-and-anchor-study.json",
+      "bytes": 18786,
+      "sha256": "668b286ee62c3e2af8489f78a57f899cc6f41c269edf8df76c861183bc4f8f4c"
+    },
+    {
+      "path": "current_native_tail_layout.py",
+      "bytes": 11325,
+      "sha256": "bb2f5f91c45a4c08c97cd2ad31638d9bc58fa688b419aea06333365460255c1b"
+    },
+    {
+      "path": "test_current_native_tail_layout.py",
+      "bytes": 3499,
+      "sha256": "dc79a3556abebf34f664692a823245b53e3edf5f37a1d90980399c0b02b40571"
+    },
+    {
+      "path": "current-native-tail-layout-and-observed-profile-constraints-v2.json",
+      "bytes": 15972,
+      "sha256": "8e98282f3e1ad1a1211eca5d990c5838583787240317963a66dabe93c6837aa9"
+    }
+  ],
+  "required_frozen_inputs": [
+    {
+      "path": "native_startgame_schema_98348.json",
+      "bytes": 125279,
+      "sha256": "0fd61c8ef3b0aeef647912fd9e35308e70c39da9e2980004d06b1b92e0c96640"
+    },
+    {
+      "path": "native-online-USDragon-probe.json",
+      "bytes": 5458,
+      "sha256": "8756c55d21cb0fe93aa44c9711ec2fc5f972579b3fe39c6020d45c9c970c0d76"
+    }
+  ],
+  "static_constraint_tests": {
+    "run": 8,
+    "passed": 8,
+    "skipped": 0
+  },
+  "new_PE_replay_or_header_reads": 0,
+  "production_profiles_or_data_changed": false,
+  "old_conversion_proven": false,
+  "excluded_unpublished_pretest_report": "current-native-tail-layout-and-observed-profile-constraints.json"
+}

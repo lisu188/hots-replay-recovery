@@ -1,0 +1,300 @@
+{
+  "base_commit": "404702a448c2a86cc32c8b55e903b0aeb645652a",
+  "client_launched": false,
+  "files": [
+    {
+      "byte_preserved": true,
+      "bytes": 14914,
+      "git_blob_sha1": "28113b88f49ba812843b56b0807e4e7000c64696",
+      "sha256": "16bb5a9cc4a8566cacdfaed9261ccdb1f0c6183d99e0a553720ed9939ae0dc91",
+      "source": "work/native-online-independent-review/review_native_online.py",
+      "target": "research/exact-header-98348/native-online-review/review_native_online.py"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 3438,
+      "git_blob_sha1": "1ce82966e9a2fbcc4aa8df6c91f3413fcce025ff",
+      "sha256": "b1c8b74a19538efa8e57c0f48d3e9ad088d9d0c3ca21a565799394d287e6e39a",
+      "source": "work/native-online-independent-review/test_independent_physical_walker.py",
+      "target": "research/exact-header-98348/native-online-review/test_independent_physical_walker.py"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 4538,
+      "git_blob_sha1": "2293416c7f5f102b4dc2e8a783e2fb8275453e24",
+      "sha256": "da113f669ee525bb17a629d38959508ced9d88f14da42d2f7fcc5f00f2f60697",
+      "source": "work/native-online-independent-review/native-online-independent-review.json",
+      "target": "observations/exact-header-98348/native-online-review/native-online-independent-review.json"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 3695,
+      "git_blob_sha1": "499f4be63e5ce140e598615bb0a7f6bce129cd9c",
+      "sha256": "2d1c534d3b410a78c05635b8f680fea5151eb74fb6e2d0e979a76e478ae9dffe",
+      "source": "work/native-online-independent-review/freeze_review.py",
+      "target": "research/exact-header-98348/native-online-review/freeze_review.py"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 2307,
+      "git_blob_sha1": "d757e842532d5846cc998b3e5f0f696937709f8f",
+      "sha256": "594085507ce2aa225eebf64adb1976d0b99df6e4162c0a45a8230aef2f8bd676",
+      "source": "work/native-online-independent-review/native-online-independent-frozen-receipt.json",
+      "target": "observations/exact-header-98348/native-online-review/native-online-independent-frozen-receipt.json"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 10392,
+      "git_blob_sha1": "7eeeecac220878dc3cdcbc73dc71344f8d85f18e",
+      "sha256": "a5fcc7aac5bc781535e226069519d1e23de87a2be813fb312f1ed3c6459ae752",
+      "source": "work/native-lobby-parent-study/study_cached_lobby_parents.py",
+      "target": "research/exact-header-98348/native-parent-tail/study_cached_lobby_parents.py"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 18786,
+      "git_blob_sha1": "b7e1e7cf1463d0ac6de8bf8b54b21d509ec31044",
+      "sha256": "668b286ee62c3e2af8489f78a57f899cc6f41c269edf8df76c861183bc4f8f4c",
+      "source": "work/native-lobby-parent-study/cached-native-lobby-parent-and-anchor-study.json",
+      "target": "observations/exact-header-98348/native-parent-tail/cached-native-lobby-parent-and-anchor-study.json"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 11325,
+      "git_blob_sha1": "5c4fdb6b62200e35e1d6a240346aaa68515a885d",
+      "sha256": "bb2f5f91c45a4c08c97cd2ad31638d9bc58fa688b419aea06333365460255c1b",
+      "source": "work/native-lobby-parent-study/current_native_tail_layout.py",
+      "target": "research/exact-header-98348/native-parent-tail/current_native_tail_layout.py"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 3499,
+      "git_blob_sha1": "d5dfd567bb3e79d5d57364cd347662945f43b135",
+      "sha256": "dc79a3556abebf34f664692a823245b53e3edf5f37a1d90980399c0b02b40571",
+      "source": "work/native-lobby-parent-study/test_current_native_tail_layout.py",
+      "target": "research/exact-header-98348/native-parent-tail/test_current_native_tail_layout.py"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 15972,
+      "git_blob_sha1": "9fc527919f0a1f8d87409e4bf0bcb110e9a61618",
+      "sha256": "8e98282f3e1ad1a1211eca5d990c5838583787240317963a66dabe93c6837aa9",
+      "source": "work/native-lobby-parent-study/current-native-tail-layout-and-observed-profile-constraints-v2.json",
+      "target": "observations/exact-header-98348/native-parent-tail/current-native-tail-layout-and-observed-profile-constraints-v2.json"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 1661,
+      "git_blob_sha1": "5bfd52cf4a22495ee2fb0cb5b837b8ee5aedfb21",
+      "sha256": "9711ca0235cc5cd1bc9dcdf7910c139ce4bb68cb377c33b795a53e9c62dc1d5a",
+      "source": "work/native-lobby-parent-study/native-parent-tail-layout-frozen-receipt.json",
+      "target": "observations/exact-header-98348/native-parent-tail/native-parent-tail-layout-frozen-receipt.json"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 8549,
+      "git_blob_sha1": "a8c7d11001e5eddc4cf6b102d49d0b9bb37c9a68",
+      "sha256": "bd9467917ed86024adb4fd5dad5e940d8d8dc10c7a4ecdfe938199a7f990946f",
+      "source": "work/legacy-empty-permission-conversion-review/review_legacy_empty_permissions.py",
+      "target": "research/exact-header-98348/legacy-empty-permission-design/review_legacy_empty_permissions.py"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 3051,
+      "git_blob_sha1": "7bcdea7f84f317f946a09ff13e4ff6d33e34f948",
+      "sha256": "cd76e092ad6df3fbc4b10eacf4d3e7d22b56f3cada71fc7074081cfbdbeb9341",
+      "source": "work/legacy-empty-permission-conversion-review/input-pins.v2.json",
+      "target": "observations/exact-header-98348/legacy-empty-permission-design/input-pins.v2.json"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 6150,
+      "git_blob_sha1": "f5000b50780e1732768060dfecc413aa58679b5b",
+      "sha256": "573577d2dd3551c27717b54aa2afd5bb7cd48839254aaaf1445800bb64ec368a",
+      "source": "work/legacy-empty-permission-conversion-review/legacy-empty-permission-conversion-design-review-v2.json",
+      "target": "observations/exact-header-98348/legacy-empty-permission-design/legacy-empty-permission-conversion-design-review-v2.json"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 8201,
+      "git_blob_sha1": "6a0af3c2cc931804c6e9cd6fee727244d31ed6c9",
+      "sha256": "37d018a3d221f4a1b48242e0da6efd909fea2abacaf533b3d65401d63829c407",
+      "source": "work/legacy-empty-permission-conversion-review/README.md",
+      "target": "observations/exact-header-98348/legacy-empty-permission-design/README.md"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 2204,
+      "git_blob_sha1": "206115b8e6b8be814577b1b6b81d0492ed5260ed",
+      "sha256": "cd691a150b2d5ebaa76bf857c5f5f6d8acb2019bb354546d92ca2ace688b0bab",
+      "source": "work/legacy-empty-permission-conversion-review/legacy-empty-permission-design-frozen-receipt.json",
+      "target": "observations/exact-header-98348/legacy-empty-permission-design/legacy-empty-permission-design-frozen-receipt.json"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 5104,
+      "git_blob_sha1": "933c194efe39fc0a16a5beac4968e082652f92c0",
+      "sha256": "274e9799592ec08be3a5466eddcdd545911f856fa619c82f334f405e6a60eb6d",
+      "source": "work/current-eu-dragon-new-route/probe_primary_route_first_batch.py",
+      "target": "research/exact-header-98348/EU-Dragon-new-route/probe_primary_route_first_batch.py"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 5434,
+      "git_blob_sha1": "8b57d51e70c02a28afd00d994caa074efa92ae45",
+      "sha256": "b9d44d34e6ac57d8c57c10c897795e8818bf93317ab623dd8bb4536c112f7320",
+      "source": "work/current-eu-dragon-new-route/probe_new_primary_route.py",
+      "target": "research/exact-header-98348/EU-Dragon-new-route/probe_new_primary_route.py"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 5271,
+      "git_blob_sha1": "1a494d66767423aaf50a9ecc7bed1a6631865c23",
+      "sha256": "6c52a0738da6e04da3cdc2ad65cc31de614af780e777b6b7983a6d241c0a65e0",
+      "source": "work/current-eu-dragon-new-route/probe_observed_replay_header.py",
+      "target": "research/exact-header-98348/EU-Dragon-new-route/probe_observed_replay_header.py"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 5354,
+      "git_blob_sha1": "c92fc3deb4d795ca41ec498d78bb85819b6ba9e9",
+      "sha256": "f676331c73458c518e281f194e5aff071dc6ba288f182df14f3aa25f8fb404e9",
+      "source": "work/current-eu-dragon-new-route/probe_27490_dragon_header.py",
+      "target": "research/exact-header-98348/EU-Dragon-new-route/probe_27490_dragon_header.py"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 5911,
+      "git_blob_sha1": "5d2fe083e4235446a8fa96b74d754186a8a9f914",
+      "sha256": "da41478414a499c68369d56d6c8c889613608fd6d04651f8ef524752e3ff4d31",
+      "source": "work/current-eu-dragon-new-route/finalize_new_route_observation.py",
+      "target": "research/exact-header-98348/EU-Dragon-new-route/finalize_new_route_observation.py"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 17000,
+      "git_blob_sha1": "614917afff0a98f09456ba745e8506869c6b90e8",
+      "sha256": "597d4f9f0fb1385962d9f182941b769edb197a7484c208b0940014b41c2fdbe4",
+      "source": "work/current-eu-dragon-new-route/route-ledger.json",
+      "target": "observations/exact-header-98348/EU-Dragon-new-route/route-ledger.json"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 4283,
+      "git_blob_sha1": "dbd1e9cfddff4b4e32e6d9f376c5aa11a01babda",
+      "sha256": "6c80d0b64ccc7de5f4aa9fa724979fa523d24dfd69da82523a3c8badb9f8cf39",
+      "source": "work/current-eu-dragon-new-route/current-EU-Dragon-new-route-observation.json",
+      "target": "observations/exact-header-98348/EU-Dragon-new-route/current-EU-Dragon-new-route-observation.json"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 2060,
+      "git_blob_sha1": "b3e2ac2f17b20f6e86aa13b88a0dd0453a0d4516",
+      "sha256": "59ebcf7ddb6f4eb69288d1724f296008ae76211e1c8c27f417051dccd855d8df",
+      "source": "work/current-eu-dragon-new-route/currentEUDragon-new-route-frozen-receipt.json",
+      "target": "observations/exact-header-98348/EU-Dragon-new-route/currentEUDragon-new-route-frozen-receipt.json"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 12708,
+      "git_blob_sha1": "bb3fe6bbe2d6cf57b0dee5f4cceb2760ebe79ecf",
+      "sha256": "0f7261c3cd6809e04bfdc96777bbbd2929d5499b11bc7c75ccc12dc70ed67fd9",
+      "source": "work/startup-unanchored-catalog-review/review_startup_catalog_coverage.py",
+      "target": "research/exact-header-98348/startup-catalog-coverage/review_startup_catalog_coverage.py"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 21851,
+      "git_blob_sha1": "0f2c752037040b4e3a4e5cd4e7b22d6648e565c2",
+      "sha256": "8ad237b10067acf552384df4f5e2b6112d56d7113024a1575ede4dfdc186524e",
+      "source": "work/startup-unanchored-catalog-review/startup-catalog-current-coverage-review.json",
+      "target": "observations/exact-header-98348/startup-catalog-coverage/startup-catalog-current-coverage-review.json"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 780,
+      "git_blob_sha1": "cb595d8ae129d2cd0d905bd16e0c46d18f2ee22a",
+      "sha256": "a6f17b570e4c7f87812df337abe196c3013c84e74d1b583c0eba796f3c7369cc",
+      "source": "work/startup-unanchored-catalog-review/startup-catalog-coverage-frozen-receipt.json",
+      "target": "observations/exact-header-98348/startup-catalog-coverage/startup-catalog-coverage-frozen-receipt.json"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 11946,
+      "git_blob_sha1": "9e89b5ada83ac5715ceffb458e606c71380aeff3",
+      "sha256": "6fab8e01370bd01f8e3321ff10756a18680c681e4e802ecc1b0b7d141336d35c",
+      "source": "work/startup-unanchored-catalog-review/inspect_source_gap_lifecycles.py",
+      "target": "research/exact-header-98348/source-unit-lifecycles/inspect_source_gap_lifecycles.py"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 24304,
+      "git_blob_sha1": "36fc2654b6477bf6d7b512ca50650237a15f962d",
+      "sha256": "eb46626eddc92bffa63f97c9a2c09de9ae8967162e5a2f3dea4449730693e801",
+      "source": "work/startup-unanchored-catalog-review/source-unobserved-unit-lifecycles.json",
+      "target": "observations/exact-header-98348/source-unit-lifecycles/source-unobserved-unit-lifecycles.json"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 3559,
+      "git_blob_sha1": "cac9c49135d8a93ecd219f4f93412356b79c4f33",
+      "sha256": "44e0dac1fab9256c65dde84b254cd4f57a09eba4ad40d33297510afa5bb8a6c0",
+      "source": "work/startup-unanchored-catalog-review/README_SOURCE_GAP_LIFECYCLES.md",
+      "target": "observations/exact-header-98348/source-unit-lifecycles/README_SOURCE_GAP_LIFECYCLES.md"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 946,
+      "git_blob_sha1": "39819f42eca1a3a4db6a16fabaec13c6d0b07b93",
+      "sha256": "7f8402d1cc54fe702e63c27c4f685c4d5d1b6d54f8299957fde21ef46d23b0d2",
+      "source": "work/startup-unanchored-catalog-review/source-gap-lifecycles-frozen-receipt.json",
+      "target": "observations/exact-header-98348/source-unit-lifecycles/source-gap-lifecycles-frozen-receipt.json"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 5458,
+      "git_blob_sha1": "bbd029443912d87b64b873aa068b9d42f1fa7259",
+      "sha256": "8756c55d21cb0fe93aa44c9711ec2fc5f972579b3fe39c6020d45c9c970c0d76",
+      "source": "work/native-lobby-parent-study/native-online-USDragon-probe.json",
+      "target": "observations/exact-header-98348/native-parent-tail/native-online-USDragon-probe.json"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 33053,
+      "git_blob_sha1": "3e358dc8199b9c05a36cd3b9c4477d0be27b5305",
+      "sha256": "014321ebb434653a6a202604e21a3c723a5b14ec07eb481c5e83879f1c8b33e1",
+      "source": "work/native-lobby-parent-study/native-lobby-parent-selected-records.json",
+      "target": "observations/exact-header-98348/native-parent-tail/native-lobby-parent-selected-records.json"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 745,
+      "git_blob_sha1": "c97c756dbd805944a1604fdece60b127305b9b1f",
+      "sha256": "1c30df1228346f2d279dd86d3028ff9bc8aee2a945aa9848cf077b75b07a3400",
+      "source": "work/official-target-after-native-online.json",
+      "target": "observations/exact-header-98348/native-online/official-target-after-native-online.json"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 1313,
+      "git_blob_sha1": "814f6072086d0000656a97323acec7a5dfbb3c7a",
+      "sha256": "e80329fce3650f6941c40919e706d10531370866982d3e2bfcbe78268d3767cc",
+      "source": "work/refresh_online_native_target.py",
+      "target": "research/exact-header-98348/native-online/refresh_online_native_target.py"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 3585,
+      "git_blob_sha1": "354bd48babdc11de0b578327d2870c9121c41c11",
+      "sha256": "796da323a3d838181e751ea2dfdbb22d745559f142236b87d3291dd9f72074cf",
+      "source": "work/complete-offline-935-native-online-CI.json",
+      "target": "observations/exact-header-98348/native-online/complete-offline-935-native-online-CI.json"
+    }
+  ],
+  "focused_research_tests_passed_locally": 15,
+  "format": "hots-native-online-research-publication-binding-v1",
+  "frozen_sources_preserved_without_normalization": true,
+  "full_upgrade_complete": false,
+  "raw_inputs_included": false,
+  "root_source_or_CI_changed": false
+}

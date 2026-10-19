@@ -889,3 +889,21 @@ globalResourceMap usesu64 IDs, and neither establishes ownership or scope bits.
 This milestone is read-only. No original/R8 changed, no client launched, no new
 replay written. Historical conversion and deterministic compatibility remain
 unproven; full replay upgrade is unfinished.
+
+
+## Native review and catalog-gap refinement - 2026-10-19
+
+Read docs/OFFLINE_CATALOG_AND_NATIVE_REVIEW_2026-10-19.md and exact frozen
+native-online-review/native-parent-tail/legacy-empty-permission-design/
+startup-catalog-coverage/source-unit-lifecycles/EU-Dragon-new-route receipts.
+Independent one-control whole-member physical proof and15research controls
+pass. The2historical startupnullanchors are now sameDragon Greymane614 and
+FaerieDragon470; Anubarak468 sameDragon, Kaelthas632 crossmaponly. This is
+3/4same-map startupcoverage, not4/4. Expanded current44pairs/6unresolved.
+All3unobserved types are materially used in sourcecatalogfields: Monstrosity36
+191fields,NovaHoloCloneCloaked20731,TowerL2Standalone532140. Old531's407L2
+and2Deadfields are unresolved, no globalalias. Original/R8targetedstats equal;
+sourcegame/trackerexact. No source rules or deterministic equivalence follows.
+CompleteClientInfo needs36additionalbits beyond count; no guesseddefaults.
+Latest2EUDragonheaderprefixes97771/98025 rejected, no new donor/tuple.
+OfficialEUmanifest2026-10-19T00:00:44UTC98348. No client/newreplay/fullupgrade.

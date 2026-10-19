@@ -1,0 +1,737 @@
+{
+  "R8_full_disk_SHA256_read_once_then_unchanged_stat_and_RAM_SHA256_after": true,
+  "R8_second_disk_SHA256_reread_performed": false,
+  "current_target_links_or_aliases_guessed": false,
+  "format": "hots-original-R8-targeted-unobserved-unit-lifecycle-review-v1",
+  "limits": [
+    "Recorded tracker names and known-alive references establish source usage only, not current native catalog identities.",
+    "Command target snapshots and selected-unit context are distinguished; selection is not proof of the executing caster.",
+    "A source old-link collision across tracker names does not authorize collapsing those names or assigning one current global replacement."
+  ],
+  "messages_PE_headers_dumps_network_reads": 0,
+  "original_full_disk_SHA256_before_and_after": true,
+  "raw_identity_tags_positions_player_or_event_values_emitted": false,
+  "replay_disk_byte_cap": 4194304,
+  "replay_disk_bytes_read": 3708850,
+  "replay_or_catalog_modified": false,
+  "results": [
+    {
+      "canonical_official_schema_sha256": "879d228d9d8acd21d63563538dd15841aaf49259ee0bb468b8a46b6a4ef866fd",
+      "declared_build": 41810,
+      "id": "original41810",
+      "packed_tag_shift": 18,
+      "replay_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+      "streams": {
+        "game": {
+          "byte_roundtrip_exact": true,
+          "events": 104257,
+          "official_semantic_equal": true,
+          "sha256": "ea69dd77edd02f3ed2c42a2def1faab6dc4d0eb46da291c44f76bfb49a65eed6"
+        },
+        "tracker": {
+          "byte_roundtrip_exact": true,
+          "events": 6614,
+          "official_semantic_equal": true,
+          "sha256": "1a9a556f9f1fde466d17c4a3a3fbb31cbec8d8086bef97efeb796f1f5175245f"
+        }
+      },
+      "unit_type_observations": [
+        {
+          "catalog_link_fields_by_game_event": {
+            "SCmdEvent": {
+              "count": 18,
+              "first_gameloop": 9079,
+              "last_gameloop": 18079
+            },
+            "SCmdUpdateTargetUnitEvent": {
+              "count": 168,
+              "first_gameloop": 9074,
+              "last_gameloop": 18068
+            },
+            "SSelectionDeltaEvent": {
+              "count": 5,
+              "first_gameloop": 7190,
+              "last_gameloop": 17751
+            }
+          },
+          "commands_with_single_selected_type_agreeing_under_both_masks": {
+            "count": 0,
+            "first_gameloop": null,
+            "last_gameloop": null
+          },
+          "distinct_recorded_unit_lifecycles": 6,
+          "known_alive_game_tag_references_by_event": {
+            "SCmdEvent": {
+              "count": 18,
+              "first_gameloop": 9079,
+              "last_gameloop": 18079
+            },
+            "SCmdUpdateTargetUnitEvent": {
+              "count": 168,
+              "first_gameloop": 9074,
+              "last_gameloop": 18068
+            },
+            "SSelectionDeltaEvent": {
+              "count": 5,
+              "first_gameloop": 7190,
+              "last_gameloop": 17751
+            },
+            "SUnitClickEvent": {
+              "count": 15,
+              "first_gameloop": 11092,
+              "last_gameloop": 18082
+            }
+          },
+          "observed_source_catalog_link_counts": {
+            "36": 191
+          },
+          "recorded_type_changes_away_to": {},
+          "selected_context_proves_executing_caster": false,
+          "tracker_lifecycle_events": {
+            "SUnitBornEvent": {
+              "count": 6,
+              "first_gameloop": 6722,
+              "last_gameloop": 17249
+            },
+            "SUnitDiedEvent_while_last_recorded_type": {
+              "count": 6,
+              "first_gameloop": 7197,
+              "last_gameloop": 18084
+            }
+          },
+          "unit_type": "AbathurEvolvedMonstrosity"
+        },
+        {
+          "catalog_link_fields_by_game_event": {
+            "SCmdEvent": {
+              "count": 5,
+              "first_gameloop": 14611,
+              "last_gameloop": 16297
+            },
+            "SCmdUpdateTargetUnitEvent": {
+              "count": 26,
+              "first_gameloop": 14589,
+              "last_gameloop": 16300
+            }
+          },
+          "commands_with_single_selected_type_agreeing_under_both_masks": {
+            "count": 0,
+            "first_gameloop": null,
+            "last_gameloop": null
+          },
+          "distinct_recorded_unit_lifecycles": 13,
+          "known_alive_game_tag_references_by_event": {
+            "SCmdEvent": {
+              "count": 5,
+              "first_gameloop": 14611,
+              "last_gameloop": 16297
+            },
+            "SCmdUpdateTargetUnitEvent": {
+              "count": 26,
+              "first_gameloop": 14589,
+              "last_gameloop": 16300
+            }
+          },
+          "observed_source_catalog_link_counts": {
+            "207": 31
+          },
+          "recorded_type_changes_away_to": {},
+          "selected_context_proves_executing_caster": false,
+          "tracker_lifecycle_events": {
+            "SUnitBornEvent": {
+              "count": 13,
+              "first_gameloop": 2303,
+              "last_gameloop": 16234
+            },
+            "SUnitDiedEvent_while_last_recorded_type": {
+              "count": 13,
+              "first_gameloop": 2383,
+              "last_gameloop": 16315
+            }
+          },
+          "unit_type": "NovaHoloCloneCloaked"
+        },
+        {
+          "catalog_link_fields_by_game_event": {
+            "SCmdEvent": {
+              "count": 15,
+              "first_gameloop": 3753,
+              "last_gameloop": 19092
+            },
+            "SCmdUpdateTargetUnitEvent": {
+              "count": 125,
+              "first_gameloop": 3753,
+              "last_gameloop": 19104
+            }
+          },
+          "commands_with_single_selected_type_agreeing_under_both_masks": {
+            "count": 0,
+            "first_gameloop": null,
+            "last_gameloop": null
+          },
+          "distinct_recorded_unit_lifecycles": 6,
+          "known_alive_game_tag_references_by_event": {
+            "SCmdEvent": {
+              "count": 15,
+              "first_gameloop": 3753,
+              "last_gameloop": 19092
+            },
+            "SCmdUpdateTargetUnitEvent": {
+              "count": 125,
+              "first_gameloop": 3753,
+              "last_gameloop": 19104
+            },
+            "SUnitClickEvent": {
+              "count": 49,
+              "first_gameloop": 3793,
+              "last_gameloop": 19105
+            }
+          },
+          "observed_source_catalog_link_counts": {
+            "532": 140
+          },
+          "recorded_type_changes_away_to": {
+            "TownCannonTowerDead": 5
+          },
+          "selected_context_proves_executing_caster": false,
+          "tracker_lifecycle_events": {
+            "SUnitBornEvent": {
+              "count": 6,
+              "first_gameloop": 0,
+              "last_gameloop": 0
+            },
+            "type_change_away": {
+              "count": 5,
+              "first_gameloop": 5891,
+              "last_gameloop": 19106
+            }
+          },
+          "unit_type": "TownCannonTowerL2Standalone"
+        },
+        {
+          "catalog_link_fields_by_game_event": {
+            "SCmdUpdateTargetUnitEvent": {
+              "count": 2,
+              "first_gameloop": 6263,
+              "last_gameloop": 6263
+            }
+          },
+          "commands_with_single_selected_type_agreeing_under_both_masks": {
+            "count": 0,
+            "first_gameloop": null,
+            "last_gameloop": null
+          },
+          "distinct_recorded_unit_lifecycles": 28,
+          "known_alive_game_tag_references_by_event": {
+            "SCmdUpdateTargetUnitEvent": {
+              "count": 2,
+              "first_gameloop": 6263,
+              "last_gameloop": 6263
+            },
+            "SUnitClickEvent": {
+              "count": 24,
+              "first_gameloop": 6270,
+              "last_gameloop": 12904
+            }
+          },
+          "observed_source_catalog_link_counts": {
+            "531": 2
+          },
+          "recorded_type_changes_away_to": {},
+          "selected_context_proves_executing_caster": false,
+          "tracker_lifecycle_events": {
+            "SUnitDiedEvent_while_last_recorded_type": {
+              "count": 28,
+              "first_gameloop": 3612,
+              "last_gameloop": 19395
+            },
+            "SUnitTypeChangeEvent": {
+              "count": 28,
+              "first_gameloop": 2746,
+              "last_gameloop": 19394
+            }
+          },
+          "unit_type": "TownCannonTowerDead"
+        },
+        {
+          "catalog_link_fields_by_game_event": {
+            "SCmdEvent": {
+              "count": 30,
+              "first_gameloop": 1750,
+              "last_gameloop": 11471
+            },
+            "SCmdUpdateTargetUnitEvent": {
+              "count": 377,
+              "first_gameloop": 1857,
+              "last_gameloop": 11473
+            }
+          },
+          "commands_with_single_selected_type_agreeing_under_both_masks": {
+            "count": 0,
+            "first_gameloop": null,
+            "last_gameloop": null
+          },
+          "distinct_recorded_unit_lifecycles": 12,
+          "known_alive_game_tag_references_by_event": {
+            "SCmdEvent": {
+              "count": 30,
+              "first_gameloop": 1750,
+              "last_gameloop": 11471
+            },
+            "SCmdUpdateTargetUnitEvent": {
+              "count": 377,
+              "first_gameloop": 1857,
+              "last_gameloop": 11473
+            },
+            "SUnitClickEvent": {
+              "count": 55,
+              "first_gameloop": 858,
+              "last_gameloop": 8879
+            }
+          },
+          "observed_source_catalog_link_counts": {
+            "531": 407
+          },
+          "recorded_type_changes_away_to": {
+            "TownCannonTowerDead": 12
+          },
+          "selected_context_proves_executing_caster": false,
+          "tracker_lifecycle_events": {
+            "SUnitBornEvent": {
+              "count": 12,
+              "first_gameloop": 0,
+              "last_gameloop": 0
+            },
+            "type_change_away": {
+              "count": 12,
+              "first_gameloop": 2746,
+              "last_gameloop": 11474
+            }
+          },
+          "unit_type": "TownCannonTowerL2"
+        },
+        {
+          "catalog_link_fields_by_game_event": {
+            "SCmdEvent": {
+              "count": 7,
+              "first_gameloop": 12552,
+              "last_gameloop": 19357
+            },
+            "SCmdUpdateTargetUnitEvent": {
+              "count": 33,
+              "first_gameloop": 12555,
+              "last_gameloop": 19360
+            }
+          },
+          "commands_with_single_selected_type_agreeing_under_both_masks": {
+            "count": 0,
+            "first_gameloop": null,
+            "last_gameloop": null
+          },
+          "distinct_recorded_unit_lifecycles": 12,
+          "known_alive_game_tag_references_by_event": {
+            "SCmdEvent": {
+              "count": 7,
+              "first_gameloop": 12552,
+              "last_gameloop": 19357
+            },
+            "SCmdUpdateTargetUnitEvent": {
+              "count": 33,
+              "first_gameloop": 12555,
+              "last_gameloop": 19360
+            },
+            "SUnitClickEvent": {
+              "count": 29,
+              "first_gameloop": 11203,
+              "last_gameloop": 19377
+            }
+          },
+          "observed_source_catalog_link_counts": {
+            "533": 40
+          },
+          "recorded_type_changes_away_to": {
+            "TownCannonTowerDead": 8
+          },
+          "selected_context_proves_executing_caster": false,
+          "tracker_lifecycle_events": {
+            "SUnitBornEvent": {
+              "count": 12,
+              "first_gameloop": 0,
+              "last_gameloop": 0
+            },
+            "type_change_away": {
+              "count": 8,
+              "first_gameloop": 8436,
+              "last_gameloop": 19394
+            }
+          },
+          "unit_type": "TownCannonTowerL3"
+        }
+      ]
+    },
+    {
+      "canonical_official_schema_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+      "declared_build": 98285,
+      "id": "R8",
+      "packed_tag_shift": 22,
+      "replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "streams": {
+        "game": {
+          "byte_roundtrip_exact": true,
+          "events": 104257,
+          "official_semantic_equal": true,
+          "sha256": "31df2ab80eeeb56bc543ea0744f75d4d2ec6a5c337b1f38f04ef90d169dab2f0"
+        },
+        "tracker": {
+          "byte_roundtrip_exact": true,
+          "events": 6614,
+          "official_semantic_equal": true,
+          "sha256": "1a9a556f9f1fde466d17c4a3a3fbb31cbec8d8086bef97efeb796f1f5175245f"
+        }
+      },
+      "unit_type_observations": [
+        {
+          "catalog_link_fields_by_game_event": {
+            "SCmdEvent": {
+              "count": 18,
+              "first_gameloop": 9079,
+              "last_gameloop": 18079
+            },
+            "SCmdUpdateTargetUnitEvent": {
+              "count": 168,
+              "first_gameloop": 9074,
+              "last_gameloop": 18068
+            },
+            "SSelectionDeltaEvent": {
+              "count": 5,
+              "first_gameloop": 7190,
+              "last_gameloop": 17751
+            }
+          },
+          "commands_with_single_selected_type_agreeing_under_both_masks": {
+            "count": 0,
+            "first_gameloop": null,
+            "last_gameloop": null
+          },
+          "distinct_recorded_unit_lifecycles": 6,
+          "known_alive_game_tag_references_by_event": {
+            "SCmdEvent": {
+              "count": 18,
+              "first_gameloop": 9079,
+              "last_gameloop": 18079
+            },
+            "SCmdUpdateTargetUnitEvent": {
+              "count": 168,
+              "first_gameloop": 9074,
+              "last_gameloop": 18068
+            },
+            "SSelectionDeltaEvent": {
+              "count": 5,
+              "first_gameloop": 7190,
+              "last_gameloop": 17751
+            },
+            "SUnitClickEvent": {
+              "count": 15,
+              "first_gameloop": 11092,
+              "last_gameloop": 18082
+            }
+          },
+          "observed_source_catalog_link_counts": {
+            "36": 191
+          },
+          "recorded_type_changes_away_to": {},
+          "selected_context_proves_executing_caster": false,
+          "tracker_lifecycle_events": {
+            "SUnitBornEvent": {
+              "count": 6,
+              "first_gameloop": 6722,
+              "last_gameloop": 17249
+            },
+            "SUnitDiedEvent_while_last_recorded_type": {
+              "count": 6,
+              "first_gameloop": 7197,
+              "last_gameloop": 18084
+            }
+          },
+          "unit_type": "AbathurEvolvedMonstrosity"
+        },
+        {
+          "catalog_link_fields_by_game_event": {
+            "SCmdEvent": {
+              "count": 5,
+              "first_gameloop": 14611,
+              "last_gameloop": 16297
+            },
+            "SCmdUpdateTargetUnitEvent": {
+              "count": 26,
+              "first_gameloop": 14589,
+              "last_gameloop": 16300
+            }
+          },
+          "commands_with_single_selected_type_agreeing_under_both_masks": {
+            "count": 0,
+            "first_gameloop": null,
+            "last_gameloop": null
+          },
+          "distinct_recorded_unit_lifecycles": 13,
+          "known_alive_game_tag_references_by_event": {
+            "SCmdEvent": {
+              "count": 5,
+              "first_gameloop": 14611,
+              "last_gameloop": 16297
+            },
+            "SCmdUpdateTargetUnitEvent": {
+              "count": 26,
+              "first_gameloop": 14589,
+              "last_gameloop": 16300
+            }
+          },
+          "observed_source_catalog_link_counts": {
+            "207": 31
+          },
+          "recorded_type_changes_away_to": {},
+          "selected_context_proves_executing_caster": false,
+          "tracker_lifecycle_events": {
+            "SUnitBornEvent": {
+              "count": 13,
+              "first_gameloop": 2303,
+              "last_gameloop": 16234
+            },
+            "SUnitDiedEvent_while_last_recorded_type": {
+              "count": 13,
+              "first_gameloop": 2383,
+              "last_gameloop": 16315
+            }
+          },
+          "unit_type": "NovaHoloCloneCloaked"
+        },
+        {
+          "catalog_link_fields_by_game_event": {
+            "SCmdEvent": {
+              "count": 15,
+              "first_gameloop": 3753,
+              "last_gameloop": 19092
+            },
+            "SCmdUpdateTargetUnitEvent": {
+              "count": 125,
+              "first_gameloop": 3753,
+              "last_gameloop": 19104
+            }
+          },
+          "commands_with_single_selected_type_agreeing_under_both_masks": {
+            "count": 0,
+            "first_gameloop": null,
+            "last_gameloop": null
+          },
+          "distinct_recorded_unit_lifecycles": 6,
+          "known_alive_game_tag_references_by_event": {
+            "SCmdEvent": {
+              "count": 15,
+              "first_gameloop": 3753,
+              "last_gameloop": 19092
+            },
+            "SCmdUpdateTargetUnitEvent": {
+              "count": 125,
+              "first_gameloop": 3753,
+              "last_gameloop": 19104
+            },
+            "SUnitClickEvent": {
+              "count": 49,
+              "first_gameloop": 3793,
+              "last_gameloop": 19105
+            }
+          },
+          "observed_source_catalog_link_counts": {
+            "532": 140
+          },
+          "recorded_type_changes_away_to": {
+            "TownCannonTowerDead": 5
+          },
+          "selected_context_proves_executing_caster": false,
+          "tracker_lifecycle_events": {
+            "SUnitBornEvent": {
+              "count": 6,
+              "first_gameloop": 0,
+              "last_gameloop": 0
+            },
+            "type_change_away": {
+              "count": 5,
+              "first_gameloop": 5891,
+              "last_gameloop": 19106
+            }
+          },
+          "unit_type": "TownCannonTowerL2Standalone"
+        },
+        {
+          "catalog_link_fields_by_game_event": {
+            "SCmdUpdateTargetUnitEvent": {
+              "count": 2,
+              "first_gameloop": 6263,
+              "last_gameloop": 6263
+            }
+          },
+          "commands_with_single_selected_type_agreeing_under_both_masks": {
+            "count": 0,
+            "first_gameloop": null,
+            "last_gameloop": null
+          },
+          "distinct_recorded_unit_lifecycles": 28,
+          "known_alive_game_tag_references_by_event": {
+            "SCmdUpdateTargetUnitEvent": {
+              "count": 2,
+              "first_gameloop": 6263,
+              "last_gameloop": 6263
+            },
+            "SUnitClickEvent": {
+              "count": 24,
+              "first_gameloop": 6270,
+              "last_gameloop": 12904
+            }
+          },
+          "observed_source_catalog_link_counts": {
+            "531": 2
+          },
+          "recorded_type_changes_away_to": {},
+          "selected_context_proves_executing_caster": false,
+          "tracker_lifecycle_events": {
+            "SUnitDiedEvent_while_last_recorded_type": {
+              "count": 28,
+              "first_gameloop": 3612,
+              "last_gameloop": 19395
+            },
+            "SUnitTypeChangeEvent": {
+              "count": 28,
+              "first_gameloop": 2746,
+              "last_gameloop": 19394
+            }
+          },
+          "unit_type": "TownCannonTowerDead"
+        },
+        {
+          "catalog_link_fields_by_game_event": {
+            "SCmdEvent": {
+              "count": 30,
+              "first_gameloop": 1750,
+              "last_gameloop": 11471
+            },
+            "SCmdUpdateTargetUnitEvent": {
+              "count": 377,
+              "first_gameloop": 1857,
+              "last_gameloop": 11473
+            }
+          },
+          "commands_with_single_selected_type_agreeing_under_both_masks": {
+            "count": 0,
+            "first_gameloop": null,
+            "last_gameloop": null
+          },
+          "distinct_recorded_unit_lifecycles": 12,
+          "known_alive_game_tag_references_by_event": {
+            "SCmdEvent": {
+              "count": 30,
+              "first_gameloop": 1750,
+              "last_gameloop": 11471
+            },
+            "SCmdUpdateTargetUnitEvent": {
+              "count": 377,
+              "first_gameloop": 1857,
+              "last_gameloop": 11473
+            },
+            "SUnitClickEvent": {
+              "count": 55,
+              "first_gameloop": 858,
+              "last_gameloop": 8879
+            }
+          },
+          "observed_source_catalog_link_counts": {
+            "531": 407
+          },
+          "recorded_type_changes_away_to": {
+            "TownCannonTowerDead": 12
+          },
+          "selected_context_proves_executing_caster": false,
+          "tracker_lifecycle_events": {
+            "SUnitBornEvent": {
+              "count": 12,
+              "first_gameloop": 0,
+              "last_gameloop": 0
+            },
+            "type_change_away": {
+              "count": 12,
+              "first_gameloop": 2746,
+              "last_gameloop": 11474
+            }
+          },
+          "unit_type": "TownCannonTowerL2"
+        },
+        {
+          "catalog_link_fields_by_game_event": {
+            "SCmdEvent": {
+              "count": 7,
+              "first_gameloop": 12552,
+              "last_gameloop": 19357
+            },
+            "SCmdUpdateTargetUnitEvent": {
+              "count": 33,
+              "first_gameloop": 12555,
+              "last_gameloop": 19360
+            }
+          },
+          "commands_with_single_selected_type_agreeing_under_both_masks": {
+            "count": 0,
+            "first_gameloop": null,
+            "last_gameloop": null
+          },
+          "distinct_recorded_unit_lifecycles": 12,
+          "known_alive_game_tag_references_by_event": {
+            "SCmdEvent": {
+              "count": 7,
+              "first_gameloop": 12552,
+              "last_gameloop": 19357
+            },
+            "SCmdUpdateTargetUnitEvent": {
+              "count": 33,
+              "first_gameloop": 12555,
+              "last_gameloop": 19360
+            },
+            "SUnitClickEvent": {
+              "count": 29,
+              "first_gameloop": 11203,
+              "last_gameloop": 19377
+            }
+          },
+          "observed_source_catalog_link_counts": {
+            "533": 40
+          },
+          "recorded_type_changes_away_to": {
+            "TownCannonTowerDead": 8
+          },
+          "selected_context_proves_executing_caster": false,
+          "tracker_lifecycle_events": {
+            "SUnitBornEvent": {
+              "count": 12,
+              "first_gameloop": 0,
+              "last_gameloop": 0
+            },
+            "type_change_away": {
+              "count": 8,
+              "first_gameloop": 8436,
+              "last_gameloop": 19394
+            }
+          },
+          "unit_type": "TownCannonTowerL3"
+        }
+      ]
+    }
+  ],
+  "source_hashes": {
+    "catalog_diagnostics.py": "1b28eff54667cae85df90158939d9c22879ac756832ff69354d83191734d917e",
+    "command_identity_audit.py": "5f7843145881607555e64d5fff9c3ced9c171dd52854598f718d9e606675c862",
+    "encoders.py": "8f73802c305cf987613354d6584d340519e4e5330b9be996b1fca940d8fc93a5",
+    "migrate_replay.py": "1da4359c7eb6105b540a542b9e4a7fa461544c2065dd92c3ac3df2386f65e747",
+    "producer": "6fab8e01370bd01f8e3321ff10756a18680c681e4e802ecc1b0b7d141336d35c",
+    "protocol_loader.py": "bb3147ba27dd6d0e33be93ab7ffff1922f1b53c59b38326b6ac786d8a7125b82",
+    "repair_unit_tags.py": "43ec99d34aafd73f3c5f3f29d56fcffcc199e5d075f2a344cd7c8064377704e2"
+  },
+  "targeted_original_R8_statistics_equal": true
+}

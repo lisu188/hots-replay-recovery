@@ -1,0 +1,67 @@
+{
+  "actual_control_scope": {
+    "existing_current_US_Dragon_files_read": 1,
+    "physical_bit_reencoding_exact": true,
+    "postorder_fields_compared": 423660,
+    "replay_read_bytes": 1113273,
+    "second_replay_content_read": false,
+    "summary_JSON_exact_to_frozen21_case": true,
+    "tokens_compared": 157802,
+    "whole21case_rerun": false,
+    "whole_member_bytes": 282976
+  },
+  "files": [
+    {
+      "bytes": 14914,
+      "path": "review_native_online.py",
+      "sha256": "16bb5a9cc4a8566cacdfaed9261ccdb1f0c6183d99e0a553720ed9939ae0dc91"
+    },
+    {
+      "bytes": 3438,
+      "path": "test_independent_physical_walker.py",
+      "sha256": "b1c8b74a19538efa8e57c0f48d3e9ad088d9d0c3ca21a565799394d287e6e39a"
+    },
+    {
+      "bytes": 4538,
+      "path": "native-online-independent-review.json",
+      "sha256": "da113f669ee525bb17a629d38959508ced9d88f14da42d2f7fcc5f00f2f60697"
+    },
+    {
+      "bytes": 3695,
+      "path": "freeze_review.py",
+      "sha256": "2d1c534d3b410a78c05635b8f680fea5151eb74fb6e2d0e979a76e478ae9dffe"
+    }
+  ],
+  "focused_production_tests": {
+    "passed": 14,
+    "run": 14,
+    "skipped": 0
+  },
+  "format": "whole-native-online-independent-review-frozen-v1",
+  "fresh_hash_pinned_projection_overlap": {
+    "PE_reopened": false,
+    "all_exact": true,
+    "cached_authenticated_graph_sha256": "56fa4fedd97e63737c2c575e63c728d9389d015243ff6acd25020c4d62834147",
+    "portable_schema_sha256": "0fd61c8ef3b0aeef647912fd9e35308e70c39da9e2980004d06b1b92e0c96640",
+    "records_compared": 293
+  },
+  "independent_physical_walker_synthetic_negative_tests": {
+    "passed": 7,
+    "run": 7,
+    "skipped": 0
+  },
+  "local_environment_notes": {
+    "actual_replay_reads_in_failed_attempts": 0,
+    "default_temp_sandbox_PermissionError_test_only_attempts": 2,
+    "initial_CMD_multiline_command_not_counted_as_tests": true,
+    "successful_tests_used_work_subdirectory": true
+  },
+  "network_client_or_repo_writes": false,
+  "no_historical_transcoding_or_simulation_parity_claimed": true,
+  "privacy": {
+    "PE_or_dump_bytes_included": false,
+    "public_claim_limited_to_structural_source_and_one_case_bit_proof": true,
+    "raw_values_or_replay_bodies_included": false
+  },
+  "review_conclusion": "PASS; no material finding in current read-only structural scope"
+}

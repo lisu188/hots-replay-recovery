@@ -1,0 +1,600 @@
+{
+  "PE_replay_header_fragment_or_network_reads_in_this_stage": 0,
+  "derived_static_width_checks": {
+    "AMM_optional_absent_bits": 1,
+    "AMM_optional_present_bits": 121,
+    "client_license_record_empty_list_bits": 48,
+    "client_license_record_two_IDs_bits": 112,
+    "global_resource_identifier_bits": 64,
+    "instance_handle_bits": 96,
+    "ladder_item_with_season_rating_bits": 70,
+    "ladder_item_without_season_rating_bits": 38,
+    "mastery_record_sixteen_player_tiers_bits": 165,
+    "mastery_record_zero_player_tiers_bits": 37,
+    "suffix_license_identifier_bits": 32,
+    "voice_session_bits": 64
+  },
+  "format": "hots-current-native-tail-layout-and-observed-profile-constraints-v1",
+  "historical_conversion_constraints": [
+    "Current native graph authenticates current field names and bounds only.",
+    "Old observed resource names versus current u64 resourceMap require independent static registry binding; this graph does not assign ownership.",
+    "Old source profiles omit current override count11 per unlockable-client record and current playerlevel32/boost1; additions need separately audited historical absence/value provenance.",
+    "The old observed client-license count9 versus current nativecount16 is a structural candidate, not authenticated historical native type908.",
+    "Keep complete per-client license IDs, unlockable overrides, optional payloads, tier counts, session and sync fields; an observed empty branch is not a defaulting rule."
+  ],
+  "native_root_type": 5917,
+  "native_to_observed_groups": [
+    {
+      "native": [
+        "m_randomSeed(fixed4-byte blob)",
+        "m_clientId(u32)"
+      ],
+      "observed": "/init/random_seed32 and /init/unknown32",
+      "relationship": "Root spans bind the two32-bit extents; blob representation remains distinct."
+    },
+    {
+      "native": [
+        "m_clientInfoList1702 count5/max16",
+        "ClientInfo1768 eighteenfields"
+      ],
+      "observed": "/players/count5 and player records",
+      "relationship": "Current native ClientInfo already independently bound; frozensecondary flag/198 grouping is not its correct field split."
+    },
+    {
+      "native": [
+        "m_voiceSessionId983 {label32,instance32}"
+      ],
+      "observed": "/end/unknown64",
+      "relationship": "Exact64-bit root span."
+    },
+    {
+      "native": [
+        "m_ammHandle5923 OPTIONAL MatchMaker::Handle1772 {region8,program32,realm32,id32,version16}"
+      ],
+      "observed": "/end/mode_toon_choice + present136 / absent-filler16",
+      "relationship": "Native payload is120bits when present and zero when absent. BOTH observed branches consume sixteenextra bits: the following sixBOOLs plus tenbits of instanceHandle."
+    },
+    {
+      "native": [
+        "remaining86bits of m_instanceHandle after observedmode16-bitoverrun",
+        "m_ladderStats optionalpresence1"
+      ],
+      "observed": "/end/unknown87",
+      "relationship": "16+87 equals sixflags6+instance96+ladderpresence1 in BOTH AMM branches; not one87-bit nativefield."
+    },
+    {
+      "native": [
+        "m_ladderStats optional LadderStatsList1752 count4/min1",
+        "LadderStats1815 {scope5,mmrREAL32,seasonRatingOPTIONAL REAL32}"
+      ],
+      "observed": "/end/a38_count_minus1 and fixed38-bit items",
+      "relationship": "A38 is exactly the absent-seasonRating38-bit branch; nonempty seasonRating requires32morebits per affected item."
+    },
+    {
+      "native": [
+        "m_races5932 OPTIONAL ARRAYcount4/min1 of FourCC"
+      ],
+      "observed": "/end/unknown_bool + /end/neut_count_minus1 + FourCCs",
+      "relationship": "Frozen codec always reads the array after its presencebit; nativeabsence is a distinct valid branch."
+    },
+    {
+      "native": [
+        "m_clientUnlockableInfoList1826 count5/max16",
+        "ClientUnlockableInfo1856 {clientId32,HandleList1876,OverrideList1672}",
+        "Unlockable::Handle1884 {programFourCC32,tagFourCC32,index32}"
+      ],
+      "observed": "/end/hero_tables count5; unknown32; icons count11; triples; unknown11",
+      "relationship": "These are generic unlockables rather than a hero/icon-specific table; unknown11 is overrideARRAYcount, whose payload is omitted by the observed profile."
+    },
+    {
+      "native": [
+        "m_achievementTags5934 ARRAYcount6/max63 of FourCC"
+      ],
+      "observed": "/end/cstm/count6 and FourCCs",
+      "relationship": "Generic native name identifies the field; no achievement semantics/values inferred."
+    },
+    {
+      "native": [
+        "m_clientLicensesList2503 count5/max16",
+        "ClientLicenses2510 {clientId32,License::IdList908 count16/max32768 ofu32}"
+      ],
+      "observed": "/end/a41_or_a48 count5; eachunknown32+16 current / +9 historical",
+      "relationship": "Current fixed48-bit observed item is only the EMPTYlicense-list branch. Historical9-bit count candidate is a separate unproven oldtype hypothesis; no licenses are dropped/defaulted."
+    },
+    {
+      "native": [
+        "m_currentTurn32",
+        "m_turnIntervalMS32",
+        "m_currentSyncEventNumber32",
+        "m_tournamentInfo OPTIONAL flag1"
+      ],
+      "observed": "/end/unknown23 + unknown32a + unknown10 + unknown32b",
+      "relationship": "Observed97-bit grouping crosses native scalar boundaries; exact match only for absent tournament payload."
+    },
+    {
+      "native": [
+        "m_heroMasteryTiers1827 count10/max512",
+        "HeroMasteryTier1857 {heroFourCC32,playerTiers ARRAYcount5/max16 ofu8}"
+      ],
+      "observed": "/end/allheroes count10; FourCC32 + unknown5 + unknown128",
+      "relationship": "Opaque128 is the16-tier case. Native tier array can be0..16 and requires count\u00d78bits."
+    },
+    {
+      "native": [
+        "m_rejoinSaveCacheHandle OPTIONAL40-byteblob",
+        "m_rejoinSaveElapsedGameLoops OPTIONALu32"
+      ],
+      "observed": "/end/unknown2",
+      "relationship": "Two absent optional flags; presence adds a bounded payload and cachehandle bytealignment."
+    }
+  ],
+  "old_to_current_conversion_implemented": false,
+  "private_field_values_written": false,
+  "probe_sha256": "8756c55d21cb0fe93aa44c9711ec2fc5f972579b3fe39c6020d45c9c970c0d76",
+  "producer_sha256": "bb2f5f91c45a4c08c97cd2ad31638d9bc58fa688b419aea06333365460255c1b",
+  "production_codec_or_schema_changed": false,
+  "resource_and_license_namespaces": {
+    "global_resourceMap_type_chain": [
+      {
+        "id": 2509,
+        "kind": "USER",
+        "name": "Battlenet::S2Map::ResourceIdentifier"
+      },
+      {
+        "id": 396,
+        "kind": "USER",
+        "name": "Battlenet::BattlePay::LicenseId"
+      },
+      {
+        "id": 17,
+        "kind": "INT",
+        "name": "Battlenet::u64"
+      }
+    ],
+    "ownership_or_resourceState_bit_semantics_inferred": false,
+    "same_identifier_type_claimed": false,
+    "suffix_per_client_license_type_chain": [
+      {
+        "id": 866,
+        "kind": "USER",
+        "name": "Battlenet::License::Id"
+      },
+      {
+        "id": 1,
+        "kind": "INT",
+        "name": "Battlenet::u32"
+      }
+    ]
+  },
+  "root_fields": [
+    {
+      "end_bit": 2228368,
+      "kind": "STRUCT",
+      "name": "StartGameRequest",
+      "start_bit": 0,
+      "type_chain": [
+        {
+          "id": 5918,
+          "kind": "USER",
+          "name": null
+        },
+        {
+          "id": 5842,
+          "kind": "STRUCT",
+          "name": "Battlenet::Event::S2GameEngine::StartGameRequest"
+        }
+      ],
+      "type_id": 5842
+    },
+    {
+      "end_bit": 2228400,
+      "kind": "BLOB",
+      "name": "m_randomSeed",
+      "start_bit": 2228368,
+      "type_chain": [
+        {
+          "id": 5919,
+          "kind": "USER",
+          "name": null
+        },
+        {
+          "id": 1845,
+          "kind": "BLOB",
+          "name": "Battlenet::S2Game::RandomSeed"
+        }
+      ],
+      "type_id": 1845
+    },
+    {
+      "end_bit": 2228432,
+      "kind": "INT",
+      "name": "m_clientId",
+      "start_bit": 2228400,
+      "type_chain": [
+        {
+          "id": 5920,
+          "kind": "USER",
+          "name": null
+        },
+        {
+          "id": 1670,
+          "kind": "USER",
+          "name": "Battlenet::S2Game::ClientId"
+        },
+        {
+          "id": 1,
+          "kind": "INT",
+          "name": "Battlenet::u32"
+        }
+      ],
+      "type_id": 1
+    },
+    {
+      "end_bit": 2237569,
+      "kind": "ARRAY",
+      "name": "m_clientInfoList",
+      "start_bit": 2228432,
+      "type_chain": [
+        {
+          "id": 5921,
+          "kind": "USER",
+          "name": null
+        },
+        {
+          "id": 1702,
+          "kind": "ARRAY",
+          "name": "Battlenet::Client::S2GameDefines::ClientInfoList"
+        }
+      ],
+      "type_id": 1702
+    },
+    {
+      "end_bit": 2237633,
+      "kind": "STRUCT",
+      "name": "m_voiceSessionId",
+      "start_bit": 2237569,
+      "type_chain": [
+        {
+          "id": 5922,
+          "kind": "USER",
+          "name": null
+        },
+        {
+          "id": 983,
+          "kind": "STRUCT",
+          "name": "Battlenet::ComSat::SessionIdUnion"
+        }
+      ],
+      "type_id": 983
+    },
+    {
+      "end_bit": 2237634,
+      "kind": "OPTIONAL",
+      "name": "m_ammHandle",
+      "start_bit": 2237633,
+      "type_chain": [
+        {
+          "id": 5923,
+          "kind": "OPTIONAL",
+          "name": null
+        }
+      ],
+      "type_id": 5923
+    },
+    {
+      "end_bit": 2237635,
+      "kind": "BOOL",
+      "name": "m_isCompetitive",
+      "start_bit": 2237634,
+      "type_chain": [
+        {
+          "id": 5924,
+          "kind": "BOOL",
+          "name": null
+        }
+      ],
+      "type_id": 5924
+    },
+    {
+      "end_bit": 2237636,
+      "kind": "BOOL",
+      "name": "m_isRanked",
+      "start_bit": 2237635,
+      "type_chain": [
+        {
+          "id": 5925,
+          "kind": "BOOL",
+          "name": null
+        }
+      ],
+      "type_id": 5925
+    },
+    {
+      "end_bit": 2237637,
+      "kind": "BOOL",
+      "name": "m_isPractice",
+      "start_bit": 2237636,
+      "type_chain": [
+        {
+          "id": 5926,
+          "kind": "BOOL",
+          "name": null
+        }
+      ],
+      "type_id": 5926
+    },
+    {
+      "end_bit": 2237638,
+      "kind": "BOOL",
+      "name": "m_isCooperative",
+      "start_bit": 2237637,
+      "type_chain": [
+        {
+          "id": 5927,
+          "kind": "BOOL",
+          "name": null
+        }
+      ],
+      "type_id": 5927
+    },
+    {
+      "end_bit": 2237639,
+      "kind": "BOOL",
+      "name": "m_saveStats",
+      "start_bit": 2237638,
+      "type_chain": [
+        {
+          "id": 5928,
+          "kind": "BOOL",
+          "name": null
+        }
+      ],
+      "type_id": 5928
+    },
+    {
+      "end_bit": 2237640,
+      "kind": "BOOL",
+      "name": "m_saveReplay",
+      "start_bit": 2237639,
+      "type_chain": [
+        {
+          "id": 5929,
+          "kind": "BOOL",
+          "name": null
+        }
+      ],
+      "type_id": 5929
+    },
+    {
+      "end_bit": 2237736,
+      "kind": "STRUCT",
+      "name": "m_instanceHandle",
+      "start_bit": 2237640,
+      "type_chain": [
+        {
+          "id": 5930,
+          "kind": "USER",
+          "name": null
+        },
+        {
+          "id": 1749,
+          "kind": "STRUCT",
+          "name": "Battlenet::S2Master::InstanceHandle"
+        }
+      ],
+      "type_id": 1749
+    },
+    {
+      "end_bit": 2238083,
+      "kind": "OPTIONAL",
+      "name": "m_ladderStats",
+      "start_bit": 2237736,
+      "type_chain": [
+        {
+          "id": 5931,
+          "kind": "OPTIONAL",
+          "name": null
+        }
+      ],
+      "type_id": 5931
+    },
+    {
+      "end_bit": 2238472,
+      "kind": "OPTIONAL",
+      "name": "m_races",
+      "start_bit": 2238083,
+      "type_chain": [
+        {
+          "id": 5932,
+          "kind": "OPTIONAL",
+          "name": null
+        }
+      ],
+      "type_id": 5932
+    },
+    {
+      "end_bit": 2248725,
+      "kind": "ARRAY",
+      "name": "m_clientUnlockableInfoList",
+      "start_bit": 2238472,
+      "type_chain": [
+        {
+          "id": 5933,
+          "kind": "USER",
+          "name": null
+        },
+        {
+          "id": 1826,
+          "kind": "ARRAY",
+          "name": "Battlenet::Client::S2GameDefines::ClientUnlockableInfoList"
+        }
+      ],
+      "type_id": 1826
+    },
+    {
+      "end_bit": 2248763,
+      "kind": "ARRAY",
+      "name": "m_achievementTags",
+      "start_bit": 2248725,
+      "type_chain": [
+        {
+          "id": 5934,
+          "kind": "ARRAY",
+          "name": null
+        }
+      ],
+      "type_id": 5934
+    },
+    {
+      "end_bit": 2249344,
+      "kind": "ARRAY",
+      "name": "m_clientLicensesList",
+      "start_bit": 2248763,
+      "type_chain": [
+        {
+          "id": 5935,
+          "kind": "USER",
+          "name": null
+        },
+        {
+          "id": 2503,
+          "kind": "ARRAY",
+          "name": "Battlenet::Client::S2GameDefines::ClientLicensesList"
+        }
+      ],
+      "type_id": 2503
+    },
+    {
+      "end_bit": 2249376,
+      "kind": "INT",
+      "name": "m_currentTurn",
+      "start_bit": 2249344,
+      "type_chain": [
+        {
+          "id": 5936,
+          "kind": "USER",
+          "name": null
+        },
+        {
+          "id": 1755,
+          "kind": "USER",
+          "name": "Battlenet::S2Game::TurnNumber"
+        },
+        {
+          "id": 1,
+          "kind": "INT",
+          "name": "Battlenet::u32"
+        }
+      ],
+      "type_id": 1
+    },
+    {
+      "end_bit": 2249408,
+      "kind": "INT",
+      "name": "m_turnIntervalMS",
+      "start_bit": 2249376,
+      "type_chain": [
+        {
+          "id": 5937,
+          "kind": "USER",
+          "name": null
+        },
+        {
+          "id": 1,
+          "kind": "INT",
+          "name": "Battlenet::u32"
+        }
+      ],
+      "type_id": 1
+    },
+    {
+      "end_bit": 2249440,
+      "kind": "INT",
+      "name": "m_currentSyncEventNumber",
+      "start_bit": 2249408,
+      "type_chain": [
+        {
+          "id": 5938,
+          "kind": "USER",
+          "name": null
+        },
+        {
+          "id": 1756,
+          "kind": "USER",
+          "name": "Battlenet::S2Game::SyncEventNumber"
+        },
+        {
+          "id": 1,
+          "kind": "INT",
+          "name": "Battlenet::u32"
+        }
+      ],
+      "type_id": 1
+    },
+    {
+      "end_bit": 2249441,
+      "kind": "OPTIONAL",
+      "name": "m_tournamentInfo",
+      "start_bit": 2249440,
+      "type_chain": [
+        {
+          "id": 5939,
+          "kind": "OPTIONAL",
+          "name": null
+        }
+      ],
+      "type_id": 5939
+    },
+    {
+      "end_bit": 2263806,
+      "kind": "ARRAY",
+      "name": "m_heroMasteryTiers",
+      "start_bit": 2249441,
+      "type_chain": [
+        {
+          "id": 5940,
+          "kind": "USER",
+          "name": null
+        },
+        {
+          "id": 1827,
+          "kind": "ARRAY",
+          "name": "Battlenet::Client::S2GameDefines::HeroMasteryTierList"
+        }
+      ],
+      "type_id": 1827
+    },
+    {
+      "end_bit": 2263807,
+      "kind": "OPTIONAL",
+      "name": "m_rejoinSaveCacheHandle",
+      "start_bit": 2263806,
+      "type_chain": [
+        {
+          "id": 5941,
+          "kind": "OPTIONAL",
+          "name": null
+        }
+      ],
+      "type_id": 5941
+    },
+    {
+      "end_bit": 2263808,
+      "kind": "OPTIONAL",
+      "name": "m_rejoinSaveElapsedGameLoops",
+      "start_bit": 2263807,
+      "type_chain": [
+        {
+          "id": 5942,
+          "kind": "OPTIONAL",
+          "name": null
+        }
+      ],
+      "type_id": 5942
+    }
+  ],
+  "schema_sha256": "0fd61c8ef3b0aeef647912fd9e35308e70c39da9e2980004d06b1b92e0c96640",
+  "source_member_sha256": "ab03d9533081e9d69d205a6adec9df6a0aaf5ff47a05ecc8bf670b6760b0ab55",
+  "source_replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+  "whole_current_native_root_control_passed": true
+}

@@ -1,0 +1,422 @@
+{
+  "format": "hots-current-EU-Dragon-new-primary-route-v1",
+  "maximum_external_operations": 8,
+  "prior_ledgers_read": [
+    "current-eu-dragon-route-bounded-outcome.json",
+    "regular-map-route-ledger.json",
+    "dated-match-discovery.json",
+    "calendar.page-observation.json",
+    "homepage.page-observation.json"
+  ],
+  "external_operations": [
+    {
+      "url": "https://heroeslounge.gg/tournament/Nexus-Rumble-Open-Table",
+      "transport": "web.open",
+      "outcome": "tool-unavailable",
+      "tool_reference": "turn82view0",
+      "body_bytes_exposed": 0,
+      "description": "Web tool returned URL not accessible; no replay or schema validation attempted"
+    },
+    {
+      "url": "https://heroeslounge.gg/tournament/Nexus-Rumble-Open-Table",
+      "transport": "urllib",
+      "acquired_at_utc": "2026-10-18T23:44:13.526092+00:00",
+      "observed_link_sources": [
+        {
+          "file": "calendar.private.html",
+          "sha256": "f5f7a2610f74099956cbe9f29d6c07a585a8cb6980de74a11e4bc3900e37a700"
+        },
+        {
+          "file": "homepage.private.html",
+          "sha256": "974e3539736d6623dc7cb75a5be993aa8e82cab520fc15c9350bfa13ac7f4773"
+        },
+        {
+          "file": "match-27512.private.html",
+          "sha256": "2c3ad2691af84a67da9171c944710b832d82de04de122e69e85c778ce3bedae9"
+        },
+        {
+          "file": "match-27513.private.html",
+          "sha256": "3d05caf92c27dd2f5c004c60caad9bc28307c21dbfe30372a800e9c175961798"
+        },
+        {
+          "file": "match-27514.private.html",
+          "sha256": "267cea0ce915e9a7dd07ec4855e8b5df719b3858d7179a3eb6b2bad70822f293"
+        },
+        {
+          "file": "match-27515.private.html",
+          "sha256": "b36bb1d352cb0808429458780dd233314b4987cb7cc4e17cc74932e2733d86f4"
+        },
+        {
+          "file": "match-27516.private.html",
+          "sha256": "c358f58472ce09b1b18464acdf4d32808edbe244ecc6f99be05b0ed58715fc0d"
+        },
+        {
+          "file": "match-27518.private.html",
+          "sha256": "af6b5cb2b8ba87c43173a0fa9598676660978161a82ec3a24510ec16ce14d50f"
+        },
+        {
+          "file": "match-27522.private.html",
+          "sha256": "7be92ef0ef1a7a41d0c59d902768efca501deee078dd0e513fc078ed11dad2cb"
+        },
+        {
+          "file": "match-27524.private.html",
+          "sha256": "d3b9255fc5913c1fdd23c0c22f6bbdc391ef9ca15982a24ab6d26945b0de3005"
+        },
+        {
+          "file": "match-27538.private.html",
+          "sha256": "845fb706001130cd5f02af105866d804887c3715f2855fc88fabff1c686355eb"
+        },
+        {
+          "file": "offseason-a.private.html",
+          "sha256": "f6855b1dc37e9cfffa471c18074a34b462c875871a381fd49203b26d2f0c0e0c"
+        },
+        {
+          "file": "offseason-b.private.html",
+          "sha256": "d3e922dcfcb99d672220be7b285fd7704e774a101b4ed9137489afc16872b0f8"
+        },
+        {
+          "file": "offseason-c.private.html",
+          "sha256": "ad3ca134146a41cc850bbd090e69e27fe36b384af9941a86c4fac8718061139d"
+        },
+        {
+          "file": "regular-division1.private.html",
+          "sha256": "7a2862a0227e8fc3845d934494dc460d8bc6f1f6bf4b4826c0a1e08a59542663"
+        },
+        {
+          "file": "regular-division2.private.html",
+          "sha256": "0e4df7e7f5d32b60238a008b3268787cb79fba1f73f942106ef1a899eb5143b8"
+        },
+        {
+          "file": "regular-division3.private.html",
+          "sha256": "f15695d3119ee2cd5685359a36c2da4ea6e3916a05148b4368d2ab376773f457"
+        },
+        {
+          "file": "regular-division4.private.html",
+          "sha256": "589f5ad2eb580c933de5ff04e8dfbd2a474398c636f35fec7aa471c39d401158"
+        },
+        {
+          "file": "regular-division5.private.html",
+          "sha256": "5c23864da1177c2254a95842ae39b6032268aa80804ffea8850e7abf41f64e98"
+        }
+      ],
+      "max_body_bytes": 1048576,
+      "request_attempts": 1,
+      "hidden_retries": 0,
+      "http_status": 200,
+      "body_bytes": 87674,
+      "sha256": "dd0d2c818c156b19dfa17ed30adaaed3a5c41c74e188eaf4713127c6e733b95d",
+      "parsed": {
+        "match_ids": [
+          27043,
+          27044,
+          27045,
+          27086,
+          27087,
+          27126,
+          27127,
+          27128,
+          27170,
+          27171,
+          27172,
+          27216,
+          27217,
+          27218,
+          27220,
+          27260,
+          27261,
+          27262,
+          27302,
+          27303,
+          27304,
+          27344,
+          27345,
+          27346,
+          27389,
+          27429,
+          27430
+        ],
+        "links": [
+          "https://heroeslounge.gg/KODC0826/playoff/Khaldor%20Big%20Dog%20Cup%20August.26",
+          "https://heroeslounge.gg/general/playoff-rules-new",
+          "https://heroeslounge.gg/match/view/27043",
+          "https://heroeslounge.gg/match/view/27044",
+          "https://heroeslounge.gg/match/view/27045",
+          "https://heroeslounge.gg/match/view/27086",
+          "https://heroeslounge.gg/match/view/27087",
+          "https://heroeslounge.gg/match/view/27126",
+          "https://heroeslounge.gg/match/view/27127",
+          "https://heroeslounge.gg/match/view/27128",
+          "https://heroeslounge.gg/match/view/27170",
+          "https://heroeslounge.gg/match/view/27171",
+          "https://heroeslounge.gg/match/view/27172",
+          "https://heroeslounge.gg/match/view/27216",
+          "https://heroeslounge.gg/match/view/27217",
+          "https://heroeslounge.gg/match/view/27218",
+          "https://heroeslounge.gg/match/view/27220",
+          "https://heroeslounge.gg/match/view/27260",
+          "https://heroeslounge.gg/match/view/27261",
+          "https://heroeslounge.gg/match/view/27262",
+          "https://heroeslounge.gg/match/view/27302",
+          "https://heroeslounge.gg/match/view/27303",
+          "https://heroeslounge.gg/match/view/27304",
+          "https://heroeslounge.gg/match/view/27344",
+          "https://heroeslounge.gg/match/view/27345",
+          "https://heroeslounge.gg/match/view/27346",
+          "https://heroeslounge.gg/match/view/27389",
+          "https://heroeslounge.gg/match/view/27429",
+          "https://heroeslounge.gg/match/view/27430"
+        ],
+        "games": [],
+        "scheduled": null,
+        "has_dragon_shire_text": false
+      },
+      "outcome": "acquired-and-parsed",
+      "producer_file": "probe_primary_route_first_batch.py",
+      "producer_sha256": "274e9799592ec08be3a5466eddcdd545911f856fa619c82f334f405e6a60eb6d"
+    },
+    {
+      "url": "https://heroeslounge.gg/match/view/27430",
+      "transport": "urllib",
+      "acquired_at_utc": "2026-10-18T23:44:39.020837+00:00",
+      "observed_link_sources": [
+        {
+          "file": "nexus-rumble.private.html",
+          "sha256": "dd0d2c818c156b19dfa17ed30adaaed3a5c41c74e188eaf4713127c6e733b95d"
+        }
+      ],
+      "max_body_bytes": 1048576,
+      "request_attempts": 1,
+      "hidden_retries": 0,
+      "http_status": 200,
+      "body_bytes": 272595,
+      "sha256": "9b0d3a3a981affa3003587210fab3e6f0688ef9d231901cbcb6505c8f1edf43b",
+      "parsed": {
+        "match_ids": [
+          27430
+        ],
+        "links": [
+          "https://heroeslounge.gg/KODC0826/playoff/Khaldor%20Big%20Dog%20Cup%20August.26",
+          "https://heroeslounge.gg/NMMR3/playoff/Nexus%20Rumble%20Open%20Table",
+          "https://heroeslounge.gg/general/playoff-rules-new"
+        ],
+        "games": [
+          {
+            "game_id": 63272,
+            "map": "Dragon Shire",
+            "replay_url": "https://heroeslounge.gg/storage/app/uploads/public/6a8/caf/635/6a8caf6351df7599798737.stormreplay"
+          },
+          {
+            "game_id": 63273,
+            "map": "Battlefield of Eternity",
+            "replay_url": "https://heroeslounge.gg/storage/app/uploads/public/6a8/caf/6fe/6a8caf6fe7306799801541.stormreplay"
+          },
+          {
+            "game_id": 63274,
+            "map": "Infernal Shrines",
+            "replay_url": "https://heroeslounge.gg/storage/app/uploads/public/6a8/caf/7a4/6a8caf7a4f38f668020511.stormreplay"
+          },
+          {
+            "game_id": 63275,
+            "map": "Braxis Holdout",
+            "replay_url": "https://heroeslounge.gg/storage/app/uploads/public/6a8/caf/870/6a8caf870a39b631080024.stormreplay"
+          }
+        ],
+        "scheduled": "24 Aug 2026 18:00 (UTC +00:00)",
+        "has_dragon_shire_text": true
+      },
+      "outcome": "acquired-and-parsed",
+      "producer_file": "probe_primary_route_first_batch.py",
+      "producer_sha256": "274e9799592ec08be3a5466eddcdd545911f856fa619c82f334f405e6a60eb6d"
+    },
+    {
+      "url": "https://heroeslounge.gg/storage/app/uploads/public/6a8/caf/635/6a8caf6351df7599798737.stormreplay",
+      "transport": "urllib-range",
+      "source_match_url": "https://heroeslounge.gg/match/view/27430",
+      "source_match_page_sha256": "9b0d3a3a981affa3003587210fab3e6f0688ef9d231901cbcb6505c8f1edf43b",
+      "primary_map": "Dragon Shire",
+      "acquired_at_utc": "2026-10-18T23:46:43.588440+00:00",
+      "request_attempts": 1,
+      "hidden_retries": 0,
+      "range": "bytes=0-4095",
+      "maximum_body_bytes": 4096,
+      "header_decode_outcome": "success",
+      "schema_build": 96477,
+      "schema_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+      "official_decoder_sha256": "c5e4e7c588ebc2ef722ab9fd9def2e67e309c45d451639cfdee3126b0f616a42",
+      "body_bytes_read": 4096,
+      "http_status": 206,
+      "content_range": "bytes 0-4095/842016",
+      "content_length": "4096",
+      "etag": "\"cd920-659d12f357520\"",
+      "total_replay_bytes": 842016,
+      "acquisition_outcome": "strict206-prefix-acquired",
+      "prefix_sha256": "24cfaa974a9d1870ea13e53694599883f986720f0e2ddd5a336508dece861e70",
+      "decoded_header": {
+        "version": {
+          "m_flags": 1,
+          "m_major": 2,
+          "m_minor": 55,
+          "m_revision": 17,
+          "m_build": 97771,
+          "m_baseBuild": 97771
+        },
+        "data_build": 97771,
+        "NGDP_root": "da00890abd8a013d6cccfbdc2ec63650"
+      },
+      "current98348": false,
+      "producer_file": "probe_observed_replay_header.py",
+      "producer_sha256": "6c52a0738da6e04da3cdc2ad65cc31de614af780e777b6b7983a6d241c0a65e0"
+    },
+    {
+      "transport": "web.search",
+      "query": "\"Heroes\" \"replays\" \"2026\" \"October\" Europe tournament",
+      "domains": [
+        "heroeslounge.gg",
+        "heroesinternational.net",
+        "mastersclash.eu"
+      ],
+      "outcome": "primary-indexed-source-found",
+      "tool_reference": "turn83search0",
+      "primary_source_url": "https://www.heroeslounge.gg/blog/post/signups-open-season-31",
+      "observed_context": {
+        "article_date": "05Sep2026",
+        "season_31_round_1_date": "19Oct2026"
+      },
+      "raw_search_result_saved": false,
+      "underlying_HTTP_request_count": "not exposed by web tool"
+    },
+    {
+      "transport": "web.search",
+      "query": "site:heroeslounge.gg/match/view/ \"Dragon Shire\" \"2026\" (\"Sep\" OR \"Oct\")",
+      "outcome": "new-primary-candidate-not-header-validated",
+      "tool_reference": "turn84search0",
+      "primary_source_url": "https://www.heroeslounge.gg/en/match/view/27490",
+      "observed_context": {
+        "competition": "[EU]Season30-Division3Cup",
+        "stage": "WinnerBracket-Round3-Match1",
+        "scheduled": "25Sep2026 17:00",
+        "map": "DragonShire",
+        "replay_file_link_label_present": true
+      },
+      "raw_search_result_saved": false,
+      "underlying_HTTP_request_count": "not exposed by web tool"
+    },
+    {
+      "url": "https://www.heroeslounge.gg/en/match/view/27490",
+      "transport": "urllib",
+      "acquired_at_utc": "2026-10-18T23:48:04.061622+00:00",
+      "observed_link_sources": [
+        {
+          "source": "primary indexed page from sixth bounded operation",
+          "ledger_sha256": "f947b5768c1bf307e5ca70a384890343318aff7df2242ed3b61405572e7ba677",
+          "indexed_source_url": "https://www.heroeslounge.gg/en/match/view/27490"
+        }
+      ],
+      "max_body_bytes": 1048576,
+      "request_attempts": 1,
+      "hidden_retries": 0,
+      "http_status": 200,
+      "body_bytes": 360373,
+      "sha256": "279de6327831919d594862b0372e00e832695298346cba58b6eae8322456495a",
+      "parsed": {
+        "match_ids": [
+          27490
+        ],
+        "links": [
+          "https://heroeslounge.gg/KODC0826/playoff/Khaldor%20Big%20Dog%20Cup%20August.26"
+        ],
+        "games": [
+          {
+            "game_id": 63639,
+            "map": "Dragon Shire",
+            "replay_url": "https://www.heroeslounge.gg/storage/app/uploads/public/6ab/6bc/c74/6ab6bcc74f259555834288.stormreplay"
+          },
+          {
+            "game_id": 63640,
+            "map": "Cursed Hollow",
+            "replay_url": "https://www.heroeslounge.gg/storage/app/uploads/public/6ab/6bc/e6b/6ab6bce6bc484252372756.stormreplay"
+          },
+          {
+            "game_id": 63641,
+            "map": "Towers of Doom",
+            "replay_url": "https://www.heroeslounge.gg/storage/app/uploads/public/6ab/6c4/e48/6ab6c4e4801b2759323314.stormreplay"
+          },
+          {
+            "game_id": 63642,
+            "map": "Braxis Holdout",
+            "replay_url": "https://www.heroeslounge.gg/storage/app/uploads/public/6ab/6cc/23e/6ab6cc23e71f5909694390.stormreplay"
+          },
+          {
+            "game_id": 63643,
+            "map": "Infernal Shrines",
+            "replay_url": "https://www.heroeslounge.gg/storage/app/uploads/public/6ab/6d3/d1e/6ab6d3d1ea077279139127.stormreplay"
+          }
+        ],
+        "scheduled": "25 Sep 2026 17:00 (UTC +00:00)",
+        "has_dragon_shire_text": true
+      },
+      "outcome": "acquired-and-parsed",
+      "producer_file": "probe_new_primary_route.py",
+      "producer_sha256": "b9d44d34e6ac57d8c57c10c897795e8818bf93317ab623dd8bb4536c112f7320"
+    },
+    {
+      "url": "https://www.heroeslounge.gg/storage/app/uploads/public/6ab/6bc/c74/6ab6bcc74f259555834288.stormreplay",
+      "transport": "urllib-range",
+      "source_match_url": "https://www.heroeslounge.gg/en/match/view/27490",
+      "source_match_page_sha256": "279de6327831919d594862b0372e00e832695298346cba58b6eae8322456495a",
+      "primary_map": "Dragon Shire",
+      "acquired_at_utc": "2026-10-18T23:48:14.975120+00:00",
+      "request_attempts": 1,
+      "hidden_retries": 0,
+      "range": "bytes=0-4095",
+      "maximum_body_bytes": 4096,
+      "header_decode_outcome": "success",
+      "schema_build": 96477,
+      "schema_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+      "official_decoder_sha256": "c5e4e7c588ebc2ef722ab9fd9def2e67e309c45d451639cfdee3126b0f616a42",
+      "body_bytes_read": 4096,
+      "http_status": 206,
+      "content_range": "bytes 0-4095/1164133",
+      "content_length": "4096",
+      "etag": "\"11c365-65c52da086bf3\"",
+      "total_replay_bytes": 1164133,
+      "acquisition_outcome": "strict206-prefix-acquired",
+      "prefix_sha256": "a70f11a5721c6216793a171c66758950a63179c85912f6815a61c4337dba86c7",
+      "decoded_header": {
+        "version": {
+          "m_flags": 1,
+          "m_major": 2,
+          "m_minor": 55,
+          "m_revision": 17,
+          "m_build": 98025,
+          "m_baseBuild": 98025
+        },
+        "data_build": 98025,
+        "NGDP_root": "511141a38b06a0b3824d9cfe0532f551"
+      },
+      "current98348": false,
+      "same_current_NGDP_root": false,
+      "producer_file": "probe_27490_dragon_header.py",
+      "producer_sha256": "f676331c73458c518e281f194e5aff071dc6ba288f182df14f3aa25f8fb404e9"
+    }
+  ],
+  "full_replays_acquired": 0,
+  "client_launched": false,
+  "next_candidate": {
+    "url": "https://www.heroeslounge.gg/en/match/view/27490",
+    "status": "Follow-up page and strict206 prefix acquired; actual98025/base98025/data98025, rejected before full acquisition",
+    "admission_reason": "Primary indexed completedEUcup match with explicit DragonShire replay label and later date than rejected97771 control",
+    "remaining_operation_allowance": 0
+  },
+  "scope_notes": [
+    "The six-operation count includes three web-tool operations, whose underlying HTTP request count/body transfer is not exposed, plus three directly instrumented urllib requests.",
+    "No full replay, client launch, package substitution or currentEUDragon tuple inference occurred.",
+    "Dates and index labels never substitute for the actual official decoded replay version and region."
+  ],
+  "task_extension": {
+    "additional_metadata_prefix_operations": 2,
+    "exact_candidate_match_id": 27490,
+    "additional_full_request_condition": "Only if strict prefix executable/base/data98348 and actual NGDP rootc3b3c8bc82e3a5a62e550fdde9a40c28, one≤3MiB full request separately authorized; authenticregion2+Dragon checked after full parse."
+  },
+  "outcome": "No current98348EUDragon candidate admitted; no full replay acquired"
+}
