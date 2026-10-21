@@ -1,0 +1,31 @@
+{
+  "actual_16_records_independently_reconverted": false,
+  "format": "saved-sixteen-record-MapInfo-proof-independent-source-and-metadata-review-v1",
+  "future_reproducer_note": "Producer pins HERE source but searches repo before HERE at import. The repository converter was absent in a contemporaneous metadata-only review check. Pin the loaded module before any future raw-input rerun if import locations evolve; current saved proof is not contradicted.",
+  "material_current_conversion_findings": [],
+  "private_values_emitted": false,
+  "producer_source_review": {
+    "all_32_current_native_destination_fields_end_and_identity_checked": true,
+    "before_after_archive_source_guards": true,
+    "exact_source_archive_and_member_admission": true,
+    "fresh_baseline_recomputed_before_conversion": true,
+    "no_whole_replay_or_old_native_schema_claim": true,
+    "outside_bits_and_whole_inverse_checked_by_reviewed_converter": true,
+    "private_converted_bodies_RAM_only": true
+  },
+  "raw_replay_header_PE_dump_or_network_reads_in_this_review": 0,
+  "review_source_sha256": "6409733bc85261aa2c87c88d2e27769b80841b9386ed5c98075b0cabd86758a1",
+  "reviewed_pins": {
+    "code-test-freeze-v2.json": "e2047698edcba6197806c39a673352e89cc1f746e73e7dd96e81d3dd30bd0886",
+    "legacy-MapInfo-framing-16-record-proof.json": "96557a661968afb1b459ec45eb01944681e7f3900c2c460d09eaa1c83c0b5db7",
+    "legacy_mapinfo_framing.py": "087965405fa4c97e088b7581c9ffa4d7e384ad45535be859a6d09be10420e2b3",
+    "verify_legacy_mapinfo_framing.py": "de0d47d8e17f641f1d43cc976df7e3291744171a8d915829ce86bff04899a0a8"
+  },
+  "saved_proof_arithmetic": {
+    "all_native_field_comparisons": 3888,
+    "all_source_spans_and_shift_arithmetic_match_frozen_baseline": true,
+    "named_root_field_comparisons": 512,
+    "records": 16,
+    "source_cases": 3
+  }
+}

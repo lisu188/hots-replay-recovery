@@ -83,6 +83,34 @@ jobs:
           python scripts/restore_artifact.py "$r3.base64" "$r3" --sha256 "$r3.sha256"
           r4=client-checkpoints/98285-controls-r4/TEN_GREYMANE_client98285_CONTROLS_R4_EXPERIMENTAL.StormReplay
           python scripts/restore_artifact.py "$r4.base64" work/R4.StormReplay --sha256 "$r4.sha256"
+      - name: Verify original MapInfo framing conversion and whole-member inverse in RAM
+        run: |
+          python - <<'PY'
+          import hashlib
+          from pathlib import Path
+          from reference_replay import checked_archive
+          from migrate_replay import write_json
+          from legacy_mapinfo_framing import PROFILE, convert_mapinfo_framing, inverse_mapinfo_framing
+          path = Path('work/TEN_GREYMANE_source_41810.StormReplay')
+          expected = 'e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824'
+          assert path.stat().st_size == 635140 and hashlib.sha256(path.read_bytes()).hexdigest() == expected
+          archive = checked_archive(path)
+          try:
+              raw = archive.read_file('replay.server.battlelobby')
+          finally:
+              archive.close()
+          value = convert_mapinfo_framing(raw, PROFILE)
+          facts = value.summary()
+          assert facts['source_id'] == 'original41810' and facts['MapInfo_records'] == 5
+          assert facts['added_bytes'] == 15 and facts['named_root_field_comparisons'] == 160
+          assert facts['unchanged_current_native_32_field_destination_values_and_bounds_exact']
+          assert facts['all_non_count_tokens_and_outside_bits_exact'] and facts['inverse_whole_member_bytes_exact']
+          assert not facts['whole_replay_upgrade_or_historical_schema_authenticated']
+          assert inverse_mapinfo_framing(value, PROFILE) == raw
+          assert hashlib.sha256(path.read_bytes()).hexdigest() == expected
+          write_json('work/original-mapinfo-framing.json', dict(facts, original_replay_sha256=expected, client_launched=False, converted_member_saved=False))
+          print({'original_MapInfo_records_reframed': 5, 'named_field_comparisons': 160, 'other_bits_and_whole_inverse_exact': True, 'replay_saved': False})
+          PY
       - name: Acquire one SHA-bound public fixture for offline range transport tests
         run: |
           python - <<'PY'
@@ -222,5 +250,6 @@ jobs:
             work/offline-unit-regression.json
             work/current-eu-profile.json
             work/current-eu-structure.json
+            work/original-mapinfo-framing.json
           if-no-files-found: warn
           retention-days: 14

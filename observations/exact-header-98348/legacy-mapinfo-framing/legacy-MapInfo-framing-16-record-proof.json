@@ -1,0 +1,379 @@
+{
+  "aggregate": {
+    "all_current_native_destinations_32_fields_values_bounds_and_spans_exact": true,
+    "all_input_and_source_guards_unchanged": true,
+    "all_native_field_comparisons": 3888,
+    "all_non_count_tokens_prefix_suffix_and_other_member_bits_exact": true,
+    "converted_members_or_StormReplay_outputs_written": 0,
+    "distinct_replay_input_bytes": 3726042,
+    "distinct_replay_input_cap": 4194304,
+    "inverse_whole_members_byte_exact": 3,
+    "named_root_field_comparisons": 512,
+    "raw_header_dump_PE_or_network_reads": 0,
+    "records": 16,
+    "replay_read_bytes_including_before_after_guards": 7452084,
+    "source_cases": 3
+  },
+  "cases": [
+    {
+      "actual_header_build": 41810,
+      "converted_member_saved": false,
+      "converter": {
+        "MapInfo_records": 5,
+        "added_bits_per_record": 24,
+        "added_bytes": 15,
+        "all_native_field_comparisons": 1191,
+        "all_non_count_tokens_and_outside_bits_exact": true,
+        "converted_member_bytes": 41761,
+        "converted_member_sha256": "cca85c39fb92d2b3efe961e45418ba1a6ace1461bde2f1d071291db9c7a0a34b",
+        "inverse_whole_member_bytes_exact": true,
+        "named_root_field_comparisons": 160,
+        "nonempty_permissions_supported": false,
+        "profile": "legacy-empty-mapinfo-count7-to-native31-v1",
+        "raw_author_account_player_values_emitted": false,
+        "source_id": "original41810",
+        "source_member_bytes": 41746,
+        "source_member_sha256": "beea9c9b29a7f1a73806fe37b393f453c84a7faed8d6f89a5b4fcd25967f1f44",
+        "unchanged_current_native_32_field_destination_values_and_bounds_exact": true,
+        "whole_replay_upgrade_or_historical_schema_authenticated": false
+      },
+      "fresh_historical_baseline_exact": true,
+      "id": "original41810",
+      "official_schema_sha256": "879d228d9d8acd21d63563538dd15841aaf49259ee0bb468b8a46b6a4ef866fd",
+      "records": [
+        {
+          "current_final_widths": [
+            1,
+            31
+          ],
+          "independent_current_native_identity_and_end_exact": true,
+          "index": 0,
+          "native_32_named_fields_preserved": true,
+          "source_end_bit": 206448,
+          "source_start_bit": 205187,
+          "target_end_bit": 206472,
+          "target_start_bit": 205187
+        },
+        {
+          "current_final_widths": [
+            1,
+            31
+          ],
+          "independent_current_native_identity_and_end_exact": true,
+          "index": 1,
+          "native_32_named_fields_preserved": true,
+          "source_end_bit": 208088,
+          "source_start_bit": 206448,
+          "target_end_bit": 208136,
+          "target_start_bit": 206472
+        },
+        {
+          "current_final_widths": [
+            1,
+            31
+          ],
+          "independent_current_native_identity_and_end_exact": true,
+          "index": 2,
+          "native_32_named_fields_preserved": true,
+          "source_end_bit": 209376,
+          "source_start_bit": 208088,
+          "target_end_bit": 209448,
+          "target_start_bit": 208136
+        },
+        {
+          "current_final_widths": [
+            1,
+            31
+          ],
+          "independent_current_native_identity_and_end_exact": true,
+          "index": 3,
+          "native_32_named_fields_preserved": true,
+          "source_end_bit": 211566,
+          "source_start_bit": 209376,
+          "target_end_bit": 211662,
+          "target_start_bit": 209448
+        },
+        {
+          "current_final_widths": [
+            1,
+            31
+          ],
+          "independent_current_native_identity_and_end_exact": true,
+          "index": 4,
+          "native_32_named_fields_preserved": true,
+          "source_end_bit": 214289,
+          "source_start_bit": 211566,
+          "target_end_bit": 214409,
+          "target_start_bit": 211662
+        }
+      ],
+      "replay_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+      "saved_span_receipt_agrees": true,
+      "source_member_sha256": "beea9c9b29a7f1a73806fe37b393f453c84a7faed8d6f89a5b4fcd25967f1f44"
+    },
+    {
+      "actual_header_build": 98285,
+      "converted_member_saved": false,
+      "converter": {
+        "MapInfo_records": 5,
+        "added_bits_per_record": 24,
+        "added_bytes": 15,
+        "all_native_field_comparisons": 1191,
+        "all_non_count_tokens_and_outside_bits_exact": true,
+        "converted_member_bytes": 41933,
+        "converted_member_sha256": "4eaeb3458461a8c9ae595c394f7dba0dac5960ade77d9626ab47207ea2abce4e",
+        "inverse_whole_member_bytes_exact": true,
+        "named_root_field_comparisons": 160,
+        "nonempty_permissions_supported": false,
+        "profile": "legacy-empty-mapinfo-count7-to-native31-v1",
+        "raw_author_account_player_values_emitted": false,
+        "source_id": "R8",
+        "source_member_bytes": 41918,
+        "source_member_sha256": "2902a33a450491e8717a8006cef4627f2c12d1c0b854fc4f698dc1de0ade9640",
+        "unchanged_current_native_32_field_destination_values_and_bounds_exact": true,
+        "whole_replay_upgrade_or_historical_schema_authenticated": false
+      },
+      "fresh_historical_baseline_exact": true,
+      "id": "R8",
+      "official_schema_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+      "records": [
+        {
+          "current_final_widths": [
+            1,
+            31
+          ],
+          "independent_current_native_identity_and_end_exact": true,
+          "index": 0,
+          "native_32_named_fields_preserved": true,
+          "source_end_bit": 207824,
+          "source_start_bit": 206563,
+          "target_end_bit": 207848,
+          "target_start_bit": 206563
+        },
+        {
+          "current_final_widths": [
+            1,
+            31
+          ],
+          "independent_current_native_identity_and_end_exact": true,
+          "index": 1,
+          "native_32_named_fields_preserved": true,
+          "source_end_bit": 209464,
+          "source_start_bit": 207824,
+          "target_end_bit": 209512,
+          "target_start_bit": 207848
+        },
+        {
+          "current_final_widths": [
+            1,
+            31
+          ],
+          "independent_current_native_identity_and_end_exact": true,
+          "index": 2,
+          "native_32_named_fields_preserved": true,
+          "source_end_bit": 210752,
+          "source_start_bit": 209464,
+          "target_end_bit": 210824,
+          "target_start_bit": 209512
+        },
+        {
+          "current_final_widths": [
+            1,
+            31
+          ],
+          "independent_current_native_identity_and_end_exact": true,
+          "index": 3,
+          "native_32_named_fields_preserved": true,
+          "source_end_bit": 212942,
+          "source_start_bit": 210752,
+          "target_end_bit": 213038,
+          "target_start_bit": 210824
+        },
+        {
+          "current_final_widths": [
+            1,
+            31
+          ],
+          "independent_current_native_identity_and_end_exact": true,
+          "index": 4,
+          "native_32_named_fields_preserved": true,
+          "source_end_bit": 215665,
+          "source_start_bit": 212942,
+          "target_end_bit": 215785,
+          "target_start_bit": 213038
+        }
+      ],
+      "replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "saved_span_receipt_agrees": true,
+      "source_member_sha256": "2902a33a450491e8717a8006cef4627f2c12d1c0b854fc4f698dc1de0ade9640"
+    },
+    {
+      "actual_header_build": 39445,
+      "converted_member_saved": false,
+      "converter": {
+        "MapInfo_records": 6,
+        "added_bits_per_record": 24,
+        "added_bytes": 18,
+        "all_native_field_comparisons": 1506,
+        "all_non_count_tokens_and_outside_bits_exact": true,
+        "converted_member_bytes": 38888,
+        "converted_member_sha256": "6d7cfeb657c87f17b79cf9b0d25ba8274f276134c1c62fe83009befd959cd42e",
+        "inverse_whole_member_bytes_exact": true,
+        "named_root_field_comparisons": 192,
+        "nonempty_permissions_supported": false,
+        "profile": "legacy-empty-mapinfo-count7-to-native31-v1",
+        "raw_author_account_player_values_emitted": false,
+        "source_id": "authenticated39445",
+        "source_member_bytes": 38870,
+        "source_member_sha256": "4deae39a1656618254667ae161b6dec0e7173a0e6e9dedb365ca5cce319adbc1",
+        "unchanged_current_native_32_field_destination_values_and_bounds_exact": true,
+        "whole_replay_upgrade_or_historical_schema_authenticated": false
+      },
+      "fresh_historical_baseline_exact": true,
+      "id": "authenticated39445",
+      "official_schema_sha256": "0898b2e8608c58b24a4a8f71585af7a028a0265d4d61a8074c124de97a577148",
+      "records": [
+        {
+          "current_final_widths": [
+            1,
+            31
+          ],
+          "independent_current_native_identity_and_end_exact": true,
+          "index": 0,
+          "native_32_named_fields_preserved": true,
+          "source_end_bit": 192832,
+          "source_start_bit": 191599,
+          "target_end_bit": 192856,
+          "target_start_bit": 191599
+        },
+        {
+          "current_final_widths": [
+            1,
+            31
+          ],
+          "independent_current_native_identity_and_end_exact": true,
+          "index": 1,
+          "native_32_named_fields_preserved": true,
+          "source_end_bit": 194448,
+          "source_start_bit": 192832,
+          "target_end_bit": 194496,
+          "target_start_bit": 192856
+        },
+        {
+          "current_final_widths": [
+            1,
+            31
+          ],
+          "independent_current_native_identity_and_end_exact": true,
+          "index": 2,
+          "native_32_named_fields_preserved": true,
+          "source_end_bit": 195712,
+          "source_start_bit": 194448,
+          "target_end_bit": 195784,
+          "target_start_bit": 194496
+        },
+        {
+          "current_final_widths": [
+            1,
+            31
+          ],
+          "independent_current_native_identity_and_end_exact": true,
+          "index": 3,
+          "native_32_named_fields_preserved": true,
+          "source_end_bit": 197878,
+          "source_start_bit": 195712,
+          "target_end_bit": 197974,
+          "target_start_bit": 195784
+        },
+        {
+          "current_final_widths": [
+            1,
+            31
+          ],
+          "independent_current_native_identity_and_end_exact": true,
+          "index": 4,
+          "native_32_named_fields_preserved": true,
+          "source_end_bit": 199662,
+          "source_start_bit": 197878,
+          "target_end_bit": 199782,
+          "target_start_bit": 197974
+        },
+        {
+          "current_final_widths": [
+            1,
+            31
+          ],
+          "independent_current_native_identity_and_end_exact": true,
+          "index": 5,
+          "native_32_named_fields_preserved": true,
+          "source_end_bit": 202041,
+          "source_start_bit": 199662,
+          "target_end_bit": 202185,
+          "target_start_bit": 199782
+        }
+      ],
+      "replay_sha256": "32803cf56e4377a18ea74c908af3d840637faeb7803aaca943f8807ade70ba87",
+      "saved_span_receipt_agrees": true,
+      "source_member_sha256": "4deae39a1656618254667ae161b6dec0e7173a0e6e9dedb365ca5cce319adbc1"
+    }
+  ],
+  "format": "strict-legacy-MapInfo-framing-three-source-proof-v1",
+  "limits": [
+    "Only MapInfo count7zero\u219231zero framing changes; prefix, ClientInfo, registry, matrix and other fields remain their legacy bytes.",
+    "Current native MapInfo destinations are proved; whole-current OnlineStartGameRequest/replay compatibility is not claimed.",
+    "Source/R8/39445 members and all source archives remain unchanged; converted private members exist onlyRAM.",
+    "The39445 diagnostic and the observed legacy profile do not authenticate a whole old native schema.",
+    "Saved original five-header controls are reused bydigest; no header body is reopened."
+  ],
+  "producer_sha256": "de0d47d8e17f641f1d43cc976df7e3291744171a8d915829ce86bff04899a0a8",
+  "source_pins": {
+    "producer/code-test-freeze-v2.json": {
+      "bytes": 1955,
+      "sha256": "e2047698edcba6197806c39a673352e89cc1f746e73e7dd96e81d3dd30bd0886"
+    },
+    "producer/legacy_mapinfo_framing.py": {
+      "bytes": 10457,
+      "sha256": "087965405fa4c97e088b7581c9ffa4d7e384ad45535be859a6d09be10420e2b3"
+    },
+    "producer/test_legacy_mapinfo_framing.py": {
+      "bytes": 11041,
+      "sha256": "c41dd105a7489a80bce60ea26e2257c4e41feb40633ce219d15bae6e67bf1bd3"
+    },
+    "repo/audit_battlelobby_mod_metadata.py": {
+      "bytes": 11881,
+      "sha256": "8dad2d923957cdfc44bec5690fe075c16d6e204651e09cc88cbf8503abcdd7c9"
+    },
+    "repo/battlelobby_arcade_sections.py": {
+      "bytes": 6923,
+      "sha256": "7ab101128268a5a838771760f80a8e3975020ddcaa1d58f12351d21a2190bf27"
+    },
+    "repo/battlelobby_attribute_layer.py": {
+      "bytes": 18596,
+      "sha256": "3faf056fa8123f66e73dd551fcab2fb05fd9ccba5643826ec6835c771672aeee"
+    },
+    "repo/mpq_reader.py": {
+      "bytes": 6231,
+      "sha256": "9e940dae67c5d457483c814e6169e6e5d0a1cc5a1dcfdbd76dcf9026f1fa0033"
+    },
+    "repo/native_clientinfo.py": {
+      "bytes": 12950,
+      "sha256": "e0abd0b674c97b87f6a1510edc08704eebeca0ad9d43ac0537d5eaaa3eb9b202"
+    },
+    "repo/native_mapinfo.py": {
+      "bytes": 8923,
+      "sha256": "b7bd41881c171a606fa3fe5844590e8d935d5ed2e42cb418cd2fcbc859710810"
+    },
+    "repo/native_mapinfo_schema_98348.json": {
+      "bytes": 45724,
+      "sha256": "3900a63c0799474becd2ecfb03eece4f8c523a965b38e539264867d5cdf2075c"
+    },
+    "saved_legacy_span_proof": {
+      "bytes": 16237,
+      "sha256": "de29dfe84d6906fda09768c7e545d8c1053e641e44d21372692b0f45d6529477"
+    },
+    "saved_original_header_controls": {
+      "bytes": 32562,
+      "sha256": "1a4b18326303388b12f7d7a72415a5cd8973717954b30154370fb5927727bda3"
+    }
+  }
+}

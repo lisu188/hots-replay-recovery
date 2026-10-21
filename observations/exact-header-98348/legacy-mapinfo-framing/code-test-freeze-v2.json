@@ -1,0 +1,54 @@
+{
+  "format": "strict-legacy-MapInfo-framing-code-test-freeze-v2",
+  "allowlisted_files": [
+    {
+      "name": "legacy_mapinfo_framing.py",
+      "bytes": 10457,
+      "sha256": "087965405fa4c97e088b7581c9ffa4d7e384ad45535be859a6d09be10420e2b3"
+    },
+    {
+      "name": "test_legacy_mapinfo_framing.py",
+      "bytes": 11041,
+      "sha256": "c41dd105a7489a80bce60ea26e2257c4e41feb40633ce219d15bae6e67bf1bd3"
+    }
+  ],
+  "current_dependencies": [
+    {
+      "name": "native_mapinfo.py",
+      "bytes": 8923,
+      "sha256": "b7bd41881c171a606fa3fe5844590e8d935d5ed2e42cb418cd2fcbc859710810"
+    },
+    {
+      "name": "native_mapinfo_schema_98348.json",
+      "bytes": 45724,
+      "sha256": "3900a63c0799474becd2ecfb03eece4f8c523a965b38e539264867d5cdf2075c"
+    },
+    {
+      "name": "native_clientinfo.py",
+      "bytes": 12950,
+      "sha256": "e0abd0b674c97b87f6a1510edc08704eebeca0ad9d43ac0537d5eaaa3eb9b202"
+    },
+    {
+      "name": "battlelobby_attribute_layer.py",
+      "bytes": 18596,
+      "sha256": "3faf056fa8123f66e73dd551fcab2fb05fd9ccba5643826ec6835c771672aeee"
+    }
+  ],
+  "baseline_span_receipt_sha256": "de29dfe84d6906fda09768c7e545d8c1053e641e44d21372692b0f45d6529477",
+  "focused_synthetic_tests": 23,
+  "failures": 0,
+  "errors": 0,
+  "skips": 0,
+  "real_input_reads_in_this_code_test_stage": 0,
+  "actual_three_case_converter_proof_pending": true,
+  "converted_bytes_RAM_only": true,
+  "profile": "legacy-empty-mapinfo-count7-to-native31-v1",
+  "limits": [
+    "Three exact original/R8/39445 member hashes only; all permission counts must be zero.",
+    "Not a whole replay upgrade or authenticated historical native schema.",
+    "No ClientInfo values or additional36current-only bits are defaulted."
+  ],
+  "target_bounds_before_target_hash": true,
+  "superseded_freeze_sha256": "e7a2ce657bf431ed01dd0e746f63faa01a0f6c4720928933860b391a084f72d0",
+  "prior_frozen_source_and_test_retained_locally_as_v1_snapshots": true
+}

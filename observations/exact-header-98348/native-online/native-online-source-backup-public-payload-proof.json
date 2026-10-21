@@ -1,0 +1,642 @@
+{
+  "all_range_commits": [
+    "e3e9ac8a7ab59e6292fd2522e60237cf05fc51eb",
+    "404702a448c2a86cc32c8b55e903b0aeb645652a",
+    "5ad01312db09b384da0dc26c1e622e2f30cf8dda"
+  ],
+  "checked_at_utc": "2026-10-19T05:35:38.212475+00:00",
+  "errors": [],
+  "format": "hots-native-online-source-only-public-payload-proof-v1",
+  "producer_sha256": "3e310036796e6af17df4dadc1239ac887f9934f73e258d63426b474a3c362b09",
+  "public_exact_byte_verification_complete": true,
+  "published_blob_states_required": 62,
+  "published_blob_states_verified": 62,
+  "raw_replay_header_PE_dump_or_private_record_uploaded": false,
+  "required_base_commit": "4531b643c5b46398f0ffae9558e50538b4319170",
+  "review_plan_sha256": "84402a41656d426d836fc8708666a05c4e345074565c27f96099123e87466433",
+  "source_commit": "5ad01312db09b384da0dc26c1e622e2f30cf8dda",
+  "upload_performed": false,
+  "verified_blob_states": [
+    {
+      "HTTP_status": 200,
+      "bytes": 1114,
+      "commit": "404702a448c2a86cc32c8b55e903b0aeb645652a",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "5f78cac36393d3ba0b3c721d421a531277d0fa3b",
+      "git_path": ".gitattributes",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/404702a448c2a86cc32c8b55e903b0aeb645652a/.gitattributes",
+      "sha256": "3d32c0b643ea899c61bca8ce9f5a6ba35409c40590dd77346934f5387abcf08e"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 13303,
+      "commit": "404702a448c2a86cc32c8b55e903b0aeb645652a",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "2ea5e663eb4869add78f8111083d0046def17443",
+      "git_path": ".github/workflows/offline-regressions.yml",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/404702a448c2a86cc32c8b55e903b0aeb645652a/.github/workflows/offline-regressions.yml",
+      "sha256": "e0bf923731e4ca6d65c51fcd1d490c40131ea284f79d2c1856988b80fbda83d3"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 59638,
+      "commit": "404702a448c2a86cc32c8b55e903b0aeb645652a",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "e5e6999f6a8ade0f4137f3650ac0654ada8c2d3a",
+      "git_path": "AGENTS.md",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/404702a448c2a86cc32c8b55e903b0aeb645652a/AGENTS.md",
+      "sha256": "4f48c02a7456c728899eb0fe9376a18b4d863461d232df69cd12b7462cbc4abd"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 3250,
+      "commit": "404702a448c2a86cc32c8b55e903b0aeb645652a",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "17d9b690b488e3bd9195c2c63f711c136e603cd2",
+      "git_path": "docs/NATIVE_ONLINE_STARTGAME_2026-10-19.md",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/404702a448c2a86cc32c8b55e903b0aeb645652a/docs/NATIVE_ONLINE_STARTGAME_2026-10-19.md",
+      "sha256": "a38b811f206bf8918eff08fefdc6d2816ef7268840949891fc7bbc472d34e6dc"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 12906,
+      "commit": "404702a448c2a86cc32c8b55e903b0aeb645652a",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "c9c6c823a6fcd275f04e49ae5e68eb6566cfe877",
+      "git_path": "native_startgame.py",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/404702a448c2a86cc32c8b55e903b0aeb645652a/native_startgame.py",
+      "sha256": "4a77f974d439f8f44eaac9afd8d4de99a8b6e12e96464f82fa7daf0e6aefd543"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 125279,
+      "commit": "404702a448c2a86cc32c8b55e903b0aeb645652a",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "9ca9a7b53e329cbf634de9ca3810bacf6abdbd2f",
+      "git_path": "native_startgame_schema_98348.json",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/404702a448c2a86cc32c8b55e903b0aeb645652a/native_startgame_schema_98348.json",
+      "sha256": "0fd61c8ef3b0aeef647912fd9e35308e70c39da9e2980004d06b1b92e0c96640"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 1426,
+      "commit": "404702a448c2a86cc32c8b55e903b0aeb645652a",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "4bc5f4027506657c0912a8294d5f685acd4f0ca4",
+      "git_path": "observations/exact-header-98348/native-online/native-online-portable-frozen-receipt.json",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/404702a448c2a86cc32c8b55e903b0aeb645652a/observations/exact-header-98348/native-online/native-online-portable-frozen-receipt.json",
+      "sha256": "c36e87f03b9d746a3c830d903a95ffc83c987b73bd4f3fb2fc1ef79876628ca9"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 130257,
+      "commit": "404702a448c2a86cc32c8b55e903b0aeb645652a",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "01340a9036cbdd7e797087bc2b6f1033828aeb4f",
+      "git_path": "observations/exact-header-98348/native-online/native-online-startgame-21case-binding.json",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/404702a448c2a86cc32c8b55e903b0aeb645652a/observations/exact-header-98348/native-online/native-online-startgame-21case-binding.json",
+      "sha256": "756a5ab92f7910a7e217a884d0609375b6ae050d169935b58b58de9147f357f1"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 3489,
+      "commit": "404702a448c2a86cc32c8b55e903b0aeb645652a",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "653ff2f8c4909fd09b12b425917acd9b09928574",
+      "git_path": "observations/exact-header-98348/native-online/publication-bindings.json",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/404702a448c2a86cc32c8b55e903b0aeb645652a/observations/exact-header-98348/native-online/publication-bindings.json",
+      "sha256": "49788a601ca01cc0856037af642f1d880991372e2b5e6d2d69427fbcf7c2f80a"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 12002,
+      "commit": "404702a448c2a86cc32c8b55e903b0aeb645652a",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "a0ffc5b84a6f7e89d9f639ae05a6d1670959d54d",
+      "git_path": "research/exact-header-98348/native-online/bind_native_startgame_controls.py",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/404702a448c2a86cc32c8b55e903b0aeb645652a/research/exact-header-98348/native-online/bind_native_startgame_controls.py",
+      "sha256": "fcd530536d262c75a3677cadc535d182187a77a45d956356fe43d31dc6ee735c"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 1772,
+      "commit": "404702a448c2a86cc32c8b55e903b0aeb645652a",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "277983a6202ae9a0c1ca20548ec269ac1406a268",
+      "git_path": "research/exact-header-98348/native-online/project_native_online_start.py",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/404702a448c2a86cc32c8b55e903b0aeb645652a/research/exact-header-98348/native-online/project_native_online_start.py",
+      "sha256": "b5ba6507ae8ba0a4631b81de61c895b9181e3d6b3b2d33bc3f8a06f94037ccae"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 15736,
+      "commit": "404702a448c2a86cc32c8b55e903b0aeb645652a",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "3f8f13a9a7e3fe5c83105345a76a24bf84f648a9",
+      "git_path": "test_native_startgame.py",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/404702a448c2a86cc32c8b55e903b0aeb645652a/test_native_startgame.py",
+      "sha256": "e9ee35f9b5774ce6307e7697185e88eee6797299e2b921e87e8e4ac88f412173"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 60760,
+      "commit": "5ad01312db09b384da0dc26c1e622e2f30cf8dda",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "8bd416c944101ed4214036a5ef8acd9a8e5a43b8",
+      "git_path": "AGENTS.md",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/5ad01312db09b384da0dc26c1e622e2f30cf8dda/AGENTS.md",
+      "sha256": "b6cbe870e6eaf7b16f70512c65e20ececc5dd5f87a369cb7ec0f21a56764062c"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 3947,
+      "commit": "5ad01312db09b384da0dc26c1e622e2f30cf8dda",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "5ddce604c80cf7fdf3b77195fd7f34dfaef5b48a",
+      "git_path": "docs/OFFLINE_CATALOG_AND_NATIVE_REVIEW_2026-10-19.md",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/5ad01312db09b384da0dc26c1e622e2f30cf8dda/docs/OFFLINE_CATALOG_AND_NATIVE_REVIEW_2026-10-19.md",
+      "sha256": "5a3754be08cb4611f6dc9f481b938955c82d2b75064515f7dab839aa40ee7370"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 4283,
+      "commit": "5ad01312db09b384da0dc26c1e622e2f30cf8dda",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "dbd1e9cfddff4b4e32e6d9f376c5aa11a01babda",
+      "git_path": "observations/exact-header-98348/EU-Dragon-new-route/current-EU-Dragon-new-route-observation.json",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/5ad01312db09b384da0dc26c1e622e2f30cf8dda/observations/exact-header-98348/EU-Dragon-new-route/current-EU-Dragon-new-route-observation.json",
+      "sha256": "6c80d0b64ccc7de5f4aa9fa724979fa523d24dfd69da82523a3c8badb9f8cf39"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 2060,
+      "commit": "5ad01312db09b384da0dc26c1e622e2f30cf8dda",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "b3e2ac2f17b20f6e86aa13b88a0dd0453a0d4516",
+      "git_path": "observations/exact-header-98348/EU-Dragon-new-route/currentEUDragon-new-route-frozen-receipt.json",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/5ad01312db09b384da0dc26c1e622e2f30cf8dda/observations/exact-header-98348/EU-Dragon-new-route/currentEUDragon-new-route-frozen-receipt.json",
+      "sha256": "59ebcf7ddb6f4eb69288d1724f296008ae76211e1c8c27f417051dccd855d8df"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 17000,
+      "commit": "5ad01312db09b384da0dc26c1e622e2f30cf8dda",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "614917afff0a98f09456ba745e8506869c6b90e8",
+      "git_path": "observations/exact-header-98348/EU-Dragon-new-route/route-ledger.json",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/5ad01312db09b384da0dc26c1e622e2f30cf8dda/observations/exact-header-98348/EU-Dragon-new-route/route-ledger.json",
+      "sha256": "597d4f9f0fb1385962d9f182941b769edb197a7484c208b0940014b41c2fdbe4"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 8201,
+      "commit": "5ad01312db09b384da0dc26c1e622e2f30cf8dda",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "6a0af3c2cc931804c6e9cd6fee727244d31ed6c9",
+      "git_path": "observations/exact-header-98348/legacy-empty-permission-design/README.md",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/5ad01312db09b384da0dc26c1e622e2f30cf8dda/observations/exact-header-98348/legacy-empty-permission-design/README.md",
+      "sha256": "37d018a3d221f4a1b48242e0da6efd909fea2abacaf533b3d65401d63829c407"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 3051,
+      "commit": "5ad01312db09b384da0dc26c1e622e2f30cf8dda",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "7bcdea7f84f317f946a09ff13e4ff6d33e34f948",
+      "git_path": "observations/exact-header-98348/legacy-empty-permission-design/input-pins.v2.json",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/5ad01312db09b384da0dc26c1e622e2f30cf8dda/observations/exact-header-98348/legacy-empty-permission-design/input-pins.v2.json",
+      "sha256": "cd76e092ad6df3fbc4b10eacf4d3e7d22b56f3cada71fc7074081cfbdbeb9341"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 6150,
+      "commit": "5ad01312db09b384da0dc26c1e622e2f30cf8dda",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "f5000b50780e1732768060dfecc413aa58679b5b",
+      "git_path": "observations/exact-header-98348/legacy-empty-permission-design/legacy-empty-permission-conversion-design-review-v2.json",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/5ad01312db09b384da0dc26c1e622e2f30cf8dda/observations/exact-header-98348/legacy-empty-permission-design/legacy-empty-permission-conversion-design-review-v2.json",
+      "sha256": "573577d2dd3551c27717b54aa2afd5bb7cd48839254aaaf1445800bb64ec368a"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 2204,
+      "commit": "5ad01312db09b384da0dc26c1e622e2f30cf8dda",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "206115b8e6b8be814577b1b6b81d0492ed5260ed",
+      "git_path": "observations/exact-header-98348/legacy-empty-permission-design/legacy-empty-permission-design-frozen-receipt.json",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/5ad01312db09b384da0dc26c1e622e2f30cf8dda/observations/exact-header-98348/legacy-empty-permission-design/legacy-empty-permission-design-frozen-receipt.json",
+      "sha256": "cd691a150b2d5ebaa76bf857c5f5f6d8acb2019bb354546d92ca2ace688b0bab"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 2307,
+      "commit": "5ad01312db09b384da0dc26c1e622e2f30cf8dda",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "d757e842532d5846cc998b3e5f0f696937709f8f",
+      "git_path": "observations/exact-header-98348/native-online-review/native-online-independent-frozen-receipt.json",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/5ad01312db09b384da0dc26c1e622e2f30cf8dda/observations/exact-header-98348/native-online-review/native-online-independent-frozen-receipt.json",
+      "sha256": "594085507ce2aa225eebf64adb1976d0b99df6e4162c0a45a8230aef2f8bd676"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 4538,
+      "commit": "5ad01312db09b384da0dc26c1e622e2f30cf8dda",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "2293416c7f5f102b4dc2e8a783e2fb8275453e24",
+      "git_path": "observations/exact-header-98348/native-online-review/native-online-independent-review.json",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/5ad01312db09b384da0dc26c1e622e2f30cf8dda/observations/exact-header-98348/native-online-review/native-online-independent-review.json",
+      "sha256": "da113f669ee525bb17a629d38959508ced9d88f14da42d2f7fcc5f00f2f60697"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 3585,
+      "commit": "5ad01312db09b384da0dc26c1e622e2f30cf8dda",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "354bd48babdc11de0b578327d2870c9121c41c11",
+      "git_path": "observations/exact-header-98348/native-online/complete-offline-935-native-online-CI.json",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/5ad01312db09b384da0dc26c1e622e2f30cf8dda/observations/exact-header-98348/native-online/complete-offline-935-native-online-CI.json",
+      "sha256": "796da323a3d838181e751ea2dfdbb22d745559f142236b87d3291dd9f72074cf"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 745,
+      "commit": "5ad01312db09b384da0dc26c1e622e2f30cf8dda",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "c97c756dbd805944a1604fdece60b127305b9b1f",
+      "git_path": "observations/exact-header-98348/native-online/official-target-after-native-online.json",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/5ad01312db09b384da0dc26c1e622e2f30cf8dda/observations/exact-header-98348/native-online/official-target-after-native-online.json",
+      "sha256": "1c30df1228346f2d279dd86d3028ff9bc8aee2a945aa9848cf077b75b07a3400"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 15202,
+      "commit": "5ad01312db09b384da0dc26c1e622e2f30cf8dda",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "3e0f40574362472819bbf00d49ea7f1c6c969a4e",
+      "git_path": "observations/exact-header-98348/native-online/research-publication-bindings.json",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/5ad01312db09b384da0dc26c1e622e2f30cf8dda/observations/exact-header-98348/native-online/research-publication-bindings.json",
+      "sha256": "6054209653e233dd8660eb257b4bb548418b2d0f83ef03abf5cba213ae2cc6ba"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 18786,
+      "commit": "5ad01312db09b384da0dc26c1e622e2f30cf8dda",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "b7e1e7cf1463d0ac6de8bf8b54b21d509ec31044",
+      "git_path": "observations/exact-header-98348/native-parent-tail/cached-native-lobby-parent-and-anchor-study.json",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/5ad01312db09b384da0dc26c1e622e2f30cf8dda/observations/exact-header-98348/native-parent-tail/cached-native-lobby-parent-and-anchor-study.json",
+      "sha256": "668b286ee62c3e2af8489f78a57f899cc6f41c269edf8df76c861183bc4f8f4c"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 15972,
+      "commit": "5ad01312db09b384da0dc26c1e622e2f30cf8dda",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "9fc527919f0a1f8d87409e4bf0bcb110e9a61618",
+      "git_path": "observations/exact-header-98348/native-parent-tail/current-native-tail-layout-and-observed-profile-constraints-v2.json",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/5ad01312db09b384da0dc26c1e622e2f30cf8dda/observations/exact-header-98348/native-parent-tail/current-native-tail-layout-and-observed-profile-constraints-v2.json",
+      "sha256": "8e98282f3e1ad1a1211eca5d990c5838583787240317963a66dabe93c6837aa9"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 33053,
+      "commit": "5ad01312db09b384da0dc26c1e622e2f30cf8dda",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "3e358dc8199b9c05a36cd3b9c4477d0be27b5305",
+      "git_path": "observations/exact-header-98348/native-parent-tail/native-lobby-parent-selected-records.json",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/5ad01312db09b384da0dc26c1e622e2f30cf8dda/observations/exact-header-98348/native-parent-tail/native-lobby-parent-selected-records.json",
+      "sha256": "014321ebb434653a6a202604e21a3c723a5b14ec07eb481c5e83879f1c8b33e1"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 5458,
+      "commit": "5ad01312db09b384da0dc26c1e622e2f30cf8dda",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "bbd029443912d87b64b873aa068b9d42f1fa7259",
+      "git_path": "observations/exact-header-98348/native-parent-tail/native-online-USDragon-probe.json",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/5ad01312db09b384da0dc26c1e622e2f30cf8dda/observations/exact-header-98348/native-parent-tail/native-online-USDragon-probe.json",
+      "sha256": "8756c55d21cb0fe93aa44c9711ec2fc5f972579b3fe39c6020d45c9c970c0d76"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 1661,
+      "commit": "5ad01312db09b384da0dc26c1e622e2f30cf8dda",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "5bfd52cf4a22495ee2fb0cb5b837b8ee5aedfb21",
+      "git_path": "observations/exact-header-98348/native-parent-tail/native-parent-tail-layout-frozen-receipt.json",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/5ad01312db09b384da0dc26c1e622e2f30cf8dda/observations/exact-header-98348/native-parent-tail/native-parent-tail-layout-frozen-receipt.json",
+      "sha256": "9711ca0235cc5cd1bc9dcdf7910c139ce4bb68cb377c33b795a53e9c62dc1d5a"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 3559,
+      "commit": "5ad01312db09b384da0dc26c1e622e2f30cf8dda",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "cac9c49135d8a93ecd219f4f93412356b79c4f33",
+      "git_path": "observations/exact-header-98348/source-unit-lifecycles/README_SOURCE_GAP_LIFECYCLES.md",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/5ad01312db09b384da0dc26c1e622e2f30cf8dda/observations/exact-header-98348/source-unit-lifecycles/README_SOURCE_GAP_LIFECYCLES.md",
+      "sha256": "44e0dac1fab9256c65dde84b254cd4f57a09eba4ad40d33297510afa5bb8a6c0"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 946,
+      "commit": "5ad01312db09b384da0dc26c1e622e2f30cf8dda",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "39819f42eca1a3a4db6a16fabaec13c6d0b07b93",
+      "git_path": "observations/exact-header-98348/source-unit-lifecycles/source-gap-lifecycles-frozen-receipt.json",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/5ad01312db09b384da0dc26c1e622e2f30cf8dda/observations/exact-header-98348/source-unit-lifecycles/source-gap-lifecycles-frozen-receipt.json",
+      "sha256": "7f8402d1cc54fe702e63c27c4f685c4d5d1b6d54f8299957fde21ef46d23b0d2"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 24304,
+      "commit": "5ad01312db09b384da0dc26c1e622e2f30cf8dda",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "36fc2654b6477bf6d7b512ca50650237a15f962d",
+      "git_path": "observations/exact-header-98348/source-unit-lifecycles/source-unobserved-unit-lifecycles.json",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/5ad01312db09b384da0dc26c1e622e2f30cf8dda/observations/exact-header-98348/source-unit-lifecycles/source-unobserved-unit-lifecycles.json",
+      "sha256": "eb46626eddc92bffa63f97c9a2c09de9ae8967162e5a2f3dea4449730693e801"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 780,
+      "commit": "5ad01312db09b384da0dc26c1e622e2f30cf8dda",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "cb595d8ae129d2cd0d905bd16e0c46d18f2ee22a",
+      "git_path": "observations/exact-header-98348/startup-catalog-coverage/startup-catalog-coverage-frozen-receipt.json",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/5ad01312db09b384da0dc26c1e622e2f30cf8dda/observations/exact-header-98348/startup-catalog-coverage/startup-catalog-coverage-frozen-receipt.json",
+      "sha256": "a6f17b570e4c7f87812df337abe196c3013c84e74d1b583c0eba796f3c7369cc"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 21851,
+      "commit": "5ad01312db09b384da0dc26c1e622e2f30cf8dda",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "0f2c752037040b4e3a4e5cd4e7b22d6648e565c2",
+      "git_path": "observations/exact-header-98348/startup-catalog-coverage/startup-catalog-current-coverage-review.json",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/5ad01312db09b384da0dc26c1e622e2f30cf8dda/observations/exact-header-98348/startup-catalog-coverage/startup-catalog-current-coverage-review.json",
+      "sha256": "8ad237b10067acf552384df4f5e2b6112d56d7113024a1575ede4dfdc186524e"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 5911,
+      "commit": "5ad01312db09b384da0dc26c1e622e2f30cf8dda",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "5d2fe083e4235446a8fa96b74d754186a8a9f914",
+      "git_path": "research/exact-header-98348/EU-Dragon-new-route/finalize_new_route_observation.py",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/5ad01312db09b384da0dc26c1e622e2f30cf8dda/research/exact-header-98348/EU-Dragon-new-route/finalize_new_route_observation.py",
+      "sha256": "da41478414a499c68369d56d6c8c889613608fd6d04651f8ef524752e3ff4d31"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 5354,
+      "commit": "5ad01312db09b384da0dc26c1e622e2f30cf8dda",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "c92fc3deb4d795ca41ec498d78bb85819b6ba9e9",
+      "git_path": "research/exact-header-98348/EU-Dragon-new-route/probe_27490_dragon_header.py",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/5ad01312db09b384da0dc26c1e622e2f30cf8dda/research/exact-header-98348/EU-Dragon-new-route/probe_27490_dragon_header.py",
+      "sha256": "f676331c73458c518e281f194e5aff071dc6ba288f182df14f3aa25f8fb404e9"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 5434,
+      "commit": "5ad01312db09b384da0dc26c1e622e2f30cf8dda",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "8b57d51e70c02a28afd00d994caa074efa92ae45",
+      "git_path": "research/exact-header-98348/EU-Dragon-new-route/probe_new_primary_route.py",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/5ad01312db09b384da0dc26c1e622e2f30cf8dda/research/exact-header-98348/EU-Dragon-new-route/probe_new_primary_route.py",
+      "sha256": "b9d44d34e6ac57d8c57c10c897795e8818bf93317ab623dd8bb4536c112f7320"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 5271,
+      "commit": "5ad01312db09b384da0dc26c1e622e2f30cf8dda",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "1a494d66767423aaf50a9ecc7bed1a6631865c23",
+      "git_path": "research/exact-header-98348/EU-Dragon-new-route/probe_observed_replay_header.py",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/5ad01312db09b384da0dc26c1e622e2f30cf8dda/research/exact-header-98348/EU-Dragon-new-route/probe_observed_replay_header.py",
+      "sha256": "6c52a0738da6e04da3cdc2ad65cc31de614af780e777b6b7983a6d241c0a65e0"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 5104,
+      "commit": "5ad01312db09b384da0dc26c1e622e2f30cf8dda",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "933c194efe39fc0a16a5beac4968e082652f92c0",
+      "git_path": "research/exact-header-98348/EU-Dragon-new-route/probe_primary_route_first_batch.py",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/5ad01312db09b384da0dc26c1e622e2f30cf8dda/research/exact-header-98348/EU-Dragon-new-route/probe_primary_route_first_batch.py",
+      "sha256": "274e9799592ec08be3a5466eddcdd545911f856fa619c82f334f405e6a60eb6d"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 8549,
+      "commit": "5ad01312db09b384da0dc26c1e622e2f30cf8dda",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "a8c7d11001e5eddc4cf6b102d49d0b9bb37c9a68",
+      "git_path": "research/exact-header-98348/legacy-empty-permission-design/review_legacy_empty_permissions.py",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/5ad01312db09b384da0dc26c1e622e2f30cf8dda/research/exact-header-98348/legacy-empty-permission-design/review_legacy_empty_permissions.py",
+      "sha256": "bd9467917ed86024adb4fd5dad5e940d8d8dc10c7a4ecdfe938199a7f990946f"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 3695,
+      "commit": "5ad01312db09b384da0dc26c1e622e2f30cf8dda",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "499f4be63e5ce140e598615bb0a7f6bce129cd9c",
+      "git_path": "research/exact-header-98348/native-online-review/freeze_review.py",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/5ad01312db09b384da0dc26c1e622e2f30cf8dda/research/exact-header-98348/native-online-review/freeze_review.py",
+      "sha256": "2d1c534d3b410a78c05635b8f680fea5151eb74fb6e2d0e979a76e478ae9dffe"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 14914,
+      "commit": "5ad01312db09b384da0dc26c1e622e2f30cf8dda",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "28113b88f49ba812843b56b0807e4e7000c64696",
+      "git_path": "research/exact-header-98348/native-online-review/review_native_online.py",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/5ad01312db09b384da0dc26c1e622e2f30cf8dda/research/exact-header-98348/native-online-review/review_native_online.py",
+      "sha256": "16bb5a9cc4a8566cacdfaed9261ccdb1f0c6183d99e0a553720ed9939ae0dc91"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 3438,
+      "commit": "5ad01312db09b384da0dc26c1e622e2f30cf8dda",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "1ce82966e9a2fbcc4aa8df6c91f3413fcce025ff",
+      "git_path": "research/exact-header-98348/native-online-review/test_independent_physical_walker.py",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/5ad01312db09b384da0dc26c1e622e2f30cf8dda/research/exact-header-98348/native-online-review/test_independent_physical_walker.py",
+      "sha256": "b1c8b74a19538efa8e57c0f48d3e9ad088d9d0c3ca21a565799394d287e6e39a"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 1313,
+      "commit": "5ad01312db09b384da0dc26c1e622e2f30cf8dda",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "814f6072086d0000656a97323acec7a5dfbb3c7a",
+      "git_path": "research/exact-header-98348/native-online/refresh_online_native_target.py",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/5ad01312db09b384da0dc26c1e622e2f30cf8dda/research/exact-header-98348/native-online/refresh_online_native_target.py",
+      "sha256": "e80329fce3650f6941c40919e706d10531370866982d3e2bfcbe78268d3767cc"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 11325,
+      "commit": "5ad01312db09b384da0dc26c1e622e2f30cf8dda",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "5c4fdb6b62200e35e1d6a240346aaa68515a885d",
+      "git_path": "research/exact-header-98348/native-parent-tail/current_native_tail_layout.py",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/5ad01312db09b384da0dc26c1e622e2f30cf8dda/research/exact-header-98348/native-parent-tail/current_native_tail_layout.py",
+      "sha256": "bb2f5f91c45a4c08c97cd2ad31638d9bc58fa688b419aea06333365460255c1b"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 10392,
+      "commit": "5ad01312db09b384da0dc26c1e622e2f30cf8dda",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "7eeeecac220878dc3cdcbc73dc71344f8d85f18e",
+      "git_path": "research/exact-header-98348/native-parent-tail/study_cached_lobby_parents.py",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/5ad01312db09b384da0dc26c1e622e2f30cf8dda/research/exact-header-98348/native-parent-tail/study_cached_lobby_parents.py",
+      "sha256": "a5fcc7aac5bc781535e226069519d1e23de87a2be813fb312f1ed3c6459ae752"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 3499,
+      "commit": "5ad01312db09b384da0dc26c1e622e2f30cf8dda",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "d5dfd567bb3e79d5d57364cd347662945f43b135",
+      "git_path": "research/exact-header-98348/native-parent-tail/test_current_native_tail_layout.py",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/5ad01312db09b384da0dc26c1e622e2f30cf8dda/research/exact-header-98348/native-parent-tail/test_current_native_tail_layout.py",
+      "sha256": "dc79a3556abebf34f664692a823245b53e3edf5f37a1d90980399c0b02b40571"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 11946,
+      "commit": "5ad01312db09b384da0dc26c1e622e2f30cf8dda",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "9e89b5ada83ac5715ceffb458e606c71380aeff3",
+      "git_path": "research/exact-header-98348/source-unit-lifecycles/inspect_source_gap_lifecycles.py",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/5ad01312db09b384da0dc26c1e622e2f30cf8dda/research/exact-header-98348/source-unit-lifecycles/inspect_source_gap_lifecycles.py",
+      "sha256": "6fab8e01370bd01f8e3321ff10756a18680c681e4e802ecc1b0b7d141336d35c"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 12708,
+      "commit": "5ad01312db09b384da0dc26c1e622e2f30cf8dda",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "bb3fe6bbe2d6cf57b0dee5f4cceb2760ebe79ecf",
+      "git_path": "research/exact-header-98348/startup-catalog-coverage/review_startup_catalog_coverage.py",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/5ad01312db09b384da0dc26c1e622e2f30cf8dda/research/exact-header-98348/startup-catalog-coverage/review_startup_catalog_coverage.py",
+      "sha256": "0f7261c3cd6809e04bfdc96777bbbd2929d5499b11bc7c75ccc12dc70ed67fd9"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 58284,
+      "commit": "e3e9ac8a7ab59e6292fd2522e60237cf05fc51eb",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "83c7e4398aa314828fcf2cb1c3125664f84771e8",
+      "git_path": "AGENTS.md",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/e3e9ac8a7ab59e6292fd2522e60237cf05fc51eb/AGENTS.md",
+      "sha256": "82b347abd463aa2cb279e5f29a8c666c92f9f9be097759867fb01f7d670efd38"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 3398,
+      "commit": "e3e9ac8a7ab59e6292fd2522e60237cf05fc51eb",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "568087b8a71aa5c2a2e74efb6af99016b4dc78bb",
+      "git_path": "docs/ORIGINAL_HEADER_MAPINFO_2026-10-19.md",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/e3e9ac8a7ab59e6292fd2522e60237cf05fc51eb/docs/ORIGINAL_HEADER_MAPINFO_2026-10-19.md",
+      "sha256": "06c73934155ccb5f4408988581e3e18fa940b6688943b438ab55ea90fb31768d"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 4037,
+      "commit": "e3e9ac8a7ab59e6292fd2522e60237cf05fc51eb",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "70761a812769ef9cbad5bc5f75625792f0b8ac42",
+      "git_path": "observations/exact-header-98348/native-mapinfo/CI-backup-original-header-publication-bindings.json",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/e3e9ac8a7ab59e6292fd2522e60237cf05fc51eb/observations/exact-header-98348/native-mapinfo/CI-backup-original-header-publication-bindings.json",
+      "sha256": "1afc021de00c30ae5dfd4c97be208169dac80f694025550b26f8dccf5e5d3894"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 3340,
+      "commit": "e3e9ac8a7ab59e6292fd2522e60237cf05fc51eb",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "8f6498f87bf7155c0a078953b8cce769c1c28972",
+      "git_path": "observations/exact-header-98348/native-mapinfo/complete-offline-921-native-MapInfo-CI.json",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/e3e9ac8a7ab59e6292fd2522e60237cf05fc51eb/observations/exact-header-98348/native-mapinfo/complete-offline-921-native-MapInfo-CI.json",
+      "sha256": "227d3dfa8e5399677b1166a1eb701880f3885d80045ea184572b38be376c1773"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 13373,
+      "commit": "e3e9ac8a7ab59e6292fd2522e60237cf05fc51eb",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "7e198653fe76acfe02e2970c609c901d61193e8d",
+      "git_path": "observations/exact-header-98348/native-mapinfo/native-mapinfo-source-backup-public-payload-proof.json",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/e3e9ac8a7ab59e6292fd2522e60237cf05fc51eb/observations/exact-header-98348/native-mapinfo/native-mapinfo-source-backup-public-payload-proof.json",
+      "sha256": "8680be92ee9b1af4a07d5b54c40fbdc3ceed307fbf2c30bc4779a62c8b0d0bee"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 1125,
+      "commit": "e3e9ac8a7ab59e6292fd2522e60237cf05fc51eb",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "42df1678edbaadba82971d3f5bb102c9c12e10bc",
+      "git_path": "observations/exact-header-98348/native-mapinfo/native-mapinfo-source-only-cloud-backup-verification.json",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/e3e9ac8a7ab59e6292fd2522e60237cf05fc51eb/observations/exact-header-98348/native-mapinfo/native-mapinfo-source-only-cloud-backup-verification.json",
+      "sha256": "7f23035d42ccd19c1b93ceb8f4f0f46f7c5333d28b574379f5ca14e7ce66d257"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 739,
+      "commit": "e3e9ac8a7ab59e6292fd2522e60237cf05fc51eb",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "c910d54cb12f014b6966440bf24844acf948b783",
+      "git_path": "observations/exact-header-98348/native-mapinfo/official-target-after-MapInfo.json",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/e3e9ac8a7ab59e6292fd2522e60237cf05fc51eb/observations/exact-header-98348/native-mapinfo/official-target-after-MapInfo.json",
+      "sha256": "b3ea1e635b00ef00485655c71211ffd0093bbbd8ff17b3b60480ec54acad81c1"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 32562,
+      "commit": "e3e9ac8a7ab59e6292fd2522e60237cf05fc51eb",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "e8f628acd951f8cc7402f3865a5d8125d6c627f7",
+      "git_path": "observations/exact-header-98348/original-header-mapinfo/original41810-cached-header-MapInfo-evidence.json",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/e3e9ac8a7ab59e6292fd2522e60237cf05fc51eb/observations/exact-header-98348/original-header-mapinfo/original41810-cached-header-MapInfo-evidence.json",
+      "sha256": "1a4b18326303388b12f7d7a72415a5cd8973717954b30154370fb5927727bda3"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 2500,
+      "commit": "e3e9ac8a7ab59e6292fd2522e60237cf05fc51eb",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "7fa81e0f71f74ff698a7b24632c5c80336167dab",
+      "git_path": "observations/exact-header-98348/original-header-mapinfo/original41810-header-MapInfo-frozen-receipt.json",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/e3e9ac8a7ab59e6292fd2522e60237cf05fc51eb/observations/exact-header-98348/original-header-mapinfo/original41810-header-MapInfo-frozen-receipt.json",
+      "sha256": "81ebda3327c09c9a0f4ee9695d7c589b1e2aeba49645fdc442a33996751f66a9"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 14087,
+      "commit": "e3e9ac8a7ab59e6292fd2522e60237cf05fc51eb",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "ed1d5eea740ab430f216af0389fd326f98bdc1a7",
+      "git_path": "research/exact-header-98348/original-header-mapinfo/assess_original_header_mapinfo.py",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/e3e9ac8a7ab59e6292fd2522e60237cf05fc51eb/research/exact-header-98348/original-header-mapinfo/assess_original_header_mapinfo.py",
+      "sha256": "ace17756bdd8355abf2b4cbe79b264648f135a3fbf26bca0aa6dd2211f57fba4"
+    },
+    {
+      "HTTP_status": 200,
+      "bytes": 1903,
+      "commit": "e3e9ac8a7ab59e6292fd2522e60237cf05fc51eb",
+      "exact_public_bytes_and_git_identity_verified": true,
+      "git_blob_sha1": "b8338f89e41396a26c7b37b4edc4e762ce45f17a",
+      "git_path": "research/exact-header-98348/original-header-mapinfo/test_original_header_mapinfo.py",
+      "public_url": "https://raw.githubusercontent.com/lisu188/hots-replay-recovery/e3e9ac8a7ab59e6292fd2522e60237cf05fc51eb/research/exact-header-98348/original-header-mapinfo/test_original_header_mapinfo.py",
+      "sha256": "de23a8d5324a99307f5cf03c10f2c14e951530954c942341288fc7c00d193ac6"
+    }
+  ],
+  "verified_source_bytes": 884776
+}

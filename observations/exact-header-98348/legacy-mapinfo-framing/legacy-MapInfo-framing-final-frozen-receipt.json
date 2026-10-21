@@ -1,0 +1,66 @@
+{
+  "format": "strict-legacy-MapInfo-framing-final-frozen-receipt-v1",
+  "allowlisted_files": [
+    {
+      "name": "legacy_mapinfo_framing.py",
+      "bytes": 10457,
+      "sha256": "087965405fa4c97e088b7581c9ffa4d7e384ad45535be859a6d09be10420e2b3"
+    },
+    {
+      "name": "test_legacy_mapinfo_framing.py",
+      "bytes": 11041,
+      "sha256": "c41dd105a7489a80bce60ea26e2257c4e41feb40633ce219d15bae6e67bf1bd3"
+    },
+    {
+      "name": "verify_legacy_mapinfo_framing.py",
+      "bytes": 9870,
+      "sha256": "de0d47d8e17f641f1d43cc976df7e3291744171a8d915829ce86bff04899a0a8"
+    },
+    {
+      "name": "legacy-MapInfo-framing-16-record-proof.json",
+      "bytes": 14009,
+      "sha256": "96557a661968afb1b459ec45eb01944681e7f3900c2c460d09eaa1c83c0b5db7"
+    },
+    {
+      "name": "code-test-freeze-v2.json",
+      "bytes": 1955,
+      "sha256": "e2047698edcba6197806c39a673352e89cc1f746e73e7dd96e81d3dd30bd0886"
+    },
+    {
+      "name": "README.md",
+      "bytes": 3889,
+      "sha256": "f4b6420b659c8b5f93444c979fd6c2c11d4da74b9207ebd41b9494baae414a94"
+    }
+  ],
+  "profile": "legacy-empty-mapinfo-count7-to-native31-v1",
+  "authoritative_code_test_freeze_sha256": "e2047698edcba6197806c39a673352e89cc1f746e73e7dd96e81d3dd30bd0886",
+  "code_test_freeze_precedes_actual_proof": true,
+  "focused_synthetic_tests": 23,
+  "failures": 0,
+  "errors": 0,
+  "skips": 0,
+  "actual_guarded_proof_runs": 1,
+  "actual_source_cases": 3,
+  "actual_MapInfo_records": 16,
+  "named_root_field_comparisons": 512,
+  "all_native_field_comparisons": 3888,
+  "inverse_whole_members_byte_exact": 3,
+  "all_other_fields_tokens_and_outside_bits_exact": true,
+  "current_native_destinations_exact": true,
+  "all_before_after_source_guards_unchanged": true,
+  "distinct_replay_input_bytes": 3726042,
+  "replay_read_bytes_including_guards": 7452084,
+  "distinct_replay_input_cap": 4194304,
+  "raw_header_dump_PE_or_network_reads": 0,
+  "converted_member_or_StormReplay_body_writes": 0,
+  "client_repo_or_cloud_used": false,
+  "historical_schema_or_whole_upgrade_claimed": false,
+  "ClientInfo_new_fields_or_permissions_ownership_defaulted": false,
+  "code_independent_review_report_sha256": "6dbd54e115d071240044263de7fbaa8436b19fa92de3d09c2575af4909b5b57e",
+  "independent_review_scope": "Frozen v2 source/tests plus additional synthetic alignment/guard cases; no raw-input reread. Actual saved-proof review is recorded separately if supplied.",
+  "excluded_local_history": [
+    "code-test-freeze.json",
+    "legacy_mapinfo_framing.v1.py",
+    "test_legacy_mapinfo_framing.v1.py"
+  ]
+}

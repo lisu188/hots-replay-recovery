@@ -1,0 +1,32 @@
+{
+  "actual_invariant_checks_passed": true,
+  "evidence_scope": "Saved exact original archive/header receipts, two bounded prior catalog-search ledgers, saved complete current XML projection report and one selected Nova receipt. No asset/replay/XML/PE/cache extraction or client execution.",
+  "executed_producer_bound_to_report": true,
+  "files": [
+    {
+      "bytes": 13411,
+      "relative_path": "review_old_package_routes.py",
+      "sha256": "b58f1db9293a57804415c597c06c2c9a6b4fa63dd2b8b58b66d9aeef0e50c2f7"
+    },
+    {
+      "bytes": 18384,
+      "relative_path": "old-package-catalog-route-review.json",
+      "sha256": "4553b259fc8cac7eb56307f4561901191425a45df1cf360817ecbbbfd51f0e2c"
+    },
+    {
+      "bytes": 4546,
+      "relative_path": "README_OLD_PACKAGE_ROUTES.md",
+      "sha256": "e2361e5b8196368127da7e54d0409da1e3a79a377fa71de140a696a1f8aa9ec1"
+    }
+  ],
+  "format": "old-package-catalog-route-review-frozen-receipt-v1",
+  "limits": [
+    "Archive SHA and cache presence are prior observations, not fresh checks.",
+    "No distinct untried original global-rules archive lead was found in inspected metadata; no universal archive-absence claim.",
+    "Current literal declarations supply no legacy alias, numeric replay link, behavior equivalence or conversion proof."
+  ],
+  "network_requests": 0,
+  "raw_input_rereads": 0,
+  "repo_mutations": false,
+  "unit_tests_run": 0
+}

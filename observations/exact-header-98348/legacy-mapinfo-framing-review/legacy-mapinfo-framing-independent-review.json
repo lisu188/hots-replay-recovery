@@ -1,0 +1,65 @@
+{
+  "actual_proof_scope": {
+    "actual_16_record_proof_recomputed": false,
+    "raw_inputs_reread": false
+  },
+  "additional_independent_synthetic_checks": {
+    "admission_patch_and_shared_budgets_restored": true,
+    "seven_record_case_rejected": true,
+    "six_records_each_start_alignment_0_through7_match_physical_splice_and_whole_inverse": true,
+    "wrong_target_length_rejected_before_target_hash": true
+  },
+  "admission_review": {
+    "all_old_counts_must_be_zero": true,
+    "all_rows_match_hash_pinned_saved_baseline": true,
+    "exact_source_member_digests": 3,
+    "exact_source_record_spans": 16,
+    "only_explicit_profile_admitted": true
+  },
+  "baseline_span_report_sha256": "de29dfe84d6906fda09768c7e545d8c1053e641e44d21372692b0f45d6529477",
+  "code_review": {
+    "24_added_zero_bits_per_record_byte_phase_preserved": "PASS",
+    "all191_current_schema_records_unchanged_except_declared_legacy_bounds": "PASS",
+    "all_non_count_wire_tokens_unchanged": "PASS",
+    "no_current_ClientInfo_values_or_other_default_bits_inserted": "PASS",
+    "prefix_interrecord_suffix_physical_bits_preserved": "PASS",
+    "private_repr_and_safe_aggregate_report": "PASS",
+    "same_all32_named_values_types_and_adjusted_spans": "PASS",
+    "whole_member_inverse": "PASS"
+  },
+  "code_test_freeze_sha256": "e2047698edcba6197806c39a673352e89cc1f746e73e7dd96e81d3dd30bd0886",
+  "explicit_read_accounting": {
+    "explicit_source_metadata_bytes": 251766
+  },
+  "focused_synthetic_tests": {
+    "passed": 23,
+    "run": 23,
+    "skipped": 0
+  },
+  "format": "strict-source-limited-legacy-MapInfo-framing-independent-review-v1",
+  "limits": [
+    "This review opens only source/schema/test/saved metadata files; no replay/header/PE/dump/network/client access or repository edits.",
+    "The actual16 historical records are not reread or independently converted here; any saved producer proof is a separate validation scope.",
+    "The7-bit source count is a data-specific structural interpretation with exact member admission, not an authenticated historical native schema or proof of legacy permission semantics.",
+    "No whole-replay, oldClientInfo or deterministic-simulation compatibility is established."
+  ],
+  "material_findings": [],
+  "native_dependency_sha256s": {
+    "battlelobby_attribute_layer.py": "3faf056fa8123f66e73dd551fcab2fb05fd9ccba5643826ec6835c771672aeee",
+    "native_clientinfo.py": "e0abd0b674c97b87f6a1510edc08704eebeca0ad9d43ac0537d5eaaa3eb9b202",
+    "native_mapinfo.py": "b7bd41881c171a606fa3fe5844590e8d935d5ed2e42cb418cd2fcbc859710810",
+    "native_mapinfo_schema_98348.json": "3900a63c0799474becd2ecfb03eece4f8c523a965b38e539264867d5cdf2075c"
+  },
+  "resolved_findings": [
+    {
+      "finding": "Inverse verification hashed caller-supplied converted bytes before exact-size/cap checks",
+      "historical_conversion_semantics_affected": false,
+      "resolution": "Fail-fast type/exact-length/cap check before SHA, confirmed with independent synthetic hash-call sentinel"
+    }
+  ],
+  "reviewed_source_sha256s": {
+    "legacy_mapinfo_framing.py": "087965405fa4c97e088b7581c9ffa4d7e384ad45535be859a6d09be10420e2b3",
+    "test_legacy_mapinfo_framing.py": "c41dd105a7489a80bce60ea26e2257c4e41feb40633ce219d15bae6e67bf1bd3"
+  },
+  "reviewer_source_sha256": "aebc4478499dd988ac155876a06f5f3a62b64213245cf5084fdb923a901b8fa3"
+}

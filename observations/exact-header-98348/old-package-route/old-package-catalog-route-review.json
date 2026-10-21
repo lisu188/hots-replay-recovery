@@ -1,0 +1,484 @@
+{
+  "Nova_current_literal_properties": {
+    "create_effect_and_actor_or_validator_references": [
+      {
+        "attribute": "value",
+        "node_kind": "PlacementModel",
+        "owner_id": "NovaHoloClonePlacementUnit",
+        "owner_kind": "CActorUnit",
+        "value": "NovaHoloClone"
+      },
+      {
+        "attribute": "id",
+        "node_kind": "CActorUnit",
+        "owner_id": "NovaHoloClone",
+        "owner_kind": "CActorUnit",
+        "value": "NovaHoloClone"
+      },
+      {
+        "attribute": "unitName",
+        "node_kind": "CActorUnit",
+        "owner_id": "NovaHoloClone",
+        "owner_kind": "CActorUnit",
+        "value": "NovaHoloClone"
+      },
+      {
+        "attribute": "value",
+        "node_kind": "SpawnUnit",
+        "owner_id": "NovaHoloCloneCreateUnit",
+        "owner_kind": "CEffectCreateUnit",
+        "value": "NovaHoloClone"
+      },
+      {
+        "attribute": "value",
+        "node_kind": "Value",
+        "owner_id": "CasterIsNotNovaHoloDecoy",
+        "owner_kind": "CValidatorUnitType",
+        "value": "NovaHoloClone"
+      },
+      {
+        "attribute": "value",
+        "node_kind": "Value",
+        "owner_id": "IsNovaHoloClone",
+        "owner_kind": "CValidatorUnitType",
+        "value": "NovaHoloClone"
+      },
+      {
+        "attribute": "value",
+        "node_kind": "Value",
+        "owner_id": "TargetIsNotHoloClone",
+        "owner_kind": "CValidatorUnitType",
+        "value": "NovaHoloClone"
+      },
+      {
+        "attribute": "value",
+        "node_kind": "Value",
+        "owner_id": "CasterIsNotNovaHoloClone",
+        "owner_kind": "CValidatorUnitType",
+        "value": "NovaHoloClone"
+      },
+      {
+        "attribute": "value",
+        "node_kind": "Value",
+        "owner_id": "CasterIsNovaHoloDecoy",
+        "owner_kind": "CValidatorUnitType",
+        "value": "NovaHoloClone"
+      }
+    ],
+    "direct_behavior_ability_weapon_references": [
+      {
+        "attributes": {
+          "Link": "move"
+        },
+        "child_ordinal": 12,
+        "tag": "AbilArray"
+      },
+      {
+        "attributes": {
+          "Link": "HoldFire"
+        },
+        "child_ordinal": 13,
+        "tag": "AbilArray"
+      },
+      {
+        "attributes": {
+          "Link": "attack"
+        },
+        "child_ordinal": 14,
+        "tag": "AbilArray"
+      },
+      {
+        "attributes": {
+          "Link": "NovaSnipeStorm"
+        },
+        "child_ordinal": 15,
+        "tag": "AbilArray"
+      },
+      {
+        "attributes": {
+          "Link": "NovaPinningShot"
+        },
+        "child_ordinal": 16,
+        "tag": "AbilArray"
+      },
+      {
+        "attributes": {
+          "Link": "NovaAttackDummy"
+        },
+        "child_ordinal": 17,
+        "tag": "AbilArray"
+      },
+      {
+        "attributes": {
+          "Link": "NovaPermanentCloak"
+        },
+        "child_ordinal": 18,
+        "tag": "BehaviorArray"
+      },
+      {
+        "attributes": {
+          "Link": "NovaPermanentCloakDisableController"
+        },
+        "child_ordinal": 19,
+        "tag": "BehaviorArray"
+      },
+      {
+        "attributes": {
+          "Link": "ExcellentMana"
+        },
+        "child_ordinal": 20,
+        "tag": "BehaviorArray"
+      },
+      {
+        "attributes": {
+          "Link": "HeroGenericPermanentHallucinationFlag"
+        },
+        "child_ordinal": 21,
+        "tag": "BehaviorArray"
+      },
+      {
+        "attributes": {
+          "Link": "VitalAliasUnitTracker"
+        },
+        "child_ordinal": 22,
+        "tag": "BehaviorArray"
+      },
+      {
+        "attributes": {
+          "Link": "NovaHoloDecoyXPGlobeFinder"
+        },
+        "child_ordinal": 23,
+        "tag": "BehaviorArray"
+      },
+      {
+        "attributes": {
+          "Link": "HoloCloneWeapon"
+        },
+        "child_ordinal": 24,
+        "tag": "WeaponArray"
+      }
+    ],
+    "file": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/novadata/novadata.xml",
+    "id": "NovaHoloClone",
+    "old_Cloaked_unit_definition_available_in_reviewed_receipts": false,
+    "old_to_current_alias_or_equivalent_rules_proven": false,
+    "parent": "StormBasicHeroicUnit",
+    "parent_inheritance_or_behavior_effects_resolved": false,
+    "sha256": "721086138a01ff65659616556ea617c85f968d8bd28ec888fa6397bde0ce113a"
+  },
+  "archive_binding_source_anchors": [
+    {
+      "line": 122,
+      "text": "archive_node,tid,_=named_node(records,node,4376,('m_bnet','m_archiveCacheHandle'));archive_value=helper.NamedVersioned(records).bind(archive_node,tid)"
+    },
+    {
+      "line": 123,
+      "text": "require(handle==infos[index]['m_handle']and archive_value==prefix[index])"
+    }
+  ],
+  "archive_routes": [
+    {
+      "archive_sha256": "1f1b228ddb1f72205cbfd444055287100b0f39959be816548162e4081ea85511",
+      "header_sha256": "565fa52da08615e47c6105dc3036e925e80aa57d12b7bf5fd5c6757b12e7b5bd",
+      "index": 0,
+      "module": "Core",
+      "native_named_archive_equals_original_prefix": true,
+      "new_historical_rules_payload_lead": false,
+      "package_id": 169990,
+      "package_version": 65554,
+      "prior_role": "current_standard_data_redirect",
+      "prior_verified_archive_bytes": 28,
+      "region": "EU",
+      "source_derived_archive_URL_not_freshly_probed": "https://eu-s2-depot.classic.blizzard.com/1f1b228ddb1f72205cbfd444055287100b0f39959be816548162e4081ea85511.s2ma",
+      "standard_data_target": "Core.StormMod"
+    },
+    {
+      "archive_sha256": "1ad94c126eb98a4c1de7b8e6f8aaa153dba52b09d3825e0c89dbc5828db70f76",
+      "header_sha256": "593cb51398ea52786c53e9c86d8f4d217148d452a691b38ef67d2a0d3add2596",
+      "index": 1,
+      "module": "Teams10",
+      "native_named_archive_equals_original_prefix": true,
+      "new_historical_rules_payload_lead": false,
+      "package_id": 170002,
+      "package_version": 65554,
+      "prior_role": "current_standard_data_redirect",
+      "prior_verified_archive_bytes": 31,
+      "region": "EU",
+      "source_derived_archive_URL_not_freshly_probed": "https://eu-s2-depot.classic.blizzard.com/1ad94c126eb98a4c1de7b8e6f8aaa153dba52b09d3825e0c89dbc5828db70f76.s2ma",
+      "standard_data_target": "Teams10.StormMod"
+    },
+    {
+      "archive_sha256": "92d81744c1441bf628ed6ab7e9d19485c860914d8b745a91f6351ff9dcd4e6bb",
+      "header_sha256": "439eab2a4f3f7d224e5820486ab0cc161729f3de3d2d5ce2e80b35dc7eed3a88",
+      "index": 2,
+      "module": "Heroes",
+      "native_named_archive_equals_original_prefix": true,
+      "new_historical_rules_payload_lead": false,
+      "package_id": 169991,
+      "package_version": 65550,
+      "prior_role": "current_standard_data_redirect",
+      "prior_verified_archive_bytes": 30,
+      "region": "EU",
+      "source_derived_archive_URL_not_freshly_probed": "https://eu-s2-depot.classic.blizzard.com/92d81744c1441bf628ed6ab7e9d19485c860914d8b745a91f6351ff9dcd4e6bb.s2ma",
+      "standard_data_target": "Heroes.StormMod"
+    },
+    {
+      "archive_sha256": "a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43",
+      "header_sha256": "b34d0f30dc3b9cf47694982106a04006a49ce43422e02f71ed18b33b7bfcc6c4",
+      "index": 3,
+      "module": "HeroesData",
+      "native_named_archive_equals_original_prefix": true,
+      "new_historical_rules_payload_lead": false,
+      "package_id": 169992,
+      "package_version": 65558,
+      "prior_role": "current_standard_data_redirect",
+      "prior_verified_archive_bytes": 34,
+      "region": "EU",
+      "source_derived_archive_URL_not_freshly_probed": "https://eu-s2-depot.classic.blizzard.com/a1e9abcd3fd25053c903ab1352a6857537284b329d08b86b2be2de49c3ab7f43.s2ma",
+      "standard_data_target": "HeroesData.StormMod"
+    },
+    {
+      "archive_sha256": "e0a58745837b3b5351015c933560dbffb178d747009d2d57b4153ef425cf7250",
+      "header_sha256": "9bdcdbb192244902f650020fa302951b0fd1f5487aad0096df01ddccd7b4acd2",
+      "index": 4,
+      "module": "Dragon Shire",
+      "native_named_archive_equals_original_prefix": true,
+      "new_historical_rules_payload_lead": false,
+      "package_id": 170010,
+      "package_version": 65568,
+      "prior_role": "old_map_archive",
+      "prior_verified_archive_bytes": 2129774,
+      "region": "EU",
+      "source_derived_archive_URL_not_freshly_probed": "https://eu-s2-depot.classic.blizzard.com/e0a58745837b3b5351015c933560dbffb178d747009d2d57b4153ef425cf7250.s2ma",
+      "standard_data_target": null
+    }
+  ],
+  "client_network_repo_or_cloud_mutations": false,
+  "conversion_constraints": [
+    "Monstrosity and the standalone tower retain literal current CUnit declarations, but static name presence supplies neither numeric replay links nor equality of 2016 rules.",
+    "NovaHoloCloneCloaked is absent in the complete saved current XML scope. Current NovaHoloClone explicitly references permanent-cloak-named behaviors and is a create/actor/validator target; no old-to-current alias follows from those literal references.",
+    "No authenticated old Cloaked catalog definition is available here, so actual property changes and equivalence cannot be quantified. Absence does not prove removal from arbitrary binary, server-side or constructed catalogs.",
+    "A simple link remap cannot by itself demonstrate that current simulation reproduces the 2016 match. These findings also do not prove that conversion is impossible."
+  ],
+  "current_unit_evidence": {
+    "cloaked_spelling_globally_removed_proven": false,
+    "declarations": [
+      {
+        "bytes": 3195,
+        "catalog_child_ordinal": 15,
+        "file": "mods/heroes.stormmod/base.stormmaps/maps/heroes/singleplayermaps/startingexperience/tutorial01.stormmap/base.stormdata/gamedata/unitdata.xml",
+        "id": "TownCannonTowerL2Standalone",
+        "kind": "CUnit",
+        "parent": null,
+        "sha256": "f92d0f9a156a828ee81515a96fd87abb187b0250d41f54e88404e4fd0fa679b5"
+      },
+      {
+        "bytes": 2718,
+        "catalog_child_ordinal": 11,
+        "file": "mods/heroes.stormmod/base.stormmaps/maps/heroes/singleplayermaps/startingexperience/tutorialmapmechanics.stormmap/base.stormdata/gamedata/unitdata.xml",
+        "id": "TownCannonTowerL2Standalone",
+        "kind": "CUnit",
+        "parent": null,
+        "sha256": "d174fddbd2bc01acac89069913d344e310a0903efd830700c6bd0ff02103e751"
+      },
+      {
+        "bytes": 311994,
+        "catalog_child_ordinal": 682,
+        "file": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/abathurdata/abathurdata.xml",
+        "id": "AbathurEvolvedMonstrosity",
+        "kind": "CUnit",
+        "parent": "StormSummonActive",
+        "sha256": "b2ecee56c24e3a6e62c904f066f858dd5fb9fa144c2e17af423320efaf9c69e1"
+      },
+      {
+        "bytes": 185225,
+        "catalog_child_ordinal": 443,
+        "file": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/novadata/novadata.xml",
+        "id": "NovaHoloClone",
+        "kind": "CUnit",
+        "parent": "StormBasicHeroicUnit",
+        "sha256": "721086138a01ff65659616556ea617c85f968d8bd28ec888fa6397bde0ce113a"
+      },
+      {
+        "bytes": 188555,
+        "catalog_child_ordinal": 201,
+        "file": "mods/heroesdata.stormmod/base.stormdata/gamedata/unitdata.xml",
+        "id": "TownCannonTowerL2Standalone",
+        "kind": "CUnit",
+        "parent": "StormBaseTownStructure",
+        "sha256": "e313828c13bf3b053abd3d58e5d78da72b111202977f0873617eefbfadc61bd5"
+      },
+      {
+        "bytes": 1462,
+        "catalog_child_ordinal": 4,
+        "file": "mods/heroesmapmods/battlegroundmapmods/dragonshire.stormmod/base.stormdata/gamedata/unitdata.xml",
+        "id": "TownCannonTowerL2Standalone",
+        "kind": "CUnit",
+        "parent": null,
+        "sha256": "871c23230d951d1fd7bf61e57b51cf0d3e0e275c85a00a3bcd794223d9cf4217"
+      },
+      {
+        "bytes": 1038,
+        "catalog_child_ordinal": 3,
+        "file": "mods/heroesmapmods/battlegroundmapmods/gardenofterrordata.stormmod/base.stormdata/gamedata/unitdata.xml",
+        "id": "TownCannonTowerL2Standalone",
+        "kind": "CUnit",
+        "parent": null,
+        "sha256": "19962144abe8564ce1e10935f2f4f098522ba3d0a622b6740bfa25454b03efe7"
+      },
+      {
+        "bytes": 958,
+        "catalog_child_ordinal": 3,
+        "file": "mods/heroesmapmods/battlegroundmapmods/gardenofterrordata_classic.stormmod/base.stormdata/gamedata/unitdata.xml",
+        "id": "TownCannonTowerL2Standalone",
+        "kind": "CUnit",
+        "parent": null,
+        "sha256": "9d3188cbb68262248225c99c828bffccad95cf0c02654d180c1cfb8da64333fa"
+      },
+      {
+        "bytes": 13287,
+        "catalog_child_ordinal": 25,
+        "file": "mods/heroesmapmods/battlegroundmapmods/tombofthespiderqueen.stormmod/base.stormdata/gamedata/unitdata.xml",
+        "id": "TownCannonTowerL2Standalone",
+        "kind": "CUnit",
+        "parent": null,
+        "sha256": "32d25d21a64c8835d7a59b8bb6014acda5c5299694a35d0b25be23607e32d2f6"
+      },
+      {
+        "bytes": 23548,
+        "catalog_child_ordinal": 34,
+        "file": "mods/heroesmapmods/battlegroundmapmods/towersofdoom.stormmod/base.stormdata/gamedata/unitdata.xml",
+        "id": "TownCannonTowerL2Standalone",
+        "kind": "CUnit",
+        "parent": null,
+        "sha256": "ab67e3f8d02c30083db5eeafdb9cc3abbf1fac63be75172fe57bc626ea8a9a0e"
+      }
+    ],
+    "numeric_replay_catalog_links_inferred": false,
+    "results": [
+      {
+        "absent_from_all_projected_XML": true,
+        "declaration_count": 0,
+        "id": "NovaHoloCloneCloaked",
+        "not_seen_in_scanned_XML": true
+      },
+      {
+        "absent_from_all_projected_XML": false,
+        "declaration_count": 1,
+        "id": "NovaHoloClone",
+        "not_seen_in_scanned_XML": false
+      },
+      {
+        "absent_from_all_projected_XML": false,
+        "declaration_count": 1,
+        "id": "AbathurEvolvedMonstrosity",
+        "not_seen_in_scanned_XML": false
+      },
+      {
+        "absent_from_all_projected_XML": false,
+        "declaration_count": 8,
+        "id": "TownCannonTowerL2Standalone",
+        "not_seen_in_scanned_XML": false
+      }
+    ],
+    "scope": "Previously saved complete digest-bound projected gamedata XML inventory; no rescan or raw XML read in this producer.",
+    "source_inventory_XML_files": 5575,
+    "version": "2.57.0.98348"
+  },
+  "format": "original-package-catalog-route-and-current-unit-review-v1",
+  "input_guards": "SHA pins where specified; bounded regular-file reads; size/mtime unchanged after analysis. No fresh raw-asset hash check.",
+  "inputs": [
+    {
+      "bytes": 3705,
+      "label": "cache",
+      "relative_path": "work/native-20261018/original-cache-verification.json",
+      "root": "task",
+      "sha256": "5174a652f4ab1481718881a06fecc294fe52457adff94e9a331bb0ba8b030cee"
+    },
+    {
+      "bytes": 28227,
+      "label": "handles",
+      "relative_path": "work/mod-package-handles-and-realms.json",
+      "root": "task",
+      "sha256": "b4a19eebeb171eb1a1f044ffe740ba39a524bd2c2b2c713f02266d50873e2265"
+    },
+    {
+      "bytes": 32562,
+      "label": "binding",
+      "relative_path": "work/legacy-header-mapinfo-evidence/original41810-cached-header-MapInfo-evidence.json",
+      "root": "task",
+      "sha256": "1a4b18326303388b12f7d7a72415a5cd8973717954b30154370fb5927727bda3"
+    },
+    {
+      "bytes": 14087,
+      "label": "binding_source",
+      "relative_path": "work/legacy-header-mapinfo-evidence/assess_original_header_mapinfo.py",
+      "root": "task",
+      "sha256": "ace17756bdd8355abf2b4cbe79b264648f135a3fbf26bca0aa6dd2211f57fba4"
+    },
+    {
+      "bytes": 2935,
+      "label": "header_acquisition",
+      "relative_path": "work/original-eu-s2mh-acquisition-network.json",
+      "root": "task",
+      "sha256": "59252dc103d3d8516fb876fd5bf81b6212d5c03de7d5d31c5ee9d864f668f11b"
+    },
+    {
+      "bytes": 5925,
+      "label": "search10",
+      "relative_path": "work/legacy-catalog-archives-2016/research-ledger.json",
+      "root": "task",
+      "sha256": "0ee7996db1da297677668c576dfc7c15996d21a5cfe990bb4252ae01f5775732"
+    },
+    {
+      "bytes": 5539,
+      "label": "search6",
+      "relative_path": "work/legacy-build-root-research/catalog-route/legacy-catalog-route-six-operation-ledger.json",
+      "root": "task",
+      "sha256": "c38917400459782f94810b89e9e24a08628420543fee41379095e5e60257e71f"
+    },
+    {
+      "bytes": 205548,
+      "label": "units",
+      "relative_path": "observations/collection-alias-nodes-current-98348.json",
+      "root": "repo",
+      "sha256": "bfbc51bb4c5270cfc13ba5199821795ae4e9dfea9d2ef114a2ba954c5e274bfc"
+    },
+    {
+      "bytes": 6263,
+      "label": "nova_selected_receipt",
+      "relative_path": "work/collection-alias-research/nova-current98348-unit-identity-observation.json",
+      "root": "task",
+      "sha256": "7e6a7b804e401c97e15f1967c4a6e990520d22f520405add50ea500299c08c0f"
+    }
+  ],
+  "metadata_read_bytes_this_producer": 304791,
+  "metadata_read_limit": 2097152,
+  "network_decision": {
+    "bytes": 0,
+    "new_untried_exact_historical_rules_archive_identified": false,
+    "reason": "The five authenticated archive handles already identify four verified Standard Data redirects and one cached old map. Re-requesting those exact objects offers no distinct 41810 global catalog/rules payload. The known NGDP root alone is not an authenticated BuildConfig/CDN route.",
+    "requests": 0
+  },
+  "original": {
+    "build": 41810,
+    "ngdp_root": "83d43a8647bb5ca5caa6f2f09064da55",
+    "raw_replay_or_header_reread": false,
+    "replay_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824"
+  },
+  "prior_bounded_searches": {
+    "all_repositories_branches_or_archives_exhausted": false,
+    "authenticated_41810_BuildConfig_or_CDN_config_route_identified_by_these_receipts": false,
+    "lowest_build_in_133_version_inventory": 76003,
+    "six_operation_ledger_exact41810_snapshot_identified": false,
+    "ten_operation_ledger_exact41810_snapshot_identified": false
+  },
+  "prior_header_acquisition": {
+    "all_HTTP200_and_SHA_verified_in_prior_receipt": true,
+    "bytes": 109373,
+    "depot_route_primary_source": "https://github.com/ggtracker/sc2reader/blob/e10fc9344417d0aa9649e4ed8d6423e38f6af4c9/sc2reader/utils.py",
+    "exact_objects": 5
+  },
+  "producer_sha256": "b58f1db9293a57804415c597c06c2c9a6b4fa63dd2b8b58b66d9aeef0e50c2f7",
+  "raw_assets_replays_XML_headers_PE_or_player_data_read_or_emitted": false
+}

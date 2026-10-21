@@ -25,3 +25,6 @@ native_mapinfo_schema_98348.json -text whitespace=cr-at-eol
 native_startgame.py -text whitespace=cr-at-eol
 test_native_startgame.py -text whitespace=cr-at-eol
 native_startgame_schema_98348.json -text whitespace=cr-at-eol
+
+legacy_mapinfo_framing.py -text whitespace=cr-at-eol
+test_legacy_mapinfo_framing.py -text whitespace=cr-at-eol

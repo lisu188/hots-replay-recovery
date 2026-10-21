@@ -907,3 +907,28 @@ sourcegame/trackerexact. No source rules or deterministic equivalence follows.
 CompleteClientInfo needs36additionalbits beyond count; no guesseddefaults.
 Latest2EUDragonheaderprefixes97771/98025 rejected, no new donor/tuple.
 OfficialEUmanifest2026-10-19T00:00:44UTC98348. No client/newreplay/fullupgrade.
+
+
+## Source-limited MapInfo framing conversion - 2026-10-20
+
+Read docs/LEGACY_MAPINFO_FRAMING_2026-10-20.md and legacy-mapinfo-framing
+receipts. New explicit profile admits exactly3source-memberSHAs/16savedspans.
+Only empty type1828 PermissionList framing count7to31 changes,24addedbits each;
+all other fields/tokens/outside bits preserved. Original5/R8same5/39445six
+actualrecords pass512root/3888allfield comparisons to unchanged currentreader;
+all3wholemember inverses byte-exact.23synthetic tests and independent physical
+splice/alignment/guard review pass. Newfailfast targetbounds guard precedesSHA.
+No ClientInfo's36additional current-onlybits or entitlement values defaulted.
+No rawmember/replay output, no HotS launch, no oldnative schema/fullupgrade claim.
+CI adds actualoriginal5record RAMconversion/inverse JSON; inspect958test/48module
+hosted results before claiming success. Executeddriver is frozen; futureguarded
+copy adds loaded-module hash validation and has no additional actual-run claim.
+
+Source5ad0131 backup verified in existing personalOneDrive project:292415B ZIP,
+SHA256e40f8e3d40b78ab34bf3074c2ff5abd23717097aef49fe99a23cd64aabc8090c,
+38entries,62publicblobstates/884776B exact,3commitdelta from4531b64.
+Fresh cloud size/QuickXor match; no remoteSHA256 claim.11prerequisites retained.
+This new framing source and laterreceipts are outside that older source ZIP.
+Oldpackage metadata supplies no untried distinct globalrules archive route;
+currentXMLspellings/Novareferences do not establish oldalias/ruleequivalence.
+OfficialEUmanifest2026-10-20T06:25:32UTC still2.57.0.98348, same874B/SHA.
