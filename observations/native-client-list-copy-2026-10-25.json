@@ -1,0 +1,216 @@
+{
+  "format": "native-client-list-copy-static-observation-v1",
+  "status": "reviewed-source-evidence-prepared-for-publication",
+  "previous_source_milestone": {
+    "commit": "4817630ad65419b17c0f8121d7ae695651fb16a5",
+    "doc": "NATIVE_CLIENT_LIST_BACKING_2026-10-25.md"
+  },
+  "source_scope": {
+    "build": 98348,
+    "original_PE_bytes": 53573840,
+    "original_PE_sha256_inherited": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+    "selected_bytes_source": "Existing analyst-derived statically transformed text patch, not runtime capture or unaltered on-disk PE text.",
+    "patch_bytes": 36581376,
+    "patch_sha256_inherited": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83",
+    "four_source_identity_guards_match": true,
+    "new_full_hashstream_or_PE_code_bytes": 0
+  },
+  "coverage": {
+    "entry_prior_bytes": 31,
+    "fallthrough_bytes": 982,
+    "self_exit_bytes": 10,
+    "joined_range_RVA": [
+      "0x6B5BA0",
+      "0x6B5F9F"
+    ],
+    "joined_bytes": 1023,
+    "joined_instructions": 196,
+    "first_main_RET": "0x6B5F94",
+    "self_exit_RET": "0x6B5F9E",
+    "all_emitted_bytes_and_boundaries_match_captures": true,
+    "all_six_E8_and_fourteen_continuation_JCC_recomputed": true,
+    "prior_entry_JZ_target": "0x6B5F95",
+    "all_inline_noncall_targets_inside_joined_span": true,
+    "RuntimeFunction_records_are_fragments": true,
+    "external_callee_effects_or_global_CFG_complete": false
+  },
+  "accounting": {
+    "new_pdata_this_continuation": 240,
+    "cap_this_continuation": 512,
+    "prior_pdata": 432,
+    "all_lane_pdata_bytes": 672,
+    "new_patch_this_continuation": 1536,
+    "prior_patch": 423,
+    "all_lane_patch_bytes": 1959,
+    "all_lane_patch_cap": 8192,
+    "self_exit_new_binary_reads": 0,
+    "new_fullhashstream_or_PE_code_reads": 0,
+    "native_payload_this_continuation": 17852,
+    "prior_native_payload": 10000,
+    "all_native_payload": 27852,
+    "native_payload_cap": 49152,
+    "four4field_PE_and_patch_guards_match": true
+  },
+  "conditional_transfer_preconditions": [
+    "Source and destination refer to valid initialized list storage, with counts consistent with the accessible source and destination record ranges.",
+    "Index arithmetic, including count * 0x360 + 8, does not overflow and every selected memory access is valid.",
+    "Called helpers return normally and obey the ordinary ABI, including preservation of nonvolatile registers used by the caller.",
+    "Counts and relevant source bytes stay stable across intervening reads and calls, apart from the destination-count changes described here. The code reloads counts after helpers; an initial-count snapshot is not generally guaranteed.",
+    "Source/destination overlap, helper aliases and callbacks do not change unread source bytes, list headers or object lifetime. Arbitrary overlap-safe snapshot semantics are not proved."
+  ],
+  "count_widths": {
+    "list_copy_helper": "QWORD (64-bit) loads/stores of the container header at base.",
+    "retained_DFE7D0_consumer": "DWORD (32-bit) loads at DFF516 and DFF90C.",
+    "general_equivalence_or_normalization_proven": false
+  },
+  "paths": {
+    "same_pointer": "Entry equality branch goes to 6B5F95; the decoded epilogue returns destination, with no explicit container writes or helper calls on that path.",
+    "existing_records": "Unsigned-minimum loop passes destination+8+i*0x360 and source+8+i*0x360 to 6B9A50 at 6B5BF7. Counts are reloaded after the opaque call. Existing-record field behavior remains unproved here.",
+    "append": "When destination count is below source count, current destination count supplies i. The code constructs the new record at destination+8+i*0x360 from the corresponding source address, increments the 64-bit destination count and repeats while below source count.",
+    "shrink": "When destination count exceeds source count, the code decrements it and invokes cleanup helpers for removed records. Complete destructor and alias effects remain open."
+  },
+  "append_only_fields": [
+    {
+      "name": "m_playerLevel",
+      "native_record_offset": "0x358",
+      "source_load_RVA": "0x6B5EE5",
+      "destination_store_RVA": "0x6B5EEC",
+      "native_transfer_bits": 32,
+      "list_relative_operand_offset": "0x360",
+      "record_base": "list+8+i*0x360",
+      "conclusion": "Direct source DWORD forwarding on the append path, conditional on the listed storage/stability/ABI/alias preconditions."
+    },
+    {
+      "name": "m_hasActiveBoost",
+      "native_record_offset": "0x35C",
+      "source_load_RVA": "0x6B5EF3",
+      "destination_store_RVA": "0x6B5EFB",
+      "native_transfer_bits": 8,
+      "list_relative_operand_offset": "0x364",
+      "record_base": "list+8+i*0x360",
+      "conclusion": "Direct source byte forwarding on the append path. This does not prove Boolean normalization or a missing-field policy."
+    }
+  ],
+  "scope_of_field_proof": "These direct stores cover appended records only. Existing overlapping-count records are delegated to 6B9A50, which is opaque in this milestone. No constructor-default or historical-value assignment follows.",
+  "shared_variant": {
+    "native_record_offset": "0x2BC",
+    "sentinel_store_RVA": "0x6B5E43",
+    "initial_tag": "0xFFFFFFFF",
+    "copy_call_RVA": "0x6B5E49",
+    "callee_RVA": "0x6BADE0",
+    "destination_and_source": "Corresponding variant addresses in the new destination and existing source record.",
+    "branch_tag_and_InfoHero_flag_transfer_proven": false,
+    "sentinel_is_migration_default": false
+  },
+  "next_targets": [
+    {
+      "entry_RVA": "0x6B9A50",
+      "actual_call_RVA": "0x6B5BF7",
+      "question": "Determine existing-record assignment and source forwarding at native +358/+35C and SharedPlayerInfo."
+    },
+    {
+      "entry_RVA": "0x6BADE0",
+      "actual_call_RVA": "0x6B5E49",
+      "question": "Determine branch-tag and per-flag transfer during append construction."
+    }
+  ],
+  "analysis_execution": {
+    "new_empty_IDA_databases": 2,
+    "exit_codes": [
+      0,
+      0
+    ],
+    "hidden": true,
+    "owned_processes_ended": true,
+    "per_run_timeout_seconds": 30,
+    "decoded_target_code_executed": false,
+    "game_or_Computer_Use": false
+  },
+  "source_witness": {
+    "bytes": 7239,
+    "sha256": "ed010206d2eeac6619fe462129a0dfe55ca9451c721bd19a664cd24cf005302d"
+  },
+  "source_pins": [
+    {
+      "source": "continuation-metadata",
+      "bytes": 3182,
+      "sha256": "403f4d0dad0b5bea718f69d2bdd824fd6a49ec7333dde7998a11f4329d3e0324"
+    },
+    {
+      "source": "analysis-driver",
+      "bytes": 5777,
+      "sha256": "a00ec6bd815377701d54673442a38fb0905c99eb0c6a4c3087f81a65c26537a3"
+    },
+    {
+      "source": "continuation-preparation",
+      "bytes": 4484,
+      "sha256": "141f4d39296798c491b783e85836f4b181f74c4832f659f3f1286675341ccda2"
+    },
+    {
+      "source": "continuation-IDA-script",
+      "bytes": 15851,
+      "sha256": "3f6164af7155814251f0a4a23d61c27b8fc5525cf00cb644e9f6f7e9ba63a95d"
+    },
+    {
+      "source": "continuation-assembly-table",
+      "bytes": 11089,
+      "sha256": "3e9af00ba9026092f48681d726a884099a1a0e44cdae151a5a7d4431977e6df5"
+    },
+    {
+      "source": "continuation-quality",
+      "bytes": 5044,
+      "sha256": "b07b2ff419af3a1a30fcf06db48aa969fa2db6723b7a82aacbb6c2aa80e87c67"
+    },
+    {
+      "source": "continuation-completion",
+      "bytes": 214,
+      "sha256": "7dd333d23f65d88bf9d91b453fd32a2cdda805691cc30f3dba7c53073792f359"
+    },
+    {
+      "source": "self-exit-preparation",
+      "bytes": 548,
+      "sha256": "fbc3f366b835ed03b4cf5314dac76ce8a88626246e46d27713ed5e43834ef1a7"
+    },
+    {
+      "source": "self-exit-IDA-script",
+      "bytes": 12808,
+      "sha256": "eaf4cccb703e5b47de5427efa8e01a8bae0e518a4c9573fb6600e799b8a44917"
+    },
+    {
+      "source": "self-exit-assembly-table",
+      "bytes": 270,
+      "sha256": "865d4aa7985552452c847766df582a6f6ab213f38e6c82638c6341574c4d43b0"
+    },
+    {
+      "source": "self-exit-quality",
+      "bytes": 1449,
+      "sha256": "2473b45bb9ce340918db264c188c531078a1634563dc507836d520f4f2479df2"
+    },
+    {
+      "source": "self-exit-completion",
+      "bytes": 164,
+      "sha256": "8f8f92fb2ff7675c3473736dbf3ff57f203ab37ba5e7fac9d3a6dc17b99abeae"
+    },
+    {
+      "source": "entry-preparation",
+      "bytes": 1470,
+      "sha256": "13292c85d3f3fe852bd40f537a3b6cb35a85fce21b6b90cc8ecdecd123e95f02"
+    },
+    {
+      "source": "entry-assembly-table",
+      "bytes": 538,
+      "sha256": "6e29802fb62c570ea1218f22df7b5a96746c163c7b67993c7464c5e2d55c6491"
+    },
+    {
+      "source": "native-ClientInfo-field-offsets",
+      "bytes": 4897,
+      "sha256": "03655e7324e5a36a50755d64a4201e57dbf2559c8c9d9a5362d07c2e88b8f197"
+    }
+  ],
+  "historical_values_recovered": false,
+  "new_replay_created_or_modified": false,
+  "native_playback_proven": false,
+  "exact_head_CI_claimed": false,
+  "full_upgrade_complete": false,
+  "full_replay_upgrade_complete": false
+}
