@@ -1,0 +1,182 @@
+{
+  "caller_export_quality": {
+    "begin_RVA": "0x24c7f0",
+    "decompile_completed": true,
+    "end_RVA_exclusive": "0x24c829",
+    "expanded_instructions": 14,
+    "expanded_size_limit_truncated": false,
+    "outside_selected_blocks": 0,
+    "selected_instruction_bytes_verified": 57,
+    "selected_instructions": 14
+  },
+  "date": "2026-10-25",
+  "evidence_files": [
+    {
+      "bytes": 3167,
+      "logical_name": "indirect-product-owner-selection.json",
+      "sha256": "fe74b9b2f283138fbb3c8b9c0c171051876fc186e9b5547da0bd61fc1a92688a"
+    },
+    {
+      "bytes": 1520,
+      "logical_name": "leaf-factory-caller-selection.json",
+      "sha256": "e97a18c1c277f992883875bbf861b4f0661d28f62d47b23c97832f7bc7352510"
+    },
+    {
+      "bytes": 5689,
+      "logical_name": "select_indirect_product_owner.py",
+      "sha256": "020b1e797f273bf8758b70b28760fe4b63739f0f2b2f2856c6e6445071bdff80"
+    },
+    {
+      "bytes": 3144,
+      "logical_name": "select_leaf_factory_caller.py",
+      "sha256": "d2a4816c35ae483fe58782bc08a9ff5b9af91a5c3943279bdedbf513f839dbb8"
+    },
+    {
+      "bytes": 1488,
+      "logical_name": "run_one_factory_caller.sh",
+      "sha256": "926d4943e19d69b5571e44472ed2a04b9ae86b3afab03e0a8f321875acf4c348"
+    },
+    {
+      "bytes": 5210,
+      "logical_name": "headless-one-caller.log",
+      "sha256": "02bf7ec608db66b4e96a5e6c45cb381edd297223844f250ac18157204a447b2e"
+    },
+    {
+      "bytes": 8924,
+      "logical_name": "013844E0.asm.txt",
+      "sha256": "2789072c0779f92abd33bcee3a7387b39e06f51b333fc5e528ee0e6bb2ed5147"
+    },
+    {
+      "bytes": 2668,
+      "logical_name": "ghidra-analysis.json",
+      "sha256": "e956ca27133f2fe9c143b77171b2aa86bf540293a2c06eea09347a9f7bd6f4cf"
+    },
+    {
+      "bytes": 397,
+      "logical_name": "0024C7F0.asm.txt",
+      "sha256": "afb717db97f0ac173f71319680bd37f07867a41d77cf58a1cfe8ecc8e59d6930"
+    },
+    {
+      "bytes": 323,
+      "logical_name": "0024C7F0.c",
+      "sha256": "8dcc50a08e7eee598f049dc8a7edd7cf3c7c5fa871de7d291e03e4da8be9fe4d"
+    },
+    {
+      "bytes": 397,
+      "logical_name": "0024C7F0.expanded.asm.txt",
+      "sha256": "afb717db97f0ac173f71319680bd37f07867a41d77cf58a1cfe8ecc8e59d6930"
+    },
+    {
+      "bytes": 2843,
+      "logical_name": "ghidra-analysis.json",
+      "sha256": "3396d29aad7c61f206163b9d7a94a82ab69c39b7396b6180577a78f9067061d5"
+    },
+    {
+      "bytes": 1399,
+      "logical_name": "leaf-factory-64byte-window.objdump.txt",
+      "sha256": "48999682564936ef903808ef75560ee95421fb5cb76fe21621864abaef5026b8"
+    }
+  ],
+  "evidence_receipt": {
+    "bytes": 8491,
+    "sha256": "555ae3f501ed5485b914ff4ed4f8af8154af04829cb94c1506d54bd0d53f2537"
+  },
+  "facts": {
+    "constructor": {
+      "RVA": "0x13844e0",
+      "absolute_pointer_slot_RVA": "0x27cc578"
+    },
+    "factory_record": {
+      "RVA": "0x27cc558",
+      "constructor_VA": "0x1413844e0",
+      "constructor_slot_offset": "0x20",
+      "id_value": 1
+    },
+    "getter": {
+      "cache_load_RVA": "0x24c81d",
+      "cache_pointer_RVA": "0x2fe32e8",
+      "cache_store_RVA": "0x24c811",
+      "entry_RVA": "0x24c7f0",
+      "guard_mask": 1,
+      "initialization_guard_RVA": "0x2fe32f0",
+      "lookup_argument_ECX": 1,
+      "lookup_call_RVA": "0x24c80c",
+      "return_value": "Factory-record pointer, not the initialized product object and not a mapped IPC buffer."
+    },
+    "leaf_lookup": {
+      "behavior": "Compare first DWORD of the sole table record to ECX; return the matching record pointer or zero.",
+      "bytes": 42,
+      "decoded_flow_end_RVA_exclusive": "0x138448a",
+      "decoder": "GNU objdump AMD64",
+      "entry_RVA": "0x1384460",
+      "has_PE_RuntimeFunction_record": false,
+      "instruction_bytes_match_verified_patch": true,
+      "instructions": 15,
+      "unclassified_bytes_after_second_RET_excluded": true,
+      "window_bytes": 64
+    },
+    "product_object": {
+      "IPC_name": "Heroes of the Storm IPC Mem",
+      "IPC_name_literal_RVA": "0x27cced8",
+      "constructor_RVA": "0x13844e0",
+      "name_LEA_RVA": "0x13848ee",
+      "name_field_offset": "0x340",
+      "name_store_RVA": "0x13848f5"
+    },
+    "table": {
+      "RVA": "0x2f82e18",
+      "entry_value_VA": "0x1427cc558",
+      "inspected_entry_count": 1
+    }
+  },
+  "format": "main-product-ipc-table-static-observation-v1",
+  "limits": [
+    "The factory record, the initialized product object, and the mapped IPC buffer are distinct owners. Factory-record+0x20 is a constructor pointer, not shared IPC state.",
+    "The getter only looks up/caches a record. No indirect constructor call, initialized product-object getter, mapping API or mapped-buffer pointer is authenticated by this new export.",
+    "No state3/result3 consumer, missing-build downloader, network endpoint or historical41810payload was recovered.",
+    "The leaf has no .pdata RuntimeFunction record. Its entry is the authenticated E8 target; the15instructions ending at two RETs were decoded from the pinned patch. Trailing bytes in the64bytewindow remain unclassified.",
+    "Static provenance/decoding is not native runtime execution or playback proof."
+  ],
+  "next_source": "Verified code callers of getter0x24c7f0 or consumers of its cached record pointer0x2fe32e8, followed by the typed constructor-call/destination-object chain.",
+  "scope": {
+    "IPC_messages_sent": 0,
+    "computer_use": false,
+    "downloader_authenticated": false,
+    "full_upgrade_complete": false,
+    "historical41810_payload_recovered": false,
+    "mapped_IPC_handler_authenticated": false,
+    "network_requests": 0,
+    "raw_PE_or_ASM_published": false,
+    "replay_read": false,
+    "replay_written": false,
+    "sync_changed": false,
+    "target_code_executed": false
+  },
+  "source": {
+    "build": 98348,
+    "bytes": 53573840,
+    "executable": "HeroesOfTheStorm_x64.exe",
+    "image_base": "0x140000000",
+    "sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+    "verified_decoded_patch_sha256": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83"
+  },
+  "validation": {
+    "Ghidra_functions_exported": 1,
+    "Ghidra_version": "12.0.4",
+    "changes_discarded": true,
+    "decoded_leaf_bytes": 42,
+    "decoded_leaf_instructions": 15,
+    "export_payload_bytes": 5359,
+    "leaf_instruction_bytes_compared_against_verified_patch": true,
+    "max_export_bytes": 65536,
+    "noanalysis": true,
+    "readOnly": true,
+    "selected57bytecaller_compared_against_verified_patch": true,
+    "source_reads": {
+      "aggregate_metadata_and_data_bytes": 15076360,
+      "data_section_bytes": 10174464,
+      "full_PE_hash_stream_bytes": 107147680,
+      "metadata_bytes": 4901896
+    }
+  }
+}
