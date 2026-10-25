@@ -1,0 +1,358 @@
+{
+  "format": "native-sync-diagnostics-static-and-recorded-observation-v1",
+  "checked_at_utc": "2026-10-25T10:18:15.345007+00:00",
+  "producer_sha256": "4c4a304ad8024e95272e93c223e33d8e1755a818500f5184a5fb68f831833c13",
+  "baseline_commit": "67fe5728ea93408c5212e2bee21f7bc11b534b76",
+  "source_PE_sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+  "verified_static_patch_sha256": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83",
+  "diagnostic_gate": {
+    "consumer_RVA": "0x132C22F",
+    "owner_offset": "0xCB10",
+    "mask": 8,
+    "native_chain": [
+      {
+        "type": 775,
+        "field": 1,
+        "tag": -2,
+        "offset": "0xC308"
+      },
+      {
+        "type": 684,
+        "field": 2,
+        "tag": -26,
+        "offset": "0x418"
+      },
+      {
+        "type": 649,
+        "field": 14,
+        "tag": -2,
+        "offset": "0x18"
+      }
+    ],
+    "scalar_type": "native648 u64 via USER664",
+    "root_relative_offset": "0xC738",
+    "staging_root_owner_offset": "0x3D8",
+    "official_structural_correspondence": "m_syncLobbyState.m_gameDescription.m_gameOptions.m_clientDebugFlags",
+    "native_symbol_name_authenticated": false,
+    "committed_root_owner_offset": "0x83F78",
+    "committed_field_owner_offset": "0x906B0",
+    "live_instances_equal_proven": false
+  },
+  "recorded_R8_observation": {
+    "format": "recorded-R8-client-debug-flag-observation-v1",
+    "checked_at_utc": "2026-10-25T10:15:17.689688+00:00",
+    "producer_sha256": "b498bbd61e7e2d64abf41e46319ffc738cbe41f8c12dd9c76311bc29785778f9",
+    "source_bytes": 2438570,
+    "source_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+    "member_bytes": 4262,
+    "member_sha256": "b0a805ada431290f170415e794942473044ee56d8ed7b684628e7c219e684e04",
+    "native_schema_sha256": "0c9e5d80f745d9e8d7191e3bc3039fb9e07e1d2c5e83c0bbbeb081216e23395e",
+    "official_schema_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+    "native_value_index": [
+      1,
+      2,
+      14
+    ],
+    "official_path": "m_syncLobbyState.m_gameDescription.m_gameOptions.m_clientDebugFlags",
+    "independently_decoded_u64": 289,
+    "diagnostic_bit_3_set": false,
+    "original41810_read": false,
+    "source_unchanged": true,
+    "client_execution": false,
+    "Computer_Use": false,
+    "replay_writes": 0,
+    "limits": [
+      "Recorded bytes do not prove the value of the later live staging instance.",
+      "This read-only observation does not authorize changing the flag or expected synchronization data."
+    ]
+  },
+  "frame_history": {
+    "initial_primary_vtable_RVA": "0x27BC518",
+    "slot": "0xC8",
+    "cell_RVA": "0x27bc5e0",
+    "target_RVA": "0x1327bf0",
+    "reachable_leaf_hex": "488d81bc130a00c3",
+    "decoded_leaf": "LEA RAX,[RCX+0xA13BC]; RET",
+    "record_stride": "0x410",
+    "frame_offset": 0,
+    "computed_folded_checksum_offset": 4,
+    "counted_vector_offset": 8,
+    "live_owner_or_vtable_observed": false,
+    "record_publication_atomicity_proven": false,
+    "first_failing_frame_observed": false
+  },
+  "report_dispatch": {
+    "chain": [
+      "0x132C210",
+      "0x27E2B0",
+      "0x27E710"
+    ],
+    "registered_callback_count_RVA": "0x3007FD0",
+    "registered_callback_table_RVA": "0x3007FD8",
+    "additional_conditional_global_byte_RVA": "0x3004140",
+    "downstream_callbacks_and_file_sink_authenticated": false,
+    "actual_report_observed": false
+  },
+  "setup_cache": {
+    "producer_fragment": "0x133D0C2",
+    "writer": "0x133D350",
+    "cache_offset": "0x1D438",
+    "valid_offset": "0x1D43C",
+    "conditional_formula": "CRC32(native775_serialized_bytes || four_zero_bytes)",
+    "runtime_serialized_bytes_equal_recorded_member_proven": false
+  },
+  "object_hash": {
+    "entry": "0x1605540",
+    "selected_listing_complete_only_for_RuntimeFunction_fragment": true,
+    "expanded_listing_has_instruction_omission": "most of 0x16055AC..0x16055DA",
+    "complete_object_hash_recovered": false,
+    "directly_observed": [
+      "u16 at object+2 hashes into sink",
+      "15FC7C0 called with object+68"
+    ],
+    "field_gameplay_names_authenticated": false
+  },
+  "readonly_Ghidra_jobs": [
+    {
+      "output": "ghidra-sync-state",
+      "functions": [
+        {
+          "begin_RVA": "0x133d0c2",
+          "end_RVA_exclusive": "0x133d14c",
+          "selected_instructions": 32,
+          "expanded_instructions": 55,
+          "outside_selected_blocks": 1,
+          "size_limit_truncated": false
+        },
+        {
+          "begin_RVA": "0x1605540",
+          "end_RVA_exclusive": "0x16055af",
+          "selected_instructions": 32,
+          "expanded_instructions": 67,
+          "outside_selected_blocks": 9,
+          "size_limit_truncated": false
+        }
+      ]
+    },
+    {
+      "output": "ghidra-diagnostic-sinks",
+      "functions": [
+        {
+          "begin_RVA": "0x27e2b0",
+          "end_RVA_exclusive": "0x27e33d",
+          "selected_instructions": 39,
+          "expanded_instructions": 39,
+          "outside_selected_blocks": 0,
+          "size_limit_truncated": false
+        }
+      ]
+    },
+    {
+      "output": "ghidra-diagnostic-dispatch",
+      "functions": [
+        {
+          "begin_RVA": "0x27e710",
+          "end_RVA_exclusive": "0x27edad",
+          "selected_instructions": 385,
+          "expanded_instructions": 378,
+          "outside_selected_blocks": 0,
+          "size_limit_truncated": false
+        }
+      ]
+    }
+  ],
+  "source_pins": [
+    {
+      "path": "work/ghidra-replay-parser-20261020/setup775-copy-contract-20261021/setup775-native-struct-offsets.json",
+      "bytes": 70786,
+      "sha256": "54fa0cc52fee61b7cb0c68308275ac57339afc83d50172ec85bc41bfaefe7d97"
+    },
+    {
+      "path": "work/ghidra-replay-parser-20261020/sync-setup-type/setup775-vs-official96477-schema-only-comparison.json",
+      "bytes": 100967,
+      "sha256": "3f7c80d3e47d43a67b285504671c725c40481b03d0c762ed93fed8491b3bce37"
+    },
+    {
+      "path": "work/ghidra-replay-parser-20261020/ghidra-output-initData-copy-callers/00CF96B0.expanded.asm.txt",
+      "bytes": 4463,
+      "sha256": "25981a6c3f8be0683dbb48a7945443ccdde5af50de160bb87ffb0af7b8ebd128"
+    },
+    {
+      "path": "work/ghidra-replay-parser-20261020/ghidra-output-native-copy-contract-core/00CF8310.expanded.asm.txt",
+      "bytes": 11665,
+      "sha256": "919fff4fbaecb392af8cad8a783bdc6c8ebfad5ee74103a7a8c4358a7ff86c07"
+    },
+    {
+      "path": "work/ghidra-replay-parser-20261020/ghidra-output-setup-getter-local-windows/01324B80.reachable.asm.txt",
+      "bytes": 48,
+      "sha256": "20a63810612255ca90ce11db84304174163eb5302ea1e125fb671b7c421a6ff8"
+    },
+    {
+      "path": "work/ghidra-replay-parser-20261020/ghidra-output-sync-checksum-core/0132C210.expanded.asm.txt",
+      "bytes": 17093,
+      "sha256": "c32e98842dfceb36bd438cedfadad66221335383dda7babb2d6562bf4ccbe4a0"
+    },
+    {
+      "path": "work/ghidra-replay-parser-20261020/setup-hash-stream-contract-20261021/setup-hash-stream-authentication-addendum.json",
+      "bytes": 10963,
+      "sha256": "362c066d35aa57e1af621ebd214c39d57591cbe739dbe4566a9252e0f7a5fe39"
+    },
+    {
+      "path": "work/ghidra-replay-parser-20261020/ghidra-output-sync-checksum-core/0132F610.asm.txt",
+      "bytes": 5109,
+      "sha256": "7e5d61c9a6b7b07f377cb5668a96ab67f710697f791e674674229ad5507da89d"
+    },
+    {
+      "path": "work/ghidra-replay-parser-20261020/ghidra-output-sync-hash-callees/0131CE10.asm.txt",
+      "bytes": 2457,
+      "sha256": "33900307e914b09f676c996eeb2e94bcec339b33bf2f5a4f4f006bc2aebf5535"
+    },
+    {
+      "path": "work/ghidra-replay-parser-20261020/ghidra-output-bounds-vector-followup/015FC810.asm.txt",
+      "bytes": 11012,
+      "sha256": "a9b6e36c3187a35a8b47caa9ab1e88243d9c88fc94223d4c943b136131631c33"
+    },
+    {
+      "path": "work/offline-startgame-20261025/sync-state-frontier/selection.json",
+      "bytes": 780,
+      "sha256": "67fe7477a7087533e6b4a0c478ab19b28349bbc86408ac0b8494acc3283e2b97"
+    },
+    {
+      "path": "work/offline-startgame-20261025/sync-state-frontier/diagnostic-selection.json",
+      "bytes": 1660,
+      "sha256": "f1fce406d301e90bd97bedbb55bc05344662473bd0ef0423820900d0d9d2597f"
+    },
+    {
+      "path": "work/offline-startgame-20261025/sync-state-frontier/dispatch-selection.json",
+      "bytes": 711,
+      "sha256": "9c652d719463e432a716d43e798ba760172d4364ab93195eb83579b1cc709f6b"
+    },
+    {
+      "path": "work/offline-startgame-20261025/sync-state-frontier/recorded-R8-diagnostic-flag.json",
+      "bytes": 1201,
+      "sha256": "253211c339993241f6e97cdca6a33663808361606e1e6155eaccea5c7f38ccd3"
+    },
+    {
+      "path": "work/offline-startgame-20261025/sync-state-frontier/select_targets.py",
+      "bytes": 1797,
+      "sha256": "e0972ba2968d8c7622bae98788240ed518e749c3e2085fe3a52eddfe5552239e"
+    },
+    {
+      "path": "work/offline-startgame-20261025/sync-state-frontier/select_diagnostic_targets.py",
+      "bytes": 3980,
+      "sha256": "e468807fb4fc1fb7e63542d76d280e9f8bb3c2668663390ce04850633d41a431"
+    },
+    {
+      "path": "work/offline-startgame-20261025/sync-state-frontier/select_diagnostic_dispatch.py",
+      "bytes": 1688,
+      "sha256": "b24e3ed6a16d916e97a1ea948ab8d7b2826d581571927d1561e081dc996e39a4"
+    },
+    {
+      "path": "work/offline-startgame-20261025/sync-state-frontier/check_recorded_diagnostic_flag.py",
+      "bytes": 3098,
+      "sha256": "b498bbd61e7e2d64abf41e46319ffc738cbe41f8c12dd9c76311bc29785778f9"
+    },
+    {
+      "path": "work/offline-startgame-20261025/sync-state-frontier/ghidra-sync-state/ghidra-analysis.json",
+      "bytes": 5437,
+      "sha256": "3ab495e3bc31c11d473dd831b0ca189248e3027440de8b96107d8be19a5c5328"
+    },
+    {
+      "path": "work/offline-startgame-20261025/sync-state-frontier/ghidra-sync-state/0133D0C2.asm.txt",
+      "bytes": 1046,
+      "sha256": "cb5054b4a77ccc4c561f6454ce9589475341866fbd176e5d36a4513b818c4d37"
+    },
+    {
+      "path": "work/offline-startgame-20261025/sync-state-frontier/ghidra-sync-state/0133D0C2.expanded.asm.txt",
+      "bytes": 1772,
+      "sha256": "16fb806a87d2cde26a0920f08d1b6e269abfc0e3f210fec6d25167ee26afd64f"
+    },
+    {
+      "path": "work/offline-startgame-20261025/sync-state-frontier/ghidra-sync-state/0133D0C2.c",
+      "bytes": 1589,
+      "sha256": "872cad529afa10ce529d42de226dcedb489fe1ebc7d3fcb8ce6dd0e7ff8287ea"
+    },
+    {
+      "path": "work/offline-startgame-20261025/sync-state-frontier/ghidra-sync-state/01605540.asm.txt",
+      "bytes": 889,
+      "sha256": "8103c521220f4c6fc7b17ee25c3dc6aa2c23ea66a60b54edff5ae741d62032af"
+    },
+    {
+      "path": "work/offline-startgame-20261025/sync-state-frontier/ghidra-sync-state/01605540.expanded.asm.txt",
+      "bytes": 1902,
+      "sha256": "460536ab5471cea6caf450a3d8f19db318cbfee56aa64bc2076139fee73c4e2b"
+    },
+    {
+      "path": "work/offline-startgame-20261025/sync-state-frontier/ghidra-sync-state/01605540.c",
+      "bytes": 1249,
+      "sha256": "3d7bf5970dbdb52d7f0564295a7174a56d9bd61f8263080af376a555cea06fc4"
+    },
+    {
+      "path": "work/offline-startgame-20261025/sync-state-frontier/ghidra-diagnostic-sinks/ghidra-analysis.json",
+      "bytes": 3669,
+      "sha256": "3a686f63bbce5b0bdcee08366137e31a5edd510752fccee2636ee04c1586cfea"
+    },
+    {
+      "path": "work/offline-startgame-20261025/sync-state-frontier/ghidra-diagnostic-sinks/0027E2B0.asm.txt",
+      "bytes": 1302,
+      "sha256": "25a8dcfb791ba280d26a402289b6289a2eaa91f184f24518d75d5e89eb9b25b2"
+    },
+    {
+      "path": "work/offline-startgame-20261025/sync-state-frontier/ghidra-diagnostic-sinks/0027E2B0.expanded.asm.txt",
+      "bytes": 1302,
+      "sha256": "25a8dcfb791ba280d26a402289b6289a2eaa91f184f24518d75d5e89eb9b25b2"
+    },
+    {
+      "path": "work/offline-startgame-20261025/sync-state-frontier/ghidra-diagnostic-sinks/0027E2B0.c",
+      "bytes": 1606,
+      "sha256": "4d927930657cc1bc1d2f8fe1ab7630250ad703e55423b1dba8cae91d4154c29c"
+    },
+    {
+      "path": "work/offline-startgame-20261025/sync-state-frontier/ghidra-diagnostic-dispatch/ghidra-analysis.json",
+      "bytes": 26459,
+      "sha256": "e4c7af040ca6b44fa67a2e518902cfe053f87323e79aa3af467bcc4f503cd5b4"
+    },
+    {
+      "path": "work/offline-startgame-20261025/sync-state-frontier/ghidra-diagnostic-dispatch/0027E710.asm.txt",
+      "bytes": 12299,
+      "sha256": "06aec3e50190b8c4f48a9cf87cc6a01e85b3c23b195d553153ae44ad5e4700e7"
+    },
+    {
+      "path": "work/offline-startgame-20261025/sync-state-frontier/ghidra-diagnostic-dispatch/0027E710.expanded.asm.txt",
+      "bytes": 12094,
+      "sha256": "fb0fa47df8cbf5d6f5a814c2675311363d3f204dc31dd84648cc3dfe9795d174"
+    },
+    {
+      "path": "work/offline-startgame-20261025/sync-state-frontier/ghidra-diagnostic-dispatch/0027E710.c",
+      "bytes": 10677,
+      "sha256": "e1328df480a72eac78a3ad89465dec875167b48da5858395fd72fe7a17d19f6d"
+    }
+  ],
+  "local_validation": {
+    "required_source_pins_and_instruction_anchors_passed": true,
+    "offset_arithmetic_passed": true,
+    "independent_native_and_official_R8_flag_agree": true,
+    "new_production_code": false,
+    "new_unit_tests": false,
+    "prior_codec_CI_not_repeated_or_relabelled_as_static_or_runtime_proof": true
+  },
+  "scope": {
+    "Computer_Use": false,
+    "HotS_or_BattleNet_launched": false,
+    "target_native_code_executed": false,
+    "original41810_replay_opened": false,
+    "R8_read_only": true,
+    "replay_writes": 0,
+    "sync_changes": 0,
+    "settings_changes": 0,
+    "new_replay": false,
+    "full_upgrade_complete": false
+  },
+  "limits": [
+    "Static initial vtable and field correspondence do not establish live object identity or value.",
+    "Registered report callbacks may change a submitted report; file persistence/path remains unproved.",
+    "Asynchronous double reads do not by themselves prove coherent state or first mismatch attribution.",
+    "Recorded flag289 does not prove the later staging flag; changing it may alter the committed setup CRC.",
+    "Incomplete object-hash fragments do not supply historical rules or replay-to-world reconstruction."
+  ]
+}
