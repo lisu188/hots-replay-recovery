@@ -83,6 +83,8 @@ jobs:
           python scripts/restore_artifact.py "$r3.base64" "$r3" --sha256 "$r3.sha256"
           r4=client-checkpoints/98285-controls-r4/TEN_GREYMANE_client98285_CONTROLS_R4_EXPERIMENTAL.StormReplay
           python scripts/restore_artifact.py "$r4.base64" work/R4.StormReplay --sha256 "$r4.sha256"
+          r8=client-checkpoints/98285-resumable-r8/TEN_GREYMANE_client98285_RESUMABLE_R8_PARTIAL.StormReplay
+          python scripts/restore_artifact.py "$r8.base64" work/header879-R8.StormReplay --sha256 "$r8.sha256"
       - name: Verify original MapInfo framing conversion and whole-member inverse in RAM
         run: |
           python - <<'PY'
@@ -149,6 +151,13 @@ jobs:
           with Path(os.environ['HOTS_EU_REFERENCE_CONTROL']).open('xb') as stream:
               stream.write(raw)
           PY
+      - name: Verify numeric879 header inverse and independent edited projection
+        run: |
+          python scripts/check_replay_header879.py \
+            --original work/TEN_GREYMANE_source_41810.StormReplay \
+            --r8 work/header879-R8.StormReplay \
+            --current "$HOTS_EU_REFERENCE_CONTROL" \
+            --report work/header879-audit.json
       - name: Verify current EU streams, packages and complete native OnlineStartGameRequest
         run: |
           python - <<'PY'
@@ -291,5 +300,6 @@ jobs:
             work/current-native-setup.json
             work/current-native-lobby-values.json
             work/original-mapinfo-framing.json
+            work/header879-audit.json
           if-no-files-found: warn
           retention-days: 14
