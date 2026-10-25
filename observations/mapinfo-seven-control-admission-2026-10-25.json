@@ -1,0 +1,246 @@
+{
+  "actual_control_result": {
+    "MapInfo_records": 7,
+    "added_bits_per_record": 24,
+    "added_bytes": 21,
+    "all_native_field_comparisons": 1816,
+    "all_non_count_tokens_and_outside_bits_exact": true,
+    "converted_member_bytes": 43555,
+    "converted_member_sha256": "2c770fb59f7a64734752b10858de4746af270a63b1ebfa1b02e6094c493a9e6f",
+    "inverse_whole_member_bytes_exact": true,
+    "named_root_field_comparisons": 224,
+    "nonempty_permissions_supported": false,
+    "profile": "legacy-empty-mapinfo-count7-to-native31-v1",
+    "raw_author_account_player_values_emitted": false,
+    "source_id": "public41810control",
+    "source_member_bytes": 43534,
+    "source_member_sha256": "9536a8f9204fa141ae71a8a25a5f207030165611328579a1daefb747f326cb56",
+    "unchanged_current_native_32_field_destination_values_and_bounds_exact": true,
+    "whole_replay_upgrade_or_historical_schema_authenticated": false
+  },
+  "admission": {
+    "MAX_RECORDS": 7,
+    "all_other_code_AST_unchanged": true,
+    "build_42273_admission_added": false,
+    "first_three_tuples_unchanged": true,
+    "new_source_id": "public41810control",
+    "profile": "legacy-empty-mapinfo-count7-to-native31-v1",
+    "profile_and_original_baseline_receipt_unchanged": true,
+    "source_count_values": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_count_width_bits": 7,
+    "source_empty_count_start_bits": [
+      216689,
+      218329,
+      219617,
+      221807,
+      223615,
+      225423,
+      227803
+    ],
+    "source_member_sha256": "9536a8f9204fa141ae71a8a25a5f207030165611328579a1daefb747f326cb56",
+    "source_record_spans_bits_end_exclusive": [
+      [
+        215435,
+        216696
+      ],
+      [
+        216696,
+        218336
+      ],
+      [
+        218336,
+        219624
+      ],
+      [
+        219624,
+        221814
+      ],
+      [
+        221814,
+        223622
+      ],
+      [
+        223622,
+        225430
+      ],
+      [
+        225430,
+        227810
+      ]
+    ],
+    "total_saved_record_spans": 23,
+    "total_source_members": 4
+  },
+  "date": "2026-10-25",
+  "format": "exact-seven-record-MapInfo-control-admission-v1",
+  "limits": [
+    "One additional exact whole-member digest and seven exact spans only.",
+    "The empty-seven-bit historical interpretation remains a data-specific schema hypothesis.",
+    "The converted bytes were retained only in RAM; inverse equality does not prove playback.",
+    "No historical ClientInfo values, defaults, or other-stream conversion are supplied.",
+    "Build 42273 remains unadmitted.",
+    "Earlier source tuples are byte-for-byte unchanged; this focused run did not re-read their actual replay fixtures."
+  ],
+  "public_source": {
+    "ZIP_bytes": 771556,
+    "ZIP_sha256": "e671df09c486ef0c96ba6a37558a65b517a4d7a6c054e4c6dcf7127508114a58",
+    "attachment_url": "https://upload2.inven.co.kr/upload/2016/04/12/bbs/c13569754257.zip",
+    "battlelobby_bytes": 43534,
+    "battlelobby_sha256": "9536a8f9204fa141ae71a8a25a5f207030165611328579a1daefb747f326cb56",
+    "declared_build": 41810,
+    "replay_bytes": 774134,
+    "replay_sha256": "3a33d012a9d47dc1e66595398c2f3dd75cbc9240762996cf52c9c6ad8337e869",
+    "source_page": "https://www.inven.co.kr/board/hos/4200/2520?category=%EC%82%AC%EA%B1%B4&my=opi&p=3"
+  },
+  "schema_scope": {
+    "current_native_reachable_types": 191,
+    "current_root_type": 5852,
+    "defaults_or_elements_inserted": false,
+    "historical_schema_authenticated": false,
+    "named_root_fields": 32,
+    "nonempty_permissions_supported": false,
+    "only_legacy_schema_difference": {
+      "current_bits": 31,
+      "current_max": 2147483647,
+      "kind": "ARRAY",
+      "source_hypothesis_bits": 7,
+      "source_hypothesis_max": 127,
+      "type_id": 1828
+    }
+  },
+  "scope": {
+    "current_client_playback_verified": false,
+    "exact_head_remote_CI_verified": false,
+    "full_upgrade_complete": false,
+    "kind": "source-only-data-specific-admission",
+    "new_game_client_native_or_network_activity": false,
+    "raw_replay_member_or_player_values_published": false,
+    "replay_or_member_written": false
+  },
+  "source_pins": {
+    "MPQ_reader": {
+      "bytes": 6231,
+      "sha256": "9e940dae67c5d457483c814e6169e6e5d0a1cc5a1dcfdbd76dcf9026f1fa0033"
+    },
+    "actual_admission_verification": {
+      "bytes": 3931,
+      "sha256": "1aec08d0d6b3fff7e99aa654d6ad80c6a816ca74fe0786fa135a300b0e342b98"
+    },
+    "archive_guard": {
+      "bytes": 11072,
+      "sha256": "29ae60e196d4225c5edbf3e6f76a077c14ac322945e82fd981579015f4ee5436"
+    },
+    "baseline_module": {
+      "bytes": 10457,
+      "sha256": "087965405fa4c97e088b7581c9ffa4d7e384ad45535be859a6d09be10420e2b3"
+    },
+    "bit_reader_writer": {
+      "bytes": 18596,
+      "sha256": "3faf056fa8123f66e73dd551fcab2fb05fd9ccba5643826ec6835c771672aeee"
+    },
+    "existing_framing_tests": {
+      "bytes": 11041,
+      "sha256": "c41dd105a7489a80bce60ea26e2257c4e41feb40633ce219d15bae6e67bf1bd3"
+    },
+    "existing_native_MapInfo_tests": {
+      "bytes": 12858,
+      "sha256": "f5a506596d3f00ae9b73d9e957f9aa5b1191da72b0897bf551d6569703f6a757"
+    },
+    "final_focused_test_verification": {
+      "bytes": 1248,
+      "sha256": "155e3b80cdb0d2ff1ede60666ed7283954c51b2f345aa31b70a603b469d7eae8"
+    },
+    "focused_test_log": {
+      "bytes": 5741,
+      "sha256": "3f66f1f8fc4b0966f0d18853674b7925bec3fc1d684a53a63135b5f21628bbe0"
+    },
+    "initial_focused_test_log": {
+      "bytes": 5893,
+      "sha256": "2d010575bdbad4cdfe697d6aab73fb7df3bf9889ce039fa849cf183fcf40c876"
+    },
+    "native_MapInfo_reader": {
+      "bytes": 8923,
+      "sha256": "b7bd41881c171a606fa3fe5844590e8d935d5ed2e42cb418cd2fcbc859710810"
+    },
+    "native_MapInfo_schema": {
+      "bytes": 45724,
+      "sha256": "3900a63c0799474becd2ecfb03eece4f8c523a965b38e539264867d5cdf2075c"
+    },
+    "new_boundary_tests": {
+      "bytes": 1323,
+      "sha256": "af55bf84d4cc4f8b0605b33f43a07fdea343e1fcb0537c8909497152c123a95e"
+    },
+    "offline_test_discovery_runner": {
+      "bytes": 7223,
+      "sha256": "a474ac3abdd45cfaf4b425b5a272dbac283a7347efc00111ee8a2456ebee689c"
+    },
+    "prior_private_candidate_proof": {
+      "bytes": 7798,
+      "sha256": "8d6e1146d2dc231d0c96f50af86d08c9bbb6ad657fe073ce3057e3ab59d3b241"
+    },
+    "saved_control_metadata_audit": {
+      "bytes": 8296,
+      "sha256": "484372047aa79f81a706472d0957547797f8d7913e9497b442accc996547497e"
+    },
+    "shared_native_reader": {
+      "bytes": 12950,
+      "sha256": "e0abd0b674c97b87f6a1510edc08704eebeca0ad9d43ac0537d5eaaa3eb9b202"
+    },
+    "stage_preparation": {
+      "bytes": 513,
+      "sha256": "6c5c80a4b38d677d3ac057fa9caed04ad9405906c5f00882d8aa5be38d2f19a6"
+    },
+    "staged_module": {
+      "bytes": 10667,
+      "sha256": "00112dd1b47c73fbc12ac22dcda453225c1eccec9976e9948564b5c9ae0c2cce"
+    },
+    "verification_helper": {
+      "bytes": 7731,
+      "sha256": "f72e6f878a694109160f07a94003a44576fd13bf26589cb22ee052a4b903092c"
+    }
+  },
+  "validation": {
+    "actual_conversion_API_used": true,
+    "baseline_strict_refusal_reproduced": true,
+    "existing_runner_discovers_root_test_modules": true,
+    "focused_tests": {
+      "errors": 0,
+      "failures": 0,
+      "modules": [
+        "test_legacy_mapinfo_framing",
+        "test_native_mapinfo",
+        "test_legacy_mapinfo_seven_control"
+      ],
+      "skips": 0,
+      "successful": true,
+      "tests": 38
+    },
+    "negative_cases": [
+      {
+        "case": "one_byte_change",
+        "refused_by_digest_before_schema_or_framing": true
+      },
+      {
+        "case": "nonempty_permission_count",
+        "refused_by_digest_before_schema_or_framing": true
+      }
+    ],
+    "new_test_cases": [
+      "seven_synthetic_records_preserve_bits_and_inverse",
+      "eight_records_refused_even_with_test_digest_admission"
+    ],
+    "production_module_unchanged_between_actual_control_and_final_focused_test_runs": true,
+    "public_digest_admission_bypassed": false,
+    "source_archive_full_SHA256_and_four_field_guards_unchanged": true,
+    "synthetic_nonempty_count_tests_remain_refused": true,
+    "workflow_change_required": false
+  }
+}
