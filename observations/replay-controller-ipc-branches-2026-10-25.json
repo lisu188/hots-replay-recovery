@@ -1,0 +1,176 @@
+{
+  "format": "replay-controller-ipc-branches-static-observation-v1",
+  "date": "2026-10-25",
+  "status": "reviewed-static-evidence",
+  "repository_baseline": "e1dac1d56bf6be1df37939bec77ba988fa7c566f",
+  "method": "Sanitized derivation from one reviewed private text witness; no new target analysis.",
+  "approved_witness": {
+    "relative_path": "work/offline-startgame-20261025/report-output-frontier/existing-request-callers/owner-loader-witness.private.json",
+    "bytes": 11123,
+    "sha256": "dfdd199e92eca5d414359401be780e97125d7093525e4078cdb4a6c42c131f68"
+  },
+  "source_pin_verification": "The approved witness pin was checked in this preparation. Underlying source pins are retained from that witness; their source bodies were not reread here.",
+  "source_pins": [
+    {
+      "id": "owner_entry",
+      "relative_path": "work/ghidra-replay-parser-20261020/ghidra-output-initdata-owner-callers/00D000D0.asm.txt",
+      "bytes": 2536,
+      "sha256": "debe18e5c09b85fc5ad83da3356f98ae2232624da626ba8226970fca796601a3"
+    },
+    {
+      "id": "owner_entry_metadata",
+      "relative_path": "work/ghidra-replay-parser-20261020/ghidra-output-initdata-owner-callers/ghidra-analysis.json",
+      "bytes": 12593,
+      "sha256": "73768b58b80b08d1f72e782225e94e27510b7b69e4dcacdfd75978953fe60827"
+    },
+    {
+      "id": "loader",
+      "relative_path": "work/ghidra-replay-parser-20261020/ghidra-output-initData-copy-callers/00CFE3B0.asm.txt",
+      "bytes": 23685,
+      "sha256": "8d54c160f863f50db55cdb78155c64428562a01f963f6bbfbdfccc1a00bd8ea0"
+    },
+    {
+      "id": "state_wrapper",
+      "relative_path": "work/ghidra-replay-parser-20261020/ghidra-output-setup-staging-mutations/00E01EA0.asm.txt",
+      "bytes": 813,
+      "sha256": "e0ad070a87a3d885e45312ddd99f6e3eef1a33ddcea818cad68fc04c7f2c63f6"
+    },
+    {
+      "id": "owner_bridge",
+      "relative_path": "work/ghidra-replay-parser-20261020/setup-virtual-dispatch-20261021/reader-owner-bridge-authentication.json",
+      "bytes": 9482,
+      "sha256": "9ca8204f0e84842d2b5cf7ee5cb8cd3fbcb77afdf6cdc8482b88d89d32a78d3c"
+    },
+    {
+      "id": "recorded_mode_correction",
+      "relative_path": "work/ghidra-replay-parser-20261020/setup-virtual-dispatch-20261021/recorded-mode-staging-correction.json",
+      "bytes": 5206,
+      "sha256": "0d02f63d3349411deda36eee3521edaf38ae59885a6d11876b1d993298855645"
+    },
+    {
+      "id": "member_decoder_binding",
+      "relative_path": "work/ghidra-replay-parser-20261020/setup-object-binding-20261021/independent-initData-reader-schema-bridge.json",
+      "bytes": 6692,
+      "sha256": "3b8e4cbe61a2858230ac074114e5c7fa4157a19ba34cb5b28ce69c31872f4d39"
+    },
+    {
+      "id": "request_caller_selected",
+      "relative_path": "work/offline-startgame-20261025/report-output-frontier/concrete-build-request/caller-selected/ghidra-caller/00CFB680.asm.txt",
+      "bytes": 12985,
+      "sha256": "9add826aea1eb45a0ca400a5f00b88efa652b04a1f0ac0f4ced071e7ac71709a"
+    },
+    {
+      "id": "request_caller_proof",
+      "relative_path": "work/offline-startgame-20261025/report-output-frontier/concrete-build-request/caller-selected/caller-final-private-proof.json",
+      "bytes": 13999,
+      "sha256": "59319bc70ec56a6c0cf0f2439da6a5afe20eb1f2469820bc7d597622bb9042f8"
+    }
+  ],
+  "address_scope": "RVAs in current main-client static evidence; no runtime addresses or object values.",
+  "entry_object": {
+    "entry_RVA": "0xd000d0",
+    "owner": "M=entryRCX retained inRBX",
+    "save_RVA": "0xd000e2",
+    "native_class_name_recovered": false
+  },
+  "alternative_branches": [
+    {
+      "kind": "request-preparation",
+      "owner_argument": "RCX=the sameM",
+      "conditions": "Common entry/status guards pass, DWORD[M+106C8]==0 and 115AA10 returns AL=0.",
+      "argument_RVA": "0xd0014d",
+      "call_RVA": "0xd00150",
+      "target_RVA": "0xcfb680",
+      "returns_before_loader_branch": true
+    },
+    {
+      "kind": "state-loader-continuation",
+      "owner_argument": "RCX=the sameM",
+      "conditions": "Alternative branch; selected state construction/reuse and virtual +0x10 result other than 2 permit continuation.",
+      "argument_RVA": "0xd001d2",
+      "call_RVA": "0xd001f1",
+      "target_RVA": "0xcfe3b0"
+    }
+  ],
+  "alternative_branches_are_not_a_proved_runtime_sequence": true,
+  "selected_entry_quality": {
+    "begin_RVA": "0xd000d0",
+    "end_RVA_exclusive": "0xd00219",
+    "instruction_count": 90,
+    "decompile_completed": true,
+    "outside_blocks": 0
+  },
+  "mode_selector": {
+    "offset": "0x100e8",
+    "width_bits": 32,
+    "loader_read_RVA": "0xcfe3f3",
+    "mode2_compare_RVA": "0xcfe439",
+    "mode2_branch_RVA": "0xcfe43c",
+    "mode2_destination_RVA": "0xcfea2d",
+    "wrapper_RVA": "0xe01ea0",
+    "wrapper_read_RVA": "0xe01ec7",
+    "wrapper_predicate": "unsigned(mode - 2) <= 2 selects modes {2,3,4}",
+    "executable_or_data_build_semantics_proved": false
+  },
+  "recorded_loader": {
+    "member": "replay.initData",
+    "decoder_RVA": "0x134dd30",
+    "decoder_call_RVA": "0xcfec51",
+    "configuration_copy_destination": "M+0x19460",
+    "configuration_copy_call_RVA": "0xcfecdb",
+    "exact_recorded_values_or_replay_build_established": false
+  },
+  "existing_request_value_boundary": {
+    "scope": "This owner pair and its captured CFB680 route.",
+    "mode_field": "owner+0x100e8",
+    "numeric_type_mapping": {
+      "1": 2,
+      "2": 3,
+      "3": 4,
+      "4": 4,
+      "other": 1
+    },
+    "explicit_input_build_store_RVA": "0xcfba16",
+    "input_field_offset": "0x1c",
+    "explicit_store_value": "0xffffffff",
+    "actual_copy_entry_source_value_proved": false,
+    "input1C_bound_to_replay_executable_build": false,
+    "input1C_bound_to_replay_data_build": false
+  },
+  "separate_error_context": {
+    "function_fragments": [
+      "0x20ea0c0",
+      "0x20ea1d5"
+    ],
+    "error": "0x20010010",
+    "used_to_infer_IPCresult3": false,
+    "used_to_infer_owner_identity": false
+  },
+  "next_step": {
+    "context": "Companion second-caller observation.",
+    "action": "Trace the explicit RSI+0x19118 producer and its context, preserving branch/lifetime/aliasing conditions.",
+    "owner_pair_proves_RSI_identity": false,
+    "owner_pair_assigns_replay_build_semantics": false
+  },
+  "limitations": [
+    "The two D000D0 branches are alternatives, and the request branch returns before the loader branch.",
+    "No runtime instance, object lifetime, execution order or request value was observed.",
+    "A common controller context does not show that replay loading causes this IPC request.",
+    "This owner pair and its captured CFB680 route do not establish that input+1C is a replay executable or data build.",
+    "No historical payload acquisition or working replay upgrade is proved."
+  ],
+  "scope": {
+    "PE_read": false,
+    "patch_read": false,
+    "dump_read": false,
+    "memory_read": false,
+    "native_analyzer_run": false,
+    "target_code_executed": false,
+    "game_launched": false,
+    "Computer_Use": false,
+    "IPC": false,
+    "network_requests": 0,
+    "repository_modified": false,
+    "replay_read": false
+  }
+}
