@@ -1,0 +1,268 @@
+{
+  "bounded_scope": {
+    "Ghidra_jobs": 2,
+    "PE_header_and_pdata_bytes": 2450948,
+    "PE_identity_hash_stream_bytes": 53573840,
+    "PE_metadata_passes": 1,
+    "RuntimeFunction_candidate_groups": 14,
+    "all_candidate_group_code_bytes": 2041,
+    "all_changes_discarded": true,
+    "code_bytes_per_stage": [
+      720,
+      519
+    ],
+    "combined_selected_code_bytes": 1239,
+    "combined_selected_records": 6,
+    "expanded_instructions": 340,
+    "followup_PE_rereads": 0,
+    "full_high_level_CFG_closed": false,
+    "import_directory_reads": 0,
+    "max_combined_selected_code_bytes": 2048,
+    "max_cpu": 2,
+    "max_native_export_payload_bytes": 65536,
+    "max_retained_candidates": 32,
+    "native_export_payload_bytes": 60190,
+    "noanalysis": true,
+    "outside_blocks": 10,
+    "raw_RIP_reference_patterns": 46,
+    "readOnly": true,
+    "retained_function_metadata_groups": 14,
+    "retained_per_reference_details": 0,
+    "retained_unique_unproven_field_sites": 4,
+    "selected_instructions": 281,
+    "selected_records_per_reviewed_stage": [
+      4,
+      2
+    ],
+    "size_limit_truncated": false,
+    "source_data_section_reads": 0,
+    "terminal_exit_codes": [
+      0,
+      0
+    ]
+  },
+  "build_read_continuation": {
+    "build4c_read_RVA": "0x115a95a",
+    "cache_global_RVA": "0x37ebc60",
+    "compareFFFFFFFF_RVA": "0x115a95d",
+    "concrete_build_producer_found": false,
+    "non_sentinel_cache_store_RVA": "0x115a970",
+    "non_sentinel_reads_offset": "0x50",
+    "record_RVA": "0x115a89d",
+    "sentinel_equal_flag_global_RVA": "0x2f7c8ac"
+  },
+  "cleanup_record": {
+    "API_names_assigned": false,
+    "record_RVA": "0x115ad10",
+    "role": "Clears a member bit and performs counter/cleanup-like calls, then tail-jumps; not a build producer in selected ASM.",
+    "tail_jump_RVA": "0x115adc8",
+    "tail_target_RVA": "0x115a100"
+  },
+  "date": "2026-10-25",
+  "evidence_receipts": [
+    {
+      "bytes": 32863,
+      "logical_name": "four-protocol-record-static-proof",
+      "sha256": "9a860a4baf9298e57a6ebbe3fefefabc1f1fa3b80775681094566f972de892c8"
+    },
+    {
+      "bytes": 24239,
+      "logical_name": "protocol-followup-final-static-proof",
+      "sha256": "972c7ee099ec672fbec15deaf683591df7cbbd2eeab064ed1bfb051aeb6db11e"
+    }
+  ],
+  "execution": {
+    "IPC_sent": false,
+    "client_launched": false,
+    "computer_use": false,
+    "full_upgrade_complete": false,
+    "network_requests": 0,
+    "replay_read": false,
+    "replay_written": false,
+    "scope_name": "static_native_analysis_lane",
+    "sync_changed": false,
+    "target_executed": false
+  },
+  "export_quality": [
+    {
+      "begin_RVA": "0x115ac30",
+      "code_bytes": 82,
+      "decompile_completed": true,
+      "end_RVA_exclusive": "0x115ac82",
+      "expanded_instructions": 55,
+      "high_level_CFG_closed": false,
+      "outside_blocks": 5,
+      "selected_instructions": 20,
+      "size_limit_truncated": false
+    },
+    {
+      "begin_RVA": "0x115ac82",
+      "code_bytes": 117,
+      "decompile_completed": true,
+      "end_RVA_exclusive": "0x115acf7",
+      "expanded_instructions": 35,
+      "high_level_CFG_closed": false,
+      "outside_blocks": 1,
+      "selected_instructions": 29,
+      "size_limit_truncated": false
+    },
+    {
+      "begin_RVA": "0x115a630",
+      "code_bytes": 181,
+      "decompile_completed": true,
+      "end_RVA_exclusive": "0x115a6e5",
+      "expanded_instructions": 39,
+      "high_level_CFG_closed": null,
+      "outside_blocks": 0,
+      "selected_instructions": 39,
+      "size_limit_truncated": false
+    },
+    {
+      "begin_RVA": "0x115ade0",
+      "code_bytes": 340,
+      "decompile_completed": true,
+      "end_RVA_exclusive": "0x115af34",
+      "expanded_instructions": 80,
+      "high_level_CFG_closed": null,
+      "outside_blocks": 0,
+      "selected_instructions": 82,
+      "size_limit_truncated": false
+    },
+    {
+      "begin_RVA": "0x115ad10",
+      "code_bytes": 194,
+      "decompile_completed": true,
+      "end_RVA_exclusive": "0x115add2",
+      "expanded_instructions": 50,
+      "high_level_CFG_closed": false,
+      "outside_blocks": 1,
+      "selected_instructions": 42,
+      "size_limit_truncated": false
+    },
+    {
+      "begin_RVA": "0x115a89d",
+      "code_bytes": 325,
+      "decompile_completed": true,
+      "end_RVA_exclusive": "0x115a9e2",
+      "expanded_instructions": 81,
+      "high_level_CFG_closed": false,
+      "outside_blocks": 3,
+      "selected_instructions": 69,
+      "size_limit_truncated": false
+    }
+  ],
+  "format": "main-ipc-protocol-handlers-static-observation-v1",
+  "generic_request": {
+    "alternative_wait_exit": "Helper0x115a240 returnsfalse; state3 need not be observed.",
+    "branches": [
+      {
+        "clear_result_to0_RVA": "0x115aefd",
+        "result_value": 1,
+        "skip_state_clear": true
+      },
+      {
+        "result_value": 0,
+        "return_value": 2,
+        "state_clear_RVA": "0x115af07"
+      },
+      {
+        "result_value": 3,
+        "return_value": 3,
+        "state_clear_RVA": "0x115af07"
+      },
+      {
+        "result_value": "other nonzero except1",
+        "return_value": "same value",
+        "state_clear_RVA": "0x115af07"
+      }
+    ],
+    "record_RVA": "0x115ade0",
+    "result_offset": "0x24",
+    "result_read_RVA": "0x115aeee",
+    "result_zero_write_RVA": "0x115ae25",
+    "return_RVA": "0x115af25",
+    "state2_write_RVA": "0x115ae28",
+    "state3_compare_RVAs": [
+      "0x115aeb5",
+      "0x115aee2"
+    ],
+    "state_offset": "0x20",
+    "unresolved_helper_call_RVA": "0x115ae9f",
+    "unresolved_helper_non1_branch": "Return that helper result throughEBX and clear state0; no shared-result reading is required on that branch.",
+    "unresolved_helper_target_RVA": "0x115a270",
+    "wait_entered_after_helper_returns1": true
+  },
+  "limits": [
+    "The result3 response branch is static code evidence. No state3 or result3 value was observed at runtime.",
+    "The wait can exit through an unresolved helper before state3; result reading alone does not prove response completion.",
+    "The sentinel producer, generic request path and startup completion are separate paths.",
+    "Four selected records have outside blocks:5,1,1,3. Their uncapped exports do not establish full CFG closure.",
+    "No non-sentinel requested-build producer, downloader, historical41810payload or first replay simulation mismatch was recovered."
+  ],
+  "next_retained_seed": {
+    "already_persisted_bounds": true,
+    "begin_RVA": "0x115ab90",
+    "code_bytes": 155,
+    "end_RVA_exclusive": "0x115ac2b",
+    "not_exported": true,
+    "raw_buffer_global_reference_count": 5,
+    "selection_rationale": "Unselected request-layout candidate near the confirmed setup path; no additional native scan was performed.",
+    "semantics_unproved": true
+  },
+  "open_questions": [
+    "Producer of a concrete non-sentinel requested build, including41810.",
+    "Higher-level callers and handling of returned result3.",
+    "Formal indirect API identities and any historical-client downloader."
+  ],
+  "owners": {
+    "cached_prior_state_global_RVA": "0x37ebc50",
+    "factory_record_offset20": "constructor pointer",
+    "formal_API_slot_names_authenticated": false,
+    "out_handle_candidate_global_RVA": "0x37ebc58",
+    "product_object_offset340": "IPC name pointer",
+    "returned_buffer_offset20": "state field used in these selected instructions",
+    "returned_buffer_pointer_global_RVA": "0x37ebc48"
+  },
+  "repository_baseline": "0ed89301166d20f598afa18ddff2e1c0eb913859",
+  "request_claim": {
+    "expected_old_state": 0,
+    "field": "buffer+0x20",
+    "helper_call_RVA": "0x115ac64",
+    "new_state": 1,
+    "record_RVA": "0x115ac30",
+    "setup_branch_when_prior_state_zero_RVA": "0x115ac6b"
+  },
+  "sentinel_request": {
+    "build_field_offset": "0x4c",
+    "build_interpretation": "Highest installed client selector from the independently pinned Switcher contract.",
+    "build_value": "0xffffffff",
+    "build_write_RVA": "0x115acac",
+    "concrete_build41810_produced": false,
+    "generic_request_call_RVA": "0x115aced",
+    "record_RVA": "0x115ac82",
+    "request_type_offset": "0x48",
+    "request_type_value": 1,
+    "request_type_write_RVA": "0x115aca5"
+  },
+  "source": {
+    "address_convention": "RVA unless explicitly marked VA",
+    "client_build": 98348,
+    "client_bytes": 53573840,
+    "client_sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+    "decoded_patch_bytes": 36581376,
+    "decoded_patch_sha256": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83"
+  },
+  "startup_completion": {
+    "distinct_from_request_state2_path": true,
+    "guards": [
+      "Nonzero returned-buffer pointer",
+      "Cached prior state0x37ebc50 equals4",
+      "Live buffer state+0x20 equals1"
+    ],
+    "record_RVA": "0x115a630",
+    "result1_write_RVA": "0x115a680",
+    "state0_write_RVA": "0x115a6c2",
+    "state5_write_RVA": "0x115a687",
+    "wait_exit": "Result+0x24 becomeszero or helper0x115a240 returnsfalse."
+  }
+}
