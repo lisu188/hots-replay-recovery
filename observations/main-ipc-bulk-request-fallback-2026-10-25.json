@@ -1,0 +1,220 @@
+{
+  "AB90_forwarding": {
+    "additional_guard": "SignedDWORD[buffer+4] <=1",
+    "buffer_pointer_global_RVA": "0x37ebc48",
+    "copy_arguments": {
+      "count": "0x4180",
+      "destination": "buffer+0x30",
+      "source": "AB90incomingRCX"
+    },
+    "copy_call_RVA": "0x115ac14",
+    "copy_target_RVA": "0x1a2b250",
+    "early_return_value": 2,
+    "generic_request_tail_jump_RVA": "0x115ac26",
+    "generic_request_target_RVA": "0x115ade0",
+    "no_local_postreturn_result3_handler": true,
+    "selected_begin_RVA": "0x115ab90",
+    "selected_end_RVA_exclusive": "0x115ac2b",
+    "state0_to1_claim_call_RVA": "0x115abb2",
+    "tail_jump_RCX": "AB90originalincomingRDX"
+  },
+  "bounded_execution": {
+    "Ghidra_jobs": 2,
+    "PE_header_and_pdata_bytes": 2450948,
+    "PE_identity_hash_stream_bytes": 53573840,
+    "PE_metadata_passes": 1,
+    "all_changes_discarded": true,
+    "failed_or_retried_PE_passes": 0,
+    "imports_or_source_data_sections_scanned": false,
+    "max_cpu": 2,
+    "noanalysis": true,
+    "outside_blocks": 15,
+    "raw_E8_candidates": 2,
+    "raw_E9_candidates": 0,
+    "readOnly": true,
+    "retained_raw_candidates": 2,
+    "second_caller_exported": false,
+    "selected_caller_records": 1,
+    "terminal_exit_codes": [
+      0,
+      0
+    ],
+    "total_expanded_instructions": 503,
+    "total_selected_code_bytes": 2001,
+    "total_selected_instructions": 444,
+    "total_selected_records": 2
+  },
+  "caller_source": {
+    "AB90_call_RVA": "0xcfbc8f",
+    "AB90_input_pointer_LEA_RVA": "0xcfbc80",
+    "AB90_second_argument": "Local pointer selected fromRSP+0x78 or the pointer stored there.",
+    "build_local_slot": "RBP+0x37c = input+0x1c",
+    "build_local_store_RVA": "0xcfba16",
+    "build_local_value": "0xffffffff",
+    "numeric_owner_field_offset": "0x100e8",
+    "numeric_type_mapping": {
+      "1": 2,
+      "2": 3,
+      "3": 4,
+      "4": 4,
+      "other": 1
+    },
+    "output_object": "CFB680incomingRDX retained inR15",
+    "owner_input": "CFB680incomingRCX retained inRDI",
+    "request_block": "RBP+0x360",
+    "selected_begin_RVA": "0xcfb680",
+    "selected_end_RVA_exclusive": "0xcfbdb6",
+    "semantic_names_for_numeric_values_proved": false,
+    "type_local_slot": "RBP+0x378 = input+0x18",
+    "type_local_store_RVA": "0xcfba10",
+    "type_local_value": "ESI from numeric mapping"
+  },
+  "date": "2026-10-25",
+  "evidence_receipts": [
+    {
+      "bytes": 10839,
+      "logical_name": "AB90-forwarding-static-proof",
+      "sha256": "6083cafc2ec2acb3541c3cbbc3603aa6677915c2be266381fdf342000502a891"
+    },
+    {
+      "bytes": 13999,
+      "logical_name": "selected-caller-and-fallback-static-proof",
+      "sha256": "59319bc70ec56a6c0cf0f2439da6a5afe20eb1f2469820bc7d597622bb9042f8"
+    },
+    {
+      "bytes": 24053,
+      "logical_name": "retained-fixed-N-two-DWORD-copy-contract",
+      "sha256": "7dcf0ec1f66f17d7a43160a963b809b7e3070c41c46c27111c3e8b7e20b015d5"
+    }
+  ],
+  "execution": {
+    "IPC_sent": false,
+    "client_launched": false,
+    "computer_use": false,
+    "full_upgrade_complete": false,
+    "network_requests": 0,
+    "replay_read": false,
+    "replay_written": false,
+    "scope_name": "static_native_analysis_lane",
+    "sync_changed": false,
+    "target_executed": false
+  },
+  "export_quality": [
+    {
+      "begin_RVA": "0x115ab90",
+      "code_bytes": 155,
+      "decompile_completed": true,
+      "end_RVA_exclusive": "0x115ac2b",
+      "expanded_instructions": 97,
+      "outside_blocks": 15,
+      "selected_instructions": 37,
+      "size_limit_truncated": false
+    },
+    {
+      "begin_RVA": "0xcfb680",
+      "code_bytes": 1846,
+      "decompile_completed": true,
+      "end_RVA_exclusive": "0xcfbdb6",
+      "expanded_instructions": 406,
+      "outside_blocks": 0,
+      "selected_instructions": 407,
+      "size_limit_truncated": false
+    }
+  ],
+  "fixed_N_copy_contract": {
+    "N": "0x4180",
+    "actual_input_build_value_or41810_request_observed": false,
+    "all_N_memmove_parity_proved": false,
+    "asserted_source_byte_offsets": [
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ],
+    "build_field_transfer": "input+0x1c tobuffer+0x4c",
+    "conditional_two_DWORD_transfer_closed": true,
+    "conditions": [
+      "AB90 guarded copy path is reached.",
+      "Input range[input,input+4180) is readable and destination range[buffer+30,buffer+41B0) is writable.",
+      "Pointer extents do not wrap and copy completes without fault or concurrent source/destination mutation.",
+      "REP path requires clear direction flag; no CLD is present in the retained tail.",
+      "The retained expanded REP tail is outside selected RuntimeFunction; no new native authentication was performed here."
+    ],
+    "source_snapshot": "Source bytes at entry to1A2B250, after preceding AB90CAS and buffer+8044 call.",
+    "type_field_transfer": "input+0x18 tobuffer+0x48"
+  },
+  "format": "main-ipc-bulk-request-source-and-non1-fallback-static-observation-v1",
+  "limits": [
+    "The combined native export payload exceeded its65536byteguard by10237bytes. Budget compliance is not claimed; no retry or second caller export was performed.",
+    "AB90expandedoutput has15outsideblocks. The selected caller has0outsideblocks, but interprocedural helper and alias effects remain unproved.",
+    "The selected caller is not established to be replay-specific; owner numeric mode values have no authenticated semantic names.",
+    "Copy identity is narrow and conditional at copy entry. It is not a claim of upstream value preservation or global all-N bytecopy parity.",
+    "No concrete41810request, historical client payload, downloader or working replay upgrade was recovered."
+  ],
+  "native_export_budget": {
+    "actual_combined_native_payload_bytes": 75773,
+    "budget_satisfied": false,
+    "caller_payload_bytes": 64443,
+    "exceeded_by_bytes": 10237,
+    "initial_AB90_payload_bytes": 11330,
+    "interpretation": "The native payload budget was exceeded. Completion and verified local facts are not evidence that the size bound was met.",
+    "no_retry": true,
+    "no_second_caller_export": true,
+    "output_preserved": true,
+    "planned_combined_native_payload_bytes": 65536
+  },
+  "next_retained_seed": {
+    "begin_RVA": "0xcfc16a",
+    "bounds_already_persisted": true,
+    "code_bytes": 1606,
+    "end_RVA_exclusive": "0xcfc7b0",
+    "not_exported": true,
+    "raw_call_site_RVA": "0xcfc660",
+    "semantics_unproved": true,
+    "target_RVA": "0x115ab90"
+  },
+  "non1_fallback": {
+    "distinct_result3_comparison": false,
+    "downloader_identified": false,
+    "equal_skip_target_RVA": "0xcfbcd7",
+    "fallback_return_status_checked": false,
+    "non1_call_RVA": "0xcfbcd2",
+    "non1_call_target_RVA": "0x115ac30",
+    "normal_common_path": "Call0x2923d0, writeQWORD0 andDWORD9 through the second incoming object pointer, then return that pointer.",
+    "predicate": "EAX ==1",
+    "result3_follows_non1_path": true,
+    "result_compare_RVA": "0xcfbc94"
+  },
+  "open_questions": [
+    "Producer and value of a concrete non-sentinel requested build, including41810.",
+    "Behavior of the unselected second caller.",
+    "Downloader or old-client-data acquisition beyond this non1 fallback."
+  ],
+  "repository_baseline": "0f2086b521558f1b8bc74358358d42959c45dc97",
+  "scope_name": "static_native_analysis_lane",
+  "source": {
+    "address_convention": "RVA unless explicitly marked VA",
+    "client_build": 98348,
+    "client_bytes": 53573840,
+    "client_sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+    "decoded_patch_bytes": 36581376,
+    "decoded_patch_sha256": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83"
+  },
+  "source_preservation_guard": {
+    "direct_same_literal_slot_rewrite_in_selected_ASM_found": false,
+    "earlier_AB90_CAS_and_flag_call_alias_effects_ruled_out": false,
+    "full_interprocedural_alias_contracts_proved": false,
+    "interpretation": "The explicit sentinel store is authenticated. It is not proof thatFFFFFFFF is the final transferred DWORD.",
+    "intervening_opaque_calls_after_store_before_AB90": 11,
+    "payload_pointer_escaped_before_store": {
+      "call_RVA": "0xcfb997",
+      "callee_RVA": "0xcffd10"
+    },
+    "runtime_value_at_copy_entry_observed": false,
+    "value_unchanged_from_upstream_store_to_copy_entry_proved": false
+  }
+}
