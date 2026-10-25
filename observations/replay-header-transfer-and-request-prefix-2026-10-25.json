@@ -1,0 +1,271 @@
+{
+  "cached_transfer_wrapper": {
+    "D": "Entry RDX retained in RSI.",
+    "O": "Entry RCX retained in RBX.",
+    "earlier_loader_T_plus_8_write_or_build_semantics_proved": false,
+    "earlier_loader_stack_overlap": "Still conditional on the separate 1A24E60 RAX=0x90540 preservation contract.",
+    "interval_RVA": [
+      "0x134DC00",
+      "0x134DC6C"
+    ],
+    "low_bit_already_set": "Skip the call at 0x134DC29.",
+    "low_bit_clear": {
+      "arguments": "RCX=O+8, RDX=O+0x1370",
+      "site_RVA": "0x134DC29",
+      "target_RVA": "0x134DC70"
+    },
+    "nonzero_delegate_return": "Store EAX at DWORD[O+0x33310] at 0x134DC32 and return that value.",
+    "transfer": {
+      "arguments": "RCX=D, RDX=O+0x1370",
+      "normal_completion": "Ignore callee EAX; XOR EAX,EAX at 0x134DC5F and return zero.",
+      "site_RVA": "0x134DC55",
+      "target_RVA": "0x134C220"
+    },
+    "typed_schema_output_layout_extent_and_copy_parity_proved": false,
+    "zero_delegate_return": "Set bit0 of DWORD[O] at 0x134DC48 and continue."
+  },
+  "date": "2026-10-25",
+  "evidence_pins": [
+    {
+      "bytes": 19423,
+      "role": "fixed three-record postscript",
+      "sha256": "18f85fe1268e987af16e11c5a941382ff1035a9339a80bd2de16a7606b137d9f"
+    },
+    {
+      "bytes": 2560,
+      "role": "fixed three-record selection",
+      "sha256": "e3ce90f6f338c78ede7c5b0bb5d35a6c310be2af87c36c7cd18365a2c91d115c"
+    },
+    {
+      "bytes": 1467,
+      "role": "read-only runner",
+      "sha256": "e0fdede655cfd1e8285dea5510a520c1117a49dd7bfac0c34501dcf8a818e74f"
+    },
+    {
+      "bytes": 6840,
+      "role": "retained V3 metadata checkpoint",
+      "sha256": "fd37dd058867c84bde36b4f3583b2910cd3019f83b79a97d578e44b9e6afa3ee"
+    },
+    {
+      "bytes": 1421,
+      "role": "selected prefix first record",
+      "sha256": "1bafdce0b04c0837d31dc0bf41feaf44c8e2d817eb1c929605eef6ea69a6a1fd"
+    },
+    {
+      "bytes": 9976,
+      "role": "selected prefix second record",
+      "sha256": "d5c371c0d471b5555da10bcff26fdfaf5056945371825b03a698121ccf423d14"
+    },
+    {
+      "bytes": 1780,
+      "role": "selected cached-transfer wrapper",
+      "sha256": "b36a9b253bfe439fbc34d17eb3b831fe7933c31ed14c75264c6dccd54aabe7c2"
+    },
+    {
+      "bytes": 4862,
+      "role": "selected quality receipt",
+      "sha256": "4daa1bab0c89ef7149726cee92df2fcdfff50d3e96b935054143450dd54e42cb"
+    },
+    {
+      "bytes": 5290,
+      "role": "headless completion and discard log",
+      "sha256": "a85c61341c6b1806f9d293d9f8864f5cc8fc1cb8511bfd549d77fa0ab79ed280"
+    },
+    {
+      "bytes": 49,
+      "role": "terminal completion marker",
+      "sha256": "67e6d193e1b3afacd9484f9a7d53cfbbc136164eddbbbae725c36cfd155f4725"
+    },
+    {
+      "bytes": 19575,
+      "role": "retained second-caller listing",
+      "sha256": "effe287124ad7de06f4f92ecd5482fa40bd48872a188bda2c696e784b36fdc82"
+    },
+    {
+      "bytes": 11007,
+      "role": "approved private three-record proof",
+      "sha256": "fc7b35867be49659fcaa0354f1203429b31c87a869efd166d9f1a98532c9d8f1"
+    },
+    {
+      "bytes": 2344,
+      "role": "independent root three-record review",
+      "sha256": "f2c745c814a816ffdb971fdb03f88c2c56abbecea38e4cab7e1278ac36fa995a"
+    }
+  ],
+  "execution_scope": {
+    "Computer_Use": false,
+    "IPC_send": false,
+    "game_or_client_launch": false,
+    "network_requests_in_this_lane": 0,
+    "repository_or_canonical_written": false,
+    "target_code_execution": false
+  },
+  "export": {
+    "ASM_bytes": 13177,
+    "C_or_expanded_ASM_used": false,
+    "Ghidra_version": "12.0.4",
+    "attempts": 1,
+    "code_bytes": 1046,
+    "complete_per_record_instruction_spans_and_patch_bytes_checked": true,
+    "completion_and_readonly_discard_retained": true,
+    "direct_branches": 25,
+    "direct_calls": 18,
+    "exit_code": 0,
+    "instructions": 223,
+    "max_cpu": 2,
+    "noanalysis": true,
+    "old_CFC16A_reexported": false,
+    "payload_bytes": 18039,
+    "payload_scope": "Three selected ASM files plus quality JSON; logs/scripts/proofs are separate provenance.",
+    "prewrite_cap_passed": true,
+    "prewrite_payload_cap_bytes": 32768,
+    "primary_procedure_entries_or_full_CFG_proven": false,
+    "quality_JSON_bytes": 4862,
+    "readOnly": true,
+    "records": [
+      {
+        "code_bytes": 99,
+        "direct_branches": 1,
+        "direct_calls": 1,
+        "direct_noncall_targets_outside_batch": 0,
+        "direct_noncall_targets_outside_record": 0,
+        "instructions": 23,
+        "interval_RVA": [
+          "0xcfbdc0",
+          "0xcfbe23"
+        ],
+        "selected_code_sha256": "b258583f4d9f38f8b4513e78dc57097d597601f39439cba9e6bd13a61e5c4907",
+        "unique_covering_record_proven": false
+      },
+      {
+        "code_bytes": 839,
+        "direct_branches": 22,
+        "direct_calls": 15,
+        "direct_noncall_targets_outside_batch": 1,
+        "direct_noncall_targets_outside_record": 1,
+        "instructions": 169,
+        "interval_RVA": [
+          "0xcfbe23",
+          "0xcfc16a"
+        ],
+        "selected_code_sha256": "5b36da728189ea337d2eeb1947f4cb0df4270efff531c544ccabf7abe8c3c5fb",
+        "unique_covering_record_proven": false
+      },
+      {
+        "code_bytes": 108,
+        "direct_branches": 2,
+        "direct_calls": 2,
+        "direct_noncall_targets_outside_batch": 0,
+        "direct_noncall_targets_outside_record": 0,
+        "instructions": 31,
+        "interval_RVA": [
+          "0x134dc00",
+          "0x134dc6c"
+        ],
+        "selected_code_sha256": "8e23bb90a05f8f8e8d7d1cfe5b57e89f52f88bd974c06e437f7690fb5f3ca6d4",
+        "unique_covering_record_proven": false
+      }
+    ],
+    "relative_targets_independently_rechecked_from_saved_bytes": true,
+    "selected_code_concatenation_sha256": "c086e39c944850c960aeacf01d069c2f4407bf7b2777c18aee2b246a72938e38",
+    "selected_records": 3
+  },
+  "format": "replay-header-transfer-and-request-prefix-v1",
+  "full_migration_complete": false,
+  "full_replay_upgrade_complete": false,
+  "full_upgrade_complete": false,
+  "limits": [
+    "Entry-argument and stack identities require the helper preservation contract.",
+    "The wrapper delegates parsing/transfer; callee behavior and transferred field layouts remain unknown.",
+    "Local stores, earlier pointer escape and actual source bytes at copy entry are separate claims.",
+    "No field is assigned executable/data-build meaning; no acquisition/downloader or native playback result is established."
+  ],
+  "metadata_and_input_accounting": {
+    "global_EndAddress_nonoverlap_verified": false,
+    "new_source_PE_reads_by_export_preparation_and_postscript": 0,
+    "patch_file_bytes_verified_by_postscript": 36581376,
+    "retained_V3_Python311_and_identity_gates_passed": true,
+    "retained_V3_hashstream_bytes": 0,
+    "retained_V3_source_metadata_bytes": 460,
+    "saved_program_patch_memory_bytes_verified": 36581376,
+    "selection_rule": "greatest BeginAddress <= target, then checked to cover target",
+    "strict_BeginAddress_sorting_inherited": true,
+    "unique_covering_records_proven": false
+  },
+  "next_contract_seeds": [
+    "0x1A24E60",
+    "0x134C220",
+    "0x134DC70"
+  ],
+  "playback_validated": false,
+  "prefix_register_boundary": {
+    "R13_seed": "Post-helper RDX copied at 0xCFBDE1.",
+    "RSI_identity_equals_separate_loader_controller_proved": false,
+    "RSI_seed": "Post-helper RCX copied at 0xCFBDE4.",
+    "callee_nonvolatile_register_effects_independently_closed": false,
+    "entry_RCX_RDX_RAX_preservation_contract_proved": false,
+    "helper_sequence": "EAX=0x45F0; CALL 0x1A24E60 at 0xCFBDD2; SUB RSP,RAX at 0xCFBDD7.",
+    "initial_RBP_assignment": "0xCFBDC5 forms RBP from then-current RSP-0x44F0.",
+    "local_R14D_numeric_mapping": {
+      "1": 2,
+      "2": 3,
+      "3_or_4": 4,
+      "other": 1
+    },
+    "mode_read_RVA": "0xCFBE40",
+    "mode_source": "DWORD[RSI+0x100E8]",
+    "numeric_mode_value_or_human_name_observed": false
+  },
+  "record_joins": {
+    "destinations_are_retained_instruction_boundaries": true,
+    "explicit_direct_outside_batch_edge": [
+      "0xCFC168",
+      "0xCFC1BA"
+    ],
+    "first_to_second_fallthrough_RVA": "0xCFBE23",
+    "observed_runtime_execution_sequence_proved": false,
+    "retained_listing_hash_checked_and_reused": true,
+    "retained_record_interval_RVA": [
+      "0xCFC16A",
+      "0xCFC7B0"
+    ],
+    "untaken_branch_fallthrough_into_retained_record_RVA": "0xCFC16A"
+  },
+  "repository_baseline": "c08d4b9fdd266be65859483911a5c7dd01fb8d05",
+  "request_value_boundary": {
+    "P": "RBP+0x350",
+    "actual_value_or_executable_data_build_meaning_proved": false,
+    "earlier_pointer_escape": {
+      "argument_RVA": "0xCFC12C",
+      "arguments": "RCX=P, RDX=RSI+0x19140",
+      "call_RVA": "0xCFC153",
+      "target_RVA": "0xCFFD10"
+    },
+    "initial_input18": {
+      "literal": 1,
+      "store_RVA": "0xCFBFF3"
+    },
+    "initial_input1C": {
+      "literal": "0xFFFFFFFF",
+      "store_RVA": "0xCFBFFD"
+    },
+    "initial_sentinel_equals_later_value_proved": false,
+    "opaque_alias_effects_or_final_copy_entry_snapshot_stability_proved": false,
+    "retained_input18_store": "0xCFC1EE stores inherited R14D before its subsequent local zeroing.",
+    "retained_member_overwrite": "0xCFC1DB reads DWORD[RSI+0x19118]; 0xCFC1E1 overwrites input+0x1C."
+  },
+  "scope_name": "static_native_analysis_lane",
+  "scope_stage": "Fixed three-record export and its saved-text review. Subsequent contract investigations are separate.",
+  "source": {
+    "PE_bytes": 53573840,
+    "PE_sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+    "client_build": 98348,
+    "image_base": "0x140000000",
+    "patch_RVA": [
+      "0xBA000",
+      "0x239D000"
+    ],
+    "patch_bytes": 36581376,
+    "patch_sha256": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83"
+  }
+}
