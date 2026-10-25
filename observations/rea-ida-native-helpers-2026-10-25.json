@@ -1,0 +1,105 @@
+{
+  "format": "actual-REA-IDA-native-helper-observations-v1",
+  "date": "2026-10-25",
+  "instruction_source": {
+    "classification": "analyst-derived static PE with identified text overlay",
+    "bytes": 53573840,
+    "sha256": "5ae49a508fe545fe462cee32ff6441ecf9d5c2be484c5980a74a6eca11fbcc1d",
+    "source_PE_bytes": 53573840,
+    "source_PE_sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+    "overlay_bytes": 36581376,
+    "overlay_sha256": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83",
+    "unaltered_source_PE_or_runtime_capture": false
+  },
+  "provider": "ida",
+  "actual_analysis_requests_succeeded": 3,
+  "entries": [
+    {
+      "entry_EA": "0x141A77970",
+      "evidence_id": "ev_2afa2ff68b6fab813ebeaed75af4cceef84dac7b892c3b8e6595f8c0aff3e1c0",
+      "evidence_bytes": 39805,
+      "evidence_sha256": "71320e13ac036e8c66433a618b55c1bcdc6500eb7f8f73bb6583f7e5f342ec80",
+      "pseudocode_bytes": 4788,
+      "pseudocode_sha256": "86ce5d4479169875d38c60cb614a20c28b76b2a62d2a9b6c7e1e1b863d33036b",
+      "assembly_lines": 175,
+      "complete_body_ranges_available": false,
+      "CFG_available": false
+    },
+    {
+      "entry_EA": "0x141A6D3D0",
+      "evidence_id": "ev_adeb18ab51648798efa0a6177cbc1bbbc4e91464c6696eb0902839b7724f6ec2",
+      "evidence_bytes": 9872,
+      "evidence_sha256": "df34defd7d15e27be2c19cf13ff690f3f1a3424d70f816b0ccadeff62ee12201",
+      "pseudocode_bytes": 163,
+      "pseudocode_sha256": "3c66b1c8815e63b43bffb810a0c58152ee1c84638507b809c668f03263634cd2",
+      "assembly_lines": 11,
+      "complete_body_ranges_available": false,
+      "CFG_available": false
+    },
+    {
+      "entry_EA": "0x141A79150",
+      "evidence_id": "ev_f60392ab9bcb769ed3947d2d5dcfe8e30244e265196225e45af715de6a875429",
+      "evidence_bytes": 8940,
+      "evidence_sha256": "e5de1abf023a274641ef124c114b527cc9e2de867efaabf75990a0adf2fc84a0",
+      "pseudocode_bytes": 184,
+      "pseudocode_sha256": "0d9dbbc4da22e9832d5e35ff627a576ed52458d4b9d7ae00386d906a8853ad07",
+      "assembly_lines": 9,
+      "complete_body_ranges_available": false,
+      "CFG_available": false
+    }
+  ],
+  "interpretation": {
+    "STRUCT": "Reads versioned STRUCT tag/count, requires ascending tags, performs field lookup and offset addition, constructs a child request and recursively calls core1A76740.",
+    "USER_descriptor": "Calls common descriptor initializer and BE32 child-type reader1A781E0.",
+    "integer_storage": "Shifts a64-bit value and stores successive low bytes for the supplied count.",
+    "corroboration": "Pseudocode agrees with the separately decoded instruction routes; both workflows use IDA, so a different independent native engine is not claimed."
+  },
+  "limitations": [
+    "Complete body ranges, basic blocks, typed references, referenced names and direct callers are unavailable in the REA adapter. Unsupported empty facets are unknown.",
+    "Pseudocode is an analyst aid; signatures, source-level names and full replay compatibility are not established.",
+    "Results refer to the derived analysis input, never an unaltered executable or observed runtime memory.",
+    "This does not establish later caller/cache ownership or deterministic playback."
+  ],
+  "lifecycle": {
+    "analysis_status": "three-entry-observations-exported",
+    "driver_exit_code": 1,
+    "close_binary_confirmed": false,
+    "client_close_settled": true,
+    "close_error_code": "cleanup_incomplete",
+    "close_error_reason": "IDA worker remains registered after close; registry session_id was empty and ownership false; registry activity does not prove liveness.",
+    "owned_Job_zero_active_after_cleanup": true,
+    "forced_owned_Job_cleanup": false,
+    "derived_target_identity_unchanged": true,
+    "private_workspace_retained": true,
+    "clean_REA_lifecycle_claimed": false
+  },
+  "resources": {
+    "elapsed_seconds": 384.719,
+    "peak_monitored_workspace_bytes": 828552261,
+    "minimum_observed_available_RAM": 3745513472,
+    "peak_observed_user_plus_kernel_CPU_seconds": 349.531
+  },
+  "receipt_fingerprints": {
+    "summary": {
+      "bytes": 1851,
+      "sha256": "288b13991914a798a138bfa9aaf0abfca74f664f30e2a60b53529b66be48ba23"
+    },
+    "launcher": {
+      "bytes": 1323,
+      "sha256": "38f5d22088d342bffc1990a8dc50571198f8d7c5fec8022a5c31527437396369"
+    },
+    "close_error": {
+      "bytes": 2471,
+      "sha256": "5ad76e9dc21a41df4e6fbc5cfba0ccb9bb90c8b26b9d19d71bba3e3f60a3ca67"
+    }
+  },
+  "scope": {
+    "static_analysis": true,
+    "native_target_execution": false,
+    "Computer_Use": false,
+    "game_launched": false,
+    "new_replay_generated": false,
+    "full_upgrade_complete": false,
+    "playback_validated": false
+  }
+}
