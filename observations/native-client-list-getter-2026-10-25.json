@@ -1,0 +1,128 @@
+{
+  "format": "native-client-list-getter-static-observation-v1",
+  "status": "reviewed-static-evidence",
+  "client_build": 98348,
+  "source_scope": {
+    "original_PE_bytes": 53573840,
+    "original_PE_sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+    "selected_code": "existing analyst-derived statically transformed text patch; not runtime capture or unaltered on-disk PE text",
+    "patch_bytes": 36581376,
+    "patch_sha256_inherited_not_rehashed": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83",
+    "new_patch_bytes_read": 138,
+    "new_PE_pdata_or_full_hashstream_bytes": 0,
+    "four_identity_guards_match": true
+  },
+  "getter": {
+    "entry_RVA": "0xCBF6D0",
+    "selected_window_bytes": 128,
+    "decoded_entry_prefix_bytes": 20,
+    "instructions": 6,
+    "first_RET_RVA": "0xCBF6E3",
+    "contract": "For receiver P, return P+0x4430 if DWORD[P]==2; otherwise return P+0x1C0. EAX/EDX constants and CMOVNZ select the offset before ADD RAX,RCX.",
+    "memory_writes": 0,
+    "calls": 0,
+    "branch_CODE_targets": 0,
+    "selected_entry_flow_terminates_at_RET": true,
+    "RuntimeFunction_bounds_or_global_CFG_claim": false,
+    "IDA_exit_code": 0,
+    "native_payload_cap": 8192
+  },
+  "actual_call_anchors": [
+    {
+      "RVA": "0xdff506",
+      "E8_target_RVA": "0xcbf6d0",
+      "five_bytes_checked": true
+    },
+    {
+      "RVA": "0xdff8f4",
+      "E8_target_RVA": "0xcbf6d0",
+      "five_bytes_checked": true
+    }
+  ],
+  "receiver_bindings": [
+    {
+      "function_RVA": "0xDFE7D0",
+      "local_symbols": "A=QWORD[post-prologue RCX+8]; P=A+0x28 atDFE809",
+      "call_setup": "DFF503 and DFF8F1 put P inRCX before DFF506/DFF8F4",
+      "conditional_result": "If DWORD[P]==2, list=A+0x4458; otherwise list=A+0x1E8. No observed runtime value is asserted.",
+      "list_geometry": "Count at returned base, first record+8, stride0x360 in retained consumer.",
+      "consumer": "Tag1 payload voice flags+2C1/+2C2 combine byOR into slot+6CB; staff+2C3 copies to+6CC; boost+35C copies to+6CD. None assigns historical values."
+    },
+    {
+      "function_RVA": "0x6BEF94",
+      "local_symbols": "B=QWORD[global RVA3771BA8] as loaded locally",
+      "first_path": "6BF476 tests DWORD[B+28] maskFFFFFFFD (admits0or2);6BF48F/6BF4B3 call withP=B+28.",
+      "metadata_path": "6BFC6F setsQ=B+8088;6BFC76 requires DWORD[Q]==0;6BFC89/6BFCA3 call withQ. Result=Q+1C0=B+8248.",
+      "metadata_arithmetic": "B+8248=(B+8090)+1B8, distinct from B+4458 when first path hasmode2.",
+      "same_instance_limit": "Separate global loads and source state/lifetime are not a cross-function actual-instance proof."
+    }
+  ],
+  "recorded_loader_context": {
+    "function_RVA": "0xCFE3B0",
+    "local_owner_symbol": "C",
+    "retained_path": "CFE439..43C selects owner C+100E8 value2 branch. CFED28 stores discriminator atC+8088;CFED1A/2E supplies C+8090 to6BA2B0 on metadata success.",
+    "copy_anchor": "6BA2D0/2DD supplies source/destination+1B8 to6B5BA0 at6BA2F0. This anchors the metadata copier field, not the separate mode2 list.",
+    "identity_limit": "A,B,C are per-function symbols. The same-instance bridge fromDFE7D0 receiver toCFE3B0 loader owner is unproved here."
+  },
+  "next_finite_work": "Establish an actual call/receiver chain for the DFE7D0 A+28 object and its mode2 list backing; then select a producer/copy operation writing that typed list. No direct mode2 list population was authenticated in the retained named caller/copier windows. Do not substitute metadata6BA2B0+1B8 for this missing producer.",
+  "conversion_limits": [
+    "No source41810 playerLevel,boost,voice orstaff values recovered.",
+    "Constructor zeros and SharedPlayerInfo sentinel are initialization, not migration defaults.",
+    "No new replay, native playback, synchronization parity or green exact-head CI claim."
+  ],
+  "source_pins": [
+    {
+      "source": "preparation.json",
+      "bytes": 2787,
+      "sha256": "690ba0269f2f9095640af2eafc7fc493817fdc03fc708af10fa80cc4bcebdeaa"
+    },
+    {
+      "source": "client-list-getter-firstret.asm.tsv",
+      "bytes": 344,
+      "sha256": "717b9f68b36b5c761b9b40cceeb660bac6e7f3e479898165e712f848fc2253b1"
+    },
+    {
+      "source": "client-list-getter-firstret-quality.json",
+      "bytes": 1450,
+      "sha256": "08d7c7bb31360f1d91447b6288a31597b7d4d4668d40a05e06506715e1ed66fa"
+    },
+    {
+      "source": "completed.json",
+      "bytes": 180,
+      "sha256": "fc3396e0a91cdf020a92a46cb189f569680349e98b9c9f5645cfaa5e06e509bc"
+    },
+    {
+      "source": "decode_client_list_getter_firstret.draft.idc",
+      "bytes": 13045,
+      "sha256": "c86d036070ff985df5314c527205d1c2401018b47faba23289783cf096bf8931"
+    },
+    {
+      "source": "decode_client_list_getter_firstret.reviewed.idc",
+      "bytes": 13045,
+      "sha256": "af40adfe150e8516955dee5220270378a198f91ce0364cbcf310ff338bd0964c"
+    },
+    {
+      "source": "retained/00DFE7D0.asm.txt",
+      "bytes": 42820,
+      "sha256": "4b4ae2a15f42d81668f65d2d3ed936ac2a63d0e95298a0fc32f0afc2bfb55c9b"
+    },
+    {
+      "source": "retained/00CFE3B0.asm.txt",
+      "bytes": 23685,
+      "sha256": "8d54c160f863f50db55cdb78155c64428562a01f963f6bbfbdfccc1a00bd8ea0"
+    },
+    {
+      "source": "retained/006BEF94.asm.txt",
+      "bytes": 61920,
+      "sha256": "525eb44198421fdba2a8dd3a896ee5be6d7ce3204612c3d5cae4adb197f0b885"
+    },
+    {
+      "source": "retained/006BA2B0.asm.txt",
+      "bytes": 5355,
+      "sha256": "29f4d1f0aa3b5cabc2486c6e890a120a59855eafe79f7c8984ae89649d723f2e"
+    }
+  ],
+  "game_or_CU_or_network_used": false,
+  "full_upgrade_complete": false,
+  "full_replay_upgrade_complete": false
+}
