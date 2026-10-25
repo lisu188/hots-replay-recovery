@@ -957,3 +957,36 @@ source and all checkpoints. Resource identity/ownership, current-only ClientInfo
 semantics, historical catalog rules and deterministic synchronization remain
 unresolved. The full5917 lobby encoder remains inverse-only; never treat this
 native775 writer as a writer for that separate graph or guess missing values.
+
+
+## Current whole-lobby value writer - 2026-10-25
+
+Read `docs/NATIVE_LOBBY_VALUES_2026-10-25.md` and the new
+`observations/native-lobby-zero-context-static-proof-2026-10-25.json`,
+`observations/native-lobby-values-21-current-2026-10-25.json` and
+`observations/native-lobby-values-local-tests-2026-10-25.json`.
+The new `native_lobby_values.py` supplies an actual typed-value writer for the
+current online5917 graph. The previous `native_startgame.py` remains unchanged
+and source-only. Do not apply the older inverse-only limitation to this new API.
+
+Fresh read-only Ghidra exports prove context0 for Battlelobby reader and writer,
+plus CHOICE tag/child lookup, strict ASCII1..126, NULL and raw REAL patterns.
+The exact existing selected513-type schema includes online5917 and offline5962;
+public value APIs support online5917 only. All513 types/16kinds have synthetic
+coverage; actual21 controls observe400 types/13kinds. Current native775 remains
+a separate registry/root, sharing only the authenticated STRING helper.
+
+All21 complete current members reproduce source and canonical bytes exactly;
+8,897,304 logical nodes agree with the frozen independent reader. A public-EU
+seed BLOB4B edit exists only in RAM: exactly one changed bit in its known span,
+independently decoded, all other bits preserved. All source files are unchanged.
+22 new tests plus110 neighboring tests pass locally. The new CI gate repeats
+current-EU canonical/source identity and independent RAM mutation checks; assess
+its exact published commit separately. No original/R8 replay or client was used
+in this21-control integration, and no archive/member payload was written.
+
+Full historical conversion remains false. Do not insert guessed ClientInfo or
+SharedPlayerInfo fields, ResourceState/ownership values or catalogs. Current
+ctor defaults and optional field preambles do not supply historical values.
+Preserve all synchronization data. Latest replay remains98285-resumable-r8;
+no Computer Use or game launch under the current user instruction.

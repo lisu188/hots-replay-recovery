@@ -231,6 +231,33 @@ jobs:
           assert whole['safe_array_counts']['/m_clientInfoList'] == 10
           assert whole['decoded_fields'] == 424200 and whole['wire_tokens'] == 158055
           print({'native_OnlineStartGameRequest_root': 5917, 'complete_member_EOF_and_bytes_exact': True, 'named_root_fields': 25})
+          from native_lobby_values import decode_lobby_values, encode_lobby_values, reencode_lobby_source
+          from native_startgame import decode_startgame, PROFILE as ONLINE_PROFILE
+          lobby_values = decode_lobby_values(raw)
+          assert lobby_values.source_sha256 == whole['member_sha256']
+          assert lobby_values.payload_end_bit == whole['native_payload_end_bit'] == 2279032
+          assert len(raw) == 284879 and encode_lobby_values(lobby_values.value) == raw
+          assert reencode_lobby_source(lobby_values) == raw
+          value_facts = lobby_values.summary()
+          assert value_facts['decoded_nodes'] == 424200
+          assert value_facts['array_elements'] == 107888
+          reference_lobby = decode_startgame(raw, ONLINE_PROFILE)
+          seed_span = reference_lobby.field('/m_randomSeed', 'BLOB')
+          assert seed_span.end_bit - seed_span.start_bit == 32
+          seed = lobby_values.value[1]
+          assert type(seed) is bytes and len(seed) == 4 and seed == seed_span.value
+          edited_seed = bytes([seed[0] ^ 1]) + seed[1:]
+          edited_tree = lobby_values.value[:1] + (edited_seed,) + lobby_values.value[2:]
+          edited_raw = encode_lobby_values(edited_tree)
+          edited_reference = decode_startgame(edited_raw, ONLINE_PROFILE)
+          assert edited_reference.field('/m_randomSeed', 'BLOB').value == edited_seed
+          assert len(edited_raw) == len(raw) and edited_reference.payload_end_bit == lobby_values.payload_end_bit
+          changed_bits = int.from_bytes(raw, 'little') ^ int.from_bytes(edited_raw, 'little')
+          seed_mask = ((1 << 32) - 1) << seed_span.start_bit
+          assert changed_bits.bit_count() == 1 and changed_bits & ~seed_mask == 0
+          write_json('work/current-native-lobby-values.json', {'format': 'native-lobby-values-current-EU-CI-v1', 'replay_sha256': profile['file_sha256'], 'native_lobby_values': value_facts, 'canonical_value_write_whole_member_exact': True, 'source_preserving_whole_member_exact': True, 'RAM_only_seed_edit_independent_read_and_single_bit_span_proven': True, 'source_replay_modified': False, 'client_or_ComputerUse_used': False, 'simulation_or_historical_conversion_proven': False})
+          print({'native_lobby_value_root': 5917, 'decoded_nodes': 424200, 'canonical_and_source_whole_bytes_exact': True, 'RAM_only_seed_edit_independent_read_and_single_bit_span_proven': True})
+
           reader = _Reader(raw)
           reader.position = mods['mod_metadata_end_bit']
           terminal = [cache_handle(reader.blob(40)) for _ in range(reader.bits(6))]
@@ -262,6 +289,7 @@ jobs:
             work/current-eu-profile.json
             work/current-eu-structure.json
             work/current-native-setup.json
+            work/current-native-lobby-values.json
             work/original-mapinfo-framing.json
           if-no-files-found: warn
           retention-days: 14

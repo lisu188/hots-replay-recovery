@@ -40,3 +40,7 @@ test_native_setup_writer.py -text whitespace=cr-at-eol
 test_native_setup_official.py -text whitespace=cr-at-eol
 test_native_setup_official_schema.json -text whitespace=cr-at-eol
 references/heroprotocol-LICENSE.txt -text whitespace=cr-at-eol
+
+# Preserve executed current5917 value codec and its source-bound tests.
+native_lobby_values.py -text whitespace=cr-at-eol
+test_native_lobby_values.py -text whitespace=cr-at-eol

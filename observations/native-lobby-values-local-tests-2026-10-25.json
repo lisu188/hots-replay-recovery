@@ -1,0 +1,56 @@
+{
+  "format": "native-lobby-values-local-regressions-v1",
+  "checked_at_utc": "2026-10-25T08:58:27.405518+00:00",
+  "tests_run": 132,
+  "new_value_codec_tests": 22,
+  "existing_selected_codec_tests": 110,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "modules": [
+    {
+      "file": "test_native_lobby_values.py",
+      "bytes": 25186,
+      "sha256": "d40b81364608203ae66d071c2dfa6eb2aa42dd0a5b341dca249560a411665568"
+    },
+    {
+      "file": "test_native_setup_writer.py",
+      "bytes": 13287,
+      "sha256": "0f5f597f3a6f9d23ed0d8cc6c3dd7e796aab798fda6785b7b940961cdf17f93f"
+    },
+    {
+      "file": "test_native_setup.py",
+      "bytes": 9279,
+      "sha256": "7bfab66229257d1a5ed19787ff612fc7c372b5390161fa5ae2a8746c1535de8d"
+    },
+    {
+      "file": "test_native_setup_official.py",
+      "bytes": 12148,
+      "sha256": "580d08f7ccd21b858912cd55da22c7f360822745a414cd300007712fa2176707"
+    },
+    {
+      "file": "test_native_clientinfo.py",
+      "bytes": 7078,
+      "sha256": "8e0b680dda9d14753a3747fb0d8579237d56f731a0c47976ba768b556b65e086"
+    },
+    {
+      "file": "test_native_mapinfo.py",
+      "bytes": 12858,
+      "sha256": "f5a506596d3f00ae9b73d9e957f9aa5b1191da72b0897bf551d6569703f6a757"
+    },
+    {
+      "file": "test_native_startgame.py",
+      "bytes": 15736,
+      "sha256": "e9ee35f9b5774ce6307e7697185e88eee6797299e2b921e87e8e4ac88f412173"
+    },
+    {
+      "file": "test_legacy_mapinfo_framing.py",
+      "bytes": 11041,
+      "sha256": "c41dd105a7489a80bce60ea26e2257c4e41feb40633ce219d15bae6e67bf1bd3"
+    }
+  ],
+  "native_lobby_values_sha256": "7b993e28191f1e9c3b4cd819344c27f315f8dba820460c42700d52d50e01ff0b",
+  "full_repository_corpus_run": false,
+  "replay_or_client_or_ComputerUse_accessed": false,
+  "full_upgrade_complete": false
+}

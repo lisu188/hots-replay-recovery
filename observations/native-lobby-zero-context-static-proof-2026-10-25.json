@@ -1,0 +1,345 @@
+{
+  "Ghidra_job_evidence": {
+    "changes_discarded_observed": true,
+    "headless_log": {
+      "bytes": 6094,
+      "name": "headless-startgame-value-writer-20261025.log",
+      "sha256": "a8b730e56109d73b3b590544a8da6070334844556eb368c58ef47546f9f10861"
+    },
+    "native_target_executed": false,
+    "read_only_processing_observed": true,
+    "reviewer_reran_Ghidra": false
+  },
+  "assessment": {
+    "full_upgrade_complete": false,
+    "implementation_tests_or_actual_value_writer_acceptance_proven_by_this_review": false,
+    "remaining_kind_specific_or_root_context_static_gaps_identified": [],
+    "static_contract_sufficient_for_strict_current5917_zero_context_logical_value_codec": true
+  },
+  "client_or_ComputerUse_used": false,
+  "format": "current5917-zero-context-value-writer-static-manual-proof-v1",
+  "fresh_selected_export_metadata": {
+    "all_six_decompile_completed": true,
+    "all_six_expanded_disassembly_not_truncated": true,
+    "bytes": 21044,
+    "four_descriptor_mapping_helpers_have_no_outside_RuntimeFunction_blocks": true,
+    "functions": [
+      {
+        "begin_rva": 20253424,
+        "decompile_completed": true,
+        "decompiler_block_disassembly_truncated": false,
+        "decompiler_block_instruction_count": 131,
+        "decompiler_blocks_outside_selected_RuntimeFunction": 11,
+        "end_rva_exclusive": 20253721,
+        "instruction_count": 67,
+        "name": "ObservedBattlelobbyWriter_1350AF0"
+      },
+      {
+        "begin_rva": 20235920,
+        "decompile_completed": true,
+        "decompiler_block_disassembly_truncated": false,
+        "decompiler_block_instruction_count": 210,
+        "decompiler_blocks_outside_selected_RuntimeFunction": 23,
+        "end_rva_exclusive": 20236300,
+        "instruction_count": 82,
+        "name": "ObservedBattlelobbyReader_134C690"
+      },
+      {
+        "begin_rva": 27709504,
+        "decompile_completed": true,
+        "decompiler_block_disassembly_truncated": false,
+        "decompiler_block_instruction_count": 12,
+        "decompiler_blocks_outside_selected_RuntimeFunction": 0,
+        "end_rva_exclusive": 27709542,
+        "instruction_count": 12,
+        "name": "ASCIIStringDescriptor_1A6D040"
+      },
+      {
+        "begin_rva": 27709808,
+        "decompile_completed": true,
+        "decompiler_block_disassembly_truncated": false,
+        "decompiler_block_instruction_count": 28,
+        "decompiler_blocks_outside_selected_RuntimeFunction": 0,
+        "end_rva_exclusive": 27709902,
+        "instruction_count": 28,
+        "name": "ChoiceDescriptor_1A6D170"
+      },
+      {
+        "begin_rva": 27711232,
+        "decompile_completed": true,
+        "decompiler_block_disassembly_truncated": false,
+        "decompiler_block_instruction_count": 49,
+        "decompiler_blocks_outside_selected_RuntimeFunction": 0,
+        "end_rva_exclusive": 27711387,
+        "instruction_count": 49,
+        "name": "ChoiceTagLookup_1A6D700"
+      },
+      {
+        "begin_rva": 27710960,
+        "decompile_completed": true,
+        "decompiler_block_disassembly_truncated": false,
+        "decompiler_block_instruction_count": 36,
+        "decompiler_blocks_outside_selected_RuntimeFunction": 0,
+        "end_rva_exclusive": 27711085,
+        "instruction_count": 36,
+        "name": "ChoiceFieldTypeLookup_1A6D5F0"
+      }
+    ],
+    "sha256": "2e8cbbda16f7457baa7147ab6dd6e2e94ef42a4d740b7ffcc2f62cc1dca6198c"
+  },
+  "fresh_source_fingerprints": [
+    {
+      "bytes": 21044,
+      "name": "ghidra-analysis.json",
+      "sha256": "2e8cbbda16f7457baa7147ab6dd6e2e94ef42a4d740b7ffcc2f62cc1dca6198c"
+    },
+    {
+      "bytes": 4066,
+      "name": "01350AF0.c",
+      "sha256": "ccd1c668aca56eafcb05fbb7877d62f1c664201992794868ac26f035a5733914"
+    },
+    {
+      "bytes": 4183,
+      "name": "01350AF0.expanded.asm.txt",
+      "sha256": "6fee0fd6d2d317fcfabc8d5f3fb7071cd52e01b237d4e2c3637fc67ea14f7b0d"
+    },
+    {
+      "bytes": 6802,
+      "name": "0134C690.c",
+      "sha256": "1112023bd837baf5d3a55103c123b4f585a5404e15b361ce9bb4321bcda6dc6e"
+    },
+    {
+      "bytes": 6794,
+      "name": "0134C690.expanded.asm.txt",
+      "sha256": "7e9c46ec8b63e9142f42624d34050fdcfafa2370358241fa3a14fdcb4bfac925"
+    },
+    {
+      "bytes": 201,
+      "name": "01A6D040.c",
+      "sha256": "6b3c0dd868a01c3b7e0b78b2a7a23378c5acb3bce35e6f5c524a4f07d8f6d57e"
+    },
+    {
+      "bytes": 290,
+      "name": "01A6D040.expanded.asm.txt",
+      "sha256": "2e353116740043261826d13284f72b58b89ea27715afe3e6545a37c94a3de1db"
+    },
+    {
+      "bytes": 414,
+      "name": "01A6D170.c",
+      "sha256": "a20bb885061a1d2bf1f5295e165b79fe141cf4fb7a5f84aedd8e3117cc51bdef"
+    },
+    {
+      "bytes": 793,
+      "name": "01A6D170.expanded.asm.txt",
+      "sha256": "7ef3582e0ed983ceef0a37b71c88b13c1260d4511ecfc73f013fcc65df1b8538"
+    },
+    {
+      "bytes": 909,
+      "name": "01A6D700.c",
+      "sha256": "e55dd8e0897c334f7b4fb1f54d6827f3aadf70ddbb187d917f12352536be6b09"
+    },
+    {
+      "bytes": 1432,
+      "name": "01A6D700.expanded.asm.txt",
+      "sha256": "622b1c0f1c052d283820ad541e3bc9399d47bc9bdee7284909f55fa39cf9169a"
+    },
+    {
+      "bytes": 593,
+      "name": "01A6D5F0.c",
+      "sha256": "7afa8c5130513172f8029c2b5dd3e2944b59ef8f12e3bac99db6947905f23dfe"
+    },
+    {
+      "bytes": 983,
+      "name": "01A6D5F0.expanded.asm.txt",
+      "sha256": "1780df166289b741183cec44bc74bd71062f7a0e7e52b89b8e65dab210c204c7"
+    }
+  ],
+  "kind_contracts": {
+    "ASCII_STRING": {
+      "Python_ASCII_decode_is_sufficient_validation": false,
+      "alignment": "zero alignment before octets",
+      "bounds_constructor_RVA": "0x1A77FF0",
+      "bounds_constructor_first_argument": 0,
+      "count_written_as": "length minus minimum using declared bit width",
+      "descriptor_RVA": "0x1A6D040",
+      "dispatcher_case": 2,
+      "extra_STRING_count_width_or_max_transform": false,
+      "source_type_ids": [
+        2
+      ],
+      "validator_RVA": "0x1A6D7A0",
+      "value_domain": "Byte sequence with every byte in inclusive range0x01..0x7E and count within pinned record bounds."
+    },
+    "CHOICE": {
+      "child_type_lookup_RVA": "0x1A6D5F0",
+      "child_type_selection": "Implicit form reads4byte child at data+4*index; explicit form skips tag_stride*field_count then reads child at4*index.",
+      "count_written_as": "tag minus minimum using declared bit width, including zero-width tags",
+      "descriptor_RVA": "0x1A6D170",
+      "dispatcher_case": 6,
+      "explicit_form": "Nonnegative signed header byte; scan the declared tag vector for equality and reject an unmapped tag.",
+      "implicit_contiguous_form": "Negative signed header byte; field count=max-min+1; index=tag-min after bounds validation.",
+      "recursive_context": "same context is forwarded; root context is zero",
+      "source_type_ids": [
+        168,
+        248,
+        925,
+        934,
+        937,
+        1834
+      ],
+      "tag_accessor_domain": "signed32; all six selected current choice declarations use nonnegative tags",
+      "tag_lookup_RVA": "0x1A6D700",
+      "unmapped_tags_are_defaults": false
+    },
+    "NULL": {
+      "bits_written": 0,
+      "descriptor_RVA": "0x1A6D280",
+      "dispatcher_case": 10,
+      "dispatcher_case_instruction_range": [
+        "0x1A6F12A",
+        "0x1A6F142"
+      ],
+      "source_type_ids": [
+        926
+      ]
+    },
+    "REAL32": {
+      "descriptor_RVA": "0x1A6D2D0",
+      "dispatcher_case": 12,
+      "load_instruction_RVA": "0x1A6F263",
+      "raw_bits": 32,
+      "representation": "Exact u32 bit pattern; no float arithmetic or normalization in selected writer case.",
+      "source_type_ids": [
+        1839,
+        1855
+      ]
+    },
+    "REAL64": {
+      "descriptor_RVA": "0x1A6D2F0",
+      "dispatcher_case": 13,
+      "load_instruction_RVA": "0x1A6F318",
+      "raw_bits": 64,
+      "representation": "Exact u64 bit pattern; no float arithmetic or normalization in selected writer case.",
+      "source_type_ids": [
+        1849
+      ]
+    }
+  },
+  "limits": [
+    "Successful bounded logical wire-value domain only; no equivalence claim for malformed descriptors, native partial writes, ignored failure statuses or capacity callbacks.",
+    "Common native descriptor and bytecode primitives retain the existing scoped static interpretation; no whole-client binary equivalence is claimed.",
+    "No native object layout, pointer identity, lifetime, semantic field defaults, resource ownership, historical catalog mapping, CRC cache or replay simulation compatibility is proven.",
+    "Typed reader/writer context0 is separate from archive stream context; no registry1192/native775 equivalence is inferred.",
+    "Fresh exports remain local. This receipt retains only source fingerprints, RVAs, public schema metadata, reviewed assertions and limits."
+  ],
+  "prior_generic_writer_source_fingerprints": [
+    {
+      "bytes": 13928,
+      "name": "writer-dispatcher-1A6EBD0-C",
+      "sha256": "8d1acb4cd0373ac2cf3917786896e140c2b8c9ed897ac833c9c693df616d21f3"
+    },
+    {
+      "bytes": 20255,
+      "name": "writer-dispatcher-1A6EBD0-expanded-ASM",
+      "sha256": "9848ed11d4979456e4cd32a77c1770fec2ea7c29bb9441cc5cd53f167f041e62"
+    },
+    {
+      "bytes": 332,
+      "name": "typed-writer-wrapper-1A6F5E0-ASM",
+      "sha256": "fc6ba150927563c43d7e089e09131f1084d8ab1f3c8f93e27ded09150827a5d2"
+    },
+    {
+      "bytes": 329,
+      "name": "ASCII-domain-validator-1A6D7A0-ASM",
+      "sha256": "d30074c524f80ca8f875931e04ec7a97090ab0b2de41c0b43e59810e38bd5f7f"
+    }
+  ],
+  "raw_exports_PE_or_replay_values_included": false,
+  "repo_or_implementation_files_modified": false,
+  "review_mode": "Independent manual review of fresh selected C and expanded ASM, crosschecked against prior generic writer and pinned current schema.",
+  "reviewed_at_utc": "2026-10-25T08:49:26.701881+00:00",
+  "root_reader_context": {
+    "archive_open_context_is_distinct_from_serializer_fifth_argument": true,
+    "calls": [
+      {
+        "branch": "server",
+        "call_RVA": "0x134C8B9",
+        "fifth_argument_context": 0,
+        "fifth_argument_store_RVA": "0x134C8B4",
+        "slot_load_RVA": "0x134C88A",
+        "type_id": 5917,
+        "type_slot_RVA": "0x298BEE4"
+      },
+      {
+        "branch": "local",
+        "call_RVA": "0x134C98E",
+        "fifth_argument_context": 0,
+        "fifth_argument_store_RVA": "0x134C989",
+        "slot_load_RVA": "0x134C95F",
+        "type_id": 5962,
+        "type_slot_RVA": "0x298BEE8"
+      }
+    ],
+    "function_RVA": "0x134C690",
+    "registry_VA": "0x143B7F140",
+    "typed_reader_target_RVA": "0x1A713D0",
+    "zero_register_instruction_RVA": "0x134C847"
+  },
+  "root_writer_context": {
+    "both_branches_use_same_zero_context_store": true,
+    "fifth_argument_context": 0,
+    "fifth_argument_store_RVA": "0x1350C7F",
+    "function_RVA": "0x1350AF0",
+    "local_slot_load_RVA": "0x1350C9C",
+    "local_type_id": 5962,
+    "local_type_slot_RVA": "0x298BEE8",
+    "registry_VA": "0x143B7F140",
+    "registry_load_RVA": "0x1350C51",
+    "server_slot_load_RVA": "0x1350C8C",
+    "server_type_id": 5917,
+    "server_type_slot_RVA": "0x298BEE4",
+    "typed_writer_call_RVA": "0x1350CAA",
+    "typed_writer_target_RVA": "0x1A6F5E0",
+    "zero_register_instruction_RVA": "0x1350C48"
+  },
+  "scope": {
+    "kind_count": 16,
+    "kind_counts": {
+      "ARRAY": 46,
+      "ASCII_STRING": 1,
+      "BIT_ARRAY": 1,
+      "BLOB": 2,
+      "BOOL": 25,
+      "CHOICE": 6,
+      "ENUM": 6,
+      "FOURCC": 11,
+      "INT": 12,
+      "NULL": 1,
+      "OPTIONAL": 37,
+      "REAL32": 2,
+      "REAL64": 1,
+      "STRING": 6,
+      "STRUCT": 60,
+      "USER": 296
+    },
+    "native_root_type_id": 5917,
+    "registry1192_or_native775_equated": false,
+    "registry_VA": "0x143B7F140",
+    "schema": {
+      "bytes": 125279,
+      "name": "native_startgame_schema_98348.json",
+      "sha256": "0fd61c8ef3b0aeef647912fd9e35308e70c39da9e2980004d06b1b92e0c96640"
+    },
+    "source_PE_sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+    "source_embedded_bytecode_sha256": "ce3b1f764575730f2c08c89eed73ea843ec4cc702b727c9577ca071ce610e741",
+    "type_count": 513
+  },
+  "struct_context_contract": {
+    "context_lookup_RVA": "0x1A79180",
+    "context_lookup_does_not_supply_historical_default_values": true,
+    "context_test_RVA": "0x1A6F3CB",
+    "writer_dispatcher_RVA": "0x1A6EBD0",
+    "zero_context_bypasses_lookup_and_preamble": true,
+    "zero_context_field_order": "declaration order"
+  }
+}
