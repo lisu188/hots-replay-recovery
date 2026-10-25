@@ -1,0 +1,151 @@
+{
+  "format": "native-header-integer-storage-static-contract-v1",
+  "date": "2026-10-25",
+  "source_identity": {
+    "client_build": 98348,
+    "client_version": "2.57.0.98348",
+    "source_PE": {
+      "bytes": 53573840,
+      "sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9"
+    },
+    "instruction_source": {
+      "classification": "analyst-derived static text patch",
+      "bytes": 36581376,
+      "sha256": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83",
+      "runtime_capture": false,
+      "unaltered_PE_text_claimed": false
+    }
+  },
+  "decoded_entry": {
+    "RVA": "0x1A79150",
+    "loaded_bytes": 64,
+    "decoded_first_RET_bytes": 34,
+    "instructions": 9,
+    "decoded_prefix_sha256": "ba858382993dc037b333aee279aab2cdbb6cee25ac41816fd1544c76f9f014ef",
+    "first_RET_RVA": "0x1A79171",
+    "decoded_end_RVA_exclusive": "0x1A79172",
+    "calls": 0,
+    "outside_direct_targets": 0,
+    "conditional_edges": [
+      {
+        "site_RVA": "0x1A79153",
+        "target_RVA": "0x1A79171",
+        "condition": "ZF=1"
+      },
+      {
+        "site_RVA": "0x1A7916F",
+        "target_RVA": "0x1A79160",
+        "condition": "ZF=0"
+      }
+    ],
+    "entry_reachable_graph_closed_with_RET_exit": true,
+    "entry_graph_closure_is_analyst_derived": true,
+    "post_RET_loaded_bytes_analyzed": false,
+    "captured_IDA_exit_code": 0
+  },
+  "metadata_extent": {
+    "selected_RuntimeFunction_floor_RVA": [
+      "0x1A78F10",
+      "0x1A79109"
+    ],
+    "floor_covers_entry": false,
+    "global_covering_record_absence_claimed": false,
+    "whole_metadata_function_extent_authenticated": false
+  },
+  "normal_execution_assumptions": [
+    "Stable decoded code; no exceptions or asynchronous interference.",
+    "Valid ordinary writable destination range without address wrap or overlap with executing code or return-control storage.",
+    "Standard x64 instruction behavior and valid call/RET stack."
+  ],
+  "storage_contract": {
+    "input_value": "V=unsigned64-bit initialRCX",
+    "input_count": "n=initialRDX",
+    "destination": "D=initialR8",
+    "zero_count_destination_writes": 0,
+    "nonzero_count_byte_writes": "n",
+    "byte_i_formula": "For0<=i<n: M_after[D+i]=(V>>(8*i))&255; bytes beyond the low64-bit value are zero.",
+    "store_instruction_width_bits": 8,
+    "count4": {
+      "separate_byte_writes": 4,
+      "final_byte_contents": "Low32 bits of V, little-endian at D..D+3.",
+      "RDX_after": "0",
+      "R8_after": "D+4",
+      "RCX_after": "V>>32"
+    },
+    "single_MOV_DWORD_instruction_observed": false,
+    "atomic_four_byte_store_proven": false
+  },
+  "caller": {
+    "CALL_site_RVA": "0x1A76CF9",
+    "callee_RVA": "0x1A79150",
+    "RCX": "RBX value",
+    "P": "[descriptor+0x20]",
+    "RDX": "P[0]",
+    "R8": "[current_request+0x10]"
+  },
+  "conditional_INT3_composition": {
+    "native_type_id": 3,
+    "AUX_base_RVA": "0x27BECB0",
+    "slot_RVA": "0x27BECD0",
+    "table_RVA": "0x27C1220",
+    "leading_QWORD": 4,
+    "source_PE_metadata_bytes_read": 16,
+    "all16_source_identity_fields_match": true,
+    "derivation": "With the observed active type3 context and stable descriptor/AUX binding, P[0]=4 supplies the proven count4 contract.",
+    "binding_assumptions": [
+      "The active context and type select this admitted type3 auxiliary table.",
+      "The context/AUX data and descriptor+0x20 binding survive opaque initializer subcalls,1A77FF0, stream-refill and integer-value helpers until the count load."
+    ],
+    "runtime_RDX4_observed": false,
+    "unconditional_descriptor_stability_proven": false,
+    "AUX_array_slot": 4,
+    "table_QWORD_index": 1198
+  },
+  "scope": {
+    "static_analysis": true,
+    "native_target_execution": false,
+    "emulation": false,
+    "native_baseBuild_or_other_named_field_binding_proven": false,
+    "whole_header_compatibility_proven": false,
+    "full_replay_upgrade_complete": false,
+    "playback_validated": false
+  },
+  "evidence_fingerprints": {
+    "independent_static_review": {
+      "bytes": 6425,
+      "sha256": "f530e84deae70531e438e663556234d2bc57ee3dd7da6e1e758e3e5993e73caf"
+    },
+    "store_TSV": {
+      "bytes": 557,
+      "sha256": "0916bee0f736270c2bde9da36fa1d0e9db7129bb73ca10960efe987e6bbd70e2"
+    },
+    "store_quality": {
+      "bytes": 1800,
+      "sha256": "845bef1fa637e4026e2d4efafac738033969156fb519355090244fc6270cdad8"
+    },
+    "store_completion": {
+      "bytes": 229,
+      "sha256": "455a1730d6f2dda14ef41056bea172e7c25ed779115d5f14325a2e0504a66e2f"
+    },
+    "caller_TSV": {
+      "bytes": 498,
+      "sha256": "3fdcdae0ac2bccb1ca897db9184261e2b9cd0182cf0a9eccb0921c146921f0a2"
+    },
+    "INT3_AUX": {
+      "bytes": 740,
+      "sha256": "0a8b127ec0cb568da0e544cd94e4e69007506d56b85df577e5ae099c2431e64d"
+    },
+    "descriptor_init": {
+      "bytes": 1104,
+      "sha256": "e5de4a0123c44fac6d7c29d7a95178f85e108ab1ecf645bb1f7949dd5d3ca934"
+    },
+    "INT_descriptor_getter": {
+      "bytes": 290,
+      "sha256": "01a0de1bc757a40ec224e99faa71387ea9653ecc7d819c4e62f214704f6d97db"
+    },
+    "floor_metadata": {
+      "bytes": 4227,
+      "sha256": "2a16b6d3947b758fecc7f0ccc93fa967f00274622106503d9b14934c72853b3e"
+    }
+  }
+}
