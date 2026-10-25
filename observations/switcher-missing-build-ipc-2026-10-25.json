@@ -1,0 +1,486 @@
+{
+  "command_line_relay": {
+    "command_line_payload_contains_no_Switcher_replay_extension_filter": true,
+    "existing_game_delegation": "For positive shared+8 or -link with positive shared+4, copy at most512 command bytes to shared+0x3578; set shared+0x20=6; wait for7 while existing process alive.",
+    "function_rva": "0x2200",
+    "initial_state": "CAS(shared+0x20, expected0,replacement1).",
+    "main_client_filename_parser_or_playback_acceptance_authenticated": false,
+    "network_protocol_URI_used_in_these_dispatch_branches": false,
+    "otherwise": "Resolve sentinel0xffffffff to highest installed executable, then launch through2620 and2F30.",
+    "replay_filename_syntactically_forwardable": true
+  },
+  "date": "2026-10-25",
+  "exact_build_resolver": {
+    "alternate_executable": "HeroesOfTheStorm.exe",
+    "downloader_called_on_missing_exact_build": false,
+    "exact_build_requires": "BaseNNNNN directory exists and executable exists as non-directory.",
+    "function_rva": "0x2a10",
+    "install_root_constructor_rva": "0x2df0",
+    "latest_sentinel": "0xffffffff enumerates Base* directories and selects greatest parsed version with matching executable.",
+    "process_creator_arguments": "Quoted selected executable plus original command-line; explicit application path and working directory.",
+    "process_creator_call_rva": "0x30e8",
+    "process_creator_rva": "0x2f30",
+    "requested_build_format": "Versions\\Base%05d\\HeroesOfTheStorm_x64.exe",
+    "versions_argument_from_rva": "0x17d9"
+  },
+  "format": "native-switcher-missing-build-ipc-observation-v1",
+  "limitations": [
+    "Native assembly instruction bytes, PE imports and immutable constants underpin claims. Ghidra C incorrectly infers some return types/register liveness; exact return values use assembly.",
+    "This is current98348 Switcher code, not historical41810 implementation.",
+    "The named mapping producer, complete object schema and main-client result handling remain unauthenticated.",
+    "No global absence of downloading elsewhere is claimed; the exact missing-executable branch returns a shared-memory result.",
+    "No target code was executed, no current or historical playback tested, no replay/asset mutation and no synchronization substitution.",
+    "Only the exact inspected Switcher branches exclude a fetch call. Downloading in another process or uninspected handler is not ruled out.",
+    "The unsigned0xffffffff highest-installed selector is a different branch from an exact requested old build.",
+    "Syntactic forwarding of command-line bytes containing a replay filename does not prove the recipient accepts them or plays the match.",
+    "Static instruction comparison verifies provenance and decoding; it is not a unit test of native runtime behavior."
+  ],
+  "next_investigation": {
+    "main_client_download_path_verified": false,
+    "main_client_filename_acceptance_verified": false,
+    "main_client_handler_verified_by_this_observation": false,
+    "owner": "Main game client producer and consumer of Heroes of the Storm IPC Mem.",
+    "targets": "Request state2 and response state3/result3, with desired build at+0x4c; command relay state6/7 at+0x3578."
+  },
+  "private_evidence": {
+    "completed_export_receipt": {
+      "bytes": 626,
+      "path": "work/offline-startgame-20261025/switcher-acquisition-route/ghidra-selected-v2/exports.tsv",
+      "sha256": "ce0e4fe7e4e3c073f634fed8f5cec088455c6f7d50828294c00cdfa3bb621434"
+    },
+    "exports": [
+      {
+        "all_instruction_bytes_match_source_PE": true,
+        "body_ranges": 1,
+        "function_entry": "140001000",
+        "instruction_count": 6,
+        "private_assembly_evidence": {
+          "bytes": 233,
+          "path": "work/offline-startgame-20261025/switcher-acquisition-route/ghidra-selected-v2/00001000.asm.txt",
+          "sha256": "7c4139fa7022e4fa526210382ffd9d9a8725d9095dc653716c81ceacfad3e276"
+        },
+        "private_decompilation_evidence": {
+          "bytes": 145,
+          "path": "work/offline-startgame-20261025/switcher-acquisition-route/ghidra-selected-v2/00001000.c",
+          "sha256": "b358356893c14d5d3c46ead7d567f9bb90735ea8eab7e8c251ec6d8d77b36ff8"
+        },
+        "requested_rva": "00001000"
+      },
+      {
+        "all_instruction_bytes_match_source_PE": true,
+        "body_ranges": 1,
+        "function_entry": "140001020",
+        "instruction_count": 6,
+        "private_assembly_evidence": {
+          "bytes": 226,
+          "path": "work/offline-startgame-20261025/switcher-acquisition-route/ghidra-selected-v2/00001020.asm.txt",
+          "sha256": "c41a51d6267c62703262996ddfa910caee9ee0bc882c04c3d562eed1ca06f28a"
+        },
+        "private_decompilation_evidence": {
+          "bytes": 144,
+          "path": "work/offline-startgame-20261025/switcher-acquisition-route/ghidra-selected-v2/00001020.c",
+          "sha256": "afa533b24d0de530237e3c3e315b34759f901f779ab28e81bd745c2e8d053619"
+        },
+        "requested_rva": "00001020"
+      },
+      {
+        "all_instruction_bytes_match_source_PE": true,
+        "body_ranges": 1,
+        "function_entry": "140001060",
+        "instruction_count": 234,
+        "private_assembly_evidence": {
+          "bytes": 12104,
+          "path": "work/offline-startgame-20261025/switcher-acquisition-route/ghidra-selected-v2/00001060.asm.txt",
+          "sha256": "3ae0de3185d0d2286af37d1a7587c99bdd5e84dfa51db6b71c697f717b80c6ed"
+        },
+        "private_decompilation_evidence": {
+          "bytes": 5713,
+          "path": "work/offline-startgame-20261025/switcher-acquisition-route/ghidra-selected-v2/00001060.c",
+          "sha256": "3d24205141a696770f191fc7e233a2aaa3341031464fb4c5904fd5340fa73ddd"
+        },
+        "requested_rva": "00001060"
+      },
+      {
+        "all_instruction_bytes_match_source_PE": true,
+        "body_ranges": 1,
+        "function_entry": "1400016a0",
+        "instruction_count": 15,
+        "private_assembly_evidence": {
+          "bytes": 473,
+          "path": "work/offline-startgame-20261025/switcher-acquisition-route/ghidra-selected-v2/000016a0.asm.txt",
+          "sha256": "f392997699bfe558491e2999af4f91eb28de686e9650b53c6baae720e8cdd998"
+        },
+        "private_decompilation_evidence": {
+          "bytes": 380,
+          "path": "work/offline-startgame-20261025/switcher-acquisition-route/ghidra-selected-v2/000016a0.c",
+          "sha256": "295bb4c685a3cdd6e1abca6f01b4a997c7f7cbf40552659fb2eb43b3fa6999b2"
+        },
+        "requested_rva": "000016a0"
+      },
+      {
+        "all_instruction_bytes_match_source_PE": true,
+        "body_ranges": 1,
+        "function_entry": "1400016d0",
+        "instruction_count": 16,
+        "private_assembly_evidence": {
+          "bytes": 660,
+          "path": "work/offline-startgame-20261025/switcher-acquisition-route/ghidra-selected-v2/000016d0.asm.txt",
+          "sha256": "795fa2b8ef55d7c9dff98b942f8ba8b02beef59778e5cd52070bf98a843d742e"
+        },
+        "private_decompilation_evidence": {
+          "bytes": 418,
+          "path": "work/offline-startgame-20261025/switcher-acquisition-route/ghidra-selected-v2/000016d0.c",
+          "sha256": "de20e41679f1d2a15a994b4fca7cc69a412b87a64cf6b996c1c78bd0b78c2cc8"
+        },
+        "requested_rva": "000016d0"
+      },
+      {
+        "all_instruction_bytes_match_source_PE": true,
+        "body_ranges": 1,
+        "function_entry": "140001720",
+        "instruction_count": 14,
+        "private_assembly_evidence": {
+          "bytes": 511,
+          "path": "work/offline-startgame-20261025/switcher-acquisition-route/ghidra-selected-v2/00001720.asm.txt",
+          "sha256": "716e876e03b7f15cbdd5518d2e517e6c28f81d63d9ffa19c54b7fafed58668cd"
+        },
+        "private_decompilation_evidence": {
+          "bytes": 204,
+          "path": "work/offline-startgame-20261025/switcher-acquisition-route/ghidra-selected-v2/00001720.c",
+          "sha256": "1e21e10f18c7e32de631a0138af35cf4de18a9cefd84e67c2b5209fd7c9c8de0"
+        },
+        "requested_rva": "00001720"
+      },
+      {
+        "all_instruction_bytes_match_source_PE": true,
+        "body_ranges": 1,
+        "function_entry": "140001770",
+        "instruction_count": 123,
+        "private_assembly_evidence": {
+          "bytes": 4549,
+          "path": "work/offline-startgame-20261025/switcher-acquisition-route/ghidra-selected-v2/00001770.asm.txt",
+          "sha256": "455feec6b49d76c097956ca415c11730dc41e731b3f2349eedc442d7a22f4853"
+        },
+        "private_decompilation_evidence": {
+          "bytes": 2206,
+          "path": "work/offline-startgame-20261025/switcher-acquisition-route/ghidra-selected-v2/00001770.c",
+          "sha256": "3b96117f59e4399a7f173aefb24ebfb0e565fd99e6766e0f0f2ce062d5bd019b"
+        },
+        "requested_rva": "00001770"
+      },
+      {
+        "all_instruction_bytes_match_source_PE": true,
+        "body_ranges": 1,
+        "function_entry": "140001db0",
+        "instruction_count": 121,
+        "private_assembly_evidence": {
+          "bytes": 5118,
+          "path": "work/offline-startgame-20261025/switcher-acquisition-route/ghidra-selected-v2/00001db0.asm.txt",
+          "sha256": "7239d5ba31cc49951801a635dadbc1b8774054f9cdf6cfcc94a7908235eff7dd"
+        },
+        "private_decompilation_evidence": {
+          "bytes": 2940,
+          "path": "work/offline-startgame-20261025/switcher-acquisition-route/ghidra-selected-v2/00001db0.c",
+          "sha256": "98805686396194296b60f73bc29cea735422c54a7cea4ceaed823949724bc83f"
+        },
+        "requested_rva": "00001db0"
+      },
+      {
+        "all_instruction_bytes_match_source_PE": true,
+        "body_ranges": 1,
+        "function_entry": "1400020f0",
+        "instruction_count": 64,
+        "private_assembly_evidence": {
+          "bytes": 2456,
+          "path": "work/offline-startgame-20261025/switcher-acquisition-route/ghidra-selected-v2/000020f0.asm.txt",
+          "sha256": "5be17ded7bde685a810499dcfa247dcbf6417c0f3f1da5869bafadfda206f908"
+        },
+        "private_decompilation_evidence": {
+          "bytes": 1380,
+          "path": "work/offline-startgame-20261025/switcher-acquisition-route/ghidra-selected-v2/000020f0.c",
+          "sha256": "954097dc9ef25c4e1f14d312f8aae649ebaae3f60383c646b977e6ccb429de93"
+        },
+        "requested_rva": "000020f0"
+      },
+      {
+        "all_instruction_bytes_match_source_PE": true,
+        "body_ranges": 1,
+        "function_entry": "140002200",
+        "instruction_count": 127,
+        "private_assembly_evidence": {
+          "bytes": 4764,
+          "path": "work/offline-startgame-20261025/switcher-acquisition-route/ghidra-selected-v2/00002200.asm.txt",
+          "sha256": "1c79728de3aab8d0a9d3d3d383ffe3f9b9300ec62aff7c70b9e25dbf0fee9ccb"
+        },
+        "private_decompilation_evidence": {
+          "bytes": 2596,
+          "path": "work/offline-startgame-20261025/switcher-acquisition-route/ghidra-selected-v2/00002200.c",
+          "sha256": "31a0de1642a725b1702c9ecc82423b1a3474927ec7dd6729bcd9c13afea261d9"
+        },
+        "requested_rva": "00002200"
+      },
+      {
+        "all_instruction_bytes_match_source_PE": true,
+        "body_ranges": 1,
+        "function_entry": "1400023f0",
+        "instruction_count": 144,
+        "private_assembly_evidence": {
+          "bytes": 5662,
+          "path": "work/offline-startgame-20261025/switcher-acquisition-route/ghidra-selected-v2/000023f0.asm.txt",
+          "sha256": "02cadfbbafae841c18c4080837ecaffb519f670025905740fddfe86c616d45bc"
+        },
+        "private_decompilation_evidence": {
+          "bytes": 3681,
+          "path": "work/offline-startgame-20261025/switcher-acquisition-route/ghidra-selected-v2/000023f0.c",
+          "sha256": "64234b8d8c9856ba5a60e567e2c8bade6ecfa8b3e4cea129067f56639536a4ca"
+        },
+        "requested_rva": "000023f0"
+      },
+      {
+        "all_instruction_bytes_match_source_PE": true,
+        "body_ranges": 1,
+        "function_entry": "140002620",
+        "instruction_count": 117,
+        "private_assembly_evidence": {
+          "bytes": 4419,
+          "path": "work/offline-startgame-20261025/switcher-acquisition-route/ghidra-selected-v2/00002620.asm.txt",
+          "sha256": "838a35d9ae56f6d2d889551b66b8f57e25fe53a253e7eb6ba6354ac16909ba89"
+        },
+        "private_decompilation_evidence": {
+          "bytes": 2128,
+          "path": "work/offline-startgame-20261025/switcher-acquisition-route/ghidra-selected-v2/00002620.c",
+          "sha256": "66a1dada0921bc36e1bf949133774a6d8c6771704b2e112fcbef7a8c0e10c3f9"
+        },
+        "requested_rva": "00002620"
+      },
+      {
+        "all_instruction_bytes_match_source_PE": true,
+        "body_ranges": 1,
+        "function_entry": "140002920",
+        "instruction_count": 3,
+        "private_assembly_evidence": {
+          "bytes": 98,
+          "path": "work/offline-startgame-20261025/switcher-acquisition-route/ghidra-selected-v2/00002920.asm.txt",
+          "sha256": "2fc3f7314dd4eeac0dbb8a71464ab7e08f3ae199b6ed0404e4f11220873ec0ec"
+        },
+        "private_decompilation_evidence": {
+          "bytes": 212,
+          "path": "work/offline-startgame-20261025/switcher-acquisition-route/ghidra-selected-v2/00002920.c",
+          "sha256": "7152e40465d713875d3e78ed66b440e6e7d2bee04054451a7f784024410aa3c6"
+        },
+        "requested_rva": "00002920"
+      },
+      {
+        "all_instruction_bytes_match_source_PE": true,
+        "body_ranges": 1,
+        "function_entry": "140002a10",
+        "instruction_count": 201,
+        "private_assembly_evidence": {
+          "bytes": 7830,
+          "path": "work/offline-startgame-20261025/switcher-acquisition-route/ghidra-selected-v2/00002a10.asm.txt",
+          "sha256": "97a02b6aad8459e25617608631c2f098041051bb05e17a85e119ae2fbe7e6724"
+        },
+        "private_decompilation_evidence": {
+          "bytes": 3416,
+          "path": "work/offline-startgame-20261025/switcher-acquisition-route/ghidra-selected-v2/00002a10.c",
+          "sha256": "21039cd3a2dff0e9898f887d74a807739c7b58699138d96cdadcf8d1965e1a7c"
+        },
+        "requested_rva": "00002a10"
+      },
+      {
+        "all_instruction_bytes_match_source_PE": true,
+        "body_ranges": 1,
+        "function_entry": "140002df0",
+        "instruction_count": 64,
+        "private_assembly_evidence": {
+          "bytes": 2415,
+          "path": "work/offline-startgame-20261025/switcher-acquisition-route/ghidra-selected-v2/00002df0.asm.txt",
+          "sha256": "12b79d78c3a879c26550d2a20eb5887c656bc3e8166bc093ff860de56ef29c29"
+        },
+        "private_decompilation_evidence": {
+          "bytes": 1017,
+          "path": "work/offline-startgame-20261025/switcher-acquisition-route/ghidra-selected-v2/00002df0.c",
+          "sha256": "70cbb5697da5521082030323219319f9f152dd4d0b3eddaa6d595d3b8375e190"
+        },
+        "requested_rva": "00002df0"
+      },
+      {
+        "all_instruction_bytes_match_source_PE": true,
+        "body_ranges": 1,
+        "function_entry": "140002f30",
+        "instruction_count": 124,
+        "private_assembly_evidence": {
+          "bytes": 5123,
+          "path": "work/offline-startgame-20261025/switcher-acquisition-route/ghidra-selected-v2/00002f30.asm.txt",
+          "sha256": "8b44f03f04bc0c65b4c163cf15d851455b61e4a7be01e2a406e4c0b4f6474983"
+        },
+        "private_decompilation_evidence": {
+          "bytes": 2093,
+          "path": "work/offline-startgame-20261025/switcher-acquisition-route/ghidra-selected-v2/00002f30.c",
+          "sha256": "dd50913f988c7b5d3f74cc274aaca422a680cbec781830af13cfd53f12604902"
+        },
+        "requested_rva": "00002f30"
+      },
+      {
+        "all_instruction_bytes_match_source_PE": true,
+        "body_ranges": 1,
+        "function_entry": "140003190",
+        "instruction_count": 36,
+        "private_assembly_evidence": {
+          "bytes": 1327,
+          "path": "work/offline-startgame-20261025/switcher-acquisition-route/ghidra-selected-v2/00003190.asm.txt",
+          "sha256": "84d72759edc38a5964a5669c774db9688bc0a0f74bb0f59ad2066eaad4c386b6"
+        },
+        "private_decompilation_evidence": {
+          "bytes": 545,
+          "path": "work/offline-startgame-20261025/switcher-acquisition-route/ghidra-selected-v2/00003190.c",
+          "sha256": "0acabca7efcffead405edf770ee845219faa70e307c6c2dbd628eb161aaeedab"
+        },
+        "requested_rva": "00003190"
+      },
+      {
+        "all_instruction_bytes_match_source_PE": true,
+        "body_ranges": 1,
+        "function_entry": "140003220",
+        "instruction_count": 44,
+        "private_assembly_evidence": {
+          "bytes": 1646,
+          "path": "work/offline-startgame-20261025/switcher-acquisition-route/ghidra-selected-v2/00003220.asm.txt",
+          "sha256": "aaf65d00b15f86291e8afaf2ba3d3db75bbaa7c0223678786fc39a4d623d9e2f"
+        },
+        "private_decompilation_evidence": {
+          "bytes": 645,
+          "path": "work/offline-startgame-20261025/switcher-acquisition-route/ghidra-selected-v2/00003220.c",
+          "sha256": "fb5f0fbdeb6a23abb88e249599a60ca93e64238653ad6fce58cadea4916e2473"
+        },
+        "requested_rva": "00003220"
+      }
+    ],
+    "index": {
+      "bytes": 58303,
+      "path": "work/offline-startgame-20261025/switcher-acquisition-route/source-static-index.json",
+      "sha256": "9e799df19ec557a3842da1d48e95105e8c58dc410f3a161830b44767de9e8fd8"
+    },
+    "proof": {
+      "bytes": 17987,
+      "path": "work/offline-startgame-20261025/switcher-acquisition-route/switcher-missing-build-static-proof.json",
+      "sha256": "845e258e6eed5f01acf9e0532bee81ea8863dbbe28f8fd109da4a96e3900ddde"
+    },
+    "verifier": {
+      "bytes": 9549,
+      "path": "work/offline-startgame-20261025/switcher-acquisition-route/freeze_switcher_proof.py",
+      "sha256": "c4caaea5763c49aa7f525d373f5f6eeb7e973781b8b31a6188df11f900d88fc6"
+    }
+  },
+  "product_and_mapping": {
+    "executable_basename": "HeroesOfTheStorm_x64.exe",
+    "executable_name_initializer_rva": "0x1020",
+    "factory_table_rva": "0x20208",
+    "initializer_rva": "0x1060",
+    "initializer_slot_offset": "0x20",
+    "mapped_name_initializer_rva": "0x1000",
+    "mapping": {
+      "bytes": 65536,
+      "calls": [
+        "CreateFileMappingA",
+        "MapViewOfFile"
+      ],
+      "function_rva": "0x3190",
+      "request_type_offset": "0x48",
+      "requested_build_offset": "0x4c",
+      "result_offset": "0x24",
+      "state_offset": "0x20"
+    },
+    "product_getter_rva": "0x16d0",
+    "product_global_va": "0x140020c30",
+    "product_id": 1,
+    "product_record_va": "0x140014e68",
+    "shared_mapping_name": "Heroes of the Storm IPC Mem",
+    "shared_mapping_name_file_offset": "0x13fc0",
+    "shared_mapping_name_rva": "0x14dc0"
+  },
+  "requested_build_IPC": {
+    "activation": "CAS(shared+0x20, expected2, replacement1); only old2 enters request route.",
+    "architecture": "Attempts selected architecture, then32bit if initial64bit resolution failed.",
+    "first_resolver_call": {
+      "bytes": "e819050000",
+      "rva": "0x24f2",
+      "va": "0x1400024f2"
+    },
+    "function_rva": "0x23f0",
+    "missing_branch": "Both executable resolutions fail: shared+0x24=3; shared+0x20=3; return1. No CreateProcess or fetch in this branch.",
+    "missing_result_store": {
+      "bytes": "c7432403000000",
+      "rva": "0x251a",
+      "va": "0x14000251a"
+    },
+    "missing_return_one": {
+      "bytes": "b801000000",
+      "rva": "0x2521",
+      "va": "0x140002521"
+    },
+    "missing_state_store": {
+      "bytes": "c7432003000000",
+      "rva": "0x2526",
+      "va": "0x140002526"
+    },
+    "requested_build_load": {
+      "bytes": "8b4b4c",
+      "rva": "0x24e3",
+      "va": "0x1400024e3"
+    },
+    "second_resolver_call": {
+      "bytes": "e8fa040000",
+      "rva": "0x2511",
+      "va": "0x140002511"
+    },
+    "successful_resolution": "Shared+0x24=1 and shared+0x20=3, wait prior requester process and invoke2F30 through2620 or direct type5 branch."
+  },
+  "scope": {
+    "IPC_messages_sent": 0,
+    "client_or_switcher_executed": false,
+    "computer_use": false,
+    "full_replay_upgrade_complete": false,
+    "full_upgrade_complete": false,
+    "historical41810_client_or_data_acquired": false,
+    "network_requests": 0,
+    "raw_PE_or_raw_ASM_published": false,
+    "replay_created": false,
+    "replay_modified": false,
+    "synchronization_modified": false
+  },
+  "source": {
+    "bytes": 773840,
+    "executable": "Support64/HeroesSwitcher_x64.exe",
+    "file_version": "2.57.0.98348",
+    "image_base": "0x140000000",
+    "machine": "AMD64",
+    "sha256": "cc721ecc93f086c562425a2697878b2622d6a5cde81f9817458e7e68a3e1fe9d"
+  },
+  "validation": {
+    "all_1459_instruction_bytes_compared_against_source_PE": true,
+    "completed_decompilations": 18,
+    "executable_hash_unchanged": true,
+    "exported_instructions": 1459,
+    "first_attempt": {
+      "completed_exports": 12,
+      "failed_export_guard_preserved": true,
+      "headless_exit_zero_alone_was_not_script_completion": true,
+      "stop_reason": "RVA0x3253 is an internal fragment of function0x3220, not a separate Ghidra function."
+    },
+    "ghidra_version": "12.0.4_PUBLIC",
+    "import_analysis_limit_seconds": 120,
+    "kind": "static current-client Switcher analysis",
+    "main_client_Ghidra_project_opened": false,
+    "max_cpu": 2,
+    "playback_tests": 0,
+    "runtime_tests": 0,
+    "second_attempt": {
+      "boundary_correction": "Selected function0x3220 includes internal fragment0x3253. Added actual initializer and CAS roots.",
+      "complete_export_receipt": true,
+      "completed_exports": 18
+    },
+    "separate_temporary_projects": true,
+    "temporary_projects_verified_deleted": true
+  }
+}

@@ -1,0 +1,593 @@
+{
+  "conditional_dump_attempt": {
+    "conditional_on_report_state": true,
+    "dump_format_or_successful_creation_authenticated": false,
+    "literal": "dmp",
+    "literal_call_RVA": "0x2D93A8",
+    "output_call_RVA": "0x2D93C4",
+    "output_target_RVA": "0x304330"
+  },
+  "conditional_nonfatal_route": {
+    "actual_route_executed_or_report_observed": false,
+    "chain": [
+      "0x132C210",
+      "0x27E2B0",
+      "0x27E710",
+      "0x2D9C00",
+      "0x2D8E40"
+    ],
+    "dispatcher_argument2_for_submitted_type5": 0,
+    "dispatcher_argument_preserved_RVA": "0x27E734",
+    "prerequisites": [
+      "Detailed report constructed through staging G+CB10 bit3 gate",
+      "Report callbacks do not redirect the type5 nonfatal path",
+      "Diagnostic subsystem output byte is enabled"
+    ],
+    "registered_callbacks_execute_before_classification": true,
+    "registered_callbacks_may_modify_report": true,
+    "sink_argument4_assignment_RVA": "0x27ED05",
+    "submitted_report_type": 5,
+    "zero_branch_to_output_RVA": "0x2D9C83"
+  },
+  "fixed_rdata_literals": {
+    "actual_runtime_filename_observed": false,
+    "bytes": 17,
+    "values": [
+      {
+        "ASCII": "txt",
+        "RVA": "0x2642f9c",
+        "bytes": 3,
+        "hex": "747874",
+        "sha256": "486b9a6fc855abf48847e9639f3c090855c6aafdc22a13b10e3244c37f03d3e0"
+      },
+      {
+        "ASCII": "dmp",
+        "RVA": "0x2649b90",
+        "bytes": 3,
+        "hex": "646d70",
+        "sha256": "ea64b98e9b77f090084cde28f60e356f11e52408450999993db5b23b384db8be"
+      },
+      {
+        "ASCII": ".error",
+        "RVA": "0x26430a0",
+        "bytes": 6,
+        "hex": "2e6572726f72",
+        "sha256": "1f4e8d95f9f785bb528488cac86be9457d3b942cbdd88db36843ef211abe4d30"
+      },
+      {
+        "ASCII": "error",
+        "RVA": "0x26430a8",
+        "bytes": 5,
+        "hex": "6572726f72",
+        "sha256": "ca00fccfb408989eddc401062c4d1219a6aceb6b9b55412357f1790862e8f178"
+      }
+    ]
+  },
+  "format": "native-report-output-route-static-supplement-v1",
+  "lifecycle_byte": {
+    "RVA": "0x3004140",
+    "all_possible_writes_or_aliases_enumerated": false,
+    "callback_count_reset_RVA": "0x27C50B",
+    "cleanup_store_RVA": "0x27D1F3",
+    "cleanup_value": 0,
+    "independent_from_staging_desync_gate": "G+0xCB10 & 8",
+    "initializer_store_RVA": "0x27C511",
+    "initializer_value": 1,
+    "interpretation": "Diagnostic-subsystem initialization/cleanup byte on the reviewed paths",
+    "live_initializer_execution_or_byte_value_observed": false,
+    "native_symbol_name_authenticated": false,
+    "user_setting_console_command_or_Cvar_authenticated": false
+  },
+  "limits": [
+    "Initializer expanded export is size-limit truncated; its selected assembly supplies the lifecycle stores, not a complete registration CFG.",
+    "Other outside-fragment blocks and original/expanded instruction counts are reported individually; a false size-limit flag alone does not prove completeness.",
+    "A constructed file object and serializer call do not prove successful native file output.",
+    "The .error, error, txt and dmp literals do not establish a full filename or output directory.",
+    "The diagnostic byte is enabled by the inspected initializer; no supported user setting or console command has been recovered.",
+    "This route does not supply the first actual mismatch, historical simulation rules or playable replay conversion."
+  ],
+  "local_validation": {
+    "codec_CI_not_relabelled_as_runtime_proof": true,
+    "eight_selected_exports_and_three_readonly_completion_logs_checked": true,
+    "new_unit_tests": false,
+    "required_instruction_anchors_passed": true,
+    "source_files_hashed": true
+  },
+  "observation_date": "2026-10-25",
+  "path_construction": {
+    "base_directory_runtime_value_recovered": false,
+    "component_helper_RVA": "0x2A0510",
+    "composed_component_passed_to_helper_RVA": "0x27E045",
+    "conditional_base_directory": "return(0x2E4AE0)+0x170",
+    "entry_RVA": "0x27DEB0",
+    "exact_full_resolved_path_or_filename_observed": false,
+    "exact_relative_basename_or_error_container_semantics_proven": false,
+    "false_branch_helper_RVA": "0x2A0350",
+    "false_branch_literal": "error",
+    "flags": "0x760000",
+    "incoming_R8_destination_preserved_at_call": true,
+    "literal_append_call_RVA": "0x27E013",
+    "literal_helpers_complete_mutation_semantics_authenticated": false,
+    "path_builder_RVA": "0x2A1440",
+    "path_builder_call_RVA": "0x27DEF0",
+    "true_branch_literal": ".error"
+  },
+  "previous_document": "docs/NATIVE_SYNC_DIAGNOSTICS_2026-10-25.md",
+  "producer_sha256": "0febf51e2516e28b3b999cb44bc9fcfc824e97d6eb276b4f14af5a3f486d854f",
+  "prototype_pitfalls": [
+    "2D9C00 assembly preserves incoming RCX/RDX views through its argument4-zero call; scalar-looking decompiler arguments are not accepted as parameter bindings.",
+    "27DEB0 retains incoming R8 destination through its first 2A1440 call, although the decompiled call omits that third argument."
+  ],
+  "readonly_Ghidra_jobs": [
+    {
+      "functions": [
+        {
+          "begin_RVA": "0x27C440",
+          "end_RVA_exclusive": "0x27C5A6",
+          "expanded_instructions": 70,
+          "expanded_size_limit_truncated": true,
+          "outside_selected_blocks": 1,
+          "selected_instructions": 74
+        },
+        {
+          "begin_RVA": "0x27D160",
+          "end_RVA_exclusive": "0x27D2EB",
+          "expanded_instructions": 78,
+          "expanded_size_limit_truncated": false,
+          "outside_selected_blocks": 0,
+          "selected_instructions": 78
+        },
+        {
+          "begin_RVA": "0x27D8E0",
+          "end_RVA_exclusive": "0x27D8FC",
+          "expanded_instructions": 186,
+          "expanded_size_limit_truncated": false,
+          "outside_selected_blocks": 30,
+          "selected_instructions": 6
+        },
+        {
+          "begin_RVA": "0x27E0B0",
+          "end_RVA_exclusive": "0x27E103",
+          "expanded_instructions": 108,
+          "expanded_size_limit_truncated": false,
+          "outside_selected_blocks": 19,
+          "selected_instructions": 19
+        }
+      ],
+      "output": "ghidra-output-control",
+      "read_only_completion_and_discard_recorded": true,
+      "selected_function_count": 4
+    },
+    {
+      "functions": [
+        {
+          "begin_RVA": "0x2AD6C0",
+          "end_RVA_exclusive": "0x2AD934",
+          "expanded_instructions": 160,
+          "expanded_size_limit_truncated": false,
+          "outside_selected_blocks": 0,
+          "selected_instructions": 160
+        },
+        {
+          "begin_RVA": "0x2D9C00",
+          "end_RVA_exclusive": "0x2D9CC0",
+          "expanded_instructions": 146,
+          "expanded_size_limit_truncated": false,
+          "outside_selected_blocks": 22,
+          "selected_instructions": 46
+        }
+      ],
+      "output": "ghidra-output-sink",
+      "read_only_completion_and_discard_recorded": true,
+      "selected_function_count": 2
+    },
+    {
+      "functions": [
+        {
+          "begin_RVA": "0x2D8E40",
+          "end_RVA_exclusive": "0x2D9BFF",
+          "expanded_instructions": 749,
+          "expanded_size_limit_truncated": false,
+          "outside_selected_blocks": 0,
+          "selected_instructions": 758
+        },
+        {
+          "begin_RVA": "0x27DEB0",
+          "end_RVA_exclusive": "0x27DEFD",
+          "expanded_instructions": 126,
+          "expanded_size_limit_truncated": false,
+          "outside_selected_blocks": 15,
+          "selected_instructions": 18
+        }
+      ],
+      "output": "ghidra-nonfatal-output",
+      "read_only_completion_and_discard_recorded": true,
+      "selected_function_count": 2
+    }
+  ],
+  "required_instruction_anchors": [
+    {
+      "required": [
+        "14027c468  XOR EBX,EBX",
+        "14027c50b  MOV dword ptr [0x143007fd0],EBX",
+        "14027c511  MOV byte ptr [0x143004140],0x1"
+      ],
+      "source": "work/offline-startgame-20261025/report-output-frontier/ghidra-output-control/0027C440.asm.txt"
+    },
+    {
+      "required": [
+        "14027d1f3  MOV byte ptr [0x143004140],0x0"
+      ],
+      "source": "work/offline-startgame-20261025/report-output-frontier/ghidra-output-control/0027D160.asm.txt"
+    },
+    {
+      "required": [
+        "14027e734  MOV R15D,EDX",
+        "14027ec7d  CALL 0x14027deb0",
+        "14027ecc8  CALL 0x1402ad6c0",
+        "14027ed05  MOV R9D,R15D",
+        "14027ed3a  CALL 0x1402d9c00"
+      ],
+      "source": "work/offline-startgame-20261025/sync-state-frontier/ghidra-diagnostic-dispatch/0027E710.asm.txt"
+    },
+    {
+      "required": [
+        "1402d9c2c  MOV R14,RDX",
+        "1402d9c34  MOV RDI,RCX",
+        "1402d9c79  TEST R9D,R9D",
+        "1402d9c83  CALL 0x1402d8e40"
+      ],
+      "source": "work/offline-startgame-20261025/report-output-frontier/ghidra-output-sink/002D9C00.asm.txt"
+    },
+    {
+      "required": [
+        "1402d8e69  MOV R14,RCX",
+        "1402d916a  CALL 0x1402757f0",
+        "1402d916f  LEA RAX,[0x142642f9c]",
+        "1402d9190  CALL 0x1402a0350",
+        "1402d91e1  LEA R8D,[R13 + 0xa]",
+        "1402d91ea  CALL 0x1402a0bc0",
+        "1402d92df  CALL 0x1402dc7a0",
+        "1402d9316  CALL 0x1402a0db0",
+        "1402d9387  LEA RAX,[0x142649b90]",
+        "1402d93c4  CALL 0x140304330"
+      ],
+      "source": "work/offline-startgame-20261025/report-output-frontier/ghidra-nonfatal-output/002D8E40.asm.txt"
+    },
+    {
+      "required": [
+        "14027ded3  MOV RSI,R8",
+        "14027def0  CALL 0x1402a1440"
+      ],
+      "source": "work/offline-startgame-20261025/report-output-frontier/ghidra-nonfatal-output/0027DEB0.asm.txt"
+    },
+    {
+      "required": [
+        "14027dff4  LEA RAX,[0x1426430a0]",
+        "14027e013  CALL 0x140281010",
+        "14027e045  CALL 0x1402a0510",
+        "14027e07d  LEA RAX,[0x1426430a8]"
+      ],
+      "source": "work/offline-startgame-20261025/report-output-frontier/ghidra-nonfatal-output/0027DEB0.expanded.asm.txt"
+    },
+    {
+      "required": [
+        "1402a1238  TEST byte ptr [RBX + 0x2c],0x1",
+        "1402a123e  INC dword ptr [RBX + 0x30]",
+        "1402a1241  MOV RAX,qword ptr [RBX + 0x238]"
+      ],
+      "source": "work/first-desync-20261021/logging-route/ghidra-logging-register/002A1190.asm.txt"
+    },
+    {
+      "required": [
+        "1402a275c  CMP dword ptr [R13 + 0x30],0x0",
+        "1402a2761  JBE 0x1402a2778"
+      ],
+      "source": "work/first-desync-20261021/logging-route/ghidra-logging-path-and-write/002A2740.asm.txt"
+    },
+    {
+      "required": [
+        "1402a1946  CALL 0x1402e4ae0",
+        "1402a194e  LEA RDX,[RAX + 0x170]"
+      ],
+      "source": "work/first-desync-20261021/logging-route/ghidra-logging-path-and-write/002A1440.asm.txt"
+    }
+  ],
+  "scope": {
+    "Computer_Use": false,
+    "HotS_or_BattleNet_launched": false,
+    "full_upgrade_complete": false,
+    "new_replay": false,
+    "preparation_reads_saved_sources_only": true,
+    "replay_access_in_this_supplement": false,
+    "replay_writes": 0,
+    "runtime_report_or_path_observed": false,
+    "settings_changes": 0,
+    "sync_changes": 0,
+    "target_native_code_executed": false
+  },
+  "selected_function_count": 8,
+  "selected_instruction_count": 1159,
+  "source_PE_sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+  "source_pins": [
+    {
+      "bytes": 1666,
+      "path": "work/first-desync-20261021/logging-route/ghidra-logging-init/002A0BC0.asm.txt",
+      "sha256": "cdc3ed41ce0cdea7a5e45b6c21992889e2ee938f904674386572a16200921688"
+    },
+    {
+      "bytes": 15150,
+      "path": "work/first-desync-20261021/logging-route/ghidra-logging-path-and-write/002A1440.asm.txt",
+      "sha256": "d878236474e832cfe1e5ae064dfea58ed4fc137c69ce09eabd955deff312bfc2"
+    },
+    {
+      "bytes": 407,
+      "path": "work/first-desync-20261021/logging-route/ghidra-logging-path-and-write/002A2740.asm.txt",
+      "sha256": "7248ac356e96d54ed7587ffa397ea2a7195cd77bf395b2a26f224261ffd3fde7"
+    },
+    {
+      "bytes": 2103,
+      "path": "work/first-desync-20261021/logging-route/ghidra-logging-register/002A1190.asm.txt",
+      "sha256": "f7cd03332471b57789438f6bfc50fcd52991e145a74b2a8a3ae27ed84f9441f7"
+    },
+    {
+      "bytes": 1286,
+      "path": "work/offline-startgame-20261025/report-output-frontier/fixed-output-literals.json",
+      "sha256": "f8d36c5b6b877977e0f83a7018fd89a1b5f4f447747b6fb708637fab2ad3ab5f"
+    },
+    {
+      "bytes": 552,
+      "path": "work/offline-startgame-20261025/report-output-frontier/ghidra-nonfatal-output/0027DEB0.asm.txt",
+      "sha256": "b4be034c4f009aff028bd47a6c093fd00777cccd1e840b9e0052e890f0e017e4"
+    },
+    {
+      "bytes": 2606,
+      "path": "work/offline-startgame-20261025/report-output-frontier/ghidra-nonfatal-output/0027DEB0.c",
+      "sha256": "98252ae2d5a6c4c93be2755496f13865951125ed52cfa36011cc94f94c2c6f54"
+    },
+    {
+      "bytes": 3805,
+      "path": "work/offline-startgame-20261025/report-output-frontier/ghidra-nonfatal-output/0027DEB0.expanded.asm.txt",
+      "sha256": "2723379f6114dbf958e209f3937ca86de760a3efbf837949be1c7db1a1e0edba"
+    },
+    {
+      "bytes": 25492,
+      "path": "work/offline-startgame-20261025/report-output-frontier/ghidra-nonfatal-output/002D8E40.asm.txt",
+      "sha256": "f577efe63bcde76b9f69339b2117d36010d9a1b9d25545e1d72c100a8e5dde0b"
+    },
+    {
+      "bytes": 19518,
+      "path": "work/offline-startgame-20261025/report-output-frontier/ghidra-nonfatal-output/002D8E40.c",
+      "sha256": "3afba192bc0373a2c19d43e9f2154af6028c0dd76859b177213ff31b08568c70"
+    },
+    {
+      "bytes": 25194,
+      "path": "work/offline-startgame-20261025/report-output-frontier/ghidra-nonfatal-output/002D8E40.expanded.asm.txt",
+      "sha256": "df580e75cb2f2e81c28450f2f548460871b7a64f65995e7b2ebe95f4540669ab"
+    },
+    {
+      "bytes": 45597,
+      "path": "work/offline-startgame-20261025/report-output-frontier/ghidra-nonfatal-output/ghidra-analysis.json",
+      "sha256": "14ed705671b07809a21d7b8b1b33c23f746ab3102349bee14755d4ccb91d14d7"
+    },
+    {
+      "bytes": 2444,
+      "path": "work/offline-startgame-20261025/report-output-frontier/ghidra-output-control/0027C440.asm.txt",
+      "sha256": "3ed5aee4b133d49ab7953ef01fcfd330323ddb35ed9854e224d24ae0a679d1a7"
+    },
+    {
+      "bytes": 8477,
+      "path": "work/offline-startgame-20261025/report-output-frontier/ghidra-output-control/0027C440.c",
+      "sha256": "a293a41e3ad442b301cdb3a6e78b2e051137ad3966dd66c59c2700334e568b0a"
+    },
+    {
+      "bytes": 2331,
+      "path": "work/offline-startgame-20261025/report-output-frontier/ghidra-output-control/0027C440.expanded.asm.txt",
+      "sha256": "a3c6e1a28fdc178f37b6f4eb017d47c8bc4f6eba0af8dd357842e598452f8315"
+    },
+    {
+      "bytes": 2482,
+      "path": "work/offline-startgame-20261025/report-output-frontier/ghidra-output-control/0027D160.asm.txt",
+      "sha256": "316f266ca2e80a906455c0174bc7ecef39b5b8a7c14728c26cbb955332dc2801"
+    },
+    {
+      "bytes": 1464,
+      "path": "work/offline-startgame-20261025/report-output-frontier/ghidra-output-control/0027D160.c",
+      "sha256": "36a4ee78d524e87261614468139a223ae258a180e551fed8ac035a71811890a9"
+    },
+    {
+      "bytes": 2482,
+      "path": "work/offline-startgame-20261025/report-output-frontier/ghidra-output-control/0027D160.expanded.asm.txt",
+      "sha256": "316f266ca2e80a906455c0174bc7ecef39b5b8a7c14728c26cbb955332dc2801"
+    },
+    {
+      "bytes": 169,
+      "path": "work/offline-startgame-20261025/report-output-frontier/ghidra-output-control/0027D8E0.asm.txt",
+      "sha256": "5321380e12bc5b158dc95f2dcf7671faed4e9345e97dafd4f158de011a66cf22"
+    },
+    {
+      "bytes": 4772,
+      "path": "work/offline-startgame-20261025/report-output-frontier/ghidra-output-control/0027D8E0.c",
+      "sha256": "f74e7a7ce9a49b7a64572666954d7c8e3219b37c03ab600c87d8d800dc1762b4"
+    },
+    {
+      "bytes": 6469,
+      "path": "work/offline-startgame-20261025/report-output-frontier/ghidra-output-control/0027D8E0.expanded.asm.txt",
+      "sha256": "2f9aeb2a1f7c0292794dff473a8c0cb1db3c3d2e3d36582df3ecde2a73f2157c"
+    },
+    {
+      "bytes": 558,
+      "path": "work/offline-startgame-20261025/report-output-frontier/ghidra-output-control/0027E0B0.asm.txt",
+      "sha256": "5910799b90af293a8bb87b95924b0003c456f025903a3d13ed491c365472d0c2"
+    },
+    {
+      "bytes": 2403,
+      "path": "work/offline-startgame-20261025/report-output-frontier/ghidra-output-control/0027E0B0.c",
+      "sha256": "4b3456f0d2192601f46519816d4c21305a03c1dd080f04987d0ab24db461511d"
+    },
+    {
+      "bytes": 3463,
+      "path": "work/offline-startgame-20261025/report-output-frontier/ghidra-output-control/0027E0B0.expanded.asm.txt",
+      "sha256": "54778ee03d7a24e88194c68412f466b7dbdbb8017af2b6b2bbdf6e4436e80f02"
+    },
+    {
+      "bytes": 26619,
+      "path": "work/offline-startgame-20261025/report-output-frontier/ghidra-output-control/ghidra-analysis.json",
+      "sha256": "7af834d5b04e32a21614b2ea1b4368d5ec42d51be9cd0541a3a3c63060a46785"
+    },
+    {
+      "bytes": 4856,
+      "path": "work/offline-startgame-20261025/report-output-frontier/ghidra-output-sink/002AD6C0.asm.txt",
+      "sha256": "4a3db2e7c28bef131fa222c80c96f78808bb161b8ceea2d527e7566faafc9e19"
+    },
+    {
+      "bytes": 3841,
+      "path": "work/offline-startgame-20261025/report-output-frontier/ghidra-output-sink/002AD6C0.c",
+      "sha256": "b3be223b1b7885127bf9fbb99833e9041ea54aa08b24d2c537a926a121c57903"
+    },
+    {
+      "bytes": 4856,
+      "path": "work/offline-startgame-20261025/report-output-frontier/ghidra-output-sink/002AD6C0.expanded.asm.txt",
+      "sha256": "4a3db2e7c28bef131fa222c80c96f78808bb161b8ceea2d527e7566faafc9e19"
+    },
+    {
+      "bytes": 1610,
+      "path": "work/offline-startgame-20261025/report-output-frontier/ghidra-output-sink/002D9C00.asm.txt",
+      "sha256": "eb791ea169f73a08ecf3a1abdd27d0fd116747ed15e5465c3e51cf825138d0ac"
+    },
+    {
+      "bytes": 4644,
+      "path": "work/offline-startgame-20261025/report-output-frontier/ghidra-output-sink/002D9C00.c",
+      "sha256": "1bc254eea73d2acdf800a38d8dbb9d1fdfb3b0099f0c2f0563684ed0490a8394"
+    },
+    {
+      "bytes": 4680,
+      "path": "work/offline-startgame-20261025/report-output-frontier/ghidra-output-sink/002D9C00.expanded.asm.txt",
+      "sha256": "2bd4abdd0f9b9564b6285a0fd2af82df8ec8e3ba7ca73159f50fbb5105d8aac8"
+    },
+    {
+      "bytes": 16347,
+      "path": "work/offline-startgame-20261025/report-output-frontier/ghidra-output-sink/ghidra-analysis.json",
+      "sha256": "20abf314d7dc52673160147d01beea9dce953cec5e00411486f7a1a46196352f"
+    },
+    {
+      "bytes": 5262,
+      "path": "work/offline-startgame-20261025/report-output-frontier/headless-nonfatal-output.log",
+      "sha256": "b8ffc9759c02cca33e633810ba24bbcc26d5a8e2a4ffb047cea40829a29b8193"
+    },
+    {
+      "bytes": 5510,
+      "path": "work/offline-startgame-20261025/report-output-frontier/headless-output-control.log",
+      "sha256": "99cd6df77b18e92e4c7132c54ba53537a1145dccefc9bb928d791924fbff91fb"
+    },
+    {
+      "bytes": 5242,
+      "path": "work/offline-startgame-20261025/report-output-frontier/headless-output-sink.log",
+      "sha256": "77759c89c2f89e5fa8bf6c87e972cdf021faff4c1a972da4f1b941519d02f15f"
+    },
+    {
+      "bytes": 746,
+      "path": "work/offline-startgame-20261025/report-output-frontier/nonfatal-selection.json",
+      "sha256": "55d106a83bc17e784c2dfe8ea915cacbd934dcab83e1ae33bfa0c13fb4eeabb7"
+    },
+    {
+      "bytes": 21145,
+      "path": "work/offline-startgame-20261025/report-output-frontier/prepare_report_output_publication.py",
+      "sha256": "0febf51e2516e28b3b999cb44bc9fcfc824e97d6eb276b4f14af5a3f486d854f"
+    },
+    {
+      "bytes": 2140,
+      "path": "work/offline-startgame-20261025/report-output-frontier/read_fixed_output_literals.py",
+      "sha256": "f80b94b74e0e802845432e5bd7408cd5e945dd838c4204cae29aa096e8e134a4"
+    },
+    {
+      "bytes": 4080,
+      "path": "work/offline-startgame-20261025/report-output-frontier/reference-selection.json",
+      "sha256": "e1320d19f4e53d52ed594c2dc5bc7795f569a8f1ea0843fa5d8030d0a6f2c3c7"
+    },
+    {
+      "bytes": 1117,
+      "path": "work/offline-startgame-20261025/report-output-frontier/run_nonfatal_output.sh",
+      "sha256": "2f92d0a57816ff769b1b5d3e5d0edb6ea83c680eebc640cb05d330d611054f25"
+    },
+    {
+      "bytes": 1108,
+      "path": "work/offline-startgame-20261025/report-output-frontier/run_output_control.sh",
+      "sha256": "cab9814a2bc1cf49992324aa8b5b0e614c2fc76650201fef00804930b9141679"
+    },
+    {
+      "bytes": 1099,
+      "path": "work/offline-startgame-20261025/report-output-frontier/run_output_sink.sh",
+      "sha256": "5705fcc421f1f151435033f8ef102e0e5caedc2ff4c78bf2bb99685912183965"
+    },
+    {
+      "bytes": 2165,
+      "path": "work/offline-startgame-20261025/report-output-frontier/select_nonfatal_output.py",
+      "sha256": "f7b3b0a4757ab5f123405271073f580ab79e533e344bd3d772376216aaae4dae"
+    },
+    {
+      "bytes": 3717,
+      "path": "work/offline-startgame-20261025/report-output-frontier/select_output_references.py",
+      "sha256": "b6bcfebf7ac788643db0b6da2fff8db2a5f1e0cc90880c077b3bcb48a913cae2"
+    },
+    {
+      "bytes": 2354,
+      "path": "work/offline-startgame-20261025/report-output-frontier/select_output_sink.py",
+      "sha256": "3ce99a2688a2cbcbb98ed025c289f431db4c5d76cff9fdf68f3d7fecd39954a9"
+    },
+    {
+      "bytes": 100,
+      "path": "work/offline-startgame-20261025/report-output-frontier/selected-nonfatal.tsv",
+      "sha256": "bf01f432e40dc45301a79d21da0d402c33a2c38212ad1a42bc6a6a58be075444"
+    },
+    {
+      "bytes": 172,
+      "path": "work/offline-startgame-20261025/report-output-frontier/selected-novel.tsv",
+      "sha256": "fb12d7a6e7270e94730af36c9c9691cc8efcbd0cfb10c41020bd6ced39f6eed6"
+    },
+    {
+      "bytes": 92,
+      "path": "work/offline-startgame-20261025/report-output-frontier/selected-sinks.tsv",
+      "sha256": "b03b184c5830e71298e0b36de27f492de4df621f5cf9f19619d30d8897dbb7f5"
+    },
+    {
+      "bytes": 744,
+      "path": "work/offline-startgame-20261025/report-output-frontier/sink-selection.json",
+      "sha256": "2d32a1a46f03ef5ad64a0a19baf0efa2c06e3f27dcd574b124b9a4b7d4338b29"
+    },
+    {
+      "bytes": 12299,
+      "path": "work/offline-startgame-20261025/sync-state-frontier/ghidra-diagnostic-dispatch/0027E710.asm.txt",
+      "sha256": "06aec3e50190b8c4f48a9cf87cc6a01e85b3c23b195d553153ae44ad5e4700e7"
+    },
+    {
+      "bytes": 1302,
+      "path": "work/offline-startgame-20261025/sync-state-frontier/ghidra-diagnostic-sinks/0027E2B0.asm.txt",
+      "sha256": "25a8dcfb791ba280d26a402289b6289a2eaa91f184f24518d75d5e89eb9b25b2"
+    }
+  ],
+  "text_output_attempt": {
+    "actual_file_creation_or_successful_write_observed": false,
+    "argument4": 0,
+    "argument5": 0,
+    "complete_serializer_stream_and_OS_write_contract_authenticated": false,
+    "copied_path_object_RVA": "0x32C8C98",
+    "entry_RVA": "0x2D8E40",
+    "file_object_teardown_call_RVA": "0x2D9316",
+    "file_object_teardown_target_RVA": "0x2A0DB0",
+    "filename_view_preserved_RVA": "0x2D8E69",
+    "initial_counter_is_observed_runtime_value": false,
+    "initial_main_write_inhibit_counter_under_retained_registration_contract": 0,
+    "initializer_RVA": "0x2A0BC0",
+    "integer_flags": 10,
+    "literal": "txt",
+    "literal_call_RVA": "0x2D9190",
+    "literal_helper_RVA": "0x2A0350",
+    "local_registered_file_initializer_RVA": "0x2D91EA",
+    "path_copy_call_RVA": "0x2D916A",
+    "serializer_call_RVA": "0x2D92DF",
+    "serializer_target_RVA": "0x2DC7A0",
+    "stream_wrapper_supplied_to_serializer": true
+  },
+  "verified_static_patch_sha256": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83"
+}
