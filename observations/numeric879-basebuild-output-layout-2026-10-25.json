@@ -1,0 +1,152 @@
+{
+  "format": "numeric879-conditional-baseBuild-output-layout-v1",
+  "date": "2026-10-25",
+  "source_identity": {
+    "client_build": 98348,
+    "client_version": "2.57.0.98348",
+    "source_PE": {
+      "bytes": 53573840,
+      "sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9"
+    },
+    "instruction_source": {
+      "classification": "analyst-derived statically transformed text patch",
+      "bytes": 36581376,
+      "sha256": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83",
+      "runtime_capture": false,
+      "unaltered_PE_text_claimed": false
+    }
+  },
+  "result": {
+    "wire_label": "m_version.m_baseBuild",
+    "wire_label_authority": "Pinned Blizzard schemas41810 and96477; header18 tag1/version11 tag5/type6.",
+    "native_root_schema": 879,
+    "output_offset": 160,
+    "output_offset_hex": "0xA0",
+    "storage_bytes": 4,
+    "conditional_normal_decoder_layout_proven": true,
+    "native_CPP_symbol_name_recovered": false,
+    "atomic_DWORD_store_claimed": false
+  },
+  "official_wire_correspondence": [
+    {
+      "build": 41810,
+      "bytes": 25890,
+      "sha256": "879d228d9d8acd21d63563538dd15841aaf49259ee0bb468b8a46b6a4ef866fd",
+      "header_typeid": 18,
+      "version_typeid": 11,
+      "leaf_typeid": 6,
+      "wire_path": [
+        1,
+        5
+      ],
+      "label": "m_version.m_baseBuild",
+      "domain": [
+        0,
+        4294967295
+      ]
+    },
+    {
+      "build": 96477,
+      "bytes": 26921,
+      "sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+      "header_typeid": 18,
+      "version_typeid": 11,
+      "leaf_typeid": 6,
+      "wire_path": [
+        1,
+        5
+      ],
+      "label": "m_version.m_baseBuild",
+      "domain": [
+        0,
+        4294967295
+      ]
+    }
+  ],
+  "tag_accessor": {
+    "entry_RVA": "0x1A6D580",
+    "selected_RVA_end_exclusive": "0x1A6D5ED",
+    "selected_bytes": 109,
+    "decoded_instructions": 34,
+    "selected_code_sha256": "4787797b4d3eeedd02398a9ad4b342ca301b98a14a9a272ad2a1d2390c803864",
+    "relative_CODE_targets_checked": 5,
+    "captured_IDA_exit_code": 0,
+    "selected_negative_header_contract": "Expected tag is the lower bound plus the supplied index, accepted by the inclusive bounds predicate.",
+    "selected_headers": "Root879 and STRUCT20 use header0x8E; their lower bounds are zero and upper bounds7 and5.",
+    "sparse_path_semantics_or_whole_metadata_function_extent_claimed": false
+  },
+  "conditional_trace": [
+    {
+      "schema": 879,
+      "wire_tag": 1,
+      "index": 1,
+      "native_offset": 152,
+      "child": "USER881 -> STRUCT20"
+    },
+    {
+      "schema": 20,
+      "wire_tag": 5,
+      "index": 5,
+      "native_offset": 8,
+      "child": "USER28 -> INT3"
+    },
+    {
+      "schema": 3,
+      "accepted_domain": [
+        0,
+        4294967295
+      ],
+      "native_AUX_leading_count": 4,
+      "write": "Four separate little-endian byte stores at root output+160 through+163."
+    }
+  ],
+  "normal_preconditions": [
+    "Valid pinned1192-type context and matching stable program/AUX data; ordinary normal x64 helper contracts.",
+    "Reader, metadata, cursor, output and local/home stack regions valid and nonaliasing as required; no wrap, exception or asynchronous interference.",
+    "Well-formed fully buffered versioned input, all selected declared fields present in ascending order, avoiding opaque refill, missing-field callback and unknown-field skip paths."
+  ],
+  "proof_summary": [
+    "Actual STRUCT matching-field code obtains native offset and child type, adds the parent destination and recurses through actual core1A76740.",
+    "Observed metadata reader decodes BE32 child ids; USER881 selects20 and USER28 selects3 without adding destination offsets under the stated conditions.",
+    "Completed bounds construction yields INT3 unsigned0..0xFFFFFFFF. The admitted auxiliary leading count4 composes with the proven byte-store loop.",
+    "Tag accessor now connects the declared wire tags to the matching indices, closing the earlier local tag-binding gate."
+  ],
+  "boundaries": {
+    "wire_label_is_not_recovered_native_CPP_symbol": true,
+    "per_field_static_layout_is_conditional": true,
+    "post_decode_ownership_lifetime_or_unchanged_propagation_proven": false,
+    "runtime_value_or_client_acceptance_observed": false,
+    "full_header_compatibility_or_replay_upgrade_proven": false,
+    "playback_validated": false,
+    "native_target_execution": false,
+    "emulation": false,
+    "REA_results_used_for_this_pair": false,
+    "CI_success_claimed": false
+  },
+  "evidence_fingerprints": {
+    "final_composition_review": {
+      "bytes": 5571,
+      "sha256": "9a85fb8ced211c2bda2a62d08cd3a684ca4410b8a104683f7493e57e8b7f0ddb"
+    },
+    "prior_field_route": {
+      "bytes": 9741,
+      "sha256": "d86260f9ba8a7b15752d7c15bc331558f9c2b8ae6ccf47dace0f9b42f814c799"
+    },
+    "tag_TSV": {
+      "bytes": 1743,
+      "sha256": "2189a61adaa1c5f970ae2ea53b8a101956b2b85498b9a829cc4b8155845f9ded"
+    },
+    "tag_quality": {
+      "bytes": 2356,
+      "sha256": "1c60382ce13f3ebb98e7392df9ff9cb51d92e7230c86555adf91ea81d5e8ce62"
+    },
+    "tag_completion": {
+      "bytes": 180,
+      "sha256": "38f11df796c28b4fac5c32950f1bc1441895885a1809fae6a35c51fbf4630351"
+    },
+    "numeric879": {
+      "bytes": 8010,
+      "sha256": "5a74f93413ffeead8ca21864225918e6d7ecec7c4d2ac5bd5da1f11579e454d1"
+    }
+  }
+}
