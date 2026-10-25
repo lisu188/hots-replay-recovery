@@ -1,0 +1,169 @@
+{
+  "format": "native-client-list-backing-static-observation-v1",
+  "date": "2026-10-25",
+  "source": {
+    "client_build": 98348,
+    "original_PE_bytes": 53573840,
+    "original_PE_SHA256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+    "patch_bytes": 36581376,
+    "patch_SHA256_inherited_not_rehashed": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83",
+    "instruction_source": "analyst-derived statically transformed text patch; not runtime capture or unaltered on-disk PE text",
+    "two_helper_metadata_bytes": 432,
+    "two_helper_patch_bytes": 423,
+    "new_fullhashstream_or_PE_code_bytes": 0,
+    "four_4field_identity_snapshots_match_for_each_file": true
+  },
+  "member_helper": {
+    "entry_RVA": "0x6BAF50",
+    "selected_end_RVA_exclusive": "0x6BB0D8",
+    "selected_bytes": 392,
+    "instructions": 84,
+    "selected_floor_begins_at_entry": true,
+    "unique_metadata_covering_proven": false,
+    "contiguous_bytes_equal_capture": true,
+    "direct_calls": 6,
+    "internal_conditional_branches": 2,
+    "all_relative_targets_recomputed": true,
+    "RET_RVA": "0x6BB0D7",
+    "external_callee_bodies_complete": false,
+    "whole_function_extent_or_deep_copy_claimed": false,
+    "actual_IDA_exit_code": 0
+  },
+  "argument_bridge": {
+    "actual_call_RVA": "0x6BAFB4",
+    "target_RVA": "0x6B5BA0",
+    "source_and_destination_arguments": "Corresponding source and destination subobjects at offset0x120, under normal returning calls and nonvolatile-register preservation.",
+    "previous_caller_RVA": "0x6B8F8F",
+    "third_member_offset": "0x4310",
+    "inner_subobject_offset": "0x120",
+    "composed_offset": "0x4430",
+    "existing_getter_RVA": "0xCBF6D0",
+    "getter_selection": "Its32-bit discriminator value2 selects offset0x4430.",
+    "conclusion": "The selected helper receives the list-address subobject chosen by that getter branch. The third member and discriminator2 remain unnamed; no runtime-instance, source-content or complete copy equivalence is established."
+  },
+  "list_helper_fragment": {
+    "entry_RVA": "0x6B5BA0",
+    "selected_end_RVA_exclusive": "0x6B5BBF",
+    "selected_bytes": 31,
+    "instructions": 10,
+    "selected_floor_begins_at_entry": true,
+    "unique_metadata_covering_proven": false,
+    "contiguous_bytes_equal_capture": true,
+    "pointer_equality_compare_RVA": "0x6B5BAD",
+    "conditional_branch_RVA": "0x6B5BB0",
+    "equal_pointer_target_RVA": "0x6B5F95",
+    "equal_pointer_target_outside_selection": true,
+    "unequal_fallthrough_RVA": "0x6B5BBF",
+    "unequal_fallthrough_outside_selection": true,
+    "loads_after_comparison": "On unequal pointers, reads64 bits from the beginning of each container. Their abstract meaning is not established here.",
+    "calls": 0,
+    "RET_observed": false,
+    "container_stores_or_element_iteration_observed": false,
+    "whole_function_or_local_CFG_closed": false,
+    "self_copy_no_op_proven": false,
+    "actual_IDA_exit_code": 0
+  },
+  "retained_consumer_context": {
+    "function_RVA": "0xDFE7D0",
+    "count_load_RVAs": [
+      "0xDFF516",
+      "0xDFF90C"
+    ],
+    "count_load_width_bits": 32,
+    "record_base_offset": "0x8",
+    "record_stride_hex": "0x360",
+    "record_stride_decimal_bytes": 864,
+    "provenance": "These are retained consumer observations. The31-byte helper fragment reads64-bit words but does not independently establish their count type, iteration stride or capacity.",
+    "geometry_only": {
+      "adjacent_scalar_offset_hex": "0x3728",
+      "list_offset_hex": "0x120",
+      "difference_hex": "0x3608",
+      "difference_decimal_bytes": 13832,
+      "equality": "13832 = 8 + 16 * 864",
+      "array_capacity_or_complete_extent_proven": false
+    }
+  },
+  "remaining_work": [
+    "Decode actual fallthrough0x6B5BBF and equality target0x6B5F95 before asserting resize, iteration, return or self-copy behavior.",
+    "Authenticate element-copy operations and missing ClientInfo/SharedPlayerInfo values; no default follows from a helper name or initialization.",
+    "Recover the incoming source-object producer before the authenticated D000D0 copy call; an argument/address link is not source-value provenance."
+  ],
+  "evidence_pins": [
+    {
+      "source": "member392/metadata.json",
+      "bytes": 2955,
+      "sha256": "295948c68930f97254811a14cf74c643dde786a8d12fb2fe274d9271fc040887"
+    },
+    {
+      "source": "member392/preparation.json",
+      "bytes": 2194,
+      "sha256": "230809f6fdfe152f89fae57eb47b977ba6b0666b88b379a0400627b3cd30df24"
+    },
+    {
+      "source": "member392/selected.asm.tsv",
+      "bytes": 4956,
+      "sha256": "b35226c874054000a9f09bf2cabfe2592f8c18bffbd6bb411c033ba388c8cb56"
+    },
+    {
+      "source": "member392/quality.json",
+      "bytes": 2880,
+      "sha256": "0df7d946fe1291b205905bbbb7b55771227a661ba05682410e50cb1a92702938"
+    },
+    {
+      "source": "member392/completed.json",
+      "bytes": 214,
+      "sha256": "599e306f5d7bbfad770a548ffd9dc8f94c03ed294b6b85f0bb498d8fe92f789a"
+    },
+    {
+      "source": "entry31/metadata.json",
+      "bytes": 3017,
+      "sha256": "a023393d568cd5d497eabbcda6840eebb13161d432dcfefdc18e1d6a1eef3974"
+    },
+    {
+      "source": "entry31/preparation.json",
+      "bytes": 1470,
+      "sha256": "13292c85d3f3fe852bd40f537a3b6cb35a85fce21b6b90cc8ecdecd123e95f02"
+    },
+    {
+      "source": "entry31/selected.asm.tsv",
+      "bytes": 538,
+      "sha256": "6e29802fb62c570ea1218f22df7b5a96746c163c7b67993c7464c5e2d55c6491"
+    },
+    {
+      "source": "entry31/quality.json",
+      "bytes": 1626,
+      "sha256": "f825583abe978e55b9d1edb3112ca2e3780d37cc4341629dd8f1145c229587dc"
+    },
+    {
+      "source": "entry31/completed.json",
+      "bytes": 214,
+      "sha256": "91a4f6177c0650ea934e31b9b03393cbb1f09dbef8b9b147d5e9c4aaaba145c3"
+    },
+    {
+      "source": "retained-consumer-DFE7D0.asm.txt",
+      "bytes": 42820,
+      "sha256": "4b4ae2a15f42d81668f65d2d3ed936ac2a63d0e95298a0fc32f0afc2bfb55c9b"
+    },
+    {
+      "source": "container-copy-prefix.asm.tsv",
+      "bytes": 2777,
+      "sha256": "41e0ba58c416cffc6fe9c36ff62f6b1eb1b29c3d2b69924a2c20b5d63c70a172"
+    },
+    {
+      "source": "published-getter-observation.json",
+      "bytes": 5673,
+      "sha256": "e13a79ea4f9cda87174eb4e95c20738e43547296920a894e4810093d543dc2fd"
+    }
+  ],
+  "scope": {
+    "target_native_or_game_execution": false,
+    "Computer_Use": false,
+    "replay_changed": false,
+    "historical_values_assigned": false,
+    "list_copy_or_count_stride_proven_by_new_fragment": false,
+    "playback_or_sync_parity_proven": false,
+    "CI_success_claimed": false,
+    "full_upgrade_complete": false,
+    "full_replay_upgrade_complete": false
+  }
+}
