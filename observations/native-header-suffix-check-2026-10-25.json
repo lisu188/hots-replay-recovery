@@ -1,0 +1,196 @@
+{
+  "format": "native-header-postdecode-checks-v2",
+  "date": "2026-10-25",
+  "source": {
+    "client_build": 98348,
+    "client_version": "2.57.0.98348",
+    "PE_bytes": 53573840,
+    "PE_sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+    "instruction_source": "analyst-derived statically transformed text patch",
+    "patch_bytes": 36581376,
+    "patch_sha256": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83",
+    "runtime_capture": false,
+    "unaltered_PE_text_claimed": false
+  },
+  "suffix_helper": {
+    "entry_RVA": "0x133C440",
+    "end_RVA_exclusive": "0x133C4B0",
+    "caller_RVA": "0x134DD13",
+    "argument": "decoded header+0x10",
+    "required_caller_return": 11,
+    "selected_bytes": 112,
+    "instructions": 39,
+    "returns": 2,
+    "relative_edges": 8,
+    "all_targets_at_included_instruction_boundaries": true,
+    "calls_indirect_branches_memory_writes": 0,
+    "normal_contract": "Read valid NUL-terminated input; parse final ASCII decimal suffix modulo2^32, or return zero if no trailing digit run.",
+    "decoded_header_preserved_on_selected_normal_route": true,
+    "native_or_CRT_symbol_assigned": false
+  },
+  "comparison": {
+    "wrapper_RVA": "0x1A3DFEC",
+    "global_flag_RVA": "0x3B5A004",
+    "global_flag_runtime_value_observed": false,
+    "zero_flag_route": {
+      "entry_RVA": "0x1A3DF90",
+      "normal_conditions": "Valid nonnull input/count<=0x7FFFFFFF and disjoint ordinary caller home stack; count0 returns0.",
+      "input_memory_writes": 0,
+      "other_memory_write": "Save RBX at entryRSP+8.",
+      "normal_contract": "ASCII uppercase fold and counted byte comparison; stop on count, first folded zero byte, or difference.",
+      "header_preserved": true
+    },
+    "nonzero_flag_route": {
+      "entry_RVA": "0x1A3E03C",
+      "initializer": {
+        "CALL_RVA": "0x1A3E069",
+        "target_RVA": "0x1A36598",
+        "args": "Local descriptor base, zero."
+      },
+      "mapping_helper": {
+        "CALL_RVAs": [
+          "0x1A3E0C1",
+          "0x1A3E0D0"
+        ],
+        "target_RVA": "0x1A36AA8",
+        "args": "ECX=input byte value; RDX=descriptor+8."
+      },
+      "input_pointers_passed_to_opaque_hooks": false,
+      "observed_normal_memory_writes": "Stack saves and conditional context DWORD bit1 clear at [descriptor+0]+0x3A8.",
+      "conditional_context_contract": "Valid context objects disjoint from header; opaque hooks restrict writes to descriptor/context domain. This hook write contract remains unproved from selected callers.",
+      "header_preservation_conditionally_supported": true,
+      "header_preservation_source_closed_without_hook_assumption": false,
+      "count_zero": "Returns0 before context setup."
+    },
+    "actual_evidence": {
+      "fast": {
+        "loaded_bytes": 128,
+        "decoded_bytes": 92,
+        "instructions": 30,
+        "decoded_sha256": "2eceb723d2a9d0eadeb95f305a65123c7adf9b01b05769c88d9a2b9b0dc732c5",
+        "captured_sha256": "d70a454eeafd8413ba7bee2ff502286283015e890b37f1717de0da9eb85e3434",
+        "exit_code": 0,
+        "all_relative_edges_verified": true,
+        "noncall_edges_at_included_instruction_boundaries": true,
+        "calls": 0,
+        "relative_edges": 5
+      },
+      "alternate": {
+        "loaded_bytes": 512,
+        "decoded_bytes": 218,
+        "instructions": 63,
+        "decoded_sha256": "e618cf4740a2a93014322f337e6c6480f7a2658404edddf0498697330721798f",
+        "captured_sha256": "cec718b8069527ffcf7cadce4244ea4475a36c737c3df817e221250f938120d3",
+        "exit_code": 0,
+        "all_relative_edges_verified": true,
+        "noncall_edges_at_included_instruction_boundaries": true,
+        "calls": 6,
+        "relative_edges": 18
+      }
+    }
+  },
+  "bridge": {
+    "official_field": "m_version.m_baseBuild",
+    "conditional_native_header_offset": "0xA0",
+    "zero_flag_valid_postcheck_entry_to_transfer_return_T_plus_8_preserves_word": true,
+    "selected_leaf_to_postcheck_entry_newly_proven": false,
+    "normal_decoder_and_frame_conditions_required": true,
+    "nonzero_flag_positive_count_requires_hook_context_contract": true,
+    "later_gate_cache_object_identity_or_lifetime_closed": false
+  },
+  "evidence": {
+    "suffix_and_tails": {
+      "kind_complete": {
+        "selected_bytes": 112,
+        "instructions": 39,
+        "source_code_sha256": "0a1f331e053595d2bda60dd1b227d698293058da19d2ab07fa64794bf298cc1f",
+        "relative_edges_checked": 8,
+        "actual_exit_code": 0,
+        "fingerprints": {
+          ".tsv0": {
+            "bytes": 2045,
+            "sha256": "443a320f2615ae7e52375ab38ea9dc0f06415844e94dcaa963910561d210c870"
+          },
+          ".json1": {
+            "bytes": 2907,
+            "sha256": "05124294701b7441372cbd4c19316939b8b598673cea346328551624e533e2e4"
+          },
+          ".json2": {
+            "bytes": 208,
+            "sha256": "62aca51d29db5b41d61b3b9bb79972f24f12c475496b1c5feabcff3cdb3bd8cc"
+          }
+        }
+      },
+      "postcheck_tails": {
+        "selected_bytes": 35,
+        "instructions": 9,
+        "source_code_sha256": "58d176081a4332f9f1fd66aaec1da7431a237729b51d6064ee4a1c883ebc1f86",
+        "relative_edges_checked": 4,
+        "actual_exit_code": 0,
+        "fingerprints": {
+          ".tsv0": {
+            "bytes": 613,
+            "sha256": "d4a499e77ec5d5c9a3b6811bc566fa3a0d3df7d80f140a27056b9c94fcfa0076"
+          },
+          ".json1": {
+            "bytes": 2197,
+            "sha256": "ffd31d7ad6ca8d08ed2dbeecbafa95a98932a13fe0ada91d9d473023e175f384"
+          },
+          ".json2": {
+            "bytes": 210,
+            "sha256": "459a178c644fa9497a0606b0a2c6a3e02b005e5d3f5581e55ad66a8d8586595e"
+          }
+        }
+      }
+    },
+    "independent_comparison_review": {
+      "bytes": 5422,
+      "sha256": "19a9f857aa2841f0339cf7cd4135cd8ad7a6fe6f12b24ef625405142b4840cc3"
+    },
+    "comparison_outputs": [
+      {
+        "role": "fast.asm.tsv",
+        "bytes": 1570,
+        "sha256": "56d7c16db370c2a2e61728674294f05159391df41aa5f7da9257a2a48af95901"
+      },
+      {
+        "role": "fast.quality.json",
+        "bytes": 2343,
+        "sha256": "30ac177354e68ca7327437a92c7e537b87127337f98e5e21de024c5c1f24c5fc"
+      },
+      {
+        "role": "fast.completed.json",
+        "bytes": 199,
+        "sha256": "426cb2e6636dd23b87fb225de9f1f4fbc6b5d97c17e5d9b922618585897e9c81"
+      },
+      {
+        "role": "alternate.asm.tsv",
+        "bytes": 3538,
+        "sha256": "d8b7914afd168d3999aaeb6a60958c2f5cc875cba84a9a60df7ebfd44369f5d7"
+      },
+      {
+        "role": "alternate.quality.json",
+        "bytes": 4672,
+        "sha256": "791e9567b82b0820d8a5a0882c2950e20cc18671bb4602088d6e70905e19b377"
+      },
+      {
+        "role": "alternate.completed.json",
+        "bytes": 204,
+        "sha256": "26132ca9fc492963b4d8150ec01bc8da6d3478711c0ce96bf95457a95f5b096b"
+      },
+      {
+        "role": "640B-preparation",
+        "bytes": 3151,
+        "sha256": "bde10e32551a68196d7e97f942730d22f8cd3025e670cd5782d5a9018574a741"
+      }
+    ]
+  },
+  "boundaries": {
+    "selected_entry_route_not_authenticated_function_extent": true,
+    "no_CRT_or_native_symbol_assigned": true,
+    "opaque_hooks_not_assumed_readonly_from_ABI": true,
+    "runtime_global_context_field_values_observed": false,
+    "target_execution_full_upgrade_playback": false,
+    "CI_success_claimed": false
+  }
+}
