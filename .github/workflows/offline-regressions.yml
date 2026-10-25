@@ -173,10 +173,21 @@ jobs:
           archive = checked_archive(path)
           try:
               details = p.decode_replay_details(archive.read_file('replay.details'))
-              initial = p.decode_replay_initdata(archive.read_file('replay.initData'))
+              setup_raw = archive.read_file('replay.initData')
+              initial = p.decode_replay_initdata(setup_raw)
               raw = archive.read_file('replay.server.battlelobby')
           finally:
               archive.close()
+          from native_setup import decode_setup, encode_setup_values, reencode_setup_source, compare_setup_with_official
+          setup = decode_setup(setup_raw)
+          assert setup.source_sha256 == '9800e9b30fb10dee72c7ccc70bfd0b35cf19eab794cf657a9f56734a461d5240'
+          assert setup.payload_end_bit == 895621 and len(setup_raw) == 111953
+          assert reencode_setup_source(setup) == setup_raw
+          assert encode_setup_values(setup.value) == setup_raw
+          setup_nodes = compare_setup_with_official(setup, initial, p.typeinfos)
+          assert setup_nodes == 83907
+          write_json('work/current-native-setup.json', {'format': 'current-native-setup775-CI-v1', 'replay_sha256': profile['file_sha256'], 'native_setup': setup.summary(), 'official_value_nodes_compared': setup_nodes, 'canonical_value_serialization_equals_whole_source': True, 'source_preserving_reencoding_equals_whole_source': True, 'client_launched': False, 'replay_modified': False, 'simulation_or_historical_conversion_proven': False})
+          print({'native_setup_type': 775, 'native_setup_bytes': 111953, 'official_value_nodes_compared': setup_nodes, 'whole_source_and_canonical_value_write_exact': True})
           assert {player['m_toon']['m_region'] for player in details['m_playerList']} == {2}
           mods = audit_member(raw, 'observed-11', 'current-observed')
           tail = decode_tail(raw, mods['terminal_handles_end_bit'], 'current-tail')
@@ -250,6 +261,7 @@ jobs:
             work/offline-unit-regression.json
             work/current-eu-profile.json
             work/current-eu-structure.json
+            work/current-native-setup.json
             work/original-mapinfo-framing.json
           if-no-files-found: warn
           retention-days: 14

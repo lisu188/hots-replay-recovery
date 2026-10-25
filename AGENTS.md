@@ -932,3 +932,28 @@ This new framing source and laterreceipts are outside that older source ZIP.
 Oldpackage metadata supplies no untried distinct globalrules archive route;
 currentXMLspellings/Novareferences do not establish oldalias/ruleequivalence.
 OfficialEUmanifest2026-10-20T06:25:32UTC still2.57.0.98348, same874B/SHA.
+
+
+## Native setup value codec - 2026-10-25
+
+Read `docs/NATIVE_SETUP_CODEC_2026-10-25.md`,
+`observations/native-setup-codec-provenance-2026-10-25.json` and
+`observations/native-setup-two-actual-2026-10-25.json` as additive state.
+`native_setup.py` now exposes a strict value writer for the distinct native775
+200-type graph used by current replay.initData. It pins its anonymous schema,
+native STRING validator and private reader/writer, and compares with pinned
+Blizzard96477 outer71/inner70. Canonical writing zeroes internal padding;
+unchanged source reproduction validates and preserves original internal bits.
+
+Local validation passed 46 new tests and 64 neighboring codec tests. Current EU
+and R8 members both reproduced byte-for-byte, with 87,427 official logical nodes
+compared. The existing CI current-EU gate now checks the new codec as well; its
+future run is separate evidence. The official EU manifest checked today still
+reports 2.57.0.98348. No Computer Use, client, replay write or sync change occurred.
+
+This is a production offline codec milestone, not a completed historical
+conversion. R8 still declares98285 and remains the latest replay. Preserve the
+source and all checkpoints. Resource identity/ownership, current-only ClientInfo
+semantics, historical catalog rules and deterministic synchronization remain
+unresolved. The full5917 lobby encoder remains inverse-only; never treat this
+native775 writer as a writer for that separate graph or guess missing values.

@@ -28,3 +28,15 @@ native_startgame_schema_98348.json -text whitespace=cr-at-eol
 
 legacy_mapinfo_framing.py -text whitespace=cr-at-eol
 test_legacy_mapinfo_framing.py -text whitespace=cr-at-eol
+
+# Preserve executed native775 models, test metadata and provenance pins.
+native_setup.py -text whitespace=cr-at-eol
+_native_setup_reader.py -text whitespace=cr-at-eol
+_native_setup_writer.py -text whitespace=cr-at-eol
+_native_setup_string.py -text whitespace=cr-at-eol
+native_setup_schema_98348.json -text whitespace=cr-at-eol
+test_native_setup.py -text whitespace=cr-at-eol
+test_native_setup_writer.py -text whitespace=cr-at-eol
+test_native_setup_official.py -text whitespace=cr-at-eol
+test_native_setup_official_schema.json -text whitespace=cr-at-eol
+references/heroprotocol-LICENSE.txt -text whitespace=cr-at-eol

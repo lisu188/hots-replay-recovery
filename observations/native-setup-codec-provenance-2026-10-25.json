@@ -1,0 +1,296 @@
+{
+  "acceptance_limits": {
+    "full_upgrade_complete": false,
+    "historical_defaults_or_resource_mapping_invented": false,
+    "native_setup_lifetime_or_cached_CRC_proven": false,
+    "simulation_or_playback_compatibility_proven": false,
+    "unresolved": [
+      "historical resource identities and ownership",
+      "current-only ClientInfo field semantics",
+      "legacy SharedPlayerInfo branch semantics",
+      "catalog and sync compatibility"
+    ]
+  },
+  "actual_integration": {
+    "R8_metadata_build_unchanged": 98285,
+    "case_count": 2,
+    "cases": [
+      {
+        "canonical_value_write_whole_member_exact": true,
+        "full_source_before_after_SHA256_and_stat_unchanged": true,
+        "label": "public98348",
+        "member_bytes": 111953,
+        "member_sha256": "9800e9b30fb10dee72c7ccc70bfd0b35cf19eab794cf657a9f56734a461d5240",
+        "official_value_nodes_compared": 83907,
+        "payload_end_bit": 895621,
+        "source_bytes": 978482,
+        "source_preserving_whole_member_exact": true,
+        "source_sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4"
+      },
+      {
+        "canonical_value_write_whole_member_exact": true,
+        "full_source_before_after_SHA256_and_stat_unchanged": true,
+        "label": "R8partial98285",
+        "member_bytes": 4262,
+        "member_sha256": "b0a805ada431290f170415e794942473044ee56d8ed7b684628e7c219e684e04",
+        "official_value_nodes_compared": 3520,
+        "payload_end_bit": 34089,
+        "source_bytes": 2438570,
+        "source_preserving_whole_member_exact": true,
+        "source_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19"
+      }
+    ],
+    "checked_at_utc": "2026-10-25T08:29:43.072894+00:00",
+    "native_client_or_ComputerUse_used": false,
+    "new_replay_generated": false,
+    "official_value_nodes_compared_total": 87427,
+    "raw_members_or_decoded_values_published": false,
+    "receipt": {
+      "bytes": 4091,
+      "path": "observations/native-setup-two-actual-2026-10-25.json",
+      "sha256": "45d8f47b3a0dd3b9e785204dd4bf30f6e3b175f63a4d697cfd8ab4e703eaa955"
+    },
+    "replay_or_sync_values_modified": false
+  },
+  "candidate_state": "prepared locally; CI for this candidate pending publication",
+  "focused_tests": {
+    "CI_status_for_this_candidate": "not run; pending publication",
+    "errors": 0,
+    "executed": 46,
+    "execution_command": "python -I -S -B -X utf8 -",
+    "failures": 0,
+    "modules": {
+      "test_native_setup": 15,
+      "test_native_setup_official": 11,
+      "test_native_setup_writer": 20
+    },
+    "passed": 46,
+    "runner": "Isolated Python311 stdin runner explicitly inserted the candidate directory into sys.path and used unittest.TestLoader for the three named modules; no external protocol package was required.",
+    "skipped": 0,
+    "synthetic_only": true,
+    "test_files": [
+      {
+        "bytes": 13287,
+        "path": "test_native_setup_writer.py",
+        "sha256": "0f5f597f3a6f9d23ed0d8cc6c3dd7e796aab798fda6785b7b940961cdf17f93f"
+      },
+      {
+        "bytes": 9279,
+        "path": "test_native_setup.py",
+        "sha256": "7bfab66229257d1a5ed19787ff612fc7c372b5390161fa5ae2a8746c1535de8d"
+      },
+      {
+        "bytes": 12148,
+        "path": "test_native_setup_official.py",
+        "sha256": "580d08f7ccd21b858912cd55da22c7f360822745a414cd300007712fa2176707"
+      }
+    ],
+    "unittest_reported_seconds": 1.621
+  },
+  "format": "native-setup-codec-provenance-v1",
+  "live_target": {
+    "body_bytes": 874,
+    "body_path": "references/hero-versions-2026-10-25.txt",
+    "body_sha256": "f94345ccb04cd3c794ceceb7395efbe6e314eb9a0aec7cb6c3a779b400d74cf4",
+    "build": 98348,
+    "checked_at_utc": "2026-10-25T08:28:27.778601+00:00",
+    "receipt_path": "observations/native-setup-live-target-2026-10-25.json",
+    "source_url": "https://eu.patch.battle.net/hero/versions",
+    "version": "2.57.0.98348"
+  },
+  "native_static_evidence": {
+    "case_to_kind": {
+      "1": "ARRAY",
+      "11": "OPTIONAL",
+      "14": "STRUCT",
+      "15": "STRING",
+      "16": "USER",
+      "3": "BIT_ARRAY",
+      "4": "BLOB",
+      "5": "BOOL",
+      "7": "ENUM",
+      "8": "FOURCC",
+      "9": "INT"
+    },
+    "contract": [
+      "Read/write low available bit positions in each byte; place each consumed chunk at the high end of the remaining logical integer.",
+      "Successful scalar widths are limited to 0..32 at RVA0x1A6EA50 and 0..64 at RVA0x1A6EB10.",
+      "Setup caller RVA0x133D350 supplies context0; STRUCT members use declaration order.",
+      "STRING descriptor RVA0x1A6D310 adds2 to the encoded byte-count width and multiplies the encoded maximum by4; the strict model independently checks native sequence-count bounds.",
+      "Aligned octet writing zeroes canonical internal padding; source-preserving reproduction retains accepted source padding separately."
+    ],
+    "new_Ghidra_or_client_execution": false,
+    "runtime_callbacks_or_native_object_identity_proven": false,
+    "scalar_functions": [
+      {
+        "RVA": "0x1A6EA50",
+        "end_exclusive": "0x1A6EB08",
+        "instructions": 59,
+        "valid_scalar_width": "0..32"
+      },
+      {
+        "RVA": "0x1A6EB10",
+        "end_exclusive": "0x1A6EBCA",
+        "instructions": 59,
+        "valid_scalar_width": "0..64"
+      }
+    ],
+    "scalar_source_fingerprints": [
+      {
+        "RVA": "0x1a6ea50",
+        "bytes": 1026,
+        "kind": "c",
+        "sha256": "df966b08918a0bbdb8f4b16bfce77003b71c72a1fb185b689693256ae67bf51e"
+      },
+      {
+        "RVA": "0x1a6ea50",
+        "bytes": 1614,
+        "kind": "asm.txt",
+        "sha256": "b593c6e60081d0036fce17a518ee20defb47119436e94bb36d1ca3e1acdabb17"
+      },
+      {
+        "RVA": "0x1a6ea50",
+        "bytes": 1614,
+        "kind": "expanded.asm.txt",
+        "sha256": "b593c6e60081d0036fce17a518ee20defb47119436e94bb36d1ca3e1acdabb17"
+      },
+      {
+        "RVA": "0x1a6eb10",
+        "bytes": 1031,
+        "kind": "c",
+        "sha256": "f0fcf498a64a0e2d9b30130aaea47e2bd09073ae9159ea74cd9cc40101859558"
+      },
+      {
+        "RVA": "0x1a6eb10",
+        "bytes": 1613,
+        "kind": "asm.txt",
+        "sha256": "27b2b7e5799bb235e44ae0bb3c1e1de7ad12d2a9782955f803d283e7100b1405"
+      },
+      {
+        "RVA": "0x1a6eb10",
+        "bytes": 1613,
+        "kind": "expanded.asm.txt",
+        "sha256": "27b2b7e5799bb235e44ae0bb3c1e1de7ad12d2a9782955f803d283e7100b1405"
+      }
+    ],
+    "selected_helper_fingerprints": [
+      {
+        "RVA": "0x1A6EBD0",
+        "bytes": 20255,
+        "role": "dispatcher_ASM",
+        "sha256": "9848ed11d4979456e4cd32a77c1770fec2ea7c29bb9441cc5cd53f167f041e62"
+      },
+      {
+        "RVA": "0x1A6EBD0",
+        "bytes": 13928,
+        "role": "dispatcher_C",
+        "sha256": "8d1acb4cd0373ac2cf3917786896e140c2b8c9ed897ac833c9c693df616d21f3"
+      },
+      {
+        "RVA": "0x1A6F720",
+        "bytes": 5174,
+        "role": "byte_transfer",
+        "sha256": "22aa679bbdd38a46c56f29d296d9617f52bb0a86c6fb780acfbadeeff5ab78dd"
+      },
+      {
+        "RVA": "0x133D350",
+        "bytes": 1916,
+        "role": "setup_caller",
+        "sha256": "d16d17e639753304f968063f61c52731e7f0d2301b3eb9e10138f6afb9b9ef83"
+      },
+      {
+        "RVA": "0x1A6F5E0",
+        "bytes": 416,
+        "role": "wrapper",
+        "sha256": "39612c037ac77da8bb5afa981649094ef14851a4342f3495c84b4a5ca9222101"
+      },
+      {
+        "RVA": "0x1A6F610",
+        "bytes": 1349,
+        "role": "zero_alignment",
+        "sha256": "09c266c0ad093c944dee0ef55975cc0353287e739421a2c4acf5a52cb09c9308"
+      }
+    ],
+    "source_receipt_sha256": "46c19c98f91f8b0ec82fbe34881406130c3cc08e26f01876fbd2701d020cb042",
+    "unsupported_kinds_outside_root775": [
+      "ASCII_STRING",
+      "CHOICE",
+      "NULL",
+      "REAL32",
+      "REAL64"
+    ]
+  },
+  "official_projection": {
+    "canonical_encoding": "json.dumps(typeinfos,sort_keys=True,separators=(',',':'),ensure_ascii=True).encode('ascii'); integer choice tags retained",
+    "license_bytes": 1085,
+    "license_path": "references/heroprotocol-LICENSE.txt",
+    "license_sha256": "7a98419df880b076c67587d2494c07360d59ec138947e2bd0c940a32ec013fbd",
+    "selected_table": {
+      "bytes": 13856,
+      "path": "test_native_setup_official_schema.json",
+      "sha256": "3f7f2c49851c56db66a7b96cdb98db2e55a48fd8bba85dfd3f3678af59d42233"
+    },
+    "upstream_repository": "https://github.com/Blizzard/heroprotocol",
+    "upstream_source_path": "heroprotocol/versions/protocol96477.py",
+    "upstream_source_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84"
+  },
+  "prepared_at_utc": "2026-10-25T08:30:47.641973+00:00",
+  "production_files": [
+    {
+      "bytes": 10473,
+      "path": "native_setup.py",
+      "sha256": "e2e6a22c06c834e02ca36f448bf2d2fbe737fee31791c7c10649d02b87460ba3"
+    },
+    {
+      "bytes": 7355,
+      "path": "_native_setup_reader.py",
+      "sha256": "0ed16f26148d940680c89a80bb82220a34081a1de745bb34ca148be1b9c58a39"
+    },
+    {
+      "bytes": 8694,
+      "path": "_native_setup_writer.py",
+      "sha256": "d6dcfadf4bbbfadce361c7939e50172afdf9ba1a0ac0537716e817872e45adb7"
+    },
+    {
+      "bytes": 2145,
+      "path": "_native_setup_string.py",
+      "sha256": "56087d34ad3569cb20a01d1831e15697432840d22c2a008c83a267bd65dcea69"
+    },
+    {
+      "bytes": 46829,
+      "path": "native_setup_schema_98348.json",
+      "sha256": "0c9e5d80f745d9e8d7191e3bc3039fb9e07e1d2c5e83c0bbbeb081216e23395e"
+    }
+  ],
+  "schema": {
+    "file_bytes": 46829,
+    "file_sha256": "0c9e5d80f745d9e8d7191e3bc3039fb9e07e1d2c5e83c0bbbeb081216e23395e",
+    "record_projection_encoding": "json.dumps(records,sort_keys=True,separators=(',',':'),ensure_ascii=True).encode('ascii')",
+    "records_projection_sha256": "b60e4647c3a3d1ebc0344e99f4626f8dd72617bdb3cf4e204df8712990949bb1"
+  },
+  "scope": {
+    "names_or_native_object_layout_authenticated": false,
+    "native_kind_counts": {
+      "ARRAY": 7,
+      "BIT_ARRAY": 6,
+      "BLOB": 2,
+      "BOOL": 25,
+      "ENUM": 7,
+      "FOURCC": 2,
+      "INT": 17,
+      "OPTIONAL": 12,
+      "STRING": 13,
+      "STRUCT": 11,
+      "USER": 98
+    },
+    "native_root_type_id": 775,
+    "native_type_count": 200,
+    "official_inner_type_id": 70,
+    "official_outer_field": "m_syncLobbyState",
+    "official_outer_type_id": 71,
+    "official_protocol": 96477,
+    "official_table_record_count": 213,
+    "profile": "setup-98348",
+    "root5917_equivalence_claimed": false
+  }
+}
