@@ -1,0 +1,399 @@
+{
+  "authenticated_field_names": null,
+  "authenticated_type_name": null,
+  "closure": {
+    "all_selected_records_reachable_from_root": true,
+    "all_selected_references_resolve": true,
+    "record_count": 22,
+    "records": [
+      {
+        "bounds": {
+          "bits": 32,
+          "int_type": 5,
+          "max": 4294967295,
+          "min": 0,
+          "variable": true
+        },
+        "id": 3,
+        "kind": "INT",
+        "name": null
+      },
+      {
+        "bounds": {
+          "bits": 3,
+          "int_type": 1,
+          "max": 5,
+          "min": 0,
+          "variable": false
+        },
+        "count": 6,
+        "field_names": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "field_types": [
+          23,
+          24,
+          25,
+          26,
+          27,
+          28
+        ],
+        "id": 20,
+        "kind": "STRUCT",
+        "name": null,
+        "tags": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "element_type": 29,
+        "id": 23,
+        "kind": "USER",
+        "name": null
+      },
+      {
+        "element_type": 29,
+        "id": 24,
+        "kind": "USER",
+        "name": null
+      },
+      {
+        "element_type": 29,
+        "id": 25,
+        "kind": "USER",
+        "name": null
+      },
+      {
+        "element_type": 29,
+        "id": 26,
+        "kind": "USER",
+        "name": null
+      },
+      {
+        "element_type": 3,
+        "id": 27,
+        "kind": "USER",
+        "name": null
+      },
+      {
+        "element_type": 3,
+        "id": 28,
+        "kind": "USER",
+        "name": null
+      },
+      {
+        "bounds": {
+          "bits": 8,
+          "int_type": 1,
+          "max": 255,
+          "min": 0,
+          "variable": true
+        },
+        "id": 29,
+        "kind": "INT",
+        "name": null
+      },
+      {
+        "bounds": {
+          "bits": 0,
+          "int_type": 1,
+          "max": 1,
+          "min": 1,
+          "variable": false
+        },
+        "count": 1,
+        "field_names": [
+          null
+        ],
+        "field_types": [
+          125
+        ],
+        "id": 124,
+        "kind": "STRUCT",
+        "name": null,
+        "tags": [
+          1
+        ]
+      },
+      {
+        "bounds": {
+          "bits": 0,
+          "int_type": 1,
+          "max": 16,
+          "min": 16,
+          "variable": false
+        },
+        "id": 125,
+        "kind": "BLOB",
+        "name": null
+      },
+      {
+        "bounds": {
+          "bits": 3,
+          "int_type": 1,
+          "max": 7,
+          "min": 0,
+          "variable": true
+        },
+        "count": 4,
+        "field_names": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "id": 877,
+        "kind": "ENUM",
+        "name": null,
+        "tags": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "bounds": {
+          "bits": 6,
+          "int_type": 1,
+          "max": 32,
+          "min": 0,
+          "variable": true
+        },
+        "id": 878,
+        "kind": "STRING",
+        "name": null
+      },
+      {
+        "bounds": {
+          "bits": 3,
+          "int_type": 1,
+          "max": 7,
+          "min": 0,
+          "variable": false
+        },
+        "count": 8,
+        "field_names": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "field_types": [
+          880,
+          881,
+          882,
+          883,
+          884,
+          885,
+          886,
+          887
+        ],
+        "id": 879,
+        "kind": "STRUCT",
+        "name": null,
+        "tags": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "element_type": 878,
+        "id": 880,
+        "kind": "USER",
+        "name": null
+      },
+      {
+        "element_type": 20,
+        "id": 881,
+        "kind": "USER",
+        "name": null
+      },
+      {
+        "element_type": 877,
+        "id": 882,
+        "kind": "USER",
+        "name": null
+      },
+      {
+        "element_type": 3,
+        "id": 883,
+        "kind": "USER",
+        "name": null
+      },
+      {
+        "id": 884,
+        "kind": "BOOL",
+        "name": null
+      },
+      {
+        "element_type": 124,
+        "id": 885,
+        "kind": "USER",
+        "name": null
+      },
+      {
+        "element_type": 3,
+        "id": 886,
+        "kind": "USER",
+        "name": null
+      },
+      {
+        "element_type": 124,
+        "id": 887,
+        "kind": "USER",
+        "name": null
+      }
+    ],
+    "reference_count": 28,
+    "selection_status": "complete-transitive-closure"
+  },
+  "date": "2026-10-25",
+  "evidence_pins": [
+    {
+      "bytes": 8010,
+      "role": "selected_closure",
+      "sha256": "5a74f93413ffeead8ca21864225918e6d7ecec7c4d2ac5bd5da1f11579e454d1"
+    },
+    {
+      "bytes": 12409,
+      "role": "producer_source",
+      "sha256": "b520ec61361edb07e8fe83ba367d2ecdfac36a3dd033a1efb6c8512fc21fa6ed"
+    },
+    {
+      "bytes": 3062,
+      "role": "producer_receipt",
+      "sha256": "f8210f89cd158008666cac9375f1b44e63e6d5b38367cecafb533074ce459e70"
+    },
+    {
+      "bytes": 389,
+      "role": "actual_terminal",
+      "sha256": "21c13cd519225f09a93df9ce96153c33394ebf8ed6dd8b1b5a00d1187f92ef23"
+    },
+    {
+      "bytes": 1367,
+      "role": "root_result_review",
+      "sha256": "f27621e633dc3b98fb2b5177754d9d56051cdc1a2d6e53389c91c7d69b4506d7"
+    },
+    {
+      "bytes": 2418,
+      "role": "peer_result_review",
+      "sha256": "0c627eeba48b8ccca173523dd5479ff149c4056fa34da0478c78d498186ad881"
+    },
+    {
+      "bytes": 4594,
+      "role": "parser_static_source_review",
+      "sha256": "c100ce5054e2554936fb02eb3430b8b144f858f21dcfc744298d21737b07fd49"
+    },
+    {
+      "bytes": 3038,
+      "role": "prior_single_8B_static_source_read",
+      "sha256": "27987cf03c8eb3cde5f14c7cb43a45692e19c3a740b9e57e0b433e3fd7409f69"
+    }
+  ],
+  "format": "numeric-root879-retained-topology-public-v1",
+  "full_migration_complete": false,
+  "full_replay_upgrade_complete": false,
+  "full_upgrade_complete": false,
+  "limits": [
+    "All type and field names remain null. Numeric kinds and bounds use the pinned grammar without assigning a root or field name.",
+    "Descriptor-record offsets in the underlying selected result locate saved-program bytes and do not identify native object offsets.",
+    "The selected closure and references were checked from saved JSON. Full1192-record validation was reported by the pinned producer and assessed by static source/result reviews; publication preparation did not rerun it.",
+    "Record topology does not establish a wire decoder, native output-memory layout/writer, runtime dispatch, field ownership, lifetime or playback.",
+    "The prior transfer relation T+8<-O+0x1410 retains its normal-frame/ABI/valid-range/no-concurrency conditions; later alias effects remain unresolved."
+  ],
+  "numeric_root_id": 879,
+  "playback_validated": false,
+  "producer_reported_validation": {
+    "actual_exit_code": 0,
+    "all_records_exactly_consumed_with_explicit_final_zero_suffix": true,
+    "all_type_records": 1192,
+    "attempts": 1,
+    "child_references_in_range": true,
+    "final_zero_suffix_bytes": 12,
+    "grammar_and_profile_text_bytes": 14368,
+    "materialized_fields": 982,
+    "ordered_record_boundaries_exact": true,
+    "profile_main_executed": false,
+    "result_bytes": 8010,
+    "result_cap_bytes": 32768,
+    "result_cap_passed": true,
+    "saved_input_bytes_requested": 28112,
+    "saved_input_bytes_returned": 28112,
+    "saved_program_binary_read_bytes": 13744,
+    "validation_repeated_by_publication_author": false
+  },
+  "publication_preparation": {
+    "Computer_Use": false,
+    "IPC_or_target_execution": false,
+    "client_launched": false,
+    "native_tool_launch": false,
+    "network_requests": 0,
+    "parser_import_or_execution": false,
+    "player_data_included": false,
+    "repository_or_canonical_state_write": false,
+    "retained_text_only": true,
+    "source_PE_patch_replay_or_saved_program_binary_reads": 0
+  },
+  "reported_program_identity_inherited": {
+    "PE_RVA_inherited": "0x27C6960",
+    "bytes": 13744,
+    "context_RVA_inherited": "0x393EB80",
+    "sha256": "245aba71f1702e6bae480924df478c8479978e54c383dff4757eb40863932b2f"
+  },
+  "repository_baseline": "226baa93d4b0117d519e6e9ca2da9915897f16c7",
+  "root_kind": "STRUCT",
+  "root_tags": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "scope_name": "retained_numeric_metadata_publication",
+  "static_selector_context": {
+    "adjacent_slot_RVA": "0x27C9F24",
+    "adjacent_static_DWORD": 888,
+    "prior_callsite_composition_associates_selector_with_selected_root": true,
+    "prior_source_file_read_RVA_half_open": [
+      "0x27C9F20",
+      "0x27C9F28"
+    ],
+    "prior_source_file_read_bytes": 8,
+    "runtime_dispatch_observed": false,
+    "selector_slot_RVA": "0x27C9F20",
+    "selector_static_DWORD": 879,
+    "source_read_repeated_by_publication_author": false
+  },
+  "unproved_bindings": {
+    "T_plus_8_or_cache_O_plus_1410_typed_field": null,
+    "build_or_version_field_meaning": null,
+    "controller_instance_and_lifetime": null,
+    "native_object_offsets": null,
+    "output_writer_contract": null,
+    "unchanged_propagation_through_later_helpers_or_callback": null
+  }
+}
