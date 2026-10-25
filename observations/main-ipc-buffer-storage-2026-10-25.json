@@ -1,0 +1,211 @@
+{
+  "atomic_state_operation": {
+    "call_RVA": "0x115a7b8",
+    "expected_value": 4,
+    "expected_value_derivation": "EDX=1; LEA R8D,[RDX+3] gives4.",
+    "helper_RVA": "0x115a0b0",
+    "leaf_classified_bytes": 8,
+    "leaf_end_RVA_exclusive": "0x115a0b8",
+    "leaf_own_RuntimeFunction_available": false,
+    "new_value": 1,
+    "old_value_global_RVA": "0x37ebc50",
+    "old_value_store_RVA": "0x115a7c4",
+    "receiver": "second result returned by0x115a4d0",
+    "receiver_LEA_RVA": "0x115a7b0",
+    "receiver_offset": "0x20",
+    "semantics": "Compare DWORD[second_result+0x20] with4, replace with1 if equal, return prior DWORD.",
+    "separate_decoding_window_bytes": 64,
+    "trailing_window_bytes_classified": false
+  },
+  "bounded_scope": {
+    "Ghidra_jobs": 3,
+    "additional_leaf_window_bytes": 64,
+    "all_changes_discarded": true,
+    "classified_leaf_bytes": 8,
+    "expanded_instructions": 191,
+    "expanded_size_limit_truncated": false,
+    "full_high_level_CFG_closed": false,
+    "max_candidates": 32,
+    "max_cpu": 2,
+    "max_native_export_payload_bytes": 65536,
+    "max_pdata_functions": 4,
+    "name_field340_pattern_candidates": 1,
+    "native_export_payload_bytes": 32288,
+    "noanalysis": true,
+    "outside_blocks": 19,
+    "pdata_functions": 3,
+    "raw_E8_candidates_to_product_getter": 148,
+    "readOnly": true,
+    "retained_candidates_total": 6,
+    "selected_code_bytes": 483,
+    "selected_instructions": 112,
+    "terminal_exit_codes": [
+      0,
+      0,
+      0
+    ]
+  },
+  "buffer_storage": {
+    "API_identity_required_before_claiming_a_runtime_mapped_view": true,
+    "caller_RuntimeFunction_begin_RVA": "0x115a760",
+    "caller_RuntimeFunction_end_RVA_exclusive": "0x115a89d",
+    "consumer_call_RVA": "0x115a796",
+    "out_handle_argument_LEA_RVA": "0x115a78f",
+    "out_handle_global_RVA": "0x37ebc58",
+    "returned_pointer_global_RVA": "0x37ebc48",
+    "returned_pointer_store_RVA": "0x115a79b"
+  },
+  "date": "2026-10-25",
+  "evidence_receipts": [
+    {
+      "bytes": 8364,
+      "logical_name": "product-object-getter-static-proof",
+      "sha256": "2da3207efacb1d5cddb188a4b5afb41d97e3ddddc5f5075459f698255c8133f9"
+    },
+    {
+      "bytes": 18888,
+      "logical_name": "name-to-indirect-calls-static-snapshot",
+      "sha256": "2a5b7d506a9db3ea246f3268a8acd6cf1830907dda8dee4b12e1e7e81dd28dfc"
+    },
+    {
+      "bytes": 20728,
+      "logical_name": "pointer-owner-and-atomic-state-static-proof",
+      "sha256": "792870220e7458a824b7e7a5204125ca7ee5d48c32299cd2e407cb3cd0cb84e6"
+    }
+  ],
+  "execution": {
+    "IPC_sent": false,
+    "client_launched": false,
+    "computer_use": false,
+    "full_upgrade_complete": false,
+    "native_analysis_network_requests": 0,
+    "replay_read": false,
+    "replay_written": false,
+    "scope_name": "static_native_analysis_lane",
+    "sync_changed": false,
+    "target_executed": false
+  },
+  "export_quality": [
+    {
+      "code_bytes_sha256": "ff10f9707cbeed3aa2630e4bb4bffd03d9b82b8cd9d8df37ef043fe3201c53e0",
+      "decompile_completed": true,
+      "end_RVA_exclusive": "0x17614c",
+      "expanded_instructions": 6,
+      "function_RVA": "0x176130",
+      "outside_blocks": 0,
+      "selected_code_bytes": 28,
+      "selected_instructions": 6,
+      "truncated": false
+    },
+    {
+      "code_bytes_sha256": "42316f470383b256e2861a0c383095c9e22cf52e53f90f0406d8aec4679ba10a",
+      "decompile_completed": true,
+      "end_RVA_exclusive": "0x115a55a",
+      "expanded_instructions": 36,
+      "function_RVA": "0x115a4d0",
+      "outside_blocks": 0,
+      "selected_code_bytes": 138,
+      "selected_instructions": 36,
+      "truncated": false
+    },
+    {
+      "decompile_completed": true,
+      "end_RVA_exclusive": "0x115a89d",
+      "expanded_instructions": 149,
+      "full_high_level_CFG_closed": false,
+      "function_RVA": "0x115a760",
+      "outside_blocks": 19,
+      "selected_code_bytes": 317,
+      "selected_instructions": 70,
+      "truncated": false
+    }
+  ],
+  "format": "main-ipc-buffer-storage-static-observation-v1",
+  "inference": {
+    "API_identities_authenticated": false,
+    "claim": "The two indirect calls are consistent with a named mapping creation and view sequence under the documented Windows contracts. Their actual API identities remain unproved.",
+    "import_slots_not_named": [
+      "0x262e4a0",
+      "0x262e630",
+      "0x262eac8"
+    ],
+    "named_mapping_and_view_argument_shape": true,
+    "primary_contract_sources": [
+      "https://learn.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-createfilemappinga",
+      "https://learn.microsoft.com/en-us/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffile"
+    ]
+  },
+  "initializer": {
+    "RuntimeFunction_begin_RVA": "0x176130",
+    "RuntimeFunction_end_RVA_exclusive": "0x17614c",
+    "global_store_RVA": "0x176140",
+    "name_pointer_global_RVA": "0x2fe3f78",
+    "product_field340_read_RVA": "0x176139",
+    "product_getter_call_RVA": "0x176134"
+  },
+  "limits": [
+    "The first two selected RuntimeFunction records have no outside decompiler blocks; the third has19. False truncation does not establish complete CFG coverage.",
+    "The receiver is the returned-pointer chain, distinct from the product object and factory record. Product+0x20 and record+0x20 are not assigned mapped state semantics.",
+    "The mapping/view interpretation is inference from argument and ownership shape. No slot-to-API import identity was authenticated.",
+    "No missing-build state3/result3 consumer, downloader, historical41810payload or first replay simulation mismatch was recovered.",
+    "No live buffer, pointer, handle or state value was observed. Native playback and full replay upgrade remain unproved.",
+    "The raw E8 and seven-byte RIP MOV/LEA inventories cover only the pinned decoded patch and these instruction forms."
+  ],
+  "name_consumer": {
+    "RuntimeFunction_begin_RVA": "0x115a4d0",
+    "RuntimeFunction_end_RVA_exclusive": "0x115a55a",
+    "first_indirect_call": {
+      "arguments": [
+        "0xffffffffffffffff",
+        "0",
+        "0x08000004",
+        "0",
+        "0x10000",
+        "name pointer from0x2fe3f78"
+      ],
+      "pointer_slot_RVA": "0x262e4a0",
+      "site_RVA": "0x115a507"
+    },
+    "name_global_load_RVA": "0x115a4e3",
+    "second_indirect_call": {
+      "arguments": [
+        "first result",
+        "2",
+        "0",
+        "0",
+        "0x10000"
+      ],
+      "pointer_slot_RVA": "0x262e630",
+      "site_RVA": "0x115a52b"
+    },
+    "second_result_failure_cleanup": {
+      "argument": "first result",
+      "pointer_slot_RVA": "0x262eac8",
+      "site_RVA": "0x115a539"
+    },
+    "success_behavior": "Write the first result through the incoming out pointer; return the second result."
+  },
+  "prior_chain": {
+    "constructor_RVA": "0x13844e0",
+    "constructor_name_store_RVA": "0x13848f5",
+    "constructor_slot_offset_in_record": "0x20",
+    "factory_record_getter_call_RVA": "0x13844c1",
+    "indirect_constructor_call_RVA": "0x13844cd",
+    "literal": "Heroes of the Storm IPC Mem",
+    "literal_RVA": "0x27cced8",
+    "name_field_offset": "0x340",
+    "product_name_pointer_slot_RVA": "0x3a26fe0",
+    "product_object_RVA": "0x3a26ca0",
+    "product_object_getter_RVA": "0x1384490"
+  },
+  "repository_baseline_abbreviated": "f4f5bc4",
+  "source": {
+    "address_convention": "RVA unless explicitly marked VA",
+    "client_build": 98348,
+    "client_bytes": 53573840,
+    "client_sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+    "decoded_patch_bytes": 36581376,
+    "decoded_patch_sha256": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83",
+    "image_base_VA": "0x140000000"
+  }
+}
