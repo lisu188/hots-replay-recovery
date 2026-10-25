@@ -1,0 +1,328 @@
+{
+  "caller": {
+    "RVA": "0xe03e10",
+    "arguments": [
+      "J",
+      "1",
+      "staging+0x8",
+      "initialized stack local",
+      "staging+0xe198"
+    ],
+    "call_RVA": "0xe03e65",
+    "receiver_global_VA": "0x143941cf0",
+    "slot": "0xe0"
+  },
+  "checked_at_utc": "2026-10-25T09:28:44.376291+00:00",
+  "constructor_bindings": [
+    {
+      "RuntimeFunction": [
+        20365552,
+        20366018,
+        47757072
+      ],
+      "asm_sha256": "15795681fb62181373d7c16883f5e969a4c91a7829624017c0a767616ef30168",
+      "cell_bytes": 8,
+      "cell_rva": "0x27cb1f8",
+      "cell_sha256": "04870c99ea6688f5fab5d7c7684766ae7ba25a7fbc0faea056c131439f12137f",
+      "constructor_rva": "0x136be10",
+      "mode": 1,
+      "primary_table_rva": "0x27cb118",
+      "target_rva": "0x136c0f0",
+      "target_va": "0x14136c0f0",
+      "verified_target_head16_hex": "48895c240848896c2410488974241857"
+    },
+    {
+      "RuntimeFunction": null,
+      "asm_sha256": "e5a19df5774ca88d95335a5f4468d41324057d668e3c2b6e4d725d8cf740aafb",
+      "cell_bytes": 8,
+      "cell_rva": "0x27cabd0",
+      "cell_sha256": "6fa6e8e44f646911eaed003d6aa46566f7e4ead253fe97a43339d883a66e9a3f",
+      "constructor_rva": "0x1362fb0",
+      "mode": 3,
+      "primary_table_rva": "0x27caaf0",
+      "target_rva": "0x1364890",
+      "target_va": "0x141364890",
+      "verified_target_head16_hex": "b801000220c3dbb04b5d9e339ffdfb8c"
+    },
+    {
+      "RuntimeFunction": null,
+      "asm_sha256": "cdb5dab316df277b76cf630900093caa30c7bc060cf160026d7844cdfa32f7fe",
+      "cell_bytes": 8,
+      "cell_rva": "0x27cb3e8",
+      "cell_sha256": "26c6b9520e9ec8c5f36c9a319614c4ce61a10428e39b6ba228286403b28737ac",
+      "constructor_rva": "0x136d470",
+      "mode": 4,
+      "primary_table_rva": "0x27cb308",
+      "target_rva": "0x136d8b0",
+      "target_va": "0x14136d8b0",
+      "verified_target_head16_hex": "b801000220c37fae2b3657a1cf5cdfec"
+    }
+  ],
+  "constructor_qualification": "Each visible primary table is installed once and exact incoming object returned. Later lifetime/receiver replacement and registry-helper effects are not universally proved.",
+  "discovery": {
+    "MOV_load_candidates": 156,
+    "MOV_store_candidates": 1,
+    "coverage": "Only REX.W seven-byte MOV/LEA RIP-relative forms in pinned text; not an exhaustive global-write proof.",
+    "exact_global_VA": "0x143941cf0",
+    "first_attempt": "Stopped at128candidate cap; marker preserved. V2 bounded4096candidates and retained stores plus one known reader control.",
+    "raw_candidates": 157,
+    "recognizer_forms_preflight": 96,
+    "store_RVA": "0x1361ee1"
+  },
+  "evidence": [
+    {
+      "bytes": 1074,
+      "path": "ghidra-replay-parser-20261020/ghidra-output-setup-staging-mutations/00E03E10.asm.txt",
+      "sha256": "3cf78b68b9fadded7e1c1a6c43b94b29d31cd3a7d151f42458a4616438bc3794"
+    },
+    {
+      "bytes": 4420,
+      "path": "callback-discovery/ghidra-entry/01361C90.expanded.asm.txt",
+      "sha256": "4555b95f4e68e28d4180bc00e09429be8b993a12ab9f628b226d9d9420eb9bb7"
+    },
+    {
+      "bytes": 3165,
+      "path": "ghidra-replay-parser-20261020/ghidra-output-setup-global-owner/013297D0.asm.txt",
+      "sha256": "1bb73e208ba20d800675894d752d95b1a06dfb0fe01a1d0f49e453a90b23d324"
+    },
+    {
+      "bytes": 2053,
+      "path": "callback-discovery/selection-v2.json",
+      "sha256": "7ff698cbc91d4ef8c98a612199b6558aa4fb8f7e6581c4b5879ba7feb736f738"
+    },
+    {
+      "bytes": 947,
+      "path": "callback-discovery/initializer-entry-selection.json",
+      "sha256": "608e3798a46f0f5c5ee96fa9945917fce667e2c775576a98f58feee55f9d0530"
+    },
+    {
+      "bytes": 838,
+      "path": "callback-discovery/manager-constructors-selection.json",
+      "sha256": "3237dd36913c378a54679e24b3708c2f14a3794cd7326de9442f28f9ba4576b1"
+    },
+    {
+      "bytes": 2567,
+      "path": "callback-discovery/manager-virtual-e0-cells.json",
+      "sha256": "ed26f2975f95290f1e80a5b73c44615ca4cf25fd184462527857c175158b176a"
+    },
+    {
+      "bytes": 708,
+      "path": "callback-discovery/manager-helper-selection.json",
+      "sha256": "cee7ae2c2ce96272505c94bde13a0a2b16bcd9a367646b9ddb344f1aa7afc826"
+    },
+    {
+      "bytes": 3858,
+      "path": "callback-discovery/ghidra-constructors/0136BE10.asm.txt",
+      "sha256": "15795681fb62181373d7c16883f5e969a4c91a7829624017c0a767616ef30168"
+    },
+    {
+      "bytes": 5151,
+      "path": "callback-discovery/ghidra-constructors/01362FB0.asm.txt",
+      "sha256": "e5a19df5774ca88d95335a5f4468d41324057d668e3c2b6e4d725d8cf740aafb"
+    },
+    {
+      "bytes": 4740,
+      "path": "callback-discovery/ghidra-constructors/0136D470.asm.txt",
+      "sha256": "cdb5dab316df277b76cf630900093caa30c7bc060cf160026d7844cdfa32f7fe"
+    },
+    {
+      "bytes": 5151,
+      "path": "callback-discovery/ghidra-constructors/01362FB0.asm.txt",
+      "sha256": "e5a19df5774ca88d95335a5f4468d41324057d668e3c2b6e4d725d8cf740aafb"
+    },
+    {
+      "bytes": 6858,
+      "path": "callback-discovery/ghidra-helper/01368900.asm.txt",
+      "sha256": "4c80068e9cb0ebe851d429899fefeede73c7a30d07aca5ebf120f5f23f9ae5d9"
+    },
+    {
+      "bytes": 3644,
+      "path": "callback-discovery/ghidra-virtual-e0/0136C0F0.asm.txt",
+      "sha256": "e1f97a337abd1077dcd3b3db269551f14613f11c1414e1ef3e41f4371916a1f6"
+    },
+    {
+      "bytes": 9209,
+      "path": "ghidra-replay-parser-20261020/ghidra-output-native-copy-contract-core/00CF9D70.asm.txt",
+      "sha256": "f72b7b5739b6814d9ba7686a0fa88351b9f364cd74ef8125ede44c154e19db3a"
+    },
+    {
+      "bytes": 2314,
+      "path": "callback-discovery/ghidra-initializer/ghidra-analysis.json",
+      "sha256": "96f46da5e054d5b5cd8555f3b0e26e1eeaca9686fa71546dd8a352044753346c"
+    },
+    {
+      "bytes": 12774,
+      "path": "callback-discovery/ghidra-entry/ghidra-analysis.json",
+      "sha256": "64bc2e3dbf1155394ece7b6dcf5921b6bb25818e590d195e69476d4f93459629"
+    },
+    {
+      "bytes": 13588,
+      "path": "callback-discovery/ghidra-constructors/ghidra-analysis.json",
+      "sha256": "862e101be98185f54f16ea52f8f9e3b60285f5659321cb347c20ae5ec6da6bb3"
+    },
+    {
+      "bytes": 7737,
+      "path": "callback-discovery/ghidra-virtual-e0/ghidra-analysis.json",
+      "sha256": "7d9cc5b37c970e437d542699fada4deead37d796d26a54efa6ea8526eecd63d6"
+    },
+    {
+      "bytes": 22604,
+      "path": "callback-discovery/ghidra-helper/ghidra-analysis.json",
+      "sha256": "3b816e14545bcc3d43c2c27e1e5ba06c27e28208cc1005416c79be4e44dd043f"
+    }
+  ],
+  "execution": {
+    "Computer_Use": false,
+    "Ghidra_project_changes_saved": false,
+    "HotS_or_Battle_net_launch": false,
+    "replay_or_member_writes": 0,
+    "replay_reads": 0,
+    "synchronization_changes": 0,
+    "target_native_code_executed": false
+  },
+  "export_summary": [
+    {
+      "begin_rva": "0x1361e30",
+      "blocks_outside_selected_RuntimeFunction": 0,
+      "decompile_completed": true,
+      "end_rva_exclusive": "0x1361f02",
+      "expanded_listing_truncated": false,
+      "instructions": 13
+    },
+    {
+      "begin_rva": "0x1361c90",
+      "blocks_outside_selected_RuntimeFunction": 41,
+      "decompile_completed": true,
+      "end_rva_exclusive": "0x1361cbd",
+      "expanded_listing_truncated": false,
+      "instructions": 151
+    },
+    {
+      "begin_rva": "0x1361cbd",
+      "blocks_outside_selected_RuntimeFunction": 3,
+      "decompile_completed": true,
+      "end_rva_exclusive": "0x1361e30",
+      "expanded_listing_truncated": false,
+      "instructions": 147
+    },
+    {
+      "begin_rva": "0x136be10",
+      "blocks_outside_selected_RuntimeFunction": 0,
+      "decompile_completed": true,
+      "end_rva_exclusive": "0x136bfd3",
+      "expanded_listing_truncated": false,
+      "instructions": 105
+    },
+    {
+      "begin_rva": "0x1362fb0",
+      "blocks_outside_selected_RuntimeFunction": 0,
+      "decompile_completed": true,
+      "end_rva_exclusive": "0x1363232",
+      "expanded_listing_truncated": false,
+      "instructions": 139
+    },
+    {
+      "begin_rva": "0x136d470",
+      "blocks_outside_selected_RuntimeFunction": 0,
+      "decompile_completed": true,
+      "end_rva_exclusive": "0x136d6b9",
+      "expanded_listing_truncated": false,
+      "instructions": 127
+    },
+    {
+      "begin_rva": "0x136c0f0",
+      "blocks_outside_selected_RuntimeFunction": 0,
+      "decompile_completed": true,
+      "end_rva_exclusive": "0x136c2c2",
+      "expanded_listing_truncated": false,
+      "instructions": 112
+    },
+    {
+      "begin_rva": "0x1368900",
+      "blocks_outside_selected_RuntimeFunction": 0,
+      "decompile_completed": true,
+      "end_rva_exclusive": "0x1368cba",
+      "expanded_listing_truncated": false,
+      "instructions": 235
+    }
+  ],
+  "format": "native-setup-manager-callback-static-proof-v1",
+  "initializer": {
+    "accepted_constructor_modes": [
+      1,
+      3,
+      4
+    ],
+    "allocation_failure_also_stores_null_and_returns_success": true,
+    "entry_RVA": "0x1361c90",
+    "existing_nonnull_return": "0x20020005",
+    "global_store_RVA": "0x1361ee1",
+    "input_owner": "13297D0 supplies its second argument as initializer mode; it constructs distinct G only after20020000.",
+    "invalid_or_missing_prerequisite_return": "0x20020001",
+    "mode3_and_mode4_prerequisite_VA": "0x143b7c6b0",
+    "successful_branch_return": "0x20020000"
+  },
+  "level_copy": {
+    "observed": "CF9D70 copies each of these from the same source offset to destination; it does not authenticate ClientInfo+358 as the producer.",
+    "presence_offset": "0x164",
+    "value_offset": "0x168"
+  },
+  "limits": [
+    "Constructor modes1/3/4 are distinct from recorded selector M+100E8==2; no equivalence is assumed.",
+    "Static possible targets do not prove which receiver or mode was present in a running replay.",
+    "No copied current donor identity,account flag,constructor default or synchronization value is used as historical evidence.",
+    "Eight successful bounded decompilations are static evidence, not native playback or complete call-graph verification."
+  ],
+  "migration": {
+    "full_replay_upgrade_complete": false,
+    "full_upgrade_complete": false,
+    "latest_replay": "98285-resumable-r8",
+    "new_conversion_assignments": 0,
+    "new_replay_checkpoint": false,
+    "unresolved": [
+      "Historical current-only ClientInfo/SharedPlayerInfo value rules",
+      "Resource identity,access and ownership migration",
+      "Historical catalog and deterministic simulation rules",
+      "Actual native playback"
+    ]
+  },
+  "mode1_target": {
+    "RVA": "0x136c0f0",
+    "copy_target_RVA": "0xcf9d70",
+    "first_copy_RVA": "0x136c1ba",
+    "incoming_player_source": "R8 from caller, staging+8",
+    "local_player_stride": "0xc30",
+    "observed_result": "Copies an existing first user record through a local into a queued operation. No ClientInfo+358 load or new level/boost/staff/voice producer is authenticated.",
+    "operation_discriminator": "0x10028",
+    "queue_call_RVA": "0x136c29f",
+    "queue_receiver": "J+0x208",
+    "queued_record_stride": "0xc38",
+    "scope_limit": "This is not a universal purity proof of allocation,copy,queue or registry callees.",
+    "second_copy_RVA": "0x136c286"
+  },
+  "mode3_helper": {
+    "RVA": "0x1368900",
+    "direct_role": "Registers object+8 through2DE170/2DE340; visible writes target returned registry entries. No direct primary-vtable store in this bounded body.",
+    "remaining_limit": "Registry helpers are not recursively closed by this checkpoint."
+  },
+  "other_target_prefixes": {
+    "bytes_hex": "b801000220c3",
+    "instructions": [
+      "MOV EAX,0x20020001",
+      "RET"
+    ],
+    "mode3_RVA": "0x1364890",
+    "mode4_RVA": "0x136d8b0",
+    "validation": "Manual exact x86-64 decoding of constructor-bound six-byte prefixes. No absent unwind extent was invented."
+  },
+  "producer_sha256": "925d56dea0772c4bf307522ec98cfa7a6e6870dd8d57d7f5418fd701946b8a57",
+  "source_PE": {
+    "build": 98348,
+    "bytes": 53573840,
+    "sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9"
+  },
+  "static_patch": {
+    "bytes": 36581376,
+    "sha256": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83"
+  }
+}
