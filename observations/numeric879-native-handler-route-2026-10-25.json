@@ -1,0 +1,250 @@
+{
+  "format": "numeric879-native-handler-route-v1",
+  "date": "2026-10-25",
+  "source_client": {
+    "build": 98348,
+    "architecture": "x86_64",
+    "bytes": 53573840,
+    "sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9"
+  },
+  "scope": {
+    "analysis": "IDA Professional9.0 static decoding of selected authenticated text bytes",
+    "original_PE_loaded_by_these_three_IDA_runs": false,
+    "target_code_executed": false,
+    "autoanalysis_requested": false,
+    "instructions_or_functions_created": false,
+    "whole_function_CFG_or_runtime_behavior_proven": false,
+    "selected_bytes_source": {
+      "kind": "analyst-derived-static-text",
+      "derivation": "existing statically transformed text patch",
+      "bytes": 36581376,
+      "sha256": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83",
+      "runtime_capture": false,
+      "unaltered_on_disk_PE_text": false
+    }
+  },
+  "dispatch": {
+    "core_RVA": "0x1A76740",
+    "core_selected_code_bytes": 222,
+    "core_selected_code_sha256": "06864385c1de50e8593bdd2ead505e72434dca443bcf5b69f6e6e30bc5fc4d3e",
+    "kind_getter_RVA": "0x1A6D8B0",
+    "kind_mask": "0x3F",
+    "index_rule": "kind number minus1",
+    "table_RVA_half_open": [
+      "0x1A77268",
+      "0x1A772A8"
+    ],
+    "table_bytes": 64,
+    "table_result_pin": {
+      "bytes": 5884,
+      "sha256": "145777262520c8c754ce83ff811612d62f50d94173ff5a41656c35797076c3ff"
+    },
+    "INT_index": 8,
+    "STRUCT_index": 13,
+    "USER_index": 15
+  },
+  "handlers": [
+    {
+      "kind": "INT",
+      "kind_number": 9,
+      "table_index": 8,
+      "RVA_half_open": [
+        "0x1A76DC6",
+        "0x1A76E69"
+      ],
+      "selected_code_bytes": 163,
+      "selected_code_sha256": "a5dec72f0d9423ed370f186634f12bcece4eb3b4167810b01907f584d8c273fe",
+      "decoded_instructions": 41,
+      "captured_IDA_exit_code": 0,
+      "RET_count": 0,
+      "last_control_flow": {
+        "kind": "unconditional jump",
+        "target_RVA": "0x1A77255",
+        "fallthrough": false
+      },
+      "whole_function_or_CFG_claim": false,
+      "assembly_record_pin": {
+        "bytes": 2299,
+        "sha256": "3916d15d8a6b4bed55b3cbc25845040c75cf6023d38cd18ee13922e018081cc3"
+      },
+      "quality_record_pin": {
+        "bytes": 3459,
+        "sha256": "a78e8852a9eb93c9cbb22457a5b28d39304153c1819e7d877ec837e54352d218"
+      },
+      "completion_record_pin": {
+        "bytes": 246,
+        "sha256": "08415b1b2bb7c61b86bde0310c50426f04e642ad103f186210cb8c6f4a9b4adc"
+      }
+    },
+    {
+      "kind": "STRUCT",
+      "kind_number": 14,
+      "table_index": 13,
+      "RVA_half_open": [
+        "0x1A77108",
+        "0x1A7712D"
+      ],
+      "selected_code_bytes": 37,
+      "selected_code_sha256": "ce7b7cebbef8b37b2a11e6a7ab4cacb3ea828e64d7a437a531bfd56d03b7080f",
+      "decoded_instructions": 9,
+      "captured_IDA_exit_code": 0,
+      "RET_count": 0,
+      "last_control_flow": {
+        "kind": "unconditional jump",
+        "target_RVA": "0x1A77255",
+        "fallthrough": false
+      },
+      "whole_function_or_CFG_claim": false,
+      "assembly_record_pin": {
+        "bytes": 574,
+        "sha256": "2d717dd056640da84997c6ce24e8b9447b6b79f60c3e7d46e0ccb308b99b9ed6"
+      },
+      "quality_record_pin": {
+        "bytes": 2017,
+        "sha256": "f0a65cd192294ca62e5727c97358155cf62d53a06aba45aca50f43247146eb49"
+      },
+      "completion_record_pin": {
+        "bytes": 249,
+        "sha256": "becba9a36db244e720c8c06ee7059f3687a74e7f6cae2df3e0b390ebc3b37e78"
+      }
+    },
+    {
+      "kind": "USER",
+      "kind_number": 16,
+      "table_index": 15,
+      "RVA_half_open": [
+        "0x1A7721A",
+        "0x1A77250"
+      ],
+      "selected_code_bytes": 54,
+      "selected_code_sha256": "1af845b0ca56eac3d53ffaff43bbc797b9a97bb9a9854b9d1e1921b2399d5f25",
+      "decoded_instructions": 14,
+      "captured_IDA_exit_code": 0,
+      "RET_count": 0,
+      "last_control_flow": {
+        "kind": "unconditional jump",
+        "target_RVA": "0x1A77255",
+        "fallthrough": false
+      },
+      "whole_function_or_CFG_claim": false,
+      "assembly_record_pin": {
+        "bytes": 838,
+        "sha256": "9e2d37f3e1c48fbea72c7d4e5778d9cc213000f3a774920500ec543e6978d481"
+      },
+      "quality_record_pin": {
+        "bytes": 2016,
+        "sha256": "cf00e9de7468f40449c1e279b379a536d7121b0aacc563e0307b899d02e50e36"
+      },
+      "completion_record_pin": {
+        "bytes": 247,
+        "sha256": "56471edc8e237964986269da24f88008cd2ed08d10118df422dac4c232217835"
+      }
+    }
+  ],
+  "observed_call_site_flows": {
+    "USER": {
+      "descriptor_call_RVA": "0x1A77227",
+      "descriptor_helper_RVA": "0x1A6D3D0",
+      "child_context": "QWORD at returned descriptor+0",
+      "child_type": "DWORD at returned descriptor+0x28",
+      "destination_snapshot_load_RVA": "0x1A77235",
+      "destination_snapshot_source": "QWORD at current request+0x10 after the descriptor helper returns",
+      "destination_child_record_offset": "0x10",
+      "recursive_call_RVA": "0x1A77249",
+      "recursive_target_RVA": "0x1A76740",
+      "argument_flow": "Reader remains RDI; RDX addresses the local child record containing that context, type and destination snapshot.",
+      "destination_unchanged_between_that_load_and_child_record_store": true,
+      "incoming_destination_preserved_across_opaque_descriptor_call_proven": false,
+      "returned_descriptor_matches_declared_USER_element_contract_proven": false
+    },
+    "STRUCT": {
+      "descriptor_call_RVA": "0x1A77115",
+      "descriptor_helper_RVA": "0x1A6D370",
+      "delegate_call_RVA": "0x1A77123",
+      "delegate_target_RVA": "0x1A77970",
+      "argument_flow": "RCX is the reader; RDX is the returned descriptor; R8 is the current request.",
+      "field_offset_loop_observed_in_selected_span": false,
+      "actual_field_offset_application_proven": false
+    },
+    "INT": {
+      "descriptor_helper_RVA": "0x1A6D250",
+      "consumed_byte_compared_with": 9,
+      "value_helper_RVA": "0x1A77390",
+      "value_helper_contract_proven": false,
+      "observed_flow": "The helper receives a local output address. On EAX zero, a QWORD from that local and descriptor+0x28 are passed to1A77FC0.",
+      "predicate_helper_RVA": "0x1A77FC0",
+      "predicate_helper_contract_proven": false,
+      "nonzero_AL_branch_site_RVA": "0x1A76E59",
+      "nonzero_AL_continuation_RVA": "0x1A76CEA",
+      "continuation_outside_selected_span": true,
+      "zero_AL_path": "Sets EAX to1 and jumps to0x1A77255.",
+      "successful_DWORD_sink_or_width_proven": false
+    }
+  },
+  "validation": {
+    "native_IDA_runs_exit0": 3,
+    "all254_code_bytes_and64_contiguous_instruction_boundaries_match_preparation": true,
+    "relative_control_targets_independently_recomputed": 17,
+    "indirect_INT_call_target_resolved": false,
+    "independent_second_instruction_decoder_run": false,
+    "actual_TSV_plus_JSON_payload_bytes": 11203,
+    "per_run_TSV_plus_JSON_cap_bytes": 8192,
+    "aggregate_TSV_plus_JSON_cap_bytes": 24576,
+    "payload_limit_is_database_size_limit": false,
+    "selected_text_read_bytes": 254,
+    "new_whole_text_hashstream_bytes_in_handler_preparation": 0,
+    "prior_text_identity_inherited_with_all16_current_identity_checks_matching": true
+  },
+  "field_binding_frontier": {
+    "numeric_path": [
+      1,
+      5
+    ],
+    "separately_authenticated_official_wire_label": "m_version.m_baseBuild",
+    "candidate_native_offset_arithmetic": "0x98 +8 =0xA0",
+    "native_D_plus_A0_field_name_proven": false,
+    "required_USER_wrappers": [
+      881,
+      28
+    ],
+    "remaining": [
+      "Bind the USER descriptor result to each declared child type and close possible alias effects across the descriptor call.",
+      "Inspect actual STRUCT helper0x1A77970 for tag routing, native field offset use, destination addition and recursive decoding.",
+      "Inspect the observed INT continuation0x1A76CEA for the successful sink and required DWORD width.",
+      "Close later helper effects, object lifetime and controller/request ownership before composing unchanged propagation."
+    ],
+    "separate_core_0x1A70A00_not_substituted_for_actual_0x1A76740": true
+  },
+  "CI_observation": {
+    "baseline_head": "e163ae4798abc770ac32d38b4398490bb9a3a4e5",
+    "observed_UTC": "2026-10-25T16:23:02Z",
+    "offline_run": 40208723525,
+    "CodeQL_run": 40208722998,
+    "both_baseline_runs_queued": true,
+    "new_publication_exact_head_CI_success_claimed": false,
+    "native_IDA_analysis_executed_in_CI_claimed": false
+  },
+  "evidence_pins": {
+    "handler_preparation": {
+      "bytes": 4617,
+      "sha256": "6a38c801d26701ec5063616d8a30336c0e65d8ead22fd4a569d36fc696ba486e"
+    },
+    "root_actual_review": {
+      "bytes": 4105,
+      "sha256": "336ca62bbafb6eeb4c269e9044cd230526afc974a172ac6165e83c1d1f800baf"
+    },
+    "independent_actual_review": {
+      "bytes": 12514,
+      "sha256": "12a96db67170b88ad681785c0dbcb862559aa506b6132a2bfbe9d795c9175461"
+    },
+    "dispatcher_core_review": {
+      "bytes": 2139,
+      "sha256": "49614c8f25b2bd1c0a16166afa2fd9363b9dbb287029c89fdde4626a2220098c"
+    }
+  },
+  "Computer_Use": false,
+  "game_launched": false,
+  "new_replay_generated": false,
+  "full_replay_upgrade_complete": false,
+  "playback_validated": false
+}
