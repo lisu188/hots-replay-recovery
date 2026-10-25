@@ -1,0 +1,320 @@
+{
+  "date": "2026-10-25",
+  "evidence_pins": [
+    {
+      "bytes": 8794,
+      "role": "reviewed transfer proof",
+      "sha256": "0e34765c3434915acc50f5b98519a32107b196957266c4881718480089bb501c"
+    },
+    {
+      "bytes": 18901,
+      "role": "transfer provenance: TransferPrefixSelectedAsm.java",
+      "sha256": "9b8b6ed6fe0acca05a77cb0173ce550c73ae16260b3a9fbfb3693dda5fc2c218"
+    },
+    {
+      "bytes": 2853,
+      "role": "transfer provenance: selection.json",
+      "sha256": "179721279374cc0170265ecbab070035d2550abcfd22f68b27bc8b7a3586bc2e"
+    },
+    {
+      "bytes": 1437,
+      "role": "transfer provenance: run_selected.sh",
+      "sha256": "2e5ccc0a0a063fa837c69cd9053f557a5a75ad50f7836e7287277d5c061fcf98"
+    },
+    {
+      "bytes": 2726,
+      "role": "transfer provenance: 0134C220.entry-prefix.asm.tsv",
+      "sha256": "81f4edcdcab8f8352a78e27102c26ccd0a8ee811c57c9454906e8af14ab824d6"
+    },
+    {
+      "bytes": 2868,
+      "role": "transfer provenance: entry-prefix-quality.json",
+      "sha256": "1f1b90d1e2d691a31fb2425cafedaee32c9c3f73a95e29b1db7769931c6aeaad"
+    },
+    {
+      "bytes": 5124,
+      "role": "transfer provenance: headless-selected.log",
+      "sha256": "1bb15b74dcaf85417f1e925f1055391be166be11c3c3b6f18e2901a25149d922"
+    },
+    {
+      "bytes": 53,
+      "role": "transfer provenance: terminal-completed.txt",
+      "sha256": "fefceed379bd4cc1cc016d594cca8f8aadc00886d8e86936411a4abe9eef2416"
+    },
+    {
+      "bytes": 1780,
+      "role": "transfer provenance: 0134DC00.selected.asm.tsv",
+      "sha256": "b36a9b253bfe439fbc34d17eb3b831fe7933c31ed14c75264c6dccd54aabe7c2"
+    },
+    {
+      "bytes": 11007,
+      "role": "transfer provenance: three-record-private-proof.json",
+      "sha256": "fc7b35867be49659fcaa0354f1203429b31c87a869efd166d9f1a98532c9d8f1"
+    },
+    {
+      "bytes": 5143,
+      "role": "transfer provenance: three-callee-metadata-checkpoint.json",
+      "sha256": "1861cf53931b02f8313896e6c36c1fae44c7d41d1d0a54a2fdad9018a2be8274"
+    },
+    {
+      "bytes": 11530,
+      "role": "transfer provenance: helper-parser-private-proof.json",
+      "sha256": "4850de91a405d77e97d30241cf77b341264e9ad2a3f6563620e21b22e4d3063a"
+    },
+    {
+      "bytes": 23685,
+      "role": "transfer provenance: 00CFE3B0.asm.txt",
+      "sha256": "8d54c160f863f50db55cdb78155c64428562a01f963f6bbfbdfccc1a00bd8ea0"
+    },
+    {
+      "bytes": 4091,
+      "role": "root transfer evidence review",
+      "sha256": "1c0d0f106dbf941e8c4ecea558e271ebfdadc14118e283d127ac52a8457e8911"
+    },
+    {
+      "bytes": 1675,
+      "role": "retained counterpart context review",
+      "sha256": "bf917c08ec4efceb4ef0d49fe5a94d0715cf954e1bc47faa7dcea323ab605952"
+    },
+    {
+      "bytes": 9717,
+      "role": "retained registry binding review",
+      "sha256": "c9be562569a7c8f44e2505e82b8735f35db561a74310f83b8845cdf41215c124"
+    },
+    {
+      "bytes": 13300,
+      "role": "reviewed eight-byte metadata reader",
+      "sha256": "e2016ec477ee7bde4542596b3691beb8142e0a0d2bfe6b7735fee92b7f728adf"
+    },
+    {
+      "bytes": 2625,
+      "role": "eight-byte reader author review",
+      "sha256": "7db4620eabb88136bb8c15a99c21fa79219207e8937ede6c079f8b9b2d4cd193"
+    },
+    {
+      "bytes": 2857,
+      "role": "eight-byte reader peer review",
+      "sha256": "1a8a03396a073eb29c6ffc6dd9c22f0fcf963741b2d4ec2eee70b3d725d8ecdd"
+    },
+    {
+      "bytes": 3038,
+      "role": "actual eight-byte source metadata result",
+      "sha256": "27987cf03c8eb3cde5f14c7cb43a45692e19c3a740b9e57e0b433e3fd7409f69"
+    },
+    {
+      "bytes": 2257,
+      "role": "root actual IDA/Ghidra comparison",
+      "sha256": "5d739319cd01de248594fa5911fdece4a1df42f9952130cfcc5010905c95589f"
+    },
+    {
+      "bytes": 8539,
+      "role": "IDA provenance: decode_prefix.reviewed.idc",
+      "sha256": "a4499eb3968e5c5f3bf7dd58d3922cce3107111b769e4ba831047d6d9863abe5"
+    },
+    {
+      "bytes": 807,
+      "role": "IDA provenance: root-prelaunch-review.json",
+      "sha256": "d90b5024b1618c5ee465eaa1d5ee19faa147d0d0431415960482fc7ba6e42fe6"
+    },
+    {
+      "bytes": 263,
+      "role": "IDA provenance: completed.json",
+      "sha256": "b24b402b544ffe8ee1ae145f57d0f7df5d74385e1aeb7a80af7aeb8d3652084d"
+    },
+    {
+      "bytes": 183,
+      "role": "IDA provenance: launch.json",
+      "sha256": "e3c5a95849a8e68180d67093e8283913fe44f09d7bfeca219fa18cab22f313e6"
+    },
+    {
+      "bytes": 2134,
+      "role": "IDA provenance: ida9-prefix.asm.tsv",
+      "sha256": "7a29f5ca099f1abd17423bef17123bea21ff13724c0c8a9d8a346fe9d945b558"
+    },
+    {
+      "bytes": 911,
+      "role": "IDA provenance: ida9-prefix-status.json",
+      "sha256": "26aa8d03f4a425a2e457e02ddff7848e667c22717b038a8e8b6a46f92c5e97e4"
+    },
+    {
+      "bytes": 1098,
+      "role": "IDA provenance: prefix.log",
+      "sha256": "ba0a334915b882ad2cdc3ae16eb1173b958d4fd1cd504fcfcfef3e42d608084e"
+    },
+    {
+      "bytes": 0,
+      "role": "IDA provenance: stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 0,
+      "role": "IDA provenance: stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 8017,
+      "role": "independent actual IDA review",
+      "sha256": "3843d16f2c995634b14a36a4a3be94581f9439a52a98b35dfb89e614c4a33445"
+    },
+    {
+      "bytes": 546,
+      "role": "preserved first IDA terminal no-output observation",
+      "sha256": "40e36a9e9331f9dee13ca93764d84c3ebe73adcafce725918274b76c279e1c03"
+    }
+  ],
+  "execution_scope": {
+    "Computer_Use": false,
+    "IPC_send": false,
+    "game_or_client_launch": false,
+    "raw_binary_ASM_log_or_database_published": false,
+    "replay_written": false,
+    "target_execution": false
+  },
+  "format": "replay-header-transfer-ida-and-root-selector-v1",
+  "full_migration_complete": false,
+  "full_replay_upgrade_complete": false,
+  "full_upgrade_complete": false,
+  "independent_IDA_decode": {
+    "REA_or_OllyDbg_used": false,
+    "TSV_bytes": 2134,
+    "all_boundaries_lengths_and_opcodes_equal_Ghidra": true,
+    "assembly_text_format_equal_claim": false,
+    "autoanalysis_or_function_creation": false,
+    "captured_exit_code": 0,
+    "database_format_version": 900,
+    "first_attempt": "Terminal process absent; no database/log/result; exit code and cause unknown. Preserved without successful-decode claim.",
+    "instructions": 38,
+    "loaded_literal_bytes": 201,
+    "payload_bytes": 3045,
+    "prewrite_combined_cap_bytes": 16384,
+    "source_literal_reconstructed_from": "pinned Ghidra prefix bytes",
+    "status_JSON_bytes": 911,
+    "successful_attempt": "New output names, captured native completion/exit and diagnostics.",
+    "target_code_execution": false,
+    "tool": "installed IDA Professional 9.0 idat",
+    "whole_PE_or_target_file_loaded": false
+  },
+  "limits": [
+    "The export authenticates a caller-anchored prefix, not full procedure bounds or a full CFG.",
+    "Local transfer-return evidence does not prove later opaque-call, callback, alias, owner or lifetime noninterference.",
+    "Numeric static selectors and registry context do not supply historical fields or an executable/data-build meaning.",
+    "No old-build acquisition, conversion, sync mutation or playback validation occurred."
+  ],
+  "loader_composition": {
+    "D": "RBP-C0",
+    "S": "O+1370=RBP+5E490",
+    "S_minus_D": "0x5E550",
+    "T": "RBP-28=D+98",
+    "T_plus_8": "D+A0",
+    "field_build_or_version_name_assigned": false,
+    "later_field_stability_or_owner_lifetime_bridge_proved": false,
+    "normal_return_result": "T+8 receives cached DWORD[O+1410] from the transfer-entry snapshot under valid non-wrapping disjoint addresses, normal completion, no concurrent relevant mutation and ordinary opaque-callee frame/register preservation.",
+    "normal_stack_helper": "1A24E60 has no RAX/RCX/RDX writes and balances its local RSP change on normal return.",
+    "post_transfer_opaque_call_before_CFA810_RVA": "0x134D9D0",
+    "request_context_limit": "P=RBP+350 belongs to a separate request-caller frame; equal register spellings do not identify owner, address, lifetime or T+8.",
+    "separate_request_P_equals_this_T": false,
+    "source_word": "S+A0=O+1410"
+  },
+  "new_source_read": {
+    "bytes_requested": 8,
+    "bytes_returned": 8,
+    "exact_Python_runtime": "Python311 3.11.9",
+    "exclusive_receipt_create": true,
+    "executable": false,
+    "file_offset": 41717536,
+    "flags": [
+      "-I",
+      "-S",
+      "-B",
+      "-X utf8"
+    ],
+    "four_identity_fields_match_at_all_four_checkpoints": true,
+    "neighbor_or_code_or_table_or_import_reads": 0,
+    "new_source_hashstream_bytes": 0,
+    "os_read_calls": 1,
+    "prewrite_output_cap_bytes": 8192,
+    "readable": true,
+    "runtime_values_observed": false,
+    "section": ".rdata",
+    "source_SHA_inherited_from_pinned_full_hash_checkpoint_not_refreshed": true,
+    "span_RVA_half_open": [
+      "0x27C9F20",
+      "0x27C9F28"
+    ]
+  },
+  "playback_validated": false,
+  "repository_baseline": "6ac0bce7785a457d10ef9534d71639e061b130dc",
+  "scope_name": "static_native_analysis_lane",
+  "source": {
+    "accounting_scope": "Ghidra prefix export lane only; the separate new_source_read section records the eight new PE metadata bytes.",
+    "export_patch_file_bytes_verified": 36581376,
+    "export_program_patch_memory_bytes_verified": 36581376,
+    "new_PE_reads_or_hashstream": 0,
+    "only_retained_guard_evidence_and_saved_caller_text_reused": true,
+    "patch_RVA": [
+      "0xBA000",
+      "0x239D000"
+    ],
+    "patch_sha256": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83",
+    "source_PE_bytes": 53573840,
+    "source_PE_sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9"
+  },
+  "static_selector_binding": {
+    "Battlenet8330_registry_equated": false,
+    "adjacent_setup_R8D_source_RVA": "0x27C9F24",
+    "adjacent_source_file_unsigned_DWORD": 888,
+    "context_RVA": "0x393EB80",
+    "formal_header_type_name_children_or_native_field_offsets_authenticated": false,
+    "header_R8D_source_RVA": "0x27C9F20",
+    "header_call_target_RVA": "0x1A772C0",
+    "header_reader_RVA": "0x134DC70",
+    "header_source_file_unsigned_DWORD": 879,
+    "initializer_RVA": "0x1D08A0",
+    "program_bytes": 13744,
+    "program_sha256": "245aba71f1702e6bae480924df478c8479978e54c383dff4757eb40863932b2f",
+    "program_types": 1192,
+    "saved_setup_bridge_only": "888 -> USER889 -> 775; no identity with selector879 inferred.",
+    "source_file_initial_values_equal_live_runtime_proved": false
+  },
+  "transfer_prefix": {
+    "Ghidra_payload_bytes": 5594,
+    "RuntimeFunction_bounds_or_whole_procedure_or_CFG_claim": false,
+    "authenticated_caller_RVA": "0x134DC55",
+    "bounding_extent_bytes": 212,
+    "branches": 0,
+    "calls": 0,
+    "code_bytes": 201,
+    "code_sha256": "3ec14f18b790bed49ec9927dfe8d20cb4c9720068ae4386e2fe475afb70d5cc9",
+    "end_RVA_exclusive": "0x134C2E9",
+    "entry_RVA": "0x134C220",
+    "first_RET_RVA": "0x134C2E8",
+    "four_byte_contract": "D+A0..A3 receives S+A0..A3 as read at 134C28C, stored at 134C292; no later prefix store overlaps that word.",
+    "hard_instruction_cap": 128,
+    "hard_window_bytes": 256,
+    "instructions": 38,
+    "normal_return_RAX": "D",
+    "predecessor_interval_not_covering_entry": [
+      "0x134BF90",
+      "0x134C21D"
+    ],
+    "prewrite_cap_bytes": 16384,
+    "stable_entry_bases": "RCX=D, RDX=S",
+    "untouched_offsets": [
+      "0xBD",
+      "0xBE",
+      "0xBF"
+    ],
+    "whole_contiguous_copy_or_arbitrary_overlap_memmove_claim": false,
+    "write_ranges_half_open_offsets": [
+      [
+        "0x0",
+        "0xBD"
+      ],
+      [
+        "0xC0",
+        "0xD4"
+      ]
+    ],
+    "written_bytes": 209
+  }
+}
