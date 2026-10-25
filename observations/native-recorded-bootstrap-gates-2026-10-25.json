@@ -1,0 +1,214 @@
+{
+  "evidence": [
+    {
+      "bytes": 23685,
+      "path": "retained/CFE3B0.asm",
+      "sha256": "8d54c160f863f50db55cdb78155c64428562a01f963f6bbfbdfccc1a00bd8ea0"
+    },
+    {
+      "bytes": 970,
+      "path": "fresh/134D950.asm",
+      "sha256": "bae1a4da877375769b1e5ec9b4b9db57a91816d71cd3a83964a7057439a770a2"
+    },
+    {
+      "bytes": 26799,
+      "path": "retained/134E890.asm",
+      "sha256": "a7296f69202e1a2ca70dd9dbc0c8fe87edb6c58f55772831fc8575c2d4eaf95e"
+    },
+    {
+      "bytes": 18229,
+      "path": "retained/134E890.c",
+      "sha256": "f9c02bc7534b4082ae48e74a15934b19a5b55854d5e2132ed3b57721b99d8ea0"
+    },
+    {
+      "bytes": 4258,
+      "path": "fresh/134BF90.selected.asm",
+      "sha256": "c8ef78e8faf70d25cfb5095088e802052b495bd6e9f3561876d5cbd316fdc077"
+    },
+    {
+      "bytes": 5002,
+      "path": "fresh/134BF90.c",
+      "sha256": "500bb47426d37f8dbb748a7e72f882cb74a7935623925794380f4c20a1439034"
+    },
+    {
+      "bytes": 1989,
+      "path": "retained/134CE10.asm",
+      "sha256": "48da274f662e539fb94f8d3151ad05bc5600b560305d401553329603bc220889"
+    },
+    {
+      "bytes": 42820,
+      "path": "retained/DFE7D0.asm",
+      "sha256": "4b4ae2a15f42d81668f65d2d3ed936ac2a63d0e95298a0fc32f0afc2bfb55c9b"
+    },
+    {
+      "bytes": 26773,
+      "path": "public/native_clientinfo_schema_98348.json",
+      "sha256": "6e8711939ede15505debb043ae626b5c529749557d7e824226863c92e4f6a229"
+    },
+    {
+      "bytes": 46829,
+      "path": "public/native_setup_schema_98348.json",
+      "sha256": "0c9e5d80f745d9e8d7191e3bc3039fb9e07e1d2c5e83c0bbbeb081216e23395e"
+    },
+    {
+      "bytes": 3236,
+      "path": "ghidra-battlelobby-gate/analysis.json",
+      "sha256": "6705e2de08464b9ad11ea5ae5e24f5c0a51e135c0d4335f1f1e67339f0b59146"
+    },
+    {
+      "bytes": 11457,
+      "path": "ghidra-reader-cleanup/analysis.json",
+      "sha256": "d474da3ab183d07fac709400e3214f322f82f0e6f867f9732f6a1eda501c4001"
+    },
+    {
+      "bytes": 346176,
+      "path": "ghidra-candidates/analysis.json",
+      "sha256": "f9aa69dedc656f41b87f071fcb27cf91d12b359014fc57bf0b7a6b4de10a0311"
+    },
+    {
+      "bytes": 169424,
+      "path": "fresh/2C236F.selected.asm",
+      "sha256": "f8062d6e4502d6000742bcc22d807d95dc48b381a76ec4ac203687b1c6c86de8"
+    },
+    {
+      "bytes": 18987,
+      "path": "fresh/1BDF2C0.selected.asm",
+      "sha256": "48365a3d0b3cc9a55cccd6ad5514937fcc9a4e049a154b1c9890d5d7f0ee7bdf"
+    }
+  ],
+  "execution": {
+    "Computer_Use": false,
+    "Ghidra_saved_changes": false,
+    "game_or_Battle_net_launch": false,
+    "replay_reads": 0,
+    "replay_writes": 0,
+    "sync_changes": 0,
+    "target_native_execution": false
+  },
+  "format": "native-recorded-bootstrap-gates-static-v1",
+  "fresh_export_quality": [
+    {
+      "begin_rva": "0x134d950",
+      "expanded_instruction_count": 34,
+      "expanded_listing_truncated": false,
+      "outside_blocks": 0,
+      "selected_instruction_count": 34
+    },
+    {
+      "begin_rva": "0x134bf90",
+      "expanded_instruction_count": 154,
+      "expanded_listing_truncated": true,
+      "outside_blocks": 11,
+      "selected_instruction_count": 126
+    },
+    {
+      "begin_rva": "0x2c236f",
+      "expanded_instruction_count": 3200,
+      "expanded_listing_truncated": true,
+      "outside_blocks": 3,
+      "selected_instruction_count": 5425
+    },
+    {
+      "begin_rva": "0x1bdf2c0",
+      "expanded_instruction_count": 579,
+      "expanded_listing_truncated": false,
+      "outside_blocks": 0,
+      "selected_instruction_count": 586
+    }
+  ],
+  "migration": {
+    "full_replay_upgrade_complete": false,
+    "full_upgrade_complete": false,
+    "latest_replay": "98285-resumable-r8",
+    "new_replay_checkpoint": false,
+    "new_value_assignments": 0,
+    "next_priority": "Keep format-semantic gaps separate from proven native playback gates; investigate historical deterministic rules and actual synchronization divergence without guessed fields."
+  },
+  "player_level_binding": {
+    "choice_type": 1834,
+    "conclusion": "The reviewed current consumer transfers InfoS2 combined levels, not mandatory account/player level. No historical alias or fallback is authenticated.",
+    "current_clientinfo_root": 1768,
+    "destination_native_graph": [
+      775,
+      776,
+      107,
+      108,
+      82,
+      87,
+      106,
+      3
+    ],
+    "destination_offsets": [
+      "user+164 presence",
+      "user+168 u32 value"
+    ],
+    "distinct_mandatory_playerLevel": "ClientInfo field16/tag-2, native offset+358",
+    "infoHero_tag": 1,
+    "infoHero_type": 1852,
+    "infoS2_tag": 0,
+    "infoS2_type": 1851,
+    "source_kind": "InfoS2.m_combinedRaceLevels OPTIONALu32",
+    "source_optional_offsets": [
+      "ClientInfo+2C0 presence",
+      "ClientInfo+2C4 u32 value"
+    ]
+  },
+  "producer_sha256": "d3f385c635bc440fbd80a5d32929159773a318fc4afa3d950c422e6eb64fd0a0",
+  "recorded_at_utc": "2026-10-25T09:49:46.672144+00:00",
+  "recorded_bootstrap": {
+    "caller_RVA": "0xcfe3b0",
+    "cleanup": "CFF037 calls134BF90 with the same temporary reader. Its exact selected126-instruction listing has no direct+33310 reference. Called134CE10 reads/returns cached status, but134BF90 discards its EAX before the nextcall.",
+    "inner_gate": "Decode only when stream flags bit3 is clear.",
+    "limitations": [
+      "No runtime owner/mode/flag value is observed.",
+      "Cleanup expanded listing is truncated (154instructions/11outsideblocks); only selected ASM and retained134CE10 support the narrow status-return conclusion.",
+      "Cleanup destructors/virtual release operations have not been universally closed for global effects.",
+      "Later owner metadata consumers and complete native playback are not proved by this local path."
+    ],
+    "metadata_call_RVA": "0xcfed0b",
+    "metadata_decode_target": "0x134c690",
+    "metadata_failure": "Return error, cache at temporary_reader+33310; caller joins cleanup atCFED63 and continuationCFEDB3.",
+    "metadata_native_roots": [
+      5917,
+      5962
+    ],
+    "metadata_reader": "0x134d950",
+    "metadata_success": "Copies discriminator/root to owner+8088/+8090 and sets owner+191C8 bit16.",
+    "native_playback_prerequisite_conclusion": "Full battlelobby parse success is not a mandatory branch at these reviewed local gates; entire-playback necessity remains unproven.",
+    "next_gate": "134E890 reading path uses fresh stream-open results; no cached+33310 reads.",
+    "outer_gate": "Call only when owner+191C8 bit17 is clear.",
+    "owner_mode": 2,
+    "required_setup_destination": "owner+0x19460",
+    "required_setup_failure_result": [
+      2,
+      2,
+      9
+    ],
+    "required_setup_reader": "0x134dd30"
+  },
+  "rejected_store_candidates": [
+    {
+      "RVA": "0x2c236f",
+      "expanded_listing_truncated": true,
+      "reason": "Candidate writes construct a temporary descriptor containing a qword,constant25 andbyte0, passed fromRBP+350 to2871E0. Callee field semantics and typedClientInfo receiver are not authenticated.",
+      "selected_listing_used": true
+    },
+    {
+      "RVA": "0x1bdf2c0",
+      "expanded_listing_truncated": false,
+      "reason": "RBP is derived fromRSP; candidate stores are stacklocals. Byte derives froma global comparison, not typedClientInfo.",
+      "selected_listing_used": true
+    }
+  ],
+  "source_PE": {
+    "build": 98348,
+    "bytes": 53573840,
+    "sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9"
+  },
+  "static_patch_sha256": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83",
+  "voice_binding": {
+    "inverse": "A true result does not distinguish the three true input pairs. No old absent value or separate flag is recovered.",
+    "operation": "Logical OR into one destination slot byte+6CB",
+    "source": "InfoHero lobby/team voice flags atClientInfo+2C1/+2C2"
+  }
+}
