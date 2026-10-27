@@ -1,0 +1,140 @@
+{
+  "format": "original-two-ability-links-aggregate-context-v1",
+  "source_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+  "source_unchanged": true,
+  "game_member_sha256": "ea69dd77edd02f3ed2c42a2def1faab6dc4d0eb46da291c44f76bfb49a65eed6",
+  "tracker_member_sha256": "1a9a556f9f1fde466d17c4a3a3fbb31cbec8d8086bef97efeb796f1f5175245f",
+  "game_events": 104257,
+  "tracker_events": 6614,
+  "old_schema_sha256": "879d228d9d8acd21d63563538dd15841aaf49259ee0bb468b8a46b6a4ef866fd",
+  "source_selection_rule": "Sorted unique tag model, independently evaluating both bit-mask orientations; disagreement excludes identity.",
+  "all_commands_for_two_links": [
+    {
+      "source_link": 126,
+      "commands": 30,
+      "contexts": [
+        {
+          "flags": 524544,
+          "target": "None",
+          "command_index": 0,
+          "classification": "single_known_selected_unit",
+          "selected_unit_type_candidate": "HeroFaerieDragon",
+          "count": 9
+        },
+        {
+          "flags": 256,
+          "target": "TargetUnit",
+          "command_index": 0,
+          "classification": "single_known_selected_unit",
+          "selected_unit_type_candidate": "HeroFaerieDragon",
+          "count": 21
+        }
+      ]
+    },
+    {
+      "source_link": 351,
+      "commands": 31,
+      "contexts": [
+        {
+          "flags": 256,
+          "target": "TargetUnit",
+          "command_index": 0,
+          "classification": "single_known_selected_unit",
+          "selected_unit_type_candidate": "HeroTyrande",
+          "count": 24
+        },
+        {
+          "flags": 524544,
+          "target": "None",
+          "command_index": 0,
+          "classification": "single_known_selected_unit",
+          "selected_unit_type_candidate": "HeroTyrande",
+          "count": 7
+        }
+      ]
+    }
+  ],
+  "selected_context_is_not_executed_caster_proof": true,
+  "portable_ability_name_or_current_index_authenticated": false,
+  "network_or_game_or_Computer_Use": false,
+  "replay_or_sync_written": false,
+  "full_upgrade_complete": false,
+  "private_full_context_receipt_sha256": "3844edd06d6ade1ad85b56f89b0f0d9f16b4ab48a032418be48b6c89766c36c1",
+  "total_related_commands": 61,
+  "exception_commands": 16,
+  "first_exception_recorded_loop": 1682,
+  "raw_full_commands_or_player_identifiers_exported": false,
+  "context_is_selection_only_not_authenticated_executed_caster": true,
+  "native_current_type5_or_type6_assigned_to_historical_links": false,
+  "source_context_driver_sha256": "8f79489cafdaf82a631d7255634d51b23709c067d74f5f3da45cf95a63677f41",
+  "conditional_current_gate_comparison": {
+    "same_callback_class_and_same_context_bit2_assumed": true,
+    "tables": [
+      {
+        "context_bit2": false,
+        "rows": [
+          {
+            "callback_class": 0,
+            "unit_0x100": false,
+            "None_existing_0x80100": true,
+            "None_unapplied_0x40100": false
+          },
+          {
+            "callback_class": 1,
+            "unit_0x100": true,
+            "None_existing_0x80100": false,
+            "None_unapplied_0x40100": true
+          },
+          {
+            "callback_class": 2,
+            "unit_0x100": false,
+            "None_existing_0x80100": false,
+            "None_unapplied_0x40100": true
+          },
+          {
+            "callback_class": 3,
+            "unit_0x100": true,
+            "None_existing_0x80100": false,
+            "None_unapplied_0x40100": true
+          }
+        ],
+        "common_class_for_both_existing_shapes": []
+      },
+      {
+        "context_bit2": true,
+        "rows": [
+          {
+            "callback_class": 0,
+            "unit_0x100": false,
+            "None_existing_0x80100": true,
+            "None_unapplied_0x40100": false
+          },
+          {
+            "callback_class": 1,
+            "unit_0x100": true,
+            "None_existing_0x80100": false,
+            "None_unapplied_0x40100": true
+          },
+          {
+            "callback_class": 2,
+            "unit_0x100": true,
+            "None_existing_0x80100": true,
+            "None_unapplied_0x40100": true
+          },
+          {
+            "callback_class": 3,
+            "unit_0x100": true,
+            "None_existing_0x80100": false,
+            "None_unapplied_0x40100": true
+          }
+        ],
+        "common_class_for_both_existing_shapes": [
+          2
+        ]
+      }
+    ],
+    "actual_historical_or_current_callback_and_context_values_authenticated": false,
+    "not_a_rejection_or_desync_cause_proof": true,
+    "conversion_rule_unchanged": true
+  }
+}

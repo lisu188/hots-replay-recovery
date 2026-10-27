@@ -1124,3 +1124,36 @@ The64-loop window is not a measured divergent tick. No flag mapping changed.
 Keep all work offline and preserve original/R8/control/sync and unused drafts;
 no game, Computer Use, network, remote publication or new replay. Full upgrade,
 catalog/callback identity and deterministic playback remain unproved.
+
+## Offline current ability callback route — 2026-10-27
+
+Read docs/NATIVE_ABILITY_CALLBACK_ROUTE_2026-10-27.md and the three dated
+native-ability-callback/source-context/validation receipts. The validator's
+callback now follows runtime type getter5E48D0 (registry3388B18, resolved+24),
+type descriptorA51A70 (0..18, bitmap36350C0, base3604290/stride2A48), and
+slot getterA27340 (index*A8, nonzero byte+8, pointer+80). Stride is not extent.
+Separate mask getterA27180 falls back to TRUE for inactive/out-of-range slots;
+pointer getterA27340 instead returns null. Both real fallback blocks are included.
+
+Selected builderB91D80 for numeric type5 assigns callback classes3/2/2 to
+indices0/1/2; type6 builderC03A40 assignsC02780 to index0. These are conditional
+static assignments, not live table or complete helper-alias proof. C02780's
+nonnull data field+190 maps0/1/2 to classes1/2/3, others/null to0. C09D00 delegates
+to another callback. No current type or data value is authenticated for old
+links126/351. The named ECmdFlags registration binds only10 rows (Unknown and
+values0..8); it does not identify replay flag bit18/19 or the whole26-bit word.
+
+Actual original source has61 commands for links126/351, all cmdindex0:21/24
+Unit+0x100 and9/7 None+0x80100 in selected-unit contextsHeroFaerieDragon/Tyrande.
+Selection is not executed-caster or ability-name proof. With shared callback
+class/contextbit2, no class0..3 passes both shapes when contextbit2clear; class2
+does when set. Those assumptions are unmeasured, so this is not rejection,
+self-cast, desync-cause or flag-rewrite authorization. Conversion stays unchanged.
+
+21 selected code ranges12067B/2180instructions, original fragment-chain checks,
+260 bounded raw-opcode cases,4 constant callback patterns and6 existing gate
+tests pass locally. No production code change, full corpus, hosted CI or peer
+review. Original/R8/control/sync and unused launcher drafts remain unchanged.
+Keep all work offline: no game, Computer Use, network or remote publication.
+Full upgrade/playback remain false; continue from authentic catalog/data values
+and context dependencies, never guessed flags or metadata retagging.
