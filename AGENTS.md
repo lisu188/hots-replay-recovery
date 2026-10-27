@@ -1534,3 +1534,45 @@ native execution, REA native-provider analysis, hosted CI or peer review.
 Keep all work offline: no game, Computer Use, network or publication; full
 upgrade/playback false. Next bind root957 runtime field layout and publication
 sink, then actual ownership/setup and effective/historical41810 talent rules.
+
+
+## Offline root957 named ownership fields - 2026-10-27
+
+Read docs/NATIVE_TRACKER_OWNER_FIELDS_2026-10-27.md and its two dated
+native-tracker-owner-fields receipts. Selected initializer1D08A0/constructor
+1A77DB0 bind registry393EB80 to original program27C6960 and accessor27BECB0.
+Descriptor1A6D070 uses table[tid+1] as relative QWORD index. Root957 index3433
+selects27C57F8 with QWORDS12,0,4,8,9; getter1A6D670 takes the four offsets after
+the first QWORD. Its first QWORD semantic role is not newly assigned.
+
+Generic writer1A75240 STRUCT fields use payload offsets0/4/8/9 and tags0..3;
+USER958..961 recurse transparently to scalar3/3/158/158. Original width entries
+are4/1 bytes. With adapter event+30, event fields30/34/38/39 map respectively
+to official event3 unitTagIndex/unitTagRecycle/controlPlayerId/upkeepPlayerId.
+This conditionally closes the prior per-field memory/wire-name gap. Selected
+factory1342E30 incomingDL is therefore the selected m_controlPlayerId value;
+factoryR8B gives m_upkeepPlayerId. Normal initialization/stable registry/code,
+storage/ABI/helper/identity and no alias/reentry/concurrent mutation are required.
+
+Scalar leaf1A79110 reads the unsigned little-endian value unchanged. INT path
+bounds-checks before1A75EF0 encoding, without adding a minimum/player offset.
+Versioned positive encoding uses first low6 bits shifted1 and subsequent7-bit
+groups. It does not numerically renumber the player. A data-only projection of
+all256 ownership pairs0..15 with three uint32 pairs passed768 unchanged pinned
+official VersionedDecoder class decodes with exact byte consumption. Two bounded
+Python3 six byte primitives were supplied; native code was NOT executed.
+
+18ranges4662B/1321instr,56byte/call/ref checks,6register-flow checks and3required
+kind edges pass. Separate64B/16entry kind table uses pinned TRANSFORMED bytes,
+differs from original PE span, and all targets are boundaries. Twelve original
+fragment unions and six branch-closed no-call leaves are qualified. Original
+PE/program/accessor, transformed text and replay/draft pins pass.
+
+Actual owner/event emission, startup reach, constructor publication to file,
+initial Born/Init producers/all callers, wire-user equivalence and later callback
+value stability remain unproved. Do not infer user+1 or historical rules, rename
+default16 semantics, or perform a guessed talent mapping. No fresh replay decode,
+production/conversion/sync change, unit tests, native execution, REA provider,
+hosted CI or peer review. Keep all work offline: no game, Computer Use, network
+or publication; full upgrade/playback false. Next authenticate concrete publisher
+and initial ownership/setup, then effective and historical41810 talent rules.

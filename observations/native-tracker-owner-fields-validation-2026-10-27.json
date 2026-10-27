@@ -1,0 +1,98 @@
+{
+  "format": "native-tracker-owner-field-layout-static-validation-v1",
+  "passed": true,
+  "base_commit": "79115d2966ca63596d58d8d5eb07ed5b36a30eb2",
+  "qualified_ranges": 18,
+  "qualified_code_bytes": 4662,
+  "qualified_instructions": 1321,
+  "separate_kind_table_bytes": 64,
+  "kind_table_targets_checked": 16,
+  "selected_instruction_checks": 56,
+  "register_definition_use_checks": 6,
+  "required_kind_dispatch_edges": 3,
+  "native_owner_to_named_controlPlayerId_bound_under_selected_conditions": true,
+  "native_factory_R8B_to_upkeepPlayerId_bound_under_selected_conditions": true,
+  "constructor_publication_sink_bound_to_persistent_writer": false,
+  "actual_owner_or_event_emission_captured": false,
+  "data_only_projection": {
+    "cases": 768,
+    "control_and_upkeep_domain": [
+      0,
+      15
+    ],
+    "uint32_pairs": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        4194303
+      ],
+      [
+        4294967295,
+        4294967295
+      ]
+    ],
+    "all_named_values_equal_native_payload_values": true,
+    "all_official_decodes_consume_exact_bytes": true,
+    "concatenated_wire_sha256": "1c2e5a75f99e2a00df5d6acd2e3b28b68ff57d0a1a9c4a1c90434fd5427c4d7b",
+    "official_decoder_bytes": 9199,
+    "official_decoder_sha256": "17bfb926af0f7f79e18f6299dbae50fc2821c53b229235d4f9c857c7ef3e96b1",
+    "dependency_adapter": "unchanged pinned class ASTs plus two bounded Python3 six byte primitives; native code was not executed"
+  },
+  "private_receipt": {
+    "path": "qualified-root957-layout-v2.private.json",
+    "bytes": 24309,
+    "sha256": "ce63a9ed52324fa7df2367c741c0a09dadf0de085d29c20817a06eee35e587d4"
+  },
+  "qualifier": {
+    "path": "native-tracker-field-layout-20261027/qualify_root957_layout.py",
+    "bytes": 16165,
+    "sha256": "53522156bf71a5d2197ef5f5087ab977a9da6b3040736dea056945e76c6802ca"
+  },
+  "replays": [
+    {
+      "label": "source",
+      "path": "work/TEN_GREYMANE_source_41810.StormReplay",
+      "bytes": 635140,
+      "sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824"
+    },
+    {
+      "label": "R8",
+      "path": "work/native-20261018/TEN_GREYMANE_client98285_RESUMABLE_R8_PARTIAL.StormReplay",
+      "bytes": 2438570,
+      "sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19"
+    },
+    {
+      "label": "current",
+      "path": "work/eu-replay-search-20261018/heroeslounge-27515-g1-20261005.StormReplay",
+      "bytes": 978482,
+      "sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4"
+    }
+  ],
+  "unused_launcher_drafts": [
+    {
+      "path": "scripts/run_current_replay_control.py",
+      "bytes": 17147,
+      "sha256": "6315c2dd9291aa5185db0831e1d7c00f24f1d3f33ceb0bd79f8a636dd2aacaea"
+    },
+    {
+      "path": "test_current_replay_control.py",
+      "bytes": 2450,
+      "sha256": "7a00561260e2c0f64a41b9f73cbf8910550f90e4a6d6ad80e7a1d1719879f297"
+    }
+  ],
+  "source_R8_current_whole_file_pins_rechecked": true,
+  "fresh_replay_decode": false,
+  "production_code_or_conversion_changed": false,
+  "unit_tests_authored_or_rerun": false,
+  "full_corpus_or_hosted_CI_run": false,
+  "independent_peer_review": false,
+  "native_target_executed": false,
+  "REA_native_provider_analysis": false,
+  "network_or_game_or_Computer_Use": false,
+  "new_replay_or_sync_written": false,
+  "safe_talent_index_migration_established": false,
+  "full_upgrade_complete": false
+}
