@@ -1,0 +1,107 @@
+{
+  "format": "native-selector2-source-pointer-static-v1",
+  "status": "qualified-literal2-setter-and-direct-caller-source-pointer",
+  "target_build": 98348,
+  "source": {
+    "kind": "analyst-derived statically transformed text patch; not runtime capture or unaltered PE text",
+    "bytes": 36581376,
+    "sha256": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83",
+    "source_PE_bytes": 53573840,
+    "source_PE_sha256_inherited_not_rehashed": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+    "source_patch_full_SHA_refreshed_for_each_fixed_target_scan": true,
+    "four_field_path_handle_guards_unchanged": true
+  },
+  "selected_IDA_jobs": [
+    {
+      "entry_RVA": "0xCC1630",
+      "end_RVA_exclusive": "0xCC17F3",
+      "loaded_and_decoded_bytes": 451,
+      "decoded_instructions": 87,
+      "code_sha256": "a9aea6a76649d19909676685c17f9b1fe13ca89e78dcc4835df929232dc82db1",
+      "assembly_receipt": {"bytes": 5372, "sha256": "57a089e162e42f22036a26f2c7278c8206c359fc68d779aaa2a91ada304a8d7e"},
+      "quality_receipt": {"bytes": 3773, "sha256": "e2af43e9f6f3c874f1ac41a0fccda90b3abaf7f3b3f2caef07952ba359f5b498"},
+      "stop": "hard-window-boundary-without-RET",
+      "observed_noncall_code_operand_targets": 6,
+      "noncall_code_targets_outside_prefix": ["0xCC1A2E"],
+      "last_instruction_has_outward_fallthrough": true,
+      "whole_function_or_CFG_proven": false,
+      "exit_code": 0
+    },
+    {
+      "entry_RVA": "0x1A24E60",
+      "end_RVA_exclusive": "0x1A24EB1",
+      "loaded_and_decoded_bytes": 81,
+      "decoded_instructions": 19,
+      "code_sha256": "99d2cc1dbc125fe60aeb6230c1033e4ddda1e4488b7baf555c32ea70e50e79da",
+      "assembly_receipt": {"bytes": 1048, "sha256": "1486fac4d1acdad8eda05dda59594d2a6c6dd6f3d71320bc24f4d7a65d5e8136"},
+      "quality_receipt": {"bytes": 1812, "sha256": "90b9bba0e9dd78f0b6789f145f79e072d236d4ea3034a346170a87528062e643"},
+      "stop": "first-decoded-RET-included",
+      "calls": 0,
+      "local_branch_targets": ["0x1A24EA2", "0x1A24E91"],
+      "preserves_RCX_RDX_on_normal_return": true,
+      "stack_memory_writes_and_faults_possible": true,
+      "exit_code": 0
+    },
+    {
+      "entry_RVA": "0xCD6D30",
+      "end_RVA_exclusive": "0xCD6F2A",
+      "loaded_and_decoded_bytes": 506,
+      "decoded_instructions": 102,
+      "code_sha256": "2316b68425ef2e7d4cc8c89d8681e8a75e522761a2c34e2c6c99d452d324359a",
+      "assembly_receipt": {"bytes": 5750, "sha256": "07a05a12102fca8b64af5369b47b216dadfcd2abf3291df263209360b4f763c6"},
+      "quality_receipt": {"bytes": 5195, "sha256": "fc01018169947fe659d2f4921160fa38bb649d294aa6d112c94a5b7328c93d61"},
+      "stop": "first-decoded-RET-included",
+      "calls": 20,
+      "local_branch_targets": ["0xCD6EEF"],
+      "ordinary_local_branch_targets_are_decoded_boundaries": true,
+      "opaque_callees_expanded": false,
+      "exit_code": 0
+    }
+  ],
+  "qualified_relations": {
+    "literal_setter": {"site_RVA": "0xCC1647", "write": "DWORD[entry_RCX] = 2"},
+    "payload_copy": {"site_RVA": "0xCC1667", "target_RVA": "0x6BAF50", "RCX": "entry_RCX + 0x4310", "RDX": "entry_RDX"},
+    "list_addresses_using_prior_6BAF50_witness": {"destination": "entry_RCX + 0x4430", "source": "entry_RDX + 0x120", "prior_callsite_RVA": "0x6BAFB4", "list_helper_RVA": "0x6B5BA0"},
+    "upstream_source_pointer": {"load_RVA": "0xCD6D83", "source": "QWORD[incoming_entry_RDX_object + 0x18]", "call_RVA": "0xCD6D95", "target_RVA": "0xCC1630", "destination": "return value of CBEF50"},
+    "later_tag_copy": {"load_RVA": "0xCD6E59", "store_RVA": "0xCD6E5B", "known_to_remain_2_across_intervening_helpers": false},
+    "later_payload_copy": {"call_RVA": "0xCD6E83", "target_RVA": "0x6BAF50", "destination_offset": "0x4310", "source_offset": "0x4310", "unchanged_source_contents_across_intervening_helpers_proven": false}
+  },
+  "fixed_target_entry_scan": {
+    "target_RVA": "0xCC1630",
+    "E8_matches": ["0xCD6D95"],
+    "E9_matches": [],
+    "candidate_call_boundary_separately_qualified_by_IDA": true,
+    "indirect_or_outside_patch_call_completeness": false
+  },
+  "bounds": {
+    "original_PE_metadata_bytes_cumulative": 636,
+    "original_PE_metadata_cap": 1024,
+    "captured_patch_bytes_cumulative": 2515,
+    "captured_patch_byte_cap": 8192,
+    "native_instruction_cap_each": 512,
+    "native_TSV_JSON_cap_each": 49152,
+    "new_native_jobs": 3,
+    "decoded_bytes_total": 1038,
+    "decoded_instructions_total": 208,
+    "owned_IDA_processes_ended": true,
+    "game_execution_or_PE_input": false,
+    "ComputerUse_used": false
+  },
+  "preconditions": [
+    "Normal helper returns and ordinary ABI preservation of nonvolatile registers",
+    "Valid readable source, writable destination, stack and nonoverflowing address arithmetic",
+    "No unmodelled aliases, callbacks or concurrent writes invalidate each stated load or call boundary",
+    "Address relations do not imply byte preservation through opaque callees"
+  ],
+  "unknowns": [
+    "Incoming object type, creator, lifetime and producer of its +0x18 pointee",
+    "Discriminator2 semantic or schema name",
+    "CC1630 behavior beyond the selected prefix and through its external calls",
+    "Historical player level, boost, voice/staff values and valid old-branch migration",
+    "Resource identity, historical catalog equivalence and deterministic simulation compatibility"
+  ],
+  "codec_or_replay_changed": false,
+  "historical_defaults_invented": false,
+  "playback_verified": false,
+  "full_upgrade_complete": false
+}
