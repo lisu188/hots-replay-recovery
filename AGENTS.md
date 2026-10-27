@@ -1494,3 +1494,43 @@ review, native target execution or REA native analysis. Keep all work offline:
 no game, Computer Use, network or publication; full upgrade/playback false.
 Next bind owner to recorded player/setup/ownership data through an authentic
 producer, then effective/historical41810 talent rules before a safe migration.
+
+
+## Offline native owner to tracker record construction - 2026-10-27
+
+Read docs/NATIVE_OWNER_TRACKER_RECORD_2026-10-27.md and its two dated
+native-owner-tracker-record receipts. Direct call9BC21E binds the selected
+owner mutation to factory1342E30. Its entryDL is saved inEBP and copied unchanged
+at1342EDD to event object+38. The same saved owner is used by the selected
+unit+44 store9BC530 and previously qualified talent selector. Event object+39
+copies factoryR8B; caller selects saved unit+5E or owner according toR15B.
+Do not assign that second byte an unproved native field name.
+
+Factory header50003/table27BD320 match ID3 in reader135E4E0. Selected writer
+132AC50 ->135E870 serializes the header low word using root898 then calls slot8
+133FDF0, which passes root957 and object+30 through1A75E30 to1A75240. Reader
+slot30=133F310 uses that same root/base with1A772C0. Original filename/atom
+27BDEA0/393E240 and archive-open134F770 bind tracker substateCF0 to member
+replay.tracker.events. The factory's virtual publisher+180 is not yet bound to
+this persistent writer; constructor also requires unit41 bit0clear and virtual
+slot298 nonzero. No actual event emission or owner snapshot is demonstrated.
+
+Root957 declares ordered tags0..3/u32,u32,u4,u4, matching the pinned official
+event3 SUnitOwnerChangeEvent shape. The generic field walker has not been
+audited for per-field native offsets. Therefore owner ->event byte38 is bound
+under conditions, but owner==named wire control/upkeep/player/user ID remains
+UNPROVED. Do not infer user+1/owner+1, fabricate owner default16 semantics, or
+perform a talent remap. Native handle split and pair of payload bytes are code
+bindings; named wire fields remain a separate boundary.
+
+13ranges7268B/1706instr,67byte/call/ref checks,4register-flow and2required-guard
+checks pass. The 60B/15entry ID table is separate from code, all targets are
+boundaries, and its TRANSFORMED bytes differ from original PE span. Original
+metadata supplies extents; pinned derived code/tables are not a runtime capture.
+Replay/draft pins and source/schema pins pass. Normal ABI/helpers, disjoint
+storage, stable identity and no exception/reentry/alias/concurrent mutation are
+conditions. No fresh replay decode, code/conversion/sync change, unit tests,
+native execution, REA native-provider analysis, hosted CI or peer review.
+Keep all work offline: no game, Computer Use, network or publication; full
+upgrade/playback false. Next bind root957 runtime field layout and publication
+sink, then actual ownership/setup and effective/historical41810 talent rules.

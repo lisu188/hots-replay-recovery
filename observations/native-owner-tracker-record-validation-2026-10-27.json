@@ -1,0 +1,72 @@
+{
+  "format": "native-owner-tracker-record-static-validation-v1",
+  "passed": true,
+  "base_commit": "7aac0464cbf0ee05b67d07211457d31972ff9126",
+  "qualified_ranges": 13,
+  "qualified_code_bytes": 7268,
+  "qualified_instructions": 1706,
+  "separate_ID_table_bytes": 60,
+  "ID_table_targets_checked": 15,
+  "selected_instruction_checks": 67,
+  "register_definition_use_checks": 4,
+  "required_factory_guard_edges": 2,
+  "native_owner_to_event3_byte38_bound_under_conditions": true,
+  "native_owner_to_named_wire_player_field_proven": false,
+  "generic_root957_runtime_field_layout_audited": false,
+  "constructor_publication_sink_bound_to_persistent_writer": false,
+  "fresh_pinned_native_metadata_closure_and_official_declaration_comparison": true,
+  "private_receipt": {
+    "path": "qualified-owner-tracker-bridge-v3.private.json",
+    "bytes": 24987,
+    "sha256": "6e58870de6e4a9edb0fffbed4b1fc5895bcaee16fac75f143c6d6f91c5163e3f"
+  },
+  "qualifier": {
+    "path": "native-owner-tracker-20261027/qualify_owner_tracker_bridge.py",
+    "bytes": 14734,
+    "sha256": "aeb33ca523cd3acdf050732351814cb61ef16201241faccfa13345ef8f6a9861"
+  },
+  "replays": [
+    {
+      "label": "source",
+      "path": "work/TEN_GREYMANE_source_41810.StormReplay",
+      "bytes": 635140,
+      "sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824"
+    },
+    {
+      "label": "R8",
+      "path": "work/native-20261018/TEN_GREYMANE_client98285_RESUMABLE_R8_PARTIAL.StormReplay",
+      "bytes": 2438570,
+      "sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19"
+    },
+    {
+      "label": "current",
+      "path": "work/eu-replay-search-20261018/heroeslounge-27515-g1-20261005.StormReplay",
+      "bytes": 978482,
+      "sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4"
+    }
+  ],
+  "unused_launcher_drafts": [
+    {
+      "path": "scripts/run_current_replay_control.py",
+      "bytes": 17147,
+      "sha256": "6315c2dd9291aa5185db0831e1d7c00f24f1d3f33ceb0bd79f8a636dd2aacaea"
+    },
+    {
+      "path": "test_current_replay_control.py",
+      "bytes": 2450,
+      "sha256": "7a00561260e2c0f64a41b9f73cbf8910550f90e4a6d6ad80e7a1d1719879f297"
+    }
+  ],
+  "source_R8_current_whole_file_pins_rechecked": true,
+  "fresh_replay_decode": false,
+  "production_code_or_conversion_changed": false,
+  "unit_tests_authored_or_rerun": false,
+  "full_corpus_or_hosted_CI_run": false,
+  "independent_peer_review": false,
+  "native_target_executed": false,
+  "REA_native_provider_analysis": false,
+  "network_or_game_or_Computer_Use": false,
+  "new_replay_or_sync_written": false,
+  "safe_talent_index_migration_established": false,
+  "full_upgrade_complete": false
+}
