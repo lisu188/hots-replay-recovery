@@ -1,0 +1,40 @@
+{
+  "format": "native-command-target-gate-local-validation-v1",
+  "passed": true,
+  "new_tests": 6,
+  "neighboring_tests": 24,
+  "total_tests": 30,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "seconds": 0.172,
+  "bounded_opcode_interpretation_cases": 128,
+  "native_model_and_test_pins": [
+    {
+      "path": "native_command_target_gate.py",
+      "bytes": 1621,
+      "sha256": "dd0f259fc5d59791b5d653e9f51285495e0b24a87f71e112cf8f7a7cea259245"
+    },
+    {
+      "path": "test_native_command_target_gate.py",
+      "bytes": 1879,
+      "sha256": "2f4713b1f0d2b390e7a36cd92b939c6873f4410e5dac804d5c0a25df3cd6948f"
+    },
+    {
+      "path": "native_game_events.py",
+      "bytes": 12832,
+      "sha256": "72adceefb23a9f78b467eba9ec9d4b8fa655bae94d61e7ee753b15498876fd23"
+    },
+    {
+      "path": "native_game_events_schema_98348.json",
+      "bytes": 49231,
+      "sha256": "bbb2ca6a0c1511a6756cf0f5ab9d0309f4b8b6cdf397963d020390f549082895"
+    }
+  ],
+  "native_target_executed": false,
+  "independent_peer_review": false,
+  "hosted_CI_run": false,
+  "full_local_corpus_run": false,
+  "network_or_game_or_Computer_Use": false,
+  "full_upgrade_complete": false
+}

@@ -1,0 +1,320 @@
+{
+  "format": "original16-command-and-native-current-flag-context-v1",
+  "cases": [
+    {
+      "case": "original41810",
+      "source_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+      "source_unchanged": true,
+      "game_member_sha256": "ea69dd77edd02f3ed2c42a2def1faab6dc4d0eb46da291c44f76bfb49a65eed6",
+      "commands": 4558,
+      "flags": [
+        {
+          "flags": 256,
+          "hex": "0x100",
+          "count": 1288,
+          "shapes": {
+            "explicit:None": 68,
+            "explicit:TargetPoint": 712,
+            "explicit:TargetUnit": 508
+          },
+          "first_loop": 133,
+          "last_loop": 19514
+        },
+        {
+          "flags": 266,
+          "hex": "0x10a",
+          "count": 7,
+          "shapes": {
+            "implicit:TargetPoint": 7
+          },
+          "first_loop": 336,
+          "last_loop": 14493
+        },
+        {
+          "flags": 65792,
+          "hex": "0x10100",
+          "count": 3,
+          "shapes": {
+            "explicit:TargetPoint": 3
+          },
+          "first_loop": 630,
+          "last_loop": 13729
+        },
+        {
+          "flags": 524544,
+          "hex": "0x80100",
+          "count": 16,
+          "shapes": {
+            "explicit:None": 16
+          },
+          "first_loop": 1682,
+          "last_loop": 18663
+        },
+        {
+          "flags": 1048832,
+          "hex": "0x100100",
+          "count": 606,
+          "shapes": {
+            "explicit:None": 606
+          },
+          "first_loop": 746,
+          "last_loop": 19524
+        },
+        {
+          "flags": 1048840,
+          "hex": "0x100108",
+          "count": 1915,
+          "shapes": {
+            "implicit:TargetPoint": 1175,
+            "implicit:TargetUnit": 740
+          },
+          "first_loop": 61,
+          "last_loop": 19526
+        },
+        {
+          "flags": 1114376,
+          "hex": "0x110108",
+          "count": 66,
+          "shapes": {
+            "implicit:TargetPoint": 66
+          },
+          "first_loop": 201,
+          "last_loop": 18530
+        },
+        {
+          "flags": 2097408,
+          "hex": "0x200100",
+          "count": 657,
+          "shapes": {
+            "explicit:TargetPoint": 291,
+            "explicit:TargetUnit": 366
+          },
+          "first_loop": 797,
+          "last_loop": 19525
+        }
+      ],
+      "count_0x40100": 0,
+      "count_0x80100": 16
+    },
+    {
+      "case": "R8partial98285",
+      "source_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "source_unchanged": true,
+      "game_member_sha256": "31df2ab80eeeb56bc543ea0744f75d4d2ec6a5c337b1f38f04ef90d169dab2f0",
+      "commands": 4558,
+      "flags": [
+        {
+          "flags": 256,
+          "hex": "0x100",
+          "count": 1288,
+          "shapes": {
+            "explicit:None": 68,
+            "explicit:TargetPoint": 712,
+            "explicit:TargetUnit": 508
+          },
+          "first_loop": 133,
+          "last_loop": 19514
+        },
+        {
+          "flags": 266,
+          "hex": "0x10a",
+          "count": 7,
+          "shapes": {
+            "implicit:TargetPoint": 7
+          },
+          "first_loop": 336,
+          "last_loop": 14493
+        },
+        {
+          "flags": 33024,
+          "hex": "0x8100",
+          "count": 3,
+          "shapes": {
+            "explicit:TargetPoint": 3
+          },
+          "first_loop": 630,
+          "last_loop": 13729
+        },
+        {
+          "flags": 524544,
+          "hex": "0x80100",
+          "count": 622,
+          "shapes": {
+            "explicit:None": 622
+          },
+          "first_loop": 746,
+          "last_loop": 19524
+        },
+        {
+          "flags": 524552,
+          "hex": "0x80108",
+          "count": 1915,
+          "shapes": {
+            "implicit:TargetPoint": 1175,
+            "implicit:TargetUnit": 740
+          },
+          "first_loop": 61,
+          "last_loop": 19526
+        },
+        {
+          "flags": 557320,
+          "hex": "0x88108",
+          "count": 66,
+          "shapes": {
+            "implicit:TargetPoint": 66
+          },
+          "first_loop": 201,
+          "last_loop": 18530
+        },
+        {
+          "flags": 1048832,
+          "hex": "0x100100",
+          "count": 657,
+          "shapes": {
+            "explicit:TargetPoint": 291,
+            "explicit:TargetUnit": 366
+          },
+          "first_loop": 797,
+          "last_loop": 19525
+        }
+      ],
+      "count_0x40100": 0,
+      "count_0x80100": 622
+    },
+    {
+      "case": "current98348",
+      "source_sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4",
+      "source_unchanged": true,
+      "game_member_sha256": "c7fba3ffbae7cf8ce1c348d0478f8e5cb81b2e3991791e21a793638cf058a52d",
+      "commands": 26899,
+      "flags": [
+        {
+          "flags": 256,
+          "hex": "0x100",
+          "count": 823,
+          "shapes": {
+            "explicit:None": 150,
+            "explicit:TargetPoint": 505,
+            "explicit:TargetUnit": 168
+          },
+          "first_loop": 817,
+          "last_loop": 19346
+        },
+        {
+          "flags": 266,
+          "hex": "0x10a",
+          "count": 73,
+          "shapes": {
+            "implicit:TargetPoint": 73
+          },
+          "first_loop": 1325,
+          "last_loop": 18148
+        },
+        {
+          "flags": 524544,
+          "hex": "0x80100",
+          "count": 531,
+          "shapes": {
+            "explicit:None": 531
+          },
+          "first_loop": 755,
+          "last_loop": 19338
+        },
+        {
+          "flags": 524552,
+          "hex": "0x80108",
+          "count": 22740,
+          "shapes": {
+            "implicit:TargetPoint": 19808,
+            "implicit:TargetUnit": 2932
+          },
+          "first_loop": 656,
+          "last_loop": 19356
+        },
+        {
+          "flags": 557320,
+          "hex": "0x88108",
+          "count": 18,
+          "shapes": {
+            "implicit:TargetPoint": 18
+          },
+          "first_loop": 2247,
+          "last_loop": 18128
+        },
+        {
+          "flags": 1048832,
+          "hex": "0x100100",
+          "count": 1856,
+          "shapes": {
+            "explicit:TargetPoint": 1257,
+            "explicit:TargetUnit": 599
+          },
+          "first_loop": 1449,
+          "last_loop": 19339
+        },
+        {
+          "flags": 33554688,
+          "hex": "0x2000100",
+          "count": 21,
+          "shapes": {
+            "explicit:None": 21
+          },
+          "first_loop": 1485,
+          "last_loop": 18733
+        },
+        {
+          "flags": 34078976,
+          "hex": "0x2080100",
+          "count": 45,
+          "shapes": {
+            "explicit:None": 45
+          },
+          "first_loop": 3030,
+          "last_loop": 19279
+        },
+        {
+          "flags": 34603264,
+          "hex": "0x2100100",
+          "count": 792,
+          "shapes": {
+            "explicit:TargetPoint": 385,
+            "explicit:TargetUnit": 407
+          },
+          "first_loop": 1371,
+          "last_loop": 19342
+        }
+      ],
+      "count_0x40100": 0,
+      "count_0x80100": 531
+    }
+  ],
+  "all_16_have_explicit_ability": true,
+  "first_16_case_recorded_loop": 1682,
+  "native_flag_meanings_proven": false,
+  "first_recorded_64_loop_window_is_not_measured_desync_tick": true,
+  "network_or_game_or_Computer_Use": false,
+  "replay_or_sync_written": false,
+  "full_upgrade_complete": false,
+  "original_cases_by_numeric_ability_link": [
+    {
+      "source_link": 126,
+      "commands": 9,
+      "command_indices": [
+        0
+      ],
+      "first_recorded_loop": 1682,
+      "last_recorded_loop": 18663
+    },
+    {
+      "source_link": 351,
+      "commands": 7,
+      "command_indices": [
+        0
+      ],
+      "first_recorded_loop": 5178,
+      "last_recorded_loop": 10765
+    }
+  ],
+  "original_all_16_have_no_otherUnit_or_unitGroup_override": true,
+  "raw_complete_commands_or_player_names_exported": false
+}

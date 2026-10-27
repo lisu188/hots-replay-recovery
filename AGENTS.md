@@ -1100,3 +1100,27 @@ reconstruction and edited CI block parsing are local evidence. New CI gate
 retains explicit collision assertions but has not run remotely. No full local
 corpus/peer review claim. Original/R8/sync/drafts remain unchanged; no new replay,
 game, Computer Use, network or remote publication. Full upgrade stays false.
+
+## Current command flag transport and selected target gate — 2026-10-27
+
+Read docs/NATIVE_COMMAND_TARGET_GATE_2026-10-27.md and the three dated native
+command flag/gate receipts. Factory6D4250 constructs the ID27/header0x3001B object;
+202ADB0 initially copies source+0C32-bit flags directly to recorded+30. Consumer
+132B890 checks that header and calls validator202AFB0. Four qualified ranges total
+2423B/673instructions; the factory's three RuntimeFunction fragments are chained.
+Raw xrefs and the exploratory slot38 RET-imm overrun are excluded from claims.
+
+New native_command_target_gate.py models only post-callback202B475..202B4E7,
+114B/36instructions.128 finite opcode-interpretation cases agree with the model.
+This is a conditional continuation gate, not whole-command validity or runtime
+execution. Bits18/23, callback class0..3 and uninterpreted contextbit2 matter.
+For None/contextbit2clear, existing0x80100 passes class0 only; unapplied0x40100
+passes classes1/2/3 only. Current/historical callback meanings remain unproved.
+
+All16 old exception cases are explicit/None, cmdindex0, no otherUnit/unitGroup
+override: link126x9 and351x7, firstloop1682. Current control has531explicit/None
+0x80100 commands and no0x40100; do not generalize absence or assign ability names.
+The64-loop window is not a measured divergent tick. No flag mapping changed.
+Keep all work offline and preserve original/R8/control/sync and unused drafts;
+no game, Computer Use, network, remote publication or new replay. Full upgrade,
+catalog/callback identity and deterministic playback remain unproved.

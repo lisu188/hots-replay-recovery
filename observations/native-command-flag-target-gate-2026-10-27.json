@@ -1,0 +1,123 @@
+{
+  "format": "native-current-command-flag-transfer-and-selected-target-gate-v1",
+  "source_PE_sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+  "transformed_text_sha256": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83",
+  "selected_code": [
+    {
+      "label": "cmd_factory_chain",
+      "start": "0x6d4250",
+      "end_exclusive": "0x6d4406",
+      "bytes": 438,
+      "instructions": 120,
+      "code_sha256": "da8cba15c8a2fee23416ed2668d61c41d5607a2b1c9b2c05c2110a65dffbbaf5",
+      "external_direct_noncall_targets": []
+    },
+    {
+      "label": "command_to_recorded_payload",
+      "start": "0x202adb0",
+      "end_exclusive": "0x202af63",
+      "bytes": 435,
+      "instructions": 133,
+      "code_sha256": "42dd37b16423c608053f92750125cbf5f8d2b68739b2f7a4b953be386907d9de",
+      "external_direct_noncall_targets": []
+    },
+    {
+      "label": "recorded_payload_to_command_candidate",
+      "start": "0x202afb0",
+      "end_exclusive": "0x202b56b",
+      "bytes": 1467,
+      "instructions": 393,
+      "code_sha256": "8b8fd338048709db0e4ea2e59eb8f1fbb782d17ed35b1e7b048cf774259d6704",
+      "external_direct_noncall_targets": []
+    },
+    {
+      "label": "validation_other_consumer",
+      "start": "0x132b890",
+      "end_exclusive": "0x132b8e3",
+      "bytes": 83,
+      "instructions": 27,
+      "code_sha256": "c2ce359fe9e49cbe04ed1518396b8348e9c96a509c2f5f0867c80a07b3a30ae6",
+      "external_direct_noncall_targets": []
+    }
+  ],
+  "selected_code_bytes": 2423,
+  "selected_instructions": 673,
+  "command_filter_rva": "0x132b890",
+  "required_event_header": "0x3001b",
+  "validator_rva": "0x202afb0",
+  "initial_flag_transfer": {
+    "load_rva": "0x202add5",
+    "store_rva": "0x202add8",
+    "source_offset": "0xc",
+    "recorded_event_offset": "0x30",
+    "width_bits": 32,
+    "mask_or_shift_between_load_and_store": false
+  },
+  "selected_target_gate": {
+    "start_rva": "0x202b475",
+    "end_exclusive_rva": "0x202b4e7",
+    "bytes": 114,
+    "sha256": "0628f11ab41f48f87c1096703d2cf46528d3ae4fdfdefdc1c352bae741a809c6",
+    "success_continuation_rva": "0x202b4e7",
+    "cleanup_failure_continuation_rva": "0x202b3c4",
+    "opcode_interpretation_cases": 128,
+    "decoded_instruction_addresses_visited": 36,
+    "all_128_cases_equal_portable_model": true,
+    "input_bits": [
+      18,
+      23
+    ],
+    "callback_class_domain": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "context_field": "DWORD[frame_RBP-0x11] bit2; semantic identity not assigned"
+  },
+  "static_conditions": [
+    "Normal ABI, valid native objects, selected allocation/caller branch taken.",
+    "Gate has already been reached; earlier checks and runtime catalog/callback resolution are outside this model."
+  ],
+  "callback_results_or_original_flag_meanings_observed": false,
+  "runtime_code_executed": false,
+  "ordinary_local_GNU_objdump_and_bounded_Python_opcode_interpretation_used": true,
+  "REA_Evidence_claimed": false,
+  "network_or_game_or_Computer_Use": false,
+  "full_upgrade_complete": false,
+  "factory_runtime_function_fragments": [
+    {
+      "begin_rva": "0x6d4250",
+      "end_rva": "0x6d431b",
+      "unwind_rva": "0x2c706fc",
+      "flags": 0,
+      "chained_parent": null
+    },
+    {
+      "begin_rva": "0x6d431b",
+      "end_rva": "0x6d43e9",
+      "unwind_rva": "0x2c70710",
+      "flags": 4,
+      "chained_parent": [
+        "0x6d4250",
+        "0x6d431b",
+        "0x2c706fc"
+      ]
+    },
+    {
+      "begin_rva": "0x6d43e9",
+      "end_rva": "0x6d4406",
+      "unwind_rva": "0x2c70724",
+      "flags": 4,
+      "chained_parent": [
+        "0x6d4250",
+        "0x6d431b",
+        "0x2c706fc"
+      ]
+    }
+  ],
+  "command_event_factory_rva": "0x6d4250",
+  "command_event_transfer_rva": "0x202adb0",
+  "portable_model_sha256": "dd0f259fc5d59791b5d653e9f51285495e0b24a87f71e112cf8f7a7cea259245",
+  "opcode_interpretation_driver_sha256": "0343f7ca1ff73de6ffef03709581d659d13fc802855da823f22449ebda82321f"
+}
