@@ -1270,3 +1270,37 @@ or Ghidra analysis was performed in this definition audit. Keep all work
 offline: no game, Computer Use, network or remote publication. Full upgrade/
 playback stay false. Do not apply a guessed15->7 or missing-name replacement;
 authenticate native index/selection rules and effective/historical definitions.
+
+## Offline native talent index transport and array query — 2026-10-27
+
+Read docs/NATIVE_TALENT_INDEX_ROUTE_2026-10-27.md and its two dated native-talent
+index-route receipts. Header3006E/table26A77D0 bind event110; selected read/write
+methods94B300/94B260 use object+30/root564->565->3 singleuint32. Factory94B560
+stores incomingECX directly at+30 on its nonnull allocation path, then forwards
+through8418D0 to13340E0. The actual dispatcher/consumer is unproved.
+
+Sender8C0EF0's seven chained RuntimeFunction fragments form485B. The same DWORD
+at secondarg+1C goes toB0F1F0 and the factory. Query failure at8C0F6B branches to
+8C0FC6 and can still reach construction. Do NOT treat query failure as event
+rejection or the query as universal playback validation. B0F1F0 obtains an
+unbound object via9D5080 and passes object+50/index/output toB0F160. That query
+masks a resolver result with~1F, checks unsignedindex<count at+500, then copies
+an entry atpointer+510 plusindex*64. No live count/base/entry is captured.
+
+Entry+8 is copied tooutput+8 and used inB0F720's secondary lookup: first low-byte
+selector<16, second unsignedselector<32, table3677A30, DWORD stride4. Neither
+selector's semantic namespace nor a talent-tier interpretation is bound.
+TalentTreeArray literal registration at51115E suppliesR9D470 to1601160; the
+parameter meaning/object adjustment and link toquery offsets500/510 remain
+unproved. Owner descriptor2BC5320 is opaque, not a name string. Do not infer
+CHero identity or XML order. The TalentChosen label reference is in a stat
+writer, not a proven executed-purchase producer.
+
+Ten qualified ranges1242B/338instructions plus2selected metadata windows511B/
+92instructions; exact bytes, original method slots/chains and branch targets
+checked locally with GNU objdump/WSL. Overlong leaf/jump-table sweeps excluded.
+No REA native Evidence, target execution, new unit tests, broad corpus, hosted
+CI or peer review. Replay/draft pins preserved; no stream decode or production/
+conversion change. Keep all work offline: no game, Computer Use, network or
+remote publication; full upgrade/playback false. Next bind metadata/query array
+and the actual event consumer before any guessed talent-index replacement.

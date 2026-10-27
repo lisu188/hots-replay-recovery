@@ -1,0 +1,429 @@
+{
+  "format": "native-current-talent-index-transport-and-selected-array-query-v2",
+  "source_PE": {
+    "bytes": 53573840,
+    "sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9"
+  },
+  "transformed_text": {
+    "bytes": 36581376,
+    "sha256": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83",
+    "not_unchanged_signed_PE_or_runtime_capture": true
+  },
+  "qualified_code_ranges": [
+    {
+      "label": "factory_94b560",
+      "start_rva": "0x94b560",
+      "end_exclusive_rva": "0x94b5cc",
+      "bytes": 108,
+      "instructions": 29,
+      "code_sha256": "d6f29eec36d5aab434c35b312586ecdcd1a259f7988de18e4cdbe0fc4a787137",
+      "runtime_function_fragments": [
+        {
+          "record": [
+            "0x94b560",
+            "0x94b5cc",
+            "0x2cacba4"
+          ],
+          "parent": null
+        }
+      ],
+      "external_direct_noncall_targets": [
+        {
+          "site": "0x94b5b4",
+          "target": "0x8418d0"
+        },
+        {
+          "site": "0x94b5c7",
+          "target": "0x8418d0"
+        }
+      ],
+      "all_other_direct_noncall_targets_are_internal_instruction_boundaries": true
+    },
+    {
+      "label": "event_ctor_1351460",
+      "start_rva": "0x1351460",
+      "end_exclusive_rva": "0x1351497",
+      "bytes": 55,
+      "instructions": 13,
+      "code_sha256": "162b2d814d6a239da143a7b4cfddfcda61b781992edb1087a7c09002f3cfc7e2",
+      "runtime_function_fragments": [],
+      "external_direct_noncall_targets": [],
+      "all_other_direct_noncall_targets_are_internal_instruction_boundaries": true
+    },
+    {
+      "label": "payload_read_94b300",
+      "start_rva": "0x94b300",
+      "end_exclusive_rva": "0x94b32b",
+      "bytes": 43,
+      "instructions": 10,
+      "code_sha256": "638d6fcbb0ced37538e2bbc3331c61c5933c0d539f3f11080a293ec15da9d87c",
+      "runtime_function_fragments": [
+        {
+          "record": [
+            "0x94b300",
+            "0x94b32b",
+            "0x2cacbbc"
+          ],
+          "parent": null
+        }
+      ],
+      "external_direct_noncall_targets": [],
+      "all_other_direct_noncall_targets_are_internal_instruction_boundaries": true
+    },
+    {
+      "label": "payload_write_94b260",
+      "start_rva": "0x94b260",
+      "end_exclusive_rva": "0x94b28b",
+      "bytes": 43,
+      "instructions": 10,
+      "code_sha256": "9a063f13c82f6657735e6d9c51f5e6ea35f3751440e6ba914a6d002b6274cea0",
+      "runtime_function_fragments": [
+        {
+          "record": [
+            "0x94b260",
+            "0x94b28b",
+            "0x2cacbd4"
+          ],
+          "parent": null
+        }
+      ],
+      "external_direct_noncall_targets": [],
+      "all_other_direct_noncall_targets_are_internal_instruction_boundaries": true
+    },
+    {
+      "label": "selection_sender_complete_8c0ef0",
+      "start_rva": "0x8c0ef0",
+      "end_exclusive_rva": "0x8c10d5",
+      "bytes": 485,
+      "instructions": 127,
+      "code_sha256": "39f0744f04edb5e6a062a5cf0c5c86203c22629cebd4665f681a2a2c8bb56462",
+      "runtime_function_fragments": [
+        {
+          "record": [
+            "0x8c0ef0",
+            "0x8c0efb",
+            "0x2c9e7e0"
+          ],
+          "parent": null
+        },
+        {
+          "record": [
+            "0x8c0efb",
+            "0x8c0f21",
+            "0x2c9e7e8"
+          ],
+          "parent": [
+            "0x8c0ef0",
+            "0x8c0efb",
+            "0x2c9e7e0"
+          ]
+        },
+        {
+          "record": [
+            "0x8c0f21",
+            "0x8c0f42",
+            "0x2c9e7fc"
+          ],
+          "parent": [
+            "0x8c0efb",
+            "0x8c0f21",
+            "0x2c9e7e8"
+          ]
+        },
+        {
+          "record": [
+            "0x8c0f42",
+            "0x8c1014",
+            "0x2c9e810"
+          ],
+          "parent": [
+            "0x8c0f21",
+            "0x8c0f42",
+            "0x2c9e7fc"
+          ]
+        },
+        {
+          "record": [
+            "0x8c1014",
+            "0x8c10a7",
+            "0x2c9e824"
+          ],
+          "parent": [
+            "0x8c0f21",
+            "0x8c0f42",
+            "0x2c9e7fc"
+          ]
+        },
+        {
+          "record": [
+            "0x8c10a7",
+            "0x8c10ba",
+            "0x2c9e834"
+          ],
+          "parent": [
+            "0x8c0efb",
+            "0x8c0f21",
+            "0x2c9e7e8"
+          ]
+        },
+        {
+          "record": [
+            "0x8c10ba",
+            "0x8c10d5",
+            "0x2c9e844"
+          ],
+          "parent": [
+            "0x8c0ef0",
+            "0x8c0efb",
+            "0x2c9e7e0"
+          ]
+        }
+      ],
+      "external_direct_noncall_targets": [],
+      "all_other_direct_noncall_targets_are_internal_instruction_boundaries": true
+    },
+    {
+      "label": "selection_query_b0f1f0",
+      "start_rva": "0xb0f1f0",
+      "end_exclusive_rva": "0xb0f22e",
+      "bytes": 62,
+      "instructions": 20,
+      "code_sha256": "b47bd66a384e5a3783fdfc88e9a5c84fcc80797f607ca15362d8c363a4130bc6",
+      "runtime_function_fragments": [
+        {
+          "record": [
+            "0xb0f1f0",
+            "0xb0f22e",
+            "0x2cd1b04"
+          ],
+          "parent": null
+        }
+      ],
+      "external_direct_noncall_targets": [
+        {
+          "site": "0xb0f229",
+          "target": "0xb0f160"
+        }
+      ],
+      "all_other_direct_noncall_targets_are_internal_instruction_boundaries": true
+    },
+    {
+      "label": "array_query_b0f160",
+      "start_rva": "0xb0f160",
+      "end_exclusive_rva": "0xb0f1ef",
+      "bytes": 143,
+      "instructions": 38,
+      "code_sha256": "c1eb142fd40736749585ab8c12a33dfc1488a97b3ba9614eafca7a56c9f0c9d3",
+      "runtime_function_fragments": [
+        {
+          "record": [
+            "0xb0f160",
+            "0xb0f1ef",
+            "0x2cd1a9c"
+          ],
+          "parent": null
+        }
+      ],
+      "external_direct_noncall_targets": [],
+      "all_other_direct_noncall_targets_are_internal_instruction_boundaries": true
+    },
+    {
+      "label": "entry_copy_50b800",
+      "start_rva": "0x50b800",
+      "end_exclusive_rva": "0x50b8f2",
+      "bytes": 242,
+      "instructions": 74,
+      "code_sha256": "f6fac6f3ef03d39f6cb15d03e44414f8b16452ca82b67bc0aa06023c9d8c8022",
+      "runtime_function_fragments": [
+        {
+          "record": [
+            "0x50b800",
+            "0x50b8f2",
+            "0x2c4fe68"
+          ],
+          "parent": null
+        }
+      ],
+      "external_direct_noncall_targets": [],
+      "all_other_direct_noncall_targets_are_internal_instruction_boundaries": true
+    },
+    {
+      "label": "secondary_state_lookup_b0f720",
+      "start_rva": "0xb0f720",
+      "end_exclusive_rva": "0xb0f747",
+      "bytes": 39,
+      "instructions": 13,
+      "code_sha256": "79a31062bcc1ad4aa965f7aa1739c2babc89b291a7f9de1a8c66174d2208a8ad",
+      "runtime_function_fragments": [],
+      "external_direct_noncall_targets": [],
+      "all_other_direct_noncall_targets_are_internal_instruction_boundaries": true
+    },
+    {
+      "label": "dispatch_leaf_8418d0",
+      "start_rva": "0x8418d0",
+      "end_exclusive_rva": "0x8418e6",
+      "bytes": 22,
+      "instructions": 4,
+      "code_sha256": "926019ca1761f2453ef00cc934e1b73e412de19efe22bbe9727b7031cecb97c8",
+      "runtime_function_fragments": [],
+      "external_direct_noncall_targets": [
+        {
+          "site": "0x8418e1",
+          "target": "0x13340e0"
+        }
+      ],
+      "all_other_direct_noncall_targets_are_internal_instruction_boundaries": true
+    }
+  ],
+  "qualified_bytes": 1242,
+  "qualified_instructions": 338,
+  "native_event_id": 110,
+  "constructed_header": "0x3006e",
+  "primary_vptr_rva": "0x26a77d0",
+  "native_index_storage_offset": "0x30",
+  "native_wire_root_closure": [
+    {
+      "id": 564,
+      "offset": 8928,
+      "bytes": 9,
+      "header": 142,
+      "kind": "STRUCT",
+      "bounds": {
+        "int_type": 0,
+        "variable": false,
+        "bits": 0,
+        "min": -6,
+        "max": -6
+      },
+      "count": 1,
+      "tags": [
+        -6
+      ],
+      "field_types": [
+        565
+      ],
+      "name": null,
+      "field_names": [
+        null
+      ]
+    },
+    {
+      "id": 565,
+      "offset": 8937,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 3,
+      "name": null
+    },
+    {
+      "id": 3,
+      "offset": 4805,
+      "bytes": 11,
+      "header": 9,
+      "kind": "INT",
+      "bounds": {
+        "int_type": 5,
+        "variable": true,
+        "bits": 32,
+        "min": 0,
+        "max": 4294967295
+      },
+      "name": null
+    }
+  ],
+  "native_wire_root_is_single_uint32": true,
+  "transport_observation": {
+    "sender_rva": "0x8c0ef0",
+    "source_argument": "DWORD at second argument+0x1c on selected sending path",
+    "same_DWORD_supplied_to_array_query_and_factory": true,
+    "factory_rewrites_or_infers_talent_name": false,
+    "array_query_failure_reaches_factory_path": true,
+    "array_query_is_not_a_universal_event_acceptance_gate": true
+  },
+  "selected_array_query": {
+    "wrapper_rva": "0xb0f1f0",
+    "first_helper_rva": "0x9d5080",
+    "resolved_object_handle_offset": "0x50",
+    "query_rva": "0xb0f160",
+    "resolver_rva": "0x201e580",
+    "mask_on_resolved_pointer": "~0x1f",
+    "count_offset": "0x500",
+    "base_pointer_offset": "0x510",
+    "index_type": "uint32",
+    "required_for_copy": "resolved pointer nonnull and unsigned index < count",
+    "entry_stride_bytes": 64,
+    "entry_copy_rva": "0x50b800",
+    "entry_offset8_copied_to_output_offset8": true
+  },
+  "secondary_state_lookup": {
+    "rva": "0xb0f720",
+    "first_selector_type": "uint8 low byte, semantic identity unbound",
+    "first_selector_exclusive_bound": 16,
+    "second_selector_exclusive_bound": 32,
+    "table_rva": "0x3677a30",
+    "entry_bytes": 4,
+    "address_formula": "table + (first_selector*32 + second_selector)*4",
+    "checked_failure_result": "0xffffffff",
+    "source_of_second_selector": "copied query output+8 on the selected sender path",
+    "selector_is_talent_tier_proven": false
+  },
+  "unbridged_registration": {
+    "owner_descriptor_reference_rva": "0x2bc5320",
+    "owner_descriptor_first32_sha256": "dbc054a900b955eb19518725737ac52b4a490faef5d52e1c4c5c730519273d81",
+    "owner_descriptor_is_not_a_literal_name_string": true,
+    "owner_type_name_authenticated": false,
+    "field_literal": "TalentTreeArray",
+    "field_literal_rva": "0x2bc5958",
+    "selected_call_rva": "0x51115e",
+    "r9d_argument": "0x470",
+    "lookup_count_offset": "0x500",
+    "lookup_base_pointer_offset": "0x510",
+    "argument_semantics_or_required_object_adjustment_authenticated": false,
+    "registered_field_bound_to_query_array": false,
+    "windows": [
+      {
+        "range": [
+          "0x50ca80",
+          "0x50cb70"
+        ],
+        "bytes": 240,
+        "instructions": 49,
+        "sha256": "3ac913cf75428082d851ed0ad26d0ced344f043d717c034fd58d3f886e26ac6d",
+        "selected_window_not_complete_registration_function": true
+      },
+      {
+        "range": [
+          "0x5110b1",
+          "0x5111c0"
+        ],
+        "bytes": 271,
+        "instructions": 43,
+        "sha256": "7315931d55576a74ebaa925328d4b37f12d06c2f7050a3bfcd956c029cf75173",
+        "selected_window_not_complete_registration_function": true
+      }
+    ]
+  },
+  "exclusions": [
+    "The selected TalentChosen interned-label reference compares a record field in a statistics writer; it does not bind a native purchase producer.",
+    "The initial partial sender/record-writer fragments are superseded by complete selected CHAININFO unions.",
+    "An overlong leaf window included bytes after both RET instructions; only b0f720..b0f747 is qualified.",
+    "The linear 9d5080 sweep includes a jump table. No whole-function instruction claim is made for it.",
+    "No live object, array count/entry, input delivery, catalog identity, XML append order, tier exclusivity or actual rejection was measured."
+  ],
+  "static_conditions": [
+    "Normal selected initialization and Windows x64 calling convention.",
+    "Nonnull allocation for the described factory construction path; its null allocation path is outside that claim.",
+    "Resolvers/copy helpers return normally with valid disjoint storage, and unknown helpers do not mutate aliased inputs/outputs.",
+    "No runtime method table, registry, pointer or later data modification is authenticated."
+  ],
+  "ordinary_local_GNU_objdump_used": true,
+  "REA_Evidence_claimed": false,
+  "native_target_executed": false,
+  "effective_talent_tree_or_historical_rules_authenticated": false,
+  "safe_talent_index_migration_established": false,
+  "production_code_or_conversion_changed": false,
+  "replay_or_sync_written": false,
+  "network_or_game_or_Computer_Use": false,
+  "full_upgrade_complete": false
+}
