@@ -1,0 +1,783 @@
+{
+  "format": "offline-native-unit-owner-and-talent-selector-assignment-v1",
+  "source_PE": {
+    "bytes": 53573840,
+    "sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9"
+  },
+  "transformed_text": {
+    "bytes": 36581376,
+    "sha256": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83",
+    "runtime_capture_or_unchanged_PE": false
+  },
+  "qualified_code_ranges": [
+    {
+      "label": "creation",
+      "start_rva": "0x996d90",
+      "end_exclusive_rva": "0x997067",
+      "bytes": 727,
+      "instructions": 158,
+      "sha256": "82eb20682fa25e4c2208bedf44f6ff657ff1f2239ed01439f97baf00176b2820",
+      "covering_original_RuntimeFunction": [
+        "0x996d90",
+        "0x997067",
+        "0x2cb4240"
+      ],
+      "original_RuntimeFunction_fragments": [
+        {
+          "record": [
+            "0x996d90",
+            "0x997067",
+            "0x2cb4240"
+          ],
+          "parent": null
+        }
+      ],
+      "extent_scope": "complete original RuntimeFunction/CHAININFO union"
+    },
+    {
+      "label": "initial_assignment",
+      "start_rva": "0x9baef0",
+      "end_exclusive_rva": "0x9bbdb8",
+      "bytes": 3784,
+      "instructions": 939,
+      "sha256": "331cacace82d75a244ff7cfc15a8eee41a03a83fa9e7cb6ad6817c10c1817708",
+      "covering_original_RuntimeFunction": [
+        "0x9baef0",
+        "0x9bbe38",
+        "0x2cb7160"
+      ],
+      "original_RuntimeFunction_fragments": [
+        {
+          "record": [
+            "0x9baef0",
+            "0x9bbe38",
+            "0x2cb7160"
+          ],
+          "parent": null
+        }
+      ],
+      "extent_scope": "selected code excluding two embedded tables"
+    },
+    {
+      "label": "mutation",
+      "start_rva": "0x9bc080",
+      "end_exclusive_rva": "0x9bcafe",
+      "bytes": 2686,
+      "instructions": 630,
+      "sha256": "d6f5499a160e503e5fa4d02482e97c3bf4c8959bdb0709048a870958f705e389",
+      "covering_original_RuntimeFunction": [
+        "0x9bc080",
+        "0x9bc0c5",
+        "0x2cb71ac"
+      ],
+      "original_RuntimeFunction_fragments": [
+        {
+          "record": [
+            "0x9bc080",
+            "0x9bc0c5",
+            "0x2cb71ac"
+          ],
+          "parent": null
+        },
+        {
+          "record": [
+            "0x9bc0c5",
+            "0x9bcaf2",
+            "0x2cb71bc"
+          ],
+          "parent": [
+            "0x9bc080",
+            "0x9bc0c5",
+            "0x2cb71ac"
+          ]
+        },
+        {
+          "record": [
+            "0x9bcaf2",
+            "0x9bcafe",
+            "0x2cb71e0"
+          ],
+          "parent": [
+            "0x9bc080",
+            "0x9bc0c5",
+            "0x2cb71ac"
+          ]
+        }
+      ],
+      "extent_scope": "complete original RuntimeFunction/CHAININFO union"
+    },
+    {
+      "label": "UnitSetOwner",
+      "start_rva": "0x2055ce0",
+      "end_exclusive_rva": "0x2055df6",
+      "bytes": 278,
+      "instructions": 57,
+      "sha256": "3ec0355c9fd709bf50b22f69ebeb26c3a74f890393a9a3d98fdcb8b7d15d43b5",
+      "covering_original_RuntimeFunction": [
+        "0x2055ce0",
+        "0x2055df6",
+        "0x2e98c20"
+      ],
+      "original_RuntimeFunction_fragments": [
+        {
+          "record": [
+            "0x2055ce0",
+            "0x2055df6",
+            "0x2e98c20"
+          ],
+          "parent": null
+        }
+      ],
+      "extent_scope": "complete original RuntimeFunction/CHAININFO union"
+    },
+    {
+      "label": "UnitSetOwnerPreserveUpkeep",
+      "start_rva": "0x2055e00",
+      "end_exclusive_rva": "0x2055f16",
+      "bytes": 278,
+      "instructions": 57,
+      "sha256": "844caa189116aab3728ecf586875a0182f9f87fe1e2f817134c57955fa0368c3",
+      "covering_original_RuntimeFunction": [
+        "0x2055e00",
+        "0x2055f16",
+        "0x2e98c30"
+      ],
+      "original_RuntimeFunction_fragments": [
+        {
+          "record": [
+            "0x2055e00",
+            "0x2055f16",
+            "0x2e98c30"
+          ],
+          "parent": null
+        }
+      ],
+      "extent_scope": "complete original RuntimeFunction/CHAININFO union"
+    },
+    {
+      "label": "unit_resolver",
+      "start_rva": "0x64bad0",
+      "end_exclusive_rva": "0x64bb32",
+      "bytes": 98,
+      "instructions": 27,
+      "sha256": "b6580fb8d1439199701fa9d23d1abf83c4a0e0943f6f8a288b01aebb5f3a8192",
+      "covering_original_RuntimeFunction": null,
+      "original_RuntimeFunction_fragments": [],
+      "extent_scope": "branch-closed no-call leaf with both RETs included; no RuntimeFunction"
+    },
+    {
+      "label": "callback",
+      "start_rva": "0xb612d0",
+      "end_exclusive_rva": "0xb613b2",
+      "bytes": 226,
+      "instructions": 60,
+      "sha256": "a080ad410ef3ddda93dc277772a341fd3077d86464a3fe2c042bd780af1dc5f6",
+      "covering_original_RuntimeFunction": [
+        "0xb612d0",
+        "0xb613b2",
+        "0x2cd8594"
+      ],
+      "original_RuntimeFunction_fragments": [
+        {
+          "record": [
+            "0xb612d0",
+            "0xb613b2",
+            "0x2cd8594"
+          ],
+          "parent": null
+        }
+      ],
+      "extent_scope": "complete original RuntimeFunction/CHAININFO union"
+    },
+    {
+      "label": "owner_link_helper",
+      "start_rva": "0x201a590",
+      "end_exclusive_rva": "0x201a59c",
+      "bytes": 12,
+      "instructions": 5,
+      "sha256": "f1ee3207bf4ac03e208c9dd42668f767661e1376850902e57a48e5f34b1eb527",
+      "covering_original_RuntimeFunction": null,
+      "original_RuntimeFunction_fragments": [],
+      "extent_scope": "straight-line no-call leaf through only RET; no RuntimeFunction"
+    }
+  ],
+  "qualified_code_bytes": 8089,
+  "qualified_instructions": 1933,
+  "initial_assignment_embedded_tables": [
+    {
+      "rva": "0x9bbdb8",
+      "bytes": 64,
+      "sha256": "b879ca892b96b5ac1911a2d515b9d2c9e67fd2693f23e56d37c6793ff94764b4",
+      "targets": [
+        "0x9bb4a3",
+        "0x9bb4b6",
+        "0x9bb4c9",
+        "0x9bb4dc",
+        "0x9bb4ef",
+        "0x9bb502",
+        "0x9bb515",
+        "0x9bb528",
+        "0x9bb538",
+        "0x9bb548",
+        "0x9bb558",
+        "0x9bb568",
+        "0x9bb578",
+        "0x9bb588",
+        "0x9bb598",
+        "0x9bb5a8"
+      ]
+    },
+    {
+      "rva": "0x9bbdf8",
+      "bytes": 64,
+      "sha256": "05812e9b2e9c05a38d8813528ff93484e75481d1430186053f9a852bf458423a",
+      "targets": [
+        "0x9bb64e",
+        "0x9bb661",
+        "0x9bb674",
+        "0x9bb687",
+        "0x9bb69a",
+        "0x9bb6ad",
+        "0x9bb6c0",
+        "0x9bb6d3",
+        "0x9bb6e3",
+        "0x9bb6f3",
+        "0x9bb703",
+        "0x9bb713",
+        "0x9bb723",
+        "0x9bb733",
+        "0x9bb743",
+        "0x9bb753"
+      ]
+    }
+  ],
+  "all32_initial_assignment_switch_targets_are_code_boundaries": true,
+  "tail_call_edges": [
+    {
+      "wrapper": "UnitSetOwner",
+      "site": "0x2055d23",
+      "target": "0x9bc080"
+    },
+    {
+      "wrapper": "UnitSetOwnerPreserveUpkeep",
+      "site": "0x2055e43",
+      "target": "0x9bc080"
+    }
+  ],
+  "selected_instruction_checks": [
+    {
+      "rva": "0x996dac",
+      "bytes": "488bf9",
+      "assembly": "mov    rdi,rcx"
+    },
+    {
+      "rva": "0x996fbd",
+      "bytes": "488bd8",
+      "assembly": "mov    rbx,rax"
+    },
+    {
+      "rva": "0x997054",
+      "bytes": "488bd7",
+      "assembly": "mov    rdx,rdi"
+    },
+    {
+      "rva": "0x997057",
+      "bytes": "488bcb",
+      "assembly": "mov    rcx,rbx"
+    },
+    {
+      "rva": "0x9baf0c",
+      "bytes": "488bd9",
+      "assembly": "mov    rbx,rcx"
+    },
+    {
+      "rva": "0x9baf19",
+      "bytes": "4c8bea",
+      "assembly": "mov    r13,rdx"
+    },
+    {
+      "rva": "0x9bb030",
+      "bytes": "498d7d10",
+      "assembly": "lea    rdi,[r13+0x10]"
+    },
+    {
+      "rva": "0x9bb052",
+      "bytes": "0fb60f",
+      "assembly": "movzx  ecx,BYTE PTR [rdi]"
+    },
+    {
+      "rva": "0x9bb057",
+      "bytes": "80e11f",
+      "assembly": "and    cl,0x1f"
+    },
+    {
+      "rva": "0x9bb05a",
+      "bytes": "884b44",
+      "assembly": "mov    BYTE PTR [rbx+0x44],cl"
+    },
+    {
+      "rva": "0x9bc080",
+      "bytes": "88542410",
+      "assembly": "mov    BYTE PTR [rsp+0x10],dl"
+    },
+    {
+      "rva": "0x9bc08b",
+      "bytes": "498dabc8fdffff",
+      "assembly": "lea    rbp,[r11-0x238]"
+    },
+    {
+      "rva": "0x9bc099",
+      "bytes": "488bf9",
+      "assembly": "mov    rdi,rcx"
+    },
+    {
+      "rva": "0x9bc526",
+      "bytes": "0fb68548020000",
+      "assembly": "movzx  eax,BYTE PTR [rbp+0x248]"
+    },
+    {
+      "rva": "0x9bc530",
+      "bytes": "884744",
+      "assembly": "mov    BYTE PTR [rdi+0x44],al"
+    },
+    {
+      "rva": "0x2055cf1",
+      "bytes": "8bda",
+      "assembly": "mov    ebx,edx"
+    },
+    {
+      "rva": "0x2055d01",
+      "bytes": "83fb0f",
+      "assembly": "cmp    ebx,0xf"
+    },
+    {
+      "rva": "0x2055d0d",
+      "bytes": "0fb6d3",
+      "assembly": "movzx  edx,bl"
+    },
+    {
+      "rva": "0x2055d10",
+      "bytes": "488bc8",
+      "assembly": "mov    rcx,rax"
+    },
+    {
+      "rva": "0x2055e11",
+      "bytes": "8bda",
+      "assembly": "mov    ebx,edx"
+    },
+    {
+      "rva": "0x2055e21",
+      "bytes": "83fb0f",
+      "assembly": "cmp    ebx,0xf"
+    },
+    {
+      "rva": "0x2055e2d",
+      "bytes": "0fb6d3",
+      "assembly": "movzx  edx,bl"
+    },
+    {
+      "rva": "0x2055e30",
+      "bytes": "488bc8",
+      "assembly": "mov    rcx,rax"
+    },
+    {
+      "rva": "0x64bad0",
+      "bytes": "448b01",
+      "assembly": "mov    r8d,DWORD PTR [rcx]"
+    },
+    {
+      "rva": "0x64bae4",
+      "bytes": "c1e816",
+      "assembly": "shr    eax,0x16"
+    },
+    {
+      "rva": "0x64bb1e",
+      "bytes": "69caf0020000",
+      "assembly": "imul   ecx,edx,0x2f0"
+    },
+    {
+      "rva": "0x64bb29",
+      "bytes": "443b4110",
+      "assembly": "cmp    r8d,DWORD PTR [rcx+0x10]"
+    },
+    {
+      "rva": "0xb61370",
+      "bytes": "0fb65b44",
+      "assembly": "movzx  ebx,BYTE PTR [rbx+0x44]"
+    },
+    {
+      "rva": "0xb61397",
+      "bytes": "0fb6cb",
+      "assembly": "movzx  ecx,bl"
+    },
+    {
+      "rva": "0x996fb8",
+      "direct_target": "0x990af0",
+      "opcode": "0xe8"
+    },
+    {
+      "rva": "0x99705a",
+      "direct_target": "0x9baef0",
+      "opcode": "0xe8"
+    },
+    {
+      "rva": "0x2055cf3",
+      "direct_target": "0x64bad0",
+      "opcode": "0xe8"
+    },
+    {
+      "rva": "0x2055e13",
+      "direct_target": "0x64bad0",
+      "opcode": "0xe8"
+    },
+    {
+      "rva": "0x2055d23",
+      "direct_target": "0x9bc080",
+      "opcode": "0xe9"
+    },
+    {
+      "rva": "0x2055e43",
+      "direct_target": "0x9bc080",
+      "opcode": "0xe9"
+    },
+    {
+      "rva": "0xb6139a",
+      "direct_target": "0xb10720",
+      "opcode": "0xe8"
+    },
+    {
+      "rva": "0x9bc2f4",
+      "direct_target": "0x201a590",
+      "opcode": "0xe8"
+    },
+    {
+      "rva": "0x9bc49b",
+      "direct_target": "0x201a590",
+      "opcode": "0xe8"
+    },
+    {
+      "rva": "0x9bc4ab",
+      "direct_target": "0x201a590",
+      "opcode": "0xe8"
+    },
+    {
+      "rva": "0x201a590",
+      "bytes": "0fb602",
+      "assembly": "movzx  eax,BYTE PTR [rdx]"
+    },
+    {
+      "rva": "0x201a593",
+      "bytes": "3301",
+      "assembly": "xor    eax,DWORD PTR [rcx]"
+    },
+    {
+      "rva": "0x201a595",
+      "bytes": "83e01f",
+      "assembly": "and    eax,0x1f"
+    },
+    {
+      "rva": "0x201a598",
+      "bytes": "483101",
+      "assembly": "xor    QWORD PTR [rcx],rax"
+    },
+    {
+      "rva": "0x201a59b",
+      "bytes": "c3",
+      "assembly": "ret"
+    },
+    {
+      "rva": "0x64bae7",
+      "RIP_target": "0x34f02c4"
+    },
+    {
+      "rva": "0x64baf1",
+      "RIP_target": "0x34f02c8"
+    },
+    {
+      "rva": "0x64bb05",
+      "RIP_target": "0x32c38b4"
+    },
+    {
+      "rva": "0x64bb0e",
+      "RIP_target": "0x32c55d0"
+    },
+    {
+      "rva": "0xb6131e",
+      "RIP_target": "0x34f02c4"
+    },
+    {
+      "rva": "0xb61331",
+      "bytes": "488d14cdc8024f03",
+      "assembly": "lea    rdx,[rcx*8+0x34f02c8]"
+    },
+    {
+      "rva": "0xb61339",
+      "RIP_target": "0x32c38b4"
+    },
+    {
+      "rva": "0xb61348",
+      "RIP_target": "0x32c55d0"
+    },
+    {
+      "rva": "0x2055d7d",
+      "RIP_target": "0x29abcb0"
+    },
+    {
+      "rva": "0x2055e9d",
+      "RIP_target": "0x29abcc0"
+    }
+  ],
+  "register_flow_checks": [
+    {
+      "range": "creation",
+      "definition": "0x996dac",
+      "use": "0x997054",
+      "definition_dominates_use": true,
+      "no_conflicting_explicit_nonvolatile_register_write_on_relevant_paths": true
+    },
+    {
+      "range": "creation",
+      "definition": "0x996fbd",
+      "use": "0x997057",
+      "definition_dominates_use": true,
+      "no_conflicting_explicit_nonvolatile_register_write_on_relevant_paths": true
+    },
+    {
+      "range": "initial_assignment",
+      "definition": "0x9baf0c",
+      "use": "0x9bb05a",
+      "definition_dominates_use": true,
+      "no_conflicting_explicit_nonvolatile_register_write_on_relevant_paths": true
+    },
+    {
+      "range": "initial_assignment",
+      "definition": "0x9baf19",
+      "use": "0x9bb030",
+      "definition_dominates_use": true,
+      "no_conflicting_explicit_nonvolatile_register_write_on_relevant_paths": true
+    },
+    {
+      "range": "initial_assignment",
+      "definition": "0x9bb030",
+      "use": "0x9bb052",
+      "definition_dominates_use": true,
+      "no_conflicting_explicit_nonvolatile_register_write_on_relevant_paths": true
+    },
+    {
+      "range": "mutation",
+      "definition": "0x9bc099",
+      "use": "0x9bc530",
+      "definition_dominates_use": true,
+      "no_conflicting_explicit_nonvolatile_register_write_on_relevant_paths": true
+    },
+    {
+      "range": "UnitSetOwner",
+      "definition": "0x2055cf1",
+      "use": "0x2055d0d",
+      "definition_dominates_use": true,
+      "no_conflicting_explicit_nonvolatile_register_write_on_relevant_paths": true
+    },
+    {
+      "range": "UnitSetOwnerPreserveUpkeep",
+      "definition": "0x2055e11",
+      "use": "0x2055e2d",
+      "definition_dominates_use": true,
+      "no_conflicting_explicit_nonvolatile_register_write_on_relevant_paths": true
+    }
+  ],
+  "wrapper_guard_edge_checks": [
+    {
+      "wrapper": "UnitSetOwner",
+      "tail_call_site": "0x2055d23",
+      "required_edge": [
+        "0x2055cfb",
+        "0x2055d01"
+      ],
+      "tail_unreachable_when_edge_removed": true
+    },
+    {
+      "wrapper": "UnitSetOwner",
+      "tail_call_site": "0x2055d23",
+      "required_edge": [
+        "0x2055d04",
+        "0x2055d06"
+      ],
+      "tail_unreachable_when_edge_removed": true
+    },
+    {
+      "wrapper": "UnitSetOwnerPreserveUpkeep",
+      "tail_call_site": "0x2055e43",
+      "required_edge": [
+        "0x2055e1b",
+        "0x2055e21"
+      ],
+      "tail_unreachable_when_edge_removed": true
+    },
+    {
+      "wrapper": "UnitSetOwnerPreserveUpkeep",
+      "tail_call_site": "0x2055e43",
+      "required_edge": [
+        "0x2055e24",
+        "0x2055e26"
+      ],
+      "tail_unreachable_when_edge_removed": true
+    }
+  ],
+  "native_API_name_binding": {
+    "names": [
+      {
+        "name": "UnitSetOwner",
+        "original_literal_rva": "0x29abcb0",
+        "literal_bytes": 13,
+        "literal_sha256": "11e5100b5821ed2e9869839da85ea0eeaa03bbe44fee4c1bd51fff047cd61b78",
+        "wrapper_entry_rva": "0x2055ce0"
+      },
+      {
+        "name": "UnitSetOwnerPreserveUpkeep",
+        "original_literal_rva": "0x29abcc0",
+        "literal_bytes": 27,
+        "literal_sha256": "487809f9fbfe080858ae0753d869e1766c6d4604f73351fe84c67eb9ef1b4a15",
+        "wrapper_entry_rva": "0x2055e00"
+      }
+    ],
+    "scope": "exact original error-context names associated with checked wrapper argument/tail paths; API registration/export lookup not audited",
+    "new_owner_argument_index": 2,
+    "checked_unsigned_argument_range": [
+      0,
+      15
+    ],
+    "resolver_entry_rva": "0x64bad0",
+    "same_pool_as_callback": true
+  },
+  "initial_assignment": {
+    "entry_rva": "0x9baef0",
+    "creation_caller_rva": "0x996d90",
+    "object_argument": "successful pool allocator result",
+    "source_argument": "creation entry RCX forwarded as initializer RDX",
+    "source_bit_expression": "BYTE[creation_input+0x10] & 0x1f",
+    "store_rva": "0x9bb05a",
+    "destination_byte_offset": "0x44",
+    "actual_creation_input_or_replay_source_field_bound": false
+  },
+  "owner_mutation": {
+    "entry_rva": "0x9bc080",
+    "destination": "entry RCX object + 0x44",
+    "value": "entry DL saved at entry RSP+0x10",
+    "store_rva": "0x9bc530",
+    "stack_frame_equation": "RBP=entryRSP-0x238; RBP+0x248=entryRSP+0x10",
+    "selected_stack_slot_references": [
+      {
+        "rva": "0x9bc080",
+        "assembly": "mov    BYTE PTR [rsp+0x10],dl"
+      },
+      {
+        "rva": "0x9bc17d",
+        "assembly": "movzx  edx,BYTE PTR [rbp+0x248]"
+      },
+      {
+        "rva": "0x9bc1e2",
+        "assembly": "movzx  r9d,BYTE PTR [rbp+0x248]"
+      },
+      {
+        "rva": "0x9bc1f6",
+        "assembly": "movzx  edx,BYTE PTR [rbp+0x248]"
+      },
+      {
+        "rva": "0x9bc210",
+        "assembly": "movzx  edx,BYTE PTR [rbp+0x248]"
+      },
+      {
+        "rva": "0x9bc2e9",
+        "assembly": "lea    rdx,[rbp+0x248]"
+      },
+      {
+        "rva": "0x9bc490",
+        "assembly": "lea    rdx,[rbp+0x248]"
+      },
+      {
+        "rva": "0x9bc4a0",
+        "assembly": "lea    rdx,[rbp+0x248]"
+      },
+      {
+        "rva": "0x9bc4b0",
+        "assembly": "movzx  eax,BYTE PTR [rbp+0x248]"
+      },
+      {
+        "rva": "0x9bc526",
+        "assembly": "movzx  eax,BYTE PTR [rbp+0x248]"
+      },
+      {
+        "rva": "0x9bc576",
+        "assembly": "movzx  r9d,BYTE PTR [rbp+0x248]"
+      },
+      {
+        "rva": "0x9bc71d",
+        "assembly": "movzx  r8d,BYTE PTR [rbp+0x248]"
+      },
+      {
+        "rva": "0x9bc731",
+        "assembly": "movzx  eax,BYTE PTR [rbp+0x248]"
+      },
+      {
+        "rva": "0x9bc773",
+        "assembly": "movzx  r8d,BYTE PTR [rbp+0x248]"
+      },
+      {
+        "rva": "0x9bc794",
+        "assembly": "movzx  eax,BYTE PTR [rbp+0x248]"
+      },
+      {
+        "rva": "0x9bc8e6",
+        "assembly": "lea    rdx,[rbp+0x248]"
+      },
+      {
+        "rva": "0x9bcab5",
+        "assembly": "movzx  r8d,BYTE PTR [rbp+0x248]"
+      }
+    ],
+    "before_store_pointer_escapes": [
+      {
+        "address_site": "0x9bc2e9",
+        "callee": "0x201a590"
+      },
+      {
+        "address_site": "0x9bc490",
+        "callee": "0x201a590"
+      },
+      {
+        "address_site": "0x9bc4a0",
+        "callee": "0x201a590"
+      }
+    ],
+    "before_store_helper_input_byte_readonly_under_disjoint_storage": true,
+    "helper_201A590_effect": "sets target RCX low five bits from BYTE[RDX], preserves other target bits; no write or escape of RDX input",
+    "post_store_owner_slot_escape_at9BC8E6_callee201CE30_input_readonly_proven": false,
+    "post_store_escape_path_cannot_revisit_selected_field44_store_in_normal_CFG": true,
+    "field44_semantic_binding": "unit owner argument in selected UnitSetOwner / UnitSetOwnerPreserveUpkeep paths",
+    "universal_all_caller_owner_bounds_proven": false
+  },
+  "talent_callback": {
+    "field44_load_rva": "0xb61370",
+    "writer_call_rva": "0xb6139a",
+    "first_selector_semantic_binding_under_conditions": "resolved unit owner field",
+    "wire_user_equal_unit_owner_or_tracker_player_id_established": false,
+    "effective_unit_or_owner_snapshot_captured": false
+  },
+  "conditions": [
+    "normally returning helpers and Windows x64 ABI",
+    "valid disjoint input/object/stack storage",
+    "no exception, reentry, concurrent state or alias mutation",
+    "resolved object identity and encoded pool slots/keys remain stable",
+    "selected transformed code/tables are available as pinned",
+    "no later field or vtable replacement is asserted absent"
+  ],
+  "native_class_RTTI_name_bound": false,
+  "historical41810_or_target_effective_catalog_recovered": false,
+  "safe_talent_index_migration_established": false,
+  "production_or_conversion_changed": false,
+  "native_target_executed": false,
+  "REA_native_provider_analysis": false,
+  "network_or_game_or_Computer_Use": false,
+  "new_replay_or_sync_written": false,
+  "full_upgrade_complete": false
+}

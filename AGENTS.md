@@ -1452,3 +1452,45 @@ analysis, new unit tests, broad corpus, hosted CI or peer review. Keep all work
 offline: no game, Computer Use, network or publication; full upgrade/playback
 false. Next bind effective selector assignment/object namespace and target-
 context/historical41810 talent definitions before any safe index migration.
+
+
+## Offline unit-owner assignment and talent selector - 2026-10-27
+
+Read docs/NATIVE_TALENT_OWNER_ASSIGNMENT_2026-10-27.md and its two dated
+native-talent-owner-assignment receipts. Wrappers2055CE0/2055E00 bear original
+error-context names UnitSetOwner/UnitSetOwnerPreserveUpkeep, resolve through
+64BAD0, check unsigned second argument0..15 and tail9BC080 with that byte.
+Resolver64BAD0 uses the callback's same pool slots/keys/stride/handle identity.
+9BC530 writes the saved incoming owner byte to resolved unit+44; B612D0 reads
+that same field for the first talent-writer selector. This is a selected
+native owner-argument binding, not a replay user/tracker player namespace
+mapping, live owner capture, native class RTTI or audited API export table.
+
+Creation996D90 forwards its successful990AF0 result and creation-input pointer
+to9BAEF0;9BB05A writes BYTE[creation_input+10]&1F to object+44 after earlier
+helpers. Actual creation fields/replay sources and their values remain unbound.
+The initializer code3784B is separate from two64B/16entry tables through the
+original record end9BBE38; all32 targets are code boundaries. No embedded table
+is treated as instructions. Four-digit counts/addresses follow the report.
+
+Owner argument is saved at entryRSP+10, equal to RBP+248 under RBP=entryRSP-238.
+Three pre-store pointer escapes target201A590. Its complete12B/5instr leaf
+only reads the input byte and sets a disjoint target's low5 bits; source is
+preserved under the storage conditions. A post-store escape to201CE30 remains
+unproved readonly, but its normal CFG cannot revisit the selected store. Do
+not assert final persistent state or absence of later/reentrant alias writes.
+
+Eight ranges8089B/1933instr,128B separate switch data,54specific byte/call/ref
+checks,8 definition/use/no-conflicting-register-write checks and4 required
+wrapper edges pass. Original fragment unions, split code/data and both bounded
+no-call leaves are explicit. Normal x64 ABI/helpers, valid disjoint storage,
+stable handles/keys and no exception/reentry/concurrent/alias mutation apply.
+
+This conditionally supersedes the unnamed field44 gap for these owner setter
+and callback paths. Do not infer userid==owner, user+1, owner+1 or tracker-ID
+equivalence. Keep original/R8/current and sync data unchanged. No fresh stream
+decode, production/conversion change, unit tests, broad corpus, hosted CI, peer
+review, native target execution or REA native analysis. Keep all work offline:
+no game, Computer Use, network or publication; full upgrade/playback false.
+Next bind owner to recorded player/setup/ownership data through an authentic
+producer, then effective/historical41810 talent rules before a safe migration.
