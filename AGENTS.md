@@ -1304,3 +1304,38 @@ CI or peer review. Replay/draft pins preserved; no stream decode or production/
 conversion change. Keep all work offline: no game, Computer Use, network or
 remote publication; full upgrade/playback false. Next bind metadata/query array
 and the actual event consumer before any guessed talent-index replacement.
+
+## Offline named native talent field/layout bridge — 2026-10-27
+
+Read docs/NATIVE_TALENT_FIELD_BRIDGE_2026-10-27.md and its two dated native-talent
+field-bridge receipts. Descriptor2BC5360 names CHero; call50F046 stores its
+metadata result atRBP+978, restored toRBX510579 for TalentTreeArray call51115E.
+The earlier2BC5320 names SHeroModification and is not that field owner. Name/
+initializer SHeroTalentTree/509AF0 pair yields size64 and metadata restored from
+RBP-50. R9D470 is forwarded through1601160/16003F0 tofield-descriptor+80.
+
+Descriptor2BC5220 names SHeroTalentTree. Its fields Talent/Tier/Column register
+at0/8/C; selected copy callback505910 calls50B800, the same query copy helper.
+Thus output+8/B0F720's second selector has a Tier binding in this named-entry
+context. First-selector player/user namespace and purchase exclusivity remain
+unproved. CHero init505CF0 calls614460 onobject+90; that leaf zeroes body count
+470 and pointer480. CHero copy505DB0 adjusts bothsource/destination by90. Hence
+object count500/base510/stride64 match the prior query under normal CHero-record
+conditions. No live resolver result/type/count/entry or effective catalog seen.
+
+Complete4897-instruction registration directCFG has no indirect jumps/external
+direct noncall exits;6 definition/use dominations and no conflicting explicit
+RBX/R12 writes checked.12selected ranges31469B/5601instructions include original
+descriptor/name/callbacks, class/resolver fragment unions, registrar/constructor
+and initialization leaves. Conditions: normally returning helpers, x64 ABI,
+valid disjoint storage, no exception/reentry/later replacement/alias mutation.
+Ordinary GNU objdump/WSL only; no REA native Evidence or target execution.
+
+This supersedes the prior static field-name/layout gap conditionally; loaded
+record identity, effective entries/XML ordering, map/mod overrides, historical
+rules and purchase acceptance remain unproved. State-table references retained
+privately are unqualified candidates, not writes/execution. Replay/draft pins
+exact; no new stream decode, unit tests, broad corpus, hosted CI or peer review.
+No production/conversion/replay/sync changes. Keep all work offline: no game,
+Computer Use, network or remote publication; full upgrade/playback false.
+Next bind state writes and the actual event110 consumer without guessed indices.

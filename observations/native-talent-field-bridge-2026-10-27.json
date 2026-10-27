@@ -1,0 +1,420 @@
+{
+  "format": "native-CHero-TalentTreeArray-and-SHeroTalentTree-static-layout-bridge-v1",
+  "source_PE": {
+    "bytes": 53573840,
+    "sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9"
+  },
+  "transformed_text": {
+    "bytes": 36581376,
+    "sha256": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83",
+    "not_unchanged_signed_PE_or_runtime_capture": true
+  },
+  "qualified_code_ranges": [
+    {
+      "label": "registration_50ca80",
+      "start_rva": "0x50ca80",
+      "end_exclusive_rva": "0x5137d1",
+      "bytes": 27985,
+      "instructions": 4897,
+      "code_sha256": "90aa3f78b245cf94b0b9b02dfab4461f3f7dcfb3d12128f4bc785dfb4216bc0a",
+      "runtime_function_fragments": [
+        {
+          "record": [
+            "0x50ca80",
+            "0x5137d1",
+            "0x2c50760"
+          ],
+          "parent": null
+        }
+      ],
+      "all_direct_noncall_branches_internal": true
+    },
+    {
+      "label": "field_registrar_1601160",
+      "start_rva": "0x1601160",
+      "end_exclusive_rva": "0x1601204",
+      "bytes": 164,
+      "instructions": 42,
+      "code_sha256": "5a490d9d8b931894e6e4ab78c7c018115a3b642d2737a8b0c18c6cc6040eba4c",
+      "runtime_function_fragments": [
+        {
+          "record": [
+            "0x1601160",
+            "0x1601204",
+            "0x2dc69dc"
+          ],
+          "parent": null
+        }
+      ],
+      "all_direct_noncall_branches_internal": true
+    },
+    {
+      "label": "field_constructor_16003f0",
+      "start_rva": "0x16003f0",
+      "end_exclusive_rva": "0x160062d",
+      "bytes": 573,
+      "instructions": 114,
+      "code_sha256": "f8062fac56e2a945ebdb1a40869e6d9f738b0e3bc80901b1da96231127e10839",
+      "runtime_function_fragments": [
+        {
+          "record": [
+            "0x16003f0",
+            "0x160062d",
+            "0x2dc68d8"
+          ],
+          "parent": null
+        }
+      ],
+      "all_direct_noncall_branches_internal": true
+    },
+    {
+      "label": "type_lookup_1603760",
+      "start_rva": "0x1603760",
+      "end_exclusive_rva": "0x16037d1",
+      "bytes": 113,
+      "instructions": 30,
+      "code_sha256": "14c088b8cca7e26f147c525b5acc1f3d6c3ed16d4943eac9a2b91988b2994f70",
+      "runtime_function_fragments": [
+        {
+          "record": [
+            "0x1603760",
+            "0x16037d1",
+            "0x2dc6c78"
+          ],
+          "parent": null
+        }
+      ],
+      "all_direct_noncall_branches_internal": true
+    },
+    {
+      "label": "class_lookup_complete_16037e0",
+      "start_rva": "0x16037e0",
+      "end_exclusive_rva": "0x16038db",
+      "bytes": 251,
+      "instructions": 70,
+      "code_sha256": "a1f246d9167fab7c10437ce697aaa43b35819bc1539a2b86bdfa97742a48a8bf",
+      "runtime_function_fragments": [
+        {
+          "record": [
+            "0x16037e0",
+            "0x1603828",
+            "0x2dc6c80"
+          ],
+          "parent": null
+        },
+        {
+          "record": [
+            "0x1603828",
+            "0x16038a0",
+            "0x2dc6c8c"
+          ],
+          "parent": [
+            "0x16037e0",
+            "0x1603828",
+            "0x2dc6c80"
+          ]
+        },
+        {
+          "record": [
+            "0x16038a0",
+            "0x16038db",
+            "0x2dc6ca4"
+          ],
+          "parent": [
+            "0x16037e0",
+            "0x1603828",
+            "0x2dc6c80"
+          ]
+        }
+      ],
+      "all_direct_noncall_branches_internal": true
+    },
+    {
+      "label": "metadata_lookup_16038e0",
+      "start_rva": "0x16038e0",
+      "end_exclusive_rva": "0x1603944",
+      "bytes": 100,
+      "instructions": 29,
+      "code_sha256": "eede6e560a83b1ec332b1e0087e2ef3b48fe335956008a80cc4d8a025206951b",
+      "runtime_function_fragments": [
+        {
+          "record": [
+            "0x16038e0",
+            "0x1603944",
+            "0x2dc6cb4"
+          ],
+          "parent": null
+        }
+      ],
+      "all_direct_noncall_branches_internal": true
+    },
+    {
+      "label": "record_resolver_complete_201e580",
+      "start_rva": "0x201e580",
+      "end_exclusive_rva": "0x201e656",
+      "bytes": 214,
+      "instructions": 59,
+      "code_sha256": "3617a34a90153f2823a8f872f26d1b10707e4bab765962cf44c05673281f29d5",
+      "runtime_function_fragments": [
+        {
+          "record": [
+            "0x201e580",
+            "0x201e5ce",
+            "0x2e95134"
+          ],
+          "parent": null
+        },
+        {
+          "record": [
+            "0x201e5ce",
+            "0x201e600",
+            "0x2e95148"
+          ],
+          "parent": [
+            "0x201e580",
+            "0x201e5ce",
+            "0x2e95134"
+          ]
+        },
+        {
+          "record": [
+            "0x201e600",
+            "0x201e656",
+            "0x2e9515c"
+          ],
+          "parent": [
+            "0x201e580",
+            "0x201e5ce",
+            "0x2e95134"
+          ]
+        }
+      ],
+      "all_direct_noncall_branches_internal": true
+    },
+    {
+      "label": "CHero_init_505cf0",
+      "start_rva": "0x505cf0",
+      "end_exclusive_rva": "0x505d56",
+      "bytes": 102,
+      "instructions": 31,
+      "code_sha256": "ddf119d06d7be1cdc5b54cf283db2c13c96b86389faed071ecc59e5e5860b371",
+      "runtime_function_fragments": [
+        {
+          "record": [
+            "0x505cf0",
+            "0x505d56",
+            "0x2c5084c"
+          ],
+          "parent": null
+        }
+      ],
+      "all_direct_noncall_branches_internal": true
+    },
+    {
+      "label": "CHero_copy_505db0",
+      "start_rva": "0x505db0",
+      "end_exclusive_rva": "0x505e8c",
+      "bytes": 220,
+      "instructions": 61,
+      "code_sha256": "525809747335878ba30afd773b2bb40b01293da056c2defabeb7584203df067d",
+      "runtime_function_fragments": [
+        {
+          "record": [
+            "0x505db0",
+            "0x505e8c",
+            "0x2c50860"
+          ],
+          "parent": null
+        }
+      ],
+      "all_direct_noncall_branches_internal": true
+    },
+    {
+      "label": "SHeroTalentTree_copy_505910",
+      "start_rva": "0x505910",
+      "end_exclusive_rva": "0x505939",
+      "bytes": 41,
+      "instructions": 14,
+      "code_sha256": "d98c19837ecb9635991e72db6f4bb28f9ead54e75547d8c33666d2143170e93d",
+      "runtime_function_fragments": [
+        {
+          "record": [
+            "0x505910",
+            "0x505939",
+            "0x2c507c8"
+          ],
+          "parent": null
+        }
+      ],
+      "all_direct_noncall_branches_internal": true
+    },
+    {
+      "label": "array_type_factory_509af0",
+      "start_rva": "0x509af0",
+      "end_exclusive_rva": "0x509b36",
+      "bytes": 70,
+      "instructions": 13,
+      "code_sha256": "4ddc8aef610d7be40bb940f7a37b10d0c7d68fe5f036f5842b1f4c163be6f6c7",
+      "runtime_function_fragments": [],
+      "all_direct_noncall_branches_internal": true
+    },
+    {
+      "label": "CHero_body_init_614460",
+      "start_rva": "0x614460",
+      "end_exclusive_rva": "0x614ac4",
+      "bytes": 1636,
+      "instructions": 241,
+      "code_sha256": "308424bd29e34f4f12310e180cfe03aa072092e9fb9ff75181150d4240ddece1",
+      "runtime_function_fragments": [],
+      "all_direct_noncall_branches_internal": true
+    }
+  ],
+  "qualified_code_bytes": 31469,
+  "qualified_instructions": 5601,
+  "named_original_descriptors": [
+    {
+      "name": "CHero",
+      "rva": "0x2bc5360",
+      "descriptor64_sha256": "90410a73b42147de1bfad1159cfed7b687fa7afc33056ff6a064e3976388baee",
+      "name_rva": "0x2bc5498",
+      "name_bytes": 5,
+      "initializer_callback_rva": "0x505cf0",
+      "copy_callback_rva": "0x505db0"
+    },
+    {
+      "name": "SHeroTalentTree",
+      "rva": "0x2bc5220",
+      "descriptor64_sha256": "b032da118eeb8424dc01ae6a3f0292cafd0a6a6237e219be9f2271e1f0326723",
+      "name_rva": "0x2bc5410",
+      "name_bytes": 15,
+      "initializer_callback_rva": "0x5058a0",
+      "copy_callback_rva": "0x505910"
+    }
+  ],
+  "owner_binding": {
+    "owner_name": "CHero",
+    "descriptor_rva": "0x2bc5360",
+    "creation_call_rva": "0x50f046",
+    "returned_pointer_store_rva": "0x50f04b",
+    "owner_reload_rva": "0x510579",
+    "field_call_rva": "0x51115e",
+    "direct_CFG_definitions_dominate_selected_uses": true,
+    "earlier_descriptor2BC5320_is_SHeroModification_not_field_owner": true
+  },
+  "field_binding": {
+    "name": "TalentTreeArray",
+    "literal_rva": "0x2bc5958",
+    "registered_byte_offset": "0x470",
+    "raw_fifth_argument": "0x18",
+    "entry_type_name": "SHeroTalentTree",
+    "entry_type_initializer_rva": "0x509af0",
+    "entry_type_size_bytes": 64,
+    "field_descriptor_offset_storage": "0x80",
+    "offset_forwarded_from_R9_through_registrar_and_constructor_stack_argument": true
+  },
+  "entry_fields": [
+    {
+      "name": "Talent",
+      "literal_rva": "0x2b9e2d4",
+      "call_rva": "0x50d698",
+      "registered_byte_offset": 0
+    },
+    {
+      "name": "Tier",
+      "literal_rva": "0x2bc3a00",
+      "call_rva": "0x50d6d2",
+      "registered_byte_offset": 8
+    },
+    {
+      "name": "Column",
+      "literal_rva": "0x2bc54fc",
+      "call_rva": "0x50d708",
+      "registered_byte_offset": 12
+    }
+  ],
+  "entry_copy_bridge": {
+    "named_type_copy_callback": "0x505910",
+    "shared_copy_helper": "0x50b800",
+    "same_copy_helper_as_selected_runtime_index_query": true,
+    "entry_Tier_offset8_reaches_secondary_selector_in_prior_route": true
+  },
+  "CHero_layout": {
+    "body_offset_from_class_object": "0x90",
+    "initializer_callback": "0x505cf0",
+    "body_initializer": "0x614460",
+    "copy_callback_also_adjusts_source_and_destination_by_90": true,
+    "body_array_count_offset": "0x470",
+    "body_array_base_pointer_offset": "0x480",
+    "object_array_count_offset": "0x500",
+    "object_array_base_pointer_offset": "0x510",
+    "body_initializer_explicitly_zeroes_count_and_base_pointer": true,
+    "matches_selected_query_offsets_and_stride": true
+  },
+  "direct_CFG": {
+    "format": "registration-direct-CFG-local-dominance-v2",
+    "instructions": 4897,
+    "reachable_nodes": 4897,
+    "indirect_jumps": [],
+    "external_direct_noncall_exits": [],
+    "checks": [
+      {
+        "definition": "0x50f04b",
+        "use": "0x51115e",
+        "use_reachable": true,
+        "use_unreachable_when_definition_removed": true
+      },
+      {
+        "definition": "0x510579",
+        "use": "0x51115e",
+        "use_reachable": true,
+        "use_unreachable_when_definition_removed": true
+      },
+      {
+        "definition": "0x50f0f9",
+        "use": "0x511125",
+        "use_reachable": true,
+        "use_unreachable_when_definition_removed": true
+      },
+      {
+        "definition": "0x50d581",
+        "use": "0x50d698",
+        "use_reachable": true,
+        "use_unreachable_when_definition_removed": true
+      },
+      {
+        "definition": "0x50d581",
+        "use": "0x50d6d2",
+        "use_reachable": true,
+        "use_unreachable_when_definition_removed": true
+      },
+      {
+        "definition": "0x50d581",
+        "use": "0x50d708",
+        "use_reachable": true,
+        "use_unreachable_when_definition_removed": true
+      }
+    ],
+    "conditions": "direct instruction CFG; calls return normally; no exception/reentry or alias mutation; no live execution proof"
+  },
+  "static_type_and_layout_bridge_established_under_conditions": true,
+  "runtime_record_identity_or_effective_catalog_snapshot_captured": false,
+  "first_selector_player_namespace_authenticated": false,
+  "single_purchase_per_tier_acceptance_rule_proven": false,
+  "native_XML_append_inheritance_and_override_order_proven": false,
+  "historical41810_talent_rules_recovered": false,
+  "safe_talent_index_migration_established": false,
+  "conditions": [
+    "Selected normal metadata initialization and the original descriptor/name/callback pairing.",
+    "Calls return normally under Windows x64 ABI; no exception/reentry, later callback replacement or unknown alias mutation.",
+    "The derived query layout applies when its resolved record is a normally initialized CHero object; no such live object was captured.",
+    "No effective talent count/entries, loaded map/mod context, runtime purchase or actual event acceptance is inferred."
+  ],
+  "ordinary_local_GNU_objdump_used": true,
+  "REA_Evidence_claimed": false,
+  "native_target_executed": false,
+  "production_code_or_conversion_changed": false,
+  "unit_tests_authored_or_rerun": false,
+  "network_or_game_or_Computer_Use": false,
+  "new_replay_or_sync_written": false,
+  "full_upgrade_complete": false
+}
