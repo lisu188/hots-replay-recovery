@@ -1,0 +1,518 @@
+{
+  "roots": [
+    50,
+    890,
+    138
+  ],
+  "records": [
+    {
+      "type_id": 3,
+      "id": 3,
+      "offset": 4805,
+      "bytes": 11,
+      "header": 9,
+      "kind": "INT",
+      "bounds": {
+        "int_type": 5,
+        "variable": true,
+        "bits": 32,
+        "min": 0,
+        "max": 4294967295
+      },
+      "name": null
+    },
+    {
+      "type_id": 47,
+      "id": 47,
+      "offset": 5131,
+      "bytes": 5,
+      "header": 9,
+      "kind": "INT",
+      "bounds": {
+        "int_type": 1,
+        "variable": true,
+        "bits": 6,
+        "min": 0,
+        "max": 63
+      },
+      "name": null
+    },
+    {
+      "type_id": 48,
+      "id": 48,
+      "offset": 5136,
+      "bytes": 7,
+      "header": 9,
+      "kind": "INT",
+      "bounds": {
+        "int_type": 3,
+        "variable": true,
+        "bits": 14,
+        "min": 0,
+        "max": 16383
+      },
+      "name": null
+    },
+    {
+      "type_id": 49,
+      "id": 49,
+      "offset": 5143,
+      "bytes": 11,
+      "header": 9,
+      "kind": "INT",
+      "bounds": {
+        "int_type": 5,
+        "variable": true,
+        "bits": 22,
+        "min": 0,
+        "max": 4194303
+      },
+      "name": null
+    },
+    {
+      "type_id": 50,
+      "id": 50,
+      "offset": 5154,
+      "bytes": 21,
+      "header": 134,
+      "kind": "CHOICE",
+      "bounds": {
+        "int_type": 1,
+        "variable": false,
+        "bits": 2,
+        "min": 0,
+        "max": 3
+      },
+      "count": 4,
+      "tags": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "field_types": [
+        51,
+        52,
+        53,
+        54
+      ],
+      "name": null,
+      "field_names": [
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "type_id": 51,
+      "id": 51,
+      "offset": 5175,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 47,
+      "name": null
+    },
+    {
+      "type_id": 52,
+      "id": 52,
+      "offset": 5180,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 48,
+      "name": null
+    },
+    {
+      "type_id": 53,
+      "id": 53,
+      "offset": 5185,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 49,
+      "name": null
+    },
+    {
+      "type_id": 54,
+      "id": 54,
+      "offset": 5190,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 3,
+      "name": null
+    },
+    {
+      "type_id": 138,
+      "id": 138,
+      "offset": 5740,
+      "bytes": 97,
+      "header": 7,
+      "kind": "ENUM",
+      "bounds": {
+        "int_type": 1,
+        "variable": true,
+        "bits": 7,
+        "min": 0,
+        "max": 115
+      },
+      "count": 90,
+      "tags": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        114,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        64,
+        66,
+        67,
+        76,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        115
+      ],
+      "name": null,
+      "field_names": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "type_id": 890,
+      "id": 890,
+      "offset": 11387,
+      "bytes": 9,
+      "header": 142,
+      "kind": "STRUCT",
+      "bounds": {
+        "int_type": 0,
+        "variable": false,
+        "bits": 0,
+        "min": -1,
+        "max": -1
+      },
+      "count": 1,
+      "tags": [
+        -1
+      ],
+      "field_types": [
+        891
+      ],
+      "name": null,
+      "field_names": [
+        null
+      ]
+    },
+    {
+      "type_id": 891,
+      "id": 891,
+      "offset": 11396,
+      "bytes": 5,
+      "header": 9,
+      "kind": "INT",
+      "bounds": {
+        "int_type": 1,
+        "variable": true,
+        "bits": 5,
+        "min": 0,
+        "max": 16
+      },
+      "name": null
+    }
+  ],
+  "upstream_delta_id": 7,
+  "upstream_userid_id": 8,
+  "upstream_eventid_id": 0,
+  "svaruint32_typeid": {
+    "native": [
+      "choice",
+      0,
+      2,
+      [
+        [
+          0,
+          [
+            "int",
+            0,
+            6
+          ]
+        ],
+        [
+          1,
+          [
+            "int",
+            0,
+            14
+          ]
+        ],
+        [
+          2,
+          [
+            "int",
+            0,
+            22
+          ]
+        ],
+        [
+          3,
+          [
+            "int",
+            0,
+            32
+          ]
+        ]
+      ]
+    ],
+    "upstream": [
+      "choice",
+      0,
+      2,
+      [
+        [
+          0,
+          [
+            "int",
+            0,
+            6
+          ]
+        ],
+        [
+          1,
+          [
+            "int",
+            0,
+            14
+          ]
+        ],
+        [
+          2,
+          [
+            "int",
+            0,
+            22
+          ]
+        ],
+        [
+          3,
+          [
+            "int",
+            0,
+            32
+          ]
+        ]
+      ]
+    ],
+    "equal": true
+  },
+  "replay_userid_typeid": {
+    "native": [
+      "struct",
+      [
+        [
+          "int",
+          0,
+          5
+        ]
+      ]
+    ],
+    "upstream": [
+      "struct",
+      [
+        [
+          "int",
+          0,
+          5
+        ]
+      ]
+    ],
+    "equal": true
+  },
+  "game_eventid_typeid": {
+    "native": [
+      "int",
+      0,
+      7
+    ],
+    "upstream": [
+      "int",
+      0,
+      7
+    ],
+    "equal": true
+  },
+  "format": "native1192-game-frame-type-closure-v1",
+  "source_PE_sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+  "source_program_sha256": "245aba71f1702e6bae480924df478c8479978e54c383dff4757eb40863932b2f",
+  "context_VA": "0x14393eb80",
+  "source_type_count": 1192,
+  "names_authenticated": false,
+  "full_upgrade_complete": false
+}

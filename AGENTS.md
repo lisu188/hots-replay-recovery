@@ -1024,3 +1024,28 @@ stream decoder or gameplay proof. IDs23/25 were absent from those recordings.
 Do not rewrite flags or fabricate a new replay from this result. No network,
 game, Computer Use or remote publication occurred; the offline-only instruction
 still applies and R8/full-upgrade state remains unchanged.
+
+## Offline native game-member and frame route — 2026-10-27
+
+Read `docs/NATIVE_GAME_MEMBER_FRAME_ROUTE_2026-10-27.md` and the three dated
+native-game-member/frame receipts. The exact game filename's initialized string
+object reaches member selection in134F770, constructor134B8F0 and state+1A0.
+Caller1330CC0 supplies the same state to sequential reader13266B0 because
+50C58+498=510F0. This is conditional static data flow, not live object identity.
+The reader's four RuntimeFunction fragments are chain-qualified as one selected
+414-byte/119-instruction union. Seven selected ranges total2481B/600instructions.
+
+Frame roots50/890/138 have a complete12-record closure and match upstream96477
+physical graphs. A separate local bit cursor checked248965actual envelopes,
+4979308framebits and31457ID27payloads across R8/current control. Every value and
+bit span agreed; replacing only observed frame fields in RAM preserved whole
+member bytes. Zero checked bounds/membership violations; userid16 observed.
+Delta tags2/3 lack actual-case coverage. Native bit-reader implementation is
+still unproved; all other payloads still use upstream96477. The counted event
+container135EB50/135F070 is a different route: do not add its count to a member.
+
+No game, Computer Use, network, remote publication, replay or sync write. Keep
+the prepared launcher unused and preserve the dirty drafts. Original/R8 remain
+unchanged; full upgrade and playback remain false. Next offline boundary is
+binding the other observed payload cases and native bit-reader behavior, not
+guessing historical state, catalogs, ownership or missing player fields.

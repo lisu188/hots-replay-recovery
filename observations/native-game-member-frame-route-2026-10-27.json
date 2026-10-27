@@ -1,0 +1,201 @@
+{
+  "format": "native-game-member-to-sequential-frame-route-v1",
+  "source_PE": {
+    "bytes": 53573840,
+    "sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9"
+  },
+  "analyst_transformed_text": {
+    "bytes": 36581376,
+    "sha256": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83",
+    "runtime_capture": false
+  },
+  "selected_code": [
+    {
+      "label": "game_filename_constructor",
+      "start_rva": "0x1d02b0",
+      "end_exclusive_rva": "0x1d0316",
+      "bytes": 102,
+      "instructions": 17,
+      "sha256": "b48848926401de84616ce6b28f9cb0971850b84d2bbc8ab21ae35966c28f94a7",
+      "covering_first_runtime_function": [
+        "0x1d02b0",
+        "0x1d0316",
+        "0x2d898dc"
+      ],
+      "external_direct_noncall_targets": [
+        "0x1a24e34"
+      ]
+    },
+    {
+      "label": "archive_atom_route_a",
+      "start_rva": "0x134f770",
+      "end_exclusive_rva": "0x134fbe3",
+      "bytes": 1139,
+      "instructions": 254,
+      "sha256": "845ccbd4dc56f80d13fbf5e34caa799c1eb66d232e9245febe8f7bc1804869db",
+      "covering_first_runtime_function": [
+        "0x134f770",
+        "0x134fbe3",
+        "0x2d894c0"
+      ],
+      "external_direct_noncall_targets": []
+    },
+    {
+      "label": "stream_reader_constructor",
+      "start_rva": "0x134b8f0",
+      "end_exclusive_rva": "0x134b93b",
+      "bytes": 75,
+      "instructions": 20,
+      "sha256": "e80e24b1b059888a5e8c6dec9653062898aee0edcba10cb047d505acbce73d39",
+      "covering_first_runtime_function": [
+        "0x134b8f0",
+        "0x134b93b",
+        "0x2d89a88"
+      ],
+      "external_direct_noncall_targets": []
+    },
+    {
+      "label": "full_sequential_reader",
+      "start_rva": "0x13266b0",
+      "end_exclusive_rva": "0x132684e",
+      "bytes": 414,
+      "instructions": 119,
+      "sha256": "84ae6341e89905b6545035d0032481e3710480ff23e6d3de3f0cbf4894e91229",
+      "covering_first_runtime_function": [
+        "0x13266b0",
+        "0x13266da",
+        "0x2d869e4"
+      ],
+      "external_direct_noncall_targets": []
+    },
+    {
+      "label": "stream_writer",
+      "start_rva": "0x132a9b0",
+      "end_exclusive_rva": "0x132aa9c",
+      "bytes": 236,
+      "instructions": 53,
+      "sha256": "71feddd7ed39fca9d7879636e644819adf3000af89e77dfc7ab232f54fc6a9d1",
+      "covering_first_runtime_function": [
+        "0x132a9b0",
+        "0x132aa9c",
+        "0x2d869d8"
+      ],
+      "external_direct_noncall_targets": []
+    },
+    {
+      "label": "read_control_owner",
+      "start_rva": "0x1330cc0",
+      "end_exclusive_rva": "0x1330dd1",
+      "bytes": 273,
+      "instructions": 68,
+      "sha256": "1b1c0d2ec36f1bbda35c8d363fd79a545597d54565eced380bbda1349a5a3f05",
+      "covering_first_runtime_function": [
+        "0x1330cc0",
+        "0x1330dd1",
+        "0x2d86d7c"
+      ],
+      "external_direct_noncall_targets": []
+    },
+    {
+      "label": "archive_stream_attach_complete",
+      "start_rva": "0x2f32c0",
+      "end_exclusive_rva": "0x2f33b2",
+      "bytes": 242,
+      "instructions": 69,
+      "sha256": "144348c82500a322d5176a0948d9b807027a9e3c7a419a4d4d66534f547176e6",
+      "covering_first_runtime_function": [
+        "0x2f32c0",
+        "0x2f33b2",
+        "0x2c2f8a4"
+      ],
+      "external_direct_noncall_targets": []
+    }
+  ],
+  "selected_code_bytes": 2481,
+  "selected_instructions": 600,
+  "sequential_reader_runtime_function_fragments": [
+    {
+      "begin_rva": "0x13266b0",
+      "end_rva": "0x13266da",
+      "unwind_rva": "0x2d869e4",
+      "flags": 0,
+      "chained_runtime_function": null
+    },
+    {
+      "begin_rva": "0x13266da",
+      "end_rva": "0x1326840",
+      "unwind_rva": "0x2d869f0",
+      "flags": 4,
+      "chained_runtime_function": [
+        "0x13266b0",
+        "0x13266da",
+        "0x2d869e4"
+      ]
+    },
+    {
+      "begin_rva": "0x1326840",
+      "end_rva": "0x1326844",
+      "unwind_rva": "0x2d86a08",
+      "flags": 4,
+      "chained_runtime_function": [
+        "0x13266b0",
+        "0x13266da",
+        "0x2d869e4"
+      ]
+    },
+    {
+      "begin_rva": "0x1326844",
+      "end_rva": "0x132684e",
+      "unwind_rva": "0x2d86a20",
+      "flags": 4,
+      "chained_runtime_function": [
+        "0x13266b0",
+        "0x13266da",
+        "0x2d869e4"
+      ]
+    }
+  ],
+  "static_route": {
+    "filename_rva": "0x27bde40",
+    "filename": "replay.game.events",
+    "string_object_rva": "0x393ea20",
+    "filename_initializer_rva": "0x1d02b0",
+    "member_selection_owner_rva": "0x134f770",
+    "member_selection_call_rva": "0x134f864",
+    "member_selection_helper_rva": "0x2f32c0",
+    "reader_constructor_rva": "0x134b8f0",
+    "control_caller_rva": "0x1330cc0",
+    "parent_object_offset": "0x50c58",
+    "game_state_offset_in_parent": "0x498",
+    "control_reader_state_offset": "0x510f0",
+    "reader_in_game_state_offset": "0x1a0",
+    "underlying_member_stream_in_reader_offset": "0x20",
+    "sequential_reader_rva": "0x13266b0",
+    "sequential_writer_rva": "0x132a9b0",
+    "delta_root": 50,
+    "userid_root": 890,
+    "id_reader_rva": "0x1352350",
+    "id_writer_rva": "0x1354850",
+    "eventid_root": 138,
+    "native_context_VA": "0x14393eb80"
+  },
+  "path_conditions": [
+    "Normal calling convention and valid objects/callbacks; successful member selection and allocation.",
+    "Initializer has populated the string object; static data flow is not a live object identity observation."
+  ],
+  "counted_event_container_is_separate": {
+    "reader_rva": "0x135eb50",
+    "writer_rva": "0x135f070",
+    "has_4_byte_count_before_event_frames": true,
+    "must_not_prepend_this_count_to_the_raw_game_member": true
+  },
+  "unproven": [
+    "Whole archive implementation and all virtual callbacks/lifetimes.",
+    "Native bit-reader implementation and runtime acceptance.",
+    "All game-event payload type bindings and historical semantic equivalence."
+  ],
+  "ordinary_local_GNU_objdump_used": true,
+  "REA_Evidence_claimed": false,
+  "network_or_game_or_Computer_Use": false,
+  "full_upgrade_complete": false
+}
