@@ -1339,3 +1339,41 @@ exact; no new stream decode, unit tests, broad corpus, hosted CI or peer review.
 No production/conversion/replay/sync changes. Keep all work offline: no game,
 Computer Use, network or remote publication; full upgrade/playback false.
 Next bind state writes and the actual event110 consumer without guessed indices.
+
+
+## Offline native talent state write and conditional consumer - 2026-10-27
+
+Read docs/NATIVE_TALENT_STATE_WRITE_2026-10-27.md and its two dated native-talent
+state-write receipts. B10720 admits through B0E870, copies the named entry's
+Tier and writes the incoming uint32 at3677A30+(selector*32+Tier)*4 atB10934.
+The selected B0E6E0 gate requires row[Tier]==FFFFFFFF plus other bitmap,
+prior-selection and threshold checks. B0EC80 clears an occupied cell and
+reassesses later choices. First-selector namespace, effective values and
+simulation purchase/effects remain unbound; this is a selected static gate,
+not a universal gameplay rule. Do not guess a15-to7 talent replacement.
+
+Original observer2F73050/table26EC238 slot8 points toB58E70. Its selected
+transformed switch suffix maps header3006E -> index96 -> byte26 -> B5F9A9,
+which callsB612D0; that callback loads event+30 and conditionally callsB10720.
+The99B/116B transformed tables differ from original PE at98/116bytes. Their
+two original/transformed hashes and difference counts are retained. Whole
+obfuscated dispatcher entry-to-suffix CFG and factory/dispatcher-to-callback
+binding remain unproved. Do not promote the full27731B linear sweep (private
+search aid with obfuscation/embedded data) to qualified instruction evidence.
+
+Eight complete original RuntimeFunction/CHAININFO unions total3145B/807instr;
+four required-edge reachability checks pass. Two conditional suffix windows
+73B/15instr and39selected instruction checks are separate. Conditions include
+normal helpers/x64 ABI, valid storage/cells, stable records/row, no exceptions,
+reentry/concurrent writes/alias mutation, named CHero layout, image base and
+pinned transformed table values. Wrapper20B9A50 calls the same writer and
+references TalentTreeSetSelectedHeroTalentTree/inTalentTreeIndex error names.
+
+The source BurnedFlesh/SunKingsFury collision in literal current Tier3 therefore
+has a selected empty-cell gate consequence only if those entries, row and path
+are effective and stable. No desync cause, live data, safe mapping or rule
+equivalence established. Replay/draft pins exact; no fresh stream decode,
+production/conversion/replay/sync change, native execution, unit tests, broad
+corpus, hosted CI or peer review. Keep all work offline: no game, Computer Use,
+network or publication; full upgrade/playback false. Next authenticate the
+dispatcher prefix and effective selector/catalog/historical rule bindings.
