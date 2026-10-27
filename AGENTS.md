@@ -990,3 +990,18 @@ SharedPlayerInfo fields, ResourceState/ownership values or catalogs. Current
 ctor defaults and optional field preambles do not supply historical values.
 Preserve all synchronization data. Latest replay remains98285-resumable-r8;
 no Computer Use or game launch under the current user instruction.
+
+## Latest human constraint — 2026-10-27
+
+The user declined the proposed single current98348 control launch and selected
+**"Keep all work offline"**. Continue with local files and static/offline checks.
+Do not launch HotS, use Computer Use, make new network requests, or publish to
+GitHub/OneDrive under this instruction. Do not repeat the same permission request.
+The persistent full-upgrade objective is unchanged and remains incomplete.
+
+The prepared `scripts/run_current_replay_control.py` and its policy tests have
+not executed a game. A read-only preflight verified the immutable current
+control, signed Switcher and installed98348 PE before the latest constraint.
+The signature helper's PowerShell child clears inherited PSModulePath to avoid
+loading a PowerShell7 module into Windows PowerShell5.1. The preflight is launch
+readiness only, with no login or playback claim. Keep this preparation unused.
