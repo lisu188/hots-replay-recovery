@@ -1,6 +1,7 @@
 """Independent wire controls and official-oracle tests; no private header literals."""
 import copy
 from dataclasses import FrozenInstanceError
+import importlib
 import os
 from pathlib import Path
 import tempfile
@@ -37,6 +38,31 @@ def official(raw, build=96477):
 
 
 class Header879Tests(unittest.TestCase):
+    def test_pinned_official_decoder_accepts_exact_LF_and_CRLF_sources(self):
+        decoder = importlib.import_module('heroprotocol.decoders')
+        canonical = Path(decoder.__file__).read_bytes().replace(b'\r\n', b'\n')
+        with tempfile.TemporaryDirectory() as folder:
+            path = Path(folder) / 'decoders.py'
+            for raw in (canonical, canonical.replace(b'\n', b'\r\n')):
+                with self.subTest(source_bytes=len(raw)):
+                    path.write_bytes(raw)
+                    self.assertEqual(header._pinned(path, header.DECODER_PIN,
+                                                   alternates=header.DECODER_ALTERNATE_PINS), raw)
+
+    def test_pinned_official_decoder_refuses_unreviewed_source_variants(self):
+        decoder = importlib.import_module('heroprotocol.decoders')
+        canonical = Path(decoder.__file__).read_bytes().replace(b'\r\n', b'\n')
+        refused = (canonical + b'# changed\n', canonical[:-1],
+                   canonical.replace(b'\n', b'\r\n', 1), b'X' * 9513)
+        with tempfile.TemporaryDirectory() as folder:
+            path = Path(folder) / 'decoders.py'
+            for raw in refused:
+                with self.subTest(source_bytes=len(raw)):
+                    path.write_bytes(raw)
+                    with self.assertRaises(header.HeaderError):
+                        header._pinned(path, header.DECODER_PIN,
+                                       alternates=header.DECODER_ALTERNATE_PINS)
+
     def test_independent_partial_literal_and_missing_paths(self):
         raw = b'\x05\x04\x00\x02\x02A\x04\x09\x04'
         view = decode(raw)

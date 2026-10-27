@@ -23,6 +23,11 @@ SCHEMA_RELATIVE = 'observations/numeric-root-879-topology-2026-10-25.json'
 SCHEMA_PIN = (9536, '6765c0d8795f3af57333d200e1ea722818e965158bf46a804574a78d4fe2b17b')
 LOSSLESS_PIN = (11513, '9d725f9be88c4185419a306ef995e82a774d174a93912ffd381cced2d6ebb7a7')
 DECODER_PIN = (9199, '17bfb926af0f7f79e18f6299dbae50fc2821c53b229235d4f9c857c7ef3e96b1')
+# The pinned upstream Git blob is LF. Retain the exact known Windows CRLF
+# checkout as an alternative; arbitrary normalization is not authentication.
+DECODER_ALTERNATE_PINS = (
+    (9512, 'c5e4e7c588ebc2ef722ab9fd9def2e67e309c45d451639cfdee3126b0f616a42'),
+)
 PROTOCOL_PINS = {
     41810: (25890, '879d228d9d8acd21d63563538dd15841aaf49259ee0bb468b8a46b6a4ef866fd'),
     96477: (26921, 'e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84'),
@@ -42,10 +47,11 @@ def _sha(raw):
     return hashlib.sha256(raw).hexdigest()
 
 
-def _pinned(path, expected):
+def _pinned(path, expected, *, alternates=()):
+    accepted = (expected, *alternates)
     with Path(path).open('rb') as stream:
-        raw = stream.read(expected[0] + 1)
-    _need((len(raw), _sha(raw)) == expected, 'Pinned header dependency differs')
+        raw = stream.read(max(pin[0] for pin in accepted) + 1)
+    _need((len(raw), _sha(raw)) in accepted, 'Pinned header dependency differs')
     return raw
 
 
@@ -133,7 +139,7 @@ def _oracle(build):
     _need(len(candidates) == 1, 'Exactly one official header schema is required')
     root = candidates[0]
     _pinned(root / 'versions' / ('protocol%d.py' % build), PROTOCOL_PINS[build])
-    _pinned(root / 'decoders.py', DECODER_PIN)
+    _pinned(root / 'decoders.py', DECODER_PIN, alternates=DECODER_ALTERNATE_PINS)
     _pinned(Path(wire.__file__), LOSSLESS_PIN)
     protocol = load_protocol(build)
     decoder = importlib.import_module('heroprotocol.decoders')

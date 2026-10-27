@@ -175,6 +175,8 @@ def main(argv=None):
         raw, row = read_fixture(path, spec, guards[spec[0]] if guards else None)
         row.update(audit(raw, spec[3], args.schema_path))
         rows.append(row)
+    decoder_source = header._pinned(Path(sys.modules[VersionedDecoder.__module__].__file__),
+                                    header.DECODER_PIN, alternates=header.DECODER_ALTERNATE_PINS)
     report = {'format': 'numeric879-three-actual-header-integration-v1', 'fixtures': rows,
               'fixture_count': 3, 'header_bytes': sum(row['header_bytes'] for row in rows),
               'hashstream_bytes': sum(row['hashstream_bytes'] for row in rows),
@@ -182,7 +184,8 @@ def main(argv=None):
               'prefix_cap_each': 4096, 'edited_bytes_official_oracle_checks': 6,
               'source_pins': {'schema': {'bytes': header.SCHEMA_PIN[0], 'sha256': header.SCHEMA_PIN[1]},
                               'lossless': {'bytes': header.LOSSLESS_PIN[0], 'sha256': header.LOSSLESS_PIN[1]},
-                              'official_decoder': {'bytes': header.DECODER_PIN[0], 'sha256': header.DECODER_PIN[1]},
+                              'official_decoder': {'bytes': len(decoder_source), 'sha256': sha(decoder_source)},
+                              'official_decoder_canonical_LF': {'bytes': header.DECODER_PIN[0], 'sha256': header.DECODER_PIN[1]},
                               'official_protocols': {str(build): {'bytes': p[0], 'sha256': p[1]} for build, p in header.PROTOCOL_PINS.items()}},
               'replay_header_or_member_written': False, 'archive_members_read': False,
               'native_runtime_memory_offsets_or_full_compatibility_claim': False,

@@ -1,0 +1,36 @@
+{
+  "format": "header879-exact-decoder-source-variants-v1",
+  "upstream_commit": "9af3ea7150f1a8acb53464c92519a9bbcc7a3594",
+  "preserved_concurrent_LF_correction_commit": "7dc5f98d664e9ef7d96974b6dffef8a0ffee402b",
+  "canonical_LF": {"bytes": 9199, "sha256": "17bfb926af0f7f79e18f6299dbae50fc2821c53b229235d4f9c857c7ef3e96b1"},
+  "accepted_CRLF": {"bytes": 9512, "sha256": "c5e4e7c588ebc2ef722ab9fd9def2e67e309c45d451639cfdee3126b0f616a42"},
+  "only_these_two_raw_decoder_files_accepted": true,
+  "other_dependency_pins_single_and_unchanged": true,
+  "normalization_before_authentication": false,
+  "dependency_cache_rewritten": false,
+  "reports_actual_physical_decoder_and_canonical_LF_pins_separately": true,
+  "root_failure_evidence": {
+    "head": "820aefa0167481eb51b14e0ad45f631c3d0053d9",
+    "run_id": 40227599550,
+    "job_ids": [121272193978, 121272194078, 121272194274],
+    "failed_step": "Verify numeric879 header inverse and independent edited projection",
+    "exception": "native_replay_header.HeaderError: Pinned header dependency differs",
+    "specific_dependency": "heroprotocol/decoders.py in _oracle",
+    "all_three_tracebacks_inspected": true,
+    "run_url": "https://github.com/lisu188/hots-replay-recovery/actions/runs/40227599550"
+  },
+  "local_validation": {
+    "fresh_package_copies_from_pinned_Git_blobs": true,
+    "LF": {"header_unit_tests": 19, "failures": 0, "errors": 0, "actual_headers": 3, "independent_official_edited_header_checks": 6, "all_source_inverses_exact": true},
+    "CRLF": {"header_unit_tests": 19, "failures": 0, "errors": 0, "actual_headers": 3, "independent_official_edited_header_checks": 6, "all_source_inverses_exact": true},
+    "new_regression_tests": 2,
+    "rejected_variants": ["appended Python comment", "truncated LF source", "one CRLF line in LF source", "oversized non-source input"],
+    "actual_header_builds": [41810, 98285, 98348],
+    "R8_remains_partial": true,
+    "replay_header_or_archive_written": false
+  },
+  "new_exact_head_hosted_CI_claim": false,
+  "native_runtime_or_ComputerUse_used": false,
+  "controlled_header_edit_is_retarget_policy": false,
+  "full_upgrade_complete": false
+}
