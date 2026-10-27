@@ -1,0 +1,817 @@
+{
+  "format": "current98348-Kaelthas-literal-talent-definition-observation-v2",
+  "source": {
+    "path": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/kaelthasdata/kaelthasdata.xml",
+    "bytes": 276044,
+    "sha256": "39cf6954288e32edd73dfed13f82e45ab5f944a54f9f3fa9adaf2aacc7ffc13b",
+    "body_matches_pinned_current98348_source_inventory": true,
+    "inventory_sha256": "c8f03ddbc859feb5c2dc1836761201b5e6fea4632ce0325817abdd7299c8aa22",
+    "version_binding": {
+      "expected_version": "2.57.0.98348",
+      "matching_hdp_info_files": 1,
+      "metadata": [
+        {
+          "bytes": 130,
+          "is_ptr": false,
+          "observed_version_strings": [
+            "2.57.0.98348"
+          ],
+          "path": "mods/hdp.info",
+          "sha256": "eeb8bc05408d3fd33291abbfd81f708af4a3d2a55911b09da80a486030ca3681",
+          "version_field": "Version"
+        }
+      ],
+      "status": "version-log-and-extracted-metadata-match",
+      "version_log": {
+        "bytes": 13,
+        "observed_versions": [
+          "2.57.0.98348"
+        ],
+        "sha256": "ae610ceda87a81444a79cf937752a74f8bc6869f0015c48cba74e32970cfa839"
+      }
+    },
+    "public_cached_origin": "https://raw.githubusercontent.com/jamiephan/HeroesOfTheStorm_Gamedata/e3e57cb640f18002a4feebe3872cefe04072d814/mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/kaelthasdata/kaelthasdata.xml",
+    "network_refresh_performed": false,
+    "scope": "one exact XML file, literal CHero/CTalent declarations; not effective loaded catalog"
+  },
+  "hero_attributes": {
+    "id": "Kaelthas"
+  },
+  "direct_Unit_fields": [],
+  "XML_processing_instruction_markers": [
+    {
+      "byte_offset": 0,
+      "text": "<?xml version=\"1.0\" encoding=\"us-ascii\"?>"
+    }
+  ],
+  "literal_talent_tree": [
+    {
+      "document_position_zero_based_not_authenticated_native_index": 0,
+      "talent": "KaelthasFlamestrikeConvection",
+      "tier": 1,
+      "column": 1,
+      "prerequisite_talent_literals": []
+    },
+    {
+      "document_position_zero_based_not_authenticated_native_index": 1,
+      "talent": "KaelthasVerdantSpheresFelInfusion",
+      "tier": 1,
+      "column": 2,
+      "prerequisite_talent_literals": []
+    },
+    {
+      "document_position_zero_based_not_authenticated_native_index": 2,
+      "talent": "KaelthasManaAddict",
+      "tier": 1,
+      "column": 3,
+      "prerequisite_talent_literals": []
+    },
+    {
+      "document_position_zero_based_not_authenticated_native_index": 3,
+      "talent": "KaelthasGravityLapseNetherWind",
+      "tier": 2,
+      "column": 1,
+      "prerequisite_talent_literals": []
+    },
+    {
+      "document_position_zero_based_not_authenticated_native_index": 4,
+      "talent": "KaelthasGravityLapseEnergyRoil",
+      "tier": 2,
+      "column": 2,
+      "prerequisite_talent_literals": []
+    },
+    {
+      "document_position_zero_based_not_authenticated_native_index": 5,
+      "talent": "KaelthasFlamestrikeManaTap",
+      "tier": 2,
+      "column": 3,
+      "prerequisite_talent_literals": []
+    },
+    {
+      "document_position_zero_based_not_authenticated_native_index": 6,
+      "talent": "KaelthasFlamestrikeBurnedFlesh",
+      "tier": 3,
+      "column": 1,
+      "prerequisite_talent_literals": []
+    },
+    {
+      "document_position_zero_based_not_authenticated_native_index": 7,
+      "talent": "KaelthasLivingBombSunKingsFury",
+      "tier": 3,
+      "column": 2,
+      "prerequisite_talent_literals": []
+    },
+    {
+      "document_position_zero_based_not_authenticated_native_index": 8,
+      "talent": "KaelthasMasterySunfireEnchantment",
+      "tier": 3,
+      "column": 3,
+      "prerequisite_talent_literals": []
+    },
+    {
+      "document_position_zero_based_not_authenticated_native_index": 9,
+      "talent": "KaelthasHeroicAbilityPhoenix",
+      "tier": 4,
+      "column": 1,
+      "prerequisite_talent_literals": []
+    },
+    {
+      "document_position_zero_based_not_authenticated_native_index": 10,
+      "talent": "KaelthasHeroicAbilityPyroblast",
+      "tier": 4,
+      "column": 2,
+      "prerequisite_talent_literals": []
+    },
+    {
+      "document_position_zero_based_not_authenticated_native_index": 11,
+      "talent": "KaelthasLivingBombPyromaniac",
+      "tier": 5,
+      "column": 1,
+      "prerequisite_talent_literals": []
+    },
+    {
+      "document_position_zero_based_not_authenticated_native_index": 12,
+      "talent": "KaelthasLivingBombBackdraft",
+      "tier": 5,
+      "column": 2,
+      "prerequisite_talent_literals": []
+    },
+    {
+      "document_position_zero_based_not_authenticated_native_index": 13,
+      "talent": "KaelthasLivingBombFissionBomb",
+      "tier": 5,
+      "column": 3,
+      "prerequisite_talent_literals": []
+    },
+    {
+      "document_position_zero_based_not_authenticated_native_index": 14,
+      "talent": "KaelthasFlamestrikeFuryOfTheSunwell",
+      "tier": 6,
+      "column": 1,
+      "prerequisite_talent_literals": []
+    },
+    {
+      "document_position_zero_based_not_authenticated_native_index": 15,
+      "talent": "KaelthasLivingBombIgnite",
+      "tier": 6,
+      "column": 2,
+      "prerequisite_talent_literals": []
+    },
+    {
+      "document_position_zero_based_not_authenticated_native_index": 16,
+      "talent": "KaelthasTwinSpheres",
+      "tier": 6,
+      "column": 3,
+      "prerequisite_talent_literals": []
+    },
+    {
+      "document_position_zero_based_not_authenticated_native_index": 17,
+      "talent": "KaelthasPhoenixRebirth",
+      "tier": 7,
+      "column": 1,
+      "prerequisite_talent_literals": [
+        "KaelthasHeroicAbilityPhoenix"
+      ]
+    },
+    {
+      "document_position_zero_based_not_authenticated_native_index": 18,
+      "talent": "KaelthasPyroblastPresenceOfMind",
+      "tier": 7,
+      "column": 2,
+      "prerequisite_talent_literals": [
+        "KaelthasHeroicAbilityPyroblast"
+      ]
+    },
+    {
+      "document_position_zero_based_not_authenticated_native_index": 19,
+      "talent": "KaelthasMasterOfFlames",
+      "tier": 7,
+      "column": 3,
+      "prerequisite_talent_literals": []
+    },
+    {
+      "document_position_zero_based_not_authenticated_native_index": 20,
+      "talent": "KaelthasMasteryFlamethrower",
+      "tier": 7,
+      "column": 4,
+      "prerequisite_talent_literals": []
+    }
+  ],
+  "recorded_purchase_comparisons": {
+    "source": [
+      {
+        "recorded_index": 2,
+        "recorded_purchase_name": "KaelthasManaAddict",
+        "recorded_count": 2,
+        "literal_entry_in_this_CHero": {
+          "document_position_zero_based_not_authenticated_native_index": 2,
+          "talent": "KaelthasManaAddict",
+          "tier": 1,
+          "column": 3,
+          "prerequisite_talent_literals": []
+        },
+        "recorded_index_equals_document_position": true
+      },
+      {
+        "recorded_index": 3,
+        "recorded_purchase_name": "KaelthasGravityLapseNetherWind",
+        "recorded_count": 2,
+        "literal_entry_in_this_CHero": {
+          "document_position_zero_based_not_authenticated_native_index": 3,
+          "talent": "KaelthasGravityLapseNetherWind",
+          "tier": 2,
+          "column": 1,
+          "prerequisite_talent_literals": []
+        },
+        "recorded_index_equals_document_position": true
+      },
+      {
+        "recorded_index": 6,
+        "recorded_purchase_name": "KaelthasFlamestrikeBurnedFlesh",
+        "recorded_count": 1,
+        "literal_entry_in_this_CHero": {
+          "document_position_zero_based_not_authenticated_native_index": 6,
+          "talent": "KaelthasFlamestrikeBurnedFlesh",
+          "tier": 3,
+          "column": 1,
+          "prerequisite_talent_literals": []
+        },
+        "recorded_index_equals_document_position": true
+      },
+      {
+        "recorded_index": 7,
+        "recorded_purchase_name": "KaelthasGravityCrush",
+        "recorded_count": 1,
+        "literal_entry_in_this_CHero": null,
+        "recorded_index_equals_document_position": null
+      },
+      {
+        "recorded_index": 9,
+        "recorded_purchase_name": "KaelthasHeroicAbilityPhoenix",
+        "recorded_count": 1,
+        "literal_entry_in_this_CHero": {
+          "document_position_zero_based_not_authenticated_native_index": 9,
+          "talent": "KaelthasHeroicAbilityPhoenix",
+          "tier": 4,
+          "column": 1,
+          "prerequisite_talent_literals": []
+        },
+        "recorded_index_equals_document_position": true
+      },
+      {
+        "recorded_index": 10,
+        "recorded_purchase_name": "KaelthasHeroicAbilityPyroblast",
+        "recorded_count": 1,
+        "literal_entry_in_this_CHero": {
+          "document_position_zero_based_not_authenticated_native_index": 10,
+          "talent": "KaelthasHeroicAbilityPyroblast",
+          "tier": 4,
+          "column": 2,
+          "prerequisite_talent_literals": []
+        },
+        "recorded_index_equals_document_position": true
+      },
+      {
+        "recorded_index": 13,
+        "recorded_purchase_name": "KaelthasLivingBombFissionBomb",
+        "recorded_count": 2,
+        "literal_entry_in_this_CHero": {
+          "document_position_zero_based_not_authenticated_native_index": 13,
+          "talent": "KaelthasLivingBombFissionBomb",
+          "tier": 5,
+          "column": 3,
+          "prerequisite_talent_literals": []
+        },
+        "recorded_index_equals_document_position": true
+      },
+      {
+        "recorded_index": 15,
+        "recorded_purchase_name": "KaelthasLivingBombSunKingsFury",
+        "recorded_count": 2,
+        "literal_entry_in_this_CHero": {
+          "document_position_zero_based_not_authenticated_native_index": 7,
+          "talent": "KaelthasLivingBombSunKingsFury",
+          "tier": 3,
+          "column": 2,
+          "prerequisite_talent_literals": []
+        },
+        "recorded_index_equals_document_position": false
+      },
+      {
+        "recorded_index": 19,
+        "recorded_purchase_name": "KaelthasMasterOfFlames",
+        "recorded_count": 1,
+        "literal_entry_in_this_CHero": {
+          "document_position_zero_based_not_authenticated_native_index": 19,
+          "talent": "KaelthasMasterOfFlames",
+          "tier": 7,
+          "column": 3,
+          "prerequisite_talent_literals": []
+        },
+        "recorded_index_equals_document_position": true
+      },
+      {
+        "recorded_index": 20,
+        "recorded_purchase_name": "GenericArcanePower",
+        "recorded_count": 1,
+        "literal_entry_in_this_CHero": null,
+        "recorded_index_equals_document_position": null
+      }
+    ],
+    "current": [
+      {
+        "recorded_index": 2,
+        "recorded_purchase_name": "KaelthasManaAddict",
+        "recorded_count": 1,
+        "literal_entry_in_this_CHero": {
+          "document_position_zero_based_not_authenticated_native_index": 2,
+          "talent": "KaelthasManaAddict",
+          "tier": 1,
+          "column": 3,
+          "prerequisite_talent_literals": []
+        },
+        "recorded_index_equals_document_position": true
+      },
+      {
+        "recorded_index": 5,
+        "recorded_purchase_name": "KaelthasFlamestrikeManaTap",
+        "recorded_count": 1,
+        "literal_entry_in_this_CHero": {
+          "document_position_zero_based_not_authenticated_native_index": 5,
+          "talent": "KaelthasFlamestrikeManaTap",
+          "tier": 2,
+          "column": 3,
+          "prerequisite_talent_literals": []
+        },
+        "recorded_index_equals_document_position": true
+      },
+      {
+        "recorded_index": 6,
+        "recorded_purchase_name": "KaelthasFlamestrikeBurnedFlesh",
+        "recorded_count": 1,
+        "literal_entry_in_this_CHero": {
+          "document_position_zero_based_not_authenticated_native_index": 6,
+          "talent": "KaelthasFlamestrikeBurnedFlesh",
+          "tier": 3,
+          "column": 1,
+          "prerequisite_talent_literals": []
+        },
+        "recorded_index_equals_document_position": true
+      },
+      {
+        "recorded_index": 9,
+        "recorded_purchase_name": "KaelthasHeroicAbilityPhoenix",
+        "recorded_count": 1,
+        "literal_entry_in_this_CHero": {
+          "document_position_zero_based_not_authenticated_native_index": 9,
+          "talent": "KaelthasHeroicAbilityPhoenix",
+          "tier": 4,
+          "column": 1,
+          "prerequisite_talent_literals": []
+        },
+        "recorded_index_equals_document_position": true
+      },
+      {
+        "recorded_index": 11,
+        "recorded_purchase_name": "KaelthasLivingBombPyromaniac",
+        "recorded_count": 1,
+        "literal_entry_in_this_CHero": {
+          "document_position_zero_based_not_authenticated_native_index": 11,
+          "talent": "KaelthasLivingBombPyromaniac",
+          "tier": 5,
+          "column": 1,
+          "prerequisite_talent_literals": []
+        },
+        "recorded_index_equals_document_position": true
+      },
+      {
+        "recorded_index": 15,
+        "recorded_purchase_name": "KaelthasLivingBombIgnite",
+        "recorded_count": 1,
+        "literal_entry_in_this_CHero": {
+          "document_position_zero_based_not_authenticated_native_index": 15,
+          "talent": "KaelthasLivingBombIgnite",
+          "tier": 6,
+          "column": 2,
+          "prerequisite_talent_literals": []
+        },
+        "recorded_index_equals_document_position": true
+      },
+      {
+        "recorded_index": 20,
+        "recorded_purchase_name": "KaelthasMasteryFlamethrower",
+        "recorded_count": 1,
+        "literal_entry_in_this_CHero": {
+          "document_position_zero_based_not_authenticated_native_index": 20,
+          "talent": "KaelthasMasteryFlamethrower",
+          "tier": 7,
+          "column": 4,
+          "prerequisite_talent_literals": []
+        },
+        "recorded_index_equals_document_position": true
+      }
+    ]
+  },
+  "selected_CTalent_declarations": [
+    {
+      "talent": "GenericArcanePower",
+      "CTalent_records_in_this_file": 0,
+      "records": []
+    },
+    {
+      "talent": "KaelthasFlamestrikeBurnedFlesh",
+      "CTalent_records_in_this_file": 1,
+      "records": [
+        {
+          "attributes": {
+            "id": "KaelthasFlamestrikeBurnedFlesh"
+          },
+          "immediate_child_tag_counts": {
+            "Abil": 1,
+            "AbilityModificationArray": 1,
+            "Face": 1
+          },
+          "literal_Face": [
+            {
+              "value": "KaelthasBurnedFleshTalent"
+            }
+          ],
+          "literal_Abil": [
+            {
+              "value": "KaelthasFlamestrike"
+            }
+          ],
+          "ET_serialized_subtree_sha256_not_original_byte_span": "ece51f5755f01d4e35fdbb7b5b833837d5a9d4a081122b62e0b5b24f082170bf"
+        }
+      ]
+    },
+    {
+      "talent": "KaelthasFlamestrikeManaTap",
+      "CTalent_records_in_this_file": 1,
+      "records": [
+        {
+          "attributes": {
+            "id": "KaelthasFlamestrikeManaTap"
+          },
+          "immediate_child_tag_counts": {
+            "Abil": 1,
+            "AbilityModificationArray": 1,
+            "Face": 1
+          },
+          "literal_Face": [
+            {
+              "value": "KaelthasManaTapTalent"
+            }
+          ],
+          "literal_Abil": [
+            {
+              "value": "KaelthasVerdantSpheres"
+            }
+          ],
+          "ET_serialized_subtree_sha256_not_original_byte_span": "d082a0f644a16da84f442cd2d12e581f7cf3bdd9c807329c306d98d6409002db"
+        }
+      ]
+    },
+    {
+      "talent": "KaelthasGravityCrush",
+      "CTalent_records_in_this_file": 0,
+      "records": []
+    },
+    {
+      "talent": "KaelthasGravityLapseNetherWind",
+      "CTalent_records_in_this_file": 1,
+      "records": [
+        {
+          "attributes": {
+            "id": "KaelthasGravityLapseNetherWind"
+          },
+          "immediate_child_tag_counts": {
+            "Abil": 1,
+            "AbilityModificationArray": 1,
+            "Face": 1
+          },
+          "literal_Face": [
+            {
+              "value": "KaelthasGravityLapseNetherWindTalent"
+            }
+          ],
+          "literal_Abil": [
+            {
+              "value": "KaelthasGravityLapse"
+            }
+          ],
+          "ET_serialized_subtree_sha256_not_original_byte_span": "24120a8f8d6f401ca18b7a892187d311688ff08d30fa7cf6a803589592e98eec"
+        }
+      ]
+    },
+    {
+      "talent": "KaelthasHeroicAbilityPhoenix",
+      "CTalent_records_in_this_file": 1,
+      "records": [
+        {
+          "attributes": {
+            "id": "KaelthasHeroicAbilityPhoenix"
+          },
+          "immediate_child_tag_counts": {
+            "Abil": 1,
+            "Active": 1,
+            "Face": 1,
+            "RankArray": 1
+          },
+          "literal_Face": [
+            {
+              "value": "KaelthasPhoenix"
+            }
+          ],
+          "literal_Abil": [
+            {
+              "value": "KaelthasPhoenix"
+            }
+          ],
+          "ET_serialized_subtree_sha256_not_original_byte_span": "d10a147f26a606232264bc7383624471c7fd75a2eb354e6f8acfd951e7838493"
+        }
+      ]
+    },
+    {
+      "talent": "KaelthasHeroicAbilityPyroblast",
+      "CTalent_records_in_this_file": 1,
+      "records": [
+        {
+          "attributes": {
+            "id": "KaelthasHeroicAbilityPyroblast"
+          },
+          "immediate_child_tag_counts": {
+            "Abil": 1,
+            "Active": 1,
+            "Face": 1,
+            "RankArray": 1
+          },
+          "literal_Face": [
+            {
+              "value": "KaelthasPyroblast"
+            }
+          ],
+          "literal_Abil": [
+            {
+              "value": "KaelthasPyroblast"
+            }
+          ],
+          "ET_serialized_subtree_sha256_not_original_byte_span": "6b5ef1cd35f10a3828ff2aa236a78805a367ee3a90db4257db4f9f43aedef49c"
+        }
+      ]
+    },
+    {
+      "talent": "KaelthasLivingBombFissionBomb",
+      "CTalent_records_in_this_file": 1,
+      "records": [
+        {
+          "attributes": {
+            "id": "KaelthasLivingBombFissionBomb"
+          },
+          "immediate_child_tag_counts": {
+            "Abil": 1,
+            "AbilityModificationArray": 1,
+            "Face": 1
+          },
+          "literal_Face": [
+            {
+              "value": "KaelthasLivingBombFissionBombTalent"
+            }
+          ],
+          "literal_Abil": [
+            {
+              "value": "KaelthasLivingBomb"
+            }
+          ],
+          "ET_serialized_subtree_sha256_not_original_byte_span": "91992d6fb79e71566c67d8b66470e254858d98cb96c33d8a2c3b72f70993d90a"
+        }
+      ]
+    },
+    {
+      "talent": "KaelthasLivingBombIgnite",
+      "CTalent_records_in_this_file": 1,
+      "records": [
+        {
+          "attributes": {
+            "id": "KaelthasLivingBombIgnite"
+          },
+          "immediate_child_tag_counts": {
+            "Abil": 1,
+            "Face": 1
+          },
+          "literal_Face": [
+            {
+              "value": "KaelthasLivingBombIgnite"
+            }
+          ],
+          "literal_Abil": [
+            {
+              "value": "KaelthasLivingBomb"
+            }
+          ],
+          "ET_serialized_subtree_sha256_not_original_byte_span": "b358ccd3e160f90f6e63e50143f0f3b54cf21fc9bdcbc3388e37af625716f57e"
+        }
+      ]
+    },
+    {
+      "talent": "KaelthasLivingBombPyromaniac",
+      "CTalent_records_in_this_file": 1,
+      "records": [
+        {
+          "attributes": {
+            "id": "KaelthasLivingBombPyromaniac"
+          },
+          "immediate_child_tag_counts": {
+            "Abil": 1,
+            "AbilityModificationArray": 1,
+            "Face": 1
+          },
+          "literal_Face": [
+            {
+              "value": "KaelthasLivingBombPyromaniacTalent"
+            }
+          ],
+          "literal_Abil": [
+            {
+              "value": "KaelthasLivingBomb"
+            }
+          ],
+          "ET_serialized_subtree_sha256_not_original_byte_span": "d1612a7e8b5d8c7b33a72af420d5b644e06a234f85567b09d33518a5b086adf9"
+        }
+      ]
+    },
+    {
+      "talent": "KaelthasLivingBombSunKingsFury",
+      "CTalent_records_in_this_file": 1,
+      "records": [
+        {
+          "attributes": {
+            "id": "KaelthasLivingBombSunKingsFury"
+          },
+          "immediate_child_tag_counts": {
+            "Abil": 1,
+            "AbilityModificationArray": 1,
+            "Face": 1
+          },
+          "literal_Face": [
+            {
+              "value": "KaelthasLivingBombSunKingsFury"
+            }
+          ],
+          "literal_Abil": [
+            {
+              "value": "KaelthasLivingBomb"
+            }
+          ],
+          "ET_serialized_subtree_sha256_not_original_byte_span": "870aeb5e9033f12d121e3a218df2a04583e55eba386e0756fe357c206600d4cf"
+        }
+      ]
+    },
+    {
+      "talent": "KaelthasManaAddict",
+      "CTalent_records_in_this_file": 1,
+      "records": [
+        {
+          "attributes": {
+            "id": "KaelthasManaAddict"
+          },
+          "immediate_child_tag_counts": {
+            "Face": 1,
+            "QuestData": 1,
+            "RankArray": 1
+          },
+          "literal_Face": [
+            {
+              "value": "KaelthasManaAddictTalent"
+            }
+          ],
+          "literal_Abil": [],
+          "ET_serialized_subtree_sha256_not_original_byte_span": "8b61c9b38d52057ea83759a86e9d3d5b9e3c24c1cb432ee019ad10dda990c544"
+        }
+      ]
+    },
+    {
+      "talent": "KaelthasMasterOfFlames",
+      "CTalent_records_in_this_file": 1,
+      "records": [
+        {
+          "attributes": {
+            "id": "KaelthasMasterOfFlames"
+          },
+          "immediate_child_tag_counts": {
+            "Abil": 1,
+            "AbilityModificationArray": 1,
+            "Face": 1
+          },
+          "literal_Face": [
+            {
+              "value": "KaelthasMasterOfFlamesLivingBomb"
+            }
+          ],
+          "literal_Abil": [
+            {
+              "value": "KaelthasLivingBomb"
+            }
+          ],
+          "ET_serialized_subtree_sha256_not_original_byte_span": "b95b302e5c6bc5d16217ed5b1d9586c858509e62b25c2e90bf11761d1eeb567a"
+        }
+      ]
+    },
+    {
+      "talent": "KaelthasMasteryFlamethrower",
+      "CTalent_records_in_this_file": 1,
+      "records": [
+        {
+          "attributes": {
+            "id": "KaelthasMasteryFlamethrower"
+          },
+          "immediate_child_tag_counts": {
+            "Abil": 1,
+            "AbilityModificationArray": 1,
+            "Face": 1
+          },
+          "literal_Face": [
+            {
+              "value": "KaelthasFlamethrowerTalent"
+            }
+          ],
+          "literal_Abil": [
+            {
+              "value": "KaelthasFlamestrike"
+            }
+          ],
+          "ET_serialized_subtree_sha256_not_original_byte_span": "b35f4b5c0e5ddcc117c605c5d93cb6e7063011098110ca50866aa33e146af3d4"
+        }
+      ]
+    }
+  ],
+  "literal_global_CHero_default": {
+    "path": "mods/heroesdata.stormmod/base.stormdata/gamedata/herodata.xml",
+    "bytes": 15256,
+    "sha256": "f39bc54277cec03c773bffb8cb2c183a69b96c75884937937e4d60b04733adad",
+    "Unit_fields": [
+      {
+        "value": "Hero##id##"
+      }
+    ],
+    "TalentTierArray": [
+      {
+        "Tier": "1",
+        "Level": "1"
+      },
+      {
+        "Tier": "2",
+        "Level": "4"
+      },
+      {
+        "Tier": "3",
+        "Level": "7"
+      },
+      {
+        "Tier": "4",
+        "Level": "10",
+        "ContainsHeroic": "1"
+      },
+      {
+        "Tier": "5",
+        "Level": "13"
+      },
+      {
+        "Tier": "6",
+        "Level": "16"
+      },
+      {
+        "Tier": "7",
+        "Level": "20"
+      }
+    ],
+    "effective_inheritance_not_resolved": true
+  },
+  "fresh_source_decode_and_unique_pair_aggregates_equal_prior_report": true,
+  "by_name_current_literal_tier_collisions_within_one_source_player": [
+    {
+      "current_literal_tier": 3,
+      "source_purchase_names": [
+        "KaelthasFlamestrikeBurnedFlesh",
+        "KaelthasLivingBombSunKingsFury"
+      ],
+      "source_selection_count": 2
+    }
+  ],
+  "source_Kaelthas_selections": 14,
+  "source_Kaelthas_choices_missing_in_this_literal_tree": 2,
+  "source_Kaelthas_choices_differing_from_literal_document_position": 2,
+  "current_7_observed_indices_equal_zero_based_document_positions": true,
+  "source_GenericArcanePower_missing_from_this_CHero_tree_only": true,
+  "source_SunKingsFury_name_present_in_current_CHero_tree": true,
+  "native_index_equals_document_order_proven_generally": false,
+  "hero_tracker_to_effective_CHero_binding_proven": false,
+  "catalog_inheritance_load_order_and_mod_overrides_resolved": false,
+  "historical41810_rules_recovered": false,
+  "safe_talent_index_migration_established": false,
+  "conversion_changed": false,
+  "replay_or_sync_written": false,
+  "native_target_executed": false,
+  "network_or_game_or_Computer_Use": false,
+  "full_upgrade_complete": false
+}

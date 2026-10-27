@@ -1241,3 +1241,32 @@ uses pinned41810, R8/current use native observed22, tracker uses official
 all work offline: no game, Computer Use, network or remote publication. Full
 upgrade/playback stay false. Continue toward authentic target-context talent
 definitions and historical/current rule equivalence without guessed indices.
+
+## Offline literal current Kaelthas talent definitions — 2026-10-27
+
+Read docs/CURRENT_KAELTHAS_TALENTS_2026-10-27.md and its two dated current-kaelthas
+talent definition/validation receipts. Cached276044B Kaelthas XML SHA39cf6954...
+matches the frozen98348 extraction inventory. Its literal CHero tree has21
+entries. SunKingsFury is present at Tier3/Column2/document position7; original
+recorded index15 selected it twice. GravityCrush/index7 and GenericArcanePower/
+index20 are absent from this tree only; do not assert global removal or rename.
+All7prior current-control Kaelthas observations match zero-based XML document
+positions, which are NOT generally authenticated native indices.
+
+Fresh original decode reproduces all70 earlier pairs; the two Kaelthas players
+made14 purchases,10 distinct index/name pairs. Two names/purchases are missing
+from this tree, two purchases differ from document position,10 match. One
+source player bought both BurnedFlesh and SunKingsFury, whose literal current
+Tier is3. A by-name lookup therefore has a conditional same-player tier
+collision; this is not current rejection, universal tier exclusivity, old tier
+identity or desync proof. The pinned global CHero default separately declares
+Tier3/Level7 and Tier6/Level16; effective inheritance/load order remains unbound.
+
+Independent Expat/ElementTree agree on21tree entries and7default tiers. Prior
+current7observations are reused, not freshly decoded. Replay/draft pins remain
+exact. No production/conversion change, new unit tests, broad corpus, hosted
+CI, peer review or native execution. REA readiness had no open target; no IDA
+or Ghidra analysis was performed in this definition audit. Keep all work
+offline: no game, Computer Use, network or remote publication. Full upgrade/
+playback stay false. Do not apply a guessed15->7 or missing-name replacement;
+authenticate native index/selection rules and effective/historical definitions.
