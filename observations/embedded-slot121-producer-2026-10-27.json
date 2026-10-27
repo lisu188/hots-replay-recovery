@@ -1,0 +1,229 @@
+{
+  "format": "embedded-slot121-selector13-producer-static-proof-v1",
+  "source_patch_SHA256_fresh": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83",
+  "original_PE_SHA256_fresh": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+  "new_native_witnesses": [
+    {
+      "label": "tag3_bounded",
+      "selected_RVA": [
+        "0x1e5cf60",
+        "0x1e5d3d6"
+      ],
+      "selected_bytes": 1142,
+      "selected_instructions": 255,
+      "selected_code_sha256": "777c87ef786d5caa0bc845c614deb99c0a1bc49177c955546574a126351b24e1",
+      "stdout_bytes_including_trailing_decoder_context": 22850,
+      "stdout_sha256": "09e67d61e58fee19106d2df15ee251d76027a68ed1eb4089173724e73ba17729",
+      "selected_pdata_records": [
+        [
+          "0x1e5cf60",
+          "0x1e5d430",
+          "0x2e73950"
+        ]
+      ],
+      "selected_instruction_byte_columns_match_source": true,
+      "selected_end_verified_as_next_instruction_start": true,
+      "trailing_context_counted_in_selected_metrics": false,
+      "last_selected_instruction": {
+        "RVA": "0x1e5d3d5",
+        "text": "ret"
+      },
+      "whole_function_or_CFG_claim": false,
+      "exit_code": 0
+    },
+    {
+      "label": "primary_thunk",
+      "selected_RVA": [
+        "0x1d84540",
+        "0x1d8454c"
+      ],
+      "selected_bytes": 12,
+      "selected_instructions": 2,
+      "selected_code_sha256": "7b9ce95eeb6918a8e157b289720ccf5bdbda0c251f6b2d4edb466830bfcdf42f",
+      "stdout_bytes_including_trailing_decoder_context": 891,
+      "stdout_sha256": "7ac87f7fb50e452b4721384afc97c012416b74b6e20b4c7a1a3ac47be6d11725",
+      "selected_pdata_records": [],
+      "selected_instruction_byte_columns_match_source": true,
+      "selected_end_verified_as_next_instruction_start": true,
+      "trailing_context_counted_in_selected_metrics": false,
+      "last_selected_instruction": {
+        "RVA": "0x1d84547",
+        "text": "jmp    0x141e65070"
+      },
+      "whole_function_or_CFG_claim": false,
+      "exit_code": 0
+    }
+  ],
+  "new_native_bytes": 1154,
+  "new_native_instructions": 257,
+  "rechecked_primary_delegate_bytes": 410,
+  "rechecked_primary_delegate_instructions": 87,
+  "original_PE_primary_vtable_slot": {
+    "table_RVA": "0x28E6CE8",
+    "slot_index": 0,
+    "file_offset": 42884328,
+    "target_VA": "0x141D84540",
+    "word_sha256": "1bc15613370cd7b99f4bfa8a73f20b14f74c4b07b55d4c078dc8bad0c94c4928"
+  },
+  "switch_table": {
+    "RVA_range": [
+      "0x1E5D3D8",
+      "0x1E5D430"
+    ],
+    "bytes": 88,
+    "sha256": "1d3247e721904f22ec9ac4270994bf042e480d39ed4998690f7b0062068086a2",
+    "entry_encoding": "22 unsigned DWORD image-relative RVAs",
+    "entries": [
+      {
+        "selector": 0,
+        "target_RVA": "0x1e5d0c5"
+      },
+      {
+        "selector": 1,
+        "target_RVA": "0x1e5d11a"
+      },
+      {
+        "selector": 2,
+        "target_RVA": "0x1e5d13a"
+      },
+      {
+        "selector": 3,
+        "target_RVA": "0x1e5d15a"
+      },
+      {
+        "selector": 4,
+        "target_RVA": "0x1e5d17a"
+      },
+      {
+        "selector": 5,
+        "target_RVA": "0x1e5d1a7"
+      },
+      {
+        "selector": 6,
+        "target_RVA": "0x1e5d396"
+      },
+      {
+        "selector": 7,
+        "target_RVA": "0x1e5d1c7"
+      },
+      {
+        "selector": 8,
+        "target_RVA": "0x1e5d1e7"
+      },
+      {
+        "selector": 9,
+        "target_RVA": "0x1e5d396"
+      },
+      {
+        "selector": 10,
+        "target_RVA": "0x1e5d207"
+      },
+      {
+        "selector": 11,
+        "target_RVA": "0x1e5d227"
+      },
+      {
+        "selector": 12,
+        "target_RVA": "0x1e5d247"
+      },
+      {
+        "selector": 13,
+        "target_RVA": "0x1e5d26c"
+      },
+      {
+        "selector": 14,
+        "target_RVA": "0x1e5d28c"
+      },
+      {
+        "selector": 15,
+        "target_RVA": "0x1e5d396"
+      },
+      {
+        "selector": 16,
+        "target_RVA": "0x1e5d2d2"
+      },
+      {
+        "selector": 17,
+        "target_RVA": "0x1e5d2f2"
+      },
+      {
+        "selector": 18,
+        "target_RVA": "0x1e5d30f"
+      },
+      {
+        "selector": 19,
+        "target_RVA": "0x1e5d32c"
+      },
+      {
+        "selector": 20,
+        "target_RVA": "0x1e5d349"
+      },
+      {
+        "selector": 21,
+        "target_RVA": "0x1e5d366"
+      }
+    ],
+    "all_entries_are_selected_instruction_starts": true,
+    "selected_case_selector": 13,
+    "selected_case_RVA": "0x1E5D26C",
+    "selector_load_RVA": "0x1E5D0A6",
+    "unsigned_upper_bound": 21,
+    "out_of_range_RVA": "0x1E5D396"
+  },
+  "receiver_route": [
+    "G primary vtable slot0 -> 1D84540, conditional on the initialized stable object",
+    "1D84540 adds D0 to RCX and tail-jumps to 1E65070",
+    "BYTE[entry_RDX]==3 dispatches 1E5CF60 with RCX unchanged and RDX=entry_R8",
+    "1E5CF60 saves the embedded base in R15",
+    "Selected branch forms RCX=R15+3D0 at 1E5D280, hence G+4A0"
+  ],
+  "argument_route": {
+    "argument_address": "RBP-0x79",
+    "plus_0": "QWORD address 0x1428F2A78",
+    "plus_8": "QWORD zero",
+    "plus_10": "DWORD decimal121",
+    "plus_18": "QWORD P+4; P=QWORD[RBP-0x11] retained parsed object",
+    "plus_18_store_RVA": "0x1E5D389",
+    "callback_helper_call_RVA": "0x1E5D391",
+    "helper_RDX": "argument_address",
+    "prior_consumer_reads_same_argument_plus_18": "CD6D83, conditional on the same stable callback node and valid normal ABI"
+  },
+  "parsed_object_production_frontier": {
+    "holder_store_RVA": "0x1E5CFE7",
+    "initial_selector_value": "DWORD -1 at returned object",
+    "parser_virtual_call_RVA": "0x1E5D09B",
+    "parser_virtual_slot_offset": "0x108",
+    "parser_receiver_source": "1E5AA40 return value saved in RSI",
+    "read_virtual_calls_on_entry_RDX_object": [
+      "+0x18",
+      "+0x20",
+      "+0x10"
+    ],
+    "parser_virtual_target_and_schema_semantics_recovered": false,
+    "P_definition": "Pointer reloaded from the holder after the virtual parser call",
+    "parser_replacement_of_holder_pointer_excluded": false
+  },
+  "preconditions": [
+    "Valid initialized stable selected global object and interface storage",
+    "Normal ABI returns and preservation of nonvolatile registers",
+    "Descriptor byte3 and a parsed object selector choosing the inspected case",
+    "Same valid stable callback node from registration to invocation",
+    "No alias or concurrent writes invalidate a stated boundary"
+  ],
+  "whole_function_or_CFG_claim": false,
+  "runtime_reachability_observed": false,
+  "historical_field_values_or_defaults_recovered": false,
+  "new_IDB_created": false,
+  "game_or_ComputerUse_used": false,
+  "codec_or_replay_changed": false,
+  "playback_verified": false,
+  "full_upgrade_complete": false,
+  "source_build": 98348,
+  "source_patch_kind": "Analyst-derived statically transformed text and selected table data; not unaltered PE text or a runtime capture",
+  "native_decoder": "GNU objdump 2.42 in already-running Ubuntu WSL; read-only",
+  "instruction_metrics_exclude_88_byte_switch_table_and_trailing_context": true,
+  "static_producer_path_authenticated_conditionally": true,
+  "same_route_observed_in_live_client": false,
+  "independent_peer_review_performed": false,
+  "previous_index22_path_is_desired_slot121_proof": false
+}
