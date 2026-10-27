@@ -13,6 +13,7 @@ from reference_replay import native
 from migrate_replay import decode_events, encode_events
 from mpq_reader import MPQArchive
 from protocol_loader import load_protocol
+from portable_sync_98348 import decode_sync, summarize_sync
 from repair_unit_tags import components, u32
 
 SOURCE_SHA256 = 'e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824'
@@ -25,16 +26,36 @@ def digest(raw: bytes) -> str:
 
 
 def sync_summary(raw: bytes, elapsed: int) -> dict:
+    """Summarize native record boundaries without inferring divergence semantics."""
     u32(elapsed)
-    if not isinstance(raw, bytes) or not raw or len(raw) > 1024 * 1024 or len(raw) % 5:
-        raise ValueError('Expected nonempty bounded five-byte synchronization records')
-    rows = [raw[pos:pos + 5] for pos in range(0, len(raw), 5)]
+    if type(raw) is not bytes or not raw or len(raw) > 1024 * 1024:
+        raise ValueError('Expected nonempty bounded native synchronization records')
+    records = decode_sync(raw)
+    native_summary = summarize_sync(raw)
+    rows = [raw[record.start_bit // 8:record.end_bit // 8] for record in records]
     prefixes = dict(sorted(Counter(row[:2].hex() for row in rows).items()))
-    return {'sha256': digest(raw), 'bytes': len(raw), 'record_count': len(rows),
-            'prefix_counts': prefixes, 'first_record_hex': rows[0].hex(),
-            'count_matches_elapsed_floor_div_64': len(rows) == elapsed // 64,
-            'record_layout': 'observed five-byte framing; record contents remain opaque',
-            'first_check_tick_measured': False, 'checksum_algorithm_identified': False}
+    first = rows[0]
+    return {'sha256': native_summary['sha256'], 'bytes': len(raw),
+            'record_count': len(records), 'prefix_counts': prefixes,
+            'first_record_hex': first.hex() if len(first) <= 5 else None,
+            'first_record_bytes': len(first),
+            'count_matches_elapsed_floor_div_64': len(records) == elapsed // 64,
+            'count_comparison_basis': 'Record count only; not a cadence or divergence measurement',
+            'record_layout': 'Native98348 typed delta and payload; each record byte-aligned',
+            'profile': native_summary['profile'],
+            'schema_sha256': native_summary['schema_sha256'],
+            'event_id_counts': native_summary['event_id_counts'],
+            'delta_variant_counts': native_summary['delta_variant_counts'],
+            'record_byte_lengths': native_summary['record_byte_lengths'],
+            'vector_words': native_summary['vector_words'],
+            'nonzero_padding_records': native_summary['nonzero_padding_records'],
+            'first_recorded_gameloop': native_summary['first_recorded_gameloop'],
+            'last_recorded_gameloop': native_summary['last_recorded_gameloop'],
+            'byte_exact_roundtrip': native_summary['byte_exact_roundtrip'],
+            'raw_record_prefix_bytes': 2, 'first_record_hex_max_bytes': 5,
+            'parsed_anonymous_payload_values_emitted': False,
+            'first_check_tick_measured': False, 'first_divergent_tick_identified': False,
+            'checksum_algorithm_identified': False, 'playback_compatibility_proven': False}
 
 
 def interval_report(game: list[dict], tracker: list[dict], anchors: dict[str, int],
@@ -155,7 +176,7 @@ def audit(source: Path, candidate: Path, anchor_path: Path) -> dict:
                                        observation['unit_anchors']),
             'source_and_candidate_unchanged': True, 'replay_modified': False,
             'client_playback_validated': False, 'synchronization_equivalence_proven': False,
-            'limitations': ['A 64-loop record cadence is observational, not a measured failure tick.',
+            'limitations': ['Native sync decoding identifies recorded gameloops, not a first divergent tick or a checksum algorithm.',
                             'Absent explicit ability commands do not exclude ability data from initial simulation.',
                             'Recorded tracker identities are not the new engine live object allocation.',
                             'Cross-map anchors reveal a comparison gap, not an automatically valid replacement.']}

@@ -114,26 +114,84 @@ class StartupIntervalTests(unittest.TestCase):
         self.assertEqual(interval_report(game, tracker, anchors), interval_report(game, tracker, anchors))
         self.assertEqual((game, tracker, anchors), before)
 
-    def test_sync_framing_retains_opaque_bytes(self):
-        raw = bytes.fromhex('01408f830001406bbf00')
+    def test_sync_framing_uses_native_record_boundaries(self):
+        raw = bytes.fromhex('0140131a000140131a00')
         r = sync_summary(raw, 128)
-        self.assertEqual(r['first_record_hex'], '01408f8300')
+        self.assertEqual(r['first_record_hex'], '0140131a00')
+        self.assertEqual(r['first_record_bytes'], 5)
         self.assertEqual(r['record_count'], 2)
+        self.assertEqual(r['prefix_counts'], {'0140': 2})
+        self.assertEqual(r['record_byte_lengths'], {5: 2})
+        self.assertEqual(r['event_id_counts'], {2: 2})
+        self.assertEqual((r['first_recorded_gameloop'], r['last_recorded_gameloop']),
+                         (64, 128))
         self.assertTrue(r['count_matches_elapsed_floor_div_64'])
+        self.assertTrue(r['byte_exact_roundtrip'])
         self.assertFalse(r['first_check_tick_measured'])
+        self.assertFalse(r['first_divergent_tick_identified'])
         self.assertFalse(r['checksum_algorithm_identified'])
 
     def test_different_sync_prefix_is_reported_not_discarded(self):
-        r = sync_summary(bytes.fromhex('0240123456'), 64)
+        # Native delta16384/event2/u16=0x1234 is a six-byte record.
+        r = sync_summary(bytes.fromhex('024000131a00'), 64)
         self.assertEqual(r['prefix_counts'], {'0240': 1})
+        self.assertEqual(r['record_count'], 1)
+        self.assertEqual(r['record_byte_lengths'], {6: 1})
+        self.assertEqual(r['first_recorded_gameloop'], 16384)
+        self.assertIsNone(r['first_record_hex'])
 
     def test_different_sync_count_is_reported(self):
-        self.assertFalse(sync_summary(b'12345', 128)['count_matches_elapsed_floor_div_64'])
+        r = sync_summary(bytes.fromhex('00131a00'), 128)
+        self.assertFalse(r['count_matches_elapsed_floor_div_64'])
+        self.assertEqual(r['first_record_hex'], '00131a00')
+        self.assertEqual(r['first_record_bytes'], 4)
+
+    def test_mixed_variable_lengths_are_counted_at_actual_boundaries(self):
+        # Hand-laid-out event1(word0x01234567,u16=0xabcd), then event2.
+        # Two records occupy14 bytes rather than a multiple of five.
+        raw = bytes.fromhex('04000191a2b3abe6010140131a00')
+        r = sync_summary(raw, 128)
+        self.assertEqual((r['bytes'], r['record_count']), (14, 2))
+        self.assertEqual(r['prefix_counts'], {'0140': 1, '0400': 1})
+        self.assertEqual(r['record_byte_lengths'], {5: 1, 9: 1})
+        self.assertEqual(r['event_id_counts'], {1: 1, 2: 1})
+        self.assertEqual(r['delta_variant_counts'], {0: 1, 1: 1})
+        self.assertEqual(r['vector_words'], 1)
+        self.assertEqual((r['first_recorded_gameloop'], r['last_recorded_gameloop']),
+                         (1, 65))
+        # Equal record count does not prove a64-loop cadence or a failing tick.
+        self.assertTrue(r['count_matches_elapsed_floor_div_64'])
+        self.assertFalse(r['first_divergent_tick_identified'])
+        self.assertFalse(r['playback_compatibility_proven'])
+        self.assertIsNone(r['first_record_hex'])
+        self.assertEqual(r['first_record_bytes'], 9)
+        self.assertNotIn('04000191a2b3abe601', repr(r))
+        self.assertFalse(r['parsed_anonymous_payload_values_emitted'])
+
+    def test_noncanonical_wide_delta_keeps_its_physical_length(self):
+        r = sync_summary(bytes.fromhex('03000000154604'), 64)
+        self.assertEqual(r['first_recorded_gameloop'], 1)
+        self.assertEqual(r['delta_variant_counts'], {3: 1})
+        self.assertEqual(r['record_byte_lengths'], {7: 1})
+        self.assertIsNone(r['first_record_hex'])
+        self.assertTrue(r['byte_exact_roundtrip'])
+
+    def test_nonzero_sync_alignment_bits_are_retained(self):
+        r = sync_summary(bytes.fromhex('0140131aaa'), 64)
+        self.assertEqual(r['nonzero_padding_records'], 1)
+        self.assertEqual(r['first_record_hex'], '0140131aaa')
+        self.assertTrue(r['byte_exact_roundtrip'])
 
     def test_invalid_sync_framing_rejected(self):
-        for raw in (b'', b'1', b'123456', '12345'):
+        for raw in (b'', b'1', bytes.fromhex('0140131a'),
+                    bytes.fromhex('04000191a2b3abe6'), '0140131a00'):
             with self.subTest(raw=raw), self.assertRaises(ValueError):
                 sync_summary(raw, 64)
+
+    def test_invalid_elapsed_sync_context_rejected(self):
+        for elapsed in (True, -1, 0x100000000, 1.5):
+            with self.subTest(elapsed=elapsed), self.assertRaises(ValueError):
+                sync_summary(bytes.fromhex('0140131a00'), elapsed)
 
     def test_wrong_replay_rejected_before_decoding(self):
         with tempfile.TemporaryDirectory() as tmp:

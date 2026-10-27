@@ -1,0 +1,174 @@
+{
+  "format": "native-sync-98348-physical-member-audit-v1",
+  "baseline_head": "990357d7af9a9f80855ed05ee85bba89a1770b59",
+  "profile": "native-sync-98348",
+  "schema": {
+    "path": "observations/native-sync-98348-type-closure.json",
+    "bytes": 7456,
+    "sha256": "0c0227b406fcde24f2b3bd56466eae9e867be3b3abeb3f6df303629a10599e1b"
+  },
+  "source_program_sha256": "245aba71f1702e6bae480924df478c8479978e54c383dff4757eb40863932b2f",
+  "source_PE_sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+  "native_context_VA": "0x14393EB80",
+  "native_root_ids": [
+    50,
+    892,
+    893,
+    896
+  ],
+  "official_bit_reader": {
+    "repository": "Blizzard/heroprotocol",
+    "commit": "9af3ea7150f1a8acb53464c92519a9bbcc7a3594",
+    "file": "heroprotocol/decoders.py",
+    "bytes": 9199,
+    "sha256": "17bfb926af0f7f79e18f6299dbae50fc2821c53b229235d4f9c857c7ef3e96b1",
+    "adapter": "An authored native-field adapter calls the upstream BitPackedBuffer; upstream supplies no native sync payload schema."
+  },
+  "six_version": "1.17.0",
+  "six_wheel_sha256": "4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274",
+  "current_official_EU_build": {
+    "url": "https://eu.patch.battle.net/hero/versions",
+    "bytes": 874,
+    "sha256": "f94345ccb04cd3c794ceceb7395efbe6e314eb9a0aec7cb6c3a779b400d74cf4",
+    "eu_row": {
+      "Region": "eu",
+      "BuildConfig": "a64c9b7ebf1c6a811ffefad97865ed80",
+      "CDNConfig": "9575c98a819e557a3e6ec7b003428124",
+      "KeyRing": "",
+      "BuildId": "98348",
+      "VersionsName": "2.57.0.98348",
+      "ProductConfig": "a0c5874544505acfa8952db0b0a4e48f"
+    }
+  },
+  "cases": [
+    {
+      "label": "source41810",
+      "source_bytes": 635140,
+      "source_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+      "source_unchanged": true,
+      "sync_bytes": 1540,
+      "sync_sha256": "62a68b50c8cf0c94da98403dad8cda0f92e02580ec9590b2b32815ee32f8d8ae",
+      "records": 308,
+      "elapsed_game_loops": 19732,
+      "event_id_counts": {
+        "2": 308
+      },
+      "delta_variant_counts": {
+        "1": 308
+      },
+      "first_recorded_gameloop": 64,
+      "last_recorded_gameloop": 19712,
+      "all_recorded_deltas_are_64": true,
+      "record_byte_lengths": {
+        "5": 308
+      },
+      "nonzero_padding_records": 0,
+      "byte_exact_roundtrip": true,
+      "all_fields_match_separate_Blizzard_bit_reader": true,
+      "anonymous_values_emitted": false
+    },
+    {
+      "label": "R8partial98285",
+      "source_bytes": 2438570,
+      "source_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "source_unchanged": true,
+      "sync_bytes": 1540,
+      "sync_sha256": "62a68b50c8cf0c94da98403dad8cda0f92e02580ec9590b2b32815ee32f8d8ae",
+      "records": 308,
+      "elapsed_game_loops": 19732,
+      "event_id_counts": {
+        "2": 308
+      },
+      "delta_variant_counts": {
+        "1": 308
+      },
+      "first_recorded_gameloop": 64,
+      "last_recorded_gameloop": 19712,
+      "all_recorded_deltas_are_64": true,
+      "record_byte_lengths": {
+        "5": 308
+      },
+      "nonzero_padding_records": 0,
+      "byte_exact_roundtrip": true,
+      "all_fields_match_separate_Blizzard_bit_reader": true,
+      "anonymous_values_emitted": false
+    },
+    {
+      "label": "current98348",
+      "source_bytes": 978482,
+      "source_sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4",
+      "source_unchanged": true,
+      "sync_bytes": 1520,
+      "sync_sha256": "3cbe789cc097e038f8cf632819605cd3cfa0acf23454748937a0d5385f3936fc",
+      "records": 304,
+      "elapsed_game_loops": 19459,
+      "event_id_counts": {
+        "2": 304
+      },
+      "delta_variant_counts": {
+        "1": 304
+      },
+      "first_recorded_gameloop": 64,
+      "last_recorded_gameloop": 19456,
+      "all_recorded_deltas_are_64": true,
+      "record_byte_lengths": {
+        "5": 304
+      },
+      "nonzero_padding_records": 0,
+      "byte_exact_roundtrip": true,
+      "all_fields_match_separate_Blizzard_bit_reader": true,
+      "anonymous_values_emitted": false
+    }
+  ],
+  "total_records_compared": 920,
+  "implementation_files": [
+    {
+      "path": "portable_sync_98348.py",
+      "bytes": 9705,
+      "sha256": "1dd1fd9646b6b53368a65e3a5adeda4fc77688ebff1bef9bef82fae2c2601ae1"
+    },
+    {
+      "path": "audit_startup_interval.py",
+      "bytes": 11394,
+      "sha256": "78f25493d01cdeae7590c5d4c57559fd55352ff5c3507b327962d975d379066a"
+    },
+    {
+      "path": "test_portable_sync_98348.py",
+      "bytes": 8406,
+      "sha256": "161030665d19f4f62a8230c5199ec93823433361dee48ba3cc5f5ffe46dcc9d9"
+    },
+    {
+      "path": "test_startup_interval.py",
+      "bytes": 10522,
+      "sha256": "1bc7a8d06694ac4b31eb0f5f3910f5d42fd1dbed76e7b60c650cfd5cccf5364c"
+    }
+  ],
+  "actual_verifier_sha256": "ec3cdf3d902a0e4e7e09e2140bc757c7c6152665e112d9183d66fe09b8c8c2df",
+  "source_R8_sync_byte_equal": true,
+  "focused_tests": {
+    "tests_run": 67,
+    "failures": 0,
+    "errors": 0,
+    "skips": 0,
+    "modules": {
+      "test_portable_sync_98348": 8,
+      "test_startup_interval": 30,
+      "test_catalog_diagnostics": 29
+    }
+  },
+  "old_native_runtime_semantics_proven": false,
+  "whole_game_state_reconstructed": false,
+  "checksum_algorithm_identified": false,
+  "first_actual_divergence_identified": false,
+  "expected_checksum_replaced": false,
+  "replay_modified": false,
+  "game_or_Computer_Use": false,
+  "playback_compatibility_proven": false,
+  "full_upgrade_complete": false,
+  "limitations": [
+    "Physical decoding uses an explicit current-native profile; matching old bytes does not authenticate the historical engine implementation.",
+    "Recorded loop 64 is not an observed mismatch or a recovered current computed checksum.",
+    "The member writer is a source-preserving inverse; no replay archive writer or conversion policy is added.",
+    "The full local regression corpus was not rerun; disk pressure remains above the 90 percent guard."
+  ]
+}

@@ -1,0 +1,370 @@
+{
+  "closure_count": 21,
+  "format": "initializer-bound-stripped-sync-protocol-complete-record-validation-v1",
+  "header": {
+    "count": 1192,
+    "debug_offsets_and_name_pool_present": false,
+    "declared_dump_size": 32386,
+    "explicit_final_zero_suffix_bytes": 12,
+    "final_record_end_exclusive": 13732,
+    "type_end_exclusive": 13744,
+    "type_size": 8956,
+    "type_start": 4788,
+    "unknown": 0,
+    "version": 7
+  },
+  "limits": [
+    "This initializer-bound program includes header, type offsets and type records only, despite a nonzero declared debug size.",
+    "The original unchanged record grammar rejects the twelve-zero final suffix; this exact unnamed profile validates that suffix separately without inferring a general alignment rule.",
+    "Every type record and child reference is parsed; only the requested transitive closure is exported. Type and field names remain None.",
+    "Record shapes alone do not establish old41810 compatibility, complete sync framing, event alignment, or migration authorization."
+  ],
+  "names_authenticated": false,
+  "native_Battlenet8330_registry_equated": false,
+  "pinned_unchanged_named_record_parser": {
+    "bytes": 8377,
+    "full_named_Protocol_rejection": "Declared extent mismatch",
+    "sha256": "0c8021fdcb761a27ca9860f72161110e1156f518678430b9570a49fc20f85f06"
+  },
+  "producer_sha256": "b6a9eddd24a5f5cd3a169e7bfadc139546f6e834f22225f6a1dbdee9357af3a2",
+  "program": {
+    "PE_rva": 41707872,
+    "bytes": 13744,
+    "protocol_context_VA": 5428734848,
+    "sha256": "245aba71f1702e6bae480924df478c8479978e54c383dff4757eb40863932b2f",
+    "source_PE_sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9"
+  },
+  "records": [
+    {
+      "bounds": {
+        "bits": 32,
+        "int_type": 5,
+        "max": 4294967295,
+        "min": 0,
+        "variable": true
+      },
+      "bytes": 11,
+      "header": 9,
+      "id": 3,
+      "kind": "INT",
+      "name": null,
+      "offset": 4805
+    },
+    {
+      "bounds": {
+        "bits": 16,
+        "int_type": 3,
+        "max": 65535,
+        "min": 0,
+        "variable": true
+      },
+      "bytes": 7,
+      "header": 9,
+      "id": 7,
+      "kind": "INT",
+      "name": null,
+      "offset": 4829
+    },
+    {
+      "bounds": {
+        "bits": 6,
+        "int_type": 1,
+        "max": 63,
+        "min": 0,
+        "variable": true
+      },
+      "bytes": 5,
+      "header": 9,
+      "id": 47,
+      "kind": "INT",
+      "name": null,
+      "offset": 5131
+    },
+    {
+      "bounds": {
+        "bits": 14,
+        "int_type": 3,
+        "max": 16383,
+        "min": 0,
+        "variable": true
+      },
+      "bytes": 7,
+      "header": 9,
+      "id": 48,
+      "kind": "INT",
+      "name": null,
+      "offset": 5136
+    },
+    {
+      "bounds": {
+        "bits": 22,
+        "int_type": 5,
+        "max": 4194303,
+        "min": 0,
+        "variable": true
+      },
+      "bytes": 11,
+      "header": 9,
+      "id": 49,
+      "kind": "INT",
+      "name": null,
+      "offset": 5143
+    },
+    {
+      "bounds": {
+        "bits": 2,
+        "int_type": 1,
+        "max": 3,
+        "min": 0,
+        "variable": false
+      },
+      "bytes": 21,
+      "count": 4,
+      "field_names": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "field_types": [
+        51,
+        52,
+        53,
+        54
+      ],
+      "header": 134,
+      "id": 50,
+      "kind": "CHOICE",
+      "name": null,
+      "offset": 5154,
+      "tags": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "bytes": 5,
+      "element_type": 47,
+      "header": 16,
+      "id": 51,
+      "kind": "USER",
+      "name": null,
+      "offset": 5175
+    },
+    {
+      "bytes": 5,
+      "element_type": 48,
+      "header": 16,
+      "id": 52,
+      "kind": "USER",
+      "name": null,
+      "offset": 5180
+    },
+    {
+      "bytes": 5,
+      "element_type": 49,
+      "header": 16,
+      "id": 53,
+      "kind": "USER",
+      "name": null,
+      "offset": 5185
+    },
+    {
+      "bytes": 5,
+      "element_type": 3,
+      "header": 16,
+      "id": 54,
+      "kind": "USER",
+      "name": null,
+      "offset": 5190
+    },
+    {
+      "bytes": 5,
+      "element_type": 3,
+      "header": 16,
+      "id": 348,
+      "kind": "USER",
+      "name": null,
+      "offset": 7348
+    },
+    {
+      "bytes": 5,
+      "element_type": 7,
+      "header": 16,
+      "id": 811,
+      "kind": "USER",
+      "name": null,
+      "offset": 10767
+    },
+    {
+      "bounds": {
+        "bits": 0,
+        "int_type": 0,
+        "max": -1,
+        "min": -1,
+        "variable": false
+      },
+      "bytes": 9,
+      "count": 1,
+      "field_names": [
+        null
+      ],
+      "field_types": [
+        816
+      ],
+      "header": 142,
+      "id": 815,
+      "kind": "STRUCT",
+      "name": null,
+      "offset": 10795,
+      "tags": [
+        -1
+      ]
+    },
+    {
+      "bounds": {
+        "bits": 8,
+        "int_type": 1,
+        "max": 255,
+        "min": 0,
+        "variable": true
+      },
+      "bytes": 9,
+      "element_type": 817,
+      "header": 1,
+      "id": 816,
+      "kind": "ARRAY",
+      "name": null,
+      "offset": 10804
+    },
+    {
+      "bytes": 5,
+      "element_type": 348,
+      "header": 16,
+      "id": 817,
+      "kind": "USER",
+      "name": null,
+      "offset": 10813
+    },
+    {
+      "bounds": {
+        "bits": 1,
+        "int_type": 1,
+        "max": 2,
+        "min": 1,
+        "variable": false
+      },
+      "bytes": 5,
+      "count": 2,
+      "field_names": [
+        null,
+        null
+      ],
+      "header": 135,
+      "id": 892,
+      "kind": "ENUM",
+      "name": null,
+      "offset": 11401,
+      "tags": [
+        1,
+        2
+      ]
+    },
+    {
+      "bounds": {
+        "bits": 1,
+        "int_type": 0,
+        "max": -2,
+        "min": -3,
+        "variable": false
+      },
+      "bytes": 13,
+      "count": 2,
+      "field_names": [
+        null,
+        null
+      ],
+      "field_types": [
+        894,
+        895
+      ],
+      "header": 142,
+      "id": 893,
+      "kind": "STRUCT",
+      "name": null,
+      "offset": 11406,
+      "tags": [
+        -3,
+        -2
+      ]
+    },
+    {
+      "bytes": 5,
+      "element_type": 815,
+      "header": 16,
+      "id": 894,
+      "kind": "USER",
+      "name": null,
+      "offset": 11419
+    },
+    {
+      "bytes": 5,
+      "element_type": 811,
+      "header": 16,
+      "id": 895,
+      "kind": "USER",
+      "name": null,
+      "offset": 11424
+    },
+    {
+      "bounds": {
+        "bits": 0,
+        "int_type": 0,
+        "max": -2,
+        "min": -2,
+        "variable": false
+      },
+      "bytes": 9,
+      "count": 1,
+      "field_names": [
+        null
+      ],
+      "field_types": [
+        897
+      ],
+      "header": 142,
+      "id": 896,
+      "kind": "STRUCT",
+      "name": null,
+      "offset": 11429,
+      "tags": [
+        -2
+      ]
+    },
+    {
+      "bytes": 5,
+      "element_type": 811,
+      "header": 16,
+      "id": 897,
+      "kind": "USER",
+      "name": null,
+      "offset": 11438
+    }
+  ],
+  "replay_samples_bitstream_or_runtime_validation_performed": false,
+  "root_ids": [
+    50,
+    892,
+    893,
+    896
+  ],
+  "validation": {
+    "all_child_references_in_range": true,
+    "all_ordered_boundaries_exact": true,
+    "all_records_consumed_exactly_with_explicit_twelve_zero_suffix": true,
+    "all_type_records": 1192,
+    "materialized_field_count": 982
+  }
+}
