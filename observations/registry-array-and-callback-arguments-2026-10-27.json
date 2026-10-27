@@ -1,0 +1,178 @@
+{
+  "format": "registry-array-and-callback-argument-static-proof-v1",
+  "source_build": 98348,
+  "source_patch_kind": "analyst-derived statically transformed text, not unaltered PE or runtime capture",
+  "source_patch_bytes": 36581376,
+  "source_patch_sha256": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83",
+  "original_PE_bytes": 53573840,
+  "original_PE_sha256_fresh_in_selected_metadata_stage": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+  "native_witnesses": [
+    {
+      "label": "initializer",
+      "RVA": [
+        "0x1d83550",
+        "0x1d83741"
+      ],
+      "bytes": 497,
+      "instructions": 110,
+      "code_sha256": "ece6bcbaa4f91afadaed1afb4ce6b482936e6388eba20ff7947a1a3bdfc166da",
+      "stdout_bytes": 9629,
+      "stdout_sha256": "a83bb7768bdca53a1c37c52fe2927c2cd25476bf684c3bf2c22609637e8f424b",
+      "all_rows_contiguous_and_byte_equal_to_guarded_source": true,
+      "last_RET_included": true,
+      "exit_code": 0,
+      "whole_function_or_CFG_claim": false
+    },
+    {
+      "label": "shutdown",
+      "RVA": [
+        "0x1d84a20",
+        "0x1d84a65"
+      ],
+      "bytes": 69,
+      "instructions": 16,
+      "code_sha256": "b6fc4aeec913510c4a4a8a5b4dd70383acf168545fa2e5dd006f2b810d99b7bd",
+      "stdout_bytes": 1570,
+      "stdout_sha256": "f82fe5582cd385b9941b68a2f98ead49ce2f4723b5df9720c1d275d536cf390b",
+      "all_rows_contiguous_and_byte_equal_to_guarded_source": true,
+      "last_RET_included": true,
+      "exit_code": 0,
+      "whole_function_or_CFG_claim": false
+    },
+    {
+      "label": "empty_slot_helper",
+      "RVA": [
+        "0x2dd9a0",
+        "0x2dd9ab"
+      ],
+      "bytes": 11,
+      "instructions": 3,
+      "code_sha256": "06333eef75398cc88d83d7f31df4f01d89cb3307fea68609abcfd715c96c083d",
+      "stdout_bytes": 434,
+      "stdout_sha256": "c48fc087f6f97ddbeba1cb91b3d4c45335e960606a8471fee63c11c828c7db80",
+      "all_contiguous_bytes_equal_guarded_source": true,
+      "last_RET_included": true,
+      "adjacent_pdata_records": [],
+      "whole_function_or_CFG_claim": false,
+      "exit_code": 0
+    },
+    {
+      "label": "notification_helper",
+      "RVA": [
+        "0x2ddc10",
+        "0x2ddeed"
+      ],
+      "bytes": 733,
+      "instructions": 222,
+      "code_sha256": "b48437cf2771eadd3eae7ac62c5443c817c46a055fefd09dce4d6ab176b56aee",
+      "stdout_bytes": 18323,
+      "stdout_sha256": "14b024f3b86ddc95949cd29e335e98912a7bfa77287e0ceeb15945e27d3480e4",
+      "all_contiguous_bytes_equal_guarded_source": true,
+      "last_RET_included": true,
+      "adjacent_pdata_records": [
+        [
+          "0x2ddc10",
+          "0x2ddc1b",
+          "0x2c2e178"
+        ],
+        [
+          "0x2ddc1b",
+          "0x2ddcb6",
+          "0x2c2e184"
+        ],
+        [
+          "0x2ddcb6",
+          "0x2dddec",
+          "0x2c2e1a4"
+        ],
+        [
+          "0x2dddec",
+          "0x2dde4c",
+          "0x2c2e1b8"
+        ],
+        [
+          "0x2dde4c",
+          "0x2ddeed",
+          "0x2c2e1c8"
+        ]
+      ],
+      "whole_function_or_CFG_claim": false,
+      "exit_code": 0
+    }
+  ],
+  "native_witness_bytes": 1310,
+  "native_instructions": 351,
+  "storage": {
+    "allocation_request_bytes": 2352,
+    "allocator_call_RVA": "0x1D8358D",
+    "embedded_table_pointer_offset": "0xD0",
+    "embedded_table_RVA": "0x28E6BC0",
+    "array_start_offset": "0xD8",
+    "array_end_exclusive": "0x8B0",
+    "slot_stride": 8,
+    "slot_count": 251,
+    "empty_slot_helper_RVA": "0x2DD9A0",
+    "empty_helper_effect": "Writes QWORD[entry_RCX]=0, returns entry_RCX",
+    "selected_slot_offset": "0x4A0",
+    "selected_physical_array_index": 121,
+    "selected_offset_from_embedded_D0_base": "0x3D0",
+    "index_is_event_type_or_resource_identity": false
+  },
+  "lifecycle": {
+    "global_pointer_RVA": "0x3B7C6B0",
+    "candidate_publish_RVA": "0x1D836CE",
+    "post_publish_helper_call_RVA": "0x1D836D8",
+    "post_publish_helper_RVA": "0x1D83080",
+    "post_publish_helper_arguments": [
+      "candidate_pointer",
+      "initializer_original_entry_RCX"
+    ],
+    "failure_zero_store_RVA": "0x1D8370E",
+    "shutdown_zero_store_RVA": "0x1D84A4C",
+    "opaque_cleanup_and_virtual_callees_expanded": false,
+    "initialization_success_and_thread_safety_proven": false
+  },
+  "callback_argument": {
+    "helper_RVA": "0x2DDC10",
+    "save_entry_RDX_to_R12_RVA": "0x2DDC2C",
+    "untagged_key_branch": {
+      "RDX_reload_RVA": "0x2DDD87",
+      "call_RVA": "0x2DDD8A",
+      "call": "QWORD[receiver_vtable+8]"
+    },
+    "tagged_key_branch": {
+      "RDX_reload_RVA": "0x2DDD9C",
+      "call_RVA": "0x2DDD9F",
+      "receiver": "node_key with bit0 cleared",
+      "function": "node+0x10 pointer"
+    },
+    "covered_callback_argument_pointer_equals_helper_entry_RDX": true,
+    "pointed_to_contents_are_entry_snapshot": false,
+    "all_callbacks_or_stable_iteration_guaranteed": false,
+    "prior_CD1660_binding_requires_same_valid_stable_list_node": true
+  },
+  "search_limits": {
+    "fixed_helper_raw_E8_call_matches": 1233,
+    "raw_nearby_derived_slot_offset_candidates": 8,
+    "CDF300_receiver": "entry_RCX retained in RDI",
+    "CDF4E4_helper_receiver": "entry_RCX + 0x4A0",
+    "CDF300_receiver_equals_selected_global_proven": false,
+    "CDF300_global_receiver_equality_status": "unresolved",
+    "actual_payload_producer_identified": false,
+    "RTTI_type_name_recovered": false,
+    "selected_preceding_table_words_not_authenticated_as_expected_locator": true,
+    "whole_program_RTTI_absence_claim": false
+  },
+  "preconditions": [
+    "Valid initialized registry, list nodes, source and receiver storage",
+    "Normal ABI returns and nonvolatile-register preservation",
+    "No pointer or descriptor mutation invalidates a stated call boundary",
+    "Pointer equality is not equality of message contents across callbacks"
+  ],
+  "historical_ClientInfo_values_or_defaults_recovered": false,
+  "new_IDB_created": false,
+  "game_or_ComputerUse_executed": false,
+  "codec_or_replay_changed": false,
+  "playback_verified": false,
+  "full_upgrade_complete": false
+}
