@@ -1,0 +1,418 @@
+{
+  "format": "offline-native-event-user-to-talent-observer-route-v1",
+  "source_PE": {
+    "bytes": 53573840,
+    "sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9"
+  },
+  "transformed_text": {
+    "bytes": 36581376,
+    "sha256": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83",
+    "runtime_capture_or_unchanged_original_PE": false
+  },
+  "original_PE_page_provenance": {
+    "format": "offline-original-PE-observer-selected-page-provenance-v1",
+    "passed": true,
+    "source_PE": {
+      "bytes": 53573840,
+      "sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9"
+    },
+    "pinned_transformed_text": {
+      "bytes": 36581376,
+      "sha256": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83"
+    },
+    "reused_data_transform_source": {
+      "path": "work\\native-reward-function-independent-route-20261020\\reproduce_streamed_seven_code_anchor_chain.py",
+      "bytes": 16258,
+      "sha256": "a6cc9dd3e9246af95a366b4c8dd92c4bd542dad2294b7cb2612bbfd7cf7e0a09"
+    },
+    "key_material": {
+      "rva": "0x2b7a347",
+      "bytes": 42320,
+      "sha256": "242a9738cc7f1aa8acbefd7b96c48c49232ed4e1b2d395dc8d3f2e417a113497",
+      "key_bytes": 368,
+      "blocks": 115
+    },
+    "prefix": {
+      "start_rva": "0xba000",
+      "end_exclusive_rva": "0xb62000",
+      "pages": 2728,
+      "bytes": 11173888,
+      "sha256": "c6ad51cd8b8bac1a09801435b167543a4ecc824ed86494f6ed8e49902b534565",
+      "all_pages_freshly_reproduced_from_original_PE_and_equal_saved_transformed_text": true
+    },
+    "selected_pages": [
+      {
+        "page_rva": "0xb58000",
+        "cipher_page_sha256": "86a7e54a0ac8c9d0e823df70ae5ac0fce4fbefbdfeebb38bc4277e1e9b91aae2",
+        "reproduced_page_sha256": "94ad1b7c1ab28e7ce52ba537af113d22c8df89b7d7138373b93cff5e684371f2",
+        "input_previous_hash": "0x7c781d8c409719be",
+        "output_page_hash": "0xf63e7eb779f8c1f7",
+        "second_data_only_page_transform_and_FNV_equal": true,
+        "whole_page_equal_pinned_transformed_text": true
+      },
+      {
+        "page_rva": "0xb5f000",
+        "cipher_page_sha256": "fdf6048b223f00d692ac6c34c42393890d99f931dc368d3b66d7b430341896aa",
+        "reproduced_page_sha256": "cc7dd1f54421ba4154205c8be1ebb389a21164be79b606487113738bc34b0d12",
+        "input_previous_hash": "0x85f2dbc614c51b31",
+        "output_page_hash": "0x17469a2142be34f8",
+        "second_data_only_page_transform_and_FNV_equal": true,
+        "whole_page_equal_pinned_transformed_text": true
+      },
+      {
+        "page_rva": "0xb61000",
+        "cipher_page_sha256": "e149baa79c521669e802363d33a531b3118328259b300b5a2eb1065551b8fa01",
+        "reproduced_page_sha256": "bec31006ab5381088ecaaf723df0befe6a8644ce80a031bb99fc35fa857895c2",
+        "input_previous_hash": "0x3df8c36b5ca43979",
+        "output_page_hash": "0xabae6a9906484a7d",
+        "second_data_only_page_transform_and_FNV_equal": true,
+        "whole_page_equal_pinned_transformed_text": true
+      }
+    ],
+    "selected_ranges": [
+      {
+        "label": "observer_entry",
+        "rva": "0xb58e70",
+        "bytes": 48,
+        "sha256": "e84a346ab2df340eb47558954c1088837790312476051154284bbfa5251d1211",
+        "inside_freshly_reproduced_selected_page": true,
+        "original_cipher_bytes_equal_plain": false
+      },
+      {
+        "label": "switch_suffix",
+        "rva": "0xb5f709",
+        "bytes": 53,
+        "sha256": "df64f6de60d479841a30bd3b6181631b30325eded0e9778dd9cd2ed56463296a",
+        "inside_freshly_reproduced_selected_page": true,
+        "original_cipher_bytes_equal_plain": false
+      },
+      {
+        "label": "switch_call_arm",
+        "rva": "0xb5f9a9",
+        "bytes": 20,
+        "sha256": "6b1dc4e2b8a2d0eb2752fd50c0caad4144eb220278725d82166fd38d38b990fd",
+        "inside_freshly_reproduced_selected_page": true,
+        "original_cipher_bytes_equal_plain": false
+      },
+      {
+        "label": "switch_RVA_table",
+        "rva": "0xb5f9ec",
+        "bytes": 116,
+        "sha256": "eb400546e4e3352564a06cd16101cb3c72a6bd6474b8e986037964b00ad46bca",
+        "inside_freshly_reproduced_selected_page": true,
+        "original_cipher_bytes_equal_plain": false
+      },
+      {
+        "label": "switch_selector_table",
+        "rva": "0xb5fa60",
+        "bytes": 99,
+        "sha256": "146e4d95bf144da18519e3ae9bb8a9b6e37d4344dc80100a53a6b9fd249562fc",
+        "inside_freshly_reproduced_selected_page": true,
+        "original_cipher_bytes_equal_plain": false
+      },
+      {
+        "label": "event_callback",
+        "rva": "0xb612d0",
+        "bytes": 226,
+        "sha256": "a080ad410ef3ddda93dc277772a341fd3077d86464a3fe2c042bd780af1dc5f6",
+        "inside_freshly_reproduced_selected_page": true,
+        "original_cipher_bytes_equal_plain": false
+      }
+    ],
+    "seconds": 2.187,
+    "analyst_transform_parameters": {
+      "initial_previous_hash_hypothesis": 0,
+      "page_bytes": 4096,
+      "FNV1a64_basis": "0xcbf29ce484222325",
+      "FNV1a64_prime": "0x100000001b3"
+    },
+    "limits": [
+      "data-only reproduction authenticates selected transformed bytes under the analyst page-transform model",
+      "does not prove the native bootstrap chooses these parameters or completes the same chain at runtime",
+      "does not prove normalized control flow through the obfuscated dispatcher prefix",
+      "original PE switch table bytes are ciphertext and remain different from transformed plaintext",
+      "no native target executed, runtime memory captured, live effective catalog or replay playback observed"
+    ],
+    "native_target_executed": false,
+    "network_or_game_or_Computer_Use": false,
+    "new_replay_or_sync_written": false,
+    "full_upgrade_complete": false
+  },
+  "qualified_ranges": [
+    {
+      "label": "frame",
+      "start_rva": "0x13266b0",
+      "end_exclusive_rva": "0x132684e",
+      "bytes": 414,
+      "instructions": 119,
+      "sha256": "84ae6341e89905b6545035d0032481e3710480ff23e6d3de3f0cbf4894e91229",
+      "covering_original_RuntimeFunction": [
+        "0x13266b0",
+        "0x13266da",
+        "0x2d869e4"
+      ],
+      "extent_basis": "previous complete original RuntimeFunction/CHAININFO union reused and freshly byte-checked",
+      "all_selected_direct_noncall_branches_internal": true
+    },
+    {
+      "label": "event_ctor",
+      "start_rva": "0x1351460",
+      "end_exclusive_rva": "0x1351497",
+      "bytes": 55,
+      "instructions": 13,
+      "sha256": "162b2d814d6a239da143a7b4cfddfcda61b781992edb1087a7c09002f3cfc7e2",
+      "covering_original_RuntimeFunction": null,
+      "extent_basis": "straight-line selected leaf through its only RET; padding after RET excluded",
+      "all_selected_direct_noncall_branches_internal": true
+    },
+    {
+      "label": "callback",
+      "start_rva": "0xb612d0",
+      "end_exclusive_rva": "0xb613b2",
+      "bytes": 226,
+      "instructions": 60,
+      "sha256": "a080ad410ef3ddda93dc277772a341fd3077d86464a3fe2c042bd780af1dc5f6",
+      "covering_original_RuntimeFunction": [
+        "0xb612d0",
+        "0xb613b2",
+        "0x2cd8594"
+      ],
+      "extent_basis": "previous complete original RuntimeFunction/CHAININFO union reused and freshly byte-checked",
+      "all_selected_direct_noncall_branches_internal": true
+    },
+    {
+      "label": "user_lookup_leaf_a28b60",
+      "start_rva": "0xa28b60",
+      "end_exclusive_rva": "0xa28b98",
+      "bytes": 56,
+      "instructions": 12,
+      "sha256": "08d7acfb271f5df8d525d10b170b23c5c0f6674d0544a23f1dd6b2f5289ce1cc",
+      "covering_original_RuntimeFunction": null,
+      "extent_basis": "straight-line selected leaf through its only RET; padding after RET excluded",
+      "all_selected_direct_noncall_branches_internal": true
+    },
+    {
+      "label": "user_lookup_202ed90",
+      "start_rva": "0x202ed90",
+      "end_exclusive_rva": "0x202edee",
+      "bytes": 94,
+      "instructions": 27,
+      "sha256": "e889287eb2606b84d651c18b0b7a4b15eabd2e13128ae0b1ceb409630ec61ad3",
+      "covering_original_RuntimeFunction": [
+        "0x202ed90",
+        "0x202edee",
+        "0x2e97180"
+      ],
+      "extent_basis": "complete original RuntimeFunction union",
+      "all_selected_direct_noncall_branches_internal": true
+    }
+  ],
+  "qualified_range_count": 5,
+  "qualified_bytes": 845,
+  "qualified_instructions": 231,
+  "selected_instruction_checks": [
+    {
+      "rva": "0x1326765",
+      "bytes": "4c8d4c2450",
+      "assembly": "lea    r9,[rsp+0x50]"
+    },
+    {
+      "rva": "0x132677f",
+      "bytes": "c644245010",
+      "assembly": "mov    BYTE PTR [rsp+0x50],0x10"
+    },
+    {
+      "rva": "0x132678e",
+      "bytes": "85c0",
+      "assembly": "test   eax,eax"
+    },
+    {
+      "rva": "0x13267b4",
+      "bytes": "0fb6442450",
+      "assembly": "movzx  eax,BYTE PTR [rsp+0x50]"
+    },
+    {
+      "rva": "0x13267b9",
+      "bytes": "884129",
+      "assembly": "mov    BYTE PTR [rcx+0x29],al"
+    },
+    {
+      "rva": "0x1351470",
+      "bytes": "66c741281010",
+      "assembly": "mov    WORD PTR [rcx+0x28],0x1010"
+    },
+    {
+      "rva": "0x1351492",
+      "bytes": "c6412a10",
+      "assembly": "mov    BYTE PTR [rcx+0x2a],0x10"
+    },
+    {
+      "rva": "0xb612da",
+      "bytes": "0fb64a29",
+      "assembly": "movzx  ecx,BYTE PTR [rdx+0x29]"
+    },
+    {
+      "rva": "0xb612de",
+      "bytes": "33db",
+      "assembly": "xor    ebx,ebx"
+    },
+    {
+      "rva": "0xb612e0",
+      "bytes": "895c2438",
+      "assembly": "mov    DWORD PTR [rsp+0x38],ebx"
+    },
+    {
+      "rva": "0xb612e4",
+      "bytes": "488bfa",
+      "assembly": "mov    rdi,rdx"
+    },
+    {
+      "rva": "0xb612f0",
+      "bytes": "440fb64802",
+      "assembly": "movzx  r9d,BYTE PTR [rax+0x2]"
+    },
+    {
+      "rva": "0xb612f5",
+      "bytes": "448d4301",
+      "assembly": "lea    r8d,[rbx+0x1]"
+    },
+    {
+      "rva": "0xb612f9",
+      "bytes": "488d542438",
+      "assembly": "lea    rdx,[rsp+0x38]"
+    },
+    {
+      "rva": "0xb61306",
+      "bytes": "8b442438",
+      "assembly": "mov    eax,DWORD PTR [rsp+0x38]"
+    },
+    {
+      "rva": "0xb61370",
+      "bytes": "0fb65b44",
+      "assembly": "movzx  ebx,BYTE PTR [rbx+0x44]"
+    },
+    {
+      "rva": "0xb61374",
+      "bytes": "0fb64f2a",
+      "assembly": "movzx  ecx,BYTE PTR [rdi+0x2a]"
+    },
+    {
+      "rva": "0xb6137a",
+      "bytes": "0fb65f2a",
+      "assembly": "movzx  ebx,BYTE PTR [rdi+0x2a]"
+    },
+    {
+      "rva": "0xb61394",
+      "bytes": "8b5730",
+      "assembly": "mov    edx,DWORD PTR [rdi+0x30]"
+    },
+    {
+      "rva": "0xa28b82",
+      "bytes": "0fb6c1",
+      "assembly": "movzx  eax,cl"
+    },
+    {
+      "rva": "0xa28b85",
+      "bytes": "4805b0000000",
+      "assembly": "add    rax,0xb0"
+    },
+    {
+      "rva": "0xa28b8b",
+      "bytes": "4869c0a4010000",
+      "assembly": "imul   rax,rax,0x1a4"
+    },
+    {
+      "rva": "0xa28b92",
+      "bytes": "4803442410",
+      "assembly": "add    rax,QWORD PTR [rsp+0x10]"
+    },
+    {
+      "rva": "0x202edb4",
+      "bytes": "46388c1b84000000",
+      "assembly": "cmp    BYTE PTR [rbx+r11*1+0x84],r9b"
+    },
+    {
+      "rva": "0x202edc9",
+      "bytes": "428b4c9b04",
+      "assembly": "mov    ecx,DWORD PTR [rbx+r11*4+0x4]"
+    },
+    {
+      "rva": "0x202edce",
+      "bytes": "890a",
+      "assembly": "mov    DWORD PTR [rdx],ecx"
+    },
+    {
+      "rva": "0x202edd4",
+      "bytes": "413bc8",
+      "assembly": "cmp    ecx,r8d"
+    },
+    {
+      "rva": "0x1326789",
+      "direct_call_target": "0x1a713d0"
+    },
+    {
+      "rva": "0x13267a3",
+      "direct_call_target": "0x1352350"
+    },
+    {
+      "rva": "0xb612e7",
+      "direct_call_target": "0xa28b60"
+    },
+    {
+      "rva": "0xb61301",
+      "direct_call_target": "0x202ed90"
+    },
+    {
+      "rva": "0xb6139a",
+      "direct_call_target": "0xb10720"
+    }
+  ],
+  "selected_direct_branch_target_checks": 34,
+  "event_user_field": {
+    "frame_user_root": 890,
+    "original_type_slot_rva": "0x27c9f28",
+    "frame_root_output_stack_offset": "0x50",
+    "event_byte_offset": "0x29",
+    "store_rva": "0x13267b9",
+    "callback_load_rva": "0xb612da",
+    "wire_user_to_callback_field_bound_under_conditions": true,
+    "upstream_wire_field_correspondence": "m_userId",
+    "intervening_dispatch_mutation_excluded": false
+  },
+  "lookup_route": {
+    "first_lookup_entry_rva": "0xa28b60",
+    "input": "low byte of event+0x29",
+    "address_formula": "encoded_global_base + (uint8(input) + 0xb0) * 0x1a4",
+    "row_size_bytes": 420,
+    "filter_entry_rva": "0x202ed90",
+    "row_count_byte_offset": 0,
+    "row_tag_for_callback_byte_offset": 2,
+    "item_dword_array_offset": 4,
+    "item_tag_byte_array_offset": "0x84",
+    "callback_output_capacity": 1,
+    "behavior": "return at most the first matching-tag item DWORD; callback output was initialized to zero",
+    "callback_validates_handle_and_object_identity_before_reading_byte44": true,
+    "successful_lookup_first_selector": "resolved object byte+0x44",
+    "fallback_first_selector": "event byte+0x2a",
+    "fallback_byte_initialized_in_event_constructor": 16,
+    "effective_global_base_rows_handles_and_resolved_byte44_captured": false,
+    "resolved_object_type_or_first_selector_namespace_bound": false,
+    "wire_user_equal_first_selector_or_user_plus_one_established": false
+  },
+  "conditions": [
+    "normally returning helpers and Windows x64 ABI",
+    "valid initialized stream/event/row/output storage with no alias mutation",
+    "native root890 output layout and previous physical m_userId correspondence apply",
+    "the same event reaches callback with byte29 preserved",
+    "dispatcher suffix reached under its prior image-base and transformed-table conditions",
+    "valid resolved handle and stable object identity for successful-lookup branch"
+  ],
+  "whole_obfuscated_dispatcher_CFG_or_factory_to_consumer_proven": false,
+  "native_target_executed": false,
+  "REA_native_provider_analysis": false,
+  "new_replay_or_sync_written": false,
+  "production_or_conversion_changed": false,
+  "safe_talent_index_mapping_established": false,
+  "network_or_game_or_Computer_Use": false,
+  "full_upgrade_complete": false
+}

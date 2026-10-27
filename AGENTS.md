@@ -1377,3 +1377,38 @@ production/conversion/replay/sync change, native execution, unit tests, broad
 corpus, hosted CI or peer review. Keep all work offline: no game, Computer Use,
 network or publication; full upgrade/playback false. Next authenticate the
 dispatcher prefix and effective selector/catalog/historical rule bindings.
+
+
+## Offline observer user route and selected-page provenance - 2026-10-27
+
+Read docs/NATIVE_OBSERVER_USER_ROUTE_2026-10-27.md and its two dated native-
+observer-user-route receipts. Sequential13266B0 reads root890 into stack50,
+then13267B9 stores its byte to event+29 after successful reads/nonnull object.
+CallbackB612D0 reads that byte and callsA28B60, which computes encoded-base+
+(uint8(input)+B0)*1A4. Filter202ED90 takes the first matching-tag DWORD item
+with callback capacity1. A valid resolved object's byte44 is the first writer
+selector; fallback uses event+2A. Native constructor sets29/2A initially16.
+The row/object namespace, effective base/contents, tags and bitmask remain
+unbound. Do not infer user==selector or user+1; intermediate dispatcher field
+preservation and end-to-end event delivery remain unproved.
+
+Fresh original-PE data transform reproduced2728pages/11173888B fromBA000 through
+B62000, exactly equal to the pinned saved transformed prefix. Three selected
+pages B58000/B5F000/B61000 also match a second local page-transform/FNV routine.
+This authenticates those derived bytes under the explicit analyst model;
+native bootstrap initial state/parameter selection/execution is NOT proved.
+Original switch-table ciphertext still differs from transformed plaintext.
+
+Five qualified ranges845B/231instr,34internal direct-branch targets and32
+specific instruction/call checks pass. Complete prior frame/callback unions,
+complete202ED90 record and only-RET straight-line leaves are separate from
+the opaque dispatcher. Normal x64 ABI, valid disjoint storage, preserved
+event29 and stable handles/objects remain conditions. REA readiness has no
+open target/pending cleanup; configured IDA is not live-probed, no new native
+engine session/database opened. Ordinary Python/GNU objdump/WSL evidence only.
+
+Replay/draft hashes unchanged; no fresh stream decode, unit tests, broad
+corpus, hosted CI, peer review, production/conversion/replay/sync change or
+native execution. Keep all work offline: no game, Computer Use, network or
+publication; full upgrade/playback false. Next bind dispatcher preservation,
+the actual row/object/selector, effective catalog and historical41810 rules.
