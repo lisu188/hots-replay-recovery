@@ -1,0 +1,388 @@
+{
+  "format": "hots-version-validation-REA-IDA-and-independent-GNU-check-v1",
+  "original_PE_sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+  "transformed_patch_sha256": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83",
+  "analyst_derived_carrier_sha256": "ef334e3631913404f906d2640b1270c5c99475ce68ecda86877c56f1ea050d9e",
+  "carrier_bytes": 9216,
+  "selected_functions": [
+    {
+      "rva": "0xcfa810",
+      "selected_end_exclusive": "0xcfa8d5",
+      "bytes": 197,
+      "instructions": 59,
+      "code_sha256": "1f4d77bb6ea921c91008fb6b7c346603080cfaf8d2d41d57659aad9a455569bb",
+      "IDA_evidence_id": "ev_069fd50eb94e15bd8c9321ad5da4b973b0c8f6e267f436b51fddd79c59ee528d",
+      "IDA_evidence_file_sha256": "3d738dd8d92f45723593cd7ee0aa005e098b017ddfe5d89a45b57616d34adc37",
+      "IDA_pseudocode_sha256": "b18f19495517d3fca60618d5aab140ab99544a50eea1556d5881b19d287b1522",
+      "independent_boundary_and_byte_match": true,
+      "direct_relative_calls": [
+        {
+          "site_rva": "0xcfa83e",
+          "target_rva": "0x271c60"
+        },
+        {
+          "site_rva": "0xcfa854",
+          "target_rva": "0x271b50"
+        },
+        {
+          "site_rva": "0xcfa862",
+          "target_rva": "0x271ce0"
+        },
+        {
+          "site_rva": "0xcfa87b",
+          "target_rva": "0x2719b0"
+        }
+      ],
+      "all_relative_noncall_targets_internal": true,
+      "relative_noncall_branches": [
+        {
+          "site_rva": "0xcfa845",
+          "target_rva": "0xcfa84e"
+        },
+        {
+          "site_rva": "0xcfa84c",
+          "target_rva": "0xcfa8ba"
+        },
+        {
+          "site_rva": "0xcfa85d",
+          "target_rva": "0xcfa876"
+        },
+        {
+          "site_rva": "0xcfa86a",
+          "target_rva": "0xcfa892"
+        },
+        {
+          "site_rva": "0xcfa86f",
+          "target_rva": "0xcfa88b"
+        },
+        {
+          "site_rva": "0xcfa874",
+          "target_rva": "0xcfa8b5"
+        },
+        {
+          "site_rva": "0xcfa882",
+          "target_rva": "0xcfa899"
+        },
+        {
+          "site_rva": "0xcfa889",
+          "target_rva": "0xcfa8ba"
+        },
+        {
+          "site_rva": "0xcfa890",
+          "target_rva": "0xcfa8ba"
+        },
+        {
+          "site_rva": "0xcfa897",
+          "target_rva": "0xcfa8ba"
+        },
+        {
+          "site_rva": "0xcfa8a1",
+          "target_rva": "0xcfa8b5"
+        },
+        {
+          "site_rva": "0xcfa8a8",
+          "target_rva": "0xcfa8b5"
+        },
+        {
+          "site_rva": "0xcfa8af",
+          "target_rva": "0xcfa8b5"
+        },
+        {
+          "site_rva": "0xcfa8b3",
+          "target_rva": "0xcfa8ba"
+        }
+      ],
+      "selected_RET_sites": [
+        "0xcfa8d4"
+      ],
+      "original_pdata_record_extent": true,
+      "provider_complete_body_ranges": false
+    },
+    {
+      "rva": "0x2719b0",
+      "selected_end_exclusive": "0x271a6d",
+      "bytes": 189,
+      "instructions": 55,
+      "code_sha256": "d86ad369356e9c3ea0195932a860a0dcd8686d3353fc8e35bdb07c36e29b7a40",
+      "IDA_evidence_id": "ev_90390c8aef5103f64e0db64aa1bbcfbf7cd9531fafec0992b2d136b4e3aa4d81",
+      "IDA_evidence_file_sha256": "04daba1a04fd783757d8bc7ae116dc10633ea61523e0c8446a37f1115d4cc414",
+      "IDA_pseudocode_sha256": "aef9759f36668c59a41da5a56ff6161e7b5bc4c955c91e706a2efff47504cfc0",
+      "independent_boundary_and_byte_match": true,
+      "direct_relative_calls": [
+        {
+          "site_rva": "0x2719bf",
+          "target_rva": "0x2befe0"
+        },
+        {
+          "site_rva": "0x2719d1",
+          "target_rva": "0x2befe0"
+        },
+        {
+          "site_rva": "0x2719da",
+          "target_rva": "0x2b1f90"
+        },
+        {
+          "site_rva": "0x2719ec",
+          "target_rva": "0x1eeeb20"
+        },
+        {
+          "site_rva": "0x271a26",
+          "target_rva": "0x2befe0"
+        },
+        {
+          "site_rva": "0x271a3d",
+          "target_rva": "0x1a2b250"
+        },
+        {
+          "site_rva": "0x271a47",
+          "target_rva": "0x2bca10"
+        }
+      ],
+      "all_relative_noncall_targets_internal": true,
+      "relative_noncall_branches": [
+        {
+          "site_rva": "0x2719c6",
+          "target_rva": "0x2719d1"
+        },
+        {
+          "site_rva": "0x2719cf",
+          "target_rva": "0x271a16"
+        },
+        {
+          "site_rva": "0x2719d8",
+          "target_rva": "0x2719e1"
+        },
+        {
+          "site_rva": "0x2719df",
+          "target_rva": "0x2719f1"
+        },
+        {
+          "site_rva": "0x2719ea",
+          "target_rva": "0x2719f1"
+        },
+        {
+          "site_rva": "0x2719f3",
+          "target_rva": "0x271a5d"
+        },
+        {
+          "site_rva": "0x271a09",
+          "target_rva": "0x271a26"
+        },
+        {
+          "site_rva": "0x271a14",
+          "target_rva": "0x271a26"
+        },
+        {
+          "site_rva": "0x271a2d",
+          "target_rva": "0x271a50"
+        },
+        {
+          "site_rva": "0x271a4e",
+          "target_rva": "0x271a5d"
+        }
+      ],
+      "selected_RET_sites": [
+        "0x271a25",
+        "0x271a5c",
+        "0x271a6c"
+      ],
+      "original_pdata_record_extent": true,
+      "provider_complete_body_ranges": false
+    },
+    {
+      "rva": "0x271b50",
+      "selected_end_exclusive": "0x271c54",
+      "bytes": 260,
+      "instructions": 69,
+      "code_sha256": "58acb49aa71d214b58b104f0b955b94649d49ff9f03da8758c4daf42e5b30f13",
+      "IDA_evidence_id": "ev_80cf94158d3cd4ef2342e62187253b92014f13088ed80be60b4754522f93cff5",
+      "IDA_evidence_file_sha256": "03b8f3bf872ff3caf813acc549fefa1cc15e533ba36d7e75861cd63ce75c4dee",
+      "IDA_pseudocode_sha256": "101a7fefa4cdeaaf5061c877c23fb31f24dd6d2621e444d9fa49a9d540ebbabc",
+      "independent_boundary_and_byte_match": true,
+      "direct_relative_calls": [
+        {
+          "site_rva": "0x271b6c",
+          "target_rva": "0x2befe0"
+        },
+        {
+          "site_rva": "0x271b75",
+          "target_rva": "0x115aa10"
+        },
+        {
+          "site_rva": "0x271b83",
+          "target_rva": "0x2b1f40"
+        },
+        {
+          "site_rva": "0x271b9a",
+          "target_rva": "0x2c0550"
+        },
+        {
+          "site_rva": "0x271bb7",
+          "target_rva": "0x1a2b250"
+        },
+        {
+          "site_rva": "0x271bbc",
+          "target_rva": "0x1384490"
+        },
+        {
+          "site_rva": "0x271bc1",
+          "target_rva": "0x1384490"
+        },
+        {
+          "site_rva": "0x271bc6",
+          "target_rva": "0x1384490"
+        },
+        {
+          "site_rva": "0x271bcb",
+          "target_rva": "0x1eeeb20"
+        },
+        {
+          "site_rva": "0x271bd0",
+          "target_rva": "0x1eeeae0"
+        }
+      ],
+      "all_relative_noncall_targets_internal": true,
+      "relative_noncall_branches": [
+        {
+          "site_rva": "0x271b73",
+          "target_rva": "0x271bbc"
+        },
+        {
+          "site_rva": "0x271b7c",
+          "target_rva": "0x271bbc"
+        },
+        {
+          "site_rva": "0x271bec",
+          "target_rva": "0x271bf9"
+        },
+        {
+          "site_rva": "0x271bf7",
+          "target_rva": "0x271c24"
+        },
+        {
+          "site_rva": "0x271c10",
+          "target_rva": "0x271c19"
+        },
+        {
+          "site_rva": "0x271c17",
+          "target_rva": "0x271c24"
+        },
+        {
+          "site_rva": "0x271c1c",
+          "target_rva": "0x271c28"
+        },
+        {
+          "site_rva": "0x271c22",
+          "target_rva": "0x271c28"
+        },
+        {
+          "site_rva": "0x271c26",
+          "target_rva": "0x271c2a"
+        },
+        {
+          "site_rva": "0x271c2e",
+          "target_rva": "0x271c44"
+        },
+        {
+          "site_rva": "0x271c32",
+          "target_rva": "0x271c44"
+        }
+      ],
+      "selected_RET_sites": [
+        "0x271c43",
+        "0x271c53"
+      ],
+      "original_pdata_record_extent": true,
+      "provider_complete_body_ranges": false
+    },
+    {
+      "rva": "0x271c60",
+      "selected_end_exclusive": "0x271c66",
+      "bytes": 6,
+      "instructions": 3,
+      "code_sha256": "62d7ac31f143bdc0a0c7d0768842231df3a13b7b516e4b10f0819b580a0c0613",
+      "IDA_evidence_id": "ev_dd68090cc9118cbae2919cac2e73b9ca6db8f8a348936c1293f989506423bfe2",
+      "IDA_evidence_file_sha256": "2b39650037ba730fcb02cc6c3bd5c214803b666a7f92433390f122f6038b2a59",
+      "IDA_pseudocode_sha256": "0bdb96c9829b59138b7ce47309f1167726e0d0acebe2035e05fe895b49d7abec",
+      "independent_boundary_and_byte_match": true,
+      "direct_relative_calls": [],
+      "all_relative_noncall_targets_internal": true,
+      "relative_noncall_branches": [],
+      "selected_RET_sites": [
+        "0x271c65"
+      ],
+      "original_pdata_record_extent": false,
+      "provider_complete_body_ranges": false
+    },
+    {
+      "rva": "0x271ce0",
+      "selected_end_exclusive": "0x271d31",
+      "bytes": 81,
+      "instructions": 27,
+      "code_sha256": "f371ea65a827a3542570d43dd1780b1a72fc9b88b0af6e83d92d221ab9848eb3",
+      "IDA_evidence_id": "ev_4141becfee554e615468a1f00c03cb293ec8a282458b97388c825e7204880831",
+      "IDA_evidence_file_sha256": "7696cf69b944f11471e92fab92b54960e97fe51d9aa82c6d786a80882637baba",
+      "IDA_pseudocode_sha256": "b6ffc518aad003990779ac8e9d748b375b09ba33c44cb1edc7fef60a6aac8fff",
+      "independent_boundary_and_byte_match": true,
+      "direct_relative_calls": [
+        {
+          "site_rva": "0x271cee",
+          "target_rva": "0x262f90"
+        }
+      ],
+      "all_relative_noncall_targets_internal": true,
+      "relative_noncall_branches": [
+        {
+          "site_rva": "0x271cf9",
+          "target_rva": "0x271d12"
+        },
+        {
+          "site_rva": "0x271d05",
+          "target_rva": "0x271d12"
+        },
+        {
+          "site_rva": "0x271d16",
+          "target_rva": "0x271d29"
+        },
+        {
+          "site_rva": "0x271d1c",
+          "target_rva": "0x271d29"
+        }
+      ],
+      "selected_RET_sites": [
+        "0x271d11",
+        "0x271d28",
+        "0x271d30"
+      ],
+      "original_pdata_record_extent": true,
+      "provider_complete_body_ranges": false
+    }
+  ],
+  "selected_code_bytes": 733,
+  "selected_instructions": 213,
+  "literal_getter": {
+    "rva": "0x1eeeae0",
+    "end_exclusive": "0x1eeeae6",
+    "bytes": 6,
+    "instructions": 2,
+    "returns_EAX": 98348,
+    "code_sha256": "88b6b574c4978d2ff2034a94e332565498f8ffb21b9378c28bf28c4c4180d3c6",
+    "tool": "ordinary exact-byte inspection and GNU objdump; not an additional REA dossier"
+  },
+  "independent_peer_review": false,
+  "focused_checks_passed": true,
+  "lifecycle": {
+    "five_REA_dossiers_exported": true,
+    "REA_graceful_close_confirmed": false,
+    "owned_Job_zero_active": true,
+    "forced_Job_cleanup": false,
+    "elapsed_seconds": 10.063,
+    "peak_monitored_workspace_bytes": 196703,
+    "REA_cleanup_error": "upstream worker registry did not confirm release after close; private workspace retained"
+  },
+  "target_code_executed": false,
+  "Computer_Use": false,
+  "replay_modified": false,
+  "playback_verified": false,
+  "full_upgrade_complete": false
+}
