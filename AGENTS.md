@@ -1576,3 +1576,48 @@ production/conversion/sync change, unit tests, native execution, REA provider,
 hosted CI or peer review. Keep all work offline: no game, Computer Use, network
 or publication; full upgrade/playback false. Next authenticate concrete publisher
 and initial ownership/setup, then effective and historical41810 talent rules.
+
+
+## Offline owner-event publisher to tracker writer - 2026-10-27
+
+Read docs/NATIVE_TRACKER_PUBLISHER_2026-10-27.md and its two dated
+native-tracker-publisher receipts. Initial global2F825F8 XOR50C23112 is null.
+Qualified13297D0 status20020000 branch constructs object387C290 via13237D0,
+XOR-encodes it and stores at1329907. Constructor installs primary27BC518,
+clears enabled byte1BC and constructs container1D940. Startup/active mode and
+later replacements remain unobserved; raw RIP candidates are not exhaustive
+alias/write proof. Three original cells bind slot180->132FE70,288->133C5B0,
+298->132B7F0. The latter8B leaf reads manager byte1BC.
+
+Factory1342E30 uses that decoded manager and publishes through slot180.
+Handler132FE70 preserves the event pointer, rechecks enabled state, then calls
+132AC50 at132FEAB with manager+1E630 only if the previous atomic32 counter at
+manager+1C0 was0. Its enabled normal path decrements the counter afterward.
+Selected record-start133C5B0 opens container manager+1D940 via134E890 and sets
+enabled1 at133C614 on zero result. Writer-mode134F04B calls134E510 for CF0;
+1D940+CF0=1E630, the SAME tracker state used by the publisher. Tracker atom is
+393E240/replay.tracker.events; downstream event/root957 writer binding retained.
+
+This closes the conditional constructor-to-native-tracker-writer INVOCATION
+gap, not successful serialization or on-disk persistence. Selected member
+opener can store null writer at134E614 after allocation failure yet return the
+earlier zero stream-open status at134E66F. Thus status0/enabled1 are insufficient
+to prove usable state+1A8. Require successful allocation/non-null stable writer.
+No allocation failure was observed or linked to past client exits. Ignored
+encoder returns also prevent inferring successful serialization from invocation.
+
+16ranges9439B/1972instr,54byte/call/ref checks,9register-flow and4required-guard
+checks pass. Fourteen full original fragment unions/two no-call leaves and
+three original vptr cells are qualified. Whole PE/transformed/replay/draft pins
+pass; prior768-case synthetic codec receipt is retained, not rerun. No fresh
+replay decode, native execution/REA provider, unit tests, broad corpus, CI or
+peer review. Derived code is not an unchanged executable or live capture.
+
+Selected initialization, retained global/vptr, same manager receiver, valid
+disjoint storage, stable schema/identity, normal ABI/helpers and no exception/
+reentry/concurrent/alias/later replacement are conditions. Writer allocation,
+capacity/refill and success remain necessary. Actual events, active mode and
+archive persistence unobserved. No user+1 or guessed talent mapping. Keep all
+work offline: no game, Computer Use, network or publication; original/R8/current
+and sync unchanged; full upgrade/playback false. Next initial Born/Init ownership,
+actual context and effective/historical41810 talent rules; flush proof separate.

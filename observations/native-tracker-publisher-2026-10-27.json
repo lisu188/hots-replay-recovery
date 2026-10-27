@@ -1,0 +1,804 @@
+{
+  "format": "offline-native-owner-event-tracker-publisher-route-v1",
+  "source_PE": {
+    "bytes": 53573840,
+    "sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9"
+  },
+  "transformed_text": {
+    "bytes": 36581376,
+    "sha256": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83",
+    "runtime_capture_or_unchanged_PE": false
+  },
+  "prior_named_field_checkpoint": {
+    "commit": "0d0cf70b124cffaa162a2cf000249754d2ae0d18",
+    "receipt_sha256": "ce63a9ed52324fa7df2367c741c0a09dadf0de085d29c20817a06eee35e587d4"
+  },
+  "qualified_code_ranges": [
+    {
+      "label": "global_initializer",
+      "start_rva": "0x13297d0",
+      "end_exclusive_rva": "0x1329979",
+      "bytes": 425,
+      "instructions": 100,
+      "sha256": "2334e2c653e970fbab9b3e1a2a6eab1df0ee0b6d8bebba66badc1239873ccf09",
+      "extent_scope": "complete original RuntimeFunction/CHAININFO union",
+      "original_fragments": [
+        {
+          "record": [
+            "0x13297d0",
+            "0x1329979",
+            "0x2d86818"
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "label": "manager_constructor",
+      "start_rva": "0x13237d0",
+      "end_exclusive_rva": "0x1324123",
+      "bytes": 2387,
+      "instructions": 442,
+      "sha256": "3635f34a44708ed28ac75ae7424c265a1904aa0c5e3506d96a0b0e9b9bc3aa22",
+      "extent_scope": "complete original RuntimeFunction/CHAININFO union",
+      "original_fragments": [
+        {
+          "record": [
+            "0x13237d0",
+            "0x1324123",
+            "0x2d86cb8"
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "label": "publisher",
+      "start_rva": "0x132fe70",
+      "end_exclusive_rva": "0x132fec8",
+      "bytes": 88,
+      "instructions": 23,
+      "sha256": "cbe5af9d8672b5a017ae5106b7b069a88019d411f121e71c7932bbcde3847427",
+      "extent_scope": "complete original RuntimeFunction/CHAININFO union",
+      "original_fragments": [
+        {
+          "record": [
+            "0x132fe70",
+            "0x132fec8",
+            "0x2d86ed8"
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "label": "enabled_gate",
+      "start_rva": "0x132b7f0",
+      "end_exclusive_rva": "0x132b7f8",
+      "bytes": 8,
+      "instructions": 2,
+      "sha256": "149611c1bca608b25c29c96d86e1717527672efe122a76c03ff5fdfb70394782",
+      "extent_scope": "branch-closed no-call leaf through RET or direct tail jump; subsequent bytes excluded",
+      "original_fragments": []
+    },
+    {
+      "label": "record_start",
+      "start_rva": "0x133c5b0",
+      "end_exclusive_rva": "0x133c62d",
+      "bytes": 125,
+      "instructions": 33,
+      "sha256": "f1e59b3296d3a7abd7cb16cc37a7331956b5d78e7dbbac554f5b038b0b60299d",
+      "extent_scope": "complete original RuntimeFunction/CHAININFO union",
+      "original_fragments": [
+        {
+          "record": [
+            "0x133c5b0",
+            "0x133c62d",
+            "0x2d86ee4"
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "label": "prepare_start",
+      "start_rva": "0x134e7f0",
+      "end_exclusive_rva": "0x134e81d",
+      "bytes": 45,
+      "instructions": 15,
+      "sha256": "08284d489bd1e1392fa69ca4a53c0a192656939f512624500f6c360ef9ffd5eb",
+      "extent_scope": "complete original RuntimeFunction/CHAININFO union",
+      "original_fragments": [
+        {
+          "record": [
+            "0x134e7f0",
+            "0x134e81d",
+            "0x2d894b8"
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "label": "name_constructor",
+      "start_rva": "0x29f030",
+      "end_exclusive_rva": "0x29f064",
+      "bytes": 52,
+      "instructions": 12,
+      "sha256": "9c5178604327860e73feda49f75917f6d3ab939befaa7d52e94a5ff0a5ab2b0e",
+      "extent_scope": "complete original RuntimeFunction/CHAININFO union",
+      "original_fragments": [
+        {
+          "record": [
+            "0x29f030",
+            "0x29f064",
+            "0x2c2934c"
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "label": "open_streams",
+      "start_rva": "0x134e890",
+      "end_exclusive_rva": "0x134f763",
+      "bytes": 3795,
+      "instructions": 826,
+      "sha256": "1ac3d7da448856dc5c8d4ab6762151cba6d388b1fcd024eb08c1a5b0f61c7967",
+      "extent_scope": "complete original RuntimeFunction/CHAININFO union",
+      "original_fragments": [
+        {
+          "record": [
+            "0x134e890",
+            "0x134f763",
+            "0x2d894dc"
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "label": "container_constructor",
+      "start_rva": "0x134b990",
+      "end_exclusive_rva": "0x134bf82",
+      "bytes": 1522,
+      "instructions": 281,
+      "sha256": "9fa13ae6441ad930cec0d88f1bc0231953e3131eb91066144a6131b549f3cbfa",
+      "extent_scope": "complete original RuntimeFunction/CHAININFO union",
+      "original_fragments": [
+        {
+          "record": [
+            "0x134b990",
+            "0x134bf82",
+            "0x2d89478"
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "label": "owner_event_constructor",
+      "start_rva": "0x1342e30",
+      "end_exclusive_rva": "0x1342f05",
+      "bytes": 213,
+      "instructions": 49,
+      "sha256": "e33fbc7c63fa54860f15e8199b5f14a8f3fee9be4440824e92416fd21597bae9",
+      "extent_scope": "complete original RuntimeFunction/CHAININFO union",
+      "original_fragments": [
+        {
+          "record": [
+            "0x1342e30",
+            "0x1342e53",
+            "0x2d884d8"
+          ],
+          "parent": null
+        },
+        {
+          "record": [
+            "0x1342e53",
+            "0x1342ef2",
+            "0x2d884e8"
+          ],
+          "parent": [
+            "0x1342e30",
+            "0x1342e53",
+            "0x2d884d8"
+          ]
+        },
+        {
+          "record": [
+            "0x1342ef2",
+            "0x1342f05",
+            "0x2d884fc"
+          ],
+          "parent": [
+            "0x1342e30",
+            "0x1342e53",
+            "0x2d884d8"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "tracker_state_writer",
+      "start_rva": "0x132ac50",
+      "end_exclusive_rva": "0x132ad00",
+      "bytes": 176,
+      "instructions": 43,
+      "sha256": "93ef1f3fc8946e8fa7306380a3cf50392763d3e8d65b9145aa0b6592a3a21c93",
+      "extent_scope": "complete original RuntimeFunction/CHAININFO union",
+      "original_fragments": [
+        {
+          "record": [
+            "0x132ac50",
+            "0x132ad00",
+            "0x2d86ae0"
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "label": "member_stream_open",
+      "start_rva": "0x134e510",
+      "end_exclusive_rva": "0x134e67f",
+      "bytes": 367,
+      "instructions": 96,
+      "sha256": "f64123957a29e1c3fe4656027cbf9d609f49bc6b569ad641e32bdb5c3b008bca",
+      "extent_scope": "complete original RuntimeFunction/CHAININFO union",
+      "original_fragments": [
+        {
+          "record": [
+            "0x134e510",
+            "0x134e67f",
+            "0x2d89844"
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "label": "filename_atom",
+      "start_rva": "0x1d07f0",
+      "end_exclusive_rva": "0x1d0856",
+      "bytes": 102,
+      "instructions": 17,
+      "sha256": "9d2d34cbf5bf5c9751a489aa8fa8430cc360b61223469e76e504e1027c486a19",
+      "extent_scope": "complete original RuntimeFunction/CHAININFO union",
+      "original_fragments": [
+        {
+          "record": [
+            "0x1d07f0",
+            "0x1d0856",
+            "0x2d8991c"
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "label": "event_writer",
+      "start_rva": "0x135e870",
+      "end_exclusive_rva": "0x135e8b7",
+      "bytes": 71,
+      "instructions": 19,
+      "sha256": "9b2e2ca4849cf84a2396aff689bb89ad46f7a96076bcb553a75869ef6aefbcd2",
+      "extent_scope": "complete original RuntimeFunction/CHAININFO union",
+      "original_fragments": [
+        {
+          "record": [
+            "0x135e870",
+            "0x135e8b7",
+            "0x2d8a47c"
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "label": "owner_adapter",
+      "start_rva": "0x133fdf0",
+      "end_exclusive_rva": "0x133fe0d",
+      "bytes": 29,
+      "instructions": 6,
+      "sha256": "92236ee25f33955969d3b9ed2e55a75e363e1d097d65e83933974c2a9b4ee1e4",
+      "extent_scope": "branch-closed no-call leaf through RET or direct tail jump; subsequent bytes excluded",
+      "original_fragments": []
+    },
+    {
+      "label": "generic_writer_wrapper",
+      "start_rva": "0x1a75e30",
+      "end_exclusive_rva": "0x1a75e52",
+      "bytes": 34,
+      "instructions": 8,
+      "sha256": "b7c055ab909c5564fd94d9998d4f3585bcdb65ea5eaab2704e39e5cde4940494",
+      "extent_scope": "complete original RuntimeFunction/CHAININFO union",
+      "original_fragments": [
+        {
+          "record": [
+            "0x1a75e30",
+            "0x1a75e52",
+            "0x2e167a0"
+          ],
+          "parent": null
+        }
+      ]
+    }
+  ],
+  "qualified_code_bytes": 9439,
+  "qualified_instructions": 1972,
+  "selected_instruction_checks": [
+    {
+      "rva": "0x13298d5",
+      "original_RIP_target_rva": "0x387c290"
+    },
+    {
+      "rva": "0x1329907",
+      "original_RIP_target_rva": "0x2f825f8"
+    },
+    {
+      "rva": "0x13237f8",
+      "original_RIP_target_rva": "0x27bc518"
+    },
+    {
+      "rva": "0x1342e58",
+      "original_RIP_target_rva": "0x2f825f8"
+    },
+    {
+      "rva": "0x134f025",
+      "original_RIP_target_rva": "0x393e240"
+    },
+    {
+      "rva": "0x134f011",
+      "original_RIP_target_rva": "0x393e248"
+    },
+    {
+      "rva": "0x134f060",
+      "original_RIP_target_rva": "0x393e240"
+    },
+    {
+      "rva": "0x1d07f4",
+      "original_RIP_target_rva": "0x27bdea0"
+    },
+    {
+      "rva": "0x1d0816",
+      "original_RIP_target_rva": "0x393e240"
+    },
+    {
+      "rva": "0x13298f4",
+      "direct_target_rva": "0x13237d0",
+      "opcode": "0xe8"
+    },
+    {
+      "rva": "0x13239be",
+      "direct_target_rva": "0x134b990",
+      "opcode": "0xe8"
+    },
+    {
+      "rva": "0x132feab",
+      "direct_target_rva": "0x132ac50",
+      "opcode": "0xe8"
+    },
+    {
+      "rva": "0x133c5d8",
+      "direct_target_rva": "0x134e7f0",
+      "opcode": "0xe8"
+    },
+    {
+      "rva": "0x133c5eb",
+      "direct_target_rva": "0x134e890",
+      "opcode": "0xe8"
+    },
+    {
+      "rva": "0x134f034",
+      "direct_target_rva": "0x29f030",
+      "opcode": "0xe8"
+    },
+    {
+      "rva": "0x134f04b",
+      "direct_target_rva": "0x134e510",
+      "opcode": "0xe8"
+    },
+    {
+      "rva": "0x134e5f6",
+      "direct_target_rva": "0x1a75fa0",
+      "opcode": "0xe8"
+    },
+    {
+      "rva": "0x132acdb",
+      "direct_target_rva": "0x1a75e30",
+      "opcode": "0xe8"
+    },
+    {
+      "rva": "0x132acf0",
+      "direct_target_rva": "0x135e870",
+      "opcode": "0xe8"
+    },
+    {
+      "rva": "0x135e89b",
+      "direct_target_rva": "0x1a75e30",
+      "opcode": "0xe8"
+    },
+    {
+      "rva": "0x1a75e48",
+      "direct_target_rva": "0x1a75240",
+      "opcode": "0xe8"
+    },
+    {
+      "rva": "0x1d081d",
+      "direct_target_rva": "0x280150",
+      "opcode": "0xe8"
+    },
+    {
+      "rva": "0x133fe08",
+      "direct_target_rva": "0x1a75e30",
+      "opcode": "0xe9"
+    },
+    {
+      "rva": "0x13298f9",
+      "bytes": "4881f31231c250",
+      "assembly": "xor    rbx,0x50c23112"
+    },
+    {
+      "rva": "0x132990e",
+      "bytes": "4881f31231c250",
+      "assembly": "xor    rbx,0x50c23112"
+    },
+    {
+      "rva": "0x13237ff",
+      "bytes": "488901",
+      "assembly": "mov    QWORD PTR [rcx],rax"
+    },
+    {
+      "rva": "0x1323802",
+      "bytes": "488bf9",
+      "assembly": "mov    rdi,rcx"
+    },
+    {
+      "rva": "0x13238ee",
+      "bytes": "488d8f40d90100",
+      "assembly": "lea    rcx,[rdi+0x1d940]"
+    },
+    {
+      "rva": "0x1323e07",
+      "bytes": "4488a7bc010000",
+      "assembly": "mov    BYTE PTR [rdi+0x1bc],r12b"
+    },
+    {
+      "rva": "0x1342e5f",
+      "bytes": "4881f31231c250",
+      "assembly": "xor    rbx,0x50c23112"
+    },
+    {
+      "rva": "0x1342e6c",
+      "bytes": "ff9098020000",
+      "assembly": "call   QWORD PTR [rax+0x298]"
+    },
+    {
+      "rva": "0x1342ee7",
+      "bytes": "ff9080010000",
+      "assembly": "call   QWORD PTR [rax+0x180]"
+    },
+    {
+      "rva": "0x132fe7d",
+      "bytes": "488bfa",
+      "assembly": "mov    rdi,rdx"
+    },
+    {
+      "rva": "0x132fe80",
+      "bytes": "488bd9",
+      "assembly": "mov    rbx,rcx"
+    },
+    {
+      "rva": "0x132fe83",
+      "bytes": "ff9098020000",
+      "assembly": "call   QWORD PTR [rax+0x298]"
+    },
+    {
+      "rva": "0x132fe92",
+      "bytes": "f00fc183c0010000",
+      "assembly": "lock xadd DWORD PTR [rbx+0x1c0],eax"
+    },
+    {
+      "rva": "0x132fe9a",
+      "bytes": "ffc0",
+      "assembly": "inc    eax"
+    },
+    {
+      "rva": "0x132fe9c",
+      "bytes": "83f801",
+      "assembly": "cmp    eax,0x1"
+    },
+    {
+      "rva": "0x132fea1",
+      "bytes": "488d8b30e60100",
+      "assembly": "lea    rcx,[rbx+0x1e630]"
+    },
+    {
+      "rva": "0x132fea8",
+      "bytes": "488bd7",
+      "assembly": "mov    rdx,rdi"
+    },
+    {
+      "rva": "0x132feb5",
+      "bytes": "f00fc183c0010000",
+      "assembly": "lock xadd DWORD PTR [rbx+0x1c0],eax"
+    },
+    {
+      "rva": "0x132b7f0",
+      "bytes": "0fb681bc010000",
+      "assembly": "movzx  eax,BYTE PTR [rcx+0x1bc]"
+    },
+    {
+      "rva": "0x132b7f7",
+      "bytes": "c3",
+      "assembly": "ret"
+    },
+    {
+      "rva": "0x133c5c2",
+      "bytes": "488bd9",
+      "assembly": "mov    rbx,rcx"
+    },
+    {
+      "rva": "0x133c5e4",
+      "bytes": "488d8b40d90100",
+      "assembly": "lea    rcx,[rbx+0x1d940]"
+    },
+    {
+      "rva": "0x133c614",
+      "bytes": "c683bc01000001",
+      "assembly": "mov    BYTE PTR [rbx+0x1bc],0x1"
+    },
+    {
+      "rva": "0x134f039",
+      "bytes": "41b101",
+      "assembly": "mov    r9b,0x1"
+    },
+    {
+      "rva": "0x134f041",
+      "bytes": "4533c0",
+      "assembly": "xor    r8d,r8d"
+    },
+    {
+      "rva": "0x134f044",
+      "bytes": "488d8ef00c0000",
+      "assembly": "lea    rcx,[rsi+0xcf0]"
+    },
+    {
+      "rva": "0x134e609",
+      "bytes": "48899fa8010000",
+      "assembly": "mov    QWORD PTR [rdi+0x1a8],rbx"
+    },
+    {
+      "rva": "0x134e614",
+      "bytes": "48899fa8010000",
+      "assembly": "mov    QWORD PTR [rdi+0x1a8],rbx"
+    },
+    {
+      "rva": "0x134e612",
+      "bytes": "33db",
+      "assembly": "xor    ebx,ebx"
+    },
+    {
+      "rva": "0x134e5b6",
+      "bytes": "8bf0",
+      "assembly": "mov    esi,eax"
+    },
+    {
+      "rva": "0x134e66f",
+      "bytes": "8bc6",
+      "assembly": "mov    eax,esi"
+    }
+  ],
+  "register_flow_checks": [
+    {
+      "range": "global_initializer",
+      "definition": "0x13298d5",
+      "use": "0x13298f4",
+      "dominates_use": true,
+      "no_conflicting_explicit_nonvolatile_register_write_on_relevant_paths": true
+    },
+    {
+      "range": "global_initializer",
+      "definition": "0x13298d5",
+      "use": "0x13298f9",
+      "dominates_use": true,
+      "no_conflicting_explicit_nonvolatile_register_write_on_relevant_paths": true
+    },
+    {
+      "range": "global_initializer",
+      "definition": "0x13298f9",
+      "use": "0x1329907",
+      "dominates_use": true,
+      "no_conflicting_explicit_nonvolatile_register_write_on_relevant_paths": true
+    },
+    {
+      "range": "manager_constructor",
+      "definition": "0x1323802",
+      "use": "0x13238ee",
+      "dominates_use": true,
+      "no_conflicting_explicit_nonvolatile_register_write_on_relevant_paths": true
+    },
+    {
+      "range": "manager_constructor",
+      "definition": "0x13237f5",
+      "use": "0x1323e07",
+      "dominates_use": true,
+      "no_conflicting_explicit_nonvolatile_register_write_on_relevant_paths": true
+    },
+    {
+      "range": "publisher",
+      "definition": "0x132fe7d",
+      "use": "0x132fea8",
+      "dominates_use": true,
+      "no_conflicting_explicit_nonvolatile_register_write_on_relevant_paths": true
+    },
+    {
+      "range": "publisher",
+      "definition": "0x132fe80",
+      "use": "0x132fea1",
+      "dominates_use": true,
+      "no_conflicting_explicit_nonvolatile_register_write_on_relevant_paths": true
+    },
+    {
+      "range": "record_start",
+      "definition": "0x133c5c2",
+      "use": "0x133c5e4",
+      "dominates_use": true,
+      "no_conflicting_explicit_nonvolatile_register_write_on_relevant_paths": true
+    },
+    {
+      "range": "open_streams",
+      "definition": "0x134e8a9",
+      "use": "0x134f044",
+      "dominates_use": true,
+      "no_conflicting_explicit_nonvolatile_register_write_on_relevant_paths": true
+    }
+  ],
+  "required_guard_edges": [
+    {
+      "range": "global_initializer",
+      "use_rva": "0x1329907",
+      "required_edge": [
+        "0x13298cf",
+        "0x13298d5"
+      ],
+      "use_unreachable_when_edge_removed": true
+    },
+    {
+      "range": "publisher",
+      "use_rva": "0x132feab",
+      "required_edge": [
+        "0x132fe8b",
+        "0x132fe8d"
+      ],
+      "use_unreachable_when_edge_removed": true
+    },
+    {
+      "range": "publisher",
+      "use_rva": "0x132feab",
+      "required_edge": [
+        "0x132fe9f",
+        "0x132fea1"
+      ],
+      "use_unreachable_when_edge_removed": true
+    },
+    {
+      "range": "record_start",
+      "use_rva": "0x133c614",
+      "required_edge": [
+        "0x133c5f4",
+        "0x133c614"
+      ],
+      "use_unreachable_when_edge_removed": true
+    }
+  ],
+  "external_tail_edges": [
+    {
+      "range": "filename_atom",
+      "site": "0x1d0851",
+      "target": "0x1a24e34"
+    },
+    {
+      "range": "owner_adapter",
+      "site": "0x133fe08",
+      "target": "0x1a75e30"
+    }
+  ],
+  "original_vptr_cells": [
+    {
+      "vptr_rva": "0x27bc518",
+      "slot": "0x180",
+      "cell_rva": "0x27bc698",
+      "target_rva": "0x132fe70",
+      "bytes": 8,
+      "sha256": "2c39ab743ebeed86e4c6cee09da02823fc0b5a17a4a638466b031261a2b8750f"
+    },
+    {
+      "vptr_rva": "0x27bc518",
+      "slot": "0x288",
+      "cell_rva": "0x27bc7a0",
+      "target_rva": "0x133c5b0",
+      "bytes": 8,
+      "sha256": "411cc51987720c2524debb526899465ff8396efedca0726d50c37d9640e6e1b0"
+    },
+    {
+      "vptr_rva": "0x27bc518",
+      "slot": "0x298",
+      "cell_rva": "0x27bc7b0",
+      "target_rva": "0x132b7f0",
+      "bytes": 8,
+      "sha256": "7791e8fa71df54b57693963257d0ccc90c61bca6da07f5aae3927cdd482c11c6"
+    }
+  ],
+  "manager_initialization": {
+    "entry_rva": "0x13297d0",
+    "required_status": "0x20020000",
+    "pre_constructor_call_request_bytes": 787368,
+    "actual_success_or_active_mode_observed": false
+  },
+  "selected_route": {
+    "global_rva": "0x2f825f8",
+    "original_global_decodes_to_null": true,
+    "xor_key": "0x50c23112",
+    "selected_initialized_object_rva": "0x387c290",
+    "global_store_rva": "0x1329907",
+    "constructor_rva": "0x13237d0",
+    "initial_primary_vptr_rva": "0x27bc518",
+    "event_factory_rva": "0x1342e30",
+    "factory_virtual_slot": "0x180",
+    "selected_publisher_rva": "0x132fe70",
+    "enabled_slot": "0x298",
+    "enabled_getter_rva": "0x132b7f0",
+    "enabled_byte_offset": "0x1bc",
+    "enabled_after_open_rva": "0x133c614",
+    "start_slot": "0x288",
+    "start_callback_rva": "0x133c5b0",
+    "container_offset": "0x1d940",
+    "tracker_offset_in_container": "0xcf0",
+    "tracker_state_offset": "0x1e630",
+    "publisher_to_state_writer_call": "0x132feab -> 0x132ac50",
+    "event_pointer_passed_unchanged": true,
+    "old_atomic_counter_required_value": 0,
+    "counter_offset": "0x1c0",
+    "normal_path_decrements_counter": true,
+    "writer_pointer_offset_in_tracker_state": "0x1a8",
+    "member_open_writer_mode_call": "0x134f04b -> 0x134e510; R9B1",
+    "writer_mode_buffer_object_pointer_store": "0x134e609",
+    "filename_atom_rva": "0x393e240",
+    "filename": "replay.tracker.events",
+    "publication_scope": "synchronous invocation of the selected native tracker stream writer, conditional on live state and usable writer; not proof of successful serialization or archive persistence"
+  },
+  "allocation_failure_caveat": {
+    "writer_allocation_null_store": "0x134e614",
+    "return_earlier_stream_open_status_at": "0x134e66f",
+    "zero_open_status_implies_nonnull_writer": false,
+    "enabled_flag_implies_nonnull_writer": false,
+    "actual_allocation_failure_observed": false
+  },
+  "constructor_to_tracker_stream_writer_invocation_established_under_conditions": true,
+  "constructor_to_successfully_persisted_archive_bytes_established": false,
+  "actual_event_emission_or_live_receiver_captured": false,
+  "prior_named_owner_field_and_numeric_value_binding_preserved": true,
+  "conditions": [
+    "selected global initialized by13297D0 after status20020000 and no later replacement/alias mutation",
+    "initial primary table27BC518 preserved through normally returning constructor/helpers",
+    "same G receiver at record-start callback and publisher; live enabled flag nonzero, old atomic counter0",
+    "writer-mode member branch selected, allocation succeeds and state+1A8 remains nonnull/usable",
+    "name/string helpers normally preserve the atom-derived tracker name; archive flush/persistence not audited",
+    "valid disjoint manager/event/input/stack/output storage, stable object/schema/handles and ordinary Windows x64 ABI",
+    "no exception, reentry/concurrent/alias mutation or later object/vtable replacement; selected transformed code/tables available as pinned",
+    "successful numeric serialization remains conditional on sufficient output capacity or successful refill; ignored return values are not success proof"
+  ],
+  "unit_initial_Born_Init_producer_or_all_callers_qualified": false,
+  "wire_user_equal_native_owner_established": false,
+  "safe_talent_index_migration_established": false,
+  "production_or_conversion_changed": false,
+  "new_replay_decode": false,
+  "native_target_executed": false,
+  "REA_native_provider_analysis": false,
+  "unit_tests_authored_or_rerun": false,
+  "network_or_game_or_Computer_Use": false,
+  "new_replay_or_sync_written": false,
+  "full_upgrade_complete": false
+}
