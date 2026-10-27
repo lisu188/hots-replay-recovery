@@ -1,0 +1,2112 @@
+{
+  "format": "offline-native-selection-removal-and-conditional-talent-context-v1",
+  "source_PE": {
+    "bytes": 53573840,
+    "sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9"
+  },
+  "transformed_text": {
+    "bytes": 36581376,
+    "sha256": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83",
+    "runtime_capture_or_unchanged_PE": false
+  },
+  "prior_initializer_memory_sha256": "26bae98cafbb2fe9121772ccf278e16efc45aa536afd83c9c78a8a3f95449d76",
+  "qualified_code_ranges": [
+    {
+      "label": "reader_wrapper",
+      "start_rva": "0x1a713d0",
+      "end_exclusive_rva": "0x1a713fc",
+      "bytes": 44,
+      "instructions": 10,
+      "sha256": "59942832a4a5319b8ac0a83f2f9f377b4cb051861c1eed81dc7cb84db2784b05",
+      "extent_scope": "complete original RuntimeFunction/CHAININFO union",
+      "original_fragments": [
+        [
+          "0x1a713d0",
+          "0x1a713fc",
+          "0x2e16450"
+        ]
+      ]
+    },
+    {
+      "label": "reader_core",
+      "start_rva": "0x1a70a00",
+      "end_exclusive_rva": "0x1a7137e",
+      "bytes": 2430,
+      "instructions": 676,
+      "sha256": "ecef868c88648b1570478f85a0c61a9382cc9527e59dfd37c59c5e5ef64b0d2c",
+      "extent_scope": "complete original function code, separate2-byte alignment and64-byte16-entry transformed switch table excluded/qualified separately",
+      "original_fragments": [
+        [
+          "0x1a70a00",
+          "0x1a713c0",
+          "0x2e164f0"
+        ]
+      ]
+    },
+    {
+      "label": "bit_copy",
+      "start_rva": "0x1a71400",
+      "end_exclusive_rva": "0x1a71659",
+      "bytes": 601,
+      "instructions": 177,
+      "sha256": "e414b0395d81d596942ab6d5ec8e7218c20d9110ab667d44594f87b80baedb94",
+      "extent_scope": "complete original RuntimeFunction/CHAININFO union",
+      "original_fragments": [
+        [
+          "0x1a71400",
+          "0x1a7149f",
+          "0x2e16458"
+        ],
+        [
+          "0x1a7149f",
+          "0x1a71638",
+          "0x2e1646c"
+        ],
+        [
+          "0x1a71638",
+          "0x1a71652",
+          "0x2e16484"
+        ],
+        [
+          "0x1a71652",
+          "0x1a71659",
+          "0x2e16494"
+        ]
+      ]
+    },
+    {
+      "label": "bitarray_prepare",
+      "start_rva": "0x1a704c0",
+      "end_exclusive_rva": "0x1a7067c",
+      "bytes": 444,
+      "instructions": 135,
+      "sha256": "dfb535510cbe3639f218e425fb4129cb54107d2ce30ab46d9bbe34984b78e131",
+      "extent_scope": "complete original RuntimeFunction/CHAININFO union",
+      "original_fragments": [
+        [
+          "0x1a704c0",
+          "0x1a7067c",
+          "0x2e16540"
+        ]
+      ]
+    },
+    {
+      "label": "bitarray_descriptor",
+      "start_rva": "0x1a6d0f0",
+      "end_exclusive_rva": "0x1a6d11b",
+      "bytes": 43,
+      "instructions": 13,
+      "sha256": "f30a89badb50919e24911405e6cb308c46ee79613a2f8ccd626261e788d81c8d",
+      "extent_scope": "complete original RuntimeFunction/CHAININFO union",
+      "original_fragments": [
+        [
+          "0x1a6d0f0",
+          "0x1a6d11b",
+          "0x2e16098"
+        ]
+      ]
+    },
+    {
+      "label": "kind_reader",
+      "start_rva": "0x1a6d8b0",
+      "end_exclusive_rva": "0x1a6d8c4",
+      "bytes": 20,
+      "instructions": 6,
+      "sha256": "1b4c01bd9a366daaf1255bb5db4a46b01695e38b9c35d1f2cf7b0425d9f6cf5b",
+      "extent_scope": "complete original RuntimeFunction/CHAININFO union",
+      "original_fragments": [
+        [
+          "0x1a6d8b0",
+          "0x1a6d8c4",
+          "0x2e16058"
+        ]
+      ]
+    },
+    {
+      "label": "choice_select",
+      "start_rva": "0x135bff0",
+      "end_exclusive_rva": "0x135c065",
+      "bytes": 117,
+      "instructions": 39,
+      "sha256": "d96b29592b61b11b19c5c6f70fbc2ea956a9d85d23a006526a8efe5345a4c622",
+      "extent_scope": "branch-closed no-call leaf; subsequent bytes excluded",
+      "original_fragments": []
+    },
+    {
+      "label": "bitarray_resize",
+      "start_rva": "0x1359c10",
+      "end_exclusive_rva": "0x1359c76",
+      "bytes": 102,
+      "instructions": 31,
+      "sha256": "e1e4eaddde679e90254e249b6dee0c51565e2c589f95503709f30cf63418fa3c",
+      "extent_scope": "complete original RuntimeFunction/CHAININFO union",
+      "original_fragments": [
+        [
+          "0x1359c10",
+          "0x1359c76",
+          "0x2d8a0d0"
+        ]
+      ]
+    },
+    {
+      "label": "indices_data",
+      "start_rva": "0x135c230",
+      "end_exclusive_rva": "0x135c235",
+      "bytes": 5,
+      "instructions": 2,
+      "sha256": "7a64c0e82e9028aed95f03ef90dcbac4a71b6d42a9f131badca5034ec0d026ec",
+      "extent_scope": "branch-closed no-call leaf; subsequent bytes excluded",
+      "original_fragments": []
+    },
+    {
+      "label": "selection_delta",
+      "start_rva": "0x202dbc0",
+      "end_exclusive_rva": "0x202dd4a",
+      "bytes": 394,
+      "instructions": 118,
+      "sha256": "6233698c60b05aa5aa43500e959b32acee35ff62cd90a25022f4430404e6cc28",
+      "extent_scope": "complete original RuntimeFunction/CHAININFO union",
+      "original_fragments": [
+        [
+          "0x202dbc0",
+          "0x202dd4a",
+          "0x2e97128"
+        ]
+      ]
+    },
+    {
+      "label": "remove_item",
+      "start_rva": "0x202eaa0",
+      "end_exclusive_rva": "0x202ebd3",
+      "bytes": 307,
+      "instructions": 84,
+      "sha256": "7ce5e6429fcc8c8ee0c336b67d7b3ae6fab93907317db2a3fd86a55e2e34bacf",
+      "extent_scope": "complete original RuntimeFunction/CHAININFO union",
+      "original_fragments": [
+        [
+          "0x202eaa0",
+          "0x202ebd3",
+          "0x2e9718c"
+        ]
+      ]
+    },
+    {
+      "label": "insert_item",
+      "start_rva": "0x202d910",
+      "end_exclusive_rva": "0x202dbb6",
+      "bytes": 678,
+      "instructions": 162,
+      "sha256": "f48ead2c66224a5dc503f172c4425bf85183adfe8328077dfe21408f00a83fd2",
+      "extent_scope": "complete original RuntimeFunction/CHAININFO union",
+      "original_fragments": [
+        [
+          "0x202d910",
+          "0x202d91c",
+          "0x2e96fe0"
+        ],
+        [
+          "0x202d91c",
+          "0x202da2d",
+          "0x2e96fe8"
+        ],
+        [
+          "0x202da2d",
+          "0x202daaa",
+          "0x2e97010"
+        ],
+        [
+          "0x202daaa",
+          "0x202dae3",
+          "0x2e97024"
+        ],
+        [
+          "0x202dae3",
+          "0x202daff",
+          "0x2e97034"
+        ],
+        [
+          "0x202daff",
+          "0x202dbb6",
+          "0x2e97044"
+        ]
+      ]
+    }
+  ],
+  "qualified_code_bytes": 5185,
+  "qualified_instructions": 1453,
+  "selected_instruction_checks": [
+    {
+      "rva": "0x1a70a2d",
+      "bytes": "ffc8",
+      "assembly": "dec eax"
+    },
+    {
+      "rva": "0x1a70a2f",
+      "bytes": "83f80f",
+      "assembly": "cmp eax,0xf"
+    },
+    {
+      "rva": "0x1a70a41",
+      "bytes": "8b94818013a701",
+      "assembly": "mov edx,DWORD PTR [rcx+rax*4+0x1a71380]"
+    },
+    {
+      "rva": "0x1a70a4b",
+      "bytes": "ffe2",
+      "assembly": "jmp rdx"
+    },
+    {
+      "rva": "0x1a6d8b9",
+      "bytes": "0fb600",
+      "assembly": "movzx eax,BYTE PTR [rax]"
+    },
+    {
+      "rva": "0x1a6d8bc",
+      "bytes": "83e03f",
+      "assembly": "and eax,0x3f"
+    },
+    {
+      "rva": "0x1a70bae",
+      "bytes": "4c8b456f",
+      "assembly": "mov r8,QWORD PTR [rbp+0x6f]"
+    },
+    {
+      "rva": "0x1a70bb5",
+      "bytes": "488b5577",
+      "assembly": "mov rdx,QWORD PTR [rbp+0x77]"
+    },
+    {
+      "rva": "0x1a70639",
+      "bytes": "49891f",
+      "assembly": "mov QWORD PTR [r15],rbx"
+    },
+    {
+      "rva": "0x1a7063e",
+      "bytes": "488b4620",
+      "assembly": "mov rax,QWORD PTR [rsi+0x20]"
+    },
+    {
+      "rva": "0x1a70642",
+      "bytes": "488b4d10",
+      "assembly": "mov rcx,QWORD PTR [rbp+0x10]"
+    },
+    {
+      "rva": "0x1a70646",
+      "bytes": "ff5010",
+      "assembly": "call QWORD PTR [rax+0x10]"
+    },
+    {
+      "rva": "0x1a70654",
+      "bytes": "4c8b4010",
+      "assembly": "mov r8,QWORD PTR [rax+0x10]"
+    },
+    {
+      "rva": "0x1a70658",
+      "bytes": "41ffd0",
+      "assembly": "call r8"
+    },
+    {
+      "rva": "0x1a70d61",
+      "bytes": "498b4e10",
+      "assembly": "mov rcx,QWORD PTR [r14+0x10]"
+    },
+    {
+      "rva": "0x1a70d65",
+      "bytes": "4c8b4018",
+      "assembly": "mov r8,QWORD PTR [rax+0x18]"
+    },
+    {
+      "rva": "0x1a70d69",
+      "bytes": "41ffd0",
+      "assembly": "call r8"
+    },
+    {
+      "rva": "0x135c04a",
+      "bytes": "c70101000000",
+      "assembly": "mov DWORD PTR [rcx],0x1"
+    },
+    {
+      "rva": "0x135c050",
+      "bytes": "488d4104",
+      "assembly": "lea rax,[rcx+0x4]"
+    },
+    {
+      "rva": "0x135c056",
+      "bytes": "4c8908",
+      "assembly": "mov QWORD PTR [rax],r9"
+    },
+    {
+      "rva": "0x135c059",
+      "bytes": "894808",
+      "assembly": "mov DWORD PTR [rax+0x8],ecx"
+    },
+    {
+      "rva": "0x135c02e",
+      "bytes": "488d4104",
+      "assembly": "lea rax,[rcx+0x4]"
+    },
+    {
+      "rva": "0x135c032",
+      "bytes": "c70103000000",
+      "assembly": "mov DWORD PTR [rcx],0x3"
+    },
+    {
+      "rva": "0x135c038",
+      "bytes": "4c8908",
+      "assembly": "mov QWORD PTR [rax],r9"
+    },
+    {
+      "rva": "0x135c060",
+      "bytes": "488d4104",
+      "assembly": "lea rax,[rcx+0x4]"
+    },
+    {
+      "rva": "0x1359c1d",
+      "bytes": "488bfa",
+      "assembly": "mov rdi,rdx"
+    },
+    {
+      "rva": "0x1359c20",
+      "bytes": "488bd9",
+      "assembly": "mov rbx,rcx"
+    },
+    {
+      "rva": "0x1359c64",
+      "bytes": "48893b",
+      "assembly": "mov QWORD PTR [rbx],rdi"
+    },
+    {
+      "rva": "0x1359c67",
+      "bytes": "488d4308",
+      "assembly": "lea rax,[rbx+0x8]"
+    },
+    {
+      "rva": "0x135c230",
+      "bytes": "488d4108",
+      "assembly": "lea rax,[rcx+0x8]"
+    },
+    {
+      "rva": "0x1a71412",
+      "bytes": "488bf2",
+      "assembly": "mov rsi,rdx"
+    },
+    {
+      "rva": "0x1a71415",
+      "bytes": "4d8bf0",
+      "assembly": "mov r14,r8"
+    },
+    {
+      "rva": "0x1a71424",
+      "bytes": "4883fe08",
+      "assembly": "cmp rsi,0x8"
+    },
+    {
+      "rva": "0x1a71428",
+      "bytes": "7275",
+      "assembly": "jb 0x141a7149f"
+    },
+    {
+      "rva": "0x1a714a4",
+      "bytes": "4533e4",
+      "assembly": "xor r12d,r12d"
+    },
+    {
+      "rva": "0x1a714ac",
+      "bytes": "458d7c2401",
+      "assembly": "lea r15d,[r12+0x1]"
+    },
+    {
+      "rva": "0x1a714b1",
+      "bytes": "4883fe20",
+      "assembly": "cmp rsi,0x20"
+    },
+    {
+      "rva": "0x1a714b5",
+      "bytes": "0f82ba000000",
+      "assembly": "jb 0x141a71575"
+    },
+    {
+      "rva": "0x1a71582",
+      "bytes": "488bfe",
+      "assembly": "mov rdi,rsi"
+    },
+    {
+      "rva": "0x1a715b0",
+      "bytes": "83e107",
+      "assembly": "and ecx,0x7"
+    },
+    {
+      "rva": "0x1a715be",
+      "bytes": "483bc7",
+      "assembly": "cmp rax,rdi"
+    },
+    {
+      "rva": "0x1a715c1",
+      "bytes": "4c0f42c8",
+      "assembly": "cmovb r9,rax"
+    },
+    {
+      "rva": "0x1a715cd",
+      "bytes": "492bf9",
+      "assembly": "sub rdi,r9"
+    },
+    {
+      "rva": "0x1a715db",
+      "bytes": "41d3e8",
+      "assembly": "shr r8d,cl"
+    },
+    {
+      "rva": "0x1a715ec",
+      "bytes": "4423c0",
+      "assembly": "and r8d,eax"
+    },
+    {
+      "rva": "0x1a715ef",
+      "bytes": "41d3e0",
+      "assembly": "shl r8d,cl"
+    },
+    {
+      "rva": "0x1a715f2",
+      "bytes": "450be0",
+      "assembly": "or r12d,r8d"
+    },
+    {
+      "rva": "0x1a715fa",
+      "bytes": "4883fe08",
+      "assembly": "cmp rsi,0x8"
+    },
+    {
+      "rva": "0x1a715fe",
+      "bytes": "7218",
+      "assembly": "jb 0x141a71618"
+    },
+    {
+      "rva": "0x1a71620",
+      "bytes": "41d2e7",
+      "assembly": "shl r15b,cl"
+    },
+    {
+      "rva": "0x1a71623",
+      "bytes": "41fecf",
+      "assembly": "dec r15b"
+    },
+    {
+      "rva": "0x1a71626",
+      "bytes": "4522fc",
+      "assembly": "and r15b,r12b"
+    },
+    {
+      "rva": "0x1a71629",
+      "bytes": "45883e",
+      "assembly": "mov BYTE PTR [r14],r15b"
+    },
+    {
+      "rva": "0x202dbdc",
+      "bytes": "8b4a04",
+      "assembly": "mov ecx,DWORD PTR [rdx+0x4]"
+    },
+    {
+      "rva": "0x202dbdf",
+      "bytes": "83e901",
+      "assembly": "sub ecx,0x1"
+    },
+    {
+      "rva": "0x202dbe4",
+      "bytes": "83e901",
+      "assembly": "sub ecx,0x1"
+    },
+    {
+      "rva": "0x202dbe9",
+      "bytes": "83f901",
+      "assembly": "cmp ecx,0x1"
+    },
+    {
+      "rva": "0x202dc59",
+      "bytes": "395a08",
+      "assembly": "cmp DWORD PTR [rdx+0x8],ebx"
+    },
+    {
+      "rva": "0x202dc5c",
+      "bytes": "0f425a08",
+      "assembly": "cmovb ebx,DWORD PTR [rdx+0x8]"
+    },
+    {
+      "rva": "0x202dc7f",
+      "bytes": "80e107",
+      "assembly": "and cl,0x7"
+    },
+    {
+      "rva": "0x202dc82",
+      "bytes": "48c1e803",
+      "assembly": "shr rax,0x3"
+    },
+    {
+      "rva": "0x202dc88",
+      "bytes": "d3e2",
+      "assembly": "shl edx,cl"
+    },
+    {
+      "rva": "0x202dc8a",
+      "bytes": "84542810",
+      "assembly": "test BYTE PTR [rax+rbp*1+0x10],dl"
+    },
+    {
+      "rva": "0x202dc90",
+      "bytes": "0fb6d3",
+      "assembly": "movzx edx,bl"
+    },
+    {
+      "rva": "0x202dc40",
+      "bytes": "0fb656ff",
+      "assembly": "movzx edx,BYTE PTR [rsi-0x1]"
+    },
+    {
+      "rva": "0x202dc44",
+      "bytes": "48ffce",
+      "assembly": "dec rsi"
+    },
+    {
+      "rva": "0x202dc09",
+      "bytes": "0fb64c2a10",
+      "assembly": "movzx ecx,BYTE PTR [rdx+rbp*1+0x10]"
+    },
+    {
+      "rva": "0x202dc0e",
+      "bytes": "3bd9",
+      "assembly": "cmp ebx,ecx"
+    },
+    {
+      "rva": "0x202dc12",
+      "bytes": "8bf2",
+      "assembly": "mov esi,edx"
+    },
+    {
+      "rva": "0x202dc16",
+      "bytes": "0fb6d3",
+      "assembly": "movzx edx,bl"
+    },
+    {
+      "rva": "0x202eac5",
+      "bytes": "410fb6bf84000000",
+      "assembly": "movzx edi,BYTE PTR [r15+0x84]"
+    },
+    {
+      "rva": "0x202ead3",
+      "bytes": "8081aa000000ff",
+      "assembly": "add BYTE PTR [rcx+0xaa],0xff"
+    },
+    {
+      "rva": "0x202eb29",
+      "bytes": "884b02",
+      "assembly": "mov BYTE PTR [rbx+0x2],cl"
+    },
+    {
+      "rva": "0x202eb32",
+      "bytes": "884302",
+      "assembly": "mov BYTE PTR [rbx+0x2],al"
+    },
+    {
+      "rva": "0x202eb35",
+      "bytes": "fe4b01",
+      "assembly": "dec BYTE PTR [rbx+0x1]"
+    },
+    {
+      "rva": "0x202eb55",
+      "bytes": "888284000000",
+      "assembly": "mov BYTE PTR [rdx+0x84],al"
+    },
+    {
+      "rva": "0x202ebbb",
+      "bytes": "fec8",
+      "assembly": "dec al"
+    },
+    {
+      "rva": "0x202ebc2",
+      "bytes": "8803",
+      "assembly": "mov BYTE PTR [rbx],al"
+    },
+    {
+      "rva": "0x202d965",
+      "bytes": "48f7c1e0ffffff",
+      "assembly": "test rcx,0xffffffffffffffe0"
+    },
+    {
+      "rva": "0x202d972",
+      "bytes": "803b20",
+      "assembly": "cmp BYTE PTR [rbx],0x20"
+    },
+    {
+      "rva": "0x202d9f4",
+      "bytes": "4439448304",
+      "assembly": "cmp DWORD PTR [rbx+rax*4+0x4],r8d"
+    },
+    {
+      "rva": "0x202d9f9",
+      "bytes": "0f83b0000000",
+      "assembly": "jae 0x14202daaf"
+    },
+    {
+      "rva": "0x202daaf",
+      "bytes": "0f8555ffffff",
+      "assembly": "jne 0x14202da0a"
+    },
+    {
+      "rva": "0x202db9c",
+      "bytes": "8944ab04",
+      "assembly": "mov DWORD PTR [rbx+rbp*4+0x4],eax"
+    },
+    {
+      "rva": "0x202dbad",
+      "bytes": "fe03",
+      "assembly": "inc BYTE PTR [rbx]"
+    },
+    {
+      "rva": "0x1a713f2",
+      "direct_target_rva": "0x1a70a00"
+    },
+    {
+      "rva": "0x1a70a28",
+      "direct_target_rva": "0x1a6d8b0"
+    },
+    {
+      "rva": "0x1a6d8b4",
+      "direct_target_rva": "0x1a77f90"
+    },
+    {
+      "rva": "0x1a70b86",
+      "direct_target_rva": "0x1a6d0f0"
+    },
+    {
+      "rva": "0x1a70ba1",
+      "direct_target_rva": "0x1a704c0"
+    },
+    {
+      "rva": "0x1a70bb9",
+      "direct_target_rva": "0x1a71400"
+    },
+    {
+      "rva": "0x202dc1c",
+      "direct_target_rva": "0x202eaa0"
+    },
+    {
+      "rva": "0x202dc4a",
+      "direct_target_rva": "0x202eaa0"
+    },
+    {
+      "rva": "0x202dc96",
+      "direct_target_rva": "0x202eaa0"
+    }
+  ],
+  "reader_kind_table": {
+    "rva": "0x1a71380",
+    "bytes": 64,
+    "entries": 16,
+    "sha256": "59e9f8e115583cfb7e4c1b929d1e853c0495a2315c77e866123de78bef28e48e",
+    "source": "pinned transformed text; not unchanged original PE data",
+    "all_targets_instruction_boundaries": true,
+    "BIT_ARRAY_kind3_target": "0x1a70b7b",
+    "alignment_bytes_excluded": 2
+  },
+  "original_accessor_cells": [
+    {
+      "type": 321,
+      "accessor_rva": "0x27c28a8",
+      "slot": "0x10",
+      "pointer_cell_rva": "0x27c28b8",
+      "target_rva": "0x1359c10",
+      "original_cell_sha256": "07d5105e668f29f4d89ec2308efc92e261e62401a09f01e63f61a44a844e5ae6"
+    },
+    {
+      "type": 313,
+      "accessor_rva": "0x27c2820",
+      "slot": "0x18",
+      "pointer_cell_rva": "0x27c2838",
+      "target_rva": "0x135bff0",
+      "original_cell_sha256": "48bbcc3a83311056618293621362c3cd59beb4af6deb6712bcf3b0a04635baf7"
+    },
+    {
+      "type": 322,
+      "accessor_rva": "0x27c28c0",
+      "slot": "0x10",
+      "pointer_cell_rva": "0x27c28d0",
+      "target_rva": "0x135c230",
+      "original_cell_sha256": "2d84676639545887d65dee271038e4d0d7dcdb1b836b1ee15f24f76514d525bb"
+    }
+  ],
+  "native_BIT_ARRAY321": {
+    "id": 321,
+    "offset": 7165,
+    "bytes": 5,
+    "header": 3,
+    "kind": "BIT_ARRAY",
+    "bounds": {
+      "int_type": 1,
+      "variable": true,
+      "bits": 6,
+      "min": 0,
+      "max": 32
+    },
+    "name": null
+  },
+  "selected_mask_reader": {
+    "typed_wrapper": "0x1a713d0 ->0x1a70a00",
+    "BIT_ARRAY_arm": "0x1a70b7b ->0x1a704c0 ->0x1a71400",
+    "choice_callback": "0x135bff0 selects1, writes tag1, zeroes count/data, returns choice+4",
+    "bitarray_callback": "0x1359c10 writes QWORD count, returns payload+8; selected old0/new1..3 branch does not call byte-fill helper",
+    "selected_total_memory_offsets": "delta+4 discriminator, delta+8 count, delta+0x10 data",
+    "selected_short_copy_result": "for count0..3 and a coherent buffered success path, one data byte equals Python decoded pattern in low count bits",
+    "bit_consumer": "0x202dc8a tests data[i>>3] & (1<<(i&7)); selected count<=3 reduces to pattern bit i",
+    "larger_bitarray_or_all_refill_provider_semantics_proven": false
+  },
+  "selected_short_mask_models": [
+    {
+      "bits": 0,
+      "start_mod8": 0,
+      "raw_pattern": 0,
+      "decoded_pattern": 0,
+      "native_byte": 0
+    },
+    {
+      "bits": 0,
+      "start_mod8": 1,
+      "raw_pattern": 0,
+      "decoded_pattern": 0,
+      "native_byte": 0
+    },
+    {
+      "bits": 0,
+      "start_mod8": 2,
+      "raw_pattern": 0,
+      "decoded_pattern": 0,
+      "native_byte": 0
+    },
+    {
+      "bits": 0,
+      "start_mod8": 3,
+      "raw_pattern": 0,
+      "decoded_pattern": 0,
+      "native_byte": 0
+    },
+    {
+      "bits": 0,
+      "start_mod8": 4,
+      "raw_pattern": 0,
+      "decoded_pattern": 0,
+      "native_byte": 0
+    },
+    {
+      "bits": 0,
+      "start_mod8": 5,
+      "raw_pattern": 0,
+      "decoded_pattern": 0,
+      "native_byte": 0
+    },
+    {
+      "bits": 0,
+      "start_mod8": 6,
+      "raw_pattern": 0,
+      "decoded_pattern": 0,
+      "native_byte": 0
+    },
+    {
+      "bits": 0,
+      "start_mod8": 7,
+      "raw_pattern": 0,
+      "decoded_pattern": 0,
+      "native_byte": 0
+    },
+    {
+      "bits": 1,
+      "start_mod8": 0,
+      "raw_pattern": 0,
+      "decoded_pattern": 0,
+      "native_byte": 0
+    },
+    {
+      "bits": 1,
+      "start_mod8": 0,
+      "raw_pattern": 1,
+      "decoded_pattern": 1,
+      "native_byte": 1
+    },
+    {
+      "bits": 1,
+      "start_mod8": 1,
+      "raw_pattern": 0,
+      "decoded_pattern": 0,
+      "native_byte": 0
+    },
+    {
+      "bits": 1,
+      "start_mod8": 1,
+      "raw_pattern": 1,
+      "decoded_pattern": 1,
+      "native_byte": 1
+    },
+    {
+      "bits": 1,
+      "start_mod8": 2,
+      "raw_pattern": 0,
+      "decoded_pattern": 0,
+      "native_byte": 0
+    },
+    {
+      "bits": 1,
+      "start_mod8": 2,
+      "raw_pattern": 1,
+      "decoded_pattern": 1,
+      "native_byte": 1
+    },
+    {
+      "bits": 1,
+      "start_mod8": 3,
+      "raw_pattern": 0,
+      "decoded_pattern": 0,
+      "native_byte": 0
+    },
+    {
+      "bits": 1,
+      "start_mod8": 3,
+      "raw_pattern": 1,
+      "decoded_pattern": 1,
+      "native_byte": 1
+    },
+    {
+      "bits": 1,
+      "start_mod8": 4,
+      "raw_pattern": 0,
+      "decoded_pattern": 0,
+      "native_byte": 0
+    },
+    {
+      "bits": 1,
+      "start_mod8": 4,
+      "raw_pattern": 1,
+      "decoded_pattern": 1,
+      "native_byte": 1
+    },
+    {
+      "bits": 1,
+      "start_mod8": 5,
+      "raw_pattern": 0,
+      "decoded_pattern": 0,
+      "native_byte": 0
+    },
+    {
+      "bits": 1,
+      "start_mod8": 5,
+      "raw_pattern": 1,
+      "decoded_pattern": 1,
+      "native_byte": 1
+    },
+    {
+      "bits": 1,
+      "start_mod8": 6,
+      "raw_pattern": 0,
+      "decoded_pattern": 0,
+      "native_byte": 0
+    },
+    {
+      "bits": 1,
+      "start_mod8": 6,
+      "raw_pattern": 1,
+      "decoded_pattern": 1,
+      "native_byte": 1
+    },
+    {
+      "bits": 1,
+      "start_mod8": 7,
+      "raw_pattern": 0,
+      "decoded_pattern": 0,
+      "native_byte": 0
+    },
+    {
+      "bits": 1,
+      "start_mod8": 7,
+      "raw_pattern": 1,
+      "decoded_pattern": 1,
+      "native_byte": 1
+    },
+    {
+      "bits": 2,
+      "start_mod8": 0,
+      "raw_pattern": 0,
+      "decoded_pattern": 0,
+      "native_byte": 0
+    },
+    {
+      "bits": 2,
+      "start_mod8": 0,
+      "raw_pattern": 1,
+      "decoded_pattern": 1,
+      "native_byte": 1
+    },
+    {
+      "bits": 2,
+      "start_mod8": 0,
+      "raw_pattern": 2,
+      "decoded_pattern": 2,
+      "native_byte": 2
+    },
+    {
+      "bits": 2,
+      "start_mod8": 0,
+      "raw_pattern": 3,
+      "decoded_pattern": 3,
+      "native_byte": 3
+    },
+    {
+      "bits": 2,
+      "start_mod8": 1,
+      "raw_pattern": 0,
+      "decoded_pattern": 0,
+      "native_byte": 0
+    },
+    {
+      "bits": 2,
+      "start_mod8": 1,
+      "raw_pattern": 1,
+      "decoded_pattern": 1,
+      "native_byte": 1
+    },
+    {
+      "bits": 2,
+      "start_mod8": 1,
+      "raw_pattern": 2,
+      "decoded_pattern": 2,
+      "native_byte": 2
+    },
+    {
+      "bits": 2,
+      "start_mod8": 1,
+      "raw_pattern": 3,
+      "decoded_pattern": 3,
+      "native_byte": 3
+    },
+    {
+      "bits": 2,
+      "start_mod8": 2,
+      "raw_pattern": 0,
+      "decoded_pattern": 0,
+      "native_byte": 0
+    },
+    {
+      "bits": 2,
+      "start_mod8": 2,
+      "raw_pattern": 1,
+      "decoded_pattern": 1,
+      "native_byte": 1
+    },
+    {
+      "bits": 2,
+      "start_mod8": 2,
+      "raw_pattern": 2,
+      "decoded_pattern": 2,
+      "native_byte": 2
+    },
+    {
+      "bits": 2,
+      "start_mod8": 2,
+      "raw_pattern": 3,
+      "decoded_pattern": 3,
+      "native_byte": 3
+    },
+    {
+      "bits": 2,
+      "start_mod8": 3,
+      "raw_pattern": 0,
+      "decoded_pattern": 0,
+      "native_byte": 0
+    },
+    {
+      "bits": 2,
+      "start_mod8": 3,
+      "raw_pattern": 1,
+      "decoded_pattern": 1,
+      "native_byte": 1
+    },
+    {
+      "bits": 2,
+      "start_mod8": 3,
+      "raw_pattern": 2,
+      "decoded_pattern": 2,
+      "native_byte": 2
+    },
+    {
+      "bits": 2,
+      "start_mod8": 3,
+      "raw_pattern": 3,
+      "decoded_pattern": 3,
+      "native_byte": 3
+    },
+    {
+      "bits": 2,
+      "start_mod8": 4,
+      "raw_pattern": 0,
+      "decoded_pattern": 0,
+      "native_byte": 0
+    },
+    {
+      "bits": 2,
+      "start_mod8": 4,
+      "raw_pattern": 1,
+      "decoded_pattern": 1,
+      "native_byte": 1
+    },
+    {
+      "bits": 2,
+      "start_mod8": 4,
+      "raw_pattern": 2,
+      "decoded_pattern": 2,
+      "native_byte": 2
+    },
+    {
+      "bits": 2,
+      "start_mod8": 4,
+      "raw_pattern": 3,
+      "decoded_pattern": 3,
+      "native_byte": 3
+    },
+    {
+      "bits": 2,
+      "start_mod8": 5,
+      "raw_pattern": 0,
+      "decoded_pattern": 0,
+      "native_byte": 0
+    },
+    {
+      "bits": 2,
+      "start_mod8": 5,
+      "raw_pattern": 1,
+      "decoded_pattern": 1,
+      "native_byte": 1
+    },
+    {
+      "bits": 2,
+      "start_mod8": 5,
+      "raw_pattern": 2,
+      "decoded_pattern": 2,
+      "native_byte": 2
+    },
+    {
+      "bits": 2,
+      "start_mod8": 5,
+      "raw_pattern": 3,
+      "decoded_pattern": 3,
+      "native_byte": 3
+    },
+    {
+      "bits": 2,
+      "start_mod8": 6,
+      "raw_pattern": 0,
+      "decoded_pattern": 0,
+      "native_byte": 0
+    },
+    {
+      "bits": 2,
+      "start_mod8": 6,
+      "raw_pattern": 1,
+      "decoded_pattern": 1,
+      "native_byte": 1
+    },
+    {
+      "bits": 2,
+      "start_mod8": 6,
+      "raw_pattern": 2,
+      "decoded_pattern": 2,
+      "native_byte": 2
+    },
+    {
+      "bits": 2,
+      "start_mod8": 6,
+      "raw_pattern": 3,
+      "decoded_pattern": 3,
+      "native_byte": 3
+    },
+    {
+      "bits": 2,
+      "start_mod8": 7,
+      "raw_pattern": 0,
+      "decoded_pattern": 0,
+      "native_byte": 0
+    },
+    {
+      "bits": 2,
+      "start_mod8": 7,
+      "raw_pattern": 1,
+      "decoded_pattern": 2,
+      "native_byte": 2
+    },
+    {
+      "bits": 2,
+      "start_mod8": 7,
+      "raw_pattern": 2,
+      "decoded_pattern": 1,
+      "native_byte": 1
+    },
+    {
+      "bits": 2,
+      "start_mod8": 7,
+      "raw_pattern": 3,
+      "decoded_pattern": 3,
+      "native_byte": 3
+    },
+    {
+      "bits": 3,
+      "start_mod8": 0,
+      "raw_pattern": 0,
+      "decoded_pattern": 0,
+      "native_byte": 0
+    },
+    {
+      "bits": 3,
+      "start_mod8": 0,
+      "raw_pattern": 1,
+      "decoded_pattern": 1,
+      "native_byte": 1
+    },
+    {
+      "bits": 3,
+      "start_mod8": 0,
+      "raw_pattern": 2,
+      "decoded_pattern": 2,
+      "native_byte": 2
+    },
+    {
+      "bits": 3,
+      "start_mod8": 0,
+      "raw_pattern": 3,
+      "decoded_pattern": 3,
+      "native_byte": 3
+    },
+    {
+      "bits": 3,
+      "start_mod8": 0,
+      "raw_pattern": 4,
+      "decoded_pattern": 4,
+      "native_byte": 4
+    },
+    {
+      "bits": 3,
+      "start_mod8": 0,
+      "raw_pattern": 5,
+      "decoded_pattern": 5,
+      "native_byte": 5
+    },
+    {
+      "bits": 3,
+      "start_mod8": 0,
+      "raw_pattern": 6,
+      "decoded_pattern": 6,
+      "native_byte": 6
+    },
+    {
+      "bits": 3,
+      "start_mod8": 0,
+      "raw_pattern": 7,
+      "decoded_pattern": 7,
+      "native_byte": 7
+    },
+    {
+      "bits": 3,
+      "start_mod8": 1,
+      "raw_pattern": 0,
+      "decoded_pattern": 0,
+      "native_byte": 0
+    },
+    {
+      "bits": 3,
+      "start_mod8": 1,
+      "raw_pattern": 1,
+      "decoded_pattern": 1,
+      "native_byte": 1
+    },
+    {
+      "bits": 3,
+      "start_mod8": 1,
+      "raw_pattern": 2,
+      "decoded_pattern": 2,
+      "native_byte": 2
+    },
+    {
+      "bits": 3,
+      "start_mod8": 1,
+      "raw_pattern": 3,
+      "decoded_pattern": 3,
+      "native_byte": 3
+    },
+    {
+      "bits": 3,
+      "start_mod8": 1,
+      "raw_pattern": 4,
+      "decoded_pattern": 4,
+      "native_byte": 4
+    },
+    {
+      "bits": 3,
+      "start_mod8": 1,
+      "raw_pattern": 5,
+      "decoded_pattern": 5,
+      "native_byte": 5
+    },
+    {
+      "bits": 3,
+      "start_mod8": 1,
+      "raw_pattern": 6,
+      "decoded_pattern": 6,
+      "native_byte": 6
+    },
+    {
+      "bits": 3,
+      "start_mod8": 1,
+      "raw_pattern": 7,
+      "decoded_pattern": 7,
+      "native_byte": 7
+    },
+    {
+      "bits": 3,
+      "start_mod8": 2,
+      "raw_pattern": 0,
+      "decoded_pattern": 0,
+      "native_byte": 0
+    },
+    {
+      "bits": 3,
+      "start_mod8": 2,
+      "raw_pattern": 1,
+      "decoded_pattern": 1,
+      "native_byte": 1
+    },
+    {
+      "bits": 3,
+      "start_mod8": 2,
+      "raw_pattern": 2,
+      "decoded_pattern": 2,
+      "native_byte": 2
+    },
+    {
+      "bits": 3,
+      "start_mod8": 2,
+      "raw_pattern": 3,
+      "decoded_pattern": 3,
+      "native_byte": 3
+    },
+    {
+      "bits": 3,
+      "start_mod8": 2,
+      "raw_pattern": 4,
+      "decoded_pattern": 4,
+      "native_byte": 4
+    },
+    {
+      "bits": 3,
+      "start_mod8": 2,
+      "raw_pattern": 5,
+      "decoded_pattern": 5,
+      "native_byte": 5
+    },
+    {
+      "bits": 3,
+      "start_mod8": 2,
+      "raw_pattern": 6,
+      "decoded_pattern": 6,
+      "native_byte": 6
+    },
+    {
+      "bits": 3,
+      "start_mod8": 2,
+      "raw_pattern": 7,
+      "decoded_pattern": 7,
+      "native_byte": 7
+    },
+    {
+      "bits": 3,
+      "start_mod8": 3,
+      "raw_pattern": 0,
+      "decoded_pattern": 0,
+      "native_byte": 0
+    },
+    {
+      "bits": 3,
+      "start_mod8": 3,
+      "raw_pattern": 1,
+      "decoded_pattern": 1,
+      "native_byte": 1
+    },
+    {
+      "bits": 3,
+      "start_mod8": 3,
+      "raw_pattern": 2,
+      "decoded_pattern": 2,
+      "native_byte": 2
+    },
+    {
+      "bits": 3,
+      "start_mod8": 3,
+      "raw_pattern": 3,
+      "decoded_pattern": 3,
+      "native_byte": 3
+    },
+    {
+      "bits": 3,
+      "start_mod8": 3,
+      "raw_pattern": 4,
+      "decoded_pattern": 4,
+      "native_byte": 4
+    },
+    {
+      "bits": 3,
+      "start_mod8": 3,
+      "raw_pattern": 5,
+      "decoded_pattern": 5,
+      "native_byte": 5
+    },
+    {
+      "bits": 3,
+      "start_mod8": 3,
+      "raw_pattern": 6,
+      "decoded_pattern": 6,
+      "native_byte": 6
+    },
+    {
+      "bits": 3,
+      "start_mod8": 3,
+      "raw_pattern": 7,
+      "decoded_pattern": 7,
+      "native_byte": 7
+    },
+    {
+      "bits": 3,
+      "start_mod8": 4,
+      "raw_pattern": 0,
+      "decoded_pattern": 0,
+      "native_byte": 0
+    },
+    {
+      "bits": 3,
+      "start_mod8": 4,
+      "raw_pattern": 1,
+      "decoded_pattern": 1,
+      "native_byte": 1
+    },
+    {
+      "bits": 3,
+      "start_mod8": 4,
+      "raw_pattern": 2,
+      "decoded_pattern": 2,
+      "native_byte": 2
+    },
+    {
+      "bits": 3,
+      "start_mod8": 4,
+      "raw_pattern": 3,
+      "decoded_pattern": 3,
+      "native_byte": 3
+    },
+    {
+      "bits": 3,
+      "start_mod8": 4,
+      "raw_pattern": 4,
+      "decoded_pattern": 4,
+      "native_byte": 4
+    },
+    {
+      "bits": 3,
+      "start_mod8": 4,
+      "raw_pattern": 5,
+      "decoded_pattern": 5,
+      "native_byte": 5
+    },
+    {
+      "bits": 3,
+      "start_mod8": 4,
+      "raw_pattern": 6,
+      "decoded_pattern": 6,
+      "native_byte": 6
+    },
+    {
+      "bits": 3,
+      "start_mod8": 4,
+      "raw_pattern": 7,
+      "decoded_pattern": 7,
+      "native_byte": 7
+    },
+    {
+      "bits": 3,
+      "start_mod8": 5,
+      "raw_pattern": 0,
+      "decoded_pattern": 0,
+      "native_byte": 0
+    },
+    {
+      "bits": 3,
+      "start_mod8": 5,
+      "raw_pattern": 1,
+      "decoded_pattern": 1,
+      "native_byte": 1
+    },
+    {
+      "bits": 3,
+      "start_mod8": 5,
+      "raw_pattern": 2,
+      "decoded_pattern": 2,
+      "native_byte": 2
+    },
+    {
+      "bits": 3,
+      "start_mod8": 5,
+      "raw_pattern": 3,
+      "decoded_pattern": 3,
+      "native_byte": 3
+    },
+    {
+      "bits": 3,
+      "start_mod8": 5,
+      "raw_pattern": 4,
+      "decoded_pattern": 4,
+      "native_byte": 4
+    },
+    {
+      "bits": 3,
+      "start_mod8": 5,
+      "raw_pattern": 5,
+      "decoded_pattern": 5,
+      "native_byte": 5
+    },
+    {
+      "bits": 3,
+      "start_mod8": 5,
+      "raw_pattern": 6,
+      "decoded_pattern": 6,
+      "native_byte": 6
+    },
+    {
+      "bits": 3,
+      "start_mod8": 5,
+      "raw_pattern": 7,
+      "decoded_pattern": 7,
+      "native_byte": 7
+    },
+    {
+      "bits": 3,
+      "start_mod8": 6,
+      "raw_pattern": 0,
+      "decoded_pattern": 0,
+      "native_byte": 0
+    },
+    {
+      "bits": 3,
+      "start_mod8": 6,
+      "raw_pattern": 1,
+      "decoded_pattern": 2,
+      "native_byte": 2
+    },
+    {
+      "bits": 3,
+      "start_mod8": 6,
+      "raw_pattern": 2,
+      "decoded_pattern": 4,
+      "native_byte": 4
+    },
+    {
+      "bits": 3,
+      "start_mod8": 6,
+      "raw_pattern": 3,
+      "decoded_pattern": 6,
+      "native_byte": 6
+    },
+    {
+      "bits": 3,
+      "start_mod8": 6,
+      "raw_pattern": 4,
+      "decoded_pattern": 1,
+      "native_byte": 1
+    },
+    {
+      "bits": 3,
+      "start_mod8": 6,
+      "raw_pattern": 5,
+      "decoded_pattern": 3,
+      "native_byte": 3
+    },
+    {
+      "bits": 3,
+      "start_mod8": 6,
+      "raw_pattern": 6,
+      "decoded_pattern": 5,
+      "native_byte": 5
+    },
+    {
+      "bits": 3,
+      "start_mod8": 6,
+      "raw_pattern": 7,
+      "decoded_pattern": 7,
+      "native_byte": 7
+    },
+    {
+      "bits": 3,
+      "start_mod8": 7,
+      "raw_pattern": 0,
+      "decoded_pattern": 0,
+      "native_byte": 0
+    },
+    {
+      "bits": 3,
+      "start_mod8": 7,
+      "raw_pattern": 1,
+      "decoded_pattern": 4,
+      "native_byte": 4
+    },
+    {
+      "bits": 3,
+      "start_mod8": 7,
+      "raw_pattern": 2,
+      "decoded_pattern": 1,
+      "native_byte": 1
+    },
+    {
+      "bits": 3,
+      "start_mod8": 7,
+      "raw_pattern": 3,
+      "decoded_pattern": 5,
+      "native_byte": 5
+    },
+    {
+      "bits": 3,
+      "start_mod8": 7,
+      "raw_pattern": 4,
+      "decoded_pattern": 2,
+      "native_byte": 2
+    },
+    {
+      "bits": 3,
+      "start_mod8": 7,
+      "raw_pattern": 5,
+      "decoded_pattern": 6,
+      "native_byte": 6
+    },
+    {
+      "bits": 3,
+      "start_mod8": 7,
+      "raw_pattern": 6,
+      "decoded_pattern": 3,
+      "native_byte": 3
+    },
+    {
+      "bits": 3,
+      "start_mod8": 7,
+      "raw_pattern": 7,
+      "decoded_pattern": 7,
+      "native_byte": 7
+    }
+  ],
+  "mask_pattern_model_scope": "120 width0..3/start0..7/raw-pattern cases; unchanged official bit-buffer comparison plus checked native operand model, not CPU emulation",
+  "removal_semantics": {
+    "None": "no removals",
+    "Mask": "reverse i over min(row_count,bit_count), remove indexi iff data[i>>3] bit(i&7) set",
+    "OneIndices": "consume supplied index bytes in reverse list order; do not silently sort/deduplicate; valid indices required by helper",
+    "ZeroIndices": "reverse row walk compares only tail of supplied keep-index list; matched index retained and tail decremented, others removed; observed lists all empty",
+    "item_helper": "0x202eaa0 decrements group count, compacts empty group/adjusts active subgroup and group tags, shifts item/tag arrays and decrements row count",
+    "copy_helper_condition": "ordinary overlapping-copy semantics of0x1a2b250; full CPU-dispatch CFG still not qualified here",
+    "sorted_item_insertion": "0x202d910 inserts unique uint32 handles in ascending order after acceptance gate and capacity32; does not use definition key for item numeric order"
+  },
+  "conditional_item_model": {
+    "bytes": 200999,
+    "sha256": "c5a282a780b7b0f6b193c25979bc742d7991d1fb59d0c98ff675a32a98693e09",
+    "conditions": [
+      "qualified normal empty initialization before recorded deltas; same-user selected delta updates applied in frame order with no other mutations",
+      "each nonduplicate in-capacity addition passes native link/reference/object gates; this acceptance is NOT authenticated",
+      "ordinary overlapping-copy helper semantics, valid stable group invariants and pointers; no exceptions/concurrent/reentry/alias changes"
+    ],
+    "cases": [
+      {
+        "label": "source",
+        "replay_path": "work/TEN_GREYMANE_source_41810.StormReplay",
+        "replay_bytes": 635140,
+        "replay_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+        "game_member_bytes": 1146911,
+        "game_member_sha256": "ea69dd77edd02f3ed2c42a2def1faab6dc4d0eb46da291c44f76bfb49a65eed6",
+        "events": 104257,
+        "last_gameloop": 19732,
+        "mask_length_counts": {
+          "1": 45,
+          "2": 24,
+          "3": 2
+        },
+        "mask_value_counts": [
+          {
+            "variant": "None",
+            "length": 0,
+            "value": null,
+            "count": 79
+          },
+          {
+            "variant": "Mask",
+            "length": 1,
+            "value": 1,
+            "count": 45
+          },
+          {
+            "variant": "Mask",
+            "length": 2,
+            "value": 2,
+            "count": 23
+          },
+          {
+            "variant": "ZeroIndices",
+            "length": 0,
+            "value": [],
+            "count": 8
+          },
+          {
+            "variant": "Mask",
+            "length": 2,
+            "value": 3,
+            "count": 1
+          },
+          {
+            "variant": "Mask",
+            "length": 3,
+            "value": 5,
+            "count": 1
+          },
+          {
+            "variant": "Mask",
+            "length": 3,
+            "value": 6,
+            "count": 1
+          }
+        ],
+        "talent_conditional_item_count_distribution": {
+          "1": 70
+        },
+        "duplicate_add_references_skipped": 0,
+        "capacity_add_references_skipped": 0,
+        "whole_replay_unchanged": true,
+        "effective_catalog_acceptance_or_actual_row_proven": false
+      },
+      {
+        "label": "R8",
+        "replay_path": "work/native-20261018/TEN_GREYMANE_client98285_RESUMABLE_R8_PARTIAL.StormReplay",
+        "replay_bytes": 2438570,
+        "replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+        "game_member_bytes": 1148436,
+        "game_member_sha256": "31df2ab80eeeb56bc543ea0744f75d4d2ec6a5c337b1f38f04ef90d169dab2f0",
+        "events": 104257,
+        "last_gameloop": 19732,
+        "mask_length_counts": {
+          "1": 45,
+          "2": 24,
+          "3": 2
+        },
+        "mask_value_counts": [
+          {
+            "variant": "None",
+            "length": 0,
+            "value": null,
+            "count": 79
+          },
+          {
+            "variant": "Mask",
+            "length": 1,
+            "value": 1,
+            "count": 45
+          },
+          {
+            "variant": "Mask",
+            "length": 2,
+            "value": 2,
+            "count": 23
+          },
+          {
+            "variant": "ZeroIndices",
+            "length": 0,
+            "value": [],
+            "count": 8
+          },
+          {
+            "variant": "Mask",
+            "length": 2,
+            "value": 3,
+            "count": 1
+          },
+          {
+            "variant": "Mask",
+            "length": 3,
+            "value": 5,
+            "count": 1
+          },
+          {
+            "variant": "Mask",
+            "length": 3,
+            "value": 6,
+            "count": 1
+          }
+        ],
+        "talent_conditional_item_count_distribution": {
+          "1": 70
+        },
+        "duplicate_add_references_skipped": 0,
+        "capacity_add_references_skipped": 0,
+        "whole_replay_unchanged": true,
+        "effective_catalog_acceptance_or_actual_row_proven": false
+      },
+      {
+        "label": "current",
+        "replay_path": "work/eu-replay-search-20261018/heroeslounge-27515-g1-20261005.StormReplay",
+        "replay_bytes": 978482,
+        "replay_sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4",
+        "game_member_bytes": 1916341,
+        "game_member_sha256": "c7fba3ffbae7cf8ce1c348d0478f8e5cb81b2e3991791e21a793638cf058a52d",
+        "events": 144708,
+        "last_gameloop": 19459,
+        "mask_length_counts": {
+          "1": 13
+        },
+        "mask_value_counts": [
+          {
+            "variant": "None",
+            "length": 0,
+            "value": null,
+            "count": 24
+          },
+          {
+            "variant": "Mask",
+            "length": 1,
+            "value": 1,
+            "count": 13
+          }
+        ],
+        "talent_conditional_item_count_distribution": {
+          "1": 70
+        },
+        "duplicate_add_references_skipped": 0,
+        "capacity_add_references_skipped": 0,
+        "whole_replay_unchanged": true,
+        "effective_catalog_acceptance_or_actual_row_proven": false
+      }
+    ]
+  },
+  "conditional_exact_tracker_key_join": {
+    "bytes": 140954,
+    "sha256": "7cd6acb57f51f3d64755d7832463785dceb7aa75d62ed5f0c19aa67c0ccb868f",
+    "tag_layout_reference": {
+      "path": "repair_unit_tags.py",
+      "bytes": 13879,
+      "sha256": "43ec99d34aafd73f3c5f3f29d56fcffcc199e5d075f2a344cd7c8064377704e2",
+      "existing_source_shift": 18,
+      "existing_target_shift": 22
+    },
+    "cases": [
+      {
+        "label": "source",
+        "replay_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+        "tracker_sha256": "1a9a556f9f1fde466d17c4a3a3fbb31cbec8d8086bef97efeb796f1f5175245f",
+        "tracker_events": 6614,
+        "existing_tag_layout_shift_used": 18,
+        "conditional_singleton_purchases": 70,
+        "missing_strictly_prior_birth_or_owner": 0,
+        "ambiguous_recorded_owner_context": 0,
+        "recorded_control_not_equal_explicit_setup_player": 0,
+        "purchases_after_any_prior_tracker_death_record": 47,
+        "unit_types_from_exact_birth_keys": {
+          "HeroAbathur": 7,
+          "HeroAnubarak": 7,
+          "HeroBarbarian": 7,
+          "HeroFaerieDragon": 7,
+          "HeroGreymane": 14,
+          "HeroKaelthas": 13,
+          "HeroNova": 7,
+          "HeroTyrande": 6,
+          "VehicleDragon": 2
+        },
+        "recorded_control_upkeep_pairs": [
+          {
+            "control": 1,
+            "upkeep": 1,
+            "count": 7
+          },
+          {
+            "control": 2,
+            "upkeep": 2,
+            "count": 7
+          },
+          {
+            "control": 3,
+            "upkeep": 3,
+            "count": 7
+          },
+          {
+            "control": 4,
+            "upkeep": 4,
+            "count": 7
+          },
+          {
+            "control": 5,
+            "upkeep": 5,
+            "count": 7
+          },
+          {
+            "control": 6,
+            "upkeep": 6,
+            "count": 7
+          },
+          {
+            "control": 7,
+            "upkeep": 7,
+            "count": 7
+          },
+          {
+            "control": 8,
+            "upkeep": 8,
+            "count": 7
+          },
+          {
+            "control": 9,
+            "upkeep": 9,
+            "count": 7
+          },
+          {
+            "control": 10,
+            "upkeep": 10,
+            "count": 7
+          }
+        ],
+        "whole_replay_unchanged": true
+      },
+      {
+        "label": "R8",
+        "replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+        "tracker_sha256": "1a9a556f9f1fde466d17c4a3a3fbb31cbec8d8086bef97efeb796f1f5175245f",
+        "tracker_events": 6614,
+        "existing_tag_layout_shift_used": 22,
+        "conditional_singleton_purchases": 70,
+        "missing_strictly_prior_birth_or_owner": 0,
+        "ambiguous_recorded_owner_context": 0,
+        "recorded_control_not_equal_explicit_setup_player": 0,
+        "purchases_after_any_prior_tracker_death_record": 47,
+        "unit_types_from_exact_birth_keys": {
+          "HeroAbathur": 7,
+          "HeroAnubarak": 7,
+          "HeroBarbarian": 7,
+          "HeroFaerieDragon": 7,
+          "HeroGreymane": 14,
+          "HeroKaelthas": 13,
+          "HeroNova": 7,
+          "HeroTyrande": 6,
+          "VehicleDragon": 2
+        },
+        "recorded_control_upkeep_pairs": [
+          {
+            "control": 1,
+            "upkeep": 1,
+            "count": 7
+          },
+          {
+            "control": 2,
+            "upkeep": 2,
+            "count": 7
+          },
+          {
+            "control": 3,
+            "upkeep": 3,
+            "count": 7
+          },
+          {
+            "control": 4,
+            "upkeep": 4,
+            "count": 7
+          },
+          {
+            "control": 5,
+            "upkeep": 5,
+            "count": 7
+          },
+          {
+            "control": 6,
+            "upkeep": 6,
+            "count": 7
+          },
+          {
+            "control": 7,
+            "upkeep": 7,
+            "count": 7
+          },
+          {
+            "control": 8,
+            "upkeep": 8,
+            "count": 7
+          },
+          {
+            "control": 9,
+            "upkeep": 9,
+            "count": 7
+          },
+          {
+            "control": 10,
+            "upkeep": 10,
+            "count": 7
+          }
+        ],
+        "whole_replay_unchanged": true
+      },
+      {
+        "label": "current",
+        "replay_sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4",
+        "tracker_sha256": "129a09eff04b60e77232d1070f049c3d2ca809627dca9d1cb389ffe656b62e1b",
+        "tracker_events": 6181,
+        "existing_tag_layout_shift_used": 22,
+        "conditional_singleton_purchases": 70,
+        "missing_strictly_prior_birth_or_owner": 0,
+        "ambiguous_recorded_owner_context": 0,
+        "recorded_control_not_equal_explicit_setup_player": 0,
+        "purchases_after_any_prior_tracker_death_record": 36,
+        "unit_types_from_exact_birth_keys": {
+          "HeroAnduin": 7,
+          "HeroDehaka": 7,
+          "HeroGarrosh": 7,
+          "HeroImperius": 7,
+          "HeroKaelthas": 7,
+          "HeroMalfurion": 7,
+          "HeroMeiOW": 7,
+          "HeroMephisto": 14,
+          "HeroWitchDoctor": 7
+        },
+        "recorded_control_upkeep_pairs": [
+          {
+            "control": 1,
+            "upkeep": 1,
+            "count": 7
+          },
+          {
+            "control": 2,
+            "upkeep": 2,
+            "count": 7
+          },
+          {
+            "control": 3,
+            "upkeep": 3,
+            "count": 7
+          },
+          {
+            "control": 4,
+            "upkeep": 4,
+            "count": 7
+          },
+          {
+            "control": 5,
+            "upkeep": 5,
+            "count": 7
+          },
+          {
+            "control": 6,
+            "upkeep": 6,
+            "count": 7
+          },
+          {
+            "control": 7,
+            "upkeep": 7,
+            "count": 7
+          },
+          {
+            "control": 8,
+            "upkeep": 8,
+            "count": 7
+          },
+          {
+            "control": 9,
+            "upkeep": 9,
+            "count": 7
+          },
+          {
+            "control": 10,
+            "upkeep": 10,
+            "count": 7
+          }
+        ],
+        "whole_replay_unchanged": true
+      }
+    ],
+    "independent_tracker_contents": 2,
+    "source_R8_normalized_purchase_contexts_identical": true,
+    "hero_name_or_nearest_time_join": false,
+    "tracker_death_implies_live_pool_absence": false
+  },
+  "conditional_singleton_context_before_all70_talents_each_case": true,
+  "catalog_acceptance_is_unauthenticated_condition": true,
+  "actual_unit_owner_or_catalog_acceptance_or_pool_identity_proven": false,
+  "conditions": [
+    "selected global initialized by13297D0 after status20020000 and no later replacement/alias mutation",
+    "initial primary table27BC518 preserved through normally returning constructor/helpers",
+    "same G receiver at record-start callback and publisher; live enabled flag nonzero, old atomic counter0",
+    "writer-mode member branch selected, allocation succeeds and state+1A8 remains nonnull/usable",
+    "name/string helpers normally preserve the atom-derived tracker name; archive flush/persistence not audited",
+    "valid disjoint manager/event/input/stack/output storage, stable object/schema/handles and ordinary Windows x64 ABI",
+    "no exception, reentry/concurrent/alias mutation or later object/vtable replacement; selected transformed code/tables available as pinned",
+    "successful numeric serialization remains conditional on sufficient output capacity or successful refill; ignored return values are not success proof",
+    "both producer branches require unit41 bit0 clear and enabled manager; decoded unit-link/name context and helper returns valid",
+    "per-producer control/upkeep reads describe those load-time field values, not an earlier immutable creation snapshot",
+    "initial duplicate source reads assume creation input is disjoint from the unit and stable between the selected stores",
+    "generic root metadata/USER/scalar walker binding from prior owner-field checkpoint remains pinned; only selected owner and unit-key scalar fields are newly named",
+    "Born high/low handle reads are separated by helpers; stable DWORD[unit+0x10] is required for one combined unit key",
+    "same serialized user and event fields preserved through conditional dispatcher suffix; valid normally initialized row/global state",
+    "encoded selection-base globals stable between updater and consumer; helpers A283F0/A27B50 return normally and preserve the selected state relationship",
+    "row counts, indices, group data, link table and pointed definition/reference data valid; x64 nonvolatile contract holds",
+    "effective link/definition/predicate values and native bit-array-to-memory details still required before exact subgroup/actor reconstruction",
+    "reference objects sufficiently aligned and live; reference counter and helper effects ordinary; lazy initialization returns with coherent rereadable table",
+    "same definition pointer, key, table and resolved object remain stable between first insertion gate and predicate resolution; no intervening alias/reentry/concurrency changes",
+    "selected allocation succeeds; constructor helpers return normally with the intended bounded non-aliasing memory contracts",
+    "same encoded base/keys and valid state are retained until consumer; allocation/init/reset routes are static, not observed execution",
+    "wire prior-selection coverage proves ordering of recorded events, not successful callback application or absence of other state changes",
+    "nonnull allocation covers0x24180 writable bytes; output, metadata, caller stack and globals remain disjoint/stable",
+    "Windows x64 ABI with DF clear, supported SSE2, valid instruction semantics; REP tail entered only from selected fill prefix with initializedR11",
+    "no address wrap, memory fault, exception/reentry/concurrent or self-modifying/alias writes; selected helpers return normally",
+    "valid normally initialized decoder/accessor context and selected successful short-mask count/callback paths",
+    "coherent buffered input for short bit-copy model; refill and allocation/error/reentry paths outside selected successful contract",
+    "all nonduplicate in-capacity item additions pass effective catalog/reference gates, which are NOT authenticated; stable valid group invariants and ordinary overlapping copy",
+    "no other selection/snapshot mutations; source target-style projection is not proof of historical41810 native semantics; recorded tracker owner fields are not captured client objects"
+  ],
+  "replays": [
+    {
+      "label": "source",
+      "path": "work/TEN_GREYMANE_source_41810.StormReplay",
+      "bytes": 635140,
+      "sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824"
+    },
+    {
+      "label": "R8",
+      "path": "work/native-20261018/TEN_GREYMANE_client98285_RESUMABLE_R8_PARTIAL.StormReplay",
+      "bytes": 2438570,
+      "sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19"
+    },
+    {
+      "label": "current",
+      "path": "work/eu-replay-search-20261018/heroeslounge-27515-g1-20261005.StormReplay",
+      "bytes": 978482,
+      "sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4"
+    }
+  ],
+  "unused_launcher_drafts": [
+    {
+      "path": "scripts/run_current_replay_control.py",
+      "bytes": 17147,
+      "sha256": "6315c2dd9291aa5185db0831e1d7c00f24f1d3f33ceb0bd79f8a636dd2aacaea"
+    },
+    {
+      "path": "test_current_replay_control.py",
+      "bytes": 2450,
+      "sha256": "7a00561260e2c0f64a41b9f73cbf8910550f90e4a6d6ad80e7a1d1719879f297"
+    }
+  ],
+  "fresh_game_decode": true,
+  "fresh_tracker_decode": true,
+  "production_or_conversion_changed": false,
+  "unit_tests_authored_or_rerun": false,
+  "native_target_executed": false,
+  "native_code_emulated": false,
+  "REA_native_provider_analysis": false,
+  "network_or_game_or_Computer_Use": false,
+  "new_replay_or_sync_written": false,
+  "safe_talent_index_migration_established": false,
+  "full_upgrade_complete": false
+}

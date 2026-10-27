@@ -1,0 +1,108 @@
+{
+  "format": "native-selection-removal-context-static-and-recorded-validation-v1",
+  "passed": true,
+  "base_commit": "875ae661396bbabd7e358cea917ea78232c345e4",
+  "qualified_ranges": 12,
+  "qualified_code_bytes": 5185,
+  "qualified_instructions": 1453,
+  "selected_instruction_checks": 94,
+  "reader_switch_targets_checked": 16,
+  "reader_switch_table_bytes": 64,
+  "reader_alignment_bytes_excluded": 2,
+  "short_mask_model_cases": 120,
+  "fresh_game_file_cases": 3,
+  "fresh_tracker_file_cases": 3,
+  "independent_tracker_contents": 2,
+  "conditional_singleton_talent_contexts": [
+    70,
+    70,
+    70
+  ],
+  "missing_prior_birth_or_owner": [
+    0,
+    0,
+    0
+  ],
+  "ambiguous_recorded_owner_contexts": [
+    0,
+    0,
+    0
+  ],
+  "recorded_control_vs_explicit_setup_mismatches": [
+    0,
+    0,
+    0
+  ],
+  "source_R8_normalized_contexts_identical": true,
+  "source_R8_VehicleDragon_conditional_contexts": 2,
+  "catalog_acceptance_is_unauthenticated_condition": true,
+  "actual_client_actor_owner_or_pool_identity_proven": false,
+  "private_receipt": {
+    "path": "qualified-removal-context.private.json",
+    "bytes": 52443,
+    "sha256": "4ef92d32e4c7a745da83908b030195df7e9ae7e30e9efa4857e060f088999354"
+  },
+  "private_drivers": [
+    {
+      "path": "native-selection-removal-mask-20261027/qualify_removal_and_context.py",
+      "bytes": 16335,
+      "sha256": "8c2069428aff1268b0539c9e4450c89359096d8e17b0752e17d952b86842b6e5"
+    },
+    {
+      "path": "native-selection-removal-mask-20261027/audit_conditional_item_rows.py",
+      "bytes": 6287,
+      "sha256": "5e6e0882153c72cbe6d06fd4225e67c2bc3a971eb45403154e884c72cb9c7ccc"
+    },
+    {
+      "path": "native-selection-removal-mask-20261027/join_conditional_tracker_context.py",
+      "bytes": 6829,
+      "sha256": "5cdcd91aa0818e373187615a10bba690d8fe07b6b5f56d3ba0ab435b62217709"
+    }
+  ],
+  "replays": [
+    {
+      "label": "source",
+      "path": "work/TEN_GREYMANE_source_41810.StormReplay",
+      "bytes": 635140,
+      "sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824"
+    },
+    {
+      "label": "R8",
+      "path": "work/native-20261018/TEN_GREYMANE_client98285_RESUMABLE_R8_PARTIAL.StormReplay",
+      "bytes": 2438570,
+      "sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19"
+    },
+    {
+      "label": "current",
+      "path": "work/eu-replay-search-20261018/heroeslounge-27515-g1-20261005.StormReplay",
+      "bytes": 978482,
+      "sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4"
+    }
+  ],
+  "unused_launcher_drafts": [
+    {
+      "path": "scripts/run_current_replay_control.py",
+      "bytes": 17147,
+      "sha256": "6315c2dd9291aa5185db0831e1d7c00f24f1d3f33ceb0bd79f8a636dd2aacaea"
+    },
+    {
+      "path": "test_current_replay_control.py",
+      "bytes": 2450,
+      "sha256": "7a00561260e2c0f64a41b9f73cbf8910550f90e4a6d6ad80e7a1d1719879f297"
+    }
+  ],
+  "replay_and_draft_hashes_rechecked": true,
+  "fresh_game_decode": true,
+  "fresh_tracker_decode": true,
+  "production_or_conversion_changed": false,
+  "unit_tests_authored_or_rerun": false,
+  "full_corpus_or_hosted_CI_run": false,
+  "independent_peer_review": false,
+  "native_target_executed": false,
+  "native_code_emulated": false,
+  "REA_native_provider_analysis": false,
+  "network_or_game_or_Computer_Use": false,
+  "new_replay_or_sync_written": false,
+  "safe_talent_index_migration_established": false,
+  "full_upgrade_complete": false
+}

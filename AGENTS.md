@@ -1809,3 +1809,43 @@ No production/replay/sync change, freshdecode/tests/CI/peer review, REA provider
 native execution or emulation. Keep all work offline; full upgrade/playback
 false. Next cumulative removal-mask/state semantics and effective definitions
 before talent actor/owner attribution; historical41810 and playback still needed.
+
+
+## Offline removal masks and conditional talent units - 2026-10-27
+
+Read docs/NATIVE_SELECTION_REMOVAL_CONTEXT_2026-10-27.md and dated receipts.
+Native reader1A713D0->1A70A00,kind3/tableindex2->1A70B7B->1A704C0->1A71400.
+Original type321 slot10->1359C10 storescount/returnspayload8;choice313 slot18
+->135BFF0 tag1/zero count/data/returnchoice4. Delta discriminator4/count8/data10.
+Observed masks only1..3bits; successful buffered short path writes decoded
+integer into low bits of one byte. Consumer202DC8A tests bit(i&7),byte(i>>3).
+120width0..3*offset0..7*allpattern cases agree with pinned Python bit-buffer.
+Not a universal longer-array/refill/error or historical-native proof.
+
+202DBC0 None=no removal;Mask reverse min(count,bits);OneIndices reverse supplied
+list (do NOT silently sort/deduplicate);ZeroIndices reverse row/tail keep-list.
+Observed OneIndices0;all8source/R8 ZeroIndices lists EMPTY. Source masks71:
+len1/value1=45,len2/value2=23,len2/value3=1,len3/value5=1,len3/value6=1;current13
+alllen1/value1. Remove202EAA0 compacts groups/tags/items;1A2B250 overlapping-copy
+contract still explicit. After gates202D910 inserts unique numericuint32 sorted.
+
+CONDITIONAL model: qualified normalemptyinit, no other mutations, validgroups,
+ordinarycopy, EACH addition passes catalog/reference gates (NOT authenticated).
+Then ALL70talents per source/R8/control have exactly1item;0duplicate/capacity
+skips. Latest subgroup0 plus valid1item group suffices without guessed key or
+predicate values. Not actual client actor/owner, accepted links or playback.
+Existing source18/target22 packing reused, no new conversion. Exact index/recycle
+join to strict-prior tracker owner + same-loop alternatives + explicit setup:
+all70/case have prior birth/owner,0ambiguous,0control-vs-setup mismatches.
+Source/R8 normalized contexts equal;tracker contents only2independent.
+2source/R8 candidates areVehicleDragon by EXACT birthkey, not hero/time match.
+47source/R8 and36current purchases follow prior trackerdeath records; do NOT
+treat trackerdeath as native pool destruction/absence or discard keys for it.
+
+12ranges5185B/1453instr,94selected checks,16switchtargets,120shortmaskmodels pass.
+Reader code ends1A7137E;2alignment bytes and64B transformed table separate.
+Fresh fullgame/tracker reads,pins pass;public aggregates only, privatekeys retained.
+No prod/replay/sync change, tests/CI/peer review, REA provider/native execution,
+emulation, game/CU/network/publication. Keep offline;full upgrade/playback false.
+Next effective insertion gate/unit identity for expected contexts, then actual
+historical41810 rules/native playback. No safe talent remap follows yet.
