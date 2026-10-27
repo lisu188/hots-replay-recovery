@@ -1716,3 +1716,30 @@ full corpus, hosted CI, peer review, REA provider/native execution. All work sta
 offline: no game, Computer Use, network or publication; full upgrade/playback false.
 Next exact effective link/definition/predicate inputs or existing captures before
 unit/owner attribution; historical41810 rules and native playback remain required.
+
+
+## Offline selection definition inputs - 2026-10-27
+
+Read docs/NATIVE_SELECTION_DEFINITION_INPUTS_2026-10-27.md and its dated
+native-selection-definition-inputs evidence/validation receipts. First lookup
+5E1B70 uses context3388B18/table+2A0/count90/entriesA0. Second201A490 uses
+WORD[first definition+40] orFFFF, SAME table but DIFFERENT count38/entries48.
+Slot low-bit branch calls1608180(slot-1,0), then rereads array/slot. Body not
+audited. Non-null object required; selected R9B0 rejects object byte0 bit0.
+201A5A0 writes(ptr&~1F)|(flags&1F); selected callers use flags16. Failure output
+16 masks to null. Null first definition selectsFFFF, not universal rejection.
+
+993DA0 forwards same definition reference, resolves with allow0/flags16, then
+writes(BYTE[object+DD]>>5)&1 and returns output-slot pointer. No local null
+guard before read. Earlier202D910 resolution nonzero gate only suffices under
+stable definition/table/object and coherent normal helpers/ABI. Predicate1
+selects handle>>22 descriptor, else3FF; definition40 is another descriptor key.
+Do not name a CUnit/XML flag/class or infer effective data from hero name.
+
+5ranges1149B/289instr;3new functions411B/111instr plus2previous ranges.
+70selected checks/10nonvolatile flows/3required edges and entry-RDX handoff pass.
+Actual first/second arrays, definition40, object byte0/DD values NOT captured.
+Full subgroup/order/mask/snapshot model, actor/owner and historical41810 rules
+still open. PE/transformed/replay/draft pins rechecked. No fresh game/tracker
+decode, production/conversion/sync change, tests/CI/peer review, REA native
+provider or target execution. Keep all work offline; full upgrade/playback false.
