@@ -1743,3 +1743,37 @@ Full subgroup/order/mask/snapshot model, actor/owner and historical41810 rules
 still open. PE/transformed/replay/draft pins rechecked. No fresh game/tracker
 decode, production/conversion/sync change, tests/CI/peer review, REA native
 provider or target execution. Keep all work offline; full upgrade/playback false.
+
+
+## Offline subgroup initialization and recorded talent context - 2026-10-27
+
+Read docs/NATIVE_SELECTION_SUBGROUP_CONTEXT_2026-10-27.md and its two dated
+native-selection-subgroup-context receipts. Fresh full game reads original/R8/
+control: ten wire users0..9,7talents each, ALL70 have a prior same-user selection.
+Each first selection bank10/index0/None adds1unit/1group(count1). None does NOT
+clear unknown prior state. Latest selection before ALL70 has index0: contexts
+source/R8 None+1=53,ZeroIndices+1=11,Mask+0=6;control64/0/6. Not cumulative row
+reconstruction; five earlier index1 events still matter. No guessed actor/owner.
+
+A28C90 allocates24180 bytes;352rows*1A4, ranges0..15/16..175/176..191/192..351.
+Active loop startsbase120C0 and calls202D680 sixteen times; matchesA28B60 for
+all16users. A28370 nested16x10 builds stored ranges. Row ctor directWORD[row]0
+andBYTE[row+2]0 occur BEFORE helpers202D3C0/1A2B6C0, whose full memory effects
+are not audited. Same encoded base published; null allocation publishes null.
+A29420 calls1A24B90 on decoded base then publishes encoded null. No actual init/
+reset execution or retained empty row at first event is captured/established.
+
+202DA17 calls202E600(row,descriptor,&index). Unsigned lexicographic order:
+descriptor byte4 priority DESC,word0 definition40 ASC,byte5 intraPriority DESC,
+word2 conditional unitIndex/3FF DESC. AL1 only all4equal at stopping index;
+otherwiseAL0 and insertion/end index. Empty groupcount yields index0/AL0 without
+reading incoming descriptor. Preserve effective definition/predicate dependencies.
+
+7ranges1610B/375instr (5new876B/201instr),98selected checks,7nonvolatile flows,
+2required edges/4unsigned flag paths pass. Workspace-only hidden/ignored dump
+filename search found0; no global absence claim or repeated historical route.
+Actual effective tables, init retention, cumulative mask/order/snapshot state,
+selected unit/owner and historical41810 rules remain open. No production/replay/
+sync change, unit tests/CI/peer review, REA provider/native execution. Keep all
+work offline; full upgrade/playback false. Next exact init/helper preservation
+and effective inputs before attributing talent actors or changing conversion.

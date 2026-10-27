@@ -1,0 +1,1907 @@
+{
+  "format": "offline-native-selection-subgroup-context-v1",
+  "source_PE": {
+    "bytes": 53573840,
+    "sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9"
+  },
+  "transformed_text": {
+    "bytes": 36581376,
+    "sha256": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83",
+    "runtime_capture_or_unchanged_PE": false
+  },
+  "prior_definition_inputs_sha256": "aa98ec65271f3473a6c087a8a749227c85f6804e95ea3bc66fad45346d41527b",
+  "qualified_code_ranges": [
+    {
+      "label": "subgroup_compare",
+      "start_rva": "0x202e600",
+      "end_exclusive_rva": "0x202e6c5",
+      "bytes": 197,
+      "instructions": 55,
+      "sha256": "4a158ddd7d11c268a0ec6a18a73b063aa0cb82f5eab2767e76d23d3b9b9c6b75",
+      "extent_scope": "complete original RuntimeFunction/CHAININFO union",
+      "original_fragments": [
+        [
+          "0x202e600",
+          "0x202e6c5",
+          "0x2e970fc"
+        ]
+      ]
+    },
+    {
+      "label": "selection_allocate",
+      "start_rva": "0xa28c90",
+      "end_exclusive_rva": "0xa28d60",
+      "bytes": 208,
+      "instructions": 48,
+      "sha256": "9370c5d6e530ed85b9044797521107e6577d77dcf79ccd23952a3897f014bc1e",
+      "extent_scope": "complete original RuntimeFunction/CHAININFO union",
+      "original_fragments": [
+        [
+          "0xa28c90",
+          "0xa28cac",
+          "0x2cc0930"
+        ],
+        [
+          "0xa28cac",
+          "0xa28cb3",
+          "0x2cc0938"
+        ],
+        [
+          "0xa28cb3",
+          "0xa28d02",
+          "0x2cc094c"
+        ],
+        [
+          "0xa28d02",
+          "0xa28d2f",
+          "0x2cc0964"
+        ],
+        [
+          "0xa28d2f",
+          "0xa28d60",
+          "0x2cc0978"
+        ]
+      ]
+    },
+    {
+      "label": "selection_reset",
+      "start_rva": "0xa29420",
+      "end_exclusive_rva": "0xa29485",
+      "bytes": 101,
+      "instructions": 20,
+      "sha256": "bce9fd0c23b6ddd6cb2715e27b4d706cec974b9e4fd1321670322ea8eb81d825",
+      "extent_scope": "complete original RuntimeFunction/CHAININFO union",
+      "original_fragments": [
+        [
+          "0xa29420",
+          "0xa29485",
+          "0x2cc0988"
+        ]
+      ]
+    },
+    {
+      "label": "row_initializer",
+      "start_rva": "0x202d680",
+      "end_exclusive_rva": "0x202d773",
+      "bytes": 243,
+      "instructions": 48,
+      "sha256": "213d07bcf6208fc1ea2009d4417e36420a1e2a1998c2bf8c84336d182e0a9e6a",
+      "extent_scope": "complete original RuntimeFunction/CHAININFO union",
+      "original_fragments": [
+        [
+          "0x202d680",
+          "0x202d773",
+          "0x2e96f6c"
+        ]
+      ]
+    },
+    {
+      "label": "stored_rows_initializer",
+      "start_rva": "0xa28370",
+      "end_exclusive_rva": "0xa283ef",
+      "bytes": 127,
+      "instructions": 30,
+      "sha256": "a4f97b5b2c45d7e189c5667bd4d606eac33dce0ba6a2ef66cbf413f48a09ad1a",
+      "extent_scope": "complete original RuntimeFunction/CHAININFO union",
+      "original_fragments": [
+        [
+          "0xa28370",
+          "0xa283ef",
+          "0x2cc0a90"
+        ]
+      ]
+    },
+    {
+      "label": "selection_insert",
+      "start_rva": "0x202d910",
+      "end_exclusive_rva": "0x202dbb6",
+      "bytes": 678,
+      "instructions": 162,
+      "sha256": "f48ead2c66224a5dc503f172c4425bf85183adfe8328077dfe21408f00a83fd2",
+      "extent_scope": "complete original RuntimeFunction/CHAININFO union",
+      "original_fragments": [
+        [
+          "0x202d910",
+          "0x202d91c",
+          "0x2e96fe0"
+        ],
+        [
+          "0x202d91c",
+          "0x202da2d",
+          "0x2e96fe8"
+        ],
+        [
+          "0x202da2d",
+          "0x202daaa",
+          "0x2e97010"
+        ],
+        [
+          "0x202daaa",
+          "0x202dae3",
+          "0x2e97024"
+        ],
+        [
+          "0x202dae3",
+          "0x202daff",
+          "0x2e97034"
+        ],
+        [
+          "0x202daff",
+          "0x202dbb6",
+          "0x2e97044"
+        ]
+      ]
+    },
+    {
+      "label": "active_row_lookup",
+      "start_rva": "0xa28b60",
+      "end_exclusive_rva": "0xa28b98",
+      "bytes": 56,
+      "instructions": 12,
+      "sha256": "08d7acfb271f5df8d525d10b170b23c5c0f6674d0544a23f1dd6b2f5289ce1cc",
+      "extent_scope": "branch-closed no-call leaf; subsequent bytes excluded",
+      "original_fragments": []
+    }
+  ],
+  "qualified_code_bytes": 1610,
+  "qualified_instructions": 375,
+  "selected_instruction_checks": [
+    {
+      "rva": "0xa28c96",
+      "bytes": "b980410200",
+      "assembly": "mov    ecx,0x24180"
+    },
+    {
+      "rva": "0xa28ca0",
+      "bytes": "488be8",
+      "assembly": "mov    rbp,rax"
+    },
+    {
+      "rva": "0xa28cb1",
+      "bytes": "33d2",
+      "assembly": "xor    edx,edx"
+    },
+    {
+      "rva": "0xa28cb8",
+      "bytes": "41b880410200",
+      "assembly": "mov    r8d,0x24180"
+    },
+    {
+      "rva": "0xa28ccb",
+      "bytes": "bf10000000",
+      "assembly": "mov    edi,0x10"
+    },
+    {
+      "rva": "0xa28cd0",
+      "bytes": "488bdd",
+      "assembly": "mov    rbx,rbp"
+    },
+    {
+      "rva": "0xa28cd3",
+      "bytes": "8bf7",
+      "assembly": "mov    esi,edi"
+    },
+    {
+      "rva": "0xa28cd5",
+      "bytes": "488bcb",
+      "assembly": "mov    rcx,rbx"
+    },
+    {
+      "rva": "0xa28ce8",
+      "bytes": "75eb",
+      "assembly": "jne    0x140a28cd5"
+    },
+    {
+      "rva": "0xa28d02",
+      "bytes": "488bcb",
+      "assembly": "mov    rcx,rbx"
+    },
+    {
+      "rva": "0xa28d15",
+      "bytes": "75eb",
+      "assembly": "jne    0x140a28d02"
+    },
+    {
+      "rva": "0xa28d2d",
+      "bytes": "eb02",
+      "assembly": "jmp    0x140a28d31"
+    },
+    {
+      "rva": "0xa28cdd",
+      "bytes": "4881c3a4010000",
+      "assembly": "add    rbx,0x1a4"
+    },
+    {
+      "rva": "0xa28ce4",
+      "bytes": "4883ee01",
+      "assembly": "sub    rsi,0x1"
+    },
+    {
+      "rva": "0xa28cea",
+      "bytes": "488d8d401a0000",
+      "assembly": "lea    rcx,[rbp+0x1a40]"
+    },
+    {
+      "rva": "0xa28cfb",
+      "bytes": "488d9dc0200100",
+      "assembly": "lea    rbx,[rbp+0x120c0]"
+    },
+    {
+      "rva": "0xa28d0a",
+      "bytes": "4881c3a4010000",
+      "assembly": "add    rbx,0x1a4"
+    },
+    {
+      "rva": "0xa28d11",
+      "bytes": "4883ef01",
+      "assembly": "sub    rdi,0x1"
+    },
+    {
+      "rva": "0xa28d17",
+      "bytes": "488d8d003b0100",
+      "assembly": "lea    rcx,[rbp+0x13b00]"
+    },
+    {
+      "rva": "0xa28d2f",
+      "bytes": "33ed",
+      "assembly": "xor    ebp,ebp"
+    },
+    {
+      "rva": "0xa28d37",
+      "bytes": "33c5",
+      "assembly": "xor    eax,ebp"
+    },
+    {
+      "rva": "0xa28d4c",
+      "bytes": "f7d0",
+      "assembly": "not    eax"
+    },
+    {
+      "rva": "0xa2838d",
+      "bytes": "bd10000000",
+      "assembly": "mov    ebp,0x10"
+    },
+    {
+      "rva": "0xa28392",
+      "bytes": "488bf1",
+      "assembly": "mov    rsi,rcx"
+    },
+    {
+      "rva": "0xa283a0",
+      "bytes": "48ffcd",
+      "assembly": "dec    rbp"
+    },
+    {
+      "rva": "0xa283a3",
+      "bytes": "488bfe",
+      "assembly": "mov    rdi,rsi"
+    },
+    {
+      "rva": "0xa283a6",
+      "bytes": "bb0a000000",
+      "assembly": "mov    ebx,0xa"
+    },
+    {
+      "rva": "0xa283b0",
+      "bytes": "488bcf",
+      "assembly": "mov    rcx,rdi"
+    },
+    {
+      "rva": "0xa283b8",
+      "bytes": "4881c7a4010000",
+      "assembly": "add    rdi,0x1a4"
+    },
+    {
+      "rva": "0xa283bf",
+      "bytes": "4883eb01",
+      "assembly": "sub    rbx,0x1"
+    },
+    {
+      "rva": "0xa283c3",
+      "bytes": "75eb",
+      "assembly": "jne    0x140a283b0"
+    },
+    {
+      "rva": "0xa283c5",
+      "bytes": "4881c668100000",
+      "assembly": "add    rsi,0x1068"
+    },
+    {
+      "rva": "0xa283cf",
+      "bytes": "75cf",
+      "assembly": "jne    0x140a283a0"
+    },
+    {
+      "rva": "0x202d68f",
+      "bytes": "66c7010000",
+      "assembly": "mov    WORD PTR [rcx],0x0"
+    },
+    {
+      "rva": "0x202d696",
+      "bytes": "c6410200",
+      "assembly": "mov    BYTE PTR [rcx+0x2],0x0"
+    },
+    {
+      "rva": "0x202d69a",
+      "bytes": "488bf1",
+      "assembly": "mov    rsi,rcx"
+    },
+    {
+      "rva": "0x202d6df",
+      "bytes": "4881c1a4000000",
+      "assembly": "add    rcx,0xa4"
+    },
+    {
+      "rva": "0x202d6ed",
+      "bytes": "488d4e04",
+      "assembly": "lea    rcx,[rsi+0x4]"
+    },
+    {
+      "rva": "0x202d6f1",
+      "bytes": "41b880000000",
+      "assembly": "mov    r8d,0x80"
+    },
+    {
+      "rva": "0x202d706",
+      "bytes": "488d8ea4000000",
+      "assembly": "lea    rcx,[rsi+0xa4]"
+    },
+    {
+      "rva": "0x202d723",
+      "bytes": "41b800010000",
+      "assembly": "mov    r8d,0x100"
+    },
+    {
+      "rva": "0x202e614",
+      "bytes": "440fb65901",
+      "assembly": "movzx  r11d,BYTE PTR [rcx+0x1]"
+    },
+    {
+      "rva": "0x202e619",
+      "bytes": "4532c9",
+      "assembly": "xor    r9b,r9b"
+    },
+    {
+      "rva": "0x202e61c",
+      "bytes": "498bf0",
+      "assembly": "mov    rsi,r8"
+    },
+    {
+      "rva": "0x202e61f",
+      "bytes": "4c8bd2",
+      "assembly": "mov    r10,rdx"
+    },
+    {
+      "rva": "0x202e622",
+      "bytes": "488bf9",
+      "assembly": "mov    rdi,rcx"
+    },
+    {
+      "rva": "0x202e62a",
+      "bytes": "0fb65a04",
+      "assembly": "movzx  ebx,BYTE PTR [rdx+0x4]"
+    },
+    {
+      "rva": "0x202e62e",
+      "bytes": "bdffffffff",
+      "assembly": "mov    ebp,0xffffffff"
+    },
+    {
+      "rva": "0x202e644",
+      "bytes": "488d8fa4000000",
+      "assembly": "lea    rcx,[rdi+0xa4]"
+    },
+    {
+      "rva": "0x202e650",
+      "bytes": "488d0cc1",
+      "assembly": "lea    rcx,[rcx+rax*8]"
+    },
+    {
+      "rva": "0x202e654",
+      "bytes": "3ad3",
+      "assembly": "cmp    dl,bl"
+    },
+    {
+      "rva": "0x202e658",
+      "bytes": "0fb711",
+      "assembly": "movzx  edx,WORD PTR [rcx]"
+    },
+    {
+      "rva": "0x202e65b",
+      "bytes": "450fb702",
+      "assembly": "movzx  r8d,WORD PTR [r10]"
+    },
+    {
+      "rva": "0x202e65f",
+      "bytes": "66413bd0",
+      "assembly": "cmp    dx,r8w"
+    },
+    {
+      "rva": "0x202e66a",
+      "bytes": "0f42c5",
+      "assembly": "cmovb  eax,ebp"
+    },
+    {
+      "rva": "0x202e66f",
+      "bytes": "0fb65105",
+      "assembly": "movzx  edx,BYTE PTR [rcx+0x5]"
+    },
+    {
+      "rva": "0x202e673",
+      "bytes": "450fb64205",
+      "assembly": "movzx  r8d,BYTE PTR [r10+0x5]"
+    },
+    {
+      "rva": "0x202e678",
+      "bytes": "413ad0",
+      "assembly": "cmp    dl,r8b"
+    },
+    {
+      "rva": "0x202e67d",
+      "bytes": "0fb75102",
+      "assembly": "movzx  edx,WORD PTR [rcx+0x2]"
+    },
+    {
+      "rva": "0x202e681",
+      "bytes": "410fb74a02",
+      "assembly": "movzx  ecx,WORD PTR [r10+0x2]"
+    },
+    {
+      "rva": "0x202e686",
+      "bytes": "663bd1",
+      "assembly": "cmp    dx,cx"
+    },
+    {
+      "rva": "0x202e690",
+      "bytes": "0f47c5",
+      "assembly": "cmova  eax,ebp"
+    },
+    {
+      "rva": "0x202e695",
+      "bytes": "7924",
+      "assembly": "jns    0x14202e6bb"
+    },
+    {
+      "rva": "0x202e69f",
+      "bytes": "44881e",
+      "assembly": "mov    BYTE PTR [rsi],r11b"
+    },
+    {
+      "rva": "0x202e6a2",
+      "bytes": "32c0",
+      "assembly": "xor    al,al"
+    },
+    {
+      "rva": "0x202e6b9",
+      "bytes": "33c0",
+      "assembly": "xor    eax,eax"
+    },
+    {
+      "rva": "0x202e6bd",
+      "bytes": "44880e",
+      "assembly": "mov    BYTE PTR [rsi],r9b"
+    },
+    {
+      "rva": "0x202e6c0",
+      "bytes": "0f94c0",
+      "assembly": "sete   al"
+    },
+    {
+      "rva": "0x202da0a",
+      "bytes": "4c8d442421",
+      "assembly": "lea    r8,[rsp+0x21]"
+    },
+    {
+      "rva": "0x202da0f",
+      "bytes": "488bcb",
+      "assembly": "mov    rcx,rbx"
+    },
+    {
+      "rva": "0x202da12",
+      "bytes": "488d542428",
+      "assembly": "lea    rdx,[rsp+0x28]"
+    },
+    {
+      "rva": "0x202da1c",
+      "bytes": "0fb6742421",
+      "assembly": "movzx  esi,BYTE PTR [rsp+0x21]"
+    },
+    {
+      "rva": "0x202da21",
+      "bytes": "84c0",
+      "assembly": "test   al,al"
+    },
+    {
+      "rva": "0x202da23",
+      "bytes": "0f8518010000",
+      "assembly": "jne    0x14202db41"
+    },
+    {
+      "rva": "0xa28c9b",
+      "direct_target_rva": "0x1372530"
+    },
+    {
+      "rva": "0xa28cc6",
+      "direct_target_rva": "0x1a2b6c0"
+    },
+    {
+      "rva": "0xa28cd8",
+      "direct_target_rva": "0x202d680"
+    },
+    {
+      "rva": "0xa28cf1",
+      "direct_target_rva": "0xa28370"
+    },
+    {
+      "rva": "0xa28d05",
+      "direct_target_rva": "0x202d680"
+    },
+    {
+      "rva": "0xa28d1e",
+      "direct_target_rva": "0xa28370"
+    },
+    {
+      "rva": "0xa283b3",
+      "direct_target_rva": "0x202d680"
+    },
+    {
+      "rva": "0x202d6e6",
+      "direct_target_rva": "0x202d3c0"
+    },
+    {
+      "rva": "0x202d6f7",
+      "direct_target_rva": "0x1a2b6c0"
+    },
+    {
+      "rva": "0x202d75b",
+      "direct_target_rva": "0x1a2b6c0"
+    },
+    {
+      "rva": "0x202da17",
+      "direct_target_rva": "0x202e600"
+    },
+    {
+      "rva": "0xa29450",
+      "direct_target_rva": "0x1a24b90"
+    },
+    {
+      "rva": "0xa28d31",
+      "original_RIP_target_rva": "0x32c55d8"
+    },
+    {
+      "rva": "0xa28d39",
+      "original_RIP_target_rva": "0x35d4798"
+    },
+    {
+      "rva": "0xa28d40",
+      "original_RIP_target_rva": "0x35d4798"
+    },
+    {
+      "rva": "0xa28d46",
+      "original_RIP_target_rva": "0x35d479c"
+    },
+    {
+      "rva": "0xa28d4e",
+      "original_RIP_target_rva": "0x32c2ed0"
+    },
+    {
+      "rva": "0xa28d54",
+      "original_RIP_target_rva": "0x35d479c"
+    },
+    {
+      "rva": "0xa29424",
+      "original_RIP_target_rva": "0x35d4798"
+    },
+    {
+      "rva": "0xa2942f",
+      "original_RIP_target_rva": "0x32c55d8"
+    },
+    {
+      "rva": "0xa29439",
+      "original_RIP_target_rva": "0x35d479c"
+    },
+    {
+      "rva": "0xa2943f",
+      "original_RIP_target_rva": "0x32c2ed0"
+    },
+    {
+      "rva": "0xa29466",
+      "original_RIP_target_rva": "0x35d4798"
+    },
+    {
+      "rva": "0xa2947a",
+      "original_RIP_target_rva": "0x35d479c"
+    }
+  ],
+  "register_flow_checks": [
+    {
+      "range": "selection_allocate",
+      "definition": "0xa28ca0",
+      "use": "0xa28cfb",
+      "dominates_use": true,
+      "no_conflicting_explicit_nonvolatile_register_write_on_relevant_paths": true
+    },
+    {
+      "range": "selection_allocate",
+      "definition": "0xa28ca0",
+      "use": "0xa28d17",
+      "dominates_use": true,
+      "no_conflicting_explicit_nonvolatile_register_write_on_relevant_paths": true
+    },
+    {
+      "range": "selection_allocate",
+      "definition": "0xa28ccb",
+      "use": "0xa28d11",
+      "dominates_use": true,
+      "no_conflicting_explicit_nonvolatile_register_write_on_relevant_paths": true
+    },
+    {
+      "range": "row_initializer",
+      "definition": "0x202d69a",
+      "use": "0x202d706",
+      "dominates_use": true,
+      "no_conflicting_explicit_nonvolatile_register_write_on_relevant_paths": true
+    },
+    {
+      "range": "stored_rows_initializer",
+      "definition": "0xa2838a",
+      "use": "0xa283d6",
+      "dominates_use": true,
+      "no_conflicting_explicit_nonvolatile_register_write_on_relevant_paths": true
+    },
+    {
+      "range": "subgroup_compare",
+      "definition": "0x202e61c",
+      "use": "0x202e6bd",
+      "dominates_use": true,
+      "no_conflicting_explicit_nonvolatile_register_write_on_relevant_paths": true
+    },
+    {
+      "range": "subgroup_compare",
+      "definition": "0x202e622",
+      "use": "0x202e644",
+      "dominates_use": true,
+      "no_conflicting_explicit_nonvolatile_register_write_on_relevant_paths": true
+    }
+  ],
+  "required_guard_edges": [
+    {
+      "range": "selection_allocate",
+      "use_rva": "0xa28d05",
+      "required_edge": [
+        "0xa28ca6",
+        "0xa28cac"
+      ],
+      "use_unreachable_when_edge_removed": true
+    },
+    {
+      "range": "subgroup_compare",
+      "use_rva": "0x202e62a",
+      "required_edge": [
+        "0x202e628",
+        "0x202e62a"
+      ],
+      "use_unreachable_when_edge_removed": true
+    }
+  ],
+  "unsigned_comparison_flag_paths": [
+    {
+      "comparison_rva": "0x202e654",
+      "flag_preserving_path": [
+        "0x202e656",
+        "0x202e68b",
+        "0x202e690"
+      ],
+      "unsigned_condition": "cmova"
+    },
+    {
+      "comparison_rva": "0x202e65f",
+      "flag_preserving_path": [
+        "0x202e663",
+        "0x202e665",
+        "0x202e66a"
+      ],
+      "unsigned_condition": "cmovb"
+    },
+    {
+      "comparison_rva": "0x202e678",
+      "flag_preserving_path": [
+        "0x202e67b",
+        "0x202e68b",
+        "0x202e690"
+      ],
+      "unsigned_condition": "cmova"
+    },
+    {
+      "comparison_rva": "0x202e686",
+      "flag_preserving_path": [
+        "0x202e689",
+        "0x202e68b",
+        "0x202e690"
+      ],
+      "unsigned_condition": "cmova"
+    }
+  ],
+  "subgroup_comparison": {
+    "function": "0x202e600",
+    "row_group_count_offset": "0x1",
+    "descriptors_offset": "0xa4",
+    "descriptor_stride": 8,
+    "lexicographic_key": [
+      {
+        "field_offset": "0x4",
+        "width": "uint8",
+        "order": "descending",
+        "meaning": "subgroup priority from selected insertion input"
+      },
+      {
+        "field_offset": "0x0",
+        "width": "uint16",
+        "order": "ascending",
+        "meaning": "first definition word40"
+      },
+      {
+        "field_offset": "0x5",
+        "width": "uint8",
+        "order": "descending",
+        "meaning": "intra-subgroup priority from selected insertion input"
+      },
+      {
+        "field_offset": "0x2",
+        "width": "uint16",
+        "order": "descending",
+        "meaning": "conditional unit-handle index or0x3ff"
+      }
+    ],
+    "result": "output insertion/matching index; AL1 iff all four fields equal at that index; otherwiseAL0",
+    "empty_group_row": "writes index0 and AL0 without reading the incoming descriptor fields",
+    "whole_selection_simulation_reimplemented": false
+  },
+  "initialization": {
+    "allocator_entry": "0xa28c90",
+    "allocation_bytes": "0x24180",
+    "row_stride": "0x1a4",
+    "row_indices": {
+      "leading_16_rows": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "next_160_rows": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175
+      ],
+      "active_user_rows": [
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191
+      ],
+      "user_stored_rows": [
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262,
+        263,
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273,
+        274,
+        275,
+        276,
+        277,
+        278,
+        279,
+        280,
+        281,
+        282,
+        283,
+        284,
+        285,
+        286,
+        287,
+        288,
+        289,
+        290,
+        291,
+        292,
+        293,
+        294,
+        295,
+        296,
+        297,
+        298,
+        299,
+        300,
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+        320,
+        321,
+        322,
+        323,
+        324,
+        325,
+        326,
+        327,
+        328,
+        329,
+        330,
+        331,
+        332,
+        333,
+        334,
+        335,
+        336,
+        337,
+        338,
+        339,
+        340,
+        341,
+        342,
+        343,
+        344,
+        345,
+        346,
+        347,
+        348,
+        349,
+        350,
+        351
+      ]
+    },
+    "active_user_row_loop": "0xa28d02 ->0x202d680,16 iterations starting base+0x120c0",
+    "same_active_lookup_row_address_model_cases": 16,
+    "row_constructor_direct_stores": "WORD[row+0]=0 clears unit/group counts; BYTE[row+2]=0 clears active subgroup",
+    "constructor_later_calls": [
+      "0x202d3c0(row+0xa4)",
+      "0x1a2b6c0(row+4,0,0x80)",
+      "0x1a2b6c0(row+0xa4,0,0x100)"
+    ],
+    "constructor_helper_full_memory_effects_audited": false,
+    "encoded_base_publication": "raw RBP pointer written to0x35d4798; low32 XOR key0x32c55d8, high32 NOT+key0x32c2ed0; decodes to the allocation under stable keys",
+    "null_allocation_path_publishes_encoded_null": true,
+    "reset_entry": "0xa29420 decodes same base, calls1a24b90 then publishes encoded null",
+    "actual_constructor_call_or_initial_row_state_at_first_replay_event_captured": false,
+    "other_selection_mutators_and_snapshot_hook_effects_fully_closed": false
+  },
+  "fresh_wire_user_coverage": [
+    {
+      "label": "source",
+      "replay_path": "work/TEN_GREYMANE_source_41810.StormReplay",
+      "replay_bytes": 635140,
+      "replay_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+      "game_member_bytes": 1146911,
+      "game_member_sha256": "ea69dd77edd02f3ed2c42a2def1faab6dc4d0eb46da291c44f76bfb49a65eed6",
+      "events": 104257,
+      "last_gameloop": 19732,
+      "selection_events_by_wire_user": {
+        "0": 3,
+        "1": 3,
+        "2": 1,
+        "3": 3,
+        "4": 1,
+        "5": 1,
+        "6": 1,
+        "7": 3,
+        "8": 141,
+        "9": 1
+      },
+      "talent_events_by_wire_user": {
+        "0": 7,
+        "1": 7,
+        "2": 7,
+        "3": 7,
+        "4": 7,
+        "5": 7,
+        "6": 7,
+        "7": 7,
+        "8": 7,
+        "9": 7
+      },
+      "talents_after_recorded_same_user_selection": {
+        "0": 7,
+        "1": 7,
+        "2": 7,
+        "3": 7,
+        "4": 7,
+        "5": 7,
+        "6": 7,
+        "7": 7,
+        "8": 7,
+        "9": 7
+      },
+      "talents_without_prior_recorded_same_user_selection": {},
+      "selection_only_users": [],
+      "talent_only_users": [],
+      "wire_mask_bit_lengths": {
+        "1": 45,
+        "2": 24,
+        "3": 2
+      },
+      "whole_replay_unchanged": true,
+      "wire_user_to_runtime_object_or_initial_selection_row_reconstructed": false
+    },
+    {
+      "label": "R8",
+      "replay_path": "work/native-20261018/TEN_GREYMANE_client98285_RESUMABLE_R8_PARTIAL.StormReplay",
+      "replay_bytes": 2438570,
+      "replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "game_member_bytes": 1148436,
+      "game_member_sha256": "31df2ab80eeeb56bc543ea0744f75d4d2ec6a5c337b1f38f04ef90d169dab2f0",
+      "events": 104257,
+      "last_gameloop": 19732,
+      "selection_events_by_wire_user": {
+        "0": 3,
+        "1": 3,
+        "2": 1,
+        "3": 3,
+        "4": 1,
+        "5": 1,
+        "6": 1,
+        "7": 3,
+        "8": 141,
+        "9": 1
+      },
+      "talent_events_by_wire_user": {
+        "0": 7,
+        "1": 7,
+        "2": 7,
+        "3": 7,
+        "4": 7,
+        "5": 7,
+        "6": 7,
+        "7": 7,
+        "8": 7,
+        "9": 7
+      },
+      "talents_after_recorded_same_user_selection": {
+        "0": 7,
+        "1": 7,
+        "2": 7,
+        "3": 7,
+        "4": 7,
+        "5": 7,
+        "6": 7,
+        "7": 7,
+        "8": 7,
+        "9": 7
+      },
+      "talents_without_prior_recorded_same_user_selection": {},
+      "selection_only_users": [],
+      "talent_only_users": [],
+      "wire_mask_bit_lengths": {
+        "1": 45,
+        "2": 24,
+        "3": 2
+      },
+      "whole_replay_unchanged": true,
+      "wire_user_to_runtime_object_or_initial_selection_row_reconstructed": false
+    },
+    {
+      "label": "current",
+      "replay_path": "work/eu-replay-search-20261018/heroeslounge-27515-g1-20261005.StormReplay",
+      "replay_bytes": 978482,
+      "replay_sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4",
+      "game_member_bytes": 1916341,
+      "game_member_sha256": "c7fba3ffbae7cf8ce1c348d0478f8e5cb81b2e3991791e21a793638cf058a52d",
+      "events": 144708,
+      "last_gameloop": 19459,
+      "selection_events_by_wire_user": {
+        "0": 1,
+        "1": 15,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 14,
+        "7": 1,
+        "8": 1,
+        "9": 1
+      },
+      "talent_events_by_wire_user": {
+        "0": 7,
+        "1": 7,
+        "2": 7,
+        "3": 7,
+        "4": 7,
+        "5": 7,
+        "6": 7,
+        "7": 7,
+        "8": 7,
+        "9": 7
+      },
+      "talents_after_recorded_same_user_selection": {
+        "0": 7,
+        "1": 7,
+        "2": 7,
+        "3": 7,
+        "4": 7,
+        "5": 7,
+        "6": 7,
+        "7": 7,
+        "8": 7,
+        "9": 7
+      },
+      "talents_without_prior_recorded_same_user_selection": {},
+      "selection_only_users": [],
+      "talent_only_users": [],
+      "wire_mask_bit_lengths": {
+        "1": 13
+      },
+      "whole_replay_unchanged": true,
+      "wire_user_to_runtime_object_or_initial_selection_row_reconstructed": false
+    }
+  ],
+  "prior_selection_context_summaries": [
+    {
+      "label": "source",
+      "first_selections": [
+        {
+          "kind": "selection",
+          "event_index": 22,
+          "gameloop": 52,
+          "user_id": 5,
+          "bank": 10,
+          "subgroup_index": 0,
+          "remove_variant": "None",
+          "added_units": 1,
+          "added_subgroups": 1,
+          "added_subgroup_counts": [
+            1
+          ]
+        },
+        {
+          "kind": "selection",
+          "event_index": 23,
+          "gameloop": 59,
+          "user_id": 0,
+          "bank": 10,
+          "subgroup_index": 0,
+          "remove_variant": "None",
+          "added_units": 1,
+          "added_subgroups": 1,
+          "added_subgroup_counts": [
+            1
+          ]
+        },
+        {
+          "kind": "selection",
+          "event_index": 24,
+          "gameloop": 60,
+          "user_id": 1,
+          "bank": 10,
+          "subgroup_index": 0,
+          "remove_variant": "None",
+          "added_units": 1,
+          "added_subgroups": 1,
+          "added_subgroup_counts": [
+            1
+          ]
+        },
+        {
+          "kind": "selection",
+          "event_index": 25,
+          "gameloop": 60,
+          "user_id": 6,
+          "bank": 10,
+          "subgroup_index": 0,
+          "remove_variant": "None",
+          "added_units": 1,
+          "added_subgroups": 1,
+          "added_subgroup_counts": [
+            1
+          ]
+        },
+        {
+          "kind": "selection",
+          "event_index": 53,
+          "gameloop": 68,
+          "user_id": 2,
+          "bank": 10,
+          "subgroup_index": 0,
+          "remove_variant": "None",
+          "added_units": 1,
+          "added_subgroups": 1,
+          "added_subgroup_counts": [
+            1
+          ]
+        },
+        {
+          "kind": "selection",
+          "event_index": 114,
+          "gameloop": 68,
+          "user_id": 7,
+          "bank": 10,
+          "subgroup_index": 0,
+          "remove_variant": "None",
+          "added_units": 1,
+          "added_subgroups": 1,
+          "added_subgroup_counts": [
+            1
+          ]
+        },
+        {
+          "kind": "selection",
+          "event_index": 396,
+          "gameloop": 76,
+          "user_id": 3,
+          "bank": 10,
+          "subgroup_index": 0,
+          "remove_variant": "None",
+          "added_units": 1,
+          "added_subgroups": 1,
+          "added_subgroup_counts": [
+            1
+          ]
+        },
+        {
+          "kind": "selection",
+          "event_index": 397,
+          "gameloop": 76,
+          "user_id": 8,
+          "bank": 10,
+          "subgroup_index": 0,
+          "remove_variant": "None",
+          "added_units": 1,
+          "added_subgroups": 1,
+          "added_subgroup_counts": [
+            1
+          ]
+        },
+        {
+          "kind": "selection",
+          "event_index": 418,
+          "gameloop": 83,
+          "user_id": 4,
+          "bank": 10,
+          "subgroup_index": 0,
+          "remove_variant": "None",
+          "added_units": 1,
+          "added_subgroups": 1,
+          "added_subgroup_counts": [
+            1
+          ]
+        },
+        {
+          "kind": "selection",
+          "event_index": 421,
+          "gameloop": 84,
+          "user_id": 9,
+          "bank": 10,
+          "subgroup_index": 0,
+          "remove_variant": "None",
+          "added_units": 1,
+          "added_subgroups": 1,
+          "added_subgroup_counts": [
+            1
+          ]
+        }
+      ],
+      "talent_latest_recorded_selection_context_counts": [
+        {
+          "subgroup_index": 0,
+          "remove_variant": "None",
+          "added_units": 1,
+          "added_subgroups": 1,
+          "count": 53
+        },
+        {
+          "subgroup_index": 0,
+          "remove_variant": "ZeroIndices",
+          "added_units": 1,
+          "added_subgroups": 1,
+          "count": 11
+        },
+        {
+          "subgroup_index": 0,
+          "remove_variant": "Mask",
+          "added_units": 0,
+          "added_subgroups": 0,
+          "count": 6
+        }
+      ],
+      "talents_whose_last_selection_had_nonzero_subgroup": []
+    },
+    {
+      "label": "R8",
+      "first_selections": [
+        {
+          "kind": "selection",
+          "event_index": 22,
+          "gameloop": 52,
+          "user_id": 5,
+          "bank": 10,
+          "subgroup_index": 0,
+          "remove_variant": "None",
+          "added_units": 1,
+          "added_subgroups": 1,
+          "added_subgroup_counts": [
+            1
+          ]
+        },
+        {
+          "kind": "selection",
+          "event_index": 23,
+          "gameloop": 59,
+          "user_id": 0,
+          "bank": 10,
+          "subgroup_index": 0,
+          "remove_variant": "None",
+          "added_units": 1,
+          "added_subgroups": 1,
+          "added_subgroup_counts": [
+            1
+          ]
+        },
+        {
+          "kind": "selection",
+          "event_index": 24,
+          "gameloop": 60,
+          "user_id": 1,
+          "bank": 10,
+          "subgroup_index": 0,
+          "remove_variant": "None",
+          "added_units": 1,
+          "added_subgroups": 1,
+          "added_subgroup_counts": [
+            1
+          ]
+        },
+        {
+          "kind": "selection",
+          "event_index": 25,
+          "gameloop": 60,
+          "user_id": 6,
+          "bank": 10,
+          "subgroup_index": 0,
+          "remove_variant": "None",
+          "added_units": 1,
+          "added_subgroups": 1,
+          "added_subgroup_counts": [
+            1
+          ]
+        },
+        {
+          "kind": "selection",
+          "event_index": 53,
+          "gameloop": 68,
+          "user_id": 2,
+          "bank": 10,
+          "subgroup_index": 0,
+          "remove_variant": "None",
+          "added_units": 1,
+          "added_subgroups": 1,
+          "added_subgroup_counts": [
+            1
+          ]
+        },
+        {
+          "kind": "selection",
+          "event_index": 114,
+          "gameloop": 68,
+          "user_id": 7,
+          "bank": 10,
+          "subgroup_index": 0,
+          "remove_variant": "None",
+          "added_units": 1,
+          "added_subgroups": 1,
+          "added_subgroup_counts": [
+            1
+          ]
+        },
+        {
+          "kind": "selection",
+          "event_index": 396,
+          "gameloop": 76,
+          "user_id": 3,
+          "bank": 10,
+          "subgroup_index": 0,
+          "remove_variant": "None",
+          "added_units": 1,
+          "added_subgroups": 1,
+          "added_subgroup_counts": [
+            1
+          ]
+        },
+        {
+          "kind": "selection",
+          "event_index": 397,
+          "gameloop": 76,
+          "user_id": 8,
+          "bank": 10,
+          "subgroup_index": 0,
+          "remove_variant": "None",
+          "added_units": 1,
+          "added_subgroups": 1,
+          "added_subgroup_counts": [
+            1
+          ]
+        },
+        {
+          "kind": "selection",
+          "event_index": 418,
+          "gameloop": 83,
+          "user_id": 4,
+          "bank": 10,
+          "subgroup_index": 0,
+          "remove_variant": "None",
+          "added_units": 1,
+          "added_subgroups": 1,
+          "added_subgroup_counts": [
+            1
+          ]
+        },
+        {
+          "kind": "selection",
+          "event_index": 421,
+          "gameloop": 84,
+          "user_id": 9,
+          "bank": 10,
+          "subgroup_index": 0,
+          "remove_variant": "None",
+          "added_units": 1,
+          "added_subgroups": 1,
+          "added_subgroup_counts": [
+            1
+          ]
+        }
+      ],
+      "talent_latest_recorded_selection_context_counts": [
+        {
+          "subgroup_index": 0,
+          "remove_variant": "None",
+          "added_units": 1,
+          "added_subgroups": 1,
+          "count": 53
+        },
+        {
+          "subgroup_index": 0,
+          "remove_variant": "ZeroIndices",
+          "added_units": 1,
+          "added_subgroups": 1,
+          "count": 11
+        },
+        {
+          "subgroup_index": 0,
+          "remove_variant": "Mask",
+          "added_units": 0,
+          "added_subgroups": 0,
+          "count": 6
+        }
+      ],
+      "talents_whose_last_selection_had_nonzero_subgroup": []
+    },
+    {
+      "label": "current",
+      "first_selections": [
+        {
+          "kind": "selection",
+          "event_index": 3242,
+          "gameloop": 647,
+          "user_id": 0,
+          "bank": 10,
+          "subgroup_index": 0,
+          "remove_variant": "None",
+          "added_units": 1,
+          "added_subgroups": 1,
+          "added_subgroup_counts": [
+            1
+          ]
+        },
+        {
+          "kind": "selection",
+          "event_index": 3243,
+          "gameloop": 647,
+          "user_id": 4,
+          "bank": 10,
+          "subgroup_index": 0,
+          "remove_variant": "None",
+          "added_units": 1,
+          "added_subgroups": 1,
+          "added_subgroup_counts": [
+            1
+          ]
+        },
+        {
+          "kind": "selection",
+          "event_index": 3244,
+          "gameloop": 656,
+          "user_id": 1,
+          "bank": 10,
+          "subgroup_index": 0,
+          "remove_variant": "None",
+          "added_units": 1,
+          "added_subgroups": 1,
+          "added_subgroup_counts": [
+            1
+          ]
+        },
+        {
+          "kind": "selection",
+          "event_index": 3246,
+          "gameloop": 656,
+          "user_id": 6,
+          "bank": 10,
+          "subgroup_index": 0,
+          "remove_variant": "None",
+          "added_units": 1,
+          "added_subgroups": 1,
+          "added_subgroup_counts": [
+            1
+          ]
+        },
+        {
+          "kind": "selection",
+          "event_index": 3253,
+          "gameloop": 664,
+          "user_id": 2,
+          "bank": 10,
+          "subgroup_index": 0,
+          "remove_variant": "None",
+          "added_units": 1,
+          "added_subgroups": 1,
+          "added_subgroup_counts": [
+            1
+          ]
+        },
+        {
+          "kind": "selection",
+          "event_index": 3268,
+          "gameloop": 664,
+          "user_id": 7,
+          "bank": 10,
+          "subgroup_index": 0,
+          "remove_variant": "None",
+          "added_units": 1,
+          "added_subgroups": 1,
+          "added_subgroup_counts": [
+            1
+          ]
+        },
+        {
+          "kind": "selection",
+          "event_index": 3495,
+          "gameloop": 673,
+          "user_id": 8,
+          "bank": 10,
+          "subgroup_index": 0,
+          "remove_variant": "None",
+          "added_units": 1,
+          "added_subgroups": 1,
+          "added_subgroup_counts": [
+            1
+          ]
+        },
+        {
+          "kind": "selection",
+          "event_index": 3497,
+          "gameloop": 674,
+          "user_id": 3,
+          "bank": 10,
+          "subgroup_index": 0,
+          "remove_variant": "None",
+          "added_units": 1,
+          "added_subgroups": 1,
+          "added_subgroup_counts": [
+            1
+          ]
+        },
+        {
+          "kind": "selection",
+          "event_index": 3514,
+          "gameloop": 679,
+          "user_id": 5,
+          "bank": 10,
+          "subgroup_index": 0,
+          "remove_variant": "None",
+          "added_units": 1,
+          "added_subgroups": 1,
+          "added_subgroup_counts": [
+            1
+          ]
+        },
+        {
+          "kind": "selection",
+          "event_index": 3669,
+          "gameloop": 687,
+          "user_id": 9,
+          "bank": 10,
+          "subgroup_index": 0,
+          "remove_variant": "None",
+          "added_units": 1,
+          "added_subgroups": 1,
+          "added_subgroup_counts": [
+            1
+          ]
+        }
+      ],
+      "talent_latest_recorded_selection_context_counts": [
+        {
+          "subgroup_index": 0,
+          "remove_variant": "None",
+          "added_units": 1,
+          "added_subgroups": 1,
+          "count": 64
+        },
+        {
+          "subgroup_index": 0,
+          "remove_variant": "Mask",
+          "added_units": 0,
+          "added_subgroups": 0,
+          "count": 6
+        }
+      ],
+      "talents_whose_last_selection_had_nonzero_subgroup": []
+    }
+  ],
+  "wire_audit": {
+    "bytes": 189340,
+    "sha256": "0748b68cbccf0f9568005edafaa16ccc0c98a557ef4528ac8eb07434ec96f65c"
+  },
+  "workspace_dump_filename_search": {
+    "root": "work",
+    "command_shape": "rg --files --hidden --no-ignore work with dmp/mdmp/*memory*.bin/*catalog*.bin globs",
+    "matching_files": 0,
+    "scope": "workspace filenames only; not a global disk search or proof no suitable capture exists elsewhere"
+  },
+  "exact_talent_actor_owner_or_effective_definition_values_reconstructed": false,
+  "conditions": [
+    "selected global initialized by13297D0 after status20020000 and no later replacement/alias mutation",
+    "initial primary table27BC518 preserved through normally returning constructor/helpers",
+    "same G receiver at record-start callback and publisher; live enabled flag nonzero, old atomic counter0",
+    "writer-mode member branch selected, allocation succeeds and state+1A8 remains nonnull/usable",
+    "name/string helpers normally preserve the atom-derived tracker name; archive flush/persistence not audited",
+    "valid disjoint manager/event/input/stack/output storage, stable object/schema/handles and ordinary Windows x64 ABI",
+    "no exception, reentry/concurrent/alias mutation or later object/vtable replacement; selected transformed code/tables available as pinned",
+    "successful numeric serialization remains conditional on sufficient output capacity or successful refill; ignored return values are not success proof",
+    "both producer branches require unit41 bit0 clear and enabled manager; decoded unit-link/name context and helper returns valid",
+    "per-producer control/upkeep reads describe those load-time field values, not an earlier immutable creation snapshot",
+    "initial duplicate source reads assume creation input is disjoint from the unit and stable between the selected stores",
+    "generic root metadata/USER/scalar walker binding from prior owner-field checkpoint remains pinned; only selected owner and unit-key scalar fields are newly named",
+    "Born high/low handle reads are separated by helpers; stable DWORD[unit+0x10] is required for one combined unit key",
+    "same serialized user and event fields preserved through conditional dispatcher suffix; valid normally initialized row/global state",
+    "encoded selection-base globals stable between updater and consumer; helpers A283F0/A27B50 return normally and preserve the selected state relationship",
+    "row counts, indices, group data, link table and pointed definition/reference data valid; x64 nonvolatile contract holds",
+    "effective link/definition/predicate values and native bit-array-to-memory details still required before exact subgroup/actor reconstruction",
+    "reference objects sufficiently aligned and live; reference counter and helper effects ordinary; lazy initialization returns with coherent rereadable table",
+    "same definition pointer, key, table and resolved object remain stable between first insertion gate and predicate resolution; no intervening alias/reentry/concurrency changes",
+    "selected allocation succeeds; constructor helpers return normally with the intended bounded non-aliasing memory contracts",
+    "same encoded base/keys and valid state are retained until consumer; allocation/init/reset routes are static, not observed execution",
+    "wire prior-selection coverage proves ordering of recorded events, not successful callback application or absence of other state changes"
+  ],
+  "replays": [
+    {
+      "label": "source",
+      "path": "work/TEN_GREYMANE_source_41810.StormReplay",
+      "bytes": 635140,
+      "sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824"
+    },
+    {
+      "label": "R8",
+      "path": "work/native-20261018/TEN_GREYMANE_client98285_RESUMABLE_R8_PARTIAL.StormReplay",
+      "bytes": 2438570,
+      "sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19"
+    },
+    {
+      "label": "current",
+      "path": "work/eu-replay-search-20261018/heroeslounge-27515-g1-20261005.StormReplay",
+      "bytes": 978482,
+      "sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4"
+    }
+  ],
+  "unused_launcher_drafts": [
+    {
+      "path": "scripts/run_current_replay_control.py",
+      "bytes": 17147,
+      "sha256": "6315c2dd9291aa5185db0831e1d7c00f24f1d3f33ceb0bd79f8a636dd2aacaea"
+    },
+    {
+      "path": "test_current_replay_control.py",
+      "bytes": 2450,
+      "sha256": "7a00561260e2c0f64a41b9f73cbf8910550f90e4a6d6ad80e7a1d1719879f297"
+    }
+  ],
+  "production_or_conversion_changed": false,
+  "unit_tests_authored_or_rerun": false,
+  "fresh_game_decode": true,
+  "native_target_executed": false,
+  "REA_native_provider_analysis": false,
+  "network_or_game_or_Computer_Use": false,
+  "new_replay_or_sync_written": false,
+  "safe_talent_index_migration_established": false,
+  "full_upgrade_complete": false
+}
