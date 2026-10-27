@@ -1,0 +1,126 @@
+{
+  "format": "native-command-payload-physical-comparison-checkpoint-v1",
+  "actual_probe": {
+    "format": "actual-selected-payloads-under-bound-native-graph-v1",
+    "cases": [
+      {
+        "label": "R8partial98285",
+        "source_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+        "source_unchanged": true,
+        "game_member_bytes": 1148436,
+        "game_member_sha256": "31df2ab80eeeb56bc543ea0744f75d4d2ec6a5c337b1f38f04ef90d169dab2f0",
+        "all_events_traversed": 104257,
+        "selected_payloads": {
+          "23": {
+            "official96477_name": "NNet.Game.SLoadGameDoneEvent",
+            "native_root": 274,
+            "count": 0,
+            "payload_bits": 0,
+            "first_recorded_loop": null,
+            "last_recorded_loop": null
+          },
+          "25": {
+            "official96477_name": "NNet.Game.SCommandManagerResetEvent",
+            "native_root": 287,
+            "count": 0,
+            "payload_bits": 0,
+            "first_recorded_loop": null,
+            "last_recorded_loop": null
+          },
+          "27": {
+            "official96477_name": "NNet.Game.SCmdEvent",
+            "native_root": 291,
+            "count": 4558,
+            "payload_bits": 760152,
+            "first_recorded_loop": 61,
+            "last_recorded_loop": 19526
+          }
+        },
+        "all_selected_values_and_bit_spans_equal": true,
+        "declared_constraint_violations": 0,
+        "raw_values_saved": false,
+        "frame_envelope_and_other_payloads_used_upstream96477": true
+      },
+      {
+        "label": "current98348",
+        "source_sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4",
+        "source_unchanged": true,
+        "game_member_bytes": 1916341,
+        "game_member_sha256": "c7fba3ffbae7cf8ce1c348d0478f8e5cb81b2e3991791e21a793638cf058a52d",
+        "all_events_traversed": 144708,
+        "selected_payloads": {
+          "23": {
+            "official96477_name": "NNet.Game.SLoadGameDoneEvent",
+            "native_root": 274,
+            "count": 0,
+            "payload_bits": 0,
+            "first_recorded_loop": null,
+            "last_recorded_loop": null
+          },
+          "25": {
+            "official96477_name": "NNet.Game.SCommandManagerResetEvent",
+            "native_root": 287,
+            "count": 0,
+            "payload_bits": 0,
+            "first_recorded_loop": null,
+            "last_recorded_loop": null
+          },
+          "27": {
+            "official96477_name": "NNet.Game.SCmdEvent",
+            "native_root": 291,
+            "count": 26899,
+            "payload_bits": 4030668,
+            "first_recorded_loop": 656,
+            "last_recorded_loop": 19356
+          }
+        },
+        "all_selected_values_and_bit_spans_equal": true,
+        "declared_constraint_violations": 0,
+        "raw_values_saved": false,
+        "frame_envelope_and_other_payloads_used_upstream96477": true
+      }
+    ],
+    "native_nodes_read": 704255,
+    "declared_constraint_violations": [],
+    "all_native_whole_game_stream_decoder": false,
+    "native_archive_filename_binding_established": false,
+    "runtime_native_acceptance_or_historical_semantics_proven": false,
+    "replay_or_sync_modified": false,
+    "network_or_game_or_Computer_Use": false,
+    "full_upgrade_complete": false
+  },
+  "total_selected_command_payloads_checked": 31457,
+  "declared_graph_normalization": [
+    "USER wrappers erased; STRUCT declared member order retained; CHOICE tags retained.",
+    "INT and ENUM compare physical minimum/bit width; native enum membership and maxima are not equated to upstream policy.",
+    "STRING and unrecognized kinds remain uninterpreted and are not mapped to BLOB."
+  ],
+  "selected_payload_shapes": [
+    {
+      "numeric_event_id": 23,
+      "official96477_name": "NNet.Game.SLoadGameDoneEvent",
+      "native_payload_root": 274,
+      "official_payload_root": 80,
+      "normalized_declared_physical_shape_equal": true
+    },
+    {
+      "numeric_event_id": 25,
+      "official96477_name": "NNet.Game.SCommandManagerResetEvent",
+      "native_payload_root": 287,
+      "official_payload_root": 86,
+      "normalized_declared_physical_shape_equal": true
+    },
+    {
+      "numeric_event_id": 27,
+      "official96477_name": "NNet.Game.SCmdEvent",
+      "native_payload_root": 291,
+      "official_payload_root": 100,
+      "normalized_declared_physical_shape_equal": true
+    }
+  ],
+  "visited_native_payload_types": 49,
+  "visited_official_payload_types": 22,
+  "snapshot_helper": "Blizzard BitPackedDecoder from pinned decoders.py; frame envelope and other payloads still use upstream96477.",
+  "native_bit_reader_implementation_independence_claimed": false,
+  "full_upgrade_complete": false
+}

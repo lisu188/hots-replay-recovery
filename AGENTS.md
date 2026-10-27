@@ -1005,3 +1005,22 @@ control, signed Switcher and installed98348 PE before the latest constraint.
 The signature helper's PowerShell child clears inherited PSModulePath to avoid
 loading a PowerShell7 module into Windows PowerShell5.1. The preflight is launch
 readiness only, with no login or playback claim. Keep this preparation unused.
+
+## Offline native event-ID binding — 2026-10-27
+
+Enum138 now has selected reader/writer and dispatch-table bindings. Original
+slot27C9FAC supplies138 to context14393EB80 at reader1352350 and writer1354850.
+The116-entry table has90 active entries, exactly the enum tags; table bytes are
+separate from5928decoded code bytes. Selected constructed tables for IDs23/25/27
+lead to payload roots274/287/291 through their virtual read/write methods.
+The three physical payload graphs match pinned upstream96477; native names,
+runtime vptr identity, all callback aliases and archive-filename binding remain
+unproved. See the dated native game-event ID/command payload report.
+
+The actual payload-only model checked4558R8 and26899current-control ID27 command
+payloads with equal values/bit spans and zero checked metadata violations. Other
+payloads and frame envelopes still use upstream96477; this is not a whole native
+stream decoder or gameplay proof. IDs23/25 were absent from those recordings.
+Do not rewrite flags or fabricate a new replay from this result. No network,
+game, Computer Use or remote publication occurred; the offline-only instruction
+still applies and R8/full-upgrade state remains unchanged.

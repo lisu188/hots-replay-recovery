@@ -1,0 +1,252 @@
+{
+  "format": "native-enum138-typed-dispatch-and-selected-payload-binding-v1",
+  "source_PE_sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+  "analyst_derived_transformed_patch_sha256": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83",
+  "native_program_sha256": "245aba71f1702e6bae480924df478c8479978e54c383dff4757eb40863932b2f",
+  "native_context_VA": "0x14393EB80",
+  "type_slot_rva": "0x27c9fac",
+  "type_index": 138,
+  "aligned_rdata_DWORD138_slots_screened": 16,
+  "qualified_slot_loads": [
+    "0x1352374",
+    "0x135486f"
+  ],
+  "rejected_interior_pattern_sites": [
+    "0x1352375",
+    "0x1354870"
+  ],
+  "ID_reader": {
+    "entry_rva": "0x1352350",
+    "type_read_call_rva": "0x135238a",
+    "typed_reader_helper_rva": "0x1a713d0",
+    "type_result_loaded_rva": "0x1352397",
+    "upper_bound": 115,
+    "table_jump_rva": "0x13523b6"
+  },
+  "ID_writer_wrapper": {
+    "entry_rva": "0x1354850",
+    "ID_source": "WORD[entry_argument2+0x10]",
+    "type_write_call_rva": "0x1354888",
+    "typed_writer_helper_rva": "0x1a6f5e0",
+    "payload_virtual_slot": "0x20"
+  },
+  "allocation_dispatch": {
+    "code_range": [
+      "0x1352350",
+      "0x1353a78"
+    ],
+    "code_bytes": 5928,
+    "instructions": 1309,
+    "code_sha256": "7233264a85d7b629009c76e86c94be3002b3e2d21999e59d037115a3ccbf22db",
+    "table_range": [
+      "0x1353a78",
+      "0x1353c48"
+    ],
+    "table_bytes": 464,
+    "table_sha256": "7e837abc72a7fa490419111cf6e79d474695f3b74036993229f7adc9e3289a56",
+    "table_entries": 116,
+    "active_entries": 90,
+    "active_entries_equal_native_enum_tags": true,
+    "all_table_destinations_are_decoded_instruction_starts": true,
+    "all_relative_noncall_targets_internal": true
+  },
+  "default_case_rva": "0x1353a52",
+  "payload_virtual_read_call_rva": "0x1353a1b",
+  "payload_virtual_read_slot": "0x28",
+  "pointer_helper": {
+    "entry_rva": "0x1351ac0",
+    "end_exclusive": "0x1351b04",
+    "final_store_rva": "0x1351af6",
+    "effect": "Store saved entry RDX through saved entry RCX after two conditional virtual callbacks.",
+    "normal_calling_convention_and_valid_object_assumptions_explicit": true,
+    "all_callback_alias_or_vptr_effects_proven": false
+  },
+  "selected_payload_bindings": [
+    {
+      "numeric_event_id": 23,
+      "official96477_name": "NNet.Game.SLoadGameDoneEvent",
+      "official96477_payload_type": 80,
+      "selected_constructed_primary_vptr_rva": "0x26652d0",
+      "native_payload_root": 274,
+      "selected_methods": [
+        {
+          "vtable_slot": "0x20",
+          "start": "0x778fb0",
+          "end_exclusive": "0x778fdb",
+          "bytes": 43,
+          "instructions": 10,
+          "code_sha256": "efc996895cbb2d895e926d4489e0bfa7cf8e11746b671eca9b9eaaf537ade853",
+          "type_index_loads": [
+            {
+              "site": "0x778fbc",
+              "slot": "0x27beb68",
+              "u32": 274
+            }
+          ],
+          "protocol_contexts": [
+            "0x14393eb80"
+          ],
+          "direct_calls": [
+            {
+              "site": "0x778fd1",
+              "target": "0x1a6f5e0"
+            }
+          ]
+        },
+        {
+          "vtable_slot": "0x28",
+          "start": "0x778e60",
+          "end_exclusive": "0x778e8b",
+          "bytes": 43,
+          "instructions": 10,
+          "code_sha256": "254f99968856196cb3038bcb1769a9792109368147c15f9f675e2d1796b65774",
+          "type_index_loads": [
+            {
+              "site": "0x778e6c",
+              "slot": "0x27beb68",
+              "u32": 274
+            }
+          ],
+          "protocol_contexts": [
+            "0x14393eb80"
+          ],
+          "direct_calls": [
+            {
+              "site": "0x778e81",
+              "target": "0x1a713d0"
+            }
+          ]
+        }
+      ],
+      "declared_physical_shape_equal": true,
+      "actual_observed_payloads": 0
+    },
+    {
+      "numeric_event_id": 25,
+      "official96477_name": "NNet.Game.SCommandManagerResetEvent",
+      "official96477_payload_type": 86,
+      "selected_constructed_primary_vptr_rva": "0x2657bd8",
+      "native_payload_root": 287,
+      "selected_methods": [
+        {
+          "vtable_slot": "0x20",
+          "start": "0x6d2480",
+          "end_exclusive": "0x6d24ab",
+          "bytes": 43,
+          "instructions": 10,
+          "code_sha256": "59fd0fa5e5c0265d10cb24ca5538c18b0eeae250184aca5988c4f9de4968efec",
+          "type_index_loads": [
+            {
+              "site": "0x6d248c",
+              "slot": "0x27beb70",
+              "u32": 287
+            }
+          ],
+          "protocol_contexts": [
+            "0x14393eb80"
+          ],
+          "direct_calls": [
+            {
+              "site": "0x6d24a1",
+              "target": "0x1a6f5e0"
+            }
+          ]
+        },
+        {
+          "vtable_slot": "0x28",
+          "start": "0x6d2160",
+          "end_exclusive": "0x6d218b",
+          "bytes": 43,
+          "instructions": 10,
+          "code_sha256": "22a6ea5d4b40f43194e604c22755cc6d978993e1fd8dd3b80d008d88764d1bd3",
+          "type_index_loads": [
+            {
+              "site": "0x6d216c",
+              "slot": "0x27beb70",
+              "u32": 287
+            }
+          ],
+          "protocol_contexts": [
+            "0x14393eb80"
+          ],
+          "direct_calls": [
+            {
+              "site": "0x6d2181",
+              "target": "0x1a713d0"
+            }
+          ]
+        }
+      ],
+      "declared_physical_shape_equal": true,
+      "actual_observed_payloads": 0
+    },
+    {
+      "numeric_event_id": 27,
+      "official96477_name": "NNet.Game.SCmdEvent",
+      "official96477_payload_type": 100,
+      "selected_constructed_primary_vptr_rva": "0x2657c78",
+      "native_payload_root": 291,
+      "selected_methods": [
+        {
+          "vtable_slot": "0x20",
+          "start": "0x6d2240",
+          "end_exclusive": "0x6d226b",
+          "bytes": 43,
+          "instructions": 10,
+          "code_sha256": "a6e4c0947613057fc2b805d1814e5797367aa1963f4b95c5523cf4ab141f3e3b",
+          "type_index_loads": [
+            {
+              "site": "0x6d224c",
+              "slot": "0x27beb78",
+              "u32": 291
+            }
+          ],
+          "protocol_contexts": [
+            "0x14393eb80"
+          ],
+          "direct_calls": [
+            {
+              "site": "0x6d2261",
+              "target": "0x1a6f5e0"
+            }
+          ]
+        },
+        {
+          "vtable_slot": "0x28",
+          "start": "0x6d20d0",
+          "end_exclusive": "0x6d20fb",
+          "bytes": 43,
+          "instructions": 10,
+          "code_sha256": "118cdb9121a7406b1e91b9a6226cfcdc6f1e1c7845c387fff6c1e5ff440f6d00",
+          "type_index_loads": [
+            {
+              "site": "0x6d20dc",
+              "slot": "0x27beb78",
+              "u32": 291
+            }
+          ],
+          "protocol_contexts": [
+            "0x14393eb80"
+          ],
+          "direct_calls": [
+            {
+              "site": "0x6d20f1",
+              "target": "0x1a713d0"
+            }
+          ]
+        }
+      ],
+      "declared_physical_shape_equal": true,
+      "actual_observed_payloads": 31457
+    }
+  ],
+  "ordinary_GNU_objdump_used": true,
+  "REA_Evidence_claimed": false,
+  "independent_peer_review": false,
+  "archive_filename_binding_established": false,
+  "whole_native_game_stream_decoding_proven": false,
+  "runtime_vtable_identity_or_playback_proven": false,
+  "replay_or_synchronization_modified": false,
+  "network_or_game_or_Computer_Use": false,
+  "full_upgrade_complete": false
+}
