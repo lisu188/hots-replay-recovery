@@ -1,0 +1,61 @@
+{
+  "format": "native-command-context-producer-local-validation-v1",
+  "passed": true,
+  "selected_code_ranges": 15,
+  "selected_code_bytes": 3705,
+  "selected_instructions": 932,
+  "rechecked_whole_validator_bytes": 1467,
+  "rechecked_whole_validator_instructions": 393,
+  "zero_EDI_and_seed_dominators_checked_in_local_direct_CFG": true,
+  "ordinary_ABI_and_no_alias_conditions_retained": true,
+  "finite_raw_opcode_fragment_cases": 1820,
+  "all_fragment_values_match_formulas": true,
+  "direct_setter_sites_qualified": 4,
+  "conditional_gate_class_comparisons": 4,
+  "classes_passing_both_existing_shapes_with_shared_class_and_zero_bit2": [],
+  "production_code_or_generic_context_parameter_changed": false,
+  "new_unit_tests_authored": false,
+  "unit_tests_rerun": false,
+  "validation_is_static_instruction_and_bounded_fragment_interpretation": true,
+  "replays": [
+    {
+      "path": "work/TEN_GREYMANE_source_41810.StormReplay",
+      "bytes": 635140,
+      "sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+      "unchanged": true
+    },
+    {
+      "path": "work/native-20261018/TEN_GREYMANE_client98285_RESUMABLE_R8_PARTIAL.StormReplay",
+      "bytes": 2438570,
+      "sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+      "unchanged": true
+    },
+    {
+      "path": "work/eu-replay-search-20261018/heroeslounge-27515-g1-20261005.StormReplay",
+      "bytes": 978482,
+      "sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4",
+      "unchanged": true
+    }
+  ],
+  "unused_launcher_drafts": [
+    {
+      "path": "scripts/run_current_replay_control.py",
+      "bytes": 17147,
+      "sha256": "6315c2dd9291aa5185db0831e1d7c00f24f1d3f33ceb0bd79f8a636dd2aacaea"
+    },
+    {
+      "path": "test_current_replay_control.py",
+      "bytes": 2450,
+      "sha256": "7a00561260e2c0f64a41b9f73cbf8910550f90e4a6d6ad80e7a1d1719879f297"
+    }
+  ],
+  "source_61_command_context_report_reused_without_new_decode": true,
+  "historical_or_live_catalog_identity_or_values_authenticated": false,
+  "native_target_executed": false,
+  "hosted_CI_run": false,
+  "full_local_corpus_run": false,
+  "independent_peer_review": false,
+  "network_or_game_or_Computer_Use": false,
+  "replay_or_sync_written": false,
+  "full_upgrade_complete": false
+}

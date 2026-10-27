@@ -1157,3 +1157,32 @@ review. Original/R8/control/sync and unused launcher drafts remain unchanged.
 Keep all work offline: no game, Computer Use, network or remote publication.
 Full upgrade/playback remain false; continue from authentic catalog/data values
 and context dependencies, never guessed flags or metadata retagging.
+
+## Offline command context producer — 2026-10-27
+
+Read docs/NATIVE_COMMAND_CONTEXT_PRODUCER_2026-10-27.md and its two dated
+native-command-context-producer observations. GetterA271F0 selects slot+40,
+separate from class slot+80. Validator202B2DD zeros EDI,202B390 seeds context+8;
+local direct-CFG domination and no intervening explicit RDI-family write check.
+Default slot+40 is null. Exactly4 E8/E9 transfers to setterA27710 exist in the
+pinned transformed-text scan: type9/index0->BA59D0,11/0->BC2420,15/0->C09C10,
+16/20..29->C0C650. This is not all indirect/alias/later-write coverage or live data.
+
+BA59D0 clears bit2 on resolved paths, otherwise preserves it; BC2420 andC0C650
+preserve it in explicit writes. C09C10 delegates the same context. Helper201A490
+reads its firstQWORD and loses the original context address before calls, with
+disjoint output/other args required. Zero bit2 is invariant only for finite
+returning delegation inside this selected/null family, valid disjoint objects,
+normal ABI and no other alias writes. Never assert a universal runtime zero.
+
+This narrows the conditional contextbit2=true gate escape for the prior61 source
+commands, without authenticating their type/callback/data or stable class. No
+class0..3 passes Unit/0x100 and None/0x80100 with shared class and zero bit2;
+this is not rejection/desync/self-cast proof or flag-rewrite authorization.
+
+15selected ranges3705B/932instructions, a separately rechecked1467B/393-instruction
+validator, original fragment chains and1820 finite raw-opcode update cases pass.
+No production-code change or unit-test rerun; source context report reused.
+Original/R8/control pins and unused drafts remain unchanged. Keep all work
+offline: no game, Computer Use, network or remote publication. Full upgrade and
+playback stay unproved; continue toward authentic ability/type/data values.
