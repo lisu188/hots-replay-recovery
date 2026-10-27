@@ -1,0 +1,443 @@
+{
+  "format": "offline-talent-selector-provider-and-pool-admission-v1",
+  "source_PE": {
+    "bytes": 53573840,
+    "sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9"
+  },
+  "transformed_text": {
+    "bytes": 36581376,
+    "sha256": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83",
+    "unchanged_original_PE_or_runtime_capture": false
+  },
+  "complete_qualified_unions": [
+    {
+      "label": "pool_allocator",
+      "start_rva": "0x990af0",
+      "end_exclusive_rva": "0x990cc0",
+      "bytes": 464,
+      "instructions": 125,
+      "sha256": "75b514c472d1a13e72a20727f55e9d3723fd25af2870944bbec2d53db71ba5ae",
+      "original_RuntimeFunction_fragments": [
+        {
+          "record": [
+            "0x990af0",
+            "0x990cc0",
+            "0x2cb4c68"
+          ],
+          "parent": null
+        }
+      ],
+      "all_direct_noncall_branches_internal": true,
+      "scope": "complete original RuntimeFunction/CHAININFO union"
+    },
+    {
+      "label": "object_initializer",
+      "start_rva": "0x990020",
+      "end_exclusive_rva": "0x99036d",
+      "bytes": 845,
+      "instructions": 148,
+      "sha256": "76decfcfbaabf0888b326cf5bdb8ea61c87f767151d85d69d7d8bc87522bf63e",
+      "original_RuntimeFunction_fragments": [
+        {
+          "record": [
+            "0x990020",
+            "0x99036d",
+            "0x2cb426c"
+          ],
+          "parent": null
+        }
+      ],
+      "all_direct_noncall_branches_internal": true,
+      "scope": "complete original RuntimeFunction/CHAININFO union"
+    },
+    {
+      "label": "event_callback",
+      "start_rva": "0xb612d0",
+      "end_exclusive_rva": "0xb613b2",
+      "bytes": 226,
+      "instructions": 60,
+      "sha256": "a080ad410ef3ddda93dc277772a341fd3077d86464a3fe2c042bd780af1dc5f6",
+      "original_RuntimeFunction_fragments": [
+        {
+          "record": [
+            "0xb612d0",
+            "0xb613b2",
+            "0x2cd8594"
+          ],
+          "parent": null
+        }
+      ],
+      "all_direct_noncall_branches_internal": true,
+      "scope": "complete original RuntimeFunction/CHAININFO union"
+    },
+    {
+      "label": "talent_writer",
+      "start_rva": "0xb10720",
+      "end_exclusive_rva": "0xb109a8",
+      "bytes": 648,
+      "instructions": 171,
+      "sha256": "c47be8db1eabede48c66b9a1b9604622511ec58577f88f148863fb294b2b5cdb",
+      "original_RuntimeFunction_fragments": [
+        {
+          "record": [
+            "0xb10720",
+            "0xb10787",
+            "0x2cd1988"
+          ],
+          "parent": null
+        },
+        {
+          "record": [
+            "0xb10787",
+            "0xb1082d",
+            "0x2cd199c"
+          ],
+          "parent": [
+            "0xb10720",
+            "0xb10787",
+            "0x2cd1988"
+          ]
+        },
+        {
+          "record": [
+            "0xb1082d",
+            "0xb1088a",
+            "0x2cd19b4"
+          ],
+          "parent": [
+            "0xb10720",
+            "0xb10787",
+            "0x2cd1988"
+          ]
+        },
+        {
+          "record": [
+            "0xb1088a",
+            "0xb10999",
+            "0x2cd19c4"
+          ],
+          "parent": [
+            "0xb10720",
+            "0xb10787",
+            "0x2cd1988"
+          ]
+        },
+        {
+          "record": [
+            "0xb10999",
+            "0xb109a8",
+            "0x2cd19dc"
+          ],
+          "parent": [
+            "0xb10720",
+            "0xb10787",
+            "0x2cd1988"
+          ]
+        }
+      ],
+      "all_direct_noncall_branches_internal": true,
+      "scope": "complete original RuntimeFunction/CHAININFO union"
+    }
+  ],
+  "complete_union_count": 4,
+  "complete_union_bytes": 2183,
+  "complete_union_instructions": 504,
+  "selector_provider": {
+    "entry_rva": "0x9d5080",
+    "end_code_exclusive_rva": "0x9d522a",
+    "code_bytes": 426,
+    "code_instructions": 106,
+    "code_sha256": "bb4e5963f76246305c401f026faf6d8197110fd068c5d1b5021ed43c569efdbc",
+    "original_RuntimeFunction": [
+      "0x9d5080",
+      "0x9d526c",
+      "0x2cb91d0"
+    ],
+    "alignment_rva": "0x9d522a",
+    "alignment_bytes": 2,
+    "separate_RVA_table_rva": "0x9d522c",
+    "separate_RVA_table_bytes": 64,
+    "separate_RVA_table_sha256": "da724ba34bacba88495986e941eac5a79a0e7b4874bf81e3a1365b4c16d3d7c7",
+    "separate_table_targets": [
+      "0x9d50ea",
+      "0x9d50fe",
+      "0x9d5112",
+      "0x9d5126",
+      "0x9d513a",
+      "0x9d514e",
+      "0x9d5162",
+      "0x9d5176",
+      "0x9d518a",
+      "0x9d519e",
+      "0x9d51b2",
+      "0x9d51c6",
+      "0x9d51da",
+      "0x9d51ee",
+      "0x9d5202",
+      "0x9d5216"
+    ],
+    "all16_targets_are_code_boundaries": true,
+    "all106_instruction_nodes_reachable_in_normal_expanded_switch_CFG": true,
+    "all256_input_low_bytes_guard_classified": true,
+    "inputs16_through255_return_RAX_zero_before_table_or_helpers": true,
+    "input0_through15_result_still_depends_on_encoded_globals_slots_and_helpers": true,
+    "external_decode_helpers": [
+      {
+        "site": "0x9d50ef",
+        "target": "0x31a550"
+      },
+      {
+        "site": "0x9d5103",
+        "target": "0x31a600"
+      },
+      {
+        "site": "0x9d5117",
+        "target": "0x31a6b0"
+      },
+      {
+        "site": "0x9d512b",
+        "target": "0x31a760"
+      },
+      {
+        "site": "0x9d513f",
+        "target": "0x31a810"
+      },
+      {
+        "site": "0x9d5153",
+        "target": "0x31a8c0"
+      },
+      {
+        "site": "0x9d5167",
+        "target": "0x31a970"
+      },
+      {
+        "site": "0x9d517b",
+        "target": "0x31aa20"
+      },
+      {
+        "site": "0x9d518f",
+        "target": "0x31aad0"
+      },
+      {
+        "site": "0x9d51a3",
+        "target": "0x31ab80"
+      },
+      {
+        "site": "0x9d51b7",
+        "target": "0x31ac30"
+      },
+      {
+        "site": "0x9d51cb",
+        "target": "0x31ace0"
+      },
+      {
+        "site": "0x9d51df",
+        "target": "0x31ad90"
+      },
+      {
+        "site": "0x9d51f3",
+        "target": "0x31ae40"
+      },
+      {
+        "site": "0x9d5207",
+        "target": "0x31aee0"
+      },
+      {
+        "site": "0x9d521b",
+        "target": "0x31af90"
+      }
+    ],
+    "global_mode_above15_path_return_value_initialized_or_valid_proven": false
+  },
+  "pool_binding": {
+    "allocator_entry_rva": "0x990af0",
+    "encoded_pool_slots_rva": "0x34f02c8",
+    "pool_extent_count_rva": "0x34f02c4",
+    "next_slot_rva": "0x34f02c0",
+    "allocator_next_slot_unsigned_limit": 1023,
+    "block_slots": 16,
+    "allocation_block_bytes": 12032,
+    "object_stride_bytes": 752,
+    "object_identity_DWORD_offset": "0x10",
+    "slot_index_shift": 22,
+    "object_initializer_rva": "0x990020",
+    "selected_installed_vtable_rva": "0x26a87f0",
+    "callback_uses_same_pool_decode_globals_and_stride": true,
+    "initializer_byte44": 16,
+    "object_native_class_name_or_byte44_semantic_name_bound": false,
+    "original_MSVC_RTTI_COL_binding_available": false,
+    "reason": "preceding table QWORD is 0x700000005, not an admitted image VA; no guessed RTTI or table extent"
+  },
+  "writer_guard": {
+    "provider_call_rva": "0xb10755",
+    "nonnull_branch_rva": "0xb1075d",
+    "write_site_rva": "0xb10934",
+    "write_requires_nonnull_provider_return_under_normal_ABI": true,
+    "write_requires_first_selector_low_byte_0_to15": true,
+    "constructor_default16_cannot_reach_write_without_effective_selector_change_or_other_path": true,
+    "later_field44_or_fallback_event2A_assignment_recovered": false,
+    "actual_effective_selector_values_captured": false
+  },
+  "selected_instruction_checks": [
+    {
+      "site_rva": "0x990b46",
+      "bytes": "81feff030000",
+      "assembly": "cmp    esi,0x3ff"
+    },
+    {
+      "site_rva": "0x990b69",
+      "bytes": "4183e60f",
+      "assembly": "and    r14d,0xf"
+    },
+    {
+      "site_rva": "0x990b75",
+      "bytes": "48c1e804",
+      "assembly": "shr    rax,0x4"
+    },
+    {
+      "site_rva": "0x990baa",
+      "bytes": "b9002f0000",
+      "assembly": "mov    ecx,0x2f00"
+    },
+    {
+      "site_rva": "0x990bcd",
+      "bytes": "4169def0020000",
+      "assembly": "imul   ebx,r14d,0x2f0"
+    },
+    {
+      "site_rva": "0x990be8",
+      "bytes": "894310",
+      "assembly": "mov    DWORD PTR [rbx+0x10],eax"
+    },
+    {
+      "site_rva": "0x99006f",
+      "bytes": "c6434410",
+      "assembly": "mov    BYTE PTR [rbx+0x44],0x10"
+    },
+    {
+      "site_rva": "0xb6131b",
+      "bytes": "c1e916",
+      "assembly": "shr    ecx,0x16"
+    },
+    {
+      "site_rva": "0xb61352",
+      "bytes": "4169c8f0020000",
+      "assembly": "imul   ecx,r8d,0x2f0"
+    },
+    {
+      "site_rva": "0xb61364",
+      "bytes": "3b4210",
+      "assembly": "cmp    eax,DWORD PTR [rdx+0x10]"
+    },
+    {
+      "site_rva": "0xb61370",
+      "bytes": "0fb65b44",
+      "assembly": "movzx  ebx,BYTE PTR [rbx+0x44]"
+    },
+    {
+      "site_rva": "0x9d5084",
+      "bytes": "80f910",
+      "assembly": "cmp    cl,0x10"
+    },
+    {
+      "site_rva": "0x9d5087",
+      "bytes": "7207",
+      "assembly": "jb     0x1409d5090"
+    },
+    {
+      "site_rva": "0x9d5089",
+      "bytes": "33c0",
+      "assembly": "xor    eax,eax"
+    },
+    {
+      "site_rva": "0x9d508f",
+      "bytes": "c3",
+      "assembly": "ret"
+    },
+    {
+      "site_rva": "0xb1072d",
+      "bytes": "0fb6f1",
+      "assembly": "movzx  esi,cl"
+    },
+    {
+      "site_rva": "0xb1075a",
+      "bytes": "4885c0",
+      "assembly": "test   rax,rax"
+    },
+    {
+      "site_rva": "0xb1075d",
+      "bytes": "0f8436020000",
+      "assembly": "je     0x140b10999"
+    },
+    {
+      "site_rva": "0xb10934",
+      "bytes": "42891ca0",
+      "assembly": "mov    DWORD PTR [rax+r12*4],ebx"
+    },
+    {
+      "site_rva": "0x990c90",
+      "direct_call_target": "0x990020"
+    },
+    {
+      "site_rva": "0xb10755",
+      "direct_call_target": "0x9d5080"
+    },
+    {
+      "site_rva": "0xb6139a",
+      "direct_call_target": "0xb10720"
+    },
+    {
+      "site_rva": "0xb61331",
+      "bytes": "488d14cdc8024f03",
+      "assembly": "lea    rdx,[rcx*8+0x34f02c8]"
+    },
+    {
+      "site_rva": "0x990b30",
+      "RIP_target_rva": "0x34f02c8"
+    },
+    {
+      "site_rva": "0x990b52",
+      "RIP_target_rva": "0x34f02c4"
+    },
+    {
+      "site_rva": "0xb6131e",
+      "RIP_target_rva": "0x34f02c4"
+    },
+    {
+      "site_rva": "0x990b87",
+      "RIP_target_rva": "0x32c55d0"
+    },
+    {
+      "site_rva": "0xb61348",
+      "RIP_target_rva": "0x32c55d0"
+    },
+    {
+      "site_rva": "0x990b8f",
+      "RIP_target_rva": "0x32c38b4"
+    },
+    {
+      "site_rva": "0xb61339",
+      "RIP_target_rva": "0x32c38b4"
+    },
+    {
+      "site_rva": "0x990047",
+      "bytes": "488903",
+      "assembly": "mov    QWORD PTR [rbx],rax"
+    }
+  ],
+  "conditions": [
+    "normal returning helpers and Windows x64 ABI",
+    "valid disjoint storage and initialized metadata",
+    "no exceptions, reentry, concurrent changes or alias mutation",
+    "callback pool slots/keys and resolved object identity remain stable",
+    "effective provider pointers/results require further authentication"
+  ],
+  "first_selector_player_user_namespace_bound": false,
+  "safe_talent_index_migration_established": false,
+  "production_or_conversion_changed": false,
+  "native_target_executed": false,
+  "REA_native_provider_analysis": false,
+  "network_or_game_or_Computer_Use": false,
+  "new_replay_or_sync_written": false,
+  "full_upgrade_complete": false
+}

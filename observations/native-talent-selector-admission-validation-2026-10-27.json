@@ -1,0 +1,83 @@
+{
+  "format": "native-talent-selector-pool-admission-local-validation-v1",
+  "passed": true,
+  "base_commit": "328254332256fca2604587f6708e5cc7aa106ea6",
+  "complete_unions": 4,
+  "complete_union_bytes": 2183,
+  "complete_union_instructions": 504,
+  "separate_provider_code_bytes": 426,
+  "separate_provider_instructions": 106,
+  "separate_provider_table_bytes": 64,
+  "expanded_switch_targets_checked": 16,
+  "provider_reachable_instruction_nodes": 106,
+  "selected_instruction_checks": 31,
+  "low_byte_guard_model_cases": 256,
+  "low_byte_guard_model_cases_returning_zero_before_globals_or_helpers": 240,
+  "guard_model_is_native_execution": false,
+  "writer_nonnull_provider_edge_required_for_write": true,
+  "object_pool_stride_block_and_handle_geometry_checked": true,
+  "selected_initializer_byte44_is16": true,
+  "object_or_byte44_native_name_bound": false,
+  "effective_values_or_later_field_assignment_recovered": false,
+  "invalid_provider_global_mode_default_return_proven_valid": false,
+  "whole_dispatcher_or_native_purchase_execution_proven": false,
+  "private_receipt": {
+    "path": "qualified-pool-admission-v2.private.json",
+    "bytes": 11461,
+    "sha256": "7fd81a6b5e5f2156f2a6f171a501c40721e6a06ff644a98f1c876d64a951e72c"
+  },
+  "qualifier": {
+    "path": "native-selector-object-20261027/qualify_pool_admission.py",
+    "bytes": 9846,
+    "sha256": "54d36143ca2a49204c42aed8bc071f5b3d5ec6bc8a326b66df7b90285627f5b3"
+  },
+  "validation_driver": {
+    "path": "native-selector-object-20261027/validate_pool_admission.py",
+    "bytes": 4892,
+    "sha256": "75dadf6939fda465562762aeb4a65cbe127ea5a82da32bee7280f16cc32825fe"
+  },
+  "replays": [
+    {
+      "label": "source",
+      "path": "work/TEN_GREYMANE_source_41810.StormReplay",
+      "bytes": 635140,
+      "sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824"
+    },
+    {
+      "label": "R8",
+      "path": "work/native-20261018/TEN_GREYMANE_client98285_RESUMABLE_R8_PARTIAL.StormReplay",
+      "bytes": 2438570,
+      "sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19"
+    },
+    {
+      "label": "current",
+      "path": "work/eu-replay-search-20261018/heroeslounge-27515-g1-20261005.StormReplay",
+      "bytes": 978482,
+      "sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4"
+    }
+  ],
+  "unused_launcher_drafts": [
+    {
+      "path": "scripts/run_current_replay_control.py",
+      "bytes": 17147,
+      "sha256": "6315c2dd9291aa5185db0831e1d7c00f24f1d3f33ceb0bd79f8a636dd2aacaea"
+    },
+    {
+      "path": "test_current_replay_control.py",
+      "bytes": 2450,
+      "sha256": "7a00561260e2c0f64a41b9f73cbf8910550f90e4a6d6ad80e7a1d1719879f297"
+    }
+  ],
+  "source_R8_current_whole_file_pins_rechecked": true,
+  "event_streams_freshly_decoded": false,
+  "production_code_or_conversion_changed": false,
+  "unit_tests_authored_or_rerun": false,
+  "full_corpus_or_hosted_CI_run": false,
+  "independent_peer_review": false,
+  "native_target_executed": false,
+  "REA_native_provider_analysis": false,
+  "network_or_game_or_Computer_Use": false,
+  "new_replay_or_sync_written": false,
+  "safe_talent_index_migration_established": false,
+  "full_upgrade_complete": false
+}

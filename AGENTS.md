@@ -1412,3 +1412,43 @@ corpus, hosted CI, peer review, production/conversion/replay/sync change or
 native execution. Keep all work offline: no game, Computer Use, network or
 publication; full upgrade/playback false. Next bind dispatcher preservation,
 the actual row/object/selector, effective catalog and historical41810 rules.
+
+
+## Offline talent selector admission and pool initialization - 2026-10-27
+
+Read docs/NATIVE_TALENT_SELECTOR_ADMISSION_2026-10-27.md and its two dated
+native-talent-selector-admission receipts. Provider9D5080 compares CL with16
+before reading its globals. Low-byte16..255 returns RAX0. B10720 requires the
+nonnull edge after callB10755 to reach writeB10934, so the selected write
+requires first-selector low-byte0..15. The256-case opcode guard model is
+static Python data reasoning, NOT native execution or playback validation.
+
+Allocator990AF0 and callbackB612D0 share pool slots34F02C8, count34F02C4 and
+keys32C38B4/32C55D0, block16/stride2F0, handle slot-index shift22 and identity
+DWORD+10. Allocator's next-slot limit is1023 and block allocation2F00 bytes.
+Its selected constructor990020 installs table26A87F0 and initializes byte44=16.
+That default cannot reach the selected write while preserved as its selector.
+The native class name, field meaning and later effective assignment remain
+unbound. Original table preceding QWORD700000005 supplies no conventional
+MSVC COL binding; do not invent a Player/CUnit name from adjacent debug text.
+
+Four complete original RuntimeFunction/CHAININFO unions2183B/504instr plus
+provider code426B/106instr are qualified. Provider alignment2B and RVA table
+64B/16targets are separate from instructions; every table target is a code
+boundary and all106 expanded-switch nodes are reachable in the normal graph.
+31specific byte/call/reference checks pass. Global mode>15 default return
+initialization/validity is unproved; do not invent a safe fallback. This does
+not affect the earlier input>=16 rejection, which precedes the mode read.
+
+All selected bytes use pinned transformed text; original PE metadata supplies
+extents. Normal helpers/x64 ABI, valid disjoint storage, stable identities and
+no exception/reentry/concurrent/alias mutation remain conditions. The private
+9D4E90 setter hypothesis was discarded after accessor-shaped decoding; raw
+reference candidates are not accepted writes or semantic names.
+
+Replay/draft pins unchanged; no actual selector/catalog capture, fresh stream
+decode, production/conversion/replay/sync change, native execution, REA native
+analysis, new unit tests, broad corpus, hosted CI or peer review. Keep all work
+offline: no game, Computer Use, network or publication; full upgrade/playback
+false. Next bind effective selector assignment/object namespace and target-
+context/historical41810 talent definitions before any safe index migration.
