@@ -1186,3 +1186,31 @@ No production-code change or unit-test rerun; source context report reused.
 Original/R8/control pins and unused drafts remain unchanged. Keep all work
 offline: no game, Computer Use, network or remote publication. Full upgrade and
 playback stay unproved; continue toward authentic ability/type/data values.
+
+## Offline native ability class names — 2026-10-27
+
+Read docs/NATIVE_ABILITY_CLASS_NAMES_2026-10-27.md and its two dated native
+ability-class-names receipts. Registered EClassIdCAbil has20 original24-byte
+rows (Unknown plus0..18), bound through5FA79A/1600E80/16001D0. It is a type enum,
+not replay link IDs or target classes. Direct constructor/name bridges checked
+only for6/9: type6 factoryA51400->table26AEF18->slot68/A511D0->CAbilAugment;
+type9 A51540->26AF6A0->slot68/A51200->CAbilEffectTarget. The initializer pairs
+factory slot+1528 and descriptor+1530 at registry3602D60/index*2A48; getterA51A70
+uses the latter. Normal initialization/copy/construction/no-alias conditions
+remain; this is not a live instance or all19 constructor-name bindings.
+
+The prior +190 query is Augment's C02780 route, not generic EffectTarget data.
+EffectTarget's selected cmd0 callbackBA6130 callsA8B390 with record+140 and
+normalized byte+0A (NOT command-index byte+08; semantic name unbound). A8B390
+uses201F770/201F540 then B2AD50: runtime table36DE920, stride72, offset0, no
+bounds check in that selected leaf. It calls the resulting pointer or returns
+FFFFFFFF on checked failures. BA61C2..DE maps0/1/2->target classes1/2/3, others0.
+Selector namespace, reference field name and actual runtime values stay unbound.
+
+20 selected ranges10917B/2036instructions, original table/name slot bytes and260
+finite raw-opcode mapper cases pass. Cached publisher41810 projections remain
+separate from authentic numeric link/catalog/state/rule bindings. Source126/351
+are not named or assigned current types; flags/conversion stay unchanged.
+No production-code or unit-test change/rerun, broad corpus, hosted CI or peer
+review. Original/R8/control/sync/drafts preserved. Keep all work offline: no
+game, Computer Use, network or remote publication; full upgrade/playback false.
