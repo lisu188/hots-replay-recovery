@@ -1214,3 +1214,30 @@ are not named or assigned current types; flags/conversion stay unchanged.
 No production-code or unit-test change/rerun, broad corpus, hosted CI or peer
 review. Original/R8/control/sync/drafts preserved. Keep all work offline: no
 game, Computer Use, network or remote publication; full upgrade/playback false.
+
+## Offline recorded talent choices — 2026-10-27
+
+Read docs/TALENT_CHOICE_OBSERVATIONS_2026-10-27.md and the two dated talent-choice
+observation/validation receipts. New talent_choice_audit.py joins already-decoded
+selections with unique same-player TalentChosen purchases exactly+1loop, using
+explicit prior user/player setup and a prior stable Hero identifier. Ambiguous
+keys remain unpaired; no nearest-time, user+1, tier or array-order inference.
+It returns aggregate identifiers only and never writes a replay or sync data.
+
+All70 source,70R8 and70current-control selections pair uniquely. R8's70 actual
+index values/associations equal the source and its tracker bytes are unchanged.
+This preserved historical tracker is NOT current-client execution. Source41810
+Dragon Shire and the pinned98348 Lost Cavern control share HeroKaelthas. Index15
+is source KaelthasLivingBombSunKingsFury versus current KaelthasLivingBombIgnite;
+index20 is GenericArcanePower versus KaelthasMasteryFlamethrower. Three other
+shared indices have equal names. Map/mod contexts differ: do not isolate build
+effects, assert removed talents, mechanical equivalence, safe replacement
+indices or a desync cause from these observations. No talent mapping changed.
+
+Twelve focused tests and210actual pairs pass; source/R8/current file pins and
+draft hashes are preserved. Whole game counts104257/104257/144708; source game
+uses pinned41810, R8/current use native observed22, tracker uses official
+41810/96477. No broad corpus, hosted CI, peer review or client execution. Keep
+all work offline: no game, Computer Use, network or remote publication. Full
+upgrade/playback stay false. Continue toward authentic target-context talent
+definitions and historical/current rule equivalence without guessed indices.

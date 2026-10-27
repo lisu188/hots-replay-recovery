@@ -1,0 +1,1321 @@
+{
+  "format": "talent-choice-source-R8-current-observation-v1",
+  "replays": [
+    {
+      "label": "source",
+      "path": "work/TEN_GREYMANE_source_41810.StormReplay",
+      "bytes": 635140,
+      "sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824"
+    },
+    {
+      "label": "R8",
+      "path": "work/native-20261018/TEN_GREYMANE_client98285_RESUMABLE_R8_PARTIAL.StormReplay",
+      "bytes": 2438570,
+      "sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19"
+    },
+    {
+      "label": "current",
+      "path": "work/eu-replay-search-20261018/heroeslounge-27515-g1-20261005.StormReplay",
+      "bytes": 978482,
+      "sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4"
+    }
+  ],
+  "decoder_scope": {
+    "source_game_events_official_41810": 104257,
+    "R8_game_events_native_observed22": 104257,
+    "current_game_events_native_observed22": 144708,
+    "source_tracker_events_official_41810": 6614,
+    "current_tracker_events_official_96477": 6181
+  },
+  "schema_SHA256": {
+    "41810": "879d228d9d8acd21d63563538dd15841aaf49259ee0bb468b8a46b6a4ef866fd",
+    "96477": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84"
+  },
+  "decoder_SHA256": "17bfb926af0f7f79e18f6299dbae50fc2821c53b229235d4f9c857c7ef3e96b1",
+  "observations": {
+    "source": {
+      "format": "fixed-one-loop-talent-observations-v1",
+      "selection_events": 70,
+      "selection_events_user_unmapped": 0,
+      "mapped_selections_without_prior_hero": 0,
+      "tracker_purchase_events": 70,
+      "unique_one_loop_pairs": 70,
+      "unpaired_selection_events": 0,
+      "unpaired_tracker_purchases": 0,
+      "fixed_offset_single_candidate_counts": {
+        "-2": 0,
+        "-1": 0,
+        "0": 0,
+        "1": 70,
+        "2": 0
+      },
+      "observations": [
+        {
+          "hero_id": "HeroAbathur",
+          "index": 3,
+          "purchase_name": "AbathurMasteryEnvenomedNestsToxicNest",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroAbathur",
+          "index": 4,
+          "purchase_name": "AbathurMasteryProlificDispersal",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroAbathur",
+          "index": 9,
+          "purchase_name": "AbathurMasteryVileNestsToxicNest",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroAbathur",
+          "index": 13,
+          "purchase_name": "AbathurHeroicAbilityEvolveMonstrosity",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroAbathur",
+          "index": 15,
+          "purchase_name": "AbathurCombatStyleBombardStrain",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroAbathur",
+          "index": 20,
+          "purchase_name": "AbathurCombatStyleLocustSwarm",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroAbathur",
+          "index": 25,
+          "purchase_name": "AbathurMasteryLocustMaster",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroAnubarak",
+          "index": 0,
+          "purchase_name": "AnubarakMasteryExtendedSpikesImpale",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroAnubarak",
+          "index": 4,
+          "purchase_name": "AnubarakMasteryUnderkingBurrowCharge",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroAnubarak",
+          "index": 10,
+          "purchase_name": "AnubarakMasteryBedOfBarbs",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroAnubarak",
+          "index": 12,
+          "purchase_name": "AnubarakHeroicAbilityCarrionSwarm",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroAnubarak",
+          "index": 14,
+          "purchase_name": "GenericTalentBurningRage",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroAnubarak",
+          "index": 18,
+          "purchase_name": "AnubarakMasteryEpicenterBurrowCharge",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroAnubarak",
+          "index": 22,
+          "purchase_name": "AnubarakMasteryHiveMasterCarrionSwarm",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroBarbarian",
+          "index": 0,
+          "purchase_name": "BarbarianMasteryWarPaint",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroBarbarian",
+          "index": 7,
+          "purchase_name": "GenericTalentMercenaryLord",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroBarbarian",
+          "index": 10,
+          "purchase_name": "GenericTalentFollowThrough",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroBarbarian",
+          "index": 13,
+          "purchase_name": "BarbarianHeroicAbilityWrathoftheBerserker",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroBarbarian",
+          "index": 16,
+          "purchase_name": "BarbarianMasteryMysticalSpearAncientSpear",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroBarbarian",
+          "index": 21,
+          "purchase_name": "SonyaTalentNervesOfSteel",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroBarbarian",
+          "index": 25,
+          "purchase_name": "SonyaTalentIgnorePain",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroFaerieDragon",
+          "index": 0,
+          "purchase_name": "BrightwingUnfurlingSpraySoothingMist",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroFaerieDragon",
+          "index": 3,
+          "purchase_name": "BrightwingManicPixiePixieDust",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroFaerieDragon",
+          "index": 8,
+          "purchase_name": "FaerieDragonMasteryPhaseShield",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroFaerieDragon",
+          "index": 12,
+          "purchase_name": "FaerieDragonHeroicAbilityEmeraldWind",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroFaerieDragon",
+          "index": 15,
+          "purchase_name": "FaerieDragonMasteryShieldDust",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroFaerieDragon",
+          "index": 17,
+          "purchase_name": "BrightwingGreaterPolymorphPolymorph",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroFaerieDragon",
+          "index": 22,
+          "purchase_name": "FaerieDragonMasteryContinuousWinds",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroGreymane",
+          "index": 1,
+          "purchase_name": "GreymaneGilneanCocktailPerfectAim",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroGreymane",
+          "index": 3,
+          "purchase_name": "GreymaneInnerBeastViciousness",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroGreymane",
+          "index": 7,
+          "purchase_name": "GreymaneGilneanCocktailDraughtOverflow",
+          "count": 2
+        },
+        {
+          "hero_id": "HeroGreymane",
+          "index": 9,
+          "purchase_name": "GreymaneGilneanCocktailIncendiaryElixir",
+          "count": 2
+        },
+        {
+          "hero_id": "HeroGreymane",
+          "index": 11,
+          "purchase_name": "GreymaneHeroicAbilityGoForTheThroat",
+          "count": 2
+        },
+        {
+          "hero_id": "HeroGreymane",
+          "index": 13,
+          "purchase_name": "GreymaneDarkflightDisengageRunningWild",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroGreymane",
+          "index": 15,
+          "purchase_name": "GreymaneInnerBeastOnTheProwl",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroGreymane",
+          "index": 17,
+          "purchase_name": "GreymaneGilneanCocktailConcentratedBlast",
+          "count": 2
+        },
+        {
+          "hero_id": "HeroGreymane",
+          "index": 23,
+          "purchase_name": "GreymaneHuntersBlunderbuss",
+          "count": 2
+        },
+        {
+          "hero_id": "HeroKaelthas",
+          "index": 2,
+          "purchase_name": "KaelthasManaAddict",
+          "count": 2
+        },
+        {
+          "hero_id": "HeroKaelthas",
+          "index": 3,
+          "purchase_name": "KaelthasGravityLapseNetherWind",
+          "count": 2
+        },
+        {
+          "hero_id": "HeroKaelthas",
+          "index": 6,
+          "purchase_name": "KaelthasFlamestrikeBurnedFlesh",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroKaelthas",
+          "index": 7,
+          "purchase_name": "KaelthasGravityCrush",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroKaelthas",
+          "index": 9,
+          "purchase_name": "KaelthasHeroicAbilityPhoenix",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroKaelthas",
+          "index": 10,
+          "purchase_name": "KaelthasHeroicAbilityPyroblast",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroKaelthas",
+          "index": 13,
+          "purchase_name": "KaelthasLivingBombFissionBomb",
+          "count": 2
+        },
+        {
+          "hero_id": "HeroKaelthas",
+          "index": 15,
+          "purchase_name": "KaelthasLivingBombSunKingsFury",
+          "count": 2
+        },
+        {
+          "hero_id": "HeroKaelthas",
+          "index": 19,
+          "purchase_name": "KaelthasMasterOfFlames",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroKaelthas",
+          "index": 20,
+          "purchase_name": "GenericArcanePower",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroNova",
+          "index": 3,
+          "purchase_name": "NovaMasteryCovertOpsPinningShot",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroNova",
+          "index": 4,
+          "purchase_name": "NovaNewRemoteDelivery",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroNova",
+          "index": 8,
+          "purchase_name": "NovaCombatStyleAntiArmorShells",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroNova",
+          "index": 10,
+          "purchase_name": "NovaHeroicAbilityTripleTap",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroNova",
+          "index": 14,
+          "purchase_name": "NovaMasteryExplosiveShot",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroNova",
+          "index": 16,
+          "purchase_name": "NovaMasteryCripplingShot",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroNova",
+          "index": 18,
+          "purchase_name": "NovaMasteryFastReload",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroTyrande",
+          "index": 2,
+          "purchase_name": "GenericTalentSeasonedMarksman",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroTyrande",
+          "index": 4,
+          "purchase_name": "TyrandeMasterySentinelPierce",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroTyrande",
+          "index": 11,
+          "purchase_name": "BattleMomentumTyrande",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroTyrande",
+          "index": 13,
+          "purchase_name": "TyrandeHeroicAbilityShadowstalk",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroTyrande",
+          "index": 18,
+          "purchase_name": "GenericTalentShrinkRay",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroTyrande",
+          "index": 21,
+          "purchase_name": "TyrandeMasteryRanger",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroTyrande",
+          "index": 27,
+          "purchase_name": "GenericTalentRewind",
+          "count": 1
+        }
+      ],
+      "index_semantics_or_rule_equivalence_proven": false,
+      "replay_or_sync_written": false
+    },
+    "R8": {
+      "format": "fixed-one-loop-talent-observations-v1",
+      "selection_events": 70,
+      "selection_events_user_unmapped": 0,
+      "mapped_selections_without_prior_hero": 0,
+      "tracker_purchase_events": 70,
+      "unique_one_loop_pairs": 70,
+      "unpaired_selection_events": 0,
+      "unpaired_tracker_purchases": 0,
+      "fixed_offset_single_candidate_counts": {
+        "-2": 0,
+        "-1": 0,
+        "0": 0,
+        "1": 70,
+        "2": 0
+      },
+      "observations": [
+        {
+          "hero_id": "HeroAbathur",
+          "index": 3,
+          "purchase_name": "AbathurMasteryEnvenomedNestsToxicNest",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroAbathur",
+          "index": 4,
+          "purchase_name": "AbathurMasteryProlificDispersal",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroAbathur",
+          "index": 9,
+          "purchase_name": "AbathurMasteryVileNestsToxicNest",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroAbathur",
+          "index": 13,
+          "purchase_name": "AbathurHeroicAbilityEvolveMonstrosity",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroAbathur",
+          "index": 15,
+          "purchase_name": "AbathurCombatStyleBombardStrain",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroAbathur",
+          "index": 20,
+          "purchase_name": "AbathurCombatStyleLocustSwarm",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroAbathur",
+          "index": 25,
+          "purchase_name": "AbathurMasteryLocustMaster",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroAnubarak",
+          "index": 0,
+          "purchase_name": "AnubarakMasteryExtendedSpikesImpale",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroAnubarak",
+          "index": 4,
+          "purchase_name": "AnubarakMasteryUnderkingBurrowCharge",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroAnubarak",
+          "index": 10,
+          "purchase_name": "AnubarakMasteryBedOfBarbs",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroAnubarak",
+          "index": 12,
+          "purchase_name": "AnubarakHeroicAbilityCarrionSwarm",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroAnubarak",
+          "index": 14,
+          "purchase_name": "GenericTalentBurningRage",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroAnubarak",
+          "index": 18,
+          "purchase_name": "AnubarakMasteryEpicenterBurrowCharge",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroAnubarak",
+          "index": 22,
+          "purchase_name": "AnubarakMasteryHiveMasterCarrionSwarm",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroBarbarian",
+          "index": 0,
+          "purchase_name": "BarbarianMasteryWarPaint",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroBarbarian",
+          "index": 7,
+          "purchase_name": "GenericTalentMercenaryLord",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroBarbarian",
+          "index": 10,
+          "purchase_name": "GenericTalentFollowThrough",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroBarbarian",
+          "index": 13,
+          "purchase_name": "BarbarianHeroicAbilityWrathoftheBerserker",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroBarbarian",
+          "index": 16,
+          "purchase_name": "BarbarianMasteryMysticalSpearAncientSpear",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroBarbarian",
+          "index": 21,
+          "purchase_name": "SonyaTalentNervesOfSteel",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroBarbarian",
+          "index": 25,
+          "purchase_name": "SonyaTalentIgnorePain",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroFaerieDragon",
+          "index": 0,
+          "purchase_name": "BrightwingUnfurlingSpraySoothingMist",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroFaerieDragon",
+          "index": 3,
+          "purchase_name": "BrightwingManicPixiePixieDust",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroFaerieDragon",
+          "index": 8,
+          "purchase_name": "FaerieDragonMasteryPhaseShield",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroFaerieDragon",
+          "index": 12,
+          "purchase_name": "FaerieDragonHeroicAbilityEmeraldWind",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroFaerieDragon",
+          "index": 15,
+          "purchase_name": "FaerieDragonMasteryShieldDust",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroFaerieDragon",
+          "index": 17,
+          "purchase_name": "BrightwingGreaterPolymorphPolymorph",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroFaerieDragon",
+          "index": 22,
+          "purchase_name": "FaerieDragonMasteryContinuousWinds",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroGreymane",
+          "index": 1,
+          "purchase_name": "GreymaneGilneanCocktailPerfectAim",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroGreymane",
+          "index": 3,
+          "purchase_name": "GreymaneInnerBeastViciousness",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroGreymane",
+          "index": 7,
+          "purchase_name": "GreymaneGilneanCocktailDraughtOverflow",
+          "count": 2
+        },
+        {
+          "hero_id": "HeroGreymane",
+          "index": 9,
+          "purchase_name": "GreymaneGilneanCocktailIncendiaryElixir",
+          "count": 2
+        },
+        {
+          "hero_id": "HeroGreymane",
+          "index": 11,
+          "purchase_name": "GreymaneHeroicAbilityGoForTheThroat",
+          "count": 2
+        },
+        {
+          "hero_id": "HeroGreymane",
+          "index": 13,
+          "purchase_name": "GreymaneDarkflightDisengageRunningWild",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroGreymane",
+          "index": 15,
+          "purchase_name": "GreymaneInnerBeastOnTheProwl",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroGreymane",
+          "index": 17,
+          "purchase_name": "GreymaneGilneanCocktailConcentratedBlast",
+          "count": 2
+        },
+        {
+          "hero_id": "HeroGreymane",
+          "index": 23,
+          "purchase_name": "GreymaneHuntersBlunderbuss",
+          "count": 2
+        },
+        {
+          "hero_id": "HeroKaelthas",
+          "index": 2,
+          "purchase_name": "KaelthasManaAddict",
+          "count": 2
+        },
+        {
+          "hero_id": "HeroKaelthas",
+          "index": 3,
+          "purchase_name": "KaelthasGravityLapseNetherWind",
+          "count": 2
+        },
+        {
+          "hero_id": "HeroKaelthas",
+          "index": 6,
+          "purchase_name": "KaelthasFlamestrikeBurnedFlesh",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroKaelthas",
+          "index": 7,
+          "purchase_name": "KaelthasGravityCrush",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroKaelthas",
+          "index": 9,
+          "purchase_name": "KaelthasHeroicAbilityPhoenix",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroKaelthas",
+          "index": 10,
+          "purchase_name": "KaelthasHeroicAbilityPyroblast",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroKaelthas",
+          "index": 13,
+          "purchase_name": "KaelthasLivingBombFissionBomb",
+          "count": 2
+        },
+        {
+          "hero_id": "HeroKaelthas",
+          "index": 15,
+          "purchase_name": "KaelthasLivingBombSunKingsFury",
+          "count": 2
+        },
+        {
+          "hero_id": "HeroKaelthas",
+          "index": 19,
+          "purchase_name": "KaelthasMasterOfFlames",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroKaelthas",
+          "index": 20,
+          "purchase_name": "GenericArcanePower",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroNova",
+          "index": 3,
+          "purchase_name": "NovaMasteryCovertOpsPinningShot",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroNova",
+          "index": 4,
+          "purchase_name": "NovaNewRemoteDelivery",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroNova",
+          "index": 8,
+          "purchase_name": "NovaCombatStyleAntiArmorShells",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroNova",
+          "index": 10,
+          "purchase_name": "NovaHeroicAbilityTripleTap",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroNova",
+          "index": 14,
+          "purchase_name": "NovaMasteryExplosiveShot",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroNova",
+          "index": 16,
+          "purchase_name": "NovaMasteryCripplingShot",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroNova",
+          "index": 18,
+          "purchase_name": "NovaMasteryFastReload",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroTyrande",
+          "index": 2,
+          "purchase_name": "GenericTalentSeasonedMarksman",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroTyrande",
+          "index": 4,
+          "purchase_name": "TyrandeMasterySentinelPierce",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroTyrande",
+          "index": 11,
+          "purchase_name": "BattleMomentumTyrande",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroTyrande",
+          "index": 13,
+          "purchase_name": "TyrandeHeroicAbilityShadowstalk",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroTyrande",
+          "index": 18,
+          "purchase_name": "GenericTalentShrinkRay",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroTyrande",
+          "index": 21,
+          "purchase_name": "TyrandeMasteryRanger",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroTyrande",
+          "index": 27,
+          "purchase_name": "GenericTalentRewind",
+          "count": 1
+        }
+      ],
+      "index_semantics_or_rule_equivalence_proven": false,
+      "replay_or_sync_written": false
+    },
+    "current": {
+      "format": "fixed-one-loop-talent-observations-v1",
+      "selection_events": 70,
+      "selection_events_user_unmapped": 0,
+      "mapped_selections_without_prior_hero": 0,
+      "tracker_purchase_events": 70,
+      "unique_one_loop_pairs": 70,
+      "unpaired_selection_events": 0,
+      "unpaired_tracker_purchases": 0,
+      "fixed_offset_single_candidate_counts": {
+        "-2": 0,
+        "-1": 0,
+        "0": 0,
+        "1": 70,
+        "2": 0
+      },
+      "observations": [
+        {
+          "hero_id": "HeroAnduin",
+          "index": 1,
+          "purchase_name": "AnduinDivineStarPowerWordShield",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroAnduin",
+          "index": 3,
+          "purchase_name": "AnduinDivineStarMoralCompass",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroAnduin",
+          "index": 7,
+          "purchase_name": "AnduinBlessedRecovery",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroAnduin",
+          "index": 10,
+          "purchase_name": "AnduinLightBomb",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroAnduin",
+          "index": 11,
+          "purchase_name": "AnduinDivineStarSpeedOfThePious",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroAnduin",
+          "index": 16,
+          "purchase_name": "AnduinLeapOfFaithGlyphOfFaith",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroAnduin",
+          "index": 19,
+          "purchase_name": "AnduinInnerFire",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroDehaka",
+          "index": 1,
+          "purchase_name": "DehakaEssenceCollectionTalentTissueRegeneration",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroDehaka",
+          "index": 3,
+          "purchase_name": "DehakaBurrowTalentLurkerStrain",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroDehaka",
+          "index": 6,
+          "purchase_name": "DehakaDragTalentFeedingFrenzy",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroDehaka",
+          "index": 9,
+          "purchase_name": "DehakaHeroicAbilityIsolation",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroDehaka",
+          "index": 13,
+          "purchase_name": "DehakaPrimalRage",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroDehaka",
+          "index": 14,
+          "purchase_name": "DehakaDragTalentElongatedTongue",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroDehaka",
+          "index": 17,
+          "purchase_name": "DehakaIsolationTalentContagion",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroGarrosh",
+          "index": 1,
+          "purchase_name": "GarroshWreckingBallUnrivaledStrength",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroGarrosh",
+          "index": 5,
+          "purchase_name": "GarroshIndomitable",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroGarrosh",
+          "index": 7,
+          "purchase_name": "GarroshOppressor",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroGarrosh",
+          "index": 9,
+          "purchase_name": "GarroshHeroicAbilityWarlordsChallenge",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroGarrosh",
+          "index": 12,
+          "purchase_name": "GarroshBloodthirstBloodcraze",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroGarrosh",
+          "index": 16,
+          "purchase_name": "GarroshArmorUpSeasonedSoldier",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroGarrosh",
+          "index": 19,
+          "purchase_name": "GarroshWreckingBallTitanicMight",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroImperius",
+          "index": 0,
+          "purchase_name": "ImperiusCelestialChargeImpalingLight",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroImperius",
+          "index": 5,
+          "purchase_name": "ImperiusPressForward",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroImperius",
+          "index": 6,
+          "purchase_name": "ImperiusCelestialChargeFlashOfAnger",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroImperius",
+          "index": 10,
+          "purchase_name": "ImperiusWrathOfTheAngiris",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroImperius",
+          "index": 11,
+          "purchase_name": "ImperiusCelestialChargePatheticMortals",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroImperius",
+          "index": 16,
+          "purchase_name": "ImperiusValorousPursuit",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroImperius",
+          "index": 18,
+          "purchase_name": "ImperiusWrathOfTheAngirisUnrelentingDescent",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroKaelthas",
+          "index": 2,
+          "purchase_name": "KaelthasManaAddict",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroKaelthas",
+          "index": 5,
+          "purchase_name": "KaelthasFlamestrikeManaTap",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroKaelthas",
+          "index": 6,
+          "purchase_name": "KaelthasFlamestrikeBurnedFlesh",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroKaelthas",
+          "index": 9,
+          "purchase_name": "KaelthasHeroicAbilityPhoenix",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroKaelthas",
+          "index": 11,
+          "purchase_name": "KaelthasLivingBombPyromaniac",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroKaelthas",
+          "index": 15,
+          "purchase_name": "KaelthasLivingBombIgnite",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroKaelthas",
+          "index": 20,
+          "purchase_name": "KaelthasMasteryFlamethrower",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroMalfurion",
+          "index": 2,
+          "purchase_name": "MalfurionEntanglingRootsEmeraldDreams",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroMalfurion",
+          "index": 3,
+          "purchase_name": "MalfurionRejuvenation",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroMalfurion",
+          "index": 6,
+          "purchase_name": "MalfurionWildGrowthTalent",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroMalfurion",
+          "index": 9,
+          "purchase_name": "MalfurionHeroicAbilityTranquility",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroMalfurion",
+          "index": 13,
+          "purchase_name": "MalfurionRevitalizeInnervateTalent",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroMalfurion",
+          "index": 16,
+          "purchase_name": "MalfurionMoonfireMoonlitHarmonyTalent",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroMalfurion",
+          "index": 17,
+          "purchase_name": "MalfurionMasterySerenity",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroMeiOW",
+          "index": 2,
+          "purchase_name": "MeiOWHeatTransfer",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroMeiOW",
+          "index": 5,
+          "purchase_name": "MeiOWCrystallize",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroMeiOW",
+          "index": 7,
+          "purchase_name": "MeiOWSkatingAway",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroMeiOW",
+          "index": 9,
+          "purchase_name": "MeiOWAvalanche",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroMeiOW",
+          "index": 11,
+          "purchase_name": "MeiOWFlurry",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroMeiOW",
+          "index": 16,
+          "purchase_name": "MeiOWAcclimation",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroMeiOW",
+          "index": 17,
+          "purchase_name": "MeiOWCascade",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroMephisto",
+          "index": 0,
+          "purchase_name": "MephistoSkullMissileUnyieldingPower",
+          "count": 2
+        },
+        {
+          "hero_id": "HeroMephisto",
+          "index": 3,
+          "purchase_name": "MephistoSkullMissileHatefulMending",
+          "count": 2
+        },
+        {
+          "hero_id": "HeroMephisto",
+          "index": 6,
+          "purchase_name": "MephistoShadeOfMephistoGhastlyArmor",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroMephisto",
+          "index": 7,
+          "purchase_name": "MephistoShadeOfMephistoFrostStorm",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroMephisto",
+          "index": 10,
+          "purchase_name": "MephistoDuranceOfHate",
+          "count": 2
+        },
+        {
+          "hero_id": "HeroMephisto",
+          "index": 11,
+          "purchase_name": "MephistoSkullMissileAbhorredSkull",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroMephisto",
+          "index": 12,
+          "purchase_name": "MephistoLordOfHatredHysteria",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroMephisto",
+          "index": 14,
+          "purchase_name": "MephistoSkullMissileLightningReaction",
+          "count": 2
+        },
+        {
+          "hero_id": "HeroMephisto",
+          "index": 18,
+          "purchase_name": "MephistoDuranceOfHateUnspeakableHorror",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroMephisto",
+          "index": 19,
+          "purchase_name": "MephistoLightningNovaMimic",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroWitchDoctor",
+          "index": 1,
+          "purchase_name": "WitchDoctorPandemic",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroWitchDoctor",
+          "index": 5,
+          "purchase_name": "WitchDoctorBloodRitual",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroWitchDoctor",
+          "index": 8,
+          "purchase_name": "WitchDoctorToadsofHugeness",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroWitchDoctor",
+          "index": 10,
+          "purchase_name": "WitchDoctorHeroicAbilityRavenousSpirits",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroWitchDoctor",
+          "index": 13,
+          "purchase_name": "GenericTalentIceBlock",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroWitchDoctor",
+          "index": 16,
+          "purchase_name": "WitchDoctorSoulHarvest",
+          "count": 1
+        },
+        {
+          "hero_id": "HeroWitchDoctor",
+          "index": 19,
+          "purchase_name": "WitchDoctorVileInfection",
+          "count": 1
+        }
+      ],
+      "index_semantics_or_rule_equivalence_proven": false,
+      "replay_or_sync_written": false
+    }
+  },
+  "source_current_common_hero_index_name_sets": [
+    {
+      "hero_id": "HeroKaelthas",
+      "index": 2,
+      "source_purchase_names": [
+        "KaelthasManaAddict"
+      ],
+      "target_purchase_names": [
+        "KaelthasManaAddict"
+      ],
+      "name_sets_equal": true
+    },
+    {
+      "hero_id": "HeroKaelthas",
+      "index": 6,
+      "source_purchase_names": [
+        "KaelthasFlamestrikeBurnedFlesh"
+      ],
+      "target_purchase_names": [
+        "KaelthasFlamestrikeBurnedFlesh"
+      ],
+      "name_sets_equal": true
+    },
+    {
+      "hero_id": "HeroKaelthas",
+      "index": 9,
+      "source_purchase_names": [
+        "KaelthasHeroicAbilityPhoenix"
+      ],
+      "target_purchase_names": [
+        "KaelthasHeroicAbilityPhoenix"
+      ],
+      "name_sets_equal": true
+    },
+    {
+      "hero_id": "HeroKaelthas",
+      "index": 15,
+      "source_purchase_names": [
+        "KaelthasLivingBombSunKingsFury"
+      ],
+      "target_purchase_names": [
+        "KaelthasLivingBombIgnite"
+      ],
+      "name_sets_equal": false
+    },
+    {
+      "hero_id": "HeroKaelthas",
+      "index": 20,
+      "source_purchase_names": [
+        "GenericArcanePower"
+      ],
+      "target_purchase_names": [
+        "KaelthasMasteryFlamethrower"
+      ],
+      "name_sets_equal": false
+    }
+  ],
+  "map_metadata": {
+    "source": {
+      "title": "Dragon Shire",
+      "map_file_name": "",
+      "map_file_sync_checksum": 759447839,
+      "mod_file_sync_checksum": 3522231966,
+      "details_member_sha256": "70431663598198a9eb9a6a7ad2cdf99616b6b251696bd4743542e19b6626a1bf",
+      "initData_member_sha256": "dcc26ba86dcd764a561ea17b9bb79db6361006e761ec66be9871d40fc5c62e27",
+      "whole_members_decoded_and_aligned_EOF": true
+    },
+    "current": {
+      "title": "Lost Cavern",
+      "map_file_name": "",
+      "map_file_sync_checksum": 1584093538,
+      "mod_file_sync_checksum": 2247925944,
+      "details_member_sha256": "0d6344f4a90b5f13355f6733c09cf337801cf17e693db7986d580463d28f8932",
+      "initData_member_sha256": "9800e9b30fb10dee72c7ccc70bfd0b35cf19eab794cf657a9f56734a461d5240",
+      "whole_members_decoded_and_aligned_EOF": true
+    }
+  },
+  "R8_all_70_selections_and_preserved_tracker_associations_equal_source": true,
+  "R8_tracker_bytes_equal_source": true,
+  "R8_tracker_is_historical_record_not_current_execution": true,
+  "association_policy": "unique same player purchase exactly +1 loop; explicit prior user/player setup and prior stable hero identity; both event keys unique",
+  "limits": [
+    "Only these three hash-pinned replay artifacts were freshly read; this is not a full corpus audit.",
+    "Source and current control maps/mod contexts differ. Name differences do not isolate build changes from map/mod effects.",
+    "Equal index plus hero does not establish cross-version talent identity. Equal names do not prove equal rules.",
+    "No tier, array ordinal, replacement index, removed-talent status or causal join is inferred.",
+    "Preserved historical TalentChosen labels in R8 are not a current-client simulation result."
+  ],
+  "talent_migration_mapping_established": false,
+  "conversion_changed": false,
+  "replay_or_sync_written": false,
+  "network_or_game_or_Computer_Use": false,
+  "full_upgrade_complete": false
+}

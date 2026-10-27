@@ -1,0 +1,72 @@
+{
+  "format": "talent-choice-observation-validation-v1",
+  "passed": true,
+  "focused_unit_tests": 12,
+  "unit_test_failures": 0,
+  "unit_test_errors": 0,
+  "actual_replay_fixtures": 3,
+  "paired_selections_checked": 210,
+  "independent_exploratory_pairs_and_reusable_aggregate_agree": true,
+  "original_R8_control_whole_file_size_SHA256_and_stat_identity_rechecked": true,
+  "code": [
+    {
+      "path": "talent_choice_audit.py",
+      "bytes": 6633,
+      "sha256": "5addb3146e8bf5a25ac5f46ab3a98165ac65385c777152fb99dfdc265f00d7b0"
+    },
+    {
+      "path": "test_talent_choice_audit.py",
+      "bytes": 5685,
+      "sha256": "2184e2cc48d0cb00e24dd433876f4591bbc5e46e0e4f699a61e0ef89bd954a03"
+    }
+  ],
+  "private_reproduction_driver": {
+    "path": "native-talent-choice-audit-20261027/compare_source_current_talents.py",
+    "bytes": 9915,
+    "sha256": "a9b49272a8b10d3b25de067632c743a2dda31f47844fa29c44c77a2ba328094a"
+  },
+  "private_validation_driver": {
+    "path": "native-talent-choice-audit-20261027/validate_talent_milestone.py",
+    "bytes": 6546,
+    "sha256": "82c3978e60f4622fff511994cab2ddd33bbef183e40a74df49e817546f7ed393"
+  },
+  "replays": [
+    {
+      "label": "source",
+      "path": "work/TEN_GREYMANE_source_41810.StormReplay",
+      "bytes": 635140,
+      "sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824"
+    },
+    {
+      "label": "R8",
+      "path": "work/native-20261018/TEN_GREYMANE_client98285_RESUMABLE_R8_PARTIAL.StormReplay",
+      "bytes": 2438570,
+      "sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19"
+    },
+    {
+      "label": "current",
+      "path": "work/eu-replay-search-20261018/heroeslounge-27515-g1-20261005.StormReplay",
+      "bytes": 978482,
+      "sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4"
+    }
+  ],
+  "unused_launcher_drafts": [
+    {
+      "path": "scripts/run_current_replay_control.py",
+      "bytes": 17147,
+      "sha256": "6315c2dd9291aa5185db0831e1d7c00f24f1d3f33ceb0bd79f8a636dd2aacaea"
+    },
+    {
+      "path": "test_current_replay_control.py",
+      "bytes": 2450,
+      "sha256": "7a00561260e2c0f64a41b9f73cbf8910550f90e4a6d6ad80e7a1d1719879f297"
+    }
+  ],
+  "hosted_CI_run": false,
+  "independent_peer_review": false,
+  "native_target_executed": false,
+  "full_corpus_run": false,
+  "network_or_game_or_Computer_Use": false,
+  "replay_or_sync_written": false,
+  "full_upgrade_complete": false
+}
