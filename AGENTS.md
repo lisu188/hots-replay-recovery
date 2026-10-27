@@ -1077,3 +1077,26 @@ This supersedes the previous non-command-payload fallback limitation for these
 two whole members only. Original/R8/control, sync data and unused launcher drafts
 remain untouched. Keep all work offline: no game, Computer Use, network or remote
 publication. Full upgrade/playback remain unproved; do not guess missing state.
+
+## Original-to-R8 native game fidelity audit — 2026-10-27
+
+Read docs/NATIVE_GAME_MIGRATION_FIDELITY_2026-10-27.md and the three dated
+native-game-fidelity receipts. audit_native_game_fidelity.py reconstructs the
+entire104257-event R8 game member from original41810 values plus explicit existing
+recipe rules, using the native codec. Every payload difference is accounted for;
+all event order/deltas/userids/IDs remain equal and whole R8 bytes match.
+It audits existing assumptions; it does not authorize them as historical truth.
+
+Counts:20build fields,4558absent vectors,3247flag changes,15346tag references/
+15301changed tags,1mouse modifier default. The flag mapping is noninjective:
+606old0x100100->0x80100 and16old0x80100 unchanged,622commands total. Do not call
+this a unique flag inverse or use format agreement as semantic equivalence.
+Preserve the source/per-event audit. Do not enable the unobserved0x40100 hypothesis
+or claim a desync cause. Runtime flag meanings, absent vectors, zero modifiers,
+and runtime instance allocation remain unproved. No conversion rule changed.
+
+Eight new tests and16neighboring codec tests pass; actual whole-member
+reconstruction and edited CI block parsing are local evidence. New CI gate
+retains explicit collision assertions but has not run remotely. No full local
+corpus/peer review claim. Original/R8/sync/drafts remain unchanged; no new replay,
+game, Computer Use, network or remote publication. Full upgrade stays false.

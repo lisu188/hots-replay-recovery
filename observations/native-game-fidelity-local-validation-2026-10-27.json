@@ -1,0 +1,29 @@
+{
+  "format": "native-game-fidelity-local-validation-v1",
+  "passed": true,
+  "new_tests": 8,
+  "neighboring_codec_tests": 16,
+  "total_tests": 24,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "seconds": 0.188,
+  "test_files": [
+    {
+      "path": "test_native_game_fidelity.py",
+      "sha256": "444d908739221897541be653e5a9027b1af16c86ae3ad4e131d221c770418045"
+    },
+    {
+      "path": "test_native_game_events.py",
+      "sha256": "d276fc6e494e45c13d9bd37fcf4ae95589af27a6a2465449a6b8644869bae7c6"
+    }
+  ],
+  "existing_recipe_constants_agree": true,
+  "new_CI_python_block_parses": true,
+  "git_diff_check_passed": true,
+  "hosted_CI_run": false,
+  "full_local_corpus_run": false,
+  "independent_peer_review": false,
+  "network_or_game_or_Computer_Use": false,
+  "full_upgrade_complete": false
+}

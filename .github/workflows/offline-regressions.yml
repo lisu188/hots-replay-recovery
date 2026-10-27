@@ -85,6 +85,34 @@ jobs:
           python scripts/restore_artifact.py "$r4.base64" work/R4.StormReplay --sha256 "$r4.sha256"
           r8=client-checkpoints/98285-resumable-r8/TEN_GREYMANE_client98285_RESUMABLE_R8_PARTIAL.StormReplay
           python scripts/restore_artifact.py "$r8.base64" work/header879-R8.StormReplay --sha256 "$r8.sha256"
+      - name: Account for the original to R8 game migration with the native codec
+        run: |
+          python - <<'PY'
+          import hashlib
+          from pathlib import Path
+          from reference_replay import checked_archive
+          from migrate_replay import write_json
+          from audit_native_game_fidelity import audit_game_fidelity
+          cases = [(Path('work/TEN_GREYMANE_source_41810.StormReplay'), 635140, 'e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824'), (Path('work/header879-R8.StormReplay'), 2438570, '4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19')]
+          members = []
+          for path, size, digest in cases:
+              assert path.stat().st_size == size and hashlib.sha256(path.read_bytes()).hexdigest() == digest
+              archive = checked_archive(path)
+              try:
+                  members.append(archive.read_file('replay.game.events'))
+              finally:
+                  archive.close()
+          result = audit_game_fidelity(*members)
+          assert result['recipe_accounting_passed'] and result['counts']['events'] == 104257
+          assert result['native_value_writer_reconstructs_whole_R8_member_exactly']
+          assert result['counts']['unit_tag_values_changed'] == 15301 and result['counts']['command_flags_changed'] == 3247
+          assert result['noninjective_flag_targets'] == [{'R8_flags': 524544, 'contributors': [{'source_flags': 524544, 'count': 16, 'changed': False}, {'source_flags': 1048832, 'count': 606, 'changed': True}], 'commands': 622}]
+          assert not result['assumptions_authenticated_as_historical_semantics'] and not result['full_upgrade_complete']
+          for path, size, digest in cases:
+              assert path.stat().st_size == size and hashlib.sha256(path.read_bytes()).hexdigest() == digest
+          write_json('work/native-game-fidelity.json', result)
+          print({'accounted_game_events': 104257, 'whole_R8_native_reconstruction_exact': True, 'flag_collision_commands': 622, 'historical_semantics_proven': False})
+          PY
       - name: Verify original MapInfo framing conversion and whole-member inverse in RAM
         run: |
           python - <<'PY'
@@ -377,5 +405,6 @@ jobs:
             work/current-native-lobby-values.json
             work/original-mapinfo-framing.json
             work/header879-audit.json
+            work/native-game-fidelity.json
           if-no-files-found: warn
           retention-days: 14

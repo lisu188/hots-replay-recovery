@@ -1,0 +1,129 @@
+{
+  "format": "native-source-to-R8-game-fidelity-audit-v1",
+  "recipe_accounting_passed": true,
+  "source_member_sha256": "ea69dd77edd02f3ed2c42a2def1faab6dc4d0eb46da291c44f76bfb49a65eed6",
+  "R8_member_sha256": "31df2ab80eeeb56bc543ea0744f75d4d2ec6a5c337b1f38f04ef90d169dab2f0",
+  "schema_SHA256": {
+    "41810": "879d228d9d8acd21d63563538dd15841aaf49259ee0bb468b8a46b6a4ef866fd",
+    "96477": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84"
+  },
+  "counts": {
+    "assumed_absent_command_vectors_added": 4558,
+    "assumed_zero_mouse_modifier_fields_added": 1,
+    "command_flags_changed": 3247,
+    "events": 104257,
+    "unit_tag_references_checked": 15346,
+    "unit_tag_values_changed": 15301,
+    "user_option_build_fields_changed": 20
+  },
+  "all_event_order_deltas_userids_and_IDs_preserved": true,
+  "all_payload_differences_accounted_by_explicit_existing_recipe": true,
+  "native_value_writer_reconstructs_whole_R8_member_exactly": true,
+  "command_flag_pairs": [
+    {
+      "source_flags": 256,
+      "R8_flags": 256,
+      "count": 1288
+    },
+    {
+      "source_flags": 266,
+      "R8_flags": 266,
+      "count": 7
+    },
+    {
+      "source_flags": 65792,
+      "R8_flags": 33024,
+      "count": 3
+    },
+    {
+      "source_flags": 524544,
+      "R8_flags": 524544,
+      "count": 16
+    },
+    {
+      "source_flags": 1048832,
+      "R8_flags": 524544,
+      "count": 606
+    },
+    {
+      "source_flags": 1048840,
+      "R8_flags": 524552,
+      "count": 1915
+    },
+    {
+      "source_flags": 1114376,
+      "R8_flags": 557320,
+      "count": 66
+    },
+    {
+      "source_flags": 2097408,
+      "R8_flags": 1048832,
+      "count": 657
+    }
+  ],
+  "noninjective_flag_targets": [
+    {
+      "R8_flags": 524544,
+      "contributors": [
+        {
+          "source_flags": 524544,
+          "count": 16,
+          "changed": false
+        },
+        {
+          "source_flags": 1048832,
+          "count": 606,
+          "changed": true
+        }
+      ],
+      "commands": 622
+    }
+  ],
+  "flag_inverse_requires_source_or_per_event_audit": true,
+  "assumptions_authenticated_as_historical_semantics": false,
+  "unproved_recipe_assumptions": [
+    "Historical command-flag bit meanings and untouched16-command case.",
+    "Absent command vectors and zero mouse modifiers.",
+    "Runtime unit-instance identities despite recorded index/recycle preservation."
+  ],
+  "new_replay_or_member_returned_or_written": false,
+  "native_target_executed": false,
+  "full_upgrade_complete": false,
+  "source_and_R8_unchanged": true,
+  "audit_source_sha256": "55c098ed38ec9e09326b3726f99ced41cdb36338917d2389f3664984e4c31d8a",
+  "network_or_game_or_Computer_Use": false,
+  "native_model_pins": [
+    {
+      "path": "native_game_events.py",
+      "bytes": 12832,
+      "sha256": "72adceefb23a9f78b467eba9ec9d4b8fa655bae94d61e7ee753b15498876fd23"
+    },
+    {
+      "path": "native_game_events_schema_98348.json",
+      "bytes": 49231,
+      "sha256": "bbb2ca6a0c1511a6756cf0f5ab9d0309f4b8b6cdf397963d020390f549082895"
+    },
+    {
+      "path": "_native_setup_string.py",
+      "bytes": 2145,
+      "sha256": "56087d34ad3569cb20a01d1831e15697432840d22c2a008c83a267bd65dcea69"
+    }
+  ],
+  "existing_recipe_source_pins": [
+    {
+      "path": "migrate_replay.py",
+      "bytes": 16921,
+      "sha256": "1da4359c7eb6105b540a542b9e4a7fa461544c2065dd92c3ac3df2386f65e747"
+    },
+    {
+      "path": "repair_command_flags.py",
+      "bytes": 13095,
+      "sha256": "ac6c1906472098bb6e7adcf1057e333be13cb53fca68b7b5c392def5b5d51d32"
+    },
+    {
+      "path": "repair_unit_tags.py",
+      "bytes": 13879,
+      "sha256": "43ec99d34aafd73f3c5f3f29d56fcffcc199e5d075f2a344cd7c8064377704e2"
+    }
+  ]
+}

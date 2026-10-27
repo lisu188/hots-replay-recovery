@@ -1,0 +1,271 @@
+{
+  "format": "source41810-to-native-R8-game-value-differences-v1",
+  "source_protocol_sha256": "879d228d9d8acd21d63563538dd15841aaf49259ee0bb468b8a46b6a4ef866fd",
+  "native_model_pins": [
+    {
+      "path": "native_game_events.py",
+      "bytes": 12832,
+      "sha256": "72adceefb23a9f78b467eba9ec9d4b8fa655bae94d61e7ee753b15498876fd23"
+    },
+    {
+      "path": "native_game_events_schema_98348.json",
+      "bytes": 49231,
+      "sha256": "bbb2ca6a0c1511a6756cf0f5ab9d0309f4b8b6cdf397963d020390f549082895"
+    },
+    {
+      "path": "_native_setup_string.py",
+      "bytes": 2145,
+      "sha256": "56087d34ad3569cb20a01d1831e15697432840d22c2a008c83a267bd65dcea69"
+    }
+  ],
+  "source_and_R8_unchanged": true,
+  "event_count": 104257,
+  "frame_loop_user_ID_or_event_ID_different_indices": [],
+  "event_type_counts": {
+    "NNet.Game.SCameraUpdateEvent": 17593,
+    "NNet.Game.SCmdEvent": 4558,
+    "NNet.Game.SCmdUpdateTargetPointEvent": 32908,
+    "NNet.Game.SCmdUpdateTargetUnitEvent": 10851,
+    "NNet.Game.SCommandManagerStateEvent": 33546,
+    "NNet.Game.SGameUserLeaveEvent": 2,
+    "NNet.Game.SHeroTalentTreeSelectedEvent": 70,
+    "NNet.Game.SSelectionDeltaEvent": 158,
+    "NNet.Game.STriggerChatMessageEvent": 2,
+    "NNet.Game.STriggerCutsceneEndSceneFiredEvent": 121,
+    "NNet.Game.STriggerDialogControlEvent": 313,
+    "NNet.Game.STriggerPingEvent": 81,
+    "NNet.Game.STriggerSoundLengthSyncEvent": 10,
+    "NNet.Game.STriggerSoundOffsetEvent": 998,
+    "NNet.Game.STriggerSoundtrackDoneEvent": 46,
+    "NNet.Game.STriggerTransmissionCompleteEvent": 181,
+    "NNet.Game.STriggerTransmissionOffsetEvent": 51,
+    "NNet.Game.SUnitClickEvent": 2756,
+    "NNet.Game.SUserFinishedLoadingSyncEvent": 2,
+    "NNet.Game.SUserOptionsEvent": 10
+  },
+  "events_with_any_payload_difference": {
+    "NNet.Game.SCmdEvent": 4558,
+    "NNet.Game.SCmdUpdateTargetUnitEvent": 10814,
+    "NNet.Game.SSelectionDeltaEvent": 87,
+    "NNet.Game.STriggerDialogControlEvent": 1,
+    "NNet.Game.SUnitClickEvent": 2756,
+    "NNet.Game.SUserOptionsEvent": 10
+  },
+  "equal_common_leaf_counts": {
+    "int": 320098,
+    "bool": 17774,
+    "bytes": 12,
+    "NoneType": 130492
+  },
+  "differences": [
+    {
+      "path": "NNet.Game.SCmdEvent/m_cmdFlags",
+      "kind": "value",
+      "count": 3247,
+      "before_types": {
+        "int": 3247
+      },
+      "after_types": {
+        "int": 3247
+      },
+      "first_event_index": 26,
+      "last_event_index": 103984,
+      "first_up_to24_numeric_pairs": [
+        {
+          "before": 1048840,
+          "after": 524552,
+          "count": 1915
+        },
+        {
+          "before": 1114376,
+          "after": 557320,
+          "count": 66
+        },
+        {
+          "before": 65792,
+          "after": 33024,
+          "count": 3
+        },
+        {
+          "before": 1048832,
+          "after": 524544,
+          "count": 606
+        },
+        {
+          "before": 2097408,
+          "after": 1048832,
+          "count": 657
+        }
+      ]
+    },
+    {
+      "path": "NNet.Game.SCmdEvent/m_data/TargetUnit/m_tag",
+      "kind": "value",
+      "count": 1606,
+      "before_types": {
+        "int": 1606
+      },
+      "after_types": {
+        "int": 1606
+      },
+      "first_event_index": 3568,
+      "last_event_index": 103962,
+      "unit_reference_samples_omitted": true
+    },
+    {
+      "path": "NNet.Game.SCmdEvent/m_otherUnit",
+      "kind": "value",
+      "count": 33,
+      "before_types": {
+        "int": 33
+      },
+      "after_types": {
+        "int": 33
+      },
+      "first_event_index": 51474,
+      "last_event_index": 103456,
+      "unit_reference_samples_omitted": true
+    },
+    {
+      "path": "NNet.Game.SCmdEvent/m_vector",
+      "kind": "added",
+      "count": 4558,
+      "before_types": {
+        "NoneType": 4558
+      },
+      "after_types": {
+        "NoneType": 4558
+      },
+      "first_event_index": 26,
+      "last_event_index": 103984,
+      "first_up_to24_numeric_pairs": [
+        {
+          "before": null,
+          "after": null,
+          "count": 4558
+        }
+      ]
+    },
+    {
+      "path": "NNet.Game.SCmdUpdateTargetUnitEvent/m_target/m_tag",
+      "kind": "value",
+      "count": 10814,
+      "before_types": {
+        "int": 10814
+      },
+      "after_types": {
+        "int": 10814
+      },
+      "first_event_index": 3640,
+      "last_event_index": 103967,
+      "unit_reference_samples_omitted": true
+    },
+    {
+      "path": "NNet.Game.SSelectionDeltaEvent/m_delta/m_addUnitTags/[]",
+      "kind": "value",
+      "count": 92,
+      "before_types": {
+        "int": 92
+      },
+      "after_types": {
+        "int": 92
+      },
+      "first_event_index": 22,
+      "last_event_index": 103524,
+      "unit_reference_samples_omitted": true
+    },
+    {
+      "path": "NNet.Game.STriggerDialogControlEvent/m_eventData/MouseButton",
+      "kind": "removed",
+      "count": 1,
+      "before_types": {
+        "int": 1
+      },
+      "after_types": {
+        "NoneType": 1
+      },
+      "first_event_index": 101038,
+      "last_event_index": 101038,
+      "first_up_to24_numeric_pairs": [
+        {
+          "before": 1,
+          "after": null,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "NNet.Game.STriggerDialogControlEvent/m_eventData/MouseEvent",
+      "kind": "added",
+      "count": 1,
+      "before_types": {
+        "NoneType": 1
+      },
+      "after_types": {
+        "dict": 1
+      },
+      "first_event_index": 101038,
+      "non_numeric_values_omitted": true,
+      "last_event_index": 101038,
+      "first_up_to24_numeric_pairs": []
+    },
+    {
+      "path": "NNet.Game.SUnitClickEvent/m_unitTag",
+      "kind": "value",
+      "count": 2756,
+      "before_types": {
+        "int": 2756
+      },
+      "after_types": {
+        "int": 2756
+      },
+      "first_event_index": 850,
+      "last_event_index": 103953,
+      "unit_reference_samples_omitted": true
+    },
+    {
+      "path": "NNet.Game.SUserOptionsEvent/m_baseBuildNum",
+      "kind": "value",
+      "count": 10,
+      "before_types": {
+        "int": 10
+      },
+      "after_types": {
+        "int": 10
+      },
+      "first_event_index": 2,
+      "last_event_index": 20,
+      "first_up_to24_numeric_pairs": [
+        {
+          "before": 41810,
+          "after": 98285,
+          "count": 10
+        }
+      ]
+    },
+    {
+      "path": "NNet.Game.SUserOptionsEvent/m_buildNum",
+      "kind": "value",
+      "count": 10,
+      "before_types": {
+        "int": 10
+      },
+      "after_types": {
+        "int": 10
+      },
+      "first_event_index": 2,
+      "last_event_index": 20,
+      "first_up_to24_numeric_pairs": [
+        {
+          "before": 41810,
+          "after": 98285,
+          "count": 10
+        }
+      ]
+    }
+  ],
+  "raw_text_or_payloads_saved": false,
+  "semantic_equivalence_proven": false,
+  "network_or_game_or_Computer_Use": false,
+  "full_upgrade_complete": false
+}
