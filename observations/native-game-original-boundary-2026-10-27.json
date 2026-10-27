@@ -1,0 +1,204 @@
+{
+  "format": "original41810-game-wire-boundary-checkpoint-v1",
+  "member_identity_check": {
+    "format": "source41810-R8-game-member-identity-v1",
+    "cases": [
+      {
+        "case": "source41810",
+        "source_bytes": 635140,
+        "source_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+        "source_unchanged": true,
+        "member_bytes": 1146911,
+        "member_sha256": "ea69dd77edd02f3ed2c42a2def1faab6dc4d0eb46da291c44f76bfb49a65eed6"
+      },
+      {
+        "case": "R8partial98285",
+        "source_bytes": 2438570,
+        "source_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+        "source_unchanged": true,
+        "member_bytes": 1148436,
+        "member_sha256": "31df2ab80eeeb56bc543ea0744f75d4d2ec6a5c337b1f38f04ef90d169dab2f0"
+      }
+    ],
+    "whole_game_member_byte_equal": false,
+    "native_model_validation_inherited_from_identical_R8_member": false,
+    "extra_event_traversal_claimed": false,
+    "historical_meaning_or_current_playback_proven": false,
+    "network_or_game_or_Computer_Use": false,
+    "full_upgrade_complete": false,
+    "first_different_byte_offset": 37
+  },
+  "direct_current_profile_probe": {
+    "format": "unmodified-original41810-under-observed22-native-profile-v1",
+    "source_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+    "member_sha256": "ea69dd77edd02f3ed2c42a2def1faab6dc4d0eb46da291c44f76bfb49a65eed6",
+    "member_bytes": 1146911,
+    "source_unchanged": true,
+    "complete_frames_before_stop": 23,
+    "last_complete_frame_end_bit": 4392,
+    "counts_by_ID_before_stop": {
+      "5": 2,
+      "7": 10,
+      "28": 1,
+      "56": 10
+    },
+    "strict_native_model_error": "bit4420:unsupported native payload ID",
+    "whole_member_consumed": false,
+    "canonical_value_write_whole_member_equal": null,
+    "independent_original41810_value_comparison_performed": false,
+    "native_execution_or_historical_meaning_proven": false,
+    "network_or_game_or_Computer_Use": false,
+    "replay_or_sync_written": false,
+    "full_upgrade_complete": false
+  },
+  "first_independent_old_protocol_difference": {
+    "format": "original41810-first-native-game-profile-boundary-v1",
+    "source_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+    "source_unchanged": true,
+    "old_protocol_sha256": "879d228d9d8acd21d63563538dd15841aaf49259ee0bb468b8a46b6a4ef866fd",
+    "old_protocol_git_commit": "9af3ea7150f1a8acb53464c92519a9bbcc7a3594",
+    "prior_frames_with_equal_values_and_bit_spans": 22,
+    "first_difference": {
+      "zero_based_event_index": 22,
+      "original41810_event_ID": 28,
+      "original41810_upstream_name": "NNet.Game.SSelectionDeltaEvent",
+      "native_model_event_ID": 28,
+      "original_start_bit": 4312,
+      "native_start_bit": 4312,
+      "original_payload_end_bit": 4438,
+      "native_payload_end_bit": 4387,
+      "original_aligned_end_bit": 4440,
+      "native_aligned_end_bit": 4392,
+      "payload_logical_values_equal": false
+    },
+    "native_root": 303,
+    "physical_graph_differences_vs_old_protocol": [
+      {
+        "path": [
+          1,
+          1,
+          1,
+          0,
+          2
+        ],
+        "native": 5,
+        "old": 9
+      },
+      {
+        "path": [
+          1,
+          1,
+          1,
+          1,
+          3,
+          1,
+          1,
+          2
+        ],
+        "native": 6,
+        "old": 9
+      },
+      {
+        "path": [
+          1,
+          1,
+          1,
+          1,
+          3,
+          2,
+          1,
+          2
+        ],
+        "native": 6,
+        "old": 9
+      },
+      {
+        "path": [
+          1,
+          1,
+          1,
+          1,
+          3,
+          2,
+          1,
+          3,
+          2
+        ],
+        "native": 5,
+        "old": 9
+      },
+      {
+        "path": [
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          2
+        ],
+        "native": 6,
+        "old": 9
+      },
+      {
+        "path": [
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          3,
+          2
+        ],
+        "native": 5,
+        "old": 9
+      },
+      {
+        "path": [
+          1,
+          1,
+          1,
+          2,
+          2
+        ],
+        "native": 6,
+        "old": 9
+      },
+      {
+        "path": [
+          1,
+          1,
+          1,
+          2,
+          3,
+          1,
+          3,
+          2
+        ],
+        "native": 6,
+        "old": 9
+      },
+      {
+        "path": [
+          1,
+          1,
+          1,
+          3,
+          2
+        ],
+        "native": 6,
+        "old": 9
+      }
+    ],
+    "direct_original_stop_is_not_proof_of_a_real_unbound_original_event": true,
+    "historical_semantics_or_current_playback_proven": false,
+    "raw_values_saved": false,
+    "network_or_game_or_Computer_Use": false,
+    "full_upgrade_complete": false
+  },
+  "note": "The unsupported ID after23 model frames follows the first already-misaligned SelectionDelta payload. It is not evidence that an authentic old event ID is unbound.",
+  "full_upgrade_complete": false
+}

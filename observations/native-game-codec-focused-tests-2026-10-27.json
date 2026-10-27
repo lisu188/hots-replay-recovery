@@ -1,0 +1,23 @@
+{
+  "format": "native-game-events-observed22-focused-tests-v1",
+  "passed": true,
+  "tests": 16,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "seconds": 0.078,
+  "test_module": "test_native_game_events",
+  "file_SHA256": {
+    "native_game_events.py": "72adceefb23a9f78b467eba9ec9d4b8fa655bae94d61e7ee753b15498876fd23",
+    "native_game_events_schema_98348.json": "bbb2ca6a0c1511a6756cf0f5ab9d0309f4b8b6cdf397963d020390f549082895",
+    "test_native_game_events.py": "d276fc6e494e45c13d9bd37fcf4ae95589af27a6a2465449a6b8644869bae7c6",
+    "_native_setup_string.py": "56087d34ad3569cb20a01d1831e15697432840d22c2a008c83a267bd65dcea69"
+  },
+  "edited_current_EU_CI_python_block_parses": true,
+  "git_diff_check_passed": true,
+  "full_local_regression_corpus_run": false,
+  "hosted_CI_run": false,
+  "independent_peer_review": false,
+  "network_or_game_or_Computer_Use": false,
+  "full_upgrade_complete": false
+}

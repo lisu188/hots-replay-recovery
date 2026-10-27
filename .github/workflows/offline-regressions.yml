@@ -244,6 +244,7 @@ jobs:
           try:
               details = p.decode_replay_details(archive.read_file('replay.details'))
               setup_raw = archive.read_file('replay.initData')
+              game_raw = archive.read_file('replay.game.events')
               initial = p.decode_replay_initdata(setup_raw)
               raw = archive.read_file('replay.server.battlelobby')
           finally:
@@ -258,6 +259,20 @@ jobs:
           assert setup_nodes == 83907
           write_json('work/current-native-setup.json', {'format': 'current-native-setup775-CI-v1', 'replay_sha256': profile['file_sha256'], 'native_setup': setup.summary(), 'official_value_nodes_compared': setup_nodes, 'canonical_value_serialization_equals_whole_source': True, 'source_preserving_reencoding_equals_whole_source': True, 'client_launched': False, 'replay_modified': False, 'simulation_or_historical_conversion_proven': False})
           print({'native_setup_type': 775, 'native_setup_bytes': 111953, 'official_value_nodes_compared': setup_nodes, 'whole_source_and_canonical_value_write_exact': True})
+          from collections import Counter
+          from hashlib import sha256
+          from native_game_events import iter_game_events, encode_game_events
+          assert len(game_raw) == 1916341 and sha256(game_raw).hexdigest() == 'c7fba3ffbae7cf8ce1c348d0478f8e5cb81b2e3991791e21a793638cf058a52d'
+          game_counts = Counter()
+          def native_game_values():
+              for decoded in iter_game_events(game_raw):
+                  game_counts[decoded.event.event_id] += 1
+                  yield decoded.event
+          assert encode_game_events(native_game_values()) == game_raw
+          assert sum(game_counts.values()) == 144708 and len(game_counts) == 20
+          assert game_counts[27] == 26899 and game_counts[104] == 53877
+          write_json('work/current-native-game-events.json', {'format': 'current-native-game-events-observed22-CI-v1', 'replay_sha256': profile['file_sha256'], 'member_sha256': sha256(game_raw).hexdigest(), 'member_bytes': len(game_raw), 'events': sum(game_counts.values()), 'counts_by_ID': dict(sorted(game_counts.items())), 'canonical_value_serialization_equals_whole_source': True, 'native_side_upstream_payload_fallback': False, 'client_launched': False, 'replay_modified': False, 'simulation_or_historical_conversion_proven': False})
+          print({'native_game_events': 144708, 'native_payload_IDs_observed': 20, 'whole_game_member_value_write_exact': True})
           assert {player['m_toon']['m_region'] for player in details['m_playerList']} == {2}
           mods = audit_member(raw, 'observed-11', 'current-observed')
           tail = decode_tail(raw, mods['terminal_handles_end_bit'], 'current-tail')

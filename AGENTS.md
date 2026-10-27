@@ -1049,3 +1049,31 @@ the prepared launcher unused and preserve the dirty drafts. Original/R8 remain
 unchanged; full upgrade and playback remain false. Next offline boundary is
 binding the other observed payload cases and native bit-reader behavior, not
 guessing historical state, catalogs, ownership or missing player fields.
+
+## Native observed game-stream value codec — 2026-10-27
+
+Read docs/NATIVE_GAME_EVENTS_CODEC_2026-10-27.md and the five dated native-game
+codec receipts. New native_game_events.py supports exactly22 observed payload
+IDs through a pinned191-type closure, with no upstream fallback. All44 selected
+vmethods/1892B/440instructions bind matching read/write roots; ten leaf ctors add
+611B/150instructions. STRING +2/max*4 and sequence-count rules come from pinned
+same-context evidence. Full90-payload support and runtime objects are unproved.
+
+The complete R8/current game members compare248965events and4445854native nodes
+with pinned upstream values/bit spans and reproduce everybyte from typed values.
+All11supported kinds occur. A current-control synthetic RAM-only ID110 edit
+changes onebit; independent upstream comparison preserves all other144708event
+values/positions.16 focused tests pass. The current-control CI gate was extended
+but has not run; no full local corpus or peer-review claim. Encoding canonicalizes
+delta tags/padding and is not a generic source-preserving API.
+
+Original41810 game member is NOT R8's member. Independent old-protocol comparison
+first differs at zero-based event22/ID28 SelectionDelta, start4312bits, old end
+4438/aligned4440 versus native-model4387/aligned4392. First22frames agree. A later
+unbound-ID stop is misalignment, not an authentic old-ID binding result. Do not
+claim that the unmodified original passed or infer historical semantic fidelity.
+
+This supersedes the previous non-command-payload fallback limitation for these
+two whole members only. Original/R8/control, sync data and unused launcher drafts
+remain untouched. Keep all work offline: no game, Computer Use, network or remote
+publication. Full upgrade/playback remain unproved; do not guess missing state.

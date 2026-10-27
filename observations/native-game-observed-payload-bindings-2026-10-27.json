@@ -1,0 +1,891 @@
+{
+  "format": "native-observed-game-payload-root-bindings-v1",
+  "source_PE_sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+  "transformed_text_sha256": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83",
+  "context_VA": "0x14393eb80",
+  "bindings": [
+    {
+      "event_id": 5,
+      "dispatch_case_rva": "0x13527b4",
+      "constructor": "inline",
+      "primary_lea_rva": "0x13527e0",
+      "primary_store_rva": "0x13527e7",
+      "primary_vptr_rva": "0x27bbc20",
+      "native_root": 243,
+      "official96477_name": "NNet.Game.SUserFinishedLoadingSyncEvent",
+      "official96477_type": 80,
+      "methods": [
+        {
+          "slot": "0x20",
+          "entry_rva": "0x13262f0",
+          "end_exclusive_rva": "0x132631b",
+          "bytes": 43,
+          "instructions": 10,
+          "sha256": "c957386973d83a63d7a95c7808deb3bb03d106f7c110ae85771275a819ea63dd",
+          "root_slot_rva": "0x27c9fe0",
+          "native_root": 243,
+          "helper_rva": "0x1a6f5e0"
+        },
+        {
+          "slot": "0x28",
+          "entry_rva": "0x1325a10",
+          "end_exclusive_rva": "0x1325a3b",
+          "bytes": 43,
+          "instructions": 10,
+          "sha256": "ed1ed99eec6be260329f184f827eabfec170b01901022510ba54eef580d3fd14",
+          "root_slot_rva": "0x27c9fe0",
+          "native_root": 243,
+          "helper_rva": "0x1a713d0"
+        }
+      ],
+      "physical_graph_equal_with_authenticated_STRING_and_BIT_ARRAY_rules": true
+    },
+    {
+      "event_id": 7,
+      "dispatch_case_rva": "0x13526b9",
+      "constructor": "inline",
+      "primary_lea_rva": "0x1352703",
+      "primary_store_rva": "0x135270a",
+      "primary_vptr_rva": "0x271e5b8",
+      "native_root": 225,
+      "official96477_name": "NNet.Game.SUserOptionsEvent",
+      "official96477_type": 79,
+      "methods": [
+        {
+          "slot": "0x20",
+          "entry_rva": "0xe0e2a0",
+          "end_exclusive_rva": "0xe0e2cb",
+          "bytes": 43,
+          "instructions": 10,
+          "sha256": "4fa6e1d8128f80c2b6122f1971ea9075097f36b5b7ee802fe14aa1ca8cf21b03",
+          "root_slot_rva": "0x27c9fd4",
+          "native_root": 225,
+          "helper_rva": "0x1a6f5e0"
+        },
+        {
+          "slot": "0x28",
+          "entry_rva": "0xe0e060",
+          "end_exclusive_rva": "0xe0e08b",
+          "bytes": 43,
+          "instructions": 10,
+          "sha256": "6f33ee546daa6054a48480e43749781913543872cdac1e614119788b7dec1a95",
+          "root_slot_rva": "0x27c9fd4",
+          "native_root": 225,
+          "helper_rva": "0x1a713d0"
+        }
+      ],
+      "physical_graph_equal_with_authenticated_STRING_and_BIT_ARRAY_rules": true
+    },
+    {
+      "event_id": 27,
+      "dispatch_case_rva": "0x1352c91",
+      "constructor": "inline",
+      "primary_lea_rva": "0x1352cd8",
+      "primary_store_rva": "0x1352cdf",
+      "primary_vptr_rva": "0x2657c78",
+      "native_root": 291,
+      "official96477_name": "NNet.Game.SCmdEvent",
+      "official96477_type": 100,
+      "methods": [
+        {
+          "slot": "0x20",
+          "entry_rva": "0x6d2240",
+          "end_exclusive_rva": "0x6d226b",
+          "bytes": 43,
+          "instructions": 10,
+          "sha256": "a6e4c0947613057fc2b805d1814e5797367aa1963f4b95c5523cf4ab141f3e3b",
+          "root_slot_rva": "0x27beb78",
+          "native_root": 291,
+          "helper_rva": "0x1a6f5e0"
+        },
+        {
+          "slot": "0x28",
+          "entry_rva": "0x6d20d0",
+          "end_exclusive_rva": "0x6d20fb",
+          "bytes": 43,
+          "instructions": 10,
+          "sha256": "118cdb9121a7406b1e91b9a6226cfcdc6f1e1c7845c387fff6c1e5ff440f6d00",
+          "root_slot_rva": "0x27beb78",
+          "native_root": 291,
+          "helper_rva": "0x1a713d0"
+        }
+      ],
+      "physical_graph_equal_with_authenticated_STRING_and_BIT_ARRAY_rules": true
+    },
+    {
+      "event_id": 28,
+      "dispatch_case_rva": "0x1352cf2",
+      "constructor": "inline",
+      "primary_lea_rva": "0x1352d3a",
+      "primary_store_rva": "0x1352d41",
+      "primary_vptr_rva": "0x26643a0",
+      "native_root": 303,
+      "official96477_name": "NNet.Game.SSelectionDeltaEvent",
+      "official96477_type": 107,
+      "methods": [
+        {
+          "slot": "0x20",
+          "entry_rva": "0x75c860",
+          "end_exclusive_rva": "0x75c88b",
+          "bytes": 43,
+          "instructions": 10,
+          "sha256": "2614e4cce6c2e19febe4ab11afc89dc9b9ef415dbccb4525f0be71a3b5c43b15",
+          "root_slot_rva": "0x27beb7c",
+          "native_root": 303,
+          "helper_rva": "0x1a6f5e0"
+        },
+        {
+          "slot": "0x28",
+          "entry_rva": "0x75c730",
+          "end_exclusive_rva": "0x75c75b",
+          "bytes": 43,
+          "instructions": 10,
+          "sha256": "6ed5444ebf681ca81ac0e7e4db4bba329b55430877d7933cc81918d446a82add",
+          "root_slot_rva": "0x27beb7c",
+          "native_root": 303,
+          "helper_rva": "0x1a713d0"
+        }
+      ],
+      "physical_graph_equal_with_authenticated_STRING_and_BIT_ARRAY_rules": true
+    },
+    {
+      "event_id": 32,
+      "dispatch_case_rva": "0x1352e06",
+      "constructor": "inline",
+      "primary_lea_rva": "0x1352e41",
+      "primary_store_rva": "0x1352e48",
+      "primary_vptr_rva": "0x2665370",
+      "native_root": 349,
+      "official96477_name": "NNet.Game.STriggerChatMessageEvent",
+      "official96477_type": 111,
+      "methods": [
+        {
+          "slot": "0x20",
+          "entry_rva": "0x779130",
+          "end_exclusive_rva": "0x77915b",
+          "bytes": 43,
+          "instructions": 10,
+          "sha256": "92553bf80c8d5d00d173f23981491d7f77d4ab13d4192fd1335ea1c447c3e1ff",
+          "root_slot_rva": "0x27beb88",
+          "native_root": 349,
+          "helper_rva": "0x1a6f5e0"
+        },
+        {
+          "slot": "0x28",
+          "entry_rva": "0x778ec0",
+          "end_exclusive_rva": "0x778eeb",
+          "bytes": 43,
+          "instructions": 10,
+          "sha256": "a1eb9e47b8fadc72dd712c11ecda36b19ed3a89d94331b2e0fa3ed4e117c0ff7",
+          "root_slot_rva": "0x27beb88",
+          "native_root": 349,
+          "helper_rva": "0x1a713d0"
+        }
+      ],
+      "physical_graph_equal_with_authenticated_STRING_and_BIT_ARRAY_rules": true
+    },
+    {
+      "event_id": 36,
+      "dispatch_case_rva": "0x1352f42",
+      "constructor": "inline",
+      "primary_lea_rva": "0x1352f7d",
+      "primary_store_rva": "0x1352f84",
+      "primary_vptr_rva": "0x2665410",
+      "native_root": 360,
+      "official96477_name": "NNet.Game.STriggerPingEvent",
+      "official96477_type": 117,
+      "methods": [
+        {
+          "slot": "0x20",
+          "entry_rva": "0x7791f0",
+          "end_exclusive_rva": "0x77921b",
+          "bytes": 43,
+          "instructions": 10,
+          "sha256": "09e7007f627ed867a8d404ff4668f3fa416b1b2334ad12c3bbc95371623540db",
+          "root_slot_rva": "0x27beb98",
+          "native_root": 360,
+          "helper_rva": "0x1a6f5e0"
+        },
+        {
+          "slot": "0x28",
+          "entry_rva": "0x778ef0",
+          "end_exclusive_rva": "0x778f1b",
+          "bytes": 43,
+          "instructions": 10,
+          "sha256": "9d17b78065d620e6367ebba3bd0d491c080bf1410f33d887c17bd8d6913f2b59",
+          "root_slot_rva": "0x27beb98",
+          "native_root": 360,
+          "helper_rva": "0x1a713d0"
+        }
+      ],
+      "physical_graph_equal_with_authenticated_STRING_and_BIT_ARRAY_rules": true
+    },
+    {
+      "event_id": 39,
+      "dispatch_case_rva": "0x135304e",
+      "constructor": "inline",
+      "primary_lea_rva": "0x135307b",
+      "primary_store_rva": "0x1353082",
+      "primary_vptr_rva": "0x2663ad8",
+      "native_root": 374,
+      "official96477_name": "NNet.Game.SUnitClickEvent",
+      "official96477_type": 120,
+      "methods": [
+        {
+          "slot": "0x20",
+          "entry_rva": "0x7481d0",
+          "end_exclusive_rva": "0x7481fb",
+          "bytes": 43,
+          "instructions": 10,
+          "sha256": "89c1c275ebae481335d2dcc926b043ba6247fc81af74f367058cd805da67513c",
+          "root_slot_rva": "0x27beba4",
+          "native_root": 374,
+          "helper_rva": "0x1a6f5e0"
+        },
+        {
+          "slot": "0x28",
+          "entry_rva": "0x7480a0",
+          "end_exclusive_rva": "0x7480cb",
+          "bytes": 43,
+          "instructions": 10,
+          "sha256": "9362ef96e92fda670eb7b63995dd105a6573394d21830853b989af0b7a6a56f9",
+          "root_slot_rva": "0x27beba4",
+          "native_root": 374,
+          "helper_rva": "0x1a713d0"
+        }
+      ],
+      "physical_graph_equal_with_authenticated_STRING_and_BIT_ARRAY_rules": true
+    },
+    {
+      "event_id": 46,
+      "dispatch_case_rva": "0x1353457",
+      "constructor": "inline",
+      "primary_lea_rva": "0x1353484",
+      "primary_store_rva": "0x135348b",
+      "primary_vptr_rva": "0x2665950",
+      "native_root": 441,
+      "official96477_name": "NNet.Game.STriggerSoundOffsetEvent",
+      "official96477_type": 138,
+      "methods": [
+        {
+          "slot": "0x20",
+          "entry_rva": "0x77aae0",
+          "end_exclusive_rva": "0x77ab0b",
+          "bytes": 43,
+          "instructions": 10,
+          "sha256": "f28a805c8c6e3d6034ebebe5abd53fbf969c470158a7ee090468298bc930c380",
+          "root_slot_rva": "0x27bebd8",
+          "native_root": 441,
+          "helper_rva": "0x1a6f5e0"
+        },
+        {
+          "slot": "0x28",
+          "entry_rva": "0x77a8c0",
+          "end_exclusive_rva": "0x77a8eb",
+          "bytes": 43,
+          "instructions": 10,
+          "sha256": "9ae2faebb4471fde7edebfd691fa90c413709552177aebfedf15d630c077bdbc",
+          "root_slot_rva": "0x27bebd8",
+          "native_root": 441,
+          "helper_rva": "0x1a713d0"
+        }
+      ],
+      "physical_graph_equal_with_authenticated_STRING_and_BIT_ARRAY_rules": true
+    },
+    {
+      "event_id": 47,
+      "dispatch_case_rva": "0x13534a2",
+      "constructor": "inline",
+      "primary_lea_rva": "0x13534d6",
+      "primary_store_rva": "0x13534dd",
+      "primary_vptr_rva": "0x26a63e0",
+      "native_root": 444,
+      "official96477_name": "NNet.Game.STriggerTransmissionOffsetEvent",
+      "official96477_type": 139,
+      "methods": [
+        {
+          "slot": "0x20",
+          "entry_rva": "0x942f70",
+          "end_exclusive_rva": "0x942f9b",
+          "bytes": 43,
+          "instructions": 10,
+          "sha256": "392a529b3e86f1f1592167055fe9c653549ee3170d498b2194cc79a715256f82",
+          "root_slot_rva": "0x27bebdc",
+          "native_root": 444,
+          "helper_rva": "0x1a6f5e0"
+        },
+        {
+          "slot": "0x28",
+          "entry_rva": "0x942e40",
+          "end_exclusive_rva": "0x942e6b",
+          "bytes": 43,
+          "instructions": 10,
+          "sha256": "e37f3a9551700874872e7a53d66f1079966cf54b9bda5dc9b56f9be0022ce933",
+          "root_slot_rva": "0x27bebdc",
+          "native_root": 444,
+          "helper_rva": "0x1a713d0"
+        }
+      ],
+      "physical_graph_equal_with_authenticated_STRING_and_BIT_ARRAY_rules": true
+    },
+    {
+      "event_id": 48,
+      "dispatch_case_rva": "0x13534f0",
+      "constructor": "inline",
+      "primary_lea_rva": "0x135351d",
+      "primary_store_rva": "0x1353524",
+      "primary_vptr_rva": "0x26a6480",
+      "native_root": 448,
+      "official96477_name": "NNet.Game.STriggerTransmissionCompleteEvent",
+      "official96477_type": 140,
+      "methods": [
+        {
+          "slot": "0x20",
+          "entry_rva": "0x942eb0",
+          "end_exclusive_rva": "0x942edb",
+          "bytes": 43,
+          "instructions": 10,
+          "sha256": "6669d705f2c80544311a46f4086aa48d887c063babe59db1d48e118c96800310",
+          "root_slot_rva": "0x27bebe0",
+          "native_root": 448,
+          "helper_rva": "0x1a6f5e0"
+        },
+        {
+          "slot": "0x28",
+          "entry_rva": "0x942e10",
+          "end_exclusive_rva": "0x942e3b",
+          "bytes": 43,
+          "instructions": 10,
+          "sha256": "fc5f256ebc4f8d2a0d11246e57b2aa709086e5df3eb190a573a18eb9f319927d",
+          "root_slot_rva": "0x27bebe0",
+          "native_root": 448,
+          "helper_rva": "0x1a713d0"
+        }
+      ],
+      "physical_graph_equal_with_authenticated_STRING_and_BIT_ARRAY_rules": true
+    },
+    {
+      "event_id": 49,
+      "dispatch_case_rva": "0x135353b",
+      "constructor": "0x13511b0",
+      "primary_lea_rva": "0x13511df",
+      "primary_store_rva": "0x13511e6",
+      "primary_vptr_rva": "0x26572c8",
+      "native_root": 450,
+      "official96477_name": "NNet.Game.SCameraUpdateEvent",
+      "official96477_type": 144,
+      "methods": [
+        {
+          "slot": "0x20",
+          "entry_rva": "0x6be710",
+          "end_exclusive_rva": "0x6be73b",
+          "bytes": 43,
+          "instructions": 10,
+          "sha256": "522a5030a3764c69f8c6f1585cd5e299828bd8410b80624232028cfee0a337b7",
+          "root_slot_rva": "0x27bebe4",
+          "native_root": 450,
+          "helper_rva": "0x1a6f5e0"
+        },
+        {
+          "slot": "0x28",
+          "entry_rva": "0x6bd880",
+          "end_exclusive_rva": "0x6bd8ab",
+          "bytes": 43,
+          "instructions": 10,
+          "sha256": "d5fb9e271521497ca706fb4e451befb5b880e4345c2861506be3b8727118c678",
+          "root_slot_rva": "0x27bebe4",
+          "native_root": 450,
+          "helper_rva": "0x1a713d0"
+        }
+      ],
+      "physical_graph_equal_with_authenticated_STRING_and_BIT_ARRAY_rules": true
+    },
+    {
+      "event_id": 55,
+      "dispatch_case_rva": "0x1353224",
+      "constructor": "inline",
+      "primary_lea_rva": "0x1353258",
+      "primary_store_rva": "0x1353266",
+      "primary_vptr_rva": "0x267eae8",
+      "native_root": 409,
+      "official96477_name": "NNet.Game.STriggerDialogControlEvent",
+      "official96477_type": 130,
+      "methods": [
+        {
+          "slot": "0x20",
+          "entry_rva": "0x86b9a0",
+          "end_exclusive_rva": "0x86b9cb",
+          "bytes": 43,
+          "instructions": 10,
+          "sha256": "4590370ed81c0d77d6c19159383aa6f5148d06926da9fe7f6209e64bde0541b5",
+          "root_slot_rva": "0x27bebbc",
+          "native_root": 409,
+          "helper_rva": "0x1a6f5e0"
+        },
+        {
+          "slot": "0x28",
+          "entry_rva": "0x86b930",
+          "end_exclusive_rva": "0x86b95b",
+          "bytes": 43,
+          "instructions": 10,
+          "sha256": "c59d5fd99767f544500233246c5d6006aa1d33c9bf941b75e901327f52d8b8c5",
+          "root_slot_rva": "0x27bebbc",
+          "native_root": 409,
+          "helper_rva": "0x1a713d0"
+        }
+      ],
+      "physical_graph_equal_with_authenticated_STRING_and_BIT_ARRAY_rules": true
+    },
+    {
+      "event_id": 56,
+      "dispatch_case_rva": "0x1353311",
+      "constructor": "inline",
+      "primary_lea_rva": "0x135334c",
+      "primary_store_rva": "0x1353353",
+      "primary_vptr_rva": "0x26658b0",
+      "native_root": 425,
+      "official96477_name": "NNet.Game.STriggerSoundLengthSyncEvent",
+      "official96477_type": 134,
+      "methods": [
+        {
+          "slot": "0x20",
+          "entry_rva": "0x77aa20",
+          "end_exclusive_rva": "0x77aa4b",
+          "bytes": 43,
+          "instructions": 10,
+          "sha256": "0891799cad2ec56c0c7db8c5acff3ac91233608d7cb13e65a2a0b1045110b31e",
+          "root_slot_rva": "0x27bebc8",
+          "native_root": 425,
+          "helper_rva": "0x1a6f5e0"
+        },
+        {
+          "slot": "0x28",
+          "entry_rva": "0x77a890",
+          "end_exclusive_rva": "0x77a8bb",
+          "bytes": 43,
+          "instructions": 10,
+          "sha256": "29b6d73647b346f8c2bd9731600e89b65257a959edd5036475caf619340a14d1",
+          "root_slot_rva": "0x27bebc8",
+          "native_root": 425,
+          "helper_rva": "0x1a713d0"
+        }
+      ],
+      "physical_graph_equal_with_authenticated_STRING_and_BIT_ARRAY_rules": true
+    },
+    {
+      "event_id": 62,
+      "dispatch_case_rva": "0x1353682",
+      "constructor": "0x1351a80",
+      "primary_lea_rva": "0x1351a9a",
+      "primary_store_rva": "0x1351aa1",
+      "primary_vptr_rva": "0x2666158",
+      "native_root": 486,
+      "official96477_name": "NNet.Game.STriggerTargetModeUpdateEvent",
+      "official96477_type": 152,
+      "methods": [
+        {
+          "slot": "0x20",
+          "entry_rva": "0x77d5e0",
+          "end_exclusive_rva": "0x77d60b",
+          "bytes": 43,
+          "instructions": 10,
+          "sha256": "51cb0eef59ba91f6d6c450abed8b522db4bef52bccd8b457942b84555f0e7aa4",
+          "root_slot_rva": "0x27bebfc",
+          "native_root": 486,
+          "helper_rva": "0x1a6f5e0"
+        },
+        {
+          "slot": "0x28",
+          "entry_rva": "0x77cbb0",
+          "end_exclusive_rva": "0x77cbdb",
+          "bytes": 43,
+          "instructions": 10,
+          "sha256": "1d1785ec0fbbb930a4953dcdcbbea04aa72e2db1fd1bb4037884a9331a855da2",
+          "root_slot_rva": "0x27bebfc",
+          "native_root": 486,
+          "helper_rva": "0x1a713d0"
+        }
+      ],
+      "physical_graph_equal_with_authenticated_STRING_and_BIT_ARRAY_rules": true
+    },
+    {
+      "event_id": 64,
+      "dispatch_case_rva": "0x13536a2",
+      "constructor": "0x1351a40",
+      "primary_lea_rva": "0x1351a5a",
+      "primary_store_rva": "0x1351a61",
+      "primary_vptr_rva": "0x26659f0",
+      "native_root": 490,
+      "official96477_name": "NNet.Game.STriggerSoundtrackDoneEvent",
+      "official96477_type": 153,
+      "methods": [
+        {
+          "slot": "0x20",
+          "entry_rva": "0x77aba0",
+          "end_exclusive_rva": "0x77abcb",
+          "bytes": 43,
+          "instructions": 10,
+          "sha256": "a6b8591627d4893f00c0f45c4e84a21165763255ef362c75f04374b6e50c35d8",
+          "root_slot_rva": "0x27bec00",
+          "native_root": 490,
+          "helper_rva": "0x1a6f5e0"
+        },
+        {
+          "slot": "0x28",
+          "entry_rva": "0x77a8f0",
+          "end_exclusive_rva": "0x77a91b",
+          "bytes": 43,
+          "instructions": 10,
+          "sha256": "3c99080f4184455c4f6306eee33a7405b5d913952bbf9819949a4ddf24958927",
+          "root_slot_rva": "0x27bec00",
+          "native_root": 490,
+          "helper_rva": "0x1a713d0"
+        }
+      ],
+      "physical_graph_equal_with_authenticated_STRING_and_BIT_ARRAY_rules": true
+    },
+    {
+      "event_id": 66,
+      "dispatch_case_rva": "0x13536c2",
+      "constructor": "0x13517e0",
+      "primary_lea_rva": "0x1351801",
+      "primary_store_rva": "0x1351808",
+      "primary_vptr_rva": "0x26661f8",
+      "native_root": 492,
+      "official96477_name": "NNet.Game.STriggerKeyPressedEvent",
+      "official96477_type": 154,
+      "methods": [
+        {
+          "slot": "0x20",
+          "entry_rva": "0x77d220",
+          "end_exclusive_rva": "0x77d24b",
+          "bytes": 43,
+          "instructions": 10,
+          "sha256": "7b3357e41c7505264a95d0e0d421cf56d563d40890cfa69a20fdf8e663bbeac3",
+          "root_slot_rva": "0x27bec04",
+          "native_root": 492,
+          "helper_rva": "0x1a6f5e0"
+        },
+        {
+          "slot": "0x28",
+          "entry_rva": "0x77cac0",
+          "end_exclusive_rva": "0x77caeb",
+          "bytes": 43,
+          "instructions": 10,
+          "sha256": "257a9133e04e6ca4140e9d9d8e5683ebc50381579c11d54eb097ef4834182c21",
+          "root_slot_rva": "0x27bec04",
+          "native_root": 492,
+          "helper_rva": "0x1a713d0"
+        }
+      ],
+      "physical_graph_equal_with_authenticated_STRING_and_BIT_ARRAY_rules": true
+    },
+    {
+      "event_id": 98,
+      "dispatch_case_rva": "0x1353862",
+      "constructor": "0x1351720",
+      "primary_lea_rva": "0x135173a",
+      "primary_store_rva": "0x1351741",
+      "primary_vptr_rva": "0x27be718",
+      "native_root": 523,
+      "official96477_name": "NNet.Game.STriggerCutsceneEndSceneFiredEvent",
+      "official96477_type": 166,
+      "methods": [
+        {
+          "slot": "0x20",
+          "entry_rva": "0x1354710",
+          "end_exclusive_rva": "0x135473b",
+          "bytes": 43,
+          "instructions": 10,
+          "sha256": "a1b2bf75379bd2e83ad18a952260a7026ab96a945a6c658b692ab56dafad5c60",
+          "root_slot_rva": "0x27bec38",
+          "native_root": 523,
+          "helper_rva": "0x1a6f5e0"
+        },
+        {
+          "slot": "0x28",
+          "entry_rva": "0x13522f0",
+          "end_exclusive_rva": "0x135231b",
+          "bytes": 43,
+          "instructions": 10,
+          "sha256": "e1ccba7cf910378f7c0daf848204b4e55581b5528cd2c77b576491cc9805acff",
+          "root_slot_rva": "0x27bec38",
+          "native_root": 523,
+          "helper_rva": "0x1a713d0"
+        }
+      ],
+      "physical_graph_equal_with_authenticated_STRING_and_BIT_ARRAY_rules": true
+    },
+    {
+      "event_id": 101,
+      "dispatch_case_rva": "0x13538c2",
+      "constructor": "0x1351420",
+      "primary_lea_rva": "0x135143a",
+      "primary_store_rva": "0x1351441",
+      "primary_vptr_rva": "0x27bbd60",
+      "native_root": 532,
+      "official96477_name": "NNet.Game.SGameUserLeaveEvent",
+      "official96477_type": 169,
+      "methods": [
+        {
+          "slot": "0x20",
+          "entry_rva": "0x1326170",
+          "end_exclusive_rva": "0x132619b",
+          "bytes": 43,
+          "instructions": 10,
+          "sha256": "18bf876c55b8827dba8c56b4660d0157e0f6ad3ddd97eab0c445cc7c8c7ac66a",
+          "root_slot_rva": "0x27bec44",
+          "native_root": 532,
+          "helper_rva": "0x1a6f5e0"
+        },
+        {
+          "slot": "0x28",
+          "entry_rva": "0x13259b0",
+          "end_exclusive_rva": "0x13259db",
+          "bytes": 43,
+          "instructions": 10,
+          "sha256": "aa609b58306276c50f2ac492e1db1d53ea4a4cb0c1eef12beff57418cd83231c",
+          "root_slot_rva": "0x27bec44",
+          "native_root": 532,
+          "helper_rva": "0x1a713d0"
+        }
+      ],
+      "physical_graph_equal_with_authenticated_STRING_and_BIT_ARRAY_rules": true
+    },
+    {
+      "event_id": 103,
+      "dispatch_case_rva": "0x1353902",
+      "constructor": "0x1351300",
+      "primary_lea_rva": "0x1351321",
+      "primary_store_rva": "0x1351328",
+      "primary_vptr_rva": "0x2657d18",
+      "native_root": 547,
+      "official96477_name": "NNet.Game.SCommandManagerStateEvent",
+      "official96477_type": 172,
+      "methods": [
+        {
+          "slot": "0x20",
+          "entry_rva": "0x6d2540",
+          "end_exclusive_rva": "0x6d256b",
+          "bytes": 43,
+          "instructions": 10,
+          "sha256": "a405a6f218a0b6e2898bf2505fb00e4ec7839c64e4398efe1eff52546c928176",
+          "root_slot_rva": "0x27bec4c",
+          "native_root": 547,
+          "helper_rva": "0x1a6f5e0"
+        },
+        {
+          "slot": "0x28",
+          "entry_rva": "0x6d2190",
+          "end_exclusive_rva": "0x6d21bb",
+          "bytes": 43,
+          "instructions": 10,
+          "sha256": "8a8a6eeb10dd20485647a7cbbf9175ba69dbc9c13092d567175afaab26842be1",
+          "root_slot_rva": "0x27bec4c",
+          "native_root": 547,
+          "helper_rva": "0x1a713d0"
+        }
+      ],
+      "physical_graph_equal_with_authenticated_STRING_and_BIT_ARRAY_rules": true
+    },
+    {
+      "event_id": 104,
+      "dispatch_case_rva": "0x1353922",
+      "constructor": "0x1351260",
+      "primary_lea_rva": "0x1351287",
+      "primary_store_rva": "0x135128e",
+      "primary_vptr_rva": "0x2657db8",
+      "native_root": 551,
+      "official96477_name": "NNet.Game.SCmdUpdateTargetPointEvent",
+      "official96477_type": 173,
+      "methods": [
+        {
+          "slot": "0x20",
+          "entry_rva": "0x6d2300",
+          "end_exclusive_rva": "0x6d232b",
+          "bytes": 43,
+          "instructions": 10,
+          "sha256": "c4ead209642865d8cf2dddf42973d43bf6acc8236417d75c6b5c5db962192464",
+          "root_slot_rva": "0x27bec50",
+          "native_root": 551,
+          "helper_rva": "0x1a6f5e0"
+        },
+        {
+          "slot": "0x28",
+          "entry_rva": "0x6d2100",
+          "end_exclusive_rva": "0x6d212b",
+          "bytes": 43,
+          "instructions": 10,
+          "sha256": "e9aee71d495095c6faee1ee6b27c3ae3941d054f6dfbee62d4087d4885ac5d69",
+          "root_slot_rva": "0x27bec50",
+          "native_root": 551,
+          "helper_rva": "0x1a713d0"
+        }
+      ],
+      "physical_graph_equal_with_authenticated_STRING_and_BIT_ARRAY_rules": true
+    },
+    {
+      "event_id": 105,
+      "dispatch_case_rva": "0x1353942",
+      "constructor": "0x13512a0",
+      "primary_lea_rva": "0x13512db",
+      "primary_store_rva": "0x13512e2",
+      "primary_vptr_rva": "0x2657e58",
+      "native_root": 555,
+      "official96477_name": "NNet.Game.SCmdUpdateTargetUnitEvent",
+      "official96477_type": 174,
+      "methods": [
+        {
+          "slot": "0x20",
+          "entry_rva": "0x6d23c0",
+          "end_exclusive_rva": "0x6d23eb",
+          "bytes": 43,
+          "instructions": 10,
+          "sha256": "71c2f59f30b213fc5eb9a02f774e625064aa01b3f7497e032b8f899995032d6e",
+          "root_slot_rva": "0x27bec54",
+          "native_root": 555,
+          "helper_rva": "0x1a6f5e0"
+        },
+        {
+          "slot": "0x28",
+          "entry_rva": "0x6d2130",
+          "end_exclusive_rva": "0x6d215b",
+          "bytes": 43,
+          "instructions": 10,
+          "sha256": "3972b188bc1c11a4eac88d023dddea09e17fc60bb79508820bb423531377deff",
+          "root_slot_rva": "0x27bec54",
+          "native_root": 555,
+          "helper_rva": "0x1a713d0"
+        }
+      ],
+      "physical_graph_equal_with_authenticated_STRING_and_BIT_ARRAY_rules": true
+    },
+    {
+      "event_id": 110,
+      "dispatch_case_rva": "0x1353982",
+      "constructor": "0x1351460",
+      "primary_lea_rva": "0x135147a",
+      "primary_store_rva": "0x1351481",
+      "primary_vptr_rva": "0x26a77d0",
+      "native_root": 564,
+      "official96477_name": "NNet.Game.SHeroTalentTreeSelectedEvent",
+      "official96477_type": 176,
+      "methods": [
+        {
+          "slot": "0x20",
+          "entry_rva": "0x94b300",
+          "end_exclusive_rva": "0x94b32b",
+          "bytes": 43,
+          "instructions": 10,
+          "sha256": "638d6fcbb0ced37538e2bbc3331c61c5933c0d539f3f11080a293ec15da9d87c",
+          "root_slot_rva": "0x27bec5c",
+          "native_root": 564,
+          "helper_rva": "0x1a6f5e0"
+        },
+        {
+          "slot": "0x28",
+          "entry_rva": "0x94b260",
+          "end_exclusive_rva": "0x94b28b",
+          "bytes": 43,
+          "instructions": 10,
+          "sha256": "9a063f13c82f6657735e6d9c51f5e6ea35f3751440e6ba914a6d002b6274cea0",
+          "root_slot_rva": "0x27bec5c",
+          "native_root": 564,
+          "helper_rva": "0x1a713d0"
+        }
+      ],
+      "physical_graph_equal_with_authenticated_STRING_and_BIT_ARRAY_rules": true
+    }
+  ],
+  "total_method_bytes": 1892,
+  "total_method_instructions": 440,
+  "whole_native_bit_reader_proven": false,
+  "runtime_or_historical_semantics_proven": false,
+  "network_or_game_or_Computer_Use": false,
+  "full_upgrade_complete": false,
+  "all_selected_physical_graphs_equal_with_authenticated_STRING_and_BIT_ARRAY_rules": true,
+  "original_uninterpreted_shape_comparison_retained": true,
+  "STRING_rule_source_sha256": "ecf11179d59f5229106f7d8d4213f74173556563522304b7bba6ec33b26a0438",
+  "STRING_rule_scope": "Encoded length width +2, maximum bytes *4, aligned octets. Native sequence and character-count constraints are additional to upstream _blob.",
+  "selected_leaf_constructors": [
+    {
+      "start": "0x13511b0",
+      "end": "0x13511f8",
+      "bytes": 72,
+      "instructions": 19,
+      "sha256": "e48248192fd3ff6dd5e10bdbd973fca7d912a386267de176488a5ae861b32727"
+    },
+    {
+      "start": "0x1351260",
+      "end": "0x13512a0",
+      "bytes": 64,
+      "instructions": 16,
+      "sha256": "62f311e39f2695a5835a2495a5285ac27474886b4b595cede008568122f40f0a"
+    },
+    {
+      "start": "0x13512a0",
+      "end": "0x13512f4",
+      "bytes": 84,
+      "instructions": 22,
+      "sha256": "105b2096b450288578bd4cf96193b47ff10e5884d2b23feb00042dcab47bd8d4"
+    },
+    {
+      "start": "0x1351300",
+      "end": "0x135133a",
+      "bytes": 58,
+      "instructions": 14,
+      "sha256": "77b6be828a387333bfeaa5ac9917a0f43e4c1b76f095068fc44ff6f1ac48bc4b"
+    },
+    {
+      "start": "0x1351420",
+      "end": "0x1351457",
+      "bytes": 55,
+      "instructions": 13,
+      "sha256": "ba062d139463156c53a1f943ae965cbe992086e3af73f72fe2a968954b03c0cb"
+    },
+    {
+      "start": "0x1351460",
+      "end": "0x1351497",
+      "bytes": 55,
+      "instructions": 13,
+      "sha256": "162b2d814d6a239da143a7b4cfddfcda61b781992edb1087a7c09002f3cfc7e2"
+    },
+    {
+      "start": "0x1351720",
+      "end": "0x1351757",
+      "bytes": 55,
+      "instructions": 13,
+      "sha256": "d1c699c22df644cdf19a0832aad0f42506ee942bc52c8ba79378a5bfea5540c0"
+    },
+    {
+      "start": "0x13517e0",
+      "end": "0x135181a",
+      "bytes": 58,
+      "instructions": 14,
+      "sha256": "a048ff19a375863e9152c310a91b6db7924e709f6acb1d0df79cf871c8ea6246"
+    },
+    {
+      "start": "0x1351a40",
+      "end": "0x1351a77",
+      "bytes": 55,
+      "instructions": 13,
+      "sha256": "9432bf307495c0380ea901a1f47196d02076c52165ce2566fb4f58e8aef4bc1e"
+    },
+    {
+      "start": "0x1351a80",
+      "end": "0x1351ab7",
+      "bytes": 55,
+      "instructions": 13,
+      "sha256": "11887a1fcf46e08f2e6e4481ece19b30960e2f621a72c89bd0c5eb2cace908ab"
+    }
+  ],
+  "selected_constructor_bytes": 611,
+  "selected_constructor_instructions": 150,
+  "static_conditions": [
+    "Allocator succeeds and constructed pointer flows to the common virtual payload dispatch.",
+    "Normal calling convention, valid callbacks and initialized metadata context; runtime object identity/lifetimes are unobserved."
+  ],
+  "scope": "22 payload IDs observed across R8/current control; no other payload ID is enabled in the codec.",
+  "ordinary_local_GNU_objdump_used": true,
+  "REA_Evidence_claimed": false
+}

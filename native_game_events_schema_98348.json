@@ -1,0 +1,2975 @@
+{
+  "format": "native-game-events-98348-observed22-profile-v1",
+  "profile": "game-events-98348-observed22",
+  "native_context_VA": "0x14393eb80",
+  "source_program_sha256": "245aba71f1702e6bae480924df478c8479978e54c383dff4757eb40863932b2f",
+  "frame_roots": {
+    "delta": 50,
+    "user_id": 890,
+    "event_id": 138
+  },
+  "payload_roots": {
+    "5": 243,
+    "7": 225,
+    "27": 291,
+    "28": 303,
+    "32": 349,
+    "36": 360,
+    "39": 374,
+    "46": 441,
+    "47": 444,
+    "48": 448,
+    "49": 450,
+    "55": 409,
+    "56": 425,
+    "62": 486,
+    "64": 490,
+    "66": 492,
+    "98": 523,
+    "101": 532,
+    "103": 547,
+    "104": 551,
+    "105": 555,
+    "110": 564
+  },
+  "records": [
+    {
+      "id": 3,
+      "offset": 4805,
+      "bytes": 11,
+      "header": 9,
+      "kind": "INT",
+      "bounds": {
+        "int_type": 5,
+        "variable": true,
+        "bits": 32,
+        "min": 0,
+        "max": 4294967295
+      },
+      "name": null
+    },
+    {
+      "id": 7,
+      "offset": 4829,
+      "bytes": 7,
+      "header": 9,
+      "kind": "INT",
+      "bounds": {
+        "int_type": 3,
+        "variable": true,
+        "bits": 16,
+        "min": 0,
+        "max": 65535
+      },
+      "name": null
+    },
+    {
+      "id": 29,
+      "offset": 4993,
+      "bytes": 5,
+      "header": 9,
+      "kind": "INT",
+      "bounds": {
+        "int_type": 1,
+        "variable": true,
+        "bits": 8,
+        "min": 0,
+        "max": 255
+      },
+      "name": null
+    },
+    {
+      "id": 42,
+      "offset": 5070,
+      "bytes": 5,
+      "header": 9,
+      "kind": "INT",
+      "bounds": {
+        "int_type": 0,
+        "variable": true,
+        "bits": 8,
+        "min": -128,
+        "max": 127
+      },
+      "name": null
+    },
+    {
+      "id": 44,
+      "offset": 5082,
+      "bytes": 11,
+      "header": 9,
+      "kind": "INT",
+      "bounds": {
+        "int_type": 4,
+        "variable": true,
+        "bits": 32,
+        "min": -2147483648,
+        "max": 2147483647
+      },
+      "name": null
+    },
+    {
+      "id": 47,
+      "offset": 5131,
+      "bytes": 5,
+      "header": 9,
+      "kind": "INT",
+      "bounds": {
+        "int_type": 1,
+        "variable": true,
+        "bits": 6,
+        "min": 0,
+        "max": 63
+      },
+      "name": null
+    },
+    {
+      "id": 48,
+      "offset": 5136,
+      "bytes": 7,
+      "header": 9,
+      "kind": "INT",
+      "bounds": {
+        "int_type": 3,
+        "variable": true,
+        "bits": 14,
+        "min": 0,
+        "max": 16383
+      },
+      "name": null
+    },
+    {
+      "id": 49,
+      "offset": 5143,
+      "bytes": 11,
+      "header": 9,
+      "kind": "INT",
+      "bounds": {
+        "int_type": 5,
+        "variable": true,
+        "bits": 22,
+        "min": 0,
+        "max": 4194303
+      },
+      "name": null
+    },
+    {
+      "id": 50,
+      "offset": 5154,
+      "bytes": 21,
+      "header": 134,
+      "kind": "CHOICE",
+      "bounds": {
+        "int_type": 1,
+        "variable": false,
+        "bits": 2,
+        "min": 0,
+        "max": 3
+      },
+      "count": 4,
+      "tags": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "field_types": [
+        51,
+        52,
+        53,
+        54
+      ],
+      "name": null,
+      "field_names": [
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": 51,
+      "offset": 5175,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 47,
+      "name": null
+    },
+    {
+      "id": 52,
+      "offset": 5180,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 48,
+      "name": null
+    },
+    {
+      "id": 53,
+      "offset": 5185,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 49,
+      "name": null
+    },
+    {
+      "id": 54,
+      "offset": 5190,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 3,
+      "name": null
+    },
+    {
+      "id": 115,
+      "offset": 5599,
+      "bytes": 5,
+      "header": 135,
+      "kind": "ENUM",
+      "bounds": {
+        "int_type": 1,
+        "variable": false,
+        "bits": 5,
+        "min": 0,
+        "max": 16
+      },
+      "count": 17,
+      "tags": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "name": null,
+      "field_names": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": 138,
+      "offset": 5740,
+      "bytes": 97,
+      "header": 7,
+      "kind": "ENUM",
+      "bounds": {
+        "int_type": 1,
+        "variable": true,
+        "bits": 7,
+        "min": 0,
+        "max": 115
+      },
+      "count": 90,
+      "tags": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        114,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        64,
+        66,
+        67,
+        76,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        115
+      ],
+      "name": null,
+      "field_names": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": 139,
+      "offset": 5837,
+      "bytes": 17,
+      "header": 142,
+      "kind": "STRUCT",
+      "bounds": {
+        "int_type": 0,
+        "variable": false,
+        "bits": 2,
+        "min": -3,
+        "max": -1
+      },
+      "count": 3,
+      "tags": [
+        -3,
+        -2,
+        -1
+      ],
+      "field_types": [
+        140,
+        141,
+        142
+      ],
+      "name": null,
+      "field_names": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": 140,
+      "offset": 5854,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 143,
+      "name": null
+    },
+    {
+      "id": 141,
+      "offset": 5859,
+      "bytes": 5,
+      "header": 9,
+      "kind": "INT",
+      "bounds": {
+        "int_type": 1,
+        "variable": true,
+        "bits": 5,
+        "min": 0,
+        "max": 31
+      },
+      "name": null
+    },
+    {
+      "id": 142,
+      "offset": 5864,
+      "bytes": 5,
+      "header": 11,
+      "kind": "OPTIONAL",
+      "element_type": 144,
+      "name": null
+    },
+    {
+      "id": 143,
+      "offset": 5869,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 7,
+      "name": null
+    },
+    {
+      "id": 144,
+      "offset": 5874,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 29,
+      "name": null
+    },
+    {
+      "id": 145,
+      "offset": 5879,
+      "bytes": 33,
+      "header": 142,
+      "kind": "STRUCT",
+      "bounds": {
+        "int_type": 0,
+        "variable": false,
+        "bits": 3,
+        "min": -7,
+        "max": -1
+      },
+      "count": 7,
+      "tags": [
+        -7,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1
+      ],
+      "field_types": [
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152
+      ],
+      "name": null,
+      "field_names": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": 146,
+      "offset": 5912,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 7,
+      "name": null
+    },
+    {
+      "id": 147,
+      "offset": 5917,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 29,
+      "name": null
+    },
+    {
+      "id": 148,
+      "offset": 5922,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 153,
+      "name": null
+    },
+    {
+      "id": 149,
+      "offset": 5927,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 154,
+      "name": null
+    },
+    {
+      "id": 150,
+      "offset": 5932,
+      "bytes": 5,
+      "header": 11,
+      "kind": "OPTIONAL",
+      "element_type": 155,
+      "name": null
+    },
+    {
+      "id": 151,
+      "offset": 5937,
+      "bytes": 5,
+      "header": 11,
+      "kind": "OPTIONAL",
+      "element_type": 156,
+      "name": null
+    },
+    {
+      "id": 152,
+      "offset": 5942,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 157,
+      "name": null
+    },
+    {
+      "id": 153,
+      "offset": 5947,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 3,
+      "name": null
+    },
+    {
+      "id": 154,
+      "offset": 5952,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 7,
+      "name": null
+    },
+    {
+      "id": 155,
+      "offset": 5957,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 158,
+      "name": null
+    },
+    {
+      "id": 156,
+      "offset": 5962,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 158,
+      "name": null
+    },
+    {
+      "id": 157,
+      "offset": 5967,
+      "bytes": 17,
+      "header": 142,
+      "kind": "STRUCT",
+      "bounds": {
+        "int_type": 0,
+        "variable": false,
+        "bits": 2,
+        "min": -3,
+        "max": -1
+      },
+      "count": 3,
+      "tags": [
+        -3,
+        -2,
+        -1
+      ],
+      "field_types": [
+        159,
+        160,
+        161
+      ],
+      "name": null,
+      "field_names": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": 158,
+      "offset": 5984,
+      "bytes": 5,
+      "header": 9,
+      "kind": "INT",
+      "bounds": {
+        "int_type": 1,
+        "variable": true,
+        "bits": 4,
+        "min": 0,
+        "max": 15
+      },
+      "name": null
+    },
+    {
+      "id": 159,
+      "offset": 5989,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 162,
+      "name": null
+    },
+    {
+      "id": 160,
+      "offset": 5994,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 162,
+      "name": null
+    },
+    {
+      "id": 161,
+      "offset": 5999,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 163,
+      "name": null
+    },
+    {
+      "id": 162,
+      "offset": 6004,
+      "bytes": 11,
+      "header": 9,
+      "kind": "INT",
+      "bounds": {
+        "int_type": 5,
+        "variable": true,
+        "bits": 20,
+        "min": 0,
+        "max": 1048575
+      },
+      "name": null
+    },
+    {
+      "id": 163,
+      "offset": 6015,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 44,
+      "name": null
+    },
+    {
+      "id": 164,
+      "offset": 6020,
+      "bytes": 21,
+      "header": 134,
+      "kind": "CHOICE",
+      "bounds": {
+        "int_type": 1,
+        "variable": false,
+        "bits": 2,
+        "min": 0,
+        "max": 3
+      },
+      "count": 4,
+      "tags": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "field_types": [
+        165,
+        166,
+        167,
+        168
+      ],
+      "name": null,
+      "field_names": [
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": 165,
+      "offset": 6041,
+      "bytes": 1,
+      "header": 10,
+      "kind": "NULL",
+      "name": null
+    },
+    {
+      "id": 166,
+      "offset": 6042,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 157,
+      "name": null
+    },
+    {
+      "id": 167,
+      "offset": 6047,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 145,
+      "name": null
+    },
+    {
+      "id": 168,
+      "offset": 6052,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 3,
+      "name": null
+    },
+    {
+      "id": 225,
+      "offset": 6471,
+      "bytes": 61,
+      "header": 142,
+      "kind": "STRUCT",
+      "bounds": {
+        "int_type": 0,
+        "variable": false,
+        "bits": 4,
+        "min": -19,
+        "max": -6
+      },
+      "count": 14,
+      "tags": [
+        -19,
+        -18,
+        -17,
+        -16,
+        -15,
+        -14,
+        -13,
+        -12,
+        -11,
+        -10,
+        -9,
+        -8,
+        -7,
+        -6
+      ],
+      "field_types": [
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239
+      ],
+      "name": null,
+      "field_names": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": 226,
+      "offset": 6532,
+      "bytes": 1,
+      "header": 5,
+      "kind": "BOOL",
+      "name": null
+    },
+    {
+      "id": 227,
+      "offset": 6533,
+      "bytes": 1,
+      "header": 5,
+      "kind": "BOOL",
+      "name": null
+    },
+    {
+      "id": 228,
+      "offset": 6534,
+      "bytes": 1,
+      "header": 5,
+      "kind": "BOOL",
+      "name": null
+    },
+    {
+      "id": 229,
+      "offset": 6535,
+      "bytes": 1,
+      "header": 5,
+      "kind": "BOOL",
+      "name": null
+    },
+    {
+      "id": 230,
+      "offset": 6536,
+      "bytes": 1,
+      "header": 5,
+      "kind": "BOOL",
+      "name": null
+    },
+    {
+      "id": 231,
+      "offset": 6537,
+      "bytes": 1,
+      "header": 5,
+      "kind": "BOOL",
+      "name": null
+    },
+    {
+      "id": 232,
+      "offset": 6538,
+      "bytes": 1,
+      "header": 5,
+      "kind": "BOOL",
+      "name": null
+    },
+    {
+      "id": 233,
+      "offset": 6539,
+      "bytes": 1,
+      "header": 5,
+      "kind": "BOOL",
+      "name": null
+    },
+    {
+      "id": 234,
+      "offset": 6540,
+      "bytes": 1,
+      "header": 5,
+      "kind": "BOOL",
+      "name": null
+    },
+    {
+      "id": 235,
+      "offset": 6541,
+      "bytes": 1,
+      "header": 5,
+      "kind": "BOOL",
+      "name": null
+    },
+    {
+      "id": 236,
+      "offset": 6542,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 3,
+      "name": null
+    },
+    {
+      "id": 237,
+      "offset": 6547,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 3,
+      "name": null
+    },
+    {
+      "id": 238,
+      "offset": 6552,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 3,
+      "name": null
+    },
+    {
+      "id": 239,
+      "offset": 6557,
+      "bytes": 5,
+      "header": 15,
+      "kind": "STRING",
+      "bounds": {
+        "int_type": 1,
+        "variable": true,
+        "bits": 7,
+        "min": 0,
+        "max": 79
+      },
+      "name": null
+    },
+    {
+      "id": 243,
+      "offset": 6581,
+      "bytes": 5,
+      "header": 142,
+      "kind": "STRUCT",
+      "bounds": {
+        "int_type": 1,
+        "variable": false,
+        "bits": 0,
+        "min": 1,
+        "max": 0
+      },
+      "count": 0,
+      "tags": [],
+      "field_types": [],
+      "name": null,
+      "field_names": []
+    },
+    {
+      "id": 250,
+      "offset": 6628,
+      "bytes": 13,
+      "header": 142,
+      "kind": "STRUCT",
+      "bounds": {
+        "int_type": 0,
+        "variable": false,
+        "bits": 1,
+        "min": -2,
+        "max": -1
+      },
+      "count": 2,
+      "tags": [
+        -2,
+        -1
+      ],
+      "field_types": [
+        251,
+        252
+      ],
+      "name": null,
+      "field_names": [
+        null,
+        null
+      ]
+    },
+    {
+      "id": 251,
+      "offset": 6641,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 253,
+      "name": null
+    },
+    {
+      "id": 252,
+      "offset": 6646,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 253,
+      "name": null
+    },
+    {
+      "id": 253,
+      "offset": 6651,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 7,
+      "name": null
+    },
+    {
+      "id": 291,
+      "offset": 6915,
+      "bytes": 33,
+      "header": 142,
+      "kind": "STRUCT",
+      "bounds": {
+        "int_type": 0,
+        "variable": false,
+        "bits": 3,
+        "min": -12,
+        "max": -6
+      },
+      "count": 7,
+      "tags": [
+        -12,
+        -11,
+        -10,
+        -9,
+        -8,
+        -7,
+        -6
+      ],
+      "field_types": [
+        292,
+        293,
+        294,
+        295,
+        296,
+        297,
+        298
+      ],
+      "name": null,
+      "field_names": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": 292,
+      "offset": 6948,
+      "bytes": 11,
+      "header": 9,
+      "kind": "INT",
+      "bounds": {
+        "int_type": 5,
+        "variable": true,
+        "bits": 26,
+        "min": 0,
+        "max": 67108863
+      },
+      "name": null
+    },
+    {
+      "id": 293,
+      "offset": 6959,
+      "bytes": 5,
+      "header": 11,
+      "kind": "OPTIONAL",
+      "element_type": 299,
+      "name": null
+    },
+    {
+      "id": 294,
+      "offset": 6964,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 164,
+      "name": null
+    },
+    {
+      "id": 295,
+      "offset": 6969,
+      "bytes": 5,
+      "header": 11,
+      "kind": "OPTIONAL",
+      "element_type": 300,
+      "name": null
+    },
+    {
+      "id": 296,
+      "offset": 6974,
+      "bytes": 11,
+      "header": 9,
+      "kind": "INT",
+      "bounds": {
+        "int_type": 5,
+        "variable": true,
+        "bits": 32,
+        "min": 1,
+        "max": 4294967295
+      },
+      "name": null
+    },
+    {
+      "id": 297,
+      "offset": 6985,
+      "bytes": 5,
+      "header": 11,
+      "kind": "OPTIONAL",
+      "element_type": 301,
+      "name": null
+    },
+    {
+      "id": 298,
+      "offset": 6990,
+      "bytes": 5,
+      "header": 11,
+      "kind": "OPTIONAL",
+      "element_type": 302,
+      "name": null
+    },
+    {
+      "id": 299,
+      "offset": 6995,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 139,
+      "name": null
+    },
+    {
+      "id": 300,
+      "offset": 7000,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 157,
+      "name": null
+    },
+    {
+      "id": 301,
+      "offset": 7005,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 153,
+      "name": null
+    },
+    {
+      "id": 302,
+      "offset": 7010,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 3,
+      "name": null
+    },
+    {
+      "id": 303,
+      "offset": 7015,
+      "bytes": 13,
+      "header": 142,
+      "kind": "STRUCT",
+      "bounds": {
+        "int_type": 0,
+        "variable": false,
+        "bits": 1,
+        "min": -7,
+        "max": -6
+      },
+      "count": 2,
+      "tags": [
+        -7,
+        -6
+      ],
+      "field_types": [
+        304,
+        305
+      ],
+      "name": null,
+      "field_names": [
+        null,
+        null
+      ]
+    },
+    {
+      "id": 304,
+      "offset": 7028,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 306,
+      "name": null
+    },
+    {
+      "id": 305,
+      "offset": 7033,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 307,
+      "name": null
+    },
+    {
+      "id": 306,
+      "offset": 7038,
+      "bytes": 5,
+      "header": 9,
+      "kind": "INT",
+      "bounds": {
+        "int_type": 1,
+        "variable": true,
+        "bits": 4,
+        "min": 0,
+        "max": 10
+      },
+      "name": null
+    },
+    {
+      "id": 307,
+      "offset": 7043,
+      "bytes": 21,
+      "header": 142,
+      "kind": "STRUCT",
+      "bounds": {
+        "int_type": 0,
+        "variable": false,
+        "bits": 2,
+        "min": -4,
+        "max": -1
+      },
+      "count": 4,
+      "tags": [
+        -4,
+        -3,
+        -2,
+        -1
+      ],
+      "field_types": [
+        308,
+        309,
+        310,
+        311
+      ],
+      "name": null,
+      "field_names": [
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": 308,
+      "offset": 7064,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 312,
+      "name": null
+    },
+    {
+      "id": 309,
+      "offset": 7069,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 313,
+      "name": null
+    },
+    {
+      "id": 310,
+      "offset": 7074,
+      "bytes": 9,
+      "header": 1,
+      "kind": "ARRAY",
+      "bounds": {
+        "int_type": 1,
+        "variable": true,
+        "bits": 6,
+        "min": 0,
+        "max": 32
+      },
+      "element_type": 314,
+      "name": null
+    },
+    {
+      "id": 311,
+      "offset": 7083,
+      "bytes": 9,
+      "header": 1,
+      "kind": "ARRAY",
+      "bounds": {
+        "int_type": 1,
+        "variable": true,
+        "bits": 6,
+        "min": 0,
+        "max": 32
+      },
+      "element_type": 315,
+      "name": null
+    },
+    {
+      "id": 312,
+      "offset": 7092,
+      "bytes": 5,
+      "header": 9,
+      "kind": "INT",
+      "bounds": {
+        "int_type": 1,
+        "variable": true,
+        "bits": 5,
+        "min": 0,
+        "max": 31
+      },
+      "name": null
+    },
+    {
+      "id": 313,
+      "offset": 7097,
+      "bytes": 21,
+      "header": 134,
+      "kind": "CHOICE",
+      "bounds": {
+        "int_type": 1,
+        "variable": false,
+        "bits": 2,
+        "min": 0,
+        "max": 3
+      },
+      "count": 4,
+      "tags": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "field_types": [
+        316,
+        317,
+        318,
+        319
+      ],
+      "name": null,
+      "field_names": [
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": 314,
+      "offset": 7118,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 320,
+      "name": null
+    },
+    {
+      "id": 315,
+      "offset": 7123,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 153,
+      "name": null
+    },
+    {
+      "id": 316,
+      "offset": 7128,
+      "bytes": 1,
+      "header": 10,
+      "kind": "NULL",
+      "name": null
+    },
+    {
+      "id": 317,
+      "offset": 7129,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 321,
+      "name": null
+    },
+    {
+      "id": 318,
+      "offset": 7134,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 322,
+      "name": null
+    },
+    {
+      "id": 319,
+      "offset": 7139,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 322,
+      "name": null
+    },
+    {
+      "id": 320,
+      "offset": 7144,
+      "bytes": 21,
+      "header": 142,
+      "kind": "STRUCT",
+      "bounds": {
+        "int_type": 0,
+        "variable": false,
+        "bits": 2,
+        "min": -4,
+        "max": -1
+      },
+      "count": 4,
+      "tags": [
+        -4,
+        -3,
+        -2,
+        -1
+      ],
+      "field_types": [
+        323,
+        324,
+        325,
+        326
+      ],
+      "name": null,
+      "field_names": [
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": 321,
+      "offset": 7165,
+      "bytes": 5,
+      "header": 3,
+      "kind": "BIT_ARRAY",
+      "bounds": {
+        "int_type": 1,
+        "variable": true,
+        "bits": 6,
+        "min": 0,
+        "max": 32
+      },
+      "name": null
+    },
+    {
+      "id": 322,
+      "offset": 7170,
+      "bytes": 9,
+      "header": 1,
+      "kind": "ARRAY",
+      "bounds": {
+        "int_type": 1,
+        "variable": true,
+        "bits": 6,
+        "min": 0,
+        "max": 32
+      },
+      "element_type": 327,
+      "name": null
+    },
+    {
+      "id": 323,
+      "offset": 7179,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 154,
+      "name": null
+    },
+    {
+      "id": 324,
+      "offset": 7184,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 328,
+      "name": null
+    },
+    {
+      "id": 325,
+      "offset": 7189,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 328,
+      "name": null
+    },
+    {
+      "id": 326,
+      "offset": 7194,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 329,
+      "name": null
+    },
+    {
+      "id": 327,
+      "offset": 7199,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 330,
+      "name": null
+    },
+    {
+      "id": 328,
+      "offset": 7204,
+      "bytes": 5,
+      "header": 9,
+      "kind": "INT",
+      "bounds": {
+        "int_type": 1,
+        "variable": true,
+        "bits": 8,
+        "min": 0,
+        "max": 255
+      },
+      "name": null
+    },
+    {
+      "id": 329,
+      "offset": 7209,
+      "bytes": 5,
+      "header": 9,
+      "kind": "INT",
+      "bounds": {
+        "int_type": 1,
+        "variable": true,
+        "bits": 6,
+        "min": 0,
+        "max": 32
+      },
+      "name": null
+    },
+    {
+      "id": 330,
+      "offset": 7214,
+      "bytes": 5,
+      "header": 9,
+      "kind": "INT",
+      "bounds": {
+        "int_type": 1,
+        "variable": true,
+        "bits": 5,
+        "min": 0,
+        "max": 31
+      },
+      "name": null
+    },
+    {
+      "id": 349,
+      "offset": 7353,
+      "bytes": 9,
+      "header": 142,
+      "kind": "STRUCT",
+      "bounds": {
+        "int_type": 0,
+        "variable": false,
+        "bits": 0,
+        "min": -6,
+        "max": -6
+      },
+      "count": 1,
+      "tags": [
+        -6
+      ],
+      "field_types": [
+        350
+      ],
+      "name": null,
+      "field_names": [
+        null
+      ]
+    },
+    {
+      "id": 350,
+      "offset": 7362,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 351,
+      "name": null
+    },
+    {
+      "id": 351,
+      "offset": 7367,
+      "bytes": 5,
+      "header": 15,
+      "kind": "STRING",
+      "bounds": {
+        "int_type": 1,
+        "variable": true,
+        "bits": 8,
+        "min": 0,
+        "max": 255
+      },
+      "name": null
+    },
+    {
+      "id": 360,
+      "offset": 7432,
+      "bytes": 21,
+      "header": 142,
+      "kind": "STRUCT",
+      "bounds": {
+        "int_type": 0,
+        "variable": false,
+        "bits": 2,
+        "min": -9,
+        "max": -6
+      },
+      "count": 4,
+      "tags": [
+        -9,
+        -8,
+        -7,
+        -6
+      ],
+      "field_types": [
+        361,
+        362,
+        363,
+        364
+      ],
+      "name": null,
+      "field_names": [
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": 361,
+      "offset": 7453,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 365,
+      "name": null
+    },
+    {
+      "id": 362,
+      "offset": 7458,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 153,
+      "name": null
+    },
+    {
+      "id": 363,
+      "offset": 7463,
+      "bytes": 1,
+      "header": 5,
+      "kind": "BOOL",
+      "name": null
+    },
+    {
+      "id": 364,
+      "offset": 7464,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 44,
+      "name": null
+    },
+    {
+      "id": 365,
+      "offset": 7469,
+      "bytes": 13,
+      "header": 142,
+      "kind": "STRUCT",
+      "bounds": {
+        "int_type": 0,
+        "variable": false,
+        "bits": 1,
+        "min": -2,
+        "max": -1
+      },
+      "count": 2,
+      "tags": [
+        -2,
+        -1
+      ],
+      "field_types": [
+        366,
+        367
+      ],
+      "name": null,
+      "field_names": [
+        null,
+        null
+      ]
+    },
+    {
+      "id": 366,
+      "offset": 7482,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 163,
+      "name": null
+    },
+    {
+      "id": 367,
+      "offset": 7487,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 163,
+      "name": null
+    },
+    {
+      "id": 374,
+      "offset": 7538,
+      "bytes": 9,
+      "header": 142,
+      "kind": "STRUCT",
+      "bounds": {
+        "int_type": 0,
+        "variable": false,
+        "bits": 0,
+        "min": -6,
+        "max": -6
+      },
+      "count": 1,
+      "tags": [
+        -6
+      ],
+      "field_types": [
+        375
+      ],
+      "name": null,
+      "field_names": [
+        null
+      ]
+    },
+    {
+      "id": 375,
+      "offset": 7547,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 153,
+      "name": null
+    },
+    {
+      "id": 406,
+      "offset": 7772,
+      "bytes": 13,
+      "header": 142,
+      "kind": "STRUCT",
+      "bounds": {
+        "int_type": 0,
+        "variable": false,
+        "bits": 1,
+        "min": -2,
+        "max": -1
+      },
+      "count": 2,
+      "tags": [
+        -2,
+        -1
+      ],
+      "field_types": [
+        407,
+        408
+      ],
+      "name": null,
+      "field_names": [
+        null,
+        null
+      ]
+    },
+    {
+      "id": 407,
+      "offset": 7785,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 7,
+      "name": null
+    },
+    {
+      "id": 408,
+      "offset": 7790,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 7,
+      "name": null
+    },
+    {
+      "id": 409,
+      "offset": 7795,
+      "bytes": 17,
+      "header": 142,
+      "kind": "STRUCT",
+      "bounds": {
+        "int_type": 0,
+        "variable": false,
+        "bits": 2,
+        "min": -8,
+        "max": -6
+      },
+      "count": 3,
+      "tags": [
+        -8,
+        -7,
+        -6
+      ],
+      "field_types": [
+        410,
+        411,
+        412
+      ],
+      "name": null,
+      "field_names": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": 410,
+      "offset": 7812,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 44,
+      "name": null
+    },
+    {
+      "id": 411,
+      "offset": 7817,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 44,
+      "name": null
+    },
+    {
+      "id": 412,
+      "offset": 7822,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 413,
+      "name": null
+    },
+    {
+      "id": 413,
+      "offset": 7827,
+      "bytes": 29,
+      "header": 134,
+      "kind": "CHOICE",
+      "bounds": {
+        "int_type": 1,
+        "variable": false,
+        "bits": 3,
+        "min": 0,
+        "max": 5
+      },
+      "count": 6,
+      "tags": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "field_types": [
+        414,
+        415,
+        416,
+        417,
+        418,
+        419
+      ],
+      "name": null,
+      "field_names": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": 414,
+      "offset": 7856,
+      "bytes": 1,
+      "header": 10,
+      "kind": "NULL",
+      "name": null
+    },
+    {
+      "id": 415,
+      "offset": 7857,
+      "bytes": 1,
+      "header": 5,
+      "kind": "BOOL",
+      "name": null
+    },
+    {
+      "id": 416,
+      "offset": 7858,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 3,
+      "name": null
+    },
+    {
+      "id": 417,
+      "offset": 7863,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 44,
+      "name": null
+    },
+    {
+      "id": 418,
+      "offset": 7868,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 420,
+      "name": null
+    },
+    {
+      "id": 419,
+      "offset": 7873,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 406,
+      "name": null
+    },
+    {
+      "id": 420,
+      "offset": 7878,
+      "bytes": 7,
+      "header": 15,
+      "kind": "STRING",
+      "bounds": {
+        "int_type": 3,
+        "variable": true,
+        "bits": 9,
+        "min": 0,
+        "max": 256
+      },
+      "name": null
+    },
+    {
+      "id": 425,
+      "offset": 7913,
+      "bytes": 9,
+      "header": 142,
+      "kind": "STRUCT",
+      "bounds": {
+        "int_type": 0,
+        "variable": false,
+        "bits": 0,
+        "min": -6,
+        "max": -6
+      },
+      "count": 1,
+      "tags": [
+        -6
+      ],
+      "field_types": [
+        426
+      ],
+      "name": null,
+      "field_names": [
+        null
+      ]
+    },
+    {
+      "id": 426,
+      "offset": 7922,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 427,
+      "name": null
+    },
+    {
+      "id": 427,
+      "offset": 7927,
+      "bytes": 13,
+      "header": 142,
+      "kind": "STRUCT",
+      "bounds": {
+        "int_type": 0,
+        "variable": false,
+        "bits": 1,
+        "min": -2,
+        "max": -1
+      },
+      "count": 2,
+      "tags": [
+        -2,
+        -1
+      ],
+      "field_types": [
+        428,
+        429
+      ],
+      "name": null,
+      "field_names": [
+        null,
+        null
+      ]
+    },
+    {
+      "id": 428,
+      "offset": 7940,
+      "bytes": 9,
+      "header": 1,
+      "kind": "ARRAY",
+      "bounds": {
+        "int_type": 1,
+        "variable": true,
+        "bits": 7,
+        "min": 0,
+        "max": 110
+      },
+      "element_type": 430,
+      "name": null
+    },
+    {
+      "id": 429,
+      "offset": 7949,
+      "bytes": 9,
+      "header": 1,
+      "kind": "ARRAY",
+      "bounds": {
+        "int_type": 1,
+        "variable": true,
+        "bits": 7,
+        "min": 0,
+        "max": 110
+      },
+      "element_type": 431,
+      "name": null
+    },
+    {
+      "id": 430,
+      "offset": 7958,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 3,
+      "name": null
+    },
+    {
+      "id": 431,
+      "offset": 7963,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 3,
+      "name": null
+    },
+    {
+      "id": 441,
+      "offset": 8037,
+      "bytes": 9,
+      "header": 142,
+      "kind": "STRUCT",
+      "bounds": {
+        "int_type": 0,
+        "variable": false,
+        "bits": 0,
+        "min": -6,
+        "max": -6
+      },
+      "count": 1,
+      "tags": [
+        -6
+      ],
+      "field_types": [
+        442
+      ],
+      "name": null,
+      "field_names": [
+        null
+      ]
+    },
+    {
+      "id": 442,
+      "offset": 8046,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 443,
+      "name": null
+    },
+    {
+      "id": 443,
+      "offset": 8051,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 3,
+      "name": null
+    },
+    {
+      "id": 444,
+      "offset": 8056,
+      "bytes": 13,
+      "header": 142,
+      "kind": "STRUCT",
+      "bounds": {
+        "int_type": 0,
+        "variable": false,
+        "bits": 1,
+        "min": -7,
+        "max": -6
+      },
+      "count": 2,
+      "tags": [
+        -7,
+        -6
+      ],
+      "field_types": [
+        445,
+        446
+      ],
+      "name": null,
+      "field_names": [
+        null,
+        null
+      ]
+    },
+    {
+      "id": 445,
+      "offset": 8069,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 44,
+      "name": null
+    },
+    {
+      "id": 446,
+      "offset": 8074,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 447,
+      "name": null
+    },
+    {
+      "id": 447,
+      "offset": 8079,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 3,
+      "name": null
+    },
+    {
+      "id": 448,
+      "offset": 8084,
+      "bytes": 9,
+      "header": 142,
+      "kind": "STRUCT",
+      "bounds": {
+        "int_type": 0,
+        "variable": false,
+        "bits": 0,
+        "min": -6,
+        "max": -6
+      },
+      "count": 1,
+      "tags": [
+        -6
+      ],
+      "field_types": [
+        449
+      ],
+      "name": null,
+      "field_names": [
+        null
+      ]
+    },
+    {
+      "id": 449,
+      "offset": 8093,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 44,
+      "name": null
+    },
+    {
+      "id": 450,
+      "offset": 8098,
+      "bytes": 29,
+      "header": 142,
+      "kind": "STRUCT",
+      "bounds": {
+        "int_type": 0,
+        "variable": false,
+        "bits": 3,
+        "min": -11,
+        "max": -6
+      },
+      "count": 6,
+      "tags": [
+        -11,
+        -10,
+        -9,
+        -8,
+        -7,
+        -6
+      ],
+      "field_types": [
+        451,
+        452,
+        453,
+        454,
+        455,
+        456
+      ],
+      "name": null,
+      "field_names": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": 451,
+      "offset": 8127,
+      "bytes": 5,
+      "header": 11,
+      "kind": "OPTIONAL",
+      "element_type": 457,
+      "name": null
+    },
+    {
+      "id": 452,
+      "offset": 8132,
+      "bytes": 5,
+      "header": 11,
+      "kind": "OPTIONAL",
+      "element_type": 458,
+      "name": null
+    },
+    {
+      "id": 453,
+      "offset": 8137,
+      "bytes": 5,
+      "header": 11,
+      "kind": "OPTIONAL",
+      "element_type": 459,
+      "name": null
+    },
+    {
+      "id": 454,
+      "offset": 8142,
+      "bytes": 5,
+      "header": 11,
+      "kind": "OPTIONAL",
+      "element_type": 460,
+      "name": null
+    },
+    {
+      "id": 455,
+      "offset": 8147,
+      "bytes": 5,
+      "header": 11,
+      "kind": "OPTIONAL",
+      "element_type": 461,
+      "name": null
+    },
+    {
+      "id": 456,
+      "offset": 8152,
+      "bytes": 1,
+      "header": 5,
+      "kind": "BOOL",
+      "name": null
+    },
+    {
+      "id": 457,
+      "offset": 8153,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 250,
+      "name": null
+    },
+    {
+      "id": 458,
+      "offset": 8158,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 253,
+      "name": null
+    },
+    {
+      "id": 459,
+      "offset": 8163,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 253,
+      "name": null
+    },
+    {
+      "id": 460,
+      "offset": 8168,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 253,
+      "name": null
+    },
+    {
+      "id": 461,
+      "offset": 8173,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 42,
+      "name": null
+    },
+    {
+      "id": 486,
+      "offset": 8350,
+      "bytes": 17,
+      "header": 142,
+      "kind": "STRUCT",
+      "bounds": {
+        "int_type": 0,
+        "variable": false,
+        "bits": 2,
+        "min": -8,
+        "max": -6
+      },
+      "count": 3,
+      "tags": [
+        -8,
+        -7,
+        -6
+      ],
+      "field_types": [
+        487,
+        488,
+        489
+      ],
+      "name": null,
+      "field_names": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": 487,
+      "offset": 8367,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 143,
+      "name": null
+    },
+    {
+      "id": 488,
+      "offset": 8372,
+      "bytes": 5,
+      "header": 9,
+      "kind": "INT",
+      "bounds": {
+        "int_type": 1,
+        "variable": true,
+        "bits": 5,
+        "min": 0,
+        "max": 31
+      },
+      "name": null
+    },
+    {
+      "id": 489,
+      "offset": 8377,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 42,
+      "name": null
+    },
+    {
+      "id": 490,
+      "offset": 8382,
+      "bytes": 9,
+      "header": 142,
+      "kind": "STRUCT",
+      "bounds": {
+        "int_type": 0,
+        "variable": false,
+        "bits": 0,
+        "min": -6,
+        "max": -6
+      },
+      "count": 1,
+      "tags": [
+        -6
+      ],
+      "field_types": [
+        491
+      ],
+      "name": null,
+      "field_names": [
+        null
+      ]
+    },
+    {
+      "id": 491,
+      "offset": 8391,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 3,
+      "name": null
+    },
+    {
+      "id": 492,
+      "offset": 8396,
+      "bytes": 13,
+      "header": 142,
+      "kind": "STRUCT",
+      "bounds": {
+        "int_type": 0,
+        "variable": false,
+        "bits": 1,
+        "min": -7,
+        "max": -6
+      },
+      "count": 2,
+      "tags": [
+        -7,
+        -6
+      ],
+      "field_types": [
+        493,
+        494
+      ],
+      "name": null,
+      "field_names": [
+        null,
+        null
+      ]
+    },
+    {
+      "id": 493,
+      "offset": 8409,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 42,
+      "name": null
+    },
+    {
+      "id": 494,
+      "offset": 8414,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 42,
+      "name": null
+    },
+    {
+      "id": 523,
+      "offset": 8613,
+      "bytes": 9,
+      "header": 142,
+      "kind": "STRUCT",
+      "bounds": {
+        "int_type": 0,
+        "variable": false,
+        "bits": 0,
+        "min": -6,
+        "max": -6
+      },
+      "count": 1,
+      "tags": [
+        -6
+      ],
+      "field_types": [
+        524
+      ],
+      "name": null,
+      "field_names": [
+        null
+      ]
+    },
+    {
+      "id": 524,
+      "offset": 8622,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 44,
+      "name": null
+    },
+    {
+      "id": 532,
+      "offset": 8682,
+      "bytes": 9,
+      "header": 142,
+      "kind": "STRUCT",
+      "bounds": {
+        "int_type": 0,
+        "variable": false,
+        "bits": 0,
+        "min": -6,
+        "max": -6
+      },
+      "count": 1,
+      "tags": [
+        -6
+      ],
+      "field_types": [
+        533
+      ],
+      "name": null,
+      "field_names": [
+        null
+      ]
+    },
+    {
+      "id": 533,
+      "offset": 8691,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 115,
+      "name": null
+    },
+    {
+      "id": 546,
+      "offset": 8780,
+      "bytes": 5,
+      "header": 135,
+      "kind": "ENUM",
+      "bounds": {
+        "int_type": 1,
+        "variable": false,
+        "bits": 2,
+        "min": 0,
+        "max": 2
+      },
+      "count": 3,
+      "tags": [
+        0,
+        1,
+        2
+      ],
+      "name": null,
+      "field_names": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": 547,
+      "offset": 8785,
+      "bytes": 13,
+      "header": 142,
+      "kind": "STRUCT",
+      "bounds": {
+        "int_type": 0,
+        "variable": false,
+        "bits": 1,
+        "min": -7,
+        "max": -6
+      },
+      "count": 2,
+      "tags": [
+        -7,
+        -6
+      ],
+      "field_types": [
+        548,
+        549
+      ],
+      "name": null,
+      "field_names": [
+        null,
+        null
+      ]
+    },
+    {
+      "id": 548,
+      "offset": 8798,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 546,
+      "name": null
+    },
+    {
+      "id": 549,
+      "offset": 8803,
+      "bytes": 5,
+      "header": 11,
+      "kind": "OPTIONAL",
+      "element_type": 550,
+      "name": null
+    },
+    {
+      "id": 550,
+      "offset": 8808,
+      "bytes": 11,
+      "header": 9,
+      "kind": "INT",
+      "bounds": {
+        "int_type": 5,
+        "variable": true,
+        "bits": 32,
+        "min": 1,
+        "max": 4294967295
+      },
+      "name": null
+    },
+    {
+      "id": 551,
+      "offset": 8819,
+      "bytes": 13,
+      "header": 142,
+      "kind": "STRUCT",
+      "bounds": {
+        "int_type": 0,
+        "variable": false,
+        "bits": 1,
+        "min": -7,
+        "max": -6
+      },
+      "count": 2,
+      "tags": [
+        -7,
+        -6
+      ],
+      "field_types": [
+        552,
+        553
+      ],
+      "name": null,
+      "field_names": [
+        null,
+        null
+      ]
+    },
+    {
+      "id": 552,
+      "offset": 8832,
+      "bytes": 5,
+      "header": 11,
+      "kind": "OPTIONAL",
+      "element_type": 554,
+      "name": null
+    },
+    {
+      "id": 553,
+      "offset": 8837,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 157,
+      "name": null
+    },
+    {
+      "id": 554,
+      "offset": 8842,
+      "bytes": 11,
+      "header": 9,
+      "kind": "INT",
+      "bounds": {
+        "int_type": 5,
+        "variable": true,
+        "bits": 32,
+        "min": 1,
+        "max": 4294967295
+      },
+      "name": null
+    },
+    {
+      "id": 555,
+      "offset": 8853,
+      "bytes": 13,
+      "header": 142,
+      "kind": "STRUCT",
+      "bounds": {
+        "int_type": 0,
+        "variable": false,
+        "bits": 1,
+        "min": -7,
+        "max": -6
+      },
+      "count": 2,
+      "tags": [
+        -7,
+        -6
+      ],
+      "field_types": [
+        556,
+        557
+      ],
+      "name": null,
+      "field_names": [
+        null,
+        null
+      ]
+    },
+    {
+      "id": 556,
+      "offset": 8866,
+      "bytes": 5,
+      "header": 11,
+      "kind": "OPTIONAL",
+      "element_type": 558,
+      "name": null
+    },
+    {
+      "id": 557,
+      "offset": 8871,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 145,
+      "name": null
+    },
+    {
+      "id": 558,
+      "offset": 8876,
+      "bytes": 11,
+      "header": 9,
+      "kind": "INT",
+      "bounds": {
+        "int_type": 5,
+        "variable": true,
+        "bits": 32,
+        "min": 1,
+        "max": 4294967295
+      },
+      "name": null
+    },
+    {
+      "id": 564,
+      "offset": 8928,
+      "bytes": 9,
+      "header": 142,
+      "kind": "STRUCT",
+      "bounds": {
+        "int_type": 0,
+        "variable": false,
+        "bits": 0,
+        "min": -6,
+        "max": -6
+      },
+      "count": 1,
+      "tags": [
+        -6
+      ],
+      "field_types": [
+        565
+      ],
+      "name": null,
+      "field_names": [
+        null
+      ]
+    },
+    {
+      "id": 565,
+      "offset": 8937,
+      "bytes": 5,
+      "header": 16,
+      "kind": "USER",
+      "element_type": 3,
+      "name": null
+    },
+    {
+      "id": 890,
+      "offset": 11387,
+      "bytes": 9,
+      "header": 142,
+      "kind": "STRUCT",
+      "bounds": {
+        "int_type": 0,
+        "variable": false,
+        "bits": 0,
+        "min": -1,
+        "max": -1
+      },
+      "count": 1,
+      "tags": [
+        -1
+      ],
+      "field_types": [
+        891
+      ],
+      "name": null,
+      "field_names": [
+        null
+      ]
+    },
+    {
+      "id": 891,
+      "offset": 11396,
+      "bytes": 5,
+      "header": 9,
+      "kind": "INT",
+      "bounds": {
+        "int_type": 1,
+        "variable": true,
+        "bits": 5,
+        "min": 0,
+        "max": 16
+      },
+      "name": null
+    }
+  ],
+  "all_90_native_payloads_supported": false,
+  "native_names_authenticated": false
+}

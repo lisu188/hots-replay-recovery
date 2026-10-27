@@ -1,0 +1,38 @@
+{
+  "format": "native-game-value-writer-independent-RAM-mutation-v1",
+  "passed": true,
+  "case": "current98348",
+  "source_sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4",
+  "source_unchanged": true,
+  "source_member_sha256": "c7fba3ffbae7cf8ce1c348d0478f8e5cb81b2e3991791e21a793638cf058a52d",
+  "member_bytes": 1916341,
+  "changed_member_SHA256": "d67ebfbf43694f0402584c2a8e2e5dda709afa8e1b591c729fa744a290f643f1",
+  "synthetic_edit": "First observed ID110 single-u32 payload XOR1; RAM only.",
+  "edited_event_index": 4533,
+  "changed_bit_count": 1,
+  "changed_bit_inside_selected_payload": true,
+  "events_compared_with_pinned_upstream": 144708,
+  "all_other_upstream_values_and_event_bit_spans_preserved": true,
+  "modified_raw_values_or_member_saved": false,
+  "model_pins": [
+    {
+      "path": "native_game_events.py",
+      "bytes": 12832,
+      "sha256": "72adceefb23a9f78b467eba9ec9d4b8fa655bae94d61e7ee753b15498876fd23"
+    },
+    {
+      "path": "native_game_events_schema_98348.json",
+      "bytes": 49231,
+      "sha256": "bbb2ca6a0c1511a6756cf0f5ab9d0309f4b8b6cdf397963d020390f549082895"
+    },
+    {
+      "path": "_native_setup_string.py",
+      "bytes": 2145,
+      "sha256": "56087d34ad3569cb20a01d1831e15697432840d22c2a008c83a267bd65dcea69"
+    }
+  ],
+  "native_runtime_or_semantic_upgrade_claimed": false,
+  "network_or_game_or_Computer_Use": false,
+  "replay_or_sync_written": false,
+  "full_upgrade_complete": false
+}
