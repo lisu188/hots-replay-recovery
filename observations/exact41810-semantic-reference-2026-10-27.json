@@ -1,0 +1,335 @@
+{
+  "format": "exact41810-sanitized-semantic-reference-v1",
+  "passed": true,
+  "base_commit": "e9fcf685654aa2ee0051419901d11e904ebfa51b",
+  "cached_public_fixture": {
+    "bytes": 774134,
+    "sha256": "3a33d012a9d47dc1e66595398c2f3dd75cbc9240762996cf52c9c6ad8337e869",
+    "declared_build": 41810,
+    "source_ZIP_URL": "https://upload2.inven.co.kr/upload/2016/04/12/bbs/c13569754257.zip",
+    "source_page_URL": "https://www.inven.co.kr/board/hos/4200/2520",
+    "fresh_acquisition": false,
+    "header_build_is_self_declared_not_cryptographic_authenticity_signature": true,
+    "distinct_from_TEN_GREYMANE_bytes": true,
+    "used_mod_records": 7,
+    "same_effective_namespace_as_TEN_GREYMANE_proven": false
+  },
+  "stream_checks": {
+    "game": {
+      "bytes": 1388857,
+      "sha256": "6176d2c8921b7539345cd705186818c6888e26046547509b2daa7623ec6632f9",
+      "events": 134617,
+      "complete_EOF_bits": true,
+      "last_gameloop": 16770
+    },
+    "tracker": {
+      "bytes": 228881,
+      "sha256": "3c57b652983d31fbbe352b1ef52e8d8779b00458bae8bd986c1bd8969210e5d8",
+      "events": 4405,
+      "complete_EOF_bits": true
+    },
+    "fresh_complete_decode": true,
+    "fresh_reencoding_run": false,
+    "prior_exact_roundtrips_inherited_for_same_member_hashes": true,
+    "prior_gate": {
+      "path": "outputs/TEN_GREYMANE-offline-public-exact41810-reference-20261025.json",
+      "bytes": 3477,
+      "sha256": "6a7fcb3c1d20232ededcc8e779f0ade048d237c36ff467ca8220a7aa0fac397f"
+    }
+  },
+  "schema": {
+    "bytes": 25890,
+    "sha256": "879d228d9d8acd21d63563538dd15841aaf49259ee0bb468b8a46b6a4ef866fd",
+    "unchanged_class_AST": true,
+    "six_adapter_byte_primitives_only": true
+  },
+  "decoder_source": {
+    "bytes": 9199,
+    "sha256": "17bfb926af0f7f79e18f6299dbae50fc2821c53b229235d4f9c857c7ef3e96b1"
+  },
+  "existing_tag_packing": {
+    "path": "repair_unit_tags.py",
+    "bytes": 13879,
+    "sha256": "43ec99d34aafd73f3c5f3f29d56fcffcc199e5d075f2a344cd7c8064377704e2",
+    "shift": 18,
+    "new_packing_rule_introduced": false
+  },
+  "selection_association": {
+    "added_tag_references": 75,
+    "distinct_recorded_links": 13,
+    "strict_prior_unambiguous_type_pairs_references": 72,
+    "recorded_link_type_pairs": [
+      {
+        "unit_link": 36,
+        "recorded_unit_type": "AbathurEvolvedMonstrosity",
+        "exact_key_and_unambiguous_strict_prior_type_observations": 2
+      },
+      {
+        "unit_link": 60,
+        "recorded_unit_type": "HeroAbathur",
+        "exact_key_and_unambiguous_strict_prior_type_observations": 1
+      },
+      {
+        "unit_link": 74,
+        "recorded_unit_type": "HeroMuradin",
+        "exact_key_and_unambiguous_strict_prior_type_observations": 1
+      },
+      {
+        "unit_link": 78,
+        "recorded_unit_type": "HeroSgtHammer",
+        "exact_key_and_unambiguous_strict_prior_type_observations": 1
+      },
+      {
+        "unit_link": 83,
+        "recorded_unit_type": "HeroTyrael",
+        "exact_key_and_unambiguous_strict_prior_type_observations": 1
+      },
+      {
+        "unit_link": 87,
+        "recorded_unit_type": "HeroZeratul",
+        "exact_key_and_unambiguous_strict_prior_type_observations": 1
+      },
+      {
+        "unit_link": 302,
+        "recorded_unit_type": "AbathurSymbiote",
+        "exact_key_and_unambiguous_strict_prior_type_observations": 47
+      },
+      {
+        "unit_link": 820,
+        "recorded_unit_type": "HeroJaina",
+        "exact_key_and_unambiguous_strict_prior_type_observations": 1
+      },
+      {
+        "unit_link": 827,
+        "recorded_unit_type": "HeroKaelthas",
+        "exact_key_and_unambiguous_strict_prior_type_observations": 1
+      },
+      {
+        "unit_link": 842,
+        "recorded_unit_type": "HeroLeoric",
+        "exact_key_and_unambiguous_strict_prior_type_observations": 1
+      },
+      {
+        "unit_link": 853,
+        "recorded_unit_type": "LeoricWraithWalkUnit",
+        "exact_key_and_unambiguous_strict_prior_type_observations": 13
+      },
+      {
+        "unit_link": 893,
+        "recorded_unit_type": "HeroMurky",
+        "exact_key_and_unambiguous_strict_prior_type_observations": 1
+      },
+      {
+        "unit_link": 917,
+        "recorded_unit_type": "HeroSylvanas",
+        "exact_key_and_unambiguous_strict_prior_type_observations": 1
+      }
+    ],
+    "ambiguous_type_alternatives": 0,
+    "excluded_no_strict_prior_type_records": 3,
+    "excluded_three_same_loop_only": {
+      "unit_link": 302,
+      "literal_type": "AbathurSymbiote",
+      "admitted_as_strict_prior_pairs": false
+    },
+    "rule": "wire subgroup count partitions added-tag list; exact existing index/recycle key; latest strictly-prior recorded type plus all same-loop alternatives must agree",
+    "Monstrosity": {
+      "unit_link": 36,
+      "literal_type": "AbathurEvolvedMonstrosity",
+      "strict_prior_selection_observations": 2,
+      "distinct_exact_unit_keys": 1,
+      "native_pool_identity_or_source_context_table_captured": false
+    },
+    "matching_by_hero_name_or_nearest_time": false,
+    "cross_context_or_target98348_mapping_admitted": false
+  },
+  "talent_association": {
+    "game_and_tracker_pairs": 64,
+    "tracker_rows_used_exactly_once": true,
+    "unmapped_setup_users": 0,
+    "rule": "explicit PlayerSetup user/player plus unique exact tracker loop game_loop+1; no nearest-time/hero-name actor inference",
+    "Kaelthas_observations": [
+      {
+        "index": 2,
+        "purchase_name": "KaelthasManaAddict",
+        "count": 1
+      },
+      {
+        "index": 4,
+        "purchase_name": "KaelthasGravityLapseEnergyRoil",
+        "count": 1
+      },
+      {
+        "index": 7,
+        "purchase_name": "KaelthasGravityCrush",
+        "count": 1
+      },
+      {
+        "index": 10,
+        "purchase_name": "KaelthasHeroicAbilityPyroblast",
+        "count": 1
+      },
+      {
+        "index": 13,
+        "purchase_name": "KaelthasLivingBombFissionBomb",
+        "count": 1
+      },
+      {
+        "index": 15,
+        "purchase_name": "KaelthasLivingBombSunKingsFury",
+        "count": 1
+      }
+    ],
+    "Abathur_observations": [
+      {
+        "index": 0,
+        "purchase_name": "AbathurMasteryPressurizedGlands",
+        "count": 1
+      },
+      {
+        "index": 7,
+        "purchase_name": "AbathurSymbioteAdrenalOverload",
+        "count": 1
+      },
+      {
+        "index": 8,
+        "purchase_name": "AbathurMasteryNeedlespine",
+        "count": 1
+      },
+      {
+        "index": 13,
+        "purchase_name": "AbathurHeroicAbilityEvolveMonstrosity",
+        "count": 1
+      },
+      {
+        "index": 17,
+        "purchase_name": "AbathurSymbioteSpikeBurstSomaTransference",
+        "count": 1
+      },
+      {
+        "index": 18,
+        "purchase_name": "AbathurMasteryEnvenomedSpikes",
+        "count": 1
+      }
+    ],
+    "same_index_name_pairs_in_TEN_GREYMANE": [
+      {
+        "index": 2,
+        "purchase_name": "KaelthasManaAddict",
+        "source_count": 2,
+        "reference_count": 1
+      },
+      {
+        "index": 7,
+        "purchase_name": "KaelthasGravityCrush",
+        "source_count": 1,
+        "reference_count": 1
+      },
+      {
+        "index": 10,
+        "purchase_name": "KaelthasHeroicAbilityPyroblast",
+        "source_count": 1,
+        "reference_count": 1
+      },
+      {
+        "index": 13,
+        "purchase_name": "KaelthasLivingBombFissionBomb",
+        "source_count": 2,
+        "reference_count": 1
+      },
+      {
+        "index": 15,
+        "purchase_name": "KaelthasLivingBombSunKingsFury",
+        "source_count": 2,
+        "reference_count": 1
+      }
+    ],
+    "overlapping_index_name_conflicts": [],
+    "GenericArcanePower_observed_in_reference": false,
+    "historical_tier_prerequisite_level_or_mechanics_inferred": false,
+    "native_talent_actor_or_acceptance_proven": false,
+    "source_comparison_evidence": {
+      "path": "observations/current-kaelthas-talent-definitions-2026-10-27.json",
+      "bytes": 24928,
+      "sha256": "8f3b61c147fde33d8275d2199e591abb83d01309bafc7d67c4c2ad7fdeccd6a6",
+      "fresh_source_or_current_decode_this_stage": false
+    }
+  },
+  "command_scope": {
+    "observed_commands_with_ability_link126_or351": 0,
+    "ability_name_or_current_equivalence_recovered": false
+  },
+  "private_receipt": {
+    "path": "game-tracker-reference.private.json",
+    "bytes": 76026,
+    "sha256": "fe5bef254f053430eb06f7fac1f9f0e822a7c76ebc89803c1215cb57a4e70812"
+  },
+  "producers": [
+    {
+      "path": "inspect_tracker_reference.py",
+      "bytes": 4376,
+      "sha256": "8fdc598290b8d166cbe4aead3b66f177eb5b08218d11a26b7aa4d39d3b36bda6"
+    },
+    {
+      "path": "audit_game_tracker_reference.py",
+      "bytes": 8919,
+      "sha256": "804570120166169d3dc64d3174096fb3a1dfd3a1081d50d734cf84f12375741b"
+    }
+  ],
+  "replays": [
+    {
+      "label": "source",
+      "path": "work/TEN_GREYMANE_source_41810.StormReplay",
+      "bytes": 635140,
+      "sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824"
+    },
+    {
+      "label": "R8",
+      "path": "work/native-20261018/TEN_GREYMANE_client98285_RESUMABLE_R8_PARTIAL.StormReplay",
+      "bytes": 2438570,
+      "sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19"
+    },
+    {
+      "label": "current",
+      "path": "work/eu-replay-search-20261018/heroeslounge-27515-g1-20261005.StormReplay",
+      "bytes": 978482,
+      "sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4"
+    },
+    {
+      "label": "public_exact41810_control",
+      "path": "work/old-reference-search-20261025/inven-apr12-2520-ref00-41810.private.StormReplay",
+      "bytes": 774134,
+      "sha256": "3a33d012a9d47dc1e66595398c2f3dd75cbc9240762996cf52c9c6ad8337e869"
+    }
+  ],
+  "unused_launcher_drafts": [
+    {
+      "path": "scripts/run_current_replay_control.py",
+      "bytes": 17147,
+      "sha256": "6315c2dd9291aa5185db0831e1d7c00f24f1d3f33ceb0bd79f8a636dd2aacaea"
+    },
+    {
+      "path": "test_current_replay_control.py",
+      "bytes": 2450,
+      "sha256": "7a00561260e2c0f64a41b9f73cbf8910550f90e4a6d6ad80e7a1d1719879f297"
+    }
+  ],
+  "all_replays_and_drafts_hashes_rechecked": true,
+  "per_player_rows_raw_unit_keys_or_chat_published": false,
+  "player_names_toon_handles_or_chat_read_into_reports": false,
+  "actual_effective_Unit_entries_or_target_input_identity_captured": false,
+  "historical_full_rules_recovered": false,
+  "actual_selected_lazy_slot_replacement_proven": false,
+  "conditional_singleton_acceptance_gap_removed": false,
+  "safe_unit_ability_or_talent_migration_established": false,
+  "production_or_conversion_changed": false,
+  "unit_tests_authored_or_rerun": false,
+  "full_corpus_or_hosted_CI_run": false,
+  "independent_peer_review": false,
+  "REA_native_provider_analysis": false,
+  "native_target_executed": false,
+  "native_code_emulated": false,
+  "network_or_game_or_Computer_Use": false,
+  "new_replay_or_sync_written": false,
+  "full_upgrade_complete": false
+}

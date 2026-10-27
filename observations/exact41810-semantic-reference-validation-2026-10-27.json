@@ -1,0 +1,84 @@
+{
+  "format": "exact41810-semantic-reference-validation-v1",
+  "passed": true,
+  "base_commit": "e9fcf685654aa2ee0051419901d11e904ebfa51b",
+  "exact_fixture_size_and_SHA_before_decode": true,
+  "game_and_tracker_member_SHA_match_prior_gate": true,
+  "fresh_game_events": 134617,
+  "fresh_tracker_events": 4405,
+  "complete_EOF_bits": true,
+  "fresh_reencoding_run": false,
+  "selection_added_references": 75,
+  "strict_prior_unambiguous_associations": 72,
+  "link_type_pairs": 13,
+  "excluded_same_loop_only": 3,
+  "Monstrosity36_selection_observations": 2,
+  "Monstrosity36_distinct_exact_keys": 1,
+  "talent_pairs_used_once": 64,
+  "explicit_setup_mapping_complete": true,
+  "exact_plus_one_loop_join_unique_for_all": true,
+  "Kaelthas_reference_pairs": 6,
+  "Kaelthas_pairs_agreeing_with_source": 5,
+  "overlapping_conflicts": 0,
+  "ability126_or351_commands_in_this_reference": 0,
+  "per_player_or_raw_key_rows_published": false,
+  "public_evidence": {
+    "bytes": 11004,
+    "sha256": "a38cc85470047c9554ed730f5bdd94b0d09972958eb9c4bded16ff211dad4c4d"
+  },
+  "private_evidence": {
+    "bytes": 76026,
+    "sha256": "fe5bef254f053430eb06f7fac1f9f0e822a7c76ebc89803c1215cb57a4e70812"
+  },
+  "replays": [
+    {
+      "label": "source",
+      "path": "work/TEN_GREYMANE_source_41810.StormReplay",
+      "bytes": 635140,
+      "sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824"
+    },
+    {
+      "label": "R8",
+      "path": "work/native-20261018/TEN_GREYMANE_client98285_RESUMABLE_R8_PARTIAL.StormReplay",
+      "bytes": 2438570,
+      "sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19"
+    },
+    {
+      "label": "current",
+      "path": "work/eu-replay-search-20261018/heroeslounge-27515-g1-20261005.StormReplay",
+      "bytes": 978482,
+      "sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4"
+    },
+    {
+      "label": "public_exact41810_control",
+      "path": "work/old-reference-search-20261025/inven-apr12-2520-ref00-41810.private.StormReplay",
+      "bytes": 774134,
+      "sha256": "3a33d012a9d47dc1e66595398c2f3dd75cbc9240762996cf52c9c6ad8337e869"
+    }
+  ],
+  "unused_launcher_drafts": [
+    {
+      "path": "scripts/run_current_replay_control.py",
+      "bytes": 17147,
+      "sha256": "6315c2dd9291aa5185db0831e1d7c00f24f1d3f33ceb0bd79f8a636dd2aacaea"
+    },
+    {
+      "path": "test_current_replay_control.py",
+      "bytes": 2450,
+      "sha256": "7a00561260e2c0f64a41b9f73cbf8910550f90e4a6d6ad80e7a1d1719879f297"
+    }
+  ],
+  "replay_and_draft_hashes_rechecked": true,
+  "new_target_mapping_or_source_namespace_equivalence_established": false,
+  "production_or_conversion_changed": false,
+  "unit_tests_authored_or_rerun": false,
+  "full_corpus_or_hosted_CI_run": false,
+  "independent_peer_review": false,
+  "subagent_review_usage_limited": true,
+  "REA_native_provider_analysis": false,
+  "native_target_executed": false,
+  "native_code_emulated": false,
+  "network_or_game_or_Computer_Use": false,
+  "new_replay_or_sync_written": false,
+  "full_upgrade_complete": false
+}

@@ -1957,3 +1957,38 @@ XMLname alone won't close gap. Historical41810 rules/playback stillrequired.
 No prod/conversion/replay/sync change, tests/CI/peerreview, provider/import/
 nativeexecution/emulation/game/CU/network/publication. Replay/draftpinspass.
 Keepoffline; fullupgrade/playback false.
+
+
+## Offline separate exact41810 semantic reference - 2026-10-27
+
+Read docs/EXACT41810_SEMANTIC_REFERENCE_2026-10-27.md and dated receipts.
+Existing public Inven Apr12 fixture774134B SHA3a33d012.. used; no download.
+Fresh complete134617game/4405tracker events/EOF, memberhashes match strictgate.
+Unchanged official41810 schema/decoder classAST +bounded byte primitives;
+prior samehash roundtrips inherited, not freshly rerun. Sevenmod control's
+namespace not proved equalTEN or target98348; declaredbuild not signature.
+
+75addedtag references/13links:72 exact18bit index/recycle +lateststrictprior
+tracker type/all same-loop alternatives agree;0ambiguous.3same-loop-only
+link302/AbathurSymbiote references EXCLUDED. Other302 has47strictprior.
+Link36->AbathurEvolvedMonstrosity twice; distinctkeys inreceipt. Link827->
+HeroKaelthas once. Recordedcontrol associations only: no native pool/gates,
+TEN effective namespace or target remapping authenticated. Do not close
+conditional singleton acceptance from this independent control.
+
+All64game talent choices uniquely pair explicitsetup player with tracker
+TalentChosen at exactgame_loop+1; eachtrackerrow once. SixKaelthas pairs:
+2ManaAddict,4EnergyRoil,7GravityCrush,10Pyroblast,13FissionBomb,15SunKingsFury.
+5pairs agree original committedobservation;0overlapconflicts. GenericArcanePower
+unobserved here, not absent-tree proof. AbathurEvolveMonstrosity recorded13.
+No historic mechanics/tier/current mapping or talentactor inferred. Existing
+current XMLposition7 does NOT authorizeold15->7. General repeatedStatGame
+keys preserved aslists; only selectedjoinedfields require scalarcardinality.
+Ability126/351commands0inthiscontrol, no name/equivalence supplied.
+
+Publicaggregate gameIDs/digests only; privateperplayer/key/loop rows notpublished.
+All4replay/draftpins pass. No freshsource/currentdecode, new reencoding,
+prod/conversion/replay/sync/versionchange, tests/CI/peerreview, provider/native
+execution/emulation/game/CU/network/publication. Keepoffline; fullupgradefalse.
+Next effective targettables/Monstrositylink, missingplayer/abilityvalues and
+historicalrules/nativeplayback; no guessed ordering, names or catalogdefaults.
