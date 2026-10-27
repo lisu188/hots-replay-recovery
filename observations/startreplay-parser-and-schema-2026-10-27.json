@@ -1,0 +1,566 @@
+{
+  "format": "startreplay-parser-and-configured-schema-static-proof-v1",
+  "source_build": 98348,
+  "source_patch_kind": "Analyst-derived statically transformed text; not unaltered PE text or runtime capture",
+  "source_patch_sha256_fresh": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83",
+  "original_PE_sha256_fresh": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+  "native_decoder": "GNU objdump2.42 in already-running Ubuntu WSL",
+  "new_native_witnesses": [
+    {
+      "label": "parser_receiver_leaf",
+      "selected_RVA": [
+        "0x1e5aa40",
+        "0x1e5aa45"
+      ],
+      "selected_bytes": 5,
+      "selected_instructions": 2,
+      "selected_code_sha256": "be0d05965dc835782e7cf3836e77591b0f4f6274c898b6209ff60fea334dead2",
+      "stdout_bytes_including_trailing_context": 665,
+      "stdout_sha256": "a07e651f943643f862b36f2df7693ee21fc694d856c7d399003faeb9c4d58bbe",
+      "selected_pdata_records": [],
+      "all_selected_byte_columns_match_guarded_source": true,
+      "selected_end_verified_with_trailing_context": true,
+      "last_selected_instruction_RET": true,
+      "whole_function_or_CFG_claim": false,
+      "exit_code": 0
+    },
+    {
+      "label": "parsed_object_storage",
+      "selected_RVA": [
+        "0x1e5a560",
+        "0x1e5a5c3"
+      ],
+      "selected_bytes": 99,
+      "selected_instructions": 24,
+      "selected_code_sha256": "0f4f3ab4f070f5a9e2639ec1b85ea511675d02f0393213fd6215512fe6e20ddd",
+      "stdout_bytes_including_trailing_context": 2548,
+      "stdout_sha256": "4c69d9fa78271caed0c525ac0a82f421dd44d0bba57eb780cbf8fd22a4623880",
+      "selected_pdata_records": [
+        [
+          "0x1e5a560",
+          "0x1e5a5c3",
+          "0x2e74118"
+        ]
+      ],
+      "all_selected_byte_columns_match_guarded_source": true,
+      "selected_end_verified_with_trailing_context": true,
+      "last_selected_instruction_RET": true,
+      "whole_function_or_CFG_claim": false,
+      "exit_code": 0
+    },
+    {
+      "label": "parser_virtual_read",
+      "selected_RVA": [
+        "0x1a6e990",
+        "0x1a6e9eb"
+      ],
+      "selected_bytes": 91,
+      "selected_instructions": 23,
+      "selected_code_sha256": "62d07085258c743f4da29f474d9182ebc71c64d8e2c4f0fa3918d87384e42b5f",
+      "stdout_bytes_including_trailing_context": 2582,
+      "stdout_sha256": "25f4970b900d0958ee9ba599fffa69c59cc225bda6311e3d5ab2eca4d132607e",
+      "selected_pdata_records": [
+        [
+          "0x1a6e990",
+          "0x1a6e9eb",
+          "0x2e16384"
+        ]
+      ],
+      "all_selected_byte_columns_match_guarded_source": true,
+      "selected_end_verified_with_trailing_context": true,
+      "last_selected_instruction_RET": true,
+      "whole_function_or_CFG_claim": false,
+      "exit_code": 0
+    }
+  ],
+  "new_native_bytes": 195,
+  "new_native_instructions": 49,
+  "prior_sender_native_instructions_rechecked": 255,
+  "prior_sender_native_bytes_rechecked": 1142,
+  "stack_configuration": {
+    "wrapper_base_W": "RBP-0x49",
+    "embedded_interface": "W+0x10",
+    "interface_pointer_helper_RVA": "0x1E5AA40",
+    "interface_vtable_RVA": "0x298CA10",
+    "vtable_store_RVA": "0x1E5CFE3",
+    "registry_address_stored_at_W_plus18": "0x143B7F140",
+    "configured_type_id": 6060,
+    "type_id_slot_RVA": "0x298BEF8",
+    "type_id_load_RVA": "0x1E5CFC7",
+    "type_id_store_to_W_plus20_RVA": "0x1E5CFEF",
+    "zero_DWORD_store_to_W_plus8_RVA": "0x1E5CFCE",
+    "W_plus8_role_recovered": false,
+    "dynamic_entry_R9_descriptor_equated_to_BSN_type_id": false
+  },
+  "original_PE_read_method_slot": {
+    "slot_offset": "0x108",
+    "word_RVA": "0x298cb18",
+    "file_offset": 43563800,
+    "word_sha256": "e7a3220d1201b461f77fc89609a5776dec1f09d36c7944a3a19b098a57107651",
+    "target_VA": "0x141a6e990",
+    "target_RVA": "0x1a6e990"
+  },
+  "read_method": {
+    "RVA_range": [
+      "0x1A6E990",
+      "0x1A6E9EB"
+    ],
+    "entry_R9_role": "external input descriptor; not equated to BSN type6060",
+    "guard": "Returns AL=0 when QWORD[QWORD[entry_R9]+0x38] is zero",
+    "nonzero_branch_helper_RVA": "0x1A78CC0",
+    "helper_call_RVA": "0x1A6E9DC",
+    "return_AL_on_normal_helper_return": "1 exactly when helper EAX is zero",
+    "helper_algorithm_or_input_descriptor_semantics_recovered": false
+  },
+  "caller_status_handling": {
+    "virtual_call_RVA": "0x1E5D09B",
+    "next_holder_load_RVA": "0x1E5D0A2",
+    "next_selector_load_RVA": "0x1E5D0A6",
+    "local_return_AL_success_test_before_selector_load": false,
+    "successful_complete_parse_inferred": false
+  },
+  "schema_binding": {
+    "format": "startreplay-current-metadata-independent-verification-v1",
+    "original_PE_sha256_fresh": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+    "embedded_BSN_sha256": "ce3b1f764575730f2c08c89eed73ea843ec4cc702b727c9577ca071ce610e741",
+    "parsers": [
+      {
+        "name": "parse_bsn_metadata.py",
+        "bytes": 8377,
+        "sha256": "0c8021fdcb761a27ca9860f72161110e1156f518678430b9570a49fc20f85f06"
+      },
+      {
+        "name": "independent_bsn_graph.py",
+        "bytes": 5606,
+        "sha256": "2eefcbd2d57e4461a882adfb283c6c20da35a5ad517d49ac329055f38e387ec3"
+      }
+    ],
+    "full_records_validated_by_each_parser": 8330,
+    "selected_records_compared": [
+      1,
+      354,
+      983,
+      1670,
+      1702,
+      1746,
+      1749,
+      1768,
+      2503,
+      2508,
+      2510,
+      5834,
+      5842,
+      5843,
+      5918,
+      5951,
+      5952,
+      5953,
+      5954,
+      5955,
+      5956,
+      5957,
+      5958,
+      5959,
+      5960,
+      5961,
+      6060,
+      6061,
+      6062,
+      6076
+    ],
+    "selected_record_count": 30,
+    "configured_response_type_id": 6060,
+    "response_event_choice_type_id": 6062,
+    "choice_selector": 13,
+    "choice_member_name": "StartReplay",
+    "choice_member_type_id": 6076,
+    "payload_type_id": 5951,
+    "payload_name": "Battlenet::Event::S2GameEngine::StartReplayRequest",
+    "payload_fields": [
+      {
+        "tag": -9,
+        "name": "StartRequest",
+        "type_chain": [
+          {
+            "id": 5952,
+            "name": null,
+            "kind": "USER",
+            "element_type": 5834
+          },
+          {
+            "id": 5834,
+            "name": "Battlenet::Event::S2GameEngine::StartRequest",
+            "kind": "STRUCT",
+            "bounds": {
+              "int_type": 0,
+              "variable": false,
+              "bits": 3,
+              "min": -5,
+              "max": -1
+            }
+          }
+        ]
+      },
+      {
+        "tag": -8,
+        "name": "m_clientId",
+        "type_chain": [
+          {
+            "id": 5953,
+            "name": null,
+            "kind": "USER",
+            "element_type": 1670
+          },
+          {
+            "id": 1670,
+            "name": "Battlenet::S2Game::ClientId",
+            "kind": "USER",
+            "element_type": 1
+          },
+          {
+            "id": 1,
+            "name": "Battlenet::u32",
+            "kind": "INT",
+            "bounds": {
+              "int_type": 5,
+              "variable": true,
+              "bits": 32,
+              "min": 0,
+              "max": 4294967295
+            }
+          }
+        ]
+      },
+      {
+        "tag": -7,
+        "name": "m_clientInfoList",
+        "type_chain": [
+          {
+            "id": 5954,
+            "name": null,
+            "kind": "USER",
+            "element_type": 1702
+          },
+          {
+            "id": 1702,
+            "name": "Battlenet::Client::S2GameDefines::ClientInfoList",
+            "kind": "ARRAY",
+            "element_type": 1746,
+            "bounds": {
+              "int_type": 1,
+              "variable": true,
+              "bits": 5,
+              "min": 0,
+              "max": 16
+            }
+          },
+          {
+            "id": 1746,
+            "name": null,
+            "kind": "USER",
+            "element_type": 1768
+          },
+          {
+            "id": 1768,
+            "name": "Battlenet::Client::S2GameDefines::ClientInfo",
+            "kind": "STRUCT",
+            "bounds": {
+              "int_type": 0,
+              "variable": false,
+              "bits": 5,
+              "min": -18,
+              "max": -1
+            }
+          }
+        ]
+      },
+      {
+        "tag": -6,
+        "name": "m_voiceSessionId",
+        "type_chain": [
+          {
+            "id": 5955,
+            "name": null,
+            "kind": "USER",
+            "element_type": 983
+          },
+          {
+            "id": 983,
+            "name": "Battlenet::ComSat::SessionIdUnion",
+            "kind": "STRUCT",
+            "bounds": {
+              "int_type": 0,
+              "variable": false,
+              "bits": 1,
+              "min": -2,
+              "max": -1
+            }
+          }
+        ]
+      },
+      {
+        "tag": -5,
+        "name": "m_instanceHandle",
+        "type_chain": [
+          {
+            "id": 5956,
+            "name": null,
+            "kind": "USER",
+            "element_type": 1749
+          },
+          {
+            "id": 1749,
+            "name": "Battlenet::S2Master::InstanceHandle",
+            "kind": "STRUCT",
+            "bounds": {
+              "int_type": 1,
+              "variable": false,
+              "bits": 2,
+              "min": 0,
+              "max": 2
+            }
+          }
+        ]
+      },
+      {
+        "tag": -4,
+        "name": "m_clientLicensesList",
+        "type_chain": [
+          {
+            "id": 5957,
+            "name": null,
+            "kind": "USER",
+            "element_type": 2503
+          },
+          {
+            "id": 2503,
+            "name": "Battlenet::Client::S2GameDefines::ClientLicensesList",
+            "kind": "ARRAY",
+            "element_type": 2508,
+            "bounds": {
+              "int_type": 1,
+              "variable": true,
+              "bits": 5,
+              "min": 0,
+              "max": 16
+            }
+          },
+          {
+            "id": 2508,
+            "name": null,
+            "kind": "USER",
+            "element_type": 2510
+          },
+          {
+            "id": 2510,
+            "name": "Battlenet::Client::S2GameDefines::ClientLicenses",
+            "kind": "STRUCT",
+            "bounds": {
+              "int_type": 0,
+              "variable": false,
+              "bits": 1,
+              "min": -2,
+              "max": -1
+            }
+          }
+        ]
+      },
+      {
+        "tag": -3,
+        "name": "m_replayPath",
+        "type_chain": [
+          {
+            "id": 5958,
+            "name": null,
+            "kind": "USER",
+            "element_type": 354
+          },
+          {
+            "id": 354,
+            "name": "Battlenet::Cache::LocalPath",
+            "kind": "STRING",
+            "bounds": {
+              "int_type": 1,
+              "variable": true,
+              "bits": 8,
+              "min": 0,
+              "max": 248
+            }
+          }
+        ]
+      },
+      {
+        "tag": -2,
+        "name": "m_startGameTime",
+        "type_chain": [
+          {
+            "id": 5959,
+            "name": null,
+            "kind": "OPTIONAL",
+            "element_type": 5961
+          },
+          {
+            "id": 5961,
+            "name": null,
+            "kind": "USER",
+            "element_type": 1
+          },
+          {
+            "id": 1,
+            "name": "Battlenet::u32",
+            "kind": "INT",
+            "bounds": {
+              "int_type": 5,
+              "variable": true,
+              "bits": 32,
+              "min": 0,
+              "max": 4294967295
+            }
+          }
+        ]
+      },
+      {
+        "tag": -1,
+        "name": "m_turnIntervalMS",
+        "type_chain": [
+          {
+            "id": 5960,
+            "name": null,
+            "kind": "USER",
+            "element_type": 1
+          },
+          {
+            "id": 1,
+            "name": "Battlenet::u32",
+            "kind": "INT",
+            "bounds": {
+              "int_type": 5,
+              "variable": true,
+              "bits": 32,
+              "min": 0,
+              "max": 4294967295
+            }
+          }
+        ]
+      }
+    ],
+    "current_online_lobby_StartGameRequest_chain": [
+      {
+        "id": 5918,
+        "name": null,
+        "kind": "USER",
+        "element_type": 5842
+      },
+      {
+        "id": 5842,
+        "name": "Battlenet::Event::S2GameEngine::StartGameRequest",
+        "kind": "STRUCT",
+        "bounds": {
+          "int_type": 0,
+          "variable": false,
+          "bits": 3,
+          "min": -7,
+          "max": -1
+        }
+      }
+    ],
+    "current_online_lobby_StartRequest_chain": [
+      {
+        "id": 5843,
+        "name": null,
+        "kind": "USER",
+        "element_type": 5834
+      },
+      {
+        "id": 5834,
+        "name": "Battlenet::Event::S2GameEngine::StartRequest",
+        "kind": "STRUCT",
+        "bounds": {
+          "int_type": 0,
+          "variable": false,
+          "bits": 3,
+          "min": -5,
+          "max": -1
+        }
+      }
+    ],
+    "shared_base_type_id": 5834,
+    "nearby_original_PE_type_id_words": [
+      {
+        "RVA": "0x298bee0",
+        "value": 0,
+        "type_name_if_valid_id": "Battlenet::Account::Id",
+        "slot_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119"
+      },
+      {
+        "RVA": "0x298bee4",
+        "value": 5917,
+        "type_name_if_valid_id": "Battlenet::Event::S2GameEngine::OnlineStartGameRequest",
+        "slot_sha256": "41d4bdbae9f7c04205856ecf4b23168655e32a50e55579cf4ac39df0fd2a32a3"
+      },
+      {
+        "RVA": "0x298bee8",
+        "value": 5962,
+        "type_name_if_valid_id": "Battlenet::Event::S2GameEngine::OfflineStartGameRequest",
+        "slot_sha256": "a3cc815d5026800f873c24de8f43ef15e0ca26097128e9ce90e2b1c37ad224e3"
+      },
+      {
+        "RVA": "0x298beec",
+        "value": 5973,
+        "type_name_if_valid_id": "Battlenet::Event::S2GameEngine::Request",
+        "slot_sha256": "568d97bd565d36f165b9a7521a624dda157f8ef3c44955c1c53eab90426e9583"
+      },
+      {
+        "RVA": "0x298bef0",
+        "value": 1414,
+        "type_name_if_valid_id": "Battlenet::Client::Engage::HeroesCalloutNotify",
+        "slot_sha256": "d42561cf351a5fd556fef70fa146f1ad4a48036eef8d32e313b643a1d90dfa1a"
+      },
+      {
+        "RVA": "0x298bef4",
+        "value": 1419,
+        "type_name_if_valid_id": "Battlenet::S2Master::AdvertHandle",
+        "slot_sha256": "7fdb0fb1fef6b7e8d8b8f3fee1db962c447bf56f775953640c02da225bed021e"
+      },
+      {
+        "RVA": "0x298bef8",
+        "value": 6060,
+        "type_name_if_valid_id": "Battlenet::Event::S2GameEngine::Response",
+        "slot_sha256": "cecd8ba0e303f3380d06acf5e98cc315738aeb815262808871d73f9fc3fb59c7"
+      }
+    ],
+    "shared_wire_schema_type_proves_historical_values": false,
+    "native_memory_field_offsets_recovered": false,
+    "actual_payload_or_replay_decoded_by_this_check": false,
+    "game_or_DLL_code_executed": false,
+    "full_upgrade_complete": false
+  },
+  "existing_schema_names_are_newly_discovered": false,
+  "new_binding": "The compiled configured type6060 and slot121 selector13 route now identify the retained StartReplay/StartReplayRequest metadata path",
+  "pool_helper": {
+    "RVA_range": [
+      "0x1E5A560",
+      "0x1E5A5C3"
+    ],
+    "returned_global_address_RVA": "0x3B7EDA0",
+    "selected_initialization_call_RVA": "0x304660",
+    "literal_EDX_argument": "0x406C",
+    "payload_zero_initialization_or_historical_defaults_proven": false
+  },
+  "preconditions": [
+    "Valid initialized registry corresponding to the pinned current embedded BSN metadata",
+    "Shown wrapper configuration and interface vtable remain stable until the selected calls",
+    "Valid input descriptor, payload and callback storage",
+    "Normal ABI returns and preservation of nonvolatile registers",
+    "No alias or concurrent writes invalidate a stated boundary"
+  ],
+  "wire_schema_field_identity_implies_native_memory_offsets": false,
+  "historical_field_values_or_defaults_recovered": false,
+  "input_descriptor_or_helper1A78CC0_resolved": false,
+  "independent_peer_review_performed": false,
+  "new_IDB_created": false,
+  "game_or_ComputerUse_used": false,
+  "codec_or_replay_changed": false,
+  "playback_verified": false,
+  "full_upgrade_complete": false
+}
