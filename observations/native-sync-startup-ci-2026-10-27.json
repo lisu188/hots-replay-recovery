@@ -1,0 +1,28 @@
+{
+  "format": "native-sync-startup-workflow-focused-verification-v1",
+  "workflow_path": ".github/workflows/startup-interval.yml",
+  "workflow_sha256": "17928ff06d1e63fd833ce1a3c2dcac873d78977c5a1181c57273eb5eec2c63fd",
+  "embedded_Python_blocks_syntax_checked": 2,
+  "actual_source_pin_block_executed": true,
+  "full_stream_audits_run": 2,
+  "reports_byte_identical": true,
+  "audit_report_bytes": 7034,
+  "audit_report_sha256": "fef71828b69962c7adaacea0a8ab05264dc786d3e7cd513aa2bd0383eec3d328",
+  "events_per_audit": {
+    "game": 104257,
+    "message": 155,
+    "tracker": 6614
+  },
+  "source_and_candidate_unchanged": true,
+  "native_sync_records_per_member": 308,
+  "first_recorded_gameloop": 64,
+  "last_recorded_gameloop": 19712,
+  "focused_fixture_check_elapsed_seconds": 17.015,
+  "entire_GitHub_Actions_job_executed_locally": false,
+  "independent_mpyq_job_checks_repeated_locally": false,
+  "full_local_unit_corpus_run": false,
+  "game_or_Computer_Use": false,
+  "full_upgrade_complete": false,
+  "reviewed_working_copy_workflow_sha256_before_Git_EOL": "efc9826093271f14dee1649f0983a42944d9dc0d7b9b9a6e3c7594c947ae9d20",
+  "workflow_Git_LF_normalization_preserves_all_text_lines": true
+}

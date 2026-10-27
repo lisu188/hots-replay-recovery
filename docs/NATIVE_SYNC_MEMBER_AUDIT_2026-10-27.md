@@ -87,6 +87,20 @@ separate from those synthetic tests. The full local corpus was not rerun while
 C: remains over the 90 percent disk guard; hosted CI must be checked for the
 published commit independently.
 
+The dedicated startup workflow was updated with the five reviewed codec/audit
+source pins, all three focused test modules and the expected total of 67 tests.
+Its actual-replay gate now checks the typed sync profile, recorded loop range,
+event IDs, record lengths and explicit absence of a divergence/playback claim.
+The workflow also retains the codec and pinned type closure with its diagnostic
+artifact. The [follow-up verification](../observations/native-sync-startup-ci-2026-10-27.json)
+records two fresh complete-stream audits of the original and R8. Both produced
+the same 7034-byte report, SHA-256
+`fef71828b69962c7adaacea0a8ab05264dc786d3e7cd513aa2bd0383eec3d328`.
+The focused fixture check took 17.015 seconds. Both embedded workflow Python
+blocks passed syntax checks and its actual source-pin block executed locally.
+This does not claim that the whole Actions job or its separate mpyq checks ran
+locally, and does not replace the pending hosted result.
+
 The official [EU build manifest](https://eu.patch.battle.net/hero/versions), read
 at 2026-10-27T13:14:09 UTC, still declares **2.57.0.98348**. The 874-byte response
 has SHA-256

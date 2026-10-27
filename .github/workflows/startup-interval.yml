@@ -6,6 +6,9 @@ on:
     paths:
       - 'audit_startup_interval.py'
       - 'test_startup_interval.py'
+      - 'portable_sync_98348.py'
+      - 'test_portable_sync_98348.py'
+      - 'observations/native-sync-98348-type-closure.json'
       - '.github/workflows/startup-interval.yml'
   workflow_dispatch:
 
@@ -43,8 +46,11 @@ jobs:
           python - <<'PY'
           import hashlib
           from pathlib import Path
-          pins = {'audit_startup_interval.py': '94387dda437f4390b6fd346fd38012869e168460bccee08f52f1897439c245bb',
-                  'test_startup_interval.py': 'ff118c07b1cea6c89ea083c0082a56cf2a5de5dcbd8d26b5137f1a7ac1994850',
+          pins = {'audit_startup_interval.py': '78f25493d01cdeae7590c5d4c57559fd55352ff5c3507b327962d975d379066a',
+                  'test_startup_interval.py': '1bc7a8d06694ac4b31eb0f5f3910f5d42fd1dbed76e7b60c650cfd5cccf5364c',
+                  'portable_sync_98348.py': '1dd1fd9646b6b53368a65e3a5adeda4fc77688ebff1bef9bef82fae2c2601ae1',
+                  'test_portable_sync_98348.py': '161030665d19f4f62a8230c5199ec93823433361dee48ba3cc5f5ffe46dcc9d9',
+                  'observations/native-sync-98348-type-closure.json': '0c0227b406fcde24f2b3bd56466eae9e867be3b3abeb3f6df303629a10599e1b',
                   'observations/runtime-catalog-reference-anchors.json': '53f70fecc2343f355f67774e9d9694e6dc5f0ac4e0083c83680611da5a2bb7a9'}
           for name, expected in pins.items():
               if hashlib.sha256(Path(name).read_bytes()).hexdigest() != expected:
@@ -57,7 +63,7 @@ jobs:
       - name: Run lifecycle and interval regressions
         run: |
           set -euo pipefail
-          python -m unittest -v test_startup_interval test_catalog_diagnostics 2>&1 | tee work/audit/tests.log
+          python -m unittest -v test_portable_sync_98348 test_startup_interval test_catalog_diagnostics 2>&1 | tee work/audit/tests.log
       - name: Decode complete streams and reproduce the interval report twice
         run: |
           python audit_startup_interval.py --source work/source.StormReplay --candidate work/R8.StormReplay --output work/audit/report.json
@@ -80,6 +86,13 @@ jobs:
               raise RuntimeError('First interval differs from the reviewed observations')
           if result['candidate_sync']['record_count'] != 308 or result['replay_modified'] or result['client_playback_validated']:
               raise RuntimeError('Sync framing or evidence status changed')
+          for key in ('source_sync', 'candidate_sync'):
+              sync = result[key]
+              if (sync['profile'] != 'native-sync-98348' or not sync['byte_exact_roundtrip']
+                      or sync['first_recorded_gameloop'] != 64 or sync['last_recorded_gameloop'] != 19712
+                      or sync['event_id_counts'] != {'2': 308} or sync['record_byte_lengths'] != {'5': 308}
+                      or sync['first_divergent_tick_identified'] or sync['playback_compatibility_proven']):
+                  raise RuntimeError('Native sync physical observation or evidence boundary differs')
           checked = 0
           for filename in ('work/source.StormReplay', 'work/R8.StormReplay'):
               own = MPQArchive(Path(filename))
@@ -94,7 +107,7 @@ jobs:
                   independent.file.close()
           log = Path('work/audit/tests.log').read_text()
           count = int(re.search(r'Ran (\d+) tests', log)[1])
-          if count != 55 or 'skipped' in log.lower() or not log.rstrip().endswith('OK'):
+          if count != 67 or 'skipped' in log.lower() or not log.rstrip().endswith('OK'):
               raise RuntimeError('Requested regressions did not all pass')
           verification = {'run_id': int(os.environ['GITHUB_RUN_ID']), 'tested_commit': os.environ['GITHUB_SHA'],
                           'tests_passed': count, 'tests_failed': 0, 'tests_skipped': 0,
@@ -103,8 +116,11 @@ jobs:
                           'native_stormlib_run': False, 'game_client_started': False,
                           'replay_modified': False, 'client_playback_validated': False}
           Path('work/audit/verification.json').write_text(json.dumps(verification, indent=2) + '\n')
-          for file in ('audit_startup_interval.py', 'test_startup_interval.py'):
+          for file in ('audit_startup_interval.py', 'test_startup_interval.py',
+                       'portable_sync_98348.py', 'test_portable_sync_98348.py'):
               shutil.copyfile(file, Path('work/audit') / file)
+          shutil.copyfile('observations/native-sync-98348-type-closure.json',
+                          'work/audit/native-sync-98348-type-closure.json')
           for file in ('decoders.py', 'versions/protocol41810.py', 'versions/protocol96477.py'):
               dst = Path('work/audit/upstream/heroprotocol') / file
               dst.parent.mkdir(parents=True, exist_ok=True)
