@@ -1921,3 +1921,39 @@ Actual Unit cache/backend/manager values and old41810 rules remain missing.
 Replay/draft pins preserved; no freshdecode/prod/conversion/replay/sync change,
 tests/CI/peerreview, REAprovider/import/nativeexecution/emulation, game/CU/
 network/publication. Keepoffline; fullupgrade/playback false.
+
+
+## Offline catalog context lifetime and lazy slot replacement - 2026-10-27
+
+Read docs/NATIVE_CATALOG_CONTEXT_LAZY_ENTRY_2026-10-27.md and dated receipts.
+Full321370..321707 replaces prior15B caller window. Successful F20 allocation
+calls31E890, returnRBX published to3388B18 AND3388B20; derived3364AF0=context0,
+3364AE8=context5D8,3364AD0=context5E0. No postconstructor helpercalls here.
+Not actual init or populated counts. Full321FE0..3222FE restores savedcontext,
+refreshes aliases, calls6C4140(0), RELOADS active, ifnonnull calls31F720 then
+1A24B90(pointer,F20), directzeroactive/aliases BEFORE furtherexternalhelpers.
+Do not infer samepointer after6C4140 or zeros atfunctionreturn. Savedglobal
+has no directclear here, not allcallees/program. Both selected7B RIP candidate
+refs to3388B20 qualified; heuristic inventory is NOT exhaustive.
+
+201A490 selected Unit lookup still count38/table48; taggedslot calls
+1608180(slot-1,0), then reloads OWN manager/table/index. Full93B wrapper:
+RDX0->1607B10(P) returnsO; nonzeroRDX suppliesO. Calls27F6D0(P,4,0), unclosed.
+M=QWORD[O+68], i=WORD[O+2],j=DWORD[O+8], A=QWORD[M+48],B=QWORD[M+78].
+ONLY ifA[i]==(P|1), A[i]=O; EVERY normalpath B[j]=O. Plaincompare/branch/store,
+notatomicCAS. Onlydirectnonstackstores those2; no directcount38/90write.
+Externalhelper count/tableeffects remainconditions. Caller ignoresreturnreg.
+Objectowner/index/table equalcallerrequest NOT authenticated; no actual
+replacement, invaliddata diagnosis or acceptance follows fromcallalone.
+
+Full1607B10..160817C (1644B510instr) returns pointer from1600BC0(base=[P+8]),
+savedonceRSP68 then2normalRAXdefinitions. Fullbytes/CFG and returnidentity
+qualified; fulltemplate/mask expansionsemantics, producerbody,payloadorigin,
+O+68/+2/+8 values NOT. Do not infer owner/index from caller or staticmetadata.
+5fullranges3668B993instr(new3454B934instr),82checks/5flows/returnorigin and
+slotstorepaths pass. Actual encoded payload+producedfields+owner/requested
+tables or authentic mergedcatalog/IDassignment needed; more typedgetters or
+XMLname alone won't close gap. Historical41810 rules/playback stillrequired.
+No prod/conversion/replay/sync change, tests/CI/peerreview, provider/import/
+nativeexecution/emulation/game/CU/network/publication. Replay/draftpinspass.
+Keepoffline; fullupgrade/playback false.
