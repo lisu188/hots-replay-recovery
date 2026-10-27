@@ -1887,3 +1887,37 @@ native evidence. Replay/draft pins pass; no freshdecode/tests/CI/peerreview,
 prod/replay/sync change or publication. Keepoffline; fullupgrade/playbackfalse.
 Next populatedUnitmanager+samecontext588/manager30 input/merge identity,
 logical counts and real entries; historical41810/native playback still needed.
+
+
+## Offline Unit descriptor producer and nullable backing - 2026-10-27
+
+Read docs/NATIVE_UNIT_DESCRIPTOR_BACKING_2026-10-27.md and dated receipts.
+31E946->16083B0 initializes E=root+28;31E9DB stores root at context2E8.
+[E]=original142F2F988, DWORD[E+10]=0. Mutable global contents unobserved.
+Unit83 call31EB61->1609450 receives XML descriptor/R8D0/E; inherited result
+context588->manager30, managercontext2A0. No actual loaded membership follows.
+
+Full1609450 producer: selected optionalRDI0 proceeds after1EFA550 for either
+boolean. That helper body/actual file or parse semantics remain unaudited.
+16095AA->16092D0(E+8,key); nonzero cache hit returns existing descriptor,
+bypasses backend/ctor and does not refresh+28. Cache receiver+8=E+10 zero
+returnsnull without comparison calls. Not observed cache state at index83.
+
+Miss160962B->1EF9F80 exact15Btail addsRDX120, R8D0->2A7B10. Fullbackend
+defaultsR14zero; receiver+8 count0 skips loop, returnsnull under normalhelper/
+stable receiver conditions. Initial global address is not live empty data.
+Null backend + successful190 allocation:1609668 R14=stillzeroRBX; fiftharg
+callerRSP20 -> calleeentryRSP28 -> calleeRBP40 (3pushes). Full16081E0 ctor
+stores fiftharg atdescriptor28 withoutnullrejection, optional0 at20, returns
+inputallocation under explicit boundedhelper/noalias/ABI/normalreturn contracts.
+Cache/list helpers' fullmemoryeffects still conditions; no actual execution.
+
+Nonnull descriptor/path alone insufficient for loaded Unit/accepted links.
+Do NOT invent universal +28nonnull gate or infer all entries absent fromnull:
+inheritance/merge/managerpopulation notclosed. No prior desync/exit diagnosis.
+6ranges4247B1039instr (5fullPDataunions+1leaf,new2473B629instr), separate
+tail15B3instr,86checks/5flows/6paths/fifthargidentity/10relationmodels pass.
+Actual Unit cache/backend/manager values and old41810 rules remain missing.
+Replay/draft pins preserved; no freshdecode/prod/conversion/replay/sync change,
+tests/CI/peerreview, REAprovider/import/nativeexecution/emulation, game/CU/
+network/publication. Keepoffline; fullupgrade/playback false.

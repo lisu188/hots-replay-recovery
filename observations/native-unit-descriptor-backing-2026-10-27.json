@@ -1,0 +1,1030 @@
+{
+  "format": "native-Unit-descriptor-backing-static-v1",
+  "passed": true,
+  "base_commit": "23b64a40acc4e3b2f5185722d69328f539914f0d",
+  "authorities": {
+    "original_PE": {
+      "path": "C:\\Program Files (x86)\\Heroes of the Storm\\Versions\\Base98348\\HeroesOfTheStorm_x64.exe",
+      "bytes": 53573840,
+      "sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9"
+    },
+    "transformed_text": {
+      "path": "work/ghidra-replay-parser-20261020/verified-text-patch.local.bin",
+      "bytes": 36581376,
+      "sha256": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83"
+    },
+    "prior_gate_evidence": {
+      "path": "observations/native-selection-catalog-gates-2026-10-27.json",
+      "bytes": 46939,
+      "sha256": "88a3b5c095ef6392fb706f1fb050741ffc6ea79e1e390580fd7aad2a57f9b74b"
+    }
+  },
+  "qualified_code_ranges": [
+    {
+      "label": "context_constructor",
+      "start_rva": "0x31e890",
+      "end_exclusive_rva": "0x31ef7e",
+      "bytes": 1774,
+      "instructions": 410,
+      "sha256": "155c20380a6661cde7e8796694882ff016ce729ab6b85feabfbc36a45f152ce3",
+      "extent_scope": "complete original RuntimeFunction/CHAININFO union",
+      "original_fragments": [
+        [
+          "0x31e890",
+          "0x31ef7e",
+          "0x2c326ec"
+        ]
+      ]
+    },
+    {
+      "label": "descriptor_producer",
+      "start_rva": "0x1609450",
+      "end_exclusive_rva": "0x1609804",
+      "bytes": 948,
+      "instructions": 235,
+      "sha256": "e87c5b3109c8c58d3a633aec0136fd902a1c2a3ae9d0c80101b3a92041459bd0",
+      "extent_scope": "complete original RuntimeFunction/CHAININFO union",
+      "original_fragments": [
+        [
+          "0x1609450",
+          "0x1609463",
+          "0x2dc74e0"
+        ],
+        [
+          "0x1609463",
+          "0x1609609",
+          "0x2dc74ec"
+        ],
+        [
+          "0x1609609",
+          "0x1609622",
+          "0x2dc7510"
+        ],
+        [
+          "0x1609622",
+          "0x1609804",
+          "0x2dc7520"
+        ]
+      ]
+    },
+    {
+      "label": "descriptor_constructor",
+      "start_rva": "0x16081e0",
+      "end_exclusive_rva": "0x16083ac",
+      "bytes": 460,
+      "instructions": 111,
+      "sha256": "906dcf2af4c206714eb8c861d1ee6c221188b6bbba26c57e4a36cd3e93545b96",
+      "extent_scope": "complete original RuntimeFunction/CHAININFO union",
+      "original_fragments": [
+        [
+          "0x16081e0",
+          "0x16083ac",
+          "0x2dc7414"
+        ]
+      ]
+    },
+    {
+      "label": "backend_lookup",
+      "start_rva": "0x2a7b10",
+      "end_exclusive_rva": "0x2a7d37",
+      "bytes": 551,
+      "instructions": 137,
+      "sha256": "df0bc31cfc4dbf4a2e53ef0596a862d3f22a6fd1c204481d6aaac626e5ecb14c",
+      "extent_scope": "complete original RuntimeFunction/CHAININFO union",
+      "original_fragments": [
+        [
+          "0x2a7b10",
+          "0x2a7b24",
+          "0x2c29e68"
+        ],
+        [
+          "0x2a7b24",
+          "0x2a7c42",
+          "0x2c29e74"
+        ],
+        [
+          "0x2a7c42",
+          "0x2a7cf1",
+          "0x2c29e94"
+        ],
+        [
+          "0x2a7cf1",
+          "0x2a7d1d",
+          "0x2c29ea8"
+        ],
+        [
+          "0x2a7d1d",
+          "0x2a7d37",
+          "0x2c29eb8"
+        ]
+      ]
+    },
+    {
+      "label": "embedded_lookup_initializer",
+      "start_rva": "0x16083b0",
+      "end_exclusive_rva": "0x160843a",
+      "bytes": 138,
+      "instructions": 37,
+      "sha256": "b45346d8b3a6c205095afb3750f749d6201951b583fe0d9a54cd034832e737da",
+      "extent_scope": "complete branch-closed no-call leaf; subsequent seed bytes excluded",
+      "original_fragments": []
+    },
+    {
+      "label": "descriptor_cache_lookup",
+      "start_rva": "0x16092d0",
+      "end_exclusive_rva": "0x1609448",
+      "bytes": 376,
+      "instructions": 109,
+      "sha256": "cd3fa197cdf4734441707b6ebc42480d85b3c7c07b843bd211cca58a084128a2",
+      "extent_scope": "complete original RuntimeFunction/CHAININFO union",
+      "original_fragments": [
+        [
+          "0x16092d0",
+          "0x1609448",
+          "0x2dc765c"
+        ]
+      ]
+    }
+  ],
+  "qualified_code_bytes": 4247,
+  "qualified_instructions": 1039,
+  "new_code_bytes": 2473,
+  "new_instructions": 629,
+  "separate_lookup_tail_window": {
+    "start_rva": "0x1ef9f80",
+    "end_exclusive_rva": "0x1ef9f8f",
+    "bytes": 15,
+    "instructions": 3,
+    "sha256": "907e3b6daf9b2ac47cc11fe7e8e00ddafa6b97e9980c2a1616f1b4e024cf733f",
+    "scope": "exact no-PData external-tail window; no invented function extent",
+    "tail_target": "0x2a7b10"
+  },
+  "selected_instruction_checks": [
+    {
+      "rva": "0x31e942",
+      "bytes": "488d4b28",
+      "assembly": "lea rcx,[rbx+0x28]"
+    },
+    {
+      "rva": "0x31e9db",
+      "bytes": "49899ee8020000",
+      "assembly": "mov QWORD PTR [r14+0x2e8],rbx"
+    },
+    {
+      "rva": "0x31eb50",
+      "bytes": "498b8ee8020000",
+      "assembly": "mov rcx,QWORD PTR [r14+0x2e8]"
+    },
+    {
+      "rva": "0x31eb57",
+      "bytes": "4533c0",
+      "assembly": "xor r8d,r8d"
+    },
+    {
+      "rva": "0x31eb5a",
+      "bytes": "4883c128",
+      "assembly": "add rcx,0x28"
+    },
+    {
+      "rva": "0x31eb5e",
+      "bytes": "498bd5",
+      "assembly": "mov rdx,r13"
+    },
+    {
+      "rva": "0x31eb6b",
+      "bytes": "498987e8020000",
+      "assembly": "mov QWORD PTR [r15+0x2e8],rax"
+    },
+    {
+      "rva": "0x31ebb0",
+      "bytes": "498b8fe8020000",
+      "assembly": "mov rcx,QWORD PTR [r15+0x2e8]"
+    },
+    {
+      "rva": "0x31ebcc",
+      "bytes": "48894b30",
+      "assembly": "mov QWORD PTR [rbx+0x30],rcx"
+    },
+    {
+      "rva": "0x16083b0",
+      "bytes": "33d2",
+      "assembly": "xor edx,edx"
+    },
+    {
+      "rva": "0x16083b9",
+      "bytes": "488901",
+      "assembly": "mov QWORD PTR [rcx],rax"
+    },
+    {
+      "rva": "0x16083c6",
+      "bytes": "895110",
+      "assembly": "mov DWORD PTR [rcx+0x10],edx"
+    },
+    {
+      "rva": "0x1608436",
+      "bytes": "488bc1",
+      "assembly": "mov rax,rcx"
+    },
+    {
+      "rva": "0x1609467",
+      "bytes": "498bf8",
+      "assembly": "mov rdi,r8"
+    },
+    {
+      "rva": "0x1609475",
+      "bytes": "4c8be1",
+      "assembly": "mov r12,rcx"
+    },
+    {
+      "rva": "0x1609485",
+      "bytes": "4c8bfa",
+      "assembly": "mov r15,rdx"
+    },
+    {
+      "rva": "0x1609492",
+      "bytes": "498b1424",
+      "assembly": "mov rdx,QWORD PTR [r12]"
+    },
+    {
+      "rva": "0x160949d",
+      "bytes": "33db",
+      "assembly": "xor ebx,ebx"
+    },
+    {
+      "rva": "0x16094a6",
+      "bytes": "4d8bcf",
+      "assembly": "mov r9,r15"
+    },
+    {
+      "rva": "0x16094ac",
+      "bytes": "4c8bc7",
+      "assembly": "mov r8,rdi"
+    },
+    {
+      "rva": "0x1609527",
+      "bytes": "84c0",
+      "assembly": "test al,al"
+    },
+    {
+      "rva": "0x1609529",
+      "bytes": "7509",
+      "assembly": "jne 0x141609534"
+    },
+    {
+      "rva": "0x160952b",
+      "bytes": "4885ff",
+      "assembly": "test rdi,rdi"
+    },
+    {
+      "rva": "0x160952e",
+      "bytes": "0f859e000000",
+      "assembly": "jne 0x1416095d2"
+    },
+    {
+      "rva": "0x160959f",
+      "bytes": "498d4c2408",
+      "assembly": "lea rcx,[r12+0x8]"
+    },
+    {
+      "rva": "0x16095b3",
+      "bytes": "4c8bf0",
+      "assembly": "mov r14,rax"
+    },
+    {
+      "rva": "0x16095ca",
+      "bytes": "4d85f6",
+      "assembly": "test r14,r14"
+    },
+    {
+      "rva": "0x16095cd",
+      "bytes": "7453",
+      "assembly": "je 0x141609622"
+    },
+    {
+      "rva": "0x16095cf",
+      "bytes": "498bde",
+      "assembly": "mov rbx,r14"
+    },
+    {
+      "rva": "0x16095d2",
+      "bytes": "488bfb",
+      "assembly": "mov rdi,rbx"
+    },
+    {
+      "rva": "0x1609615",
+      "bytes": "488bc7",
+      "assembly": "mov rax,rdi"
+    },
+    {
+      "rva": "0x1609622",
+      "bytes": "498b0c24",
+      "assembly": "mov rcx,QWORD PTR [r12]"
+    },
+    {
+      "rva": "0x1609626",
+      "bytes": "488d542460",
+      "assembly": "lea rdx,[rsp+0x60]"
+    },
+    {
+      "rva": "0x1609630",
+      "bytes": "4c8bf0",
+      "assembly": "mov r14,rax"
+    },
+    {
+      "rva": "0x1609633",
+      "bytes": "4885c0",
+      "assembly": "test rax,rax"
+    },
+    {
+      "rva": "0x1609636",
+      "bytes": "7416",
+      "assembly": "je 0x14160964e"
+    },
+    {
+      "rva": "0x1609638",
+      "bytes": "483bc7",
+      "assembly": "cmp rax,rdi"
+    },
+    {
+      "rva": "0x160964e",
+      "bytes": "b990010000",
+      "assembly": "mov ecx,0x190"
+    },
+    {
+      "rva": "0x1609658",
+      "bytes": "4885c0",
+      "assembly": "test rax,rax"
+    },
+    {
+      "rva": "0x160965b",
+      "bytes": "0f8471ffffff",
+      "assembly": "je 0x1416095d2"
+    },
+    {
+      "rva": "0x1609661",
+      "bytes": "4c8dbdb0000000",
+      "assembly": "lea r15,[rbp+0xb0]"
+    },
+    {
+      "rva": "0x1609668",
+      "bytes": "4c8bf3",
+      "assembly": "mov r14,rbx"
+    },
+    {
+      "rva": "0x160966b",
+      "bytes": "4c8d85b0000000",
+      "assembly": "lea r8,[rbp+0xb0]"
+    },
+    {
+      "rva": "0x1609672",
+      "bytes": "4c89742420",
+      "assembly": "mov QWORD PTR [rsp+0x20],r14"
+    },
+    {
+      "rva": "0x1609677",
+      "bytes": "4c8bcf",
+      "assembly": "mov r9,rdi"
+    },
+    {
+      "rva": "0x160967a",
+      "bytes": "498bd7",
+      "assembly": "mov rdx,r15"
+    },
+    {
+      "rva": "0x160967d",
+      "bytes": "488bc8",
+      "assembly": "mov rcx,rax"
+    },
+    {
+      "rva": "0x1609685",
+      "bytes": "488bf8",
+      "assembly": "mov rdi,rax"
+    },
+    {
+      "rva": "0x1609688",
+      "bytes": "4885c0",
+      "assembly": "test rax,rax"
+    },
+    {
+      "rva": "0x160968b",
+      "bytes": "0f8441ffffff",
+      "assembly": "je 0x1416095d2"
+    },
+    {
+      "rva": "0x16081ef",
+      "bytes": "55",
+      "assembly": "push rbp"
+    },
+    {
+      "rva": "0x16081f0",
+      "bytes": "4156",
+      "assembly": "push r14"
+    },
+    {
+      "rva": "0x16081f2",
+      "bytes": "4157",
+      "assembly": "push r15"
+    },
+    {
+      "rva": "0x16081f4",
+      "bytes": "488bec",
+      "assembly": "mov rbp,rsp"
+    },
+    {
+      "rva": "0x16081f7",
+      "bytes": "4883ec50",
+      "assembly": "sub rsp,0x50"
+    },
+    {
+      "rva": "0x1608208",
+      "bytes": "498bf1",
+      "assembly": "mov rsi,r9"
+    },
+    {
+      "rva": "0x160820b",
+      "bytes": "498bf8",
+      "assembly": "mov rdi,r8"
+    },
+    {
+      "rva": "0x160820e",
+      "bytes": "488bd9",
+      "assembly": "mov rbx,rcx"
+    },
+    {
+      "rva": "0x16082a4",
+      "bytes": "488b4540",
+      "assembly": "mov rax,QWORD PTR [rbp+0x40]"
+    },
+    {
+      "rva": "0x16082a8",
+      "bytes": "48894328",
+      "assembly": "mov QWORD PTR [rbx+0x28],rax"
+    },
+    {
+      "rva": "0x16082ac",
+      "bytes": "48897320",
+      "assembly": "mov QWORD PTR [rbx+0x20],rsi"
+    },
+    {
+      "rva": "0x160837f",
+      "bytes": "488bc3",
+      "assembly": "mov rax,rbx"
+    },
+    {
+      "rva": "0x16092ed",
+      "bytes": "8b4108",
+      "assembly": "mov eax,DWORD PTR [rcx+0x8]"
+    },
+    {
+      "rva": "0x16092f0",
+      "bytes": "85c0",
+      "assembly": "test eax,eax"
+    },
+    {
+      "rva": "0x16092f2",
+      "bytes": "0f8431010000",
+      "assembly": "je 0x141609429"
+    },
+    {
+      "rva": "0x1609429",
+      "bytes": "33c0",
+      "assembly": "xor eax,eax"
+    },
+    {
+      "rva": "0x1609443",
+      "bytes": "488bc7",
+      "assembly": "mov rax,rdi"
+    },
+    {
+      "rva": "0x1ef9f80",
+      "bytes": "4881c220010000",
+      "assembly": "add rdx,0x120"
+    },
+    {
+      "rva": "0x1ef9f87",
+      "bytes": "4533c0",
+      "assembly": "xor r8d,r8d"
+    },
+    {
+      "rva": "0x2a7b2f",
+      "bytes": "418bf0",
+      "assembly": "mov esi,r8d"
+    },
+    {
+      "rva": "0x2a7b36",
+      "bytes": "4c8be9",
+      "assembly": "mov r13,rcx"
+    },
+    {
+      "rva": "0x2a7b67",
+      "bytes": "4533f6",
+      "assembly": "xor r14d,r14d"
+    },
+    {
+      "rva": "0x2a7c32",
+      "bytes": "458b7d08",
+      "assembly": "mov r15d,DWORD PTR [r13+0x8]"
+    },
+    {
+      "rva": "0x2a7c39",
+      "bytes": "4585ff",
+      "assembly": "test r15d,r15d"
+    },
+    {
+      "rva": "0x2a7c3c",
+      "bytes": "0f84af000000",
+      "assembly": "je 0x1402a7cf1"
+    },
+    {
+      "rva": "0x2a7ce5",
+      "bytes": "4c8b34c8",
+      "assembly": "mov r14,QWORD PTR [rax+rcx*8]"
+    },
+    {
+      "rva": "0x2a7d29",
+      "bytes": "498bc6",
+      "assembly": "mov rax,r14"
+    },
+    {
+      "rva": "0x31e946",
+      "direct_target_rva": "0x16083b0",
+      "operation": "call"
+    },
+    {
+      "rva": "0x31eb61",
+      "direct_target_rva": "0x1609450",
+      "operation": "call"
+    },
+    {
+      "rva": "0x1609522",
+      "direct_target_rva": "0x1efa550",
+      "operation": "call"
+    },
+    {
+      "rva": "0x16095aa",
+      "direct_target_rva": "0x16092d0",
+      "operation": "call"
+    },
+    {
+      "rva": "0x160962b",
+      "direct_target_rva": "0x1ef9f80",
+      "operation": "call"
+    },
+    {
+      "rva": "0x1609653",
+      "direct_target_rva": "0x1372530",
+      "operation": "call"
+    },
+    {
+      "rva": "0x1609680",
+      "direct_target_rva": "0x16081e0",
+      "operation": "call"
+    },
+    {
+      "rva": "0x1ef9f8a",
+      "direct_target_rva": "0x2a7b10",
+      "operation": "tail jump"
+    },
+    {
+      "rva": "0x16083b2",
+      "original_RIP_target_rva": "0x2f2f988"
+    }
+  ],
+  "register_flow_checks": [
+    {
+      "function": "descriptor_constructor",
+      "definition": "0x160820e",
+      "use": "0x160837f",
+      "no_conflicting_explicit_nonvolatile_write": true
+    },
+    {
+      "function": "descriptor_constructor",
+      "definition": "0x1608208",
+      "use": "0x16082ac",
+      "no_conflicting_explicit_nonvolatile_write": true
+    },
+    {
+      "function": "descriptor_producer",
+      "definition": "0x1609475",
+      "use": "0x1609622",
+      "no_conflicting_explicit_nonvolatile_write": true
+    },
+    {
+      "function": "descriptor_producer",
+      "definition": "0x1609467",
+      "use": "0x1609677",
+      "no_conflicting_explicit_nonvolatile_write": true
+    },
+    {
+      "function": "descriptor_producer",
+      "definition": "0x160949d",
+      "use": "0x1609668",
+      "no_conflicting_explicit_nonvolatile_write": true,
+      "value": "zero"
+    }
+  ],
+  "selected_path_checks": [
+    {
+      "label": "initialized cache capacity zero returns null without comparison calls",
+      "function": "descriptor_cache_lookup",
+      "instruction_path_rvas": [
+        "0x16092d0",
+        "0x16092d5",
+        "0x16092da",
+        "0x16092de",
+        "0x16092df",
+        "0x16092e0",
+        "0x16092e1",
+        "0x16092e3",
+        "0x16092e5",
+        "0x16092e7",
+        "0x16092e9",
+        "0x16092ed",
+        "0x16092f0",
+        "0x16092f2",
+        "0x1609429",
+        "0x160942b",
+        "0x1609433",
+        "0x1609437",
+        "0x1609439",
+        "0x160943b",
+        "0x160943d",
+        "0x160943f",
+        "0x1609440",
+        "0x1609441",
+        "0x1609442"
+      ],
+      "path_constraints": {
+        "0x16092f2": "0x1609429"
+      }
+    },
+    {
+      "label": "backend zero-entry receiver retains default null result",
+      "function": "backend_lookup",
+      "instruction_path_rvas": [
+        "0x2a7b10",
+        "0x2a7b13",
+        "0x2a7b14",
+        "0x2a7b16",
+        "0x2a7b1d",
+        "0x2a7b24",
+        "0x2a7b28",
+        "0x2a7b2b",
+        "0x2a7b2f",
+        "0x2a7b32",
+        "0x2a7b36",
+        "0x2a7b39",
+        "0x2a7b3d",
+        "0x2a7b43",
+        "0x2a7b45",
+        "0x2a7b47",
+        "0x2a7b50",
+        "0x2a7b57",
+        "0x2a7b5f",
+        "0x2a7b67",
+        "0x2a7b6a",
+        "0x2a7b6f",
+        "0x2a7b75",
+        "0x2a7b78",
+        "0x2a7b7c",
+        "0x2a7b7f",
+        "0x2a7b82",
+        "0x2a7b93",
+        "0x2a7b9a",
+        "0x2a7b9f",
+        "0x2a7ba4",
+        "0x2a7ba9",
+        "0x2a7bac",
+        "0x2a7baf",
+        "0x2a7bb4",
+        "0x2a7bb9",
+        "0x2a7bbe",
+        "0x2a7bc3",
+        "0x2a7bc8",
+        "0x2a7bcb",
+        "0x2a7bd0",
+        "0x2a7bd3",
+        "0x2a7bd8",
+        "0x2a7bdb",
+        "0x2a7bde",
+        "0x2a7be1",
+        "0x2a7be4",
+        "0x2a7be7",
+        "0x2a7bea",
+        "0x2a7bef",
+        "0x2a7bf1",
+        "0x2a7c02",
+        "0x2a7c07",
+        "0x2a7c0c",
+        "0x2a7c11",
+        "0x2a7c15",
+        "0x2a7c1a",
+        "0x2a7c1e",
+        "0x2a7c23",
+        "0x2a7c25",
+        "0x2a7c27",
+        "0x2a7c2d",
+        "0x2a7c32",
+        "0x2a7c36",
+        "0x2a7c39",
+        "0x2a7c3c",
+        "0x2a7cf1",
+        "0x2a7cf5",
+        "0x2a7cfd",
+        "0x2a7d00",
+        "0x2a7d08",
+        "0x2a7d10",
+        "0x2a7d18",
+        "0x2a7d1b",
+        "0x2a7d29",
+        "0x2a7d2c",
+        "0x2a7d33",
+        "0x2a7d35",
+        "0x2a7d36"
+      ],
+      "path_constraints": {
+        "0x2a7c3c": "0x2a7cf1"
+      }
+    },
+    {
+      "label": "cache hit bypasses backend and descriptor constructor",
+      "function": "descriptor_producer",
+      "instruction_path_rvas": [
+        "0x16095ca",
+        "0x16095cd",
+        "0x16095cf",
+        "0x16095d2",
+        "0x16095d5",
+        "0x16095d9",
+        "0x16095e1",
+        "0x16095e4",
+        "0x16095ec",
+        "0x16095f4",
+        "0x16095fc",
+        "0x1609604",
+        "0x1609607",
+        "0x1609615",
+        "0x1609618",
+        "0x160961f",
+        "0x1609620",
+        "0x1609621"
+      ],
+      "path_constraints": {
+        "0x16095cd": "0x16095cf"
+      }
+    },
+    {
+      "label": "cache miss null backend successful allocation passes zero as fifth argument",
+      "function": "descriptor_producer",
+      "instruction_path_rvas": [
+        "0x16095ca",
+        "0x16095cd",
+        "0x1609622",
+        "0x1609626",
+        "0x160962b",
+        "0x1609630",
+        "0x1609633",
+        "0x1609636",
+        "0x160964e",
+        "0x1609653",
+        "0x1609658",
+        "0x160965b",
+        "0x1609661",
+        "0x1609668",
+        "0x160966b",
+        "0x1609672",
+        "0x1609677",
+        "0x160967a",
+        "0x160967d",
+        "0x1609680"
+      ],
+      "path_constraints": {
+        "0x16095cd": "0x1609622",
+        "0x1609636": "0x160964e",
+        "0x160965b": "0x1609661"
+      }
+    },
+    {
+      "label": "normalizer true proceeds with optional input zero",
+      "function": "descriptor_producer",
+      "instruction_path_rvas": [
+        "0x1609527",
+        "0x1609529",
+        "0x1609534"
+      ],
+      "path_constraints": {
+        "0x1609529": "0x1609534"
+      }
+    },
+    {
+      "label": "normalizer false also proceeds with optional input zero",
+      "function": "descriptor_producer",
+      "instruction_path_rvas": [
+        "0x1609527",
+        "0x1609529",
+        "0x160952b",
+        "0x160952e",
+        "0x1609534"
+      ],
+      "path_constraints": {
+        "0x1609529": "0x160952b",
+        "0x160952e": "0x1609534"
+      }
+    }
+  ],
+  "fifth_argument_binding": {
+    "ABI": "Windows x64 normal call and disjoint valid stack",
+    "caller_fifth_argument_offset": "rsp+0x20",
+    "callee_entry_fifth_argument_offset": "rsp+0x28",
+    "callee_after_three_pushes_fifth_argument": "rbp+0x40",
+    "same_address_checked": true,
+    "direct_store_field": "descriptor+0x28",
+    "optional_input_field": "descriptor+0x20"
+  },
+  "Unit_binding_inherited": {
+    "catalog_index": 83,
+    "manager_context_offset": "0x2a0",
+    "descriptor_result_context_offset": "0x588",
+    "manager_descriptor_result_offset": "0x30",
+    "descriptor_literal": "GameData/UnitData.xml",
+    "prior_binding_bytes_rechecked": true
+  },
+  "lookup_initializer": {
+    "embedded_receiver": "QWORD[context+0x2e8]+0x28",
+    "field_zero_original_global_address": "0x142f2f988",
+    "cache_receiver": "embedded+8",
+    "capacity_read": "DWORD[cache_receiver+8] = DWORD[embedded+0x10]",
+    "capacity_initialized_zero": true,
+    "global_backend_live_state_known": false,
+    "empty_cache_at_Unit_index83_observed_or_proven": false
+  },
+  "static_relation_models": [
+    {
+      "external_helper_boolean": false,
+      "optional_input": 0,
+      "case": "cache_hit",
+      "backend_called": false,
+      "backend_result_model": null,
+      "descriptor_result_model": 3145728,
+      "descriptor_field_0x28_after_selected_store_model": "unobserved/not-created",
+      "full_native_execution_or_emulation": false
+    },
+    {
+      "external_helper_boolean": false,
+      "optional_input": 0,
+      "case": "miss_null_allocate_fail",
+      "backend_called": true,
+      "backend_result_model": 0,
+      "descriptor_result_model": 0,
+      "descriptor_field_0x28_after_selected_store_model": "unobserved/not-created",
+      "full_native_execution_or_emulation": false
+    },
+    {
+      "external_helper_boolean": false,
+      "optional_input": 0,
+      "case": "miss_null_allocate_ok",
+      "backend_called": true,
+      "backend_result_model": 0,
+      "descriptor_result_model": 4194304,
+      "descriptor_field_0x28_after_selected_store_model": 0,
+      "full_native_execution_or_emulation": false
+    },
+    {
+      "external_helper_boolean": false,
+      "optional_input": 0,
+      "case": "miss_found_allocate_fail",
+      "backend_called": true,
+      "backend_result_model": 2097152,
+      "descriptor_result_model": 0,
+      "descriptor_field_0x28_after_selected_store_model": "unobserved/not-created",
+      "full_native_execution_or_emulation": false
+    },
+    {
+      "external_helper_boolean": false,
+      "optional_input": 0,
+      "case": "miss_found_allocate_ok",
+      "backend_called": true,
+      "backend_result_model": 2097152,
+      "descriptor_result_model": 4194304,
+      "descriptor_field_0x28_after_selected_store_model": 2097152,
+      "full_native_execution_or_emulation": false
+    },
+    {
+      "external_helper_boolean": true,
+      "optional_input": 0,
+      "case": "cache_hit",
+      "backend_called": false,
+      "backend_result_model": null,
+      "descriptor_result_model": 3145728,
+      "descriptor_field_0x28_after_selected_store_model": "unobserved/not-created",
+      "full_native_execution_or_emulation": false
+    },
+    {
+      "external_helper_boolean": true,
+      "optional_input": 0,
+      "case": "miss_null_allocate_fail",
+      "backend_called": true,
+      "backend_result_model": 0,
+      "descriptor_result_model": 0,
+      "descriptor_field_0x28_after_selected_store_model": "unobserved/not-created",
+      "full_native_execution_or_emulation": false
+    },
+    {
+      "external_helper_boolean": true,
+      "optional_input": 0,
+      "case": "miss_null_allocate_ok",
+      "backend_called": true,
+      "backend_result_model": 0,
+      "descriptor_result_model": 4194304,
+      "descriptor_field_0x28_after_selected_store_model": 0,
+      "full_native_execution_or_emulation": false
+    },
+    {
+      "external_helper_boolean": true,
+      "optional_input": 0,
+      "case": "miss_found_allocate_fail",
+      "backend_called": true,
+      "backend_result_model": 2097152,
+      "descriptor_result_model": 0,
+      "descriptor_field_0x28_after_selected_store_model": "unobserved/not-created",
+      "full_native_execution_or_emulation": false
+    },
+    {
+      "external_helper_boolean": true,
+      "optional_input": 0,
+      "case": "miss_found_allocate_ok",
+      "backend_called": true,
+      "backend_result_model": 2097152,
+      "descriptor_result_model": 4194304,
+      "descriptor_field_0x28_after_selected_store_model": 2097152,
+      "full_native_execution_or_emulation": false
+    }
+  ],
+  "nonnull_descriptor_zero_backing_selected_route_cases": 2,
+  "conclusions": [
+    "Selected optional input is zero: either external helper boolean proceeds to the same cache lookup.",
+    "A nonzero cached descriptor bypasses backend lookup and constructor; selected hit path does not refresh its +0x28 field.",
+    "An initialized zero-capacity cache can return null without any comparison-helper call; this is not observed Unit-index83 cache state.",
+    "Backend target admits a null return for a valid stable receiver with zero entries under ordinary helper and memory contracts.",
+    "A cache miss plus null backend result plus successful allocation passes fifth argument zero; descriptor constructor directly stores it at +0x28 and returns its input allocation under explicit contracts.",
+    "Nonzero descriptor pointer/path string is insufficient evidence of effective Unit entries or accepted selection links."
+  ],
+  "conditions": [
+    "Windows x64 ABI/nonvolatile preservation and ordinary instruction semantics; all selected calls return normally.",
+    "Valid initialized receivers and temporary string objects; disjoint allocation of at least0x190 bytes and valid separate private stack.",
+    "No memory faults, exception/reentry, concurrency, self-modifying code, or alias writes to retained receivers, pointers, stack, globals or object fields.",
+    "External string/normalization/allocation/cache-registration helpers have ordinary bounded memory effects and preserve descriptor +0x28 after its direct store.",
+    "Backend zero-entry and cache-miss paths are selected static conditions, not authenticated runtime state or actual Unit loading results.",
+    "Cache node insertion/list helpers return normally; full parsed content identity, inheritance/merge and Unit manager population remain unclosed."
+  ],
+  "actual_Unit_descriptor_or_backend_captured": false,
+  "actual_Unit_input_missing_or_empty_proven": false,
+  "nonnull_descriptor_field_0x28_required_for_all_effective_entries_proven": false,
+  "actual_loaded_Unit_data_or_insertion_gate_acceptance_proven": false,
+  "conditional_singleton_acceptance_gap_removed": false,
+  "prior_desync_or_exit_cause_established": false,
+  "external_helper_1EFA550_body_audited": false,
+  "replays": [
+    {
+      "label": "source",
+      "path": "work/TEN_GREYMANE_source_41810.StormReplay",
+      "bytes": 635140,
+      "sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824"
+    },
+    {
+      "label": "R8",
+      "path": "work/native-20261018/TEN_GREYMANE_client98285_RESUMABLE_R8_PARTIAL.StormReplay",
+      "bytes": 2438570,
+      "sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19"
+    },
+    {
+      "label": "current",
+      "path": "work/eu-replay-search-20261018/heroeslounge-27515-g1-20261005.StormReplay",
+      "bytes": 978482,
+      "sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4"
+    }
+  ],
+  "unused_launcher_drafts": [
+    {
+      "path": "scripts/run_current_replay_control.py",
+      "bytes": 17147,
+      "sha256": "6315c2dd9291aa5185db0831e1d7c00f24f1d3f33ceb0bd79f8a636dd2aacaea"
+    },
+    {
+      "path": "test_current_replay_control.py",
+      "bytes": 2450,
+      "sha256": "7a00561260e2c0f64a41b9f73cbf8910550f90e4a6d6ad80e7a1d1719879f297"
+    }
+  ],
+  "fresh_game_or_tracker_decode": false,
+  "production_or_conversion_changed": false,
+  "unit_tests_authored_or_rerun": false,
+  "independent_peer_review": false,
+  "REA_native_provider_analysis": false,
+  "native_target_executed": false,
+  "native_code_emulated": false,
+  "external_network_or_game_or_Computer_Use_requested": false,
+  "new_replay_or_sync_written": false,
+  "safe_talent_index_migration_established": false,
+  "full_upgrade_complete": false
+}
