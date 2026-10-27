@@ -1,0 +1,92 @@
+{
+  "format": "native-selection-initializer-memory-static-validation-v1",
+  "passed": true,
+  "base_commit": "5f532fff96df1e220b76c66be82fdd4e7cab4ceb",
+  "qualified_ranges": 7,
+  "qualified_code_bytes": 1545,
+  "qualified_instructions": 293,
+  "new_qualified_code_bytes": 911,
+  "new_qualified_instructions": 155,
+  "selected_instruction_checks": 73,
+  "descriptor_stores_checked": 96,
+  "selected_zero_fill_interval_cases": 96,
+  "selected_zero_fill_sizes": [
+    128,
+    256,
+    147840
+  ],
+  "fill_conditional_prefix_bytes": 204,
+  "fill_remaining_function_bytes_excluded": 196,
+  "normal_return_empty_row_result_established_under_conditions": true,
+  "actual_client_row_or_execution_captured": false,
+  "synthetic_expected_row": {
+    "bytes": 420,
+    "synthetic_expected_bytes_sha256": "b6ba1c6cdea61779b0210bd9211965059584cfb36641b45bea720cf38bd7aebf",
+    "unit_group_and_active_subgroup_counts": [
+      0,
+      0,
+      0
+    ],
+    "unit_items_zeroed": true,
+    "per_unit_group_tags_initial_byte": 32,
+    "subgroup_descriptor_array_zeroed": true,
+    "allocation_backed_row_byte3_initial_zero_from_whole_allocation_fill": true,
+    "normal_return_initializer_empty_row_result_established_under_conditions": true,
+    "actual_client_memory_or_execution_captured": false
+  },
+  "private_receipt": {
+    "path": "qualified-initializer-memory.private.json",
+    "bytes": 57892,
+    "sha256": "26bae98cafbb2fe9121772ccf278e16efc45aa536afd83c9c78a8a3f95449d76"
+  },
+  "qualifier": {
+    "path": "native-selection-initializer-memory-20261027/qualify_initializer_memory.py",
+    "bytes": 14951,
+    "sha256": "41122a8a0a270edfe5d767361793a8885e2ab9c74b9b57bf7c8c29fd72b12eff"
+  },
+  "replays": [
+    {
+      "label": "source",
+      "path": "work/TEN_GREYMANE_source_41810.StormReplay",
+      "bytes": 635140,
+      "sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824"
+    },
+    {
+      "label": "R8",
+      "path": "work/native-20261018/TEN_GREYMANE_client98285_RESUMABLE_R8_PARTIAL.StormReplay",
+      "bytes": 2438570,
+      "sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19"
+    },
+    {
+      "label": "current",
+      "path": "work/eu-replay-search-20261018/heroeslounge-27515-g1-20261005.StormReplay",
+      "bytes": 978482,
+      "sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4"
+    }
+  ],
+  "unused_launcher_drafts": [
+    {
+      "path": "scripts/run_current_replay_control.py",
+      "bytes": 17147,
+      "sha256": "6315c2dd9291aa5185db0831e1d7c00f24f1d3f33ceb0bd79f8a636dd2aacaea"
+    },
+    {
+      "path": "test_current_replay_control.py",
+      "bytes": 2450,
+      "sha256": "7a00561260e2c0f64a41b9f73cbf8910550f90e4a6d6ad80e7a1d1719879f297"
+    }
+  ],
+  "replay_and_draft_hashes_rechecked": true,
+  "fresh_game_or_tracker_decode": false,
+  "production_or_conversion_changed": false,
+  "unit_tests_authored_or_rerun": false,
+  "full_corpus_or_hosted_CI_run": false,
+  "independent_peer_review": false,
+  "native_target_executed": false,
+  "native_code_emulated": false,
+  "REA_native_provider_analysis": false,
+  "network_or_game_or_Computer_Use": false,
+  "new_replay_or_sync_written": false,
+  "safe_talent_index_migration_established": false,
+  "full_upgrade_complete": false
+}

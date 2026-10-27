@@ -1777,3 +1777,35 @@ selected unit/owner and historical41810 rules remain open. No production/replay/
 sync change, unit tests/CI/peer review, REA provider/native execution. Keep all
 work offline; full upgrade/playback false. Next exact init/helper preservation
 and effective inputs before attributing talent actors or changing conversion.
+
+
+## Offline selection initializer memory effects - 2026-10-27
+
+Read docs/NATIVE_SELECTION_INITIALIZER_MEMORY_2026-10-27.md and dated evidence/
+validation. 202D3C0..202D673 is691B/98instr no-call/stack leaf:96stores,32x8B
+descriptors, DWORD+0=03FF0100,WORD+4=0,BYTE+6=0,byte7untouched. LastwrittenFE,
+all within supplied256B. Full row ctor's LATER zero fill overwrites defaults.
+
+1A2B6C0 original extent ends1A2B850, but only204B prefix through1A2B78C is
+qualified for selected zero-fill sizes80/100/24180 hex. Remaining196B include
+unqualified data/short-size path. Do not use whole linear exploratory decode
+as full code. Size<=16 branch excluded by actual selected operands. Feature
+3B5934C bit2(17..128)/bit1(>128) choosesSSE or qualified16B REP tail1A2B6A0.
+DFclear and validR11 from prefix required; tail preservesRDI via disjoint stack.
+96operand-derived interval cases (3sizes*16alignments*2routes) exact-cover each
+buffer with no outside output stores, aligned SSE stores aligned. Not native
+execution/emulation or a proof for arbitrary sizes/short path.
+
+Helper footprints now preserve row0..2 directzero stores under normal returns.
+With allocationfill/loops, all352rows normalinit ends count/group/index0,
+items4..83zero,tags84..A3=20,descriptorsA4..1A3zero,padbyte3zero. Expected420B
+row hash is SYNTHETIC, not runtime capture. Active176..191 bind priorgetter.
+Actual init occurrence/retention, later snapshot/reset/dispatch effects and
+effective catalog/actor values still open. Do not treat empty spec as live row.
+
+7ranges1545B/293instr (3new911B/155instr),73selected checks,96descriptor stores
+and96fill interval cases pass. PE/transformed/replay/draft hashes rechecked.
+No production/replay/sync change, freshdecode/tests/CI/peer review, REA provider,
+native execution or emulation. Keep all work offline; full upgrade/playback
+false. Next cumulative removal-mask/state semantics and effective definitions
+before talent actor/owner attribution; historical41810 and playback still needed.
