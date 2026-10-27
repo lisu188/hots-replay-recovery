@@ -1668,3 +1668,51 @@ client objects/talent values and effective/historical41810 rules remain open.
 Keep all work offline: no game, Computer Use, network or publication; original/
 R8/current/sync unchanged; full upgrade/playback false. Next actual player/unit/
 talent producer/consumer context, without guessed indices or player remapping.
+
+
+## Offline selection producer and talent-unit context - 2026-10-27
+
+Read docs/NATIVE_SELECTION_TALENT_CONTEXT_2026-10-27.md and its two dated
+native-selection-talent-context receipts. Official28=SelectionDelta,29=ControlGroup
+Update,30=SelectionSyncCheck. Selected header3001C/index14/selector7/caseB5F7B0
+callsB61970 atB5F7BB. Existing originalvptr26643A0/methods/root-slot27BEB7C bind
+payload303. Original layout303 is bank0/delta8; inner delta offsets0,4,30,F8.
+Negative STRUCTtags are not equated with upstream tags; declaration-order and
+matching shapes/consumer offsets support selected field names, not whole reader.
+
+B61970 forwards user=event29,bank=event30,delta=event+38 toA286A0 after its gate.
+Updater uses same encoded base asA28B60: bank<10 ->row(192+10*user+bank)*1A4;
+bank>=10 ->row(176+user)*1A4, exactly talent lookup row. Valid user0..15/bank0..15
+address model96active/160stored cases passes; not target execution. A283F0/A27B50
+snapshot-hook effects not fully closed. Same-base/user/field stability required.
+
+202DBC0 applies removals/additions then at202DD3A writes row2 from delta byte0
+(subgroupIndex) if below row1, else0. B612D0 reads this DYNAMIC byte2 into query
+tagR9 and capacity1 intoR8, then202ED90 returns first matching DWORD handle from
+row4+4*i with tags row84+i. Offset2 is NOT literal tag2. API error-context names
+UnitIsSelected/UnitGroupSelected use same A28B60 valid-user row branch; export
+registration/alternate player-row semantics are not universally asserted.
+
+Exact actor still needs effective link resolution:5E1B70 reads context3388B18,
+table+2A0,count90,entriesA0,uint16 index, output reference0 on null slot/out-of-range.
+202D910 uses201A490/ref gate,capacity32,definition word40 and993DA0 predicate;
+descriptor may include unit index>>22 or3FF. Effective inputs NOT captured,
+whole subgroup/order/mask-memory model not reconstructed. No guessed XML flag,
+native RTTI class, fixed hero list, hero-name/nearest-time association or owner.
+
+Fresh tracker ranges source index0..254/recycle1..235,current0..97/1..193 fit
+selected native domains; each has10PlayerSpawned events with only PlayerID int
+key and no explicit unit/tag/handle key. Fresh game frames source/R8 each104257,
+current144708; selection deltas158/158/37 ALL bank10; subgroupIndex1 occurs5/5/0,
+others0; talent events70each. ControlGroupUpdate and SelectionSyncCheck both0
+in all files. Added unitrefs92/92/24,11distinct links each. No actor reconstruction
+or source/current simulation equivalence follows. R8 tracker duplicate retained.
+
+13ranges3326B/821instr,54byte/call/ref,8register-flow and3required-edge checks pass.
+Eleven full original fragment unions/two leaves; separate23B conditional arm,
+99/116B TRANSFORMED tables not full opaque-dispatch proof. PE/transformed/schema/
+accessor/replay/draft pins pass. No production/conversion/sync change, unit tests,
+full corpus, hosted CI, peer review, REA provider/native execution. All work stays
+offline: no game, Computer Use, network or publication; full upgrade/playback false.
+Next exact effective link/definition/predicate inputs or existing captures before
+unit/owner attribution; historical41810 rules and native playback remain required.
