@@ -1621,3 +1621,50 @@ archive persistence unobserved. No user+1 or guessed talent mapping. Keep all
 work offline: no game, Computer Use, network or publication; original/R8/current
 and sync unchanged; full upgrade/playback false. Next initial Born/Init ownership,
 actual context and effective/historical41810 talent rules; flush proof separate.
+
+
+## Offline initial owner, Born/Init and recorded identities - 2026-10-27
+
+Read docs/NATIVE_UNIT_INITIAL_OWNER_2026-10-27.md and its two dated
+native-unit-initial-owner receipts. Initializer9BAEF0 stores creation-input
+byte+10 &1F to unit+44 at9BB05A, then reloads that byte/mask and stores unit+5E
+at9BB062. Under disjoint/stable input these selected early values are equal;
+domain is0..31, not silently0..15. They are reads after earlier helpers, and
+preservation until later publication is UNPROVED.
+
+Within earlier gates, unit38 bit08 chooses Init call9BB9B7->1342A50 or Born
+call9BB9C6->1342270 (afterA16B80). Both use the same initialized unit pointer.
+Both producers later read unit44/5E into event250/251 without numeric changes.
+RSP=entryRSP-2A8,RBP=entryRSP-1A8,record=RSP+20 bind RBP170/171 to these bytes.
+Distinct roots933/970, original slots27C9F3C/54 and original offset tables
+27C5630/27C58E0 bind tags3/4 to m_controlPlayerId/m_upkeepPlayerId, both scalar158
+uint4, via payload offsets220/221. No whole type-name/payload codec claim.
+
+Selected unit-key fields30/34 map to native unit+10 high10/low22 bits. Born's
+reads are separated by helpers and require stable handle; Init uses one later
+read. Own constructor/header IDs1/6 and adapters133FA70/133FD10 remain distinct.
+Same decoded manager2F825F8/XOR50C23112/slot180 publisher is reused, with all
+enabled/counter/nonnull-writer/output/persistence caveats. No native execution.
+
+Fresh tracker decode: source/R8 each6614 events,2802Born,0Init,279OwnerChange;
+current6181,2498Born,0Init,136OwnerChange. All observed owners0..15, all Born
+control/upkeep pairs equal, all changes have prior birth keys, no duplicate
+initial keys. R8 tracker equals original EXACTLY: only2 independent contents.
+R8 uses41810 content grammar, not proof of98285/current playback. Init has ZERO
+observed fixture coverage. Do not infer runtime liveness/pool/callback identity.
+
+Initial owner IDs without player setup are source/R8 [0,11,12,15],current
+[0,11,12]. Preserve them; do not infer user+1, assign meanings, drop15 or treat
+its absence in this one current control as unsupported. Named setup identities
+remain explicit mappings, not a universal owner namespace rule.
+
+7ranges6079B/1431instr,55byte/call/ref checks,12register-flow and6required-edge
+checks pass. Four64B/16entry TRANSFORMED RVA tables and3alignment bytes are
+separate from code; all64 targets bound. Three original fragment intervals/
+four no-call leaves qualified. PE/transformed/schema/accessor/replay/draft pins
+pass. Fresh offline tracker decode is not native execution, full corpus, unit
+tests, REA provider, hosted CI or peer review. Initial helper effects, actual
+client objects/talent values and effective/historical41810 rules remain open.
+Keep all work offline: no game, Computer Use, network or publication; original/
+R8/current/sync unchanged; full upgrade/playback false. Next actual player/unit/
+talent producer/consumer context, without guessed indices or player remapping.
