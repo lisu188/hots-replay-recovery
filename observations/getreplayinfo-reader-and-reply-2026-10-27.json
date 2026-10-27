@@ -1,0 +1,379 @@
+{
+  "format": "GetReplayInfo-callback-reader-and-reply-static-route-v1",
+  "source_build": 98348,
+  "source_patch_kind": "Analyst-derived statically transformed text, not unaltered PE text or runtime capture",
+  "source_patch_sha256_fresh": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83",
+  "original_PE_sha256_fresh": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+  "embedded_BSN_sha256": "ce3b1f764575730f2c08c89eed73ea843ec4cc702b727c9577ca071ce610e741",
+  "native_decoder": "GNU objdump2.42 in already-running Ubuntu WSL",
+  "new_native_witnesses": [
+    {
+      "label": "GetReplayInfo_consumer_prefix_v4",
+      "selected_RVA": [
+        "0xcd3fe0",
+        "0xcd4e90"
+      ],
+      "selected_bytes": 3760,
+      "selected_instructions": 756,
+      "selected_code_sha256": "e4570355d60d86d6ef5556b94211f2cc57e6241475060dca3443623cb179f1a3",
+      "stdout_bytes_including_trailing_context": 66053,
+      "stdout_sha256": "962d25ec9ec9f7ac70bb00656d42e76edbbcd3b30c93b40fe71fcc51e8851cf7",
+      "selected_pdata_records": [
+        [
+          "0xcd3fe0",
+          "0xcd3ff7",
+          "0x2cf3ed4"
+        ],
+        [
+          "0xcd3ff7",
+          "0xcd44af",
+          "0x2cf3ee0"
+        ],
+        [
+          "0xcd44af",
+          "0xcd44bf",
+          "0x2cf3efc"
+        ],
+        [
+          "0xcd44bf",
+          "0xcd47d0",
+          "0x2cf3f14"
+        ],
+        [
+          "0xcd47d0",
+          "0xcd47e3",
+          "0x2cf3f2c"
+        ],
+        [
+          "0xcd47e3",
+          "0xcd497e",
+          "0x2cf3f40"
+        ],
+        [
+          "0xcd497e",
+          "0xcd4993",
+          "0x2cf3f54"
+        ],
+        [
+          "0xcd4993",
+          "0xcd4ceb",
+          "0x2cf3f64"
+        ],
+        [
+          "0xcd4ceb",
+          "0xcd4e90",
+          "0x2cf3f7c"
+        ]
+      ],
+      "all_selected_byte_columns_match_source": true,
+      "selected_end_verified_with_trailing_context": true,
+      "last_selected_instruction": "jne    0x140cd4e9b",
+      "last_selected_instruction_RET": false,
+      "whole_function_or_CFG_claim": false,
+      "exit_code": 0
+    },
+    {
+      "label": "GetReplayInfo_thunk_v4",
+      "selected_RVA": [
+        "0xcd1800",
+        "0xcd181f"
+      ],
+      "selected_bytes": 31,
+      "selected_instructions": 7,
+      "selected_code_sha256": "806c70b6b67e81cb50a81dea6cce46eebf5733bb51f73fd7d775c98e213b226c",
+      "stdout_bytes_including_trailing_context": 1160,
+      "stdout_sha256": "610876c138fd3543da409c4336c4ba1aaee4563473de1b8f8a26847b482bec23",
+      "selected_pdata_records": [],
+      "all_selected_byte_columns_match_source": true,
+      "selected_end_verified_with_trailing_context": true,
+      "last_selected_instruction": "rex.W jmp QWORD PTR [rip+0x2a9fb71]        # 0x143771390",
+      "last_selected_instruction_RET": false,
+      "whole_function_or_CFG_claim": false,
+      "exit_code": 0
+    },
+    {
+      "label": "request_sender_v4",
+      "selected_RVA": [
+        "0x1d81f60",
+        "0x1d8205e"
+      ],
+      "selected_bytes": 254,
+      "selected_instructions": 56,
+      "selected_code_sha256": "09faa2c26ad21abf79f94e5797887779d199628356d37eb48dd180d6f44f09d2",
+      "stdout_bytes_including_trailing_context": 5459,
+      "stdout_sha256": "3cb94998025e1dde5946a2ad69138e636b04e692e7230366cf4d937f223284f4",
+      "selected_pdata_records": [
+        [
+          "0x1d81f60",
+          "0x1d8205e",
+          "0x2e5f648"
+        ]
+      ],
+      "all_selected_byte_columns_match_source": true,
+      "selected_end_verified_with_trailing_context": true,
+      "last_selected_instruction": "ret",
+      "last_selected_instruction_RET": true,
+      "whole_function_or_CFG_claim": false,
+      "exit_code": 0
+    },
+    {
+      "label": "read_bridge_thunk_v4",
+      "selected_RVA": [
+        "0x1a78cc0",
+        "0x1a78cc5"
+      ],
+      "selected_bytes": 5,
+      "selected_instructions": 1,
+      "selected_code_sha256": "3596f991320275cb217f7fb62a50024b42105ba090eca5f0bb188e3cd10d344b",
+      "stdout_bytes_including_trailing_context": 1093,
+      "stdout_sha256": "e275cb129eca5eebdb663b9c90285a79ec08cc5198095097df2c2fc2ba1f160f",
+      "selected_pdata_records": [],
+      "all_selected_byte_columns_match_source": true,
+      "selected_end_verified_with_trailing_context": true,
+      "last_selected_instruction": "jmp    0x141a78210",
+      "last_selected_instruction_RET": false,
+      "whole_function_or_CFG_claim": false,
+      "exit_code": 0
+    },
+    {
+      "label": "read_bridge_body_bounded_v4",
+      "selected_RVA": [
+        "0x1a78210",
+        "0x1a78665"
+      ],
+      "selected_bytes": 1109,
+      "selected_instructions": 287,
+      "selected_code_sha256": "363a42a2155a6ae60cb478b1559db29259e1720376314f274cdc7cbeb3492432",
+      "stdout_bytes_including_trailing_context": 24136,
+      "stdout_sha256": "fa99c2be66494840d7d5fc7767a488c42ff4848b1b6d90b5f1d7efd7300e0c11",
+      "selected_pdata_records": [
+        [
+          "0x1a78210",
+          "0x1a786a8",
+          "0x2e16ab0"
+        ]
+      ],
+      "all_selected_byte_columns_match_source": true,
+      "selected_end_verified_with_trailing_context": true,
+      "last_selected_instruction": "ret",
+      "last_selected_instruction_RET": true,
+      "whole_function_or_CFG_claim": false,
+      "exit_code": 0
+    }
+  ],
+  "new_native_bytes": 5159,
+  "new_native_instructions": 1107,
+  "prior_registration_and_sender_instructions_rechecked": 1222,
+  "GetReplayInfo_callback": {
+    "Response_selector": 14,
+    "physical_slot_index": 124,
+    "container": "G+0x4B8 = (G+0xD0)+0x3E8",
+    "argument_tag": 124,
+    "sender_branch_RVA": "0x1E5D28C",
+    "path_pointer": "P+0x14 after the selected C-string scan",
+    "argument_path_pointer_offset": "0x18",
+    "argument_length_offset": "0x20",
+    "argument_length_read_as": "low DWORD at0xCD4057",
+    "registration_global_load_RVA": "0xCDBB00",
+    "registration_call_RVAs": [
+      "0xCDBB16",
+      "0xCDBB29"
+    ],
+    "node_function_store_RVA": "0xCDBB3A",
+    "node_function_RVA": "0xCD1800",
+    "descriptor_function_RVA": "0xCD3FE0",
+    "descriptor_global_RVA": "0x3771390",
+    "descriptor_signed_adjustment_global_RVA": "0x3771398",
+    "shown_lazy_init_adjustment": 0,
+    "receiver_route": "owner+0x10 key becomes owner when the descriptor adjustment remains zero"
+  },
+  "reader_calls_in_selected_prefix": [
+    {
+      "call_RVA": "0xcd40d6",
+      "target_RVA": "0x134b990"
+    },
+    {
+      "call_RVA": "0xcd40e9",
+      "target_RVA": "0x134e680"
+    },
+    {
+      "call_RVA": "0xcd419a",
+      "target_RVA": "0x134dc00"
+    },
+    {
+      "call_RVA": "0xcd437f",
+      "target_RVA": "0x134d9d0"
+    },
+    {
+      "call_RVA": "0xcd449a",
+      "target_RVA": "0x134dd30"
+    },
+    {
+      "call_RVA": "0xcd455a",
+      "target_RVA": "0x134d950"
+    },
+    {
+      "call_RVA": "0xcd4795",
+      "target_RVA": "0x134df60"
+    },
+    {
+      "call_RVA": "0xcd4e69",
+      "target_RVA": "0x134bf90"
+    }
+  ],
+  "local_gates": {
+    "required_setup_call_RVA": "0xCD449A",
+    "required_setup_target_RVA": "0x134DD30",
+    "nonzero_setup_result_branches_to": "0xCD4DB4",
+    "accumulated_prior_status_BL_zero_also_branches_to": "0xCD4DB4",
+    "success_inner_selector_store_RVA": "0xCD4521",
+    "battlelobby_wrapper_call_RVA": "0xCD455A",
+    "nonzero_battlelobby_result_branches_to": "0xCD46D9",
+    "battlelobby_error_is_direct_GetReplayInfo_failure_branch": false,
+    "all_callee_effects_or_complete_parse_proven": false
+  },
+  "reply": {
+    "local_request_address": "RBP+0x180",
+    "outer_selector14_store_RVA": "0xCD402E",
+    "success_inner_selector0_store_RVA": "0xCD4521",
+    "failure_inner_selector1_store_RVA": "0xCD4DDE",
+    "success_send_call_RVA": "0xCD4CBE",
+    "failure_send_call_RVA": "0xCD4DEA",
+    "shared_sender_RVA": "0x1D81F60",
+    "both_calls_pass_DL": 2,
+    "both_calls_pass_R9": "local_request_address"
+  },
+  "request_sender": {
+    "configured_registry_VA": "0x143B7F140",
+    "configured_type": 5973,
+    "type_id_load_RVA": "0x1D81F89",
+    "initial_wrapper_payload_pointer": "entry_R9 stored at wrapper+0x30",
+    "opaque_wrapper_virtual_call_offset": "0x40",
+    "engine_object": "QWORD[entry_RCX+0x918] saved through RSI",
+    "engine_virtual_call_offset": "0x28",
+    "engine_call_RVA": "0x1D82046",
+    "engine_RDX": "zero-extended entry_DL",
+    "engine_R8": "entry_R8 saved through RBX",
+    "engine_R9": "address of local wrapper",
+    "payload_lifetime_or_queue_copy_semantics_proven": false
+  },
+  "input_read_bridge": {
+    "thunk_RVA": "0x1A78CC0",
+    "target_RVA": "0x1A78210",
+    "selected_code_end": "0x1A78665",
+    "computed_dispatch": "helper1A6D8B0 result minus1; unsigned bound15",
+    "table_RVA_range": [
+      "0x1A78668",
+      "0x1A786A8"
+    ],
+    "table_bytes": 64,
+    "table_sha256": "d70485f5d02551b4127a6c46ee55e9a92008422e3222da5af7f594579f854464",
+    "all16_table_targets_are_selected_instruction_starts": true,
+    "type_specific_callees_and_external_input_descriptor_fully_expanded": false
+  },
+  "schema": {
+    "metadata_readers": [
+      {
+        "name": "parse_bsn_metadata.py",
+        "bytes": 8377,
+        "sha256": "0c8021fdcb761a27ca9860f72161110e1156f518678430b9570a49fc20f85f06"
+      },
+      {
+        "name": "independent_bsn_graph.py",
+        "bytes": 5606,
+        "sha256": "2eefcbd2d57e4461a882adfb283c6c20da35a5ad517d49ac329055f38e387ec3"
+      }
+    ],
+    "records_validated_per_reader": 8330,
+    "selected_records_compared": [
+      354,
+      5973,
+      5974,
+      5975,
+      5990,
+      6016,
+      6017,
+      6027,
+      6030,
+      6031,
+      6032,
+      6033,
+      6034,
+      6035,
+      6060,
+      6061,
+      6062,
+      6077,
+      6106
+    ],
+    "Response_GetReplayInfo": {
+      "root_type": 6060,
+      "choice_type": 6062,
+      "selector": 14,
+      "payload_type": 6077,
+      "field": "m_replayPath"
+    },
+    "Request_GetReplayInfoResponse": {
+      "root_type": 5973,
+      "choice_type": 5975,
+      "choice_count": 18,
+      "selector": 14,
+      "payload_type": 5990,
+      "success": {
+        "selector": 0,
+        "wrapper_type": 6016,
+        "payload_type": 6027,
+        "name": "Battlenet::S2Game::Replay::LobbyInfo",
+        "fields": [
+          "m_slotList",
+          "m_replayTitle",
+          "m_date",
+          "m_eventList",
+          "m_headerCacheHandleList",
+          "m_mapInfoList"
+        ]
+      },
+      "failure": {
+        "selector": 1,
+        "type": 6017,
+        "kind": "NULL"
+      }
+    },
+    "Request_member_names": [
+      "LeaveGame",
+      "FinishedLoading",
+      "SubmitTurnSyncValue",
+      "SubmitTurnCommands",
+      "SendMessage",
+      "SendChat",
+      "EOGStats",
+      "EOGSurveyResponse",
+      "PublishReplay",
+      "DropVote",
+      "ReportSpeedWarp",
+      "ReportStutter",
+      "PreLobbyWorkComplete",
+      "PreLobbyWorkProgress",
+      "GetReplayInfoResponse",
+      "LaunchLastReplayResult",
+      "CurrentTurn",
+      "RejoinSaveUploaded"
+    ]
+  },
+  "preconditions": [
+    "Valid initialized registry, objects, path storage and callback nodes",
+    "Same valid stable descriptor and listener node from registration through dispatch",
+    "Normal ABI returns and preservation of nonvolatile registers",
+    "No alias or concurrent writes invalidate a stated boundary"
+  ],
+  "native_consumer_extent": "Selected prefix ending in a conditional branch; cleanup continues beyond0xCD4E90",
+  "whole_function_or_CFG_claim": false,
+  "historical_fields_or_defaults_recovered": false,
+  "native_preview_success_is_full_playback_proof": false,
+  "new_IDB_created": false,
+  "game_or_ComputerUse_used": false,
+  "codec_or_replay_changed": false,
+  "playback_verified": false,
+  "full_upgrade_complete": false,
+  "independent_peer_review_performed": false
+}
