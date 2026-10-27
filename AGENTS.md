@@ -1849,3 +1849,41 @@ No prod/replay/sync change, tests/CI/peer review, REA provider/native execution,
 emulation, game/CU/network/publication. Keep offline;full upgrade/playback false.
 Next effective insertion gate/unit identity for expected contexts, then actual
 historical41810 rules/native playback. No safe talent remap follows yet.
+
+
+## Offline Unit catalog creation and insertion gates - 2026-10-27
+
+Read docs/NATIVE_UNIT_CATALOG_GATES_2026-10-27.md and dated gate receipts.
+Full31E890..31EF7E ctor loops92indices; manager=context+8+8*i. Index83 isUnit:
+originalname row2F32350/literal264D860("Unit",4B),descriptorrow2F33A08/literal
+2652230("GameData/UnitData.xml",21B). Same index83 manager=context+2A0 matches
+5E1B70/201A490. 31EB61->1609450 receives descriptorrow; resultstoredcontext588,
+reloadedtoUnitmanager30 understable-slot/helperconditions. Callee/full actual
+IO/load/merge/effective input identity NOT audited. Do not treat path as load.
+Conditional15B window3216C0..CF callsctor/copiesreturnthroughRBX/global3388B18;
+wholecaller/init occurrence unproved. Global is virtual/non-file-backed.
+
+Creation asks110B manager,2000B pointer arrays. Direct count38/90=0, reserved
+fields40/98=400(1024), ptrs48/A0. ZeroRSI iteration invariant: firstnormalinner
+loop exitszero; all outer backedges crossXORESI reset; no RSI kill beforestores.
+Null allocation can publish null. Scope directcreation/pre-firstpublication,
+NOT count0 at ctor return/replaytime; later helper/populationeffects open.
+Logical acceptance usescount90/38, NOT reserve98/40. Managerheader0101 is not
+resolved definitionobject byte0. Actual entries/null/tag/object gates required.
+
+Inherited pinned linkdomains source/R8:11each36..827(all<1024);current11links
+109..1242(5>=1024).33static count0 cases failfirstlookup despitecapacity. Not
+observed runtime failure or olddesync/exit cause; control values are not runtime
+growth proof and initialreservation MUST NOT become permanentformatbound.
+Prior70singleton contexts/case remainCONDITIONAL: actual catalogue gates still
+unproven. No defaultentry/acceptance flag, guessedID or conversion introduced.
+
+5ranges2826B/675instr(newctor1774B/410instr),68selectedchecks,2regflows,
+RSIresetcutset/92slotmodels/2metadata rows&literals/33counterexamples pass.
+Separatepublicationwindow15B/3instr. REAstatusonly:targetnone,cleanupnone,
+IDAavailable/unselected,Ghidraunsupported12.0.4;noimport/analysis/targetexecute.
+LocalconfiguredIPC probes possible; noexternalnetworktask. Python/WSLobjdump
+native evidence. Replay/draft pins pass; no freshdecode/tests/CI/peerreview,
+prod/replay/sync change or publication. Keepoffline; fullupgrade/playbackfalse.
+Next populatedUnitmanager+samecontext588/manager30 input/merge identity,
+logical counts and real entries; historical41810/native playback still needed.
