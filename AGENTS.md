@@ -2017,3 +2017,18 @@ reader alreadyclosed; nextincomingresponse implementation1E5CF60 sourceboundary.
 No conversion/defaults/replay/sync, game/CU/nativeexecution/emulation, tests/CI
 or remote publication in this checkpoint; fullupgrade/currentplayback false.
 Do not rescan same88NGS keys or repeat dispatch discovery without new evidence.
+
+
+## Corrected local parser descriptor source - 2026-11-02
+
+Read docs/NATIVE_WRAPPER_DESCRIPTOR_SOURCE_2026-11-02.md and datedreceipts.
+At1E5D072 slot+18 receiver islocalwrapperW, NOTincomingR13. OriginalPE
+28F2FC0->1E5A8C0 exact5B/2instr returnsW+18. R9 thuslocalregistry/currenttype
+descriptor:registry3B7F140,typeINITIAL6060;kind16loopD031canoverwrite type.
+Static6060STRUCT does not prove actualruntime registrykind. IncomingR13 only
+slots+20->R8,+10->RDX; concretetype/storage/valuesstillmissing. Rechecked1233B/
+278instr,39selectedchecks; independent423B/109instr decode+table/flowreview.
+Prior externalR9/all3slotsinput descriptions corrected in3narrativereports.
+G registration Appwrapper/managerlead isnot payload/networksourceproof.
+No production/default/replay/sync change or game/CU/nativeexecution/emulation.
+Next incoming+10/+20 implementation or authenticoldproducer;fullupgradefalse.

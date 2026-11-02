@@ -1,0 +1,100 @@
+{
+  "format": "wrapper6060-descriptor-static-source-qualification-v1",
+  "passed": true,
+  "source_build": 98348,
+  "original_PE_sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+  "transformed_text_sha256": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83",
+  "native_witness": {
+    "RVA": [
+      "0x1e5a8c0",
+      "0x1e5a8c5"
+    ],
+    "bytes": 5,
+    "instructions": 2,
+    "sha256": "813b00f48d4cf0d99dea047ab4852415937c2c310855ec0ec2bda6184b705ba3",
+    "no_PData_record_for_leaf": true,
+    "original_PE_vtable_slot": "0x28f2fc0"
+  },
+  "rechecked_sender_and_parser": {
+    "bytes": 1233,
+    "instructions": 278,
+    "selected_instruction_checks": 39,
+    "all_byte_columns_equal_patch": true,
+    "switch_table_and_after_RET_padding_excluded": true
+  },
+  "correction": {
+    "slot18_receiver": "local wrapper W=RBP-49",
+    "slot18_returns": "W+18",
+    "R9_points_to": "local pair {registry_address3B7F140,current_type_id_initially6060}",
+    "type_id_survival_condition": "The shown kind16 unwrapping loop can overwrite W+20 at1E5D031. Initial6060 survives only if no unwrap/alias mutation changes it; pinned embedded6060 isSTRUCT but actual registry correspondence is a condition.",
+    "slot20_receiver": "incomingR13",
+    "slot20_return_used_as": "R8; semantics not inferred",
+    "slot10_receiver": "incomingR13",
+    "slot10_return_used_as": "RDX; semantics not inferred",
+    "wrapper_type_id_read_from_original_PE": 6060,
+    "R9_not_external_payload_object": true
+  },
+  "parser_frame": {
+    "local00": "registry address from[R9]",
+    "local08": "type ID from[R9+8]",
+    "local10": "entryRDX",
+    "local18": "entryR8",
+    "local20": "entryRCX/interface",
+    "local28": "entryR9 descriptor pointer"
+  },
+  "preconditions": [
+    "Selected initialized wrapper and stable vtables/slots",
+    "Normal returns from intervening helpers and incoming virtual calls",
+    "No aliased/concurrent mutation invalidates saved wrapper,stack descriptor or register values",
+    "Branch requiring QWORD[registry+38]nonzero is conditional; actual registry storage unobserved"
+  ],
+  "unclosed": [
+    "IncomingR13 concrete class and its slot10/20 results",
+    "Actual serialized message bytes and successful full decode",
+    "Historical41810 player values/shared branch",
+    "Replay archive or gameplay source equivalence"
+  ],
+  "source_pins": [
+    {
+      "path": "work/embedded-registry-dispatch-20261027/tag3_bounded.private.txt",
+      "bytes": 22850,
+      "sha256": "09e67d61e58fee19106d2df15ee251d76027a68ed1eb4089173724e73ba17729"
+    },
+    {
+      "path": "work/selector13-parser-20261027/parser_virtual_read.private.txt",
+      "bytes": 2582,
+      "sha256": "25f4970b900d0958ee9ba599fffa69c59cc225bda6311e3d5ab2eca4d132607e"
+    },
+    {
+      "path": "work/incoming-object-source-20261102/wrapper_getter_candidate.private.txt",
+      "bytes": 1219,
+      "sha256": "e22ceb87b6bc44a6b09964b315078bb064c3b6f30d435e0b09eb2714120fc6f5"
+    }
+  ],
+  "game_or_ComputerUse": false,
+  "native_execution_or_emulation": false,
+  "replay_or_sync_modified": false,
+  "historical_values_recovered": false,
+  "full_upgrade_complete": false,
+  "base_commit": "f9db67a93aba836658e4a8a10ec9106a2dcac083",
+  "independent_review_pin": {
+    "workspace_path": "work/incoming-object-source-20261102/independent-wrapper-review.json",
+    "bytes": 10383,
+    "sha256": "5874043b8c2a8b2ef936bfe548cf7dd6f7cf6d8a770e485ab1474303cbc9ee3d"
+  },
+  "transport_component_lead": {
+    "source_pin": {
+      "workspace_path": "work/incoming-object-source-20261102/reviewer-lane.json",
+      "bytes": 11027,
+      "sha256": "a3440ae9b5db4c739e730f21c81c155b258726bf82ea11d23b04ed4ccccb2b93"
+    },
+    "proven": "Factory stores manager atG+918 and registers G through an allocated wrapper with key0x417070, selected constructor/registration writes qualified.",
+    "unproved": "Actual incomingR13 constructor/vtable, Gprimaryvirtual0 invocation, buffer source or external-network attribution. Diagnostic allocationtags name TumorManagerImplementation/CreepTendril only."
+  },
+  "historical_correction_scope": [
+    "The prior slot121/input-source description incorrectly grouped wrapper.slot18 with incoming.slot20/slot10.",
+    "The prior parser read_method.entry_R9_role description as external input descriptor was wrong for this caller.",
+    "R9 is a local registry/current-type descriptor; current type initially6060 can be overwritten by the shown kind16 unwrapping loop.",
+    "The pinned static6060record is STRUCT Response; correspondence to actual initialized registry remains a condition."
+  ]
+}

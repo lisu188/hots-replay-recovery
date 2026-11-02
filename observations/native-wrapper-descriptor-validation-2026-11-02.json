@@ -1,0 +1,37 @@
+{
+  "format": "native-wrapper-source-validation-v1",
+  "base_commit": "f9db67a93aba836658e4a8a10ec9106a2dcac083",
+  "observation": {
+    "path": "observations/native-wrapper-descriptor-source-2026-11-02.json",
+    "bytes": 4650,
+    "sha256": "6e4f2e35ba46fef0c8cb3dc2c3895f2201b5fa20ee1d2c76b54305b03d6d247f"
+  },
+  "source_receipts": [
+    {
+      "workspace_path": "work/incoming-object-source-20261102/qualified-wrapper6060-source.json",
+      "bytes": 3282,
+      "sha256": "c74cf9427f8dfbacccb079eb7618cce722f0751bae3bc9688fcfc60b6ad3bde2"
+    },
+    {
+      "workspace_path": "work/incoming-object-source-20261102/independent-wrapper-review.json",
+      "bytes": 10383,
+      "sha256": "5874043b8c2a8b2ef936bfe548cf7dd6f7cf6d8a770e485ab1474303cbc9ee3d"
+    },
+    {
+      "workspace_path": "work/incoming-object-source-20261102/reviewer-lane.json",
+      "bytes": 11027,
+      "sha256": "a3440ae9b5db4c739e730f21c81c155b258726bf82ea11d23b04ed4ccccb2b93"
+    }
+  ],
+  "source_byte_table_and_selected_instruction_checks_pass": true,
+  "peer_review_qualification_included": "Initial type6060 can be replaced by shown kind16 loop; runtime registry unobserved",
+  "narrative_corrections": [
+    "docs/EMBEDDED_SLOT121_PRODUCER_2026-10-27.md",
+    "docs/STARTREPLAY_PARSER_AND_SCHEMA_2026-10-27.md",
+    "docs/GETREPLAYINFO_READER_AND_REPLY_2026-10-27.md"
+  ],
+  "historical_observations_preserved": true,
+  "new_tests_or_CI_or_runtime": false,
+  "replay_or_sync_changed": false,
+  "full_upgrade_complete": false
+}
