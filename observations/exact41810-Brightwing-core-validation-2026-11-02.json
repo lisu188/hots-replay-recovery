@@ -1,0 +1,70 @@
+{
+  "format": "independent-new41810-Brightwing-core-validation-v1",
+  "utc": "2026-11-02T18:54:32.392022+00:00",
+  "whole_replay": {
+    "bytes": 725485,
+    "sha256": "036e05a19255d42930ee561b3bfd07234d8d6e15fb87dd893798ff64d252acce"
+  },
+  "decoder_sha256": "17bfb926af0f7f79e18f6299dbae50fc2821c53b229235d4f9c857c7ef3e96b1",
+  "schema_sha256": "879d228d9d8acd21d63563538dd15841aaf49259ee0bb468b8a46b6a4ef866fd",
+  "mpq_reader_sha256": "9e940dae67c5d457483c814e6169e6e5d0a1cc5a1dcfdbd76dcf9026f1fa0033",
+  "unchanged_official_class_ASTs_and_two_bounded_byte_primitives": true,
+  "members": {
+    "header": {
+      "bytes": 119,
+      "sha256": "81e860c988c1bce560ee3c3a8956e3cdd0e48e4500ea257a31acd2efb921194d",
+      "complete_EOF_bits": true
+    },
+    "details": {
+      "bytes": 1188,
+      "sha256": "4981dfa9bfe34b872dbb1e8974d10a7a1e53f3593ee4438e96df89b5d26ba3bd",
+      "complete_EOF_bits": true
+    },
+    "initData": {
+      "bytes": 4123,
+      "sha256": "bff31c5c80f740cf15cd62db69d5faf91ebd0b087d3477c808deb415cd178cc6",
+      "complete_EOF_bits": true
+    },
+    "game.events": {
+      "bytes": 1281924,
+      "sha256": "b25b14beabbccc772ee606b8b56ebe58222681a6a3d41c02629fefc0bdf1857f",
+      "events": 116951,
+      "last_gameloop": 18985,
+      "complete_EOF_bits": true,
+      "ability126_commands": 60,
+      "ability126_aggregate": [
+        {
+          "command_index": 0,
+          "target_variant": "TargetUnit",
+          "flags": 2097408,
+          "count": 60
+        }
+      ]
+    },
+    "message.events": {
+      "bytes": 2070,
+      "sha256": "abc3b0ea577635a0a3aae487bdc529ef8f0df49467113f765c05f5927ddfe945",
+      "events": 217,
+      "last_gameloop": 18755,
+      "complete_EOF_bits": true
+    },
+    "tracker.events": {
+      "bytes": 313476,
+      "sha256": "20f9d63259a8dffc2aadf02f50127fa0baeb815d261141f60d5d51020b921594",
+      "events": 6108,
+      "last_gameloop": 18960,
+      "complete_EOF_bits": true,
+      "HeroFaerieDragon_type_records": 1
+    }
+  },
+  "build_base_data": [
+    41810,
+    41810,
+    41810
+  ],
+  "passed": true,
+  "whole_private_copy_byte_unchanged": true,
+  "ability_name_or_current_ID_assigned": false,
+  "runtime_or_game_or_ComputerUse": false,
+  "full_upgrade_complete": false
+}

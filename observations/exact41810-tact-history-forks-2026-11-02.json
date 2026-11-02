@@ -1,0 +1,180 @@
+{
+  "schema": "exact41810_tact_history_forks_route_v1",
+  "at_utc": "2026-11-02T18:43:48.798056+00:00",
+  "result": "Exact-key reachable path histories and three distinct fork snapshots supply no config body; all fork HEAD blobs are byte-identity-pinned subsets of the already checked337 bodies.",
+  "target": {
+    "build": 41810,
+    "BuildConfig": "f22332dbb7eb19a46c3c3c2292cdb226",
+    "CDNConfig": "056112531a93ecd8acd48168fb45f51d",
+    "replay_root": "83d43a8647bb5ca5caa6f2f09064da55",
+    "root_binding_proved": false
+  },
+  "new_source_rationale": "Forks may preserve paths deleted from or absent in a later upstream snapshot. Exact41810 keys make bounded pinned path-history and filename checks possible without scanning other config bodies.",
+  "upstream": {
+    "repository": "mdX7/tact_configs",
+    "created_at": "2022-02-17T20:00:17Z",
+    "previous_pinned_commit": "d26016aa08631903d1dd3bc22483a338767cd5d0",
+    "fresh_master_commit": "e11acbab405a70ac3b06af3c3d7ebb2b5a3e4dc8",
+    "fresh_Hero_config_root": "c494315fae419f9ce7ee070ec256140a622c6ac0",
+    "fresh_Hero_config_root_equal_previously_closed": true,
+    "prior_tpr_tree": "6a7bf358aef239bc895ef53505eb5603b3da903a",
+    "prior_tpr_entries": 122,
+    "prior_tpr_all_one_level_tree_hash_reconstructed": true,
+    "prior_tpr_Hero_or_Storm_names": [
+      "Hero-Live-a"
+    ],
+    "alternate_Hero_namespace_present_at_prior_pin": false,
+    "2016_date_bounded_Hero_history_rows": 0,
+    "date_history_limit": "Date filter refers to Git commit metadata; it does not prove no2016 files were imported later."
+  },
+  "pinned_fork_snapshots": [
+    {
+      "repository": "171497767/tact_configs",
+      "commit": "be3e45e42c483bd278c6bb79d38986a9a5b81df0",
+      "config_tree": "97605287d03054ec067cc677d79494f6dbf083fe"
+    },
+    {
+      "repository": "freadblangks/tact_configs",
+      "commit": "fa213977f595c974b329a89c096cb7f33af323b8",
+      "config_tree": "c9e6f3f5281d6565a1bde73b50e4aed9e71bafe4"
+    },
+    {
+      "repository": "fluxurion/tact_configs",
+      "commit": "cfb11cbeb309df643dddb4099e9b63cb205aa739",
+      "config_tree": "c9e6f3f5281d6565a1bde73b50e4aed9e71bafe4"
+    }
+  ],
+  "distinct_fork_tree_validations": [
+    {
+      "source": "fork2025_config_tree",
+      "url": "https://api.github.com/repos/171497767/tact_configs/git/trees/97605287d03054ec067cc677d79494f6dbf083fe?recursive=1",
+      "entries": 646,
+      "blobs": 243,
+      "advertised_body_bytes": 847939,
+      "exact_key_filenames": [],
+      "new_or_changed_blobs": [],
+      "all_blob_path_mode_GitSHA_length_equal_prior_verified_archive": true,
+      "body_downloads": 0,
+      "tree_validation": {
+        "root": "97605287d03054ec067cc677d79494f6dbf083fe",
+        "tree_nodes_reconstructed": 404,
+        "all_hashes_match": true
+      }
+    },
+    {
+      "source": "fork2026_config_tree",
+      "url": "https://api.github.com/repos/freadblangks/tact_configs/git/trees/c9e6f3f5281d6565a1bde73b50e4aed9e71bafe4?recursive=1",
+      "entries": 796,
+      "blobs": 309,
+      "advertised_body_bytes": 1142677,
+      "exact_key_filenames": [],
+      "new_or_changed_blobs": [],
+      "all_blob_path_mode_GitSHA_length_equal_prior_verified_archive": true,
+      "body_downloads": 0,
+      "tree_validation": {
+        "root": "c9e6f3f5281d6565a1bde73b50e4aed9e71bafe4",
+        "tree_nodes_reconstructed": 488,
+        "all_hashes_match": true
+      }
+    }
+  ],
+  "pinned_exact_path_history_queries": [
+    {
+      "repository": "mdX7/tact_configs",
+      "pinned_commit": "e11acbab405a70ac3b06af3c3d7ebb2b5a3e4dc8",
+      "kind": "build",
+      "key": "f22332dbb7eb19a46c3c3c2292cdb226",
+      "url": "https://api.github.com/repos/mdX7/tact_configs/commits?sha=e11acbab405a70ac3b06af3c3d7ebb2b5a3e4dc8&path=tpr%2FHero-Live-a%2Fconfig%2Ff2%2F23%2Ff22332dbb7eb19a46c3c3c2292cdb226&per_page=5",
+      "returned_commits": 0
+    },
+    {
+      "repository": "mdX7/tact_configs",
+      "pinned_commit": "e11acbab405a70ac3b06af3c3d7ebb2b5a3e4dc8",
+      "kind": "cdn",
+      "key": "056112531a93ecd8acd48168fb45f51d",
+      "url": "https://api.github.com/repos/mdX7/tact_configs/commits?sha=e11acbab405a70ac3b06af3c3d7ebb2b5a3e4dc8&path=tpr%2FHero-Live-a%2Fconfig%2F05%2F61%2F056112531a93ecd8acd48168fb45f51d&per_page=5",
+      "returned_commits": 0
+    },
+    {
+      "repository": "171497767/tact_configs",
+      "pinned_commit": "be3e45e42c483bd278c6bb79d38986a9a5b81df0",
+      "kind": "build",
+      "key": "f22332dbb7eb19a46c3c3c2292cdb226",
+      "url": "https://api.github.com/repos/171497767/tact_configs/commits?sha=be3e45e42c483bd278c6bb79d38986a9a5b81df0&path=tpr%2FHero-Live-a%2Fconfig%2Ff2%2F23%2Ff22332dbb7eb19a46c3c3c2292cdb226&per_page=5",
+      "returned_commits": 0
+    },
+    {
+      "repository": "171497767/tact_configs",
+      "pinned_commit": "be3e45e42c483bd278c6bb79d38986a9a5b81df0",
+      "kind": "cdn",
+      "key": "056112531a93ecd8acd48168fb45f51d",
+      "url": "https://api.github.com/repos/171497767/tact_configs/commits?sha=be3e45e42c483bd278c6bb79d38986a9a5b81df0&path=tpr%2FHero-Live-a%2Fconfig%2F05%2F61%2F056112531a93ecd8acd48168fb45f51d&per_page=5",
+      "returned_commits": 0
+    },
+    {
+      "repository": "freadblangks/tact_configs",
+      "pinned_commit": "fa213977f595c974b329a89c096cb7f33af323b8",
+      "kind": "build",
+      "key": "f22332dbb7eb19a46c3c3c2292cdb226",
+      "url": "https://api.github.com/repos/freadblangks/tact_configs/commits?sha=fa213977f595c974b329a89c096cb7f33af323b8&path=tpr%2FHero-Live-a%2Fconfig%2Ff2%2F23%2Ff22332dbb7eb19a46c3c3c2292cdb226&per_page=5",
+      "returned_commits": 0
+    },
+    {
+      "repository": "freadblangks/tact_configs",
+      "pinned_commit": "fa213977f595c974b329a89c096cb7f33af323b8",
+      "kind": "cdn",
+      "key": "056112531a93ecd8acd48168fb45f51d",
+      "url": "https://api.github.com/repos/freadblangks/tact_configs/commits?sha=fa213977f595c974b329a89c096cb7f33af323b8&path=tpr%2FHero-Live-a%2Fconfig%2F05%2F61%2F056112531a93ecd8acd48168fb45f51d&per_page=5",
+      "returned_commits": 0
+    },
+    {
+      "repository": "fluxurion/tact_configs",
+      "pinned_commit": "cfb11cbeb309df643dddb4099e9b63cb205aa739",
+      "kind": "build",
+      "key": "f22332dbb7eb19a46c3c3c2292cdb226",
+      "url": "https://api.github.com/repos/fluxurion/tact_configs/commits?sha=cfb11cbeb309df643dddb4099e9b63cb205aa739&path=tpr%2FHero-Live-a%2Fconfig%2Ff2%2F23%2Ff22332dbb7eb19a46c3c3c2292cdb226&per_page=5",
+      "returned_commits": 0
+    },
+    {
+      "repository": "fluxurion/tact_configs",
+      "pinned_commit": "cfb11cbeb309df643dddb4099e9b63cb205aa739",
+      "kind": "cdn",
+      "key": "056112531a93ecd8acd48168fb45f51d",
+      "url": "https://api.github.com/repos/fluxurion/tact_configs/commits?sha=cfb11cbeb309df643dddb4099e9b63cb205aa739&path=tpr%2FHero-Live-a%2Fconfig%2F05%2F61%2F056112531a93ecd8acd48168fb45f51d&per_page=5",
+      "returned_commits": 0
+    }
+  ],
+  "scope_limits": [
+    "Only these pinned fork snapshots and exact conventional key paths were queried; relocated paths, renamed paths, unreachable Git objects, deleted repositories and undisclosed sources remain uninspected.",
+    "GitHub commit-message search covers indexed messages, not arbitrary historical file contents.",
+    "No actual exact41810 config body or MD5/root binding was acquired."
+  ],
+  "changed_next_action": {
+    "closed_without_redownload": "Do not rescan these243/309 fork HEAD body sets or fresh upstream337 body set: every advertised blob already belongs to the verified closed archive.",
+    "closed_history_paths": "Do not repeat the eight pinned conventional exact-key path-history queries without a changed source/pin.",
+    "required_new_evidence": "A distinct preservation origin, an advertised alternate historical path/branch, or a local old installation's actual config file is now required before further acquisition.",
+    "first_admission_checks": "For any proposed config, preserve whole bytes and URL, verify contentMD5 equals the exact known key, then inspect root/encoding/install fields. A filename/build label alone remains insufficient.",
+    "mass_history_scan_planned": false
+  },
+  "acquisition": {
+    "retained_GitHub_content_utf8_bytes": 418174,
+    "new_client_or_config_body_downloads": 0,
+    "fork_body_identity_reuse_source_count": 337,
+    "cap_bytes": 10485760,
+    "limitation": "Connector transfer bytes are unavailable. Retained UTF-8 metadata size is not total network transfer; all new responses were metadata only."
+  },
+  "preservation": {
+    "repo_edited": false,
+    "replay_or_drafts_edited": false,
+    "game_CUA_or_target_execution": false,
+    "downloaded_code_executed": false,
+    "authentication": false,
+    "publication": false,
+    "CDN_or_IA_retries": false
+  },
+  "source_pin": {
+    "workspace_path": "work/historical-tact-history-forks-20261102/historical-tact-history-forks-route-receipt.json",
+    "bytes": 10950,
+    "sha256": "e9d62368eb02a9d085242c3a47fee403d767f0d5e59dafdc93499c2706e9f0e9"
+  }
+}

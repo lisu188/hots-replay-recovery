@@ -1,0 +1,583 @@
+{
+  "format": "registered-replay-input-interface-checkpoint-v1",
+  "utc": "2026-11-02T19:01:00.272155+00:00",
+  "source_build": 98348,
+  "original_PE": {
+    "path": "C:\\Program Files (x86)\\Heroes of the Storm\\Versions\\Base98348\\HeroesOfTheStorm_x64.exe",
+    "bytes": 53573840,
+    "sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+    "md5": "927e8850401cbafb81c6dd949ce4ba52",
+    "fresh_whole_file_before_after_byte_equality": true,
+    "ImageBase": "0x140000000",
+    "machine": "0x8664",
+    "optional_header_magic": "0x20b"
+  },
+  "analyst_transformed_text": {
+    "path": "C:\\Users\\andrz\\Documents\\Codex\\2026-10-18\\czy\\work\\ghidra-replay-parser-20261020\\verified-text-patch.local.bin",
+    "bytes": 36581376,
+    "sha256": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83"
+  },
+  "code_is_not_unaltered_PE_or_runtime_capture": true,
+  "registered_adapter": {
+    "conditional_primary8_route": {
+      "entry": "L,kind inDL,indexI inR8D,payloadX inR9",
+      "selected_wrapper": "Q=QWORD[QWORD[L+20]+A8+8*uint32(I)]",
+      "Q_nonnull_guard": true,
+      "index_bounds_check_present_in_selected_body": false,
+      "call_arguments": "RCX=Q+8,RDX=&H,R8=X;target=QWORD[QWORD[Q+8]]",
+      "secondary_leaf": "If Q+8 table is298C7C0,1EC2240 setsRCX=QWORD[Q+30],leavesRDX/R8 unchanged,tailjumpsreceiver virtual0.",
+      "G_binding_condition": "The selected Q, not merely invoking L, must be the valid stable wrapper whose+30 is G and whose secondary table is298C7C0. I==L.index plus same registered table contents is sufficient but not observed."
+    },
+    "descriptor_H_last_store_coverage": {
+      "H": "RSP+20 inprimary8selectedframe",
+      "0": "BYTE(entryDL)",
+      "4": "BYTE1 only",
+      "8": "DWORD[L+28]",
+      "C": "DWORD[L+10]",
+      "10": "DWORD1 after QWORD1 store then highDWORD overwrite",
+      "14": "DWORD(entryR8D)",
+      "untouched_halfopen_ranges": [
+        [
+          1,
+          4
+        ],
+        [
+          5,
+          8
+        ]
+      ],
+      "whole_H_initialization_claim": false
+    },
+    "new_interface_metrics": {
+      "bytes": 235,
+      "instructions": 62,
+      "ranges": 3,
+      "usable_secondary_leaf_bytes": 10,
+      "usable_secondary_leaf_instructions": 3,
+      "padding_and_next_function_excluded": true
+    },
+    "rechecked_downstream_metrics": {
+      "bytes": 464,
+      "instructions": 101,
+      "ranges": 3
+    },
+    "original_PE_table_cells": [
+      {
+        "table_RVA": "0x298c798",
+        "slot": "0x0",
+        "target_RVA": "0x1ec2a40",
+        "bytes_SHA256": "5a823127e391f54df47bba0c373ad390ae75f284d3a688384f6c9a421aab5b27"
+      },
+      {
+        "table_RVA": "0x298c798",
+        "slot": "0x8",
+        "target_RVA": "0x1ec29e0",
+        "bytes_SHA256": "0f0fd179b2de28bf58de7de6fd8fbb76c2c03f7867a51fc7a2ebf8379b9ade6c"
+      },
+      {
+        "table_RVA": "0x298c7c0",
+        "slot": "0x0",
+        "target_RVA": "0x1ec2240",
+        "bytes_SHA256": "7806b38b946e193565433529a36eb15ebd63ca6b1b6a214e5bf03f2e16c79c84"
+      },
+      {
+        "table_RVA": "0x28e6ce8",
+        "slot": "0x0",
+        "target_RVA": "0x1d84540",
+        "bytes_SHA256": "1bc15613370cd7b99f4bfa8a73f20b14f74c4b07b55d4c078dc8bad0c94c4928"
+      }
+    ],
+    "independently_rechecked_selected_RTTI": [
+      {
+        "table_RVA": "0x298c798",
+        "COL_RVA": "0x2c060b0",
+        "COL_bytes": 24,
+        "COL_sha256": "9333c32f987bcb90d14685851e7eb24247463e71469dd4a352013517ab2a2965",
+        "signature1_self_RVA_and_object_offset_verified": true,
+        "object_offset": 0,
+        "type_descriptor_RVA": "0x2fca668",
+        "raw_type_name": ".?AVEventAdapter@Tumor@Battlenet@@",
+        "actual_runtime_class_observed": false
+      },
+      {
+        "table_RVA": "0x298c7c0",
+        "COL_RVA": "0x2c06160",
+        "COL_bytes": 24,
+        "COL_sha256": "51a35f5535f94f7c987d127cf6fc527fed70978e11ed249223d141fda633d396",
+        "signature1_self_RVA_and_object_offset_verified": true,
+        "object_offset": 8,
+        "type_descriptor_RVA": "0x2fca668",
+        "raw_type_name": ".?AVEventAdapter@Tumor@Battlenet@@",
+        "actual_runtime_class_observed": false
+      },
+      {
+        "table_RVA": "0x298c098",
+        "COL_RVA": "0x2c05cf8",
+        "COL_bytes": 24,
+        "COL_sha256": "de3d8a70b89c82a503794f4865215747ce7419bc71c7a75755bd3f2d1c80aa93",
+        "signature1_self_RVA_and_object_offset_verified": true,
+        "object_offset": 0,
+        "type_descriptor_RVA": "0x2fca510",
+        "raw_type_name": ".?AVTumor@Battlenet@@",
+        "actual_runtime_class_observed": false
+      }
+    ],
+    "additional_conditions": [
+      "SourceGregistrationandPEtableidentitymustremainstablethroughlookup; a storedGpointerdoesnotguaranteeitsactualvtable.",
+      "SelectedQfromindexI maydifferfrominvokingL. Q mustbea validregisteredEventAdapterwithsecondarytable298C7C0andQ+30=theGofinterest.",
+      "Theindexedloadhasnoboundscheckinthisselectedbody; validindex/tablememoryandnoalias/concurrentmutationarestillconditions.",
+      "Anactualcallwithkind3andpayloadXisnotobserved. Xconstruction,vtable,storageownership,contentandhistoricalplayer-valueoriginremainunrecovered.",
+      "Primary0iteratesadifferent20recordtableatB+158withactive/keyguards; thisisnotbyitselfaGbindingorproofofthesameincomingroute."
+    ]
+  },
+  "adapter_code_witnesses": [
+    {
+      "label": "primary_slot0",
+      "selected_RVA": [
+        "0x1ec2a40",
+        "0x1ec2ac1"
+      ],
+      "bytes": 129,
+      "instructions": 34,
+      "selected_code_SHA256": "ccb09e79854c4fa89b5beb52c8b9d39b39560d3cf24ebfbabab541c19894941d",
+      "listing": "peer-primary_slot0.private.txt",
+      "listing_bytes": 3430,
+      "listing_SHA256": "e7289e9592783c7b8183aeb4d3206db6654738fa9bdef859236bcfc5f1092f9c",
+      "all_byte_columns_match_guarded_source": true,
+      "end_verified_as_next_instruction_start": true,
+      "whole_function_or_CFG_claim": false
+    },
+    {
+      "label": "primary_slot8",
+      "selected_RVA": [
+        "0x1ec29e0",
+        "0x1ec2a40"
+      ],
+      "bytes": 96,
+      "instructions": 25,
+      "selected_code_SHA256": "55c93fa3a418f7055ed241c168c40b3d466d486449f60d1e55a588e7b4936cd7",
+      "listing": "peer-primary_slot8.private.txt",
+      "listing_bytes": 2637,
+      "listing_SHA256": "333d23554c2d9ad3bfc3b87ca53c05b26e372be409be96e675ca2b6c8ce83ab4",
+      "all_byte_columns_match_guarded_source": true,
+      "end_verified_as_next_instruction_start": true,
+      "whole_function_or_CFG_claim": false
+    },
+    {
+      "label": "secondary_slot0_leaf",
+      "selected_RVA": [
+        "0x1ec2240",
+        "0x1ec224a"
+      ],
+      "bytes": 10,
+      "instructions": 3,
+      "selected_code_SHA256": "d11da5e7ac91f9b37b9ab1b02d5ff889b300a57d67d2f8475db7f6cdf2f97e8a",
+      "listing": "peer-secondary_slot0_leaf.private.txt",
+      "listing_bytes": 1101,
+      "listing_SHA256": "95e021dd2fa3a5c1ff32194ef1d3131bf4512f2f4ec1d08bb0cda265de9a1518",
+      "all_byte_columns_match_guarded_source": true,
+      "end_verified_as_next_instruction_start": true,
+      "whole_function_or_CFG_claim": false
+    },
+    {
+      "label": "G_primary_thunk",
+      "selected_RVA": [
+        "0x1d84540",
+        "0x1d8454c"
+      ],
+      "bytes": 12,
+      "instructions": 2,
+      "selected_code_SHA256": "7b9ce95eeb6918a8e157b289720ccf5bdbda0c251f6b2d4edb466830bfcdf42f",
+      "listing": "peer-G_primary_thunk.private.txt",
+      "listing_bytes": 891,
+      "listing_SHA256": "7ac87f7fb50e452b4721384afc97c012416b74b6e20b4c7a1a3ac47be6d11725",
+      "all_byte_columns_match_guarded_source": true,
+      "end_verified_as_next_instruction_start": true,
+      "whole_function_or_CFG_claim": false
+    },
+    {
+      "label": "G_primary_delegate",
+      "selected_RVA": [
+        "0x1e65070",
+        "0x1e6520a"
+      ],
+      "bytes": 410,
+      "instructions": 87,
+      "selected_code_SHA256": "1a68911c6f22c600b7abe8553b67e7c6158e5291900eed0c9a15c44acc082f7c",
+      "listing": "peer-G_primary_delegate.private.txt",
+      "listing_bytes": 8052,
+      "listing_SHA256": "b7602bf6ed350fd8764ed66c12c06d113401e6942a8a09a3788c9a7c60f8fa0c",
+      "all_byte_columns_match_guarded_source": true,
+      "end_verified_as_next_instruction_start": true,
+      "whole_function_or_CFG_claim": false
+    },
+    {
+      "label": "payload_R13_entry_prefix",
+      "selected_RVA": [
+        "0x1e5cf60",
+        "0x1e5cf8a"
+      ],
+      "bytes": 42,
+      "instructions": 12,
+      "selected_code_SHA256": "5a6545f74674beaaba8f4079414748146b8dda005382cb7d1f63919ba0364aeb",
+      "listing": "peer-payload_R13_entry_prefix.private.txt",
+      "listing_bytes": 1458,
+      "listing_SHA256": "6ba8a50361a0dc22f02d4184be5b530e99d2cf7f0c841de832fb384bc6f7b739",
+      "all_byte_columns_match_guarded_source": true,
+      "end_verified_as_next_instruction_start": true,
+      "whole_function_or_CFG_claim": false
+    }
+  ],
+  "abstract_source_interface": {
+    "leaf_metrics": {
+      "bytes": 26,
+      "instructions": 8,
+      "candidate_table_getters": [
+        "298D0D0+10:returnentryRCX+178",
+        "298D0D0+20:returnentryRCX+180",
+        "298D700+10:returnentryRCX+10",
+        "298D700+20:returnentryRCX+18"
+      ],
+      "neither_loads_length_nor_bytes_from_returned_address": true,
+      "actual_R13_binding_proven": false
+    },
+    "frame_link": {
+      "builder_RVA": "0x1A6E990",
+      "F": "builderRSP+20",
+      "call_to_tail": "1A6E9DC",
+      "fields": {
+        "0": "QWORD[entryR9],the local registry",
+        "8": "DWORD[entryR9+8],the currenttype",
+        "10": "entryRDX,incoming.slot10return",
+        "18": "entryR8,incoming.slot20return",
+        "20": "entryRCX,localwrapperinterface",
+        "28": "entryR9,localregistry/typedescription"
+      },
+      "padding_F_C_to_10_initialized_claim": false,
+      "registry_nonzero_gate": "QWORD[QWORD[entryR9]+38] mustbenonzeroonshowncallpath",
+      "R8_numeric_length_interpretation_authenticated": false
+    },
+    "helper": {
+      "entry_RVA": "0x1A78CC0",
+      "tail_bytes": 5,
+      "tail_instructions": 1,
+      "tail_target": "0x1A78210",
+      "selected_dispatch_code": [
+        "0x1A78210",
+        "0x1A78665"
+      ],
+      "selected_dispatch_bytes": 1109,
+      "selected_dispatch_instructions": 287,
+      "original_RuntimeFunction": [
+        "0x1A78210",
+        "0x1A786A8"
+      ],
+      "excluded_padding": [
+        "0x1A78665",
+        "0x1A78668"
+      ],
+      "separate_switch_table_RVA": [
+        "0x1A78668",
+        "0x1A786A8"
+      ],
+      "switch_table_bytes": 64,
+      "switch_table_SHA256": "d70485f5d02551b4127a6c46ee55e9a92008422e3222da5af7f594579f854464",
+      "all16_table_targets_selected_instruction_starts": true,
+      "classifier": "1A6D8B0 receivesRCX=QWORD[F],EDX=DWORD[F+8];result1..16selectsindexedbranch;out-of-rangetakes1A7864F",
+      "selected_virtual_transfer_paths": [
+        {
+          "classifier_result": 5,
+          "branch_RVA": "0x1A78310",
+          "input_call_RVA": "0x1A78333",
+          "input_receiver": "RCX=QWORD[F+10]",
+          "input_vtable_slot": "0x30",
+          "input_second_argument": "RDX=QWORD[F+18]",
+          "transfer": "zero-extended input AL is placed inR8D",
+          "second_call_RVA": "0x1A78342",
+          "second_receiver": "RCX=QWORD[F+20]",
+          "second_vtable_slot": "0xB0",
+          "second_other_arguments": "RDX=QWORD[F+28],R8D=zero-extended inputAL"
+        },
+        {
+          "classifier_result": 7,
+          "branch_RVA": "0x1A78392",
+          "input_call_RVA": "0x1A783B5",
+          "input_receiver": "RCX=QWORD[F+10]",
+          "input_vtable_slot": "0x28",
+          "input_second_argument": "RDX=QWORD[F+18]",
+          "transfer": "input RAX is placed inR8",
+          "second_call_RVA": "0x1A783C3",
+          "second_receiver": "RCX=QWORD[F+20]",
+          "second_vtable_slot": "0xA8",
+          "second_other_arguments": "RDX=QWORD[F+28],R8=inputRAX"
+        }
+      ]
+    },
+    "instruction_assertions": 41,
+    "interpretation": {
+      "directly_supported": "The visiblebodydispatchesametadata-derivedclassifierandtransfersvaluesbetweentwovirtualinterfaces. OnthesetwopathsF+10isusedasavtablereceiverandF+18asitscontext/secondargument; returnedvaluesareforwardedthroughF+20interfacewithF+28descriptor.",
+      "limited_inference": "Thisisconsistentwithschema-directedobject/serializationtraversal. It isnotadirectMPQ/archivebyteparserintheinspectedbody. Anunexpandedinputvirtualmethodmaystillparseencodedbytes; wholeprotocolsemanticsandallfieldbehaviorarenotproved.",
+      "not_proven": [
+        "ActualincomingR13classoranycandidate-tablebinding",
+        "Meaning/layoutofstorageatcandidategetterreturnedaddresses",
+        "F+18asanumericbytecountorinputlength",
+        "SuccessfulparseorcompleteResponsefields",
+        "Historicalplayer-valueproducerorold-to-currentmigrationpolicy"
+      ]
+    },
+    "conditions": [
+      "Validstableobjects,vtables,framesandnonwrappingaddressarithmetic",
+      "NormalABIreturnsandnonvolatileregisterpreservation",
+      "Opaquehelpercallsandexternalaliasesdonotmutateframerelationshipsbetweenstatedboundaries",
+      "Noactualregistryorclassificationvalueobserved; classifier-resultnumbersarenotgivensemantictypenameshere"
+    ]
+  },
+  "candidate_RTTI_counts": {
+    "filtered_authenticated_descriptor_names": 56,
+    "valid_COLs": 51,
+    "admitted_vtables": 8,
+    "admitted_unique_names": 8,
+    "rejection_records": 49,
+    "prior_selected_COL_checks": 8
+  },
+  "candidate_initialization": {
+    "selected_PData_code_bytes": 639,
+    "selected_instructions": 142,
+    "exact_instruction_byte_assertions": 37,
+    "original_PE_initial_type_globals": [
+      {
+        "RVA": "0x298bf80",
+        "file_offset": 43560832,
+        "bytes": 4,
+        "hex": "00120000",
+        "sha256": "422ef6454337f1cefb0c126be2ad6801abf55db57cb88e250f73915a3b431e08",
+        "unsigned_value": 4608
+      },
+      {
+        "RVA": "0x298bf90",
+        "file_offset": 43560848,
+        "bytes": 4,
+        "hex": "1f120000",
+        "sha256": "8297d485ab3dfd27378c66e8fc97f33207201470df3517d6d118b1afeb800ec9",
+        "unsigned_value": 4639
+      }
+    ],
+    "RequestPtr": {
+      "entry_RVA": "0x1ec2b70",
+      "selected_end_RVA": "0x1ec2c53",
+      "selected_PData_record_ends_with_RET": true,
+      "classification": "Stack object initialization and dispatch, not a destructor-reset sequence",
+      "W": "RSP+0x20 in the post-prologue frame",
+      "stores": [
+        {
+          "offset": "0x0",
+          "value": "VA(298D700)",
+          "site": "0x1ec2b8c"
+        },
+        {
+          "offset": "0x8",
+          "value": "DWORD0",
+          "site": "0x1ec2b84"
+        },
+        {
+          "offset": "0x10",
+          "value": "VA(298CA10), inner table",
+          "site": "0x1ec2b9f"
+        },
+        {
+          "offset": "0x18",
+          "value": "VA(3B7F140), registry address",
+          "site": "0x1ec2bb4"
+        },
+        {
+          "offset": "0x20",
+          "value": "DWORD[298BF80]=4608 initially",
+          "site": "0x1ec2bb9"
+        },
+        {
+          "offset": "0x28",
+          "value": "observed metadata kind, mask0x3f",
+          "sites": [
+            "0x1ec2bd5",
+            "0x1ec2c1a"
+          ]
+        },
+        {
+          "offset": "0x30",
+          "value": "entryR8 preserved pointer value",
+          "site": "0x1ec2b9a"
+        }
+      ],
+      "descriptor_pair": "W+0x18 contains registry address; W+0x20 is the currenttype DWORD, initially4608.",
+      "type_overwrite_caveat": "If nonzero type metadata kind equals16, loop through1A6D3D0 and1A6D070 copies returnedDWORD[RSP+A8] intoW+20 at1EC2C09.4608 is initial, not a universal final type.",
+      "slot40_call": {
+        "site": "0x1ec2c2d",
+        "receiver": "W",
+        "original_table_target_RVA": "0x2749e0",
+        "exact_target_leaf": {
+          "RVA": "0x2749e0",
+          "transformed_file_offset": 1812960,
+          "bytes": 4,
+          "hex": "ff4108c3",
+          "sha256": "054157561c41ba2c8e691f76036f0dbdaae9e9308d3a1c40b192888afa8d41a9",
+          "listing": {
+            "file": "RequestPtr_slot40_leaf.private.txt",
+            "bytes": 359,
+            "sha256": "9b265181c66bd5055d97e3b1a1b4b0d00a041f2e64b92fbc3722fb2339485018"
+          }
+        },
+        "qualification": "Exact4B leaf incrementsDWORD[RCX+8], thenRET. WithRCX=W it changesW+8, not the W+18/W+20descriptor pair; no scalar length meaning is inferred."
+      },
+      "dispatch": {
+        "site": "0x1ec2c40",
+        "target": "entryRCX.virtual0",
+        "RCX": "entryRCX preserved inRDI",
+        "DL": "0xA",
+        "R8D": "entryEDX preserved inEBX",
+        "R9": "&W"
+      },
+      "scope": "Only construction and the selected dispatch call are established. No current invocation or relation to consumerR13 is observed."
+    },
+    "Response_destructor_style": {
+      "entry_RVA": "0x1ec3360",
+      "end_RVA": "0x1ec33ba",
+      "original_table_slot0_points_here": true,
+      "observations": [
+        "Stores298D0D0table at entryRCX+0, then298C8A0at+178.",
+        "Calls1EB6F40 withRCX=object+14.",
+        "Replaces objecttable with298C9B8.",
+        "Tests entryDLbit1 and conditionally calls1A24B90(object,0x1A0)."
+      ],
+      "qualification": "Destructor/reset-style evidence; this is not evidence of initial descriptor construction. Callee1A24B90's allocator/release semantics are not independently decoded here."
+    },
+    "Response_initialization_prefix": {
+      "entry_RVA": "0x1ec3c50",
+      "selected_PData_end_RVA": "0x1ec3d92",
+      "complete_factory_or_constructor_extent_proved": false,
+      "path_condition": "BYTE[entryRDX]==0xB; the other branch formats/logs and returns",
+      "frame_equivalence": "After pushes and subRSP330, RBP=RSP+100.",
+      "W": "RSP+0x30",
+      "stores": [
+        {
+          "offset": "0x0",
+          "value": "VA(298D0D0)",
+          "site": "0x1ec3cc7"
+        },
+        {
+          "offset": "0x8",
+          "value": "DWORD0",
+          "site": "0x1ec3cec"
+        },
+        {
+          "offset": "0x10",
+          "value": "DWORD0",
+          "site": "0x1ec3cfb"
+        },
+        {
+          "offset": "0x14",
+          "value": "DWORD0xFFFFFFFF",
+          "site": "0x1ec3d03"
+        },
+        {
+          "offset": "0x178",
+          "value": "VA(298CA10), inner table",
+          "site": "0x1ec3cd3"
+        },
+        {
+          "offset": "0x180",
+          "value": "VA(3B7F140), registry address",
+          "site": "0x1ec3d08"
+        },
+        {
+          "offset": "0x188",
+          "value": "DWORD[298BF90]=4639 initially",
+          "site": "0x1ec3d0f"
+        },
+        {
+          "offset": "0x198",
+          "value": "&W+10",
+          "site": "0x1ec3cdf"
+        }
+      ],
+      "descriptor_pair": "W+180 contains registry address; W+188 is the currenttype DWORD, initially4639.",
+      "type_overwrite_caveat": "Kind16 loop overwritesW+188 at1EC3D6F using returnedDWORD[RBP+120].4639 is initial, not a universal final type.",
+      "continuation": "Selected record falls/branches into1EC3D92. No parsing/dispatch/cleanup beyond that boundary is claimed."
+    },
+    "getter_pair_coupling": {
+      "selected_leaf_witnesses": [
+        {
+          "RVA": "0x1ec3ab0",
+          "transformed_file_offset": 31496880,
+          "bytes": 5,
+          "hex": "488d4110c3",
+          "sha256": "be0d05965dc835782e7cf3836e77591b0f4f6274c898b6209ff60fea334dead2"
+        },
+        {
+          "RVA": "0x1ec3a90",
+          "transformed_file_offset": 31496848,
+          "bytes": 5,
+          "hex": "488d4118c3",
+          "sha256": "813b00f48d4cf0d99dea047ab4852415937c2c310855ec0ec2bda6184b705ba3"
+        },
+        {
+          "RVA": "0x1ec3aa0",
+          "transformed_file_offset": 31496864,
+          "bytes": 8,
+          "hex": "488d8178010000c3",
+          "sha256": "a3ac40beb8a8ad77a0cf3b1cb776bf8842e49ed06384c814c0de5a40622804be"
+        },
+        {
+          "RVA": "0x1ec3a70",
+          "transformed_file_offset": 31496816,
+          "bytes": 8,
+          "hex": "488d8180010000c3",
+          "sha256": "58dedcc4d426488bd2ad1a5930deb5fb9d26bc628808085b48916ef100ebd381"
+        }
+      ],
+      "RequestPtr": {
+        "slot10": "W+10, inner table address",
+        "slot20": "W+18, registry/currenttype descriptor address"
+      },
+      "Response": {
+        "slot10": "W+178, inner table address",
+        "slot20": "W+180, registry/currenttype descriptor address"
+      },
+      "pointer_not_scalar_length": true,
+      "limitation": "These are candidate object's conditional getters. They do not identify the actual incomingR13 object or prove1A6E990argument semantics at runtime."
+    },
+    "not_proved": [
+      "Actual runtimeR13binding",
+      "Actual allocation/lifetime or caller-selected candidate class",
+      "Final unwrapped currenttype under actual registry values",
+      "Old41810 mechanics or conversion",
+      "A returnedR8 scalar length; these observed methods return addresses"
+    ]
+  },
+  "source_pins": [
+    {
+      "workspace_path": "work/incoming-payload-interface-20261102/registered-App-peer-review.json",
+      "bytes": 11520,
+      "sha256": "46b2f08185fb36e9c47c07e1d90a7b1cd0f887faa4db08173ff47eda02af8713"
+    },
+    {
+      "workspace_path": "work/incoming-payload-interface-20261102/storage-bridge-peer-review.json",
+      "bytes": 12248,
+      "sha256": "ea39dfddbc0e61a2b292250a61f5c4b73f7a456ac1d5c8fad3a25d6fd7bacdcd"
+    },
+    {
+      "workspace_path": "work/native-payload-constructor-qualification-20261102/encoded-object-descriptor-store-qualification.json",
+      "bytes": 12287,
+      "sha256": "9479fbb0cafba3ca497c7db41ab5267ba278c9332db96ae4952edb9047548630"
+    },
+    {
+      "workspace_path": "work/native-payload-rtti-candidates-20261102/native-payload-rtti-candidate-summary.json",
+      "bytes": 5017,
+      "sha256": "cb18d74ca29a5ef80c2c26bfdad950843b1eacd1460a1143032527181e79cb8e"
+    }
+  ],
+  "production_or_replay_or_sync_changed": false,
+  "native_execution_or_emulation_game_or_ComputerUse": false,
+  "historical_values_recovered": false,
+  "full_upgrade_complete": false,
+  "current_playback_proven": false
+}

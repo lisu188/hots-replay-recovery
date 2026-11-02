@@ -2092,3 +2092,37 @@ onvalidcasts/applicablemetadata/caster. LightofElunecompatible,NOT numericIDproo
 No name/currentmapping/defaults/game/CU/nativeexecution/replay/sync changes.
 Fullupgrade/currentplaybackfalse. Do not repeatclosed337TACTHEADbodysearch or
 24CDNrequests withoutchangedreason; knownkeysarefuturelookupnotrestoredclient.
+
+
+## Registered replay input and new Brightwing reference - 2026-11-02
+
+Read docs/REGISTERED_REPLAY_INPUT_INTERFACE_2026-11-02.md and its observation.
+EventAdapter primary+8 selects Q by input index; Q need not be invoking L and
+there is no local bounds check. Only valid stable Q secondary298C7C0 and listener
+G table28E6CE8 qualify the ten-byte forwarder to G, then kind3 to consumerR13.
+235B/62instr new and464B/101instr downstream independently qualified. H byte
+stores/padding and overlapping QWORD1/DWORDindex stores retain exact limits.
+1A78CC0 is5B tail to1A78210;1109B/287instr code excludes3B padding/64B table.
+Selected kinds5/7 use F+10 as virtual receiver,F+18 context,then transfer to
+F+20 with descriptorF+28. Do not infer numeric length or direct MPQ parser.
+Candidate RequestPtr/Response gettable paths and initial descriptor4608/4639
+are qualified but kind16 may overwrite them; actual incomingR13 still unbound.
+No historical values, conversion/default/replay/sync or native playback claim.
+
+Read docs/EXACT41810_BRIGHTWING_REFERENCE_2026-11-02.md and its observations.
+One new private725485B SHA036e05a1.. reference: whole41810/root, CursedHollow,
+first4orderedhandles sameoriginal/fifthdiff, matchingmod/differentmapchecksum.
+Independent sixcore EOF validates116951game/217message/6108tracker events.
+All60numeric126 cmd0/TargetUnit/200100 have conditional HeroFaerieDragon
+singletons, strictprior type/owner;50teammateother/10exactself.37aftertracker
+death are NOT pool destruction/deadcaster evidence. Seven unique talent pairs;
+23commands beforeBlinkHealchoice only conditionally bound the accepted-cast
+hypothesis, not126name/PixieDust/currentmapping. Original9None cases unresolved.
+Public projection excludes exact sender loops, player IDs/tags/account paths.
+Finite32metadata plan inspected25 and stopped positive;7unread, no expansion.
+No raw replay published or strict battlelobby/MapInfo profile added for this map.
+
+TACT exact-path history/fork route is bounded closed:8empty history responses,
+243/309forkblobs all existing337-body subsets, no new body/root binding. Avoid
+repeating those checks; require distinct origin/advertised new path or realold
+config. Game/CU prohibition persists. Full upgrade/current playback false.

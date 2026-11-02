@@ -81,3 +81,20 @@ See observations/exact41810-config-key-mapping-2026-11-02.json and validation
 receipt for whole-source pins, route outcomes and assumptions. No game, Computer
 Use, native target execution/emulation, replay edit or synchronization change
 occurred. Full upgrade and current-client playback remain unproved.
+
+## Additional exact-path history and fork scope
+
+The new history/fork route inspected exact BuildConfig/CDNConfig path histories
+in upstream plus three pinned forks. All eight bounded history responses were
+empty. Two distinct complete fork snapshots contain243 and309 config blobs;
+every path, mode, Git SHA and length matches a subset of the already verified
+337-body archive. Their404 and488 tree nodes were reconstructed independently.
+No config bodies were downloaded again. The inspected tpr directory has122
+children and only the already known Hero-Live-a namespace.
+
+See observations/exact41810-tact-history-forks-2026-11-02.json for pins and scope.
+Do not repeat these exact-path/fork HEAD checks without a changed reason. A
+distinct preservation origin, an advertised relocated path/branch or a real old
+installation's config file is needed. Relocated paths, unreachable Git objects
+and unrelated archive histories remain outside this bounded result. The known
+keys still have no acquired body or original-root binding.

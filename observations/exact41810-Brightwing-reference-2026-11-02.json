@@ -1,0 +1,289 @@
+{
+  "format": "new-local41810-Brightwing126-reference-sanitized-v1",
+  "fixture": {
+    "id": "local41810-Brightwing-reference25",
+    "bytes": 725485,
+    "sha256": "036e05a19255d42930ee561b3bfd07234d8d6e15fb87dd893798ff64d252acce"
+  },
+  "acquisition": {
+    "source": "User-requested known HotS Accounts/Replays subtree; raw account path remains private.",
+    "finite_metadata_plan": 32,
+    "previous_eight_source_results_reused_without_read": 8,
+    "additional_files_read_before_stop": 17,
+    "additional_declared_source_bytes": 10800428,
+    "authorized_additional_file_limit": 24,
+    "authorized_additional_source_byte_limit": 20971520,
+    "total_covered_files": 25,
+    "total_covered_declared_source_bytes": 16098073,
+    "declared_build_counts": {
+      "41810": 19,
+      "42178": 6
+    },
+    "unread_plan_files_after_immediate_positive_stop": 7,
+    "whole_private_fixtures_created": 1,
+    "source_file_sizes_and_modification_times_preserved": true,
+    "cloud_hydration_was_authorized_for_selected_files": true,
+    "actual_provider_transport_bytes_measured": false,
+    "scope_expanded_beyond_finite32": false
+  },
+  "declared_context": {
+    "build_base_data": [
+      41810,
+      41810,
+      41810
+    ],
+    "root": "83d43a8647bb5ca5caa6f2f09064da55",
+    "map_title_literal": "Przeklęta Kotlina",
+    "details_cache_handle_count": 5,
+    "initdata_cache_handle_count": 5,
+    "details_and_initdata_ordered_handle_bytes_equal": true,
+    "first_four_ordered_handles_byte_equal_original": true,
+    "different_ordered_handle_indices_from_original": [
+      4
+    ],
+    "reference_ordered_handles_sha256": "0b73f3af2b5096773e1870ae3b2efbe0bb6daafeb7834ab28817f35ad8ba9e0a",
+    "original_ordered_handles_sha256": "b193b526e73a597698fc71b83c12fe262524107ff87dc4afbf6b3840508c5845",
+    "mod_and_map_checksum_comparisons": {
+      "m_mapFileSyncChecksum": {
+        "original": 759447839,
+        "reference": 655521025,
+        "equal": false
+      },
+      "m_modFileSyncChecksum": {
+        "original": 3522231966,
+        "reference": 3522231966,
+        "equal": true
+      }
+    },
+    "initdata_modPaths_field_present_reference": false,
+    "initdata_modPaths_field_present_original": false,
+    "absent_modPaths_equality_used_as_additional_proof": false,
+    "effective_native_namespace_or_rule_equivalence_authenticated": false
+  },
+  "core_members": {
+    "header": {
+      "bytes": 119,
+      "sha256": "81e860c988c1bce560ee3c3a8956e3cdd0e48e4500ea257a31acd2efb921194d",
+      "complete_EOF_bits": true
+    },
+    "details": {
+      "bytes": 1188,
+      "sha256": "4981dfa9bfe34b872dbb1e8974d10a7a1e53f3593ee4438e96df89b5d26ba3bd",
+      "complete_EOF_bits": true
+    },
+    "initData": {
+      "bytes": 4123,
+      "sha256": "bff31c5c80f740cf15cd62db69d5faf91ebd0b087d3477c808deb415cd178cc6",
+      "complete_EOF_bits": true
+    },
+    "game.events": {
+      "bytes": 1281924,
+      "sha256": "b25b14beabbccc772ee606b8b56ebe58222681a6a3d41c02629fefc0bdf1857f",
+      "events": 116951,
+      "last_gameloop": 18985,
+      "complete_EOF_bits": true,
+      "ability126_commands": 60,
+      "ability126_aggregate": [
+        {
+          "command_index": 0,
+          "target_variant": "TargetUnit",
+          "flags": 2097408,
+          "count": 60
+        }
+      ]
+    },
+    "message.events": {
+      "bytes": 2070,
+      "sha256": "abc3b0ea577635a0a3aae487bdc529ef8f0df49467113f765c05f5927ddfe945",
+      "events": 217,
+      "last_gameloop": 18755,
+      "complete_EOF_bits": true
+    },
+    "tracker.events": {
+      "bytes": 313476,
+      "sha256": "20f9d63259a8dffc2aadf02f50127fa0baeb815d261141f60d5d51020b921594",
+      "events": 6108,
+      "last_gameloop": 18960,
+      "complete_EOF_bits": true,
+      "HeroFaerieDragon_type_records": 1
+    }
+  },
+  "core_decoder": {
+    "schema_sha256": "879d228d9d8acd21d63563538dd15841aaf49259ee0bb468b8a46b6a4ef866fd",
+    "decoder_sha256": "17bfb926af0f7f79e18f6299dbae50fc2821c53b229235d4f9c857c7ef3e96b1",
+    "mpq_reader_sha256": "9e940dae67c5d457483c814e6169e6e5d0a1cc5a1dcfdbd76dcf9026f1fa0033",
+    "unchanged_official_AST_classes_and_bounded_byte_primitives": true,
+    "independent_core_validation_passed": true,
+    "fresh_decode_encode_roundtrips_run": false
+  },
+  "numeric126_recorded_context": {
+    "commands": 60,
+    "command_indices": {
+      "0": 60
+    },
+    "target_variants": {
+      "TargetUnit": 60
+    },
+    "flags": {
+      "0x200100": 60
+    },
+    "all_SCmdevent_command_indices_and_shapes_included": true,
+    "conditional_selected_type_counts": {
+      "HeroFaerieDragon": 60
+    },
+    "conditional_singleton_commands": 60,
+    "selected_or_target_missing_unambiguous_strict_prior_type_or_owner": 0,
+    "same_loop_only_type_joins": 0,
+    "conditional_selected_recorded_control_equals_explicit_PlayerSetup": 60,
+    "target_recorded_type_counts": {
+      "HeroDiablo": 28,
+      "HeroFaerieDragon": 10,
+      "HeroThrall": 15,
+      "HeroFalstad": 5,
+      "HeroTassadar": 2
+    },
+    "target_recorded_control_relation_to_explicit_setup_and_lobby_team": {
+      "same-team-other-recorded-player": 50,
+      "same-recorded-player": 10
+    },
+    "target_exact_key_equals_conditional_singleton_key": 10,
+    "commands_after_prior_selected_key_tracker_death_records": 37,
+    "selected_item_model_conditions": [
+      "normal empty initialization and valid group invariants",
+      "every addition passes unauthenticated native catalog/reference/object gates",
+      "same-user wire deltas in order, qualified0..3bit mask path",
+      "no unobserved mutators/reentry/concurrency, ordinary overlapping copy"
+    ],
+    "actual_native_actor_or_live_pool_identity_proven": false,
+    "tracker_death_treated_as_pool_destruction": false,
+    "None_target_commands_in_new_reference": 0,
+    "original_nine_None_target126_exceptions_resolved": false
+  },
+  "talent_and_named_carrier_scope": {
+    "explicit_PlayerSetup_and_exact_game_loop_plus1_pairs": 7,
+    "sender_tracker_talent_records": 7,
+    "unused_sender_tracker_talent_records": 0,
+    "duplicate_tracker_row_uses": 0,
+    "matching_authored_metadata_strings_found_only_in_TalentChosen_PurchaseName": true,
+    "ability_or_spell_related_StatGame_keys_observed": false,
+    "independent_named_ability126_carrier_observed": false,
+    "serialized_index_treated_as_JSON_array_order": false
+  },
+  "limits": [
+    "Header declarations, four common ordered handles and matching mod checksum support recorded context comparison, not effective native catalogue assignment. The map and fifth handle differ.",
+    "Command records show attempted inputs, not proof that the client accepted or executed casts. Conditional selection is not native caster proof.",
+    "No ability126 name, current target ID, callback class, flag meaning or rewrite is assigned.",
+    "The37 commands after recorded tracker death do not prove a dead caster, absent object or native pool destruction.",
+    "Private fixture, account path, setup/player IDs, tags, exact per-command rows and raw message/player values remain local.",
+    "No source replay conversion, native replay playback, or simulation equivalence is proved."
+  ],
+  "raw_private_values_published": false,
+  "game_ComputerUse_native_execution_or_emulation": false,
+  "repo_replay_sync_or_conversion_modified": false,
+  "full_upgrade_complete": false,
+  "aggregate_talent_index_to_purchase_pairs": [
+    {
+      "serialized_talent_index": 0,
+      "purchase_name": "BrightwingUnfurlingSpraySoothingMist",
+      "uniquely_paired_count": 1
+    },
+    {
+      "serialized_talent_index": 3,
+      "purchase_name": "BrightwingManicPixiePixieDust",
+      "uniquely_paired_count": 1
+    },
+    {
+      "serialized_talent_index": 7,
+      "purchase_name": "BrightwingMistifiedSoothingMist",
+      "uniquely_paired_count": 1
+    },
+    {
+      "serialized_talent_index": 11,
+      "purchase_name": "FaerieDragonHeroicAbilityBlinkHeal",
+      "uniquely_paired_count": 1
+    },
+    {
+      "serialized_talent_index": 15,
+      "purchase_name": "FaerieDragonMasteryShieldDust",
+      "uniquely_paired_count": 1
+    },
+    {
+      "serialized_talent_index": 18,
+      "purchase_name": "BrightwingBouncyDustPixieDust",
+      "uniquely_paired_count": 1
+    },
+    {
+      "serialized_talent_index": 23,
+      "purchase_name": "BrightwingRevitalizingMistSoothingMist",
+      "uniquely_paired_count": 1
+    }
+  ],
+  "aggregate_before_talent_counts": {
+    "format": "new41810-Brightwing126-before-talent-choice-counts-v1",
+    "reference_sha256": "036e05a19255d42930ee561b3bfd07234d8d6e15fb87dd893798ff64d252acce",
+    "numeric_ability_link": 126,
+    "commands": 60,
+    "uniquely_paired_recorded_talent_choices": 7,
+    "commands_strictly_before_recorded_game_choice_by_purchase_name": {
+      "BrightwingUnfurlingSpraySoothingMist": 0,
+      "BrightwingManicPixiePixieDust": 8,
+      "BrightwingMistifiedSoothingMist": 16,
+      "FaerieDragonHeroicAbilityBlinkHeal": 23,
+      "FaerieDragonMasteryShieldDust": 35,
+      "BrightwingBouncyDustPixieDust": 44,
+      "BrightwingRevitalizingMistSoothingMist": 60
+    },
+    "commands_at_same_recorded_loop_by_purchase_name": {
+      "BrightwingUnfurlingSpraySoothingMist": 0,
+      "BrightwingManicPixiePixieDust": 0,
+      "BrightwingMistifiedSoothingMist": 0,
+      "FaerieDragonHeroicAbilityBlinkHeal": 0,
+      "FaerieDragonMasteryShieldDust": 0,
+      "BrightwingBouncyDustPixieDust": 0,
+      "BrightwingRevitalizingMistSoothingMist": 0
+    },
+    "commands_strictly_after_recorded_game_choice_by_purchase_name": {
+      "BrightwingUnfurlingSpraySoothingMist": 60,
+      "BrightwingManicPixiePixieDust": 52,
+      "BrightwingMistifiedSoothingMist": 44,
+      "FaerieDragonHeroicAbilityBlinkHeal": 37,
+      "FaerieDragonMasteryShieldDust": 25,
+      "BrightwingBouncyDustPixieDust": 16,
+      "BrightwingRevitalizingMistSoothingMist": 0
+    },
+    "strict_comparison_scope": "raw recorded gameloop strictly less than the paired game talent choice; same-loop records are separate, without inferring acceptance/order within that loop",
+    "conditional_hypothesis_bound": {
+      "hypothesis": "Every numeric126 command in this reference is an accepted cast of the ability requiring the recorded BlinkHeal heroic choice.",
+      "prechoice_command_count": 23,
+      "result": "inconsistent under all stated prerequisites; not unconditional numeric-link identification or exclusion",
+      "required_assumptions": [
+        "The applicable authored historical rules require the named heroic choice before this ability is available.",
+        "The recorded conditional selected HeroFaerieDragon is the actual command caster.",
+        "These command attempts are accepted casts.",
+        "No unobserved grant, alternate owner, copied ability or other mechanism bypasses the prerequisite."
+      ],
+      "ability126_name_assigned": false,
+      "PixieDust_identity_proven": false,
+      "current_mapping_or_flag_rewrite_inferred": false
+    },
+    "exact_loops_player_ids_unit_keys_or_source_account_paths_emitted": false
+  },
+  "public_projection_excludes_exact_sender_loops_player_IDs_and_unit_keys": true,
+  "source_pins": [
+    {
+      "workspace_path": "work/ability126-reference-acquisition-20261102/sanitized-summary.json",
+      "bytes": 8773,
+      "sha256": "28e486cde876a11ab64a69fa467e6aa61deecbaa35c530edd5664590c24bfb94"
+    },
+    {
+      "workspace_path": "work/ability126-reference-acquisition-20261102/before-talent-counts-sanitized.json",
+      "bytes": 2855,
+      "sha256": "b2ca2d4f4e75888b6133755662c08edadbe66a2a258240990d8020c44b7fec2b"
+    },
+    {
+      "workspace_path": "work\\ability126-reference-acquisition-20261102\\independent-core-validation.json",
+      "bytes": 2320,
+      "sha256": "acf4a81952547fff95ed8077698d8ed13f5f4628781da155db84d3e71c99c675"
+    }
+  ]
+}
