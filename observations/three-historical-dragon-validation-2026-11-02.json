@@ -1,0 +1,56 @@
+{
+  "format": "three-historical-Dragon-reference-validation-v1",
+  "base_commit": "deee54ef37eab047875ab32a69a827328f78ad98",
+  "observation": {
+    "path": "observations/three-historical-dragon-references-2026-11-02.json",
+    "bytes": 63004,
+    "sha256": "4249c742e2cf0d7f0b1d4d64209d3ec9a9155c03d2b1553c03c4ed3bb4365ce9"
+  },
+  "source_receipt_pins": [
+    {
+      "id": "references",
+      "workspace_path": "work/local-replay-refresh-20261102/public-cloud-reference-observation.json",
+      "bytes": 47993,
+      "sha256": "bb82b01d1575c01fed817ed37b0f7ecb31fa83faaed2529b60d0c163b1da343e"
+    },
+    {
+      "id": "author_review",
+      "workspace_path": "work/local-replay-refresh-20261102/public-cloud-reference-self-review.json",
+      "bytes": 1295,
+      "sha256": "1b8056e2f33ce2580fec44418cdba6ec13fdd36cdf9b836e1793fbd387588947"
+    },
+    {
+      "id": "peer_review",
+      "workspace_path": "work/local-replay-refresh-20261102/independent-review.json",
+      "bytes": 8639,
+      "sha256": "432cbcac4a43b88c70ba2b01e74ef9b72e1fc6fea83f55e387d2e838464a61ae"
+    },
+    {
+      "id": "complete_config_archive",
+      "workspace_path": "work/historic-complete-configs-20261102/complete-config-frontier-summary.json",
+      "bytes": 6505,
+      "sha256": "842f00b906fc6dfb96ca280990f2ff3b0572c83c5c2865b78460d3588bf8e112"
+    },
+    {
+      "id": "config_needle_scan",
+      "workspace_path": "work/historic-complete-configs-20261102/all-config-exact-needle-scan.json",
+      "bytes": 617,
+      "sha256": "124c73489ef954ef111b321243f198914e90d30a88291919374cb9ce49e86b56"
+    },
+    {
+      "id": "GitHub_fixture_route",
+      "workspace_path": "work/current-github-fixtures-20261102/current-github-fixtures-route-review.json",
+      "bytes": 4463,
+      "sha256": "29fba39f929b047c2b53abb023ddddcd47205be823a4a222aaf806fd5d4ac159"
+    }
+  ],
+  "independent_real_member_and_conditional_context_review_passed": true,
+  "independent_findings": 0,
+  "fresh_game_tracker_EOF": true,
+  "fresh_reencoding_or_CI": false,
+  "new_unit_tests": false,
+  "native_playback": false,
+  "raw_private_fixtures_published": false,
+  "new_safe_conversion_values": false,
+  "full_upgrade_complete": false
+}

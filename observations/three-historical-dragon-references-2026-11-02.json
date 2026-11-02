@@ -1,0 +1,2032 @@
+{
+  "format": "public-local-cloud-exact41810-reference-acquisition-v1",
+  "observed_at_utc": "2026-11-02T17:43:21.984863+00:00",
+  "purpose": "Use bounded reads from the requested HotS Accounts/Replays folder to recover genuinely new old references and command contexts without modifying conversion data.",
+  "metadata_search": {
+    "prior_inventory": {
+      "files": 2105,
+      "cloud_stubs": 2102,
+      "local_available": 3
+    },
+    "cloud_last_write_year_histogram": {
+      "2016": 684,
+      "2017": 701,
+      "2018": 266,
+      "2019": 28,
+      "2020": 78,
+      "2021": 2,
+      "2022": 271,
+      "2023": 8,
+      "2024": 56,
+      "2026": 8
+    },
+    "historical_Mar20_Apr30_2016_metadata_candidates": 65,
+    "modern_filename_date_candidates": 2,
+    "modern_filename_dates": [
+      "2026-09-28",
+      "2026-09-29"
+    ],
+    "October2026_filename_date_candidates": 0,
+    "filename_Abathur_or_Monstrosity_hints_found": false,
+    "date_or_name_hints_used_as_build_proof": false
+  },
+  "bounded_cloud_reads": {
+    "files_selected_and_attempted": 5,
+    "maximum_files": 5,
+    "selected_aggregate_source_file_bytes": 3133991,
+    "maximum_aggregate_source_file_bytes": 10485760,
+    "actual_cloud_transport_bytes_measured": false,
+    "read_only_source_access": true,
+    "all_source_sizes_and_modification_times_preserved": true,
+    "modern_candidates_excluded_after_header_only": 2,
+    "modern_excluded_build_base_data": [
+      98285,
+      98285,
+      98285
+    ],
+    "new_full41810_private_fixtures": 3,
+    "new_full41810_fixture_bytes": 2028351,
+    "new98348_fixtures": 0,
+    "source_original_sized_candidate_635140_skipped_as_likely_duplicate": true,
+    "that_skipped_candidate_SHA_identity_claimed": false
+  },
+  "references": [
+    {
+      "reference_id": "local41810-3",
+      "fixture": {
+        "path": "work/local-replay-refresh-20261102/cloud-candidate-3-41810.private.StormReplay",
+        "bytes": 850813,
+        "sha256": "7efa1c335816eebe802747ae4b16252ed22fcd8387b09d24b115b2917542b52a"
+      },
+      "source_metadata_date_hint": "2016-04-07",
+      "declared_build_base_data": [
+        41810,
+        41810,
+        41810
+      ],
+      "declared_root": "83d43a8647bb5ca5caa6f2f09064da55",
+      "map_title_literal": "Dragon Shire",
+      "game": {
+        "bytes": 1555050,
+        "sha256": "6267487f589c4db643ff4d3b7abc061af0b61552c7a2de9e86c8508406ca4daf",
+        "events": 140494,
+        "complete_EOF_bits": true,
+        "last_gameloop": 25025
+      },
+      "tracker": {
+        "bytes": 414844,
+        "sha256": "efcd51f24f37612199a8ebce2872bdf72144a82a3a8c15552a164deb5e27d139",
+        "events": 8089,
+        "complete_EOF_bits": true,
+        "last_gameloop": 24960
+      },
+      "details": {
+        "bytes": 1189,
+        "sha256": "6ae81c9928442d9ab6608195e57312b8e8829341eedf73f62aec1b8300f58c79",
+        "complete_EOF_bits": true
+      },
+      "initdata": {
+        "bytes": 3856,
+        "sha256": "021cf8feef85b56459d7abfb53b56acf35b942cb53c97353a2968161f1d573a2",
+        "complete_EOF_bits": true
+      },
+      "cache_context": {
+        "details_handle_count": 5,
+        "initdata_handle_count": 5,
+        "both_ordered_handle_lists_byte_equal_original": true,
+        "comparison_scope": "declared recorded cache handle bytes and ordering only",
+        "m_modPaths_field_present": false,
+        "empty_mod_path_equality_used_as_evidence": false,
+        "effective_native_catalog_or_rules_equivalence_proven": false
+      },
+      "selected_tracker_types": {
+        "TownCannonTowerL3": 12,
+        "TownCannonTowerL2": 12,
+        "TownCannonTowerL2Standalone": 6,
+        "TownCannonTowerL3Standalone": 6,
+        "HeroAbathur": 1,
+        "AbathurLocustNormal": 40,
+        "AbathurToxicNest": 92,
+        "AbathurSymbiote": 69,
+        "TownCannonTowerDead": 22,
+        "AbathurLocustBombardStrain": 114,
+        "AbathurLocustSwarm": 1,
+        "AbathurLocustNestItem": 1,
+        "AbathurLocustNest": 8
+      },
+      "selection_added_tags": 107,
+      "selection_strict_prior_type_missing": 0,
+      "selection_type_ambiguities": 0,
+      "selection_type_pairs": [
+        {
+          "unit_link": 60,
+          "recorded_unit_type": "HeroAbathur",
+          "observations": 11
+        },
+        {
+          "unit_link": 67,
+          "recorded_unit_type": "VehicleDragon",
+          "observations": 4
+        },
+        {
+          "unit_link": 70,
+          "recorded_unit_type": "HeroIllidan",
+          "observations": 6
+        },
+        {
+          "unit_link": 74,
+          "recorded_unit_type": "HeroMuradin",
+          "observations": 1
+        },
+        {
+          "unit_link": 83,
+          "recorded_unit_type": "HeroTyrael",
+          "observations": 2
+        },
+        {
+          "unit_link": 84,
+          "recorded_unit_type": "HeroTyrande",
+          "observations": 2
+        },
+        {
+          "unit_link": 302,
+          "recorded_unit_type": "AbathurSymbiote",
+          "observations": 69
+        },
+        {
+          "unit_link": 807,
+          "recorded_unit_type": "HeroGreymane",
+          "observations": 1
+        },
+        {
+          "unit_link": 882,
+          "recorded_unit_type": "HeroMedic",
+          "observations": 1
+        },
+        {
+          "unit_link": 983,
+          "recorded_unit_type": "HeroWizard",
+          "observations": 7
+        },
+        {
+          "unit_link": 994,
+          "recorded_unit_type": "HeroNecromancer",
+          "observations": 3
+        }
+      ],
+      "talent_join": {
+        "game_choice_rows": 70,
+        "tracker_TalentChosen_rows": 70,
+        "game_rows_with_exactly_one_explicit_player_loop_plus_one_match": 70,
+        "duplicate_tracker_uses": 0,
+        "game_rows_without_unique_exact_match": 0,
+        "unused_tracker_row_count": 0,
+        "near_time_fallback_or_rule_forcing_used": false
+      },
+      "recorded_talent_index_name_pairs": [
+        {
+          "index": 0,
+          "purchase_name": "GenericTalentBlock",
+          "observations": 1
+        },
+        {
+          "index": 0,
+          "purchase_name": "GreymaneInnerBeastWolfheart",
+          "observations": 1
+        },
+        {
+          "index": 0,
+          "purchase_name": "IllidanMasteryImmolationSweepingStrike",
+          "observations": 1
+        },
+        {
+          "index": 0,
+          "purchase_name": "MedicProlongedSafeguard",
+          "observations": 1
+        },
+        {
+          "index": 0,
+          "purchase_name": "WizardAstralPresence",
+          "observations": 1
+        },
+        {
+          "index": 1,
+          "purchase_name": "AbathurCombatStyleSurvivalInstincts",
+          "observations": 1
+        },
+        {
+          "index": 1,
+          "purchase_name": "TyraelMasteryElDruinsMightHoradricReforging",
+          "observations": 1
+        },
+        {
+          "index": 1,
+          "purchase_name": "TyrandeCombatStyleRangersMark",
+          "observations": 1
+        },
+        {
+          "index": 1,
+          "purchase_name": "WizardPowerHungry",
+          "observations": 1
+        },
+        {
+          "index": 2,
+          "purchase_name": "NecromancerTalentBoneArmorShade",
+          "observations": 1
+        },
+        {
+          "index": 3,
+          "purchase_name": "IllidanMasteryRapidChaseDive",
+          "observations": 1
+        },
+        {
+          "index": 3,
+          "purchase_name": "NecromancerTalentDeathsReach",
+          "observations": 1
+        },
+        {
+          "index": 4,
+          "purchase_name": "TyrandeMasterySentinelPierce",
+          "observations": 1
+        },
+        {
+          "index": 5,
+          "purchase_name": "GenericVigorousStrikePassive",
+          "observations": 1
+        },
+        {
+          "index": 6,
+          "purchase_name": "AbathurSymbioteCarapaceSustainedCarapace",
+          "observations": 1
+        },
+        {
+          "index": 6,
+          "purchase_name": "IllidanReflexiveBlock",
+          "observations": 1
+        },
+        {
+          "index": 6,
+          "purchase_name": "MedicUpgradedBallistics",
+          "observations": 1
+        },
+        {
+          "index": 6,
+          "purchase_name": "NecromancerTalentHarvestVitality",
+          "observations": 1
+        },
+        {
+          "index": 6,
+          "purchase_name": "WizardDominance",
+          "observations": 2
+        },
+        {
+          "index": 7,
+          "purchase_name": "GreymaneGilneanCocktailDraughtOverflow",
+          "observations": 1
+        },
+        {
+          "index": 7,
+          "purchase_name": "MuradinMasteryThunderburn",
+          "observations": 1
+        },
+        {
+          "index": 8,
+          "purchase_name": "MuradinMasteryStormhammer",
+          "observations": 1
+        },
+        {
+          "index": 9,
+          "purchase_name": "GreymaneGilneanCocktailIncendiaryElixir",
+          "observations": 1
+        },
+        {
+          "index": 9,
+          "purchase_name": "NecromancerHeroicAbilityPoisonNova",
+          "observations": 1
+        },
+        {
+          "index": 9,
+          "purchase_name": "TyraelMasteryElDruinsMightAngelsGrace",
+          "observations": 1
+        },
+        {
+          "index": 9,
+          "purchase_name": "WizardTeleportCalamity",
+          "observations": 2
+        },
+        {
+          "index": 10,
+          "purchase_name": "AbathurSymbioteCarapaceNetworkedCarapace",
+          "observations": 1
+        },
+        {
+          "index": 10,
+          "purchase_name": "GenericTalentCalldownMULE",
+          "observations": 1
+        },
+        {
+          "index": 10,
+          "purchase_name": "IllidanHeroicAbilityTheHunt",
+          "observations": 1
+        },
+        {
+          "index": 10,
+          "purchase_name": "TyrandeMasteryLunarBlaze",
+          "observations": 1
+        },
+        {
+          "index": 10,
+          "purchase_name": "WizardHeroicAbilityDisintegrate",
+          "observations": 1
+        },
+        {
+          "index": 11,
+          "purchase_name": "GreymaneHeroicAbilityGoForTheThroat",
+          "observations": 1
+        },
+        {
+          "index": 11,
+          "purchase_name": "IllidanNimbleDefender",
+          "observations": 1
+        },
+        {
+          "index": 11,
+          "purchase_name": "WizardHeroicAbilityWaveOfForce",
+          "observations": 1
+        },
+        {
+          "index": 12,
+          "purchase_name": "AbathurHeroicAbilityUltimateEvolution",
+          "observations": 1
+        },
+        {
+          "index": 12,
+          "purchase_name": "MedicHeroicAbilityStimDrone",
+          "observations": 1
+        },
+        {
+          "index": 12,
+          "purchase_name": "MuradinHeroicAbilityAvatar",
+          "observations": 1
+        },
+        {
+          "index": 12,
+          "purchase_name": "NecromancerTalentGiantsCurse",
+          "observations": 1
+        },
+        {
+          "index": 13,
+          "purchase_name": "TyraelHeroicAbilityJudgement",
+          "observations": 1
+        },
+        {
+          "index": 13,
+          "purchase_name": "TyrandeHeroicAbilityShadowstalk",
+          "observations": 1
+        },
+        {
+          "index": 14,
+          "purchase_name": "IllidanMasteryMarkedforDeathDive",
+          "observations": 1
+        },
+        {
+          "index": 14,
+          "purchase_name": "WizardTeleportIllusionist",
+          "observations": 2
+        },
+        {
+          "index": 15,
+          "purchase_name": "AbathurCombatStyleBombardStrain",
+          "observations": 1
+        },
+        {
+          "index": 15,
+          "purchase_name": "GenericTalentBurningRage",
+          "observations": 1
+        },
+        {
+          "index": 15,
+          "purchase_name": "GreymaneInnerBeastOnTheProwl",
+          "observations": 1
+        },
+        {
+          "index": 15,
+          "purchase_name": "MedicCouplesTherapy",
+          "observations": 1
+        },
+        {
+          "index": 15,
+          "purchase_name": "TyrandeMasteryLightofEluneOverflowingLight",
+          "observations": 1
+        },
+        {
+          "index": 16,
+          "purchase_name": "NecromancerTalentAmplifyDamage",
+          "observations": 1
+        },
+        {
+          "index": 17,
+          "purchase_name": "GenericTalentSpellShield",
+          "observations": 1
+        },
+        {
+          "index": 17,
+          "purchase_name": "GreymaneGilneanCocktailConcentratedBlast",
+          "observations": 1
+        },
+        {
+          "index": 18,
+          "purchase_name": "NecromancerTalentCallOfTheGrave",
+          "observations": 1
+        },
+        {
+          "index": 18,
+          "purchase_name": "WizardTeleportDiamondSkin",
+          "observations": 2
+        },
+        {
+          "index": 19,
+          "purchase_name": "GenericTalentNexusBlades",
+          "observations": 1
+        },
+        {
+          "index": 19,
+          "purchase_name": "MuradinMasteryDwarfTossHeavyImpact",
+          "observations": 1
+        },
+        {
+          "index": 19,
+          "purchase_name": "TyraelMasteryElDruinsMightBladeOfJustice",
+          "observations": 1
+        },
+        {
+          "index": 19,
+          "purchase_name": "TyrandeCombatStyleTrueshotBow",
+          "observations": 1
+        },
+        {
+          "index": 19,
+          "purchase_name": "WizardDisintegrateTemporalFlux",
+          "observations": 1
+        },
+        {
+          "index": 20,
+          "purchase_name": "AbathurCombatStyleLocustSwarm",
+          "observations": 1
+        },
+        {
+          "index": 20,
+          "purchase_name": "MedicSystemShock",
+          "observations": 1
+        },
+        {
+          "index": 22,
+          "purchase_name": "WizardArchonPurePower",
+          "observations": 1
+        },
+        {
+          "index": 23,
+          "purchase_name": "GreymaneHuntersBlunderbuss",
+          "observations": 1
+        },
+        {
+          "index": 23,
+          "purchase_name": "MuradinMasteryAvatarUnstoppableForce",
+          "observations": 1
+        },
+        {
+          "index": 23,
+          "purchase_name": "TyraelMasteryJudgmentAngelofJustice",
+          "observations": 1
+        },
+        {
+          "index": 23,
+          "purchase_name": "TyrandeMasteryShadowstalkHuntersSwiftness",
+          "observations": 1
+        },
+        {
+          "index": 24,
+          "purchase_name": "MedicCaduceusReactor2dot0",
+          "observations": 1
+        },
+        {
+          "index": 25,
+          "purchase_name": "AbathurMasteryLocustMaster",
+          "observations": 1
+        }
+      ],
+      "ability126_commands": 0,
+      "ability351_commands": 63,
+      "native_actor_or_pool_or_catalog_acceptance_proven": false
+    },
+    {
+      "reference_id": "local41810-4",
+      "fixture": {
+        "path": "work/local-replay-refresh-20261102/cloud-candidate-4-41810.private.StormReplay",
+        "bytes": 688705,
+        "sha256": "2fca3c78d0e459d4452e3fb1f41ff3fce22b9c1f8f113019389195ff171bf618"
+      },
+      "source_metadata_date_hint": "2016-04-04",
+      "declared_build_base_data": [
+        41810,
+        41810,
+        41810
+      ],
+      "declared_root": "83d43a8647bb5ca5caa6f2f09064da55",
+      "map_title_literal": "Smocze W\u0142o\u015bci",
+      "game": {
+        "bytes": 1273319,
+        "sha256": "55d2cbddda60b683d07ed9a21ffe84ca55422ef9a8aa724969f9a359a6d65f28",
+        "events": 112108,
+        "complete_EOF_bits": true,
+        "last_gameloop": 19953
+      },
+      "tracker": {
+        "bytes": 295692,
+        "sha256": "8d01d6f734e9fea8d038a94d28f6dd0fdac22f4a5d1011caee7165beb7dd13af",
+        "events": 5858,
+        "complete_EOF_bits": true,
+        "last_gameloop": 19920
+      },
+      "details": {
+        "bytes": 1176,
+        "sha256": "c15e2d3ea96114387c512b5f981fa048ce62d8f764f747025fe77cc74cfb316e",
+        "complete_EOF_bits": true
+      },
+      "initdata": {
+        "bytes": 4046,
+        "sha256": "da9325f30b2b3e75cb0f089a3a1e9b87a0aa77164833980528913b291654d9c6",
+        "complete_EOF_bits": true
+      },
+      "cache_context": {
+        "details_handle_count": 5,
+        "initdata_handle_count": 5,
+        "both_ordered_handle_lists_byte_equal_original": true,
+        "comparison_scope": "declared recorded cache handle bytes and ordering only",
+        "m_modPaths_field_present": false,
+        "empty_mod_path_equality_used_as_evidence": false,
+        "effective_native_catalog_or_rules_equivalence_proven": false
+      },
+      "selected_tracker_types": {
+        "TownCannonTowerL3": 12,
+        "TownCannonTowerL2": 12,
+        "TownCannonTowerL2Standalone": 6,
+        "TownCannonTowerL3Standalone": 6,
+        "TownCannonTowerDead": 23
+      },
+      "selection_added_tags": 14,
+      "selection_strict_prior_type_missing": 0,
+      "selection_type_ambiguities": 0,
+      "selection_type_pairs": [
+        {
+          "unit_link": 67,
+          "recorded_unit_type": "VehicleDragon",
+          "observations": 2
+        },
+        {
+          "unit_link": 71,
+          "recorded_unit_type": "HeroKerrigan",
+          "observations": 1
+        },
+        {
+          "unit_link": 72,
+          "recorded_unit_type": "HeroLiLi",
+          "observations": 2
+        },
+        {
+          "unit_link": 77,
+          "recorded_unit_type": "HeroRaynor",
+          "observations": 1
+        },
+        {
+          "unit_link": 78,
+          "recorded_unit_type": "HeroSgtHammer",
+          "observations": 1
+        },
+        {
+          "unit_link": 820,
+          "recorded_unit_type": "HeroJaina",
+          "observations": 1
+        },
+        {
+          "unit_link": 882,
+          "recorded_unit_type": "HeroMedic",
+          "observations": 1
+        },
+        {
+          "unit_link": 893,
+          "recorded_unit_type": "HeroMurky",
+          "observations": 1
+        },
+        {
+          "unit_link": 932,
+          "recorded_unit_type": "HeroThrall",
+          "observations": 1
+        },
+        {
+          "unit_link": 983,
+          "recorded_unit_type": "HeroWizard",
+          "observations": 3
+        }
+      ],
+      "talent_join": {
+        "game_choice_rows": 70,
+        "tracker_TalentChosen_rows": 70,
+        "game_rows_with_exactly_one_explicit_player_loop_plus_one_match": 70,
+        "duplicate_tracker_uses": 0,
+        "game_rows_without_unique_exact_match": 0,
+        "unused_tracker_row_count": 0,
+        "near_time_fallback_or_rule_forcing_used": false
+      },
+      "recorded_talent_index_name_pairs": [
+        {
+          "index": 0,
+          "purchase_name": "MurkyBlockFishtank",
+          "observations": 1
+        },
+        {
+          "index": 0,
+          "purchase_name": "SgtHammerMasteryAdvancedArtillery",
+          "observations": 1
+        },
+        {
+          "index": 0,
+          "purchase_name": "WizardAstralPresence",
+          "observations": 1
+        },
+        {
+          "index": 1,
+          "purchase_name": "GenericTalentSeasonedMarksman",
+          "observations": 1
+        },
+        {
+          "index": 1,
+          "purchase_name": "MedicTraumaTrigger",
+          "observations": 1
+        },
+        {
+          "index": 1,
+          "purchase_name": "ThrallMasteryRollingThunder",
+          "observations": 1
+        },
+        {
+          "index": 1,
+          "purchase_name": "WizardPowerHungry",
+          "observations": 1
+        },
+        {
+          "index": 3,
+          "purchase_name": "GenericTalentBlock",
+          "observations": 1
+        },
+        {
+          "index": 3,
+          "purchase_name": "GenericTalentConjurersPursuit",
+          "observations": 1
+        },
+        {
+          "index": 3,
+          "purchase_name": "LiLiMasteryBlindingWindGaleForce",
+          "observations": 1
+        },
+        {
+          "index": 4,
+          "purchase_name": "GenericTalentFocusedAttack",
+          "observations": 1
+        },
+        {
+          "index": 4,
+          "purchase_name": "KerriganCombatStyleFuryoftheSwarm",
+          "observations": 1
+        },
+        {
+          "index": 4,
+          "purchase_name": "MurkyMasteryBiggerSlime",
+          "observations": 1
+        },
+        {
+          "index": 4,
+          "purchase_name": "ThrallMasteryRideTheLightning",
+          "observations": 1
+        },
+        {
+          "index": 5,
+          "purchase_name": "GenericTalentVigorousAssault",
+          "observations": 1
+        },
+        {
+          "index": 5,
+          "purchase_name": "JainaBlizzardSnowstorm",
+          "observations": 1
+        },
+        {
+          "index": 5,
+          "purchase_name": "MedicAdvancedBlock",
+          "observations": 1
+        },
+        {
+          "index": 5,
+          "purchase_name": "WizardArcaneOrbTriumvirate",
+          "observations": 1
+        },
+        {
+          "index": 6,
+          "purchase_name": "LiLiMasteryBlindingWindMassVortex",
+          "observations": 1
+        },
+        {
+          "index": 6,
+          "purchase_name": "WizardDominance",
+          "observations": 1
+        },
+        {
+          "index": 7,
+          "purchase_name": "WizardMagicMissilesSeeker",
+          "observations": 1
+        },
+        {
+          "index": 8,
+          "purchase_name": "BattleMomentumKerrigan",
+          "observations": 1
+        },
+        {
+          "index": 8,
+          "purchase_name": "MurkyMasterySlimeAdvantage",
+          "observations": 1
+        },
+        {
+          "index": 8,
+          "purchase_name": "RaynorMasteryInspireRevolutionOverdrive",
+          "observations": 1
+        },
+        {
+          "index": 8,
+          "purchase_name": "ThrallMasteryWindShear",
+          "observations": 1
+        },
+        {
+          "index": 9,
+          "purchase_name": "JainaFrostbiteFrostbitten",
+          "observations": 1
+        },
+        {
+          "index": 9,
+          "purchase_name": "WizardTeleportCalamity",
+          "observations": 1
+        },
+        {
+          "index": 10,
+          "purchase_name": "LiLiMasteryHealingBrewTheGoodStuff",
+          "observations": 1
+        },
+        {
+          "index": 10,
+          "purchase_name": "WizardHeroicAbilityDisintegrate",
+          "observations": 2
+        },
+        {
+          "index": 11,
+          "purchase_name": "GenericTalentCleanse",
+          "observations": 1
+        },
+        {
+          "index": 11,
+          "purchase_name": "GenericTalentFirstAid",
+          "observations": 1
+        },
+        {
+          "index": 11,
+          "purchase_name": "RaynorHeroicAbilityHyperion",
+          "observations": 1
+        },
+        {
+          "index": 12,
+          "purchase_name": "JainaHeroicRingOfFrost",
+          "observations": 1
+        },
+        {
+          "index": 12,
+          "purchase_name": "KerriganHeroicAbilityMaelstrom",
+          "observations": 1
+        },
+        {
+          "index": 12,
+          "purchase_name": "LiLiHeroicAbilityJugof1000Cups",
+          "observations": 1
+        },
+        {
+          "index": 12,
+          "purchase_name": "MedicHeroicAbilityStimDrone",
+          "observations": 1
+        },
+        {
+          "index": 12,
+          "purchase_name": "SgtHammerHeroicAbilityBluntForceGun",
+          "observations": 1
+        },
+        {
+          "index": 12,
+          "purchase_name": "ThrallHeroicAbilitySundering",
+          "observations": 1
+        },
+        {
+          "index": 13,
+          "purchase_name": "GenericTalentGiantKiller",
+          "observations": 1
+        },
+        {
+          "index": 13,
+          "purchase_name": "MurkyHeroicAbilityOctoGrab",
+          "observations": 1
+        },
+        {
+          "index": 14,
+          "purchase_name": "MedicIntensiveCare",
+          "observations": 1
+        },
+        {
+          "index": 14,
+          "purchase_name": "MurkyMasteryContinuousSlime",
+          "observations": 1
+        },
+        {
+          "index": 14,
+          "purchase_name": "ThrallMasteryRestlessWolves",
+          "observations": 1
+        },
+        {
+          "index": 14,
+          "purchase_name": "WizardTeleportIllusionist",
+          "observations": 2
+        },
+        {
+          "index": 15,
+          "purchase_name": "KerriganMasteryEviscerate",
+          "observations": 1
+        },
+        {
+          "index": 15,
+          "purchase_name": "SgtHammerFirstStrike",
+          "observations": 1
+        },
+        {
+          "index": 16,
+          "purchase_name": "JainaIcyVeins",
+          "observations": 1
+        },
+        {
+          "index": 16,
+          "purchase_name": "LiLiMasteryBlindingWindSurgingWinds",
+          "observations": 1
+        },
+        {
+          "index": 16,
+          "purchase_name": "WizardMagicMissilesMirrorball",
+          "observations": 1
+        },
+        {
+          "index": 18,
+          "purchase_name": "JainaConeOfColdNorthernExposure",
+          "observations": 1
+        },
+        {
+          "index": 18,
+          "purchase_name": "KerriganMasteryAggressiveDefense",
+          "observations": 1
+        },
+        {
+          "index": 18,
+          "purchase_name": "MedicInoculation",
+          "observations": 1
+        },
+        {
+          "index": 18,
+          "purchase_name": "ThrallMasteryForkedLightning",
+          "observations": 1
+        },
+        {
+          "index": 18,
+          "purchase_name": "WizardTeleportDiamondSkin",
+          "observations": 1
+        },
+        {
+          "index": 19,
+          "purchase_name": "LiLiMasteryHealingBrewTwoForOne",
+          "observations": 1
+        },
+        {
+          "index": 19,
+          "purchase_name": "MurkyMasterySlimyPufferfish",
+          "observations": 1
+        },
+        {
+          "index": 19,
+          "purchase_name": "RaynorMasteryBullseyePenetratingRound",
+          "observations": 1
+        },
+        {
+          "index": 19,
+          "purchase_name": "WizardDisintegrateTemporalFlux",
+          "observations": 1
+        },
+        {
+          "index": 21,
+          "purchase_name": "SgtHammerGraduatingRange",
+          "observations": 1
+        },
+        {
+          "index": 21,
+          "purchase_name": "WizardTalRashasElements",
+          "observations": 1
+        },
+        {
+          "index": 22,
+          "purchase_name": "JainaImprovedIceBlock",
+          "observations": 1
+        },
+        {
+          "index": 22,
+          "purchase_name": "ThrallMasteryWorldbreaker",
+          "observations": 1
+        },
+        {
+          "index": 23,
+          "purchase_name": "MurkyMasteryAndASharkToo",
+          "observations": 1
+        },
+        {
+          "index": 24,
+          "purchase_name": "GenericTalentNexusBlades",
+          "observations": 1
+        },
+        {
+          "index": 24,
+          "purchase_name": "GenericTalentNexusFrenzy",
+          "observations": 1
+        },
+        {
+          "index": 24,
+          "purchase_name": "LiLiMasteryKungFuHustle",
+          "observations": 1
+        },
+        {
+          "index": 24,
+          "purchase_name": "MedicCaduceusReactor2dot0",
+          "observations": 1
+        },
+        {
+          "index": 26,
+          "purchase_name": "GenericTalentNexusFrenzy",
+          "observations": 1
+        }
+      ],
+      "ability126_commands": 0,
+      "ability351_commands": 0,
+      "native_actor_or_pool_or_catalog_acceptance_proven": false
+    },
+    {
+      "reference_id": "local41810-5",
+      "fixture": {
+        "path": "work/local-replay-refresh-20261102/cloud-candidate-5-41810.private.StormReplay",
+        "bytes": 488833,
+        "sha256": "8c4fb83989b528ea3227f6c97758293d1f650e33caa3d38c6a2a84d27ab0850d"
+      },
+      "source_metadata_date_hint": "2016-04-01",
+      "declared_build_base_data": [
+        41810,
+        41810,
+        41810
+      ],
+      "declared_root": "83d43a8647bb5ca5caa6f2f09064da55",
+      "map_title_literal": "Smocze W\u0142o\u015bci",
+      "game": {
+        "bytes": 856897,
+        "sha256": "541239128ab928fa794b083f997966fb2d56fe8e5972a88a0a9039ad501e4afb",
+        "events": 78880,
+        "complete_EOF_bits": true,
+        "last_gameloop": 15620
+      },
+      "tracker": {
+        "bytes": 269199,
+        "sha256": "fa44344a45d5d1b91b1c196810a81b2144d4992bdb12ed5a1854efbee95a01d1",
+        "events": 4953,
+        "complete_EOF_bits": true,
+        "last_gameloop": 15607
+      },
+      "details": {
+        "bytes": 1164,
+        "sha256": "e0b6ae3a4ea9fa6cc964b61c29060121b8431a04efa74bb4bc142bea5e1b6b1d",
+        "complete_EOF_bits": true
+      },
+      "initdata": {
+        "bytes": 3783,
+        "sha256": "d7aaea6d055d6e3cff2bca600ad83e995bb7801ec7e58219329e9ed5c181195d",
+        "complete_EOF_bits": true
+      },
+      "cache_context": {
+        "details_handle_count": 5,
+        "initdata_handle_count": 5,
+        "both_ordered_handle_lists_byte_equal_original": true,
+        "comparison_scope": "declared recorded cache handle bytes and ordering only",
+        "m_modPaths_field_present": false,
+        "empty_mod_path_equality_used_as_evidence": false,
+        "effective_native_catalog_or_rules_equivalence_proven": false
+      },
+      "selected_tracker_types": {
+        "TownCannonTowerL3": 12,
+        "TownCannonTowerL2": 12,
+        "TownCannonTowerL2Standalone": 6,
+        "TownCannonTowerL3Standalone": 6,
+        "HeroAbathur": 1,
+        "AbathurToxicNest": 65,
+        "AbathurLocustNormal": 59,
+        "AbathurSymbiote": 39,
+        "TownCannonTowerDead": 19
+      },
+      "selection_added_tags": 57,
+      "selection_strict_prior_type_missing": 0,
+      "selection_type_ambiguities": 0,
+      "selection_type_pairs": [
+        {
+          "unit_link": 60,
+          "recorded_unit_type": "HeroAbathur",
+          "observations": 3
+        },
+        {
+          "unit_link": 67,
+          "recorded_unit_type": "VehicleDragon",
+          "observations": 3
+        },
+        {
+          "unit_link": 69,
+          "recorded_unit_type": "HeroFalstad",
+          "observations": 1
+        },
+        {
+          "unit_link": 77,
+          "recorded_unit_type": "HeroRaynor",
+          "observations": 2
+        },
+        {
+          "unit_link": 87,
+          "recorded_unit_type": "HeroZeratul",
+          "observations": 4
+        },
+        {
+          "unit_link": 302,
+          "recorded_unit_type": "AbathurSymbiote",
+          "observations": 36
+        },
+        {
+          "unit_link": 803,
+          "recorded_unit_type": "HeroDryad",
+          "observations": 2
+        },
+        {
+          "unit_link": 820,
+          "recorded_unit_type": "HeroJaina",
+          "observations": 1
+        },
+        {
+          "unit_link": 917,
+          "recorded_unit_type": "HeroSylvanas",
+          "observations": 1
+        },
+        {
+          "unit_link": 983,
+          "recorded_unit_type": "HeroWizard",
+          "observations": 1
+        },
+        {
+          "unit_link": 994,
+          "recorded_unit_type": "HeroNecromancer",
+          "observations": 3
+        }
+      ],
+      "talent_join": {
+        "game_choice_rows": 59,
+        "tracker_TalentChosen_rows": 63,
+        "game_rows_with_exactly_one_explicit_player_loop_plus_one_match": 59,
+        "duplicate_tracker_uses": 0,
+        "game_rows_without_unique_exact_match": 0,
+        "unused_tracker_row_count": 4,
+        "near_time_fallback_or_rule_forcing_used": false
+      },
+      "recorded_talent_index_name_pairs": [
+        {
+          "index": 0,
+          "purchase_name": "GenericTalentBlock",
+          "observations": 1
+        },
+        {
+          "index": 0,
+          "purchase_name": "NecromancerTalentBoneArmorBacklash",
+          "observations": 1
+        },
+        {
+          "index": 1,
+          "purchase_name": "GenericTalentSeasonedMarksman",
+          "observations": 2
+        },
+        {
+          "index": 1,
+          "purchase_name": "SylvanasTalentBlackArrowsParalysis",
+          "observations": 1
+        },
+        {
+          "index": 2,
+          "purchase_name": "AbathurMasteryRegenerativeMicrobes",
+          "observations": 1
+        },
+        {
+          "index": 2,
+          "purchase_name": "GenericTalentSeasonedMarksman",
+          "observations": 1
+        },
+        {
+          "index": 3,
+          "purchase_name": "DryadCruelSpores",
+          "observations": 1
+        },
+        {
+          "index": 3,
+          "purchase_name": "GenericTalentConjurersPursuit",
+          "observations": 1
+        },
+        {
+          "index": 3,
+          "purchase_name": "SylvanasTalentWitheringBarrage",
+          "observations": 1
+        },
+        {
+          "index": 3,
+          "purchase_name": "WizardAetherWalker",
+          "observations": 1
+        },
+        {
+          "index": 4,
+          "purchase_name": "DryadNimbleWisp",
+          "observations": 1
+        },
+        {
+          "index": 4,
+          "purchase_name": "NecromancerTalentJailors",
+          "observations": 1
+        },
+        {
+          "index": 5,
+          "purchase_name": "JainaBlizzardSnowstorm",
+          "observations": 1
+        },
+        {
+          "index": 5,
+          "purchase_name": "ZeratulMasterWarpBlade",
+          "observations": 1
+        },
+        {
+          "index": 6,
+          "purchase_name": "RaynorInspireConfidentAim",
+          "observations": 1
+        },
+        {
+          "index": 6,
+          "purchase_name": "SylvanasTalentWitheringFireBarbedShot",
+          "observations": 1
+        },
+        {
+          "index": 6,
+          "purchase_name": "WizardDominance",
+          "observations": 1
+        },
+        {
+          "index": 7,
+          "purchase_name": "AbathurSymbioteAdrenalOverload",
+          "observations": 1
+        },
+        {
+          "index": 7,
+          "purchase_name": "FalstadMasteryHammerangPowerThrow",
+          "observations": 1
+        },
+        {
+          "index": 7,
+          "purchase_name": "RaynorPenetratingRoundHamstringShot",
+          "observations": 1
+        },
+        {
+          "index": 8,
+          "purchase_name": "AbathurMasteryNeedlespine",
+          "observations": 1
+        },
+        {
+          "index": 8,
+          "purchase_name": "NecromancerTalentRathmasBlessing",
+          "observations": 1
+        },
+        {
+          "index": 9,
+          "purchase_name": "DryadWildVigor",
+          "observations": 1
+        },
+        {
+          "index": 9,
+          "purchase_name": "FalstadMasteryHammerangSecretWeapon",
+          "observations": 1
+        },
+        {
+          "index": 9,
+          "purchase_name": "JainaFrostbiteFrostbitten",
+          "observations": 1
+        },
+        {
+          "index": 9,
+          "purchase_name": "NecromancerHeroicAbilityPoisonNova",
+          "observations": 1
+        },
+        {
+          "index": 9,
+          "purchase_name": "SylvanasHeroicAbilityWailingArrow",
+          "observations": 1
+        },
+        {
+          "index": 9,
+          "purchase_name": "WizardTeleportCalamity",
+          "observations": 1
+        },
+        {
+          "index": 11,
+          "purchase_name": "RaynorHeroicAbilityHyperion",
+          "observations": 1
+        },
+        {
+          "index": 11,
+          "purchase_name": "WizardHeroicAbilityWaveOfForce",
+          "observations": 1
+        },
+        {
+          "index": 12,
+          "purchase_name": "AbathurHeroicAbilityUltimateEvolution",
+          "observations": 1
+        },
+        {
+          "index": 12,
+          "purchase_name": "DryadHeroicAbilityThornwoodVine",
+          "observations": 1
+        },
+        {
+          "index": 12,
+          "purchase_name": "JainaHeroicRingOfFrost",
+          "observations": 1
+        },
+        {
+          "index": 12,
+          "purchase_name": "SylvanasTalentWindrunnerHauntingWave",
+          "observations": 1
+        },
+        {
+          "index": 13,
+          "purchase_name": "GenericTalentFirstAid",
+          "observations": 1
+        },
+        {
+          "index": 13,
+          "purchase_name": "NecromancerTalentCorpseExplosion",
+          "observations": 1
+        },
+        {
+          "index": 14,
+          "purchase_name": "FalstadHeroicAbilityMightyGust",
+          "observations": 1
+        },
+        {
+          "index": 14,
+          "purchase_name": "RaynorPenetratingRoundDoubleBarreled",
+          "observations": 1
+        },
+        {
+          "index": 14,
+          "purchase_name": "WizardTeleportIllusionist",
+          "observations": 1
+        },
+        {
+          "index": 15,
+          "purchase_name": "GenericTalentGiantKiller",
+          "observations": 1
+        },
+        {
+          "index": 15,
+          "purchase_name": "ZeratulHeroicAbilityShadowAssault",
+          "observations": 1
+        },
+        {
+          "index": 16,
+          "purchase_name": "AbathurMasterySpatialEfficiency",
+          "observations": 1
+        },
+        {
+          "index": 16,
+          "purchase_name": "JainaIcyVeins",
+          "observations": 1
+        },
+        {
+          "index": 16,
+          "purchase_name": "NecromancerTalentAmplifyDamage",
+          "observations": 1
+        },
+        {
+          "index": 17,
+          "purchase_name": "DryadGreaterSpellShield",
+          "observations": 1
+        },
+        {
+          "index": 17,
+          "purchase_name": "JainaBlizzardSnowCrash",
+          "observations": 1
+        },
+        {
+          "index": 18,
+          "purchase_name": "RaynorMasteryClusterRoundPenetratingRound",
+          "observations": 1
+        },
+        {
+          "index": 18,
+          "purchase_name": "SylvanasTalentRemorseless",
+          "observations": 1
+        },
+        {
+          "index": 18,
+          "purchase_name": "WizardTeleportDiamondSkin",
+          "observations": 1
+        },
+        {
+          "index": 19,
+          "purchase_name": "AbathurMasteryAdrenalineBoost",
+          "observations": 1
+        },
+        {
+          "index": 19,
+          "purchase_name": "DryadStarWoodSpear",
+          "observations": 1
+        },
+        {
+          "index": 20,
+          "purchase_name": "FalstadMasteryHammerangHammerTime",
+          "observations": 1
+        },
+        {
+          "index": 21,
+          "purchase_name": "GenericTalentSpellShield",
+          "observations": 1
+        },
+        {
+          "index": 21,
+          "purchase_name": "NecromancerTalentBoneSpear",
+          "observations": 1
+        },
+        {
+          "index": 21,
+          "purchase_name": "RaynorHyperionGroundStrafe",
+          "observations": 1
+        },
+        {
+          "index": 23,
+          "purchase_name": "ZeratulMasteryDoubleBombsSingularitySpike",
+          "observations": 1
+        },
+        {
+          "index": 24,
+          "purchase_name": "AbathurSymbioteHivemind",
+          "observations": 1
+        },
+        {
+          "index": 29,
+          "purchase_name": "GenericTalentRewind",
+          "observations": 1
+        }
+      ],
+      "ability126_commands": 0,
+      "ability351_commands": 0,
+      "native_actor_or_pool_or_catalog_acceptance_proven": false
+    }
+  ],
+  "ability351_recorded_context": {
+    "reference_id": "local41810-3",
+    "command_count": 63,
+    "ability126_commands": 0,
+    "command_index": 0,
+    "target_variant": "TargetUnit",
+    "flags_counts": {
+      "0x100": 60,
+      "0x200100": 3
+    },
+    "conditional_selected_type_counts": {
+      "HeroTyrande": 63
+    },
+    "commands_without_conditional_singleton_selection": 0,
+    "selected_and_target_references_with_unambiguous_strict_prior_type_and_owner": true,
+    "target_recorded_type_counts": {
+      "FootmanMinion": 1,
+      "HeroTyrael": 27,
+      "AbathurLocustNormal": 1,
+      "HeroWizard": 7,
+      "HeroTyrande": 8,
+      "HeroIllidan": 16,
+      "RangedMinion": 1,
+      "MercLanerSiegeGiant": 1,
+      "AbathurLocustBombardStrain": 1
+    },
+    "target_control_relation_to_explicit_setup_and_lobby_team": {
+      "unknown-unmapped-recorded-owner": 3,
+      "same-team-other-recorded-player": 56,
+      "same-recorded-player": 4
+    },
+    "exact_target_key_equals_conditional_singleton_key": 4,
+    "sender_recorded_context_groups": [
+      {
+        "earliest_Hero_prefixed_Born_Init_for_that_control_player": {
+          "earliest_Hero_prefixed_Born_Init_loop": 50,
+          "recorded_types_at_that_loop": [
+            "HeroTyrande"
+          ]
+        },
+        "command_count": 60,
+        "flags_counts": {
+          "256": 60
+        },
+        "conditional_selected_types": {
+          "HeroTyrande": 60
+        },
+        "conditional_selected_distinct_exact_keys": 1,
+        "conditional_selected_control_equals_explicit_setup_player": 60,
+        "target_exact_key_equals_conditional_singleton": 4,
+        "commands_after_strict_prior_UltimateEvolution_purchase": 0,
+        "commands_after_prior_tracker_death_of_conditional_selected_key": 47
+      },
+      {
+        "earliest_Hero_prefixed_Born_Init_for_that_control_player": {
+          "earliest_Hero_prefixed_Born_Init_loop": 82,
+          "recorded_types_at_that_loop": [
+            "HeroAbathur"
+          ]
+        },
+        "command_count": 3,
+        "flags_counts": {
+          "2097408": 3
+        },
+        "conditional_selected_types": {
+          "HeroTyrande": 3
+        },
+        "conditional_selected_distinct_exact_keys": 1,
+        "conditional_selected_control_equals_explicit_setup_player": 3,
+        "target_exact_key_equals_conditional_singleton": 0,
+        "commands_after_strict_prior_UltimateEvolution_purchase": 3,
+        "commands_after_prior_tracker_death_of_conditional_selected_key": 0
+      }
+    ],
+    "model_scope": "same target-style numeric item projection reused for recorded old deltas; not a proved historical native selection implementation",
+    "model_conditions": [
+      "normal empty initialization",
+      "each addition passes unauthenticated native catalog/reference/object gates",
+      "no other mutators/reentry/concurrency",
+      "qualified mask0..3 bit path, ordinary overlapping copy semantics, valid group invariants"
+    ],
+    "tracker_death_treated_as_native_pool_destruction": false,
+    "initial_Hero_birth_under_same_control_used_as_actual_command_actor_proof": false,
+    "ability_name_or_rewrite_inferred": false
+  },
+  "aggregate": {
+    "fresh_complete_game_events": 331482,
+    "fresh_complete_tracker_events": 18900,
+    "strict_prior_unambiguous_selection_added_tag_joins": 178,
+    "uniquely_paired_game_talent_choices": 199,
+    "unused_tracker_talent_rows": 4,
+    "talent_game_choices_without_unique_exact_player_loop_plus_one_match": 0,
+    "duplicate_tracker_talent_rows_used": 0,
+    "new_source_ability351_commands": 63,
+    "new_source_ability126_commands": 0
+  },
+  "join_rules": {
+    "unit_reference": "existing repair_unit_tags.py18-bit source components, exact index/recycle key, latest strict-prior type/owner plus all same-loop alternatives",
+    "talent": "explicit PlayerSetup user/player and unique exact tracker game_loop+1; no nearest-time fallback",
+    "team": "explicit initdata lobby user/team and PlayerSetup user/player; unmapped owner IDs stay unknown"
+  },
+  "private_source_pins": [
+    {
+      "path": "work/local-replay-refresh-20261102/cloud-candidate-3-intake.private.json",
+      "bytes": 686821,
+      "sha256": "3a873c79c83f0b0c410a23ebcd078f9d88ec0b159b5dd816b1bc78c3df95d6de"
+    },
+    {
+      "path": "work/local-replay-refresh-20261102/cloud-candidate-3-game-tracker.private.json",
+      "bytes": 83274,
+      "sha256": "7c113a031a5ae97acd8f3cc2099fc259d2abb9652b873ba19fdb78bbf50869ee"
+    },
+    {
+      "path": "work/local-replay-refresh-20261102/cloud-candidate-4-intake.private.json",
+      "bytes": 479668,
+      "sha256": "74804fd8c8615a8a52efb8f783dd3695d73722171af1290ebba385a729a07fab"
+    },
+    {
+      "path": "work/local-replay-refresh-20261102/cloud-candidate-4-game-tracker.private.json",
+      "bytes": 36396,
+      "sha256": "8609e88683350dfd0eb149dad57f83aef0e734dc0208c483c5c7d50fa1a7bab1"
+    },
+    {
+      "path": "work/local-replay-refresh-20261102/cloud-candidate-5-intake.private.json",
+      "bytes": 424320,
+      "sha256": "6d781f41e3222887e32497c71975692c6f557f4b4c118c5488b8b86601e8465c"
+    },
+    {
+      "path": "work/local-replay-refresh-20261102/cloud-candidate-5-game-tracker.private.json",
+      "bytes": 47766,
+      "sha256": "8720ecad2023a1d936b5ad66dc275129a1984ac092505809e37c4f446bf74b86"
+    },
+    {
+      "path": "work/local-replay-refresh-20261102/cloud-read-selection.private.json",
+      "bytes": 2094,
+      "sha256": "0654ae783c28c5931b6a8a6dbd0a2ea6ffb5de2437a59ead5d6fbbb0d5c493dd"
+    },
+    {
+      "path": "work/local-replay-refresh-20261102/cloud-read-run.private.json",
+      "bytes": 1919,
+      "sha256": "f25c35941876caac2668eca5423ea3c7f87252380c11dd9100d0adaa535359d5"
+    },
+    {
+      "path": "work/local-replay-refresh-20261102/cloud-candidate-plan-v2.private.json",
+      "bytes": 7237,
+      "sha256": "72f6031a15ea0dc3c908fa965a82300d1879e6b119740db62b6ed5875827b15c"
+    },
+    {
+      "path": "work/local-replay-refresh-20261102/cloud-candidate-3-ability351-context.private.json",
+      "bytes": 280399,
+      "sha256": "f9c21ee31ba52e928143a4861c0b6089cd93cf71e573dd17dc1c741bb2fa538a"
+    },
+    {
+      "path": "work/local-replay-refresh-20261102/recorded-context-supplement.private.json",
+      "bytes": 4290,
+      "sha256": "189a71fc3d6ade692a9acd57f0529e2ed9a507187775270b942a0a4508588060"
+    },
+    {
+      "path": "work/local-replay-refresh-20261102/source-original-context.private.json",
+      "bytes": 1279,
+      "sha256": "2770843ea2a46e6894444ef5a1120bf520a48390da23c045b774f6f34cb62fc3"
+    }
+  ],
+  "preserved_workspace_inputs": [
+    {
+      "path": "work/TEN_GREYMANE_source_41810.StormReplay",
+      "bytes": 635140,
+      "sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824"
+    },
+    {
+      "path": "work/native-20261018/TEN_GREYMANE_client98285_RESUMABLE_R8_PARTIAL.StormReplay",
+      "bytes": 2438570,
+      "sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19"
+    },
+    {
+      "path": "repository:scripts/run_current_replay_control.py",
+      "bytes": 17147,
+      "sha256": "6315c2dd9291aa5185db0831e1d7c00f24f1d3f33ceb0bd79f8a636dd2aacaea"
+    },
+    {
+      "path": "repository:test_current_replay_control.py",
+      "bytes": 2450,
+      "sha256": "7a00561260e2c0f64a41b9f73cbf8910550f90e4a6d6ad80e7a1d1719879f297"
+    }
+  ],
+  "prior_local_availability_snapshot": {
+    "path": "work/local-replay-refresh-20261102/public-observation.json",
+    "bytes": 5401,
+    "sha256": "397b250439bef9ea983bcc5622d20570a77f42706c5bc9690829fcdc6959b246",
+    "note": "Earlier no-hydration snapshot remains preserved; this bounded follow-up now adds selected cloud-file content evidence."
+  },
+  "limits": [
+    "Header build/root and matching cache handles are declared recorded context, not authentic executable, effective namespace, catalog membership or historical rules proof.",
+    "The selected-item projection remains conditional on the documented gates and initialization; it is not a proved old native implementation or actual actor identity.",
+    "Four candidate5 tracker TalentChosen rows have no paired game-choice row; their cause is unclaimed and rows remain private.",
+    "Full replay length/SHA256 and complete decoding are checked; fresh decode/encode roundtrips and native playback were not performed.",
+    "Raw replay bytes, account paths, names, setup IDs, tags and exact per-command/talent rows stay local. Public fields are aggregate game identifiers and hashes."
+  ],
+  "player_names_Toon_handles_chat_or_credentials_projected": false,
+  "chat_member_decoded": false,
+  "native_execution_or_emulation_or_game_or_ComputerUse": false,
+  "repo_or_production_or_conversion_or_sync_modified": false,
+  "new_current_numeric_mapping_proven": false,
+  "full_upgrade_complete": false,
+  "base_commit": "deee54ef37eab047875ab32a69a827328f78ad98",
+  "independent_review_pin": {
+    "id": "peer_review",
+    "workspace_path": "work/local-replay-refresh-20261102/independent-review.json",
+    "bytes": 8639,
+    "sha256": "432cbcac4a43b88c70ba2b01e74ef9b72e1fc6fea83f55e387d2e838464a61ae"
+  },
+  "acquisition_appendix": {
+    "complete_third_party_config_archive": {
+      "format": "complete-immutable-historical-config-archive-frontier-v1",
+      "at_utc": "2026-11-02T17:42:35.054411+00:00",
+      "source": {
+        "publisher": "mdX7/tact_configs third-party public archive",
+        "repository": "mdX7/tact_configs",
+        "commit": "d26016aa08631903d1dd3bc22483a338767cd5d0",
+        "subtree": "f600080f1970cca94b6e69a8984ff94d4cdd27a3",
+        "url": "https://github.com/mdX7/tact_configs/tree/d26016aa08631903d1dd3bc22483a338767cd5d0/tpr/Hero-Live-a",
+        "not_Blizzard_provenance_authentication": true
+      },
+      "scope": {
+        "complete_subtree_SHA1": "f600080f1970cca94b6e69a8984ff94d4cdd27a3",
+        "complete_subtree_tree_entries": 862,
+        "complete_config_body_count": 337,
+        "complete_config_body_bytes": 1269436,
+        "all_tree_nodes_recomputed_bottom_up": 526,
+        "all_tree_object_SHA1_values_match_including_root": true
+      },
+      "acquisition": {
+        "prior_verified_bodies_reused": 157,
+        "new_body_candidates": 180,
+        "new_candidate_advertised_bytes": 1093504,
+        "requests_performed": 180,
+        "actual_new_network_body_bytes": 1093504,
+        "concurrency": 6,
+        "per_body_maximum": 524288,
+        "aggregate_network_body_cap": 2097152
+      },
+      "whole_body_validation": {
+        "successful_bodies": 337,
+        "failed_bodies": 0,
+        "whole_saved_body_bytes": 1269436,
+        "every_body_length_gitblob_filenameMD5_verified": true
+      },
+      "target": {
+        "build": 41810,
+        "version": "0.17.0.41810",
+        "original_root": "83d43a8647bb5ca5caa6f2f09064da55",
+        "original_fixed_file_hash": "c585f3548fb8f9776fa1fba4dfec2b9a"
+      },
+      "metadata_results": {
+        "declared_build_names": [
+          "B30027",
+          "B30829",
+          "B30948",
+          "B31090",
+          "B31360",
+          "B31566",
+          "B31726",
+          "B32120",
+          "B32253",
+          "B36359",
+          "B36693",
+          "B37795",
+          "B38236",
+          "B57062",
+          "B77981",
+          "B78256",
+          "B78679",
+          "B78725",
+          "B79033",
+          "B79155",
+          "B79515",
+          "B79999",
+          "B80046",
+          "B80205",
+          "B80269",
+          "B80293",
+          "B80333",
+          "B80702",
+          "B81376",
+          "B81571",
+          "B81700",
+          "B82169",
+          "B82624",
+          "B82902",
+          "B83004",
+          "B83077",
+          "B83086",
+          "B83632",
+          "B83716",
+          "B84200",
+          "B84249",
+          "B84962",
+          "B85027",
+          "B85267",
+          "B85311",
+          "B85551",
+          "B85576",
+          "B85894",
+          "B86223",
+          "B86813",
+          "B86938",
+          "B87306",
+          "B87774",
+          "B87990",
+          "B88122",
+          "B88481",
+          "B88936",
+          "B89566",
+          "B89754",
+          "B90670",
+          "B90929",
+          "B90941",
+          "B90946",
+          "B90957",
+          "B90966",
+          "B90977",
+          "B90986",
+          "B91020",
+          "B91081",
+          "B91093",
+          "B91227",
+          "B91262",
+          "B91277",
+          "B91297",
+          "B91368",
+          "B91418",
+          "B91690",
+          "B91732",
+          "B91756",
+          "B91769",
+          "B92083",
+          "B92228",
+          "B92264",
+          "B92550",
+          "B92556",
+          "B92593",
+          "B92654",
+          "B92665",
+          "B92909",
+          "B92939",
+          "B92942",
+          "B93009",
+          "B93054",
+          "B93151",
+          "B93193",
+          "B93229",
+          "B93269",
+          "B93281",
+          "B93357",
+          "B93382",
+          "B93498",
+          "B93535",
+          "B93565",
+          "B93613",
+          "B93640",
+          "B93733",
+          "B93749",
+          "B93768",
+          "B93810",
+          "B94029",
+          "B94083",
+          "B94189",
+          "B94387",
+          "B94470",
+          "B94564",
+          "B94613",
+          "B94714",
+          "B94786",
+          "B94986",
+          "B95057",
+          "B95120",
+          "B95213",
+          "B95301",
+          "B95499",
+          "B95554",
+          "B95578",
+          "B95623",
+          "B95774",
+          "B95817",
+          "B95883",
+          "B95918",
+          "B96119",
+          "B96172",
+          "B96216",
+          "B96370",
+          "B96443",
+          "B96477",
+          "B96703",
+          "B96790",
+          "B96846",
+          "B96870",
+          "B96881",
+          "B97039",
+          "B97407",
+          "B97449",
+          "B97605",
+          "B97650",
+          "B97771",
+          "B98025",
+          "B98126",
+          "B98181",
+          "B98182",
+          "B98217",
+          "B98285",
+          "B98297",
+          "B98304",
+          "B98348"
+        ],
+        "distinct_build_names": 157,
+        "bodies_with_build_name": 157,
+        "bodies_with_root": 157,
+        "bodies_with_build_fixed_hash": 148,
+        "exact41810_build_name_matches": 0,
+        "exact_original_root_matches": 0,
+        "exact_original_fixed_hash_matches": 0,
+        "all_noncomment41810_substring_matches": 0,
+        "new_build_names_beyond_the_prior157_body_review": 0
+      },
+      "source_body_receipt": {
+        "path": "C:\\Users\\andrz\\Documents\\Codex\\2026-10-18\\czy\\work\\historic-complete-configs-20261102\\complete-config-acquisition.private.json",
+        "bytes": 1830435,
+        "sha256": "d09a5acdd199f1ab7e4a15cbfdb600dbcdabaa935c06813d6c78acd0e8eb6b8b"
+      },
+      "immutable_tree_metadata": {
+        "path": "C:\\Users\\andrz\\Documents\\Codex\\2026-10-18\\czy\\work\\historic-complete-configs-20261102\\immutable-subtree.json",
+        "bytes": 240740,
+        "sha256": "166ca496bf3a6ab52532f473f3edba45c5526a2200627045530e470c7b7bcddb"
+      },
+      "producer": {
+        "path": "C:\\Users\\andrz\\Documents\\Codex\\2026-10-18\\czy\\work\\historic-complete-configs-20261102\\complete_immutable_configs.py",
+        "bytes": 8460,
+        "sha256": "2fa480b5ecce23af7e527dad2dc503f90b70557cedf7a0264946a5e3dbf7c4dd"
+      },
+      "conclusion": "This completes body coverage for the exact current immutable Hero-Live-a archive subtree. It contains no41810 build-name, original root, original fixed hash, or noncomment41810 substring in any of337 config bodies. It does not supply the missing exact41810 client/CASC/rule data.",
+      "limits": [
+        "Complete body coverage is scoped to this exact immutable Hero-Live-a subtree only; no other subtree, branch or repository history was searched.",
+        "SHA1/MD5/SHA256 checks establish internally consistent archive object and content identities, not original Blizzard authorship, signatures, exact client installation identity or effective gameplay rules.",
+        "No client assets, CASC data archive, executable, replay or schema runtime was fetched or executed."
+      ],
+      "preservation": {
+        "repo_or_canonical_modified": false,
+        "game_CUA_or_target_execution": false,
+        "downloaded_code_executed": false,
+        "publication": false
+      }
+    },
+    "whole_config_noncomment_target_scan": {
+      "format": "complete-config-noncomment-exact-needle-scan-v1",
+      "at_utc": "2026-11-02T17:43:14.163991+00:00",
+      "verified_bodies": 337,
+      "verified_bytes": 1269436,
+      "needles": {
+        "build_digits": "41810",
+        "original_root": "83d43a8647bb5ca5caa6f2f09064da55",
+        "original_fixed_hash": "c585f3548fb8f9776fa1fba4dfec2b9a"
+      },
+      "case_insensitive_noncomment_substring_hits": {
+        "build_digits": [],
+        "original_root": [],
+        "original_fixed_hash": []
+      },
+      "new_network_requests": 0,
+      "whole_body_receipt_sha256": "d09a5acdd199f1ab7e4a15cbfdb600dbcdabaa935c06813d6c78acd0e8eb6b8b"
+    },
+    "new_GitHub_fixture_header_route": {
+      "format": "current98348-public-github-fixtures-route-review-v1",
+      "at_utc": "2026-11-02T17:33:46.488338+00:00",
+      "target": {
+        "executable_build": 98348,
+        "base_build": 98348,
+        "data_build": 98348,
+        "root": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+        "required_tracker_unit": "AbathurEvolvedMonstrosity"
+      },
+      "repository_metadata": {
+        "head_snapshots": 16,
+        "fresh_complete_trees": 11,
+        "fresh_fixture_paths_in_those_trees": 1,
+        "snapshots": {
+          "path": "C:\\Users\\andrz\\Documents\\Codex\\2026-10-18\\czy\\work\\current-github-fixtures-20261102\\repository-snapshots.json",
+          "bytes": 5416,
+          "sha256": "8319fbc6e221bba32b7d34b74d3032d7815f26668c30fcb8b368a8c40039be14"
+        },
+        "qualification": "All eleven fresh tree responses reported truncated=false. No all-history, all-branch, or all-content search is claimed."
+      },
+      "unchanged_prior_catalog": {
+        "repo": "HeroesToolChest/Heroes.StormReplayParser",
+        "fresh_main_commit": "d381dd9c273205c0fd7ac402c75eef98c6fa6c78",
+        "prior_same_commit_tree": "work/legacy-replay-controls-search/htc-tree.body.json",
+        "prior_replay_paths": 22,
+        "prior_unique_blobs": 20,
+        "fresh_headers_except_known39445": 19,
+        "HeroesReplay_fork_same_commit": true
+      },
+      "actual_header_probes": {
+        "count": 21,
+        "successes": 21,
+        "bytes": 86016,
+        "request_body_cap_each": 4097,
+        "response_prefix_bytes_each": 4096,
+        "all_status206_and_ContentRange_totals_match_manifest": true,
+        "schema_build": 96477,
+        "schema_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+        "full_replays_downloaded": 0,
+        "exact98348": 0,
+        "declared_builds": [
+          65006,
+          66488,
+          67679,
+          68509,
+          70200,
+          72649,
+          75132,
+          75589,
+          76517,
+          77548,
+          85267,
+          89566,
+          90670,
+          91418,
+          94786,
+          98025
+        ],
+        "whole_file_git_blob_or_sha256_validation": false,
+        "header_receipt": {
+          "path": "C:\\Users\\andrz\\Documents\\Codex\\2026-10-18\\czy\\work\\current-github-fixtures-20261102\\fixture-header-probes.json",
+          "bytes": 25678,
+          "sha256": "d3eb242d73b90a1b38bb71f250aa6090d264bdaa4fd4356dc9374456e50ec2a9"
+        },
+        "manifest": {
+          "path": "C:\\Users\\andrz\\Documents\\Codex\\2026-10-18\\czy\\work\\current-github-fixtures-20261102\\fixture-manifest.json",
+          "bytes": 6151,
+          "sha256": "4702aad26638d05dc3edc8f06e30ddd300924407adc13de2a92e11a79439a6fd"
+        }
+      },
+      "new_named_fixture": {
+        "repo": "astefanski1/storm-parser",
+        "commit": "39890e487e6da05d1c4aa5b757917af8640de433",
+        "path": "tests/replays/2025-08-17 19.40.18 Dragon Shire.StormReplay",
+        "advertised_bytes": 879750,
+        "expected_git_blob_sha1": "88edb7e622ad51a8e8f0391d17c217941a2f7b13",
+        "actual_header_build": 94786,
+        "full_downloaded": false
+      },
+      "previously_unversioned_js_fixture": {
+        "repo": "ebshimizu/hots-parser",
+        "commit": "e45df6beb2bde6bbedd883cf86ea419a4a7868c0",
+        "path": "test/replays/towers-of-doom.StormReplay",
+        "actual_header_build": 66488,
+        "full_downloaded": false
+      },
+      "known39445_blob_not_reacquired": "8ff1b28c5b07e2d48425dcd097072f2953e94ef9",
+      "issue_attachment_screen": {
+        "focused_searches": 4,
+        "projection": {
+          "path": "C:\\Users\\andrz\\Documents\\Codex\\2026-10-18\\czy\\work\\current-github-fixtures-20261102\\issue-route-projection.json",
+          "bytes": 2315,
+          "sha256": "dd77eb4404c924380c988c8b0a9028c12aeb292a6dbc79ae0afcea7a5babf8d0"
+        },
+        "admitted_hots_fixture_download_urls": 0,
+        "qualification": "Returned current98348 discussions had no body download URLs. Unrelated games, generic automation and non-replay media were excluded without download. Comments and all issue archives were not exhausted."
+      },
+      "preservation": {
+        "repo_or_canonical_modified": false,
+        "replay_or_client_modified": false,
+        "client_CUA_or_remote_code_execution": false,
+        "publication": false
+      },
+      "result": {
+        "new_complete98348_replays": 0,
+        "new_Monstrosity_type_or_link_observations": 0,
+        "new_safe_conversion_values": 0
+      },
+      "next_boundary": "These inspected public parser fixture sources contain no admitted current98348 replay. An exact-build whole-file acquisition and complete game/tracker parses remain necessary before any numeric mapping."
+    }
+  },
+  "scope_note_localization": "A new41810 fixture spells Abathur asAbatur in details; canonical tracker names identify HeroAbathur. Future hero discovery must not assume English detail labels. All83 distinct hero labels in the newNGS88cohort were checked as familiar English labels; its singleAbathur result is unchanged.",
+  "checkpoint_source_pins": [
+    {
+      "id": "references",
+      "workspace_path": "work/local-replay-refresh-20261102/public-cloud-reference-observation.json",
+      "bytes": 47993,
+      "sha256": "bb82b01d1575c01fed817ed37b0f7ecb31fa83faaed2529b60d0c163b1da343e"
+    },
+    {
+      "id": "author_review",
+      "workspace_path": "work/local-replay-refresh-20261102/public-cloud-reference-self-review.json",
+      "bytes": 1295,
+      "sha256": "1b8056e2f33ce2580fec44418cdba6ec13fdd36cdf9b836e1793fbd387588947"
+    },
+    {
+      "id": "peer_review",
+      "workspace_path": "work/local-replay-refresh-20261102/independent-review.json",
+      "bytes": 8639,
+      "sha256": "432cbcac4a43b88c70ba2b01e74ef9b72e1fc6fea83f55e387d2e838464a61ae"
+    },
+    {
+      "id": "complete_config_archive",
+      "workspace_path": "work/historic-complete-configs-20261102/complete-config-frontier-summary.json",
+      "bytes": 6505,
+      "sha256": "842f00b906fc6dfb96ca280990f2ff3b0572c83c5c2865b78460d3588bf8e112"
+    },
+    {
+      "id": "config_needle_scan",
+      "workspace_path": "work/historic-complete-configs-20261102/all-config-exact-needle-scan.json",
+      "bytes": 617,
+      "sha256": "124c73489ef954ef111b321243f198914e90d30a88291919374cb9ce49e86b56"
+    },
+    {
+      "id": "GitHub_fixture_route",
+      "workspace_path": "work/current-github-fixtures-20261102/current-github-fixtures-route-review.json",
+      "bytes": 4463,
+      "sha256": "29fba39f929b047c2b53abb023ddddcd47205be823a4a222aaf806fd5d4ac159"
+    }
+  ]
+}

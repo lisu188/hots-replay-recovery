@@ -2032,3 +2032,23 @@ Prior externalR9/all3slotsinput descriptions corrected in3narrativereports.
 G registration Appwrapper/managerlead isnot payload/networksourceproof.
 No production/default/replay/sync change or game/CU/nativeexecution/emulation.
 Next incoming+10/+20 implementation or authenticoldproducer;fullupgradefalse.
+
+
+## Three new full original-build Dragon references - 2026-11-02
+
+Read docs/THREE_HISTORICAL_DRAGON_REFERENCES_2026-11-02.md and datedreceipts.
+FreshrequestedHotSAccounts/Replays2105files/2102cloudstubs; bounded5reads
+3133991B yield3full41810Dragonrefs withwholeSHA andoriginalroot. Both ordered
+5cachehandlelists equal original; m_modPathsabsent, noemptyequalityproof.
+All331482game/18900trackerEOF independentlyredecoded.178strictpriorselection
+typejoins;199uniquegame-talent+setup+exacttrackerloop1pairs. Candidate5has
+4unusedtrackerchoices,notmismatchedgamechoices;causunassigned. Candidate3
+63ability351cmd0TargetUnit,conditionalHeroTyrandesingletons/type/owner exact;
+56friendlyother/4same/3unmappedtargetowners.60flags100,3flags200100;3after
+recordedUltimateEvolution onearliestHeroAbathurplayer. Noabilityname/cloneclass/
+actualnativeactor/acceptance/currentrewriteproved.126stillunobservedhere.
+PolishdetailsAbatur illustrateslocalehazard; canonicaltrackerHeroAbathur.
+Completed337TACTbodies1269436B/all526Git-treehashes, no41810/root/fixedhash;
+thirdpartyarchive,notBlizzardauthenticity/historyexhaustion.21newGitHubfixture
+headers max98025,no98348. Noreencoding/prod/replay/sync,game/CU/nativeexecute.
+No rawprivatefixtures/identitiespublished;fullupgrade/currentplaybackfalse.
