@@ -1,6 +1,6 @@
 """RAM-only, data-specific MapInfo empty-count framing conversion.
 
-Only four source member digests and twenty-three saved record spans are admitted.
+Only seven source member digests and thirty-eight saved record spans are admitted.
 The legacy interpretation changes only native191 type1828 bounds31to7/max127.
 All counts must be empty. No replay/header/body file writer is provided.
 """
@@ -20,6 +20,9 @@ _ADMITTED=(
  ('R8','2902a33a450491e8717a8006cef4627f2c12d1c0b854fc4f698dc1de0ade9640',((206563,207824),(207824,209464),(209464,210752),(210752,212942),(212942,215665))),
  ('authenticated39445','4deae39a1656618254667ae161b6dec0e7173a0e6e9dedb365ca5cce319adbc1',((191599,192832),(192832,194448),(194448,195712),(195712,197878),(197878,199662),(199662,202041))),
  ('public41810control','9536a8f9204fa141ae71a8a25a5f207030165611328579a1daefb747f326cb56',((215435,216696),(216696,218336),(218336,219624),(219624,221814),(221814,223622),(223622,225430),(225430,227810))),
+ ('local41810control3','4a1aacc7dcca7211a8cbedb876376dd2212a8f7e6f4625a233a5d7365f71920b',((205187,206448),(206448,208088),(208088,209376),(209376,211566),(211566,214289))),
+ ('local41810control4','7d6cbfad8e5cc3fe86df083a41dc2ad5b3a0be4c8db977e3d512562c4eaf6419',((205187,206448),(206448,208088),(208088,209376),(209376,211566),(211566,214289))),
+ ('local41810control5','d11e15c3ab40f7ffbdf0b8078c5d212dbefe7f98f2a50ebb291c48166e7b67ee',((205187,206448),(206448,208088),(208088,209376),(209376,211566),(211566,214289))),
 )
 sha=lambda raw:hashlib.sha256(raw).hexdigest()
 def require(value,message='Strict MapInfo framing validation failed'):

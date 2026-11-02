@@ -1,0 +1,459 @@
+{
+  "format": "three-local41810-strict-reference-admission-v1",
+  "base_commit": "367240b0a665759e381771fe78dec7bc29915a8a",
+  "behavior_change": "Three separately named exact-fixture profiles are now admitted by the read-only historical gate. The original two public profile values and output dictionaries remain unchanged.",
+  "new_profiles": [
+    "41810-local3",
+    "41810-local4",
+    "41810-local5"
+  ],
+  "whole_replay_and_stream_and_lobby_fingerprints_required": true,
+  "MapInfo_policy": "Explicit per-profile source label, converted-member SHA256 and nested field count; record count from audited fixed mod_count. No build-only admission or arbitrary member bypass.",
+  "MapInfo_whitelist": {
+    "member_digests_before": 4,
+    "member_digests_after": 7,
+    "pinned_record_spans_before": 23,
+    "pinned_record_spans_after": 38,
+    "maximum_records_unchanged": 7,
+    "empty_permission_counts_only": true,
+    "previous_four_rows_unchanged": true
+  },
+  "actual_gate_results": [
+    {
+      "profile": "41810",
+      "fixture": {
+        "bytes": 774134,
+        "preserved": true,
+        "sha256": "3a33d012a9d47dc1e66595398c2f3dd75cbc9240762996cf52c9c6ad8337e869"
+      },
+      "streams": {
+        "game": {
+          "binary_roundtrip_exact": true,
+          "count": 134617,
+          "sha256": "6176d2c8921b7539345cd705186818c6888e26046547509b2daa7623ec6632f9"
+        },
+        "message": {
+          "binary_roundtrip_exact": true,
+          "count": 160,
+          "sha256": "67b7bfab59825a05b88c656e780b50980cff25332bc7fa2e4a064be3ab1b8fce"
+        },
+        "tracker": {
+          "binary_roundtrip_exact": true,
+          "count": 4405,
+          "sha256": "3c57b652983d31fbbe352b1ef52e8d8779b00458bae8bd986c1bd8969210e5d8"
+        }
+      },
+      "MapInfo_framing": {
+        "added_bytes": 21,
+        "all_native_field_comparisons": 1816,
+        "conversion_attempted": true,
+        "converted_member_bytes": 43555,
+        "converted_member_sha256": "2c770fb59f7a64734752b10858de4746af270a63b1ebfa1b02e6094c493a9e6f",
+        "current_32_field_values_and_bounds_exact": true,
+        "inverse_API_equals_original_member": true,
+        "inverse_whole_source_bytes_exact": true,
+        "named_root_field_comparisons": 224,
+        "non_count_tokens_and_outside_bits_exact": true,
+        "payload_written": false,
+        "profile": "legacy-empty-mapinfo-count7-to-native31-v1",
+        "records": 7,
+        "source_id": "public41810control",
+        "status": "admitted-and-verified-in-RAM",
+        "whole_replay_conversion_proven": false
+      },
+      "battlelobby": {
+        "attribute_profile": "legacy-10",
+        "bytes": 43534,
+        "member_bits": 348272,
+        "metadata_count": 7,
+        "metadata_profile": "historical-fixed",
+        "mod_metadata_end_bit": 227810,
+        "opaque_suffix_bytes": 14777,
+        "opaque_suffix_sha256": "a504f61ec928c26742b0cfc0d611681486f0aff2e3c2f2eead76e670404be28d",
+        "same_profile_full_source_roundtrip_exact": true,
+        "sha256": "9536a8f9204fa141ae71a8a25a5f207030165611328579a1daefb747f326cb56",
+        "terminal_handle_count": 7,
+        "terminal_handles_end_bit": 230056,
+        "used_mod_count": 7
+      }
+    },
+    {
+      "profile": "42273",
+      "fixture": {
+        "bytes": 342878,
+        "preserved": true,
+        "sha256": "8281a5ab262e8060719a8b3f56f79bff5a103eab0d8ed26f760d17175ae85066"
+      },
+      "streams": {
+        "game": {
+          "binary_roundtrip_exact": true,
+          "count": 50614,
+          "sha256": "4ddf21cdc25c449828a949af0cdb95a483d9c73e9111c27e9659297c4d2b9ad9"
+        },
+        "message": {
+          "binary_roundtrip_exact": true,
+          "count": 281,
+          "sha256": "e5961a86230fd82cd7a25f66df3aba1edcf1331ce770cfdefdb4c37fe298a340"
+        },
+        "tracker": {
+          "binary_roundtrip_exact": true,
+          "count": 3370,
+          "sha256": "0e611ce97e5ca5688e0f20dfe73538f176031b409a443b678b5faccfa429c5ea"
+        }
+      },
+      "MapInfo_framing": {
+        "conversion_attempted": false,
+        "payload_written": false,
+        "reason": "The separate nearby42273 member is not admitted by this strict MapInfo profile.",
+        "status": "not-admitted"
+      },
+      "battlelobby": {
+        "attribute_profile": "legacy-10",
+        "bytes": 42402,
+        "member_bits": 339216,
+        "metadata_count": 5,
+        "metadata_profile": "historical-fixed",
+        "mod_metadata_end_bit": 215673,
+        "opaque_suffix_bytes": 15242,
+        "opaque_suffix_sha256": "f8b6acbd405cbc669df15426d9f7175a1d5939b22dcf303a63c13926ad18ba58",
+        "same_profile_full_source_roundtrip_exact": true,
+        "sha256": "d7c1ad4451d73fb03aa720aac37b75bd1a852e8c57ded06dbe1bbc9e0cab74c4",
+        "terminal_handle_count": 5,
+        "terminal_handles_end_bit": 217280,
+        "used_mod_count": 5
+      }
+    },
+    {
+      "profile": "41810-local3",
+      "fixture": {
+        "bytes": 850813,
+        "preserved": true,
+        "sha256": "7efa1c335816eebe802747ae4b16252ed22fcd8387b09d24b115b2917542b52a"
+      },
+      "streams": {
+        "game": {
+          "binary_roundtrip_exact": true,
+          "count": 140494,
+          "sha256": "6267487f589c4db643ff4d3b7abc061af0b61552c7a2de9e86c8508406ca4daf"
+        },
+        "message": {
+          "binary_roundtrip_exact": true,
+          "count": 177,
+          "sha256": "8f99e8986d20a7ea87996513bb49f5b1450467f81429f702e5cfa3cc0cc72a17"
+        },
+        "tracker": {
+          "binary_roundtrip_exact": true,
+          "count": 8089,
+          "sha256": "efcd51f24f37612199a8ebce2872bdf72144a82a3a8c15552a164deb5e27d139"
+        }
+      },
+      "MapInfo_framing": {
+        "added_bytes": 15,
+        "all_native_field_comparisons": 1191,
+        "conversion_attempted": true,
+        "converted_member_bytes": 41743,
+        "converted_member_sha256": "49a5fd5b0f952038d86980489ef42d150fa4f2b2b591707ea5ba21701e98f29c",
+        "current_32_field_values_and_bounds_exact": true,
+        "inverse_API_equals_original_member": true,
+        "inverse_whole_source_bytes_exact": true,
+        "named_root_field_comparisons": 160,
+        "non_count_tokens_and_outside_bits_exact": true,
+        "payload_written": false,
+        "profile": "legacy-empty-mapinfo-count7-to-native31-v1",
+        "records": 5,
+        "source_id": "local41810control3",
+        "status": "admitted-and-verified-in-RAM",
+        "whole_replay_conversion_proven": false
+      },
+      "battlelobby": {
+        "attribute_profile": "legacy-10",
+        "bytes": 41728,
+        "member_bits": 333824,
+        "metadata_count": 5,
+        "metadata_profile": "historical-fixed",
+        "mod_metadata_end_bit": 214289,
+        "opaque_suffix_bytes": 14741,
+        "opaque_suffix_sha256": "917974954e07f5ffaeef226720ba34dc3a1f9e8144ee0fced9a78da51d34d954",
+        "same_profile_full_source_roundtrip_exact": true,
+        "sha256": "4a1aacc7dcca7211a8cbedb876376dd2212a8f7e6f4625a233a5d7365f71920b",
+        "terminal_handle_count": 5,
+        "terminal_handles_end_bit": 215896,
+        "used_mod_count": 5
+      }
+    },
+    {
+      "profile": "41810-local4",
+      "fixture": {
+        "bytes": 688705,
+        "preserved": true,
+        "sha256": "2fca3c78d0e459d4452e3fb1f41ff3fce22b9c1f8f113019389195ff171bf618"
+      },
+      "streams": {
+        "game": {
+          "binary_roundtrip_exact": true,
+          "count": 112108,
+          "sha256": "55d2cbddda60b683d07ed9a21ffe84ca55422ef9a8aa724969f9a359a6d65f28"
+        },
+        "message": {
+          "binary_roundtrip_exact": true,
+          "count": 107,
+          "sha256": "55dbb0cc3ad4807cd17460acfd6fe06744a043b78742d066c9d3444f9b7f8bdc"
+        },
+        "tracker": {
+          "binary_roundtrip_exact": true,
+          "count": 5858,
+          "sha256": "8d01d6f734e9fea8d038a94d28f6dd0fdac22f4a5d1011caee7165beb7dd13af"
+        }
+      },
+      "MapInfo_framing": {
+        "added_bytes": 15,
+        "all_native_field_comparisons": 1191,
+        "conversion_attempted": true,
+        "converted_member_bytes": 41758,
+        "converted_member_sha256": "d5f3549d40d18dadcbec4b37d79c5ab016b0a587a097c30251f5b66d895f0a81",
+        "current_32_field_values_and_bounds_exact": true,
+        "inverse_API_equals_original_member": true,
+        "inverse_whole_source_bytes_exact": true,
+        "named_root_field_comparisons": 160,
+        "non_count_tokens_and_outside_bits_exact": true,
+        "payload_written": false,
+        "profile": "legacy-empty-mapinfo-count7-to-native31-v1",
+        "records": 5,
+        "source_id": "local41810control4",
+        "status": "admitted-and-verified-in-RAM",
+        "whole_replay_conversion_proven": false
+      },
+      "battlelobby": {
+        "attribute_profile": "legacy-10",
+        "bytes": 41743,
+        "member_bits": 333944,
+        "metadata_count": 5,
+        "metadata_profile": "historical-fixed",
+        "mod_metadata_end_bit": 214289,
+        "opaque_suffix_bytes": 14756,
+        "opaque_suffix_sha256": "6088587c849c208c7537984d0b813d9923f014a0e6a51eb916a86e57dfafe544",
+        "same_profile_full_source_roundtrip_exact": true,
+        "sha256": "7d6cbfad8e5cc3fe86df083a41dc2ad5b3a0be4c8db977e3d512562c4eaf6419",
+        "terminal_handle_count": 5,
+        "terminal_handles_end_bit": 215896,
+        "used_mod_count": 5
+      }
+    },
+    {
+      "profile": "41810-local5",
+      "fixture": {
+        "bytes": 488833,
+        "preserved": true,
+        "sha256": "8c4fb83989b528ea3227f6c97758293d1f650e33caa3d38c6a2a84d27ab0850d"
+      },
+      "streams": {
+        "game": {
+          "binary_roundtrip_exact": true,
+          "count": 78880,
+          "sha256": "541239128ab928fa794b083f997966fb2d56fe8e5972a88a0a9039ad501e4afb"
+        },
+        "message": {
+          "binary_roundtrip_exact": true,
+          "count": 135,
+          "sha256": "b501cc5c30a47204b4f08ca392676f8f5af8102ef5f5362f5a27bc2cc822c65e"
+        },
+        "tracker": {
+          "binary_roundtrip_exact": true,
+          "count": 4953,
+          "sha256": "fa44344a45d5d1b91b1c196810a81b2144d4992bdb12ed5a1854efbee95a01d1"
+        }
+      },
+      "MapInfo_framing": {
+        "added_bytes": 15,
+        "all_native_field_comparisons": 1191,
+        "conversion_attempted": true,
+        "converted_member_bytes": 41712,
+        "converted_member_sha256": "4ac6dd9b9d4554896971a5b62157d53380957b8342148e5757e9bcd156fc3ff5",
+        "current_32_field_values_and_bounds_exact": true,
+        "inverse_API_equals_original_member": true,
+        "inverse_whole_source_bytes_exact": true,
+        "named_root_field_comparisons": 160,
+        "non_count_tokens_and_outside_bits_exact": true,
+        "payload_written": false,
+        "profile": "legacy-empty-mapinfo-count7-to-native31-v1",
+        "records": 5,
+        "source_id": "local41810control5",
+        "status": "admitted-and-verified-in-RAM",
+        "whole_replay_conversion_proven": false
+      },
+      "battlelobby": {
+        "attribute_profile": "legacy-10",
+        "bytes": 41697,
+        "member_bits": 333576,
+        "metadata_count": 5,
+        "metadata_profile": "historical-fixed",
+        "mod_metadata_end_bit": 214289,
+        "opaque_suffix_bytes": 14710,
+        "opaque_suffix_sha256": "4caf3b970cdc254d786cd6aa4aaa9e9d28e82e515a3457e68eb07c05cba5a315",
+        "same_profile_full_source_roundtrip_exact": true,
+        "sha256": "d11e15c3ab40f7ffbdf0b8078c5d212dbefe7f98f2a50ebb291c48166e7b67ee",
+        "terminal_handle_count": 5,
+        "terminal_handles_end_bit": 215896,
+        "used_mod_count": 5
+      }
+    }
+  ],
+  "public_output_values_equal_baseline": [
+    {
+      "profile": "41810",
+      "all_output_values_equal_baseline_gate": true
+    },
+    {
+      "profile": "42273",
+      "all_output_values_equal_baseline_gate": true
+    }
+  ],
+  "42273_conversion_call_count": 0,
+  "same_build_wrong_fixture_refused_before_schema_import": [
+    {
+      "requested_profile": "41810-local3",
+      "actual_other_fixture_declares41810": true,
+      "rejected_before_schema_import": true
+    },
+    {
+      "requested_profile": "41810-local4",
+      "actual_other_fixture_declares41810": true,
+      "rejected_before_schema_import": true
+    },
+    {
+      "requested_profile": "41810-local5",
+      "actual_other_fixture_declares41810": true,
+      "rejected_before_schema_import": true
+    }
+  ],
+  "three_private_fixtures": {
+    "core_payloads_reencoded_exactly_per_fixture": 6,
+    "game_events": 331482,
+    "message_events": 419,
+    "tracker_events": 18900,
+    "lobby_same_profile_full_reconstruction_exact": true,
+    "MapInfo_records": 15,
+    "added_RAM_bytes_per_member": 15,
+    "named_root_comparisons": 480,
+    "all_native_field_comparisons": 3573,
+    "every_MapInfo_source_record_bit_equals_original_at_same_pinned_span": true,
+    "non_count_tokens_and_outside_bits_preserved": true,
+    "inverse_whole_member_bytes_exact": true
+  },
+  "verification": {
+    "focused_unit_tests": {
+      "modules": [
+        "test_historical_reference_gate",
+        "test_legacy_mapinfo_framing",
+        "test_legacy_mapinfo_seven_control"
+      ],
+      "tests": 31,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": true,
+      "log_sha256": "238c1cecfc9613f2efb9f399183a5b9a5fbccd4863be75dd101d145337816806",
+      "scope": "Synthetic refusal/bit boundary tests; real private fixture gates separate"
+    },
+    "independent_implementation_review": {
+      "workspace_path": "work/historical-gate-extension-20261102/implementation-review.json",
+      "bytes": 6493,
+      "sha256": "b8d4a74089dc80d707fe9afefb3a966662300a08cf760fe3898d7700e6ad81b7"
+    },
+    "actual_five_fixture_CLI_gates_passed": true,
+    "independent_core_and_lobby_research_proofs": true,
+    "source_pins_at_actual_gate_run": [
+      {
+        "path": "scripts/check_historical_references.py",
+        "bytes": 18327,
+        "sha256": "149f38b5c54c108f0f60c5f451725cfa20bff00daf493d13c2873a0af71541bd"
+      },
+      {
+        "path": "legacy_mapinfo_framing.py",
+        "bytes": 11190,
+        "sha256": "950a1c43173e1e9652cd05180ae39f032e5f009dced3335d1ff32568fe14d4ee"
+      },
+      {
+        "path": "test_historical_reference_gate.py",
+        "bytes": 3866,
+        "sha256": "7873a7457b1b38d3539ff97fd6c249974a0ccadedf3994cffb5ebb353efc98e8"
+      },
+      {
+        "path": "reference_replay.py",
+        "bytes": 11072,
+        "sha256": "29ae60e196d4225c5edbf3e6f76a077c14ac322945e82fd981579015f4ee5436"
+      },
+      {
+        "path": "protocol_loader.py",
+        "bytes": 1780,
+        "sha256": "bb3147ba27dd6d0e33be93ab7ffff1922f1b53c59b38326b6ac786d8a7125b82"
+      },
+      {
+        "path": "encoders.py",
+        "bytes": 7134,
+        "sha256": "8f73802c305cf987613354d6584d340519e4e5330b9be996b1fca940d8fc93a5"
+      },
+      {
+        "path": "migrate_replay.py",
+        "bytes": 16921,
+        "sha256": "1da4359c7eb6105b540a542b9e4a7fa461544c2065dd92c3ac3df2386f65e747"
+      },
+      {
+        "path": "audit_battlelobby_mod_metadata.py",
+        "bytes": 11881,
+        "sha256": "8dad2d923957cdfc44bec5690fe075c16d6e204651e09cc88cbf8503abcdd7c9"
+      }
+    ],
+    "CI_run": false,
+    "private_real_fixtures_available_in_hosted_CI": false
+  },
+  "source_receipt_pins": [
+    {
+      "workspace_path": "work/historical-gate-extension-20261102/core/three-core-roundtrips.json",
+      "bytes": 19155,
+      "sha256": "4ef9bb5d41b0468b608abfc1e3eb1885026751f5164e42ed583bd8f8c3c6e752"
+    },
+    {
+      "workspace_path": "work/historical-gate-extension-20261102/lobby/candidate-profile-facts.json",
+      "bytes": 14066,
+      "sha256": "5805f128f2c9a3a43bde023b0cbaaa594c420e9363c44c99649c1039f768cc0a"
+    },
+    {
+      "workspace_path": "work/historical-gate-extension-20261102/lobby/candidate-profile-self-review.json",
+      "bytes": 942,
+      "sha256": "b007d67a140ed375bca08629af64aa809a8482b1f1b9d0f9dd9dc5d4290cc2c6"
+    },
+    {
+      "workspace_path": "work/historical-gate-extension-20261102/implementation-review.json",
+      "bytes": 6493,
+      "sha256": "b8d4a74089dc80d707fe9afefb3a966662300a08cf760fe3898d7700e6ad81b7"
+    },
+    {
+      "workspace_path": "work/historical-gate-extension-20261102/focused-tests.json",
+      "bytes": 403,
+      "sha256": "0d252434e0e7c70abc4259074f37bc751e0bb9daa1b00c2493f669439cc0175b"
+    },
+    {
+      "workspace_path": "work/historical-gate-extension-20261102/five-actual-gates.json",
+      "bytes": 24118,
+      "sha256": "9e7859d842f2be8bfed948eda73135cb404888ed46c915d8fb03c151ae84d236"
+    },
+    {
+      "workspace_path": "work/historical-gate-extension-20261102/pinned-upstream-preparation.json",
+      "bytes": 1740,
+      "sha256": "16fb6258b0eb01c70e05b3314da18feb066ce2b65487956b10fd1317e245d20b"
+    }
+  ],
+  "raw_private_fixtures_or_player_chat_values_published": false,
+  "new_replay_or_member_payload_written": false,
+  "scope_limits": [
+    "The lobby audit reconstructs its opaque suffix exactly without claiming full suffix semantics or EOF native-current decoding.",
+    "RAM-only MapInfo framing preserves measured fields; no whole replay upgrade, historical rule recovery or effective catalog equivalence follows.",
+    "The current gate covers only observed event types in these exact files. No missing player values, ability126/351 name or target98348mapping was supplied.",
+    "Actual private reference gates are local evidence; hosted CI can run synthetic tests and existing public controls only."
+  ],
+  "game_or_ComputerUse_or_native_execution_or_emulation": false,
+  "remote_publication_performed": false,
+  "full_upgrade_complete": false,
+  "current_client_playback_proven": false
+}

@@ -2052,3 +2052,23 @@ Completed337TACTbodies1269436B/all526Git-treehashes, no41810/root/fixedhash;
 thirdpartyarchive,notBlizzardauthenticity/historyexhaustion.21newGitHubfixture
 headers max98025,no98348. Noreencoding/prod/replay/sync,game/CU/nativeexecute.
 No rawprivatefixtures/identitiespublished;fullupgrade/currentplaybackfalse.
+
+
+## Three private historical controls admitted by exact gates - 2026-11-02
+
+Read docs/THREE_HISTORICAL_REFERENCE_ADMISSION_2026-11-02.md and receipts.
+CLI profiles41810-local3/local4/local5 nowexact wholeMPQ/core/lobbypins, no
+build-onlyfallback. Old41810/42273profilevalues andactualoutputdicts unchanged.
+MapInfowhitelist4->7memberdigests/23->38spans;old4rowsunchanged/MAX_RECORDS7
+/emptypermissiononly. Eachnew5records exactoriginalspansANDbits. RAM7->31counts
+add15B/member;160root/1191nativefields each,currentbounds/tokens/outsidebits
+andwholeinverseexact. GateMapInfopolicyexplicit perprofile;42273calls0.
+Freshsixcorepayloadroundtrips each:331482game/419message/18900tracker across3.
+All5actualCLI gatespassed;public2outputs equalbaseline;3samebuildswapsrejected
+BEFOREschemaimport.31focusedtests passed andindependentlyrepeated;6newrefusal
+checks. No rawprivatefixture/player/chatpublication orrealpayloadwrites.
+Localisolatedpinnedupstream addsalreadycached42273filename byteexact, no old
+dependencyrewrite/networkfallback. HostedCIprivateinputcoverage NOTclaimed.
+No replay/sync/default/abilitymapping/game/CU/nativeexecute/emulation change.
+Opaque suffixsemantics/effectiveoldrules/currentcatalog/playerfields/native
+98348playbackstillunproved;fullupgradefalse. Strictgatefrontierfornew3closed.

@@ -1,0 +1,54 @@
+{
+  "format": "three-historical-reference-admission-validation-v1",
+  "base_commit": "367240b0a665759e381771fe78dec7bc29915a8a",
+  "observation": {
+    "path": "observations/three-historical-reference-admission-2026-11-02.json",
+    "bytes": 17719,
+    "sha256": "8fe0ca9b5a43d73078e263b20a01cca4ab7c5b019192f431bf9212505f5287f8"
+  },
+  "focused_tests_passed": 31,
+  "actual_CLI_gates_passed": 5,
+  "public_two_output_dictionaries_equal_baseline": true,
+  "actual42273_converter_calls": 0,
+  "real_same_build_swaps_refused_pre_schema": 3,
+  "implementation_peer_review_passed": true,
+  "source_receipt_pins": [
+    {
+      "workspace_path": "work/historical-gate-extension-20261102/core/three-core-roundtrips.json",
+      "bytes": 19155,
+      "sha256": "4ef9bb5d41b0468b608abfc1e3eb1885026751f5164e42ed583bd8f8c3c6e752"
+    },
+    {
+      "workspace_path": "work/historical-gate-extension-20261102/lobby/candidate-profile-facts.json",
+      "bytes": 14066,
+      "sha256": "5805f128f2c9a3a43bde023b0cbaaa594c420e9363c44c99649c1039f768cc0a"
+    },
+    {
+      "workspace_path": "work/historical-gate-extension-20261102/lobby/candidate-profile-self-review.json",
+      "bytes": 942,
+      "sha256": "b007d67a140ed375bca08629af64aa809a8482b1f1b9d0f9dd9dc5d4290cc2c6"
+    },
+    {
+      "workspace_path": "work/historical-gate-extension-20261102/implementation-review.json",
+      "bytes": 6493,
+      "sha256": "b8d4a74089dc80d707fe9afefb3a966662300a08cf760fe3898d7700e6ad81b7"
+    },
+    {
+      "workspace_path": "work/historical-gate-extension-20261102/focused-tests.json",
+      "bytes": 403,
+      "sha256": "0d252434e0e7c70abc4259074f37bc751e0bb9daa1b00c2493f669439cc0175b"
+    },
+    {
+      "workspace_path": "work/historical-gate-extension-20261102/five-actual-gates.json",
+      "bytes": 24118,
+      "sha256": "9e7859d842f2be8bfed948eda73135cb404888ed46c915d8fb03c151ae84d236"
+    },
+    {
+      "workspace_path": "work/historical-gate-extension-20261102/pinned-upstream-preparation.json",
+      "bytes": 1740,
+      "sha256": "16fb6258b0eb01c70e05b3314da18feb066ce2b65487956b10fd1317e245d20b"
+    }
+  ],
+  "no_full_currentplayback_or_CI_claim": true,
+  "full_upgrade_complete": false
+}

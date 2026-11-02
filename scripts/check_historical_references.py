@@ -1,7 +1,7 @@
-"""Check two exact historical reference fixtures; write sanitized evidence only.
+"""Check exact historical reference fixtures; write sanitized evidence only.
 
-41810 is the exact-build control. 42273 is a separate nearby-build control.
-Admitted 41810 MapInfo framing and inverse run in RAM. No network request,
+The 41810 fixtures are exact-build controls. 42273 is a separate nearby control.
+Admitted 41810 MapInfo framing and inverses run in RAM. No network request,
 replay conversion, payload write, client launch or player data export.
 """
 from __future__ import annotations
@@ -47,6 +47,64 @@ PROFILES = {
         },
         'lobby_bytes': 42402, 'lobby_sha256': 'd7c1ad4451d73fb03aa720aac37b75bd1a852e8c57ded06dbe1bbc9e0cab74c4',
         'mod_count': 5, 'metadata_end': 215673, 'handles_end': 217280,
+    },
+    '41810-local3': {
+        'id': 'local-exact41810-dragon-3', 'build': 41810, 'exact_original_build': True,
+        'bytes': 850813, 'sha256': '7efa1c335816eebe802747ae4b16252ed22fcd8387b09d24b115b2917542b52a',
+        'streams': {
+            'game': (140494, '6267487f589c4db643ff4d3b7abc061af0b61552c7a2de9e86c8508406ca4daf'),
+            'message': (177, '8f99e8986d20a7ea87996513bb49f5b1450467f81429f702e5cfa3cc0cc72a17'),
+            'tracker': (8089, 'efcd51f24f37612199a8ebce2872bdf72144a82a3a8c15552a164deb5e27d139'),
+        },
+        'lobby_bytes': 41728, 'lobby_sha256': '4a1aacc7dcca7211a8cbedb876376dd2212a8f7e6f4625a233a5d7365f71920b',
+        'mod_count': 5, 'metadata_end': 214289, 'handles_end': 215896,
+    },
+    '41810-local4': {
+        'id': 'local-exact41810-dragon-4', 'build': 41810, 'exact_original_build': True,
+        'bytes': 688705, 'sha256': '2fca3c78d0e459d4452e3fb1f41ff3fce22b9c1f8f113019389195ff171bf618',
+        'streams': {
+            'game': (112108, '55d2cbddda60b683d07ed9a21ffe84ca55422ef9a8aa724969f9a359a6d65f28'),
+            'message': (107, '55dbb0cc3ad4807cd17460acfd6fe06744a043b78742d066c9d3444f9b7f8bdc'),
+            'tracker': (5858, '8d01d6f734e9fea8d038a94d28f6dd0fdac22f4a5d1011caee7165beb7dd13af'),
+        },
+        'lobby_bytes': 41743, 'lobby_sha256': '7d6cbfad8e5cc3fe86df083a41dc2ad5b3a0be4c8db977e3d512562c4eaf6419',
+        'mod_count': 5, 'metadata_end': 214289, 'handles_end': 215896,
+    },
+    '41810-local5': {
+        'id': 'local-exact41810-dragon-5', 'build': 41810, 'exact_original_build': True,
+        'bytes': 488833, 'sha256': '8c4fb83989b528ea3227f6c97758293d1f650e33caa3d38c6a2a84d27ab0850d',
+        'streams': {
+            'game': (78880, '541239128ab928fa794b083f997966fb2d56fe8e5972a88a0a9039ad501e4afb'),
+            'message': (135, 'b501cc5c30a47204b4f08ca392676f8f5af8102ef5f5362f5a27bc2cc822c65e'),
+            'tracker': (4953, 'fa44344a45d5d1b91b1c196810a81b2144d4992bdb12ed5a1854efbee95a01d1'),
+        },
+        'lobby_bytes': 41697, 'lobby_sha256': 'd11e15c3ab40f7ffbdf0b8078c5d212dbefe7f98f2a50ebb291c48166e7b67ee',
+        'mod_count': 5, 'metadata_end': 214289, 'handles_end': 215896,
+    },
+}
+
+# Framing admission is an exact-member policy, separate from build identity.
+# Preserve the original public control's pins when admitting other fixtures.
+MAPINFO_PROFILES = {
+    '41810': {
+        'source_id': 'public41810control',
+        'all_native_field_comparisons': 1816,
+        'converted_sha256': '2c770fb59f7a64734752b10858de4746af270a63b1ebfa1b02e6094c493a9e6f',
+    },
+    '41810-local3': {
+        'source_id': 'local41810control3',
+        'all_native_field_comparisons': 1191,
+        'converted_sha256': '49a5fd5b0f952038d86980489ef42d150fa4f2b2b591707ea5ba21701e98f29c',
+    },
+    '41810-local4': {
+        'source_id': 'local41810control4',
+        'all_native_field_comparisons': 1191,
+        'converted_sha256': 'd5f3549d40d18dadcbec4b37d79c5ab016b0a587a097c30251f5b66d895f0a81',
+    },
+    '41810-local5': {
+        'source_id': 'local41810control5',
+        'all_native_field_comparisons': 1191,
+        'converted_sha256': '4ac6dd9b9d4554896971a5b62157d53380957b8342148e5757e9bcd156fc3ff5',
     },
 }
 
@@ -110,6 +168,46 @@ def _load_pinned_protocol(build):
             'dependency_file_rewritten': False}
 
 
+def verify_mapinfo(lobby, expected, framing):
+    """Verify one separately admitted source in RAM; never return its bytes."""
+    from legacy_mapinfo_framing import PROFILE, convert_mapinfo_framing, inverse_mapinfo_framing
+    require(PROFILE == 'legacy-empty-mapinfo-count7-to-native31-v1', 'MapInfo profile differs')
+    value = convert_mapinfo_framing(lobby, PROFILE)
+    facts = value.summary()
+    count = expected['mod_count']
+    added = 3 * count
+    require(facts['source_id'] == framing['source_id']
+            and facts['source_member_sha256'] == expected['lobby_sha256']
+            and facts['source_member_bytes'] == len(lobby), 'MapInfo source admission differs')
+    require(facts['MapInfo_records'] == count and facts['added_bytes'] == added
+            and facts['named_root_field_comparisons'] == 32 * count
+            and facts['all_native_field_comparisons'] == framing['all_native_field_comparisons'],
+            'MapInfo comparison counts differ')
+    converted_digest = framing['converted_sha256']
+    require(type(value.converted) is bytes and len(value.converted) == len(lobby) + added
+            and digest(value.converted) == facts['converted_member_sha256'] == converted_digest,
+            'MapInfo converted-member pin differs')
+    require(facts['unchanged_current_native_32_field_destination_values_and_bounds_exact'] is True
+            and facts['all_non_count_tokens_and_outside_bits_exact'] is True
+            and facts['inverse_whole_member_bytes_exact'] is True,
+            'MapInfo current-field/outside-bit/inverse checks differ')
+    require(facts['nonempty_permissions_supported'] is False
+            and facts['whole_replay_upgrade_or_historical_schema_authenticated'] is False,
+            'MapInfo proof scope differs')
+    require(inverse_mapinfo_framing(value, PROFILE) == lobby, 'MapInfo inverse API differs from source')
+    return {
+        'status': 'admitted-and-verified-in-RAM', 'conversion_attempted': True,
+        'profile': PROFILE, 'source_id': facts['source_id'], 'records': count, 'added_bytes': added,
+        'named_root_field_comparisons': 32 * count,
+        'all_native_field_comparisons': framing['all_native_field_comparisons'],
+        'converted_member_bytes': len(value.converted), 'converted_member_sha256': converted_digest,
+        'current_32_field_values_and_bounds_exact': True,
+        'non_count_tokens_and_outside_bits_exact': True,
+        'inverse_whole_source_bytes_exact': True, 'inverse_API_equals_original_member': True,
+        'payload_written': False, 'whole_replay_conversion_proven': False,
+    }
+
+
 def verify_reference(replay, profile_name):
     expected = PROFILES[profile_name]
     initial_identity = read_bound_file(replay, expected['bytes'], expected['sha256'], 'Reference fixture')
@@ -159,42 +257,10 @@ def verify_reference(replay, profile_name):
             and audit['terminal_handles_end_bit'] == expected['handles_end'], 'Historical metadata boundaries differ')
     require(audit['after_section_bytes'] == len(lobby) - expected['handles_end'] // 8,
             'Historical opaque suffix extent differs')
-    if profile_name == '41810':
-        # This digest was admitted by the separately published strict profile.
-        # Keep both transformed and restored members in RAM; emit facts only.
-        from legacy_mapinfo_framing import PROFILE, convert_mapinfo_framing, inverse_mapinfo_framing
-        require(PROFILE == 'legacy-empty-mapinfo-count7-to-native31-v1', 'MapInfo profile differs')
-        value = convert_mapinfo_framing(lobby, PROFILE)
-        facts = value.summary()
-        require(facts['source_id'] == 'public41810control'
-                and facts['source_member_sha256'] == expected['lobby_sha256']
-                and facts['source_member_bytes'] == len(lobby), 'MapInfo source admission differs')
-        require(facts['MapInfo_records'] == 7 and facts['added_bytes'] == 21
-                and facts['named_root_field_comparisons'] == 224
-                and facts['all_native_field_comparisons'] == 1816, 'MapInfo comparison counts differ')
-        converted_digest = '2c770fb59f7a64734752b10858de4746af270a63b1ebfa1b02e6094c493a9e6f'
-        require(type(value.converted) is bytes and len(value.converted) == len(lobby) + 21
-                and digest(value.converted) == facts['converted_member_sha256'] == converted_digest,
-                'MapInfo converted-member pin differs')
-        require(facts['unchanged_current_native_32_field_destination_values_and_bounds_exact'] is True
-                and facts['all_non_count_tokens_and_outside_bits_exact'] is True
-                and facts['inverse_whole_member_bytes_exact'] is True,
-                'MapInfo current-field/outside-bit/inverse checks differ')
-        require(facts['nonempty_permissions_supported'] is False
-                and facts['whole_replay_upgrade_or_historical_schema_authenticated'] is False,
-                'MapInfo proof scope differs')
-        require(inverse_mapinfo_framing(value, PROFILE) == lobby, 'MapInfo inverse API differs from source')
-        mapinfo = {
-            'status': 'admitted-and-verified-in-RAM', 'conversion_attempted': True,
-            'profile': PROFILE, 'source_id': facts['source_id'], 'records': 7, 'added_bytes': 21,
-            'named_root_field_comparisons': 224, 'all_native_field_comparisons': 1816,
-            'converted_member_bytes': len(value.converted), 'converted_member_sha256': converted_digest,
-            'current_32_field_values_and_bounds_exact': True,
-            'non_count_tokens_and_outside_bits_exact': True,
-            'inverse_whole_source_bytes_exact': True, 'inverse_API_equals_original_member': True,
-            'payload_written': False, 'whole_replay_conversion_proven': False,
-        }
+    if profile_name in MAPINFO_PROFILES:
+        mapinfo = verify_mapinfo(lobby, expected, MAPINFO_PROFILES[profile_name])
     else:
+        require(profile_name == '42273', 'Reference has no explicit MapInfo admission policy')
         mapinfo = {
             'status': 'not-admitted', 'conversion_attempted': False,
             'reason': 'The separate nearby42273 member is not admitted by this strict MapInfo profile.',
