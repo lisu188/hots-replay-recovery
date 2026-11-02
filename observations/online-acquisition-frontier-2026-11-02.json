@@ -1,0 +1,471 @@
+{
+  "format": "hots-online-acquisition-frontier-v1",
+  "observed_UTC": "2026-11-02T17:23:22.923369+00:00",
+  "base_commit": "42ef42d819addf2eddea885479a7dbbc7ee31afa",
+  "authorization_scope": "User explicitly reauthorized online search after offline-only period; this milestone uses public read-only network research and local checks. No game or Computer Use launch.",
+  "official_current_target": {
+    "regions": [
+      "eu",
+      "us",
+      "kr",
+      "tw",
+      "sg"
+    ],
+    "build": 98348,
+    "version": "2.57.0.98348",
+    "BuildConfig": "a64c9b7ebf1c6a811ffefad97865ed80",
+    "CDNConfig": "9575c98a819e557a3e6ec7b003428124",
+    "CN_exception": {
+      "build": 89566,
+      "version": "2.55.3.89566"
+    },
+    "sources": [
+      {
+        "url": "https://eu.patch.battle.net/hero/versions",
+        "bytes": 874,
+        "sha256": "f94345ccb04cd3c794ceceb7395efbe6e314eb9a0aec7cb6c3a779b400d74cf4"
+      },
+      {
+        "url": "https://us.patch.battle.net/hero/versions",
+        "bytes": 874,
+        "sha256": "f94345ccb04cd3c794ceceb7395efbe6e314eb9a0aec7cb6c3a779b400d74cf4"
+      }
+    ],
+    "installed_executable_unchanged": true
+  },
+  "new_NGS_and_lounge_screening": {
+    "format": "public-current98348-Monstrosity-acquisition-frontier-v1",
+    "observed_at_utc": "2026-11-02T17:18:17.392636+00:00",
+    "purpose": "Test newly published public replay data for an actual current98348 AbathurEvolvedMonstrosity type before attempting numeric UnitLink reconstruction.",
+    "NGS_index": {
+      "url": "https://www.nexusgamingseries.org/api/schedule/fetch/reported/matches",
+      "method": "POST",
+      "payload": {
+        "season": 22
+      },
+      "prior_unique_replay_keys": 550,
+      "current_unique_replay_keys": 638,
+      "prior_keys_all_still_present": true,
+      "new_unique_keys": 88,
+      "new_keys_all_screened_once": true,
+      "prior_source": {
+        "bytes": 451821,
+        "sha256": "51cea7d89c0afe887a31c6bc549c0a35b740e997c4d8e8d195b3eef8c602610c"
+      },
+      "current_source": {
+        "bytes": 512653,
+        "sha256": "b685162c329878c8eeee4d73b6e7cd16ab771a4fb39ec13c0400ab74575a3109"
+      }
+    },
+    "partial_screening": {
+      "objects": 88,
+      "decoded_header_build_base_data": [
+        98348,
+        98348,
+        98348
+      ],
+      "decoded_header_root": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+      "status_all_objects": "header-details-decoded",
+      "public_map_counts": {
+        "Alterac Pass": 6,
+        "Battlefield of Eternity": 8,
+        "Braxis Holdout": 8,
+        "Cursed Hollow": 5,
+        "Dragon Shire": 13,
+        "Garden of Terror": 3,
+        "Infernal Shrines": 14,
+        "Sky Temple": 2,
+        "Tomb of the Spider Queen": 12,
+        "Towers of Doom": 7,
+        "Volskaya Foundry": 10
+      },
+      "HTTP_206_requests": 530,
+      "response_bytes": 230161,
+      "strong_ETag_stable_per_object": true,
+      "If_Match_required_after_initial_request": true,
+      "exact_Content_Range_and_body_lengths_required": true,
+      "whole_NGS_objects_downloaded": 0,
+      "whole_NGS_object_SHA256_verified": false,
+      "new_keys_sha256": "77012cce9563ba579a558a222a66bcdd7e3b518909d65450e7acb971c159692d"
+    },
+    "Abathur_tracker_screening": {
+      "details_selected_Abathur_objects": 1,
+      "source_replay_url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-30-2026_gillyShark_at_Bingo_night_vs_Braincellmates_Volskaya_Foundry.stormReplay",
+      "archive_key_sha256": "1947066c35f5a4d6c3de8703b7686de40a77946d643fe524ef15af41054ec05c",
+      "map": "Volskaya Foundry",
+      "declared_object_bytes": 1071724,
+      "header": {
+        "bytes": 119,
+        "sha256": "24f1efd6ee2e0f0c8702c9006caa26adb25a0f8de4812a3e3cdb996e7a9c6c6c"
+      },
+      "details": {
+        "bytes": 1382,
+        "sha256": "2a29d57a445eaca5a987099653d12abf398d21eced2f9ae227b0d7d5237924a1"
+      },
+      "tracker": {
+        "bytes": 513789,
+        "sha256": "1b5d03d16666447d528f4a6d437ecd23d70018b8f305175327c4622be5871f30",
+        "events": 10286,
+        "complete_EOF_bits": true
+      },
+      "recorded_target_type_counts": {
+        "HeroAbathur": 1,
+        "AbathurLocustNormal": 46,
+        "AbathurToxicNest": 103,
+        "AbathurSymbiote": 76,
+        "AbathurLocustBombardStrain": 78
+      },
+      "recorded_Abathur_talent_purchase_names": {
+        "AbathurCombatStyleLocustBrood": 1,
+        "AbathurSlapathur": 1,
+        "AbathurHeroicAbilityUltimateEvolution": 1,
+        "AbathurCombatStyleBombardStrain": 1,
+        "AbathurVolatileMutation": 1,
+        "AbathurUltimateEvolutionEvolutionaryLink": 1
+      },
+      "Monstrosity_type_records": 0,
+      "Monstrosity_named_Abathur_purchase_records": 0,
+      "numeric_UnitLink_reconstruction_attempted": false
+    },
+    "excluded_HeroesLounge_candidate": {
+      "source_page": "https://heroeslounge.gg/index.php/match/view/27209",
+      "download_source": "https://heroeslounge.gg/storage/app/uploads/public/6a6/12b/fb9/6a612bfb963b4934320255.stormreplay",
+      "whole_replay_bytes": 917457,
+      "whole_replay_sha256": "3e1662b30d77b24a4e0b2e0601e5159521d5280207c3696c15bde1a3e64204d2",
+      "declared_build_base_data": [
+        97605,
+        97605,
+        97605
+      ],
+      "declared_root": "696c5e8eb36a7b12d8558d66211009be",
+      "status": "excluded-from98348-reference-admission",
+      "reason": "Actual replay header declares97605; page Evolve Monstrosity label is discovery evidence only.",
+      "tracker_or_game_decoded": false
+    },
+    "fresh_HeroesLounge_pages": {
+      "division_URL": "https://heroeslounge.gg/eu-season-31/division-5",
+      "completed_match_pages_checked": [
+        "https://heroeslounge.gg/match/view/27582",
+        "https://heroeslounge.gg/match/view/27581",
+        "https://heroeslounge.gg/match/view/27576"
+      ],
+      "Abathur_pick_found": false,
+      "page_labels_not_used_as_replay_build_proof": true
+    },
+    "source_pins": [
+      {
+        "path": "work/current-monstrosity-search-20261102/ngs-index-delta.json",
+        "bytes": 8219,
+        "sha256": "061a88274be437a40614b15683f5f39cd91a94dcdbd613acd8d251ae02c84815"
+      },
+      {
+        "path": "work/current-monstrosity-search-20261102/ngs-season22.private.json",
+        "bytes": 512653,
+        "sha256": "b685162c329878c8eeee4d73b6e7cd16ab771a4fb39ec13c0400ab74575a3109"
+      },
+      {
+        "path": "work/current-monstrosity-search-20261102/ngs-delta-screen.private.json",
+        "bytes": 95393,
+        "sha256": "e3411445b3a14657922e7c452ec773a96b5a370a033db8da6fc4728ebcfa13fb"
+      },
+      {
+        "path": "work/current-monstrosity-search-20261102/ngs-delta-remaining-screen.private.json",
+        "bytes": 94591,
+        "sha256": "aad6c3841bd82c48e58e42d171227e18d0a6888f73eb2e6b1455a1f072629727"
+      },
+      {
+        "path": "work/current-monstrosity-search-20261102/lounge-27209-discovery.json",
+        "bytes": 721,
+        "sha256": "213103187a37f17003ae3f869be4fcc4239439ccfc00608d720de447752b576a"
+      },
+      {
+        "path": "work/current-monstrosity-search-20261102/lounge-27209-intake.private.json",
+        "bytes": 968,
+        "sha256": "780bf65134fcd4ccffb76f0e7511b7f8389385563ceafd60d049a70b43a5604b"
+      },
+      {
+        "path": "work/current-monstrosity-search-20261102/screen_ngs_delta.py",
+        "bytes": 4575,
+        "sha256": "1c350657fad9d41d171b04acef3735dc09f6f03fa166f330f08fdb6ca18e008e"
+      },
+      {
+        "path": "work/current-monstrosity-search-20261102/refresh_ngs.py",
+        "bytes": 1497,
+        "sha256": "b3e86900cfd452f1fef5b0d087208058d86dbe7a98336bae2a351afcf0d8b7ed"
+      },
+      {
+        "path": "work/current-monstrosity-search-20261102/intake_lounge.py",
+        "bytes": 3537,
+        "sha256": "860d6fda425aad52f9dcb7eea144e63a5446fe4c2d47a43afce4a3d7849c220b"
+      },
+      {
+        "path": "work/ngs_range_details.py",
+        "bytes": 12352,
+        "sha256": "8b7383b2791064531f961ed8d9745d2d8f9b589dcd5e5a7230815b9d19204c12"
+      },
+      {
+        "path": "work/native-unit-initial-owner-20261027/audit_recorded_initial_owners.py",
+        "bytes": 7202,
+        "sha256": "b09aa36d241d8a30d95feb1ad419d6534fff496338052fb4e6a76f98e3a729bb"
+      }
+    ],
+    "preserved_inputs": [
+      {
+        "path": "work/TEN_GREYMANE_source_41810.StormReplay",
+        "bytes": 635140,
+        "sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824"
+      },
+      {
+        "path": "work/native-20261018/TEN_GREYMANE_client98285_RESUMABLE_R8_PARTIAL.StormReplay",
+        "bytes": 2438570,
+        "sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19"
+      },
+      {
+        "path": "repository:scripts/run_current_replay_control.py",
+        "bytes": 17147,
+        "sha256": "6315c2dd9291aa5185db0831e1d7c00f24f1d3f33ceb0bd79f8a636dd2aacaea"
+      },
+      {
+        "path": "repository:test_current_replay_control.py",
+        "bytes": 2450,
+        "sha256": "7a00561260e2c0f64a41b9f73cbf8910550f90e4a6d6ad80e7a1d1719879f297"
+      }
+    ],
+    "limits": [
+      "NGS header/details and the single Abathur tracker were partial object reads; no whole NGS replay was admitted.",
+      "Headers are self-declared metadata, not signatures or proof of executable compatibility.",
+      "No Monstrosity was observed in this bounded set; no global absence claim is made.",
+      "Recorded type and talent names are not native pool identity, target numeric IDs, rule equivalence or playback proof.",
+      "Raw source pages, indexes and screening receipts remain local; no player names, Toon handles, chat or credentials are included in this observation."
+    ],
+    "game_ComputerUse_native_execution_or_emulation": false,
+    "replay_or_sync_or_conversion_changed": false,
+    "repo_files_changed_by_this_lane": false,
+    "new_current_numeric_link_proven": false,
+    "full_upgrade_complete": false
+  },
+  "historic41810_config_route": {
+    "source_attribution": "Third-party immutable TACT config archive; content hashes do not authenticate Blizzard provenance or effective rule data.",
+    "source_url": "https://github.com/mdX7/tact_configs/tree/d26016aa08631903d1dd3bc22483a338767cd5d0/tpr/Hero-Live-a",
+    "commit": "d26016aa08631903d1dd3bc22483a338767cd5d0",
+    "inspected_build_config_bodies": 157,
+    "inspected_bytes": 175932,
+    "all_Git_blob_MD5_SHA256_checks_pass": true,
+    "exact41810_root_or_fixed_hash_matches": 0,
+    "other_blob_bodies_and_history_not_inspected": true,
+    "legacy_PE_CASC_or_catalog_recovered": false
+  },
+  "HotsCompanion_route": {
+    "format": "hotscompanion-two-complete-match-page-route-v1",
+    "checked_at_utc": "2026-11-02T17:10:24.574467+00:00",
+    "changed_from_prior_search": "Prior Oct25 firstpage read stopped at262144 B. Both full pages now read, and selected matchclient bundle checked.",
+    "pages": [
+      {
+        "url": "https://hotscompanion.com/matches/cmsqku48s0b5ns901zkgeksfs",
+        "status": 200,
+        "complete": true,
+        "bytes": 490800,
+        "sha256": "b21bb58b71635177e79dc03eb433e826fe711f3e79161ceb83f022712cb84749",
+        "Abathur_literal_occurrences": 7,
+        "Monstrosity_literal_occurrences": 0,
+        "raw_StormReplay_extension_occurrences": 6,
+        "matched_raw_replay_links": [],
+        "generic_download_navigation_links": [
+          "/download"
+        ],
+        "exact_build_or_heroic_pick_established": false,
+        "direct_replay_download_established": false
+      },
+      {
+        "url": "https://hotscompanion.com/matches/cmqtr5dfg16yho001m3ynu34k",
+        "status": 200,
+        "complete": true,
+        "bytes": 490975,
+        "sha256": "da62d59475bf2d4bc579613538416b064f19f2aaddff96a074fb73b95c3bd8a5",
+        "Abathur_literal_occurrences": 5,
+        "Monstrosity_literal_occurrences": 0,
+        "raw_StormReplay_extension_occurrences": 6,
+        "matched_raw_replay_links": [],
+        "generic_download_navigation_links": [
+          "/download"
+        ],
+        "exact_build_or_heroic_pick_established": false,
+        "direct_replay_download_established": false
+      }
+    ],
+    "client_bundle": {
+      "source_url": "https://hotscompanion.com/_next/static/chunks/app/%5Blocale%5D/(main)/matches/%5Bid%5D/page-d7cdd79bc771a3e4.js",
+      "bytes": 21243,
+      "sha256": "d75c6e7cb79d7df17cff654615d0b9b005eb39e6b8ded17a270c4c964be2c163",
+      "routes": []
+    },
+    "bounded_scope": "Two public complete HTML pages and their shared selected match page bundle, no account, game, replay download or exhaustive site/API claim",
+    "full_fixture_acquired": false,
+    "target_numeric_unit_link_recovered": false,
+    "global_absence_claim": false
+  },
+  "Heroes_Profile_route": {
+    "format": "heroesprofile-current-Monstrosity-public-route-v1",
+    "observed_date": "2026-11-02",
+    "public_source": "https://www.heroesprofile.com/Global/Talents/Abathur",
+    "observed_page_filter": "2.57.0.98348, Storm League",
+    "Monstrosity_displayed_games": 3512,
+    "stats_not_replay_compatibility_proof": true,
+    "client_source_url": "https://www.heroesprofile.com/build/assets/app-05cfb487.js",
+    "retrieval": "Firecrawl rawHtml text, no exact original response byte identity claimed",
+    "client_source_character_length": 2778427,
+    "correction": "Copy Build top Game header is copying a talent build to the game, not a top-match link. getCopyBuildToGame emits [T...,Abathur].",
+    "public_replay_list_route": "/api/v1/global/talents/builder/replays",
+    "download_route": "/Match/Single/{id}/Download",
+    "client_enforces_login_before_download": true,
+    "direct_talent_page_HTTP_status": 403,
+    "builder_browser_result": "Human-verification challenge; no replay-list results retrieved",
+    "builder_session_id": "01a19d46-52f7-773d-9a95-c325c0cc269c",
+    "builder_session_closed": true,
+    "authentication_used": false,
+    "replay_downloads": 0,
+    "no_unauthenticated_download_proof": true,
+    "sitewide_or_other_provider_absence_claim": false
+  },
+  "MercStats_route": {
+    "source_url": "https://mercstats.com/heroes/abathur",
+    "declared_sample_patch": 98348,
+    "declared_Abathur_games": 55,
+    "replays_page": "https://mercstats.com/replays",
+    "inspected_replays_page_is_upload_form": true,
+    "public_replay_download_not_established": true,
+    "sitewide_absence_claim": false
+  },
+  "SDK_and_Inven_route": {
+    "source_receipt": {
+      "id": "SDK_Inven",
+      "workspace_path": "work/current-inven-search-20261102/current98348-inven-sdk-route-review.json",
+      "bytes": 8674,
+      "sha256": "9aaf9317e79d4798ee05bea55e51fe48be576412f2ea7e08c5c212511a2aeed5"
+    },
+    "SDK_repository": "HeroesReplay/HeroesClientSDK",
+    "SDK_commit": "a276720510111aa3bc7c5033adc757af3b2bc7fa",
+    "scope": "README, complete187-entry source tree metadata, discovery/launch source and license. Five reference bodies74217B verified against immutable Git blobs.",
+    "result": "Live memory clock/UI/launch reader; reviewed offline image analysis does not supply gameplay catalog IDs, replay codec or ability126/351 identity.",
+    "reference_only_license_code_not_transplanted": true,
+    "Inven_HTTP_requests": 14,
+    "Inven_HTML_body_bytes": 4231496,
+    "recognized_replay_archive_download_links": 0,
+    "Inven_board4017_HTTP_status": 404,
+    "cached2024_listing_not_live_proof": true,
+    "separate_GitHub_fixture_header_build": 75589,
+    "wrong_build_fixture_full_downloaded": false
+  },
+  "ClientInfo_scope_refresh": {
+    "schema_current_common_bits": 33,
+    "schema_InfoHero_conditional_bits": 3,
+    "padding_or_reserved": false,
+    "universal_append36_recipe_proven": false,
+    "full_tracker_event_counts": [
+      6614,
+      4405,
+      6181
+    ],
+    "all_three_initData_byte_EOF": true,
+    "historical_explicitly_named_account_level_boost_voice_staff_carrier_found": false,
+    "negative_scope": "Named tracker StatGame keys and decoded initData paths of two historical fixtures; opaque fields, other members and external sources not excluded.",
+    "ordinary_playback_fatality_not_proven": true,
+    "next_source_boundary": "Construction/concrete implementation of incoming object queried at virtual+18/+20/+10 by1E5CF60; slot121/selector13/StartReplay and reader dispatch already bound.",
+    "fields_defaulted_or_copied_from_donor": false
+  },
+  "source_pins": [
+    {
+      "id": "live",
+      "workspace_path": "work/live-build-refresh-20261102/official-live-build-receipt.json",
+      "bytes": 6778,
+      "sha256": "8c676e0410c0ade130d68edf4039ef309af0fe75babd843a9dde174950745569"
+    },
+    {
+      "id": "NGS",
+      "workspace_path": "work/current-monstrosity-search-20261102/public-observation.json",
+      "bytes": 8320,
+      "sha256": "ac4633088a290f87c4370f84c937fe3b849c6283b01599962a40326c5d461f42"
+    },
+    {
+      "id": "historic",
+      "workspace_path": "work/historic-acquisition-20261102/historic41810-acquisition-frontier.json",
+      "bytes": 3446,
+      "sha256": "dfd22038f3b04cd43c9320498d59789eb59fdd6ae20bc2aaa6f3bce3a72caa79"
+    },
+    {
+      "id": "HC",
+      "workspace_path": "work/hotscompanion-route-20261102/complete-page-route-observation.json",
+      "bytes": 2072,
+      "sha256": "5ff48b36af152c1a4b076187bff3c57c96ff0c8a724d49f2db3b1b6989b50ced"
+    },
+    {
+      "id": "HP",
+      "workspace_path": "work/heroesprofile-monstrosity-20261102/public-route-observation.json",
+      "bytes": 2911,
+      "sha256": "422911f795a469765b8ba0f52d68fc1b283e66c20d246d25c44c1dcdd8257f74"
+    },
+    {
+      "id": "mercstats",
+      "workspace_path": "work/mercstats-route-20261102/scoped-route-observation.json",
+      "bytes": 3968,
+      "sha256": "8ca26d56f4d02c4f33e1c312de12f13426e07e9c702658f405158f5a507336be"
+    },
+    {
+      "id": "SDK_Inven",
+      "workspace_path": "work/current-inven-search-20261102/current98348-inven-sdk-route-review.json",
+      "bytes": 8674,
+      "sha256": "9aaf9317e79d4798ee05bea55e51fe48be576412f2ea7e08c5c212511a2aeed5"
+    },
+    {
+      "id": "player_route",
+      "workspace_path": "work/clientinfo-next-route-20261102/clientinfo-next-route-assessment.json",
+      "bytes": 7828,
+      "sha256": "89af3c1bffe39986ec8f55e675fd8198147b5341df16585cdc62aa11cb781bee"
+    },
+    {
+      "id": "player_inventory",
+      "workspace_path": "work/clientinfo-next-route-20261102/recorded-field-key-inventory.json",
+      "bytes": 31277,
+      "sha256": "ec5224efd66879ee2520ae0744353442ff71bcfdcdae9604adc31fc1896a157c"
+    },
+    {
+      "id": "peer_review",
+      "workspace_path": "work/online-acquisition-review-20261102/saved-online-acquisition-review.json",
+      "bytes": 6682,
+      "sha256": "1e0ea9e8848887960f8b3e735386521f52830399c0df4caadda6424e633889ca"
+    },
+    {
+      "id": "NGS_self_review",
+      "workspace_path": "work/current-monstrosity-search-20261102/public-observation-self-review.json",
+      "bytes": 1369,
+      "sha256": "180550bd8a2f44fe6fdaa8651217b3533d097e269cc40824f7c165b542fbea95"
+    },
+    {
+      "id": "NGS_peer_review",
+      "workspace_path": "work/online-acquisition-review-20261102/NGS-saved-acquisition-review.json",
+      "bytes": 4361,
+      "sha256": "83640dfe4953bc57fd45b33ca5c713cface235a4ea75b6f4901e9b26cdd0fc93"
+    }
+  ],
+  "canonical_before": {
+    "bytes": 208968,
+    "sha256": "08aa28d77afe0bc0406441e836b363e045f013e41c1ed01c94d38eae44ab3ca0",
+    "keys": 279
+  },
+  "validation_scope": {
+    "public_network_reads": true,
+    "real_header_tracker_and_initData_decodes": true,
+    "whole_new98348_replay_admitted": false,
+    "production_code_or_conversion_changed": false,
+    "unit_tests_run": false,
+    "CI_run": false,
+    "independent_peer_review_of_selected_saved_evidence": true,
+    "peer_review_limits": "Manifest/config/HotsCompanion body checks are independent. NGS independent review rederived saved indexes/ledger arithmetic and source guards, and decoded retained97605header; rawNGSrange/member bodies not retained, so88header/10286tracker decodes not independently rerun. Partial-object/source-ledger evidence is not full replay proof.",
+    "game_or_ComputerUse": false,
+    "native_execution_or_emulation": false,
+    "synchronization_changed": false,
+    "full_upgrade_complete": false,
+    "current_playback_proven": false
+  },
+  "next_action": "Seek a complete98348 Monstrosity fixture via an authorized download route or actual historical41810 client/rule data; do not rescan the same88 NGS keys or repeat obsolete ClientInfo dispatch discovery."
+}

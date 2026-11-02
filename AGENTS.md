@@ -1992,3 +1992,28 @@ prod/conversion/replay/sync/versionchange, tests/CI/peerreview, provider/native
 execution/emulation/game/CU/network/publication. Keepoffline; fullupgradefalse.
 Next effective targettables/Monstrositylink, missingplayer/abilityvalues and
 historicalrules/nativeplayback; no guessed ordering, names or catalogdefaults.
+
+
+## Online acquisition resumed - 2026-11-02
+
+Read docs/ONLINE_ACQUISITION_FRONTIER_2026-11-02.md and dated observations.
+User reauthorized public online research. Official EU/US live manifests still
+98348; installed PE unchanged. Prior no-game/CU instruction retained here.
+NGS season22 refreshed550->638 unique keys: all88NEW headers/details98348/root,
+530HTTP206/230161B, stableETag/IfMatch/range guards. Only1Abathur, fulltracker
+10286EOF/UltimateEvolution/noMonstrosity; no wholeNGS fixture admitted.
+HeroesLounge27209Monstrosity fullreplay actually97605, excluded. New Oct26/29
+pages noAbathur. Two fullHCpages+selectedJS now inspected, no download proved.
+HP3512Monstrosity stats98348 are discovery only: CopyBuildTOGame is buildcode,
+not topmatchlink; downloadrequireslogin; anonymousbuilder challenge/stopped.
+MercStats55Abathur98348/uploadpage; Inven14reads/no recognizeddownload; 4017live404.
+New thirdpartyTACTarchive157BuildConfigbodies175932B allGit/MD5/SHAchecked,
+no exact41810/root/fixedhash; otherbodies/history uninspected. Nydus b41810 JSON
+alreadyacquiredOct21. SDKclock/UI/launchreader/reference-only, not catalog/parser.
+Fresh historicalnamedtracker/initData keyinventory no accountlevel/boost/voice/
+staffcarrier; otheropaque/members notexcluded. 36bits=33common+3conditional,
+not padding/defaultrecipe or proven fatalplaybackgate. Slot121/StartReplay
+reader alreadyclosed; nextincomingresponse implementation1E5CF60 sourceboundary.
+No conversion/defaults/replay/sync, game/CU/nativeexecution/emulation, tests/CI
+or remote publication in this checkpoint; fullupgrade/currentplayback false.
+Do not rescan same88NGS keys or repeat dispatch discovery without new evidence.

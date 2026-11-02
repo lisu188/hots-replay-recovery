@@ -1,0 +1,97 @@
+{
+  "format": "hots-online-acquisition-frontier-validation-v1",
+  "base_commit": "42ef42d819addf2eddea885479a7dbbc7ee31afa",
+  "observation": {
+    "path": "observations/online-acquisition-frontier-2026-11-02.json",
+    "bytes": 20535,
+    "sha256": "acd1555a9dcb527ae7e2053057a89debe3dca074c473a926b59f71ddaa85045b"
+  },
+  "source_receipt_pins_verified": [
+    {
+      "id": "live",
+      "workspace_path": "work/live-build-refresh-20261102/official-live-build-receipt.json",
+      "bytes": 6778,
+      "sha256": "8c676e0410c0ade130d68edf4039ef309af0fe75babd843a9dde174950745569"
+    },
+    {
+      "id": "NGS",
+      "workspace_path": "work/current-monstrosity-search-20261102/public-observation.json",
+      "bytes": 8320,
+      "sha256": "ac4633088a290f87c4370f84c937fe3b849c6283b01599962a40326c5d461f42"
+    },
+    {
+      "id": "historic",
+      "workspace_path": "work/historic-acquisition-20261102/historic41810-acquisition-frontier.json",
+      "bytes": 3446,
+      "sha256": "dfd22038f3b04cd43c9320498d59789eb59fdd6ae20bc2aaa6f3bce3a72caa79"
+    },
+    {
+      "id": "HC",
+      "workspace_path": "work/hotscompanion-route-20261102/complete-page-route-observation.json",
+      "bytes": 2072,
+      "sha256": "5ff48b36af152c1a4b076187bff3c57c96ff0c8a724d49f2db3b1b6989b50ced"
+    },
+    {
+      "id": "HP",
+      "workspace_path": "work/heroesprofile-monstrosity-20261102/public-route-observation.json",
+      "bytes": 2911,
+      "sha256": "422911f795a469765b8ba0f52d68fc1b283e66c20d246d25c44c1dcdd8257f74"
+    },
+    {
+      "id": "mercstats",
+      "workspace_path": "work/mercstats-route-20261102/scoped-route-observation.json",
+      "bytes": 3968,
+      "sha256": "8ca26d56f4d02c4f33e1c312de12f13426e07e9c702658f405158f5a507336be"
+    },
+    {
+      "id": "SDK_Inven",
+      "workspace_path": "work/current-inven-search-20261102/current98348-inven-sdk-route-review.json",
+      "bytes": 8674,
+      "sha256": "9aaf9317e79d4798ee05bea55e51fe48be576412f2ea7e08c5c212511a2aeed5"
+    },
+    {
+      "id": "player_route",
+      "workspace_path": "work/clientinfo-next-route-20261102/clientinfo-next-route-assessment.json",
+      "bytes": 7828,
+      "sha256": "89af3c1bffe39986ec8f55e675fd8198147b5341df16585cdc62aa11cb781bee"
+    },
+    {
+      "id": "player_inventory",
+      "workspace_path": "work/clientinfo-next-route-20261102/recorded-field-key-inventory.json",
+      "bytes": 31277,
+      "sha256": "ec5224efd66879ee2520ae0744353442ff71bcfdcdae9604adc31fc1896a157c"
+    },
+    {
+      "id": "peer_review",
+      "workspace_path": "work/online-acquisition-review-20261102/saved-online-acquisition-review.json",
+      "bytes": 6682,
+      "sha256": "1e0ea9e8848887960f8b3e735386521f52830399c0df4caadda6424e633889ca"
+    },
+    {
+      "id": "NGS_self_review",
+      "workspace_path": "work/current-monstrosity-search-20261102/public-observation-self-review.json",
+      "bytes": 1369,
+      "sha256": "180550bd8a2f44fe6fdaa8651217b3533d097e269cc40824f7c165b542fbea95"
+    },
+    {
+      "id": "NGS_peer_review",
+      "workspace_path": "work/online-acquisition-review-20261102/NGS-saved-acquisition-review.json",
+      "bytes": 4361,
+      "sha256": "83640dfe4953bc57fd45b33ca5c713cface235a4ea75b6f4901e9b26cdd0fc93"
+    }
+  ],
+  "NGS_independent_review": {
+    "path": "work/online-acquisition-review-20261102/NGS-saved-acquisition-review.json",
+    "sha256": "83640dfe4953bc57fd45b33ca5c713cface235a4ea75b6f4901e9b26cdd0fc93",
+    "findings": 0,
+    "scope": "Manifest/config/HotsCompanion body checks are independent. NGS independent review rederived saved indexes/ledger arithmetic and source guards, and decoded retained97605header; rawNGSrange/member bodies not retained, so88header/10286tracker decodes not independently rerun. Partial-object/source-ledger evidence is not full replay proof."
+  },
+  "no_unit_tests_or_CI_claimed": true,
+  "preserved_canonical_before": {
+    "bytes": 208968,
+    "sha256": "08aa28d77afe0bc0406441e836b363e045f013e41c1ed01c94d38eae44ab3ca0",
+    "keys": 279
+  },
+  "replay_or_sync_or_conversion_changed": false,
+  "full_upgrade_complete": false
+}
