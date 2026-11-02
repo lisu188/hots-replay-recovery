@@ -2072,3 +2072,23 @@ dependencyrewrite/networkfallback. HostedCIprivateinputcoverage NOTclaimed.
 No replay/sync/default/abilitymapping/game/CU/nativeexecute/emulation change.
 Opaque suffixsemantics/effectiveoldrules/currentcatalog/playerfields/native
 98348playbackstillunproved;fullupgradefalse. Strictgatefrontierfornew3closed.
+
+
+## Exact41810configuration lookup keys recovered - 2026-11-02
+
+Read docs/EXACT41810_CONFIG_KEYS_2026-11-02.md and datedreceipts. Archived
+ngdp_data US/hero/41810/versions603B SHA997a03d0.. Gitblob5078a196.. equals
+original2016-03-30snapshot bytes;6regionsBuildId41810/VersionsName17.0.41810.
+BuildConfig f22332dbb7eb19a46c3c3c2292cdb226;CDNConfig056112531a93ecd8acd48168fb45f51d.
+These areNOTreplayroot83d43a.. orfixedfilehashc585f3.. . ConfigbodiesMD5/root
+binding/encoding/install/PE/rules STILLMISSING.24exactCDNprobes+focusedGitHub
+filename/content/IAqueries boundednegative; no globalabsenceclaim.2016product
+blob/install islauncherconfig,notCASCinstallmanifest. ControllednextCASCroute
+usespinnedDLL streamBLTE/Encoding/MNDX/Install oververifiedacquiredblobs ONLY;
+convenienceonline loader hasdirectRibbit/fileoverride/ActiveBuild0fallback and
+unboundedallarchiveindexpitfalls. Installed98348untouched;no blobsparsedhere.
+351oldmetadata/timing narrowsProtectionShield/HealingWardhypotheses conditional
+onvalidcasts/applicablemetadata/caster. LightofElunecompatible,NOT numericIDproof.
+No name/currentmapping/defaults/game/CU/nativeexecution/replay/sync changes.
+Fullupgrade/currentplaybackfalse. Do not repeatclosed337TACTHEADbodysearch or
+24CDNrequests withoutchangedreason; knownkeysarefuturelookupnotrestoredclient.

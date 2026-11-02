@@ -1,0 +1,38 @@
+{
+  "format": "exact41810-config-key-source-validation-v1",
+  "base_commit": "3d55c60d6da5ae3611044a80a28e8bfaca7bd80f",
+  "observation": {
+    "path": "observations/exact41810-config-key-mapping-2026-11-02.json",
+    "bytes": 9397,
+    "sha256": "ea44d55068010e66b5ad20d49e10fed9fd6afa08d4faffe619a431e623f14259"
+  },
+  "whole603byte_body_and_original_snapshot_equal": true,
+  "Git_blob_header_SHA1_matches": true,
+  "six_distinct_regions_and_all_exact_row_values_verified": true,
+  "source_receipt_pins": [
+    {
+      "workspace_path": "work/historical-alternative-builddb-20261102/historical-alternative-builddb-route-receipt.json",
+      "bytes": 11838,
+      "sha256": "63c044b49ba1f55e7eb833c784b41532a31636c4f8a886652efd549ab8e4b4a2"
+    },
+    {
+      "workspace_path": "work/historical-client-archive-metadata-20261102/historical-client-archive-route-receipt.json",
+      "bytes": 21774,
+      "sha256": "a9af9471a361b73c5486ce9603b20e325720d6bfdf84897885039ddfaa79dccf"
+    },
+    {
+      "workspace_path": "work/historical41810-casc-route-20261102/route.json",
+      "bytes": 13291,
+      "sha256": "c6158e4009ca3a815b06afb194184fdc67a698376824916031e27524090cd07c"
+    },
+    {
+      "workspace_path": "work/ability351-historical-candidates-20261102/candidate-comparison.json",
+      "bytes": 24495,
+      "sha256": "4c7231df40833a1bc82db3872bdbc0bfb626135395535dd31732263ba672dbc2"
+    }
+  ],
+  "config_body_MD5_or_root_binding_verified": false,
+  "new_unit_tests_or_CI_for_documentary_change": false,
+  "client_or_replay_execution": false,
+  "full_upgrade_complete": false
+}

@@ -1,0 +1,229 @@
+{
+  "format": "exact41810-version-to-config-key-mapping-v1",
+  "base_commit": "3d55c60d6da5ae3611044a80a28e8bfaca7bd80f",
+  "new_source": {
+    "repository": "mdX7/ngdp_data",
+    "primary_source_of_preserved_snapshot": true,
+    "third_party_preservation_not_Blizzard_attestation": true,
+    "current_commit": "d8bcfafa67e7408c95d33caa3733729aff17c6fe",
+    "current_path": "US/hero/41810/versions",
+    "current_url": "https://github.com/mdX7/ngdp_data/blob/d8bcfafa67e7408c95d33caa3733729aff17c6fe/US/hero/41810/versions",
+    "current_hero_subtree": "10e89660aa46fa3c274533764b64d59d7ef89edf",
+    "current_exact_subtree": "f8852ed6ae3637387bbcc8dd5dc99cd700ad16fd",
+    "original_all_regions_commit": "7508618ff97997fe89c34b5489bbeca6385865f9",
+    "original_commit_author_date": "2016-03-30T22:48:01Z",
+    "original_url": "https://github.com/mdX7/ngdp_data/blob/7508618ff97997fe89c34b5489bbeca6385865f9/US/hero/41810/versions",
+    "original_exact_subtree": "ac27e61789b572daf908c031edab8546f9d56b0f",
+    "body": {
+      "file": "ngdp-US-hero-41810-versions.body",
+      "bytes": 603,
+      "sha256": "997a03d0ef02436ea6d040811201a4cf94e4807d7d019288b605199a1a229fc8"
+    },
+    "git_blob_sha1": "5078a196309cf80e1b7c4520d914c34c4345bc94",
+    "whole_body_length_and_git_blob_verified": true,
+    "current_and_original_body_byte_equal": true,
+    "current_and_original_exact_subtree_git_hash_recomputed": true,
+    "six_region_rows": [
+      {
+        "region": "us",
+        "build_config": "f22332dbb7eb19a46c3c3c2292cdb226",
+        "cdn_config": "056112531a93ecd8acd48168fb45f51d",
+        "build_id": 41810,
+        "version_name": "17.0.41810"
+      },
+      {
+        "region": "eu",
+        "build_config": "f22332dbb7eb19a46c3c3c2292cdb226",
+        "cdn_config": "056112531a93ecd8acd48168fb45f51d",
+        "build_id": 41810,
+        "version_name": "17.0.41810"
+      },
+      {
+        "region": "cn",
+        "build_config": "f22332dbb7eb19a46c3c3c2292cdb226",
+        "cdn_config": "056112531a93ecd8acd48168fb45f51d",
+        "build_id": 41810,
+        "version_name": "17.0.41810"
+      },
+      {
+        "region": "kr",
+        "build_config": "f22332dbb7eb19a46c3c3c2292cdb226",
+        "cdn_config": "056112531a93ecd8acd48168fb45f51d",
+        "build_id": 41810,
+        "version_name": "17.0.41810"
+      },
+      {
+        "region": "tw",
+        "build_config": "f22332dbb7eb19a46c3c3c2292cdb226",
+        "cdn_config": "056112531a93ecd8acd48168fb45f51d",
+        "build_id": 41810,
+        "version_name": "17.0.41810"
+      },
+      {
+        "region": "sg",
+        "build_config": "f22332dbb7eb19a46c3c3c2292cdb226",
+        "cdn_config": "056112531a93ecd8acd48168fb45f51d",
+        "build_id": 41810,
+        "version_name": "17.0.41810"
+      }
+    ],
+    "interpretation": "An exact VersionsName/BuildId mapping identifies distinct BuildConfig and CDNConfig lookup keys. It does not expose either referenced config body."
+  },
+  "whole_versions_body_byte_equal_original_snapshot": true,
+  "fresh_body_git_blob_sha1": "5078a196309cf80e1b7c4520d914c34c4345bc94",
+  "rows": [
+    {
+      "Region": "us",
+      "BuildConfig": "f22332dbb7eb19a46c3c3c2292cdb226",
+      "CDNConfig": "056112531a93ecd8acd48168fb45f51d",
+      "BuildId": "41810",
+      "VersionsName": "17.0.41810"
+    },
+    {
+      "Region": "eu",
+      "BuildConfig": "f22332dbb7eb19a46c3c3c2292cdb226",
+      "CDNConfig": "056112531a93ecd8acd48168fb45f51d",
+      "BuildId": "41810",
+      "VersionsName": "17.0.41810"
+    },
+    {
+      "Region": "cn",
+      "BuildConfig": "f22332dbb7eb19a46c3c3c2292cdb226",
+      "CDNConfig": "056112531a93ecd8acd48168fb45f51d",
+      "BuildId": "41810",
+      "VersionsName": "17.0.41810"
+    },
+    {
+      "Region": "kr",
+      "BuildConfig": "f22332dbb7eb19a46c3c3c2292cdb226",
+      "CDNConfig": "056112531a93ecd8acd48168fb45f51d",
+      "BuildId": "41810",
+      "VersionsName": "17.0.41810"
+    },
+    {
+      "Region": "tw",
+      "BuildConfig": "f22332dbb7eb19a46c3c3c2292cdb226",
+      "CDNConfig": "056112531a93ecd8acd48168fb45f51d",
+      "BuildId": "41810",
+      "VersionsName": "17.0.41810"
+    },
+    {
+      "Region": "sg",
+      "BuildConfig": "f22332dbb7eb19a46c3c3c2292cdb226",
+      "CDNConfig": "056112531a93ecd8acd48168fb45f51d",
+      "BuildId": "41810",
+      "VersionsName": "17.0.41810"
+    }
+  ],
+  "meaning": "Archived version rows identify exact lookup keys, not their config bodies, original-root binding, client PE or effective rules.",
+  "namespace_distinction": {
+    "BuildConfig": "f22332dbb7eb19a46c3c3c2292cdb226",
+    "CDNConfig": "056112531a93ecd8acd48168fb45f51d",
+    "original_replay_root": "83d43a8647bb5ca5caa6f2f09064da55",
+    "original_fixed_file_hash": "c585f3548fb8f9776fa1fba4dfec2b9a",
+    "keys_are_not_interchangeable": true
+  },
+  "literal_VersionsName_preserved": "17.0.41810",
+  "version_tuple_or_client_identity_rewritten": false,
+  "bounded_config_followup": {
+    "fresh_official_cdns_url": "https://eu.patch.battle.net/hero/cdns",
+    "fresh_official_cdns_body": {
+      "file": "official-eu-hero-cdns.body",
+      "bytes": 1269,
+      "sha256": "6d6d9abfe94a5b4475b6e814fbabc7454d7bb35c8104ca152431654d82d980b1"
+    },
+    "current_exact_key_probes": 6,
+    "current_outcomes": {
+      "403": 2,
+      "404": 4
+    },
+    "historical_exact_key_probes": 18,
+    "historical_outcomes": {
+      "404": 6,
+      "request_error": 10,
+      "403": 2
+    },
+    "content_md5_verified_config_bodies": 0,
+    "BuildConfig_root_binding": false,
+    "details": [
+      {
+        "file": "exact41810-official-cdn-config-probe.json",
+        "bytes": 3319,
+        "sha256": "ab870f955a6ecabf83e49ff76ed79f044387caa31ce6c16d58ff9015db9b2b20"
+      },
+      {
+        "file": "exact41810-historical-host-config-probe.json",
+        "bytes": 10794,
+        "sha256": "b287481ace41846520b9ee2bb009dcf99ba707dda79b3a8774f4e09e1475b1f7"
+      }
+    ],
+    "limitation": "404 is specific to the requested URL; 403 and DNS/network failures are transport limitations. No universal deletion or absence claim."
+  },
+  "lookup_key_archive_search": {
+    "global_content_matches": "Six region copies of archived versions only",
+    "exact_filename_matches": 0,
+    "one_file_version_subtrees_confirmed": true,
+    "config_body_acquired": false,
+    "history_or_other_sources_globally_exhausted": false
+  },
+  "IA_software_metadata_followup": {
+    "primary_requests": 16,
+    "response_bytes": 102784,
+    "new_item_file_lists": 6,
+    "exact41810_client_or_config_found": false,
+    "client_payload_downloads": 0,
+    "opaque_or_mislabeled_archive_contents_excluded": false
+  },
+  "next_CASC_route": {
+    "pinned_managed_DLL_bytes": 277504,
+    "pinned_managed_DLL_sha256": "8be4b72776a3a4eca6708cc204860c51592c8f886224dd6ccbdec03b6fa82a11",
+    "preferred": "Already acquired, hash-verified blobs through BLTEStream/EncodingHandler/MNDXRootHandler/InstallHandler over read-only MemoryStreams; no installed storage or live config selection.",
+    "blocked_until": "Actual BuildConfig/CDNConfig bodies and encoded metadata with verified key/size identity.",
+    "avoid": [
+      "LoadOnlineStorageConfig performs direct Ribbit reads before overrides",
+      "Override properties have local filepath/File.Exists behavior; a bare old key can fall back to live metadata",
+      "Default ActiveBuild0 does not prove explicit old build selected",
+      "Online CDN index initialization downloads every configured archive index"
+    ],
+    "old2016_blob_format_compatibility_proven": false,
+    "CASC_storage_or_network_API_invoked_by_route_review": false
+  },
+  "ability351_followup": {
+    "result": "Author-labelled41810 Tyrande metadata and command/prerequisite timing constrain ProtectiveShield/HealingWard hypotheses under valid-cast and metadata/caster assumptions. LightofElune remains descriptively compatible, not numerically identified.",
+    "original_plus_new_commands_examined": 94,
+    "early_TargetUnit_commands_before_level4_choice": [
+      3,
+      9
+    ],
+    "independent_named_numeric351_carrier_found": false,
+    "ability_name_or_current_ID_or_rewrite_admitted": false
+  },
+  "source_receipt_pins": [
+    {
+      "workspace_path": "work/historical-alternative-builddb-20261102/historical-alternative-builddb-route-receipt.json",
+      "bytes": 11838,
+      "sha256": "63c044b49ba1f55e7eb833c784b41532a31636c4f8a886652efd549ab8e4b4a2"
+    },
+    {
+      "workspace_path": "work/historical-client-archive-metadata-20261102/historical-client-archive-route-receipt.json",
+      "bytes": 21774,
+      "sha256": "a9af9471a361b73c5486ce9603b20e325720d6bfdf84897885039ddfaa79dccf"
+    },
+    {
+      "workspace_path": "work/historical41810-casc-route-20261102/route.json",
+      "bytes": 13291,
+      "sha256": "c6158e4009ca3a815b06afb194184fdc67a698376824916031e27524090cd07c"
+    },
+    {
+      "workspace_path": "work/ability351-historical-candidates-20261102/candidate-comparison.json",
+      "bytes": 24495,
+      "sha256": "4c7231df40833a1bc82db3872bdbc0bfb626135395535dd31732263ba672dbc2"
+    }
+  ],
+  "third_party_preservation_not_Blizzard_attestation": true,
+  "BuildConfig_body_and_replay_root_bound": false,
+  "exact41810_PE_or_rules_acquired": false,
+  "client_native_execution_or_emulation_or_ComputerUse": false,
+  "replay_or_sync_or_conversion_changed": false,
+  "full_upgrade_complete": false
+}
