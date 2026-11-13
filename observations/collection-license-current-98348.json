@@ -290287,10 +290287,10 @@
     "expected_build_config": "a64c9b7ebf1c6a811ffefad97865ed80",
     "extractor_archive_sha256": "d5db68a8659456c287df3ed65d64c4786a6501e8f1c638008c81032e90da9f9d",
     "extractor_release": "5.1.0",
-    "github_run_id": "39156204685",
-    "official_manifest_sha256": "f94345ccb04cd3c794ceceb7395efbe6e314eb9a0aec7cb6c3a779b400d74cf4",
-    "repository_commit": "843a15858659acb75bf6b4e9fef45f28931f7faf",
-    "workflow_url": "https://github.com/lisu188/hots-replay-recovery/actions/runs/39156204685"
+    "github_run_id": "43387752047",
+    "official_manifest_sha256": "9d9a857134fb0cc2fc0eb1b53985a654b2475681f4616c595c3fe7649081a490",
+    "repository_commit": "6adad9bf2a495db662e596e53b62d96b8ac4ca9c",
+    "workflow_url": "https://github.com/lisu188/hots-replay-recovery/actions/runs/43387752047"
   },
   "legacy_to_current_mapping_proven": false,
   "limitations": [
@@ -291289,7 +291289,7 @@
       "bytes": 130,
       "kind": "hdp.info",
       "path": "mods/hdp.info",
-      "sha256": "eeb8bc05408d3fd33291abbfd81f708af4a3d2a55911b09da80a486030ca3681"
+      "sha256": "ea2f9e42e474150a093f5d6cf73bff9c238f9c6b9a041714954b68bccca11797"
     },
     {
       "bytes": 8947,
@@ -340497,7 +340497,7 @@
           "2.57.0.98348"
         ],
         "path": "mods/hdp.info",
-        "sha256": "eeb8bc05408d3fd33291abbfd81f708af4a3d2a55911b09da80a486030ca3681",
+        "sha256": "ea2f9e42e474150a093f5d6cf73bff9c238f9c6b9a041714954b68bccca11797",
         "version_field": "Version"
       }
     ],
