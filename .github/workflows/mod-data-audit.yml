@@ -27,11 +27,11 @@ jobs:
     env:
       PYTHONPATH: ${{ github.workspace }}/_upstream:${{ github.workspace }}
     steps:
-      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
         with:
           fetch-depth: 0
           ref: ${{ github.sha }}
-      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
         with:
           repository: Blizzard/heroprotocol
           ref: 9af3ea7150f1a8acb53464c92519a9bbcc7a3594
