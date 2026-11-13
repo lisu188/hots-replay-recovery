@@ -64,7 +64,7 @@
   "latest_client_candidate": 98285,
   "legacy_json_projection": "hots-replay-json-v1",
   "local_head_before_remote_sync": "dc52914",
-  "next": "Test the exact RESUMABLE_R8_PARTIAL replay and record its first error and displayed time. Continue validating a fresh runtime catalog capture when available. No sync check is removed; catalog indices, unit allocation and old simulation rules remain unresolved.",
+  "next": "Test TEN_GREYMANE_client98285_DRAGON_R5_EXPERIMENTAL.StormReplay. Same-map dependency metadata is updated in three members; header and all event streams are unchanged. Record whether mod-data validation passes, map loading starts and the match clock advances. Do not equate parser checks with playback.",
   "observed_target_client": {
     "build": 98285,
     "version": "2.57.0.98285",
@@ -213,7 +213,7 @@
       "filename_confirmed_in_variables": true
     },
     "98285-dragon-r5": {
-      "status": "map-visible-then-replay-desync",
+      "status": "experimental-awaiting-client-test",
       "build": 98285,
       "report": "client-checkpoints/98285-dragon-r5/report.json",
       "name": "TEN_GREYMANE_client98285_DRAGON_R5_EXPERIMENTAL.StormReplay",
@@ -229,24 +229,14 @@
       "metadata_changes": 5,
       "header_bytes_preserved": true,
       "all_event_bytes_preserved": true,
-      "ci_run": 36544856084,
+      "ci_run": 43383395890,
       "ci_validation_passed": true,
       "tests_passed": 166,
       "tests_skipped": 0,
       "same_map_dependencies": 6,
       "private_donor_published": false,
       "client_playback_validated": false,
-      "simulation_compatibility_validated": false,
-      "client_playback_tested": true,
-      "map_visible": true,
-      "displayed_replay_time": "0:04 / 20:33",
-      "playback_observation": "observations/r5-desync-2026-09-29.json",
-      "filename_confirmed_in_variables": true,
-      "ci_conclusion": "success",
-      "onedrive_project_uploaded": true,
-      "onedrive_multiplayer_uploaded": true,
-      "github_full_base64_parts_published": true,
-      "documentation": "docs/DRAGON_DEPENDENCIES_R5_2026-09-29.md"
+      "simulation_compatibility_validated": false
     },
     "98285-unit-tags-r6": {
       "build": 98285,
@@ -519,9 +509,9 @@
       "onedrive_multiplayer_uploaded": true,
       "public_binary_published": false
     },
-    "next_trial": "98285-flags-r7; unproven command-flag hypothesis; synchronization preserved"
+    "next_trial": "98285-dragon-r5"
   },
-  "latest_client_candidate_id": "98285-resumable-r8",
+  "latest_client_candidate_id": "98285-dragon-r5",
   "startup_repair": {
     "code_commit": "b840de2117e743f11f05d520604e927a488fc1b1",
     "publication_commit": "fdbfb3f1973ab20dd533173de25c541b7e061f97",
