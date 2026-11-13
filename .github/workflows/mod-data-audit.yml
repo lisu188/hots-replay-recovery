@@ -80,7 +80,7 @@ jobs:
         run: |
           mkdir -p work/mod-data
           git bundle create work/mod-data/source.bundle --all
-      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
         if: always()
         with:
           name: mod-data-audit-${{ github.run_id }}

@@ -139,7 +139,7 @@ jobs:
           cp runtime_catalog_journal.py test_catalog_journal.py test_catalog_journal_collector.py work/journal-evidence/
           cp scripts/run_catalog_journal.ps1 work/journal-evidence/launcher-template.ps1
           git bundle create work/journal-evidence/source.bundle HEAD
-      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
         if: always()
         with:
           name: catalog-journal-map-${{ github.run_id }}
@@ -188,7 +188,7 @@ jobs:
           result = {'run_id': int(os.environ['GITHUB_RUN_ID']), 'tested_commit':os.environ['GITHUB_SHA'], 'engine':os.environ['HOTS_TEST_POWERSHELL'], 'version':version, 'tests_passed':15, 'tests_failed':0, 'tests_skipped':0, 'fixture_collection_executed':True, 'game_client_started':False, 'live_cloud_provider_tested':False, 'actual_user_export_observed':False}
           Path('work/windows-journal/verification.json').write_text(json.dumps(result, indent=2) + '\n')
           PY
-      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
         if: always()
         with:
           name: catalog-journal-${{ matrix.engine }}-${{ github.run_id }}

@@ -58,7 +58,7 @@ jobs:
           mkdir -p work/recovered-command
           cp command_identity_audit.py test_command_identity_audit.py work/recovered-command/
           git bundle create work/recovered-command/source.bundle HEAD
-      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
         if: always()
         with:
           name: recovered-command-context-${{ github.run_id }}

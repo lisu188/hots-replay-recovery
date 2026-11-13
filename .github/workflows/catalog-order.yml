@@ -85,7 +85,7 @@ jobs:
           result = {'format':'hots-catalog-order-evidence-v3','expected_build':98285,'indices_verified':False,'extractor_sha256':'d5db68a8659456c287df3ed65d64c4786a6501e8f1c638008c81032e90da9f9d','extraction_metadata':metadata,'known_names':{key:sorted(value) for key,value in catalog_names.items()},'requested_unit_and_ability_guid_tables_found':False,'files':records}
           Path('work/order/ordering-evidence.json').write_text(json.dumps(result, indent=2)+'\n')
           PY
-      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
         if: always()
         with:
           name: catalog-order-${{ github.run_id }}
