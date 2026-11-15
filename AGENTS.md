@@ -2144,3 +2144,26 @@ overwrote known desync evidence and selected historical R5 over R8. Preserve the
 actual R5 observation, latest R8 selection and fresh CI receipts. CI publication
 must not erase native/user evidence or choose the active recovery checkpoint.
 The whole original-match upgrade and current-client playback remain unproved.
+
+## Reviewed projection pin and new replay frontier - 2026-11-15
+
+Read docs/COLLECTION_PROJECTION_PIN_2026-11-15.md: the Nov13 projection refresh
+changed exactly6 provenance/hdp.info digest paths, with all XML/declaration and
+planning data unchanged. The planner retains an exact whole-file pin before JSON
+parsing; reviewed current SHA80c64713d4a9183d98e61e9b67f624ba230daa08d303dfb237b971733113eb7c.
+It still reports56 candidates/207 unresolved names and grants no conversion.
+
+Read docs/CURRENT_REPLAY_FRONTIER_2026-11-15.md. NGS season22 now699 keys; all61
+new header/details pairs98348, independently redecoded from retained bytes.
+The literal details-label match Abathur has an Ultimate Evolution tracker, not
+Monstrosity. This filter is not a locale-independent hero selector; translated
+alternatives in the other60 unread trackers remain unexcluded. The previous638
+were not requested again;699 is closed for this literal-name header/details
+screen, not all possible member/identity research. Three distinct Lounge
+Monstrosity rows have actual97771 headers and cannot supply98348 mapping. No full
+fixture, numeric mapping, replay conversion or sync change was produced.
+
+Explorer's independent authorized file-opening route also failed with "failed to
+activate captured window", including one fresh-window activation recovery.
+No replay-opening action, HotS process or changed local session log was observed.
+The pending manual window restoration is a UI prerequisite, not new permission.

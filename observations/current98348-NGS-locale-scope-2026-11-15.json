@@ -1,0 +1,100 @@
+{
+  "format": "NGS61-hero-display-label-locale-selection-scope-audit-v1",
+  "audited_at_utc": "2026-11-15T12:37:44.347230+00:00",
+  "network_requests": 0,
+  "replay_requests": 0,
+  "new_tracker_reads": 0,
+  "game_native_code_CU_or_process_control": false,
+  "original_public_observation": {
+    "path": "work\\current-monstrosity-search-20261115\\public-observation.json",
+    "bytes": 7145,
+    "sha256": "1e5236526fcd3319cc256f44247becbc93f5f9d7f42aa85fc3696ed7ff6a0005"
+  },
+  "preserved_snapshot": {
+    "path": "work\\current-monstrosity-search-20261115\\public-observation-before-locale-audit.snapshot.json",
+    "bytes": 7145,
+    "sha256": "1e5236526fcd3319cc256f44247becbc93f5f9d7f42aa85fc3696ed7ff6a0005"
+  },
+  "detector": {
+    "source": {
+      "path": "work\\current-monstrosity-search-20261115\\screen_new_ngs_only.py",
+      "bytes": 7989,
+      "sha256": "46fd8d5be420ed334ffa43cf68b56669a714e4cf36462c6ff56f89bdaf30e523"
+    },
+    "literal_predicate": "'Abathur' in heroes",
+    "source_line": 110,
+    "hero_source_field": "replay.details.m_playerList[*].m_hero",
+    "uses_canonical_Hero_ID": false,
+    "uses_replay_locale_metadata": false,
+    "locale_independent_selection_proven": false
+  },
+  "cached_coverage": {
+    "objects": 61,
+    "hero_labels": 610,
+    "distinct_labels": 75,
+    "all61_details_SHA_and_complete_EOF_reverified": true,
+    "all610_labels_match_prior_ledger": true,
+    "literal_Abathur_count": 1,
+    "literal_Abatur_count": 0,
+    "Abatur_status": "Exact spelling supplied by the parent from original Polish41810 details; not treated as an authenticated current localization alias.",
+    "non_ASCII_labels": {
+      "Lúcio": 2
+    },
+    "all75_labels_retained_only_in_private_snapshot": true,
+    "all_labels_proven_enUS_against_pinned_current_dataset": false,
+    "current_enUS_dataset_located_in_bounded_local_search": false
+  },
+  "source_bound_findings": [
+    "The source selects trackers using an exact display-name string; it is not a canonical or locale-aware hero selector.",
+    "There is exactly one literal English Abathur label in these610 retained labels. That is the precise supported candidate count.",
+    "No additional candidate with the parent-supplied exact spelling Abatur occurs in these cached labels.",
+    "Anglicized-looking names, ASCII coverage, English map labels and NGS origin do not prove the locale of each hero label.",
+    "This audit did not find a pinned current enUS Hero localization dataset in the bounded local filename/source-route checks; no translated aliases were invented."
+  ],
+  "wording_scope_correction": {
+    "supported": "All61 details were screened for the exact English display label Abathur; the single selected tracker has UltimateEvolution and no observed Monstrosity.",
+    "not_proven": "The61 details contain no additional localized Abathur, or all61 detail hero-label rosters are enUS.",
+    "broader_Monstrosity_absence_claim_permitted": false,
+    "original_report_or_repository_artifact_modified": false
+  },
+  "next_candidate_assessment": {
+    "additional_source_bound_Abathur_candidate_established": false,
+    "additional_tracker_request_justified_by_this_audit": false,
+    "unresolved_risk": "Localized display-name false negatives remain unexcluded without authenticated current locale mappings or another canonical hero identity source.",
+    "network_followup": "Requires parent approval; none performed."
+  },
+  "private_label_snapshot": {
+    "path": "work\\current-monstrosity-search-20261115\\cached-details-locale-audit.private.json",
+    "bytes": 45680,
+    "sha256": "ee7490997f587007beab4796196c0c87fdb6ef6afd64e03d0ba108dbd73175f1"
+  },
+  "source_pins": [
+    {
+      "path": "work\\current-monstrosity-search-20261115\\audit_cached_hero_label_locale.py",
+      "bytes": 7743,
+      "sha256": "545cacc40c68721a952d8b960afbb0a7e3a4352e77934c80e077648a0851d709"
+    },
+    {
+      "path": "work\\current-monstrosity-search-20261115\\new-key-screen.private.json",
+      "bytes": 166436,
+      "sha256": "76a9269b5df73518abb480550221ac3aafbf9fbacd10204a2ec5dbd4137d17b1"
+    },
+    {
+      "path": "work\\native-unit-initial-owner-20261027\\audit_recorded_initial_owners.py",
+      "bytes": 7202,
+      "sha256": "b09aa36d241d8a30d95feb1ad419d6534fff496338052fb4e6a76f98e3a729bb"
+    },
+    {
+      "path": "work\\clientinfo-source-producer-xrefs-20261025\\header-decoder-variants-20261027\\LF\\heroprotocol\\decoders.py",
+      "bytes": 9199,
+      "sha256": "17bfb926af0f7f79e18f6299dbae50fc2821c53b229235d4f9c857c7ef3e96b1"
+    },
+    {
+      "path": "work\\clientinfo-source-producer-xrefs-20261025\\header-decoder-variants-20261027\\LF\\heroprotocol\\versions\\protocol96477.py",
+      "bytes": 26921,
+      "sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84"
+    }
+  ],
+  "retained_detail_member_pins_embedded_in_private_snapshot": 61,
+  "detail_pins_canonical_JSON_sha256": "c2ee05638026dd8acf0bafe5faca52af5edff4e4896e0e132f361c3a1dfe6278"
+}

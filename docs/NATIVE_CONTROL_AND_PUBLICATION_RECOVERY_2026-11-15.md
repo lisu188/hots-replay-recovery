@@ -18,7 +18,9 @@ so it supplies no game frame or visible replay proof. The Play action failed wit
 `failed to activate captured window`; fresh window selection and one activation
 recovery returned the same error. No HotS process or replay launch was observed.
 The user was asked to restore the Battle.net window; no readiness reply has yet
-been observed. Do not substitute another automation route for inaccessible UI.
+been observed. Do not bypass a tool access/permission denial. A routine activation
+failure may be investigated through another authorized UI surface using fresh
+observations; the separate Explorer attempt is recorded in the later frontier.
 
 Exact comparison with the saved November2 local HotS metadata found no changed
 entries:33 local GameLogs,0 local UserLogs,1785 cloud stubs skipped,0 body bytes

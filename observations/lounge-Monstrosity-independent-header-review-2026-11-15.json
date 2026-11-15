@@ -1,0 +1,130 @@
+{
+  "format": "independent-three-retained-prefix-header-review-v1",
+  "at_UTC": "2026-11-15T12:29:03.630270+00:00",
+  "status": "complete-independent-header-review",
+  "authorization_scope": "Exactly3 Range0-4095 reacquisitions to close absent retained-prefix input; noHTML/whole/tracker requests.",
+  "prior_report": {
+    "path": "selected-replay-header-observation.json",
+    "bytes": 7412,
+    "sha256": "ac695c073077ea5921667bdc8cc3ab7b35302210e9bbc08971ae543b4f8c66e6"
+  },
+  "decoder_source_sha256": "17bfb926af0f7f79e18f6299dbae50fc2821c53b229235d4f9c857c7ef3e96b1",
+  "official_protocol96477_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+  "producer_sha256": "7f57a9ecb7fe1f9216c3d3d07abfa44a417b04506d8fe9eb58d1886f58d5fd83",
+  "results": [
+    {
+      "match_id": "27330",
+      "game_record_id": "63164",
+      "requested_at_UTC": "2026-11-15T12:29:03.078902+00:00",
+      "source_replay_url": "https://heroeslounge.gg/storage/app/uploads/public/6a8/368/353/6a836835328d6763715467.stormreplay",
+      "HTTP_status": 206,
+      "Range": "bytes=0-4095",
+      "Content_Range": "bytes 0-4095/705774",
+      "additional_application_bytes": 4096,
+      "original_prefix_SHA256_equal": true,
+      "prefix": {
+        "private_path": "27330.prefix4096.private.bin",
+        "bytes": 4096,
+        "sha256": "f31bb428129c2068b660525179f5d50e2cf5e341e4eef422a9ebd9d27f1f189a"
+      },
+      "header": {
+        "private_path": "27330.header119.private.bin",
+        "offset_in_prefix": 16,
+        "end_exclusive_in_prefix": 135,
+        "bytes": 119,
+        "sha256": "157025d78c38a4e8e0813ff0926f243732322bacc0ea788a1ab6f6b76c635a42"
+      },
+      "MPQ_user_data_size_field": 512,
+      "MPQ_archive_offset_field": 1024,
+      "declared_executable_base_data_builds": [
+        97771,
+        97771,
+        97771
+      ],
+      "declared_version": "2.55.17.97771",
+      "declared_NGDP_root": "da00890abd8a013d6cccfbdc2ec63650",
+      "complete_header_exact_EOF": true,
+      "whole_fixture_requested_or_SHA_verified": false,
+      "tracker_decoded": false
+    },
+    {
+      "match_id": "27443",
+      "game_record_id": "63354",
+      "requested_at_UTC": "2026-11-15T12:29:03.261782+00:00",
+      "source_replay_url": "https://heroeslounge.gg/storage/app/uploads/public/6a9/478/f2e/6a9478f2e040e446807887.stormreplay",
+      "HTTP_status": 206,
+      "Range": "bytes=0-4095",
+      "Content_Range": "bytes 0-4095/938936",
+      "additional_application_bytes": 4096,
+      "original_prefix_SHA256_equal": true,
+      "prefix": {
+        "private_path": "27443.prefix4096.private.bin",
+        "bytes": 4096,
+        "sha256": "7e0731e9d220ed40d01ca816c144f1a4314d57972d0fe48ba030645fe8eb4732"
+      },
+      "header": {
+        "private_path": "27443.header119.private.bin",
+        "offset_in_prefix": 16,
+        "end_exclusive_in_prefix": 135,
+        "bytes": 119,
+        "sha256": "dafb3c39da0ab1a55b39e0173bcbd9e745561765a401fab70bc523835734ad7f"
+      },
+      "MPQ_user_data_size_field": 512,
+      "MPQ_archive_offset_field": 1024,
+      "declared_executable_base_data_builds": [
+        97771,
+        97771,
+        97771
+      ],
+      "declared_version": "2.55.17.97771",
+      "declared_NGDP_root": "da00890abd8a013d6cccfbdc2ec63650",
+      "complete_header_exact_EOF": true,
+      "whole_fixture_requested_or_SHA_verified": false,
+      "tracker_decoded": false
+    },
+    {
+      "match_id": "27374",
+      "game_record_id": "63259",
+      "requested_at_UTC": "2026-11-15T12:29:03.438376+00:00",
+      "source_replay_url": "https://heroeslounge.gg/storage/app/uploads/public/6a8/c9f/787/6a8c9f78740df881421850.stormreplay",
+      "HTTP_status": 206,
+      "Range": "bytes=0-4095",
+      "Content_Range": "bytes 0-4095/1012683",
+      "additional_application_bytes": 4096,
+      "original_prefix_SHA256_equal": true,
+      "prefix": {
+        "private_path": "27374.prefix4096.private.bin",
+        "bytes": 4096,
+        "sha256": "94122ab657697cc5f71aedcb6a4437a7368772c9bcef52ce1aa1a71d8db8e87c"
+      },
+      "header": {
+        "private_path": "27374.header119.private.bin",
+        "offset_in_prefix": 16,
+        "end_exclusive_in_prefix": 135,
+        "bytes": 119,
+        "sha256": "4dfbf7436744df0c0fef7fd65f50f8ed9efd7855fabfc79da7820de362b54f25"
+      },
+      "MPQ_user_data_size_field": 512,
+      "MPQ_archive_offset_field": 1024,
+      "declared_executable_base_data_builds": [
+        97771,
+        97771,
+        97771
+      ],
+      "declared_version": "2.55.17.97771",
+      "declared_NGDP_root": "da00890abd8a013d6cccfbdc2ec63650",
+      "complete_header_exact_EOF": true,
+      "whole_fixture_requested_or_SHA_verified": false,
+      "tracker_decoded": false
+    }
+  ],
+  "additional_replay_application_bytes": 12288,
+  "maximum_additional_bytes": 12288,
+  "redirects_followed": false,
+  "credentials_or_authentication": false,
+  "HTML_reread_or_network_refetched": false,
+  "whole_replay_tracker_or_game_acquired": false,
+  "all_three_target98348": false,
+  "raw_replay_prefix_and_header_bytes_remain_private": true,
+  "repo_UI_native_process_or_existing_evidence_modified": false
+}

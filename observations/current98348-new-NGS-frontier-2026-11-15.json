@@ -1,0 +1,175 @@
+{
+  "format": "public-current98348-new-NGS-Monstrosity-acquisition-20261115-v1",
+  "observed_at_utc": "2026-11-15T12:18:56.628619+00:00",
+  "purpose": "Acquire actual current98348 AbathurEvolvedMonstrosity evidence for conversion; do not reuse donor identities or sync.",
+  "NGS_index": {
+    "url": "https://www.nexusgamingseries.org/api/schedule/fetch/reported/matches",
+    "method": "POST",
+    "payload": {
+      "season": 22
+    },
+    "HTTP_status": 200,
+    "prior_keys": 638,
+    "current_keys": 699,
+    "new_keys": 61,
+    "removed_keys": 0,
+    "old_subset_current": true,
+    "current_bytes": 549287,
+    "current_sha256": "d1bf421d1022dd44ca2cf24195f7367b1ff224960737bcd5cda5c532461c361a",
+    "new_keys_sorted_ASCII_sha256": "def4d285e89c76a070dd8bf99f59b33e5ae40872adb5060099eb4a2868d40354"
+  },
+  "screening": {
+    "selected_new_keys": 61,
+    "screened_new_keys": 61,
+    "remaining_new_keys": 0,
+    "prior638_keys_requested": 0,
+    "header_details_complete_and_redecoded": 61,
+    "decoded_build_base_data_counts": {
+      "98348,98348,98348": 61
+    },
+    "public_map_counts": {
+      "Alterac Pass": 4,
+      "Battlefield of Eternity": 3,
+      "Braxis Holdout": 2,
+      "Cursed Hollow": 6,
+      "Dragon Shire": 8,
+      "Garden of Terror": 5,
+      "Infernal Shrines": 11,
+      "Sky Temple": 2,
+      "Tomb of the Spider Queen": 13,
+      "Towers of Doom": 2,
+      "Volskaya Foundry": 5
+    },
+    "HTTP206_requests": 368,
+    "partial_response_bytes": 180518,
+    "maximum_partial_response_bytes": 1048576,
+    "maximum_header_details_objects": 100,
+    "all_saved_ranges_exact_and_206": true,
+    "stable_strong_ETag_and_If_Match_enforced_by_source": true,
+    "whole_fixture_downloads": 0,
+    "whole_replay_SHA_verified": false,
+    "errors": 0
+  },
+  "Abathur_trackers": [
+    {
+      "archive_key_sha256": "1c031d245f20ea97dcb5aa9e09319726bd1fb681cc3050af88fd28b869adc78f",
+      "map": "Alterac Pass",
+      "declared_object_bytes": 1252903,
+      "header": {
+        "path": "work\\current-monstrosity-search-20261115\\private-members\\1c031d245f20ea97dcb5aa9e09319726bd1fb681cc3050af88fd28b869adc78f.replay.header.private.bin",
+        "bytes": 119,
+        "sha256": "923632c6ed2f4979b4c49deed3a6ac8cc6cec1160200a329a9c3a89fab986680"
+      },
+      "tracker": {
+        "path": "work\\current-monstrosity-search-20261115\\private-members\\1c031d245f20ea97dcb5aa9e09319726bd1fb681cc3050af88fd28b869adc78f.replay.tracker.events.private.bin",
+        "bytes": 514752,
+        "sha256": "420023295d8693b76e1498bd002c50f198cd4b2af085935ad0c08999e8fef466"
+      },
+      "tracker_events": 10347,
+      "complete_tracker_EOF_redecoded": true,
+      "target_type_counts": {
+        "HeroAbathur": 1,
+        "AbathurLocustNormal": 90,
+        "AbathurToxicNest": 79,
+        "AbathurSymbiote": 103
+      },
+      "Abathur_talents": {
+        "AbathurReinforcedCarapace": 1,
+        "AbathurSymbioteAdrenalOverload": 1,
+        "AbathurSymbioteCarapaceNetworkedCarapace": 1,
+        "AbathurHeroicAbilityUltimateEvolution": 1,
+        "AbathurSymbioteSpikeBurstSomaTransference": 1,
+        "AbathurMasteryAdrenalineBoost": 1,
+        "AbathurUltimateEvolutionEvolutionaryLink": 1
+      }
+    }
+  ],
+  "result": {
+    "Abathur_candidates": 1,
+    "tracker_events_redecoded": 10347,
+    "Monstrosity_type_records": 0,
+    "Monstrosity_talent_records": 0,
+    "current_Monstrosity_numeric_UnitLink_recovered": false,
+    "current_Monstrosity_ability_reference_recovered": false,
+    "full_upgrade_complete": false
+  },
+  "retained_private_member_count": 123,
+  "retained_private_member_total_bytes": 596577,
+  "retained_member_manifest": {
+    "path": "work\\current-monstrosity-search-20261115\\retained-member-manifest.json",
+    "bytes": 33838,
+    "sha256": "ab6b94f10706ae2e251944b13ba89d4c3fcd3feb7fcd80d0cd7cc1e2bfff9858"
+  },
+  "source_pins": [
+    {
+      "path": "work\\current-monstrosity-search-20261115\\close_new_ngs_only.py",
+      "bytes": 10955,
+      "sha256": "d44ccfb3feae89aa4204ba65715db330b56198b58d43144848cbb8fe75dc76c8"
+    },
+    {
+      "path": "work\\current-monstrosity-search-20261115\\refresh_new_ngs_only.py",
+      "bytes": 3874,
+      "sha256": "d866a8d67bc27fe6f299e809c2971bb20d791b88b947e3965bc0ea1b1c2e3441"
+    },
+    {
+      "path": "work\\current-monstrosity-search-20261115\\screen_new_ngs_only.py",
+      "bytes": 7989,
+      "sha256": "46fd8d5be420ed334ffa43cf68b56669a714e4cf36462c6ff56f89bdaf30e523"
+    },
+    {
+      "path": "work\\current-monstrosity-search-20261115\\new-index-delta.private.json",
+      "bytes": 6876,
+      "sha256": "8e53375ccdaf9a44951b77c83b8f85ef65edbd1a1531ed10d17b4a71189b858e"
+    },
+    {
+      "path": "work\\current-monstrosity-search-20261115\\new-key-screen.private.json",
+      "bytes": 166436,
+      "sha256": "76a9269b5df73518abb480550221ac3aafbf9fbacd10204a2ec5dbd4137d17b1"
+    },
+    {
+      "path": "work\\current-monstrosity-search-20261102\\ngs-season22.private.json",
+      "bytes": 512653,
+      "sha256": "b685162c329878c8eeee4d73b6e7cd16ab771a4fb39ec13c0400ab74575a3109"
+    },
+    {
+      "path": "work\\current-monstrosity-search-20261115\\ngs-season22-20261115.private.json",
+      "bytes": 549287,
+      "sha256": "d1bf421d1022dd44ca2cf24195f7367b1ff224960737bcd5cda5c532461c361a"
+    },
+    {
+      "path": "work\\ngs_range_details.py",
+      "bytes": 12352,
+      "sha256": "8b7383b2791064531f961ed8d9745d2d8f9b589dcd5e5a7230815b9d19204c12"
+    },
+    {
+      "path": "work\\native-unit-initial-owner-20261027\\audit_recorded_initial_owners.py",
+      "bytes": 7202,
+      "sha256": "b09aa36d241d8a30d95feb1ad419d6534fff496338052fb4e6a76f98e3a729bb"
+    },
+    {
+      "path": "work\\clientinfo-source-producer-xrefs-20261025\\header-decoder-variants-20261027\\LF\\heroprotocol\\decoders.py",
+      "bytes": 9199,
+      "sha256": "17bfb926af0f7f79e18f6299dbae50fc2821c53b229235d4f9c857c7ef3e96b1"
+    },
+    {
+      "path": "work\\clientinfo-source-producer-xrefs-20261025\\header-decoder-variants-20261027\\LF\\heroprotocol\\versions\\protocol96477.py",
+      "bytes": 26921,
+      "sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84"
+    },
+    {
+      "path": "work\\current-monstrosity-search-20261115\\retained-member-manifest.json",
+      "bytes": 33838,
+      "sha256": "ab6b94f10706ae2e251944b13ba89d4c3fcd3feb7fcd80d0cd7cc1e2bfff9858"
+    }
+  ],
+  "limits": [
+    "Finite61-new-object source route only; no claim about all public replays.",
+    "Actual stored header metadata self-declares build98348; dates were not used as build proof.",
+    "Only Abathur details candidates receive tracker reads; other trackers and game events are not read.",
+    "Retained member bytes were redecoded offline, but whole-object hashes and playback remain unverified.",
+    "No donor identities, numeric ability/link values or sync words were copied into TEN_GREYMANE.",
+    "Raw index, details and tracker data remain private under work; this observation emits no player names or chat."
+  ],
+  "game_native_code_CU_or_process_control": false,
+  "repository_or_canonical_outputs_changed": false
+}
