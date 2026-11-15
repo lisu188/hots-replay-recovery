@@ -1,0 +1,41 @@
+{
+  "HTTP206_body_ranges_verified": 528,
+  "acquisition_ledger_sha256": "fb7f7896e321b5301de47d688132cb17a405816c02681fb70ebde7861b97184a",
+  "actual_header_executable_base_data98348_and_complete_EOF": 88,
+  "actual_header_length_distribution": {
+    "118": 1,
+    "119": 87
+  },
+  "actual_header_root": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+  "actual_headers_equal_prior_length_and_SHA": 88,
+  "additional_candidates": 0,
+  "additional_response_bytes": 218826,
+  "all_prior_If_Match_identity_lengths_and_response_digests_verified": true,
+  "at_UTC": "2026-11-15T14:01:11.816399+00:00",
+  "canonical_Abat_objects": 1,
+  "canonical_namespace999_attribute4002_records": 880,
+  "canonical_records_per_object": {
+    "10": 88
+  },
+  "combined_two_delta_cohort_response_bytes": 781215,
+  "complete_attribute_records": 51216,
+  "format": "independent-old88-retained-header-MPQ-attributes-review-v1",
+  "material_findings": [],
+  "new_tracker_or_network_requests_by_reviewer": 0,
+  "objects": 88,
+  "observed_MPQ_legacy_directory_format_versions": {
+    "3": 88
+  },
+  "official_and_manual_record_multisets_equal_objects": 88,
+  "plan_sha256": "23c1cb63aea0fb1529d0302b6bb60ebc8090a2c218f0f218af6687c7ca3acc9a",
+  "prior_UltimateEvolution_tracker_status": "Historical producer report only; no retained raw tracker reverified here.",
+  "producer_sha256": "87e8a34b07201a152fc7d97e7396706666126a17984ce10e542fa3c4ab438e24",
+  "raw_attribute_bytes": 666600,
+  "raw_private_scope_records_paths_player_rows_or_bytes_emitted": false,
+  "retained_file_pins_verified": 792,
+  "same_object_as_prior_literal_selection": true,
+  "scope": "Actual retained headers/attributes/transport independently checked; no new acquisition, native playback, numeric UnitLink/ability or conversion claim.",
+  "separate_MPQ_reader_directory_and_stored_block_reconstructions": 88,
+  "stored_blocks_bounded_stdlib_inflation_equal_raw": 88,
+  "whole_replay_SHA_verified": false
+}

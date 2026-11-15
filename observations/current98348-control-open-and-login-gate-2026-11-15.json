@@ -1,0 +1,92 @@
+{
+  "format": "operator-CU-control-open-and-new-authentication-gate-v1",
+  "recorded_at_utc": "2026-11-15T14:16:53.610683+00:00",
+  "operator": "root Codex agent using node_repl and approved sky Computer Use APIs",
+  "UI_observations_independently_reperformed_by_other_agent": false,
+  "earlier_visible_window_request_superseded_by_fresh_observable_launch": true,
+  "fresh_BattleNet_flow": {
+    "old_BattleNet_and_HotS_processes_absent_before_fresh_launch": true,
+    "installed_BattleNet_app_entry_launched_through_CU": true,
+    "initial_launch_call_reported_no_targetable_window": true,
+    "subsequent_returned_window_had_actual_BattleNet_frame": true,
+    "observed_launcher_region": "Europe",
+    "observed_launcher_version": "2.57.0.98348",
+    "Play_button_clicked_through_CU": true,
+    "Launching_visually_observed": true,
+    "initial_current_process_start_utc": "2026-11-15T14:02:22.9388078Z",
+    "splash_window_replaced_without_relaunch": true,
+    "actual_HotS_main_menu_and_Watch_UI_observed": true
+  },
+  "intervening_other_replay": {
+    "observed_client_Base_build": 98285,
+    "client_start_utc": "2026-11-15T14:04:56.5273730Z",
+    "observed_map": "Dragon Shire",
+    "displayed_total_replay_time": "25:53",
+    "observed_replay_times_in_order": [
+      "1:23",
+      "2:40",
+      "2:47"
+    ],
+    "actual_replay_filename_authenticated": false,
+    "cause_of_unplanned_version_transition_established": false,
+    "admitted_as_pinned98348_control_or_TEN_GREYMANE_playback": false,
+    "Escape_and_Quit_Replay_executed_through_CU": true,
+    "returned_current_process_start_utc": "2026-11-15T14:08:27.6750225Z"
+  },
+  "pinned_control_file_action": {
+    "basename": "heroeslounge-27515-g1-20261005.StormReplay",
+    "bytes": 978482,
+    "sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4",
+    "Explorer_address_bar_focused": true,
+    "initial_set_value_did_not_change_visible_text": true,
+    "subsequent_literal_typing_displayed_exact_control_path": true,
+    "Return_sent_after_exact_path_observed": true,
+    "control_file_open_action_executed_through_CU": true,
+    "engine_replay_argument_or_load_authenticated": false,
+    "current_client_window_observed_after_action": true,
+    "visible_version": "2.57.0.98348",
+    "visible_login_screen": true,
+    "visible_region": "Americas",
+    "current_control_replay_clock_or_map_observed": false
+  },
+  "independent_native_identity": {
+    "published_companion": "observations/control-open-three-native-identities-2026-11-15.json",
+    "bytes": 3410,
+    "sha256": "92e303e4e31d89d14f15241be5b2398bb39ea0e97e8e603d96a914b13ce252cf",
+    "separate_Version_and_DataBuild_sequence": [
+      98348,
+      98285,
+      98348
+    ],
+    "DataBuild_inferred_from_Version": false,
+    "native_log_identity_alone_proves_control_load": false
+  },
+  "bounded_postflight": {
+    "local_GameLogs": 37,
+    "local_UserLogs": 0,
+    "GameLogs_cloud_stubs_skipped": 1776,
+    "UserLogs_cloud_stubs_skipped": 9,
+    "changed_local_metadata_entries": 4,
+    "eligible_files_read": 4,
+    "body_bytes_read": 16089,
+    "expected_control_basename_seen_in_selected_texts": false,
+    "any_replay_suffix_seen_in_selected_texts": false,
+    "receipt": {
+      "bytes": 7762,
+      "sha256": "15c70a32367cf8313b9e1211cf96e8688a0cffb2f1097bbc3358bc3b1a9ca621"
+    }
+  },
+  "current_manual_step": {
+    "earlier_authentication_readiness_reply_remains_historical": true,
+    "new_correct_control_login_request_pending": true,
+    "requested_action": "User selects Europe, logs in manually, leaves game open and reports replay versus main menu",
+    "authentication_or_security_permission_automated": false
+  },
+  "native_fallback_executed": false,
+  "protected_native_runner_and_test_modified_staged_or_executed": false,
+  "raw_screenshots_logs_commandlines_PIDs_account_values_or_private_paths_exported": false,
+  "physical_user_input_or_owner_visual_acceptance_claimed": false,
+  "pinned98348_control_playback_verified": false,
+  "new_J2_export_observed": false,
+  "full_upgrade_complete": false
+}

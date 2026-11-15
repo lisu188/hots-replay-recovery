@@ -2206,3 +2206,45 @@ recovery each failed with "failed to activate captured window". No Enter or
 control-opening action followed. A new manual visible-Battle.net restoration
 request is pending; existing native/CU authorization still applies. Current
 control playback, new J2 export and full TEN_GREYMANE upgrade remain unproved.
+
+## Canonical delta cohorts and bounded Lounge page search — 2026-11-15
+
+Read `docs/OLD88_CANONICAL_AND_LOUNGE_SCOPE_2026-11-15.md` and its five observation
+files as additive evidence. Canonical attributes coverage is **149 distinct
+delta objects (61+88)**. The original 550 objects were not covered by these two
+attribute scans; never describe the 699-key index as 699 canonical replays.
+
+The old 88 one pass verified 88 fresh header/attributes pairs, including 87 × 119-byte
+and 1 × 118-byte headers against their own prior hashes plus actual 98348/root/EOF.
+It consumed 218826 new response bytes in 528 HTTP206 requests; the combined two
+delta-cohort accounting is 781215 bytes. One canonical Abat object matches the
+old literal selection, with zero additional candidates. Its old UltimateEvolution
+tracker outcome remains producer-reported only because raw tracker bytes were
+not retained. No new tracker or Monstrosity ability/link/catalog mapping follows.
+
+The separate Lounge check covers 8 inspected pages: 5 expose 13 distinct replay
+links and 3 with no replay links remain unresolved for future uploads. Its
+literal DOM result does not establish canonical or global absence. Keep this
+finite scope and do not repeat closed queries without a distinct source/member
+question. Any further tracker read needs a justified candidate and explicit
+budget. Preserve the originals/private captures and R8 sync data; keep full
+upgrade false until independent semantic and actual playback evidence warrants
+it. This data package adds no control-replay or TEN_GREYMANE playback outcome;
+carry the latest separate native-control receipt forward.
+
+## Exact current control file opened through CU; new login gate - 2026-11-15
+
+Read the latest native-control report section and the two control-open observations.
+Fresh CU Battle.net Play launched98348 at14:02:22Z and actual main menu/Watch were
+observed. An unidentified25:53 Dragon Shire replay played in98285 (counter1:23 to
+2:40), then CU Quit Replay returned98348 at14:08:27Z. Do not attribute that older
+ordinary playback to R8, TEN_GREYMANE or the pinned current control.
+
+Explorer's focused Address Bar then showed the exact pinned current98348 control
+path and CU Return was executed. The file-opening action is established; engine
+load, control map and clock remain unverified. The visible98348 login screen is
+onAmericas. Independent new Graphics identities are98348/98285/98348, with each
+DataBuild separately measured. Native logs do not identify the control basename.
+The old manual window-restoration request is superseded. A NEW manual Europe+
+login readiness request is pending; do not automate authentication or repeat
+blanket authorization. Fallback runner execution/J2 export/fullupgrade remainfalse.

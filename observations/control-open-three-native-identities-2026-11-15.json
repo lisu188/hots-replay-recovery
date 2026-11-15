@@ -1,0 +1,104 @@
+{
+  "format": "three-fresh-native-Graphics-numeric-fields-independent-v1",
+  "at_utc": "2026-11-15T14:13:49.440630+00:00",
+  "source_pins": [
+    {
+      "source_role": "retained_session_metadata_snapshot",
+      "bytes": 12901,
+      "sha256": "85fbb091492e363e526ab592024a9aa9c7e0bd69a48b0a4ab5f6104540e21dbf"
+    },
+    {
+      "source_role": "existing_strict_safe_local_reader",
+      "bytes": 12775,
+      "sha256": "27dbd3c4b65ab534a6544c5191f64510adc36a9aa2e9d29a55ac9082511a0a21"
+    },
+    {
+      "source_role": "existing_numeric_native_fields_parser",
+      "bytes": 7209,
+      "sha256": "751de88a04878a2a3d5ce5524c8225fc529a11e98bb131f8e914ad1b84b37a9c"
+    }
+  ],
+  "whole_local_log_files_read": 3,
+  "total_log_bytes_read": 9887,
+  "files": [
+    {
+      "source_role": "fresh_Graphics_sequence_1",
+      "bytes": 3175,
+      "sha256": "c15d7f51d763e0fc4017a8e9d701e70c12cd07d62e3dfdcadf459f701bf14586",
+      "mtime_utc": "2026-11-15T14:02:44.083032+00:00",
+      "source_metadata_unchanged_before_after": true,
+      "safe_read_status": "whole_local_file_read",
+      "explicit_native_Version_numeric_components": [
+        2,
+        57,
+        0,
+        98348
+      ],
+      "explicit_native_DataBuild_numeric": 98348,
+      "one_independent_observation_each": true,
+      "DataBuild_inferred_from_Version": false
+    },
+    {
+      "source_role": "fresh_Graphics_sequence_2",
+      "bytes": 3528,
+      "sha256": "4d09fd477b1c9dd736345c06c0aa136d51b51478211108ed17d40708813e9bbf",
+      "mtime_utc": "2026-11-15T14:05:10.966235+00:00",
+      "source_metadata_unchanged_before_after": true,
+      "safe_read_status": "whole_local_file_read",
+      "explicit_native_Version_numeric_components": [
+        2,
+        57,
+        0,
+        98285
+      ],
+      "explicit_native_DataBuild_numeric": 98285,
+      "one_independent_observation_each": true,
+      "DataBuild_inferred_from_Version": false
+    },
+    {
+      "source_role": "fresh_Graphics_sequence_3",
+      "bytes": 3184,
+      "sha256": "965af55f2626c76878647bf1f8cbbebdd9ad6e28caa38c1b06032e771c217a7b",
+      "mtime_utc": "2026-11-15T14:08:49.274864+00:00",
+      "source_metadata_unchanged_before_after": true,
+      "safe_read_status": "whole_local_file_read",
+      "explicit_native_Version_numeric_components": [
+        2,
+        57,
+        0,
+        98348
+      ],
+      "explicit_native_DataBuild_numeric": 98348,
+      "one_independent_observation_each": true,
+      "DataBuild_inferred_from_Version": false
+    }
+  ],
+  "result": {
+    "distinct_explicit_executable_builds": [
+      98285,
+      98348
+    ],
+    "distinct_explicit_DataBuilds": [
+      98285,
+      98348
+    ],
+    "all_sources_match_retained_whole_hashes": true,
+    "all_sources_stable": true
+  },
+  "limits": {
+    "native_client_identity_evidence_only": true,
+    "correct_control_replay_loaded": false,
+    "replay_identity_or_roster_authenticated": false,
+    "UI_replay_open_action_verified_by_this_reader": false,
+    "visible_replay_clock_verified_by_this_reader": false,
+    "J2_export_verified": false,
+    "full_conversion_complete": false,
+    "no_native_or_CU_app_actions_by_this_agent": true
+  },
+  "privacy": {
+    "numeric_fields_and_source_integrity_only": true,
+    "raw_lines_or_commandlines_or_accounts_or_tokens_emitted": false,
+    "process_ids_or_source_paths_emitted": false,
+    "private_log_payload_saved": false
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "format": "distinct-public-Monstrosity-discovery-fixed-budget-v1",
+  "date": "2026-11-15",
+  "purpose": "Find a distinct current98348 Evolve Monstrosity candidate before any tracker acquisition.",
+  "result": "No Abathur candidate exposed by the eight distinct primary match pages inspected; no replay request was justified.",
+  "discovery": {
+    "search_queries_used": 6,
+    "search_queries_cap": 6,
+    "primary_listing_pages_acquired": 3,
+    "primary_match_pages_used": 8,
+    "primary_match_pages_cap": 8,
+    "primary_match_pages_with_replay_links": 5,
+    "unique_game_replay_links_observed_across_match_pages": 13,
+    "Abathur_DOM_rows": 0,
+    "Abathur_literal_count": 0
+  },
+  "pages": [
+    {
+      "match_id": 27626,
+      "source_url": "https://heroeslounge.gg/match/view/27626",
+      "status": 200,
+      "bytes": 224400,
+      "sha256": "29913b947a3220a47cfc1df9a27f16479b2612350b60f4272010c45c958c4e59",
+      "Abathur_DOM_rows": 0,
+      "page_replay_link_count": 3,
+      "Abathur_case_sensitive_literal_count": 0,
+      "Evolve_Monstrosity_case_sensitive_literal_count": 0
+    },
+    {
+      "match_id": 27632,
+      "source_url": "https://heroeslounge.gg/match/view/27632",
+      "status": 200,
+      "bytes": 158585,
+      "sha256": "310a962286146094bd9a60e9bd914a00c647af0dd50e8cfc1616781605b396e7",
+      "Abathur_DOM_rows": 0,
+      "page_replay_link_count": 2,
+      "Abathur_case_sensitive_literal_count": 0,
+      "Evolve_Monstrosity_case_sensitive_literal_count": 0
+    },
+    {
+      "match_id": 27633,
+      "source_url": "https://heroeslounge.gg/match/view/27633",
+      "status": 200,
+      "bytes": 161988,
+      "sha256": "fb408a4cea927a357218a24becdc7ca2dea3c641c3c184ef1dcedc8a09f97360",
+      "Abathur_DOM_rows": 0,
+      "page_replay_link_count": 2,
+      "Abathur_case_sensitive_literal_count": 0,
+      "Evolve_Monstrosity_case_sensitive_literal_count": 0
+    },
+    {
+      "match_id": 27634,
+      "source_url": "https://heroeslounge.gg/match/view/27634",
+      "status": 200,
+      "bytes": 225588,
+      "sha256": "cc6ee4c4ce1900dbf2fbab2d999ca3c7c2224ca24c981dfc4f5fae59e3c0407f",
+      "Abathur_DOM_rows": 0,
+      "page_replay_link_count": 3,
+      "Abathur_case_sensitive_literal_count": 0,
+      "Evolve_Monstrosity_case_sensitive_literal_count": 0
+    },
+    {
+      "match_id": 27636,
+      "source_url": "https://heroeslounge.gg/match/view/27636",
+      "status": 200,
+      "bytes": 225785,
+      "sha256": "77f5282a138dc5bc35b3608ed438483d2a02b029cb130dc1dde0eff17834c302",
+      "Abathur_DOM_rows": 0,
+      "page_replay_link_count": 3,
+      "Abathur_case_sensitive_literal_count": 0,
+      "Evolve_Monstrosity_case_sensitive_literal_count": 0
+    },
+    {
+      "match_id": 27668,
+      "source_url": "https://heroeslounge.gg/match/view/27668",
+      "status": 200,
+      "bytes": 36257,
+      "sha256": "4d628f5344bcafd0cddd471d2d5720b1fa0bb5e96d904e68efd34db553fa3915",
+      "Abathur_DOM_rows": 0,
+      "page_replay_link_count": 0,
+      "Abathur_case_sensitive_literal_count": 0,
+      "Evolve_Monstrosity_case_sensitive_literal_count": 0
+    },
+    {
+      "match_id": 27683,
+      "source_url": "https://heroeslounge.gg/match/view/27683",
+      "status": 200,
+      "bytes": 30659,
+      "sha256": "98f952ab994db15aa34b3410747eb417e66e0ef361fcc827fdcf777a19f97a49",
+      "Abathur_DOM_rows": 0,
+      "page_replay_link_count": 0,
+      "Abathur_case_sensitive_literal_count": 0,
+      "Evolve_Monstrosity_case_sensitive_literal_count": 0
+    },
+    {
+      "match_id": 27714,
+      "source_url": "https://heroeslounge.gg/match/view/27714",
+      "status": 200,
+      "bytes": 35998,
+      "sha256": "92adc0c60e28531ddf10db3167b7369ebc718364dfe1adc34b3568f71bd8f830",
+      "Abathur_DOM_rows": 0,
+      "page_replay_link_count": 0,
+      "Abathur_case_sensitive_literal_count": 0,
+      "Evolve_Monstrosity_case_sensitive_literal_count": 0
+    }
+  ],
+  "retained_source_integrity": {
+    "all8_primary_match_HTML_length_and_SHA256_rechecked": true,
+    "source_payloads_private": true,
+    "saved_prior_positive_DOM_control": {
+      "source_role": "previously closed primary match27330 HTML; local parser selfcheck only, no reacquisition",
+      "bytes": 158434,
+      "sha256": "1a18b21296975c8df468a0e647e8300caa0cf603cd059574797dd94141e85001",
+      "same_row_Abathur_Evolve_Monstrosity_to_unique_game_replay_join_passed": true
+    }
+  },
+  "acquisition": {
+    "replay_requests": 0,
+    "replay_transport_bytes": 0,
+    "replay_transport_cap": 32768,
+    "single_prefix_cap": 4096,
+    "whole_fixtures_requested": 0,
+    "trackers_requested": 0,
+    "header_prefix_or_header_bytes_acquired": 0
+  },
+  "limits": {
+    "page_dates_establish_build": false,
+    "headers_decoded": 0,
+    "current98348_replay_proven": false,
+    "EvolveMonstrosity_talent_proven_for_new_object": false,
+    "actual_Monstrosity_spawn_proven": false,
+    "closed_NGS699_or_canonical61_reopened": false,
+    "closed_named_Lounge_matches_reacquired": false,
+    "absence_claim_scope": "Only these eight newly acquired match pages; no claim about the full public replay population.",
+    "runtime_or_native_execution": false,
+    "conversion_complete": false
+  },
+  "privacy": {
+    "raw_HTML_or_rosters_in_report": false,
+    "player_names_or_account_identifiers_in_report": false,
+    "raw_member_paths_or_payloads_in_report": false
+  }
+}

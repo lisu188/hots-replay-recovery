@@ -1,0 +1,26 @@
+{
+  "actual_data_review": {
+    "bytes": 1941,
+    "sha256": "d22bd2851d7284e2e73a3df06aa4c5c60978ee442722a72293d886596e7e9577",
+    "source_bytes": 14415,
+    "source_sha256": "87e8a34b07201a152fc7d97e7396706666126a17984ce10e542fa3c4ab438e24"
+  },
+  "at_UTC": "2026-11-15T14:04:05.354319+00:00",
+  "format": "old88-offline-closure-projection-independent-check-v1",
+  "historical_tracker_wording_remains_producer_reported_only": true,
+  "network_UI_process_control_or_repo_edits": false,
+  "publication_condition": "Keep4557B source observation unchanged under work; derive aggregate removing canonical_Abat.matches entirely and private path references before any public staging.",
+  "publication_ready_as_is": false,
+  "raw_scope_values_or_per_object_player_rows_copied_into_this_review": false,
+  "raw_source_manifest": {
+    "all792_entries_rehashed_and_equal_actual_cache_inventory": true,
+    "bytes": 216747,
+    "sha256": "35cec3b93420ec5b88f4b6bda810ea4650dd0b5f0213f912b58fe2e5cd8b9693"
+  },
+  "technical_findings": [],
+  "work_observation": {
+    "bytes": 4557,
+    "sha256": "1c9facc1b04c0c6519b70675a4ffc7b9ae17b17917ac61af0a4ef27d8d218f62"
+  },
+  "work_observation_numeric_header_and_budget_fields_match_actual_independent_data": true
+}

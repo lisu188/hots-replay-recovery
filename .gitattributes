@@ -44,3 +44,7 @@ references/heroprotocol-LICENSE.txt -text whitespace=cr-at-eol
 # Preserve executed current5917 value codec and its source-bound tests.
 native_lobby_values.py -text whitespace=cr-at-eol
 test_native_lobby_values.py -text whitespace=cr-at-eol
+
+# Preserve exact frozen Lounge discovery/review receipt bytes and their SHA pins.
+observations/lounge-eight-page-scope-2026-11-15.json -text whitespace=cr-at-eol
+observations/lounge-eight-page-independent-source-review-2026-11-15.json -text whitespace=cr-at-eol

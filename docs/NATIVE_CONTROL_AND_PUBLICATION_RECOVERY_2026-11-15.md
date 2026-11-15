@@ -7,7 +7,8 @@ Older no-game instructions are superseded. Authentication remains manual.
 The later client-start observation below supersedes the earlier activation-only
 snapshot: Battle.net Play did launch the native client, and its same-session
 Graphics log measures Version 2.57.0.98348 and DataBuild 98348 separately. The
-unchanged control replay has still not been opened or shown playing. See the
+later exact control-file opening action is recorded below; its native playback
+remains unproved. See the
 [additive native observation](../observations/native98348-client-start-and-control-boundary-2026-11-15.json).
 
 ## Earlier activation failure, before the successful client start
@@ -135,3 +136,39 @@ advancing clock, J2 export, historical catalog/rule equivalence or full-match
 playback. The next native action remains a freshly observed unchanged98348
 control, followed by same-session catalog diagnostics after a working baseline.
 R8 remains a partial98285 candidate; the full upgrade remains unproved.
+
+## Subsequent observable UI and exact control-file action
+
+After the old Battle.net and HotS processes ended, a fresh installed-app launch
+produced an actual observable Battle.net frame. The Heroes tab showed Europe and
+2.57.0.98348. The real CU Play click displayed Launching and started the current
+client at 14:02:22Z. A disappearing splash handle was replaced by the main window;
+the same live process was retained. Both main menu and Watch UI were observed.
+
+An intervening, unidentified Dragon Shire replay then appeared in Base98285 with
+a total replay time of 25:53. Its displayed replay counter advanced from 1:23 to
+2:40 before the replay menu was opened. Its filename and the cause of that
+version transition were not established. This was not admitted as the pinned
+98348 control or converted TEN_GREYMANE playback. Quit Replay was used through
+CU, returning to a current98348 process started at 14:08:27Z.
+
+Explorer subsequently displayed the exact pinned control's full path in its
+focused Address Bar after literal typing. Return was then sent through CU.
+This is the first established exact-control file-opening action. The current
+client showed a 2.57.0.98348 login screen, with region Americas. The engine's
+receipt of the replay argument and actual control loading remain unverified;
+neither a control map nor its advancing clock was observed.
+
+The new [operator UI observation](../observations/current98348-control-open-and-login-gate-2026-11-15.json)
+keeps those action/effect distinctions. The separate [independent log identity
+receipt](../observations/control-open-three-native-identities-2026-11-15.json)
+measures Version and DataBuild independently in three exact new Graphics files:
+98348, then98285, then98348. It does not authenticate replay identity or the UI
+observations. Selected same-session text files contain no control basename.
+
+The earlier visible-window restoration request is superseded by the observable
+fresh launch. A new manual authentication step was requested for this correct
+control context: choose Europe, log in and leave the game open, then report
+whether the replay or main menu appears. No authentication input was automated.
+The reviewed work-only native fallback was not executed. The next dependent
+action is actual control playback after that manual step; J2 remains afterward.

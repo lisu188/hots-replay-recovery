@@ -1,0 +1,68 @@
+{
+  "format": "root-independent-Lounge8-source-review-v1",
+  "passed": true,
+  "reviewed_source_report_sha256": "d4441923b580dd85e1f5d6f84b13c62a6385ef46ca7ee92bac0ee4f6d09da62d",
+  "pages": [
+    {
+      "match_id": 27626,
+      "hash_verified": true,
+      "replay_links": 3,
+      "Abathur_casefold_occurrences": 0,
+      "Abatur_casefold_occurrences": 0
+    },
+    {
+      "match_id": 27632,
+      "hash_verified": true,
+      "replay_links": 2,
+      "Abathur_casefold_occurrences": 0,
+      "Abatur_casefold_occurrences": 0
+    },
+    {
+      "match_id": 27633,
+      "hash_verified": true,
+      "replay_links": 2,
+      "Abathur_casefold_occurrences": 0,
+      "Abatur_casefold_occurrences": 0
+    },
+    {
+      "match_id": 27634,
+      "hash_verified": true,
+      "replay_links": 3,
+      "Abathur_casefold_occurrences": 0,
+      "Abatur_casefold_occurrences": 0
+    },
+    {
+      "match_id": 27636,
+      "hash_verified": true,
+      "replay_links": 3,
+      "Abathur_casefold_occurrences": 0,
+      "Abatur_casefold_occurrences": 0
+    },
+    {
+      "match_id": 27668,
+      "hash_verified": true,
+      "replay_links": 0,
+      "Abathur_casefold_occurrences": 0,
+      "Abatur_casefold_occurrences": 0
+    },
+    {
+      "match_id": 27683,
+      "hash_verified": true,
+      "replay_links": 0,
+      "Abathur_casefold_occurrences": 0,
+      "Abatur_casefold_occurrences": 0
+    },
+    {
+      "match_id": 27714,
+      "hash_verified": true,
+      "replay_links": 0,
+      "Abathur_casefold_occurrences": 0,
+      "Abatur_casefold_occurrences": 0
+    }
+  ],
+  "global_distinct_replay_links": 13,
+  "pages_with_no_replay_links_unresolved_for_future_uploads": 3,
+  "literal_DOM_discovery_only_not_canonical_hero_coverage": true,
+  "new_network_requests": 0,
+  "raw_rosters_or_URLs_emitted": false
+}

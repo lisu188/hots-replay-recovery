@@ -1,0 +1,100 @@
+{
+  "format": "public-old88-canonical-attributes-header-reverified-aggregate-v1",
+  "at_utc": "2026-11-15T13:58:35.676167+00:00",
+  "finite_scope": {
+    "prior_new_keys_only": 88,
+    "processed_objects": 88,
+    "successful_headers_and_attributes": 88,
+    "unresolved_objects": 0,
+    "old550_or_Nov15_new61_objects_requested": 0
+  },
+  "transport": {
+    "attempted_HTTP_requests": 528,
+    "recorded_HTTP206_responses": 528,
+    "admitted_exact_length_identity_responses": 528,
+    "all_requests_If_Match_including_first": true,
+    "maximum_HTTP_requests": 616,
+    "additional_response_body_bytes": 218826,
+    "additional_response_body_cap": 393216,
+    "old88_prior_plus_new_body_bytes": 448987,
+    "closed61_combined_body_bytes": 332228,
+    "combined_all_scopes_body_bytes": 781215,
+    "maximum_combined_authorized_body_bytes": 955605,
+    "whole_object_SHA_verified": false
+  },
+  "fresh_header_reverification": {
+    "headers_retained": 88,
+    "per_object_prior_SHA_and_length_equal": true,
+    "actual_executable_base_data_98348_and_complete_EOF": true,
+    "extent_distribution": {
+      "119": 87,
+      "118": 1
+    },
+    "old_raw_retention_gap_closed_by_authorized_fresh_header_reads": true
+  },
+  "attributes": {
+    "members_retained_and_redecoded": 88,
+    "stored_members_redecoded_exactly": 88,
+    "MPQ_headers_tables_and_payloads_reparsed_from_retained_ranges": 88,
+    "complete_records": 51216,
+    "official_and_independent_struct_records_equal": true,
+    "namespace999_attrid4002_records": 880,
+    "canonical_records_per_object_distribution": {
+      "10": 88
+    },
+    "scope_to_owner_mapping_inferred": false
+  },
+  "canonical_Abat": {
+    "value_hex": "41626174",
+    "matching_objects": 1,
+    "matching_records": 1,
+    "additional_candidates_over_old_literal_selection": 0,
+    "all_matches_previously_literal_selected": true,
+    "historical_tracker_evidence": "Producer report only; no retained raw tracker independently verified."
+  },
+  "retained_source_manifest": {
+    "pins": 792,
+    "bytes": 216747,
+    "sha256": "35cec3b93420ec5b88f4b6bda810ea4650dd0b5f0213f912b58fe2e5cd8b9693",
+    "role": "retained_private_source_manifest"
+  },
+  "source_pins": [
+    {
+      "role": "offline_closure_source",
+      "bytes": 11150,
+      "sha256": "988d3c3540f3ae1d8110fe4660e990136da66a8a0e3c913d3c6ea2f31272f24f"
+    },
+    {
+      "role": "acquisition_source",
+      "bytes": 18305,
+      "sha256": "658fe04e67a05c4c21c717306c2d6613b1bdc3539abb89d23e1c07d985feeec1"
+    },
+    {
+      "role": "frozen_private_acquisition_plan",
+      "bytes": 77026,
+      "sha256": "23c1cb63aea0fb1529d0302b6bb60ebc8090a2c218f0f218af6687c7ca3acc9a"
+    },
+    {
+      "role": "private_acquisition_ledger",
+      "bytes": 685912,
+      "sha256": "fb7f7896e321b5301de47d688132cb17a405816c02681fb70ebde7861b97184a"
+    }
+  ],
+  "network_requests_by_this_offline_closure": 0,
+  "new_details_game_tracker_or_whole_object_requests": 0,
+  "original_sources_bytes_and_mtimes_preserved": true,
+  "Monstrosity_ability_reference_recovered": false,
+  "full_upgrade_complete": false,
+  "limits": [
+    "This is canonical attributes coverage for exactly the prior88 objects, not a global replay search or proof of Monstrosity absence.",
+    "Only header and attributes members plus necessary MPQ metadata were fetched. No additional tracker acquisition is authorized by this report.",
+    "The single matching object was already selected by the old literal display-name screen; its historical tracker outcome remains producer-reported because raw tracker bytes were not retained.",
+    "Attribute scope is not converted to player/user ownership. Ability/link/catalog/sync conversion and native replay playback remain unproved.",
+    "Raw headers, attributes, stored blocks, ranges, URLs and original rosters remain private under work."
+  ],
+  "source_projection": {
+    "role": "original_work_only_observation",
+    "bytes": 4557,
+    "sha256": "1c9facc1b04c0c6519b70675a4ffc7b9ae17b17917ac61af0a4ef27d8d218f62"
+  }
+}
