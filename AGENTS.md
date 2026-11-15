@@ -2126,3 +2126,21 @@ TACT exact-path history/fork route is bounded closed:8empty history responses,
 243/309forkblobs all existing337-body subsets, no new body/root binding. Avoid
 repeating those checks; require distinct origin/advertised new path or realold
 config. Game/CU prohibition persists. Full upgrade/current playback false.
+
+## Native execution authorization and publication recovery - 2026-11-15
+
+The later explicit user instruction lifts the historical no-game/no-CU restriction:
+Battle.net/HotS Computer Use, the unchanged98348 control, diagnostics and continued
+TEN_GREYMANE conversion are authorized. Authentication remains manual. Earlier
+no-game statements above describe superseded instructions, not a current gate.
+Read docs/NATIVE_CONTROL_AND_PUBLICATION_RECOVERY_2026-11-15.md and its observation.
+The current control attempt obtained Battle.net accessibility text for Europe,
+2.57.0.98348 and Play, then input and recovery failed with "failed to activate
+captured window". No control launch or HotS playback was observed. The requested
+manual window restoration remains pending; do not treat that as a replay failure.
+
+Remote13-commit reruns republished identical checkpoints, but the R5 publisher
+overwrote known desync evidence and selected historical R5 over R8. Preserve the
+actual R5 observation, latest R8 selection and fresh CI receipts. CI publication
+must not erase native/user evidence or choose the active recovery checkpoint.
+The whole original-match upgrade and current-client playback remain unproved.
