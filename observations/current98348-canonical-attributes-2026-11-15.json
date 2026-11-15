@@ -1,0 +1,165 @@
+{
+  "format": "current98348-canonical-hero-attributes-aggregate-v1",
+  "date": "2026-11-15",
+  "original_observation_at_utc": "2026-11-15T12:54:40.471665+00:00",
+  "purpose": "Canonical EntryCode coverage for the same finite61 NGS replay objects, independent of localized replay.details hero display labels.",
+  "canonical_selector": {
+    "member": "replay.attributes.events",
+    "namespace": 999,
+    "attribute_id": 4002,
+    "EntryCode_ASCII": "Abat",
+    "EntryCode_hex": "41626174",
+    "EntryCode_contains_NUL": false
+  },
+  "acquisition": {
+    "existing_objects": 61,
+    "attributes_members": 61,
+    "previous_size_and_strong_ETag_reused": true,
+    "all_HTTP_ranges_If_Match_including_initial": true,
+    "all_HTTP206_and_exact_range_lengths": true,
+    "HTTP_requests": 366,
+    "additional_partial_response_bytes": 151710,
+    "additional_partial_limit_bytes": 524288,
+    "prior_partial_response_bytes": 180518,
+    "combined_partial_response_bytes": 332228,
+    "combined_partial_limit_bytes": 1048576,
+    "only_attributes_member_and_required_MPQ_metadata_read": true,
+    "new_details_tracker_game_or_whole_replay_requests": 0,
+    "whole_object_SHA_verified": false
+  },
+  "decode": {
+    "official_protocol": 96477,
+    "official_function": "decode_replay_attributes_events",
+    "exact_wire_value_rule": "read_aligned_bytes(4)[::-1].strip(b'\\x00')",
+    "retained_members_redecoded": 61,
+    "retained_stored_blocks_redecoded_byte_exact": 61,
+    "fixed_record_extent_header_bytes": 9,
+    "fixed_record_extent_record_bytes": 13,
+    "complete_attribute_records": 35502,
+    "official_BitPackedBuffer_and_independent_struct_records_equal": true,
+    "namespace999_attrid4002_records": 610,
+    "per_object_canonical_record_count_distribution": {
+      "10": 61
+    },
+    "scope_to_user_or_player_owner_mapping_inferred": false
+  },
+  "canonical_Abat": {
+    "value_bytes_hex": "41626174",
+    "matching_objects": 1,
+    "matching_records": 1,
+    "same_object_key_set_as_previous_literal_Abathur_selection": true,
+    "additional_candidate_objects_over_previous_literal_selection": 0
+  },
+  "result": {
+    "current_Monstrosity_ability_reference_recovered": false,
+    "new_trackers_requested": 0,
+    "full_upgrade_complete": false,
+    "root_review_required_before_any_additional_tracker_request": true,
+    "current_Monstrosity_numeric_UnitLink_recovered": false,
+    "known_selected_tracker_heroic": "AbathurHeroicAbilityUltimateEvolution",
+    "new_Monstrosity_spawn_evidence_from_this_member": false
+  },
+  "retained_sources": {
+    "raw_attribute_member_bytes": 462075,
+    "raw_member_stored_and_transport_source_pins": 488,
+    "private_source_manifest": {
+      "bytes": 136643,
+      "sha256": "9823dcf0f632bf9338603c89ea02b9e1fe23fa654e74fc6e3b172fd15bfd2536"
+    }
+  },
+  "source_pins": [
+    {
+      "role": "original_work_observation",
+      "bytes": 6258,
+      "sha256": "a48250503f045e90ea7c5ad60bde5f4ef08dae89358e8bf5fa36d47eec0c5bb7"
+    },
+    {
+      "role": "acquisition_closure_source",
+      "bytes": 12985,
+      "sha256": "25d673ba9e1873e4df9e028e89cb11371d5ce5bd5d6c9a5b6a6e5bbb5e920711"
+    },
+    {
+      "role": "bounded_acquisition_source",
+      "bytes": 10324,
+      "sha256": "ce14a3783f3c9a3258cc2ebc15bcf7feee26a842ee725e5906ebb2611dcf7312"
+    },
+    {
+      "role": "private_acquisition_ledger",
+      "bytes": 458775,
+      "sha256": "c93bb712fb4e2cfab8c7a541c42ccee3c1f750d5be72974f97bdc6f135b18bc8"
+    },
+    {
+      "role": "prior_partial_member_ledger",
+      "bytes": 166436,
+      "sha256": "76a9269b5df73518abb480550221ac3aafbf9fbacd10204a2ec5dbd4137d17b1"
+    },
+    {
+      "role": "private_retained_source_manifest",
+      "bytes": 136643,
+      "sha256": "9823dcf0f632bf9338603c89ea02b9e1fe23fa654e74fc6e3b172fd15bfd2536"
+    },
+    {
+      "role": "range_and_inflation_reader",
+      "bytes": 12352,
+      "sha256": "8b7383b2791064531f961ed8d9745d2d8f9b589dcd5e5a7230815b9d19204c12"
+    },
+    {
+      "role": "MPQ_directory_reader",
+      "bytes": 14237,
+      "sha256": "526d3e3ae1f5254d8bc32e0248b0763ec5998f350846876c38794373983bed78"
+    },
+    {
+      "role": "pinned_decoder_bootstrap",
+      "bytes": 7202,
+      "sha256": "b09aa36d241d8a30d95feb1ad419d6534fff496338052fb4e6a76f98e3a729bb"
+    },
+    {
+      "role": "official_decoder_classes",
+      "bytes": 9199,
+      "sha256": "17bfb926af0f7f79e18f6299dbae50fc2821c53b229235d4f9c857c7ef3e96b1"
+    },
+    {
+      "role": "official_protocol_source",
+      "bytes": 26921,
+      "sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84"
+    },
+    {
+      "role": "prior_display_label_scope_audit",
+      "bytes": 5008,
+      "sha256": "933165494112393e89acd46e6d350ce43e20afe8db665a99686f70f894aaa027"
+    }
+  ],
+  "paired_evidence": [
+    {
+      "repository_path": "observations/current98348-canonical-hero-bridge-2026-11-15.json",
+      "bytes": 7535,
+      "sha256": "91c18927550fe8b0c20a3e279fa468998cfd69c4787d8eca3e4ce4e923324905"
+    },
+    {
+      "repository_path": "observations/current98348-canonical-attributes-peer-review-2026-11-15.json",
+      "bytes": 5373,
+      "sha256": "1e82a7ef0d28de4f8ea01d113c0259fc3774e448015b1e4ae9a85137bdf131fd"
+    }
+  ],
+  "privacy": {
+    "raw_attribute_records_and_scope_values_emitted": false,
+    "per_player_user_owner_rows_loops_or_bit_spans_emitted": false,
+    "raw_member_stored_block_or_transport_paths_emitted": false,
+    "raw_member_or_transport_bytes_emitted": false,
+    "source_pins_are_lengths_and_digests_only": true
+  },
+  "limits": [
+    "Canonical code meaning is supplied by the separate source-bound native entry-code/attributes bridge; this acquisition does not infer meanings for other codes.",
+    "No attribute scope plus1 or other owner/user mapping rule is assumed.",
+    "This adds a canonical-member selector for the same finite61 objects; it does not prove the locale of replay.details or change the original literal-screen report.",
+    "No new tracker or game member was read; no ability/link/sync value is reconstructed by this receipt.",
+    "Raw attributes, stored blocks, transport bodies and source URLs remain private under work.",
+    "The native EntryCode/owner bridge is one positive and one negative existing98348 control; it supplies no universal cross-build or per-player scope formula.",
+    "This aggregate omits the work observation's per-object raw scope record and every raw member/transport path. Exact private joins remain in the pinned work receipts.",
+    "The unchanged independent review addresses the source work observation and actual retained bytes; this file is its publication aggregate, not a new acquisition or native test."
+  ],
+  "game_native_code_CU_or_process_control": false,
+  "repository_or_replay_edits_during_acquisition": false,
+  "full_upgrade_complete": false,
+  "native_playback_proven": false
+}

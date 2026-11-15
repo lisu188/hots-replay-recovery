@@ -2167,3 +2167,25 @@ Explorer's independent authorized file-opening route also failed with "failed to
 activate captured window", including one fresh-window activation recovery.
 No replay-opening action, HotS process or changed local session log was observed.
 The pending manual window restoration is a UI prerequisite, not new permission.
+
+## Current98348 canonical hero attributes - 2026-11-15
+
+Read docs/CURRENT98348_CANONICAL_HERO_ATTRIBUTES_2026-11-15.md and its three
+observations. The same 61 NGS objects have 61 complete attributes members and
+35,502 records. Namespace 999 / attribute 4002 has 610 records, 10 per object.
+Canonical Abat occurs once on the already known UltimateEvolution object; no
+additional candidate, tracker or Monstrosity link was recovered. All 366 new
+HTTP 206 ranges supplied If-Match: 151,710 additional bytes, 332,228 combined
+partial bytes. The 488 source pins and raw/stored/transport relationships were
+independently checked. Whole-fixture SHA and playback remain unverified.
+
+Native Entry 227.m_code -> USER 228 -> FOURCC 188 / EntryCode is separate from
+LocalizedString 198. One positive and one negative 98348 control, with an
+explicit slot.userId -> setup.playerId -> initial HeroAbathur control/upkeep
+join, support a bounded recorded association. No scope + 1 or general owner
+formula, numeric UnitLink/ability mapping, or native caster identity follows.
+Missing, malformed and unsupported carriers remain unresolved. Keep raw scopes,
+per-player rows, member paths, transport and bit spans private; use the public
+aggregate counts. Historical rules, current Monstrosity catalog/ability data,
+missing field values and native playback are still needed. Native control/J2
+work is separate; the full TEN_GREYMANE upgrade remains unproved.

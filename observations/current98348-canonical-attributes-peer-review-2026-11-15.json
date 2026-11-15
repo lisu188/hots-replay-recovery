@@ -1,0 +1,80 @@
+{
+  "format": "independent-canonical-attributes-and-native-EntryCode-bridge-review-v1",
+  "date": "2026-11-15",
+  "reviewer": "/root/abathur_references",
+  "technical_review_passed": true,
+  "author_closure_scripts_executed_as_review": false,
+  "review_method": "Fresh read/hash of retained sources; independently reconstructed MPQ directory and stored attributes from retained HTTP response bodies; bounded bzip2 decode; pinned official attributes function versus separate struct.iter_unpack records. Separately re-read both whole controls and independently decoded header/initData/attributes/tracker plus selected native battlelobby fields and explicit ownership joins.",
+  "attributes": {
+    "objects": 61,
+    "retained_source_pins_verified": 488,
+    "MPQ_directory_and_stored_block_reconstructions": 61,
+    "bounded_bzip2_decoded_members_equal_retained_raw": 61,
+    "raw_attribute_bytes": 462075,
+    "official_function_and_separate_struct_record_multisets_equal": true,
+    "complete_attribute_records": 35502,
+    "canonical_namespace": 999,
+    "canonical_attribute_id": 4002,
+    "canonical_records": 610,
+    "canonical_records_per_object": 10,
+    "canonical_Abat_matching_objects": 1,
+    "canonical_Abat_matching_records": 1,
+    "same_object_as_existing_UltimateEvolution_tracker": true,
+    "additional_candidate_objects": 0,
+    "new_tracker_acquisitions": 0,
+    "HTTP206_ranges": 366,
+    "If_Match_recorded_for_all_ranges_including_initial": true,
+    "recorded_response_ETag_and_object_size_equal_prior": true,
+    "retained_transport_lengths_SHA_and_exact_ranges_verified": true,
+    "additional_partial_bytes": 151710,
+    "combined_partial_bytes": 332228,
+    "whole_object_SHA_verified": false
+  },
+  "native_bridge": {
+    "schema_EntryCode_FOURCC_type": 188,
+    "schema_LocalizedString_type": 198,
+    "Entry_struct_type": 227,
+    "Entry_field_names": ["m_code", "m_visual", "m_requirements"],
+    "Entry_field_types": [228, 229, 230],
+    "EntryCode_distinct_from_localized_visual_chain": true,
+    "definition_namespace999_id4002_contains_exact_Abat_EntryCode": true,
+    "whole_control_hashes_and_members_match_receipts": true,
+    "both_whole_controls_unchanged_after_read": true,
+    "header_initData_tracker_complete_EOF_both_controls": true,
+    "negative_control": {
+      "canonical_Abat_records": 0,
+      "selected_initData_hero_slots": 0,
+      "initial_HeroAbathur_records": 0,
+      "explicit_setup_owner_joins": 0
+    },
+    "positive_control": {
+      "canonical_Abat_records": 1,
+      "selected_initData_full_hero_identifier_slots": 1,
+      "initial_HeroAbathur_records": 1,
+      "explicit_slot_userId_to_setup_playerId_to_initial_control_upkeep_joins": 1,
+      "authenticated_separate_EntryCode_definition_entries": 1
+    },
+    "scope_plus_one_or_general_scope_owner_formula_used": false,
+    "raw_per_player_identifiers_loops_paths_or_bit_spans_emitted": false,
+    "sample_limit": "One existing positive and one negative98348 control; this does not establish a universal cross-build or cross-context ownership/code mapping."
+  },
+  "publication_scope_note": "The work-only canonical-attributes-public-observation.json includes a selected per-object raw scope record under canonical_Abat.matches[].matches[].scope. Preserve that row privately; a repository/public handoff projection should retain counts and source digests rather than copying the per-player scope row. The native bridge public.ready receipt already exposes aggregate join counts and keeps exact owner rows private.",
+  "source_pins": [
+    {"path": "work/current-monstrosity-search-20261115/canonical-attributes-public-observation.json", "bytes": 6258, "sha256": "a48250503f045e90ea7c5ad60bde5f4ef08dae89358e8bf5fa36d47eec0c5bb7"},
+    {"path": "work/current-monstrosity-search-20261115/canonical-attributes-retained-source-manifest.private.json", "bytes": 136643, "sha256": "9823dcf0f632bf9338603c89ea02b9e1fe23fa654e74fc6e3b172fd15bfd2536"},
+    {"path": "work/canonical-hero-attribute-bridge-20261115/canonical-hero-attribute-bridge.public.ready.json", "bytes": 7535, "sha256": "91c18927550fe8b0c20a3e279fa468998cfd69c4787d8eca3e4ce4e923324905"},
+    {"path": "work/canonical-hero-attribute-bridge-20261115/canonical-hero-attribute-bridge.private.ready.json", "bytes": 8393, "sha256": "61abd1fbecce18fb89452c87230c62a0b43ce55b4fab74337bf36cacdb983b58"},
+    {"path": "repo/native_startgame_schema_98348.json", "bytes": 125279, "sha256": "0fd61c8ef3b0aeef647912fd9e35308e70c39da9e2980004d06b1b92e0c96640"},
+    {"path": "repo/native_startgame.py", "bytes": 12906, "sha256": "4a77f974d439f8f44eaac9afd8d4de99a8b6e12e96464f82fa7daf0e6aefd543"}
+  ],
+  "limits": [
+    "Raw per-player rows, attributes, stored blocks and transport bodies remain private.",
+    "The attributes data provide a canonical member selector for the same finite61 objects, not a current numeric UnitLink or ability assignment.",
+    "The recorded ownership joins do not prove native caster identity, object allocation, accepted casts, historical rules or actual client playback.",
+    "Malformed or unsupported attribute carriers remain unresolved, not negative."
+  ],
+  "new_network_UI_process_native_execution_or_repo_edits": false,
+  "replay_schema_default_mapping_or_sync_writes": false,
+  "full_upgrade_complete": false,
+  "native_playback_proven_by_this_review": false
+}

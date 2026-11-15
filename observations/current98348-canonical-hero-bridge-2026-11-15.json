@@ -1,0 +1,200 @@
+{
+  "format": "current98348-canonical-hero-attribute-bridge-public-v1",
+  "recorded_at_utc": "2026-11-15T12:59:14.024683+00:00",
+  "source_pins": [
+    {
+      "path": "repo/mpq_reader.py",
+      "bytes": 6231,
+      "sha256": "9e940dae67c5d457483c814e6169e6e5d0a1cc5a1dcfdbd76dcf9026f1fa0033"
+    },
+    {
+      "path": "work\\clientinfo-source-producer-xrefs-20261025\\header-decoder-variants-20261027\\LF\\heroprotocol\\decoders.py",
+      "bytes": 9199,
+      "sha256": "17bfb926af0f7f79e18f6299dbae50fc2821c53b229235d4f9c857c7ef3e96b1"
+    },
+    {
+      "path": "work\\clientinfo-source-producer-xrefs-20261025\\header-decoder-variants-20261027\\LF\\heroprotocol\\versions\\protocol96477.py",
+      "bytes": 26921,
+      "sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84"
+    },
+    {
+      "path": "repo/native_startgame.py",
+      "bytes": 12906,
+      "sha256": "4a77f974d439f8f44eaac9afd8d4de99a8b6e12e96464f82fa7daf0e6aefd543"
+    },
+    {
+      "path": "repo/native_startgame_schema_98348.json",
+      "bytes": 125279,
+      "sha256": "0fd61c8ef3b0aeef647912fd9e35308e70c39da9e2980004d06b1b92e0c96640"
+    },
+    {
+      "path": "work\\reference-donors\\ngs-20261016-protectors-dragon.StormReplay",
+      "bytes": 1113273,
+      "sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c"
+    },
+    {
+      "path": "work\\replay-search-20261018\\crossmap-01-Sky_Temple.StormReplay",
+      "bytes": 1357323,
+      "sha256": "afcf49a656068f343173fc79afff2d2ebf15066f531cb192382cdba9d1ea3272"
+    }
+  ],
+  "producer": {
+    "path": "work\\canonical-hero-attribute-bridge-20261115\\verify_canonical_attribute_bridge_ready.py",
+    "bytes": 17444,
+    "sha256": "da0e9067ebabcc57e46d169e0af1a7802e4d0d85abee73ee93cf7147355daa6a"
+  },
+  "canonical_selector": {
+    "member": "replay.attributes.events",
+    "namespace": 999,
+    "attribute_id": 4002,
+    "EntryCode_hex": "41626174",
+    "EntryCode_ASCII": "Abat",
+    "display_label_used_for_selection": false
+  },
+  "decoder_contract": {
+    "protocol": "Blizzard protocol96477 pinned source",
+    "function": "decode_replay_attributes_events",
+    "record": "namespace32, attrid32, scope8, aligned value4bytes",
+    "value_transform": "raw4[::-1].strip(b'\\x00')",
+    "Abat_contains_NUL": false
+  },
+  "schema_bridge": {
+    "definition_type": 283,
+    "table_chain": [
+      285,
+      232,
+      233,
+      227
+    ],
+    "entry_code_chain": [
+      228,
+      188
+    ],
+    "entry_code_kind": "FOURCC",
+    "entry_code_name": "Battlenet::Attribute::EntryCode",
+    "separate_visual_chain": [
+      229,
+      212,
+      213,
+      216,
+      198
+    ],
+    "localized_string_name": "Battlenet::Attribute::LocalizedString"
+  },
+  "limits": [
+    "One current98348 positive and one negative existing whole fixture; no universal cross-build meaning claim.",
+    "Explicit slot.userId -> SPlayerSetupEvent.playerId -> initial unit control/upkeep join; no scope+1 rule.",
+    "Observed attribute scope/player equality is a sample fact, not an inferred general ownership formula.",
+    "No native caster identity, UnitLink/ability number, object allocation or catalog mapping is derived.",
+    "No localized display aliases, hero-name prefix guesses or XML-order mappings are used.",
+    "Malformed, missing or unsupported attribute carriers must remain unresolved, not negative.",
+    "The61 NGS objects require their own canonical member coverage; this receipt does not acquire or classify them.",
+    "Not evidence of playback, deterministic simulation compatibility or a completed TEN_GREYMANE upgrade."
+  ],
+  "network_requests": 0,
+  "new_tracker_acquisitions": 0,
+  "game_or_native_target_or_CU": false,
+  "replay_or_sync_writes": 0,
+  "full_upgrade_complete": false,
+  "passed": true,
+  "cases": [
+    {
+      "label": "negative-dragon-01",
+      "whole_replay": {
+        "path": "work/reference-donors/ngs-20261016-protectors-dragon.StormReplay",
+        "bytes": 1113273,
+        "sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c"
+      },
+      "build_base_data": 98348,
+      "member_pins": {
+        "replay.initData": {
+          "bytes": 134334,
+          "sha256": "b6706c409debd0fa3e536b24f882ebcc067b00b69715e70faf780489563ce3d4",
+          "stored_bytes": 47984,
+          "flags_hex": "0x81000200"
+        },
+        "replay.attributes.events": {
+          "bytes": 7575,
+          "sha256": "63f6cac6833af1991fc0f1ed998235f2df271b02d0e4f253ce93dddf6710722c",
+          "stored_bytes": 1588,
+          "flags_hex": "0x81000200"
+        },
+        "replay.tracker.events": {
+          "bytes": 504295,
+          "sha256": "aac1ee0b170eef3f4178c7269778f762b61d5ddff3a3d03af3184aa610640b8d",
+          "stored_bytes": 54657,
+          "flags_hex": "0x81000200"
+        }
+      },
+      "header": {
+        "bytes": 119,
+        "sha256": "fc1c4cffa5e1c0a4affba340a8551008ee2f295bb5b8b6ce92f406d106b9e6dd",
+        "complete_EOF": true
+      },
+      "initData_complete_EOF": true,
+      "attributes_complete_record_count": 582,
+      "tracker_events_complete_EOF": 7155,
+      "whole_replay_unchanged": true,
+      "canonical_attribute_matches": 0,
+      "selected_initData_hero_slots": 0,
+      "initial_HeroAbathur_records": 0,
+      "successful_explicit_owner_joins": 0,
+      "authenticated_separate_EntryCode_definition_entries": 0
+    },
+    {
+      "label": "positive-crossmap-01",
+      "whole_replay": {
+        "path": "work/replay-search-20261018/crossmap-01-Sky_Temple.StormReplay",
+        "bytes": 1357323,
+        "sha256": "afcf49a656068f343173fc79afff2d2ebf15066f531cb192382cdba9d1ea3272"
+      },
+      "build_base_data": 98348,
+      "member_pins": {
+        "replay.initData": {
+          "bytes": 130004,
+          "sha256": "de2bf44d8a432205e8c5a3854991e58eff01d441713874948609aa9f66a131d1",
+          "stored_bytes": 50417,
+          "flags_hex": "0x81000200"
+        },
+        "replay.attributes.events": {
+          "bytes": 7575,
+          "sha256": "56a93a32161e979d4719e40b02068d86d0cb32bf44182cbea599ecdbf833a6c2",
+          "stored_bytes": 1565,
+          "flags_hex": "0x81000200"
+        },
+        "replay.tracker.events": {
+          "bytes": 624445,
+          "sha256": "986e56e423fc8b4ea753b402d2d326d9f93dfc9d342f800b63e591c60dbf39b0",
+          "stored_bytes": 78086,
+          "flags_hex": "0x81000200"
+        },
+        "replay.server.battlelobby": {
+          "bytes": 283836,
+          "sha256": "ac55028f802c1dc318629af7267aad7c45f0cb8bed9b9420d22c844b8823df87",
+          "stored_bytes": 68096,
+          "flags_hex": "0x81000200"
+        }
+      },
+      "header": {
+        "bytes": 119,
+        "sha256": "f6f13e797c716eae6f02d618e1ea8165814e46fa9c0cf3bea121a84edd852e6c",
+        "complete_EOF": true
+      },
+      "initData_complete_EOF": true,
+      "attributes_complete_record_count": 582,
+      "tracker_events_complete_EOF": 11580,
+      "whole_replay_unchanged": true,
+      "canonical_attribute_matches": 1,
+      "selected_initData_hero_slots": 1,
+      "initial_HeroAbathur_records": 1,
+      "successful_explicit_owner_joins": 1,
+      "authenticated_separate_EntryCode_definition_entries": 1
+    }
+  ],
+  "private_join_receipt": {
+    "path": "work\\canonical-hero-attribute-bridge-20261115\\canonical-hero-attribute-bridge.private.ready.json",
+    "bytes": 8393,
+    "sha256": "61abd1fbecce18fb89452c87230c62a0b43ce55b4fab74337bf36cacdb983b58"
+  },
+  "no_account_tags_names_per_player_rows_loops_or_bit_spans_emitted": true
+}
