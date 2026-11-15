@@ -1,0 +1,69 @@
+{
+  "format": "unchanged98348-Watch-control-staging-independent-review-v1",
+  "at_utc": "2026-11-15T14:58:01.784821+00:00",
+  "passed": true,
+  "material_findings": [],
+  "source_pins": [
+    {
+      "role": "root_public_staging_receipt",
+      "bytes": 1538,
+      "sha256": "ef6f21d1f05f1ad0a1600318ea211ce696f8c2743c9a9d243724447bda7da3ea"
+    },
+    {
+      "role": "root_private_staging_receipt",
+      "bytes": 1504,
+      "sha256": "b17cdcd7f8305f9209e1fc955dc3aa6651fb3973facbef09cb05e8627c385526"
+    },
+    {
+      "role": "prior_private_R8_directory_metadata",
+      "bytes": 2786,
+      "sha256": "8b5b95f6afcd349808bf64a85970e18a1b53954452fb40a62ef709ded6986739"
+    },
+    {
+      "role": "root_staging_script_reviewed_not_executed",
+      "bytes": 5259,
+      "sha256": "9eaf314e1bdaf83914fdac471e61b4f3d3b62c5983176ff67309ea3a26906ae3"
+    },
+    {
+      "role": "pinned_safe_local_file_reader",
+      "bytes": 12775,
+      "sha256": "27dbd3c4b65ab534a6544c5191f64510adc36a9aa2e9d29a55ac9082511a0a21"
+    }
+  ],
+  "actual_independent_checks": {
+    "source_bytes": 978482,
+    "source_sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4",
+    "destination_bytes": 978482,
+    "destination_sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4",
+    "whole_source_destination_byte_equal": true,
+    "regular_local_non_recall_non_reparse_files_admitted": true,
+    "safe_handle_identity_and_path_metadata_stable": true,
+    "new_folder_current_file_count": 1,
+    "unique_R8_parent_role_sha256": "f2e98b8b3b084cf18ccf2430019c610f1155cb7cfaae0f99f468e8e6e24e7336",
+    "R8_metadata_equal_to_pre_staging_inventory": true,
+    "R8_body_read_by_this_review": false,
+    "source_pre_post_byte_and_mtime_guards_reviewed_in_stage_code": true
+  },
+  "preservation_limits": {
+    "source_whole_pin_independently_rechecked_now": true,
+    "source_mtime_stable_across_this_independent_read": true,
+    "R8_byte_preservation_independently_rehashed": false,
+    "R8_preservation_evidence": "Unchanged size, mtime, attributes and reparse tag against pre-staging metadata; staging source has no R8 body read or write.",
+    "no_copy_mkdir_delete_or_source_edit_repeated_by_reviewer": true
+  },
+  "privacy_and_claims": {
+    "private_paths_ids_accounts_raw_logs_or_payloads_emitted": false,
+    "operator_Watch_observation_not_independently_repeated": true,
+    "active_profile_identity_proven": false,
+    "new_folder_visible_in_UI_proven": false,
+    "engine_control_load_or_playback_proven": false,
+    "cloud_sync_confirmed": false,
+    "J2_export_or_full_conversion_proven": false
+  },
+  "review_actions": {
+    "source_and_destination_control_body_bytes_read": 1956964,
+    "R8_body_bytes_read": 0,
+    "cloud_file_body_reads": 0,
+    "UI_game_process_auth_network_or_repo_actions": false
+  }
+}

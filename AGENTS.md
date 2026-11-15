@@ -2248,3 +2248,19 @@ DataBuild separately measured. Native logs do not identify the control basename.
 The old manual window-restoration request is superseded. A NEW manual Europe+
 login readiness request is pending; do not automate authentication or repeat
 blanket authorization. Fallback runner execution/J2 export/fullupgrade remainfalse.
+
+## Unchanged current control staged for Watch - 2026-11-15
+
+Read docs/CURRENT98348_WATCH_CONTROL_STAGING_2026-11-15.md and its three receipts.
+An exclusive Codex_Control98348_20261115 replay subfolder now contains exactly
+one unchanged control978482B/SHAa3c97e9a...19a01c4. Independent whole-source and
+destination comparison passed; R8 metadata is unchanged, its body was not reread.
+The unique R8 parent plus the prior Watch observation selects the directory,
+not an authenticated active profile. No folder visibility or playback is claimed.
+
+The latest delivered main-menu readiness reply was followed by a fresh operator
+snapshot showing98348 login/Americas. A new manual Europe/login/leave-open step
+is pending. Do not automate authentication, relaunch a live client merely for
+waiting, or treat accepted question delivery as readiness. After an actual menu,
+use Watch's dedicated control folder if needed; verify exact control/map/clock
+and runtime build before J2. No new capture or full replay upgrade is established.

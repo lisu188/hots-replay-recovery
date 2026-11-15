@@ -1,0 +1,22 @@
+{
+  "format": "current98348-readiness-reobservation-v1",
+  "recorded_at_utc": "2026-11-15T14:57:49.874430+00:00",
+  "evidence_kind": "root operator observation from one fresh Computer Use window snapshot this turn",
+  "latest_delivered_user_readiness_message": "Gotowe - jestem w menu glownym HotS",
+  "observed_screen": "login",
+  "visible_version": "2.57.0.98348",
+  "visible_region": "Americas",
+  "fresh_returned_game_window_selected_uniquely": true,
+  "game_input_or_authentication_automated_in_this_turn": false,
+  "main_menu_or_current_control_playback_verified": false,
+  "latest_readiness_message_is_runtime_playback_evidence": false,
+  "new_manual_step_requested": "Select Europe, log in manually, leave game open, report main menu versus replay",
+  "manual_step_completed_by_agent": false,
+  "unchanged_control_folder_basename": "Codex_Control98348_20261115",
+  "unchanged_control_basename": "heroeslounge-27515-g1-20261005.StormReplay",
+  "new_control_folder_observed_in_Game_UI": false,
+  "native_fallback_executed": false,
+  "new_J2_export_observed": false,
+  "private_screenshots_logs_account_paths_or_credentials_published": false,
+  "full_upgrade_complete": false
+}

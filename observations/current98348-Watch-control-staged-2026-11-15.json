@@ -1,0 +1,33 @@
+{
+  "format": "unchanged98348-control-staged-for-Watch-v1",
+  "at_utc": "2026-11-15T14:49:18.742659+00:00",
+  "source_control_basename": "heroeslounge-27515-g1-20261005.StormReplay",
+  "source_bytes": 978482,
+  "source_sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4",
+  "destination_bytes": 978482,
+  "destination_sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4",
+  "source_destination_byte_equal": true,
+  "source_original_bytes_and_mtime_unchanged": true,
+  "destination_folder_basename": "Codex_Control98348_20261115",
+  "new_folder_created_exclusively": true,
+  "only_one_control_file_in_new_folder": true,
+  "existing_files_replaced_or_deleted": false,
+  "directory_binding": "Same replay parent as the unique current R8 filename observed in Watch",
+  "parent_role_sha256": "f2e98b8b3b084cf18ccf2430019c610f1155cb7cfaae0f99f468e8e6e24e7336",
+  "authenticated_current_profile_identity_proven": false,
+  "R8_source_body_read_or_changed": false,
+  "engine_control_load_or_playback_verified": false,
+  "new_control_folder_observed_in_Game_UI": false,
+  "app_UI_or_authentication_actions": false,
+  "metadata_source": {
+    "bytes": 2786,
+    "sha256": "8b5b95f6afcd349808bf64a85970e18a1b53954452fb40a62ef709ded6986739"
+  },
+  "private_receipt": {
+    "bytes": 1504,
+    "sha256": "b17cdcd7f8305f9209e1fc955dc3aa6651fb3973facbef09cb05e8627c385526"
+  },
+  "private_account_paths_or_source_payloads_exported": false,
+  "cloud_sync_confirmed": false,
+  "full_upgrade_complete": false
+}
