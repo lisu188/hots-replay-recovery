@@ -1,0 +1,102 @@
+{
+  "actual_authenticated_build_verified": false,
+  "additional_independent_checks": {
+    "all_frozen_input_bytes_and_mtimes_preserved": true,
+    "all_missing_runtime_fields_plus_nonruntime_failures_produce_ten_blockers": true,
+    "blocked_CLI_returns2_with_two_reports_only": true,
+    "conflicting_executable_runtime_text_blocks_independently": true,
+    "emitter98285_and_runtime98348_separate": true,
+    "malformed_CLI_returns1_without_partial_output": true,
+    "new_eligibility_true_keeps_both_legacy_eligibility_flags_false": true,
+    "no_planner_import_or_source_CLI_integration": true,
+    "profile_is_exact_measured_projection_with_only_format_and_two_added_fields": true,
+    "seven_simultaneous_nonruntime_blockers_preserved": true,
+    "unchanged_legacy_planner_first_gate_refuses_new_capture": true,
+    "unchanged_supplied_context_preserved": true
+  },
+  "findings": [],
+  "format": "independent-fixed98348-J2-adapter-review-v1",
+  "independently_rerun_tests": [
+    {
+      "errors": 0,
+      "exit_code": 0,
+      "failures": 0,
+      "seconds": 0.894,
+      "skips": 0,
+      "suite": "test_import_catalog_journal_98348",
+      "tests": 23
+    },
+    {
+      "errors": 0,
+      "exit_code": 0,
+      "failures": 0,
+      "seconds": 3.413,
+      "skips": 0,
+      "suite": [
+        "test_catalog_journal",
+        "test_catalog_journal_import",
+        "test_catalog_capture",
+        "test_catalog_capture_cli"
+      ],
+      "tests": 106
+    }
+  ],
+  "limitations": [
+    "All exercised capture/context/journal bytes were explicitly synthetic and temporary.",
+    "Measured48 provenance is hash-bound retained metadata; no fresh raw replay/event redecoding.",
+    "Eligibility verifies supplied records only; no actual J2 export is asserted."
+  ],
+  "network_UI_native_process_or_repository_mutations": false,
+  "observed_at_utc": "2026-11-15T15:03:56.360460+00:00",
+  "playback_or_conversion_validated": false,
+  "real_engine_capture_created_or_observed": false,
+  "result": "PASS",
+  "review_source": {
+    "bytes": 9586,
+    "sha256": "4b273a6c4f47c1908539a610b5ee59fbb382553b798a9fabcf81fc1aa044f97d"
+  },
+  "shared_legacy_sources_match_frozen_pins": [
+    {
+      "bytes": 9909,
+      "role": "import_catalog_capture",
+      "sha256": "b8c501f4f611a33634545bb1a625e50c345208ac885456628a89b2c606265bf4"
+    },
+    {
+      "bytes": 13117,
+      "role": "import_catalog_journal",
+      "sha256": "91d4ea675b059026ca29cb3d990039b442f43089f92e0aa173244b55f83d31cb"
+    },
+    {
+      "bytes": 14727,
+      "role": "runtime_catalog_journal",
+      "sha256": "6cb64d75644821c3e68451eddc91ce5bf36be63a13ee1b5db495ea3a60f98004"
+    },
+    {
+      "bytes": 20994,
+      "role": "runtime_catalog_probe",
+      "sha256": "a6f7c816ec0106ca2b2e687ff6ee0f17a189cfd078e626b287649e6c48b21c5a"
+    }
+  ],
+  "source_pins": [
+    {
+      "bytes": 10541,
+      "role": "adapter",
+      "sha256": "303bbc1ecf24934ccfb36441e0387cb35c994fe72420739a0174893768b960ed"
+    },
+    {
+      "bytes": 17388,
+      "role": "new-regression-tests",
+      "sha256": "a6b461c02c93284d32d90405fea5c3637e485181b977c1087fb64af9d83c3346"
+    },
+    {
+      "bytes": 48391,
+      "role": "fixed-current-profile",
+      "sha256": "8371d65c0c680ad8aaf9fa283f489f76c8dd6660595a566d438cbf62a003f73e"
+    },
+    {
+      "bytes": 47393,
+      "role": "measured-anchor-observation",
+      "sha256": "2375c7564c30cd56409eda1a008044699211d014ec47a9dc809510c88c1f713e"
+    }
+  ]
+}

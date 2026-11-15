@@ -1,0 +1,189 @@
+{
+  "actual_J2_export_created_or_observed": false,
+  "actual_build_verified": false,
+  "adapter": {
+    "bytes": 10541,
+    "sha256": "303bbc1ecf24934ccfb36441e0387cb35c994fe72420739a0174893768b960ed"
+  },
+  "anchor_evidence": {
+    "controls": 12,
+    "earlier_core_roundtrip_proof_is_hash_bound_metadata": true,
+    "fresh_raw_replay_or_stream_redecode": false,
+    "metadata_sidecars_reverified": true,
+    "minimum_supporting_replays": 3,
+    "observed_types": 105,
+    "old_to_current_pair_count_unchanged": 33,
+    "selected_anchors": 48,
+    "unambiguous_current_anchors": 103
+  },
+  "automatically_applied_to_replay": false,
+  "client_playback_validated": false,
+  "contract": {
+    "all_nonruntime_inventory_freshness_map_flags_and_warning_gates_retained": true,
+    "eligibility_field": "ready_for_98348_unit_catalog_review",
+    "existing_output_refused": true,
+    "legacy_98285_migration_planner_eligible_always_false": true,
+    "legacy_bounded_ZIP_strict_JSON_and_sequence_parser_reused_unchanged": true,
+    "only_three_runtime_version_gates_replaced": true,
+    "ready_for_unit_catalog_review_always_false": true,
+    "runtime_Version_DataBuild_and_executable_each_independently_required98348": true,
+    "source_option_planner_or_replay_writer_provided": false,
+    "unchanged_emitter_BEGIN98285_required": true,
+    "unchanged_legacy_planner_refusal_regression_passed": true,
+    "whole_profile_SHA_before_JSON_capture_IO_or_output": true
+  },
+  "delivered_J2_map_sha256": "4733de8491521fac99a26b41c1691f65c8fd894e8ac14f200dfa7afe905672be",
+  "emitter_declared_build": 98285,
+  "emitter_token": "HRC98285_20260929_J2",
+  "evidence_is_authenticated": false,
+  "format": "additive-preserved-J2-runtime98348-import-contract-v1",
+  "full_upgrade_complete": false,
+  "legacy_preserved_sources": [
+    {
+      "CRLF_spelling_only_difference": false,
+      "Git_blob_identity": {
+        "bytes": 14727,
+        "sha256": "6cb64d75644821c3e68451eddc91ce5bf36be63a13ee1b5db495ea3a60f98004"
+      },
+      "bytes": 14727,
+      "equals_prior_source_pin": true,
+      "role": "runtime_catalog_journal.py",
+      "sha256": "6cb64d75644821c3e68451eddc91ce5bf36be63a13ee1b5db495ea3a60f98004",
+      "working_bytes_equal_Git_HEAD_blob": true
+    },
+    {
+      "CRLF_spelling_only_difference": false,
+      "Git_blob_identity": {
+        "bytes": 20994,
+        "sha256": "a6f7c816ec0106ca2b2e687ff6ee0f17a189cfd078e626b287649e6c48b21c5a"
+      },
+      "bytes": 20994,
+      "equals_prior_source_pin": true,
+      "role": "runtime_catalog_probe.py",
+      "sha256": "a6f7c816ec0106ca2b2e687ff6ee0f17a189cfd078e626b287649e6c48b21c5a",
+      "working_bytes_equal_Git_HEAD_blob": true
+    },
+    {
+      "CRLF_spelling_only_difference": false,
+      "Git_blob_identity": {
+        "bytes": 13117,
+        "sha256": "91d4ea675b059026ca29cb3d990039b442f43089f92e0aa173244b55f83d31cb"
+      },
+      "bytes": 13117,
+      "equals_prior_source_pin": true,
+      "role": "import_catalog_journal.py",
+      "sha256": "91d4ea675b059026ca29cb3d990039b442f43089f92e0aa173244b55f83d31cb",
+      "working_bytes_equal_Git_HEAD_blob": true
+    },
+    {
+      "CRLF_spelling_only_difference": true,
+      "Git_blob_identity": {
+        "bytes": 8584,
+        "sha256": "cec468ef0d8816eb711dbbb8f218340842190754b1881f05768d1fe2a9893401"
+      },
+      "bytes": 8740,
+      "equals_prior_source_pin": true,
+      "role": "scripts/run_catalog_journal.ps1",
+      "sha256": "c0842b192ec2b6805dfde18f18e654bd3fd36c2a0d55c8f4b62703f6ef6f4481",
+      "working_bytes_equal_Git_HEAD_blob": false
+    },
+    {
+      "CRLF_spelling_only_difference": false,
+      "Git_blob_identity": {
+        "bytes": 13414,
+        "sha256": "1b28eff54667cae85df90158939d9c22879ac756832ff69354d83191734d917e"
+      },
+      "bytes": 13414,
+      "equals_prior_source_pin": true,
+      "role": "catalog_diagnostics.py",
+      "sha256": "1b28eff54667cae85df90158939d9c22879ac756832ff69354d83191734d917e",
+      "working_bytes_equal_Git_HEAD_blob": true
+    },
+    {
+      "CRLF_spelling_only_difference": false,
+      "Git_blob_identity": {
+        "bytes": 9909,
+        "sha256": "b8c501f4f611a33634545bb1a625e50c345208ac885456628a89b2c606265bf4"
+      },
+      "bytes": 9909,
+      "equals_prior_source_pin": true,
+      "role": "import_catalog_capture.py",
+      "sha256": "b8c501f4f611a33634545bb1a625e50c345208ac885456628a89b2c606265bf4",
+      "working_bytes_equal_Git_HEAD_blob": true
+    },
+    {
+      "CRLF_spelling_only_difference": false,
+      "Git_blob_identity": {
+        "bytes": 1976,
+        "sha256": "53f70fecc2343f355f67774e9d9694e6dc5f0ac4e0083c83680611da5a2bb7a9"
+      },
+      "bytes": 1976,
+      "equals_prior_source_pin": true,
+      "role": "observations/runtime-catalog-reference-anchors.json",
+      "sha256": "53f70fecc2343f355f67774e9d9694e6dc5f0ac4e0083c83680611da5a2bb7a9",
+      "working_bytes_equal_Git_HEAD_blob": true
+    }
+  ],
+  "legacy_sources_and_defaults_unmodified": true,
+  "limits": [
+    "Reported-context review eligibility is not authenticated runtime identity.",
+    "Measured current UnitLink anchors do not establish ability identities or historical simulation rules.",
+    "A real same-session fresh J2 collector ZIP is still required; no runtime outcome follows from these tests."
+  ],
+  "map_bodies_reread_for_this_source_preservation_receipt": false,
+  "maps_regenerated_or_replays_written": false,
+  "network_native_UI_REA_or_repository_source_edits_by_implementation": false,
+  "new_tests_source": {
+    "bytes": 17388,
+    "sha256": "a6b461c02c93284d32d90405fea5c3637e485181b977c1087fb64af9d83c3346"
+  },
+  "observed_at_UTC": "2026-11-15T15:07:55.058577+00:00",
+  "privacy": {
+    "absolute_user_fixture_or_private_member_paths": false,
+    "per_player_or_raw_journal_data": false
+  },
+  "profile": {
+    "bytes": 48391,
+    "sha256": "8371d65c0c680ad8aaf9fa283f489f76c8dd6660595a566d438cbf62a003f73e"
+  },
+  "receipt_preparer": {
+    "bytes": 9071,
+    "sha256": "44bb4ddf5ab071d84d0d832fb9bcc6710520641aa94838fc7c53eca19f7b9b24"
+  },
+  "review_receipts_copied_byte_exact": [
+    {
+      "bytes": 5522,
+      "role": "j2-current98348-measured-anchors-independent-review-2026-11-15.json",
+      "sha256": "9e497f7576d310177a2088288d77e04990c2cf781041368d6b2940754c07d619"
+    },
+    {
+      "bytes": 3460,
+      "role": "j2-current98348-adapter-independent-review-2026-11-15.json",
+      "sha256": "81434120ef2ab24d6dc6f104e316a66157f93057a530341c3f149f0cb4f50e11"
+    }
+  ],
+  "runtime_profile_build": 98348,
+  "simulation_compatibility_validated": false,
+  "source_map_sha256": "f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f",
+  "validation": {
+    "independent_reruns_are_confirmation_not_additional_unique_test_counts": true,
+    "legacy": {
+      "errors": 0,
+      "executed_command": "python -B -m unittest test_catalog_journal test_catalog_journal_import test_catalog_capture test_catalog_capture_cli",
+      "exit_code": 0,
+      "failures": 0,
+      "skips": 0,
+      "tests": 106
+    },
+    "new": {
+      "errors": 0,
+      "executed_command": "python -B -m unittest discover -s <work-package> -p test_import_catalog_journal_98348.py -v",
+      "exit_code": 0,
+      "failures": 0,
+      "skips": 0,
+      "tests": 23
+    },
+    "new_positive_ZIP_fixtures_are_synthetic_and_temporary": true,
+    "no_synthetic_fixture_promoted_to_engine_export": true
+  }
+}

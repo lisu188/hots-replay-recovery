@@ -1,0 +1,1076 @@
+{
+  "ability_indices_independently_validated": false,
+  "all_unambiguous_current_candidates": {
+    "AnubarakBeetleSpitBeetle": 500,
+    "AnubarakCocoonFat": 505,
+    "AnubarakCocoonNormal": 504,
+    "ArthasArmyOfTheDeadGhoul": 523,
+    "AurielResurrectSpirit": 1037,
+    "CatapultMinion": 159,
+    "ChromieTimeTrap": 1020,
+    "DryadWispUnit": 598,
+    "FirebatBunkerDropBunkerUnit": 976,
+    "FirebatBunkerDropTurretUnit": 977,
+    "FootmanMinion": 201,
+    "HeroAlarak": 467,
+    "HeroAna": 1133,
+    "HeroAnduin": 1226,
+    "HeroAnubarak": 468,
+    "HeroArthas": 30,
+    "HeroAuriel": 1035,
+    "HeroBarbarian": 542,
+    "HeroChen": 563,
+    "HeroChromie": 1027,
+    "HeroCrusader": 571,
+    "HeroDVaMech": 485,
+    "HeroDVaPilot": 1083,
+    "HeroDeathwing": 471,
+    "HeroDehaka": 472,
+    "HeroDemonHunter": 575,
+    "HeroDryad": 477,
+    "HeroFaerieDragon": 470,
+    "HeroFalstad": 473,
+    "HeroFirebat": 983,
+    "HeroGreymane": 614,
+    "HeroHanzo": 1158,
+    "HeroHogger": 1253,
+    "HeroIllidan": 621,
+    "HeroImperius": 1216,
+    "HeroJunkrat": 974,
+    "HeroL90ETC": 651,
+    "HeroLeoric": 654,
+    "HeroLucio": 476,
+    "HeroMaiev": 1166,
+    "HeroMalthael": 1094,
+    "HeroMephisto": 479,
+    "HeroMuradin": 113,
+    "HeroRehgar": 482,
+    "HeroStitches": 114,
+    "HeroStukov": 1141,
+    "HeroSylvanas": 790,
+    "HeroTassadar": 804,
+    "HeroTinker": 822,
+    "HeroTychus": 833,
+    "HeroTyrael": 843,
+    "HeroVarian": 1060,
+    "HeroWhitemane": 1188,
+    "HeroWizard": 877,
+    "HeroYrel": 1191,
+    "HeroZagara": 484,
+    "HeroZuljin": 1053,
+    "ImperiusWrathOfTheAngirisCursorUnit": 1215,
+    "JunkratRIPTire": 950,
+    "KingsCore": 336,
+    "LeoricWraithWalkUnit": 659,
+    "MercDefenderMeleeKnight": 290,
+    "MercDefenderRangedMage": 291,
+    "MercDefenderSiegeGiant": 315,
+    "MercLanerMeleeKnight": 318,
+    "MercLanerRangedMage": 292,
+    "MercLanerSiegeGiant": 314,
+    "RangedMinion": 335,
+    "RehgarEarthbindTotem": 755,
+    "TinkerRockItTurret": 108,
+    "TownCannonTowerL2": 294,
+    "TownCannonTowerL3Standalone": 297,
+    "TownGateL215BLUR": 264,
+    "TownGateL215BRUL": 267,
+    "TownGateL3BLURTLVisionBlocked": 277,
+    "TownGateL3BRULTRVisionBlocked": 281,
+    "TownGateL3VerticalLeftVisionBlocked": 274,
+    "TownGateL3VerticalRightVisionBlocked": 275,
+    "TownMoonwellL2": 299,
+    "TownMoonwellL3": 300,
+    "TownTownHallL2": 324,
+    "TownTownHallL3": 310,
+    "TownWallRadial14L3": 387,
+    "TownWallRadial15L3": 390,
+    "TownWallRadial17L3": 396,
+    "TownWallRadial18L2": 398,
+    "TownWallRadial18L3": 399,
+    "TownWallRadial19L2": 401,
+    "TownWallRadial21L3": 408,
+    "TownWallRadial3L3": 354,
+    "TownWallRadial4L2": 356,
+    "TownWallRadial5L2": 359,
+    "TownWallRadial5L3": 360,
+    "TownWallRadial6L3": 363,
+    "TownWallRadial8L3": 369,
+    "TownWallRadial9L3": 372,
+    "TychusLaserDrill": 832,
+    "VarianBannerOfDalaran": 1054,
+    "VehicleDragon": 29,
+    "WizardMinion": 200,
+    "ZagaraCreepTumorBurrowed": 878,
+    "ZagaraHydralisk": 882,
+    "ZagaraRoach": 879
+  },
+  "anchor_provenance": [
+    {
+      "index": 159,
+      "observed_link_fields": 973,
+      "supporting_reference_replay_sha256": [
+        "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+        "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+        "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+        "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+        "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+        "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+        "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+        "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+        "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+        "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+        "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+        "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77"
+      ],
+      "unit_type": "CatapultMinion"
+    },
+    {
+      "index": 1020,
+      "observed_link_fields": 70,
+      "supporting_reference_replay_sha256": [
+        "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+        "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+        "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+        "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+        "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f"
+      ],
+      "unit_type": "ChromieTimeTrap"
+    },
+    {
+      "index": 976,
+      "observed_link_fields": 156,
+      "supporting_reference_replay_sha256": [
+        "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+        "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+        "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+        "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77"
+      ],
+      "unit_type": "FirebatBunkerDropBunkerUnit"
+    },
+    {
+      "index": 977,
+      "observed_link_fields": 33,
+      "supporting_reference_replay_sha256": [
+        "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+        "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+        "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+        "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77"
+      ],
+      "unit_type": "FirebatBunkerDropTurretUnit"
+    },
+    {
+      "index": 201,
+      "observed_link_fields": 5212,
+      "supporting_reference_replay_sha256": [
+        "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+        "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+        "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+        "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+        "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+        "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+        "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+        "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+        "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+        "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+        "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+        "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77"
+      ],
+      "unit_type": "FootmanMinion"
+    },
+    {
+      "index": 1226,
+      "observed_link_fields": 537,
+      "supporting_reference_replay_sha256": [
+        "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+        "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+        "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+        "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+        "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77"
+      ],
+      "unit_type": "HeroAnduin"
+    },
+    {
+      "index": 1035,
+      "observed_link_fields": 381,
+      "supporting_reference_replay_sha256": [
+        "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+        "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+        "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7"
+      ],
+      "unit_type": "HeroAuriel"
+    },
+    {
+      "index": 1027,
+      "observed_link_fields": 401,
+      "supporting_reference_replay_sha256": [
+        "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+        "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+        "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+        "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+        "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f"
+      ],
+      "unit_type": "HeroChromie"
+    },
+    {
+      "index": 571,
+      "observed_link_fields": 1971,
+      "supporting_reference_replay_sha256": [
+        "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+        "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+        "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+        "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+        "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+        "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e"
+      ],
+      "unit_type": "HeroCrusader"
+    },
+    {
+      "index": 470,
+      "observed_link_fields": 271,
+      "supporting_reference_replay_sha256": [
+        "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+        "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+        "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+        "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f"
+      ],
+      "unit_type": "HeroFaerieDragon"
+    },
+    {
+      "index": 473,
+      "observed_link_fields": 869,
+      "supporting_reference_replay_sha256": [
+        "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+        "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+        "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+        "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+        "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77"
+      ],
+      "unit_type": "HeroFalstad"
+    },
+    {
+      "index": 983,
+      "observed_link_fields": 1459,
+      "supporting_reference_replay_sha256": [
+        "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+        "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+        "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+        "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77"
+      ],
+      "unit_type": "HeroFirebat"
+    },
+    {
+      "index": 1253,
+      "observed_link_fields": 1250,
+      "supporting_reference_replay_sha256": [
+        "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+        "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+        "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+        "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+        "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e"
+      ],
+      "unit_type": "HeroHogger"
+    },
+    {
+      "index": 651,
+      "observed_link_fields": 1993,
+      "supporting_reference_replay_sha256": [
+        "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+        "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+        "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+        "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+        "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77"
+      ],
+      "unit_type": "HeroL90ETC"
+    },
+    {
+      "index": 654,
+      "observed_link_fields": 1688,
+      "supporting_reference_replay_sha256": [
+        "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+        "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+        "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+        "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+        "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77"
+      ],
+      "unit_type": "HeroLeoric"
+    },
+    {
+      "index": 1141,
+      "observed_link_fields": 367,
+      "supporting_reference_replay_sha256": [
+        "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+        "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+        "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+        "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e"
+      ],
+      "unit_type": "HeroStukov"
+    },
+    {
+      "index": 790,
+      "observed_link_fields": 1016,
+      "supporting_reference_replay_sha256": [
+        "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+        "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+        "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+        "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+        "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+        "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77"
+      ],
+      "unit_type": "HeroSylvanas"
+    },
+    {
+      "index": 833,
+      "observed_link_fields": 1296,
+      "supporting_reference_replay_sha256": [
+        "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+        "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+        "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+        "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+        "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+        "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f"
+      ],
+      "unit_type": "HeroTychus"
+    },
+    {
+      "index": 1188,
+      "observed_link_fields": 290,
+      "supporting_reference_replay_sha256": [
+        "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+        "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+        "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+        "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e"
+      ],
+      "unit_type": "HeroWhitemane"
+    },
+    {
+      "index": 336,
+      "observed_link_fields": 1187,
+      "supporting_reference_replay_sha256": [
+        "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+        "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+        "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+        "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+        "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+        "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+        "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+        "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+        "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+        "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+        "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+        "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77"
+      ],
+      "unit_type": "KingsCore"
+    },
+    {
+      "index": 659,
+      "observed_link_fields": 76,
+      "supporting_reference_replay_sha256": [
+        "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+        "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+        "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+        "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+        "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77"
+      ],
+      "unit_type": "LeoricWraithWalkUnit"
+    },
+    {
+      "index": 290,
+      "observed_link_fields": 4279,
+      "supporting_reference_replay_sha256": [
+        "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+        "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+        "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+        "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+        "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+        "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+        "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+        "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+        "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+        "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+        "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+        "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77"
+      ],
+      "unit_type": "MercDefenderMeleeKnight"
+    },
+    {
+      "index": 291,
+      "observed_link_fields": 1211,
+      "supporting_reference_replay_sha256": [
+        "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+        "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+        "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+        "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+        "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+        "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+        "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+        "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+        "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+        "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+        "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+        "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77"
+      ],
+      "unit_type": "MercDefenderRangedMage"
+    },
+    {
+      "index": 315,
+      "observed_link_fields": 3282,
+      "supporting_reference_replay_sha256": [
+        "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+        "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+        "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+        "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+        "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+        "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+        "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+        "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+        "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+        "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+        "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+        "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77"
+      ],
+      "unit_type": "MercDefenderSiegeGiant"
+    },
+    {
+      "index": 318,
+      "observed_link_fields": 1404,
+      "supporting_reference_replay_sha256": [
+        "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+        "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+        "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+        "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+        "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+        "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+        "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+        "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+        "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+        "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+        "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+        "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77"
+      ],
+      "unit_type": "MercLanerMeleeKnight"
+    },
+    {
+      "index": 292,
+      "observed_link_fields": 826,
+      "supporting_reference_replay_sha256": [
+        "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+        "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+        "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+        "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+        "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+        "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+        "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+        "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+        "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+        "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+        "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+        "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77"
+      ],
+      "unit_type": "MercLanerRangedMage"
+    },
+    {
+      "index": 314,
+      "observed_link_fields": 1600,
+      "supporting_reference_replay_sha256": [
+        "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+        "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+        "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+        "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+        "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+        "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+        "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+        "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+        "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+        "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+        "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+        "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77"
+      ],
+      "unit_type": "MercLanerSiegeGiant"
+    },
+    {
+      "index": 335,
+      "observed_link_fields": 7916,
+      "supporting_reference_replay_sha256": [
+        "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+        "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+        "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+        "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+        "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+        "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+        "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+        "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+        "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+        "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+        "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+        "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77"
+      ],
+      "unit_type": "RangedMinion"
+    },
+    {
+      "index": 294,
+      "observed_link_fields": 1711,
+      "supporting_reference_replay_sha256": [
+        "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+        "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+        "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+        "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+        "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+        "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+        "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+        "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+        "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+        "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+        "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+        "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77"
+      ],
+      "unit_type": "TownCannonTowerL2"
+    },
+    {
+      "index": 264,
+      "observed_link_fields": 107,
+      "supporting_reference_replay_sha256": [
+        "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+        "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+        "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+        "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+        "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+        "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+        "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+        "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+        "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+        "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+        "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77"
+      ],
+      "unit_type": "TownGateL215BLUR"
+    },
+    {
+      "index": 267,
+      "observed_link_fields": 83,
+      "supporting_reference_replay_sha256": [
+        "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+        "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+        "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+        "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+        "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+        "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+        "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+        "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+        "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+        "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77"
+      ],
+      "unit_type": "TownGateL215BRUL"
+    },
+    {
+      "index": 281,
+      "observed_link_fields": 64,
+      "supporting_reference_replay_sha256": [
+        "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+        "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+        "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+        "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+        "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+        "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77"
+      ],
+      "unit_type": "TownGateL3BRULTRVisionBlocked"
+    },
+    {
+      "index": 274,
+      "observed_link_fields": 41,
+      "supporting_reference_replay_sha256": [
+        "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+        "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+        "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+        "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+        "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+        "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77"
+      ],
+      "unit_type": "TownGateL3VerticalLeftVisionBlocked"
+    },
+    {
+      "index": 275,
+      "observed_link_fields": 25,
+      "supporting_reference_replay_sha256": [
+        "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+        "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+        "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+        "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+        "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e"
+      ],
+      "unit_type": "TownGateL3VerticalRightVisionBlocked"
+    },
+    {
+      "index": 299,
+      "observed_link_fields": 1371,
+      "supporting_reference_replay_sha256": [
+        "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+        "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+        "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+        "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+        "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+        "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+        "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+        "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+        "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+        "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+        "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+        "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77"
+      ],
+      "unit_type": "TownMoonwellL2"
+    },
+    {
+      "index": 300,
+      "observed_link_fields": 387,
+      "supporting_reference_replay_sha256": [
+        "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+        "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+        "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+        "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+        "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+        "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+        "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+        "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+        "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+        "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+        "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+        "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77"
+      ],
+      "unit_type": "TownMoonwellL3"
+    },
+    {
+      "index": 324,
+      "observed_link_fields": 2461,
+      "supporting_reference_replay_sha256": [
+        "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+        "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+        "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+        "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+        "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+        "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+        "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+        "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+        "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+        "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+        "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+        "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77"
+      ],
+      "unit_type": "TownTownHallL2"
+    },
+    {
+      "index": 310,
+      "observed_link_fields": 1079,
+      "supporting_reference_replay_sha256": [
+        "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+        "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+        "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+        "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+        "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+        "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+        "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+        "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+        "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+        "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+        "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+        "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77"
+      ],
+      "unit_type": "TownTownHallL3"
+    },
+    {
+      "index": 387,
+      "observed_link_fields": 11,
+      "supporting_reference_replay_sha256": [
+        "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+        "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+        "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+        "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77"
+      ],
+      "unit_type": "TownWallRadial14L3"
+    },
+    {
+      "index": 390,
+      "observed_link_fields": 25,
+      "supporting_reference_replay_sha256": [
+        "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+        "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+        "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+        "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+        "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77"
+      ],
+      "unit_type": "TownWallRadial15L3"
+    },
+    {
+      "index": 396,
+      "observed_link_fields": 20,
+      "supporting_reference_replay_sha256": [
+        "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+        "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+        "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+        "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd"
+      ],
+      "unit_type": "TownWallRadial17L3"
+    },
+    {
+      "index": 398,
+      "observed_link_fields": 172,
+      "supporting_reference_replay_sha256": [
+        "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+        "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+        "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+        "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+        "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+        "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+        "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+        "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+        "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+        "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+        "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+        "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77"
+      ],
+      "unit_type": "TownWallRadial18L2"
+    },
+    {
+      "index": 401,
+      "observed_link_fields": 59,
+      "supporting_reference_replay_sha256": [
+        "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+        "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+        "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+        "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+        "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+        "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+        "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+        "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+        "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+        "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77"
+      ],
+      "unit_type": "TownWallRadial19L2"
+    },
+    {
+      "index": 356,
+      "observed_link_fields": 58,
+      "supporting_reference_replay_sha256": [
+        "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+        "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+        "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+        "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+        "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+        "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+        "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77"
+      ],
+      "unit_type": "TownWallRadial4L2"
+    },
+    {
+      "index": 359,
+      "observed_link_fields": 202,
+      "supporting_reference_replay_sha256": [
+        "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+        "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+        "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+        "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+        "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+        "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+        "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+        "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+        "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+        "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+        "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+        "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77"
+      ],
+      "unit_type": "TownWallRadial5L2"
+    },
+    {
+      "index": 372,
+      "observed_link_fields": 12,
+      "supporting_reference_replay_sha256": [
+        "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+        "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+        "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+        "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f"
+      ],
+      "unit_type": "TownWallRadial9L3"
+    },
+    {
+      "index": 29,
+      "observed_link_fields": 2560,
+      "supporting_reference_replay_sha256": [
+        "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+        "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+        "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+        "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+        "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+        "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+        "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+        "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+        "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+        "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+        "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+        "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77"
+      ],
+      "unit_type": "VehicleDragon"
+    },
+    {
+      "index": 200,
+      "observed_link_fields": 2603,
+      "supporting_reference_replay_sha256": [
+        "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+        "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+        "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+        "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+        "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+        "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+        "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+        "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+        "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+        "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+        "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+        "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77"
+      ],
+      "unit_type": "WizardMinion"
+    }
+  ],
+  "automatically_applied_to_replay": false,
+  "build": 98348,
+  "complete_catalog": false,
+  "context": {
+    "base_build": 98348,
+    "build": 98348,
+    "data_build": 98348,
+    "map_file_sync_checksum": 886294905,
+    "map_title": "Dragon Shire",
+    "mod_file_sync_checksum": 13528913,
+    "root_key": "c3b3c8bc82e3a5a62e550fdde9a40c28"
+  },
+  "cross_map_equivalence_proven": false,
+  "emitter_identity": {
+    "declared_build": 98285,
+    "delivered_map_sha256": "4733de8491521fac99a26b41c1691f65c8fd894e8ac14f200dfa7afe905672be",
+    "source_map_sha256": "f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f",
+    "token": "HRC98285_20260929_J2"
+  },
+  "excluded_reverse_aliases": {
+    "296": [
+      "TownCannonTowerDead",
+      "TownCannonTowerL3"
+    ]
+  },
+  "format": "hots-runtime-catalog-reference-anchors-98348-v1",
+  "measurement_scope": {
+    "derivation_source": {
+      "role": "metadata_only_anchor_derivation",
+      "sha256": "b80464073adf89e5a01cd7c278632f55de2a38c9a989bbb529a2d347a788206e"
+    },
+    "derived_observation": {
+      "bytes": 47393,
+      "role": "frozen_metadata_only_anchor_observation",
+      "sha256": "2375c7564c30cd56409eda1a008044699211d014ec47a9dc809510c88c1f713e"
+    },
+    "fresh_raw_replay_or_stream_redecode": false,
+    "metadata_sidecars_reverified": true,
+    "method": "Exact recorded UnitLink fields joined to known-alive tracker identities strictly before the event tick; only one-name/one-index observations admitted.",
+    "prior_core_roundtrip_proof_is_hash_bound_metadata": true
+  },
+  "reference_bindings": [
+    {
+      "inventory": {
+        "bytes": 10714,
+        "sha256": "1be459391ca638b4dca81bc3118b1616b103f3f02a2fcf663f7e086f8224055c"
+      },
+      "profile": {
+        "bytes": 4138,
+        "sha256": "c17a1a9f0aa24000b7556379cf5274e59cf92824636ed63125f694406f5efa4f"
+      },
+      "replay_bytes": 1113273,
+      "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c"
+    },
+    {
+      "inventory": {
+        "bytes": 11650,
+        "sha256": "2b1a7b0932df625c6b4aa9113a186ac569197db5cdff021d229c3730ad6f73a8"
+      },
+      "profile": {
+        "bytes": 4129,
+        "sha256": "d76b9a67ab39f4171a1eee8d19fbb129578cb211d82088f4b259ac755580a6c9"
+      },
+      "replay_bytes": 1544389,
+      "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e"
+    },
+    {
+      "inventory": {
+        "bytes": 9860,
+        "sha256": "31058be533247028e1ac3d3a5dbbe609ee8cf43ba9d317af5217d865da1c99b1"
+      },
+      "profile": {
+        "bytes": 4312,
+        "sha256": "70dacf6b9f67b9dace7b7938d81f2ed2595a461630621a00279d0a336b20df87"
+      },
+      "replay_bytes": 1161874,
+      "replay_sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db"
+    },
+    {
+      "inventory": {
+        "bytes": 11437,
+        "sha256": "8cca5fe863191a375d0adc2f6e381f6cc3c17cb0fb06a6acb9a25f9b4f529db5"
+      },
+      "profile": {
+        "bytes": 4271,
+        "sha256": "2d562fc390e48ef72010e3081d217d9ce4833594f8a7df793b2c4cc2a33cd998"
+      },
+      "replay_bytes": 1240746,
+      "replay_sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a"
+    },
+    {
+      "inventory": {
+        "bytes": 11051,
+        "sha256": "2d577a90b431c36a8ec0dd2ae73c0a75803b64d61b87106aa73101deda4c13cc"
+      },
+      "profile": {
+        "bytes": 4096,
+        "sha256": "dfb09d83dd8c4f8c5bd055a87a66088e3ff85ed2ee0a04487fe51ba28412e92e"
+      },
+      "replay_bytes": 750402,
+      "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c"
+    },
+    {
+      "inventory": {
+        "bytes": 11836,
+        "sha256": "ad6f895bcd21d5c1b4a3e2ee73e7d09e62914103069c8571237601701e49a063"
+      },
+      "profile": {
+        "bytes": 4315,
+        "sha256": "7176cf12f3f6c7ad71919f5a8b4899594d3dfd23a2ab56e5cd0475d9dcebb1c7"
+      },
+      "replay_bytes": 1250999,
+      "replay_sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4"
+    },
+    {
+      "inventory": {
+        "bytes": 10260,
+        "sha256": "6a70b614d89052ed7cb78768b267ba8fefd4679fbe91c0f342e7516a15c9af60"
+      },
+      "profile": {
+        "bytes": 4205,
+        "sha256": "5072c639bd48e5f74ceb2121a3c3ba660272a989cbb77ec711e2ad3e3c149b3a"
+      },
+      "replay_bytes": 1482008,
+      "replay_sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c"
+    },
+    {
+      "inventory": {
+        "bytes": 9883,
+        "sha256": "cdec8f37a218b466424e83e07292b4685678411aa1922be74d078d64b2e35273"
+      },
+      "profile": {
+        "bytes": 4155,
+        "sha256": "29d8f97fea994b919913612bda0b923ebdf49cacbd7b9b3a0c82de4fd090d2cc"
+      },
+      "replay_bytes": 1090464,
+      "replay_sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7"
+    },
+    {
+      "inventory": {
+        "bytes": 9364,
+        "sha256": "fdd97b50bcf442665e7cfb60a9cd2357e61aceea97363076a749371b07be77b3"
+      },
+      "profile": {
+        "bytes": 4042,
+        "sha256": "fd9481babfe54374857ee2ed5d55dc6de1c4faba1b194e9ca1ca0422544546cd"
+      },
+      "replay_bytes": 917495,
+      "replay_sha256": "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd"
+    },
+    {
+      "inventory": {
+        "bytes": 9754,
+        "sha256": "6ef79fcdd06bbb80a77e17c0572ffe90d526e9ebfa4eb962b804dbe768a7a376"
+      },
+      "profile": {
+        "bytes": 4186,
+        "sha256": "a35175588e549f7089fa64cae51f6c867592b35d9ab8fbe90c7e1d217f31f111"
+      },
+      "replay_bytes": 1283019,
+      "replay_sha256": "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e"
+    },
+    {
+      "inventory": {
+        "bytes": 10111,
+        "sha256": "aed71d02b34f733fb4ba3a499af80b5650761b52bc078271698efb9552da5d96"
+      },
+      "profile": {
+        "bytes": 4038,
+        "sha256": "0b998c363430aeec02c3005124f747da5787b2d10bf72732ee952bd5ddc14d6b"
+      },
+      "replay_bytes": 1188774,
+      "replay_sha256": "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f"
+    },
+    {
+      "inventory": {
+        "bytes": 11063,
+        "sha256": "822d1698e763ff8ba851d40f135b618de0a5f063baf1cf6949bffaf9a9855f9b"
+      },
+      "profile": {
+        "bytes": 4042,
+        "sha256": "f78a46019ad2ba71c0ef1885feb5e19bef0f6c10a72e9a0eaf7e7621d705c77f"
+      },
+      "replay_bytes": 1209005,
+      "replay_sha256": "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77"
+    }
+  ],
+  "root": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+  "runtime_export_observed": false,
+  "runtime_probe_executed": false,
+  "selection_policy": "Choose48 by supporting replay count descending, then exact tracker unit-type name ascending; no source41810 or98285 value contributes.",
+  "source_catalog_report": {
+    "bytes": 154449,
+    "sha256": "fc6dbc312dac9143bfe450d661f8033a04c2ce4eec51878618e2a517f8faf609"
+  },
+  "unit_anchors": {
+    "CatapultMinion": 159,
+    "ChromieTimeTrap": 1020,
+    "FirebatBunkerDropBunkerUnit": 976,
+    "FirebatBunkerDropTurretUnit": 977,
+    "FootmanMinion": 201,
+    "HeroAnduin": 1226,
+    "HeroAuriel": 1035,
+    "HeroChromie": 1027,
+    "HeroCrusader": 571,
+    "HeroFaerieDragon": 470,
+    "HeroFalstad": 473,
+    "HeroFirebat": 983,
+    "HeroHogger": 1253,
+    "HeroL90ETC": 651,
+    "HeroLeoric": 654,
+    "HeroStukov": 1141,
+    "HeroSylvanas": 790,
+    "HeroTychus": 833,
+    "HeroWhitemane": 1188,
+    "KingsCore": 336,
+    "LeoricWraithWalkUnit": 659,
+    "MercDefenderMeleeKnight": 290,
+    "MercDefenderRangedMage": 291,
+    "MercDefenderSiegeGiant": 315,
+    "MercLanerMeleeKnight": 318,
+    "MercLanerRangedMage": 292,
+    "MercLanerSiegeGiant": 314,
+    "RangedMinion": 335,
+    "TownCannonTowerL2": 294,
+    "TownGateL215BLUR": 264,
+    "TownGateL215BRUL": 267,
+    "TownGateL3BRULTRVisionBlocked": 281,
+    "TownGateL3VerticalLeftVisionBlocked": 274,
+    "TownGateL3VerticalRightVisionBlocked": 275,
+    "TownMoonwellL2": 299,
+    "TownMoonwellL3": 300,
+    "TownTownHallL2": 324,
+    "TownTownHallL3": 310,
+    "TownWallRadial14L3": 387,
+    "TownWallRadial15L3": 390,
+    "TownWallRadial17L3": 396,
+    "TownWallRadial18L2": 398,
+    "TownWallRadial19L2": 401,
+    "TownWallRadial4L2": 356,
+    "TownWallRadial5L2": 359,
+    "TownWallRadial9L3": 372,
+    "VehicleDragon": 29,
+    "WizardMinion": 200
+  }
+}

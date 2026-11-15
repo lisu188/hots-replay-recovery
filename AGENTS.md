@@ -2264,3 +2264,27 @@ is pending. Do not automate authentication, relaunch a live client merely for
 waiting, or treat accepted question delivery as readiness. After an actual menu,
 use Watch's dedicated control folder if needed; verify exact control/map/clock
 and runtime build before J2. No new capture or full replay upgrade is established.
+
+## Additive preserved-J2/current98348 import contract — 2026-11-15
+
+Read `docs/J2_CURRENT98348_IMPORT_CONTRACT_2026-11-15.md` and
+`observations/j2-current98348-import-contract-2026-11-15.json`.
+`import_catalog_journal_98348.py` is a standalone inspection path. Keep all legacy
+98285 code, anchors, collector and delivered J2 map unchanged. The preserved
+emitter still declares 98285/token HRC98285; its source-map hash f557 and delivered
+diagnostic-map hash4733 are distinct. Only the new fixed runtime profile requires
+complete supplied Version/DataBuild/executable 98348 evidence plus its pinned 48
+measured anchors. Never retag BEGIN or infer DataBuild from a GUI version.
+
+The 12 prior current-build Dragon controls supply 103 unambiguous candidate anchors;
+48 each supported by at least three controls are selected. Profile/sidecar byte
+pins bind earlier whole-replay/core-roundtrip evidence; no fresh raw-stream or
+engine capture is claimed. This does not expand the 33 historical migration pairs.
+
+New eligibility is `ready_for_98348_unit_catalog_review` only. Keep generic
+`ready_for_unit_catalog_review` and `legacy_98285_migration_planner_eligible` false,
+so the old planner refuses new results. No `--source`, planner integration or
+replay writer is provided. All old inventory, freshness, map, boolean, ZIP and
+sequence gates remain. 23 new synthetic contract tests and 106 unchanged legacy
+tests passed. Actual J2 export, authenticated runtime and full-match semantic/
+playback proof remain separate; preserve R8 and all synchronization data.
