@@ -17,7 +17,9 @@ from collection_license_audit import (CollectionError, DEFAULT_LIMITS, SELECTED_
 
 VERSION = '2.57.0.98348'
 BUILD_CONFIG = 'a64c9b7ebf1c6a811ffefad97865ed80'
-LICENSE_SHA256 = 'c8f03ddbc859feb5c2dc1836761201b5e6fea4632ce0325817abdd7299c8aa22'
+# Whole-file pin: the reviewed Nov13 metadata refresh is recorded in
+# observations/collection-projection-pin-refresh-2026-11-15.json.
+LICENSE_SHA256 = '80c64713d4a9183d98e61e9b67f624ba230daa08d303dfb237b971733113eb7c'
 LICENSE_LIMIT = 16 * 1024 * 1024
 REPORT_LIMIT = 4 * 1024 * 1024
 TOP = {'format', 'version_binding', 'generation_provenance', 'collection_observation',

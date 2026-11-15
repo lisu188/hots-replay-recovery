@@ -1,0 +1,198 @@
+{
+  "after": {
+    "bytes": 9580143,
+    "git_blob": "80f8cc06d756449b7e351c6372c06f5ae3653caf",
+    "repository_commit": "d708548c27a38c43fecf81d19a2f3e5db65249c1",
+    "sha256": "80c64713d4a9183d98e61e9b67f624ba230daa08d303dfb237b971733113eb7c"
+  },
+  "artifact": "observations/collection-license-current-98348.json",
+  "before": {
+    "bytes": 9580143,
+    "git_blob": "863c7375d0c2e42964dabf55876f90f1facf2c34",
+    "repository_commit": "9adb72853c01dd24101649709f341c2ccb3f95a6",
+    "sha256": "c8f03ddbc859feb5c2dc1836761201b5e6fea4632ce0325817abdd7299c8aa22"
+  },
+  "canonical_hash_encoding": "json.dumps(value, sort_keys=True, separators=(comma,colon), ensure_ascii=True).encode(ascii)",
+  "changed_paths": [
+    {
+      "after": "43387752047",
+      "before": "39156204685",
+      "path": "/generation_provenance/github_run_id"
+    },
+    {
+      "after": "9d9a857134fb0cc2fc0eb1b53985a654b2475681f4616c595c3fe7649081a490",
+      "before": "f94345ccb04cd3c794ceceb7395efbe6e314eb9a0aec7cb6c3a779b400d74cf4",
+      "path": "/generation_provenance/official_manifest_sha256"
+    },
+    {
+      "after": "6adad9bf2a495db662e596e53b62d96b8ac4ca9c",
+      "before": "843a15858659acb75bf6b4e9fef45f28931f7faf",
+      "path": "/generation_provenance/repository_commit"
+    },
+    {
+      "after": "https://github.com/lisu188/hots-replay-recovery/actions/runs/43387752047",
+      "before": "https://github.com/lisu188/hots-replay-recovery/actions/runs/39156204685",
+      "path": "/generation_provenance/workflow_url"
+    },
+    {
+      "after": "ea2f9e42e474150a093f5d6cf73bff9c238f9c6b9a041714954b68bccca11797",
+      "before": "eeb8bc05408d3fd33291abbfd81f708af4a3d2a55911b09da80a486030ca3681",
+      "path": "/source_files/109/sha256"
+    },
+    {
+      "after": "ea2f9e42e474150a093f5d6cf73bff9c238f9c6b9a041714954b68bccca11797",
+      "before": "eeb8bc05408d3fd33291abbfd81f708af4a3d2a55911b09da80a486030ca3681",
+      "path": "/version_binding/metadata/0/sha256"
+    }
+  ],
+  "date": "2026-11-15",
+  "entire_raw_file_identical_after_only_reviewed_JSON_literal_substitutions": true,
+  "format": "hots-reviewed-collection-projection-pin-refresh-v1",
+  "hdp_info": {
+    "after_source": {
+      "bytes": 130,
+      "kind": "hdp.info",
+      "path": "mods/hdp.info",
+      "sha256": "ea2f9e42e474150a093f5d6cf73bff9c238f9c6b9a041714954b68bccca11797"
+    },
+    "after_version_metadata": {
+      "bytes": 130,
+      "is_ptr": false,
+      "observed_version_strings": [
+        "2.57.0.98348"
+      ],
+      "path": "mods/hdp.info",
+      "sha256": "ea2f9e42e474150a093f5d6cf73bff9c238f9c6b9a041714954b68bccca11797",
+      "version_field": "Version"
+    },
+    "before_source": {
+      "bytes": 130,
+      "kind": "hdp.info",
+      "path": "mods/hdp.info",
+      "sha256": "eeb8bc05408d3fd33291abbfd81f708af4a3d2a55911b09da80a486030ca3681"
+    },
+    "before_version_metadata": {
+      "bytes": 130,
+      "is_ptr": false,
+      "observed_version_strings": [
+        "2.57.0.98348"
+      ],
+      "path": "mods/hdp.info",
+      "sha256": "eeb8bc05408d3fd33291abbfd81f708af4a3d2a55911b09da80a486030ca3681",
+      "version_field": "Version"
+    },
+    "raw_hdp_info_content_recovered_or_compared": false
+  },
+  "limits": [
+    "This review proves identical observed declarations, source XML descriptors and planning results; effective catalog order, inheritance, aliases and ownership remain unresolved.",
+    "Only projected hdp.info descriptors/version fields were compared. Raw old/new hdp.info content was not recovered or explained.",
+    "The production planner still requires the exact complete artifact SHA256 before parsing; no provenance stripping, normalization or automatic pin update was introduced.",
+    "No replay, client, Computer Use or new network retrieval was used for this review."
+  ],
+  "planner_comparison": {
+    "all_returned_values_except_input_digest_exactly_equal": true,
+    "all_semantics_canonical_sha256_after": "6e6f37fd954c656bb7719423a07804e8c0d32ff816892e9271ef5f4f602b7a60",
+    "all_semantics_canonical_sha256_before": "6e6f37fd954c656bb7719423a07804e8c0d32ff816892e9271ef5f4f602b7a60",
+    "candidate_rows_canonical_sha256_after": "ecb56c9843f81c968f9eddfebc0dd943952595f2675f3577dff6a99f5f7aff41",
+    "candidate_rows_canonical_sha256_before": "ecb56c9843f81c968f9eddfebc0dd943952595f2675f3577dff6a99f5f7aff41",
+    "candidates": 263,
+    "counts": {
+      "current_observed_ids": 5418,
+      "legacy_names": 263,
+      "single_observed_license_candidates": 56,
+      "single_with_record_reasons": 2,
+      "single_without_record_reasons": 54,
+      "unresolved_names": 207,
+      "unresolved_status_counts": {
+        "no-exact-reward-record": 201,
+        "no-observed-literal-license": 6
+      }
+    },
+    "effective_catalog_mapping_proven_after": false,
+    "effective_catalog_mapping_proven_before": false,
+    "whole_collection_conversion_eligible_after": false,
+    "whole_collection_conversion_eligible_before": false
+  },
+  "protected_planning_data": {
+    "all_XML_source_descriptors": {
+      "canonical_sha256_after": "af02b5ec22bfc7d75f628029e04329f03cdb2929256fb1f8c67ef5589e8e51ed",
+      "canonical_sha256_before": "af02b5ec22bfc7d75f628029e04329f03cdb2929256fb1f8c67ef5589e8e51ed",
+      "exact_JSON_value_equality": true,
+      "records": 5575
+    },
+    "collection_observation": {
+      "canonical_sha256_after": "142d15b0d9400d093d6c9935f4df67fa6cf84276d7230a3b7091634aec9e40e6",
+      "canonical_sha256_before": "142d15b0d9400d093d6c9935f4df67fa6cf84276d7230a3b7091634aec9e40e6",
+      "exact_JSON_value_equality": true
+    },
+    "counts": {
+      "canonical_sha256_after": "8980c7bc95b64afc81ac0166cb61dcff52132dec4110c6f49ae4c5b27d9e100b",
+      "canonical_sha256_before": "8980c7bc95b64afc81ac0166cb61dcff52132dec4110c6f49ae4c5b27d9e100b",
+      "exact_JSON_value_equality": true
+    },
+    "declarations": {
+      "canonical_sha256_after": "cc9ec87a9dba3cda7d1397d27f52a06948446c6a63bfbaf86eb284f06dc89532",
+      "canonical_sha256_before": "cc9ec87a9dba3cda7d1397d27f52a06948446c6a63bfbaf86eb284f06dc89532",
+      "exact_JSON_value_equality": true
+    },
+    "direct_comparison": {
+      "canonical_sha256_after": "585cac0a03b0870363eb54735df3ecd9e074eaa2061fc4bcb1ad13081c1d0832",
+      "canonical_sha256_before": "585cac0a03b0870363eb54735df3ecd9e074eaa2061fc4bcb1ad13081c1d0832",
+      "exact_JSON_value_equality": true
+    }
+  },
+  "raw_substitutions": [
+    {
+      "after_JSON_literal": "\"43387752047\"",
+      "before_JSON_literal": "\"39156204685\"",
+      "occurrences": 1
+    },
+    {
+      "after_JSON_literal": "\"9d9a857134fb0cc2fc0eb1b53985a654b2475681f4616c595c3fe7649081a490\"",
+      "before_JSON_literal": "\"f94345ccb04cd3c794ceceb7395efbe6e314eb9a0aec7cb6c3a779b400d74cf4\"",
+      "occurrences": 1
+    },
+    {
+      "after_JSON_literal": "\"6adad9bf2a495db662e596e53b62d96b8ac4ca9c\"",
+      "before_JSON_literal": "\"843a15858659acb75bf6b4e9fef45f28931f7faf\"",
+      "occurrences": 1
+    },
+    {
+      "after_JSON_literal": "\"https://github.com/lisu188/hots-replay-recovery/actions/runs/43387752047\"",
+      "before_JSON_literal": "\"https://github.com/lisu188/hots-replay-recovery/actions/runs/39156204685\"",
+      "occurrences": 1
+    },
+    {
+      "after_JSON_literal": "\"ea2f9e42e474150a093f5d6cf73bff9c238f9c6b9a041714954b68bccca11797\"",
+      "before_JSON_literal": "\"eeb8bc05408d3fd33291abbfd81f708af4a3d2a55911b09da80a486030ca3681\"",
+      "occurrences": 2
+    }
+  ],
+  "root_cause": {
+    "artifact_changed_lines": {
+      "additions": 6,
+      "deletions": 6
+    },
+    "artifact_refresh_commit": "b4967a2ae5bf28148a27c247be284c5eb36191e0",
+    "changed_files": 1,
+    "committed_at_UTC": "2026-11-13T13:44:14Z",
+    "message": "Record measured 98348 collection license evidence for run 43387752047",
+    "pin_refresh_omitted": true,
+    "predates_R5_publisher_preservation_commit": "2e07bf16cd8b61b4a9d3d6fbec7c9e5fe0b49111"
+  },
+  "source_artifact_left_unchanged": true,
+  "unchanged_top_level_keys": [
+    "catalog_inheritance_resolved",
+    "catalog_load_order_resolved",
+    "client_playback_validated",
+    "collection_observation",
+    "counts",
+    "declarations",
+    "direct_comparison",
+    "format",
+    "legacy_to_current_mapping_proven",
+    "limitations",
+    "raw_xml_exported",
+    "replay_modified"
+  ]
+}

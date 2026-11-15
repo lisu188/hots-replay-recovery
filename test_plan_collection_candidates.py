@@ -159,10 +159,50 @@ class ActualProjectionTests(unittest.TestCase):
         self.assertEqual(result['counts'],dict(legacy_names=263,current_observed_ids=5418,
             single_observed_license_candidates=56,single_without_record_reasons=54,single_with_record_reasons=2,
             unresolved_names=207,unresolved_status_counts={'no-exact-reward-record':201,'no-observed-literal-license':6}))
+        # Independently compared with the old c8f03ddb projection before the
+        # reviewed Nov13 provenance/hdp.info digest refresh. Pin every planning
+        # value, including all candidate rows and conservative eligibility flags.
+        semantics={key:value for key,value in result.items() if key!='licenses_sha256'}
+        canonical=json.dumps(semantics,sort_keys=True,separators=(',',':'),ensure_ascii=True).encode('ascii')
+        self.assertEqual(hashlib.sha256(canonical).hexdigest(),
+            '6e6f37fd954c656bb7719423a07804e8c0d32ff816892e9271ef5f4f602b7a60')
         blocked=[row for row in result['candidates'] if len(row['observed_license_candidates'])==1 and row['declaration_unresolved_reasons']]
         self.assertEqual({row['legacy_name']:row['observed_license_candidates'] for row in blocked},{'Horse':[10182],'Vulture':[18535]})
         self.assertTrue(all(row['declaration_unresolved_reasons']==['parent_inheritance_not_resolved'] for row in blocked))
         self.assertEqual(before,(hashlib.sha256(licenses.read_bytes()).hexdigest(),hashlib.sha256(observation.read_bytes()).hexdigest()))
+
+    def test_actual_default_pin_rejects_unreviewed_provenance_hdp_and_license_edits(self):
+        root=Path(os.environ.get('COLLECTION_PLAN_FIXTURES',Path(__file__).resolve().parent))
+        licenses=root/'observations'/'collection-license-current-98348.json'
+        if not licenses.exists(): self.skipTest('Set COLLECTION_PLAN_FIXTURES to the repository with pinned observations')
+        observation=root/'observations'/'collection-identities-2026-10-18.json'
+        original=licenses.read_bytes()
+        self.assertEqual(hashlib.sha256(original).hexdigest(),planner.LICENSE_SHA256)
+        data=json.loads(original)
+        with tempfile.TemporaryDirectory() as temporary:
+            changed=Path(temporary)/'unreviewed.json'
+            for kind in ('provenance','hdp-metadata','license','whitespace'):
+                with self.subTest(kind=kind):
+                    value=copy.deepcopy(data)
+                    if kind=='provenance':
+                        value['generation_provenance']['repository_commit']='0'*40
+                    elif kind=='hdp-metadata':
+                        for source in value['source_files']:
+                            if source['kind']=='hdp.info': source['sha256']='0'*64
+                        value['version_binding']['metadata'][0]['sha256']='0'*64
+                    elif kind=='license':
+                        field=next(field for row in value['declarations'] for field in row['fields'].get('License',[])
+                            if field['direct_literal_candidate'] and 'numeric_value' in field)
+                        field['numeric_value']+=1
+                        field['attributes']['value']=str(field['numeric_value'])
+                    raw=(original+b'\n' if kind=='whitespace' else
+                         (json.dumps(value,indent=2)+'\n').encode('utf-8'))
+                    changed.write_bytes(raw)
+                    with patch.object(planner,'_binding') as binding:
+                        with self.assertRaisesRegex(CollectionError,'Static license projection SHA256 differs'):
+                            planner.plan(changed,observation)
+                        binding.assert_not_called()
+        self.assertEqual(licenses.read_bytes(),original)
 
 
 if __name__=='__main__': unittest.main()
