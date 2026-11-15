@@ -4,7 +4,13 @@ The user's explicit authorization permits Battle.net/HotS Computer Use, the
 unchanged98348 control, diagnostics and continued TEN_GREYMANE conversion.
 Older no-game instructions are superseded. Authentication remains manual.
 
-## Current native observation
+The later client-start observation below supersedes the earlier activation-only
+snapshot: Battle.net Play did launch the native client, and its same-session
+Graphics log measures Version 2.57.0.98348 and DataBuild 98348 separately. The
+unchanged control replay has still not been opened or shown playing. See the
+[additive native observation](../observations/native98348-client-start-and-control-boundary-2026-11-15.json).
+
+## Earlier activation failure, before the successful client start
 
 The control remains 978482 bytes, SHA256
 `a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4`.
@@ -84,3 +90,48 @@ tests, clean security findings, native playback or historical equivalence.
 The full original41810 match is still not converted and verified on98348. R8
 still declares98285. The next runtime evidence remains an observed unchanged
 control, followed by same-session diagnostics and the preserved J2 investigation.
+
+## Later actual client start and post-readiness window failure
+
+After refreshing the installed Computer Use plugin to 26.1111.21308, a fresh
+Battle.net window became observable. The actual Play click displayed Launching
+and started HotS at 2026-11-15T12:52:20.551982Z. The physical executable's complete
+53,573,840-byte SHA-256 matches the pinned Base98348 client above. The ProgramFiles
+path resolves through a junction to the same installation on another local volume.
+
+The fresh 3,168-byte Graphics log has SHA-256
+`86c2b5d10d280122c82f00a8b0db62c2b7654a03f29f3ff04f6c821bc6e5e91b`.
+A bounded extractor admitted that exact file before text decoding and read the
+native line-tail fields `<Version>` 2.57.0.98348 and `<DataBuild>` B98348. It
+requires the explicit B prefix, bounded numeric components and one observation
+per field; DataBuild is not inferred from Version. Fourteen synthetic guards
+passed. The earlier paired-XML extractor returned empty arrays because these
+native fields are not paired XML elements; preserve its original receipt.
+
+The initial game screen showed version 2.57.0.98348, region Americas, login and
+a Windows Firewall prompt. Those manual steps were handed to the user. The user
+then reported being in the main menu; that answered the readiness question.
+There was no fresh agent observation of that menu or post-login game region.
+
+A later read-only check at 13:10:22Z found no Heroes process and an unknown exit
+cause. Restoring Battle.net yielded fresh accessibility text for Europe, version
+2.57.0.98348 and Play, but the screenshot showed the desktop. Activation and one
+fresh-window recovery failed with `failed to activate captured window`. Explorer
+was then observed through its focused Address Bar; entering the unchanged control
+path failed with the same activation error, as did one recovery. No Enter or
+replay-opening action followed. The user was asked to restore visible Battle.net;
+this is a new window-preparation step, not new blanket permission or a renewed
+authentication request. Launcher Europe is not measured post-login game region.
+
+The bounded postflight matches the successful-start metadata snapshot exactly:
+34 local GameLogs, 0 local UserLogs, 1,776 GameLogs and 9 UserLogs cloud stubs
+skipped, 0 new/changed metadata entries and 0 body bytes read. This does not
+exclude diagnostics outside that read scope or establish why the client ended.
+Private logs, process IDs, paths, account data and desktop images are not in the
+published observation.
+
+Actual client startup and measured DataBuild do not establish a replay load,
+advancing clock, J2 export, historical catalog/rule equivalence or full-match
+playback. The next native action remains a freshly observed unchanged98348
+control, followed by same-session catalog diagnostics after a working baseline.
+R8 remains a partial98285 candidate; the full upgrade remains unproved.

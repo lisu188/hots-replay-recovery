@@ -1,0 +1,120 @@
+{
+  "format": "BattleNet-native98348-start-and-control-boundary-v1",
+  "prepared_at_utc": "2026-11-15T13:21:07.673796+00:00",
+  "client_start": {
+    "at_utc": "2026-11-15T12:52:20.551982Z",
+    "Computer_Use_plugin": "26.1111.21308",
+    "BattleNet_Play_action_executed": true,
+    "BattleNet_Launching_and_actual_HotS_process_observed": true,
+    "client_window_observed": true,
+    "visible_version": "2.57.0.98348",
+    "actual_physical_executable": {
+      "bytes": 53573840,
+      "sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+      "Base": 98348,
+      "ProgramFiles_path_is_junction_to_other_local_install_volume": true
+    },
+    "same_session_Graphics": {
+      "bytes": 3168,
+      "sha256": "86c2b5d10d280122c82f00a8b0db62c2b7654a03f29f3ff04f6c821bc6e5e91b"
+    },
+    "native_numeric_fields": {
+      "Version": [
+        "2.57.0.98348"
+      ],
+      "DataBuild": [
+        98348
+      ]
+    },
+    "numeric_fields_extraction_at_utc": "2026-11-15T13:18:56.137012+00:00",
+    "numeric_fields_parser": {
+      "file": "extract_numeric_graphics_identity.py",
+      "sha256": "751de88a04878a2a3d5ce5524c8225fc529a11e98bb131f8e914ad1b84b37a9c",
+      "strict_patterns": {
+        "Version": "<Version>[ \\t]*(?P<value>[0-9]{1,10}(?:\\.[0-9]{1,10}){3})[ \\t]*$",
+        "DataBuild": "<DataBuild>[ \\t]*B(?P<value>[0-9]{1,10})[ \\t]*$"
+      },
+      "DataBuild_B_prefix_required": true,
+      "numeric_value_must_end_the_same_line": true,
+      "uint32_component_maximum": 4294967295,
+      "text_character_limit": 4096,
+      "line_character_limit": 256,
+      "line_count_limit": 256,
+      "synthetic_guard_checks_passed": 14,
+      "DataBuild_inferred_from_Version": false
+    },
+    "DataBuild_inferred_from_Version": false,
+    "earlier_paired_XML_extraction_empty_arrays_preserved": true,
+    "initial_visible_region": "Americas",
+    "initial_login_and_Windows_Firewall_prompt_observed": true,
+    "authentication_or_security_permission_automated": false
+  },
+  "manual_readiness": {
+    "user_reported_main_menu_ready": true,
+    "earlier_manual_readiness_question_answered": true,
+    "agent_fresh_main_menu_observation_after_reply": false,
+    "region_after_user_login_measured": false
+  },
+  "later_control_preparation": {
+    "process_check_at_utc": "2026-11-15T13:10:22.6130129Z",
+    "Heroes_processes": 0,
+    "exit_reason": "unknown",
+    "BattleNet_accessibility": {
+      "region": "Europe",
+      "version": "2.57.0.98348",
+      "Play_button": true
+    },
+    "BattleNet_screenshot_showed_desktop": true,
+    "BattleNet_input_and_fresh_window_recovery_error": "failed to activate captured window",
+    "Explorer_address_bar_observed": true,
+    "Explorer_control_path_input_attempt_and_recovery_error": "failed to activate captured window",
+    "Explorer_Enter_issued": false,
+    "control_open_action_executed": false,
+    "new_manual_visible_BattleNet_restoration_request_pending": true
+  },
+  "scoped_postflight": {
+    "local_GameLogs_files": 34,
+    "local_UserLogs_files": 0,
+    "GameLogs_cloud_stubs_skipped": 1776,
+    "UserLogs_cloud_stubs_skipped": 9,
+    "new_or_changed_local_metadata_entries": 0,
+    "body_bytes_read": 0,
+    "scope": "Same bounded local GameLogs/UserLogs metadata compared with retained successful-client-start snapshot"
+  },
+  "source_pins": [
+    {
+      "role": "earlier_actual_client_start_receipt",
+      "bytes": 1405,
+      "sha256": "5a5cd4b61cece4bec09d8d66dafb146a9632a8b6ed1a1da92d447fe00cd43d02"
+    },
+    {
+      "role": "strict_numeric_identity_projection",
+      "bytes": 1508,
+      "sha256": "1311d3f684b33672dad1f8cfded542c33cf1a09c3c8fc72370afd57a293a0a8e"
+    },
+    {
+      "role": "bounded_post_readiness_UI_attempt",
+      "bytes": 2786,
+      "sha256": "e577472bb39bd0cc10a5920d9b05331caf9914053d290230a23e689a3bdb657c"
+    },
+    {
+      "role": "bounded_unchanged_local_log_metadata",
+      "bytes": 2619,
+      "sha256": "27c3cac351ff698a4e8b3f7493046fff3acf8f785bc53652d20561ff03bcf54e"
+    }
+  ],
+  "limits": [
+    "Actual native client start and numeric DataBuild are not replay opening or replay playback.",
+    "The user reported readiness; no fresh main-menu image or post-login game region was measured.",
+    "The later absent process has no established exit cause; no replay failure is inferred.",
+    "BattleNet accessibility Europe describes the launcher, not the unobserved post-login game region.",
+    "No control file-opening action, advancing replay clock, new J2 export or converted match is established.",
+    "No changed local metadata is a bounded observation, not exhaustive absence of diagnostics.",
+    "Old no-game/no-Computer-Use restrictions remain superseded; current manual step is window restoration."
+  ],
+  "control_playback_observed": false,
+  "TEN_GREYMANE_current_playback_observed": false,
+  "new_J2_export_observed": false,
+  "full_upgrade_complete": false,
+  "raw_logs_accounts_credentials_process_ids_paths_or_desktop_captures_exported": false
+}

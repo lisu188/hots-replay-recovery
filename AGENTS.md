@@ -2189,3 +2189,20 @@ per-player rows, member paths, transport and bit spans private; use the public
 aggregate counts. Historical rules, current Monstrosity catalog/ability data,
 missing field values and native playback are still needed. Native control/J2
 work is separate; the full TEN_GREYMANE upgrade remains unproved.
+
+## Actual Battle.net client start and current window prerequisite - 2026-11-15
+
+Read the later section in docs/NATIVE_CONTROL_AND_PUBLICATION_RECOVERY_2026-11-15.md
+and observations/native98348-client-start-and-control-boundary-2026-11-15.json.
+The real Battle.net Play click launched the pinned native Base98348 client at
+12:52:20Z. Exact 3,168-byte Graphics SHA86c2b5d1...6e5e91b separately measures
+Version 2.57.0.98348 and DataBuild B98348 using strict numeric native field forms,
+not the earlier empty paired-XML extraction. Preserve that historical receipt.
+
+The user answered the login/firewall handoff by reporting main-menu readiness;
+no fresh menu/region observation followed. At 13:10:22Z no Heroes process was
+present; its exit reason is unknown. Fresh Battle.net and Explorer input/one
+recovery each failed with "failed to activate captured window". No Enter or
+control-opening action followed. A new manual visible-Battle.net restoration
+request is pending; existing native/CU authorization still applies. Current
+control playback, new J2 export and full TEN_GREYMANE upgrade remain unproved.
