@@ -1,0 +1,173 @@
+{
+  "UI_native_process_authentication_settings_network_or_cloud_hydration": false,
+  "all_four_sources_current_size_and_mtime_UTC_equal_prior_v2_receipt": true,
+  "client_playback_or_conversion_validated": false,
+  "completed_attempt_coverage": {
+    "admitted_log_body_bytes": 16087,
+    "directory_cap_hit": false,
+    "directory_entries_inspected": 1854,
+    "directory_entry_cap": 4096,
+    "known_baseline_metadata_path_probes": 37,
+    "known_path_probes_are_additional_to_directory_entry_counter": true,
+    "line_scan_truncated": false,
+    "log_body_file_cap": 20,
+    "log_body_read_attempts": 4,
+    "oversized_lines_skipped": 0,
+    "per_file_request_cap_bytes": 1048576,
+    "reserved_maximum_body_request_bytes": 16091,
+    "scope_metadata": [
+      {
+        "changed_safe_metadata_files": 4,
+        "current_safe_metadata_files": 40,
+        "prior_metadata_files": 37,
+        "scope": "HotS_GameLogs",
+        "selected_changed_text_files": 4
+      },
+      {
+        "changed_safe_metadata_files": 0,
+        "current_safe_metadata_files": 0,
+        "prior_metadata_files": 0,
+        "scope": "HotS_UserLogs",
+        "selected_changed_text_files": 0
+      }
+    ],
+    "total_request_cap_bytes": 2097152,
+    "unsafe_reparse_cloud_recall_entries_skipped": 1785
+  },
+  "exact_control_basename_seen_in_admitted_texts": false,
+  "exact_control_seen_in_Parameters_field": false,
+  "exact_control_seen_on_load_open_keyword_line": false,
+  "expected_control_basename": "heroeslounge-27515-g1-20261005.StormReplay",
+  "first_attempt_preserved": {
+    "cap_boundary_increment_before_check_is_v1_source_behavior": true,
+    "entries_admitted_for_metadata_stat": 256,
+    "entry_cap": 256,
+    "entry_counter_including_two_cap_boundary_entries": 258,
+    "incomplete": true,
+    "log_body_reads": 0,
+    "unsafe_entries_skipped": 254,
+    "zero_results_are_incomplete_coverage_not_absence": true
+  },
+  "format": "sanitized-passive-user-replay-report-log-summary-v1",
+  "graphics_declarations_in_file_mtime_order": [
+    {
+      "DataBuild": [
+        98348
+      ],
+      "Version_components": [
+        [
+          2,
+          57,
+          0,
+          98348
+        ]
+      ],
+      "bytes": 3174,
+      "executable_build": [
+        98348
+      ],
+      "file_mtime_UTC": "2026-11-15T15:10:17.200771+00:00",
+      "native_time_text_tokens_without_timezone_inference": [
+        "2026-11-15T16:10:14.683"
+      ],
+      "sha256": "b815cd4cdd96c559a71b0e32bfae654c94c6da9242e5cdc148df52b432ea8a92"
+    },
+    {
+      "DataBuild": [
+        98285
+      ],
+      "Version_components": [
+        [
+          2,
+          57,
+          0,
+          98285
+        ]
+      ],
+      "bytes": 3527,
+      "executable_build": [
+        98285
+      ],
+      "file_mtime_UTC": "2026-11-15T15:11:27.441814+00:00",
+      "native_time_text_tokens_without_timezone_inference": [
+        "2026-11-15T16:11:25.240"
+      ],
+      "sha256": "2fec68a8555e324ce4cdc7ddecf6ea12754b9b471dcefaeb4afd01076190a17b"
+    },
+    {
+      "DataBuild": [
+        98348
+      ],
+      "Version_components": [
+        [
+          2,
+          57,
+          0,
+          98348
+        ]
+      ],
+      "bytes": 3184,
+      "executable_build": [
+        98348
+      ],
+      "file_mtime_UTC": "2026-11-15T15:12:16.576909+00:00",
+      "native_time_text_tokens_without_timezone_inference": [
+        "2026-11-15T16:12:14.222"
+      ],
+      "sha256": "094db2d22e6898d7cd0e1455afba13dc9244392bc91bf10ff3868c4e2de8d622"
+    }
+  ],
+  "limits": [
+    "Whitelisted text declarations and timestamps do not authenticate a running process.",
+    "Native LocalTime text has no asserted timezone; file mtimes are separately labeled UTC.",
+    "No PID association, replay identity, clock advance, load completion or playback follows.",
+    "The absent control basename and selected error keywords do not disprove playback or imply error-free operation.",
+    "1785 unsafe entries were excluded; this is a bounded local-file view, not global log or export absence.",
+    "Numeric timestamp tokens are extracted by a bounded timestamp regex; the extractor does not attest that every token came from a LocalTime-labeled line."
+  ],
+  "log_declared_builds_bound_to_PID": false,
+  "native_LocalTime_assumed_UTC": false,
+  "numeric_time_regex_does_not_attest_LocalTime_field_label": true,
+  "observed_at_utc": "2026-11-15T15:25:58.164915+00:00",
+  "original_logs_written_or_additional_log_bodies_read_during_freeze": false,
+  "preserved_predecessor_summary": {
+    "bytes": 5426,
+    "sha256": "b07d8bec274b04f9cf91458691b19f29cd4b6f7ef4ed11c3a794fefd6f704ff7"
+  },
+  "private_metadata_binding": {
+    "bytes": 3795,
+    "private": true,
+    "sha256": "f99b5109f08fbc73429bb6e04c59b298b74b2d4e29e3963308434172e575c157"
+  },
+  "raw_lines_paths_accounts_authentication_IP_tokens_or_log_bodies_in_summary": false,
+  "replay_filename_or_replay_clock_inferred": false,
+  "selected_error_keyword_classes_in_admitted_texts": {},
+  "source_pins": [
+    {
+      "bytes": 12901,
+      "role": "baseline",
+      "sha256": "85fbb091492e363e526ab592024a9aa9c7e0bd69a48b0a4ab5f6104540e21dbf"
+    },
+    {
+      "bytes": 2153,
+      "role": "incomplete-v1",
+      "sha256": "bf205c1fc0f99d89218f74509685b7eb70669d7e01daefa19fceb0930110ecb5"
+    },
+    {
+      "bytes": 7213,
+      "role": "completed-v2",
+      "sha256": "fd0894bee1b718b3f0940d9edd4954aa866498cd2d5ea6599fca4d0b298e4cb7"
+    },
+    {
+      "bytes": 14492,
+      "role": "v1-source",
+      "sha256": "9afa31d2807cd19dcef35f79a914d51c0061bbb361fdc76bd56b25198fc93e53"
+    },
+    {
+      "bytes": 15370,
+      "role": "v2-source",
+      "sha256": "224969c74a58b5fb99efa0e041c4e0d1b46726e4b3ace18ed3d66b04c07acd32"
+    }
+  ],
+  "user_reported_replay_start_independently_verified": false
+}

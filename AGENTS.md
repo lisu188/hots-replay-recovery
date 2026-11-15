@@ -2288,3 +2288,20 @@ replay writer is provided. All old inventory, freshness, map, boolean, ZIP and
 sequence gates remain. 23 new synthetic contract tests and 106 unchanged legacy
 tests passed. Actual J2 export, authenticated runtime and full-match semantic/
 playback proof remain separate; preserve R8 and all synchronization data.
+
+## User replay report, CU stop and passive log evidence - 2026-11-15
+
+Read the latest native-control report section and the two replay-report/passive
+observations. The user answered the readiness question: a replay reportedly
+started automatically. Fresh CU verification stopped at the physical Escape
+signal before window inspection; no further input followed. Do not retain the
+old unanswered-login gate as current, or promote the reply to verified playback.
+CU resumption preference is separately pending; honor the stop and newer user
+direction rather than substituting another launcher for the stopped interaction.
+
+Passive logs add complete98348/98285/98348 declarations, with no PID/filename/
+clock binding. Four local reads16087B exclude1785 unsafe metadata entries; exact
+control basename absent is only a bounded finding. A separate15:25:44UTC process
+snapshot found zero Heroes processes; exit reason is unknown, not an established
+crash or replay failure. Reacquire current state when UI work can resume. R8 is
+still partial98285; real J2 export/current-control/full-match proof are missing.

@@ -1,0 +1,28 @@
+{
+  "format": "user-replay-report-CU-stop-and-passive-process-state-v1",
+  "recorded_at_utc": "2026-11-15T15:28:51.705943+00:00",
+  "evidence_kind": "Root operator account of tool output and one separate passive process snapshot",
+  "user_report": "Replay uruchomil sie automatycznie",
+  "earlier_manual_readiness_question_answered": true,
+  "fresh_CU_verification_completed": false,
+  "CU_stop_reported_physical_Escape": true,
+  "CU_input_after_stop": false,
+  "CU_resumption_preference_question_pending_at_recording": true,
+  "current_replay_identity_map_clock_or_playback_independently_verified": false,
+  "source_process_snapshot": {
+    "bytes": 275,
+    "sha256": "3ad43dc9371fc3bdcf9b592ff8799498c9d380bc1cebd0b0f396780e8b812a5c",
+    "captured_at_utc": "2026-11-15T15:25:44.7404439Z",
+    "matched_image_names": [
+      "HeroesOfTheStorm_x64.exe",
+      "HeroesOfTheStorm.exe"
+    ],
+    "process_count": 0
+  },
+  "process_termination_reason_established": false,
+  "source_process_snapshot_was_process_control": false,
+  "user_report_disproved": false,
+  "new_J2_export_observed": false,
+  "full_upgrade_complete": false,
+  "raw_logs_account_paths_or_authentication_data_published": false
+}

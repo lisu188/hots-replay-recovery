@@ -172,3 +172,39 @@ control context: choose Europe, log in and leave the game open, then report
 whether the replay or main menu appears. No authentication input was automated.
 The reviewed work-only native fallback was not executed. The next dependent
 action is actual control playback after that manual step; J2 remains afterward.
+
+## User-reported automatic start and later passive diagnostics
+
+The user subsequently answered the manual readiness question by reporting that
+the replay started automatically. The next Computer Use window-list attempt
+reported a stop caused by the physical Escape key, before a fresh replay window
+could be inspected. The report remains a user observation; the replay identity,
+map, clock and actual running build were not verified by that interrupted attempt.
+No further CU input followed. A separate question asks whether to resume the
+stopped observation; this does not renew the already granted game authorization.
+
+The [operator/process receipt](../observations/replay-report-and-CU-stop-state-2026-11-15.json)
+records a later passive snapshot at 15:25:44 UTC with no process matching either
+Heroes executable name. The reason for termination is unknown. This point-in-time
+absence does not disprove the earlier reported playback or identify a crash.
+
+The [passive log summary](../observations/passive-after-user-replay-report-2026-11-15.json)
+contains three newly observed Graphics declarations, in file-modification order:
+98348, 98285, then 98348. Each has matching Version, DataBuild and executable-build
+declarations. No PID binding follows. UTC file modification times remain separate
+from native numeric timestamp tokens, whose timezone and field labels are not
+inferred.
+
+The completed pass checked 37 known metadata paths and 1,854 directory entries,
+skipping 1,785 unsafe reparse/cloud/recall entries. Four stable local text files
+supplied 16,087 bytes under unchanged 1 MiB/file, 2 MiB/20-file bounds. The exact
+control basename and selected error keywords were absent from these texts;
+neither finding proves playback failure or error-free execution. The first pass
+hit its smaller metadata cap before reading any body and remains explicitly
+incomplete, rather than evidence of absence. Raw log bodies and private path
+bindings are excluded from the repository publication.
+
+The old manual readiness question is answered. Current control playback, a real
+J2 export and full TEN_GREYMANE conversion remain unproved. When the stopped UI
+work can resume, reacquire actual window/process state and identify the control
+before testing it; do not assume that the reported replay was the pinned file.
