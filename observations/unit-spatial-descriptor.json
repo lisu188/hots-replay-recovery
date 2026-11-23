@@ -1,0 +1,14 @@
+{
+  "build": 98348,
+  "executable_sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+  "static_text_sha256": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83",
+  "verified_code_ranges": 10,
+  "position_decoder_variants": 16,
+  "catalog_fields": {
+    "Radius": 240,
+    "DeadRadius": 244
+  },
+  "crc_differential_cases": 768,
+  "crc_input_bytes_per_descriptor": 12,
+  "target_fast_crc_verified": false
+}

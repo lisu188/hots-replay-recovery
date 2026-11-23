@@ -1,0 +1,23 @@
+{
+  "ten": {
+    "build": 41810,
+    "map_sha256": "bda7aafd1d63c77b3b4d29ff2afee96da09a3104b54b4a1d625bb299607d9008",
+    "authored": 165,
+    "exact_fixed_xy": 167,
+    "map_and_birth_agree": 172,
+    "corroborated_stationary_objects": 68,
+    "stationary_xy_match": 2179,
+    "owner_xy_match": 2179
+  },
+  "native_recordings": 15,
+  "native_totals": {
+    "authored": 2370,
+    "exact_fixed_xy": 2475,
+    "map_and_birth_agree": 2550,
+    "corroborated_stationary_objects": 685,
+    "stationary_xy_match": 13192,
+    "owner_xy_match": 13192
+  },
+  "descriptor_bits_from_tag_owner_and_xy": 56,
+  "game_crc_verified": false
+}

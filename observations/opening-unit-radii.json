@@ -1,0 +1,763 @@
+{
+  "format": "ten-opening-live-catalog-radius-v1",
+  "map_sha256": "bda7aafd1d63c77b3b4d29ff2afee96da09a3104b54b4a1d625bb299607d9008",
+  "projection_sha256": "80c64713d4a9183d98e61e9b67f624ba230daa08d303dfb237b971733113eb7c",
+  "verified_xml_files": 5575,
+  "verified_xml_bytes": 79556009,
+  "unit_nodes_whole_projection": 1997,
+  "unit_nodes_gate_map": 4,
+  "opening_slots": 172,
+  "distinct_opening_unit_types": 45,
+  "authored_objects_with_uniform_unit_scale": 165,
+  "all_other_packages_except_single_player_try_mode_preserve_each_value_and_chain": true,
+  "explicit_dead_radius_fields": 0,
+  "dead_radius_fixed4096": null,
+  "qualification": "Static live CUnit Radius from Core, HeroesData and GateOrder. Runtime use requires the live catalog branch without a per-instance size/radius modifier. The native DeadRadius default and per-object gameplay branch are separate.",
+  "by_unit": {
+    "CampOwnershipFlag": {
+      "radius_fixed4096": 2048,
+      "field_owner": "CUnit class default",
+      "field_source": [
+        "mods/core.stormmod/base.stormdata/gamedata/unitdata.xml"
+      ],
+      "chain": [
+        "CampOwnershipFlag",
+        "CUnit class default"
+      ],
+      "slots": [
+        61,
+        62,
+        63,
+        64,
+        65
+      ]
+    },
+    "DragonShireShrineMoon": {
+      "radius_fixed4096": 256,
+      "field_owner": "DragonShireShrineSun",
+      "field_source": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/unitdata.xml"
+      ],
+      "chain": [
+        "DragonShireShrineMoon",
+        "DragonShireShrineSun"
+      ],
+      "slots": [
+        13
+      ]
+    },
+    "DragonShireShrineSun": {
+      "radius_fixed4096": 256,
+      "field_owner": "DragonShireShrineSun",
+      "field_source": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/unitdata.xml"
+      ],
+      "chain": [
+        "DragonShireShrineSun"
+      ],
+      "slots": [
+        59
+      ]
+    },
+    "DragonballCaptureBeacon": {
+      "radius_fixed4096": 16384,
+      "field_owner": "DragonballCaptureBeacon",
+      "field_source": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/unitdata.xml"
+      ],
+      "chain": [
+        "DragonballCaptureBeacon"
+      ],
+      "slots": [
+        170,
+        171
+      ]
+    },
+    "GardensDragonShrineTargetMoon": {
+      "radius_fixed4096": 2048,
+      "field_owner": "CUnit class default",
+      "field_source": [
+        "mods/core.stormmod/base.stormdata/gamedata/unitdata.xml"
+      ],
+      "chain": [
+        "GardensDragonShrineTargetMoon",
+        "GardensDragonShrineTargetSun",
+        "CUnit class default"
+      ],
+      "slots": [
+        108
+      ]
+    },
+    "GardensDragonShrineTargetSun": {
+      "radius_fixed4096": 2048,
+      "field_owner": "CUnit class default",
+      "field_source": [
+        "mods/core.stormmod/base.stormdata/gamedata/unitdata.xml"
+      ],
+      "chain": [
+        "GardensDragonShrineTargetSun",
+        "CUnit class default"
+      ],
+      "slots": [
+        109
+      ]
+    },
+    "HealingPadSearchUnit": {
+      "radius_fixed4096": 2048,
+      "field_owner": "CUnit class default",
+      "field_source": [
+        "mods/core.stormmod/base.stormdata/gamedata/unitdata.xml"
+      ],
+      "chain": [
+        "HealingPadSearchUnit",
+        "CUnit class default"
+      ],
+      "slots": [
+        110,
+        111
+      ]
+    },
+    "KingsCore": {
+      "radius_fixed4096": 16384,
+      "field_owner": "KingsCore",
+      "field_source": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/unitdata.xml"
+      ],
+      "chain": [
+        "KingsCore"
+      ],
+      "slots": [
+        54,
+        58
+      ]
+    },
+    "StormGameStartPathingBlocker": {
+      "radius_fixed4096": 4096,
+      "field_owner": "StormGameStartPathingBlocker",
+      "field_source": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/unitdata.xml"
+      ],
+      "chain": [
+        "StormGameStartPathingBlocker"
+      ],
+      "slots": [
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122
+      ]
+    },
+    "StormGameStartPathingBlockerDiagonal": {
+      "radius_fixed4096": 4096,
+      "field_owner": "StormGameStartPathingBlockerDiagonal",
+      "field_source": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/unitdata.xml"
+      ],
+      "chain": [
+        "StormGameStartPathingBlockerDiagonal"
+      ],
+      "slots": [
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156
+      ]
+    },
+    "TheLittleKing": {
+      "radius_fixed4096": 2048,
+      "field_owner": "CUnit class default",
+      "field_source": [
+        "mods/core.stormmod/base.stormdata/gamedata/unitdata.xml"
+      ],
+      "chain": [
+        "TheLittleKing",
+        "StormEasterEggUnit",
+        "StormMinorUnit",
+        "CUnit class default"
+      ],
+      "slots": [
+        5
+      ]
+    },
+    "TownCannonTowerL2": {
+      "radius_fixed4096": 4096,
+      "field_owner": "TownCannonTowerL2",
+      "field_source": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/unitdata.xml"
+      ],
+      "chain": [
+        "TownCannonTowerL2"
+      ],
+      "slots": [
+        1,
+        2,
+        10,
+        12,
+        17,
+        18,
+        20,
+        24,
+        31,
+        32,
+        33,
+        35
+      ]
+    },
+    "TownCannonTowerL2Standalone": {
+      "radius_fixed4096": 4096,
+      "field_owner": "TownCannonTowerL2Standalone",
+      "field_source": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/unitdata.xml"
+      ],
+      "chain": [
+        "TownCannonTowerL2Standalone"
+      ],
+      "slots": [
+        3,
+        14,
+        157,
+        158,
+        159,
+        160
+      ]
+    },
+    "TownCannonTowerL3": {
+      "radius_fixed4096": 4096,
+      "field_owner": "TownCannonTowerL3",
+      "field_source": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/unitdata.xml"
+      ],
+      "chain": [
+        "TownCannonTowerL3"
+      ],
+      "slots": [
+        0,
+        7,
+        22,
+        23,
+        28,
+        34,
+        38,
+        39,
+        42,
+        44,
+        45,
+        47
+      ]
+    },
+    "TownCannonTowerL3Standalone": {
+      "radius_fixed4096": 4096,
+      "field_owner": "TownCannonTowerL3Standalone",
+      "field_source": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/unitdata.xml"
+      ],
+      "chain": [
+        "TownCannonTowerL3Standalone"
+      ],
+      "slots": [
+        25,
+        36,
+        161,
+        162,
+        163,
+        164
+      ]
+    },
+    "TownGateL215BLUR": {
+      "radius_fixed4096": 3072,
+      "field_owner": "TownGateL2",
+      "field_source": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/unitdata.xml"
+      ],
+      "chain": [
+        "TownGateL215BLUR",
+        "TownGateL2"
+      ],
+      "slots": [
+        11,
+        15,
+        46
+      ]
+    },
+    "TownGateL215BRUL": {
+      "radius_fixed4096": 3072,
+      "field_owner": "TownGateL2",
+      "field_source": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/unitdata.xml"
+      ],
+      "chain": [
+        "TownGateL215BRUL",
+        "TownGateL2"
+      ],
+      "slots": [
+        4,
+        9,
+        43
+      ]
+    },
+    "TownGateL3BLURBRVisionBlocked": {
+      "radius_fixed4096": 3072,
+      "field_owner": "TownGateL3",
+      "field_source": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/unitdata.xml"
+      ],
+      "chain": [
+        "TownGateL3BLURBRVisionBlocked",
+        "TownGateL3"
+      ],
+      "slots": [
+        131
+      ]
+    },
+    "TownGateL3BLURTLVisionBlocked": {
+      "radius_fixed4096": 3072,
+      "field_owner": "TownGateL3",
+      "field_source": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/unitdata.xml"
+      ],
+      "chain": [
+        "TownGateL3BLURTLVisionBlocked",
+        "TownGateL3"
+      ],
+      "slots": [
+        127
+      ]
+    },
+    "TownGateL3BRULBLVisionBlocked": {
+      "radius_fixed4096": 3072,
+      "field_owner": "TownGateL3",
+      "field_source": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/unitdata.xml"
+      ],
+      "chain": [
+        "TownGateL3BRULBLVisionBlocked",
+        "TownGateL3"
+      ],
+      "slots": [
+        128
+      ]
+    },
+    "TownGateL3BRULTRVisionBlocked": {
+      "radius_fixed4096": 3072,
+      "field_owner": "TownGateL3",
+      "field_source": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/unitdata.xml"
+      ],
+      "chain": [
+        "TownGateL3BRULTRVisionBlocked",
+        "TownGateL3"
+      ],
+      "slots": [
+        132
+      ]
+    },
+    "TownGateL3VerticalLeftVisionBlocked": {
+      "radius_fixed4096": 3072,
+      "field_owner": "TownGateL3",
+      "field_source": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/unitdata.xml"
+      ],
+      "chain": [
+        "TownGateL3VerticalLeftVisionBlocked",
+        "TownGateL3"
+      ],
+      "slots": [
+        129
+      ]
+    },
+    "TownGateL3VerticalRightVisionBlocked": {
+      "radius_fixed4096": 3072,
+      "field_owner": "TownGateL3",
+      "field_source": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/unitdata.xml"
+      ],
+      "chain": [
+        "TownGateL3VerticalRightVisionBlocked",
+        "TownGateL3"
+      ],
+      "slots": [
+        130
+      ]
+    },
+    "TownMercCampCaptureBeacon": {
+      "radius_fixed4096": 11264,
+      "field_owner": "TownMercCampCaptureBeacon",
+      "field_source": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/unitdata.xml"
+      ],
+      "chain": [
+        "TownMercCampCaptureBeacon"
+      ],
+      "slots": [
+        165,
+        166,
+        167,
+        168,
+        169
+      ]
+    },
+    "TownMoonwellL2": {
+      "radius_fixed4096": 6144,
+      "field_owner": "TownMoonwellL2",
+      "field_source": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/unitdata.xml"
+      ],
+      "chain": [
+        "TownMoonwellL2"
+      ],
+      "slots": [
+        6,
+        16,
+        123,
+        124,
+        125,
+        126
+      ]
+    },
+    "TownMoonwellL3": {
+      "radius_fixed4096": 6144,
+      "field_owner": "TownMoonwellL3",
+      "field_source": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/unitdata.xml"
+      ],
+      "chain": [
+        "TownMoonwellL3"
+      ],
+      "slots": [
+        26,
+        29,
+        30,
+        37,
+        41,
+        112
+      ]
+    },
+    "TownTownHallL2": {
+      "radius_fixed4096": 10240,
+      "field_owner": "TownTownHallL2",
+      "field_source": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/unitdata.xml"
+      ],
+      "chain": [
+        "TownTownHallL2"
+      ],
+      "slots": [
+        8,
+        19,
+        48,
+        49,
+        52,
+        53
+      ]
+    },
+    "TownTownHallL3": {
+      "radius_fixed4096": 12288,
+      "field_owner": "TownTownHallL3",
+      "field_source": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/unitdata.xml"
+      ],
+      "chain": [
+        "TownTownHallL3"
+      ],
+      "slots": [
+        27,
+        40,
+        50,
+        51,
+        55,
+        56
+      ]
+    },
+    "TownWallRadial14L3": {
+      "radius_fixed4096": 8192,
+      "field_owner": "TownWallL3Parent",
+      "field_source": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/unitdata.xml"
+      ],
+      "chain": [
+        "TownWallRadial14L3",
+        "TownWallL3Parent"
+      ],
+      "slots": [
+        78
+      ]
+    },
+    "TownWallRadial15L3": {
+      "radius_fixed4096": 8192,
+      "field_owner": "TownWallL3Parent",
+      "field_source": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/unitdata.xml"
+      ],
+      "chain": [
+        "TownWallRadial15L3",
+        "TownWallL3Parent"
+      ],
+      "slots": [
+        79
+      ]
+    },
+    "TownWallRadial17L3": {
+      "radius_fixed4096": 8192,
+      "field_owner": "TownWallL3Parent",
+      "field_source": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/unitdata.xml"
+      ],
+      "chain": [
+        "TownWallRadial17L3",
+        "TownWallL3Parent"
+      ],
+      "slots": [
+        87
+      ]
+    },
+    "TownWallRadial18L2": {
+      "radius_fixed4096": 8192,
+      "field_owner": "TownWallL2Parent",
+      "field_source": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/unitdata.xml"
+      ],
+      "chain": [
+        "TownWallRadial18L2",
+        "TownWallL2Parent"
+      ],
+      "slots": [
+        69,
+        71,
+        82
+      ]
+    },
+    "TownWallRadial18L3": {
+      "radius_fixed4096": 8192,
+      "field_owner": "TownWallL3Parent",
+      "field_source": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/unitdata.xml"
+      ],
+      "chain": [
+        "TownWallRadial18L3",
+        "TownWallL3Parent"
+      ],
+      "slots": [
+        86
+      ]
+    },
+    "TownWallRadial19L2": {
+      "radius_fixed4096": 8192,
+      "field_owner": "TownWallL2Parent",
+      "field_source": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/unitdata.xml"
+      ],
+      "chain": [
+        "TownWallRadial19L2",
+        "TownWallL2Parent"
+      ],
+      "slots": [
+        68,
+        70,
+        83
+      ]
+    },
+    "TownWallRadial20L3": {
+      "radius_fixed4096": 8192,
+      "field_owner": "TownWallL3Parent",
+      "field_source": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/unitdata.xml"
+      ],
+      "chain": [
+        "TownWallRadial20L3",
+        "TownWallL3Parent"
+      ],
+      "slots": [
+        77
+      ]
+    },
+    "TownWallRadial21L3": {
+      "radius_fixed4096": 8192,
+      "field_owner": "TownWallL3Parent",
+      "field_source": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/unitdata.xml"
+      ],
+      "chain": [
+        "TownWallRadial21L3",
+        "TownWallL3Parent"
+      ],
+      "slots": [
+        76
+      ]
+    },
+    "TownWallRadial2L3": {
+      "radius_fixed4096": 8192,
+      "field_owner": "TownWallL3Parent",
+      "field_source": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/unitdata.xml"
+      ],
+      "chain": [
+        "TownWallRadial2L3",
+        "TownWallL3Parent"
+      ],
+      "slots": [
+        73
+      ]
+    },
+    "TownWallRadial3L3": {
+      "radius_fixed4096": 8192,
+      "field_owner": "TownWallL3Parent",
+      "field_source": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/unitdata.xml"
+      ],
+      "chain": [
+        "TownWallRadial3L3",
+        "TownWallL3Parent"
+      ],
+      "slots": [
+        72
+      ]
+    },
+    "TownWallRadial4L2": {
+      "radius_fixed4096": 8192,
+      "field_owner": "TownWallL2Parent",
+      "field_source": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/unitdata.xml"
+      ],
+      "chain": [
+        "TownWallRadial4L2",
+        "TownWallL2Parent"
+      ],
+      "slots": [
+        60,
+        67,
+        80
+      ]
+    },
+    "TownWallRadial5L2": {
+      "radius_fixed4096": 8192,
+      "field_owner": "TownWallL2Parent",
+      "field_source": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/unitdata.xml"
+      ],
+      "chain": [
+        "TownWallRadial5L2",
+        "TownWallL2Parent"
+      ],
+      "slots": [
+        21,
+        66,
+        81
+      ]
+    },
+    "TownWallRadial5L3": {
+      "radius_fixed4096": 8192,
+      "field_owner": "TownWallL3Parent",
+      "field_source": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/unitdata.xml"
+      ],
+      "chain": [
+        "TownWallRadial5L3",
+        "TownWallL3Parent"
+      ],
+      "slots": [
+        84
+      ]
+    },
+    "TownWallRadial6L3": {
+      "radius_fixed4096": 8192,
+      "field_owner": "TownWallL3Parent",
+      "field_source": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/unitdata.xml"
+      ],
+      "chain": [
+        "TownWallRadial6L3",
+        "TownWallL3Parent"
+      ],
+      "slots": [
+        85
+      ]
+    },
+    "TownWallRadial8L3": {
+      "radius_fixed4096": 8192,
+      "field_owner": "TownWallL3Parent",
+      "field_source": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/unitdata.xml"
+      ],
+      "chain": [
+        "TownWallRadial8L3",
+        "TownWallL3Parent"
+      ],
+      "slots": [
+        74
+      ]
+    },
+    "TownWallRadial9L3": {
+      "radius_fixed4096": 8192,
+      "field_owner": "TownWallL3Parent",
+      "field_source": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/unitdata.xml"
+      ],
+      "chain": [
+        "TownWallRadial9L3",
+        "TownWallL3Parent"
+      ],
+      "slots": [
+        75
+      ]
+    },
+    "VehicleDragon": {
+      "radius_fixed4096": 6144,
+      "field_owner": "VehicleDragon",
+      "field_source": [
+        "mods/heroesdata.stormmod/base.stormdata/gamedata/unitdata.xml"
+      ],
+      "chain": [
+        "VehicleDragon"
+      ],
+      "slots": [
+        57
+      ]
+    }
+  }
+}
