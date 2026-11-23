@@ -1,0 +1,30 @@
+{
+  "format": "98348-mana-addict-increment-and-score-owner-v1",
+  "shared_effect_data": {
+    "url": "https://raw.githubusercontent.com/jamiephan/HeroesOfTheStorm_Gamedata/v2.57.0.98348/mods/heroesdata.stormmod/base.stormdata/gamedata/effectdata.xml",
+    "bytes": 331337,
+    "sha256": "72eadb172d398a95a37929e62b65247be504b39dbd899bb05a2f47a6991e2ea0",
+    "git_blob_sha1": "21f3874151e57e5b8abf728745fa10511aed2446",
+    "id": "BaseEffectModifyTokenCount",
+    "value": "1",
+    "context_unit": "Target"
+  },
+  "hero_sha256": "39cf6954288e32edd73dfed13f82e45ab5f944a54f9f3fa9adaf2aacc7ffc13b",
+  "impact_set_member": "KaelthasManaAddictQuestIncrement",
+  "token_id": "KaelthasManaAddictQuestToken",
+  "recipient_unit": "Target",
+  "required_owner_talent": "KaelthasManaAddict",
+  "galaxy_script": {
+    "sha256": "a6384749fbe8f676cbd6ccb9ec1aeac004815d37a8e1c2f8f9f8f176b2bfca09",
+    "git_blob_sha1": "7103f83c821650aa38cc4b90f85d5bc043b6105f",
+    "lines_one_based": {
+      "score_report": 11358,
+      "get_effect_target": 20758,
+      "get_target_owner": 20759,
+      "increment_target_owner_score": 20760,
+      "register_impact_handler": 20767
+    },
+    "score_name": "RegenGlobes"
+  },
+  "scope": "A target impact can increment the talented recipient's token by one. The same target impact is registered for the owner's independent scoreboard count. The 41810 archive lacks this score field. The bridge from its named RegenGlobePickedUp records to historical native token writes remains unproved."
+}

@@ -1,0 +1,130 @@
+{
+  "format": "source-credit-mana-addict-thresholds-v1",
+  "source_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+  "tracker_sha256": "1a9a556f9f1fde466d17c4a3a3fbb31cbec8d8086bef97efeb796f1f5175245f",
+  "source_catalog_sha256": "aaf264de6c3e31ce4bee1b1a5d658d695036393e4077e539630dd553698e9bbb",
+  "target_xml_sha256": "39cf6954288e32edd73dfed13f82e45ab5f944a54f9f3fa9adaf2aacc7ffc13b",
+  "source_rules": {
+    "max_mana_per_globe": 15,
+    "globe_threshold": 25,
+    "shield_max_mana_percent": 100,
+    "duration_seconds": 4,
+    "cooldown_seconds": 45
+  },
+  "target_rules": {
+    "max_mana_per_globe": 15,
+    "globe_threshold": 20,
+    "shield_max_mana_percent": 100,
+    "duration_seconds": 4,
+    "cooldown_seconds": 45
+  },
+  "trace": {
+    "tracker_events": 6614,
+    "last_tracker_loop": 19680,
+    "header_elapsed_loops": 19732,
+    "all_named_globe_events": 220,
+    "score_field_count": 58,
+    "upgrade_type_count": 6,
+    "candidate_score_field_names": [],
+    "candidate_upgrade_names": [],
+    "owners_by_purchase_order": [
+      {
+        "purchase_loop": 355,
+        "credited_before_purchase": 0,
+        "credited_after_purchase": 21,
+        "ordered_credit_loops": [
+          1395,
+          1648,
+          2122,
+          3219,
+          4717,
+          5523,
+          6401,
+          7416,
+          7680,
+          7930,
+          8202,
+          10252,
+          11882,
+          11907,
+          13253,
+          13475,
+          14004,
+          16102,
+          17861,
+          18032,
+          18349
+        ],
+        "same_loop_multiplicities": {},
+        "source_threshold_loop": null,
+        "target_threshold_loop_on_source_credits": 18032,
+        "earlier_target_eligibility_window_on_source_credits": {
+          "from_loop_inclusive": 18032,
+          "until_source_threshold_loop_exclusive": null,
+          "still_open_at_end_of_recorded_credits": true
+        },
+        "projected_end_bonus_max_mana": 315
+      },
+      {
+        "purchase_loop": 1217,
+        "credited_before_purchase": 0,
+        "credited_after_purchase": 39,
+        "ordered_credit_loops": [
+          1463,
+          1692,
+          2819,
+          3052,
+          3057,
+          3373,
+          3917,
+          4021,
+          4298,
+          4632,
+          4987,
+          4991,
+          5684,
+          5942,
+          6363,
+          7290,
+          8038,
+          8717,
+          9420,
+          9704,
+          10071,
+          10529,
+          10922,
+          11161,
+          11332,
+          11332,
+          11603,
+          11603,
+          12573,
+          12956,
+          13521,
+          13521,
+          13830,
+          14671,
+          16610,
+          18273,
+          18737,
+          19017,
+          19202
+        ],
+        "same_loop_multiplicities": {
+          "11332": 2,
+          "11603": 2,
+          "13521": 2
+        },
+        "source_threshold_loop": 11332,
+        "target_threshold_loop_on_source_credits": 9704,
+        "earlier_target_eligibility_window_on_source_credits": {
+          "from_loop_inclusive": 9704,
+          "until_source_threshold_loop_exclusive": 11332,
+          "still_open_at_end_of_recorded_credits": false
+        },
+        "projected_end_bonus_max_mana": 585
+      }
+    ]
+  },
+  "scope": "Tracker credits are named and owner-specific. Eligibility windows and bonus mana assume one granted stack per credit. The original token counter, barrier cast, shield amount and synchronization equivalence are unverified."
+}

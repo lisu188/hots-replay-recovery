@@ -1,0 +1,27 @@
+{
+  "changes": [
+    {
+      "byte_offset": 93302,
+      "field": "ConditionalEvents.CompareValue",
+      "historical": 25,
+      "record": "KaelthasManaAddictQuestToken",
+      "stock": 20
+    },
+    {
+      "byte_offset": 241028,
+      "field": "QuestData.TargetCount",
+      "historical": 25,
+      "record": "KaelthasManaAddict",
+      "stock": 20
+    }
+  ],
+  "corrected_xml_sha256": "8f4c47489e5dac39a364f245370c7cdddee628366333d8d76756607cdea6d1aa",
+  "effective_map_catalog_verified": false,
+  "format": "kaelthas-mana-addict-threshold-restoration-v1",
+  "historical_catalog_sha256": "aaf264de6c3e31ce4bee1b1a5d658d695036393e4077e539630dd553698e9bbb",
+  "native_playback_verified": false,
+  "source_build": 41810,
+  "stock_xml_sha256": "39cf6954288e32edd73dfed13f82e45ab5f944a54f9f3fa9adaf2aacc7ffc13b",
+  "target_build": 98348,
+  "xml_bytes": 276044
+}
