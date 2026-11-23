@@ -1,0 +1,85 @@
+{
+  "format": "98348-native-optional-command-sequence-static-v1",
+  "source": {
+    "pe_bytes": 53573840,
+    "pe_sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+    "static_text_bytes": 36581376,
+    "static_text_sha256": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83",
+    "schema_program_sha256": "245aba71f1702e6bae480924df478c8479978e54c383dff4757eb40863932b2f",
+    "image_base": "0x140000000"
+  },
+  "headless_ida": {
+    "major_version": "9.0",
+    "empty_database_each_run": true,
+    "target_executed": false,
+    "runs": [
+      {
+        "windows": 45,
+        "instructions": 331,
+        "decoded_bytes_checked_against_pinned_transform": 1358
+      },
+      {
+        "windows": 18,
+        "instructions": 387,
+        "decoded_bytes_checked_against_pinned_transform": 1336
+      }
+    ]
+  },
+  "events": [
+    {
+      "id": 103,
+      "payload_type": 547,
+      "optional_type": 549,
+      "child_type": 550,
+      "object_bytes": 64,
+      "presence_byte_offset": "0x34",
+      "value_uint32_offset": "0x38"
+    },
+    {
+      "id": 104,
+      "payload_type": 551,
+      "optional_type": 552,
+      "child_type": 554,
+      "object_bytes": 72,
+      "presence_byte_offset": "0x30",
+      "value_uint32_offset": "0x34"
+    },
+    {
+      "id": 105,
+      "payload_type": 555,
+      "optional_type": 556,
+      "child_type": 558,
+      "object_bytes": 88,
+      "presence_byte_offset": "0x30",
+      "value_uint32_offset": "0x34"
+    }
+  ],
+  "native_payload_object_offset": "0x30",
+  "common_callbacks_rva": [
+    "0x1359510",
+    "0x1359550",
+    "0x1359560",
+    "0x1359580"
+  ],
+  "reader": {
+    "kind11_case_rva": "0x1a70f24",
+    "presence_read_rva": "0x1a70f3e",
+    "absent_branch_rva": "0x1a70f56",
+    "absent_callback_call_rva": "0x1a70f8e",
+    "present_child_reader_call_rva": "0x1a70f81",
+    "absent": "Returns through the clear callback. For a valid optional object it may clear its presence byte, without reading or writing its value.",
+    "present": "The engage callback returns member+4, initializing the uint32 to zero only on the transition from absent to present. The typed reader then decodes the integer into it."
+  },
+  "writer": {
+    "kind11_case_rva": "0x1a6f142",
+    "absent_branch_rva": "0x1a6f1ef",
+    "present_child_call_rva": "0x1a6f226",
+    "absent": "Writes the presence bit and bypasses the value accessor and integer writer."
+  },
+  "declared_present_value": {
+    "min": 1,
+    "max": 4294967295,
+    "bits": 32
+  },
+  "scope": "Static archive reader/writer and three object layouts on the recorded text transformation. Command simulation, fallback scheduling, game playback and live image equality are unverified. Missing sequence carries no decoded numeric value."
+}
