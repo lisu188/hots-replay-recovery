@@ -1,0 +1,12 @@
+{
+  "physical_source_frames": 6614,
+  "physical_target_frames": 675,
+  "joined_postzero": 440,
+  "field_changes": {
+    "gate_killer_encoding": 54,
+    "objective_time": 17
+  },
+  "ledger_sha256": "48ded0fc2551975f35a6735c79fdd9c079f6b73fe91f98af7e30adfb4cb8fe2c",
+  "sparse_sha256": "d9ec90c5eab4deef5d21dee2d4e8f94c5d5a09e5d8f226e469093c9676fc4202",
+  "prefix_sha256": "3c9ebfc479e391ea81746953ace5285f0253be514f0a7671d51dc1f5423bc4af"
+}
