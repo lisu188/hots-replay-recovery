@@ -1,0 +1,212 @@
+{
+  "source_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+  "map_sha256": "54e1a8fbe7e42f00b7b52cde420ed259105228fcdf165097ef52ecd0f5c4125a",
+  "ten": [
+    {
+      "source_game_ordinal": 427,
+      "selection_loop": 86,
+      "player_id": 6,
+      "hero": "HeroGreymane",
+      "original_index": 3,
+      "projected_index": 2,
+      "computed_identifier": "GreymaneInnerBeastViciousness",
+      "recorded_tracker_ordinal": 243
+    },
+    {
+      "source_game_ordinal": 1536,
+      "selection_loop": 354,
+      "player_id": 7,
+      "hero": "HeroKaelthas",
+      "original_index": 2,
+      "projected_index": 2,
+      "computed_identifier": "KaelthasManaAddict",
+      "recorded_tracker_ordinal": 250
+    },
+    {
+      "source_game_ordinal": 6214,
+      "selection_loop": 1216,
+      "player_id": 4,
+      "hero": "HeroKaelthas",
+      "original_index": 2,
+      "projected_index": 2,
+      "computed_identifier": "KaelthasManaAddict",
+      "recorded_tracker_ordinal": 464
+    }
+  ],
+  "target_count": 3,
+  "wire_bytes": 302,
+  "wire_sha256": "641010b8498a0e4faf25ab206cc6df3f41aa7d85b13db22a2ec5fcbb8288e91b",
+  "checked_native_archives": 24,
+  "checked_native_awards": 6,
+  "native_exact_hero_selectors": {
+    "HeroGreymane:0": 1,
+    "HeroGreymane:2": 2,
+    "HeroKaelthas:0": 1,
+    "HeroKaelthas:2": 2
+  },
+  "approximate_or_missing_awards_admitted": 0,
+  "target_runtime_verified": false,
+  "controls": [
+    {
+      "sha256": "1230eee79fd3b50a3ee471c587bc77dd14aef67d57bf22cd8df52e877329323a",
+      "awards": [
+        {
+          "source_game_ordinal": 4718,
+          "selection_loop": 667,
+          "player_id": 4,
+          "hero": "HeroKaelthas",
+          "original_index": 0,
+          "projected_index": 0,
+          "computed_identifier": "KaelthasFlamestrikeConvection",
+          "recorded_tracker_ordinal": 479
+        }
+      ]
+    },
+    {
+      "sha256": "4732077e899f6894c29586795a01e2a27fba622dbf22b5d29c7b30d57e3ce4fc",
+      "awards": []
+    },
+    {
+      "sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+      "awards": []
+    },
+    {
+      "sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+      "awards": []
+    },
+    {
+      "sha256": "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+      "awards": []
+    },
+    {
+      "sha256": "715e309bba5d3151d3e1b47461041627db7644d91a8b549c309950e44d6067e8",
+      "awards": []
+    },
+    {
+      "sha256": "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+      "awards": []
+    },
+    {
+      "sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+      "awards": []
+    },
+    {
+      "sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+      "awards": []
+    },
+    {
+      "sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+      "awards": []
+    },
+    {
+      "sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+      "awards": []
+    },
+    {
+      "sha256": "9872b043e48093abc65e11b7b6d091861e83fc4d202b40b745824da647cb6ef3",
+      "awards": []
+    },
+    {
+      "sha256": "98ac891fa4fb8e1698e5fc35609fcf75abfe7e89aee9c7f05afff93b10338ab3",
+      "awards": []
+    },
+    {
+      "sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4",
+      "awards": [
+        {
+          "source_game_ordinal": 5581,
+          "selection_loop": 1099,
+          "player_id": 8,
+          "hero": "HeroKaelthas",
+          "original_index": 2,
+          "projected_index": 2,
+          "computed_identifier": "KaelthasManaAddict",
+          "recorded_tracker_ordinal": 176
+        }
+      ]
+    },
+    {
+      "sha256": "a956b186a0459a47d9b0fdd8af4ccb65c437f11926186471c434e543e218b2d7",
+      "awards": []
+    },
+    {
+      "sha256": "afcf49a656068f343173fc79afff2d2ebf15066f531cb192382cdba9d1ea3272",
+      "awards": [
+        {
+          "source_game_ordinal": 823,
+          "selection_loop": 122,
+          "player_id": 2,
+          "hero": "HeroGreymane",
+          "original_index": 2,
+          "projected_index": 2,
+          "computed_identifier": "GreymaneInnerBeastViciousness",
+          "recorded_tracker_ordinal": 262
+        },
+        {
+          "source_game_ordinal": 1065,
+          "selection_loop": 139,
+          "player_id": 3,
+          "hero": "HeroKaelthas",
+          "original_index": 2,
+          "projected_index": 2,
+          "computed_identifier": "KaelthasManaAddict",
+          "recorded_tracker_ordinal": 263
+        }
+      ]
+    },
+    {
+      "sha256": "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+      "awards": []
+    },
+    {
+      "sha256": "bc16af7f68496cddc4698f70b3853402a0f30aa37951aec3a6b555ed703879e8",
+      "awards": []
+    },
+    {
+      "sha256": "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77",
+      "awards": [
+        {
+          "source_game_ordinal": 4394,
+          "selection_loop": 704,
+          "player_id": 6,
+          "hero": "HeroGreymane",
+          "original_index": 0,
+          "projected_index": 0,
+          "computed_identifier": "GreymaneInnerBeastWolfheart",
+          "recorded_tracker_ordinal": 410
+        }
+      ]
+    },
+    {
+      "sha256": "d41417f0fd11a1d512e30fa77882bdebf220432bd7e9412b40440cb79a7c9cec",
+      "awards": []
+    },
+    {
+      "sha256": "db40f495edb70b2127b97cae4f479de19e18e61b2a5a0e0413052b571e1dbf7e",
+      "awards": []
+    },
+    {
+      "sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+      "awards": []
+    },
+    {
+      "sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+      "awards": [
+        {
+          "source_game_ordinal": 2344,
+          "selection_loop": 560,
+          "player_id": 7,
+          "hero": "HeroGreymane",
+          "original_index": 2,
+          "projected_index": 2,
+          "computed_identifier": "GreymaneInnerBeastViciousness",
+          "recorded_tracker_ordinal": 291
+        }
+      ]
+    },
+    {
+      "sha256": "fe801daf9df44f10db2b950989308c8ee2fa55c03b4adfef7ac383b4d46583bf",
+      "awards": []
+    }
+  ]
+}
