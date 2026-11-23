@@ -1,0 +1,425 @@
+{
+  "build": 98348,
+  "map_sha256": "bda7aafd1d63c77b3b4d29ff2afee96da09a3104b54b4a1d625bb299607d9008",
+  "executable_sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+  "text_sha256": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83",
+  "native_windows": 13,
+  "array_index": 19,
+  "bit": 30,
+  "opening_slots": 172,
+  "opening_types": 45,
+  "positive_and_negative_controls": {
+    "MISSILE": 1,
+    "MISSILE_INVULNERABLE": 1,
+    "XalatathVoidEruptionDummyMissile": 0,
+    "HealingPadSearchUnit": 0
+  },
+  "recorded_type_set_slots": 0,
+  "qualified_for": "Selected shared type equals the recorded opening type, or has the same Missile flag.",
+  "runtime_selected_type_observed": false,
+  "first_fast_crc_verified": false,
+  "by_unit": {
+    "CampOwnershipFlag": {
+      "missile": 0,
+      "slots": [
+        61,
+        62,
+        63,
+        64,
+        65
+      ]
+    },
+    "DragonShireShrineMoon": {
+      "missile": 0,
+      "slots": [
+        13
+      ]
+    },
+    "DragonShireShrineSun": {
+      "missile": 0,
+      "slots": [
+        59
+      ]
+    },
+    "DragonballCaptureBeacon": {
+      "missile": 0,
+      "slots": [
+        170,
+        171
+      ]
+    },
+    "GardensDragonShrineTargetMoon": {
+      "missile": 0,
+      "slots": [
+        108
+      ]
+    },
+    "GardensDragonShrineTargetSun": {
+      "missile": 0,
+      "slots": [
+        109
+      ]
+    },
+    "HealingPadSearchUnit": {
+      "missile": 0,
+      "slots": [
+        110,
+        111
+      ]
+    },
+    "KingsCore": {
+      "missile": 0,
+      "slots": [
+        54,
+        58
+      ]
+    },
+    "StormGameStartPathingBlocker": {
+      "missile": 0,
+      "slots": [
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122
+      ]
+    },
+    "StormGameStartPathingBlockerDiagonal": {
+      "missile": 0,
+      "slots": [
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156
+      ]
+    },
+    "TheLittleKing": {
+      "missile": 0,
+      "slots": [
+        5
+      ]
+    },
+    "TownCannonTowerL2": {
+      "missile": 0,
+      "slots": [
+        1,
+        2,
+        10,
+        12,
+        17,
+        18,
+        20,
+        24,
+        31,
+        32,
+        33,
+        35
+      ]
+    },
+    "TownCannonTowerL2Standalone": {
+      "missile": 0,
+      "slots": [
+        3,
+        14,
+        157,
+        158,
+        159,
+        160
+      ]
+    },
+    "TownCannonTowerL3": {
+      "missile": 0,
+      "slots": [
+        0,
+        7,
+        22,
+        23,
+        28,
+        34,
+        38,
+        39,
+        42,
+        44,
+        45,
+        47
+      ]
+    },
+    "TownCannonTowerL3Standalone": {
+      "missile": 0,
+      "slots": [
+        25,
+        36,
+        161,
+        162,
+        163,
+        164
+      ]
+    },
+    "TownGateL215BLUR": {
+      "missile": 0,
+      "slots": [
+        11,
+        15,
+        46
+      ]
+    },
+    "TownGateL215BRUL": {
+      "missile": 0,
+      "slots": [
+        4,
+        9,
+        43
+      ]
+    },
+    "TownGateL3BLURBRVisionBlocked": {
+      "missile": 0,
+      "slots": [
+        131
+      ]
+    },
+    "TownGateL3BLURTLVisionBlocked": {
+      "missile": 0,
+      "slots": [
+        127
+      ]
+    },
+    "TownGateL3BRULBLVisionBlocked": {
+      "missile": 0,
+      "slots": [
+        128
+      ]
+    },
+    "TownGateL3BRULTRVisionBlocked": {
+      "missile": 0,
+      "slots": [
+        132
+      ]
+    },
+    "TownGateL3VerticalLeftVisionBlocked": {
+      "missile": 0,
+      "slots": [
+        129
+      ]
+    },
+    "TownGateL3VerticalRightVisionBlocked": {
+      "missile": 0,
+      "slots": [
+        130
+      ]
+    },
+    "TownMercCampCaptureBeacon": {
+      "missile": 0,
+      "slots": [
+        165,
+        166,
+        167,
+        168,
+        169
+      ]
+    },
+    "TownMoonwellL2": {
+      "missile": 0,
+      "slots": [
+        6,
+        16,
+        123,
+        124,
+        125,
+        126
+      ]
+    },
+    "TownMoonwellL3": {
+      "missile": 0,
+      "slots": [
+        26,
+        29,
+        30,
+        37,
+        41,
+        112
+      ]
+    },
+    "TownTownHallL2": {
+      "missile": 0,
+      "slots": [
+        8,
+        19,
+        48,
+        49,
+        52,
+        53
+      ]
+    },
+    "TownTownHallL3": {
+      "missile": 0,
+      "slots": [
+        27,
+        40,
+        50,
+        51,
+        55,
+        56
+      ]
+    },
+    "TownWallRadial14L3": {
+      "missile": 0,
+      "slots": [
+        78
+      ]
+    },
+    "TownWallRadial15L3": {
+      "missile": 0,
+      "slots": [
+        79
+      ]
+    },
+    "TownWallRadial17L3": {
+      "missile": 0,
+      "slots": [
+        87
+      ]
+    },
+    "TownWallRadial18L2": {
+      "missile": 0,
+      "slots": [
+        69,
+        71,
+        82
+      ]
+    },
+    "TownWallRadial18L3": {
+      "missile": 0,
+      "slots": [
+        86
+      ]
+    },
+    "TownWallRadial19L2": {
+      "missile": 0,
+      "slots": [
+        68,
+        70,
+        83
+      ]
+    },
+    "TownWallRadial20L3": {
+      "missile": 0,
+      "slots": [
+        77
+      ]
+    },
+    "TownWallRadial21L3": {
+      "missile": 0,
+      "slots": [
+        76
+      ]
+    },
+    "TownWallRadial2L3": {
+      "missile": 0,
+      "slots": [
+        73
+      ]
+    },
+    "TownWallRadial3L3": {
+      "missile": 0,
+      "slots": [
+        72
+      ]
+    },
+    "TownWallRadial4L2": {
+      "missile": 0,
+      "slots": [
+        60,
+        67,
+        80
+      ]
+    },
+    "TownWallRadial5L2": {
+      "missile": 0,
+      "slots": [
+        21,
+        66,
+        81
+      ]
+    },
+    "TownWallRadial5L3": {
+      "missile": 0,
+      "slots": [
+        84
+      ]
+    },
+    "TownWallRadial6L3": {
+      "missile": 0,
+      "slots": [
+        85
+      ]
+    },
+    "TownWallRadial8L3": {
+      "missile": 0,
+      "slots": [
+        74
+      ]
+    },
+    "TownWallRadial9L3": {
+      "missile": 0,
+      "slots": [
+        75
+      ]
+    },
+    "VehicleDragon": {
+      "missile": 0,
+      "slots": [
+        57
+      ]
+    }
+  },
+  "recorded_type_live_radius_ledger": {
+    "sha256": "7ed61d56f795b59a0bf154bc56ff443a36779b3b7aaddbc56bda0716f1fe36fd",
+    "known_bits_per_slot": 93,
+    "slots": 172
+  }
+}

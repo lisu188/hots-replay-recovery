@@ -1,0 +1,16 @@
+{
+  "through_loop": 64,
+  "original": {
+    "opening_units": 172,
+    "type_changes": 0,
+    "all_type_changes": 0,
+    "recordings": 1
+  },
+  "target": {
+    "opening_units": 4211,
+    "type_changes": 0,
+    "all_type_changes": 0,
+    "recordings": 24
+  },
+  "observes_shared_type_pointer_at_first_insertion": false
+}

@@ -1,0 +1,9 @@
+{
+  "slots": 172,
+  "byte_identical_value_fields": 172,
+  "only_added_mask_bit": 30,
+  "known_bits_before": 92,
+  "known_bits_after": 93,
+  "rejected_mixed_inputs": 3,
+  "private_ledger_sha256": "7ed61d56f795b59a0bf154bc56ff443a36779b3b7aaddbc56bda0716f1fe36fd"
+}
