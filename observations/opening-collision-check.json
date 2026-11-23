@@ -1,0 +1,9 @@
+{
+  "slots": 172,
+  "added_bit": 28,
+  "known_bits": 94,
+  "unchanged_values": 172,
+  "low_only_cases": 80,
+  "air_cases": 4,
+  "ledger_sha256": "085de11a4512e65e649757b13670ea15e3fbe8ffc97e5577ca0a0f292280ed0a"
+}
