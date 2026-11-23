@@ -1,0 +1,21 @@
+# TEN's opening sound order
+
+At source ordinal 33, loop 68, user 1 (player 2) acknowledges handle `0x003a0c7b`. The first ten distinct acknowledgements from each of TEN's ten players identify eleven sound objects. Each player's list omits a different one. All ten lists end with the same handle, `0x00400c4f`. Ordering the other ten objects by which player omits them reproduces the recorded order, with the common object last.
+
+In all 23 target recordings whose first offset occurs at loop 67 or 68, the first word agrees across all ten reporting players. One further recording begins at loop 664 and differs. Nineteen of the 24 target recordings, including 13 stock Dragon Shire recordings, follow the full order **common object first, then players 1 through 10 with the reporter's own player omitted**. For each recording, the checker infers eleven handle values from nine players and predicts the withheld player's first ten words. It recovers 190 complete target sequences and 30 complete historical sequences, including TEN, under their respective build orders. Swapping the orders recovers zero. Five target and one historical recording fall outside the full ten-player template.
+
+For source user 1, the candidate target order refers to source ordinals **42, 33, 34, 35, 36, 37, 38, 39, 40, 41** in that user's first batch. The JSON supplies the corresponding order for each of the ten users. These permutations identify source roles. Target handle values and the timing or interleaving of an unobserved target recording remain open. Even after reordering, the 19 closed target controls have 19 different common words. A second relation predicts 76 of 76 numeric handles for player roles 7–10 when supplied with the *same target recording's* player-6 handle. The last five are consecutive, generation 1, in all 19 controls. TEN's target recording has no such measured anchor.
+
+Two further 41810 matches, reserved until after the order was fixed, each reproduced ten of ten withheld user sequences in historical order. The reverse order reproduced zero. Their first offsets are at loops 67 and 68. `held-out-sound-roles.json` records both hashes and results.
+
+## Allocation
+
+Build 98348's ordinary sound creation path calls RVA 0x1ff7240 at 0x20d62dc, then invokes the class initializer that registers object +8 in the active sound list. Class 15 comes from vtable 0x26b4e98 slot +0x20. The class-specific memory cache at 0x3676978 is separate from the shared 65,536-slot Galaxy handle table at 0x4020980.
+
+The normal allocation route prefers the head of the free list. With no available free slot, it takes the next virgin slot, initially 2. It increments the selected slot's 16-bit generation modulo 65,536 and writes `(generation << 16) | slot` to object +8. Normal release clears class and pointer, preserves generation, then prepends the slot to the free list. Multiple object classes draw from this table. A restore route at 0x1ff7320 accepts a supplied word. Without a reset/restore transition, the 19 native rounds require at least 21,249–21,669 total allocations through the eleven observed handles, depending on the recording. This includes ordinary allocations for every class sharing the registry.
+
+## Script evidence and scope
+
+The pinned GameLib builds a group from players 1–10 plus observer UI player 0, queues `GetReadyForBattle` for that group after the opening gate timer reaches 34 seconds remaining, and visits the group with `PlayerGroupNextPlayer`. SoundLib plays each configured announcer sound for one player's group and waits for the sound end on this event in the ordinary game mode. The checked GateOrder map script initializes the stock countdown trigger. These facts fit the common-first target order and a sound for observer 0. A replay offset contains no catalog name or explicit role, so this association remains an inference. Reconstructing the exact target word requires the shared registry's free-list head and slot generation at the corresponding allocation, or equivalent independently derived state.
+
+Run `verify_sound_registry.py PE DECODED_TEXT` for the native bindings and model checks. Run `opening_sound_roles.py --case BUILD SHA256 PATH ...` for the actual input comparisons. Each tool takes read-only inputs and prints JSON.

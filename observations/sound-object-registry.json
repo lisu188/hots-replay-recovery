@@ -1,0 +1,20 @@
+{
+  "build": 98348,
+  "pe_sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+  "text_sha256": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83",
+  "sound_class": 15,
+  "class_vtable": "0x26b4e98",
+  "pool": "0x4020980",
+  "free_head": "0x4120980",
+  "next_virgin": "0x4120984",
+  "first_slot": 2,
+  "capacity": 65534,
+  "stride": 16,
+  "generation_bits": 16,
+  "generation_increment_on_allocation": true,
+  "reuse_order": "last retired first",
+  "generation_wraps": true,
+  "ordinary_exhaustion_result": 0,
+  "explicit_restore_uses_supplied_word": true,
+  "tested_native_ten_word": null
+}

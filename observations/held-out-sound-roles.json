@@ -1,0 +1,36 @@
+[
+  {
+    "sha256": "036e05a19255d42930ee561b3bfd07234d8d6e15fb87dd893798ff64d252acce",
+    "build": 41810,
+    "stock_dragon": false,
+    "first_ordinal": 39,
+    "first_loop": 68,
+    "first_reporting_user": 1,
+    "first_reporting_player": 2,
+    "first_word": 3214524,
+    "reporting_players": 10,
+    "fully_reproduced_held_out_users": 10,
+    "reversed_order_held_out_users": 0,
+    "closed_ten_user_round": true,
+    "first_report_word_same_for_all_ten": false,
+    "common_word": 18885902,
+    "late_five_player_words_generation_one_consecutive": false
+  },
+  {
+    "sha256": "3a33d012a9d47dc1e66595398c2f3dd75cbc9240762996cf52c9c6ad8337e869",
+    "build": 41810,
+    "stock_dragon": false,
+    "first_ordinal": 49,
+    "first_loop": 67,
+    "first_reporting_user": 1,
+    "first_reporting_player": 2,
+    "first_word": 19279342,
+    "reporting_players": 10,
+    "fully_reproduced_held_out_users": 10,
+    "reversed_order_held_out_users": 0,
+    "closed_ten_user_round": true,
+    "first_report_word_same_for_all_ten": false,
+    "common_word": 3148906,
+    "late_five_player_words_generation_one_consecutive": false
+  }
+]
