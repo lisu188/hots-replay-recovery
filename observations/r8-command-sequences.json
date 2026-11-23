@@ -1,0 +1,60 @@
+{
+  "parent_sha256": "5ed50ccfcd947b92488cba095973dcd9d4de76a976a457417203608d379b3f01",
+  "parent_game_sha256": "5bdad0febafc9cd6731a7f9956664eafcb8ca3ef24187481394e01beadee4613",
+  "source_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+  "output_sha256": "50328fad2a8e7808b978ace43e30a49ba175515998c83887a93305ca63e5af8d",
+  "output_bytes": 4214430,
+  "retained_build": 98285,
+  "sync_records": 308,
+  "sync_sha256": "62a68b50c8cf0c94da98403dad8cda0f92e02580ec9590b2b32815ee32f8d8ae",
+  "changed_members": [
+    "(attributes)",
+    "replay.game.events"
+  ],
+  "unchanged_members": 12,
+  "independent_mpq_readers_agree": true,
+  "source_and_parent_unchanged": true,
+  "target_simulation_verified": false,
+  "physical_controls": [
+    {
+      "replay_sha256": "05ec458110db57dd5cf6c044cb6b7270d880282ec803abce725f048f91fc3e75",
+      "frames": 1298,
+      "enclosing_bytes": 18302,
+      "rules": {
+        "opening": 1030,
+        "interval": 190,
+        "immediate": 93
+      },
+      "events": {
+        "103": 274,
+        "104": 1024
+      }
+    },
+    {
+      "replay_sha256": "5a7b05f4a75bc229dbbd74e6cc09e3b411129fc731874cfaa9217432fb85e7dc",
+      "frames": 4,
+      "enclosing_bytes": 37,
+      "rules": {
+        "opening": 4
+      },
+      "events": {
+        "103": 3,
+        "104": 1
+      }
+    }
+  ],
+  "full_game_events": 104257,
+  "original_ordinal_predictions": 708,
+  "disposition": {
+    "populated": 708
+  },
+  "changed_events": {
+    "104": 688,
+    "103": 20
+  },
+  "resulting_game_bytes": 1151268,
+  "game_bytes_added": 2832,
+  "game_sha256": "e783f0ac96bcd57901e18eee6cbc026411b688b2b2d24d3ac8dc7099e9c902c3",
+  "edits_ledger_sha256": "89060d01081edc3f49c4661d5add51d684031596224238fdb1d668198cbfc7fa",
+  "two_full_archive_builds_byte_identical": true
+}
