@@ -1,0 +1,76 @@
+{
+  "source_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+  "parent_sha256": "50328fad2a8e7808b978ace43e30a49ba175515998c83887a93305ca63e5af8d",
+  "output_sha256": "2ee895d18bf0395de81bef5138fe471bcb427ba7dcd7184e273dc1262c77c413",
+  "output_bytes": 4806690,
+  "declared_build": 98285,
+  "sync_records": 308,
+  "sync_sha256": "62a68b50c8cf0c94da98403dad8cda0f92e02580ec9590b2b32815ee32f8d8ae",
+  "unchanged_members": 12,
+  "changed_members": [
+    "(attributes)",
+    "replay.game.events"
+  ],
+  "game_bytes": 1151268,
+  "game_sha256": "c427ad1be23037c05431201e849a35bcccd908a4c57141ecde187c00d04bf723",
+  "source_hero_fragment": "8b7b9f34076bd831a39f56f766719d8f69711e41bf8de38fd88c1837e83fa5ca",
+  "source_cast_fragment": "cf0c61fb8b2df7bc15649576f51a806053633a6d06d258a08c38c9021ba0a488",
+  "exact_build_witnesses": {
+    "hero": {
+      "HeroAnubarak": {
+        "link": 468,
+        "frames": 274
+      },
+      "HeroKaelthas": {
+        "link": 632,
+        "frames": 58
+      },
+      "HeroTyrande": {
+        "link": 850,
+        "frames": 50
+      }
+    },
+    "cast": {
+      "AbathurToxicNest": {
+        "link": 154,
+        "flag": 256,
+        "frames": 41
+      }
+    }
+  },
+  "exact_build_controls": [
+    {
+      "replay_sha256": "05ec458110db57dd5cf6c044cb6b7270d880282ec803abce725f048f91fc3e75",
+      "spawn_frames": 41,
+      "spawn_bytes": 943,
+      "verified_hero_frames": 382,
+      "hero_bytes": 11460
+    },
+    {
+      "replay_sha256": "5a7b05f4a75bc229dbbd74e6cc09e3b411129fc731874cfaa9217432fb85e7dc",
+      "spawn_frames": 0,
+      "spawn_bytes": 0,
+      "verified_hero_frames": 0,
+      "hero_bytes": 0
+    }
+  ],
+  "independent_mpq_readers_agree": true,
+  "target_simulation_verified": false,
+  "full_game_events": 104257,
+  "considered": 68,
+  "changed": 60,
+  "changed_by_unit": {
+    "AbathurToxicNest": 49,
+    "HeroAnubarak": 6,
+    "HeroKaelthas": 3,
+    "HeroTyrande": 2
+  },
+  "withheld_by_unit": {
+    "HeroBarbarian": 5,
+    "HeroGreymane": 1,
+    "NovaHoloClone": 2
+  },
+  "physical_differing_bytes": 77,
+  "edit_ledger_sha256": "553ac9731346d7b0c0969bcb12d929a4901f02e0deed9b586fdc35ae3381a622",
+  "two_full_archive_builds_byte_identical": true
+}
