@@ -8,6 +8,7 @@ import json
 from pathlib import Path
 
 from map_startup_identity import match_startup, parse_objects
+from dragonshire_packages import HISTORICAL_PACKAGES
 from mpq_mixed_sectors import read_member
 from mpq_reader import MPQArchive
 from plan_authored_targets import join_layouts
@@ -16,7 +17,7 @@ from smartcam_tags import decode, read_case, components, pack, MAP, SOURCE, TARG
 
 PROFILE = {
     MAP: 41810,
-    "662a90d5ea72c8454d66a1070b3200e6a2929f3d2069e2c07ecc07cfcc79b800": 41810,
+    **dict.fromkeys(HISTORICAL_PACKAGES, 41810),
     TARGET_MAP: 98348,
     "2de7e30ecf97cb975f483e8dc33ec05035d5b42d1e45a9a011dfecb4984b1632": 98348,
 }

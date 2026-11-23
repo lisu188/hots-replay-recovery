@@ -9,15 +9,13 @@ from pathlib import Path
 from xml.etree import ElementTree
 
 from command_authored_xy import analyze, fixed, get_target
+from dragonshire_packages import HISTORICAL_PACKAGE, historical_package_digest
 from map_startup_identity import parse_objects
 from migrate_replay import decode_events, encode_events
 from mpq_mixed_sectors import read_member
 from mpq_reader import MPQArchive
 from project_layout_xy import MAPS, SOURCE
 from protocol_loader import load_protocol
-
-HISTORICAL_PACKAGE = "662a90d5ea72c8454d66a1070b3200e6a2929f3d2069e2c07ecc07cfcc79b800"
-
 
 def layout(path, digest):
     if sha256(path.read_bytes()).hexdigest() != digest:
@@ -49,7 +47,8 @@ def match_package_row(row, original, package):
 
 def profile(original_map, package_map, source_replay, stock_map=None, rows=False):
     original_xml = layout(original_map, MAPS[41810])
-    package_xml = layout(package_map, HISTORICAL_PACKAGE)
+    package_sha = historical_package_digest(package_map)
+    package_xml = layout(package_map, package_sha)
     if package_xml != original_xml:
         raise ValueError("Historical package changed the complete Objects member")
     original, package = placements(original_xml), placements(package_xml)
@@ -96,7 +95,7 @@ def profile(original_map, package_map, source_replay, stock_map=None, rows=False
         format="historical-layout-building-command-xy-v1",
         source_sha256=SOURCE,
         original_map_sha256=MAPS[41810],
-        package_sha256=HISTORICAL_PACKAGE,
+        package_sha256=package_sha,
         objects_bytes=len(package_xml),
         objects_sha256=sha256(package_xml).hexdigest(),
         all_objects_identical=True,

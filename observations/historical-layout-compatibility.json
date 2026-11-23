@@ -1,0 +1,41 @@
+[
+  {
+    "package_sha256": "662a90d5ea72c8454d66a1070b3200e6a2929f3d2069e2c07ecc07cfcc79b800",
+    "building_snapshot_fields": 2179,
+    "map_qualified_pings": 59,
+    "beacon_owner_frames": 26,
+    "verified_initial_camera_endpoints": 6,
+    "generated_sha256": [
+      "1caf663b5823c277735745a7fe528d6b989b0542e4689a4771c4afcf280c5b35",
+      "3e073059c7b2cba761860229f8ac78e12d8f4cf388fb76f9fcd197c8c25a5da2",
+      "b76ea6aec0b2788e06ee1a4a739a9464f6d1d3ff883cf121ae4f66cf0a61ff2b",
+      "b1e10df5fb6534fa52d5a5eae7adb5d85984ce3d6894b4ce256311cd991ed3b0"
+    ]
+  },
+  {
+    "package_sha256": "e8d151e5d574babf187e3c0b06cd4b29d2280ac085773afda36a3ebb9c79ffa7",
+    "building_snapshot_fields": 2179,
+    "map_qualified_pings": 59,
+    "beacon_owner_frames": 26,
+    "verified_initial_camera_endpoints": 6,
+    "generated_sha256": [
+      "1caf663b5823c277735745a7fe528d6b989b0542e4689a4771c4afcf280c5b35",
+      "3e073059c7b2cba761860229f8ac78e12d8f4cf388fb76f9fcd197c8c25a5da2",
+      "b76ea6aec0b2788e06ee1a4a739a9464f6d1d3ff883cf121ae4f66cf0a61ff2b",
+      "b1e10df5fb6534fa52d5a5eae7adb5d85984ce3d6894b4ce256311cd991ed3b0"
+    ]
+  },
+  {
+    "package_sha256": "e6167145ee82e6c139f07336cd65fced5c86d162da19baad57a2d3e82b3a455e",
+    "building_snapshot_fields": 2179,
+    "map_qualified_pings": 59,
+    "beacon_owner_frames": 26,
+    "verified_initial_camera_endpoints": 6,
+    "generated_sha256": [
+      "1caf663b5823c277735745a7fe528d6b989b0542e4689a4771c4afcf280c5b35",
+      "3e073059c7b2cba761860229f8ac78e12d8f4cf388fb76f9fcd197c8c25a5da2",
+      "b76ea6aec0b2788e06ee1a4a739a9464f6d1d3ff883cf121ae4f66cf0a61ff2b",
+      "b1e10df5fb6534fa52d5a5eae7adb5d85984ce3d6894b4ce256311cd991ed3b0"
+    ]
+  }
+]

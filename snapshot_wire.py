@@ -11,7 +11,8 @@ import json
 from pathlib import Path
 
 from command_authored_xy import analyze
-from historical_layout_xy import profile, HISTORICAL_PACKAGE, MAPS, SOURCE
+from historical_layout_xy import profile, MAPS, SOURCE
+from dragonshire_packages import HISTORICAL_PACKAGES, historical_package_digest
 from map_startup_identity import SCHEMAS
 from mpq_mixed_sectors import read_member
 from mpq_reader import MPQArchive
@@ -87,7 +88,7 @@ def terrain(path):
 
 def source_artifact(original, package, replay):
     source = profile(original, package, replay, rows=True)
-    if source["package_sha256"] != HISTORICAL_PACKAGE:
+    if source["package_sha256"] not in HISTORICAL_PACKAGES:
         raise ValueError("Unexpected historical talent map")
     plane = terrain(package)
     with closing(MPQArchive(replay)) as arc:
@@ -223,7 +224,10 @@ def generate(original, package, replay, destination):
     """Write the private binary, per-command index and digest receipt to a new directory."""
     if destination.exists() or destination.is_symlink():
         raise FileExistsError("A new output directory is required")
+    package_sha = historical_package_digest(package)
     raw, index = source_artifact(original, package, replay)
+    if historical_package_digest(package) != package_sha:
+        raise ValueError("Historical package changed during encoding")
     table = io.StringIO()
     writer = csv.writer(table, delimiter="\t", lineterminator="\n")
     writer.writerow(
@@ -244,7 +248,7 @@ def generate(original, package, replay, destination):
     summary = dict(
         format="target-98348-command-snapshot-point-phase-slices-v1",
         source_replay=SOURCE,
-        historical_map_sha256=HISTORICAL_PACKAGE,
+        historical_map_sha256=package_sha,
         field_bits_per_ordinal=72,
         phases_per_point=8,
         bytes_per_phase_variant=9,

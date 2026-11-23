@@ -11,6 +11,7 @@ from pathlib import Path
 from xml.etree import ElementTree
 
 from dragon_startup_births import predict
+from dragonshire_packages import HISTORICAL_PACKAGE, HISTORICAL_PACKAGES
 from encoders import VersionedEncoder, encode_tracker_events
 from mpq_mixed_sectors import read_member
 from mpq_reader import MPQArchive
@@ -18,10 +19,9 @@ from predict_camp_captures import SOURCE, MAP, number
 from protocol_loader import load_protocol
 
 STOCK = "f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f"
-HISTORICAL_PACKAGE = "662a90d5ea72c8454d66a1070b3200e6a2929f3d2069e2c07ecc07cfcc79b800"
 STOCK_PACKAGE = "2de7e30ecf97cb975f483e8dc33ec05035d5b42d1e45a9a011dfecb4984b1632"
 SCHEMAS = {41810: 41810, 98348: 96477}
-PROFILE_MAPS = {41810: {MAP, HISTORICAL_PACKAGE}, 98348: {STOCK, STOCK_PACKAGE}}
+PROFILE_MAPS = {41810: {MAP, *HISTORICAL_PACKAGES}, 98348: {STOCK, STOCK_PACKAGE}}
 RESET = {41810: 16, 98348: 48}
 TARGET_SCHEMA_SHA = "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84"
 HISTORICAL_SCHEMA_SHA = (

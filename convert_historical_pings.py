@@ -8,7 +8,8 @@ import json
 from pathlib import Path
 
 import native_game_events as native
-from camp_owner_wire import HISTORICAL_PACKAGE, TARGET_SCHEMA_SHA
+from camp_owner_wire import TARGET_SCHEMA_SHA
+from dragonshire_packages import historical_package_digest
 from map_startup_identity import match_startup, parse_objects
 from mpq_mixed_sectors import read_member
 from mpq_reader import MPQArchive
@@ -23,8 +24,6 @@ from tempfile import TemporaryDirectory
 PING = 36
 FIELDS = ("m_point", "m_unit", "m_pingedMinimap", "m_option")
 R8 = "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19"
-GREYMANE_PACKAGE = "e8d151e5d574babf187e3c0b06cd4b29d2280ac085773afda36a3ebb9c79ffa7"
-COCKTAIL_PACKAGE = "e6167145ee82e6c139f07336cd65fced5c86d162da19baad57a2d3e82b3a455e"
 
 
 def pinned(path, expected):
@@ -70,9 +69,7 @@ def target_for(tag, loop, anchors, ends):
 def generate(source, original_map, historical_map):
     pinned(source, SOURCE)
     original = placements(original_map, MAP)
-    historical_digest = sha256(historical_map.read_bytes()).hexdigest()
-    if historical_digest not in (HISTORICAL_PACKAGE, GREYMANE_PACKAGE, COCKTAIL_PACKAGE):
-        raise ValueError("Unverified historical package")
+    historical_digest = historical_package_digest(historical_map)
     dest = placements(historical_map, historical_digest)
     if original != dest:
         raise ValueError("Historical package changes authored placements")
