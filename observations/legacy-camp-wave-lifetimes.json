@@ -1,0 +1,151 @@
+{
+  "map_sha256": "e0a58745837b3b5351015c933560dbffb178d747009d2d57b4153ef425cf7250",
+  "development_replay_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+  "model": "GatesOpen+1922 first births. Prior beacon changes project captures at +1. Siege/knight captures start 180s/240s cooldown. Ordinary ready time is three seconds before expiry; births occur two loops later. If that ready time falls within an active Dragon Knight, birth occurs three loops after the active vehicle dies. Neutral death signals track live slots and guard the defeat/capture transition. Target neutral birth times, capture stats and other same-loop outcomes never schedule births.",
+  "cases": [
+    {
+      "replay_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+      "tracker_sha256": "1a9a556f9f1fde466d17c4a3a3fbb31cbec8d8086bef97efeb796f1f5175245f",
+      "horizon": 19732,
+      "first_loop": 2532,
+      "all_births": {
+        "matches": 46,
+        "false_positives": 0,
+        "misses": 0
+      },
+      "later_births": {
+        "matches": 30,
+        "false_positives": 0,
+        "misses": 0
+      },
+      "later_camp_waves": {
+        "matches": 10,
+        "false_positives": 0,
+        "misses": 0
+      },
+      "dragon_deferred_waves": 4,
+      "observed_captures": 13,
+      "mapped_neutral_unit_deaths": 38,
+      "unmapped_defender_births": 0,
+      "observed_live_at_end": 8,
+      "exact_living_defender_slots_at_end_agree": true,
+      "state_diagnostics": {},
+      "no_defender_death_input_same_birth_forecast": true,
+      "all_neutral_birth_records_removed_same_forecast": true,
+      "negative_ignoring_dragon": {
+        "matches": 36,
+        "false_positives": 10,
+        "misses": 10
+      },
+      "in_cooldown_at_end": 3
+    },
+    {
+      "replay_sha256": "7efa1c335816eebe802747ae4b16252ed22fcd8387b09d24b115b2917542b52a",
+      "tracker_sha256": "efcd51f24f37612199a8ebce2872bdf72144a82a3a8c15552a164deb5e27d139",
+      "horizon": 25025,
+      "first_loop": 2532,
+      "all_births": {
+        "matches": 64,
+        "false_positives": 0,
+        "misses": 0
+      },
+      "later_births": {
+        "matches": 48,
+        "false_positives": 0,
+        "misses": 0
+      },
+      "later_camp_waves": {
+        "matches": 16,
+        "false_positives": 0,
+        "misses": 0
+      },
+      "dragon_deferred_waves": 5,
+      "observed_captures": 16,
+      "mapped_neutral_unit_deaths": 48,
+      "unmapped_defender_births": 0,
+      "observed_live_at_end": 16,
+      "exact_living_defender_slots_at_end_agree": true,
+      "state_diagnostics": {},
+      "no_defender_death_input_same_birth_forecast": true,
+      "all_neutral_birth_records_removed_same_forecast": true,
+      "negative_ignoring_dragon": {
+        "matches": 50,
+        "false_positives": 14,
+        "misses": 14
+      },
+      "in_cooldown_at_end": 0
+    },
+    {
+      "replay_sha256": "2fca3c78d0e459d4452e3fb1f41ff3fce22b9c1f8f113019389195ff171bf618",
+      "tracker_sha256": "8d01d6f734e9fea8d038a94d28f6dd0fdac22f4a5d1011caee7165beb7dd13af",
+      "horizon": 19953,
+      "first_loop": 2532,
+      "all_births": {
+        "matches": 28,
+        "false_positives": 0,
+        "misses": 0
+      },
+      "later_births": {
+        "matches": 12,
+        "false_positives": 0,
+        "misses": 0
+      },
+      "later_camp_waves": {
+        "matches": 4,
+        "false_positives": 0,
+        "misses": 0
+      },
+      "dragon_deferred_waves": 0,
+      "observed_captures": 6,
+      "mapped_neutral_unit_deaths": 18,
+      "unmapped_defender_births": 0,
+      "observed_live_at_end": 10,
+      "exact_living_defender_slots_at_end_agree": true,
+      "state_diagnostics": {},
+      "no_defender_death_input_same_birth_forecast": true,
+      "all_neutral_birth_records_removed_same_forecast": true,
+      "negative_ignoring_dragon": {
+        "matches": 28,
+        "false_positives": 0,
+        "misses": 0
+      },
+      "in_cooldown_at_end": 2
+    },
+    {
+      "replay_sha256": "8c4fb83989b528ea3227f6c97758293d1f650e33caa3d38c6a2a84d27ab0850d",
+      "tracker_sha256": "fa44344a45d5d1b91b1c196810a81b2144d4992bdb12ed5a1854efbee95a01d1",
+      "horizon": 15620,
+      "first_loop": 2532,
+      "all_births": {
+        "matches": 24,
+        "false_positives": 0,
+        "misses": 0
+      },
+      "later_births": {
+        "matches": 8,
+        "false_positives": 0,
+        "misses": 0
+      },
+      "later_camp_waves": {
+        "matches": 4,
+        "false_positives": 0,
+        "misses": 0
+      },
+      "dragon_deferred_waves": 0,
+      "observed_captures": 4,
+      "mapped_neutral_unit_deaths": 8,
+      "unmapped_defender_births": 0,
+      "observed_live_at_end": 16,
+      "exact_living_defender_slots_at_end_agree": true,
+      "state_diagnostics": {},
+      "no_defender_death_input_same_birth_forecast": true,
+      "all_neutral_birth_records_removed_same_forecast": true,
+      "negative_ignoring_dragon": {
+        "matches": 24,
+        "false_positives": 0,
+        "misses": 0
+      },
+      "in_cooldown_at_end": 0
+    }
+  ]
+}

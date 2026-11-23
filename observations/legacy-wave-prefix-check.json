@@ -1,0 +1,98 @@
+{
+  "map_sha256": "e0a58745837b3b5351015c933560dbffb178d747009d2d57b4153ef425cf7250",
+  "mode": "No neutral defender births, no capture stats, and no inputs on or after each scored wave tick. Hostile flag transitions are scored separately. Wave unit fields and lifetimes are scored in the companion cohort receipt.",
+  "cases": [
+    {
+      "replay_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+      "tracker_sha256": "1a9a556f9f1fde466d17c4a3a3fbb31cbec8d8086bef97efeb796f1f5175245f",
+      "distinct_wave_ticks": 9,
+      "observed_waves": 15,
+      "prefix_wave_scores": {
+        "matches": 15,
+        "false_positives": 0,
+        "misses": 0
+      },
+      "prefix_and_full_predictions_equal": true,
+      "hostile_flag_transitions": 15,
+      "flag_plus_two_scores": {
+        "matches": 15,
+        "false_positives": 0,
+        "misses": 0
+      },
+      "negative_same_loop_flag": {
+        "matches": 0,
+        "false_positives": 15,
+        "misses": 15
+      }
+    },
+    {
+      "replay_sha256": "7efa1c335816eebe802747ae4b16252ed22fcd8387b09d24b115b2917542b52a",
+      "tracker_sha256": "efcd51f24f37612199a8ebce2872bdf72144a82a3a8c15552a164deb5e27d139",
+      "distinct_wave_ticks": 16,
+      "observed_waves": 21,
+      "prefix_wave_scores": {
+        "matches": 21,
+        "false_positives": 0,
+        "misses": 0
+      },
+      "prefix_and_full_predictions_equal": true,
+      "hostile_flag_transitions": 21,
+      "flag_plus_two_scores": {
+        "matches": 21,
+        "false_positives": 0,
+        "misses": 0
+      },
+      "negative_same_loop_flag": {
+        "matches": 0,
+        "false_positives": 21,
+        "misses": 21
+      }
+    },
+    {
+      "replay_sha256": "2fca3c78d0e459d4452e3fb1f41ff3fce22b9c1f8f113019389195ff171bf618",
+      "tracker_sha256": "8d01d6f734e9fea8d038a94d28f6dd0fdac22f4a5d1011caee7165beb7dd13af",
+      "distinct_wave_ticks": 5,
+      "observed_waves": 9,
+      "prefix_wave_scores": {
+        "matches": 9,
+        "false_positives": 0,
+        "misses": 0
+      },
+      "prefix_and_full_predictions_equal": true,
+      "hostile_flag_transitions": 9,
+      "flag_plus_two_scores": {
+        "matches": 9,
+        "false_positives": 0,
+        "misses": 0
+      },
+      "negative_same_loop_flag": {
+        "matches": 0,
+        "false_positives": 9,
+        "misses": 9
+      }
+    },
+    {
+      "replay_sha256": "8c4fb83989b528ea3227f6c97758293d1f650e33caa3d38c6a2a84d27ab0850d",
+      "tracker_sha256": "fa44344a45d5d1b91b1c196810a81b2144d4992bdb12ed5a1854efbee95a01d1",
+      "distinct_wave_ticks": 5,
+      "observed_waves": 9,
+      "prefix_wave_scores": {
+        "matches": 9,
+        "false_positives": 0,
+        "misses": 0
+      },
+      "prefix_and_full_predictions_equal": true,
+      "hostile_flag_transitions": 9,
+      "flag_plus_two_scores": {
+        "matches": 9,
+        "false_positives": 0,
+        "misses": 0
+      },
+      "negative_same_loop_flag": {
+        "matches": 0,
+        "false_positives": 9,
+        "misses": 9
+      }
+    }
+  ]
+}
