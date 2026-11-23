@@ -1,0 +1,26 @@
+{
+  "parent_sha256": "152f510b0cf30bf200d58b33877de1a7ee2fa63762dc03dff3369efa9a3da740",
+  "output_sha256": "5ed50ccfcd947b92488cba095973dcd9d4de76a976a457417203608d379b3f01",
+  "bytes": 3622222,
+  "retained_build": 98285,
+  "unchanged_selection_tag_fields": true,
+  "changed_members": [
+    "(attributes)",
+    "replay.game.events"
+  ],
+  "physical_control_build": 98285,
+  "destination_simulation_verified": false,
+  "selections": 158,
+  "changed_selection_frames": 77,
+  "changed_unit_links": {
+    "HeroAnubarak": 2,
+    "HeroKaelthas": 3,
+    "HeroTyrande": 2,
+    "HeroAbathur": 1,
+    "AbathurSymbiote": 69
+  },
+  "changed_game_bytes": 149,
+  "original_game_sha256": "a9724bbe44945744f8d34adb8ed30e2b77a1efe8d99e655bcd0b0d70c33bc1ae",
+  "game_sha256": "5bdad0febafc9cd6731a7f9956664eafcb8ca3ef24187481394e01beadee4613",
+  "two_complete_builds_byte_equal": true
+}

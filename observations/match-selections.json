@@ -1,0 +1,1726 @@
+{
+  "format": "TEN-full-match-selections-v1",
+  "source": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+  "gate_order_sha256": "bda7aafd1d63c77b3b4d29ff2afee96da09a3104b54b4a1d625bb299607d9008",
+  "source_events": 158,
+  "source_additions": 92,
+  "qualified_target_inputs": 15,
+  "excluded_target_inputs": 143,
+  "target_fragment_bytes": 230,
+  "target_fragment_sha256": "be37e9897565b3d1899de8bac2a28259d02a9a35fa404221deb4b8f9e9516ebd",
+  "unit_results": {
+    "HeroGreymane": {
+      "source_added": 2,
+      "target_tags_resolved": 2,
+      "target_links_resolved": 2,
+      "fully_admitted_adds": 2,
+      "source_links": [
+        807
+      ],
+      "target_links": [
+        614
+      ],
+      "witness_replays": [
+        "afcf49a656068f343173fc79afff2d2ebf15066f531cb192382cdba9d1ea3272",
+        "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77",
+        "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c"
+      ]
+    },
+    "HeroFaerieDragon": {
+      "source_added": 2,
+      "target_tags_resolved": 2,
+      "target_links_resolved": 2,
+      "fully_admitted_adds": 2,
+      "source_links": [
+        64
+      ],
+      "target_links": [
+        470
+      ],
+      "witness_replays": [
+        "1230eee79fd3b50a3ee471c587bc77dd14aef67d57bf22cd8df52e877329323a",
+        "715e309bba5d3151d3e1b47461041627db7644d91a8b549c309950e44d6067e8",
+        "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+        "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+        "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+        "afcf49a656068f343173fc79afff2d2ebf15066f531cb192382cdba9d1ea3272",
+        "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+        "db40f495edb70b2127b97cae4f479de19e18e61b2a5a0e0413052b571e1dbf7e"
+      ]
+    },
+    "HeroAnubarak": {
+      "source_added": 2,
+      "target_tags_resolved": 2,
+      "target_links_resolved": 2,
+      "fully_admitted_adds": 2,
+      "source_links": [
+        739
+      ],
+      "target_links": [
+        468
+      ],
+      "witness_replays": [
+        "4732077e899f6894c29586795a01e2a27fba622dbf22b5d29c7b30d57e3ce4fc",
+        "a956b186a0459a47d9b0fdd8af4ccb65c437f11926186471c434e543e218b2d7",
+        "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77",
+        "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c"
+      ]
+    },
+    "HeroKaelthas": {
+      "source_added": 3,
+      "target_tags_resolved": 3,
+      "target_links_resolved": 3,
+      "fully_admitted_adds": 3,
+      "source_links": [
+        827
+      ],
+      "target_links": [
+        632
+      ],
+      "witness_replays": [
+        "1230eee79fd3b50a3ee471c587bc77dd14aef67d57bf22cd8df52e877329323a",
+        "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4",
+        "afcf49a656068f343173fc79afff2d2ebf15066f531cb192382cdba9d1ea3272"
+      ]
+    },
+    "HeroTyrande": {
+      "source_added": 2,
+      "target_tags_resolved": 2,
+      "target_links_resolved": 2,
+      "fully_admitted_adds": 2,
+      "source_links": [
+        84
+      ],
+      "target_links": [
+        850
+      ],
+      "witness_replays": [
+        "4732077e899f6894c29586795a01e2a27fba622dbf22b5d29c7b30d57e3ce4fc",
+        "98ac891fa4fb8e1698e5fc35609fcf75abfe7e89aee9c7f05afff93b10338ab3",
+        "db40f495edb70b2127b97cae4f479de19e18e61b2a5a0e0413052b571e1dbf7e",
+        "fe801daf9df44f10db2b950989308c8ee2fa55c03b4adfef7ac383b4d46583bf"
+      ]
+    },
+    "HeroAbathur": {
+      "source_added": 1,
+      "target_tags_resolved": 1,
+      "target_links_resolved": 1,
+      "fully_admitted_adds": 1,
+      "source_links": [
+        60
+      ],
+      "target_links": [
+        493
+      ],
+      "witness_replays": [
+        "afcf49a656068f343173fc79afff2d2ebf15066f531cb192382cdba9d1ea3272"
+      ]
+    },
+    "HeroNova": {
+      "source_added": 1,
+      "target_tags_resolved": 1,
+      "target_links_resolved": 1,
+      "fully_admitted_adds": 1,
+      "source_links": [
+        75
+      ],
+      "target_links": [
+        112
+      ],
+      "witness_replays": [
+        "d41417f0fd11a1d512e30fa77882bdebf220432bd7e9412b40440cb79a7c9cec",
+        "db40f495edb70b2127b97cae4f479de19e18e61b2a5a0e0413052b571e1dbf7e"
+      ]
+    },
+    "HeroBarbarian": {
+      "source_added": 1,
+      "target_tags_resolved": 1,
+      "target_links_resolved": 1,
+      "fully_admitted_adds": 1,
+      "source_links": [
+        63
+      ],
+      "target_links": [
+        542
+      ],
+      "witness_replays": [
+        "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+        "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+        "afcf49a656068f343173fc79afff2d2ebf15066f531cb192382cdba9d1ea3272"
+      ]
+    },
+    "AbathurSymbiote": {
+      "source_added": 69,
+      "target_tags_resolved": 0,
+      "target_links_resolved": 69,
+      "fully_admitted_adds": 0,
+      "source_links": [
+        302
+      ],
+      "target_links": [
+        438
+      ],
+      "witness_replays": [
+        "afcf49a656068f343173fc79afff2d2ebf15066f531cb192382cdba9d1ea3272"
+      ]
+    },
+    "VehicleDragon": {
+      "source_added": 4,
+      "target_tags_resolved": 1,
+      "target_links_resolved": 4,
+      "fully_admitted_adds": 1,
+      "source_links": [
+        67
+      ],
+      "target_links": [
+        29
+      ],
+      "witness_replays": [
+        "4732077e899f6894c29586795a01e2a27fba622dbf22b5d29c7b30d57e3ce4fc",
+        "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+        "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+        "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+        "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+        "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+        "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+        "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+        "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+        "a956b186a0459a47d9b0fdd8af4ccb65c437f11926186471c434e543e218b2d7",
+        "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+        "bc16af7f68496cddc4698f70b3853402a0f30aa37951aec3a6b555ed703879e8",
+        "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77",
+        "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+        "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c"
+      ]
+    },
+    "AbathurEvolvedMonstrosity": {
+      "source_added": 5,
+      "target_tags_resolved": 0,
+      "target_links_resolved": 0,
+      "fully_admitted_adds": 0,
+      "source_links": [
+        36
+      ],
+      "target_links": [],
+      "witness_replays": []
+    }
+  },
+  "source_selection_shapes": {
+    "(\"['None']\", 1)": 74,
+    "(\"['Mask', 1, 1]\", 0)": 45,
+    "(\"['Mask', 2, 2]\", 0)": 23,
+    "(\"['ZeroIndices']\", 1)": 8,
+    "(\"['None']\", 2)": 5,
+    "(\"['Mask', 2, 3]\", 0)": 1,
+    "(\"['Mask', 3, 5]\", 0)": 1,
+    "(\"['Mask', 3, 6]\", 0)": 1
+  },
+  "no_source_control_group_update_events": true,
+  "native": {
+    "98285": {
+      "exact_native_frames": 96,
+      "exact_native_bytes": 1144,
+      "replays": 2
+    },
+    "98348": {
+      "exact_native_frames": 1192,
+      "exact_native_bytes": 15560,
+      "replays": 24
+    }
+  },
+  "first_placed_dragon_activation_controls": 15,
+  "native_short_mask_evidence_sha256": "4ef92d32e4c7a745da83908b030195df7e9ae7e30e9efa4857e060f088999354",
+  "original_event_accounting": [
+    {
+      "selection_ordinal": 0,
+      "game_event_ordinal": 22,
+      "loop": 52,
+      "admitted": true,
+      "reasons": []
+    },
+    {
+      "selection_ordinal": 1,
+      "game_event_ordinal": 23,
+      "loop": 59,
+      "admitted": true,
+      "reasons": []
+    },
+    {
+      "selection_ordinal": 2,
+      "game_event_ordinal": 24,
+      "loop": 60,
+      "admitted": true,
+      "reasons": []
+    },
+    {
+      "selection_ordinal": 3,
+      "game_event_ordinal": 25,
+      "loop": 60,
+      "admitted": true,
+      "reasons": []
+    },
+    {
+      "selection_ordinal": 4,
+      "game_event_ordinal": 53,
+      "loop": 68,
+      "admitted": true,
+      "reasons": []
+    },
+    {
+      "selection_ordinal": 5,
+      "game_event_ordinal": 114,
+      "loop": 68,
+      "admitted": true,
+      "reasons": []
+    },
+    {
+      "selection_ordinal": 6,
+      "game_event_ordinal": 396,
+      "loop": 76,
+      "admitted": true,
+      "reasons": []
+    },
+    {
+      "selection_ordinal": 7,
+      "game_event_ordinal": 397,
+      "loop": 76,
+      "admitted": true,
+      "reasons": []
+    },
+    {
+      "selection_ordinal": 8,
+      "game_event_ordinal": 418,
+      "loop": 83,
+      "admitted": true,
+      "reasons": []
+    },
+    {
+      "selection_ordinal": 9,
+      "game_event_ordinal": 421,
+      "loop": 84,
+      "admitted": true,
+      "reasons": []
+    },
+    {
+      "selection_ordinal": 10,
+      "game_event_ordinal": 3578,
+      "loop": 782,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 11,
+      "game_event_ordinal": 4154,
+      "loop": 872,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 12,
+      "game_event_ordinal": 4620,
+      "loop": 982,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 13,
+      "game_event_ordinal": 4854,
+      "loop": 1023,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 14,
+      "game_event_ordinal": 5345,
+      "loop": 1102,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 15,
+      "game_event_ordinal": 6162,
+      "loop": 1208,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 16,
+      "game_event_ordinal": 6698,
+      "loop": 1300,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 17,
+      "game_event_ordinal": 7369,
+      "loop": 1414,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 18,
+      "game_event_ordinal": 8368,
+      "loop": 1576,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 19,
+      "game_event_ordinal": 8550,
+      "loop": 1601,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 20,
+      "game_event_ordinal": 8935,
+      "loop": 1673,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 21,
+      "game_event_ordinal": 9545,
+      "loop": 1784,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 22,
+      "game_event_ordinal": 9814,
+      "loop": 1855,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 23,
+      "game_event_ordinal": 10299,
+      "loop": 1938,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 24,
+      "game_event_ordinal": 10680,
+      "loop": 2026,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 25,
+      "game_event_ordinal": 12000,
+      "loop": 2286,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 26,
+      "game_event_ordinal": 12328,
+      "loop": 2353,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 27,
+      "game_event_ordinal": 12728,
+      "loop": 2428,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 28,
+      "game_event_ordinal": 13248,
+      "loop": 2499,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 29,
+      "game_event_ordinal": 13374,
+      "loop": 2515,
+      "admitted": true,
+      "reasons": []
+    },
+    {
+      "selection_ordinal": 30,
+      "game_event_ordinal": 14577,
+      "loop": 2768,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 31,
+      "game_event_ordinal": 15884,
+      "loop": 3052,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 32,
+      "game_event_ordinal": 16190,
+      "loop": 3085,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 33,
+      "game_event_ordinal": 17224,
+      "loop": 3222,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 34,
+      "game_event_ordinal": 17838,
+      "loop": 3317,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 35,
+      "game_event_ordinal": 18199,
+      "loop": 3364,
+      "admitted": true,
+      "reasons": []
+    },
+    {
+      "selection_ordinal": 36,
+      "game_event_ordinal": 18371,
+      "loop": 3384,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 37,
+      "game_event_ordinal": 18686,
+      "loop": 3425,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 38,
+      "game_event_ordinal": 19172,
+      "loop": 3502,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 39,
+      "game_event_ordinal": 19674,
+      "loop": 3639,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 40,
+      "game_event_ordinal": 21678,
+      "loop": 3993,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 41,
+      "game_event_ordinal": 21950,
+      "loop": 4039,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 42,
+      "game_event_ordinal": 22904,
+      "loop": 4179,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 43,
+      "game_event_ordinal": 23329,
+      "loop": 4273,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 44,
+      "game_event_ordinal": 23724,
+      "loop": 4361,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 45,
+      "game_event_ordinal": 24162,
+      "loop": 4445,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 46,
+      "game_event_ordinal": 24698,
+      "loop": 4516,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 47,
+      "game_event_ordinal": 25756,
+      "loop": 4659,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 48,
+      "game_event_ordinal": 26087,
+      "loop": 4727,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 49,
+      "game_event_ordinal": 26406,
+      "loop": 4779,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 50,
+      "game_event_ordinal": 27075,
+      "loop": 4876,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 51,
+      "game_event_ordinal": 27372,
+      "loop": 4916,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 52,
+      "game_event_ordinal": 28038,
+      "loop": 5018,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 53,
+      "game_event_ordinal": 29176,
+      "loop": 5204,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 54,
+      "game_event_ordinal": 29903,
+      "loop": 5365,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 55,
+      "game_event_ordinal": 30084,
+      "loop": 5412,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 56,
+      "game_event_ordinal": 30506,
+      "loop": 5499,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 57,
+      "game_event_ordinal": 31316,
+      "loop": 5648,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 58,
+      "game_event_ordinal": 32119,
+      "loop": 5776,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 59,
+      "game_event_ordinal": 32807,
+      "loop": 5861,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 60,
+      "game_event_ordinal": 33788,
+      "loop": 5981,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 61,
+      "game_event_ordinal": 34025,
+      "loop": 6012,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 62,
+      "game_event_ordinal": 34484,
+      "loop": 6088,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 63,
+      "game_event_ordinal": 35638,
+      "loop": 6316,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 64,
+      "game_event_ordinal": 36065,
+      "loop": 6395,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 65,
+      "game_event_ordinal": 36431,
+      "loop": 6447,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 66,
+      "game_event_ordinal": 38366,
+      "loop": 6757,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 67,
+      "game_event_ordinal": 38917,
+      "loop": 6827,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 68,
+      "game_event_ordinal": 39561,
+      "loop": 6929,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 69,
+      "game_event_ordinal": 39769,
+      "loop": 6957,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 70,
+      "game_event_ordinal": 40473,
+      "loop": 7044,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 71,
+      "game_event_ordinal": 40696,
+      "loop": 7079,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 72,
+      "game_event_ordinal": 41394,
+      "loop": 7190,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "matching-selection-link-unwitnessed",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 73,
+      "game_event_ordinal": 41470,
+      "loop": 7199,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 74,
+      "game_event_ordinal": 41478,
+      "loop": 7200,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 75,
+      "game_event_ordinal": 43294,
+      "loop": 7505,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 76,
+      "game_event_ordinal": 43539,
+      "loop": 7558,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 77,
+      "game_event_ordinal": 44650,
+      "loop": 7736,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 78,
+      "game_event_ordinal": 45251,
+      "loop": 7825,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 79,
+      "game_event_ordinal": 45710,
+      "loop": 7891,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 80,
+      "game_event_ordinal": 46523,
+      "loop": 8011,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 81,
+      "game_event_ordinal": 46771,
+      "loop": 8042,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 82,
+      "game_event_ordinal": 48037,
+      "loop": 8231,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 83,
+      "game_event_ordinal": 48122,
+      "loop": 8247,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 84,
+      "game_event_ordinal": 48394,
+      "loop": 8317,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 85,
+      "game_event_ordinal": 48444,
+      "loop": 8329,
+      "admitted": true,
+      "reasons": []
+    },
+    {
+      "selection_ordinal": 86,
+      "game_event_ordinal": 48778,
+      "loop": 8417,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 87,
+      "game_event_ordinal": 49169,
+      "loop": 8492,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 88,
+      "game_event_ordinal": 49911,
+      "loop": 8618,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 89,
+      "game_event_ordinal": 50550,
+      "loop": 8801,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "matching-selection-link-unwitnessed",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 90,
+      "game_event_ordinal": 53890,
+      "loop": 9236,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 91,
+      "game_event_ordinal": 55540,
+      "loop": 9601,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 92,
+      "game_event_ordinal": 55659,
+      "loop": 9658,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 93,
+      "game_event_ordinal": 55825,
+      "loop": 9725,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 94,
+      "game_event_ordinal": 56572,
+      "loop": 9878,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 95,
+      "game_event_ordinal": 57036,
+      "loop": 9946,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 96,
+      "game_event_ordinal": 57821,
+      "loop": 10058,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 97,
+      "game_event_ordinal": 59118,
+      "loop": 10260,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 98,
+      "game_event_ordinal": 60090,
+      "loop": 10407,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 99,
+      "game_event_ordinal": 60730,
+      "loop": 10547,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 100,
+      "game_event_ordinal": 61238,
+      "loop": 10637,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 101,
+      "game_event_ordinal": 62782,
+      "loop": 10854,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 102,
+      "game_event_ordinal": 63931,
+      "loop": 11049,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 103,
+      "game_event_ordinal": 64413,
+      "loop": 11191,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 104,
+      "game_event_ordinal": 64935,
+      "loop": 11321,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 105,
+      "game_event_ordinal": 65043,
+      "loop": 11357,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 106,
+      "game_event_ordinal": 65624,
+      "loop": 11596,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 107,
+      "game_event_ordinal": 66361,
+      "loop": 11760,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 108,
+      "game_event_ordinal": 68886,
+      "loop": 12136,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 109,
+      "game_event_ordinal": 69169,
+      "loop": 12170,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 110,
+      "game_event_ordinal": 69656,
+      "loop": 12248,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 111,
+      "game_event_ordinal": 69879,
+      "loop": 12283,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 112,
+      "game_event_ordinal": 70241,
+      "loop": 12349,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 113,
+      "game_event_ordinal": 70328,
+      "loop": 12365,
+      "admitted": true,
+      "reasons": []
+    },
+    {
+      "selection_ordinal": 114,
+      "game_event_ordinal": 70774,
+      "loop": 12446,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 115,
+      "game_event_ordinal": 71159,
+      "loop": 12557,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 116,
+      "game_event_ordinal": 71312,
+      "loop": 12622,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 117,
+      "game_event_ordinal": 71535,
+      "loop": 12742,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 118,
+      "game_event_ordinal": 71649,
+      "loop": 12793,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 119,
+      "game_event_ordinal": 71906,
+      "loop": 12905,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 120,
+      "game_event_ordinal": 71977,
+      "loop": 12939,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 121,
+      "game_event_ordinal": 72290,
+      "loop": 13028,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "matching-selection-link-unwitnessed",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 122,
+      "game_event_ordinal": 73139,
+      "loop": 13195,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 123,
+      "game_event_ordinal": 73556,
+      "loop": 13275,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 124,
+      "game_event_ordinal": 73726,
+      "loop": 13306,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 125,
+      "game_event_ordinal": 75836,
+      "loop": 13680,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 126,
+      "game_event_ordinal": 76132,
+      "loop": 13730,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 127,
+      "game_event_ordinal": 76906,
+      "loop": 13884,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 128,
+      "game_event_ordinal": 77099,
+      "loop": 13916,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 129,
+      "game_event_ordinal": 77546,
+      "loop": 13985,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 130,
+      "game_event_ordinal": 77742,
+      "loop": 14018,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 131,
+      "game_event_ordinal": 78048,
+      "loop": 14088,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 132,
+      "game_event_ordinal": 78159,
+      "loop": 14116,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 133,
+      "game_event_ordinal": 80507,
+      "loop": 14622,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 134,
+      "game_event_ordinal": 80814,
+      "loop": 14705,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 135,
+      "game_event_ordinal": 81225,
+      "loop": 14801,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 136,
+      "game_event_ordinal": 81403,
+      "loop": 14836,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 137,
+      "game_event_ordinal": 82348,
+      "loop": 15084,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 138,
+      "game_event_ordinal": 82719,
+      "loop": 15132,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 139,
+      "game_event_ordinal": 83228,
+      "loop": 15216,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 140,
+      "game_event_ordinal": 83772,
+      "loop": 15349,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 141,
+      "game_event_ordinal": 84187,
+      "loop": 15443,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "matching-selection-link-unwitnessed",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 142,
+      "game_event_ordinal": 84571,
+      "loop": 15521,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 143,
+      "game_event_ordinal": 84578,
+      "loop": 15522,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 144,
+      "game_event_ordinal": 86681,
+      "loop": 16213,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 145,
+      "game_event_ordinal": 87317,
+      "loop": 16309,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 146,
+      "game_event_ordinal": 88292,
+      "loop": 16481,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 147,
+      "game_event_ordinal": 88843,
+      "loop": 16554,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 148,
+      "game_event_ordinal": 91071,
+      "loop": 17044,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 149,
+      "game_event_ordinal": 91257,
+      "loop": 17083,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 150,
+      "game_event_ordinal": 91504,
+      "loop": 17152,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 151,
+      "game_event_ordinal": 92366,
+      "loop": 17345,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 152,
+      "game_event_ordinal": 92779,
+      "loop": 17431,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 153,
+      "game_event_ordinal": 94864,
+      "loop": 17751,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "matching-selection-link-unwitnessed",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 154,
+      "game_event_ordinal": 96289,
+      "loop": 17968,
+      "admitted": true,
+      "reasons": []
+    },
+    {
+      "selection_ordinal": 155,
+      "game_event_ordinal": 96329,
+      "loop": 17974,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 156,
+      "game_event_ordinal": 103524,
+      "loop": 19397,
+      "admitted": false,
+      "reasons": [
+        "target-allocation-unknown",
+        "prior-selection-state-unknown"
+      ]
+    },
+    {
+      "selection_ordinal": 157,
+      "game_event_ordinal": 103973,
+      "loop": 19524,
+      "admitted": false,
+      "reasons": [
+        "prior-selection-state-unknown"
+      ]
+    }
+  ],
+  "partial_r8": {
+    "parent_sha256": "152f510b0cf30bf200d58b33877de1a7ee2fa63762dc03dff3369efa9a3da740",
+    "output_sha256": "5ed50ccfcd947b92488cba095973dcd9d4de76a976a457417203608d379b3f01",
+    "bytes": 3622222,
+    "retained_build": 98285,
+    "unchanged_selection_tag_fields": true,
+    "changed_members": [
+      "(attributes)",
+      "replay.game.events"
+    ],
+    "physical_control_build": 98285,
+    "destination_simulation_verified": false,
+    "selections": 158,
+    "changed_selection_frames": 77,
+    "changed_unit_links": {
+      "HeroAnubarak": 2,
+      "HeroKaelthas": 3,
+      "HeroTyrande": 2,
+      "HeroAbathur": 1,
+      "AbathurSymbiote": 69
+    },
+    "changed_game_bytes": 149,
+    "original_game_sha256": "a9724bbe44945744f8d34adb8ed30e2b77a1efe8d99e655bcd0b0d70c33bc1ae",
+    "game_sha256": "5bdad0febafc9cd6731a7f9956664eafcb8ca3ef24187481394e01beadee4613",
+    "two_complete_builds_byte_equal": true
+  }
+}
