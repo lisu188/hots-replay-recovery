@@ -1,0 +1,43 @@
+{
+  "map_sha256": "5c241e8f9f316909ea237e5dd9f1c4d4ec2e7ea3224d383c596588c7eaf1b9ae",
+  "harness": {
+    "first_expiry_permutations": 5,
+    "rejected_scheduling_states": 12,
+    "flag_lookup_cases": 7
+  },
+  "flag_frame_sha256": "5d422dd26871aad7265a92fec31364eb2beb11e4cdf6cc51f7fedd7896771de9",
+  "flag_frame_bytes": 103,
+  "flag_tags_in_camp_order": [
+    62,
+    64,
+    63,
+    65,
+    61
+  ],
+  "declared_document_map_word": "2d44411f",
+  "controls": [
+    {
+      "replay_sha256": "2fca3c78d0e459d4452e3fb1f41ff3fce22b9c1f8f113019389195ff171bf618",
+      "verified_startup_births": 172,
+      "physical_flag_frames": 5
+    },
+    {
+      "replay_sha256": "7efa1c335816eebe802747ae4b16252ed22fcd8387b09d24b115b2917542b52a",
+      "verified_startup_births": 172,
+      "physical_flag_frames": 5
+    },
+    {
+      "replay_sha256": "8c4fb83989b528ea3227f6c97758293d1f650e33caa3d38c6a2a84d27ab0850d",
+      "verified_startup_births": 172,
+      "physical_flag_frames": 5
+    },
+    {
+      "replay_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+      "verified_startup_births": 172,
+      "physical_flag_frames": 5
+    }
+  ],
+  "later_camp_lifetimes_verified": false,
+  "target_sync_records_verified": 0,
+  "native_playback_verified": false
+}

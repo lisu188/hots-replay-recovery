@@ -1,0 +1,33 @@
+{
+  "parent_sha256": "bda7aafd1d63c77b3b4d29ff2afee96da09a3104b54b4a1d625bb299607d9008",
+  "map_sha256": "5c241e8f9f316909ea237e5dd9f1c4d4ec2e7ea3224d383c596588c7eaf1b9ae",
+  "bytes": 2159443,
+  "script_sha256": "eac619f500d79a9fbdb733bcd65d81fd3d99d27472ba7476cba890ee7aea9b10",
+  "flag_object_ids": [
+    477,
+    479,
+    478,
+    480,
+    476
+  ],
+  "unchanged_content_members": 69,
+  "integrity": {
+    "content_members": 70,
+    "live_blocks": 72,
+    "raw_table_results": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "native_member_flags": {
+      "256": 1,
+      "336": 71
+    }
+  },
+  "native_galaxy_compilation_verified": false,
+  "full_simulation_verified": false,
+  "two_builds_identical": true
+}
