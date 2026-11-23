@@ -1,0 +1,31 @@
+{
+  "target_build": 98348,
+  "first_sync_loop": 64,
+  "tracker_events": 247,
+  "tracker_bytes": 14612,
+  "tracker_sha256": "4fb2990a2c35b1199fca861e86bbc98ed4e1d1abd01d1791d8d06ad6e462efce",
+  "source_game_inputs_represented": 30,
+  "game_bytes": 671,
+  "game_sha256": "68def0020f334b543ed6e1be6aed1fd57bfbdc284c933372298a3e96cc69efc5",
+  "selected_heroes": [
+    {
+      "loop": 52,
+      "hero": "HeroGreymane"
+    },
+    {
+      "loop": 59,
+      "hero": "HeroFaerieDragon"
+    },
+    {
+      "loop": 60,
+      "hero": "HeroAnubarak"
+    },
+    {
+      "loop": 60,
+      "hero": "HeroKaelthas"
+    }
+  ],
+  "distinct_command_issuers": 2,
+  "source_sync_records_preserved": 308,
+  "target_state_checksum_computed": false
+}

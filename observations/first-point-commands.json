@@ -1,0 +1,333 @@
+{
+  "controls": [
+    {
+      "build": 98348,
+      "replay_sha256": "1230eee79fd3b50a3ee471c587bc77dd14aef67d57bf22cd8df52e877329323a",
+      "loop_limit": 1500,
+      "counts": {
+        "eligible_initial_commands": 9,
+        "physical_frames_equal": 16,
+        "updates_scored": 7
+      },
+      "frames": 16,
+      "bytes": 292,
+      "sha256": "8add9c4b852ed4a0ba31cbabecdac8845fa2dd1818f75229a64dce866ae5569a"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "4732077e899f6894c29586795a01e2a27fba622dbf22b5d29c7b30d57e3ce4fc",
+      "loop_limit": 1500,
+      "counts": {
+        "eligible_initial_commands": 10,
+        "physical_frames_equal": 16,
+        "updates_scored": 6
+      },
+      "frames": 16,
+      "bytes": 298,
+      "sha256": "d5499f9bb3e0a5fd08a7ec472b6f4b2701ec40aed1d3f1a15e6ead30911adafd"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+      "loop_limit": 1500,
+      "counts": {
+        "eligible_initial_commands": 10,
+        "physical_frames_equal": 21,
+        "updates_scored": 11
+      },
+      "frames": 21,
+      "bytes": 378,
+      "sha256": "9d688766f2a8fb062c0082d86cf21c06df984ca768333a744a23be847deda258"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+      "loop_limit": 1500,
+      "counts": {
+        "eligible_initial_commands": 10,
+        "physical_frames_equal": 17,
+        "updates_scored": 7
+      },
+      "frames": 17,
+      "bytes": 313,
+      "sha256": "b70a64871f69523f2b28f1960f5ac378611781714545daa00575399e19195384"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+      "loop_limit": 1500,
+      "counts": {
+        "eligible_initial_commands": 10,
+        "physical_frames_equal": 19,
+        "updates_scored": 9
+      },
+      "frames": 19,
+      "bytes": 344,
+      "sha256": "e034860dbf3e9373c0b7c7ebf789537a533b9d4c1ba82bb6eb5612c904b70a8c"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "715e309bba5d3151d3e1b47461041627db7644d91a8b549c309950e44d6067e8",
+      "loop_limit": 1500,
+      "counts": {
+        "eligible_initial_commands": 9,
+        "physical_frames_equal": 16,
+        "updates_scored": 7
+      },
+      "frames": 16,
+      "bytes": 293,
+      "sha256": "5aef98288493334ed30bf0c7b1f66f8afcb7375ab43bdcb7f3b01c87a91958f7"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+      "loop_limit": 1500,
+      "counts": {
+        "eligible_initial_commands": 10,
+        "physical_frames_equal": 20,
+        "updates_scored": 10
+      },
+      "frames": 20,
+      "bytes": 360,
+      "sha256": "60c04a95af82e12cd5b5cbc13c87dfca595a363e9d34285cfb2f5fa467315909"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+      "loop_limit": 1500,
+      "counts": {
+        "eligible_initial_commands": 10,
+        "physical_frames_equal": 21,
+        "updates_scored": 11
+      },
+      "frames": 21,
+      "bytes": 377,
+      "sha256": "bc67a3e105c4e9d6454440d20cc7991399268c2d58e44e879fe53ae305b25b00"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+      "loop_limit": 1500,
+      "counts": {
+        "eligible_initial_commands": 9,
+        "physical_frames_equal": 16,
+        "updates_scored": 7
+      },
+      "frames": 16,
+      "bytes": 292,
+      "sha256": "8a19cb4de98451a529b488fe940090a32cff2b526b2c1c9300f517660076a415"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+      "loop_limit": 1500,
+      "counts": {
+        "eligible_initial_commands": 9,
+        "physical_frames_equal": 16,
+        "updates_scored": 7
+      },
+      "frames": 16,
+      "bytes": 294,
+      "sha256": "66ce71d4176acb22bea77c55b3e95fedbbd24f72f5c7514875f1e8f8ce483414"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+      "loop_limit": 1500,
+      "counts": {
+        "eligible_initial_commands": 10,
+        "physical_frames_equal": 12,
+        "updates_scored": 2
+      },
+      "frames": 12,
+      "bytes": 233,
+      "sha256": "a6502f1085a642b1689c0b19ec386b6f6e23857e43193d743b47dfdf6a388a5d"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "9872b043e48093abc65e11b7b6d091861e83fc4d202b40b745824da647cb6ef3",
+      "loop_limit": 1500,
+      "counts": {
+        "eligible_initial_commands": 9,
+        "physical_frames_equal": 13,
+        "updates_scored": 4
+      },
+      "frames": 13,
+      "bytes": 245,
+      "sha256": "6cbca5e6ae91d243a896aa40eea2c548b537770e08368e2446b9b23cd0e6edb7"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "98ac891fa4fb8e1698e5fc35609fcf75abfe7e89aee9c7f05afff93b10338ab3",
+      "loop_limit": 1500,
+      "counts": {
+        "eligible_initial_commands": 9,
+        "physical_frames_equal": 14,
+        "updates_scored": 5
+      },
+      "frames": 14,
+      "bytes": 261,
+      "sha256": "b1a20682a55bd95af73fc0af318e755ba764fff8fa7d98bbc35c062441b365a7"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4",
+      "loop_limit": 1500,
+      "counts": {
+        "eligible_initial_commands": 10,
+        "physical_frames_equal": 17,
+        "updates_scored": 7
+      },
+      "frames": 17,
+      "bytes": 314,
+      "sha256": "77786c0a5f1176bdf181ea0dece3412334d2039142b37b6c04a6d3b6ac2ac108"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "a956b186a0459a47d9b0fdd8af4ccb65c437f11926186471c434e543e218b2d7",
+      "loop_limit": 1500,
+      "counts": {
+        "eligible_initial_commands": 9,
+        "physical_frames_equal": 11,
+        "updates_scored": 2
+      },
+      "frames": 11,
+      "bytes": 214,
+      "sha256": "cfa5d4eae3fdd688c6e83a1f3d4d0597b0182bb56c625386f8768328cde051c8"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "afcf49a656068f343173fc79afff2d2ebf15066f531cb192382cdba9d1ea3272",
+      "loop_limit": 1500,
+      "counts": {
+        "eligible_initial_commands": 10,
+        "physical_frames_equal": 20,
+        "updates_scored": 10
+      },
+      "frames": 20,
+      "bytes": 360,
+      "sha256": "3c2019f7e4ff291f4ab52725be120f4c85faf3f69a635a5fda9e4e95c6c365c3"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+      "loop_limit": 1500,
+      "counts": {
+        "eligible_initial_commands": 10,
+        "physical_frames_equal": 13,
+        "updates_scored": 3
+      },
+      "frames": 13,
+      "bytes": 250,
+      "sha256": "4ffc5f4fc4e0abf68d46ffa805abeaa97968f9e9b477552a0dc1908c739481c4"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "bc16af7f68496cddc4698f70b3853402a0f30aa37951aec3a6b555ed703879e8",
+      "loop_limit": 1500,
+      "counts": {
+        "eligible_initial_commands": 9,
+        "physical_frames_equal": 17,
+        "updates_scored": 8
+      },
+      "frames": 17,
+      "bytes": 308,
+      "sha256": "c6ce3330906b9fcf135eb8196c44b1845f37b49c5ea99ed139d3c20c607a249d"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77",
+      "loop_limit": 1500,
+      "counts": {
+        "eligible_initial_commands": 9,
+        "physical_frames_equal": 15,
+        "updates_scored": 6
+      },
+      "frames": 15,
+      "bytes": 276,
+      "sha256": "391a2be8e34f2eef48b88b909cf117bd15cba0ec05d2cf20d8b70b9ce0f7ae17"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "d41417f0fd11a1d512e30fa77882bdebf220432bd7e9412b40440cb79a7c9cec",
+      "loop_limit": 1500,
+      "counts": {
+        "eligible_initial_commands": 10,
+        "physical_frames_equal": 18,
+        "updates_scored": 8
+      },
+      "frames": 18,
+      "bytes": 330,
+      "sha256": "d2c3a6206bd296421761f75d6facc35a9e16e79049eccb3e771b6aa46d5a480f"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "db40f495edb70b2127b97cae4f479de19e18e61b2a5a0e0413052b571e1dbf7e",
+      "loop_limit": 1500,
+      "counts": {
+        "eligible_initial_commands": 10,
+        "physical_frames_equal": 15,
+        "updates_scored": 5
+      },
+      "frames": 15,
+      "bytes": 281,
+      "sha256": "ef44546fe5072ec9932deab47734390198ac2ee07061003da88315efed5b5051"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+      "loop_limit": 1500,
+      "counts": {
+        "eligible_initial_commands": 10,
+        "physical_frames_equal": 13,
+        "updates_scored": 3
+      },
+      "frames": 13,
+      "bytes": 249,
+      "sha256": "f63bf0f88a7e896aedbf4c011876ba9530ebd4102e77f60911ad922242083cac"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+      "loop_limit": 1500,
+      "counts": {
+        "eligible_initial_commands": 10,
+        "physical_frames_equal": 17,
+        "updates_scored": 7
+      },
+      "frames": 17,
+      "bytes": 312,
+      "sha256": "910a38efedcfdcfccee39dfef1b3ddadb376b4c03ba6d714b3915f59c4f631fa"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "fe801daf9df44f10db2b950989308c8ee2fa55c03b4adfef7ac383b4d46583bf",
+      "loop_limit": 1500,
+      "counts": {
+        "eligible_initial_commands": 10,
+        "physical_frames_equal": 18,
+        "updates_scored": 8
+      },
+      "frames": 18,
+      "bytes": 331,
+      "sha256": "07a70479267a9dc23c4002ac5d37d01cf84b32938faa4e7dfdf4b9ada6ad20a6"
+    }
+  ],
+  "total": {
+    "eligible_initial_commands": 231,
+    "physical_frames_equal": 391,
+    "updates_scored": 160
+  },
+  "ten": {
+    "build": 41810,
+    "replay_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+    "loop_limit": 64,
+    "counts": {
+      "eligible_initial_commands": 2,
+      "updates_scored": 2
+    },
+    "frames": 4,
+    "bytes": 72,
+    "sha256": "4d0d032eec20d0d771eb925738487d50df96a6330966ad5397b75f546eb1a7c1"
+  }
+}
