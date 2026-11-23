@@ -108,6 +108,18 @@ class TalentChoiceAuditTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             audit_talent_choices([selection()], [setup(), stat(b'PlayerSpawned', b"HeroZul'jin", 0), stat()])
 
+    def test_brightwing_hush_preserves_one_terminal_exclamation_in_purchase_only(self):
+        name = b'BrightwingArcaneFlareHush!'
+        spawn = stat(b'PlayerSpawned', b'HeroFaerieDragon', 0)
+        result = audit_talent_choices([selection(index=14)], [setup(), spawn, stat(value=name)])
+        self.assertEqual(result['observations'], [
+            {'hero_id': 'HeroFaerieDragon', 'index': 14, 'purchase_name': name.decode('ascii'), 'count': 1}])
+        for invalid in (b'!Talent', b'Tal!ent', b'Talent!!', b'!', b'A' * 256 + b'!'):
+            with self.subTest(invalid=invalid), self.assertRaises(ValueError):
+                audit_talent_choices([selection()], [setup(), spawn, stat(value=invalid)])
+        with self.assertRaises(ValueError):
+            audit_talent_choices([selection()], [setup(), stat(b'PlayerSpawned', b'HeroFaerieDragon!', 0), stat()])
+
     def test_comparison_preserves_conflicts_and_does_not_infer_replacement_index(self):
         source_track = tracker(); source_track[-1]['m_stringData'][0]['m_value'] = b'KaelthasLivingBombSunKingsFury'
         source = audit_talent_choices([selection()], source_track)

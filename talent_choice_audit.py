@@ -26,7 +26,7 @@ def _identifier(value, *, purchase_name=False):
             value = value.decode('ascii')
         except UnicodeDecodeError:
             raise ValueError('invalid hero/talent identifier') from None
-    pattern = r"[A-Za-z][A-Za-z0-9_]*(?:'[A-Za-z0-9_]+)*" if purchase_name else r'[A-Za-z][A-Za-z0-9_]*'
+    pattern = r"[A-Za-z][A-Za-z0-9_]*(?:'[A-Za-z0-9_]+)*!?" if purchase_name else r'[A-Za-z][A-Za-z0-9_]*'
     if type(value) is not str or len(value) > 256 or re.fullmatch(pattern, value) is None:
         raise ValueError('invalid hero/talent identifier')
     return value

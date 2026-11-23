@@ -1,0 +1,69 @@
+{
+  "format": "tracked-talent-prior-level-check-v1",
+  "cases": [
+    {
+      "build": 41810,
+      "replay_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+      "candidate": "NovaMasteryExplosiveShot",
+      "cases": [
+        {
+          "hero": "HeroNova",
+          "purchase": "NovaMasteryExplosiveShot",
+          "selection_loop": 9535,
+          "tracker_purchase_loop": 9536,
+          "index": 14,
+          "prior_level": 13,
+          "prior_level_loop": 9383
+        }
+      ]
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "afcf49a656068f343173fc79afff2d2ebf15066f531cb192382cdba9d1ea3272",
+      "candidate": "BrightwingArcaneFlareHush!",
+      "cases": [
+        {
+          "hero": "HeroFaerieDragon",
+          "purchase": "BrightwingArcaneFlareHush!",
+          "selection_loop": 11858,
+          "tracker_purchase_loop": 11859,
+          "index": 14,
+          "prior_level": 16,
+          "prior_level_loop": 11633
+        }
+      ]
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "db40f495edb70b2127b97cae4f479de19e18e61b2a5a0e0413052b571e1dbf7e",
+      "candidate": "NovaMasteryExplosiveShot",
+      "cases": [
+        {
+          "hero": "HeroNova",
+          "purchase": "NovaMasteryExplosiveShot",
+          "selection_loop": 13551,
+          "tracker_purchase_loop": 13552,
+          "index": 14,
+          "prior_level": 16,
+          "prior_level_loop": 13041
+        }
+      ]
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "d41417f0fd11a1d512e30fa77882bdebf220432bd7e9412b40440cb79a7c9cec",
+      "candidate": "NovaMasteryExplosiveShot",
+      "cases": [
+        {
+          "hero": "HeroNova",
+          "purchase": "NovaMasteryExplosiveShot",
+          "selection_loop": 13249,
+          "tracker_purchase_loop": 13250,
+          "index": 14,
+          "prior_level": 16,
+          "prior_level_loop": 13201
+        }
+      ]
+    }
+  ]
+}

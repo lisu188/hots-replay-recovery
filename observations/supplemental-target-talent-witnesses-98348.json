@@ -1,0 +1,1245 @@
+{
+  "control_overlaps_with_12_baseline": 0,
+  "controls": [
+    {
+      "game_events": 215735,
+      "game_sha256": "cba59b3e50e32b8fbd1b27668246848f64120989c8413b1980877b112e96621f",
+      "map": "Sky Temple",
+      "map_checksum": 2556837657,
+      "mod_checksum": 3720355390,
+      "pairs": 70,
+      "profile_sha256": "21bfaf86b58aecab3a68bc6612ce0178dfecdda08ed3af5297ce21f8be52cea0",
+      "replay_bytes": 1357323,
+      "replay_sha256": "afcf49a656068f343173fc79afff2d2ebf15066f531cb192382cdba9d1ea3272",
+      "scoped": [
+        {
+          "hero": "HeroAbathur",
+          "index": 3,
+          "loop": 97,
+          "purchase": "AbathurCombatStyleLocustBrood",
+          "target_xml_positions": [
+            3
+          ]
+        },
+        {
+          "hero": "HeroGreymane",
+          "index": 2,
+          "loop": 122,
+          "purchase": "GreymaneInnerBeastViciousness",
+          "target_xml_positions": [
+            2
+          ]
+        },
+        {
+          "hero": "HeroKaelthas",
+          "index": 2,
+          "loop": 139,
+          "purchase": "KaelthasManaAddict",
+          "target_xml_positions": [
+            2
+          ]
+        },
+        {
+          "hero": "HeroFaerieDragon",
+          "index": 1,
+          "loop": 253,
+          "purchase": "BrightwingPhaseShiftHyperShift",
+          "target_xml_positions": [
+            1
+          ]
+        },
+        {
+          "hero": "HeroBarbarian",
+          "index": 0,
+          "loop": 653,
+          "purchase": "BarbarianFuriousBlow",
+          "target_xml_positions": [
+            0
+          ]
+        },
+        {
+          "hero": "HeroAbathur",
+          "index": 4,
+          "loop": 2604,
+          "purchase": "AbathurSymbioteAdrenalOverload",
+          "target_xml_positions": [
+            4
+          ]
+        },
+        {
+          "hero": "HeroKaelthas",
+          "index": 4,
+          "loop": 2690,
+          "purchase": "KaelthasGravityLapseEnergyRoil",
+          "target_xml_positions": [
+            4
+          ]
+        },
+        {
+          "hero": "HeroFaerieDragon",
+          "index": 5,
+          "loop": 2692,
+          "purchase": "BrightwingMagicSpit",
+          "target_xml_positions": [
+            5
+          ]
+        },
+        {
+          "hero": "HeroGreymane",
+          "index": 4,
+          "loop": 2737,
+          "purchase": "GreymaneDisengageEyesInTheDark",
+          "target_xml_positions": [
+            4
+          ]
+        },
+        {
+          "hero": "HeroBarbarian",
+          "index": 3,
+          "loop": 3956,
+          "purchase": "BarbarianShatteredGround",
+          "target_xml_positions": [
+            3
+          ]
+        },
+        {
+          "hero": "HeroKaelthas",
+          "index": 6,
+          "loop": 4427,
+          "purchase": "KaelthasFlamestrikeBurnedFlesh",
+          "target_xml_positions": [
+            6
+          ]
+        },
+        {
+          "hero": "HeroGreymane",
+          "index": 8,
+          "loop": 4441,
+          "purchase": "GreymaneWizenedDuelist",
+          "target_xml_positions": [
+            8
+          ]
+        },
+        {
+          "hero": "HeroAbathur",
+          "index": 10,
+          "loop": 4480,
+          "purchase": "GenericTalentCalldownMULE",
+          "target_xml_positions": [
+            10
+          ]
+        },
+        {
+          "hero": "HeroFaerieDragon",
+          "index": 8,
+          "loop": 4592,
+          "purchase": "BrightwingCriticalMistCalmingMist",
+          "target_xml_positions": [
+            8
+          ]
+        },
+        {
+          "hero": "HeroBarbarian",
+          "index": 8,
+          "loop": 4599,
+          "purchase": "BarbarianBattleRage",
+          "target_xml_positions": [
+            8
+          ]
+        },
+        {
+          "hero": "HeroKaelthas",
+          "index": 9,
+          "loop": 6127,
+          "purchase": "KaelthasHeroicAbilityPhoenix",
+          "target_xml_positions": [
+            9
+          ]
+        },
+        {
+          "hero": "HeroGreymane",
+          "index": 9,
+          "loop": 6158,
+          "purchase": "GreymaneHeroicAbilityGoForTheThroat",
+          "target_xml_positions": [
+            9
+          ]
+        },
+        {
+          "hero": "HeroFaerieDragon",
+          "index": 9,
+          "loop": 6662,
+          "purchase": "FaerieDragonHeroicAbilityBlinkHeal",
+          "target_xml_positions": [
+            9
+          ]
+        },
+        {
+          "hero": "HeroBarbarian",
+          "index": 9,
+          "loop": 6676,
+          "purchase": "BarbarianHeroicAbilityLeap",
+          "target_xml_positions": [
+            9
+          ]
+        },
+        {
+          "hero": "HeroAbathur",
+          "index": 11,
+          "loop": 6720,
+          "purchase": "AbathurHeroicAbilityUltimateEvolution",
+          "target_xml_positions": [
+            11
+          ]
+        },
+        {
+          "hero": "HeroKaelthas",
+          "index": 11,
+          "loop": 9050,
+          "purchase": "KaelthasLivingBombPyromaniac",
+          "target_xml_positions": [
+            11
+          ]
+        },
+        {
+          "hero": "HeroGreymane",
+          "index": 13,
+          "loop": 9103,
+          "purchase": "GreymaneInnerBeastOnTheProwl",
+          "target_xml_positions": [
+            13
+          ]
+        },
+        {
+          "hero": "HeroAbathur",
+          "index": 15,
+          "loop": 9339,
+          "purchase": "AbathurCombatStyleBombardStrain",
+          "target_xml_positions": [
+            15
+          ]
+        },
+        {
+          "hero": "HeroBarbarian",
+          "index": 13,
+          "loop": 9392,
+          "purchase": "BarbarianNoEscape",
+          "target_xml_positions": [
+            13
+          ]
+        },
+        {
+          "hero": "HeroFaerieDragon",
+          "index": 12,
+          "loop": 9447,
+          "purchase": "BrightwingPixieDustSafetyDust",
+          "target_xml_positions": [
+            12
+          ]
+        },
+        {
+          "hero": "HeroAbathur",
+          "index": 19,
+          "loop": 11666,
+          "purchase": "AbathurCombatStyleSurvivalInstincts",
+          "target_xml_positions": [
+            19
+          ]
+        },
+        {
+          "hero": "HeroFaerieDragon",
+          "index": 14,
+          "loop": 11858,
+          "purchase": "BrightwingArcaneFlareHush!",
+          "target_xml_positions": [
+            14
+          ]
+        },
+        {
+          "hero": "HeroKaelthas",
+          "index": 15,
+          "loop": 12213,
+          "purchase": "KaelthasLivingBombIgnite",
+          "target_xml_positions": [
+            15
+          ]
+        },
+        {
+          "hero": "HeroGreymane",
+          "index": 16,
+          "loop": 12246,
+          "purchase": "GreymaneWorgenFormAlphaKiller",
+          "target_xml_positions": [
+            16
+          ]
+        },
+        {
+          "hero": "HeroBarbarian",
+          "index": 16,
+          "loop": 12498,
+          "purchase": "BarbarianNervesOfSteel",
+          "target_xml_positions": [
+            16
+          ]
+        },
+        {
+          "hero": "HeroAbathur",
+          "index": 23,
+          "loop": 15209,
+          "purchase": "AbathurMasteryLocustMaster",
+          "target_xml_positions": [
+            23
+          ]
+        },
+        {
+          "hero": "HeroFaerieDragon",
+          "index": 17,
+          "loop": 15243,
+          "purchase": "BrightwingInvisibleFriends",
+          "target_xml_positions": [
+            17
+          ]
+        },
+        {
+          "hero": "HeroBarbarian",
+          "index": 17,
+          "loop": 15292,
+          "purchase": "BarbarianArreatCrater",
+          "target_xml_positions": [
+            17
+          ]
+        },
+        {
+          "hero": "HeroKaelthas",
+          "index": 20,
+          "loop": 15698,
+          "purchase": "KaelthasMasteryFlamethrower",
+          "target_xml_positions": [
+            20
+          ]
+        },
+        {
+          "hero": "HeroGreymane",
+          "index": 19,
+          "loop": 15741,
+          "purchase": "GreymaneHuntersBlunderbuss",
+          "target_xml_positions": [
+            19
+          ]
+        }
+      ],
+      "selection_events": 70,
+      "tracker_events": 11580,
+      "tracker_purchases": 70,
+      "tracker_sha256": "986e56e423fc8b4ea753b402d2d326d9f93dfc9d342f800b63e591c60dbf39b0"
+    },
+    {
+      "game_events": 161595,
+      "game_sha256": "6e5d85d9cb49b9c383573fe2e4cb23e13edb91495ca7f767d6bc8fb6040d462e",
+      "map": "Battlefield of Eternity",
+      "map_checksum": 1447449266,
+      "mod_checksum": 1314354243,
+      "pairs": 65,
+      "profile_sha256": "e435d58d1a1dea9fee5fafbc705813acbde1a22ea235b25c04188c9cae7b95a5",
+      "replay_bytes": 1133707,
+      "replay_sha256": "fe801daf9df44f10db2b950989308c8ee2fa55c03b4adfef7ac383b4d46583bf",
+      "scoped": [
+        {
+          "hero": "HeroTyrande",
+          "index": 1,
+          "loop": 483,
+          "purchase": "TyrandeMoonlitArrows",
+          "target_xml_positions": [
+            1
+          ]
+        },
+        {
+          "hero": "HeroTyrande",
+          "index": 5,
+          "loop": 3031,
+          "purchase": "TyrandeElunesChosen",
+          "target_xml_positions": [
+            5
+          ]
+        },
+        {
+          "hero": "HeroTyrande",
+          "index": 6,
+          "loop": 4938,
+          "purchase": "ElunesGift",
+          "target_xml_positions": [
+            6
+          ]
+        },
+        {
+          "hero": "HeroTyrande",
+          "index": 10,
+          "loop": 7265,
+          "purchase": "TyrandeHeroicAbilityStarfall",
+          "target_xml_positions": [
+            10
+          ]
+        },
+        {
+          "hero": "HeroTyrande",
+          "index": 12,
+          "loop": 9736,
+          "purchase": "TyrandeHarshMoonlight",
+          "target_xml_positions": [
+            12
+          ]
+        },
+        {
+          "hero": "HeroTyrande",
+          "index": 15,
+          "loop": 13209,
+          "purchase": "TyrandeEmpower",
+          "target_xml_positions": [
+            15
+          ]
+        },
+        {
+          "hero": "HeroTyrande",
+          "index": 18,
+          "loop": 17308,
+          "purchase": "TyrandeMasteryStarfallCelestialWrath",
+          "target_xml_positions": [
+            18
+          ]
+        }
+      ],
+      "selection_events": 65,
+      "tracker_events": 7336,
+      "tracker_purchases": 65,
+      "tracker_sha256": "a04fc822898d626d2189ac1498ff39ddbecf254f6ba0bc3673e080856ebf1ab6"
+    },
+    {
+      "game_events": 213265,
+      "game_sha256": "f88c1123c8990c01c4498698ff5f2d8a8892afc220592aae9d7a33067c035323",
+      "map": "Volskaya Foundry",
+      "map_checksum": 277557624,
+      "mod_checksum": 1099099167,
+      "pairs": 70,
+      "profile_sha256": "3ea61d6358f35d25f80d11c3f0cbd1dcbf91f4565b5ddfcdf1031d431d21f7ab",
+      "replay_bytes": 1485554,
+      "replay_sha256": "9872b043e48093abc65e11b7b6d091861e83fc4d202b40b745824da647cb6ef3",
+      "scoped": [],
+      "selection_events": 70,
+      "tracker_events": 10241,
+      "tracker_purchases": 70,
+      "tracker_sha256": "1b44b89bd2f0ca9571b9fde74ebfc09861cfccd7c7d4c2c151193bf6925aeca8"
+    },
+    {
+      "game_events": 171344,
+      "game_sha256": "167834bf36c574ce2ec5671551db2c5529a4c5d5504c5ad04b67cf52c64048d9",
+      "map": "Tomb of the Spider Queen",
+      "map_checksum": 2209509714,
+      "mod_checksum": 3334967394,
+      "pairs": 65,
+      "profile_sha256": "4b196df65763da5d7d990515a83582d041548dc89b2394e05f9232730193d433",
+      "replay_bytes": 1247616,
+      "replay_sha256": "98ac891fa4fb8e1698e5fc35609fcf75abfe7e89aee9c7f05afff93b10338ab3",
+      "scoped": [
+        {
+          "hero": "HeroTyrande",
+          "index": 2,
+          "loop": 95,
+          "purchase": "TyrandeTrueshotAura",
+          "target_xml_positions": [
+            2
+          ]
+        },
+        {
+          "hero": "HeroTyrande",
+          "index": 4,
+          "loop": 2982,
+          "purchase": "TyrandeMarkofMending",
+          "target_xml_positions": [
+            4
+          ]
+        },
+        {
+          "hero": "HeroTyrande",
+          "index": 8,
+          "loop": 4388,
+          "purchase": "TyrandeHuntressFury",
+          "target_xml_positions": [
+            8
+          ]
+        },
+        {
+          "hero": "HeroTyrande",
+          "index": 10,
+          "loop": 6567,
+          "purchase": "TyrandeHeroicAbilityStarfall",
+          "target_xml_positions": [
+            10
+          ]
+        },
+        {
+          "hero": "HeroTyrande",
+          "index": 13,
+          "loop": 9345,
+          "purchase": "TyrandeRangersMark",
+          "target_xml_positions": [
+            13
+          ]
+        },
+        {
+          "hero": "HeroTyrande",
+          "index": 16,
+          "loop": 12267,
+          "purchase": "TyrandeDarnassianArchery",
+          "target_xml_positions": [
+            16
+          ]
+        },
+        {
+          "hero": "HeroTyrande",
+          "index": 20,
+          "loop": 15374,
+          "purchase": "TyrandeIcebladeArrows",
+          "target_xml_positions": [
+            20
+          ]
+        }
+      ],
+      "selection_events": 65,
+      "tracker_events": 10235,
+      "tracker_purchases": 65,
+      "tracker_sha256": "ab34f6d4ef1dd6e33cae0c9728f7979272a9fc94cd0ce7635f5647a612657b2f"
+    },
+    {
+      "game_events": 171401,
+      "game_sha256": "4df5995b4c2a515fbc8e6b0659292696d30d78d445bfdbaaad86c2745b298f2c",
+      "map": "Towers of Doom",
+      "map_checksum": 298281936,
+      "mod_checksum": 3698428329,
+      "pairs": 70,
+      "profile_sha256": "3256be4b60c5e8553e28e80044e60eb2289558e1749f31100f3cc2e1a0933923",
+      "replay_bytes": 1138445,
+      "replay_sha256": "715e309bba5d3151d3e1b47461041627db7644d91a8b549c309950e44d6067e8",
+      "scoped": [
+        {
+          "hero": "HeroFaerieDragon",
+          "index": 1,
+          "loop": 112,
+          "purchase": "BrightwingPhaseShiftHyperShift",
+          "target_xml_positions": [
+            1
+          ]
+        },
+        {
+          "hero": "HeroFaerieDragon",
+          "index": 5,
+          "loop": 2685,
+          "purchase": "BrightwingMagicSpit",
+          "target_xml_positions": [
+            5
+          ]
+        },
+        {
+          "hero": "HeroFaerieDragon",
+          "index": 8,
+          "loop": 4514,
+          "purchase": "BrightwingCriticalMistCalmingMist",
+          "target_xml_positions": [
+            8
+          ]
+        },
+        {
+          "hero": "HeroFaerieDragon",
+          "index": 9,
+          "loop": 6570,
+          "purchase": "FaerieDragonHeroicAbilityBlinkHeal",
+          "target_xml_positions": [
+            9
+          ]
+        },
+        {
+          "hero": "HeroFaerieDragon",
+          "index": 13,
+          "loop": 9362,
+          "purchase": "BrightwingPixieDustPixiePower",
+          "target_xml_positions": [
+            13
+          ]
+        },
+        {
+          "hero": "HeroFaerieDragon",
+          "index": 15,
+          "loop": 12483,
+          "purchase": "FaerieDragonMasteryCritterize",
+          "target_xml_positions": [
+            15
+          ]
+        },
+        {
+          "hero": "HeroFaerieDragon",
+          "index": 17,
+          "loop": 16576,
+          "purchase": "BrightwingInvisibleFriends",
+          "target_xml_positions": [
+            17
+          ]
+        }
+      ],
+      "selection_events": 70,
+      "tracker_events": 6856,
+      "tracker_purchases": 70,
+      "tracker_sha256": "d75db7c198275c19dbb8d6d97ab2b4e13e378459a14edbfdb289d5afa4b81cd5"
+    },
+    {
+      "game_events": 120217,
+      "game_sha256": "814e09d6bb8eb1a0e1811d83e315e4b4044066088c36fe6489ef46ac1f57bd16",
+      "map": "Infernal Shrines",
+      "map_checksum": 2072599531,
+      "mod_checksum": 594213797,
+      "pairs": 65,
+      "profile_sha256": "bd03f3e27134998b088e1bfd10e70ff34d006057eb094455b154a8173e16e084",
+      "replay_bytes": 884754,
+      "replay_sha256": "1230eee79fd3b50a3ee471c587bc77dd14aef67d57bf22cd8df52e877329323a",
+      "scoped": [
+        {
+          "hero": "HeroKaelthas",
+          "index": 0,
+          "loop": 667,
+          "purchase": "KaelthasFlamestrikeConvection",
+          "target_xml_positions": [
+            0
+          ]
+        },
+        {
+          "hero": "HeroFaerieDragon",
+          "index": 1,
+          "loop": 771,
+          "purchase": "BrightwingPhaseShiftHyperShift",
+          "target_xml_positions": [
+            1
+          ]
+        },
+        {
+          "hero": "HeroKaelthas",
+          "index": 5,
+          "loop": 2778,
+          "purchase": "KaelthasFlamestrikeManaTap",
+          "target_xml_positions": [
+            5
+          ]
+        },
+        {
+          "hero": "HeroFaerieDragon",
+          "index": 4,
+          "loop": 2873,
+          "purchase": "BrightwingUnstableAnomalyPolymorph",
+          "target_xml_positions": [
+            4
+          ]
+        },
+        {
+          "hero": "HeroKaelthas",
+          "index": 8,
+          "loop": 4457,
+          "purchase": "KaelthasMasterySunfireEnchantment",
+          "target_xml_positions": [
+            8
+          ]
+        },
+        {
+          "hero": "HeroFaerieDragon",
+          "index": 7,
+          "loop": 4858,
+          "purchase": "BrightwingPhaseShiftPeekaboo",
+          "target_xml_positions": [
+            7
+          ]
+        },
+        {
+          "hero": "HeroFaerieDragon",
+          "index": 9,
+          "loop": 6571,
+          "purchase": "FaerieDragonHeroicAbilityBlinkHeal",
+          "target_xml_positions": [
+            9
+          ]
+        },
+        {
+          "hero": "HeroKaelthas",
+          "index": 10,
+          "loop": 7595,
+          "purchase": "KaelthasHeroicAbilityPyroblast",
+          "target_xml_positions": [
+            10
+          ]
+        },
+        {
+          "hero": "HeroKaelthas",
+          "index": 11,
+          "loop": 8939,
+          "purchase": "KaelthasLivingBombPyromaniac",
+          "target_xml_positions": [
+            11
+          ]
+        },
+        {
+          "hero": "HeroFaerieDragon",
+          "index": 13,
+          "loop": 9263,
+          "purchase": "BrightwingPixieDustPixiePower",
+          "target_xml_positions": [
+            13
+          ]
+        },
+        {
+          "hero": "HeroKaelthas",
+          "index": 15,
+          "loop": 11326,
+          "purchase": "KaelthasLivingBombIgnite",
+          "target_xml_positions": [
+            15
+          ]
+        },
+        {
+          "hero": "HeroFaerieDragon",
+          "index": 16,
+          "loop": 11945,
+          "purchase": "BrightwingPhaseOut",
+          "target_xml_positions": [
+            16
+          ]
+        },
+        {
+          "hero": "HeroKaelthas",
+          "index": 20,
+          "loop": 14664,
+          "purchase": "KaelthasMasteryFlamethrower",
+          "target_xml_positions": [
+            20
+          ]
+        },
+        {
+          "hero": "HeroFaerieDragon",
+          "index": 19,
+          "loop": 14731,
+          "purchase": "BrightwingSpeedyDragon",
+          "target_xml_positions": [
+            19
+          ]
+        }
+      ],
+      "selection_events": 65,
+      "tracker_events": 8218,
+      "tracker_purchases": 65,
+      "tracker_sha256": "f7dc8271844b53c8b484fd4de1004ef03c4d6e5b85e8a2ad63021c3b044dbaf6"
+    },
+    {
+      "game_events": 234980,
+      "game_sha256": "190b16d7e8e7215d411526128952092c0c2adcf26ddc4b3cb05dae0873966c80",
+      "map": "Cursed Hollow",
+      "map_checksum": 3185272335,
+      "mod_checksum": 1450600711,
+      "pairs": 70,
+      "profile_sha256": "c0ee5d66c7a866f3cd673f31b7930bcbe9c6747dee6ea51c00103d4523780f26",
+      "replay_bytes": 1689868,
+      "replay_sha256": "db40f495edb70b2127b97cae4f479de19e18e61b2a5a0e0413052b571e1dbf7e",
+      "scoped": [
+        {
+          "hero": "HeroFaerieDragon",
+          "index": 0,
+          "loop": 80,
+          "purchase": "BrightwingGreaterPolymorphPolymorph",
+          "target_xml_positions": [
+            0
+          ]
+        },
+        {
+          "hero": "HeroTyrande",
+          "index": 0,
+          "loop": 502,
+          "purchase": "TyrandeRanger",
+          "target_xml_positions": [
+            0
+          ]
+        },
+        {
+          "hero": "HeroNova",
+          "index": 2,
+          "loop": 733,
+          "purchase": "NovaAdvancedCloaking",
+          "target_xml_positions": [
+            2
+          ]
+        },
+        {
+          "hero": "HeroFaerieDragon",
+          "index": 5,
+          "loop": 2631,
+          "purchase": "BrightwingMagicSpit",
+          "target_xml_positions": [
+            5
+          ]
+        },
+        {
+          "hero": "HeroNova",
+          "index": 3,
+          "loop": 2695,
+          "purchase": "NovaRapidProjection",
+          "target_xml_positions": [
+            3
+          ]
+        },
+        {
+          "hero": "HeroTyrande",
+          "index": 5,
+          "loop": 4089,
+          "purchase": "TyrandeElunesChosen",
+          "target_xml_positions": [
+            5
+          ]
+        },
+        {
+          "hero": "HeroFaerieDragon",
+          "index": 8,
+          "loop": 4189,
+          "purchase": "BrightwingCriticalMistCalmingMist",
+          "target_xml_positions": [
+            8
+          ]
+        },
+        {
+          "hero": "HeroNova",
+          "index": 8,
+          "loop": 4773,
+          "purchase": "NovaCombatStyleAntiArmorShells",
+          "target_xml_positions": [
+            8
+          ]
+        },
+        {
+          "hero": "HeroTyrande",
+          "index": 8,
+          "loop": 4950,
+          "purchase": "TyrandeHuntressFury",
+          "target_xml_positions": [
+            8
+          ]
+        },
+        {
+          "hero": "HeroFaerieDragon",
+          "index": 9,
+          "loop": 6719,
+          "purchase": "FaerieDragonHeroicAbilityBlinkHeal",
+          "target_xml_positions": [
+            9
+          ]
+        },
+        {
+          "hero": "HeroNova",
+          "index": 10,
+          "loop": 6814,
+          "purchase": "NovaHeroicAbilityPrecisionStrike",
+          "target_xml_positions": [
+            10
+          ]
+        },
+        {
+          "hero": "HeroTyrande",
+          "index": 9,
+          "loop": 6861,
+          "purchase": "TyrandeHeroicAbilityShadowstalk",
+          "target_xml_positions": [
+            9
+          ]
+        },
+        {
+          "hero": "HeroFaerieDragon",
+          "index": 11,
+          "loop": 9565,
+          "purchase": "BrightwingPixieBoostPixieDust",
+          "target_xml_positions": [
+            11
+          ]
+        },
+        {
+          "hero": "HeroTyrande",
+          "index": 12,
+          "loop": 10508,
+          "purchase": "TyrandeHarshMoonlight",
+          "target_xml_positions": [
+            12
+          ]
+        },
+        {
+          "hero": "HeroNova",
+          "index": 13,
+          "loop": 10605,
+          "purchase": "NovaIonicForceField",
+          "target_xml_positions": [
+            13
+          ]
+        },
+        {
+          "hero": "HeroFaerieDragon",
+          "index": 15,
+          "loop": 12447,
+          "purchase": "FaerieDragonMasteryCritterize",
+          "target_xml_positions": [
+            15
+          ]
+        },
+        {
+          "hero": "HeroTyrande",
+          "index": 15,
+          "loop": 13096,
+          "purchase": "TyrandeEmpower",
+          "target_xml_positions": [
+            15
+          ]
+        },
+        {
+          "hero": "HeroNova",
+          "index": 14,
+          "loop": 13551,
+          "purchase": "NovaMasteryExplosiveShot",
+          "target_xml_positions": [
+            14
+          ]
+        },
+        {
+          "hero": "HeroFaerieDragon",
+          "index": 17,
+          "loop": 16079,
+          "purchase": "BrightwingInvisibleFriends",
+          "target_xml_positions": [
+            17
+          ]
+        },
+        {
+          "hero": "HeroNova",
+          "index": 18,
+          "loop": 16684,
+          "purchase": "NovaMasteryPrecisionBarrage",
+          "target_xml_positions": [
+            18
+          ]
+        },
+        {
+          "hero": "HeroTyrande",
+          "index": 19,
+          "loop": 16845,
+          "purchase": "TyrandeCommanderofSentinels",
+          "target_xml_positions": [
+            19
+          ]
+        }
+      ],
+      "selection_events": 70,
+      "tracker_events": 12417,
+      "tracker_purchases": 70,
+      "tracker_sha256": "bf9e95e4fcca31c3b3df1e01bab53b1d9e0aad32f2e050faace69888b4e3bf3b"
+    },
+    {
+      "game_events": 268132,
+      "game_sha256": "87a7756cee09d905e16e36174d686734a6c767768cca7537bf3c49a326af0f86",
+      "map": "Tomb of the Spider Queen",
+      "map_checksum": 2209509714,
+      "mod_checksum": 3334967394,
+      "pairs": 70,
+      "profile_sha256": "ca8abe7788e0a4018b406ac332d0c64304b91c9992204b34176347ae73466681",
+      "replay_bytes": 1780350,
+      "replay_sha256": "d41417f0fd11a1d512e30fa77882bdebf220432bd7e9412b40440cb79a7c9cec",
+      "scoped": [
+        {
+          "hero": "HeroNova",
+          "index": 2,
+          "loop": 626,
+          "purchase": "NovaAdvancedCloaking",
+          "target_xml_positions": [
+            2
+          ]
+        },
+        {
+          "hero": "HeroNova",
+          "index": 3,
+          "loop": 2739,
+          "purchase": "NovaRapidProjection",
+          "target_xml_positions": [
+            3
+          ]
+        },
+        {
+          "hero": "HeroNova",
+          "index": 8,
+          "loop": 4697,
+          "purchase": "NovaCombatStyleAntiArmorShells",
+          "target_xml_positions": [
+            8
+          ]
+        },
+        {
+          "hero": "HeroNova",
+          "index": 10,
+          "loop": 7350,
+          "purchase": "NovaHeroicAbilityPrecisionStrike",
+          "target_xml_positions": [
+            10
+          ]
+        },
+        {
+          "hero": "HeroNova",
+          "index": 11,
+          "loop": 10189,
+          "purchase": "NovaMasteryPsionicEfficiency",
+          "target_xml_positions": [
+            11
+          ]
+        },
+        {
+          "hero": "HeroNova",
+          "index": 14,
+          "loop": 13249,
+          "purchase": "NovaMasteryExplosiveShot",
+          "target_xml_positions": [
+            14
+          ]
+        },
+        {
+          "hero": "HeroNova",
+          "index": 18,
+          "loop": 18636,
+          "purchase": "NovaMasteryPrecisionBarrage",
+          "target_xml_positions": [
+            18
+          ]
+        }
+      ],
+      "selection_events": 70,
+      "tracker_events": 21196,
+      "tracker_purchases": 70,
+      "tracker_sha256": "b1918be3f1f4559e1f71cf767be8556bb30c553e15e9eecbb547fa4e38290659"
+    },
+    {
+      "game_events": 144708,
+      "game_sha256": "c7fba3ffbae7cf8ce1c348d0478f8e5cb81b2e3991791e21a793638cf058a52d",
+      "map": "Lost Cavern",
+      "map_checksum": 1584093538,
+      "mod_checksum": 2247925944,
+      "pairs": 70,
+      "profile_sha256": "255f13b2d9dd52763b94d4aa8d1e99624c4d38eb8e545e205549bffce3be9feb",
+      "replay_bytes": 978482,
+      "replay_sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4",
+      "scoped": [
+        {
+          "hero": "HeroKaelthas",
+          "index": 2,
+          "loop": 1099,
+          "purchase": "KaelthasManaAddict",
+          "target_xml_positions": [
+            2
+          ]
+        },
+        {
+          "hero": "HeroKaelthas",
+          "index": 5,
+          "loop": 3247,
+          "purchase": "KaelthasFlamestrikeManaTap",
+          "target_xml_positions": [
+            5
+          ]
+        },
+        {
+          "hero": "HeroKaelthas",
+          "index": 6,
+          "loop": 5020,
+          "purchase": "KaelthasFlamestrikeBurnedFlesh",
+          "target_xml_positions": [
+            6
+          ]
+        },
+        {
+          "hero": "HeroKaelthas",
+          "index": 9,
+          "loop": 6908,
+          "purchase": "KaelthasHeroicAbilityPhoenix",
+          "target_xml_positions": [
+            9
+          ]
+        },
+        {
+          "hero": "HeroKaelthas",
+          "index": 11,
+          "loop": 8555,
+          "purchase": "KaelthasLivingBombPyromaniac",
+          "target_xml_positions": [
+            11
+          ]
+        },
+        {
+          "hero": "HeroKaelthas",
+          "index": 15,
+          "loop": 10562,
+          "purchase": "KaelthasLivingBombIgnite",
+          "target_xml_positions": [
+            15
+          ]
+        },
+        {
+          "hero": "HeroKaelthas",
+          "index": 20,
+          "loop": 13433,
+          "purchase": "KaelthasMasteryFlamethrower",
+          "target_xml_positions": [
+            20
+          ]
+        }
+      ],
+      "selection_events": 70,
+      "tracker_events": 6181,
+      "tracker_purchases": 70,
+      "tracker_sha256": "129a09eff04b60e77232d1070f049c3d2ca809627dca9d1cb389ffe656b62e1b"
+    }
+  ],
+  "dragon_baseline_sha256": "24611512e7aaa20bc9dd231bdc5034e5e2446ff4cfb2dec1e1de63888ee96b70",
+  "format": "supplemental-98348-target-talent-witnesses-v1",
+  "hero_support": {
+    "HeroAbathur": 7,
+    "HeroBarbarian": 7,
+    "HeroFaerieDragon": 28,
+    "HeroGreymane": 7,
+    "HeroKaelthas": 21,
+    "HeroNova": 14,
+    "HeroTyrande": 21
+  },
+  "method": "Game selection with explicit unique prior setup and hero. Exactly one matching same-player purchase at next loop. Separate audit cross-check. Held-out recorded indices checked against direct target XML positions. No gameplay effects or target-source map equivalence inferred.",
+  "newly_witnessed_source_selections": [
+    {
+      "control_cases": 2,
+      "control_replays": [
+        "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4",
+        "afcf49a656068f343173fc79afff2d2ebf15066f531cb192382cdba9d1ea3272"
+      ],
+      "current_index": 2,
+      "hero": "HeroKaelthas",
+      "ordinal": 1536,
+      "purchase": "KaelthasManaAddict",
+      "source_loop": 354
+    },
+    {
+      "control_cases": 2,
+      "control_replays": [
+        "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4",
+        "afcf49a656068f343173fc79afff2d2ebf15066f531cb192382cdba9d1ea3272"
+      ],
+      "current_index": 2,
+      "hero": "HeroKaelthas",
+      "ordinal": 6214,
+      "purchase": "KaelthasManaAddict",
+      "source_loop": 1216
+    },
+    {
+      "control_cases": 2,
+      "control_replays": [
+        "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4",
+        "afcf49a656068f343173fc79afff2d2ebf15066f531cb192382cdba9d1ea3272"
+      ],
+      "current_index": 6,
+      "hero": "HeroKaelthas",
+      "ordinal": 23721,
+      "purchase": "KaelthasFlamestrikeBurnedFlesh",
+      "source_loop": 4361
+    },
+    {
+      "control_cases": 2,
+      "control_replays": [
+        "d41417f0fd11a1d512e30fa77882bdebf220432bd7e9412b40440cb79a7c9cec",
+        "db40f495edb70b2127b97cae4f479de19e18e61b2a5a0e0413052b571e1dbf7e"
+      ],
+      "current_index": 8,
+      "hero": "HeroNova",
+      "ordinal": 26069,
+      "purchase": "NovaCombatStyleAntiArmorShells",
+      "source_loop": 4722
+    },
+    {
+      "control_cases": 1,
+      "control_replays": [
+        "db40f495edb70b2127b97cae4f479de19e18e61b2a5a0e0413052b571e1dbf7e"
+      ],
+      "current_index": 9,
+      "hero": "HeroTyrande",
+      "ordinal": 36563,
+      "purchase": "TyrandeHeroicAbilityShadowstalk",
+      "source_loop": 6471
+    },
+    {
+      "control_cases": 2,
+      "control_replays": [
+        "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4",
+        "afcf49a656068f343173fc79afff2d2ebf15066f531cb192382cdba9d1ea3272"
+      ],
+      "current_index": 9,
+      "hero": "HeroKaelthas",
+      "ordinal": 36860,
+      "purchase": "KaelthasHeroicAbilityPhoenix",
+      "source_loop": 6528
+    },
+    {
+      "control_cases": 1,
+      "control_replays": [
+        "1230eee79fd3b50a3ee471c587bc77dd14aef67d57bf22cd8df52e877329323a"
+      ],
+      "current_index": 10,
+      "hero": "HeroKaelthas",
+      "ordinal": 40645,
+      "purchase": "KaelthasHeroicAbilityPyroblast",
+      "source_loop": 7071
+    },
+    {
+      "control_cases": 1,
+      "control_replays": [
+        "afcf49a656068f343173fc79afff2d2ebf15066f531cb192382cdba9d1ea3272"
+      ],
+      "current_index": 15,
+      "hero": "HeroAbathur",
+      "ordinal": 50077,
+      "purchase": "AbathurCombatStyleBombardStrain",
+      "source_loop": 8692
+    },
+    {
+      "control_cases": 2,
+      "control_replays": [
+        "d41417f0fd11a1d512e30fa77882bdebf220432bd7e9412b40440cb79a7c9cec",
+        "db40f495edb70b2127b97cae4f479de19e18e61b2a5a0e0413052b571e1dbf7e"
+      ],
+      "current_index": 14,
+      "hero": "HeroNova",
+      "ordinal": 55396,
+      "purchase": "NovaMasteryExplosiveShot",
+      "source_loop": 9535
+    },
+    {
+      "control_cases": 1,
+      "control_replays": [
+        "db40f495edb70b2127b97cae4f479de19e18e61b2a5a0e0413052b571e1dbf7e"
+      ],
+      "current_index": 0,
+      "hero": "HeroFaerieDragon",
+      "ordinal": 65613,
+      "purchase": "BrightwingGreaterPolymorphPolymorph",
+      "source_loop": 11594
+    },
+    {
+      "control_cases": 1,
+      "control_replays": [
+        "afcf49a656068f343173fc79afff2d2ebf15066f531cb192382cdba9d1ea3272"
+      ],
+      "current_index": 23,
+      "hero": "HeroAbathur",
+      "ordinal": 85330,
+      "purchase": "AbathurMasteryLocustMaster",
+      "source_loop": 15709
+    }
+  ],
+  "root": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+  "target_build": 98348
+}
