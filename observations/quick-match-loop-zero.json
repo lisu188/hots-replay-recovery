@@ -1,0 +1,156 @@
+{
+  "format": "TEN-quick-match-loop-zero-candidate-v1",
+  "direct_98348_quick_match_witness": false,
+  "target_build": 98348,
+  "map_sha256": "bda7aafd1d63c77b3b4d29ff2afee96da09a3104b54b4a1d625bb299607d9008",
+  "frames": 235,
+  "setup_bytes": 240,
+  "map_block_bytes": 13602,
+  "candidate_bytes": 13842,
+  "candidate_sha256": "575dc05ef76fa4c878fc45074c64e0cf94d7c658d3fd20d9b98d07fcf6c3bfee",
+  "candidate_runs": [
+    [
+      9,
+      10
+    ],
+    [
+      1,
+      165
+    ],
+    [
+      5,
+      15
+    ],
+    [
+      1,
+      7
+    ],
+    [
+      10,
+      28
+    ],
+    [
+      5,
+      10
+    ]
+  ],
+  "source_same_queue_and_target_standard_controls": [
+    {
+      "replay_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+      "build": 41810,
+      "map": "Dragon Shire",
+      "global_attributes": {
+        "3009": "Amm",
+        "4010": "stan",
+        "4018": "fcfs"
+      },
+      "matchmaking_enabled": true,
+      "amm_id": null,
+      "contains_amm_id_field": false,
+      "attributes_sha256": "28cc7329f5a1f9b29eeb09dd605acfd9ba0f9cbcdd8e52fb3a0ed69e10dda6eb",
+      "details_sha256": "70431663598198a9eb9a6a7ad2cdf99616b6b251696bd4743542e19b6626a1bf",
+      "loop_zero_bytes": 13092,
+      "loop_zero_sha256": "8284527430a5854d0dc3b30842a6290f2d1127750fa7d41a2f02839919a05a67",
+      "physical_event_runs": [
+        [
+          9,
+          10
+        ],
+        [
+          1,
+          165
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          10,
+          28
+        ]
+      ]
+    },
+    {
+      "replay_sha256": "05ec458110db57dd5cf6c044cb6b7270d880282ec803abce725f048f91fc3e75",
+      "build": 98285,
+      "map": "Braxis Holdout",
+      "global_attributes": {
+        "3009": "Amm",
+        "4010": "stan",
+        "4018": "fcfs"
+      },
+      "matchmaking_enabled": true,
+      "amm_id": 50001,
+      "contains_amm_id_field": true,
+      "attributes_sha256": "0114c70d81335b38796867c5e0e9a650915f6fb5411c14034df5e122569e68c8",
+      "details_sha256": "2f225a41d72f482d1bda99378bc766b2c76a22da2f2f6ac732fa876af222b96a",
+      "loop_zero_bytes": 23059,
+      "loop_zero_sha256": "c9aeb40636c849f1edeb0fa4ad5c9b1eb39ea847f8b910d2508464cc80fd9e9e",
+      "physical_event_runs": [
+        [
+          9,
+          10
+        ],
+        [
+          1,
+          332
+        ],
+        [
+          5,
+          15
+        ],
+        [
+          1,
+          10
+        ],
+        [
+          10,
+          24
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "replay_sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4",
+      "build": 98348,
+      "map": "Lost Cavern",
+      "global_attributes": {
+        "3009": "Priv",
+        "4010": "stan",
+        "4018": "fcfs"
+      },
+      "matchmaking_enabled": false,
+      "amm_id": null,
+      "contains_amm_id_field": true,
+      "attributes_sha256": "cffaf52c16a1f6d2db5f1c1890aed2e3a38d149410e05713bcfcc7f3219634fb",
+      "details_sha256": "0d6344f4a90b5f13355f6733c09cf337801cf17e693db7986d580463d28f8932",
+      "loop_zero_bytes": 7134,
+      "loop_zero_sha256": "5abe1e3f1e9d1cd758590f6cd0ba746e0309a732cb1af313287cbb14a60fed6d",
+      "physical_event_runs": [
+        [
+          9,
+          10
+        ],
+        [
+          1,
+          82
+        ],
+        [
+          5,
+          15
+        ],
+        [
+          10,
+          15
+        ]
+      ]
+    }
+  ]
+}
