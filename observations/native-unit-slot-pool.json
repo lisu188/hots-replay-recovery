@@ -1,0 +1,40 @@
+{
+  "pe_bytes": 53573840,
+  "pe_sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+  "transformed_bytes": 36581376,
+  "transformed_sha256": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83",
+  "unit_manager_rva": "0x2f3d470",
+  "unit_create_call_rva": "0x996fb8",
+  "unit_stride": 752,
+  "chunk_slots": 16,
+  "clean_slots": 1023,
+  "unit_tag_offset": 16,
+  "first_generation": 1,
+  "ordinary_generation_max": 4194302,
+  "quarantined_generation": 4194303,
+  "pending_head_offset": 2,
+  "ready_head_offset": 4,
+  "exhausted_head_offset": 6,
+  "actual_retire_rva": "0x9926c0",
+  "drain_rva": "0x997400",
+  "dispatch_release_then_drain": [
+    "0x985a60",
+    "0x985b0f"
+  ],
+  "model_batch_reuse": [
+    [
+      11,
+      2
+    ],
+    [
+      7,
+      2
+    ],
+    [
+      3,
+      2
+    ]
+  ],
+  "every_tracker_death_is_retirement": false,
+  "full_simulation_verified": false
+}
