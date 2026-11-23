@@ -1,0 +1,197 @@
+{
+  "build": 98348,
+  "original": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+  "static_text": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83",
+  "checked_code_windows": 30,
+  "fresh_archive_mode": 2,
+  "fresh_state_class": 0,
+  "archive_setter_slot": "0x1f8",
+  "optional_history_setter_slot": "0x260",
+  "state_class_zero_dispatches_alternate_history_method": false,
+  "start_replay_ipc": {
+    "mode": 2,
+    "state_class": 1,
+    "descriptor_variant": 2,
+    "alternate_history_guard_returns": 0
+  },
+  "optional_path_empty_at_manager_construction": true,
+  "ten": {
+    "sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+    "build": 41810,
+    "init_data_sha256": "dcc26ba86dcd764a561ea17b9bb79db6361006e761ec66be9871d40fc5c62e27",
+    "mini_save": false,
+    "restart_as_transition": false
+  },
+  "controls": [
+    {
+      "sha256": "1230eee79fd3b50a3ee471c587bc77dd14aef67d57bf22cd8df52e877329323a",
+      "build": 98348,
+      "init_data_sha256": "85c6e181c7c81cf95d5580a82b847336fab43ab8087e68908a887e5f0d0fbe9e",
+      "mini_save": false,
+      "restart_as_transition": false
+    },
+    {
+      "sha256": "4732077e899f6894c29586795a01e2a27fba622dbf22b5d29c7b30d57e3ce4fc",
+      "build": 98348,
+      "init_data_sha256": "4db14af944c319491cb10f19243778749f3440b40018cc6b0e2d32052b9519ee",
+      "mini_save": false,
+      "restart_as_transition": false
+    },
+    {
+      "sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+      "build": 98348,
+      "init_data_sha256": "97f1fcb3bdaf6f4e127a38e28256f01104510f17f3c3e166908a880df83b773c",
+      "mini_save": false,
+      "restart_as_transition": false
+    },
+    {
+      "sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+      "build": 98348,
+      "init_data_sha256": "7561d9aa9c5baa06f32f4603cc33084c6ab2927338ce589683ffe782e9f76c7b",
+      "mini_save": false,
+      "restart_as_transition": false
+    },
+    {
+      "sha256": "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+      "build": 98348,
+      "init_data_sha256": "0d4865b33e23afa5410407c328f7c25d2fe238f103966ff92d5279babed34c9c",
+      "mini_save": false,
+      "restart_as_transition": false
+    },
+    {
+      "sha256": "715e309bba5d3151d3e1b47461041627db7644d91a8b549c309950e44d6067e8",
+      "build": 98348,
+      "init_data_sha256": "6269695a0f038cc458226c2ca340633b8f3b1eead7426c11c3561642e7b69818",
+      "mini_save": false,
+      "restart_as_transition": false
+    },
+    {
+      "sha256": "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+      "build": 98348,
+      "init_data_sha256": "1e74b71619f2e571ac7d4da341211868e65173653da7fbc701c840cbafb80b38",
+      "mini_save": false,
+      "restart_as_transition": false
+    },
+    {
+      "sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+      "build": 98348,
+      "init_data_sha256": "84acf9f5e7c57ac4c76880dfb82cbd64a98880ca85be7c103679fe5995e5431d",
+      "mini_save": false,
+      "restart_as_transition": false
+    },
+    {
+      "sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+      "build": 98348,
+      "init_data_sha256": "b514421fdff1a110af742ccb48399eccd4ff42d47efd8ac57a5d65f96135ba23",
+      "mini_save": false,
+      "restart_as_transition": false
+    },
+    {
+      "sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+      "build": 98348,
+      "init_data_sha256": "b6706c409debd0fa3e536b24f882ebcc067b00b69715e70faf780489563ce3d4",
+      "mini_save": false,
+      "restart_as_transition": false
+    },
+    {
+      "sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+      "build": 98348,
+      "init_data_sha256": "26eaef231f7fdc88725a77e6af31d9a6555ebe44c8993526d21bfce3df29c5e5",
+      "mini_save": false,
+      "restart_as_transition": false
+    },
+    {
+      "sha256": "9872b043e48093abc65e11b7b6d091861e83fc4d202b40b745824da647cb6ef3",
+      "build": 98348,
+      "init_data_sha256": "ccc6862ce3f17b5b9de0b295f55cc2f32fe40aabc9edf67471cf6f65aa913ad5",
+      "mini_save": false,
+      "restart_as_transition": false
+    },
+    {
+      "sha256": "98ac891fa4fb8e1698e5fc35609fcf75abfe7e89aee9c7f05afff93b10338ab3",
+      "build": 98348,
+      "init_data_sha256": "38d21101440d56bc1244b52d04ba6e6a1846a423a39c418650fc1d4c43fa4f51",
+      "mini_save": false,
+      "restart_as_transition": false
+    },
+    {
+      "sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4",
+      "build": 98348,
+      "init_data_sha256": "9800e9b30fb10dee72c7ccc70bfd0b35cf19eab794cf657a9f56734a461d5240",
+      "mini_save": false,
+      "restart_as_transition": false
+    },
+    {
+      "sha256": "a956b186a0459a47d9b0fdd8af4ccb65c437f11926186471c434e543e218b2d7",
+      "build": 98348,
+      "init_data_sha256": "2b8370388eb3fccff2bca77b807ab7df6b60892871f8d42c72118c4664db8bd7",
+      "mini_save": false,
+      "restart_as_transition": false
+    },
+    {
+      "sha256": "afcf49a656068f343173fc79afff2d2ebf15066f531cb192382cdba9d1ea3272",
+      "build": 98348,
+      "init_data_sha256": "de2bf44d8a432205e8c5a3854991e58eff01d441713874948609aa9f66a131d1",
+      "mini_save": false,
+      "restart_as_transition": false
+    },
+    {
+      "sha256": "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+      "build": 98348,
+      "init_data_sha256": "f20f0aeb98c1f819f2c4f17d780c14ebfe1b90f6e92f6b596a6e378fc6471bbf",
+      "mini_save": false,
+      "restart_as_transition": false
+    },
+    {
+      "sha256": "bc16af7f68496cddc4698f70b3853402a0f30aa37951aec3a6b555ed703879e8",
+      "build": 98348,
+      "init_data_sha256": "dfeb62ad41796bf4397c5dacbb5059530a401c683515f59f36b329ea0e929bc2",
+      "mini_save": false,
+      "restart_as_transition": false
+    },
+    {
+      "sha256": "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77",
+      "build": 98348,
+      "init_data_sha256": "439266bdd93990ec3a92f69a0b6f5c4a410a6488547adaf0ee8b8d5326f461b2",
+      "mini_save": false,
+      "restart_as_transition": false
+    },
+    {
+      "sha256": "d41417f0fd11a1d512e30fa77882bdebf220432bd7e9412b40440cb79a7c9cec",
+      "build": 98348,
+      "init_data_sha256": "1cb620d4b87abfa309bda0024362385a405ba4f73c88c633a6a4de3b7334a2c0",
+      "mini_save": false,
+      "restart_as_transition": false
+    },
+    {
+      "sha256": "db40f495edb70b2127b97cae4f479de19e18e61b2a5a0e0413052b571e1dbf7e",
+      "build": 98348,
+      "init_data_sha256": "7066b72ecead4aa38393c7a410bf193d97df3a725e3815ede4292a14f7c3d3ef",
+      "mini_save": false,
+      "restart_as_transition": false
+    },
+    {
+      "sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+      "build": 98348,
+      "init_data_sha256": "e5e68bdf08a03a159815af51f4ae81a4f1fa573909e47db19c69eb8e0a87e138",
+      "mini_save": false,
+      "restart_as_transition": false
+    },
+    {
+      "sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+      "build": 98348,
+      "init_data_sha256": "43ea91235a686c5af99e63d8e3154bad3ef0aded16479a6357281fd8c631fced",
+      "mini_save": false,
+      "restart_as_transition": false
+    },
+    {
+      "sha256": "fe801daf9df44f10db2b950989308c8ee2fa55c03b4adfef7ac383b4d46583bf",
+      "build": 98348,
+      "init_data_sha256": "1deb3b3b4d1c714965f41c994c6652dadc0d68fb085be7fc7ab097061b633c3b",
+      "mini_save": false,
+      "restart_as_transition": false
+    }
+  ],
+  "prediction_for_each_control": "Opening on the fresh file-request route FB870B selects archive mode 2 and state class 0. With the manager still in its initial optional-path state at Apply, it selects the clean setup tail.",
+  "recording_time_history_vector": null
+}
