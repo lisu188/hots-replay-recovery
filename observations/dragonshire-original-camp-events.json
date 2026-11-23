@@ -1,0 +1,210 @@
+{
+  "source_replay_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+  "source_map_sha256": "e0a58745837b3b5351015c933560dbffb178d747009d2d57b4153ef425cf7250",
+  "current_mechanics_sha256": "d49dbde21198963f953efa16c8d8bb6b035d2d8bd8f0d41b5989fecbb4e35b1f",
+  "source_tracker_bytes": 328838,
+  "source_tracker_sha256": "1a9a556f9f1fde466d17c4a3a3fbb31cbec8d8086bef97efeb796f1f5175245f",
+  "source_tracker_reencoded_byte_equal": true,
+  "original_map_galaxy_members": [
+    "MapScript.galaxy"
+  ],
+  "historical_map_includes_external_map_mechanics": true,
+  "original_preloads_legacy_flag": true,
+  "exact_historical_library_implementation_recovered": false,
+  "gates_open_loop": 610,
+  "camp_named_stats": {
+    "JungleCampCapture": 13,
+    "JungleCampInit": 5
+  },
+  "all_laner_births": 38,
+  "source_camps": [
+    {
+      "id": 1,
+      "kind": "SiegeGiants",
+      "point_id": 244,
+      "region_id": 8,
+      "authored_flag_id": 477,
+      "flag_region_test": "inside",
+      "original_init_loop": 0,
+      "flag_tag": [
+        62,
+        1
+      ],
+      "capture_beacon_tag": [
+        165,
+        1
+      ],
+      "icon_birth_loop": 2530,
+      "first_defenders_loop": 2532,
+      "first_defender_composition": {
+        "MercDefenderSiegeGiant": 2
+      },
+      "capture_events": [
+        {
+          "loop": 9017,
+          "team": 1,
+          "beacon_owner_change_loops_before": 1
+        },
+        {
+          "loop": 13819,
+          "team": 1,
+          "beacon_owner_change_loops_before": 1
+        },
+        {
+          "loop": 18731,
+          "team": 1,
+          "beacon_owner_change_loops_before": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "kind": "Knights",
+      "point_id": 252,
+      "region_id": 9,
+      "authored_flag_id": 479,
+      "flag_region_test": "inside",
+      "original_init_loop": 0,
+      "flag_tag": [
+        64,
+        1
+      ],
+      "capture_beacon_tag": [
+        166,
+        1
+      ],
+      "icon_birth_loop": 2530,
+      "first_defenders_loop": 2532,
+      "first_defender_composition": {
+        "MercDefenderMeleeKnight": 3,
+        "MercDefenderRangedMage": 1
+      },
+      "capture_events": []
+    },
+    {
+      "id": 3,
+      "kind": "SiegeGiants",
+      "point_id": 245,
+      "region_id": 10,
+      "authored_flag_id": 478,
+      "flag_region_test": "uncertain_diamond_shape",
+      "original_init_loop": 0,
+      "flag_tag": [
+        63,
+        1
+      ],
+      "capture_beacon_tag": [
+        167,
+        1
+      ],
+      "icon_birth_loop": 2530,
+      "first_defenders_loop": 2532,
+      "first_defender_composition": {
+        "MercDefenderSiegeGiant": 2
+      },
+      "capture_events": [
+        {
+          "loop": 5343,
+          "team": 2,
+          "beacon_owner_change_loops_before": 1
+        },
+        {
+          "loop": 9172,
+          "team": 2,
+          "beacon_owner_change_loops_before": 1
+        },
+        {
+          "loop": 13757,
+          "team": 2,
+          "beacon_owner_change_loops_before": 1
+        },
+        {
+          "loop": 19012,
+          "team": 1,
+          "beacon_owner_change_loops_before": 1
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "kind": "Knights",
+      "point_id": 253,
+      "region_id": 14,
+      "authored_flag_id": 480,
+      "flag_region_test": "inside",
+      "original_init_loop": 0,
+      "flag_tag": [
+        65,
+        1
+      ],
+      "capture_beacon_tag": [
+        168,
+        1
+      ],
+      "icon_birth_loop": 2530,
+      "first_defenders_loop": 2532,
+      "first_defender_composition": {
+        "MercDefenderMeleeKnight": 3,
+        "MercDefenderRangedMage": 1
+      },
+      "capture_events": [
+        {
+          "loop": 6909,
+          "team": 2,
+          "beacon_owner_change_loops_before": 1
+        },
+        {
+          "loop": 11604,
+          "team": 2,
+          "beacon_owner_change_loops_before": 1
+        },
+        {
+          "loop": 16096,
+          "team": 2,
+          "beacon_owner_change_loops_before": 1
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "kind": "Knights",
+      "point_id": 178,
+      "region_id": 24,
+      "authored_flag_id": 476,
+      "flag_region_test": "inside",
+      "original_init_loop": 0,
+      "flag_tag": [
+        61,
+        1
+      ],
+      "capture_beacon_tag": [
+        169,
+        1
+      ],
+      "icon_birth_loop": 2530,
+      "first_defenders_loop": 2532,
+      "first_defender_composition": {
+        "MercDefenderMeleeKnight": 3,
+        "MercDefenderRangedMage": 1
+      },
+      "capture_events": [
+        {
+          "loop": 4217,
+          "team": 2,
+          "beacon_owner_change_loops_before": 1
+        },
+        {
+          "loop": 9828,
+          "team": 2,
+          "beacon_owner_change_loops_before": 1
+        },
+        {
+          "loop": 14346,
+          "team": 2,
+          "beacon_owner_change_loops_before": 1
+        }
+      ]
+    }
+  ],
+  "notes": "At each recorded capture the legacy flag and icon both change to team owner 11/12; every captured wave is born within eight map units of its unique nearest camp point, on that loop, with that owner."
+}

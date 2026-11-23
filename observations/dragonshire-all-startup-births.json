@@ -1,0 +1,493 @@
+{
+  "format": "dragon-shire-script-created-startup-units-v1",
+  "mechanics_sha256": "d49dbde21198963f953efa16c8d8bb6b035d2d8bd8f0d41b5989fecbb4e35b1f",
+  "producers": {
+    "neutral_owner": [
+      "HeroesLib_h.galaxy",
+      308
+    ],
+    "startup_dispatch": [
+      "HeroesLib.galaxy",
+      4923,
+      4925
+    ],
+    "camp_init": [
+      "GameLib.galaxy",
+      12733
+    ],
+    "camp_default": [
+      "MapMechanicsLib.galaxy",
+      95
+    ],
+    "camp_loop_and_beacon": [
+      "MapMechanicsLib.galaxy",
+      4909,
+      4911,
+      4912,
+      4913,
+      4936,
+      4947
+    ],
+    "icon_guard_and_producer": [
+      "MapMechanicsLib.galaxy",
+      694,
+      695,
+      697,
+      698,
+      703,
+      704
+    ],
+    "shrine_producer": [
+      "MapMechanicsLib.galaxy",
+      3537,
+      3544,
+      3570,
+      3577
+    ]
+  },
+  "maps": [
+    {
+      "build": 41810,
+      "map_sha256": "e0a58745837b3b5351015c933560dbffb178d747009d2d57b4153ef425cf7250",
+      "members": {
+        "Objects": "5b1f268a147bc854a1d0321826f9e055f45aa690cb970f0e703c5e8cf01476a9",
+        "Regions": "38b9ffdede3a729297c22a3607f148b52d156391db3ff764ac939b231a672d59",
+        "MapScript.galaxy": "3cbca9c5b3c95bd0b5f8eb8d2218d129d89e21c3466cb242e7c54b22e67c7e18"
+      },
+      "authored": 165,
+      "scripted": 7,
+      "camps": [
+        {
+          "captain_point_id": 244,
+          "leash_region_id": 8,
+          "sconce_object_id": null,
+          "enabled_after_current_initializer": false
+        },
+        {
+          "captain_point_id": 252,
+          "leash_region_id": 9,
+          "sconce_object_id": null,
+          "enabled_after_current_initializer": false
+        },
+        {
+          "captain_point_id": 245,
+          "leash_region_id": 10,
+          "sconce_object_id": null,
+          "enabled_after_current_initializer": false
+        },
+        {
+          "captain_point_id": 253,
+          "leash_region_id": 14,
+          "sconce_object_id": null,
+          "enabled_after_current_initializer": false
+        },
+        {
+          "captain_point_id": 178,
+          "leash_region_id": 24,
+          "sconce_object_id": null,
+          "enabled_after_current_initializer": false
+        }
+      ],
+      "scripted_births": [
+        {
+          "m_unitTagIndex": 165,
+          "m_unitTagRecycle": 1,
+          "m_unitTypeName": "TownMercCampCaptureBeacon",
+          "m_controlPlayerId": 0,
+          "m_upkeepPlayerId": 0,
+          "m_x": 101,
+          "m_y": 76
+        },
+        {
+          "m_unitTagIndex": 166,
+          "m_unitTagRecycle": 1,
+          "m_unitTypeName": "TownMercCampCaptureBeacon",
+          "m_controlPlayerId": 0,
+          "m_upkeepPlayerId": 0,
+          "m_x": 100,
+          "m_y": 110
+        },
+        {
+          "m_unitTagIndex": 167,
+          "m_unitTagRecycle": 1,
+          "m_unitTypeName": "TownMercCampCaptureBeacon",
+          "m_controlPlayerId": 0,
+          "m_upkeepPlayerId": 0,
+          "m_x": 147,
+          "m_y": 76
+        },
+        {
+          "m_unitTagIndex": 168,
+          "m_unitTagRecycle": 1,
+          "m_unitTypeName": "TownMercCampCaptureBeacon",
+          "m_controlPlayerId": 0,
+          "m_upkeepPlayerId": 0,
+          "m_x": 148,
+          "m_y": 110
+        },
+        {
+          "m_unitTagIndex": 169,
+          "m_unitTagRecycle": 1,
+          "m_unitTypeName": "TownMercCampCaptureBeacon",
+          "m_controlPlayerId": 0,
+          "m_upkeepPlayerId": 0,
+          "m_x": 124,
+          "m_y": 32
+        },
+        {
+          "m_unitTagIndex": 170,
+          "m_unitTagRecycle": 1,
+          "m_unitTypeName": "DragonballCaptureBeacon",
+          "m_controlPlayerId": 0,
+          "m_upkeepPlayerId": 0,
+          "m_x": 124,
+          "m_y": 155
+        },
+        {
+          "m_unitTagIndex": 171,
+          "m_unitTagRecycle": 1,
+          "m_unitTypeName": "DragonballCaptureBeacon",
+          "m_controlPlayerId": 0,
+          "m_upkeepPlayerId": 0,
+          "m_x": 124,
+          "m_y": 47
+        }
+      ],
+      "variants": [
+        {
+          "name": "DragonShire.41810-layout-HistoricalTalentRules.s2ma",
+          "sha256": "662a90d5ea72c8454d66a1070b3200e6a2929f3d2069e2c07ecc07cfcc79b800",
+          "predictions_equal_to_stock": true
+        },
+        {
+          "name": "DragonShire.41810-layout-ManaAddict.s2ma",
+          "sha256": "9cc87db7faf1e104152961b84b51ed36164172a92fd25b5135bbae0ed93d7fab",
+          "predictions_equal_to_stock": true
+        }
+      ],
+      "cases": [
+        {
+          "replay_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+          "masked_births": 172,
+          "fields_rebuilt": 1204,
+          "original_birth_payloads_retained": 0,
+          "tracker_sha256": "1a9a556f9f1fde466d17c4a3a3fbb31cbec8d8086bef97efeb796f1f5175245f",
+          "tracker_bytes": 328838,
+          "reconstructed_tracker_byte_equal": true
+        }
+      ],
+      "negative_shrine_order_rejected": true
+    },
+    {
+      "build": 98348,
+      "map_sha256": "f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f",
+      "members": {
+        "Objects": "371d4c7a1ade868b4106d50926a47d50bb2b042a4558a66dab938c06f3cd7ecc",
+        "Regions": "7673c1bb4f728b82fc8ab17c79de4bba7bfbff3e01ca7e54d1c6e16693af53f4",
+        "MapScript.galaxy": "3577dc0e4c0c02524e83ab6d025aa5955fe4aa414c421d37a2254ed3260b1556"
+      },
+      "authored": 158,
+      "scripted": 12,
+      "camps": [
+        {
+          "captain_point_id": 244,
+          "leash_region_id": 8,
+          "sconce_object_id": 983724390,
+          "enabled_after_current_initializer": true
+        },
+        {
+          "captain_point_id": 252,
+          "leash_region_id": 9,
+          "sconce_object_id": 2093776634,
+          "enabled_after_current_initializer": true
+        },
+        {
+          "captain_point_id": 245,
+          "leash_region_id": 10,
+          "sconce_object_id": 650046833,
+          "enabled_after_current_initializer": true
+        },
+        {
+          "captain_point_id": 253,
+          "leash_region_id": 14,
+          "sconce_object_id": 2093626546,
+          "enabled_after_current_initializer": true
+        },
+        {
+          "captain_point_id": 178,
+          "leash_region_id": 24,
+          "sconce_object_id": 1052272372,
+          "enabled_after_current_initializer": true
+        }
+      ],
+      "scripted_births": [
+        {
+          "m_unitTagIndex": 158,
+          "m_unitTagRecycle": 1,
+          "m_unitTypeName": "TownMercCampCaptureBeacon",
+          "m_controlPlayerId": 0,
+          "m_upkeepPlayerId": 0,
+          "m_x": 101,
+          "m_y": 76
+        },
+        {
+          "m_unitTagIndex": 159,
+          "m_unitTagRecycle": 1,
+          "m_unitTypeName": "JungleCampIconUnitTeamColor",
+          "m_controlPlayerId": 0,
+          "m_upkeepPlayerId": 0,
+          "m_x": 101,
+          "m_y": 76
+        },
+        {
+          "m_unitTagIndex": 160,
+          "m_unitTagRecycle": 1,
+          "m_unitTypeName": "TownMercCampCaptureBeacon",
+          "m_controlPlayerId": 0,
+          "m_upkeepPlayerId": 0,
+          "m_x": 100,
+          "m_y": 110
+        },
+        {
+          "m_unitTagIndex": 161,
+          "m_unitTagRecycle": 1,
+          "m_unitTypeName": "JungleCampIconUnitTeamColor",
+          "m_controlPlayerId": 0,
+          "m_upkeepPlayerId": 0,
+          "m_x": 100,
+          "m_y": 110
+        },
+        {
+          "m_unitTagIndex": 162,
+          "m_unitTagRecycle": 1,
+          "m_unitTypeName": "TownMercCampCaptureBeacon",
+          "m_controlPlayerId": 0,
+          "m_upkeepPlayerId": 0,
+          "m_x": 147,
+          "m_y": 76
+        },
+        {
+          "m_unitTagIndex": 163,
+          "m_unitTagRecycle": 1,
+          "m_unitTypeName": "JungleCampIconUnitTeamColor",
+          "m_controlPlayerId": 0,
+          "m_upkeepPlayerId": 0,
+          "m_x": 147,
+          "m_y": 76
+        },
+        {
+          "m_unitTagIndex": 164,
+          "m_unitTagRecycle": 1,
+          "m_unitTypeName": "TownMercCampCaptureBeacon",
+          "m_controlPlayerId": 0,
+          "m_upkeepPlayerId": 0,
+          "m_x": 148,
+          "m_y": 110
+        },
+        {
+          "m_unitTagIndex": 165,
+          "m_unitTagRecycle": 1,
+          "m_unitTypeName": "JungleCampIconUnitTeamColor",
+          "m_controlPlayerId": 0,
+          "m_upkeepPlayerId": 0,
+          "m_x": 148,
+          "m_y": 110
+        },
+        {
+          "m_unitTagIndex": 166,
+          "m_unitTagRecycle": 1,
+          "m_unitTypeName": "TownMercCampCaptureBeacon",
+          "m_controlPlayerId": 0,
+          "m_upkeepPlayerId": 0,
+          "m_x": 124,
+          "m_y": 32
+        },
+        {
+          "m_unitTagIndex": 167,
+          "m_unitTagRecycle": 1,
+          "m_unitTypeName": "JungleCampIconUnitTeamColor",
+          "m_controlPlayerId": 0,
+          "m_upkeepPlayerId": 0,
+          "m_x": 124,
+          "m_y": 32
+        },
+        {
+          "m_unitTagIndex": 168,
+          "m_unitTagRecycle": 1,
+          "m_unitTypeName": "DragonballCaptureBeacon",
+          "m_controlPlayerId": 0,
+          "m_upkeepPlayerId": 0,
+          "m_x": 124,
+          "m_y": 155
+        },
+        {
+          "m_unitTagIndex": 169,
+          "m_unitTagRecycle": 1,
+          "m_unitTypeName": "DragonballCaptureBeacon",
+          "m_controlPlayerId": 0,
+          "m_upkeepPlayerId": 0,
+          "m_x": 124,
+          "m_y": 47
+        }
+      ],
+      "variants": [
+        {
+          "name": "DragonShire.98348-layout-HistoricalTalentRules.s2ma",
+          "sha256": "2de7e30ecf97cb975f483e8dc33ec05035d5b42d1e45a9a011dfecb4984b1632",
+          "predictions_equal_to_stock": true
+        },
+        {
+          "name": "DragonShire.98348-layout-ManaAddict.s2ma",
+          "sha256": "f6df60bb2c15ee9346367dc35987c0d0471c25f77e91e17f672bc39621a51d17",
+          "predictions_equal_to_stock": true
+        },
+        {
+          "name": "DragonShire.98348-ManaAddict41810.s2ma",
+          "sha256": "f6df60bb2c15ee9346367dc35987c0d0471c25f77e91e17f672bc39621a51d17",
+          "predictions_equal_to_stock": true
+        }
+      ],
+      "cases": [
+        {
+          "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+          "masked_births": 170,
+          "fields_rebuilt": 1190,
+          "original_birth_payloads_retained": 0,
+          "tracker_sha256": "aac1ee0b170eef3f4178c7269778f762b61d5ddff3a3d03af3184aa610640b8d",
+          "tracker_bytes": 504295,
+          "reconstructed_tracker_byte_equal": true
+        },
+        {
+          "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+          "masked_births": 170,
+          "fields_rebuilt": 1190,
+          "original_birth_payloads_retained": 0,
+          "tracker_sha256": "152fa91c7a0db6a83d718e6d8f70ad1af86035a7a971493d7055688be8de49fc",
+          "tracker_bytes": 478729,
+          "reconstructed_tracker_byte_equal": true
+        },
+        {
+          "replay_sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+          "masked_births": 170,
+          "fields_rebuilt": 1190,
+          "original_birth_payloads_retained": 0,
+          "tracker_sha256": "b64208e7282c219214defe1175bf78b210c1891594b1a744add3c2cf7756dec3",
+          "tracker_bytes": 370088,
+          "reconstructed_tracker_byte_equal": true
+        },
+        {
+          "replay_sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+          "masked_births": 170,
+          "fields_rebuilt": 1190,
+          "original_birth_payloads_retained": 0,
+          "tracker_sha256": "5c0785aa6297fc5ece0afb43d2f88b2deaab3afc8278beedc9fad3e831b565ef",
+          "tracker_bytes": 463724,
+          "reconstructed_tracker_byte_equal": true
+        },
+        {
+          "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+          "masked_births": 170,
+          "fields_rebuilt": 1190,
+          "original_birth_payloads_retained": 0,
+          "tracker_sha256": "cbc1fc35b8e34b98d0061739340c6f8feb24ebf579fa5c884c4ca36184963bf1",
+          "tracker_bytes": 341110,
+          "reconstructed_tracker_byte_equal": true
+        },
+        {
+          "replay_sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+          "masked_births": 170,
+          "fields_rebuilt": 1190,
+          "original_birth_payloads_retained": 0,
+          "tracker_sha256": "4c9b43ed3fb414e7bd65c10df7c2d456b29cb42dc39aafc4fd27419cee0a3cfe",
+          "tracker_bytes": 538767,
+          "reconstructed_tracker_byte_equal": true
+        },
+        {
+          "replay_sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+          "masked_births": 170,
+          "fields_rebuilt": 1190,
+          "original_birth_payloads_retained": 0,
+          "tracker_sha256": "92f34f3ac520c349f3ba6dff012598bea91eb4317e4c8e302bcf8ec535cde742",
+          "tracker_bytes": 614675,
+          "reconstructed_tracker_byte_equal": true
+        },
+        {
+          "replay_sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+          "masked_births": 170,
+          "fields_rebuilt": 1190,
+          "original_birth_payloads_retained": 0,
+          "tracker_sha256": "541d5fdecd50da91232f0f99398100d48d0fb7fbea236c9ff0bb0dd311d2efe4",
+          "tracker_bytes": 433837,
+          "reconstructed_tracker_byte_equal": true
+        },
+        {
+          "replay_sha256": "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+          "masked_births": 170,
+          "fields_rebuilt": 1190,
+          "original_birth_payloads_retained": 0,
+          "tracker_sha256": "a0a77dcaf693f81ce856ebfca0f88b4fc42eb5cb54c5087559ecacac1745f669",
+          "tracker_bytes": 353560,
+          "reconstructed_tracker_byte_equal": true
+        },
+        {
+          "replay_sha256": "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+          "masked_births": 170,
+          "fields_rebuilt": 1190,
+          "original_birth_payloads_retained": 0,
+          "tracker_sha256": "e5be17af07f8a0462f6a38f447af1c93916cb7df9b6111b0fb5ec0dce12c0c19",
+          "tracker_bytes": 385480,
+          "reconstructed_tracker_byte_equal": true
+        },
+        {
+          "replay_sha256": "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+          "masked_births": 170,
+          "fields_rebuilt": 1190,
+          "original_birth_payloads_retained": 0,
+          "tracker_sha256": "a7f26a8c152e129fe7271e38d537df33b5a3ebe584c1ec1501cbf02c5e95499c",
+          "tracker_bytes": 484847,
+          "reconstructed_tracker_byte_equal": true
+        },
+        {
+          "replay_sha256": "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77",
+          "masked_births": 170,
+          "fields_rebuilt": 1190,
+          "original_birth_payloads_retained": 0,
+          "tracker_sha256": "69ba86a686b3e57be55444932d8fe0b3071f4aa207a561b9deed982e4dcd53d9",
+          "tracker_bytes": 476132,
+          "reconstructed_tracker_byte_equal": true
+        },
+        {
+          "replay_sha256": "a956b186a0459a47d9b0fdd8af4ccb65c437f11926186471c434e543e218b2d7",
+          "masked_births": 170,
+          "fields_rebuilt": 1190,
+          "original_birth_payloads_retained": 0,
+          "tracker_sha256": "f39d8b87db6f668e1acfbfb61203a207227d5e8e2e93d0a8eb2931ef4f8306da",
+          "tracker_bytes": 423500,
+          "reconstructed_tracker_byte_equal": true
+        },
+        {
+          "replay_sha256": "bc16af7f68496cddc4698f70b3853402a0f30aa37951aec3a6b555ed703879e8",
+          "masked_births": 170,
+          "fields_rebuilt": 1190,
+          "original_birth_payloads_retained": 0,
+          "tracker_sha256": "a2bd1d671aaf7d1051fa13fc94806788a444d5b0e80128afa38c69101a058d51",
+          "tracker_bytes": 660420,
+          "reconstructed_tracker_byte_equal": true
+        }
+      ],
+      "negative_sconce": {
+        "camp_object_id": 983724390,
+        "original_scripted": 12,
+        "altered_scripted": 11,
+        "rejected": true
+      },
+      "negative_shrine_order_rejected": true
+    }
+  ],
+  "limits": [
+    "Authenticated producer library is 98348. The historical 41810 library body was unavailable.",
+    "The same current producer model on 41810 map assets reproduces the original startup tracker. The original implementation may differ.",
+    "Current initializer predicts disabled legacy-layout camps. Later gameplay or native playback was not tested.",
+    "Original event envelopes and non-startup events are retained. All seven payload fields of every loop-zero birth were removed before reconstruction."
+  ]
+}

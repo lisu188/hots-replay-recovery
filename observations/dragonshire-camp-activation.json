@@ -1,0 +1,288 @@
+{
+  "format": "dragon-shire-mercenary-camp-activation-v1",
+  "installed_root": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+  "include_closure_script_hashes": {
+    "nativelib.galaxy": "c7df2bc2fc3b43acffcc54f37a605af646e5dfedbdcb383a54ddc3bc06ebf876",
+    "heroeslib.galaxy": "15f0314a1c48a0391e76e22360847e7ef0c91b12a29da15d79453045c175a683",
+    "gamelib.galaxy": "a6384749fbe8f676cbd6ccb9ec1aeac004815d37a8e1c2f8f9f8f176b2bfca09",
+    "mapmechanicslib.galaxy": "d49dbde21198963f953efa16c8d8bb6b035d2d8bd8f0d41b5989fecbb4e35b1f",
+    "ailib.galaxy": "242adcfd949f3862582a09ae397fb1019458051269180014cdd06c2abcf47de9",
+    "uilib.galaxy": "a5ddbe757a93d0019d6d17b430a5b8bf51e2e99783574e0a82a3f04e3bcd5309",
+    "startingexperiencelib.galaxy": "aac2c9c8e4a08bd0e0aa37f4c995b4b6872371bb40bb8ea71959d247f3acd662",
+    "soundlib.galaxy": "d59cddc1401cb067ed269e8c9f86fd0dd0e9ddb9309b0b6b505a643bddeb671e",
+    "gamedatahelperlib.galaxy": "947590b406ae9e2b6af956976c444455d081964c79b6d49dff57ad034acdc6d0",
+    "supportlib.galaxy": "b7578aac7284cbc6bed62b2b4fde267615f99bc0e3703fce31a32d5835a55a80",
+    "natives.galaxy": "a3187849bb3c08abd0078e0ff309c8495a296e965181d4ac54692662d29892e3",
+    "nativelib_h.galaxy": "0e1db3fa2911e37ea672d10da16350983d6190cfc37153e63fa4b8fa3a46a48e",
+    "gamelib_h.galaxy": "37119f45f6aa3ceefb3e435ee415ec2b2397cd4875c649467f0774bda6a63a22",
+    "mapmechanicslib_h.galaxy": "cef6f04b1723e88bfb33b8a04584798276fea30f9920d1bd21055646e2bb52da",
+    "ailib_h.galaxy": "eec8b7072c8727ee470fb418afe5a43ddad7c9c2af3ab26930455f1262d40d5f",
+    "uilib_h.galaxy": "1ae915bb1bea7d0f6572ffca50bfe57827356ff72dfea7e9519d8ea97c441492",
+    "startingexperiencelib_h.galaxy": "d255a1ea029889e0a8ef41aa36fb4011a8085485d785833970a3225a24ae1487",
+    "soundlib_h.galaxy": "87c20d5d7036a276e2bdf693b420cb83efcfd12c7aae0495bfbba47b3e357c54",
+    "gamedatahelperlib_h.galaxy": "701e4c47904b1c723ec618e62edf6c051e5a733263ca522aba82b15514f3e9fe",
+    "supportlib_h.galaxy": "6774919a65998241169d06cdab69e0f4b1b973a591f038d6e76f190f362d5936",
+    "heroeslib_h.galaxy": "21d0147e00969baddb9e32e9d6bda3adc3bcb5c28f56fa52b4f4ba98e5cde891",
+    "ai.galaxy": "f8f9a89061ec3bbee4d4f76e72b9d47df5059461badf8b26289aded31af71841"
+  },
+  "scanned_literal_locations": {
+    "lv_stateIsEnabled": {
+      "mapmechanicslib.galaxy": [
+        95,
+        697,
+        1037,
+        4913,
+        4992
+      ],
+      "mapmechanicslib_h.galaxy": [
+        199
+      ]
+    },
+    "lv_campOwnershipFlagUnit": {
+      "gamelib.galaxy": [
+        9425
+      ],
+      "mapmechanicslib.galaxy": [
+        694,
+        695,
+        701,
+        712,
+        1302,
+        1307,
+        1665,
+        1759,
+        1792,
+        2179,
+        5401,
+        5408
+      ],
+      "mapmechanicslib_h.galaxy": [
+        193
+      ]
+    },
+    "lv_campOwnershipFlagPosition": {
+      "mapmechanicslib.galaxy": [
+        701,
+        1301
+      ],
+      "mapmechanicslib_h.galaxy": [
+        194
+      ]
+    },
+    "libMapM_gf_JungleInitializeCreepCamp(": {
+      "mapmechanicslib.galaxy": [
+        4947
+      ]
+    },
+    "libMapM_gf_JungleRespawnCreepsForCamp(": {
+      "mapmechanicslib.galaxy": [
+        1603,
+        1651,
+        5057,
+        5065
+      ]
+    },
+    "libMapM_gf_JungleTurnOnCampCaptureBeacon(": {
+      "mapmechanicslib.galaxy": [
+        5230
+      ]
+    },
+    "\"CampOwnershipFlag\"": {},
+    "\"LootBannerSconce\"": {
+      "gamelib.galaxy": [
+        8476,
+        8488
+      ],
+      "mapmechanicslib.galaxy": [
+        694,
+        1301,
+        6501,
+        7562
+      ]
+    },
+    "\"JungleCampInit\"": {
+      "supportlib.galaxy": [
+        679
+      ]
+    }
+  },
+  "checked_bound_lines": {
+    "mapmechanicslib.galaxy": [
+      694,
+      697,
+      698,
+      1037,
+      1231,
+      1666,
+      1721,
+      1759,
+      1792,
+      1818,
+      4935,
+      4936,
+      4944,
+      4946,
+      4947,
+      4953,
+      4992,
+      4993,
+      4994,
+      5047,
+      5056,
+      5057,
+      5230,
+      5397
+    ],
+    "gamelib.galaxy": [
+      9425,
+      16334,
+      16335
+    ],
+    "supportlib.galaxy": [
+      676,
+      679,
+      683
+    ]
+  },
+  "source_replay_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+  "source_map_sha256": "e0a58745837b3b5351015c933560dbffb178d747009d2d57b4153ef425cf7250",
+  "source_tracker_sha256": "1a9a556f9f1fde466d17c4a3a3fbb31cbec8d8086bef97efeb796f1f5175245f",
+  "source_flags": [
+    {
+      "authored_id": 476,
+      "tag_index": 61,
+      "recorded_owner_changes": 7
+    },
+    {
+      "authored_id": 477,
+      "tag_index": 62,
+      "recorded_owner_changes": 6
+    },
+    {
+      "authored_id": 478,
+      "tag_index": 63,
+      "recorded_owner_changes": 8
+    },
+    {
+      "authored_id": 479,
+      "tag_index": 64,
+      "recorded_owner_changes": 1
+    },
+    {
+      "authored_id": 480,
+      "tag_index": 65,
+      "recorded_owner_changes": 6
+    }
+  ],
+  "first_hostile_owner_all_five_flags": 2530,
+  "source_first_icon_loop": 2530,
+  "source_first_icon_xy": [
+    [
+      101,
+      76
+    ],
+    [
+      100,
+      110
+    ],
+    [
+      147,
+      76
+    ],
+    [
+      148,
+      110
+    ],
+    [
+      124,
+      32
+    ]
+  ],
+  "source_first_defender_loop": 2532,
+  "source_first_defenders": {
+    "MercDefenderMeleeKnight": 9,
+    "MercDefenderRangedMage": 3,
+    "MercDefenderSiegeGiant": 4
+  },
+  "source_captures": [
+    {
+      "loop": 4217,
+      "camp": 5,
+      "object_id": 476,
+      "owner": 12
+    },
+    {
+      "loop": 5343,
+      "camp": 3,
+      "object_id": 478,
+      "owner": 12
+    },
+    {
+      "loop": 6909,
+      "camp": 4,
+      "object_id": 480,
+      "owner": 12
+    },
+    {
+      "loop": 9017,
+      "camp": 1,
+      "object_id": 477,
+      "owner": 11
+    },
+    {
+      "loop": 9172,
+      "camp": 3,
+      "object_id": 478,
+      "owner": 12
+    },
+    {
+      "loop": 9828,
+      "camp": 5,
+      "object_id": 476,
+      "owner": 12
+    },
+    {
+      "loop": 11604,
+      "camp": 4,
+      "object_id": 480,
+      "owner": 12
+    },
+    {
+      "loop": 13757,
+      "camp": 3,
+      "object_id": 478,
+      "owner": 12
+    },
+    {
+      "loop": 13819,
+      "camp": 1,
+      "object_id": 477,
+      "owner": 11
+    },
+    {
+      "loop": 14346,
+      "camp": 5,
+      "object_id": 476,
+      "owner": 12
+    },
+    {
+      "loop": 16096,
+      "camp": 4,
+      "object_id": 480,
+      "owner": 12
+    },
+    {
+      "loop": 18731,
+      "camp": 1,
+      "object_id": 477,
+      "owner": 11
+    },
+    {
+      "loop": 19012,
+      "camp": 3,
+      "object_id": 478,
+      "owner": 11
+    }
+  ],
+  "source_loopzero_camp_init_events": 5
+}
