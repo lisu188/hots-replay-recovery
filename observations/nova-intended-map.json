@@ -1,0 +1,42 @@
+{
+  "parent_sha256": "9c223f3e4d9fb31324126b91f7e51048dd6c011ac0d4dcdf6f582e2978f92870",
+  "candidate_sha256": "8b0cdec389be8a7cc52b438e9798af5903158a59a426d9ab3e08f166e791fd8f",
+  "candidate_bytes": 2203389,
+  "catalogs": {
+    "Base.StormData\\GameData\\HeroData.xml": "4b24b3fc25b0bf4bedcb6a8aae290641f81e280d6b4f9ae19ebf0c891ea6ba7d",
+    "Base.StormData\\GameData\\TalentData.xml": "4a7960003f7bda3eb454393a64a93362f9b98e29513a166d2ae2e52ffb8b0122",
+    "Base.StormData\\GameData\\ButtonData.xml": "4d140d0e14dac98243838a7c0b792d3411a0d9a329269cb546a0845878a32af4",
+    "Base.StormData\\GameData\\ValidatorData.xml": "0d80f6335286dfe0d1191b7e6f6e1253aef4d3c231d135088a6bafb482ef206d",
+    "Base.StormData\\GameData\\BehaviorData.xml": "2d63846411fdc3bf9c1f56e00c44a42b18d1dc889ff05a75e87e9ca101f15bca",
+    "Base.StormData\\GameData\\EffectData.xml": "4cb0103969fc4c682a3630763241559de68eb1f2b14010210b5ab4b851295c3a",
+    "enUS.StormData\\LocalizedData\\GameStrings.txt": "ef5067e91a2d44374fc19045e0dcd8a43a60f30b7fb26a1cf800602b27427f87",
+    "plPL.StormData\\LocalizedData\\GameStrings.txt": "3f80402c1f73b33ec1634457e6f766e55c713e0e213d26feff39a5083b604051"
+  },
+  "new_members": [
+    "Base.StormData\\GameData\\ButtonData.xml",
+    "Base.StormData\\GameData\\ValidatorData.xml"
+  ],
+  "archive_content_members": 73,
+  "target_tier": 1,
+  "target_column": 4,
+  "target_selector": 3,
+  "movement_slow_percent": [
+    40,
+    42,
+    44,
+    46,
+    48,
+    50,
+    52,
+    54,
+    56,
+    58,
+    60
+  ],
+  "mana": 65,
+  "grace_seconds": 1,
+  "target_slow_seconds": 2.25,
+  "native_catalog_loading_verified": false,
+  "exact_41810_behavior_verified": false,
+  "scope": "opt_in_intended_rule"
+}

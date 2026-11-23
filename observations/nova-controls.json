@@ -1,0 +1,491 @@
+[
+  {
+    "digest": "036e05a19255d42930ee561b3bfd07234d8d6e15fb87dd893798ff64d252acce",
+    "nova_players": 0,
+    "first_picks": [],
+    "heroics": [],
+    "all_nova_unit_links": {},
+    "before_heroic_nova_unit_links": {},
+    "non_nova_378": {},
+    "post_378_hero_motion_by_first_talent": {}
+  },
+  {
+    "digest": "03a5e7865ef5b57fb5a960da0375298dbcf6cad5cb48774020456cbad7587c82",
+    "nova_players": 1,
+    "first_picks": [
+      "NovaMasteryLongshot"
+    ],
+    "heroics": [
+      "NovaHeroicAbilityTripleTap"
+    ],
+    "all_nova_unit_links": {
+      "378": 45,
+      "279": 4
+    },
+    "before_heroic_nova_unit_links": {
+      "378": 12
+    },
+    "non_nova_378": {},
+    "post_378_hero_motion_by_first_talent": {
+      "NovaMasteryLongshot": {
+        "hero_target_issues": 32,
+        "issues_with_any_chord": 32,
+        "one_loop_chords": 295,
+        "near_1_76_chords": 0,
+        "near_1_76_issues": 0,
+        "near_2_64_chords": 127,
+        "near_2_64_issues": 26,
+        "near_4_4_chords": 26,
+        "near_4_4_issues": 13,
+        "three_adjacent_at_40_percent_issues": 9,
+        "three_adjacent_at_42_percent_issues": 0,
+        "three_adjacent_at_44_percent_issues": 0,
+        "three_adjacent_at_46_percent_issues": 0,
+        "three_adjacent_at_48_percent_issues": 0,
+        "three_adjacent_at_50_percent_issues": 0,
+        "three_adjacent_at_52_percent_issues": 0,
+        "three_adjacent_at_54_percent_issues": 0,
+        "three_adjacent_at_56_percent_issues": 0,
+        "three_adjacent_at_58_percent_issues": 0,
+        "three_adjacent_at_60_percent_issues": 0
+      }
+    }
+  },
+  {
+    "digest": "2fca3c78d0e459d4452e3fb1f41ff3fce22b9c1f8f113019389195ff171bf618",
+    "nova_players": 0,
+    "first_picks": [],
+    "heroics": [],
+    "all_nova_unit_links": {},
+    "before_heroic_nova_unit_links": {},
+    "non_nova_378": {},
+    "post_378_hero_motion_by_first_talent": {}
+  },
+  {
+    "digest": "34ace72b2366e6317512cbdcaf8c6cd7965902b729918006dd75c2194b191bae",
+    "nova_players": 0,
+    "first_picks": [],
+    "heroics": [],
+    "all_nova_unit_links": {},
+    "before_heroic_nova_unit_links": {},
+    "non_nova_378": {},
+    "post_378_hero_motion_by_first_talent": {}
+  },
+  {
+    "digest": "3a33d012a9d47dc1e66595398c2f3dd75cbc9240762996cf52c9c6ad8337e869",
+    "nova_players": 0,
+    "first_picks": [],
+    "heroics": [],
+    "all_nova_unit_links": {},
+    "before_heroic_nova_unit_links": {},
+    "non_nova_378": {},
+    "post_378_hero_motion_by_first_talent": {}
+  },
+  {
+    "digest": "4f02c8c4b4ae7eb7ec5e290df4f2da26ebe3d71221a3c9b3db064306066b400d",
+    "nova_players": 0,
+    "first_picks": [],
+    "heroics": [],
+    "all_nova_unit_links": {},
+    "before_heroic_nova_unit_links": {},
+    "non_nova_378": {},
+    "post_378_hero_motion_by_first_talent": {}
+  },
+  {
+    "digest": "588470a1fe251f6975e9cefe06c5e83f94cee0df4dba62ac6614363100a364c4",
+    "nova_players": 0,
+    "first_picks": [],
+    "heroics": [],
+    "all_nova_unit_links": {},
+    "before_heroic_nova_unit_links": {},
+    "non_nova_378": {},
+    "post_378_hero_motion_by_first_talent": {}
+  },
+  {
+    "digest": "69a33649fa3b16fed8f67c0d9ba6eb9fd9666e467e306873dbf488526da3fb99",
+    "nova_players": 0,
+    "first_picks": [],
+    "heroics": [],
+    "all_nova_unit_links": {},
+    "before_heroic_nova_unit_links": {},
+    "non_nova_378": {},
+    "post_378_hero_motion_by_first_talent": {}
+  },
+  {
+    "digest": "69b649866a24ae0326ef547eb300492c12559f586e326ec761e4f7827ce5458f",
+    "nova_players": 1,
+    "first_picks": [
+      "NovaCombatStyleAdvancedCloaking"
+    ],
+    "heroics": [
+      "NovaHeroicAbilityPrecisionStrike"
+    ],
+    "all_nova_unit_links": {
+      "378": 28
+    },
+    "before_heroic_nova_unit_links": {
+      "378": 20
+    },
+    "non_nova_378": {},
+    "post_378_hero_motion_by_first_talent": {
+      "NovaCombatStyleAdvancedCloaking": {
+        "hero_target_issues": 26,
+        "issues_with_any_chord": 21,
+        "one_loop_chords": 289,
+        "near_1_76_chords": 0,
+        "near_1_76_issues": 0,
+        "near_2_64_chords": 101,
+        "near_2_64_issues": 10,
+        "near_4_4_chords": 10,
+        "near_4_4_issues": 6,
+        "three_adjacent_at_40_percent_issues": 9,
+        "three_adjacent_at_42_percent_issues": 0,
+        "three_adjacent_at_44_percent_issues": 0,
+        "three_adjacent_at_46_percent_issues": 0,
+        "three_adjacent_at_48_percent_issues": 0,
+        "three_adjacent_at_50_percent_issues": 0,
+        "three_adjacent_at_52_percent_issues": 0,
+        "three_adjacent_at_54_percent_issues": 0,
+        "three_adjacent_at_56_percent_issues": 0,
+        "three_adjacent_at_58_percent_issues": 0,
+        "three_adjacent_at_60_percent_issues": 0
+      }
+    }
+  },
+  {
+    "digest": "70921bf5fb1d8a99efd8a8317f54695475e07de0f943712c9d5a75bb79df9c78",
+    "nova_players": 1,
+    "first_picks": [
+      "NovaMasteryLongshot"
+    ],
+    "heroics": [
+      "NovaHeroicAbilityPrecisionStrike"
+    ],
+    "all_nova_unit_links": {
+      "378": 29,
+      "31": 40
+    },
+    "before_heroic_nova_unit_links": {
+      "378": 13,
+      "31": 20
+    },
+    "non_nova_378": {},
+    "post_378_hero_motion_by_first_talent": {
+      "NovaMasteryLongshot": {
+        "hero_target_issues": 24,
+        "issues_with_any_chord": 15,
+        "one_loop_chords": 54,
+        "near_1_76_chords": 0,
+        "near_1_76_issues": 0,
+        "near_2_64_chords": 11,
+        "near_2_64_issues": 6,
+        "near_4_4_chords": 1,
+        "near_4_4_issues": 1,
+        "three_adjacent_at_40_percent_issues": 1,
+        "three_adjacent_at_42_percent_issues": 0,
+        "three_adjacent_at_44_percent_issues": 0,
+        "three_adjacent_at_46_percent_issues": 0,
+        "three_adjacent_at_48_percent_issues": 0,
+        "three_adjacent_at_50_percent_issues": 0,
+        "three_adjacent_at_52_percent_issues": 0,
+        "three_adjacent_at_54_percent_issues": 0,
+        "three_adjacent_at_56_percent_issues": 0,
+        "three_adjacent_at_58_percent_issues": 0,
+        "three_adjacent_at_60_percent_issues": 0
+      }
+    }
+  },
+  {
+    "digest": "7efa1c335816eebe802747ae4b16252ed22fcd8387b09d24b115b2917542b52a",
+    "nova_players": 0,
+    "first_picks": [],
+    "heroics": [],
+    "all_nova_unit_links": {},
+    "before_heroic_nova_unit_links": {},
+    "non_nova_378": {},
+    "post_378_hero_motion_by_first_talent": {}
+  },
+  {
+    "digest": "8beb4370c5c6638d5481c25e88970ad49d5651edacf876cb623be7c2f593504b",
+    "nova_players": 0,
+    "first_picks": [],
+    "heroics": [],
+    "all_nova_unit_links": {},
+    "before_heroic_nova_unit_links": {},
+    "non_nova_378": {},
+    "post_378_hero_motion_by_first_talent": {}
+  },
+  {
+    "digest": "8c4fb83989b528ea3227f6c97758293d1f650e33caa3d38c6a2a84d27ab0850d",
+    "nova_players": 0,
+    "first_picks": [],
+    "heroics": [],
+    "all_nova_unit_links": {},
+    "before_heroic_nova_unit_links": {},
+    "non_nova_378": {},
+    "post_378_hero_motion_by_first_talent": {}
+  },
+  {
+    "digest": "a6c7c6232f19b9b264ef39bf36b4ce7dfcad56e59c470731b53c28700b9d2603",
+    "nova_players": 0,
+    "first_picks": [],
+    "heroics": [],
+    "all_nova_unit_links": {},
+    "before_heroic_nova_unit_links": {},
+    "non_nova_378": {},
+    "post_378_hero_motion_by_first_talent": {}
+  },
+  {
+    "digest": "ac9ede2e7bc241a54209d723fb40594920734138f38347b21cea3a7797ae1372",
+    "nova_players": 0,
+    "first_picks": [],
+    "heroics": [],
+    "all_nova_unit_links": {},
+    "before_heroic_nova_unit_links": {},
+    "non_nova_378": {},
+    "post_378_hero_motion_by_first_talent": {}
+  },
+  {
+    "digest": "d417680d70137bed99a536aae8724b4f48491d986e1a6a7de0b10209d5401a68",
+    "nova_players": 0,
+    "first_picks": [],
+    "heroics": [],
+    "all_nova_unit_links": {},
+    "before_heroic_nova_unit_links": {},
+    "non_nova_378": {},
+    "post_378_hero_motion_by_first_talent": {}
+  },
+  {
+    "digest": "d493c71358921ed49f8345963ce422dde2d32c1499f34b3a37bcb9e8e359e1ed",
+    "nova_players": 1,
+    "first_picks": [
+      "NovaMasteryLongshot"
+    ],
+    "heroics": [
+      "NovaHeroicAbilityPrecisionStrike"
+    ],
+    "all_nova_unit_links": {
+      "378": 51,
+      "31": 60
+    },
+    "before_heroic_nova_unit_links": {
+      "378": 13,
+      "31": 20
+    },
+    "non_nova_378": {},
+    "post_378_hero_motion_by_first_talent": {
+      "NovaMasteryLongshot": {
+        "hero_target_issues": 38,
+        "issues_with_any_chord": 25,
+        "one_loop_chords": 114,
+        "near_1_76_chords": 0,
+        "near_1_76_issues": 0,
+        "near_2_64_chords": 31,
+        "near_2_64_issues": 11,
+        "near_4_4_chords": 2,
+        "near_4_4_issues": 2,
+        "three_adjacent_at_40_percent_issues": 4,
+        "three_adjacent_at_42_percent_issues": 0,
+        "three_adjacent_at_44_percent_issues": 0,
+        "three_adjacent_at_46_percent_issues": 0,
+        "three_adjacent_at_48_percent_issues": 0,
+        "three_adjacent_at_50_percent_issues": 0,
+        "three_adjacent_at_52_percent_issues": 0,
+        "three_adjacent_at_54_percent_issues": 0,
+        "three_adjacent_at_56_percent_issues": 0,
+        "three_adjacent_at_58_percent_issues": 0,
+        "three_adjacent_at_60_percent_issues": 0
+      }
+    }
+  },
+  {
+    "digest": "d5af3e6672c102a5b33abc7df7884ea2648d01af8f7921f16ff6ad69f3c69a97",
+    "nova_players": 0,
+    "first_picks": [],
+    "heroics": [],
+    "all_nova_unit_links": {},
+    "before_heroic_nova_unit_links": {},
+    "non_nova_378": {},
+    "post_378_hero_motion_by_first_talent": {}
+  },
+  {
+    "digest": "df78325ebf458d513d59bc5f25919561301dddb8ec6b03fe85b63918b703270f",
+    "nova_players": 0,
+    "first_picks": [],
+    "heroics": [],
+    "all_nova_unit_links": {},
+    "before_heroic_nova_unit_links": {},
+    "non_nova_378": {},
+    "post_378_hero_motion_by_first_talent": {}
+  },
+  {
+    "digest": "e5931b469dae86d95741bff08b71fc06bb28d5344f7c2ea64c4cc91f60570b2b",
+    "nova_players": 1,
+    "first_picks": [
+      "NovaCombatStyleAdvancedCloaking"
+    ],
+    "heroics": [
+      "NovaHeroicAbilityTripleTap"
+    ],
+    "all_nova_unit_links": {
+      "378": 35,
+      "279": 4
+    },
+    "before_heroic_nova_unit_links": {
+      "378": 10
+    },
+    "non_nova_378": {},
+    "post_378_hero_motion_by_first_talent": {
+      "NovaCombatStyleAdvancedCloaking": {
+        "hero_target_issues": 30,
+        "issues_with_any_chord": 21,
+        "one_loop_chords": 153,
+        "near_1_76_chords": 0,
+        "near_1_76_issues": 0,
+        "near_2_64_chords": 40,
+        "near_2_64_issues": 13,
+        "near_4_4_chords": 9,
+        "near_4_4_issues": 8,
+        "three_adjacent_at_40_percent_issues": 0,
+        "three_adjacent_at_42_percent_issues": 0,
+        "three_adjacent_at_44_percent_issues": 0,
+        "three_adjacent_at_46_percent_issues": 0,
+        "three_adjacent_at_48_percent_issues": 0,
+        "three_adjacent_at_50_percent_issues": 0,
+        "three_adjacent_at_52_percent_issues": 0,
+        "three_adjacent_at_54_percent_issues": 0,
+        "three_adjacent_at_56_percent_issues": 0,
+        "three_adjacent_at_58_percent_issues": 0,
+        "three_adjacent_at_60_percent_issues": 0
+      }
+    }
+  },
+  {
+    "digest": "f1793e9b408350140762926462e67574010cc70777f847285765724aa8f27b3b",
+    "nova_players": 0,
+    "first_picks": [],
+    "heroics": [],
+    "all_nova_unit_links": {},
+    "before_heroic_nova_unit_links": {},
+    "non_nova_378": {},
+    "post_378_hero_motion_by_first_talent": {}
+  },
+  {
+    "digest": "f5d9782e55da9d118c6b037e0b39eaac4cb494d92b2eaacd4d7b6842ad866b46",
+    "nova_players": 0,
+    "first_picks": [],
+    "heroics": [],
+    "all_nova_unit_links": {},
+    "before_heroic_nova_unit_links": {},
+    "non_nova_378": {},
+    "post_378_hero_motion_by_first_talent": {}
+  },
+  {
+    "digest": "f77c267be04b71b7901d9797ac12cfba8b94596bc9c0e2166904461f856eba3e",
+    "nova_players": 2,
+    "first_picks": [
+      "NovaMasteryCovertOpsPinningShot",
+      "NovaCombatStyleAdvancedCloaking"
+    ],
+    "heroics": [
+      "NovaHeroicAbilityPrecisionStrike",
+      "NovaHeroicAbilityTripleTap"
+    ],
+    "all_nova_unit_links": {
+      "378": 38,
+      "279": 4
+    },
+    "before_heroic_nova_unit_links": {
+      "378": 19
+    },
+    "non_nova_378": {},
+    "post_378_hero_motion_by_first_talent": {
+      "NovaCombatStyleAdvancedCloaking": {
+        "hero_target_issues": 19,
+        "issues_with_any_chord": 9,
+        "one_loop_chords": 96,
+        "near_1_76_chords": 0,
+        "near_1_76_issues": 0,
+        "near_2_64_chords": 15,
+        "near_2_64_issues": 3,
+        "near_4_4_chords": 14,
+        "near_4_4_issues": 3,
+        "three_adjacent_at_40_percent_issues": 1,
+        "three_adjacent_at_42_percent_issues": 0,
+        "three_adjacent_at_44_percent_issues": 0,
+        "three_adjacent_at_46_percent_issues": 0,
+        "three_adjacent_at_48_percent_issues": 0,
+        "three_adjacent_at_50_percent_issues": 0,
+        "three_adjacent_at_52_percent_issues": 0,
+        "three_adjacent_at_54_percent_issues": 0,
+        "three_adjacent_at_56_percent_issues": 0,
+        "three_adjacent_at_58_percent_issues": 0,
+        "three_adjacent_at_60_percent_issues": 0
+      },
+      "NovaMasteryCovertOpsPinningShot": {
+        "hero_target_issues": 18,
+        "issues_with_any_chord": 12,
+        "one_loop_chords": 89,
+        "near_1_76_chords": 9,
+        "near_1_76_issues": 5,
+        "near_2_64_chords": 42,
+        "near_2_64_issues": 6,
+        "near_4_4_chords": 1,
+        "near_4_4_issues": 1,
+        "three_adjacent_at_40_percent_issues": 3,
+        "three_adjacent_at_42_percent_issues": 0,
+        "three_adjacent_at_44_percent_issues": 0,
+        "three_adjacent_at_46_percent_issues": 0,
+        "three_adjacent_at_48_percent_issues": 0,
+        "three_adjacent_at_50_percent_issues": 0,
+        "three_adjacent_at_52_percent_issues": 0,
+        "three_adjacent_at_54_percent_issues": 0,
+        "three_adjacent_at_56_percent_issues": 0,
+        "three_adjacent_at_58_percent_issues": 0,
+        "three_adjacent_at_60_percent_issues": 0
+      }
+    }
+  },
+  {
+    "digest": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+    "nova_players": 1,
+    "first_picks": [
+      "NovaMasteryCovertOpsPinningShot"
+    ],
+    "heroics": [
+      "NovaHeroicAbilityTripleTap"
+    ],
+    "all_nova_unit_links": {
+      "378": 24,
+      "279": 5
+    },
+    "before_heroic_nova_unit_links": {
+      "378": 7
+    },
+    "non_nova_378": {},
+    "post_378_hero_motion_by_first_talent": {
+      "NovaMasteryCovertOpsPinningShot": {
+        "hero_target_issues": 19,
+        "issues_with_any_chord": 8,
+        "one_loop_chords": 49,
+        "near_1_76_chords": 5,
+        "near_1_76_issues": 1,
+        "near_2_64_chords": 0,
+        "near_2_64_issues": 0,
+        "near_4_4_chords": 0,
+        "near_4_4_issues": 0,
+        "three_adjacent_at_40_percent_issues": 0,
+        "three_adjacent_at_42_percent_issues": 0,
+        "three_adjacent_at_44_percent_issues": 0,
+        "three_adjacent_at_46_percent_issues": 0,
+        "three_adjacent_at_48_percent_issues": 0,
+        "three_adjacent_at_50_percent_issues": 0,
+        "three_adjacent_at_52_percent_issues": 0,
+        "three_adjacent_at_54_percent_issues": 0,
+        "three_adjacent_at_56_percent_issues": 0,
+        "three_adjacent_at_58_percent_issues": 0,
+        "three_adjacent_at_60_percent_issues": 0
+      }
+    }
+  }
+]

@@ -1,0 +1,794 @@
+{
+  "source_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+  "game_member_sha256": "ea69dd77edd02f3ed2c42a2def1faab6dc4d0eb46da291c44f76bfb49a65eed6",
+  "details_member_sha256": "70431663598198a9eb9a6a7ad2cdf99616b6b251696bd4743542e19b6626a1bf",
+  "recorded_utc_date": "2016-04-12",
+  "tracker_member_sha256": "1a9a556f9f1fde466d17c4a3a3fbb31cbec8d8086bef97efeb796f1f5175245f",
+  "purchase_selection_loop": 133,
+  "purchase_tracker_loop": 134,
+  "heroic_purchase_selection_loop": 7060,
+  "heroic_purchase_tracker_loop": 7061,
+  "complete_nova_explicit_issue_bytes": 1963,
+  "named_stat_counts": {
+    "GameStart": 1,
+    "PlayerInit": 10,
+    "TownStructureInit": 12,
+    "JungleCampInit": 5,
+    "PlayerSpawned": 10,
+    "LevelUp": 220,
+    "TalentChosen": 70,
+    "GatesOpen": 1,
+    "PlayerDeath": 47,
+    "RegenGlobePickedUp": 220,
+    "PeriodicXPBreakdown": 38,
+    "DragonKnightActivated": 4,
+    "JungleCampCapture": 13,
+    "TownStructureDeath": 6,
+    "EndOfGameXPBreakdown": 10,
+    "EndOfGameTimeSpentDead": 10
+  },
+  "tracker_event_kinds": {
+    "SPlayerSetupEvent": 10,
+    "SUnitBornEvent": 2802,
+    "SUpgradeEvent": 27,
+    "SStatGameEvent": 677,
+    "SUnitDiedEvent": 2666,
+    "SUnitPositionsEvent": 79,
+    "SUnitRevivedEvent": 45,
+    "SUnitOwnerChangeEvent": 279,
+    "SUnitTypeChangeEvent": 28,
+    "SScoreResultEvent": 1
+  },
+  "explicit_ability_links": {
+    "244": {
+      "users_with_link": 1,
+      "targets": {
+        "TargetPoint": 15
+      },
+      "before_heroic": {
+        "TargetPoint": 4
+      },
+      "unit_target_hero_births": 0,
+      "units_with_two_subsequent_physical_snapshot_loops_within_36": 0,
+      "units_with_two_subsequent_tracker_position_loops_within_36": 0,
+      "unit_issue_loops": []
+    },
+    "279": {
+      "users_with_link": 1,
+      "targets": {
+        "TargetUnit": 5
+      },
+      "before_heroic": {},
+      "unit_target_hero_births": 5,
+      "units_with_two_subsequent_physical_snapshot_loops_within_36": 3,
+      "units_with_two_subsequent_tracker_position_loops_within_36": 0,
+      "unit_issue_loops": [
+        8160,
+        12289,
+        13960,
+        16527,
+        18257
+      ]
+    },
+    "285": {
+      "users_with_link": 1,
+      "targets": {
+        "TargetPoint": 26
+      },
+      "before_heroic": {
+        "TargetPoint": 7
+      },
+      "unit_target_hero_births": 0,
+      "units_with_two_subsequent_physical_snapshot_loops_within_36": 0,
+      "units_with_two_subsequent_tracker_position_loops_within_36": 0,
+      "unit_issue_loops": []
+    },
+    "348": {
+      "users_with_link": 7,
+      "targets": {
+        "None": 7
+      },
+      "before_heroic": {
+        "None": 7
+      },
+      "unit_target_hero_births": 0,
+      "units_with_two_subsequent_physical_snapshot_loops_within_36": 0,
+      "units_with_two_subsequent_tracker_position_loops_within_36": 0,
+      "unit_issue_loops": []
+    },
+    "378": {
+      "users_with_link": 1,
+      "targets": {
+        "TargetUnit": 24
+      },
+      "before_heroic": {
+        "TargetUnit": 7
+      },
+      "unit_target_hero_births": 19,
+      "units_with_two_subsequent_physical_snapshot_loops_within_36": 17,
+      "units_with_two_subsequent_tracker_position_loops_within_36": 0,
+      "unit_issue_loops": [
+        806,
+        1086,
+        2491,
+        2764,
+        3348,
+        3876,
+        5864,
+        8144,
+        8412,
+        9112,
+        10709,
+        11710,
+        11990,
+        13084,
+        13930,
+        15105,
+        16260,
+        16501,
+        16967,
+        17578,
+        18193,
+        18878,
+        19195,
+        19396
+      ]
+    },
+    "391": {
+      "users_with_link": 8,
+      "targets": {
+        "None": 1
+      },
+      "before_heroic": {
+        "None": 1
+      },
+      "unit_target_hero_births": 0,
+      "units_with_two_subsequent_physical_snapshot_loops_within_36": 0,
+      "units_with_two_subsequent_tracker_position_loops_within_36": 0,
+      "unit_issue_loops": []
+    }
+  },
+  "link378_observed_snapshot_chords": [
+    {
+      "issue_loop": 806,
+      "target_hero_born": true,
+      "tracker_birth_type": "HeroBarbarian",
+      "before": {
+        "comparable_pairs": 1,
+        "stationary": 1,
+        "nonzero_chord_rate_range": null,
+        "distinct_loop_spans": [
+          1
+        ]
+      },
+      "after": {
+        "comparable_pairs": 3,
+        "stationary": 2,
+        "nonzero_chord_rate_range": [
+          2.015,
+          2.015
+        ],
+        "distinct_loop_spans": [
+          1,
+          3,
+          17
+        ]
+      }
+    },
+    {
+      "issue_loop": 1086,
+      "target_hero_born": true,
+      "tracker_birth_type": "HeroBarbarian",
+      "before": {
+        "comparable_pairs": 0,
+        "stationary": 0,
+        "nonzero_chord_rate_range": null,
+        "distinct_loop_spans": []
+      },
+      "after": {
+        "comparable_pairs": 2,
+        "stationary": 0,
+        "nonzero_chord_rate_range": [
+          2.049,
+          3.451
+        ],
+        "distinct_loop_spans": [
+          3,
+          7
+        ]
+      }
+    },
+    {
+      "issue_loop": 2491,
+      "target_hero_born": true,
+      "tracker_birth_type": "HeroKaelthas",
+      "before": {
+        "comparable_pairs": 1,
+        "stationary": 0,
+        "nonzero_chord_rate_range": [
+          4.388,
+          4.388
+        ],
+        "distinct_loop_spans": [
+          1
+        ]
+      },
+      "after": {
+        "comparable_pairs": 0,
+        "stationary": 0,
+        "nonzero_chord_rate_range": null,
+        "distinct_loop_spans": []
+      }
+    },
+    {
+      "issue_loop": 2764,
+      "target_hero_born": false,
+      "tracker_birth_type": "VehicleDragon",
+      "before": {
+        "comparable_pairs": 0,
+        "stationary": 0,
+        "nonzero_chord_rate_range": null,
+        "distinct_loop_spans": []
+      },
+      "after": {
+        "comparable_pairs": 3,
+        "stationary": 2,
+        "nonzero_chord_rate_range": [
+          2.038,
+          2.038
+        ],
+        "distinct_loop_spans": [
+          1,
+          3,
+          29
+        ]
+      }
+    },
+    {
+      "issue_loop": 3348,
+      "target_hero_born": false,
+      "tracker_birth_type": "VehicleDragon",
+      "before": {
+        "comparable_pairs": 0,
+        "stationary": 0,
+        "nonzero_chord_rate_range": null,
+        "distinct_loop_spans": []
+      },
+      "after": {
+        "comparable_pairs": 1,
+        "stationary": 1,
+        "nonzero_chord_rate_range": null,
+        "distinct_loop_spans": [
+          12
+        ]
+      }
+    },
+    {
+      "issue_loop": 3876,
+      "target_hero_born": true,
+      "tracker_birth_type": "HeroGreymane",
+      "before": {
+        "comparable_pairs": 0,
+        "stationary": 0,
+        "nonzero_chord_rate_range": null,
+        "distinct_loop_spans": []
+      },
+      "after": {
+        "comparable_pairs": 9,
+        "stationary": 9,
+        "nonzero_chord_rate_range": null,
+        "distinct_loop_spans": [
+          1,
+          2,
+          11
+        ]
+      }
+    },
+    {
+      "issue_loop": 5864,
+      "target_hero_born": true,
+      "tracker_birth_type": "HeroBarbarian",
+      "before": {
+        "comparable_pairs": 23,
+        "stationary": 21,
+        "nonzero_chord_rate_range": [
+          9.885,
+          24.774
+        ],
+        "distinct_loop_spans": [
+          1,
+          2,
+          3,
+          5
+        ]
+      },
+      "after": {
+        "comparable_pairs": 46,
+        "stationary": 30,
+        "nonzero_chord_rate_range": [
+          0.002,
+          4.834
+        ],
+        "distinct_loop_spans": [
+          1,
+          2,
+          3,
+          4,
+          12,
+          30
+        ]
+      }
+    },
+    {
+      "issue_loop": 8144,
+      "target_hero_born": true,
+      "tracker_birth_type": "HeroBarbarian",
+      "before": {
+        "comparable_pairs": 0,
+        "stationary": 0,
+        "nonzero_chord_rate_range": null,
+        "distinct_loop_spans": []
+      },
+      "after": {
+        "comparable_pairs": 1,
+        "stationary": 0,
+        "nonzero_chord_rate_range": [
+          2.257,
+          2.257
+        ],
+        "distinct_loop_spans": [
+          14
+        ]
+      }
+    },
+    {
+      "issue_loop": 8412,
+      "target_hero_born": true,
+      "tracker_birth_type": "HeroTyrande",
+      "before": {
+        "comparable_pairs": 8,
+        "stationary": 8,
+        "nonzero_chord_rate_range": null,
+        "distinct_loop_spans": [
+          1,
+          2,
+          3
+        ],
+        "distinct_physical_chords": [
+          [
+            -36,
+            1,
+            0,
+            0
+          ],
+          [
+            -35,
+            2,
+            0,
+            0
+          ],
+          [
+            -33,
+            2,
+            0,
+            0
+          ],
+          [
+            -31,
+            1,
+            0,
+            0
+          ],
+          [
+            -30,
+            3,
+            0,
+            0
+          ],
+          [
+            -27,
+            1,
+            0,
+            0
+          ],
+          [
+            -26,
+            2,
+            0,
+            0
+          ],
+          [
+            -24,
+            1,
+            0,
+            0
+          ]
+        ]
+      },
+      "after": {
+        "comparable_pairs": 5,
+        "stationary": 0,
+        "nonzero_chord_rate_range": [
+          1.753,
+          1.757
+        ],
+        "distinct_loop_spans": [
+          1
+        ],
+        "distinct_physical_chords": [
+          [
+            18,
+            1,
+            394,
+            215
+          ],
+          [
+            19,
+            1,
+            387,
+            229
+          ],
+          [
+            23,
+            1,
+            372,
+            252
+          ],
+          [
+            24,
+            1,
+            375,
+            247
+          ],
+          [
+            30,
+            1,
+            327,
+            308
+          ]
+        ]
+      }
+    },
+    {
+      "issue_loop": 9112,
+      "target_hero_born": true,
+      "tracker_birth_type": "HeroGreymane",
+      "before": {
+        "comparable_pairs": 0,
+        "stationary": 0,
+        "nonzero_chord_rate_range": null,
+        "distinct_loop_spans": []
+      },
+      "after": {
+        "comparable_pairs": 1,
+        "stationary": 0,
+        "nonzero_chord_rate_range": [
+          3.507,
+          3.507
+        ],
+        "distinct_loop_spans": [
+          3
+        ]
+      }
+    },
+    {
+      "issue_loop": 10709,
+      "target_hero_born": true,
+      "tracker_birth_type": "HeroTyrande",
+      "before": {
+        "comparable_pairs": 0,
+        "stationary": 0,
+        "nonzero_chord_rate_range": null,
+        "distinct_loop_spans": []
+      },
+      "after": {
+        "comparable_pairs": 7,
+        "stationary": 7,
+        "nonzero_chord_rate_range": null,
+        "distinct_loop_spans": [
+          1,
+          2,
+          3,
+          4,
+          17
+        ]
+      }
+    },
+    {
+      "issue_loop": 11710,
+      "target_hero_born": true,
+      "tracker_birth_type": "HeroBarbarian",
+      "before": {
+        "comparable_pairs": 2,
+        "stationary": 0,
+        "nonzero_chord_rate_range": [
+          6.153,
+          6.157
+        ],
+        "distinct_loop_spans": [
+          1
+        ]
+      },
+      "after": {
+        "comparable_pairs": 0,
+        "stationary": 0,
+        "nonzero_chord_rate_range": null,
+        "distinct_loop_spans": []
+      }
+    },
+    {
+      "issue_loop": 11990,
+      "target_hero_born": true,
+      "tracker_birth_type": "HeroBarbarian",
+      "before": {
+        "comparable_pairs": 0,
+        "stationary": 0,
+        "nonzero_chord_rate_range": null,
+        "distinct_loop_spans": []
+      },
+      "after": {
+        "comparable_pairs": 8,
+        "stationary": 6,
+        "nonzero_chord_rate_range": [
+          2.195,
+          2.195
+        ],
+        "distinct_loop_spans": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "issue_loop": 13084,
+      "target_hero_born": true,
+      "tracker_birth_type": "HeroTyrande",
+      "before": {
+        "comparable_pairs": 0,
+        "stationary": 0,
+        "nonzero_chord_rate_range": null,
+        "distinct_loop_spans": []
+      },
+      "after": {
+        "comparable_pairs": 2,
+        "stationary": 0,
+        "nonzero_chord_rate_range": [
+          3.664,
+          5.862
+        ],
+        "distinct_loop_spans": [
+          3,
+          6
+        ]
+      }
+    },
+    {
+      "issue_loop": 13930,
+      "target_hero_born": true,
+      "tracker_birth_type": "HeroTyrande",
+      "before": {
+        "comparable_pairs": 0,
+        "stationary": 0,
+        "nonzero_chord_rate_range": null,
+        "distinct_loop_spans": []
+      },
+      "after": {
+        "comparable_pairs": 2,
+        "stationary": 0,
+        "nonzero_chord_rate_range": [
+          2.107,
+          2.464
+        ],
+        "distinct_loop_spans": [
+          2,
+          25
+        ]
+      }
+    },
+    {
+      "issue_loop": 15105,
+      "target_hero_born": false,
+      "tracker_birth_type": null,
+      "before": {
+        "comparable_pairs": 3,
+        "stationary": 0,
+        "nonzero_chord_rate_range": [
+          4.832,
+          4.834
+        ],
+        "distinct_loop_spans": [
+          1
+        ]
+      },
+      "after": {
+        "comparable_pairs": 0,
+        "stationary": 0,
+        "nonzero_chord_rate_range": null,
+        "distinct_loop_spans": []
+      }
+    },
+    {
+      "issue_loop": 16260,
+      "target_hero_born": true,
+      "tracker_birth_type": "HeroBarbarian",
+      "before": {
+        "comparable_pairs": 0,
+        "stationary": 0,
+        "nonzero_chord_rate_range": null,
+        "distinct_loop_spans": []
+      },
+      "after": {
+        "comparable_pairs": 0,
+        "stationary": 0,
+        "nonzero_chord_rate_range": null,
+        "distinct_loop_spans": []
+      }
+    },
+    {
+      "issue_loop": 16501,
+      "target_hero_born": true,
+      "tracker_birth_type": "HeroKaelthas",
+      "before": {
+        "comparable_pairs": 5,
+        "stationary": 3,
+        "nonzero_chord_rate_range": [
+          1.869,
+          1.954
+        ],
+        "distinct_loop_spans": [
+          1,
+          2,
+          8,
+          9
+        ]
+      },
+      "after": {
+        "comparable_pairs": 1,
+        "stationary": 1,
+        "nonzero_chord_rate_range": null,
+        "distinct_loop_spans": [
+          1
+        ]
+      }
+    },
+    {
+      "issue_loop": 16967,
+      "target_hero_born": true,
+      "tracker_birth_type": "HeroGreymane",
+      "before": {
+        "comparable_pairs": 0,
+        "stationary": 0,
+        "nonzero_chord_rate_range": null,
+        "distinct_loop_spans": []
+      },
+      "after": {
+        "comparable_pairs": 0,
+        "stationary": 0,
+        "nonzero_chord_rate_range": null,
+        "distinct_loop_spans": []
+      }
+    },
+    {
+      "issue_loop": 17578,
+      "target_hero_born": true,
+      "tracker_birth_type": "HeroGreymane",
+      "before": {
+        "comparable_pairs": 0,
+        "stationary": 0,
+        "nonzero_chord_rate_range": null,
+        "distinct_loop_spans": []
+      },
+      "after": {
+        "comparable_pairs": 0,
+        "stationary": 0,
+        "nonzero_chord_rate_range": null,
+        "distinct_loop_spans": []
+      }
+    },
+    {
+      "issue_loop": 18193,
+      "target_hero_born": true,
+      "tracker_birth_type": "HeroBarbarian",
+      "before": {
+        "comparable_pairs": 0,
+        "stationary": 0,
+        "nonzero_chord_rate_range": null,
+        "distinct_loop_spans": []
+      },
+      "after": {
+        "comparable_pairs": 0,
+        "stationary": 0,
+        "nonzero_chord_rate_range": null,
+        "distinct_loop_spans": []
+      }
+    },
+    {
+      "issue_loop": 18878,
+      "target_hero_born": true,
+      "tracker_birth_type": "HeroBarbarian",
+      "before": {
+        "comparable_pairs": 0,
+        "stationary": 0,
+        "nonzero_chord_rate_range": null,
+        "distinct_loop_spans": []
+      },
+      "after": {
+        "comparable_pairs": 3,
+        "stationary": 0,
+        "nonzero_chord_rate_range": [
+          2.052,
+          3.511
+        ],
+        "distinct_loop_spans": [
+          1,
+          3,
+          28
+        ]
+      }
+    },
+    {
+      "issue_loop": 19195,
+      "target_hero_born": false,
+      "tracker_birth_type": "KingsCore",
+      "before": {
+        "comparable_pairs": 18,
+        "stationary": 18,
+        "nonzero_chord_rate_range": null,
+        "distinct_loop_spans": [
+          1,
+          2,
+          3,
+          7
+        ]
+      },
+      "after": {
+        "comparable_pairs": 33,
+        "stationary": 33,
+        "nonzero_chord_rate_range": null,
+        "distinct_loop_spans": [
+          1,
+          2,
+          3,
+          8,
+          19
+        ]
+      }
+    },
+    {
+      "issue_loop": 19396,
+      "target_hero_born": false,
+      "tracker_birth_type": "KingsCore",
+      "before": {
+        "comparable_pairs": 0,
+        "stationary": 0,
+        "nonzero_chord_rate_range": null,
+        "distinct_loop_spans": []
+      },
+      "after": {
+        "comparable_pairs": 14,
+        "stationary": 14,
+        "nonzero_chord_rate_range": null,
+        "distinct_loop_spans": [
+          1,
+          2,
+          3,
+          13
+        ]
+      }
+    }
+  ],
+  "tyrande_same_tag_one_loop_chords": {
+    "elsewhere": {
+      "distinct_one_loop_chords": 156,
+      "stationary": 85,
+      "within_0_02_of_4_4": 55,
+      "within_0_02_of_1_76": 2
+    },
+    "post_378": {
+      "distinct_one_loop_chords": 7,
+      "stationary": 2,
+      "within_0_02_of_4_4": 0,
+      "within_0_02_of_1_76": 5
+    }
+  }
+}
