@@ -1,0 +1,9 @@
+# Camp flag ownership at capture
+
+The exact original TEN and four other build-41810 Dragon Shire replays contain 41 captures. All have three adjacent physical tracker records at the capture statistic loop, in this order: camp minimap icon transfers to the capturing team, map-authored CampOwnershipFlag transfers to that same team, then JungleCampCapture. The original TEN contributes 13. None of the 41 historical flags transferred either owner field to an individual player between the capture and the next capture of that camp or replay end.
+
+Fifteen stock build-98348 Dragon Shire replays contain 260 captures. All have the same three consecutive records on the capture loop, using a LootBannerSconce. Each sconce subsequently transfers both owner fields to an individual player exactly eight game loops after its capture. Every capture in both cohorts has coverage through loop +8. The current behavior therefore produces an additional tracker change that is absent from all 41 historical captures.
+
+Camp identities come from the five captain points in the actual map script and a unique placed flag or sconce within eight map units. The verifier joins the typed map positions to the full index/recycle pair for each recorded beacon, icon and flag. All ownership frames of these actors are re-encoded with their actual physical predecessor tick and compared with the full frame bytes. The recording, map and cohort digests are pinned. The receipt includes replay hashes, camp-specific full tags, physical stat and actor ordinals, owners and clocks. The conclusions describe the examined builds and cases.
+
+Run `merc_flag_capture_observations.py PRIVATE_29_CASE_MANIFEST HISTORICAL_SHRINE_START_JSON ORIGINAL_MAP STOCK_MAP` using the repository protocol dependencies. No target simulation is required.
