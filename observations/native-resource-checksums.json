@@ -1,0 +1,37 @@
+{
+  "build": 98348,
+  "pe_sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+  "text_sha256": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83",
+  "windows": 18,
+  "map_member": "DocumentHeader",
+  "map_version": 8,
+  "map_declared_le32_offset": 28,
+  "description_offsets": {
+    "map": 1108,
+    "mod": 2400
+  },
+  "type_program_sha256": "245aba71f1702e6bae480924df478c8479978e54c383dff4757eb40863932b2f",
+  "mod_wire_type_chain": [
+    815,
+    816,
+    817,
+    348,
+    3
+  ],
+  "mod_crc_input": "u8 count followed by BE32 words and four zero bytes",
+  "maximum_words": 255,
+  "synthetic_checks": 6,
+  "mod_history_index_global_rva": 55509504,
+  "validation_owner_field_0x100e8": [
+    2,
+    3
+  ],
+  "compared_mismatch_codes": {
+    "mod": 16,
+    "map": 17
+  },
+  "historical_target_mod_words_known": false,
+  "gameplay_vector_identity_at_comparison_verified": false,
+  "map_package_sha256": "bda7aafd1d63c77b3b4d29ff2afee96da09a3104b54b4a1d625bb299607d9008",
+  "map_advertised_word": "2d44411f"
+}

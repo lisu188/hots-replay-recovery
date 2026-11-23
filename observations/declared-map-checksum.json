@@ -1,0 +1,119 @@
+{
+  "target_build": 98348,
+  "controls": 24,
+  "target_map_packages": 9,
+  "target_groups": {
+    "1860ffa5906bb6ee8054ed080a4afcefaa534d4643ce0781aad84623724442b2": {
+      "recordings": 1,
+      "declared": "564652b2",
+      "next_word_also_matches": false,
+      "archive_crc_matches": false,
+      "header_sha256": "9b51f87e4e73ba61d1a5c408ea350b692cf8b6af3f804831bec74e7139fa6f42"
+    },
+    "60f3737b16c5f687d214ad90746b0e32900ab796ddf4a907a380a7cd6037d672": {
+      "recordings": 1,
+      "declared": "11c76bd0",
+      "next_word_also_matches": false,
+      "archive_crc_matches": false,
+      "header_sha256": "8a6ab168ad71b36ba60cd7a304bc32321fa8bf8ea85ed22cd02f7cbfc1730bd6"
+    },
+    "7751c274aa96c7b58e89c757eeb89e05f28e5c369e463ec6d51bf172681bd3a9": {
+      "recordings": 1,
+      "declared": "bddb660f",
+      "next_word_also_matches": false,
+      "archive_crc_matches": false,
+      "header_sha256": "a51fec00c72f3878b27cfa30390786cdb6f63db29c35d53ea3f8c942a46a53eb"
+    },
+    "889da151b127b6b5091a26c0395b7787a74cd3f4dea69521512cf027129a009e": {
+      "recordings": 1,
+      "declared": "98663f19",
+      "next_word_also_matches": false,
+      "archive_crc_matches": false,
+      "header_sha256": "451119d6519f4f3fc8d95928a7cc93303e0da01f7345a3afe21252d18595e53c"
+    },
+    "a713e0d47c677fd2b99f9ee8398c22a3e30cc018fcc83d1dda3c09b31f1e76c1": {
+      "recordings": 2,
+      "declared": "83b27152",
+      "next_word_also_matches": false,
+      "archive_crc_matches": false,
+      "header_sha256": "8382a021d7fd19367182baa85b43565a4d53cbaaf339a18eb6f6a6462fa239ce"
+    },
+    "ab9867fa3ecc52c8330553a120af5853f6673b6e42a9e393ee82dd6629fb7e93": {
+      "recordings": 1,
+      "declared": "5e6b5962",
+      "next_word_also_matches": false,
+      "archive_crc_matches": false,
+      "header_sha256": "60fe5c2bb8ddd5fa685290be80c50943986c4092010105cde63ccfe810a7ba92"
+    },
+    "d952569f975d31a83e9d12d6b488589044e325ba92871aef62e104ed1859202e": {
+      "recordings": 1,
+      "declared": "108b3178",
+      "next_word_also_matches": false,
+      "archive_crc_matches": false,
+      "header_sha256": "206773821a8e443b128ea894788d62c360f6741482ef7870f8655a6ceb5ead5d"
+    },
+    "f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f": {
+      "recordings": 15,
+      "declared": "34d3c979",
+      "next_word_also_matches": false,
+      "archive_crc_matches": false,
+      "header_sha256": "4dc1cfb2b684c4b601f592563ff9af751b47c99153c41ccd5189c81d561bfb75"
+    },
+    "fddf3267c510a29b4ad55ada48096860054969095cf025a54f91b15fc310714e": {
+      "recordings": 1,
+      "declared": "7b895beb",
+      "next_word_also_matches": false,
+      "archive_crc_matches": false,
+      "header_sha256": "2830360db6c89c6712aa29dd56e7448fba25ff38b91fe9901fe0007102be06cf"
+    }
+  },
+  "original_map": "e0a58745837b3b5351015c933560dbffb178d747009d2d57b4153ef425cf7250",
+  "original": {
+    "declared": "2d44411f",
+    "next_word_also_matches": true,
+    "archive_crc_matches": false,
+    "header_sha256": "dfa71d76f83f2562c7b5cd80f3875eb4107e26fa52a4ef0be1b7b4e45536524b"
+  },
+  "overlay": "bda7aafd1d63c77b3b4d29ff2afee96da09a3104b54b4a1d625bb299607d9008",
+  "overlay_declared_word": "2d44411f",
+  "overlay_archive_crc": "6d3ada96",
+  "setup_template": "5ed50ccfcd947b92488cba095973dcd9d4de76a976a457417203608d379b3f01",
+  "projected_bytes": 4222,
+  "mod_zero_algebraic_constant": "078b4076",
+  "mod_lsb_first_columns": [
+    "0d38c0f2",
+    "1a7181e4",
+    "34e303c8",
+    "69c60790",
+    "d38c0f20",
+    "7c691801",
+    "f8d23002",
+    "2ad56645",
+    "53beabf0",
+    "a77d57e0",
+    "958ba981",
+    "f0665543",
+    "3bbdacc7",
+    "777b598e",
+    "eef6b31c",
+    "069c6079",
+    "bdee4cb7",
+    "a0ad9f2f",
+    "9a2a381f",
+    "ef25767f",
+    "053beabf",
+    "0a77d57e",
+    "14efaafc",
+    "29df55f8",
+    "55b8c863",
+    "ab7190c6",
+    "8d9227cd",
+    "c05549db",
+    "5bdb95f7",
+    "b7b72bee",
+    "b41f519d",
+    "b34fa57b"
+  ],
+  "actual_overlay_resource_validation_verified": false,
+  "mod_checksum_resolved": false
+}
