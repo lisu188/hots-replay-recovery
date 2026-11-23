@@ -18,6 +18,7 @@ from map_startup_identity import parse_objects
 from mpq_mixed_sectors import read_member
 from mpq_reader import MPQArchive
 from opening_birth_wire import FIELDS, model
+from placement_xy import fixed_coordinate
 from predict_camp_captures import SOURCE
 from project_rank_targets import MAP, lifetime_ends
 from repair_unit_tags import components, pack
@@ -58,15 +59,24 @@ def measure(replay, digest, build, package, mechanics):
     if [tuple(p[k] for k in FIELDS) for p in placed] != [tuple(b[k] for k in FIELDS) for b in births]:
         raise ValueError("Opening tag, owner, position or type diverged from the map model")
     entries = {}
+    exact_xml_pairs = rounded_pairs = 0
     for (obj, kind, authored_x, authored_y), born in zip(placements, placed, strict=True):
         x, y = fixed(authored_x), fixed(authored_y)
+        if x is not None and y is not None:
+            exact_xml_pairs += 1
+        elif obj is not None:
+            x, y = fixed_coordinate(authored_x), fixed_coordinate(authored_y)
+            rounded_pairs += 1
         key = born["m_unitTagIndex"], born["m_unitTagRecycle"]
         owner = born["m_controlPlayerId"]
         if min(authored_x, authored_y) < 0 or (born["m_unitTypeName"].decode(), born["m_x"], born["m_y"]) != (
                 kind, int(authored_x), int(authored_y)):
             raise ValueError("Object and modeled tracker birth disagree")
-        # For an inexact XML decimal, the whole coordinate still fixes its cell and parity.
-        # Mask the two fractional bits of that axis, even when the printed decimal suggests a value.
+        # The parsed ObjectUnit path is verified. Keep fractional ObjectPoint values masked
+        # unless they have exact representations or their own native reader is verified.
+        if ((x is not None and x // 4096 != born["m_x"])
+                or (y is not None and y // 4096 != born["m_y"])):
+            raise ValueError("Parsed fixed position and independently observed birth cell differ")
         fields = position_fields(pack(*key, 22), owner, x if x is not None else born["m_x"]*4096,
                                  y if y is not None else born["m_y"]*4096)
         mask = 0xffffff
@@ -111,7 +121,8 @@ def measure(replay, digest, build, package, mechanics):
         entries[key]["snapshot_mismatches"] = c["mismatch"]
     confirmed = sum(c["match"] > 0 and c["mismatch"] == 0 for c in observations.values())
     return dict(build=build, map_sha256=map_sha, authored=sum(obj is not None for obj, *_ in placements),
-                exact_fixed_xy=sum(r["low24_mask"] == 0xffffff for r in entries.values()), map_and_birth_agree=len(placed),
+                exact_fixed_xy=exact_xml_pairs, native_rounded_xy=rounded_pairs,
+                resolved_fixed_xy=sum(r["low24_mask"] == 0xffffff for r in entries.values()), map_and_birth_agree=len(placed),
                 corroborated_stationary_objects=confirmed, **counts), list(entries.values())
 
 

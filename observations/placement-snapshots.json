@@ -1,0 +1,15 @@
+{
+  "original_inexact_comparisons": 0,
+  "native_recordings": 24,
+  "native_distinct_maps": 9,
+  "native_inexact_snapshots_by_unit": {
+    "VehicleDragon": {
+      "match": 79,
+      "different": 710
+    },
+    "WaygateEntrance": {
+      "match": 16,
+      "different": 0
+    }
+  }
+}

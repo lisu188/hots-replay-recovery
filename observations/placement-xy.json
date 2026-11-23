@@ -1,0 +1,66 @@
+{
+  "build": 98348,
+  "native_windows": 8,
+  "native_calls_and_tail_jumps": 10,
+  "decimal_weights_verified": 13,
+  "max_fractional_digits": 12,
+  "scriptable_fractional_expressions_supported": false,
+  "fixed_unit_denominator": 4096,
+  "map": {
+    "map_sha256": "bda7aafd1d63c77b3b4d29ff2afee96da09a3104b54b4a1d625bb299607d9008",
+    "authored": 165,
+    "previously_inexact": 5,
+    "rows": [
+      {
+        "unit": "TheLittleKing",
+        "object_id": 22,
+        "x": 442490,
+        "y": 655810,
+        "inexact_x": true,
+        "inexact_y": true,
+        "quarter_x_mod8": 0,
+        "quarter_y_mod8": 0
+      },
+      {
+        "unit": "CampOwnershipFlag",
+        "object_id": 477,
+        "x": 413165,
+        "y": 320829,
+        "inexact_x": true,
+        "inexact_y": true,
+        "quarter_x_mod8": 3,
+        "quarter_y_mod8": 1
+      },
+      {
+        "unit": "CampOwnershipFlag",
+        "object_id": 478,
+        "x": 602077,
+        "y": 322626,
+        "inexact_x": true,
+        "inexact_y": true,
+        "quarter_x_mod8": 3,
+        "quarter_y_mod8": 3
+      },
+      {
+        "unit": "GardensDragonShrineTargetMoon",
+        "object_id": 718,
+        "x": 493258,
+        "y": 446222,
+        "inexact_x": true,
+        "inexact_y": true,
+        "quarter_x_mod8": 1,
+        "quarter_y_mod8": 3
+      },
+      {
+        "unit": "GardensDragonShrineTargetSun",
+        "object_id": 760,
+        "x": 523280,
+        "y": 445352,
+        "inexact_x": true,
+        "inexact_y": true,
+        "quarter_x_mod8": 7,
+        "quarter_y_mod8": 2
+      }
+    ]
+  }
+}

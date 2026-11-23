@@ -1,0 +1,40 @@
+{
+  "build": 98348,
+  "original_sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+  "static_text_sha256": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83",
+  "checked_windows": 22,
+  "placement_hidden_index": 4,
+  "spawn_hidden_bit": 8,
+  "fresh_unit_runtime_masks": [
+    0,
+    0
+  ],
+  "maps": [
+    {
+      "map": "archived_41810",
+      "sha256": "e0a58745837b3b5351015c933560dbffb178d747009d2d57b4153ef425cf7250",
+      "objects_sha256": "5b1f268a147bc854a1d0321826f9e055f45aa690cb970f0e703c5e8cf01476a9",
+      "units": 165,
+      "force_placement": 107,
+      "hidden_spawn_bit_set": 0
+    },
+    {
+      "map": "retail_98348",
+      "sha256": "f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f",
+      "objects_sha256": "371d4c7a1ade868b4106d50926a47d50bb2b042a4558a66dab938c06f3cd7ecc",
+      "units": 158,
+      "force_placement": 111,
+      "hidden_spawn_bit_set": 0
+    },
+    {
+      "map": "gate_order",
+      "sha256": "bda7aafd1d63c77b3b4d29ff2afee96da09a3104b54b4a1d625bb299607d9008",
+      "objects_sha256": "5b1f268a147bc854a1d0321826f9e055f45aa690cb970f0e703c5e8cf01476a9",
+      "units": 165,
+      "force_placement": 107,
+      "hidden_spawn_bit_set": 0
+    }
+  ],
+  "bit29_when_bit31_at_recompute": 0,
+  "complete_opening_descriptors": null
+}

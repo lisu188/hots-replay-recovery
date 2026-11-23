@@ -1,8 +1,7 @@
 {
   "opening_slots": 172,
   "live_radius_bits_histogram": {
-    "92": 167,
-    "88": 5
+    "92": 172
   },
   "radius_above_small_threshold": 4,
   "radius_at_or_below_small_threshold": 168,
@@ -10,5 +9,5 @@
   "largest_small_cell_population_in_model": 2,
   "hypothesized_empty_grid_insertion_order_verified": false,
   "native_fast_crc_verified": false,
-  "ledger_sha256": "cab977c7135cc06c7be01d4a22a54209da571050d453d72cb6c25bf62852e7cc"
+  "ledger_sha256": "d786bd7da91e7067c6b4ecf167684a584e61de6b34f092d156dfb606ab2816cb"
 }
