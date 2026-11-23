@@ -1,0 +1,24 @@
+{
+  "changed_byte_offsets": [
+    72159,
+    72160
+  ],
+  "edits": [
+    {
+      "field": "UnifiedMoveSpeedFactor",
+      "record": "AnubarakImpaleBedOfBarbsSlow",
+      "restored": "-0.30",
+      "stock": "-0.25",
+      "value_offset": 72156
+    }
+  ],
+  "effective_native_catalog_verified": false,
+  "format": "bed-of-barbs-slow-restoration-v1",
+  "historical_catalog_sha256": "aaf264de6c3e31ce4bee1b1a5d658d695036393e4077e539630dd553698e9bbb",
+  "input_sha256": "6e575d1c7e852274480b88e89e06ce993a9b8dd6f7988ccdc57e173c337eb799",
+  "native_playback_verified": false,
+  "size": 234204,
+  "source_build": 41810,
+  "target_build": 98348,
+  "updated_sha256": "657b41695ad027b345f4db1c2007e536b3208b0e1e26eba33d9c36a621e5de6e"
+}
