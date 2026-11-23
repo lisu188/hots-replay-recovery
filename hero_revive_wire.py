@@ -21,6 +21,7 @@ from protocol_loader import load_protocol
 
 HIST_MAP = "d41c5841a5719e76246265940d28b244bae91f4e3fef33e621f3a2e2a0ee7bbd"
 WAVE_MAP = "f4d3b425cd9df5ed5390c45dc3c770300a64ba95449c82c228eed8b9928c7d6f"
+KEEP_MAP = "58874aca37caeacaf42789a7e90fd2da830559f6cd744c32f5724e4477a6fcb3"
 TIMER_EVIDENCE = "d3155fc0d75ad42b35b11ab1cc977e8c6b155b9e2733b364b5eb1693edff356b"
 MEMBERS = {
     41810: ("ce391782dbafe292da064b6c33963f43e99d479551d14a67bf1a4ade12953d1b",
@@ -36,7 +37,7 @@ FIELDS = ("m_unitTagIndex", "m_unitTagRecycle", "m_x", "m_y")
 
 def starts(path, build):
     digest = sha256(path.read_bytes()).hexdigest()
-    if digest not in ({HIST_MAP, WAVE_MAP} if build == 41810 else {STOCK, STOCK_PACKAGE}):
+    if digest not in ({HIST_MAP, WAVE_MAP, KEEP_MAP} if build == 41810 else {STOCK, STOCK_PACKAGE}):
         raise ValueError("Unexpected map package")
     with closing(MPQArchive(path)) as arc:
         info, xml = (read_member(arc, k) for k in ("MapInfo", "Objects"))
