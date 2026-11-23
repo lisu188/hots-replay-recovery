@@ -1,0 +1,19 @@
+{
+  "build": 98348,
+  "pe_sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+  "static_text_sha256": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83",
+  "ring_entry_bytes": 1416,
+  "resize_function": "0x97d870",
+  "resize_requires_r8d_zero": true,
+  "selected_vector_words": 72,
+  "direct_main_stores": 70,
+  "aggregate_slot": 3,
+  "aggregate_components": 92,
+  "component_storage_offset": 1032,
+  "uncovered_slot": 69,
+  "uncovered_entry_offset": 284,
+  "scalar_global_rva": "0x34ef5c0",
+  "scalar_crc_slot": 1,
+  "synthetic_crc_comparisons": 8,
+  "actual_replay_state_acquired": false
+}
