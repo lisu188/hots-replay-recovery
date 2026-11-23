@@ -5,6 +5,7 @@
       "archive_bytes": 2268776,
       "archive_sha256": "55ac72260033a80d14580a147194bb372444907cde939e6ab54316dd19ec2916",
       "build": 75589,
+      "decoded_schema": 75589,
       "map": "Garden of Terror",
       "amm": true,
       "amm_id": 50001,
@@ -40,6 +41,7 @@
       "archive_bytes": 1130873,
       "archive_sha256": "8761d8bf33dd2a238b76bd73e3c24f35eaefff93462bde002f1793f63d68552e",
       "build": 95301,
+      "decoded_schema": 95301,
       "map": "Hanamura Temple",
       "amm": true,
       "amm_id": 50001,
@@ -79,6 +81,7 @@
       "archive_bytes": 879750,
       "archive_sha256": "7a27e561c11c569ecb802799f9b158785145a5b36f3a7460c3be7fe0400692c2",
       "build": 94786,
+      "decoded_schema": 94786,
       "map": "Dragon Shire",
       "amm": true,
       "amm_id": 50091,
@@ -134,12 +137,169 @@
       "archive_bytes": 581131,
       "archive_sha256": "29aee1cf058ac729f9a73012cb2bc99e0f952e89d78e7f92aaea4eddb093d326",
       "build": 93810,
+      "decoded_schema": 93810,
       "map": "Silver City",
       "amm": true,
       "amm_id": 50101,
       "loop_zero_frames": 141,
       "loop_zero_bytes": 8222,
       "loop_zero_sha256": "98bc19b2e638c0387b2470b97115ce1c17d20e3678ac462567c20278a17e8999",
+      "loop_zero_runs": [
+        [
+          9,
+          10
+        ],
+        [
+          1,
+          95
+        ],
+        [
+          5,
+          15
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          10,
+          17
+        ]
+      ],
+      "exact_target_qm": false
+    },
+    {
+      "source_url": "https://raw.githubusercontent.com/HeroesToolChest/Heroes.StormReplayParser/92b0286fd3c12fc713a8b4e9983f1182da48c4cb/Tests/Heroes.StormReplayParser.Tests/Replays/CustomBattlefieldofEternity2_98348.StormR",
+      "archive_bytes": 1394174,
+      "archive_sha256": "7fb7b9bcd16df2c19d64f720731b3a937b5931a83582e67c45347368a563fb60",
+      "build": 98348,
+      "decoded_schema": 96477,
+      "map": "Battlefield of Eternity",
+      "amm": false,
+      "amm_id": null,
+      "loop_zero_frames": 349,
+      "loop_zero_bytes": 20336,
+      "loop_zero_sha256": "df5672e02213c03fc9282c2596bcfa043997131adb1b42dc2b9ded84ee4644e5",
+      "loop_zero_runs": [
+        [
+          9,
+          10
+        ],
+        [
+          13,
+          4
+        ],
+        [
+          14,
+          5
+        ],
+        [
+          13,
+          2
+        ],
+        [
+          14,
+          5
+        ],
+        [
+          15,
+          2
+        ],
+        [
+          1,
+          265
+        ],
+        [
+          5,
+          15
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          10,
+          23
+        ],
+        [
+          5,
+          10
+        ]
+      ],
+      "exact_target_qm": false
+    },
+    {
+      "source_url": "https://raw.githubusercontent.com/HeroesToolChest/Heroes.StormReplayParser/92b0286fd3c12fc713a8b4e9983f1182da48c4cb/Tests/Heroes.StormReplayParser.Tests/Replays/CustomInfernalShrines3_98348.StormR",
+      "archive_bytes": 1476551,
+      "archive_sha256": "f4e315a3b7044401359e73969172a442a96e7529432f64c183b9f09e7387f04c",
+      "build": 98348,
+      "decoded_schema": 96477,
+      "map": "Infernal Shrines",
+      "amm": false,
+      "amm_id": null,
+      "loop_zero_frames": 283,
+      "loop_zero_bytes": 15910,
+      "loop_zero_sha256": "658733d9cf4460e2288e97b22e3c0e36bd5fcb4b5f01fc75ef02251704682ff7",
+      "loop_zero_runs": [
+        [
+          9,
+          10
+        ],
+        [
+          13,
+          4
+        ],
+        [
+          14,
+          5
+        ],
+        [
+          13,
+          2
+        ],
+        [
+          14,
+          5
+        ],
+        [
+          15,
+          4
+        ],
+        [
+          1,
+          190
+        ],
+        [
+          5,
+          15
+        ],
+        [
+          1,
+          10
+        ],
+        [
+          10,
+          28
+        ],
+        [
+          5,
+          10
+        ]
+      ],
+      "exact_target_qm": false
+    },
+    {
+      "source_url": "https://raw.githubusercontent.com/HeroesToolChest/Heroes.StormReplayParser/92b0286fd3c12fc713a8b4e9983f1182da48c4cb/Tests/Heroes.StormReplayParser.Tests/Replays/SilverCity2_98348.StormR",
+      "archive_bytes": 1160505,
+      "archive_sha256": "96f31eb4ca6c71ba094646442e95090c65226be63301dfd40e6e9fcea728a14c",
+      "build": 98348,
+      "decoded_schema": 96477,
+      "map": "Silver City",
+      "amm": true,
+      "amm_id": 50101,
+      "loop_zero_frames": 141,
+      "loop_zero_bytes": 8215,
+      "loop_zero_sha256": "968503924fade839692932d092348528518a5209b7603dfb582adda9c5a594d6",
       "loop_zero_runs": [
         [
           9,
