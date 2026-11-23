@@ -1,0 +1,208 @@
+{
+  "format": "death-driven-legacy-camp-baseline-v1",
+  "map_sha256": "e0a58745837b3b5351015c933560dbffb178d747009d2d57b4153ef425cf7250",
+  "delay_loops": 25,
+  "capture_stats_or_beacon_owners_are_inputs": false,
+  "cases": [
+    {
+      "replay_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+      "tracker_sha256": "1a9a556f9f1fde466d17c4a3a3fbb31cbec8d8086bef97efeb796f1f5175245f",
+      "horizon": 19732,
+      "neutral_death_inputs": 38,
+      "forecast_captures": 13,
+      "no_unique_killer_team": 0,
+      "pending_capture_beyond_horizon": 0,
+      "masked_outcomes_leave_drivers_identical": true,
+      "state_diagnostics": {},
+      "predicted_dragon_holds": 4,
+      "capture_tuples": {
+        "matches": 11,
+        "false_positives": 2,
+        "misses": 2
+      },
+      "capture_ordered_team_matches": 13,
+      "camps_without_unambiguous_generation_pairing": 0,
+      "actual_minus_forecast_capture_loops": {
+        "0": 11,
+        "4": 1,
+        "15": 1
+      },
+      "later_wave_groups": {
+        "matches": 10,
+        "false_positives": 0,
+        "misses": 0
+      },
+      "all_individual_births": {
+        "matches": 46,
+        "false_positives": 0,
+        "misses": 0
+      },
+      "returned_individual_births": {
+        "matches": 30,
+        "false_positives": 0,
+        "misses": 0
+      },
+      "actual_minus_forecast_return_loops": {
+        "0": 10
+      },
+      "capture_to_return": {
+        "exact_capture_exact_return": 10,
+        "late_capture_no_return_before_horizon": 2,
+        "exact_capture_no_return_before_horizon": 1
+      }
+    },
+    {
+      "replay_sha256": "7efa1c335816eebe802747ae4b16252ed22fcd8387b09d24b115b2917542b52a",
+      "tracker_sha256": "efcd51f24f37612199a8ebce2872bdf72144a82a3a8c15552a164deb5e27d139",
+      "horizon": 25025,
+      "neutral_death_inputs": 48,
+      "forecast_captures": 16,
+      "no_unique_killer_team": 0,
+      "pending_capture_beyond_horizon": 0,
+      "masked_outcomes_leave_drivers_identical": true,
+      "state_diagnostics": {},
+      "predicted_dragon_holds": 5,
+      "capture_tuples": {
+        "matches": 12,
+        "false_positives": 4,
+        "misses": 4
+      },
+      "capture_ordered_team_matches": 16,
+      "camps_without_unambiguous_generation_pairing": 0,
+      "actual_minus_forecast_capture_loops": {
+        "0": 12,
+        "2": 1,
+        "6": 1,
+        "13": 1,
+        "14": 1
+      },
+      "later_wave_groups": {
+        "matches": 12,
+        "false_positives": 4,
+        "misses": 4
+      },
+      "all_individual_births": {
+        "matches": 50,
+        "false_positives": 14,
+        "misses": 14
+      },
+      "returned_individual_births": {
+        "matches": 34,
+        "false_positives": 14,
+        "misses": 14
+      },
+      "actual_minus_forecast_return_loops": {
+        "0": 12,
+        "2": 1,
+        "6": 1,
+        "13": 1,
+        "14": 1
+      },
+      "capture_to_return": {
+        "exact_capture_exact_return": 12,
+        "late_capture_error_propagates_to_return": 4
+      }
+    },
+    {
+      "replay_sha256": "2fca3c78d0e459d4452e3fb1f41ff3fce22b9c1f8f113019389195ff171bf618",
+      "tracker_sha256": "8d01d6f734e9fea8d038a94d28f6dd0fdac22f4a5d1011caee7165beb7dd13af",
+      "horizon": 19953,
+      "neutral_death_inputs": 18,
+      "forecast_captures": 6,
+      "no_unique_killer_team": 0,
+      "pending_capture_beyond_horizon": 0,
+      "masked_outcomes_leave_drivers_identical": true,
+      "state_diagnostics": {},
+      "predicted_dragon_holds": 0,
+      "capture_tuples": {
+        "matches": 3,
+        "false_positives": 3,
+        "misses": 3
+      },
+      "capture_ordered_team_matches": 6,
+      "camps_without_unambiguous_generation_pairing": 0,
+      "actual_minus_forecast_capture_loops": {
+        "0": 3,
+        "2": 1,
+        "4": 1,
+        "8": 1
+      },
+      "later_wave_groups": {
+        "matches": 2,
+        "false_positives": 2,
+        "misses": 2
+      },
+      "all_individual_births": {
+        "matches": 20,
+        "false_positives": 8,
+        "misses": 8
+      },
+      "returned_individual_births": {
+        "matches": 4,
+        "false_positives": 8,
+        "misses": 8
+      },
+      "actual_minus_forecast_return_loops": {
+        "0": 2,
+        "2": 1,
+        "8": 1
+      },
+      "capture_to_return": {
+        "exact_capture_exact_return": 2,
+        "late_capture_no_return_before_horizon": 1,
+        "exact_capture_no_return_before_horizon": 1,
+        "late_capture_error_propagates_to_return": 2
+      }
+    },
+    {
+      "replay_sha256": "8c4fb83989b528ea3227f6c97758293d1f650e33caa3d38c6a2a84d27ab0850d",
+      "tracker_sha256": "fa44344a45d5d1b91b1c196810a81b2144d4992bdb12ed5a1854efbee95a01d1",
+      "horizon": 15620,
+      "neutral_death_inputs": 8,
+      "forecast_captures": 4,
+      "no_unique_killer_team": 0,
+      "pending_capture_beyond_horizon": 0,
+      "masked_outcomes_leave_drivers_identical": true,
+      "state_diagnostics": {},
+      "predicted_dragon_holds": 0,
+      "capture_tuples": {
+        "matches": 1,
+        "false_positives": 3,
+        "misses": 3
+      },
+      "capture_ordered_team_matches": 4,
+      "camps_without_unambiguous_generation_pairing": 0,
+      "actual_minus_forecast_capture_loops": {
+        "0": 1,
+        "4": 1,
+        "5": 1,
+        "15": 1
+      },
+      "later_wave_groups": {
+        "matches": 1,
+        "false_positives": 3,
+        "misses": 3
+      },
+      "all_individual_births": {
+        "matches": 18,
+        "false_positives": 6,
+        "misses": 6
+      },
+      "returned_individual_births": {
+        "matches": 2,
+        "false_positives": 6,
+        "misses": 6
+      },
+      "actual_minus_forecast_return_loops": {
+        "0": 1,
+        "4": 1,
+        "5": 1,
+        "15": 1
+      },
+      "capture_to_return": {
+        "late_capture_error_propagates_to_return": 3,
+        "exact_capture_exact_return": 1
+      }
+    }
+  ]
+}

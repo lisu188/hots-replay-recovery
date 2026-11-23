@@ -1,0 +1,1087 @@
+{
+ "format": "legacy-camp-hero-presence-coverage-v1",
+ "map_sha256": "e0a58745837b3b5351015c933560dbffb178d747009d2d57b4153ef425cf7250",
+ "diagnostic_radii_map_units": [
+  2,
+  4,
+  8
+ ],
+ "historical_capture_radius_verified": false,
+ "complete_hero_occupancy_verified": false,
+ "input_evidence": [
+  {
+   "replay_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+   "tracker_sha256": "1a9a556f9f1fde466d17c4a3a3fbb31cbec8d8086bef97efeb796f1f5175245f",
+   "game_sha256": "ea69dd77edd02f3ed2c42a2def1faab6dc4d0eb46da291c44f76bfb49a65eed6",
+   "heroes_matched": 10,
+   "matched_spawn_labels": 10,
+   "spawn_labels": 10,
+   "packets": 79,
+   "packet_intervals": {
+    "240": 78
+   },
+   "sample_counts": {
+    "hero_birth_revive": 55,
+    "hero_unit_death": 47,
+    "hero_death_stat": 47,
+    "hero_tracker_sample": 460,
+    "command_destination": 35162,
+    "unit_target_location_by_issuer": 12465,
+    "targeted_live_hero_snapshot": 4880
+   },
+   "camp_stat_names": [
+    "JungleCampCapture",
+    "JungleCampInit"
+   ],
+   "other_marker_types": [
+    "CampOwnershipFlag",
+    "DragonballCaptureBeacon",
+    "JungleCampIconUnitTeamColor",
+    "MercCoweringDefenderOrientDummy",
+    "MercDefenderMeleeKnight",
+    "MercDefenderRangedMage",
+    "MercDefenderSiegeGiant",
+    "MercLanerMeleeKnight",
+    "MercLanerRangedMage",
+    "MercLanerSiegeGiant",
+    "TownMercCampCaptureBeacon"
+   ],
+   "unit_position_scale_control": {
+    "same_loop_same_main_body_position_comparisons": 29,
+    "raw_within_two_units": 29,
+    "times_four_within_two_units": 0
+   },
+   "game_event_names_matching_camp_capture_channel_occupancy": [],
+   "hostile_dummy_births": 14
+  },
+  {
+   "replay_sha256": "7efa1c335816eebe802747ae4b16252ed22fcd8387b09d24b115b2917542b52a",
+   "tracker_sha256": "efcd51f24f37612199a8ebce2872bdf72144a82a3a8c15552a164deb5e27d139",
+   "game_sha256": "6267487f589c4db643ff4d3b7abc061af0b61552c7a2de9e86c8508406ca4daf",
+   "heroes_matched": 10,
+   "matched_spawn_labels": 10,
+   "spawn_labels": 10,
+   "packets": 102,
+   "packet_intervals": {
+    "240": 101
+   },
+   "sample_counts": {
+    "hero_birth_revive": 51,
+    "hero_tracker_sample": 652,
+    "hero_death_stat": 46,
+    "hero_unit_death": 46,
+    "command_destination": 58631,
+    "unit_target_location_by_issuer": 14205,
+    "targeted_live_hero_snapshot": 6151
+   },
+   "camp_stat_names": [
+    "JungleCampCapture",
+    "JungleCampInit"
+   ],
+   "other_marker_types": [
+    "CampOwnershipFlag",
+    "DragonballCaptureBeacon",
+    "JungleCampIconUnitTeamColor",
+    "MercCoweringDefenderOrientDummy",
+    "MercDefenderMeleeKnight",
+    "MercDefenderRangedMage",
+    "MercDefenderSiegeGiant",
+    "MercLanerMeleeKnight",
+    "MercLanerRangedMage",
+    "MercLanerSiegeGiant",
+    "TownMercCampCaptureBeacon"
+   ],
+   "unit_position_scale_control": {
+    "same_loop_same_main_body_position_comparisons": 25,
+    "raw_within_two_units": 25,
+    "times_four_within_two_units": 0
+   },
+   "game_event_names_matching_camp_capture_channel_occupancy": [],
+   "hostile_dummy_births": 16
+  },
+  {
+   "replay_sha256": "2fca3c78d0e459d4452e3fb1f41ff3fce22b9c1f8f113019389195ff171bf618",
+   "tracker_sha256": "8d01d6f734e9fea8d038a94d28f6dd0fdac22f4a5d1011caee7165beb7dd13af",
+   "game_sha256": "55d2cbddda60b683d07ed9a21ffe84ca55422ef9a8aa724969f9a359a6d65f28",
+   "heroes_matched": 10,
+   "matched_spawn_labels": 10,
+   "spawn_labels": 10,
+   "packets": 80,
+   "packet_intervals": {
+    "240": 79
+   },
+   "sample_counts": {
+    "hero_birth_revive": 78,
+    "hero_tracker_sample": 519,
+    "hero_unit_death": 74,
+    "hero_death_stat": 74,
+    "command_destination": 50191,
+    "unit_target_location_by_issuer": 12924,
+    "targeted_live_hero_snapshot": 6886
+   },
+   "camp_stat_names": [
+    "JungleCampCapture",
+    "JungleCampInit"
+   ],
+   "other_marker_types": [
+    "CampOwnershipFlag",
+    "DragonballCaptureBeacon",
+    "JungleCampIconUnitTeamColor",
+    "MercCoweringDefenderOrientDummy",
+    "MercDefenderMeleeKnight",
+    "MercDefenderRangedMage",
+    "MercDefenderSiegeGiant",
+    "MercLanerMeleeKnight",
+    "MercLanerRangedMage",
+    "MercLanerSiegeGiant",
+    "TownMercCampCaptureBeacon"
+   ],
+   "unit_position_scale_control": {
+    "same_loop_same_main_body_position_comparisons": 19,
+    "raw_within_two_units": 19,
+    "times_four_within_two_units": 0
+   },
+   "game_event_names_matching_camp_capture_channel_occupancy": [],
+   "hostile_dummy_births": 6
+  },
+  {
+   "replay_sha256": "8c4fb83989b528ea3227f6c97758293d1f650e33caa3d38c6a2a84d27ab0850d",
+   "tracker_sha256": "fa44344a45d5d1b91b1c196810a81b2144d4992bdb12ed5a1854efbee95a01d1",
+   "game_sha256": "541239128ab928fa794b083f997966fb2d56fe8e5972a88a0a9039ad501e4afb",
+   "heroes_matched": 10,
+   "matched_spawn_labels": 10,
+   "spawn_labels": 10,
+   "packets": 62,
+   "packet_intervals": {
+    "240": 61
+   },
+   "sample_counts": {
+    "hero_birth_revive": 57,
+    "hero_unit_death": 52,
+    "hero_death_stat": 52,
+    "hero_tracker_sample": 325,
+    "command_destination": 28890,
+    "unit_target_location_by_issuer": 8379,
+    "targeted_live_hero_snapshot": 3704
+   },
+   "camp_stat_names": [
+    "JungleCampCapture",
+    "JungleCampInit"
+   ],
+   "other_marker_types": [
+    "CampOwnershipFlag",
+    "DragonballCaptureBeacon",
+    "JungleCampIconUnitTeamColor",
+    "MercCoweringDefenderOrientDummy",
+    "MercDefenderMeleeKnight",
+    "MercDefenderRangedMage",
+    "MercDefenderSiegeGiant",
+    "MercLanerSiegeGiant",
+    "TownMercCampCaptureBeacon"
+   ],
+   "unit_position_scale_control": {
+    "same_loop_same_main_body_position_comparisons": 8,
+    "raw_within_two_units": 8,
+    "times_four_within_two_units": 0
+   },
+   "game_event_names_matching_camp_capture_channel_occupancy": [],
+   "hostile_dummy_births": 8
+  }
+ ],
+ "groups": {
+  "source": {
+   "captures": 13,
+   "by_camp_within_four": {
+    "1": {
+     "captures": 3,
+     "death_exact": 0,
+     "beacon_exact": 0,
+     "capture_exact": 0,
+     "death_to_beacon": 1,
+     "prior_15_seconds": 2
+    },
+    "2": {
+     "captures": 0,
+     "death_exact": 0,
+     "beacon_exact": 0,
+     "capture_exact": 0,
+     "death_to_beacon": 0,
+     "prior_15_seconds": 0
+    },
+    "3": {
+     "captures": 4,
+     "death_exact": 0,
+     "beacon_exact": 0,
+     "capture_exact": 0,
+     "death_to_beacon": 0,
+     "prior_15_seconds": 3
+    },
+    "4": {
+     "captures": 3,
+     "death_exact": 0,
+     "beacon_exact": 0,
+     "capture_exact": 0,
+     "death_to_beacon": 1,
+     "prior_15_seconds": 3
+    },
+    "5": {
+     "captures": 3,
+     "death_exact": 0,
+     "beacon_exact": 0,
+     "capture_exact": 0,
+     "death_to_beacon": 0,
+     "prior_15_seconds": 2
+    }
+   },
+   "capturing_team_position_or_command_counts": {
+    "hero_birth_revive": {
+     "death_exact": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "beacon_exact": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "capture_exact": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "death_to_beacon": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "prior_second": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "prior_15_seconds": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     }
+    },
+    "hero_unit_death": {
+     "death_exact": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "beacon_exact": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "capture_exact": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "death_to_beacon": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "prior_second": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "prior_15_seconds": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     }
+    },
+    "hero_death_stat": {
+     "death_exact": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "beacon_exact": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "capture_exact": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "death_to_beacon": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "prior_second": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "prior_15_seconds": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     }
+    },
+    "hero_tracker_sample": {
+     "death_exact": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "beacon_exact": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "capture_exact": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "death_to_beacon": {
+      "2": 1,
+      "4": 2,
+      "8": 2
+     },
+     "prior_second": {
+      "2": 1,
+      "4": 2,
+      "8": 2
+     },
+     "prior_15_seconds": {
+      "2": 8,
+      "4": 10,
+      "8": 12
+     }
+    },
+    "command_destination": {
+     "death_exact": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "beacon_exact": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "capture_exact": {
+      "2": 1,
+      "4": 1,
+      "8": 1
+     },
+     "death_to_beacon": {
+      "2": 7,
+      "4": 7,
+      "8": 7
+     },
+     "prior_second": {
+      "2": 4,
+      "4": 5,
+      "8": 5
+     },
+     "prior_15_seconds": {
+      "2": 12,
+      "4": 13,
+      "8": 13
+     }
+    },
+    "unit_target_location_by_issuer": {
+     "death_exact": {
+      "2": 1,
+      "4": 2,
+      "8": 2
+     },
+     "beacon_exact": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "capture_exact": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "death_to_beacon": {
+      "2": 2,
+      "4": 4,
+      "8": 4
+     },
+     "prior_second": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "prior_15_seconds": {
+      "2": 12,
+      "4": 13,
+      "8": 13
+     }
+    },
+    "targeted_live_hero_snapshot": {
+     "death_exact": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "beacon_exact": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "capture_exact": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "death_to_beacon": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "prior_second": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "prior_15_seconds": {
+      "2": 1,
+      "4": 1,
+      "8": 1
+     }
+    }
+   },
+   "last_defender_credits_same_team": 13,
+   "exactly_credited_live_primary_body": 13,
+   "hostile_dummy_at_final_death_by_camp": {
+    "1": 3,
+    "3": 4
+   },
+   "delay_from_final_death_to_stat_loop": {
+    "25": 11,
+    "29": 1,
+    "40": 1
+   },
+   "killer_position": {
+    "hero_tracker_sample": {
+     "credited_killer_inside_four_between_death_and_beacon": 2,
+     "another_winning_body_inside_four_between_death_and_beacon": 0,
+     "credited_killer_seen_outside_eight_at_capture": 0
+    },
+    "targeted_live_hero_snapshot": {
+     "credited_killer_inside_four_between_death_and_beacon": 0,
+     "another_winning_body_inside_four_between_death_and_beacon": 0,
+     "credited_killer_seen_outside_eight_at_capture": 0
+    }
+   }
+  },
+  "three_controls": {
+   "captures": 26,
+   "by_camp_within_four": {
+    "1": {
+     "captures": 7,
+     "death_exact": 0,
+     "beacon_exact": 0,
+     "capture_exact": 0,
+     "death_to_beacon": 2,
+     "prior_15_seconds": 3
+    },
+    "2": {
+     "captures": 3,
+     "death_exact": 0,
+     "beacon_exact": 0,
+     "capture_exact": 0,
+     "death_to_beacon": 1,
+     "prior_15_seconds": 2
+    },
+    "3": {
+     "captures": 8,
+     "death_exact": 0,
+     "beacon_exact": 0,
+     "capture_exact": 1,
+     "death_to_beacon": 0,
+     "prior_15_seconds": 5
+    },
+    "4": {
+     "captures": 4,
+     "death_exact": 0,
+     "beacon_exact": 0,
+     "capture_exact": 0,
+     "death_to_beacon": 1,
+     "prior_15_seconds": 3
+    },
+    "5": {
+     "captures": 4,
+     "death_exact": 0,
+     "beacon_exact": 0,
+     "capture_exact": 0,
+     "death_to_beacon": 0,
+     "prior_15_seconds": 4
+    }
+   },
+   "capturing_team_position_or_command_counts": {
+    "hero_birth_revive": {
+     "death_exact": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "beacon_exact": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "capture_exact": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "death_to_beacon": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "prior_second": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "prior_15_seconds": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     }
+    },
+    "hero_tracker_sample": {
+     "death_exact": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "beacon_exact": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "capture_exact": {
+      "2": 1,
+      "4": 1,
+      "8": 1
+     },
+     "death_to_beacon": {
+      "2": 1,
+      "4": 4,
+      "8": 4
+     },
+     "prior_second": {
+      "2": 1,
+      "4": 3,
+      "8": 3
+     },
+     "prior_15_seconds": {
+      "2": 11,
+      "4": 17,
+      "8": 23
+     }
+    },
+    "hero_death_stat": {
+     "death_exact": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "beacon_exact": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "capture_exact": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "death_to_beacon": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "prior_second": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "prior_15_seconds": {
+      "2": 0,
+      "4": 1,
+      "8": 2
+     }
+    },
+    "hero_unit_death": {
+     "death_exact": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "beacon_exact": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "capture_exact": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "death_to_beacon": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "prior_second": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "prior_15_seconds": {
+      "2": 0,
+      "4": 0,
+      "8": 2
+     }
+    },
+    "command_destination": {
+     "death_exact": {
+      "2": 4,
+      "4": 8,
+      "8": 9
+     },
+     "beacon_exact": {
+      "2": 2,
+      "4": 2,
+      "8": 5
+     },
+     "capture_exact": {
+      "2": 4,
+      "4": 5,
+      "8": 6
+     },
+     "death_to_beacon": {
+      "2": 20,
+      "4": 20,
+      "8": 20
+     },
+     "prior_second": {
+      "2": 13,
+      "4": 16,
+      "8": 16
+     },
+     "prior_15_seconds": {
+      "2": 25,
+      "4": 26,
+      "8": 26
+     }
+    },
+    "unit_target_location_by_issuer": {
+     "death_exact": {
+      "2": 4,
+      "4": 7,
+      "8": 7
+     },
+     "beacon_exact": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "capture_exact": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "death_to_beacon": {
+      "2": 6,
+      "4": 12,
+      "8": 12
+     },
+     "prior_second": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "prior_15_seconds": {
+      "2": 22,
+      "4": 26,
+      "8": 26
+     }
+    },
+    "targeted_live_hero_snapshot": {
+     "death_exact": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "beacon_exact": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "capture_exact": {
+      "2": 1,
+      "4": 1,
+      "8": 1
+     },
+     "death_to_beacon": {
+      "2": 0,
+      "4": 1,
+      "8": 1
+     },
+     "prior_second": {
+      "2": 1,
+      "4": 1,
+      "8": 1
+     },
+     "prior_15_seconds": {
+      "2": 3,
+      "4": 5,
+      "8": 6
+     }
+    }
+   },
+   "last_defender_credits_same_team": 26,
+   "exactly_credited_live_primary_body": 26,
+   "hostile_dummy_at_final_death_by_camp": {
+    "1": 7,
+    "3": 8
+   },
+   "delay_from_final_death_to_stat_loop": {
+    "25": 16,
+    "27": 2,
+    "29": 2,
+    "30": 1,
+    "31": 1,
+    "33": 1,
+    "38": 1,
+    "39": 1,
+    "40": 1
+   },
+   "killer_position": {
+    "hero_tracker_sample": {
+     "credited_killer_inside_four_between_death_and_beacon": 4,
+     "another_winning_body_inside_four_between_death_and_beacon": 1,
+     "credited_killer_seen_outside_eight_at_capture": 0
+    },
+    "targeted_live_hero_snapshot": {
+     "credited_killer_inside_four_between_death_and_beacon": 1,
+     "another_winning_body_inside_four_between_death_and_beacon": 0,
+     "credited_killer_seen_outside_eight_at_capture": 0
+    }
+   }
+  },
+  "all": {
+   "captures": 39,
+   "by_camp_within_four": {
+    "1": {
+     "captures": 10,
+     "death_exact": 0,
+     "beacon_exact": 0,
+     "capture_exact": 0,
+     "death_to_beacon": 3,
+     "prior_15_seconds": 5
+    },
+    "2": {
+     "captures": 3,
+     "death_exact": 0,
+     "beacon_exact": 0,
+     "capture_exact": 0,
+     "death_to_beacon": 1,
+     "prior_15_seconds": 2
+    },
+    "3": {
+     "captures": 12,
+     "death_exact": 0,
+     "beacon_exact": 0,
+     "capture_exact": 1,
+     "death_to_beacon": 0,
+     "prior_15_seconds": 8
+    },
+    "4": {
+     "captures": 7,
+     "death_exact": 0,
+     "beacon_exact": 0,
+     "capture_exact": 0,
+     "death_to_beacon": 2,
+     "prior_15_seconds": 6
+    },
+    "5": {
+     "captures": 7,
+     "death_exact": 0,
+     "beacon_exact": 0,
+     "capture_exact": 0,
+     "death_to_beacon": 0,
+     "prior_15_seconds": 6
+    }
+   },
+   "capturing_team_position_or_command_counts": {
+    "hero_birth_revive": {
+     "death_exact": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "beacon_exact": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "capture_exact": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "death_to_beacon": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "prior_second": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "prior_15_seconds": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     }
+    },
+    "hero_unit_death": {
+     "death_exact": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "beacon_exact": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "capture_exact": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "death_to_beacon": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "prior_second": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "prior_15_seconds": {
+      "2": 0,
+      "4": 0,
+      "8": 2
+     }
+    },
+    "hero_death_stat": {
+     "death_exact": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "beacon_exact": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "capture_exact": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "death_to_beacon": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "prior_second": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "prior_15_seconds": {
+      "2": 0,
+      "4": 1,
+      "8": 2
+     }
+    },
+    "hero_tracker_sample": {
+     "death_exact": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "beacon_exact": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "capture_exact": {
+      "2": 1,
+      "4": 1,
+      "8": 1
+     },
+     "death_to_beacon": {
+      "2": 2,
+      "4": 6,
+      "8": 6
+     },
+     "prior_second": {
+      "2": 2,
+      "4": 5,
+      "8": 5
+     },
+     "prior_15_seconds": {
+      "2": 19,
+      "4": 27,
+      "8": 35
+     }
+    },
+    "command_destination": {
+     "death_exact": {
+      "2": 4,
+      "4": 8,
+      "8": 9
+     },
+     "beacon_exact": {
+      "2": 2,
+      "4": 2,
+      "8": 5
+     },
+     "capture_exact": {
+      "2": 5,
+      "4": 6,
+      "8": 7
+     },
+     "death_to_beacon": {
+      "2": 27,
+      "4": 27,
+      "8": 27
+     },
+     "prior_second": {
+      "2": 17,
+      "4": 21,
+      "8": 21
+     },
+     "prior_15_seconds": {
+      "2": 37,
+      "4": 39,
+      "8": 39
+     }
+    },
+    "unit_target_location_by_issuer": {
+     "death_exact": {
+      "2": 5,
+      "4": 9,
+      "8": 9
+     },
+     "beacon_exact": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "capture_exact": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "death_to_beacon": {
+      "2": 8,
+      "4": 16,
+      "8": 16
+     },
+     "prior_second": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "prior_15_seconds": {
+      "2": 34,
+      "4": 39,
+      "8": 39
+     }
+    },
+    "targeted_live_hero_snapshot": {
+     "death_exact": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "beacon_exact": {
+      "2": 0,
+      "4": 0,
+      "8": 0
+     },
+     "capture_exact": {
+      "2": 1,
+      "4": 1,
+      "8": 1
+     },
+     "death_to_beacon": {
+      "2": 0,
+      "4": 1,
+      "8": 1
+     },
+     "prior_second": {
+      "2": 1,
+      "4": 1,
+      "8": 1
+     },
+     "prior_15_seconds": {
+      "2": 4,
+      "4": 6,
+      "8": 7
+     }
+    }
+   },
+   "last_defender_credits_same_team": 39,
+   "exactly_credited_live_primary_body": 39,
+   "hostile_dummy_at_final_death_by_camp": {
+    "1": 10,
+    "3": 12
+   },
+   "delay_from_final_death_to_stat_loop": {
+    "25": 27,
+    "27": 2,
+    "29": 3,
+    "30": 1,
+    "31": 1,
+    "33": 1,
+    "38": 1,
+    "39": 1,
+    "40": 2
+   },
+   "killer_position": {
+    "hero_tracker_sample": {
+     "credited_killer_inside_four_between_death_and_beacon": 6,
+     "another_winning_body_inside_four_between_death_and_beacon": 1,
+     "credited_killer_seen_outside_eight_at_capture": 0
+    },
+    "targeted_live_hero_snapshot": {
+     "credited_killer_inside_four_between_death_and_beacon": 1,
+     "another_winning_body_inside_four_between_death_and_beacon": 0,
+     "credited_killer_seen_outside_eight_at_capture": 0
+    }
+   }
+  }
+ }
+}
