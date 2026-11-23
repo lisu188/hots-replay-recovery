@@ -1,0 +1,169 @@
+{
+  "physical_fixtures": [
+    {
+      "source_url": "https://raw.githubusercontent.com/HeroesReplay/HeroesReplay/57d9ddec37245ac3068b7a39b5bf795806735d99/src/HeroesReplay.Tests/Assets/hour-long-replay-provided-by-mgatner.StormReplay",
+      "archive_bytes": 2268776,
+      "archive_sha256": "55ac72260033a80d14580a147194bb372444907cde939e6ab54316dd19ec2916",
+      "build": 75589,
+      "map": "Garden of Terror",
+      "amm": true,
+      "amm_id": 50001,
+      "loop_zero_frames": 198,
+      "loop_zero_bytes": 11871,
+      "loop_zero_sha256": "3d95317f3850369b6a6440ade1025f7876b1bd8dcd680ac2d646f7d67a5220d6",
+      "loop_zero_runs": [
+        [
+          9,
+          10
+        ],
+        [
+          1,
+          132
+        ],
+        [
+          5,
+          15
+        ],
+        [
+          1,
+          12
+        ],
+        [
+          10,
+          29
+        ]
+      ],
+      "exact_target_qm": false
+    },
+    {
+      "source_url": "https://raw.githubusercontent.com/Arthrose/HotsReplayReader/3e94e39d3c170b593ce881f3f4f86f30656b303f/tools/2025-10-09%2021.52.51%20Hanamura%20Temple.StormReplay",
+      "archive_bytes": 1130873,
+      "archive_sha256": "8761d8bf33dd2a238b76bd73e3c24f35eaefff93462bde002f1793f63d68552e",
+      "build": 95301,
+      "map": "Hanamura Temple",
+      "amm": true,
+      "amm_id": 50001,
+      "loop_zero_frames": 188,
+      "loop_zero_bytes": 11167,
+      "loop_zero_sha256": "290b5ce82cec14e60befcdb6fbbede53e958a318803669f555b9e3f41d9ac1da",
+      "loop_zero_runs": [
+        [
+          9,
+          10
+        ],
+        [
+          1,
+          116
+        ],
+        [
+          5,
+          15
+        ],
+        [
+          1,
+          12
+        ],
+        [
+          10,
+          25
+        ],
+        [
+          5,
+          10
+        ]
+      ],
+      "exact_target_qm": false
+    },
+    {
+      "source_url": "https://raw.githubusercontent.com/astefanski1/storm-parser/28e7e2430037c184b4a982537086824eb831af65/tests/replays/2025-08-17%2019.40.18%20Dragon%20Shire.StormReplay",
+      "archive_bytes": 879750,
+      "archive_sha256": "7a27e561c11c569ecb802799f9b158785145a5b36f3a7460c3be7fe0400692c2",
+      "build": 94786,
+      "map": "Dragon Shire",
+      "amm": true,
+      "amm_id": 50091,
+      "loop_zero_frames": 245,
+      "loop_zero_bytes": 13832,
+      "loop_zero_sha256": "013b35a3eec8a738bdf87a8f910205f217ae2124a5c1824b7da70fac6bdd01a2",
+      "loop_zero_runs": [
+        [
+          9,
+          10
+        ],
+        [
+          13,
+          4
+        ],
+        [
+          14,
+          5
+        ],
+        [
+          13,
+          2
+        ],
+        [
+          14,
+          5
+        ],
+        [
+          1,
+          154
+        ],
+        [
+          5,
+          15
+        ],
+        [
+          1,
+          12
+        ],
+        [
+          10,
+          28
+        ],
+        [
+          5,
+          10
+        ]
+      ],
+      "exact_target_qm": false
+    },
+    {
+      "source_url": "https://raw.githubusercontent.com/matella/storm-codex/a325597a57698387afcf34f86607f3a61fa773ba/crates/storm-replay-viewer/tests/data/silver-city-aram.StormReplay",
+      "archive_bytes": 581131,
+      "archive_sha256": "29aee1cf058ac729f9a73012cb2bc99e0f952e89d78e7f92aaea4eddb093d326",
+      "build": 93810,
+      "map": "Silver City",
+      "amm": true,
+      "amm_id": 50101,
+      "loop_zero_frames": 141,
+      "loop_zero_bytes": 8222,
+      "loop_zero_sha256": "98bc19b2e638c0387b2470b97115ce1c17d20e3678ac462567c20278a17e8999",
+      "loop_zero_runs": [
+        [
+          9,
+          10
+        ],
+        [
+          1,
+          95
+        ],
+        [
+          5,
+          15
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          10,
+          17
+        ]
+      ],
+      "exact_target_qm": false
+    }
+  ],
+  "verified_target_quick_matches": 0
+}
