@@ -1,0 +1,485 @@
+{
+  "scope": "Same-user historical update-to-manager relation with historical positive and current negative controls.",
+  "source": {
+    "build": 41810,
+    "replay_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+    "game_sha256": "ea69dd77edd02f3ed2c42a2def1faab6dc4d0eb46da291c44f76bfb49a65eed6",
+    "updates": {
+      "104": {
+        "absent": 22018,
+        "unpaired_absent": 15668,
+        "paired_absent": 6350,
+        "paired_matched": 17240,
+        "present": 10890,
+        "paired_present": 10890
+      },
+      "105": {
+        "present": 4579,
+        "paired_present": 4579,
+        "paired_matched": 6779,
+        "absent": 6272,
+        "paired_absent": 2200,
+        "unpaired_absent": 4072
+      }
+    },
+    "manager_state_counts": {
+      "0": 17111,
+      "2": 14989,
+      "1": 1446
+    },
+    "full_game_equal": true,
+    "reencoded_with_recovered_pairs": true
+  },
+  "historical_controls": [
+    {
+      "build": 41810,
+      "replay_sha256": "7efa1c335816eebe802747ae4b16252ed22fcd8387b09d24b115b2917542b52a",
+      "game_sha256": "6267487f589c4db643ff4d3b7abc061af0b61552c7a2de9e86c8508406ca4daf",
+      "updates": {
+        "104": {
+          "absent": 40490,
+          "unpaired_absent": 32346,
+          "paired_absent": 8144,
+          "paired_matched": 22297,
+          "present": 14171,
+          "paired_present": 14153,
+          "unpaired_present": 18
+        },
+        "105": {
+          "present": 5761,
+          "paired_present": 5761,
+          "paired_matched": 8467,
+          "absent": 7201,
+          "unpaired_absent": 4495,
+          "paired_absent": 2706
+        }
+      },
+      "manager_state_counts": {
+        "0": 22300,
+        "2": 19237,
+        "1": 2407
+      },
+      "full_game_equal": true,
+      "reencoded_with_recovered_pairs": true
+    },
+    {
+      "build": 41810,
+      "replay_sha256": "2fca3c78d0e459d4452e3fb1f41ff3fce22b9c1f8f113019389195ff171bf618",
+      "game_sha256": "55d2cbddda60b683d07ed9a21ffe84ca55422ef9a8aa724969f9a359a6d65f28",
+      "updates": {
+        "104": {
+          "absent": 36920,
+          "unpaired_absent": 30665,
+          "paired_absent": 6255,
+          "paired_matched": 16609,
+          "present": 10360,
+          "paired_present": 10354,
+          "unpaired_present": 6
+        },
+        "105": {
+          "present": 4681,
+          "paired_present": 4681,
+          "paired_matched": 7514,
+          "absent": 7304,
+          "unpaired_absent": 4471,
+          "paired_absent": 2833
+        }
+      },
+      "manager_state_counts": {
+        "0": 17458,
+        "2": 15201,
+        "1": 977
+      },
+      "full_game_equal": true,
+      "reencoded_with_recovered_pairs": true
+    },
+    {
+      "build": 41810,
+      "replay_sha256": "8c4fb83989b528ea3227f6c97758293d1f650e33caa3d38c6a2a84d27ab0850d",
+      "game_sha256": "541239128ab928fa794b083f997966fb2d56fe8e5972a88a0a9039ad501e4afb",
+      "updates": {
+        "104": {
+          "absent": 17989,
+          "unpaired_absent": 12536,
+          "paired_absent": 5453,
+          "paired_matched": 14469,
+          "present": 9016,
+          "paired_present": 9016
+        },
+        "105": {
+          "present": 2797,
+          "paired_present": 2797,
+          "paired_matched": 4531,
+          "absent": 4851,
+          "unpaired_absent": 3117,
+          "paired_absent": 1734
+        }
+      },
+      "manager_state_counts": {
+        "0": 13600,
+        "2": 12181,
+        "1": 288
+      },
+      "full_game_equal": true,
+      "reencoded_with_recovered_pairs": true
+    }
+  ],
+  "current_controls": [
+    {
+      "build": 98348,
+      "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+      "game_sha256": "8fe55ded03f0351290beba9f8d2b519c549d1cf32fd7bec7d04205a71510b5ee",
+      "updates": {
+        "104": {
+          "present": 41184,
+          "unpaired_present": 34697,
+          "paired_present": 6487,
+          "paired_matched": 6437,
+          "paired_different": 50
+        },
+        "105": {
+          "present": 166,
+          "paired_present": 65,
+          "paired_matched": 63,
+          "unpaired_present": 101,
+          "paired_different": 2
+        }
+      },
+      "manager_state_counts": {
+        "0": 17478
+      },
+      "full_game_equal": true,
+      "reencoded_with_recovered_pairs": false
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+      "game_sha256": "9ffd36eb1dd1d467bf456e2c4ab51e97d4b3437dd690bcad81f5f6e440757fe5",
+      "updates": {
+        "104": {
+          "present": 42718,
+          "paired_present": 9453,
+          "paired_matched": 9403,
+          "unpaired_present": 33265,
+          "paired_different": 50
+        },
+        "105": {
+          "present": 109,
+          "paired_present": 43,
+          "paired_matched": 43,
+          "unpaired_present": 66
+        }
+      },
+      "manager_state_counts": {
+        "0": 30999
+      },
+      "full_game_equal": true,
+      "reencoded_with_recovered_pairs": false
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+      "game_sha256": "e83eae7da8008b5263abe73c60aab5ef9af03096935707fb12752f1392bdaffd",
+      "updates": {
+        "104": {
+          "present": 41810,
+          "unpaired_present": 35085,
+          "paired_present": 6725,
+          "paired_matched": 6604,
+          "paired_different": 121
+        },
+        "105": {
+          "present": 126,
+          "unpaired_present": 95,
+          "paired_present": 31,
+          "paired_matched": 31
+        }
+      },
+      "manager_state_counts": {
+        "0": 19908
+      },
+      "full_game_equal": true,
+      "reencoded_with_recovered_pairs": false
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+      "game_sha256": "90732412a482ea008ebf99469c1892ab2b36f876aa40060648b33de72c11d452",
+      "updates": {
+        "104": {
+          "present": 53064,
+          "unpaired_present": 46545,
+          "paired_present": 6519,
+          "paired_matched": 6484,
+          "paired_different": 35
+        },
+        "105": {
+          "present": 211,
+          "paired_present": 83,
+          "paired_matched": 83,
+          "unpaired_present": 128
+        }
+      },
+      "manager_state_counts": {
+        "0": 23990
+      },
+      "full_game_equal": true,
+      "reencoded_with_recovered_pairs": false
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+      "game_sha256": "2a6c720487fe31eecc299ec2093935f0c89e7c29ac35f4206cabe0161329fe9e",
+      "updates": {
+        "104": {
+          "present": 27624,
+          "paired_present": 5361,
+          "paired_matched": 5349,
+          "unpaired_present": 22263,
+          "paired_different": 12
+        },
+        "105": {
+          "present": 99,
+          "unpaired_present": 61,
+          "paired_present": 38,
+          "paired_matched": 36,
+          "paired_different": 2
+        }
+      },
+      "manager_state_counts": {
+        "0": 15100
+      },
+      "full_game_equal": true,
+      "reencoded_with_recovered_pairs": false
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+      "game_sha256": "24ab440e4af8eef3d55713fb9e77ec796cb2b092724480856af9605b2b6bf821",
+      "updates": {
+        "104": {
+          "present": 38705,
+          "unpaired_present": 27541,
+          "paired_present": 11164,
+          "paired_matched": 11124,
+          "paired_different": 40
+        },
+        "105": {
+          "present": 202,
+          "unpaired_present": 121,
+          "paired_present": 81,
+          "paired_matched": 80,
+          "paired_different": 1
+        }
+      },
+      "manager_state_counts": {
+        "0": 31966
+      },
+      "full_game_equal": true,
+      "reencoded_with_recovered_pairs": false
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+      "game_sha256": "6a08faa8a777b7e95c768becafeb91dc354deb613b08b9570e7202d5c6f4324c",
+      "updates": {
+        "104": {
+          "present": 47629,
+          "paired_present": 12326,
+          "paired_matched": 12253,
+          "unpaired_present": 35303,
+          "paired_different": 73
+        },
+        "105": {
+          "present": 260,
+          "paired_present": 105,
+          "paired_matched": 102,
+          "unpaired_present": 155,
+          "paired_different": 3
+        }
+      },
+      "manager_state_counts": {
+        "0": 32851
+      },
+      "full_game_equal": true,
+      "reencoded_with_recovered_pairs": false
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+      "game_sha256": "ba7e0014bd0cacfec8a57ad1b2d9e0b6ddee22c306d8c37a582399f4a045139f",
+      "updates": {
+        "104": {
+          "present": 46042,
+          "unpaired_present": 37923,
+          "paired_present": 8119,
+          "paired_matched": 8064,
+          "paired_different": 55
+        },
+        "105": {
+          "present": 193,
+          "unpaired_present": 112,
+          "paired_present": 81,
+          "paired_matched": 81
+        }
+      },
+      "manager_state_counts": {
+        "0": 25804
+      },
+      "full_game_equal": true,
+      "reencoded_with_recovered_pairs": false
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+      "game_sha256": "e7486f697a63a3235a9c401fd87e56413f1883c92f46d496fe516b2e2d3aaca9",
+      "updates": {
+        "104": {
+          "present": 33623,
+          "unpaired_present": 25624,
+          "paired_present": 7999,
+          "paired_matched": 7958,
+          "paired_different": 41
+        },
+        "105": {
+          "present": 177,
+          "paired_present": 86,
+          "paired_matched": 86,
+          "unpaired_present": 91
+        }
+      },
+      "manager_state_counts": {
+        "0": 20515
+      },
+      "full_game_equal": true,
+      "reencoded_with_recovered_pairs": false
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+      "game_sha256": "6a69a13b0c0482b8df027885c568fc883d86878c0dde7b568198d9ba6716ef45",
+      "updates": {
+        "104": {
+          "present": 33067,
+          "unpaired_present": 25202,
+          "paired_present": 7865,
+          "paired_matched": 7841,
+          "paired_different": 24
+        },
+        "105": {
+          "present": 113,
+          "paired_present": 44,
+          "paired_matched": 44,
+          "unpaired_present": 69
+        }
+      },
+      "manager_state_counts": {
+        "0": 22760
+      },
+      "full_game_equal": true,
+      "reencoded_with_recovered_pairs": false
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+      "game_sha256": "10f03d67999fdd5bdedde2456aa25859e57fc019984559450403b9b5db207eeb",
+      "updates": {
+        "104": {
+          "present": 52810,
+          "paired_present": 7217,
+          "paired_matched": 7199,
+          "unpaired_present": 45593,
+          "paired_different": 18
+        },
+        "105": {
+          "present": 132,
+          "paired_present": 42,
+          "paired_matched": 42,
+          "unpaired_present": 90
+        }
+      },
+      "manager_state_counts": {
+        "0": 25292
+      },
+      "full_game_equal": true,
+      "reencoded_with_recovered_pairs": false
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77",
+      "game_sha256": "fe3105664f740210c0d0facd986b46296246f233e41410552277dbfece3c8fe0",
+      "updates": {
+        "104": {
+          "present": 44791,
+          "paired_present": 10287,
+          "paired_matched": 10237,
+          "unpaired_present": 34504,
+          "paired_different": 50
+        },
+        "105": {
+          "present": 299,
+          "unpaired_present": 170,
+          "paired_present": 129,
+          "paired_matched": 128,
+          "paired_different": 1
+        }
+      },
+      "manager_state_counts": {
+        "0": 29335
+      },
+      "full_game_equal": true,
+      "reencoded_with_recovered_pairs": false
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "a956b186a0459a47d9b0fdd8af4ccb65c437f11926186471c434e543e218b2d7",
+      "game_sha256": "221b343574b91cea563b3fc3011a160e8455e21a8e289f91ff7cdf4b3b3b2f95",
+      "updates": {
+        "104": {
+          "present": 32703,
+          "paired_present": 6185,
+          "paired_matched": 6142,
+          "unpaired_present": 26518,
+          "paired_different": 43
+        },
+        "105": {
+          "present": 153,
+          "paired_present": 88,
+          "paired_matched": 86,
+          "unpaired_present": 65,
+          "paired_different": 2
+        }
+      },
+      "manager_state_counts": {
+        "0": 17012
+      },
+      "full_game_equal": true,
+      "reencoded_with_recovered_pairs": false
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "bc16af7f68496cddc4698f70b3853402a0f30aa37951aec3a6b555ed703879e8",
+      "game_sha256": "562b6304dfd541ed3ed8c6b1084b63217e5b3d0df477c2eb73c0594c5a47613c",
+      "updates": {
+        "104": {
+          "present": 63284,
+          "unpaired_present": 52945,
+          "paired_present": 10339,
+          "paired_matched": 10289,
+          "paired_different": 50
+        },
+        "105": {
+          "present": 202,
+          "unpaired_present": 117,
+          "paired_present": 85,
+          "paired_matched": 85
+        }
+      },
+      "manager_state_counts": {
+        "0": 31653
+      },
+      "full_game_equal": true,
+      "reencoded_with_recovered_pairs": false
+    }
+  ]
+}
