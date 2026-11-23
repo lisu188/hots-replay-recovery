@@ -1,0 +1,50 @@
+{
+  "format": "historical-layout-building-command-xy-v1",
+  "source_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+  "original_map_sha256": "e0a58745837b3b5351015c933560dbffb178d747009d2d57b4153ef425cf7250",
+  "package_sha256": "662a90d5ea72c8454d66a1070b3200e6a2929f3d2069e2c07ecc07cfcc79b800",
+  "objects_bytes": 540292,
+  "objects_sha256": "5b1f268a147bc854a1d0321826f9e055f45aa690cb970f0e703c5e8cf01476a9",
+  "all_objects_identical": true,
+  "authored_unit_count": 165,
+  "source_target_commands": 12465,
+  "projected_source_commands": 2179,
+  "fractional_commands": 570,
+  "distinct_addressed_structures": 68,
+  "xy_changes": 0,
+  "row_columns": [
+    "game_ordinal",
+    "loop",
+    "object_id",
+    "x",
+    "y"
+  ],
+  "compact_rows_json_sha256": "9cfa8a1dbe50fed97167485590661060982a5aed5d2db586563910492050eccd",
+  "game_member_bytes": 1146911,
+  "game_member_sha256": "ea69dd77edd02f3ed2c42a2def1faab6dc4d0eb46da291c44f76bfb49a65eed6",
+  "reconstructed_source_game_byte_equal": true,
+  "source_mobile_counterexample": {
+    "type": "VehicleDragon",
+    "ordinal": 13580,
+    "loop": 2544,
+    "object_id": 275,
+    "predicted": [
+      507904,
+      454656
+    ],
+    "observed": [
+      489146,
+      418716
+    ]
+  },
+  "source_other_authored_position_disagreements": 73,
+  "converted_match_target_lifetimes_verified": false,
+  "native_playback_verified": false,
+  "stock_reference_sha256": "f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f",
+  "stock_layout_comparison": {
+    "same_xy": 1279,
+    "different_xy": 675,
+    "no_matching_id_type_owner_exact_xy": 225
+  },
+  "moved_stock_structures": 15
+}

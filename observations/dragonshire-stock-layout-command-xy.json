@@ -1,0 +1,37 @@
+{
+  "format": "dragon-shire-command-xy-layout-projection-v1",
+  "source_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+  "source_map": "e0a58745837b3b5351015c933560dbffb178d747009d2d57b4153ef425cf7250",
+  "target_map": "f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f",
+  "control_hashes": [
+    "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+    "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+    "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+    "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+    "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+    "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+    "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+    "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+    "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+    "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+    "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+    "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77"
+  ],
+  "source_commands_examined": 2179,
+  "counts": {
+    "xy_equal": 1272,
+    "xy_changes": 675,
+    "no_same_id_target_structure": 225,
+    "same_id_type_team_without_target_command_witness": 7
+  },
+  "projected_commands": 1947,
+  "distinct_objects": 57,
+  "distinct_moved_objects": 15,
+  "inverse_source_game_byte_equal": true,
+  "source_game_bytes": 1146911,
+  "source_game_sha256": "ea69dd77edd02f3ed2c42a2def1faab6dc4d0eb46da291c44f76bfb49a65eed6",
+  "projected_game_bytes_41810": 1146911,
+  "projected_game_sha256_41810": "2eb2774622b3d7fd46e7da104737e7410985ce8f2e2db794bdeca62f44746f64",
+  "converted_match_target_lifetimes_verified": false,
+  "xy_only": true
+}
