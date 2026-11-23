@@ -1,0 +1,21 @@
+{
+  "map_sha256": "e7ce5d12d5a93840a333a6e27b3f15d9cab9917be2e88d0040f19d638e4f9bbf",
+  "parent_map_sha256": "54e1a8fbe7e42f00b7b52cde420ed259105228fcdf165097ef52ecd0f5c4125a",
+  "unchanged_map_content_members": 69,
+  "parent_tracker_bytes": 15852,
+  "parent_tracker_sha256": "3c9ebfc479e391ea81746953ace5285f0253be514f0a7671d51dc1f5423bc4af",
+  "added_tracker_frames": 1,
+  "source_command_ordinal": 491,
+  "source_tracker_ordinal": 244,
+  "translated_selector": 0,
+  "award": "AnubarakMasteryExtendedSpikesImpale",
+  "last_tracker_loop": 103,
+  "next_source_tracker_loop": 134,
+  "next_source_tracker_event": "TalentChosen",
+  "frames": 267,
+  "bytes": 15965,
+  "sha256": "83e2bf4db5d7161246cbc65e4444011234f636dc21a37f269d37b98bd08d6a72",
+  "verified_target_syncs": 0,
+  "target_catalog_applied_at_runtime": false,
+  "historical_spell_geometry_verified": false
+}
