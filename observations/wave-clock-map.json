@@ -1,0 +1,36 @@
+{
+  "parent_sha256": "d41c5841a5719e76246265940d28b244bae91f4e3fef33e621f3a2e2a0ee7bbd",
+  "map_sha256": "f4d3b425cd9df5ed5390c45dc3c770300a64ba95449c82c228eed8b9928c7d6f",
+  "bytes": 2137204,
+  "script_sha256": "d8a61a9d7af2c851499ebbf49f8f429a864ef1b94ba08761269cead38f748560",
+  "unchanged_content_members": 69,
+  "callback_delay_seconds": 4.9375,
+  "wave_period_seconds": 30.0625,
+  "integrity": {
+    "content_members": 70,
+    "live_blocks": 72,
+    "raw_table_results": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "native_member_flags": {
+      "256": 1,
+      "336": 71
+    }
+  },
+  "native_playback_verified": false,
+  "two_builds_byte_identical": true,
+  "callback_harness": {
+    "map_sha256": "f4d3b425cd9df5ed5390c45dc3c770300a64ba95449c82c228eed8b9928c7d6f",
+    "preserved_parent_sha256": "d41c5841a5719e76246265940d28b244bae91f4e3fef33e621f3a2e2a0ee7bbd",
+    "callback_flag_combinations": 16,
+    "stock_duration_loops": 480,
+    "restored_duration_loops": 481,
+    "action_delay_loops": 79,
+    "native_execution_verified": false
+  }
+}
