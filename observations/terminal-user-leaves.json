@@ -1,0 +1,19 @@
+{
+  "ten": {
+    "build": 41810,
+    "last_game_loop": 19732,
+    "terminal_departures": 2,
+    "physical_bytes": 7,
+    "projected_bytes": 9,
+    "literal_chat_frames": 2
+  },
+  "original_ordinals": [
+    104255,
+    104256
+  ],
+  "controls": 24,
+  "matching_departures": 45,
+  "matching_bytes": 180,
+  "controls_with_qualifying_departures": 24,
+  "matching_literal_chat_frames": 191
+}

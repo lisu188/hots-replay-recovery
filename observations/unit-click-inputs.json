@@ -1,0 +1,531 @@
+{
+  "source": {
+    "build": 41810,
+    "replay_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+    "frames": 2756,
+    "states": {
+      "after_death": 18,
+      "prior_live": 2723,
+      "transition_tick": 15
+    },
+    "enclosing_bytes": 19292,
+    "enclosing_sha256": "964a72c773763eb6e3d5cc875c2c29a68193f7bdd2bb8348680a4846b6937a70",
+    "nonzero_frames": 2756,
+    "best_tracker_matches": 2756,
+    "best_tag_shifts": [
+      18
+    ]
+  },
+  "target_build": 98348,
+  "map_sha256": "bda7aafd1d63c77b3b4d29ff2afee96da09a3104b54b4a1d625bb299607d9008",
+  "cutoff": 19521,
+  "emitted": 1702,
+  "withheld": 1054,
+  "categories": {
+    "after_initial_placement_life": 24,
+    "first_dragon_vehicle": 13,
+    "historical_lifetime_boundary_or_inactive": 11,
+    "map_opening_generation": 333,
+    "postopening_allocation": 1019,
+    "primary_hero": 1356
+  },
+  "accepted_types": {
+    "DragonShireShrineSun": 6,
+    "HeroAnubarak": 309,
+    "HeroBarbarian": 102,
+    "HeroFaerieDragon": 218,
+    "HeroGreymane": 393,
+    "HeroKaelthas": 214,
+    "HeroNova": 50,
+    "HeroTyrande": 70,
+    "KingsCore": 12,
+    "TownCannonTowerL2": 55,
+    "TownCannonTowerL2Standalone": 49,
+    "TownCannonTowerL3": 29,
+    "TownCannonTowerL3Standalone": 12,
+    "TownGateL215BLUR": 1,
+    "TownGateL215BRUL": 16,
+    "TownGateL3BLURTLVisionBlocked": 5,
+    "TownGateL3BRULTRVisionBlocked": 8,
+    "TownGateL3VerticalRightVisionBlocked": 19,
+    "TownMoonwellL2": 2,
+    "TownTownHallL2": 64,
+    "TownTownHallL3": 24,
+    "TownWallRadial14L3": 7,
+    "TownWallRadial15L3": 1,
+    "TownWallRadial17L3": 6,
+    "TownWallRadial18L2": 1,
+    "TownWallRadial18L3": 1,
+    "TownWallRadial4L2": 11,
+    "TownWallRadial5L2": 4,
+    "VehicleDragon": 13
+  },
+  "withheld_types": {
+    "AbathurEvolvedMonstrosity": 15,
+    "AbathurLocustBombardStrain": 3,
+    "AbathurLocustNormal": 15,
+    "AbathurToxicNest": 44,
+    "AnubarakBeetleSpitBeetle": 10,
+    "FootmanMinion": 224,
+    "HeroAnubarak": 3,
+    "HeroGreymane": 3,
+    "HeroKaelthas": 2,
+    "MercDefenderSiegeGiant": 57,
+    "MercLanerMeleeKnight": 47,
+    "MercLanerRangedMage": 11,
+    "MercLanerSiegeGiant": 8,
+    "NovaHoloClone": 3,
+    "RangedMinion": 345,
+    "RegenGlobe": 3,
+    "TownCannonTowerDead": 25,
+    "TownGateL215BRUL": 1,
+    "TownWallRadial5L2": 1,
+    "VehicleDragon": 67,
+    "WizardMinion": 167
+  },
+  "bytes": 11985,
+  "sha256": "a10254710ebbab120fd4111d7024133c4341294d96e7834a6d6b121b9d5e98fb",
+  "ledger_sha256": "cefb03d0a7ad4dfc5160f0e9090a54b65f425cb9161db602225e3c5f2b180369",
+  "target_simulation_verified": false,
+  "controls": [
+    {
+      "build": 98348,
+      "replay_sha256": "1230eee79fd3b50a3ee471c587bc77dd14aef67d57bf22cd8df52e877329323a",
+      "frames": 1335,
+      "states": {
+        "after_death": 7,
+        "prior_live": 1318,
+        "transition_tick": 10
+      },
+      "enclosing_bytes": 9345,
+      "enclosing_sha256": "f20943b16cc59d709ebb48b18939e9154fa80b3cddfe394e5e9fa324f11d6f11",
+      "nonzero_frames": 1335,
+      "best_tracker_matches": 1335,
+      "best_tag_shifts": [
+        22
+      ]
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "4732077e899f6894c29586795a01e2a27fba622dbf22b5d29c7b30d57e3ce4fc",
+      "frames": 3372,
+      "states": {
+        "after_death": 27,
+        "prior_live": 3327,
+        "transition_tick": 18
+      },
+      "enclosing_bytes": 23604,
+      "enclosing_sha256": "6b2b175b57424a64a7b34a1138c62414ddf442aa0525a7c8b00f2757d04a2efc",
+      "nonzero_frames": 3372,
+      "best_tracker_matches": 3372,
+      "best_tag_shifts": [
+        22
+      ]
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+      "frames": 2106,
+      "states": {
+        "after_death": 10,
+        "prior_live": 2084,
+        "transition_tick": 12
+      },
+      "enclosing_bytes": 14742,
+      "enclosing_sha256": "a859cb2ee39288f5c00245a112ca5c56c5e90cc8a2097d9626e243e163f5fd63",
+      "nonzero_frames": 2106,
+      "best_tracker_matches": 2106,
+      "best_tag_shifts": [
+        22
+      ]
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+      "frames": 5857,
+      "states": {
+        "after_death": 22,
+        "prior_live": 5810,
+        "transition_tick": 25
+      },
+      "enclosing_bytes": 40999,
+      "enclosing_sha256": "953697b5da6690951affa0bbeed0d67b3c053f8a4c320ea4ca69aac61b46d5e8",
+      "nonzero_frames": 5857,
+      "best_tracker_matches": 5857,
+      "best_tag_shifts": [
+        22
+      ]
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+      "frames": 1086,
+      "states": {
+        "after_death": 3,
+        "prior_live": 1079,
+        "transition_tick": 4
+      },
+      "enclosing_bytes": 7602,
+      "enclosing_sha256": "b029b654bf51a845f65ed3c1b795249ae34e48f85d499b43daf0e6a69ae13127",
+      "nonzero_frames": 1086,
+      "best_tracker_matches": 1086,
+      "best_tag_shifts": [
+        22
+      ]
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "715e309bba5d3151d3e1b47461041627db7644d91a8b549c309950e44d6067e8",
+      "frames": 1158,
+      "states": {
+        "after_death": 1,
+        "prior_live": 1155,
+        "transition_tick": 2
+      },
+      "enclosing_bytes": 8106,
+      "enclosing_sha256": "00efd3e50246b1dc0c91813eb4def99e14a4448c0958668756c20bcf4b592ed5",
+      "nonzero_frames": 1158,
+      "best_tracker_matches": 1158,
+      "best_tag_shifts": [
+        22
+      ]
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+      "frames": 1595,
+      "states": {
+        "after_death": 5,
+        "prior_live": 1585,
+        "transition_tick": 5
+      },
+      "enclosing_bytes": 11165,
+      "enclosing_sha256": "e2084f95e7bd68f61ab11fa6400dec16be319e97bd5bb3c5ac323ad465da4eeb",
+      "nonzero_frames": 1595,
+      "best_tracker_matches": 1595,
+      "best_tag_shifts": [
+        22
+      ]
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+      "frames": 741,
+      "states": {
+        "after_death": 7,
+        "prior_live": 730,
+        "transition_tick": 4
+      },
+      "enclosing_bytes": 5187,
+      "enclosing_sha256": "4fa9c95e24e4b1417406b7923b8626e1dd4bd36208225e251238cc5fc0009192",
+      "nonzero_frames": 741,
+      "best_tracker_matches": 741,
+      "best_tag_shifts": [
+        22
+      ]
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+      "frames": 1784,
+      "states": {
+        "after_death": 10,
+        "prior_live": 1760,
+        "transition_tick": 14
+      },
+      "enclosing_bytes": 12488,
+      "enclosing_sha256": "0f6f1ce9a67f0ecc9e5cc63c614b545ec590ef180375502affe46b461a17b085",
+      "nonzero_frames": 1784,
+      "best_tracker_matches": 1784,
+      "best_tag_shifts": [
+        22
+      ]
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+      "frames": 418,
+      "states": {
+        "after_death": 2,
+        "prior_live": 412,
+        "transition_tick": 4
+      },
+      "enclosing_bytes": 2926,
+      "enclosing_sha256": "bfce687e8437e5976ca822c4cd1ba921d94786a5e8b1b27b42f0880ac8bfd66e",
+      "nonzero_frames": 418,
+      "best_tracker_matches": 418,
+      "best_tag_shifts": [
+        22
+      ]
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+      "frames": 1099,
+      "states": {
+        "after_death": 2,
+        "prior_live": 1093,
+        "transition_tick": 4
+      },
+      "enclosing_bytes": 7693,
+      "enclosing_sha256": "588982676912a6cf6d31b973c02b37b03a98275e6d65a7323af90dcf167104d7",
+      "nonzero_frames": 1099,
+      "best_tracker_matches": 1099,
+      "best_tag_shifts": [
+        22
+      ]
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "9872b043e48093abc65e11b7b6d091861e83fc4d202b40b745824da647cb6ef3",
+      "frames": 609,
+      "states": {
+        "after_death": 8,
+        "prior_live": 594,
+        "transition_tick": 7
+      },
+      "enclosing_bytes": 4263,
+      "enclosing_sha256": "0ff7613c07f4b9312abf6f5cbb17ae91204a62b135fa7685ab4df52eb944d91f",
+      "nonzero_frames": 609,
+      "best_tracker_matches": 609,
+      "best_tag_shifts": [
+        22
+      ]
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "98ac891fa4fb8e1698e5fc35609fcf75abfe7e89aee9c7f05afff93b10338ab3",
+      "frames": 808,
+      "states": {
+        "after_death": 7,
+        "prior_live": 796,
+        "transition_tick": 5
+      },
+      "enclosing_bytes": 5656,
+      "enclosing_sha256": "5e2f9cc7f79eb60d213b681cf77eadffa0a9d30eb716696608a6722e405941d4",
+      "nonzero_frames": 808,
+      "best_tracker_matches": 808,
+      "best_tag_shifts": [
+        22
+      ]
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4",
+      "frames": 445,
+      "states": {
+        "after_death": 2,
+        "prior_live": 440,
+        "transition_tick": 3
+      },
+      "enclosing_bytes": 3115,
+      "enclosing_sha256": "46c65a85128c5db2bae91442c252d7f638fe43fdf26aeef4099306157118e584",
+      "nonzero_frames": 445,
+      "best_tracker_matches": 445,
+      "best_tag_shifts": [
+        22
+      ]
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "a956b186a0459a47d9b0fdd8af4ccb65c437f11926186471c434e543e218b2d7",
+      "frames": 322,
+      "states": {
+        "prior_live": 321,
+        "transition_tick": 1
+      },
+      "enclosing_bytes": 2254,
+      "enclosing_sha256": "dd66131fc9dcce8083c07861ce6528384e5a6d45dcc85d3bf3285faf0ecd9d40",
+      "nonzero_frames": 322,
+      "best_tracker_matches": 322,
+      "best_tag_shifts": [
+        22
+      ]
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "afcf49a656068f343173fc79afff2d2ebf15066f531cb192382cdba9d1ea3272",
+      "frames": 398,
+      "states": {
+        "after_death": 1,
+        "prior_live": 396,
+        "transition_tick": 1
+      },
+      "enclosing_bytes": 2786,
+      "enclosing_sha256": "54a8446b5c337db2b24d9ec91c65d009f0e6b2e01129ab99cfa45197c5f22a0b",
+      "nonzero_frames": 398,
+      "best_tracker_matches": 398,
+      "best_tag_shifts": [
+        22
+      ]
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+      "frames": 2442,
+      "states": {
+        "after_death": 10,
+        "prior_live": 2422,
+        "transition_tick": 10
+      },
+      "enclosing_bytes": 17094,
+      "enclosing_sha256": "bae08aa5d4d63865e7f919362a12a1e832e95b225a7edfe95e3189488192f7c0",
+      "nonzero_frames": 2442,
+      "best_tracker_matches": 2442,
+      "best_tag_shifts": [
+        22
+      ]
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "bc16af7f68496cddc4698f70b3853402a0f30aa37951aec3a6b555ed703879e8",
+      "frames": 4901,
+      "states": {
+        "after_death": 28,
+        "prior_live": 4844,
+        "transition_tick": 29
+      },
+      "enclosing_bytes": 34307,
+      "enclosing_sha256": "f9969fc5bafcce72b67c9a51f77ef1b6f1b24a723294ff1aefc06f8000f98dbe",
+      "nonzero_frames": 4901,
+      "best_tracker_matches": 4901,
+      "best_tag_shifts": [
+        22
+      ]
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77",
+      "frames": 1188,
+      "states": {
+        "after_death": 4,
+        "prior_live": 1179,
+        "transition_tick": 5
+      },
+      "enclosing_bytes": 8316,
+      "enclosing_sha256": "7b7606cda10302e42b09eff7a1609f466cdb5df1dd70cfcc2cca40e56d610c3b",
+      "nonzero_frames": 1188,
+      "best_tracker_matches": 1188,
+      "best_tag_shifts": [
+        22
+      ]
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "d41417f0fd11a1d512e30fa77882bdebf220432bd7e9412b40440cb79a7c9cec",
+      "frames": 3992,
+      "states": {
+        "after_death": 32,
+        "prior_live": 3938,
+        "transition_tick": 22
+      },
+      "enclosing_bytes": 27944,
+      "enclosing_sha256": "ed106d23538d14a899861c510e8daecc62d8c58dde0f379201e43a8a62e77f45",
+      "nonzero_frames": 3992,
+      "best_tracker_matches": 3992,
+      "best_tag_shifts": [
+        22
+      ]
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "db40f495edb70b2127b97cae4f479de19e18e61b2a5a0e0413052b571e1dbf7e",
+      "frames": 1703,
+      "states": {
+        "after_death": 14,
+        "prior_live": 1677,
+        "transition_tick": 12
+      },
+      "enclosing_bytes": 11921,
+      "enclosing_sha256": "c41725505f81ed2914c80263b138bb0f60d2a7256bfca535129cdddeecdd3fc8",
+      "nonzero_frames": 1703,
+      "best_tracker_matches": 1703,
+      "best_tag_shifts": [
+        22
+      ]
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+      "frames": 2624,
+      "states": {
+        "after_death": 14,
+        "prior_live": 2595,
+        "transition_tick": 15
+      },
+      "enclosing_bytes": 18368,
+      "enclosing_sha256": "c0c28499b441b8ad3eae5343497d04f1a3a1a1fab710158302acf1ef3898e5e0",
+      "nonzero_frames": 2624,
+      "best_tracker_matches": 2624,
+      "best_tag_shifts": [
+        22
+      ]
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+      "frames": 1896,
+      "states": {
+        "after_death": 7,
+        "prior_live": 1880,
+        "transition_tick": 9
+      },
+      "enclosing_bytes": 13272,
+      "enclosing_sha256": "6963d4b8477a79162d85a3807fe75abd5046d6dcf0d972e9e3052eac44c1664c",
+      "nonzero_frames": 1896,
+      "best_tracker_matches": 1896,
+      "best_tag_shifts": [
+        22
+      ]
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "fe801daf9df44f10db2b950989308c8ee2fa55c03b4adfef7ac383b4d46583bf",
+      "frames": 109,
+      "states": {
+        "prior_live": 108,
+        "transition_tick": 1
+      },
+      "enclosing_bytes": 763,
+      "enclosing_sha256": "7911c6684291593545bd207f6e64ce965e73d849679bace3bcff21126a75c69c",
+      "nonzero_frames": 109,
+      "best_tracker_matches": 109,
+      "best_tag_shifts": [
+        22
+      ]
+    }
+  ],
+  "target_physical_frames": 41988,
+  "target_physical_bytes": 293916,
+  "target_prior_live_clicks_by_projected_type": {
+    "DragonShireShrineSun": 27,
+    "HeroAnubarak": 657,
+    "HeroBarbarian": 343,
+    "HeroFaerieDragon": 288,
+    "HeroGreymane": 196,
+    "HeroKaelthas": 56,
+    "HeroNova": 71,
+    "HeroTyrande": 125,
+    "KingsCore": 652,
+    "TownCannonTowerL2": 797,
+    "TownCannonTowerL2Standalone": 0,
+    "TownCannonTowerL3": 535,
+    "TownCannonTowerL3Standalone": 1,
+    "TownGateL215BLUR": 92,
+    "TownGateL215BRUL": 81,
+    "TownGateL3BLURTLVisionBlocked": 6,
+    "TownGateL3BRULTRVisionBlocked": 71,
+    "TownGateL3VerticalRightVisionBlocked": 36,
+    "TownMoonwellL2": 68,
+    "TownTownHallL2": 1606,
+    "TownTownHallL3": 632,
+    "TownWallRadial14L3": 16,
+    "TownWallRadial15L3": 2,
+    "TownWallRadial17L3": 7,
+    "TownWallRadial18L2": 49,
+    "TownWallRadial18L3": 1,
+    "TownWallRadial4L2": 3,
+    "TownWallRadial5L2": 49,
+    "VehicleDragon": 1108
+  }
+}

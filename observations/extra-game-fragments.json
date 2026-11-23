@@ -1,0 +1,20 @@
+{
+  "map_or_no_target_pings": 59,
+  "confirmed_opening_hero_pings": 13,
+  "historical_hero_timer_reference_sha256": [
+    "2fca3c78d0e459d4452e3fb1f41ff3fce22b9c1f8f113019389195ff171bf618",
+    "7efa1c335816eebe802747ae4b16252ed22fcd8387b09d24b115b2917542b52a",
+    "8c4fb83989b528ea3227f6c97758293d1f650e33caa3d38c6a2a84d27ab0850d"
+  ],
+  "ping_sparse_sha256": "508fe29ab13ab7857790a571f897d1530f1147e5bddc570c26eb8a38adee01d3",
+  "isolated_talent_witnesses": 22,
+  "talent_dispositions": {
+    "talent_index_requires_target_award_state": 3,
+    "no_target_index_witness": 48,
+    "talent_index_requires_earlier_unresolved_award": 16,
+    "witnessed_index_tier_conflict": 3
+  },
+  "active_tier_sha256": "c2cd58e105fb612fcac4ec557104da02f0f005440586549e62ab3ab45416023f",
+  "target_awards_and_effects_verified": false,
+  "retained_r8_tracker_used": false
+}
