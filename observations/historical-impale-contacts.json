@@ -1,0 +1,537 @@
+{
+  "historical_build": 41810,
+  "fixtures": 7,
+  "counts": {
+    "point_orders": 297,
+    "qualifying_orders": 136,
+    "before_level4": 17,
+    "primary_hero_tag_deaths_within_32": 62,
+    "orders_with_any_death_and_same_loop_caster_snapshot": 2,
+    "pre4_primary_hero_tag_deaths_within_32": 4
+  },
+  "archives": [
+    {
+      "archive_sha256": "4f02c8c4b4ae7eb7ec5e290df4f2da26ebe3d71221a3c9b3db064306066b400d",
+      "game_sha256": "eb5091f3a0245ed5236ba07142029d8f4c44ae5d186fa319f388a6b5119ce2e6",
+      "tracker_sha256": "69feeab04088077f6c3bb8c388bded36977144bab2445b02f2cba94df10c5254",
+      "counts": {
+        "point_orders": 23,
+        "qualifying_orders": 9,
+        "before_level4": 3,
+        "primary_hero_tag_deaths_within_32": 1,
+        "pre4_primary_hero_tag_deaths_within_32": 0,
+        "orders_with_any_death_and_same_loop_caster_snapshot": 0
+      },
+      "pre4_deaths": [],
+      "same_loop_caster_snapshots_with_deaths": [],
+      "ten_player2_awards": []
+    },
+    {
+      "archive_sha256": "8beb4370c5c6638d5481c25e88970ad49d5651edacf876cb623be7c2f593504b",
+      "game_sha256": "f203671350fe48e695882709b6bf8e9236fd6e5e9f04060b221a622c37bda682",
+      "tracker_sha256": "140d2f883c57d3e2238769221b5b9abb950f823d3dc292bb345ec08d62d5c502",
+      "counts": {
+        "point_orders": 42,
+        "qualifying_orders": 21,
+        "before_level4": 2,
+        "primary_hero_tag_deaths_within_32": 1,
+        "pre4_primary_hero_tag_deaths_within_32": 0,
+        "orders_with_any_death_and_same_loop_caster_snapshot": 0
+      },
+      "pre4_deaths": [],
+      "same_loop_caster_snapshots_with_deaths": [],
+      "ten_player2_awards": []
+    },
+    {
+      "archive_sha256": "a6c7c6232f19b9b264ef39bf36b4ce7dfcad56e59c470731b53c28700b9d2603",
+      "game_sha256": "97cef19ced01e88959a87f0ed3b37c308554e5465d02821fee4ae7c774b0e650",
+      "tracker_sha256": "dcb47b068cf358ded7353a58935c730f1d4a800ebfd2b0bcbe7b6f86c39d7f49",
+      "counts": {
+        "point_orders": 44,
+        "qualifying_orders": 20,
+        "before_level4": 2,
+        "primary_hero_tag_deaths_within_32": 8,
+        "pre4_primary_hero_tag_deaths_within_32": 0,
+        "orders_with_any_death_and_same_loop_caster_snapshot": 1
+      },
+      "pre4_deaths": [],
+      "same_loop_caster_snapshots_with_deaths": [
+        {
+          "issue_ordinal": 49061,
+          "issue_loop": 8153,
+          "hero_tag": [
+            183,
+            1
+          ],
+          "first_talents": [
+            "AnubarakMasteryExtendedSpikesImpale",
+            "AnubarakCombatStyleLegionOfBeetles",
+            "AnubarakMasteryUrticatingSpines",
+            "AnubarakHeroicAbilityCarrionSwarm"
+          ],
+          "caster_snapshot_ordinal": 49063,
+          "caster_snapshot_user": 6,
+          "caster_snapshot_xy": [
+            124.2783203125,
+            49.574462890625
+          ],
+          "point_aim_xy": [
+            121.809326171875,
+            45.817138671875
+          ],
+          "contacts": [
+            {
+              "death_ordinal": 2609,
+              "death_loop": 8181,
+              "victim": "AzmodanDemon",
+              "death_xy": [
+                125,
+                51
+              ],
+              "caster_snapshot_to_victim": 1.5978039997306706,
+              "along_aim": -1.5876631953311553,
+              "cross_aim": 0.1797309092676995
+            }
+          ]
+        }
+      ],
+      "ten_player2_awards": []
+    },
+    {
+      "archive_sha256": "ac9ede2e7bc241a54209d723fb40594920734138f38347b21cea3a7797ae1372",
+      "game_sha256": "a13743201e08288b042cfcb14adf48826bf1d84bb292c3450b7c1d6a1510a482",
+      "tracker_sha256": "3af71d29423e4cd6c2c8b65165165cbac1544f1d4831041d933d52fc1e394089",
+      "counts": {
+        "point_orders": 44,
+        "qualifying_orders": 26,
+        "before_level4": 3,
+        "primary_hero_tag_deaths_within_32": 21,
+        "pre4_primary_hero_tag_deaths_within_32": 0,
+        "orders_with_any_death_and_same_loop_caster_snapshot": 0
+      },
+      "pre4_deaths": [],
+      "same_loop_caster_snapshots_with_deaths": [],
+      "ten_player2_awards": []
+    },
+    {
+      "archive_sha256": "d5af3e6672c102a5b33abc7df7884ea2648d01af8f7921f16ff6ad69f3c69a97",
+      "game_sha256": "663bc8b0bc4a32c18f1d10f80618aec67fb2402a38def036e0f9e348e6869187",
+      "tracker_sha256": "f0cca01c003562230cee67b7d173b04309b5f28560f8c65d7b1b75e1b3496903",
+      "counts": {
+        "point_orders": 63,
+        "qualifying_orders": 30,
+        "before_level4": 2,
+        "primary_hero_tag_deaths_within_32": 26,
+        "pre4_primary_hero_tag_deaths_within_32": 4,
+        "orders_with_any_death_and_same_loop_caster_snapshot": 0
+      },
+      "pre4_deaths": [
+        {
+          "input_ordinal": 5644,
+          "issue_loop": 1268,
+          "player": 9,
+          "user": 8,
+          "prior_talents": [
+            "AnubarakMasteryExtendedSpikesImpale"
+          ],
+          "prior_talent_awards": [
+            [
+              133,
+              "AnubarakMasteryExtendedSpikesImpale"
+            ]
+          ],
+          "killer_index_generation": [
+            208,
+            1
+          ],
+          "beetle_ordinal": 544,
+          "beetle_xy": [
+            135,
+            93
+          ],
+          "death_ordinal": 546,
+          "death_loop": 1291,
+          "victim_name": "AbathurToxicNest",
+          "victim_birth_ordinal": 437,
+          "victim_birth_loop": 710,
+          "victim_index_generation": [
+            141,
+            2
+          ],
+          "birth_xy": [
+            123,
+            102
+          ],
+          "death_xy": [
+            123,
+            102
+          ],
+          "aim_fixed": {
+            "x": 526786,
+            "y": 401131,
+            "z": 32427
+          },
+          "display_grid_measurements": {
+            "beetle_to_victim": 15.0,
+            "beetle_to_aim": 8.072307672398024,
+            "aim_to_victim": 6.9293690235190954,
+            "along_aim": 14.998560877562301,
+            "cross_aim": 0.20777777084551385
+          },
+          "nearest_caster_target_snapshot_loop": 1313,
+          "other_explicit_spell_orders_minus80_through_death": [],
+          "implicit_order_targets_until_death": [
+            [
+              5688,
+              1275,
+              [
+                209,
+                1
+              ]
+            ]
+          ]
+        },
+        {
+          "input_ordinal": 12034,
+          "issue_loop": 2647,
+          "player": 9,
+          "user": 8,
+          "prior_talents": [
+            "AnubarakMasteryExtendedSpikesImpale"
+          ],
+          "prior_talent_awards": [
+            [
+              133,
+              "AnubarakMasteryExtendedSpikesImpale"
+            ]
+          ],
+          "killer_index_generation": [
+            208,
+            1
+          ],
+          "beetle_ordinal": 1042,
+          "beetle_xy": [
+            131,
+            67
+          ],
+          "death_ordinal": 1041,
+          "death_loop": 2654,
+          "victim_name": "CursedShrineMinion",
+          "victim_birth_ordinal": 980,
+          "victim_birth_loop": 2604,
+          "victim_index_generation": [
+            37,
+            21
+          ],
+          "birth_xy": [
+            125,
+            67
+          ],
+          "death_xy": [
+            132,
+            66
+          ],
+          "aim_fixed": {
+            "x": 539268,
+            "y": 278652,
+            "z": 32427
+          },
+          "display_grid_measurements": {
+            "beetle_to_victim": 1.4142135623730951,
+            "beetle_to_aim": 1.2220515989407454,
+            "aim_to_victim": 2.059005551345997,
+            "along_aim": -0.30526278540394775,
+            "cross_aim": 1.380874589471261
+          },
+          "nearest_caster_target_snapshot_loop": 2719,
+          "other_explicit_spell_orders_minus80_through_death": [],
+          "implicit_order_targets_until_death": []
+        },
+        {
+          "input_ordinal": 12034,
+          "issue_loop": 2647,
+          "player": 9,
+          "user": 8,
+          "prior_talents": [
+            "AnubarakMasteryExtendedSpikesImpale"
+          ],
+          "prior_talent_awards": [
+            [
+              133,
+              "AnubarakMasteryExtendedSpikesImpale"
+            ]
+          ],
+          "killer_index_generation": [
+            208,
+            1
+          ],
+          "beetle_ordinal": 1042,
+          "beetle_xy": [
+            131,
+            67
+          ],
+          "death_ordinal": 1044,
+          "death_loop": 2663,
+          "victim_name": "CursedShrineMinion",
+          "victim_birth_ordinal": 986,
+          "victim_birth_loop": 2613,
+          "victim_index_generation": [
+            172,
+            10
+          ],
+          "birth_xy": [
+            127,
+            70
+          ],
+          "death_xy": [
+            132,
+            68
+          ],
+          "aim_fixed": {
+            "x": 539268,
+            "y": 278652,
+            "z": 32427
+          },
+          "display_grid_measurements": {
+            "beetle_to_victim": 1.4142135623730951,
+            "beetle_to_aim": 1.2220515989407454,
+            "aim_to_victim": 0.34410770185166273,
+            "along_aim": 1.380874589471261,
+            "cross_aim": 0.30526278540394775
+          },
+          "nearest_caster_target_snapshot_loop": 2719,
+          "other_explicit_spell_orders_minus80_through_death": [],
+          "implicit_order_targets_until_death": []
+        },
+        {
+          "input_ordinal": 12034,
+          "issue_loop": 2647,
+          "player": 9,
+          "user": 8,
+          "prior_talents": [
+            "AnubarakMasteryExtendedSpikesImpale"
+          ],
+          "prior_talent_awards": [
+            [
+              133,
+              "AnubarakMasteryExtendedSpikesImpale"
+            ]
+          ],
+          "killer_index_generation": [
+            208,
+            1
+          ],
+          "beetle_ordinal": 1042,
+          "beetle_xy": [
+            131,
+            67
+          ],
+          "death_ordinal": 1050,
+          "death_loop": 2679,
+          "victim_name": "CursedShrineMinion",
+          "victim_birth_ordinal": 984,
+          "victim_birth_loop": 2610,
+          "victim_index_generation": [
+            219,
+            22
+          ],
+          "birth_xy": [
+            130,
+            64
+          ],
+          "death_xy": [
+            132,
+            65
+          ],
+          "aim_fixed": {
+            "x": 539268,
+            "y": 278652,
+            "z": 32427
+          },
+          "display_grid_measurements": {
+            "beetle_to_victim": 2.23606797749979,
+            "beetle_to_aim": 1.2220515989407454,
+            "aim_to_victim": 3.049598454792636,
+            "along_aim": -1.1483314728415521,
+            "cross_aim": 1.9186804915049176
+          },
+          "nearest_caster_target_snapshot_loop": 2719,
+          "other_explicit_spell_orders_minus80_through_death": [],
+          "implicit_order_targets_until_death": []
+        }
+      ],
+      "same_loop_caster_snapshots_with_deaths": [],
+      "ten_player2_awards": []
+    },
+    {
+      "archive_sha256": "e5931b469dae86d95741bff08b71fc06bb28d5344f7c2ea64c4cc91f60570b2b",
+      "game_sha256": "87d92bc0240298fcb3c876f179b1364ada24d63b70ee537b0240397220f0b4bc",
+      "tracker_sha256": "0247fc6fbdfd4fff8542a596202ab190b9a2e00f20088c86e131dcef6990b09b",
+      "counts": {
+        "point_orders": 40,
+        "qualifying_orders": 14,
+        "before_level4": 0,
+        "primary_hero_tag_deaths_within_32": 2,
+        "pre4_primary_hero_tag_deaths_within_32": 0,
+        "orders_with_any_death_and_same_loop_caster_snapshot": 1
+      },
+      "pre4_deaths": [],
+      "same_loop_caster_snapshots_with_deaths": [
+        {
+          "issue_ordinal": 63375,
+          "issue_loop": 9777,
+          "hero_tag": [
+            175,
+            1
+          ],
+          "first_talents": [
+            "AnubarakMasteryExtendedSpikesImpale",
+            "AnubarakCombatStyleLocustNeedles",
+            "AnubarakMasteryBedOfBarbs",
+            "AnubarakHeroicAbilityCarrionSwarm",
+            "GenericTalentBurningRage"
+          ],
+          "caster_snapshot_ordinal": 63369,
+          "caster_snapshot_user": 2,
+          "caster_snapshot_xy": [
+            131.063232421875,
+            44.81689453125
+          ],
+          "point_aim_xy": [
+            124.452392578125,
+            45.9365234375
+          ],
+          "contacts": [
+            {
+              "death_ordinal": 3703,
+              "death_loop": 9784,
+              "victim": "FootmanMinion",
+              "death_xy": [
+                129,
+                45
+              ],
+              "caster_snapshot_to_victim": 2.071341507178943,
+              "along_aim": 2.064839400912842,
+              "cross_aim": 0.16399356024012257
+            }
+          ]
+        },
+        {
+          "issue_ordinal": 63375,
+          "issue_loop": 9777,
+          "hero_tag": [
+            175,
+            1
+          ],
+          "first_talents": [
+            "AnubarakMasteryExtendedSpikesImpale",
+            "AnubarakCombatStyleLocustNeedles",
+            "AnubarakMasteryBedOfBarbs",
+            "AnubarakHeroicAbilityCarrionSwarm",
+            "GenericTalentBurningRage"
+          ],
+          "caster_snapshot_ordinal": 63371,
+          "caster_snapshot_user": 2,
+          "caster_snapshot_xy": [
+            131.063232421875,
+            44.81689453125
+          ],
+          "point_aim_xy": [
+            124.452392578125,
+            45.9365234375
+          ],
+          "contacts": [
+            {
+              "death_ordinal": 3703,
+              "death_loop": 9784,
+              "victim": "FootmanMinion",
+              "death_xy": [
+                129,
+                45
+              ],
+              "caster_snapshot_to_victim": 2.071341507178943,
+              "along_aim": 2.064839400912842,
+              "cross_aim": 0.16399356024012257
+            }
+          ]
+        }
+      ],
+      "ten_player2_awards": []
+    },
+    {
+      "archive_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+      "game_sha256": "ea69dd77edd02f3ed2c42a2def1faab6dc4d0eb46da291c44f76bfb49a65eed6",
+      "tracker_sha256": "1a9a556f9f1fde466d17c4a3a3fbb31cbec8d8086bef97efeb796f1f5175245f",
+      "counts": {
+        "point_orders": 41,
+        "qualifying_orders": 16,
+        "before_level4": 5,
+        "primary_hero_tag_deaths_within_32": 3,
+        "pre4_primary_hero_tag_deaths_within_32": 0,
+        "orders_with_any_death_and_same_loop_caster_snapshot": 0
+      },
+      "pre4_deaths": [],
+      "same_loop_caster_snapshots_with_deaths": [],
+      "ten_player2_awards": [
+        [
+          244,
+          103,
+          "AnubarakMasteryExtendedSpikesImpale"
+        ],
+        [
+          973,
+          2793,
+          "AnubarakMasteryUnderkingBurrowCharge"
+        ],
+        [
+          1562,
+          4583,
+          "AnubarakMasteryBedOfBarbs"
+        ],
+        [
+          2359,
+          7053,
+          "AnubarakHeroicAbilityCarrionSwarm"
+        ],
+        [
+          3187,
+          9447,
+          "GenericTalentBurningRage"
+        ],
+        [
+          3837,
+          11479,
+          "AnubarakMasteryEpicenterBurrowCharge"
+        ],
+        [
+          4980,
+          14777,
+          "AnubarakMasteryHiveMasterCarrionSwarm"
+        ]
+      ]
+    }
+  ],
+  "current_98348": {
+    "xml_sha256": "6e575d1c7e852274480b88e89e06ce993a9b8dd6f7988ccdc57e173c337eb799",
+    "input_order_range": 500.0,
+    "attack_search_delays_seconds": 0.25,
+    "attack_step_seconds": 0.125,
+    "initial_attack_searches": 1,
+    "periodic_stock": 7,
+    "periodic_extended": 9,
+    "attack_search_requests": [
+      8,
+      10
+    ],
+    "model_branch_delay_seconds": 0.125,
+    "barbs_additional_delay_seconds": 1.0,
+    "barbs_period_seconds": 0.125,
+    "barbs_area_queries_per_enabled_position": 28,
+    "extra_barbs_query_requests_if_enabled": 56,
+    "all_counts_conditional_on_scheduled_effects": true
+  },
+  "historical_period_count": null,
+  "historical_offsets": null,
+  "historical_contact_range": null,
+  "map_adjustment_supported": false
+}
