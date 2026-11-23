@@ -11,8 +11,9 @@ The `R8D == 0` branch of `0x97d870` makes the last history entry's count 72. Its
 | 0 | The result of `0x985bb0` goes to `entry+8`. |
 | 1 | Standard CRC32 of the little-endian native DWORD at RVA `0x34ef5c0`, stored at `entry+0xc`. |
 | 3 | Standard CRC32 of the concatenation of 92 little-endian component words in their native order. Component `i` is the complemented output of `0x15fc810` and is also stored at `entry+0x408+4*i`. The aggregate goes to `entry+0x14`. |
-| 69 | The covered builders leave `entry+0x11c` without an identified direct producer. The resize initializes this slot only when growing across it. |
+| 7, 37 | The two paths through the primary builder each complement an untouched all-ones CRC and store zero. [Checked instructions](CONSTANT_SYNC_SLOTS.md) |
+| 69 | The builder resets the four bytes at `entry+0x11c` before selecting its mode. A fresh mode-0 computation yields zero. A hydrated entry can contain a value supplied by the stream. [Reset, copy and deserialization](SYNC_SLOT69.md) |
 
-Primary builder `0x9707a0` has 70 distinct direct stores to the 72-slot vector. Mode-0 builder `0x987d10` supplies slot 3 in addition. Its 92 component words begin well beyond the serialized 72-word payload. This establishes where to reconstruct the component inputs and the unresolved slot. Authentic per-frame values for TEN_GREYMANE remain unavailable.
+Primary builder `0x9707a0` has 70 distinct direct stores to the 72-slot vector. Mode-0 builder `0x987d10` also supplies slot 3. Its 92 component words begin beyond the serialized 72-word payload. The TEN replay retains folded checksums. Reconstructing the target values requires the per-frame simulation inputs and the history path actually used.
 
 `verify_sync_vector_source.py ORIGINAL_PE PINNED_STATIC_TEXT` checks the two whole-file hashes, resize/copy branches, producer bindings, all 70 direct store destinations, and the native tables against eight synthetic one-word and 92-word CRC cases. `native-sync-vector-source.json` contains the reproduced result. Analysis used headless static IDA and prior authenticated Ghidra listings.

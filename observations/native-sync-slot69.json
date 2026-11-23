@@ -1,0 +1,26 @@
+{
+  "build": 98348,
+  "pe_sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+  "static_text_sha256": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83",
+  "slot": 69,
+  "entry_offset": 284,
+  "initial_value_after_reset": 0,
+  "clean_mode0_computation_value": 0,
+  "clear_rva": "0x989cc0",
+  "clear_ranges": [
+    [
+      8,
+      1020
+    ],
+    [
+      1032,
+      368
+    ]
+  ],
+  "sse_range_cases": 32,
+  "default_entry_and_all_builder_modes_invoke_reset": true,
+  "serialized_if_vector_count_at_least": 70,
+  "deferred_copy_preserves_source": true,
+  "input_stream_can_replace_word": true,
+  "actual_TEN_loop64_mode_or_value_observed": false
+}

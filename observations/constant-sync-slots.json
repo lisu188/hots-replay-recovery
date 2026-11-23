@@ -1,0 +1,60 @@
+{
+  "build": 98348,
+  "pe_sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+  "static_text_sha256": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83",
+  "vector_words": 72,
+  "primary_builder_rva": "0x9707a0",
+  "exact_on_primary_builder_path": [
+    {
+      "slot": 7,
+      "value": 0,
+      "little_endian_hex": "00000000",
+      "entry_offset": "0x24",
+      "start_rva": "0x970858",
+      "store_rva": "0x97086a",
+      "callees": [
+        {
+          "rva": "0xb5fb00",
+          "action": "return_without_writing"
+        }
+      ]
+    },
+    {
+      "slot": 37,
+      "value": 0,
+      "little_endian_hex": "00000000",
+      "entry_offset": "0x9c",
+      "start_rva": "0x970bed",
+      "store_rva": "0x970c07",
+      "callees": [
+        {
+          "rva": "0x8306b0",
+          "action": "return_address_without_writing"
+        },
+        {
+          "rva": "0x82c700",
+          "action": "return_without_writing"
+        }
+      ]
+    }
+  ],
+  "scalar_slot_one": {
+    "scalar_rva": "0x34ef5c0",
+    "direct_rip_reference_count": 7,
+    "static_data_loader_value": 0,
+    "code_paths_with_nonconstant_direct_write": 1,
+    "no_restore_candidate_value": 558161692,
+    "loop64_slot1_admitted": false
+  },
+  "ten_loop64_vector_observed": false,
+  "ten_loop64_final_word_recovered": false,
+  "source_recording": {
+    "source_build": 41810,
+    "source_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+    "source_first_sync_loop": 64,
+    "source_first_sync_event_id": 2,
+    "source_first_sync_vector_recorded": false,
+    "source_mini_save": false,
+    "source_restart_as_transition_map": false
+  }
+}

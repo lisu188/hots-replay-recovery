@@ -1,0 +1,9 @@
+# Two constant build-98348 sync vector words
+
+The primary 72-word builder writes **zero at indices 7 and 37** every time it reaches those two stores. At RVA `0x970858` it seeds the running DWORD to all ones and calls `0xb5fb00`, whose complete body is `ret 0`. It complements the seed and writes zero to entry offset `0x24`. At `0x970bed` it seeds the same way. Its first leaf returns an address with `lea` and the second is `ret 0`. It writes zero to offset `0x9c`. Neither block reads match-specific data to compute the stored word.
+
+The scalar behind index 1 is in the loader-zeroed portion of the PE's data section at RVA `0x34ef5c0`. The decoded code has seven direct RIP-relative references. Two write zero. One loads a DWORD from a serialized stream and can overwrite the scalar. Its other references read it or pass it to a formatting helper that reads the pointed-to DWORD. Its candidate CRC on a fresh, unrestored state is `0x2144df1c`. TEN's source replay has both mini-save and transition-map flags clear. Those flags do not establish the target client's full initialization or restore history, so the verifier leaves index 1 unassigned for TEN.
+
+The first physical TEN synchronization record is a type-2 record at loop 64 with no vector. The two constants therefore constrain the target primary builder at that boundary. The other component values, the actual target path at that frame and the final TEN synchronization word remain unverified.
+
+Run `verify_constant_sync_slots.py ORIGINAL_98348_EXE PINNED_DECODED_TEXT --ten ORIGINAL_REPLAY`. The verifier hashes both complete native inputs, checks the previously recovered 72-word layout, interprets only the two small producer sequences and checks their leaf instructions against the decoded text. It inspects the replay read-only. The public receipt contains no game binary or replay data.
