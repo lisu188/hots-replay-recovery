@@ -1,0 +1,9 @@
+# Historical Dragon Shire gate removal order
+
+On the original Dragon Shire layout, enumerate normal pathing blockers first and diagonal blockers second. Within each group, sort the map-authored points by ascending Y coordinate, breaking a tie by ascending X. Every coordinate pair is unique within its group. Use the object's independently established startup index, generation one and the GatesOpen statistic for the timestamp. This rule reconstructs the complete historical order without consuming the order of tracker deaths.
+
+All 54 positions matched in TEN and in each of the three independent build-41810 controls. The 54 projected TEN target-format frames on the KeepCatapults map are byte-identical to the previous 1,836-byte source-order projection, SHA-256 `b5d20bbe65a5b09b83f2ec0822a96541809a8b2b7e7068d47dcfe13409f83a94`. The rule is observational for 41810. Its implementation in the historical executable remains unknown.
+
+The same geometry rule matched only 30 of 810 event positions and zero complete groups of 54 across fifteen build-98348 recordings on the stock map. Every one of the 435 possible pairs of normal blockers and 276 possible pairs of diagonal blockers occurs in both relative orders somewhere in that cohort. The native timer callback's normal-before-diagonal group choice holds in every sample. Within a group no fixed pair precedence survives on stock 98348. These data constrain future unit-query and pool-reuse reconstruction alongside the native timing rules. [Per-recording order and pair results](../observations/blocker-spatial-order.json)
+
+Run `python blocker_spatial_order.py --library GameLib.galaxy --case REPLAY SHA256 BUILD MAP`. Repeat `--case` for more recordings. Supply `--historical-output NEW.bin` to emit the private sparse stream for one matched historical replay.
