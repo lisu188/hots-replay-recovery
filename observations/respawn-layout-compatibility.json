@@ -1,0 +1,62 @@
+{
+  "format": "respawn-map-compatibility-v1",
+  "parent_sha256": "e6167145ee82e6c139f07336cd65fced5c86d162da19baad57a2d3e82b3a455e",
+  "package_sha256": "d41c5841a5719e76246265940d28b244bae91f4e3fef33e621f3a2e2a0ee7bbd",
+  "map_regions_and_objects_unchanged_from_original": true,
+  "original_script_sha256": "3cbca9c5b3c95bd0b5f8eb8d2218d129d89e21c3466cb242e7c54b22e67c7e18",
+  "current_script_sha256": "cbde228bbfaa6dad7e2cc9bad02651d30ab7435838ab25e732c4bea2aa85b7d6",
+  "script_insertions": [
+    {
+      "start": 1829,
+      "end_exclusive": 2728,
+      "bytes": 899
+    },
+    {
+      "start": 4168,
+      "end_exclusive": 4250,
+      "bytes": 82
+    }
+  ],
+  "removing_exactly_these_spans_reproduces_original_script": true,
+  "original_layout_fields": {
+    "package_sha256": "d41c5841a5719e76246265940d28b244bae91f4e3fef33e621f3a2e2a0ee7bbd",
+    "building_snapshot_fields": 2179,
+    "map_qualified_pings": 59,
+    "beacon_owner_frames": 26,
+    "verified_initial_camera_endpoints": 6,
+    "generated_sha256": [
+      "1caf663b5823c277735745a7fe528d6b989b0542e4689a4771c4afcf280c5b35",
+      "3e073059c7b2cba761860229f8ac78e12d8f4cf388fb76f9fcd197c8c25a5da2",
+      "b76ea6aec0b2788e06ee1a4a739a9464f6d1d3ff883cf121ae4f66cf0a61ff2b",
+      "b1e10df5fb6534fa52d5a5eae7adb5d85984ce3d6894b4ce256311cd991ed3b0"
+    ]
+  },
+  "primary_hero_and_map": {
+    "format": "historical-layout-map-and-primary-hero-pings-v1",
+    "source": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+    "historical_map": "d41c5841a5719e76246265940d28b244bae91f4e3fef33e621f3a2e2a0ee7bbd",
+    "reference_digests": [
+      "2fca3c78d0e459d4452e3fb1f41ff3fce22b9c1f8f113019389195ff171bf618",
+      "7efa1c335816eebe802747ae4b16252ed22fcd8387b09d24b115b2917542b52a",
+      "8c4fb83989b528ea3227f6c97758293d1f650e33caa3d38c6a2a84d27ab0850d"
+    ],
+    "cutoff": 19521,
+    "full_ping_count": 81,
+    "qualified_heroes": 10,
+    "base_pings": 59,
+    "base_sha256": "b76ea6aec0b2788e06ee1a4a739a9464f6d1d3ff883cf121ae4f66cf0a61ff2b",
+    "projected_hero_pings": 13,
+    "hero_phases": {
+      "alive_after_revive": 12,
+      "first_life": 1
+    },
+    "hero_unit_generations": 6,
+    "withheld": 9,
+    "emitted": 72,
+    "bytes": 1409,
+    "sha256": "508fe29ab13ab7857790a571f897d1530f1147e5bddc570c26eb8a38adee01d3",
+    "target_simulation_verified": false
+  },
+  "complete_72_ping_stream_identical_to_parent_map": true,
+  "target_simulation_verified": false
+}
