@@ -1,0 +1,45 @@
+{
+  "parent_sha256": "150bdcea5435021263c84648d892c2c3dcc26bff8c72d1be5198c31a4bb09791",
+  "map_sha256": "54e1a8fbe7e42f00b7b52cde420ed259105228fcdf165097ef52ecd0f5c4125a",
+  "bytes": 2197794,
+  "script_sha256": "38bde241c87da5760d7cfa7341e19613d063f51f11458ebcfd361e572fc18059",
+  "unchanged_content_members": 69,
+  "physical_reset_cohort": {
+    "41810": 39,
+    "98348": 246
+  },
+  "physical_flag_cohort": {
+    "41810": 41,
+    "98348": 260
+  },
+  "ordinary_reset_loops": 48,
+  "team_mercenary_reset_loops": 16,
+  "extra_banner_handles_if_stock_bound_before_scoped_use": 1,
+  "stock_capture_credit_rng_preserved": true,
+  "historical_rng_state_verified": false,
+  "native_playback_verified": false,
+  "tests": {
+    "capture_team_branches": 2,
+    "banner_tasks_completed": 5,
+    "credit_rng_draws": 3,
+    "ordinary_prebound_delegations": 1,
+    "shared_capture_handle": 1
+  },
+  "integrity": {
+    "content_members": 70,
+    "live_blocks": 72,
+    "raw_table_results": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "native_member_flags": {
+      "256": 1,
+      "336": 71
+    }
+  },
+  "two_independent_builds_identical": true
+}
