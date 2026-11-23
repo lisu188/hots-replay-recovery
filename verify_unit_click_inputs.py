@@ -41,6 +41,13 @@ def r8_comparison(source, r8, generated):
             if generated[ordinal]["m_unitTag"] != existing_tag:
                 raise ValueError("R8 differs from the independent GateOrder prediction")
             counts["matches_independent_projection"] += 1
+    if (
+        counts["clicks"] != 2756
+        or counts["same_full_game_ordinal"] != counts["clicks"]
+        or counts["matches_repacked_historical_pair"] != counts["clicks"]
+        or counts["matches_independent_projection"] != len(generated)
+    ):
+        raise ValueError("R8 click coverage differs from original ordinals or independent projection")
     return dict(sha256=R8, build=98285, **counts)
 
 

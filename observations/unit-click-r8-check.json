@@ -1,0 +1,16 @@
+{
+  "r8": {
+    "sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+    "build": 98285,
+    "clicks": 2756,
+    "same_full_game_ordinal": 2756,
+    "matches_repacked_historical_pair": 2756,
+    "matches_independent_projection": 1702
+  },
+  "references": 24,
+  "target_clicks": 41988,
+  "target_physical_bytes": 293916,
+  "first_source_game_ordinal": 850,
+  "last_source_game_ordinal": 103953,
+  "sparse_sha256": "a10254710ebbab120fd4111d7024133c4341294d96e7834a6d6b121b9d5e98fb"
+}

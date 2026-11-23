@@ -23,3 +23,5 @@ python verify_unit_click_inputs.py SOURCE GATE_MAP MAP_MECHANICS_GALAXY HISTORIC
 ```
 
 The private manifest maps the 24 SHA-256 values in `observations/first-sync-game.json` to local control files. Optional `--private-output` and `--private-ledger` save the fragment and `[source ordinal, absolute loop, user, target tag]` rows. The aggregate receipt contains counts and digests.
+
+The original partial build-98285 R8 already repacks all 2,756 click words at the same source ordinals. The independent GateOrder projection corroborates 1,702 of them for the 98348 layout. The other 1,054 still require an allocation or lifetime witness. [R8 comparison](../observations/unit-click-r8-check.json)
