@@ -1,0 +1,81 @@
+{
+  "format": "dragon-shire-held-out-startup-identity-and-owners-v1",
+  "prior_replays": 13,
+  "disjoint_replay_hashes": true,
+  "startup_verifier_sha256": "795f4144d419d5d6ce1824f75cca3f6b0021f6cde1c99c9d439c6dc4f157e2bd",
+  "owner_verifier_sha256": "2718fcfe31fa074695daa003052897e14166b737e13234eca4caa9db566efd09",
+  "cases": [
+    {
+      "startup_identity": {
+        "authored_units": 158,
+        "startup_births": 170,
+        "spatial_predictions": 158,
+        "excluded": {},
+        "verified": 158,
+        "contradictions": {},
+        "fractional_verified": 51,
+        "masked_birth_tags": 170,
+        "tags_restored_from_map_predictions": 158,
+        "unmatched_tags_restored_from_original": 12,
+        "build": 98348,
+        "schema_build": 96477,
+        "map_sha256": "f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f",
+        "replay_sha256": "bc16af7f68496cddc4698f70b3853402a0f30aa37951aec3a6b555ed703879e8",
+        "objects_sha256": "371d4c7a1ade868b4106d50926a47d50bb2b042a4558a66dab938c06f3cd7ecc",
+        "tracker_sha256": "a2bd1d671aaf7d1051fa13fc94806788a444d5b0e80128afa38c69101a058d51",
+        "tracker_bytes": 660420,
+        "reconstructed_tracker_byte_equal": true
+      },
+      "authored_owners": {
+        "tracker_sha256": "a2bd1d671aaf7d1051fa13fc94806788a444d5b0e80128afa38c69101a058d51",
+        "all_startup_owner_pairs_masked": 170,
+        "pairs_from_xml": 158,
+        "unassigned_pairs_from_original": 12,
+        "authored_player_counts": {
+          "11": 46,
+          "12": 46,
+          "absent": 66
+        },
+        "tracker_byte_equal": true,
+        "recorded_owner_change_events_for_authored_tags": 197,
+        "distinct_authored_tags_with_recorded_owner_change": 9
+      }
+    },
+    {
+      "startup_identity": {
+        "authored_units": 158,
+        "startup_births": 170,
+        "spatial_predictions": 158,
+        "excluded": {},
+        "verified": 158,
+        "contradictions": {},
+        "fractional_verified": 51,
+        "masked_birth_tags": 170,
+        "tags_restored_from_map_predictions": 158,
+        "unmatched_tags_restored_from_original": 12,
+        "build": 98348,
+        "schema_build": 96477,
+        "map_sha256": "f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f",
+        "replay_sha256": "a956b186a0459a47d9b0fdd8af4ccb65c437f11926186471c434e543e218b2d7",
+        "objects_sha256": "371d4c7a1ade868b4106d50926a47d50bb2b042a4558a66dab938c06f3cd7ecc",
+        "tracker_sha256": "f39d8b87db6f668e1acfbfb61203a207227d5e8e2e93d0a8eb2931ef4f8306da",
+        "tracker_bytes": 423500,
+        "reconstructed_tracker_byte_equal": true
+      },
+      "authored_owners": {
+        "tracker_sha256": "f39d8b87db6f668e1acfbfb61203a207227d5e8e2e93d0a8eb2931ef4f8306da",
+        "all_startup_owner_pairs_masked": 170,
+        "pairs_from_xml": 158,
+        "unassigned_pairs_from_original": 12,
+        "authored_player_counts": {
+          "11": 46,
+          "12": 46,
+          "absent": 66
+        },
+        "tracker_byte_equal": true,
+        "recorded_owner_change_events_for_authored_tags": 102,
+        "distinct_authored_tags_with_recorded_owner_change": 9
+      }
+    }
+  ]
+}

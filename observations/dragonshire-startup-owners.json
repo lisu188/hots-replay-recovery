@@ -1,0 +1,217 @@
+[
+  {
+    "tracker_sha256": "1a9a556f9f1fde466d17c4a3a3fbb31cbec8d8086bef97efeb796f1f5175245f",
+    "all_startup_owner_pairs_masked": 172,
+    "pairs_from_xml": 165,
+    "unassigned_pairs_from_original": 7,
+    "authored_player_counts": {
+      "10": 2,
+      "11": 50,
+      "12": 50,
+      "absent": 63
+    },
+    "tracker_byte_equal": true,
+    "recorded_owner_change_events_for_authored_tags": 66,
+    "distinct_authored_tags_with_recorded_owner_change": 8,
+    "build": 41810,
+    "replay_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+    "negative_control": {
+      "authored_id": 2,
+      "original_player": 12,
+      "altered_player": 11,
+      "rejected": true
+    }
+  },
+  {
+    "tracker_sha256": "aac1ee0b170eef3f4178c7269778f762b61d5ddff3a3d03af3184aa610640b8d",
+    "all_startup_owner_pairs_masked": 170,
+    "pairs_from_xml": 158,
+    "unassigned_pairs_from_original": 12,
+    "authored_player_counts": {
+      "11": 46,
+      "12": 46,
+      "absent": 66
+    },
+    "tracker_byte_equal": true,
+    "recorded_owner_change_events_for_authored_tags": 72,
+    "distinct_authored_tags_with_recorded_owner_change": 9,
+    "build": 98348,
+    "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c"
+  },
+  {
+    "tracker_sha256": "152fa91c7a0db6a83d718e6d8f70ad1af86035a7a971493d7055688be8de49fc",
+    "all_startup_owner_pairs_masked": 170,
+    "pairs_from_xml": 158,
+    "unassigned_pairs_from_original": 12,
+    "authored_player_counts": {
+      "11": 46,
+      "12": 46,
+      "absent": 66
+    },
+    "tracker_byte_equal": true,
+    "recorded_owner_change_events_for_authored_tags": 135,
+    "distinct_authored_tags_with_recorded_owner_change": 9,
+    "build": 98348,
+    "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e"
+  },
+  {
+    "tracker_sha256": "b64208e7282c219214defe1175bf78b210c1891594b1a744add3c2cf7756dec3",
+    "all_startup_owner_pairs_masked": 170,
+    "pairs_from_xml": 158,
+    "unassigned_pairs_from_original": 12,
+    "authored_player_counts": {
+      "11": 46,
+      "12": 46,
+      "absent": 66
+    },
+    "tracker_byte_equal": true,
+    "recorded_owner_change_events_for_authored_tags": 78,
+    "distinct_authored_tags_with_recorded_owner_change": 9,
+    "build": 98348,
+    "replay_sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db"
+  },
+  {
+    "tracker_sha256": "5c0785aa6297fc5ece0afb43d2f88b2deaab3afc8278beedc9fad3e831b565ef",
+    "all_startup_owner_pairs_masked": 170,
+    "pairs_from_xml": 158,
+    "unassigned_pairs_from_original": 12,
+    "authored_player_counts": {
+      "11": 46,
+      "12": 46,
+      "absent": 66
+    },
+    "tracker_byte_equal": true,
+    "recorded_owner_change_events_for_authored_tags": 103,
+    "distinct_authored_tags_with_recorded_owner_change": 9,
+    "build": 98348,
+    "replay_sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a"
+  },
+  {
+    "tracker_sha256": "cbc1fc35b8e34b98d0061739340c6f8feb24ebf579fa5c884c4ca36184963bf1",
+    "all_startup_owner_pairs_masked": 170,
+    "pairs_from_xml": 158,
+    "unassigned_pairs_from_original": 12,
+    "authored_player_counts": {
+      "11": 46,
+      "12": 46,
+      "absent": 66
+    },
+    "tracker_byte_equal": true,
+    "recorded_owner_change_events_for_authored_tags": 93,
+    "distinct_authored_tags_with_recorded_owner_change": 9,
+    "build": 98348,
+    "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c"
+  },
+  {
+    "tracker_sha256": "4c9b43ed3fb414e7bd65c10df7c2d456b29cb42dc39aafc4fd27419cee0a3cfe",
+    "all_startup_owner_pairs_masked": 170,
+    "pairs_from_xml": 158,
+    "unassigned_pairs_from_original": 12,
+    "authored_player_counts": {
+      "11": 46,
+      "12": 46,
+      "absent": 66
+    },
+    "tracker_byte_equal": true,
+    "recorded_owner_change_events_for_authored_tags": 99,
+    "distinct_authored_tags_with_recorded_owner_change": 9,
+    "build": 98348,
+    "replay_sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4"
+  },
+  {
+    "tracker_sha256": "92f34f3ac520c349f3ba6dff012598bea91eb4317e4c8e302bcf8ec535cde742",
+    "all_startup_owner_pairs_masked": 170,
+    "pairs_from_xml": 158,
+    "unassigned_pairs_from_original": 12,
+    "authored_player_counts": {
+      "11": 46,
+      "12": 46,
+      "absent": 66
+    },
+    "tracker_byte_equal": true,
+    "recorded_owner_change_events_for_authored_tags": 116,
+    "distinct_authored_tags_with_recorded_owner_change": 9,
+    "build": 98348,
+    "replay_sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c"
+  },
+  {
+    "tracker_sha256": "541d5fdecd50da91232f0f99398100d48d0fb7fbea236c9ff0bb0dd311d2efe4",
+    "all_startup_owner_pairs_masked": 170,
+    "pairs_from_xml": 158,
+    "unassigned_pairs_from_original": 12,
+    "authored_player_counts": {
+      "11": 46,
+      "12": 46,
+      "absent": 66
+    },
+    "tracker_byte_equal": true,
+    "recorded_owner_change_events_for_authored_tags": 90,
+    "distinct_authored_tags_with_recorded_owner_change": 9,
+    "build": 98348,
+    "replay_sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7"
+  },
+  {
+    "tracker_sha256": "a0a77dcaf693f81ce856ebfca0f88b4fc42eb5cb54c5087559ecacac1745f669",
+    "all_startup_owner_pairs_masked": 170,
+    "pairs_from_xml": 158,
+    "unassigned_pairs_from_original": 12,
+    "authored_player_counts": {
+      "11": 46,
+      "12": 46,
+      "absent": 66
+    },
+    "tracker_byte_equal": true,
+    "recorded_owner_change_events_for_authored_tags": 69,
+    "distinct_authored_tags_with_recorded_owner_change": 9,
+    "build": 98348,
+    "replay_sha256": "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd"
+  },
+  {
+    "tracker_sha256": "e5be17af07f8a0462f6a38f447af1c93916cb7df9b6111b0fb5ec0dce12c0c19",
+    "all_startup_owner_pairs_masked": 170,
+    "pairs_from_xml": 158,
+    "unassigned_pairs_from_original": 12,
+    "authored_player_counts": {
+      "11": 46,
+      "12": 46,
+      "absent": 66
+    },
+    "tracker_byte_equal": true,
+    "recorded_owner_change_events_for_authored_tags": 91,
+    "distinct_authored_tags_with_recorded_owner_change": 9,
+    "build": 98348,
+    "replay_sha256": "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e"
+  },
+  {
+    "tracker_sha256": "a7f26a8c152e129fe7271e38d537df33b5a3ebe584c1ec1501cbf02c5e95499c",
+    "all_startup_owner_pairs_masked": 170,
+    "pairs_from_xml": 158,
+    "unassigned_pairs_from_original": 12,
+    "authored_player_counts": {
+      "11": 46,
+      "12": 46,
+      "absent": 66
+    },
+    "tracker_byte_equal": true,
+    "recorded_owner_change_events_for_authored_tags": 95,
+    "distinct_authored_tags_with_recorded_owner_change": 9,
+    "build": 98348,
+    "replay_sha256": "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f"
+  },
+  {
+    "tracker_sha256": "69ba86a686b3e57be55444932d8fe0b3071f4aa207a561b9deed982e4dcd53d9",
+    "all_startup_owner_pairs_masked": 170,
+    "pairs_from_xml": 158,
+    "unassigned_pairs_from_original": 12,
+    "authored_player_counts": {
+      "11": 46,
+      "12": 46,
+      "absent": 66
+    },
+    "tracker_byte_equal": true,
+    "recorded_owner_change_events_for_authored_tags": 102,
+    "distinct_authored_tags_with_recorded_owner_change": 9,
+    "build": 98348,
+    "replay_sha256": "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77"
+  }
+]
