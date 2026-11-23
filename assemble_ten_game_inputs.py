@@ -25,6 +25,7 @@ from native_game_events import GameEvent, encode_game_events, iter_game_events
 from opening_birth_wire import target_protocol
 from point_ability_births import generate as project_point_abilities
 from predict_camp_captures import SOURCE
+from soundtrack_done import verified_rows as project_soundtrack
 from symbiote_inputs import generate as project_symbiote
 from terminal_user_leaves import leaves
 from unit_click_inputs import generate as project_clicks
@@ -35,7 +36,7 @@ def payload(row):
 
 
 def assemble(source, gate_map, mechanics, curve, selection_controls, prefix64, abathur_control, abathur_xml,
-             original_map, historical_controls, nova_xml=None):
+             original_map, historical_controls, nova_xml=None, soundtrack_evidence=None):
     target = target_protocol()
     selections = {}
     sources = {}
@@ -99,6 +100,12 @@ def assemble(source, gate_map, mechanics, curve, selection_controls, prefix64, a
         for ordinal, row in casts.items():
             add(ordinal, row, "tracker_corroborated_cast_conditional_flags")
 
+    if soundtrack_evidence is not None:
+        for ordinal, row in project_soundtrack(source, original_map, gate_map, soundtrack_evidence):
+            if ordinal in selections:
+                raise ValueError(f"Duplicate soundtrack source ordinal {ordinal}")
+            add(ordinal, row, "intro_soundtrack_requires_stock_catalog_and_recorded_schedule")
+
     old, raw = game(source, SOURCE, 41810)
     total, missing, represented = Counter(), Counter(), Counter()
     manifest, native_rows, ordered = [], [], []
@@ -154,12 +161,13 @@ if __name__=="__main__":
         cli.add_argument(arg,type=Path)
     cli.add_argument("--original-map",required=True,type=Path)
     cli.add_argument("--nova-xml",type=Path,help="Include birth-corroborated point casts using the pinned Nova catalog")
+    cli.add_argument("--soundtrack-evidence",type=Path,help="Include conditional intro completions using the verified cross-map receipt")
     cli.add_argument("--historical-control",action="append",required=True,type=Path)
     cli.add_argument("--private-dir",type=Path)
     a=cli.parse_args()
     controls=[(path,sha256(path.read_bytes()).hexdigest()) for path in a.historical_control]
     data, ledger, receipt=assemble(a.source,a.gate_map,a.mechanics,a.curve,a.selection_controls,
-                                   a.prefix64,a.abathur_control,a.abathur_xml,a.original_map,controls,a.nova_xml)
+                                   a.prefix64,a.abathur_control,a.abathur_xml,a.original_map,controls,a.nova_xml,a.soundtrack_evidence)
     if a.private_dir:
         a.private_dir.mkdir(exist_ok=False)
         (a.private_dir/"game-inputs.private.bin").write_bytes(data)

@@ -1,0 +1,197 @@
+{
+  "native": {
+    "build": 98348,
+    "pe_sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+    "text_sha256": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83",
+    "native_event_root": 490,
+    "payload": "uint32",
+    "producer_object_link_bits": 16,
+    "absent_link": 65535,
+    "listener_table_offset": 552,
+    "pending_kind": 4,
+    "checks_pending_and_reported_catalog_link": true
+  },
+  "map_roles": [
+    {
+      "build": 41810,
+      "map_sha256": "e0a58745837b3b5351015c933560dbffb178d747009d2d57b4153ef425cf7250",
+      "role": "MX_Dragonshire_Intro",
+      "recordings": 4,
+      "word_counts": {
+        "96": 218
+      }
+    },
+    {
+      "build": 98348,
+      "map_sha256": "1860ffa5906bb6ee8054ed080a4afcefaa534d4643ce0781aad84623724442b2",
+      "role": "MX_BoE_Intro",
+      "recordings": 1,
+      "word_counts": {
+        "282": 40
+      }
+    },
+    {
+      "build": 98348,
+      "map_sha256": "60f3737b16c5f687d214ad90746b0e32900ab796ddf4a907a380a7cd6037d672",
+      "role": "MX_Towers_Intro",
+      "recordings": 1,
+      "word_counts": {
+        "277": 66
+      }
+    },
+    {
+      "build": 98348,
+      "map_sha256": "7751c274aa96c7b58e89c757eeb89e05f28e5c369e463ec6d51bf172681bd3a9",
+      "role": "MX_RavensCourt_Intro",
+      "recordings": 1,
+      "word_counts": {
+        "203": 48
+      }
+    },
+    {
+      "build": 98348,
+      "map_sha256": "889da151b127b6b5091a26c0395b7787a74cd3f4dea69521512cf027129a009e",
+      "role": "MX_SkyTemple_Intro",
+      "recordings": 1,
+      "word_counts": {
+        "145": 42
+      }
+    },
+    {
+      "build": 98348,
+      "map_sha256": "a713e0d47c677fd2b99f9ee8398c22a3e30cc018fcc83d1dda3c09b31f1e76c1",
+      "role": "MX_LuxCrypt_Court_Intro",
+      "recordings": 2,
+      "word_counts": {
+        "273": 102
+      }
+    },
+    {
+      "build": 98348,
+      "map_sha256": "ab9867fa3ecc52c8330553a120af5853f6673b6e42a9e393ee82dd6629fb7e93",
+      "role": "MX_LuxCrypt_Court_Intro",
+      "recordings": 1,
+      "word_counts": {
+        "273": 32
+      }
+    },
+    {
+      "build": 98348,
+      "map_sha256": "d952569f975d31a83e9d12d6b488589044e325ba92871aef62e104ed1859202e",
+      "role": "MX_Volskaya_Intro",
+      "recordings": 1,
+      "word_counts": {
+        "275": 64
+      }
+    },
+    {
+      "build": 98348,
+      "map_sha256": "f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f",
+      "role": "MX_Dragonshire_Intro",
+      "recordings": 15,
+      "word_counts": {
+        "195": 794
+      }
+    },
+    {
+      "build": 98348,
+      "map_sha256": "fddf3267c510a29b4ad55ada48096860054969095cf025a54f91b15fc310714e",
+      "role": "MX_Shrines_Intro",
+      "recordings": 1,
+      "word_counts": {
+        "283": 58
+      }
+    }
+  ],
+  "relative_ranks": {
+    "declarations": {
+      "MX_SkyTemple_Intro": 107,
+      "MX_Dragonshire_Intro": 163,
+      "MX_RavensCourt_Intro": 171
+    },
+    "declarations_next": {
+      "MX_SkyTemple_Intro": 112,
+      "MX_Dragonshire_Intro": 163,
+      "MX_RavensCourt_Intro": 171
+    },
+    "ui_declarations_next": {
+      "MX_SkyTemple_Intro": 116,
+      "MX_Dragonshire_Intro": 166,
+      "MX_RavensCourt_Intro": 174
+    }
+  },
+  "predictions_from_non_dragon_maps": {
+    "declarations": {
+      "MX_SkyTemple_Intro": 201,
+      "MX_RavensCourt_Intro": 195
+    },
+    "declarations_next": {
+      "MX_SkyTemple_Intro": 196,
+      "MX_RavensCourt_Intro": 195
+    },
+    "ui_declarations_next": {
+      "MX_SkyTemple_Intro": 195,
+      "MX_RavensCourt_Intro": 195
+    }
+  },
+  "target_word": 195,
+  "old_word": 96,
+  "other_map_calibration_recordings": 2,
+  "held_out_stock_dragon_recordings": 15,
+  "held_out_stock_dragon_rows": 794,
+  "ten_original_ordinals": [
+    4251,
+    4253,
+    4257,
+    4259,
+    4266,
+    4268,
+    4274,
+    4275,
+    4303,
+    4304,
+    4308,
+    4309,
+    5511,
+    5512,
+    5518,
+    5519,
+    5520,
+    5521,
+    5524,
+    5525,
+    5526,
+    5527,
+    5531,
+    5532,
+    5535,
+    5536,
+    5537,
+    5538,
+    5541,
+    5542,
+    5545,
+    5546,
+    5549,
+    5550,
+    5552,
+    5553,
+    5554,
+    5555,
+    5557,
+    5558,
+    5560,
+    5561,
+    5565,
+    5566,
+    5569,
+    5570
+  ],
+  "ten_conditional_frames": 46,
+  "sparse_bytes": 322,
+  "sparse_sha256": "522bc5077b1ec41a874dcb5bd5918616a3b006d0456a860f4c25b642337bd1f9",
+  "first_original_loop": 887,
+  "original_user_and_cadence_retained": true,
+  "complete_catalog_loader_recovered": false,
+  "target_reporting_schedule_verified": false
+}

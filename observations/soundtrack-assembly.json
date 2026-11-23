@@ -1,0 +1,22 @@
+{
+  "prior_inputs": 21539,
+  "added_inputs": 46,
+  "total_inputs": 21585,
+  "prior_frames_byte_identical": 21532,
+  "prior_frames_only_delta_changed": 7,
+  "prior_ordinals_with_new_delta": [
+    4252,
+    4258,
+    4267,
+    4276,
+    4327,
+    5564,
+    5573
+  ],
+  "added_frames_byte_identical_to_fragment": 39,
+  "added_frames_only_delta_changed": 7,
+  "prior_stream_sha256": "566e8866089d44c526dd4ae6e68f015c7dd280167a028aac06a5a708eb14c2f7",
+  "fragment_sha256": "522bc5077b1ec41a874dcb5bd5918616a3b006d0456a860f4c25b642337bd1f9",
+  "combined_stream_sha256": "d5722b8a4e8e794d6321abe49a7d4cdf825b793fc259e3b9c94fbf2d9c814cfd",
+  "combined_ordinal_ledger_sha256": "8493263af8a2292db62fdec6e8f956534c60727c3f0e0caceea3a302c8355671"
+}
