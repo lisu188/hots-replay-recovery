@@ -1,0 +1,44 @@
+{
+  "parent_sha256": "58874aca37caeacaf42789a7e90fd2da830559f6cd744c32f5724e4477a6fcb3",
+  "map_sha256": "bda7aafd1d63c77b3b4d29ff2afee96da09a3104b54b4a1d625bb299607d9008",
+  "bytes": 2149576,
+  "game_sha256": "a6384749fbe8f676cbd6ccb9ec1aeac004815d37a8e1c2f8f9f8f176b2bfca09",
+  "evidence_sha256": "ded8beecd894b3478374990ef433ee4da9ed5821ebb8a3d3d5cee781ac6ae578",
+  "script_sha256": "6b6f8f51778ed77cc6bd183827a349d9f8b817ca51b1fa9b816926df9d603d6e",
+  "unchanged_content_members": 69,
+  "integrity": {
+    "content_members": 70,
+    "live_blocks": 72,
+    "raw_table_results": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "native_member_flags": {
+      "256": 1,
+      "336": 71
+    }
+  },
+  "native_compilation_verified": false,
+  "native_playback_verified": false,
+  "two_independent_builds_byte_identical": true,
+  "verification": {
+    "libraries": 22,
+    "copied_game_initializer_calls": 176,
+    "gates_registration_position": 62,
+    "only_two_iteration_bodies_changed": true,
+    "same_completion_flag_timer_and_registration": true,
+    "shuffled_group_pairs": 256,
+    "synthetic_edge_cases": 3,
+    "unit_removals": 13829,
+    "source_sparse_bytes": 1836,
+    "source_sparse_sha256": "b5d20bbe65a5b09b83f2ec0822a96541809a8b2b7e7068d47dcfe13409f83a94",
+    "authentic_group_sizes": [
+      30,
+      24
+    ]
+  }
+}
