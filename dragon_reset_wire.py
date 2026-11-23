@@ -9,6 +9,7 @@ from pathlib import Path
 
 from camp_owner_wire import FIELDS, OWNER, STOCK, encode_sparse, frame_bytes, read_tracker, target_protocol
 from dragon_startup_births import predict
+from dragonshire_packages import MERC_CAPTURE, SIGNED_ANNOUNCER
 from first_camp_event_order import layout
 from mpq_mixed_sectors import read_member
 from mpq_reader import MPQArchive
@@ -18,7 +19,7 @@ DERIVATIVE = "4fc0c3bf21a2b96eda9d8d03f3a309256bf6aacf4715c1a1fc71700ae8edb2c8"
 SHARED = "2d5cba9c5fd8276ae62468533fae558222730d55b146d41b7ebb7d30532e70b7"
 HISTORICAL_MAPS = {DERIVATIVE, SHARED,
                    '786f04a19c4222d5e81faefd7363c5422c16b49216732c28a773c74d853e10a9',
-                   '150bdcea5435021263c84648d892c2c3dcc26bff8c72d1be5198c31a4bb09791'}
+                   SIGNED_ANNOUNCER, MERC_CAPTURE}
 COHORT = "1b571c891d5b5646c21d39e6552af48b1b98926d4b0b948c556ae19408600a94"
 SHRINES = (b"DragonShireShrineSun", b"DragonShireShrineMoon")
 

@@ -1,0 +1,21 @@
+{
+  "target_map": "54e1a8fbe7e42f00b7b52cde420ed259105228fcdf165097ef52ecd0f5c4125a",
+  "observed": {
+    "41810": {
+      "DragonKnightActivated": 15,
+      "JungleCampCapture": 41
+    },
+    "98348": {
+      "JungleCampCapture": 260,
+      "DragonKnightActivated": 52
+    }
+  },
+  "ten_rows": 17,
+  "ten_bytes": 2117,
+  "ten_sha256": "865475c21f19bbe4c7ade9f11c8b2f3d8dce2ba8c71e77bb9670174a746c35ff",
+  "camp_time_origin": "team beacon ownership loop",
+  "dragon_time_origin": "pilot transfer loop",
+  "source_objective_stats_used_for_prediction": false,
+  "uses_recorded_ownership": true,
+  "validated_syncs": 0
+}

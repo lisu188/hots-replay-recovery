@@ -13,6 +13,7 @@ from camp_owner_wire import PROFILE_MAPS, read_tracker
 from dragon_catapult_waves import town_regions
 from dragon_startup_births import indexed, xy
 from encoders import encode_tracker_events
+from dragonshire_packages import MERC_CAPTURE, SIGNED_ANNOUNCER
 from mpq_mixed_sectors import read_member
 from mpq_reader import MPQArchive
 from protocol_loader import load_protocol
@@ -40,7 +41,7 @@ def position(x, y):
 
 def generate(package, build):
     digest = sha256(package.read_bytes()).hexdigest()
-    if digest not in PROFILE_MAPS[build]:
+    if digest not in PROFILE_MAPS[build] and not (build == 41810 and digest in (SIGNED_ANNOUNCER, MERC_CAPTURE)):
         raise ValueError("Unexpected map package")
     with closing(MPQArchive(package)) as arc:
         objects = ElementTree.fromstring(read_member(arc, "Objects"))

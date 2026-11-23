@@ -12,6 +12,7 @@ from xml.etree import ElementTree
 
 from camp_owner_wire import read_tracker, STOCK, STOCK_PACKAGE, TARGET_SCHEMA_SHA
 from encoders import encode_tracker_events
+from dragonshire_packages import MERC_CAPTURE, SIGNED_ANNOUNCER
 from hero_camera_lifetimes import core_horizon, independent_histories, lobby_predictions, recorded_histories, timers
 from mpq_mixed_sectors import read_member
 from mpq_reader import MPQArchive
@@ -38,7 +39,7 @@ FIELDS = ("m_unitTagIndex", "m_unitTagRecycle", "m_x", "m_y")
 
 def starts(path, build):
     digest = sha256(path.read_bytes()).hexdigest()
-    if digest not in ({HIST_MAP, WAVE_MAP, KEEP_MAP, GATE_MAP} if build == 41810 else {STOCK, STOCK_PACKAGE}):
+    if digest not in ({HIST_MAP, WAVE_MAP, KEEP_MAP, GATE_MAP, SIGNED_ANNOUNCER, MERC_CAPTURE} if build == 41810 else {STOCK, STOCK_PACKAGE}):
         raise ValueError("Unexpected map package")
     with closing(MPQArchive(path)) as arc:
         info, xml = (read_member(arc, k) for k in ("MapInfo", "Objects"))
