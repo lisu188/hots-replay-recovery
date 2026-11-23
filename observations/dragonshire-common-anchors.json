@@ -1,0 +1,830 @@
+[
+  {
+    "type": "DragonShireShrineMoon",
+    "x": 124,
+    "y": 47,
+    "source_object_id": 38,
+    "target_object_id": 38,
+    "source_index": 13,
+    "target_index": 11
+  },
+  {
+    "type": "DragonShireShrineSun",
+    "x": 124,
+    "y": 155,
+    "source_object_id": 397,
+    "target_object_id": 397,
+    "source_index": 59,
+    "target_index": 54
+  },
+  {
+    "type": "KingsCore",
+    "x": 46,
+    "y": 92,
+    "source_object_id": 210,
+    "target_object_id": 210,
+    "source_index": 54,
+    "target_index": 49
+  },
+  {
+    "type": "KingsCore",
+    "x": 202,
+    "y": 92,
+    "source_object_id": 346,
+    "target_object_id": 346,
+    "source_index": 58,
+    "target_index": 53
+  },
+  {
+    "type": "StormGameStartPathingBlocker",
+    "x": 75,
+    "y": 78,
+    "source_object_id": 1167,
+    "target_object_id": 1167,
+    "source_index": 115,
+    "target_index": 103
+  },
+  {
+    "type": "StormGameStartPathingBlocker",
+    "x": 75,
+    "y": 107,
+    "source_object_id": 1174,
+    "target_object_id": 1174,
+    "source_index": 121,
+    "target_index": 109
+  },
+  {
+    "type": "StormGameStartPathingBlocker",
+    "x": 76,
+    "y": 80,
+    "source_object_id": 1163,
+    "target_object_id": 1163,
+    "source_index": 113,
+    "target_index": 101
+  },
+  {
+    "type": "StormGameStartPathingBlocker",
+    "x": 76,
+    "y": 105,
+    "source_object_id": 1171,
+    "target_object_id": 1171,
+    "source_index": 119,
+    "target_index": 107
+  },
+  {
+    "type": "StormGameStartPathingBlocker",
+    "x": 77,
+    "y": 82,
+    "source_object_id": 717,
+    "target_object_id": 717,
+    "source_index": 107,
+    "target_index": 95
+  },
+  {
+    "type": "StormGameStartPathingBlocker",
+    "x": 77,
+    "y": 86,
+    "source_object_id": 654,
+    "target_object_id": 654,
+    "source_index": 103,
+    "target_index": 91
+  },
+  {
+    "type": "StormGameStartPathingBlocker",
+    "x": 77,
+    "y": 88,
+    "source_object_id": 652,
+    "target_object_id": 652,
+    "source_index": 101,
+    "target_index": 89
+  },
+  {
+    "type": "StormGameStartPathingBlocker",
+    "x": 77,
+    "y": 90,
+    "source_object_id": 649,
+    "target_object_id": 649,
+    "source_index": 99,
+    "target_index": 87
+  },
+  {
+    "type": "StormGameStartPathingBlocker",
+    "x": 77,
+    "y": 92,
+    "source_object_id": 633,
+    "target_object_id": 633,
+    "source_index": 97,
+    "target_index": 85
+  },
+  {
+    "type": "StormGameStartPathingBlocker",
+    "x": 77,
+    "y": 94,
+    "source_object_id": 631,
+    "target_object_id": 631,
+    "source_index": 95,
+    "target_index": 83
+  },
+  {
+    "type": "StormGameStartPathingBlocker",
+    "x": 77,
+    "y": 96,
+    "source_object_id": 629,
+    "target_object_id": 629,
+    "source_index": 93,
+    "target_index": 81
+  },
+  {
+    "type": "StormGameStartPathingBlocker",
+    "x": 77,
+    "y": 98,
+    "source_object_id": 627,
+    "target_object_id": 627,
+    "source_index": 91,
+    "target_index": 79
+  },
+  {
+    "type": "StormGameStartPathingBlocker",
+    "x": 77,
+    "y": 100,
+    "source_object_id": 625,
+    "target_object_id": 625,
+    "source_index": 89,
+    "target_index": 77
+  },
+  {
+    "type": "StormGameStartPathingBlocker",
+    "x": 171,
+    "y": 82,
+    "source_object_id": 710,
+    "target_object_id": 710,
+    "source_index": 106,
+    "target_index": 94
+  },
+  {
+    "type": "StormGameStartPathingBlocker",
+    "x": 171,
+    "y": 86,
+    "source_object_id": 653,
+    "target_object_id": 653,
+    "source_index": 102,
+    "target_index": 90
+  },
+  {
+    "type": "StormGameStartPathingBlocker",
+    "x": 171,
+    "y": 88,
+    "source_object_id": 651,
+    "target_object_id": 651,
+    "source_index": 100,
+    "target_index": 88
+  },
+  {
+    "type": "StormGameStartPathingBlocker",
+    "x": 171,
+    "y": 90,
+    "source_object_id": 634,
+    "target_object_id": 634,
+    "source_index": 98,
+    "target_index": 86
+  },
+  {
+    "type": "StormGameStartPathingBlocker",
+    "x": 171,
+    "y": 92,
+    "source_object_id": 632,
+    "target_object_id": 632,
+    "source_index": 96,
+    "target_index": 84
+  },
+  {
+    "type": "StormGameStartPathingBlocker",
+    "x": 171,
+    "y": 94,
+    "source_object_id": 630,
+    "target_object_id": 630,
+    "source_index": 94,
+    "target_index": 82
+  },
+  {
+    "type": "StormGameStartPathingBlocker",
+    "x": 171,
+    "y": 96,
+    "source_object_id": 628,
+    "target_object_id": 628,
+    "source_index": 92,
+    "target_index": 80
+  },
+  {
+    "type": "StormGameStartPathingBlocker",
+    "x": 171,
+    "y": 98,
+    "source_object_id": 626,
+    "target_object_id": 626,
+    "source_index": 90,
+    "target_index": 78
+  },
+  {
+    "type": "StormGameStartPathingBlocker",
+    "x": 171,
+    "y": 100,
+    "source_object_id": 624,
+    "target_object_id": 624,
+    "source_index": 88,
+    "target_index": 76
+  },
+  {
+    "type": "StormGameStartPathingBlocker",
+    "x": 172,
+    "y": 80,
+    "source_object_id": 1166,
+    "target_object_id": 1166,
+    "source_index": 114,
+    "target_index": 102
+  },
+  {
+    "type": "StormGameStartPathingBlocker",
+    "x": 172,
+    "y": 105,
+    "source_object_id": 1172,
+    "target_object_id": 1172,
+    "source_index": 120,
+    "target_index": 108
+  },
+  {
+    "type": "StormGameStartPathingBlocker",
+    "x": 173,
+    "y": 78,
+    "source_object_id": 1168,
+    "target_object_id": 1168,
+    "source_index": 116,
+    "target_index": 104
+  },
+  {
+    "type": "StormGameStartPathingBlocker",
+    "x": 173,
+    "y": 107,
+    "source_object_id": 1212,
+    "target_object_id": 1212,
+    "source_index": 122,
+    "target_index": 110
+  },
+  {
+    "type": "StormGameStartPathingBlockerDiagonal",
+    "x": 62,
+    "y": 64,
+    "source_object_id": 2057,
+    "target_object_id": 2057,
+    "source_index": 151,
+    "target_index": 139
+  },
+  {
+    "type": "StormGameStartPathingBlockerDiagonal",
+    "x": 64,
+    "y": 66,
+    "source_object_id": 2055,
+    "target_object_id": 2055,
+    "source_index": 149,
+    "target_index": 137
+  },
+  {
+    "type": "StormGameStartPathingBlockerDiagonal",
+    "x": 65,
+    "y": 119,
+    "source_object_id": 1933,
+    "target_object_id": 1933,
+    "source_index": 133,
+    "target_index": 121
+  },
+  {
+    "type": "StormGameStartPathingBlockerDiagonal",
+    "x": 66,
+    "y": 68,
+    "source_object_id": 1943,
+    "target_object_id": 1943,
+    "source_index": 143,
+    "target_index": 131
+  },
+  {
+    "type": "StormGameStartPathingBlockerDiagonal",
+    "x": 67,
+    "y": 117,
+    "source_object_id": 1935,
+    "target_object_id": 1935,
+    "source_index": 135,
+    "target_index": 123
+  },
+  {
+    "type": "StormGameStartPathingBlockerDiagonal",
+    "x": 68,
+    "y": 70,
+    "source_object_id": 1945,
+    "target_object_id": 1945,
+    "source_index": 145,
+    "target_index": 133
+  },
+  {
+    "type": "StormGameStartPathingBlockerDiagonal",
+    "x": 69,
+    "y": 115,
+    "source_object_id": 1937,
+    "target_object_id": 1937,
+    "source_index": 137,
+    "target_index": 125
+  },
+  {
+    "type": "StormGameStartPathingBlockerDiagonal",
+    "x": 70,
+    "y": 72,
+    "source_object_id": 1947,
+    "target_object_id": 1947,
+    "source_index": 147,
+    "target_index": 135
+  },
+  {
+    "type": "StormGameStartPathingBlockerDiagonal",
+    "x": 71,
+    "y": 113,
+    "source_object_id": 1939,
+    "target_object_id": 1939,
+    "source_index": 139,
+    "target_index": 127
+  },
+  {
+    "type": "StormGameStartPathingBlockerDiagonal",
+    "x": 72,
+    "y": 74,
+    "source_object_id": 2059,
+    "target_object_id": 2059,
+    "source_index": 153,
+    "target_index": 141
+  },
+  {
+    "type": "StormGameStartPathingBlockerDiagonal",
+    "x": 73,
+    "y": 111,
+    "source_object_id": 1941,
+    "target_object_id": 1941,
+    "source_index": 141,
+    "target_index": 129
+  },
+  {
+    "type": "StormGameStartPathingBlockerDiagonal",
+    "x": 74,
+    "y": 76,
+    "source_object_id": 2061,
+    "target_object_id": 2061,
+    "source_index": 155,
+    "target_index": 143
+  },
+  {
+    "type": "StormGameStartPathingBlockerDiagonal",
+    "x": 174,
+    "y": 76,
+    "source_object_id": 2062,
+    "target_object_id": 2062,
+    "source_index": 156,
+    "target_index": 144
+  },
+  {
+    "type": "StormGameStartPathingBlockerDiagonal",
+    "x": 175,
+    "y": 111,
+    "source_object_id": 1942,
+    "target_object_id": 1942,
+    "source_index": 142,
+    "target_index": 130
+  },
+  {
+    "type": "StormGameStartPathingBlockerDiagonal",
+    "x": 176,
+    "y": 74,
+    "source_object_id": 2060,
+    "target_object_id": 2060,
+    "source_index": 154,
+    "target_index": 142
+  },
+  {
+    "type": "StormGameStartPathingBlockerDiagonal",
+    "x": 177,
+    "y": 113,
+    "source_object_id": 1940,
+    "target_object_id": 1940,
+    "source_index": 140,
+    "target_index": 128
+  },
+  {
+    "type": "StormGameStartPathingBlockerDiagonal",
+    "x": 178,
+    "y": 72,
+    "source_object_id": 1948,
+    "target_object_id": 1948,
+    "source_index": 148,
+    "target_index": 136
+  },
+  {
+    "type": "StormGameStartPathingBlockerDiagonal",
+    "x": 179,
+    "y": 115,
+    "source_object_id": 1938,
+    "target_object_id": 1938,
+    "source_index": 138,
+    "target_index": 126
+  },
+  {
+    "type": "StormGameStartPathingBlockerDiagonal",
+    "x": 180,
+    "y": 70,
+    "source_object_id": 1946,
+    "target_object_id": 1946,
+    "source_index": 146,
+    "target_index": 134
+  },
+  {
+    "type": "StormGameStartPathingBlockerDiagonal",
+    "x": 181,
+    "y": 117,
+    "source_object_id": 1936,
+    "target_object_id": 1936,
+    "source_index": 136,
+    "target_index": 124
+  },
+  {
+    "type": "StormGameStartPathingBlockerDiagonal",
+    "x": 182,
+    "y": 68,
+    "source_object_id": 1944,
+    "target_object_id": 1944,
+    "source_index": 144,
+    "target_index": 132
+  },
+  {
+    "type": "StormGameStartPathingBlockerDiagonal",
+    "x": 183,
+    "y": 119,
+    "source_object_id": 1934,
+    "target_object_id": 1934,
+    "source_index": 134,
+    "target_index": 122
+  },
+  {
+    "type": "StormGameStartPathingBlockerDiagonal",
+    "x": 184,
+    "y": 66,
+    "source_object_id": 2056,
+    "target_object_id": 2056,
+    "source_index": 150,
+    "target_index": 138
+  },
+  {
+    "type": "StormGameStartPathingBlockerDiagonal",
+    "x": 186,
+    "y": 64,
+    "source_object_id": 2058,
+    "target_object_id": 2058,
+    "source_index": 152,
+    "target_index": 140
+  },
+  {
+    "type": "TownCannonTowerL2",
+    "x": 103,
+    "y": 60,
+    "source_object_id": 85,
+    "target_object_id": 85,
+    "source_index": 31,
+    "target_index": 27
+  },
+  {
+    "type": "TownCannonTowerL2",
+    "x": 103,
+    "y": 145,
+    "source_object_id": 86,
+    "target_object_id": 86,
+    "source_index": 32,
+    "target_index": 28
+  },
+  {
+    "type": "TownCannonTowerL2",
+    "x": 105,
+    "y": 52,
+    "source_object_id": 87,
+    "target_object_id": 87,
+    "source_index": 33,
+    "target_index": 29
+  },
+  {
+    "type": "TownCannonTowerL2",
+    "x": 105,
+    "y": 96,
+    "source_object_id": 13,
+    "target_object_id": 13,
+    "source_index": 1,
+    "target_index": 1
+  },
+  {
+    "type": "TownCannonTowerL2",
+    "x": 105,
+    "y": 137,
+    "source_object_id": 89,
+    "target_object_id": 89,
+    "source_index": 35,
+    "target_index": 31
+  },
+  {
+    "type": "TownCannonTowerL2",
+    "x": 107,
+    "y": 88,
+    "source_object_id": 16,
+    "target_object_id": 16,
+    "source_index": 2,
+    "target_index": 2
+  },
+  {
+    "type": "TownCannonTowerL2",
+    "x": 141,
+    "y": 88,
+    "source_object_id": 36,
+    "target_object_id": 36,
+    "source_index": 12,
+    "target_index": 10
+  },
+  {
+    "type": "TownCannonTowerL2",
+    "x": 143,
+    "y": 52,
+    "source_object_id": 47,
+    "target_object_id": 47,
+    "source_index": 20,
+    "target_index": 17
+  },
+  {
+    "type": "TownCannonTowerL2",
+    "x": 143,
+    "y": 96,
+    "source_object_id": 33,
+    "target_object_id": 33,
+    "source_index": 10,
+    "target_index": 8
+  },
+  {
+    "type": "TownCannonTowerL2",
+    "x": 143,
+    "y": 137,
+    "source_object_id": 57,
+    "target_object_id": 57,
+    "source_index": 24,
+    "target_index": 21
+  },
+  {
+    "type": "TownCannonTowerL2",
+    "x": 145,
+    "y": 60,
+    "source_object_id": 44,
+    "target_object_id": 44,
+    "source_index": 18,
+    "target_index": 15
+  },
+  {
+    "type": "TownCannonTowerL2",
+    "x": 145,
+    "y": 145,
+    "source_object_id": 43,
+    "target_object_id": 43,
+    "source_index": 17,
+    "target_index": 14
+  },
+  {
+    "type": "TownCannonTowerL3",
+    "x": 65,
+    "y": 66,
+    "source_object_id": 27,
+    "target_object_id": 27,
+    "source_index": 7,
+    "target_index": 5
+  },
+  {
+    "type": "TownCannonTowerL3",
+    "x": 66,
+    "y": 118,
+    "source_object_id": 94,
+    "target_object_id": 94,
+    "source_index": 39,
+    "target_index": 34
+  },
+  {
+    "type": "TownCannonTowerL3",
+    "x": 71,
+    "y": 72,
+    "source_object_id": 114,
+    "target_object_id": 114,
+    "source_index": 42,
+    "target_index": 37
+  },
+  {
+    "type": "TownCannonTowerL3",
+    "x": 72,
+    "y": 112,
+    "source_object_id": 93,
+    "target_object_id": 93,
+    "source_index": 38,
+    "target_index": 33
+  },
+  {
+    "type": "TownCannonTowerL3",
+    "x": 78,
+    "y": 88,
+    "source_object_id": 54,
+    "target_object_id": 54,
+    "source_index": 22,
+    "target_index": 19
+  },
+  {
+    "type": "TownCannonTowerL3",
+    "x": 78,
+    "y": 96,
+    "source_object_id": 55,
+    "target_object_id": 55,
+    "source_index": 23,
+    "target_index": 20
+  },
+  {
+    "type": "TownCannonTowerL3",
+    "x": 170,
+    "y": 88,
+    "source_object_id": 63,
+    "target_object_id": 63,
+    "source_index": 28,
+    "target_index": 24
+  },
+  {
+    "type": "TownCannonTowerL3",
+    "x": 170,
+    "y": 96,
+    "source_object_id": 88,
+    "target_object_id": 88,
+    "source_index": 34,
+    "target_index": 30
+  },
+  {
+    "type": "TownCannonTowerL3",
+    "x": 176,
+    "y": 112,
+    "source_object_id": 2,
+    "target_object_id": 2,
+    "source_index": 0,
+    "target_index": 0
+  },
+  {
+    "type": "TownCannonTowerL3",
+    "x": 177,
+    "y": 72,
+    "source_object_id": 143,
+    "target_object_id": 143,
+    "source_index": 44,
+    "target_index": 39
+  },
+  {
+    "type": "TownCannonTowerL3",
+    "x": 182,
+    "y": 118,
+    "source_object_id": 144,
+    "target_object_id": 144,
+    "source_index": 45,
+    "target_index": 40
+  },
+  {
+    "type": "TownCannonTowerL3",
+    "x": 183,
+    "y": 66,
+    "source_object_id": 149,
+    "target_object_id": 149,
+    "source_index": 47,
+    "target_index": 42
+  },
+  {
+    "type": "TownGateL215BLUR",
+    "x": 142,
+    "y": 92,
+    "source_object_id": 41,
+    "target_object_id": 41,
+    "source_index": 15,
+    "target_index": 12
+  },
+  {
+    "type": "TownGateL215BLUR",
+    "x": 144,
+    "y": 56,
+    "source_object_id": 146,
+    "target_object_id": 146,
+    "source_index": 46,
+    "target_index": 41
+  },
+  {
+    "type": "TownGateL215BLUR",
+    "x": 144,
+    "y": 141,
+    "source_object_id": 35,
+    "target_object_id": 35,
+    "source_index": 11,
+    "target_index": 9
+  },
+  {
+    "type": "TownGateL215BRUL",
+    "x": 104,
+    "y": 56,
+    "source_object_id": 133,
+    "target_object_id": 133,
+    "source_index": 43,
+    "target_index": 38
+  },
+  {
+    "type": "TownGateL215BRUL",
+    "x": 104,
+    "y": 141,
+    "source_object_id": 32,
+    "target_object_id": 32,
+    "source_index": 9,
+    "target_index": 7
+  },
+  {
+    "type": "TownGateL215BRUL",
+    "x": 106,
+    "y": 92,
+    "source_object_id": 19,
+    "target_object_id": 19,
+    "source_index": 4,
+    "target_index": 3
+  },
+  {
+    "type": "TownGateL3BLURBRVisionBlocked",
+    "x": 179,
+    "y": 115,
+    "source_object_id": 1814,
+    "target_object_id": 1814,
+    "source_index": 131,
+    "target_index": 119
+  },
+  {
+    "type": "TownGateL3BLURTLVisionBlocked",
+    "x": 68,
+    "y": 69,
+    "source_object_id": 1810,
+    "target_object_id": 1810,
+    "source_index": 127,
+    "target_index": 115
+  },
+  {
+    "type": "TownGateL3BRULBLVisionBlocked",
+    "x": 69,
+    "y": 115,
+    "source_object_id": 1811,
+    "target_object_id": 1811,
+    "source_index": 128,
+    "target_index": 116
+  },
+  {
+    "type": "TownGateL3BRULTRVisionBlocked",
+    "x": 180,
+    "y": 69,
+    "source_object_id": 1815,
+    "target_object_id": 1815,
+    "source_index": 132,
+    "target_index": 120
+  },
+  {
+    "type": "TownGateL3VerticalLeftVisionBlocked",
+    "x": 78,
+    "y": 92,
+    "source_object_id": 1812,
+    "target_object_id": 1812,
+    "source_index": 129,
+    "target_index": 117
+  },
+  {
+    "type": "TownGateL3VerticalRightVisionBlocked",
+    "x": 170,
+    "y": 92,
+    "source_object_id": 1813,
+    "target_object_id": 1813,
+    "source_index": 130,
+    "target_index": 118
+  },
+  {
+    "type": "TownTownHallL3",
+    "x": 64,
+    "y": 91,
+    "source_object_id": 62,
+    "target_object_id": 62,
+    "source_index": 27,
+    "target_index": 23
+  },
+  {
+    "type": "TownTownHallL3",
+    "x": 184,
+    "y": 91,
+    "source_object_id": 96,
+    "target_object_id": 96,
+    "source_index": 40,
+    "target_index": 35
+  }
+]

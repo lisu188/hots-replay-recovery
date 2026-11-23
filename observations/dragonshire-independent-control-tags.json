@@ -1,0 +1,152 @@
+{
+  "training_roster_sha256": "fc6dbc312dac9143bfe450d661f8033a04c2ce4eec51878618e2a517f8faf609",
+  "common_anchors_sha256": "4bd6c35a1550a9fbdf90c31f25170faefdd4d170e3f49dfb737089495fccdd46",
+  "frozen_exact_m_targetUnitFlags": [
+    111
+  ],
+  "cases": [
+    {
+      "replay_sha256": "bc16af7f68496cddc4698f70b3853402a0f30aa37951aec3a6b555ed703879e8",
+      "replay_bytes": 1461420,
+      "date": "2026-10-20",
+      "public_url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-20-2026_Durotan_s_Couch_vs_The_Negotiators_Dragon_Shire.stormReplay",
+      "commands": 7771,
+      "ground_truth_live_anchor_targets": 526,
+      "game_bytes": 2733434,
+      "game_sha256": "562b6304dfd541ed3ed8c6b1084b63217e5b3d0df477c2eb73c0594c5a47613c",
+      "reconstructed_sha256": "562b6304dfd541ed3ed8c6b1084b63217e5b3d0df477c2eb73c0594c5a47613c",
+      "game_byte_equal": true,
+      "xy_only": {
+        "predictions": 543,
+        "correct_tags": 526,
+        "wrong_tags": 17,
+        "true_anchor_targets_missed": 0,
+        "abstentions": {
+          "outside_anchor_xy": 7220,
+          "outside_initial_lifetime": 8
+        },
+        "wrong_examples": [
+          {
+            "ordinal": 11035,
+            "loop": 1673,
+            "predicted_index": 12,
+            "recorded_index": 0,
+            "recorded_recycle": 0
+          },
+          {
+            "ordinal": 22389,
+            "loop": 3009,
+            "predicted_index": 10,
+            "recorded_index": 0,
+            "recorded_recycle": 0
+          },
+          {
+            "ordinal": 26219,
+            "loop": 3447,
+            "predicted_index": 17,
+            "recorded_index": 0,
+            "recorded_recycle": 0
+          },
+          {
+            "ordinal": 39090,
+            "loop": 4997,
+            "predicted_index": 15,
+            "recorded_index": 0,
+            "recorded_recycle": 0
+          },
+          {
+            "ordinal": 67997,
+            "loop": 8556,
+            "predicted_index": 118,
+            "recorded_index": 0,
+            "recorded_recycle": 0
+          }
+        ]
+      },
+      "frozen": {
+        "predictions": 526,
+        "correct_tags": 526,
+        "wrong_tags": 0,
+        "true_anchor_targets_missed": 0,
+        "abstentions": {
+          "outside_anchor_xy": 7166,
+          "flag_value_not_confirmed_non_sentinel": 71,
+          "outside_initial_lifetime": 8
+        },
+        "wrong_examples": []
+      }
+    },
+    {
+      "replay_sha256": "a956b186a0459a47d9b0fdd8af4ccb65c437f11926186471c434e543e218b2d7",
+      "replay_bytes": 841451,
+      "date": "2026-10-20",
+      "public_url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-20-2026_Xul_Gin_Distillery_vs_Protectors_of_Shakuras_Dragon_Shire.stormReplay",
+      "commands": 5336,
+      "ground_truth_live_anchor_targets": 428,
+      "game_bytes": 1408798,
+      "game_sha256": "221b343574b91cea563b3fc3011a160e8455e21a8e289f91ff7cdf4b3b3b2f95",
+      "reconstructed_sha256": "221b343574b91cea563b3fc3011a160e8455e21a8e289f91ff7cdf4b3b3b2f95",
+      "game_byte_equal": true,
+      "xy_only": {
+        "predictions": 437,
+        "correct_tags": 428,
+        "wrong_tags": 9,
+        "true_anchor_targets_missed": 0,
+        "abstentions": {
+          "outside_anchor_xy": 4896,
+          "outside_initial_lifetime": 3
+        },
+        "wrong_examples": [
+          {
+            "ordinal": 4690,
+            "loop": 870,
+            "predicted_index": 12,
+            "recorded_index": 0,
+            "recorded_recycle": 0
+          },
+          {
+            "ordinal": 11304,
+            "loop": 1875,
+            "predicted_index": 8,
+            "recorded_index": 0,
+            "recorded_recycle": 0
+          },
+          {
+            "ordinal": 28832,
+            "loop": 4767,
+            "predicted_index": 12,
+            "recorded_index": 0,
+            "recorded_recycle": 0
+          },
+          {
+            "ordinal": 42763,
+            "loop": 6756,
+            "predicted_index": 7,
+            "recorded_index": 0,
+            "recorded_recycle": 0
+          },
+          {
+            "ordinal": 42814,
+            "loop": 6761,
+            "predicted_index": 7,
+            "recorded_index": 0,
+            "recorded_recycle": 0
+          }
+        ]
+      },
+      "frozen": {
+        "predictions": 428,
+        "correct_tags": 428,
+        "wrong_tags": 0,
+        "true_anchor_targets_missed": 0,
+        "abstentions": {
+          "outside_anchor_xy": 4867,
+          "flag_value_not_confirmed_non_sentinel": 38,
+          "outside_initial_lifetime": 3
+        },
+        "wrong_examples": []
+      }
+    }
+  ],
+  "exclusions": "Original selection precedes command decode and uses public map label, date and key. No model update or fitting on these recordings."
+}

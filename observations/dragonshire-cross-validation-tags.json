@@ -1,0 +1,202 @@
+{
+  "anchor_table_sha256": "4bd6c35a1550a9fbdf90c31f25170faefdd4d170e3f49dfb737089495fccdd46",
+  "roster_sha256": "fc6dbc312dac9143bfe450d661f8033a04c2ce4eec51878618e2a517f8faf609",
+  "controls": [
+    {
+      "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+      "game_sha256": "8fe55ded03f0351290beba9f8d2b519c549d1cf32fd7bec7d04205a71510b5ee",
+      "commands": 4546,
+      "positive_flags": [
+        111
+      ],
+      "correct_tags": 280,
+      "wrong_tags": 0,
+      "xy_only_errors": 6,
+      "reconstructed_game_byte_equal": true
+    },
+    {
+      "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+      "game_sha256": "9ffd36eb1dd1d467bf456e2c4ab51e97d4b3437dd690bcad81f5f6e440757fe5",
+      "commands": 4518,
+      "positive_flags": [
+        111
+      ],
+      "correct_tags": 338,
+      "wrong_tags": 0,
+      "xy_only_errors": 15,
+      "reconstructed_game_byte_equal": true
+    },
+    {
+      "replay_sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+      "game_sha256": "e83eae7da8008b5263abe73c60aab5ef9af03096935707fb12752f1392bdaffd",
+      "commands": 4548,
+      "positive_flags": [
+        111
+      ],
+      "correct_tags": 218,
+      "wrong_tags": 0,
+      "xy_only_errors": 19,
+      "reconstructed_game_byte_equal": true
+    },
+    {
+      "replay_sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+      "game_sha256": "90732412a482ea008ebf99469c1892ab2b36f876aa40060648b33de72c11d452",
+      "commands": 6855,
+      "positive_flags": [
+        111
+      ],
+      "correct_tags": 525,
+      "wrong_tags": 0,
+      "xy_only_errors": 10,
+      "reconstructed_game_byte_equal": true
+    },
+    {
+      "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+      "game_sha256": "2a6c720487fe31eecc299ec2093935f0c89e7c29ac35f4206cabe0161329fe9e",
+      "commands": 3758,
+      "positive_flags": [
+        111
+      ],
+      "correct_tags": 315,
+      "wrong_tags": 0,
+      "xy_only_errors": 9,
+      "reconstructed_game_byte_equal": true
+    },
+    {
+      "replay_sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+      "game_sha256": "24ab440e4af8eef3d55713fb9e77ec796cb2b092724480856af9605b2b6bf821",
+      "commands": 7683,
+      "positive_flags": [
+        111
+      ],
+      "correct_tags": 423,
+      "wrong_tags": 0,
+      "xy_only_errors": 11,
+      "reconstructed_game_byte_equal": true
+    },
+    {
+      "replay_sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+      "game_sha256": "6a08faa8a777b7e95c768becafeb91dc354deb613b08b9570e7202d5c6f4324c",
+      "commands": 8825,
+      "positive_flags": [
+        111
+      ],
+      "correct_tags": 672,
+      "wrong_tags": 0,
+      "xy_only_errors": 6,
+      "reconstructed_game_byte_equal": true
+    },
+    {
+      "replay_sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+      "game_sha256": "ba7e0014bd0cacfec8a57ad1b2d9e0b6ddee22c306d8c37a582399f4a045139f",
+      "commands": 6089,
+      "positive_flags": [
+        111
+      ],
+      "correct_tags": 337,
+      "wrong_tags": 0,
+      "xy_only_errors": 11,
+      "reconstructed_game_byte_equal": true
+    },
+    {
+      "replay_sha256": "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+      "game_sha256": "e7486f697a63a3235a9c401fd87e56413f1883c92f46d496fe516b2e2d3aaca9",
+      "commands": 5258,
+      "positive_flags": [
+        111
+      ],
+      "correct_tags": 350,
+      "wrong_tags": 0,
+      "xy_only_errors": 8,
+      "reconstructed_game_byte_equal": true
+    },
+    {
+      "replay_sha256": "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+      "game_sha256": "6a69a13b0c0482b8df027885c568fc883d86878c0dde7b568198d9ba6716ef45",
+      "commands": 3747,
+      "positive_flags": [
+        111
+      ],
+      "correct_tags": 292,
+      "wrong_tags": 0,
+      "xy_only_errors": 12,
+      "reconstructed_game_byte_equal": true
+    },
+    {
+      "replay_sha256": "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+      "game_sha256": "10f03d67999fdd5bdedde2456aa25859e57fc019984559450403b9b5db207eeb",
+      "commands": 5881,
+      "positive_flags": [
+        111
+      ],
+      "correct_tags": 283,
+      "wrong_tags": 0,
+      "xy_only_errors": 44,
+      "reconstructed_game_byte_equal": true
+    },
+    {
+      "replay_sha256": "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77",
+      "game_sha256": "fe3105664f740210c0d0facd986b46296246f233e41410552277dbfece3c8fe0",
+      "commands": 7566,
+      "positive_flags": [
+        111
+      ],
+      "correct_tags": 456,
+      "wrong_tags": 0,
+      "xy_only_errors": 15,
+      "reconstructed_game_byte_equal": true
+    }
+  ],
+  "summary": {
+    "total_commands": 69274,
+    "total_live_anchor_targets": 4489,
+    "byte_equal_game_members": 12,
+    "reconstructed_mode": "xy_and_held_out_flags",
+    "modes": {
+      "xy_only": {
+        "predictions": 4655,
+        "correct_tags": 4489,
+        "wrong_tags": 166,
+        "true_anchor_targets_missed": 0,
+        "abstentions": {
+          "outside_anchor_xy": 64571,
+          "outside_initial_lifetime": 48
+        }
+      },
+      "xy_and_held_out_type": {
+        "predictions": 3985,
+        "correct_tags": 3840,
+        "wrong_tags": 145,
+        "true_anchor_targets_missed": 649,
+        "abstentions": {
+          "outside_anchor_xy": 64571,
+          "outside_initial_lifetime": 40,
+          "unproven_link": 678
+        }
+      },
+      "xy_and_held_out_flags": {
+        "predictions": 4489,
+        "correct_tags": 4489,
+        "wrong_tags": 0,
+        "true_anchor_targets_missed": 0,
+        "abstentions": {
+          "flag_value_not_confirmed_non_sentinel": 414,
+          "outside_anchor_xy": 64329,
+          "outside_initial_lifetime": 42
+        }
+      },
+      "xy_and_held_out_flags_and_type": {
+        "predictions": 3840,
+        "correct_tags": 3840,
+        "wrong_tags": 0,
+        "true_anchor_targets_missed": 649,
+        "abstentions": {
+          "flag_value_not_confirmed_non_sentinel": 414,
+          "outside_anchor_xy": 64329,
+          "outside_initial_lifetime": 34,
+          "unproven_link": 657
+        }
+      }
+    }
+  }
+}

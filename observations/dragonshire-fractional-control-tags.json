@@ -1,0 +1,38 @@
+{
+  "exact_cross_layout_objects": 118,
+  "controls": [
+    {
+      "replay_sha256": "bc16af7f68496cddc4698f70b3853402a0f30aa37951aec3a6b555ed703879e8",
+      "counts": {
+        "all_command_targets": 7771,
+        "fractional_correct": 154,
+        "fractional_predictions": 154,
+        "integer_correct": 526,
+        "integer_predictions": 526,
+        "owner_pairs_correct": 680,
+        "owner_pairs_predicted": 680,
+        "recorded_live_common_objects": 680
+      },
+      "original_game_sha256": "562b6304dfd541ed3ed8c6b1084b63217e5b3d0df477c2eb73c0594c5a47613c",
+      "reconstructed_game_sha256": "562b6304dfd541ed3ed8c6b1084b63217e5b3d0df477c2eb73c0594c5a47613c",
+      "game_byte_equal": true
+    },
+    {
+      "replay_sha256": "a956b186a0459a47d9b0fdd8af4ccb65c437f11926186471c434e543e218b2d7",
+      "counts": {
+        "all_command_targets": 5336,
+        "fractional_correct": 59,
+        "fractional_predictions": 59,
+        "integer_correct": 428,
+        "integer_predictions": 428,
+        "owner_pairs_correct": 487,
+        "owner_pairs_predicted": 487,
+        "recorded_live_common_objects": 487
+      },
+      "original_game_sha256": "221b343574b91cea563b3fc3011a160e8455e21a8e289f91ff7cdf4b3b3b2f95",
+      "reconstructed_game_sha256": "221b343574b91cea563b3fc3011a160e8455e21a8e289f91ff7cdf4b3b3b2f95",
+      "game_byte_equal": true
+    }
+  ],
+  "scope": "Follow-up on the two already used external recordings. Frozen full flags value 111. Rank, initial recycle and both owner values come from authored placement/rule. Target command-time owner prediction stops at the first observed owner transition."
+}

@@ -1,0 +1,39 @@
+{
+  "source_replay_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+  "source_objects_sha256": "5b1f268a147bc854a1d0321826f9e055f45aa690cb970f0e703c5e8cf01476a9",
+  "target_objects_sha256": "371d4c7a1ade868b4106d50926a47d50bb2b042a4558a66dab938c06f3cd7ecc",
+  "source_placements": 165,
+  "target_placements": 158,
+  "common_authored_objects": 118,
+  "source_verified_startup_placements": 165,
+  "target_inputs": "stock map Objects only",
+  "target_initial_recycle_rule": 1,
+  "original_command_targets": 12465,
+  "qualifying_fields": 1279,
+  "counts": {
+    "changed_packed_tag": 1275,
+    "changed_rank": 1222,
+    "fractional_xy": 282,
+    "integer_xy": 997,
+    "project_authored_player": 1279,
+    "projected_owner_pair_matches_source": 1279,
+    "same_packed_tag": 4,
+    "same_rank": 57,
+    "source_snapshot_exact_xy": 1279
+  },
+  "excluded": {
+    "outside_first_source_lifetime": 13,
+    "outside_unique_common_startup_objects": 11173
+  },
+  "original_game_bytes": 1146911,
+  "original_game_sha256": "ea69dd77edd02f3ed2c42a2def1faab6dc4d0eb46da291c44f76bfb49a65eed6",
+  "projected_in_memory_41810_game_sha256": "b62c2485b49757980e61768d3179cc9f99164a3dc4347c5ab2a1bcdd57bf126f",
+  "inverse_game_byte_equal": true,
+  "scope": "The plan projects initial target tags and authored owner pairs for qualifying source events. Command-time state for the historical match on the target build is unverified.",
+  "prior_comparison": {
+    "prior_fields": 997,
+    "agreeing_fields": 997,
+    "additional_fields": 282
+  },
+  "ordinal_table_sha256": "3298d8fb7e3506adb5243e61bfe58fbdda766d108f5ce4e7fc88acd1d9556ff6"
+}
