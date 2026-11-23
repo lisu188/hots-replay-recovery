@@ -1,0 +1,135 @@
+{
+  "build": 98348,
+  "source_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+  "catalog_profile_sha256": "8ad237b10067acf552384df4f5e2b6112d56d7113024a1575ede4dfdc186524e",
+  "references_checked": 24,
+  "references": [
+    "1230eee79fd3b50a3ee471c587bc77dd14aef67d57bf22cd8df52e877329323a",
+    "4732077e899f6894c29586795a01e2a27fba622dbf22b5d29c7b30d57e3ce4fc",
+    "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+    "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+    "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+    "715e309bba5d3151d3e1b47461041627db7644d91a8b549c309950e44d6067e8",
+    "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+    "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+    "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+    "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+    "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+    "9872b043e48093abc65e11b7b6d091861e83fc4d202b40b745824da647cb6ef3",
+    "98ac891fa4fb8e1698e5fc35609fcf75abfe7e89aee9c7f05afff93b10338ab3",
+    "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4",
+    "a956b186a0459a47d9b0fdd8af4ccb65c437f11926186471c434e543e218b2d7",
+    "afcf49a656068f343173fc79afff2d2ebf15066f531cb192382cdba9d1ea3272",
+    "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+    "bc16af7f68496cddc4698f70b3853402a0f30aa37951aec3a6b555ed703879e8",
+    "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77",
+    "d41417f0fd11a1d512e30fa77882bdebf220432bd7e9412b40440cb79a7c9cec",
+    "db40f495edb70b2127b97cae4f479de19e18e61b2a5a0e0413052b571e1dbf7e",
+    "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+    "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+    "fe801daf9df44f10db2b950989308c8ee2fa55c03b4adfef7ac383b4d46583bf"
+  ],
+  "evidence_loop_limit": 256,
+  "selections": [
+    {
+      "loop": 52,
+      "unit": "HeroGreymane",
+      "source_link": 807,
+      "target_link": 614,
+      "matching_reference_count": 3,
+      "matching_references": [
+        "afcf49a656068f343173fc79afff2d2ebf15066f531cb192382cdba9d1ea3272",
+        "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77",
+        "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c"
+      ],
+      "priority": [
+        15,
+        1,
+        1
+      ],
+      "admitted": true,
+      "source_physical_previous": 0,
+      "frame_bytes": 15,
+      "physical_delta_sha256": "923e717193636aa21b0ae4007a31029f6089cf554a59a8d5259df95148114e4c",
+      "sparse_frame_sha256": "923e717193636aa21b0ae4007a31029f6089cf554a59a8d5259df95148114e4c",
+      "target_tag": 725614593
+    },
+    {
+      "loop": 59,
+      "unit": "HeroFaerieDragon",
+      "source_link": 64,
+      "target_link": 470,
+      "matching_reference_count": 8,
+      "matching_references": [
+        "1230eee79fd3b50a3ee471c587bc77dd14aef67d57bf22cd8df52e877329323a",
+        "715e309bba5d3151d3e1b47461041627db7644d91a8b549c309950e44d6067e8",
+        "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+        "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+        "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+        "afcf49a656068f343173fc79afff2d2ebf15066f531cb192382cdba9d1ea3272",
+        "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+        "db40f495edb70b2127b97cae4f479de19e18e61b2a5a0e0413052b571e1dbf7e"
+      ],
+      "priority": [
+        15,
+        1,
+        1
+      ],
+      "admitted": true,
+      "source_physical_previous": 52,
+      "frame_bytes": 15,
+      "physical_delta_sha256": "b00298c71944a79032f43ccb9add87849949af8843c88d82a0b1090f1aa4c42b",
+      "sparse_frame_sha256": "b00298c71944a79032f43ccb9add87849949af8843c88d82a0b1090f1aa4c42b",
+      "target_tag": 721420289
+    },
+    {
+      "loop": 60,
+      "unit": "HeroAnubarak",
+      "source_link": 739,
+      "target_link": 468,
+      "matching_reference_count": 4,
+      "matching_references": [
+        "4732077e899f6894c29586795a01e2a27fba622dbf22b5d29c7b30d57e3ce4fc",
+        "a956b186a0459a47d9b0fdd8af4ccb65c437f11926186471c434e543e218b2d7",
+        "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77",
+        "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c"
+      ],
+      "priority": [
+        15,
+        1,
+        1
+      ],
+      "admitted": true,
+      "source_physical_previous": 59,
+      "frame_bytes": 15,
+      "physical_delta_sha256": "c26d8501fdc7e43707b8d766d56a358b95a6ee52847bace4bbce5e0ca974dd9c",
+      "sparse_frame_sha256": "c26d8501fdc7e43707b8d766d56a358b95a6ee52847bace4bbce5e0ca974dd9c",
+      "target_tag": 734003201
+    },
+    {
+      "loop": 60,
+      "unit": "HeroKaelthas",
+      "source_link": 827,
+      "target_link": 632,
+      "matching_reference_count": 2,
+      "matching_references": [
+        "1230eee79fd3b50a3ee471c587bc77dd14aef67d57bf22cd8df52e877329323a",
+        "afcf49a656068f343173fc79afff2d2ebf15066f531cb192382cdba9d1ea3272"
+      ],
+      "priority": [
+        15,
+        1,
+        1
+      ],
+      "admitted": true,
+      "source_physical_previous": 60,
+      "frame_bytes": 15,
+      "physical_delta_sha256": "1ccb8c5a4f08886a2c4ce2f6da5bc86e1b1900b03b05a8a345928849aab8eafb",
+      "sparse_frame_sha256": "1ccb8c5a4f08886a2c4ce2f6da5bc86e1b1900b03b05a8a345928849aab8eafb",
+      "target_tag": 729808897
+    }
+  ],
+  "frames": 4,
+  "sparse_bytes": 60,
+  "sparse_sha256": "b1dc360f1539f5ac7800730f34f410f5d9f7bb4f3f61eafacf9d9b675f67d90b"
+}
