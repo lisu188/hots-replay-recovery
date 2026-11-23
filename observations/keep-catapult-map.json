@@ -1,0 +1,36 @@
+{
+  "parent_sha256": "f4d3b425cd9df5ed5390c45dc3c770300a64ba95449c82c228eed8b9928c7d6f",
+  "map_sha256": "58874aca37caeacaf42789a7e90fd2da830559f6cd744c32f5724e4477a6fcb3",
+  "bytes": 2141688,
+  "game_sha256": "a6384749fbe8f676cbd6ccb9ec1aeac004815d37a8e1c2f8f9f8f176b2bfca09",
+  "timing_evidence_sha256": "b8601157db5d26f08ae24ca125fa4f507c5f4b654c9f9b9c15ff2d9ec3d0ee37",
+  "script_sha256": "01bb74353fef719b11b0314da6f069e9b43a424705b130ab475fd8e37bbbc68f",
+  "unchanged_content_members": 69,
+  "integrity": {
+    "content_members": 70,
+    "live_blocks": 72,
+    "raw_table_results": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "native_member_flags": {
+      "256": 1,
+      "336": 71
+    }
+  },
+  "native_playback_verified": false,
+  "two_builds_byte_identical": true,
+  "independent_source_and_c_harness": {
+    "authenticated_per_unit_function_differing_body_lines": 1,
+    "native_wave_body_equal": true,
+    "parent_outside_insertions_equal": true,
+    "fort_and_keep_map_regions": 12,
+    "gate_harness_cases": 1152,
+    "fort_alive_keep_dead_exercised": true,
+    "native_runtime_verified": false
+  }
+}

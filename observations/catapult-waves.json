@@ -1,0 +1,420 @@
+[
+  {
+    "sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+    "build": 41810,
+    "rules": {
+      "41810": {
+        "predicted": 4,
+        "actual": 4,
+        "missed": 0,
+        "excess": 0,
+        "precise_xy": 4
+      },
+      "98348": {
+        "predicted": 38,
+        "actual": 4,
+        "missed": 0,
+        "excess": 34,
+        "precise_xy": 4
+      }
+    },
+    "candidate_slots_keep_down_fort_still_alive": 0,
+    "observed_keep_down_fort_still_alive": 0
+  },
+  {
+    "sha256": "7efa1c335816eebe802747ae4b16252ed22fcd8387b09d24b115b2917542b52a",
+    "build": 41810,
+    "rules": {
+      "41810": {
+        "predicted": 24,
+        "actual": 24,
+        "missed": 0,
+        "excess": 0,
+        "precise_xy": 22
+      },
+      "98348": {
+        "predicted": 58,
+        "actual": 24,
+        "missed": 0,
+        "excess": 34,
+        "precise_xy": 22
+      }
+    },
+    "candidate_slots_keep_down_fort_still_alive": 0,
+    "observed_keep_down_fort_still_alive": 0
+  },
+  {
+    "sha256": "2fca3c78d0e459d4452e3fb1f41ff3fce22b9c1f8f113019389195ff171bf618",
+    "build": 41810,
+    "rules": {
+      "41810": {
+        "predicted": 10,
+        "actual": 10,
+        "missed": 0,
+        "excess": 0,
+        "precise_xy": 10
+      },
+      "98348": {
+        "predicted": 22,
+        "actual": 10,
+        "missed": 0,
+        "excess": 12,
+        "precise_xy": 10
+      }
+    },
+    "candidate_slots_keep_down_fort_still_alive": 0,
+    "observed_keep_down_fort_still_alive": 0
+  },
+  {
+    "sha256": "8c4fb83989b528ea3227f6c97758293d1f650e33caa3d38c6a2a84d27ab0850d",
+    "build": 41810,
+    "rules": {
+      "41810": {
+        "predicted": 4,
+        "actual": 4,
+        "missed": 0,
+        "excess": 0,
+        "precise_xy": 4
+      },
+      "98348": {
+        "predicted": 15,
+        "actual": 4,
+        "missed": 0,
+        "excess": 11,
+        "precise_xy": 4
+      }
+    },
+    "candidate_slots_keep_down_fort_still_alive": 0,
+    "observed_keep_down_fort_still_alive": 0
+  },
+  {
+    "sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+    "build": 98348,
+    "rules": {
+      "41810": {
+        "predicted": 7,
+        "actual": 18,
+        "missed": 11,
+        "excess": 0,
+        "precise_xy": 0
+      },
+      "98348": {
+        "predicted": 18,
+        "actual": 18,
+        "missed": 0,
+        "excess": 0,
+        "precise_xy": 1
+      }
+    },
+    "candidate_slots_keep_down_fort_still_alive": 0,
+    "observed_keep_down_fort_still_alive": 0
+  },
+  {
+    "sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+    "build": 98348,
+    "rules": {
+      "41810": {
+        "predicted": 5,
+        "actual": 26,
+        "missed": 21,
+        "excess": 0,
+        "precise_xy": 0
+      },
+      "98348": {
+        "predicted": 26,
+        "actual": 26,
+        "missed": 0,
+        "excess": 0,
+        "precise_xy": 0
+      }
+    },
+    "candidate_slots_keep_down_fort_still_alive": 0,
+    "observed_keep_down_fort_still_alive": 0
+  },
+  {
+    "sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+    "build": 98348,
+    "rules": {
+      "41810": {
+        "predicted": 1,
+        "actual": 7,
+        "missed": 6,
+        "excess": 0,
+        "precise_xy": 0
+      },
+      "98348": {
+        "predicted": 7,
+        "actual": 7,
+        "missed": 0,
+        "excess": 0,
+        "precise_xy": 2
+      }
+    },
+    "candidate_slots_keep_down_fort_still_alive": 0,
+    "observed_keep_down_fort_still_alive": 0
+  },
+  {
+    "sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+    "build": 98348,
+    "rules": {
+      "41810": {
+        "predicted": 1,
+        "actual": 27,
+        "missed": 26,
+        "excess": 0,
+        "precise_xy": 0
+      },
+      "98348": {
+        "predicted": 27,
+        "actual": 27,
+        "missed": 0,
+        "excess": 0,
+        "precise_xy": 11
+      }
+    },
+    "candidate_slots_keep_down_fort_still_alive": 0,
+    "observed_keep_down_fort_still_alive": 0
+  },
+  {
+    "sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+    "build": 98348,
+    "rules": {
+      "41810": {
+        "predicted": 7,
+        "actual": 15,
+        "missed": 8,
+        "excess": 0,
+        "precise_xy": 6
+      },
+      "98348": {
+        "predicted": 15,
+        "actual": 15,
+        "missed": 0,
+        "excess": 0,
+        "precise_xy": 9
+      }
+    },
+    "candidate_slots_keep_down_fort_still_alive": 0,
+    "observed_keep_down_fort_still_alive": 0
+  },
+  {
+    "sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+    "build": 98348,
+    "rules": {
+      "41810": {
+        "predicted": 23,
+        "actual": 39,
+        "missed": 16,
+        "excess": 0,
+        "precise_xy": 17
+      },
+      "98348": {
+        "predicted": 39,
+        "actual": 39,
+        "missed": 0,
+        "excess": 0,
+        "precise_xy": 20
+      }
+    },
+    "candidate_slots_keep_down_fort_still_alive": 0,
+    "observed_keep_down_fort_still_alive": 0
+  },
+  {
+    "sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+    "build": 98348,
+    "rules": {
+      "41810": {
+        "predicted": 31,
+        "actual": 62,
+        "missed": 31,
+        "excess": 0,
+        "precise_xy": 10
+      },
+      "98348": {
+        "predicted": 62,
+        "actual": 62,
+        "missed": 0,
+        "excess": 0,
+        "precise_xy": 28
+      }
+    },
+    "candidate_slots_keep_down_fort_still_alive": 0,
+    "observed_keep_down_fort_still_alive": 0
+  },
+  {
+    "sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+    "build": 98348,
+    "rules": {
+      "41810": {
+        "predicted": 1,
+        "actual": 16,
+        "missed": 15,
+        "excess": 0,
+        "precise_xy": 0
+      },
+      "98348": {
+        "predicted": 16,
+        "actual": 16,
+        "missed": 0,
+        "excess": 0,
+        "precise_xy": 4
+      }
+    },
+    "candidate_slots_keep_down_fort_still_alive": 0,
+    "observed_keep_down_fort_still_alive": 0
+  },
+  {
+    "sha256": "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+    "build": 98348,
+    "rules": {
+      "41810": {
+        "predicted": 7,
+        "actual": 18,
+        "missed": 11,
+        "excess": 0,
+        "precise_xy": 0
+      },
+      "98348": {
+        "predicted": 18,
+        "actual": 18,
+        "missed": 0,
+        "excess": 0,
+        "precise_xy": 7
+      }
+    },
+    "candidate_slots_keep_down_fort_still_alive": 0,
+    "observed_keep_down_fort_still_alive": 0
+  },
+  {
+    "sha256": "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+    "build": 98348,
+    "rules": {
+      "41810": {
+        "predicted": 3,
+        "actual": 16,
+        "missed": 13,
+        "excess": 0,
+        "precise_xy": 0
+      },
+      "98348": {
+        "predicted": 16,
+        "actual": 16,
+        "missed": 0,
+        "excess": 0,
+        "precise_xy": 4
+      }
+    },
+    "candidate_slots_keep_down_fort_still_alive": 0,
+    "observed_keep_down_fort_still_alive": 0
+  },
+  {
+    "sha256": "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+    "build": 98348,
+    "rules": {
+      "41810": {
+        "predicted": 18,
+        "actual": 34,
+        "missed": 16,
+        "excess": 0,
+        "precise_xy": 0
+      },
+      "98348": {
+        "predicted": 34,
+        "actual": 34,
+        "missed": 0,
+        "excess": 0,
+        "precise_xy": 7
+      }
+    },
+    "candidate_slots_keep_down_fort_still_alive": 0,
+    "observed_keep_down_fort_still_alive": 0
+  },
+  {
+    "sha256": "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77",
+    "build": 98348,
+    "rules": {
+      "41810": {
+        "predicted": 1,
+        "actual": 20,
+        "missed": 19,
+        "excess": 0,
+        "precise_xy": 0
+      },
+      "98348": {
+        "predicted": 20,
+        "actual": 20,
+        "missed": 0,
+        "excess": 0,
+        "precise_xy": 5
+      }
+    },
+    "candidate_slots_keep_down_fort_still_alive": 0,
+    "observed_keep_down_fort_still_alive": 0
+  },
+  {
+    "sha256": "a956b186a0459a47d9b0fdd8af4ccb65c437f11926186471c434e543e218b2d7",
+    "build": 98348,
+    "rules": {
+      "41810": {
+        "predicted": 8,
+        "actual": 31,
+        "missed": 23,
+        "excess": 0,
+        "precise_xy": 1
+      },
+      "98348": {
+        "predicted": 31,
+        "actual": 31,
+        "missed": 0,
+        "excess": 0,
+        "precise_xy": 4
+      }
+    },
+    "candidate_slots_keep_down_fort_still_alive": 0,
+    "observed_keep_down_fort_still_alive": 0
+  },
+  {
+    "sha256": "bc16af7f68496cddc4698f70b3853402a0f30aa37951aec3a6b555ed703879e8",
+    "build": 98348,
+    "rules": {
+      "41810": {
+        "predicted": 32,
+        "actual": 75,
+        "missed": 43,
+        "excess": 0,
+        "precise_xy": 1
+      },
+      "98348": {
+        "predicted": 75,
+        "actual": 75,
+        "missed": 0,
+        "excess": 0,
+        "precise_xy": 21
+      }
+    },
+    "candidate_slots_keep_down_fort_still_alive": 0,
+    "observed_keep_down_fort_still_alive": 0
+  },
+  {
+    "sha256": "4732077e899f6894c29586795a01e2a27fba622dbf22b5d29c7b30d57e3ce4fc",
+    "build": 98348,
+    "rules": {
+      "41810": {
+        "predicted": 10,
+        "actual": 22,
+        "missed": 12,
+        "excess": 0,
+        "precise_xy": 1
+      },
+      "98348": {
+        "predicted": 22,
+        "actual": 22,
+        "missed": 0,
+        "excess": 0,
+        "precise_xy": 6
+      }
+    },
+    "candidate_slots_keep_down_fort_still_alive": 0,
+    "observed_keep_down_fort_still_alive": 0
+  }
+]
