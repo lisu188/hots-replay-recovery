@@ -1,0 +1,334 @@
+{
+  "merc_capture_sha256": "54e1a8fbe7e42f00b7b52cde420ed259105228fcdf165097ef52ecd0f5c4125a",
+  "stock_sha256": "f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f",
+  "ten": {
+    "replay_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+    "build": 41810,
+    "icon_loop": 2530,
+    "icons": {
+      "1": {
+        "source_ordinal": 844,
+        "slot": 202,
+        "generation": 26,
+        "previous_generation": 16,
+        "previous_birth_loop": 1661,
+        "previous_death_loop": 2379,
+        "intervening_unreported_birth_generations": 9
+      },
+      "2": {
+        "source_ordinal": 846,
+        "slot": 146,
+        "generation": 24,
+        "previous_generation": 17,
+        "previous_birth_loop": 1656,
+        "previous_death_loop": 2422,
+        "intervening_unreported_birth_generations": 6
+      },
+      "3": {
+        "source_ordinal": 848,
+        "slot": 96,
+        "generation": 28,
+        "previous_generation": 26,
+        "previous_birth_loop": 1657,
+        "previous_death_loop": 2499,
+        "intervening_unreported_birth_generations": 1
+      },
+      "4": {
+        "source_ordinal": 850,
+        "slot": 211,
+        "generation": 21,
+        "previous_generation": 14,
+        "previous_birth_loop": 2370,
+        "previous_death_loop": 2443,
+        "intervening_unreported_birth_generations": 6
+      },
+      "5": {
+        "source_ordinal": 852,
+        "slot": 117,
+        "generation": 33,
+        "previous_generation": 18,
+        "previous_birth_loop": 1922,
+        "previous_death_loop": 2322,
+        "intervening_unreported_birth_generations": 14
+      }
+    },
+    "minimum_unreported_generations_to_match_visible_slots_through_icon_loop": 1129,
+    "first_tracker_generation_gap": {
+      "loop": 849,
+      "source_ordinal": 376,
+      "slot": 95,
+      "previous": 1,
+      "current": 5
+    }
+  },
+  "minimum_unreported_intervening_birth_generations_at_ten_icon_slots": 36,
+  "distinct_41810_tags_per_camp": {
+    "1": 5,
+    "2": 5,
+    "3": 5,
+    "4": 5,
+    "5": 5
+  },
+  "held_out_historical": [
+    {
+      "replay_sha256": "2fca3c78d0e459d4452e3fb1f41ff3fce22b9c1f8f113019389195ff171bf618",
+      "build": 41810,
+      "icon_loop": 2530,
+      "icons": {
+        "1": {
+          "source_ordinal": 792,
+          "slot": 156,
+          "generation": 14,
+          "previous_generation": 8,
+          "previous_birth_loop": 1655,
+          "previous_death_loop": 2468,
+          "intervening_unreported_birth_generations": 5
+        },
+        "2": {
+          "source_ordinal": 794,
+          "slot": 93,
+          "generation": 23,
+          "previous_generation": 5,
+          "previous_birth_loop": 1661,
+          "previous_death_loop": 2327,
+          "intervening_unreported_birth_generations": 17
+        },
+        "3": {
+          "source_ordinal": 796,
+          "slot": 88,
+          "generation": 25,
+          "previous_generation": 24,
+          "previous_birth_loop": 2400,
+          "previous_death_loop": 2400,
+          "intervening_unreported_birth_generations": 0
+        },
+        "4": {
+          "source_ordinal": 798,
+          "slot": 96,
+          "generation": 25,
+          "previous_generation": 14,
+          "previous_birth_loop": 1660,
+          "previous_death_loop": 2242,
+          "intervening_unreported_birth_generations": 10
+        },
+        "5": {
+          "source_ordinal": 800,
+          "slot": 104,
+          "generation": 33,
+          "previous_generation": 15,
+          "previous_birth_loop": 1653,
+          "previous_death_loop": 2152,
+          "intervening_unreported_birth_generations": 17
+        }
+      },
+      "minimum_unreported_generations_to_match_visible_slots_through_icon_loop": 1144,
+      "first_tracker_generation_gap": {
+        "loop": 931,
+        "source_ordinal": 371,
+        "slot": 148,
+        "previous": 1,
+        "current": 5
+      }
+    },
+    {
+      "replay_sha256": "7efa1c335816eebe802747ae4b16252ed22fcd8387b09d24b115b2917542b52a",
+      "build": 41810,
+      "icon_loop": 2530,
+      "icons": {
+        "1": {
+          "source_ordinal": 825,
+          "slot": 133,
+          "generation": 46,
+          "previous_generation": 44,
+          "previous_birth_loop": 2382,
+          "previous_death_loop": 2510,
+          "intervening_unreported_birth_generations": 1
+        },
+        "2": {
+          "source_ordinal": 827,
+          "slot": 140,
+          "generation": 14,
+          "previous_generation": 11,
+          "previous_birth_loop": 2172,
+          "previous_death_loop": 2500,
+          "intervening_unreported_birth_generations": 2
+        },
+        "3": {
+          "source_ordinal": 829,
+          "slot": 184,
+          "generation": 23,
+          "previous_generation": 18,
+          "previous_birth_loop": 1658,
+          "previous_death_loop": 2474,
+          "intervening_unreported_birth_generations": 4
+        },
+        "4": {
+          "source_ordinal": 831,
+          "slot": 189,
+          "generation": 13,
+          "previous_generation": 7,
+          "previous_birth_loop": 2217,
+          "previous_death_loop": 2473,
+          "intervening_unreported_birth_generations": 5
+        },
+        "5": {
+          "source_ordinal": 833,
+          "slot": 134,
+          "generation": 8,
+          "previous_generation": 4,
+          "previous_birth_loop": 1655,
+          "previous_death_loop": 2454,
+          "intervening_unreported_birth_generations": 3
+        }
+      },
+      "minimum_unreported_generations_to_match_visible_slots_through_icon_loop": 967,
+      "first_tracker_generation_gap": {
+        "loop": 691,
+        "source_ordinal": 328,
+        "slot": 117,
+        "previous": 1,
+        "current": 3
+      }
+    },
+    {
+      "replay_sha256": "8c4fb83989b528ea3227f6c97758293d1f650e33caa3d38c6a2a84d27ab0850d",
+      "build": 41810,
+      "icon_loop": 2530,
+      "icons": {
+        "1": {
+          "source_ordinal": 813,
+          "slot": 209,
+          "generation": 14,
+          "previous_generation": 11,
+          "previous_birth_loop": 1658,
+          "previous_death_loop": 2431,
+          "intervening_unreported_birth_generations": 2
+        },
+        "2": {
+          "source_ordinal": 815,
+          "slot": 193,
+          "generation": 38,
+          "previous_generation": 23,
+          "previous_birth_loop": 1655,
+          "previous_death_loop": 2298,
+          "intervening_unreported_birth_generations": 14
+        },
+        "3": {
+          "source_ordinal": 817,
+          "slot": 218,
+          "generation": 18,
+          "previous_generation": 9,
+          "previous_birth_loop": 2138,
+          "previous_death_loop": 2415,
+          "intervening_unreported_birth_generations": 8
+        },
+        "4": {
+          "source_ordinal": 819,
+          "slot": 192,
+          "generation": 59,
+          "previous_generation": 25,
+          "previous_birth_loop": 1767,
+          "previous_death_loop": 2023,
+          "intervening_unreported_birth_generations": 33
+        },
+        "5": {
+          "source_ordinal": 821,
+          "slot": 155,
+          "generation": 33,
+          "previous_generation": 11,
+          "previous_birth_loop": 1418,
+          "previous_death_loop": 1785,
+          "intervening_unreported_birth_generations": 21
+        }
+      },
+      "minimum_unreported_generations_to_match_visible_slots_through_icon_loop": 1167,
+      "first_tracker_generation_gap": {
+        "loop": 879,
+        "source_ordinal": 377,
+        "slot": 117,
+        "previous": 1,
+        "current": 3
+      }
+    },
+    {
+      "replay_sha256": "9fe40a6e9ce43228d1b3a3004c3a6a23dac5069f07bcfe2ceefdadc686e6105a",
+      "build": 41810,
+      "icon_loop": 2562,
+      "icons": {
+        "1": {
+          "source_ordinal": 795,
+          "slot": 208,
+          "generation": 4,
+          "previous_generation": 3,
+          "previous_birth_loop": 2172,
+          "previous_death_loop": 2559,
+          "intervening_unreported_birth_generations": 0
+        },
+        "2": {
+          "source_ordinal": 797,
+          "slot": 134,
+          "generation": 13,
+          "previous_generation": 11,
+          "previous_birth_loop": 1690,
+          "previous_death_loop": 2549,
+          "intervening_unreported_birth_generations": 1
+        },
+        "3": {
+          "source_ordinal": 799,
+          "slot": 103,
+          "generation": 26,
+          "previous_generation": 5,
+          "previous_birth_loop": 1690,
+          "previous_death_loop": 2341,
+          "intervening_unreported_birth_generations": 20
+        },
+        "4": {
+          "source_ordinal": 801,
+          "slot": 88,
+          "generation": 27,
+          "previous_generation": 24,
+          "previous_birth_loop": 1687,
+          "previous_death_loop": 2511,
+          "intervening_unreported_birth_generations": 2
+        },
+        "5": {
+          "source_ordinal": 803,
+          "slot": 145,
+          "generation": 11,
+          "previous_generation": 5,
+          "previous_birth_loop": 1685,
+          "previous_death_loop": 2469,
+          "intervening_unreported_birth_generations": 5
+        }
+      },
+      "minimum_unreported_generations_to_match_visible_slots_through_icon_loop": 1116,
+      "first_tracker_generation_gap": {
+        "loop": 1131,
+        "source_ordinal": 369,
+        "slot": 96,
+        "previous": 1,
+        "current": 6
+      }
+    }
+  ],
+  "retail_control_sha256": [
+    "4732077e899f6894c29586795a01e2a27fba622dbf22b5d29c7b30d57e3ce4fc",
+    "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+    "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+    "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+    "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+    "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+    "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+    "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+    "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+    "a956b186a0459a47d9b0fdd8af4ccb65c437f11926186471c434e543e218b2d7",
+    "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+    "bc16af7f68496cddc4698f70b3853402a0f30aa37951aec3a6b555ed703879e8",
+    "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77",
+    "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+    "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c"
+  ],
+  "retail_loop_zero_icon_tags_matched": 75,
+  "projected_merc_capture_icon_tags": 0,
+  "condition": "Historical bounds count intervening allocations required to reproduce observed source generations under the ordinary 98348 unit pool."
+}
