@@ -1,0 +1,12 @@
+{
+  "source_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+  "tracker_sha256": "1a9a556f9f1fde466d17c4a3a3fbb31cbec8d8086bef97efeb796f1f5175245f",
+  "recorded_reference_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+  "events": 81,
+  "unique_unit_identities": 14,
+  "nonzero_unit_fields": 25,
+  "sha256": "7da30d2ca6ca4444b5c5fb976640697ff3b94872d41dfba7e9a6a039fedf3234",
+  "bytes": 1586,
+  "full_inverse_equal": true,
+  "destination_simulation_allocation_verified": false
+}

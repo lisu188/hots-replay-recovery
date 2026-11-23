@@ -1,0 +1,32 @@
+[
+  {
+    "bytes": 1156,
+    "sha256": "b76ea6aec0b2788e06ee1a4a739a9464f6d1d3ff883cf121ae4f66cf0a61ff2b",
+    "counts": {
+      "no_explicit_unit": 56,
+      "unresolved_instance": 22,
+      "original_layout_placement": 3
+    },
+    "total_source": 81,
+    "emitted": 59,
+    "source_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+    "original_map_sha256": "e0a58745837b3b5351015c933560dbffb178d747009d2d57b4153ef425cf7250",
+    "target_layout_sha256": "e6167145ee82e6c139f07336cd65fced5c86d162da19baad57a2d3e82b3a455e",
+    "native_profile_sha256": "bbb2ca6a0c1511a6756cf0f5ab9d0309f4b8b6cdf397963d020390f549082895"
+  },
+  {
+    "bytes": 1156,
+    "sha256": "b76ea6aec0b2788e06ee1a4a739a9464f6d1d3ff883cf121ae4f66cf0a61ff2b",
+    "counts": {
+      "no_explicit_unit": 56,
+      "unresolved_instance": 22,
+      "original_layout_placement": 3
+    },
+    "total_source": 81,
+    "emitted": 59,
+    "source_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+    "original_map_sha256": "e0a58745837b3b5351015c933560dbffb178d747009d2d57b4153ef425cf7250",
+    "target_layout_sha256": "e8d151e5d574babf187e3c0b06cd4b29d2280ac085773afda36a3ebb9c79ffa7",
+    "native_profile_sha256": "bbb2ca6a0c1511a6756cf0f5ab9d0309f4b8b6cdf397963d020390f549082895"
+  }
+]

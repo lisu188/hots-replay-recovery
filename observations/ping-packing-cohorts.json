@@ -1,0 +1,157 @@
+{
+  "TEN": {
+    "build": 41810,
+    "cases": 1,
+    "trigger_pings": 81,
+    "zero_unit": 56,
+    "all_ones_unit": 0,
+    "non_sentinel_unit": 25,
+    "ping_after_birth_before_death": 25,
+    "ping_outside_observed_lifetime": 0,
+    "lifecycle_boundary": 0,
+    "explicit_unit_minimap_true": 0,
+    "options": [
+      -1,
+      0,
+      1,
+      2,
+      3,
+      5
+    ],
+    "points_nonzero_both": 81,
+    "shifts_with_any_birth_identity_matches": {
+      "14": 2,
+      "15": 2,
+      "16": 2,
+      "17": 3,
+      "18": 25,
+      "19": 14,
+      "20": 12,
+      "21": 5,
+      "22": 2
+    },
+    "message_ping_crosscheck": {
+      "same_user_same_loop_candidates": 5,
+      "same_user_same_loop_point_exact": 5,
+      "same_user_point_any_loop": 49
+    }
+  },
+  "historical_holdouts": {
+    "build": 41810,
+    "cases": 3,
+    "trigger_pings": 254,
+    "zero_unit": 178,
+    "all_ones_unit": 0,
+    "non_sentinel_unit": 76,
+    "ping_after_birth_before_death": 76,
+    "ping_outside_observed_lifetime": 0,
+    "lifecycle_boundary": 0,
+    "explicit_unit_minimap_true": 0,
+    "options": [
+      -1,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "points_nonzero_both": 254,
+    "shifts_with_any_birth_identity_matches": {
+      "13": 1,
+      "14": 1,
+      "15": 2,
+      "16": 3,
+      "17": 4,
+      "18": 76,
+      "19": 37,
+      "20": 16,
+      "21": 3,
+      "22": 3
+    },
+    "message_ping_crosscheck": {
+      "same_user_same_loop_candidates": 8,
+      "same_user_same_loop_point_exact": 7,
+      "same_user_point_any_loop": 107
+    }
+  },
+  "modern_controls": {
+    "build": 98348,
+    "cases": 12,
+    "trigger_pings": 588,
+    "zero_unit": 473,
+    "all_ones_unit": 0,
+    "non_sentinel_unit": 115,
+    "ping_after_birth_before_death": 112,
+    "ping_outside_observed_lifetime": 3,
+    "lifecycle_boundary": 0,
+    "explicit_unit_minimap_true": 0,
+    "options": [
+      -1,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      99,
+      101,
+      103
+    ],
+    "points_nonzero_both": 588,
+    "shifts_with_any_birth_identity_matches": {
+      "19": 9,
+      "20": 11,
+      "21": 16,
+      "22": 115,
+      "23": 43,
+      "24": 16,
+      "25": 5,
+      "26": 5
+    },
+    "message_ping_crosscheck": {
+      "same_user_same_loop_candidates": 26,
+      "same_user_same_loop_point_exact": 26,
+      "same_user_point_any_loop": 352
+    }
+  },
+  "modern_holdouts": {
+    "build": 98348,
+    "cases": 2,
+    "trigger_pings": 146,
+    "zero_unit": 122,
+    "all_ones_unit": 0,
+    "non_sentinel_unit": 24,
+    "ping_after_birth_before_death": 24,
+    "ping_outside_observed_lifetime": 0,
+    "lifecycle_boundary": 0,
+    "explicit_unit_minimap_true": 0,
+    "options": [
+      -1,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      99,
+      100,
+      101
+    ],
+    "points_nonzero_both": 146,
+    "shifts_with_any_birth_identity_matches": {
+      "20": 2,
+      "21": 2,
+      "22": 24,
+      "23": 9,
+      "24": 6,
+      "25": 3,
+      "26": 3
+    },
+    "message_ping_crosscheck": {
+      "same_user_same_loop_candidates": 4,
+      "same_user_same_loop_point_exact": 4,
+      "same_user_point_any_loop": 85
+    }
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "source": {
+    "bytes": 1156,
+    "sha256": "b76ea6aec0b2788e06ee1a4a739a9464f6d1d3ff883cf121ae4f66cf0a61ff2b",
+    "counts": {
+      "no_explicit_unit": 56,
+      "unresolved_instance": 22,
+      "original_layout_placement": 3
+    },
+    "total_source": 81,
+    "emitted": 59,
+    "source_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+    "original_map_sha256": "e0a58745837b3b5351015c933560dbffb178d747009d2d57b4153ef425cf7250",
+    "target_layout_sha256": "662a90d5ea72c8454d66a1070b3200e6a2929f3d2069e2c07ecc07cfcc79b800",
+    "native_profile_sha256": "bbb2ca6a0c1511a6756cf0f5ab9d0309f4b8b6cdf397963d020390f549082895"
+  },
+  "preserved_checkpoint": {
+    "source": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+    "r8": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+    "unchanged_ping_records": 81,
+    "explicit_unit_records": 25,
+    "changed_identities_at_shift22": 25,
+    "incidental_tracker_matches_at_shift22": 2
+  },
+  "target_controls": [
+    {
+      "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+      "full_member_bytes_scanned": 1926055,
+      "physical_ping_frames": 39,
+      "physical_ping_bytes": 741
+    },
+    {
+      "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+      "full_member_bytes_scanned": 2700029,
+      "physical_ping_frames": 152,
+      "physical_ping_bytes": 2888
+    },
+    {
+      "replay_sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+      "full_member_bytes_scanned": 2031732,
+      "physical_ping_frames": 29,
+      "physical_ping_bytes": 551
+    },
+    {
+      "replay_sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+      "full_member_bytes_scanned": 2292034,
+      "physical_ping_frames": 44,
+      "physical_ping_bytes": 836
+    },
+    {
+      "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+      "full_member_bytes_scanned": 1243162,
+      "physical_ping_frames": 11,
+      "physical_ping_bytes": 209
+    },
+    {
+      "replay_sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+      "full_member_bytes_scanned": 2410876,
+      "physical_ping_frames": 55,
+      "physical_ping_bytes": 1045
+    },
+    {
+      "replay_sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+      "full_member_bytes_scanned": 2748018,
+      "physical_ping_frames": 25,
+      "physical_ping_bytes": 475
+    },
+    {
+      "replay_sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+      "full_member_bytes_scanned": 1908945,
+      "physical_ping_frames": 26,
+      "physical_ping_bytes": 494
+    },
+    {
+      "replay_sha256": "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+      "full_member_bytes_scanned": 1582802,
+      "physical_ping_frames": 22,
+      "physical_ping_bytes": 418
+    },
+    {
+      "replay_sha256": "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+      "full_member_bytes_scanned": 2225495,
+      "physical_ping_frames": 133,
+      "physical_ping_bytes": 2527
+    },
+    {
+      "replay_sha256": "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+      "full_member_bytes_scanned": 2155325,
+      "physical_ping_frames": 22,
+      "physical_ping_bytes": 418
+    },
+    {
+      "replay_sha256": "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77",
+      "full_member_bytes_scanned": 2151377,
+      "physical_ping_frames": 30,
+      "physical_ping_bytes": 570
+    },
+    {
+      "replay_sha256": "a956b186a0459a47d9b0fdd8af4ccb65c437f11926186471c434e543e218b2d7",
+      "full_member_bytes_scanned": 1408798,
+      "physical_ping_frames": 48,
+      "physical_ping_bytes": 912
+    },
+    {
+      "replay_sha256": "bc16af7f68496cddc4698f70b3853402a0f30aa37951aec3a6b555ed703879e8",
+      "full_member_bytes_scanned": 2733434,
+      "physical_ping_frames": 98,
+      "physical_ping_bytes": 1862
+    }
+  ],
+  "exact_physical_frames": 734,
+  "exact_physical_bytes": 13946
+}
