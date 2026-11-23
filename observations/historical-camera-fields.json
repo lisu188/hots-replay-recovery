@@ -1,0 +1,17 @@
+{
+  "source_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+  "package_sha256": "d41c5841a5719e76246265940d28b244bae91f4e3fef33e621f3a2e2a0ee7bbd",
+  "rows": 118,
+  "map_fields": 6,
+  "hero_fields": 165,
+  "emitted_fields": 171,
+  "missing_fields": 65,
+  "complete_rows": 57,
+  "one_known_endpoint": 57,
+  "neither_known": 4,
+  "sparse_bytes": 1368,
+  "sparse_sha256": "6623d009fa2196493d32fd2d34259d3830e13cc25b89cc3994ada936a5967ad6",
+  "destination_simulation_verified": false,
+  "recorded_tracker_bytes_match_all_projected_fields": true,
+  "recorded_tracker_stream_sha256": "c3dd2875353f18c2cf62ee2a79e1641eb6a800aba88a6b45bd50287884043f35"
+}
