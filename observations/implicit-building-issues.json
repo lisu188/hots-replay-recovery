@@ -1,0 +1,553 @@
+{
+  "source": {
+    "replay_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+    "build": 41810,
+    "measured": {
+      "all_implicit_unit": 740,
+      "qualified_live_geometry_and_owners": 39,
+      "issues_with_second_town_lifetime_witness": 18
+    },
+    "independently_matched_town_deaths": 6,
+    "qualifying_enclosing_bytes": 1170,
+    "enclosing_sha256": "007406af3ef56e87ea44e79f927d1fde45a2060dbb115eb3086919a67f19a61d",
+    "ordinary_issues": 39,
+    "by_unit": {
+      "KingsCore": 9,
+      "TownGateL215BLUR": 4,
+      "TownGateL215BRUL": 1,
+      "TownMoonwellL2": 6,
+      "TownMoonwellL3": 1,
+      "TownTownHallL2": 10,
+      "TownTownHallL3": 8
+    },
+    "all_flags_at_qualified_geometry": {
+      "0x100108": 39
+    },
+    "sparse_bytes": 1189,
+    "sparse_sha256": "52b95d077d249384651c8ffe54881a7085b78ab077360b4af836ae357339cb0f",
+    "ordinal_sha256": "a7a74d45506f47aeb6a669f138d035bd09376ab95ced1b7193fdcc9ed4a6617b"
+  },
+  "custom_catalog_numeric_identity_verified": false,
+  "target_selection_and_manager_continuity_verified": false,
+  "target_building_survival_uses_source_tracker": true,
+  "controls": [
+    {
+      "replay_sha256": "4732077e899f6894c29586795a01e2a27fba622dbf22b5d29c7b30d57e3ce4fc",
+      "build": 98348,
+      "measured": {
+        "all_implicit_unit": 2674,
+        "qualified_live_geometry_and_owners": 337,
+        "issues_with_second_town_lifetime_witness": 113
+      },
+      "independently_matched_town_deaths": 5,
+      "qualifying_enclosing_bytes": 10080,
+      "enclosing_sha256": "606a1c69f030024a343b607622a84ebf3a5902c9c7ab3abe46c162f60c73f923",
+      "ordinary_issues": 336,
+      "by_unit": {
+        "KingsCore": 58,
+        "TownGateL215BLUR": 1,
+        "TownGateL215BRUL": 11,
+        "TownGateL3BRULTRVisionBlocked": 4,
+        "TownMoonwellL2": 76,
+        "TownMoonwellL3": 47,
+        "TownTownHallL2": 38,
+        "TownTownHallL3": 75,
+        "TownWallRadial14L3": 1,
+        "TownWallRadial18L2": 14,
+        "TownWallRadial19L2": 7,
+        "TownWallRadial5L2": 4
+      },
+      "all_flags_at_qualified_geometry": {
+        "0x10a": 1,
+        "0x80108": 336
+      },
+      "sparse_bytes": 10129,
+      "sparse_sha256": "fb8a8d2733564753459ab2428305c96bc6e36bc98964366697469a0bf158cc23",
+      "ordinal_sha256": "e845a97d435130ef91365bf904e0127ad9c317a7546b842ea1f2192f63e52dbc"
+    },
+    {
+      "replay_sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+      "build": 98348,
+      "measured": {
+        "all_implicit_unit": 4395,
+        "qualified_live_geometry_and_owners": 466,
+        "issues_with_second_town_lifetime_witness": 170
+      },
+      "independently_matched_town_deaths": 4,
+      "qualifying_enclosing_bytes": 13950,
+      "enclosing_sha256": "cc94a09bfe9df88b792dfd3a2b7777e3eb593963e9799b7b1c2460f5e0ed2ac0",
+      "ordinary_issues": 465,
+      "by_unit": {
+        "KingsCore": 97,
+        "TownGateL215BRUL": 5,
+        "TownMoonwellL2": 146,
+        "TownMoonwellL3": 17,
+        "TownTownHallL2": 108,
+        "TownTownHallL3": 62,
+        "TownWallRadial18L2": 7,
+        "TownWallRadial5L2": 23
+      },
+      "all_flags_at_qualified_geometry": {
+        "0x10a": 1,
+        "0x80108": 465
+      },
+      "sparse_bytes": 14006,
+      "sparse_sha256": "5ce3d37da66bfbb719c02f9984e212bb60fcbda8d478effa0fafd33ad85f40cf",
+      "ordinal_sha256": "a0ae7b23e0e0974841dca0ee3084426206e605b5c9749a371feb90bfa5b2caab"
+    },
+    {
+      "replay_sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+      "build": 98348,
+      "measured": {
+        "all_implicit_unit": 3444,
+        "qualified_live_geometry_and_owners": 442,
+        "issues_with_second_town_lifetime_witness": 77
+      },
+      "independently_matched_town_deaths": 5,
+      "qualifying_enclosing_bytes": 13200,
+      "enclosing_sha256": "d55e59b083482754e109fab02b60994a2cbee75a7e85e9c8fe23349aca105fef",
+      "ordinary_issues": 440,
+      "by_unit": {
+        "KingsCore": 51,
+        "TownGateL215BLUR": 3,
+        "TownGateL3BRULTRVisionBlocked": 3,
+        "TownGateL3VerticalRightVisionBlocked": 2,
+        "TownMoonwellL2": 189,
+        "TownMoonwellL3": 83,
+        "TownTownHallL2": 52,
+        "TownTownHallL3": 25,
+        "TownWallRadial14L3": 1,
+        "TownWallRadial18L2": 18,
+        "TownWallRadial19L2": 10,
+        "TownWallRadial5L2": 3
+      },
+      "all_flags_at_qualified_geometry": {
+        "0x10a": 2,
+        "0x80108": 440
+      },
+      "sparse_bytes": 13257,
+      "sparse_sha256": "5d143fa6fe8c682ca09f1202ca9cf1891c906cca56acdf774085b2e12980ad21",
+      "ordinal_sha256": "600eb712bffdb16c724a3cecb86a78afcea83d7ad71a4fb9ccb896181f7710ba"
+    },
+    {
+      "replay_sha256": "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+      "build": 98348,
+      "measured": {
+        "all_implicit_unit": 1793,
+        "qualified_live_geometry_and_owners": 309,
+        "issues_with_second_town_lifetime_witness": 99
+      },
+      "independently_matched_town_deaths": 4,
+      "qualifying_enclosing_bytes": 9180,
+      "enclosing_sha256": "577ec735106ecb3acb2acf9003dc773b6a7e0a0b86b64c88397c481f46251f49",
+      "ordinary_issues": 306,
+      "by_unit": {
+        "KingsCore": 63,
+        "TownGateL215BLUR": 1,
+        "TownGateL3BRULTRVisionBlocked": 2,
+        "TownMoonwellL2": 94,
+        "TownMoonwellL3": 20,
+        "TownTownHallL2": 87,
+        "TownTownHallL3": 12,
+        "TownWallRadial18L2": 25,
+        "TownWallRadial19L2": 2
+      },
+      "all_flags_at_qualified_geometry": {
+        "0x10a": 3,
+        "0x80108": 306
+      },
+      "sparse_bytes": 9221,
+      "sparse_sha256": "3be8107bd1fb3194e294b12e20e4cfaad875de192bbab7527ba45f327e0d9e3f",
+      "ordinal_sha256": "2417aeac05103854d2bebc3cedc70e361bf00cf00239d578dabfee10512167e8"
+    },
+    {
+      "replay_sha256": "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+      "build": 98348,
+      "measured": {
+        "all_implicit_unit": 3241,
+        "qualified_live_geometry_and_owners": 339,
+        "issues_with_second_town_lifetime_witness": 153
+      },
+      "independently_matched_town_deaths": 5,
+      "qualifying_enclosing_bytes": 10170,
+      "enclosing_sha256": "854d0e4c061c37a5c24e7bf688fb0a0b1f00ff094de6dfa176b9e8433be8cfc4",
+      "ordinary_issues": 339,
+      "by_unit": {
+        "KingsCore": 24,
+        "TownGateL215BLUR": 9,
+        "TownGateL215BRUL": 2,
+        "TownMoonwellL2": 99,
+        "TownMoonwellL3": 32,
+        "TownTownHallL2": 140,
+        "TownTownHallL3": 13,
+        "TownWallRadial18L2": 17,
+        "TownWallRadial5L2": 3
+      },
+      "all_flags_at_qualified_geometry": {
+        "0x80108": 339
+      },
+      "sparse_bytes": 10233,
+      "sparse_sha256": "0db023a197700581d2bc5fbda5e598bb5c1a3bb4c2bad50eab1fca31c3e7f724",
+      "ordinal_sha256": "c78d99d84e38aba561bd92a9bb3a7dab500fb91a0f8dce4be34869a745337868"
+    },
+    {
+      "replay_sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+      "build": 98348,
+      "measured": {
+        "all_implicit_unit": 3090,
+        "qualified_live_geometry_and_owners": 368,
+        "issues_with_second_town_lifetime_witness": 184
+      },
+      "independently_matched_town_deaths": 4,
+      "qualifying_enclosing_bytes": 10980,
+      "enclosing_sha256": "b022f71df53fb448e1f2f7d0cec54257d750b8dee29390c6df495c4e78d6aac1",
+      "ordinary_issues": 366,
+      "by_unit": {
+        "KingsCore": 60,
+        "TownGateL215BLUR": 8,
+        "TownGateL3BRULTRVisionBlocked": 6,
+        "TownGateL3VerticalRightVisionBlocked": 7,
+        "TownMoonwellL2": 83,
+        "TownMoonwellL3": 12,
+        "TownTownHallL2": 127,
+        "TownTownHallL3": 57,
+        "TownWallRadial18L2": 4,
+        "TownWallRadial19L2": 1,
+        "TownWallRadial5L2": 1
+      },
+      "all_flags_at_qualified_geometry": {
+        "0x10a": 2,
+        "0x80108": 366
+      },
+      "sparse_bytes": 11025,
+      "sparse_sha256": "bb053f4e2384a215913bf8a1a324d10ec6b78677292c478117ac28efa2f7ee3a",
+      "ordinal_sha256": "8847857b600132ab8a9b6b319a47c69c51c7fb02f52ca1571e33bc3e78ea3eff"
+    },
+    {
+      "replay_sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+      "build": 98348,
+      "measured": {
+        "all_implicit_unit": 3592,
+        "qualified_live_geometry_and_owners": 479,
+        "issues_with_second_town_lifetime_witness": 306
+      },
+      "independently_matched_town_deaths": 6,
+      "qualifying_enclosing_bytes": 14250,
+      "enclosing_sha256": "a4b82837fcb47f189e9d43fe6601c64a9c293c8386ddc02e467875b00ccf9627",
+      "ordinary_issues": 475,
+      "by_unit": {
+        "KingsCore": 34,
+        "TownGateL215BLUR": 5,
+        "TownGateL215BRUL": 7,
+        "TownMoonwellL2": 67,
+        "TownMoonwellL3": 28,
+        "TownTownHallL2": 238,
+        "TownTownHallL3": 68,
+        "TownWallRadial18L2": 2,
+        "TownWallRadial19L2": 3,
+        "TownWallRadial5L2": 23
+      },
+      "all_flags_at_qualified_geometry": {
+        "0x10a": 4,
+        "0x80108": 475
+      },
+      "sparse_bytes": 14300,
+      "sparse_sha256": "8e28d8ec64d347b92ec735459469f608410a7b1f9c1f89d8cf6721b07174a530",
+      "ordinal_sha256": "353c98e1cb509cabe54bb83513dcb61f0dc24d0ee997a3e4ebb16e73043566da"
+    },
+    {
+      "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+      "build": 98348,
+      "measured": {
+        "all_implicit_unit": 2559,
+        "qualified_live_geometry_and_owners": 311,
+        "issues_with_second_town_lifetime_witness": 154
+      },
+      "independently_matched_town_deaths": 6,
+      "qualifying_enclosing_bytes": 9330,
+      "enclosing_sha256": "fd0e10c8f0c48935667e1ec32318887aa5c4fad10b93ef8dd2119a30a76da5c4",
+      "ordinary_issues": 311,
+      "by_unit": {
+        "KingsCore": 46,
+        "TownGateL215BLUR": 4,
+        "TownGateL215BRUL": 1,
+        "TownMoonwellL2": 75,
+        "TownMoonwellL3": 20,
+        "TownTownHallL2": 113,
+        "TownTownHallL3": 41,
+        "TownWallRadial19L2": 4,
+        "TownWallRadial5L2": 7
+      },
+      "all_flags_at_qualified_geometry": {
+        "0x80108": 311
+      },
+      "sparse_bytes": 9379,
+      "sparse_sha256": "06bbfa6dfc36b8fe3f91b4c759633e3597e9f0cc4ee303269785efea4edba2b3",
+      "ordinal_sha256": "7e7c30b30c10579b2972c3f5a5a62b2ecc11c5c4dfe7364006e1a55dfa0c7cde"
+    },
+    {
+      "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+      "build": 98348,
+      "measured": {
+        "all_implicit_unit": 1413,
+        "qualified_live_geometry_and_owners": 268,
+        "issues_with_second_town_lifetime_witness": 44
+      },
+      "independently_matched_town_deaths": 6,
+      "qualifying_enclosing_bytes": 8040,
+      "enclosing_sha256": "2744f1c4b834850bbbbb1371f7f046d30c540ff72e30d3130374432d14bc5e21",
+      "ordinary_issues": 268,
+      "by_unit": {
+        "KingsCore": 52,
+        "TownGateL215BLUR": 3,
+        "TownGateL215BRUL": 1,
+        "TownGateL3BRULTRVisionBlocked": 3,
+        "TownMoonwellL2": 140,
+        "TownMoonwellL3": 8,
+        "TownTownHallL2": 30,
+        "TownTownHallL3": 14,
+        "TownWallRadial14L3": 3,
+        "TownWallRadial18L2": 6,
+        "TownWallRadial19L2": 4,
+        "TownWallRadial5L2": 4
+      },
+      "all_flags_at_qualified_geometry": {
+        "0x80108": 268
+      },
+      "sparse_bytes": 8111,
+      "sparse_sha256": "1ba88ea995bd384b2ed90e58eee59e4988d909cd5398e6fec31c719f3acafd84",
+      "ordinal_sha256": "0fd7ba0c50e56c3aa65d9e0957c5acd7c13fe4f32e0caefa7c43908026b6b67d"
+    },
+    {
+      "replay_sha256": "a956b186a0459a47d9b0fdd8af4ccb65c437f11926186471c434e543e218b2d7",
+      "build": 98348,
+      "measured": {
+        "all_implicit_unit": 3142,
+        "qualified_live_geometry_and_owners": 469,
+        "issues_with_second_town_lifetime_witness": 326
+      },
+      "independently_matched_town_deaths": 7,
+      "qualifying_enclosing_bytes": 14070,
+      "enclosing_sha256": "9967e957c546dab5fec9b6c97ba0bf97ccc62a5be33a1212fbf003ef7f6d4ac4",
+      "ordinary_issues": 469,
+      "by_unit": {
+        "KingsCore": 11,
+        "TownGateL215BLUR": 16,
+        "TownGateL215BRUL": 5,
+        "TownGateL3BRULTRVisionBlocked": 2,
+        "TownMoonwellL2": 83,
+        "TownMoonwellL3": 9,
+        "TownTownHallL2": 230,
+        "TownTownHallL3": 96,
+        "TownWallRadial14L3": 5,
+        "TownWallRadial18L2": 6,
+        "TownWallRadial19L2": 1,
+        "TownWallRadial5L2": 5
+      },
+      "all_flags_at_qualified_geometry": {
+        "0x80108": 469
+      },
+      "sparse_bytes": 14109,
+      "sparse_sha256": "efcd5fe43c2dfd835277e5661a4aa4ae9022ed7bd2b1efdbee947d33d79cf083",
+      "ordinal_sha256": "a8ca9eacec89bcc87cee08db0d8c7a1d7ae6a8ec115b9f5e9a8d0e6be073796e"
+    },
+    {
+      "replay_sha256": "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+      "build": 98348,
+      "measured": {
+        "all_implicit_unit": 2678,
+        "qualified_live_geometry_and_owners": 438,
+        "issues_with_second_town_lifetime_witness": 214
+      },
+      "independently_matched_town_deaths": 5,
+      "qualifying_enclosing_bytes": 13140,
+      "enclosing_sha256": "61479c1c2f909fe99daa56cc275756103c32579de415bbf9faa97738a665228b",
+      "ordinary_issues": 438,
+      "by_unit": {
+        "KingsCore": 9,
+        "TownGateL215BLUR": 2,
+        "TownGateL215BRUL": 2,
+        "TownMoonwellL2": 131,
+        "TownMoonwellL3": 56,
+        "TownTownHallL2": 89,
+        "TownTownHallL3": 125,
+        "TownWallRadial18L2": 8,
+        "TownWallRadial5L2": 16
+      },
+      "all_flags_at_qualified_geometry": {
+        "0x80108": 438
+      },
+      "sparse_bytes": 13188,
+      "sparse_sha256": "4980d5cf73b8d3018a9b58fdf75b2316ca4f467c715faaa8ac4699deac0acbff",
+      "ordinal_sha256": "3ca628b1756c5337bfae05c2a3155873d3232d74483970ecd9157184f99d24e7"
+    },
+    {
+      "replay_sha256": "bc16af7f68496cddc4698f70b3853402a0f30aa37951aec3a6b555ed703879e8",
+      "build": 98348,
+      "measured": {
+        "all_implicit_unit": 3326,
+        "qualified_live_geometry_and_owners": 613,
+        "issues_with_second_town_lifetime_witness": 305
+      },
+      "independently_matched_town_deaths": 9,
+      "qualifying_enclosing_bytes": 18330,
+      "enclosing_sha256": "9a4a682b164c687fadc8d77f1880a9d53633462d80452d5498d566f6f72dfec5",
+      "ordinary_issues": 611,
+      "by_unit": {
+        "KingsCore": 84,
+        "TownGateL215BLUR": 23,
+        "TownGateL215BRUL": 2,
+        "TownGateL3BRULTRVisionBlocked": 11,
+        "TownGateL3VerticalRightVisionBlocked": 1,
+        "TownMoonwellL2": 70,
+        "TownMoonwellL3": 76,
+        "TownTownHallL2": 231,
+        "TownTownHallL3": 74,
+        "TownWallRadial14L3": 9,
+        "TownWallRadial18L2": 4,
+        "TownWallRadial19L2": 3,
+        "TownWallRadial5L2": 23
+      },
+      "all_flags_at_qualified_geometry": {
+        "0x10a": 2,
+        "0x80108": 611
+      },
+      "sparse_bytes": 18389,
+      "sparse_sha256": "bdb1c2d1ae7e852859ce75b706e9cc94a1729c1d5f4633aa74eb2f365842c417",
+      "ordinal_sha256": "fa7f80ec335541f00a7511ed738d37253de29cd6f5c5d983c14499f00348014f"
+    },
+    {
+      "replay_sha256": "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77",
+      "build": 98348,
+      "measured": {
+        "all_implicit_unit": 5578,
+        "qualified_live_geometry_and_owners": 629,
+        "issues_with_second_town_lifetime_witness": 283
+      },
+      "independently_matched_town_deaths": 6,
+      "qualifying_enclosing_bytes": 18780,
+      "enclosing_sha256": "45bc44e5b0b0b32aa047af42960f8b29f0fd0796834cb32d5beb9ff95445f534",
+      "ordinary_issues": 626,
+      "by_unit": {
+        "KingsCore": 123,
+        "TownGateL215BLUR": 5,
+        "TownGateL215BRUL": 5,
+        "TownGateL3BRULTRVisionBlocked": 12,
+        "TownMoonwellL2": 132,
+        "TownMoonwellL3": 18,
+        "TownTownHallL2": 211,
+        "TownTownHallL3": 72,
+        "TownWallRadial14L3": 2,
+        "TownWallRadial18L2": 17,
+        "TownWallRadial19L2": 13,
+        "TownWallRadial5L2": 16
+      },
+      "all_flags_at_qualified_geometry": {
+        "0x10a": 3,
+        "0x80108": 626
+      },
+      "sparse_bytes": 18843,
+      "sparse_sha256": "0df4b1ac29da46ca6150a7ab4cda75d64ae7ec439863f6387aec715a69217760",
+      "ordinal_sha256": "6ae461d5f219622554b024e8c8bafcf2b4031c13b51216ba3ed788c2c70bf3f2"
+    },
+    {
+      "replay_sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+      "build": 98348,
+      "measured": {
+        "all_implicit_unit": 4916,
+        "qualified_live_geometry_and_owners": 713,
+        "issues_with_second_town_lifetime_witness": 391
+      },
+      "independently_matched_town_deaths": 7,
+      "qualifying_enclosing_bytes": 21390,
+      "enclosing_sha256": "589354897c5cafbcde32ec3930b2a77a3abf3045f02fdbfa04063f8303fa152c",
+      "ordinary_issues": 713,
+      "by_unit": {
+        "KingsCore": 119,
+        "TownGateL215BLUR": 3,
+        "TownGateL215BRUL": 10,
+        "TownMoonwellL2": 112,
+        "TownMoonwellL3": 39,
+        "TownTownHallL2": 285,
+        "TownTownHallL3": 106,
+        "TownWallRadial18L2": 2,
+        "TownWallRadial19L2": 1,
+        "TownWallRadial5L2": 36
+      },
+      "all_flags_at_qualified_geometry": {
+        "0x80108": 713
+      },
+      "sparse_bytes": 21444,
+      "sparse_sha256": "426f86bd364af970ef2cda26d5602f6387360b5663e78dce6e70f47edbc9f00b",
+      "ordinal_sha256": "478adf7b27dbe284fed244d470638f58009ed1a7e57cb832b2b8454e5ddc7309"
+    },
+    {
+      "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+      "build": 98348,
+      "measured": {
+        "all_implicit_unit": 1756,
+        "qualified_live_geometry_and_owners": 360,
+        "issues_with_second_town_lifetime_witness": 207
+      },
+      "independently_matched_town_deaths": 5,
+      "qualifying_enclosing_bytes": 10800,
+      "enclosing_sha256": "e810466b59c8472e4d666b6b67b3ef7414aa361bf9b8e2fde661c4a84dfd0b57",
+      "ordinary_issues": 360,
+      "by_unit": {
+        "KingsCore": 36,
+        "TownGateL215BLUR": 11,
+        "TownGateL3VerticalRightVisionBlocked": 3,
+        "TownMoonwellL2": 58,
+        "TownMoonwellL3": 36,
+        "TownTownHallL2": 113,
+        "TownTownHallL3": 94,
+        "TownWallRadial14L3": 4,
+        "TownWallRadial18L2": 2,
+        "TownWallRadial19L2": 2,
+        "TownWallRadial5L2": 1
+      },
+      "all_flags_at_qualified_geometry": {
+        "0x80108": 360
+      },
+      "sparse_bytes": 10845,
+      "sparse_sha256": "4a97f631f0fd030184c75cd31b53aaf3267a8cffbe1197a9d45c1187264091ec",
+      "ordinal_sha256": "36172d779c114bd76654cdee452fc44386ebda5fa1afca650e41c97d94ec9f7e"
+    }
+  ],
+  "enclosing_native_frames_equal": 6523,
+  "enclosing_native_bytes_equal": 195690,
+  "catalog_held_out": {
+    "replay_sha256": "4732077e899f6894c29586795a01e2a27fba622dbf22b5d29c7b30d57e3ce4fc",
+    "build": 98348,
+    "measured": {
+      "all_implicit_unit": 2674,
+      "qualified_live_geometry_and_owners": 337,
+      "issues_with_second_town_lifetime_witness": 113
+    },
+    "independently_matched_town_deaths": 5,
+    "qualifying_enclosing_bytes": 10080,
+    "enclosing_sha256": "606a1c69f030024a343b607622a84ebf3a5902c9c7ab3abe46c162f60c73f923",
+    "ordinary_issues": 336,
+    "by_unit": {
+      "KingsCore": 58,
+      "TownGateL215BLUR": 1,
+      "TownGateL215BRUL": 11,
+      "TownGateL3BRULTRVisionBlocked": 4,
+      "TownMoonwellL2": 76,
+      "TownMoonwellL3": 47,
+      "TownTownHallL2": 38,
+      "TownTownHallL3": 75,
+      "TownWallRadial14L3": 1,
+      "TownWallRadial18L2": 14,
+      "TownWallRadial19L2": 7,
+      "TownWallRadial5L2": 4
+    },
+    "all_flags_at_qualified_geometry": {
+      "0x10a": 1,
+      "0x80108": 336
+    },
+    "sparse_bytes": 10129,
+    "sparse_sha256": "fb8a8d2733564753459ab2428305c96bc6e36bc98964366697469a0bf158cc23",
+    "ordinal_sha256": "e845a97d435130ef91365bf904e0127ad9c317a7546b842ea1f2192f63e52dbc"
+  }
+}

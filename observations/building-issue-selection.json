@@ -1,0 +1,14 @@
+{
+  "issues": 39,
+  "categories": {
+    "primary_hero_selection_with_intervening_lifetime_boundary": 29,
+    "single_primary_hero_continuously_alive_since_accepted_selection": 3,
+    "previous_selection_unresolved": 7
+  },
+  "uninterrupted_source_ordinals": [
+    51187,
+    102795,
+    102952
+  ],
+  "target_command_execution_verified": false
+}

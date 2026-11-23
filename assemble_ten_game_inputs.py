@@ -2,6 +2,7 @@
 
 import argparse
 from collections import Counter
+import first_sync_game
 from hashlib import sha256
 import json
 from pathlib import Path
@@ -14,6 +15,7 @@ from extend_game_fragments import extra_rows
 from first_sync_game import game
 from full_camera_inputs import audit as project_cameras
 from immediate_point_updates import generate as project_updates
+from implicit_building_issues import generate as project_building_issues
 from implicit_point_issues import generate as project_issues
 from initial_point_sessions import analyze as point_sessions
 from literal_chat_input import verify_chat
@@ -81,6 +83,10 @@ def assemble(source, gate_map, mechanics, curve, selection_controls, prefix64, a
     interval_rows, _, _ = project_intervals(source)
     for ordinal, row in interval_rows.items():
         add(ordinal, row, "command_interval_conditional_on_issue")
+    catalog = Path(first_sync_game.__file__).parent / "observations/dragonshire-building-catalog-links.json"
+    buildings, _, _ = project_building_issues(source, gate_map, mechanics, catalog)
+    for ordinal, row in buildings.items():
+        add(ordinal, row, "building_target_requires_catalog_and_lifetime")
 
     old, raw = game(source, SOURCE, 41810)
     total, missing, represented = Counter(), Counter(), Counter()
