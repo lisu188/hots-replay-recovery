@@ -1,0 +1,72 @@
+{
+  "parent_sha256": "54e1a8fbe7e42f00b7b52cde420ed259105228fcdf165097ef52ecd0f5c4125a",
+  "candidate_sha256": "e7ce5d12d5a93840a333a6e27b3f15d9cab9917be2e88d0040f19d638e4f9bbf",
+  "candidate_bytes": 2198317,
+  "source_catalog_sha256": "aaf264de6c3e31ce4bee1b1a5d658d695036393e4077e539630dd553698e9bbb",
+  "current_hero_sha256": "6e575d1c7e852274480b88e89e06ce993a9b8dd6f7988ccdc57e173c337eb799",
+  "parent_checks": {
+    "content_members": 70,
+    "live_blocks": 72,
+    "raw_table_results": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "native_member_flags": {
+      "256": 1,
+      "336": 71
+    }
+  },
+  "candidate_checks": {
+    "content_members": 71,
+    "live_blocks": 73,
+    "raw_table_results": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "native_member_flags": {
+      "256": 1,
+      "336": 72
+    }
+  },
+  "unchanged_content_members": 69,
+  "added_member": "Base.StormData\\GameData\\HeroData.xml",
+  "changed_member": "Base.StormData\\GameData\\TalentData.xml",
+  "member_sha256": {
+    "Base.StormData\\GameData\\TalentData.xml": "735958f36d3e856884c5ae78574ce2dce23ed12d45d2d2463fb0af95d844b405",
+    "Base.StormData\\GameData\\HeroData.xml": "7d2990c25571bb1410840d3fe956f9a8bf92836502f2e3d7de1d53edea76d871"
+  },
+  "target_slot": 0,
+  "tier": 1,
+  "column": 1,
+  "stock_choice": "AnubarakNerubianArmor",
+  "projected_choice": "AnubarakMasteryExtendedSpikesImpale",
+  "removal_exemplar_sha256": "78a564ee1334eeaee26c4b6c57a7dd5d5b3c048cba63a9b7131440d778b98cff",
+  "removed_flat_modification_indices": [
+    12,
+    11,
+    10,
+    9,
+    8,
+    7,
+    6
+  ],
+  "unchanged_modification_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "historic_shape_verified": false,
+  "native_catalog_loading_verified": false,
+  "replay_written": false
+}
