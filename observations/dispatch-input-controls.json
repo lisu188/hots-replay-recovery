@@ -1,0 +1,37 @@
+{
+  "events": 30,
+  "types": {
+    "5": 2,
+    "7": 10,
+    "27": 2,
+    "28": 4,
+    "56": 10,
+    "104": 2
+  },
+  "standalone_bytes": 593,
+  "maximum_bytes": 26,
+  "payload_sequence_sha256": "3fbe83b84771036331379ea05a3dc228d3d57939297484fae7d5aaba2a1c9330",
+  "cohort": {
+    "controls": 24,
+    "events": 1507,
+    "standalone_bytes": 19243,
+    "maximum_bytes": 106,
+    "types": {
+      "5": 48,
+      "7": 254,
+      "27": 40,
+      "28": 90,
+      "32": 6,
+      "49": 352,
+      "55": 75,
+      "56": 230,
+      "64": 38,
+      "66": 326,
+      "103": 28,
+      "104": 20
+    },
+    "outside_profile": {
+      "58": 8
+    }
+  }
+}

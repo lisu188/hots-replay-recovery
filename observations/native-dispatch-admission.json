@@ -1,0 +1,87 @@
+{
+  "build": 98348,
+  "original_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+  "r8_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+  "game_prefix_sha256": "68def0020f334b543ed6e1be6aed1fd57bfbdc284c933372298a3e96cc69efc5",
+  "exe_sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+  "text_sha256": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83",
+  "methods": {
+    "5": {
+      "vtable": "0x27bbc20",
+      "class_leaf": "0x1328040",
+      "file_class": 2,
+      "mask_leaf": "0x1327e60",
+      "role_mask": 7
+    },
+    "7": {
+      "vtable": "0x271e5b8",
+      "class_leaf": "0xe0e4f0",
+      "file_class": 2,
+      "mask_leaf": "0xe0e4a0",
+      "role_mask": 7
+    },
+    "27": {
+      "vtable": "0x2657c78",
+      "class_leaf": "0x6d36e0",
+      "file_class": 2,
+      "mask_leaf": "0x6d3640",
+      "role_mask": 1
+    },
+    "28": {
+      "vtable": "0x26643a0",
+      "class_leaf": "0x75ceb0",
+      "file_class": 2,
+      "mask_leaf": "0x75ce70",
+      "role_mask": 7
+    },
+    "56": {
+      "vtable": "0x26658b0",
+      "class_leaf": "0x77adf0",
+      "file_class": 2,
+      "mask_leaf": "0x77ad70",
+      "role_mask": 1
+    },
+    "104": {
+      "vtable": "0x2657db8",
+      "class_leaf": "0x6d36f0",
+      "file_class": 2,
+      "mask_leaf": "0x6d3650",
+      "role_mask": 1
+    }
+  },
+  "normalized_user_getters_sha256": "dc76724a8bf83744efe9b184fef46009788b4ed34d1e940287dbc24f1a8df775",
+  "clean_enabled_mask": "0x3ff",
+  "real_users": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "real_user_classes": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "class2_queue": "G+0xbfdd8",
+  "physical_events": 30,
+  "admitted_on_clean_ten_roster": 30,
+  "sentinel_ordinals": [
+    1,
+    22
+  ],
+  "first_dispatch_crc_from_clean_seed": "0x79167cd3",
+  "limits": "Requires the clean TEN roster committed to native setup, and file dispatch in order. A resumed process may have different state. Overall sync word uncomputed."
+}

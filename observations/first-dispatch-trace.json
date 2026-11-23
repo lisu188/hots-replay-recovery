@@ -1,0 +1,18 @@
+{
+  "build": 98348,
+  "inputs": 30,
+  "wire_bytes": 270,
+  "dispatch_input_sha256": "4b01f15bd1931b326c562ed20e870dfe2b070be31c2f324f410255abd0394687",
+  "first_update_from_clean_seed": "0x79167cd3",
+  "last_by_input_loop": {
+    "0": "0x3d7f43d3",
+    "52": "0x84db05e1",
+    "59": "0xd8fe8205",
+    "60": "0x9ca1f28",
+    "61": "0xf23d56ce",
+    "63": "0x5b6a310a",
+    "64": "0x176e9dc3"
+  },
+  "scope": "Clean start with TEN map, active mask and class-zero lobby participants committed, projected file inputs dispatched in recorded order",
+  "target_simulation_checksum_computed": false
+}
