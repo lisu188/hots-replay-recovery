@@ -1,0 +1,34 @@
+{
+  "map_sha256": "d41c5841a5719e76246265940d28b244bae91f4e3fef33e621f3a2e2a0ee7bbd",
+  "script_outside_insertions_matches": true,
+  "delegated_calls_per_dispatch": 1,
+  "callback_cases": 8,
+  "slots_checked_per_case": 31,
+  "changed_levels": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    23
+  ],
+  "unchanged_unobserved_levels": [
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30
+  ],
+  "native_playback_verified": false
+}

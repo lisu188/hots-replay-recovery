@@ -1,0 +1,99 @@
+{
+  "source_map_sha256": "e6167145ee82e6c139f07336cd65fced5c86d162da19baad57a2d3e82b3a455e",
+  "map_sha256": "d41c5841a5719e76246265940d28b244bae91f4e3fef33e621f3a2e2a0ee7bbd",
+  "map_bytes": 2134122,
+  "member": "MapScript.galaxy",
+  "source_member_sha256": "3cbca9c5b3c95bd0b5f8eb8d2218d129d89e21c3466cb242e7c54b22e67c7e18",
+  "member_sha256": "cbde228bbfaa6dad7e2cc9bad02651d30ab7435838ab25e732c4bea2aa85b7d6",
+  "dependency_sha256": "15f0314a1c48a0391e76e22360847e7ef0c91b12a29da15d79453045c175a683",
+  "historical_observations_sha256": "d3155fc0d75ad42b35b11ab1cc977e8c6b155b9e2733b364b5eb1693edff356b",
+  "old_and_new_seconds_by_changed_level": {
+    "7": [
+      22,
+      21
+    ],
+    "8": [
+      24,
+      22
+    ],
+    "9": [
+      25,
+      23
+    ],
+    "10": [
+      27,
+      24
+    ],
+    "11": [
+      29,
+      26
+    ],
+    "12": [
+      31,
+      29
+    ],
+    "13": [
+      34,
+      32
+    ],
+    "15": [
+      39,
+      40
+    ],
+    "16": [
+      41,
+      44
+    ],
+    "17": [
+      44,
+      50
+    ],
+    "18": [
+      48,
+      56
+    ],
+    "19": [
+      51,
+      62
+    ],
+    "20": [
+      54,
+      65
+    ],
+    "21": [
+      59,
+      65
+    ],
+    "23": [
+      70,
+      65
+    ]
+  },
+  "unsupported_levels_with_stock_values": [
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30
+  ],
+  "unchanged_content_members": 69,
+  "integrity": {
+    "content_members": 70,
+    "live_blocks": 72,
+    "raw_table_results": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "native_member_flags": {
+      "256": 1,
+      "336": 71
+    }
+  },
+  "native_playback_verified": false
+}
