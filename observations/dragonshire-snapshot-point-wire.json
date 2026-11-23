@@ -1,0 +1,89 @@
+{
+  "focused_tests_passed": 4,
+  "format": "snapshot-point-wire-portable-cli-check-v1",
+  "fresh_cli_generation_byte_equal": true,
+  "full_converted_events_verified": false,
+  "full_converted_replay_verified": false,
+  "independent_phase_readback": {
+    "named_point_type": 90,
+    "named_profile_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+    "native_writer_matches_independent_encoder_and_decoder": true,
+    "nonzero_adjacent_bits_preserved": true,
+    "verified_per_phase": {
+      "0": 2179,
+      "1": 2179,
+      "2": 2179,
+      "3": 2179,
+      "4": 2179,
+      "5": 2179,
+      "6": 2179,
+      "7": 2179
+    },
+    "verified_phase_variants": 17432
+  },
+  "independent_physical_controls": [
+    {
+      "all_framed_events": 109309,
+      "by_event_id": {
+        "105": 12,
+        "27": 1002
+      },
+      "by_phase": {
+        "1": 315,
+        "3": 687,
+        "7": 12
+      },
+      "counts": {
+        "matched": 1014,
+        "naive_phase_zero_would_differ": 1014
+      },
+      "full_game_equal_after_generated_span_write": true,
+      "member_bytes": 1408798,
+      "member_sha256": "221b343574b91cea563b3fc3011a160e8455e21a8e289f91ff7cdf4b3b3b2f95",
+      "native_schema_sha256": "bbb2ca6a0c1511a6756cf0f5ab9d0309f4b8b6cdf397963d020390f549082895",
+      "replay_sha256": "a956b186a0459a47d9b0fdd8af4ccb65c437f11926186471c434e543e218b2d7",
+      "upstream_framing_schema_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84"
+    },
+    {
+      "all_framed_events": 216321,
+      "by_event_id": {
+        "105": 20,
+        "27": 1528
+      },
+      "by_phase": {
+        "1": 741,
+        "3": 787,
+        "7": 20
+      },
+      "counts": {
+        "matched": 1548,
+        "naive_phase_zero_would_differ": 1548
+      },
+      "full_game_equal_after_generated_span_write": true,
+      "member_bytes": 2733434,
+      "member_sha256": "562b6304dfd541ed3ed8c6b1084b63217e5b3d0df477c2eb73c0594c5a47613c",
+      "native_schema_sha256": "bbb2ca6a0c1511a6756cf0f5ab9d0309f4b8b6cdf397963d020390f549082895",
+      "replay_sha256": "bc16af7f68496cddc4698f70b3853402a0f30aa37951aec3a6b555ed703879e8",
+      "upstream_framing_schema_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84"
+    }
+  ],
+  "source": {
+    "artifact_bytes": 156888,
+    "binary_sha256": "1caf663b5823c277735745a7fe528d6b989b0542e4689a4771c4afcf280c5b35",
+    "breakdown": {
+      "105": 2033,
+      "27": 146
+    },
+    "bytes_per_phase_variant": 9,
+    "field_bits_per_ordinal": 72,
+    "format": "target-98348-command-snapshot-point-phase-slices-v1",
+    "full_event_emitted": false,
+    "historical_map_sha256": "662a90d5ea72c8454d66a1070b3200e6a2929f3d2069e2c07ecc07cfcc79b800",
+    "index_sha256": "3e073059c7b2cba761860229f8ac78e12d8f4cf388fb76f9fcd197c8c25a5da2",
+    "phases_per_point": 8,
+    "point_count": 2179,
+    "source_replay": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+    "storage": "For phase p, read 9 packed physical bytes at binary_byte_offset+9*p. Copy physical bits least significant bit first into a destination cursor whose modulus is p."
+  },
+  "total_genuine_spans": 2562
+}
