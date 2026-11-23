@@ -95,6 +95,19 @@ class TalentChoiceAuditTests(unittest.TestCase):
         self.assertEqual(result['unique_one_loop_pairs'], 0)
         self.assertEqual(result['mapped_selections_without_prior_hero'], 1)
 
+    def test_internal_apostrophe_in_recorded_purchase_name_is_preserved(self):
+        track = tracker()
+        track[-1] = stat(value=b"Zul'jinAmaniRageAmaniHide")
+        result = audit_talent_choices([selection()], track)
+        self.assertEqual(result['observations'][0]['purchase_name'], "Zul'jinAmaniRageAmaniHide")
+
+    def test_purchase_punctuation_is_bounded_and_hero_ids_keep_their_grammar(self):
+        for invalid in (b"'Talent", b"Talent'", b"Zul''jin", b"Talent name", b'A' * 257):
+            with self.subTest(invalid=invalid), self.assertRaises(ValueError):
+                audit_talent_choices([selection()], tracker()[:-1] + [stat(value=invalid)])
+        with self.assertRaises(ValueError):
+            audit_talent_choices([selection()], [setup(), stat(b'PlayerSpawned', b"HeroZul'jin", 0), stat()])
+
     def test_comparison_preserves_conflicts_and_does_not_infer_replacement_index(self):
         source_track = tracker(); source_track[-1]['m_stringData'][0]['m_value'] = b'KaelthasLivingBombSunKingsFury'
         source = audit_talent_choices([selection()], source_track)

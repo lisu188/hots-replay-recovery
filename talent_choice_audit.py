@@ -20,13 +20,14 @@ def _uint(value, label, positive=False):
     return value
 
 
-def _identifier(value):
+def _identifier(value, *, purchase_name=False):
     if type(value) is bytes:
         try:
             value = value.decode('ascii')
         except UnicodeDecodeError:
             raise ValueError('invalid hero/talent identifier') from None
-    if type(value) is not str or re.fullmatch(r'[A-Za-z][A-Za-z0-9_]{0,255}', value) is None:
+    pattern = r"[A-Za-z][A-Za-z0-9_]*(?:'[A-Za-z0-9_]+)*" if purchase_name else r'[A-Za-z][A-Za-z0-9_]*'
+    if type(value) is not str or len(value) > 256 or re.fullmatch(pattern, value) is None:
         raise ValueError('invalid hero/talent identifier')
     return value
 
@@ -74,7 +75,7 @@ def audit_talent_choices(game_events, tracker_events):
                 previous = heroes.get(player, (hero, tick))[1]
                 heroes[player] = (hero, min(previous, tick))
             else:
-                purchases.append((player, tick, _identifier(strings[b'PurchaseName'])))
+                purchases.append((player, tick, _identifier(strings[b'PurchaseName'], purchase_name=True)))
 
     selections, unmapped, missing_hero = [], 0, 0
     for event in game_events:
