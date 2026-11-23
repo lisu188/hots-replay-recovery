@@ -1,0 +1,38 @@
+{
+  "format": "41810-original-layout-gilnean-cocktail-base-cooldown-v1",
+  "source_map_sha256": "e8d151e5d574babf187e3c0b06cd4b29d2280ac085773afda36a3ebb9c79ffa7",
+  "map_sha256": "e6167145ee82e6c139f07336cd65fced5c86d162da19baad57a2d3e82b3a455e",
+  "map_bytes": 2131152,
+  "hero_xml_sha256": "78a564ee1334eeaee26c4b6c57a7dd5d5b3c048cba63a9b7131440d778b98cff",
+  "historical_catalog_sha256": "aaf264de6c3e31ce4bee1b1a5d658d695036393e4077e539630dd553698e9bbb",
+  "member": "Base.StormData\\GameData\\AbilData.xml",
+  "before_member_sha256": "d7b8d878e186f7997ead073f2089d7aa6fb039a5c937b5020756fd2d5d5ca22b",
+  "after_member_sha256": "b879594ad47825db3e349c0592add51a075cb524e87d4f9de21c2cc7b4092251",
+  "unchanged_content_members": 69,
+  "integrity": {
+    "content_members": 70,
+    "live_blocks": 72,
+    "raw_table_results": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "native_member_flags": {
+      "256": 1,
+      "336": 71
+    }
+  },
+  "change": {
+    "id": "GreymaneGilneanCocktail",
+    "field": "Cost.Cooldown.TimeUse",
+    "stock": 9,
+    "restored": 8
+  },
+  "incendiary_elixir_historical_cooldown_and_damage_restored": false,
+  "concentrated_blast_restored": false,
+  "damage_restored": false,
+  "native_playback_verified": false
+}

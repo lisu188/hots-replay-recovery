@@ -1,0 +1,46 @@
+{
+  "format": "greymane-cooldowns-released-loader-v1",
+  "library_sha256": "4013071b5683ce8090096d84082879d34a30620ada741acc5841cb5bd89fa2ee",
+  "maps": [
+    {
+      "map_sha256": "662a90d5ea72c8454d66a1070b3200e6a2929f3d2069e2c07ecc07cfcc79b800",
+      "changed": false,
+      "loaded_xml": 9,
+      "full_record_comparisons": 10,
+      "matched_whole_record": 10,
+      "indexed_cost_negative": false
+    },
+    {
+      "map_sha256": "e8d151e5d574babf187e3c0b06cd4b29d2280ac085773afda36a3ebb9c79ffa7",
+      "changed": true,
+      "loaded_xml": 11,
+      "full_record_comparisons": 10,
+      "matched_whole_record": 10,
+      "indexed_cost_negative": false
+    },
+    {
+      "map_sha256": "df12447e01d95566bb3266083b25e6f00c25a462e24500628e352664493a245f",
+      "changed": true,
+      "loaded_xml": 11,
+      "full_record_comparisons": 10,
+      "matched_whole_record": 8,
+      "indexed_cost_negative": true
+    },
+    {
+      "map_sha256": "e6167145ee82e6c139f07336cd65fced5c86d162da19baad57a2d3e82b3a455e",
+      "changed": true,
+      "loaded_xml": 11,
+      "full_record_comparisons": 10,
+      "matched_whole_record": 10,
+      "indexed_cost_negative": false
+    }
+  ],
+  "selected_records": [
+    "GreymaneDarkflightDisengageRunningWild",
+    "GreymaneDisengageHeroicUseSwitch",
+    "GreymaneGoForTheThroatResetPlayerCooldown",
+    "GreymaneGoForTheThroat",
+    "GreymaneGilneanCocktail"
+  ],
+  "native_engine_proof": false
+}

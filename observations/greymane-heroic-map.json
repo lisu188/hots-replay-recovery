@@ -1,0 +1,84 @@
+{
+  "format": "dragon-shire-original-layout-greymane-cooldowns-v1",
+  "source_map_sha256": "662a90d5ea72c8454d66a1070b3200e6a2929f3d2069e2c07ecc07cfcc79b800",
+  "source_map_bytes": 2130235,
+  "map_sha256": "e8d151e5d574babf187e3c0b06cd4b29d2280ac085773afda36a3ebb9c79ffa7",
+  "map_bytes": 2130976,
+  "hero_xml_sha256": "78a564ee1334eeaee26c4b6c57a7dd5d5b3c048cba63a9b7131440d778b98cff",
+  "historical_catalog_sha256": "aaf264de6c3e31ce4bee1b1a5d658d695036393e4077e539630dd553698e9bbb",
+  "members": [
+    {
+      "name": "Base.StormData\\GameData\\AbilData.xml",
+      "before": null,
+      "after": "d7b8d878e186f7997ead073f2089d7aa6fb039a5c937b5020756fd2d5d5ca22b"
+    },
+    {
+      "name": "Base.StormData\\GameData\\EffectData.xml",
+      "before": null,
+      "after": "72f123486e169e933e2e96bd68497ee87c6c6e655dfee6a7d2793357718df43d"
+    },
+    {
+      "name": "Base.StormData\\GameData\\TalentData.xml",
+      "before": "eb7c819c8f70eb5a97e5400fe54b960de6b72a7da9b77fd28e4f1a476eaacf69",
+      "after": "2bb79bc6d36faaf38584d95f73399e0245923e385e954b8bbd00ef5fb87f4dfb"
+    }
+  ],
+  "original_content_members_unchanged": 67,
+  "base_integrity": {
+    "content_members": 68,
+    "live_blocks": 70,
+    "raw_table_results": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "native_member_flags": {
+      "256": 1,
+      "336": 69
+    }
+  },
+  "new_integrity": {
+    "content_members": 70,
+    "live_blocks": 72,
+    "raw_table_results": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "native_member_flags": {
+      "256": 1,
+      "336": 71
+    }
+  },
+  "cooldown_edits": {
+    "running_wild_darkflight_flat": [
+      -1,
+      0
+    ],
+    "running_wild_disengage_flat": [
+      -1,
+      0
+    ],
+    "running_wild_heroic_disengage_case": [
+      "DisengageHeroicUseModifyCooldownRunningWild",
+      "DisengageHeroicUseModifyCooldown"
+    ],
+    "go_for_the_throat_base_seconds": [
+      80,
+      60
+    ],
+    "go_for_the_throat_reset_seconds": [
+      80,
+      60
+    ]
+  },
+  "range_bonus_percent": 35,
+  "heroic_disengage_41810_absolute_time_independently_verified": false,
+  "native_playback_verified": false
+}
