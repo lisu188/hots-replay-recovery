@@ -1,0 +1,381 @@
+[
+  {
+    "build": 41810,
+    "schema": 41810,
+    "replay_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+    "game_sha256": "ea69dd77edd02f3ed2c42a2def1faab6dc4d0eb46da291c44f76bfb49a65eed6",
+    "tracker_sha256": "1a9a556f9f1fde466d17c4a3a3fbb31cbec8d8086bef97efeb796f1f5175245f",
+    "game_bytes": 1146911,
+    "command_targets": 12465,
+    "recovered_pairs": 11746,
+    "recovered_fields": 23492,
+    "recovered_by_field": {
+      "m_snapshotControlPlayerId": 11746,
+      "m_snapshotUpkeepPlayerId": 11746
+    },
+    "outcomes": {
+      "alive": 7631,
+      "constant_lifetime_role_dead": 117,
+      "constant_lifetime_role_transition_loop": 138,
+      "dead": 3,
+      "ownership_changed": 670,
+      "revived": 3860,
+      "sentinel": 41,
+      "transition_loop": 4,
+      "unknown_generation": 1
+    },
+    "full_game_bytes_equal": true
+  },
+  {
+    "build": 98348,
+    "schema": 96477,
+    "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+    "game_sha256": "8fe55ded03f0351290beba9f8d2b519c549d1cf32fd7bec7d04205a71510b5ee",
+    "tracker_sha256": "aac1ee0b170eef3f4178c7269778f762b61d5ddff3a3d03af3184aa610640b8d",
+    "game_bytes": 1926055,
+    "command_targets": 4546,
+    "recovered_pairs": 4146,
+    "recovered_fields": 8292,
+    "recovered_by_field": {
+      "m_snapshotControlPlayerId": 4146,
+      "m_snapshotUpkeepPlayerId": 4146
+    },
+    "outcomes": {
+      "alive": 3588,
+      "constant_lifetime_role_dead": 28,
+      "constant_lifetime_role_transition_loop": 29,
+      "ownership_changed": 370,
+      "revived": 501,
+      "sentinel": 29,
+      "transition_loop": 1
+    },
+    "full_game_bytes_equal": true
+  },
+  {
+    "build": 98348,
+    "schema": 96477,
+    "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+    "game_sha256": "9ffd36eb1dd1d467bf456e2c4ab51e97d4b3437dd690bcad81f5f6e440757fe5",
+    "tracker_sha256": "152fa91c7a0db6a83d718e6d8f70ad1af86035a7a971493d7055688be8de49fc",
+    "game_bytes": 2700029,
+    "command_targets": 4518,
+    "recovered_pairs": 4401,
+    "recovered_fields": 8802,
+    "recovered_by_field": {
+      "m_snapshotControlPlayerId": 4401,
+      "m_snapshotUpkeepPlayerId": 4401
+    },
+    "outcomes": {
+      "alive": 3555,
+      "constant_lifetime_role_dead": 21,
+      "constant_lifetime_role_transition_loop": 23,
+      "ownership_changed": 79,
+      "revived": 802,
+      "sentinel": 37,
+      "transition_loop": 1
+    },
+    "full_game_bytes_equal": true
+  },
+  {
+    "build": 98348,
+    "schema": 96477,
+    "replay_sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+    "game_sha256": "e83eae7da8008b5263abe73c60aab5ef9af03096935707fb12752f1392bdaffd",
+    "tracker_sha256": "b64208e7282c219214defe1175bf78b210c1891594b1a744add3c2cf7756dec3",
+    "game_bytes": 2031732,
+    "command_targets": 4548,
+    "recovered_pairs": 4413,
+    "recovered_fields": 8826,
+    "recovered_by_field": {
+      "m_snapshotControlPlayerId": 4413,
+      "m_snapshotUpkeepPlayerId": 4413
+    },
+    "outcomes": {
+      "alive": 3063,
+      "constant_lifetime_role_dead": 30,
+      "constant_lifetime_role_transition_loop": 37,
+      "ownership_changed": 99,
+      "revived": 1283,
+      "sentinel": 36
+    },
+    "full_game_bytes_equal": true
+  },
+  {
+    "build": 98348,
+    "schema": 96477,
+    "replay_sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+    "game_sha256": "90732412a482ea008ebf99469c1892ab2b36f876aa40060648b33de72c11d452",
+    "tracker_sha256": "5c0785aa6297fc5ece0afb43d2f88b2deaab3afc8278beedc9fad3e831b565ef",
+    "game_bytes": 2292034,
+    "command_targets": 6855,
+    "recovered_pairs": 6640,
+    "recovered_fields": 13280,
+    "recovered_by_field": {
+      "m_snapshotControlPlayerId": 6640,
+      "m_snapshotUpkeepPlayerId": 6640
+    },
+    "outcomes": {
+      "alive": 5478,
+      "constant_lifetime_role_dead": 65,
+      "constant_lifetime_role_transition_loop": 79,
+      "dead": 1,
+      "ownership_changed": 184,
+      "revived": 1018,
+      "sentinel": 30
+    },
+    "full_game_bytes_equal": true
+  },
+  {
+    "build": 98348,
+    "schema": 96477,
+    "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+    "game_sha256": "2a6c720487fe31eecc299ec2093935f0c89e7c29ac35f4206cabe0161329fe9e",
+    "tracker_sha256": "cbc1fc35b8e34b98d0061739340c6f8feb24ebf579fa5c884c4ca36184963bf1",
+    "game_bytes": 1243162,
+    "command_targets": 3758,
+    "recovered_pairs": 3543,
+    "recovered_fields": 7086,
+    "recovered_by_field": {
+      "m_snapshotControlPlayerId": 3543,
+      "m_snapshotUpkeepPlayerId": 3543
+    },
+    "outcomes": {
+      "alive": 3281,
+      "constant_lifetime_role_dead": 29,
+      "constant_lifetime_role_transition_loop": 33,
+      "dead": 1,
+      "ownership_changed": 190,
+      "revived": 200,
+      "sentinel": 24
+    },
+    "full_game_bytes_equal": true
+  },
+  {
+    "build": 98348,
+    "schema": 96477,
+    "replay_sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+    "game_sha256": "24ab440e4af8eef3d55713fb9e77ec796cb2b092724480856af9605b2b6bf821",
+    "tracker_sha256": "4c9b43ed3fb414e7bd65c10df7c2d456b29cb42dc39aafc4fd27419cee0a3cfe",
+    "game_bytes": 2410876,
+    "command_targets": 7683,
+    "recovered_pairs": 7248,
+    "recovered_fields": 14496,
+    "recovered_by_field": {
+      "m_snapshotControlPlayerId": 7248,
+      "m_snapshotUpkeepPlayerId": 7248
+    },
+    "outcomes": {
+      "alive": 5913,
+      "constant_lifetime_role_dead": 39,
+      "constant_lifetime_role_transition_loop": 55,
+      "dead": 1,
+      "ownership_changed": 389,
+      "revived": 1241,
+      "sentinel": 39,
+      "transition_loop": 6
+    },
+    "full_game_bytes_equal": true
+  },
+  {
+    "build": 98348,
+    "schema": 96477,
+    "replay_sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+    "game_sha256": "6a08faa8a777b7e95c768becafeb91dc354deb613b08b9570e7202d5c6f4324c",
+    "tracker_sha256": "92f34f3ac520c349f3ba6dff012598bea91eb4317e4c8e302bcf8ec535cde742",
+    "game_bytes": 2748018,
+    "command_targets": 8825,
+    "recovered_pairs": 8527,
+    "recovered_fields": 17054,
+    "recovered_by_field": {
+      "m_snapshotControlPlayerId": 8527,
+      "m_snapshotUpkeepPlayerId": 8527
+    },
+    "outcomes": {
+      "alive": 7165,
+      "constant_lifetime_role_dead": 32,
+      "constant_lifetime_role_transition_loop": 57,
+      "dead": 1,
+      "ownership_changed": 282,
+      "revived": 1273,
+      "sentinel": 11,
+      "transition_loop": 4
+    },
+    "full_game_bytes_equal": true
+  },
+  {
+    "build": 98348,
+    "schema": 96477,
+    "replay_sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+    "game_sha256": "ba7e0014bd0cacfec8a57ad1b2d9e0b6ddee22c306d8c37a582399f4a045139f",
+    "tracker_sha256": "541d5fdecd50da91232f0f99398100d48d0fb7fbea236c9ff0bb0dd311d2efe4",
+    "game_bytes": 1908945,
+    "command_targets": 6089,
+    "recovered_pairs": 5860,
+    "recovered_fields": 11720,
+    "recovered_by_field": {
+      "m_snapshotControlPlayerId": 5860,
+      "m_snapshotUpkeepPlayerId": 5860
+    },
+    "outcomes": {
+      "alive": 4588,
+      "constant_lifetime_role_dead": 48,
+      "constant_lifetime_role_transition_loop": 40,
+      "ownership_changed": 212,
+      "revived": 1184,
+      "sentinel": 17
+    },
+    "full_game_bytes_equal": true
+  },
+  {
+    "build": 98348,
+    "schema": 96477,
+    "replay_sha256": "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+    "game_sha256": "e7486f697a63a3235a9c401fd87e56413f1883c92f46d496fe516b2e2d3aaca9",
+    "tracker_sha256": "a0a77dcaf693f81ce856ebfca0f88b4fc42eb5cb54c5087559ecacac1745f669",
+    "game_bytes": 1582802,
+    "command_targets": 5258,
+    "recovered_pairs": 5023,
+    "recovered_fields": 10046,
+    "recovered_by_field": {
+      "m_snapshotControlPlayerId": 5023,
+      "m_snapshotUpkeepPlayerId": 5023
+    },
+    "outcomes": {
+      "alive": 4447,
+      "constant_lifetime_role_dead": 26,
+      "constant_lifetime_role_transition_loop": 35,
+      "ownership_changed": 192,
+      "revived": 515,
+      "sentinel": 41,
+      "transition_loop": 2
+    },
+    "full_game_bytes_equal": true
+  },
+  {
+    "build": 98348,
+    "schema": 96477,
+    "replay_sha256": "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+    "game_sha256": "6a69a13b0c0482b8df027885c568fc883d86878c0dde7b568198d9ba6716ef45",
+    "tracker_sha256": "e5be17af07f8a0462f6a38f447af1c93916cb7df9b6111b0fb5ec0dce12c0c19",
+    "game_bytes": 2225495,
+    "command_targets": 3747,
+    "recovered_pairs": 3555,
+    "recovered_fields": 7110,
+    "recovered_by_field": {
+      "m_snapshotControlPlayerId": 3555,
+      "m_snapshotUpkeepPlayerId": 3555
+    },
+    "outcomes": {
+      "alive": 3023,
+      "constant_lifetime_role_dead": 25,
+      "constant_lifetime_role_transition_loop": 27,
+      "ownership_changed": 146,
+      "revived": 480,
+      "sentinel": 46
+    },
+    "full_game_bytes_equal": true
+  },
+  {
+    "build": 98348,
+    "schema": 96477,
+    "replay_sha256": "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+    "game_sha256": "10f03d67999fdd5bdedde2456aa25859e57fc019984559450403b9b5db207eeb",
+    "tracker_sha256": "a7f26a8c152e129fe7271e38d537df33b5a3ebe584c1ec1501cbf02c5e95499c",
+    "game_bytes": 2155325,
+    "command_targets": 5881,
+    "recovered_pairs": 5556,
+    "recovered_fields": 11112,
+    "recovered_by_field": {
+      "m_snapshotControlPlayerId": 5556,
+      "m_snapshotUpkeepPlayerId": 5556
+    },
+    "outcomes": {
+      "alive": 4680,
+      "constant_lifetime_role_dead": 62,
+      "constant_lifetime_role_transition_loop": 56,
+      "dead": 2,
+      "ownership_changed": 247,
+      "revived": 758,
+      "sentinel": 66,
+      "transition_loop": 10
+    },
+    "full_game_bytes_equal": true
+  },
+  {
+    "build": 98348,
+    "schema": 96477,
+    "replay_sha256": "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77",
+    "game_sha256": "fe3105664f740210c0d0facd986b46296246f233e41410552277dbfece3c8fe0",
+    "tracker_sha256": "69ba86a686b3e57be55444932d8fe0b3071f4aa207a561b9deed982e4dcd53d9",
+    "game_bytes": 2151377,
+    "command_targets": 7566,
+    "recovered_pairs": 7243,
+    "recovered_fields": 14486,
+    "recovered_by_field": {
+      "m_snapshotControlPlayerId": 7243,
+      "m_snapshotUpkeepPlayerId": 7243
+    },
+    "outcomes": {
+      "alive": 5961,
+      "constant_lifetime_role_dead": 36,
+      "constant_lifetime_role_transition_loop": 48,
+      "dead": 4,
+      "ownership_changed": 280,
+      "revived": 1198,
+      "sentinel": 38,
+      "transition_loop": 1
+    },
+    "full_game_bytes_equal": true
+  },
+  {
+    "build": 98348,
+    "schema": 96477,
+    "replay_sha256": "bc16af7f68496cddc4698f70b3853402a0f30aa37951aec3a6b555ed703879e8",
+    "game_sha256": "562b6304dfd541ed3ed8c6b1084b63217e5b3d0df477c2eb73c0594c5a47613c",
+    "tracker_sha256": "a2bd1d671aaf7d1051fa13fc94806788a444d5b0e80128afa38c69101a058d51",
+    "game_bytes": 2733434,
+    "command_targets": 7771,
+    "recovered_pairs": 7425,
+    "recovered_fields": 14850,
+    "recovered_by_field": {
+      "m_snapshotControlPlayerId": 7425,
+      "m_snapshotUpkeepPlayerId": 7425
+    },
+    "outcomes": {
+      "alive": 6012,
+      "constant_lifetime_role_dead": 29,
+      "constant_lifetime_role_transition_loop": 47,
+      "dead": 2,
+      "ownership_changed": 272,
+      "revived": 1337,
+      "sentinel": 71,
+      "transition_loop": 1
+    },
+    "full_game_bytes_equal": true
+  },
+  {
+    "build": 98348,
+    "schema": 96477,
+    "replay_sha256": "a956b186a0459a47d9b0fdd8af4ccb65c437f11926186471c434e543e218b2d7",
+    "game_sha256": "221b343574b91cea563b3fc3011a160e8455e21a8e289f91ff7cdf4b3b3b2f95",
+    "tracker_sha256": "f39d8b87db6f668e1acfbfb61203a207227d5e8e2e93d0a8eb2931ef4f8306da",
+    "game_bytes": 1408798,
+    "command_targets": 5336,
+    "recovered_pairs": 5188,
+    "recovered_fields": 10376,
+    "recovered_by_field": {
+      "m_snapshotControlPlayerId": 5188,
+      "m_snapshotUpkeepPlayerId": 5188
+    },
+    "outcomes": {
+      "alive": 4179,
+      "constant_lifetime_role_dead": 33,
+      "constant_lifetime_role_transition_loop": 38,
+      "dead": 1,
+      "ownership_changed": 109,
+      "revived": 938,
+      "sentinel": 38
+    },
+    "full_game_bytes_equal": true
+  }
+]

@@ -1,0 +1,176 @@
+[
+  {
+    "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+    "type": "WizardMinion",
+    "loop": 13221,
+    "distance": 1,
+    "prior": [
+      "SUnitOwnerChangeEvent",
+      91
+    ],
+    "next_loop": [
+      13608
+    ],
+    "next_change": [
+      [
+        "SUnitDiedEvent",
+        91
+      ]
+    ],
+    "tracker": [
+      11,
+      11
+    ],
+    "snapshot": [
+      12,
+      12
+    ],
+    "flags": 111,
+    "timer": 0
+  },
+  {
+    "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+    "type": "RangedMinion",
+    "loop": 13281,
+    "distance": 1,
+    "prior": [
+      "SUnitOwnerChangeEvent",
+      80
+    ],
+    "next_loop": [
+      13623
+    ],
+    "next_change": [
+      [
+        "SUnitDiedEvent",
+        80
+      ]
+    ],
+    "tracker": [
+      11,
+      11
+    ],
+    "snapshot": [
+      12,
+      12
+    ],
+    "flags": 111,
+    "timer": 0
+  },
+  {
+    "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+    "type": "RangedMinion",
+    "loop": 14200,
+    "distance": 1,
+    "prior": [
+      "SUnitOwnerChangeEvent",
+      101
+    ],
+    "next_loop": [
+      14360
+    ],
+    "next_change": [
+      [
+        "SUnitDiedEvent",
+        101
+      ]
+    ],
+    "tracker": [
+      11,
+      11
+    ],
+    "snapshot": [
+      12,
+      12
+    ],
+    "flags": 111,
+    "timer": 0
+  },
+  {
+    "replay_sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+    "type": "FootmanMinion",
+    "loop": 4855,
+    "distance": 2,
+    "prior": [
+      "SUnitOwnerChangeEvent",
+      75
+    ],
+    "next_loop": [
+      4899
+    ],
+    "next_change": [
+      [
+        "SUnitDiedEvent",
+        75
+      ]
+    ],
+    "tracker": [
+      12,
+      12
+    ],
+    "snapshot": [
+      11,
+      11
+    ],
+    "flags": 111,
+    "timer": 0
+  },
+  {
+    "replay_sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+    "type": "RangedMinion",
+    "loop": 7263,
+    "distance": 1,
+    "prior": [
+      "SUnitOwnerChangeEvent",
+      1
+    ],
+    "next_loop": [
+      7492
+    ],
+    "next_change": [
+      [
+        "SUnitDiedEvent",
+        1
+      ]
+    ],
+    "tracker": [
+      12,
+      12
+    ],
+    "snapshot": [
+      11,
+      11
+    ],
+    "flags": 111,
+    "timer": 0
+  },
+  {
+    "replay_sha256": "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+    "type": "RangedMinion",
+    "loop": 2296,
+    "distance": 1,
+    "prior": [
+      "SUnitOwnerChangeEvent",
+      3
+    ],
+    "next_loop": [
+      2387
+    ],
+    "next_change": [
+      [
+        "SUnitDiedEvent",
+        3
+      ]
+    ],
+    "tracker": [
+      11,
+      11
+    ],
+    "snapshot": [
+      12,
+      12
+    ],
+    "flags": 111,
+    "timer": 0
+  }
+]
