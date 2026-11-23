@@ -1,0 +1,41 @@
+{
+  "parent_sha256": "5c241e8f9f316909ea237e5dd9f1c4d4ec2e7ea3224d383c596588c7eaf1b9ae",
+  "sha256": "4fc0c3bf21a2b96eda9d8d03f3a309256bf6aacf4715c1a1fc71700ae8edb2c8",
+  "bytes": 2170700,
+  "script_sha256": "6a59cfb960fa2ac4fc8fe2ab0e55f35d54f327c53c24a68783eff1f42cfde8a6",
+  "unchanged_content_members": 69,
+  "integrity": {
+    "content_members": 70,
+    "live_blocks": 72,
+    "raw_table_results": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "native_member_flags": {
+      "256": 1,
+      "336": 71
+    }
+  },
+  "two_independent_builds_identical": true,
+  "verification": {
+    "map_sha256": "4fc0c3bf21a2b96eda9d8d03f3a309256bf6aacf4715c1a1fc71700ae8edb2c8",
+    "script_sha256": "6a59cfb960fa2ac4fc8fe2ab0e55f35d54f327c53c24a68783eff1f42cfde8a6",
+    "other_content_members_identical": 69,
+    "stock_registration_slot_verified": true,
+    "opening_and_ordinary_disable_paths_preserved": true,
+    "stock_transform_single_call_changed": true,
+    "extracted_worker_mock_native_test": "passed",
+    "dedicated_trigger_created_lazily": true,
+    "posix_workers_suspended_concurrently": 2,
+    "owner_unchanged_through_wait_loop": 15,
+    "mock_simultaneous_beacon_resume_order": "reverse_dispatch",
+    "resumed_write_loop_after_dispatch": 16,
+    "canonical_evidence_sha256": "1b571c891d5b5646c21d39e6552af48b1b98926d4b0b948c556ae19408600a94",
+    "fabricated_cohort_and_loop_negative_tests": 4,
+    "native_compile_or_execution_verified": false
+  }
+}

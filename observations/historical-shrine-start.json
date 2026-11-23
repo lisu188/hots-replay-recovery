@@ -1,0 +1,1577 @@
+{
+  "old_exact_availability": null,
+  "old_exact_warning": null,
+  "old_first_availability_upper_bound_after_gates_loops": 1284,
+  "old_map": {
+    "dependencies": [
+      "bnet:Heroes of the Storm (Data Mod)/0.0/999,file:Mods/HeroesData.StormMod"
+    ],
+    "document_info_sha256": "9be26bf0683c7ee9db415c0ba7f60bff5ab2c6fbcc6ab22ee112fb9321d495f1",
+    "editor_MapM_references": 177,
+    "map_script_sha256": "3cbca9c5b3c95bd0b5f8eb8d2218d129d89e21c3466cb242e7c54b22e67c7e18",
+    "sha256": "e0a58745837b3b5351015c933560dbffb178d747009d2d57b4153ef425cf7250",
+    "triggers_sha256": "12170973fe23d14f48c878aba83d8f74943ccb35cbd8037d2dd17c89355062e8"
+  },
+  "old_replays": [
+    {
+      "completion_groups_after_gates": [
+        [
+          1,
+          824,
+          866,
+          10
+        ],
+        [
+          2,
+          1275,
+          1289,
+          10
+        ]
+      ],
+      "first_beacon_capture_after_gates": 1302,
+      "first_capture_by_beacon": {
+        "170": [
+          2298,
+          12
+        ],
+        "171": [
+          1912,
+          11
+        ]
+      },
+      "gates_open": 610,
+      "knight_loop_shrine_resets_and_beacon_delays": [
+        [
+          10595,
+          2,
+          [
+            16,
+            16
+          ]
+        ],
+        [
+          16042,
+          2,
+          [
+            16,
+            16
+          ]
+        ]
+      ],
+      "sha256": "2fca3c78d0e459d4452e3fb1f41ff3fce22b9c1f8f113019389195ff171bf618"
+    },
+    {
+      "completion_groups_after_gates": [
+        [
+          1,
+          307,
+          307,
+          1
+        ],
+        [
+          2,
+          819,
+          864,
+          9
+        ],
+        [
+          3,
+          998,
+          998,
+          1
+        ],
+        [
+          4,
+          1006,
+          1006,
+          1
+        ],
+        [
+          5,
+          1012,
+          1012,
+          1
+        ],
+        [
+          6,
+          1016,
+          1016,
+          1
+        ],
+        [
+          7,
+          1021,
+          1021,
+          1
+        ],
+        [
+          8,
+          1030,
+          1030,
+          1
+        ],
+        [
+          9,
+          1036,
+          1036,
+          1
+        ],
+        [
+          10,
+          1041,
+          1041,
+          1
+        ],
+        [
+          11,
+          1047,
+          1047,
+          1
+        ],
+        [
+          12,
+          1055,
+          1055,
+          1
+        ],
+        [
+          13,
+          1142,
+          1142,
+          1
+        ],
+        [
+          14,
+          1275,
+          1287,
+          10
+        ]
+      ],
+      "first_beacon_capture_after_gates": 1284,
+      "first_capture_by_beacon": {
+        "170": [
+          2236,
+          12
+        ],
+        "171": [
+          1894,
+          11
+        ]
+      },
+      "gates_open": 610,
+      "knight_loop_shrine_resets_and_beacon_delays": [
+        [
+          5187,
+          2,
+          [
+            16,
+            16
+          ]
+        ],
+        [
+          13371,
+          2,
+          [
+            16,
+            16
+          ]
+        ],
+        [
+          17779,
+          2,
+          [
+            16,
+            16
+          ]
+        ],
+        [
+          23618,
+          2,
+          [
+            16,
+            16
+          ]
+        ]
+      ],
+      "sha256": "7efa1c335816eebe802747ae4b16252ed22fcd8387b09d24b115b2917542b52a"
+    },
+    {
+      "completion_groups_after_gates": [
+        [
+          1,
+          825,
+          866,
+          10
+        ],
+        [
+          2,
+          1276,
+          1290,
+          10
+        ]
+      ],
+      "first_beacon_capture_after_gates": 1362,
+      "first_capture_by_beacon": {
+        "170": [
+          2174,
+          12
+        ],
+        "171": [
+          1972,
+          12
+        ]
+      },
+      "gates_open": 610,
+      "knight_loop_shrine_resets_and_beacon_delays": [
+        [
+          5506,
+          2,
+          [
+            16,
+            16
+          ]
+        ],
+        [
+          9025,
+          2,
+          [
+            16,
+            16
+          ]
+        ],
+        [
+          13643,
+          2,
+          [
+            16,
+            16
+          ]
+        ]
+      ],
+      "sha256": "8c4fb83989b528ea3227f6c97758293d1f650e33caa3d38c6a2a84d27ab0850d"
+    },
+    {
+      "completion_groups_after_gates": [
+        [
+          1,
+          826,
+          848,
+          2
+        ],
+        [
+          2,
+          1275,
+          1286,
+          2
+        ]
+      ],
+      "first_beacon_capture_after_gates": 1319,
+      "first_capture_by_beacon": {
+        "170": [
+          1996,
+          11
+        ],
+        "171": [
+          1961,
+          11
+        ]
+      },
+      "gates_open": 642,
+      "knight_loop_shrine_resets_and_beacon_delays": [
+        [
+          2724,
+          2,
+          [
+            16,
+            16
+          ]
+        ],
+        [
+          6704,
+          2,
+          [
+            16,
+            16
+          ]
+        ]
+      ],
+      "sha256": "9fe40a6e9ce43228d1b3a3004c3a6a23dac5069f07bcfe2ceefdadc686e6105a"
+    },
+    {
+      "completion_groups_after_gates": [
+        [
+          1,
+          804,
+          864,
+          10
+        ],
+        [
+          2,
+          1090,
+          1090,
+          1
+        ],
+        [
+          3,
+          1275,
+          1286,
+          10
+        ],
+        [
+          4,
+          1776,
+          1776,
+          1
+        ]
+      ],
+      "first_beacon_capture_after_gates": 1401,
+      "first_capture_by_beacon": {
+        "170": [
+          2277,
+          12
+        ],
+        "171": [
+          2011,
+          12
+        ]
+      },
+      "gates_open": 610,
+      "knight_loop_shrine_resets_and_beacon_delays": [
+        [
+          2514,
+          2,
+          [
+            16,
+            16
+          ]
+        ],
+        [
+          7734,
+          2,
+          [
+            16,
+            16
+          ]
+        ],
+        [
+          11318,
+          2,
+          [
+            16,
+            16
+          ]
+        ],
+        [
+          17151,
+          2,
+          [
+            16,
+            16
+          ]
+        ]
+      ],
+      "sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824"
+    }
+  ],
+  "overlay": {
+    "dependencies": [
+      "bnet:Heroes of the Storm (Data Mod)/0.0/999,file:Mods/HeroesData.StormMod"
+    ],
+    "document_info_sha256": "9be26bf0683c7ee9db415c0ba7f60bff5ab2c6fbcc6ab22ee112fb9321d495f1",
+    "editor_MapM_references": 177,
+    "map_script_sha256": "6b6f8f51778ed77cc6bd183827a349d9f8b817ca51b1fa9b816926df9d603d6e",
+    "sha256": "bda7aafd1d63c77b3b4d29ff2afee96da09a3104b54b4a1d625bb299607d9008",
+    "triggers_sha256": "12170973fe23d14f48c878aba83d8f74943ccb35cbd8037d2dd17c89355062e8"
+  },
+  "target_controls": [
+    {
+      "completion_groups_after_gates": [
+        [
+          1,
+          113,
+          113,
+          1
+        ],
+        [
+          2,
+          121,
+          121,
+          1
+        ],
+        [
+          3,
+          194,
+          194,
+          1
+        ],
+        [
+          4,
+          261,
+          261,
+          1
+        ],
+        [
+          5,
+          305,
+          305,
+          1
+        ],
+        [
+          6,
+          323,
+          323,
+          1
+        ],
+        [
+          7,
+          347,
+          347,
+          1
+        ],
+        [
+          8,
+          329,
+          329,
+          1
+        ],
+        [
+          9,
+          334,
+          334,
+          1
+        ],
+        [
+          10,
+          347,
+          347,
+          1
+        ],
+        [
+          11,
+          444,
+          444,
+          1
+        ],
+        [
+          12,
+          427,
+          427,
+          1
+        ],
+        [
+          13,
+          503,
+          503,
+          1
+        ],
+        [
+          14,
+          526,
+          526,
+          1
+        ],
+        [
+          15,
+          512,
+          512,
+          1
+        ],
+        [
+          16,
+          518,
+          518,
+          1
+        ],
+        [
+          17,
+          518,
+          518,
+          1
+        ],
+        [
+          18,
+          523,
+          523,
+          1
+        ],
+        [
+          19,
+          562,
+          562,
+          1
+        ],
+        [
+          20,
+          536,
+          536,
+          1
+        ],
+        [
+          21,
+          578,
+          578,
+          1
+        ],
+        [
+          22,
+          583,
+          583,
+          1
+        ],
+        [
+          23,
+          702,
+          702,
+          1
+        ],
+        [
+          24,
+          710,
+          710,
+          1
+        ],
+        [
+          25,
+          721,
+          721,
+          1
+        ],
+        [
+          26,
+          848,
+          848,
+          1
+        ],
+        [
+          27,
+          840,
+          840,
+          1
+        ],
+        [
+          28,
+          848,
+          848,
+          1
+        ],
+        [
+          29,
+          891,
+          891,
+          1
+        ],
+        [
+          30,
+          907,
+          907,
+          1
+        ],
+        [
+          31,
+          926,
+          926,
+          1
+        ],
+        [
+          32,
+          929,
+          929,
+          1
+        ],
+        [
+          33,
+          940,
+          940,
+          1
+        ],
+        [
+          34,
+          940,
+          940,
+          1
+        ],
+        [
+          35,
+          955,
+          955,
+          1
+        ],
+        [
+          36,
+          1082,
+          1083,
+          10
+        ],
+        [
+          37,
+          1023,
+          1023,
+          1
+        ],
+        [
+          38,
+          1046,
+          1046,
+          1
+        ],
+        [
+          39,
+          1072,
+          1072,
+          1
+        ],
+        [
+          40,
+          1075,
+          1075,
+          1
+        ],
+        [
+          41,
+          1105,
+          1105,
+          1
+        ],
+        [
+          42,
+          1371,
+          1371,
+          1
+        ],
+        [
+          43,
+          1379,
+          1379,
+          1
+        ],
+        [
+          44,
+          1552,
+          1553,
+          10
+        ],
+        [
+          45,
+          1448,
+          1448,
+          1
+        ],
+        [
+          46,
+          1510,
+          1510,
+          1
+        ],
+        [
+          47,
+          1469,
+          1469,
+          1
+        ],
+        [
+          48,
+          1656,
+          1656,
+          1
+        ],
+        [
+          49,
+          1615,
+          1615,
+          1
+        ],
+        [
+          50,
+          1640,
+          1640,
+          1
+        ],
+        [
+          51,
+          1669,
+          1669,
+          1
+        ],
+        [
+          52,
+          1757,
+          1757,
+          1
+        ]
+      ],
+      "first_beacon_capture_after_gates": 1592,
+      "first_capture_by_beacon": {
+        "168": [
+          2202,
+          11
+        ],
+        "169": [
+          2343,
+          12
+        ]
+      },
+      "gates_open": 610,
+      "knight_loop_shrine_resets_and_beacon_delays": [
+        [
+          6855,
+          2,
+          [
+            48,
+            48
+          ]
+        ],
+        [
+          10939,
+          2,
+          [
+            48,
+            48
+          ]
+        ],
+        [
+          14497,
+          2,
+          [
+            48,
+            48
+          ]
+        ]
+      ],
+      "sha256": "4732077e899f6894c29586795a01e2a27fba622dbf22b5d29c7b30d57e3ce4fc"
+    },
+    {
+      "completion_groups_after_gates": [
+        [
+          1,
+          1082,
+          1083,
+          10
+        ],
+        [
+          2,
+          1552,
+          1553,
+          10
+        ]
+      ],
+      "first_beacon_capture_after_gates": 1883,
+      "first_capture_by_beacon": {
+        "168": [
+          2557,
+          12
+        ],
+        "169": [
+          2493,
+          12
+        ]
+      },
+      "gates_open": 610,
+      "knight_loop_shrine_resets_and_beacon_delays": [
+        [
+          6028,
+          2,
+          [
+            48,
+            48
+          ]
+        ],
+        [
+          10052,
+          2,
+          [
+            48,
+            48
+          ]
+        ],
+        [
+          17565,
+          2,
+          [
+            48,
+            48
+          ]
+        ]
+      ],
+      "sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7"
+    },
+    {
+      "completion_groups_after_gates": [
+        [
+          1,
+          1082,
+          1083,
+          10
+        ],
+        [
+          2,
+          1552,
+          1554,
+          10
+        ]
+      ],
+      "first_beacon_capture_after_gates": 1801,
+      "first_capture_by_beacon": {
+        "168": [
+          2842,
+          11
+        ],
+        "169": [
+          2411,
+          11
+        ]
+      },
+      "gates_open": 610,
+      "knight_loop_shrine_resets_and_beacon_delays": [
+        [
+          2975,
+          2,
+          [
+            48,
+            48
+          ]
+        ],
+        [
+          7941,
+          2,
+          [
+            48,
+            48
+          ]
+        ],
+        [
+          11542,
+          2,
+          [
+            48,
+            48
+          ]
+        ],
+        [
+          16498,
+          2,
+          [
+            48,
+            48
+          ]
+        ],
+        [
+          19978,
+          2,
+          [
+            48,
+            48
+          ]
+        ]
+      ],
+      "sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4"
+    },
+    {
+      "completion_groups_after_gates": [
+        [
+          1,
+          1081,
+          1083,
+          10
+        ],
+        [
+          2,
+          1552,
+          1553,
+          10
+        ]
+      ],
+      "first_beacon_capture_after_gates": 1883,
+      "first_capture_by_beacon": {
+        "168": [
+          2493,
+          11
+        ],
+        "169": [
+          2742,
+          12
+        ]
+      },
+      "gates_open": 610,
+      "knight_loop_shrine_resets_and_beacon_delays": [
+        [
+          4614,
+          2,
+          [
+            48,
+            48
+          ]
+        ],
+        [
+          10136,
+          2,
+          [
+            48,
+            48
+          ]
+        ],
+        [
+          14008,
+          2,
+          [
+            48,
+            48
+          ]
+        ]
+      ],
+      "sha256": "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e"
+    },
+    {
+      "completion_groups_after_gates": [
+        [
+          1,
+          1082,
+          1082,
+          10
+        ],
+        [
+          2,
+          1552,
+          1554,
+          10
+        ]
+      ],
+      "first_beacon_capture_after_gates": 1548,
+      "first_capture_by_beacon": {
+        "168": [
+          2933,
+          11
+        ],
+        "169": [
+          2158,
+          12
+        ]
+      },
+      "gates_open": 610,
+      "knight_loop_shrine_resets_and_beacon_delays": [
+        [
+          3142,
+          2,
+          [
+            48,
+            48
+          ]
+        ],
+        [
+          8482,
+          2,
+          [
+            48,
+            48
+          ]
+        ],
+        [
+          13111,
+          2,
+          [
+            48,
+            48
+          ]
+        ]
+      ],
+      "sha256": "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd"
+    },
+    {
+      "completion_groups_after_gates": [
+        [
+          1,
+          1082,
+          1083,
+          10
+        ],
+        [
+          2,
+          1551,
+          1553,
+          10
+        ]
+      ],
+      "first_beacon_capture_after_gates": 1561,
+      "first_capture_by_beacon": {
+        "168": [
+          2243,
+          12
+        ],
+        "169": [
+          2171,
+          11
+        ]
+      },
+      "gates_open": 610,
+      "knight_loop_shrine_resets_and_beacon_delays": [
+        [
+          2880,
+          2,
+          [
+            48,
+            48
+          ]
+        ],
+        [
+          13159,
+          2,
+          [
+            48,
+            48
+          ]
+        ]
+      ],
+      "sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db"
+    },
+    {
+      "completion_groups_after_gates": [
+        [
+          1,
+          1063,
+          1083,
+          10
+        ],
+        [
+          2,
+          1547,
+          1553,
+          10
+        ]
+      ],
+      "first_beacon_capture_after_gates": 1699,
+      "first_capture_by_beacon": {
+        "168": [
+          2309,
+          12
+        ],
+        "169": [
+          2330,
+          12
+        ]
+      },
+      "gates_open": 610,
+      "knight_loop_shrine_resets_and_beacon_delays": [
+        [
+          3411,
+          2,
+          [
+            48,
+            48
+          ]
+        ],
+        [
+          7708,
+          2,
+          [
+            48,
+            48
+          ]
+        ],
+        [
+          12163,
+          2,
+          [
+            48,
+            48
+          ]
+        ],
+        [
+          15782,
+          2,
+          [
+            48,
+            48
+          ]
+        ],
+        [
+          19590,
+          2,
+          [
+            48,
+            48
+          ]
+        ]
+      ],
+      "sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a"
+    },
+    {
+      "completion_groups_after_gates": [
+        [
+          1,
+          1082,
+          1083,
+          10
+        ],
+        [
+          2,
+          1552,
+          1553,
+          10
+        ]
+      ],
+      "first_beacon_capture_after_gates": 1678,
+      "first_capture_by_beacon": {
+        "168": [
+          2450,
+          11
+        ],
+        "169": [
+          2288,
+          12
+        ]
+      },
+      "gates_open": 610,
+      "knight_loop_shrine_resets_and_beacon_delays": [
+        [
+          3199,
+          2,
+          [
+            48,
+            48
+          ]
+        ],
+        [
+          6583,
+          2,
+          [
+            48,
+            48
+          ]
+        ],
+        [
+          10978,
+          2,
+          [
+            48,
+            48
+          ]
+        ],
+        [
+          14493,
+          2,
+          [
+            48,
+            48
+          ]
+        ]
+      ],
+      "sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c"
+    },
+    {
+      "completion_groups_after_gates": [
+        [
+          1,
+          1082,
+          1090,
+          10
+        ],
+        [
+          2,
+          1548,
+          1552,
+          10
+        ]
+      ],
+      "first_beacon_capture_after_gates": 1585,
+      "first_capture_by_beacon": {
+        "168": [
+          2870,
+          11
+        ],
+        "169": [
+          2195,
+          12
+        ]
+      },
+      "gates_open": 610,
+      "knight_loop_shrine_resets_and_beacon_delays": [
+        [
+          11431,
+          2,
+          [
+            48,
+            48
+          ]
+        ],
+        [
+          14616,
+          2,
+          [
+            48,
+            48
+          ]
+        ],
+        [
+          20320,
+          2,
+          [
+            48,
+            48
+          ]
+        ]
+      ],
+      "sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e"
+    },
+    {
+      "completion_groups_after_gates": [
+        [
+          1,
+          1081,
+          1083,
+          10
+        ],
+        [
+          2,
+          1552,
+          1553,
+          10
+        ]
+      ],
+      "first_beacon_capture_after_gates": 1551,
+      "first_capture_by_beacon": {
+        "168": [
+          2510,
+          11
+        ],
+        "169": [
+          2161,
+          12
+        ]
+      },
+      "gates_open": 610,
+      "knight_loop_shrine_resets_and_beacon_delays": [
+        [
+          10291,
+          2,
+          [
+            48,
+            48
+          ]
+        ],
+        [
+          15202,
+          2,
+          [
+            48,
+            48
+          ]
+        ]
+      ],
+      "sha256": "a956b186a0459a47d9b0fdd8af4ccb65c437f11926186471c434e543e218b2d7"
+    },
+    {
+      "completion_groups_after_gates": [
+        [
+          1,
+          1082,
+          1083,
+          10
+        ],
+        [
+          2,
+          1552,
+          1553,
+          10
+        ]
+      ],
+      "first_beacon_capture_after_gates": 1509,
+      "first_capture_by_beacon": {
+        "168": [
+          2194,
+          12
+        ],
+        "169": [
+          2119,
+          11
+        ]
+      },
+      "gates_open": 610,
+      "knight_loop_shrine_resets_and_beacon_delays": [
+        [
+          3783,
+          2,
+          [
+            48,
+            48
+          ]
+        ],
+        [
+          10664,
+          2,
+          [
+            48,
+            48
+          ]
+        ],
+        [
+          14647,
+          2,
+          [
+            48,
+            48
+          ]
+        ],
+        [
+          18624,
+          2,
+          [
+            48,
+            48
+          ]
+        ]
+      ],
+      "sha256": "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f"
+    },
+    {
+      "completion_groups_after_gates": [
+        [
+          1,
+          1082,
+          1082,
+          10
+        ],
+        [
+          2,
+          1552,
+          1552,
+          10
+        ]
+      ],
+      "first_beacon_capture_after_gates": 1530,
+      "first_capture_by_beacon": {
+        "168": [
+          2623,
+          12
+        ],
+        "169": [
+          2140,
+          12
+        ]
+      },
+      "gates_open": 610,
+      "knight_loop_shrine_resets_and_beacon_delays": [
+        [
+          11130,
+          2,
+          [
+            48,
+            48
+          ]
+        ],
+        [
+          15037,
+          2,
+          [
+            48,
+            48
+          ]
+        ],
+        [
+          18658,
+          2,
+          [
+            48,
+            48
+          ]
+        ],
+        [
+          23088,
+          2,
+          [
+            48,
+            48
+          ]
+        ],
+        [
+          26478,
+          2,
+          [
+            48,
+            48
+          ]
+        ]
+      ],
+      "sha256": "bc16af7f68496cddc4698f70b3853402a0f30aa37951aec3a6b555ed703879e8"
+    },
+    {
+      "completion_groups_after_gates": [
+        [
+          1,
+          1081,
+          1090,
+          10
+        ],
+        [
+          2,
+          1549,
+          1555,
+          10
+        ]
+      ],
+      "first_beacon_capture_after_gates": 1602,
+      "first_capture_by_beacon": {
+        "168": [
+          2266,
+          12
+        ],
+        "169": [
+          2212,
+          11
+        ]
+      },
+      "gates_open": 610,
+      "knight_loop_shrine_resets_and_beacon_delays": [
+        [
+          4760,
+          2,
+          [
+            48,
+            48
+          ]
+        ],
+        [
+          11999,
+          2,
+          [
+            48,
+            48
+          ]
+        ],
+        [
+          16472,
+          2,
+          [
+            48,
+            48
+          ]
+        ]
+      ],
+      "sha256": "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77"
+    },
+    {
+      "completion_groups_after_gates": [
+        [
+          1,
+          1082,
+          1083,
+          10
+        ],
+        [
+          2,
+          1552,
+          1553,
+          10
+        ]
+      ],
+      "first_beacon_capture_after_gates": 1686,
+      "first_capture_by_beacon": {
+        "168": [
+          2296,
+          12
+        ],
+        "169": [
+          2683,
+          11
+        ]
+      },
+      "gates_open": 610,
+      "knight_loop_shrine_resets_and_beacon_delays": [
+        [
+          5225,
+          2,
+          [
+            48,
+            48
+          ]
+        ],
+        [
+          9269,
+          2,
+          [
+            48,
+            48
+          ]
+        ],
+        [
+          12376,
+          2,
+          [
+            48,
+            48
+          ]
+        ],
+        [
+          15301,
+          2,
+          [
+            48,
+            48
+          ]
+        ]
+      ],
+      "sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c"
+    },
+    {
+      "completion_groups_after_gates": [
+        [
+          1,
+          1082,
+          1083,
+          10
+        ],
+        [
+          2,
+          1552,
+          1553,
+          10
+        ]
+      ],
+      "first_beacon_capture_after_gates": 1561,
+      "first_capture_by_beacon": {
+        "168": [
+          2494,
+          11
+        ],
+        "169": [
+          2171,
+          11
+        ]
+      },
+      "gates_open": 610,
+      "knight_loop_shrine_resets_and_beacon_delays": [
+        [
+          5609,
+          2,
+          [
+            48,
+            48
+          ]
+        ],
+        [
+          9344,
+          2,
+          [
+            48,
+            48
+          ]
+        ],
+        [
+          12742,
+          2,
+          [
+            48,
+            48
+          ]
+        ]
+      ],
+      "sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c"
+    }
+  ],
+  "target_timing": {
+    "available_after_gates_loops": 1440,
+    "game_sha256": "a6384749fbe8f676cbd6ccb9ec1aeac004815d37a8e1c2f8f9f8f176b2bfca09",
+    "header_sha256": "cef6f04b1723e88bfb33b8a04584798276fea30f9920d1bd21055646e2bb52da",
+    "neutral_beacon_post_dragon_loops": 48,
+    "script_sha256": "d49dbde21198963f953efa16c8d8bb6b035d2d8bd8f0d41b5989fecbb4e35b1f",
+    "warning_after_gates_loops": 960
+  }
+}
