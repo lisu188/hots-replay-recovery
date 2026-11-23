@@ -1,0 +1,43 @@
+{
+  "source_sha256": "b28406f12ea05e5a617e87521a88d16de5f2b6a9c6f7fac2fcbb13cd00c459fd",
+  "scripts_scanned": 215,
+  "errors": [],
+  "blocked_http_attempts_during_casc": 0,
+  "members": [
+    {
+      "name": "mods/heroes.stormmod/base.stormmaps/maps/heroes/singleplayermaps/startingexperience/tutorialveteran.stormmap/MapScript.galaxy",
+      "md5": "eb02f34fe12962189fd8658272dee19b",
+      "occurrences": 29
+    },
+    {
+      "name": "mods/heroes.stormmod/base.stormmaps/maps/heroes/singleplayermaps/startingexperience/tutorial01.stormmap/MapScript.galaxy",
+      "md5": "13dcddc4319b60391448cef16f9f6110",
+      "occurrences": 14
+    },
+    {
+      "name": "mods/heroes.stormmod/base.stormmaps/maps/heroes/singleplayermaps/startingexperience/tutorialmapmechanics.stormmap/MapScript.galaxy",
+      "md5": "ecc1219e29a88673f32ffbed9c7a4900",
+      "occurrences": 3
+    },
+    {
+      "name": "mods/heroesdata.stormmod/base.stormdata/TriggerLibs/StartingExperienceLib.galaxy",
+      "md5": "f2df9bddd86460de324063132e8f883f",
+      "occurrences": 2
+    },
+    {
+      "name": "mods/heroesdata.stormmod/base.stormdata/TriggerLibs/StartingExperienceLib_h.galaxy",
+      "md5": "dc7529d76e012bcc3c4451c1813519da",
+      "occurrences": 1
+    },
+    {
+      "name": "mods/core.stormmod/base.stormdata/TriggerLibs/NativeLib.galaxy",
+      "md5": "05311ee8298166017d5d1e39737d93e9",
+      "occurrences": 5
+    },
+    {
+      "name": "mods/core.stormmod/base.stormdata/TriggerLibs/NativeLib_h.galaxy",
+      "md5": "81e0c0b0d2bcc9de56e6bdc2f546db0a",
+      "occurrences": 1
+    }
+  ]
+}

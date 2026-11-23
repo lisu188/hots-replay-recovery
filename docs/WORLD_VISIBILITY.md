@@ -1,0 +1,11 @@
+# Visibility input to fast sync slot 0
+
+The second CRC operand, decoded `world+0x14`, is the state returned by Galaxy native `VisIsEnabled(1)`. The getter treats zero as enabled. `VisEnable(1,true)` supplies zero to the setter, whereas `VisEnable(1,false)` supplies `0xffffffff`. Visibility type 0 writes the adjacent field at `world+0x10`. The checker binds IDs 1999 and 2000 through both the original name registry and native switch table and follows their handlers.
+
+The constructor passes a logical zero through the same 16-way encoder dispatch as the type-1 setter, then copies the encoded result into `world+0x14`. The fast checksum and the getter use the same 16 decoder arms. These checks establish equivalence across the representation variants without executing client instructions.
+
+On the original Dragon map, the current Dragon control map and the actual GateOrder overlay, the root script has no direct `VisEnable` or global cinematic switch call. Each of the three closures contains 22 libraries. Their only setter calls are inside the shared global cinematic switch. The tutorial helper can invoke that switch. An offline content-key-verified scan of 215 named installed mod scripts found external uses in three single-player tutorial scripts. The downloaded map archives and installed script inputs are independently pinned.
+
+TEN's recorded `m_gameOptions.m_fog` is zero, as it is in all 24 physical build-98348 controls. This is an independent lobby observation. Its precise native assignment to the world visibility field remains unresolved. Fresh construction with the identified Dragon scripts predicts operand zero in the absence of an external writer, state restoration or injected code. The match recording itself carries no numerical observation of that operand at loop 64, so the verifier keeps it unassigned.
+
+Run `python verify_world_visibility.py EXE STATIC_TEXT TEN CONTROL_PATHS SOURCE_MAP CONTROL_MAP GATEORDER_MAP SCRIPT_DIR SCAN` with the repository on the Python path. For `SCAN`, supply the published digest-and-count summary or the original installation scan with SHA-256 `b28406f12ea05e5a617e87521a88d16de5f2b6a9c6f7fac2fcbb13cd00c459fd`. The verifier reads and checks the three map scripts and their includes separately. [Installation scan summary](../observations/dragon-visibility-scripts.json)

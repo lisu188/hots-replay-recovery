@@ -1,0 +1,30 @@
+{
+  "pe": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+  "static_text": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83",
+  "option_world_bits": {
+    "m_developmentCheatsEnabled": 3,
+    "m_testCheatsEnabled": 4,
+    "m_multiplayerCheatsEnabled": 5,
+    "m_syncChecksummingEnabled": 6,
+    "m_isMapToMapTransition": 7,
+    "m_debugPauseEnabled": 8
+  },
+  "alternate_bit7_setter": "Galaxy native 740 GameSetTransitionMap",
+  "ten": {
+    "replays": 1,
+    "option_rows": 10,
+    "requested_mask_histogram": {
+      "0": 10
+    }
+  },
+  "controls": {
+    "replays": 24,
+    "option_rows": 254,
+    "requested_mask_histogram": {
+      "0": 254
+    }
+  },
+  "after_applying_recorded_options_mask": "0x1f8",
+  "masked_value": 0,
+  "published_world_flags": null
+}
