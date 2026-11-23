@@ -1,0 +1,93 @@
+[
+  {
+    "sha256": "1230eee79fd3b50a3ee471c587bc77dd14aef67d57bf22cd8df52e877329323a",
+    "map_handle": "fddf3267c510a29b4ad55ada48096860054969095cf025a54f91b15fc310714e",
+    "heroes": {
+      "Kaelthas": {
+        "roster_entries": 1,
+        "unique_births": 1,
+        "additional_owned_births_in_eight_loops": 0
+      }
+    }
+  },
+  {
+    "sha256": "715e309bba5d3151d3e1b47461041627db7644d91a8b549c309950e44d6067e8",
+    "map_handle": "60f3737b16c5f687d214ad90746b0e32900ab796ddf4a907a380a7cd6037d672",
+    "heroes": {}
+  },
+  {
+    "sha256": "9872b043e48093abc65e11b7b6d091861e83fc4d202b40b745824da647cb6ef3",
+    "map_handle": "d952569f975d31a83e9d12d6b488589044e325ba92871aef62e104ed1859202e",
+    "heroes": {}
+  },
+  {
+    "sha256": "98ac891fa4fb8e1698e5fc35609fcf75abfe7e89aee9c7f05afff93b10338ab3",
+    "map_handle": "a713e0d47c677fd2b99f9ee8398c22a3e30cc018fcc83d1dda3c09b31f1e76c1",
+    "heroes": {
+      "Tyrande": {
+        "roster_entries": 1,
+        "unique_births": 1,
+        "additional_owned_births_in_eight_loops": 0
+      }
+    }
+  },
+  {
+    "sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4",
+    "map_handle": "ab9867fa3ecc52c8330553a120af5853f6673b6e42a9e393ee82dd6629fb7e93",
+    "heroes": {}
+  },
+  {
+    "sha256": "afcf49a656068f343173fc79afff2d2ebf15066f531cb192382cdba9d1ea3272",
+    "map_handle": "889da151b127b6b5091a26c0395b7787a74cd3f4dea69521512cf027129a009e",
+    "heroes": {
+      "Kaelthas": {
+        "roster_entries": 1,
+        "unique_births": 1,
+        "additional_owned_births_in_eight_loops": 0
+      },
+      "Abathur": {
+        "roster_entries": 1,
+        "unique_births": 1,
+        "additional_owned_births_in_eight_loops": 0
+      }
+    }
+  },
+  {
+    "sha256": "d41417f0fd11a1d512e30fa77882bdebf220432bd7e9412b40440cb79a7c9cec",
+    "map_handle": "a713e0d47c677fd2b99f9ee8398c22a3e30cc018fcc83d1dda3c09b31f1e76c1",
+    "heroes": {
+      "Nova": {
+        "roster_entries": 1,
+        "unique_births": 1,
+        "additional_owned_births_in_eight_loops": 0
+      }
+    }
+  },
+  {
+    "sha256": "db40f495edb70b2127b97cae4f479de19e18e61b2a5a0e0413052b571e1dbf7e",
+    "map_handle": "7751c274aa96c7b58e89c757eeb89e05f28e5c369e463ec6d51bf172681bd3a9",
+    "heroes": {
+      "Tyrande": {
+        "roster_entries": 1,
+        "unique_births": 1,
+        "additional_owned_births_in_eight_loops": 0
+      },
+      "Nova": {
+        "roster_entries": 1,
+        "unique_births": 1,
+        "additional_owned_births_in_eight_loops": 0
+      }
+    }
+  },
+  {
+    "sha256": "fe801daf9df44f10db2b950989308c8ee2fa55c03b4adfef7ac383b4d46583bf",
+    "map_handle": "1860ffa5906bb6ee8054ed080a4afcefaa534d4643ce0781aad84623724442b2",
+    "heroes": {
+      "Tyrande": {
+        "roster_entries": 1,
+        "unique_births": 1,
+        "additional_owned_births_in_eight_loops": 0
+      }
+    }
+  }
+]
