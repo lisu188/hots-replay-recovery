@@ -1,0 +1,83 @@
+{
+  "maps": {
+    "original": {
+      "map_sha256": "e0a58745837b3b5351015c933560dbffb178d747009d2d57b4153ef425cf7250",
+      "dependency": [
+        "bnet:Heroes of the Storm (Data Mod)/0.0/999,file:Mods/HeroesData.StormMod"
+      ],
+      "info_sha256": "9be26bf0683c7ee9db415c0ba7f60bff5ab2c6fbcc6ab22ee112fb9321d495f1",
+      "unitdata_sha256": "894bf4e9f02cb4b18a4ff53e9269fd1f54d5fafb3afc484fffd79734e0f78072",
+      "unit_ids": [
+        "HealingPadSearchUnit",
+        "TownGateL315BLURGarden",
+        "TownGateL315BRULGarden",
+        "XelNagaWatchTower"
+      ]
+    },
+    "stock_target": {
+      "map_sha256": "f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f",
+      "dependency": [
+        "bnet:Dragon Shire (Mod)/0.0/1498,file:Mods\\heroesmapmods/battlegroundmapmods/dragonshire.stormmod"
+      ],
+      "info_sha256": "fb2da9a2ebec3757be2c83b8d613beff55d6d5ef367c87dc97223eece183b7dd",
+      "unitdata_sha256": "257c704690b1be4496bdf97c84ee121d63ebdcd2d22d6b5d08a7f33808c17654",
+      "unit_ids": [
+        "HallOfStormsLocationUnit",
+        "TownGateL315BLURGarden",
+        "TownGateL315BRULGarden",
+        "TownGateL3BRULBLVisionBlocked",
+        "TownGateL3BRULTRVisionBlocked",
+        "TownGateL3VerticalLeftVisionBlocked",
+        "XelNagaWatchTower"
+      ]
+    },
+    "historical_copy": {
+      "map_sha256": "662a90d5ea72c8454d66a1070b3200e6a2929f3d2069e2c07ecc07cfcc79b800",
+      "dependency": [
+        "bnet:Heroes of the Storm (Data Mod)/0.0/999,file:Mods/HeroesData.StormMod"
+      ],
+      "info_sha256": "9be26bf0683c7ee9db415c0ba7f60bff5ab2c6fbcc6ab22ee112fb9321d495f1",
+      "unitdata_sha256": "894bf4e9f02cb4b18a4ff53e9269fd1f54d5fafb3afc484fffd79734e0f78072",
+      "unit_ids": [
+        "HealingPadSearchUnit",
+        "TownGateL315BLURGarden",
+        "TownGateL315BRULGarden",
+        "XelNagaWatchTower"
+      ]
+    }
+  },
+  "dragon_mod": {
+    "document_sha256": "14011927f94f9fb7531bc2f7ec533fd00881eba9a2c34b01e21a7049c0a48056",
+    "direct_dependencies": [
+      "bnet:Heroes of the Storm (Data Mod)/0.0/999,file:Mods/HeroesData.StormMod"
+    ],
+    "unitdata_sha256": "871c23230d951d1fd7bf61e57b51cf0d3e0e275c85a00a3bcd794223d9cf4217",
+    "unit_ids": [
+      "DragonShireCorePetrifyMissile",
+      "KingsCore",
+      "TownCannonTower",
+      "TownCannonTowerL2",
+      "TownCannonTowerL2Standalone",
+      "TownCannonTowerL3",
+      "TownCannonTowerL3Standalone",
+      "TownTownHallL2",
+      "TownTownHallL3"
+    ],
+    "kings_core_abilities": [
+      "DragonShireCorePetrify"
+    ],
+    "kings_core_ai": "AI/DragonShireCoreThinkTree.aitree"
+  },
+  "heroes_unitdata_sha256": "e313828c13bf3b053abd3d58e5d78da72b111202977f0873617eefbfadc61bd5",
+  "also_in_heroes_unitdata": [
+    "KingsCore",
+    "TownCannonTower",
+    "TownCannonTowerL2",
+    "TownCannonTowerL2Standalone",
+    "TownCannonTowerL3",
+    "TownCannonTowerL3Standalone",
+    "TownTownHallL2",
+    "TownTownHallL3"
+  ],
+  "target_numeric_links_for_historical_layout_verified": false
+}

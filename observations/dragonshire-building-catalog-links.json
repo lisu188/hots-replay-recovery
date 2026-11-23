@@ -1,0 +1,763 @@
+{
+  "source_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+  "historical_rows_sha256": "9cfa8a1dbe50fed97167485590661060982a5aed5d2db586563910492050eccd",
+  "twelve_manifest_sha256": "fc6dbc312dac9143bfe450d661f8033a04c2ce4eec51878618e2a517f8faf609",
+  "earlier_manifest_source_build": 98285,
+  "earlier_manifest_source_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+  "historical_commands": 2179,
+  "groups": {
+    "KingsCore": {
+      "source_commands": 235,
+      "original_links": [
+        595
+      ],
+      "target_lead": 336,
+      "current_observed_links": [
+        336
+      ],
+      "original_aliases": [],
+      "current_aliases": [],
+      "current_broader_alias_veto": false,
+      "live_building_witnesses_any_link_in_twelve": 1187,
+      "live_building_witnesses_any_link_in_two": [
+        148,
+        50
+      ],
+      "source_shape_counts": {
+        "111/0": 235
+      },
+      "target_live_shape_counts": {
+        "111/0": 1385
+      },
+      "live_matching_witnesses_in_twelve": 1187,
+      "twelve_files_with_live_witnesses": 12,
+      "live_matching_witnesses_in_two": [
+        148,
+        50
+      ],
+      "blocks": []
+    },
+    "TownCannonTowerL2": {
+      "source_commands": 407,
+      "original_links": [
+        531
+      ],
+      "target_lead": null,
+      "current_observed_links": [
+        294
+      ],
+      "original_aliases": [
+        "TownCannonTowerDead"
+      ],
+      "current_aliases": [],
+      "current_broader_alias_veto": false,
+      "live_building_witnesses_any_link_in_twelve": 1711,
+      "live_building_witnesses_any_link_in_two": [
+        184,
+        172
+      ],
+      "source_shape_counts": {
+        "111/0": 407
+      },
+      "target_live_shape_counts": {
+        "111/0": 2067
+      },
+      "live_matching_witnesses_in_twelve": 0,
+      "twelve_files_with_live_witnesses": 0,
+      "live_matching_witnesses_in_two": [
+        0,
+        0
+      ],
+      "blocks": [
+        "outside_33_target_leads",
+        "ambiguous_original_link"
+      ]
+    },
+    "TownCannonTowerL2Standalone": {
+      "source_commands": 140,
+      "original_links": [
+        532
+      ],
+      "target_lead": null,
+      "current_observed_links": [],
+      "original_aliases": [],
+      "current_aliases": [],
+      "current_broader_alias_veto": false,
+      "live_building_witnesses_any_link_in_twelve": 0,
+      "live_building_witnesses_any_link_in_two": [
+        0,
+        0
+      ],
+      "source_shape_counts": {
+        "111/0": 140
+      },
+      "target_live_shape_counts": {},
+      "live_matching_witnesses_in_twelve": 0,
+      "twelve_files_with_live_witnesses": 0,
+      "live_matching_witnesses_in_two": [
+        0,
+        0
+      ],
+      "blocks": [
+        "outside_33_target_leads",
+        "target_alias_or_no_unique_link",
+        "no_twelve_live_building_witness"
+      ]
+    },
+    "TownCannonTowerL3": {
+      "source_commands": 40,
+      "original_links": [
+        533
+      ],
+      "target_lead": null,
+      "current_observed_links": [
+        296
+      ],
+      "original_aliases": [],
+      "current_aliases": [
+        "TownCannonTowerDead"
+      ],
+      "current_broader_alias_veto": true,
+      "live_building_witnesses_any_link_in_twelve": 649,
+      "live_building_witnesses_any_link_in_two": [
+        132,
+        142
+      ],
+      "source_shape_counts": {
+        "111/0": 40
+      },
+      "target_live_shape_counts": {
+        "111/0": 923
+      },
+      "live_matching_witnesses_in_twelve": 0,
+      "twelve_files_with_live_witnesses": 0,
+      "live_matching_witnesses_in_two": [
+        0,
+        0
+      ],
+      "blocks": [
+        "outside_33_target_leads",
+        "target_alias_or_no_unique_link"
+      ]
+    },
+    "TownCannonTowerL3Standalone": {
+      "source_commands": 80,
+      "original_links": [
+        534
+      ],
+      "target_lead": 297,
+      "current_observed_links": [
+        297
+      ],
+      "original_aliases": [],
+      "current_aliases": [],
+      "current_broader_alias_veto": false,
+      "live_building_witnesses_any_link_in_twelve": 2,
+      "live_building_witnesses_any_link_in_two": [
+        0,
+        0
+      ],
+      "source_shape_counts": {
+        "111/0": 80
+      },
+      "target_live_shape_counts": {
+        "111/0": 2
+      },
+      "live_matching_witnesses_in_twelve": 2,
+      "twelve_files_with_live_witnesses": 1,
+      "live_matching_witnesses_in_two": [
+        0,
+        0
+      ],
+      "blocks": []
+    },
+    "TownGateL215BLUR": {
+      "source_commands": 82,
+      "original_links": [
+        499
+      ],
+      "target_lead": 264,
+      "current_observed_links": [
+        264
+      ],
+      "original_aliases": [],
+      "current_aliases": [],
+      "current_broader_alias_veto": false,
+      "live_building_witnesses_any_link_in_twelve": 107,
+      "live_building_witnesses_any_link_in_two": [
+        28,
+        23
+      ],
+      "source_shape_counts": {
+        "111/0": 82
+      },
+      "target_live_shape_counts": {
+        "111/0": 158
+      },
+      "live_matching_witnesses_in_twelve": 107,
+      "twelve_files_with_live_witnesses": 11,
+      "live_matching_witnesses_in_two": [
+        28,
+        23
+      ],
+      "blocks": []
+    },
+    "TownGateL215BRUL": {
+      "source_commands": 31,
+      "original_links": [
+        502
+      ],
+      "target_lead": 267,
+      "current_observed_links": [
+        267
+      ],
+      "original_aliases": [],
+      "current_aliases": [],
+      "current_broader_alias_veto": false,
+      "live_building_witnesses_any_link_in_twelve": 83,
+      "live_building_witnesses_any_link_in_two": [
+        12,
+        9
+      ],
+      "source_shape_counts": {
+        "111/0": 31
+      },
+      "target_live_shape_counts": {
+        "111/0": 104
+      },
+      "live_matching_witnesses_in_twelve": 83,
+      "twelve_files_with_live_witnesses": 10,
+      "live_matching_witnesses_in_two": [
+        12,
+        9
+      ],
+      "blocks": []
+    },
+    "TownGateL3BLURBRVisionBlocked": {
+      "source_commands": 3,
+      "original_links": [
+        513
+      ],
+      "target_lead": null,
+      "current_observed_links": [],
+      "original_aliases": [],
+      "current_aliases": [],
+      "current_broader_alias_veto": false,
+      "live_building_witnesses_any_link_in_twelve": 0,
+      "live_building_witnesses_any_link_in_two": [
+        0,
+        0
+      ],
+      "source_shape_counts": {
+        "111/0": 3
+      },
+      "target_live_shape_counts": {},
+      "live_matching_witnesses_in_twelve": 0,
+      "twelve_files_with_live_witnesses": 0,
+      "live_matching_witnesses_in_two": [
+        0,
+        0
+      ],
+      "blocks": [
+        "outside_33_target_leads",
+        "target_alias_or_no_unique_link",
+        "no_twelve_live_building_witness"
+      ]
+    },
+    "TownGateL3BRULTRVisionBlocked": {
+      "source_commands": 6,
+      "original_links": [
+        516
+      ],
+      "target_lead": 281,
+      "current_observed_links": [
+        281
+      ],
+      "original_aliases": [],
+      "current_aliases": [],
+      "current_broader_alias_veto": false,
+      "live_building_witnesses_any_link_in_twelve": 64,
+      "live_building_witnesses_any_link_in_two": [
+        14,
+        6
+      ],
+      "source_shape_counts": {
+        "111/0": 6
+      },
+      "target_live_shape_counts": {
+        "111/0": 84
+      },
+      "live_matching_witnesses_in_twelve": 64,
+      "twelve_files_with_live_witnesses": 6,
+      "live_matching_witnesses_in_two": [
+        14,
+        6
+      ],
+      "blocks": []
+    },
+    "TownGateL3VerticalRightVisionBlocked": {
+      "source_commands": 8,
+      "original_links": [
+        510
+      ],
+      "target_lead": 275,
+      "current_observed_links": [
+        275
+      ],
+      "original_aliases": [],
+      "current_aliases": [],
+      "current_broader_alias_veto": false,
+      "live_building_witnesses_any_link_in_twelve": 24,
+      "live_building_witnesses_any_link_in_two": [
+        1,
+        1
+      ],
+      "source_shape_counts": {
+        "111/0": 8
+      },
+      "target_live_shape_counts": {
+        "111/0": 26
+      },
+      "live_matching_witnesses_in_twelve": 24,
+      "twelve_files_with_live_witnesses": 4,
+      "live_matching_witnesses_in_two": [
+        1,
+        1
+      ],
+      "blocks": []
+    },
+    "TownMoonwellL2": {
+      "source_commands": 367,
+      "original_links": [
+        537
+      ],
+      "target_lead": 299,
+      "current_observed_links": [
+        299
+      ],
+      "original_aliases": [],
+      "current_aliases": [],
+      "current_broader_alias_veto": false,
+      "live_building_witnesses_any_link_in_twelve": 1371,
+      "live_building_witnesses_any_link_in_two": [
+        73,
+        85
+      ],
+      "source_shape_counts": {
+        "111/0": 367
+      },
+      "target_live_shape_counts": {
+        "111/0": 1529
+      },
+      "live_matching_witnesses_in_twelve": 1371,
+      "twelve_files_with_live_witnesses": 12,
+      "live_matching_witnesses_in_two": [
+        73,
+        85
+      ],
+      "blocks": []
+    },
+    "TownMoonwellL3": {
+      "source_commands": 128,
+      "original_links": [
+        538
+      ],
+      "target_lead": 300,
+      "current_observed_links": [
+        300
+      ],
+      "original_aliases": [],
+      "current_aliases": [],
+      "current_broader_alias_veto": false,
+      "live_building_witnesses_any_link_in_twelve": 387,
+      "live_building_witnesses_any_link_in_two": [
+        80,
+        9
+      ],
+      "source_shape_counts": {
+        "111/0": 128
+      },
+      "target_live_shape_counts": {
+        "111/0": 476
+      },
+      "live_matching_witnesses_in_twelve": 387,
+      "twelve_files_with_live_witnesses": 12,
+      "live_matching_witnesses_in_two": [
+        80,
+        9
+      ],
+      "blocks": []
+    },
+    "TownTownHallL2": {
+      "source_commands": 327,
+      "original_links": [
+        569
+      ],
+      "target_lead": 324,
+      "current_observed_links": [
+        324
+      ],
+      "original_aliases": [],
+      "current_aliases": [],
+      "current_broader_alias_veto": false,
+      "live_building_witnesses_any_link_in_twelve": 2461,
+      "live_building_witnesses_any_link_in_two": [
+        621,
+        288
+      ],
+      "source_shape_counts": {
+        "111/0": 327
+      },
+      "target_live_shape_counts": {
+        "111/0": 3370
+      },
+      "live_matching_witnesses_in_twelve": 2461,
+      "twelve_files_with_live_witnesses": 12,
+      "live_matching_witnesses_in_two": [
+        621,
+        288
+      ],
+      "blocks": []
+    },
+    "TownTownHallL3": {
+      "source_commands": 250,
+      "original_links": [
+        548
+      ],
+      "target_lead": 310,
+      "current_observed_links": [
+        310
+      ],
+      "original_aliases": [],
+      "current_aliases": [],
+      "current_broader_alias_veto": false,
+      "live_building_witnesses_any_link_in_twelve": 1079,
+      "live_building_witnesses_any_link_in_two": [
+        159,
+        158
+      ],
+      "source_shape_counts": {
+        "111/0": 250
+      },
+      "target_live_shape_counts": {
+        "111/0": 1396
+      },
+      "live_matching_witnesses_in_twelve": 1079,
+      "twelve_files_with_live_witnesses": 12,
+      "live_matching_witnesses_in_two": [
+        159,
+        158
+      ],
+      "blocks": []
+    },
+    "TownWallRadial14L3": {
+      "source_commands": 6,
+      "original_links": [
+        648
+      ],
+      "target_lead": 387,
+      "current_observed_links": [
+        387
+      ],
+      "original_aliases": [],
+      "current_aliases": [],
+      "current_broader_alias_veto": false,
+      "live_building_witnesses_any_link_in_twelve": 11,
+      "live_building_witnesses_any_link_in_two": [
+        11,
+        6
+      ],
+      "source_shape_counts": {
+        "111/0": 6
+      },
+      "target_live_shape_counts": {
+        "111/0": 28
+      },
+      "live_matching_witnesses_in_twelve": 11,
+      "twelve_files_with_live_witnesses": 4,
+      "live_matching_witnesses_in_two": [
+        11,
+        6
+      ],
+      "blocks": []
+    },
+    "TownWallRadial17L3": {
+      "source_commands": 5,
+      "original_links": [
+        657
+      ],
+      "target_lead": 396,
+      "current_observed_links": [
+        396
+      ],
+      "original_aliases": [],
+      "current_aliases": [],
+      "current_broader_alias_veto": false,
+      "live_building_witnesses_any_link_in_twelve": 20,
+      "live_building_witnesses_any_link_in_two": [
+        2,
+        0
+      ],
+      "source_shape_counts": {
+        "111/0": 5
+      },
+      "target_live_shape_counts": {
+        "111/0": 22
+      },
+      "live_matching_witnesses_in_twelve": 20,
+      "twelve_files_with_live_witnesses": 4,
+      "live_matching_witnesses_in_two": [
+        2,
+        0
+      ],
+      "blocks": []
+    },
+    "TownWallRadial18L2": {
+      "source_commands": 15,
+      "original_links": [
+        659
+      ],
+      "target_lead": 398,
+      "current_observed_links": [
+        398
+      ],
+      "original_aliases": [],
+      "current_aliases": [],
+      "current_broader_alias_veto": false,
+      "live_building_witnesses_any_link_in_twelve": 172,
+      "live_building_witnesses_any_link_in_two": [
+        7,
+        12
+      ],
+      "source_shape_counts": {
+        "111/0": 15
+      },
+      "target_live_shape_counts": {
+        "111/0": 191
+      },
+      "live_matching_witnesses_in_twelve": 172,
+      "twelve_files_with_live_witnesses": 12,
+      "live_matching_witnesses_in_two": [
+        7,
+        12
+      ],
+      "blocks": []
+    },
+    "TownWallRadial18L3": {
+      "source_commands": 3,
+      "original_links": [
+        660
+      ],
+      "target_lead": 399,
+      "current_observed_links": [
+        399
+      ],
+      "original_aliases": [],
+      "current_aliases": [],
+      "current_broader_alias_veto": false,
+      "live_building_witnesses_any_link_in_twelve": 12,
+      "live_building_witnesses_any_link_in_two": [
+        0,
+        0
+      ],
+      "source_shape_counts": {
+        "111/0": 3
+      },
+      "target_live_shape_counts": {
+        "111/0": 12
+      },
+      "live_matching_witnesses_in_twelve": 12,
+      "twelve_files_with_live_witnesses": 3,
+      "live_matching_witnesses_in_two": [
+        0,
+        0
+      ],
+      "blocks": []
+    },
+    "TownWallRadial19L2": {
+      "source_commands": 12,
+      "original_links": [
+        662
+      ],
+      "target_lead": 401,
+      "current_observed_links": [
+        401
+      ],
+      "original_aliases": [],
+      "current_aliases": [],
+      "current_broader_alias_veto": false,
+      "live_building_witnesses_any_link_in_twelve": 59,
+      "live_building_witnesses_any_link_in_two": [
+        20,
+        4
+      ],
+      "source_shape_counts": {
+        "111/0": 12
+      },
+      "target_live_shape_counts": {
+        "111/0": 83
+      },
+      "live_matching_witnesses_in_twelve": 59,
+      "twelve_files_with_live_witnesses": 10,
+      "live_matching_witnesses_in_two": [
+        20,
+        4
+      ],
+      "blocks": []
+    },
+    "TownWallRadial4L2": {
+      "source_commands": 17,
+      "original_links": [
+        617
+      ],
+      "target_lead": 356,
+      "current_observed_links": [
+        356
+      ],
+      "original_aliases": [],
+      "current_aliases": [],
+      "current_broader_alias_veto": false,
+      "live_building_witnesses_any_link_in_twelve": 58,
+      "live_building_witnesses_any_link_in_two": [
+        7,
+        0
+      ],
+      "source_shape_counts": {
+        "111/0": 17
+      },
+      "target_live_shape_counts": {
+        "111/0": 65
+      },
+      "live_matching_witnesses_in_twelve": 58,
+      "twelve_files_with_live_witnesses": 7,
+      "live_matching_witnesses_in_two": [
+        7,
+        0
+      ],
+      "blocks": []
+    },
+    "TownWallRadial5L2": {
+      "source_commands": 17,
+      "original_links": [
+        620
+      ],
+      "target_lead": 359,
+      "current_observed_links": [
+        359
+      ],
+      "original_aliases": [],
+      "current_aliases": [],
+      "current_broader_alias_veto": false,
+      "live_building_witnesses_any_link_in_twelve": 201,
+      "live_building_witnesses_any_link_in_two": [
+        33,
+        28
+      ],
+      "source_shape_counts": {
+        "111/0": 17
+      },
+      "target_live_shape_counts": {
+        "111/0": 262
+      },
+      "live_matching_witnesses_in_twelve": 201,
+      "twelve_files_with_live_witnesses": 11,
+      "live_matching_witnesses_in_two": [
+        33,
+        28
+      ],
+      "blocks": []
+    }
+  },
+  "counts": {
+    "source_rows_with_twelve_support": 1589,
+    "source_rows_with_external_support": 1506,
+    "source_rows_with_both_externals": 1484
+  },
+  "historical_building_source_flags_and_timer": {
+    "flags_111_timer_0": 2179
+  },
+  "number_of_eligible_types": 17,
+  "excluded_source_commands": 590,
+  "event_sequence_by_external_support": {
+    "0": {
+      "event_105_sequence_present": 30,
+      "event_27_sequence_not_applicable": 2,
+      "event_105_sequence_absent": 51
+    },
+    "1": {
+      "event_27_sequence_not_applicable": 3,
+      "event_105_sequence_present": 19
+    },
+    "2": {
+      "event_105_sequence_present": 564,
+      "event_105_sequence_absent": 831,
+      "event_27_sequence_not_applicable": 89
+    }
+  },
+  "external_files_support_for_eligible_source_rows": {
+    "0": 83,
+    "1": 22,
+    "2": 1484
+  },
+  "qualified_ordinal_table_sha256": "ba272c794dc8150d5a428741c0fef77b472452f070b5c60e453878918f865187",
+  "source_unclassified_or_partly_classified_catalog_fields": 304,
+  "controls": [
+    {
+      "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+      "unclassified_or_partly_classified_catalog_fields": 86
+    },
+    {
+      "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+      "unclassified_or_partly_classified_catalog_fields": 81
+    },
+    {
+      "replay_sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+      "unclassified_or_partly_classified_catalog_fields": 103
+    },
+    {
+      "replay_sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+      "unclassified_or_partly_classified_catalog_fields": 175
+    },
+    {
+      "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+      "unclassified_or_partly_classified_catalog_fields": 87
+    },
+    {
+      "replay_sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+      "unclassified_or_partly_classified_catalog_fields": 136
+    },
+    {
+      "replay_sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+      "unclassified_or_partly_classified_catalog_fields": 103
+    },
+    {
+      "replay_sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+      "unclassified_or_partly_classified_catalog_fields": 105
+    },
+    {
+      "replay_sha256": "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+      "unclassified_or_partly_classified_catalog_fields": 104
+    },
+    {
+      "replay_sha256": "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+      "unclassified_or_partly_classified_catalog_fields": 98
+    },
+    {
+      "replay_sha256": "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+      "unclassified_or_partly_classified_catalog_fields": 186
+    },
+    {
+      "replay_sha256": "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77",
+      "unclassified_or_partly_classified_catalog_fields": 127
+    },
+    {
+      "replay_sha256": "bc16af7f68496cddc4698f70b3853402a0f30aa37951aec3a6b555ed703879e8",
+      "unclassified_or_partly_classified_catalog_fields": 149
+    },
+    {
+      "replay_sha256": "a956b186a0459a47d9b0fdd8af4ccb65c437f11926186471c434e543e218b2d7",
+      "unclassified_or_partly_classified_catalog_fields": 110
+    }
+  ],
+  "scope": "Known aliases checked across recorded command and selection links. Target IDs are conditional on the stock 98348 Dragon Shire catalog and dependency order. Unknown identities, complete runtime catalog, and custom historical package numeric links are unverified."
+}
