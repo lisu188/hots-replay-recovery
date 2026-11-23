@@ -1,0 +1,714 @@
+{
+  "catalog_sha256": "aaf264de6c3e31ce4bee1b1a5d658d695036393e4077e539630dd553698e9bbb",
+  "declared_prerequisites_observed": 3,
+  "format": "source-talent-path-41810-v1",
+  "game_events": 104257,
+  "game_member_byte_equal": true,
+  "game_member_bytes": 1146911,
+  "game_member_sha256": "ea69dd77edd02f3ed2c42a2def1faab6dc4d0eb46da291c44f76bfb49a65eed6",
+  "source_selections_restored": 70,
+  "source_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+  "source_talent_path": [
+    {
+      "catalog_level": 1,
+      "game_event_ordinal": 427,
+      "hero": "HeroGreymane",
+      "prerequisite": null,
+      "purchase": "GreymaneInnerBeastViciousness",
+      "recorded_prior_level": 1,
+      "selection_loop": 86,
+      "source_index": 3
+    },
+    {
+      "catalog_level": 1,
+      "game_event_ordinal": 491,
+      "hero": "HeroAnubarak",
+      "prerequisite": null,
+      "purchase": "AnubarakMasteryExtendedSpikesImpale",
+      "recorded_prior_level": 1,
+      "selection_loop": 102,
+      "source_index": 0
+    },
+    {
+      "catalog_level": 1,
+      "game_event_ordinal": 844,
+      "hero": "HeroNova",
+      "prerequisite": null,
+      "purchase": "NovaMasteryCovertOpsPinningShot",
+      "recorded_prior_level": 1,
+      "selection_loop": 133,
+      "source_index": 3
+    },
+    {
+      "catalog_level": 1,
+      "game_event_ordinal": 914,
+      "hero": "HeroFaerieDragon",
+      "prerequisite": null,
+      "purchase": "BrightwingUnfurlingSpraySoothingMist",
+      "recorded_prior_level": 1,
+      "selection_loop": 148,
+      "source_index": 0
+    },
+    {
+      "catalog_level": 1,
+      "game_event_ordinal": 1171,
+      "hero": "HeroBarbarian",
+      "prerequisite": null,
+      "purchase": "BarbarianMasteryWarPaint",
+      "recorded_prior_level": 1,
+      "selection_loop": 200,
+      "source_index": 0
+    },
+    {
+      "catalog_level": 1,
+      "game_event_ordinal": 1286,
+      "hero": "HeroGreymane",
+      "prerequisite": null,
+      "purchase": "GreymaneGilneanCocktailPerfectAim",
+      "recorded_prior_level": 1,
+      "selection_loop": 241,
+      "source_index": 1
+    },
+    {
+      "catalog_level": 1,
+      "game_event_ordinal": 1536,
+      "hero": "HeroKaelthas",
+      "prerequisite": null,
+      "purchase": "KaelthasManaAddict",
+      "recorded_prior_level": 1,
+      "selection_loop": 354,
+      "source_index": 2
+    },
+    {
+      "catalog_level": 1,
+      "game_event_ordinal": 1547,
+      "hero": "HeroTyrande",
+      "prerequisite": null,
+      "purchase": "GenericTalentSeasonedMarksman",
+      "recorded_prior_level": 1,
+      "selection_loop": 364,
+      "source_index": 2
+    },
+    {
+      "catalog_level": 1,
+      "game_event_ordinal": 3038,
+      "hero": "HeroAbathur",
+      "prerequisite": null,
+      "purchase": "AbathurMasteryEnvenomedNestsToxicNest",
+      "recorded_prior_level": 1,
+      "selection_loop": 681,
+      "source_index": 3
+    },
+    {
+      "catalog_level": 1,
+      "game_event_ordinal": 6214,
+      "hero": "HeroKaelthas",
+      "prerequisite": null,
+      "purchase": "KaelthasManaAddict",
+      "recorded_prior_level": 1,
+      "selection_loop": 1216,
+      "source_index": 2
+    },
+    {
+      "catalog_level": 4,
+      "game_event_ordinal": 14242,
+      "hero": "HeroGreymane",
+      "prerequisite": null,
+      "purchase": "GreymaneGilneanCocktailDraughtOverflow",
+      "recorded_prior_level": 4,
+      "selection_loop": 2688,
+      "source_index": 7
+    },
+    {
+      "catalog_level": 4,
+      "game_event_ordinal": 14281,
+      "hero": "HeroTyrande",
+      "prerequisite": null,
+      "purchase": "TyrandeMasterySentinelPierce",
+      "recorded_prior_level": 4,
+      "selection_loop": 2698,
+      "source_index": 4
+    },
+    {
+      "catalog_level": 4,
+      "game_event_ordinal": 14651,
+      "hero": "HeroAnubarak",
+      "prerequisite": null,
+      "purchase": "AnubarakMasteryUnderkingBurrowCharge",
+      "recorded_prior_level": 4,
+      "selection_loop": 2792,
+      "source_index": 4
+    },
+    {
+      "catalog_level": 4,
+      "game_event_ordinal": 14723,
+      "hero": "HeroKaelthas",
+      "prerequisite": null,
+      "purchase": "KaelthasGravityLapseNetherWind",
+      "recorded_prior_level": 4,
+      "selection_loop": 2813,
+      "source_index": 3
+    },
+    {
+      "catalog_level": 4,
+      "game_event_ordinal": 14779,
+      "hero": "HeroAbathur",
+      "prerequisite": null,
+      "purchase": "AbathurMasteryProlificDispersal",
+      "recorded_prior_level": 4,
+      "selection_loop": 2826,
+      "source_index": 4
+    },
+    {
+      "catalog_level": 4,
+      "game_event_ordinal": 14854,
+      "hero": "HeroGreymane",
+      "prerequisite": null,
+      "purchase": "GreymaneGilneanCocktailDraughtOverflow",
+      "recorded_prior_level": 4,
+      "selection_loop": 2841,
+      "source_index": 7
+    },
+    {
+      "catalog_level": 4,
+      "game_event_ordinal": 14911,
+      "hero": "HeroBarbarian",
+      "prerequisite": null,
+      "purchase": "GenericTalentMercenaryLord",
+      "recorded_prior_level": 4,
+      "selection_loop": 2854,
+      "source_index": 7
+    },
+    {
+      "catalog_level": 4,
+      "game_event_ordinal": 15159,
+      "hero": "HeroNova",
+      "prerequisite": null,
+      "purchase": "NovaNewRemoteDelivery",
+      "recorded_prior_level": 4,
+      "selection_loop": 2910,
+      "source_index": 4
+    },
+    {
+      "catalog_level": 4,
+      "game_event_ordinal": 15170,
+      "hero": "HeroFaerieDragon",
+      "prerequisite": null,
+      "purchase": "BrightwingManicPixiePixieDust",
+      "recorded_prior_level": 4,
+      "selection_loop": 2918,
+      "source_index": 3
+    },
+    {
+      "catalog_level": 4,
+      "game_event_ordinal": 15193,
+      "hero": "HeroKaelthas",
+      "prerequisite": null,
+      "purchase": "KaelthasGravityLapseNetherWind",
+      "recorded_prior_level": 4,
+      "selection_loop": 2929,
+      "source_index": 3
+    },
+    {
+      "catalog_level": 7,
+      "game_event_ordinal": 23337,
+      "hero": "HeroGreymane",
+      "prerequisite": null,
+      "purchase": "GreymaneGilneanCocktailIncendiaryElixir",
+      "recorded_prior_level": 7,
+      "selection_loop": 4275,
+      "source_index": 9
+    },
+    {
+      "catalog_level": 7,
+      "game_event_ordinal": 23419,
+      "hero": "HeroAbathur",
+      "prerequisite": null,
+      "purchase": "AbathurMasteryVileNestsToxicNest",
+      "recorded_prior_level": 7,
+      "selection_loop": 4295,
+      "source_index": 9
+    },
+    {
+      "catalog_level": 7,
+      "game_event_ordinal": 23457,
+      "hero": "HeroBarbarian",
+      "prerequisite": null,
+      "purchase": "GenericTalentFollowThrough",
+      "recorded_prior_level": 7,
+      "selection_loop": 4307,
+      "source_index": 10
+    },
+    {
+      "catalog_level": 7,
+      "game_event_ordinal": 23516,
+      "hero": "HeroTyrande",
+      "prerequisite": null,
+      "purchase": "BattleMomentumTyrande",
+      "recorded_prior_level": 7,
+      "selection_loop": 4320,
+      "source_index": 11
+    },
+    {
+      "catalog_level": 7,
+      "game_event_ordinal": 23721,
+      "hero": "HeroKaelthas",
+      "prerequisite": null,
+      "purchase": "KaelthasFlamestrikeBurnedFlesh",
+      "recorded_prior_level": 7,
+      "selection_loop": 4361,
+      "source_index": 6
+    },
+    {
+      "catalog_level": 7,
+      "game_event_ordinal": 25042,
+      "hero": "HeroGreymane",
+      "prerequisite": null,
+      "purchase": "GreymaneGilneanCocktailIncendiaryElixir",
+      "recorded_prior_level": 7,
+      "selection_loop": 4561,
+      "source_index": 9
+    },
+    {
+      "catalog_level": 7,
+      "game_event_ordinal": 25196,
+      "hero": "HeroAnubarak",
+      "prerequisite": null,
+      "purchase": "AnubarakMasteryBedOfBarbs",
+      "recorded_prior_level": 7,
+      "selection_loop": 4582,
+      "source_index": 10
+    },
+    {
+      "catalog_level": 7,
+      "game_event_ordinal": 25800,
+      "hero": "HeroFaerieDragon",
+      "prerequisite": null,
+      "purchase": "FaerieDragonMasteryPhaseShield",
+      "recorded_prior_level": 7,
+      "selection_loop": 4671,
+      "source_index": 8
+    },
+    {
+      "catalog_level": 7,
+      "game_event_ordinal": 25892,
+      "hero": "HeroKaelthas",
+      "prerequisite": null,
+      "purchase": "KaelthasGravityCrush",
+      "recorded_prior_level": 7,
+      "selection_loop": 4692,
+      "source_index": 7
+    },
+    {
+      "catalog_level": 7,
+      "game_event_ordinal": 26069,
+      "hero": "HeroNova",
+      "prerequisite": null,
+      "purchase": "NovaCombatStyleAntiArmorShells",
+      "recorded_prior_level": 7,
+      "selection_loop": 4722,
+      "source_index": 8
+    },
+    {
+      "catalog_level": 10,
+      "game_event_ordinal": 36302,
+      "hero": "HeroGreymane",
+      "prerequisite": null,
+      "purchase": "GreymaneHeroicAbilityGoForTheThroat",
+      "recorded_prior_level": 10,
+      "selection_loop": 6426,
+      "source_index": 11
+    },
+    {
+      "catalog_level": 10,
+      "game_event_ordinal": 36521,
+      "hero": "HeroBarbarian",
+      "prerequisite": null,
+      "purchase": "BarbarianHeroicAbilityWrathoftheBerserker",
+      "recorded_prior_level": 10,
+      "selection_loop": 6458,
+      "source_index": 13
+    },
+    {
+      "catalog_level": 10,
+      "game_event_ordinal": 36563,
+      "hero": "HeroTyrande",
+      "prerequisite": null,
+      "purchase": "TyrandeHeroicAbilityShadowstalk",
+      "recorded_prior_level": 10,
+      "selection_loop": 6471,
+      "source_index": 13
+    },
+    {
+      "catalog_level": 10,
+      "game_event_ordinal": 36860,
+      "hero": "HeroKaelthas",
+      "prerequisite": null,
+      "purchase": "KaelthasHeroicAbilityPhoenix",
+      "recorded_prior_level": 10,
+      "selection_loop": 6528,
+      "source_index": 9
+    },
+    {
+      "catalog_level": 10,
+      "game_event_ordinal": 36862,
+      "hero": "HeroAbathur",
+      "prerequisite": null,
+      "purchase": "AbathurHeroicAbilityEvolveMonstrosity",
+      "recorded_prior_level": 10,
+      "selection_loop": 6528,
+      "source_index": 13
+    },
+    {
+      "catalog_level": 10,
+      "game_event_ordinal": 40518,
+      "hero": "HeroAnubarak",
+      "prerequisite": null,
+      "purchase": "AnubarakHeroicAbilityCarrionSwarm",
+      "recorded_prior_level": 10,
+      "selection_loop": 7052,
+      "source_index": 12
+    },
+    {
+      "catalog_level": 10,
+      "game_event_ordinal": 40579,
+      "hero": "HeroNova",
+      "prerequisite": null,
+      "purchase": "NovaHeroicAbilityTripleTap",
+      "recorded_prior_level": 10,
+      "selection_loop": 7060,
+      "source_index": 10
+    },
+    {
+      "catalog_level": 10,
+      "game_event_ordinal": 40645,
+      "hero": "HeroKaelthas",
+      "prerequisite": null,
+      "purchase": "KaelthasHeroicAbilityPyroblast",
+      "recorded_prior_level": 10,
+      "selection_loop": 7071,
+      "source_index": 10
+    },
+    {
+      "catalog_level": 10,
+      "game_event_ordinal": 40657,
+      "hero": "HeroGreymane",
+      "prerequisite": null,
+      "purchase": "GreymaneHeroicAbilityGoForTheThroat",
+      "recorded_prior_level": 10,
+      "selection_loop": 7074,
+      "source_index": 11
+    },
+    {
+      "catalog_level": 10,
+      "game_event_ordinal": 41113,
+      "hero": "HeroFaerieDragon",
+      "prerequisite": null,
+      "purchase": "FaerieDragonHeroicAbilityEmeraldWind",
+      "recorded_prior_level": 10,
+      "selection_loop": 7143,
+      "source_index": 12
+    },
+    {
+      "catalog_level": 13,
+      "game_event_ordinal": 50040,
+      "hero": "HeroGreymane",
+      "prerequisite": null,
+      "purchase": "GreymaneInnerBeastOnTheProwl",
+      "recorded_prior_level": 13,
+      "selection_loop": 8674,
+      "source_index": 15
+    },
+    {
+      "catalog_level": 13,
+      "game_event_ordinal": 50051,
+      "hero": "HeroBarbarian",
+      "prerequisite": null,
+      "purchase": "BarbarianMasteryMysticalSpearAncientSpear",
+      "recorded_prior_level": 13,
+      "selection_loop": 8677,
+      "source_index": 16
+    },
+    {
+      "catalog_level": 13,
+      "game_event_ordinal": 50077,
+      "hero": "HeroAbathur",
+      "prerequisite": null,
+      "purchase": "AbathurCombatStyleBombardStrain",
+      "recorded_prior_level": 13,
+      "selection_loop": 8692,
+      "source_index": 15
+    },
+    {
+      "catalog_level": 13,
+      "game_event_ordinal": 50129,
+      "hero": "HeroTyrande",
+      "prerequisite": null,
+      "purchase": "GenericTalentShrinkRay",
+      "recorded_prior_level": 13,
+      "selection_loop": 8712,
+      "source_index": 18
+    },
+    {
+      "catalog_level": 13,
+      "game_event_ordinal": 50969,
+      "hero": "HeroKaelthas",
+      "prerequisite": null,
+      "purchase": "KaelthasLivingBombFissionBomb",
+      "recorded_prior_level": 13,
+      "selection_loop": 8872,
+      "source_index": 13
+    },
+    {
+      "catalog_level": 13,
+      "game_event_ordinal": 55188,
+      "hero": "HeroAnubarak",
+      "prerequisite": null,
+      "purchase": "GenericTalentBurningRage",
+      "recorded_prior_level": 13,
+      "selection_loop": 9446,
+      "source_index": 14
+    },
+    {
+      "catalog_level": 13,
+      "game_event_ordinal": 55396,
+      "hero": "HeroNova",
+      "prerequisite": null,
+      "purchase": "NovaMasteryExplosiveShot",
+      "recorded_prior_level": 13,
+      "selection_loop": 9535,
+      "source_index": 14
+    },
+    {
+      "catalog_level": 13,
+      "game_event_ordinal": 55602,
+      "hero": "HeroFaerieDragon",
+      "prerequisite": null,
+      "purchase": "FaerieDragonMasteryShieldDust",
+      "recorded_prior_level": 13,
+      "selection_loop": 9637,
+      "source_index": 15
+    },
+    {
+      "catalog_level": 13,
+      "game_event_ordinal": 55612,
+      "hero": "HeroKaelthas",
+      "prerequisite": null,
+      "purchase": "KaelthasLivingBombFissionBomb",
+      "recorded_prior_level": 13,
+      "selection_loop": 9640,
+      "source_index": 13
+    },
+    {
+      "catalog_level": 13,
+      "game_event_ordinal": 56884,
+      "hero": "HeroGreymane",
+      "prerequisite": null,
+      "purchase": "GreymaneDarkflightDisengageRunningWild",
+      "recorded_prior_level": 13,
+      "selection_loop": 9927,
+      "source_index": 13
+    },
+    {
+      "catalog_level": 16,
+      "game_event_ordinal": 65350,
+      "hero": "HeroAnubarak",
+      "prerequisite": null,
+      "purchase": "AnubarakMasteryEpicenterBurrowCharge",
+      "recorded_prior_level": 16,
+      "selection_loop": 11478,
+      "source_index": 18
+    },
+    {
+      "catalog_level": 16,
+      "game_event_ordinal": 65374,
+      "hero": "HeroGreymane",
+      "prerequisite": null,
+      "purchase": "GreymaneGilneanCocktailConcentratedBlast",
+      "recorded_prior_level": 16,
+      "selection_loop": 11489,
+      "source_index": 17
+    },
+    {
+      "catalog_level": 16,
+      "game_event_ordinal": 65433,
+      "hero": "HeroNova",
+      "prerequisite": null,
+      "purchase": "NovaMasteryCripplingShot",
+      "recorded_prior_level": 16,
+      "selection_loop": 11512,
+      "source_index": 16
+    },
+    {
+      "catalog_level": 16,
+      "game_event_ordinal": 65471,
+      "hero": "HeroKaelthas",
+      "prerequisite": null,
+      "purchase": "KaelthasLivingBombSunKingsFury",
+      "recorded_prior_level": 16,
+      "selection_loop": 11539,
+      "source_index": 15
+    },
+    {
+      "catalog_level": 16,
+      "game_event_ordinal": 65613,
+      "hero": "HeroFaerieDragon",
+      "prerequisite": null,
+      "purchase": "BrightwingGreaterPolymorphPolymorph",
+      "recorded_prior_level": 16,
+      "selection_loop": 11594,
+      "source_index": 17
+    },
+    {
+      "catalog_level": 16,
+      "game_event_ordinal": 67378,
+      "hero": "HeroGreymane",
+      "prerequisite": null,
+      "purchase": "GreymaneGilneanCocktailConcentratedBlast",
+      "recorded_prior_level": 16,
+      "selection_loop": 11908,
+      "source_index": 17
+    },
+    {
+      "catalog_level": 16,
+      "game_event_ordinal": 67525,
+      "hero": "HeroKaelthas",
+      "prerequisite": null,
+      "purchase": "KaelthasLivingBombSunKingsFury",
+      "recorded_prior_level": 16,
+      "selection_loop": 11930,
+      "source_index": 15
+    },
+    {
+      "catalog_level": 16,
+      "game_event_ordinal": 67563,
+      "hero": "HeroBarbarian",
+      "prerequisite": null,
+      "purchase": "SonyaTalentNervesOfSteel",
+      "recorded_prior_level": 16,
+      "selection_loop": 11940,
+      "source_index": 21
+    },
+    {
+      "catalog_level": 16,
+      "game_event_ordinal": 67599,
+      "hero": "HeroAbathur",
+      "prerequisite": null,
+      "purchase": "AbathurCombatStyleLocustSwarm",
+      "recorded_prior_level": 16,
+      "selection_loop": 11946,
+      "source_index": 20
+    },
+    {
+      "catalog_level": 16,
+      "game_event_ordinal": 67734,
+      "hero": "HeroTyrande",
+      "prerequisite": null,
+      "purchase": "TyrandeMasteryRanger",
+      "recorded_prior_level": 16,
+      "selection_loop": 11983,
+      "source_index": 21
+    },
+    {
+      "catalog_level": 20,
+      "game_event_ordinal": 81111,
+      "hero": "HeroAnubarak",
+      "prerequisite": "AnubarakHeroicAbilityCarrionSwarm",
+      "purchase": "AnubarakMasteryHiveMasterCarrionSwarm",
+      "recorded_prior_level": 20,
+      "selection_loop": 14776,
+      "source_index": 22
+    },
+    {
+      "catalog_level": 20,
+      "game_event_ordinal": 81520,
+      "hero": "HeroNova",
+      "prerequisite": "NovaHeroicAbilityTripleTap",
+      "purchase": "NovaMasteryFastReload",
+      "recorded_prior_level": 20,
+      "selection_loop": 14860,
+      "source_index": 18
+    },
+    {
+      "catalog_level": 20,
+      "game_event_ordinal": 83327,
+      "hero": "HeroBarbarian",
+      "prerequisite": null,
+      "purchase": "SonyaTalentIgnorePain",
+      "recorded_prior_level": 20,
+      "selection_loop": 15241,
+      "source_index": 25
+    },
+    {
+      "catalog_level": 20,
+      "game_event_ordinal": 83965,
+      "hero": "HeroKaelthas",
+      "prerequisite": null,
+      "purchase": "KaelthasMasterOfFlames",
+      "recorded_prior_level": 20,
+      "selection_loop": 15394,
+      "source_index": 19
+    },
+    {
+      "catalog_level": 20,
+      "game_event_ordinal": 84184,
+      "hero": "HeroGreymane",
+      "prerequisite": null,
+      "purchase": "GreymaneHuntersBlunderbuss",
+      "recorded_prior_level": 20,
+      "selection_loop": 15443,
+      "source_index": 23
+    },
+    {
+      "catalog_level": 20,
+      "game_event_ordinal": 84418,
+      "hero": "HeroTyrande",
+      "prerequisite": null,
+      "purchase": "GenericTalentRewind",
+      "recorded_prior_level": 20,
+      "selection_loop": 15491,
+      "source_index": 27
+    },
+    {
+      "catalog_level": 20,
+      "game_event_ordinal": 84674,
+      "hero": "HeroKaelthas",
+      "prerequisite": null,
+      "purchase": "GenericArcanePower",
+      "recorded_prior_level": 20,
+      "selection_loop": 15548,
+      "source_index": 20
+    },
+    {
+      "catalog_level": 20,
+      "game_event_ordinal": 85330,
+      "hero": "HeroAbathur",
+      "prerequisite": null,
+      "purchase": "AbathurMasteryLocustMaster",
+      "recorded_prior_level": 20,
+      "selection_loop": 15709,
+      "source_index": 25
+    },
+    {
+      "catalog_level": 20,
+      "game_event_ordinal": 85547,
+      "hero": "HeroGreymane",
+      "prerequisite": null,
+      "purchase": "GreymaneHuntersBlunderbuss",
+      "recorded_prior_level": 20,
+      "selection_loop": 15804,
+      "source_index": 23
+    },
+    {
+      "catalog_level": 20,
+      "game_event_ordinal": 89637,
+      "hero": "HeroFaerieDragon",
+      "prerequisite": "FaerieDragonHeroicAbilityEmeraldWind",
+      "purchase": "FaerieDragonMasteryContinuousWinds",
+      "recorded_prior_level": 21,
+      "selection_loop": 16696,
+      "source_index": 22
+    }
+  ],
+  "target_rule_equivalence_verified": false
+}
