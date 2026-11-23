@@ -1,0 +1,35 @@
+{
+  "format": "partial-r8-recorded-tracker-camera-ping-integration-v1",
+  "source": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+  "parent": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+  "output_sha256": "152f510b0cf30bf200d58b33877de1a7ee2fa63762dc03dff3369efa9a3da740",
+  "output_bytes": 3030798,
+  "retained_header_build": 98285,
+  "tracker_sha256": "1a9a556f9f1fde466d17c4a3a3fbb31cbec8d8086bef97efeb796f1f5175245f",
+  "sync_records": 308,
+  "sync_sha256": "62a68b50c8cf0c94da98403dad8cda0f92e02580ec9590b2b32815ee32f8d8ae",
+  "camera_rows": 118,
+  "camera_sha256": "c3dd2875353f18c2cf62ee2a79e1641eb6a800aba88a6b45bd50287884043f35",
+  "sparse_ping_sha256": "7da30d2ca6ca4444b5c5fb976640697ff3b94872d41dfba7e9a6a039fedf3234",
+  "game": {
+    "full_game_events": 104257,
+    "ping_frames": 81,
+    "changed_ping_fields": 25,
+    "length": 1148436,
+    "differing_bytes": 56,
+    "original": "31df2ab80eeeb56bc543ea0744f75d4d2ec6a5c337b1f38f04ef90d169dab2f0",
+    "corrected": "a9724bbe44945744f8d34adb8ed30e2b77a1efe8d99e655bcd0b0d70c33bc1ae"
+  },
+  "changed_members": [
+    "(attributes)",
+    "replay.game.events",
+    "replay.smartcam.events"
+  ],
+  "unchanged_members": 11,
+  "independent_readers_agree": true,
+  "all_available_archive_checksums_verified": true,
+  "original_and_r8_preserved": true,
+  "destination_simulation_allocation_verified": false,
+  "native_playback_verified": false,
+  "two_full_builds_byte_identical": true
+}
