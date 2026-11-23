@@ -1,0 +1,92 @@
+{
+  "defender": {
+    "physical_build": 41810,
+    "map_sha256": "e0a58745837b3b5351015c933560dbffb178d747009d2d57b4153ef425cf7250",
+    "camps": [
+      "SiegeGiants",
+      "Knights",
+      "SiegeGiants",
+      "Knights",
+      "Knights"
+    ],
+    "matched_first_wave_units": 16,
+    "cases": [
+      {
+        "replay_sha256": "7efa1c335816eebe802747ae4b16252ed22fcd8387b09d24b115b2917542b52a",
+        "tracker_sha256": "efcd51f24f37612199a8ebce2872bdf72144a82a3a8c15552a164deb5e27d139",
+        "gates_open_loop": 610,
+        "first_defender_loop": 2532,
+        "elapsed_loops": 1922,
+        "elapsed_game_seconds_at_16_loops_per_second": 120.125
+      },
+      {
+        "replay_sha256": "2fca3c78d0e459d4452e3fb1f41ff3fce22b9c1f8f113019389195ff171bf618",
+        "tracker_sha256": "8d01d6f734e9fea8d038a94d28f6dd0fdac22f4a5d1011caee7165beb7dd13af",
+        "gates_open_loop": 610,
+        "first_defender_loop": 2532,
+        "elapsed_loops": 1922,
+        "elapsed_game_seconds_at_16_loops_per_second": 120.125
+      },
+      {
+        "replay_sha256": "8c4fb83989b528ea3227f6c97758293d1f650e33caa3d38c6a2a84d27ab0850d",
+        "tracker_sha256": "fa44344a45d5d1b91b1c196810a81b2144d4992bdb12ed5a1854efbee95a01d1",
+        "gates_open_loop": 610,
+        "first_defender_loop": 2532,
+        "elapsed_loops": 1922,
+        "elapsed_game_seconds_at_16_loops_per_second": 120.125
+      }
+    ]
+  },
+  "startup": [
+    {
+      "replay_sha256": "7efa1c335816eebe802747ae4b16252ed22fcd8387b09d24b115b2917542b52a",
+      "masked_births": 172,
+      "fields_rebuilt": 1204,
+      "original_birth_payloads_retained": 0,
+      "tracker_sha256": "efcd51f24f37612199a8ebce2872bdf72144a82a3a8c15552a164deb5e27d139",
+      "tracker_bytes": 414844,
+      "reconstructed_tracker_byte_equal": true
+    },
+    {
+      "replay_sha256": "2fca3c78d0e459d4452e3fb1f41ff3fce22b9c1f8f113019389195ff171bf618",
+      "masked_births": 172,
+      "fields_rebuilt": 1204,
+      "original_birth_payloads_retained": 0,
+      "tracker_sha256": "8d01d6f734e9fea8d038a94d28f6dd0fdac22f4a5d1011caee7165beb7dd13af",
+      "tracker_bytes": 295692,
+      "reconstructed_tracker_byte_equal": true
+    },
+    {
+      "replay_sha256": "8c4fb83989b528ea3227f6c97758293d1f650e33caa3d38c6a2a84d27ab0850d",
+      "masked_births": 172,
+      "fields_rebuilt": 1204,
+      "original_birth_payloads_retained": 0,
+      "tracker_sha256": "fa44344a45d5d1b91b1c196810a81b2144d4992bdb12ed5a1854efbee95a01d1",
+      "tracker_bytes": 269199,
+      "reconstructed_tracker_byte_equal": true
+    }
+  ],
+  "validation": [
+    {
+      "replay_sha256": "7efa1c335816eebe802747ae4b16252ed22fcd8387b09d24b115b2917542b52a",
+      "game_sha256": "6267487f589c4db643ff4d3b7abc061af0b61552c7a2de9e86c8508406ca4daf",
+      "tracker_sha256": "efcd51f24f37612199a8ebce2872bdf72144a82a3a8c15552a164deb5e27d139",
+      "loops": 25025,
+      "captures": 16
+    },
+    {
+      "replay_sha256": "2fca3c78d0e459d4452e3fb1f41ff3fce22b9c1f8f113019389195ff171bf618",
+      "game_sha256": "55d2cbddda60b683d07ed9a21ffe84ca55422ef9a8aa724969f9a359a6d65f28",
+      "tracker_sha256": "8d01d6f734e9fea8d038a94d28f6dd0fdac22f4a5d1011caee7165beb7dd13af",
+      "loops": 19953,
+      "captures": 6
+    },
+    {
+      "replay_sha256": "8c4fb83989b528ea3227f6c97758293d1f650e33caa3d38c6a2a84d27ab0850d",
+      "game_sha256": "541239128ab928fa794b083f997966fb2d56fe8e5972a88a0a9039ad501e4afb",
+      "tracker_sha256": "fa44344a45d5d1b91b1c196810a81b2144d4992bdb12ed5a1854efbee95a01d1",
+      "loops": 15620,
+      "captures": 4
+    }
+  ]
+}

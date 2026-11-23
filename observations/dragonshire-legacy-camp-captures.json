@@ -1,0 +1,158 @@
+{
+  "map_sha256": "e0a58745837b3b5351015c933560dbffb178d747009d2d57b4153ef425cf7250",
+  "predictor": "Only loop-zero map-matched beacon identities and their ownership transitions. Each owner pair (11,11) or (12,12) predicts a capture at the next loop for team 1 or 2, respectively. The rule was selected on TEN_GREYMANE before testing the other three.",
+  "cases": [
+    {
+      "replay_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+      "tracker_sha256": "1a9a556f9f1fde466d17c4a3a3fbb31cbec8d8086bef97efeb796f1f5175245f",
+      "tracker_reencoded_byte_equal": true,
+      "predictions": 13,
+      "observed_stats": 13,
+      "capture_stats": {
+        "matches": 13,
+        "false_positives": 0,
+        "misses": 0
+      },
+      "witnesses": {
+        "flag": {
+          "matches": 13,
+          "false_positives": 0,
+          "misses": 0
+        },
+        "icon": {
+          "matches": 13,
+          "false_positives": 0,
+          "misses": 0
+        },
+        "full_waves": {
+          "matches": 13,
+          "false_positives": 0,
+          "misses": 0
+        }
+      },
+      "other_beacon_owner_transitions": 13,
+      "laners_outside_scope": 0,
+      "partial_or_different_wave_groups": 0,
+      "wave_units": 38,
+      "negative_zero_offset": {
+        "matches": 0,
+        "false_positives": 13,
+        "misses": 13
+      }
+    },
+    {
+      "replay_sha256": "7efa1c335816eebe802747ae4b16252ed22fcd8387b09d24b115b2917542b52a",
+      "tracker_sha256": "efcd51f24f37612199a8ebce2872bdf72144a82a3a8c15552a164deb5e27d139",
+      "tracker_reencoded_byte_equal": true,
+      "predictions": 16,
+      "observed_stats": 16,
+      "capture_stats": {
+        "matches": 16,
+        "false_positives": 0,
+        "misses": 0
+      },
+      "witnesses": {
+        "flag": {
+          "matches": 16,
+          "false_positives": 0,
+          "misses": 0
+        },
+        "icon": {
+          "matches": 16,
+          "false_positives": 0,
+          "misses": 0
+        },
+        "full_waves": {
+          "matches": 16,
+          "false_positives": 0,
+          "misses": 0
+        }
+      },
+      "other_beacon_owner_transitions": 16,
+      "laners_outside_scope": 0,
+      "partial_or_different_wave_groups": 0,
+      "wave_units": 48,
+      "negative_zero_offset": {
+        "matches": 0,
+        "false_positives": 16,
+        "misses": 16
+      }
+    },
+    {
+      "replay_sha256": "2fca3c78d0e459d4452e3fb1f41ff3fce22b9c1f8f113019389195ff171bf618",
+      "tracker_sha256": "8d01d6f734e9fea8d038a94d28f6dd0fdac22f4a5d1011caee7165beb7dd13af",
+      "tracker_reencoded_byte_equal": true,
+      "predictions": 6,
+      "observed_stats": 6,
+      "capture_stats": {
+        "matches": 6,
+        "false_positives": 0,
+        "misses": 0
+      },
+      "witnesses": {
+        "flag": {
+          "matches": 6,
+          "false_positives": 0,
+          "misses": 0
+        },
+        "icon": {
+          "matches": 6,
+          "false_positives": 0,
+          "misses": 0
+        },
+        "full_waves": {
+          "matches": 6,
+          "false_positives": 0,
+          "misses": 0
+        }
+      },
+      "other_beacon_owner_transitions": 6,
+      "laners_outside_scope": 0,
+      "partial_or_different_wave_groups": 0,
+      "wave_units": 18,
+      "negative_zero_offset": {
+        "matches": 0,
+        "false_positives": 6,
+        "misses": 6
+      }
+    },
+    {
+      "replay_sha256": "8c4fb83989b528ea3227f6c97758293d1f650e33caa3d38c6a2a84d27ab0850d",
+      "tracker_sha256": "fa44344a45d5d1b91b1c196810a81b2144d4992bdb12ed5a1854efbee95a01d1",
+      "tracker_reencoded_byte_equal": true,
+      "predictions": 4,
+      "observed_stats": 4,
+      "capture_stats": {
+        "matches": 4,
+        "false_positives": 0,
+        "misses": 0
+      },
+      "witnesses": {
+        "flag": {
+          "matches": 4,
+          "false_positives": 0,
+          "misses": 0
+        },
+        "icon": {
+          "matches": 4,
+          "false_positives": 0,
+          "misses": 0
+        },
+        "full_waves": {
+          "matches": 4,
+          "false_positives": 0,
+          "misses": 0
+        }
+      },
+      "other_beacon_owner_transitions": 4,
+      "laners_outside_scope": 0,
+      "partial_or_different_wave_groups": 0,
+      "wave_units": 8,
+      "negative_zero_offset": {
+        "matches": 0,
+        "false_positives": 4,
+        "misses": 4
+      }
+    }
+  ]
+}
