@@ -1,0 +1,158 @@
+{
+  "format": "98348-galaxy-hero-talent-award-v1",
+  "root": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+  "files": {
+    "game": {
+      "path": "mods/heroesdata.stormmod/base.stormdata/triggerlibs/gamelib.galaxy",
+      "bytes": 1179642,
+      "sha256": "a6384749fbe8f676cbd6ccb9ec1aeac004815d37a8e1c2f8f9f8f176b2bfca09"
+    },
+    "core": {
+      "path": "mods/heroesdata.stormmod/base.stormdata/TriggerLibs/HeroesLib.galaxy",
+      "bytes": 268519,
+      "sha256": "15f0314a1c48a0391e76e22360847e7ef0c91b12a29da15d79453045c175a683"
+    },
+    "header": {
+      "path": "mods/heroesdata.stormmod/base.stormdata/TriggerLibs/HeroesLib_h.galaxy",
+      "bytes": 50094,
+      "sha256": "21d0147e00969baddb9e32e9d6bda3adc3bcb5c28f56fa52b4f4ba98e5cde891"
+    },
+    "anubarak": {
+      "path": "mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/anubarakdata/anubarakdata.xml",
+      "bytes": 234204,
+      "sha256": "6e575d1c7e852274480b88e89e06ce993a9b8dd6f7988ccdc57e173c337eb799"
+    }
+  },
+  "line_bindings": {
+    "limits_in_header": [
+      333,
+      334,
+      337
+    ],
+    "level_setup_in_core": [
+      2008,
+      2013,
+      2020,
+      2022
+    ],
+    "setup_in_game": [
+      10664,
+      10666,
+      11586,
+      11587,
+      11592,
+      11593,
+      11595,
+      11596,
+      11597,
+      11601,
+      11604,
+      11605,
+      11609,
+      11612,
+      11613,
+      11618,
+      11625,
+      11628
+    ],
+    "active_tier_in_game": [
+      11805,
+      11806,
+      11807,
+      11808,
+      11809,
+      11810,
+      11814
+    ],
+    "normal_trigger_in_game": [
+      21266,
+      21269,
+      21270,
+      21273,
+      21279,
+      21280,
+      22538
+    ],
+    "other_direct_caller_in_game": [
+      10485,
+      10488,
+      10493
+    ],
+    "award_in_game": [
+      11845,
+      11846,
+      11847,
+      11851,
+      11853,
+      11854,
+      11855,
+      11857,
+      11858,
+      11859,
+      11860,
+      11861,
+      11862,
+      11863
+    ],
+    "respec_in_game": [
+      11704,
+      11745,
+      11781,
+      11782,
+      11786
+    ],
+    "modifications_in_game": [
+      11655,
+      11658,
+      11662,
+      11666,
+      11671,
+      11677,
+      11680,
+      11682,
+      11684,
+      11685,
+      11686,
+      11692,
+      11698,
+      5852,
+      5858,
+      5859,
+      5866,
+      5872,
+      5873,
+      5874,
+      5875,
+      5878,
+      5901
+    ]
+  },
+  "direct_callers_of_choose_in_gamelib": [
+    10493,
+    21273
+  ],
+  "normal_selection": "On enabled actions the registered HeroTalentTreeSelected trigger passes EventPlayer, their last active tier and the native selected column for that tier. Award uses the cell populated from CHero Tier, Column and Talent in the effective catalog.",
+  "level_scope": "During setup HeroesLib reads per-player PlayerHero TalentTierArray[tier-1].Level. GameLib scans tiers ascending for the first enabled unselected tier meeting that threshold using UnitLevel(heroUnit), then stores the tier. A tracker LevelUp and the panel UnitLevel need not be equal in every state.",
+  "award": "The chooser saves the column. Except for players 6-10 in two named tutorial modes, it adds listed behaviors, sends HeroGainTalent and applies the catalog modifications. It then records TalentChosen, calls PlayerAddTalent with the identical link, marks tier/column selected and refreshes the panel.",
+  "other_routes": "Autobuy directly chooses column 1. Respec removes choices and clears tiers. An initial HeroGainTalent with an empty link is not a purchase.",
+  "anubarak_direct_tree": {
+    "tier1_column1": "AnubarakNerubianArmor",
+    "has_extended_spikes": false,
+    "retained_modifications": 13,
+    "mod_limit": 30,
+    "integer_plus_two_periods": [
+      "AnubarakImpaleCreatePersistent",
+      "AnubarakImpaleModelPersistent"
+    ],
+    "fixed_plus_quarter_damage_fields": [
+      "AttributeFactor[Creep]",
+      "AttributeFactor[Tower]",
+      "AttributeFactor[Minion]",
+      "AttributeFactor[Merc]",
+      "AttributeFactor[Structure]",
+      "AttributeFactor[Heroic]",
+      "AttributeFactor[Summoned]"
+    ]
+  },
+  "boundary": "GameLib references catalog values after merging. Direct Anubarak XML is scoped to one file. Neither effective match overrides nor native index-to-event delivery nor historical effects are established by this check."
+}
