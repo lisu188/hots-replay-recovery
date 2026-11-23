@@ -1,0 +1,106 @@
+{
+  "format": "hots-same-user-same-loop-sequence-brackets-v1",
+  "aggregate": {
+    "41810": {
+      "replay_count": 4,
+      "total": {
+        "updates": 205300,
+        "actual_absent": 143045,
+        "point": 161854,
+        "actual_present": 62255,
+        "unit": 43446
+      },
+      "rules": {
+        "nearest_disagree_left": {
+          "eligible": 34,
+          "wrong_value": 34,
+          "unit": 11,
+          "point": 23
+        },
+        "nearest_disagree_right": {
+          "eligible": 34,
+          "exact": 34,
+          "unit": 11,
+          "point": 23
+        }
+      },
+      "manager_states": {
+        "nearest_disagree_left": {
+          "2.wrong_value": 32,
+          "1.wrong_value": 2
+        },
+        "nearest_disagree_right": {
+          "2.exact": 32,
+          "1.exact": 2
+        }
+      },
+      "first_adjacent_counterexample": null
+    },
+    "98348": {
+      "replay_count": 14,
+      "total": {
+        "updates": 601496,
+        "actual_present": 601496,
+        "point": 599054,
+        "unit": 2442
+      },
+      "rules": {
+        "adjacent_equal": {
+          "eligible": 192,
+          "exact": 177,
+          "point": 190,
+          "wrong_value": 15,
+          "unit": 2
+        },
+        "nearest_equal": {
+          "eligible": 236,
+          "exact": 221,
+          "point": 234,
+          "wrong_value": 15,
+          "unit": 2
+        },
+        "nearest_disagree_left": {
+          "eligible": 20,
+          "wrong_value": 19,
+          "point": 19,
+          "exact": 1,
+          "unit": 1
+        },
+        "nearest_disagree_right": {
+          "eligible": 20,
+          "exact": 19,
+          "point": 19,
+          "wrong_value": 1,
+          "unit": 1
+        }
+      },
+      "manager_states": {
+        "adjacent_equal": {
+          "0.exact": 177,
+          "0.wrong_value": 15
+        },
+        "nearest_equal": {
+          "0.exact": 221,
+          "0.wrong_value": 15
+        },
+        "nearest_disagree_left": {
+          "0.wrong_value": 19,
+          "0.exact": 1
+        },
+        "nearest_disagree_right": {
+          "0.exact": 19,
+          "0.wrong_value": 1
+        }
+      },
+      "first_adjacent_counterexample": {
+        "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+        "loop": 9486,
+        "kind": 104,
+        "prior_issue": 820,
+        "following_manager": 820,
+        "following_state": 0,
+        "observed_update": 822
+      }
+    }
+  }
+}
