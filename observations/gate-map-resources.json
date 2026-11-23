@@ -1,0 +1,29 @@
+{
+  "source_build": 41810,
+  "target_build": 98348,
+  "map_sha256": "bda7aafd1d63c77b3b4d29ff2afee96da09a3104b54b4a1d625bb299607d9008",
+  "resources": 5,
+  "named_standard_dependencies": [
+    "Core",
+    "Teams10",
+    "Heroes",
+    "HeroesData"
+  ],
+  "inherited_details_fields": true,
+  "public_depot_availability_verified": false,
+  "content_sync_checksums_verified": false,
+  "artifacts": {
+    "details": {
+      "bytes": 1174,
+      "sha256": "e5d51b7e4f14560b7721bca7af39d22bb9cdb2790856ae77c91447e0df715fee"
+    },
+    "battlelobby-prefix": {
+      "bytes": 861,
+      "sha256": "82254bcaf916607adaa43423a893623f6b71af75241618c5e98eff5a9960d271"
+    },
+    "standalone-initdata-handles": {
+      "bytes": 201,
+      "sha256": "ae270259496b7252e2f2fd3dd07d961e400b3f80fbf8f7e41eb0694da19348fc"
+    }
+  }
+}

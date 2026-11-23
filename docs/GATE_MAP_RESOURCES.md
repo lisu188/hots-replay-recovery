@@ -1,0 +1,15 @@
+# Resources for TEN's historical Dragon Shire layout
+
+The GateOrder package retains the historical map's `DocumentInfo` and `DocumentHeader` byte for byte. Both declare HeroesData as their single direct dependency. The original replay lists four standard-data markers, then the map. Each local marker file contains its expected name and its entire SHA-256 matches its handle. In recorded order these are Core, Teams10, Heroes and HeroesData. The retail 98348 Dragon Shire package also refers to a separate Dragon Shire mod. That package belongs to the retail layout.
+
+Using the historical dependency declarations and GateOrder's own SHA-256 produces five local resource handles. In TEN's 1,174-byte `replay.details`, the target protocol reproduces the complete source member with only the map digest changed. The 861-byte battlelobby dependency prefix resolves the same files in the original cache root, and the standalone target initData handle array occupies 201 bytes. Other details fields retain their recorded values. Public availability of the modified map and its effective content-sync checksums remain unverified. [Artifact hashes](../observations/gate-map-resources.json)
+
+Run `python gate_map_resources.py ORIGINAL GATEORDER_MAP CACHE_ROOT --private-dir NEW_DIRECTORY`. The output includes original player metadata and belongs in private storage. All 24 held retail maps declare an additional map-specific mod. The five-entry projection is derived from the historical package. The current client's effective resolution of the modified layout remains open.
+
+## Committed-setup CRC inputs
+
+The target setup writer hashes its canonical serialization and advances the CRC over four zero bytes. On all 24 held native 98348 recordings, both independent writers reproduced all 3,090,135 input bytes. The three resource fields agreed between the native layout and named schema. Each recording gave a distinct canonical setup CRC. These comparisons operate on recorded members; the controls contain no direct sample of the live cached CRC. [Control evidence](../observations/setup-resource-controls.json)
+
+Holding the partial R8 setup fixed apart from those resource fields gives a 4,222-byte layout. The map checksum occupies bits 4381–4412 and the mod checksum occupies bits 4528–4559, counting from zero. For every bit of each 32-bit input, the two writers independently reproduced the changed wire byte. The CRC expression has 64 one-bit contributions. It reproduces the ordinary two-writer result for three combined inputs. Its zero-input constant is an algebraic coefficient. The two eventual content checksums and other pending setup migrations must come from separately established evidence. [CRC coefficients and bit ranges](../observations/setup-resource-crc.json)
+
+Run `python setup_resource_crc.py ORIGINAL R8_SELECTION_COPY GATEORDER_MAP CACHE_ROOT` to reproduce the two-field dependence. Run `python verify_setup_resources.py MANIFEST` to repeat the controls using a local JSON object mapping the 24 pinned file hashes to paths.
