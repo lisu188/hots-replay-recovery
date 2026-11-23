@@ -36,7 +36,10 @@ def payload(row):
 
 
 def assemble(source, gate_map, mechanics, curve, selection_controls, prefix64, abathur_control, abathur_xml,
-             original_map, historical_controls, nova_xml=None, soundtrack_evidence=None):
+             original_map, historical_controls, nova_xml=None, soundtrack_evidence=None, signed_announcer_map=None):
+    if signed_announcer_map is not None:
+        from signed_game_input_map import bind, map_proof
+        proof = map_proof(gate_map, signed_announcer_map, mechanics)
     target = target_protocol()
     selections = {}
     sources = {}
@@ -146,13 +149,16 @@ def assemble(source, gate_map, mechanics, curve, selection_controls, prefix64, a
         raise ValueError("Writers disagree or validated opening prefix has changed")
     if any(r.event != expected for r,expected in zip(iter_game_events(result), native_rows, strict=True)):
         raise ValueError("Combined native readback differs")
-    return result, manifest, dict(build=98348, source_events=total.total(), source_game_bytes=len(raw),
+    receipt = dict(build=98348, source_events=total.total(), source_game_bytes=len(raw),
                 last_source_event_loop=source_end, included=represented.total(), omitted=missing.total(),
                 included_by_event_id=dict(sorted(represented.items())), omitted_by_event_id=dict(sorted(missing.items())),
                 provenance_counts=dict(Counter(label for row in manifest for label in row[-1])),
                 overlap_ordinals=sum(len(row[-1])>1 for row in manifest), first_omitted=first_gap,
                 last_included_loop=previous, bytes=len(result), sha256=sha256(result).hexdigest(),
                 full_game_member=False, target_simulation_verified=False)
+    if signed_announcer_map is not None:
+        receipt["signed_announcer_binding"] = bind(proof, result, manifest, receipt)
+    return result, manifest, receipt
 
 
 if __name__=="__main__":
@@ -162,12 +168,13 @@ if __name__=="__main__":
     cli.add_argument("--original-map",required=True,type=Path)
     cli.add_argument("--nova-xml",type=Path,help="Include birth-corroborated point casts using the pinned Nova catalog")
     cli.add_argument("--soundtrack-evidence",type=Path,help="Include conditional intro completions using the verified cross-map receipt")
+    cli.add_argument("--signed-announcer-map",type=Path,help="Bind projected inputs to this actual target package using the positional GateOrder map as a checked witness")
     cli.add_argument("--historical-control",action="append",required=True,type=Path)
     cli.add_argument("--private-dir",type=Path)
     a=cli.parse_args()
     controls=[(path,sha256(path.read_bytes()).hexdigest()) for path in a.historical_control]
     data, ledger, receipt=assemble(a.source,a.gate_map,a.mechanics,a.curve,a.selection_controls,
-                                   a.prefix64,a.abathur_control,a.abathur_xml,a.original_map,controls,a.nova_xml,a.soundtrack_evidence)
+                                   a.prefix64,a.abathur_control,a.abathur_xml,a.original_map,controls,a.nova_xml,a.soundtrack_evidence,a.signed_announcer_map)
     if a.private_dir:
         a.private_dir.mkdir(exist_ok=False)
         (a.private_dir/"game-inputs.private.bin").write_bytes(data)
