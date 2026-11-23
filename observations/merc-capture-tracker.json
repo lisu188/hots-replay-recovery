@@ -1,0 +1,15 @@
+{
+  "source_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+  "target_map_sha256": "54e1a8fbe7e42f00b7b52cde420ed259105228fcdf165097ef52ecd0f5c4125a",
+  "capture_statistics": 13,
+  "beacon_team": 13,
+  "beacon_neutral": 13,
+  "historical_flag_team": 13,
+  "dynamic_icons": 0,
+  "joined_source_ordinals": 39,
+  "physical_source_bytes": 809,
+  "ordinal_list_sha256": "dd2721ee1b71f38f9522a40c9419ab9993ea6a1920137a26828ab1d7288ae821",
+  "sparse_bytes": 821,
+  "sparse_sha256": "69ec74f5db5fa04f0669f0d1e38c97e08d61c83f2ac81ec02d375e83906dd9c2",
+  "native_execution_verified": false
+}
