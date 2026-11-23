@@ -1,0 +1,1806 @@
+{
+  "source": {
+    "build": 41810,
+    "replay_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+    "rules": {
+      "first_later": {
+        "absent": 674
+      },
+      "first_later_closed": {
+        "absent": 70
+      },
+      "first_later_no_manager_closed": {
+        "absent": 7
+      },
+      "chain": {
+        "absent": 1607
+      },
+      "chain_firstsame": {
+        "absent": 364
+      },
+      "chain_closed": {
+        "absent": 493
+      },
+      "manager0": {
+        "absent": 1153
+      },
+      "manager0_closed": {
+        "absent": 99
+      },
+      "manager0_after_updates_closed": {
+        "absent": 86
+      },
+      "manager0_firstsame_latest_same": {
+        "absent": 133
+      },
+      "manager0_firstsame_latest_same_closed": {
+        "absent": 11
+      },
+      "manager0_next_consecutive": {
+        "absent": 99
+      },
+      "first_later_reverse_consecutive": {
+        "absent": 70
+      },
+      "chain_reverse_consecutive": {
+        "absent": 493
+      },
+      "single_recorded_issue_point": {
+        "absent": 20,
+        "different": 2
+      },
+      "single_recorded_issue_manager0": {
+        "absent": 22
+      }
+    },
+    "emitted": 382,
+    "by_kind": {
+      "104": 371,
+      "103": 11
+    },
+    "sparse_bytes": 6108,
+    "sparse_sha256": "ce52fff7532982463b4211617a7c4fb7a1fbea7081a58b298fa8684af1ab9431",
+    "enclosing_bytes": 4485,
+    "enclosing_sha256": "583fea3b98d031ffdda062d5514a7373680b60e87e33906c8b209585c37d97e8"
+  },
+  "selected": [
+    "first_later_no_manager_closed",
+    "chain_firstsame",
+    "manager0_firstsame_latest_same_closed"
+  ],
+  "target_build": 98348,
+  "target_simulation_verified": false,
+  "validation": {
+    "discovery": {
+      "first_later": {
+        "match": 103962,
+        "different": 1
+      },
+      "first_later_closed": {
+        "match": 100408
+      },
+      "first_later_no_manager_closed": {
+        "match": 2212
+      },
+      "chain": {
+        "match": 144074
+      },
+      "chain_firstsame": {
+        "match": 5530
+      },
+      "chain_closed": {
+        "match": 134097
+      },
+      "manager0": {
+        "match": 153747,
+        "different": 685
+      },
+      "manager0_closed": {
+        "match": 148689,
+        "different": 49
+      },
+      "manager0_after_updates_closed": {
+        "match": 102013,
+        "different": 2
+      },
+      "manager0_firstsame_latest_same": {
+        "match": 758
+      },
+      "manager0_firstsame_latest_same_closed": {
+        "match": 730
+      },
+      "manager0_next_consecutive": {
+        "match": 148689,
+        "different": 49
+      },
+      "first_later_reverse_consecutive": {
+        "match": 100527,
+        "different": 1
+      },
+      "chain_reverse_consecutive": {
+        "match": 134164
+      },
+      "single_recorded_issue_point": {
+        "match": 9230
+      },
+      "single_recorded_issue_manager0": {
+        "match": 3057
+      }
+    },
+    "heldout": {
+      "first_later": {
+        "match": 238118,
+        "different": 4
+      },
+      "first_later_closed": {
+        "match": 230402,
+        "different": 1
+      },
+      "first_later_no_manager_closed": {
+        "match": 4857
+      },
+      "chain": {
+        "match": 421946,
+        "different": 1
+      },
+      "chain_firstsame": {
+        "match": 15372
+      },
+      "chain_closed": {
+        "match": 401163,
+        "different": 1
+      },
+      "manager0": {
+        "match": 343994,
+        "different": 1528
+      },
+      "manager0_closed": {
+        "match": 332805,
+        "different": 138
+      },
+      "manager0_after_updates_closed": {
+        "match": 233903,
+        "different": 10
+      },
+      "manager0_firstsame_latest_same": {
+        "match": 1593,
+        "different": 3
+      },
+      "manager0_firstsame_latest_same_closed": {
+        "match": 1535
+      },
+      "manager0_next_consecutive": {
+        "match": 332805,
+        "different": 138
+      },
+      "first_later_reverse_consecutive": {
+        "match": 230612,
+        "different": 4
+      },
+      "chain_reverse_consecutive": {
+        "match": 401438,
+        "different": 1
+      },
+      "single_recorded_issue_point": {
+        "match": 22992
+      },
+      "single_recorded_issue_manager0": {
+        "match": 6810
+      }
+    }
+  },
+  "controls": [
+    {
+      "build": 98348,
+      "replay_sha256": "1230eee79fd3b50a3ee471c587bc77dd14aef67d57bf22cd8df52e877329323a",
+      "rules": {
+        "first_later": {
+          "match": 10604
+        },
+        "first_later_closed": {
+          "match": 10364
+        },
+        "first_later_no_manager_closed": {
+          "match": 201
+        },
+        "chain": {
+          "match": 20498
+        },
+        "chain_firstsame": {
+          "match": 704
+        },
+        "chain_closed": {
+          "match": 19052
+        },
+        "manager0": {
+          "match": 15765,
+          "different": 46
+        },
+        "manager0_closed": {
+          "match": 15398,
+          "different": 3
+        },
+        "manager0_after_updates_closed": {
+          "match": 10625
+        },
+        "manager0_firstsame_latest_same": {
+          "match": 116
+        },
+        "manager0_firstsame_latest_same_closed": {
+          "match": 113
+        },
+        "manager0_next_consecutive": {
+          "match": 15398,
+          "different": 3
+        },
+        "first_later_reverse_consecutive": {
+          "match": 10367
+        },
+        "chain_reverse_consecutive": {
+          "match": 19068
+        },
+        "single_recorded_issue_point": {
+          "match": 1928
+        },
+        "single_recorded_issue_manager0": {
+          "match": 727
+        }
+      },
+      "emitted": 1018,
+      "by_kind": {
+        "104": 905,
+        "103": 113
+      },
+      "sparse_bytes": 15326,
+      "sparse_sha256": "1931a1d493128ca06ddb7b2ab41f5e0adddc9428ed9812bb21820e43f2ac7f61",
+      "enclosing_bytes": 15271,
+      "enclosing_sha256": "9956a7d7c56a08405d6bb838d4c32a71f573682275c92c998f27027477a0ed36"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "4732077e899f6894c29586795a01e2a27fba622dbf22b5d29c7b30d57e3ce4fc",
+      "rules": {
+        "first_later": {
+          "match": 9386,
+          "different": 1
+        },
+        "first_later_closed": {
+          "match": 8668
+        },
+        "first_later_no_manager_closed": {
+          "match": 331
+        },
+        "chain": {
+          "match": 15085
+        },
+        "chain_firstsame": {
+          "match": 863
+        },
+        "chain_closed": {
+          "match": 12638
+        },
+        "manager0": {
+          "match": 16619,
+          "different": 142
+        },
+        "manager0_closed": {
+          "match": 15379,
+          "different": 10
+        },
+        "manager0_after_updates_closed": {
+          "match": 8916
+        },
+        "manager0_firstsame_latest_same": {
+          "match": 75
+        },
+        "manager0_firstsame_latest_same_closed": {
+          "match": 64
+        },
+        "manager0_next_consecutive": {
+          "match": 15379,
+          "different": 10
+        },
+        "first_later_reverse_consecutive": {
+          "match": 8676,
+          "different": 1
+        },
+        "chain_reverse_consecutive": {
+          "match": 12639
+        },
+        "single_recorded_issue_point": {
+          "match": 589
+        },
+        "single_recorded_issue_manager0": {
+          "match": 257
+        }
+      },
+      "emitted": 1258,
+      "by_kind": {
+        "104": 1194,
+        "103": 64
+      },
+      "sparse_bytes": 19607,
+      "sparse_sha256": "e952b60b26c9ed7850fb1d7d015ad9fdc3a6da0516d5e5e41ec226190d2603e2",
+      "enclosing_bytes": 19552,
+      "enclosing_sha256": "9220b650037de4f5083f94d468461cd254baa21d4f642f94bfa2fd132bcd378d"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+      "rules": {
+        "first_later": {
+          "match": 14023
+        },
+        "first_later_closed": {
+          "match": 13552
+        },
+        "first_later_no_manager_closed": {
+          "match": 290
+        },
+        "chain": {
+          "match": 19046
+        },
+        "chain_firstsame": {
+          "match": 480
+        },
+        "chain_closed": {
+          "match": 17395
+        },
+        "manager0": {
+          "match": 19590,
+          "different": 87
+        },
+        "manager0_closed": {
+          "match": 18967,
+          "different": 9
+        },
+        "manager0_after_updates_closed": {
+          "match": 13654
+        },
+        "manager0_firstsame_latest_same": {
+          "match": 50
+        },
+        "manager0_firstsame_latest_same_closed": {
+          "match": 49
+        },
+        "manager0_next_consecutive": {
+          "match": 18967,
+          "different": 9
+        },
+        "first_later_reverse_consecutive": {
+          "match": 13573
+        },
+        "chain_reverse_consecutive": {
+          "match": 17403
+        },
+        "single_recorded_issue_point": {
+          "match": 1110
+        },
+        "single_recorded_issue_manager0": {
+          "match": 335
+        }
+      },
+      "emitted": 819,
+      "by_kind": {
+        "104": 770,
+        "103": 49
+      },
+      "sparse_bytes": 12775,
+      "sparse_sha256": "66ddacddfb62a239cb272f2c6c29abc93a165c14eab18d8fffb85b37ca16560e",
+      "enclosing_bytes": 12663,
+      "enclosing_sha256": "0840f4d06f2824d2e25d5e5e616a45c78bc71043376cfffba6ec69aeb2d02f5b"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+      "rules": {
+        "first_later": {
+          "match": 16613
+        },
+        "first_later_closed": {
+          "match": 16263
+        },
+        "first_later_no_manager_closed": {
+          "match": 457
+        },
+        "chain": {
+          "match": 18696
+        },
+        "chain_firstsame": {
+          "match": 633
+        },
+        "chain_closed": {
+          "match": 18286
+        },
+        "manager0": {
+          "match": 26640,
+          "different": 86
+        },
+        "manager0_closed": {
+          "match": 26113,
+          "different": 7
+        },
+        "manager0_after_updates_closed": {
+          "match": 16425
+        },
+        "manager0_firstsame_latest_same": {
+          "match": 181
+        },
+        "manager0_firstsame_latest_same_closed": {
+          "match": 179
+        },
+        "manager0_next_consecutive": {
+          "match": 26113,
+          "different": 7
+        },
+        "first_later_reverse_consecutive": {
+          "match": 16282
+        },
+        "chain_reverse_consecutive": {
+          "match": 18286
+        },
+        "single_recorded_issue_point": {
+          "match": 788
+        },
+        "single_recorded_issue_manager0": {
+          "match": 411
+        }
+      },
+      "emitted": 1269,
+      "by_kind": {
+        "104": 1090,
+        "103": 179
+      },
+      "sparse_bytes": 18755,
+      "sparse_sha256": "75bee38065fb7e70145aaa087d32569dde8d764079911d41b9838b7f40cbc8f6",
+      "enclosing_bytes": 18693,
+      "enclosing_sha256": "2169bb202c8a91c342d130026b1267844ccfde83f8f23c009428e436a5e29494"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+      "rules": {
+        "first_later": {
+          "match": 13288
+        },
+        "first_later_closed": {
+          "match": 12910
+        },
+        "first_later_no_manager_closed": {
+          "match": 249
+        },
+        "chain": {
+          "match": 16488
+        },
+        "chain_firstsame": {
+          "match": 712
+        },
+        "chain_closed": {
+          "match": 15975
+        },
+        "manager0": {
+          "match": 19560,
+          "different": 82
+        },
+        "manager0_closed": {
+          "match": 19032,
+          "different": 2
+        },
+        "manager0_after_updates_closed": {
+          "match": 13181
+        },
+        "manager0_firstsame_latest_same": {
+          "match": 81
+        },
+        "manager0_firstsame_latest_same_closed": {
+          "match": 79
+        },
+        "manager0_next_consecutive": {
+          "match": 19032,
+          "different": 2
+        },
+        "first_later_reverse_consecutive": {
+          "match": 12922
+        },
+        "chain_reverse_consecutive": {
+          "match": 15983
+        },
+        "single_recorded_issue_point": {
+          "match": 825
+        },
+        "single_recorded_issue_manager0": {
+          "match": 406
+        }
+      },
+      "emitted": 1040,
+      "by_kind": {
+        "104": 961,
+        "103": 79
+      },
+      "sparse_bytes": 16003,
+      "sparse_sha256": "466a4fef68d7073a973f1107b4b99c8612219c6aba5b4308c9dfb5f960edc1b4",
+      "enclosing_bytes": 15929,
+      "enclosing_sha256": "effd986d6e5a62993e32648675ef7d3dfdfe4e92617d0ecb8289b5eb56869419"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "715e309bba5d3151d3e1b47461041627db7644d91a8b549c309950e44d6067e8",
+      "rules": {
+        "first_later": {
+          "match": 15290
+        },
+        "first_later_closed": {
+          "match": 14894
+        },
+        "first_later_no_manager_closed": {
+          "match": 269
+        },
+        "chain": {
+          "match": 18384
+        },
+        "chain_firstsame": {
+          "match": 744
+        },
+        "chain_closed": {
+          "match": 17162
+        },
+        "manager0": {
+          "match": 24019,
+          "different": 89
+        },
+        "manager0_closed": {
+          "match": 23488,
+          "different": 10
+        },
+        "manager0_after_updates_closed": {
+          "match": 15347,
+          "different": 1
+        },
+        "manager0_firstsame_latest_same": {
+          "match": 115
+        },
+        "manager0_firstsame_latest_same_closed": {
+          "match": 113
+        },
+        "manager0_next_consecutive": {
+          "match": 23488,
+          "different": 10
+        },
+        "first_later_reverse_consecutive": {
+          "match": 14899
+        },
+        "chain_reverse_consecutive": {
+          "match": 17162
+        },
+        "single_recorded_issue_point": {
+          "match": 861
+        },
+        "single_recorded_issue_manager0": {
+          "match": 309
+        }
+      },
+      "emitted": 1126,
+      "by_kind": {
+        "104": 1013,
+        "103": 113
+      },
+      "sparse_bytes": 17072,
+      "sparse_sha256": "09862fe7ed0eaceb1253d0cc72e899b8009ba1d1d717bc8ea5c766ed815b32fb",
+      "enclosing_bytes": 16999,
+      "enclosing_sha256": "46c58a96986f0d3bf06b49d089b266905f377909fd597b428f2a49809183a91b"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+      "rules": {
+        "first_later": {
+          "match": 12480
+        },
+        "first_later_closed": {
+          "match": 12126
+        },
+        "first_later_no_manager_closed": {
+          "match": 182
+        },
+        "chain": {
+          "match": 18114
+        },
+        "chain_firstsame": {
+          "match": 452
+        },
+        "chain_closed": {
+          "match": 17021
+        },
+        "manager0": {
+          "match": 16341,
+          "different": 33
+        },
+        "manager0_closed": {
+          "match": 15871,
+          "different": 5
+        },
+        "manager0_after_updates_closed": {
+          "match": 12139
+        },
+        "manager0_firstsame_latest_same": {
+          "match": 51
+        },
+        "manager0_firstsame_latest_same_closed": {
+          "match": 51
+        },
+        "manager0_next_consecutive": {
+          "match": 15871,
+          "different": 5
+        },
+        "first_later_reverse_consecutive": {
+          "match": 12127
+        },
+        "chain_reverse_consecutive": {
+          "match": 17021
+        },
+        "single_recorded_issue_point": {
+          "match": 803
+        },
+        "single_recorded_issue_manager0": {
+          "match": 331
+        }
+      },
+      "emitted": 685,
+      "by_kind": {
+        "104": 634,
+        "103": 51
+      },
+      "sparse_bytes": 10592,
+      "sparse_sha256": "17a8483efcdb484d3f4d542ede6bf4762c78629f18ce7225338b98be1ffb45e3",
+      "enclosing_bytes": 10501,
+      "enclosing_sha256": "237cdfa807a7c9ef1786b0f5af4237e97a48a793d61106d7372eb8291789a5ca"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+      "rules": {
+        "first_later": {
+          "match": 12278
+        },
+        "first_later_closed": {
+          "match": 11631
+        },
+        "first_later_no_manager_closed": {
+          "match": 233
+        },
+        "chain": {
+          "match": 17763
+        },
+        "chain_firstsame": {
+          "match": 942
+        },
+        "chain_closed": {
+          "match": 16568
+        },
+        "manager0": {
+          "match": 15213,
+          "different": 120
+        },
+        "manager0_closed": {
+          "match": 14441,
+          "different": 3
+        },
+        "manager0_after_updates_closed": {
+          "match": 11726,
+          "different": 1
+        },
+        "manager0_firstsame_latest_same": {
+          "match": 89
+        },
+        "manager0_firstsame_latest_same_closed": {
+          "match": 82
+        },
+        "manager0_next_consecutive": {
+          "match": 14441,
+          "different": 3
+        },
+        "first_later_reverse_consecutive": {
+          "match": 11681
+        },
+        "chain_reverse_consecutive": {
+          "match": 16602
+        },
+        "single_recorded_issue_point": {
+          "match": 2326
+        },
+        "single_recorded_issue_manager0": {
+          "match": 281
+        }
+      },
+      "emitted": 1257,
+      "by_kind": {
+        "104": 1175,
+        "103": 82
+      },
+      "sparse_bytes": 19444,
+      "sparse_sha256": "8368dc97b32cf31cd07328a39e167b2f07d52492ba9c791977d6f078d68eaa80",
+      "enclosing_bytes": 19374,
+      "enclosing_sha256": "3c0149e24865455ec18b5ae78b78a557a3465f5aceb77a1fd64d8ceb21876f8f"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+      "rules": {
+        "first_later": {
+          "match": 12788
+        },
+        "first_later_closed": {
+          "match": 12173
+        },
+        "first_later_no_manager_closed": {
+          "match": 308
+        },
+        "chain": {
+          "match": 29244
+        },
+        "chain_firstsame": {
+          "match": 764
+        },
+        "chain_closed": {
+          "match": 28154
+        },
+        "manager0": {
+          "match": 16369,
+          "different": 41
+        },
+        "manager0_closed": {
+          "match": 15507,
+          "different": 4
+        },
+        "manager0_after_updates_closed": {
+          "match": 12105
+        },
+        "manager0_firstsame_latest_same": {
+          "match": 50
+        },
+        "manager0_firstsame_latest_same_closed": {
+          "match": 47
+        },
+        "manager0_next_consecutive": {
+          "match": 15507,
+          "different": 4
+        },
+        "first_later_reverse_consecutive": {
+          "match": 12176
+        },
+        "chain_reverse_consecutive": {
+          "match": 28155
+        },
+        "single_recorded_issue_point": {
+          "match": 1005
+        },
+        "single_recorded_issue_manager0": {
+          "match": 376
+        }
+      },
+      "emitted": 1119,
+      "by_kind": {
+        "104": 1072,
+        "103": 47
+      },
+      "sparse_bytes": 17583,
+      "sparse_sha256": "cf39e56e68b2da1da153078864f578220ac698b602debf6c602519d0d4f0f9bc",
+      "enclosing_bytes": 17481,
+      "enclosing_sha256": "34892806f68c7dea25b5d624f1ce84d0b735a5f4e65a3a8f8e60f501e213cec6"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+      "rules": {
+        "first_later": {
+          "match": 10888
+        },
+        "first_later_closed": {
+          "match": 10588
+        },
+        "first_later_no_manager_closed": {
+          "match": 265
+        },
+        "chain": {
+          "match": 17619
+        },
+        "chain_firstsame": {
+          "match": 722
+        },
+        "chain_closed": {
+          "match": 17208
+        },
+        "manager0": {
+          "match": 13349,
+          "different": 80
+        },
+        "manager0_closed": {
+          "match": 12965,
+          "different": 5
+        },
+        "manager0_after_updates_closed": {
+          "match": 10715
+        },
+        "manager0_firstsame_latest_same": {
+          "match": 90
+        },
+        "manager0_firstsame_latest_same_closed": {
+          "match": 90
+        },
+        "manager0_next_consecutive": {
+          "match": 12965,
+          "different": 5
+        },
+        "first_later_reverse_consecutive": {
+          "match": 10612
+        },
+        "chain_reverse_consecutive": {
+          "match": 17219
+        },
+        "single_recorded_issue_point": {
+          "match": 1908
+        },
+        "single_recorded_issue_manager0": {
+          "match": 372
+        }
+      },
+      "emitted": 1077,
+      "by_kind": {
+        "104": 987,
+        "103": 90
+      },
+      "sparse_bytes": 16473,
+      "sparse_sha256": "81ffa92cc4ef0a42a30d43356981fa2f052d3ac3407918c4f3b2094ec18cf06f",
+      "enclosing_bytes": 16422,
+      "enclosing_sha256": "a5e8b0f8db1e9cd088739d6f0459e356346e767519b20a366927d052d82cdedf"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+      "rules": {
+        "first_later": {
+          "match": 17320
+        },
+        "first_later_closed": {
+          "match": 16901
+        },
+        "first_later_no_manager_closed": {
+          "match": 379
+        },
+        "chain": {
+          "match": 22054
+        },
+        "chain_firstsame": {
+          "match": 879
+        },
+        "chain_closed": {
+          "match": 21546
+        },
+        "manager0": {
+          "match": 27242,
+          "different": 170
+        },
+        "manager0_closed": {
+          "match": 26649,
+          "different": 20
+        },
+        "manager0_after_updates_closed": {
+          "match": 17405,
+          "different": 3
+        },
+        "manager0_firstsame_latest_same": {
+          "match": 119
+        },
+        "manager0_firstsame_latest_same_closed": {
+          "match": 118
+        },
+        "manager0_next_consecutive": {
+          "match": 26649,
+          "different": 20
+        },
+        "first_later_reverse_consecutive": {
+          "match": 16924
+        },
+        "chain_reverse_consecutive": {
+          "match": 21546
+        },
+        "single_recorded_issue_point": {
+          "match": 1908
+        },
+        "single_recorded_issue_manager0": {
+          "match": 535
+        }
+      },
+      "emitted": 1376,
+      "by_kind": {
+        "104": 1258,
+        "103": 118
+      },
+      "sparse_bytes": 21012,
+      "sparse_sha256": "d810284b1aba6a9cec7f7cf995051284c45b1e9dda0ac7dc2a751a6da8d56627",
+      "enclosing_bytes": 20954,
+      "enclosing_sha256": "b9b242a2bbb3d6a6c877cbeffc6da026a42a850fed3612b7c22620382aba17b5"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "9872b043e48093abc65e11b7b6d091861e83fc4d202b40b745824da647cb6ef3",
+      "rules": {
+        "first_later": {
+          "match": 18687
+        },
+        "first_later_closed": {
+          "match": 18298
+        },
+        "first_later_no_manager_closed": {
+          "match": 222
+        },
+        "chain": {
+          "match": 33576
+        },
+        "chain_firstsame": {
+          "match": 1313
+        },
+        "chain_closed": {
+          "match": 32802
+        },
+        "manager0": {
+          "match": 23313,
+          "different": 64
+        },
+        "manager0_closed": {
+          "match": 22784,
+          "different": 8
+        },
+        "manager0_after_updates_closed": {
+          "match": 18763,
+          "different": 1
+        },
+        "manager0_firstsame_latest_same": {
+          "match": 157
+        },
+        "manager0_firstsame_latest_same_closed": {
+          "match": 154
+        },
+        "manager0_next_consecutive": {
+          "match": 22784,
+          "different": 8
+        },
+        "first_later_reverse_consecutive": {
+          "match": 18311
+        },
+        "chain_reverse_consecutive": {
+          "match": 32807
+        },
+        "single_recorded_issue_point": {
+          "match": 1228
+        },
+        "single_recorded_issue_manager0": {
+          "match": 342
+        }
+      },
+      "emitted": 1689,
+      "by_kind": {
+        "104": 1535,
+        "103": 154
+      },
+      "sparse_bytes": 25708,
+      "sparse_sha256": "59892cf6c1df8d0e7c8c20dc1ea4aa1c377225248fe41184858d6a2e8ab3fc2a",
+      "enclosing_bytes": 25638,
+      "enclosing_sha256": "1a69d680cc55435d034ceaaf871457bd3f20c749f9dd4b77c02d3e2f4d34e3db"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "98ac891fa4fb8e1698e5fc35609fcf75abfe7e89aee9c7f05afff93b10338ab3",
+      "rules": {
+        "first_later": {
+          "match": 11984
+        },
+        "first_later_closed": {
+          "match": 11688
+        },
+        "first_later_no_manager_closed": {
+          "match": 313
+        },
+        "chain": {
+          "match": 17809
+        },
+        "chain_firstsame": {
+          "match": 992
+        },
+        "chain_closed": {
+          "match": 17340
+        },
+        "manager0": {
+          "match": 16325,
+          "different": 69
+        },
+        "manager0_closed": {
+          "match": 15905,
+          "different": 9
+        },
+        "manager0_after_updates_closed": {
+          "match": 11954,
+          "different": 1
+        },
+        "manager0_firstsame_latest_same": {
+          "match": 94,
+          "different": 1
+        },
+        "manager0_firstsame_latest_same_closed": {
+          "match": 89
+        },
+        "manager0_next_consecutive": {
+          "match": 15905,
+          "different": 9
+        },
+        "first_later_reverse_consecutive": {
+          "match": 11696
+        },
+        "chain_reverse_consecutive": {
+          "match": 17344
+        },
+        "single_recorded_issue_point": {
+          "match": 1585
+        },
+        "single_recorded_issue_manager0": {
+          "match": 461
+        }
+      },
+      "emitted": 1394,
+      "by_kind": {
+        "104": 1305,
+        "103": 89
+      },
+      "sparse_bytes": 21546,
+      "sparse_sha256": "0e965f14dd6b0d9db3c74c87845e4c28f6deecdd75c51aacf025e3f4dfb2d942",
+      "enclosing_bytes": 21503,
+      "enclosing_sha256": "fef56964309b3a7d6f9f09aacc628e4cc9939c774cdbd3bc021c1c2eda3b2754"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4",
+      "rules": {
+        "first_later": {
+          "match": 12950
+        },
+        "first_later_closed": {
+          "match": 12600
+        },
+        "first_later_no_manager_closed": {
+          "match": 332
+        },
+        "chain": {
+          "match": 34886
+        },
+        "chain_firstsame": {
+          "match": 990
+        },
+        "chain_closed": {
+          "match": 32553
+        },
+        "manager0": {
+          "match": 19224,
+          "different": 52
+        },
+        "manager0_closed": {
+          "match": 18667,
+          "different": 7
+        },
+        "manager0_after_updates_closed": {
+          "match": 12684,
+          "different": 1
+        },
+        "manager0_firstsame_latest_same": {
+          "match": 74
+        },
+        "manager0_firstsame_latest_same_closed": {
+          "match": 73
+        },
+        "manager0_next_consecutive": {
+          "match": 18667,
+          "different": 7
+        },
+        "first_later_reverse_consecutive": {
+          "match": 12606
+        },
+        "chain_reverse_consecutive": {
+          "match": 32554
+        },
+        "single_recorded_issue_point": {
+          "match": 1189
+        },
+        "single_recorded_issue_manager0": {
+          "match": 275
+        }
+      },
+      "emitted": 1395,
+      "by_kind": {
+        "104": 1322,
+        "103": 73
+      },
+      "sparse_bytes": 21740,
+      "sparse_sha256": "50994308c8bc6231bd3c966a858c3c6a9b1b37a0e56014e617b3a14d20266378",
+      "enclosing_bytes": 21663,
+      "enclosing_sha256": "8cad592854d30f9c448b2383be1c54a3d35ae9a7bcb3356b2739ce73842ad7a7"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "a956b186a0459a47d9b0fdd8af4ccb65c437f11926186471c434e543e218b2d7",
+      "rules": {
+        "first_later": {
+          "match": 9169,
+          "different": 1
+        },
+        "first_later_closed": {
+          "match": 8863,
+          "different": 1
+        },
+        "first_later_no_manager_closed": {
+          "match": 99
+        },
+        "chain": {
+          "match": 10843,
+          "different": 1
+        },
+        "chain_firstsame": {
+          "match": 559
+        },
+        "chain_closed": {
+          "match": 10138,
+          "different": 1
+        },
+        "manager0": {
+          "match": 12160,
+          "different": 99
+        },
+        "manager0_closed": {
+          "match": 11753,
+          "different": 4
+        },
+        "manager0_after_updates_closed": {
+          "match": 8895,
+          "different": 2
+        },
+        "manager0_firstsame_latest_same": {
+          "match": 25
+        },
+        "manager0_firstsame_latest_same_closed": {
+          "match": 23
+        },
+        "manager0_next_consecutive": {
+          "match": 11753,
+          "different": 4
+        },
+        "first_later_reverse_consecutive": {
+          "match": 8890,
+          "different": 1
+        },
+        "chain_reverse_consecutive": {
+          "match": 10365,
+          "different": 1
+        },
+        "single_recorded_issue_point": {
+          "match": 1188
+        },
+        "single_recorded_issue_manager0": {
+          "match": 357
+        }
+      },
+      "emitted": 681,
+      "by_kind": {
+        "104": 658,
+        "103": 23
+      },
+      "sparse_bytes": 10760,
+      "sparse_sha256": "ce9c11ff0083469a0cbea0198eb148d066f3bb4e18dbfa2242360d737cf7222b",
+      "enclosing_bytes": 10689,
+      "enclosing_sha256": "f57bb81c8922d112dd8d1d53a487abfc7c7fa9160937a6216167eb3da8052340"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "afcf49a656068f343173fc79afff2d2ebf15066f531cb192382cdba9d1ea3272",
+      "rules": {
+        "first_later": {
+          "match": 16686
+        },
+        "first_later_closed": {
+          "match": 16178
+        },
+        "first_later_no_manager_closed": {
+          "match": 218
+        },
+        "chain": {
+          "match": 32340
+        },
+        "chain_firstsame": {
+          "match": 716
+        },
+        "chain_closed": {
+          "match": 31532
+        },
+        "manager0": {
+          "match": 23409,
+          "different": 74
+        },
+        "manager0_closed": {
+          "match": 22624,
+          "different": 1
+        },
+        "manager0_after_updates_closed": {
+          "match": 16226
+        },
+        "manager0_firstsame_latest_same": {
+          "match": 58
+        },
+        "manager0_firstsame_latest_same_closed": {
+          "match": 55
+        },
+        "manager0_next_consecutive": {
+          "match": 22624,
+          "different": 1
+        },
+        "first_later_reverse_consecutive": {
+          "match": 16195
+        },
+        "chain_reverse_consecutive": {
+          "match": 31546
+        },
+        "single_recorded_issue_point": {
+          "match": 1860
+        },
+        "single_recorded_issue_manager0": {
+          "match": 395
+        }
+      },
+      "emitted": 989,
+      "by_kind": {
+        "104": 934,
+        "103": 55
+      },
+      "sparse_bytes": 15460,
+      "sparse_sha256": "fafdb0c8308a82ec2b10ec93769eb16f999eee64f9ba94995381941441a26ea8",
+      "enclosing_bytes": 15329,
+      "enclosing_sha256": "971d8016212ee842226191d2334720636866d9f45f809536152e57315492d90e"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+      "rules": {
+        "first_later": {
+          "match": 13970
+        },
+        "first_later_closed": {
+          "match": 13520
+        },
+        "first_later_no_manager_closed": {
+          "match": 399
+        },
+        "chain": {
+          "match": 32365
+        },
+        "chain_firstsame": {
+          "match": 1367
+        },
+        "chain_closed": {
+          "match": 30249
+        },
+        "manager0": {
+          "match": 21309,
+          "different": 65
+        },
+        "manager0_closed": {
+          "match": 20627,
+          "different": 8
+        },
+        "manager0_after_updates_closed": {
+          "match": 13819,
+          "different": 1
+        },
+        "manager0_firstsame_latest_same": {
+          "match": 110
+        },
+        "manager0_firstsame_latest_same_closed": {
+          "match": 109
+        },
+        "manager0_next_consecutive": {
+          "match": 20627,
+          "different": 8
+        },
+        "first_later_reverse_consecutive": {
+          "match": 13527
+        },
+        "chain_reverse_consecutive": {
+          "match": 30249
+        },
+        "single_recorded_issue_point": {
+          "match": 2116
+        },
+        "single_recorded_issue_manager0": {
+          "match": 533
+        }
+      },
+      "emitted": 1875,
+      "by_kind": {
+        "104": 1766,
+        "103": 109
+      },
+      "sparse_bytes": 29077,
+      "sparse_sha256": "0f0e5d6e80efbd63651bb29b0d17d9385b3fa7c1b3c4d78195e5cb2cc1e266c7",
+      "enclosing_bytes": 29019,
+      "enclosing_sha256": "982a1c0ff47ddb103e1e84a9f32361aa586e18fc81b92a90c0df21015c442062"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "bc16af7f68496cddc4698f70b3853402a0f30aa37951aec3a6b555ed703879e8",
+      "rules": {
+        "first_later": {
+          "match": 18782
+        },
+        "first_later_closed": {
+          "match": 17922
+        },
+        "first_later_no_manager_closed": {
+          "match": 449
+        },
+        "chain": {
+          "match": 32688
+        },
+        "chain_firstsame": {
+          "match": 623
+        },
+        "chain_closed": {
+          "match": 29843
+        },
+        "manager0": {
+          "match": 23799,
+          "different": 98
+        },
+        "manager0_closed": {
+          "match": 22588,
+          "different": 15
+        },
+        "manager0_after_updates_closed": {
+          "match": 17813
+        },
+        "manager0_firstsame_latest_same": {
+          "match": 69
+        },
+        "manager0_firstsame_latest_same_closed": {
+          "match": 69
+        },
+        "manager0_next_consecutive": {
+          "match": 22588,
+          "different": 15
+        },
+        "first_later_reverse_consecutive": {
+          "match": 17938
+        },
+        "chain_reverse_consecutive": {
+          "match": 29846
+        },
+        "single_recorded_issue_point": {
+          "match": 1080
+        },
+        "single_recorded_issue_manager0": {
+          "match": 403
+        }
+      },
+      "emitted": 1141,
+      "by_kind": {
+        "104": 1072,
+        "103": 69
+      },
+      "sparse_bytes": 17761,
+      "sparse_sha256": "6b7f7739385b5cecd13ae255fc83e510860e68031d8067ed1c50349b203b3005",
+      "enclosing_bytes": 17635,
+      "enclosing_sha256": "905bfedb304f739f3e25f28b6e78b0360e06c37c7e5272f23629c730ec467d77"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77",
+      "rules": {
+        "first_later": {
+          "match": 15656
+        },
+        "first_later_closed": {
+          "match": 15001
+        },
+        "first_later_no_manager_closed": {
+          "match": 294
+        },
+        "chain": {
+          "match": 18630
+        },
+        "chain_firstsame": {
+          "match": 701
+        },
+        "chain_closed": {
+          "match": 17009
+        },
+        "manager0": {
+          "match": 22276,
+          "different": 94
+        },
+        "manager0_closed": {
+          "match": 21395,
+          "different": 6
+        },
+        "manager0_after_updates_closed": {
+          "match": 15404
+        },
+        "manager0_firstsame_latest_same": {
+          "match": 164
+        },
+        "manager0_firstsame_latest_same_closed": {
+          "match": 157
+        },
+        "manager0_next_consecutive": {
+          "match": 21395,
+          "different": 6
+        },
+        "first_later_reverse_consecutive": {
+          "match": 15007
+        },
+        "chain_reverse_consecutive": {
+          "match": 17012
+        },
+        "single_recorded_issue_point": {
+          "match": 1844
+        },
+        "single_recorded_issue_manager0": {
+          "match": 586
+        }
+      },
+      "emitted": 1152,
+      "by_kind": {
+        "103": 157,
+        "104": 995
+      },
+      "sparse_bytes": 17077,
+      "sparse_sha256": "6241a9323e1192ac5a8aaed6255f824beb182a775ff1265b6ea0061ebab77ed6",
+      "enclosing_bytes": 17019,
+      "enclosing_sha256": "a81fb87c3d57968ac88123d196f2253b5133d0659cf154bea163dea1a8208de5"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "d41417f0fd11a1d512e30fa77882bdebf220432bd7e9412b40440cb79a7c9cec",
+      "rules": {
+        "first_later": {
+          "match": 21765,
+          "different": 3
+        },
+        "first_later_closed": {
+          "match": 21106
+        },
+        "first_later_no_manager_closed": {
+          "match": 503
+        },
+        "chain": {
+          "match": 45512
+        },
+        "chain_firstsame": {
+          "match": 3198
+        },
+        "chain_closed": {
+          "match": 41672
+        },
+        "manager0": {
+          "match": 37725,
+          "different": 224
+        },
+        "manager0_closed": {
+          "match": 36541,
+          "different": 28
+        },
+        "manager0_after_updates_closed": {
+          "match": 22095
+        },
+        "manager0_firstsame_latest_same": {
+          "match": 189
+        },
+        "manager0_firstsame_latest_same_closed": {
+          "match": 179
+        },
+        "manager0_next_consecutive": {
+          "match": 36541,
+          "different": 28
+        },
+        "first_later_reverse_consecutive": {
+          "match": 21129,
+          "different": 3
+        },
+        "chain_reverse_consecutive": {
+          "match": 41675
+        },
+        "single_recorded_issue_point": {
+          "match": 947
+        },
+        "single_recorded_issue_manager0": {
+          "match": 333
+        }
+      },
+      "emitted": 3880,
+      "by_kind": {
+        "104": 3701,
+        "103": 179
+      },
+      "sparse_bytes": 60567,
+      "sparse_sha256": "084e02d2eaf3e8089bd54aca50c6dbaee726e9cbd82cdf6a09e61927ddd5495f",
+      "enclosing_bytes": 60469,
+      "enclosing_sha256": "c2a86430b3e2e807c2e755035593755992cb32b0ad8f8baf9c036b8623193b4b"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "db40f495edb70b2127b97cae4f479de19e18e61b2a5a0e0413052b571e1dbf7e",
+      "rules": {
+        "first_later": {
+          "match": 17069
+        },
+        "first_later_closed": {
+          "match": 16642
+        },
+        "first_later_no_manager_closed": {
+          "match": 405
+        },
+        "chain": {
+          "match": 30650
+        },
+        "chain_firstsame": {
+          "match": 803
+        },
+        "chain_closed": {
+          "match": 29511
+        },
+        "manager0": {
+          "match": 30299,
+          "different": 168
+        },
+        "manager0_closed": {
+          "match": 29636,
+          "different": 15
+        },
+        "manager0_after_updates_closed": {
+          "match": 16932,
+          "different": 1
+        },
+        "manager0_firstsame_latest_same": {
+          "match": 140
+        },
+        "manager0_firstsame_latest_same_closed": {
+          "match": 138
+        },
+        "manager0_next_consecutive": {
+          "match": 29636,
+          "different": 15
+        },
+        "first_later_reverse_consecutive": {
+          "match": 16653
+        },
+        "chain_reverse_consecutive": {
+          "match": 29511
+        },
+        "single_recorded_issue_point": {
+          "match": 1325
+        },
+        "single_recorded_issue_manager0": {
+          "match": 448
+        }
+      },
+      "emitted": 1346,
+      "by_kind": {
+        "104": 1208,
+        "103": 138
+      },
+      "sparse_bytes": 20440,
+      "sparse_sha256": "5b22c1e054b242d7fa0b6089c65f519860931fbd212dbcc21c587c66b430c3e6",
+      "enclosing_bytes": 20294,
+      "enclosing_sha256": "3af4e02f92ed9e83a7b6ebab78d482573552e50eba7525dff9194bfda29ece55"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+      "rules": {
+        "first_later": {
+          "match": 17680
+        },
+        "first_later_closed": {
+          "match": 16727
+        },
+        "first_later_no_manager_closed": {
+          "match": 408
+        },
+        "chain": {
+          "match": 26639
+        },
+        "chain_firstsame": {
+          "match": 999
+        },
+        "chain_closed": {
+          "match": 25572
+        },
+        "manager0": {
+          "match": 25502,
+          "different": 162
+        },
+        "manager0_closed": {
+          "match": 24252,
+          "different": 6
+        },
+        "manager0_after_updates_closed": {
+          "match": 16907
+        },
+        "manager0_firstsame_latest_same": {
+          "match": 192,
+          "different": 2
+        },
+        "manager0_firstsame_latest_same_closed": {
+          "match": 173
+        },
+        "manager0_next_consecutive": {
+          "match": 24252,
+          "different": 6
+        },
+        "first_later_reverse_consecutive": {
+          "match": 16748
+        },
+        "chain_reverse_consecutive": {
+          "match": 25574
+        },
+        "single_recorded_issue_point": {
+          "match": 753
+        },
+        "single_recorded_issue_manager0": {
+          "match": 344
+        }
+      },
+      "emitted": 1580,
+      "by_kind": {
+        "103": 173,
+        "104": 1407
+      },
+      "sparse_bytes": 23802,
+      "sparse_sha256": "66f4a7df2008cf3fb8fd2ce37ada69336eaf7b0ec09e364f203704157d08e211",
+      "enclosing_bytes": 23723,
+      "enclosing_sha256": "118c5d97571cf9aa0c7e78c518a403e4ca88e81ea0e4a0d3a833df37008a8310"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+      "rules": {
+        "first_later": {
+          "match": 8405
+        },
+        "first_later_closed": {
+          "match": 8240
+        },
+        "first_later_no_manager_closed": {
+          "match": 97
+        },
+        "chain": {
+          "match": 11343
+        },
+        "chain_firstsame": {
+          "match": 217
+        },
+        "chain_closed": {
+          "match": 11007
+        },
+        "manager0": {
+          "match": 12468,
+          "different": 32
+        },
+        "manager0_closed": {
+          "match": 12211
+        },
+        "manager0_after_updates_closed": {
+          "match": 8201
+        },
+        "manager0_firstsame_latest_same": {
+          "match": 11
+        },
+        "manager0_firstsame_latest_same_closed": {
+          "match": 11
+        },
+        "manager0_next_consecutive": {
+          "match": 12211
+        },
+        "first_later_reverse_consecutive": {
+          "match": 8243
+        },
+        "chain_reverse_consecutive": {
+          "match": 11008
+        },
+        "single_recorded_issue_point": {
+          "match": 1090
+        },
+        "single_recorded_issue_manager0": {
+          "match": 625
+        }
+      },
+      "emitted": 325,
+      "by_kind": {
+        "104": 314,
+        "103": 11
+      },
+      "sparse_bytes": 5178,
+      "sparse_sha256": "c917dbcb90130bdb5a951e71bb8e74a4da0a4badeb2744d3f9081016656b0abe",
+      "enclosing_bytes": 5101,
+      "enclosing_sha256": "aae42dfe83b6c469cab2690be537591441aafdcb6b0611ccf1fd25da258675d6"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "fe801daf9df44f10db2b950989308c8ee2fa55c03b4adfef7ac383b4d46583bf",
+      "rules": {
+        "first_later": {
+          "match": 14319
+        },
+        "first_later_closed": {
+          "match": 13955
+        },
+        "first_later_no_manager_closed": {
+          "match": 166
+        },
+        "chain": {
+          "match": 25748
+        },
+        "chain_firstsame": {
+          "match": 529
+        },
+        "chain_closed": {
+          "match": 25027
+        },
+        "manager0": {
+          "match": 19225,
+          "different": 36
+        },
+        "manager0_closed": {
+          "match": 18701,
+          "different": 2
+        },
+        "manager0_after_updates_closed": {
+          "match": 13985
+        },
+        "manager0_firstsame_latest_same": {
+          "match": 51
+        },
+        "manager0_firstsame_latest_same_closed": {
+          "match": 50
+        },
+        "manager0_next_consecutive": {
+          "match": 18701,
+          "different": 2
+        },
+        "first_later_reverse_consecutive": {
+          "match": 13957
+        },
+        "chain_reverse_consecutive": {
+          "match": 25027
+        },
+        "single_recorded_issue_point": {
+          "match": 1966
+        },
+        "single_recorded_issue_manager0": {
+          "match": 425
+        }
+      },
+      "emitted": 745,
+      "by_kind": {
+        "104": 695,
+        "103": 50
+      },
+      "sparse_bytes": 11570,
+      "sparse_sha256": "f4458f3cfa37a44f75a2acd4694762bd405c0a039282c501cf5da7c7e7b99673",
+      "enclosing_bytes": 11470,
+      "enclosing_sha256": "03a655d9ade6a32756df1e92f522d3242c4338bf41520237961bb6be35c62565"
+    }
+  ],
+  "physical_target_frames": 30236,
+  "physical_target_bytes": 463391,
+  "retained_r8": {
+    "build": 98285,
+    "replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+    "existing": {
+      "absent": 382
+    }
+  }
+}

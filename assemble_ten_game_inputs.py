@@ -7,6 +7,7 @@ import json
 from pathlib import Path
 
 from audit_native_game_fidelity import _anonymous
+from command_interval_sequences import generate as project_intervals
 from encoders import encode_game_events as named_encode
 from extend_point_prefix import extend, identity
 from extend_game_fragments import extra_rows
@@ -77,6 +78,9 @@ def assemble(source, gate_map, mechanics, curve, selection_controls, prefix64, a
     point_updates, _, _ = project_updates(source)
     for ordinal, row in point_updates.items():
         add(ordinal, row, "same_loop_point_update_conditional_on_issue")
+    interval_rows, _, _ = project_intervals(source)
+    for ordinal, row in interval_rows.items():
+        add(ordinal, row, "command_interval_conditional_on_issue")
 
     old, raw = game(source, SOURCE, 41810)
     total, missing, represented = Counter(), Counter(), Counter()

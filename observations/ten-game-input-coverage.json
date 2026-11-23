@@ -3,8 +3,8 @@
   "source_events": 104257,
   "source_game_bytes": 1146911,
   "last_source_event_loop": 19732,
-  "included": 21052,
-  "omitted": 83205,
+  "included": 21432,
+  "omitted": 82825,
   "included_by_event_id": {
     "5": 2,
     "7": 10,
@@ -16,8 +16,8 @@
     "49": 17593,
     "56": 10,
     "101": 2,
-    "103": 9,
-    "104": 319,
+    "103": 20,
+    "104": 688,
     "110": 19
   },
   "omitted_by_event_id": {
@@ -31,8 +31,8 @@
     "55": 313,
     "64": 46,
     "98": 121,
-    "103": 33537,
-    "104": 32589,
+    "103": 33526,
+    "104": 32220,
     "105": 10851,
     "110": 51
   },
@@ -50,7 +50,8 @@
     "symbiote_cancel_requires_selection": 49,
     "talent_index_requires_earlier_unresolved_award": 16,
     "ping_opening_hero_lifetime": 13,
-    "recorded_final_departure": 2
+    "recorded_final_departure": 2,
+    "command_interval_conditional_on_issue": 382
   },
   "overlap_ordinals": 19,
   "first_omitted": {
@@ -59,8 +60,8 @@
     "kind": 46
   },
   "last_included_loop": 19732,
-  "bytes": 185496,
-  "sha256": "7b9b942d58c986a15efad7ae0d123ec8f9bf514f795653f7e56c3053092f3bc3",
+  "bytes": 191477,
+  "sha256": "1ff1b00a0fb8a37194ab2d486ff9d76f52deb49ba9a68a518db41f48a063c2f2",
   "full_game_member": false,
   "target_simulation_verified": false
 }
