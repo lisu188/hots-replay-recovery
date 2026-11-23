@@ -1,0 +1,1004 @@
+{
+  "format": "dragon-shire-held-out-beacon-reset-v2",
+  "development_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+  "held_out_old_sha256": [
+    "7efa1c335816eebe802747ae4b16252ed22fcd8387b09d24b115b2917542b52a",
+    "2fca3c78d0e459d4452e3fb1f41ff3fce22b9c1f8f113019389195ff171bf618",
+    "8c4fb83989b528ea3227f6c97758293d1f650e33caa3d38c6a2a84d27ab0850d"
+  ],
+  "method": "Each team-owned camp beacon predicts one capture statistic at +1 loop, and a neutral transition at +17 loops in 41810 or +49 in 98348. Both complete observed multisets are scored, including unmatched and right-censored predictions.",
+  "development": {
+    "team_ownership_events": 13,
+    "other_ownership_events": 0,
+    "stats_beyond_replay_end": 0,
+    "resets_beyond_replay_end": 0,
+    "capture_stats_without_adjacent_owner_and_reset": 0,
+    "capture_stats": {
+      "predicted": 13,
+      "observed": 13,
+      "matches": 13,
+      "missing_observations": 0,
+      "unexpected_observations": 0
+    },
+    "neutral_resets": {
+      "predicted": 13,
+      "observed": 13,
+      "matches": 13,
+      "missing_observations": 0,
+      "unexpected_observations": 0
+    }
+  },
+  "independent_historical": {
+    "team_ownership_events": 26,
+    "other_ownership_events": 0,
+    "stats_beyond_replay_end": 0,
+    "resets_beyond_replay_end": 0,
+    "capture_stats_without_adjacent_owner_and_reset": 0,
+    "capture_stats": {
+      "predicted": 26,
+      "observed": 26,
+      "matches": 26,
+      "missing_observations": 0,
+      "unexpected_observations": 0
+    },
+    "neutral_resets": {
+      "predicted": 26,
+      "observed": 26,
+      "matches": 26,
+      "missing_observations": 0,
+      "unexpected_observations": 0
+    }
+  },
+  "stock_current": {
+    "team_ownership_events": 246,
+    "other_ownership_events": 0,
+    "stats_beyond_replay_end": 0,
+    "resets_beyond_replay_end": 0,
+    "capture_stats_without_adjacent_owner_and_reset": 0,
+    "capture_stats": {
+      "predicted": 246,
+      "observed": 246,
+      "matches": 246,
+      "missing_observations": 0,
+      "unexpected_observations": 0
+    },
+    "neutral_resets": {
+      "predicted": 246,
+      "observed": 246,
+      "matches": 246,
+      "missing_observations": 0,
+      "unexpected_observations": 0
+    }
+  },
+  "cohorts": [
+    {
+      "build": 41810,
+      "map_sha256": "e0a58745837b3b5351015c933560dbffb178d747009d2d57b4153ef425cf7250",
+      "cases": [
+        {
+          "replay_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+          "tracker_sha256": "1a9a556f9f1fde466d17c4a3a3fbb31cbec8d8086bef97efeb796f1f5175245f",
+          "captures": 13,
+          "frozen_rule": {
+            "team_ownership_events": 13,
+            "other_ownership_events": 0,
+            "team_to_stat_loops": 1,
+            "stat_to_reset_loops": 16,
+            "stats_beyond_replay_end": 0,
+            "resets_beyond_replay_end": 0,
+            "capture_stats": {
+              "predicted": 13,
+              "observed": 13,
+              "matches": 13,
+              "missing_observations": 0,
+              "unexpected_observations": 0
+            },
+            "neutral_resets": {
+              "predicted": 13,
+              "observed": 13,
+              "matches": 13,
+              "missing_observations": 0,
+              "unexpected_observations": 0
+            },
+            "capture_stats_without_adjacent_owner_and_reset": 0
+          },
+          "team_beacon_to_stat": {
+            "1": 13
+          },
+          "stat_to_neutral": {
+            "16": 13
+          },
+          "death_to_team_beacon": {
+            "24": 11,
+            "28": 1,
+            "39": 1
+          },
+          "intervals": [
+            {
+              "camp": 5,
+              "last_tracked_defender_death": 4192,
+              "team_beacon": 4216,
+              "capture_stat": 4217,
+              "neutral_beacon": 4233
+            },
+            {
+              "camp": 3,
+              "last_tracked_defender_death": 5318,
+              "team_beacon": 5342,
+              "capture_stat": 5343,
+              "neutral_beacon": 5359
+            },
+            {
+              "camp": 4,
+              "last_tracked_defender_death": 6884,
+              "team_beacon": 6908,
+              "capture_stat": 6909,
+              "neutral_beacon": 6925
+            },
+            {
+              "camp": 1,
+              "last_tracked_defender_death": 8992,
+              "team_beacon": 9016,
+              "capture_stat": 9017,
+              "neutral_beacon": 9033
+            },
+            {
+              "camp": 3,
+              "last_tracked_defender_death": 9147,
+              "team_beacon": 9171,
+              "capture_stat": 9172,
+              "neutral_beacon": 9188
+            },
+            {
+              "camp": 5,
+              "last_tracked_defender_death": 9803,
+              "team_beacon": 9827,
+              "capture_stat": 9828,
+              "neutral_beacon": 9844
+            },
+            {
+              "camp": 4,
+              "last_tracked_defender_death": 11579,
+              "team_beacon": 11603,
+              "capture_stat": 11604,
+              "neutral_beacon": 11620
+            },
+            {
+              "camp": 3,
+              "last_tracked_defender_death": 13732,
+              "team_beacon": 13756,
+              "capture_stat": 13757,
+              "neutral_beacon": 13773
+            },
+            {
+              "camp": 1,
+              "last_tracked_defender_death": 13794,
+              "team_beacon": 13818,
+              "capture_stat": 13819,
+              "neutral_beacon": 13835
+            },
+            {
+              "camp": 5,
+              "last_tracked_defender_death": 14321,
+              "team_beacon": 14345,
+              "capture_stat": 14346,
+              "neutral_beacon": 14362
+            },
+            {
+              "camp": 4,
+              "last_tracked_defender_death": 16071,
+              "team_beacon": 16095,
+              "capture_stat": 16096,
+              "neutral_beacon": 16112
+            },
+            {
+              "camp": 1,
+              "last_tracked_defender_death": 18691,
+              "team_beacon": 18730,
+              "capture_stat": 18731,
+              "neutral_beacon": 18747
+            },
+            {
+              "camp": 3,
+              "last_tracked_defender_death": 18983,
+              "team_beacon": 19011,
+              "capture_stat": 19012,
+              "neutral_beacon": 19028
+            }
+          ]
+        },
+        {
+          "replay_sha256": "7efa1c335816eebe802747ae4b16252ed22fcd8387b09d24b115b2917542b52a",
+          "tracker_sha256": "efcd51f24f37612199a8ebce2872bdf72144a82a3a8c15552a164deb5e27d139",
+          "captures": 16,
+          "frozen_rule": {
+            "team_ownership_events": 16,
+            "other_ownership_events": 0,
+            "team_to_stat_loops": 1,
+            "stat_to_reset_loops": 16,
+            "stats_beyond_replay_end": 0,
+            "resets_beyond_replay_end": 0,
+            "capture_stats": {
+              "predicted": 16,
+              "observed": 16,
+              "matches": 16,
+              "missing_observations": 0,
+              "unexpected_observations": 0
+            },
+            "neutral_resets": {
+              "predicted": 16,
+              "observed": 16,
+              "matches": 16,
+              "missing_observations": 0,
+              "unexpected_observations": 0
+            },
+            "capture_stats_without_adjacent_owner_and_reset": 0
+          },
+          "team_beacon_to_stat": {
+            "1": 16
+          },
+          "stat_to_neutral": {
+            "16": 16
+          },
+          "death_to_team_beacon": {
+            "24": 12,
+            "26": 1,
+            "30": 1,
+            "37": 1,
+            "38": 1
+          },
+          "intervals": [
+            {
+              "camp": 1,
+              "last_tracked_defender_death": 3245,
+              "team_beacon": 3269,
+              "capture_stat": 3270,
+              "neutral_beacon": 3286
+            },
+            {
+              "camp": 3,
+              "last_tracked_defender_death": 3805,
+              "team_beacon": 3829,
+              "capture_stat": 3830,
+              "neutral_beacon": 3846
+            },
+            {
+              "camp": 4,
+              "last_tracked_defender_death": 7158,
+              "team_beacon": 7184,
+              "capture_stat": 7185,
+              "neutral_beacon": 7201
+            },
+            {
+              "camp": 3,
+              "last_tracked_defender_death": 7665,
+              "team_beacon": 7689,
+              "capture_stat": 7690,
+              "neutral_beacon": 7706
+            },
+            {
+              "camp": 5,
+              "last_tracked_defender_death": 8483,
+              "team_beacon": 8521,
+              "capture_stat": 8522,
+              "neutral_beacon": 8538
+            },
+            {
+              "camp": 3,
+              "last_tracked_defender_death": 11604,
+              "team_beacon": 11628,
+              "capture_stat": 11629,
+              "neutral_beacon": 11645
+            },
+            {
+              "camp": 2,
+              "last_tracked_defender_death": 11993,
+              "team_beacon": 12017,
+              "capture_stat": 12018,
+              "neutral_beacon": 12034
+            },
+            {
+              "camp": 4,
+              "last_tracked_defender_death": 13408,
+              "team_beacon": 13438,
+              "capture_stat": 13439,
+              "neutral_beacon": 13455
+            },
+            {
+              "camp": 5,
+              "last_tracked_defender_death": 15644,
+              "team_beacon": 15668,
+              "capture_stat": 15669,
+              "neutral_beacon": 15685
+            },
+            {
+              "camp": 1,
+              "last_tracked_defender_death": 15693,
+              "team_beacon": 15717,
+              "capture_stat": 15718,
+              "neutral_beacon": 15734
+            },
+            {
+              "camp": 3,
+              "last_tracked_defender_death": 15953,
+              "team_beacon": 15977,
+              "capture_stat": 15978,
+              "neutral_beacon": 15994
+            },
+            {
+              "camp": 1,
+              "last_tracked_defender_death": 19380,
+              "team_beacon": 19404,
+              "capture_stat": 19405,
+              "neutral_beacon": 19421
+            },
+            {
+              "camp": 3,
+              "last_tracked_defender_death": 19642,
+              "team_beacon": 19679,
+              "capture_stat": 19680,
+              "neutral_beacon": 19696
+            },
+            {
+              "camp": 2,
+              "last_tracked_defender_death": 19837,
+              "team_beacon": 19861,
+              "capture_stat": 19862,
+              "neutral_beacon": 19878
+            },
+            {
+              "camp": 4,
+              "last_tracked_defender_death": 19866,
+              "team_beacon": 19890,
+              "capture_stat": 19891,
+              "neutral_beacon": 19907
+            },
+            {
+              "camp": 5,
+              "last_tracked_defender_death": 20809,
+              "team_beacon": 20833,
+              "capture_stat": 20834,
+              "neutral_beacon": 20850
+            }
+          ]
+        },
+        {
+          "replay_sha256": "2fca3c78d0e459d4452e3fb1f41ff3fce22b9c1f8f113019389195ff171bf618",
+          "tracker_sha256": "8d01d6f734e9fea8d038a94d28f6dd0fdac22f4a5d1011caee7165beb7dd13af",
+          "captures": 6,
+          "frozen_rule": {
+            "team_ownership_events": 6,
+            "other_ownership_events": 0,
+            "team_to_stat_loops": 1,
+            "stat_to_reset_loops": 16,
+            "stats_beyond_replay_end": 0,
+            "resets_beyond_replay_end": 0,
+            "capture_stats": {
+              "predicted": 6,
+              "observed": 6,
+              "matches": 6,
+              "missing_observations": 0,
+              "unexpected_observations": 0
+            },
+            "neutral_resets": {
+              "predicted": 6,
+              "observed": 6,
+              "matches": 6,
+              "missing_observations": 0,
+              "unexpected_observations": 0
+            },
+            "capture_stats_without_adjacent_owner_and_reset": 0
+          },
+          "team_beacon_to_stat": {
+            "1": 6
+          },
+          "stat_to_neutral": {
+            "16": 6
+          },
+          "death_to_team_beacon": {
+            "24": 3,
+            "26": 1,
+            "28": 1,
+            "32": 1
+          },
+          "intervals": [
+            {
+              "camp": 1,
+              "last_tracked_defender_death": 12230,
+              "team_beacon": 12254,
+              "capture_stat": 12255,
+              "neutral_beacon": 12271
+            },
+            {
+              "camp": 3,
+              "last_tracked_defender_death": 12781,
+              "team_beacon": 12805,
+              "capture_stat": 12806,
+              "neutral_beacon": 12822
+            },
+            {
+              "camp": 5,
+              "last_tracked_defender_death": 13687,
+              "team_beacon": 13719,
+              "capture_stat": 13720,
+              "neutral_beacon": 13736
+            },
+            {
+              "camp": 4,
+              "last_tracked_defender_death": 15836,
+              "team_beacon": 15862,
+              "capture_stat": 15863,
+              "neutral_beacon": 15879
+            },
+            {
+              "camp": 2,
+              "last_tracked_defender_death": 18206,
+              "team_beacon": 18230,
+              "capture_stat": 18231,
+              "neutral_beacon": 18247
+            },
+            {
+              "camp": 1,
+              "last_tracked_defender_death": 18466,
+              "team_beacon": 18494,
+              "capture_stat": 18495,
+              "neutral_beacon": 18511
+            }
+          ]
+        },
+        {
+          "replay_sha256": "8c4fb83989b528ea3227f6c97758293d1f650e33caa3d38c6a2a84d27ab0850d",
+          "tracker_sha256": "fa44344a45d5d1b91b1c196810a81b2144d4992bdb12ed5a1854efbee95a01d1",
+          "captures": 4,
+          "frozen_rule": {
+            "team_ownership_events": 4,
+            "other_ownership_events": 0,
+            "team_to_stat_loops": 1,
+            "stat_to_reset_loops": 16,
+            "stats_beyond_replay_end": 0,
+            "resets_beyond_replay_end": 0,
+            "capture_stats": {
+              "predicted": 4,
+              "observed": 4,
+              "matches": 4,
+              "missing_observations": 0,
+              "unexpected_observations": 0
+            },
+            "neutral_resets": {
+              "predicted": 4,
+              "observed": 4,
+              "matches": 4,
+              "missing_observations": 0,
+              "unexpected_observations": 0
+            },
+            "capture_stats_without_adjacent_owner_and_reset": 0
+          },
+          "team_beacon_to_stat": {
+            "1": 4
+          },
+          "stat_to_neutral": {
+            "16": 4
+          },
+          "death_to_team_beacon": {
+            "24": 1,
+            "28": 1,
+            "29": 1,
+            "39": 1
+          },
+          "intervals": [
+            {
+              "camp": 3,
+              "last_tracked_defender_death": 7166,
+              "team_beacon": 7194,
+              "capture_stat": 7195,
+              "neutral_beacon": 7211
+            },
+            {
+              "camp": 1,
+              "last_tracked_defender_death": 8112,
+              "team_beacon": 8141,
+              "capture_stat": 8142,
+              "neutral_beacon": 8158
+            },
+            {
+              "camp": 3,
+              "last_tracked_defender_death": 10349,
+              "team_beacon": 10388,
+              "capture_stat": 10389,
+              "neutral_beacon": 10405
+            },
+            {
+              "camp": 1,
+              "last_tracked_defender_death": 12748,
+              "team_beacon": 12772,
+              "capture_stat": 12773,
+              "neutral_beacon": 12789
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "build": 98348,
+      "map_sha256": "f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f",
+      "cases": [
+        {
+          "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+          "tracker_sha256": "aac1ee0b170eef3f4178c7269778f762b61d5ddff3a3d03af3184aa610640b8d",
+          "captures": 15,
+          "frozen_rule": {
+            "team_ownership_events": 15,
+            "other_ownership_events": 0,
+            "team_to_stat_loops": 1,
+            "stat_to_reset_loops": 48,
+            "stats_beyond_replay_end": 0,
+            "resets_beyond_replay_end": 0,
+            "capture_stats": {
+              "predicted": 15,
+              "observed": 15,
+              "matches": 15,
+              "missing_observations": 0,
+              "unexpected_observations": 0
+            },
+            "neutral_resets": {
+              "predicted": 15,
+              "observed": 15,
+              "matches": 15,
+              "missing_observations": 0,
+              "unexpected_observations": 0
+            },
+            "capture_stats_without_adjacent_owner_and_reset": 0
+          },
+          "team_beacon_to_stat": {
+            "1": 15
+          },
+          "stat_to_neutral": {
+            "48": 15
+          }
+        },
+        {
+          "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+          "tracker_sha256": "152fa91c7a0db6a83d718e6d8f70ad1af86035a7a971493d7055688be8de49fc",
+          "captures": 21,
+          "frozen_rule": {
+            "team_ownership_events": 21,
+            "other_ownership_events": 0,
+            "team_to_stat_loops": 1,
+            "stat_to_reset_loops": 48,
+            "stats_beyond_replay_end": 0,
+            "resets_beyond_replay_end": 0,
+            "capture_stats": {
+              "predicted": 21,
+              "observed": 21,
+              "matches": 21,
+              "missing_observations": 0,
+              "unexpected_observations": 0
+            },
+            "neutral_resets": {
+              "predicted": 21,
+              "observed": 21,
+              "matches": 21,
+              "missing_observations": 0,
+              "unexpected_observations": 0
+            },
+            "capture_stats_without_adjacent_owner_and_reset": 0
+          },
+          "team_beacon_to_stat": {
+            "1": 21
+          },
+          "stat_to_neutral": {
+            "48": 21
+          }
+        },
+        {
+          "replay_sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+          "tracker_sha256": "b64208e7282c219214defe1175bf78b210c1891594b1a744add3c2cf7756dec3",
+          "captures": 14,
+          "frozen_rule": {
+            "team_ownership_events": 14,
+            "other_ownership_events": 0,
+            "team_to_stat_loops": 1,
+            "stat_to_reset_loops": 48,
+            "stats_beyond_replay_end": 0,
+            "resets_beyond_replay_end": 0,
+            "capture_stats": {
+              "predicted": 14,
+              "observed": 14,
+              "matches": 14,
+              "missing_observations": 0,
+              "unexpected_observations": 0
+            },
+            "neutral_resets": {
+              "predicted": 14,
+              "observed": 14,
+              "matches": 14,
+              "missing_observations": 0,
+              "unexpected_observations": 0
+            },
+            "capture_stats_without_adjacent_owner_and_reset": 0
+          },
+          "team_beacon_to_stat": {
+            "1": 14
+          },
+          "stat_to_neutral": {
+            "48": 14
+          }
+        },
+        {
+          "replay_sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+          "tracker_sha256": "5c0785aa6297fc5ece0afb43d2f88b2deaab3afc8278beedc9fad3e831b565ef",
+          "captures": 19,
+          "frozen_rule": {
+            "team_ownership_events": 19,
+            "other_ownership_events": 0,
+            "team_to_stat_loops": 1,
+            "stat_to_reset_loops": 48,
+            "stats_beyond_replay_end": 0,
+            "resets_beyond_replay_end": 0,
+            "capture_stats": {
+              "predicted": 19,
+              "observed": 19,
+              "matches": 19,
+              "missing_observations": 0,
+              "unexpected_observations": 0
+            },
+            "neutral_resets": {
+              "predicted": 19,
+              "observed": 19,
+              "matches": 19,
+              "missing_observations": 0,
+              "unexpected_observations": 0
+            },
+            "capture_stats_without_adjacent_owner_and_reset": 0
+          },
+          "team_beacon_to_stat": {
+            "1": 19
+          },
+          "stat_to_neutral": {
+            "48": 19
+          }
+        },
+        {
+          "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+          "tracker_sha256": "cbc1fc35b8e34b98d0061739340c6f8feb24ebf579fa5c884c4ca36184963bf1",
+          "captures": 15,
+          "frozen_rule": {
+            "team_ownership_events": 15,
+            "other_ownership_events": 0,
+            "team_to_stat_loops": 1,
+            "stat_to_reset_loops": 48,
+            "stats_beyond_replay_end": 0,
+            "resets_beyond_replay_end": 0,
+            "capture_stats": {
+              "predicted": 15,
+              "observed": 15,
+              "matches": 15,
+              "missing_observations": 0,
+              "unexpected_observations": 0
+            },
+            "neutral_resets": {
+              "predicted": 15,
+              "observed": 15,
+              "matches": 15,
+              "missing_observations": 0,
+              "unexpected_observations": 0
+            },
+            "capture_stats_without_adjacent_owner_and_reset": 0
+          },
+          "team_beacon_to_stat": {
+            "1": 15
+          },
+          "stat_to_neutral": {
+            "48": 15
+          }
+        },
+        {
+          "replay_sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+          "tracker_sha256": "4c9b43ed3fb414e7bd65c10df7c2d456b29cb42dc39aafc4fd27419cee0a3cfe",
+          "captures": 21,
+          "frozen_rule": {
+            "team_ownership_events": 21,
+            "other_ownership_events": 0,
+            "team_to_stat_loops": 1,
+            "stat_to_reset_loops": 48,
+            "stats_beyond_replay_end": 0,
+            "resets_beyond_replay_end": 0,
+            "capture_stats": {
+              "predicted": 21,
+              "observed": 21,
+              "matches": 21,
+              "missing_observations": 0,
+              "unexpected_observations": 0
+            },
+            "neutral_resets": {
+              "predicted": 21,
+              "observed": 21,
+              "matches": 21,
+              "missing_observations": 0,
+              "unexpected_observations": 0
+            },
+            "capture_stats_without_adjacent_owner_and_reset": 0
+          },
+          "team_beacon_to_stat": {
+            "1": 21
+          },
+          "stat_to_neutral": {
+            "48": 21
+          }
+        },
+        {
+          "replay_sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+          "tracker_sha256": "92f34f3ac520c349f3ba6dff012598bea91eb4317e4c8e302bcf8ec535cde742",
+          "captures": 20,
+          "frozen_rule": {
+            "team_ownership_events": 20,
+            "other_ownership_events": 0,
+            "team_to_stat_loops": 1,
+            "stat_to_reset_loops": 48,
+            "stats_beyond_replay_end": 0,
+            "resets_beyond_replay_end": 0,
+            "capture_stats": {
+              "predicted": 20,
+              "observed": 20,
+              "matches": 20,
+              "missing_observations": 0,
+              "unexpected_observations": 0
+            },
+            "neutral_resets": {
+              "predicted": 20,
+              "observed": 20,
+              "matches": 20,
+              "missing_observations": 0,
+              "unexpected_observations": 0
+            },
+            "capture_stats_without_adjacent_owner_and_reset": 0
+          },
+          "team_beacon_to_stat": {
+            "1": 20
+          },
+          "stat_to_neutral": {
+            "48": 20
+          }
+        },
+        {
+          "replay_sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+          "tracker_sha256": "541d5fdecd50da91232f0f99398100d48d0fb7fbea236c9ff0bb0dd311d2efe4",
+          "captures": 13,
+          "frozen_rule": {
+            "team_ownership_events": 13,
+            "other_ownership_events": 0,
+            "team_to_stat_loops": 1,
+            "stat_to_reset_loops": 48,
+            "stats_beyond_replay_end": 0,
+            "resets_beyond_replay_end": 0,
+            "capture_stats": {
+              "predicted": 13,
+              "observed": 13,
+              "matches": 13,
+              "missing_observations": 0,
+              "unexpected_observations": 0
+            },
+            "neutral_resets": {
+              "predicted": 13,
+              "observed": 13,
+              "matches": 13,
+              "missing_observations": 0,
+              "unexpected_observations": 0
+            },
+            "capture_stats_without_adjacent_owner_and_reset": 0
+          },
+          "team_beacon_to_stat": {
+            "1": 13
+          },
+          "stat_to_neutral": {
+            "48": 13
+          }
+        },
+        {
+          "replay_sha256": "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+          "tracker_sha256": "a0a77dcaf693f81ce856ebfca0f88b4fc42eb5cb54c5087559ecacac1745f669",
+          "captures": 14,
+          "frozen_rule": {
+            "team_ownership_events": 14,
+            "other_ownership_events": 0,
+            "team_to_stat_loops": 1,
+            "stat_to_reset_loops": 48,
+            "stats_beyond_replay_end": 0,
+            "resets_beyond_replay_end": 0,
+            "capture_stats": {
+              "predicted": 14,
+              "observed": 14,
+              "matches": 14,
+              "missing_observations": 0,
+              "unexpected_observations": 0
+            },
+            "neutral_resets": {
+              "predicted": 14,
+              "observed": 14,
+              "matches": 14,
+              "missing_observations": 0,
+              "unexpected_observations": 0
+            },
+            "capture_stats_without_adjacent_owner_and_reset": 0
+          },
+          "team_beacon_to_stat": {
+            "1": 14
+          },
+          "stat_to_neutral": {
+            "48": 14
+          }
+        },
+        {
+          "replay_sha256": "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+          "tracker_sha256": "e5be17af07f8a0462f6a38f447af1c93916cb7df9b6111b0fb5ec0dce12c0c19",
+          "captures": 15,
+          "frozen_rule": {
+            "team_ownership_events": 15,
+            "other_ownership_events": 0,
+            "team_to_stat_loops": 1,
+            "stat_to_reset_loops": 48,
+            "stats_beyond_replay_end": 0,
+            "resets_beyond_replay_end": 0,
+            "capture_stats": {
+              "predicted": 15,
+              "observed": 15,
+              "matches": 15,
+              "missing_observations": 0,
+              "unexpected_observations": 0
+            },
+            "neutral_resets": {
+              "predicted": 15,
+              "observed": 15,
+              "matches": 15,
+              "missing_observations": 0,
+              "unexpected_observations": 0
+            },
+            "capture_stats_without_adjacent_owner_and_reset": 0
+          },
+          "team_beacon_to_stat": {
+            "1": 15
+          },
+          "stat_to_neutral": {
+            "48": 15
+          }
+        },
+        {
+          "replay_sha256": "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+          "tracker_sha256": "a7f26a8c152e129fe7271e38d537df33b5a3ebe584c1ec1501cbf02c5e95499c",
+          "captures": 17,
+          "frozen_rule": {
+            "team_ownership_events": 17,
+            "other_ownership_events": 0,
+            "team_to_stat_loops": 1,
+            "stat_to_reset_loops": 48,
+            "stats_beyond_replay_end": 0,
+            "resets_beyond_replay_end": 0,
+            "capture_stats": {
+              "predicted": 17,
+              "observed": 17,
+              "matches": 17,
+              "missing_observations": 0,
+              "unexpected_observations": 0
+            },
+            "neutral_resets": {
+              "predicted": 17,
+              "observed": 17,
+              "matches": 17,
+              "missing_observations": 0,
+              "unexpected_observations": 0
+            },
+            "capture_stats_without_adjacent_owner_and_reset": 0
+          },
+          "team_beacon_to_stat": {
+            "1": 17
+          },
+          "stat_to_neutral": {
+            "48": 17
+          }
+        },
+        {
+          "replay_sha256": "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77",
+          "tracker_sha256": "69ba86a686b3e57be55444932d8fe0b3071f4aa207a561b9deed982e4dcd53d9",
+          "captures": 17,
+          "frozen_rule": {
+            "team_ownership_events": 17,
+            "other_ownership_events": 0,
+            "team_to_stat_loops": 1,
+            "stat_to_reset_loops": 48,
+            "stats_beyond_replay_end": 0,
+            "resets_beyond_replay_end": 0,
+            "capture_stats": {
+              "predicted": 17,
+              "observed": 17,
+              "matches": 17,
+              "missing_observations": 0,
+              "unexpected_observations": 0
+            },
+            "neutral_resets": {
+              "predicted": 17,
+              "observed": 17,
+              "matches": 17,
+              "missing_observations": 0,
+              "unexpected_observations": 0
+            },
+            "capture_stats_without_adjacent_owner_and_reset": 0
+          },
+          "team_beacon_to_stat": {
+            "1": 17
+          },
+          "stat_to_neutral": {
+            "48": 17
+          }
+        },
+        {
+          "replay_sha256": "a956b186a0459a47d9b0fdd8af4ccb65c437f11926186471c434e543e218b2d7",
+          "tracker_sha256": "f39d8b87db6f668e1acfbfb61203a207227d5e8e2e93d0a8eb2931ef4f8306da",
+          "captures": 14,
+          "frozen_rule": {
+            "team_ownership_events": 14,
+            "other_ownership_events": 0,
+            "team_to_stat_loops": 1,
+            "stat_to_reset_loops": 48,
+            "stats_beyond_replay_end": 0,
+            "resets_beyond_replay_end": 0,
+            "capture_stats": {
+              "predicted": 14,
+              "observed": 14,
+              "matches": 14,
+              "missing_observations": 0,
+              "unexpected_observations": 0
+            },
+            "neutral_resets": {
+              "predicted": 14,
+              "observed": 14,
+              "matches": 14,
+              "missing_observations": 0,
+              "unexpected_observations": 0
+            },
+            "capture_stats_without_adjacent_owner_and_reset": 0
+          },
+          "team_beacon_to_stat": {
+            "1": 14
+          },
+          "stat_to_neutral": {
+            "48": 14
+          }
+        },
+        {
+          "replay_sha256": "bc16af7f68496cddc4698f70b3853402a0f30aa37951aec3a6b555ed703879e8",
+          "tracker_sha256": "a2bd1d671aaf7d1051fa13fc94806788a444d5b0e80128afa38c69101a058d51",
+          "captures": 31,
+          "frozen_rule": {
+            "team_ownership_events": 31,
+            "other_ownership_events": 0,
+            "team_to_stat_loops": 1,
+            "stat_to_reset_loops": 48,
+            "stats_beyond_replay_end": 0,
+            "resets_beyond_replay_end": 0,
+            "capture_stats": {
+              "predicted": 31,
+              "observed": 31,
+              "matches": 31,
+              "missing_observations": 0,
+              "unexpected_observations": 0
+            },
+            "neutral_resets": {
+              "predicted": 31,
+              "observed": 31,
+              "matches": 31,
+              "missing_observations": 0,
+              "unexpected_observations": 0
+            },
+            "capture_stats_without_adjacent_owner_and_reset": 0
+          },
+          "team_beacon_to_stat": {
+            "1": 31
+          },
+          "stat_to_neutral": {
+            "48": 31
+          }
+        }
+      ]
+    }
+  ]
+}
