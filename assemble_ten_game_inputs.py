@@ -12,6 +12,8 @@ from extend_point_prefix import extend, identity
 from extend_game_fragments import extra_rows
 from first_sync_game import game
 from full_camera_inputs import audit as project_cameras
+from immediate_point_updates import generate as project_updates
+from implicit_point_issues import generate as project_issues
 from initial_point_sessions import analyze as point_sessions
 from literal_chat_input import verify_chat
 from match_selections import CONTROL_RECEIPT, pinned, plan as project_selections
@@ -69,6 +71,12 @@ def assemble(source, gate_map, mechanics, curve, selection_controls, prefix64, a
     clicks, _, _ = project_clicks(source,gate_map,mechanics,curve)
     for ordinal,row in clicks.items():
         add(ordinal,row,"unit_click_within_verified_lifetime")
+    point_issues, _, _ = project_issues(source, gate_map)
+    for ordinal, row in point_issues.items():
+        add(ordinal, row, "implicit_point_issue_conditional_flags")
+    point_updates, _, _ = project_updates(source)
+    for ordinal, row in point_updates.items():
+        add(ordinal, row, "same_loop_point_update_conditional_on_issue")
 
     old, raw = game(source, SOURCE, 41810)
     total, missing, represented = Counter(), Counter(), Counter()

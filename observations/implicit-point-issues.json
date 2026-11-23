@@ -1,0 +1,533 @@
+{
+  "source": {
+    "replay_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+    "build": 41810,
+    "issues": 4558,
+    "implicit_points": 1248,
+    "ordinary_flag_counts": {
+      "0x10a": 7,
+      "0x100108": 1175,
+      "0x110108": 66
+    },
+    "physical_bytes": 24960,
+    "physical_sha256": "9e5ed52349d221ca800093354cc4dbb3d88f022c4072337d02c4619a3e9b80d3",
+    "other_command_records_echo_user_sequence": 16,
+    "repeated_user_sequences": 6,
+    "issuing_users": 10,
+    "all_issue_shapes": {
+      "0x100/explicit/None/-/-": 68,
+      "0x100/explicit/TargetPoint/-/-": 699,
+      "0x100/explicit/TargetPoint/other/-": 13,
+      "0x100/explicit/TargetUnit/-/-": 505,
+      "0x100/explicit/TargetUnit/other/-": 3,
+      "0x100100/explicit/None/-/-": 589,
+      "0x100100/explicit/None/other/-": 17,
+      "0x100108/implicit/TargetPoint/-/-": 1175,
+      "0x100108/implicit/TargetUnit/-/-": 740,
+      "0x10100/explicit/TargetPoint/-/-": 3,
+      "0x10a/implicit/TargetPoint/-/-": 7,
+      "0x110108/implicit/TargetPoint/-/-": 66,
+      "0x200100/explicit/TargetPoint/-/-": 291,
+      "0x200100/explicit/TargetUnit/-/-": 366,
+      "0x80100/explicit/None/-/-": 16
+    }
+  },
+  "target_build": 98348,
+  "layout_sha256": "bda7aafd1d63c77b3b4d29ff2afee96da09a3104b54b4a1d625bb299607d9008",
+  "terrain_sha256": "1e40648f6489f131dfac23717ae530fa32ca6858975e401c9f480df28b166c5f",
+  "frames": 1248,
+  "bytes": 24986,
+  "sha256": "fe34d8beb0ccc0b38e20760cee69821c5f89943dcffdc6b1aef55d7b36244d25",
+  "ordinal_sha256": "c04325ff863fc78ed7257f6111f778e12594b0d07d8ef46dc12b72d2c7ff1f51",
+  "flag_semantics_verified": false,
+  "simulation_verified": false,
+  "controls": [
+    {
+      "replay_sha256": "1230eee79fd3b50a3ee471c587bc77dd14aef67d57bf22cd8df52e877329323a",
+      "build": 98348,
+      "issues": 23774,
+      "implicit_points": 16393,
+      "ordinary_flag_counts": {
+        "0x10a": 99,
+        "0x80108": 16237,
+        "0x88108": 57
+      },
+      "physical_bytes": 327860,
+      "physical_sha256": "fd2fa5d69f522d6cb9277f9eb903b47707c6fce10b14f081f6bf343fc4e71bdb",
+      "other_command_records_echo_user_sequence": 16393,
+      "repeated_user_sequences": 0,
+      "issuing_users": 10,
+      "vector_on_otherwise_eligible_point_issues": {
+        "absent": 16393
+      }
+    },
+    {
+      "replay_sha256": "4732077e899f6894c29586795a01e2a27fba622dbf22b5d29c7b30d57e3ce4fc",
+      "build": 98348,
+      "issues": 29028,
+      "implicit_points": 17681,
+      "ordinary_flag_counts": {
+        "0x10a": 102,
+        "0x80108": 17551,
+        "0x88108": 28
+      },
+      "physical_bytes": 353620,
+      "physical_sha256": "89e66fab1ea804fe6acc9ad39178d7f58e43842918ae9ccc4020d92aeae4ffa8",
+      "other_command_records_echo_user_sequence": 17681,
+      "repeated_user_sequences": 0,
+      "issuing_users": 10,
+      "vector_on_otherwise_eligible_point_issues": {
+        "absent": 17681
+      }
+    },
+    {
+      "replay_sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+      "build": 98348,
+      "issues": 29748,
+      "implicit_points": 20493,
+      "ordinary_flag_counts": {
+        "0x10a": 60,
+        "0x80108": 20265,
+        "0x88108": 168
+      },
+      "physical_bytes": 409860,
+      "physical_sha256": "ba2fde8b43954e07a9549c67c97111c8e3acf3a36aa305c5534d1997865690f1",
+      "other_command_records_echo_user_sequence": 20493,
+      "repeated_user_sequences": 0,
+      "issuing_users": 10,
+      "vector_on_otherwise_eligible_point_issues": {
+        "absent": 20493
+      }
+    },
+    {
+      "replay_sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+      "build": 98348,
+      "issues": 42153,
+      "implicit_points": 27721,
+      "ordinary_flag_counts": {
+        "0x10a": 108,
+        "0x80108": 27604,
+        "0x88108": 9
+      },
+      "physical_bytes": 554420,
+      "physical_sha256": "f2a1928aea1a86644d2cfba22ad2d5c1c293d2da25cd791c5f08e40df8f054d7",
+      "other_command_records_echo_user_sequence": 27721,
+      "repeated_user_sequences": 0,
+      "issuing_users": 10,
+      "vector_on_otherwise_eligible_point_issues": {
+        "absent": 27721
+      }
+    },
+    {
+      "replay_sha256": "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+      "build": 98348,
+      "issues": 28090,
+      "implicit_points": 20406,
+      "ordinary_flag_counts": {
+        "0x10a": 234,
+        "0x810a": 7,
+        "0x80108": 20105,
+        "0x88108": 60
+      },
+      "physical_bytes": 408120,
+      "physical_sha256": "07f03669fd42ff7d5985bb20c5ad4f73335af95ffd229861438b7d4bc1cb7627",
+      "other_command_records_echo_user_sequence": 20406,
+      "repeated_user_sequences": 0,
+      "issuing_users": 10,
+      "vector_on_otherwise_eligible_point_issues": {
+        "absent": 20406
+      }
+    },
+    {
+      "replay_sha256": "715e309bba5d3151d3e1b47461041627db7644d91a8b549c309950e44d6067e8",
+      "build": 98348,
+      "issues": 34202,
+      "implicit_points": 25061,
+      "ordinary_flag_counts": {
+        "0x10a": 234,
+        "0x80108": 24778,
+        "0x88108": 49
+      },
+      "physical_bytes": 501220,
+      "physical_sha256": "92f818b29960bae32ea685b3dcb5f4efa8e9272cbf587e7078dd920f3192a536",
+      "other_command_records_echo_user_sequence": 25061,
+      "repeated_user_sequences": 0,
+      "issuing_users": 10,
+      "vector_on_otherwise_eligible_point_issues": {
+        "absent": 25061
+      }
+    },
+    {
+      "replay_sha256": "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+      "build": 98348,
+      "issues": 25345,
+      "implicit_points": 16818,
+      "ordinary_flag_counts": {
+        "0x10a": 89,
+        "0x80108": 16725,
+        "0x88108": 4
+      },
+      "physical_bytes": 336360,
+      "physical_sha256": "8bc9212b3379b7aecf541b24ad34a9bcd95b8eb32ec9266d10c62a4b850fad05",
+      "other_command_records_echo_user_sequence": 16818,
+      "repeated_user_sequences": 0,
+      "issuing_users": 10,
+      "vector_on_otherwise_eligible_point_issues": {
+        "absent": 16818
+      }
+    },
+    {
+      "replay_sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+      "build": 98348,
+      "issues": 24330,
+      "implicit_points": 16197,
+      "ordinary_flag_counts": {
+        "0x10a": 92,
+        "0x80108": 15928,
+        "0x88108": 177
+      },
+      "physical_bytes": 323940,
+      "physical_sha256": "9874ce6736c6f84b8e7d5174bc49a9a5d61d150e63a217ef11920b0281f470dc",
+      "other_command_records_echo_user_sequence": 16197,
+      "repeated_user_sequences": 0,
+      "issuing_users": 10,
+      "vector_on_otherwise_eligible_point_issues": {
+        "absent": 16197
+      }
+    },
+    {
+      "replay_sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+      "build": 98348,
+      "issues": 31279,
+      "implicit_points": 17410,
+      "ordinary_flag_counts": {
+        "0x10a": 260,
+        "0x810a": 2,
+        "0x80108": 16985,
+        "0x88108": 163
+      },
+      "physical_bytes": 348200,
+      "physical_sha256": "db68d5516c80053224b74adc9b4059b44be5eb1a0f814bed7e0fb518a8f891a4",
+      "other_command_records_echo_user_sequence": 17410,
+      "repeated_user_sequences": 0,
+      "issuing_users": 10,
+      "vector_on_otherwise_eligible_point_issues": {
+        "absent": 17410
+      }
+    },
+    {
+      "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+      "build": 98348,
+      "issues": 22034,
+      "implicit_points": 14035,
+      "ordinary_flag_counts": {
+        "0x10a": 67,
+        "0x80108": 13876,
+        "0x88108": 92
+      },
+      "physical_bytes": 280700,
+      "physical_sha256": "bf7e378cd57bd66b122791aa406716914707d27ceb0f53eacda6e082c169eeb3",
+      "other_command_records_echo_user_sequence": 14035,
+      "repeated_user_sequences": 1,
+      "issuing_users": 10,
+      "vector_on_otherwise_eligible_point_issues": {
+        "absent": 14035
+      }
+    },
+    {
+      "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+      "build": 98348,
+      "issues": 38683,
+      "implicit_points": 28725,
+      "ordinary_flag_counts": {
+        "0x10a": 284,
+        "0x80108": 28319,
+        "0x88108": 122
+      },
+      "physical_bytes": 574500,
+      "physical_sha256": "e493453160156d283aa56c52eea3fab296a37176dcff1cdf668e48c92d7e090f",
+      "other_command_records_echo_user_sequence": 28725,
+      "repeated_user_sequences": 0,
+      "issuing_users": 10,
+      "vector_on_otherwise_eligible_point_issues": {
+        "absent": 28725
+      }
+    },
+    {
+      "replay_sha256": "9872b043e48093abc65e11b7b6d091861e83fc4d202b40b745824da647cb6ef3",
+      "build": 98348,
+      "issues": 33725,
+      "implicit_points": 24017,
+      "ordinary_flag_counts": {
+        "0x10a": 178,
+        "0x80108": 23775,
+        "0x88108": 64
+      },
+      "physical_bytes": 480340,
+      "physical_sha256": "4e58f219022d59ffbdd39ba79b310d7ab7095034865c2adc03ec9892e1f2954e",
+      "other_command_records_echo_user_sequence": 24017,
+      "repeated_user_sequences": 0,
+      "issuing_users": 10,
+      "vector_on_otherwise_eligible_point_issues": {
+        "absent": 24017
+      }
+    },
+    {
+      "replay_sha256": "98ac891fa4fb8e1698e5fc35609fcf75abfe7e89aee9c7f05afff93b10338ab3",
+      "build": 98348,
+      "issues": 27146,
+      "implicit_points": 17086,
+      "ordinary_flag_counts": {
+        "0x10a": 118,
+        "0x80108": 16883,
+        "0x88108": 85
+      },
+      "physical_bytes": 341720,
+      "physical_sha256": "82c21106d169c948b1c6876e6d0d35f2b7c33a21e4849b6ba322392ae924248b",
+      "other_command_records_echo_user_sequence": 17086,
+      "repeated_user_sequences": 0,
+      "issuing_users": 10,
+      "vector_on_otherwise_eligible_point_issues": {
+        "absent": 17086
+      }
+    },
+    {
+      "replay_sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4",
+      "build": 98348,
+      "issues": 26899,
+      "implicit_points": 19899,
+      "ordinary_flag_counts": {
+        "0x10a": 73,
+        "0x80108": 19808,
+        "0x88108": 18
+      },
+      "physical_bytes": 397980,
+      "physical_sha256": "86d4d98539cf60397c029ddac4d07893da1c85247329956d378c1cee8bc1700b",
+      "other_command_records_echo_user_sequence": 19899,
+      "repeated_user_sequences": 0,
+      "issuing_users": 10,
+      "vector_on_otherwise_eligible_point_issues": {
+        "absent": 19899
+      }
+    },
+    {
+      "replay_sha256": "a956b186a0459a47d9b0fdd8af4ccb65c437f11926186471c434e543e218b2d7",
+      "build": 98348,
+      "issues": 21538,
+      "implicit_points": 12573,
+      "ordinary_flag_counts": {
+        "0x10a": 36,
+        "0x80108": 12524,
+        "0x88108": 13
+      },
+      "physical_bytes": 251460,
+      "physical_sha256": "53d51de29dc63261baff5fd7f7e8a1e51c24c2360a7d8f659ac6cf0259cf1392",
+      "other_command_records_echo_user_sequence": 12573,
+      "repeated_user_sequences": 0,
+      "issuing_users": 10,
+      "vector_on_otherwise_eligible_point_issues": {
+        "absent": 12573
+      }
+    },
+    {
+      "replay_sha256": "afcf49a656068f343173fc79afff2d2ebf15066f531cb192382cdba9d1ea3272",
+      "build": 98348,
+      "issues": 36770,
+      "implicit_points": 24119,
+      "ordinary_flag_counts": {
+        "0x10a": 135,
+        "0x80108": 23966,
+        "0x88108": 18
+      },
+      "physical_bytes": 482380,
+      "physical_sha256": "fd774d1970702420940cb176e622186603eacdaa3b009a358b35babc746e5445",
+      "other_command_records_echo_user_sequence": 24119,
+      "repeated_user_sequences": 0,
+      "issuing_users": 10,
+      "vector_on_otherwise_eligible_point_issues": {
+        "absent": 24119
+      }
+    },
+    {
+      "replay_sha256": "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+      "build": 98348,
+      "issues": 32571,
+      "implicit_points": 22249,
+      "ordinary_flag_counts": {
+        "0x10a": 82,
+        "0x80108": 22094,
+        "0x88108": 73
+      },
+      "physical_bytes": 444980,
+      "physical_sha256": "6b743dac9f271de65e1be366f5945c75ea297be406646d115fc911ca38700275",
+      "other_command_records_echo_user_sequence": 22249,
+      "repeated_user_sequences": 0,
+      "issuing_users": 10,
+      "vector_on_otherwise_eligible_point_issues": {
+        "absent": 22249
+      }
+    },
+    {
+      "replay_sha256": "bc16af7f68496cddc4698f70b3853402a0f30aa37951aec3a6b555ed703879e8",
+      "build": 98348,
+      "issues": 41847,
+      "implicit_points": 25021,
+      "ordinary_flag_counts": {
+        "0x10a": 123,
+        "0x810a": 2,
+        "0x80108": 24782,
+        "0x88108": 114
+      },
+      "physical_bytes": 500420,
+      "physical_sha256": "ba7c75b272c319dd91e9f622d889591bb5ea94747e3162bd7d31e3750929ae4f",
+      "other_command_records_echo_user_sequence": 25021,
+      "repeated_user_sequences": 0,
+      "issuing_users": 10,
+      "vector_on_otherwise_eligible_point_issues": {
+        "absent": 25021
+      }
+    },
+    {
+      "replay_sha256": "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77",
+      "build": 98348,
+      "issues": 35262,
+      "implicit_points": 23143,
+      "ordinary_flag_counts": {
+        "0x10a": 108,
+        "0x80108": 22999,
+        "0x88108": 36
+      },
+      "physical_bytes": 462860,
+      "physical_sha256": "d6e69b7cbe142788819bf96f04c190053816615e039a7bbd7adca29228e5f17a",
+      "other_command_records_echo_user_sequence": 23143,
+      "repeated_user_sequences": 0,
+      "issuing_users": 10,
+      "vector_on_otherwise_eligible_point_issues": {
+        "absent": 23143
+      }
+    },
+    {
+      "replay_sha256": "d41417f0fd11a1d512e30fa77882bdebf220432bd7e9412b40440cb79a7c9cec",
+      "build": 98348,
+      "issues": 57672,
+      "implicit_points": 39412,
+      "ordinary_flag_counts": {
+        "0x10a": 218,
+        "0x80108": 39159,
+        "0x88108": 35
+      },
+      "physical_bytes": 788240,
+      "physical_sha256": "cb4610a8b57b05fcc6574ca8e3294052a126d4429eac2c3c7545e9d6c564e341",
+      "other_command_records_echo_user_sequence": 39412,
+      "repeated_user_sequences": 0,
+      "issuing_users": 10,
+      "vector_on_otherwise_eligible_point_issues": {
+        "absent": 39412
+      }
+    },
+    {
+      "replay_sha256": "db40f495edb70b2127b97cae4f479de19e18e61b2a5a0e0413052b571e1dbf7e",
+      "build": 98348,
+      "issues": 45545,
+      "implicit_points": 31425,
+      "ordinary_flag_counts": {
+        "0x10a": 4,
+        "0x80108": 31263,
+        "0x88108": 158
+      },
+      "physical_bytes": 628500,
+      "physical_sha256": "d789f2ce09f73636955c38154132448945b1dcdc76971003f0fc3ab5a820d99a",
+      "other_command_records_echo_user_sequence": 31425,
+      "repeated_user_sequences": 0,
+      "issuing_users": 10,
+      "vector_on_otherwise_eligible_point_issues": {
+        "absent": 31425
+      }
+    },
+    {
+      "replay_sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+      "build": 98348,
+      "issues": 41989,
+      "implicit_points": 26972,
+      "ordinary_flag_counts": {
+        "0x10a": 181,
+        "0x810a": 3,
+        "0x80108": 26519,
+        "0x88108": 269
+      },
+      "physical_bytes": 539440,
+      "physical_sha256": "69e55a586aa90f6417b31420344b80748a724ad56ff414ea396b9e2bd5df698b",
+      "other_command_records_echo_user_sequence": 26972,
+      "repeated_user_sequences": 0,
+      "issuing_users": 10,
+      "vector_on_otherwise_eligible_point_issues": {
+        "absent": 26972
+      }
+    },
+    {
+      "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+      "build": 98348,
+      "issues": 19197,
+      "implicit_points": 12759,
+      "ordinary_flag_counts": {
+        "0x10a": 47,
+        "0x80108": 12706,
+        "0x88108": 6
+      },
+      "physical_bytes": 255180,
+      "physical_sha256": "8a97a809c5dfc2719c7f83aec127c8a779c44378a7358db6e24e1cdb470c71bb",
+      "other_command_records_echo_user_sequence": 12759,
+      "repeated_user_sequences": 0,
+      "issuing_users": 10,
+      "vector_on_otherwise_eligible_point_issues": {
+        "absent": 12759
+      }
+    },
+    {
+      "replay_sha256": "fe801daf9df44f10db2b950989308c8ee2fa55c03b4adfef7ac383b4d46583bf",
+      "build": 98348,
+      "issues": 30374,
+      "implicit_points": 19703,
+      "ordinary_flag_counts": {
+        "0x10a": 37,
+        "0x80108": 19641,
+        "0x88108": 25
+      },
+      "physical_bytes": 394060,
+      "physical_sha256": "3b13d998b4dac7da05b69c62954a889195d762c038d0b2d57e486db0db059935",
+      "other_command_records_echo_user_sequence": 19703,
+      "repeated_user_sequences": 0,
+      "issuing_users": 10,
+      "vector_on_otherwise_eligible_point_issues": {
+        "absent": 19703
+      }
+    }
+  ],
+  "control_ordinary_flags": {
+    "0x10a": 2969,
+    "0x810a": 14,
+    "0x80108": 514492,
+    "0x88108": 1843
+  },
+  "control_physical_frames": 519318,
+  "control_physical_bytes": 10386360,
+  "compatible_zero_bit_positions": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "projected_mapping": {
+    "0x10a": "0x10a",
+    "0x100108": "0x80108",
+    "0x110108": "0x88108"
+  },
+  "retained_r8": {
+    "sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+    "build": 98285,
+    "equal_projected_issues": 1248
+  }
+}

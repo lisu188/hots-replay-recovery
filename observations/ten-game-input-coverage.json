@@ -3,12 +3,12 @@
   "source_events": 104257,
   "source_game_bytes": 1146911,
   "last_source_event_loop": 19732,
-  "included": 19504,
-  "omitted": 84753,
+  "included": 21052,
+  "omitted": 83205,
   "included_by_event_id": {
     "5": 2,
     "7": 10,
-    "27": 58,
+    "27": 1297,
     "28": 15,
     "32": 2,
     "36": 72,
@@ -17,11 +17,11 @@
     "56": 10,
     "101": 2,
     "103": 9,
-    "104": 10,
+    "104": 319,
     "110": 19
   },
   "omitted_by_event_id": {
-    "27": 4500,
+    "27": 3261,
     "28": 143,
     "36": 9,
     "39": 1054,
@@ -32,7 +32,7 @@
     "64": 46,
     "98": 121,
     "103": 33537,
-    "104": 32898,
+    "104": 32589,
     "105": 10851,
     "110": 51
   },
@@ -40,6 +40,8 @@
     "opening": 33,
     "selection": 15,
     "point_session": 28,
+    "implicit_point_issue_conditional_flags": 1248,
+    "same_loop_point_update_conditional_on_issue": 311,
     "camera": 17593,
     "talent_index_requires_target_award_state": 3,
     "unit_click_within_verified_lifetime": 1702,
@@ -50,15 +52,15 @@
     "ping_opening_hero_lifetime": 13,
     "recorded_final_departure": 2
   },
-  "overlap_ordinals": 11,
+  "overlap_ordinals": 19,
   "first_omitted": {
     "ordinal": 33,
     "loop": 68,
     "kind": 46
   },
   "last_included_loop": 19732,
-  "bytes": 155772,
-  "sha256": "6fa047434ca7b2f25e16218e8bdb674d5d66ac0388deee0e7c4be13cc182f645",
+  "bytes": 185496,
+  "sha256": "7b9b942d58c986a15efad7ae0d123ec8f9bf514f795653f7e56c3053092f3bc3",
   "full_game_member": false,
   "target_simulation_verified": false
 }
