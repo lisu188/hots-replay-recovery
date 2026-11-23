@@ -1,0 +1,7 @@
+# Changes to command-event layouts
+
+The point and unit target updates first acquire the optional sequence field in Blizzard's build 40336 definition. Their event layouts and the command-manager layout remain stable from that definition through 96477. All subsequent changes in this four-event comparison belong to the issued command (27). In build 44256 its nested ability and target layouts change and an optional vector appears. The other changes affect the width of the command flags.
+
+The complete four-event layout used by the 96477 reader also occurs in original definitions 44256–45635 and 52860–59799. Some intervening branches use a different width. Consequently the presence of a sequence field, vector or particular flag width cannot establish how the running game created command objects. A genuine recording supplies that evidence. [Normalized layout history](../observations/command-schema-history.json) · [Native object lookup](COMMAND_MANAGER_LOOKUP.md)
+
+Run `python command_schema_history.py PATH_TO_HEROPROTOCOL_CHECKOUT`. The script reads 347 definitions directly from the Git archive of the pinned commit. It recursively compares field names, order, tags, integer constraints, optional fields and choice alternatives for events 27 and 103–105. The layout digest is independent of generated type-table indices. [Original Blizzard definitions](https://github.com/Blizzard/heroprotocol/tree/9af3ea7150f1a8acb53464c92519a9bbcc7a3594/heroprotocol/versions)

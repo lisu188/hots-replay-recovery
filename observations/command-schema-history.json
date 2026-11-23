@@ -1,0 +1,219 @@
+{
+  "upstream": "9af3ea7150f1a8acb53464c92519a9bbcc7a3594",
+  "protocol_definitions": 347,
+  "ranges": [
+    {
+      "first": 39445,
+      "last": 40322,
+      "definitions": 6,
+      "changed_fields": {
+        "27": [
+          "m_cmdFlags",
+          "m_abil",
+          "m_data",
+          "m_sequence",
+          "m_otherUnit",
+          "m_unitGroup"
+        ],
+        "103": [
+          "m_state",
+          "m_sequence"
+        ],
+        "104": [
+          "m_target"
+        ],
+        "105": [
+          "m_target"
+        ]
+      },
+      "issue_flag_width": 25,
+      "family_sha256": "ad233b5088c3696b0f82af8040a56f31ae61cd924a2c0d41a430baf472033444"
+    },
+    {
+      "first": 40336,
+      "last": 42590,
+      "definitions": 16,
+      "changed_fields": {
+        "104": [
+          "m_sequence"
+        ],
+        "105": [
+          "m_sequence"
+        ]
+      },
+      "issue_flag_width": 25,
+      "family_sha256": "5372ee21e109d8532d4ef0d6aa9c3af13f929f5d510aab6c82bf3c9402eefa27"
+    },
+    {
+      "first": 42742,
+      "last": 44124,
+      "definitions": 10,
+      "changed_fields": {
+        "27": [
+          "m_cmdFlags"
+        ]
+      },
+      "issue_flag_width": 24,
+      "family_sha256": "9cc3265229cbc5e351fb3110b0c4e93af079758050b0df166006fffc1f249d92"
+    },
+    {
+      "first": 44256,
+      "last": 45635,
+      "definitions": 8,
+      "changed_fields": {
+        "27": [
+          "m_cmdFlags",
+          "m_abil",
+          "m_data",
+          "m_vector"
+        ]
+      },
+      "issue_flag_width": 26,
+      "family_sha256": "14bc060032f40e22f044baa0810b8cc552e54b2d3f5ddb8fad6e88dee99933b6"
+    },
+    {
+      "first": 45815,
+      "last": 51923,
+      "definitions": 40,
+      "changed_fields": {
+        "27": [
+          "m_cmdFlags"
+        ]
+      },
+      "issue_flag_width": 25,
+      "family_sha256": "384f02ae46248fcd24d0a7bd65a81a59f7501473e6767751f077e6b5dc6726cb"
+    },
+    {
+      "first": 51978,
+      "last": 51978,
+      "definitions": 1,
+      "changed_fields": {
+        "27": [
+          "m_cmdFlags"
+        ]
+      },
+      "issue_flag_width": 26,
+      "family_sha256": "14bc060032f40e22f044baa0810b8cc552e54b2d3f5ddb8fad6e88dee99933b6"
+    },
+    {
+      "first": 52008,
+      "last": 52124,
+      "definitions": 2,
+      "changed_fields": {
+        "27": [
+          "m_cmdFlags"
+        ]
+      },
+      "issue_flag_width": 25,
+      "family_sha256": "384f02ae46248fcd24d0a7bd65a81a59f7501473e6767751f077e6b5dc6726cb"
+    },
+    {
+      "first": 52214,
+      "last": 52214,
+      "definitions": 1,
+      "changed_fields": {
+        "27": [
+          "m_cmdFlags"
+        ]
+      },
+      "issue_flag_width": 26,
+      "family_sha256": "14bc060032f40e22f044baa0810b8cc552e54b2d3f5ddb8fad6e88dee99933b6"
+    },
+    {
+      "first": 52351,
+      "last": 52351,
+      "definitions": 1,
+      "changed_fields": {
+        "27": [
+          "m_cmdFlags"
+        ]
+      },
+      "issue_flag_width": 25,
+      "family_sha256": "384f02ae46248fcd24d0a7bd65a81a59f7501473e6767751f077e6b5dc6726cb"
+    },
+    {
+      "first": 52381,
+      "last": 52561,
+      "definitions": 2,
+      "changed_fields": {
+        "27": [
+          "m_cmdFlags"
+        ]
+      },
+      "issue_flag_width": 26,
+      "family_sha256": "14bc060032f40e22f044baa0810b8cc552e54b2d3f5ddb8fad6e88dee99933b6"
+    },
+    {
+      "first": 52647,
+      "last": 52647,
+      "definitions": 1,
+      "changed_fields": {
+        "27": [
+          "m_cmdFlags"
+        ]
+      },
+      "issue_flag_width": 25,
+      "family_sha256": "384f02ae46248fcd24d0a7bd65a81a59f7501473e6767751f077e6b5dc6726cb"
+    },
+    {
+      "first": 52860,
+      "last": 59799,
+      "definitions": 34,
+      "changed_fields": {
+        "27": [
+          "m_cmdFlags"
+        ]
+      },
+      "issue_flag_width": 26,
+      "family_sha256": "14bc060032f40e22f044baa0810b8cc552e54b2d3f5ddb8fad6e88dee99933b6"
+    },
+    {
+      "first": 59837,
+      "last": 59944,
+      "definitions": 2,
+      "changed_fields": {
+        "27": [
+          "m_cmdFlags"
+        ]
+      },
+      "issue_flag_width": 27,
+      "family_sha256": "580dfa21ec98fed4d7c3e23ec260740a136860879ffc65768914b9ded2dd9d6e"
+    },
+    {
+      "first": 59988,
+      "last": 59988,
+      "definitions": 1,
+      "changed_fields": {
+        "27": [
+          "m_cmdFlags"
+        ]
+      },
+      "issue_flag_width": 26,
+      "family_sha256": "14bc060032f40e22f044baa0810b8cc552e54b2d3f5ddb8fad6e88dee99933b6"
+    },
+    {
+      "first": 60228,
+      "last": 62424,
+      "definitions": 16,
+      "changed_fields": {
+        "27": [
+          "m_cmdFlags"
+        ]
+      },
+      "issue_flag_width": 27,
+      "family_sha256": "580dfa21ec98fed4d7c3e23ec260740a136860879ffc65768914b9ded2dd9d6e"
+    },
+    {
+      "first": 62548,
+      "last": 96477,
+      "definitions": 206,
+      "changed_fields": {
+        "27": [
+          "m_cmdFlags"
+        ]
+      },
+      "issue_flag_width": 26,
+      "family_sha256": "14bc060032f40e22f044baa0810b8cc552e54b2d3f5ddb8fad6e88dee99933b6"
+    }
+  ]
+}
