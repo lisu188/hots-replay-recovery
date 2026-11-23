@@ -1,0 +1,33 @@
+{
+  "build": 98348,
+  "pe_bytes": 53573840,
+  "pe_sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+  "transformed_text_bytes": 36581376,
+  "transformed_text_sha256": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83",
+  "phase_rva": "0x999690",
+  "actual_retire_site": "0x999976",
+  "active_head": "0x2f3d470",
+  "next_link": 20,
+  "clock_due_offset": 148,
+  "countdown_offset": 144,
+  "native_ids": {
+    "UnitRemove": {
+      "index": 1459,
+      "handler": "0x2055420"
+    },
+    "UnitKill": {
+      "index": 1460,
+      "handler": "0x2053a50"
+    },
+    "UnitGetTag": {
+      "index": 1466,
+      "handler": "0x2051d10"
+    }
+  },
+  "order": "next link cached before each current unit; reverse activation on stable list",
+  "first_delay_offset": 184,
+  "final_delay_offset": 152,
+  "fixed_point_scale": 4096,
+  "gate": "unsigned clock >= due; post-update flags & 6; timer <= 0; !stage and final",
+  "native_state_inputs_bound_to_replay": false
+}
