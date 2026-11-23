@@ -74,6 +74,17 @@ def native(exe, code):
         require(sha256(at(start, end - start)).hexdigest() == expected, label)
     methods = {}
     for event_id, (lea, tab, mask) in VTABLES.items():
+        case, = struct.unpack("<I", at(0x1353a78 + 4 * event_id, 4))
+        start = case
+        type_store = bytes.fromhex("c74010")
+        if event_id == 104:
+            call = case + 22
+            require(at(call, 1) == bytes([0xe8]), "Separate event constructor call")
+            start = call + 5 + struct.unpack("<i", at(call + 1, 4))[0]
+            type_store = bytes.fromhex("c74110")
+        require(0 < lea - start <= 96 and
+                (type_store + struct.pack("<I", 0x30000 + event_id)) in at(start, lea - start),
+                "Physical event ID to constructor")
         ins = at(lea, 10)
         pair = ("488d05", "488901") if event_id == 104 else ("488d0d", "488908")
         require(ins[:3].hex() == pair[0] and ins[7:].hex() == pair[1], "Constructor vptr assignment")
@@ -81,7 +92,7 @@ def native(exe, code):
         cls, roles = vmethod(tab, 0x40), vmethod(tab, 0x58)
         require(at(cls, 6) == bytes.fromhex("b802000000c3"), "Queue class leaf")
         require(at(roles, 3) == bytes((0xb0, mask, 0xc3)), "Admission mask leaf")
-        methods[event_id] = dict(vtable=hex(tab), class_leaf=hex(cls), file_class=2,
+        methods[event_id] = dict(case=hex(case), vtable=hex(tab), class_leaf=hex(cls), file_class=2,
                                  mask_leaf=hex(roles), role_mask=mask)
     require(vmethod(0x27bc518, 0x110) == 0x1327810 and
             at(0x1327810, 8).hex() == "80fa107203b010c3", "Sentinel mapping")
