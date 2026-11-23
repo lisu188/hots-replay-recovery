@@ -1,0 +1,532 @@
+{
+  "cases": [
+    {
+      "build": 41810,
+      "sha256": "2fca3c78d0e459d4452e3fb1f41ff3fce22b9c1f8f113019389195ff171bf618",
+      "recorded_generation_count": 2403,
+      "distinct_indices": 254,
+      "unrecorded_numbers_below_max_per_index": 15826,
+      "first_nonconsecutive": {
+        "loop": 931,
+        "index": 148,
+        "previous_generation": 1,
+        "observed_generation": 5,
+        "unit": "CloudSerpent"
+      },
+      "nonconsecutive_births": 1835,
+      "blocker_deaths_before_wave": 54,
+      "blocker_release_order_sha256": "fda088059d8b7a8b6ea944e8909fbd6c59794be4c0727f877a312e77563d05b6",
+      "wave_births": 42,
+      "first_wave_loop": 691,
+      "wave_released_indices": 42,
+      "wave_reuse_count": 42,
+      "six_fresh_indices": false,
+      "six_sequential_new_indices": false
+    },
+    {
+      "build": 98348,
+      "sha256": "4732077e899f6894c29586795a01e2a27fba622dbf22b5d29c7b30d57e3ce4fc",
+      "recorded_generation_count": 3054,
+      "distinct_indices": 246,
+      "unrecorded_numbers_below_max_per_index": 12708,
+      "first_nonconsecutive": {
+        "loop": 889,
+        "index": 92,
+        "previous_generation": 1,
+        "observed_generation": 5,
+        "unit": "AnubarakBeetleSpitBeetle"
+      },
+      "nonconsecutive_births": 2184,
+      "blocker_deaths_before_wave": 54,
+      "blocker_release_order_sha256": "f3d8a7ec20f3fe8eed2d8587bd670dce66c76b735cd152bd732f21378642e8eb",
+      "wave_births": 42,
+      "first_wave_loop": 612,
+      "wave_released_indices": 36,
+      "wave_reuse_count": 36,
+      "six_fresh_indices": true,
+      "six_sequential_new_indices": true
+    },
+    {
+      "build": 98348,
+      "sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+      "recorded_generation_count": 3703,
+      "distinct_indices": 282,
+      "unrecorded_numbers_below_max_per_index": 15410,
+      "first_nonconsecutive": {
+        "loop": 857,
+        "index": 93,
+        "previous_generation": 1,
+        "observed_generation": 4,
+        "unit": "HoggerEzThroDynamite"
+      },
+      "nonconsecutive_births": 2693,
+      "blocker_deaths_before_wave": 54,
+      "blocker_release_order_sha256": "b61a8a506871a35eaf303e0f86f65de18b9d7ef00c1713b11f4baf550bb7f854",
+      "wave_births": 42,
+      "first_wave_loop": 612,
+      "wave_released_indices": 36,
+      "wave_reuse_count": 36,
+      "six_fresh_indices": true,
+      "six_sequential_new_indices": true
+    },
+    {
+      "build": 98348,
+      "sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+      "recorded_generation_count": 4771,
+      "distinct_indices": 316,
+      "unrecorded_numbers_below_max_per_index": 18342,
+      "first_nonconsecutive": {
+        "loop": 772,
+        "index": 94,
+        "previous_generation": 2,
+        "observed_generation": 4,
+        "unit": "ZagaraCreepTumor"
+      },
+      "nonconsecutive_births": 3327,
+      "blocker_deaths_before_wave": 54,
+      "blocker_release_order_sha256": "4c76c3715a4041d30456f4f537a33ab52c2317b39d434fc122092eff5b6eb760",
+      "wave_births": 42,
+      "first_wave_loop": 612,
+      "wave_released_indices": 36,
+      "wave_reuse_count": 36,
+      "six_fresh_indices": true,
+      "six_sequential_new_indices": true
+    },
+    {
+      "build": 98348,
+      "sha256": "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+      "recorded_generation_count": 3241,
+      "distinct_indices": 241,
+      "unrecorded_numbers_below_max_per_index": 12393,
+      "first_nonconsecutive": {
+        "loop": 822,
+        "index": 88,
+        "previous_generation": 1,
+        "observed_generation": 3,
+        "unit": "ChromieSandBlastPastAndFutureMeControllerUnit"
+      },
+      "nonconsecutive_births": 2356,
+      "blocker_deaths_before_wave": 54,
+      "blocker_release_order_sha256": "b5eeb2f6dfd2cee73c63e118cd473519e514573a0dabb597eb62916994924fff",
+      "wave_births": 42,
+      "first_wave_loop": 612,
+      "wave_released_indices": 36,
+      "wave_reuse_count": 36,
+      "six_fresh_indices": false,
+      "six_sequential_new_indices": false
+    },
+    {
+      "build": 98348,
+      "sha256": "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+      "recorded_generation_count": 2908,
+      "distinct_indices": 239,
+      "unrecorded_numbers_below_max_per_index": 13271,
+      "first_nonconsecutive": {
+        "loop": 882,
+        "index": 80,
+        "previous_generation": 1,
+        "observed_generation": 3,
+        "unit": "TyraelEldruinSword"
+      },
+      "nonconsecutive_births": 2162,
+      "blocker_deaths_before_wave": 54,
+      "blocker_release_order_sha256": "73b5d863eca10099b645fe7a7cb22fd91d3b5507b2f65a1f841f6a7ff891e6a4",
+      "wave_births": 42,
+      "first_wave_loop": 612,
+      "wave_released_indices": 36,
+      "wave_reuse_count": 36,
+      "six_fresh_indices": true,
+      "six_sequential_new_indices": true
+    },
+    {
+      "build": 98348,
+      "sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+      "recorded_generation_count": 2860,
+      "distinct_indices": 238,
+      "unrecorded_numbers_below_max_per_index": 12734,
+      "first_nonconsecutive": {
+        "loop": 901,
+        "index": 128,
+        "previous_generation": 2,
+        "observed_generation": 4,
+        "unit": "MephistoSkullMissileMissile"
+      },
+      "nonconsecutive_births": 2096,
+      "blocker_deaths_before_wave": 54,
+      "blocker_release_order_sha256": "926267814c9ff5c853b1a1f15b32c57a9f75086a38da95e0dcf508acda57de95",
+      "wave_births": 42,
+      "first_wave_loop": 612,
+      "wave_released_indices": 36,
+      "wave_reuse_count": 36,
+      "six_fresh_indices": true,
+      "six_sequential_new_indices": true
+    },
+    {
+      "build": 98348,
+      "sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+      "recorded_generation_count": 3963,
+      "distinct_indices": 257,
+      "unrecorded_numbers_below_max_per_index": 16584,
+      "first_nonconsecutive": {
+        "loop": 612,
+        "index": 180,
+        "previous_generation": 0,
+        "observed_generation": 2,
+        "unit": "FootmanMinion"
+      },
+      "nonconsecutive_births": 2933,
+      "blocker_deaths_before_wave": 54,
+      "blocker_release_order_sha256": "992989cd053ac2b652391a0d8905304801244de6521d4618a33704610d9f62ca",
+      "wave_births": 42,
+      "first_wave_loop": 612,
+      "wave_released_indices": 36,
+      "wave_reuse_count": 36,
+      "six_fresh_indices": false,
+      "six_sequential_new_indices": true
+    },
+    {
+      "build": 41810,
+      "sha256": "7efa1c335816eebe802747ae4b16252ed22fcd8387b09d24b115b2917542b52a",
+      "recorded_generation_count": 3460,
+      "distinct_indices": 254,
+      "unrecorded_numbers_below_max_per_index": 20692,
+      "first_nonconsecutive": {
+        "loop": 691,
+        "index": 117,
+        "previous_generation": 1,
+        "observed_generation": 3,
+        "unit": "FootmanMinion"
+      },
+      "nonconsecutive_births": 2703,
+      "blocker_deaths_before_wave": 54,
+      "blocker_release_order_sha256": "fda088059d8b7a8b6ea944e8909fbd6c59794be4c0727f877a312e77563d05b6",
+      "wave_births": 42,
+      "first_wave_loop": 691,
+      "wave_released_indices": 42,
+      "wave_reuse_count": 41,
+      "six_fresh_indices": false,
+      "six_sequential_new_indices": false
+    },
+    {
+      "build": 98348,
+      "sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+      "recorded_generation_count": 3016,
+      "distinct_indices": 240,
+      "unrecorded_numbers_below_max_per_index": 12294,
+      "first_nonconsecutive": {
+        "loop": 823,
+        "index": 143,
+        "previous_generation": 1,
+        "observed_generation": 3,
+        "unit": "ZagaraCreepTumor"
+      },
+      "nonconsecutive_births": 2181,
+      "blocker_deaths_before_wave": 54,
+      "blocker_release_order_sha256": "227c3ce1d28ad198fbeca6a8a28a21e735aac52770b4f47dbba44963c140a9b5",
+      "wave_births": 42,
+      "first_wave_loop": 612,
+      "wave_released_indices": 36,
+      "wave_reuse_count": 36,
+      "six_fresh_indices": true,
+      "six_sequential_new_indices": true
+    },
+    {
+      "build": 98348,
+      "sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+      "recorded_generation_count": 4088,
+      "distinct_indices": 239,
+      "unrecorded_numbers_below_max_per_index": 15322,
+      "first_nonconsecutive": {
+        "loop": 765,
+        "index": 80,
+        "previous_generation": 1,
+        "observed_generation": 3,
+        "unit": "ChromieTimeTrap"
+      },
+      "nonconsecutive_births": 2958,
+      "blocker_deaths_before_wave": 54,
+      "blocker_release_order_sha256": "8511c79036a4319fd04c5d73ada5812c9e3e4672f4105d1d50f585d77ba87360",
+      "wave_births": 42,
+      "first_wave_loop": 612,
+      "wave_released_indices": 36,
+      "wave_reuse_count": 36,
+      "six_fresh_indices": true,
+      "six_sequential_new_indices": true
+    },
+    {
+      "build": 41810,
+      "sha256": "8c4fb83989b528ea3227f6c97758293d1f650e33caa3d38c6a2a84d27ab0850d",
+      "recorded_generation_count": 2111,
+      "distinct_indices": 262,
+      "unrecorded_numbers_below_max_per_index": 13125,
+      "first_nonconsecutive": {
+        "loop": 879,
+        "index": 117,
+        "previous_generation": 1,
+        "observed_generation": 3,
+        "unit": "AbathurSymbiote"
+      },
+      "nonconsecutive_births": 1569,
+      "blocker_deaths_before_wave": 54,
+      "blocker_release_order_sha256": "fda088059d8b7a8b6ea944e8909fbd6c59794be4c0727f877a312e77563d05b6",
+      "wave_births": 42,
+      "first_wave_loop": 691,
+      "wave_released_indices": 42,
+      "wave_reuse_count": 42,
+      "six_fresh_indices": false,
+      "six_sequential_new_indices": false
+    },
+    {
+      "build": 98348,
+      "sha256": "a956b186a0459a47d9b0fdd8af4ccb65c437f11926186471c434e543e218b2d7",
+      "recorded_generation_count": 3659,
+      "distinct_indices": 250,
+      "unrecorded_numbers_below_max_per_index": 14105,
+      "first_nonconsecutive": {
+        "loop": 872,
+        "index": 142,
+        "previous_generation": 1,
+        "observed_generation": 9,
+        "unit": "AnubarakBeetleSpitBeetle"
+      },
+      "nonconsecutive_births": 2668,
+      "blocker_deaths_before_wave": 54,
+      "blocker_release_order_sha256": "87db26455ed454ef293641d45dc00e6663fa39cf3669fcee00fd8fd63af02903",
+      "wave_births": 42,
+      "first_wave_loop": 612,
+      "wave_released_indices": 36,
+      "wave_reuse_count": 36,
+      "six_fresh_indices": true,
+      "six_sequential_new_indices": true
+    },
+    {
+      "build": 98348,
+      "sha256": "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+      "recorded_generation_count": 4221,
+      "distinct_indices": 292,
+      "unrecorded_numbers_below_max_per_index": 17433,
+      "first_nonconsecutive": {
+        "loop": 748,
+        "index": 138,
+        "previous_generation": 1,
+        "observed_generation": 3,
+        "unit": "ChromieTimeTrap"
+      },
+      "nonconsecutive_births": 2937,
+      "blocker_deaths_before_wave": 54,
+      "blocker_release_order_sha256": "18b6643d7b20ab9548eb0361269359f89255da2d4fc7d5868469c906171acd4d",
+      "wave_births": 42,
+      "first_wave_loop": 612,
+      "wave_released_indices": 36,
+      "wave_reuse_count": 36,
+      "six_fresh_indices": true,
+      "six_sequential_new_indices": true
+    },
+    {
+      "build": 98348,
+      "sha256": "bc16af7f68496cddc4698f70b3853402a0f30aa37951aec3a6b555ed703879e8",
+      "recorded_generation_count": 5851,
+      "distinct_indices": 297,
+      "unrecorded_numbers_below_max_per_index": 23497,
+      "first_nonconsecutive": {
+        "loop": 753,
+        "index": 103,
+        "previous_generation": 1,
+        "observed_generation": 3,
+        "unit": "JunkratSteelTrap"
+      },
+      "nonconsecutive_births": 4007,
+      "blocker_deaths_before_wave": 54,
+      "blocker_release_order_sha256": "bd78bd2f8df93034970e18e910e55e9cb72e7a2960ce3f839d7e1b97fbf4e002",
+      "wave_births": 42,
+      "first_wave_loop": 612,
+      "wave_released_indices": 36,
+      "wave_reuse_count": 36,
+      "six_fresh_indices": true,
+      "six_sequential_new_indices": true
+    },
+    {
+      "build": 98348,
+      "sha256": "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77",
+      "recorded_generation_count": 4155,
+      "distinct_indices": 281,
+      "unrecorded_numbers_below_max_per_index": 16857,
+      "first_nonconsecutive": {
+        "loop": 612,
+        "index": 180,
+        "previous_generation": 0,
+        "observed_generation": 2,
+        "unit": "FootmanMinion"
+      },
+      "nonconsecutive_births": 2853,
+      "blocker_deaths_before_wave": 54,
+      "blocker_release_order_sha256": "8ebd4ed384924b35638340430de0b2733ff0dbd03bb65edeeae5510357e95488",
+      "wave_births": 42,
+      "first_wave_loop": 612,
+      "wave_released_indices": 36,
+      "wave_reuse_count": 36,
+      "six_fresh_indices": false,
+      "six_sequential_new_indices": true
+    },
+    {
+      "build": 41810,
+      "sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+      "recorded_generation_count": 2802,
+      "distinct_indices": 252,
+      "unrecorded_numbers_below_max_per_index": 15885,
+      "first_nonconsecutive": {
+        "loop": 849,
+        "index": 95,
+        "previous_generation": 1,
+        "observed_generation": 5,
+        "unit": "AnubarakBeetleSpitBeetle"
+      },
+      "nonconsecutive_births": 2116,
+      "blocker_deaths_before_wave": 54,
+      "blocker_release_order_sha256": "fda088059d8b7a8b6ea944e8909fbd6c59794be4c0727f877a312e77563d05b6",
+      "wave_births": 42,
+      "first_wave_loop": 691,
+      "wave_released_indices": 42,
+      "wave_reuse_count": 42,
+      "six_fresh_indices": false,
+      "six_sequential_new_indices": false
+    },
+    {
+      "build": 98348,
+      "sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+      "recorded_generation_count": 5535,
+      "distinct_indices": 297,
+      "unrecorded_numbers_below_max_per_index": 19276,
+      "first_nonconsecutive": {
+        "loop": 976,
+        "index": 105,
+        "previous_generation": 1,
+        "observed_generation": 5,
+        "unit": "RegenGlobe"
+      },
+      "nonconsecutive_births": 3704,
+      "blocker_deaths_before_wave": 54,
+      "blocker_release_order_sha256": "b8071070b5ed630e551b74de2ea3f368bfc4229b259345a9f4aedb0fffdb6e4f",
+      "wave_births": 42,
+      "first_wave_loop": 612,
+      "wave_released_indices": 36,
+      "wave_reuse_count": 36,
+      "six_fresh_indices": true,
+      "six_sequential_new_indices": true
+    },
+    {
+      "build": 98348,
+      "sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+      "recorded_generation_count": 2860,
+      "distinct_indices": 280,
+      "unrecorded_numbers_below_max_per_index": 10970,
+      "first_nonconsecutive": {
+        "loop": 965,
+        "index": 105,
+        "previous_generation": 1,
+        "observed_generation": 3,
+        "unit": "RegenGlobe"
+      },
+      "nonconsecutive_births": 2007,
+      "blocker_deaths_before_wave": 54,
+      "blocker_release_order_sha256": "e3d0b908aa67452e4dfc83ace2e199e6e48b7b970f2d73ace5a7f9cd5dd85028",
+      "wave_births": 42,
+      "first_wave_loop": 612,
+      "wave_released_indices": 36,
+      "wave_reuse_count": 36,
+      "six_fresh_indices": true,
+      "six_sequential_new_indices": true
+    }
+  ],
+  "builds": {
+    "41810": {
+      "cases": 4,
+      "non_sentinel_fields": {
+        "selection": 270,
+        "command_target": 4501,
+        "updated_target": 43179,
+        "ping": 101,
+        "command_other_unit": 159
+      },
+      "sum_missing_distinct_by_recording": {},
+      "pre_birth_input_fields": {},
+      "missing_numbers": 65528,
+      "witnessed_generation_count": 10776,
+      "release_order_variants": 1,
+      "first_wave_tag_order_variants": 4,
+      "first_six_sequential_new_indices": 0,
+      "first_six_sequential_new_generation_one": 0,
+      "first_wave_births": 168,
+      "first_wave_reusing_a_blocker_index": 168
+    },
+    "98348": {
+      "cases": 15,
+      "non_sentinel_fields": {
+        "selection": 512,
+        "command_target": 86053,
+        "updated_target": 2562,
+        "ping": 140
+      },
+      "sum_missing_distinct_by_recording": {},
+      "pre_birth_input_fields": {},
+      "missing_numbers": 231196,
+      "witnessed_generation_count": 57885,
+      "release_order_variants": 15,
+      "first_wave_tag_order_variants": 15,
+      "first_six_sequential_new_indices": 14,
+      "first_six_sequential_new_generation_one": 12,
+      "first_wave_births": 630,
+      "first_wave_reusing_a_blocker_index": 540
+    }
+  },
+  "source_dynamic_pings": [
+    {
+      "unit": "FootmanMinion",
+      "born": 6950,
+      "pings": 1,
+      "previous_visible_generation": 1,
+      "observed_generation": 6,
+      "missing_intervening_numbers": 4
+    },
+    {
+      "unit": "VehicleDragon",
+      "born": 5282,
+      "pings": 1,
+      "previous_visible_generation": 17,
+      "observed_generation": 19,
+      "missing_intervening_numbers": 1
+    },
+    {
+      "unit": "RangedMinion",
+      "born": 7908,
+      "pings": 1,
+      "previous_visible_generation": 39,
+      "observed_generation": 43,
+      "missing_intervening_numbers": 3
+    },
+    {
+      "unit": "AbathurEvolvedMonstrosity",
+      "born": 8729,
+      "pings": 1,
+      "previous_visible_generation": 59,
+      "observed_generation": 66,
+      "missing_intervening_numbers": 6
+    },
+    {
+      "unit": "VehicleDragon",
+      "born": 14282,
+      "pings": 4,
+      "previous_visible_generation": 121,
+      "observed_generation": 122,
+      "missing_intervening_numbers": 0
+    },
+    {
+      "unit": "MercLanerMeleeKnight",
+      "born": 16096,
+      "pings": 1,
+      "previous_visible_generation": 100,
+      "observed_generation": 132,
+      "missing_intervening_numbers": 31
+    }
+  ]
+}
