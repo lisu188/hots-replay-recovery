@@ -1,0 +1,42 @@
+{
+  "parent_sha256": "5c241e8f9f316909ea237e5dd9f1c4d4ec2e7ea3224d383c596588c7eaf1b9ae",
+  "map_sha256": "2d5cba9c5fd8276ae62468533fae558222730d55b146d41b7ebb7d30532e70b7",
+  "bytes": 2171327,
+  "script_sha256": "8d990dfbdc32b50d8667aafdcd409c02a3ecffd39fb5cfc351833e234f047b40",
+  "unchanged_content_members": 69,
+  "integrity": {
+    "content_members": 70,
+    "live_blocks": 72,
+    "raw_table_results": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "native_member_flags": {
+      "256": 1,
+      "336": 71
+    }
+  },
+  "two_independent_builds_identical": true,
+  "verification": {
+    "sha256": "2d5cba9c5fd8276ae62468533fae558222730d55b146d41b7ebb7d30532e70b7",
+    "script_sha256": "8d990dfbdc32b50d8667aafdcd409c02a3ecffd39fb5cfc351833e234f047b40",
+    "other_content_members_identical": 69,
+    "stock_registrations_replaced_in_place": 2,
+    "mock_first_startup_calls": 7,
+    "mock_total_worker_dispatches": 13,
+    "mock_shared_trigger_allocations": 1,
+    "ordinary_interval_loops": 48,
+    "specialized_interval_loops": 16,
+    "observed_reset_pairs": [
+      15,
+      52
+    ],
+    "reverse_due_order_from_replays_tested": true,
+    "nested_ordinary_dispatch_preserves_48": true,
+    "native_galaxy_compilation_or_playback_verified": false
+  }
+}
