@@ -1,0 +1,70 @@
+{
+  "native": {
+    "native_windows": 22,
+    "frame_default_namespace": 3,
+    "hooked_frame_namespace": 2,
+    "hooked_control_low_bits": 16,
+    "frame_id_offset": "0x1f8",
+    "instance_id_offset": "0x28",
+    "full_mode_slot": 58,
+    "crc_dword_rvas": [
+      "0x2f6fbc0",
+      "0x2f6fbc4",
+      "0x2f6fbc8",
+      "0x2f6fbe0",
+      "0x2f6fbe4",
+      "0x2f6fbe8",
+      "0x2f6fbec",
+      "0x2f6fbf0",
+      "0x2f6fbf4",
+      "0x2f6fbf8",
+      "0x2f6fbfc",
+      "0x2f6fc00"
+    ],
+    "pristine_PE_words": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "pristine_words_crc32_without_nodes": "e511672b",
+    "list_head": "0x2f6fbd8",
+    "per_node": "0x9f1600",
+    "both_counters_reset_to_one_at": [
+      "0x9f4bf0",
+      "0x9f57f0"
+    ],
+    "loaded_control_counter_at": "0x9f29cb",
+    "fast_mode4_world_bit6_clear_slot58": 0,
+    "TEN_published_slot58": null
+  },
+  "ui": {
+    "ui_hookup_calls_by_trigger": {
+      "UIInitializeGameUIHandles": 9,
+      "NotificationDisplayInitialize": 23,
+      "UIInitializeHeroConsole": 19,
+      "UIInitializeDamageFlashUI": 4,
+      "FullscreenOverlaysInitialize": 6
+    },
+    "one_based_authored_cutscene_calls": {
+      "OnFireCutsceneFrame": 47,
+      "SpecialOverlayCutscene": 60,
+      "DeathOverlayCutscene": 61
+    },
+    "death_asset_end_marker_elements": 0,
+    "death_end_bookmark_pauses": true,
+    "loop_end_jumps_to_loop_start": true,
+    "signed_map_sha256": "150bdcea5435021263c84648d892c2c3dcc26bff8c72d1be5198c31a4bb09791",
+    "signed_map_contains_ui_asset_override": false,
+    "counter_before_first_ui_hookup": null,
+    "target_death_frame_control_id": null
+  }
+}

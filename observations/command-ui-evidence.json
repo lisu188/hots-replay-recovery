@@ -1,0 +1,512 @@
+{
+  "summary": {
+    "ten": {
+      "recordings": 1,
+      "groups": {
+        "historical_missing": {
+          "rows": 13984,
+          "prior_0_4_55": 42,
+          "prior_0_4_39": 40,
+          "prior_0_4_28": 4,
+          "following_same_tick_55": 4,
+          "prior_same_tick_55": 8,
+          "prior_same_tick_28": 1
+        },
+        "state2_recorded_later": {
+          "rows": 39,
+          "explicit_ability": 0,
+          "m_otherUnit_tested": 39,
+          "m_otherUnit_present": 0,
+          "m_unitGroup_tested": 39,
+          "m_unitGroup_present": 0
+        }
+      },
+      "by_ui": {
+        "historical_missing/39/prior_1_4/point": {
+          "rows": 24
+        },
+        "historical_missing/39/prior_1_4/unit_same": {
+          "rows": 15
+        },
+        "historical_missing/39/prior_1_4/unit_different": {
+          "rows": 1
+        },
+        "historical_missing/28/prior_1_4/point": {
+          "rows": 3
+        }
+      }
+    },
+    "old_holdouts": {
+      "recordings": 23,
+      "groups": {
+        "historical_missing": {
+          "rows": 338800,
+          "prior_0_4_39": 954,
+          "prior_0_4_55": 760,
+          "prior_same_tick_39": 19,
+          "following_same_tick_55": 78,
+          "prior_same_tick_55": 139,
+          "following_same_tick_39": 11,
+          "prior_0_4_28": 131,
+          "prior_0_4_58": 71,
+          "following_same_tick_58": 9,
+          "following_same_tick_28": 17,
+          "prior_same_tick_58": 3,
+          "prior_same_tick_28": 11,
+          "prior_0_4_62": 8,
+          "prior_0_4_59": 254,
+          "prior_same_tick_59": 166,
+          "following_same_tick_59": 49
+        },
+        "state2_recorded_later": {
+          "rows": 1061,
+          "explicit_ability": 0,
+          "m_otherUnit_tested": 1061,
+          "m_otherUnit_present": 0,
+          "m_unitGroup_tested": 1061,
+          "m_unitGroup_present": 0,
+          "prior_0_4_39": 1,
+          "prior_0_4_59": 2,
+          "prior_same_tick_59": 1,
+          "following_same_tick_59": 1
+        }
+      },
+      "by_ui": {
+        "historical_missing/39/prior_1_4/point": {
+          "rows": 451
+        },
+        "historical_missing/39/prior_1_4/unit_different": {
+          "rows": 100
+        },
+        "historical_missing/39/prior_1_4/unit_same": {
+          "rows": 384
+        },
+        "historical_missing/39/same_tick/point": {
+          "rows": 7
+        },
+        "historical_missing/39/same_tick/unit_different": {
+          "rows": 1
+        },
+        "historical_missing/39/same_tick/unit_same": {
+          "rows": 11
+        },
+        "historical_missing/28/prior_1_4/point": {
+          "rows": 48
+        },
+        "historical_missing/28/prior_1_4/unit_different": {
+          "rows": 10
+        },
+        "historical_missing/28/same_tick/point": {
+          "rows": 5
+        },
+        "state2_recorded_later/39/prior_1_4/unit_same": {
+          "rows": 1,
+          "creator_targets_ui_unit": 1,
+          "creator_targets_other_unit": 0,
+          "creator_not_unit_targeted": 0,
+          "creator_is_implicit": 1,
+          "ui_observation_precedes_creator": 1
+        }
+      }
+    },
+    "target_controls": {
+      "recordings": 24,
+      "groups": {
+        "target_unique_bit19_creator": {
+          "rows": 377535,
+          "explicit_ability": 4138,
+          "m_otherUnit_tested": 377535,
+          "m_otherUnit_present": 0,
+          "m_unitGroup_tested": 377535,
+          "m_unitGroup_present": 0,
+          "m_vector_tested": 377535,
+          "m_vector_present": 0,
+          "prior_0_4_66": 63117,
+          "prior_0_4_55": 23493,
+          "following_same_tick_66": 10187,
+          "prior_same_tick_55": 3768,
+          "following_same_tick_55": 4564,
+          "prior_same_tick_66": 7774,
+          "prior_0_4_39": 4380,
+          "following_same_tick_39": 186,
+          "prior_0_4_28": 432,
+          "prior_same_tick_28": 61,
+          "prior_same_tick_39": 244,
+          "prior_0_4_59": 1208,
+          "prior_0_4_62": 8336,
+          "following_same_tick_62": 1015,
+          "prior_same_tick_62": 410,
+          "prior_0_4_58": 28065,
+          "following_same_tick_58": 9111,
+          "prior_same_tick_58": 1157,
+          "prior_same_tick_59": 812,
+          "following_same_tick_59": 45,
+          "following_same_tick_28": 1
+        }
+      },
+      "by_ui": {
+        "target_unique_bit19_creator/39/prior_1_4/point": {
+          "rows": 4022,
+          "creator_targets_ui_unit": 319,
+          "creator_targets_other_unit": 176,
+          "creator_not_unit_targeted": 3527,
+          "creator_is_implicit": 4012,
+          "ui_observation_precedes_creator": 3660
+        },
+        "target_unique_bit19_creator/28/prior_1_4/point": {
+          "rows": 252,
+          "creator_targets_ui_unit": 0,
+          "creator_targets_other_unit": 15,
+          "creator_not_unit_targeted": 237,
+          "creator_is_implicit": 250,
+          "ui_observation_precedes_creator": 202
+        },
+        "target_unique_bit19_creator/39/same_tick/point": {
+          "rows": 226,
+          "creator_targets_ui_unit": 17,
+          "creator_targets_other_unit": 17,
+          "creator_not_unit_targeted": 192,
+          "creator_is_implicit": 226,
+          "ui_observation_precedes_creator": 6
+        },
+        "target_unique_bit19_creator/39/prior_1_4/unit_different": {
+          "rows": 95,
+          "creator_targets_ui_unit": 50,
+          "creator_targets_other_unit": 26,
+          "creator_not_unit_targeted": 19,
+          "creator_is_implicit": 95,
+          "ui_observation_precedes_creator": 70
+        },
+        "target_unique_bit19_creator/39/same_tick/unit_same": {
+          "rows": 14,
+          "creator_targets_ui_unit": 0,
+          "creator_targets_other_unit": 8,
+          "creator_not_unit_targeted": 6,
+          "creator_is_implicit": 14,
+          "ui_observation_precedes_creator": 0
+        },
+        "target_unique_bit19_creator/39/prior_1_4/unit_same": {
+          "rows": 19,
+          "creator_targets_ui_unit": 0,
+          "creator_targets_other_unit": 13,
+          "creator_not_unit_targeted": 6,
+          "creator_is_implicit": 19,
+          "ui_observation_precedes_creator": 8
+        },
+        "target_unique_bit19_creator/28/same_tick/point": {
+          "rows": 41,
+          "creator_targets_ui_unit": 0,
+          "creator_targets_other_unit": 3,
+          "creator_not_unit_targeted": 38,
+          "creator_is_implicit": 41,
+          "ui_observation_precedes_creator": 3
+        },
+        "target_unique_bit19_creator/28/prior_1_4/unit_different": {
+          "rows": 6,
+          "creator_targets_ui_unit": 0,
+          "creator_targets_other_unit": 5,
+          "creator_not_unit_targeted": 1,
+          "creator_is_implicit": 6,
+          "ui_observation_precedes_creator": 5
+        },
+        "target_unique_bit19_creator/39/same_tick/unit_different": {
+          "rows": 4,
+          "creator_targets_ui_unit": 3,
+          "creator_targets_other_unit": 0,
+          "creator_not_unit_targeted": 1,
+          "creator_is_implicit": 4,
+          "ui_observation_precedes_creator": 0
+        }
+      }
+    },
+    "new_public_target": {
+      "recordings": 3,
+      "groups": {
+        "target_unique_bit19_creator": {
+          "rows": 49795,
+          "explicit_ability": 0,
+          "m_otherUnit_tested": 49795,
+          "m_otherUnit_present": 0,
+          "m_unitGroup_tested": 49795,
+          "m_unitGroup_present": 0,
+          "m_vector_tested": 49795,
+          "m_vector_present": 0,
+          "prior_0_4_28": 25,
+          "prior_0_4_66": 10406,
+          "prior_same_tick_66": 1293,
+          "prior_0_4_55": 3022,
+          "prior_0_4_39": 433,
+          "following_same_tick_66": 1531,
+          "prior_same_tick_55": 483,
+          "following_same_tick_58": 3308,
+          "prior_0_4_58": 9818,
+          "prior_same_tick_58": 456,
+          "following_same_tick_55": 481,
+          "prior_same_tick_28": 3,
+          "prior_same_tick_39": 1,
+          "prior_0_4_59": 298,
+          "prior_same_tick_59": 197,
+          "following_same_tick_59": 6,
+          "following_same_tick_39": 2
+        }
+      },
+      "by_ui": {
+        "target_unique_bit19_creator/28/prior_1_4/point": {
+          "rows": 15,
+          "creator_targets_ui_unit": 0,
+          "creator_targets_other_unit": 1,
+          "creator_not_unit_targeted": 14,
+          "creator_is_implicit": 15,
+          "ui_observation_precedes_creator": 12
+        },
+        "target_unique_bit19_creator/39/prior_1_4/point": {
+          "rows": 424,
+          "creator_targets_ui_unit": 11,
+          "creator_targets_other_unit": 13,
+          "creator_not_unit_targeted": 400,
+          "creator_is_implicit": 424,
+          "ui_observation_precedes_creator": 416
+        },
+        "target_unique_bit19_creator/39/prior_1_4/unit_different": {
+          "rows": 7,
+          "creator_targets_ui_unit": 1,
+          "creator_targets_other_unit": 3,
+          "creator_not_unit_targeted": 3,
+          "creator_is_implicit": 7,
+          "ui_observation_precedes_creator": 7
+        },
+        "target_unique_bit19_creator/28/same_tick/point": {
+          "rows": 3,
+          "creator_targets_ui_unit": 0,
+          "creator_targets_other_unit": 2,
+          "creator_not_unit_targeted": 1,
+          "creator_is_implicit": 3,
+          "ui_observation_precedes_creator": 0
+        },
+        "target_unique_bit19_creator/39/same_tick/point": {
+          "rows": 1,
+          "creator_targets_ui_unit": 0,
+          "creator_targets_other_unit": 0,
+          "creator_not_unit_targeted": 1,
+          "creator_is_implicit": 1,
+          "ui_observation_precedes_creator": 0
+        },
+        "target_unique_bit19_creator/39/prior_1_4/unit_same": {
+          "rows": 1,
+          "creator_targets_ui_unit": 0,
+          "creator_targets_other_unit": 1,
+          "creator_not_unit_targeted": 0,
+          "creator_is_implicit": 1,
+          "ui_observation_precedes_creator": 1
+        }
+      }
+    }
+  },
+  "case_sha256_build": [
+    [
+      "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+      41810
+    ],
+    [
+      "036e05a19255d42930ee561b3bfd07234d8d6e15fb87dd893798ff64d252acce",
+      41810
+    ],
+    [
+      "03a5e7865ef5b57fb5a960da0375298dbcf6cad5cb48774020456cbad7587c82",
+      41810
+    ],
+    [
+      "1230eee79fd3b50a3ee471c587bc77dd14aef67d57bf22cd8df52e877329323a",
+      98348
+    ],
+    [
+      "2fca3c78d0e459d4452e3fb1f41ff3fce22b9c1f8f113019389195ff171bf618",
+      41810
+    ],
+    [
+      "34ace72b2366e6317512cbdcaf8c6cd7965902b729918006dd75c2194b191bae",
+      41810
+    ],
+    [
+      "3a33d012a9d47dc1e66595398c2f3dd75cbc9240762996cf52c9c6ad8337e869",
+      41810
+    ],
+    [
+      "4732077e899f6894c29586795a01e2a27fba622dbf22b5d29c7b30d57e3ce4fc",
+      98348
+    ],
+    [
+      "4f02c8c4b4ae7eb7ec5e290df4f2da26ebe3d71221a3c9b3db064306066b400d",
+      41810
+    ],
+    [
+      "588470a1fe251f6975e9cefe06c5e83f94cee0df4dba62ac6614363100a364c4",
+      41810
+    ],
+    [
+      "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+      98348
+    ],
+    [
+      "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+      98348
+    ],
+    [
+      "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+      98348
+    ],
+    [
+      "69a33649fa3b16fed8f67c0d9ba6eb9fd9666e467e306873dbf488526da3fb99",
+      41810
+    ],
+    [
+      "69b649866a24ae0326ef547eb300492c12559f586e326ec761e4f7827ce5458f",
+      41810
+    ],
+    [
+      "70921bf5fb1d8a99efd8a8317f54695475e07de0f943712c9d5a75bb79df9c78",
+      41810
+    ],
+    [
+      "715e309bba5d3151d3e1b47461041627db7644d91a8b549c309950e44d6067e8",
+      98348
+    ],
+    [
+      "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+      98348
+    ],
+    [
+      "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+      98348
+    ],
+    [
+      "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+      98348
+    ],
+    [
+      "7efa1c335816eebe802747ae4b16252ed22fcd8387b09d24b115b2917542b52a",
+      41810
+    ],
+    [
+      "7fb7b9bcd16df2c19d64f720731b3a937b5931a83582e67c45347368a563fb60",
+      98348
+    ],
+    [
+      "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+      98348
+    ],
+    [
+      "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+      98348
+    ],
+    [
+      "8beb4370c5c6638d5481c25e88970ad49d5651edacf876cb623be7c2f593504b",
+      41810
+    ],
+    [
+      "8c4fb83989b528ea3227f6c97758293d1f650e33caa3d38c6a2a84d27ab0850d",
+      41810
+    ],
+    [
+      "96f31eb4ca6c71ba094646442e95090c65226be63301dfd40e6e9fcea728a14c",
+      98348
+    ],
+    [
+      "9872b043e48093abc65e11b7b6d091861e83fc4d202b40b745824da647cb6ef3",
+      98348
+    ],
+    [
+      "98ac891fa4fb8e1698e5fc35609fcf75abfe7e89aee9c7f05afff93b10338ab3",
+      98348
+    ],
+    [
+      "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4",
+      98348
+    ],
+    [
+      "a6c7c6232f19b9b264ef39bf36b4ce7dfcad56e59c470731b53c28700b9d2603",
+      41810
+    ],
+    [
+      "a956b186a0459a47d9b0fdd8af4ccb65c437f11926186471c434e543e218b2d7",
+      98348
+    ],
+    [
+      "ac9ede2e7bc241a54209d723fb40594920734138f38347b21cea3a7797ae1372",
+      41810
+    ],
+    [
+      "afcf49a656068f343173fc79afff2d2ebf15066f531cb192382cdba9d1ea3272",
+      98348
+    ],
+    [
+      "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+      98348
+    ],
+    [
+      "bc16af7f68496cddc4698f70b3853402a0f30aa37951aec3a6b555ed703879e8",
+      98348
+    ],
+    [
+      "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77",
+      98348
+    ],
+    [
+      "d41417f0fd11a1d512e30fa77882bdebf220432bd7e9412b40440cb79a7c9cec",
+      98348
+    ],
+    [
+      "d417680d70137bed99a536aae8724b4f48491d986e1a6a7de0b10209d5401a68",
+      41810
+    ],
+    [
+      "d493c71358921ed49f8345963ce422dde2d32c1499f34b3a37bcb9e8e359e1ed",
+      41810
+    ],
+    [
+      "d5af3e6672c102a5b33abc7df7884ea2648d01af8f7921f16ff6ad69f3c69a97",
+      41810
+    ],
+    [
+      "db40f495edb70b2127b97cae4f479de19e18e61b2a5a0e0413052b571e1dbf7e",
+      98348
+    ],
+    [
+      "df78325ebf458d513d59bc5f25919561301dddb8ec6b03fe85b63918b703270f",
+      41810
+    ],
+    [
+      "e5931b469dae86d95741bff08b71fc06bb28d5344f7c2ea64c4cc91f60570b2b",
+      41810
+    ],
+    [
+      "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+      98348
+    ],
+    [
+      "f1793e9b408350140762926462e67574010cc70777f847285765724aa8f27b3b",
+      41810
+    ],
+    [
+      "f4e315a3b7044401359e73969172a442a96e7529432f64c183b9f09e7387f04c",
+      98348
+    ],
+    [
+      "f5d9782e55da9d118c6b037e0b39eaac4cb494d92b2eaacd4d7b6842ad866b46",
+      41810
+    ],
+    [
+      "f77c267be04b71b7901d9797ac12cfba8b94596bc9c0e2166904461f856eba3e",
+      41810
+    ],
+    [
+      "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+      98348
+    ],
+    [
+      "fe801daf9df44f10db2b950989308c8ee2fa55c03b4adfef7ac383b4d46583bf",
+      98348
+    ]
+  ],
+  "emitted_creators": 0
+}
