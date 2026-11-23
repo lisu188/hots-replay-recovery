@@ -1,0 +1,60 @@
+{
+  "catalog": {
+    "catalog_sha256": "b2ecee56c24e3a6e62c904f066f858dd5fb9fa144c2e17af423320efaf9c69e1",
+    "ability": "AbathurEvolveMonstrosity",
+    "effect": "AbathurEvolveMonstrosityInitialSet",
+    "create_effect": "AbathurEvolveMonstrosityCreateUnit",
+    "spawn_unit": "AbathurEvolvedMonstrosity"
+  },
+  "cases": [
+    {
+      "build": 41810,
+      "replay_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+      "named_talent_purchases": 1,
+      "tracked_summons": 6,
+      "unique_casts_matched": 6,
+      "snapshot_xy_equals_summon_xy": 6,
+      "host_death_xy_equals_summon_xy": 6,
+      "host_deaths_exactly_one_loop_later": 6,
+      "host_types": {
+        "FootmanMinion": 3,
+        "AbathurLocustNormal": 1,
+        "RangedMinion": 2
+      },
+      "observed_ability_link_and_index": [
+        [
+          45,
+          0
+        ]
+      ],
+      "pings": [
+        {
+          "cast_and_birth_loop": 8729,
+          "host_type": "AbathurLocustNormal",
+          "ping_loop": 9030,
+          "summon_death_loop": 9257
+        }
+      ]
+    },
+    {
+      "build": 97605,
+      "replay_sha256": "3e1662b30d77b24a4e0b2e0601e5159521d5280207c3696c15bde1a3e64204d2",
+      "named_talent_purchases": 1,
+      "tracked_summons": 5,
+      "unique_casts_matched": 5,
+      "snapshot_xy_equals_summon_xy": 4,
+      "host_death_xy_equals_summon_xy": 5,
+      "host_deaths_exactly_one_loop_later": 5,
+      "host_types": {
+        "RangedMinion": 5
+      },
+      "observed_ability_link_and_index": [
+        [
+          197,
+          0
+        ]
+      ],
+      "pings": []
+    }
+  ]
+}
