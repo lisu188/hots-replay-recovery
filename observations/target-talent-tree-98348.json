@@ -1,0 +1,1308 @@
+{
+  "controls_sha256": "0641a634ddf8e0f8915f80e5798024e97d847891c9519be916ffdc38a6ccb395",
+  "format": "ten-greymane-source-to-98348-literal-trees-v1",
+  "global_tier_defaults_sha256": "f39bc54277cec03c773bffb8cb2c183a69b96c75884937937e4d60b04733adad",
+  "hero_xml_by_sha256": {
+    "0331a785983525abcbd58d95159ce4b12d8652c8a7294967e1231b30f5053064": "FaerieDragon",
+    "1e4bc827d905d70772f6e3cd06707b147fa2e8349e94ae9c659b6aa91a79444f": "Barbarian",
+    "39cf6954288e32edd73dfed13f82e45ab5f944a54f9f3fa9adaf2aacc7ffc13b": "Kaelthas",
+    "6e575d1c7e852274480b88e89e06ce993a9b8dd6f7988ccdc57e173c337eb799": "Anubarak",
+    "721086138a01ff65659616556ea617c85f968d8bd28ec888fa6397bde0ce113a": "Nova",
+    "78a564ee1334eeaee26c4b6c57a7dd5d5b3c048cba63a9b7131440d778b98cff": "Greymane",
+    "8dc1f32eca0299e4007a99ac487bf816ff3a7f8a24e0f3301ea050e3f7b8fd29": "Tyrande",
+    "b2ecee56c24e3a6e62c904f066f858dd5fb9fa144c2e17af423320efaf9c69e1": "Abathur"
+  },
+  "scope": "Positions are zero-based direct CHero XML rows, with observations from twelve Dragon Shire controls. Optional global default levels are file-local declarations. Effective rule equivalence, selectable wire indices for unobserved talents and playback are unverified.",
+  "selections": [
+    {
+      "hero": "HeroGreymane",
+      "literal_name_at_source_index": "GreymaneDarkflightThickSkin",
+      "literal_status": "different_position",
+      "loop": 86,
+      "observed_indices_for_name": [
+        2
+      ],
+      "observed_names_at_source_index": [],
+      "ordinal": 427,
+      "purchase": "GreymaneInnerBeastViciousness",
+      "recorded_prior_level": 1,
+      "same_file_CTalent": true,
+      "source_index": 3,
+      "target_global_default_level": 1,
+      "target_literal": {
+        "column": 3,
+        "position": 2,
+        "prerequisites": [],
+        "tier": 1
+      }
+    },
+    {
+      "hero": "HeroAnubarak",
+      "literal_name_at_source_index": "AnubarakNerubianArmor",
+      "literal_status": "absent_from_tree",
+      "loop": 102,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [
+        "AnubarakNerubianArmor"
+      ],
+      "ordinal": 491,
+      "purchase": "AnubarakMasteryExtendedSpikesImpale",
+      "recorded_prior_level": 1,
+      "same_file_CTalent": true,
+      "source_index": 0,
+      "target_literal": null
+    },
+    {
+      "hero": "HeroNova",
+      "literal_name_at_source_index": "NovaRapidProjection",
+      "literal_status": "absent_from_tree",
+      "loop": 133,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [],
+      "ordinal": 844,
+      "purchase": "NovaMasteryCovertOpsPinningShot",
+      "recorded_prior_level": 1,
+      "same_file_CTalent": false,
+      "source_index": 3,
+      "target_literal": null
+    },
+    {
+      "hero": "HeroFaerieDragon",
+      "literal_name_at_source_index": "BrightwingGreaterPolymorphPolymorph",
+      "literal_status": "absent_from_tree",
+      "loop": 148,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [],
+      "ordinal": 914,
+      "purchase": "BrightwingUnfurlingSpraySoothingMist",
+      "recorded_prior_level": 1,
+      "same_file_CTalent": false,
+      "source_index": 0,
+      "target_literal": null
+    },
+    {
+      "hero": "HeroBarbarian",
+      "literal_name_at_source_index": "BarbarianFuriousBlow",
+      "literal_status": "absent_from_tree",
+      "loop": 200,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [
+        "BarbarianFuriousBlow"
+      ],
+      "ordinal": 1171,
+      "purchase": "BarbarianMasteryWarPaint",
+      "recorded_prior_level": 1,
+      "same_file_CTalent": false,
+      "source_index": 0,
+      "target_literal": null
+    },
+    {
+      "hero": "HeroGreymane",
+      "literal_name_at_source_index": "GreymaneGilneanCocktailPerfectAim",
+      "literal_status": "same_position",
+      "loop": 241,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [],
+      "ordinal": 1286,
+      "purchase": "GreymaneGilneanCocktailPerfectAim",
+      "recorded_prior_level": 1,
+      "same_file_CTalent": true,
+      "source_index": 1,
+      "target_global_default_level": 1,
+      "target_literal": {
+        "column": 2,
+        "position": 1,
+        "prerequisites": [],
+        "tier": 1
+      }
+    },
+    {
+      "hero": "HeroKaelthas",
+      "literal_name_at_source_index": "KaelthasManaAddict",
+      "literal_status": "same_position",
+      "loop": 354,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [],
+      "ordinal": 1536,
+      "purchase": "KaelthasManaAddict",
+      "recorded_prior_level": 1,
+      "same_file_CTalent": true,
+      "source_index": 2,
+      "target_global_default_level": 1,
+      "target_literal": {
+        "column": 3,
+        "position": 2,
+        "prerequisites": [],
+        "tier": 1
+      }
+    },
+    {
+      "hero": "HeroTyrande",
+      "literal_name_at_source_index": "TyrandeTrueshotAura",
+      "literal_status": "absent_from_tree",
+      "loop": 364,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [],
+      "ordinal": 1547,
+      "purchase": "GenericTalentSeasonedMarksman",
+      "recorded_prior_level": 1,
+      "same_file_CTalent": false,
+      "source_index": 2,
+      "target_literal": null
+    },
+    {
+      "hero": "HeroAbathur",
+      "literal_name_at_source_index": "AbathurCombatStyleLocustBrood",
+      "literal_status": "different_position",
+      "loop": 681,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [],
+      "ordinal": 3038,
+      "purchase": "AbathurMasteryEnvenomedNestsToxicNest",
+      "recorded_prior_level": 1,
+      "same_file_CTalent": true,
+      "source_index": 3,
+      "target_global_default_level": 1,
+      "target_literal": {
+        "column": 2,
+        "position": 1,
+        "prerequisites": [],
+        "tier": 1
+      }
+    },
+    {
+      "hero": "HeroKaelthas",
+      "literal_name_at_source_index": "KaelthasManaAddict",
+      "literal_status": "same_position",
+      "loop": 1216,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [],
+      "ordinal": 6214,
+      "purchase": "KaelthasManaAddict",
+      "recorded_prior_level": 1,
+      "same_file_CTalent": true,
+      "source_index": 2,
+      "target_global_default_level": 1,
+      "target_literal": {
+        "column": 3,
+        "position": 2,
+        "prerequisites": [],
+        "tier": 1
+      }
+    },
+    {
+      "hero": "HeroGreymane",
+      "literal_name_at_source_index": "GreymaneGilneanCocktailIncendiaryElixir",
+      "literal_status": "absent_from_tree",
+      "loop": 2688,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [],
+      "ordinal": 14242,
+      "purchase": "GreymaneGilneanCocktailDraughtOverflow",
+      "recorded_prior_level": 4,
+      "same_file_CTalent": true,
+      "source_index": 7,
+      "target_literal": null
+    },
+    {
+      "hero": "HeroTyrande",
+      "literal_name_at_source_index": "TyrandeMarkofMending",
+      "literal_status": "absent_from_tree",
+      "loop": 2698,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [],
+      "ordinal": 14281,
+      "purchase": "TyrandeMasterySentinelPierce",
+      "recorded_prior_level": 4,
+      "same_file_CTalent": false,
+      "source_index": 4,
+      "target_literal": null
+    },
+    {
+      "hero": "HeroAnubarak",
+      "literal_name_at_source_index": "AnubarakMasteryShedExoskeletonHardenCarapace",
+      "literal_status": "different_position",
+      "loop": 2792,
+      "observed_indices_for_name": [
+        5
+      ],
+      "observed_names_at_source_index": [],
+      "ordinal": 14651,
+      "purchase": "AnubarakMasteryUnderkingBurrowCharge",
+      "recorded_prior_level": 4,
+      "same_file_CTalent": true,
+      "source_index": 4,
+      "target_global_default_level": 4,
+      "target_literal": {
+        "column": 3,
+        "position": 5,
+        "prerequisites": [],
+        "tier": 2
+      }
+    },
+    {
+      "hero": "HeroKaelthas",
+      "literal_name_at_source_index": "KaelthasGravityLapseNetherWind",
+      "literal_status": "same_position",
+      "loop": 2813,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [],
+      "ordinal": 14723,
+      "purchase": "KaelthasGravityLapseNetherWind",
+      "recorded_prior_level": 4,
+      "same_file_CTalent": true,
+      "source_index": 3,
+      "target_global_default_level": 4,
+      "target_literal": {
+        "column": 1,
+        "position": 3,
+        "prerequisites": [],
+        "tier": 2
+      }
+    },
+    {
+      "hero": "HeroAbathur",
+      "literal_name_at_source_index": "AbathurSymbioteAdrenalOverload",
+      "literal_status": "different_position",
+      "loop": 2826,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [],
+      "ordinal": 14779,
+      "purchase": "AbathurMasteryProlificDispersal",
+      "recorded_prior_level": 4,
+      "same_file_CTalent": true,
+      "source_index": 4,
+      "target_global_default_level": 4,
+      "target_literal": {
+        "column": 3,
+        "position": 6,
+        "prerequisites": [],
+        "tier": 2
+      }
+    },
+    {
+      "hero": "HeroGreymane",
+      "literal_name_at_source_index": "GreymaneGilneanCocktailIncendiaryElixir",
+      "literal_status": "absent_from_tree",
+      "loop": 2841,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [],
+      "ordinal": 14854,
+      "purchase": "GreymaneGilneanCocktailDraughtOverflow",
+      "recorded_prior_level": 4,
+      "same_file_CTalent": true,
+      "source_index": 7,
+      "target_literal": null
+    },
+    {
+      "hero": "HeroBarbarian",
+      "literal_name_at_source_index": "BarbarianLifeFunnel",
+      "literal_status": "absent_from_tree",
+      "loop": 2854,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [
+        "BarbarianLifeFunnel"
+      ],
+      "ordinal": 14911,
+      "purchase": "GenericTalentMercenaryLord",
+      "recorded_prior_level": 4,
+      "same_file_CTalent": false,
+      "source_index": 7,
+      "target_literal": null
+    },
+    {
+      "hero": "HeroNova",
+      "literal_name_at_source_index": "NovaHoloStability",
+      "literal_status": "absent_from_tree",
+      "loop": 2910,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [],
+      "ordinal": 15159,
+      "purchase": "NovaNewRemoteDelivery",
+      "recorded_prior_level": 4,
+      "same_file_CTalent": true,
+      "source_index": 4,
+      "target_literal": null
+    },
+    {
+      "hero": "HeroFaerieDragon",
+      "literal_name_at_source_index": "BrightwingDreamShotArcaneFlare",
+      "literal_status": "absent_from_tree",
+      "loop": 2918,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [],
+      "ordinal": 15170,
+      "purchase": "BrightwingManicPixiePixieDust",
+      "recorded_prior_level": 4,
+      "same_file_CTalent": true,
+      "source_index": 3,
+      "target_literal": null
+    },
+    {
+      "hero": "HeroKaelthas",
+      "literal_name_at_source_index": "KaelthasGravityLapseNetherWind",
+      "literal_status": "same_position",
+      "loop": 2929,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [],
+      "ordinal": 15193,
+      "purchase": "KaelthasGravityLapseNetherWind",
+      "recorded_prior_level": 4,
+      "same_file_CTalent": true,
+      "source_index": 3,
+      "target_global_default_level": 4,
+      "target_literal": {
+        "column": 1,
+        "position": 3,
+        "prerequisites": [],
+        "tier": 2
+      }
+    },
+    {
+      "hero": "HeroGreymane",
+      "literal_name_at_source_index": "GreymaneHeroicAbilityGoForTheThroat",
+      "literal_status": "different_position",
+      "loop": 4275,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [
+        "GreymaneHeroicAbilityGoForTheThroat"
+      ],
+      "ordinal": 23337,
+      "purchase": "GreymaneGilneanCocktailIncendiaryElixir",
+      "recorded_prior_level": 7,
+      "same_file_CTalent": true,
+      "source_index": 9,
+      "target_global_default_level": 7,
+      "target_literal": {
+        "column": 2,
+        "position": 7,
+        "prerequisites": [],
+        "tier": 3
+      }
+    },
+    {
+      "hero": "HeroAbathur",
+      "literal_name_at_source_index": "AbathurSymbioteCarapaceNetworkedCarapace",
+      "literal_status": "different_position",
+      "loop": 4295,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [],
+      "ordinal": 23419,
+      "purchase": "AbathurMasteryVileNestsToxicNest",
+      "recorded_prior_level": 7,
+      "same_file_CTalent": true,
+      "source_index": 9,
+      "target_global_default_level": 7,
+      "target_literal": {
+        "column": 1,
+        "position": 8,
+        "prerequisites": [],
+        "tier": 3
+      }
+    },
+    {
+      "hero": "HeroBarbarian",
+      "literal_name_at_source_index": "BarbarianHeroicAbilityWrathoftheBerserker",
+      "literal_status": "absent_from_tree",
+      "loop": 4307,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [
+        "BarbarianHeroicAbilityWrathoftheBerserker"
+      ],
+      "ordinal": 23457,
+      "purchase": "GenericTalentFollowThrough",
+      "recorded_prior_level": 7,
+      "same_file_CTalent": false,
+      "source_index": 10,
+      "target_literal": null
+    },
+    {
+      "hero": "HeroTyrande",
+      "literal_name_at_source_index": "TyrandeMasteryLightofEluneQuickeningBlessing",
+      "literal_status": "absent_from_tree",
+      "loop": 4320,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [],
+      "ordinal": 23516,
+      "purchase": "BattleMomentumTyrande",
+      "recorded_prior_level": 7,
+      "same_file_CTalent": false,
+      "source_index": 11,
+      "target_literal": null
+    },
+    {
+      "hero": "HeroKaelthas",
+      "literal_name_at_source_index": "KaelthasFlamestrikeBurnedFlesh",
+      "literal_status": "same_position",
+      "loop": 4361,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [],
+      "ordinal": 23721,
+      "purchase": "KaelthasFlamestrikeBurnedFlesh",
+      "recorded_prior_level": 7,
+      "same_file_CTalent": true,
+      "source_index": 6,
+      "target_global_default_level": 7,
+      "target_literal": {
+        "column": 1,
+        "position": 6,
+        "prerequisites": [],
+        "tier": 3
+      }
+    },
+    {
+      "hero": "HeroGreymane",
+      "literal_name_at_source_index": "GreymaneHeroicAbilityGoForTheThroat",
+      "literal_status": "different_position",
+      "loop": 4561,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [
+        "GreymaneHeroicAbilityGoForTheThroat"
+      ],
+      "ordinal": 25042,
+      "purchase": "GreymaneGilneanCocktailIncendiaryElixir",
+      "recorded_prior_level": 7,
+      "same_file_CTalent": true,
+      "source_index": 9,
+      "target_global_default_level": 7,
+      "target_literal": {
+        "column": 2,
+        "position": 7,
+        "prerequisites": [],
+        "tier": 3
+      }
+    },
+    {
+      "hero": "HeroAnubarak",
+      "literal_name_at_source_index": "AnubarakHeroicAbilityCocoon",
+      "literal_status": "different_position",
+      "loop": 4582,
+      "observed_indices_for_name": [
+        3
+      ],
+      "observed_names_at_source_index": [
+        "AnubarakHeroicAbilityCocoon"
+      ],
+      "ordinal": 25196,
+      "purchase": "AnubarakMasteryBedOfBarbs",
+      "recorded_prior_level": 7,
+      "same_file_CTalent": true,
+      "source_index": 10,
+      "target_global_default_level": 4,
+      "target_literal": {
+        "column": 1,
+        "position": 3,
+        "prerequisites": [],
+        "tier": 2
+      }
+    },
+    {
+      "hero": "HeroFaerieDragon",
+      "literal_name_at_source_index": "BrightwingCriticalMistCalmingMist",
+      "literal_status": "absent_from_tree",
+      "loop": 4671,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [
+        "BrightwingCriticalMistCalmingMist"
+      ],
+      "ordinal": 25800,
+      "purchase": "FaerieDragonMasteryPhaseShield",
+      "recorded_prior_level": 7,
+      "same_file_CTalent": false,
+      "source_index": 8,
+      "target_literal": null
+    },
+    {
+      "hero": "HeroKaelthas",
+      "literal_name_at_source_index": "KaelthasLivingBombSunKingsFury",
+      "literal_status": "absent_from_tree",
+      "loop": 4692,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [],
+      "ordinal": 25892,
+      "purchase": "KaelthasGravityCrush",
+      "recorded_prior_level": 7,
+      "same_file_CTalent": false,
+      "source_index": 7,
+      "target_literal": null
+    },
+    {
+      "hero": "HeroNova",
+      "literal_name_at_source_index": "NovaCombatStyleAntiArmorShells",
+      "literal_status": "same_position",
+      "loop": 4722,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [],
+      "ordinal": 26069,
+      "purchase": "NovaCombatStyleAntiArmorShells",
+      "recorded_prior_level": 7,
+      "same_file_CTalent": true,
+      "source_index": 8,
+      "target_global_default_level": 7,
+      "target_literal": {
+        "column": 3,
+        "position": 8,
+        "prerequisites": [],
+        "tier": 3
+      }
+    },
+    {
+      "hero": "HeroGreymane",
+      "literal_name_at_source_index": "GreymaneDarkflightDisengageRunningWild",
+      "literal_status": "different_position",
+      "loop": 6426,
+      "observed_indices_for_name": [
+        9
+      ],
+      "observed_names_at_source_index": [
+        "GreymaneDarkflightDisengageRunningWild"
+      ],
+      "ordinal": 36302,
+      "purchase": "GreymaneHeroicAbilityGoForTheThroat",
+      "recorded_prior_level": 10,
+      "same_file_CTalent": true,
+      "source_index": 11,
+      "target_global_default_level": 10,
+      "target_literal": {
+        "column": 1,
+        "position": 9,
+        "prerequisites": [],
+        "tier": 4
+      }
+    },
+    {
+      "hero": "HeroBarbarian",
+      "literal_name_at_source_index": "BarbarianNoEscape",
+      "literal_status": "different_position",
+      "loop": 6458,
+      "observed_indices_for_name": [
+        10
+      ],
+      "observed_names_at_source_index": [
+        "BarbarianNoEscape"
+      ],
+      "ordinal": 36521,
+      "purchase": "BarbarianHeroicAbilityWrathoftheBerserker",
+      "recorded_prior_level": 10,
+      "same_file_CTalent": true,
+      "source_index": 13,
+      "target_global_default_level": 10,
+      "target_literal": {
+        "column": 2,
+        "position": 10,
+        "prerequisites": [],
+        "tier": 4
+      }
+    },
+    {
+      "hero": "HeroTyrande",
+      "literal_name_at_source_index": "TyrandeRangersMark",
+      "literal_status": "different_position",
+      "loop": 6471,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [],
+      "ordinal": 36563,
+      "purchase": "TyrandeHeroicAbilityShadowstalk",
+      "recorded_prior_level": 10,
+      "same_file_CTalent": true,
+      "source_index": 13,
+      "target_global_default_level": 10,
+      "target_literal": {
+        "column": 1,
+        "position": 9,
+        "prerequisites": [],
+        "tier": 4
+      }
+    },
+    {
+      "hero": "HeroKaelthas",
+      "literal_name_at_source_index": "KaelthasHeroicAbilityPhoenix",
+      "literal_status": "same_position",
+      "loop": 6528,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [],
+      "ordinal": 36860,
+      "purchase": "KaelthasHeroicAbilityPhoenix",
+      "recorded_prior_level": 10,
+      "same_file_CTalent": true,
+      "source_index": 9,
+      "target_global_default_level": 10,
+      "target_literal": {
+        "column": 1,
+        "position": 9,
+        "prerequisites": [],
+        "tier": 4
+      }
+    },
+    {
+      "hero": "HeroAbathur",
+      "literal_name_at_source_index": "AbathurMasterySpatialEfficiency",
+      "literal_status": "different_position",
+      "loop": 6528,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [],
+      "ordinal": 36862,
+      "purchase": "AbathurHeroicAbilityEvolveMonstrosity",
+      "recorded_prior_level": 10,
+      "same_file_CTalent": true,
+      "source_index": 13,
+      "target_global_default_level": 10,
+      "target_literal": {
+        "column": 2,
+        "position": 12,
+        "prerequisites": [],
+        "tier": 4
+      }
+    },
+    {
+      "hero": "HeroAnubarak",
+      "literal_name_at_source_index": "AnubarakBurningBeetles",
+      "literal_status": "absent_from_tree",
+      "loop": 7052,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [
+        "AnubarakBurningBeetles"
+      ],
+      "ordinal": 40518,
+      "purchase": "AnubarakHeroicAbilityCarrionSwarm",
+      "recorded_prior_level": 10,
+      "same_file_CTalent": false,
+      "source_index": 12,
+      "target_literal": null
+    },
+    {
+      "hero": "HeroNova",
+      "literal_name_at_source_index": "NovaHeroicAbilityPrecisionStrike",
+      "literal_status": "different_position",
+      "loop": 7060,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [],
+      "ordinal": 40579,
+      "purchase": "NovaHeroicAbilityTripleTap",
+      "recorded_prior_level": 10,
+      "same_file_CTalent": true,
+      "source_index": 10,
+      "target_global_default_level": 10,
+      "target_literal": {
+        "column": 1,
+        "position": 9,
+        "prerequisites": [],
+        "tier": 4
+      }
+    },
+    {
+      "hero": "HeroKaelthas",
+      "literal_name_at_source_index": "KaelthasHeroicAbilityPyroblast",
+      "literal_status": "same_position",
+      "loop": 7071,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [],
+      "ordinal": 40645,
+      "purchase": "KaelthasHeroicAbilityPyroblast",
+      "recorded_prior_level": 10,
+      "same_file_CTalent": true,
+      "source_index": 10,
+      "target_global_default_level": 10,
+      "target_literal": {
+        "column": 2,
+        "position": 10,
+        "prerequisites": [],
+        "tier": 4
+      }
+    },
+    {
+      "hero": "HeroGreymane",
+      "literal_name_at_source_index": "GreymaneDarkflightDisengageRunningWild",
+      "literal_status": "different_position",
+      "loop": 7074,
+      "observed_indices_for_name": [
+        9
+      ],
+      "observed_names_at_source_index": [
+        "GreymaneDarkflightDisengageRunningWild"
+      ],
+      "ordinal": 40657,
+      "purchase": "GreymaneHeroicAbilityGoForTheThroat",
+      "recorded_prior_level": 10,
+      "same_file_CTalent": true,
+      "source_index": 11,
+      "target_global_default_level": 10,
+      "target_literal": {
+        "column": 1,
+        "position": 9,
+        "prerequisites": [],
+        "tier": 4
+      }
+    },
+    {
+      "hero": "HeroFaerieDragon",
+      "literal_name_at_source_index": "BrightwingPixieDustSafetyDust",
+      "literal_status": "different_position",
+      "loop": 7143,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [
+        "BrightwingPixieDustSafetyDust"
+      ],
+      "ordinal": 41113,
+      "purchase": "FaerieDragonHeroicAbilityEmeraldWind",
+      "recorded_prior_level": 10,
+      "same_file_CTalent": true,
+      "source_index": 12,
+      "target_global_default_level": 10,
+      "target_literal": {
+        "column": 2,
+        "position": 10,
+        "prerequisites": [],
+        "tier": 4
+      }
+    },
+    {
+      "hero": "HeroGreymane",
+      "literal_name_at_source_index": "GreymaneLordofHisPack",
+      "literal_status": "different_position",
+      "loop": 8674,
+      "observed_indices_for_name": [
+        13
+      ],
+      "observed_names_at_source_index": [
+        "GreymaneLordofHisPack"
+      ],
+      "ordinal": 50040,
+      "purchase": "GreymaneInnerBeastOnTheProwl",
+      "recorded_prior_level": 13,
+      "same_file_CTalent": true,
+      "source_index": 15,
+      "target_global_default_level": 13,
+      "target_literal": {
+        "column": 3,
+        "position": 13,
+        "prerequisites": [],
+        "tier": 5
+      }
+    },
+    {
+      "hero": "HeroBarbarian",
+      "literal_name_at_source_index": "BarbarianNervesOfSteel",
+      "literal_status": "absent_from_tree",
+      "loop": 8677,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [
+        "BarbarianNervesOfSteel"
+      ],
+      "ordinal": 50051,
+      "purchase": "BarbarianMasteryMysticalSpearAncientSpear",
+      "recorded_prior_level": 13,
+      "same_file_CTalent": false,
+      "source_index": 16,
+      "target_literal": null
+    },
+    {
+      "hero": "HeroAbathur",
+      "literal_name_at_source_index": "AbathurCombatStyleBombardStrain",
+      "literal_status": "same_position",
+      "loop": 8692,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [],
+      "ordinal": 50077,
+      "purchase": "AbathurCombatStyleBombardStrain",
+      "recorded_prior_level": 13,
+      "same_file_CTalent": true,
+      "source_index": 15,
+      "target_global_default_level": 13,
+      "target_literal": {
+        "column": 3,
+        "position": 15,
+        "prerequisites": [],
+        "tier": 5
+      }
+    },
+    {
+      "hero": "HeroTyrande",
+      "literal_name_at_source_index": "TyrandeMasteryStarfallCelestialWrath",
+      "literal_status": "absent_from_tree",
+      "loop": 8712,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [],
+      "ordinal": 50129,
+      "purchase": "GenericTalentShrinkRay",
+      "recorded_prior_level": 13,
+      "same_file_CTalent": false,
+      "source_index": 18,
+      "target_literal": null
+    },
+    {
+      "hero": "HeroKaelthas",
+      "literal_name_at_source_index": "KaelthasLivingBombFissionBomb",
+      "literal_status": "same_position",
+      "loop": 8872,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [],
+      "ordinal": 50969,
+      "purchase": "KaelthasLivingBombFissionBomb",
+      "recorded_prior_level": 13,
+      "same_file_CTalent": true,
+      "source_index": 13,
+      "target_global_default_level": 13,
+      "target_literal": {
+        "column": 3,
+        "position": 13,
+        "prerequisites": [],
+        "tier": 5
+      }
+    },
+    {
+      "hero": "HeroAnubarak",
+      "literal_name_at_source_index": "AnubarakMasteryEpicenterBurrowCharge",
+      "literal_status": "absent_from_tree",
+      "loop": 9446,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [
+        "AnubarakMasteryEpicenterBurrowCharge"
+      ],
+      "ordinal": 55188,
+      "purchase": "GenericTalentBurningRage",
+      "recorded_prior_level": 13,
+      "same_file_CTalent": false,
+      "source_index": 14,
+      "target_literal": null
+    },
+    {
+      "hero": "HeroNova",
+      "literal_name_at_source_index": "NovaMasteryExplosiveShot",
+      "literal_status": "same_position",
+      "loop": 9535,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [],
+      "ordinal": 55396,
+      "purchase": "NovaMasteryExplosiveShot",
+      "recorded_prior_level": 13,
+      "same_file_CTalent": true,
+      "source_index": 14,
+      "target_global_default_level": 16,
+      "target_literal": {
+        "column": 1,
+        "position": 14,
+        "prerequisites": [],
+        "tier": 6
+      }
+    },
+    {
+      "hero": "HeroFaerieDragon",
+      "literal_name_at_source_index": "FaerieDragonMasteryCritterize",
+      "literal_status": "absent_from_tree",
+      "loop": 9637,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [
+        "FaerieDragonMasteryCritterize"
+      ],
+      "ordinal": 55602,
+      "purchase": "FaerieDragonMasteryShieldDust",
+      "recorded_prior_level": 13,
+      "same_file_CTalent": true,
+      "source_index": 15,
+      "target_literal": null
+    },
+    {
+      "hero": "HeroKaelthas",
+      "literal_name_at_source_index": "KaelthasLivingBombFissionBomb",
+      "literal_status": "same_position",
+      "loop": 9640,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [],
+      "ordinal": 55612,
+      "purchase": "KaelthasLivingBombFissionBomb",
+      "recorded_prior_level": 13,
+      "same_file_CTalent": true,
+      "source_index": 13,
+      "target_global_default_level": 13,
+      "target_literal": {
+        "column": 3,
+        "position": 13,
+        "prerequisites": [],
+        "tier": 5
+      }
+    },
+    {
+      "hero": "HeroGreymane",
+      "literal_name_at_source_index": "GreymaneInnerBeastOnTheProwl",
+      "literal_status": "different_position",
+      "loop": 9927,
+      "observed_indices_for_name": [
+        11
+      ],
+      "observed_names_at_source_index": [
+        "GreymaneInnerBeastOnTheProwl"
+      ],
+      "ordinal": 56884,
+      "purchase": "GreymaneDarkflightDisengageRunningWild",
+      "recorded_prior_level": 13,
+      "same_file_CTalent": true,
+      "source_index": 13,
+      "target_global_default_level": 13,
+      "target_literal": {
+        "column": 1,
+        "position": 11,
+        "prerequisites": [],
+        "tier": 5
+      }
+    },
+    {
+      "hero": "HeroAnubarak",
+      "literal_name_at_source_index": "AnubarakCocoonCryptweave",
+      "literal_status": "different_position",
+      "loop": 11478,
+      "observed_indices_for_name": [
+        14
+      ],
+      "observed_names_at_source_index": [],
+      "ordinal": 65350,
+      "purchase": "AnubarakMasteryEpicenterBurrowCharge",
+      "recorded_prior_level": 16,
+      "same_file_CTalent": true,
+      "source_index": 18,
+      "target_global_default_level": 16,
+      "target_literal": {
+        "column": 1,
+        "position": 14,
+        "prerequisites": [],
+        "tier": 6
+      }
+    },
+    {
+      "hero": "HeroGreymane",
+      "literal_name_at_source_index": "GreymaneGoForTheThroatUnleashed",
+      "literal_status": "absent_from_tree",
+      "loop": 11489,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [],
+      "ordinal": 65374,
+      "purchase": "GreymaneGilneanCocktailConcentratedBlast",
+      "recorded_prior_level": 16,
+      "same_file_CTalent": false,
+      "source_index": 17,
+      "target_literal": null
+    },
+    {
+      "hero": "HeroNova",
+      "literal_name_at_source_index": "NovaMasteryLethalDecoy",
+      "literal_status": "different_position",
+      "loop": 11512,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [],
+      "ordinal": 65433,
+      "purchase": "NovaMasteryCripplingShot",
+      "recorded_prior_level": 16,
+      "same_file_CTalent": true,
+      "source_index": 16,
+      "target_global_default_level": 16,
+      "target_literal": {
+        "column": 2,
+        "position": 15,
+        "prerequisites": [],
+        "tier": 6
+      }
+    },
+    {
+      "hero": "HeroKaelthas",
+      "literal_name_at_source_index": "KaelthasLivingBombIgnite",
+      "literal_status": "different_position",
+      "loop": 11539,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [],
+      "ordinal": 65471,
+      "purchase": "KaelthasLivingBombSunKingsFury",
+      "recorded_prior_level": 16,
+      "same_file_CTalent": true,
+      "source_index": 15,
+      "target_global_default_level": 7,
+      "target_literal": {
+        "column": 2,
+        "position": 7,
+        "prerequisites": [],
+        "tier": 3
+      }
+    },
+    {
+      "hero": "HeroFaerieDragon",
+      "literal_name_at_source_index": "BrightwingInvisibleFriends",
+      "literal_status": "different_position",
+      "loop": 11594,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [
+        "BrightwingInvisibleFriends"
+      ],
+      "ordinal": 65613,
+      "purchase": "BrightwingGreaterPolymorphPolymorph",
+      "recorded_prior_level": 16,
+      "same_file_CTalent": true,
+      "source_index": 17,
+      "target_global_default_level": 1,
+      "target_literal": {
+        "column": 1,
+        "position": 0,
+        "prerequisites": [],
+        "tier": 1
+      }
+    },
+    {
+      "hero": "HeroGreymane",
+      "literal_name_at_source_index": "GreymaneGoForTheThroatUnleashed",
+      "literal_status": "absent_from_tree",
+      "loop": 11908,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [],
+      "ordinal": 67378,
+      "purchase": "GreymaneGilneanCocktailConcentratedBlast",
+      "recorded_prior_level": 16,
+      "same_file_CTalent": false,
+      "source_index": 17,
+      "target_literal": null
+    },
+    {
+      "hero": "HeroKaelthas",
+      "literal_name_at_source_index": "KaelthasLivingBombIgnite",
+      "literal_status": "different_position",
+      "loop": 11930,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [],
+      "ordinal": 67525,
+      "purchase": "KaelthasLivingBombSunKingsFury",
+      "recorded_prior_level": 16,
+      "same_file_CTalent": true,
+      "source_index": 15,
+      "target_global_default_level": 7,
+      "target_literal": {
+        "column": 2,
+        "position": 7,
+        "prerequisites": [],
+        "tier": 3
+      }
+    },
+    {
+      "hero": "HeroBarbarian",
+      "literal_name_at_source_index": null,
+      "literal_status": "absent_from_tree",
+      "loop": 11940,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [],
+      "ordinal": 67563,
+      "purchase": "SonyaTalentNervesOfSteel",
+      "recorded_prior_level": 16,
+      "same_file_CTalent": false,
+      "source_index": 21,
+      "target_literal": null
+    },
+    {
+      "hero": "HeroAbathur",
+      "literal_name_at_source_index": "AbathurUltimateEvolutionEvolutionaryLink",
+      "literal_status": "absent_from_tree",
+      "loop": 11946,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [],
+      "ordinal": 67599,
+      "purchase": "AbathurCombatStyleLocustSwarm",
+      "recorded_prior_level": 16,
+      "same_file_CTalent": false,
+      "source_index": 20,
+      "target_literal": null
+    },
+    {
+      "hero": "HeroTyrande",
+      "literal_name_at_source_index": null,
+      "literal_status": "absent_from_tree",
+      "loop": 11983,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [],
+      "ordinal": 67734,
+      "purchase": "TyrandeMasteryRanger",
+      "recorded_prior_level": 16,
+      "same_file_CTalent": false,
+      "source_index": 21,
+      "target_literal": null
+    },
+    {
+      "hero": "HeroAnubarak",
+      "literal_name_at_source_index": null,
+      "literal_status": "absent_from_tree",
+      "loop": 14776,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [],
+      "ordinal": 81111,
+      "purchase": "AnubarakMasteryHiveMasterCarrionSwarm",
+      "recorded_prior_level": 20,
+      "same_file_CTalent": false,
+      "source_index": 22,
+      "target_literal": null
+    },
+    {
+      "hero": "HeroNova",
+      "literal_name_at_source_index": "NovaMasteryPrecisionBarrage",
+      "literal_status": "different_position",
+      "loop": 14860,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [],
+      "ordinal": 81520,
+      "purchase": "NovaMasteryFastReload",
+      "recorded_prior_level": 20,
+      "same_file_CTalent": true,
+      "source_index": 18,
+      "target_global_default_level": 20,
+      "target_literal": {
+        "column": 1,
+        "position": 17,
+        "prerequisites": [
+          "NovaHeroicAbilityTripleTap"
+        ],
+        "tier": 7
+      }
+    },
+    {
+      "hero": "HeroBarbarian",
+      "literal_name_at_source_index": null,
+      "literal_status": "absent_from_tree",
+      "loop": 15241,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [],
+      "ordinal": 83327,
+      "purchase": "SonyaTalentIgnorePain",
+      "recorded_prior_level": 20,
+      "same_file_CTalent": false,
+      "source_index": 25,
+      "target_literal": null
+    },
+    {
+      "hero": "HeroKaelthas",
+      "literal_name_at_source_index": "KaelthasMasterOfFlames",
+      "literal_status": "same_position",
+      "loop": 15394,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [],
+      "ordinal": 83965,
+      "purchase": "KaelthasMasterOfFlames",
+      "recorded_prior_level": 20,
+      "same_file_CTalent": true,
+      "source_index": 19,
+      "target_global_default_level": 20,
+      "target_literal": {
+        "column": 3,
+        "position": 19,
+        "prerequisites": [],
+        "tier": 7
+      }
+    },
+    {
+      "hero": "HeroGreymane",
+      "literal_name_at_source_index": null,
+      "literal_status": "different_position",
+      "loop": 15443,
+      "observed_indices_for_name": [
+        19
+      ],
+      "observed_names_at_source_index": [],
+      "ordinal": 84184,
+      "purchase": "GreymaneHuntersBlunderbuss",
+      "recorded_prior_level": 20,
+      "same_file_CTalent": true,
+      "source_index": 23,
+      "target_global_default_level": 20,
+      "target_literal": {
+        "column": 3,
+        "position": 19,
+        "prerequisites": [],
+        "tier": 7
+      }
+    },
+    {
+      "hero": "HeroTyrande",
+      "literal_name_at_source_index": null,
+      "literal_status": "absent_from_tree",
+      "loop": 15491,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [],
+      "ordinal": 84418,
+      "purchase": "GenericTalentRewind",
+      "recorded_prior_level": 20,
+      "same_file_CTalent": false,
+      "source_index": 27,
+      "target_literal": null
+    },
+    {
+      "hero": "HeroKaelthas",
+      "literal_name_at_source_index": "KaelthasMasteryFlamethrower",
+      "literal_status": "absent_from_tree",
+      "loop": 15548,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [],
+      "ordinal": 84674,
+      "purchase": "GenericArcanePower",
+      "recorded_prior_level": 20,
+      "same_file_CTalent": false,
+      "source_index": 20,
+      "target_literal": null
+    },
+    {
+      "hero": "HeroAbathur",
+      "literal_name_at_source_index": null,
+      "literal_status": "different_position",
+      "loop": 15709,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [],
+      "ordinal": 85330,
+      "purchase": "AbathurMasteryLocustMaster",
+      "recorded_prior_level": 20,
+      "same_file_CTalent": true,
+      "source_index": 25,
+      "target_global_default_level": 20,
+      "target_literal": {
+        "column": 4,
+        "position": 23,
+        "prerequisites": [],
+        "tier": 7
+      }
+    },
+    {
+      "hero": "HeroGreymane",
+      "literal_name_at_source_index": null,
+      "literal_status": "different_position",
+      "loop": 15804,
+      "observed_indices_for_name": [
+        19
+      ],
+      "observed_names_at_source_index": [],
+      "ordinal": 85547,
+      "purchase": "GreymaneHuntersBlunderbuss",
+      "recorded_prior_level": 20,
+      "same_file_CTalent": true,
+      "source_index": 23,
+      "target_global_default_level": 20,
+      "target_literal": {
+        "column": 3,
+        "position": 19,
+        "prerequisites": [],
+        "tier": 7
+      }
+    },
+    {
+      "hero": "HeroFaerieDragon",
+      "literal_name_at_source_index": null,
+      "literal_status": "absent_from_tree",
+      "loop": 16696,
+      "observed_indices_for_name": [],
+      "observed_names_at_source_index": [],
+      "ordinal": 89637,
+      "purchase": "FaerieDragonMasteryContinuousWinds",
+      "recorded_prior_level": 21,
+      "same_file_CTalent": true,
+      "source_index": 22,
+      "target_literal": null
+    }
+  ],
+  "source_build": 41810,
+  "source_path_sha256": "8e96e51618e5d3922dda9d2ecfa88bc4b9461b8ec0cd9bf947374ff696d2e1e9",
+  "source_purchase_counts": {
+    "absent_from_tree": 30,
+    "different_position": 26,
+    "same_position": 14
+  },
+  "target_build": 98348
+}

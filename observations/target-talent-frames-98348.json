@@ -1,0 +1,801 @@
+{
+  "candidate_frames": 11,
+  "context": "Isolated frames retain the recorded numeric user slot and the delta from the immediately preceding source game event.",
+  "controls_sha256": "0641a634ddf8e0f8915f80e5798024e97d847891c9519be916ffdc38a6ccb395",
+  "format": "ten-greymane-isolated-target-talent-frames-v1",
+  "replay_application_eligible": false,
+  "selections": [
+    {
+      "decoders_agree": true,
+      "direct_position": 2,
+      "encoders_byte_equal": true,
+      "event_id": 110,
+      "frame_bytes": 7,
+      "hero": "HeroGreymane",
+      "loop": 86,
+      "observed_indices_for_name": [
+        2
+      ],
+      "ordinal": 427,
+      "purchase": "GreymaneInnerBeastViciousness",
+      "source_index": 3,
+      "status": "isolated_wire_candidate",
+      "target_index": 2
+    },
+    {
+      "direct_position": null,
+      "hero": "HeroAnubarak",
+      "loop": 102,
+      "observed_indices_for_name": [],
+      "ordinal": 491,
+      "purchase": "AnubarakMasteryExtendedSpikesImpale",
+      "source_index": 0,
+      "status": "absent_from_direct_tree"
+    },
+    {
+      "direct_position": null,
+      "hero": "HeroNova",
+      "loop": 133,
+      "observed_indices_for_name": [],
+      "ordinal": 844,
+      "purchase": "NovaMasteryCovertOpsPinningShot",
+      "source_index": 3,
+      "status": "absent_from_direct_tree"
+    },
+    {
+      "direct_position": null,
+      "hero": "HeroFaerieDragon",
+      "loop": 148,
+      "observed_indices_for_name": [],
+      "ordinal": 914,
+      "purchase": "BrightwingUnfurlingSpraySoothingMist",
+      "source_index": 0,
+      "status": "absent_from_direct_tree"
+    },
+    {
+      "direct_position": null,
+      "hero": "HeroBarbarian",
+      "loop": 200,
+      "observed_indices_for_name": [],
+      "ordinal": 1171,
+      "purchase": "BarbarianMasteryWarPaint",
+      "source_index": 0,
+      "status": "absent_from_direct_tree"
+    },
+    {
+      "direct_position": 1,
+      "hero": "HeroGreymane",
+      "loop": 241,
+      "observed_indices_for_name": [],
+      "ordinal": 1286,
+      "purchase": "GreymaneGilneanCocktailPerfectAim",
+      "source_index": 1,
+      "status": "no_independent_current_wire_observation"
+    },
+    {
+      "direct_position": 2,
+      "hero": "HeroKaelthas",
+      "loop": 354,
+      "observed_indices_for_name": [],
+      "ordinal": 1536,
+      "purchase": "KaelthasManaAddict",
+      "source_index": 2,
+      "status": "no_independent_current_wire_observation"
+    },
+    {
+      "direct_position": null,
+      "hero": "HeroTyrande",
+      "loop": 364,
+      "observed_indices_for_name": [],
+      "ordinal": 1547,
+      "purchase": "GenericTalentSeasonedMarksman",
+      "source_index": 2,
+      "status": "absent_from_direct_tree"
+    },
+    {
+      "direct_position": 1,
+      "hero": "HeroAbathur",
+      "loop": 681,
+      "observed_indices_for_name": [],
+      "ordinal": 3038,
+      "purchase": "AbathurMasteryEnvenomedNestsToxicNest",
+      "source_index": 3,
+      "status": "no_independent_current_wire_observation"
+    },
+    {
+      "direct_position": 2,
+      "hero": "HeroKaelthas",
+      "loop": 1216,
+      "observed_indices_for_name": [],
+      "ordinal": 6214,
+      "purchase": "KaelthasManaAddict",
+      "source_index": 2,
+      "status": "no_independent_current_wire_observation"
+    },
+    {
+      "direct_position": null,
+      "hero": "HeroGreymane",
+      "loop": 2688,
+      "observed_indices_for_name": [],
+      "ordinal": 14242,
+      "purchase": "GreymaneGilneanCocktailDraughtOverflow",
+      "source_index": 7,
+      "status": "absent_from_direct_tree"
+    },
+    {
+      "direct_position": null,
+      "hero": "HeroTyrande",
+      "loop": 2698,
+      "observed_indices_for_name": [],
+      "ordinal": 14281,
+      "purchase": "TyrandeMasterySentinelPierce",
+      "source_index": 4,
+      "status": "absent_from_direct_tree"
+    },
+    {
+      "decoders_agree": true,
+      "direct_position": 5,
+      "encoders_byte_equal": true,
+      "event_id": 110,
+      "frame_bytes": 7,
+      "hero": "HeroAnubarak",
+      "loop": 2792,
+      "observed_indices_for_name": [
+        5
+      ],
+      "ordinal": 14651,
+      "purchase": "AnubarakMasteryUnderkingBurrowCharge",
+      "source_index": 4,
+      "status": "isolated_wire_candidate",
+      "target_index": 5
+    },
+    {
+      "direct_position": 3,
+      "hero": "HeroKaelthas",
+      "loop": 2813,
+      "observed_indices_for_name": [],
+      "ordinal": 14723,
+      "purchase": "KaelthasGravityLapseNetherWind",
+      "source_index": 3,
+      "status": "no_independent_current_wire_observation"
+    },
+    {
+      "direct_position": 6,
+      "hero": "HeroAbathur",
+      "loop": 2826,
+      "observed_indices_for_name": [],
+      "ordinal": 14779,
+      "purchase": "AbathurMasteryProlificDispersal",
+      "source_index": 4,
+      "status": "no_independent_current_wire_observation"
+    },
+    {
+      "direct_position": null,
+      "hero": "HeroGreymane",
+      "loop": 2841,
+      "observed_indices_for_name": [],
+      "ordinal": 14854,
+      "purchase": "GreymaneGilneanCocktailDraughtOverflow",
+      "source_index": 7,
+      "status": "absent_from_direct_tree"
+    },
+    {
+      "direct_position": null,
+      "hero": "HeroBarbarian",
+      "loop": 2854,
+      "observed_indices_for_name": [],
+      "ordinal": 14911,
+      "purchase": "GenericTalentMercenaryLord",
+      "source_index": 7,
+      "status": "absent_from_direct_tree"
+    },
+    {
+      "direct_position": null,
+      "hero": "HeroNova",
+      "loop": 2910,
+      "observed_indices_for_name": [],
+      "ordinal": 15159,
+      "purchase": "NovaNewRemoteDelivery",
+      "source_index": 4,
+      "status": "absent_from_direct_tree"
+    },
+    {
+      "direct_position": null,
+      "hero": "HeroFaerieDragon",
+      "loop": 2918,
+      "observed_indices_for_name": [],
+      "ordinal": 15170,
+      "purchase": "BrightwingManicPixiePixieDust",
+      "source_index": 3,
+      "status": "absent_from_direct_tree"
+    },
+    {
+      "direct_position": 3,
+      "hero": "HeroKaelthas",
+      "loop": 2929,
+      "observed_indices_for_name": [],
+      "ordinal": 15193,
+      "purchase": "KaelthasGravityLapseNetherWind",
+      "source_index": 3,
+      "status": "no_independent_current_wire_observation"
+    },
+    {
+      "direct_position": 7,
+      "hero": "HeroGreymane",
+      "loop": 4275,
+      "observed_indices_for_name": [],
+      "ordinal": 23337,
+      "purchase": "GreymaneGilneanCocktailIncendiaryElixir",
+      "source_index": 9,
+      "status": "no_independent_current_wire_observation"
+    },
+    {
+      "direct_position": 8,
+      "hero": "HeroAbathur",
+      "loop": 4295,
+      "observed_indices_for_name": [],
+      "ordinal": 23419,
+      "purchase": "AbathurMasteryVileNestsToxicNest",
+      "source_index": 9,
+      "status": "no_independent_current_wire_observation"
+    },
+    {
+      "direct_position": null,
+      "hero": "HeroBarbarian",
+      "loop": 4307,
+      "observed_indices_for_name": [],
+      "ordinal": 23457,
+      "purchase": "GenericTalentFollowThrough",
+      "source_index": 10,
+      "status": "absent_from_direct_tree"
+    },
+    {
+      "direct_position": null,
+      "hero": "HeroTyrande",
+      "loop": 4320,
+      "observed_indices_for_name": [],
+      "ordinal": 23516,
+      "purchase": "BattleMomentumTyrande",
+      "source_index": 11,
+      "status": "absent_from_direct_tree"
+    },
+    {
+      "direct_position": 6,
+      "hero": "HeroKaelthas",
+      "loop": 4361,
+      "observed_indices_for_name": [],
+      "ordinal": 23721,
+      "purchase": "KaelthasFlamestrikeBurnedFlesh",
+      "source_index": 6,
+      "status": "no_independent_current_wire_observation"
+    },
+    {
+      "direct_position": 7,
+      "hero": "HeroGreymane",
+      "loop": 4561,
+      "observed_indices_for_name": [],
+      "ordinal": 25042,
+      "purchase": "GreymaneGilneanCocktailIncendiaryElixir",
+      "source_index": 9,
+      "status": "no_independent_current_wire_observation"
+    },
+    {
+      "decoders_agree": true,
+      "direct_position": 3,
+      "encoders_byte_equal": true,
+      "event_id": 110,
+      "frame_bytes": 7,
+      "hero": "HeroAnubarak",
+      "loop": 4582,
+      "observed_indices_for_name": [
+        3
+      ],
+      "ordinal": 25196,
+      "purchase": "AnubarakMasteryBedOfBarbs",
+      "source_index": 10,
+      "status": "isolated_wire_candidate",
+      "target_index": 3
+    },
+    {
+      "direct_position": null,
+      "hero": "HeroFaerieDragon",
+      "loop": 4671,
+      "observed_indices_for_name": [],
+      "ordinal": 25800,
+      "purchase": "FaerieDragonMasteryPhaseShield",
+      "source_index": 8,
+      "status": "absent_from_direct_tree"
+    },
+    {
+      "direct_position": null,
+      "hero": "HeroKaelthas",
+      "loop": 4692,
+      "observed_indices_for_name": [],
+      "ordinal": 25892,
+      "purchase": "KaelthasGravityCrush",
+      "source_index": 7,
+      "status": "absent_from_direct_tree"
+    },
+    {
+      "direct_position": 8,
+      "hero": "HeroNova",
+      "loop": 4722,
+      "observed_indices_for_name": [],
+      "ordinal": 26069,
+      "purchase": "NovaCombatStyleAntiArmorShells",
+      "source_index": 8,
+      "status": "no_independent_current_wire_observation"
+    },
+    {
+      "decoders_agree": true,
+      "direct_position": 9,
+      "encoders_byte_equal": true,
+      "event_id": 110,
+      "frame_bytes": 7,
+      "hero": "HeroGreymane",
+      "loop": 6426,
+      "observed_indices_for_name": [
+        9
+      ],
+      "ordinal": 36302,
+      "purchase": "GreymaneHeroicAbilityGoForTheThroat",
+      "source_index": 11,
+      "status": "isolated_wire_candidate",
+      "target_index": 9
+    },
+    {
+      "decoders_agree": true,
+      "direct_position": 10,
+      "encoders_byte_equal": true,
+      "event_id": 110,
+      "frame_bytes": 7,
+      "hero": "HeroBarbarian",
+      "loop": 6458,
+      "observed_indices_for_name": [
+        10
+      ],
+      "ordinal": 36521,
+      "purchase": "BarbarianHeroicAbilityWrathoftheBerserker",
+      "source_index": 13,
+      "status": "isolated_wire_candidate",
+      "target_index": 10
+    },
+    {
+      "direct_position": 9,
+      "hero": "HeroTyrande",
+      "loop": 6471,
+      "observed_indices_for_name": [],
+      "ordinal": 36563,
+      "purchase": "TyrandeHeroicAbilityShadowstalk",
+      "source_index": 13,
+      "status": "no_independent_current_wire_observation"
+    },
+    {
+      "direct_position": 9,
+      "hero": "HeroKaelthas",
+      "loop": 6528,
+      "observed_indices_for_name": [],
+      "ordinal": 36860,
+      "purchase": "KaelthasHeroicAbilityPhoenix",
+      "source_index": 9,
+      "status": "no_independent_current_wire_observation"
+    },
+    {
+      "direct_position": 12,
+      "hero": "HeroAbathur",
+      "loop": 6528,
+      "observed_indices_for_name": [],
+      "ordinal": 36862,
+      "purchase": "AbathurHeroicAbilityEvolveMonstrosity",
+      "source_index": 13,
+      "status": "no_independent_current_wire_observation"
+    },
+    {
+      "direct_position": null,
+      "hero": "HeroAnubarak",
+      "loop": 7052,
+      "observed_indices_for_name": [],
+      "ordinal": 40518,
+      "purchase": "AnubarakHeroicAbilityCarrionSwarm",
+      "source_index": 12,
+      "status": "absent_from_direct_tree"
+    },
+    {
+      "direct_position": 9,
+      "hero": "HeroNova",
+      "loop": 7060,
+      "observed_indices_for_name": [],
+      "ordinal": 40579,
+      "purchase": "NovaHeroicAbilityTripleTap",
+      "source_index": 10,
+      "status": "no_independent_current_wire_observation"
+    },
+    {
+      "direct_position": 10,
+      "hero": "HeroKaelthas",
+      "loop": 7071,
+      "observed_indices_for_name": [],
+      "ordinal": 40645,
+      "purchase": "KaelthasHeroicAbilityPyroblast",
+      "source_index": 10,
+      "status": "no_independent_current_wire_observation"
+    },
+    {
+      "decoders_agree": true,
+      "direct_position": 9,
+      "encoders_byte_equal": true,
+      "event_id": 110,
+      "frame_bytes": 7,
+      "hero": "HeroGreymane",
+      "loop": 7074,
+      "observed_indices_for_name": [
+        9
+      ],
+      "ordinal": 40657,
+      "purchase": "GreymaneHeroicAbilityGoForTheThroat",
+      "source_index": 11,
+      "status": "isolated_wire_candidate",
+      "target_index": 9
+    },
+    {
+      "direct_position": 10,
+      "hero": "HeroFaerieDragon",
+      "loop": 7143,
+      "observed_indices_for_name": [],
+      "ordinal": 41113,
+      "purchase": "FaerieDragonHeroicAbilityEmeraldWind",
+      "source_index": 12,
+      "status": "no_independent_current_wire_observation"
+    },
+    {
+      "decoders_agree": true,
+      "direct_position": 13,
+      "encoders_byte_equal": true,
+      "event_id": 110,
+      "frame_bytes": 7,
+      "hero": "HeroGreymane",
+      "loop": 8674,
+      "observed_indices_for_name": [
+        13
+      ],
+      "ordinal": 50040,
+      "purchase": "GreymaneInnerBeastOnTheProwl",
+      "source_index": 15,
+      "status": "isolated_wire_candidate",
+      "target_index": 13
+    },
+    {
+      "direct_position": null,
+      "hero": "HeroBarbarian",
+      "loop": 8677,
+      "observed_indices_for_name": [],
+      "ordinal": 50051,
+      "purchase": "BarbarianMasteryMysticalSpearAncientSpear",
+      "source_index": 16,
+      "status": "absent_from_direct_tree"
+    },
+    {
+      "direct_position": 15,
+      "hero": "HeroAbathur",
+      "loop": 8692,
+      "observed_indices_for_name": [],
+      "ordinal": 50077,
+      "purchase": "AbathurCombatStyleBombardStrain",
+      "source_index": 15,
+      "status": "no_independent_current_wire_observation"
+    },
+    {
+      "direct_position": null,
+      "hero": "HeroTyrande",
+      "loop": 8712,
+      "observed_indices_for_name": [],
+      "ordinal": 50129,
+      "purchase": "GenericTalentShrinkRay",
+      "source_index": 18,
+      "status": "absent_from_direct_tree"
+    },
+    {
+      "direct_position": 13,
+      "hero": "HeroKaelthas",
+      "loop": 8872,
+      "observed_indices_for_name": [],
+      "ordinal": 50969,
+      "purchase": "KaelthasLivingBombFissionBomb",
+      "source_index": 13,
+      "status": "no_independent_current_wire_observation"
+    },
+    {
+      "direct_position": null,
+      "hero": "HeroAnubarak",
+      "loop": 9446,
+      "observed_indices_for_name": [],
+      "ordinal": 55188,
+      "purchase": "GenericTalentBurningRage",
+      "source_index": 14,
+      "status": "absent_from_direct_tree"
+    },
+    {
+      "direct_position": 14,
+      "hero": "HeroNova",
+      "loop": 9535,
+      "observed_indices_for_name": [],
+      "ordinal": 55396,
+      "purchase": "NovaMasteryExplosiveShot",
+      "source_index": 14,
+      "status": "no_independent_current_wire_observation"
+    },
+    {
+      "direct_position": null,
+      "hero": "HeroFaerieDragon",
+      "loop": 9637,
+      "observed_indices_for_name": [],
+      "ordinal": 55602,
+      "purchase": "FaerieDragonMasteryShieldDust",
+      "source_index": 15,
+      "status": "absent_from_direct_tree"
+    },
+    {
+      "direct_position": 13,
+      "hero": "HeroKaelthas",
+      "loop": 9640,
+      "observed_indices_for_name": [],
+      "ordinal": 55612,
+      "purchase": "KaelthasLivingBombFissionBomb",
+      "source_index": 13,
+      "status": "no_independent_current_wire_observation"
+    },
+    {
+      "decoders_agree": true,
+      "direct_position": 11,
+      "encoders_byte_equal": true,
+      "event_id": 110,
+      "frame_bytes": 7,
+      "hero": "HeroGreymane",
+      "loop": 9927,
+      "observed_indices_for_name": [
+        11
+      ],
+      "ordinal": 56884,
+      "purchase": "GreymaneDarkflightDisengageRunningWild",
+      "source_index": 13,
+      "status": "isolated_wire_candidate",
+      "target_index": 11
+    },
+    {
+      "decoders_agree": true,
+      "direct_position": 14,
+      "encoders_byte_equal": true,
+      "event_id": 110,
+      "frame_bytes": 7,
+      "hero": "HeroAnubarak",
+      "loop": 11478,
+      "observed_indices_for_name": [
+        14
+      ],
+      "ordinal": 65350,
+      "purchase": "AnubarakMasteryEpicenterBurrowCharge",
+      "source_index": 18,
+      "status": "isolated_wire_candidate",
+      "target_index": 14
+    },
+    {
+      "direct_position": null,
+      "hero": "HeroGreymane",
+      "loop": 11489,
+      "observed_indices_for_name": [],
+      "ordinal": 65374,
+      "purchase": "GreymaneGilneanCocktailConcentratedBlast",
+      "source_index": 17,
+      "status": "absent_from_direct_tree"
+    },
+    {
+      "direct_position": 15,
+      "hero": "HeroNova",
+      "loop": 11512,
+      "observed_indices_for_name": [],
+      "ordinal": 65433,
+      "purchase": "NovaMasteryCripplingShot",
+      "source_index": 16,
+      "status": "no_independent_current_wire_observation"
+    },
+    {
+      "direct_position": 7,
+      "hero": "HeroKaelthas",
+      "loop": 11539,
+      "observed_indices_for_name": [],
+      "ordinal": 65471,
+      "purchase": "KaelthasLivingBombSunKingsFury",
+      "source_index": 15,
+      "status": "no_independent_current_wire_observation"
+    },
+    {
+      "direct_position": 0,
+      "hero": "HeroFaerieDragon",
+      "loop": 11594,
+      "observed_indices_for_name": [],
+      "ordinal": 65613,
+      "purchase": "BrightwingGreaterPolymorphPolymorph",
+      "source_index": 17,
+      "status": "no_independent_current_wire_observation"
+    },
+    {
+      "direct_position": null,
+      "hero": "HeroGreymane",
+      "loop": 11908,
+      "observed_indices_for_name": [],
+      "ordinal": 67378,
+      "purchase": "GreymaneGilneanCocktailConcentratedBlast",
+      "source_index": 17,
+      "status": "absent_from_direct_tree"
+    },
+    {
+      "direct_position": 7,
+      "hero": "HeroKaelthas",
+      "loop": 11930,
+      "observed_indices_for_name": [],
+      "ordinal": 67525,
+      "purchase": "KaelthasLivingBombSunKingsFury",
+      "source_index": 15,
+      "status": "no_independent_current_wire_observation"
+    },
+    {
+      "direct_position": null,
+      "hero": "HeroBarbarian",
+      "loop": 11940,
+      "observed_indices_for_name": [],
+      "ordinal": 67563,
+      "purchase": "SonyaTalentNervesOfSteel",
+      "source_index": 21,
+      "status": "absent_from_direct_tree"
+    },
+    {
+      "direct_position": null,
+      "hero": "HeroAbathur",
+      "loop": 11946,
+      "observed_indices_for_name": [],
+      "ordinal": 67599,
+      "purchase": "AbathurCombatStyleLocustSwarm",
+      "source_index": 20,
+      "status": "absent_from_direct_tree"
+    },
+    {
+      "direct_position": null,
+      "hero": "HeroTyrande",
+      "loop": 11983,
+      "observed_indices_for_name": [],
+      "ordinal": 67734,
+      "purchase": "TyrandeMasteryRanger",
+      "source_index": 21,
+      "status": "absent_from_direct_tree"
+    },
+    {
+      "direct_position": null,
+      "hero": "HeroAnubarak",
+      "loop": 14776,
+      "observed_indices_for_name": [],
+      "ordinal": 81111,
+      "purchase": "AnubarakMasteryHiveMasterCarrionSwarm",
+      "source_index": 22,
+      "status": "absent_from_direct_tree"
+    },
+    {
+      "direct_position": 17,
+      "hero": "HeroNova",
+      "loop": 14860,
+      "observed_indices_for_name": [],
+      "ordinal": 81520,
+      "purchase": "NovaMasteryFastReload",
+      "source_index": 18,
+      "status": "no_independent_current_wire_observation"
+    },
+    {
+      "direct_position": null,
+      "hero": "HeroBarbarian",
+      "loop": 15241,
+      "observed_indices_for_name": [],
+      "ordinal": 83327,
+      "purchase": "SonyaTalentIgnorePain",
+      "source_index": 25,
+      "status": "absent_from_direct_tree"
+    },
+    {
+      "direct_position": 19,
+      "hero": "HeroKaelthas",
+      "loop": 15394,
+      "observed_indices_for_name": [],
+      "ordinal": 83965,
+      "purchase": "KaelthasMasterOfFlames",
+      "source_index": 19,
+      "status": "no_independent_current_wire_observation"
+    },
+    {
+      "decoders_agree": true,
+      "direct_position": 19,
+      "encoders_byte_equal": true,
+      "event_id": 110,
+      "frame_bytes": 7,
+      "hero": "HeroGreymane",
+      "loop": 15443,
+      "observed_indices_for_name": [
+        19
+      ],
+      "ordinal": 84184,
+      "purchase": "GreymaneHuntersBlunderbuss",
+      "source_index": 23,
+      "status": "isolated_wire_candidate",
+      "target_index": 19
+    },
+    {
+      "direct_position": null,
+      "hero": "HeroTyrande",
+      "loop": 15491,
+      "observed_indices_for_name": [],
+      "ordinal": 84418,
+      "purchase": "GenericTalentRewind",
+      "source_index": 27,
+      "status": "absent_from_direct_tree"
+    },
+    {
+      "direct_position": null,
+      "hero": "HeroKaelthas",
+      "loop": 15548,
+      "observed_indices_for_name": [],
+      "ordinal": 84674,
+      "purchase": "GenericArcanePower",
+      "source_index": 20,
+      "status": "absent_from_direct_tree"
+    },
+    {
+      "direct_position": 23,
+      "hero": "HeroAbathur",
+      "loop": 15709,
+      "observed_indices_for_name": [],
+      "ordinal": 85330,
+      "purchase": "AbathurMasteryLocustMaster",
+      "source_index": 25,
+      "status": "no_independent_current_wire_observation"
+    },
+    {
+      "decoders_agree": true,
+      "direct_position": 19,
+      "encoders_byte_equal": true,
+      "event_id": 110,
+      "frame_bytes": 7,
+      "hero": "HeroGreymane",
+      "loop": 15804,
+      "observed_indices_for_name": [
+        19
+      ],
+      "ordinal": 85547,
+      "purchase": "GreymaneHuntersBlunderbuss",
+      "source_index": 23,
+      "status": "isolated_wire_candidate",
+      "target_index": 19
+    },
+    {
+      "direct_position": null,
+      "hero": "HeroFaerieDragon",
+      "loop": 16696,
+      "observed_indices_for_name": [],
+      "ordinal": 89637,
+      "purchase": "FaerieDragonMasteryContinuousWinds",
+      "source_index": 22,
+      "status": "absent_from_direct_tree"
+    }
+  ],
+  "semantic_equivalence_verified": false,
+  "source_build": 41810,
+  "source_game_events": 104257,
+  "source_selections": 70,
+  "source_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+  "status_counts": {
+    "absent_from_direct_tree": 30,
+    "isolated_wire_candidate": 11,
+    "no_independent_current_wire_observation": 29
+  },
+  "target_build": 98348,
+  "target_numeric_schema_sha256": "bbb2ca6a0c1511a6756cf0f5ab9d0309f4b8b6cdf397963d020390f549082895",
+  "target_physical_profile": "game-events-98348-observed22",
+  "target_player_identity_verified": false,
+  "tree_report_sha256": "ad2a2e092ff7bbe9fc3ded58e68c9791936d4c9d78edb1c7344cba264478dbae"
+}
