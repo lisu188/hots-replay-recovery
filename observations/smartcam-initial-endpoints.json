@@ -1,0 +1,103 @@
+{
+  "41810": {
+    "fields": 236,
+    "matching_target_startup_payloads_across_physical_replays": 24,
+    "physical_recordings_checked": 4,
+    "projected_initial_fields": 6,
+    "projections": [
+      {
+        "field": 0,
+        "loop": 822,
+        "member_byte_offset": 57,
+        "object_id": 36,
+        "ordinal": 4,
+        "target_packed_value": 50331649,
+        "unit_type": "TownCannonTowerL2"
+      },
+      {
+        "field": 0,
+        "loop": 845,
+        "member_byte_offset": 70,
+        "object_id": 89,
+        "ordinal": 5,
+        "target_packed_value": 146800641,
+        "unit_type": "TownCannonTowerL2"
+      },
+      {
+        "field": 0,
+        "loop": 2547,
+        "member_byte_offset": 213,
+        "object_id": 275,
+        "ordinal": 16,
+        "target_packed_value": 239075329,
+        "unit_type": "VehicleDragon"
+      },
+      {
+        "field": 0,
+        "loop": 2552,
+        "member_byte_offset": 226,
+        "object_id": 275,
+        "ordinal": 17,
+        "target_packed_value": 239075329,
+        "unit_type": "VehicleDragon"
+      },
+      {
+        "field": 0,
+        "loop": 3323,
+        "member_byte_offset": 278,
+        "object_id": 275,
+        "ordinal": 21,
+        "target_packed_value": 239075329,
+        "unit_type": "VehicleDragon"
+      },
+      {
+        "field": 1,
+        "loop": 6063,
+        "member_byte_offset": 529,
+        "object_id": 163,
+        "ordinal": 40,
+        "target_packed_value": 222298113,
+        "unit_type": "TownTownHallL2"
+      }
+    ],
+    "source_map_sha256": "e0a58745837b3b5351015c933560dbffb178d747009d2d57b4153ef425cf7250",
+    "source_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+    "target_map_sha256": "662a90d5ea72c8454d66a1070b3200e6a2929f3d2069e2c07ecc07cfcc79b800",
+    "withheld": {
+      "outside_authored_startup": 230
+    }
+  },
+  "98348": {
+    "fields": 236,
+    "matching_target_startup_payloads_across_physical_replays": 28,
+    "physical_recordings_checked": 14,
+    "projected_initial_fields": 2,
+    "projections": [
+      {
+        "field": 0,
+        "loop": 822,
+        "member_byte_offset": 57,
+        "object_id": 36,
+        "ordinal": 4,
+        "target_packed_value": 41943041,
+        "unit_type": "TownCannonTowerL2"
+      },
+      {
+        "field": 0,
+        "loop": 845,
+        "member_byte_offset": 70,
+        "object_id": 89,
+        "ordinal": 5,
+        "target_packed_value": 130023425,
+        "unit_type": "TownCannonTowerL2"
+      }
+    ],
+    "source_map_sha256": "e0a58745837b3b5351015c933560dbffb178d747009d2d57b4153ef425cf7250",
+    "source_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+    "target_map_sha256": "2de7e30ecf97cb975f483e8dc33ec05035d5b42d1e45a9a011dfecb4984b1632",
+    "withheld": {
+      "no_unique_map_correspondence": 4,
+      "outside_authored_startup": 230
+    }
+  }
+}

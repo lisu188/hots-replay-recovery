@@ -1,0 +1,17 @@
+{
+  "byte_differences": 471,
+  "bytes": 1534,
+  "destination_tracker_matched_fields": 236,
+  "distinct_endpoint_correspondences": 71,
+  "endpoint_pairs_changed": 0,
+  "fields": 236,
+  "fields_changed": 236,
+  "full_inverse_equal": true,
+  "member_sha256": "c3dd2875353f18c2cf62ee2a79e1641eb6a800aba88a6b45bd50287884043f35",
+  "original_member_sha256": "290cdc9f59d6ea5e7c0c6cdfe52b7c8f21164be2599b8b3507eebe01f435cdea",
+  "original_source_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+  "partial_input_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+  "record_sequence_and_loops_preserved": true,
+  "target_match_simulation_verified": false,
+  "unique_destination_packing": 22
+}

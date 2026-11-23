@@ -1,0 +1,1478 @@
+[
+  {
+    "best_shift": 18,
+    "build": 41810,
+    "bytes": 1534,
+    "columns": [
+      {
+        "all_ones": 0,
+        "assigned_user": 92,
+        "compatible_shifts": [
+          18
+        ],
+        "initial_other": 5,
+        "later_other": 21,
+        "phase_boundary": 6,
+        "phase_live": 112,
+        "primary_hero": 92,
+        "shift18_hits": 118,
+        "shift22_hits": 13,
+        "zero": 0
+      },
+      {
+        "all_ones": 0,
+        "assigned_user": 73,
+        "compatible_shifts": [
+          18
+        ],
+        "initial_other": 1,
+        "later_other": 44,
+        "phase_boundary": 10,
+        "phase_live": 108,
+        "primary_hero": 73,
+        "shift18_hits": 118,
+        "shift22_hits": 2,
+        "zero": 0
+      }
+    ],
+    "constant_prefix_byte": 8,
+    "fields": 236,
+    "full_reciprocal_packing_equal": true,
+    "horizon": 19732,
+    "map_sha256": "e0a58745837b3b5351015c933560dbffb178d747009d2d57b4153ef425cf7250",
+    "matched_fields": 236,
+    "max_tick": 19413,
+    "min_tick": 790,
+    "pair_evidence": {
+      "any_message_at_loop": 1,
+      "any_message_previous_loop": 0,
+      "any_tracker_at_loop": 32,
+      "any_tracker_previous_loop": 27,
+      "at_least_one_primary_hero": 113,
+      "both_primary_hero": 52,
+      "left_killed_right_same_loop": 10,
+      "right_killed_left_same_loop": 0,
+      "same_actor": 0,
+      "unique_death_offset_-1": 12,
+      "unique_death_offset_0": 13,
+      "unique_death_offset_1": 10,
+      "unique_death_pair_matches_offset_-1": 0,
+      "unique_death_pair_matches_offset_0": 7,
+      "unique_death_pair_matches_offset_1": 0
+    },
+    "records": 118,
+    "repeated_birth_signatures_disambiguated_by_lifetime": 0,
+    "replay_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+    "same_loop_neighbors": 1,
+    "sha256": "290cdc9f59d6ea5e7c0c6cdfe52b7c8f21164be2599b8b3507eebe01f435cdea",
+    "shift_hits": {
+      "13": 1,
+      "15": 1,
+      "16": 6,
+      "17": 8,
+      "18": 236,
+      "19": 68,
+      "20": 49,
+      "21": 17,
+      "22": 15
+    },
+    "whole_member_byte_equal": true
+  },
+  {
+    "best_shift": 18,
+    "build": 41810,
+    "bytes": 1534,
+    "columns": [
+      {
+        "all_ones": 0,
+        "assigned_user": 101,
+        "compatible_shifts": [
+          18
+        ],
+        "initial_other": 1,
+        "later_other": 16,
+        "phase_boundary": 5,
+        "phase_live": 113,
+        "primary_hero": 101,
+        "shift18_hits": 118,
+        "shift22_hits": 0,
+        "zero": 0
+      },
+      {
+        "all_ones": 0,
+        "assigned_user": 53,
+        "compatible_shifts": [
+          18
+        ],
+        "initial_other": 3,
+        "later_other": 62,
+        "phase_boundary": 8,
+        "phase_live": 110,
+        "primary_hero": 53,
+        "shift18_hits": 118,
+        "shift22_hits": 2,
+        "zero": 0
+      }
+    ],
+    "constant_prefix_byte": 8,
+    "fields": 236,
+    "full_reciprocal_packing_equal": true,
+    "horizon": 25025,
+    "map_sha256": "e0a58745837b3b5351015c933560dbffb178d747009d2d57b4153ef425cf7250",
+    "matched_fields": 236,
+    "max_tick": 24220,
+    "min_tick": 686,
+    "pair_evidence": {
+      "any_message_at_loop": 0,
+      "any_message_previous_loop": 0,
+      "any_tracker_at_loop": 45,
+      "any_tracker_previous_loop": 19,
+      "at_least_one_primary_hero": 113,
+      "both_primary_hero": 41,
+      "left_killed_right_same_loop": 8,
+      "right_killed_left_same_loop": 0,
+      "same_actor": 0,
+      "unique_death_offset_-1": 9,
+      "unique_death_offset_0": 17,
+      "unique_death_offset_1": 8,
+      "unique_death_pair_matches_offset_-1": 0,
+      "unique_death_pair_matches_offset_0": 6,
+      "unique_death_pair_matches_offset_1": 0
+    },
+    "records": 118,
+    "repeated_birth_signatures_disambiguated_by_lifetime": 0,
+    "replay_sha256": "7efa1c335816eebe802747ae4b16252ed22fcd8387b09d24b115b2917542b52a",
+    "same_loop_neighbors": 0,
+    "sha256": "0a0d811b443e55cd63b37a242ebafbb2572754c84b023158471f5a1ac1a17156",
+    "shift_hits": {
+      "14": 1,
+      "15": 2,
+      "16": 3,
+      "17": 8,
+      "18": 236,
+      "19": 91,
+      "20": 34,
+      "21": 3,
+      "22": 2,
+      "23": 1
+    },
+    "whole_member_byte_equal": true
+  },
+  {
+    "best_shift": 18,
+    "build": 41810,
+    "bytes": 1313,
+    "columns": [
+      {
+        "all_ones": 0,
+        "assigned_user": 93,
+        "compatible_shifts": [
+          18
+        ],
+        "initial_other": 2,
+        "later_other": 6,
+        "phase_boundary": 1,
+        "phase_dead": 1,
+        "phase_live": 99,
+        "primary_hero": 93,
+        "shift18_hits": 101,
+        "shift22_hits": 10,
+        "zero": 0
+      },
+      {
+        "all_ones": 0,
+        "assigned_user": 56,
+        "compatible_shifts": [
+          18
+        ],
+        "initial_other": 5,
+        "later_other": 40,
+        "phase_boundary": 10,
+        "phase_live": 91,
+        "primary_hero": 56,
+        "shift18_hits": 101,
+        "shift22_hits": 7,
+        "zero": 0
+      }
+    ],
+    "constant_prefix_byte": 8,
+    "fields": 202,
+    "full_reciprocal_packing_equal": true,
+    "horizon": 19953,
+    "map_sha256": "e0a58745837b3b5351015c933560dbffb178d747009d2d57b4153ef425cf7250",
+    "matched_fields": 202,
+    "max_tick": 19726,
+    "min_tick": 795,
+    "pair_evidence": {
+      "any_message_at_loop": 0,
+      "any_message_previous_loop": 0,
+      "any_tracker_at_loop": 23,
+      "any_tracker_previous_loop": 11,
+      "at_least_one_primary_hero": 100,
+      "both_primary_hero": 49,
+      "left_killed_right_same_loop": 9,
+      "right_killed_left_same_loop": 0,
+      "same_actor": 0,
+      "unique_death_offset_-1": 5,
+      "unique_death_offset_0": 16,
+      "unique_death_offset_1": 6,
+      "unique_death_pair_matches_offset_-1": 0,
+      "unique_death_pair_matches_offset_0": 8,
+      "unique_death_pair_matches_offset_1": 0
+    },
+    "records": 101,
+    "repeated_birth_signatures_disambiguated_by_lifetime": 0,
+    "replay_sha256": "2fca3c78d0e459d4452e3fb1f41ff3fce22b9c1f8f113019389195ff171bf618",
+    "same_loop_neighbors": 1,
+    "sha256": "d6b556b3cc032a7a024c360aeeedf87bbee53c7799c41717ed428dd9d75276d8",
+    "shift_hits": {
+      "12": 1,
+      "13": 1,
+      "14": 3,
+      "15": 3,
+      "16": 6,
+      "17": 7,
+      "18": 202,
+      "19": 83,
+      "20": 50,
+      "21": 17,
+      "22": 17,
+      "23": 1
+    },
+    "whole_member_byte_equal": true
+  },
+  {
+    "best_shift": 18,
+    "build": 41810,
+    "bytes": 1261,
+    "columns": [
+      {
+        "all_ones": 0,
+        "assigned_user": 81,
+        "compatible_shifts": [
+          18
+        ],
+        "initial_other": 1,
+        "later_other": 15,
+        "phase_boundary": 5,
+        "phase_dead": 1,
+        "phase_live": 91,
+        "primary_hero": 81,
+        "shift18_hits": 97,
+        "shift22_hits": 13,
+        "zero": 0
+      },
+      {
+        "all_ones": 0,
+        "assigned_user": 55,
+        "compatible_shifts": [
+          18
+        ],
+        "initial_other": 7,
+        "later_other": 35,
+        "phase_boundary": 4,
+        "phase_live": 93,
+        "primary_hero": 55,
+        "shift18_hits": 97,
+        "shift22_hits": 5,
+        "zero": 0
+      }
+    ],
+    "constant_prefix_byte": 8,
+    "fields": 194,
+    "full_reciprocal_packing_equal": true,
+    "horizon": 15620,
+    "map_sha256": "e0a58745837b3b5351015c933560dbffb178d747009d2d57b4153ef425cf7250",
+    "matched_fields": 194,
+    "max_tick": 14877,
+    "min_tick": 795,
+    "pair_evidence": {
+      "any_message_at_loop": 0,
+      "any_message_previous_loop": 1,
+      "any_tracker_at_loop": 25,
+      "any_tracker_previous_loop": 11,
+      "at_least_one_primary_hero": 96,
+      "both_primary_hero": 40,
+      "left_killed_right_same_loop": 4,
+      "right_killed_left_same_loop": 0,
+      "same_actor": 0,
+      "unique_death_offset_-1": 5,
+      "unique_death_offset_0": 12,
+      "unique_death_offset_1": 10,
+      "unique_death_pair_matches_offset_-1": 0,
+      "unique_death_pair_matches_offset_0": 3,
+      "unique_death_pair_matches_offset_1": 1
+    },
+    "records": 97,
+    "repeated_birth_signatures_disambiguated_by_lifetime": 0,
+    "replay_sha256": "8c4fb83989b528ea3227f6c97758293d1f650e33caa3d38c6a2a84d27ab0850d",
+    "same_loop_neighbors": 1,
+    "sha256": "06e34973fc5f9cefddf60e0a683b5d2695b9f42507c75ccc339a2b7dffed0972",
+    "shift_hits": {
+      "15": 1,
+      "16": 7,
+      "17": 10,
+      "18": 194,
+      "19": 60,
+      "20": 29,
+      "21": 20,
+      "22": 18
+    },
+    "whole_member_byte_equal": true
+  },
+  {
+    "best_shift": 22,
+    "build": 98348,
+    "bytes": 884,
+    "columns": [
+      {
+        "all_ones": 0,
+        "assigned_user": 58,
+        "compatible_shifts": [
+          22
+        ],
+        "initial_other": 1,
+        "later_other": 9,
+        "phase_live": 68,
+        "primary_hero": 58,
+        "shift18_hits": 0,
+        "shift22_hits": 68,
+        "zero": 0
+      },
+      {
+        "all_ones": 0,
+        "assigned_user": 30,
+        "compatible_shifts": [
+          22
+        ],
+        "later_other": 38,
+        "phase_boundary": 5,
+        "phase_live": 63,
+        "primary_hero": 30,
+        "shift18_hits": 0,
+        "shift22_hits": 68,
+        "zero": 0
+      }
+    ],
+    "constant_prefix_byte": 8,
+    "fields": 136,
+    "full_reciprocal_packing_equal": true,
+    "horizon": 16006,
+    "map_sha256": "f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f",
+    "matched_fields": 136,
+    "max_tick": 15309,
+    "min_tick": 778,
+    "pair_evidence": {
+      "any_message_at_loop": 0,
+      "any_message_previous_loop": 0,
+      "any_tracker_at_loop": 26,
+      "any_tracker_previous_loop": 21,
+      "at_least_one_primary_hero": 66,
+      "both_primary_hero": 22,
+      "left_killed_right_same_loop": 4,
+      "right_killed_left_same_loop": 0,
+      "same_actor": 0,
+      "unique_death_offset_-1": 11,
+      "unique_death_offset_0": 12,
+      "unique_death_offset_1": 3,
+      "unique_death_pair_matches_offset_-1": 0,
+      "unique_death_pair_matches_offset_0": 3,
+      "unique_death_pair_matches_offset_1": 0
+    },
+    "records": 68,
+    "repeated_birth_signatures_disambiguated_by_lifetime": 0,
+    "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+    "same_loop_neighbors": 0,
+    "sha256": "4b4da419b797141b66aa23ddcd65df70c7287c9080e80cc70ae3d7ccc8524f4f",
+    "shift_hits": {
+      "20": 1,
+      "21": 3,
+      "22": 136,
+      "23": 41,
+      "24": 12,
+      "25": 6,
+      "26": 7
+    },
+    "whole_member_byte_equal": true
+  },
+  {
+    "best_shift": 22,
+    "build": 98348,
+    "bytes": 1274,
+    "columns": [
+      {
+        "all_ones": 0,
+        "assigned_user": 89,
+        "compatible_shifts": [
+          22
+        ],
+        "initial_other": 4,
+        "later_other": 5,
+        "phase_live": 98,
+        "primary_hero": 89,
+        "shift18_hits": 0,
+        "shift22_hits": 98,
+        "zero": 0
+      },
+      {
+        "all_ones": 0,
+        "assigned_user": 43,
+        "compatible_shifts": [
+          22
+        ],
+        "initial_other": 4,
+        "later_other": 51,
+        "phase_boundary": 5,
+        "phase_live": 93,
+        "primary_hero": 43,
+        "shift18_hits": 0,
+        "shift22_hits": 98,
+        "zero": 0
+      }
+    ],
+    "constant_prefix_byte": 8,
+    "fields": 196,
+    "full_reciprocal_packing_equal": true,
+    "horizon": 21061,
+    "map_sha256": "f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f",
+    "matched_fields": 196,
+    "max_tick": 20616,
+    "min_tick": 732,
+    "pair_evidence": {
+      "any_message_at_loop": 2,
+      "any_message_previous_loop": 0,
+      "any_tracker_at_loop": 37,
+      "any_tracker_previous_loop": 19,
+      "at_least_one_primary_hero": 96,
+      "both_primary_hero": 36,
+      "left_killed_right_same_loop": 5,
+      "right_killed_left_same_loop": 0,
+      "same_actor": 0,
+      "unique_death_offset_-1": 7,
+      "unique_death_offset_0": 11,
+      "unique_death_offset_1": 11,
+      "unique_death_pair_matches_offset_-1": 0,
+      "unique_death_pair_matches_offset_0": 3,
+      "unique_death_pair_matches_offset_1": 0
+    },
+    "records": 98,
+    "repeated_birth_signatures_disambiguated_by_lifetime": 0,
+    "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+    "same_loop_neighbors": 0,
+    "sha256": "317d933ec756adfaf904684b4016c7fbbb872d9d95ed4ac82dbfa48c03a3d793",
+    "shift_hits": {
+      "19": 1,
+      "20": 8,
+      "21": 8,
+      "22": 196,
+      "23": 66,
+      "24": 34,
+      "25": 14,
+      "26": 14,
+      "28": 1
+    },
+    "whole_member_byte_equal": true
+  },
+  {
+    "best_shift": 22,
+    "build": 98348,
+    "bytes": 845,
+    "columns": [
+      {
+        "all_ones": 0,
+        "assigned_user": 54,
+        "compatible_shifts": [
+          22
+        ],
+        "later_other": 11,
+        "phase_live": 65,
+        "primary_hero": 54,
+        "shift18_hits": 0,
+        "shift22_hits": 65,
+        "zero": 0
+      },
+      {
+        "all_ones": 0,
+        "assigned_user": 33,
+        "compatible_shifts": [
+          22
+        ],
+        "initial_other": 2,
+        "later_other": 30,
+        "phase_boundary": 3,
+        "phase_live": 62,
+        "primary_hero": 33,
+        "shift18_hits": 0,
+        "shift22_hits": 65,
+        "zero": 0
+      }
+    ],
+    "constant_prefix_byte": 8,
+    "fields": 130,
+    "full_reciprocal_packing_equal": true,
+    "horizon": 16356,
+    "map_sha256": "f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f",
+    "matched_fields": 130,
+    "max_tick": 15979,
+    "min_tick": 891,
+    "pair_evidence": {
+      "any_message_at_loop": 0,
+      "any_message_previous_loop": 0,
+      "any_tracker_at_loop": 18,
+      "any_tracker_previous_loop": 11,
+      "at_least_one_primary_hero": 61,
+      "both_primary_hero": 26,
+      "left_killed_right_same_loop": 3,
+      "right_killed_left_same_loop": 0,
+      "same_actor": 0,
+      "unique_death_offset_-1": 3,
+      "unique_death_offset_0": 8,
+      "unique_death_offset_1": 2,
+      "unique_death_pair_matches_offset_-1": 0,
+      "unique_death_pair_matches_offset_0": 3,
+      "unique_death_pair_matches_offset_1": 0
+    },
+    "records": 65,
+    "repeated_birth_signatures_disambiguated_by_lifetime": 0,
+    "replay_sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+    "same_loop_neighbors": 2,
+    "sha256": "c685c56e77d3dfbc1569ff8470737a21eb955d1744ec7ba85f890c03e7f6b698",
+    "shift_hits": {
+      "21": 2,
+      "22": 130,
+      "23": 51,
+      "24": 26,
+      "25": 8,
+      "26": 7
+    },
+    "whole_member_byte_equal": true
+  },
+  {
+    "best_shift": 22,
+    "build": 98348,
+    "bytes": 1170,
+    "columns": [
+      {
+        "all_ones": 0,
+        "assigned_user": 86,
+        "compatible_shifts": [
+          22
+        ],
+        "initial_other": 1,
+        "later_other": 3,
+        "phase_live": 90,
+        "primary_hero": 86,
+        "shift18_hits": 0,
+        "shift22_hits": 90,
+        "zero": 0
+      },
+      {
+        "all_ones": 0,
+        "assigned_user": 30,
+        "compatible_shifts": [
+          22
+        ],
+        "later_other": 60,
+        "phase_boundary": 6,
+        "phase_live": 84,
+        "primary_hero": 30,
+        "shift18_hits": 0,
+        "shift22_hits": 90,
+        "zero": 0
+      }
+    ],
+    "constant_prefix_byte": 8,
+    "fields": 180,
+    "full_reciprocal_packing_equal": true,
+    "horizon": 20218,
+    "map_sha256": "f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f",
+    "matched_fields": 180,
+    "max_tick": 19903,
+    "min_tick": 727,
+    "pair_evidence": {
+      "any_message_at_loop": 0,
+      "any_message_previous_loop": 0,
+      "any_tracker_at_loop": 26,
+      "any_tracker_previous_loop": 17,
+      "at_least_one_primary_hero": 88,
+      "both_primary_hero": 28,
+      "left_killed_right_same_loop": 6,
+      "right_killed_left_same_loop": 0,
+      "same_actor": 0,
+      "unique_death_offset_-1": 5,
+      "unique_death_offset_0": 14,
+      "unique_death_offset_1": 7,
+      "unique_death_pair_matches_offset_-1": 0,
+      "unique_death_pair_matches_offset_0": 5,
+      "unique_death_pair_matches_offset_1": 0
+    },
+    "records": 90,
+    "repeated_birth_signatures_disambiguated_by_lifetime": 4,
+    "replay_sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+    "same_loop_neighbors": 0,
+    "sha256": "113b22cc4e7a5e194b927c5c9629cda7c16a2d0692a017e843a59599156d10fd",
+    "shift_hits": {
+      "19": 1,
+      "20": 2,
+      "21": 3,
+      "22": 180,
+      "23": 62,
+      "24": 30,
+      "25": 12,
+      "26": 14,
+      "27": 1,
+      "28": 1
+    },
+    "whole_member_byte_equal": true
+  },
+  {
+    "best_shift": 22,
+    "build": 98348,
+    "bytes": 832,
+    "columns": [
+      {
+        "all_ones": 0,
+        "assigned_user": 59,
+        "compatible_shifts": [
+          22
+        ],
+        "later_other": 5,
+        "phase_live": 64,
+        "primary_hero": 59,
+        "shift18_hits": 0,
+        "shift22_hits": 64,
+        "zero": 0
+      },
+      {
+        "all_ones": 0,
+        "assigned_user": 22,
+        "compatible_shifts": [
+          22
+        ],
+        "later_other": 42,
+        "phase_boundary": 8,
+        "phase_live": 56,
+        "primary_hero": 22,
+        "shift18_hits": 1,
+        "shift22_hits": 64,
+        "zero": 0
+      }
+    ],
+    "constant_prefix_byte": 8,
+    "fields": 128,
+    "full_reciprocal_packing_equal": true,
+    "horizon": 13883,
+    "map_sha256": "f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f",
+    "matched_fields": 128,
+    "max_tick": 13087,
+    "min_tick": 937,
+    "pair_evidence": {
+      "any_message_at_loop": 0,
+      "any_message_previous_loop": 1,
+      "any_tracker_at_loop": 31,
+      "any_tracker_previous_loop": 8,
+      "at_least_one_primary_hero": 63,
+      "both_primary_hero": 18,
+      "left_killed_right_same_loop": 8,
+      "right_killed_left_same_loop": 0,
+      "same_actor": 0,
+      "unique_death_offset_-1": 3,
+      "unique_death_offset_0": 20,
+      "unique_death_offset_1": 5,
+      "unique_death_pair_matches_offset_-1": 0,
+      "unique_death_pair_matches_offset_0": 6,
+      "unique_death_pair_matches_offset_1": 0
+    },
+    "records": 64,
+    "repeated_birth_signatures_disambiguated_by_lifetime": 0,
+    "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+    "same_loop_neighbors": 3,
+    "sha256": "04e97f94e52847c9bfd4985a55f37bbfd0c7a674170e10608ef9439366bf802c",
+    "shift_hits": {
+      "18": 1,
+      "20": 1,
+      "21": 1,
+      "22": 128,
+      "23": 49,
+      "24": 20,
+      "25": 9,
+      "26": 9
+    },
+    "whole_member_byte_equal": true
+  },
+  {
+    "best_shift": 22,
+    "build": 98348,
+    "bytes": 1157,
+    "columns": [
+      {
+        "all_ones": 0,
+        "assigned_user": 83,
+        "compatible_shifts": [
+          22
+        ],
+        "later_other": 6,
+        "phase_live": 89,
+        "primary_hero": 83,
+        "shift18_hits": 0,
+        "shift22_hits": 89,
+        "zero": 0
+      },
+      {
+        "all_ones": 0,
+        "assigned_user": 35,
+        "compatible_shifts": [
+          22
+        ],
+        "initial_other": 3,
+        "later_other": 51,
+        "phase_boundary": 3,
+        "phase_live": 86,
+        "primary_hero": 35,
+        "shift18_hits": 0,
+        "shift22_hits": 89,
+        "zero": 0
+      }
+    ],
+    "constant_prefix_byte": 8,
+    "fields": 178,
+    "full_reciprocal_packing_equal": true,
+    "horizon": 20656,
+    "map_sha256": "f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f",
+    "matched_fields": 178,
+    "max_tick": 20217,
+    "min_tick": 736,
+    "pair_evidence": {
+      "any_message_at_loop": 0,
+      "any_message_previous_loop": 0,
+      "any_tracker_at_loop": 32,
+      "any_tracker_previous_loop": 24,
+      "at_least_one_primary_hero": 86,
+      "both_primary_hero": 32,
+      "left_killed_right_same_loop": 3,
+      "right_killed_left_same_loop": 0,
+      "same_actor": 0,
+      "unique_death_offset_-1": 8,
+      "unique_death_offset_0": 9,
+      "unique_death_offset_1": 11,
+      "unique_death_pair_matches_offset_-1": 0,
+      "unique_death_pair_matches_offset_0": 3,
+      "unique_death_pair_matches_offset_1": 0
+    },
+    "records": 89,
+    "repeated_birth_signatures_disambiguated_by_lifetime": 1,
+    "replay_sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+    "same_loop_neighbors": 0,
+    "sha256": "205e4d9d63ab0f08c364233e3e7746c1c089af2ebeeddf4ef880f8e457948d03",
+    "shift_hits": {
+      "19": 1,
+      "20": 3,
+      "21": 8,
+      "22": 178,
+      "23": 63,
+      "24": 22,
+      "25": 10,
+      "26": 9
+    },
+    "whole_member_byte_equal": true
+  },
+  {
+    "best_shift": 22,
+    "build": 98348,
+    "bytes": 1430,
+    "columns": [
+      {
+        "all_ones": 0,
+        "assigned_user": 99,
+        "compatible_shifts": [
+          22
+        ],
+        "later_other": 11,
+        "phase_live": 110,
+        "primary_hero": 99,
+        "shift18_hits": 0,
+        "shift22_hits": 110,
+        "zero": 0
+      },
+      {
+        "all_ones": 0,
+        "assigned_user": 51,
+        "compatible_shifts": [
+          22
+        ],
+        "initial_other": 2,
+        "later_other": 57,
+        "phase_boundary": 3,
+        "phase_live": 107,
+        "primary_hero": 51,
+        "shift18_hits": 1,
+        "shift22_hits": 110,
+        "zero": 0
+      }
+    ],
+    "constant_prefix_byte": 8,
+    "fields": 220,
+    "full_reciprocal_packing_equal": true,
+    "horizon": 23337,
+    "map_sha256": "f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f",
+    "matched_fields": 220,
+    "max_tick": 23217,
+    "min_tick": 901,
+    "pair_evidence": {
+      "any_message_at_loop": 0,
+      "any_message_previous_loop": 0,
+      "any_tracker_at_loop": 33,
+      "any_tracker_previous_loop": 25,
+      "at_least_one_primary_hero": 109,
+      "both_primary_hero": 41,
+      "left_killed_right_same_loop": 3,
+      "right_killed_left_same_loop": 0,
+      "same_actor": 0,
+      "unique_death_offset_-1": 10,
+      "unique_death_offset_0": 10,
+      "unique_death_offset_1": 6,
+      "unique_death_pair_matches_offset_-1": 0,
+      "unique_death_pair_matches_offset_0": 3,
+      "unique_death_pair_matches_offset_1": 0
+    },
+    "records": 110,
+    "repeated_birth_signatures_disambiguated_by_lifetime": 0,
+    "replay_sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+    "same_loop_neighbors": 2,
+    "sha256": "cbdb70b3459d3843d6c8593b4c09a30bd3a624e6984129a2cae969a7ab4aee7c",
+    "shift_hits": {
+      "18": 1,
+      "19": 1,
+      "20": 1,
+      "21": 6,
+      "22": 220,
+      "23": 84,
+      "24": 44,
+      "25": 22,
+      "26": 18
+    },
+    "whole_member_byte_equal": true
+  },
+  {
+    "best_shift": 22,
+    "build": 98348,
+    "bytes": 1157,
+    "columns": [
+      {
+        "all_ones": 0,
+        "assigned_user": 79,
+        "compatible_shifts": [
+          22
+        ],
+        "initial_other": 1,
+        "later_other": 9,
+        "phase_live": 89,
+        "primary_hero": 79,
+        "shift18_hits": 0,
+        "shift22_hits": 89,
+        "zero": 0
+      },
+      {
+        "all_ones": 0,
+        "assigned_user": 54,
+        "compatible_shifts": [
+          22
+        ],
+        "initial_other": 1,
+        "later_other": 34,
+        "phase_boundary": 5,
+        "phase_live": 84,
+        "primary_hero": 54,
+        "shift18_hits": 0,
+        "shift22_hits": 89,
+        "zero": 0
+      }
+    ],
+    "constant_prefix_byte": 8,
+    "fields": 178,
+    "full_reciprocal_packing_equal": true,
+    "horizon": 20503,
+    "map_sha256": "f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f",
+    "matched_fields": 178,
+    "max_tick": 20379,
+    "min_tick": 735,
+    "pair_evidence": {
+      "any_message_at_loop": 0,
+      "any_message_previous_loop": 0,
+      "any_tracker_at_loop": 23,
+      "any_tracker_previous_loop": 11,
+      "at_least_one_primary_hero": 88,
+      "both_primary_hero": 45,
+      "left_killed_right_same_loop": 5,
+      "right_killed_left_same_loop": 0,
+      "same_actor": 0,
+      "unique_death_offset_-1": 3,
+      "unique_death_offset_0": 8,
+      "unique_death_offset_1": 4,
+      "unique_death_pair_matches_offset_-1": 0,
+      "unique_death_pair_matches_offset_0": 2,
+      "unique_death_pair_matches_offset_1": 0
+    },
+    "records": 89,
+    "repeated_birth_signatures_disambiguated_by_lifetime": 0,
+    "replay_sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+    "same_loop_neighbors": 0,
+    "sha256": "ed74e9160964fe33feb403d6014f12369f1023e1afc3d7f1558c69968ee36296",
+    "shift_hits": {
+      "20": 2,
+      "21": 3,
+      "22": 178,
+      "23": 75,
+      "24": 35,
+      "25": 18,
+      "26": 18,
+      "27": 1,
+      "28": 1
+    },
+    "whole_member_byte_equal": true
+  },
+  {
+    "best_shift": 22,
+    "build": 98348,
+    "bytes": 923,
+    "columns": [
+      {
+        "all_ones": 0,
+        "assigned_user": 65,
+        "compatible_shifts": [
+          22
+        ],
+        "initial_other": 2,
+        "later_other": 4,
+        "phase_live": 71,
+        "primary_hero": 65,
+        "shift18_hits": 1,
+        "shift22_hits": 71,
+        "zero": 0
+      },
+      {
+        "all_ones": 0,
+        "assigned_user": 28,
+        "compatible_shifts": [
+          22
+        ],
+        "initial_other": 3,
+        "later_other": 40,
+        "phase_boundary": 5,
+        "phase_live": 66,
+        "primary_hero": 28,
+        "shift18_hits": 1,
+        "shift22_hits": 71,
+        "zero": 0
+      }
+    ],
+    "constant_prefix_byte": 8,
+    "fields": 142,
+    "full_reciprocal_packing_equal": true,
+    "horizon": 16411,
+    "map_sha256": "f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f",
+    "matched_fields": 142,
+    "max_tick": 15353,
+    "min_tick": 755,
+    "pair_evidence": {
+      "any_message_at_loop": 0,
+      "any_message_previous_loop": 0,
+      "any_tracker_at_loop": 21,
+      "any_tracker_previous_loop": 11,
+      "at_least_one_primary_hero": 70,
+      "both_primary_hero": 23,
+      "left_killed_right_same_loop": 5,
+      "right_killed_left_same_loop": 0,
+      "same_actor": 0,
+      "unique_death_offset_-1": 6,
+      "unique_death_offset_0": 9,
+      "unique_death_offset_1": 8,
+      "unique_death_pair_matches_offset_-1": 0,
+      "unique_death_pair_matches_offset_0": 3,
+      "unique_death_pair_matches_offset_1": 0
+    },
+    "records": 71,
+    "repeated_birth_signatures_disambiguated_by_lifetime": 0,
+    "replay_sha256": "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+    "same_loop_neighbors": 1,
+    "sha256": "1bac7970bb975517395600eb6609ec43e36426d3a197ceaea81f95d3b6b971ea",
+    "shift_hits": {
+      "16": 1,
+      "17": 1,
+      "18": 2,
+      "19": 2,
+      "20": 4,
+      "21": 4,
+      "22": 142,
+      "23": 60,
+      "24": 24,
+      "25": 14,
+      "26": 13
+    },
+    "whole_member_byte_equal": true
+  },
+  {
+    "best_shift": 22,
+    "build": 98348,
+    "bytes": 1170,
+    "columns": [
+      {
+        "all_ones": 0,
+        "assigned_user": 82,
+        "compatible_shifts": [
+          22
+        ],
+        "later_other": 8,
+        "phase_live": 90,
+        "primary_hero": 82,
+        "shift18_hits": 0,
+        "shift22_hits": 90,
+        "zero": 0
+      },
+      {
+        "all_ones": 0,
+        "assigned_user": 44,
+        "compatible_shifts": [
+          22
+        ],
+        "initial_other": 3,
+        "later_other": 43,
+        "phase_boundary": 6,
+        "phase_live": 84,
+        "primary_hero": 44,
+        "shift18_hits": 0,
+        "shift22_hits": 90,
+        "zero": 0
+      }
+    ],
+    "constant_prefix_byte": 8,
+    "fields": 180,
+    "full_reciprocal_packing_equal": true,
+    "horizon": 16983,
+    "map_sha256": "f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f",
+    "matched_fields": 180,
+    "max_tick": 16137,
+    "min_tick": 744,
+    "pair_evidence": {
+      "any_message_at_loop": 0,
+      "any_message_previous_loop": 0,
+      "any_tracker_at_loop": 23,
+      "any_tracker_previous_loop": 21,
+      "at_least_one_primary_hero": 88,
+      "both_primary_hero": 38,
+      "left_killed_right_same_loop": 6,
+      "right_killed_left_same_loop": 0,
+      "same_actor": 0,
+      "unique_death_offset_-1": 13,
+      "unique_death_offset_0": 9,
+      "unique_death_offset_1": 6,
+      "unique_death_pair_matches_offset_-1": 0,
+      "unique_death_pair_matches_offset_0": 3,
+      "unique_death_pair_matches_offset_1": 0
+    },
+    "records": 90,
+    "repeated_birth_signatures_disambiguated_by_lifetime": 0,
+    "replay_sha256": "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+    "same_loop_neighbors": 0,
+    "sha256": "a752fa333bd80c52f9aea6e81151378d067efae7390c77739976ee76c2a3bff7",
+    "shift_hits": {
+      "19": 1,
+      "20": 3,
+      "21": 6,
+      "22": 180,
+      "23": 78,
+      "24": 28,
+      "25": 13,
+      "26": 14
+    },
+    "whole_member_byte_equal": true
+  },
+  {
+    "best_shift": 22,
+    "build": 98348,
+    "bytes": 1079,
+    "columns": [
+      {
+        "all_ones": 0,
+        "assigned_user": 75,
+        "compatible_shifts": [
+          22
+        ],
+        "later_other": 8,
+        "phase_live": 83,
+        "primary_hero": 75,
+        "shift18_hits": 0,
+        "shift22_hits": 83,
+        "zero": 0
+      },
+      {
+        "all_ones": 0,
+        "assigned_user": 34,
+        "compatible_shifts": [
+          22
+        ],
+        "initial_other": 1,
+        "later_other": 48,
+        "phase_boundary": 4,
+        "phase_live": 79,
+        "primary_hero": 34,
+        "shift18_hits": 1,
+        "shift22_hits": 83,
+        "zero": 0
+      }
+    ],
+    "constant_prefix_byte": 8,
+    "fields": 166,
+    "full_reciprocal_packing_equal": true,
+    "horizon": 19086,
+    "map_sha256": "f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f",
+    "matched_fields": 166,
+    "max_tick": 18906,
+    "min_tick": 765,
+    "pair_evidence": {
+      "any_message_at_loop": 1,
+      "any_message_previous_loop": 0,
+      "any_tracker_at_loop": 10,
+      "any_tracker_previous_loop": 16,
+      "at_least_one_primary_hero": 80,
+      "both_primary_hero": 29,
+      "left_killed_right_same_loop": 4,
+      "right_killed_left_same_loop": 0,
+      "same_actor": 0,
+      "unique_death_offset_-1": 4,
+      "unique_death_offset_0": 4,
+      "unique_death_offset_1": 1,
+      "unique_death_pair_matches_offset_-1": 0,
+      "unique_death_pair_matches_offset_0": 3,
+      "unique_death_pair_matches_offset_1": 0
+    },
+    "records": 83,
+    "repeated_birth_signatures_disambiguated_by_lifetime": 0,
+    "replay_sha256": "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+    "same_loop_neighbors": 0,
+    "sha256": "e0726c6995c71f4aea020299c339989c0cb87a274284aa3ac622f4303bb2a841",
+    "shift_hits": {
+      "18": 1,
+      "19": 1,
+      "20": 1,
+      "21": 3,
+      "22": 166,
+      "23": 53,
+      "24": 19,
+      "25": 10,
+      "26": 9,
+      "27": 1,
+      "28": 1
+    },
+    "whole_member_byte_equal": true
+  },
+  {
+    "best_shift": 22,
+    "build": 98348,
+    "bytes": 845,
+    "columns": [
+      {
+        "all_ones": 0,
+        "assigned_user": 57,
+        "compatible_shifts": [
+          22
+        ],
+        "later_other": 8,
+        "phase_live": 65,
+        "primary_hero": 57,
+        "shift18_hits": 0,
+        "shift22_hits": 65,
+        "zero": 0
+      },
+      {
+        "all_ones": 0,
+        "assigned_user": 38,
+        "compatible_shifts": [
+          22
+        ],
+        "later_other": 27,
+        "phase_boundary": 2,
+        "phase_live": 63,
+        "primary_hero": 38,
+        "shift18_hits": 0,
+        "shift22_hits": 65,
+        "zero": 0
+      }
+    ],
+    "constant_prefix_byte": 8,
+    "fields": 130,
+    "full_reciprocal_packing_equal": true,
+    "horizon": 18880,
+    "map_sha256": "f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f",
+    "matched_fields": 130,
+    "max_tick": 18621,
+    "min_tick": 842,
+    "pair_evidence": {
+      "any_message_at_loop": 0,
+      "any_message_previous_loop": 0,
+      "any_tracker_at_loop": 16,
+      "any_tracker_previous_loop": 15,
+      "at_least_one_primary_hero": 63,
+      "both_primary_hero": 32,
+      "left_killed_right_same_loop": 2,
+      "right_killed_left_same_loop": 0,
+      "same_actor": 0,
+      "unique_death_offset_-1": 4,
+      "unique_death_offset_0": 6,
+      "unique_death_offset_1": 7,
+      "unique_death_pair_matches_offset_-1": 0,
+      "unique_death_pair_matches_offset_0": 2,
+      "unique_death_pair_matches_offset_1": 0
+    },
+    "records": 65,
+    "repeated_birth_signatures_disambiguated_by_lifetime": 0,
+    "replay_sha256": "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77",
+    "same_loop_neighbors": 1,
+    "sha256": "acd8e3fa7977f35b5401d83fb39d1af39e7676fdd16879e781afea7cba44f5b9",
+    "shift_hits": {
+      "19": 1,
+      "22": 130,
+      "23": 58,
+      "24": 15,
+      "25": 7,
+      "26": 7,
+      "29": 1
+    },
+    "whole_member_byte_equal": true
+  },
+  {
+    "best_shift": 22,
+    "build": 98348,
+    "bytes": 975,
+    "columns": [
+      {
+        "all_ones": 0,
+        "assigned_user": 70,
+        "compatible_shifts": [
+          22
+        ],
+        "initial_other": 2,
+        "later_other": 3,
+        "phase_live": 75,
+        "primary_hero": 70,
+        "shift18_hits": 1,
+        "shift22_hits": 75,
+        "zero": 0
+      },
+      {
+        "all_ones": 0,
+        "assigned_user": 31,
+        "compatible_shifts": [
+          22
+        ],
+        "initial_other": 2,
+        "later_other": 42,
+        "phase_boundary": 3,
+        "phase_live": 72,
+        "primary_hero": 31,
+        "shift18_hits": 0,
+        "shift22_hits": 75,
+        "zero": 0
+      }
+    ],
+    "constant_prefix_byte": 8,
+    "fields": 150,
+    "full_reciprocal_packing_equal": true,
+    "horizon": 16751,
+    "map_sha256": "f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f",
+    "matched_fields": 150,
+    "max_tick": 16490,
+    "min_tick": 844,
+    "pair_evidence": {
+      "any_message_at_loop": 0,
+      "any_message_previous_loop": 0,
+      "any_tracker_at_loop": 22,
+      "any_tracker_previous_loop": 18,
+      "at_least_one_primary_hero": 72,
+      "both_primary_hero": 29,
+      "left_killed_right_same_loop": 3,
+      "right_killed_left_same_loop": 0,
+      "same_actor": 0,
+      "unique_death_offset_-1": 5,
+      "unique_death_offset_0": 9,
+      "unique_death_offset_1": 7,
+      "unique_death_pair_matches_offset_-1": 0,
+      "unique_death_pair_matches_offset_0": 2,
+      "unique_death_pair_matches_offset_1": 0
+    },
+    "records": 75,
+    "repeated_birth_signatures_disambiguated_by_lifetime": 0,
+    "replay_sha256": "a956b186a0459a47d9b0fdd8af4ccb65c437f11926186471c434e543e218b2d7",
+    "same_loop_neighbors": 1,
+    "sha256": "8ebf2076b6735e6bd1ab2b72fed898980edecf3de00705891a7032e9d9b476e3",
+    "shift_hits": {
+      "18": 1,
+      "19": 2,
+      "20": 3,
+      "21": 6,
+      "22": 150,
+      "23": 54,
+      "24": 18,
+      "25": 6,
+      "26": 5
+    },
+    "whole_member_byte_equal": true
+  },
+  {
+    "best_shift": 22,
+    "build": 98348,
+    "bytes": 1833,
+    "columns": [
+      {
+        "all_ones": 0,
+        "assigned_user": 125,
+        "compatible_shifts": [
+          22
+        ],
+        "initial_other": 2,
+        "later_other": 14,
+        "phase_live": 141,
+        "primary_hero": 125,
+        "shift18_hits": 1,
+        "shift22_hits": 141,
+        "zero": 0
+      },
+      {
+        "all_ones": 0,
+        "assigned_user": 58,
+        "compatible_shifts": [
+          22
+        ],
+        "initial_other": 2,
+        "later_other": 81,
+        "phase_boundary": 1,
+        "phase_live": 140,
+        "primary_hero": 58,
+        "shift18_hits": 0,
+        "shift22_hits": 141,
+        "zero": 0
+      }
+    ],
+    "constant_prefix_byte": 8,
+    "fields": 282,
+    "full_reciprocal_packing_equal": true,
+    "horizon": 27473,
+    "map_sha256": "f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f",
+    "matched_fields": 282,
+    "max_tick": 26805,
+    "min_tick": 750,
+    "pair_evidence": {
+      "any_message_at_loop": 1,
+      "any_message_previous_loop": 1,
+      "any_tracker_at_loop": 37,
+      "any_tracker_previous_loop": 26,
+      "at_least_one_primary_hero": 137,
+      "both_primary_hero": 46,
+      "left_killed_right_same_loop": 1,
+      "right_killed_left_same_loop": 0,
+      "same_actor": 0,
+      "unique_death_offset_-1": 12,
+      "unique_death_offset_0": 19,
+      "unique_death_offset_1": 14,
+      "unique_death_pair_matches_offset_-1": 0,
+      "unique_death_pair_matches_offset_0": 1,
+      "unique_death_pair_matches_offset_1": 0
+    },
+    "records": 141,
+    "repeated_birth_signatures_disambiguated_by_lifetime": 0,
+    "replay_sha256": "bc16af7f68496cddc4698f70b3853402a0f30aa37951aec3a6b555ed703879e8",
+    "same_loop_neighbors": 0,
+    "sha256": "9460b2f40d1acdab39341dd09e65c2121e205d6b2a98e00674cf4f8c53771611",
+    "shift_hits": {
+      "18": 1,
+      "19": 3,
+      "20": 7,
+      "21": 8,
+      "22": 282,
+      "23": 114,
+      "24": 47,
+      "25": 21,
+      "26": 23
+    },
+    "whole_member_byte_equal": true
+  },
+  {
+    "best_shift": 18,
+    "build": 98285,
+    "bytes": 1534,
+    "columns": [
+      {
+        "all_ones": 0,
+        "assigned_user": 92,
+        "compatible_shifts": [
+          18
+        ],
+        "initial_other": 5,
+        "later_other": 21,
+        "phase_boundary": 6,
+        "phase_live": 112,
+        "primary_hero": 92,
+        "shift18_hits": 118,
+        "shift22_hits": 13,
+        "zero": 0
+      },
+      {
+        "all_ones": 0,
+        "assigned_user": 73,
+        "compatible_shifts": [
+          18
+        ],
+        "initial_other": 1,
+        "later_other": 44,
+        "phase_boundary": 10,
+        "phase_live": 108,
+        "primary_hero": 73,
+        "shift18_hits": 118,
+        "shift22_hits": 2,
+        "zero": 0
+      }
+    ],
+    "constant_prefix_byte": 8,
+    "fields": 236,
+    "full_reciprocal_packing_equal": true,
+    "horizon": 19732,
+    "map_sha256": "f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f",
+    "matched_fields": 236,
+    "max_tick": 19413,
+    "min_tick": 790,
+    "pair_evidence": {
+      "any_message_at_loop": 1,
+      "any_message_previous_loop": 0,
+      "any_tracker_at_loop": 32,
+      "any_tracker_previous_loop": 27,
+      "at_least_one_primary_hero": 113,
+      "both_primary_hero": 52,
+      "left_killed_right_same_loop": 10,
+      "right_killed_left_same_loop": 0,
+      "same_actor": 0,
+      "unique_death_offset_-1": 12,
+      "unique_death_offset_0": 13,
+      "unique_death_offset_1": 10,
+      "unique_death_pair_matches_offset_-1": 0,
+      "unique_death_pair_matches_offset_0": 7,
+      "unique_death_pair_matches_offset_1": 0
+    },
+    "records": 118,
+    "repeated_birth_signatures_disambiguated_by_lifetime": 0,
+    "replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+    "same_loop_neighbors": 1,
+    "sha256": "290cdc9f59d6ea5e7c0c6cdfe52b7c8f21164be2599b8b3507eebe01f435cdea",
+    "shift_hits": {
+      "13": 1,
+      "15": 1,
+      "16": 6,
+      "17": 8,
+      "18": 236,
+      "19": 68,
+      "20": 49,
+      "21": 17,
+      "22": 15
+    },
+    "whole_member_byte_equal": true
+  }
+]
