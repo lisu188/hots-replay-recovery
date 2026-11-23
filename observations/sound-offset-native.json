@@ -1,0 +1,21 @@
+{
+  "build": 98348,
+  "pe_bytes": 53573840,
+  "pe_sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+  "text_bytes": 36581376,
+  "text_sha256": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83",
+  "event": 46,
+  "native_payload_root": 441,
+  "listener_case": 5,
+  "allocation_list_word_from_object": 8,
+  "producer_payload_offset": 48,
+  "object_table_index_mask": 65535,
+  "slot_stride": 16,
+  "required_class": 15,
+  "object_mask_offset": 208,
+  "pending_kind": 3,
+  "pending_handle_offset": 64,
+  "pending_mask_offset": 360,
+  "pending_equality_bits": 32,
+  "recovered_target_handle": null
+}

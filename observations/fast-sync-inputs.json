@@ -1,0 +1,18 @@
+{
+  "build": 98348,
+  "pe": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+  "static_text": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83",
+  "field": "+0x0c",
+  "unit_pass_store": "~u32(RVA 0x2f3d5b4)",
+  "initial_raw": "0xffffffff",
+  "release_crc_input": "le32(unit+0x2b4)",
+  "update_crc_inputs_after_descriptor_helper": [
+    "le32(old unit+0x2b4)",
+    "le32(new helper return)"
+  ],
+  "initialize_enables_updates": true,
+  "synthetic_native_crc_comparisons": 16,
+  "native_986970": "reads/decodes world+0x14",
+  "actual_ten_loop64_first_operand": null,
+  "actual_ten_loop64_slot0": null
+}
