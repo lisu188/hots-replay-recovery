@@ -1,6 +1,6 @@
 # TEN game inputs and tracker through the first sync marker
 
-At loop 64 the TEN replay contains 30 game inputs. Rebuilding them produces 671 bytes in the 98348 game schema. The corresponding tracker candidate contains 247 records and occupies 14,612 bytes. Both are standalone prefixes. The full 41810 synchronization member remains byte-identical to the preserved R8 member. Its first recorded checksum marks the end of this interval.
+At loop 64 the TEN replay contains 30 game inputs. Rebuilding them produces 671 bytes in the 98348 game schema. The corresponding tracker candidate contains 247 records and occupies 14,612 bytes. The independent reader recovered from the 98348 executable agrees with the named protocol on all 30 event values and bit boundaries. Its writer reproduces all 671 bytes. Both files are standalone prefixes. The full 41810 synchronization member remains byte-identical to the preserved R8 member. Its first recorded checksum marks the end of this interval.
 
 Four selections at loops 52, 59, 60 and 60 bind to already-born Greymane, Brightwing, Anub'arak and Kael'thas in the target tracker, with both owner fields matching the issuing player. Historical and target tag packing identify the same slot and generation. The two original point commands and two updates retain their users, times and destination coordinates. The initial command sequence rule has independent support in 391 native frames. [Selection evidence](../observations/first-sync-selections.json) · [Initial command evidence](../observations/first-point-commands.json)
 

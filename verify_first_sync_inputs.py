@@ -6,8 +6,10 @@ from hashlib import sha256
 import json
 from pathlib import Path
 
+from audit_native_game_fidelity import _anonymous
 from first_sync_game import game, opening
 from mpq_reader import MPQArchive
+from native_game_events import GameEvent, encode_game_events as encode_native, iter_game_events
 from portable_sync_98348 import decode_sync
 from predict_camp_captures import SOURCE
 from protocol_loader import load_protocol
@@ -35,6 +37,19 @@ def verify(source, target_tracker, target_game):
     if (len(tr),len(inputs),sum(e["_bits"] for e in tr),sum(e["_bits"] for e in inputs)) != (
             247,30,len(target_tracker)*8,len(target_game)*8):
         raise ValueError("Incomplete pair of target prefixes")
+    native = list(iter_game_events(target_game))
+    prior = 0
+    for named, physical in zip(inputs, native, strict=True):
+        event_id = named["_eventid"]
+        type_id, _ = target.game_event_types[event_id]
+        fields = {k:v for k,v in named.items() if not k.startswith("_")}
+        expected = GameEvent(named["_gameloop"] - prior, named["_userid"]["m_userId"], event_id,
+                             _anonymous(fields, target.typeinfos, type_id))
+        if physical.event != expected or physical.aligned_end_bit - physical.start_bit != named["_bits"]:
+            raise ValueError("Native-derived input frame disagrees with the named target protocol")
+        prior = named["_gameloop"]
+    if encode_native([row.event for row in native]) != target_game:
+        raise ValueError("Native-derived input writer disagrees")
     births = {(e["m_unitTagIndex"],e["m_unitTagRecycle"]):e for e in tr if e["_eventid"] == 1}
     selected, issued, hits = {}, {}, []
     source_events = [e for e,_,_ in opening(original_game, old)]
@@ -65,6 +80,7 @@ def verify(source, target_tracker, target_game):
     return dict(target_build=98348, first_sync_loop=64, tracker_events=len(tr), tracker_bytes=len(target_tracker),
                 tracker_sha256=TRACKER, source_game_inputs_represented=len(inputs), game_bytes=len(target_game),
                 game_sha256=GAME, selected_heroes=hits, distinct_command_issuers=len(issued),
+                native_game_values_and_physical_extents_equal=len(native), native_reencoded_bytes=len(target_game),
                 source_sync_records_preserved=len(records), target_state_checksum_computed=False)
 
 

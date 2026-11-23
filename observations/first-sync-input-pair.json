@@ -26,6 +26,8 @@
     }
   ],
   "distinct_command_issuers": 2,
+  "native_game_values_and_physical_extents_equal": 30,
+  "native_reencoded_bytes": 671,
   "source_sync_records_preserved": 308,
   "target_state_checksum_computed": false
 }
