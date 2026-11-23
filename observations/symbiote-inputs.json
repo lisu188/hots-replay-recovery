@@ -1,0 +1,90 @@
+{
+  "original": {
+    "build": 41810,
+    "replay_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+    "selected_lifetimes": 69,
+    "selection_delay": {
+      "1": 42,
+      "2": 27
+    },
+    "observed_command_link": 165,
+    "flags": "0x100100",
+    "all_same_link_by_death_delay": {
+      "1": 49
+    },
+    "matched_command_counts_by_death_delay": {
+      "1": 49
+    },
+    "removal_only": 71,
+    "removal_poststates": {
+      "hero_only": 69,
+      "other": 2
+    },
+    "positional_removals_correct_for_every_possible_numeric_order": 0,
+    "first_symbiote": {
+      "birth": 781,
+      "selection": 782,
+      "death": 871,
+      "source_index": 96,
+      "source_generation": 2,
+      "previous_slot_history": [
+        [
+          0,
+          "StormGameStartPathingBlocker",
+          0,
+          true
+        ],
+        [
+          610,
+          "StormGameStartPathingBlocker",
+          0,
+          false
+        ]
+      ]
+    },
+    "preceding_allocations": {
+      "consecutive_early_births": 183,
+      "gate_deaths": 54,
+      "subsequent_visible_births": {
+        "FootmanMinion": 18,
+        "WizardMinion": 6,
+        "RangedMinion": 18,
+        "AbathurLocustNormal": 1,
+        "AbathurToxicNest": 3
+      },
+      "remaining_gate_slots_without_omissions": 8,
+      "histories_checked": 3,
+      "hidden_allocations_in_opposite_order_example": 8,
+      "first_positional_removal_can_retain_different_unit": true
+    }
+  },
+  "reference": {
+    "build": 98348,
+    "replay_sha256": "afcf49a656068f343173fc79afff2d2ebf15066f531cb192382cdba9d1ea3272",
+    "selected_lifetimes": 84,
+    "selection_delay": {
+      "1": 50,
+      "2": 34
+    },
+    "observed_command_link": 190,
+    "flags": "0x2080100",
+    "all_same_link_by_death_delay": {
+      "1": 62,
+      "0": 4,
+      "unmatched": 1
+    },
+    "matched_command_counts_by_death_delay": {
+      "1": 62,
+      "0": 4
+    },
+    "observed_full_replacements_selecting_primary_abathur": 8
+  },
+  "target_catalog_sha256": "b2ecee56c24e3a6e62c904f066f858dd5fb9fa144c2e17af423320efaf9c69e1",
+  "frames": 49,
+  "bytes": 735,
+  "sha256": "7e56a9f6dfd4fb8531f1f1444cd4fa905d5ca5219260300e3350c60edb3be6fe",
+  "first_loop": 870,
+  "last_loop": 17972,
+  "command_selection_and_simulation_verified": false,
+  "numeric_catalog_index_statically_resolved": false
+}

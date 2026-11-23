@@ -1,0 +1,15 @@
+{
+  "build": 98348,
+  "base_frames": 30,
+  "overlapping_predictions": 4,
+  "added_frames": 3,
+  "total_frames": 33,
+  "bytes": 701,
+  "sha256": "0fb4d1116f450fda0daec837caaa7d7777949ec51223489051c6ab7b3812f0e3",
+  "last_event_loop": 65,
+  "first_unconverted": {
+    "ordinal": 33,
+    "loop": 68,
+    "event": "STriggerSoundOffsetEvent"
+  }
+}

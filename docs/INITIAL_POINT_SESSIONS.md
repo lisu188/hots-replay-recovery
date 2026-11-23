@@ -1,0 +1,9 @@
+# Initial point commands in TEN
+
+The converted TEN game stream now includes all 33 original inputs before loop 68. Three inputs occur at loop 65, followed by two empty loops. The 701-byte result starts with the verified 671-byte loop-64 prefix. Its SHA-256 is `0fb4d1116f450fda0daec837caaa7d7777949ec51223489051c6ab7b3812f0e3`. The first input outside this prefix is a sound-offset event at loop 68. [Prefix result](../observations/extended-game-prefix.json)
+
+For each user, begin at the first implicit point command with the recorded sequence 1. A qualifying issue retains its source sequence and destination. While that command is the user's only open issue, a point update or state-zero close receives the issue's sequence. The next issue must have a recorded consecutive sequence. The search ends for a user on an ambiguous command or recorded departure or join. The same search window, loops below 4,000, applies to TEN and the controls.
+
+This produces nine issues, ten updates and nine closes in TEN. All 19 updates and closes lack a sequence in the original. In 24 target recordings the 27,859 updates and 8,322 closes in qualifying sessions carry exactly the predicted sequence and reproduce their physical enclosing bytes. The 8,358 issuing frames also reproduce exactly. Twelve other candidate issues in the controls fail the consecutive-sequence condition and are excluded. The issue sequence itself comes directly from the recording. Later overlapping issues require independent reconstruction. [Session results](../observations/initial-point-sessions.json)
+
+Run `initial_point_sessions.py ORIGINAL --controls LOCAL_CONTROL_MANIFEST` to check the cohort. Run `extend_point_prefix.py ORIGINAL LOOP64_GAME_PREFIX --private-output NEW.bin` to create the local opening member. Both the named protocol and the independent native-layout reader and writer verify the result. The next game-state synchronization check still requires simulation state.

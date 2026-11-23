@@ -1,0 +1,673 @@
+{
+  "source": {
+    "build": 41810,
+    "replay_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+    "frames": 17593,
+    "first_loop": 71,
+    "last_loop": 19555,
+    "enclosing_bytes": 140418,
+    "enclosing_sha256": "8b0f3bf6d56473392b189b10b3a73d27469e57abb7661912c36f2640d33e7d84",
+    "sparse_bytes": 140419,
+    "sparse_sha256": "fcf418fed5f099e1f763193422bfb7d1ae47563903f59ce5165879219351f68c",
+    "map_dimensions": [
+      248,
+      208
+    ],
+    "coordinate_bounds_xy_raw": [
+      6787,
+      57156,
+      7876,
+      42667
+    ],
+    "exact_startpoint_hits": 4,
+    "distinct_startpoints_hit": 1,
+    "shapes": {
+      "distance+pitch/free": 81,
+      "distance/free": 5,
+      "none/follow": 79,
+      "pitch/free": 2,
+      "target+distance/free": 1,
+      "target+pitch/free": 1,
+      "target/free": 17424
+    },
+    "ranges": {
+      "m_distance": [
+        3592,
+        7654
+      ],
+      "m_pitch": [
+        227,
+        306
+      ]
+    }
+  },
+  "controls": [
+    {
+      "build": 98348,
+      "replay_sha256": "4732077e899f6894c29586795a01e2a27fba622dbf22b5d29c7b30d57e3ce4fc",
+      "frames": 20133,
+      "first_loop": 1,
+      "last_loop": 15919,
+      "enclosing_bytes": 160740,
+      "enclosing_sha256": "912473f4406ad1208b16b1cace633bcf6f2a801d8c2183be3e5bc4fe32bdcdb1",
+      "sparse_bytes": 160740,
+      "sparse_sha256": "febffcb3f270e3f55601e641df016ba65534d82d7f0b1a660af2ab6e3b020613",
+      "map_dimensions": [
+        248,
+        208
+      ],
+      "coordinate_bounds_xy_raw": [
+        6059,
+        56972,
+        8742,
+        41667
+      ],
+      "exact_startpoint_hits": 0,
+      "distinct_startpoints_hit": 0,
+      "shapes": {
+        "distance+pitch/free": 37,
+        "distance/follow": 1,
+        "distance/free": 26,
+        "none/follow": 68,
+        "target+pitch/free": 1,
+        "target/free": 20000
+      },
+      "ranges": {
+        "m_distance": [
+          3605,
+          13798
+        ],
+        "m_pitch": [
+          227,
+          318
+        ]
+      }
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+      "frames": 20867,
+      "first_loop": 1,
+      "last_loop": 20422,
+      "enclosing_bytes": 166888,
+      "enclosing_sha256": "7c387c5def9e4c589f4e39121d05ba937babcb185f5b7edbaf6f0cffed551203",
+      "sparse_bytes": 166889,
+      "sparse_sha256": "9a81de4309fd1bb26ed9c47e7990ba4f0db2903d41dbb245a14ef3b2e60857b9",
+      "map_dimensions": [
+        248,
+        208
+      ],
+      "coordinate_bounds_xy_raw": [
+        6016,
+        57472,
+        8445,
+        43133
+      ],
+      "exact_startpoint_hits": 8,
+      "distinct_startpoints_hit": 8,
+      "shapes": {
+        "distance+pitch/follow": 25,
+        "distance/follow": 4,
+        "distance/free": 1,
+        "none/follow": 13,
+        "pitch/follow": 1,
+        "target+distance/follow": 3,
+        "target+distance/free": 5,
+        "target/free": 20815
+      },
+      "ranges": {
+        "m_distance": [
+          3665,
+          8704
+        ],
+        "m_pitch": [
+          229,
+          306
+        ]
+      }
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+      "frames": 24739,
+      "first_loop": 2,
+      "last_loop": 20574,
+      "enclosing_bytes": 197808,
+      "enclosing_sha256": "bdbdd6ee34d9515780eb00e947be95e17a07323e285aa3fc65d728d67e5149b7",
+      "sparse_bytes": 197808,
+      "sparse_sha256": "e1f056fba11889119f680f75c332632525c8fc773c0b19e38612e6feb49cfce6",
+      "map_dimensions": [
+        248,
+        208
+      ],
+      "coordinate_bounds_xy_raw": [
+        6577,
+        57192,
+        8768,
+        45568
+      ],
+      "exact_startpoint_hits": 0,
+      "distinct_startpoints_hit": 0,
+      "shapes": {
+        "distance+pitch/free": 14,
+        "distance/follow": 1,
+        "distance/free": 33,
+        "none/follow": 9,
+        "target/free": 24682
+      },
+      "ranges": {
+        "m_distance": [
+          6912,
+          8704
+        ],
+        "m_pitch": [
+          285,
+          307
+        ]
+      }
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+      "frames": 27669,
+      "first_loop": 1,
+      "last_loop": 16901,
+      "enclosing_bytes": 221216,
+      "enclosing_sha256": "d97b8912765887af0e6f08b1335749cbe874c330c71b32699b6f7671602423ca",
+      "sparse_bytes": 221217,
+      "sparse_sha256": "dca52ec03ae300dad2a99f366cd8dc4f6fc371fb73f818cb3068ad9b4d8247e3",
+      "map_dimensions": [
+        248,
+        208
+      ],
+      "coordinate_bounds_xy_raw": [
+        6595,
+        57472,
+        8240,
+        42115
+      ],
+      "exact_startpoint_hits": 6,
+      "distinct_startpoints_hit": 6,
+      "shapes": {
+        "distance+pitch/follow": 8,
+        "distance+pitch/free": 38,
+        "distance/follow": 17,
+        "distance/free": 31,
+        "none/follow": 24,
+        "target+distance+pitch/free": 6,
+        "target+distance/follow": 5,
+        "target+distance/free": 10,
+        "target+pitch/free": 1,
+        "target/follow": 699,
+        "target/free": 26830
+      },
+      "ranges": {
+        "m_distance": [
+          8704,
+          13814
+        ],
+        "m_pitch": [
+          307,
+          318
+        ]
+      }
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+      "frames": 19998,
+      "first_loop": 1,
+      "last_loop": 16327,
+      "enclosing_bytes": 159866,
+      "enclosing_sha256": "26030b81dff7a4daf203ec3e07f21df8e128b3fabad41f8893f4a5d508dc5635",
+      "sparse_bytes": 159867,
+      "sparse_sha256": "4c444ab1b7b753fc756b0aac263775643e201c4fe696eb56b1d20ccdc240a353",
+      "map_dimensions": [
+        248,
+        208
+      ],
+      "coordinate_bounds_xy_raw": [
+        6094,
+        58368,
+        8867,
+        42524
+      ],
+      "exact_startpoint_hits": 2,
+      "distinct_startpoints_hit": 2,
+      "shapes": {
+        "distance+pitch/free": 85,
+        "distance/free": 51,
+        "none/follow": 25,
+        "pitch/free": 10,
+        "target+distance+pitch/free": 19,
+        "target+distance/free": 9,
+        "target+pitch/free": 5,
+        "target/free": 19794
+      },
+      "ranges": {
+        "m_distance": [
+          4625,
+          8704
+        ],
+        "m_pitch": [
+          241,
+          307
+        ]
+      }
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+      "frames": 22362,
+      "first_loop": 1,
+      "last_loop": 16291,
+      "enclosing_bytes": 178818,
+      "enclosing_sha256": "2798c33f054a0f6d423cd5ee4b939a66f407bef56c17c0d3403fc8f942405d39",
+      "sparse_bytes": 178818,
+      "sparse_sha256": "498d311a004c1405c5d359c000cd9649db0ed6ba08b7daab2be9a58753574e0a",
+      "map_dimensions": [
+        248,
+        208
+      ],
+      "coordinate_bounds_xy_raw": [
+        7129,
+        57837,
+        9457,
+        41545
+      ],
+      "exact_startpoint_hits": 0,
+      "distinct_startpoints_hit": 0,
+      "shapes": {
+        "distance+pitch/free": 14,
+        "distance/follow": 4,
+        "distance/free": 25,
+        "none/follow": 12,
+        "none/free": 2,
+        "target+distance+pitch/free": 2,
+        "target+distance/free": 14,
+        "target/free": 22289
+      },
+      "ranges": {
+        "m_distance": [
+          7704,
+          13820
+        ],
+        "m_pitch": [
+          307,
+          318
+        ]
+      }
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+      "frames": 27798,
+      "first_loop": 1,
+      "last_loop": 20137,
+      "enclosing_bytes": 222298,
+      "enclosing_sha256": "ef7a789d0d7b148f8360f7c5547d44552c60c70bdaa9765cc191bf833728e2df",
+      "sparse_bytes": 222298,
+      "sparse_sha256": "ca2fc1ecaf6453adecb22b35122395daf0b984d6caab2b53e90100f9e0096bd8",
+      "map_dimensions": [
+        248,
+        208
+      ],
+      "coordinate_bounds_xy_raw": [
+        5120,
+        56164,
+        8214,
+        45568
+      ],
+      "exact_startpoint_hits": 3,
+      "distinct_startpoints_hit": 3,
+      "shapes": {
+        "distance/follow": 2,
+        "distance/free": 6,
+        "none/follow": 19,
+        "target+distance/follow": 2,
+        "target+distance/free": 1,
+        "target/free": 27768
+      },
+      "ranges": {
+        "m_distance": [
+          8704,
+          8704
+        ]
+      }
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+      "frames": 32678,
+      "first_loop": 1,
+      "last_loop": 15927,
+      "enclosing_bytes": 261280,
+      "enclosing_sha256": "0b65d17c2a2a5209a6ac89492f6f42c4d11ab52689213d5c5279083c53be7123",
+      "sparse_bytes": 261280,
+      "sparse_sha256": "5b75bdbe060bae1720af1467e6cb2212832295ca605df662ab1c675d3ca22125",
+      "map_dimensions": [
+        248,
+        208
+      ],
+      "coordinate_bounds_xy_raw": [
+        8064,
+        57472,
+        8106,
+        41158
+      ],
+      "exact_startpoint_hits": 1,
+      "distinct_startpoints_hit": 1,
+      "shapes": {
+        "distance+pitch/free": 26,
+        "distance/follow": 3,
+        "distance/free": 13,
+        "none/follow": 27,
+        "none/free": 1,
+        "pitch/free": 2,
+        "target+distance+pitch/free": 1,
+        "target/follow": 1771,
+        "target/free": 30834
+      },
+      "ranges": {
+        "m_distance": [
+          3605,
+          8704
+        ],
+        "m_pitch": [
+          228,
+          306
+        ]
+      }
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+      "frames": 43157,
+      "first_loop": 1,
+      "last_loop": 20980,
+      "enclosing_bytes": 345234,
+      "enclosing_sha256": "7c7f17dbbba61cc1e9505736108cd88eb68faa7b0fb0cebc7c069228444ceac0",
+      "sparse_bytes": 345235,
+      "sparse_sha256": "422ec4e82c207cb7c630880d6e8319be3fe7f824e0775e665d27ebaec1a6d4c8",
+      "map_dimensions": [
+        248,
+        208
+      ],
+      "coordinate_bounds_xy_raw": [
+        6016,
+        57322,
+        7739,
+        42750
+      ],
+      "exact_startpoint_hits": 9,
+      "distinct_startpoints_hit": 8,
+      "shapes": {
+        "distance/free": 18,
+        "none/follow": 3,
+        "target+distance/free": 13,
+        "target/free": 43123
+      },
+      "ranges": {
+        "m_distance": [
+          7706,
+          8704
+        ]
+      }
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "a956b186a0459a47d9b0fdd8af4ccb65c437f11926186471c434e543e218b2d7",
+      "frames": 14987,
+      "first_loop": 1,
+      "last_loop": 16675,
+      "enclosing_bytes": 119864,
+      "enclosing_sha256": "40e752232e8b6db041d0c0878fd7cef298427775c2a97c7d42f5dd79b7b3f663",
+      "sparse_bytes": 119865,
+      "sparse_sha256": "6f09fc06b619d1a758aa2a8d0824e233282277ad1710ff35dd767d4b381c7d5f",
+      "map_dimensions": [
+        248,
+        208
+      ],
+      "coordinate_bounds_xy_raw": [
+        5322,
+        55799,
+        7967,
+        40360
+      ],
+      "exact_startpoint_hits": 0,
+      "distinct_startpoints_hit": 0,
+      "shapes": {
+        "distance/follow": 1,
+        "distance/free": 9,
+        "none/follow": 3,
+        "target/free": 14974
+      },
+      "ranges": {
+        "m_distance": [
+          8704,
+          8704
+        ]
+      }
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+      "frames": 23209,
+      "first_loop": 1,
+      "last_loop": 19004,
+      "enclosing_bytes": 185580,
+      "enclosing_sha256": "3792cffb434be58412384e4f84f9c33982dc39bee3b76bbc6f2dfd3da4a5839b",
+      "sparse_bytes": 185581,
+      "sparse_sha256": "206538fb6dba7ade0f86e5e736aeb367acc720d6749e0a98e9d4b1482365b754",
+      "map_dimensions": [
+        248,
+        208
+      ],
+      "coordinate_bounds_xy_raw": [
+        6821,
+        58245,
+        8825,
+        41436
+      ],
+      "exact_startpoint_hits": 0,
+      "distinct_startpoints_hit": 0,
+      "shapes": {
+        "distance/follow": 1,
+        "distance/free": 9,
+        "none/follow": 18,
+        "target/free": 23181
+      },
+      "ranges": {
+        "m_distance": [
+          8704,
+          8704
+        ]
+      }
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "bc16af7f68496cddc4698f70b3853402a0f30aa37951aec3a6b555ed703879e8",
+      "frames": 26237,
+      "first_loop": 1,
+      "last_loop": 27391,
+      "enclosing_bytes": 209704,
+      "enclosing_sha256": "d13b06a8cfd4277f18f480a32e9de06e63334b836419e3fe0bb36b2ecea6152e",
+      "sparse_bytes": 209705,
+      "sparse_sha256": "332892056c6b3ff6ecc3b2986f6a61f3b227dc4376d7d8bfbd51e4931b620fbd",
+      "map_dimensions": [
+        248,
+        208
+      ],
+      "coordinate_bounds_xy_raw": [
+        6542,
+        57165,
+        7168,
+        42064
+      ],
+      "exact_startpoint_hits": 0,
+      "distinct_startpoints_hit": 0,
+      "shapes": {
+        "distance+pitch/free": 24,
+        "distance/follow": 2,
+        "distance/free": 12,
+        "none/follow": 40,
+        "pitch/free": 2,
+        "target/free": 26157
+      },
+      "ranges": {
+        "m_distance": [
+          3645,
+          8704
+        ],
+        "m_pitch": [
+          228,
+          306
+        ]
+      }
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77",
+      "frames": 32437,
+      "first_loop": 1,
+      "last_loop": 18797,
+      "enclosing_bytes": 259372,
+      "enclosing_sha256": "a566275ea3d592ddcb9a08b0c6e7a405489a6156339ea85cc4ebf32c366b0b44",
+      "sparse_bytes": 259373,
+      "sparse_sha256": "24190eaadfc6d50f3601cf6c9390e80a8bcbe23dbf74e3958bf421b59fe1895b",
+      "map_dimensions": [
+        248,
+        208
+      ],
+      "coordinate_bounds_xy_raw": [
+        6016,
+        57386,
+        8118,
+        41775
+      ],
+      "exact_startpoint_hits": 8,
+      "distinct_startpoints_hit": 8,
+      "shapes": {
+        "distance/free": 2,
+        "none/follow": 34,
+        "target+distance/follow": 2,
+        "target+distance/free": 6,
+        "target/free": 32393
+      },
+      "ranges": {
+        "m_distance": [
+          8704,
+          8704
+        ]
+      }
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+      "frames": 54557,
+      "first_loop": 1,
+      "last_loop": 23257,
+      "enclosing_bytes": 436384,
+      "enclosing_sha256": "220a9604ffdff5f3129a659e9bb8d13fb8bbffb05bd9f94c2582a093a3d170d0",
+      "sparse_bytes": 436384,
+      "sparse_sha256": "7204ebb786ca6a8f4eb69da19c0192df16ae771084ac11b19bcf8a7169ced459",
+      "map_dimensions": [
+        248,
+        208
+      ],
+      "coordinate_bounds_xy_raw": [
+        6016,
+        57472,
+        7820,
+        41394
+      ],
+      "exact_startpoint_hits": 9,
+      "distinct_startpoints_hit": 9,
+      "shapes": {
+        "distance/free": 1,
+        "none/follow": 22,
+        "target+distance/follow": 1,
+        "target+distance/free": 8,
+        "target/free": 54525
+      },
+      "ranges": {
+        "m_distance": [
+          8704,
+          8704
+        ]
+      }
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+      "frames": 15889,
+      "first_loop": 1,
+      "last_loop": 13799,
+      "enclosing_bytes": 127166,
+      "enclosing_sha256": "974859683d88f5f56e494cdc230dbfd57a7746bf4f4a1c5746064519e1a0cbf0",
+      "sparse_bytes": 127168,
+      "sparse_sha256": "308363b6fb045dff43acf0559a04b1c4cddd4fa9956d76fdc9675f8bfb8c6c85",
+      "map_dimensions": [
+        248,
+        208
+      ],
+      "coordinate_bounds_xy_raw": [
+        6419,
+        57410,
+        7168,
+        43353
+      ],
+      "exact_startpoint_hits": 1,
+      "distinct_startpoints_hit": 1,
+      "shapes": {
+        "distance+pitch/free": 132,
+        "distance/follow": 1,
+        "distance/free": 55,
+        "none/follow": 9,
+        "pitch/free": 9,
+        "target+distance+pitch/free": 37,
+        "target+distance/free": 31,
+        "target+pitch/free": 5,
+        "target/free": 15610
+      },
+      "ranges": {
+        "m_distance": [
+          6838,
+          8704
+        ],
+        "m_pitch": [
+          276,
+          307
+        ]
+      }
+    }
+  ],
+  "control_camera_events": 406717,
+  "control_physical_bytes": 3252218,
+  "control_startpoint_hits": 47,
+  "control_shapes": {
+    "distance+pitch/follow": 33,
+    "distance+pitch/free": 370,
+    "distance/follow": 37,
+    "distance/free": 292,
+    "none/follow": 326,
+    "none/free": 3,
+    "pitch/follow": 1,
+    "pitch/free": 23,
+    "target+distance+pitch/free": 65,
+    "target+distance/follow": 13,
+    "target+distance/free": 97,
+    "target+pitch/free": 12,
+    "target/follow": 2470,
+    "target/free": 402975
+  },
+  "source_shapes_without_target_witness": [],
+  "historical_distance_pitch_pairs": 77,
+  "historical_pairs_exactly_observed_modern": 1,
+  "rendered_camera_or_follow_semantics_verified": false,
+  "original_partial_r8": {
+    "replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+    "build": 98285,
+    "identical_physical_enclosing_frames": 17593
+  }
+}
