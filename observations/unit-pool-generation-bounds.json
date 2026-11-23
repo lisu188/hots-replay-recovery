@@ -1,0 +1,563 @@
+[
+  {
+    "build": 41810,
+    "sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+    "ordinary_rule_verified_for_image": false,
+    "counts": {
+      "visible_births": 2802,
+      "before_first_visible_birth_if_clean": 228,
+      "between_observed_births": 15657,
+      "between_birth_intervals_with_gap": 2082,
+      "gaps_with_prior_recorded_death": 2082
+    },
+    "first_gap_with_two_recorded_births": {
+      "index": 95,
+      "previous_generation": 1,
+      "previous_type": "StormGameStartPathingBlocker",
+      "previous_birth_loop": 0,
+      "previous_last_recorded_death": 610,
+      "next_generation": 5,
+      "next_type": "AnubarakBeetleSpitBeetle",
+      "next_birth_loop": 849,
+      "missing_complete_lifetimes": 3,
+      "minimum_retires_between_allocations": 4,
+      "isolated_reallocation_witness": true
+    },
+    "dynamic_ping_intervals_if_target_rule_applies": [
+      {
+        "index": 32,
+        "previous_generation": 17,
+        "previous_type": "RangedMinion",
+        "previous_birth_loop": 4547,
+        "previous_last_recorded_death": 5267,
+        "next_generation": 19,
+        "next_type": "VehicleDragon",
+        "next_birth_loop": 5282,
+        "missing_complete_lifetimes": 1,
+        "minimum_retires_between_allocations": 2,
+        "isolated_reallocation_witness": true,
+        "pings": 1
+      },
+      {
+        "index": 46,
+        "previous_generation": 1,
+        "previous_type": "TownGateL215BLUR",
+        "previous_birth_loop": 0,
+        "previous_last_recorded_death": 6294,
+        "next_generation": 6,
+        "next_type": "FootmanMinion",
+        "next_birth_loop": 6950,
+        "missing_complete_lifetimes": 4,
+        "minimum_retires_between_allocations": 5,
+        "isolated_reallocation_witness": true,
+        "pings": 1
+      },
+      {
+        "index": 218,
+        "previous_generation": 39,
+        "previous_type": "AbathurLocustNormal",
+        "previous_birth_loop": 7466,
+        "previous_last_recorded_death": 7662,
+        "next_generation": 43,
+        "next_type": "RangedMinion",
+        "next_birth_loop": 7908,
+        "missing_complete_lifetimes": 3,
+        "minimum_retires_between_allocations": 4,
+        "isolated_reallocation_witness": true,
+        "pings": 1
+      },
+      {
+        "index": 21,
+        "previous_generation": 59,
+        "previous_type": "WizardMinion",
+        "previous_birth_loop": 7907,
+        "previous_last_recorded_death": 8676,
+        "next_generation": 66,
+        "next_type": "AbathurEvolvedMonstrosity",
+        "next_birth_loop": 8729,
+        "missing_complete_lifetimes": 6,
+        "minimum_retires_between_allocations": 7,
+        "isolated_reallocation_witness": true,
+        "pings": 1
+      },
+      {
+        "index": 113,
+        "previous_generation": 121,
+        "previous_type": "RegenGlobe",
+        "previous_birth_loop": 14149,
+        "previous_last_recorded_death": 14277,
+        "next_generation": 122,
+        "next_type": "VehicleDragon",
+        "next_birth_loop": 14282,
+        "missing_complete_lifetimes": 0,
+        "minimum_retires_between_allocations": 1,
+        "isolated_reallocation_witness": true,
+        "pings": 4
+      },
+      {
+        "index": 214,
+        "previous_generation": 100,
+        "previous_type": "FootmanMinion",
+        "previous_birth_loop": 13684,
+        "previous_last_recorded_death": 13985,
+        "next_generation": 132,
+        "next_type": "MercLanerMeleeKnight",
+        "next_birth_loop": 16096,
+        "missing_complete_lifetimes": 31,
+        "minimum_retires_between_allocations": 32,
+        "isolated_reallocation_witness": true,
+        "pings": 1
+      }
+    ]
+  },
+  {
+    "build": 41810,
+    "sha256": "7efa1c335816eebe802747ae4b16252ed22fcd8387b09d24b115b2917542b52a",
+    "ordinary_rule_verified_for_image": false,
+    "counts": {
+      "visible_births": 3460,
+      "before_first_visible_birth_if_clean": 275,
+      "between_observed_births": 20417,
+      "between_birth_intervals_with_gap": 2662,
+      "gaps_with_prior_recorded_death": 2662
+    },
+    "first_gap_with_two_recorded_births": {
+      "index": 117,
+      "previous_generation": 1,
+      "previous_type": "StormGameStartPathingBlocker",
+      "previous_birth_loop": 0,
+      "previous_last_recorded_death": 610,
+      "next_generation": 3,
+      "next_type": "FootmanMinion",
+      "next_birth_loop": 691,
+      "missing_complete_lifetimes": 1,
+      "minimum_retires_between_allocations": 2,
+      "isolated_reallocation_witness": true
+    }
+  },
+  {
+    "build": 41810,
+    "sha256": "2fca3c78d0e459d4452e3fb1f41ff3fce22b9c1f8f113019389195ff171bf618",
+    "ordinary_rule_verified_for_image": false,
+    "counts": {
+      "visible_births": 2403,
+      "before_first_visible_birth_if_clean": 377,
+      "between_observed_births": 15449,
+      "between_birth_intervals_with_gap": 1805,
+      "gaps_with_prior_recorded_death": 1805
+    },
+    "first_gap_with_two_recorded_births": {
+      "index": 148,
+      "previous_generation": 1,
+      "previous_type": "StormGameStartPathingBlockerDiagonal",
+      "previous_birth_loop": 0,
+      "previous_last_recorded_death": 610,
+      "next_generation": 5,
+      "next_type": "CloudSerpent",
+      "next_birth_loop": 931,
+      "missing_complete_lifetimes": 3,
+      "minimum_retires_between_allocations": 4,
+      "isolated_reallocation_witness": true
+    }
+  },
+  {
+    "build": 41810,
+    "sha256": "8c4fb83989b528ea3227f6c97758293d1f650e33caa3d38c6a2a84d27ab0850d",
+    "ordinary_rule_verified_for_image": false,
+    "counts": {
+      "visible_births": 2111,
+      "before_first_visible_birth_if_clean": 330,
+      "between_observed_births": 12795,
+      "between_birth_intervals_with_gap": 1528,
+      "gaps_with_prior_recorded_death": 1528
+    },
+    "first_gap_with_two_recorded_births": {
+      "index": 117,
+      "previous_generation": 1,
+      "previous_type": "StormGameStartPathingBlocker",
+      "previous_birth_loop": 0,
+      "previous_last_recorded_death": 610,
+      "next_generation": 3,
+      "next_type": "AbathurSymbiote",
+      "next_birth_loop": 879,
+      "missing_complete_lifetimes": 1,
+      "minimum_retires_between_allocations": 2,
+      "isolated_reallocation_witness": true
+    }
+  },
+  {
+    "build": 98348,
+    "sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+    "ordinary_rule_verified_for_image": true,
+    "counts": {
+      "visible_births": 3016,
+      "before_first_visible_birth_if_clean": 124,
+      "between_observed_births": 12170,
+      "between_birth_intervals_with_gap": 2157,
+      "gaps_with_prior_recorded_death": 2157
+    },
+    "first_gap_with_two_recorded_births": {
+      "index": 143,
+      "previous_generation": 1,
+      "previous_type": "StormGameStartPathingBlockerDiagonal",
+      "previous_birth_loop": 0,
+      "previous_last_recorded_death": 610,
+      "next_generation": 3,
+      "next_type": "ZagaraCreepTumor",
+      "next_birth_loop": 823,
+      "missing_complete_lifetimes": 1,
+      "minimum_retires_between_allocations": 2,
+      "isolated_reallocation_witness": true
+    }
+  },
+  {
+    "build": 98348,
+    "sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+    "ordinary_rule_verified_for_image": true,
+    "counts": {
+      "visible_births": 4088,
+      "before_first_visible_birth_if_clean": 76,
+      "between_observed_births": 15246,
+      "between_birth_intervals_with_gap": 2937,
+      "gaps_with_prior_recorded_death": 2937
+    },
+    "first_gap_with_two_recorded_births": {
+      "index": 80,
+      "previous_generation": 1,
+      "previous_type": "StormGameStartPathingBlocker",
+      "previous_birth_loop": 0,
+      "previous_last_recorded_death": 610,
+      "next_generation": 3,
+      "next_type": "ChromieTimeTrap",
+      "next_birth_loop": 765,
+      "missing_complete_lifetimes": 1,
+      "minimum_retires_between_allocations": 2,
+      "isolated_reallocation_witness": true
+    }
+  },
+  {
+    "build": 98348,
+    "sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+    "ordinary_rule_verified_for_image": true,
+    "counts": {
+      "visible_births": 2860,
+      "before_first_visible_birth_if_clean": 122,
+      "between_observed_births": 12612,
+      "between_birth_intervals_with_gap": 2075,
+      "gaps_with_prior_recorded_death": 2075
+    },
+    "first_gap_with_two_recorded_births": {
+      "index": 128,
+      "previous_generation": 2,
+      "previous_type": "MephistoSkullMissileMissile",
+      "previous_birth_loop": 757,
+      "previous_last_recorded_death": 778,
+      "next_generation": 4,
+      "next_type": "MephistoSkullMissileMissile",
+      "next_birth_loop": 901,
+      "missing_complete_lifetimes": 1,
+      "minimum_retires_between_allocations": 2,
+      "isolated_reallocation_witness": true
+    }
+  },
+  {
+    "build": 98348,
+    "sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+    "ordinary_rule_verified_for_image": true,
+    "counts": {
+      "visible_births": 3963,
+      "before_first_visible_birth_if_clean": 158,
+      "between_observed_births": 16426,
+      "between_birth_intervals_with_gap": 2901,
+      "gaps_with_prior_recorded_death": 2901
+    },
+    "first_gap_with_two_recorded_births": {
+      "index": 130,
+      "previous_generation": 1,
+      "previous_type": "StormGameStartPathingBlockerDiagonal",
+      "previous_birth_loop": 0,
+      "previous_last_recorded_death": 610,
+      "next_generation": 4,
+      "next_type": "ZagaraRoach",
+      "next_birth_loop": 782,
+      "missing_complete_lifetimes": 2,
+      "minimum_retires_between_allocations": 3,
+      "isolated_reallocation_witness": true
+    }
+  },
+  {
+    "build": 98348,
+    "sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+    "ordinary_rule_verified_for_image": true,
+    "counts": {
+      "visible_births": 2860,
+      "before_first_visible_birth_if_clean": 127,
+      "between_observed_births": 10843,
+      "between_birth_intervals_with_gap": 1983,
+      "gaps_with_prior_recorded_death": 1983
+    },
+    "first_gap_with_two_recorded_births": {
+      "index": 105,
+      "previous_generation": 1,
+      "previous_type": "StormGameStartPathingBlocker",
+      "previous_birth_loop": 0,
+      "previous_last_recorded_death": 610,
+      "next_generation": 3,
+      "next_type": "RegenGlobe",
+      "next_birth_loop": 965,
+      "missing_complete_lifetimes": 1,
+      "minimum_retires_between_allocations": 2,
+      "isolated_reallocation_witness": true
+    }
+  },
+  {
+    "build": 98348,
+    "sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+    "ordinary_rule_verified_for_image": true,
+    "counts": {
+      "visible_births": 4771,
+      "before_first_visible_birth_if_clean": 226,
+      "between_observed_births": 18116,
+      "between_birth_intervals_with_gap": 3284,
+      "gaps_with_prior_recorded_death": 3284
+    },
+    "first_gap_with_two_recorded_births": {
+      "index": 94,
+      "previous_generation": 2,
+      "previous_type": "DryadWispUnit",
+      "previous_birth_loop": 641,
+      "previous_last_recorded_death": 742,
+      "next_generation": 4,
+      "next_type": "ZagaraCreepTumor",
+      "next_birth_loop": 772,
+      "missing_complete_lifetimes": 1,
+      "minimum_retires_between_allocations": 2,
+      "isolated_reallocation_witness": true
+    }
+  },
+  {
+    "build": 98348,
+    "sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+    "ordinary_rule_verified_for_image": true,
+    "counts": {
+      "visible_births": 5535,
+      "before_first_visible_birth_if_clean": 108,
+      "between_observed_births": 19168,
+      "between_birth_intervals_with_gap": 3673,
+      "gaps_with_prior_recorded_death": 3673
+    },
+    "first_gap_with_two_recorded_births": {
+      "index": 105,
+      "previous_generation": 1,
+      "previous_type": "StormGameStartPathingBlocker",
+      "previous_birth_loop": 0,
+      "previous_last_recorded_death": 610,
+      "next_generation": 5,
+      "next_type": "RegenGlobe",
+      "next_birth_loop": 976,
+      "missing_complete_lifetimes": 3,
+      "minimum_retires_between_allocations": 4,
+      "isolated_reallocation_witness": true
+    }
+  },
+  {
+    "build": 98348,
+    "sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+    "ordinary_rule_verified_for_image": true,
+    "counts": {
+      "visible_births": 3703,
+      "before_first_visible_birth_if_clean": 115,
+      "between_observed_births": 15295,
+      "between_birth_intervals_with_gap": 2660,
+      "gaps_with_prior_recorded_death": 2660
+    },
+    "first_gap_with_two_recorded_births": {
+      "index": 93,
+      "previous_generation": 1,
+      "previous_type": "StormGameStartPathingBlocker",
+      "previous_birth_loop": 0,
+      "previous_last_recorded_death": 610,
+      "next_generation": 4,
+      "next_type": "HoggerEzThroDynamite",
+      "next_birth_loop": 857,
+      "missing_complete_lifetimes": 2,
+      "minimum_retires_between_allocations": 3,
+      "isolated_reallocation_witness": true
+    }
+  },
+  {
+    "build": 98348,
+    "sha256": "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+    "ordinary_rule_verified_for_image": true,
+    "counts": {
+      "visible_births": 2908,
+      "before_first_visible_birth_if_clean": 133,
+      "between_observed_births": 13138,
+      "between_birth_intervals_with_gap": 2139,
+      "gaps_with_prior_recorded_death": 2139
+    },
+    "first_gap_with_two_recorded_births": {
+      "index": 80,
+      "previous_generation": 1,
+      "previous_type": "StormGameStartPathingBlocker",
+      "previous_birth_loop": 0,
+      "previous_last_recorded_death": 610,
+      "next_generation": 3,
+      "next_type": "TyraelEldruinSword",
+      "next_birth_loop": 882,
+      "missing_complete_lifetimes": 1,
+      "minimum_retires_between_allocations": 2,
+      "isolated_reallocation_witness": true
+    }
+  },
+  {
+    "build": 98348,
+    "sha256": "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+    "ordinary_rule_verified_for_image": true,
+    "counts": {
+      "visible_births": 3241,
+      "before_first_visible_birth_if_clean": 171,
+      "between_observed_births": 12222,
+      "between_birth_intervals_with_gap": 2333,
+      "gaps_with_prior_recorded_death": 2333
+    },
+    "first_gap_with_two_recorded_births": {
+      "index": 88,
+      "previous_generation": 1,
+      "previous_type": "StormGameStartPathingBlocker",
+      "previous_birth_loop": 0,
+      "previous_last_recorded_death": 610,
+      "next_generation": 3,
+      "next_type": "ChromieSandBlastPastAndFutureMeControllerUnit",
+      "next_birth_loop": 822,
+      "missing_complete_lifetimes": 1,
+      "minimum_retires_between_allocations": 2,
+      "isolated_reallocation_witness": true
+    }
+  },
+  {
+    "build": 98348,
+    "sha256": "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+    "ordinary_rule_verified_for_image": true,
+    "counts": {
+      "visible_births": 4221,
+      "before_first_visible_birth_if_clean": 181,
+      "between_observed_births": 17252,
+      "between_birth_intervals_with_gap": 2900,
+      "gaps_with_prior_recorded_death": 2900
+    },
+    "first_gap_with_two_recorded_births": {
+      "index": 138,
+      "previous_generation": 1,
+      "previous_type": "StormGameStartPathingBlockerDiagonal",
+      "previous_birth_loop": 0,
+      "previous_last_recorded_death": 610,
+      "next_generation": 3,
+      "next_type": "ChromieTimeTrap",
+      "next_birth_loop": 748,
+      "missing_complete_lifetimes": 1,
+      "minimum_retires_between_allocations": 2,
+      "isolated_reallocation_witness": true
+    }
+  },
+  {
+    "build": 98348,
+    "sha256": "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77",
+    "ordinary_rule_verified_for_image": true,
+    "counts": {
+      "visible_births": 4155,
+      "before_first_visible_birth_if_clean": 257,
+      "between_observed_births": 16600,
+      "between_birth_intervals_with_gap": 2812,
+      "gaps_with_prior_recorded_death": 2812
+    },
+    "first_gap_with_two_recorded_births": {
+      "index": 107,
+      "previous_generation": 1,
+      "previous_type": "StormGameStartPathingBlocker",
+      "previous_birth_loop": 0,
+      "previous_last_recorded_death": 610,
+      "next_generation": 3,
+      "next_type": "JunkratSteelTrap",
+      "next_birth_loop": 796,
+      "missing_complete_lifetimes": 1,
+      "minimum_retires_between_allocations": 2,
+      "isolated_reallocation_witness": true
+    }
+  },
+  {
+    "build": 98348,
+    "sha256": "a956b186a0459a47d9b0fdd8af4ccb65c437f11926186471c434e543e218b2d7",
+    "ordinary_rule_verified_for_image": true,
+    "counts": {
+      "visible_births": 3659,
+      "before_first_visible_birth_if_clean": 161,
+      "between_observed_births": 13944,
+      "between_birth_intervals_with_gap": 2629,
+      "gaps_with_prior_recorded_death": 2629
+    },
+    "first_gap_with_two_recorded_births": {
+      "index": 142,
+      "previous_generation": 1,
+      "previous_type": "StormGameStartPathingBlockerDiagonal",
+      "previous_birth_loop": 0,
+      "previous_last_recorded_death": 610,
+      "next_generation": 9,
+      "next_type": "AnubarakBeetleSpitBeetle",
+      "next_birth_loop": 872,
+      "missing_complete_lifetimes": 7,
+      "minimum_retires_between_allocations": 8,
+      "isolated_reallocation_witness": true
+    }
+  },
+  {
+    "build": 98348,
+    "sha256": "bc16af7f68496cddc4698f70b3853402a0f30aa37951aec3a6b555ed703879e8",
+    "ordinary_rule_verified_for_image": true,
+    "counts": {
+      "visible_births": 5851,
+      "before_first_visible_birth_if_clean": 245,
+      "between_observed_births": 23252,
+      "between_birth_intervals_with_gap": 3965,
+      "gaps_with_prior_recorded_death": 3965
+    },
+    "first_gap_with_two_recorded_births": {
+      "index": 103,
+      "previous_generation": 1,
+      "previous_type": "StormGameStartPathingBlocker",
+      "previous_birth_loop": 0,
+      "previous_last_recorded_death": 610,
+      "next_generation": 3,
+      "next_type": "JunkratSteelTrap",
+      "next_birth_loop": 753,
+      "missing_complete_lifetimes": 1,
+      "minimum_retires_between_allocations": 2,
+      "isolated_reallocation_witness": true
+    }
+  },
+  {
+    "build": 98348,
+    "sha256": "4732077e899f6894c29586795a01e2a27fba622dbf22b5d29c7b30d57e3ce4fc",
+    "ordinary_rule_verified_for_image": true,
+    "counts": {
+      "visible_births": 3054,
+      "before_first_visible_birth_if_clean": 116,
+      "between_observed_births": 12592,
+      "between_birth_intervals_with_gap": 2160,
+      "gaps_with_prior_recorded_death": 2160
+    },
+    "first_gap_with_two_recorded_births": {
+      "index": 92,
+      "previous_generation": 1,
+      "previous_type": "StormGameStartPathingBlocker",
+      "previous_birth_loop": 0,
+      "previous_last_recorded_death": 610,
+      "next_generation": 5,
+      "next_type": "AnubarakBeetleSpitBeetle",
+      "next_birth_loop": 889,
+      "missing_complete_lifetimes": 3,
+      "minimum_retires_between_allocations": 4,
+      "isolated_reallocation_witness": true
+    }
+  }
+]

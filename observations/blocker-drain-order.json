@@ -1,0 +1,332 @@
+{
+  "model": {
+    "slots": 5,
+    "partitions": 16,
+    "subsequences": 512
+  },
+  "cases": [
+    {
+      "build": 41810,
+      "sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+      "eligible_generation_two_wave_units": 42,
+      "first_forbidden_subsequence": {
+        "wave_ordinals": [
+          0,
+          3,
+          4
+        ],
+        "release_ranks": [
+          9,
+          4,
+          50
+        ]
+      }
+    },
+    {
+      "build": 41810,
+      "sha256": "7efa1c335816eebe802747ae4b16252ed22fcd8387b09d24b115b2917542b52a",
+      "eligible_generation_two_wave_units": 41,
+      "first_forbidden_subsequence": {
+        "wave_ordinals": [
+          1,
+          2,
+          3
+        ],
+        "release_ranks": [
+          12,
+          3,
+          51
+        ]
+      }
+    },
+    {
+      "build": 41810,
+      "sha256": "2fca3c78d0e459d4452e3fb1f41ff3fce22b9c1f8f113019389195ff171bf618",
+      "eligible_generation_two_wave_units": 42,
+      "first_forbidden_subsequence": {
+        "wave_ordinals": [
+          0,
+          1,
+          2
+        ],
+        "release_ranks": [
+          13,
+          2,
+          36
+        ]
+      }
+    },
+    {
+      "build": 41810,
+      "sha256": "8c4fb83989b528ea3227f6c97758293d1f650e33caa3d38c6a2a84d27ab0850d",
+      "eligible_generation_two_wave_units": 42,
+      "first_forbidden_subsequence": {
+        "wave_ordinals": [
+          0,
+          1,
+          5
+        ],
+        "release_ranks": [
+          44,
+          23,
+          52
+        ]
+      }
+    },
+    {
+      "build": 98348,
+      "sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+      "eligible_generation_two_wave_units": 36,
+      "first_forbidden_subsequence": {
+        "wave_ordinals": [
+          6,
+          7,
+          10
+        ],
+        "release_ranks": [
+          28,
+          53,
+          52
+        ]
+      }
+    },
+    {
+      "build": 98348,
+      "sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+      "eligible_generation_two_wave_units": 36,
+      "first_forbidden_subsequence": {
+        "wave_ordinals": [
+          10,
+          11,
+          18
+        ],
+        "release_ranks": [
+          28,
+          27,
+          42
+        ]
+      }
+    },
+    {
+      "build": 98348,
+      "sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+      "eligible_generation_two_wave_units": 36,
+      "first_forbidden_subsequence": {
+        "wave_ordinals": [
+          8,
+          9,
+          13
+        ],
+        "release_ranks": [
+          28,
+          27,
+          50
+        ]
+      }
+    },
+    {
+      "build": 98348,
+      "sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+      "eligible_generation_two_wave_units": 36,
+      "first_forbidden_subsequence": {
+        "wave_ordinals": [
+          6,
+          7,
+          9
+        ],
+        "release_ranks": [
+          29,
+          27,
+          53
+        ]
+      }
+    },
+    {
+      "build": 98348,
+      "sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+      "eligible_generation_two_wave_units": 36,
+      "first_forbidden_subsequence": {
+        "wave_ordinals": [
+          7,
+          8,
+          9
+        ],
+        "release_ranks": [
+          27,
+          26,
+          52
+        ]
+      }
+    },
+    {
+      "build": 98348,
+      "sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+      "eligible_generation_two_wave_units": 36,
+      "first_forbidden_subsequence": {
+        "wave_ordinals": [
+          6,
+          7,
+          10
+        ],
+        "release_ranks": [
+          29,
+          52,
+          50
+        ]
+      }
+    },
+    {
+      "build": 98348,
+      "sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+      "eligible_generation_two_wave_units": 36,
+      "first_forbidden_subsequence": {
+        "wave_ordinals": [
+          10,
+          11,
+          17
+        ],
+        "release_ranks": [
+          23,
+          22,
+          45
+        ]
+      }
+    },
+    {
+      "build": 98348,
+      "sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+      "eligible_generation_two_wave_units": 36,
+      "first_forbidden_subsequence": {
+        "wave_ordinals": [
+          6,
+          7,
+          8
+        ],
+        "release_ranks": [
+          28,
+          53,
+          52
+        ]
+      }
+    },
+    {
+      "build": 98348,
+      "sha256": "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+      "eligible_generation_two_wave_units": 36,
+      "first_forbidden_subsequence": {
+        "wave_ordinals": [
+          6,
+          7,
+          8
+        ],
+        "release_ranks": [
+          29,
+          53,
+          52
+        ]
+      }
+    },
+    {
+      "build": 98348,
+      "sha256": "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+      "eligible_generation_two_wave_units": 36,
+      "first_forbidden_subsequence": {
+        "wave_ordinals": [
+          9,
+          10,
+          11
+        ],
+        "release_ranks": [
+          26,
+          50,
+          49
+        ]
+      }
+    },
+    {
+      "build": 98348,
+      "sha256": "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+      "eligible_generation_two_wave_units": 36,
+      "first_forbidden_subsequence": {
+        "wave_ordinals": [
+          6,
+          7,
+          8
+        ],
+        "release_ranks": [
+          28,
+          50,
+          49
+        ]
+      }
+    },
+    {
+      "build": 98348,
+      "sha256": "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77",
+      "eligible_generation_two_wave_units": 36,
+      "first_forbidden_subsequence": {
+        "wave_ordinals": [
+          7,
+          8,
+          12
+        ],
+        "release_ranks": [
+          29,
+          28,
+          50
+        ]
+      }
+    },
+    {
+      "build": 98348,
+      "sha256": "a956b186a0459a47d9b0fdd8af4ccb65c437f11926186471c434e543e218b2d7",
+      "eligible_generation_two_wave_units": 36,
+      "first_forbidden_subsequence": {
+        "wave_ordinals": [
+          7,
+          8,
+          9
+        ],
+        "release_ranks": [
+          29,
+          28,
+          50
+        ]
+      }
+    },
+    {
+      "build": 98348,
+      "sha256": "bc16af7f68496cddc4698f70b3853402a0f30aa37951aec3a6b555ed703879e8",
+      "eligible_generation_two_wave_units": 36,
+      "first_forbidden_subsequence": {
+        "wave_ordinals": [
+          7,
+          8,
+          9
+        ],
+        "release_ranks": [
+          29,
+          28,
+          49
+        ]
+      }
+    },
+    {
+      "build": 98348,
+      "sha256": "4732077e899f6894c29586795a01e2a27fba622dbf22b5d29c7b30d57e3ce4fc",
+      "eligible_generation_two_wave_units": 36,
+      "first_forbidden_subsequence": {
+        "wave_ordinals": [
+          8,
+          9,
+          10
+        ],
+        "release_ranks": [
+          29,
+          51,
+          50
+        ]
+      }
+    }
+  ]
+}

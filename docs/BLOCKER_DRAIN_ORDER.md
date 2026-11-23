@@ -1,0 +1,9 @@
+# Testing gate death order against the recovered unit pool
+
+The build-98348 pool makes each drained batch available oldest retirement first and places that batch ahead of older ready entries. Suppose that the initial blockers retired in their recorded death order, all relevant drains finished before the observed generation-two allocations, and their birth order agreed with allocation order. Each drain then exposes a contiguous ascending interval of the death ranks. The intervals are taken in descending batch order. Other allocations can consume entries from these intervals.
+
+Two three-rank patterns disprove that explanation even when some allocations go unobserved. If a larger rank is taken before a smaller one, the batch must have changed; a subsequent rank cannot exceed that larger rank. Likewise an ascending pair followed by a rank strictly between its members cannot come from that batch or any older one. These are the 213 and 132 patterns. The verifier exercises the native-derived five-slot allocator under all 16 choices of drain boundaries and checks all 512 subsequences of the resulting outputs.
+
+All fifteen stock recordings contain a forbidden triple among generation-two opening wave units. All four old recordings also contain one under the target pool rule. In TEN the first such triple uses zero-based wave ordinals 0, 3 and 4, which select zero-based blocker death ranks **9, 4 and 50**. Thus taking the recorded deaths as the physical retirement order and simply varying the completed drain boundaries cannot reproduce those tags. The result leaves the actual retirement order, delayed pending batches and the time between allocation and tracker birth unresolved. [Per-recording counterexamples](../observations/blocker-drain-order.json)
+
+Run `python blocker_drain_order.py --case REPLAY SHA256 BUILD`, repeating the case argument for each local recording.
