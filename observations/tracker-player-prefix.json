@@ -1,0 +1,192 @@
+[
+  {
+    "build": 41810,
+    "replay_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+    "frames": 10,
+    "prefix_bytes": 240,
+    "prefix_sha256": "65fdf113d25a900a782c301d65218425a5efe208a75c75192ce6cd0c66ffe005",
+    "next_kind": "SUnitBornEvent",
+    "user_id_differs_from_slot": 0,
+    "working_set_id_differs_from_slot": 0
+  },
+  {
+    "build": 41810,
+    "replay_sha256": "7efa1c335816eebe802747ae4b16252ed22fcd8387b09d24b115b2917542b52a",
+    "frames": 10,
+    "prefix_bytes": 240,
+    "prefix_sha256": "65fdf113d25a900a782c301d65218425a5efe208a75c75192ce6cd0c66ffe005",
+    "next_kind": "SUnitBornEvent",
+    "user_id_differs_from_slot": 0,
+    "working_set_id_differs_from_slot": 0
+  },
+  {
+    "build": 41810,
+    "replay_sha256": "2fca3c78d0e459d4452e3fb1f41ff3fce22b9c1f8f113019389195ff171bf618",
+    "frames": 10,
+    "prefix_bytes": 240,
+    "prefix_sha256": "65fdf113d25a900a782c301d65218425a5efe208a75c75192ce6cd0c66ffe005",
+    "next_kind": "SUnitBornEvent",
+    "user_id_differs_from_slot": 0,
+    "working_set_id_differs_from_slot": 0
+  },
+  {
+    "build": 41810,
+    "replay_sha256": "8c4fb83989b528ea3227f6c97758293d1f650e33caa3d38c6a2a84d27ab0850d",
+    "frames": 10,
+    "prefix_bytes": 240,
+    "prefix_sha256": "65fdf113d25a900a782c301d65218425a5efe208a75c75192ce6cd0c66ffe005",
+    "next_kind": "SUnitBornEvent",
+    "user_id_differs_from_slot": 0,
+    "working_set_id_differs_from_slot": 0
+  },
+  {
+    "build": 98348,
+    "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+    "frames": 10,
+    "prefix_bytes": 240,
+    "prefix_sha256": "10d506ece94b104966a3b13e4a2d826653ad50d8402253a55baaff45cf681770",
+    "next_kind": "SHeroBannedEvent",
+    "user_id_differs_from_slot": 5,
+    "working_set_id_differs_from_slot": 6
+  },
+  {
+    "build": 98348,
+    "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+    "frames": 10,
+    "prefix_bytes": 240,
+    "prefix_sha256": "65fdf113d25a900a782c301d65218425a5efe208a75c75192ce6cd0c66ffe005",
+    "next_kind": "SHeroBannedEvent",
+    "user_id_differs_from_slot": 0,
+    "working_set_id_differs_from_slot": 0
+  },
+  {
+    "build": 98348,
+    "replay_sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+    "frames": 10,
+    "prefix_bytes": 240,
+    "prefix_sha256": "323e448832f851f74a20709bad87d5a18ccf4be698787bc54a39a6e2f4b35f96",
+    "next_kind": "SHeroBannedEvent",
+    "user_id_differs_from_slot": 5,
+    "working_set_id_differs_from_slot": 5
+  },
+  {
+    "build": 98348,
+    "replay_sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+    "frames": 10,
+    "prefix_bytes": 240,
+    "prefix_sha256": "323e448832f851f74a20709bad87d5a18ccf4be698787bc54a39a6e2f4b35f96",
+    "next_kind": "SHeroBannedEvent",
+    "user_id_differs_from_slot": 5,
+    "working_set_id_differs_from_slot": 5
+  },
+  {
+    "build": 98348,
+    "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+    "frames": 10,
+    "prefix_bytes": 240,
+    "prefix_sha256": "65fdf113d25a900a782c301d65218425a5efe208a75c75192ce6cd0c66ffe005",
+    "next_kind": "SHeroBannedEvent",
+    "user_id_differs_from_slot": 0,
+    "working_set_id_differs_from_slot": 0
+  },
+  {
+    "build": 98348,
+    "replay_sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+    "frames": 10,
+    "prefix_bytes": 240,
+    "prefix_sha256": "65fdf113d25a900a782c301d65218425a5efe208a75c75192ce6cd0c66ffe005",
+    "next_kind": "SHeroBannedEvent",
+    "user_id_differs_from_slot": 0,
+    "working_set_id_differs_from_slot": 0
+  },
+  {
+    "build": 98348,
+    "replay_sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+    "frames": 10,
+    "prefix_bytes": 240,
+    "prefix_sha256": "65fdf113d25a900a782c301d65218425a5efe208a75c75192ce6cd0c66ffe005",
+    "next_kind": "SHeroBannedEvent",
+    "user_id_differs_from_slot": 0,
+    "working_set_id_differs_from_slot": 0
+  },
+  {
+    "build": 98348,
+    "replay_sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+    "frames": 10,
+    "prefix_bytes": 240,
+    "prefix_sha256": "65fdf113d25a900a782c301d65218425a5efe208a75c75192ce6cd0c66ffe005",
+    "next_kind": "SHeroBannedEvent",
+    "user_id_differs_from_slot": 0,
+    "working_set_id_differs_from_slot": 0
+  },
+  {
+    "build": 98348,
+    "replay_sha256": "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+    "frames": 10,
+    "prefix_bytes": 240,
+    "prefix_sha256": "65fdf113d25a900a782c301d65218425a5efe208a75c75192ce6cd0c66ffe005",
+    "next_kind": "SHeroBannedEvent",
+    "user_id_differs_from_slot": 0,
+    "working_set_id_differs_from_slot": 0
+  },
+  {
+    "build": 98348,
+    "replay_sha256": "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+    "frames": 10,
+    "prefix_bytes": 240,
+    "prefix_sha256": "adb3d5e194e27e94e582aa33f5075353271146122e5988f9374d9b1677b65575",
+    "next_kind": "SHeroBannedEvent",
+    "user_id_differs_from_slot": 3,
+    "working_set_id_differs_from_slot": 3
+  },
+  {
+    "build": 98348,
+    "replay_sha256": "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+    "frames": 10,
+    "prefix_bytes": 240,
+    "prefix_sha256": "65fdf113d25a900a782c301d65218425a5efe208a75c75192ce6cd0c66ffe005",
+    "next_kind": "SHeroBannedEvent",
+    "user_id_differs_from_slot": 0,
+    "working_set_id_differs_from_slot": 0
+  },
+  {
+    "build": 98348,
+    "replay_sha256": "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77",
+    "frames": 10,
+    "prefix_bytes": 240,
+    "prefix_sha256": "65fdf113d25a900a782c301d65218425a5efe208a75c75192ce6cd0c66ffe005",
+    "next_kind": "SHeroBannedEvent",
+    "user_id_differs_from_slot": 0,
+    "working_set_id_differs_from_slot": 0
+  },
+  {
+    "build": 98348,
+    "replay_sha256": "a956b186a0459a47d9b0fdd8af4ccb65c437f11926186471c434e543e218b2d7",
+    "frames": 10,
+    "prefix_bytes": 240,
+    "prefix_sha256": "65fdf113d25a900a782c301d65218425a5efe208a75c75192ce6cd0c66ffe005",
+    "next_kind": "SHeroBannedEvent",
+    "user_id_differs_from_slot": 0,
+    "working_set_id_differs_from_slot": 0
+  },
+  {
+    "build": 98348,
+    "replay_sha256": "bc16af7f68496cddc4698f70b3853402a0f30aa37951aec3a6b555ed703879e8",
+    "frames": 10,
+    "prefix_bytes": 240,
+    "prefix_sha256": "65fdf113d25a900a782c301d65218425a5efe208a75c75192ce6cd0c66ffe005",
+    "next_kind": "SHeroBannedEvent",
+    "user_id_differs_from_slot": 0,
+    "working_set_id_differs_from_slot": 0
+  },
+  {
+    "build": 98348,
+    "replay_sha256": "4732077e899f6894c29586795a01e2a27fba622dbf22b5d29c7b30d57e3ce4fc",
+    "frames": 10,
+    "prefix_bytes": 240,
+    "prefix_sha256": "e4cc01d7363735f60d33700317c585a43aed82d661f7a259e04385de09935e36",
+    "next_kind": "SHeroBannedEvent",
+    "user_id_differs_from_slot": 5,
+    "working_set_id_differs_from_slot": 5
+  }
+]

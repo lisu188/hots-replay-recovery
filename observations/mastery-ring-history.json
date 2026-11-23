@@ -1,0 +1,174 @@
+{
+  "historical": [
+    {
+      "replay_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+      "match_date": "2016-04-12",
+      "post_draft_frames": 225,
+      "bytes": 13602,
+      "sha256": "702a504823206ed2f0ccbd21108860886bff64bcc5a5cc54c340e8fac163aa2f",
+      "tail_frames": 10,
+      "tail_bytes": 390,
+      "tail_sha256": "0c67aaa0774c0b2ecec9ce901158e31daac72b43208230bb419002731aee8943"
+    },
+    {
+      "replay_sha256": "7efa1c335816eebe802747ae4b16252ed22fcd8387b09d24b115b2917542b52a",
+      "match_date": "2016-04-07",
+      "post_draft_frames": 225,
+      "bytes": 13605,
+      "sha256": "2cd74c9c8fa098f911aa9d5611b8b839feac151cc7a06d74bd4643e924b881a5",
+      "tail_frames": 10,
+      "tail_bytes": 390,
+      "tail_sha256": "0c67aaa0774c0b2ecec9ce901158e31daac72b43208230bb419002731aee8943"
+    },
+    {
+      "replay_sha256": "2fca3c78d0e459d4452e3fb1f41ff3fce22b9c1f8f113019389195ff171bf618",
+      "match_date": "2016-04-04",
+      "post_draft_frames": 225,
+      "bytes": 13602,
+      "sha256": "e29af201a6cf44319b5aa19b632947b685fcc0a91d92172c1006a0da4ac1dc12",
+      "tail_frames": 10,
+      "tail_bytes": 390,
+      "tail_sha256": "0c67aaa0774c0b2ecec9ce901158e31daac72b43208230bb419002731aee8943"
+    },
+    {
+      "replay_sha256": "8c4fb83989b528ea3227f6c97758293d1f650e33caa3d38c6a2a84d27ab0850d",
+      "match_date": "2016-04-01",
+      "post_draft_frames": 225,
+      "bytes": 13604,
+      "sha256": "3f4fb60ef17c18368541f13eba05f3e6e8759233f5145bd457c368566231463e",
+      "tail_frames": 10,
+      "tail_bytes": 390,
+      "tail_sha256": "0c67aaa0774c0b2ecec9ce901158e31daac72b43208230bb419002731aee8943"
+    }
+  ],
+  "native": [
+    {
+      "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+      "levels": {
+        "0": 9,
+        "3": 1
+      }
+    },
+    {
+      "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+      "levels": {
+        "0": 8,
+        "1": 1,
+        "3": 1
+      }
+    },
+    {
+      "replay_sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+      "levels": {
+        "0": 7,
+        "3": 3
+      }
+    },
+    {
+      "replay_sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+      "levels": {
+        "1": 1,
+        "2": 4,
+        "0": 1,
+        "3": 4
+      }
+    },
+    {
+      "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+      "levels": {
+        "3": 4,
+        "0": 4,
+        "1": 2
+      }
+    },
+    {
+      "replay_sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+      "levels": {
+        "0": 6,
+        "3": 3,
+        "2": 1
+      }
+    },
+    {
+      "replay_sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+      "levels": {
+        "3": 3,
+        "0": 5,
+        "2": 1,
+        "1": 1
+      }
+    },
+    {
+      "replay_sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+      "levels": {
+        "0": 6,
+        "3": 3,
+        "1": 1
+      }
+    },
+    {
+      "replay_sha256": "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+      "levels": {
+        "3": 3,
+        "0": 5,
+        "1": 1,
+        "2": 1
+      }
+    },
+    {
+      "replay_sha256": "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+      "levels": {
+        "0": 8,
+        "3": 1,
+        "2": 1
+      }
+    },
+    {
+      "replay_sha256": "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+      "levels": {
+        "3": 4,
+        "0": 5,
+        "2": 1
+      }
+    },
+    {
+      "replay_sha256": "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77",
+      "levels": {
+        "2": 2,
+        "0": 7,
+        "1": 1
+      }
+    },
+    {
+      "replay_sha256": "a956b186a0459a47d9b0fdd8af4ccb65c437f11926186471c434e543e218b2d7",
+      "levels": {
+        "0": 5,
+        "2": 1,
+        "3": 3,
+        "1": 1
+      }
+    },
+    {
+      "replay_sha256": "bc16af7f68496cddc4698f70b3853402a0f30aa37951aec3a6b555ed703879e8",
+      "levels": {
+        "0": 8,
+        "3": 1,
+        "2": 1
+      }
+    },
+    {
+      "replay_sha256": "4732077e899f6894c29586795a01e2a27fba622dbf22b5d29c7b30d57e3ce4fc",
+      "levels": {
+        "0": 6,
+        "3": 2,
+        "2": 2
+      }
+    }
+  ],
+  "native_counts": {
+    "0": 90,
+    "3": 36,
+    "1": 9,
+    "2": 15
+  }
+}

@@ -1,0 +1,298 @@
+[
+  {
+    "build": 41810,
+    "replay_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+    "map_sha256": "58874aca37caeacaf42789a7e90fd2da830559f6cd744c32f5724e4477a6fcb3",
+    "setup_prefix_bytes": 240,
+    "intervening_draft_records": 0,
+    "recorded_block_frames": 203,
+    "recorded_block_bytes": 12852,
+    "target_block_frames": 215,
+    "target_block_bytes": 13212,
+    "target_block_sha256": "d484a456ab40fbd15e0d3628388744078254f447c4031eb1dee637a01cab0960",
+    "target_team_upgrades": 12,
+    "subsequent_loop_zero_kinds": {}
+  },
+  {
+    "build": 41810,
+    "replay_sha256": "7efa1c335816eebe802747ae4b16252ed22fcd8387b09d24b115b2917542b52a",
+    "map_sha256": "58874aca37caeacaf42789a7e90fd2da830559f6cd744c32f5724e4477a6fcb3",
+    "setup_prefix_bytes": 240,
+    "intervening_draft_records": 0,
+    "recorded_block_frames": 203,
+    "recorded_block_bytes": 12855,
+    "target_block_frames": 215,
+    "target_block_bytes": 13215,
+    "target_block_sha256": "14e6a6cd02dd2fa7b676a16b8b860d41f31fbc5ab74554da8b951d4dfe19dc9d",
+    "target_team_upgrades": 12,
+    "subsequent_loop_zero_kinds": {}
+  },
+  {
+    "build": 41810,
+    "replay_sha256": "2fca3c78d0e459d4452e3fb1f41ff3fce22b9c1f8f113019389195ff171bf618",
+    "map_sha256": "58874aca37caeacaf42789a7e90fd2da830559f6cd744c32f5724e4477a6fcb3",
+    "setup_prefix_bytes": 240,
+    "intervening_draft_records": 0,
+    "recorded_block_frames": 203,
+    "recorded_block_bytes": 12852,
+    "target_block_frames": 215,
+    "target_block_bytes": 13212,
+    "target_block_sha256": "66702a0b4795a3b2d1132a07d4498caec889e3f690b4e0db9c84794948e7a678",
+    "target_team_upgrades": 12,
+    "subsequent_loop_zero_kinds": {}
+  },
+  {
+    "build": 41810,
+    "replay_sha256": "8c4fb83989b528ea3227f6c97758293d1f650e33caa3d38c6a2a84d27ab0850d",
+    "map_sha256": "58874aca37caeacaf42789a7e90fd2da830559f6cd744c32f5724e4477a6fcb3",
+    "setup_prefix_bytes": 240,
+    "intervening_draft_records": 0,
+    "recorded_block_frames": 203,
+    "recorded_block_bytes": 12854,
+    "target_block_frames": 215,
+    "target_block_bytes": 13214,
+    "target_block_sha256": "cc2e46e7cbb34f4fa60fef6a217ca98a6538d3d20d51c0df706dac1dbf7ae2b7",
+    "target_team_upgrades": 12,
+    "subsequent_loop_zero_kinds": {}
+  },
+  {
+    "build": 98348,
+    "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+    "map_sha256": "f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f",
+    "setup_prefix_bytes": 240,
+    "intervening_draft_records": 16,
+    "recorded_block_frames": 213,
+    "recorded_block_bytes": 13092,
+    "target_block_frames": 213,
+    "target_block_bytes": 13092,
+    "target_block_sha256": "f44caefa66df40552995d6c57a68b51ae8799446d9d9d68ed03a8532c0cdcad3",
+    "target_team_upgrades": 12,
+    "subsequent_loop_zero_kinds": {
+      "HeroRingMasteryUpgrade": 10
+    }
+  },
+  {
+    "build": 98348,
+    "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+    "map_sha256": "f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f",
+    "setup_prefix_bytes": 240,
+    "intervening_draft_records": 16,
+    "recorded_block_frames": 213,
+    "recorded_block_bytes": 13092,
+    "target_block_frames": 213,
+    "target_block_bytes": 13092,
+    "target_block_sha256": "21feb117dfbf79ad851a6c7e3ed82dc93b99e489d57092480022c9c7fcf050b7",
+    "target_team_upgrades": 12,
+    "subsequent_loop_zero_kinds": {
+      "HeroRingMasteryUpgrade": 10
+    }
+  },
+  {
+    "build": 98348,
+    "replay_sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+    "map_sha256": "f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f",
+    "setup_prefix_bytes": 240,
+    "intervening_draft_records": 16,
+    "recorded_block_frames": 213,
+    "recorded_block_bytes": 13086,
+    "target_block_frames": 213,
+    "target_block_bytes": 13086,
+    "target_block_sha256": "39a81bdc6b91db9bf9bca52ec2b164355c46cd679803902c159c79db0638f145",
+    "target_team_upgrades": 12,
+    "subsequent_loop_zero_kinds": {
+      "HeroRingMasteryUpgrade": 10
+    }
+  },
+  {
+    "build": 98348,
+    "replay_sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+    "map_sha256": "f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f",
+    "setup_prefix_bytes": 240,
+    "intervening_draft_records": 16,
+    "recorded_block_frames": 213,
+    "recorded_block_bytes": 13089,
+    "target_block_frames": 213,
+    "target_block_bytes": 13089,
+    "target_block_sha256": "c612b8454ef3542418d8f28a3d5e1eebc4254437399a586f20467375da8bd377",
+    "target_team_upgrades": 12,
+    "subsequent_loop_zero_kinds": {
+      "HeroRingMasteryUpgrade": 10
+    }
+  },
+  {
+    "build": 98348,
+    "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+    "map_sha256": "f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f",
+    "setup_prefix_bytes": 240,
+    "intervening_draft_records": 16,
+    "recorded_block_frames": 213,
+    "recorded_block_bytes": 13090,
+    "target_block_frames": 213,
+    "target_block_bytes": 13090,
+    "target_block_sha256": "15e59d2de3af400ae02dddaf4004301a00c576869f571c62da685468ff8a43da",
+    "target_team_upgrades": 12,
+    "subsequent_loop_zero_kinds": {
+      "HeroRingMasteryUpgrade": 10
+    }
+  },
+  {
+    "build": 98348,
+    "replay_sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+    "map_sha256": "f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f",
+    "setup_prefix_bytes": 240,
+    "intervening_draft_records": 22,
+    "recorded_block_frames": 213,
+    "recorded_block_bytes": 13088,
+    "target_block_frames": 213,
+    "target_block_bytes": 13088,
+    "target_block_sha256": "24bca5cf80b9112c26ed3fb9eae94f32ae51af9610f28e2c313b17cc76e14973",
+    "target_team_upgrades": 12,
+    "subsequent_loop_zero_kinds": {
+      "HeroRingMasteryUpgrade": 10
+    }
+  },
+  {
+    "build": 98348,
+    "replay_sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+    "map_sha256": "f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f",
+    "setup_prefix_bytes": 240,
+    "intervening_draft_records": 16,
+    "recorded_block_frames": 213,
+    "recorded_block_bytes": 13091,
+    "target_block_frames": 213,
+    "target_block_bytes": 13091,
+    "target_block_sha256": "1f565963f615db2fed07c2facf7a1468f9efb8884796a47a4c0e02d6f068563b",
+    "target_team_upgrades": 12,
+    "subsequent_loop_zero_kinds": {
+      "HeroRingMasteryUpgrade": 10
+    }
+  },
+  {
+    "build": 98348,
+    "replay_sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+    "map_sha256": "f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f",
+    "setup_prefix_bytes": 240,
+    "intervening_draft_records": 16,
+    "recorded_block_frames": 213,
+    "recorded_block_bytes": 13086,
+    "target_block_frames": 213,
+    "target_block_bytes": 13086,
+    "target_block_sha256": "8393c049f4b149b407dd8e0f4c05373605b847191cf600c73965c25d43cb3788",
+    "target_team_upgrades": 12,
+    "subsequent_loop_zero_kinds": {
+      "HeroRingMasteryUpgrade": 10
+    }
+  },
+  {
+    "build": 98348,
+    "replay_sha256": "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+    "map_sha256": "f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f",
+    "setup_prefix_bytes": 240,
+    "intervening_draft_records": 16,
+    "recorded_block_frames": 213,
+    "recorded_block_bytes": 13087,
+    "target_block_frames": 213,
+    "target_block_bytes": 13087,
+    "target_block_sha256": "e4a2e7e629ddd8a8f50c296b22df04fd09e14322071a1e18af60f4dd14135de9",
+    "target_team_upgrades": 12,
+    "subsequent_loop_zero_kinds": {
+      "HeroRingMasteryUpgrade": 10
+    }
+  },
+  {
+    "build": 98348,
+    "replay_sha256": "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+    "map_sha256": "f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f",
+    "setup_prefix_bytes": 240,
+    "intervening_draft_records": 16,
+    "recorded_block_frames": 213,
+    "recorded_block_bytes": 13092,
+    "target_block_frames": 213,
+    "target_block_bytes": 13092,
+    "target_block_sha256": "a1e95cfcab7b77e9f90342ea23a4b00055917647607825a8d2ce9280ed443816",
+    "target_team_upgrades": 12,
+    "subsequent_loop_zero_kinds": {
+      "HeroRingMasteryUpgrade": 10
+    }
+  },
+  {
+    "build": 98348,
+    "replay_sha256": "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+    "map_sha256": "f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f",
+    "setup_prefix_bytes": 240,
+    "intervening_draft_records": 16,
+    "recorded_block_frames": 213,
+    "recorded_block_bytes": 13086,
+    "target_block_frames": 213,
+    "target_block_bytes": 13086,
+    "target_block_sha256": "cca0510ef8347d8fbb2a265440c103b81d818c45d4fb620b088586c7cc0ffa5d",
+    "target_team_upgrades": 12,
+    "subsequent_loop_zero_kinds": {
+      "HeroRingMasteryUpgrade": 10
+    }
+  },
+  {
+    "build": 98348,
+    "replay_sha256": "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77",
+    "map_sha256": "f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f",
+    "setup_prefix_bytes": 240,
+    "intervening_draft_records": 16,
+    "recorded_block_frames": 213,
+    "recorded_block_bytes": 13089,
+    "target_block_frames": 213,
+    "target_block_bytes": 13089,
+    "target_block_sha256": "70d6cb2bc6471a925067a7d9cddbf58df4f7767be7bd83491afe5eab4c4337b8",
+    "target_team_upgrades": 12,
+    "subsequent_loop_zero_kinds": {
+      "HeroRingMasteryUpgrade": 10
+    }
+  },
+  {
+    "build": 98348,
+    "replay_sha256": "a956b186a0459a47d9b0fdd8af4ccb65c437f11926186471c434e543e218b2d7",
+    "map_sha256": "f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f",
+    "setup_prefix_bytes": 240,
+    "intervening_draft_records": 18,
+    "recorded_block_frames": 213,
+    "recorded_block_bytes": 13087,
+    "target_block_frames": 213,
+    "target_block_bytes": 13087,
+    "target_block_sha256": "2ce01bee1181bb7bec677211953d181e0b48da6e32d0e71402acb6167864bdb5",
+    "target_team_upgrades": 12,
+    "subsequent_loop_zero_kinds": {
+      "HeroRingMasteryUpgrade": 10
+    }
+  },
+  {
+    "build": 98348,
+    "replay_sha256": "bc16af7f68496cddc4698f70b3853402a0f30aa37951aec3a6b555ed703879e8",
+    "map_sha256": "f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f",
+    "setup_prefix_bytes": 240,
+    "intervening_draft_records": 16,
+    "recorded_block_frames": 213,
+    "recorded_block_bytes": 13090,
+    "target_block_frames": 213,
+    "target_block_bytes": 13090,
+    "target_block_sha256": "2c4454a963479ce84f230030916d9e35bb6bcba9c5449c87d73db0fa8db6ad95",
+    "target_team_upgrades": 12,
+    "subsequent_loop_zero_kinds": {
+      "HeroRingMasteryUpgrade": 10
+    }
+  },
+  {
+    "build": 98348,
+    "replay_sha256": "4732077e899f6894c29586795a01e2a27fba622dbf22b5d29c7b30d57e3ce4fc",
+    "map_sha256": "f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f",
+    "setup_prefix_bytes": 240,
+    "intervening_draft_records": 20,
+    "recorded_block_frames": 213,
+    "recorded_block_bytes": 13088,
+    "target_block_frames": 213,
+    "target_block_bytes": 13088,
+    "target_block_sha256": "429ff43fa01f7a3cfee9c9f32e46b631bf20d29124febfe9513268173edb4aa7",
+    "target_team_upgrades": 12,
+    "subsequent_loop_zero_kinds": {
+      "HeroRingMasteryUpgrade": 10
+    }
+  }
+]
