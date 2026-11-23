@@ -1,0 +1,401 @@
+[
+  {
+    "base_map_sha256": "e0a58745837b3b5351015c933560dbffb178d747009d2d57b4153ef425cf7250",
+    "bed_of_barbs_slow_correction": null,
+    "converted_replay_written": false,
+    "effective_native_catalog_verified": false,
+    "format": "dragon-shire-historical-talent-map-v1",
+    "historical_rule_build": 41810,
+    "mana_addict_correction": {
+      "changes": [
+        {
+          "byte_offset": 93302,
+          "field": "ConditionalEvents.CompareValue",
+          "historical": 25,
+          "record": "KaelthasManaAddictQuestToken",
+          "stock": 20
+        },
+        {
+          "byte_offset": 241028,
+          "field": "QuestData.TargetCount",
+          "historical": 25,
+          "record": "KaelthasManaAddict",
+          "stock": 20
+        }
+      ],
+      "corrected_xml_sha256": "8f4c47489e5dac39a364f245370c7cdddee628366333d8d76756607cdea6d1aa",
+      "effective_map_catalog_verified": false,
+      "format": "kaelthas-mana-addict-threshold-restoration-v1",
+      "historical_catalog_sha256": "aaf264de6c3e31ce4bee1b1a5d658d695036393e4077e539630dd553698e9bbb",
+      "native_playback_verified": false,
+      "source_build": 41810,
+      "stock_xml_sha256": "39cf6954288e32edd73dfed13f82e45ab5f944a54f9f3fa9adaf2aacc7ffc13b",
+      "target_build": 98348,
+      "xml_bytes": 276044
+    },
+    "map_reference_build": 41810,
+    "member_changes": [
+      {
+        "after_sha256": "dc3627c2b270ec06da38061e85a0e1260a6f5ba9a19bff0b7f218af3635a4daa",
+        "before_sha256": "f0831560a2e0d929eac9fe1427b4b7d6fb6944c189ca7213f1cb498c228e8407",
+        "member": "Base.StormData\\GameData\\BehaviorData.xml"
+      },
+      {
+        "after_sha256": "eb7c819c8f70eb5a97e5400fe54b960de6b72a7da9b77fd28e4f1a476eaacf69",
+        "before_sha256": null,
+        "member": "Base.StormData\\GameData\\TalentData.xml"
+      }
+    ],
+    "new_integrity": {
+      "content_members": 68,
+      "live_blocks": 70,
+      "native_member_flags": {
+        "256": 1,
+        "336": 69
+      },
+      "raw_table_results": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "new_map_bytes": 2130158,
+    "new_map_sha256": "9cc87db7faf1e104152961b84b51ed36164172a92fd25b5135bbae0ed93d7fab",
+    "original_document_header_preserved": true,
+    "regenerated_map_sync_checksum": null,
+    "stock_integrity": {
+      "content_members": 67,
+      "live_blocks": 69,
+      "native_member_flags": {
+        "256": 1,
+        "272": 1,
+        "336": 67
+      },
+      "raw_table_results": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "target_catalog_build": 98348,
+    "unchanged_original_content_members": 66
+  },
+  {
+    "base_map_sha256": "e0a58745837b3b5351015c933560dbffb178d747009d2d57b4153ef425cf7250",
+    "bed_of_barbs_slow_correction": {
+      "changed_byte_offsets": [
+        72159,
+        72160
+      ],
+      "edits": [
+        {
+          "field": "UnifiedMoveSpeedFactor",
+          "record": "AnubarakImpaleBedOfBarbsSlow",
+          "restored": "-0.30",
+          "stock": "-0.25",
+          "value_offset": 72156
+        }
+      ],
+      "effective_native_catalog_verified": false,
+      "format": "bed-of-barbs-slow-restoration-v1",
+      "historical_catalog_sha256": "aaf264de6c3e31ce4bee1b1a5d658d695036393e4077e539630dd553698e9bbb",
+      "input_sha256": "6e575d1c7e852274480b88e89e06ce993a9b8dd6f7988ccdc57e173c337eb799",
+      "native_playback_verified": false,
+      "size": 234204,
+      "source_build": 41810,
+      "target_build": 98348,
+      "updated_sha256": "657b41695ad027b345f4db1c2007e536b3208b0e1e26eba33d9c36a621e5de6e"
+    },
+    "converted_replay_written": false,
+    "effective_native_catalog_verified": false,
+    "format": "dragon-shire-historical-talent-map-v1",
+    "historical_rule_build": 41810,
+    "mana_addict_correction": {
+      "changes": [
+        {
+          "byte_offset": 93302,
+          "field": "ConditionalEvents.CompareValue",
+          "historical": 25,
+          "record": "KaelthasManaAddictQuestToken",
+          "stock": 20
+        },
+        {
+          "byte_offset": 241028,
+          "field": "QuestData.TargetCount",
+          "historical": 25,
+          "record": "KaelthasManaAddict",
+          "stock": 20
+        }
+      ],
+      "corrected_xml_sha256": "8f4c47489e5dac39a364f245370c7cdddee628366333d8d76756607cdea6d1aa",
+      "effective_map_catalog_verified": false,
+      "format": "kaelthas-mana-addict-threshold-restoration-v1",
+      "historical_catalog_sha256": "aaf264de6c3e31ce4bee1b1a5d658d695036393e4077e539630dd553698e9bbb",
+      "native_playback_verified": false,
+      "source_build": 41810,
+      "stock_xml_sha256": "39cf6954288e32edd73dfed13f82e45ab5f944a54f9f3fa9adaf2aacc7ffc13b",
+      "target_build": 98348,
+      "xml_bytes": 276044
+    },
+    "map_reference_build": 41810,
+    "member_changes": [
+      {
+        "after_sha256": "f3dfc79cd3940b6ea3b9de9ee2ed234955609af9a9948b1065e22ced282018c1",
+        "before_sha256": "f0831560a2e0d929eac9fe1427b4b7d6fb6944c189ca7213f1cb498c228e8407",
+        "member": "Base.StormData\\GameData\\BehaviorData.xml"
+      },
+      {
+        "after_sha256": "eb7c819c8f70eb5a97e5400fe54b960de6b72a7da9b77fd28e4f1a476eaacf69",
+        "before_sha256": null,
+        "member": "Base.StormData\\GameData\\TalentData.xml"
+      }
+    ],
+    "new_integrity": {
+      "content_members": 68,
+      "live_blocks": 70,
+      "native_member_flags": {
+        "256": 1,
+        "336": 69
+      },
+      "raw_table_results": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "new_map_bytes": 2130235,
+    "new_map_sha256": "662a90d5ea72c8454d66a1070b3200e6a2929f3d2069e2c07ecc07cfcc79b800",
+    "original_document_header_preserved": true,
+    "regenerated_map_sync_checksum": null,
+    "stock_integrity": {
+      "content_members": 67,
+      "live_blocks": 69,
+      "native_member_flags": {
+        "256": 1,
+        "272": 1,
+        "336": 67
+      },
+      "raw_table_results": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "target_catalog_build": 98348,
+    "unchanged_original_content_members": 66
+  },
+  {
+    "base_map_sha256": "f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f",
+    "bed_of_barbs_slow_correction": null,
+    "converted_replay_written": false,
+    "effective_native_catalog_verified": false,
+    "format": "dragon-shire-historical-talent-map-v1",
+    "historical_rule_build": 41810,
+    "mana_addict_correction": {
+      "changes": [
+        {
+          "byte_offset": 93302,
+          "field": "ConditionalEvents.CompareValue",
+          "historical": 25,
+          "record": "KaelthasManaAddictQuestToken",
+          "stock": 20
+        },
+        {
+          "byte_offset": 241028,
+          "field": "QuestData.TargetCount",
+          "historical": 25,
+          "record": "KaelthasManaAddict",
+          "stock": 20
+        }
+      ],
+      "corrected_xml_sha256": "8f4c47489e5dac39a364f245370c7cdddee628366333d8d76756607cdea6d1aa",
+      "effective_map_catalog_verified": false,
+      "format": "kaelthas-mana-addict-threshold-restoration-v1",
+      "historical_catalog_sha256": "aaf264de6c3e31ce4bee1b1a5d658d695036393e4077e539630dd553698e9bbb",
+      "native_playback_verified": false,
+      "source_build": 41810,
+      "stock_xml_sha256": "39cf6954288e32edd73dfed13f82e45ab5f944a54f9f3fa9adaf2aacc7ffc13b",
+      "target_build": 98348,
+      "xml_bytes": 276044
+    },
+    "map_reference_build": 98348,
+    "member_changes": [
+      {
+        "after_sha256": "6b36ced2a7dd3a4bfac15c2b00e62c31469899fba422577af1b5480a0cf5be19",
+        "before_sha256": "f1a2a1ae24c83b98f207c83ab9a8ede41844f7741aab0298b4ff35c7fe198e85",
+        "member": "Base.StormData\\GameData.xml"
+      },
+      {
+        "after_sha256": "afe590513da9afe315a8db48f902e09d96a97917c124fd416d36bf1cc5bf2ccb",
+        "before_sha256": null,
+        "member": "Base.StormData\\GameData\\TenGreymaneManaAddict.xml"
+      }
+    ],
+    "new_integrity": {
+      "content_members": 76,
+      "live_blocks": 78,
+      "native_member_flags": {
+        "256": 1,
+        "336": 77
+      },
+      "raw_table_results": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "new_map_bytes": 2228605,
+    "new_map_sha256": "f6df60bb2c15ee9346367dc35987c0d0471c25f77e91e17f672bc39621a51d17",
+    "original_document_header_preserved": true,
+    "regenerated_map_sync_checksum": null,
+    "stock_integrity": {
+      "content_members": 75,
+      "live_blocks": 77,
+      "native_member_flags": {
+        "256": 1,
+        "272": 1,
+        "336": 75
+      },
+      "raw_table_results": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "target_catalog_build": 98348,
+    "unchanged_original_content_members": 74
+  },
+  {
+    "base_map_sha256": "f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f",
+    "bed_of_barbs_slow_correction": {
+      "changed_byte_offsets": [
+        72159,
+        72160
+      ],
+      "edits": [
+        {
+          "field": "UnifiedMoveSpeedFactor",
+          "record": "AnubarakImpaleBedOfBarbsSlow",
+          "restored": "-0.30",
+          "stock": "-0.25",
+          "value_offset": 72156
+        }
+      ],
+      "effective_native_catalog_verified": false,
+      "format": "bed-of-barbs-slow-restoration-v1",
+      "historical_catalog_sha256": "aaf264de6c3e31ce4bee1b1a5d658d695036393e4077e539630dd553698e9bbb",
+      "input_sha256": "6e575d1c7e852274480b88e89e06ce993a9b8dd6f7988ccdc57e173c337eb799",
+      "native_playback_verified": false,
+      "size": 234204,
+      "source_build": 41810,
+      "target_build": 98348,
+      "updated_sha256": "657b41695ad027b345f4db1c2007e536b3208b0e1e26eba33d9c36a621e5de6e"
+    },
+    "converted_replay_written": false,
+    "effective_native_catalog_verified": false,
+    "format": "dragon-shire-historical-talent-map-v1",
+    "historical_rule_build": 41810,
+    "mana_addict_correction": {
+      "changes": [
+        {
+          "byte_offset": 93302,
+          "field": "ConditionalEvents.CompareValue",
+          "historical": 25,
+          "record": "KaelthasManaAddictQuestToken",
+          "stock": 20
+        },
+        {
+          "byte_offset": 241028,
+          "field": "QuestData.TargetCount",
+          "historical": 25,
+          "record": "KaelthasManaAddict",
+          "stock": 20
+        }
+      ],
+      "corrected_xml_sha256": "8f4c47489e5dac39a364f245370c7cdddee628366333d8d76756607cdea6d1aa",
+      "effective_map_catalog_verified": false,
+      "format": "kaelthas-mana-addict-threshold-restoration-v1",
+      "historical_catalog_sha256": "aaf264de6c3e31ce4bee1b1a5d658d695036393e4077e539630dd553698e9bbb",
+      "native_playback_verified": false,
+      "source_build": 41810,
+      "stock_xml_sha256": "39cf6954288e32edd73dfed13f82e45ab5f944a54f9f3fa9adaf2aacc7ffc13b",
+      "target_build": 98348,
+      "xml_bytes": 276044
+    },
+    "map_reference_build": 98348,
+    "member_changes": [
+      {
+        "after_sha256": "6b36ced2a7dd3a4bfac15c2b00e62c31469899fba422577af1b5480a0cf5be19",
+        "before_sha256": "f1a2a1ae24c83b98f207c83ab9a8ede41844f7741aab0298b4ff35c7fe198e85",
+        "member": "Base.StormData\\GameData.xml"
+      },
+      {
+        "after_sha256": "e0500f534951ba034dfdc85fe555854d53333877e6f7030c72201d77bd695eb2",
+        "before_sha256": "f0831560a2e0d929eac9fe1427b4b7d6fb6944c189ca7213f1cb498c228e8407",
+        "member": "Base.StormData\\GameData\\BehaviorData.xml"
+      },
+      {
+        "after_sha256": "afe590513da9afe315a8db48f902e09d96a97917c124fd416d36bf1cc5bf2ccb",
+        "before_sha256": null,
+        "member": "Base.StormData\\GameData\\TenGreymaneManaAddict.xml"
+      }
+    ],
+    "new_integrity": {
+      "content_members": 76,
+      "live_blocks": 78,
+      "native_member_flags": {
+        "256": 1,
+        "336": 77
+      },
+      "raw_table_results": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "new_map_bytes": 2228782,
+    "new_map_sha256": "2de7e30ecf97cb975f483e8dc33ec05035d5b42d1e45a9a011dfecb4984b1632",
+    "original_document_header_preserved": true,
+    "regenerated_map_sync_checksum": null,
+    "stock_integrity": {
+      "content_members": 75,
+      "live_blocks": 77,
+      "native_member_flags": {
+        "256": 1,
+        "272": 1,
+        "336": 75
+      },
+      "raw_table_results": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "target_catalog_build": 98348,
+    "unchanged_original_content_members": 73
+  }
+]
