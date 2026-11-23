@@ -1,0 +1,41 @@
+{
+  "map_sha256": "786f04a19c4222d5e81faefd7363c5422c16b49216732c28a773c74d853e10a9",
+  "bytes": 2171315,
+  "script_sha256": "5ec2366f97c21b21d00233aa3c078b42f266ef5cce2e9ff5561ccacaca8fcd29",
+  "parent_sha256": "5c241e8f9f316909ea237e5dd9f1c4d4ec2e7ea3224d383c596588c7eaf1b9ae",
+  "unchanged_content_members": 69,
+  "reference_shared_map_sha256": "2d5cba9c5fd8276ae62468533fae558222730d55b146d41b7ebb7d30532e70b7",
+  "registered_capture_index_domain": [
+    1,
+    15
+  ],
+  "original_argument_symbol_mentions": 3,
+  "new_script_globals": 0,
+  "new_trigger_allocations": 0,
+  "mock_worker_dispatches": 13,
+  "mock_shared_handle_allocations": 1,
+  "ordinary_delay_loops": 48,
+  "dragon_delay_loops": 16,
+  "physical_activation_counts": {
+    "41810": 15,
+    "98348": 52
+  },
+  "native_execution_verified": false,
+  "integrity": {
+    "content_members": 70,
+    "live_blocks": 72,
+    "raw_table_results": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "native_member_flags": {
+      "256": 1,
+      "336": 71
+    }
+  },
+  "two_builds_identical": true
+}
