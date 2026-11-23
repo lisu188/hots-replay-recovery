@@ -1,0 +1,34 @@
+{
+  "build": 98348,
+  "vm_ordinals": {
+    "PlayerGroupNextPlayer": 1142,
+    "SoundLink": 1236,
+    "SoundPlayForPlayer": 1238,
+    "SoundLastPlayed": 1242,
+    "SoundWait": 1250
+  },
+  "regular_group_order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "soundlink_class": 16,
+  "sound_class": 15,
+  "soundlink_virtual_table": "0x26b4bb8",
+  "allocator": "0x1ff7240",
+  "minimum_ordinary_allocations_per_successful_call": 2,
+  "prior_last_played_reference_cleared_before_sound_allocation": true,
+  "synthetic_first_words": [
+    65539,
+    65540
+  ],
+  "target_first_sound_handle": null
+}
