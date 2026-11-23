@@ -1,0 +1,71 @@
+{
+  "parent_sha256": "e7ce5d12d5a93840a333a6e27b3f15d9cab9917be2e88d0040f19d638e4f9bbf",
+  "candidate_sha256": "9c223f3e4d9fb31324126b91f7e51048dd6c011ac0d4dcdf6f582e2978f92870",
+  "candidate_bytes": 2198586,
+  "changed_member": "Base.StormData\\GameData\\EffectData.xml",
+  "old_member_sha256": "72f123486e169e933e2e96bd68497ee87c6c6e655dfee6a7d2793357718df43d",
+  "new_member_sha256": "4c2c2492c4bff82912f320d82c6db4035b74ababa4614f7159055292ac0eb9b3",
+  "unchanged_content_members": 70,
+  "parent_checks": {
+    "content_members": 71,
+    "live_blocks": 73,
+    "raw_table_results": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "native_member_flags": {
+      "256": 1,
+      "336": 72
+    }
+  },
+  "candidate_checks": {
+    "content_members": 71,
+    "live_blocks": 73,
+    "raw_table_results": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "native_member_flags": {
+      "256": 1,
+      "336": 72
+    }
+  },
+  "source": {
+    "source_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+    "build": 41810,
+    "utc_date": "2016-04-12",
+    "input_ordinal": 1286,
+    "input_loop": 241,
+    "selector": 1,
+    "user_id": 2,
+    "award_ordinal": 248,
+    "award_loop": 242,
+    "player": 3
+  },
+  "catalog": {
+    "historical_hero_catalog_sha256": "aaf264de6c3e31ce4bee1b1a5d658d695036393e4077e539630dd553698e9bbb",
+    "stock_hero_catalog_sha256": "78a564ee1334eeaee26c4b6c57a7dd5d5b3c048cba63a9b7131440d778b98cff",
+    "historic_refund": 50,
+    "stock_refund": 45,
+    "historic_described_range_percent": "30.3571",
+    "stock_projection_base": "8.5",
+    "stock_projection_increase": "2.55",
+    "stock_projection_percent": "30",
+    "stock_refund_paths": [
+      "direct",
+      "spread"
+    ],
+    "stock_token_duration_seconds": "1.25"
+  },
+  "historic_absolute_distance_verified": false,
+  "native_catalog_loading_verified": false,
+  "replay_written": false
+}

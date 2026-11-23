@@ -1,0 +1,107 @@
+{
+  "map_sha256": "9c223f3e4d9fb31324126b91f7e51048dd6c011ac0d4dcdf6f582e2978f92870",
+  "parent_map_sha256": "e7ce5d12d5a93840a333a6e27b3f15d9cab9917be2e88d0040f19d638e4f9bbf",
+  "source": {
+    "source_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+    "build": 41810,
+    "utc_date": "2016-04-12",
+    "input_ordinal": 1286,
+    "input_loop": 241,
+    "selector": 1,
+    "user_id": 2,
+    "award_ordinal": 248,
+    "award_loop": 242,
+    "player": 3
+  },
+  "control_sha256": "9faf99e38dae70f27fd2278318d851d57801df034764f7e408c7f363705abc3b",
+  "native_control_input": 1502,
+  "native_control_award": 323,
+  "game": {
+    "sha256": "3fa8914057482b1a9cc7cf0352f68ec145f31f8718b0ea68942bec7ad9aa0b35",
+    "bytes": 142573,
+    "included": 17710,
+    "omitted": 86547,
+    "included_by_event_id": {
+      "5": 2,
+      "7": 10,
+      "27": 6,
+      "28": 10,
+      "32": 2,
+      "36": 56,
+      "49": 17593,
+      "56": 10,
+      "101": 2,
+      "103": 6,
+      "104": 7,
+      "110": 6
+    },
+    "omitted_by_event_id": {
+      "27": 4552,
+      "28": 148,
+      "36": 25,
+      "39": 2756,
+      "46": 998,
+      "47": 51,
+      "48": 181,
+      "55": 313,
+      "64": 46,
+      "98": 121,
+      "103": 33540,
+      "104": 32901,
+      "105": 10851,
+      "110": 64
+    },
+    "provenance_counts": {
+      "opening": 33,
+      "selection": 10,
+      "point_session": 19,
+      "implicit_point_issue_conditional_flags": 6,
+      "same_loop_point_update_conditional_on_issue": 2,
+      "command_interval_conditional_on_issue": 2,
+      "camera": 17593,
+      "talent_index_requires_target_award_state": 3,
+      "extended_spikes_restored_selector_requires_projected_tier": 1,
+      "literal_trigger_chat": 2,
+      "ping_map_or_no_target": 56,
+      "recorded_final_departure": 2,
+      "sonya_war_paint_requires_first_tier_acceptance": 1,
+      "perfect_aim_requires_first_tier_acceptance": 1
+    },
+    "first_omitted": {
+      "ordinal": 33,
+      "loop": 68,
+      "kind": 46
+    },
+    "last_included_loop": 19732,
+    "ledger_sha256": "346c51c6856742d32180e5fb0d48939c6495fdda58867a28a1aefd770592eae7",
+    "independent_join": {
+      "independently_joined_inputs": 17710,
+      "unrepresented": 86547,
+      "last_joined_loop": 19732,
+      "target_bytes": 142573,
+      "opening_prefix_preserved": true
+    }
+  },
+  "game_frame_sha256": "c17f33b4f6132e9b1a9bd6cca1f27347e314cab62bc0a39af5004257279f3b99",
+  "tracker_frame_sha256": "3b0b0592142a13e8ccff799782295656ffb92df4bd11f3db18d99af18499bd20",
+  "tracker_frame_bytes": 112,
+  "catalog": {
+    "historical_hero_catalog_sha256": "aaf264de6c3e31ce4bee1b1a5d658d695036393e4077e539630dd553698e9bbb",
+    "stock_hero_catalog_sha256": "78a564ee1334eeaee26c4b6c57a7dd5d5b3c048cba63a9b7131440d778b98cff",
+    "historic_refund": 50,
+    "stock_refund": 45,
+    "historic_described_range_percent": "30.3571",
+    "stock_projection_base": "8.5",
+    "stock_projection_increase": "2.55",
+    "stock_projection_percent": "30",
+    "stock_refund_paths": [
+      "direct",
+      "spread"
+    ],
+    "stock_token_duration_seconds": "1.25"
+  },
+  "later_parent_rows_checked": 17453,
+  "historic_absolute_distance_verified": false,
+  "target_simulation_verified": false,
+  "verified_target_syncs": 0
+}

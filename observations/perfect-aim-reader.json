@@ -1,0 +1,22 @@
+{
+  "reader_sha256": "4013071b5683ce8090096d84082879d34a30620ada741acc5841cb5bd89fa2ee",
+  "core_effect_sha256": "72eadb172d398a95a37929e62b65247be504b39dbd899bb05a2f47a6991e2ea0",
+  "parent_sha256": "e7ce5d12d5a93840a333a6e27b3f15d9cab9917be2e88d0040f19d638e4f9bbf",
+  "candidate_sha256": "9c223f3e4d9fb31324126b91f7e51048dd6c011ac0d4dcdf6f582e2978f92870",
+  "repeated_bytes_equal": true,
+  "maps": [
+    {
+      "rate": 45,
+      "vital": "Energy",
+      "recipient": "Caster",
+      "methods_checked": 2
+    },
+    {
+      "rate": 50,
+      "vital": "Energy",
+      "recipient": "Caster",
+      "methods_checked": 2
+    }
+  ],
+  "native_engine_verified": false
+}

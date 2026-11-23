@@ -18,10 +18,10 @@ from verify_extended_spikes_choice import CANDIDATE
 from verify_signed_tracker import frames
 
 BASES = {
-    PARENT:(STREAM, LEDGER, "82a647ba5573d21d2140f8c0db046bdceb37985ddba501a85bf3e890627f20b0"),
+    PARENT:(STREAM, LEDGER, "e061838d2125bb42c2c0b95ca88bb962b565999133e58e259a8c1ed92598fdc5"),
     CANDIDATE:("0d412eb98d802c9266f851581020f7a54c708654ed18f89e5cb0c5f5b6338d53",
                "a1644c4b0f6aff6d14db6749f4df02f392ab8a89004f0c52cd9bf17642e78409",
-               "20d8f719c926d1964774dc801f26990b5fb8c393729d776b89a6ead6ede7af37"),
+               "9edbf3195120697fe432229a6a7dc81ee2cb91253f38ce03260ba26d3862488e"),
 }
 LABEL = "sonya_war_paint_requires_first_tier_acceptance"
 
@@ -100,7 +100,8 @@ def run(source,historical,modern,package,game_library,prefix,controls,base,recei
         evidence = generate(source,historical,modern,package,game_library,prefix,controls,directory)
         result = dict(evidence)
         stream_hash, ledger_hash, receipt_hash = BASES[evidence["map_sha256"]]
-        old = json.loads(pinned(receipt,receipt_hash))
+        old = json.loads(receipt.read_bytes())
+        require(digest(canonical(old)) == receipt_hash, "Parent receipt differs")
         row, = target.decode_replay_game_events(pinned(directory/"choice.game.private.bin",evidence["game_sha256"]))
         result["game"] = insert_game_input(source,base,stream_hash,ledger_hash,old,evidence["ten"],row,LABEL,
                                            directory,target)

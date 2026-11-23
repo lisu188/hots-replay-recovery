@@ -1,0 +1,36 @@
+{
+  "replay_sha256": "9faf99e38dae70f27fd2278318d851d57801df034764f7e408c7f363705abc3b",
+  "replay_bytes": 1448684,
+  "source_url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_11-7-2026_Roll1Esports_vs_COSMOS_Infernal_Shrines.stormReplay",
+  "data_root": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+  "build": 98348,
+  "hero": "HeroGreymane",
+  "hero_xml_sha256": "78a564ee1334eeaee26c4b6c57a7dd5d5b3c048cba63a9b7131440d778b98cff",
+  "user": 2,
+  "player": 3,
+  "selector": 1,
+  "tier": 1,
+  "column": 2,
+  "award": "GreymaneGilneanCocktailPerfectAim",
+  "input": {
+    "ordinal": 1502,
+    "tick": 265,
+    "previous_tick": 265,
+    "delta": 0,
+    "offset": 13996,
+    "bytes": 7,
+    "sha256": "785e6c87f0a0daa341e297494f70ca3a3d6a4923798c9d6269cd4c7176ce82f3"
+  },
+  "tracker": {
+    "ordinal": 323,
+    "tick": 266,
+    "previous_tick": 135,
+    "delta": 131,
+    "offset": 18410,
+    "bytes": 112,
+    "sha256": "e39548b15f26eebdc53f769cc6348b7b4fd181749cea7a2c1d7d9b18a81653c4"
+  },
+  "game_member_sha256": "cb26ed1b3d5f7e15d78f276c1c49c023c11a9636d742d1c56ff58d6f945cabc1",
+  "tracker_member_sha256": "3a1a11ffd0b93245eb8703b800db338219ce7fd60ed8a1187e2c3a59464eff23",
+  "independently_encoded_frames": 2
+}
