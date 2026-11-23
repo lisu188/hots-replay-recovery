@@ -1,0 +1,384 @@
+[
+  {
+    "physical_build": 47479,
+    "replay_sha256": "7268e40ee49c283c2de10f6300cdb7f8dbc117d5f4e04537bacd6c2a80225125",
+    "replay_bytes": 581465,
+    "protocol_git_lf_sha256": "d000ba135ca9983eea1a878d65141dea1211c4da22945bf20fd5ac3aabf3652d",
+    "protocol_commit": "9af3ea7150f1a8acb53464c92519a9bbcc7a3594",
+    "game_member_sha256": "dd0447faf78a0fbd5aa4a765aff03a3cbbcb969c6fc784c72ac96a6dd0448e29",
+    "game_member_bytes": 986116,
+    "full_game_roundtrip": true,
+    "events": 110076,
+    "issues": 4803,
+    "different_user_sequence_pairs": 4779,
+    "command_manager_states": {
+      "0": 27557,
+      "1": 1137,
+      "2": 25123
+    },
+    "reference_outcomes": {
+      "103/state0": {
+        "omitted": 27557
+      },
+      "103/state2": {
+        "omitted": 1352,
+        "no_same_user_issue_anywhere": 23744,
+        "only_later_issue": 27
+      },
+      "104": {
+        "omitted": 7108,
+        "no_same_user_issue_anywhere": 17210,
+        "only_later_issue": 13
+      },
+      "103/state1": {
+        "no_same_user_issue_anywhere": 1137
+      },
+      "105": {
+        "no_same_user_issue_anywhere": 2129,
+        "omitted": 27,
+        "only_later_issue": 5
+      }
+    },
+    "references_with_any_earlier_same_user_issue": {
+      "103/state0": 0,
+      "103/state2": 0,
+      "104": 0,
+      "103/state1": 0,
+      "105": 0
+    },
+    "first_examples": {
+      "103/state2/no_same_user_issue_anywhere": {
+        "manager_ordinal": 384,
+        "loop": 95,
+        "user_index": 8,
+        "sequence": 2,
+        "matching_issue_ordinals": [],
+        "previous_issued_numeric_value": 1,
+        "next_issued_numeric_value": 39
+      },
+      "103/state1/no_same_user_issue_anywhere": {
+        "manager_ordinal": 1586,
+        "loop": 398,
+        "user_index": 9,
+        "sequence": 13,
+        "matching_issue_ordinals": [],
+        "previous_issued_numeric_value": 12,
+        "next_issued_numeric_value": 14
+      },
+      "103/state2/only_later_issue": {
+        "manager_ordinal": 4160,
+        "loop": 796,
+        "user_index": 6,
+        "sequence": 8,
+        "matching_issue_ordinals": [
+          4206
+        ],
+        "previous_issued_numeric_value": 4,
+        "next_issued_numeric_value": 9
+      }
+    },
+    "source": "https://github.com/MJLang/Nexus/blob/4784e0a2555a675fd870790a2a27fa6158e99902/test/support/dragon_shire.StormReplay",
+    "git_blob_sha1": "a857a59ebfe031a2d7d2d32dca222cc9fc4126b9"
+  },
+  {
+    "physical_build": 59799,
+    "replay_sha256": "4f93f3707d9f7fa5f5ac14cabdddb032867ca407b34e1f3843301f6293e373de",
+    "replay_bytes": 3393674,
+    "protocol_git_lf_sha256": "5064b1fa17ac806c10f8e5bd9c685fad8a70b6b46466e04e0a6e76d0c6589588",
+    "protocol_commit": "9af3ea7150f1a8acb53464c92519a9bbcc7a3594",
+    "game_member_sha256": "cadd5fbf374350bc6883f17170c88fc7c0232c37a4aeb4826cbfd2777af8b156",
+    "game_member_bytes": 5738823,
+    "full_game_roundtrip": true,
+    "events": 418830,
+    "issues": 8117,
+    "different_user_sequence_pairs": 7916,
+    "command_manager_states": {
+      "0": 28553,
+      "1": 1838,
+      "2": 24824
+    },
+    "reference_outcomes": {
+      "103/state0": {
+        "omitted": 28553
+      },
+      "104": {
+        "omitted": 69677,
+        "no_same_user_issue_anywhere": 13215,
+        "multiple_same_user_issues": 53,
+        "only_later_issue": 180,
+        "unique_earlier_issue": 329
+      },
+      "103/state2": {
+        "omitted": 5264,
+        "no_same_user_issue_anywhere": 19282,
+        "multiple_same_user_issues": 59,
+        "only_later_issue": 219
+      },
+      "103/state1": {
+        "no_same_user_issue_anywhere": 1838
+      },
+      "105": {
+        "no_same_user_issue_anywhere": 2897,
+        "omitted": 79,
+        "only_later_issue": 16,
+        "multiple_same_user_issues": 4
+      }
+    },
+    "references_with_any_earlier_same_user_issue": {
+      "103/state0": 0,
+      "104": 329,
+      "103/state2": 0,
+      "103/state1": 0,
+      "105": 0
+    },
+    "first_examples": {
+      "103/state2/no_same_user_issue_anywhere": {
+        "manager_ordinal": 694,
+        "loop": 77,
+        "user_index": 5,
+        "sequence": 2,
+        "matching_issue_ordinals": [],
+        "previous_issued_numeric_value": 1,
+        "next_issued_numeric_value": 81
+      },
+      "103/state2/multiple_same_user_issues": {
+        "manager_ordinal": 4438,
+        "loop": 486,
+        "user_index": 2,
+        "sequence": 8,
+        "matching_issue_ordinals": [
+          4585,
+          4947,
+          5443,
+          6615
+        ],
+        "previous_issued_numeric_value": 6,
+        "next_issued_numeric_value": 9
+      },
+      "103/state2/only_later_issue": {
+        "manager_ordinal": 7367,
+        "loop": 705,
+        "user_index": 7,
+        "sequence": 20,
+        "matching_issue_ordinals": [
+          8061
+        ],
+        "previous_issued_numeric_value": 1,
+        "next_issued_numeric_value": 21
+      },
+      "103/state1/no_same_user_issue_anywhere": {
+        "manager_ordinal": 9479,
+        "loop": 827,
+        "user_index": 9,
+        "sequence": 12,
+        "matching_issue_ordinals": [],
+        "previous_issued_numeric_value": 11,
+        "next_issued_numeric_value": 13
+      }
+    },
+    "source": "https://github.com/nexus-devtools/heroprotocoldocs/blob/c9a2bbe20b6a1debee70dcea157385db2f13ba74/public/Garden%20of%20Terror%20%28122%29.StormReplay",
+    "git_blob_sha1": "e9d9c5dfaddd077104782b903e90238efe753a61"
+  },
+  {
+    "physical_build": 65006,
+    "replay_sha256": "1b23baea5a8297ec0c477af7fa11273aff2c98d0587b778a8d5d7d52c4a0e483",
+    "replay_bytes": 2762215,
+    "protocol_git_lf_sha256": "9eba5b09122e3bb6825bac9809cc54d884a59436efe1f059eae215d36a40b9cb",
+    "protocol_commit": "9af3ea7150f1a8acb53464c92519a9bbcc7a3594",
+    "game_member_sha256": "9af5e411048e7969d12dcc9bca13ade9bee0ff0961d4e56ece44c573294bf9ce",
+    "game_member_bytes": 4436061,
+    "full_game_roundtrip": true,
+    "events": 347248,
+    "issues": 11499,
+    "different_user_sequence_pairs": 11274,
+    "command_manager_states": {
+      "0": 30779,
+      "1": 1583,
+      "2": 26041
+    },
+    "reference_outcomes": {
+      "104": {
+        "omitted": 27156,
+        "no_same_user_issue_anywhere": 21212,
+        "only_later_issue": 48,
+        "multiple_same_user_issues": 39
+      },
+      "103/state0": {
+        "omitted": 30779
+      },
+      "103/state2": {
+        "no_same_user_issue_anywhere": 23899,
+        "omitted": 2037,
+        "only_later_issue": 65,
+        "multiple_same_user_issues": 40
+      },
+      "103/state1": {
+        "no_same_user_issue_anywhere": 1583
+      },
+      "105": {
+        "no_same_user_issue_anywhere": 1873,
+        "only_later_issue": 9,
+        "omitted": 28
+      }
+    },
+    "references_with_any_earlier_same_user_issue": {
+      "104": 0,
+      "103/state0": 0,
+      "103/state2": 0,
+      "103/state1": 0,
+      "105": 0
+    },
+    "first_examples": {
+      "103/state2/no_same_user_issue_anywhere": {
+        "manager_ordinal": 362,
+        "loop": 66,
+        "user_index": 1,
+        "sequence": 4,
+        "matching_issue_ordinals": [],
+        "previous_issued_numeric_value": 3,
+        "next_issued_numeric_value": 5
+      },
+      "103/state1/no_same_user_issue_anywhere": {
+        "manager_ordinal": 1273,
+        "loop": 106,
+        "user_index": 3,
+        "sequence": 7,
+        "matching_issue_ordinals": [],
+        "previous_issued_numeric_value": 6,
+        "next_issued_numeric_value": 12
+      },
+      "103/state2/only_later_issue": {
+        "manager_ordinal": 1521,
+        "loop": 116,
+        "user_index": 1,
+        "sequence": 37,
+        "matching_issue_ordinals": [
+          1549
+        ],
+        "previous_issued_numeric_value": 36,
+        "next_issued_numeric_value": 38
+      },
+      "103/state2/multiple_same_user_issues": {
+        "manager_ordinal": 11564,
+        "loop": 732,
+        "user_index": 9,
+        "sequence": 17,
+        "matching_issue_ordinals": [
+          11699,
+          11739
+        ],
+        "previous_issued_numeric_value": 1,
+        "next_issued_numeric_value": 18
+      }
+    },
+    "source": "https://github.com/HeroesToolChest/Heroes.StormReplayParser/blob/d381dd9c273205c0fd7ac402c75eef98c6fa6c78/Tests/Heroes.StormReplayParser.Tests/Replays/CustomBattlefieldofEternity1_65006.StormR",
+    "git_blob_sha1": "b1907f8c8f51f25afb3ff3add1b58458660d46dd"
+  },
+  {
+    "physical_build": 66488,
+    "replay_sha256": "dbf6a4586c36ec0f2d123a0cb77e5e8e715371314740fe8353e6c4b8ef3ef92e",
+    "replay_bytes": 2183482,
+    "protocol_git_lf_sha256": "c2c264dbe4d1ba21e5c4d1702f17b48477482217951b51ebd1984174130d1b90",
+    "protocol_commit": "9af3ea7150f1a8acb53464c92519a9bbcc7a3594",
+    "game_member_sha256": "b4dc8c341fdf55ffb339887fdbaaa372741466cf9a00d459d202b7b624b934ae",
+    "game_member_bytes": 3778972,
+    "full_game_roundtrip": true,
+    "events": 249114,
+    "issues": 24867,
+    "different_user_sequence_pairs": 24486,
+    "command_manager_states": {
+      "0": 20568
+    },
+    "reference_outcomes": {
+      "103/state0": {
+        "omitted": 20568
+      },
+      "104": {
+        "unique_earlier_issue": 31394,
+        "multiple_same_user_issues": 5450
+      },
+      "105": {
+        "unique_earlier_issue": 134,
+        "multiple_same_user_issues": 4
+      }
+    },
+    "references_with_any_earlier_same_user_issue": {
+      "103/state0": 0,
+      "104": 36844,
+      "105": 138
+    },
+    "first_examples": {},
+    "source": "https://github.com/nydus/heroprotocol/blob/08d8f6b68cfa1258dea5da2a8d9e258d98ccba3d/test/replays/towers-of-doom.StormReplay",
+    "git_blob_sha1": "6a554be1dd6a51a422ceb630c9ed692c46297284"
+  },
+  {
+    "physical_build": 68509,
+    "replay_sha256": "f74d52fbb13044b006c6d523972d4ef1129c3ba9725373a90b6b35db3a51f7b1",
+    "replay_bytes": 1447659,
+    "protocol_git_lf_sha256": "a2cd7a34b6d8869a13da50bfef2b4921195dce15aa1c236b238d65b464891e9c",
+    "protocol_commit": "9af3ea7150f1a8acb53464c92519a9bbcc7a3594",
+    "game_member_sha256": "1b26d05ec3fb029da93a757d859113cf7265c08eeb5af77fbcff4ce933f7ed53",
+    "game_member_bytes": 2767169,
+    "full_game_roundtrip": true,
+    "events": 238880,
+    "issues": 46058,
+    "different_user_sequence_pairs": 46058,
+    "command_manager_states": {
+      "0": 35619
+    },
+    "reference_outcomes": {
+      "103/state0": {
+        "unique_earlier_issue": 35619
+      },
+      "104": {
+        "unique_earlier_issue": 38309
+      },
+      "105": {
+        "unique_earlier_issue": 162
+      }
+    },
+    "references_with_any_earlier_same_user_issue": {
+      "103/state0": 35619,
+      "104": 38309,
+      "105": 162
+    },
+    "first_examples": {},
+    "source": "https://github.com/HeroesToolChest/Heroes.StormReplayParser/blob/d381dd9c273205c0fd7ac402c75eef98c6fa6c78/Tests/Heroes.StormReplayParser.Tests/Replays/CustomHGC2018BattlefieldofEternity1_68509.StormR",
+    "git_blob_sha1": "8f02e0aeee7f0a7b2121b7e977282e8de668c7be"
+  },
+  {
+    "physical_build": 75589,
+    "replay_sha256": "b688fafcace130d311326592e9b155f3d25a7520603218ca6f1a57a39e6ae66a",
+    "replay_bytes": 146976,
+    "protocol_git_lf_sha256": "e210cea98c6202bbb22ee3af33dd668dc4815fb720498c5e63d6c62978f119c6",
+    "protocol_commit": "9af3ea7150f1a8acb53464c92519a9bbcc7a3594",
+    "game_member_sha256": "d2a005a0f566b1717e2d632045e656cf85636563ce06d399235e815c081732a1",
+    "game_member_bytes": 89444,
+    "full_game_roundtrip": true,
+    "events": 7046,
+    "issues": 1235,
+    "different_user_sequence_pairs": 1235,
+    "command_manager_states": {
+      "0": 1103
+    },
+    "reference_outcomes": {
+      "103/state0": {
+        "unique_earlier_issue": 1103
+      },
+      "104": {
+        "unique_earlier_issue": 2039
+      },
+      "105": {
+        "unique_earlier_issue": 5
+      }
+    },
+    "references_with_any_earlier_same_user_issue": {
+      "103/state0": 1103,
+      "104": 2039,
+      "105": 5
+    },
+    "first_examples": {},
+    "source": "https://github.com/HeroesToolChest/Heroes.StormReplayParser/blob/d381dd9c273205c0fd7ac402c75eef98c6fa6c78/Tests/Heroes.StormReplayParser.Tests/Replays/AIDragonShire1_75589.StormR",
+    "git_blob_sha1": "cc5bcbe07c3d112949d32828972e26f87bef89f5"
+  }
+]
