@@ -1,0 +1,60 @@
+{
+  "registered_event": 46,
+  "producer_candidate": "GetReadyForBattle",
+  "default_sound": "LadyofThorns_HeroSelect",
+  "default_restricted_to_unassigned": true,
+  "legacy_assignment_reaches_modern_store": false,
+  "english_audio": {
+    "LadyofThorns_HeroSelect00": {
+      "samples": 124641,
+      "sample_rate_hz": 44100,
+      "loops_at_16hz": 45.22122
+    },
+    "LadyofThorns_HeroSelect_Observer00": {
+      "samples": 133688,
+      "sample_rate_hz": 44100,
+      "loops_at_16hz": 48.50358
+    }
+  },
+  "controls": {
+    "41810": {
+      "cases": 5,
+      "closed": 3,
+      "own_found": 30,
+      "eligible": 30,
+      "later_than_full_initial_batch": 30,
+      "observed_lag_range": [
+        32,
+        61
+      ],
+      "absent_through_gate_plus_1024": 1,
+      "first_minus_threshold": {
+        "2": 4
+      },
+      "stock_map_NoAnnouncerPack_or_LadyofThorns_lags": {}
+    },
+    "98348": {
+      "cases": 24,
+      "closed": 19,
+      "own_found": 190,
+      "eligible": 190,
+      "later_than_full_initial_batch": 189,
+      "observed_lag_range": [
+        0,
+        180
+      ],
+      "absent_through_gate_plus_1024": 0,
+      "first_minus_threshold": {
+        "1": 4,
+        "2": 20
+      },
+      "stock_map_NoAnnouncerPack_or_LadyofThorns_lags": {
+        "47": 5,
+        "48": 21,
+        "49": 2,
+        "52": 1
+      }
+    }
+  },
+  "first_target_sound_word": null
+}
