@@ -1,0 +1,59 @@
+{
+  "map_sha256": "13493e67e36594f908239dd0cce37fda0c0b386bbef385dcef22a83848f589d1",
+  "source_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+  "controls": [
+    {
+      "sha256": "96d960545dca6a4ef027c41d8734cce36bc7bc14f9391352acc130e511eb1fef",
+      "awards": [
+        322
+      ],
+      "item_births": 0
+    },
+    {
+      "sha256": "9faf99e38dae70f27fd2278318d851d57801df034764f7e408c7f363705abc3b",
+      "awards": [
+        320
+      ],
+      "item_births": 0
+    },
+    {
+      "sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4",
+      "awards": [
+        176
+      ],
+      "item_births": 0
+    },
+    {
+      "sha256": "afcf49a656068f343173fc79afff2d2ebf15066f531cb192382cdba9d1ea3272",
+      "awards": [
+        263
+      ],
+      "item_births": 0
+    }
+  ],
+  "source_only_birth": {
+    "ordinal": 249,
+    "loop": 355,
+    "player": 7,
+    "unit": "KaelthasArcaneBarrierItem",
+    "tag_index": 182,
+    "tag_recycle": 1,
+    "replacement_behavior": "KaelthasArcaneBarrierAbility",
+    "target_tracker_births": 0
+  },
+  "source_input_ordinal": 1536,
+  "source_award_ordinal": 250,
+  "target_award_ordinal": 271,
+  "target_selector": 2,
+  "frames": 272,
+  "bytes": 16491,
+  "sha256": "94308bf7b85f9b660a4db92e9cb13b2be66beacb4de419cefae999572f16c702",
+  "parent_prefix_sha256": "ede0650626ad85cc22cddde0c08b93d3a88c2d8f3bb7abec80c779f0d58b8cfa",
+  "last_loop": 355,
+  "next_source_tracker_ordinal": 251,
+  "next_loop": 365,
+  "translated_player_4_activation_commands": 0,
+  "target_unit_allocator_verified": false,
+  "target_simulation_verified": false,
+  "verified_target_syncs": 0
+}
