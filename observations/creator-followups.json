@@ -1,0 +1,98 @@
+{
+  "source": {
+    "creators": {
+      "cast": 51,
+      "hero": 17
+    },
+    "intervals": {
+      "hero_before_first_manager_103_absent": 12,
+      "hero_before_first_manager_105_absent": 14,
+      "hero_before_first_manager_104_absent": 1,
+      "cast_following_104_different": 53,
+      "cast_following_103_different": 53
+    },
+    "unit_target_geometry": {
+      "independent_position_missing_or_disagrees": 5,
+      "target_changed_to_RangedMinion": 2,
+      "same_tag_same_payload": 4,
+      "reused_or_previously_referenced_creator": 2,
+      "same_tag_changed_payload": 1
+    },
+    "compared_earliest_followups": 27,
+    "already_in_sparse_assembly": 0,
+    "protected_r8_sha256": "2ee895d18bf0395de81bef5138fe471bcb427ba7dcd7184e273dc1262c77c413",
+    "sparse_assembly_sha256": "d5722b8a4e8e794d6321abe49a7d4cdf825b793fc259e3b9c94fbf2d9c814cfd"
+  },
+  "first_eight": {
+    "cases": 8,
+    "physical_unit_updates": 1282,
+    "physical_bytes": 33332,
+    "per_sequence_prior_target": {
+      "different_unit": 890,
+      "TargetPoint": 386,
+      "same_unit_changed_xyz": 6
+    },
+    "repeat_targets": {
+      "flags_175": 6,
+      "sentinel": 6
+    },
+    "lookup_rules": {
+      "before_first_manager_103": {
+        "same": 8264,
+        "different": 150
+      },
+      "sole_state0_bracketed": {
+        "same": 5573,
+        "different": 10
+      },
+      "before_first_manager_104": {
+        "same": 2444,
+        "different": 3
+      },
+      "next_loop_point_then_state0": {
+        "same_same": 257,
+        "same_different": 2,
+        "different_same": 2,
+        "different_different": 1
+      },
+      "before_first_manager_105": {
+        "same": 242
+      }
+    }
+  },
+  "remaining_sixteen": {
+    "cases": 16,
+    "physical_unit_updates": 2912,
+    "physical_bytes": 75712,
+    "per_sequence_prior_target": {
+      "different_unit": 2029,
+      "TargetPoint": 863,
+      "same_unit_changed_xyz": 20
+    },
+    "repeat_targets": {
+      "flags_175": 20,
+      "sentinel": 20
+    },
+    "lookup_rules": {
+      "before_first_manager_103": {
+        "same": 15925,
+        "different": 378
+      },
+      "sole_state0_bracketed": {
+        "same": 10267,
+        "different": 60
+      },
+      "before_first_manager_105": {
+        "same": 472
+      },
+      "before_first_manager_104": {
+        "same": 5352
+      },
+      "next_loop_point_then_state0": {
+        "same_same": 400,
+        "same_different": 4
+      }
+    }
+  },
+  "new_target_frames": 0
+}
