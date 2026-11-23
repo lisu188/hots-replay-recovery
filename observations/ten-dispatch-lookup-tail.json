@@ -1,0 +1,69 @@
+{
+  "target_build": 98348,
+  "pe_sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+  "decoded_text_sha256": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83",
+  "constructor_dword_stores": 12,
+  "mask_initially_zero": true,
+  "verified_native_windows": [
+    "empty_groups",
+    "group_count_loop",
+    "special_groups",
+    "leftover_slots",
+    "tandem_guard",
+    "import_groups",
+    "active_mask",
+    "roster_updates",
+    "feed_lookups",
+    "feed_mask"
+  ],
+  "clean_setup": {
+    "build": 41810,
+    "replay_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+    "active_hex": "03ff",
+    "mask_little_endian": "ff03",
+    "group_member_write_masks": [
+      "03ff",
+      "03ff",
+      "03ff"
+    ],
+    "groups_without_members": [
+      0,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "user_to_group": "0102030405060708090a101010101010",
+    "slot_to_group": "0102030405060708090a101010101010",
+    "user_to_slot": "00010203040506070809101010101010",
+    "lookup_tail_sha256": "e27feb565f2dd60d91713776867aa1578342ef36c78dbc81010df14978cd83e9",
+    "complete_physical_setup_bytes": 240,
+    "physical_options_users": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "recorded_membership_updates_through_loop64": []
+  },
+  "r8_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+  "r8_state_matches": true,
+  "projected_game_member_sha256": "68def0020f334b543ed6e1be6aed1fd57bfbdc284c933372298a3e96cc69efc5",
+  "projected_records": 30,
+  "projected_kinds": [
+    5,
+    7,
+    27,
+    28,
+    56,
+    104
+  ],
+  "scope": "Clean context and ordinary TEN setup. The recorded and regenerated prefixes have no user join or leave through loop 64; unrecorded producers and state restoration are outside this check."
+}
