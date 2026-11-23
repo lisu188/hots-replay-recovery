@@ -1,0 +1,11 @@
+{
+  "candidate_sha256": "13493e67e36594f908239dd0cce37fda0c0b386bbef385dcef22a83848f589d1",
+  "native_execution": false,
+  "preserved_stock_talent_cells": 21,
+  "inserted_selector": 3,
+  "tier": 1,
+  "column": 4,
+  "slow_steps": 10,
+  "mana": 65,
+  "reader_sha256": "4013071b5683ce8090096d84082879d34a30620ada741acc5841cb5bd89fa2ee"
+}

@@ -1,0 +1,88 @@
+{
+  "parent_sha256": "9c223f3e4d9fb31324126b91f7e51048dd6c011ac0d4dcdf6f582e2978f92870",
+  "nova_component_sha256": "8b0cdec389be8a7cc52b438e9798af5903158a59a426d9ab3e08f166e791fd8f",
+  "brightwing_component_sha256": "bdf99d5bd9610774fe1758855f5c1f7981d9ef126e906cf06fd94177e1d3e72e",
+  "candidate_sha256": "13493e67e36594f908239dd0cce37fda0c0b386bbef385dcef22a83848f589d1",
+  "candidate_bytes": 2203861,
+  "changed_or_added_members": {
+    "Base.StormData\\GameData\\BehaviorData.xml": "2d63846411fdc3bf9c1f56e00c44a42b18d1dc889ff05a75e87e9ca101f15bca",
+    "Base.StormData\\GameData\\ButtonData.xml": "93f81e7b0ed536c026c426e2ee96e815fe198ad2bbf7d5b8c0530f0f86a6bb70",
+    "Base.StormData\\GameData\\EffectData.xml": "21d7ec8f9fc993edcb96662e28cbd0589320c92a103f346aec8df859d31cef34",
+    "Base.StormData\\GameData\\HeroData.xml": "152fe5f9fccc2a88956bcc76bfb3d92ca536a946ed0e944a2c258c9c618c50bb",
+    "Base.StormData\\GameData\\TalentData.xml": "87903f99e26168d2e794872b91319eadec127e2426246a507b6983421e1ceb94",
+    "Base.StormData\\GameData\\ValidatorData.xml": "d538e6001e9173439fa6862ee778b26276c3d462c0efeb4aef3238de7939f33a",
+    "enUS.StormData\\LocalizedData\\GameStrings.txt": "15a11b55847f8b16306e0eeb14411373d1c3a456cc860c6c2dde34a56c70747e",
+    "plPL.StormData\\LocalizedData\\GameStrings.txt": "3f80402c1f73b33ec1634457e6f766e55c713e0e213d26feff39a5083b604051"
+  },
+  "contributions": {
+    "Base.StormData\\GameData\\BehaviorData.xml": {
+      "nova": 24,
+      "brightwing": 0
+    },
+    "Base.StormData\\GameData\\ButtonData.xml": {
+      "nova": 2,
+      "brightwing": 1
+    },
+    "Base.StormData\\GameData\\EffectData.xml": {
+      "nova": 29,
+      "brightwing": 3
+    },
+    "Base.StormData\\GameData\\HeroData.xml": {
+      "nova": 1,
+      "brightwing": 1
+    },
+    "Base.StormData\\GameData\\TalentData.xml": {
+      "nova": 1,
+      "brightwing": 1
+    },
+    "Base.StormData\\GameData\\ValidatorData.xml": {
+      "nova": 24,
+      "brightwing": 1
+    },
+    "enUS.StormData\\LocalizedData\\GameStrings.txt": {
+      "nova": 1,
+      "brightwing": 2
+    },
+    "plPL.StormData\\LocalizedData\\GameStrings.txt": {
+      "nova": 1,
+      "brightwing": 0
+    }
+  },
+  "unchanged_parent_members": 65,
+  "parent_checks": {
+    "content_members": 71,
+    "live_blocks": 73,
+    "raw_table_results": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "native_member_flags": {
+      "256": 1,
+      "336": 72
+    }
+  },
+  "final_checks": {
+    "content_members": 73,
+    "live_blocks": 75,
+    "raw_table_results": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "native_member_flags": {
+      "256": 1,
+      "336": 74
+    }
+  },
+  "historical_brightwing_base_radius_independently_proven": false,
+  "nova_uses_intended_historical_ramp": true,
+  "effective_runtime": false,
+  "verified_syncs": 0
+}

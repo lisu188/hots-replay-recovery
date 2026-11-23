@@ -1,0 +1,64 @@
+{
+  "candidate_sha256": "13493e67e36594f908239dd0cce37fda0c0b386bbef385dcef22a83848f589d1",
+  "ten": {
+    "digest": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+    "build": 41810,
+    "selection_ordinal": 844,
+    "selection_loop": 133,
+    "award_ordinal": 245,
+    "award_loop": 134,
+    "selector": 3,
+    "tier": 1,
+    "column": 4,
+    "talent": "NovaMasteryCovertOpsPinningShot"
+  },
+  "witnesses": [
+    {
+      "digest": "d41417f0fd11a1d512e30fa77882bdebf220432bd7e9412b40440cb79a7c9cec",
+      "build": 98348,
+      "selection_ordinal": 2349,
+      "selection_loop": 626,
+      "award_ordinal": 414,
+      "award_loop": 627,
+      "selector": 2,
+      "tier": 1,
+      "column": 3,
+      "talent": "NovaAdvancedCloaking"
+    },
+    {
+      "digest": "db40f495edb70b2127b97cae4f479de19e18e61b2a5a0e0413052b571e1dbf7e",
+      "build": 98348,
+      "selection_ordinal": 3613,
+      "selection_loop": 733,
+      "award_ordinal": 385,
+      "award_loop": 734,
+      "selector": 2,
+      "tier": 1,
+      "column": 3,
+      "talent": "NovaAdvancedCloaking"
+    },
+    {
+      "digest": "f77c267be04b71b7901d9797ac12cfba8b94596bc9c0e2166904461f856eba3e",
+      "build": 41810,
+      "selection_ordinal": 1560,
+      "selection_loop": 352,
+      "award_ordinal": 248,
+      "award_loop": 353,
+      "selector": 3,
+      "tier": 1,
+      "column": 4,
+      "talent": "NovaMasteryCovertOpsPinningShot"
+    }
+  ],
+  "standalone_input": {
+    "bytes": 8,
+    "sha256": "f3ae1826987e6c082d7703bd3ec6062942df6025cec09fba57ef0d92ac7036f1"
+  },
+  "standalone_award": {
+    "bytes": 110,
+    "sha256": "33c99de31b1736169643cae8f5644b34ba37a045b3cdb9d55d1bd799a8cb5f54"
+  },
+  "native_delivery_verified": false,
+  "exact_41810_rules_verified": false,
+  "scope": "conditional_intended_rule"
+}

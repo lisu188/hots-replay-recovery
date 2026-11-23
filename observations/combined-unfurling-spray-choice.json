@@ -1,0 +1,97 @@
+{
+  "map_sha256": "13493e67e36594f908239dd0cce37fda0c0b386bbef385dcef22a83848f589d1",
+  "opening_prefix_sha256": "1073a5bdbffca7d6c50fd4ffe7dcedfe150ea4d2ba4152b4db7b04b357259d86",
+  "cases": [
+    {
+      "sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+      "build": 41810,
+      "player": 1,
+      "user": 0,
+      "m_index": 0,
+      "game": {
+        "ordinal": 914,
+        "tick": 148,
+        "previous_tick": 147,
+        "delta": 1,
+        "offset": 7512,
+        "bytes": 7,
+        "sha256": "b9736dfce6c226933d5a14f290ac1254b5d5091a14d321fb7a87909a7028cbf3"
+      },
+      "tracker": {
+        "ordinal": 246,
+        "tick": 149,
+        "previous_tick": 134,
+        "delta": 15,
+        "offset": 15324,
+        "bytes": 114,
+        "sha256": "c0233b9c8aeaccb60030e70b908c2f9f6c4ffe33ad14947f8eefff12d2de93f5"
+      },
+      "award": "BrightwingUnfurlingSpraySoothingMist",
+      "explicit_ability_inputs": 142,
+      "named_mist_or_heal_stats": []
+    },
+    {
+      "sha256": "036e05a19255d42930ee561b3bfd07234d8d6e15fb87dd893798ff64d252acce",
+      "build": 41810,
+      "player": 1,
+      "user": 0,
+      "m_index": 0,
+      "game": {
+        "ordinal": 450,
+        "tick": 88,
+        "previous_tick": 86,
+        "delta": 2,
+        "offset": 3520,
+        "bytes": 7,
+        "sha256": "c843531456832206c12c93a3a73e52bc25d96dddc989d30adeb8806179c79c46"
+      },
+      "tracker": {
+        "ordinal": 389,
+        "tick": 89,
+        "previous_tick": 84,
+        "delta": 5,
+        "offset": 24529,
+        "bytes": 114,
+        "sha256": "588bda3c6d0f77ba5624b340376f812d187a38a9bd30f654f98e01d39aff98a0"
+      },
+      "award": "BrightwingUnfurlingSpraySoothingMist",
+      "explicit_ability_inputs": 217,
+      "named_mist_or_heal_stats": []
+    },
+    {
+      "sha256": "db40f495edb70b2127b97cae4f479de19e18e61b2a5a0e0413052b571e1dbf7e",
+      "build": 98348,
+      "player": 7,
+      "user": 6,
+      "m_index": 0,
+      "game": {
+        "ordinal": 401,
+        "tick": 80,
+        "previous_tick": 80,
+        "delta": 0,
+        "offset": 3238,
+        "bytes": 7,
+        "sha256": "09e7a43ac75f6cbe72fc91c73f09f84b75a0bf3dfcf1da9426f436e687c27aa4"
+      },
+      "tracker": {
+        "ordinal": 279,
+        "tick": 81,
+        "previous_tick": 76,
+        "delta": 5,
+        "offset": 15003,
+        "bytes": 113,
+        "sha256": "67012eb83e2a0adfdcc8e63577b3ececfa2477e46a87aeaaf0bc16ac643ff3f2"
+      },
+      "award": "BrightwingGreaterPolymorphPolymorph",
+      "explicit_ability_inputs": 859,
+      "named_mist_or_heal_stats": []
+    }
+  ],
+  "game_bytes": 8,
+  "game_sha256": "cf1312e9315627d5eb6d02dd5af5364e361438c9df6841065c799deeb5b7f77f",
+  "tracker_bytes": 115,
+  "tracker_sha256": "d2368e306822ab96307ac9263eb031e9eaf5df1c69bc9cba421d4de693a09781",
+  "historical_base_radius_proven": false,
+  "exact_source_recipient_state_verified": false,
+  "effective_target_simulation_verified": false
+}
