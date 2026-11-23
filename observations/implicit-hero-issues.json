@@ -1,0 +1,346 @@
+{
+  "source": {
+    "build": 41810,
+    "replay_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+    "ordinary_primary_candidates": 339,
+    "measured": {
+      "issue_disagrees_with_other_reporter_position": 4,
+      "live_ordinary_issue": 331,
+      "unanimous_other_reporters_on_exact_terrain": 21
+    },
+    "qualified": 17,
+    "by_unit": {
+      "HeroAnubarak": 6,
+      "HeroBarbarian": 5,
+      "HeroGreymane": 1,
+      "HeroKaelthas": 3,
+      "HeroTyrande": 2
+    },
+    "enclosing_bytes": 510,
+    "enclosing_sha256": "4a6a90a17fae471e89c45368c60d17e2625f490c20abd3800d25086322926da5",
+    "bytes": 519,
+    "sha256": "8b7b9f34076bd831a39f56f766719d8f69711e41bf8de38fd88c1837e83fa5ca",
+    "ordinal_sha256": "1f5075cff80ab02af99c6d73300e5670af043c622a60aba7786e16f58d8d696b"
+  },
+  "target_hero_trajectory_verified": false,
+  "target_effective_catalog_verified": false,
+  "command_execution_verified": false,
+  "controls": [
+    {
+      "build": 98348,
+      "replay_sha256": "1230eee79fd3b50a3ee471c587bc77dd14aef67d57bf22cd8df52e877329323a",
+      "ordinary_primary_candidates": 105,
+      "measured": {
+        "issue_disagrees_with_other_reporter_position": 1,
+        "live_ordinary_issue": 104,
+        "unanimous_other_reporters_on_exact_terrain": 2
+      },
+      "qualified": 1,
+      "by_unit": {
+        "HeroKaelthas": 1
+      },
+      "enclosing_bytes": 30,
+      "enclosing_sha256": "f26da33645ec435faece8d8790180e382951c6af9d950c1e316a088e2776ca56",
+      "bytes": 31,
+      "sha256": "48fe7e57db8c32b5c84dec8947d3349426c1d7dbc9d0dc5254ee649e9e6b8f16",
+      "ordinal_sha256": "1d09e7a82c7b9662979efe94dc0b5a247c34f890a423e54e9e0a14c362e76a0e"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "4732077e899f6894c29586795a01e2a27fba622dbf22b5d29c7b30d57e3ce4fc",
+      "ordinary_primary_candidates": 295,
+      "measured": {
+        "issue_disagrees_with_other_reporter_position": 8,
+        "live_ordinary_issue": 293,
+        "unanimous_other_reporters_on_exact_terrain": 19
+      },
+      "qualified": 11,
+      "by_unit": {
+        "HeroAnubarak": 6,
+        "HeroTyrande": 5
+      },
+      "enclosing_bytes": 330,
+      "enclosing_sha256": "fe487bf5c7d1910b41e2f7c64c8d4aad7f51ca6e945350e6fd3fb96426cd062d",
+      "bytes": 334,
+      "sha256": "2923c1a89cc69b0efdffe7e662a7ce191c9711f37280c9fb36f074ac7c9ad553",
+      "ordinal_sha256": "e584dc39f10e343c5ea78d49ae0ae846270e135fd15a1dbe2163c9e5f5070685"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+      "ordinary_primary_candidates": 201,
+      "measured": {
+        "live_ordinary_issue": 196
+      },
+      "qualified": 0,
+      "by_unit": {},
+      "enclosing_bytes": 0,
+      "enclosing_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "ordinal_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+      "ordinary_primary_candidates": 0,
+      "measured": {},
+      "qualified": 0,
+      "by_unit": {},
+      "enclosing_bytes": 0,
+      "enclosing_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "ordinal_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+      "ordinary_primary_candidates": 0,
+      "measured": {},
+      "qualified": 0,
+      "by_unit": {},
+      "enclosing_bytes": 0,
+      "enclosing_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "ordinal_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+      "ordinary_primary_candidates": 31,
+      "measured": {
+        "live_ordinary_issue": 31
+      },
+      "qualified": 0,
+      "by_unit": {},
+      "enclosing_bytes": 0,
+      "enclosing_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "ordinal_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+      "ordinary_primary_candidates": 0,
+      "measured": {},
+      "qualified": 0,
+      "by_unit": {},
+      "enclosing_bytes": 0,
+      "enclosing_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "ordinal_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+      "ordinary_primary_candidates": 167,
+      "measured": {
+        "issue_disagrees_with_other_reporter_position": 1,
+        "live_ordinary_issue": 165,
+        "unanimous_other_reporters_on_exact_terrain": 13
+      },
+      "qualified": 12,
+      "by_unit": {
+        "HeroBarbarian": 12
+      },
+      "enclosing_bytes": 360,
+      "enclosing_sha256": "4ee1e80c26e3b739542af32ec9c03c4775b5782df4ce86db380a3cbf05f0cdab",
+      "bytes": 365,
+      "sha256": "ce6ee00ed353c27a8985b72dbedd7931263b05b0e0be7490b3aa84d168193991",
+      "ordinal_sha256": "c6b41f7bccc4737ae997d520efc48fb03a295bc0960fd01680f0cb65890e8170"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+      "ordinary_primary_candidates": 40,
+      "measured": {
+        "live_ordinary_issue": 40
+      },
+      "qualified": 0,
+      "by_unit": {},
+      "enclosing_bytes": 0,
+      "enclosing_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "ordinal_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+      "ordinary_primary_candidates": 42,
+      "measured": {
+        "live_ordinary_issue": 42
+      },
+      "qualified": 0,
+      "by_unit": {},
+      "enclosing_bytes": 0,
+      "enclosing_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "ordinal_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4",
+      "ordinary_primary_candidates": 0,
+      "measured": {},
+      "qualified": 0,
+      "by_unit": {},
+      "enclosing_bytes": 0,
+      "enclosing_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "ordinal_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "a956b186a0459a47d9b0fdd8af4ccb65c437f11926186471c434e543e218b2d7",
+      "ordinary_primary_candidates": 360,
+      "measured": {
+        "issue_disagrees_with_other_reporter_position": 6,
+        "live_ordinary_issue": 358,
+        "unanimous_other_reporters_on_exact_terrain": 28
+      },
+      "qualified": 22,
+      "by_unit": {
+        "HeroAnubarak": 22
+      },
+      "enclosing_bytes": 660,
+      "enclosing_sha256": "a073d63944a6dc83db7e49c2d8672b6b4f571fd8a17f5985cb06ab1bd7a5bf76",
+      "bytes": 667,
+      "sha256": "84525d599a8bd68582640063ece2e57fbdeab54f2e5c44dce0a18f8075337dce",
+      "ordinal_sha256": "508ae1908bb03695c7bd665b6c950e38a3e060beb3290c644d881a30fb408dba"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "afcf49a656068f343173fc79afff2d2ebf15066f531cb192382cdba9d1ea3272",
+      "ordinary_primary_candidates": 367,
+      "measured": {
+        "issue_disagrees_with_other_reporter_position": 5,
+        "live_ordinary_issue": 364,
+        "unanimous_other_reporters_on_exact_terrain": 16
+      },
+      "qualified": 11,
+      "by_unit": {
+        "HeroBarbarian": 2,
+        "HeroGreymane": 7,
+        "HeroKaelthas": 2
+      },
+      "enclosing_bytes": 330,
+      "enclosing_sha256": "fb0998cda97810f951e05cdd22806ae522b590f1d6ce3de9d36ef63832cefb78",
+      "bytes": 335,
+      "sha256": "11aecc131bcf7f5d58258e0175d08adfa1d04ffff14699000905f18257ba7472",
+      "ordinal_sha256": "f2a7e6f4d48584b2c76d27851ea0d2e7ab89c63009f3a9ce121e834fc55b9750"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+      "ordinary_primary_candidates": 27,
+      "measured": {
+        "live_ordinary_issue": 26
+      },
+      "qualified": 0,
+      "by_unit": {},
+      "enclosing_bytes": 0,
+      "enclosing_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "ordinal_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "bc16af7f68496cddc4698f70b3853402a0f30aa37951aec3a6b555ed703879e8",
+      "ordinary_primary_candidates": 0,
+      "measured": {},
+      "qualified": 0,
+      "by_unit": {},
+      "enclosing_bytes": 0,
+      "enclosing_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "ordinal_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77",
+      "ordinary_primary_candidates": 700,
+      "measured": {
+        "issue_disagrees_with_other_reporter_position": 22,
+        "live_ordinary_issue": 695,
+        "unanimous_other_reporters_on_exact_terrain": 59
+      },
+      "qualified": 37,
+      "by_unit": {
+        "HeroAnubarak": 20,
+        "HeroGreymane": 17
+      },
+      "enclosing_bytes": 1110,
+      "enclosing_sha256": "77c1c6832c4a5c148ef3254dfc4acfc05fceceab5e87341340edb6da52c0fe0e",
+      "bytes": 1118,
+      "sha256": "b700f136ed63dd9f69c904f22c745ba21f67d860670dae0593a28cc1a0457ab9",
+      "ordinal_sha256": "0dfd0749b8cb7d3cbd7498a1152e76dcfbbd995d14e55d86de2c9711e0a4ad47"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+      "ordinary_primary_candidates": 0,
+      "measured": {},
+      "qualified": 0,
+      "by_unit": {},
+      "enclosing_bytes": 0,
+      "enclosing_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "ordinal_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "build": 98348,
+      "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+      "ordinary_primary_candidates": 157,
+      "measured": {
+        "issue_disagrees_with_other_reporter_position": 4,
+        "live_ordinary_issue": 156,
+        "unanimous_other_reporters_on_exact_terrain": 11
+      },
+      "qualified": 7,
+      "by_unit": {
+        "HeroAnubarak": 1,
+        "HeroGreymane": 6
+      },
+      "enclosing_bytes": 210,
+      "enclosing_sha256": "8dd56b170a500f15877863b3b48ae3c7a141c442ed2a27f6202022bc79f4dd16",
+      "bytes": 212,
+      "sha256": "7102195b34090dc3e689137af5438b00a30a307d8d5e94e69bc358bcd2d93836",
+      "ordinal_sha256": "442963a7d430acd8120f92f0dabae6c1ed45c58ca6f89aa50efd7ef747f5b386"
+    }
+  ],
+  "qualified_source_type_witnesses": {
+    "HeroAnubarak": {
+      "frames": 49,
+      "recordings": 4
+    },
+    "HeroBarbarian": {
+      "frames": 14,
+      "recordings": 2
+    },
+    "HeroGreymane": {
+      "frames": 30,
+      "recordings": 3
+    },
+    "HeroKaelthas": {
+      "frames": 3,
+      "recordings": 2
+    },
+    "HeroTyrande": {
+      "frames": 5,
+      "recordings": 1
+    }
+  },
+  "enclosing_native_frames_equal": 101,
+  "enclosing_native_bytes_equal": 3030,
+  "native_position_counterexamples": 47
+}

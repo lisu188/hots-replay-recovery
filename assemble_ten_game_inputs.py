@@ -16,12 +16,14 @@ from first_sync_game import game
 from full_camera_inputs import audit as project_cameras
 from immediate_point_updates import generate as project_updates
 from implicit_building_issues import generate as project_building_issues
+from implicit_hero_issues import generate as project_hero_issues
 from implicit_point_issues import generate as project_issues
 from initial_point_sessions import analyze as point_sessions
 from literal_chat_input import verify_chat
 from match_selections import CONTROL_RECEIPT, pinned, plan as project_selections
 from native_game_events import GameEvent, encode_game_events, iter_game_events
 from opening_birth_wire import target_protocol
+from point_ability_births import generate as project_point_abilities
 from predict_camp_captures import SOURCE
 from symbiote_inputs import generate as project_symbiote
 from terminal_user_leaves import leaves
@@ -33,7 +35,7 @@ def payload(row):
 
 
 def assemble(source, gate_map, mechanics, curve, selection_controls, prefix64, abathur_control, abathur_xml,
-             original_map, historical_controls):
+             original_map, historical_controls, nova_xml=None):
     target = target_protocol()
     selections = {}
     sources = {}
@@ -87,6 +89,15 @@ def assemble(source, gate_map, mechanics, curve, selection_controls, prefix64, a
     buildings, _, _ = project_building_issues(source, gate_map, mechanics, catalog)
     for ordinal, row in buildings.items():
         add(ordinal, row, "building_target_requires_catalog_and_lifetime")
+
+    anchors = catalog.with_name("runtime-catalog-reference-anchors-98348.json")
+    heroes, _, _ = project_hero_issues(source, gate_map, mechanics, curve, selection_controls, anchors)
+    for ordinal, row in heroes.items():
+        add(ordinal, row, "moving_hero_target_requires_reproduced_trajectory")
+    if nova_xml is not None:
+        casts, _, _ = project_point_abilities(source, abathur_xml, nova_xml)
+        for ordinal, row in casts.items():
+            add(ordinal, row, "tracker_corroborated_cast_conditional_flags")
 
     old, raw = game(source, SOURCE, 41810)
     total, missing, represented = Counter(), Counter(), Counter()
@@ -142,12 +153,13 @@ if __name__=="__main__":
     for arg in ("source","gate_map","mechanics","curve","selection_controls","prefix64","abathur_control","abathur_xml"):
         cli.add_argument(arg,type=Path)
     cli.add_argument("--original-map",required=True,type=Path)
+    cli.add_argument("--nova-xml",type=Path,help="Include birth-corroborated point casts using the pinned Nova catalog")
     cli.add_argument("--historical-control",action="append",required=True,type=Path)
     cli.add_argument("--private-dir",type=Path)
     a=cli.parse_args()
     controls=[(path,sha256(path.read_bytes()).hexdigest()) for path in a.historical_control]
     data, ledger, receipt=assemble(a.source,a.gate_map,a.mechanics,a.curve,a.selection_controls,
-                                   a.prefix64,a.abathur_control,a.abathur_xml,a.original_map,controls)
+                                   a.prefix64,a.abathur_control,a.abathur_xml,a.original_map,controls,a.nova_xml)
     if a.private_dir:
         a.private_dir.mkdir(exist_ok=False)
         (a.private_dir/"game-inputs.private.bin").write_bytes(data)

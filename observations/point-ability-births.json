@@ -1,0 +1,1185 @@
+{
+  "source": {
+    "replay_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+    "build": 41810,
+    "heroes": [
+      "Abathur",
+      "Nova"
+    ],
+    "births": 140,
+    "counts": {
+      "Abathur/no_unique_input": 14,
+      "AbathurToxicNest/explicit_issue": 49,
+      "AbathurToxicNest/never_issued_state1": 62,
+      "Nova/no_unique_input": 2,
+      "NovaHoloClone/explicit_issue": 2,
+      "NovaHoloCloneCloaked/explicit_issue": 11
+    },
+    "anchored_explicit_shapes": {
+      "AbathurToxicNest/173/0x100": 49,
+      "NovaHoloClone/244/0x100": 2,
+      "NovaHoloCloneCloaked/244/0x100": 11
+    },
+    "unissued_abathur_state1_shifted_birth_tests": {
+      "-16": 0,
+      "-1": 0,
+      "0": 62,
+      "1": 0,
+      "16": 0
+    },
+    "hidden_nests_with_earlier_same_cell_explicit_cast_within_32_loops": 0,
+    "enclosing_frames": 186,
+    "enclosing_bytes": 2790,
+    "enclosing_sha256": "90caaaf86fb2c614ede0e3829980a9e3caab10f0a6776d9565c07fd77b128dc9"
+  },
+  "emitted": 51,
+  "sparse_bytes": 1221,
+  "sparse_sha256": "cf0c61fb8b2df7bc15649576f51a806053633a6d06d258a08c38c9021ba0a488",
+  "ordinal_sha256": "434919028342aafaf0221bca16859a8e8b9f0a592ff11ce403ec60af2fb0bbaf",
+  "symbolic_effects": 62,
+  "added_unrecorded_issues": 0,
+  "flag_mapping_conditional": true,
+  "target_simulation_verified": false,
+  "retained_r8": {
+    "build": 98285,
+    "replay_sha256": "4f2435e8cd678aeac16c0b1403cfdf67ab8e513b04f0f93e22d504c187bbaf19",
+    "same_context": 51,
+    "matching_projected_ability": 0,
+    "matching_projected_flags": 0
+  },
+  "controls": [
+    {
+      "replay_sha256": "036e05a19255d42930ee561b3bfd07234d8d6e15fb87dd893798ff64d252acce",
+      "build": 41810,
+      "heroes": [],
+      "births": 0,
+      "counts": {},
+      "anchored_explicit_shapes": {},
+      "unissued_abathur_state1_shifted_birth_tests": {
+        "-16": 0,
+        "-1": 0,
+        "0": 0,
+        "1": 0,
+        "16": 0
+      },
+      "hidden_nests_with_earlier_same_cell_explicit_cast_within_32_loops": 0,
+      "enclosing_frames": 0,
+      "enclosing_bytes": 0,
+      "enclosing_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "replay_sha256": "03a5e7865ef5b57fb5a960da0375298dbcf6cad5cb48774020456cbad7587c82",
+      "build": 41810,
+      "heroes": [
+        "Nova"
+      ],
+      "births": 23,
+      "counts": {
+        "Nova/no_unique_input": 4,
+        "NovaHoloClone/explicit_issue": 11,
+        "NovaHoloCloneCloaked/explicit_issue": 8
+      },
+      "anchored_explicit_shapes": {
+        "NovaHoloClone/244/0x100": 11,
+        "NovaHoloCloneCloaked/244/0x100": 8
+      },
+      "unissued_abathur_state1_shifted_birth_tests": {
+        "-16": 0,
+        "-1": 0,
+        "0": 0,
+        "1": 0,
+        "16": 0
+      },
+      "hidden_nests_with_earlier_same_cell_explicit_cast_within_32_loops": 0,
+      "enclosing_frames": 19,
+      "enclosing_bytes": 418,
+      "enclosing_sha256": "f91b0cb0ece01003f044020bda573d21d2c580b590864b1e12d12f1c8d987679"
+    },
+    {
+      "replay_sha256": "1230eee79fd3b50a3ee471c587bc77dd14aef67d57bf22cd8df52e877329323a",
+      "build": 98348,
+      "heroes": [],
+      "births": 0,
+      "counts": {},
+      "anchored_explicit_shapes": {},
+      "unissued_abathur_state1_shifted_birth_tests": {
+        "-16": 0,
+        "-1": 0,
+        "0": 0,
+        "1": 0,
+        "16": 0
+      },
+      "hidden_nests_with_earlier_same_cell_explicit_cast_within_32_loops": 0,
+      "enclosing_frames": 0,
+      "enclosing_bytes": 0,
+      "enclosing_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "replay_sha256": "2fca3c78d0e459d4452e3fb1f41ff3fce22b9c1f8f113019389195ff171bf618",
+      "build": 41810,
+      "heroes": [],
+      "births": 0,
+      "counts": {},
+      "anchored_explicit_shapes": {},
+      "unissued_abathur_state1_shifted_birth_tests": {
+        "-16": 0,
+        "-1": 0,
+        "0": 0,
+        "1": 0,
+        "16": 0
+      },
+      "hidden_nests_with_earlier_same_cell_explicit_cast_within_32_loops": 0,
+      "enclosing_frames": 0,
+      "enclosing_bytes": 0,
+      "enclosing_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "replay_sha256": "34ace72b2366e6317512cbdcaf8c6cd7965902b729918006dd75c2194b191bae",
+      "build": 41810,
+      "heroes": [],
+      "births": 0,
+      "counts": {},
+      "anchored_explicit_shapes": {},
+      "unissued_abathur_state1_shifted_birth_tests": {
+        "-16": 0,
+        "-1": 0,
+        "0": 0,
+        "1": 0,
+        "16": 0
+      },
+      "hidden_nests_with_earlier_same_cell_explicit_cast_within_32_loops": 0,
+      "enclosing_frames": 0,
+      "enclosing_bytes": 0,
+      "enclosing_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "replay_sha256": "3a33d012a9d47dc1e66595398c2f3dd75cbc9240762996cf52c9c6ad8337e869",
+      "build": 41810,
+      "heroes": [
+        "Abathur"
+      ],
+      "births": 63,
+      "counts": {
+        "Abathur/no_unique_input": 12,
+        "AbathurToxicNest/explicit_issue": 23,
+        "AbathurToxicNest/never_issued_state1": 28
+      },
+      "anchored_explicit_shapes": {
+        "AbathurToxicNest/173/0x200100": 23
+      },
+      "unissued_abathur_state1_shifted_birth_tests": {
+        "-16": 0,
+        "-1": 0,
+        "0": 28,
+        "1": 0,
+        "16": 0
+      },
+      "hidden_nests_with_earlier_same_cell_explicit_cast_within_32_loops": 0,
+      "enclosing_frames": 79,
+      "enclosing_bytes": 1150,
+      "enclosing_sha256": "3fcbd2ccdfd5ac2872a2118cf473051662058cc16592fa12efd2ea4ac284efd2"
+    },
+    {
+      "replay_sha256": "4732077e899f6894c29586795a01e2a27fba622dbf22b5d29c7b30d57e3ce4fc",
+      "build": 98348,
+      "heroes": [],
+      "births": 0,
+      "counts": {},
+      "anchored_explicit_shapes": {},
+      "unissued_abathur_state1_shifted_birth_tests": {
+        "-16": 0,
+        "-1": 0,
+        "0": 0,
+        "1": 0,
+        "16": 0
+      },
+      "hidden_nests_with_earlier_same_cell_explicit_cast_within_32_loops": 0,
+      "enclosing_frames": 0,
+      "enclosing_bytes": 0,
+      "enclosing_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "replay_sha256": "4f02c8c4b4ae7eb7ec5e290df4f2da26ebe3d71221a3c9b3db064306066b400d",
+      "build": 41810,
+      "heroes": [
+        "Abathur"
+      ],
+      "births": 61,
+      "counts": {
+        "Abathur/no_unique_input": 3,
+        "AbathurToxicNest/explicit_issue": 20,
+        "AbathurToxicNest/never_issued_state1": 38
+      },
+      "anchored_explicit_shapes": {
+        "AbathurToxicNest/173/0x100": 20
+      },
+      "unissued_abathur_state1_shifted_birth_tests": {
+        "-16": 0,
+        "-1": 0,
+        "0": 38,
+        "1": 1,
+        "16": 0
+      },
+      "hidden_nests_with_earlier_same_cell_explicit_cast_within_32_loops": 0,
+      "enclosing_frames": 96,
+      "enclosing_bytes": 1314,
+      "enclosing_sha256": "8e1a2bce661fa9c7fe0c8b8f0e2b8f342d5d1807f1313abe30c32d08f4b61dd5"
+    },
+    {
+      "replay_sha256": "588470a1fe251f6975e9cefe06c5e83f94cee0df4dba62ac6614363100a364c4",
+      "build": 41810,
+      "heroes": [],
+      "births": 0,
+      "counts": {},
+      "anchored_explicit_shapes": {},
+      "unissued_abathur_state1_shifted_birth_tests": {
+        "-16": 0,
+        "-1": 0,
+        "0": 0,
+        "1": 0,
+        "16": 0
+      },
+      "hidden_nests_with_earlier_same_cell_explicit_cast_within_32_loops": 0,
+      "enclosing_frames": 0,
+      "enclosing_bytes": 0,
+      "enclosing_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "replay_sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+      "build": 98348,
+      "heroes": [],
+      "births": 0,
+      "counts": {},
+      "anchored_explicit_shapes": {},
+      "unissued_abathur_state1_shifted_birth_tests": {
+        "-16": 0,
+        "-1": 0,
+        "0": 0,
+        "1": 0,
+        "16": 0
+      },
+      "hidden_nests_with_earlier_same_cell_explicit_cast_within_32_loops": 0,
+      "enclosing_frames": 0,
+      "enclosing_bytes": 0,
+      "enclosing_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "replay_sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+      "build": 98348,
+      "heroes": [],
+      "births": 0,
+      "counts": {},
+      "anchored_explicit_shapes": {},
+      "unissued_abathur_state1_shifted_birth_tests": {
+        "-16": 0,
+        "-1": 0,
+        "0": 0,
+        "1": 0,
+        "16": 0
+      },
+      "hidden_nests_with_earlier_same_cell_explicit_cast_within_32_loops": 0,
+      "enclosing_frames": 0,
+      "enclosing_bytes": 0,
+      "enclosing_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "replay_sha256": "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+      "build": 98348,
+      "heroes": [],
+      "births": 0,
+      "counts": {},
+      "anchored_explicit_shapes": {},
+      "unissued_abathur_state1_shifted_birth_tests": {
+        "-16": 0,
+        "-1": 0,
+        "0": 0,
+        "1": 0,
+        "16": 0
+      },
+      "hidden_nests_with_earlier_same_cell_explicit_cast_within_32_loops": 0,
+      "enclosing_frames": 0,
+      "enclosing_bytes": 0,
+      "enclosing_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "replay_sha256": "69a33649fa3b16fed8f67c0d9ba6eb9fd9666e467e306873dbf488526da3fb99",
+      "build": 41810,
+      "heroes": [],
+      "births": 0,
+      "counts": {},
+      "anchored_explicit_shapes": {},
+      "unissued_abathur_state1_shifted_birth_tests": {
+        "-16": 0,
+        "-1": 0,
+        "0": 0,
+        "1": 0,
+        "16": 0
+      },
+      "hidden_nests_with_earlier_same_cell_explicit_cast_within_32_loops": 0,
+      "enclosing_frames": 0,
+      "enclosing_bytes": 0,
+      "enclosing_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "replay_sha256": "69b649866a24ae0326ef547eb300492c12559f586e326ec761e4f7827ce5458f",
+      "build": 41810,
+      "heroes": [
+        "Nova"
+      ],
+      "births": 31,
+      "counts": {
+        "Nova/no_unique_input": 1,
+        "NovaHoloClone/explicit_issue": 18,
+        "NovaHoloCloneCloaked/explicit_issue": 12
+      },
+      "anchored_explicit_shapes": {
+        "NovaHoloClone/244/0x100": 18,
+        "NovaHoloCloneCloaked/244/0x100": 12
+      },
+      "unissued_abathur_state1_shifted_birth_tests": {
+        "-16": 0,
+        "-1": 0,
+        "0": 0,
+        "1": 0,
+        "16": 0
+      },
+      "hidden_nests_with_earlier_same_cell_explicit_cast_within_32_loops": 0,
+      "enclosing_frames": 30,
+      "enclosing_bytes": 660,
+      "enclosing_sha256": "304a742b0733efebf20a1201fdf838ef1d9fa1169876f97a7a1b8443ab5f910e"
+    },
+    {
+      "replay_sha256": "70921bf5fb1d8a99efd8a8317f54695475e07de0f943712c9d5a75bb79df9c78",
+      "build": 41810,
+      "heroes": [
+        "Abathur",
+        "Nova"
+      ],
+      "births": 83,
+      "counts": {
+        "Abathur/no_unique_input": 7,
+        "AbathurToxicNest/explicit_issue": 16,
+        "AbathurToxicNest/never_issued_state1": 30,
+        "Nova/no_unique_input": 11,
+        "NovaHoloClone/explicit_issue": 13,
+        "NovaHoloClone/never_issued_state1": 1,
+        "NovaHoloCloneCloaked/explicit_issue": 5
+      },
+      "anchored_explicit_shapes": {
+        "AbathurToxicNest/173/0x100": 16,
+        "NovaHoloClone/244/0x100": 13,
+        "NovaHoloCloneCloaked/244/0x100": 5
+      },
+      "unissued_abathur_state1_shifted_birth_tests": {
+        "-16": 0,
+        "-1": 0,
+        "0": 31,
+        "1": 0,
+        "16": 0
+      },
+      "hidden_nests_with_earlier_same_cell_explicit_cast_within_32_loops": 0,
+      "enclosing_frames": 96,
+      "enclosing_bytes": 1461,
+      "enclosing_sha256": "fc44fc77505a7c29b5cac646e3feaa5f32293ee9c9de58f9d5c928c1803e396d"
+    },
+    {
+      "replay_sha256": "715e309bba5d3151d3e1b47461041627db7644d91a8b549c309950e44d6067e8",
+      "build": 98348,
+      "heroes": [],
+      "births": 0,
+      "counts": {},
+      "anchored_explicit_shapes": {},
+      "unissued_abathur_state1_shifted_birth_tests": {
+        "-16": 0,
+        "-1": 0,
+        "0": 0,
+        "1": 0,
+        "16": 0
+      },
+      "hidden_nests_with_earlier_same_cell_explicit_cast_within_32_loops": 0,
+      "enclosing_frames": 0,
+      "enclosing_bytes": 0,
+      "enclosing_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "replay_sha256": "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+      "build": 98348,
+      "heroes": [],
+      "births": 0,
+      "counts": {},
+      "anchored_explicit_shapes": {},
+      "unissued_abathur_state1_shifted_birth_tests": {
+        "-16": 0,
+        "-1": 0,
+        "0": 0,
+        "1": 0,
+        "16": 0
+      },
+      "hidden_nests_with_earlier_same_cell_explicit_cast_within_32_loops": 0,
+      "enclosing_frames": 0,
+      "enclosing_bytes": 0,
+      "enclosing_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "replay_sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+      "build": 98348,
+      "heroes": [],
+      "births": 0,
+      "counts": {},
+      "anchored_explicit_shapes": {},
+      "unissued_abathur_state1_shifted_birth_tests": {
+        "-16": 0,
+        "-1": 0,
+        "0": 0,
+        "1": 0,
+        "16": 0
+      },
+      "hidden_nests_with_earlier_same_cell_explicit_cast_within_32_loops": 0,
+      "enclosing_frames": 0,
+      "enclosing_bytes": 0,
+      "enclosing_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "replay_sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+      "build": 98348,
+      "heroes": [],
+      "births": 0,
+      "counts": {},
+      "anchored_explicit_shapes": {},
+      "unissued_abathur_state1_shifted_birth_tests": {
+        "-16": 0,
+        "-1": 0,
+        "0": 0,
+        "1": 0,
+        "16": 0
+      },
+      "hidden_nests_with_earlier_same_cell_explicit_cast_within_32_loops": 0,
+      "enclosing_frames": 0,
+      "enclosing_bytes": 0,
+      "enclosing_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "replay_sha256": "7efa1c335816eebe802747ae4b16252ed22fcd8387b09d24b115b2917542b52a",
+      "build": 41810,
+      "heroes": [
+        "Abathur"
+      ],
+      "births": 92,
+      "counts": {
+        "Abathur/no_unique_input": 18,
+        "AbathurToxicNest/explicit_issue": 39,
+        "AbathurToxicNest/never_issued_state1": 35
+      },
+      "anchored_explicit_shapes": {
+        "AbathurToxicNest/173/0x200100": 39
+      },
+      "unissued_abathur_state1_shifted_birth_tests": {
+        "-16": 0,
+        "-1": 0,
+        "0": 35,
+        "1": 0,
+        "16": 0
+      },
+      "hidden_nests_with_earlier_same_cell_explicit_cast_within_32_loops": 1,
+      "enclosing_frames": 109,
+      "enclosing_bytes": 1663,
+      "enclosing_sha256": "9c371ad30ecc39071e6a3cd66d4559b3dad7170a11dba68146e5a5ade8ee7955"
+    },
+    {
+      "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+      "build": 98348,
+      "heroes": [],
+      "births": 0,
+      "counts": {},
+      "anchored_explicit_shapes": {},
+      "unissued_abathur_state1_shifted_birth_tests": {
+        "-16": 0,
+        "-1": 0,
+        "0": 0,
+        "1": 0,
+        "16": 0
+      },
+      "hidden_nests_with_earlier_same_cell_explicit_cast_within_32_loops": 0,
+      "enclosing_frames": 0,
+      "enclosing_bytes": 0,
+      "enclosing_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+      "build": 98348,
+      "heroes": [],
+      "births": 0,
+      "counts": {},
+      "anchored_explicit_shapes": {},
+      "unissued_abathur_state1_shifted_birth_tests": {
+        "-16": 0,
+        "-1": 0,
+        "0": 0,
+        "1": 0,
+        "16": 0
+      },
+      "hidden_nests_with_earlier_same_cell_explicit_cast_within_32_loops": 0,
+      "enclosing_frames": 0,
+      "enclosing_bytes": 0,
+      "enclosing_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "replay_sha256": "8beb4370c5c6638d5481c25e88970ad49d5651edacf876cb623be7c2f593504b",
+      "build": 41810,
+      "heroes": [],
+      "births": 0,
+      "counts": {},
+      "anchored_explicit_shapes": {},
+      "unissued_abathur_state1_shifted_birth_tests": {
+        "-16": 0,
+        "-1": 0,
+        "0": 0,
+        "1": 0,
+        "16": 0
+      },
+      "hidden_nests_with_earlier_same_cell_explicit_cast_within_32_loops": 0,
+      "enclosing_frames": 0,
+      "enclosing_bytes": 0,
+      "enclosing_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "replay_sha256": "8c4fb83989b528ea3227f6c97758293d1f650e33caa3d38c6a2a84d27ab0850d",
+      "build": 41810,
+      "heroes": [
+        "Abathur"
+      ],
+      "births": 65,
+      "counts": {
+        "Abathur/no_unique_input": 8,
+        "AbathurToxicNest/explicit_issue": 21,
+        "AbathurToxicNest/never_issued_state1": 36
+      },
+      "anchored_explicit_shapes": {
+        "AbathurToxicNest/173/0x200100": 21
+      },
+      "unissued_abathur_state1_shifted_birth_tests": {
+        "-16": 0,
+        "-1": 0,
+        "0": 38,
+        "1": 0,
+        "16": 0
+      },
+      "hidden_nests_with_earlier_same_cell_explicit_cast_within_32_loops": 0,
+      "enclosing_frames": 93,
+      "enclosing_bytes": 1290,
+      "enclosing_sha256": "59a8804e3697fda3fa600a8092f9857beaf72515c55f252b4d47bf2e7baf3e44"
+    },
+    {
+      "replay_sha256": "9872b043e48093abc65e11b7b6d091861e83fc4d202b40b745824da647cb6ef3",
+      "build": 98348,
+      "heroes": [],
+      "births": 0,
+      "counts": {},
+      "anchored_explicit_shapes": {},
+      "unissued_abathur_state1_shifted_birth_tests": {
+        "-16": 0,
+        "-1": 0,
+        "0": 0,
+        "1": 0,
+        "16": 0
+      },
+      "hidden_nests_with_earlier_same_cell_explicit_cast_within_32_loops": 0,
+      "enclosing_frames": 0,
+      "enclosing_bytes": 0,
+      "enclosing_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "replay_sha256": "98ac891fa4fb8e1698e5fc35609fcf75abfe7e89aee9c7f05afff93b10338ab3",
+      "build": 98348,
+      "heroes": [],
+      "births": 0,
+      "counts": {},
+      "anchored_explicit_shapes": {},
+      "unissued_abathur_state1_shifted_birth_tests": {
+        "-16": 0,
+        "-1": 0,
+        "0": 0,
+        "1": 0,
+        "16": 0
+      },
+      "hidden_nests_with_earlier_same_cell_explicit_cast_within_32_loops": 0,
+      "enclosing_frames": 0,
+      "enclosing_bytes": 0,
+      "enclosing_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "replay_sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4",
+      "build": 98348,
+      "heroes": [],
+      "births": 0,
+      "counts": {},
+      "anchored_explicit_shapes": {},
+      "unissued_abathur_state1_shifted_birth_tests": {
+        "-16": 0,
+        "-1": 0,
+        "0": 0,
+        "1": 0,
+        "16": 0
+      },
+      "hidden_nests_with_earlier_same_cell_explicit_cast_within_32_loops": 0,
+      "enclosing_frames": 0,
+      "enclosing_bytes": 0,
+      "enclosing_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "replay_sha256": "a6c7c6232f19b9b264ef39bf36b4ce7dfcad56e59c470731b53c28700b9d2603",
+      "build": 41810,
+      "heroes": [
+        "Abathur"
+      ],
+      "births": 93,
+      "counts": {
+        "Abathur/no_unique_input": 11,
+        "AbathurToxicNest/explicit_issue": 37,
+        "AbathurToxicNest/never_issued_state1": 45
+      },
+      "anchored_explicit_shapes": {
+        "AbathurToxicNest/173/0x100": 37
+      },
+      "unissued_abathur_state1_shifted_birth_tests": {
+        "-16": 0,
+        "-1": 0,
+        "0": 45,
+        "1": 0,
+        "16": 0
+      },
+      "hidden_nests_with_earlier_same_cell_explicit_cast_within_32_loops": 0,
+      "enclosing_frames": 127,
+      "enclosing_bytes": 1849,
+      "enclosing_sha256": "881a4e14f818e49b0d4f8681603175a45047f1227ccb51d1a71c5882829f2c75"
+    },
+    {
+      "replay_sha256": "a956b186a0459a47d9b0fdd8af4ccb65c437f11926186471c434e543e218b2d7",
+      "build": 98348,
+      "heroes": [
+        "Deckard"
+      ],
+      "births": 118,
+      "counts": {
+        "Deckard/no_unique_input": 118
+      },
+      "anchored_explicit_shapes": {},
+      "unissued_abathur_state1_shifted_birth_tests": {
+        "-16": 0,
+        "-1": 0,
+        "0": 0,
+        "1": 0,
+        "16": 0
+      },
+      "hidden_nests_with_earlier_same_cell_explicit_cast_within_32_loops": 0,
+      "enclosing_frames": 0,
+      "enclosing_bytes": 0,
+      "enclosing_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "replay_sha256": "ac9ede2e7bc241a54209d723fb40594920734138f38347b21cea3a7797ae1372",
+      "build": 41810,
+      "heroes": [],
+      "births": 0,
+      "counts": {},
+      "anchored_explicit_shapes": {},
+      "unissued_abathur_state1_shifted_birth_tests": {
+        "-16": 0,
+        "-1": 0,
+        "0": 0,
+        "1": 0,
+        "16": 0
+      },
+      "hidden_nests_with_earlier_same_cell_explicit_cast_within_32_loops": 0,
+      "enclosing_frames": 0,
+      "enclosing_bytes": 0,
+      "enclosing_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "replay_sha256": "afcf49a656068f343173fc79afff2d2ebf15066f531cb192382cdba9d1ea3272",
+      "build": 98348,
+      "heroes": [
+        "Abathur"
+      ],
+      "births": 115,
+      "counts": {
+        "Abathur/no_unique_input": 52,
+        "AbathurToxicNest/explicit_issue": 62,
+        "AbathurToxicNest/implicit_issue": 1
+      },
+      "anchored_explicit_shapes": {
+        "AbathurToxicNest/154/0x2100100": 62
+      },
+      "unissued_abathur_state1_shifted_birth_tests": {
+        "-16": 0,
+        "-1": 0,
+        "0": 0,
+        "1": 0,
+        "16": 0
+      },
+      "hidden_nests_with_earlier_same_cell_explicit_cast_within_32_loops": 0,
+      "enclosing_frames": 62,
+      "enclosing_bytes": 1426,
+      "enclosing_sha256": "5e172c5ceb64f74d8d5f1732fd604f0b2161cdd10eda12435297e36919dc272f"
+    },
+    {
+      "replay_sha256": "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+      "build": 98348,
+      "heroes": [],
+      "births": 0,
+      "counts": {},
+      "anchored_explicit_shapes": {},
+      "unissued_abathur_state1_shifted_birth_tests": {
+        "-16": 0,
+        "-1": 0,
+        "0": 0,
+        "1": 0,
+        "16": 0
+      },
+      "hidden_nests_with_earlier_same_cell_explicit_cast_within_32_loops": 0,
+      "enclosing_frames": 0,
+      "enclosing_bytes": 0,
+      "enclosing_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "replay_sha256": "bc16af7f68496cddc4698f70b3853402a0f30aa37951aec3a6b555ed703879e8",
+      "build": 98348,
+      "heroes": [],
+      "births": 0,
+      "counts": {},
+      "anchored_explicit_shapes": {},
+      "unissued_abathur_state1_shifted_birth_tests": {
+        "-16": 0,
+        "-1": 0,
+        "0": 0,
+        "1": 0,
+        "16": 0
+      },
+      "hidden_nests_with_earlier_same_cell_explicit_cast_within_32_loops": 0,
+      "enclosing_frames": 0,
+      "enclosing_bytes": 0,
+      "enclosing_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "replay_sha256": "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77",
+      "build": 98348,
+      "heroes": [],
+      "births": 0,
+      "counts": {},
+      "anchored_explicit_shapes": {},
+      "unissued_abathur_state1_shifted_birth_tests": {
+        "-16": 0,
+        "-1": 0,
+        "0": 0,
+        "1": 0,
+        "16": 0
+      },
+      "hidden_nests_with_earlier_same_cell_explicit_cast_within_32_loops": 0,
+      "enclosing_frames": 0,
+      "enclosing_bytes": 0,
+      "enclosing_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "replay_sha256": "d41417f0fd11a1d512e30fa77882bdebf220432bd7e9412b40440cb79a7c9cec",
+      "build": 98348,
+      "heroes": [
+        "Nova"
+      ],
+      "births": 129,
+      "counts": {
+        "Nova/no_unique_input": 79,
+        "NovaHoloClone/explicit_issue": 50
+      },
+      "anchored_explicit_shapes": {
+        "NovaHoloClone/523/0x2100100": 50
+      },
+      "unissued_abathur_state1_shifted_birth_tests": {
+        "-16": 0,
+        "-1": 0,
+        "0": 0,
+        "1": 0,
+        "16": 0
+      },
+      "hidden_nests_with_earlier_same_cell_explicit_cast_within_32_loops": 0,
+      "enclosing_frames": 50,
+      "enclosing_bytes": 1150,
+      "enclosing_sha256": "f09bf17df8d109f575f1cfe7261c4e14c1f3609bf81adfa5c97fca226deb0ef1"
+    },
+    {
+      "replay_sha256": "d417680d70137bed99a536aae8724b4f48491d986e1a6a7de0b10209d5401a68",
+      "build": 41810,
+      "heroes": [
+        "Abathur"
+      ],
+      "births": 101,
+      "counts": {
+        "AbathurToxicNest/explicit_issue": 33,
+        "AbathurToxicNest/never_issued_state1": 68
+      },
+      "anchored_explicit_shapes": {
+        "AbathurToxicNest/173/0x100": 33
+      },
+      "unissued_abathur_state1_shifted_birth_tests": {
+        "-16": 0,
+        "-1": 0,
+        "0": 68,
+        "1": 0,
+        "16": 0
+      },
+      "hidden_nests_with_earlier_same_cell_explicit_cast_within_32_loops": 0,
+      "enclosing_frames": 169,
+      "enclosing_bytes": 2290,
+      "enclosing_sha256": "c73454360b349ddad0ee26d3e15a6cec959f0a483e7ef0ee14a28b4cb9169d5b"
+    },
+    {
+      "replay_sha256": "d493c71358921ed49f8345963ce422dde2d32c1499f34b3a37bcb9e8e359e1ed",
+      "build": 41810,
+      "heroes": [
+        "Abathur",
+        "Nova"
+      ],
+      "births": 124,
+      "counts": {
+        "Abathur/no_unique_input": 24,
+        "AbathurToxicNest/explicit_issue": 19,
+        "AbathurToxicNest/never_issued_state1": 34,
+        "Nova/no_unique_input": 15,
+        "NovaHoloClone/explicit_issue": 21,
+        "NovaHoloClone/never_issued_state1": 2,
+        "NovaHoloCloneCloaked/explicit_issue": 8,
+        "NovaHoloCloneCloaked/never_issued_state1": 1
+      },
+      "anchored_explicit_shapes": {
+        "AbathurToxicNest/173/0x100": 19,
+        "NovaHoloClone/244/0x100": 21,
+        "NovaHoloCloneCloaked/244/0x100": 8
+      },
+      "unissued_abathur_state1_shifted_birth_tests": {
+        "-16": 0,
+        "-1": 0,
+        "0": 35,
+        "1": 0,
+        "16": 0
+      },
+      "hidden_nests_with_earlier_same_cell_explicit_cast_within_32_loops": 0,
+      "enclosing_frames": 122,
+      "enclosing_bytes": 1907,
+      "enclosing_sha256": "54f5920007600de7f215ec8f2bc94fc39c4ed0b769da796bd248a71266b7b2d6"
+    },
+    {
+      "replay_sha256": "d5af3e6672c102a5b33abc7df7884ea2648d01af8f7921f16ff6ad69f3c69a97",
+      "build": 41810,
+      "heroes": [
+        "Abathur"
+      ],
+      "births": 429,
+      "counts": {
+        "Abathur/no_unique_input": 17,
+        "AbathurToxicNest/explicit_issue": 196,
+        "AbathurToxicNest/never_issued_state1": 216
+      },
+      "anchored_explicit_shapes": {
+        "AbathurToxicNest/173/0x100": 196
+      },
+      "unissued_abathur_state1_shifted_birth_tests": {
+        "-16": 0,
+        "-1": 0,
+        "0": 216,
+        "1": 0,
+        "16": 0
+      },
+      "hidden_nests_with_earlier_same_cell_explicit_cast_within_32_loops": 1,
+      "enclosing_frames": 628,
+      "enclosing_bytes": 9280,
+      "enclosing_sha256": "5f4d964a6510ceb63b70abd4f8b90f35c06379f6ad7b784a3407db6c34761632"
+    },
+    {
+      "replay_sha256": "db40f495edb70b2127b97cae4f479de19e18e61b2a5a0e0413052b571e1dbf7e",
+      "build": 98348,
+      "heroes": [
+        "Nova"
+      ],
+      "births": 116,
+      "counts": {
+        "Nova/no_unique_input": 42,
+        "NovaHoloClone/explicit_issue": 74
+      },
+      "anchored_explicit_shapes": {
+        "NovaHoloClone/523/0x2100100": 74
+      },
+      "unissued_abathur_state1_shifted_birth_tests": {
+        "-16": 0,
+        "-1": 0,
+        "0": 0,
+        "1": 0,
+        "16": 0
+      },
+      "hidden_nests_with_earlier_same_cell_explicit_cast_within_32_loops": 0,
+      "enclosing_frames": 74,
+      "enclosing_bytes": 1702,
+      "enclosing_sha256": "07e0660ea5b08be2614efd4455eea1807e32f9c2177233dfc91d439aa09167e1"
+    },
+    {
+      "replay_sha256": "dbf6a4586c36ec0f2d123a0cb77e5e8e715371314740fe8353e6c4b8ef3ef92e",
+      "build": 66488,
+      "heroes": [
+        "Deckard",
+        "Fenix"
+      ],
+      "births": 203,
+      "counts": {
+        "Deckard/no_unique_input": 156,
+        "DeckardHealingPotion/explicit_issue": 2,
+        "Fenix/no_unique_input": 7,
+        "FenixPlasmaCutterLaserUnit/explicit_issue": 38
+      },
+      "anchored_explicit_shapes": {
+        "DeckardHealingPotion/1127/0x100100": 2,
+        "FenixPlasmaCutterLaserUnit/1123/0x100100": 38
+      },
+      "unissued_abathur_state1_shifted_birth_tests": {
+        "-16": 0,
+        "-1": 0,
+        "0": 0,
+        "1": 0,
+        "16": 0
+      },
+      "hidden_nests_with_earlier_same_cell_explicit_cast_within_32_loops": 0,
+      "enclosing_frames": 40,
+      "enclosing_bytes": 920,
+      "enclosing_sha256": "38d316b5a0d7bdfd4ccf0f1e4156f040c965871b3bcff9370db5b31d7a80b8a1"
+    },
+    {
+      "replay_sha256": "df78325ebf458d513d59bc5f25919561301dddb8ec6b03fe85b63918b703270f",
+      "build": 41810,
+      "heroes": [
+        "Abathur"
+      ],
+      "births": 73,
+      "counts": {
+        "Abathur/no_unique_input": 3,
+        "AbathurToxicNest/explicit_issue": 34,
+        "AbathurToxicNest/never_issued_state1": 36
+      },
+      "anchored_explicit_shapes": {
+        "AbathurToxicNest/173/0x100": 34
+      },
+      "unissued_abathur_state1_shifted_birth_tests": {
+        "-16": 0,
+        "-1": 0,
+        "0": 36,
+        "1": 0,
+        "16": 0
+      },
+      "hidden_nests_with_earlier_same_cell_explicit_cast_within_32_loops": 0,
+      "enclosing_frames": 106,
+      "enclosing_bytes": 1576,
+      "enclosing_sha256": "3ff79b8b98ed52383a93d770cabcef177b8add993bd74ca7dd1c3ec839bf6370"
+    },
+    {
+      "replay_sha256": "e5931b469dae86d95741bff08b71fc06bb28d5344f7c2ea64c4cc91f60570b2b",
+      "build": 41810,
+      "heroes": [
+        "Nova"
+      ],
+      "births": 25,
+      "counts": {
+        "Nova/no_unique_input": 4,
+        "NovaHoloClone/explicit_issue": 5,
+        "NovaHoloCloneCloaked/explicit_issue": 16
+      },
+      "anchored_explicit_shapes": {
+        "NovaHoloClone/244/0x200100": 5,
+        "NovaHoloCloneCloaked/244/0x200100": 16
+      },
+      "unissued_abathur_state1_shifted_birth_tests": {
+        "-16": 0,
+        "-1": 0,
+        "0": 0,
+        "1": 0,
+        "16": 0
+      },
+      "hidden_nests_with_earlier_same_cell_explicit_cast_within_32_loops": 0,
+      "enclosing_frames": 21,
+      "enclosing_bytes": 462,
+      "enclosing_sha256": "175b99b185b85c8b51b9be30108b35b915b94a30f33e086ad2e88262fe9d808b"
+    },
+    {
+      "replay_sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+      "build": 98348,
+      "heroes": [],
+      "births": 0,
+      "counts": {},
+      "anchored_explicit_shapes": {},
+      "unissued_abathur_state1_shifted_birth_tests": {
+        "-16": 0,
+        "-1": 0,
+        "0": 0,
+        "1": 0,
+        "16": 0
+      },
+      "hidden_nests_with_earlier_same_cell_explicit_cast_within_32_loops": 0,
+      "enclosing_frames": 0,
+      "enclosing_bytes": 0,
+      "enclosing_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "replay_sha256": "f1793e9b408350140762926462e67574010cc70777f847285765724aa8f27b3b",
+      "build": 41810,
+      "heroes": [],
+      "births": 0,
+      "counts": {},
+      "anchored_explicit_shapes": {},
+      "unissued_abathur_state1_shifted_birth_tests": {
+        "-16": 0,
+        "-1": 0,
+        "0": 0,
+        "1": 0,
+        "16": 0
+      },
+      "hidden_nests_with_earlier_same_cell_explicit_cast_within_32_loops": 0,
+      "enclosing_frames": 0,
+      "enclosing_bytes": 0,
+      "enclosing_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "replay_sha256": "f5d9782e55da9d118c6b037e0b39eaac4cb494d92b2eaacd4d7b6842ad866b46",
+      "build": 41810,
+      "heroes": [],
+      "births": 0,
+      "counts": {},
+      "anchored_explicit_shapes": {},
+      "unissued_abathur_state1_shifted_birth_tests": {
+        "-16": 0,
+        "-1": 0,
+        "0": 0,
+        "1": 0,
+        "16": 0
+      },
+      "hidden_nests_with_earlier_same_cell_explicit_cast_within_32_loops": 0,
+      "enclosing_frames": 0,
+      "enclosing_bytes": 0,
+      "enclosing_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "replay_sha256": "f77c267be04b71b7901d9797ac12cfba8b94596bc9c0e2166904461f856eba3e",
+      "build": 41810,
+      "heroes": [
+        "Nova"
+      ],
+      "births": 39,
+      "counts": {
+        "Nova/no_unique_input": 3,
+        "NovaHoloClone/explicit_issue": 21,
+        "NovaHoloCloneCloaked/explicit_issue": 15
+      },
+      "anchored_explicit_shapes": {
+        "NovaHoloClone/244/0x100": 21,
+        "NovaHoloCloneCloaked/244/0x100": 15
+      },
+      "unissued_abathur_state1_shifted_birth_tests": {
+        "-16": 0,
+        "-1": 0,
+        "0": 0,
+        "1": 0,
+        "16": 0
+      },
+      "hidden_nests_with_earlier_same_cell_explicit_cast_within_32_loops": 0,
+      "enclosing_frames": 36,
+      "enclosing_bytes": 792,
+      "enclosing_sha256": "98a76f4c4b01b79e6afd3ddc1ff8bd4d120883d2a8b57aa28fcb8934f97a915b"
+    },
+    {
+      "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+      "build": 98348,
+      "heroes": [],
+      "births": 0,
+      "counts": {},
+      "anchored_explicit_shapes": {},
+      "unissued_abathur_state1_shifted_birth_tests": {
+        "-16": 0,
+        "-1": 0,
+        "0": 0,
+        "1": 0,
+        "16": 0
+      },
+      "hidden_nests_with_earlier_same_cell_explicit_cast_within_32_loops": 0,
+      "enclosing_frames": 0,
+      "enclosing_bytes": 0,
+      "enclosing_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "replay_sha256": "fe801daf9df44f10db2b950989308c8ee2fa55c03b4adfef7ac383b4d46583bf",
+      "build": 98348,
+      "heroes": [],
+      "births": 0,
+      "counts": {},
+      "anchored_explicit_shapes": {},
+      "unissued_abathur_state1_shifted_birth_tests": {
+        "-16": 0,
+        "-1": 0,
+        "0": 0,
+        "1": 0,
+        "16": 0
+      },
+      "hidden_nests_with_earlier_same_cell_explicit_cast_within_32_loops": 0,
+      "enclosing_frames": 0,
+      "enclosing_bytes": 0,
+      "enclosing_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "heldout_by_build": {
+    "41810": {
+      "counts": {
+        "Nova/no_unique_input": 38,
+        "NovaHoloClone/explicit_issue": 89,
+        "NovaHoloCloneCloaked/explicit_issue": 64,
+        "Abathur/no_unique_input": 103,
+        "AbathurToxicNest/explicit_issue": 438,
+        "AbathurToxicNest/never_issued_state1": 566,
+        "NovaHoloClone/never_issued_state1": 3,
+        "NovaHoloCloneCloaked/never_issued_state1": 1
+      },
+      "anchored_explicit_shapes": {
+        "NovaHoloClone/244/0x100": 84,
+        "NovaHoloCloneCloaked/244/0x100": 48,
+        "AbathurToxicNest/173/0x200100": 83,
+        "AbathurToxicNest/173/0x100": 355,
+        "NovaHoloClone/244/0x200100": 5,
+        "NovaHoloCloneCloaked/244/0x200100": 16
+      },
+      "unissued_abathur_state1_shifted_birth_tests": {
+        "0": 570,
+        "1": 1
+      }
+    },
+    "66488": {
+      "counts": {
+        "Deckard/no_unique_input": 156,
+        "DeckardHealingPotion/explicit_issue": 2,
+        "Fenix/no_unique_input": 7,
+        "FenixPlasmaCutterLaserUnit/explicit_issue": 38
+      },
+      "anchored_explicit_shapes": {
+        "DeckardHealingPotion/1127/0x100100": 2,
+        "FenixPlasmaCutterLaserUnit/1123/0x100100": 38
+      },
+      "unissued_abathur_state1_shifted_birth_tests": {}
+    },
+    "98348": {
+      "counts": {
+        "Deckard/no_unique_input": 118,
+        "Abathur/no_unique_input": 52,
+        "AbathurToxicNest/explicit_issue": 62,
+        "AbathurToxicNest/implicit_issue": 1,
+        "Nova/no_unique_input": 121,
+        "NovaHoloClone/explicit_issue": 124
+      },
+      "anchored_explicit_shapes": {
+        "AbathurToxicNest/154/0x2100100": 62,
+        "NovaHoloClone/523/0x2100100": 124
+      },
+      "unissued_abathur_state1_shifted_birth_tests": {}
+    }
+  }
+}

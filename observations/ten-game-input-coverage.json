@@ -3,12 +3,12 @@
   "source_events": 104257,
   "source_game_bytes": 1146911,
   "last_source_event_loop": 19732,
-  "included": 21471,
-  "omitted": 82786,
+  "included": 21539,
+  "omitted": 82718,
   "included_by_event_id": {
     "5": 2,
     "7": 10,
-    "27": 1336,
+    "27": 1404,
     "28": 15,
     "32": 2,
     "36": 72,
@@ -21,7 +21,7 @@
     "110": 19
   },
   "omitted_by_event_id": {
-    "27": 3222,
+    "27": 3154,
     "28": 143,
     "36": 9,
     "39": 1054,
@@ -48,7 +48,9 @@
     "unit_click_within_verified_lifetime": 1702,
     "literal_trigger_chat": 2,
     "ping_map_or_no_target": 59,
+    "tracker_corroborated_cast_conditional_flags": 51,
     "symbiote_cancel_requires_selection": 49,
+    "moving_hero_target_requires_reproduced_trajectory": 17,
     "talent_index_requires_earlier_unresolved_award": 16,
     "building_target_requires_catalog_and_lifetime": 39,
     "ping_opening_hero_lifetime": 13,
@@ -61,8 +63,8 @@
     "kind": 46
   },
   "last_included_loop": 19732,
-  "bytes": 192647,
-  "sha256": "3454fe4319b0eb18ba6612d49f8acd46d288f48ad274ebefb0cef7d961566c63",
+  "bytes": 194330,
+  "sha256": "566e8866089d44c526dd4ae6e68f015c7dd280167a028aac06a5a708eb14c2f7",
   "full_game_member": false,
   "target_simulation_verified": false
 }
