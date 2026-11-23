@@ -1,4 +1,4 @@
-"""Resolve the historical-layout GateOrder map resources from local package contents."""
+"""Resolve GateOrder and the verified historical-layout map resources from local package contents."""
 
 import argparse
 from contextlib import closing
@@ -40,10 +40,21 @@ def dependency_declaration(package):
     return digest(info), digest(header)
 
 
-def resources(source, overlay, cache):
+VERIFIED_MAPS = {
+    GATE_MAP,
+    "5c241e8f9f316909ea237e5dd9f1c4d4ec2e7ea3224d383c596588c7eaf1b9ae",
+    "4fc0c3bf21a2b96eda9d8d03f3a309256bf6aacf4715c1a1fc71700ae8edb2c8",
+    "2d5cba9c5fd8276ae62468533fae558222730d55b146d41b7ebb7d30532e70b7",
+    "786f04a19c4222d5e81faefd7363c5422c16b49216732c28a773c74d853e10a9",
+    "150bdcea5435021263c84648d892c2c3dcc26bff8c72d1be5198c31a4bb09791",
+    "bfe724300b1beadb4d9d76a34385a8adfd719b2346a43a9d1e1cb0a25d960ccc",
+}
+
+
+def resources(source, overlay, cache, *, map_sha256=GATE_MAP):
     original, _ = game(source, SOURCE, 41810)
-    if digest(overlay.read_bytes()) != GATE_MAP:
-        raise ValueError("Unexpected GateOrder map")
+    if map_sha256 not in VERIFIED_MAPS or digest(overlay.read_bytes()) != map_sha256:
+        raise ValueError("Unexpected historical-layout map")
     with closing(MPQArchive(source)) as a:
         details_bytes = a.read_file("replay.details")
         details = original.decode_replay_details(details_bytes)
@@ -64,7 +75,7 @@ def resources(source, overlay, cache):
     stock = cache / cache_handle(old[-1])["relative_path"]
     if digest(stock.read_bytes()) != old[-1][8:].hex() or dependency_declaration(stock) != dependency_declaration(overlay):
         raise ValueError("The overlay has different dependency declarations from its historical parent")
-    new.append(old[-1][:8] + bytes.fromhex(GATE_MAP))
+    new.append(old[-1][:8] + bytes.fromhex(map_sha256))
     target = target_protocol()
     if target.decode_replay_details(details_bytes) != details:
         raise ValueError("Historical and target details views differ")
@@ -86,7 +97,7 @@ def resources(source, overlay, cache):
     writer = BitPackedEncoder(target.typeinfos)
     writer.instance(tid, new)
     artifacts = {"details": encoded, "battlelobby-prefix": updated[:end], "standalone-initdata-handles": writer.getvalue()}
-    return new, artifacts, dict(source_build=41810, target_build=98348, map_sha256=GATE_MAP, resources=5,
+    return new, artifacts, dict(source_build=41810, target_build=98348, map_sha256=map_sha256, resources=5,
                                 named_standard_dependencies=list(STANDARD), inherited_details_fields=True,
                                 public_depot_availability_verified=False, content_sync_checksums_verified=False,
                                 artifacts={n: dict(bytes=len(v), sha256=digest(v)) for n, v in artifacts.items()})
@@ -97,8 +108,9 @@ if __name__ == "__main__":
     for name in ("original", "overlay", "cache"):
         cli.add_argument(name, type=Path)
     cli.add_argument("--private-dir", type=Path, help="Create a new directory for derived member data")
+    cli.add_argument("--map-sha256", choices=sorted(VERIFIED_MAPS), default=GATE_MAP)
     args = cli.parse_args()
-    _, files, report = resources(args.original, args.overlay, args.cache)
+    _, files, report = resources(args.original, args.overlay, args.cache, map_sha256=args.map_sha256)
     if args.private_dir:
         args.private_dir.mkdir(exist_ok=False)
         for name, value in files.items():
