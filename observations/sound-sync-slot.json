@@ -1,0 +1,44 @@
+{
+  "build": 98348,
+  "slot": 42,
+  "unit": "ordered class-15 sound handle DWORDs",
+  "fresh_file_initialized_full_crc32": "2144df1c",
+  "fast_mode4_bit6_clear_word": 0,
+  "native_windows_sha256": "afd458fae6f42c02605883bcae358ff9f0f90e23c06b90cd155ff6b5ea7bee3f",
+  "native_tables_and_zlib_agree": true,
+  "gamelib_sha256": "a6384749fbe8f676cbd6ccb9ec1aeac004815d37a8e1c2f8f9f8f176b2bfca09",
+  "ordinary_pre_spawn_call": "Gen_HeroRespawn_GameStart",
+  "source": {
+    "hero_birth_loops": [
+      50,
+      50,
+      58,
+      58
+    ],
+    "first_offset_loop": 68,
+    "first_sync_loop": 64,
+    "observed_type": 2
+  },
+  "corpus": {
+    "98348": {
+      "replays": 24,
+      "first_sync_type2": 24,
+      "offset_reports_through_64": 0,
+      "replays_with_pre64_hero_birth_and_no_offset_through_64": 23
+    },
+    "41810": {
+      "replays": 5,
+      "first_sync_type2": 5,
+      "offset_reports_through_64": 0,
+      "replays_with_pre64_hero_birth_and_no_offset_through_64": 5
+    }
+  },
+  "ten_full_slot_at_64": null,
+  "ten_selected_slot_at_64": null,
+  "additional_distinct_98348_controls": {
+    "replays": 28,
+    "physical_type2_records": 8976,
+    "type1_records": 0,
+    "identity_and_record_counts_sha256": "1028f1d99ad6a5a83ff4a166808aacbcb6d7cd28af6073187d3d42d735f06389"
+  }
+}
