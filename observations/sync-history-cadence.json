@@ -1,0 +1,54 @@
+{
+  "build": 98348,
+  "pe": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+  "static_text": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83",
+  "exact_code_windows": 29,
+  "mode4_tick_tail_parent": "0x983c50",
+  "deferred_gate": "count > 1 and (count-2).processed == 0",
+  "deferred_action": "build mode 0 on count-2, copy whole predecessor to count-1",
+  "post_tick_fast_mode4_nonzero_capable_slots": [
+    0
+  ],
+  "fast_counted_words": 72,
+  "fast_crc32_input_le32": [
+    "world+0x0c",
+    "decoded world+0x14",
+    "world+0",
+    "world+4",
+    "RVA 0x34ef5c0"
+  ],
+  "initialized_world_fields": {
+    "+0": "0xffffffff",
+    "+4": 0,
+    "+0xc": 0
+  },
+  "reset_scalar_34ef5c0": 0,
+  "map_load_after_successful_mod_check": {
+    "append_fresh_entries": 2,
+    "count_per_entry": 72,
+    "prior_mod_index_preserved": true,
+    "gameplay_cycle_identity_established": false
+  },
+  "universal_full_build_on_request": false,
+  "ten": {
+    "options_false": 10,
+    "options_true": 0,
+    "physical_type2_records": 308,
+    "replays": 1
+  },
+  "controls": {
+    "options_false": 254,
+    "options_true": 0,
+    "physical_type2_records": 7501,
+    "replays": 24
+  },
+  "conditional_65_publications_fixed_pair": {
+    "full_mode0": 1,
+    "fast_mode4": 64
+  },
+  "conditional_65_publications_new_pair_at_64": {
+    "full_mode0": 2,
+    "fast_mode4": 63
+  },
+  "target_ten_loop64_check_word": null
+}

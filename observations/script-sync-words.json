@@ -1,0 +1,75 @@
+{
+  "build": 98348,
+  "maps": {
+    "41810": {
+      "map_sha256": "e0a58745837b3b5351015c933560dbffb178d747009d2d57b4153ef425cf7250",
+      "root_script_sha256": "3cbca9c5b3c95bd0b5f8eb8d2218d129d89e21c3466cb242e7c54b22e67c7e18",
+      "root_script_bytes": 32044,
+      "root_script_crc32": "0x9a388594",
+      "root_update_from_zero_if_first_verbatim": "0xf3ddb625",
+      "included_files": 22,
+      "include_name_and_content_sha256": "dc2e808e0703906105e0a5a86f53b50b65cca2227bde10da8b0c42ed8e633bf2",
+      "document_info_sha256": "9be26bf0683c7ee9db415c0ba7f60bff5ab2c6fbcc6ab22ee112fb9321d495f1",
+      "declared_dependencies": [
+        "bnet:Heroes of the Storm (Data Mod)/0.0/999,file:Mods/HeroesData.StormMod"
+      ],
+      "root_panel_calls": 0
+    },
+    "98348": {
+      "map_sha256": "f557190f8aaab160789272ce086b8b69d6a8037b152de150332603dae3dc098f",
+      "root_script_sha256": "3577dc0e4c0c02524e83ab6d025aa5955fe4aa414c421d37a2254ed3260b1556",
+      "root_script_bytes": 40151,
+      "root_script_crc32": "0xb69266c3",
+      "root_update_from_zero_if_first_verbatim": "0x6893d747",
+      "included_files": 22,
+      "include_name_and_content_sha256": "dc2e808e0703906105e0a5a86f53b50b65cca2227bde10da8b0c42ed8e633bf2",
+      "document_info_sha256": "fb2da9a2ebec3757be2c83b8d613beff55d6d5ef367c87dc97223eece183b7dd",
+      "declared_dependencies": [
+        "bnet:Dragon Shire (Mod)/0.0/1498,file:Mods\\heroesmapmods/battlegroundmapmods/dragonshire.stormmod"
+      ],
+      "root_panel_calls": 0
+    },
+    "GateOrder": {
+      "map_sha256": "bda7aafd1d63c77b3b4d29ff2afee96da09a3104b54b4a1d625bb299607d9008",
+      "root_script_sha256": "6b6f8f51778ed77cc6bd183827a349d9f8b817ca51b1fa9b816926df9d603d6e",
+      "root_script_bytes": 55616,
+      "root_script_crc32": "0x3c880bd6",
+      "root_update_from_zero_if_first_verbatim": "0xf21bb87c",
+      "included_files": 22,
+      "include_name_and_content_sha256": "dc2e808e0703906105e0a5a86f53b50b65cca2227bde10da8b0c42ed8e633bf2",
+      "document_info_sha256": "9be26bf0683c7ee9db415c0ba7f60bff5ab2c6fbcc6ab22ee112fb9321d495f1",
+      "declared_dependencies": [
+        "bnet:Heroes of the Storm (Data Mod)/0.0/999,file:Mods/HeroesData.StormMod"
+      ],
+      "root_panel_calls": 0
+    }
+  },
+  "script_manifest_sha256": "87b44ff3f91d9058f5001f926129a04d225f8a11fa05b99e1571362539ec3b7b",
+  "package_scan_sha256": "563059862406f74ce8ff04d340232d694e710f0258beb4e70abd2ed5f1ced6d6",
+  "independent_target_replays": 2,
+  "control_replay_sha256": [
+    "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+    "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e"
+  ],
+  "installed_scripts_scanned": 215,
+  "other_mode_files": 8,
+  "slot68": {
+    "semantic": "SetHeroLeaderPanelEnabled",
+    "native_index": 776,
+    "clean_dragon_value": 1,
+    "word_when_primary_producer_runs": "0x99f8b879",
+    "gate_order_word_when_primary_producer_runs": "0x99f8b879",
+    "mode4_fast_word": 0,
+    "published_first_word": null,
+    "conditions": "Clean process, named Dragon packages, no additional injected/dynamic script or restore. The sampled history entry determines the published word."
+  },
+  "slot46": {
+    "semantic": "ScriptChecksum",
+    "source_rva": "0x3b8c900",
+    "per_buffer": "crc32(le32(crc32(buffer)), previous); empty buffers leave previous unchanged",
+    "word_when_primary_producer_runs": "crc32(le32(ScriptChecksum))",
+    "mode4_fast_word": 0,
+    "ten_value": null,
+    "missing": "Exact ordered list of all nonempty buffers accepted by the loader by sample time, including added mod libraries."
+  }
+}
