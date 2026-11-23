@@ -1,0 +1,4241 @@
+{
+  "source": {
+    "build": 41810,
+    "data_build": 41810,
+    "replay_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+    "game_sha256": "ea69dd77edd02f3ed2c42a2def1faab6dc4d0eb46da291c44f76bfb49a65eed6",
+    "game_bytes": 1146911,
+    "schema_build": 41810,
+    "schema_lf_sha256": "879d228d9d8acd21d63563538dd15841aaf49259ee0bb468b8a46b6a4ef866fd",
+    "issued_sequence_keys": 4515,
+    "update_sequence_in_grammar": [
+      true,
+      true
+    ],
+    "explicit_lookup_keys": 16434,
+    "never_issued_lookup_keys": 16394,
+    "paired_state2_contexts": {
+      "point/issued_later": 13,
+      "point/never_issued": 10495,
+      "unit/issued_later": 26,
+      "unit/never_issued": 3489
+    },
+    "symbolic_first_use": {
+      "point": 10495,
+      "unit": 3489
+    },
+    "other_never_issued_first_event_ids": {
+      "104": 382,
+      "103": 964,
+      "105": 1064
+    },
+    "one_prior_creator_shapes": {},
+    "all_manager_states": {
+      "0": 17111,
+      "1": 1446,
+      "2": 14989
+    },
+    "modern_issue_shapes_with_bit19": {},
+    "modern_first_target_updates_of_unique_prior_bit19_issues": {},
+    "later_issue_shapes": {
+      "point/0x100108/implicit/TargetPoint/-/-/-": 13,
+      "unit/0x100108/implicit/TargetPoint/-/-/-": 2,
+      "unit/0x100108/implicit/TargetUnit/-/-/-": 24
+    },
+    "later_issue_loop_delays": {
+      "0": 1,
+      "1": 12,
+      "2": 15,
+      "3": 5,
+      "4": 3,
+      "5": 3
+    },
+    "later_issue_target_comparison": {
+      "point/changed_point": 13,
+      "unit/changed_unit_tag": 3,
+      "unit/different_target_kind": 2,
+      "unit/same_unit_tag": 21
+    },
+    "update_agrees_with_issue_target": {},
+    "all_same_loop_update_manager_pairs": {
+      "104/0/both_absent": 6350,
+      "104/1/paired_numeric": 382,
+      "104/2/paired_numeric": 10508,
+      "105/0/both_absent": 2200,
+      "105/1/paired_numeric": 1064,
+      "105/2/paired_numeric": 3515
+    },
+    "physical_state2_frames": 28046,
+    "physical_state2_bytes": 357679,
+    "physical_state2_sha256": "85280d34d8f9309f147af4490039d5238a066a656f55309b342533704ea017f5",
+    "generated_issues": 0
+  },
+  "controls": [
+    {
+      "build": 41810,
+      "data_build": 41810,
+      "replay_sha256": "036e05a19255d42930ee561b3bfd07234d8d6e15fb87dd893798ff64d252acce",
+      "game_sha256": "b25b14beabbccc772ee606b8b56ebe58222681a6a3d41c02629fefc0bdf1857f",
+      "game_bytes": 1281924,
+      "schema_build": 41810,
+      "schema_lf_sha256": "879d228d9d8acd21d63563538dd15841aaf49259ee0bb468b8a46b6a4ef866fd",
+      "issued_sequence_keys": 3994,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 19912,
+      "never_issued_lookup_keys": 19898,
+      "paired_state2_contexts": {
+        "point/issued_later": 7,
+        "point/never_issued": 13571,
+        "unit/issued_later": 3,
+        "unit/never_issued": 4239
+      },
+      "symbolic_first_use": {
+        "point": 13571,
+        "unit": 4239
+      },
+      "other_never_issued_first_event_ids": {
+        "103": 1537,
+        "105": 192,
+        "104": 359
+      },
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 21428,
+        "1": 551,
+        "2": 19359
+      },
+      "modern_issue_shapes_with_bit19": {},
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {},
+      "later_issue_shapes": {
+        "point/0x100108/implicit/TargetPoint/-/-/-": 7,
+        "unit/0x100108/implicit/TargetUnit/-/-/-": 3
+      },
+      "later_issue_loop_delays": {
+        "1": 1,
+        "113": 1,
+        "2": 7,
+        "26": 1
+      },
+      "later_issue_target_comparison": {
+        "point/changed_point": 7,
+        "unit/same_unit_tag": 3
+      },
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/both_absent": 10001,
+        "104/1/paired_numeric": 359,
+        "104/2/paired_numeric": 13578,
+        "105/0/both_absent": 2685,
+        "105/1/paired_numeric": 192,
+        "105/2/paired_numeric": 4242
+      },
+      "physical_state2_frames": 35640,
+      "physical_state2_bytes": 452280,
+      "physical_state2_sha256": "f29ba21d321d843a732e44c0b3a9a169d665bd14790cb2a289a50df831dd249b",
+      "generated_issues": 0
+    },
+    {
+      "build": 41810,
+      "data_build": 41810,
+      "replay_sha256": "03a5e7865ef5b57fb5a960da0375298dbcf6cad5cb48774020456cbad7587c82",
+      "game_sha256": "ff419723d955ccd0474730983651c70042926fea2a28d04bdb6a32300633f520",
+      "game_bytes": 1523464,
+      "schema_build": 41810,
+      "schema_lf_sha256": "879d228d9d8acd21d63563538dd15841aaf49259ee0bb468b8a46b6a4ef866fd",
+      "issued_sequence_keys": 4694,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 18122,
+      "never_issued_lookup_keys": 17983,
+      "paired_state2_contexts": {
+        "point/issued_later": 61,
+        "point/never_issued": 11432,
+        "unit/issued_later": 50,
+        "unit/never_issued": 4908
+      },
+      "symbolic_first_use": {
+        "point": 11431,
+        "unit": 4908
+      },
+      "other_never_issued_first_event_ids": {
+        "103": 1162,
+        "104": 250,
+        "105": 232
+      },
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 19688,
+        "1": 486,
+        "2": 17634
+      },
+      "modern_issue_shapes_with_bit19": {},
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {},
+      "later_issue_shapes": {
+        "point/0x100108/implicit/TargetPoint/-/-/-": 61,
+        "unit/0x100108/implicit/TargetPoint/-/-/-": 7,
+        "unit/0x100108/implicit/TargetUnit/-/-/-": 43
+      },
+      "later_issue_loop_delays": {
+        "0": 3,
+        "1": 23,
+        "10": 3,
+        "11": 1,
+        "12": 1,
+        "13": 2,
+        "15": 2,
+        "18": 1,
+        "2": 40,
+        "20": 1,
+        "21": 1,
+        "28": 1,
+        "3": 4,
+        "4": 3,
+        "44": 2,
+        "48": 1,
+        "5": 5,
+        "55": 1,
+        "58": 1,
+        "6": 2,
+        "60": 1,
+        "61": 1,
+        "66": 1,
+        "69": 1,
+        "7": 3,
+        "8": 1,
+        "82": 1,
+        "9": 3,
+        "91": 1
+      },
+      "later_issue_target_comparison": {
+        "point/changed_point": 59,
+        "point/identical_point": 2,
+        "unit/changed_unit_tag": 6,
+        "unit/different_target_kind": 7,
+        "unit/same_unit_tag": 37
+      },
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/both_absent": 7702,
+        "104/1/different": 2,
+        "104/1/paired_numeric": 250,
+        "104/2/both_absent": 13,
+        "104/2/paired_numeric": 11493,
+        "105/0/both_absent": 3387,
+        "105/1/paired_numeric": 232,
+        "105/2/paired_numeric": 4958
+      },
+      "physical_state2_frames": 32902,
+      "physical_state2_bytes": 427953,
+      "physical_state2_sha256": "4620cc6bfefb771852ffb87ec0e19046c94040078210440431ad6d06f774d6fb",
+      "generated_issues": 0
+    },
+    {
+      "build": 98285,
+      "data_build": 98285,
+      "replay_sha256": "05ec458110db57dd5cf6c044cb6b7270d880282ec803abce725f048f91fc3e75",
+      "game_sha256": "eb51d8d5942273fe63f0f1af9fe10cc2987b8e5d7e5ecb3f1ddfb48c8d9c28b6",
+      "game_bytes": 1753648,
+      "schema_build": 96477,
+      "schema_lf_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+      "issued_sequence_keys": 18087,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 15098,
+      "never_issued_lookup_keys": 5,
+      "paired_state2_contexts": {},
+      "symbolic_first_use": {},
+      "other_never_issued_first_event_ids": {
+        "103": 5
+      },
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 15098
+      },
+      "modern_issue_shapes_with_bit19": {
+        "0x80100/explicit/None/-/-/-": 569,
+        "0x80108/implicit/TargetPoint/-/-/-": 10727,
+        "0x80108/implicit/TargetUnit/-/-/-": 3768,
+        "0x88108/implicit/TargetPoint/-/-/-": 25
+      },
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {
+        "104/changed_point/0x80108/implicit/TargetPoint/-/-/-": 6061,
+        "104/different_target_kind/0x80108/implicit/TargetUnit/-/-/-": 266,
+        "105/changed_unit_tag/0x80108/implicit/TargetUnit/-/-/-": 99,
+        "105/different_target_kind/0x80108/implicit/TargetPoint/-/-/-": 40
+      },
+      "later_issue_shapes": {},
+      "later_issue_loop_delays": {},
+      "later_issue_target_comparison": {},
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/different": 22,
+        "104/0/paired_numeric": 4043,
+        "105/0/paired_numeric": 87
+      },
+      "physical_state2_frames": 0,
+      "physical_state2_bytes": 0,
+      "physical_state2_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "generated_issues": 0
+    },
+    {
+      "build": 98348,
+      "data_build": 98348,
+      "replay_sha256": "1230eee79fd3b50a3ee471c587bc77dd14aef67d57bf22cd8df52e877329323a",
+      "game_sha256": "814e09d6bb8eb1a0e1811d83e315e4b4044066088c36fe6489ef46ac1f57bd16",
+      "game_bytes": 1553759,
+      "schema_build": 96477,
+      "schema_lf_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+      "issued_sequence_keys": 23774,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 19609,
+      "never_issued_lookup_keys": 0,
+      "paired_state2_contexts": {},
+      "symbolic_first_use": {},
+      "other_never_issued_first_event_ids": {},
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 19609
+      },
+      "modern_issue_shapes_with_bit19": {
+        "0x2080100/explicit/None/-/-/-": 201,
+        "0x80100/explicit/None/-/-/-": 200,
+        "0x80108/implicit/TargetPoint/-/-/-": 16237,
+        "0x80108/implicit/TargetUnit/-/-/-": 2815,
+        "0x88108/implicit/TargetPoint/-/-/-": 57
+      },
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {
+        "104/changed_point/0x80108/implicit/TargetPoint/-/-/-": 11154,
+        "104/different_target_kind/0x80108/implicit/TargetUnit/-/-/-": 381,
+        "105/changed_unit_tag/0x80108/implicit/TargetUnit/-/-/-": 117,
+        "105/different_target_kind/0x80108/implicit/TargetPoint/-/-/-": 73,
+        "105/same_unit_tag/0x80108/implicit/TargetUnit/-/-/-": 1
+      },
+      "later_issue_shapes": {},
+      "later_issue_loop_delays": {},
+      "later_issue_target_comparison": {},
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/different": 50,
+        "104/0/paired_numeric": 6248,
+        "105/0/paired_numeric": 70
+      },
+      "physical_state2_frames": 0,
+      "physical_state2_bytes": 0,
+      "physical_state2_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "generated_issues": 0
+    },
+    {
+      "build": 39951,
+      "data_build": 40322,
+      "replay_sha256": "1ab6eb5dfc00656f8e23f97fe43a187c82afe8888da02585c8a76bdb74544d07",
+      "game_sha256": "c4d0beff48aba38b075a21faac7c681a015ff066924973f65ec4c86bd670382c",
+      "game_bytes": 681152,
+      "schema_build": 39951,
+      "schema_lf_sha256": "0898b2e8608c58b24a4a8f71585af7a028a0265d4d61a8074c124de97a577148",
+      "issued_sequence_keys": 3110,
+      "update_sequence_in_grammar": [
+        false,
+        false
+      ],
+      "explicit_lookup_keys": 14666,
+      "never_issued_lookup_keys": 14591,
+      "paired_state2_contexts": {},
+      "symbolic_first_use": {},
+      "other_never_issued_first_event_ids": {
+        "103": 14591
+      },
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 16191,
+        "1": 212,
+        "2": 14457
+      },
+      "modern_issue_shapes_with_bit19": {},
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {},
+      "later_issue_shapes": {},
+      "later_issue_loop_delays": {},
+      "later_issue_target_comparison": {},
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/no_update_sequence_field": 5863,
+        "104/1/no_update_sequence_field": 77,
+        "104/2/no_update_sequence_field": 9413,
+        "105/0/no_update_sequence_field": 96,
+        "105/1/no_update_sequence_field": 133,
+        "105/2/no_update_sequence_field": 1249
+      },
+      "physical_state2_frames": 0,
+      "physical_state2_bytes": 0,
+      "physical_state2_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "generated_issues": 0
+    },
+    {
+      "build": 41810,
+      "data_build": 41810,
+      "replay_sha256": "2fca3c78d0e459d4452e3fb1f41ff3fce22b9c1f8f113019389195ff171bf618",
+      "game_sha256": "55d2cbddda60b683d07ed9a21ffe84ca55422ef9a8aa724969f9a359a6d65f28",
+      "game_bytes": 1273319,
+      "schema_build": 41810,
+      "schema_lf_sha256": "879d228d9d8acd21d63563538dd15841aaf49259ee0bb468b8a46b6a4ef866fd",
+      "issued_sequence_keys": 4530,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 16173,
+      "never_issued_lookup_keys": 16062,
+      "paired_state2_contexts": {
+        "point/issued_later": 96,
+        "point/never_issued": 9692,
+        "unit/issued_later": 11,
+        "unit/never_issued": 4259
+      },
+      "symbolic_first_use": {
+        "point": 9692,
+        "unit": 4259
+      },
+      "other_never_issued_first_event_ids": {
+        "103": 1134,
+        "105": 411,
+        "104": 566
+      },
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 17458,
+        "1": 977,
+        "2": 15201
+      },
+      "modern_issue_shapes_with_bit19": {},
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {},
+      "later_issue_shapes": {
+        "point/0x100108/implicit/TargetPoint/-/-/-": 96,
+        "unit/0x100108/implicit/TargetPoint/-/-/-": 4,
+        "unit/0x100108/implicit/TargetUnit/-/-/-": 7
+      },
+      "later_issue_loop_delays": {
+        "0": 1,
+        "1": 5,
+        "10": 4,
+        "11": 2,
+        "111": 1,
+        "113": 1,
+        "114": 1,
+        "12": 3,
+        "124": 1,
+        "13": 2,
+        "134": 1,
+        "14": 3,
+        "15": 1,
+        "16": 2,
+        "17": 1,
+        "19": 1,
+        "2": 9,
+        "20": 1,
+        "21": 2,
+        "22": 3,
+        "241": 1,
+        "26": 1,
+        "27": 1,
+        "29": 1,
+        "30": 2,
+        "32": 1,
+        "37": 1,
+        "38": 1,
+        "39": 2,
+        "4": 8,
+        "40": 1,
+        "42": 1,
+        "44": 1,
+        "47": 1,
+        "49": 2,
+        "5": 9,
+        "50": 1,
+        "51": 1,
+        "54": 1,
+        "56": 1,
+        "58": 2,
+        "6": 1,
+        "68": 1,
+        "7": 5,
+        "77": 2,
+        "8": 4,
+        "80": 1,
+        "82": 1,
+        "83": 1,
+        "85": 1,
+        "9": 2,
+        "97": 1,
+        "98": 1,
+        "99": 1
+      },
+      "later_issue_target_comparison": {
+        "point/changed_point": 96,
+        "unit/different_target_kind": 4,
+        "unit/same_unit_tag": 7
+      },
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/both_absent": 6248,
+        "104/1/paired_numeric": 566,
+        "104/2/both_absent": 7,
+        "104/2/paired_numeric": 9788,
+        "105/0/both_absent": 2833,
+        "105/1/paired_numeric": 411,
+        "105/2/paired_numeric": 4270
+      },
+      "physical_state2_frames": 28116,
+      "physical_state2_bytes": 366034,
+      "physical_state2_sha256": "f8874478e37efca55690becb5d93d1a1ff3f6d1bc729b151f9fd52551c8f9b92",
+      "generated_issues": 0
+    },
+    {
+      "build": 39445,
+      "data_build": 39445,
+      "replay_sha256": "32803cf56e4377a18ea74c908af3d840637faeb7803aaca943f8807ade70ba87",
+      "game_sha256": "f71e0659180e69502f7010952b6d70d73690cec0aa646a43e043a7d99d3a6de6",
+      "game_bytes": 1165094,
+      "schema_build": 39445,
+      "schema_lf_sha256": "0898b2e8608c58b24a4a8f71585af7a028a0265d4d61a8074c124de97a577148",
+      "issued_sequence_keys": 5284,
+      "update_sequence_in_grammar": [
+        false,
+        false
+      ],
+      "explicit_lookup_keys": 19883,
+      "never_issued_lookup_keys": 19803,
+      "paired_state2_contexts": {},
+      "symbolic_first_use": {},
+      "other_never_issued_first_event_ids": {
+        "103": 19803
+      },
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 21515,
+        "1": 1288,
+        "2": 18612
+      },
+      "modern_issue_shapes_with_bit19": {},
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {},
+      "later_issue_shapes": {},
+      "later_issue_loop_delays": {},
+      "later_issue_target_comparison": {},
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/no_update_sequence_field": 10409,
+        "104/1/no_update_sequence_field": 603,
+        "104/2/no_update_sequence_field": 14608,
+        "105/0/no_update_sequence_field": 73,
+        "105/1/no_update_sequence_field": 684,
+        "105/2/no_update_sequence_field": 1389
+      },
+      "physical_state2_frames": 0,
+      "physical_state2_bytes": 0,
+      "physical_state2_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "generated_issues": 0
+    },
+    {
+      "build": 41810,
+      "data_build": 41810,
+      "replay_sha256": "34ace72b2366e6317512cbdcaf8c6cd7965902b729918006dd75c2194b191bae",
+      "game_sha256": "4c7348f0fc6e0647fd4eabd76f8b26c38cf2e179e6362e6fcb729ae6a928d1ac",
+      "game_bytes": 1644205,
+      "schema_build": 41810,
+      "schema_lf_sha256": "879d228d9d8acd21d63563538dd15841aaf49259ee0bb468b8a46b6a4ef866fd",
+      "issued_sequence_keys": 4065,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 24725,
+      "never_issued_lookup_keys": 24720,
+      "paired_state2_contexts": {
+        "point/issued_later": 4,
+        "point/never_issued": 16010,
+        "unit/never_issued": 5230
+      },
+      "symbolic_first_use": {
+        "point": 16010,
+        "unit": 5230
+      },
+      "other_never_issued_first_event_ids": {
+        "103": 1464,
+        "105": 1512,
+        "104": 504
+      },
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 24751,
+        "1": 2034,
+        "2": 22690
+      },
+      "modern_issue_shapes_with_bit19": {},
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {},
+      "later_issue_shapes": {
+        "point/0x100108/implicit/TargetPoint/-/-/-": 4
+      },
+      "later_issue_loop_delays": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1
+      },
+      "later_issue_target_comparison": {
+        "point/changed_point": 4
+      },
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/both_absent": 10511,
+        "104/1/paired_numeric": 504,
+        "104/2/paired_numeric": 16014,
+        "105/0/both_absent": 3606,
+        "105/1/paired_numeric": 1512,
+        "105/2/paired_numeric": 5230
+      },
+      "physical_state2_frames": 42488,
+      "physical_state2_bytes": 540912,
+      "physical_state2_sha256": "af491c038ff062ab126acbb4d5d47e66840b9bd5a78df043a2bcb2adaabf6a8e",
+      "generated_issues": 0
+    },
+    {
+      "build": 42178,
+      "data_build": 42178,
+      "replay_sha256": "3755833ab00d512bb44010fbc13a4ec28f669534f75625a1b4f218b28d74d95b",
+      "game_sha256": "7bc9106ffae87c2de3c9ce31d672210951f1fd9052478e2927e4a8416c9141c0",
+      "game_bytes": 872513,
+      "schema_build": 42178,
+      "schema_lf_sha256": "879d228d9d8acd21d63563538dd15841aaf49259ee0bb468b8a46b6a4ef866fd",
+      "issued_sequence_keys": 2529,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 11234,
+      "never_issued_lookup_keys": 11196,
+      "paired_state2_contexts": {
+        "point/issued_later": 27,
+        "point/never_issued": 7298,
+        "unit/issued_later": 11,
+        "unit/never_issued": 2837
+      },
+      "symbolic_first_use": {
+        "point": 7298,
+        "unit": 2837
+      },
+      "other_never_issued_first_event_ids": {
+        "104": 18,
+        "103": 1037,
+        "105": 6
+      },
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 12700,
+        "1": 24,
+        "2": 11216
+      },
+      "modern_issue_shapes_with_bit19": {},
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {},
+      "later_issue_shapes": {
+        "point/0x100108/implicit/TargetPoint/-/-/-": 27,
+        "unit/0x100108/implicit/TargetPoint/-/-/-": 3,
+        "unit/0x100108/implicit/TargetUnit/-/-/-": 8
+      },
+      "later_issue_loop_delays": {
+        "0": 2,
+        "1": 5,
+        "10": 1,
+        "119": 1,
+        "13": 2,
+        "141": 1,
+        "18": 1,
+        "2": 7,
+        "23": 1,
+        "28": 1,
+        "3": 1,
+        "34": 1,
+        "36": 1,
+        "38": 1,
+        "4": 2,
+        "5": 1,
+        "6": 1,
+        "64": 1,
+        "7": 3,
+        "8": 2,
+        "9": 1,
+        "92": 1
+      },
+      "later_issue_target_comparison": {
+        "point/changed_point": 27,
+        "unit/changed_unit_tag": 2,
+        "unit/different_target_kind": 3,
+        "unit/same_unit_tag": 6
+      },
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/both_absent": 5319,
+        "104/1/paired_numeric": 18,
+        "104/2/both_absent": 5,
+        "104/2/paired_numeric": 7325,
+        "105/0/both_absent": 2075,
+        "105/1/paired_numeric": 6,
+        "105/2/paired_numeric": 2848
+      },
+      "physical_state2_frames": 20346,
+      "physical_state2_bytes": 262459,
+      "physical_state2_sha256": "51bb1c341f81452daa62919b554d94eafae40c81b6169fee3090cb41ad55f1b1",
+      "generated_issues": 0
+    },
+    {
+      "build": 41810,
+      "data_build": 41810,
+      "replay_sha256": "3a33d012a9d47dc1e66595398c2f3dd75cbc9240762996cf52c9c6ad8337e869",
+      "game_sha256": "6176d2c8921b7539345cd705186818c6888e26046547509b2daa7623ec6632f9",
+      "game_bytes": 1388857,
+      "schema_build": 41810,
+      "schema_lf_sha256": "879d228d9d8acd21d63563538dd15841aaf49259ee0bb468b8a46b6a4ef866fd",
+      "issued_sequence_keys": 6400,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 20259,
+      "never_issued_lookup_keys": 20188,
+      "paired_state2_contexts": {
+        "point/issued_later": 20,
+        "point/never_issued": 14924,
+        "unit/issued_later": 46,
+        "unit/never_issued": 2041
+      },
+      "symbolic_first_use": {
+        "point": 14924,
+        "unit": 2041
+      },
+      "other_never_issued_first_event_ids": {
+        "105": 1591,
+        "103": 1192,
+        "104": 440
+      },
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 21371,
+        "1": 2036,
+        "2": 18224
+      },
+      "modern_issue_shapes_with_bit19": {},
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {},
+      "later_issue_shapes": {
+        "point/0x100108/implicit/TargetPoint/-/-/-": 20,
+        "unit/0x100108/implicit/TargetPoint/-/-/-": 4,
+        "unit/0x100108/implicit/TargetUnit/-/-/-": 42
+      },
+      "later_issue_loop_delays": {
+        "1": 17,
+        "11": 1,
+        "15": 1,
+        "2": 36,
+        "3": 5,
+        "4": 1,
+        "5": 3,
+        "6": 2
+      },
+      "later_issue_target_comparison": {
+        "point/changed_point": 20,
+        "unit/changed_unit_tag": 10,
+        "unit/different_target_kind": 4,
+        "unit/same_unit_tag": 32
+      },
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/both_absent": 10324,
+        "104/1/paired_numeric": 440,
+        "104/2/both_absent": 1,
+        "104/2/paired_numeric": 14944,
+        "105/0/both_absent": 1357,
+        "105/1/paired_numeric": 1591,
+        "105/2/paired_numeric": 2087
+      },
+      "physical_state2_frames": 34062,
+      "physical_state2_bytes": 412583,
+      "physical_state2_sha256": "c4f53751f7d662a53a2ae61b719afd3b30002bd30d0c0570a6370549344d26d5",
+      "generated_issues": 0
+    },
+    {
+      "build": 42178,
+      "data_build": 42178,
+      "replay_sha256": "3bc2e2c4720973e7cf4f57f846a9cea8b60c6709744c1238e4727f864e0fecfa",
+      "game_sha256": "04e48b7cbe9a235411d3bf7956e936016c41f144cf43a69d53ae5c000c1821c8",
+      "game_bytes": 1451691,
+      "schema_build": 42178,
+      "schema_lf_sha256": "879d228d9d8acd21d63563538dd15841aaf49259ee0bb468b8a46b6a4ef866fd",
+      "issued_sequence_keys": 4296,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 24700,
+      "never_issued_lookup_keys": 24656,
+      "paired_state2_contexts": {
+        "point/issued_later": 18,
+        "point/never_issued": 14745,
+        "unit/issued_later": 24,
+        "unit/never_issued": 7808
+      },
+      "symbolic_first_use": {
+        "point": 14745,
+        "unit": 7808
+      },
+      "other_never_issued_first_event_ids": {
+        "103": 1897,
+        "105": 75,
+        "104": 131
+      },
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 26990,
+        "1": 206,
+        "2": 24497
+      },
+      "modern_issue_shapes_with_bit19": {},
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {},
+      "later_issue_shapes": {
+        "point/0x100108/implicit/TargetPoint/-/-/-": 18,
+        "unit/0x100108/implicit/TargetPoint/-/-/-": 4,
+        "unit/0x100108/implicit/TargetUnit/-/-/-": 20
+      },
+      "later_issue_loop_delays": {
+        "0": 2,
+        "1": 13,
+        "2": 16,
+        "3": 7,
+        "4": 2,
+        "5": 1,
+        "7": 1
+      },
+      "later_issue_target_comparison": {
+        "point/changed_point": 15,
+        "point/identical_point": 3,
+        "unit/changed_unit_tag": 5,
+        "unit/different_target_kind": 4,
+        "unit/same_unit_tag": 15
+      },
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/both_absent": 9827,
+        "104/1/paired_numeric": 131,
+        "104/2/both_absent": 3,
+        "104/2/paired_numeric": 14763,
+        "105/0/both_absent": 5195,
+        "105/1/paired_numeric": 75,
+        "105/2/paired_numeric": 7832
+      },
+      "physical_state2_frames": 45190,
+      "physical_state2_bytes": 598005,
+      "physical_state2_sha256": "5bc13be414d5e45a242b4813c869ec26b9bdd755ab0c50e2af71e9d203bdd67d",
+      "generated_issues": 0
+    },
+    {
+      "build": 97605,
+      "data_build": 97605,
+      "replay_sha256": "3e1662b30d77b24a4e0b2e0601e5159521d5280207c3696c15bde1a3e64204d2",
+      "game_sha256": "ee100b105dadfb6d02fc26fb85d485e9421c2d3d436ae9b5a995820c197e007c",
+      "game_bytes": 1587973,
+      "schema_build": 96477,
+      "schema_lf_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+      "issued_sequence_keys": 27059,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 22801,
+      "never_issued_lookup_keys": 0,
+      "paired_state2_contexts": {},
+      "symbolic_first_use": {},
+      "other_never_issued_first_event_ids": {},
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 22801
+      },
+      "modern_issue_shapes_with_bit19": {
+        "0x80100/explicit/None/-/-/-": 642,
+        "0x80108/implicit/TargetPoint/-/-/-": 17262,
+        "0x80108/implicit/TargetUnit/-/-/-": 4775,
+        "0x88108/implicit/TargetPoint/-/-/-": 77
+      },
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {
+        "104/changed_point/0x80108/implicit/TargetPoint/-/-/-": 9289,
+        "104/different_target_kind/0x80108/implicit/TargetUnit/-/-/-": 322,
+        "105/changed_unit_tag/0x80108/implicit/TargetUnit/-/-/-": 131,
+        "105/different_target_kind/0x80108/implicit/TargetPoint/-/-/-": 38,
+        "105/same_unit_tag/0x80108/implicit/TargetUnit/-/-/-": 1
+      },
+      "later_issue_shapes": {},
+      "later_issue_loop_delays": {},
+      "later_issue_target_comparison": {},
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/different": 24,
+        "104/0/paired_numeric": 5553,
+        "105/0/paired_numeric": 82
+      },
+      "physical_state2_frames": 0,
+      "physical_state2_bytes": 0,
+      "physical_state2_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "generated_issues": 0
+    },
+    {
+      "build": 98348,
+      "data_build": 98348,
+      "replay_sha256": "4732077e899f6894c29586795a01e2a27fba622dbf22b5d29c7b30d57e3ce4fc",
+      "game_sha256": "e71ec7012215e8f0ccda1349c6cb07c02885972cc46c0e9cddc7cde965155e4d",
+      "game_bytes": 1666362,
+      "schema_build": 96477,
+      "schema_lf_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+      "issued_sequence_keys": 29028,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 21471,
+      "never_issued_lookup_keys": 0,
+      "paired_state2_contexts": {},
+      "symbolic_first_use": {},
+      "other_never_issued_first_event_ids": {},
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 21471
+      },
+      "modern_issue_shapes_with_bit19": {
+        "0x180100/explicit/TargetPoint/-/-/-": 8,
+        "0x2080100/explicit/None/-/-/-": 406,
+        "0x2180100/explicit/TargetPoint/-/-/-": 269,
+        "0x80100/explicit/None/-/-/-": 433,
+        "0x80108/implicit/TargetPoint/-/-/-": 17551,
+        "0x80108/implicit/TargetUnit/-/-/-": 2673,
+        "0x88108/implicit/TargetPoint/-/-/-": 28
+      },
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {
+        "104/changed_point/0x180100/explicit/TargetPoint/-/-/-": 1,
+        "104/changed_point/0x2180100/explicit/TargetPoint/-/-/-": 3,
+        "104/changed_point/0x80108/implicit/TargetPoint/-/-/-": 10232,
+        "104/different_target_kind/0x80108/implicit/TargetUnit/-/-/-": 486,
+        "105/changed_unit_tag/0x80108/implicit/TargetUnit/-/-/-": 105,
+        "105/different_target_kind/0x80108/implicit/TargetPoint/-/-/-": 47
+      },
+      "later_issue_shapes": {},
+      "later_issue_loop_delays": {},
+      "later_issue_target_comparison": {},
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/different": 39,
+        "104/0/paired_numeric": 5737,
+        "105/0/paired_numeric": 60
+      },
+      "physical_state2_frames": 0,
+      "physical_state2_bytes": 0,
+      "physical_state2_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "generated_issues": 0
+    },
+    {
+      "build": 41810,
+      "data_build": 41810,
+      "replay_sha256": "4f02c8c4b4ae7eb7ec5e290df4f2da26ebe3d71221a3c9b3db064306066b400d",
+      "game_sha256": "eb5091f3a0245ed5236ba07142029d8f4c44ae5d186fa319f388a6b5119ce2e6",
+      "game_bytes": 700319,
+      "schema_build": 41810,
+      "schema_lf_sha256": "879d228d9d8acd21d63563538dd15841aaf49259ee0bb468b8a46b6a4ef866fd",
+      "issued_sequence_keys": 2343,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 9001,
+      "never_issued_lookup_keys": 8940,
+      "paired_state2_contexts": {
+        "point/issued_later": 37,
+        "point/never_issued": 4108,
+        "unit/issued_later": 18,
+        "unit/never_issued": 2776
+      },
+      "symbolic_first_use": {
+        "point": 4108,
+        "unit": 2776
+      },
+      "other_never_issued_first_event_ids": {
+        "103": 532,
+        "105": 936,
+        "104": 588
+      },
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 8558,
+        "1": 1525,
+        "2": 7482
+      },
+      "modern_issue_shapes_with_bit19": {},
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {},
+      "later_issue_shapes": {
+        "point/0x100108/implicit/TargetPoint/-/-/-": 37,
+        "unit/0x100108/implicit/TargetPoint/-/-/-": 3,
+        "unit/0x100108/implicit/TargetUnit/-/-/-": 15
+      },
+      "later_issue_loop_delays": {
+        "1": 6,
+        "10": 3,
+        "103": 1,
+        "105": 1,
+        "11": 1,
+        "129": 1,
+        "14": 2,
+        "162": 1,
+        "2": 10,
+        "21": 1,
+        "22": 1,
+        "23": 1,
+        "25": 2,
+        "3": 6,
+        "30": 1,
+        "32": 2,
+        "34": 1,
+        "4": 2,
+        "45": 1,
+        "47": 1,
+        "5": 1,
+        "6": 4,
+        "67": 2,
+        "8": 1,
+        "88": 1,
+        "9": 1
+      },
+      "later_issue_target_comparison": {
+        "point/changed_point": 37,
+        "unit/changed_unit_tag": 1,
+        "unit/different_target_kind": 3,
+        "unit/same_unit_tag": 14
+      },
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/both_absent": 2752,
+        "104/1/paired_numeric": 588,
+        "104/2/both_absent": 5,
+        "104/2/paired_numeric": 4145,
+        "105/0/both_absent": 1964,
+        "105/1/paired_numeric": 936,
+        "105/2/both_absent": 1,
+        "105/2/paired_numeric": 2794
+      },
+      "physical_state2_frames": 13878,
+      "physical_state2_bytes": 187537,
+      "physical_state2_sha256": "dfddc97702166e02cc515b840992a04619a386a1968200182781df688db5cbb1",
+      "generated_issues": 0
+    },
+    {
+      "build": 41810,
+      "data_build": 41810,
+      "replay_sha256": "588470a1fe251f6975e9cefe06c5e83f94cee0df4dba62ac6614363100a364c4",
+      "game_sha256": "f1a0613053957db1782a6b477619e6b2f046a9eadf7062787ef9d0b814e29ed2",
+      "game_bytes": 1255628,
+      "schema_build": 41810,
+      "schema_lf_sha256": "879d228d9d8acd21d63563538dd15841aaf49259ee0bb468b8a46b6a4ef866fd",
+      "issued_sequence_keys": 4472,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 18109,
+      "never_issued_lookup_keys": 18042,
+      "paired_state2_contexts": {
+        "point/issued_later": 14,
+        "point/never_issued": 12952,
+        "unit/issued_later": 41,
+        "unit/never_issued": 3975
+      },
+      "symbolic_first_use": {
+        "point": 12952,
+        "unit": 3975
+      },
+      "other_never_issued_first_event_ids": {
+        "103": 1011,
+        "105": 44,
+        "104": 60
+      },
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 20280,
+        "1": 108,
+        "2": 17992
+      },
+      "modern_issue_shapes_with_bit19": {},
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {},
+      "later_issue_shapes": {
+        "point/0x100108/implicit/TargetPoint/-/-/-": 14,
+        "unit/0x100108/implicit/TargetPoint/-/-/-": 1,
+        "unit/0x100108/implicit/TargetUnit/-/-/-": 40
+      },
+      "later_issue_loop_delays": {
+        "0": 4,
+        "1": 19,
+        "2": 23,
+        "3": 3,
+        "4": 4,
+        "7": 2
+      },
+      "later_issue_target_comparison": {
+        "point/changed_point": 14,
+        "unit/changed_unit_tag": 1,
+        "unit/different_target_kind": 1,
+        "unit/same_unit_tag": 39
+      },
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/both_absent": 8656,
+        "104/1/paired_numeric": 60,
+        "104/2/both_absent": 1,
+        "104/2/paired_numeric": 12966,
+        "105/0/both_absent": 2697,
+        "105/1/paired_numeric": 44,
+        "105/2/paired_numeric": 4016
+      },
+      "physical_state2_frames": 33964,
+      "physical_state2_bytes": 430746,
+      "physical_state2_sha256": "ed97616ee4a501053f593038f2fb2dafed65452bf1dea6b4f143fd6a97a790fe",
+      "generated_issues": 0
+    },
+    {
+      "build": 41150,
+      "data_build": 41393,
+      "replay_sha256": "592379041f060e667dd377119fc235012e348012a9e7985bd2383edf99909512",
+      "game_sha256": "3e0fd1bc9e8275b5f7b48c07dc5ceeede508bf1bec3a529954b6b273f41d2fe2",
+      "game_bytes": 1279080,
+      "schema_build": 41150,
+      "schema_lf_sha256": "be0c0a8785c9a3f657157f80d16514e00b8ac978a6f9d148362fcdb3c151e752",
+      "issued_sequence_keys": 4945,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 17932,
+      "never_issued_lookup_keys": 17894,
+      "paired_state2_contexts": {
+        "point/issued_later": 12,
+        "point/never_issued": 11750,
+        "unit/issued_later": 21,
+        "unit/never_issued": 3844
+      },
+      "symbolic_first_use": {
+        "point": 11750,
+        "unit": 3844
+      },
+      "other_never_issued_first_event_ids": {
+        "103": 1320,
+        "104": 591,
+        "105": 389
+      },
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 19438,
+        "1": 981,
+        "2": 16957
+      },
+      "modern_issue_shapes_with_bit19": {},
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {},
+      "later_issue_shapes": {
+        "point/0x100108/implicit/TargetPoint/-/-/-": 12,
+        "unit/0x100108/implicit/TargetUnit/-/-/-": 21
+      },
+      "later_issue_loop_delays": {
+        "1": 10,
+        "2": 18,
+        "23": 1,
+        "3": 2,
+        "49": 1,
+        "6": 1
+      },
+      "later_issue_target_comparison": {
+        "point/changed_point": 12,
+        "unit/same_unit_tag": 21
+      },
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/both_absent": 7773,
+        "104/1/paired_numeric": 591,
+        "104/2/both_absent": 8,
+        "104/2/paired_numeric": 11762,
+        "105/0/both_absent": 2404,
+        "105/1/paired_numeric": 389,
+        "105/2/paired_numeric": 3865
+      },
+      "physical_state2_frames": 31254,
+      "physical_state2_bytes": 398071,
+      "physical_state2_sha256": "36e2dceedf1ec558c5111eb3b7ce32477cfcea42bf75f5b9c1016ccc979d05a6",
+      "generated_issues": 0
+    },
+    {
+      "build": 98348,
+      "data_build": 98348,
+      "replay_sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+      "game_sha256": "ba7e0014bd0cacfec8a57ad1b2d9e0b6ddee22c306d8c37a582399f4a045139f",
+      "game_bytes": 1908945,
+      "schema_build": 96477,
+      "schema_lf_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+      "issued_sequence_keys": 29748,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 25804,
+      "never_issued_lookup_keys": 2,
+      "paired_state2_contexts": {},
+      "symbolic_first_use": {},
+      "other_never_issued_first_event_ids": {
+        "103": 2
+      },
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 25804
+      },
+      "modern_issue_shapes_with_bit19": {
+        "0x2080100/explicit/None/-/-/-": 108,
+        "0x2180100/explicit/TargetPoint/-/-/-": 374,
+        "0x21c0100/explicit/None/-/-/-": 1,
+        "0x80100/explicit/None/-/-/-": 431,
+        "0x80108/implicit/TargetPoint/-/-/-": 20265,
+        "0x80108/implicit/TargetUnit/-/-/-": 4393,
+        "0x88108/implicit/TargetPoint/-/-/-": 168
+      },
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {
+        "104/changed_point/0x80108/implicit/TargetPoint/-/-/-": 14553,
+        "104/different_target_kind/0x80108/implicit/TargetUnit/-/-/-": 560,
+        "105/changed_unit_tag/0x80108/implicit/TargetUnit/-/-/-": 147,
+        "105/different_target_kind/0x80108/implicit/TargetPoint/-/-/-": 36
+      },
+      "later_issue_shapes": {},
+      "later_issue_loop_delays": {},
+      "later_issue_target_comparison": {},
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/different": 55,
+        "104/0/paired_numeric": 8064,
+        "105/0/paired_numeric": 81
+      },
+      "physical_state2_frames": 0,
+      "physical_state2_bytes": 0,
+      "physical_state2_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "generated_issues": 0
+    },
+    {
+      "build": 98285,
+      "data_build": 98285,
+      "replay_sha256": "5a7b05f4a75bc229dbbd74e6cc09e3b411129fc731874cfaa9217432fb85e7dc",
+      "game_sha256": "236ad8ccd9f645abbc520e1219ef088e16e5d36ba4dd49b9476ddd0e9c290b53",
+      "game_bytes": 1251,
+      "schema_build": 96477,
+      "schema_lf_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+      "issued_sequence_keys": 3,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 3,
+      "never_issued_lookup_keys": 0,
+      "paired_state2_contexts": {},
+      "symbolic_first_use": {},
+      "other_never_issued_first_event_ids": {},
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 3
+      },
+      "modern_issue_shapes_with_bit19": {
+        "0x80108/implicit/TargetPoint/-/-/-": 3
+      },
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {
+        "104/changed_point/0x80108/implicit/TargetPoint/-/-/-": 1
+      },
+      "later_issue_shapes": {},
+      "later_issue_loop_delays": {},
+      "later_issue_target_comparison": {},
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/paired_numeric": 1
+      },
+      "physical_state2_frames": 0,
+      "physical_state2_bytes": 0,
+      "physical_state2_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "generated_issues": 0
+    },
+    {
+      "build": 98348,
+      "data_build": 98348,
+      "replay_sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+      "game_sha256": "24ab440e4af8eef3d55713fb9e77ec796cb2b092724480856af9605b2b6bf821",
+      "game_bytes": 2410876,
+      "schema_build": 96477,
+      "schema_lf_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+      "issued_sequence_keys": 42153,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 31966,
+      "never_issued_lookup_keys": 0,
+      "paired_state2_contexts": {},
+      "symbolic_first_use": {},
+      "other_never_issued_first_event_ids": {},
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 31966
+      },
+      "modern_issue_shapes_with_bit19": {
+        "0x180100/explicit/TargetPoint/-/-/-": 94,
+        "0x2080100/explicit/None/-/-/-": 210,
+        "0x2180100/explicit/TargetPoint/-/-/-": 12,
+        "0x80100/explicit/None/-/-/-": 485,
+        "0x80108/implicit/TargetPoint/-/-/-": 27604,
+        "0x80108/implicit/TargetUnit/-/-/-": 3442,
+        "0x88108/implicit/TargetPoint/-/-/-": 9
+      },
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {
+        "104/changed_point/0x80108/implicit/TargetPoint/-/-/-": 17394,
+        "104/different_target_kind/0x80108/implicit/TargetUnit/-/-/-": 572,
+        "105/changed_unit_tag/0x80108/implicit/TargetUnit/-/-/-": 110,
+        "105/different_target_kind/0x80108/implicit/TargetPoint/-/-/-": 86
+      },
+      "later_issue_shapes": {},
+      "later_issue_loop_delays": {},
+      "later_issue_target_comparison": {},
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/different": 40,
+        "104/0/paired_numeric": 11124,
+        "105/0/different": 1,
+        "105/0/paired_numeric": 80
+      },
+      "physical_state2_frames": 0,
+      "physical_state2_bytes": 0,
+      "physical_state2_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "generated_issues": 0
+    },
+    {
+      "build": 98348,
+      "data_build": 98348,
+      "replay_sha256": "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+      "game_sha256": "6a69a13b0c0482b8df027885c568fc883d86878c0dde7b568198d9ba6716ef45",
+      "game_bytes": 2225495,
+      "schema_build": 96477,
+      "schema_lf_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+      "issued_sequence_keys": 28090,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 22760,
+      "never_issued_lookup_keys": 0,
+      "paired_state2_contexts": {},
+      "symbolic_first_use": {},
+      "other_never_issued_first_event_ids": {},
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 22760
+      },
+      "modern_issue_shapes_with_bit19": {
+        "0x2080100/explicit/None/-/-/-": 305,
+        "0x2180100/explicit/TargetPoint/-/-/-": 130,
+        "0x80100/explicit/None/-/-/-": 126,
+        "0x80108/implicit/TargetPoint/-/-/-": 20105,
+        "0x80108/implicit/TargetUnit/-/-/-": 1790,
+        "0x88108/implicit/TargetPoint/-/-/-": 60
+      },
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {
+        "104/changed_point/0x2180100/explicit/TargetPoint/-/-/-": 98,
+        "104/changed_point/0x80108/implicit/TargetPoint/-/-/-": 13900,
+        "104/different_target_kind/0x80108/implicit/TargetUnit/-/-/-": 308,
+        "105/changed_unit_tag/0x80108/implicit/TargetUnit/-/-/-": 68,
+        "105/different_target_kind/0x80108/implicit/TargetPoint/-/-/-": 31,
+        "105/same_unit_tag/0x80108/implicit/TargetUnit/-/-/-": 1
+      },
+      "later_issue_shapes": {},
+      "later_issue_loop_delays": {},
+      "later_issue_target_comparison": {},
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/different": 24,
+        "104/0/paired_numeric": 7841,
+        "105/0/paired_numeric": 44
+      },
+      "physical_state2_frames": 0,
+      "physical_state2_bytes": 0,
+      "physical_state2_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "generated_issues": 0
+    },
+    {
+      "build": 42178,
+      "data_build": 42178,
+      "replay_sha256": "68b02ec053e9507adc74d79d80a93303cacdc18c35185db4f0023dfc7f92d67f",
+      "game_sha256": "f44e6bb7bbe8fe8350c2749d52fd863eb271432246512634a0b59a01f051450f",
+      "game_bytes": 1077715,
+      "schema_build": 42178,
+      "schema_lf_sha256": "879d228d9d8acd21d63563538dd15841aaf49259ee0bb468b8a46b6a4ef866fd",
+      "issued_sequence_keys": 3854,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 17059,
+      "never_issued_lookup_keys": 17020,
+      "paired_state2_contexts": {
+        "point/issued_later": 26,
+        "point/never_issued": 12039,
+        "unit/issued_later": 9,
+        "unit/never_issued": 3826
+      },
+      "symbolic_first_use": {
+        "point": 12039,
+        "unit": 3826
+      },
+      "other_never_issued_first_event_ids": {
+        "103": 1104,
+        "104": 41,
+        "105": 10
+      },
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 19284,
+        "1": 51,
+        "2": 17008
+      },
+      "modern_issue_shapes_with_bit19": {},
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {},
+      "later_issue_shapes": {
+        "point/0x100108/implicit/TargetPoint/-/-/-": 26,
+        "unit/0x100108/implicit/TargetPoint/-/-/-": 1,
+        "unit/0x100108/implicit/TargetUnit/-/-/-": 8
+      },
+      "later_issue_loop_delays": {
+        "1": 4,
+        "10": 1,
+        "11": 2,
+        "12": 2,
+        "16": 1,
+        "18": 1,
+        "19": 1,
+        "2": 11,
+        "20": 1,
+        "28": 1,
+        "3": 3,
+        "35": 1,
+        "46": 1,
+        "5": 2,
+        "6": 1,
+        "7": 1,
+        "8": 1
+      },
+      "later_issue_target_comparison": {
+        "point/changed_point": 26,
+        "unit/different_target_kind": 1,
+        "unit/same_unit_tag": 8
+      },
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/both_absent": 9141,
+        "104/1/paired_numeric": 41,
+        "104/2/paired_numeric": 12065,
+        "105/0/both_absent": 2604,
+        "105/1/paired_numeric": 10,
+        "105/2/paired_numeric": 3835
+      },
+      "physical_state2_frames": 31800,
+      "physical_state2_bytes": 404051,
+      "physical_state2_sha256": "3fdd2c9107a11a4e100964b5b03f51cfffb7d4259d4745025cc5bf12cceb9e41",
+      "generated_issues": 0
+    },
+    {
+      "build": 41810,
+      "data_build": 41810,
+      "replay_sha256": "69a33649fa3b16fed8f67c0d9ba6eb9fd9666e467e306873dbf488526da3fb99",
+      "game_sha256": "d32319492e70fd346565e2ee00e2f9d08ae23df51adb2181ef8efadabec5e6bb",
+      "game_bytes": 736898,
+      "schema_build": 41810,
+      "schema_lf_sha256": "879d228d9d8acd21d63563538dd15841aaf49259ee0bb468b8a46b6a4ef866fd",
+      "issued_sequence_keys": 1907,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 13175,
+      "never_issued_lookup_keys": 13173,
+      "paired_state2_contexts": {
+        "point/issued_later": 1,
+        "point/never_issued": 8849,
+        "unit/never_issued": 2377
+      },
+      "symbolic_first_use": {
+        "point": 8849,
+        "unit": 2377
+      },
+      "other_never_issued_first_event_ids": {
+        "105": 724,
+        "103": 1047,
+        "104": 176
+      },
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 13355,
+        "1": 903,
+        "2": 12273
+      },
+      "modern_issue_shapes_with_bit19": {},
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {},
+      "later_issue_shapes": {
+        "point/0x100108/implicit/TargetPoint/-/-/-": 1
+      },
+      "later_issue_loop_delays": {
+        "4": 1
+      },
+      "later_issue_target_comparison": {
+        "point/changed_point": 1
+      },
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/both_absent": 5446,
+        "104/1/paired_numeric": 176,
+        "104/2/both_absent": 1,
+        "104/2/paired_numeric": 8850,
+        "105/0/both_absent": 1689,
+        "105/1/paired_numeric": 724,
+        "105/2/paired_numeric": 2377
+      },
+      "physical_state2_frames": 22454,
+      "physical_state2_bytes": 281991,
+      "physical_state2_sha256": "7182caffca8b2efa02916a7fe8a11ab95c30bd5e81950f881049d9be8cff9e1b",
+      "generated_issues": 0
+    },
+    {
+      "build": 41810,
+      "data_build": 41810,
+      "replay_sha256": "69b649866a24ae0326ef547eb300492c12559f586e326ec761e4f7827ce5458f",
+      "game_sha256": "26e2d418dad236b30d38d5a24bea07d9d4904803df43ca95b50d16e852600b40",
+      "game_bytes": 1152603,
+      "schema_build": 41810,
+      "schema_lf_sha256": "879d228d9d8acd21d63563538dd15841aaf49259ee0bb468b8a46b6a4ef866fd",
+      "issued_sequence_keys": 3785,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 12147,
+      "never_issued_lookup_keys": 12049,
+      "paired_state2_contexts": {
+        "point/issued_later": 48,
+        "point/never_issued": 6493,
+        "unit/issued_later": 39,
+        "unit/never_issued": 4719
+      },
+      "symbolic_first_use": {
+        "point": 6493,
+        "unit": 4719
+      },
+      "other_never_issued_first_event_ids": {
+        "103": 804,
+        "105": 17,
+        "104": 16
+      },
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 13954,
+        "1": 41,
+        "2": 12108
+      },
+      "modern_issue_shapes_with_bit19": {},
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {},
+      "later_issue_shapes": {
+        "point/0x100108/implicit/TargetPoint/-/-/-": 48,
+        "unit/0x100108/implicit/TargetPoint/-/-/-": 2,
+        "unit/0x100108/implicit/TargetUnit/-/-/-": 37
+      },
+      "later_issue_loop_delays": {
+        "0": 3,
+        "1": 30,
+        "107": 1,
+        "12": 2,
+        "14": 1,
+        "17": 1,
+        "19": 1,
+        "2": 22,
+        "20": 1,
+        "21": 1,
+        "3": 12,
+        "4": 2,
+        "42": 1,
+        "43": 1,
+        "5": 4,
+        "50": 1,
+        "6": 2,
+        "7": 1
+      },
+      "later_issue_target_comparison": {
+        "point/changed_point": 48,
+        "unit/changed_unit_tag": 5,
+        "unit/different_target_kind": 2,
+        "unit/same_unit_tag": 32
+      },
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/both_absent": 4165,
+        "104/1/paired_numeric": 16,
+        "104/2/both_absent": 4,
+        "104/2/paired_numeric": 6541,
+        "105/0/both_absent": 3039,
+        "105/1/paired_numeric": 17,
+        "105/2/paired_numeric": 4758
+      },
+      "physical_state2_frames": 22598,
+      "physical_state2_bytes": 307457,
+      "physical_state2_sha256": "96d68cf3e70aabe266bda2b6cf725d72a85d779bb6ee6dbda31856f953c4ff5e",
+      "generated_issues": 0
+    },
+    {
+      "build": 41810,
+      "data_build": 41810,
+      "replay_sha256": "70921bf5fb1d8a99efd8a8317f54695475e07de0f943712c9d5a75bb79df9c78",
+      "game_sha256": "5f69f450e34f92dacfac267f598e368dadc246ac0e660690fadef10930923f3f",
+      "game_bytes": 857749,
+      "schema_build": 41810,
+      "schema_lf_sha256": "879d228d9d8acd21d63563538dd15841aaf49259ee0bb468b8a46b6a4ef866fd",
+      "issued_sequence_keys": 3441,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 10821,
+      "never_issued_lookup_keys": 10766,
+      "paired_state2_contexts": {
+        "point/issued_later": 26,
+        "point/never_issued": 5042,
+        "unit/issued_later": 15,
+        "unit/never_issued": 2377
+      },
+      "symbolic_first_use": {
+        "point": 5042,
+        "unit": 2377
+      },
+      "other_never_issued_first_event_ids": {
+        "103": 1600,
+        "105": 904,
+        "104": 843
+      },
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 10844,
+        "1": 1749,
+        "2": 9082
+      },
+      "modern_issue_shapes_with_bit19": {},
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {},
+      "later_issue_shapes": {
+        "point/0x100108/implicit/TargetPoint/-/-/-": 26,
+        "unit/0x100108/implicit/TargetPoint/-/-/-": 3,
+        "unit/0x100108/implicit/TargetUnit/-/-/-": 12
+      },
+      "later_issue_loop_delays": {
+        "0": 1,
+        "1": 8,
+        "10": 2,
+        "13": 1,
+        "14": 4,
+        "16": 1,
+        "2": 8,
+        "23": 1,
+        "24": 2,
+        "25": 1,
+        "26": 1,
+        "3": 1,
+        "31": 1,
+        "4": 2,
+        "41": 1,
+        "5": 2,
+        "53": 1,
+        "64": 1,
+        "7": 1,
+        "75": 1
+      },
+      "later_issue_target_comparison": {
+        "point/changed_point": 26,
+        "unit/different_target_kind": 3,
+        "unit/same_unit_tag": 12
+      },
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/both_absent": 3258,
+        "104/1/paired_numeric": 843,
+        "104/2/both_absent": 6,
+        "104/2/paired_numeric": 5068,
+        "105/0/both_absent": 1627,
+        "105/1/paired_numeric": 904,
+        "105/2/paired_numeric": 2392
+      },
+      "physical_state2_frames": 14920,
+      "physical_state2_bytes": 195500,
+      "physical_state2_sha256": "4ff8d480941fdf705fb17c99299ffe8022a78286dfe660f1ee10eb6c08b2aad9",
+      "generated_issues": 0
+    },
+    {
+      "build": 98348,
+      "data_build": 98348,
+      "replay_sha256": "715e309bba5d3151d3e1b47461041627db7644d91a8b549c309950e44d6067e8",
+      "game_sha256": "4df5995b4c2a515fbc8e6b0659292696d30d78d445bfdbaaad86c2745b298f2c",
+      "game_bytes": 2091464,
+      "schema_build": 96477,
+      "schema_lf_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+      "issued_sequence_keys": 34202,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 27078,
+      "never_issued_lookup_keys": 0,
+      "paired_state2_contexts": {},
+      "symbolic_first_use": {},
+      "other_never_issued_first_event_ids": {},
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 27078
+      },
+      "modern_issue_shapes_with_bit19": {
+        "0x2080100/explicit/None/-/-/-": 277,
+        "0x2180100/explicit/TargetPoint/-/-/-": 8,
+        "0x80100/explicit/None/-/-/-": 295,
+        "0x80108/implicit/TargetPoint/-/-/-": 24778,
+        "0x80108/implicit/TargetUnit/-/-/-": 1431,
+        "0x88108/implicit/TargetPoint/-/-/-": 49
+      },
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {
+        "104/changed_point/0x80108/implicit/TargetPoint/-/-/-": 16145,
+        "104/different_target_kind/0x80108/implicit/TargetUnit/-/-/-": 361,
+        "105/changed_unit_tag/0x80108/implicit/TargetUnit/-/-/-": 53,
+        "105/different_target_kind/0x80108/implicit/TargetPoint/-/-/-": 37,
+        "105/same_unit_tag/0x80108/implicit/TargetUnit/-/-/-": 1
+      },
+      "later_issue_shapes": {},
+      "later_issue_loop_delays": {},
+      "later_issue_target_comparison": {},
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/different": 18,
+        "104/0/paired_numeric": 8235,
+        "105/0/paired_numeric": 37
+      },
+      "physical_state2_frames": 0,
+      "physical_state2_bytes": 0,
+      "physical_state2_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "generated_issues": 0
+    },
+    {
+      "build": 98348,
+      "data_build": 98348,
+      "replay_sha256": "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+      "game_sha256": "e7486f697a63a3235a9c401fd87e56413f1883c92f46d496fe516b2e2d3aaca9",
+      "game_bytes": 1582802,
+      "schema_build": 96477,
+      "schema_lf_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+      "issued_sequence_keys": 25345,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 20515,
+      "never_issued_lookup_keys": 0,
+      "paired_state2_contexts": {},
+      "symbolic_first_use": {},
+      "other_never_issued_first_event_ids": {},
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 20515
+      },
+      "modern_issue_shapes_with_bit19": {
+        "0x180100/explicit/TargetPoint/-/-/-": 90,
+        "0x2080100/explicit/None/-/-/-": 114,
+        "0x80100/explicit/None/-/-/-": 252,
+        "0x80108/implicit/TargetPoint/-/-/-": 16725,
+        "0x80108/implicit/TargetUnit/-/-/-": 3241,
+        "0x88108/implicit/TargetPoint/-/-/-": 4
+      },
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {
+        "104/changed_point/0x80108/implicit/TargetPoint/-/-/-": 12728,
+        "104/different_target_kind/0x80108/implicit/TargetUnit/-/-/-": 417,
+        "105/changed_unit_tag/0x80108/implicit/TargetUnit/-/-/-": 112,
+        "105/different_target_kind/0x80108/implicit/TargetPoint/-/-/-": 52,
+        "105/same_unit_tag/0x80108/implicit/TargetUnit/-/-/-": 1
+      },
+      "later_issue_shapes": {},
+      "later_issue_loop_delays": {},
+      "later_issue_target_comparison": {},
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/different": 41,
+        "104/0/paired_numeric": 7958,
+        "105/0/paired_numeric": 86
+      },
+      "physical_state2_frames": 0,
+      "physical_state2_bytes": 0,
+      "physical_state2_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "generated_issues": 0
+    },
+    {
+      "build": 98348,
+      "data_build": 98348,
+      "replay_sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+      "game_sha256": "e83eae7da8008b5263abe73c60aab5ef9af03096935707fb12752f1392bdaffd",
+      "game_bytes": 2031732,
+      "schema_build": 96477,
+      "schema_lf_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+      "issued_sequence_keys": 24330,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 19908,
+      "never_issued_lookup_keys": 0,
+      "paired_state2_contexts": {},
+      "symbolic_first_use": {},
+      "other_never_issued_first_event_ids": {},
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 19908
+      },
+      "modern_issue_shapes_with_bit19": {
+        "0x2080100/explicit/None/-/-/-": 92,
+        "0x80100/explicit/None/-/-/-": 529,
+        "0x80108/implicit/TargetPoint/-/-/-": 15928,
+        "0x80108/implicit/TargetUnit/-/-/-": 3088,
+        "0x88108/implicit/TargetPoint/-/-/-": 177
+      },
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {
+        "104/changed_point/0x80108/implicit/TargetPoint/-/-/-": 12784,
+        "104/different_target_kind/0x80108/implicit/TargetUnit/-/-/-": 527,
+        "105/changed_unit_tag/0x80108/implicit/TargetUnit/-/-/-": 97,
+        "105/different_target_kind/0x80108/implicit/TargetPoint/-/-/-": 24,
+        "105/same_unit_tag/0x80108/implicit/TargetUnit/-/-/-": 1
+      },
+      "later_issue_shapes": {},
+      "later_issue_loop_delays": {},
+      "later_issue_target_comparison": {},
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/different": 121,
+        "104/0/paired_numeric": 6604,
+        "105/0/paired_numeric": 31
+      },
+      "physical_state2_frames": 0,
+      "physical_state2_bytes": 0,
+      "physical_state2_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "generated_issues": 0
+    },
+    {
+      "build": 98348,
+      "data_build": 98348,
+      "replay_sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+      "game_sha256": "90732412a482ea008ebf99469c1892ab2b36f876aa40060648b33de72c11d452",
+      "game_bytes": 2292034,
+      "schema_build": 96477,
+      "schema_lf_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+      "issued_sequence_keys": 31279,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 23990,
+      "never_issued_lookup_keys": 0,
+      "paired_state2_contexts": {},
+      "symbolic_first_use": {},
+      "other_never_issued_first_event_ids": {},
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 23990
+      },
+      "modern_issue_shapes_with_bit19": {
+        "0x2080100/explicit/None/-/-/-": 41,
+        "0x2180100/explicit/TargetPoint/-/-/-": 2602,
+        "0x80100/explicit/None/-/-/-": 345,
+        "0x80108/implicit/TargetPoint/-/-/-": 16985,
+        "0x80108/implicit/TargetUnit/-/-/-": 3587,
+        "0x88108/implicit/TargetPoint/-/-/-": 163
+      },
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {
+        "104/changed_point/0x2180100/explicit/TargetPoint/-/-/-": 792,
+        "104/changed_point/0x80108/implicit/TargetPoint/-/-/-": 13123,
+        "104/different_target_kind/0x80108/implicit/TargetUnit/-/-/-": 475,
+        "105/changed_unit_tag/0x80108/implicit/TargetUnit/-/-/-": 142,
+        "105/different_target_kind/0x80108/implicit/TargetPoint/-/-/-": 53,
+        "105/same_unit_tag/0x80108/implicit/TargetUnit/-/-/-": 1
+      },
+      "later_issue_shapes": {},
+      "later_issue_loop_delays": {},
+      "later_issue_target_comparison": {},
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/different": 35,
+        "104/0/paired_numeric": 6484,
+        "105/0/paired_numeric": 83
+      },
+      "physical_state2_frames": 0,
+      "physical_state2_bytes": 0,
+      "physical_state2_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "generated_issues": 0
+    },
+    {
+      "build": 41810,
+      "data_build": 41810,
+      "replay_sha256": "7efa1c335816eebe802747ae4b16252ed22fcd8387b09d24b115b2917542b52a",
+      "game_sha256": "6267487f589c4db643ff4d3b7abc061af0b61552c7a2de9e86c8508406ca4daf",
+      "game_bytes": 1555050,
+      "schema_build": 41810,
+      "schema_lf_sha256": "879d228d9d8acd21d63563538dd15841aaf49259ee0bb468b8a46b6a4ef866fd",
+      "issued_sequence_keys": 6156,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 21639,
+      "never_issued_lookup_keys": 21575,
+      "paired_state2_contexts": {
+        "point/issued_later": 14,
+        "point/never_issued": 13093,
+        "unit/issued_later": 31,
+        "unit/never_issued": 4380
+      },
+      "symbolic_first_use": {
+        "point": 13093,
+        "unit": 4380
+      },
+      "other_never_issued_first_event_ids": {
+        "104": 1046,
+        "103": 1706,
+        "105": 1350
+      },
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 22300,
+        "1": 2407,
+        "2": 19237
+      },
+      "modern_issue_shapes_with_bit19": {},
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {},
+      "later_issue_shapes": {
+        "point/0x100108/implicit/TargetPoint/-/-/-": 14,
+        "unit/0x100108/implicit/TargetPoint/-/-/-": 3,
+        "unit/0x100108/implicit/TargetUnit/-/-/-": 28
+      },
+      "later_issue_loop_delays": {
+        "0": 1,
+        "1": 21,
+        "2": 17,
+        "3": 3,
+        "4": 1,
+        "46": 1,
+        "48": 1
+      },
+      "later_issue_target_comparison": {
+        "point/changed_point": 12,
+        "point/identical_point": 2,
+        "unit/different_target_kind": 3,
+        "unit/same_unit_tag": 28
+      },
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/both_absent": 8133,
+        "104/1/paired_numeric": 1046,
+        "104/2/both_absent": 11,
+        "104/2/paired_numeric": 13107,
+        "105/0/both_absent": 2706,
+        "105/1/paired_numeric": 1350,
+        "105/2/paired_numeric": 4411
+      },
+      "physical_state2_frames": 35036,
+      "physical_state2_bytes": 447024,
+      "physical_state2_sha256": "1b72739ffac9f920b8bc53900e583c35c3460080499ff70d2befa03949823430",
+      "generated_issues": 0
+    },
+    {
+      "build": 42273,
+      "data_build": 42273,
+      "replay_sha256": "8281a5ab262e8060719a8b3f56f79bff5a103eab0d8ed26f760d17175ae85066",
+      "game_sha256": "4ddf21cdc25c449828a949af0cdb95a483d9c73e9111c27e9659297c4d2b9ad9",
+      "game_bytes": 540162,
+      "schema_build": 42273,
+      "schema_lf_sha256": "879d228d9d8acd21d63563538dd15841aaf49259ee0bb468b8a46b6a4ef866fd",
+      "issued_sequence_keys": 2069,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 7254,
+      "never_issued_lookup_keys": 7243,
+      "paired_state2_contexts": {
+        "point/issued_later": 10,
+        "point/never_issued": 4716,
+        "unit/issued_later": 1,
+        "unit/never_issued": 730
+      },
+      "symbolic_first_use": {
+        "point": 4716,
+        "unit": 730
+      },
+      "other_never_issued_first_event_ids": {
+        "105": 868,
+        "104": 568,
+        "103": 361
+      },
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 6861,
+        "1": 1437,
+        "2": 5820
+      },
+      "modern_issue_shapes_with_bit19": {},
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {},
+      "later_issue_shapes": {
+        "point/0x100108/implicit/TargetPoint/-/-/-": 10,
+        "unit/0x100108/implicit/TargetUnit/-/-/-": 1
+      },
+      "later_issue_loop_delays": {
+        "0": 1,
+        "1": 1,
+        "2": 4,
+        "3": 3,
+        "4": 1,
+        "8": 1
+      },
+      "later_issue_target_comparison": {
+        "point/changed_point": 9,
+        "point/identical_point": 1,
+        "unit/same_unit_tag": 1
+      },
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/both_absent": 3352,
+        "104/1/paired_numeric": 568,
+        "104/2/both_absent": 2,
+        "104/2/paired_numeric": 4726,
+        "105/0/both_absent": 517,
+        "105/1/paired_numeric": 868,
+        "105/2/paired_numeric": 731
+      },
+      "physical_state2_frames": 10914,
+      "physical_state2_bytes": 132821,
+      "physical_state2_sha256": "b7589c73e7cfa8dbe2ece60c06b9c98da10b8e4f5e47f78db38e8e263c467b51",
+      "generated_issues": 0
+    },
+    {
+      "build": 98348,
+      "data_build": 98348,
+      "replay_sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+      "game_sha256": "8fe55ded03f0351290beba9f8d2b519c549d1cf32fd7bec7d04205a71510b5ee",
+      "game_bytes": 1926055,
+      "schema_build": 96477,
+      "schema_lf_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+      "issued_sequence_keys": 22033,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 17477,
+      "never_issued_lookup_keys": 0,
+      "paired_state2_contexts": {},
+      "symbolic_first_use": {},
+      "other_never_issued_first_event_ids": {},
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 17478
+      },
+      "modern_issue_shapes_with_bit19": {
+        "0x180100/explicit/TargetPoint/-/-/-": 8,
+        "0x2080100/explicit/None/-/-/-": 318,
+        "0x2180100/explicit/TargetPoint/-/-/-": 323,
+        "0x80100/explicit/None/-/-/-": 233,
+        "0x80108/implicit/TargetPoint/-/-/-": 13876,
+        "0x80108/implicit/TargetUnit/-/-/-": 2559,
+        "0x88108/implicit/TargetPoint/-/-/-": 92
+      },
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {
+        "104/changed_point/0x180100/explicit/TargetPoint/-/-/-": 7,
+        "104/changed_point/0x2180100/explicit/TargetPoint/-/-/-": 308,
+        "104/changed_point/0x80108/implicit/TargetPoint/-/-/-": 11402,
+        "104/different_target_kind/0x80108/implicit/TargetUnit/-/-/-": 493,
+        "105/changed_unit_tag/0x80108/implicit/TargetUnit/-/-/-": 109,
+        "105/different_target_kind/0x80108/implicit/TargetPoint/-/-/-": 46
+      },
+      "later_issue_shapes": {},
+      "later_issue_loop_delays": {},
+      "later_issue_target_comparison": {},
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/different": 50,
+        "104/0/paired_numeric": 6437,
+        "105/0/different": 2,
+        "105/0/paired_numeric": 63
+      },
+      "physical_state2_frames": 0,
+      "physical_state2_bytes": 0,
+      "physical_state2_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "generated_issues": 0
+    },
+    {
+      "build": 98348,
+      "data_build": 98348,
+      "replay_sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+      "game_sha256": "9ffd36eb1dd1d467bf456e2c4ab51e97d4b3437dd690bcad81f5f6e440757fe5",
+      "game_bytes": 2700029,
+      "schema_build": 96477,
+      "schema_lf_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+      "issued_sequence_keys": 38683,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 30999,
+      "never_issued_lookup_keys": 0,
+      "paired_state2_contexts": {},
+      "symbolic_first_use": {},
+      "other_never_issued_first_event_ids": {},
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 30999
+      },
+      "modern_issue_shapes_with_bit19": {
+        "0x180100/explicit/TargetPoint/-/-/-": 121,
+        "0x2080100/explicit/None/-/-/-": 493,
+        "0x80100/explicit/None/-/-/-": 247,
+        "0x80108/implicit/TargetPoint/-/-/-": 28319,
+        "0x80108/implicit/TargetUnit/-/-/-": 1412,
+        "0x88108/implicit/TargetPoint/-/-/-": 122
+      },
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {
+        "104/changed_point/0x80108/implicit/TargetPoint/-/-/-": 18374,
+        "104/different_target_kind/0x80108/implicit/TargetUnit/-/-/-": 301,
+        "105/changed_unit_tag/0x80108/implicit/TargetUnit/-/-/-": 57,
+        "105/different_target_kind/0x80108/implicit/TargetPoint/-/-/-": 41,
+        "105/same_unit_tag/0x80108/implicit/TargetUnit/-/-/-": 1
+      },
+      "later_issue_shapes": {},
+      "later_issue_loop_delays": {},
+      "later_issue_target_comparison": {},
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/different": 50,
+        "104/0/paired_numeric": 9403,
+        "105/0/paired_numeric": 43
+      },
+      "physical_state2_frames": 0,
+      "physical_state2_bytes": 0,
+      "physical_state2_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "generated_issues": 0
+    },
+    {
+      "build": 41810,
+      "data_build": 41810,
+      "replay_sha256": "8beb4370c5c6638d5481c25e88970ad49d5651edacf876cb623be7c2f593504b",
+      "game_sha256": "f203671350fe48e695882709b6bf8e9236fd6e5e9f04060b221a622c37bda682",
+      "game_bytes": 1442717,
+      "schema_build": 41810,
+      "schema_lf_sha256": "879d228d9d8acd21d63563538dd15841aaf49259ee0bb468b8a46b6a4ef866fd",
+      "issued_sequence_keys": 4546,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 21175,
+      "never_issued_lookup_keys": 21073,
+      "paired_state2_contexts": {
+        "point/issued_later": 60,
+        "point/never_issued": 13026,
+        "unit/issued_later": 36,
+        "unit/never_issued": 6088
+      },
+      "symbolic_first_use": {
+        "point": 13026,
+        "unit": 6088
+      },
+      "other_never_issued_first_event_ids": {
+        "104": 218,
+        "103": 1606,
+        "105": 135
+      },
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 22883,
+        "1": 354,
+        "2": 20836
+      },
+      "modern_issue_shapes_with_bit19": {},
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {},
+      "later_issue_shapes": {
+        "point/0x100108/implicit/TargetPoint/-/-/-": 60,
+        "unit/0x100108/implicit/TargetPoint/-/-/-": 7,
+        "unit/0x100108/implicit/TargetUnit/-/-/-": 29
+      },
+      "later_issue_loop_delays": {
+        "0": 2,
+        "1": 15,
+        "11": 3,
+        "14": 1,
+        "15": 1,
+        "18": 3,
+        "19": 1,
+        "2": 19,
+        "21": 1,
+        "22": 3,
+        "23": 1,
+        "24": 1,
+        "26": 1,
+        "3": 10,
+        "34": 2,
+        "37": 1,
+        "4": 4,
+        "43": 1,
+        "46": 1,
+        "5": 6,
+        "51": 1,
+        "52": 1,
+        "53": 1,
+        "58": 2,
+        "6": 1,
+        "69": 1,
+        "7": 1,
+        "72": 1,
+        "8": 4,
+        "9": 2,
+        "92": 1,
+        "93": 2,
+        "96": 1
+      },
+      "later_issue_target_comparison": {
+        "point/changed_point": 58,
+        "point/identical_point": 2,
+        "unit/different_target_kind": 7,
+        "unit/same_unit_tag": 29
+      },
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/both_absent": 8617,
+        "104/1/paired_numeric": 218,
+        "104/2/both_absent": 15,
+        "104/2/paired_numeric": 13086,
+        "105/0/both_absent": 3677,
+        "105/1/paired_numeric": 135,
+        "105/2/paired_numeric": 6124
+      },
+      "physical_state2_frames": 38420,
+      "physical_state2_bytes": 503070,
+      "physical_state2_sha256": "655d5902a27b0501a5e0be93df0a324cc27c858549d33c345feae5880b723389",
+      "generated_issues": 0
+    },
+    {
+      "build": 41810,
+      "data_build": 41810,
+      "replay_sha256": "8c4fb83989b528ea3227f6c97758293d1f650e33caa3d38c6a2a84d27ab0850d",
+      "game_sha256": "541239128ab928fa794b083f997966fb2d56fe8e5972a88a0a9039ad501e4afb",
+      "game_bytes": 856897,
+      "schema_build": 41810,
+      "schema_lf_sha256": "879d228d9d8acd21d63563538dd15841aaf49259ee0bb468b8a46b6a4ef866fd",
+      "issued_sequence_keys": 3089,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 12468,
+      "never_issued_lookup_keys": 12398,
+      "paired_state2_contexts": {
+        "point/issued_later": 26,
+        "point/never_issued": 8765,
+        "unit/issued_later": 44,
+        "unit/never_issued": 2690
+      },
+      "symbolic_first_use": {
+        "point": 8765,
+        "unit": 2690
+      },
+      "other_never_issued_first_event_ids": {
+        "103": 655,
+        "104": 225,
+        "105": 63
+      },
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 13600,
+        "1": 288,
+        "2": 12181
+      },
+      "modern_issue_shapes_with_bit19": {},
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {},
+      "later_issue_shapes": {
+        "point/0x100108/implicit/TargetPoint/-/-/-": 26,
+        "unit/0x100108/implicit/TargetPoint/-/-/-": 8,
+        "unit/0x100108/implicit/TargetUnit/-/-/-": 36
+      },
+      "later_issue_loop_delays": {
+        "0": 2,
+        "1": 35,
+        "2": 24,
+        "3": 4,
+        "4": 2,
+        "5": 1,
+        "6": 2
+      },
+      "later_issue_target_comparison": {
+        "point/changed_point": 24,
+        "point/identical_point": 2,
+        "unit/changed_unit_tag": 3,
+        "unit/different_target_kind": 8,
+        "unit/same_unit_tag": 33
+      },
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/both_absent": 5453,
+        "104/1/paired_numeric": 225,
+        "104/2/paired_numeric": 8791,
+        "105/0/both_absent": 1734,
+        "105/1/paired_numeric": 63,
+        "105/2/paired_numeric": 2734
+      },
+      "physical_state2_frames": 23050,
+      "physical_state2_bytes": 292415,
+      "physical_state2_sha256": "81fb26bc626997fd5d9e5434d0d9735419cdc5b2d880a425e90970f74572a56f",
+      "generated_issues": 0
+    },
+    {
+      "build": 98348,
+      "data_build": 98348,
+      "replay_sha256": "9872b043e48093abc65e11b7b6d091861e83fc4d202b40b745824da647cb6ef3",
+      "game_sha256": "f88c1123c8990c01c4498698ff5f2d8a8892afc220592aae9d7a33067c035323",
+      "game_bytes": 2669770,
+      "schema_build": 96477,
+      "schema_lf_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+      "issued_sequence_keys": 33725,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 27731,
+      "never_issued_lookup_keys": 0,
+      "paired_state2_contexts": {},
+      "symbolic_first_use": {},
+      "other_never_issued_first_event_ids": {},
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 27731
+      },
+      "modern_issue_shapes_with_bit19": {
+        "0x180100/explicit/TargetPoint/-/-/-": 7,
+        "0x2080100/explicit/None/-/-/-": 184,
+        "0x2180100/explicit/TargetPoint/-/-/-": 325,
+        "0x2188100/explicit/TargetPoint/-/-/-": 1,
+        "0x80100/explicit/None/-/-/-": 273,
+        "0x80108/implicit/TargetPoint/-/-/-": 23775,
+        "0x80108/implicit/TargetUnit/-/-/-": 2897,
+        "0x88108/implicit/TargetPoint/-/-/-": 64
+      },
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {
+        "104/changed_point/0x180100/explicit/TargetPoint/-/-/-": 5,
+        "104/changed_point/0x2180100/explicit/TargetPoint/-/-/-": 319,
+        "104/changed_point/0x2188100/explicit/TargetPoint/-/-/-": 1,
+        "104/changed_point/0x80108/implicit/TargetPoint/-/-/-": 19482,
+        "104/different_target_kind/0x80108/implicit/TargetUnit/-/-/-": 670,
+        "105/changed_unit_tag/0x80108/implicit/TargetUnit/-/-/-": 80,
+        "105/different_target_kind/0x80108/implicit/TargetPoint/-/-/-": 43,
+        "105/same_unit_tag/0x80108/implicit/TargetUnit/-/-/-": 2
+      },
+      "later_issue_shapes": {},
+      "later_issue_loop_delays": {},
+      "later_issue_target_comparison": {},
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/different": 21,
+        "104/0/paired_numeric": 10623,
+        "105/0/different": 1,
+        "105/0/paired_numeric": 58
+      },
+      "physical_state2_frames": 0,
+      "physical_state2_bytes": 0,
+      "physical_state2_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "generated_issues": 0
+    },
+    {
+      "build": 98348,
+      "data_build": 98348,
+      "replay_sha256": "98ac891fa4fb8e1698e5fc35609fcf75abfe7e89aee9c7f05afff93b10338ab3",
+      "game_sha256": "167834bf36c574ce2ec5671551db2c5529a4c5d5504c5ad04b67cf52c64048d9",
+      "game_bytes": 2261902,
+      "schema_build": 96477,
+      "schema_lf_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+      "issued_sequence_keys": 27146,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 20571,
+      "never_issued_lookup_keys": 0,
+      "paired_state2_contexts": {},
+      "symbolic_first_use": {},
+      "other_never_issued_first_event_ids": {},
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 20571
+      },
+      "modern_issue_shapes_with_bit19": {
+        "0x180100/explicit/TargetPoint/-/-/-": 1,
+        "0x2080100/explicit/None/-/-/-": 206,
+        "0x2180100/explicit/TargetPoint/-/-/-": 319,
+        "0x80100/explicit/None/-/-/-": 457,
+        "0x80108/implicit/TargetPoint/-/-/-": 16883,
+        "0x80108/implicit/TargetUnit/-/-/-": 2497,
+        "0x88108/implicit/TargetPoint/-/-/-": 85
+      },
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {
+        "104/changed_point/0x180100/explicit/TargetPoint/-/-/-": 1,
+        "104/changed_point/0x2180100/explicit/TargetPoint/-/-/-": 300,
+        "104/changed_point/0x80108/implicit/TargetPoint/-/-/-": 12704,
+        "104/different_target_kind/0x80108/implicit/TargetUnit/-/-/-": 519,
+        "105/changed_unit_tag/0x80108/implicit/TargetUnit/-/-/-": 134,
+        "105/different_target_kind/0x80108/implicit/TargetPoint/-/-/-": 69,
+        "105/same_unit_tag/0x80108/implicit/TargetUnit/-/-/-": 1
+      },
+      "later_issue_shapes": {},
+      "later_issue_loop_delays": {},
+      "later_issue_target_comparison": {},
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/different": 70,
+        "104/0/paired_numeric": 6470,
+        "105/0/paired_numeric": 66
+      },
+      "physical_state2_frames": 0,
+      "physical_state2_bytes": 0,
+      "physical_state2_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "generated_issues": 0
+    },
+    {
+      "build": 98348,
+      "data_build": 98348,
+      "replay_sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4",
+      "game_sha256": "c7fba3ffbae7cf8ce1c348d0478f8e5cb81b2e3991791e21a793638cf058a52d",
+      "game_bytes": 1916341,
+      "schema_build": 96477,
+      "schema_lf_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+      "issued_sequence_keys": 26899,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 23407,
+      "never_issued_lookup_keys": 0,
+      "paired_state2_contexts": {},
+      "symbolic_first_use": {},
+      "other_never_issued_first_event_ids": {},
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 23407
+      },
+      "modern_issue_shapes_with_bit19": {
+        "0x2080100/explicit/None/-/-/-": 45,
+        "0x80100/explicit/None/-/-/-": 531,
+        "0x80108/implicit/TargetPoint/-/-/-": 19808,
+        "0x80108/implicit/TargetUnit/-/-/-": 2932,
+        "0x88108/implicit/TargetPoint/-/-/-": 18
+      },
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {
+        "104/changed_point/0x80108/implicit/TargetPoint/-/-/-": 13449,
+        "104/different_target_kind/0x80108/implicit/TargetUnit/-/-/-": 670,
+        "105/changed_unit_tag/0x80108/implicit/TargetUnit/-/-/-": 129,
+        "105/different_target_kind/0x80108/implicit/TargetPoint/-/-/-": 53,
+        "105/same_unit_tag/0x80108/implicit/TargetUnit/-/-/-": 1
+      },
+      "later_issue_shapes": {},
+      "later_issue_loop_delays": {},
+      "later_issue_target_comparison": {},
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/different": 96,
+        "104/0/paired_numeric": 8590,
+        "105/0/paired_numeric": 64
+      },
+      "physical_state2_frames": 0,
+      "physical_state2_bytes": 0,
+      "physical_state2_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "generated_issues": 0
+    },
+    {
+      "build": 41810,
+      "data_build": 41810,
+      "replay_sha256": "a6c7c6232f19b9b264ef39bf36b4ce7dfcad56e59c470731b53c28700b9d2603",
+      "game_sha256": "97cef19ced01e88959a87f0ed3b37c308554e5465d02821fee4ae7c774b0e650",
+      "game_bytes": 1272502,
+      "schema_build": 41810,
+      "schema_lf_sha256": "879d228d9d8acd21d63563538dd15841aaf49259ee0bb468b8a46b6a4ef866fd",
+      "issued_sequence_keys": 4126,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 19127,
+      "never_issued_lookup_keys": 19105,
+      "paired_state2_contexts": {
+        "point/issued_later": 4,
+        "point/never_issued": 13413,
+        "unit/issued_later": 7,
+        "unit/never_issued": 3619
+      },
+      "symbolic_first_use": {
+        "point": 13412,
+        "unit": 3619
+      },
+      "other_never_issued_first_event_ids": {
+        "103": 1662,
+        "104": 311,
+        "105": 101
+      },
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 20939,
+        "1": 415,
+        "2": 18712
+      },
+      "modern_issue_shapes_with_bit19": {},
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {},
+      "later_issue_shapes": {
+        "point/0x100108/implicit/TargetPoint/-/-/-": 4,
+        "unit/0x100108/implicit/TargetPoint/-/-/-": 2,
+        "unit/0x100108/implicit/TargetUnit/-/-/-": 5
+      },
+      "later_issue_loop_delays": {
+        "0": 1,
+        "1": 6,
+        "2": 3,
+        "3": 1
+      },
+      "later_issue_target_comparison": {
+        "point/changed_point": 4,
+        "unit/different_target_kind": 2,
+        "unit/same_unit_tag": 5
+      },
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/both_absent": 8612,
+        "104/1/paired_numeric": 311,
+        "104/2/both_absent": 7,
+        "104/2/paired_numeric": 13417,
+        "105/0/both_absent": 2206,
+        "105/1/paired_numeric": 101,
+        "105/2/paired_numeric": 3626
+      },
+      "physical_state2_frames": 34086,
+      "physical_state2_bytes": 428249,
+      "physical_state2_sha256": "3f3d050a91b3e75001da7228c47ee09ce91cf08cc723ab62d80870d04188a205",
+      "generated_issues": 0
+    },
+    {
+      "build": 98348,
+      "data_build": 98348,
+      "replay_sha256": "a956b186a0459a47d9b0fdd8af4ccb65c437f11926186471c434e543e218b2d7",
+      "game_sha256": "221b343574b91cea563b3fc3011a160e8455e21a8e289f91ff7cdf4b3b3b2f95",
+      "game_bytes": 1408798,
+      "schema_build": 96477,
+      "schema_lf_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+      "issued_sequence_keys": 21538,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 17012,
+      "never_issued_lookup_keys": 0,
+      "paired_state2_contexts": {},
+      "symbolic_first_use": {},
+      "other_never_issued_first_event_ids": {},
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 17012
+      },
+      "modern_issue_shapes_with_bit19": {
+        "0x180100/explicit/TargetPoint/-/-/-": 9,
+        "0x2080100/explicit/None/-/-/-": 237,
+        "0x2180100/explicit/TargetPoint/-/-/-": 678,
+        "0x2188100/explicit/TargetPoint/-/-/-": 9,
+        "0x80100/explicit/None/-/-/-": 343,
+        "0x80108/implicit/TargetPoint/-/-/-": 12524,
+        "0x80108/implicit/TargetUnit/-/-/-": 3142,
+        "0x88108/implicit/TargetPoint/-/-/-": 13
+      },
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {
+        "104/changed_point/0x2180100/explicit/TargetPoint/-/-/-": 613,
+        "104/changed_point/0x80108/implicit/TargetPoint/-/-/-": 9382,
+        "104/different_target_kind/0x80108/implicit/TargetUnit/-/-/-": 304,
+        "105/changed_unit_tag/0x80108/implicit/TargetUnit/-/-/-": 99,
+        "105/different_target_kind/0x80108/implicit/TargetPoint/-/-/-": 39,
+        "105/same_unit_tag/0x80108/implicit/TargetUnit/-/-/-": 4
+      },
+      "later_issue_shapes": {},
+      "later_issue_loop_delays": {},
+      "later_issue_target_comparison": {},
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/different": 43,
+        "104/0/paired_numeric": 6142,
+        "105/0/different": 2,
+        "105/0/paired_numeric": 86
+      },
+      "physical_state2_frames": 0,
+      "physical_state2_bytes": 0,
+      "physical_state2_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "generated_issues": 0
+    },
+    {
+      "build": 98285,
+      "data_build": 98285,
+      "replay_sha256": "ab2b99202a0849ae7e54be1d2feeb713d840ed7cb713c50911ab8df9e5d62528",
+      "game_sha256": "7d72c2e6239f041a1c0b6446a9c75002ced3257c9d7ac2bafc1bbc027086e492",
+      "game_bytes": 82155,
+      "schema_build": 96477,
+      "schema_lf_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+      "issued_sequence_keys": 1507,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 1208,
+      "never_issued_lookup_keys": 0,
+      "paired_state2_contexts": {},
+      "symbolic_first_use": {},
+      "other_never_issued_first_event_ids": {},
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 1208
+      },
+      "modern_issue_shapes_with_bit19": {
+        "0x80100/explicit/None/-/-/-": 31,
+        "0x80108/implicit/TargetPoint/-/-/-": 687,
+        "0x80108/implicit/TargetUnit/-/-/-": 490
+      },
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {
+        "104/changed_point/0x80108/implicit/TargetPoint/-/-/-": 322,
+        "104/different_target_kind/0x80108/implicit/TargetUnit/-/-/-": 19,
+        "105/changed_unit_tag/0x80108/implicit/TargetUnit/-/-/-": 4,
+        "105/different_target_kind/0x80108/implicit/TargetPoint/-/-/-": 1
+      },
+      "later_issue_shapes": {},
+      "later_issue_loop_delays": {},
+      "later_issue_target_comparison": {},
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/different": 3,
+        "104/0/paired_numeric": 180,
+        "105/0/paired_numeric": 2
+      },
+      "physical_state2_frames": 0,
+      "physical_state2_bytes": 0,
+      "physical_state2_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "generated_issues": 0
+    },
+    {
+      "build": 41810,
+      "data_build": 41810,
+      "replay_sha256": "ac9ede2e7bc241a54209d723fb40594920734138f38347b21cea3a7797ae1372",
+      "game_sha256": "a13743201e08288b042cfcb14adf48826bf1d84bb292c3450b7c1d6a1510a482",
+      "game_bytes": 1225089,
+      "schema_build": 41810,
+      "schema_lf_sha256": "879d228d9d8acd21d63563538dd15841aaf49259ee0bb468b8a46b6a4ef866fd",
+      "issued_sequence_keys": 3377,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 16313,
+      "never_issued_lookup_keys": 16274,
+      "paired_state2_contexts": {
+        "point/issued_later": 19,
+        "point/never_issued": 11469,
+        "unit/issued_later": 19,
+        "unit/never_issued": 2630
+      },
+      "symbolic_first_use": {
+        "point": 11469,
+        "unit": 2630
+      },
+      "other_never_issued_first_event_ids": {
+        "104": 655,
+        "103": 1090,
+        "105": 430
+      },
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 16933,
+        "1": 1085,
+        "2": 15229
+      },
+      "modern_issue_shapes_with_bit19": {},
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {},
+      "later_issue_shapes": {
+        "point/0x100108/implicit/TargetPoint/-/-/-": 19,
+        "unit/0x100108/implicit/TargetPoint/-/-/-": 4,
+        "unit/0x100108/implicit/TargetUnit/-/-/-": 15
+      },
+      "later_issue_loop_delays": {
+        "1": 7,
+        "11": 2,
+        "2": 8,
+        "3": 9,
+        "4": 5,
+        "5": 2,
+        "6": 2,
+        "7": 2,
+        "8": 1
+      },
+      "later_issue_target_comparison": {
+        "point/changed_point": 19,
+        "unit/changed_unit_tag": 3,
+        "unit/different_target_kind": 4,
+        "unit/same_unit_tag": 12
+      },
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/both_absent": 7343,
+        "104/1/paired_numeric": 655,
+        "104/2/both_absent": 2,
+        "104/2/paired_numeric": 11488,
+        "105/0/both_absent": 1684,
+        "105/1/paired_numeric": 430,
+        "105/2/paired_numeric": 2649
+      },
+      "physical_state2_frames": 28274,
+      "physical_state2_bytes": 351641,
+      "physical_state2_sha256": "5d2a67afffa697e498d55746534d470d9c3c05cb8b094ebebdee39911eb70b11",
+      "generated_issues": 0
+    },
+    {
+      "build": 98348,
+      "data_build": 98348,
+      "replay_sha256": "afcf49a656068f343173fc79afff2d2ebf15066f531cb192382cdba9d1ea3272",
+      "game_sha256": "cba59b3e50e32b8fbd1b27668246848f64120989c8413b1980877b112e96621f",
+      "game_bytes": 2531328,
+      "schema_build": 96477,
+      "schema_lf_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+      "issued_sequence_keys": 36770,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 28818,
+      "never_issued_lookup_keys": 0,
+      "paired_state2_contexts": {},
+      "symbolic_first_use": {},
+      "other_never_issued_first_event_ids": {},
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 28818
+      },
+      "modern_issue_shapes_with_bit19": {
+        "0x2080100/explicit/None/-/-/-": 516,
+        "0x80100/explicit/None/-/-/-": 321,
+        "0x80108/implicit/TargetPoint/-/-/-": 23966,
+        "0x80108/implicit/TargetUnit/-/-/-": 3859,
+        "0x88108/implicit/TargetPoint/-/-/-": 18
+      },
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {
+        "104/changed_point/0x80108/implicit/TargetPoint/-/-/-": 17024,
+        "104/different_target_kind/0x80108/implicit/TargetUnit/-/-/-": 436,
+        "105/changed_unit_tag/0x80108/implicit/TargetUnit/-/-/-": 102,
+        "105/different_target_kind/0x80108/implicit/TargetPoint/-/-/-": 50
+      },
+      "later_issue_shapes": {},
+      "later_issue_loop_delays": {},
+      "later_issue_target_comparison": {},
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/different": 28,
+        "104/0/paired_numeric": 11112,
+        "105/0/paired_numeric": 78
+      },
+      "physical_state2_frames": 0,
+      "physical_state2_bytes": 0,
+      "physical_state2_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "generated_issues": 0
+    },
+    {
+      "build": 98348,
+      "data_build": 98348,
+      "replay_sha256": "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+      "game_sha256": "10f03d67999fdd5bdedde2456aa25859e57fc019984559450403b9b5db207eeb",
+      "game_bytes": 2155325,
+      "schema_build": 96477,
+      "schema_lf_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+      "issued_sequence_keys": 32571,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 25292,
+      "never_issued_lookup_keys": 0,
+      "paired_state2_contexts": {},
+      "symbolic_first_use": {},
+      "other_never_issued_first_event_ids": {},
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 25292
+      },
+      "modern_issue_shapes_with_bit19": {
+        "0x2080100/explicit/None/-/-/-": 6,
+        "0x80100/explicit/None/-/-/-": 359,
+        "0x80108/implicit/TargetPoint/-/-/-": 22094,
+        "0x80108/implicit/TargetUnit/-/-/-": 2674,
+        "0x88108/implicit/TargetPoint/-/-/-": 73
+      },
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {
+        "104/changed_point/0x80108/implicit/TargetPoint/-/-/-": 14816,
+        "104/different_target_kind/0x80108/implicit/TargetUnit/-/-/-": 458,
+        "105/changed_unit_tag/0x80108/implicit/TargetUnit/-/-/-": 75,
+        "105/different_target_kind/0x80108/implicit/TargetPoint/-/-/-": 48,
+        "105/same_unit_tag/0x80108/implicit/TargetUnit/-/-/-": 2
+      },
+      "later_issue_shapes": {},
+      "later_issue_loop_delays": {},
+      "later_issue_target_comparison": {},
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/different": 18,
+        "104/0/paired_numeric": 7199,
+        "105/0/paired_numeric": 42
+      },
+      "physical_state2_frames": 0,
+      "physical_state2_bytes": 0,
+      "physical_state2_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "generated_issues": 0
+    },
+    {
+      "build": 42178,
+      "data_build": 42178,
+      "replay_sha256": "b458c096308c781132fcad7b0ead4c58f8cba608ef4b8569dcd752bd03eb3289",
+      "game_sha256": "3b7ce0497c45375bba5aef1938a96fcbd1d785631d721699a1618668981eb922",
+      "game_bytes": 1448453,
+      "schema_build": 42178,
+      "schema_lf_sha256": "879d228d9d8acd21d63563538dd15841aaf49259ee0bb468b8a46b6a4ef866fd",
+      "issued_sequence_keys": 5674,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 20975,
+      "never_issued_lookup_keys": 20871,
+      "paired_state2_contexts": {
+        "point/issued_later": 46,
+        "point/never_issued": 12932,
+        "unit/issued_later": 46,
+        "unit/never_issued": 5394
+      },
+      "symbolic_first_use": {
+        "point": 12932,
+        "unit": 5394
+      },
+      "other_never_issued_first_event_ids": {
+        "105": 459,
+        "103": 1439,
+        "104": 647
+      },
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 22378,
+        "1": 1122,
+        "2": 19856
+      },
+      "modern_issue_shapes_with_bit19": {},
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {},
+      "later_issue_shapes": {
+        "point/0x100108/implicit/TargetPoint/-/-/-": 46,
+        "unit/0x100108/implicit/TargetPoint/-/-/-": 8,
+        "unit/0x100108/implicit/TargetUnit/-/-/-": 38
+      },
+      "later_issue_loop_delays": {
+        "0": 4,
+        "1": 14,
+        "10": 1,
+        "11": 4,
+        "120": 1,
+        "123": 1,
+        "15": 1,
+        "16": 2,
+        "2": 23,
+        "20": 1,
+        "24": 1,
+        "27": 1,
+        "28": 1,
+        "3": 18,
+        "32": 1,
+        "334": 1,
+        "4": 7,
+        "5": 2,
+        "6": 4,
+        "74": 1,
+        "77": 1,
+        "8": 1,
+        "90": 1
+      },
+      "later_issue_target_comparison": {
+        "point/changed_point": 46,
+        "unit/changed_unit_tag": 4,
+        "unit/different_target_kind": 8,
+        "unit/same_unit_tag": 34
+      },
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/both_absent": 9649,
+        "104/1/different": 1,
+        "104/1/paired_numeric": 647,
+        "104/2/both_absent": 3,
+        "104/2/paired_numeric": 12978,
+        "105/0/both_absent": 3341,
+        "105/1/paired_numeric": 459,
+        "105/2/paired_numeric": 5440
+      },
+      "physical_state2_frames": 36836,
+      "physical_state2_bytes": 478014,
+      "physical_state2_sha256": "0403e720f611022e2472ff8b485c8df577fa128ae3465fbd3d9f2ebf4e1e56d4",
+      "generated_issues": 0
+    },
+    {
+      "build": 98348,
+      "data_build": 98348,
+      "replay_sha256": "bc16af7f68496cddc4698f70b3853402a0f30aa37951aec3a6b555ed703879e8",
+      "game_sha256": "562b6304dfd541ed3ed8c6b1084b63217e5b3d0df477c2eb73c0594c5a47613c",
+      "game_bytes": 2733434,
+      "schema_build": 96477,
+      "schema_lf_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+      "issued_sequence_keys": 41847,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 31653,
+      "never_issued_lookup_keys": 0,
+      "paired_state2_contexts": {},
+      "symbolic_first_use": {},
+      "other_never_issued_first_event_ids": {},
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 31653
+      },
+      "modern_issue_shapes_with_bit19": {
+        "0x180100/explicit/TargetPoint/-/-/-": 2423,
+        "0x188100/explicit/TargetPoint/-/-/-": 3,
+        "0x2080100/explicit/None/-/-/-": 181,
+        "0x80100/explicit/None/-/-/-": 696,
+        "0x80108/implicit/TargetPoint/-/-/-": 24782,
+        "0x80108/implicit/TargetUnit/-/-/-": 3324,
+        "0x88108/implicit/TargetPoint/-/-/-": 114
+      },
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {
+        "104/changed_point/0x180100/explicit/TargetPoint/-/-/-": 1427,
+        "104/changed_point/0x188100/explicit/TargetPoint/-/-/-": 2,
+        "104/changed_point/0x80108/implicit/TargetPoint/-/-/-": 19268,
+        "104/different_target_kind/0x80108/implicit/TargetUnit/-/-/-": 569,
+        "105/changed_unit_tag/0x80108/implicit/TargetUnit/-/-/-": 125,
+        "105/different_target_kind/0x80108/implicit/TargetPoint/-/-/-": 70,
+        "105/same_unit_tag/0x80108/implicit/TargetUnit/-/-/-": 1
+      },
+      "later_issue_shapes": {},
+      "later_issue_loop_delays": {},
+      "later_issue_target_comparison": {},
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/different": 50,
+        "104/0/paired_numeric": 10289,
+        "105/0/paired_numeric": 85
+      },
+      "physical_state2_frames": 0,
+      "physical_state2_bytes": 0,
+      "physical_state2_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "generated_issues": 0
+    },
+    {
+      "build": 98348,
+      "data_build": 98348,
+      "replay_sha256": "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77",
+      "game_sha256": "fe3105664f740210c0d0facd986b46296246f233e41410552277dbfece3c8fe0",
+      "game_bytes": 2151377,
+      "schema_build": 96477,
+      "schema_lf_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+      "issued_sequence_keys": 35262,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 29335,
+      "never_issued_lookup_keys": 0,
+      "paired_state2_contexts": {},
+      "symbolic_first_use": {},
+      "other_never_issued_first_event_ids": {},
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 29335
+      },
+      "modern_issue_shapes_with_bit19": {
+        "0x2080100/explicit/None/-/-/-": 168,
+        "0x80100/explicit/None/-/-/-": 446,
+        "0x80108/implicit/TargetPoint/-/-/-": 22999,
+        "0x80108/implicit/TargetUnit/-/-/-": 5575,
+        "0x88108/implicit/TargetPoint/-/-/-": 36
+      },
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {
+        "104/changed_point/0x80108/implicit/TargetPoint/-/-/-": 16516,
+        "104/different_target_kind/0x80108/implicit/TargetUnit/-/-/-": 731,
+        "105/changed_unit_tag/0x80108/implicit/TargetUnit/-/-/-": 209,
+        "105/different_target_kind/0x80108/implicit/TargetPoint/-/-/-": 77,
+        "105/same_unit_tag/0x80108/implicit/TargetUnit/-/-/-": 3
+      },
+      "later_issue_shapes": {},
+      "later_issue_loop_delays": {},
+      "later_issue_target_comparison": {},
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/different": 50,
+        "104/0/paired_numeric": 10237,
+        "105/0/different": 1,
+        "105/0/paired_numeric": 128
+      },
+      "physical_state2_frames": 0,
+      "physical_state2_bytes": 0,
+      "physical_state2_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "generated_issues": 0
+    },
+    {
+      "build": 98304,
+      "data_build": 98304,
+      "replay_sha256": "d0b3309a40123379193e62f4a2c6cd7af2013ce64880a6fa5ea445c22e5dc4d7",
+      "game_sha256": "1935d3b7d16eb2b13ec67d8e8d0976c9cb6c92b623fe8e90e41b881b68edd498",
+      "game_bytes": 1999551,
+      "schema_build": 96477,
+      "schema_lf_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+      "issued_sequence_keys": 24837,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 17710,
+      "never_issued_lookup_keys": 0,
+      "paired_state2_contexts": {},
+      "symbolic_first_use": {},
+      "other_never_issued_first_event_ids": {},
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 17710
+      },
+      "modern_issue_shapes_with_bit19": {
+        "0x2080100/explicit/None/-/-/-": 151,
+        "0x80100/explicit/None/-/-/-": 265,
+        "0x80108/implicit/TargetPoint/-/-/-": 14970,
+        "0x80108/implicit/TargetUnit/-/-/-": 2084,
+        "0x88108/implicit/TargetPoint/-/-/-": 150
+      },
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {
+        "104/changed_point/0x80108/implicit/TargetPoint/-/-/-": 10219,
+        "104/different_target_kind/0x80108/implicit/TargetUnit/-/-/-": 263,
+        "105/changed_unit_tag/0x80108/implicit/TargetUnit/-/-/-": 67,
+        "105/different_target_kind/0x80108/implicit/TargetPoint/-/-/-": 25,
+        "105/same_unit_tag/0x80108/implicit/TargetUnit/-/-/-": 1
+      },
+      "later_issue_shapes": {},
+      "later_issue_loop_delays": {},
+      "later_issue_target_comparison": {},
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/different": 42,
+        "104/0/paired_numeric": 5657,
+        "105/0/paired_numeric": 40
+      },
+      "physical_state2_frames": 0,
+      "physical_state2_bytes": 0,
+      "physical_state2_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "generated_issues": 0
+    },
+    {
+      "build": 98348,
+      "data_build": 98348,
+      "replay_sha256": "d41417f0fd11a1d512e30fa77882bdebf220432bd7e9412b40440cb79a7c9cec",
+      "game_sha256": "87a7756cee09d905e16e36174d686734a6c767768cca7537bf3c49a326af0f86",
+      "game_bytes": 3426201,
+      "schema_build": 96477,
+      "schema_lf_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+      "issued_sequence_keys": 57672,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 45523,
+      "never_issued_lookup_keys": 0,
+      "paired_state2_contexts": {},
+      "symbolic_first_use": {},
+      "other_never_issued_first_event_ids": {},
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 45523
+      },
+      "modern_issue_shapes_with_bit19": {
+        "0x2080100/explicit/None/-/-/-": 578,
+        "0x2180100/explicit/TargetPoint/-/-/-": 558,
+        "0x80100/explicit/None/-/-/-": 210,
+        "0x80108/implicit/TargetPoint/-/-/-": 39159,
+        "0x80108/implicit/TargetUnit/-/-/-": 4763,
+        "0x88108/implicit/TargetPoint/-/-/-": 35
+      },
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {
+        "104/changed_point/0x2180100/explicit/TargetPoint/-/-/-": 6,
+        "104/changed_point/0x80108/implicit/TargetPoint/-/-/-": 23615,
+        "104/different_target_kind/0x80108/implicit/TargetUnit/-/-/-": 785,
+        "105/changed_unit_tag/0x80108/implicit/TargetUnit/-/-/-": 116,
+        "105/different_target_kind/0x80108/implicit/TargetPoint/-/-/-": 88,
+        "105/same_unit_tag/0x80108/implicit/TargetUnit/-/-/-": 2
+      },
+      "later_issue_shapes": {},
+      "later_issue_loop_delays": {},
+      "later_issue_target_comparison": {},
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/different": 36,
+        "104/0/paired_numeric": 12309,
+        "105/0/paired_numeric": 76
+      },
+      "physical_state2_frames": 0,
+      "physical_state2_bytes": 0,
+      "physical_state2_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "generated_issues": 0
+    },
+    {
+      "build": 41810,
+      "data_build": 41810,
+      "replay_sha256": "d417680d70137bed99a536aae8724b4f48491d986e1a6a7de0b10209d5401a68",
+      "game_sha256": "604a2034f9785e2f36ff2a1cc155486a655f72fd237eb9b2d779840078319b00",
+      "game_bytes": 734455,
+      "schema_build": 41810,
+      "schema_lf_sha256": "879d228d9d8acd21d63563538dd15841aaf49259ee0bb468b8a46b6a4ef866fd",
+      "issued_sequence_keys": 2151,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 12014,
+      "never_issued_lookup_keys": 12009,
+      "paired_state2_contexts": {
+        "point/issued_later": 3,
+        "point/never_issued": 8139,
+        "unit/issued_later": 2,
+        "unit/never_issued": 2498
+      },
+      "symbolic_first_use": {
+        "point": 8139,
+        "unit": 2498
+      },
+      "other_never_issued_first_event_ids": {
+        "103": 1153,
+        "105": 36,
+        "104": 183
+      },
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 12953,
+        "1": 219,
+        "2": 11795
+      },
+      "modern_issue_shapes_with_bit19": {},
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {},
+      "later_issue_shapes": {
+        "point/0x100108/implicit/TargetPoint/-/-/-": 3,
+        "unit/0x100108/implicit/TargetUnit/-/-/-": 2
+      },
+      "later_issue_loop_delays": {
+        "1": 2,
+        "2": 3
+      },
+      "later_issue_target_comparison": {
+        "point/changed_point": 3,
+        "unit/same_unit_tag": 2
+      },
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/both_absent": 5201,
+        "104/1/paired_numeric": 183,
+        "104/2/paired_numeric": 8142,
+        "105/0/both_absent": 1768,
+        "105/1/paired_numeric": 36,
+        "105/2/paired_numeric": 2500
+      },
+      "physical_state2_frames": 21284,
+      "physical_state2_bytes": 269766,
+      "physical_state2_sha256": "308695e55c2e32ff1e7b4b5658b283bdd26548098bf64740e1d132a225893bdf",
+      "generated_issues": 0
+    },
+    {
+      "build": 41810,
+      "data_build": 41810,
+      "replay_sha256": "d493c71358921ed49f8345963ce422dde2d32c1499f34b3a37bcb9e8e359e1ed",
+      "game_sha256": "7a0a36cedb5c72c99e465931423c7a061da9a73858a0a2dd0a267a0189406a55",
+      "game_bytes": 1248462,
+      "schema_build": 41810,
+      "schema_lf_sha256": "879d228d9d8acd21d63563538dd15841aaf49259ee0bb468b8a46b6a4ef866fd",
+      "issued_sequence_keys": 5038,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 15008,
+      "never_issued_lookup_keys": 14935,
+      "paired_state2_contexts": {
+        "point/issued_later": 36,
+        "point/never_issued": 6842,
+        "unit/issued_later": 21,
+        "unit/never_issued": 3530
+      },
+      "symbolic_first_use": {
+        "point": 6842,
+        "unit": 3530
+      },
+      "other_never_issued_first_event_ids": {
+        "103": 2263,
+        "105": 1168,
+        "104": 1132
+      },
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 15299,
+        "1": 2305,
+        "2": 12721
+      },
+      "modern_issue_shapes_with_bit19": {},
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {},
+      "later_issue_shapes": {
+        "point/0x100108/implicit/TargetPoint/-/-/-": 36,
+        "unit/0x100108/implicit/TargetPoint/-/-/-": 5,
+        "unit/0x100108/implicit/TargetUnit/-/-/-": 16
+      },
+      "later_issue_loop_delays": {
+        "0": 1,
+        "1": 10,
+        "10": 2,
+        "11": 1,
+        "13": 1,
+        "14": 4,
+        "16": 1,
+        "17": 1,
+        "2": 11,
+        "23": 1,
+        "24": 2,
+        "25": 2,
+        "26": 1,
+        "3": 3,
+        "31": 1,
+        "4": 2,
+        "41": 1,
+        "44": 1,
+        "5": 2,
+        "50": 1,
+        "53": 1,
+        "6": 1,
+        "64": 1,
+        "65": 2,
+        "7": 2,
+        "75": 1
+      },
+      "later_issue_target_comparison": {
+        "point/changed_point": 36,
+        "unit/different_target_kind": 5,
+        "unit/same_unit_tag": 16
+      },
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/both_absent": 4411,
+        "104/1/paired_numeric": 1132,
+        "104/2/both_absent": 12,
+        "104/2/paired_numeric": 6878,
+        "105/0/both_absent": 2466,
+        "105/1/paired_numeric": 1168,
+        "105/2/paired_numeric": 3551
+      },
+      "physical_state2_frames": 20858,
+      "physical_state2_bytes": 275377,
+      "physical_state2_sha256": "07893f9922a81ee6d531ce35054bc495b0f6cc200b12a13672873c2ddb19d794",
+      "generated_issues": 0
+    },
+    {
+      "build": 41810,
+      "data_build": 41810,
+      "replay_sha256": "d5af3e6672c102a5b33abc7df7884ea2648d01af8f7921f16ff6ad69f3c69a97",
+      "game_sha256": "663bc8b0bc4a32c18f1d10f80618aec67fb2402a38def036e0f9e348e6869187",
+      "game_bytes": 1614878,
+      "schema_build": 41810,
+      "schema_lf_sha256": "879d228d9d8acd21d63563538dd15841aaf49259ee0bb468b8a46b6a4ef866fd",
+      "issued_sequence_keys": 7105,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 19728,
+      "never_issued_lookup_keys": 19644,
+      "paired_state2_contexts": {
+        "point/issued_later": 41,
+        "point/never_issued": 11908,
+        "unit/issued_later": 36,
+        "unit/never_issued": 5187
+      },
+      "symbolic_first_use": {
+        "point": 11908,
+        "unit": 5187
+      },
+      "other_never_issued_first_event_ids": {
+        "103": 1843,
+        "104": 612,
+        "105": 94
+      },
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 22688,
+        "1": 708,
+        "2": 19039
+      },
+      "modern_issue_shapes_with_bit19": {},
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {},
+      "later_issue_shapes": {
+        "point/0x100108/implicit/TargetPoint/-/-/-": 41,
+        "unit/0x100108/implicit/TargetPoint/-/-/-": 1,
+        "unit/0x100108/implicit/TargetUnit/-/-/-": 35
+      },
+      "later_issue_loop_delays": {
+        "0": 2,
+        "1": 12,
+        "11": 1,
+        "13": 4,
+        "14": 1,
+        "15": 1,
+        "17": 1,
+        "2": 20,
+        "21": 2,
+        "22": 1,
+        "23": 1,
+        "26": 1,
+        "27": 1,
+        "3": 14,
+        "30": 1,
+        "4": 5,
+        "5": 4,
+        "6": 2,
+        "8": 1,
+        "80": 1,
+        "9": 1
+      },
+      "later_issue_target_comparison": {
+        "point/changed_point": 40,
+        "point/identical_point": 1,
+        "unit/different_target_kind": 1,
+        "unit/same_unit_tag": 35
+      },
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/both_absent": 8008,
+        "104/1/paired_numeric": 612,
+        "104/2/both_absent": 11,
+        "104/2/paired_numeric": 11949,
+        "105/0/both_absent": 3330,
+        "105/1/paired_numeric": 94,
+        "105/2/paired_numeric": 5223
+      },
+      "physical_state2_frames": 34344,
+      "physical_state2_bytes": 447186,
+      "physical_state2_sha256": "398fa7e8d9c9d20678ef06d3fafcddd50b0aa3e3fa24b74946463ede18bbfadf",
+      "generated_issues": 0
+    },
+    {
+      "build": 98348,
+      "data_build": 98348,
+      "replay_sha256": "db40f495edb70b2127b97cae4f479de19e18e61b2a5a0e0413052b571e1dbf7e",
+      "game_sha256": "190b16d7e8e7215d411526128952092c0c2adcf26ddc4b3cb05dae0873966c80",
+      "game_bytes": 3039689,
+      "schema_build": 96477,
+      "schema_lf_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+      "issued_sequence_keys": 45545,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 39059,
+      "never_issued_lookup_keys": 0,
+      "paired_state2_contexts": {},
+      "symbolic_first_use": {},
+      "other_never_issued_first_event_ids": {},
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 39059
+      },
+      "modern_issue_shapes_with_bit19": {
+        "0x180100/explicit/TargetUnit/-/-/-": 101,
+        "0x2080100/explicit/None/-/-/-": 352,
+        "0x80100/explicit/None/-/-/-": 957,
+        "0x80108/implicit/TargetPoint/-/-/-": 31263,
+        "0x80108/implicit/TargetUnit/-/-/-": 6223,
+        "0x88108/implicit/TargetPoint/-/-/-": 158
+      },
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {
+        "104/changed_point/0x80108/implicit/TargetPoint/-/-/-": 17900,
+        "104/different_target_kind/0x80108/implicit/TargetUnit/-/-/-": 566,
+        "105/changed_unit_tag/0x80108/implicit/TargetUnit/-/-/-": 157,
+        "105/different_target_kind/0x80108/implicit/TargetPoint/-/-/-": 50,
+        "105/same_unit_tag/0x80108/implicit/TargetUnit/-/-/-": 1
+      },
+      "later_issue_shapes": {},
+      "later_issue_loop_delays": {},
+      "later_issue_target_comparison": {},
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/different": 111,
+        "104/0/paired_numeric": 9543,
+        "105/0/different": 2,
+        "105/0/paired_numeric": 82
+      },
+      "physical_state2_frames": 0,
+      "physical_state2_bytes": 0,
+      "physical_state2_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "generated_issues": 0
+    },
+    {
+      "build": 41810,
+      "data_build": 41810,
+      "replay_sha256": "df78325ebf458d513d59bc5f25919561301dddb8ec6b03fe85b63918b703270f",
+      "game_sha256": "a99a2102b40f46d68dd8e0b182dc2d303944533870a4991c84ba4f6a765e72a9",
+      "game_bytes": 866370,
+      "schema_build": 41810,
+      "schema_lf_sha256": "879d228d9d8acd21d63563538dd15841aaf49259ee0bb468b8a46b6a4ef866fd",
+      "issued_sequence_keys": 3413,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 11751,
+      "never_issued_lookup_keys": 11701,
+      "paired_state2_contexts": {
+        "point/issued_later": 24,
+        "point/never_issued": 7405,
+        "unit/issued_later": 20,
+        "unit/never_issued": 3086
+      },
+      "symbolic_first_use": {
+        "point": 7405,
+        "unit": 3086
+      },
+      "other_never_issued_first_event_ids": {
+        "103": 1018,
+        "104": 134,
+        "105": 58
+      },
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 13180,
+        "1": 196,
+        "2": 11567
+      },
+      "modern_issue_shapes_with_bit19": {},
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {},
+      "later_issue_shapes": {
+        "point/0x100108/implicit/TargetPoint/-/-/-": 24,
+        "unit/0x100108/implicit/TargetPoint/-/-/-": 5,
+        "unit/0x100108/implicit/TargetUnit/-/-/-": 15
+      },
+      "later_issue_loop_delays": {
+        "0": 1,
+        "1": 6,
+        "10": 1,
+        "11": 1,
+        "16": 2,
+        "2": 15,
+        "26": 1,
+        "29": 1,
+        "3": 5,
+        "36": 1,
+        "4": 4,
+        "5": 2,
+        "51": 1,
+        "55": 1,
+        "6": 2
+      },
+      "later_issue_target_comparison": {
+        "point/changed_point": 22,
+        "point/identical_point": 2,
+        "unit/different_target_kind": 5,
+        "unit/same_unit_tag": 15
+      },
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/both_absent": 4936,
+        "104/1/paired_numeric": 134,
+        "104/2/both_absent": 11,
+        "104/2/paired_numeric": 7429,
+        "105/0/both_absent": 2049,
+        "105/1/paired_numeric": 58,
+        "105/2/paired_numeric": 3106
+      },
+      "physical_state2_frames": 21070,
+      "physical_state2_bytes": 273365,
+      "physical_state2_sha256": "d455cf4140fbe691f9ab6ab9f1da6ca75933a37e83dc5ab3f493a8bad6835dfc",
+      "generated_issues": 0
+    },
+    {
+      "build": 42178,
+      "data_build": 42178,
+      "replay_sha256": "e170851012df447a1dbb1567e0822e9ce24f1940469adad3fd3272e2936fb4c3",
+      "game_sha256": "25f4875299a1a2b0eeddda6f029404b17768a85cc736a20f89b202889a449051",
+      "game_bytes": 1043463,
+      "schema_build": 42178,
+      "schema_lf_sha256": "879d228d9d8acd21d63563538dd15841aaf49259ee0bb468b8a46b6a4ef866fd",
+      "issued_sequence_keys": 3660,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 16080,
+      "never_issued_lookup_keys": 16022,
+      "paired_state2_contexts": {
+        "point/issued_later": 33,
+        "point/never_issued": 10840,
+        "unit/issued_later": 14,
+        "unit/never_issued": 3173
+      },
+      "symbolic_first_use": {
+        "point": 10840,
+        "unit": 3173
+      },
+      "other_never_issued_first_event_ids": {
+        "103": 1616,
+        "105": 78,
+        "104": 315
+      },
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 17548,
+        "1": 394,
+        "2": 15689
+      },
+      "modern_issue_shapes_with_bit19": {},
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {},
+      "later_issue_shapes": {
+        "point/0x100108/implicit/TargetPoint/-/-/-": 33,
+        "unit/0x100108/implicit/TargetPoint/-/-/-": 3,
+        "unit/0x100108/implicit/TargetUnit/-/-/-": 11
+      },
+      "later_issue_loop_delays": {
+        "1": 9,
+        "11": 1,
+        "116": 1,
+        "12": 1,
+        "13": 1,
+        "15": 2,
+        "16": 1,
+        "17": 1,
+        "2": 18,
+        "23": 1,
+        "3": 3,
+        "35": 1,
+        "42": 1,
+        "43": 1,
+        "5": 1,
+        "52": 1,
+        "67": 1,
+        "7": 1,
+        "8": 1
+      },
+      "later_issue_target_comparison": {
+        "point/changed_point": 33,
+        "unit/different_target_kind": 3,
+        "unit/same_unit_tag": 11
+      },
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/both_absent": 7388,
+        "104/1/different": 1,
+        "104/1/paired_numeric": 315,
+        "104/2/both_absent": 7,
+        "104/2/paired_numeric": 10873,
+        "105/0/both_absent": 2025,
+        "105/1/paired_numeric": 78,
+        "105/2/paired_numeric": 3187
+      },
+      "physical_state2_frames": 28120,
+      "physical_state2_bytes": 355250,
+      "physical_state2_sha256": "c3322413f119b9da65e98a3f78d4be7219343ec3eeca667a1777ba5d0c2da02f",
+      "generated_issues": 0
+    },
+    {
+      "build": 42178,
+      "data_build": 42178,
+      "replay_sha256": "e2322ed8adfb688bdc02c9378bdd3cebad86c74a8f89eff3df2c0ebd02a306c3",
+      "game_sha256": "a92f386a5f920779b3830651d31611693dc3e121c99474d99e1bbc6b700df706",
+      "game_bytes": 1888129,
+      "schema_build": 42178,
+      "schema_lf_sha256": "879d228d9d8acd21d63563538dd15841aaf49259ee0bb468b8a46b6a4ef866fd",
+      "issued_sequence_keys": 4772,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 25369,
+      "never_issued_lookup_keys": 25287,
+      "paired_state2_contexts": {
+        "point/issued_later": 36,
+        "point/never_issued": 17756,
+        "unit/issued_later": 38,
+        "unit/never_issued": 5542
+      },
+      "symbolic_first_use": {
+        "point": 17755,
+        "unit": 5542
+      },
+      "other_never_issued_first_event_ids": {
+        "103": 1340,
+        "105": 285,
+        "104": 365
+      },
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 26978,
+        "1": 654,
+        "2": 24715
+      },
+      "modern_issue_shapes_with_bit19": {},
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {},
+      "later_issue_shapes": {
+        "point/0x100108/implicit/TargetPoint/-/-/-": 36,
+        "unit/0x100108/implicit/TargetPoint/-/-/-": 6,
+        "unit/0x100108/implicit/TargetUnit/-/-/-": 32
+      },
+      "later_issue_loop_delays": {
+        "1": 23,
+        "10": 2,
+        "12": 2,
+        "16": 1,
+        "17": 1,
+        "18": 2,
+        "2": 19,
+        "21": 2,
+        "22": 1,
+        "24": 1,
+        "247": 1,
+        "29": 1,
+        "3": 4,
+        "36": 1,
+        "38": 1,
+        "4": 2,
+        "46": 1,
+        "5": 2,
+        "50": 2,
+        "76": 1,
+        "8": 1,
+        "80": 1,
+        "9": 1,
+        "95": 1
+      },
+      "later_issue_target_comparison": {
+        "point/changed_point": 36,
+        "unit/different_target_kind": 6,
+        "unit/same_unit_tag": 32
+      },
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/both_absent": 12087,
+        "104/1/paired_numeric": 365,
+        "104/2/both_absent": 4,
+        "104/2/paired_numeric": 17792,
+        "105/0/both_absent": 3444,
+        "105/1/paired_numeric": 285,
+        "105/2/paired_numeric": 5580
+      },
+      "physical_state2_frames": 46744,
+      "physical_state2_bytes": 593356,
+      "physical_state2_sha256": "64994d28abab6877816d6a02c61cdfe92d3c948c871edc39196267c2b4167701",
+      "generated_issues": 0
+    },
+    {
+      "build": 41810,
+      "data_build": 41810,
+      "replay_sha256": "e5931b469dae86d95741bff08b71fc06bb28d5344f7c2ea64c4cc91f60570b2b",
+      "game_sha256": "87d92bc0240298fcb3c876f179b1364ada24d63b70ee537b0240397220f0b4bc",
+      "game_bytes": 1140507,
+      "schema_build": 41810,
+      "schema_lf_sha256": "879d228d9d8acd21d63563538dd15841aaf49259ee0bb468b8a46b6a4ef866fd",
+      "issued_sequence_keys": 3256,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 15804,
+      "never_issued_lookup_keys": 15726,
+      "paired_state2_contexts": {
+        "point/issued_later": 32,
+        "point/never_issued": 9991,
+        "unit/issued_later": 37,
+        "unit/never_issued": 4535
+      },
+      "symbolic_first_use": {
+        "point": 9991,
+        "unit": 4535
+      },
+      "other_never_issued_first_event_ids": {
+        "103": 1062,
+        "105": 42,
+        "104": 96
+      },
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 17390,
+        "1": 141,
+        "2": 15675
+      },
+      "modern_issue_shapes_with_bit19": {},
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {},
+      "later_issue_shapes": {
+        "point/0x100108/implicit/TargetPoint/-/-/-": 32,
+        "unit/0x100108/implicit/TargetPoint/-/-/-": 8,
+        "unit/0x100108/implicit/TargetUnit/-/-/-": 29
+      },
+      "later_issue_loop_delays": {
+        "0": 4,
+        "1": 13,
+        "10": 1,
+        "2": 13,
+        "203": 1,
+        "3": 15,
+        "35": 1,
+        "38": 1,
+        "4": 8,
+        "5": 2,
+        "6": 5,
+        "7": 1,
+        "8": 4
+      },
+      "later_issue_target_comparison": {
+        "point/changed_point": 32,
+        "unit/changed_unit_tag": 1,
+        "unit/different_target_kind": 8,
+        "unit/same_unit_tag": 28
+      },
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/both_absent": 6575,
+        "104/1/paired_numeric": 96,
+        "104/2/both_absent": 6,
+        "104/2/paired_numeric": 10023,
+        "105/0/both_absent": 2887,
+        "105/1/paired_numeric": 42,
+        "105/2/paired_numeric": 4572
+      },
+      "physical_state2_frames": 29190,
+      "physical_state2_bytes": 381405,
+      "physical_state2_sha256": "0154a372193a68740ae10a72343d785d5cdb5fd5529251c1c95246aaccadebaa",
+      "generated_issues": 0
+    },
+    {
+      "build": 98348,
+      "data_build": 98348,
+      "replay_sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+      "game_sha256": "6a08faa8a777b7e95c768becafeb91dc354deb613b08b9570e7202d5c6f4324c",
+      "game_bytes": 2748018,
+      "schema_build": 96477,
+      "schema_lf_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+      "issued_sequence_keys": 41989,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 32851,
+      "never_issued_lookup_keys": 0,
+      "paired_state2_contexts": {},
+      "symbolic_first_use": {},
+      "other_never_issued_first_event_ids": {},
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 32851
+      },
+      "modern_issue_shapes_with_bit19": {
+        "0x2080100/explicit/None/-/-/-": 712,
+        "0x80100/explicit/None/-/-/-": 251,
+        "0x80108/implicit/TargetPoint/-/-/-": 26519,
+        "0x80108/implicit/TargetUnit/-/-/-": 4916,
+        "0x88108/implicit/TargetPoint/-/-/-": 269
+      },
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {
+        "104/changed_point/0x80108/implicit/TargetPoint/-/-/-": 18509,
+        "104/different_target_kind/0x80108/implicit/TargetUnit/-/-/-": 673,
+        "105/changed_unit_tag/0x80108/implicit/TargetUnit/-/-/-": 179,
+        "105/different_target_kind/0x80108/implicit/TargetPoint/-/-/-": 61
+      },
+      "later_issue_shapes": {},
+      "later_issue_loop_delays": {},
+      "later_issue_target_comparison": {},
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/different": 73,
+        "104/0/paired_numeric": 12253,
+        "105/0/different": 3,
+        "105/0/paired_numeric": 102
+      },
+      "physical_state2_frames": 0,
+      "physical_state2_bytes": 0,
+      "physical_state2_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "generated_issues": 0
+    },
+    {
+      "build": 41810,
+      "data_build": 41810,
+      "replay_sha256": "f1793e9b408350140762926462e67574010cc70777f847285765724aa8f27b3b",
+      "game_sha256": "c6b556102afd30bbfa7ece209eddd4993a3e0a8740bf973eeacf9562718cb2bf",
+      "game_bytes": 1701787,
+      "schema_build": 41810,
+      "schema_lf_sha256": "879d228d9d8acd21d63563538dd15841aaf49259ee0bb468b8a46b6a4ef866fd",
+      "issued_sequence_keys": 4783,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 27132,
+      "never_issued_lookup_keys": 27089,
+      "paired_state2_contexts": {
+        "point/issued_later": 13,
+        "point/never_issued": 18991,
+        "unit/issued_later": 26,
+        "unit/never_issued": 6046
+      },
+      "symbolic_first_use": {
+        "point": 18991,
+        "unit": 6046
+      },
+      "other_never_issued_first_event_ids": {
+        "103": 1757,
+        "104": 150,
+        "105": 145
+      },
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 29456,
+        "1": 295,
+        "2": 26838
+      },
+      "modern_issue_shapes_with_bit19": {},
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {},
+      "later_issue_shapes": {
+        "point/0x100108/implicit/TargetPoint/-/-/-": 13,
+        "unit/0x100108/implicit/TargetPoint/-/-/-": 3,
+        "unit/0x100108/implicit/TargetUnit/-/-/-": 23
+      },
+      "later_issue_loop_delays": {
+        "1": 7,
+        "2": 21,
+        "3": 6,
+        "4": 4,
+        "5": 1
+      },
+      "later_issue_target_comparison": {
+        "point/changed_point": 13,
+        "unit/changed_unit_tag": 1,
+        "unit/different_target_kind": 3,
+        "unit/same_unit_tag": 22
+      },
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/both_absent": 11679,
+        "104/1/paired_numeric": 150,
+        "104/2/both_absent": 1,
+        "104/2/paired_numeric": 19004,
+        "105/0/both_absent": 4080,
+        "105/1/paired_numeric": 145,
+        "105/2/paired_numeric": 6072
+      },
+      "physical_state2_frames": 50152,
+      "physical_state2_bytes": 637468,
+      "physical_state2_sha256": "80192f7ae482e09f27dd463ce183bfe3bcd49076132d8306d6b0db787e235320",
+      "generated_issues": 0
+    },
+    {
+      "build": 41810,
+      "data_build": 41810,
+      "replay_sha256": "f5d9782e55da9d118c6b037e0b39eaac4cb494d92b2eaacd4d7b6842ad866b46",
+      "game_sha256": "d49e1ec141c7a3c60b0a9d9c59ff611cb01a9e179ec03834365c131929c401dc",
+      "game_bytes": 1093673,
+      "schema_build": 41810,
+      "schema_lf_sha256": "879d228d9d8acd21d63563538dd15841aaf49259ee0bb468b8a46b6a4ef866fd",
+      "issued_sequence_keys": 2459,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 15930,
+      "never_issued_lookup_keys": 15881,
+      "paired_state2_contexts": {
+        "point/issued_later": 18,
+        "point/never_issued": 9778,
+        "unit/issued_later": 29,
+        "unit/never_issued": 4538
+      },
+      "symbolic_first_use": {
+        "point": 9778,
+        "unit": 4538
+      },
+      "other_never_issued_first_event_ids": {
+        "104": 165,
+        "103": 1299,
+        "105": 101
+      },
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 16883,
+        "1": 266,
+        "2": 15670
+      },
+      "modern_issue_shapes_with_bit19": {},
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {},
+      "later_issue_shapes": {
+        "point/0x100108/implicit/TargetPoint/-/-/-": 18,
+        "unit/0x100108/implicit/TargetPoint/-/-/-": 5,
+        "unit/0x100108/implicit/TargetUnit/-/-/-": 24
+      },
+      "later_issue_loop_delays": {
+        "1": 5,
+        "11": 2,
+        "12": 1,
+        "17": 1,
+        "2": 17,
+        "3": 10,
+        "4": 2,
+        "5": 1,
+        "6": 4,
+        "8": 1,
+        "9": 3
+      },
+      "later_issue_target_comparison": {
+        "point/changed_point": 17,
+        "point/identical_point": 1,
+        "unit/changed_unit_tag": 3,
+        "unit/different_target_kind": 5,
+        "unit/same_unit_tag": 21
+      },
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/both_absent": 6639,
+        "104/1/paired_numeric": 165,
+        "104/2/both_absent": 4,
+        "104/2/paired_numeric": 9796,
+        "105/0/both_absent": 3049,
+        "105/1/paired_numeric": 101,
+        "105/2/paired_numeric": 4567
+      },
+      "physical_state2_frames": 28726,
+      "physical_state2_bytes": 376020,
+      "physical_state2_sha256": "54ee9088dfd8de2ecad85ea88a645ad1c0fe829b8b06bb905bc3c621f7db77fb",
+      "generated_issues": 0
+    },
+    {
+      "build": 41810,
+      "data_build": 41810,
+      "replay_sha256": "f77c267be04b71b7901d9797ac12cfba8b94596bc9c0e2166904461f856eba3e",
+      "game_sha256": "45991b0d251fc1321f01fd34f5a8e1684f447c517671948ec05b2588fa5c1e42",
+      "game_bytes": 1192063,
+      "schema_build": 41810,
+      "schema_lf_sha256": "879d228d9d8acd21d63563538dd15841aaf49259ee0bb468b8a46b6a4ef866fd",
+      "issued_sequence_keys": 3201,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 19625,
+      "never_issued_lookup_keys": 19598,
+      "paired_state2_contexts": {
+        "point/issued_later": 17,
+        "point/never_issued": 11242,
+        "unit/issued_later": 9,
+        "unit/never_issued": 5939
+      },
+      "symbolic_first_use": {
+        "point": 11242,
+        "unit": 5939
+      },
+      "other_never_issued_first_event_ids": {
+        "103": 1541,
+        "105": 645,
+        "104": 231
+      },
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 20585,
+        "1": 890,
+        "2": 18737
+      },
+      "modern_issue_shapes_with_bit19": {},
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {},
+      "later_issue_shapes": {
+        "point/0x100108/implicit/TargetPoint/-/-/-": 17,
+        "unit/0x100108/implicit/TargetUnit/-/-/-": 9
+      },
+      "later_issue_loop_delays": {
+        "1": 5,
+        "115": 1,
+        "12": 1,
+        "127": 1,
+        "16": 1,
+        "2": 7,
+        "20": 1,
+        "25": 1,
+        "3": 2,
+        "32": 2,
+        "39": 1,
+        "4": 1,
+        "78": 1,
+        "98": 1
+      },
+      "later_issue_target_comparison": {
+        "point/changed_point": 15,
+        "point/identical_point": 2,
+        "unit/same_unit_tag": 9
+      },
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/both_absent": 6369,
+        "104/1/paired_numeric": 231,
+        "104/2/both_absent": 2,
+        "104/2/paired_numeric": 11259,
+        "105/0/both_absent": 3827,
+        "105/1/paired_numeric": 645,
+        "105/2/paired_numeric": 5948
+      },
+      "physical_state2_frames": 34414,
+      "physical_state2_bytes": 455241,
+      "physical_state2_sha256": "78dcd88fb33df1bf28dc254969b30d21bf337c7c449c725eb3051ff8a21120c5",
+      "generated_issues": 0
+    },
+    {
+      "build": 98348,
+      "data_build": 98348,
+      "replay_sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+      "game_sha256": "2a6c720487fe31eecc299ec2093935f0c89e7c29ac35f4206cabe0161329fe9e",
+      "game_bytes": 1243162,
+      "schema_build": 96477,
+      "schema_lf_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+      "issued_sequence_keys": 19197,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 15100,
+      "never_issued_lookup_keys": 0,
+      "paired_state2_contexts": {},
+      "symbolic_first_use": {},
+      "other_never_issued_first_event_ids": {},
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 15100
+      },
+      "modern_issue_shapes_with_bit19": {
+        "0x180100/explicit/TargetPoint/-/-/-": 64,
+        "0x2080100/explicit/None/-/-/-": 22,
+        "0x2180100/explicit/TargetPoint/-/-/-": 275,
+        "0x80100/explicit/None/-/-/-": 203,
+        "0x80108/implicit/TargetPoint/-/-/-": 12706,
+        "0x80108/implicit/TargetUnit/-/-/-": 1756,
+        "0x88108/implicit/TargetPoint/-/-/-": 6
+      },
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {
+        "104/changed_point/0x2180100/explicit/TargetPoint/-/-/-": 255,
+        "104/changed_point/0x80108/implicit/TargetPoint/-/-/-": 8502,
+        "104/different_target_kind/0x80108/implicit/TargetUnit/-/-/-": 245,
+        "105/changed_unit_tag/0x80108/implicit/TargetUnit/-/-/-": 66,
+        "105/different_target_kind/0x80108/implicit/TargetPoint/-/-/-": 30
+      },
+      "later_issue_shapes": {},
+      "later_issue_loop_delays": {},
+      "later_issue_target_comparison": {},
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/different": 12,
+        "104/0/paired_numeric": 5349,
+        "105/0/different": 2,
+        "105/0/paired_numeric": 36
+      },
+      "physical_state2_frames": 0,
+      "physical_state2_bytes": 0,
+      "physical_state2_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "generated_issues": 0
+    },
+    {
+      "build": 98348,
+      "data_build": 98348,
+      "replay_sha256": "fe801daf9df44f10db2b950989308c8ee2fa55c03b4adfef7ac383b4d46583bf",
+      "game_sha256": "6e5d85d9cb49b9c383573fe2e4cb23e13edb91495ca7f767d6bc8fb6040d462e",
+      "game_bytes": 2101297,
+      "schema_build": 96477,
+      "schema_lf_sha256": "e95b728028399e7ffcfd32dff5e0c5fa3077d3827837755ccf40da2efcedbc84",
+      "issued_sequence_keys": 30374,
+      "update_sequence_in_grammar": [
+        true,
+        true
+      ],
+      "explicit_lookup_keys": 23756,
+      "never_issued_lookup_keys": 0,
+      "paired_state2_contexts": {},
+      "symbolic_first_use": {},
+      "other_never_issued_first_event_ids": {},
+      "one_prior_creator_shapes": {},
+      "all_manager_states": {
+        "0": 23756
+      },
+      "modern_issue_shapes_with_bit19": {
+        "0x2080100/explicit/None/-/-/-": 275,
+        "0x80100/explicit/None/-/-/-": 159,
+        "0x80108/implicit/TargetPoint/-/-/-": 19641,
+        "0x80108/implicit/TargetUnit/-/-/-": 3619,
+        "0x88108/implicit/TargetPoint/-/-/-": 25
+      },
+      "modern_first_target_updates_of_unique_prior_bit19_issues": {
+        "104/changed_point/0x80108/implicit/TargetPoint/-/-/-": 14576,
+        "104/different_target_kind/0x80108/implicit/TargetUnit/-/-/-": 404,
+        "105/changed_unit_tag/0x80108/implicit/TargetUnit/-/-/-": 92,
+        "105/different_target_kind/0x80108/implicit/TargetPoint/-/-/-": 45,
+        "105/same_unit_tag/0x80108/implicit/TargetUnit/-/-/-": 1
+      },
+      "later_issue_shapes": {},
+      "later_issue_loop_delays": {},
+      "later_issue_target_comparison": {},
+      "update_agrees_with_issue_target": {},
+      "all_same_loop_update_manager_pairs": {
+        "104/0/different": 30,
+        "104/0/paired_numeric": 9757,
+        "105/0/paired_numeric": 71
+      },
+      "physical_state2_frames": 0,
+      "physical_state2_bytes": 0,
+      "physical_state2_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "generated_issues": 0
+    }
+  ],
+  "by_build_including_source": {
+    "39445": {
+      "recordings": 1,
+      "symbolic_first_use": {},
+      "all_manager_states": {
+        "0": 21515,
+        "1": 1288,
+        "2": 18612
+      },
+      "never_issued_lookup_keys": 19803,
+      "physical_state2_frames": 0
+    },
+    "39951": {
+      "recordings": 1,
+      "symbolic_first_use": {},
+      "all_manager_states": {
+        "0": 16191,
+        "1": 212,
+        "2": 14457
+      },
+      "never_issued_lookup_keys": 14591,
+      "physical_state2_frames": 0
+    },
+    "41150": {
+      "recordings": 1,
+      "symbolic_first_use": {
+        "point": 11750,
+        "unit": 3844
+      },
+      "all_manager_states": {
+        "0": 19438,
+        "1": 981,
+        "2": 16957
+      },
+      "never_issued_lookup_keys": 17894,
+      "physical_state2_frames": 31254
+    },
+    "41810": {
+      "recordings": 24,
+      "symbolic_first_use": {
+        "point": 257628,
+        "unit": 95156
+      },
+      "all_manager_states": {
+        "0": 433887,
+        "1": 21425,
+        "2": 385271
+      },
+      "never_issued_lookup_keys": 405223,
+      "physical_state2_frames": 707972
+    },
+    "42178": {
+      "recordings": 6,
+      "symbolic_first_use": {
+        "point": 75609,
+        "unit": 28580
+      },
+      "all_manager_states": {
+        "0": 125878,
+        "1": 2451,
+        "2": 112981
+      },
+      "never_issued_lookup_keys": 115052,
+      "physical_state2_frames": 209036
+    },
+    "42273": {
+      "recordings": 1,
+      "symbolic_first_use": {
+        "point": 4716,
+        "unit": 730
+      },
+      "all_manager_states": {
+        "0": 6861,
+        "1": 1437,
+        "2": 5820
+      },
+      "never_issued_lookup_keys": 7243,
+      "physical_state2_frames": 10914
+    },
+    "97605": {
+      "recordings": 1,
+      "symbolic_first_use": {},
+      "all_manager_states": {
+        "0": 22801
+      },
+      "never_issued_lookup_keys": 0,
+      "physical_state2_frames": 0
+    },
+    "98285": {
+      "recordings": 3,
+      "symbolic_first_use": {},
+      "all_manager_states": {
+        "0": 16309
+      },
+      "never_issued_lookup_keys": 5,
+      "physical_state2_frames": 0
+    },
+    "98304": {
+      "recordings": 1,
+      "symbolic_first_use": {},
+      "all_manager_states": {
+        "0": 17710
+      },
+      "never_issued_lookup_keys": 0,
+      "physical_state2_frames": 0
+    },
+    "98348": {
+      "recordings": 24,
+      "symbolic_first_use": {},
+      "all_manager_states": {
+        "0": 621686
+      },
+      "never_issued_lookup_keys": 2,
+      "physical_state2_frames": 0
+    }
+  }
+}
