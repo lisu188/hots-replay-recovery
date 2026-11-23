@@ -1,0 +1,312 @@
+{
+  "timer": {
+    "respawn_seconds": 90,
+    "warning_seconds": 30,
+    "loops": 1920
+  },
+  "cases": [
+    {
+      "build": 41810,
+      "sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+      "cycles": 4,
+      "timed_respawns": 3,
+      "activation_owner_matches": 4,
+      "vehicle_pings": {
+        "piloted": 4,
+        "before_activation": 1
+      },
+      "pilot_and_upkeep": {
+        "matched": 4,
+        "different": 0
+      },
+      "native_physical_activation_bytes": 0,
+      "sparse_target_owner_sha256": "f46bf7815ba94dfc61582114157be93c1f024d43f15a85e09b9e068c15ff37ef",
+      "sparse_target_owner_bytes": 88
+    },
+    {
+      "build": 41810,
+      "sha256": "7efa1c335816eebe802747ae4b16252ed22fcd8387b09d24b115b2917542b52a",
+      "cycles": 4,
+      "timed_respawns": 3,
+      "activation_owner_matches": 4,
+      "vehicle_pings": {
+        "piloted": 1,
+        "before_activation": 3
+      },
+      "pilot_and_upkeep": {
+        "matched": 4,
+        "different": 0
+      },
+      "native_physical_activation_bytes": 0,
+      "sparse_target_owner_sha256": "5442e66d617682718f4271b6f8cebdb3a312fc456a4b88e931110c09d3307518",
+      "sparse_target_owner_bytes": 89
+    },
+    {
+      "build": 41810,
+      "sha256": "2fca3c78d0e459d4452e3fb1f41ff3fce22b9c1f8f113019389195ff171bf618",
+      "cycles": 3,
+      "timed_respawns": 2,
+      "activation_owner_matches": 2,
+      "vehicle_pings": {
+        "before_activation": 1
+      },
+      "pilot_and_upkeep": {
+        "matched": 2,
+        "different": 0
+      },
+      "native_physical_activation_bytes": 0,
+      "sparse_target_owner_sha256": "0053466737ace56c5354cf0b24cad2a115f8718e4ab87087f7ba2d1aa2d17eee",
+      "sparse_target_owner_bytes": 45
+    },
+    {
+      "build": 41810,
+      "sha256": "8c4fb83989b528ea3227f6c97758293d1f650e33caa3d38c6a2a84d27ab0850d",
+      "cycles": 3,
+      "timed_respawns": 2,
+      "activation_owner_matches": 3,
+      "vehicle_pings": {
+        "piloted": 2
+      },
+      "pilot_and_upkeep": {
+        "matched": 3,
+        "different": 0
+      },
+      "native_physical_activation_bytes": 0,
+      "sparse_target_owner_sha256": "94d43a9da3b08274e57582fc42fb17f3d23871f2332127659935ef0d82985484",
+      "sparse_target_owner_bytes": 65
+    },
+    {
+      "build": 98348,
+      "sha256": "882f4895651799f7cc42c6b48dd4452f33408a147e6bc9c15c142e36ad77e21c",
+      "cycles": 4,
+      "timed_respawns": 3,
+      "activation_owner_matches": 4,
+      "vehicle_pings": {},
+      "pilot_and_upkeep": {
+        "matched": 4,
+        "different": 0
+      },
+      "native_physical_activation_bytes": 85,
+      "sparse_target_owner_sha256": "fa821237d78f92b02d0d0f5607d8ccfab4b4e71882c8cf77ee97f166c2cb8df6",
+      "sparse_target_owner_bytes": 89
+    },
+    {
+      "build": 98348,
+      "sha256": "889b1d8f2ef029abdc691fce6d52c20489c0cab2fe1220c1003d30608fdcd78e",
+      "cycles": 3,
+      "timed_respawns": 2,
+      "activation_owner_matches": 3,
+      "vehicle_pings": {},
+      "pilot_and_upkeep": {
+        "matched": 3,
+        "different": 0
+      },
+      "native_physical_activation_bytes": 63,
+      "sparse_target_owner_sha256": "399bc83977d860e23d9ca1fbaac5ef46c84598ccf699080b38877d7bbfcf271c",
+      "sparse_target_owner_bytes": 67
+    },
+    {
+      "build": 98348,
+      "sha256": "742c87226b179fcb187998c561f160e806d3f4b9648f9f0dd3167466448ed9db",
+      "cycles": 3,
+      "timed_respawns": 2,
+      "activation_owner_matches": 2,
+      "vehicle_pings": {},
+      "pilot_and_upkeep": {
+        "matched": 2,
+        "different": 0
+      },
+      "native_physical_activation_bytes": 42,
+      "sparse_target_owner_sha256": "e918f52053c08d2ca5eb777bac96cdbf956d13bb108a191afdab5678270af767",
+      "sparse_target_owner_bytes": 45
+    },
+    {
+      "build": 98348,
+      "sha256": "78d20d5f3cbeb85843420e9bc058fa0873d246c74224732e7cdaee5a138bf85a",
+      "cycles": 5,
+      "timed_respawns": 4,
+      "activation_owner_matches": 5,
+      "vehicle_pings": {},
+      "pilot_and_upkeep": {
+        "matched": 5,
+        "different": 0
+      },
+      "native_physical_activation_bytes": 108,
+      "sparse_target_owner_sha256": "0078f5a57ad807c3e78cc9f6d379f06baf547f705d1cdc473e55d99ae26dd53d",
+      "sparse_target_owner_bytes": 113
+    },
+    {
+      "build": 98348,
+      "sha256": "fc85db148697edec3488605f13591275d3b46b362009089584697249491df76c",
+      "cycles": 3,
+      "timed_respawns": 2,
+      "activation_owner_matches": 3,
+      "vehicle_pings": {},
+      "pilot_and_upkeep": {
+        "matched": 3,
+        "different": 0
+      },
+      "native_physical_activation_bytes": 63,
+      "sparse_target_owner_sha256": "70cd19806f7323bc8d5226c1248e8f24c0fbd551400a40a530e39dbf3de07725",
+      "sparse_target_owner_bytes": 66
+    },
+    {
+      "build": 98348,
+      "sha256": "6050999619a7d6732765025f2bc55b487bc5f1c3f6a511d500c4ad270ce8eed4",
+      "cycles": 5,
+      "timed_respawns": 4,
+      "activation_owner_matches": 5,
+      "vehicle_pings": {},
+      "pilot_and_upkeep": {
+        "matched": 5,
+        "different": 0
+      },
+      "native_physical_activation_bytes": 106,
+      "sparse_target_owner_sha256": "46fb42c11371b27acc36ddd93ed7d6187c1fb7eaf2bd83a8b1599f217f84b305",
+      "sparse_target_owner_bytes": 111
+    },
+    {
+      "build": 98348,
+      "sha256": "eba0a8353d6fd4d19363267f7164b8a9d8a0dfd6f2974583f7403fc49760661c",
+      "cycles": 5,
+      "timed_respawns": 4,
+      "activation_owner_matches": 4,
+      "vehicle_pings": {},
+      "pilot_and_upkeep": {
+        "matched": 4,
+        "different": 0
+      },
+      "native_physical_activation_bytes": 84,
+      "sparse_target_owner_sha256": "7ecc1993b484dc59f4c86f2998229a309793cd1b5c2a59cac390631b4fcf636a",
+      "sparse_target_owner_bytes": 88
+    },
+    {
+      "build": 98348,
+      "sha256": "59bea7829e0ae19e0fc7eccd540c9541589aaafe6c2930ac3b7d5cbfcfa164c7",
+      "cycles": 4,
+      "timed_respawns": 3,
+      "activation_owner_matches": 3,
+      "vehicle_pings": {
+        "piloted": 2
+      },
+      "pilot_and_upkeep": {
+        "matched": 3,
+        "different": 0
+      },
+      "native_physical_activation_bytes": 63,
+      "sparse_target_owner_sha256": "cb6ee3349bfa73ee6d4f09542add16b3f218fa0ddd35fbaad22985eddc7fb772",
+      "sparse_target_owner_bytes": 66
+    },
+    {
+      "build": 98348,
+      "sha256": "72c43e7e28920acc3866b925768e6e6c5273b303eb455a85925ceb1e1146f2bd",
+      "cycles": 4,
+      "timed_respawns": 3,
+      "activation_owner_matches": 3,
+      "vehicle_pings": {},
+      "pilot_and_upkeep": {
+        "matched": 3,
+        "different": 0
+      },
+      "native_physical_activation_bytes": 64,
+      "sparse_target_owner_sha256": "0fee75cb67dcecc15aeb950809081885de1a511e685290d27c06cfe8e1a4039d",
+      "sparse_target_owner_bytes": 67
+    },
+    {
+      "build": 98348,
+      "sha256": "6753244ac500b071916b00bf9e498d99a67fd6aa2950e67bd6c46a04cfedf39e",
+      "cycles": 3,
+      "timed_respawns": 2,
+      "activation_owner_matches": 3,
+      "vehicle_pings": {
+        "piloted": 1
+      },
+      "pilot_and_upkeep": {
+        "matched": 3,
+        "different": 0
+      },
+      "native_physical_activation_bytes": 62,
+      "sparse_target_owner_sha256": "77719b6afbdd46f20bf0b1df2471eddc181d8a2a8974056c5a6e1712f6e59594",
+      "sparse_target_owner_bytes": 65
+    },
+    {
+      "build": 98348,
+      "sha256": "b1520f5a6950d83deb84356478d6f148ed4eff6939ca524c4a0b632082214c3f",
+      "cycles": 4,
+      "timed_respawns": 3,
+      "activation_owner_matches": 4,
+      "vehicle_pings": {
+        "piloted": 2
+      },
+      "pilot_and_upkeep": {
+        "matched": 4,
+        "different": 0
+      },
+      "native_physical_activation_bytes": 85,
+      "sparse_target_owner_sha256": "304634aa41437f71f54ad74c749770b2a698f053c23a7d6c862b95050898864f",
+      "sparse_target_owner_bytes": 89
+    },
+    {
+      "build": 98348,
+      "sha256": "ce9c2b6160f5b6154abe8cbcecae982dc00c61910bee691627c3a57c8c99dc77",
+      "cycles": 3,
+      "timed_respawns": 2,
+      "activation_owner_matches": 3,
+      "vehicle_pings": {
+        "piloted": 1
+      },
+      "pilot_and_upkeep": {
+        "matched": 3,
+        "different": 0
+      },
+      "native_physical_activation_bytes": 61,
+      "sparse_target_owner_sha256": "66c9583d0fd1b00b765d08b7814ce64aa14b8e8a07fe6bb8bcfd8dc05269865c",
+      "sparse_target_owner_bytes": 64
+    },
+    {
+      "build": 98348,
+      "sha256": "a956b186a0459a47d9b0fdd8af4ccb65c437f11926186471c434e543e218b2d7",
+      "cycles": 2,
+      "timed_respawns": 1,
+      "activation_owner_matches": 2,
+      "vehicle_pings": {},
+      "pilot_and_upkeep": {
+        "matched": 2,
+        "different": 0
+      },
+      "native_physical_activation_bytes": 40,
+      "sparse_target_owner_sha256": "0e304c480ae0ba9b4012dff1737f27e42b7096eb57718ea7bf17ca7379dc4354",
+      "sparse_target_owner_bytes": 43
+    },
+    {
+      "build": 98348,
+      "sha256": "bc16af7f68496cddc4698f70b3853402a0f30aa37951aec3a6b555ed703879e8",
+      "cycles": 5,
+      "timed_respawns": 4,
+      "activation_owner_matches": 5,
+      "vehicle_pings": {},
+      "pilot_and_upkeep": {
+        "matched": 5,
+        "different": 0
+      },
+      "native_physical_activation_bytes": 106,
+      "sparse_target_owner_sha256": "f232751d220c58eb5fd0e0cb64b849a388a5accaa4b37f8e5501947a2208926a",
+      "sparse_target_owner_bytes": 112
+    },
+    {
+      "build": 98348,
+      "sha256": "4732077e899f6894c29586795a01e2a27fba622dbf22b5d29c7b30d57e3ce4fc",
+      "cycles": 3,
+      "timed_respawns": 2,
+      "activation_owner_matches": 3,
+      "vehicle_pings": {},
+      "pilot_and_upkeep": {
+        "matched": 3,
+        "different": 0
+      },
+      "native_physical_activation_bytes": 64,
+      "sparse_target_owner_sha256": "6247366c82b5b515b11d16909024e48ca3140588149b3048df52c3637a54b896",
+      "sparse_target_owner_bytes": 67
+    }
+  ]
+}
