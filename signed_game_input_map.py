@@ -14,6 +14,7 @@ from soundtrack_done import DRAGON, intro
 
 
 SIGNED = "150bdcea5435021263c84648d892c2c3dcc26bff8c72d1be5198c31a4bb09791"
+MERC = "54e1a8fbe7e42f00b7b52cde420ed259105228fcdf165097ef52ecd0f5c4125a"
 SCRIPT = "MapScript.galaxy"
 INTERNAL = {"(listfile)", "(attributes)"}
 MODEL_ROUTINES = (
@@ -67,8 +68,22 @@ def members(path, expected):
         return {name: read_member(archive, name) for name in listing}
 
 
-def map_proof(witness_path, target_path, mechanics):
+def map_proof(witness_path, target_path, mechanics, merc_capture_map=None, merc_game_library=None):
+    if (merc_capture_map is None) != (merc_game_library is None):
+        raise ValueError("MercCapture requires the concrete target and stock GameLib")
+    target_hash = SIGNED
     witness, target = members(witness_path, GATE_MAP), members(target_path, SIGNED)
+    ancestry = {}
+    if merc_capture_map is not None:
+        from build_merc_capture_map import make_script
+        merc = members(merc_capture_map, MERC)
+        expected = make_script(target[SCRIPT], merc_game_library.read_bytes(), mechanics.read_bytes())
+        if merc != {**target, SCRIPT:expected}:
+            raise ValueError("MercCapture does not implement the verified parent-to-target transformation")
+        ancestry = dict(parent_map_sha256=SIGNED, parent_script_sha256=digest(target[SCRIPT]),
+                        merc_game_library_sha256=digest(merc_game_library.read_bytes()),
+                        checked_parent_to_target_script=True)
+        target, target_path, target_hash = merc, merc_capture_map, MERC
     if witness.keys() != target.keys() or {k for k in witness if witness[k] != target[k]} != {SCRIPT}:
         raise ValueError("Unexpected difference in map content")
     wx, tx = (m[SCRIPT].decode("utf-8-sig").replace("\r\n", "\n") for m in (witness, target))
@@ -81,11 +96,11 @@ def map_proof(witness_path, target_path, mechanics):
     placements, summary = startup(target)
     if (placements, summary) != startup(witness):
         raise ValueError("Opening birth predictions differ on the two physical packages")
-    intro_role = intro(target_path, SIGNED)
+    intro_role = intro(target_path, target_hash)
     if intro_role != DRAGON or intro(witness_path, GATE_MAP) != intro_role:
         raise ValueError("Opening soundtrack roles disagree")
     birth_table = [{**p, "m_unitTypeName": p["m_unitTypeName"].decode("ascii")} for p in placements]
-    return dict(target_map_sha256=SIGNED, geometry_and_opening_witness_map_sha256=GATE_MAP,
+    return dict(**ancestry, target_map_sha256=target_hash, geometry_and_opening_witness_map_sha256=GATE_MAP,
                 target_script_sha256=digest(target[SCRIPT]), witness_script_sha256=digest(witness[SCRIPT]),
                 identical_members=len(target)-1, changed_content_members=[SCRIPT],
                 equal_member_hashes_sha256=digest(canonical({k:digest(v) for k,v in target.items() if k != SCRIPT})),
@@ -99,7 +114,7 @@ def bind(proof, stream, ledger, receipt):
     counts = receipt["provenance_counts"]
     if not counts.keys() <= CONSUMERS.keys():
         raise ValueError("Input producer has no SignedAnnouncer dependency assessment")
-    return dict(**proof, source_replay_sha256=SOURCE, input_stream_sha256=digest(stream),
+    report = dict(**proof, source_replay_sha256=SOURCE, input_stream_sha256=digest(stream),
                 ordinal_ledger_sha256=digest(canonical(ledger)), input_count=len(ledger),
                 producer_dependencies={k:CONSUMERS[k] for k in sorted(counts)},
                 changed_gameplay=["first camp opening", "Dragon capture beacon reset", "opening announcer default"],
@@ -108,3 +123,7 @@ def bind(proof, stream, ledger, receipt):
                     "Opening unit tags use the ordered allocation model. Later tagged inputs require the original generation and relevant owner/lifetime to persist on the target.",
                     "Intro soundtrack completions require the recorded schedule and stock catalog. The restored announcer can change sound instances and their timing.",
                 ], full_game_member=False, target_simulation_verified=False)
+    if proof["target_map_sha256"] == MERC:
+        report["changed_gameplay"] += ["mercenary capture beacon reset", "legacy camp flag ownership after capture"]
+        report["conditions"].append("Retail reward credit and RNG calls are retained. An earlier unrelated retail banner binding can require one additional trigger handle.")
+    return report

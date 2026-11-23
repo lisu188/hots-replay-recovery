@@ -22,3 +22,9 @@ python verify_signed_game_inputs.py TEN GATEORDER SIGNED_MAP MAPMECHANICS SIGNED
 ```
 
 The public receipt contains hashes, counts, producer dependencies and conditions. The ordinal ledger, game payloads, recordings, map packages and local paths stay private.
+
+## MercCapture
+
+For the separate mercenary capture derivative, supply the physical SignedAnnouncer parent and add `--merc-capture-map MERC_MAP --merc-game-library GAMELIB` to both the assembler and verifier. The verifier keeps its positional target argument set to the SignedAnnouncer parent. The route reconstructs the candidate script from that parent and the pinned 98348 GameLib and MapMechanics, compares every content member, then reruns the opening predictor and intro lookup against MercCapture. Its receipt names `merc_capture_binding` and the exact target.
+
+The full configuration produced the same 21,585 projected game inputs. The mercenary beacon timing and flag ownership changes affect the interpretation of later gameplay. The stock credit draw remains present and a previously occupied retail banner slot can require an additional trigger.

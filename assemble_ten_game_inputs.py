@@ -36,10 +36,13 @@ def payload(row):
 
 
 def assemble(source, gate_map, mechanics, curve, selection_controls, prefix64, abathur_control, abathur_xml,
-             original_map, historical_controls, nova_xml=None, soundtrack_evidence=None, signed_announcer_map=None):
+             original_map, historical_controls, nova_xml=None, soundtrack_evidence=None, signed_announcer_map=None,
+             merc_capture_map=None, merc_game_library=None):
+    if signed_announcer_map is None and (merc_capture_map is not None or merc_game_library is not None):
+        raise ValueError("The MercCapture route also requires the physical SignedAnnouncer parent")
     if signed_announcer_map is not None:
         from signed_game_input_map import bind, map_proof
-        proof = map_proof(gate_map, signed_announcer_map, mechanics)
+        proof = map_proof(gate_map, signed_announcer_map, mechanics, merc_capture_map, merc_game_library)
     target = target_protocol()
     selections = {}
     sources = {}
@@ -157,7 +160,8 @@ def assemble(source, gate_map, mechanics, curve, selection_controls, prefix64, a
                 last_included_loop=previous, bytes=len(result), sha256=sha256(result).hexdigest(),
                 full_game_member=False, target_simulation_verified=False)
     if signed_announcer_map is not None:
-        receipt["signed_announcer_binding"] = bind(proof, result, manifest, receipt)
+        label = "signed_announcer_binding" if merc_capture_map is None else "merc_capture_binding"
+        receipt[label] = bind(proof, result, manifest, receipt)
     return result, manifest, receipt
 
 
@@ -169,12 +173,15 @@ if __name__=="__main__":
     cli.add_argument("--nova-xml",type=Path,help="Include birth-corroborated point casts using the pinned Nova catalog")
     cli.add_argument("--soundtrack-evidence",type=Path,help="Include conditional intro completions using the verified cross-map receipt")
     cli.add_argument("--signed-announcer-map",type=Path,help="Bind projected inputs to this actual target package using the positional GateOrder map as a checked witness")
+    cli.add_argument("--merc-capture-map",type=Path,help="Bind to the concrete MercCapture derivative of the supplied SignedAnnouncer")
+    cli.add_argument("--merc-game-library",type=Path,help="Pinned 98348 GameLib used to reproduce the MercCapture script")
     cli.add_argument("--historical-control",action="append",required=True,type=Path)
     cli.add_argument("--private-dir",type=Path)
     a=cli.parse_args()
     controls=[(path,sha256(path.read_bytes()).hexdigest()) for path in a.historical_control]
     data, ledger, receipt=assemble(a.source,a.gate_map,a.mechanics,a.curve,a.selection_controls,
-                                   a.prefix64,a.abathur_control,a.abathur_xml,a.original_map,controls,a.nova_xml,a.soundtrack_evidence,a.signed_announcer_map)
+                                   a.prefix64,a.abathur_control,a.abathur_xml,a.original_map,controls,a.nova_xml,
+                                   a.soundtrack_evidence,a.signed_announcer_map,a.merc_capture_map,a.merc_game_library)
     if a.private_dir:
         a.private_dir.mkdir(exist_ok=False)
         (a.private_dir/"game-inputs.private.bin").write_bytes(data)

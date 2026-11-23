@@ -26,13 +26,15 @@ def verify_totals(receipt, joined, ledger, source_bytes, final_source_loop):
         raise ValueError("Top-level receipt summary disagrees with the physical source and ordinal join")
 
 
-def check(source, gate_map, target_map, mechanics, directory, receipt, reference=None):
-    proof = map_proof(gate_map, target_map, mechanics)
+def check(source, gate_map, target_map, mechanics, directory, receipt, reference=None,
+          merc_capture_map=None, merc_game_library=None):
+    proof = map_proof(gate_map, target_map, mechanics, merc_capture_map, merc_game_library)
     data = (directory / "game-inputs.private.bin").read_bytes()
     raw_ledger = (directory / "ordinals.private.json").read_bytes()
     ledger = json.loads(raw_ledger)
     binding = bind(proof, data, ledger, receipt)
-    if (receipt.get("signed_announcer_binding") != binding
+    key = "signed_announcer_binding" if merc_capture_map is None else "merc_capture_binding"
+    if ({k for k in receipt if k.endswith("_binding")} != {key} or receipt.get(key) != binding
             or digest(raw_ledger) != binding["ordinal_ledger_sha256"]
             or receipt["included"] != len(ledger) or receipt["sha256"] != digest(data)
             or receipt["target_simulation_verified"] is not False or receipt["full_game_member"] is not False):
@@ -57,7 +59,10 @@ if __name__ == "__main__":
         cli.add_argument(arg, type=Path)
     cli.add_argument("--all-stage-gateorder-reference", type=Path,
                      help="Compare both private files against the pinned prior run with all optional producers enabled")
+    cli.add_argument("--merc-capture-map", type=Path)
+    cli.add_argument("--merc-game-library", type=Path)
     a = cli.parse_args()
     report = check(a.source, a.gate_map, a.target_map, a.mechanics, a.directory,
-                   json.loads(a.receipt.read_bytes()), a.all_stage_gateorder_reference)
+                   json.loads(a.receipt.read_bytes()), a.all_stage_gateorder_reference,
+                   a.merc_capture_map, a.merc_game_library)
     print(json.dumps(report, indent=2))
