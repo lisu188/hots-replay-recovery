@@ -1,0 +1,37 @@
+{
+  "source_url": "https://s3.amazonaws.com/ngs-replay-storage/ngs_10-15-2026_Bork_Side_of_the_Moon_vs_NO_CC_NO_PROBLEM_Infernal_Shrines.stormReplay",
+  "replay_sha256": "6987fe1729e6cc3afc272d1089c74d7ef001f5e340b60ac37610132586fb9939",
+  "replay_bytes": 1439913,
+  "build": 98348,
+  "data_root": "c3b3c8bc82e3a5a62e550fdde9a40c28",
+  "hero_xml_sha256": "1e4bc827d905d70772f6e3cd06707b147fa2e8349e94ae9c659b6aa91a79444f",
+  "hero": "HeroBarbarian",
+  "user": 9,
+  "tracker_player": 10,
+  "selector": 1,
+  "tier": 1,
+  "column": 2,
+  "purchase": "BarbarianWarPaint",
+  "game_member_sha256": "f0d7ccca46172d8b5d72cd4992b6f4383be124a1dfb0335aaaa5cc90531bc47d",
+  "game": {
+    "ordinal": 6098,
+    "tick": 973,
+    "previous_tick": 973,
+    "delta": 0,
+    "offset": 76858,
+    "bytes": 7,
+    "sha256": "db4fa5a63f797b361da546ce4c9ac2c3923332201f257cbc3dd5fd2e8ef32656"
+  },
+  "tracker_member_sha256": "e5b81d0c9b4c4232bbdc1d06fa66fc381bfed3417350424200b4e07aeee20a74",
+  "tracker": {
+    "ordinal": 483,
+    "tick": 974,
+    "previous_tick": 960,
+    "delta": 14,
+    "offset": 25152,
+    "bytes": 95,
+    "sha256": "aee82e12ea7de8bd62d7c4c44e6aa89cfea0f626453294a4a6d2b08e2e457983"
+  },
+  "independently_encoded_frames": 2,
+  "transfer_to_historical_replay_tested": false
+}
