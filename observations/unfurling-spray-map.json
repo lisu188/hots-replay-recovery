@@ -1,0 +1,61 @@
+{
+  "parent_sha256": "9c223f3e4d9fb31324126b91f7e51048dd6c011ac0d4dcdf6f582e2978f92870",
+  "candidate_sha256": "bdf99d5bd9610774fe1758855f5c1f7981d9ef126e906cf06fd94177e1d3e72e",
+  "candidate_bytes": 2200792,
+  "historical_source_sha256": "aaf264de6c3e31ce4bee1b1a5d658d695036393e4077e539630dd553698e9bbb",
+  "stock_xml_sha256": "0331a785983525abcbd58d95159ce4b12d8652c8a7294967e1231b30f5053064",
+  "parent_checks": {
+    "content_members": 71,
+    "live_blocks": 73,
+    "raw_table_results": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "native_member_flags": {
+      "256": 1,
+      "336": 72
+    }
+  },
+  "candidate_checks": {
+    "content_members": 73,
+    "live_blocks": 75,
+    "raw_table_results": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "native_member_flags": {
+      "256": 1,
+      "336": 74
+    }
+  },
+  "changed_or_added": {
+    "Base.StormData\\GameData\\ButtonData.xml": "d913219a6abbb8c779943e9b6401da8954bfb9ff160b28ffc4dd69c574c9a461",
+    "Base.StormData\\GameData\\EffectData.xml": "e42cff1945427dbbc616e68294ecbd28b264550440df4d25c0ce53bf8bce4231",
+    "Base.StormData\\GameData\\HeroData.xml": "b04d79f7b2baca73af4b8ad70379a17f08d6b8ccfadf834aee1490d001fc687a",
+    "Base.StormData\\GameData\\TalentData.xml": "daa360a65801e4607f44354e4159668042663960bda54e7d6e1c16c8618edede",
+    "Base.StormData\\GameData\\ValidatorData.xml": "bac7257113cc1a0ea72884f2709f39bae0c14c70d50821ed2f968f60c9994366",
+    "enUS.StormData\\LocalizedData\\GameStrings.txt": "bf8481fbeb114b71d61ad159cd1b6a3de065a143376eb5a0221a0cacdbaf3e2d"
+  },
+  "unchanged_parent_members": 67,
+  "source_selector": 0,
+  "target_selector": 0,
+  "player_scoped_ordinary_radius_model": [
+    6,
+    8
+  ],
+  "historical_absolute_radius_independently_measured": false,
+  "recorded_41810_relative_bonus_percent_text": "33.3",
+  "source_baseline_heal": 96,
+  "passive_duration_seconds": 4,
+  "native_effective_per_player_validator_verified": false,
+  "exact_healing_targets_and_ticks_verified": false,
+  "effective_runtime": false
+}
