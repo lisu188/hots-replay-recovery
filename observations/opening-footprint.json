@@ -1,0 +1,35 @@
+{
+  "build": 98348,
+  "native_windows": 29,
+  "direct_setter_sites": [
+    "0x99acce",
+    "0x9ba1a7"
+  ],
+  "verified_xml": 5575,
+  "footprint_xml_members": 22,
+  "footprint_named_declarations": 203,
+  "footprint_class_defaults": 1,
+  "opening_slots": 172,
+  "ordinary_creation_routes": {
+    "placed_xml": 165,
+    "galaxy_UnitCreate": 7
+  },
+  "no_link_slots_by_type": {
+    "CampOwnershipFlag": 5,
+    "DragonballCaptureBeacon": 2,
+    "GardensDragonShrineTargetMoon": 1,
+    "GardensDragonShrineTargetSun": 1,
+    "HealingPadSearchUnit": 2,
+    "TheLittleKing": 1,
+    "TownMercCampCaptureBeacon": 5,
+    "VehicleDragon": 1
+  },
+  "slots_by_known_bits": {
+    "94": 154,
+    "95": 18
+  },
+  "private_ledger_sha256": "fc02a41fdbf87bbc62cb29ec78ae11fc7476c2936a6574cfc7bbd171ab0d5d24",
+  "condition": "Inherits the 94-bit ledger assumptions. The empty catalog key resolves to null, the recorded type and ordinary creation footprint persist, and only the two identified setter paths can enable the bit before the sample.",
+  "runtime_registry_complete": false,
+  "first_fast_crc_verified": false
+}

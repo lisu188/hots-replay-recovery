@@ -1,0 +1,10 @@
+{
+  "rows": 172,
+  "known_95": 18,
+  "known_94": 154,
+  "unchanged_values": 172,
+  "falsely_added_missing_and_changed_value_rejected": 3,
+  "prior_known_bits": 16168,
+  "known_bits": 16186,
+  "ledger_sha256": "fc02a41fdbf87bbc62cb29ec78ae11fc7476c2936a6574cfc7bbd171ab0d5d24"
+}
