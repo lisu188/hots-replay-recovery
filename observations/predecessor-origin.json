@@ -1,0 +1,25 @@
+{
+  "build": 98348,
+  "exe": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+  "static_text": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83",
+  "windows": 18,
+  "fresh_count": 72,
+  "fresh_words_zero": 72,
+  "fresh_processed": false,
+  "clean_tail_if_loader_index_minus_one_and_owner_mode_four_or_manager_predicate_false": true,
+  "initial_manager_vtable_predicate_false_on_empty_span": true,
+  "stream_has_independent_processed_field": false,
+  "preserved_case_requires_same_surviving_record": true,
+  "physical_negative_controls": {
+    "replays": 24,
+    "distinct_recorded_mod_words": 9,
+    "all_zero_lengths_checked": 256,
+    "empty_vec_mod_checksum": "0xc622f71d",
+    "zero_72_mod_checksum": "0xdabe98ba",
+    "physical_all_zero_mod_matches": 0,
+    "dragon_mod_checksums": {
+      "0xce6f51": 15
+    }
+  },
+  "actual_ten_loop64_predecessor_flag": null
+}

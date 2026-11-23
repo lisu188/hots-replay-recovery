@@ -1,0 +1,13 @@
+# History immediately before gameplay
+
+Fresh allocation leaves **all 72 counted words zero** and the processed byte clear. The constructor zeroes the count and the flag at `+0x580`, then calls the two-array clear helper. The growth loop independently zeroes each newly counted word. The second history entry copies the first. Existing allocator storage cannot by itself introduce nonzero counted words on this path.
+
+The gameplay loader at `0xe0c2d0` supplies index `-1` to `0xd01cd0`. On that route, owner mode 4 or a false manager predicate takes `0xd021aa` into normal setup. For the selected manager vtable `0x27bc518`, predicate `+0x270` resolves to `0x132b840`. It examines a byte span whose length is the DWORD at `manager+0x2d8`. An empty span returns false. A true predicate with owner mode other than 4 selects the stream path at `0xd0215e`. A separate non-sentinel index selects a second stream call at `0xd02127`.
+
+The end of normal setup chooses the latest entry. It builds mode 2 when latest is already processed. When latest is pending, it calls the deferred helper, which builds mode 0 on a pending predecessor and copies the result to latest. Thus a fresh untouched pair produces a **full** vector by this checkpoint. Slot 7, slot 37 and slot 69 are zero in the full builder. The remaining freshly allocated zeros can be replaced here before gameplay.
+
+The two history stream helpers have opposite directions. The reader at `0x9773c0` can import primary words, 92 secondary words for the genuine 98348 layout, and an optional handle at `+0x578`. The writer at `0x977590` emits the existing values. Neither wire operation transfers a separate byte for `entry+0x580`. The optional handle occupies the preceding eight bytes. For valid, separate objects, newly constructed entries begin pending even when their words are imported. A surviving entry can retain an earlier processed flag. The pre-existing in-memory entry and the loader route matter to the first gameplay sample.
+
+The 24 pinned target replays reject the hypothesis that the separately selected pre-game mod entry contained only zeros. The native mod checksum for 72 zeros is `0xdabe98ba`. All legal array lengths from 0 through 255 produce 256 distinct zero-array checksums and none occurs among the nine recorded mod checksums. The 15 Dragon controls share `0x00ce6f51`. Each recorded mod CRC therefore requires at least one nonzero word. It still identifies a different phase from the newly appended map pair. TEN's actual manager predicate, processed flag before publication and first type-2 check remain unresolved.
+
+Run `python verify_predecessor_origin.py EXE STATIC_TEXT CONTROL_PATHS_JSON` with the repository on the Python path.
