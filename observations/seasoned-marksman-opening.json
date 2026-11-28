@@ -1,0 +1,202 @@
+{
+  "format": "ten-seasoned-marksman-opening-observation-v1",
+  "observed_local_date": "2026-11-28",
+  "tools": {
+    "build_seasoned_marksman_map.py": "4782eb1b33f872694c43de4d2de98e8a8c5c566f1d211244ee1e32d1771e4bf9",
+    "seasoned_marksman_opening.py": "dea4a4bfffb45dbf2162f3d0f9b6ea5129e50c59ed56acf484148f4c24144191",
+    "test_seasoned_marksman_map.py": "7e5b28af55b85bbd88b8aa97ecef09ab5e7670bb5c035e76323de47e9720da87"
+  },
+  "evidence": {
+    "source": {
+      "input_ordinal": 1547,
+      "loop": 364,
+      "user": 7,
+      "selector": 2,
+      "tracker_ordinal": 251,
+      "award_loop": 365,
+      "player": 8,
+      "purchase": "GenericTalentSeasonedMarksman",
+      "item_birth": false
+    },
+    "historical_41810_export": {
+      "sha256": "aaf264de6c3e31ce4bee1b1a5d658d695036393e4077e539630dd553698e9bbb",
+      "url": "https://github.com/nydus/heroesjson/blob/bd1723601cc1a7c05e9417bf76b7fe10297e7ba8/heroes.json",
+      "tyrande_tier1": [
+        "TyrandeMasteryLightofEluneCelestialAttunement",
+        "TyrandeCombatStyleRangersMark",
+        "GenericTalentSeasonedMarksman",
+        "TyrandeMasterySentinelEmpower"
+      ],
+      "description": "For every 6 enemy Minion kills near your Hero, gain 1 Basic Attack damage. Hero Takedowns count as 3 Minion kills."
+    },
+    "target_98348": {
+      "tyrande_xml_sha256": "8dc1f32eca0299e4007a99ac487bf816ff3a7f8a24e0f3301ea050e3f7b8fd29",
+      "shared_talent_catalog_sha256": "7e2d25e6bff1ae57db34f652c86edac04d2881e7e288b373b7b685676031960c",
+      "tier1": [
+        "TyrandeRanger",
+        "TyrandeMoonlitArrows",
+        "TyrandeTrueshotAura"
+      ],
+      "shared_talent_behaviors": [
+        "TalentSeasonedMarksmanCarryBehavior",
+        "TalentSeasonedMarksmanTokenCounter",
+        "GenericSeasonedMarksmanItem"
+      ],
+      "quest_target_count": 40,
+      "minion_credit_effect_value": "0.2001",
+      "takedown_credit_effect_value": "0.5",
+      "local_98348_recordings_scanned_for_seasoned_marksman_awards": 52,
+      "seasoned_marksman_awards_found": 0
+    },
+    "dated_change": {
+      "url": "https://news.blizzard.com/en-gb/article/20120032/heroes-of-the-storm-patch-notes-may-17-2016",
+      "date": "2016-05-17",
+      "summary": "A reward was added to the Questing Talent: after 40 bonus Attack Damage it can be activated for 30% Attack Speed for 3 seconds (60 second cooldown); the quest line reads 0.2 per nearby minion kill and 0.5 per Hero Takedown, up to 40."
+    }
+  },
+  "candidate_map": {
+    "parent_sha256": "13493e67e36594f908239dd0cce37fda0c0b386bbef385dcef22a83848f589d1",
+    "candidate_sha256": "fa349ed928b649ea203133237999e8d4202a6e13b328224619eb1399cff23d6c",
+    "candidate_bytes": 2204442,
+    "changed_member": "Base.StormData\\GameData\\HeroData.xml",
+    "changed_member_sha256": "5efa3dad9f0c33f146d6d16959dbd733ce457808513eccc778cf7592fe0da60a",
+    "unchanged_content_members": 72,
+    "parent_checks": {
+      "content_members": 73,
+      "live_blocks": 75,
+      "raw_table_results": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "native_member_flags": {
+        "256": 1,
+        "336": 74
+      }
+    },
+    "candidate_checks": {
+      "content_members": 73,
+      "live_blocks": 75,
+      "raw_table_results": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "native_member_flags": {
+        "256": 1,
+        "336": 74
+      }
+    },
+    "target_slot": 2,
+    "tier": 1,
+    "column": 3,
+    "stock_choice": "TyrandeTrueshotAura",
+    "projected_choice": "GenericTalentSeasonedMarksman",
+    "open_historical_differences": [
+      "Quest reward (activatable attack speed) and 40-stack completion point were added on 2016-05-17",
+      "41810 tooltip implies 1/6 damage per nearby minion kill; target minion credit is 0.2001",
+      "Exact 41810 stack representation and rounding are unrecovered"
+    ]
+  },
+  "candidate_map_independent_rebuild_identical": true,
+  "projection": {
+    "candidate_sha256": "fa349ed928b649ea203133237999e8d4202a6e13b328224619eb1399cff23d6c",
+    "source_sha256": "e8f167cbb163f178c3f01c0eaf6eba393d9f010c2eec533e3ca82c35e7f4c824",
+    "current_hero_sha256": "8dc1f32eca0299e4007a99ac487bf816ff3a7f8a24e0f3301ea050e3f7b8fd29",
+    "source_input_ordinal": 1547,
+    "selection_loop": 364,
+    "user": 7,
+    "player": 8,
+    "selector": 2,
+    "stock_choice": "TyrandeTrueshotAura",
+    "projected_choice": "GenericTalentSeasonedMarksman",
+    "source_award_ordinal": 251,
+    "target_award_ordinal": 272,
+    "parent_prefix_sha256": "94308bf7b85f9b660a4db92e9cb13b2be66beacb4de419cefae999572f16c702",
+    "frames": 273,
+    "bytes": 16598,
+    "sha256": "8d037868f6778a9b92fc22c8a3157eb7dbc6b82781437eb67098293059464a63",
+    "last_loop": 365,
+    "next_source_tracker_ordinal": 252,
+    "next_loop": 610,
+    "next_source_event_id": 10,
+    "parent_stream_sha256": "e2402f0360450c75909b865ff8114f0ac342c770b54175c7632b2b35d0acc9f2",
+    "parent_ledger_sha256": "092ca220b8ee28eaab792942ca22e5a83f2c1c4e54c9e101ac7382aae0763829",
+    "game_inputs": 17713,
+    "omitted_game_inputs": 86544,
+    "stream_bytes": 142594,
+    "stream_sha256": "8560be8f613d05f96550c8bd0c11bf1a61f4ac8e664e2010bd0a32c7e13cfbc6",
+    "ledger_sha256": "129c595fd97a9f3a04825ef652b6f555b7d598cc19166b3eaba3edbb27cf8091",
+    "choice_label": "seasoned_marksman_restored_selector_requires_candidate_tree",
+    "later_rows_by_label": {
+      "camera": 17325,
+      "literal_trigger_chat": 2,
+      "ping_map_or_no_target": 56,
+      "talent_index_requires_target_award_state": 1,
+      "recorded_final_departure": 2
+    },
+    "controls": [
+      {
+        "sha256": "0da560ed87c90e177f3c2240fde0a72f9b518e9e33faa8dca2f8f3e66134f861",
+        "selector": 1,
+        "award_loop": 141,
+        "award_ordinal": 286
+      },
+      {
+        "sha256": "4732077e899f6894c29586795a01e2a27fba622dbf22b5d29c7b30d57e3ce4fc",
+        "selector": 0,
+        "award_loop": 391,
+        "award_ordinal": 294
+      },
+      {
+        "sha256": "98ac891fa4fb8e1698e5fc35609fcf75abfe7e89aee9c7f05afff93b10338ab3",
+        "selector": 2,
+        "award_loop": 96,
+        "award_ordinal": 286
+      },
+      {
+        "sha256": "a893b27808c81fb46b2ec34d747fc467dec16ca17d2a6bc0ed6223577fa2e8ab",
+        "selector": 1,
+        "award_loop": 194,
+        "award_ordinal": 285
+      },
+      {
+        "sha256": "db40f495edb70b2127b97cae4f479de19e18e61b2a5a0e0413052b571e1dbf7e",
+        "selector": 0,
+        "award_loop": 503,
+        "award_ordinal": 291
+      },
+      {
+        "sha256": "ecb4affcd1b71a91e8b370c6c6a43bcee207d99bc97ea913923fb9c8f1cb043d",
+        "selector": 0,
+        "award_loop": 100,
+        "award_ordinal": 284
+      },
+      {
+        "sha256": "fe801daf9df44f10db2b950989308c8ee2fa55c03b4adfef7ac383b4d46583bf",
+        "selector": 1,
+        "award_loop": 484,
+        "award_ordinal": 392
+      }
+    ],
+    "historic_behavior_restored": false,
+    "target_unit_allocator_verified": false,
+    "target_simulation_verified": false,
+    "verified_target_syncs": 0
+  },
+  "projection_repeat_identical": true,
+  "claims": {
+    "historic_behavior_restored": false,
+    "native_catalog_loading_verified": false,
+    "target_simulation_verified": false,
+    "verified_target_syncs": 0,
+    "game_launched": false,
+    "computer_use_used": false
+  }
+}

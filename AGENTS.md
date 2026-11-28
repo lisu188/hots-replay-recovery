@@ -2349,3 +2349,17 @@ path with its length and SHA-256 explicitly to static work. The unit slot-pool,
 unit-retirement and sync-vector-source verifiers rerun on the restored PE
 reproduce their committed observations exactly
 (observations/client98348-static-reanchor-2026-11-28.json).
+
+## Tyrande opening Seasoned Marksman - 2026-11-28
+
+Read docs/SEASONED_MARKSMAN_OPENING.md and observations/seasoned-marksman-opening.json.
+Source input1547/loop364/user7 index2 and tracker251/loop365 award
+GenericTalentSeasonedMarksman to player8 (41810 tier-one third talent). 98348
+keeps the shared talent but Tyrande's tier1 column3 is TyrandeTrueshotAura.
+Candidate fa349ed9... (two identical builds) appends only CHero Tyrande
+TalentTreeArray index2 to the combined map 13493e67.... Projection adds the
+choice (17713 inputs, 8560be8f...) and the award (273 frames through loop365,
+8d037868...); all later parent rows are state-independent; 7 native Tyrande
+witnesses (one at selector2) match exactly; repeat identical. Talent behavior
+is unchanged 98348: May2016 reward/completion and 1/6-vs-0.2001 minion credit
+stay open. Next original tracker record 252 at loop610. Syncs 0/308.
