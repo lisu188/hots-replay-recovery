@@ -2334,3 +2334,15 @@ for identity-pinned static analysis only. Never run or install it. The local
 CASC storage is now 98785: never label installed-storage reads as 98348.
 The 2026-11-04 native-control attempt launched nothing and is superseded.
 Native playback, full conversion and all 308 target syncs remain unverified.
+
+## Original 98348 client restored from the CDN - 2026-11-28
+
+tact_restore.py (13 synthetic tests) restores one install-manifest file with
+content-addressed checks at every hop and a final length/SHA-256 pin. The run
+in observations/client98348-cdn-restore-2026-11-28.json restored
+Versions/Base98348/HeroesOfTheStorm_x64.exe (CKey 927e8850..., loose EKey
+13c208fe...) as 53573840 bytes with SHA-256 efdf5a2f..., the original pin. It is
+private at work/client98348-restored-20261128/ in the task workspace: never
+commit, install or run it. Headers and section table equal the derived
+analysis copy 5ae49a50...; all differences are inside .text. Pass the restored
+path with its length and SHA-256 explicitly to static work.

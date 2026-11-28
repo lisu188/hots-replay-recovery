@@ -1,0 +1,229 @@
+{
+  "format": "hots-client98348-cdn-restore-observation-v1",
+  "observed_local_date": "2026-11-28",
+  "tool": {
+    "path": "tact_restore.py",
+    "sha256": "dbb1384f4bd869fb9f55d86ba583c207d2826132cd433e2d83c25dea9795211f",
+    "tests": {
+      "module": "test_tact_restore.py",
+      "local_tests_run": 13,
+      "local_result": "passed",
+      "sha256": "4c276b6eec93091c519a6f049041fc30adb407848edf4258ff72c47c5c06e824"
+    }
+  },
+  "command": [
+    "--server",
+    "http://eu.cdn.blizzard.com",
+    "--server",
+    "http://level3.blizzard.com",
+    "--cdn-path",
+    "tpr/Hero-Live-a",
+    "--build-config",
+    "a64c9b7ebf1c6a811ffefad97865ed80",
+    "--cdn-config",
+    "9575c98a819e557a3e6ec7b003428124",
+    "--name",
+    "Versions/Base98348/HeroesOfTheStorm_x64.exe",
+    "--expect-size",
+    "53573840",
+    "--expect-sha256",
+    "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+    "--output-dir",
+    "work/client98348-restored-20261128"
+  ],
+  "receipt_sha256": "94f1bc737cfe950d9cadbb06d14212c1cd6c79a5a080a7e2fd1c0d08da64cf0c",
+  "receipt": {
+    "format": "tact-install-file-restore-v1",
+    "executed_restored_file": false,
+    "installed_restored_file": false,
+    "build_config": "a64c9b7ebf1c6a811ffefad97865ed80",
+    "cdn_config": "9575c98a819e557a3e6ec7b003428124",
+    "cdn_path": "tpr/Hero-Live-a",
+    "requested_name": "Versions/Base98348/HeroesOfTheStorm_x64.exe",
+    "build_name": "B98348",
+    "install_manifest": {
+      "ckey": "0c1a67ff3ef1cb65a4d6d34edf917f9a",
+      "ekey": "e35645bc97b2de2e4da7515c762c6ceb",
+      "entries": 597,
+      "trailing_bytes": 0,
+      "blte": {
+        "chunks": 2,
+        "modes": "NZ",
+        "header_md5_equals_ekey": true
+      }
+    },
+    "same_basename_entries": [
+      {
+        "name": "Versions/Base98348/HeroesOfTheStorm_x64.exe",
+        "ckey": "927e8850401cbafb81c6dd949ce4ba52",
+        "size": 53573840,
+        "tags": [
+          "Windows",
+          "dark",
+          "deDE",
+          "enUS",
+          "esES",
+          "esMX",
+          "frFR",
+          "itIT",
+          "koKR",
+          "plPL",
+          "ptBR",
+          "ruRU",
+          "zhCN",
+          "zhTW",
+          "CN",
+          "EU",
+          "KR",
+          "SG",
+          "TW",
+          "US",
+          "speech",
+          "text",
+          "code"
+        ]
+      }
+    ],
+    "install_entry": {
+      "name": "Versions/Base98348/HeroesOfTheStorm_x64.exe",
+      "ckey": "927e8850401cbafb81c6dd949ce4ba52",
+      "size": 53573840,
+      "tags": [
+        "Windows",
+        "dark",
+        "deDE",
+        "enUS",
+        "esES",
+        "esMX",
+        "frFR",
+        "itIT",
+        "koKR",
+        "plPL",
+        "ptBR",
+        "ruRU",
+        "zhCN",
+        "zhTW",
+        "CN",
+        "EU",
+        "KR",
+        "SG",
+        "TW",
+        "US",
+        "speech",
+        "text",
+        "code"
+      ]
+    },
+    "encoding": {
+      "ckey": "0fe63ea1a99c443078ea7d75d53acbae",
+      "ekey": "e6f9f577e9a8bbce335176984e911ce0",
+      "blte": {
+        "chunks": 7,
+        "modes": "NZ",
+        "header_md5_equals_ekey": true
+      },
+      "page": 7745,
+      "page_count": 13531,
+      "file_size": 53573840,
+      "ekeys": [
+        "13c208fe7546dfb00a14056ec99d4298"
+      ]
+    },
+    "location": {
+      "ekey": "13c208fe7546dfb00a14056ec99d4298",
+      "kind": "loose",
+      "blte": {
+        "chunks": 818,
+        "modes": "Z",
+        "header_md5_equals_ekey": true
+      },
+      "encoded_bytes": 44192346
+    },
+    "restored": {
+      "file_name": "HeroesOfTheStorm_x64.exe",
+      "bytes": 53573840,
+      "md5": "927e8850401cbafb81c6dd949ce4ba52",
+      "sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9",
+      "matches_pin": true
+    },
+    "requests": [
+      {
+        "url": "http://eu.cdn.blizzard.com/tpr/Hero-Live-a/config/a6/4c/a64c9b7ebf1c6a811ffefad97865ed80",
+        "range": null,
+        "status": 503
+      },
+      {
+        "url": "http://level3.blizzard.com/tpr/Hero-Live-a/config/a6/4c/a64c9b7ebf1c6a811ffefad97865ed80",
+        "range": null,
+        "status": 200,
+        "bytes": 1202,
+        "sha256": "9c5817913f3505e5bbb8e2bbe6775fcfb568ec7d23d2f685707b254830070f84"
+      },
+      {
+        "url": "http://eu.cdn.blizzard.com/tpr/Hero-Live-a/data/e3/56/e35645bc97b2de2e4da7515c762c6ceb",
+        "range": null,
+        "status": 200,
+        "bytes": 53886,
+        "sha256": "492dd1e72064045f125a4edcec4af05385db3848d4a665bbb65f7a39aa10382e"
+      },
+      {
+        "url": "http://eu.cdn.blizzard.com/tpr/Hero-Live-a/config/95/75/9575c98a819e557a3e6ec7b003428124",
+        "range": null,
+        "status": 200,
+        "bytes": 7897,
+        "sha256": "83ef02e2e537aed16ef4cffe8128a460a947537621c14c9e5acd0940b1707c75"
+      },
+      {
+        "url": "http://eu.cdn.blizzard.com/tpr/Hero-Live-a/data/e6/f9/e6f9f577e9a8bbce335176984e911ce0",
+        "range": null,
+        "status": 200,
+        "bytes": 92532104,
+        "sha256": "a84087272b914f214046fb9c3c3dd156d755f7eef9fbb81bece4b827492a6ce0"
+      },
+      {
+        "url": "http://eu.cdn.blizzard.com/tpr/Hero-Live-a/data/13/c2/13c208fe7546dfb00a14056ec99d4298",
+        "range": null,
+        "status": 503
+      },
+      {
+        "url": "http://level3.blizzard.com/tpr/Hero-Live-a/data/13/c2/13c208fe7546dfb00a14056ec99d4298",
+        "range": null,
+        "status": 200,
+        "bytes": 44192346,
+        "sha256": "0428e64d3f772b67db7a76a97dc7b0f19020155f8fd2e180171ad11461cc047e"
+      }
+    ],
+    "downloaded_bytes": 136787435,
+    "elapsed_seconds": 5.2
+  },
+  "comparison_with_derived_analysis_copy": {
+    "producer": {
+      "workspace_path": "work/client98348-restored-20261128/compare_with_derived.py",
+      "sha256": "a7fb1b114f0c8308744ec97f70ef530952a5706a82e4e2e1ddf12e3cde0ac770"
+    },
+    "report_sha256": "b7786468617d9a3ff9decc1dc6c0bcbeda69f1f4c481b8bdfb346570af160fd7",
+    "derived_sha256": "5ae49a508fe545fe462cee32ff6441ecf9d5c2be484c5980a74a6eca11fbcc1d",
+    "headers_and_section_table_equal": true,
+    "section_tables_equal": true,
+    "differing_bytes": 36438833,
+    "differing_ranges": 142049,
+    "differences_by_section": {
+      ".text": {
+        "ranges": 142049,
+        "bytes": 36438833,
+        "first_offset": 759808,
+        "last_end": 37341184
+      }
+    }
+  },
+  "private_output": "work/client98348-restored-20261128/HeroesOfTheStorm_x64.exe (task workspace only; never committed)",
+  "claims": {
+    "restored_file_executed": false,
+    "restored_file_installed": false,
+    "game_or_battle_net_launched": false,
+    "computer_use_used": false,
+    "restored_equals_original_pin": true,
+    "native_playback_verified": false,
+    "conversion_changed": false
+  }
+}
