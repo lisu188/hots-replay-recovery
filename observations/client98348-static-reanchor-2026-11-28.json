@@ -1,0 +1,53 @@
+{
+  "format": "hots-client98348-static-reanchor-v1",
+  "observed_local_date": "2026-11-28",
+  "restored_pe": {
+    "workspace_path": "work/client98348-restored-20261128/HeroesOfTheStorm_x64.exe",
+    "bytes": 53573840,
+    "sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9"
+  },
+  "transformed_static_text": {
+    "workspace_path": "work/ghidra-replay-parser-20261020/verified-text-patch.local.bin",
+    "bytes": 36581376,
+    "sha256": "3ef739d3cda2f8c592fcbeb3a2fdb690224458c13916f1abc8d525191a32df83"
+  },
+  "verifiers": [
+    {
+      "verifier": "verify_unit_slot_pool.py",
+      "verifier_sha256": "654909a582a5a130321fb9823b5abb74d588d855f0fe97fc138aad9d31df0a8d",
+      "committed_observation": "observations/native-unit-slot-pool.json",
+      "committed_observation_sha256": "5b5b75dae8842289795e3d9c6cbae0d84cd32fe3c37a65522e678b9b755e8621",
+      "output_sha256": "4bc0d1badd800901324f2f2890282d2b3352e9ad36a2e750be83a4f10669397a",
+      "parsed_output_equals_committed_observation": true
+    },
+    {
+      "verifier": "verify_unit_retirement.py",
+      "verifier_sha256": "5cd992fa17c216041530a55b01170c70048f6441a5cb4c18c0000ab22b73f905",
+      "committed_observation": "observations/native-unit-retirement.json",
+      "committed_observation_sha256": "ea0ed579dcdbcf88a1a21c69b69d159a0ceeee383b0cff39ff47fb162fc01e52",
+      "output_sha256": "ea0ed579dcdbcf88a1a21c69b69d159a0ceeee383b0cff39ff47fb162fc01e52",
+      "parsed_output_equals_committed_observation": true
+    },
+    {
+      "verifier": "verify_sync_vector_source.py",
+      "verifier_sha256": "37640a76fe80e5bd8c9015d7fa56f003aadb0bca44c47f0c42541bb8fa8ea62a",
+      "committed_observation": "observations/native-sync-vector-source.json",
+      "committed_observation_sha256": "97968417767cf9153743b44052382b17b48bbb3344cba492e2b5be860ee717dc",
+      "output_sha256": "97968417767cf9153743b44052382b17b48bbb3344cba492e2b5be860ee717dc",
+      "parsed_output_equals_committed_observation": true
+    }
+  ],
+  "all_three_reproduce_committed_observations": true,
+  "ida_headless": {
+    "path": "C:/Program Files/IDA Professional 9.0/idat.exe",
+    "present": true
+  },
+  "policy": "Static tools receive the restored PE path with its pinned length and SHA-256; the empty installation path is not an input.",
+  "claims": {
+    "native_execution": false,
+    "emulation": false,
+    "game_launched": false,
+    "new_semantic_finding": false,
+    "conversion_changed": false
+  }
+}

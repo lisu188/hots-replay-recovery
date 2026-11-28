@@ -2345,4 +2345,7 @@ Versions/Base98348/HeroesOfTheStorm_x64.exe (CKey 927e8850..., loose EKey
 private at work/client98348-restored-20261128/ in the task workspace: never
 commit, install or run it. Headers and section table equal the derived
 analysis copy 5ae49a50...; all differences are inside .text. Pass the restored
-path with its length and SHA-256 explicitly to static work.
+path with its length and SHA-256 explicitly to static work. The unit slot-pool,
+unit-retirement and sync-vector-source verifiers rerun on the restored PE
+reproduce their committed observations exactly
+(observations/client98348-static-reanchor-2026-11-28.json).

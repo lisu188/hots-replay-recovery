@@ -72,6 +72,18 @@ A read-only comparison against the derived analysis copy `Heroes98348.patched-an
 
 This fits the documented transformed code in the derived copy. Address-level receipts can therefore be pinned again to the unchanged original PE. Static work must pass the restored path with its length and SHA-256 explicitly; the empty installation path is not a valid input.
 
+### Static re-anchor
+
+Three existing native verifiers were rerun unchanged with the restored PE path and the pinned transformed static text (`verified-text-patch.local.bin`, 36,581,376 bytes, `3ef739d3…`). Each parsed output equals its committed observation exactly:
+
+| Verifier | Committed observation | Keys |
+| --- | --- | --- |
+| `verify_unit_slot_pool.py` | `native-unit-slot-pool.json` | 22 |
+| `verify_unit_retirement.py` | `native-unit-retirement.json` | 18 |
+| `verify_sync_vector_source.py` | `native-sync-vector-source.json` | 17 |
+
+The receipt is `observations/client98348-static-reanchor-2026-11-28.json`. This re-anchors earlier address-level evidence to the unchanged original bytes. It is not a new semantic finding, and nothing was executed. IDA Pro 9.0 headless (`idat.exe`) is available for further static work.
+
 ## Not established
 
 - No conversion, replay, map or synchronization data changed.
