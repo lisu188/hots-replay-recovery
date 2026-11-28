@@ -1,0 +1,159 @@
+{
+  "format": "ten-arcane-barrier-command-link-observation-v1",
+  "observed_local_date": "2026-11-28",
+  "tools": {
+    "arcane_barrier_command_link.py": "47906dcdf8d1c6594e2a08ff03c72b52983c9bdbeacbf58c074e95f83b6828af",
+    "test_arcane_barrier_command_link.py": "f183e66dbbb804dcc05436f1f41a60adb468060e06e17e14e1b5ac10b46b33ec"
+  },
+  "kaelthas_98348_xml_sha256": "39cf6954288e32edd73dfed13f82e45ab5f944a54f9f3fa9adaf2aacc7ffc13b",
+  "receipt": {
+    "target_link": 385,
+    "target_command": 0,
+    "target_other_unit": null,
+    "source_link": 365,
+    "source_command": 3,
+    "quest_target_globes": 20,
+    "cooldown_loops": 720,
+    "recordings": 52,
+    "recordings_with_kaelthas": 6,
+    "kaelthas_players": 6,
+    "activating_players": 2,
+    "activations": 10,
+    "activation_bursts": 6,
+    "incomplete_quest_players": 1,
+    "no_purchase_players": 2,
+    "ten": {
+      "ordinals": [
+        77929,
+        82528,
+        90313,
+        99691,
+        103345
+      ],
+      "loops": [
+        14059,
+        15110,
+        16885,
+        18403,
+        19328
+      ],
+      "user": 3,
+      "player": 4,
+      "item_tag": [
+        217,
+        5
+      ],
+      "item_birth_loop": 1217,
+      "flags": [
+        1048832
+      ],
+      "sequences": [
+        1861,
+        2026,
+        2129,
+        2205,
+        2366
+      ]
+    },
+    "translated_flags": false,
+    "translated_sequences": false,
+    "target_quest_timing_verified": false,
+    "inserted_into_sparse_stream": false,
+    "verified_target_syncs": 0,
+    "controls": [
+      {
+        "sha256": "1230eee79fd3b50a3ee471c587bc77dd14aef67d57bf22cd8df52e877329323a",
+        "kaelthas": [
+          {
+            "player": 4,
+            "purchase_loop": null,
+            "globes_after_purchase": 0,
+            "quest_complete_loop": null,
+            "uses": 0,
+            "bursts": 0,
+            "first_use": null
+          }
+        ]
+      },
+      {
+        "sha256": "487035e9f7a662a380e15ee1eb077c4b153812fdce6900f45171befd80243ca7",
+        "kaelthas": [
+          {
+            "player": 1,
+            "purchase_loop": null,
+            "globes_after_purchase": 0,
+            "quest_complete_loop": null,
+            "uses": 0,
+            "bursts": 0,
+            "first_use": null
+          }
+        ]
+      },
+      {
+        "sha256": "96d960545dca6a4ef027c41d8734cce36bc7bc14f9391352acc130e511eb1fef",
+        "kaelthas": [
+          {
+            "player": 10,
+            "purchase_loop": 151,
+            "globes_after_purchase": 38,
+            "quest_complete_loop": 12331,
+            "uses": 2,
+            "bursts": 2,
+            "first_use": 16635
+          }
+        ]
+      },
+      {
+        "sha256": "9faf99e38dae70f27fd2278318d851d57801df034764f7e408c7f363705abc3b",
+        "kaelthas": [
+          {
+            "player": 10,
+            "purchase_loop": 115,
+            "globes_after_purchase": 42,
+            "quest_complete_loop": 8987,
+            "uses": 0,
+            "bursts": 0,
+            "first_use": null
+          }
+        ]
+      },
+      {
+        "sha256": "a3c97e9a669e73e4c2b19a8f6c5e2de0315cbc5725be82cf1e887ed6319a01c4",
+        "kaelthas": [
+          {
+            "player": 8,
+            "purchase_loop": 1100,
+            "globes_after_purchase": 19,
+            "quest_complete_loop": null,
+            "uses": 0,
+            "bursts": 0,
+            "first_use": null
+          }
+        ]
+      },
+      {
+        "sha256": "afcf49a656068f343173fc79afff2d2ebf15066f531cb192382cdba9d1ea3272",
+        "kaelthas": [
+          {
+            "player": 3,
+            "purchase_loop": 140,
+            "globes_after_purchase": 45,
+            "quest_complete_loop": 7659,
+            "uses": 8,
+            "bursts": 4,
+            "first_use": 15947
+          }
+        ]
+      }
+    ],
+    "controls_without_kaelthas": 46
+  },
+  "repeat_identical": true,
+  "claims": {
+    "witnessed_conditional_identification": true,
+    "static_catalog_index_proof": false,
+    "commands_inserted": false,
+    "target_simulation_verified": false,
+    "verified_target_syncs": 0
+  }
+}

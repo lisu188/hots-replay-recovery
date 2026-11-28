@@ -2376,3 +2376,15 @@ through loop610 (acfb5db5...), repeat identical. Next: ordinal317 loop682
 Abathur TalentChosen AbathurMasteryEnvenomedNestsToxicNest, then 10
 MinionsAreSpawning at loop690 and first-wave births at loop691 (tag allocation).
 Current goal pointer: outputs/CLAUDE_GOAL_TEN_GREYMANE_2026-11-28.txt.
+
+## Arcane Barrier command link witnessed - 2026-11-28
+
+Read docs/ARCANE_BARRIER_COMMAND_LINK.md and observations/arcane-barrier-command-link.json.
+TEN's five item uses (ordinals 77929..103345, link365 cmd3, other unit item
+217/5) map to 98348 link385 cmd0 without other unit. Across 52 genuine 98348
+recordings 385 is issued only by Kael'thas after the 20-globe Mana Addict quest
+completed; the 19-globe, no-purchase and other-hero cases never issue it; bursts
+respect the 720-loop cooldown. Witnessed conditional identification, not a
+static catalog proof. Flags, m_sequence and target quest timing stay open, so
+the commands remain withheld from the sparse stream. Abathur's award (ordinal
+317) still lacks a native selector-1 witness: one local 98348 Abathur pick only.
