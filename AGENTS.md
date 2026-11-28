@@ -2305,3 +2305,32 @@ control basename absent is only a bounded finding. A separate15:25:44UTC process
 snapshot found zero Heroes processes; exit reason is unknown, not an established
 crash or replay failure. Reacquire current state when UI work can resume. R8 is
 still partial98285; real J2 export/current-control/full-match proof are missing.
+
+## Current hard constraints - 2026-11-16
+
+The latest user instruction supersedes every earlier launch/CU authorization:
+do not run HotS, Battle.net, HeroesSwitcher, diagnostic maps or replays, including
+through a debugger or emulator. Do not use Computer Use or substitute UI
+automation, and do not ask the user to run the game as a workaround. Do not attach
+to a game process. Static IDA/REA disassembly/decompilation, offline data analysis
+and independently reconstructed test harnesses are authorized. Preserve the full
+conversion objective and all original/sync evidence; native playback remains
+unverified. Work concisely, reuse cached evidence and run focused checks only.
+Read outputs/CLAUDE_GOAL_TEN_GREYMANE_2026-11-16_OFFLINE_IDA.txt in the existing
+task workspace for the current goal; older runtime handoffs are historical.
+
+## Live 98785 patch, offline target98348 and client restore - 2026-11-28
+
+Read docs/LIVE_TARGET_98785_AND_98348_RESTORE_2026-11-28.md and
+observations/live-target-refresh-2026-11-28.json. The user reconfirmed the
+offline-only rule above. Live EU/US and installed builds are now 2.57.1.98785
+(seqn 4160002). Versions/Base98348 is empty: the pinned 98348 client efdf5a2f...
+is gone from the installation, and workspace Heroes98348.patched-analysis.exe
+copies (5ae49a50...) are derived, not the original PE. The CDN still serves the
+98348 BuildConfig a64c9b7e... and CDNConfig 9575c98a.... The user chose to keep
+2.57.0.98348 as the conversion target, measure a 98348->98785 lift later as a
+separate stage, and restore the original 98348 client from the official CDN
+for identity-pinned static analysis only. Never run or install it. The local
+CASC storage is now 98785: never label installed-storage reads as 98348.
+The 2026-11-04 native-control attempt launched nothing and is superseded.
+Native playback, full conversion and all 308 target syncs remain unverified.

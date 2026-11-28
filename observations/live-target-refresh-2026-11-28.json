@@ -1,0 +1,302 @@
+{
+  "format": "hots-live-target-refresh-observation-v1",
+  "observed_local_date": "2026-11-28",
+  "collector": {
+    "workspace_path": "work/live-target-refresh-20261128/collect_live_target_state.py",
+    "sha256": "34723962d7fabb73c1504dcfa1d13d34857104fac919ba815ef2099d0806852c"
+  },
+  "snapshot_sha256": "d349ea227897558dccd811d40a64deb911196ca23751769dd12f64730ef3084e",
+  "snapshot": {
+    "format": "hots-live-target-snapshot-v1",
+    "collected_local": "2026-11-28T15:38:52+0100",
+    "launched_anything": false,
+    "installation_modified": false,
+    "ribbit": {
+      "eu_server": {
+        "url": "http://eu.patch.battle.net:1119/hero/versions",
+        "status": 200,
+        "bytes": 874,
+        "sha256": "5112fc58a7c18d366d41747e7fff01ab3cc4b5afac8999ecad70e0a9f31d10d4",
+        "seqn": 4160002,
+        "rows": {
+          "us": {
+            "Region": "us",
+            "BuildConfig": "4e1fa2fae363e4c561fa8b038970389b",
+            "CDNConfig": "c34b1c630a1834ea835e6401212eebed",
+            "KeyRing": "",
+            "BuildId": "98785",
+            "VersionsName": "2.57.1.98785",
+            "ProductConfig": "a0c5874544505acfa8952db0b0a4e48f"
+          },
+          "eu": {
+            "Region": "eu",
+            "BuildConfig": "4e1fa2fae363e4c561fa8b038970389b",
+            "CDNConfig": "c34b1c630a1834ea835e6401212eebed",
+            "KeyRing": "",
+            "BuildId": "98785",
+            "VersionsName": "2.57.1.98785",
+            "ProductConfig": "a0c5874544505acfa8952db0b0a4e48f"
+          }
+        }
+      },
+      "us_server": {
+        "url": "http://us.patch.battle.net:1119/hero/versions",
+        "status": 200,
+        "bytes": 874,
+        "sha256": "5112fc58a7c18d366d41747e7fff01ab3cc4b5afac8999ecad70e0a9f31d10d4",
+        "seqn": 4160002,
+        "rows": {
+          "us": {
+            "Region": "us",
+            "BuildConfig": "4e1fa2fae363e4c561fa8b038970389b",
+            "CDNConfig": "c34b1c630a1834ea835e6401212eebed",
+            "KeyRing": "",
+            "BuildId": "98785",
+            "VersionsName": "2.57.1.98785",
+            "ProductConfig": "a0c5874544505acfa8952db0b0a4e48f"
+          },
+          "eu": {
+            "Region": "eu",
+            "BuildConfig": "4e1fa2fae363e4c561fa8b038970389b",
+            "CDNConfig": "c34b1c630a1834ea835e6401212eebed",
+            "KeyRing": "",
+            "BuildId": "98785",
+            "VersionsName": "2.57.1.98785",
+            "ProductConfig": "a0c5874544505acfa8952db0b0a4e48f"
+          }
+        }
+      },
+      "servers_agree_on_seqn": true
+    },
+    "installed_build_info": {
+      "sha256": "43f9bb969de378aab154cd58e6a71905d1693b420dd2607b448899f376445723",
+      "active_rows": [
+        {
+          "Branch": "eu",
+          "Build Key": "4e1fa2fae363e4c561fa8b038970389b",
+          "CDN Key": "c34b1c630a1834ea835e6401212eebed",
+          "Version": "2.57.1.98785",
+          "CDN Path": "tpr/Hero-Live-a"
+        }
+      ]
+    },
+    "installed_versions": {
+      "Base92264": {
+        "entries": 0,
+        "client": null
+      },
+      "Base92665": {
+        "entries": 0,
+        "client": null
+      },
+      "Base93009": {
+        "entries": 0,
+        "client": null
+      },
+      "Base93054": {
+        "entries": 0,
+        "client": null
+      },
+      "Base93151": {
+        "entries": 0,
+        "client": null
+      },
+      "Base93382": {
+        "entries": 0,
+        "client": null
+      },
+      "Base93613": {
+        "entries": 0,
+        "client": null
+      },
+      "Base93640": {
+        "entries": 0,
+        "client": null
+      },
+      "Base93810": {
+        "entries": 0,
+        "client": null
+      },
+      "Base94189": {
+        "entries": 0,
+        "client": null
+      },
+      "Base94387": {
+        "entries": 0,
+        "client": null
+      },
+      "Base94786": {
+        "entries": 0,
+        "client": null
+      },
+      "Base96477": {
+        "entries": 0,
+        "client": null
+      },
+      "Base96881": {
+        "entries": 0,
+        "client": null
+      },
+      "Base97039": {
+        "entries": 0,
+        "client": null
+      },
+      "Base98025": {
+        "entries": 0,
+        "client": null
+      },
+      "Base98285": {
+        "entries": 1,
+        "client": {
+          "bytes": 53592272,
+          "sha256": "440c7e1b0808943e29a69ee79aaf7db7fa7ad3b90414203d288dfc3e181c4be7",
+          "mtime_local": "2026-10-21T08:24:36"
+        }
+      },
+      "Base98297": {
+        "entries": 0,
+        "client": null
+      },
+      "Base98304": {
+        "entries": 0,
+        "client": null
+      },
+      "Base98348": {
+        "entries": 0,
+        "client": null
+      },
+      "Base98746": {
+        "entries": 0,
+        "client": null
+      },
+      "Base98785": {
+        "entries": 1,
+        "client": {
+          "bytes": 53571792,
+          "sha256": "e85cd9bd26746c0404956ccd187595dc5abfcb2c1a12c3c27ea06396ce360255",
+          "mtime_local": "2026-11-26T02:59:23"
+        }
+      }
+    },
+    "installed_switcher": {
+      "bytes": 773840,
+      "sha256": "d7976f6300447f1575b4a1c31ee4b6cbec7b5d45cbdd000446e9e055b6d6ed99",
+      "mtime_local": "2026-11-26T02:59:19"
+    },
+    "cdn_98348_configs": {
+      "build_config": {
+        "url": "http://eu.cdn.blizzard.com/tpr/Hero-Live-a/config/a6/4c/a64c9b7ebf1c6a811ffefad97865ed80",
+        "status": 200,
+        "bytes": 1202,
+        "md5": "a64c9b7ebf1c6a811ffefad97865ed80",
+        "md5_equals_key": true,
+        "sha256": "9c5817913f3505e5bbb8e2bbe6775fcfb568ec7d23d2f685707b254830070f84",
+        "selected_fields": {
+          "root": [
+            "c3b3c8bc82e3a5a62e550fdde9a40c28"
+          ],
+          "install": [
+            "0c1a67ff3ef1cb65a4d6d34edf917f9a",
+            "e35645bc97b2de2e4da7515c762c6ceb"
+          ],
+          "encoding": [
+            "0fe63ea1a99c443078ea7d75d53acbae",
+            "e6f9f577e9a8bbce335176984e911ce0"
+          ],
+          "build-name": [
+            "B98348"
+          ],
+          "build-uid": [
+            "hero"
+          ],
+          "build-product": [
+            "Hero"
+          ]
+        }
+      },
+      "cdn_config": {
+        "url": "http://eu.cdn.blizzard.com/tpr/Hero-Live-a/config/95/75/9575c98a819e557a3e6ec7b003428124",
+        "status": 200,
+        "bytes": 7897,
+        "md5": "9575c98a819e557a3e6ec7b003428124",
+        "md5_equals_key": true,
+        "sha256": "83ef02e2e537aed16ef4cffe8128a460a947537621c14c9e5acd0940b1707c75",
+        "selected_fields": {
+          "archive-group": [
+            "dd1337c9f099712ecc5a7444bfffddbf"
+          ],
+          "file-index": [
+            "6cfbf82971326bca7f03f38486941876"
+          ],
+          "archives_count": 187
+        }
+      }
+    },
+    "heroprotocol_head": {
+      "sha": "9af3ea7150f1a8acb53464c92519a9bbcc7a3594",
+      "date": "2026-02-20T05:17:37Z",
+      "message": "Generated replay parser for Heroes of the Storm 2.55.15.96477"
+    },
+    "derived_98348_analysis_copies": [
+      {
+        "path": "work/rea-derived-target-20261025/derived-once/Heroes98348.patched-analysis.exe",
+        "bytes": 53573840,
+        "sha256": "5ae49a508fe545fe462cee32ff6441ecf9d5c2be484c5980a74a6eca11fbcc1d",
+        "mtime_local": "2026-10-25T18:11:58"
+      },
+      {
+        "path": "work/rea-owned-analysis-20261025/actual-once/ida-work/rea-ida-c5b5a96923145cd23d5e7ccc795425f5/Heroes98348.patched-analysis.exe",
+        "bytes": 53573840,
+        "sha256": "5ae49a508fe545fe462cee32ff6441ecf9d5c2be484c5980a74a6eca11fbcc1d",
+        "mtime_local": "2026-10-25T18:22:15"
+      }
+    ],
+    "original_98348_pin": {
+      "bytes": 53573840,
+      "sha256": "efdf5a2f13dfe4f66a63f525f4d4ae3c953064232c60da74b4e6540aa534dca9"
+    },
+    "original_98348_pin_present_in_install": false,
+    "derived_copies_equal_original_pin": false
+  },
+  "findings": {
+    "live_eu_us_build": "2.57.1.98785",
+    "installed_build": "2.57.1.98785",
+    "pinned_98348_client_present": false,
+    "empty_version_directories": [
+      "Base98348",
+      "Base98746"
+    ],
+    "version_directories_with_client": [
+      "Base98285",
+      "Base98785"
+    ],
+    "cdn_still_serves_98348_build_and_cdn_config": true,
+    "latest_published_heroprotocol_schema": 96477,
+    "local_casc_storage_build": "2.57.1.98785"
+  },
+  "hazards": [
+    "The installed CASC storage now holds 98785 data. Never label installed-storage reads as 98348.",
+    "The installed-CASC 98348 research readers pin VersionName 2.57.0.98348, BuildName B98348, root c3b3c8bc82e3a5a62e550fdde9a40c28 and BuildKey a64c9b7ebf1c6a811ffefad97865ed80, so they now fail closed.",
+    "The derived Heroes98348.patched-analysis.exe copies (sha256 5ae49a50...) are not the original 98348 PE."
+  ],
+  "secondary_patch_sources": [
+    "https://ixbt.games/en/news/2026/11/24/heroes-of-the-storm-polucila-obnovlenie-s-novym-kontentom-blizzard-predstavila-opisanie-na-russkom-iazyke.amp.html",
+    "https://heroes.judgehype.com/news/mise-a-jour-2-257-1-collection-et-modifications-d-equilibrage-186920",
+    "https://www.hotsgg.com/patches/heroes-of-the-storm-ptr-patch-notes-november-9-2026",
+    "https://hotspatchnotes.com/"
+  ],
+  "secondary_patch_summary": "2.57.1 reportedly went live on 2026-11-23 as 98746 with a 2026-11-25 hotfix 98785; reported balance changes include Greymane. Official notes were not read; these are secondary sources.",
+  "user_decisions": {
+    "execution": "offline_only (2026-11-16 instruction reconfirmed 2026-11-28)",
+    "conversion_target": "2.57.0.98348; a later separately measured 98348->98785 lift audit",
+    "restore_original_98348_client_from_official_cdn_for_static_analysis": true
+  },
+  "claims": {
+    "game_or_battle_net_launched": false,
+    "computer_use_used": false,
+    "installation_modified": false,
+    "native_playback_verified": false,
+    "conversion_changed": false,
+    "sync_data_changed": false
+  }
+}
