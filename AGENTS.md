@@ -2363,3 +2363,16 @@ choice (17713 inputs, 8560be8f...) and the award (273 frames through loop365,
 witnesses (one at selector2) match exactly; repeat identical. Talent behavior
 is unchanged 98348: May2016 reward/completion and 1/6-vs-0.2001 minion credit
 stay open. Next original tracker record 252 at loop610. Syncs 0/308.
+
+## Gate opening joined to the continuous tracker - 2026-11-28
+
+Read docs/GATE_OPENING_JOIN.md and observations/gate-opening-join.json.
+join_sparse_tracker_range.py appends sparse MercCapture frames for source
+ordinals 252..316 (loop610: GatesOpen, 10 GatesAreOpen, 54 blocker removals).
+Candidate differs from MercCapture only by 92 appended talent records and
+localized text; 64 of 65 joined frames are byte-identical to the sparse frames;
+blocker killer player 0 replaces the omitted source value. Prefix 338 frames
+through loop610 (acfb5db5...), repeat identical. Next: ordinal317 loop682
+Abathur TalentChosen AbathurMasteryEnvenomedNestsToxicNest, then 10
+MinionsAreSpawning at loop690 and first-wave births at loop691 (tag allocation).
+Current goal pointer: outputs/CLAUDE_GOAL_TEN_GREYMANE_2026-11-28.txt.

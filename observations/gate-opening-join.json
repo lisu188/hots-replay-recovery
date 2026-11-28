@@ -1,0 +1,63 @@
+{
+  "format": "ten-gate-opening-join-observation-v1",
+  "observed_local_date": "2026-11-28",
+  "tools": {
+    "join_sparse_tracker_range.py": "51992bd4b9fdb4fe774d9f432880a82d1c80d0267b8eb0c18051673e6c4ef5f6",
+    "test_join_sparse_tracker_range.py": "70b4606bb97b63692e7ba3f85889a7906b856b1c5bd0b498a6bfd5015414788a"
+  },
+  "receipt": {
+    "parent_prefix_sha256": "8d037868f6778a9b92fc22c8a3157eb7dbc6b82781437eb67098293059464a63",
+    "sparse_sha256": "d9ec90c5eab4deef5d21dee2d4e8f94c5d5a09e5d8f226e469093c9676fc4202",
+    "sparse_ledger_sha256": "48ded0fc2551975f35a6735c79fdd9c079f6b73fe91f98af7e30adfb4cb8fe2c",
+    "sparse_map_sha256": "54e1a8fbe7e42f00b7b52cde420ed259105228fcdf165097ef52ecd0f5c4125a",
+    "candidate_sha256": "fa349ed928b649ea203133237999e8d4202a6e13b328224619eb1399cff23d6c",
+    "map_difference": {
+      "changed_members": [
+        "Base.StormData\\GameData\\BehaviorData.xml",
+        "Base.StormData\\GameData\\ButtonData.xml",
+        "Base.StormData\\GameData\\EffectData.xml",
+        "Base.StormData\\GameData\\HeroData.xml",
+        "Base.StormData\\GameData\\TalentData.xml",
+        "Base.StormData\\GameData\\ValidatorData.xml",
+        "enUS.StormData\\LocalizedData\\GameStrings.txt",
+        "plPL.StormData\\LocalizedData\\GameStrings.txt"
+      ],
+      "appended_records": 92,
+      "unchanged_members": 65
+    },
+    "source_ordinals": [
+      252,
+      316
+    ],
+    "target_sparse_ordinals": [
+      267,
+      331
+    ],
+    "producers": [
+      "GatesAreOpen",
+      "gate_blocker_removal",
+      "gates_open"
+    ],
+    "joined_frames": 65,
+    "loop": [
+      610
+    ],
+    "frames": 338,
+    "bytes": 18753,
+    "sha256": "acfb5db557417be9a3ed71ae9b409ff49dd899906ede889b0cfac2604ae2bfad",
+    "byte_identical_frames_after_first": 64,
+    "next_source_ordinal": 317,
+    "next_loop": 682,
+    "next_source_event": "TalentChosen",
+    "killer_player_zero_for_omitted_source_value": 54,
+    "target_simulation_verified": false,
+    "verified_target_syncs": 0
+  },
+  "repeat_identical": true,
+  "claims": {
+    "new_semantic_projection": false,
+    "target_simulation_verified": false,
+    "verified_target_syncs": 0,
+    "game_launched": false
+  }
+}
